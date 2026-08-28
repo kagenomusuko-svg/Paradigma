@@ -27,6 +27,9 @@ jobs:
       - name: Segmentar y verificar segundo lote
         run: python scripts/segmentar_lote_02.py
 
+      - name: Segmentar y verificar tercer lote
+        run: python scripts/segmentar_lote_03.py
+
       - name: Reconstruir catálogo general
         run: python scripts/construir_catalogo.py
 
