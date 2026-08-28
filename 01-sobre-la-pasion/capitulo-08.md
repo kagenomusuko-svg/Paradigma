@@ -1,0 +1,523 @@
+### Capítulo 8
+
+La mediación neutral
+Voluntad + Acto + Mediación = ser/existir
+
+---
+
+«Antes de que alguien decida
+existir,
+ya existe.
+Antes de que alguien asuma su
+pasión,
+su pasión ya lo ha determinado.»
+
+### I. La transición que este capítulo ejecuta
+
+Los siete capítulos anteriores construyeron el suelo
+ontológico del sistema: el caos como posibilidad infinita, el
+colapso como mecanismo de la determinación, la pasión
+como tendencia de determinación universal, su operación
+en los objetos y en los organismos, su estructura dual de
+
+Afrodita Areia: sobre la pasión · Vol. I
+dominio y conquista. Todo ese trabajo fue necesario. Pero
+era trabajo preparatorio. Lo que este capítulo comienza a
+hacer es diferente: comienza a describir el mecanismo por
+el cual la pasión se convierte en autodeterminación, la
+tendencia de determinación anónima en acto asumido, el
+ser que simplemente es en sujeto que puede decir yo soy.
+Ese mecanismo tiene tres momentos que este sistema
+llama mediaciones. No son etapas cronológicas que se
+superan una vez alcanzadas: son niveles de organización de
+la determinación que pueden coexistir, que operan
+simultáneamente en el sujeto adulto, y que se distinguen no
+por cuándo ocurren sino por la estructura de la relación
+entre pasión, voluntad y acto que cada uno produce.
+Este capítulo describe el primero de esos momentos: la
+mediación neutral. La fórmula que lo define es la más
+simple del sistema:
+Voluntad + Acto + Mediación = ser/existir
+Simple en su expresión, profunda en sus implicaciones. La
+mediación neutral es el nivel en que todo existe: objetos,
+
+Afrodita Areia: sobre la pasión · Vol. I
+organismos, y también sujetos humanos cuando actúan sin
+asumir todavía que actúan, cuando su pasión produce
+colapsos que nadie ha reclamado todavía como propios. Es
+el nivel de la determinación sin autodeterminación, de la
+existencia sin ego, de la voluntad que opera sin que haya
+aún un yo que la oriente reflexivamente.
+Una nota terminológica que conviene situar desde el
+principio: lo que este volumen llama mediación neutral
+corresponde exactamente a lo que el libro anterior de este
+sistema —Caos, el abismo del ego y la doble mediación—
+denomina mediación prima en sentido material. Se adopta
+aquí la denominación de ese volumen para mantener la
+coherencia del sistema a lo largo de la colección. El lector
+que provenga de ese libro puede leer mediación neutral y
+mediación neutral como sinónimos perfectos; el lector que
+llegue aquí por primera vez encontrará la explicación
+completa en este capítulo y en el Capítulo 12, que mapea
+explícitamente las correspondencias terminológicas entre
+los dos libros.
+
+### II. Heidegger: el ser-ahí antes de toda decisión
+
+Afrodita Areia: sobre la pasión · Vol. I
+Martin Heidegger introdujo en Ser y tiempo una distinción
+que ningún filósofo anterior había formulado con esa
+claridad: la diferencia entre el ser simplemente presente —
+el objeto que está ahí, disponible, sin ninguna relación con
+su propio ser— y el Dasein —el ser-ahí, el ente que en su
+ser le va su propio ser, que existe de manera tal que su
+existencia misma es un asunto para él. ³⁹
+Lo que Heidegger estaba señalando es filosóficamente
+preciso: los seres humanos no simplemente están en el
+mundo como las piedras están en el mundo. Están en el
+mundo de una manera que implica una relación con su
+propio estar: el ser humano no es indiferente a su existencia
+de la manera en que la piedra es indiferente a la suya. Y esa
+no-indiferencia es lo que hace posible la pregunta por el
+sentido del ser, la comprensión del ser como comprensión
+—no como conocimiento teórico sino como manera de
+habitar el mundo.
+La coincidencia entre esta distinción heideggeriana y lo que
+este sistema propone para la transición de la mediación
+neutral a la mediación fanes es real y profunda. El Dasein
+de Heidegger es el ente que ha comenzado a tener una
+relación con su propio ser: ha salido del nivel de la
+
+Afrodita Areia: sobre la pasión · Vol. I
+mediación neutral —donde la existencia ocurre sin que
+nadie la asuma— y ha entrado en el umbral de la
+autodeterminación. No es todavía el ego que se
+autodetermina plenamente, pero tampoco es la piedra que
+simplemente es.
+Pero Heidegger tiene un punto de partida que este sistema
+no puede compartir, y que determina todo lo que sigue en
+su análisis: el Dasein es su punto de partida, no su punto
+de llegada. Heidegger no se pregunta cómo el ser-ahí llega
+a ser lo que es: comienza ya en el nivel de un ente que tiene
+relación con su propio ser, y desde ahí describe las
+estructuras de esa relación —la facticidad, el proyecto, la
+caída, el ser-con, el ser-para-la-muerte. Lo que precede al
+Dasein —el nivel en que la existencia ocurre sin ninguna
+relación reflexiva con ella misma— no es el tema de
+Heidegger, aunque su análisis lo presupone.
+Esto es exactamente lo que la mediación neutral describe:
+el nivel que Heidegger presupone, pero no tematiza. El
+nivel en que el ser existe sin que en su ser le vaya su propio
+ser, sin que haya ninguna relación reflexiva entre la
+existencia y quien existe. La mediación neutral es el ser-ahí
+antes de que el ser-ahí sepa que es ahí: la existencia sin la
+
+Afrodita Areia: sobre la pasión · Vol. I
+comprensión del ser que Heidegger convierte en la
+estructura definitoria del Dasein.
+Lo que este sistema añade a Heidegger —y en esto el
+sistema va más lejos que la analítica existencial— es la
+descripción del mecanismo por el cual se pasa del nivel de
+la mediación neutral al nivel en que el ente comienza a
+tener relación con su propio ser. Ese mecanismo es la
+mediación fanes, que el siguiente capítulo describirá.
+Heidegger lo presupone; este sistema lo construye.
+
+### III. Merleau-Ponty: el cuerpo como primer mediador
+
+Maurice Merleau-Ponty desarrolló en Fenomenología de la
+percepción un argumento que es el más cercano de toda la
+tradición filosófica a lo que este sistema llama la mediación
+neutral: el cuerpo —no el cuerpo-objeto que la fisiología
+describe sino el cuerpo-vivido que habita el mundo antes
+de toda reflexión— es el primer nivel de relación entre el
+ser y su entorno, el mediador primordial que precede a toda
+conciencia reflexiva y la hace posible. ⁴⁰
+Para Merleau-Ponty, el cuerpo no es un instrumento que el
+sujeto usa para relacionarse con el mundo: es la manera en
+
+Afrodita Areia: sobre la pasión · Vol. I
+que el sujeto es el mundo antes de que haya sujeto en el
+sentido reflexivo del término. El cuerpo sabe nadar antes
+de que el nadador sepa que sabe nadar. El cuerpo sabe
+conducir antes de que el conductor pueda describir lo que
+hace. El cuerpo sabe orientarse en el espacio antes de que
+haya un yo consciente que se oriente. El saber del cuerpo
+no es el saber de la conciencia: es el saber de la pasión que
+opera en el nivel de la mediación neutral, antes de que haya
+un ego que lo asuma como suyo. ⁴¹
+La fenomenología del cuerpo que Merleau-Ponty
+construye es, en términos de este sistema, la descripción
+más precisa que la tradición filosófica ha producido de lo
+que ocurre en el nivel de la mediación neutral cuando el
+sistema es lo suficientemente complejo —un organismo
+con sistema nervioso, con hábitos motores, con esquema
+corporal— para que la mediación neutral produzca
+comportamiento orientado sin que haya todavía un ego
+que lo dirija reflexivamente.
+El bebé que mama no ha decidido mamar: su pasión lo
+determina hacia ese acto sin que haya ningún yo que
+oriente esa determinación. El niño que aprende a caminar
+no decide cada paso: su cuerpo incorpora el equilibrio
+
+Afrodita Areia: sobre la pasión · Vol. I
+como hábito motor antes de que haya una conciencia
+reflexiva que supervise ese aprendizaje. El adulto que
+conduce mientras piensa en otra cosa no ha delegado la
+conducción a ningún piloto automático exterior a él: su
+pasión, operando en el nivel de la mediación neutral, sigue
+colapsando las posibilidades del tráfico sin que el ego esté
+presente en cada decisión.
+Pero hay una diferencia entre Merleau-Ponty y este sistema
+que conviene marcar con precisión, porque afecta a la
+manera en que se entiende la mediación neutral. Para
+Merleau-Ponty, el cuerpo-vivido es ya una forma de
+intencionalidad: tiene una orientación hacia el mundo, un
+arco intencional que lo dirige hacia los objetos antes de que
+haya conciencia reflexiva. ⁴² Esa intencionalidad motora es,
+para Merleau-Ponty, irreductible a la causalidad física: hay
+algo que es ser este cuerpo que se orienta, algo que no
+puede describirse desde afuera sin perder lo esencial.
+Este sistema acepta la irreductibilidad, pero rechaza la
+intencionalidad como categoría para describirla. La
+mediación neutral no es intencional en ningún sentido que
+requiera un polo subjetivo —aunque sea preconsciente—
+que se dirija hacia objetos. Es la operación de la pasión en
+
+Afrodita Areia: sobre la pasión · Vol. I
+el nivel en que la determinación ocurre sin que haya nadie
+que la dirija. La orientación que la mediación neutral
+produce no es intencionalidad: es la expresión de la
+tendencia de determinación de una organización
+suficientemente compleja. El cuerpo-vivido de Merleau-
+Ponty es real; la intencionalidad motora que él le atribuye
+es una descripción fenomenológica de algo que este
+sistema describe ontológicamente como la operación de la
+pasión en el nivel de la mediación neutral.
+
+### IV. Kant y el yo trascendental: una condición
+
+innecesaria
+La interlocución con Kant en este capítulo tiene una
+función crítica precisa: mostrar que la condición que Kant
+introduce para explicar la unidad de la experiencia —el yo
+trascendental, la apercepción pura, el «yo pienso» que debe
+poder acompañar todas mis representaciones— es una
+condición innecesaria si la determinación puede explicarse
+sin ella. ⁴³
+El argumento de Kant es conocido, pero vale la pena
+reconstruirlo en sus términos más precisos. Para que la
+experiencia sea experiencia —para que las
+
+Afrodita Areia: sobre la pasión · Vol. I
+representaciones que el sujeto tiene sean sus
+representaciones, para que haya una unidad que las
+unifique en un solo campo de experiencia— debe haber
+algo que las unifique. Y ese algo no puede ser ninguna
+representación particular, porque todas las
+representaciones necesitan ser unificadas: tiene que ser la
+condición formal de posibilidad de toda unificación. Eso
+es el yo trascendental: no el yo empírico que se conoce a
+través de la experiencia interna, sino la condición formal
+que hace posible que haya experiencia en absoluto.
+La elegancia del argumento kantiano es indiscutible. Y
+tiene una consecuencia que Kant toma en serio: el yo
+trascendental no se conoce, no tiene contenido, no es un
+sujeto en ningún sentido sustancial. Es una función formal,
+la condición de posibilidad de la unidad de la experiencia,
+que se postula porque sin ella la experiencia no podría ser
+lo que es pero que no puede ser objeto de ninguna
+experiencia.
+Lo que este sistema propone es que esa función formal es
+innecesaria si la unidad de la experiencia puede explicarse
+de otra manera. Y la mediación neutral ofrece exactamente
+esa explicación alternativa: la unidad de la experiencia no
+
+Afrodita Areia: sobre la pasión · Vol. I
+requiere ninguna condición formal que la produzca desde
+afuera o desde una posición trascendente respecto a ella.
+La unidad emerge de la misma organización de la pasión
+que produce la experiencia: el organismo que percibe, que
+actúa, que responde a su entorno, produce una unidad de
+experiencia que es la unidad de su propia organización
+orientada, no la unidad impuesta por ninguna condición
+formal exterior a ella.
+En la mediación neutral, la voluntad opera —hay una
+orientación, hay una tendencia que colapsa posibilidades
+de cierta manera— pero esa voluntad no está unificada por
+ningún yo trascendental. Está unificada por la pasión del
+organismo, por la configuración de su tendencia de
+determinación que orienta todos sus colapsos desde la
+misma fuente. No hace falta postular ninguna condición
+formal de posibilidad: la unidad está en la organización
+misma, en la pasión que atraviesa toda la actividad del
+organismo y le da la coherencia que la experiencia tiene.
+La crítica a Kant que este capítulo propone no es que el yo
+trascendental no exista: es que es innecesario. La unidad
+que el yo trascendental garantiza puede explicarse desde la
+organización de la pasión sin necesidad de postular
+
+Afrodita Areia: sobre la pasión · Vol. I
+ninguna condición formal trascendente. Y si puede
+explicarse sin ella, la parsimonia ontológica exige que no se
+la postule.
+
+### V. La fórmula: Voluntad + Acto + Mediación =
+
+ser/existir
+Con los tres interlocutores situados, es posible describir la
+mediación neutral con la precisión que el sistema requiere.
+La fórmula Voluntad + Acto + Mediación = ser/existir
+tiene tres términos que deben entenderse con cuidado
+porque su significado en este sistema no coincide con el
+uso ordinario.
+La voluntad, en el nivel de la mediación neutral, no es la
+voluntad consciente del sujeto que decide: es la tendencia
+de determinación del ser, su pasión operando como
+orientación hacia ciertos colapsos y no otros. En los
+objetos, es la configuración material que orienta su
+comportamiento. En los organismos, es la organización
+autopoiética que orienta sus procesos hacia la
+conservación. En el sujeto humano que opera en el nivel
+de la mediación neutral, es la pasión que orienta sus actos
+
+Afrodita Areia: sobre la pasión · Vol. I
+antes de que haya reflexión sobre ellos. La voluntad de la
+mediación neutral es pasión sin ego.
+El acto, en el nivel de la mediación neutral, es el colapso
+de una posibilidad producido por esa tendencia. No es el
+acto intencional del sujeto que sabe lo que hace: es la
+determinación que ocurre cuando la voluntad-pasión
+colapsa una posibilidad en realidad. La piedra que cae
+produce un acto de determinación: colapsa la posibilidad
+de seguir suspendida en el aire. El organismo que crece
+produce actos de determinación: colapsa las posibilidades
+del desarrollo en una secuencia específica. El ser humano
+que respira produce un acto de determinación: colapsa la
+posibilidad de no respirar sin que nadie haya decidido
+hacerlo.
+La mediación, en este nivel, es el proceso por el cual la
+voluntad-pasión y el acto se articulan sin que haya ego que
+medie entre ellos. No hay ningún yo que interponga su
+reflexión entre la tendencia y el colapso: la mediación
+ocurre directamente, la pasión colapsa la posibilidad sin
+pasar por ninguna deliberación, sin que nadie asuma ese
+colapso como suyo en el momento en que ocurre. La
+mediación neutral es mediación sin mediador reflexivo: el
+
+Afrodita Areia: sobre la pasión · Vol. I
+proceso existe, la articulación entre voluntad y acto existe,
+pero el sujeto que podría reclamar esa articulación como
+propia todavía no está presente —o no está presente en ese
+momento.
+El resultado —ser/existir— es lo que todo ser
+determinado produce a través de la mediación neutral:
+simplemente es, simplemente existe, en la forma específica
+que su pasión ha colapsado. No más que eso. No menos
+que eso. Ser en el nivel de la mediación neutral es existir
+sin asumir la existencia, colapsar sin reclamar el colapso,
+tener pasión sin que haya nadie que sea apasionado.
+
+### VI. Lo que la mediación neutral incluye
+
+La mediación neutral no es exclusiva de los objetos y los
+organismos simples: incluye también al ser humano en
+todos los momentos en que su existencia ocurre sin
+autodeterminación reflexiva. Y esos momentos son más
+numerosos de lo que la tradición filosófica ha querido
+reconocer.
+El sueño es mediación neutral: el organismo sigue
+existiendo, sigue manteniendo su organización, sigue
+
+Afrodita Areia: sobre la pasión · Vol. I
+colapsando posibilidades —la temperatura corporal, la
+respiración, la reparación celular— sin que haya ningún
+ego presente. El hábito consolidado es mediación neutral:
+cuando el pianista ejecuta una escala que ha practicado
+miles de veces, su cuerpo colapsa las posibilidades del
+movimiento sin que el ego supervise cada nota. La
+emoción que desborda es mediación neutral: cuando el
+miedo produce huida antes de que haya ninguna
+deliberación, la pasión colapsa la posibilidad de quedarse
+sin que nadie la haya elegido.
+Pero hay un caso más importante que todos los demás, y
+que tiene consecuencias directas sobre la responsabilidad:
+el ser humano que existe sin haberse jamás
+autodeterminado. El niño en sus primeros meses, el adulto
+que nunca ha pasado por la mediación fanes —que opera
+siempre desde la tendencia de su pasión sin haberla
+asumido jamás como propia— existe en el nivel de la
+mediación neutral, aunque sea biológicamente adulto. La
+mediación neutral no es una etapa cronológica de la vida
+que se supera automáticamente al crecer: es un nivel de
+organización de la determinación que puede ser el único
+
+Afrodita Areia: sobre la pasión · Vol. I
+nivel en que ciertos seres humanos operan durante
+períodos largos o incluso durante toda su vida.
+Esto tiene una implicación que el sistema desarrollará
+cuando llegue a la mediación fanes: la autodeterminación
+no es el destino automático de todo ser humano. Es una
+posibilidad que la organización biológica y social del ser
+humano hace disponible, pero que solo se actualiza a través
+de un proceso específico —la mediación fanes— que no
+ocurre sin condiciones.
+
+### VII. La pasión en la mediación neutral: existe, pero
+
+no es de nadie
+La característica más importante de la mediación neutral
+para el argumento de este libro es la que el capítulo anterior
+ya anunció y que conviene ahora formular con toda la
+precisión que el sistema permite: en el nivel de la mediación
+neutral, la pasión existe, pero no es de nadie.
+La pasión está presente: hay tendencia de determinación,
+hay orientación hacia ciertos colapsos, hay las dos
+dimensiones —dominio y conquista— operando en la
+organización del ser. Pero no hay ningún sujeto que la
+
+Afrodita Areia: sobre la pasión · Vol. I
+asuma como suya, que la reconozca como el fundamento
+de sus actos, que pueda decir esta pasión es mía y por tanto
+estos actos son míos.
+Esa ausencia de asunción tiene una consecuencia directa
+sobre la responsabilidad: en el nivel de la mediación
+neutral, no hay responsabilidad. No porque los colapsos
+que la mediación neutral produce sean irrelevantes —son
+ontológicamente reales, modifican el campo de
+posibilidades en que otros seres existen— sino porque la
+responsabilidad requiere un sujeto que asuma el colapso
+como propio, y ese sujeto no existe todavía en el nivel de
+la mediación neutral. La piedra que cae y aplasta algo no es
+responsable de lo que aplasta: su colapso es real, sus
+consecuencias son reales, pero no hay nadie que pueda ser
+imputado. El organismo que daña a otro organismo en su
+búsqueda de nutrientes no es responsable de ese daño: su
+pasión lo determinó hacia ese acto, pero no hay ego que
+pueda asumir esa determinación como propia.
+El ser humano que actúa en el nivel de la mediación neutral
+—que respira, que duerme, que ejecuta hábitos
+consolidados— no es responsable de esos actos en el
+sentido pleno que este sistema le da a la responsabilidad.
+
+Afrodita Areia: sobre la pasión · Vol. I
+No porque sea irresponsable en el sentido moral ordinario
+—negligente, descuidado— sino porque la estructura de la
+determinación en ese nivel no incluye la asunción que la
+responsabilidad requiere. La imputación causal solo puede
+alcanzar al sujeto en la medida en que el sujeto ha asumido
+su pasión como propia: en la medida en que ha salido del
+nivel de la mediación neutral y ha entrado en el nivel de la
+mediación fanes o de la mediación bis.
+Esto tiene una consecuencia filosófica que va contra el
+sentido común de la responsabilidad moral habitual: no
+todo acto de un ser humano es un acto del sujeto en el
+sentido pleno. Hay actos que el ser humano produce en el
+nivel de la mediación neutral —actos que su pasión colapsa
+sin que haya ego que los asuma— y esos actos no son del
+sujeto en el sentido en que la responsabilidad requiere. Son
+del ser, son del organismo, son de la pasión que opera sin
+ego. Pero no son del yo.
+
+### VIII. Por qué la mediación neutral no es el nivel
+
+inferior
+Podría parecer que la mediación neutral es un nivel
+deficiente de la existencia: el nivel en que todavía no se ha
+
+Afrodita Areia: sobre la pasión · Vol. I
+llegado a ser plenamente sujeto, en que la determinación
+ocurre sin la dignidad de la autodeterminación reflexiva.
+Esa lectura sería un error, y conviene corregirla antes de
+cerrar el capítulo.
+La mediación neutral no es inferior a las otras dos
+mediaciones: es la condición de posibilidad de ambas. Sin
+la mediación neutral —sin el nivel en que la existencia
+ocurre sin ego— no habría ningún ser sobre el cual la
+mediación fanes pudiera operar. El ego no se constituye en
+el vacío: se constituye sobre la base de un ser que ya existe
+en el nivel de la mediación neutral, que ya tiene pasión, que
+ya colapsa posibilidades, y que a través de la mediación
+fanes llega a asumir esa existencia como propia.
+La mediación neutral es además el nivel al que el sujeto
+siempre regresa. No en el sentido de una regresión o una
+pérdida: sino porque ningún sujeto opera en el nivel de la
+autodeterminación reflexiva en todo momento. La
+respiración, el sueño, el hábito, la emoción que desborda:
+todo eso es mediación neutral operando dentro del sujeto
+que también opera en el nivel de la mediación bis. El sujeto
+no supera la mediación neutral: la integra. Sigue siendo un
+ser que existe en el nivel de la mediación neutral al mismo
+
+Afrodita Areia: sobre la pasión · Vol. I
+tiempo que es un ego que se autodetermina en el nivel de
+la mediación bis.
+Hay también en la mediación neutral una dimensión de
+humildad ontológica que este sistema quiere preservar: el
+reconocimiento de que la mayor parte de lo que somos
+ocurre sin que lo hayamos decidido, sin que lo hayamos
+asumido, sin que haya ningún ego que lo reclame como
+propio. La pasión que nos constituye opera antes de que
+lleguemos a ella con nuestra reflexión. El mundo que
+habitamos nos habita antes de que lo habitemos
+deliberadamente. La mediación neutral es el recordatorio
+permanente de que el ego es una isla en un océano de
+determinaciones que lo preceden y que lo exceden, y que
+esa isla solo existe porque el océano la sostiene.
+
+---
+
+### Notas
+
+³⁹ Heidegger, Martin, Ser y tiempo (1927), § 4. La distinción entre el
+ente simplemente presente —vorhanden— y el Dasein se establece
+desde las primeras páginas de la obra. La formulación exacta de la
+
+Afrodita Areia: sobre la pasión · Vol. I
+definición del Dasein como «el ente al que en su ser le va ese mismo
+ser» aparece en §4 y se desarrolla a lo largo de la División Primera. La
+traducción del término Dasein como «ser-ahí» es convencional en
+castellano; otras traducciones proponen «existencia» o simplemente
+conservan el término alemán.
+⁴⁰ Merleau-Ponty, Maurice, Fenomenología de la percepción (1945),
+
+## Parte II, cap. III. El concepto de cuerpo-vivido —Leib en la tradición
+
+fenomenológica, para distinguirlo del cuerpo-objeto Körper— tiene
+antecedentes en Husserl, pero es en Merleau-Ponty donde alcanza su
+desarrollo más completo. La distinción entre el cuerpo que tengo y el
+cuerpo que soy es la formulación más accesible de lo que está en juego.
+⁴¹ La noción de «saber del cuerpo» o «saber motor» que Merleau-Ponty
+desarrolla en la Fenomenología de la percepción, Parte II, cap. I, ha
+encontrado respaldo en la neurociencia contemporánea, en particular
+en los trabajos sobre memoria procedural y en los estudios sobre el
+sistema de neuronas espejo. La distinción entre saber-cómo y saber-
+que —entre el conocimiento incorporado en el hábito motor y el
+conocimiento proposicional— es una distinción filosófica que la
+psicología cognitiva ha reformulado en términos propios sin alterar su
+núcleo.
+⁴² Merleau-Ponty, Fenomenología de la percepción, Parte I, cap. III.
+El «arco intencional» es la manera en que Merleau-Ponty describe la
+orientación global del cuerpo hacia su mundo: no como
+intencionalidad de actos particulares sino como la manera en que el
+cuerpo-vivido tiene siempre ya una relación con el entorno que
+precede a cualquier acto intencional particular. La crítica que este
+sistema le hace no invalida esa descripción fenomenológica: la
+reinterpreta en términos ontológicos que no requieren la categoría de
+intencionalidad.
+⁴³ Kant, Immanuel, Crítica de la razón pura (1781/1787), «Deducción
+trascendental de los conceptos puros del entendimiento», §16. La
+
+Afrodita Areia: sobre la pasión · Vol. I
+formulación del yo trascendental como apercepción pura establece que
+el yo pienso tiene que poder acompañar todas mis representaciones.
+Esa posibilidad formal es lo que Kant llama apercepción trascendental
+o unidad sintética de la apercepción. La diferencia entre la apercepción
+trascendental y el yo psicológico es uno de los puntos más delicados
+de la filosofía kantiana y ha generado un debate interpretativo que va
+desde Fichte hasta el neokantismo contemporáneo.
+
+Afrodita Areia: sobre la pasión · Vol. I
+
+## Parte III — Las mediaciones
+
