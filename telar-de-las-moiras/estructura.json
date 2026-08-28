@@ -1,0 +1,114 @@
+{
+  "title": "El telar de las Moiras: Ontología de la autodeterminación causal",
+  "source": "corpus/fuentes/El_telar_de_las_Moiras_Ontologia_de_la_autodeterminacion_causal.md",
+  "sha256": "05b0636bc15c9c0bd92c96cf95e2a96fae0d030a54843e7c87bb9608378fc049",
+  "series": null,
+  "volume": null,
+  "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+  "segments": [
+    {
+      "path": "corpus/libros/telar-de-las-moiras/00-preliminares.md",
+      "kind": "preliminares",
+      "start_line": 1,
+      "end_line": 125
+    },
+    {
+      "path": "corpus/libros/telar-de-las-moiras/01-presentacion.md",
+      "kind": "presentacion",
+      "heading": "Presentación",
+      "start_line": 126,
+      "end_line": 314
+    },
+    {
+      "path": "corpus/libros/telar-de-las-moiras/capitulo-01.md",
+      "kind": "chapter",
+      "heading": "### Capítulo I",
+      "start_line": 315,
+      "end_line": 717
+    },
+    {
+      "path": "corpus/libros/telar-de-las-moiras/capitulo-02.md",
+      "kind": "chapter",
+      "heading": "### Capítulo II",
+      "start_line": 718,
+      "end_line": 1250
+    },
+    {
+      "path": "corpus/libros/telar-de-las-moiras/capitulo-03.md",
+      "kind": "chapter",
+      "heading": "### Capítulo III",
+      "start_line": 1251,
+      "end_line": 1692
+    },
+    {
+      "path": "corpus/libros/telar-de-las-moiras/capitulo-04.md",
+      "kind": "chapter",
+      "heading": "### Capítulo IV",
+      "start_line": 1693,
+      "end_line": 2449
+    },
+    {
+      "path": "corpus/libros/telar-de-las-moiras/capitulo-05.md",
+      "kind": "chapter",
+      "heading": "### Capítulo V",
+      "start_line": 2450,
+      "end_line": 2952
+    },
+    {
+      "path": "corpus/libros/telar-de-las-moiras/capitulo-06.md",
+      "kind": "chapter",
+      "heading": "### Capítulo VI",
+      "start_line": 2953,
+      "end_line": 3435
+    },
+    {
+      "path": "corpus/libros/telar-de-las-moiras/capitulo-07.md",
+      "kind": "chapter",
+      "heading": "### Capítulo VII",
+      "start_line": 3436,
+      "end_line": 3935
+    },
+    {
+      "path": "corpus/libros/telar-de-las-moiras/capitulo-08.md",
+      "kind": "chapter",
+      "heading": "### Capítulo VIII",
+      "start_line": 3936,
+      "end_line": 4837
+    },
+    {
+      "path": "corpus/libros/telar-de-las-moiras/capitulo-09.md",
+      "kind": "chapter",
+      "heading": "### Capítulo IX",
+      "start_line": 4838,
+      "end_line": 5949
+    },
+    {
+      "path": "corpus/libros/telar-de-las-moiras/capitulo-10.md",
+      "kind": "chapter",
+      "heading": "### Capítulo X",
+      "start_line": 5950,
+      "end_line": 6604
+    },
+    {
+      "path": "corpus/libros/telar-de-las-moiras/90-epilogo.md",
+      "kind": "epilogo",
+      "heading": "Epílogo: lo que el libro no puede hacer por el",
+      "start_line": 6605,
+      "end_line": 6823
+    },
+    {
+      "path": "corpus/libros/telar-de-las-moiras/apendice-01.md",
+      "kind": "appendix",
+      "heading": "### APÉNDICE I",
+      "start_line": 6824,
+      "end_line": 6893
+    },
+    {
+      "path": "corpus/libros/telar-de-las-moiras/apendice-02.md",
+      "kind": "appendix",
+      "heading": "### APÉNDICE II",
+      "start_line": 6894,
+      "end_line": 7052
+    }
+  ]
+}
