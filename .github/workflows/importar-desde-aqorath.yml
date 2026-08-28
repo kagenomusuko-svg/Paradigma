@@ -1,0 +1,82 @@
+name: Importar corpus desde Aqorath
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/trigger-import-aqorath'
+
+permissions:
+  contents: write
+
+jobs:
+  importar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener Paradigma
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Copiar y verificar las once fuentes
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p corpus/fuentes
+          base='https://raw.githubusercontent.com/kagenomusuko-svg/aqorath/main'
+          declare -A expected=(
+            [Arquitectura_Ontologica_Sistemas_Artificiales.md]='d0a71dc576e4a3f3829e6212c08115ddd9d6e6c7'
+            [Axiomatizacion_Sistema_Doble_Mediacion.md]='f462e6c742d0eb54a0947173ba38f1cee0323888'
+            [ECO_Entrevista_Clinica_Ontologica.md]='8c1bf27c90c17db6f8bcae51e3ff8807a07af2a9'
+            [El_calculo_de_la_responsabilidad.md]='7741c4abd33a45cdb099e4be3105e5e25ecb01cf'
+            [El_metodo_Prometeo_imputacion_causal_para_juristas_y_abogados.md]='c7932861d0cbd278baed62e2448a7fc2ef4dd8b6'
+            [HISTOS_Protocolo_de_Acompanamiento_Ontologico.md]='89ce48c628b687897bf3f96b9bc21cb67eb651c9'
+            [La_transformacion_formal_ontologia_del_ego_como_fundamento_del_calculo_causal.md]='d6cf92aea25bbf2ddc14b48cf0e725b4b93e5497'
+            [Metrologia_Causal_La_ciencia_de_la_medicion_causal.md]='0bb70237a2dc5606be5cd4b07dc985801875126a'
+            [Metrologia_Causal_Vol_II.md]='c7c8904eefaf97180cbf21251be3e5c5baaaf408'
+            [SDO_Sistema_de_diagnostico_ontologico.md]='1ffcadbc6f1ed83a47450ca3d0a4705a7ee5b27d'
+            [Taxonomia_General_de_Aplicaciones.md]='e3bc8edd72359d2002135a2b02a40c02e162638b'
+          )
+          for name in "${!expected[@]}"; do
+            curl --fail --location --retry 3 --silent --show-error "$base/$name" -o "corpus/fuentes/$name"
+            actual="$(git hash-object "corpus/fuentes/$name")"
+            test "$actual" = "${expected[$name]}" || { echo "Hash Git distinto para $name: $actual"; exit 1; }
+            echo "Verificado: $name"
+          done
+
+      - name: Segmentar y validar las veinte obras
+        run: |
+          python scripts/segmentar_corpus.py
+          python scripts/segmentar_lote_02.py
+          python scripts/segmentar_lote_03.py
+          python scripts/construir_catalogo.py
+          python scripts/recalcular_hashes.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          catalog = json.loads(Path('corpus/catalogo-generado.json').read_text(encoding='utf-8'))
+          sources = sorted(p.name for p in Path('corpus/fuentes').glob('*.md') if p.name != 'README.md')
+          if len(catalog) != 20:
+              raise SystemExit(f'Catálogo inesperado: {len(catalog)} entradas, se esperaban 20')
+          if len(sources) != 20:
+              raise SystemExit(f'Fuentes inesperadas: {len(sources)} Markdown, se esperaban 20')
+          missing = [entry.get('source') for entry in catalog if not Path(entry.get('source','')).exists()]
+          if missing:
+              raise SystemExit(f'Fuentes de catálogo inexistentes: {missing}')
+          print('Validación final: 20 fuentes canónicas y 20 entradas de catálogo.')
+          PY
+
+      - name: Guardar corpus completo
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add corpus/fuentes corpus/libros corpus/catalogo-generado.json
+          if git diff --cached --quiet; then
+            echo 'No hay cambios que guardar.'
+          else
+            git commit -m 'Incorporar segundo y tercer lote del corpus'
+            git push
+          fi
