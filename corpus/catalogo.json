@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "estado": "ingesta_inicial",
+  "principio": "fuente íntegra → obra/volumen → capítulo → secciones internas",
+  "obras": [
+    {
+      "id": "caos",
+      "titulo": "Caos: El abismo del ego y la doble mediación",
+      "fuente": "corpus/fuentes/Caos_El_abismo_del_ego_y_la_doble_mediacion.md",
+      "destino": "corpus/libros/caos"
+    },
+    {
+      "id": "afrodita-areia-01",
+      "serie": "Afrodita Areia",
+      "volumen": 1,
+      "titulo": "Sobre la pasión",
+      "fuente": "corpus/fuentes/Afrodita_Areia_Sobre_la_Pasion.md",
+      "destino": "corpus/libros/afrodita-areia/01-sobre-la-pasion"
+    },
+    {
+      "id": "afrodita-areia-02",
+      "serie": "Afrodita Areia",
+      "volumen": 2,
+      "titulo": "Ágape",
+      "fuente": "corpus/fuentes/Afrodita_Areia_Agape.md",
+      "destino": "corpus/libros/afrodita-areia/02-agape"
+    },
+    {
+      "id": "afrodita-areia-03",
+      "serie": "Afrodita Areia",
+      "volumen": 3,
+      "titulo": "Damasén",
+      "fuente": "corpus/fuentes/Afrodita_Areia_Damasen.md",
+      "destino": "corpus/libros/afrodita-areia/03-damasen"
+    },
+    {
+      "id": "afrodita-areia-04",
+      "serie": "Afrodita Areia",
+      "volumen": 4,
+      "titulo": "Areópago",
+      "fuente": "corpus/fuentes/Afrodita_Areia_Areopopago.md",
+      "destino": "corpus/libros/afrodita-areia/04-areopago"
+    },
+    {
+      "id": "afrodita-areia-05",
+      "serie": "Afrodita Areia",
+      "volumen": 5,
+      "titulo": "Caelus",
+      "fuente": "corpus/fuentes/Afrodita_Areia_Caelus.md",
+      "destino": "corpus/libros/afrodita-areia/05-caelus"
+    },
+    {
+      "id": "dilema-de-aquiles",
+      "titulo": "El dilema de Aquiles o la disociación del ego",
+      "fuente": "corpus/fuentes/El_dilema_de_Aquiles_o_la_disociacion_del_ego.md",
+      "destino": "corpus/libros/dilema-de-aquiles"
+    },
+    {
+      "id": "juego-de-las-mascaras",
+      "titulo": "El juego de las máscaras o la disforia de la identidad",
+      "fuente": "corpus/fuentes/El_juego_de_las_mascaras_o_la_disforia_de_la_identidad.md",
+      "destino": "corpus/libros/juego-de-las-mascaras"
+    },
+    {
+      "id": "telar-de-las-moiras",
+      "titulo": "El telar de las Moiras: Ontología de la autodeterminación causal",
+      "fuente": "corpus/fuentes/El_telar_de_las_Moiras_Ontologia_de_la_autodeterminacion_causal.md",
+      "destino": "corpus/libros/telar-de-las-moiras"
+    }
+  ]
+}
