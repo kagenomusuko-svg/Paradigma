@@ -3,11 +3,16 @@
 from pathlib import Path
 from segmentar_corpus import SPECS as BASE_SPECS
 from segmentar_lote_02 import SPECS as LOTE_02_SPECS
+from segmentar_lote_03 import SPECS as LOTE_03_SPECS
 
 ROOT = Path(__file__).resolve().parents[1]
 FUENTES = ROOT / "corpus" / "fuentes"
 FUENTES.mkdir(parents=True, exist_ok=True)
-REGISTERED = {spec["source"] for spec in BASE_SPECS} | {spec["source"] for spec in LOTE_02_SPECS}
+REGISTERED = (
+    {spec["source"] for spec in BASE_SPECS}
+    | {spec["source"] for spec in LOTE_02_SPECS}
+    | {spec["source"] for spec in LOTE_03_SPECS}
+)
 
 moved = 0
 for name in sorted(REGISTERED):
