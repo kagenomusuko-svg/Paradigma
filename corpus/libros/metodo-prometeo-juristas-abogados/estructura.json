@@ -1,0 +1,116 @@
+{
+  "id": "PROMETEO-JUR",
+  "title": "El método Prometeo: Imputación causal para juristas y abogados",
+  "source": "corpus/fuentes/El_metodo_Prometeo_imputacion_causal_para_juristas_y_abogados.md",
+  "sha256": "e63d118a5b4cd676b9c28b69cea59bb739ff55575f35788ab5b56b1816fcc03e",
+  "collection": "Método Prometeo de imputación causal",
+  "volume": null,
+  "source_anomalies": [
+    "La fuente contiene dos unidades distintas rotuladas «Capítulo 6»; se conservan como 6a y 6b en la capa derivada sin alterar la fuente."
+  ],
+  "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
+  "segments": [
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/00-preliminares.md",
+      "kind": "preliminares",
+      "start_line": 1,
+      "end_line": 22
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/01-prologo.md",
+      "kind": "prologo",
+      "key": "PROLOGO",
+      "heading": "Prólogo",
+      "start_line": 23,
+      "end_line": 424
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-01.md",
+      "kind": "capitulo",
+      "key": "1",
+      "heading": "### Capítulo 1",
+      "start_line": 425,
+      "end_line": 1183
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-02.md",
+      "kind": "capitulo",
+      "key": "2",
+      "heading": "### Capítulo 2",
+      "start_line": 1184,
+      "end_line": 2423
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-03.md",
+      "kind": "capitulo",
+      "key": "3",
+      "heading": "### Capítulo 3",
+      "start_line": 2424,
+      "end_line": 3622
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-04.md",
+      "kind": "capitulo",
+      "key": "4",
+      "heading": "### Capítulo 4",
+      "start_line": 3623,
+      "end_line": 4631
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-05.md",
+      "kind": "capitulo",
+      "key": "5",
+      "heading": "### Capítulo 5",
+      "start_line": 4632,
+      "end_line": 5675
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-06a.md",
+      "kind": "capitulo",
+      "key": "6a",
+      "heading": "### Capítulo 6",
+      "start_line": 5676,
+      "end_line": 6832
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-06b.md",
+      "kind": "capitulo",
+      "key": "6b",
+      "heading": "### Capítulo 6",
+      "start_line": 6833,
+      "end_line": 8157
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-07.md",
+      "kind": "capitulo",
+      "key": "7",
+      "heading": "### Capítulo 7",
+      "start_line": 8158,
+      "end_line": 9918
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/apendice-a.md",
+      "kind": "apendice",
+      "key": "A",
+      "heading": "Apéndice A",
+      "start_line": 9919,
+      "end_line": 10255
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/apendice-b.md",
+      "kind": "apendice",
+      "key": "B",
+      "heading": "Apéndice B",
+      "start_line": 10256,
+      "end_line": 10359
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/apendice-c.md",
+      "kind": "apendice",
+      "key": "C",
+      "heading": "Apéndice C",
+      "start_line": 10360,
+      "end_line": 10506
+    }
+  ]
+}

@@ -1,5 +1,398 @@
 [
   {
+    "title": "Caos: El abismo del ego y la doble mediación",
+    "source": "corpus/fuentes/Caos_El_abismo_del_ego_y_la_doble_mediacion.md",
+    "sha256": "9ab791af757776fe768b0c4f4c6406d53cb2b68afcc00b2cb5006cb00a95e6bb",
+    "series": null,
+    "volume": null,
+    "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
+    "segments": [
+      {
+        "path": "corpus/libros/caos/00-preliminares.md",
+        "kind": "preliminares",
+        "start_line": 1,
+        "end_line": 151
+      },
+      {
+        "path": "corpus/libros/caos/capitulo-01.md",
+        "kind": "chapter",
+        "heading": "### Capítulo I",
+        "start_line": 152,
+        "end_line": 1375
+      },
+      {
+        "path": "corpus/libros/caos/capitulo-02.md",
+        "kind": "chapter",
+        "heading": "### Capítulo II",
+        "start_line": 1376,
+        "end_line": 2618
+      },
+      {
+        "path": "corpus/libros/caos/capitulo-03.md",
+        "kind": "chapter",
+        "heading": "### Capítulo III",
+        "start_line": 2619,
+        "end_line": 3886
+      },
+      {
+        "path": "corpus/libros/caos/capitulo-04.md",
+        "kind": "chapter",
+        "heading": "### Capítulo IV",
+        "start_line": 3887,
+        "end_line": 5025
+      },
+      {
+        "path": "corpus/libros/caos/capitulo-05.md",
+        "kind": "chapter",
+        "heading": "### Capítulo V",
+        "start_line": 5026,
+        "end_line": 6177
+      },
+      {
+        "path": "corpus/libros/caos/capitulo-06.md",
+        "kind": "chapter",
+        "heading": "### Capítulo VI",
+        "start_line": 6178,
+        "end_line": 7332
+      },
+      {
+        "path": "corpus/libros/caos/capitulo-07.md",
+        "kind": "chapter",
+        "heading": "### Capítulo VII",
+        "start_line": 7333,
+        "end_line": 8371
+      },
+      {
+        "path": "corpus/libros/caos/apendice-01.md",
+        "kind": "appendix",
+        "heading": "### Apéndice I",
+        "start_line": 8372,
+        "end_line": 9265
+      },
+      {
+        "path": "corpus/libros/caos/apendice-02.md",
+        "kind": "appendix",
+        "heading": "### Apéndice II",
+        "start_line": 9266,
+        "end_line": 10352
+      },
+      {
+        "path": "corpus/libros/caos/apendice-03.md",
+        "kind": "appendix",
+        "heading": "### Apéndice III",
+        "start_line": 10353,
+        "end_line": 11640
+      }
+    ]
+  },
+  {
+    "title": "El dilema de Aquiles o la disociación del ego",
+    "source": "corpus/fuentes/El_dilema_de_Aquiles_o_la_disociacion_del_ego.md",
+    "sha256": "ae930142db6d9a62b4bb591175b8f7169984a22bab1cd4bb780812ad76508615",
+    "series": null,
+    "volume": null,
+    "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
+    "segments": [
+      {
+        "path": "corpus/libros/dilema-de-aquiles/00-preliminares.md",
+        "kind": "preliminares",
+        "start_line": 1,
+        "end_line": 290
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/02-prologo.md",
+        "kind": "prologo",
+        "heading": "PRÓLOGO",
+        "start_line": 291,
+        "end_line": 485
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-01.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO I",
+        "start_line": 486,
+        "end_line": 1179
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-02.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO II",
+        "start_line": 1180,
+        "end_line": 1855
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-03.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO III",
+        "start_line": 1856,
+        "end_line": 2542
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-04.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO IV",
+        "start_line": 2543,
+        "end_line": 3270
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-05.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO V",
+        "start_line": 3271,
+        "end_line": 3938
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-06.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO VI",
+        "start_line": 3939,
+        "end_line": 4629
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-07.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO VII",
+        "start_line": 4630,
+        "end_line": 5310
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-08.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO VIII",
+        "start_line": 5311,
+        "end_line": 6042
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/90-epilogo.md",
+        "kind": "epilogo",
+        "heading": "EPÍLOGO",
+        "start_line": 6043,
+        "end_line": 6573
+      }
+    ]
+  },
+  {
+    "title": "El juego de las máscaras o la disforia de la identidad",
+    "source": "corpus/fuentes/El_juego_de_las_mascaras_o_la_disforia_de_la_identidad.md",
+    "sha256": "cbab9ee5a1bb8c838e2dd5de64e314148b90c3f6831d58edb96252e23b255541",
+    "series": null,
+    "volume": null,
+    "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
+    "segments": [
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/00-preliminares.md",
+        "kind": "preliminares",
+        "start_line": 1,
+        "end_line": 85
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/02-prologo.md",
+        "kind": "prologo",
+        "heading": "Prólogo",
+        "start_line": 86,
+        "end_line": 338
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-01.md",
+        "kind": "chapter",
+        "heading": "### Capítulo I",
+        "start_line": 339,
+        "end_line": 847
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-02.md",
+        "kind": "chapter",
+        "heading": "### Capítulo II",
+        "start_line": 848,
+        "end_line": 1476
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-03.md",
+        "kind": "chapter",
+        "heading": "### Capítulo III",
+        "start_line": 1477,
+        "end_line": 2044
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-04.md",
+        "kind": "chapter",
+        "heading": "### Capítulo IV",
+        "start_line": 2045,
+        "end_line": 2638
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-05.md",
+        "kind": "chapter",
+        "heading": "### Capítulo V",
+        "start_line": 2639,
+        "end_line": 3184
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-06.md",
+        "kind": "chapter",
+        "heading": "### Capítulo VI",
+        "start_line": 3185,
+        "end_line": 3763
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-07.md",
+        "kind": "chapter",
+        "heading": "### Capítulo VII",
+        "start_line": 3764,
+        "end_line": 4400
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-08.md",
+        "kind": "chapter",
+        "heading": "### Capítulo VIII",
+        "start_line": 4401,
+        "end_line": 5017
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-09.md",
+        "kind": "chapter",
+        "heading": "### Capítulo IX",
+        "start_line": 5018,
+        "end_line": 5684
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-10.md",
+        "kind": "chapter",
+        "heading": "### Capítulo X",
+        "start_line": 5685,
+        "end_line": 6264
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/90-epilogo.md",
+        "kind": "epilogo",
+        "heading": "Epílogo",
+        "start_line": 6265,
+        "end_line": 6576
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/99-glosario.md",
+        "kind": "glossary",
+        "heading": "## Glosario",
+        "start_line": 6577,
+        "end_line": 6781
+      }
+    ]
+  },
+  {
+    "title": "El telar de las Moiras: Ontología de la autodeterminación causal",
+    "source": "corpus/fuentes/El_telar_de_las_Moiras_Ontologia_de_la_autodeterminacion_causal.md",
+    "sha256": "05b0636bc15c9c0bd92c96cf95e2a96fae0d030a54843e7c87bb9608378fc049",
+    "series": null,
+    "volume": null,
+    "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
+    "segments": [
+      {
+        "path": "corpus/libros/telar-de-las-moiras/00-preliminares.md",
+        "kind": "preliminares",
+        "start_line": 1,
+        "end_line": 125
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/01-presentacion.md",
+        "kind": "presentacion",
+        "heading": "Presentación",
+        "start_line": 126,
+        "end_line": 314
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/capitulo-01.md",
+        "kind": "chapter",
+        "heading": "### Capítulo I",
+        "start_line": 315,
+        "end_line": 717
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/capitulo-02.md",
+        "kind": "chapter",
+        "heading": "### Capítulo II",
+        "start_line": 718,
+        "end_line": 1250
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/capitulo-03.md",
+        "kind": "chapter",
+        "heading": "### Capítulo III",
+        "start_line": 1251,
+        "end_line": 1692
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/capitulo-04.md",
+        "kind": "chapter",
+        "heading": "### Capítulo IV",
+        "start_line": 1693,
+        "end_line": 2449
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/capitulo-05.md",
+        "kind": "chapter",
+        "heading": "### Capítulo V",
+        "start_line": 2450,
+        "end_line": 2952
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/capitulo-06.md",
+        "kind": "chapter",
+        "heading": "### Capítulo VI",
+        "start_line": 2953,
+        "end_line": 3435
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/capitulo-07.md",
+        "kind": "chapter",
+        "heading": "### Capítulo VII",
+        "start_line": 3436,
+        "end_line": 3935
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/capitulo-08.md",
+        "kind": "chapter",
+        "heading": "### Capítulo VIII",
+        "start_line": 3936,
+        "end_line": 4837
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/capitulo-09.md",
+        "kind": "chapter",
+        "heading": "### Capítulo IX",
+        "start_line": 4838,
+        "end_line": 5949
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/capitulo-10.md",
+        "kind": "chapter",
+        "heading": "### Capítulo X",
+        "start_line": 5950,
+        "end_line": 6604
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/90-epilogo.md",
+        "kind": "epilogo",
+        "heading": "Epílogo: lo que el libro no puede hacer por el",
+        "start_line": 6605,
+        "end_line": 6823
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/apendice-01.md",
+        "kind": "appendix",
+        "heading": "### APÉNDICE I",
+        "start_line": 6824,
+        "end_line": 6893
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/apendice-02.md",
+        "kind": "appendix",
+        "heading": "### APÉNDICE II",
+        "start_line": 6894,
+        "end_line": 7052
+      }
+    ]
+  },
+  {
     "title": "Afrodita Areia: Sobre la pasión",
     "source": "corpus/fuentes/Afrodita_Areia_Sobre_la_Pasion.md",
     "sha256": "354b70bc646e5294dac370372fc0dbe3617a5979d43f26ffcc871af826698ee3",
@@ -780,395 +1173,3512 @@
     ]
   },
   {
-    "title": "Caos: El abismo del ego y la doble mediación",
-    "source": "corpus/fuentes/Caos_El_abismo_del_ego_y_la_doble_mediacion.md",
-    "sha256": "9ab791af757776fe768b0c4f4c6406d53cb2b68afcc00b2cb5006cb00a95e6bb",
-    "series": null,
+    "id": "ECO",
+    "title": "ECO: Entrevista Clínica Ontológica",
+    "source": "corpus/fuentes/ECO_Entrevista_Clinica_Ontologica.md",
+    "sha256": "b28e6fa3c07196525d8d6b880ff7a8674abd6460f00b0adda0353d84b3a811ac",
+    "collection": "Autodeterminación Causal",
     "volume": null,
-    "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
+    "source_anomalies": [],
+    "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
     "segments": [
       {
-        "path": "corpus/libros/caos/00-preliminares.md",
+        "path": "corpus/libros/eco/00-preliminares.md",
         "kind": "preliminares",
         "start_line": 1,
-        "end_line": 151
+        "end_line": 27
       },
       {
-        "path": "corpus/libros/caos/capitulo-01.md",
-        "kind": "chapter",
-        "heading": "### Capítulo I",
-        "start_line": 152,
-        "end_line": 1375
+        "path": "corpus/libros/eco/capitulo-p-1.md",
+        "kind": "capitulo",
+        "key": "P·1",
+        "heading": "Capítulo P·1",
+        "start_line": 28,
+        "end_line": 354
       },
       {
-        "path": "corpus/libros/caos/capitulo-02.md",
-        "kind": "chapter",
-        "heading": "### Capítulo II",
-        "start_line": 1376,
-        "end_line": 2618
+        "path": "corpus/libros/eco/capitulo-p-2.md",
+        "kind": "capitulo",
+        "key": "P·2",
+        "heading": "Capítulo P·2",
+        "start_line": 355,
+        "end_line": 784
       },
       {
-        "path": "corpus/libros/caos/capitulo-03.md",
-        "kind": "chapter",
-        "heading": "### Capítulo III",
-        "start_line": 2619,
-        "end_line": 3886
+        "path": "corpus/libros/eco/capitulo-p-3.md",
+        "kind": "capitulo",
+        "key": "P·3",
+        "heading": "Capítulo P·3",
+        "start_line": 785,
+        "end_line": 1193
       },
       {
-        "path": "corpus/libros/caos/capitulo-04.md",
-        "kind": "chapter",
-        "heading": "### Capítulo IV",
-        "start_line": 3887,
-        "end_line": 5025
+        "path": "corpus/libros/eco/capitulo-p-4.md",
+        "kind": "capitulo",
+        "key": "P·4",
+        "heading": "Capítulo P·4",
+        "start_line": 1194,
+        "end_line": 1846
       },
       {
-        "path": "corpus/libros/caos/capitulo-05.md",
-        "kind": "chapter",
-        "heading": "### Capítulo V",
-        "start_line": 5026,
-        "end_line": 6177
+        "path": "corpus/libros/eco/capitulo-p-5.md",
+        "kind": "capitulo",
+        "key": "P·5",
+        "heading": "Capítulo P·5",
+        "start_line": 1847,
+        "end_line": 2408
       },
       {
-        "path": "corpus/libros/caos/capitulo-06.md",
-        "kind": "chapter",
-        "heading": "### Capítulo VI",
-        "start_line": 6178,
-        "end_line": 7332
+        "path": "corpus/libros/eco/b-i-f.md",
+        "kind": "modulo",
+        "key": "B·I·F",
+        "heading": "B·I·F · MÓDULO FOBOS",
+        "start_line": 2409,
+        "end_line": 3243
       },
       {
-        "path": "corpus/libros/caos/capitulo-07.md",
-        "kind": "chapter",
-        "heading": "### Capítulo VII",
-        "start_line": 7333,
-        "end_line": 8371
+        "path": "corpus/libros/eco/b-i-d.md",
+        "kind": "modulo",
+        "key": "B·I·D",
+        "heading": "B·I·D · MÓDULO DEIMOS",
+        "start_line": 3244,
+        "end_line": 4132
       },
       {
-        "path": "corpus/libros/caos/apendice-01.md",
-        "kind": "appendix",
-        "heading": "### Apéndice I",
-        "start_line": 8372,
-        "end_line": 9265
+        "path": "corpus/libros/eco/b-i-a.md",
+        "kind": "modulo",
+        "key": "B·I·A",
+        "heading": "B·I·A · MÓDULO ANTEROS",
+        "start_line": 4133,
+        "end_line": 5111
       },
       {
-        "path": "corpus/libros/caos/apendice-02.md",
-        "kind": "appendix",
-        "heading": "### Apéndice II",
-        "start_line": 9266,
-        "end_line": 10352
+        "path": "corpus/libros/eco/b-i-p.md",
+        "kind": "modulo",
+        "key": "B·I·P",
+        "heading": "B·I·P · MÓDULO POTÓS",
+        "start_line": 5112,
+        "end_line": 6023
       },
       {
-        "path": "corpus/libros/caos/apendice-03.md",
-        "kind": "appendix",
-        "heading": "### Apéndice III",
-        "start_line": 10353,
-        "end_line": 11640
+        "path": "corpus/libros/eco/b-i-e.md",
+        "kind": "modulo",
+        "key": "B·I·E",
+        "heading": "B·I·E · MÓDULO EROS",
+        "start_line": 6024,
+        "end_line": 6926
+      },
+      {
+        "path": "corpus/libros/eco/b-i-h.md",
+        "kind": "modulo",
+        "key": "B·I·H",
+        "heading": "B·I·H · MÓDULO HARMONÍA · D-2",
+        "start_line": 6927,
+        "end_line": 7841
+      },
+      {
+        "path": "corpus/libros/eco/b-ii-i.md",
+        "kind": "modulo",
+        "key": "B·II·I",
+        "heading": "B·II·I · MÓDULO EJE I — ESTADOS DEL",
+        "start_line": 7842,
+        "end_line": 8570
+      },
+      {
+        "path": "corpus/libros/eco/b-ii-ii.md",
+        "kind": "modulo",
+        "key": "B·II·II",
+        "heading": "B·II·II · MÓDULO EJE II — MASCARADA",
+        "start_line": 8571,
+        "end_line": 9156
+      },
+      {
+        "path": "corpus/libros/eco/b-ii-iii.md",
+        "kind": "modulo",
+        "key": "B·II·III",
+        "heading": "B·II·III · MÓDULO EJE III — VÍNCULO",
+        "start_line": 9157,
+        "end_line": 10184
+      },
+      {
+        "path": "corpus/libros/eco/b-ii-iv.md",
+        "kind": "modulo",
+        "key": "B·II·IV",
+        "heading": "B·II·IV · MÓDULO EJE IV — DISFORIA",
+        "start_line": 10185,
+        "end_line": 11109
+      },
+      {
+        "path": "corpus/libros/eco/b-ii-v.md",
+        "kind": "modulo",
+        "key": "B·II·V",
+        "heading": "B·II·V · MÓDULO EJE V —",
+        "start_line": 11110,
+        "end_line": 12248
+      },
+      {
+        "path": "corpus/libros/eco/b-iii-1.md",
+        "kind": "modulo",
+        "key": "B·III·1",
+        "heading": "B·III·1 · EL EGO SOBERANO COMO PUNTO",
+        "start_line": 12249,
+        "end_line": 12851
+      },
+      {
+        "path": "corpus/libros/eco/b-iii-2.md",
+        "kind": "modulo",
+        "key": "B·III·2",
+        "heading": "B·III·2 · ENTREVISTA A LOS MIEMBROS",
+        "start_line": 12852,
+        "end_line": 13562
+      },
+      {
+        "path": "corpus/libros/eco/b-iii-3.md",
+        "kind": "modulo",
+        "key": "B·III·3",
+        "heading": "B·III·3 · AGREGACIÓN DE",
+        "start_line": 13563,
+        "end_line": 14200
+      },
+      {
+        "path": "corpus/libros/eco/b-iii-4.md",
+        "kind": "modulo",
+        "key": "B·III·4",
+        "heading": "B·III·4 · ANÁLISIS DE ARTEFACTOS",
+        "start_line": 14201,
+        "end_line": 14870
+      },
+      {
+        "path": "corpus/libros/eco/b-iii-5.md",
+        "kind": "modulo",
+        "key": "B·III·5",
+        "heading": "B·III·5 · MEMORIA COMUNITARIA — LO",
+        "start_line": 14871,
+        "end_line": 15607
+      },
+      {
+        "path": "corpus/libros/eco/bloque-iv-01.md",
+        "kind": "modulo",
+        "key": "B·IV·1",
+        "heading": "B·IV · PRINCIPIOS GENERALES DE",
+        "start_line": 15608,
+        "end_line": 16072
+      },
+      {
+        "path": "corpus/libros/eco/bloque-iv-02.md",
+        "kind": "modulo",
+        "key": "B·IV·2",
+        "heading": "B·IV · §2 · LA LOCALIZACIÓN SIN",
+        "start_line": 16073,
+        "end_line": 16554
+      },
+      {
+        "path": "corpus/libros/eco/bloque-iv-03.md",
+        "kind": "modulo",
+        "key": "B·IV·3",
+        "heading": "B·IV · §3 · CUÁNDO ECO ESTÁ COMPLETO",
+        "start_line": 16555,
+        "end_line": 16996
+      },
+      {
+        "path": "corpus/libros/eco/bloque-iv-04.md",
+        "kind": "modulo",
+        "key": "B·IV·4",
+        "heading": "B·IV · §4 · CRITERIOS DE DERIVACIÓN A",
+        "start_line": 16997,
+        "end_line": 17465
+      },
+      {
+        "path": "corpus/libros/eco/bloque-iv-05.md",
+        "kind": "modulo",
+        "key": "B·IV·5",
+        "heading": "B·IV · §5 · CRITERIOS DE DERIVACIÓN",
+        "start_line": 17466,
+        "end_line": 17860
+      },
+      {
+        "path": "corpus/libros/eco/90-apendices.md",
+        "kind": "apendices",
+        "key": "APENDICES",
+        "heading": "APÉNDICES · Instrumentos de trabajo del mediador",
+        "start_line": 17861,
+        "end_line": 19317
       }
     ]
   },
   {
-    "title": "El dilema de Aquiles o la disociación del ego",
-    "source": "corpus/fuentes/El_dilema_de_Aquiles_o_la_disociacion_del_ego.md",
-    "sha256": "ae930142db6d9a62b4bb591175b8f7169984a22bab1cd4bb780812ad76508615",
-    "series": null,
+    "id": "HISTOS",
+    "title": "HISTOS: Protocolo de Acompañamiento Ontológico",
+    "source": "corpus/fuentes/HISTOS_Protocolo_de_Acompanamiento_Ontologico.md",
+    "sha256": "35497bc426d2468e69541dc52e29125b446e1fb9e4ca05b81894242d37e1599b",
+    "collection": "Autodeterminación Causal",
     "volume": null,
-    "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
+    "source_anomalies": [],
+    "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
     "segments": [
       {
-        "path": "corpus/libros/dilema-de-aquiles/00-preliminares.md",
+        "path": "corpus/libros/histos/00-preliminares.md",
         "kind": "preliminares",
         "start_line": 1,
-        "end_line": 290
+        "end_line": 31
       },
       {
-        "path": "corpus/libros/dilema-de-aquiles/02-prologo.md",
+        "path": "corpus/libros/histos/capitulo-p-1.md",
+        "kind": "capitulo",
+        "key": "P·1",
+        "heading": "Capítulo P·1",
+        "start_line": 32,
+        "end_line": 541
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-p-2.md",
+        "kind": "capitulo",
+        "key": "P·2",
+        "heading": "Capítulo P·2",
+        "start_line": 542,
+        "end_line": 1137
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-p-3.md",
+        "kind": "capitulo",
+        "key": "P·3",
+        "heading": "Capítulo P·3",
+        "start_line": 1138,
+        "end_line": 1555
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-p-4.md",
+        "kind": "capitulo",
+        "key": "P·4",
+        "heading": "Capítulo P·4",
+        "start_line": 1556,
+        "end_line": 2005
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-p-5.md",
+        "kind": "capitulo",
+        "key": "P·5",
+        "heading": "Capítulo P·5",
+        "start_line": 2006,
+        "end_line": 2442
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-01-01.md",
+        "kind": "capitulo",
+        "key": "I·1",
+        "heading": "### Capítulo I·1",
+        "start_line": 2443,
+        "end_line": 3043
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-01-02.md",
+        "kind": "capitulo",
+        "key": "I·2",
+        "heading": "### Capítulo I·2",
+        "start_line": 3044,
+        "end_line": 3658
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-01-03.md",
+        "kind": "capitulo",
+        "key": "I·3",
+        "heading": "### Capítulo I·3",
+        "start_line": 3659,
+        "end_line": 4287
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-01-04.md",
+        "kind": "capitulo",
+        "key": "I·4",
+        "heading": "### Capítulo I·4",
+        "start_line": 4288,
+        "end_line": 4753
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-02-01.md",
+        "kind": "capitulo",
+        "key": "II·1",
+        "heading": "### Capítulo II·1",
+        "start_line": 4754,
+        "end_line": 5324
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-02-02.md",
+        "kind": "capitulo",
+        "key": "II·2",
+        "heading": "### Capítulo II·2",
+        "start_line": 5325,
+        "end_line": 6012
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-02-03.md",
+        "kind": "capitulo",
+        "key": "II·3",
+        "heading": "### Capítulo II·3",
+        "start_line": 6013,
+        "end_line": 6657
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-02-04.md",
+        "kind": "capitulo",
+        "key": "II·4",
+        "heading": "### Capítulo II·4",
+        "start_line": 6658,
+        "end_line": 7258
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-02-05.md",
+        "kind": "capitulo",
+        "key": "II·5",
+        "heading": "### Capítulo II·5",
+        "start_line": 7259,
+        "end_line": 7792
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-02-06.md",
+        "kind": "capitulo",
+        "key": "II·6",
+        "heading": "### Capítulo II·6",
+        "start_line": 7793,
+        "end_line": 8222
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-02-07.md",
+        "kind": "capitulo",
+        "key": "II·7",
+        "heading": "### Capítulo II·7",
+        "start_line": 8223,
+        "end_line": 8659
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-03-01.md",
+        "kind": "capitulo",
+        "key": "III·1",
+        "heading": "### Capítulo III·1",
+        "start_line": 8660,
+        "end_line": 9239
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-03-02.md",
+        "kind": "capitulo",
+        "key": "III·2",
+        "heading": "### Capítulo III·2",
+        "start_line": 9240,
+        "end_line": 9807
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-03-03.md",
+        "kind": "capitulo",
+        "key": "III·3",
+        "heading": "### Capítulo III·3",
+        "start_line": 9808,
+        "end_line": 10401
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-03-04.md",
+        "kind": "capitulo",
+        "key": "III·4",
+        "heading": "### Capítulo III·4",
+        "start_line": 10402,
+        "end_line": 10966
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-03-05.md",
+        "kind": "capitulo",
+        "key": "III·5",
+        "heading": "### Capítulo III·5",
+        "start_line": 10967,
+        "end_line": 11508
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-03-06.md",
+        "kind": "capitulo",
+        "key": "III·6",
+        "heading": "### Capítulo III·6",
+        "start_line": 11509,
+        "end_line": 12020
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-03-07.md",
+        "kind": "capitulo",
+        "key": "III·7",
+        "heading": "### Capítulo III·7",
+        "start_line": 12021,
+        "end_line": 12546
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-04-01.md",
+        "kind": "capitulo",
+        "key": "IV·1",
+        "heading": "### Capítulo IV·1",
+        "start_line": 12547,
+        "end_line": 13019
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-04-02.md",
+        "kind": "capitulo",
+        "key": "IV·2",
+        "heading": "### Capítulo IV·2",
+        "start_line": 13020,
+        "end_line": 13571
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-04-03.md",
+        "kind": "capitulo",
+        "key": "IV·3",
+        "heading": "### Capítulo IV·3",
+        "start_line": 13572,
+        "end_line": 14111
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-04-04.md",
+        "kind": "capitulo",
+        "key": "IV·4",
+        "heading": "### Capítulo IV·4",
+        "start_line": 14112,
+        "end_line": 14640
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-04-05.md",
+        "kind": "capitulo",
+        "key": "IV·5",
+        "heading": "### Capítulo IV·5",
+        "start_line": 14641,
+        "end_line": 15152
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-04-06.md",
+        "kind": "capitulo",
+        "key": "IV·6",
+        "heading": "### Capítulo IV·6",
+        "start_line": 15153,
+        "end_line": 15630
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-05-01.md",
+        "kind": "capitulo",
+        "key": "V·1",
+        "heading": "### Capítulo V·1",
+        "start_line": 15631,
+        "end_line": 16060
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-05-02.md",
+        "kind": "capitulo",
+        "key": "V·2",
+        "heading": "### Capítulo V·2",
+        "start_line": 16061,
+        "end_line": 16535
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-05-03.md",
+        "kind": "capitulo",
+        "key": "V·3",
+        "heading": "### Capítulo V·3",
+        "start_line": 16536,
+        "end_line": 16955
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-05-04.md",
+        "kind": "capitulo",
+        "key": "V·4",
+        "heading": "### Capítulo V·4",
+        "start_line": 16956,
+        "end_line": 17339
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-06-01.md",
+        "kind": "capitulo",
+        "key": "VI·1",
+        "heading": "### Capítulo VI·1",
+        "start_line": 17340,
+        "end_line": 17683
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-06-02.md",
+        "kind": "capitulo",
+        "key": "VI·2",
+        "heading": "### Capítulo VI·2",
+        "start_line": 17684,
+        "end_line": 18056
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-06-03.md",
+        "kind": "capitulo",
+        "key": "VI·3",
+        "heading": "### Capítulo VI·3",
+        "start_line": 18057,
+        "end_line": 18448
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-06-04.md",
+        "kind": "capitulo",
+        "key": "VI·4",
+        "heading": "### Capítulo VI·4",
+        "start_line": 18449,
+        "end_line": 18749
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-07-01.md",
+        "kind": "capitulo",
+        "key": "VII·1",
+        "heading": "### Capítulo VII·1",
+        "start_line": 18750,
+        "end_line": 19155
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-07-02.md",
+        "kind": "capitulo",
+        "key": "VII·2",
+        "heading": "### Capítulo VII·2",
+        "start_line": 19156,
+        "end_line": 19650
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-07-03.md",
+        "kind": "capitulo",
+        "key": "VII·3",
+        "heading": "### Capítulo VII·3",
+        "start_line": 19651,
+        "end_line": 20092
+      },
+      {
+        "path": "corpus/libros/histos/capitulo-07-04.md",
+        "kind": "capitulo",
+        "key": "VII·4",
+        "heading": "### Capítulo VII·4",
+        "start_line": 20093,
+        "end_line": 20597
+      }
+    ]
+  },
+  {
+    "id": "TRANSFORMACION-FORMAL",
+    "title": "La transformación formal: La ontología del ego como fundamento del cálculo causal",
+    "source": "corpus/fuentes/La_transformacion_formal_ontologia_del_ego_como_fundamento_del_calculo_causal.md",
+    "sha256": "ceccc803b62ad08d65cccb2067cf93b7d4d9a9e12fe80b21e739d5979e2155a2",
+    "collection": "Autodeterminación Causal",
+    "volume": null,
+    "source_anomalies": [],
+    "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
+    "segments": [
+      {
+        "path": "corpus/libros/transformacion-formal/00-preliminares.md",
+        "kind": "preliminares",
+        "start_line": 1,
+        "end_line": 372
+      },
+      {
+        "path": "corpus/libros/transformacion-formal/01-prologo.md",
         "kind": "prologo",
+        "key": "PROLOGO",
         "heading": "PRÓLOGO",
-        "start_line": 291,
-        "end_line": 485
+        "start_line": 373,
+        "end_line": 817
       },
       {
-        "path": "corpus/libros/dilema-de-aquiles/capitulo-01.md",
-        "kind": "chapter",
-        "heading": "### CAPÍTULO I",
-        "start_line": 486,
-        "end_line": 1179
+        "path": "corpus/libros/transformacion-formal/capitulo-01-01.md",
+        "kind": "capitulo",
+        "key": "1.1",
+        "heading": "### Capítulo 1.1",
+        "start_line": 818,
+        "end_line": 1348
       },
       {
-        "path": "corpus/libros/dilema-de-aquiles/capitulo-02.md",
-        "kind": "chapter",
-        "heading": "### CAPÍTULO II",
-        "start_line": 1180,
-        "end_line": 1855
+        "path": "corpus/libros/transformacion-formal/capitulo-01-02.md",
+        "kind": "capitulo",
+        "key": "1.2",
+        "heading": "### Capítulo 1.2",
+        "start_line": 1349,
+        "end_line": 2095
       },
       {
-        "path": "corpus/libros/dilema-de-aquiles/capitulo-03.md",
-        "kind": "chapter",
-        "heading": "### CAPÍTULO III",
-        "start_line": 1856,
-        "end_line": 2542
+        "path": "corpus/libros/transformacion-formal/capitulo-01-03.md",
+        "kind": "capitulo",
+        "key": "1.3",
+        "heading": "### Capítulo 1.3",
+        "start_line": 2096,
+        "end_line": 2635
       },
       {
-        "path": "corpus/libros/dilema-de-aquiles/capitulo-04.md",
-        "kind": "chapter",
-        "heading": "### CAPÍTULO IV",
-        "start_line": 2543,
-        "end_line": 3270
+        "path": "corpus/libros/transformacion-formal/capitulo-02-01.md",
+        "kind": "capitulo",
+        "key": "2.1",
+        "heading": "### Capítulo 2.1",
+        "start_line": 2636,
+        "end_line": 3336
       },
       {
-        "path": "corpus/libros/dilema-de-aquiles/capitulo-05.md",
-        "kind": "chapter",
-        "heading": "### CAPÍTULO V",
-        "start_line": 3271,
-        "end_line": 3938
+        "path": "corpus/libros/transformacion-formal/capitulo-02-02.md",
+        "kind": "capitulo",
+        "key": "2.2",
+        "heading": "### Capítulo 2.2",
+        "start_line": 3337,
+        "end_line": 4085
       },
       {
-        "path": "corpus/libros/dilema-de-aquiles/capitulo-06.md",
-        "kind": "chapter",
-        "heading": "### CAPÍTULO VI",
-        "start_line": 3939,
-        "end_line": 4629
+        "path": "corpus/libros/transformacion-formal/capitulo-02-03.md",
+        "kind": "capitulo",
+        "key": "2.3",
+        "heading": "### Capítulo 2.3",
+        "start_line": 4086,
+        "end_line": 4947
       },
       {
-        "path": "corpus/libros/dilema-de-aquiles/capitulo-07.md",
-        "kind": "chapter",
-        "heading": "### CAPÍTULO VII",
-        "start_line": 4630,
-        "end_line": 5310
+        "path": "corpus/libros/transformacion-formal/capitulo-02-04.md",
+        "kind": "capitulo",
+        "key": "2.4",
+        "heading": "### Capítulo 2.4",
+        "start_line": 4948,
+        "end_line": 5637
       },
       {
-        "path": "corpus/libros/dilema-de-aquiles/capitulo-08.md",
-        "kind": "chapter",
-        "heading": "### CAPÍTULO VIII",
-        "start_line": 5311,
-        "end_line": 6042
+        "path": "corpus/libros/transformacion-formal/capitulo-03-01.md",
+        "kind": "capitulo",
+        "key": "3.1",
+        "heading": "### Capítulo 3.1",
+        "start_line": 5638,
+        "end_line": 6340
       },
       {
-        "path": "corpus/libros/dilema-de-aquiles/90-epilogo.md",
+        "path": "corpus/libros/transformacion-formal/capitulo-03-02.md",
+        "kind": "capitulo",
+        "key": "3.2",
+        "heading": "### Capítulo 3.2",
+        "start_line": 6341,
+        "end_line": 6985
+      },
+      {
+        "path": "corpus/libros/transformacion-formal/capitulo-03-03.md",
+        "kind": "capitulo",
+        "key": "3.3",
+        "heading": "### Capítulo 3.3",
+        "start_line": 6986,
+        "end_line": 7528
+      },
+      {
+        "path": "corpus/libros/transformacion-formal/capitulo-04-01.md",
+        "kind": "capitulo",
+        "key": "4.1",
+        "heading": "### Capítulo 4.1",
+        "start_line": 7529,
+        "end_line": 8166
+      },
+      {
+        "path": "corpus/libros/transformacion-formal/capitulo-04-02.md",
+        "kind": "capitulo",
+        "key": "4.2",
+        "heading": "### Capítulo 4.2",
+        "start_line": 8167,
+        "end_line": 8745
+      },
+      {
+        "path": "corpus/libros/transformacion-formal/capitulo-04-03.md",
+        "kind": "capitulo",
+        "key": "4.3",
+        "heading": "### Capítulo 4.3",
+        "start_line": 8746,
+        "end_line": 9189
+      },
+      {
+        "path": "corpus/libros/transformacion-formal/capitulo-05-01.md",
+        "kind": "capitulo",
+        "key": "5.1",
+        "heading": "### Capítulo 5.1",
+        "start_line": 9190,
+        "end_line": 9663
+      },
+      {
+        "path": "corpus/libros/transformacion-formal/capitulo-05-02.md",
+        "kind": "capitulo",
+        "key": "5.2",
+        "heading": "### Capítulo 5.2",
+        "start_line": 9664,
+        "end_line": 10130
+      },
+      {
+        "path": "corpus/libros/transformacion-formal/capitulo-05-03.md",
+        "kind": "capitulo",
+        "key": "5.3",
+        "heading": "### Capítulo 5.3",
+        "start_line": 10131,
+        "end_line": 10605
+      },
+      {
+        "path": "corpus/libros/transformacion-formal/90-epilogo.md",
         "kind": "epilogo",
-        "heading": "EPÍLOGO",
-        "start_line": 6043,
-        "end_line": 6573
-      }
-    ]
-  },
-  {
-    "title": "El juego de las máscaras o la disforia de la identidad",
-    "source": "corpus/fuentes/El_juego_de_las_mascaras_o_la_disforia_de_la_identidad.md",
-    "sha256": "cbab9ee5a1bb8c838e2dd5de64e314148b90c3f6831d58edb96252e23b255541",
-    "series": null,
-    "volume": null,
-    "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
-    "segments": [
-      {
-        "path": "corpus/libros/juego-de-las-mascaras/00-preliminares.md",
-        "kind": "preliminares",
-        "start_line": 1,
-        "end_line": 85
-      },
-      {
-        "path": "corpus/libros/juego-de-las-mascaras/02-prologo.md",
-        "kind": "prologo",
-        "heading": "Prólogo",
-        "start_line": 86,
-        "end_line": 338
-      },
-      {
-        "path": "corpus/libros/juego-de-las-mascaras/capitulo-01.md",
-        "kind": "chapter",
-        "heading": "### Capítulo I",
-        "start_line": 339,
-        "end_line": 847
-      },
-      {
-        "path": "corpus/libros/juego-de-las-mascaras/capitulo-02.md",
-        "kind": "chapter",
-        "heading": "### Capítulo II",
-        "start_line": 848,
-        "end_line": 1476
-      },
-      {
-        "path": "corpus/libros/juego-de-las-mascaras/capitulo-03.md",
-        "kind": "chapter",
-        "heading": "### Capítulo III",
-        "start_line": 1477,
-        "end_line": 2044
-      },
-      {
-        "path": "corpus/libros/juego-de-las-mascaras/capitulo-04.md",
-        "kind": "chapter",
-        "heading": "### Capítulo IV",
-        "start_line": 2045,
-        "end_line": 2638
-      },
-      {
-        "path": "corpus/libros/juego-de-las-mascaras/capitulo-05.md",
-        "kind": "chapter",
-        "heading": "### Capítulo V",
-        "start_line": 2639,
-        "end_line": 3184
-      },
-      {
-        "path": "corpus/libros/juego-de-las-mascaras/capitulo-06.md",
-        "kind": "chapter",
-        "heading": "### Capítulo VI",
-        "start_line": 3185,
-        "end_line": 3763
-      },
-      {
-        "path": "corpus/libros/juego-de-las-mascaras/capitulo-07.md",
-        "kind": "chapter",
-        "heading": "### Capítulo VII",
-        "start_line": 3764,
-        "end_line": 4400
-      },
-      {
-        "path": "corpus/libros/juego-de-las-mascaras/capitulo-08.md",
-        "kind": "chapter",
-        "heading": "### Capítulo VIII",
-        "start_line": 4401,
-        "end_line": 5017
-      },
-      {
-        "path": "corpus/libros/juego-de-las-mascaras/capitulo-09.md",
-        "kind": "chapter",
-        "heading": "### Capítulo IX",
-        "start_line": 5018,
-        "end_line": 5684
-      },
-      {
-        "path": "corpus/libros/juego-de-las-mascaras/capitulo-10.md",
-        "kind": "chapter",
-        "heading": "### Capítulo X",
-        "start_line": 5685,
-        "end_line": 6264
-      },
-      {
-        "path": "corpus/libros/juego-de-las-mascaras/90-epilogo.md",
-        "kind": "epilogo",
+        "key": "EPILOGO",
         "heading": "Epílogo",
-        "start_line": 6265,
-        "end_line": 6576
-      },
-      {
-        "path": "corpus/libros/juego-de-las-mascaras/99-glosario.md",
-        "kind": "glossary",
-        "heading": "## Glosario",
-        "start_line": 6577,
-        "end_line": 6781
+        "start_line": 10606,
+        "end_line": 10859
       }
     ]
   },
   {
-    "title": "El telar de las Moiras: Ontología de la autodeterminación causal",
-    "source": "corpus/fuentes/El_telar_de_las_Moiras_Ontologia_de_la_autodeterminacion_causal.md",
-    "sha256": "05b0636bc15c9c0bd92c96cf95e2a96fae0d030a54843e7c87bb9608378fc049",
-    "series": null,
+    "id": "SDO",
+    "title": "SDO: Sistema de Diagnóstico Ontológico",
+    "source": "corpus/fuentes/SDO_Sistema_de_diagnostico_ontologico.md",
+    "sha256": "29358922aee3f1dea3105a263bdd2ff2c23494d403410967906ca6e916ad1553",
+    "collection": "Autodeterminación Causal",
     "volume": null,
-    "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
+    "source_anomalies": [],
+    "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
     "segments": [
       {
-        "path": "corpus/libros/telar-de-las-moiras/00-preliminares.md",
+        "path": "corpus/libros/sdo/00-preliminares.md",
         "kind": "preliminares",
         "start_line": 1,
-        "end_line": 125
+        "end_line": 455
       },
       {
-        "path": "corpus/libros/telar-de-las-moiras/01-presentacion.md",
-        "kind": "presentacion",
-        "heading": "Presentación",
-        "start_line": 126,
-        "end_line": 314
+        "path": "corpus/libros/sdo/pi-1.md",
+        "kind": "unidad",
+        "key": "PI·1",
+        "heading": "## PARTE INICIAL · PI·1",
+        "start_line": 456,
+        "end_line": 995
       },
       {
-        "path": "corpus/libros/telar-de-las-moiras/capitulo-01.md",
-        "kind": "chapter",
-        "heading": "### Capítulo I",
-        "start_line": 315,
-        "end_line": 717
+        "path": "corpus/libros/sdo/pi-2.md",
+        "kind": "unidad",
+        "key": "PI·2",
+        "heading": "## PARTE INICIAL · PI·2",
+        "start_line": 996,
+        "end_line": 1531
       },
       {
-        "path": "corpus/libros/telar-de-las-moiras/capitulo-02.md",
-        "kind": "chapter",
-        "heading": "### Capítulo II",
-        "start_line": 718,
-        "end_line": 1250
+        "path": "corpus/libros/sdo/pi-3.md",
+        "kind": "unidad",
+        "key": "PI·3",
+        "heading": "## PARTE INICIAL · PI·3",
+        "start_line": 1532,
+        "end_line": 2036
       },
       {
-        "path": "corpus/libros/telar-de-las-moiras/capitulo-03.md",
-        "kind": "chapter",
-        "heading": "### Capítulo III",
-        "start_line": 1251,
-        "end_line": 1692
+        "path": "corpus/libros/sdo/pi-4.md",
+        "kind": "unidad",
+        "key": "PI·4",
+        "heading": "## PARTE INICIAL · PI·4",
+        "start_line": 2037,
+        "end_line": 2565
       },
       {
-        "path": "corpus/libros/telar-de-las-moiras/capitulo-04.md",
-        "kind": "chapter",
-        "heading": "### Capítulo IV",
-        "start_line": 1693,
-        "end_line": 2449
+        "path": "corpus/libros/sdo/pi-5.md",
+        "kind": "unidad",
+        "key": "PI·5",
+        "heading": "## PARTE INICIAL · PI·5",
+        "start_line": 2566,
+        "end_line": 3089
       },
       {
-        "path": "corpus/libros/telar-de-las-moiras/capitulo-05.md",
-        "kind": "chapter",
-        "heading": "### Capítulo V",
-        "start_line": 2450,
-        "end_line": 2952
+        "path": "corpus/libros/sdo/pi-6.md",
+        "kind": "unidad",
+        "key": "PI·6",
+        "heading": "## PARTE INICIAL · PI·6",
+        "start_line": 3090,
+        "end_line": 3605
       },
       {
-        "path": "corpus/libros/telar-de-las-moiras/capitulo-06.md",
-        "kind": "chapter",
-        "heading": "### Capítulo VI",
-        "start_line": 2953,
-        "end_line": 3435
+        "path": "corpus/libros/sdo/pi-7.md",
+        "kind": "unidad",
+        "key": "PI·7",
+        "heading": "## PARTE INICIAL · PI·7",
+        "start_line": 3606,
+        "end_line": 4149
       },
       {
-        "path": "corpus/libros/telar-de-las-moiras/capitulo-07.md",
-        "kind": "chapter",
-        "heading": "### Capítulo VII",
-        "start_line": 3436,
-        "end_line": 3935
+        "path": "corpus/libros/sdo/pi-8.md",
+        "kind": "unidad",
+        "key": "PI·8",
+        "heading": "## PARTE INICIAL · PI·8",
+        "start_line": 4150,
+        "end_line": 4615
       },
       {
-        "path": "corpus/libros/telar-de-las-moiras/capitulo-08.md",
-        "kind": "chapter",
-        "heading": "### Capítulo VIII",
-        "start_line": 3936,
-        "end_line": 4837
+        "path": "corpus/libros/sdo/i-0.md",
+        "kind": "unidad",
+        "key": "I·0",
+        "heading": "## PARTE I · I·0",
+        "start_line": 4616,
+        "end_line": 5202
       },
       {
-        "path": "corpus/libros/telar-de-las-moiras/capitulo-09.md",
-        "kind": "chapter",
-        "heading": "### Capítulo IX",
-        "start_line": 4838,
-        "end_line": 5949
+        "path": "corpus/libros/sdo/i-e-1.md",
+        "kind": "unidad",
+        "key": "I·E-1",
+        "heading": "## PARTE I · EJE I · I·E-1",
+        "start_line": 5203,
+        "end_line": 5854
       },
       {
-        "path": "corpus/libros/telar-de-las-moiras/capitulo-10.md",
-        "kind": "chapter",
-        "heading": "### Capítulo X",
-        "start_line": 5950,
+        "path": "corpus/libros/sdo/i-e-2.md",
+        "kind": "unidad",
+        "key": "I·E-2",
+        "heading": "## PARTE I · EJE I · I·E-2",
+        "start_line": 5855,
         "end_line": 6604
       },
       {
-        "path": "corpus/libros/telar-de-las-moiras/90-epilogo.md",
-        "kind": "epilogo",
-        "heading": "Epílogo: lo que el libro no puede hacer por el",
+        "path": "corpus/libros/sdo/i-e-3.md",
+        "kind": "unidad",
+        "key": "I·E-3",
+        "heading": "## PARTE I · EJE I · I·E-3",
         "start_line": 6605,
-        "end_line": 6823
+        "end_line": 7310
       },
       {
-        "path": "corpus/libros/telar-de-las-moiras/apendice-01.md",
-        "kind": "appendix",
-        "heading": "### APÉNDICE I",
-        "start_line": 6824,
-        "end_line": 6893
+        "path": "corpus/libros/sdo/i-e-4.md",
+        "kind": "unidad",
+        "key": "I·E-4",
+        "heading": "## PARTE I · EJE I · I·E-4",
+        "start_line": 7311,
+        "end_line": 8074
       },
       {
-        "path": "corpus/libros/telar-de-las-moiras/apendice-02.md",
-        "kind": "appendix",
-        "heading": "### APÉNDICE II",
-        "start_line": 6894,
-        "end_line": 7052
+        "path": "corpus/libros/sdo/i-e-5.md",
+        "kind": "unidad",
+        "key": "I·E-5",
+        "heading": "## PARTE I · EJE I · I·E-5",
+        "start_line": 8075,
+        "end_line": 8787
+      },
+      {
+        "path": "corpus/libros/sdo/i-e-6.md",
+        "kind": "unidad",
+        "key": "I·E-6",
+        "heading": "## PARTE I · EJE I · I·E-6",
+        "start_line": 8788,
+        "end_line": 9375
+      },
+      {
+        "path": "corpus/libros/sdo/ii-0.md",
+        "kind": "unidad",
+        "key": "II·0",
+        "heading": "## PARTE II · II·0",
+        "start_line": 9376,
+        "end_line": 9889
+      },
+      {
+        "path": "corpus/libros/sdo/ii-m-1.md",
+        "kind": "unidad",
+        "key": "II·M-1",
+        "heading": "## PARTE II · EJE II · II·M-1",
+        "start_line": 9890,
+        "end_line": 10456
+      },
+      {
+        "path": "corpus/libros/sdo/ii-m-2.md",
+        "kind": "unidad",
+        "key": "II·M-2",
+        "heading": "## PARTE II · EJE II · II·M-2",
+        "start_line": 10457,
+        "end_line": 11091
+      },
+      {
+        "path": "corpus/libros/sdo/ii-m-3.md",
+        "kind": "unidad",
+        "key": "II·M-3",
+        "heading": "## PARTE II · EJE II · II·M-3",
+        "start_line": 11092,
+        "end_line": 11663
+      },
+      {
+        "path": "corpus/libros/sdo/iii-0.md",
+        "kind": "unidad",
+        "key": "III·0",
+        "heading": "## PARTE III · III·0",
+        "start_line": 11664,
+        "end_line": 12221
+      },
+      {
+        "path": "corpus/libros/sdo/iii-v-1.md",
+        "kind": "unidad",
+        "key": "III·V-1",
+        "heading": "## PARTE III · EJE III · III·V-1",
+        "start_line": 12222,
+        "end_line": 12834
+      },
+      {
+        "path": "corpus/libros/sdo/iii-v-2.md",
+        "kind": "unidad",
+        "key": "III·V-2",
+        "heading": "## PARTE III · EJE III · III·V-2",
+        "start_line": 12835,
+        "end_line": 13458
+      },
+      {
+        "path": "corpus/libros/sdo/iii-v-3.md",
+        "kind": "unidad",
+        "key": "III·V-3",
+        "heading": "## PARTE III · EJE III · III·V-3",
+        "start_line": 13459,
+        "end_line": 14088
+      },
+      {
+        "path": "corpus/libros/sdo/iv-0.md",
+        "kind": "unidad",
+        "key": "IV·0",
+        "heading": "## PARTE IV · IV·0",
+        "start_line": 14089,
+        "end_line": 14547
+      },
+      {
+        "path": "corpus/libros/sdo/iv-d-1.md",
+        "kind": "unidad",
+        "key": "IV·D-1",
+        "heading": "## PARTE IV · EJE IV · IV·D-1",
+        "start_line": 14548,
+        "end_line": 15177
+      },
+      {
+        "path": "corpus/libros/sdo/iv-d-2.md",
+        "kind": "unidad",
+        "key": "IV·D-2",
+        "heading": "## PARTE IV · EJE IV · IV·D-2",
+        "start_line": 15178,
+        "end_line": 16052
+      },
+      {
+        "path": "corpus/libros/sdo/v-0.md",
+        "kind": "unidad",
+        "key": "V·0",
+        "heading": "## PARTE V · V·0",
+        "start_line": 16053,
+        "end_line": 16698
+      },
+      {
+        "path": "corpus/libros/sdo/v-t-0.md",
+        "kind": "unidad",
+        "key": "V·T-0",
+        "heading": "## PARTE V · EJE V · V·T-0",
+        "start_line": 16699,
+        "end_line": 17424
+      },
+      {
+        "path": "corpus/libros/sdo/v-t-1.md",
+        "kind": "unidad",
+        "key": "V·T-1",
+        "heading": "## PARTE V · EJE V · V·T-1",
+        "start_line": 17425,
+        "end_line": 18205
+      },
+      {
+        "path": "corpus/libros/sdo/v-t-2.md",
+        "kind": "unidad",
+        "key": "V·T-2",
+        "heading": "## PARTE V · EJE V · V·T-2",
+        "start_line": 18206,
+        "end_line": 19025
+      },
+      {
+        "path": "corpus/libros/sdo/v-t-3.md",
+        "kind": "unidad",
+        "key": "V·T-3",
+        "heading": "## PARTE V · EJE V · V·T-3",
+        "start_line": 19026,
+        "end_line": 19820
+      },
+      {
+        "path": "corpus/libros/sdo/v-t-4.md",
+        "kind": "unidad",
+        "key": "V·T-4",
+        "heading": "## PARTE V · EJE V · V·T-4",
+        "start_line": 19821,
+        "end_line": 20607
+      },
+      {
+        "path": "corpus/libros/sdo/v-t-5.md",
+        "kind": "unidad",
+        "key": "V·T-5",
+        "heading": "## PARTE V · EJE V · V·T-5",
+        "start_line": 20608,
+        "end_line": 21301
+      },
+      {
+        "path": "corpus/libros/sdo/v-t-6.md",
+        "kind": "unidad",
+        "key": "V·T-6",
+        "heading": "## PARTE V · EJE V · V·T-6",
+        "start_line": 21302,
+        "end_line": 22028
+      },
+      {
+        "path": "corpus/libros/sdo/v-t-ext.md",
+        "kind": "unidad",
+        "key": "V·T-ext",
+        "heading": "## PARTE V · EJE V · V·T-ext",
+        "start_line": 22029,
+        "end_line": 22737
+      },
+      {
+        "path": "corpus/libros/sdo/vi-1.md",
+        "kind": "unidad",
+        "key": "VI·1",
+        "heading": "## PARTE VI · EL SDO COMO SISTEMA · VI·1",
+        "start_line": 22738,
+        "end_line": 23435
+      },
+      {
+        "path": "corpus/libros/sdo/vi-2.md",
+        "kind": "unidad",
+        "key": "VI·2",
+        "heading": "## PARTE VI · VI·2",
+        "start_line": 23436,
+        "end_line": 24066
+      },
+      {
+        "path": "corpus/libros/sdo/vi-3.md",
+        "kind": "unidad",
+        "key": "VI·3",
+        "heading": "## PARTE VI · VI·3",
+        "start_line": 24067,
+        "end_line": 24624
+      },
+      {
+        "path": "corpus/libros/sdo/vii-1.md",
+        "kind": "unidad",
+        "key": "VII·1",
+        "heading": "## PARTE VII · VII·1",
+        "start_line": 24625,
+        "end_line": 25196
+      },
+      {
+        "path": "corpus/libros/sdo/vii-2.md",
+        "kind": "unidad",
+        "key": "VII·2",
+        "heading": "## PARTE VII · VII·2",
+        "start_line": 25197,
+        "end_line": 25881
+      },
+      {
+        "path": "corpus/libros/sdo/vii-3.md",
+        "kind": "unidad",
+        "key": "VII·3",
+        "heading": "## PARTE VII · VII·3",
+        "start_line": 25882,
+        "end_line": 26565
+      },
+      {
+        "path": "corpus/libros/sdo/vii-4.md",
+        "kind": "unidad",
+        "key": "VII·4",
+        "heading": "## PARTE VII · VII·4",
+        "start_line": 26566,
+        "end_line": 27276
+      },
+      {
+        "path": "corpus/libros/sdo/viii-1.md",
+        "kind": "unidad",
+        "key": "VIII·1",
+        "heading": "## PARTE VIII · VIII·1",
+        "start_line": 27277,
+        "end_line": 27750
+      },
+      {
+        "path": "corpus/libros/sdo/viii-2.md",
+        "kind": "unidad",
+        "key": "VIII·2",
+        "heading": "## PARTE VIII · VIII·2",
+        "start_line": 27751,
+        "end_line": 28447
+      },
+      {
+        "path": "corpus/libros/sdo/viii-3.md",
+        "kind": "unidad",
+        "key": "VIII·3",
+        "heading": "## PARTE VIII · VIII·3",
+        "start_line": 28448,
+        "end_line": 29039
+      }
+    ]
+  },
+  {
+    "id": "AOSA",
+    "title": "Arquitectura ontológica de sistemas artificiales",
+    "source": "corpus/fuentes/Arquitectura_Ontologica_Sistemas_Artificiales.md",
+    "sha256": "220f42005a7a0a61c527c784cb0ae79786a2413450d0ed9bf36bb34cc5c99147",
+    "collection": "Metrología Causal",
+    "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
+    "segments": [
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/00-preliminares.md",
+        "kind": "preliminares",
+        "start_line": 1,
+        "end_line": 14
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/01-notas-del-autor.md",
+        "kind": "notas",
+        "key": "NOTAS",
+        "heading": "Notas del autor",
+        "start_line": 15,
+        "end_line": 48
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-00-01.md",
+        "kind": "capitulo",
+        "key": "0.1",
+        "heading": "### Capítulo 0.1",
+        "start_line": 49,
+        "end_line": 154
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-00-02.md",
+        "kind": "capitulo",
+        "key": "0.2",
+        "heading": "### Capítulo 0.2",
+        "start_line": 155,
+        "end_line": 259
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-01-01.md",
+        "kind": "capitulo",
+        "key": "1.1",
+        "heading": "### Capítulo 1.1",
+        "start_line": 260,
+        "end_line": 348
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-01-02.md",
+        "kind": "capitulo",
+        "key": "1.2",
+        "heading": "### Capítulo 1.2",
+        "start_line": 349,
+        "end_line": 438
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-01-03.md",
+        "kind": "capitulo",
+        "key": "1.3",
+        "heading": "### Capítulo 1.3",
+        "start_line": 439,
+        "end_line": 525
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-02-01.md",
+        "kind": "capitulo",
+        "key": "2.1",
+        "heading": "### Capítulo 2.1",
+        "start_line": 526,
+        "end_line": 588
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-02-02.md",
+        "kind": "capitulo",
+        "key": "2.2",
+        "heading": "### Capítulo 2.2",
+        "start_line": 589,
+        "end_line": 687
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-02-03.md",
+        "kind": "capitulo",
+        "key": "2.3",
+        "heading": "### Capítulo 2.3",
+        "start_line": 688,
+        "end_line": 743
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-03-01.md",
+        "kind": "capitulo",
+        "key": "3.1",
+        "heading": "### Capítulo 3.1",
+        "start_line": 744,
+        "end_line": 804
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-03-02.md",
+        "kind": "capitulo",
+        "key": "3.2",
+        "heading": "### Capítulo 3.2",
+        "start_line": 805,
+        "end_line": 863
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-03-03.md",
+        "kind": "capitulo",
+        "key": "3.3",
+        "heading": "### Capítulo 3.3",
+        "start_line": 864,
+        "end_line": 945
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-04-01.md",
+        "kind": "capitulo",
+        "key": "4.1",
+        "heading": "### Capítulo 4.1",
+        "start_line": 946,
+        "end_line": 1024
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-04-02.md",
+        "kind": "capitulo",
+        "key": "4.2",
+        "heading": "### Capítulo 4.2",
+        "start_line": 1025,
+        "end_line": 1082
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-04-03.md",
+        "kind": "capitulo",
+        "key": "4.3",
+        "heading": "### Capítulo 4.3",
+        "start_line": 1083,
+        "end_line": 1126
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-05-01.md",
+        "kind": "capitulo",
+        "key": "5.1",
+        "heading": "### Capítulo 5.1",
+        "start_line": 1127,
+        "end_line": 1187
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-05-02.md",
+        "kind": "capitulo",
+        "key": "5.2",
+        "heading": "### Capítulo 5.2",
+        "start_line": 1188,
+        "end_line": 1255
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-05-03.md",
+        "kind": "capitulo",
+        "key": "5.3",
+        "heading": "### Capítulo 5.3",
+        "start_line": 1256,
+        "end_line": 1307
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-06-01.md",
+        "kind": "capitulo",
+        "key": "6.1",
+        "heading": "### Capítulo 6.1",
+        "start_line": 1308,
+        "end_line": 1353
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-06-02.md",
+        "kind": "capitulo",
+        "key": "6.2",
+        "heading": "### Capítulo 6.2",
+        "start_line": 1354,
+        "end_line": 1399
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-06-03.md",
+        "kind": "capitulo",
+        "key": "6.3",
+        "heading": "### Capítulo 6.3",
+        "start_line": 1400,
+        "end_line": 1437
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-06-04.md",
+        "kind": "capitulo",
+        "key": "6.4",
+        "heading": "### Capítulo 6.4",
+        "start_line": 1438,
+        "end_line": 1473
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-07-01.md",
+        "kind": "capitulo",
+        "key": "7.1",
+        "heading": "### Capítulo 7.1",
+        "start_line": 1474,
+        "end_line": 1573
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-07-02.md",
+        "kind": "capitulo",
+        "key": "7.2",
+        "heading": "### Capítulo 7.2",
+        "start_line": 1574,
+        "end_line": 1621
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-07-03.md",
+        "kind": "capitulo",
+        "key": "7.3",
+        "heading": "### Capítulo 7.3",
+        "start_line": 1622,
+        "end_line": 1720
+      },
+      {
+        "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/99-glosario.md",
+        "kind": "glosario",
+        "key": "GLOSARIO",
+        "heading": "Glosario de términos",
+        "start_line": 1721,
+        "end_line": 1804
+      }
+    ]
+  },
+  {
+    "id": "AXIOM-SDM",
+    "title": "Axiomatización del sistema de la doble mediación",
+    "source": "corpus/fuentes/Axiomatizacion_Sistema_Doble_Mediacion.md",
+    "sha256": "2d7691d0885865e821f6cadd994119147409531072bd1b4c731c21140f98e2db",
+    "collection": "Metrología Causal",
+    "volume": null,
+    "source_anomalies": [],
+    "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
+    "segments": [
+      {
+        "path": "corpus/libros/axiomatizacion-doble-mediacion/00-preliminares.md",
+        "kind": "preliminares",
+        "start_line": 1,
+        "end_line": 30
+      },
+      {
+        "path": "corpus/libros/axiomatizacion-doble-mediacion/01-prologo.md",
+        "kind": "prologo",
+        "key": "PROLOGO",
+        "heading": "Prólogo",
+        "start_line": 31,
+        "end_line": 268
+      },
+      {
+        "path": "corpus/libros/axiomatizacion-doble-mediacion/parte-00.md",
+        "kind": "parte",
+        "key": "PARTE-0",
+        "heading": "Parte 0",
+        "start_line": 269,
+        "end_line": 399
+      },
+      {
+        "path": "corpus/libros/axiomatizacion-doble-mediacion/parte-01.md",
+        "kind": "parte",
+        "key": "PARTE-I",
+        "heading": "Parte I",
+        "start_line": 400,
+        "end_line": 590
+      },
+      {
+        "path": "corpus/libros/axiomatizacion-doble-mediacion/parte-02.md",
+        "kind": "parte",
+        "key": "PARTE-II",
+        "heading": "Parte II",
+        "start_line": 591,
+        "end_line": 800
+      },
+      {
+        "path": "corpus/libros/axiomatizacion-doble-mediacion/parte-03.md",
+        "kind": "parte",
+        "key": "PARTE-III",
+        "heading": "Parte III",
+        "start_line": 801,
+        "end_line": 1065
+      },
+      {
+        "path": "corpus/libros/axiomatizacion-doble-mediacion/parte-04.md",
+        "kind": "parte",
+        "key": "PARTE-IV",
+        "heading": "Parte IV",
+        "start_line": 1066,
+        "end_line": 1258
+      },
+      {
+        "path": "corpus/libros/axiomatizacion-doble-mediacion/parte-05.md",
+        "kind": "parte",
+        "key": "PARTE-V",
+        "heading": "Parte V",
+        "start_line": 1259,
+        "end_line": 1421
+      },
+      {
+        "path": "corpus/libros/axiomatizacion-doble-mediacion/parte-06.md",
+        "kind": "parte",
+        "key": "PARTE-VI",
+        "heading": "Parte VI",
+        "start_line": 1422,
+        "end_line": 1793
+      },
+      {
+        "path": "corpus/libros/axiomatizacion-doble-mediacion/parte-07.md",
+        "kind": "parte",
+        "key": "PARTE-VII",
+        "heading": "Parte VII",
+        "start_line": 1794,
+        "end_line": 2040
+      },
+      {
+        "path": "corpus/libros/axiomatizacion-doble-mediacion/parte-08.md",
+        "kind": "parte",
+        "key": "PARTE-VIII",
+        "heading": "Parte VIII · Teorema Central",
+        "start_line": 2041,
+        "end_line": 2333
+      },
+      {
+        "path": "corpus/libros/axiomatizacion-doble-mediacion/parte-09.md",
+        "kind": "parte",
+        "key": "PARTE-IX",
+        "heading": "Parte IX",
+        "start_line": 2334,
+        "end_line": 2549
+      },
+      {
+        "path": "corpus/libros/axiomatizacion-doble-mediacion/parte-10.md",
+        "kind": "parte",
+        "key": "PARTE-X",
+        "heading": "Parte X",
+        "start_line": 2550,
+        "end_line": 2712
+      },
+      {
+        "path": "corpus/libros/axiomatizacion-doble-mediacion/apendice-a.md",
+        "kind": "apendice",
+        "key": "AP-A",
+        "heading": "Apéndice A",
+        "start_line": 2713,
+        "end_line": 2854
+      },
+      {
+        "path": "corpus/libros/axiomatizacion-doble-mediacion/apendice-b.md",
+        "kind": "apendice",
+        "key": "AP-B",
+        "heading": "Apéndice B",
+        "start_line": 2855,
+        "end_line": 3408
+      },
+      {
+        "path": "corpus/libros/axiomatizacion-doble-mediacion/apendice-c.md",
+        "kind": "apendice",
+        "key": "AP-C",
+        "heading": "Apéndice C",
+        "start_line": 3409,
+        "end_line": 3548
+      },
+      {
+        "path": "corpus/libros/axiomatizacion-doble-mediacion/apendice-d.md",
+        "kind": "apendice",
+        "key": "AP-D",
+        "heading": "Apéndice D",
+        "start_line": 3549,
+        "end_line": 4137
+      }
+    ]
+  },
+  {
+    "id": "TAXONOMIA",
+    "title": "Taxonomía General de Aplicaciones",
+    "source": "corpus/fuentes/Taxonomia_General_de_Aplicaciones.md",
+    "sha256": "3700161a587f17f4e58538165db10e3971739f20ba4d7daf7528324c93633144",
+    "collection": "Metrología Causal",
+    "volume": null,
+    "source_anomalies": [],
+    "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
+    "segments": [
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/00-preliminares.md",
+        "kind": "preliminares",
+        "start_line": 1,
+        "end_line": 153
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-u-01.md",
+        "kind": "capitulo",
+        "key": "U·1",
+        "heading": "Capítulo U·1",
+        "start_line": 154,
+        "end_line": 640
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-u-02.md",
+        "kind": "capitulo",
+        "key": "U·2",
+        "heading": "Capítulo U·2",
+        "start_line": 641,
+        "end_line": 1014
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-u-03.md",
+        "kind": "capitulo",
+        "key": "U·3",
+        "heading": "Capítulo U·3",
+        "start_line": 1015,
+        "end_line": 1464
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-u-04.md",
+        "kind": "capitulo",
+        "key": "U·4",
+        "heading": "Capítulo U·4",
+        "start_line": 1465,
+        "end_line": 1870
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-01.md",
+        "kind": "capitulo",
+        "key": "1",
+        "heading": "### Capítulo 1",
+        "start_line": 1871,
+        "end_line": 3064
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-02.md",
+        "kind": "capitulo",
+        "key": "2",
+        "heading": "### Capítulo 2",
+        "start_line": 3065,
+        "end_line": 4602
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-03.md",
+        "kind": "capitulo",
+        "key": "3",
+        "heading": "### Capítulo 3",
+        "start_line": 4603,
+        "end_line": 6314
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-04.md",
+        "kind": "capitulo",
+        "key": "4",
+        "heading": "### Capítulo 4",
+        "start_line": 6315,
+        "end_line": 7933
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-05.md",
+        "kind": "capitulo",
+        "key": "5",
+        "heading": "### Capítulo 5",
+        "start_line": 7934,
+        "end_line": 9477
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-06.md",
+        "kind": "capitulo",
+        "key": "6",
+        "heading": "### Capítulo 6",
+        "start_line": 9478,
+        "end_line": 10998
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-07.md",
+        "kind": "capitulo",
+        "key": "7",
+        "heading": "### Capítulo 7",
+        "start_line": 10999,
+        "end_line": 12417
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-08.md",
+        "kind": "capitulo",
+        "key": "8",
+        "heading": "### Capítulo 8",
+        "start_line": 12418,
+        "end_line": 13901
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-09.md",
+        "kind": "capitulo",
+        "key": "9",
+        "heading": "### Capítulo 9",
+        "start_line": 13902,
+        "end_line": 15460
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-10.md",
+        "kind": "capitulo",
+        "key": "10",
+        "heading": "### Capítulo 10",
+        "start_line": 15461,
+        "end_line": 17057
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-11.md",
+        "kind": "capitulo",
+        "key": "11",
+        "heading": "### Capítulo 11",
+        "start_line": 17058,
+        "end_line": 18509
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-12.md",
+        "kind": "capitulo",
+        "key": "12",
+        "heading": "### Capítulo 12",
+        "start_line": 18510,
+        "end_line": 20224
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-13.md",
+        "kind": "capitulo",
+        "key": "13",
+        "heading": "### Capítulo 13",
+        "start_line": 20225,
+        "end_line": 21886
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-14.md",
+        "kind": "capitulo",
+        "key": "14",
+        "heading": "### Capítulo 14",
+        "start_line": 21887,
+        "end_line": 23757
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-15.md",
+        "kind": "capitulo",
+        "key": "15",
+        "heading": "### Capítulo 15",
+        "start_line": 23758,
+        "end_line": 25154
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-16.md",
+        "kind": "capitulo",
+        "key": "16",
+        "heading": "### Capítulo 16",
+        "start_line": 25155,
+        "end_line": 26654
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-17.md",
+        "kind": "capitulo",
+        "key": "17",
+        "heading": "### Capítulo 17",
+        "start_line": 26655,
+        "end_line": 28285
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-18.md",
+        "kind": "capitulo",
+        "key": "18",
+        "heading": "### Capítulo 18",
+        "start_line": 28286,
+        "end_line": 29970
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-19.md",
+        "kind": "capitulo",
+        "key": "19",
+        "heading": "### Capítulo 19",
+        "start_line": 29971,
+        "end_line": 31954
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-20.md",
+        "kind": "capitulo",
+        "key": "20",
+        "heading": "### Capítulo 20",
+        "start_line": 31955,
+        "end_line": 33880
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-21.md",
+        "kind": "capitulo",
+        "key": "21",
+        "heading": "### Capítulo 21",
+        "start_line": 33881,
+        "end_line": 35537
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-22.md",
+        "kind": "capitulo",
+        "key": "22",
+        "heading": "### Capítulo 22",
+        "start_line": 35538,
+        "end_line": 36843
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-23.md",
+        "kind": "capitulo",
+        "key": "23",
+        "heading": "### Capítulo 23",
+        "start_line": 36844,
+        "end_line": 38233
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-24.md",
+        "kind": "capitulo",
+        "key": "24",
+        "heading": "### Capítulo 24",
+        "start_line": 38234,
+        "end_line": 39798
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-25.md",
+        "kind": "capitulo",
+        "key": "25",
+        "heading": "### Capítulo 25",
+        "start_line": 39799,
+        "end_line": 41339
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-26.md",
+        "kind": "capitulo",
+        "key": "26",
+        "heading": "### Capítulo 26",
+        "start_line": 41340,
+        "end_line": 42986
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-27.md",
+        "kind": "capitulo",
+        "key": "27",
+        "heading": "### Capítulo 27",
+        "start_line": 42987,
+        "end_line": 44772
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-28.md",
+        "kind": "capitulo",
+        "key": "28",
+        "heading": "### Capítulo 28",
+        "start_line": 44773,
+        "end_line": 46427
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-29.md",
+        "kind": "capitulo",
+        "key": "29",
+        "heading": "### Capítulo 29",
+        "start_line": 46428,
+        "end_line": 48244
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-30.md",
+        "kind": "capitulo",
+        "key": "30",
+        "heading": "### Capítulo 30",
+        "start_line": 48245,
+        "end_line": 50244
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-31.md",
+        "kind": "capitulo",
+        "key": "31",
+        "heading": "### Capítulo 31",
+        "start_line": 50245,
+        "end_line": 52127
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-32.md",
+        "kind": "capitulo",
+        "key": "32",
+        "heading": "### Capítulo 32",
+        "start_line": 52128,
+        "end_line": 54219
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-33.md",
+        "kind": "capitulo",
+        "key": "33",
+        "heading": "### Capítulo 33",
+        "start_line": 54220,
+        "end_line": 55896
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-34.md",
+        "kind": "capitulo",
+        "key": "34",
+        "heading": "### Capítulo 34",
+        "start_line": 55897,
+        "end_line": 57697
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-35.md",
+        "kind": "capitulo",
+        "key": "35",
+        "heading": "### Capítulo 35",
+        "start_line": 57698,
+        "end_line": 59243
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-36.md",
+        "kind": "capitulo",
+        "key": "36",
+        "heading": "### Capítulo 36",
+        "start_line": 59244,
+        "end_line": 61017
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-37.md",
+        "kind": "capitulo",
+        "key": "37",
+        "heading": "### Capítulo 37",
+        "start_line": 61018,
+        "end_line": 62452
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-38.md",
+        "kind": "capitulo",
+        "key": "38",
+        "heading": "### Capítulo 38",
+        "start_line": 62453,
+        "end_line": 64215
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-39.md",
+        "kind": "capitulo",
+        "key": "39",
+        "heading": "### Capítulo 39",
+        "start_line": 64216,
+        "end_line": 65983
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-40.md",
+        "kind": "capitulo",
+        "key": "40",
+        "heading": "### Capítulo 40",
+        "start_line": 65984,
+        "end_line": 67572
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-41.md",
+        "kind": "capitulo",
+        "key": "41",
+        "heading": "### Capítulo 41",
+        "start_line": 67573,
+        "end_line": 69208
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-42.md",
+        "kind": "capitulo",
+        "key": "42",
+        "heading": "### Capítulo 42",
+        "start_line": 69209,
+        "end_line": 70836
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-43.md",
+        "kind": "capitulo",
+        "key": "43",
+        "heading": "### Capítulo 43",
+        "start_line": 70837,
+        "end_line": 72224
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-44.md",
+        "kind": "capitulo",
+        "key": "44",
+        "heading": "### Capítulo 44",
+        "start_line": 72225,
+        "end_line": 73580
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-45.md",
+        "kind": "capitulo",
+        "key": "45",
+        "heading": "### Capítulo 45",
+        "start_line": 73581,
+        "end_line": 74953
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-46.md",
+        "kind": "capitulo",
+        "key": "46",
+        "heading": "### Capítulo 46",
+        "start_line": 74954,
+        "end_line": 75784
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-47.md",
+        "kind": "capitulo",
+        "key": "47",
+        "heading": "### Capítulo 47",
+        "start_line": 75785,
+        "end_line": 77012
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-48.md",
+        "kind": "capitulo",
+        "key": "48",
+        "heading": "### Capítulo 48",
+        "start_line": 77013,
+        "end_line": 77869
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-49.md",
+        "kind": "capitulo",
+        "key": "49",
+        "heading": "### Capítulo 49",
+        "start_line": 77870,
+        "end_line": 79520
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-50.md",
+        "kind": "capitulo",
+        "key": "50",
+        "heading": "### Capítulo 50",
+        "start_line": 79521,
+        "end_line": 79792
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-51.md",
+        "kind": "capitulo",
+        "key": "51",
+        "heading": "### Capítulo 51",
+        "start_line": 79793,
+        "end_line": 79992
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-52.md",
+        "kind": "capitulo",
+        "key": "52",
+        "heading": "### Capítulo 52",
+        "start_line": 79993,
+        "end_line": 80205
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-53.md",
+        "kind": "capitulo",
+        "key": "53",
+        "heading": "### Capítulo 53",
+        "start_line": 80206,
+        "end_line": 80384
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-54.md",
+        "kind": "capitulo",
+        "key": "54",
+        "heading": "### Capítulo 54",
+        "start_line": 80385,
+        "end_line": 80708
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-55.md",
+        "kind": "capitulo",
+        "key": "55",
+        "heading": "### Capítulo 55",
+        "start_line": 80709,
+        "end_line": 81434
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-56.md",
+        "kind": "capitulo",
+        "key": "56",
+        "heading": "### Capítulo 56",
+        "start_line": 81435,
+        "end_line": 81906
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-57.md",
+        "kind": "capitulo",
+        "key": "57",
+        "heading": "### Capítulo 57",
+        "start_line": 81907,
+        "end_line": 82343
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-58.md",
+        "kind": "capitulo",
+        "key": "58",
+        "heading": "### Capítulo 58",
+        "start_line": 82344,
+        "end_line": 82794
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-59.md",
+        "kind": "capitulo",
+        "key": "59",
+        "heading": "### Capítulo 59",
+        "start_line": 82795,
+        "end_line": 83926
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-60.md",
+        "kind": "capitulo",
+        "key": "60",
+        "heading": "### Capítulo 60",
+        "start_line": 83927,
+        "end_line": 84755
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-61.md",
+        "kind": "capitulo",
+        "key": "61",
+        "heading": "### Capítulo 61",
+        "start_line": 84756,
+        "end_line": 85420
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-62.md",
+        "kind": "capitulo",
+        "key": "62",
+        "heading": "### Capítulo 62",
+        "start_line": 85421,
+        "end_line": 85895
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-63.md",
+        "kind": "capitulo",
+        "key": "63",
+        "heading": "### Capítulo 63",
+        "start_line": 85896,
+        "end_line": 86405
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-64.md",
+        "kind": "capitulo",
+        "key": "64",
+        "heading": "### Capítulo 64",
+        "start_line": 86406,
+        "end_line": 86935
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-65.md",
+        "kind": "capitulo",
+        "key": "65",
+        "heading": "### Capítulo 65",
+        "start_line": 86936,
+        "end_line": 87287
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-66.md",
+        "kind": "capitulo",
+        "key": "66",
+        "heading": "### Capítulo 66",
+        "start_line": 87288,
+        "end_line": 87611
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-67.md",
+        "kind": "capitulo",
+        "key": "67",
+        "heading": "### Capítulo 67",
+        "start_line": 87612,
+        "end_line": 87965
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-68.md",
+        "kind": "capitulo",
+        "key": "68",
+        "heading": "### Capítulo 68",
+        "start_line": 87966,
+        "end_line": 88348
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-69.md",
+        "kind": "capitulo",
+        "key": "69",
+        "heading": "### Capítulo 69",
+        "start_line": 88349,
+        "end_line": 88719
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-70.md",
+        "kind": "capitulo",
+        "key": "70",
+        "heading": "### Capítulo 70",
+        "start_line": 88720,
+        "end_line": 89082
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-71.md",
+        "kind": "capitulo",
+        "key": "71",
+        "heading": "### Capítulo 71",
+        "start_line": 89083,
+        "end_line": 89461
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-72.md",
+        "kind": "capitulo",
+        "key": "72",
+        "heading": "### Capítulo 72",
+        "start_line": 89462,
+        "end_line": 89908
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-73.md",
+        "kind": "capitulo",
+        "key": "73",
+        "heading": "### Capítulo 73",
+        "start_line": 89909,
+        "end_line": 90284
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-74.md",
+        "kind": "capitulo",
+        "key": "74",
+        "heading": "### Capítulo 74",
+        "start_line": 90285,
+        "end_line": 90576
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-75.md",
+        "kind": "capitulo",
+        "key": "75",
+        "heading": "### Capítulo 75",
+        "start_line": 90577,
+        "end_line": 90891
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-76.md",
+        "kind": "capitulo",
+        "key": "76",
+        "heading": "### Capítulo 76",
+        "start_line": 90892,
+        "end_line": 91271
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-77.md",
+        "kind": "capitulo",
+        "key": "77",
+        "heading": "### Capítulo 77",
+        "start_line": 91272,
+        "end_line": 91523
+      },
+      {
+        "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-78.md",
+        "kind": "capitulo",
+        "key": "78",
+        "heading": "### Capítulo 78",
+        "start_line": 91524,
+        "end_line": 91892
+      }
+    ]
+  },
+  {
+    "id": "MC-I",
+    "title": "Metrología Causal: La ciencia de la medición causal",
+    "source": "corpus/fuentes/Metrologia_Causal_La_ciencia_de_la_medicion_causal.md",
+    "sha256": "f5a154fbeb8e82c89cb8fd935af7741e2f961bc8347d76c6efe413966a0c370f",
+    "collection": "Metrología Causal",
+    "volume": 1,
+    "source_anomalies": [],
+    "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
+    "segments": [
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/00-preliminares.md",
+        "kind": "preliminares",
+        "start_line": 1,
+        "end_line": 26
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/01-prologo.md",
+        "kind": "prologo",
+        "key": "PROLOGO",
+        "heading": "PRÓLOGO",
+        "start_line": 27,
+        "end_line": 447
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-01.md",
+        "kind": "capitulo",
+        "key": "I·1",
+        "heading": "### Capítulo I·1",
+        "start_line": 448,
+        "end_line": 572
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-02.md",
+        "kind": "capitulo",
+        "key": "I·2",
+        "heading": "### Capítulo I·2",
+        "start_line": 573,
+        "end_line": 693
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-03.md",
+        "kind": "capitulo",
+        "key": "I·3",
+        "heading": "### Capítulo I·3",
+        "start_line": 694,
+        "end_line": 811
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-04.md",
+        "kind": "capitulo",
+        "key": "I·4",
+        "heading": "### Capítulo I·4",
+        "start_line": 812,
+        "end_line": 994
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-05.md",
+        "kind": "capitulo",
+        "key": "I·5",
+        "heading": "### Capítulo I·5",
+        "start_line": 995,
+        "end_line": 1119
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-06.md",
+        "kind": "capitulo",
+        "key": "I·6",
+        "heading": "### Capítulo I·6",
+        "start_line": 1120,
+        "end_line": 1220
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-07.md",
+        "kind": "capitulo",
+        "key": "I·7",
+        "heading": "### Capítulo I·7",
+        "start_line": 1221,
+        "end_line": 1292
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-08.md",
+        "kind": "capitulo",
+        "key": "I·8",
+        "heading": "### Capítulo I·8",
+        "start_line": 1293,
+        "end_line": 1386
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-09.md",
+        "kind": "capitulo",
+        "key": "I·9",
+        "heading": "### Capítulo I·9",
+        "start_line": 1387,
+        "end_line": 1504
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-10.md",
+        "kind": "capitulo",
+        "key": "I·10",
+        "heading": "### Capítulo I·10",
+        "start_line": 1505,
+        "end_line": 1606
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-11.md",
+        "kind": "capitulo",
+        "key": "I·11",
+        "heading": "### Capítulo I·11",
+        "start_line": 1607,
+        "end_line": 1765
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-12.md",
+        "kind": "capitulo",
+        "key": "I·12",
+        "heading": "### Capítulo I·12",
+        "start_line": 1766,
+        "end_line": 1873
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-13.md",
+        "kind": "capitulo",
+        "key": "I·13",
+        "heading": "### Capítulo I·13",
+        "start_line": 1874,
+        "end_line": 1959
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-14.md",
+        "kind": "capitulo",
+        "key": "I·14",
+        "heading": "### Capítulo I·14",
+        "start_line": 1960,
+        "end_line": 2053
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-15.md",
+        "kind": "capitulo",
+        "key": "I·15",
+        "heading": "### Capítulo I·15",
+        "start_line": 2054,
+        "end_line": 2178
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-01.md",
+        "kind": "capitulo",
+        "key": "II·1",
+        "heading": "### Capítulo II·1",
+        "start_line": 2179,
+        "end_line": 2306
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-02.md",
+        "kind": "capitulo",
+        "key": "II·2",
+        "heading": "### Capítulo II·2",
+        "start_line": 2307,
+        "end_line": 2426
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-03.md",
+        "kind": "capitulo",
+        "key": "II·3",
+        "heading": "### Capítulo II·3",
+        "start_line": 2427,
+        "end_line": 2563
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-04.md",
+        "kind": "capitulo",
+        "key": "II·4",
+        "heading": "### Capítulo II·4",
+        "start_line": 2564,
+        "end_line": 2674
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-05.md",
+        "kind": "capitulo",
+        "key": "II·5",
+        "heading": "### Capítulo II·5",
+        "start_line": 2675,
+        "end_line": 2777
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-06.md",
+        "kind": "capitulo",
+        "key": "II·6",
+        "heading": "### Capítulo II·6",
+        "start_line": 2778,
+        "end_line": 2912
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-07.md",
+        "kind": "capitulo",
+        "key": "II·7",
+        "heading": "### Capítulo II·7",
+        "start_line": 2913,
+        "end_line": 3010
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-08.md",
+        "kind": "capitulo",
+        "key": "II·8",
+        "heading": "### Capítulo II·8",
+        "start_line": 3011,
+        "end_line": 3101
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-09.md",
+        "kind": "capitulo",
+        "key": "II·9",
+        "heading": "### Capítulo II·9",
+        "start_line": 3102,
+        "end_line": 3186
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-10.md",
+        "kind": "capitulo",
+        "key": "II·10",
+        "heading": "### Capítulo II·10",
+        "start_line": 3187,
+        "end_line": 3409
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-11.md",
+        "kind": "capitulo",
+        "key": "II·11",
+        "heading": "### Capítulo II·11",
+        "start_line": 3410,
+        "end_line": 3500
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-12.md",
+        "kind": "capitulo",
+        "key": "II·12",
+        "heading": "### Capítulo II·12",
+        "start_line": 3501,
+        "end_line": 3603
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-13.md",
+        "kind": "capitulo",
+        "key": "II·13",
+        "heading": "### Capítulo II·13",
+        "start_line": 3604,
+        "end_line": 3704
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-14.md",
+        "kind": "capitulo",
+        "key": "II·14",
+        "heading": "### Capítulo II·14",
+        "start_line": 3705,
+        "end_line": 3802
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-15.md",
+        "kind": "capitulo",
+        "key": "II·15",
+        "heading": "### Capítulo II·15",
+        "start_line": 3803,
+        "end_line": 3886
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-16.md",
+        "kind": "capitulo",
+        "key": "II·16",
+        "heading": "### Capítulo II·16",
+        "start_line": 3887,
+        "end_line": 3984
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-17.md",
+        "kind": "capitulo",
+        "key": "II·17",
+        "heading": "### Capítulo II·17",
+        "start_line": 3985,
+        "end_line": 4139
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-01.md",
+        "kind": "capitulo",
+        "key": "III·1",
+        "heading": "### Capítulo III·1",
+        "start_line": 4140,
+        "end_line": 4248
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-02.md",
+        "kind": "capitulo",
+        "key": "III·2",
+        "heading": "### Capítulo III·2",
+        "start_line": 4249,
+        "end_line": 4360
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-03.md",
+        "kind": "capitulo",
+        "key": "III·3",
+        "heading": "### Capítulo III·3",
+        "start_line": 4361,
+        "end_line": 4458
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-04.md",
+        "kind": "capitulo",
+        "key": "III·4",
+        "heading": "### Capítulo III·4",
+        "start_line": 4459,
+        "end_line": 4726
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-05.md",
+        "kind": "capitulo",
+        "key": "III·5",
+        "heading": "### Capítulo III·5",
+        "start_line": 4727,
+        "end_line": 4811
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-06.md",
+        "kind": "capitulo",
+        "key": "III·6",
+        "heading": "### Capítulo III·6",
+        "start_line": 4812,
+        "end_line": 4921
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-07.md",
+        "kind": "capitulo",
+        "key": "III·7",
+        "heading": "### Capítulo III·7",
+        "start_line": 4922,
+        "end_line": 5013
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-08.md",
+        "kind": "capitulo",
+        "key": "III·8",
+        "heading": "### Capítulo III·8",
+        "start_line": 5014,
+        "end_line": 5171
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-09.md",
+        "kind": "capitulo",
+        "key": "III·9",
+        "heading": "### Capítulo III·9",
+        "start_line": 5172,
+        "end_line": 5281
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-10.md",
+        "kind": "capitulo",
+        "key": "III·10",
+        "heading": "### Capítulo III·10",
+        "start_line": 5282,
+        "end_line": 5467
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-11.md",
+        "kind": "capitulo",
+        "key": "III·11",
+        "heading": "### Capítulo III·11",
+        "start_line": 5468,
+        "end_line": 5615
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-12.md",
+        "kind": "capitulo",
+        "key": "III·12",
+        "heading": "### Capítulo III·12",
+        "start_line": 5616,
+        "end_line": 5789
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-13.md",
+        "kind": "capitulo",
+        "key": "III·13",
+        "heading": "### Capítulo III·13",
+        "start_line": 5790,
+        "end_line": 5898
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-14.md",
+        "kind": "capitulo",
+        "key": "III·14",
+        "heading": "### Capítulo III·14",
+        "start_line": 5899,
+        "end_line": 6024
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-15.md",
+        "kind": "capitulo",
+        "key": "III·15",
+        "heading": "### Capítulo III·15",
+        "start_line": 6025,
+        "end_line": 6167
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-16.md",
+        "kind": "capitulo",
+        "key": "III·16",
+        "heading": "### Capítulo III·16",
+        "start_line": 6168,
+        "end_line": 6351
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-17.md",
+        "kind": "capitulo",
+        "key": "III·17",
+        "heading": "### Capítulo III·17",
+        "start_line": 6352,
+        "end_line": 6517
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-18.md",
+        "kind": "capitulo",
+        "key": "III·18",
+        "heading": "### Capítulo III·18",
+        "start_line": 6518,
+        "end_line": 6666
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-01.md",
+        "kind": "capitulo",
+        "key": "IV·1",
+        "heading": "### Capítulo IV·1",
+        "start_line": 6667,
+        "end_line": 6772
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-02.md",
+        "kind": "capitulo",
+        "key": "IV·2",
+        "heading": "### Capítulo IV·2",
+        "start_line": 6773,
+        "end_line": 6875
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-03.md",
+        "kind": "capitulo",
+        "key": "IV·3",
+        "heading": "### Capítulo IV·3",
+        "start_line": 6876,
+        "end_line": 6975
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-04.md",
+        "kind": "capitulo",
+        "key": "IV·4",
+        "heading": "### Capítulo IV·4",
+        "start_line": 6976,
+        "end_line": 7078
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-05.md",
+        "kind": "capitulo",
+        "key": "IV·5",
+        "heading": "### Capítulo IV·5",
+        "start_line": 7079,
+        "end_line": 7215
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-06.md",
+        "kind": "capitulo",
+        "key": "IV·6",
+        "heading": "### Capítulo IV·6",
+        "start_line": 7216,
+        "end_line": 7313
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-07.md",
+        "kind": "capitulo",
+        "key": "IV·7",
+        "heading": "### Capítulo IV·7",
+        "start_line": 7314,
+        "end_line": 7425
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-08.md",
+        "kind": "capitulo",
+        "key": "IV·8",
+        "heading": "### Capítulo IV·8",
+        "start_line": 7426,
+        "end_line": 7619
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-09.md",
+        "kind": "capitulo",
+        "key": "IV·9",
+        "heading": "### Capítulo IV·9",
+        "start_line": 7620,
+        "end_line": 7719
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-10.md",
+        "kind": "capitulo",
+        "key": "IV·10",
+        "heading": "### Capítulo IV·10",
+        "start_line": 7720,
+        "end_line": 7953
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-11.md",
+        "kind": "capitulo",
+        "key": "IV·11",
+        "heading": "### Capítulo IV·11",
+        "start_line": 7954,
+        "end_line": 8094
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-01.md",
+        "kind": "capitulo",
+        "key": "V·1",
+        "heading": "### Capítulo V·1",
+        "start_line": 8095,
+        "end_line": 8187
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-02.md",
+        "kind": "capitulo",
+        "key": "V·2",
+        "heading": "### Capítulo V·2",
+        "start_line": 8188,
+        "end_line": 8289
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-03.md",
+        "kind": "capitulo",
+        "key": "V·3",
+        "heading": "### Capítulo V·3",
+        "start_line": 8290,
+        "end_line": 8381
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-04.md",
+        "kind": "capitulo",
+        "key": "V·4",
+        "heading": "### Capítulo V·4",
+        "start_line": 8382,
+        "end_line": 8481
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-05.md",
+        "kind": "capitulo",
+        "key": "V·5",
+        "heading": "### Capítulo V·5",
+        "start_line": 8482,
+        "end_line": 8663
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-06.md",
+        "kind": "capitulo",
+        "key": "V·6",
+        "heading": "### Capítulo V·6",
+        "start_line": 8664,
+        "end_line": 8765
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-07.md",
+        "kind": "capitulo",
+        "key": "V·7",
+        "heading": "### Capítulo V·7",
+        "start_line": 8766,
+        "end_line": 8886
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-08.md",
+        "kind": "capitulo",
+        "key": "V·8",
+        "heading": "### Capítulo V·8",
+        "start_line": 8887,
+        "end_line": 8988
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-09.md",
+        "kind": "capitulo",
+        "key": "V·9",
+        "heading": "### Capítulo V·9",
+        "start_line": 8989,
+        "end_line": 9087
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-10.md",
+        "kind": "capitulo",
+        "key": "V·10",
+        "heading": "### Capítulo V·10",
+        "start_line": 9088,
+        "end_line": 9177
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-11.md",
+        "kind": "capitulo",
+        "key": "V·11",
+        "heading": "### Capítulo V·11",
+        "start_line": 9178,
+        "end_line": 9310
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-01.md",
+        "kind": "capitulo",
+        "key": "VI·1",
+        "heading": "### Capítulo VI·1",
+        "start_line": 9311,
+        "end_line": 9418
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-02.md",
+        "kind": "capitulo",
+        "key": "VI·2",
+        "heading": "### Capítulo VI·2",
+        "start_line": 9419,
+        "end_line": 9513
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-03.md",
+        "kind": "capitulo",
+        "key": "VI·3",
+        "heading": "### Capítulo VI·3",
+        "start_line": 9514,
+        "end_line": 9601
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-04.md",
+        "kind": "capitulo",
+        "key": "VI·4",
+        "heading": "### Capítulo VI·4",
+        "start_line": 9602,
+        "end_line": 9701
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-05.md",
+        "kind": "capitulo",
+        "key": "VI·5",
+        "heading": "### Capítulo VI·5",
+        "start_line": 9702,
+        "end_line": 9833
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-06.md",
+        "kind": "capitulo",
+        "key": "VI·6",
+        "heading": "### Capítulo VI·6",
+        "start_line": 9834,
+        "end_line": 9925
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-07.md",
+        "kind": "capitulo",
+        "key": "VI·7",
+        "heading": "### Capítulo VI·7",
+        "start_line": 9926,
+        "end_line": 10010
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-08.md",
+        "kind": "capitulo",
+        "key": "VI·8",
+        "heading": "### Capítulo VI·8",
+        "start_line": 10011,
+        "end_line": 10091
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-09.md",
+        "kind": "capitulo",
+        "key": "VI·9",
+        "heading": "### Capítulo VI·9",
+        "start_line": 10092,
+        "end_line": 10200
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-10.md",
+        "kind": "capitulo",
+        "key": "VI·10",
+        "heading": "### Capítulo VI·10",
+        "start_line": 10201,
+        "end_line": 10285
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-11.md",
+        "kind": "capitulo",
+        "key": "VI·11",
+        "heading": "### Capítulo VI·11",
+        "start_line": 10286,
+        "end_line": 10510
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-12.md",
+        "kind": "capitulo",
+        "key": "VI·12",
+        "heading": "### Capítulo VI·12",
+        "start_line": 10511,
+        "end_line": 10590
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-13.md",
+        "kind": "capitulo",
+        "key": "VI·13",
+        "heading": "### Capítulo VI·13",
+        "start_line": 10591,
+        "end_line": 10676
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-14.md",
+        "kind": "capitulo",
+        "key": "VI·14",
+        "heading": "### Capítulo VI·14",
+        "start_line": 10677,
+        "end_line": 10754
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-15.md",
+        "kind": "capitulo",
+        "key": "VI·15",
+        "heading": "### Capítulo VI·15",
+        "start_line": 10755,
+        "end_line": 10839
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-16.md",
+        "kind": "capitulo",
+        "key": "VI·16",
+        "heading": "### Capítulo VI·16",
+        "start_line": 10840,
+        "end_line": 12204
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/epilogo-01.md",
+        "kind": "epilogo",
+        "key": "E·1",
+        "heading": "Capítulo E·1",
+        "start_line": 12205,
+        "end_line": 12301
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/epilogo-02.md",
+        "kind": "epilogo",
+        "key": "E·2",
+        "heading": "Capítulo E·2",
+        "start_line": 12302,
+        "end_line": 12417
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-01.md",
+        "kind": "apendice",
+        "key": "A·1",
+        "heading": "Apéndice A·1",
+        "start_line": 12418,
+        "end_line": 12530
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-02.md",
+        "kind": "apendice",
+        "key": "A·2",
+        "heading": "Apéndice A·2",
+        "start_line": 12531,
+        "end_line": 12642
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-03.md",
+        "kind": "apendice",
+        "key": "A·3",
+        "heading": "Apéndice A·3",
+        "start_line": 12643,
+        "end_line": 12739
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-04.md",
+        "kind": "apendice",
+        "key": "A·4",
+        "heading": "Apéndice A·4",
+        "start_line": 12740,
+        "end_line": 12918
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-05.md",
+        "kind": "apendice",
+        "key": "A·5",
+        "heading": "Apéndice A·5",
+        "start_line": 12919,
+        "end_line": 13013
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-06.md",
+        "kind": "apendice",
+        "key": "A·6",
+        "heading": "Apéndice A·6",
+        "start_line": 13014,
+        "end_line": 13179
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/99-glosario.md",
+        "kind": "glosario",
+        "key": "GLOSARIO",
+        "heading": "GLOSARIO",
+        "start_line": 13180,
+        "end_line": 14379
+      }
+    ]
+  },
+  {
+    "id": "MC-II",
+    "title": "Metrología Causal: Vol. II",
+    "source": "corpus/fuentes/Metrologia_Causal_Vol_II.md",
+    "sha256": "bd957cae2bf36c1352a107f82f39f135e2aeb2009950a5489981251e6017bb15",
+    "collection": "Metrología Causal",
+    "volume": 2,
+    "source_anomalies": [],
+    "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
+    "segments": [
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/00-preliminares.md",
+        "kind": "preliminares",
+        "start_line": 1,
+        "end_line": 25
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/01-introduccion.md",
+        "kind": "introduccion",
+        "key": "INTRO",
+        "heading": "INTRODUCCIÓN",
+        "start_line": 26,
+        "end_line": 560
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-01.md",
+        "kind": "capitulo",
+        "key": "I·1",
+        "heading": "### Capítulo I·1",
+        "start_line": 561,
+        "end_line": 735
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-02.md",
+        "kind": "capitulo",
+        "key": "I·2",
+        "heading": "### Capítulo I·2",
+        "start_line": 736,
+        "end_line": 895
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-03.md",
+        "kind": "capitulo",
+        "key": "I·3",
+        "heading": "### Capítulo I·3",
+        "start_line": 896,
+        "end_line": 1044
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-04.md",
+        "kind": "capitulo",
+        "key": "I·4",
+        "heading": "### Capítulo I·4",
+        "start_line": 1045,
+        "end_line": 1216
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-05.md",
+        "kind": "capitulo",
+        "key": "I·5",
+        "heading": "### Capítulo I·5",
+        "start_line": 1217,
+        "end_line": 1418
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-06.md",
+        "kind": "capitulo",
+        "key": "I·6",
+        "heading": "### Capítulo I·6",
+        "start_line": 1419,
+        "end_line": 1575
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-07.md",
+        "kind": "capitulo",
+        "key": "I·7",
+        "heading": "### Capítulo I·7",
+        "start_line": 1576,
+        "end_line": 1760
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-01.md",
+        "kind": "capitulo",
+        "key": "II·1",
+        "heading": "### Capítulo II·1",
+        "start_line": 1761,
+        "end_line": 2088
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-02.md",
+        "kind": "capitulo",
+        "key": "II·2",
+        "heading": "### Capítulo II·2",
+        "start_line": 2089,
+        "end_line": 2372
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-03.md",
+        "kind": "capitulo",
+        "key": "II·3",
+        "heading": "### Capítulo II·3",
+        "start_line": 2373,
+        "end_line": 2657
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-03-01.md",
+        "kind": "capitulo",
+        "key": "III·1",
+        "heading": "### Capítulo III·1",
+        "start_line": 2658,
+        "end_line": 2845
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-03-02.md",
+        "kind": "capitulo",
+        "key": "III·2",
+        "heading": "### Capítulo III·2",
+        "start_line": 2846,
+        "end_line": 3111
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-03-03.md",
+        "kind": "capitulo",
+        "key": "III·3",
+        "heading": "### Capítulo III·3",
+        "start_line": 3112,
+        "end_line": 3333
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-03-04.md",
+        "kind": "capitulo",
+        "key": "III·4",
+        "heading": "### Capítulo III·4",
+        "start_line": 3334,
+        "end_line": 3501
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-03-05.md",
+        "kind": "capitulo",
+        "key": "III·5",
+        "heading": "### Capítulo III·5",
+        "start_line": 3502,
+        "end_line": 3785
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-01.md",
+        "kind": "capitulo",
+        "key": "IV·1",
+        "heading": "### Capítulo IV·1",
+        "start_line": 3786,
+        "end_line": 3951
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-02.md",
+        "kind": "capitulo",
+        "key": "IV·2",
+        "heading": "### Capítulo IV·2",
+        "start_line": 3952,
+        "end_line": 4102
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-03.md",
+        "kind": "capitulo",
+        "key": "IV·3",
+        "heading": "### Capítulo IV·3",
+        "start_line": 4103,
+        "end_line": 4197
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-04.md",
+        "kind": "capitulo",
+        "key": "IV·4",
+        "heading": "### Capítulo IV·4",
+        "start_line": 4198,
+        "end_line": 4304
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-05.md",
+        "kind": "capitulo",
+        "key": "IV·5",
+        "heading": "### Capítulo IV·5",
+        "start_line": 4305,
+        "end_line": 4414
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-06.md",
+        "kind": "capitulo",
+        "key": "IV·6",
+        "heading": "### Capítulo IV·6",
+        "start_line": 4415,
+        "end_line": 4526
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-07.md",
+        "kind": "capitulo",
+        "key": "IV·7",
+        "heading": "### Capítulo IV·7",
+        "start_line": 4527,
+        "end_line": 4683
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/apendice-a.md",
+        "kind": "apendice",
+        "key": "A",
+        "heading": "Apéndice A",
+        "start_line": 4684,
+        "end_line": 5063
+      },
+      {
+        "path": "corpus/libros/metrologia-causal/02-vol-ii/apendice-b.md",
+        "kind": "apendice",
+        "key": "B",
+        "heading": "Apéndice B",
+        "start_line": 5064,
+        "end_line": 5486
+      }
+    ]
+  },
+  {
+    "id": "PROMETEO-JUR",
+    "title": "El método Prometeo: Imputación causal para juristas y abogados",
+    "source": "corpus/fuentes/El_metodo_Prometeo_imputacion_causal_para_juristas_y_abogados.md",
+    "sha256": "e63d118a5b4cd676b9c28b69cea59bb739ff55575f35788ab5b56b1816fcc03e",
+    "collection": "Método Prometeo de imputación causal",
+    "volume": null,
+    "source_anomalies": [
+      "La fuente contiene dos unidades distintas rotuladas «Capítulo 6»; se conservan como 6a y 6b en la capa derivada sin alterar la fuente."
+    ],
+    "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
+    "segments": [
+      {
+        "path": "corpus/libros/metodo-prometeo-juristas-abogados/00-preliminares.md",
+        "kind": "preliminares",
+        "start_line": 1,
+        "end_line": 22
+      },
+      {
+        "path": "corpus/libros/metodo-prometeo-juristas-abogados/01-prologo.md",
+        "kind": "prologo",
+        "key": "PROLOGO",
+        "heading": "Prólogo",
+        "start_line": 23,
+        "end_line": 424
+      },
+      {
+        "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-01.md",
+        "kind": "capitulo",
+        "key": "1",
+        "heading": "### Capítulo 1",
+        "start_line": 425,
+        "end_line": 1183
+      },
+      {
+        "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-02.md",
+        "kind": "capitulo",
+        "key": "2",
+        "heading": "### Capítulo 2",
+        "start_line": 1184,
+        "end_line": 2423
+      },
+      {
+        "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-03.md",
+        "kind": "capitulo",
+        "key": "3",
+        "heading": "### Capítulo 3",
+        "start_line": 2424,
+        "end_line": 3622
+      },
+      {
+        "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-04.md",
+        "kind": "capitulo",
+        "key": "4",
+        "heading": "### Capítulo 4",
+        "start_line": 3623,
+        "end_line": 4631
+      },
+      {
+        "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-05.md",
+        "kind": "capitulo",
+        "key": "5",
+        "heading": "### Capítulo 5",
+        "start_line": 4632,
+        "end_line": 5675
+      },
+      {
+        "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-06a.md",
+        "kind": "capitulo",
+        "key": "6a",
+        "heading": "### Capítulo 6",
+        "start_line": 5676,
+        "end_line": 6832
+      },
+      {
+        "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-06b.md",
+        "kind": "capitulo",
+        "key": "6b",
+        "heading": "### Capítulo 6",
+        "start_line": 6833,
+        "end_line": 8157
+      },
+      {
+        "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-07.md",
+        "kind": "capitulo",
+        "key": "7",
+        "heading": "### Capítulo 7",
+        "start_line": 8158,
+        "end_line": 9918
+      },
+      {
+        "path": "corpus/libros/metodo-prometeo-juristas-abogados/apendice-a.md",
+        "kind": "apendice",
+        "key": "A",
+        "heading": "Apéndice A",
+        "start_line": 9919,
+        "end_line": 10255
+      },
+      {
+        "path": "corpus/libros/metodo-prometeo-juristas-abogados/apendice-b.md",
+        "kind": "apendice",
+        "key": "B",
+        "heading": "Apéndice B",
+        "start_line": 10256,
+        "end_line": 10359
+      },
+      {
+        "path": "corpus/libros/metodo-prometeo-juristas-abogados/apendice-c.md",
+        "kind": "apendice",
+        "key": "C",
+        "heading": "Apéndice C",
+        "start_line": 10360,
+        "end_line": 10506
+      }
+    ]
+  },
+  {
+    "id": "CALCULO-R",
+    "title": "El cálculo de la responsabilidad: Una ontología matemática para sistemas causales complejos",
+    "source": "corpus/fuentes/El_calculo_de_la_responsabilidad.md",
+    "sha256": "b79aba06afedcc7f4c85a03ce5fc5f9fc8af1c94da92f486938da2d58ee161fa",
+    "collection": "Reivindicación ontológica del ego",
+    "volume": null,
+    "source_anomalies": [],
+    "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
+    "segments": [
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/00-preliminares.md",
+        "kind": "preliminares",
+        "start_line": 1,
+        "end_line": 31
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/01-prologo.md",
+        "kind": "prologo",
+        "key": "PROLOGO",
+        "heading": "PRÓLOGO",
+        "start_line": 32,
+        "end_line": 229
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-01.md",
+        "kind": "capitulo",
+        "key": "1",
+        "heading": "### Capítulo 1",
+        "start_line": 230,
+        "end_line": 1416
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-02.md",
+        "kind": "capitulo",
+        "key": "2",
+        "heading": "### Capítulo 2",
+        "start_line": 1417,
+        "end_line": 3207
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-03.md",
+        "kind": "capitulo",
+        "key": "3",
+        "heading": "### Capítulo 3",
+        "start_line": 3208,
+        "end_line": 4662
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-04.md",
+        "kind": "capitulo",
+        "key": "4",
+        "heading": "### Capítulo 4",
+        "start_line": 4663,
+        "end_line": 5194
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-05.md",
+        "kind": "capitulo",
+        "key": "5",
+        "heading": "### Capítulo 5",
+        "start_line": 5195,
+        "end_line": 6594
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-06.md",
+        "kind": "capitulo",
+        "key": "6",
+        "heading": "### Capítulo 6",
+        "start_line": 6595,
+        "end_line": 8156
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-07.md",
+        "kind": "capitulo",
+        "key": "7",
+        "heading": "### Capítulo 7",
+        "start_line": 8157,
+        "end_line": 9462
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-08.md",
+        "kind": "capitulo",
+        "key": "8",
+        "heading": "### Capítulo 8",
+        "start_line": 9463,
+        "end_line": 10869
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-09.md",
+        "kind": "capitulo",
+        "key": "9",
+        "heading": "### Capítulo 9",
+        "start_line": 10870,
+        "end_line": 12252
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-10.md",
+        "kind": "capitulo",
+        "key": "10",
+        "heading": "### Capítulo 10",
+        "start_line": 12253,
+        "end_line": 13567
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-11.md",
+        "kind": "capitulo",
+        "key": "11",
+        "heading": "### Capítulo 11",
+        "start_line": 13568,
+        "end_line": 15024
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-12.md",
+        "kind": "capitulo",
+        "key": "12",
+        "heading": "### Capítulo 12",
+        "start_line": 15025,
+        "end_line": 16272
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-13.md",
+        "kind": "capitulo",
+        "key": "13",
+        "heading": "### Capítulo 13",
+        "start_line": 16273,
+        "end_line": 17537
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-14.md",
+        "kind": "capitulo",
+        "key": "14",
+        "heading": "### Capítulo 14",
+        "start_line": 17538,
+        "end_line": 18638
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-15.md",
+        "kind": "capitulo",
+        "key": "15",
+        "heading": "### Capítulo 15",
+        "start_line": 18639,
+        "end_line": 19745
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-16.md",
+        "kind": "capitulo",
+        "key": "16",
+        "heading": "### Capítulo 16",
+        "start_line": 19746,
+        "end_line": 20930
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-17.md",
+        "kind": "capitulo",
+        "key": "17",
+        "heading": "### Capítulo 17",
+        "start_line": 20931,
+        "end_line": 22286
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-18.md",
+        "kind": "capitulo",
+        "key": "18",
+        "heading": "### Capítulo 18",
+        "start_line": 22287,
+        "end_line": 24516
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/apendice-a.md",
+        "kind": "apendice",
+        "key": "A",
+        "heading": "APÉNDICE A",
+        "start_line": 24517,
+        "end_line": 25063
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/apendice-b.md",
+        "kind": "apendice",
+        "key": "B",
+        "heading": "APÉNDICE B",
+        "start_line": 25064,
+        "end_line": 26282
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/apendice-c.md",
+        "kind": "apendice",
+        "key": "C",
+        "heading": "APÉNDICE C",
+        "start_line": 26283,
+        "end_line": 26526
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/apendice-d.md",
+        "kind": "apendice",
+        "key": "D",
+        "heading": "APÉNDICE D",
+        "start_line": 26527,
+        "end_line": 26778
+      },
+      {
+        "path": "corpus/libros/calculo-de-la-responsabilidad/apendice-e.md",
+        "kind": "apendice",
+        "key": "E",
+        "heading": "APÉNDICE E",
+        "start_line": 26779,
+        "end_line": 27214
       }
     ]
   }

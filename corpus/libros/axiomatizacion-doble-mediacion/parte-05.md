@@ -1,0 +1,163 @@
+Parte V
+El déficit de asunción Δ
+Definición 5. El déficit de asunción
+Sean R*ᵢ (cid:0) [0,1] la componente del vector de responsabilidad
+causal del nodo i (Definición 6.1, Parte VI) y αᵢ (cid:0) [0,1] el
+coeficiente de asunción del mismo nodo (Definición 4, Parte
+IV). El déficit de asunción del nodo i es:
+Déficit de asunción
+Δᵢ = R*ᵢ − αᵢ
+R*ᵢ (cid:0) [0,1] por Teorema 6 (Parte VI) · αᵢ (cid:0) [0,1] por Teorema 4 (Parte IV)
+· Δᵢ (cid:0) [−1,1] por construcción (Teorema 5)
+La dependencia de Δ en R*ᵢ es unidireccional: Δ usa R*, pero
+R* no depende de Δ. La Parte V puede leerse sustituyendo R*ᵢ
+por «componente del eigenvector principal de Wᵀ para el nodo
+i, normalizada, Parte VI» sin pérdida de rigor.
+Teorema 5. Δᵢ (cid:0) [−1, 1]
+Para todo nodo i del grafo G:
+Acotación del déficit
+Δᵢ (cid:0) [−1, 1]
+Demostración
+
+Axiomatización del Sistema de la Doble Mediación
+Demostración del Teorema 5
+Cota inferior. Δᵢ = R*ᵢ − αᵢ. Mínimo cuando R*ᵢ
+mínimo y αᵢ máximo: R*ᵢ ≥ 0 (Perron-Frobenius,
+Teorema 6) y αᵢ ≤ 1 (Teorema 4). Luego Δᵢ ≥ 0 − 1 =
+−1. ✓
+Cota superior. Máximo cuando R*ᵢ máximo y αᵢ
+mínimo: R*ᵢ ≤ 1 (normalización Σ(cid:0) R*(cid:0) = 1 con
+R*(cid:0) ≥ 0) y αᵢ ≥ 0 (Teorema 4). Luego Δᵢ ≤ 1 − 0 =
+1. ✓
+Δᵢ (cid:0) [−1,1] por la acotación de sus dos componentes. (cid:0)
+Tabla de signos
+Signo de Δᵢ Δᵢ > 0 — Δᵢ = 0 — Δᵢ < 0 —
+Brecha activa Equilibrio Sobreasunción
+R*ᵢ vs. αᵢ R*ᵢ > αᵢ R*ᵢ = αᵢ R*ᵢ < αᵢ
+Lectura Nodo causó más Nodo asumió Nodo asumió
+causal de lo que exactamente lo más de lo que
+asumió. Brecha que causó. Caso causó. Con grafo
+de asunción límite teórico; completo: señal
+pendiente. difícil verificar de existencia de j
+con precisión de con Δ(cid:0) > 0
+medición. (Proposición
+5.2).
+Diagnóstico Primero verificar Verificar Primero
+completitud del intervalos de descartar grafo
+grafo. Si G es confianza de R*ᵢ incompleto
+completo: y αᵢ antes de (artefacto). Si G
+brecha declarar es completo:
+estructural. equilibrio. buscar j con Δ(cid:0)
+> 0.
+El diagnóstico para cada signo figura en la última fila de la
+tabla. La distinción entre grafo incompleto y señal genuina de
+inversión es la primera verificación que debe hacerse ante
+cualquier Δᵢ < 0 observado: un grafo incompleto produce un
+R*ᵢ subestimado y, por tanto, un Δᵢ < 0 que es artefacto de
+especificación del modelo, no señal de inversión causal.
+
+Axiomatización del Sistema de la Doble Mediación
+Δᵢ = 0 es un caso límite teórico: requiere que R*ᵢ y αᵢ coincidan exactamente.
+En la práctica ambos son estimaciones con intervalos de incertidumbre. El
+equilibrio empírico se declara cuando los intervalos de confianza de R*ᵢ y αᵢ
+se solapan, no cuando sus estimaciones puntuales coinciden.
+Teorema 5.1. Evolución temporal de Δᵢ
+Cuando R*ᵢ(t) y αᵢ(t) son diferenciables en t:
+Ecuación de evolución
+dΔᵢ/dt = dR*ᵢ/dt − dαᵢ/dt
+Los tres regímenes y sus condiciones:
+dΔᵢ/dt > 0 Brecha creciente. El nodo acumula
+responsabilidad causal (dR*/dt > 0) más rápido de lo
+que asume (dα/dt < dR*/dt). O bien: α decrece por
+revocación de compromisos con R* estable.
+dΔᵢ/dt = 0 Brecha estacionaria. R* y α crecen o
+decrecen a la misma tasa. El nivel de Δᵢ —positivo,
+negativo o cero— se mantiene.
+dΔᵢ/dt < 0 Brecha decreciente. El nodo asume
+(dα/dt > 0) más rápido de lo que acumula nueva
+responsabilidad causal. Reparaciones, pagos o
+modificaciones sistémicas que superan el crecimiento
+de R*.
+Para un período [t(cid:0), t(cid:0)] con dΔᵢ/dt > 0 sostenido: Δᵢ(t(cid:0)) −
+Δᵢ(t(cid:0)) = ∫_{t₁} ^{t(cid:0)} (dR*ᵢ/dt − dαᵢ/dt) dt > 0. Este
+indicador permite análisis longitudinal de la posición causal de
+un nodo a lo largo del tiempo.
+La condición de diferenciabilidad de R*ᵢ(t) requiere que el grafo G(t)
+evolucione de forma suficientemente regular. En análisis discreto con
+snapshots del grafo en t(cid:0), t(cid:0), …, el diferencial se aproxima por incrementos
+finitos: ΔΔᵢ ≈ ΔR*ᵢ − Δαᵢ entre dos snapshots consecutivos.
+Proposición 5.2. Δᵢ < 0 como señal de existencia
+de j con Δ(cid:0) > 0
+
+Axiomatización del Sistema de la Doble Mediación
+Si Δᵢ < 0 es verificable y el grafo G es completo respecto al
+conjunto de nodos causalmente necesarios, entonces:
+Condición de señal
+Δᵢ < 0 ∧ G completo ⟹ ∃ j ≠ i: Δ(cid:0) > 0
+G completo: todos los nodos con R* > 0 están incluidos en N · la proposición no
+identifica j ni cuantifica Δ(cid:0)
+Demostración
+Demostración de la Proposición 5.2
+Paso 1 — Conservación de R*. Σᵢ R*ᵢ = 1 para todo
+G fijo. La suma es constante.
+Paso 2 — No conservación de Σα. Σᵢ αᵢ no está
+restringida a 1: los coeficientes de asunción son
+independientes entre nodos. Σᵢ αᵢ puede ser < 1, > 1
+o = 1.
+Paso 3 — Consecuencia de Δᵢ < 0 con G
+completo. Con G completo, R*ᵢ refleja la
+contribución causal real del nodo i. Δᵢ < 0 implica αᵢ
+> R*ᵢ: el nodo i asumió más de lo que causó. Esto solo
+es posible si i absorbió consecuencias que
+corresponden causalmente a algún j con R*(cid:0) > 0.
+Para ese j: α(cid:0) < R*(cid:0), luego Δⱼ = R*ⱼ − αⱼ > 0. ✓
+Paso 4 — Necesidad de G completo. Si G está
+incompleto, R*ᵢ puede estar subestimado: el nodo i
+tendría responsabilidad causal real mayor, no
+capturada en el grafo. En ese caso Δᵢ < 0 es artefacto
+de especificación, no señal de inversión. La condición
+de completitud excluye ese artefacto.
+Δᵢ < 0 con G completo garantiza la existencia de j con Δ(cid:0) > 0. La
+identificación de j y la cuantificación de Δ(cid:0) bajo condiciones estructurales
+específicas son objeto del Teorema de Inversión Causal (Parte VIII). (cid:0)
+Tres casos de Δᵢ < 0 que no señalan inversión. (a) G
+incompleto: R*ᵢ subestimado por ausencia de nodos
+relevantes. (b) Reparación extendida voluntaria: el nodo
+
+Axiomatización del Sistema de la Doble Mediación
+asumió consecuencias que causó en proporción mayor que R*ᵢ
+indica porque eligió hacerlo, con G completo. (c) Error de
+medición: los intervalos de confianza de R*ᵢ y αᵢ se solapan y
+el Δᵢ < 0 observado no es estadísticamente distinguible de
+cero. La distinción entre estos casos y la inversión causal
+requiere análisis de completitud del grafo y documentación de
+la asunción.
+Relación con el TIC. La Proposición 5.2 establece que Δᵢ <
+0 es una señal que apunta hacia otro nodo: garantiza la
+existencia de j con Δ(cid:0) > 0, pero no su identidad ni su
+magnitud. El Teorema de Inversión Causal (Parte VIII)
+demuestra bajo qué condiciones estructurales —S alto del
+ejecutor, asimetría de visibilidad, régimen de asunción
+forzada— ese j con Δ(cid:0) > 0 es sistemáticamente el nodo de
+diseño, y determina los valores esperados de Δ(cid:0) y Δᵢ.
+Objeto Notación Tipo matemático Parte
+Déficit de Δᵢ = R*ᵢ − αᵢ Escalar en [−1,1] Definición
+asunc. 5
+Acotación Δᵢ (cid:0) [−1,1] Por R*(cid:0)[0,1] y Teorema 5
+α(cid:0)[0,1]
+Δᵢ > 0 Brecha activa R*ᵢ > αᵢ; verificar Teorema 5
+G completo
+Δᵢ = 0 Equilibrio R*ᵢ = αᵢ; verificar Teorema 5
+IC antes
+Δᵢ < 0 Sobreasunción R*ᵢ < αᵢ; descartar Teorema 5
+G incompleto
+Evolución dΔ/dt = Ecuación Teorema
+dR*/dt − diferencial escalar 5.1
+dα/dt
+Señal de Δᵢ<0 ∧ G Existencia, no Proposición
+inversión completo (cid:0) identidad 5.2
+(cid:0)j:Δ(cid:0)>0
+
+Axiomatización del Sistema de la Doble Mediación
+
+Axiomatización del Sistema de la Doble Mediación

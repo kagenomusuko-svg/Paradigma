@@ -1,0 +1,218 @@
+{
+  "id": "MC-II",
+  "title": "Metrología Causal: Vol. II",
+  "source": "corpus/fuentes/Metrologia_Causal_Vol_II.md",
+  "sha256": "bd957cae2bf36c1352a107f82f39f135e2aeb2009950a5489981251e6017bb15",
+  "collection": "Metrología Causal",
+  "volume": 2,
+  "source_anomalies": [],
+  "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
+  "segments": [
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/00-preliminares.md",
+      "kind": "preliminares",
+      "start_line": 1,
+      "end_line": 25
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/01-introduccion.md",
+      "kind": "introduccion",
+      "key": "INTRO",
+      "heading": "INTRODUCCIÓN",
+      "start_line": 26,
+      "end_line": 560
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-01.md",
+      "kind": "capitulo",
+      "key": "I·1",
+      "heading": "### Capítulo I·1",
+      "start_line": 561,
+      "end_line": 735
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-02.md",
+      "kind": "capitulo",
+      "key": "I·2",
+      "heading": "### Capítulo I·2",
+      "start_line": 736,
+      "end_line": 895
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-03.md",
+      "kind": "capitulo",
+      "key": "I·3",
+      "heading": "### Capítulo I·3",
+      "start_line": 896,
+      "end_line": 1044
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-04.md",
+      "kind": "capitulo",
+      "key": "I·4",
+      "heading": "### Capítulo I·4",
+      "start_line": 1045,
+      "end_line": 1216
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-05.md",
+      "kind": "capitulo",
+      "key": "I·5",
+      "heading": "### Capítulo I·5",
+      "start_line": 1217,
+      "end_line": 1418
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-06.md",
+      "kind": "capitulo",
+      "key": "I·6",
+      "heading": "### Capítulo I·6",
+      "start_line": 1419,
+      "end_line": 1575
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-07.md",
+      "kind": "capitulo",
+      "key": "I·7",
+      "heading": "### Capítulo I·7",
+      "start_line": 1576,
+      "end_line": 1760
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-01.md",
+      "kind": "capitulo",
+      "key": "II·1",
+      "heading": "### Capítulo II·1",
+      "start_line": 1761,
+      "end_line": 2088
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-02.md",
+      "kind": "capitulo",
+      "key": "II·2",
+      "heading": "### Capítulo II·2",
+      "start_line": 2089,
+      "end_line": 2372
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-03.md",
+      "kind": "capitulo",
+      "key": "II·3",
+      "heading": "### Capítulo II·3",
+      "start_line": 2373,
+      "end_line": 2657
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-03-01.md",
+      "kind": "capitulo",
+      "key": "III·1",
+      "heading": "### Capítulo III·1",
+      "start_line": 2658,
+      "end_line": 2845
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-03-02.md",
+      "kind": "capitulo",
+      "key": "III·2",
+      "heading": "### Capítulo III·2",
+      "start_line": 2846,
+      "end_line": 3111
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-03-03.md",
+      "kind": "capitulo",
+      "key": "III·3",
+      "heading": "### Capítulo III·3",
+      "start_line": 3112,
+      "end_line": 3333
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-03-04.md",
+      "kind": "capitulo",
+      "key": "III·4",
+      "heading": "### Capítulo III·4",
+      "start_line": 3334,
+      "end_line": 3501
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-03-05.md",
+      "kind": "capitulo",
+      "key": "III·5",
+      "heading": "### Capítulo III·5",
+      "start_line": 3502,
+      "end_line": 3785
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-01.md",
+      "kind": "capitulo",
+      "key": "IV·1",
+      "heading": "### Capítulo IV·1",
+      "start_line": 3786,
+      "end_line": 3951
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-02.md",
+      "kind": "capitulo",
+      "key": "IV·2",
+      "heading": "### Capítulo IV·2",
+      "start_line": 3952,
+      "end_line": 4102
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-03.md",
+      "kind": "capitulo",
+      "key": "IV·3",
+      "heading": "### Capítulo IV·3",
+      "start_line": 4103,
+      "end_line": 4197
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-04.md",
+      "kind": "capitulo",
+      "key": "IV·4",
+      "heading": "### Capítulo IV·4",
+      "start_line": 4198,
+      "end_line": 4304
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-05.md",
+      "kind": "capitulo",
+      "key": "IV·5",
+      "heading": "### Capítulo IV·5",
+      "start_line": 4305,
+      "end_line": 4414
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-06.md",
+      "kind": "capitulo",
+      "key": "IV·6",
+      "heading": "### Capítulo IV·6",
+      "start_line": 4415,
+      "end_line": 4526
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-07.md",
+      "kind": "capitulo",
+      "key": "IV·7",
+      "heading": "### Capítulo IV·7",
+      "start_line": 4527,
+      "end_line": 4683
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/apendice-a.md",
+      "kind": "apendice",
+      "key": "A",
+      "heading": "Apéndice A",
+      "start_line": 4684,
+      "end_line": 5063
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/apendice-b.md",
+      "kind": "apendice",
+      "key": "B",
+      "heading": "Apéndice B",
+      "start_line": 5064,
+      "end_line": 5486
+    }
+  ]
+}
