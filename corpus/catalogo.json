@@ -1,71 +1,1175 @@
-{
-  "version": 1,
-  "estado": "ingesta_inicial",
-  "principio": "fuente íntegra → obra/volumen → capítulo → secciones internas",
-  "obras": [
-    {
-      "id": "caos",
-      "titulo": "Caos: El abismo del ego y la doble mediación",
-      "fuente": "corpus/fuentes/Caos_El_abismo_del_ego_y_la_doble_mediacion.md",
-      "destino": "corpus/libros/caos"
-    },
-    {
-      "id": "afrodita-areia-01",
-      "serie": "Afrodita Areia",
-      "volumen": 1,
-      "titulo": "Sobre la pasión",
-      "fuente": "corpus/fuentes/Afrodita_Areia_Sobre_la_Pasion.md",
-      "destino": "corpus/libros/afrodita-areia/01-sobre-la-pasion"
-    },
-    {
-      "id": "afrodita-areia-02",
-      "serie": "Afrodita Areia",
-      "volumen": 2,
-      "titulo": "Ágape",
-      "fuente": "corpus/fuentes/Afrodita_Areia_Agape.md",
-      "destino": "corpus/libros/afrodita-areia/02-agape"
-    },
-    {
-      "id": "afrodita-areia-03",
-      "serie": "Afrodita Areia",
-      "volumen": 3,
-      "titulo": "Damasén",
-      "fuente": "corpus/fuentes/Afrodita_Areia_Damasen.md",
-      "destino": "corpus/libros/afrodita-areia/03-damasen"
-    },
-    {
-      "id": "afrodita-areia-04",
-      "serie": "Afrodita Areia",
-      "volumen": 4,
-      "titulo": "Areópago",
-      "fuente": "corpus/fuentes/Afrodita_Areia_Areopopago.md",
-      "destino": "corpus/libros/afrodita-areia/04-areopago"
-    },
-    {
-      "id": "afrodita-areia-05",
-      "serie": "Afrodita Areia",
-      "volumen": 5,
-      "titulo": "Caelus",
-      "fuente": "corpus/fuentes/Afrodita_Areia_Caelus.md",
-      "destino": "corpus/libros/afrodita-areia/05-caelus"
-    },
-    {
-      "id": "dilema-de-aquiles",
-      "titulo": "El dilema de Aquiles o la disociación del ego",
-      "fuente": "corpus/fuentes/El_dilema_de_Aquiles_o_la_disociacion_del_ego.md",
-      "destino": "corpus/libros/dilema-de-aquiles"
-    },
-    {
-      "id": "juego-de-las-mascaras",
-      "titulo": "El juego de las máscaras o la disforia de la identidad",
-      "fuente": "corpus/fuentes/El_juego_de_las_mascaras_o_la_disforia_de_la_identidad.md",
-      "destino": "corpus/libros/juego-de-las-mascaras"
-    },
-    {
-      "id": "telar-de-las-moiras",
-      "titulo": "El telar de las Moiras: Ontología de la autodeterminación causal",
-      "fuente": "corpus/fuentes/El_telar_de_las_Moiras_Ontologia_de_la_autodeterminacion_causal.md",
-      "destino": "corpus/libros/telar-de-las-moiras"
-    }
-  ]
-}
+[
+  {
+    "title": "Afrodita Areia: Sobre la pasión",
+    "source": "corpus/fuentes/Afrodita_Areia_Sobre_la_Pasion.md",
+    "sha256": "354b70bc646e5294dac370372fc0dbe3617a5979d43f26ffcc871af826698ee3",
+    "series": "Afrodita Areia",
+    "volume": 1,
+    "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+    "segments": [
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/00-preliminares.md",
+        "kind": "preliminares",
+        "start_line": 1,
+        "end_line": 84
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/01-prefacio.md",
+        "kind": "prefacio",
+        "heading": "## Prefacio",
+        "start_line": 85,
+        "end_line": 188
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/02-prologo.md",
+        "kind": "prologo",
+        "heading": "Prólogo filosófico",
+        "start_line": 189,
+        "end_line": 450
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-01.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 1",
+        "start_line": 451,
+        "end_line": 852
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-02.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 2",
+        "start_line": 853,
+        "end_line": 1273
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-03.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 3",
+        "start_line": 1274,
+        "end_line": 1692
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-04.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 4",
+        "start_line": 1693,
+        "end_line": 2147
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-05.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 5",
+        "start_line": 2148,
+        "end_line": 2574
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-06.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 6",
+        "start_line": 2575,
+        "end_line": 3015
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-07.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 7",
+        "start_line": 3016,
+        "end_line": 3576
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-08.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 8",
+        "start_line": 3577,
+        "end_line": 4099
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-09.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 9",
+        "start_line": 4100,
+        "end_line": 4595
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-10.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 10",
+        "start_line": 4596,
+        "end_line": 5154
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-11.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 11",
+        "start_line": 5155,
+        "end_line": 5636
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-12.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 12",
+        "start_line": 5637,
+        "end_line": 6126
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-13.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 13",
+        "start_line": 6127,
+        "end_line": 6586
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-14.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 14",
+        "start_line": 6587,
+        "end_line": 7013
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-15.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 15",
+        "start_line": 7014,
+        "end_line": 7464
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-16.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 16",
+        "start_line": 7465,
+        "end_line": 7821
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/apendice-a.md",
+        "kind": "appendix",
+        "heading": "## Apéndice A",
+        "start_line": 7822,
+        "end_line": 8113
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/apendice-b.md",
+        "kind": "appendix",
+        "heading": "## Apéndice B",
+        "start_line": 8114,
+        "end_line": 8471
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/apendice-c.md",
+        "kind": "appendix",
+        "heading": "## Apéndice C",
+        "start_line": 8472,
+        "end_line": 8882
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/99-glosario.md",
+        "kind": "glossary",
+        "heading": "## Glosario de términos",
+        "start_line": 8883,
+        "end_line": 9076
+      }
+    ]
+  },
+  {
+    "title": "Afrodita Areia: Ágape",
+    "source": "corpus/fuentes/Afrodita_Areia_Agape.md",
+    "sha256": "b1accaa75a10c62152de2c86af63f199e1192d54e68291f5c968e93a3babd95c",
+    "series": "Afrodita Areia",
+    "volume": 2,
+    "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+    "segments": [
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/00-preliminares.md",
+        "kind": "preliminares",
+        "start_line": 1,
+        "end_line": 83
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/01-prefacio.md",
+        "kind": "prefacio",
+        "heading": "## Prefacio",
+        "start_line": 84,
+        "end_line": 337
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/02-prologo.md",
+        "kind": "prologo",
+        "heading": "## Prólogo Filosófico",
+        "start_line": 338,
+        "end_line": 728
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-01.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 1",
+        "start_line": 729,
+        "end_line": 1057
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-02.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 2",
+        "start_line": 1058,
+        "end_line": 1416
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-03.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 3",
+        "start_line": 1417,
+        "end_line": 1788
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-04.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 4",
+        "start_line": 1789,
+        "end_line": 2148
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-05.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 5",
+        "start_line": 2149,
+        "end_line": 2453
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-06.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 6",
+        "start_line": 2454,
+        "end_line": 2753
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-07.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 7",
+        "start_line": 2754,
+        "end_line": 3050
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-08.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 8",
+        "start_line": 3051,
+        "end_line": 3342
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-09.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 9",
+        "start_line": 3343,
+        "end_line": 3619
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-10.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 10",
+        "start_line": 3620,
+        "end_line": 3927
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-11.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 11",
+        "start_line": 3928,
+        "end_line": 4196
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-12.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 12",
+        "start_line": 4197,
+        "end_line": 4498
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-13.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 13",
+        "start_line": 4499,
+        "end_line": 4786
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-14.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 14",
+        "start_line": 4787,
+        "end_line": 5445
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-15.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 15",
+        "start_line": 5446,
+        "end_line": 5846
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/apendice.md",
+        "kind": "appendix",
+        "heading": "## APÉNDICE",
+        "start_line": 5847,
+        "end_line": 6721
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/99-glosario.md",
+        "kind": "glossary",
+        "heading": "## Glosario de términos",
+        "start_line": 6722,
+        "end_line": 6941
+      }
+    ]
+  },
+  {
+    "title": "Afrodita Areia: Damasén",
+    "source": "corpus/fuentes/Afrodita_Areia_Damasen.md",
+    "sha256": "d88315887451e88c207de1ac6008b3806c39e063b984f6927d9f5591b2b5bfd3",
+    "series": "Afrodita Areia",
+    "volume": 3,
+    "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+    "segments": [
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/00-preliminares.md",
+        "kind": "preliminares",
+        "start_line": 1,
+        "end_line": 75
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/01-prefacio.md",
+        "kind": "prefacio",
+        "heading": "## Prefacio",
+        "start_line": 76,
+        "end_line": 320
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/02-prologo.md",
+        "kind": "prologo",
+        "heading": "PRÓLOGO FILOSÓFICO",
+        "start_line": 321,
+        "end_line": 748
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-01.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 1",
+        "start_line": 749,
+        "end_line": 1122
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-02.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 2",
+        "start_line": 1123,
+        "end_line": 1447
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-03.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 3",
+        "start_line": 1448,
+        "end_line": 1792
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-04.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 4",
+        "start_line": 1793,
+        "end_line": 2110
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-05.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 5",
+        "start_line": 2111,
+        "end_line": 2397
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-06.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 6",
+        "start_line": 2398,
+        "end_line": 2684
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-07.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 7",
+        "start_line": 2685,
+        "end_line": 2950
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-08.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 8",
+        "start_line": 2951,
+        "end_line": 3243
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-09.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 9",
+        "start_line": 3244,
+        "end_line": 3544
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-10.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 10",
+        "start_line": 3545,
+        "end_line": 3848
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-11.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 11",
+        "start_line": 3849,
+        "end_line": 4136
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-12.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 12",
+        "start_line": 4137,
+        "end_line": 4444
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-13.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 13",
+        "start_line": 4445,
+        "end_line": 4738
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-14.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 14",
+        "start_line": 4739,
+        "end_line": 5022
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-15.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 15",
+        "start_line": 5023,
+        "end_line": 5327
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-16.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 16",
+        "start_line": 5328,
+        "end_line": 5647
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-17.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 17",
+        "start_line": 5648,
+        "end_line": 5949
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-18.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 18",
+        "start_line": 5950,
+        "end_line": 6247
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-19.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 19",
+        "start_line": 6248,
+        "end_line": 6549
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-20.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 20",
+        "start_line": 6550,
+        "end_line": 6708
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/apendice.md",
+        "kind": "appendix",
+        "heading": "## APÉNDICE",
+        "start_line": 6709,
+        "end_line": 7015
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/99-glosario.md",
+        "kind": "glossary",
+        "heading": "## Glosario",
+        "start_line": 7016,
+        "end_line": 7316
+      }
+    ]
+  },
+  {
+    "title": "Afrodita Areia: Areópago",
+    "source": "corpus/fuentes/Afrodita_Areia_Areopopago.md",
+    "sha256": "e5d3165c7d0a85e10478c287c2c68382529071b9b7f6e00a7327109426d02eeb",
+    "series": "Afrodita Areia",
+    "volume": 4,
+    "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+    "segments": [
+      {
+        "path": "corpus/libros/afrodita-areia/04-areopago/00-preliminares.md",
+        "kind": "preliminares",
+        "start_line": 1,
+        "end_line": 87
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/04-areopago/02-prologo.md",
+        "kind": "prologo",
+        "heading": "## Prólogo",
+        "start_line": 88,
+        "end_line": 386
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/04-areopago/capitulo-01.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 1",
+        "start_line": 387,
+        "end_line": 950
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/04-areopago/capitulo-02.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 2",
+        "start_line": 951,
+        "end_line": 1705
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/04-areopago/capitulo-03.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 3",
+        "start_line": 1706,
+        "end_line": 2460
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/04-areopago/capitulo-04.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 4",
+        "start_line": 2461,
+        "end_line": 3361
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/04-areopago/capitulo-05.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 5",
+        "start_line": 3362,
+        "end_line": 4154
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/04-areopago/capitulo-06.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 6",
+        "start_line": 4155,
+        "end_line": 4926
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/04-areopago/capitulo-07.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 7",
+        "start_line": 4927,
+        "end_line": 5712
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/04-areopago/capitulo-08.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 8",
+        "start_line": 5713,
+        "end_line": 6442
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/04-areopago/capitulo-09.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 9",
+        "start_line": 6443,
+        "end_line": 7187
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/04-areopago/capitulo-10.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 10",
+        "start_line": 7188,
+        "end_line": 7934
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/04-areopago/capitulo-11.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 11",
+        "start_line": 7935,
+        "end_line": 8643
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/04-areopago/capitulo-12.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 12",
+        "start_line": 8644,
+        "end_line": 9456
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/04-areopago/capitulo-13.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 13",
+        "start_line": 9457,
+        "end_line": 10107
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/04-areopago/99-glosario.md",
+        "kind": "glossary",
+        "heading": "## Glosario",
+        "start_line": 10108,
+        "end_line": 10311
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/04-areopago/apendice-01.md",
+        "kind": "appendix",
+        "heading": "## APÉNDICE I",
+        "start_line": 10312,
+        "end_line": 10987
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/04-areopago/apendice-02.md",
+        "kind": "appendix",
+        "heading": "## APÉNDICE II",
+        "start_line": 10988,
+        "end_line": 11628
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/04-areopago/apendice-03.md",
+        "kind": "appendix",
+        "heading": "## APÉNDICE III",
+        "start_line": 11629,
+        "end_line": 12354
+      }
+    ]
+  },
+  {
+    "title": "Afrodita Areia: Caelus",
+    "source": "corpus/fuentes/Afrodita_Areia_Caelus.md",
+    "sha256": "5229ac3ac56a923a08d74586027370c9bff237144c4338534864a52d52a5d4e3",
+    "series": "Afrodita Areia",
+    "volume": 5,
+    "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+    "segments": [
+      {
+        "path": "corpus/libros/afrodita-areia/05-caelus/00-preliminares.md",
+        "kind": "preliminares",
+        "start_line": 1,
+        "end_line": 161
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/05-caelus/02-prologo.md",
+        "kind": "prologo",
+        "heading": "## Prólogo",
+        "start_line": 162,
+        "end_line": 421
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/05-caelus/capitulo-01.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 1",
+        "start_line": 422,
+        "end_line": 790
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/05-caelus/capitulo-02.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 2",
+        "start_line": 791,
+        "end_line": 1223
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/05-caelus/capitulo-03.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 3",
+        "start_line": 1224,
+        "end_line": 1681
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/05-caelus/capitulo-04.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 4",
+        "start_line": 1682,
+        "end_line": 2241
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/05-caelus/capitulo-05.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 5",
+        "start_line": 2242,
+        "end_line": 2840
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/05-caelus/capitulo-06.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 6",
+        "start_line": 2841,
+        "end_line": 3407
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/05-caelus/capitulo-07.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 7",
+        "start_line": 3408,
+        "end_line": 3974
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/05-caelus/capitulo-08.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 8",
+        "start_line": 3975,
+        "end_line": 4618
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/05-caelus/capitulo-09.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 9",
+        "start_line": 4619,
+        "end_line": 5273
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/05-caelus/capitulo-10.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 10",
+        "start_line": 5274,
+        "end_line": 5884
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/05-caelus/capitulo-11.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 11",
+        "start_line": 5885,
+        "end_line": 6485
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/05-caelus/capitulo-12.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 12",
+        "start_line": 6486,
+        "end_line": 7129
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/05-caelus/capitulo-13.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 13",
+        "start_line": 7130,
+        "end_line": 7810
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/05-caelus/90-epilogo.md",
+        "kind": "epilogo",
+        "heading": "Epílogo",
+        "start_line": 7811,
+        "end_line": 8098
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/05-caelus/apendice.md",
+        "kind": "appendix",
+        "heading": "## Apéndice",
+        "start_line": 8099,
+        "end_line": 8590
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/05-caelus/99-glosario.md",
+        "kind": "glossary",
+        "heading": "## Glosario de términos",
+        "start_line": 8591,
+        "end_line": 8889
+      }
+    ]
+  },
+  {
+    "title": "Caos: El abismo del ego y la doble mediación",
+    "source": "corpus/fuentes/Caos_El_abismo_del_ego_y_la_doble_mediacion.md",
+    "sha256": "9ab791af757776fe768b0c4f4c6406d53cb2b68afcc00b2cb5006cb00a95e6bb",
+    "series": null,
+    "volume": null,
+    "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+    "segments": [
+      {
+        "path": "corpus/libros/caos/00-preliminares.md",
+        "kind": "preliminares",
+        "start_line": 1,
+        "end_line": 151
+      },
+      {
+        "path": "corpus/libros/caos/capitulo-01.md",
+        "kind": "chapter",
+        "heading": "### Capítulo I",
+        "start_line": 152,
+        "end_line": 1375
+      },
+      {
+        "path": "corpus/libros/caos/capitulo-02.md",
+        "kind": "chapter",
+        "heading": "### Capítulo II",
+        "start_line": 1376,
+        "end_line": 2618
+      },
+      {
+        "path": "corpus/libros/caos/capitulo-03.md",
+        "kind": "chapter",
+        "heading": "### Capítulo III",
+        "start_line": 2619,
+        "end_line": 3886
+      },
+      {
+        "path": "corpus/libros/caos/capitulo-04.md",
+        "kind": "chapter",
+        "heading": "### Capítulo IV",
+        "start_line": 3887,
+        "end_line": 5025
+      },
+      {
+        "path": "corpus/libros/caos/capitulo-05.md",
+        "kind": "chapter",
+        "heading": "### Capítulo V",
+        "start_line": 5026,
+        "end_line": 6177
+      },
+      {
+        "path": "corpus/libros/caos/capitulo-06.md",
+        "kind": "chapter",
+        "heading": "### Capítulo VI",
+        "start_line": 6178,
+        "end_line": 7332
+      },
+      {
+        "path": "corpus/libros/caos/capitulo-07.md",
+        "kind": "chapter",
+        "heading": "### Capítulo VII",
+        "start_line": 7333,
+        "end_line": 8371
+      },
+      {
+        "path": "corpus/libros/caos/apendice-01.md",
+        "kind": "appendix",
+        "heading": "### Apéndice I",
+        "start_line": 8372,
+        "end_line": 9265
+      },
+      {
+        "path": "corpus/libros/caos/apendice-02.md",
+        "kind": "appendix",
+        "heading": "### Apéndice II",
+        "start_line": 9266,
+        "end_line": 10352
+      },
+      {
+        "path": "corpus/libros/caos/apendice-03.md",
+        "kind": "appendix",
+        "heading": "### Apéndice III",
+        "start_line": 10353,
+        "end_line": 11640
+      }
+    ]
+  },
+  {
+    "title": "El dilema de Aquiles o la disociación del ego",
+    "source": "corpus/fuentes/El_dilema_de_Aquiles_o_la_disociacion_del_ego.md",
+    "sha256": "ae930142db6d9a62b4bb591175b8f7169984a22bab1cd4bb780812ad76508615",
+    "series": null,
+    "volume": null,
+    "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+    "segments": [
+      {
+        "path": "corpus/libros/dilema-de-aquiles/00-preliminares.md",
+        "kind": "preliminares",
+        "start_line": 1,
+        "end_line": 290
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/02-prologo.md",
+        "kind": "prologo",
+        "heading": "PRÓLOGO",
+        "start_line": 291,
+        "end_line": 485
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-01.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO I",
+        "start_line": 486,
+        "end_line": 1179
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-02.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO II",
+        "start_line": 1180,
+        "end_line": 1855
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-03.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO III",
+        "start_line": 1856,
+        "end_line": 2542
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-04.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO IV",
+        "start_line": 2543,
+        "end_line": 3270
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-05.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO V",
+        "start_line": 3271,
+        "end_line": 3938
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-06.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO VI",
+        "start_line": 3939,
+        "end_line": 4629
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-07.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO VII",
+        "start_line": 4630,
+        "end_line": 5310
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-08.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO VIII",
+        "start_line": 5311,
+        "end_line": 6042
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/90-epilogo.md",
+        "kind": "epilogo",
+        "heading": "EPÍLOGO",
+        "start_line": 6043,
+        "end_line": 6573
+      }
+    ]
+  },
+  {
+    "title": "El juego de las máscaras o la disforia de la identidad",
+    "source": "corpus/fuentes/El_juego_de_las_mascaras_o_la_disforia_de_la_identidad.md",
+    "sha256": "cbab9ee5a1bb8c838e2dd5de64e314148b90c3f6831d58edb96252e23b255541",
+    "series": null,
+    "volume": null,
+    "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+    "segments": [
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/00-preliminares.md",
+        "kind": "preliminares",
+        "start_line": 1,
+        "end_line": 85
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/02-prologo.md",
+        "kind": "prologo",
+        "heading": "Prólogo",
+        "start_line": 86,
+        "end_line": 338
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-01.md",
+        "kind": "chapter",
+        "heading": "### Capítulo I",
+        "start_line": 339,
+        "end_line": 847
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-02.md",
+        "kind": "chapter",
+        "heading": "### Capítulo II",
+        "start_line": 848,
+        "end_line": 1476
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-03.md",
+        "kind": "chapter",
+        "heading": "### Capítulo III",
+        "start_line": 1477,
+        "end_line": 2044
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-04.md",
+        "kind": "chapter",
+        "heading": "### Capítulo IV",
+        "start_line": 2045,
+        "end_line": 2638
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-05.md",
+        "kind": "chapter",
+        "heading": "### Capítulo V",
+        "start_line": 2639,
+        "end_line": 3184
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-06.md",
+        "kind": "chapter",
+        "heading": "### Capítulo VI",
+        "start_line": 3185,
+        "end_line": 3763
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-07.md",
+        "kind": "chapter",
+        "heading": "### Capítulo VII",
+        "start_line": 3764,
+        "end_line": 4400
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-08.md",
+        "kind": "chapter",
+        "heading": "### Capítulo VIII",
+        "start_line": 4401,
+        "end_line": 5017
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-09.md",
+        "kind": "chapter",
+        "heading": "### Capítulo IX",
+        "start_line": 5018,
+        "end_line": 5684
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-10.md",
+        "kind": "chapter",
+        "heading": "### Capítulo X",
+        "start_line": 5685,
+        "end_line": 6264
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/90-epilogo.md",
+        "kind": "epilogo",
+        "heading": "Epílogo",
+        "start_line": 6265,
+        "end_line": 6576
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/99-glosario.md",
+        "kind": "glossary",
+        "heading": "## Glosario",
+        "start_line": 6577,
+        "end_line": 6781
+      }
+    ]
+  },
+  {
+    "title": "El telar de las Moiras: Ontología de la autodeterminación causal",
+    "source": "corpus/fuentes/El_telar_de_las_Moiras_Ontologia_de_la_autodeterminacion_causal.md",
+    "sha256": "05b0636bc15c9c0bd92c96cf95e2a96fae0d030a54843e7c87bb9608378fc049",
+    "series": null,
+    "volume": null,
+    "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+    "segments": [
+      {
+        "path": "corpus/libros/telar-de-las-moiras/00-preliminares.md",
+        "kind": "preliminares",
+        "start_line": 1,
+        "end_line": 125
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/01-presentacion.md",
+        "kind": "presentacion",
+        "heading": "Presentación",
+        "start_line": 126,
+        "end_line": 314
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/capitulo-01.md",
+        "kind": "chapter",
+        "heading": "### Capítulo I",
+        "start_line": 315,
+        "end_line": 717
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/capitulo-02.md",
+        "kind": "chapter",
+        "heading": "### Capítulo II",
+        "start_line": 718,
+        "end_line": 1250
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/capitulo-03.md",
+        "kind": "chapter",
+        "heading": "### Capítulo III",
+        "start_line": 1251,
+        "end_line": 1692
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/capitulo-04.md",
+        "kind": "chapter",
+        "heading": "### Capítulo IV",
+        "start_line": 1693,
+        "end_line": 2449
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/capitulo-05.md",
+        "kind": "chapter",
+        "heading": "### Capítulo V",
+        "start_line": 2450,
+        "end_line": 2952
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/capitulo-06.md",
+        "kind": "chapter",
+        "heading": "### Capítulo VI",
+        "start_line": 2953,
+        "end_line": 3435
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/capitulo-07.md",
+        "kind": "chapter",
+        "heading": "### Capítulo VII",
+        "start_line": 3436,
+        "end_line": 3935
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/capitulo-08.md",
+        "kind": "chapter",
+        "heading": "### Capítulo VIII",
+        "start_line": 3936,
+        "end_line": 4837
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/capitulo-09.md",
+        "kind": "chapter",
+        "heading": "### Capítulo IX",
+        "start_line": 4838,
+        "end_line": 5949
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/capitulo-10.md",
+        "kind": "chapter",
+        "heading": "### Capítulo X",
+        "start_line": 5950,
+        "end_line": 6604
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/90-epilogo.md",
+        "kind": "epilogo",
+        "heading": "Epílogo: lo que el libro no puede hacer por el",
+        "start_line": 6605,
+        "end_line": 6823
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/apendice-01.md",
+        "kind": "appendix",
+        "heading": "### APÉNDICE I",
+        "start_line": 6824,
+        "end_line": 6893
+      },
+      {
+        "path": "corpus/libros/telar-de-las-moiras/apendice-02.md",
+        "kind": "appendix",
+        "heading": "### APÉNDICE II",
+        "start_line": 6894,
+        "end_line": 7052
+      }
+    ]
+  }
+]

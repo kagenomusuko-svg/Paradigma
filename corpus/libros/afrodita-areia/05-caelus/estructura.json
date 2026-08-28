@@ -4,7 +4,7 @@
   "sha256": "5229ac3ac56a923a08d74586027370c9bff237144c4338534864a52d52a5d4e3",
   "series": "Afrodita Areia",
   "volume": 5,
-  "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+  "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
   "segments": [
     {
       "path": "corpus/libros/afrodita-areia/05-caelus/00-preliminares.md",

@@ -5,7 +5,7 @@
     "sha256": "354b70bc646e5294dac370372fc0dbe3617a5979d43f26ffcc871af826698ee3",
     "series": "Afrodita Areia",
     "volume": 1,
-    "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+    "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
     "segments": [
       {
         "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/00-preliminares.md",
@@ -175,7 +175,7 @@
     "sha256": "b1accaa75a10c62152de2c86af63f199e1192d54e68291f5c968e93a3babd95c",
     "series": "Afrodita Areia",
     "volume": 2,
-    "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+    "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
     "segments": [
       {
         "path": "corpus/libros/afrodita-areia/02-agape/00-preliminares.md",
@@ -324,7 +324,7 @@
     "sha256": "d88315887451e88c207de1ac6008b3806c39e063b984f6927d9f5591b2b5bfd3",
     "series": "Afrodita Areia",
     "volume": 3,
-    "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+    "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
     "segments": [
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/00-preliminares.md",
@@ -508,7 +508,7 @@
     "sha256": "e5d3165c7d0a85e10478c287c2c68382529071b9b7f6e00a7327109426d02eeb",
     "series": "Afrodita Areia",
     "volume": 4,
-    "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+    "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
     "segments": [
       {
         "path": "corpus/libros/afrodita-areia/04-areopago/00-preliminares.md",
@@ -650,7 +650,7 @@
     "sha256": "5229ac3ac56a923a08d74586027370c9bff237144c4338534864a52d52a5d4e3",
     "series": "Afrodita Areia",
     "volume": 5,
-    "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+    "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
     "segments": [
       {
         "path": "corpus/libros/afrodita-areia/05-caelus/00-preliminares.md",
@@ -785,7 +785,7 @@
     "sha256": "9ab791af757776fe768b0c4f4c6406d53cb2b68afcc00b2cb5006cb00a95e6bb",
     "series": null,
     "volume": null,
-    "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+    "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
     "segments": [
       {
         "path": "corpus/libros/caos/00-preliminares.md",
@@ -871,7 +871,7 @@
     "sha256": "ae930142db6d9a62b4bb591175b8f7169984a22bab1cd4bb780812ad76508615",
     "series": null,
     "volume": null,
-    "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+    "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
     "segments": [
       {
         "path": "corpus/libros/dilema-de-aquiles/00-preliminares.md",
@@ -957,7 +957,7 @@
     "sha256": "cbab9ee5a1bb8c838e2dd5de64e314148b90c3f6831d58edb96252e23b255541",
     "series": null,
     "volume": null,
-    "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+    "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
     "segments": [
       {
         "path": "corpus/libros/juego-de-las-mascaras/00-preliminares.md",
@@ -1064,7 +1064,7 @@
     "sha256": "05b0636bc15c9c0bd92c96cf95e2a96fae0d030a54843e7c87bb9608378fc049",
     "series": null,
     "volume": null,
-    "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+    "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
     "segments": [
       {
         "path": "corpus/libros/telar-de-las-moiras/00-preliminares.md",

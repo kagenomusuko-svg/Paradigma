@@ -4,7 +4,7 @@
   "sha256": "354b70bc646e5294dac370372fc0dbe3617a5979d43f26ffcc871af826698ee3",
   "series": "Afrodita Areia",
   "volume": 1,
-  "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+  "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
   "segments": [
     {
       "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/00-preliminares.md",

@@ -4,7 +4,7 @@
   "sha256": "b1accaa75a10c62152de2c86af63f199e1192d54e68291f5c968e93a3babd95c",
   "series": "Afrodita Areia",
   "volume": 2,
-  "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+  "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
   "segments": [
     {
       "path": "corpus/libros/afrodita-areia/02-agape/00-preliminares.md",

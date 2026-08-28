@@ -4,7 +4,7 @@
   "sha256": "cbab9ee5a1bb8c838e2dd5de64e314148b90c3f6831d58edb96252e23b255541",
   "series": null,
   "volume": null,
-  "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+  "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
   "segments": [
     {
       "path": "corpus/libros/juego-de-las-mascaras/00-preliminares.md",

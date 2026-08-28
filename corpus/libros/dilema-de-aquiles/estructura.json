@@ -4,7 +4,7 @@
   "sha256": "ae930142db6d9a62b4bb591175b8f7169984a22bab1cd4bb780812ad76508615",
   "series": null,
   "volume": null,
-  "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+  "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
   "segments": [
     {
       "path": "corpus/libros/dilema-de-aquiles/00-preliminares.md",

@@ -4,7 +4,7 @@
   "sha256": "9ab791af757776fe768b0c4f4c6406d53cb2b68afcc00b2cb5006cb00a95e6bb",
   "series": null,
   "volume": null,
-  "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+  "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
   "segments": [
     {
       "path": "corpus/libros/caos/00-preliminares.md",

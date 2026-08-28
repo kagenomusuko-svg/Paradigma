@@ -4,7 +4,7 @@
   "sha256": "d88315887451e88c207de1ac6008b3806c39e063b984f6927d9f5591b2b5bfd3",
   "series": "Afrodita Areia",
   "volume": 3,
-  "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+  "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
   "segments": [
     {
       "path": "corpus/libros/afrodita-areia/03-damasen/00-preliminares.md",

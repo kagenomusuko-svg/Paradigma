@@ -4,7 +4,7 @@
   "sha256": "05b0636bc15c9c0bd92c96cf95e2a96fae0d030a54843e7c87bb9608378fc049",
   "series": null,
   "volume": null,
-  "segmentation_rule": "Cortes conservadores en unidades estructurales reales; el archivo fuente íntegro es canónico.",
+  "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
   "segments": [
     {
       "path": "corpus/libros/telar-de-las-moiras/00-preliminares.md",
