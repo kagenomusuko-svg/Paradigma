@@ -1,48 +1,26 @@
 # Paradigma
 
-Repositorio documental del corpus filosófico de Miguel Hilario Olvera Aguilar.
+Repositorio documental para el corpus filosófico de Miguel Hilario Olvera Aguilar.
+
+## Regla de integridad
+
+Los archivos de `corpus/fuentes/` son las fuentes canónicas recibidas en Markdown. No deben modificarse para normalizar estilo, corregir contenido, reinterpretar conceptos ni facilitar análisis. Una corrección solo corresponde cuando se comprueba que el Markdown no reproduce fielmente la edición fuente.
+
+Las carpetas de `corpus/libros/` contienen copias segmentadas para consulta y análisis. La segmentación es derivada: ante cualquier discrepancia, prevalece el archivo íntegro de `corpus/fuentes/`.
+
+## Estructura inicial
+
+- `corpus/fuentes/`: nueve textos íntegros y sus sumas SHA-256.
+- `corpus/libros/afrodita-areia/`: los cinco volúmenes de *Afrodita Areia*, tratados como una obra articulada en cinco volúmenes.
+- `corpus/libros/caos/`
+- `corpus/libros/dilema-de-aquiles/`
+- `corpus/libros/juego-de-las-mascaras/`
+- `corpus/libros/telar-de-las-moiras/`
+- `corpus/catalogo.json`: catálogo legible por programas con rutas, integridad y segmentación.
+- `documentacion/convenciones-del-corpus.md`: reglas de edición y trabajo.
 
 ## Principio de trabajo
 
 **Fuente íntegra → obra/volumen → capítulo → secciones internas.**
 
-Los archivos que se incorporen a `corpus/fuentes/` serán la referencia canónica. Las carpetas de `corpus/libros/` contendrán copias segmentadas para lectura, indexación y análisis automatizado. Ante cualquier discrepancia, prevalece siempre la fuente íntegra.
-
-## Corpus inicial
-
-El primer lote está formado por nueve textos:
-
-- *Caos: El abismo del ego y la doble mediación*.
-- *Afrodita Areia: Sobre la pasión* — Vol. I.
-- *Afrodita Areia: Ágape* — Vol. II.
-- *Afrodita Areia: Damasén* — Vol. III.
-- *Afrodita Areia: Areópago* — Vol. IV.
-- *Afrodita Areia: Caelus* — Vol. V.
-- *El dilema de Aquiles o la disociación del ego*.
-- *El juego de las máscaras o la disforia de la identidad*.
-- *El telar de las Moiras: Ontología de la autodeterminación causal*.
-
-Los cinco volúmenes de *Afrodita Areia* se mantienen agrupados como una sola obra articulada en cinco volúmenes.
-
-## Integridad
-
-Las fuentes no deben normalizarse, resumirse ni corregirse silenciosamente. Si una conversión a Markdown contiene un error respecto de la edición fuente, la corrección deberá quedar documentada. Cada fuente incorporada tendrá una suma SHA-256 para permitir comprobaciones de integridad.
-
-## Estructura prevista
-
-```text
-corpus/
-├── fuentes/
-├── libros/
-│   ├── afrodita-areia/
-│   ├── caos/
-│   ├── dilema-de-aquiles/
-│   ├── juego-de-las-mascaras/
-│   └── telar-de-las-moiras/
-└── catalogo.json
-
-documentacion/
-scripts/
-```
-
-Las subsecciones internas permanecerán dentro de su capítulo para conservar el contexto argumental. Prefacios, prólogos, epílogos, apéndices y glosarios podrán mantenerse como unidades independientes cuando la obra los distinga estructuralmente.
+Las subsecciones internas permanecen dentro de su capítulo para conservar contexto argumental.
