@@ -1,0 +1,38 @@
+name: Ingestar fuentes Markdown
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '*.md'
+      - '!README.md'
+
+permissions:
+  contents: write
+
+jobs:
+  ingestar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Reubicar fuentes registradas
+        run: python scripts/ingestar_fuentes.py
+
+      - name: Guardar fuentes canónicas
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No hay fuentes registradas nuevas que mover."
+          else
+            git commit -m "Incorporar fuentes canónicas"
+            git push
+          fi
