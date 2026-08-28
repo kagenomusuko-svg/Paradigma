@@ -21,8 +21,17 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Segmentar y verificar corpus
+      - name: Segmentar y verificar corpus inicial
         run: python scripts/segmentar_corpus.py
+
+      - name: Segmentar y verificar segundo lote
+        run: python scripts/segmentar_lote_02.py
+
+      - name: Reconstruir catálogo general
+        run: python scripts/construir_catalogo.py
+
+      - name: Recalcular integridad de todas las fuentes
+        run: python scripts/recalcular_hashes.py
 
       - name: Guardar resultados
         run: |
