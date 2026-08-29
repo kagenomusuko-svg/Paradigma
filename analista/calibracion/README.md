@@ -6,9 +6,10 @@ La calibración mide precisión y cobertura por separado. No modifica registros 
 
 1. `muestra-fase8.lock.json` congela la selección de unidades.
 2. `patron-oro-v1.0.0.schema.json` valida anotaciones manuales contra texto literal.
-3. Las salidas de extractores pueden usarse para **estratificar** casos de desafío, pero nunca para completar automáticamente `items_esperados`.
-4. La detección se evalúa separadamente de la clasificación. Un registro conservador puede detectar correctamente un fenómeno y mantener una etiqueta candidata/no determinada.
-5. El estrato `general` y el estrato `desafio` se reportan por separado. La muestra enriquecida combinada no se presenta como estimación poblacional.
+3. `patron-oro-manifiesto.json` declara explícitamente qué archivos forman el patrón evaluable; no se descubren archivos por glob.
+4. Las salidas de extractores pueden usarse para **estratificar** casos de desafío, pero nunca para completar automáticamente `items_esperados`.
+5. La detección se evalúa separadamente de la clasificación. Un registro conservador puede detectar correctamente un fenómeno y mantener una etiqueta candidata/no determinada.
+6. El estrato `general` y el estrato `desafio` se reportan por separado. La muestra enriquecida combinada no se presenta como estimación poblacional.
 
 ## Muestra congelada
 
@@ -35,6 +36,27 @@ Un patrón de oro registra lo que la revisión textual considera recuperable baj
 
 Estas reglas se fijan antes de usar las métricas para ajustar extractores. Un cambio posterior exige versionar el criterio y no puede reetiquetar silenciosamente el patrón existente.
 
+## Protocolo cuantitativo
+
+`umbrales-v1.0.0.json` queda conservado como primera formulación histórica del gate. El protocolo vigente es `umbrales-v1.1.0.json` y el reporte de calibración tiene versión `1.1.0`.
+
+Las métricas `precision` y `cobertura` conservan su definición ordinaria. Si su denominador es cero, el valor es `null`: no se sustituye por `0` ni por `1`. El reporte expone además `positivos_esperados` y `predicciones_emitidas`, y el gate comprueba mecánicamente que:
+
+```text
+positivos_esperados = verdaderos_positivos + falsos_negativos
+predicciones_emitidas = verdaderos_positivos + falsos_positivos
+```
+
+Un estrato sin positivos solo puede funcionar como **control negativo** cuando el archivo de umbrales lo autoriza expresamente para ese motor. Ese control no satisface umbrales de precisión, cobertura o clasificación por ficción estadística. Cumple únicamente si:
+
+- hay unidades manualmente revisadas;
+- `positivos_esperados = 0`;
+- los conteos son consistentes;
+- los falsos positivos no superan el máximo declarado —para fórmulas, `0`—;
+- el estrato complementario del mismo motor contiene al menos un positivo manual y se evalúa con los umbrales ordinarios.
+
+En el patrón vigente de fórmulas, las 31 unidades del estrato general fueron revisadas manualmente y contienen 0 fórmulas recuperables bajo la regla congelada. Por ello ese estrato es un control negativo; las 18 unidades de desafío contienen 21 fórmulas positivas y sostienen la medición de cobertura y clasificación.
+
 ## Cierre
 
-Fase 8 solo puede cerrarse cuando cada motor tenga anotación manual suficiente en los estratos aplicables, métricas de `precision`, `cobertura`, `falsos_positivos`, `falsos_negativos` y `unidades_procesadas`, y alcance el umbral de producción que se documente antes del cierre.
+Fase 8 solo puede cerrarse cuando cada motor tenga anotación manual suficiente en los estratos aplicables, reporte como mínimo `precision`, `cobertura`, `falsos_positivos`, `falsos_negativos` y `unidades_procesadas`, mantenga denominadores y conteos consistentes, y alcance el umbral de producción documentado antes del cierre. Un control negativo autorizado no reemplaza un estrato positivo complementario.
