@@ -1,0 +1,57 @@
+name: Analista Fase 3 - unidades
+
+on:
+  push:
+    branches:
+      - analisis-textual-v0.1
+    paths:
+      - "analista/motores/unidades.py"
+      - "analista/pruebas/validar_unidades_fase3.py"
+      - "analista/esquema/**"
+      - "analista/generado/fuentes.jsonl"
+      - "corpus/libros/**"
+      - ".github/workflows/analista-fase3-unidades.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  unidades:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: python -m pip install --quiet jsonschema
+
+      - name: Generar unidades y cobertura reales
+        run: python analista/motores/unidades.py
+
+      - name: Validar trazabilidad, cobertura y reproducibilidad
+        run: python analista/pruebas/validar_unidades_fase3.py
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: analista-fase3-unidades
+          path: |
+            analista/generado/unidades.jsonl
+            analista/generado/cobertura-unidades.jsonl
+          if-no-files-found: error
+
+      - name: Persistir productos deterministas
+        if: github.actor != 'github-actions[bot]'
+        env:
+          TARGET_BRANCH: ${{ github.ref_name }}
+        run: |
+          if [ -z "$(git status --porcelain -- analista/generado/unidades.jsonl analista/generado/cobertura-unidades.jsonl)" ]; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add analista/generado/unidades.jsonl analista/generado/cobertura-unidades.jsonl
+          git commit -m "Generar unidades textuales de Fase 3"
+          git push origin HEAD:"${TARGET_BRANCH}"
