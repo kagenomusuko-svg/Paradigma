@@ -21,7 +21,7 @@ ARCHIVOS = {
     "apariciones-conceptuales.jsonl": ("aparicion_conceptual", 2575),
     "conceptos.jsonl": ("concepto", 21),
     "definiciones.jsonl": ("definicion", 60),
-    "afirmaciones-candidatas.jsonl": ("afirmacion", 73),
+    "afirmaciones-candidatas.jsonl": ("afirmacion", 333),
     "formulas-candidatas.jsonl": ("formula", 21),
     "relaciones-explicitas.jsonl": ("relacion_explicita", 83),
     "distinciones.jsonl": ("distincion", 26),
@@ -126,7 +126,7 @@ def main() -> int:
             assert normalizado["normalizacion_lexica"], normalizado["id"]
         total += cantidad
 
-    assert total == TOTAL_ESPERADO == 4372
+    assert total == TOTAL_ESPERADO == 4632
 
     c0 = {r["id"]: r for r in entradas["conceptos.jsonl"]}
     c1 = {r["id"]: r for r in salidas["conceptos.jsonl"]}
@@ -155,7 +155,7 @@ def main() -> int:
         assert (OUTPUT / name).read_bytes() == content, f"Salida no reproducible: {name}"
 
     print(
-        "OK Fase 5: 4372 registros reales normalizados; 21 IDs conceptuales y todas las "
+        "OK Fase 5: 4632 registros reales normalizados; 21 IDs conceptuales y todas las "
         "referencias preservados; variantes Unicode/casefold/diacríticas/tipográficas recuperadas; "
         "0 sinónimos, 0 fusiones conceptuales."
     )
