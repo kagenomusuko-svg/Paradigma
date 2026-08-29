@@ -1,4 +1,4 @@
-version: "1.0"
+version: "1.1"
 principio: clausura_descriptiva
 
 proposito: >-
@@ -35,6 +35,7 @@ operaciones_prohibidas:
   - resolver_contradicciones
   - fusionar_conceptos_por_semejanza
   - convertir_inferencias_en_doctrina
+  - sintetizar_predicaciones_en_nueva_tesis
   - recomendar_como_deberia_ser_el_corpus
   - reescribir_contenido_para_hacerlo_mas_coherente
 
@@ -49,13 +50,57 @@ prescripciones_en_la_fuente:
     conserva su función en contexto. La presencia del significante «debe» no
     determina por sí sola que el analista esté prescribiendo.
 
+estatus_enunciativo:
+  obligatorio_en_afirmaciones: true
+  categorias_minimas:
+    - afirmacion_autoral
+    - negacion_autoral
+    - cita
+    - discurso_referido
+    - objecion
+    - hipotesis
+    - ejemplo
+    - pregunta
+    - definicion
+    - formulacion_condicional
+    - caso_contrafactico
+    - no_determinado
+  regla: >-
+    La mera presencia de una proposición en el texto no autoriza a registrarla
+    como tesis del autor. Debe conservarse su función enunciativa o quedar como
+    no determinada.
+
 semantica:
   significante_no_implica_significado_univoco: true
   decidir_por_palabra_aislada: false
   preservar_contexto: true
+  niveles_literalidad:
+    - texto_literal
+    - normalizacion_formal
+    - normalizacion_lexica_para_recuperacion
+    - identidad_conceptual_con_evidencia
   normalizacion_lexica:
     uso: recuperacion_de_evidencia
     fusion_conceptual_automatica: false
+
+agregacion:
+  agrupar_registros: true
+  sintetizar_nueva_proposicion: false
+  regla: >-
+    Reunir varias predicaciones, definiciones o relaciones bajo un mismo sujeto
+    no autoriza a combinarlas en una definición o tesis nueva.
+
+cobertura:
+  registrar_unidades_totales: true
+  registrar_unidades_procesadas_por_motor: true
+  ausencia_de_hallazgo_no_equivale_a_ausencia_en_corpus: true
+  expresion_preferida: "NO SE ENCONTRO EVIDENCIA AUDITADA EN EL EXPEDIENTE DISPONIBLE"
+
+calidad_extraccion:
+  separar_precision_y_cobertura: true
+  patron_de_oro_humano: requerido_para_calibracion
+  confianza_numerica_refiere_a: deteccion_o_clasificacion
+  confianza_numerica_no_refiere_a: verdad_doctrinal
 
 salidas_prohibidas:
   campos:
