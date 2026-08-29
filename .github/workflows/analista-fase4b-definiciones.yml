@@ -1,0 +1,51 @@
+name: Analista Fase 4B - definiciones
+
+on:
+  push:
+    branches: [analisis-textual-v0.1]
+    paths:
+      - "analista/motores/definiciones.py"
+      - "analista/pruebas/validar_definiciones_fase4b.py"
+      - "analista/esquema/**"
+      - "analista/generado/unidades.jsonl"
+      - "analista/generado/conceptos.jsonl"
+      - "corpus/libros/afrodita-areia/01-sobre-la-pasion/**"
+      - ".github/workflows/analista-fase4b-definiciones.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  definiciones:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --quiet jsonschema
+      - name: Generar definiciones reales
+        run: python analista/motores/definiciones.py
+      - name: Validar evidencia y clausura
+        run: python analista/pruebas/validar_definiciones_fase4b.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: analista-fase4b-definiciones
+          path: |
+            analista/generado/definiciones.jsonl
+            analista/generado/cobertura-definiciones.jsonl
+          if-no-files-found: error
+      - name: Persistir productos deterministas
+        if: github.actor != 'github-actions[bot]'
+        env:
+          TARGET_BRANCH: ${{ github.ref_name }}
+        run: |
+          if [ -z "$(git status --porcelain -- analista/generado/definiciones.jsonl analista/generado/cobertura-definiciones.jsonl)" ]; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add analista/generado/definiciones.jsonl analista/generado/cobertura-definiciones.jsonl
+          git commit -m "Generar definiciones de Fase 4B"
+          git push origin HEAD:"${TARGET_BRANCH}"
