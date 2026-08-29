@@ -6,7 +6,8 @@
     "patron-oro-formulas.jsonl",
     "patron-oro-formulas-general.jsonl",
     "patron-oro-relaciones-general.jsonl",
-    "patron-oro-relaciones-desafio-v2.jsonl"
+    "patron-oro-relaciones-desafio-v2.jsonl",
+    "patron-oro-relaciones-general-correccion-v2.jsonl"
   ],
   "reemplazos": [
     {
@@ -20,6 +21,12 @@
       "archivo_sustituto": "patron-oro-relaciones-desafio-v2.jsonl",
       "motor": "relaciones_explicitas",
       "unidad_id": "UT-F7401C2B6AA0"
+    },
+    {
+      "archivo_origen": "patron-oro-relaciones-general.jsonl",
+      "archivo_sustituto": "patron-oro-relaciones-general-correccion-v2.jsonl",
+      "motor": "relaciones_explicitas",
+      "unidad_id": "UT-4EC2EC8C08A8"
     }
   ]
 }
