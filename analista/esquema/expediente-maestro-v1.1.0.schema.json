@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://paradigma.local/analista/esquema/expediente-maestro-v1.1.0.schema.json",
+  "title": "Expediente maestro de obra Paradigma v1.1.0",
+  "description": "Contrato de Fase 9. Conserva los registros atómicos v1.0.0 y añade calibración, cierre cuantitativo y hashes de los insumos sin introducir síntesis doctrinal.",
+  "$defs": {
+    "metric_value": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+    "calibration_row": {
+      "type": "object",
+      "required": [
+        "version", "obra_id", "motor", "estrato", "positivos_esperados", "predicciones_emitidas",
+        "precision", "cobertura", "verdaderos_positivos", "falsos_positivos", "falsos_negativos",
+        "unidades_procesadas", "clasificaciones_evaluadas", "clasificaciones_correctas",
+        "exactitud_clasificacion", "estatus_evaluados", "estatus_correctos", "exactitud_estatus",
+        "identidades_evaluadas", "identidades_correctas", "exactitud_identidad"
+      ],
+      "properties": {
+        "version": {"const": "1.1.0"},
+        "obra_id": {"type": "string"},
+        "motor": {"enum": ["conceptos_apariciones", "definiciones", "afirmaciones", "formulas", "relaciones_explicitas", "limitadores"]},
+        "estrato": {"enum": ["general", "desafio", "combinado"]},
+        "positivos_esperados": {"type": "integer", "minimum": 0},
+        "predicciones_emitidas": {"type": "integer", "minimum": 0},
+        "precision": {"$ref": "#/$defs/metric_value"},
+        "cobertura": {"$ref": "#/$defs/metric_value"},
+        "verdaderos_positivos": {"type": "integer", "minimum": 0},
+        "falsos_positivos": {"type": "integer", "minimum": 0},
+        "falsos_negativos": {"type": "integer", "minimum": 0},
+        "unidades_procesadas": {"type": "integer", "minimum": 1},
+        "clasificaciones_evaluadas": {"type": "integer", "minimum": 0},
+        "clasificaciones_correctas": {"type": "integer", "minimum": 0},
+        "exactitud_clasificacion": {"$ref": "#/$defs/metric_value"},
+        "estatus_evaluados": {"type": "integer", "minimum": 0},
+        "estatus_correctos": {"type": "integer", "minimum": 0},
+        "exactitud_estatus": {"$ref": "#/$defs/metric_value"},
+        "identidades_evaluadas": {"type": "integer", "minimum": 0},
+        "identidades_correctas": {"type": "integer", "minimum": 0},
+        "exactitud_identidad": {"$ref": "#/$defs/metric_value"}
+      },
+      "additionalProperties": false
+    },
+    "gate_metric": {
+      "type": "object",
+      "required": ["metrica", "valor", "cumple", "razon"],
+      "properties": {
+        "metrica": {"type": "string", "minLength": 1},
+        "valor": {"type": ["number", "integer", "boolean", "null"]},
+        "minimo": {"type": ["number", "integer", "null"]},
+        "maximo": {"type": ["number", "integer", "null"]},
+        "cumple": {"type": "boolean"},
+        "razon": {"type": ["string", "null"]}
+      },
+      "additionalProperties": false
+    },
+    "gate_detail": {
+      "type": "object",
+      "required": ["motor", "estrato", "estado", "modo", "metricas", "metricas_no_aplicables"],
+      "properties": {
+        "motor": {"type": "string"},
+        "estrato": {"enum": ["general", "desafio"]},
+        "estado": {"enum": ["cumple", "no_cumple", "cumple_control_negativo", "no_cumple_control_negativo", "faltante"]},
+        "modo": {"enum": ["umbral", "control_solo_negativos"]},
+        "metricas": {"type": "array", "items": {"$ref": "#/$defs/gate_metric"}},
+        "metricas_no_aplicables": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+      },
+      "additionalProperties": false
+    },
+    "input_hash": {
+      "type": "object",
+      "required": ["ruta", "sha256", "funcion", "registros_incluidos"],
+      "properties": {
+        "ruta": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "funcion": {"enum": ["fuente", "unidades", "producto_auditado", "hallazgos", "cobertura", "calibracion", "umbrales"]},
+        "registros_incluidos": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": false
+    },
+    "history": {
+      "type": "object",
+      "required": ["version", "descripcion"],
+      "properties": {
+        "version": {"type": "string", "minLength": 1},
+        "descripcion": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    }
+  },
+  "type": "object",
+  "required": [
+    "id", "tipo_registro", "schema_version", "texto_literal", "normalizacion_formal", "normalizacion_lexica",
+    "estatus_enunciativo", "estado_extraccion", "estado_verificacion", "estado_auditoria", "producido_por",
+    "obra_id", "titulo", "fuentes", "unidades", "apariciones_conceptuales", "conceptos", "definiciones",
+    "afirmaciones", "formulas", "relaciones_explicitas", "distinciones", "negaciones", "excepciones",
+    "restricciones_alcance", "hallazgos_auditoria", "reportes_cobertura", "metricas_calibracion",
+    "cierre_calibracion", "trazabilidad_archivos", "historial_versiones"
+  ],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[A-Z0-9][A-Z0-9._:-]{2,79}$"},
+    "tipo_registro": {"const": "expediente_maestro_obra"},
+    "schema_version": {"const": "1.1.0"},
+    "texto_literal": {"type": "null"},
+    "normalizacion_formal": {"type": "null"},
+    "normalizacion_lexica": {"type": "null"},
+    "estatus_enunciativo": {"type": "null"},
+    "estado_extraccion": {"const": "extraido"},
+    "estado_verificacion": {"const": "verificado"},
+    "estado_auditoria": {"const": "no_aplica"},
+    "producido_por": {
+      "type": "object",
+      "required": ["motor", "version"],
+      "properties": {"motor": {"const": "ensamblador_maestro"}, "version": {"const": "1.0.0"}},
+      "additionalProperties": false
+    },
+    "obra_id": {"type": "string"},
+    "titulo": {"type": "string", "minLength": 1},
+    "fuentes": {"type": "array", "minItems": 1, "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/fuente"}},
+    "unidades": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/unidad_textual"}},
+    "apariciones_conceptuales": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/aparicion_conceptual"}},
+    "conceptos": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/concepto"}},
+    "definiciones": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/definicion"}},
+    "afirmaciones": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/afirmacion"}},
+    "formulas": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/formula"}},
+    "relaciones_explicitas": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/relacion_explicita"}},
+    "distinciones": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/distincion"}},
+    "negaciones": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/negacion"}},
+    "excepciones": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/excepcion"}},
+    "restricciones_alcance": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/restriccion_alcance"}},
+    "hallazgos_auditoria": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/hallazgo_auditoria"}},
+    "reportes_cobertura": {"type": "array", "minItems": 1, "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/reporte_cobertura"}},
+    "metricas_calibracion": {
+      "type": "object",
+      "required": ["version", "reportes"],
+      "properties": {
+        "version": {"const": "1.1.0"},
+        "reportes": {"type": "array", "minItems": 12, "items": {"$ref": "#/$defs/calibration_row"}}
+      },
+      "additionalProperties": false
+    },
+    "cierre_calibracion": {
+      "type": "object",
+      "required": ["version", "version_reporte", "obra_id", "fase", "cierre_cuantitativo", "criterio", "detalle"],
+      "properties": {
+        "version": {"const": "1.1.0"},
+        "version_reporte": {"const": "1.1.0"},
+        "obra_id": {"type": "string"},
+        "fase": {"const": 8},
+        "cierre_cuantitativo": {"const": true},
+        "criterio": {"type": "string", "minLength": 1},
+        "detalle": {"type": "array", "minItems": 12, "items": {"$ref": "#/$defs/gate_detail"}}
+      },
+      "additionalProperties": false
+    },
+    "trazabilidad_archivos": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/input_hash"}},
+    "historial_versiones": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/history"}}
+  },
+  "additionalProperties": false
+}
