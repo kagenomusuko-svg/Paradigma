@@ -32,15 +32,16 @@ FILES = {
 EXPECTED_COUNTS = {
     "apariciones-conceptuales.jsonl": 2575,
     "conceptos.jsonl": 21,
-    "definiciones.jsonl": 21,
+    "definiciones.jsonl": 60,
     "afirmaciones-candidatas.jsonl": 73,
     "formulas-candidatas.jsonl": 21,
-    "relaciones-explicitas.jsonl": 4,
+    "relaciones-explicitas.jsonl": 83,
     "distinciones.jsonl": 26,
     "negaciones.jsonl": 1509,
     "excepciones.jsonl": 1,
     "restricciones-alcance.jsonl": 3,
 }
+TOTAL_ESPERADO = sum(EXPECTED_COUNTS.values())
 
 
 def load_jsonl(path: Path) -> list[dict]:
@@ -95,7 +96,7 @@ def main() -> int:
     validators = {filename: validator(schema, ref) for filename, ref in FILES.items()}
 
     result = run(INPUT, OUTPUT, 0)
-    assert '"auditados": 4254' in result.stdout and '"rechazados": 0' in result.stdout
+    assert f'"auditados": {TOTAL_ESPERADO}' in result.stdout and '"rechazados": 0' in result.stdout
 
     snapshot: dict[str, bytes] = {}
     total = 0
@@ -112,7 +113,7 @@ def main() -> int:
             assert changed == {"estado_auditoria"}, (filename, before["id"], changed)
             assert before["estado_verificacion"] == after["estado_verificacion"] == "verificado"
             assert after["estado_auditoria"] == "auditado"
-    assert total == 4254
+    assert total == TOTAL_ESPERADO == 4372
 
     run(INPUT, OUTPUT, 0)
     for filename, content in snapshot.items():
@@ -173,7 +174,7 @@ def main() -> int:
 
     run(INPUT, OUTPUT, 0)
     print(
-        "OK Fase 7A: 4254 registros auditados; 0 rechazados; salida reproducible; "
+        "OK Fase 7A: 4372 registros auditados; 0 rechazados; salida reproducible; "
         "solo cambia estado_auditoria; evidencia pendiente, referencias rotas, fuerza "
         "incoherente, IDs duplicados y contexto de fórmula inválido son rechazados."
     )
