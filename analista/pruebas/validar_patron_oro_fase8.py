@@ -6,6 +6,7 @@ import copy
 import importlib.util
 import json
 import tempfile
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -65,12 +66,34 @@ def main() -> int:
         corpus_root=ROOT,
     )
     if result != {
-        "revisiones": 27,
+        "revisiones": 58,
         "items": 46,
         "motores": ["definiciones", "formulas", "relaciones_explicitas"],
-        "archivos_gold": ["patron-oro.jsonl", "patron-oro-formulas.jsonl"],
+        "archivos_gold": [
+            "patron-oro.jsonl",
+            "patron-oro-formulas.jsonl",
+            "patron-oro-formulas-general.jsonl",
+        ],
     }:
         raise AssertionError(f"Producto real inesperado: {result}")
+
+    by_motor_stratum = Counter(
+        (row["motor"], stratum)
+        for row in rows
+        for stratum in row["estratos"]
+    )
+    assert by_motor_stratum[("formulas", "general")] == 31
+    assert by_motor_stratum[("formulas", "desafio")] == 18
+    general_formulas = [
+        row for row in rows
+        if row["motor"] == "formulas" and "general" in row["estratos"]
+    ]
+    desafio_formulas = [
+        row for row in rows
+        if row["motor"] == "formulas" and "desafio" in row["estratos"]
+    ]
+    assert all(not row["items_esperados"] for row in general_formulas)
+    assert sum(len(row["items_esperados"]) for row in desafio_formulas) == 21
 
     mutated = copy.deepcopy(rows)
     mutated.append(copy.deepcopy(rows[0]))
@@ -93,8 +116,8 @@ def main() -> int:
     expect_failure(mutated, "no pertenece al motor")
 
     print(
-        "OK Fase 8 infraestructura: patrón manifestado real 27 revisiones/46 ítems; "
-        "5 corrupciones manuales rechazadas."
+        "OK Fase 8 infraestructura: patrón manifestado real 58 revisiones/46 ítems; "
+        "fórmulas 31 general negativas + 18 desafío/21 ítems; 5 corrupciones manuales rechazadas."
     )
     return 0
 
