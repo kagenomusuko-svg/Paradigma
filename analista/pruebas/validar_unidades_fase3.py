@@ -55,7 +55,20 @@ def assert_reproducible() -> None:
 
 def main() -> int:
     schema = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
-    validator = Draft202012Validator(schema)
+    unit_validator = Draft202012Validator(
+        {
+            "$schema": schema["$schema"],
+            "$defs": schema["$defs"],
+            "$ref": "#/$defs/unidad_textual",
+        }
+    )
+    coverage_validator = Draft202012Validator(
+        {
+            "$schema": schema["$schema"],
+            "$defs": schema["$defs"],
+            "$ref": "#/$defs/reporte_cobertura",
+        }
+    )
 
     fuentes = load_jsonl(FUENTES_PATH)
     unidades = load_jsonl(UNIDADES_PATH)
@@ -70,7 +83,7 @@ def main() -> int:
 
     unidades_por_fuente: dict[str, list[dict]] = defaultdict(list)
     for unit in unidades:
-        errors = sorted(validator.iter_errors(unit), key=lambda e: list(e.absolute_path))
+        errors = sorted(unit_validator.iter_errors(unit), key=lambda e: list(e.absolute_path))
         assert not errors, f"Unidad inválida {unit.get('id')}: {errors[0].message}"
         assert unit["tipo_registro"] == "unidad_textual"
         assert unit["fuente_id"] in fuente_por_id, f"Fuente desconocida en {unit['id']}"
@@ -96,7 +109,7 @@ def main() -> int:
 
     reportes_por_obra = {}
     for report in reportes:
-        errors = sorted(validator.iter_errors(report), key=lambda e: list(e.absolute_path))
+        errors = sorted(coverage_validator.iter_errors(report), key=lambda e: list(e.absolute_path))
         assert not errors, f"Reporte inválido {report.get('id')}: {errors[0].message}"
         assert report["tipo_registro"] == "reporte_cobertura"
         assert report["obra_id"] in fuente_por_id
@@ -201,7 +214,7 @@ def main() -> int:
     # La clausura descriptiva sigue activa en el contrato.
     mutated = dict(unidades[0])
     mutated["solucion_doctrinal"] = "X"
-    assert not validator.is_valid(mutated), "El esquema aceptó un campo doctrinal prohibido."
+    assert not unit_validator.is_valid(mutated), "El esquema aceptó un campo doctrinal prohibido."
 
     assert_reproducible()
 
