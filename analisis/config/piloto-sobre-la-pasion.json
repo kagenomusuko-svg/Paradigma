@@ -1,0 +1,8 @@
+{
+  "id": "AA-SP-V1",
+  "titulo": "Afrodita Areia: Sobre la pasión - Volumen I",
+  "fuente_canonica": "corpus/fuentes/Afrodita_Areia_Sobre_la_Pasion.md",
+  "directorio": "corpus/libros/afrodita-areia/01-sobre-la-pasion",
+  "glosario": "99-glosario.md",
+  "salida": "analisis/generado/sobre-la-pasion"
+}
