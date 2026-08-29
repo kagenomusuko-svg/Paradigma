@@ -3,13 +3,18 @@
   "$id": "https://paradigma.local/analista/calibracion/patron-oro-v1.0.0.schema.json",
   "title": "Registro manual de patrón de oro — Fase 8",
   "type": "object",
-  "required": ["version", "obra_id", "unidad_id", "motor", "estrato", "revision_manual", "items_esperados", "observacion"],
+  "required": ["version", "obra_id", "unidad_id", "motor", "estratos", "revision_manual", "items_esperados", "observacion"],
   "properties": {
     "version": {"const": "1.0.0"},
     "obra_id": {"const": "AA-SP-V1"},
     "unidad_id": {"type": "string", "minLength": 1},
     "motor": {"enum": ["conceptos_apariciones", "definiciones", "afirmaciones", "formulas", "relaciones_explicitas", "limitadores"]},
-    "estrato": {"enum": ["general", "desafio"]},
+    "estratos": {
+      "type": "array",
+      "items": {"enum": ["general", "desafio"]},
+      "minItems": 1,
+      "uniqueItems": true
+    },
     "revision_manual": {"const": true},
     "items_esperados": {
       "type": "array",
