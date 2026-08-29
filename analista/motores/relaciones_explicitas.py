@@ -3,8 +3,9 @@
 
 Registra únicamente pares de conceptos 4A unidos por construcciones textuales
 observables. La identidad de los referentes exige una designación conceptual
-literal exacta (ignorando solo caja/NFKC), salvo el lema técnico activo del
-glosario, que aporta el sujeto contextual de su propia definición.
+literal exacta (ignorando solo caja/NFKC y saltos de línea de maquetación), salvo
+el lema técnico activo del glosario, que aporta el sujeto contextual de su propia
+definición.
 
 No resuelve abreviaturas, plurales, similitud semántica, transitividad ni
 coaparición. Los patrones son familias sintácticas; no contienen IDs de la
@@ -35,6 +36,13 @@ NOMBRE_TECNICO_RE = re.compile(r"^\s*Nombre técnico del\s+([^:.;]+)", re.IGNORE
 
 def norm(text: str) -> str:
     return " ".join(unicodedata.normalize("NFKC", text).casefold().split())
+
+
+def concept_term_regex(name: str) -> str:
+    """Patrón de una designación exacta con whitespace de maquetación flexible."""
+    parts = name.split()
+    body = r"\s+".join(re.escape(part) for part in parts)
+    return rf"(?<!\w)(?:{body})(?!\w)"
 
 
 def stable_id(prefix: str, *parts: str) -> str:
@@ -135,7 +143,7 @@ def main() -> int:
         raise SystemExit("Designaciones conceptuales duplicadas tras normalización formal.")
 
     names = sorted((row["designacion_operativa"] for row in conceptos), key=len, reverse=True)
-    term_alt = "(?:" + "|".join(re.escape(name) for name in names) + ")"
+    term_alt = "(?:" + "|".join(concept_term_regex(name) for name in names) + ")"
 
     def concept_from_surface(surface: str) -> dict | None:
         return concept_by_norm.get(norm(surface))
@@ -294,15 +302,11 @@ def main() -> int:
         text = unit["texto_literal"]
         candidates: list[Candidate] = []
 
-        def add_match(match: re.Match[str], priority: int, *, reverse: bool = False, expand_left: bool = True) -> None:
-            s_group = match.group("s")
-            o_group = match.group("o")
-            subject = concept_from_surface(s_group)
-            target = concept_from_surface(o_group)
+        def add_match(match: re.Match[str], priority: int, *, expand_left: bool = True) -> None:
+            subject = concept_from_surface(match.group("s"))
+            target = concept_from_surface(match.group("o"))
             if subject is None or target is None or subject["id"] == target["id"]:
                 return
-            if reverse:
-                subject, target = target, subject
             start, end = match.span()
             if expand_left:
                 start = expand_left_determiner(text, start)
@@ -312,7 +316,7 @@ def main() -> int:
         for match in determined_re.finditer(text):
             add_match(match, 100)
         for match in relative_re.finditer(text):
-            add_match(match, 95)
+            add_match(match, 95, expand_left=False)
         for match in iteracion_re.finditer(text):
             add_match(match, 90, expand_left=False)
         for match in como_re.finditer(text):
