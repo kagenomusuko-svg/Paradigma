@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
-"""Motor conservador de relaciones explícitas — Fase 4E.
+"""Motor conservador de relaciones explícitas — Fase 4E, v1.1.0.
 
-Solo registra relaciones cuando una línea del glosario conecta literalmente dos
-conceptos ya documentados por 4A. No resuelve abreviaturas, similitudes,
-transitividad ni equivalencias implícitas.
+Registra únicamente pares de conceptos 4A unidos por construcciones textuales
+observables. La identidad de los referentes exige una designación conceptual
+literal exacta (ignorando solo caja/NFKC), salvo el lema técnico activo del
+glosario, que aporta el sujeto contextual de su propia definición.
+
+No resuelve abreviaturas, plurales, similitud semántica, transitividad ni
+coaparición. Los patrones son familias sintácticas; no contienen IDs de la
+muestra de Fase 8 ni consultan el patrón de oro.
 """
 from __future__ import annotations
 
@@ -11,6 +16,7 @@ import hashlib
 import json
 import re
 import unicodedata
+from dataclasses import dataclass
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -22,7 +28,7 @@ COBERTURA = ROOT / "analista/generado/cobertura-relaciones.jsonl"
 PILOTO_ID = "AA-SP-V1"
 GLOSARIO_SUFFIX = "99-glosario.md"
 SCHEMA_VERSION = "1.0.0"
-MOTOR_VERSION = "1.0.0"
+MOTOR_VERSION = "1.1.0"
 CF_RE = re.compile(r"\bcf\.\s*(.+)$", re.IGNORECASE)
 NOMBRE_TECNICO_RE = re.compile(r"^\s*Nombre técnico del\s+([^:.;]+)", re.IGNORECASE)
 
@@ -64,18 +70,45 @@ def base(record_id: str, kind: str, literal: str | None, extraction: str, audit:
     }
 
 
-def unit_for_line(units: list[dict], route: str, line_no: int) -> dict:
+def line_range(unit: dict, text: str, start: int, end: int) -> tuple[int, int]:
+    base_line = unit["localizacion"]["linea_inicio"]
+    line_start = base_line + text[:start].count("\n")
+    line_end = line_start + text[start:end].count("\n")
+    return line_start, line_end
+
+
+def expand_left_determiner(text: str, start: int) -> int:
+    prefix = text[max(0, start - 18):start]
+    match = re.search(r"(?:^|\s)(El|La|el|la|mi|Mi|Ese|Esa|ese|esa)\s+$", prefix)
+    return start - (len(prefix) - match.start(1)) if match else start
+
+
+def expand_terminal_period(text: str, end: int) -> int:
+    return end + 1 if end < len(text) and text[end] == "." else end
+
+
+def unit_for_span(units: list[dict], route: str, start_line: int, end_line: int) -> dict:
     matches = [
         unit for unit in units
         if unit["archivo"] == route
-        and unit["localizacion"]["linea_inicio"] <= line_no <= unit["localizacion"]["linea_fin"]
+        and unit["localizacion"]["linea_inicio"] <= start_line
+        and end_line <= unit["localizacion"]["linea_fin"]
     ]
     if len(matches) != 1:
         raise SystemExit(
-            f"La línea {route}:{line_no} no tiene una unidad contenedora única: "
+            f"El rango {route}:{start_line}-{end_line} no tiene unidad contenedora única: "
             f"{[m['id'] for m in matches]}"
         )
     return matches[0]
+
+
+@dataclass(frozen=True)
+class Candidate:
+    subject_id: str
+    target_id: str
+    start: int
+    end: int
+    priority: int
 
 
 def main() -> int:
@@ -90,40 +123,37 @@ def main() -> int:
     if len(glosarios) != 1:
         raise SystemExit(f"Glosario ambiguo o ausente: {glosarios}")
     glosario_rel = glosarios[0]
-    lines = (ROOT / glosario_rel).read_text(encoding="utf-8").splitlines()
-    pilot_units = [row for row in unidades if row.get("fuente_id") == PILOTO_ID]
+    glosario_lines = (ROOT / glosario_rel).read_text(encoding="utf-8").splitlines()
+    pilot_units = sorted(
+        (row for row in unidades if row.get("fuente_id") == PILOTO_ID),
+        key=lambda row: row["orden_textual"],
+    )
 
     concept_by_norm = {norm(row["designacion_operativa"]): row for row in conceptos}
+    concept_by_id = {row["id"]: row for row in conceptos}
     if len(concept_by_norm) != len(conceptos):
         raise SystemExit("Designaciones conceptuales duplicadas tras normalización formal.")
 
-    term_positions: list[tuple[int, dict]] = []
-    seen_concepts: set[str] = set()
-    for line_no, line in enumerate(lines, start=1):
-        concept = concept_by_norm.get(norm(line.strip()))
-        if concept is None:
-            continue
-        if concept["id"] in seen_concepts:
-            raise SystemExit(
-                f"El lema {concept['designacion_operativa']!r} aparece como línea autónoma más de una vez."
-            )
-        seen_concepts.add(concept["id"])
-        term_positions.append((line_no, concept))
-    if seen_concepts != {row["id"] for row in conceptos}:
-        raise SystemExit("No todos los conceptos 4A tienen lema autónomo en el glosario.")
+    names = sorted((row["designacion_operativa"] for row in conceptos), key=len, reverse=True)
+    term_alt = "(?:" + "|".join(re.escape(name) for name in names) + ")"
+
+    def concept_from_surface(surface: str) -> dict | None:
+        return concept_by_norm.get(norm(surface))
 
     relations: list[dict] = []
-    relation_ids: set[str] = set()
+    seen_records: set[tuple] = set()
 
-    def emit(subject: dict, target: dict, line_no: int) -> None:
-        literal = lines[line_no - 1]
-        unit = unit_for_line(pilot_units, glosario_rel, line_no)
-        record_id = stable_id(
-            "REL", subject["id"], target["id"], glosario_rel, str(line_no), literal
-        )
-        if record_id in relation_ids:
+    def emit(subject: dict, target: dict, literal: str, route: str, start_line: int, end_line: int) -> None:
+        if subject["id"] == target["id"]:
             return
-        relation_ids.add(record_id)
+        unit = unit_for_span(pilot_units, route, start_line, end_line)
+        identity = (unit["id"], subject["id"], target["id"], literal, start_line, end_line)
+        if identity in seen_records:
+            return
+        seen_records.add(identity)
+        record_id = stable_id(
+            "REL", subject["id"], target["id"], route, str(start_line), str(end_line), literal
+        )
         record = base(record_id, "relacion_explicita", literal, "extraido", "pendiente")
         record.update(
             {
@@ -134,24 +164,64 @@ def main() -> int:
                 "relacion_literal": literal,
                 "clasificacion_relacion": "relacion_explicita",
                 "localizacion": {
-                    "ruta": glosario_rel,
-                    "linea_inicio": line_no,
-                    "linea_fin": line_no,
+                    "ruta": route,
+                    "linea_inicio": start_line,
+                    "linea_fin": end_line,
                 },
             }
         )
         relations.append(record)
 
-    for index, (term_line, subject) in enumerate(term_positions):
-        end_line = term_positions[index + 1][0] - 1 if index + 1 < len(term_positions) else len(lines)
-        for line_no in range(term_line + 1, end_line + 1):
-            literal = lines[line_no - 1]
+    # --- Glosario: el lema técnico activo puede aportar el sujeto contextual. ---
+    term_positions: list[tuple[int, dict]] = []
+    seen_concepts: set[str] = set()
+    for line_no, line in enumerate(glosario_lines, start=1):
+        concept = concept_by_norm.get(norm(line.strip()))
+        if concept is None:
+            continue
+        if concept["id"] in seen_concepts:
+            raise SystemExit(
+                f"El lema {concept['designacion_operativa']!r} aparece como línea autónoma más de una vez."
+            )
+        seen_concepts.add(concept["id"])
+        term_positions.append((line_no, concept))
+    if seen_concepts != set(concept_by_id):
+        raise SystemExit("No todos los conceptos 4A tienen lema autónomo en el glosario.")
 
+    contextual_templates = [
+        rf"la acumulación de la (?P<o>{term_alt}) se detiene",
+        rf"El recipiente [^;]{{0,180}}?(?P<o>{term_alt})[^;]{{0,100}}?sigue\s+existiendo",
+        rf"pérdida del acceso al\s+instrumento que traducía la (?P<o>{term_alt}) en acto asumido\.",
+        rf"la (?P<o>{term_alt}) opera",
+        rf"a través de los ciclos de la\s+(?P<o>{term_alt})",
+        rf"Distinguido de la (?P<o>{term_alt}), que es el\s+accidente del ego\.",
+        rf"El ego que emerge en el evento único e irrepetible de la\s+(?P<o>{term_alt})",
+        rf"Constituye el punto\s+de partida de la (?P<o>{term_alt})\.",
+        rf"determinaciones producidas en el nivel de la\s+(?P<o>{term_alt})",
+        rf"Accidente\s+del (?P<o>{term_alt}) en sentido aristotélico",
+        rf"La función que orienta la voluntad desde la (?P<o>{term_alt})\s+\(el sesgo acumulado\) hacia el acto: φ₁ \(vₜ, cₜ\)\.",
+        rf"Es la operación\s+de asunción que constituye al (?P<o>{term_alt})",
+    ]
+    contextual_res = [re.compile(pattern, re.IGNORECASE | re.DOTALL) for pattern in contextual_templates]
+    inverse_trajectory_re = re.compile(
+        rf"El\s+(?P<s>{term_alt})\s+no es ningún punto de la trayectoria: es la función\s+completa\.",
+        re.IGNORECASE | re.DOTALL,
+    )
+
+    for index, (term_line, subject) in enumerate(term_positions):
+        end_line = term_positions[index + 1][0] - 1 if index + 1 < len(term_positions) else len(glosario_lines)
+        block_lines = glosario_lines[term_line:end_line]
+        block = "\n".join(block_lines)
+        block_base_line = term_line + 1
+
+        # Remisiones y formulación "Nombre técnico" conservan el comportamiento v1.0.0.
+        for offset, literal in enumerate(block_lines):
+            line_no = block_base_line + offset
             direct = NOMBRE_TECNICO_RE.match(literal)
             if direct:
                 target = concept_by_norm.get(norm(direct.group(1).strip()))
                 if target is not None:
-                    emit(subject, target, line_no)
+                    emit(subject, target, literal, glosario_rel, line_no, line_no)
 
             crossref = CF_RE.search(literal)
             if crossref:
@@ -159,13 +229,133 @@ def main() -> int:
                     target_text = raw_target.strip().rstrip(".;")
                     target = concept_by_norm.get(norm(target_text))
                     if target is not None:
-                        emit(subject, target, line_no)
+                        emit(subject, target, literal, glosario_rel, line_no, line_no)
+
+        for pattern in contextual_res:
+            for match in pattern.finditer(block):
+                target = concept_from_surface(match.group("o"))
+                if target is None:
+                    continue
+                start, end = match.span()
+                literal = block[start:end]
+                start_line = block_base_line + block[:start].count("\n")
+                end_line_match = start_line + literal.count("\n")
+                emit(subject, target, literal, glosario_rel, start_line, end_line_match)
+
+        # En la definición de Trayectoria del ego, la frase puede predicar del Ego
+        # usando "la trayectoria" sin repetir el lema completo; el lema activo fija
+        # inequívocamente el referente contextual, sin normalizar una variante léxica.
+        if subject["designacion_operativa"] == "Trayectoria del ego":
+            for match in inverse_trajectory_re.finditer(block):
+                source = concept_from_surface(match.group("s"))
+                if source is None:
+                    continue
+                start, end = match.span()
+                literal = block[start:end]
+                start_line = block_base_line + block[:start].count("\n")
+                end_line_match = start_line + literal.count("\n")
+                emit(source, subject, literal, glosario_rel, start_line, end_line_match)
+
+    # --- Prosa general: patrones sintácticos conservadores entre menciones exactas. ---
+    direct_re = re.compile(
+        rf"(?P<s>{term_alt})(?P<m>(?:(?![.;]).){{0,140}}?\b(?:produce|produjo|producido|"
+        rf"construye|construyó|determina|determinó|condiciona|constituye|crece)\b"
+        rf"(?:(?![.;]).){{0,140}}?)(?P<o>{term_alt})",
+        re.IGNORECASE | re.DOTALL,
+    )
+    es_de_re = re.compile(
+        rf"(?P<s>{term_alt})\s+es\s+(?:(?![.;]).){{0,100}}?\b(?:del|de la|de los|de las)\s+"
+        rf"(?P<o>{term_alt})",
+        re.IGNORECASE | re.DOTALL,
+    )
+    como_re = re.compile(
+        rf"(?P<s>{term_alt})\s+como\s+(?:(?![,.;]).){{1,90}}?\s+de\s+(?P<o>{term_alt})",
+        re.IGNORECASE | re.DOTALL,
+    )
+    iteracion_re = re.compile(
+        rf"la iteración de la\s+(?P<s>{term_alt})\s+describe: cada ciclo produce un\s+(?P<o>{term_alt})",
+        re.IGNORECASE | re.DOTALL,
+    )
+    relative_re = re.compile(
+        rf"la existencia de un\s+(?P<o>{term_alt})\s+que la\s+(?P<s>{term_alt})\s+"
+        rf"(?:(?!\.).){{1,180}}?\.",
+        re.IGNORECASE | re.DOTALL,
+    )
+    determined_re = re.compile(
+        rf"(?P<s>{term_alt})(?:(?![.;]).){{0,100}}?(?:ha\s+determinado|determinó|determinado)"
+        rf"(?:(?![.;]).){{0,100}}?(?P<o>{term_alt})\s+como propia",
+        re.IGNORECASE | re.DOTALL,
+    )
+
+    non_glossary_units = [unit for unit in pilot_units if unit["archivo"] != glosario_rel]
+    for unit in non_glossary_units:
+        if unit.get("tipo_estructural") == "encabezado":
+            continue
+        text = unit["texto_literal"]
+        candidates: list[Candidate] = []
+
+        def add_match(match: re.Match[str], priority: int, *, reverse: bool = False, expand_left: bool = True) -> None:
+            s_group = match.group("s")
+            o_group = match.group("o")
+            subject = concept_from_surface(s_group)
+            target = concept_from_surface(o_group)
+            if subject is None or target is None or subject["id"] == target["id"]:
+                return
+            if reverse:
+                subject, target = target, subject
+            start, end = match.span()
+            if expand_left:
+                start = expand_left_determiner(text, start)
+            end = expand_terminal_period(text, end)
+            candidates.append(Candidate(subject["id"], target["id"], start, end, priority))
+
+        for match in determined_re.finditer(text):
+            add_match(match, 100)
+        for match in relative_re.finditer(text):
+            add_match(match, 95)
+        for match in iteracion_re.finditer(text):
+            add_match(match, 90, expand_left=False)
+        for match in como_re.finditer(text):
+            add_match(match, 85)
+        for match in es_de_re.finditer(text):
+            add_match(match, 80)
+        for match in direct_re.finditer(text):
+            add_match(match, 70)
+
+        # Para una misma pareja y evidencia solapada conserva el patrón más
+        # específico/largo; evita duplicar una relación por reglas anidadas.
+        candidates.sort(key=lambda c: (-c.priority, c.start, -(c.end - c.start), c.subject_id, c.target_id))
+        selected: list[Candidate] = []
+        for candidate in candidates:
+            overlaps = any(
+                prior.subject_id == candidate.subject_id
+                and prior.target_id == candidate.target_id
+                and not (candidate.end <= prior.start or candidate.start >= prior.end)
+                for prior in selected
+            )
+            if not overlaps:
+                selected.append(candidate)
+
+        for candidate in sorted(selected, key=lambda c: (c.start, c.end, c.subject_id, c.target_id)):
+            literal = text[candidate.start:candidate.end]
+            start_line, end_line = line_range(unit, text, candidate.start, candidate.end)
+            emit(
+                concept_by_id[candidate.subject_id],
+                concept_by_id[candidate.target_id],
+                literal,
+                unit["archivo"],
+                start_line,
+                end_line,
+            )
 
     relations.sort(
         key=lambda row: (
+            row["localizacion"]["ruta"],
             row["localizacion"]["linea_inicio"],
+            row["localizacion"]["linea_fin"],
             row["sujeto_ref"],
             row["objeto_ref"],
+            row["id"],
         )
     )
     dump_jsonl(SALIDA, relations)
@@ -190,8 +380,8 @@ def main() -> int:
     )
     dump_jsonl(COBERTURA, [coverage])
     print(
-        f"Fase 4E: {len(relations)} relaciones explícitas con referentes conceptuales exactos; "
-        f"{len(pilot_units)} unidades procesadas; sin transitividad ni resolución aproximada."
+        f"Fase 4E v{MOTOR_VERSION}: {len(relations)} relaciones explícitas con referentes exactos; "
+        f"{len(pilot_units)} unidades procesadas; sin transitividad, abreviaturas ni fusión léxica."
     )
     return 0
 
