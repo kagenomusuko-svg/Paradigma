@@ -23,7 +23,7 @@ ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_FUENTES = ROOT / "analista/generado/fuentes.jsonl"
 DEFAULT_UNIDADES = ROOT / "analista/generado/unidades.jsonl"
 DEFAULT_OBRAS_ROOT = ROOT / "analista/generado/obras"
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 
 
 def load_jsonl(path: Path) -> list[dict]:
@@ -99,13 +99,13 @@ def run_afirmaciones(obra_id: str, unidades: Path, out: Path) -> None:
 
 
 def run_formulas(obra_id: str, unidades: Path, out: Path) -> None:
-    m = load_module("fase10_formulas", ROOT / "analista/motores/formulas.py")
-    m.PILOTO_ID = obra_id
-    m.UNIDADES = unidades
-    m.SALIDA = out / "formulas-candidatas.jsonl"
-    m.COBERTURA = out / "cobertura-formulas.jsonl"
-    if m.main() != 0:
-        raise SystemExit("Falló formulas")
+    m = load_module("fase10_formulas_v120", ROOT / "analista/motores/formulas_obra_fase10.py")
+    m.run(
+        obra_id=obra_id,
+        unidades=unidades,
+        salida=out / "formulas-candidatas.jsonl",
+        cobertura=out / "cobertura-formulas.jsonl",
+    )
 
 
 def run_relaciones(obra_id: str, fuente: Path, unidades: Path, out: Path) -> None:
