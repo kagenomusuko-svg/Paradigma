@@ -33,7 +33,7 @@ EXPECTED_COUNTS = {
     "apariciones-conceptuales.jsonl": 2575,
     "conceptos.jsonl": 21,
     "definiciones.jsonl": 60,
-    "afirmaciones-candidatas.jsonl": 73,
+    "afirmaciones-candidatas.jsonl": 333,
     "formulas-candidatas.jsonl": 21,
     "relaciones-explicitas.jsonl": 83,
     "distinciones.jsonl": 26,
@@ -113,7 +113,7 @@ def main() -> int:
             assert changed == {"estado_auditoria"}, (filename, before["id"], changed)
             assert before["estado_verificacion"] == after["estado_verificacion"] == "verificado"
             assert after["estado_auditoria"] == "auditado"
-    assert total == TOTAL_ESPERADO == 4372
+    assert total == TOTAL_ESPERADO == 4632
 
     run(INPUT, OUTPUT, 0)
     for filename, content in snapshot.items():
@@ -174,7 +174,7 @@ def main() -> int:
 
     run(INPUT, OUTPUT, 0)
     print(
-        "OK Fase 7A: 4372 registros auditados; 0 rechazados; salida reproducible; "
+        "OK Fase 7A: 4632 registros auditados; 0 rechazados; salida reproducible; "
         "solo cambia estado_auditoria; evidencia pendiente, referencias rotas, fuerza "
         "incoherente, IDs duplicados y contexto de fórmula inválido son rechazados."
     )
