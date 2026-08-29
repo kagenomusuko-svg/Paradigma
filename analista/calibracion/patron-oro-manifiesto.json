@@ -1,10 +1,25 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "obra_id": "AA-SP-V1",
   "archivos": [
     "patron-oro.jsonl",
     "patron-oro-formulas.jsonl",
     "patron-oro-formulas-general.jsonl",
-    "patron-oro-relaciones-general.jsonl"
+    "patron-oro-relaciones-general.jsonl",
+    "patron-oro-relaciones-desafio-v2.jsonl"
+  ],
+  "reemplazos": [
+    {
+      "archivo_origen": "patron-oro.jsonl",
+      "archivo_sustituto": "patron-oro-relaciones-desafio-v2.jsonl",
+      "motor": "relaciones_explicitas",
+      "unidad_id": "UT-BEF6D53FB3C7"
+    },
+    {
+      "archivo_origen": "patron-oro.jsonl",
+      "archivo_sustituto": "patron-oro-relaciones-desafio-v2.jsonl",
+      "motor": "relaciones_explicitas",
+      "unidad_id": "UT-F7401C2B6AA0"
+    }
   ]
 }
