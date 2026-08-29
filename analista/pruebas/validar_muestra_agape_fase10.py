@@ -3,29 +3,26 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 OBRA = "FUE-2C28F35DD6CF"
 OUT = ROOT / "analista/generado/obras" / OBRA
-LOCK = ROOT / "analista/calibracion/fase10" / OBRA / "muestra.lock.json"
-
-FILES_BY_MOTOR = {
-    "conceptos_apariciones": ["apariciones-conceptuales.jsonl"],
-    "definiciones": ["definiciones.jsonl"],
-    "afirmaciones": ["afirmaciones-candidatas.jsonl"],
-    "formulas": ["formulas-candidatas.jsonl"],
-    "relaciones_explicitas": ["relaciones-explicitas.jsonl"],
-    "limitadores": ["distinciones.jsonl", "negaciones.jsonl", "excepciones.jsonl", "restricciones-alcance.jsonl"],
+LOCK = ROOT / "analista/calibracion/fase10" / OBRA / "muestra-v1.1.0.lock.json"
+MOTORS = {
+    "conceptos_apariciones",
+    "definiciones",
+    "afirmaciones",
+    "formulas",
+    "relaciones_explicitas",
+    "limitadores",
 }
+HEX64 = re.compile(r"^[0-9a-f]{64}$")
 
 
 def load_jsonl(path: Path) -> list[dict]:
     return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line]
-
-
-def sha(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
 def key(*parts: str) -> str:
@@ -43,11 +40,23 @@ def no_auto_gold(value) -> None:
             no_auto_gold(child)
 
 
+def formal_signal(unit: dict) -> bool:
+    for line in unit["texto_literal"].splitlines():
+        literal = line.strip()
+        if not literal or literal.startswith("→") or "http" in literal or len(literal) > 320:
+            continue
+        if "=" in literal or "→" in literal:
+            return True
+    return False
+
+
 def main() -> int:
     lock = json.loads(LOCK.read_text(encoding="utf-8"))
-    assert lock["version"] == "1.0.0"
+    assert lock["version"] == "1.1.0"
+    assert lock["antecesor"] == "muestra.lock.json@1.0.0"
     assert lock["obra_id"] == OBRA
-    assert lock["selector"] == "sha256-stratified-fase10-v1"
+    assert lock["selector"] == "sha256-stratified-fase10-v1.1"
+    assert set(lock["desafios"]) == MOTORS
     no_auto_gold(lock)
 
     units = load_jsonl(OUT / "unidades.jsonl")
@@ -68,33 +77,48 @@ def main() -> int:
     assert lock["general"] == expected_general
     assert len(lock["general"]) == 20
 
-    # Los desafíos pueden estratificarse con las salidas, como en Fase 8, pero
-    # el lock no contiene anotación de oro. La selección queda congelada aquí.
-    for motor, filenames in FILES_BY_MOTOR.items():
-        predicted_units: set[str] = set()
-        for filename in filenames:
-            for row in load_jsonl(OUT / filename):
-                if row.get("unidad_id"):
-                    predicted_units.add(row["unidad_id"])
-        locked = lock["desafios"][motor]
-        expected = sorted(predicted_units, key=lambda uid: key(OBRA, motor, uid))[: len(locked)]
-        assert locked == expected, motor
-        assert len(set(locked)) == len(locked)
-        assert set(locked) <= set(by_id)
+    # Una vez congelados, los desafíos NO se vuelven a seleccionar desde las
+    # predicciones actuales: eso permitiría que un cambio del extractor moviera
+    # la prueba. Solo se comprueba pertenencia al corpus y unicidad.
+    for motor, locked in lock["desafios"].items():
+        assert len(set(locked)) == len(locked), motor
+        assert set(locked) <= set(by_id), motor
 
-    # Congela exactamente los productos que se usaron solo para estratificar.
-    for filename, expected_hash in lock["productos_estratificacion_sha256"].items():
-        assert sha(OUT / filename) == expected_hash, filename
+    # Para 4D, v1.1 congeló antes de la corrección todas las unidades con señal
+    # formal observable, independiente de que el extractor antiguo las emitiera.
+    expected_formula_signal = sorted(
+        (u["id"] for u in units if formal_signal(u)),
+        key=lambda uid: key(OBRA, "formulas-senal-formal", uid),
+    )
+    assert lock["desafios"]["formulas"] == expected_formula_signal
+    assert len(expected_formula_signal) == 17
+
+    # Los hashes son procedencia histórica de los productos usados para la
+    # estratificación original. No se comparan con salidas recalibradas actuales.
+    expected_product_names = {
+        "apariciones-conceptuales.jsonl",
+        "conceptos.jsonl",
+        "definiciones.jsonl",
+        "afirmaciones-candidatas.jsonl",
+        "formulas-candidatas.jsonl",
+        "relaciones-explicitas.jsonl",
+        "distinciones.jsonl",
+        "negaciones.jsonl",
+        "excepciones.jsonl",
+        "restricciones-alcance.jsonl",
+    }
+    assert set(lock["productos_estratificacion_sha256"]) == expected_product_names
+    assert all(HEX64.fullmatch(value) for value in lock["productos_estratificacion_sha256"].values())
 
     union = set(lock["general"])
     for ids in lock["desafios"].values():
         union.update(ids)
-    assert len(union) == 88
+    assert len(union) == 96
     assert union <= set(by_id)
 
     print(
-        "OK Fase 10 muestra Ágape: 20 unidades generales + desafíos congelados, "
-        "88 unidades únicas; hashes de estratificación exactos; sin items_esperados autogenerados."
+        "OK Fase 10 muestra Ágape v1.1: 20 unidades generales, 17 señales formales y desafíos congelados; "
+        "96 unidades únicas; la recalibración no puede reseleccionar la muestra ni autogenerar oro."
     )
     return 0
 
