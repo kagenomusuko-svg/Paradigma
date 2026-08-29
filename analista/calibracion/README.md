@@ -27,6 +27,14 @@ La unión contiene 96 unidades únicas. Cambiar un extractor no cambia esta mues
 
 Un patrón de oro registra lo que la revisión textual considera recuperable bajo el contrato de cada motor. No resuelve ambigüedades doctrinales. Cuando la identidad conceptual, el estatus enunciativo o el alcance no son inequívocos, la anotación debe conservar `null`, `no_determinado` o una clasificación candidata según corresponda.
 
+## Reglas manuales de anotación
+
+- **Definiciones:** una definición explícita conserva el bloque literal efectivamente dedicado a definir el lema. Un marcador de página interpuesto se conserva si cae dentro del bloque canónico. Una abreviatura o remisión no autoriza expandir la identidad conceptual por similitud.
+- **Relaciones explícitas:** sujeto y objeto se registran solo cuando la relación entre ambos está textual y suficientemente establecida. No se aplica transitividad ni expansión automática de abreviaturas.
+- **Fórmulas:** `texto_literal` contiene la expresión formal mínima completa que aparece en la fuente, preservando sus saltos de línea internos. Se excluye el prosema introductorio y la puntuación terminal que no forme parte de la expresión. El rango de líneas cubre exactamente las líneas tocadas por la expresión. Una expresión escrita de forma inequívoca puede anotarse como `formula_explicita`; no se normalizan ni fusionan expresiones matemáticamente parecidas.
+
+Estas reglas se fijan antes de usar las métricas para ajustar extractores. Un cambio posterior exige versionar el criterio y no puede reetiquetar silenciosamente el patrón existente.
+
 ## Cierre
 
 Fase 8 solo puede cerrarse cuando cada motor tenga anotación manual suficiente en los estratos aplicables, métricas de `precision`, `cobertura`, `falsos_positivos`, `falsos_negativos` y `unidades_procesadas`, y alcance el umbral de producción que se documente antes del cierre.
