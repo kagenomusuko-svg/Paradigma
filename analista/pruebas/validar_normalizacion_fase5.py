@@ -20,10 +20,10 @@ MOTOR = ROOT / "analista/motores/normalizacion.py"
 ARCHIVOS = {
     "apariciones-conceptuales.jsonl": ("aparicion_conceptual", 2575),
     "conceptos.jsonl": ("concepto", 21),
-    "definiciones.jsonl": ("definicion", 21),
+    "definiciones.jsonl": ("definicion", 60),
     "afirmaciones-candidatas.jsonl": ("afirmacion", 73),
     "formulas-candidatas.jsonl": ("formula", 21),
-    "relaciones-explicitas.jsonl": ("relacion_explicita", 4),
+    "relaciones-explicitas.jsonl": ("relacion_explicita", 83),
     "distinciones.jsonl": ("distincion", 26),
     "negaciones.jsonl": ("negacion", 1509),
     "excepciones.jsonl": ("excepcion", 1),
@@ -126,9 +126,8 @@ def main() -> int:
             assert normalizado["normalizacion_lexica"], normalizado["id"]
         total += cantidad
 
-    assert total == TOTAL_ESPERADO == 4254
+    assert total == TOTAL_ESPERADO == 4372
 
-    # Invariantes conceptuales: Fase 5 recupera, pero no decide identidad.
     c0 = {r["id"]: r for r in entradas["conceptos.jsonl"]}
     c1 = {r["id"]: r for r in salidas["conceptos.jsonl"]}
     assert set(c0) == set(c1) and len(c0) == 21
@@ -141,25 +140,22 @@ def main() -> int:
     a1 = salidas["apariciones-conceptuales.jsonl"]
     assert [r["concepto_id"] for r in a0] == [r["concepto_id"] for r in a1]
 
-    # Pruebas reales de variantes permitidas.
     por_nombre = {r["designacion_operativa"]: r for r in salidas["conceptos.jsonl"]}
     assert "pasion" in por_nombre["Pasión"]["normalizacion_lexica"]
     assert por_nombre["φ₁ — Primera mediación"]["normalizacion_formal"].startswith("φ1")
     assert "φ1-primera mediacion" in por_nombre["φ₁ — Primera mediación"]["normalizacion_lexica"]
 
-    # Clausura: no se generan equivalencias, abreviaciones semánticas ni sinónimos.
     assert "aego" not in por_nombre["Afasia volitiva"]["normalizacion_lexica"]
     assert "integral" not in por_nombre["Integral del ego — I(t)"]["normalizacion_lexica"]
     assert all("amor" not in v and "eros" not in v for v in por_nombre["Pasión"]["normalizacion_lexica"])
 
-    # Reproducibilidad byte a byte.
     antes_bytes = {name: (OUTPUT / name).read_bytes() for name in ARCHIVOS}
     subprocess.run([sys.executable, str(MOTOR)], cwd=ROOT, check=True)
     for name, content in antes_bytes.items():
         assert (OUTPUT / name).read_bytes() == content, f"Salida no reproducible: {name}"
 
     print(
-        "OK Fase 5: 4254 registros reales normalizados; 21 IDs conceptuales y todas las "
+        "OK Fase 5: 4372 registros reales normalizados; 21 IDs conceptuales y todas las "
         "referencias preservados; variantes Unicode/casefold/diacríticas/tipográficas recuperadas; "
         "0 sinónimos, 0 fusiones conceptuales."
     )
