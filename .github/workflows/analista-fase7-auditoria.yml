@@ -5,6 +5,12 @@ on:
     branches: [analisis-textual-v0.1]
     paths:
       - 'analista/esquema/**'
+      - 'analista/motores/definiciones.py'
+      - 'analista/motores/formulas.py'
+      - 'analista/motores/relaciones_explicitas.py'
+      - 'analista/motores/limitadores.py'
+      - 'analista/motores/normalizacion.py'
+      - 'analista/motores/verificador_evidencia.py'
       - 'analista/motores/auditor_estructural.py'
       - 'analista/motores/auditor_descriptivo.py'
       - 'analista/pruebas/validar_auditor_estructural_fase7a.py'
@@ -20,6 +26,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
 
       - uses: actions/setup-python@v5
         with:
@@ -28,9 +36,11 @@ jobs:
       - name: Instalar dependencias
         run: python -m pip install --disable-pip-version-check jsonschema
 
-      - name: Regenerar productos previos no persistidos
+      - name: Regenerar cadena previa con productos calibrados
         run: |
+          python analista/motores/definiciones.py
           python analista/motores/formulas.py
+          python analista/motores/relaciones_explicitas.py
           python analista/motores/limitadores.py
           python analista/motores/normalizacion.py
           python analista/motores/verificador_evidencia.py
