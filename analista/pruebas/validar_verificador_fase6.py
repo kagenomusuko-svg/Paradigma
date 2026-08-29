@@ -36,7 +36,7 @@ EXPECTED_COUNTS = {
     "conceptos.jsonl": 21,
     "definiciones.jsonl": 21,
     "afirmaciones-candidatas.jsonl": 73,
-    "formulas-candidatas.jsonl": 20,
+    "formulas-candidatas.jsonl": 21,
     "relaciones-explicitas.jsonl": 4,
     "distinciones.jsonl": 26,
     "negaciones.jsonl": 1509,
@@ -114,7 +114,7 @@ def main() -> int:
 
     completed = run_verifier()
     assert '"fallidos": 0' in completed.stdout
-    assert '"verificados": 4253' in completed.stdout
+    assert '"verificados": 4254' in completed.stdout
 
     total = 0
     snapshot: dict[str, bytes] = {}
@@ -141,7 +141,7 @@ def main() -> int:
             assert source["estado_verificacion"] == "pendiente"
             assert verified["estado_verificacion"] == "verificado"
 
-    assert total == 4253
+    assert total == 4254
 
     run_verifier()
     for filename, content in snapshot.items():
@@ -219,7 +219,7 @@ def main() -> int:
 
     run_verifier()
     print(
-        "OK Fase 6: 4253 registros verificados mecánicamente; 0 fallidos; "
+        "OK Fase 6: 4254 registros verificados mecánicamente; 0 fallidos; "
         "salida reproducible; solo cambia estado_verificacion; hash, unidad, literal, "
         "rango, referencias y versiones incorrectas producen fallo expreso."
     )
