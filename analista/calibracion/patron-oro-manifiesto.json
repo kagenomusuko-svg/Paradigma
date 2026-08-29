@@ -4,6 +4,7 @@
   "archivos": [
     "patron-oro.jsonl",
     "patron-oro-formulas.jsonl",
-    "patron-oro-formulas-general.jsonl"
+    "patron-oro-formulas-general.jsonl",
+    "patron-oro-relaciones-general.jsonl"
   ]
 }
