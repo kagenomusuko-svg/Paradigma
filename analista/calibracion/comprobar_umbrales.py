@@ -18,7 +18,7 @@ DEFAULT_THRESHOLDS = ROOT / "analista/calibracion/umbrales-v1.1.0.json"
 DEFAULT_REPORT = ROOT / "analista/generado/reporte-calibracion.json"
 PILOTO_ID = "AA-SP-V1"
 THRESHOLD_VERSION = "1.1.0"
-REPORT_VERSION = "1.0.0"
+REPORT_VERSION = "1.1.0"
 REQUIRED_STRATA = ("general", "desafio")
 THRESHOLD_TO_METRIC = {
     "precision_minima": "precision",
@@ -27,7 +27,13 @@ THRESHOLD_TO_METRIC = {
     "exactitud_estatus_minima": "exactitud_estatus",
     "exactitud_identidad_minima": "exactitud_identidad",
 }
-COUNT_FIELDS = ("verdaderos_positivos", "falsos_positivos", "falsos_negativos")
+COUNT_FIELDS = (
+    "positivos_esperados",
+    "predicciones_emitidas",
+    "verdaderos_positivos",
+    "falsos_positivos",
+    "falsos_negativos",
+)
 
 
 def load_json(path: Path) -> dict:
@@ -43,11 +49,8 @@ def nonnegative_int(value: object) -> bool:
 def gold_positives(row: dict | None) -> int | None:
     if row is None:
         return None
-    tp = row.get("verdaderos_positivos")
-    fn = row.get("falsos_negativos")
-    if not nonnegative_int(tp) or not nonnegative_int(fn):
-        return None
-    return tp + fn
+    value = row.get("positivos_esperados")
+    return value if nonnegative_int(value) else None
 
 
 def common_metric_checks(row: dict) -> tuple[list[dict], bool]:
@@ -66,6 +69,7 @@ def common_metric_checks(row: dict) -> tuple[list[dict], bool]:
     )
     passed = passed and units_ok
 
+    counts: dict[str, int] = {}
     for field in COUNT_FIELDS:
         value = row.get(field)
         ok = nonnegative_int(value)
@@ -78,7 +82,27 @@ def common_metric_checks(row: dict) -> tuple[list[dict], bool]:
                 "razon": None if ok else "conteo_invalido_o_faltante",
             }
         )
+        if ok:
+            counts[field] = value
         passed = passed and ok
+
+    consistency_ok = False
+    if len(counts) == len(COUNT_FIELDS):
+        consistency_ok = (
+            counts["positivos_esperados"]
+            == counts["verdaderos_positivos"] + counts["falsos_negativos"]
+            and counts["predicciones_emitidas"]
+            == counts["verdaderos_positivos"] + counts["falsos_positivos"]
+        )
+    metrics.append(
+        {
+            "metrica": "consistencia_conteos",
+            "valor": consistency_ok,
+            "cumple": consistency_ok,
+            "razon": None if consistency_ok else "denominadores_inconsistentes",
+        }
+    )
+    passed = passed and consistency_ok
     return metrics, passed
 
 
