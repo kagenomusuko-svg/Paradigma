@@ -43,6 +43,13 @@ jobs:
       - name: Auditar invariantes
         run: python scripts/auditar_analisis.py --dir analisis/generado/sobre-la-pasion
 
+      - name: Publicar salida para revisión
+        uses: actions/upload-artifact@v4
+        with:
+          name: analisis-sobre-la-pasion
+          path: analisis/generado/sobre-la-pasion
+          if-no-files-found: error
+
       - name: Persistir salida determinista
         if: github.event_name == 'push' && github.actor != 'github-actions[bot]'
         run: |
