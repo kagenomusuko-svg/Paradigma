@@ -8,7 +8,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
-from collections import Counter, defaultdict
+from collections import Counter
 from pathlib import Path
 
 from jsonschema import Draft202012Validator
@@ -31,10 +31,16 @@ FILES = (
     "restricciones-alcance.jsonl",
 )
 EXPECTED_CATEGORIES = {
-    "uso_singular": 21,
+    "uso_singular": 13,
     "definiciones_multiples": 13,
     "variacion_de_objeto": 11,
     "relacion_repetida": 1,
+}
+SINGULAR_NAMES = {
+    "Aego", "Caos", "Colapso", "Determinación", "Ego", "Identidad",
+    "Integral del ego — I(t)", "Pasión", "Pasión — dimensión afrodítica",
+    "Pasión — dimensión arética", "Responsabilidad", "φ₁ — Primera mediación",
+    "φ₂ — Segunda mediación",
 }
 
 
@@ -68,9 +74,9 @@ def main() -> int:
     )
 
     first = run(INPUT, OUTPUT)
-    assert '"hallazgos": 46' in first.stdout
+    assert '"hallazgos": 38' in first.stdout
     findings = load_jsonl(OUTPUT)
-    assert len(findings) == 46
+    assert len(findings) == 38
     assert Counter(row["categoria"] for row in findings) == EXPECTED_CATEGORIES
 
     by_file = {filename: load_jsonl(INPUT / filename) for filename in FILES}
@@ -89,16 +95,28 @@ def main() -> int:
     assert not any(
         row["categoria"] in {"negacion_explicita", "excepcion_explicita", "restriccion_de_alcance"}
         for row in findings
-    ), "Candidatos de 4F no pueden ascender a hallazgos explícitos."
+    )
 
-    # Cada hallazgo de definiciones múltiples debe referir definiciones del mismo concepto.
+    # El hallazgo uso_singular debe reflejar las vinculaciones 4A v1.1, no la vieja desconexión conservadora.
+    appearances = by_file["apariciones-conceptuales.jsonl"]
+    singular_findings = [row for row in findings if row["categoria"] == "uso_singular"]
+    singular_names = set()
+    for finding in singular_findings:
+        assert len(finding["registro_ids"]) == 1
+        appearance = all_audited[finding["registro_ids"][0]]
+        assert appearance["tipo_registro"] == "aparicion_conceptual"
+        cid = appearance["concepto_id"]
+        assert cid in concepts
+        assert sum(1 for row in appearances if row.get("concepto_id") == cid) == 1
+        singular_names.add(concepts[cid]["designacion_operativa"])
+    assert singular_names == SINGULAR_NAMES
+
     definitions_by_id = {row["id"]: row for row in by_file["definiciones.jsonl"]}
     for finding in (row for row in findings if row["categoria"] == "definiciones_multiples"):
         rows = [definitions_by_id[record_id] for record_id in finding["registro_ids"]]
         assert len(rows) > 1
         assert len({row["concepto_id"] for row in rows}) == 1
 
-    # Cada variación de objeto conserva un único sujeto y al menos dos objetos, sin relacionarlos entre sí.
     relations_by_id = {row["id"]: row for row in by_file["relaciones-explicitas.jsonl"]}
     variations = [row for row in findings if row["categoria"] == "variacion_de_objeto"]
     assert len(variations) == 11
@@ -123,8 +141,9 @@ def main() -> int:
     repeated = next(row for row in findings if row["categoria"] == "relacion_repetida")
     repeated_rows = [relations_by_id[record_id] for record_id in repeated["registro_ids"]]
     assert len(repeated_rows) == 2
-    assert len({(r["sujeto_ref"], r["objeto_ref"], r["relacion_literal"]) for r in repeated_rows}) == 1
-    subject, obj, literal = next(iter({(r["sujeto_ref"], r["objeto_ref"], r["relacion_literal"]) for r in repeated_rows}))
+    repeated_key = {(r["sujeto_ref"], r["objeto_ref"], r["relacion_literal"]) for r in repeated_rows}
+    assert len(repeated_key) == 1
+    subject, obj, literal = next(iter(repeated_key))
     assert concepts[subject]["designacion_operativa"] == "Pasión"
     assert concepts[obj]["designacion_operativa"] == "Determinación"
     assert literal == "la pasión como tendencia de determinación"
@@ -133,7 +152,7 @@ def main() -> int:
     for concept_id in concepts:
         dossier = module.records_for_concept(concept_id, by_file)
         expected = []
-        expected.extend(row for row in by_file["apariciones-conceptuales.jsonl"] if row.get("concepto_id") == concept_id)
+        expected.extend(row for row in appearances if row.get("concepto_id") == concept_id)
         expected.extend(row for row in by_file["definiciones.jsonl"] if row.get("concepto_id") == concept_id)
         expected.extend(row for row in by_file["afirmaciones-candidatas.jsonl"] if concept_id in row.get("concepto_ids", []))
         expected.extend(
@@ -142,15 +161,15 @@ def main() -> int:
         )
         assert {row["id"] for row in dossier} == {row["id"] for row in expected}
 
-    # Aego ahora reúne más evidencia explícita, pero los tipos siguen siendo solo referencias existentes.
     aego_dossier = module.records_for_concept(aego_id, by_file)
     assert {row["tipo_registro"] for row in aego_dossier} == {"aparicion_conceptual", "definicion", "relacion_explicita"}
+    assert len([row for row in aego_dossier if row["tipo_registro"] == "aparicion_conceptual"]) == 1
     assert len([row for row in aego_dossier if row["tipo_registro"] == "definicion"]) == 3
     assert len([row for row in aego_dossier if row["tipo_registro"] == "relacion_explicita"]) == 6
 
     snapshot = OUTPUT.read_bytes()
     run(INPUT, OUTPUT)
-    assert OUTPUT.read_bytes() == snapshot, "Hallazgos no reproducibles."
+    assert OUTPUT.read_bytes() == snapshot
 
     with tempfile.TemporaryDirectory() as temporary:
         temporary = Path(temporary)
@@ -166,11 +185,11 @@ def main() -> int:
         )
         rejected = temporary / "hallazgos.jsonl"
         run(mutated, rejected, expected_code=1)
-        assert not rejected.exists(), "7B no debe producir hallazgos desde entradas no auditadas."
+        assert not rejected.exists()
 
     run(INPUT, OUTPUT)
     print(
-        "OK Fase 7B: 46 hallazgos descriptivos reproducibles; 21 usos singulares, "
+        "OK Fase 7B: 38 hallazgos descriptivos reproducibles; 13 usos singulares según 4A v1.1, "
         "13 multiplicidades definicionales, 11 variaciones de objeto y 1 relación repetida; "
         "candidatos de 4F no fueron promovidos y no se realizó resolución doctrinal."
     )
