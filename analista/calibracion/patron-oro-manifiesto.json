@@ -11,26 +11,12 @@
     "patron-oro-definiciones-general.jsonl",
     "patron-oro-conceptos-desafio.jsonl",
     "patron-oro-conceptos-general.jsonl",
-    "patron-oro-afirmaciones.jsonl"
+    "patron-oro-afirmaciones.jsonl",
+    "patron-oro-limitadores.jsonl"
   ],
   "reemplazos": [
-    {
-      "archivo_origen": "patron-oro.jsonl",
-      "archivo_sustituto": "patron-oro-relaciones-desafio-v2.jsonl",
-      "motor": "relaciones_explicitas",
-      "unidad_id": "UT-BEF6D53FB3C7"
-    },
-    {
-      "archivo_origen": "patron-oro.jsonl",
-      "archivo_sustituto": "patron-oro-relaciones-desafio-v2.jsonl",
-      "motor": "relaciones_explicitas",
-      "unidad_id": "UT-F7401C2B6AA0"
-    },
-    {
-      "archivo_origen": "patron-oro-relaciones-general.jsonl",
-      "archivo_sustituto": "patron-oro-relaciones-general-correccion-v2.jsonl",
-      "motor": "relaciones_explicitas",
-      "unidad_id": "UT-4EC2EC8C08A8"
-    }
+    {"archivo_origen":"patron-oro.jsonl","archivo_sustituto":"patron-oro-relaciones-desafio-v2.jsonl","motor":"relaciones_explicitas","unidad_id":"UT-BEF6D53FB3C7"},
+    {"archivo_origen":"patron-oro.jsonl","archivo_sustituto":"patron-oro-relaciones-desafio-v2.jsonl","motor":"relaciones_explicitas","unidad_id":"UT-F7401C2B6AA0"},
+    {"archivo_origen":"patron-oro-relaciones-general.jsonl","archivo_sustituto":"patron-oro-relaciones-general-correccion-v2.jsonl","motor":"relaciones_explicitas","unidad_id":"UT-4EC2EC8C08A8"}
   ]
 }
