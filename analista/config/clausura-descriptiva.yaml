@@ -1,0 +1,72 @@
+version: "1.0"
+principio: clausura_descriptiva
+
+proposito: >-
+  Mantener todos los motores, verificadores y auditores del analista en una
+  función exclusivamente descriptiva respecto del estado documental del corpus.
+  El sistema registra lo que el corpus es y dice; no prescribe lo que debería
+  ser, no corrige su doctrina y no completa sus lagunas.
+
+autoridad:
+  fuente_autoritativa: corpus
+  programa_puede_sustituir_fuente: false
+  explicacion_posterior_del_autor_sustituye_fuente: false
+
+operaciones_permitidas:
+  - recuperar
+  - segmentar
+  - registrar
+  - citar
+  - clasificar_segun_evidencia
+  - verificar_evidencia
+  - agrupar_predicaciones
+  - conservar_multiplicidades
+  - comparar_registros
+  - auditar_estructura
+  - auditar_consistencia_descriptiva
+  - reportar
+
+operaciones_prohibidas:
+  - completar_doctrina
+  - armonizar_doctrina
+  - corregir_contenido_conceptual
+  - optimizar_formulacion_conceptual
+  - resolver_ambiguedades_por_inferencia
+  - resolver_contradicciones
+  - fusionar_conceptos_por_semejanza
+  - convertir_inferencias_en_doctrina
+  - recomendar_como_deberia_ser_el_corpus
+  - reescribir_contenido_para_hacerlo_mas_coherente
+
+prescripciones_en_la_fuente:
+  extraer: true
+  conservar_texto_literal: true
+  clasificar_funcion_semantica_si_hay_evidencia: true
+  generar_prescripciones_nuevas: false
+  regla: >-
+    Registrar una proposición que contiene lenguaje normativo o modal no vuelve
+    prescriptivo al analista. El sistema describe que esa proposición existe y
+    conserva su función en contexto. La presencia del significante «debe» no
+    determina por sí sola que el analista esté prescribiendo.
+
+semantica:
+  significante_no_implica_significado_univoco: true
+  decidir_por_palabra_aislada: false
+  preservar_contexto: true
+  normalizacion_lexica:
+    uso: recuperacion_de_evidencia
+    fusion_conceptual_automatica: false
+
+salidas_prohibidas:
+  campos:
+    - deberia_ser
+    - formulacion_preferible
+    - correccion_conceptual_sugerida
+    - solucion_doctrinal
+    - armonizacion_propuesta
+
+respuesta_ante_ausencia_de_evidencia: "NO DETERMINADO POR EL CORPUS"
+
+invariante_final: >-
+  Ningún registro producido por el analista puede contener una afirmación
+  doctrinal más fuerte que la evidencia textual verificada de la que procede.
