@@ -10,7 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 VALIDADOR = ROOT / "analista/calibracion/validar_patron_oro.py"
-GOLD = ROOT / "analista/calibracion/patron-oro.jsonl"
+MANIFEST = ROOT / "analista/calibracion/patron-oro-manifiesto.json"
 SCHEMA = ROOT / "analista/calibracion/patron-oro-v1.0.0.schema.json"
 LOCK = ROOT / "analista/calibracion/muestra-fase8.lock.json"
 UNIDADES = ROOT / "analista/generado/unidades.jsonl"
@@ -23,7 +23,10 @@ spec.loader.exec_module(mod)
 
 
 def load_gold() -> list[dict]:
-    return [json.loads(line) for line in GOLD.read_text(encoding="utf-8").splitlines() if line]
+    rows: list[dict] = []
+    for path in mod.manifest_files(MANIFEST):
+        rows.extend(mod.load_jsonl(path))
+    return rows
 
 
 def validate(path: Path) -> dict:
@@ -54,11 +57,18 @@ def expect_failure(rows: list[dict], expected: str) -> None:
 
 def main() -> int:
     rows = load_gold()
-    result = validate(GOLD)
+    result = mod.validate_manifest(
+        manifest=MANIFEST,
+        schema=SCHEMA,
+        lock=LOCK,
+        units=UNIDADES,
+        corpus_root=ROOT,
+    )
     if result != {
-        "revisiones": 9,
-        "items": 25,
-        "motores": ["definiciones", "relaciones_explicitas"],
+        "revisiones": 27,
+        "items": 46,
+        "motores": ["definiciones", "formulas", "relaciones_explicitas"],
+        "archivos_gold": ["patron-oro.jsonl", "patron-oro-formulas.jsonl"],
     }:
         raise AssertionError(f"Producto real inesperado: {result}")
 
@@ -83,7 +93,7 @@ def main() -> int:
     expect_failure(mutated, "no pertenece al motor")
 
     print(
-        "OK Fase 8 infraestructura: patrón real 9 revisiones/25 ítems; "
+        "OK Fase 8 infraestructura: patrón manifestado real 27 revisiones/46 ítems; "
         "5 corrupciones manuales rechazadas."
     )
     return 0
