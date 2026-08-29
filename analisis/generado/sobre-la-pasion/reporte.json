@@ -1,0 +1,20 @@
+{
+  "afirmaciones_candidatas": 73,
+  "archivos_markdown": 23,
+  "conceptos_glosario": 21,
+  "definiciones_explicitas_glosario": 21,
+  "directorio_analizado": "corpus/libros/afrodita-areia/01-sobre-la-pasion",
+  "extractor_version": "0.1.0",
+  "formulas_candidatas": 18,
+  "fuente_canonica": "corpus/fuentes/Afrodita_Areia_Sobre_la_Pasion.md",
+  "fuente_id": "AA-SP-V1",
+  "postproceso": "0.1.0",
+  "reglas": {
+    "crea_contradicciones": false,
+    "crea_equivalencias": false,
+    "crea_inferencias": false,
+    "modifica_fuentes": false
+  },
+  "titulo": "Afrodita Areia: Sobre la pasión - Volumen I",
+  "unidades": 836
+}
