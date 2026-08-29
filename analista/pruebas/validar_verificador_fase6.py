@@ -20,7 +20,7 @@ def main():
  for fn,count in COUNTS.items():
   before=load(INPUT/fn);after=load(OUTPUT/fn);assert len(before)==len(after)==count;total+=count;snap[fn]=(OUTPUT/fn).read_bytes()
   for a,b in zip(before,after):
-   errors=list(validators[fn].iter_errors(b));assert not errors,f"{b['id']}: {errors[0].message}";changed={k for k in set(a)|set(b) if a.get(k)!=b.get(k)};assert changed=={'estado_verificacion'};(a['estado_verificacion'],b['estado_verificacion'])==('pendiente','verificado')
+   errors=list(validators[fn].iter_errors(b));assert not errors,f"{b['id']}: {errors[0].message}";changed={k for k in set(a)|set(b) if a.get(k)!=b.get(k)};assert changed=={'estado_verificacion'};assert (a['estado_verificacion'],b['estado_verificacion'])==('pendiente','verificado')
  assert total==TOTAL==4689;run();
  for fn,b in snap.items():assert (OUTPUT/fn).read_bytes()==b,f'No reproducible: {fn}'
  with tempfile.TemporaryDirectory() as td:
