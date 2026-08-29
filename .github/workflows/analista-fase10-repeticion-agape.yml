@@ -1,0 +1,70 @@
+name: Analista Fase 10 - repetición Ágape
+
+on:
+  push:
+    branches: [analisis-textual-v0.1]
+    paths:
+      - "analista/motores/inventariar_obras_fase10.py"
+      - "analista/motores/ejecutar_extractores_obra_fase10.py"
+      - "analista/motores/conceptos.py"
+      - "analista/motores/definiciones.py"
+      - "analista/motores/afirmaciones.py"
+      - "analista/motores/formulas.py"
+      - "analista/motores/relaciones_explicitas.py"
+      - "analista/motores/limitadores.py"
+      - "analista/pruebas/validar_inventario_fase10.py"
+      - "analista/pruebas/validar_repeticion_agape_fase10.py"
+      - "analista/esquema/contratos-v1.0.0.schema.json"
+      - "analista/generado/fuentes.jsonl"
+      - "analista/generado/unidades.jsonl"
+      - "corpus/libros/afrodita-areia/02-agape/**"
+      - ".github/workflows/analista-fase10-repeticion-agape.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  repeticion-agape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --quiet jsonschema
+
+      - name: Validar perímetro de obras Fase 10
+        run: python analista/pruebas/validar_inventario_fase10.py
+
+      - name: Generar extractores aislados de Ágape
+        run: |
+          python analista/motores/ejecutar_extractores_obra_fase10.py \
+            --obra-id FUE-2C28F35DD6CF
+
+      - name: Validar producto real y aislamiento del piloto
+        run: python analista/pruebas/validar_repeticion_agape_fase10.py
+
+      - name: Publicar repetición controlada Ágape
+        uses: actions/upload-artifact@v4
+        with:
+          name: analista-fase10-agape-extractores
+          path: |
+            analista/generado/fase10/inventario-obras.json
+            analista/generado/obras/FUE-2C28F35DD6CF/
+          if-no-files-found: error
+
+      - name: Persistir productos deterministas de Ágape
+        if: github.actor != 'github-actions[bot]'
+        env:
+          TARGET_BRANCH: ${{ github.ref_name }}
+        run: |
+          python analista/motores/inventariar_obras_fase10.py
+          if [ -z "$(git status --porcelain -- analista/generado/fase10 analista/generado/obras/FUE-2C28F35DD6CF)" ]; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add analista/generado/fase10 analista/generado/obras/FUE-2C28F35DD6CF
+          git commit -m "Generar repetición controlada Ágape Fase 10"
+          git push origin HEAD:"${TARGET_BRANCH}"
