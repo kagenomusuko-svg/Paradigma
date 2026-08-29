@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "obra_id": "FUE-2C28F35DD6CF",
+  "motor": "formulas",
+  "version_motor": "1.2.0",
+  "patron_manual_sha256": "b50dd782ec734c7464d3310c238b5921342e96bbb1d6a7e9fb15a61abb0e3d9a",
+  "producto_evaluado_sha256": "1b2cc18fc45d91c80172c7e3527ab85508413e1a01c763078d61871ac0d6bad8",
+  "umbral_clasificacion_referencia": 0.98,
+  "estratos": {
+    "general": {
+      "unidades_revisadas": 20,
+      "positivos_esperados": 1,
+      "predicciones_emitidas": 1,
+      "verdaderos_positivos": 1,
+      "falsos_positivos": 0,
+      "falsos_negativos": 0,
+      "precision": 1.0,
+      "cobertura": 1.0,
+      "clasificaciones_correctas": 0,
+      "clasificaciones_evaluables": 1,
+      "exactitud_clasificacion": 0.0
+    },
+    "desafio": {
+      "unidades_revisadas": 17,
+      "positivos_esperados": 33,
+      "predicciones_emitidas": 33,
+      "verdaderos_positivos": 33,
+      "falsos_positivos": 0,
+      "falsos_negativos": 0,
+      "precision": 1.0,
+      "cobertura": 1.0,
+      "clasificaciones_correctas": 3,
+      "clasificaciones_evaluables": 33,
+      "exactitud_clasificacion": 0.09090909090909091
+    }
+  },
+  "cierre": "no_apto_produccion",
+  "motivo": "La detección y literalidad alcanzan el patrón manual, pero la clasificación conservadora de 30 bloques como formula_candidata queda por debajo del umbral 0.98. El patrón manual establece que las 33 expresiones son formula_explicita por evidencia formal visible."
+}
