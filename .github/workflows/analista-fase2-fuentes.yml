@@ -7,7 +7,7 @@ on:
       - "analista/motores/fuentes.py"
       - "analista/pruebas/validar_fuentes_fase2.py"
       - "analista/esquema/**"
-      - "corpus/catalogo.json"
+      - "corpus/catalogo-generado.json"
       - "corpus/fuentes/**"
       - "corpus/libros/**"
       - ".github/workflows/analista-fase2-fuentes.yml"
