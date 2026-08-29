@@ -2,9 +2,10 @@
 """Comprueba el cierre cuantitativo de Fase 8 sin reinterpretar métricas.
 
 El combinado es informativo. Cada motor debe tener reportes `general` y
-`desafio`, y todas las métricas congeladas para ese motor deben ser numéricas y
-alcanzar su mínimo. Una métrica `null` significa "no evaluable con esta muestra"
-y por tanto NO satisface el cierre.
+`desafio`. Las métricas no evaluables permanecen ``null`` y nunca se convierten
+en 1.0. Un motor puede declarar explícitamente que un estrato sin positivos se
+use como control negativo; en ese caso el estrato solo cumple con cero falsos
+positivos y con positivos manuales en el estrato complementario.
 """
 from __future__ import annotations
 
@@ -13,9 +14,11 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_THRESHOLDS = ROOT / "analista/calibracion/umbrales-v1.0.0.json"
+DEFAULT_THRESHOLDS = ROOT / "analista/calibracion/umbrales-v1.1.0.json"
 DEFAULT_REPORT = ROOT / "analista/generado/reporte-calibracion.json"
 PILOTO_ID = "AA-SP-V1"
+THRESHOLD_VERSION = "1.1.0"
+REPORT_VERSION = "1.0.0"
 REQUIRED_STRATA = ("general", "desafio")
 THRESHOLD_TO_METRIC = {
     "precision_minima": "precision",
@@ -24,6 +27,7 @@ THRESHOLD_TO_METRIC = {
     "exactitud_estatus_minima": "exactitud_estatus",
     "exactitud_identidad_minima": "exactitud_identidad",
 }
+COUNT_FIELDS = ("verdaderos_positivos", "falsos_positivos", "falsos_negativos")
 
 
 def load_json(path: Path) -> dict:
@@ -32,9 +36,55 @@ def load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def nonnegative_int(value: object) -> bool:
+    return isinstance(value, int) and not isinstance(value, bool) and value >= 0
+
+
+def gold_positives(row: dict | None) -> int | None:
+    if row is None:
+        return None
+    tp = row.get("verdaderos_positivos")
+    fn = row.get("falsos_negativos")
+    if not nonnegative_int(tp) or not nonnegative_int(fn):
+        return None
+    return tp + fn
+
+
+def common_metric_checks(row: dict) -> tuple[list[dict], bool]:
+    metrics: list[dict] = []
+    passed = True
+    units = row.get("unidades_procesadas")
+    units_ok = isinstance(units, int) and not isinstance(units, bool) and units > 0
+    metrics.append(
+        {
+            "metrica": "unidades_procesadas",
+            "valor": units,
+            "minimo": 1,
+            "cumple": units_ok,
+            "razon": None if units_ok else "sin_unidades_revisadas",
+        }
+    )
+    passed = passed and units_ok
+
+    for field in COUNT_FIELDS:
+        value = row.get(field)
+        ok = nonnegative_int(value)
+        metrics.append(
+            {
+                "metrica": field,
+                "valor": value,
+                "minimo": 0,
+                "cumple": ok,
+                "razon": None if ok else "conteo_invalido_o_faltante",
+            }
+        )
+        passed = passed and ok
+    return metrics, passed
+
+
 def check(thresholds: dict, report: dict) -> dict:
-    if thresholds.get("version") != "1.0.0" or thresholds.get("obra_id") != PILOTO_ID:
-        raise AssertionError("Umbrales incompatibles con Fase 8 v1.0.0")
+    if thresholds.get("version") != THRESHOLD_VERSION or thresholds.get("obra_id") != PILOTO_ID:
+        raise AssertionError(f"Umbrales incompatibles con Fase 8 {THRESHOLD_VERSION}")
     motors = thresholds.get("motores")
     if not isinstance(motors, dict) or not motors:
         raise AssertionError("No hay motores declarados en umbrales")
@@ -44,7 +94,7 @@ def check(thresholds: dict, report: dict) -> dict:
         raise AssertionError("Reporte de calibración sin lista 'reportes'")
     by_key: dict[tuple[str, str], dict] = {}
     for row in rows:
-        if row.get("version") != "1.0.0" or row.get("obra_id") != PILOTO_ID:
+        if row.get("version") != REPORT_VERSION or row.get("obra_id") != PILOTO_ID:
             raise AssertionError("Fila de calibración incompatible")
         key = (row.get("motor"), row.get("estrato"))
         if key in by_key:
@@ -54,6 +104,11 @@ def check(thresholds: dict, report: dict) -> dict:
     details: list[dict] = []
     all_pass = True
     for motor, rules in motors.items():
+        allow_negative_control = rules.get("permitir_control_solo_negativos") is True
+        max_false_positives = rules.get("falsos_positivos_maximos_control_negativo", 0)
+        if allow_negative_control and not nonnegative_int(max_false_positives):
+            raise AssertionError(f"Máximo de falsos positivos inválido para {motor}")
+
         for stratum in REQUIRED_STRATA:
             row = by_key.get((motor, stratum))
             if row is None:
@@ -62,25 +117,61 @@ def check(thresholds: dict, report: dict) -> dict:
                         "motor": motor,
                         "estrato": stratum,
                         "estado": "faltante",
+                        "modo": "umbral",
                         "metricas": [],
+                        "metricas_no_aplicables": [],
                     }
                 )
                 all_pass = False
                 continue
 
-            metric_results: list[dict] = []
-            stratum_pass = True
-            if not isinstance(row.get("unidades_procesadas"), int) or row["unidades_procesadas"] <= 0:
+            metric_results, stratum_pass = common_metric_checks(row)
+            positives = gold_positives(row)
+            is_negative_control = allow_negative_control and positives == 0
+
+            if is_negative_control:
+                complement = "desafio" if stratum == "general" else "general"
+                complement_row = by_key.get((motor, complement))
+                complement_positives = gold_positives(complement_row)
+                fp = row.get("falsos_positivos")
+                fp_ok = nonnegative_int(fp) and fp <= max_false_positives
+                complement_ok = isinstance(complement_positives, int) and complement_positives > 0
                 metric_results.append(
                     {
-                        "metrica": "unidades_procesadas",
-                        "valor": row.get("unidades_procesadas"),
-                        "minimo": 1,
-                        "cumple": False,
-                        "razon": "sin_unidades_revisadas",
+                        "metrica": "falsos_positivos_control_negativo",
+                        "valor": fp,
+                        "maximo": max_false_positives,
+                        "cumple": fp_ok,
+                        "razon": None if fp_ok else "falsos_positivos_en_control_negativo",
                     }
                 )
-                stratum_pass = False
+                metric_results.append(
+                    {
+                        "metrica": "positivos_estrato_complementario",
+                        "valor": complement_positives,
+                        "minimo": 1,
+                        "cumple": complement_ok,
+                        "razon": None if complement_ok else "sin_positivos_en_estrato_complementario",
+                    }
+                )
+                stratum_pass = stratum_pass and fp_ok and complement_ok
+                non_applicable = [
+                    metric_name
+                    for threshold_name, metric_name in THRESHOLD_TO_METRIC.items()
+                    if threshold_name in rules
+                ]
+                details.append(
+                    {
+                        "motor": motor,
+                        "estrato": stratum,
+                        "estado": "cumple_control_negativo" if stratum_pass else "no_cumple_control_negativo",
+                        "modo": "control_solo_negativos",
+                        "metricas": metric_results,
+                        "metricas_no_aplicables": non_applicable,
+                    }
+                )
+                all_pass = all_pass and stratum_pass
+                continue
 
             for threshold_name, metric_name in THRESHOLD_TO_METRIC.items():
                 if threshold_name not in rules:
@@ -105,17 +196,23 @@ def check(thresholds: dict, report: dict) -> dict:
                     "motor": motor,
                     "estrato": stratum,
                     "estado": "cumple" if stratum_pass else "no_cumple",
+                    "modo": "umbral",
                     "metricas": metric_results,
+                    "metricas_no_aplicables": [],
                 }
             )
             all_pass = all_pass and stratum_pass
 
     return {
-        "version": "1.0.0",
+        "version": THRESHOLD_VERSION,
+        "version_reporte": REPORT_VERSION,
         "obra_id": PILOTO_ID,
         "fase": 8,
         "cierre_cuantitativo": all_pass,
-        "criterio": "general_y_desafio_deben_cumplir_por_separado; combinado_informativo",
+        "criterio": (
+            "general_y_desafio_separados; control_solo_negativos_explicito_con_fp_cero_y_"
+            "positivos_complementarios; combinado_informativo"
+        ),
         "detalle": details,
     }
 
