@@ -4,12 +4,13 @@
 La métrica de detección se separa de clasificación, estatus e identidad. La
 muestra general, los desafíos y el combinado se informan por separado; el
 combinado deduplica cada par unidad–motor. Por defecto el patrón de oro se carga
-solo desde el manifiesto versionado y únicamente se abren salidas de motores que
-ya tienen anotaciones manuales.
+solo desde el conjunto efectivo resuelto por el validador del manifiesto y
+únicamente se abren salidas de motores que ya tienen anotaciones manuales.
 """
 from __future__ import annotations
 
 import argparse
+import importlib.util
 import json
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -18,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_GENERATED = ROOT / "analista/generado"
 DEFAULT_MANIFEST = ROOT / "analista/calibracion/patron-oro-manifiesto.json"
 DEFAULT_OUTPUT = ROOT / "analista/generado/reporte-calibracion.json"
+MANIFEST_RESOLVER = ROOT / "analista/calibracion/validar_patron_oro.py"
 PILOTO_ID = "AA-SP-V1"
 REPORT_VERSION = "1.1.0"
 
@@ -60,36 +62,16 @@ def load_jsonl(path: Path) -> list[dict]:
     return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line]
 
 
-def manifest_files(path: Path) -> list[Path]:
-    if not path.is_file():
-        raise SystemExit(f"No existe manifiesto de patrón de oro: {path}")
-    doc = json.loads(path.read_text(encoding="utf-8"))
-    if doc.get("version") != "1.0.0" or doc.get("obra_id") != PILOTO_ID:
-        raise SystemExit("Manifiesto de patrón de oro incompatible")
-    names = doc.get("archivos")
-    if not isinstance(names, list) or not names or len(names) != len(set(names)):
-        raise SystemExit("El manifiesto debe declarar archivos únicos y no vacíos")
-    root = path.parent.resolve()
-    files: list[Path] = []
-    for name in names:
-        if not isinstance(name, str) or not name.endswith(".jsonl"):
-            raise SystemExit(f"Entrada inválida en manifiesto: {name!r}")
-        candidate = (path.parent / name).resolve()
-        try:
-            candidate.relative_to(root)
-        except ValueError as exc:
-            raise SystemExit(f"Ruta fuera del directorio de calibración: {name}") from exc
-        if not candidate.is_file():
-            raise SystemExit(f"Archivo de patrón declarado pero inexistente: {name}")
-        files.append(candidate)
-    return files
-
-
 def load_manifest(path: Path) -> list[dict]:
-    rows: list[dict] = []
-    for gold_file in manifest_files(path):
-        rows.extend(load_jsonl(gold_file))
-    return rows
+    spec = importlib.util.spec_from_file_location("resolver_manifiesto_gold", MANIFEST_RESOLVER)
+    if spec is None or spec.loader is None:
+        raise SystemExit("No se pudo cargar el resolvedor de manifiesto de Fase 8")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    try:
+        return module.manifest_rows(path)
+    except (AssertionError, SystemExit) as exc:
+        raise SystemExit(f"Manifiesto de patrón de oro inválido: {exc}") from exc
 
 
 def blank_item() -> dict:
