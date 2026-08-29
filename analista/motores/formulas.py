@@ -19,7 +19,7 @@ SALIDA = ROOT / "analista/generado/formulas-candidatas.jsonl"
 COBERTURA = ROOT / "analista/generado/cobertura-formulas.jsonl"
 PILOTO_ID = "AA-SP-V1"
 SCHEMA_VERSION = "1.0.0"
-MOTOR_VERSION = "1.0.0"
+MOTOR_VERSION = "1.0.1"
 TERMINATORS = ".!?"
 
 
@@ -116,9 +116,14 @@ def main() -> int:
     seen_spans: set[tuple[str, int, int]] = set()
     seed_count = 0
     for index, unit in enumerate(pilot_units):
+        # El postproceso histórico de fórmulas trabajaba sobre párrafos. Un encabezado
+        # que contiene '=' funciona como rótulo y duplica la fórmula desarrollada en
+        # el cuerpo; no se eleva por sí mismo a fórmula candidata.
+        if unit.get("tipo_estructural") == "encabezado":
+            continue
         text = unit["texto_literal"]
         cursor = 0
-        for offset, line in enumerate(text.splitlines()):
+        for line in text.splitlines():
             stripped = line.strip()
             line_start_char = cursor
             cursor += len(line) + 1
@@ -178,7 +183,7 @@ def main() -> int:
     )
     dump_jsonl(COBERTURA, [coverage])
     print(
-        f"Fase 4D: {seed_count} semillas históricas con '=' expandidas a "
+        f"Fase 4D: {seed_count} semillas textuales elegibles con '=' expandidas a "
         f"{len(formulas)} fórmulas candidatas completas; {len(pilot_units)} unidades procesadas."
     )
     return 0

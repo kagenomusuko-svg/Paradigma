@@ -28,14 +28,16 @@ def validator_for(schema: dict, name: str) -> Draft202012Validator:
     return Draft202012Validator({"$schema": schema["$schema"], "$defs": schema["$defs"], "$ref": f"#/$defs/{name}"})
 
 
-def seed_lines(units: list[dict]) -> list[tuple[str, int]]:
-    seeds = []
+def seed_lines(units: list[dict]) -> tuple[list[tuple[str, int]], list[tuple[str, int]]]:
+    eligible = []
+    headings = []
     for unit in units:
+        target = headings if unit.get("tipo_estructural") == "encabezado" else eligible
         for offset, line in enumerate(unit["texto_literal"].splitlines()):
             stripped = line.strip()
             if stripped and "=" in stripped and len(stripped) <= 320 and "http" not in stripped:
-                seeds.append((unit["id"], unit["localizacion"]["linea_inicio"] + offset))
-    return seeds
+                target.append((unit["id"], unit["localizacion"]["linea_inicio"] + offset))
+    return eligible, headings
 
 
 def context_expected(units: list[dict], index: int) -> list[str]:
@@ -83,14 +85,20 @@ def main() -> int:
     )
     unit_by_id = {u["id"]: u for u in pilot_units}
     index_by_id = {u["id"]: i for i, u in enumerate(pilot_units)}
-    seeds = seed_lines(pilot_units)
+    seeds, heading_seeds = seed_lines(pilot_units)
     seed_unit_ids = {unit_id for unit_id, _ in seeds}
     legacy_unit_ids = {row["unidad_id"] for row in legacy}
     assert len(pilot_units) == 836
-    assert len(seeds) == 21, f"Se esperaban 21 semillas literales; obtenidas={len(seeds)}"
-    assert len(seed_unit_ids) == 18, f"Las 21 semillas deben distribuirse en 18 unidades; obtenidas={len(seed_unit_ids)}"
+    assert len(seeds) == 20, f"Se esperaban 20 semillas elegibles; obtenidas={len(seeds)}"
+    assert len(heading_seeds) == 1, (
+        f"Debe existir un único rótulo de encabezado con '=' excluido; obtenidos={len(heading_seeds)}"
+    )
+    assert len(seed_unit_ids) == 18, f"Las 20 semillas deben distribuirse en 18 unidades; obtenidas={len(seed_unit_ids)}"
     assert seed_unit_ids == legacy_unit_ids, (
-        "Las unidades con semillas de fórmula deben coincidir con las 18 unidades contextuales del postproceso histórico."
+        "Las unidades elegibles con fórmula deben coincidir con las 18 unidades contextuales del postproceso histórico."
+    )
+    assert heading_seeds[0][0] not in legacy_unit_ids, (
+        "El encabezado formal no debe ascender a unidad de fórmula por sí solo."
     )
     assert formulas, "No se generaron fórmulas candidatas."
 
@@ -114,6 +122,9 @@ def main() -> int:
         assert formula["normalizacion_lexica"] is None
 
         unit = unit_by_id[formula["unidad_id"]]
+        assert unit.get("tipo_estructural") != "encabezado", (
+            f"Un encabezado ascendió a fórmula candidata: {formula['id']}"
+        )
         assert formula["formula_literal"] in unit["texto_literal"], (
             f"Fórmula no literal en {formula['id']}"
         )
@@ -153,6 +164,7 @@ def main() -> int:
     assert not errors, errors[0].message if errors else ""
     assert report["obra_id"] == PILOTO_ID
     assert report["motor"] == "formulas"
+    assert report["version_motor"] == "1.0.1"
     assert report["unidades_totales"] == len(pilot_units)
     assert report["unidades_procesadas"] == len(pilot_units)
     assert report["unidades_omitidas"] == [] and report["errores"] == []
@@ -164,9 +176,9 @@ def main() -> int:
 
     assert_reproducible()
     print(
-        f"OK Fase 4D: 21 semillas literales en 18 unidades históricas cubiertas exactamente una vez por {len(formulas)} "
-        "fórmulas candidatas; delimitadores completos; contexto vecino preservado; "
-        "836 unidades procesadas; verificación pendiente."
+        f"OK Fase 4D: 20 semillas elegibles en 18 unidades históricas cubiertas exactamente una vez por {len(formulas)} "
+        "fórmulas candidatas; 1 encabezado duplicativo excluido; delimitadores completos; "
+        "contexto vecino preservado; 836 unidades procesadas; verificación pendiente."
     )
     return 0
 
