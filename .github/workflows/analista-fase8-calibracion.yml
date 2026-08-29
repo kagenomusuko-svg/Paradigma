@@ -1,0 +1,58 @@
+name: Analista Fase 8 - calibracion
+
+on:
+  push:
+    branches: [analisis-textual-v0.1]
+    paths:
+      - "analista/calibracion/**"
+      - "analista/pruebas/validar_infra_calibracion_fase8.py"
+      - "analista/pruebas/validar_patron_oro_fase8.py"
+      - "analista/pruebas/validar_umbrales_fase8.py"
+      - "analista/motores/formulas.py"
+      - "analista/motores/limitadores.py"
+      - "analista/generado/unidades.jsonl"
+      - "analista/generado/definiciones.jsonl"
+      - "analista/generado/relaciones-explicitas.jsonl"
+      - ".github/workflows/analista-fase8-calibracion.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  calibrar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --quiet jsonschema
+      - name: Reconstruir producto 4D calibrado
+        run: python analista/motores/formulas.py
+      - name: Validar producto real 4D
+        run: python analista/pruebas/validar_formulas_fase4d.py
+      - name: Validar patrón de oro manifestado
+        run: python analista/pruebas/validar_patron_oro_fase8.py
+      - name: Validar infraestructura de calibración
+        run: python analista/pruebas/validar_infra_calibracion_fase8.py
+      - name: Probar gate de umbrales
+        run: python analista/pruebas/validar_umbrales_fase8.py
+      - name: Evaluar motores ya anotados
+        run: python analista/calibracion/evaluar.py
+      - name: Comprobar cierre cuantitativo
+        id: gate
+        run: python analista/calibracion/comprobar_umbrales.py --salida analista/generado/cierre-fase8.json
+      - name: Publicar evidencia de calibración
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: analista-fase8-calibracion
+          path: |
+            analista/generado/formulas-candidatas.jsonl
+            analista/generado/cobertura-formulas.jsonl
+            analista/generado/reporte-calibracion.json
+            analista/generado/cierre-fase8.json
+          if-no-files-found: warn
