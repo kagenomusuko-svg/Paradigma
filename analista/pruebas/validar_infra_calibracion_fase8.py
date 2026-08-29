@@ -23,19 +23,6 @@ SELECTOR = CAL / "seleccionar_muestra.py"
 EVALUATOR = CAL / "evaluar.py"
 SCHEMA = CAL / "patron-oro-v1.0.0.schema.json"
 GENERATED = ROOT / "analista/generado"
-
-ALL_OUTPUTS = (
-    "apariciones-conceptuales.jsonl",
-    "conceptos.jsonl",
-    "definiciones.jsonl",
-    "afirmaciones-candidatas.jsonl",
-    "formulas-candidatas.jsonl",
-    "relaciones-explicitas.jsonl",
-    "distinciones.jsonl",
-    "negaciones.jsonl",
-    "excepciones.jsonl",
-    "restricciones-alcance.jsonl",
-)
 RELATION_UNIT = "UT-BEF6D53FB3C7"
 
 
@@ -59,12 +46,20 @@ def import_evaluator():
     return module
 
 
-def run_evaluator(gold: Path, generated: Path, output: Path, expected_code: int = 0) -> dict:
+def run_evaluator(
+    gold: Path,
+    generated: Path,
+    output: Path,
+    expected_code: int = 0,
+    *,
+    manifest: bool = False,
+) -> dict:
+    selector = "--manifiesto" if manifest else "--patron"
     result = subprocess.run(
         [
             sys.executable,
             str(EVALUATOR),
-            "--patron",
+            selector,
             str(gold),
             "--generado",
             str(generated),
@@ -138,16 +133,10 @@ def main() -> int:
         temporary = Path(temporary)
         fixture = temporary / "generado"
         fixture.mkdir()
-        for filename in ALL_OUTPUTS:
-            source = GENERATED / filename
-            if filename in {
-                "apariciones-conceptuales.jsonl",
-                "conceptos.jsonl",
-                "relaciones-explicitas.jsonl",
-            }:
-                shutil.copy2(source, fixture / filename)
-            else:
-                (fixture / filename).write_text("", encoding="utf-8")
+        # Aislamiento real: para evaluar relaciones no se materializan salidas de
+        # fórmulas, afirmaciones, definiciones, limitadores ni apariciones.
+        shutil.copy2(GENERATED / "conceptos.jsonl", fixture / "conceptos.jsonl")
+        shutil.copy2(GENERATED / "relaciones-explicitas.jsonl", fixture / "relaciones-explicitas.jsonl")
 
         actual = [
             item
@@ -177,6 +166,20 @@ def main() -> int:
         assert perfect["falsos_positivos"] == 0
         assert perfect["falsos_negativos"] == 0
 
+        # La misma única anotación a través de un manifiesto debe producir el
+        # mismo reporte y no intentar abrir salidas de motores sin gold.
+        manifest = temporary / "manifest.json"
+        manifest.write_text(
+            json.dumps(
+                {"version": "1.0.0", "obra_id": "AA-SP-V1", "archivos": ["gold.jsonl"]},
+                sort_keys=True,
+            ) + "\n",
+            encoding="utf-8",
+        )
+        manifest_payload = run_evaluator(manifest, fixture, output, manifest=True)
+        assert report(manifest_payload) == perfect
+        assert {row["motor"] for row in manifest_payload["reportes"]} == {"relaciones_explicitas"}
+
         fewer = dict(entry)
         fewer["items_esperados"] = entry["items_esperados"][:-1]
         dump_jsonl(gold, [fewer])
@@ -198,7 +201,7 @@ def main() -> int:
 
     print(
         "OK infraestructura Fase 8: lock reproducible (96 unidades); esquema manual válido; "
-        "evaluador distingue TP/FP/FN y rechaza anotaciones duplicadas unidad–motor."
+        "manifiesto aislado por motor; evaluador distingue TP/FP/FN y rechaza duplicados."
     )
     return 0
 
