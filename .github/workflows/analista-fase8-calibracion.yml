@@ -12,10 +12,13 @@ on:
       - "analista/pruebas/validar_calibracion_definiciones_fase8.py"
       - "analista/pruebas/validar_calibracion_afirmaciones_fase8.py"
       - "analista/pruebas/validar_calibracion_relaciones_fase8.py"
+      - "analista/pruebas/validar_calibracion_limitadores_fase8.py"
       - "analista/pruebas/validar_conceptos_fase4a.py"
       - "analista/pruebas/validar_definiciones_fase4b.py"
       - "analista/pruebas/validar_afirmaciones_fase4c.py"
+      - "analista/pruebas/validar_formulas_fase4d.py"
       - "analista/pruebas/validar_relaciones_fase4e.py"
+      - "analista/pruebas/validar_limitadores_fase4f.py"
       - "analista/motores/conceptos.py"
       - "analista/motores/definiciones.py"
       - "analista/motores/afirmaciones.py"
@@ -23,11 +26,6 @@ on:
       - "analista/motores/relaciones_explicitas.py"
       - "analista/motores/limitadores.py"
       - "analista/generado/unidades.jsonl"
-      - "analista/generado/apariciones-conceptuales.jsonl"
-      - "analista/generado/conceptos.jsonl"
-      - "analista/generado/definiciones.jsonl"
-      - "analista/generado/afirmaciones-candidatas.jsonl"
-      - "analista/generado/relaciones-explicitas.jsonl"
       - ".github/workflows/analista-fase8-calibracion.yml"
   workflow_dispatch:
 
@@ -45,10 +43,14 @@ jobs:
         with:
           python-version: "3.12"
       - run: python -m pip install --quiet jsonschema
+
       - name: Materializar gold manual reproducible de 4A
         run: python analista/calibracion/materializar_oro_conceptos.py
       - name: Materializar gold manual reproducible de 4C
         run: python analista/calibracion/materializar_oro_afirmaciones.py
+      - name: Materializar gold manual reproducible de 4F
+        run: python analista/calibracion/materializar_oro_limitadores.py
+
       - name: Reconstruir producto 4A calibrado
         run: python analista/motores/conceptos.py
       - name: Validar producto real 4A
@@ -69,6 +71,11 @@ jobs:
         run: python analista/motores/relaciones_explicitas.py
       - name: Validar producto real 4E
         run: python analista/pruebas/validar_relaciones_fase4e.py
+      - name: Reconstruir producto 4F calibrado
+        run: python analista/motores/limitadores.py
+      - name: Validar producto real 4F
+        run: python analista/pruebas/validar_limitadores_fase4f.py
+
       - name: Validar patrón de oro manifestado
         run: python analista/pruebas/validar_patron_oro_fase8.py
       - name: Validar infraestructura de calibración
@@ -81,13 +88,16 @@ jobs:
         run: python analista/pruebas/validar_calibracion_afirmaciones_fase8.py
       - name: Validar calibración de 4E
         run: python analista/pruebas/validar_calibracion_relaciones_fase8.py
+      - name: Validar calibración de 4F
+        run: python analista/pruebas/validar_calibracion_limitadores_fase8.py
       - name: Probar gate de umbrales
         run: python analista/pruebas/validar_umbrales_fase8.py
-      - name: Evaluar motores ya anotados
+      - name: Evaluar seis motores anotados
         run: python analista/calibracion/evaluar.py
       - name: Comprobar cierre cuantitativo
         id: gate
         run: python analista/calibracion/comprobar_umbrales.py --salida analista/generado/cierre-fase8.json
+
       - name: Publicar evidencia de calibración
         if: always()
         uses: actions/upload-artifact@v4
@@ -97,6 +107,7 @@ jobs:
             analista/calibracion/patron-oro-conceptos-desafio.jsonl
             analista/calibracion/patron-oro-conceptos-general.jsonl
             analista/calibracion/patron-oro-afirmaciones.jsonl
+            analista/calibracion/patron-oro-limitadores.jsonl
             analista/generado/apariciones-conceptuales.jsonl
             analista/generado/conceptos.jsonl
             analista/generado/cobertura-conceptos.jsonl
@@ -108,6 +119,11 @@ jobs:
             analista/generado/cobertura-formulas.jsonl
             analista/generado/relaciones-explicitas.jsonl
             analista/generado/cobertura-relaciones.jsonl
+            analista/generado/distinciones.jsonl
+            analista/generado/negaciones.jsonl
+            analista/generado/excepciones.jsonl
+            analista/generado/restricciones-alcance.jsonl
+            analista/generado/cobertura-limitadores.jsonl
             analista/generado/reporte-calibracion.json
             analista/generado/cierre-fase8.json
           if-no-files-found: warn
