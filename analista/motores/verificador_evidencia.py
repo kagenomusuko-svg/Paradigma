@@ -16,8 +16,8 @@ FILES=(
  'excepciones.jsonl','restricciones-alcance.jsonl'
 )
 EXPECTED_PRODUCER={
- 'aparicion_conceptual':('conceptos_apariciones','1.0.0'),
- 'concepto':('conceptos_apariciones','1.0.0'),
+ 'aparicion_conceptual':('conceptos_apariciones','1.1.0'),
+ 'concepto':('conceptos_apariciones','1.1.0'),
  'definicion':('definiciones','1.1.0'),
  'afirmacion':('afirmaciones','1.0.0'),
  'formula':('formulas','1.1.0'),
