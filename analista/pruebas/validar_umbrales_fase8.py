@@ -30,11 +30,13 @@ def perfect_report(thresholds: dict) -> dict:
     for motor, rules in thresholds["motores"].items():
         for stratum in ("general", "desafio"):
             row = {
-                "version": "1.0.0",
+                "version": "1.1.0",
                 "obra_id": "AA-SP-V1",
                 "motor": motor,
                 "estrato": stratum,
                 "unidades_procesadas": 10,
+                "positivos_esperados": 10,
+                "predicciones_emitidas": 10,
                 "verdaderos_positivos": 10,
                 "falsos_positivos": 0,
                 "falsos_negativos": 0,
@@ -73,6 +75,8 @@ def make_formula_general_negative(payload: dict) -> None:
     target.update(
         {
             "unidades_procesadas": 31,
+            "positivos_esperados": 0,
+            "predicciones_emitidas": 0,
             "verdaderos_positivos": 0,
             "falsos_positivos": 0,
             "falsos_negativos": 0,
@@ -89,6 +93,7 @@ def main() -> int:
     perfect = perfect_report(thresholds)
     result = mod.check(thresholds, perfect)
     assert result["version"] == "1.1.0"
+    assert result["version_reporte"] == "1.1.0"
     assert result["cierre_cuantitativo"] is True
     assert len(result["detalle"]) == 12
     assert all(row["estado"] == "cumple" for row in result["detalle"])
@@ -110,6 +115,7 @@ def main() -> int:
     false_positive = copy.deepcopy(negative_control)
     target = row_for(false_positive, "formulas", "general")
     target["falsos_positivos"] = 1
+    target["predicciones_emitidas"] = 1
     target["precision"] = 0.0
     result = mod.check(thresholds, false_positive)
     assert result["cierre_cuantitativo"] is False
@@ -117,11 +123,18 @@ def main() -> int:
 
     no_positive_complement = copy.deepcopy(negative_control)
     target = row_for(no_positive_complement, "formulas", "desafio")
-    target["verdaderos_positivos"] = 0
-    target["falsos_negativos"] = 0
-    target["precision"] = None
-    target["cobertura"] = None
-    target["exactitud_clasificacion"] = None
+    target.update(
+        {
+            "positivos_esperados": 0,
+            "predicciones_emitidas": 0,
+            "verdaderos_positivos": 0,
+            "falsos_negativos": 0,
+            "falsos_positivos": 0,
+            "precision": None,
+            "cobertura": None,
+            "exactitud_clasificacion": None,
+        }
+    )
     result = mod.check(thresholds, no_positive_complement)
     assert result["cierre_cuantitativo"] is False
     assert detail_for(result, "formulas", "general")["estado"] == "no_cumple_control_negativo"
@@ -161,11 +174,22 @@ def main() -> int:
     result = mod.check(thresholds, missing_counts)
     assert result["cierre_cuantitativo"] is False
 
+    inconsistent_counts = copy.deepcopy(perfect)
+    row_for(inconsistent_counts, "definiciones", "general")["positivos_esperados"] = 11
+    result = mod.check(thresholds, inconsistent_counts)
+    assert result["cierre_cuantitativo"] is False
+    consistency = next(
+        metric
+        for metric in detail_for(result, "definiciones", "general")["metricas"]
+        if metric["metrica"] == "consistencia_conteos"
+    )
+    assert consistency["cumple"] is False
+
     print(
         "OK gate Fase 8 v1.1: 12 motor–estrato requeridos; control negativo explícito "
-        "conserva métricas null y exige 0 FP + positivos complementarios; estrato faltante, "
-        "conteos incompletos, métricas no evaluables fuera del control, umbral bajo o cero "
-        "unidades impiden el cierre."
+        "conserva métricas null y exige 0 FP + positivos complementarios; denominadores "
+        "son explícitos y consistentes; estrato faltante, conteos incompletos, métricas no "
+        "evaluables fuera del control, umbral bajo o cero unidades impiden el cierre."
     )
     return 0
 
