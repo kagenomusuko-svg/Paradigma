@@ -3,7 +3,9 @@
 
 No decide qué debería decir el corpus. Comprueba únicamente que cada anotación
 manual pertenece a la muestra congelada, usa categorías contractuales y apunta
-a evidencia literal existente en la fuente canónica.
+a evidencia literal existente en la fuente canónica. El manifiesto v1.1 permite
+sustituciones explícitas de pares unidad–motor históricos; nunca aplica una
+regla implícita de "último archivo gana".
 """
 from __future__ import annotations
 
@@ -20,6 +22,7 @@ DEFAULT_SCHEMA = ROOT / "analista/calibracion/patron-oro-v1.0.0.schema.json"
 DEFAULT_LOCK = ROOT / "analista/calibracion/muestra-fase8.lock.json"
 DEFAULT_UNITS = ROOT / "analista/generado/unidades.jsonl"
 DEFAULT_CORPUS = ROOT
+MANIFEST_VERSIONS = {"1.0.0", "1.1.0"}
 
 MOTOR_TYPES = {
     "conceptos_apariciones": {"aparicion_conceptual", "concepto"},
@@ -62,12 +65,19 @@ def load_jsonl(path: Path) -> list[dict]:
     return rows
 
 
-def manifest_files(path: Path) -> list[Path]:
+def manifest_doc(path: Path) -> dict:
     if not path.is_file():
         raise SystemExit(f"No existe manifiesto requerido: {path}")
     doc = json.loads(path.read_text(encoding="utf-8"))
-    if doc.get("version") != "1.0.0" or doc.get("obra_id") != PILOTO_ID:
+    if doc.get("version") not in MANIFEST_VERSIONS or doc.get("obra_id") != PILOTO_ID:
         raise AssertionError("Manifiesto de patrón de oro incompatible")
+    if doc.get("version") == "1.0.0" and doc.get("reemplazos"):
+        raise AssertionError("Manifiesto v1.0 no admite reemplazos")
+    return doc
+
+
+def manifest_files(path: Path) -> list[Path]:
+    doc = manifest_doc(path)
     names = doc.get("archivos")
     if not isinstance(names, list) or not names or len(names) != len(set(names)):
         raise AssertionError("El manifiesto debe declarar archivos únicos y no vacíos")
@@ -87,17 +97,94 @@ def manifest_files(path: Path) -> list[Path]:
     return output
 
 
+def _raw_manifest_rows(path: Path) -> tuple[dict, list[Path], dict[str, list[tuple[Path, int, dict]]]]:
+    doc = manifest_doc(path)
+    files = manifest_files(path)
+    by_name: dict[str, list[tuple[Path, int, dict]]] = {}
+    for gold_file in files:
+        by_name[gold_file.name] = [
+            (gold_file, number, row)
+            for number, row in enumerate(load_jsonl(gold_file), start=1)
+        ]
+    return doc, files, by_name
+
+
+def effective_manifest_rows(path: Path) -> tuple[list[Path], list[tuple[Path, int, dict]], int]:
+    doc, files, by_name = _raw_manifest_rows(path)
+    replacements = doc.get("reemplazos", [])
+    if not isinstance(replacements, list):
+        raise AssertionError("'reemplazos' debe ser una lista")
+    if doc["version"] == "1.0.0" and replacements:
+        raise AssertionError("Manifiesto v1.0 no admite reemplazos")
+
+    declared = set(by_name)
+    seen_replacements: set[tuple[str, str]] = set()
+    origin_suppressed: set[tuple[str, str, str]] = set()
+
+    for replacement in replacements:
+        if not isinstance(replacement, dict):
+            raise AssertionError("Reemplazo inválido: se esperaba objeto")
+        required = {"archivo_origen", "archivo_sustituto", "motor", "unidad_id"}
+        if set(replacement) != required:
+            raise AssertionError(f"Campos inválidos en reemplazo: {sorted(set(replacement) ^ required)}")
+        origin = replacement["archivo_origen"]
+        substitute = replacement["archivo_sustituto"]
+        motor = replacement["motor"]
+        unit_id = replacement["unidad_id"]
+        key = (unit_id, motor)
+        if key in seen_replacements:
+            raise AssertionError(f"Reemplazo duplicado unidad–motor: {key}")
+        seen_replacements.add(key)
+        if origin not in declared or substitute not in declared:
+            raise AssertionError(f"Reemplazo usa archivo no declarado: {origin!r}/{substitute!r}")
+        if origin == substitute:
+            raise AssertionError(f"Origen y sustituto no pueden coincidir: {origin}")
+
+        def matching(name: str) -> list[tuple[Path, int, dict]]:
+            return [
+                triple for triple in by_name[name]
+                if (triple[2].get("unidad_id"), triple[2].get("motor")) == key
+            ]
+
+        origin_matches = matching(origin)
+        substitute_matches = matching(substitute)
+        if len(origin_matches) != 1:
+            raise AssertionError(f"Reemplazo requiere un origen único {origin}/{key}; hallados={len(origin_matches)}")
+        if len(substitute_matches) != 1:
+            raise AssertionError(
+                f"Reemplazo requiere un sustituto único {substitute}/{key}; hallados={len(substitute_matches)}"
+            )
+        for name in declared - {origin, substitute}:
+            if matching(name):
+                raise AssertionError(f"El par reemplazado {key} aparece también en {name}")
+        origin_suppressed.add((origin, unit_id, motor))
+
+    effective: list[tuple[Path, int, dict]] = []
+    for gold_file in files:
+        for triple in by_name[gold_file.name]:
+            row = triple[2]
+            suppress_key = (gold_file.name, row.get("unidad_id"), row.get("motor"))
+            if suppress_key in origin_suppressed:
+                continue
+            effective.append(triple)
+    return files, effective, len(replacements)
+
+
+def manifest_rows(path: Path) -> list[dict]:
+    return [row for _, _, row in effective_manifest_rows(path)[1]]
+
+
 def canonical_excerpt(corpus_root: Path, route: str, start: int, end: int) -> str:
-    path = corpus_root / route
-    if not path.is_file():
+    source = corpus_root / route
+    if not source.is_file():
         raise AssertionError(f"Fuente canónica inexistente: {route}")
-    lines = path.read_text(encoding="utf-8").splitlines()
+    lines = source.read_text(encoding="utf-8").splitlines()
     if not 1 <= start <= end <= len(lines):
         raise AssertionError(f"Rango fuera de fuente {route}:{start}-{end}")
     return "\n".join(lines[start - 1 : end])
 
 
-def validate_files(*, gold_files: list[Path], schema: Path, lock: Path, units: Path, corpus_root: Path) -> dict:
+def validate_rows(*, rows: list[tuple[Path, int, dict]], schema: Path, lock: Path, units: Path, corpus_root: Path) -> dict:
     schema_doc = json.loads(schema.read_text(encoding="utf-8"))
     validator = Draft202012Validator(schema_doc)
     lock_doc = json.loads(lock.read_text(encoding="utf-8"))
@@ -112,11 +199,6 @@ def validate_files(*, gold_files: list[Path], schema: Path, lock: Path, units: P
     frozen = set(lock_doc["desafios"]["general"])
     for motor in MOTOR_TYPES:
         frozen.update(lock_doc["desafios"][motor])
-
-    rows: list[tuple[Path, int, dict]] = []
-    for gold_file in gold_files:
-        for number, row in enumerate(load_jsonl(gold_file), start=1):
-            rows.append((gold_file, number, row))
 
     seen_entries: set[tuple[str, str]] = set()
     seen_items: set[tuple] = set()
@@ -201,8 +283,18 @@ def validate_files(*, gold_files: list[Path], schema: Path, lock: Path, units: P
         "revisiones": len(rows),
         "items": total_items,
         "motores": sorted({row["motor"] for _, _, row in rows}),
-        "archivos_gold": [path.name for path in gold_files],
     }
+
+
+def validate_files(*, gold_files: list[Path], schema: Path, lock: Path, units: Path, corpus_root: Path) -> dict:
+    rows = [
+        (gold_file, number, row)
+        for gold_file in gold_files
+        for number, row in enumerate(load_jsonl(gold_file), start=1)
+    ]
+    result = validate_rows(rows=rows, schema=schema, lock=lock, units=units, corpus_root=corpus_root)
+    result["archivos_gold"] = [path.name for path in gold_files]
+    return result
 
 
 def validate_paths(*, gold: Path, schema: Path, lock: Path, units: Path, corpus_root: Path) -> dict:
@@ -210,9 +302,11 @@ def validate_paths(*, gold: Path, schema: Path, lock: Path, units: Path, corpus_
 
 
 def validate_manifest(*, manifest: Path, schema: Path, lock: Path, units: Path, corpus_root: Path) -> dict:
-    return validate_files(
-        gold_files=manifest_files(manifest), schema=schema, lock=lock, units=units, corpus_root=corpus_root
-    )
+    files, rows, replacement_count = effective_manifest_rows(manifest)
+    result = validate_rows(rows=rows, schema=schema, lock=lock, units=units, corpus_root=corpus_root)
+    result["archivos_gold"] = [path.name for path in files]
+    result["reemplazos"] = replacement_count
+    return result
 
 
 def main() -> int:
