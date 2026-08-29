@@ -18,10 +18,10 @@ FILES=(
 EXPECTED_PRODUCER={
  'aparicion_conceptual':('conceptos_apariciones','1.0.0'),
  'concepto':('conceptos_apariciones','1.0.0'),
- 'definicion':('definiciones','1.0.0'),
+ 'definicion':('definiciones','1.1.0'),
  'afirmacion':('afirmaciones','1.0.0'),
  'formula':('formulas','1.1.0'),
- 'relacion_explicita':('relaciones_explicitas','1.0.0'),
+ 'relacion_explicita':('relaciones_explicitas','1.1.0'),
  'distincion':('limitadores','1.0.1'),
  'negacion':('limitadores','1.0.1'),
  'excepcion':('limitadores','1.0.1'),
@@ -47,6 +47,17 @@ def excerpt(repo: Path, loc: dict, cache: dict[str,list[str]]) -> str:
     if not isinstance(s,int) or not isinstance(e,int) or s<1 or e<s or e>len(lines):
         raise ValueError('rango')
     return '\n'.join(lines[s-1:e])
+
+def literal_matches_excerpt(literal: str, ex: str) -> bool:
+    """El rango puede incluir prefijo/sufijo de sus líneas extremas, nunca líneas completas extra."""
+    if not literal:
+        return False
+    position=ex.find(literal)
+    if position<0:
+        return False
+    before=ex[:position]
+    after=ex[position+len(literal):]
+    return '\n' not in before and '\n' not in after
 
 def occurrences_with_line_span(unit: dict, literal: str) -> list[tuple[int,int]]:
     if not literal:
@@ -166,7 +177,7 @@ def main() -> int:
                 elif t=='definicion':
                     uloc=u['localizacion']
                     if not (uloc['linea_inicio']<=loc['linea_inicio']<=uloc['linea_fin']): fail(rid,'inicio_fuera_unidad'); ok=False
-                    if ex!=r['texto_literal']: fail(rid,'literal_definicion'); ok=False
+                    if not literal_matches_excerpt(r['texto_literal'],ex): fail(rid,'literal_definicion'); ok=False
                     if r.get('concepto_id') not in concepts: fail(rid,'concepto_inexistente'); ok=False
                 elif t=='afirmacion':
                     if ex!=r['texto_literal']: fail(rid,'literal_afirmacion'); ok=False
@@ -182,7 +193,7 @@ def main() -> int:
                         if cu['fuente_id']!=r['fuente_id'] or cu['archivo']!=u['archivo']: fail(rid,'contexto_fuera_archivo'); ok=False
                     if u['id'] not in r.get('contexto_unidad_ids',[]): fail(rid,'contexto_sin_unidad'); ok=False
                 elif t=='relacion_explicita':
-                    if r['texto_literal']!=r['relacion_literal'] or ex!=r['relacion_literal']: fail(rid,'literal_relacion'); ok=False
+                    if r['texto_literal']!=r['relacion_literal'] or not literal_matches_excerpt(r['relacion_literal'],ex): fail(rid,'literal_relacion'); ok=False
                     if r.get('sujeto_ref') not in concepts or r.get('objeto_ref') not in concepts: fail(rid,'referente_relacion'); ok=False
                 elif t=='distincion':
                     if not literal_matches_unit_location(u,r['texto_literal'],loc): fail(rid,'ubicacion_distincion'); ok=False
