@@ -264,7 +264,10 @@ def main() -> int:
                 end_line_match = start_line + literal.count("\n")
                 emit(source, subject, literal, glosario_rel, start_line, end_line_match)
 
-    # --- Prosa general: patrones sintácticos conservadores entre menciones exactas. ---
+    # --- Prosa: patrones sintácticos conservadores entre menciones exactas. ---
+    # Este pase también recorre el glosario. Los registros coincidentes con el pase
+    # contextual se deduplican por pareja, literal y rango; así puede recuperar una
+    # predicación cuyo sujeto explícito no sea el lema activo del bloque.
     direct_re = re.compile(
         rf"(?P<s>{term_alt})(?P<m>(?:(?![.;]).){{0,140}}?\b(?:produce|produjo|producido|"
         rf"construye|construyó|determina|determinó|condiciona|constituye|crece)\b"
@@ -295,8 +298,7 @@ def main() -> int:
         re.IGNORECASE | re.DOTALL,
     )
 
-    non_glossary_units = [unit for unit in pilot_units if unit["archivo"] != glosario_rel]
-    for unit in non_glossary_units:
+    for unit in pilot_units:
         if unit.get("tipo_estructural") == "encabezado":
             continue
         text = unit["texto_literal"]
