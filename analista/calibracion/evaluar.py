@@ -3,7 +3,9 @@
 
 La métrica de detección se separa de clasificación, estatus e identidad. La
 muestra general, los desafíos y el combinado se informan por separado; el
-combinado deduplica cada par unidad–motor.
+combinado deduplica cada par unidad–motor. Por defecto el patrón de oro se carga
+solo desde el manifiesto versionado y únicamente se abren salidas de motores que
+ya tienen anotaciones manuales.
 """
 from __future__ import annotations
 
@@ -14,8 +16,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_GENERATED = ROOT / "analista/generado"
-DEFAULT_GOLD = ROOT / "analista/calibracion/patron-oro.jsonl"
+DEFAULT_MANIFEST = ROOT / "analista/calibracion/patron-oro-manifiesto.json"
 DEFAULT_OUTPUT = ROOT / "analista/generado/reporte-calibracion.json"
+PILOTO_ID = "AA-SP-V1"
 
 MOTOR_FILES = {
     "conceptos_apariciones": ["apariciones-conceptuales.jsonl", "conceptos.jsonl"],
@@ -51,18 +54,65 @@ LABEL_FIELDS = (
 
 
 def load_jsonl(path: Path) -> list[dict]:
+    if not path.is_file():
+        raise SystemExit(f"No existe insumo requerido para calibración: {path}")
     return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line]
+
+
+def manifest_files(path: Path) -> list[Path]:
+    if not path.is_file():
+        raise SystemExit(f"No existe manifiesto de patrón de oro: {path}")
+    doc = json.loads(path.read_text(encoding="utf-8"))
+    if doc.get("version") != "1.0.0" or doc.get("obra_id") != PILOTO_ID:
+        raise SystemExit("Manifiesto de patrón de oro incompatible")
+    names = doc.get("archivos")
+    if not isinstance(names, list) or not names or len(names) != len(set(names)):
+        raise SystemExit("El manifiesto debe declarar archivos únicos y no vacíos")
+    root = path.parent.resolve()
+    files: list[Path] = []
+    for name in names:
+        if not isinstance(name, str) or not name.endswith(".jsonl"):
+            raise SystemExit(f"Entrada inválida en manifiesto: {name!r}")
+        candidate = (path.parent / name).resolve()
+        try:
+            candidate.relative_to(root)
+        except ValueError as exc:
+            raise SystemExit(f"Ruta fuera del directorio de calibración: {name}") from exc
+        if not candidate.is_file():
+            raise SystemExit(f"Archivo de patrón declarado pero inexistente: {name}")
+        files.append(candidate)
+    return files
+
+
+def load_manifest(path: Path) -> list[dict]:
+    rows: list[dict] = []
+    for gold_file in manifest_files(path):
+        rows.extend(load_jsonl(gold_file))
+    return rows
 
 
 def blank_item() -> dict:
     return {field: None for field in LABEL_FIELDS}
 
 
-def extracted_items(root: Path, motor: str) -> list[dict]:
-    concepts = {row["id"]: row for row in load_jsonl(root / "conceptos.jsonl")}
-    appearances = {row["id"]: row for row in load_jsonl(root / "apariciones-conceptuales.jsonl")}
-    output: list[dict] = []
+def load_concepts(root: Path) -> dict[str, dict]:
+    return {row["id"]: row for row in load_jsonl(root / "conceptos.jsonl")}
 
+
+def extracted_items(root: Path, motor: str) -> list[dict]:
+    if motor not in MOTOR_FILES:
+        raise SystemExit(f"Motor de calibración desconocido: {motor}")
+
+    concepts: dict[str, dict] = {}
+    appearances: dict[str, dict] = {}
+    if motor in {"conceptos_apariciones", "definiciones", "relaciones_explicitas"}:
+        concepts = load_concepts(root)
+    if motor == "conceptos_apariciones":
+        appearances = {
+            row["id"]: row for row in load_jsonl(root / "apariciones-conceptuales.jsonl")
+        }
+
+    output: list[dict] = []
     for filename in MOTOR_FILES[motor]:
         for record in load_jsonl(root / filename):
             kind = record["tipo_registro"]
@@ -101,8 +151,12 @@ def extracted_items(root: Path, motor: str) -> list[dict]:
             elif kind == "definicion" and record.get("concepto_id") in concepts:
                 item["concepto_designacion"] = concepts[record["concepto_id"]]["designacion_operativa"]
             elif kind == "relacion_explicita":
-                item["sujeto_designacion"] = concepts[record["sujeto_ref"]]["designacion_operativa"]
-                item["objeto_designacion"] = concepts[record["objeto_ref"]]["designacion_operativa"]
+                subject = record.get("sujeto_ref")
+                obj = record.get("objeto_ref")
+                if subject not in concepts or obj not in concepts:
+                    raise SystemExit(f"Relación con referente conceptual inexistente: {record.get('id')}")
+                item["sujeto_designacion"] = concepts[subject]["designacion_operativa"]
+                item["objeto_designacion"] = concepts[obj]["designacion_operativa"]
             elif kind == "distincion":
                 item["termino_a_literal"] = record.get("termino_a_literal")
                 item["termino_b_literal"] = record.get("termino_b_literal")
@@ -199,25 +253,43 @@ def metrics(gold: list[dict], predicted: list[dict], units: set[str]) -> dict:
     }
 
 
-def main() -> int:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--patron", type=Path, default=DEFAULT_GOLD)
-    parser.add_argument("--generado", type=Path, default=DEFAULT_GENERATED)
-    parser.add_argument("--salida", type=Path, default=DEFAULT_OUTPUT)
-    args = parser.parse_args()
-
-    entries = load_jsonl(args.patron)
+def validate_entries(entries: list[dict]) -> list[str]:
     seen: set[tuple[str, str]] = set()
+    motors: list[str] = []
     for entry in entries:
         key = (entry["unidad_id"], entry["motor"])
         if key in seen:
             raise SystemExit(f"Anotación duplicada unidad–motor: {key}")
         seen.add(key)
+        motor = entry["motor"]
+        if motor not in MOTOR_FILES:
+            raise SystemExit(f"Motor de patrón desconocido: {motor}")
+        if motor not in motors:
+            motors.append(motor)
+    return motors
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument("--patron", type=Path, default=None, help="Evalúa un JSONL aislado")
+    group.add_argument("--manifiesto", type=Path, default=None, help="Evalúa un manifiesto alternativo")
+    parser.add_argument("--generado", type=Path, default=DEFAULT_GENERATED)
+    parser.add_argument("--salida", type=Path, default=DEFAULT_OUTPUT)
+    args = parser.parse_args()
+
+    if args.patron is not None:
+        entries = load_jsonl(args.patron)
+    else:
+        entries = load_manifest(args.manifiesto or DEFAULT_MANIFEST)
+    motors = validate_entries(entries)
 
     reports: list[dict] = []
     for motor in MOTOR_FILES:
-        predictions = extracted_items(args.generado, motor)
+        if motor not in motors:
+            continue
         motor_entries = [entry for entry in entries if entry["motor"] == motor]
+        predictions = extracted_items(args.generado, motor)
         for stratum in ("general", "desafio", "combinado"):
             selected = (
                 motor_entries
@@ -232,7 +304,7 @@ def main() -> int:
             reports.append(
                 {
                     "version": "1.0.0",
-                    "obra_id": "AA-SP-V1",
+                    "obra_id": PILOTO_ID,
                     "motor": motor,
                     "estrato": stratum,
                     **metrics(gold, predicted, unit_ids),
