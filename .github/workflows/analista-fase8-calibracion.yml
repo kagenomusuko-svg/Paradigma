@@ -8,8 +8,11 @@ on:
       - "analista/pruebas/validar_infra_calibracion_fase8.py"
       - "analista/pruebas/validar_patron_oro_fase8.py"
       - "analista/pruebas/validar_umbrales_fase8.py"
+      - "analista/pruebas/validar_calibracion_definiciones_fase8.py"
       - "analista/pruebas/validar_calibracion_relaciones_fase8.py"
+      - "analista/pruebas/validar_definiciones_fase4b.py"
       - "analista/pruebas/validar_relaciones_fase4e.py"
+      - "analista/motores/definiciones.py"
       - "analista/motores/formulas.py"
       - "analista/motores/relaciones_explicitas.py"
       - "analista/motores/limitadores.py"
@@ -33,6 +36,10 @@ jobs:
         with:
           python-version: "3.12"
       - run: python -m pip install --quiet jsonschema
+      - name: Reconstruir producto 4B calibrado
+        run: python analista/motores/definiciones.py
+      - name: Validar producto real 4B
+        run: python analista/pruebas/validar_definiciones_fase4b.py
       - name: Reconstruir producto 4D calibrado
         run: python analista/motores/formulas.py
       - name: Validar producto real 4D
@@ -45,7 +52,9 @@ jobs:
         run: python analista/pruebas/validar_patron_oro_fase8.py
       - name: Validar infraestructura de calibración
         run: python analista/pruebas/validar_infra_calibracion_fase8.py
-      - name: Validar mejora de 4E frente al baseline
+      - name: Validar calibración de 4B
+        run: python analista/pruebas/validar_calibracion_definiciones_fase8.py
+      - name: Validar calibración de 4E
         run: python analista/pruebas/validar_calibracion_relaciones_fase8.py
       - name: Probar gate de umbrales
         run: python analista/pruebas/validar_umbrales_fase8.py
@@ -60,6 +69,8 @@ jobs:
         with:
           name: analista-fase8-calibracion
           path: |
+            analista/generado/definiciones.jsonl
+            analista/generado/cobertura-definiciones.jsonl
             analista/generado/formulas-candidatas.jsonl
             analista/generado/cobertura-formulas.jsonl
             analista/generado/relaciones-explicitas.jsonl
