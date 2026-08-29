@@ -20,7 +20,7 @@ EXPECTED_PRODUCER={
  'concepto':('conceptos_apariciones','1.0.0'),
  'definicion':('definiciones','1.0.0'),
  'afirmacion':('afirmaciones','1.0.0'),
- 'formula':('formulas','1.0.1'),
+ 'formula':('formulas','1.1.0'),
  'relacion_explicita':('relaciones_explicitas','1.0.0'),
  'distincion':('limitadores','1.0.1'),
  'negacion':('limitadores','1.0.1'),
