@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "obra_id": "AA-SP-V1",
+  "motor": "conceptos_apariciones",
+  "revision_manual": true,
+  "regla_deteccion": "Toda coincidencia literal exacta, con frontera de palabra y espacios internos flexibles, de uno de los 21 lemas técnicos congelados se anota como aparicion_conceptual. No se generan plurales, abreviaturas, sinónimos ni variantes semánticas.",
+  "regla_identidad": "Fuera de la declaración del glosario, concepto_designacion solo se determina cuando la coincidencia reproduce exactamente una designación técnica de más de una palabra. Las palabras simples permanecen con identidad null aunque el contexto parezca técnico.",
+  "regla_concepto": "Una fila tipo concepto solo se anota cuando la muestra contiene la línea declarativa del lema en el glosario; estado de identidad esperado: establecida_por_evidencia.",
+  "lemas": [
+    "Mediación fanes",
+    "Ego primordial",
+    "Pasión — dimensión arética",
+    "Determinación",
+    "Identidad",
+    "Colapso",
+    "Afasia volitiva",
+    "Trayectoria del ego",
+    "Posibilidades negadas",
+    "Caos",
+    "Aego",
+    "Mediación bis",
+    "Integral del ego — I(t)",
+    "φ₁ — Primera mediación",
+    "Pasión — dimensión afrodítica",
+    "Ego",
+    "Mediación neutral",
+    "Singularidad ontológica",
+    "φ₂ — Segunda mediación",
+    "Responsabilidad",
+    "Pasión"
+  ],
+  "declaraciones_en_muestra_general": [
+    {"unidad_id": "UT-428B3A62142E", "lema": "Trayectoria del ego", "linea": 167},
+    {"unidad_id": "UT-428B3A62142E", "lema": "φ₁ — Primera mediación", "linea": 177},
+    {"unidad_id": "UT-428B3A62142E", "lema": "φ₂ — Segunda mediación", "linea": 184}
+  ],
+  "producto_manual_congelado": {
+    "desafio": {
+      "unidades": 10,
+      "apariciones": 70,
+      "identidades_evaluables": 8,
+      "conceptos": 0,
+      "sha256_jsonl": "a288f5c4e7bb8cd298099a231bf1c79eb9b4e6dfa46e1469b9c9c02f5aa97ab2"
+    },
+    "general": {
+      "unidades": 31,
+      "apariciones": 111,
+      "identidades_evaluables": 17,
+      "conceptos": 3,
+      "items_totales": 114,
+      "sha256_jsonl": "de1648936ff110c54634cb1a30ab7eb7d96c9612bd1510c64763ba88c030971b"
+    }
+  },
+  "nota": "Los hashes corresponden a los JSONL materializados y revisados antes de cerrar la calibración de 4A v1.1. La política no consulta apariciones-conceptuales.jsonl ni conceptos.jsonl para decidir el gold."
+}
