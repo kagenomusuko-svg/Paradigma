@@ -8,7 +8,10 @@ on:
       - "analista/pruebas/validar_infra_calibracion_fase8.py"
       - "analista/pruebas/validar_patron_oro_fase8.py"
       - "analista/pruebas/validar_umbrales_fase8.py"
+      - "analista/pruebas/validar_calibracion_relaciones_fase8.py"
+      - "analista/pruebas/validar_relaciones_fase4e.py"
       - "analista/motores/formulas.py"
+      - "analista/motores/relaciones_explicitas.py"
       - "analista/motores/limitadores.py"
       - "analista/generado/unidades.jsonl"
       - "analista/generado/definiciones.jsonl"
@@ -34,10 +37,16 @@ jobs:
         run: python analista/motores/formulas.py
       - name: Validar producto real 4D
         run: python analista/pruebas/validar_formulas_fase4d.py
+      - name: Reconstruir producto 4E calibrado
+        run: python analista/motores/relaciones_explicitas.py
+      - name: Validar producto real 4E
+        run: python analista/pruebas/validar_relaciones_fase4e.py
       - name: Validar patrón de oro manifestado
         run: python analista/pruebas/validar_patron_oro_fase8.py
       - name: Validar infraestructura de calibración
         run: python analista/pruebas/validar_infra_calibracion_fase8.py
+      - name: Validar mejora de 4E frente al baseline
+        run: python analista/pruebas/validar_calibracion_relaciones_fase8.py
       - name: Probar gate de umbrales
         run: python analista/pruebas/validar_umbrales_fase8.py
       - name: Evaluar motores ya anotados
@@ -53,6 +62,8 @@ jobs:
           path: |
             analista/generado/formulas-candidatas.jsonl
             analista/generado/cobertura-formulas.jsonl
+            analista/generado/relaciones-explicitas.jsonl
+            analista/generado/cobertura-relaciones.jsonl
             analista/generado/reporte-calibracion.json
             analista/generado/cierre-fase8.json
           if-no-files-found: warn
