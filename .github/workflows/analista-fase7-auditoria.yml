@@ -1,0 +1,70 @@
+name: Analista Fase 7 - auditoria intraobra
+
+on:
+  push:
+    branches: [analisis-textual-v0.1]
+    paths:
+      - 'analista/esquema/**'
+      - 'analista/motores/auditor_estructural.py'
+      - 'analista/motores/auditor_descriptivo.py'
+      - 'analista/pruebas/validar_auditor_estructural_fase7a.py'
+      - 'analista/pruebas/validar_auditor_descriptivo_fase7b.py'
+      - '.github/workflows/analista-fase7-auditoria.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  auditar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: python -m pip install --disable-pip-version-check jsonschema
+
+      - name: Regenerar productos previos no persistidos
+        run: |
+          python analista/motores/formulas.py
+          python analista/motores/limitadores.py
+          python analista/motores/normalizacion.py
+          python analista/motores/verificador_evidencia.py
+
+      - name: Auditar estructura 7A
+        run: python analista/motores/auditor_estructural.py
+
+      - name: Validar 7A sobre producto real
+        run: python analista/pruebas/validar_auditor_estructural_fase7a.py
+
+      - name: Auditar descriptivamente 7B
+        run: python analista/motores/auditor_descriptivo.py
+
+      - name: Validar 7B sobre producto real
+        run: python analista/pruebas/validar_auditor_descriptivo_fase7b.py
+
+      - name: Publicar artefacto auditado
+        uses: actions/upload-artifact@v4
+        with:
+          name: analista-fase7-auditoria
+          path: |
+            analista/generado/auditados/*.jsonl
+            analista/generado/hallazgos-auditoria.jsonl
+          if-no-files-found: error
+
+      - name: Persistir productos auditados
+        if: github.actor != 'github-actions[bot]'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add analista/generado/auditados analista/generado/hallazgos-auditoria.jsonl
+          if git diff --cached --quiet; then
+            echo 'Sin cambios generados.'
+          else
+            git commit -m 'Generar productos auditados de Fase 7'
+            git push
+          fi
