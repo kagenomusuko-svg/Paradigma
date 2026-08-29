@@ -14,6 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 VALIDADOR = ROOT / "analista/calibracion/validar_patron_oro.py"
 MATERIALIZADOR_4A = ROOT / "analista/calibracion/materializar_oro_conceptos.py"
+MATERIALIZADOR_4C = ROOT / "analista/calibracion/materializar_oro_afirmaciones.py"
 MANIFEST = ROOT / "analista/calibracion/patron-oro-manifiesto.json"
 SCHEMA = ROOT / "analista/calibracion/patron-oro-v1.0.0.schema.json"
 LOCK = ROOT / "analista/calibracion/muestra-fase8.lock.json"
@@ -66,12 +67,13 @@ def expect_manifest_failure(mutator, expected: str) -> None:
 
 def main() -> int:
     subprocess.run([sys.executable, str(MATERIALIZADOR_4A)], cwd=ROOT, check=True)
+    subprocess.run([sys.executable, str(MATERIALIZADOR_4C)], cwd=ROOT, check=True)
     rows = load_gold()
     result = mod.validate_manifest(manifest=MANIFEST, schema=SCHEMA, lock=LOCK, units=UNIDADES, corpus_root=ROOT)
     if result != {
-        "revisiones": 161,
-        "items": 266,
-        "motores": ["conceptos_apariciones", "definiciones", "formulas", "relaciones_explicitas"],
+        "revisiones": 203,
+        "items": 324,
+        "motores": ["afirmaciones", "conceptos_apariciones", "definiciones", "formulas", "relaciones_explicitas"],
         "archivos_gold": [
             "patron-oro.jsonl",
             "patron-oro-formulas.jsonl",
@@ -82,6 +84,7 @@ def main() -> int:
             "patron-oro-definiciones-general.jsonl",
             "patron-oro-conceptos-desafio.jsonl",
             "patron-oro-conceptos-general.jsonl",
+            "patron-oro-afirmaciones.jsonl",
         ],
         "reemplazos": 3,
     }:
@@ -90,6 +93,8 @@ def main() -> int:
     by_motor_stratum = Counter((row["motor"], stratum) for row in rows for stratum in row["estratos"])
     assert by_motor_stratum[("conceptos_apariciones", "general")] == 31
     assert by_motor_stratum[("conceptos_apariciones", "desafio")] == 10
+    assert by_motor_stratum[("afirmaciones", "general")] == 31
+    assert by_motor_stratum[("afirmaciones", "desafio")] == 12
     assert by_motor_stratum[("formulas", "general")] == 31
     assert by_motor_stratum[("formulas", "desafio")] == 18
     assert by_motor_stratum[("relaciones_explicitas", "general")] == 31
@@ -107,10 +112,28 @@ def main() -> int:
     assert len(general_concept_items) == 114
     assert sum(item["tipo_registro"] == "aparicion_conceptual" for item in general_concept_items) == 111
     assert sum(item["tipo_registro"] == "concepto" for item in general_concept_items) == 3
-    assert sum(
-        item["tipo_registro"] == "aparicion_conceptual" and item["concepto_designacion"] is not None
-        for item in general_concept_items
-    ) == 17
+    assert sum(item["tipo_registro"] == "aparicion_conceptual" and item["concepto_designacion"] is not None for item in general_concept_items) == 17
+
+    general_assertions = [row for row in rows if row["motor"] == "afirmaciones" and "general" in row["estratos"]]
+    challenge_assertions = [row for row in rows if row["motor"] == "afirmaciones" and "desafio" in row["estratos"]]
+    general_assertion_items = [item for row in general_assertions for item in row["items_esperados"]]
+    challenge_assertion_items = [item for row in challenge_assertions for item in row["items_esperados"]]
+    assert len(general_assertion_items) == 34
+    assert len(challenge_assertion_items) == 26
+    all_assertion_items = [
+        item for row in rows if row["motor"] == "afirmaciones" for item in row["items_esperados"]
+    ]
+    assert len(all_assertion_items) == 58
+    assert Counter(item["clasificacion"] for item in all_assertion_items) == Counter({"afirmacion_explicita": 49, "afirmacion_candidata": 9})
+    assert Counter(item["estatus_enunciativo"] for item in all_assertion_items) == Counter({
+        "afirmacion_autoral": 27,
+        "discurso_referido": 17,
+        "negacion_autoral": 7,
+        "formulacion_condicional": 3,
+        "ejemplo": 2,
+        "objecion": 1,
+        "pregunta": 1,
+    })
 
     general_formulas = [row for row in rows if row["motor"] == "formulas" and "general" in row["estratos"]]
     desafio_formulas = [row for row in rows if row["motor"] == "formulas" and "desafio" in row["estratos"]]
@@ -166,9 +189,8 @@ def main() -> int:
     expect_manifest_failure(lambda doc: doc["reemplazos"][0].update({"archivo_sustituto": "patron-oro.jsonl"}), "Origen y sustituto no pueden coincidir")
 
     print(
-        "OK Fase 8 infraestructura: patrón efectivo 161 revisiones/266 ítems; 4A = 31 general/114 "
-        "ítems + 10 desafío/70; 3 sustituciones explícitas; definiciones 31 general/12 + 7 desafío/21; "
-        "fórmulas 31 general negativas + 18 desafío/21; relaciones 31 general/14 + 2 desafío/14."
+        "OK Fase 8 infraestructura: patrón efectivo 203 revisiones/324 ítems; 4A, 4B, 4C, 4D y 4E "
+        "manifestados; 4C = 31 general/34 + 12 desafío/26; 3 sustituciones históricas explícitas."
     )
     return 0
 
