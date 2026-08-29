@@ -80,8 +80,8 @@ def main() -> int:
         corpus_root=ROOT,
     )
     if result != {
-        "revisiones": 89,
-        "items": 70,
+        "revisiones": 120,
+        "items": 82,
         "motores": ["definiciones", "formulas", "relaciones_explicitas"],
         "archivos_gold": [
             "patron-oro.jsonl",
@@ -90,6 +90,7 @@ def main() -> int:
             "patron-oro-relaciones-general.jsonl",
             "patron-oro-relaciones-desafio-v2.jsonl",
             "patron-oro-relaciones-general-correccion-v2.jsonl",
+            "patron-oro-definiciones-general.jsonl",
         ],
         "reemplazos": 3,
     }:
@@ -104,31 +105,29 @@ def main() -> int:
     assert by_motor_stratum[("formulas", "desafio")] == 18
     assert by_motor_stratum[("relaciones_explicitas", "general")] == 31
     assert by_motor_stratum[("relaciones_explicitas", "desafio")] == 2
+    assert by_motor_stratum[("definiciones", "general")] == 31
+    assert by_motor_stratum[("definiciones", "desafio")] == 7
 
-    general_formulas = [
-        row for row in rows
-        if row["motor"] == "formulas" and "general" in row["estratos"]
-    ]
-    desafio_formulas = [
-        row for row in rows
-        if row["motor"] == "formulas" and "desafio" in row["estratos"]
-    ]
+    general_formulas = [row for row in rows if row["motor"] == "formulas" and "general" in row["estratos"]]
+    desafio_formulas = [row for row in rows if row["motor"] == "formulas" and "desafio" in row["estratos"]]
     assert all(not row["items_esperados"] for row in general_formulas)
     assert sum(len(row["items_esperados"]) for row in desafio_formulas) == 21
 
-    general_relations = [
-        row for row in rows
-        if row["motor"] == "relaciones_explicitas" and "general" in row["estratos"]
-    ]
-    desafio_relations = [
-        row for row in rows
-        if row["motor"] == "relaciones_explicitas" and "desafio" in row["estratos"]
-    ]
+    general_relations = [row for row in rows if row["motor"] == "relaciones_explicitas" and "general" in row["estratos"]]
+    desafio_relations = [row for row in rows if row["motor"] == "relaciones_explicitas" and "desafio" in row["estratos"]]
     assert sum(bool(row["items_esperados"]) for row in general_relations) == 6
     assert sum(len(row["items_esperados"]) for row in general_relations) == 14
     assert sum(len(row["items_esperados"]) for row in desafio_relations) == 14
 
-    # Las filas históricas sustituidas no sobreviven al conjunto efectivo.
+    general_definitions = [row for row in rows if row["motor"] == "definiciones" and "general" in row["estratos"]]
+    desafio_definitions = [row for row in rows if row["motor"] == "definiciones" and "desafio" in row["estratos"]]
+    definition_items = [item for row in general_definitions for item in row["items_esperados"]]
+    assert sum(bool(row["items_esperados"]) for row in general_definitions) == 9
+    assert len(definition_items) == 12
+    assert sum(item["clasificacion"] == "definicion_explicita" for item in definition_items) == 7
+    assert sum(item["clasificacion"] == "definicion_candidata" for item in definition_items) == 5
+    assert sum(len(row["items_esperados"]) for row in desafio_definitions) == 21
+
     historical = [
         row for row in mod.load_jsonl(MANIFEST.parent / "patron-oro.jsonl")
         if row["motor"] == "relaciones_explicitas"
@@ -136,11 +135,7 @@ def main() -> int:
     assert [sum(len(row["items_esperados"]) for row in historical), len(historical)] == [4, 2]
     assert [sum(len(row["items_esperados"]) for row in desafio_relations), len(desafio_relations)] == [14, 2]
 
-    # La corrección v2 no cambia la relación Pasión→Ego ni el rango, solo elimina
-    # un artículo que estaba en la línea 153 y no pertenecía al rango 154–155.
-    corrected = next(
-        row for row in general_relations if row["unidad_id"] == "UT-4EC2EC8C08A8"
-    )
+    corrected = next(row for row in general_relations if row["unidad_id"] == "UT-4EC2EC8C08A8")
     passion_ego = next(
         item for item in corrected["items_esperados"]
         if item["sujeto_designacion"] == "Pasión" and item["objeto_designacion"] == "Ego"
@@ -185,10 +180,10 @@ def main() -> int:
     )
 
     print(
-        "OK Fase 8 infraestructura: patrón efectivo 89 revisiones/70 ítems; 3 sustituciones "
-        "históricas/correctivas explícitas; fórmulas 31 general negativas + 18 desafío/21 ítems; "
-        "relaciones 31 general/14 ítems en 6 unidades + 2 desafío/14 ítems; corrección literal "
-        "v2 anclada; 8 corrupciones/reemplazos inválidos rechazados."
+        "OK Fase 8 infraestructura: patrón efectivo 120 revisiones/82 ítems; 3 sustituciones explícitas; "
+        "definiciones 31 general/12 ítems (7 explícitas, 5 candidatas) + 7 desafío/21; fórmulas 31 "
+        "general negativas + 18 desafío/21; relaciones 31 general/14 + 2 desafío/14; 8 corrupciones o "
+        "reemplazos inválidos rechazados."
     )
     return 0
 
