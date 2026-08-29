@@ -24,10 +24,7 @@ spec.loader.exec_module(mod)
 
 
 def load_gold() -> list[dict]:
-    rows: list[dict] = []
-    for path in mod.manifest_files(MANIFEST):
-        rows.extend(mod.load_jsonl(path))
-    return rows
+    return mod.manifest_rows(MANIFEST)
 
 
 def validate(path: Path) -> dict:
@@ -56,6 +53,23 @@ def expect_failure(rows: list[dict], expected: str) -> None:
         raise AssertionError(f"La mutación debía fallar: {expected}")
 
 
+def expect_manifest_failure(mutator, expected: str) -> None:
+    doc = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    mutator(doc)
+    temporary = MANIFEST.parent / ".patron-oro-manifiesto-prueba.tmp.json"
+    try:
+        temporary.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        try:
+            mod.effective_manifest_rows(temporary)
+        except AssertionError as exc:
+            if expected not in str(exc):
+                raise AssertionError(f"Se esperaba {expected!r}; obtenido={exc}") from exc
+            return
+        raise AssertionError(f"El manifiesto mutado debía fallar: {expected}")
+    finally:
+        temporary.unlink(missing_ok=True)
+
+
 def main() -> int:
     rows = load_gold()
     result = mod.validate_manifest(
@@ -67,14 +81,16 @@ def main() -> int:
     )
     if result != {
         "revisiones": 89,
-        "items": 60,
+        "items": 70,
         "motores": ["definiciones", "formulas", "relaciones_explicitas"],
         "archivos_gold": [
             "patron-oro.jsonl",
             "patron-oro-formulas.jsonl",
             "patron-oro-formulas-general.jsonl",
             "patron-oro-relaciones-general.jsonl",
+            "patron-oro-relaciones-desafio-v2.jsonl",
         ],
+        "reemplazos": 2,
     }:
         raise AssertionError(f"Producto real inesperado: {result}")
 
@@ -109,7 +125,15 @@ def main() -> int:
     ]
     assert sum(bool(row["items_esperados"]) for row in general_relations) == 6
     assert sum(len(row["items_esperados"]) for row in general_relations) == 14
-    assert sum(len(row["items_esperados"]) for row in desafio_relations) == 4
+    assert sum(len(row["items_esperados"]) for row in desafio_relations) == 14
+
+    # Las filas históricas sustituidas no sobreviven al conjunto efectivo.
+    historical = [
+        row for row in mod.load_jsonl(MANIFEST.parent / "patron-oro.jsonl")
+        if row["motor"] == "relaciones_explicitas"
+    ]
+    assert [sum(len(row["items_esperados"]) for row in historical), len(historical)] == [4, 2]
+    assert [sum(len(row["items_esperados"]) for row in desafio_relations), len(desafio_relations)] == [14, 2]
 
     mutated = copy.deepcopy(rows)
     mutated.append(copy.deepcopy(rows[0]))
@@ -131,10 +155,23 @@ def main() -> int:
     mutated[0]["items_esperados"][0]["tipo_registro"] = "formula"
     expect_failure(mutated, "no pertenece al motor")
 
+    expect_manifest_failure(
+        lambda doc: doc["reemplazos"].append(copy.deepcopy(doc["reemplazos"][0])),
+        "Reemplazo duplicado unidad–motor",
+    )
+    expect_manifest_failure(
+        lambda doc: doc["reemplazos"][0].update({"archivo_origen": "inexistente.jsonl"}),
+        "archivo no declarado",
+    )
+    expect_manifest_failure(
+        lambda doc: doc["reemplazos"][0].update({"archivo_sustituto": "patron-oro.jsonl"}),
+        "Origen y sustituto no pueden coincidir",
+    )
+
     print(
-        "OK Fase 8 infraestructura: patrón manifestado real 89 revisiones/60 ítems; "
-        "fórmulas 31 general negativas + 18 desafío/21 ítems; relaciones 31 general/14 ítems "
-        "en 6 unidades + 2 desafío/4 ítems; 5 corrupciones manuales rechazadas."
+        "OK Fase 8 infraestructura: patrón efectivo 89 revisiones/70 ítems; 2 sustituciones "
+        "históricas explícitas; fórmulas 31 general negativas + 18 desafío/21 ítems; relaciones "
+        "31 general/14 ítems en 6 unidades + 2 desafío/14 ítems; 8 corrupciones/reemplazos inválidos rechazados."
     )
     return 0
 
