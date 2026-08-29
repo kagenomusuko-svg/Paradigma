@@ -7,9 +7,9 @@ literal exacta (ignorando solo caja/NFKC y saltos de línea de maquetación), sa
 el lema técnico activo del glosario, que aporta el sujeto contextual de su propia
 definición.
 
-No resuelve abreviaturas, plurales, similitud semántica, transitividad ni
-coaparición. Los patrones son familias sintácticas; no contienen IDs de la
-muestra de Fase 8 ni consultan el patrón de oro.
+No resuelve abreviaturas, plurales, compuestos con guion, similitud semántica,
+transitividad ni coaparición. Los patrones son familias sintácticas; no contienen
+IDs de la muestra de Fase 8 ni consultan el patrón de oro.
 """
 from __future__ import annotations
 
@@ -39,15 +39,27 @@ def norm(text: str) -> str:
 
 
 def concept_term_regex(name: str) -> str:
-    """Patrón de una designación exacta con whitespace de maquetación flexible."""
-    parts = name.split()
-    body = r"\s+".join(re.escape(part) for part in parts)
-    return rf"(?<!\w)(?:{body})(?!\w)"
+    """Designación exacta con whitespace de maquetación flexible.
+
+    Los guiones léxicos adyacentes invalidan la coincidencia: `voluntad-pasión`
+    no es una aparición literal autónoma del concepto `Pasión`. Una raya de
+    puntuación sí puede cerrar la mención (`determinación—`).
+    """
+    body = r"\s+".join(re.escape(part) for part in name.split())
+    return rf"(?<![\w\-‐‑])(?:{body})(?![\w\-‐‑])"
 
 
 def stable_id(prefix: str, *parts: str) -> str:
     raw = "\x1f".join(parts).encode("utf-8")
     return f"{prefix}-{hashlib.sha1(raw).hexdigest()[:12].upper()}"
+
+
+def relation_id(subject_id: str, target_id: str, route: str, start: int, end: int, literal: str) -> str:
+    # Preserva exactamente el algoritmo v1.0.0 para las cuatro relaciones
+    # históricas monolínea. Solo los nuevos rangos multilínea incorporan fin.
+    if start == end:
+        return stable_id("REL", subject_id, target_id, route, str(start), literal)
+    return stable_id("REL", subject_id, target_id, route, str(start), str(end), literal)
 
 
 def load_jsonl(path: Path) -> list[dict]:
@@ -159,9 +171,7 @@ def main() -> int:
         if identity in seen_records:
             return
         seen_records.add(identity)
-        record_id = stable_id(
-            "REL", subject["id"], target["id"], route, str(start_line), str(end_line), literal
-        )
+        record_id = relation_id(subject["id"], target["id"], route, start_line, end_line, literal)
         record = base(record_id, "relacion_explicita", literal, "extraido", "pendiente")
         record.update(
             {
@@ -180,7 +190,6 @@ def main() -> int:
         )
         relations.append(record)
 
-    # --- Glosario: el lema técnico activo puede aportar el sujeto contextual. ---
     term_positions: list[tuple[int, dict]] = []
     seen_concepts: set[str] = set()
     for line_no, line in enumerate(glosario_lines, start=1):
@@ -188,9 +197,7 @@ def main() -> int:
         if concept is None:
             continue
         if concept["id"] in seen_concepts:
-            raise SystemExit(
-                f"El lema {concept['designacion_operativa']!r} aparece como línea autónoma más de una vez."
-            )
+            raise SystemExit(f"El lema {concept['designacion_operativa']!r} aparece más de una vez.")
         seen_concepts.add(concept["id"])
         term_positions.append((line_no, concept))
     if seen_concepts != set(concept_by_id):
@@ -222,7 +229,6 @@ def main() -> int:
         block = "\n".join(block_lines)
         block_base_line = term_line + 1
 
-        # Remisiones y formulación "Nombre técnico" conservan el comportamiento v1.0.0.
         for offset, literal in enumerate(block_lines):
             line_no = block_base_line + offset
             direct = NOMBRE_TECNICO_RE.match(literal)
@@ -234,8 +240,7 @@ def main() -> int:
             crossref = CF_RE.search(literal)
             if crossref:
                 for raw_target in crossref.group(1).split(","):
-                    target_text = raw_target.strip().rstrip(".;")
-                    target = concept_by_norm.get(norm(target_text))
+                    target = concept_by_norm.get(norm(raw_target.strip().rstrip(".;")))
                     if target is not None:
                         emit(subject, target, literal, glosario_rel, line_no, line_no)
 
@@ -250,9 +255,6 @@ def main() -> int:
                 end_line_match = start_line + literal.count("\n")
                 emit(subject, target, literal, glosario_rel, start_line, end_line_match)
 
-        # En la definición de Trayectoria del ego, la frase puede predicar del Ego
-        # usando "la trayectoria" sin repetir el lema completo; el lema activo fija
-        # inequívocamente el referente contextual, sin normalizar una variante léxica.
         if subject["designacion_operativa"] == "Trayectoria del ego":
             for match in inverse_trajectory_re.finditer(block):
                 source = concept_from_surface(match.group("s"))
@@ -264,14 +266,17 @@ def main() -> int:
                 end_line_match = start_line + literal.count("\n")
                 emit(source, subject, literal, glosario_rel, start_line, end_line_match)
 
-    # --- Prosa: patrones sintácticos conservadores entre menciones exactas. ---
-    # Este pase también recorre el glosario. Los registros coincidentes con el pase
-    # contextual se deduplican por pareja, literal y rango; así puede recuperar una
-    # predicación cuyo sujeto explícito no sea el lema activo del bloque.
+    # Patrones gramaticales que exigen que el concepto-sujeto quede ligado al
+    # verbo sin atravesar una coma/colon que introduzca otro sujeto textual.
     direct_re = re.compile(
-        rf"(?P<s>{term_alt})(?P<m>(?:(?![.;]).){{0,140}}?\b(?:produce|produjo|producido|"
-        rf"construye|construyó|determina|determinó|condiciona|constituye|crece)\b"
-        rf"(?:(?![.;]).){{0,140}}?)(?P<o>{term_alt})",
+        rf"(?P<s>{term_alt})(?P<m>(?:(?![,;:.]).){{0,90}}?\b(?:produce|produjo|producido|"
+        rf"construye|construyó|determina|determinó|condiciona|constituye)\b"
+        rf"(?:(?![.;]).){{0,120}}?)(?P<o>{term_alt})",
+        re.IGNORECASE | re.DOTALL,
+    )
+    crece_re = re.compile(
+        rf"(?P<s>{term_alt})(?:(?![.;]).){{0,180}}?\bcrece\b(?:(?![.;]).){{0,120}}?"
+        rf"\bcon\b(?:(?![.;]).){{0,120}}?(?P<o>{term_alt})",
         re.IGNORECASE | re.DOTALL,
     )
     es_de_re = re.compile(
@@ -288,7 +293,7 @@ def main() -> int:
         re.IGNORECASE | re.DOTALL,
     )
     relative_re = re.compile(
-        rf"la existencia de un\s+(?P<o>{term_alt})\s+que la\s+(?P<s>{term_alt})\s+"
+        rf"existencia de un\s+(?P<o>{term_alt})\s+que la\s+(?P<s>{term_alt})\s+"
         rf"(?:(?!\.).){{1,180}}?\.",
         re.IGNORECASE | re.DOTALL,
     )
@@ -316,20 +321,20 @@ def main() -> int:
             candidates.append(Candidate(subject["id"], target["id"], start, end, priority))
 
         for match in determined_re.finditer(text):
-            add_match(match, 100)
+            add_match(match, 110)
         for match in relative_re.finditer(text):
-            add_match(match, 95, expand_left=False)
+            add_match(match, 105, expand_left=False)
         for match in iteracion_re.finditer(text):
-            add_match(match, 90, expand_left=False)
+            add_match(match, 100, expand_left=False)
+        for match in crece_re.finditer(text):
+            add_match(match, 95)
         for match in como_re.finditer(text):
-            add_match(match, 85)
+            add_match(match, 90)
         for match in es_de_re.finditer(text):
-            add_match(match, 80)
+            add_match(match, 85)
         for match in direct_re.finditer(text):
             add_match(match, 70)
 
-        # Para una misma pareja y evidencia solapada conserva el patrón más
-        # específico/largo; evita duplicar una relación por reglas anidadas.
         candidates.sort(key=lambda c: (-c.priority, c.start, -(c.end - c.start), c.subject_id, c.target_id))
         selected: list[Candidate] = []
         for candidate in candidates:
