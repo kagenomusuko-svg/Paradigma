@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "obra_id": "AA-SP-V1",
+  "regla": "Todos los umbrales se evalúan por separado en los estratos general y desafio. El combinado es informativo y no sustituye el cumplimiento de ambos estratos.",
+  "motores": {
+    "conceptos_apariciones": {
+      "precision_minima": 0.95,
+      "cobertura_minima": 0.90,
+      "exactitud_identidad_minima": 1.0,
+      "nota": "La identidad conceptual solo se evalúa donde el patrón manual la determina expresamente."
+    },
+    "definiciones": {
+      "precision_minima": 0.95,
+      "cobertura_minima": 0.90,
+      "exactitud_clasificacion_minima": 0.95
+    },
+    "afirmaciones": {
+      "precision_minima": 0.90,
+      "cobertura_minima": 0.85,
+      "exactitud_estatus_minima": 0.95,
+      "nota": "El umbral de detección es menor por tratarse de recuperación candidata; la clasificación enunciativa se mide aparte."
+    },
+    "formulas": {
+      "precision_minima": 0.98,
+      "cobertura_minima": 0.95,
+      "exactitud_clasificacion_minima": 0.98
+    },
+    "relaciones_explicitas": {
+      "precision_minima": 1.0,
+      "cobertura_minima": 0.95,
+      "exactitud_clasificacion_minima": 1.0,
+      "nota": "No se admite relación explícita espuria en producción; abreviaturas o transitividad no cuentan como evidencia."
+    },
+    "limitadores": {
+      "precision_minima": 0.90,
+      "cobertura_minima": 0.85,
+      "exactitud_clasificacion_minima": 0.95,
+      "nota": "La detección candidata se separa de la decisión de voz, alcance o explicitud."
+    }
+  }
+}
