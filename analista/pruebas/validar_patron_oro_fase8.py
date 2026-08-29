@@ -89,8 +89,9 @@ def main() -> int:
             "patron-oro-formulas-general.jsonl",
             "patron-oro-relaciones-general.jsonl",
             "patron-oro-relaciones-desafio-v2.jsonl",
+            "patron-oro-relaciones-general-correccion-v2.jsonl",
         ],
-        "reemplazos": 2,
+        "reemplazos": 3,
     }:
         raise AssertionError(f"Producto real inesperado: {result}")
 
@@ -135,6 +136,21 @@ def main() -> int:
     assert [sum(len(row["items_esperados"]) for row in historical), len(historical)] == [4, 2]
     assert [sum(len(row["items_esperados"]) for row in desafio_relations), len(desafio_relations)] == [14, 2]
 
+    # La corrección v2 no cambia la relación Pasión→Ego ni el rango, solo elimina
+    # un artículo que estaba en la línea 153 y no pertenecía al rango 154–155.
+    corrected = next(
+        row for row in general_relations if row["unidad_id"] == "UT-4EC2EC8C08A8"
+    )
+    passion_ego = next(
+        item for item in corrected["items_esperados"]
+        if item["sujeto_designacion"] == "Pasión" and item["objeto_designacion"] == "Ego"
+    )
+    assert passion_ego["linea_inicio"] == 154 and passion_ego["linea_fin"] == 155
+    assert passion_ego["texto_literal"] == (
+        "existencia de un ego que la pasión construyó con\n"
+        "anterioridad al pensamiento que lo encuentra."
+    )
+
     mutated = copy.deepcopy(rows)
     mutated.append(copy.deepcopy(rows[0]))
     expect_failure(mutated, "duplicada unidad–motor")
@@ -169,9 +185,10 @@ def main() -> int:
     )
 
     print(
-        "OK Fase 8 infraestructura: patrón efectivo 89 revisiones/70 ítems; 2 sustituciones "
-        "históricas explícitas; fórmulas 31 general negativas + 18 desafío/21 ítems; relaciones "
-        "31 general/14 ítems en 6 unidades + 2 desafío/14 ítems; 8 corrupciones/reemplazos inválidos rechazados."
+        "OK Fase 8 infraestructura: patrón efectivo 89 revisiones/70 ítems; 3 sustituciones "
+        "históricas/correctivas explícitas; fórmulas 31 general negativas + 18 desafío/21 ítems; "
+        "relaciones 31 general/14 ítems en 6 unidades + 2 desafío/14 ítems; corrección literal "
+        "v2 anclada; 8 corrupciones/reemplazos inválidos rechazados."
     )
     return 0
 
