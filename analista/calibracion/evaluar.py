@@ -19,6 +19,7 @@ DEFAULT_GENERATED = ROOT / "analista/generado"
 DEFAULT_MANIFEST = ROOT / "analista/calibracion/patron-oro-manifiesto.json"
 DEFAULT_OUTPUT = ROOT / "analista/generado/reporte-calibracion.json"
 PILOTO_ID = "AA-SP-V1"
+REPORT_VERSION = "1.1.0"
 
 MOTOR_FILES = {
     "conceptos_apariciones": ["apariciones-conceptuales.jsonl", "conceptos.jsonl"],
@@ -207,6 +208,8 @@ def metrics(gold: list[dict], predicted: list[dict], units: set[str]) -> dict:
     gold_counter = Counter(detection_key(item) for item in gold)
     predicted_counter = Counter(detection_key(item) for item in predicted)
     intersection = gold_counter & predicted_counter
+    expected_positives = sum(gold_counter.values())
+    emitted_predictions = sum(predicted_counter.values())
     true_positive = sum(intersection.values())
     false_positive = sum((predicted_counter - gold_counter).values())
     false_negative = sum((gold_counter - predicted_counter).values())
@@ -235,6 +238,8 @@ def metrics(gold: list[dict], predicted: list[dict], units: set[str]) -> dict:
                 identity_ok += int(expected.get("concepto_designacion") == actual.get("concepto_designacion"))
 
     return {
+        "positivos_esperados": expected_positives,
+        "predicciones_emitidas": emitted_predictions,
         "precision": precision,
         "cobertura": recall,
         "verdaderos_positivos": true_positive,
@@ -303,7 +308,7 @@ def main() -> int:
             predicted = [item for item in predictions if item["unidad_id"] in unit_ids]
             reports.append(
                 {
-                    "version": "1.0.0",
+                    "version": REPORT_VERSION,
                     "obra_id": PILOTO_ID,
                     "motor": motor,
                     "estrato": stratum,
@@ -316,7 +321,7 @@ def main() -> int:
         json.dumps({"reportes": reports}, ensure_ascii=False, sort_keys=True, indent=2) + "\n",
         encoding="utf-8",
     )
-    print(json.dumps({"reportes": len(reports), "motores": sorted({row["motor"] for row in reports})}, sort_keys=True))
+    print(json.dumps({"version": REPORT_VERSION, "reportes": len(reports), "motores": sorted({row["motor"] for row in reports})}, sort_keys=True))
     return 0
 
 
