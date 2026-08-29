@@ -7,7 +7,8 @@
     "patron-oro-formulas-general.jsonl",
     "patron-oro-relaciones-general.jsonl",
     "patron-oro-relaciones-desafio-v2.jsonl",
-    "patron-oro-relaciones-general-correccion-v2.jsonl"
+    "patron-oro-relaciones-general-correccion-v2.jsonl",
+    "patron-oro-definiciones-general.jsonl"
   ],
   "reemplazos": [
     {
