@@ -1,0 +1,109 @@
+name: Analista Fase 9 - maestro piloto
+
+on:
+  push:
+    branches: [analisis-textual-v0.1]
+    paths:
+      - "analista/motores/**"
+      - "analista/calibracion/**"
+      - "analista/esquema/**"
+      - "analista/pruebas/**"
+      - "analista/generado/fuentes.jsonl"
+      - "analista/generado/unidades.jsonl"
+      - "analista/generado/cobertura-unidades.jsonl"
+      - "corpus/fuentes/Afrodita_Areia_Sobre_la_Pasion.md"
+      - "corpus/libros/afrodita-areia/01-sobre-la-pasion/**"
+      - ".github/workflows/analista-fase9-maestro-piloto.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  maestro:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --quiet jsonschema referencing
+
+      - name: Materializar patrón de oro reproducible
+        run: |
+          python analista/calibracion/materializar_oro_conceptos.py
+          python analista/calibracion/materializar_oro_afirmaciones.py
+          python analista/calibracion/materializar_oro_limitadores.py
+
+      - name: Regenerar extractores calibrados Fase 4
+        run: |
+          python analista/motores/conceptos.py
+          python analista/motores/definiciones.py
+          python analista/motores/afirmaciones.py
+          python analista/motores/formulas.py
+          python analista/motores/relaciones_explicitas.py
+          python analista/motores/limitadores.py
+
+      - name: Validar productos reales Fase 4
+        run: |
+          python analista/pruebas/validar_conceptos_fase4a.py
+          python analista/pruebas/validar_definiciones_fase4b.py
+          python analista/pruebas/validar_afirmaciones_fase4c.py
+          python analista/pruebas/validar_formulas_fase4d.py
+          python analista/pruebas/validar_relaciones_fase4e.py
+          python analista/pruebas/validar_limitadores_fase4f.py
+
+      - name: Normalizar y validar Fase 5
+        run: |
+          python analista/motores/normalizacion.py
+          python analista/pruebas/validar_normalizacion_fase5.py
+
+      - name: Verificar evidencia Fase 6
+        run: |
+          python analista/motores/verificador_evidencia.py
+          python analista/pruebas/validar_verificador_fase6.py
+
+      - name: Auditar intraobra Fase 7
+        run: |
+          python analista/motores/auditor_estructural.py
+          python analista/pruebas/validar_auditor_estructural_fase7a.py
+          python analista/motores/auditor_descriptivo.py
+          python analista/pruebas/validar_auditor_descriptivo_fase7b.py
+
+      - name: Confirmar patrón y cierre cuantitativo Fase 8
+        run: |
+          python analista/pruebas/validar_patron_oro_fase8.py
+          python analista/pruebas/validar_calibracion_conceptos_fase8.py
+          python analista/pruebas/validar_calibracion_definiciones_fase8.py
+          python analista/pruebas/validar_calibracion_afirmaciones_fase8.py
+          python analista/pruebas/validar_calibracion_relaciones_fase8.py
+          python analista/pruebas/validar_calibracion_limitadores_fase8.py
+          python analista/calibracion/evaluar.py
+          python analista/calibracion/comprobar_umbrales.py --salida analista/generado/cierre-fase8.json
+
+      - name: Ensamblar maestro piloto Fase 9
+        run: python analista/motores/ensamblador_maestro.py
+
+      - name: Validar maestro y trazabilidad integral
+        run: python analista/pruebas/validar_maestro_fase9.py
+
+      - name: Publicar expediente y cadena de evidencia
+        uses: actions/upload-artifact@v4
+        with:
+          name: analista-fase9-maestro-AA-SP-V1
+          path: analista/generado/
+          if-no-files-found: error
+
+      - name: Persistir productos deterministas de la cadena piloto
+        if: github.actor != 'github-actions[bot]'
+        env:
+          TARGET_BRANCH: ${{ github.ref_name }}
+        run: |
+          if [ -z "$(git status --porcelain -- analista/generado)" ]; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add analista/generado
+          git commit -m "Generar expediente maestro piloto de Fase 9"
+          git push origin HEAD:"${TARGET_BRANCH}"
