@@ -8,7 +8,9 @@
     "patron-oro-relaciones-general.jsonl",
     "patron-oro-relaciones-desafio-v2.jsonl",
     "patron-oro-relaciones-general-correccion-v2.jsonl",
-    "patron-oro-definiciones-general.jsonl"
+    "patron-oro-definiciones-general.jsonl",
+    "patron-oro-conceptos-desafio.jsonl",
+    "patron-oro-conceptos-general.jsonl"
   ],
   "reemplazos": [
     {
