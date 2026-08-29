@@ -8,7 +8,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
-from collections import Counter
+from collections import Counter, defaultdict
 from pathlib import Path
 
 from jsonschema import Draft202012Validator
@@ -30,6 +30,12 @@ FILES = (
     "excepciones.jsonl",
     "restricciones-alcance.jsonl",
 )
+EXPECTED_CATEGORIES = {
+    "uso_singular": 21,
+    "definiciones_multiples": 13,
+    "variacion_de_objeto": 11,
+    "relacion_repetida": 1,
+}
 
 
 def load_jsonl(path: Path) -> list[dict]:
@@ -62,19 +68,15 @@ def main() -> int:
     )
 
     first = run(INPUT, OUTPUT)
-    assert '"hallazgos": 22' in first.stdout
+    assert '"hallazgos": 46' in first.stdout
     findings = load_jsonl(OUTPUT)
-    assert len(findings) == 22
-    assert Counter(row["categoria"] for row in findings) == {
-        "uso_singular": 21,
-        "variacion_de_objeto": 1,
-    }
+    assert len(findings) == 46
+    assert Counter(row["categoria"] for row in findings) == EXPECTED_CATEGORIES
 
-    all_audited = {
-        row["id"]: row
-        for filename in FILES
-        for row in load_jsonl(INPUT / filename)
-    }
+    by_file = {filename: load_jsonl(INPUT / filename) for filename in FILES}
+    all_audited = {row["id"]: row for rows in by_file.values() for row in rows}
+    concepts = {row["id"]: row for row in by_file["conceptos.jsonl"]}
+
     for row in findings:
         errors = list(validator.iter_errors(row))
         assert not errors, f"Hallazgo inválido {row['id']}: {errors[0].message}"
@@ -89,43 +91,62 @@ def main() -> int:
         for row in findings
     ), "Candidatos de 4F no pueden ascender a hallazgos explícitos."
 
-    variation = next(row for row in findings if row["categoria"] == "variacion_de_objeto")
-    relation_rows = [all_audited[record_id] for record_id in variation["registro_ids"]]
-    assert {row["sujeto_ref"] for row in relation_rows} == {"CON-7D09D3ECB550"}
-    assert {row["objeto_ref"] for row in relation_rows} == {
-        "CON-463D458232DE",
-        "CON-D850F9DB83FB",
+    # Cada hallazgo de definiciones múltiples debe referir definiciones del mismo concepto.
+    definitions_by_id = {row["id"]: row for row in by_file["definiciones.jsonl"]}
+    for finding in (row for row in findings if row["categoria"] == "definiciones_multiples"):
+        rows = [definitions_by_id[record_id] for record_id in finding["registro_ids"]]
+        assert len(rows) > 1
+        assert len({row["concepto_id"] for row in rows}) == 1
+
+    # Cada variación de objeto conserva un único sujeto y al menos dos objetos, sin relacionarlos entre sí.
+    relations_by_id = {row["id"]: row for row in by_file["relaciones-explicitas.jsonl"]}
+    variations = [row for row in findings if row["categoria"] == "variacion_de_objeto"]
+    assert len(variations) == 11
+    for finding in variations:
+        rows = [relations_by_id[record_id] for record_id in finding["registro_ids"]]
+        assert len({row["sujeto_ref"] for row in rows}) == 1
+        assert len({row["objeto_ref"] for row in rows}) > 1
+
+    aego_id = next(cid for cid, row in concepts.items() if row["designacion_operativa"] == "Aego")
+    aego_variation = next(
+        finding for finding in variations
+        if {relations_by_id[rid]["sujeto_ref"] for rid in finding["registro_ids"]} == {aego_id}
+    )
+    aego_objects = {
+        concepts[relations_by_id[record_id]["objeto_ref"]]["designacion_operativa"]
+        for record_id in aego_variation["registro_ids"]
+    }
+    assert aego_objects == {
+        "Afasia volitiva", "Ego", "Mediación bis", "Mediación neutral", "Singularidad ontológica"
     }
 
+    repeated = next(row for row in findings if row["categoria"] == "relacion_repetida")
+    repeated_rows = [relations_by_id[record_id] for record_id in repeated["registro_ids"]]
+    assert len(repeated_rows) == 2
+    assert len({(r["sujeto_ref"], r["objeto_ref"], r["relacion_literal"]) for r in repeated_rows}) == 1
+    subject, obj, literal = next(iter({(r["sujeto_ref"], r["objeto_ref"], r["relacion_literal"]) for r in repeated_rows}))
+    assert concepts[subject]["designacion_operativa"] == "Pasión"
+    assert concepts[obj]["designacion_operativa"] == "Determinación"
+    assert literal == "la pasión como tendencia de determinación"
+
     module = import_motor()
-    by_file = {filename: load_jsonl(INPUT / filename) for filename in FILES}
-    concepts = {row["id"]: row for row in by_file["conceptos.jsonl"]}
     for concept_id in concepts:
         dossier = module.records_for_concept(concept_id, by_file)
         expected = []
-        expected.extend(
-            row for row in by_file["apariciones-conceptuales.jsonl"] if row.get("concepto_id") == concept_id
-        )
+        expected.extend(row for row in by_file["apariciones-conceptuales.jsonl"] if row.get("concepto_id") == concept_id)
         expected.extend(row for row in by_file["definiciones.jsonl"] if row.get("concepto_id") == concept_id)
+        expected.extend(row for row in by_file["afirmaciones-candidatas.jsonl"] if concept_id in row.get("concepto_ids", []))
         expected.extend(
-            row for row in by_file["afirmaciones-candidatas.jsonl"] if concept_id in row.get("concepto_ids", [])
-        )
-        expected.extend(
-            row
-            for row in by_file["relaciones-explicitas.jsonl"]
+            row for row in by_file["relaciones-explicitas.jsonl"]
             if row.get("sujeto_ref") == concept_id or row.get("objeto_ref") == concept_id
         )
         assert {row["id"] for row in dossier} == {row["id"] for row in expected}
 
-    aego_id = next(
-        concept_id
-        for concept_id, row in concepts.items()
-        if row["designacion_operativa"] == "Aego"
-    )
-    assert {
-        row["tipo_registro"] for row in module.records_for_concept(aego_id, by_file)
-    } == {"aparicion_conceptual", "definicion", "relacion_explicita"}
-    assert len(module.records_for_concept(aego_id, by_file)) == 5
+    # Aego ahora reúne más evidencia explícita, pero los tipos siguen siendo solo referencias existentes.
+    aego_dossier = module.records_for_concept(aego_id, by_file)
+    assert {row["tipo_registro"] for row in aego_dossier} == {"aparicion_conceptual", "definicion", "relacion_explicita"}
+    assert len([row for row in aego_dossier if row["tipo_registro"] == "definicion"]) == 3
+    assert len([row for row in aego_dossier if row["tipo_registro"] == "relacion_explicita"]) == 6
 
     snapshot = OUTPUT.read_bytes()
     run(INPUT, OUTPUT)
@@ -149,9 +170,9 @@ def main() -> int:
 
     run(INPUT, OUTPUT)
     print(
-        "OK Fase 7B: 22 hallazgos descriptivos reproducibles; 21 usos singulares "
-        "registrados y 1 variación de objeto; candidatos de 4F no fueron promovidos; "
-        "consulta conceptual exhaustiva solo por referencias explícitas auditadas."
+        "OK Fase 7B: 46 hallazgos descriptivos reproducibles; 21 usos singulares, "
+        "13 multiplicidades definicionales, 11 variaciones de objeto y 1 relación repetida; "
+        "candidatos de 4F no fueron promovidos y no se realizó resolución doctrinal."
     )
     return 0
 
