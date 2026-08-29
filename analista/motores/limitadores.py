@@ -21,7 +21,7 @@ RESTRICCIONES = ROOT / "analista/generado/restricciones-alcance.jsonl"
 COBERTURA = ROOT / "analista/generado/cobertura-limitadores.jsonl"
 PILOTO_ID = "AA-SP-V1"
 SCHEMA_VERSION = "1.0.0"
-MOTOR_VERSION = "1.0.0"
+MOTOR_VERSION = "1.0.1"
 
 NO_RE = re.compile(r"(?<![\w-])no(?![\w-])", re.IGNORECASE)
 DIST_RE = re.compile(
@@ -99,7 +99,7 @@ def main() -> int:
                 record = base(
                     stable_id("DIS", unit["id"], str(line_no), literal, term_a, term_b),
                     "distincion",
-                    literal,
+                    dm.group(0),
                 )
                 record.update(
                     {
@@ -120,14 +120,14 @@ def main() -> int:
                 record = base(
                     stable_id("NEG", unit["id"], str(line_no), literal, fragment),
                     "negacion",
-                    literal,
+                    nm.group(0),
                 )
                 record.update(
                     {
                         "fuente_id": PILOTO_ID,
                         "unidad_id": unit["id"],
                         "objeto_negado_literal": fragment,
-                        "alcance_literal": literal,
+                        "alcance_literal": None,
                         "clasificacion_negacion": "negacion_candidata",
                         "localizacion": loc(unit, line_no),
                     }
@@ -140,7 +140,7 @@ def main() -> int:
                 record = base(
                     stable_id("EXC", unit["id"], str(line_no), literal, fragment),
                     "excepcion",
-                    literal,
+                    fragment,
                 )
                 record.update(
                     {
@@ -160,7 +160,7 @@ def main() -> int:
                 record = base(
                     stable_id("RES", unit["id"], str(line_no), literal, fragment),
                     "restriccion_alcance",
-                    literal,
+                    fragment,
                 )
                 record.update(
                     {
