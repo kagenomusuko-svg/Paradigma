@@ -1,0 +1,77 @@
+{
+  "version": "1.0.0",
+  "obra_id": "FUE-2C28F35DD6CF",
+  "motor": "formulas",
+  "muestra": "muestra-v1.1.0.lock.json",
+  "patron_sha256": "b50dd782ec734c7464d3310c238b5921342e96bbb1d6a7e9fb15a61abb0e3d9a",
+  "regla_manual": "Se anotan únicamente expresiones formales visibles y tipográficamente delimitables. Se preservan saltos de línea internos del bloque formal. La prosa explicativa posterior y las remisiones documentales que comienzan por → no forman parte de la fórmula. Una expresión formal escrita de manera inequívoca se clasifica formula_explicita. La revisión no consulta la salida del extractor.",
+  "decisiones": {
+    "UT-D7383CEC4587": [
+      "Anteros: φ₂ con distancia → reconocimiento → no proporcional",
+      "Fobos: φ₂ sin distancia → reacción → no con riesgo de exceso",
+      "Tensión suspendida: φ₂ interferida → ni reconocimiento ni reacción\ncompletos"
+    ],
+    "UT-A2951EE85BF6": [
+      "Eros: Ágape + α → movimiento sin objeto definido → presente",
+      "Potós: voluntad + objeto que tuvo forma + ausencia → orientación\nsostenida → distancia temporal"
+    ],
+    "UT-DAB66C1A24CC": [
+      "Harmonía: Ágape + φ₂ activa + tensión habitable entre α y β →\nmovilidad plena",
+      "Agotamiento: Ágape + cesión de α o β → paz aparente + sistema\nparcial"
+    ],
+    "UT-5A9805B16309": [
+      "Ágape + α → h"
+    ],
+    "UT-5D3DFA01F91D": [
+      "Materia inerte: Ágape + α → h (sin mediación)",
+      "Organismo: Ágape + α → [φ₁ modulada] → h",
+      "Sujeto: Ágape + α → φ₁ (v_t, c_t) → φ₂(sesgo) → h"
+    ],
+    "UT-171D822C7E36": [
+      "Eros = φ₁ (Ágape, α) → primer colapso en dirección"
+    ],
+    "UT-30D2FC774E50": [
+      "Ego(t) = φ₂ (φ₁ (v_t, c_t), I(t))"
+    ],
+    "UT-CDAEB4E9BA6B": [
+      "φ₁ (v_t, c_t) = colapso de la voluntad en acto"
+    ],
+    "UT-930AD908AB09": [
+      "Ego(t) = φ₂ (φ₁ (v_t, c_t), I(t))"
+    ],
+    "UT-0A3348A2ADAC": [
+      "Eros: campo asimétrico → φ₁ colapsa → primer sí",
+      "Deimos: campo simétrico → φ₁ no puede colapsar → vértigo"
+    ],
+    "UT-1793447BEC34": [
+      "Ágape → posibilidad constitutiva de todos los hijos",
+      "Hijos → posiciones que la voluntad puede ocupar",
+      "φ₂ → condición del movimiento entre posiciones",
+      "Salud → movilidad del sistema: ocupar y salir según la situación\nrequiere",
+      "Patología → reducción de la movilidad: fijación en una posición o\nbloqueo de acceso a alguna",
+      "φ₂ deteriorada → el sistema no puede corregirse desde adentro"
+    ],
+    "UT-8F481FC74A87": [
+      "Ego(t) = φ₂ (φ₁ (vₜ, cₜ), I(t))"
+    ],
+    "UT-0ACD1BA1DDBB": [
+      "Sin Potós: presente sin profundidad histórica → superficialidad",
+      "Sin Harmonía: presente filtrado por ausencia → ceguera ante lo\nconcreto"
+    ],
+    "UT-2DF6F73C7F24": [
+      "Eros: φ₁ (Ágape, α) con campo asimétrico → colapso",
+      "Deimos: φ₁ (Ágape, α) con campo simétrico → no-colapso",
+      "Umbral suspendido: Eros y Deimos simultáneos con fuerza igual →\ntensión"
+    ],
+    "UT-CE7ABDC12B7F": [
+      "Caos → Ágape → Hijos de la voluntad\nposibilidad pura → potencia sin dirección → formas del movimiento\nanterior a la voluntad → voluntad antes de moverse → voluntad en\nmovimiento"
+    ],
+    "UT-34FDA2F8FAF8": [
+      "Anteros: φ₂ operando con claridad → no desde el reconocimiento",
+      "Fobos: φ₂ en modo reactivo → no desde la amenaza concreta"
+    ],
+    "UT-AC55810805EA": [
+      "Fobos = dimensión arética con distancia colapsada"
+    ]
+  }
+}
