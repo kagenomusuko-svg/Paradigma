@@ -1,0 +1,44 @@
+{
+  "version": "1.1.0",
+  "obra_id": "AA-SP-V1",
+  "regla": "General y desafio se evalúan por separado. Una métrica no evaluable permanece null y nunca se convierte artificialmente en 1.0. Solo los motores que lo declaren pueden tratar un estrato sin positivos como control negativo: ese estrato exige cero falsos positivos y que el estrato complementario contenga positivos manuales; los umbrales de precision, cobertura y clasificación se aplican al estrato con positivos. El combinado es informativo.",
+  "motores": {
+    "conceptos_apariciones": {
+      "precision_minima": 0.95,
+      "cobertura_minima": 0.90,
+      "exactitud_identidad_minima": 1.0,
+      "nota": "La identidad conceptual solo se evalúa donde el patrón manual la determina expresamente."
+    },
+    "definiciones": {
+      "precision_minima": 0.95,
+      "cobertura_minima": 0.90,
+      "exactitud_clasificacion_minima": 0.95
+    },
+    "afirmaciones": {
+      "precision_minima": 0.90,
+      "cobertura_minima": 0.85,
+      "exactitud_estatus_minima": 0.95,
+      "nota": "El umbral de detección es menor por tratarse de recuperación candidata; la clasificación enunciativa se mide aparte."
+    },
+    "formulas": {
+      "precision_minima": 0.98,
+      "cobertura_minima": 0.95,
+      "exactitud_clasificacion_minima": 0.98,
+      "permitir_control_solo_negativos": true,
+      "falsos_positivos_maximos_control_negativo": 0,
+      "nota": "El estrato general congelado de 31 unidades no contiene fórmulas manuales. Se conserva como control negativo: precision/cobertura/clasificación permanecen null si no hay predicciones; el control solo cumple con 0 falsos positivos y positivos manuales en desafio."
+    },
+    "relaciones_explicitas": {
+      "precision_minima": 1.0,
+      "cobertura_minima": 0.95,
+      "exactitud_clasificacion_minima": 1.0,
+      "nota": "No se admite relación explícita espuria en producción; abreviaturas o transitividad no cuentan como evidencia."
+    },
+    "limitadores": {
+      "precision_minima": 0.90,
+      "cobertura_minima": 0.85,
+      "exactitud_clasificacion_minima": 0.95,
+      "nota": "La detección candidata se separa de la decisión de voz, alcance o explicitud."
+    }
+  }
+}
