@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "obra_id": "FUE-2C28F35DD6CF",
+  "formulas": {
+    "detector_version": "1.2.0",
+    "produccion_version": "1.3.0",
+    "clasificacion_bloques_formales": "formula_explicita",
+    "cobertura_revision": "censo_completo_senales_formales",
+    "unidades_con_senal_formal_revisadas": 17,
+    "formulas_manual_esperadas": 33,
+    "patron_manual_sha256": "b50dd782ec734c7464d3310c238b5921342e96bbb1d6a7e9fb15a61abb0e3d9a",
+    "baseline": "baseline-formulas-v1.2.0.json",
+    "politica_manual": "politica-oro-formulas-v1.0.0.json",
+    "regla": "La promoción afecta únicamente los bloques ya detectados por v1.2.0. Se autoriza porque todas las unidades de la obra con señal formal '=' o '→' —excluidas remisiones documentales— fueron revisadas manualmente y las 33 detecciones coinciden exactamente con 33 fórmulas explícitas del patrón."
+  }
+}
