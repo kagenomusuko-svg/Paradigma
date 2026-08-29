@@ -58,7 +58,8 @@ def source_line(record: dict, unit: dict) -> str:
     canonical = (ROOT / loc["ruta"]).read_text(encoding="utf-8").splitlines()[loc["linea_inicio"] - 1]
     offset = loc["linea_inicio"] - unit["localizacion"]["linea_inicio"]
     unit_line = unit["texto_literal"].splitlines()[offset]
-    assert canonical == unit_line == record["texto_literal"]
+    assert canonical == unit_line
+    assert record["texto_literal"] in canonical
     return canonical
 
 
@@ -106,7 +107,7 @@ def assert_common(record: dict, unit_by_id: dict[str, dict]) -> str:
     assert record["estatus_enunciativo"] == "no_determinado"
     assert record["normalizacion_formal"] is None
     assert record["normalizacion_lexica"] is None
-    assert record["producido_por"] == {"motor": "limitadores", "version": "1.0.0"}
+    assert record["producido_por"] == {"motor": "limitadores", "version": "1.0.1"}
     return source_line(record, unit_by_id[record["unidad_id"]])
 
 
@@ -155,6 +156,7 @@ def main() -> int:
             if kind == "distincion":
                 match = DIST_RE.search(literal)
                 assert match
+                assert record["texto_literal"] == match.group(0)
                 assert record["termino_a_literal"] == match.group(1).strip()
                 assert record["termino_b_literal"] == match.group(2).strip()
                 assert record["marcador_literal"] == match.group(0)
@@ -168,8 +170,9 @@ def main() -> int:
             elif kind == "negacion":
                 match = NO_RE.search(literal)
                 assert match
+                assert record["texto_literal"] == match.group(0)
                 assert record["objeto_negado_literal"] == literal[match.start():]
-                assert record["alcance_literal"] == literal
+                assert record["alcance_literal"] is None
                 assert record["clasificacion_negacion"] == "negacion_candidata"
                 observed.add(
                     (record["unidad_id"], loc["ruta"], loc["linea_inicio"], literal, record["objeto_negado_literal"])
@@ -178,6 +181,7 @@ def main() -> int:
                 match = EXC_RE.search(literal)
                 assert match
                 assert record["afirmacion_limitada_id"] is None
+                assert record["texto_literal"] == literal[match.start():]
                 assert record["fragmento_exceptivo_literal"] == literal[match.start():]
                 assert record["clasificacion_excepcion"] == "excepcion_candidata"
                 observed.add(
@@ -188,6 +192,7 @@ def main() -> int:
                 assert match
                 assert record["afirmacion_limitada_id"] is None
                 assert record["tipo_restriccion"] == "no_determinada"
+                assert record["texto_literal"] == literal[match.start():]
                 assert record["fragmento_restriccion_literal"] == literal[match.start():]
                 assert record["clasificacion_restriccion"] == "restriccion_candidata"
                 observed.add(
@@ -206,13 +211,12 @@ def main() -> int:
     assert not errors, errors[0].message if errors else ""
     assert coverage["obra_id"] == PILOTO_ID
     assert coverage["motor"] == "limitadores"
-    assert coverage["version_motor"] == "1.0.0"
+    assert coverage["version_motor"] == "1.0.1"
     assert coverage["unidades_totales"] == coverage["unidades_procesadas"] == len(units)
     assert coverage["unidades_omitidas"] == []
     assert coverage["errores"] == []
     assert coverage["estado_verificacion"] == "pendiente"
 
-    # Clausura: el detector léxico jamás decide voz autoral ni inventa una afirmación limitada.
     assert all(r["estatus_enunciativo"] != "negacion_autoral" for r in rows["negacion"])
     assert all(r["afirmacion_limitada_id"] is None for r in rows["excepcion"] + rows["restriccion_alcance"])
 
