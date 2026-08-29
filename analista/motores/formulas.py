@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
-"""Motor conservador de fórmulas candidatas — Fase 4D.
+"""Motor formal de fórmulas — Fase 4D, calibrado en Fase 8.
 
-Usa las líneas con '=' del prototipo únicamente como semillas de recuperación.
-Cada semilla se expande a su oración literal completa para no cortar fórmulas
-por los saltos de línea de la fuente. El contexto conserva la unidad contenedora
-y sus vecinas inmediatas del mismo archivo, sin interpretación matemática.
+Las familias formales inequívocas de la obra piloto se recuperan como la
+expresión literal mínima completa y se marcan explícitas. Un signo '=' que no
+encaje en esos patrones se conserva como candidato mediante el fallback
+histórico de oración, sin interpretación matemática ni equivalencias inferidas.
 """
 from __future__ import annotations
 
 import hashlib
 import json
+import re
 import unicodedata
 from pathlib import Path
 
@@ -19,8 +20,37 @@ SALIDA = ROOT / "analista/generado/formulas-candidatas.jsonl"
 COBERTURA = ROOT / "analista/generado/cobertura-formulas.jsonl"
 PILOTO_ID = "AA-SP-V1"
 SCHEMA_VERSION = "1.0.0"
-MOTOR_VERSION = "1.0.1"
+MOTOR_VERSION = "1.1.0"
 TERMINATORS = ".!?"
+
+# Patrones puramente formales observados en la obra piloto. No declaran
+# equivalencia entre variantes: cada coincidencia produce su propio registro.
+EXPLICIT_PATTERNS = [
+    re.compile(
+        r"Ego\(t\)\s*=\s*φ₂\s*\(\s*φ₁\s*\(\s*v(?:ₜ|_t)?\s*,\s*c(?:ₜ|_t)?\s*\)\s*,\s*I\(t\)\s*\)"
+    ),
+    re.compile(r"Ego\(t\)\s*=\s*∫\s*f\(v\)\s*dv"),
+    re.compile(r"d/dt\s*\[Ego\(t\)\]\s*=\s*f\(vₜ\)"),
+    re.compile(r"Voluntad\s*\+\s*Acto\s*\+\s*Mediación\s*=\s*ser/existir"),
+    re.compile(
+        r"Identidad\s*\+\s*Voluntad\s*\+\s*"
+        r"(?:Primera\s+mediación|φ₁\s*\(\s*v\s*,\s*c\s*\))\s*\+\s*Acto\s*\+\s*"
+        r"(?:Segunda\s+mediación|φ₂\s*\(\s*Acto\s*,\s*I\s*\))\s*=\s*Ego\s+primordial"
+    ),
+    re.compile(
+        r"\(Identidad\s*\+\s*Voluntad\s*\+\s*φ₁(?:\s*\([^)]*\))?\s*\+\s*Acto\s*\+\s*"
+        r"φ₂(?:\s*\([^)]*\))?\s*=\s*Ego\)\s*ⁿ"
+    ),
+    re.compile(
+        r"\(Identidad\s*\+\s*Voluntad\s*\+\s*φ₁\s*\(\s*v\s*,\s*c\s*\)\s*\+\s*Acto\s*\+\s*"
+        r"φ₂\s*\(\s*Acto\s*,\s*I\s*\)\s*\)\s*ⁿ"
+    ),
+    re.compile(
+        r"Si\s+f\(vₜ\)\s*→\s*0,\s*entonces\s*Ego\(t\)\s*=\s*∫\s*0\s*dv\s*=\s*C\s*"
+        r"\(constante\s+nula\)"
+    ),
+    re.compile(r"φ₂\s+interrumpida\s*=\s*la\s+unión\s+entre\s+ambos,\s*disuelta"),
+]
 
 
 def stable_id(prefix: str, *parts: str) -> str:
@@ -87,10 +117,43 @@ def context_ids(units: list[dict], index: int) -> list[str]:
     return result
 
 
-def base(record_id: str, kind: str, literal: str | None, extraction: str, audit: str) -> dict:
+def non_overlapping_explicit_spans(text: str) -> list[tuple[int, int]]:
+    spans: list[tuple[int, int]] = []
+    for pattern in EXPLICIT_PATTERNS:
+        for match in pattern.finditer(text):
+            spans.append((match.start(), match.end()))
+    # Si dos patrones llegaran a solaparse, conserva el más largo que empieza antes.
+    spans.sort(key=lambda span: (span[0], -(span[1] - span[0])))
+    selected: list[tuple[int, int]] = []
+    for start, end in spans:
+        if any(not (end <= prior_start or start >= prior_end) for prior_start, prior_end in selected):
+            continue
+        selected.append((start, end))
+    return sorted(selected)
+
+
+def fallback_spans(text: str, explicit: list[tuple[int, int]]) -> list[tuple[int, int]]:
+    spans: list[tuple[int, int]] = []
+    cursor = 0
+    for line in text.splitlines():
+        stripped = line.strip()
+        line_start_char = cursor
+        cursor += len(line) + 1
+        if not stripped or "=" not in stripped or len(stripped) > 320 or "http" in stripped:
+            continue
+        position = line_start_char + line.index("=")
+        if any(start <= position < end for start, end in explicit):
+            continue
+        span = sentence_span(text, position)
+        if span not in spans:
+            spans.append(span)
+    return spans
+
+
+def base(record_id: str, literal: str, extraction: str) -> dict:
     return {
         "id": record_id,
-        "tipo_registro": kind,
+        "tipo_registro": "formula",
         "schema_version": SCHEMA_VERSION,
         "texto_literal": literal,
         "normalizacion_formal": None,
@@ -98,7 +161,7 @@ def base(record_id: str, kind: str, literal: str | None, extraction: str, audit:
         "estatus_enunciativo": None,
         "estado_extraccion": extraction,
         "estado_verificacion": "pendiente",
-        "estado_auditoria": audit,
+        "estado_auditoria": "pendiente",
         "producido_por": {"motor": "formulas", "version": MOTOR_VERSION},
     }
 
@@ -106,43 +169,46 @@ def base(record_id: str, kind: str, literal: str | None, extraction: str, audit:
 def main() -> int:
     unidades = load_jsonl(UNIDADES)
     pilot_units = sorted(
-        (u for u in unidades if u.get("fuente_id") == PILOTO_ID),
-        key=lambda u: u["orden_textual"],
+        (unit for unit in unidades if unit.get("fuente_id") == PILOTO_ID),
+        key=lambda unit: unit["orden_textual"],
     )
     if not pilot_units:
         raise SystemExit(f"No existen unidades de {PILOTO_ID}")
 
     formulas: list[dict] = []
-    seen_spans: set[tuple[str, int, int]] = set()
-    seed_count = 0
+    seen_ids: set[str] = set()
+    equality_seeds = 0
+    explicit_without_equals = 0
+
     for index, unit in enumerate(pilot_units):
-        # El postproceso histórico de fórmulas trabajaba sobre párrafos. Un encabezado
-        # que contiene '=' funciona como rótulo y duplica la fórmula desarrollada en
-        # el cuerpo; no se eleva por sí mismo a fórmula candidata.
         if unit.get("tipo_estructural") == "encabezado":
             continue
         text = unit["texto_literal"]
-        cursor = 0
-        for line in text.splitlines():
-            stripped = line.strip()
-            line_start_char = cursor
-            cursor += len(line) + 1
-            if not stripped or "=" not in stripped or len(stripped) > 320 or "http" in stripped:
-                continue
-            seed_count += 1
-            eq_in_line = line.index("=")
-            position = line_start_char + eq_in_line
-            start, end = sentence_span(text, position)
-            key = (unit["id"], start, end)
-            if key in seen_spans:
-                continue
-            seen_spans.add(key)
+        equality_seeds += sum(
+            1
+            for line in text.splitlines()
+            if line.strip() and "=" in line.strip() and len(line.strip()) <= 320 and "http" not in line
+        )
+        explicit = non_overlapping_explicit_spans(text)
+        fallback = fallback_spans(text, explicit)
+
+        spans: list[tuple[int, int, str]] = [
+            (start, end, "formula_explicita") for start, end in explicit
+        ] + [
+            (start, end, "formula_candidata") for start, end in fallback
+        ]
+
+        for start, end, classification in sorted(spans):
             literal = text[start:end]
-            if "=" not in literal:
-                raise SystemExit(f"Expansión perdió '=' en {unit['id']}")
+            if classification == "formula_explicita" and "=" not in literal:
+                explicit_without_equals += 1
             line_start, line_end = line_range(unit, text, start, end)
             record_id = stable_id("FOR", unit["id"], str(line_start), literal)
-            record = base(record_id, "formula", literal, "candidato", "pendiente")
+            if record_id in seen_ids:
+                raise SystemExit(f"ID de fórmula duplicado: {record_id}")
+            seen_ids.add(record_id)
+            extraction = "extraido" if classification == "formula_explicita" else "candidato"
+            record = base(record_id, literal, extraction)
             record.update(
                 {
                     "fuente_id": PILOTO_ID,
@@ -155,36 +221,48 @@ def main() -> int:
                         "linea_inicio": line_start,
                         "linea_fin": line_end,
                     },
-                    "clasificacion_formula": "formula_candidata",
+                    "clasificacion_formula": classification,
                 }
             )
             formulas.append(record)
 
-    formulas.sort(key=lambda r: (r["localizacion"]["ruta"], r["localizacion"]["linea_inicio"], r["id"]))
+    formulas.sort(
+        key=lambda row: (
+            row["localizacion"]["ruta"],
+            row["localizacion"]["linea_inicio"],
+            row["id"],
+        )
+    )
     dump_jsonl(SALIDA, formulas)
 
-    coverage = base(
-        stable_id("COB", PILOTO_ID, "formulas", MOTOR_VERSION),
-        "reporte_cobertura",
-        None,
-        "extraido",
-        "no_aplica",
-    )
-    coverage.update(
-        {
-            "obra_id": PILOTO_ID,
-            "motor": "formulas",
-            "version_motor": MOTOR_VERSION,
-            "unidades_totales": len(pilot_units),
-            "unidades_procesadas": len(pilot_units),
-            "unidades_omitidas": [],
-            "errores": [],
-        }
-    )
+    coverage = {
+        "id": stable_id("COB", PILOTO_ID, "formulas", MOTOR_VERSION),
+        "tipo_registro": "reporte_cobertura",
+        "schema_version": SCHEMA_VERSION,
+        "texto_literal": None,
+        "normalizacion_formal": None,
+        "normalizacion_lexica": None,
+        "estatus_enunciativo": None,
+        "estado_extraccion": "extraido",
+        "estado_verificacion": "pendiente",
+        "estado_auditoria": "no_aplica",
+        "producido_por": {"motor": "formulas", "version": MOTOR_VERSION},
+        "obra_id": PILOTO_ID,
+        "motor": "formulas",
+        "version_motor": MOTOR_VERSION,
+        "unidades_totales": len(pilot_units),
+        "unidades_procesadas": len(pilot_units),
+        "unidades_omitidas": [],
+        "errores": [],
+    }
     dump_jsonl(COBERTURA, [coverage])
+
+    explicit_count = sum(row["clasificacion_formula"] == "formula_explicita" for row in formulas)
+    candidate_count = len(formulas) - explicit_count
     print(
-        f"Fase 4D: {seed_count} semillas textuales elegibles con '=' expandidas a "
-        f"{len(formulas)} fórmulas candidatas completas; {len(pilot_units)} unidades procesadas."
+        f"Fase 4D v{MOTOR_VERSION}: {len(formulas)} fórmulas; {explicit_count} explícitas, "
+        f"{candidate_count} candidatas; {equality_seeds} semillas '='; "
+        f"{explicit_without_equals} fórmula explícita sin '='; {len(pilot_units)} unidades procesadas."
     )
     return 0
 
