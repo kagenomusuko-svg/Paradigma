@@ -15,6 +15,7 @@ SCHEMA = ROOT / "analista/esquema/contratos-v1.0.0.schema.json"
 UNIDADES = ROOT / "analista/generado/unidades.jsonl"
 FORMULAS = ROOT / "analista/generado/formulas-candidatas.jsonl"
 COBERTURA = ROOT / "analista/generado/cobertura-formulas.jsonl"
+LEGACY = ROOT / "analisis/generado/sobre-la-pasion/formulas-candidatas.jsonl"
 MOTOR = ROOT / "analista/motores/formulas.py"
 PILOTO_ID = "AA-SP-V1"
 
@@ -74,6 +75,7 @@ def main() -> int:
     unidades = load_jsonl(UNIDADES)
     formulas = load_jsonl(FORMULAS)
     reports = load_jsonl(COBERTURA)
+    legacy = load_jsonl(LEGACY)
 
     pilot_units = sorted(
         (u for u in unidades if u["fuente_id"] == PILOTO_ID),
@@ -82,8 +84,14 @@ def main() -> int:
     unit_by_id = {u["id"]: u for u in pilot_units}
     index_by_id = {u["id"]: i for i, u in enumerate(pilot_units)}
     seeds = seed_lines(pilot_units)
+    seed_unit_ids = {unit_id for unit_id, _ in seeds}
+    legacy_unit_ids = {row["unidad_id"] for row in legacy}
     assert len(pilot_units) == 836
-    assert len(seeds) == 18, f"Se esperaban 18 semillas históricas; obtenidas={len(seeds)}"
+    assert len(seeds) == 21, f"Se esperaban 21 semillas literales; obtenidas={len(seeds)}"
+    assert len(seed_unit_ids) == 18, f"Las 21 semillas deben distribuirse en 18 unidades; obtenidas={len(seed_unit_ids)}"
+    assert seed_unit_ids == legacy_unit_ids, (
+        "Las unidades con semillas de fórmula deben coincidir con las 18 unidades contextuales del postproceso histórico."
+    )
     assert formulas, "No se generaron fórmulas candidatas."
 
     formulas_by_unit: dict[str, list[dict]] = defaultdict(list)
@@ -156,8 +164,8 @@ def main() -> int:
 
     assert_reproducible()
     print(
-        f"OK Fase 4D: 18 semillas con '=' cubiertas exactamente una vez por {len(formulas)} "
-        "fórmulas candidatas literales; delimitadores completos; contexto vecino preservado; "
+        f"OK Fase 4D: 21 semillas literales en 18 unidades históricas cubiertas exactamente una vez por {len(formulas)} "
+        "fórmulas candidatas; delimitadores completos; contexto vecino preservado; "
         "836 unidades procesadas; verificación pendiente."
     )
     return 0
