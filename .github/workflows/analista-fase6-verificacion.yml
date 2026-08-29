@@ -9,6 +9,7 @@ on:
       - 'analista/esquema/**'
       - 'analista/motores/conceptos.py'
       - 'analista/motores/definiciones.py'
+      - 'analista/motores/afirmaciones.py'
       - 'analista/motores/formulas.py'
       - 'analista/motores/relaciones_explicitas.py'
       - 'analista/motores/limitadores.py'
@@ -40,6 +41,7 @@ jobs:
         run: |
           python analista/motores/conceptos.py
           python analista/motores/definiciones.py
+          python analista/motores/afirmaciones.py
           python analista/motores/formulas.py
           python analista/motores/relaciones_explicitas.py
           python analista/motores/limitadores.py
