@@ -15,7 +15,7 @@ from jsonschema import Draft202012Validator
 
 ROOT = Path(__file__).resolve().parents[2]
 PILOTO_ID = "AA-SP-V1"
-DEFAULT_GOLD = ROOT / "analista/calibracion/patron-oro.jsonl"
+DEFAULT_MANIFEST = ROOT / "analista/calibracion/patron-oro-manifiesto.json"
 DEFAULT_SCHEMA = ROOT / "analista/calibracion/patron-oro-v1.0.0.schema.json"
 DEFAULT_LOCK = ROOT / "analista/calibracion/muestra-fase8.lock.json"
 DEFAULT_UNITS = ROOT / "analista/generado/unidades.jsonl"
@@ -42,18 +42,9 @@ CLASS_ALLOWED = {
     "restriccion_alcance": {"restriccion_candidata", "restriccion_explicita"},
 }
 STATUS_ALLOWED = {
-    "afirmacion_autoral",
-    "negacion_autoral",
-    "cita",
-    "discurso_referido",
-    "objecion",
-    "hipotesis",
-    "ejemplo",
-    "pregunta",
-    "definicion",
-    "formulacion_condicional",
-    "caso_contrafactico",
-    "no_determinado",
+    "afirmacion_autoral", "negacion_autoral", "cita", "discurso_referido",
+    "objecion", "hipotesis", "ejemplo", "pregunta", "definicion",
+    "formulacion_condicional", "caso_contrafactico", "no_determinado",
 }
 
 
@@ -71,6 +62,31 @@ def load_jsonl(path: Path) -> list[dict]:
     return rows
 
 
+def manifest_files(path: Path) -> list[Path]:
+    if not path.is_file():
+        raise SystemExit(f"No existe manifiesto requerido: {path}")
+    doc = json.loads(path.read_text(encoding="utf-8"))
+    if doc.get("version") != "1.0.0" or doc.get("obra_id") != PILOTO_ID:
+        raise AssertionError("Manifiesto de patrón de oro incompatible")
+    names = doc.get("archivos")
+    if not isinstance(names, list) or not names or len(names) != len(set(names)):
+        raise AssertionError("El manifiesto debe declarar archivos únicos y no vacíos")
+    root = path.parent.resolve()
+    output: list[Path] = []
+    for name in names:
+        if not isinstance(name, str) or not name.endswith(".jsonl"):
+            raise AssertionError(f"Entrada inválida en manifiesto: {name!r}")
+        candidate = (path.parent / name).resolve()
+        try:
+            candidate.relative_to(root)
+        except ValueError as exc:
+            raise AssertionError(f"Ruta fuera del directorio de calibración: {name}") from exc
+        if not candidate.is_file():
+            raise AssertionError(f"Archivo de gold declarado pero inexistente: {name}")
+        output.append(candidate)
+    return output
+
+
 def canonical_excerpt(corpus_root: Path, route: str, start: int, end: int) -> str:
     path = corpus_root / route
     if not path.is_file():
@@ -81,14 +97,7 @@ def canonical_excerpt(corpus_root: Path, route: str, start: int, end: int) -> st
     return "\n".join(lines[start - 1 : end])
 
 
-def validate_paths(
-    *,
-    gold: Path,
-    schema: Path,
-    lock: Path,
-    units: Path,
-    corpus_root: Path,
-) -> dict:
+def validate_files(*, gold_files: list[Path], schema: Path, lock: Path, units: Path, corpus_root: Path) -> dict:
     schema_doc = json.loads(schema.read_text(encoding="utf-8"))
     validator = Draft202012Validator(schema_doc)
     lock_doc = json.loads(lock.read_text(encoding="utf-8"))
@@ -104,15 +113,19 @@ def validate_paths(
     for motor in MOTOR_TYPES:
         frozen.update(lock_doc["desafios"][motor])
 
-    rows = load_jsonl(gold)
+    rows: list[tuple[Path, int, dict]] = []
+    for gold_file in gold_files:
+        for number, row in enumerate(load_jsonl(gold_file), start=1):
+            rows.append((gold_file, number, row))
+
     seen_entries: set[tuple[str, str]] = set()
     seen_items: set[tuple] = set()
     total_items = 0
 
-    for number, row in enumerate(rows, start=1):
+    for origin, number, row in rows:
         errors = sorted(validator.iter_errors(row), key=lambda error: list(error.path))
         if errors:
-            raise AssertionError(f"Fila {number} fuera de esquema: {errors[0].message}")
+            raise AssertionError(f"{origin.name}:{number} fuera de esquema: {errors[0].message}")
 
         entry_key = (row["unidad_id"], row["motor"])
         if entry_key in seen_entries:
@@ -167,24 +180,17 @@ def validate_paths(
             if position < 0:
                 raise AssertionError(f"Literal no coincide con fuente {route}:{start}-{end}")
             before = excerpt[:position]
-            after = excerpt[position + len(literal) :]
+            after = excerpt[position + len(literal):]
             if "\n" in before:
                 raise AssertionError(f"Inicio declarado demasiado temprano en {unit_id}:{start}-{end}")
             if "\n" in after:
                 raise AssertionError(f"Fin declarado demasiado tarde en {unit_id}:{start}-{end}")
 
             detection_identity = (
-                kind,
-                unit_id,
-                literal,
-                start,
-                end,
-                item.get("concepto_designacion"),
-                item.get("sujeto_designacion"),
-                item.get("objeto_designacion"),
-                item.get("termino_a_literal"),
-                item.get("termino_b_literal"),
-                item.get("objeto_negado_literal"),
+                kind, unit_id, literal, start, end,
+                item.get("concepto_designacion"), item.get("sujeto_designacion"),
+                item.get("objeto_designacion"), item.get("termino_a_literal"),
+                item.get("termino_b_literal"), item.get("objeto_negado_literal"),
                 item.get("fragmento_literal"),
             )
             if detection_identity in seen_items:
@@ -194,25 +200,34 @@ def validate_paths(
     return {
         "revisiones": len(rows),
         "items": total_items,
-        "motores": sorted({row["motor"] for row in rows}),
+        "motores": sorted({row["motor"] for _, _, row in rows}),
+        "archivos_gold": [path.name for path in gold_files],
     }
+
+
+def validate_paths(*, gold: Path, schema: Path, lock: Path, units: Path, corpus_root: Path) -> dict:
+    return validate_files(gold_files=[gold], schema=schema, lock=lock, units=units, corpus_root=corpus_root)
+
+
+def validate_manifest(*, manifest: Path, schema: Path, lock: Path, units: Path, corpus_root: Path) -> dict:
+    return validate_files(
+        gold_files=manifest_files(manifest), schema=schema, lock=lock, units=units, corpus_root=corpus_root
+    )
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--patron", type=Path, default=DEFAULT_GOLD)
+    parser.add_argument("--patron", type=Path, default=None, help="Valida un JSONL aislado en vez del manifiesto")
+    parser.add_argument("--manifiesto", type=Path, default=DEFAULT_MANIFEST)
     parser.add_argument("--schema", type=Path, default=DEFAULT_SCHEMA)
     parser.add_argument("--lock", type=Path, default=DEFAULT_LOCK)
     parser.add_argument("--unidades", type=Path, default=DEFAULT_UNITS)
     parser.add_argument("--corpus", type=Path, default=DEFAULT_CORPUS)
     args = parser.parse_args()
-    result = validate_paths(
-        gold=args.patron,
-        schema=args.schema,
-        lock=args.lock,
-        units=args.unidades,
-        corpus_root=args.corpus,
-    )
+    if args.patron is not None:
+        result = validate_paths(gold=args.patron, schema=args.schema, lock=args.lock, units=args.unidades, corpus_root=args.corpus)
+    else:
+        result = validate_manifest(manifest=args.manifiesto, schema=args.schema, lock=args.lock, units=args.unidades, corpus_root=args.corpus)
     print(json.dumps(result, ensure_ascii=False, sort_keys=True))
     return 0
 
