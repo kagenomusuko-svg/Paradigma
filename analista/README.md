@@ -40,6 +40,14 @@ Reglas derivadas:
 
 El sistema está diseñado para preferir **«NO DETERMINADO POR EL CORPUS»** antes que una respuesta plausible pero no textual.
 
+### 2.1. Clausura descriptiva
+
+El analista permanece en la descripción del estado documental del corpus. Puede registrar que el corpus contiene lenguaje normativo, modal o prescriptivo sin convertirse por ello en prescriptivo.
+
+La presencia de un significante como `debe` no determina por sí sola su función semántica. El contexto puede mostrar obligación normativa, condición funcional, necesidad definida por un modelo, expectativa, consecuencia lógica u otra función. Si la función no está suficientemente determinada, se conserva como **no determinada**.
+
+El analista nunca produce por sí mismo una prescripción sobre cómo debería formularse, corregirse o armonizarse el corpus.
+
 ---
 
 ## 3. Resultado esperado
@@ -62,8 +70,10 @@ Cada libro tendrá un JSON maestro auditado que conserve, al menos:
 - excepciones;
 - restricciones de alcance;
 - predicaciones de cada sujeto o concepto;
+- estatus enunciativo de las afirmaciones;
 - hallazgos de auditoría intraobra;
 - trazabilidad de cada registro hasta la fuente;
+- cobertura de cada motor sobre las unidades de la obra;
 - versión de los extractores y esquemas que produjeron el expediente.
 
 El JSON maestro **no es una síntesis interpretativa del libro**. Es su expediente documental auditado.
@@ -176,7 +186,9 @@ Un JSON intermedio puede contener:
 - referencias;
 - motivos de detección;
 - confianza de extracción;
-- normalizaciones tipográficas permitidas.
+- normalizaciones tipográficas permitidas;
+- estatus enunciativo candidato;
+- cobertura del motor que lo produjo.
 
 No tiene autoridad doctrinal.
 
@@ -217,7 +229,8 @@ Debe comprobar, entre otras cosas:
 - que una fórmula preserve su bloque completo;
 - que no haya IDs rotos o duplicados indebidos;
 - que las relaciones apunten a registros existentes;
-- que un candidato no haya ascendido de categoría sin la evidencia exigida.
+- que un candidato no haya ascendido de categoría sin la evidencia exigida;
+- que las afirmaciones conserven su estatus enunciativo o permanezcan como no determinadas.
 
 ### 8.2. Auditoría descriptiva intraobra
 
@@ -281,13 +294,17 @@ Estas requieren análisis posterior o declaración textual explícita.
 
 ---
 
-## 9. Normalización lingüística
+## 9. Normalización lingüística y niveles de literalidad
 
 La normalización sirve para **recuperar evidencia**, no para fabricar identidad doctrinal.
 
-Se distinguen al menos tres niveles:
+Se distinguen cuatro niveles:
 
-### 9.1. Variante tipográfica
+### 9.1. Texto literal
+
+La secuencia efectivamente conservada en la fuente. Es la base de toda trazabilidad.
+
+### 9.2. Normalización formal
 
 Ejemplo:
 
@@ -298,7 +315,7 @@ Ejemplo:
 
 Puede normalizarse automáticamente cuando la identidad del signo sea inequívoca.
 
-### 9.2. Sinonimia o proximidad léxica
+### 9.3. Normalización léxica para recuperación
 
 Ejemplo:
 
@@ -311,9 +328,9 @@ Puede utilizarse para ampliar búsquedas o generar candidatos de revisión.
 
 No autoriza a fusionar conceptos.
 
-### 9.3. Equivalencia conceptual
+### 9.4. Identidad conceptual
 
-Solo se registra como tal cuando existe evidencia textual suficiente de que dos términos designan el mismo concepto en el contexto correspondiente.
+Solo se registra cuando existe evidencia textual suficiente de que dos términos designan el mismo concepto en el contexto correspondiente.
 
 Compartir un predicado no produce identidad de sujeto:
 
@@ -388,6 +405,8 @@ El proyecto seguirá este orden:
 11. solo después construir consultas o análisis doctrinales sobre ese maestro.
 
 No se adelantará una fase para obtener respuestas más rápidas.
+
+La planificación detallada y los criterios de cierre de cada fase se mantienen en `analista/FASES.md`.
 
 ---
 
@@ -484,3 +503,113 @@ leer
 ```
 
 **La función del sistema no es pensar por el corpus. Es hacer que el corpus pueda rendir cuentas de lo que dice.**
+
+---
+
+## 17. Salvaguardas adicionales de implementación
+
+### 17.1. Estatus enunciativo
+
+La mera presencia de una oración en un libro no significa que sea una tesis del autor. Una afirmación deberá conservar, cuando pueda determinarse por evidencia textual, su función enunciativa.
+
+Categorías mínimas:
+
+```text
+afirmacion_autoral
+negacion_autoral
+cita
+discurso_referido
+objecion
+hipotesis
+ejemplo
+pregunta
+definicion
+formulacion_condicional
+caso_contrafactico
+no_determinado
+```
+
+Ejemplo:
+
+```text
+«Algunos sostienen que X. Esta posición es insostenible.»
+```
+
+no autoriza a registrar `X` como tesis autoral positiva.
+
+Cuando el estatus no pueda establecerse con suficiente evidencia, debe conservarse como `no_determinado`.
+
+### 17.2. Ausencia de hallazgo y cobertura
+
+`No encontrado` no significa automáticamente `no existe`.
+
+Cada motor deberá registrar:
+
+- número total de unidades elegibles;
+- unidades efectivamente procesadas;
+- unidades omitidas y motivo;
+- errores de procesamiento;
+- versión del motor.
+
+Se distinguen:
+
+```text
+NO ENCONTRADO POR ESTE MOTOR
+NO PRESENTE EN LOS REGISTROS AUDITADOS
+NO DETERMINADO POR EL CORPUS
+```
+
+Una consulta negativa deberá preferir expresiones como:
+
+> **No se encontró evidencia auditada en el expediente disponible.**
+
+antes que afirmar sin más que el corpus carece de ella.
+
+### 17.3. Agregación no equivale a síntesis
+
+El auditor puede reunir bajo un mismo sujeto todas sus definiciones, predicaciones, negaciones, relaciones y excepciones.
+
+No puede convertir esa agregación en una tesis nueva.
+
+```text
+A-001: X es A.
+A-002: X produce B.
+A-003: X no es C.
+```
+
+puede presentarse como expediente conjunto de `X`, pero no sintetizarse automáticamente como:
+
+```text
+X = A + productor de B - C
+```
+
+### 17.4. Precisión y cobertura son métricas distintas
+
+El sistema medirá por separado:
+
+**Precisión:** de lo extraído, cuánto fue extraído y clasificado correctamente.
+
+**Cobertura:** de los elementos que debían ser recuperados, cuánto encontró el motor.
+
+La trazabilidad perfecta no demuestra cobertura perfecta.
+
+Para calibrar motores semánticos se mantendrá un **patrón de oro humano** sobre una muestra representativa del corpus. Las métricas de confianza automática se referirán a detección o clasificación, nunca a verdad doctrinal.
+
+### 17.5. Regla de fuerza probatoria
+
+Ninguna salida puede ser más fuerte que su evidencia.
+
+Ejemplos:
+
+```text
+Evidencia: posible definición
+→ salida máxima: definición candidata
+
+Evidencia: equivalencia léxica para búsqueda
+→ salida máxima: candidato de vinculación
+
+Evidencia: tesis explícita verificada
+→ salida máxima: tesis explícita auditada
+```
+
+El sistema nunca asciende de categoría únicamente porque una formulación sea plausible, frecuente o coherente con otras.
