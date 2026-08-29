@@ -1,185 +1,33 @@
 #!/usr/bin/env python3
-"""Valida 7A sobre registros reales verificados y mutaciones estructurales."""
+"""Valida 7A sobre 4689 registros reales verificados y mutaciones estructurales."""
 from __future__ import annotations
-
-import json
-import shutil
-import subprocess
-import sys
-import tempfile
+import json,shutil,subprocess,sys,tempfile
 from pathlib import Path
-
 from jsonschema import Draft202012Validator
-
-ROOT = Path(__file__).resolve().parents[2]
-SCHEMA = ROOT / "analista/esquema/contratos-v1.0.0.schema.json"
-INPUT = ROOT / "analista/generado/verificados"
-OUTPUT = ROOT / "analista/generado/auditados"
-UNIDADES = ROOT / "analista/generado/unidades.jsonl"
-MOTOR = ROOT / "analista/motores/auditor_estructural.py"
-FILES = {
-    "apariciones-conceptuales.jsonl": "aparicion_conceptual",
-    "conceptos.jsonl": "concepto",
-    "definiciones.jsonl": "definicion",
-    "afirmaciones-candidatas.jsonl": "afirmacion",
-    "formulas-candidatas.jsonl": "formula",
-    "relaciones-explicitas.jsonl": "relacion_explicita",
-    "distinciones.jsonl": "distincion",
-    "negaciones.jsonl": "negacion",
-    "excepciones.jsonl": "excepcion",
-    "restricciones-alcance.jsonl": "restriccion_alcance",
-}
-EXPECTED_COUNTS = {
-    "apariciones-conceptuales.jsonl": 2575,
-    "conceptos.jsonl": 21,
-    "definiciones.jsonl": 60,
-    "afirmaciones-candidatas.jsonl": 333,
-    "formulas-candidatas.jsonl": 21,
-    "relaciones-explicitas.jsonl": 83,
-    "distinciones.jsonl": 26,
-    "negaciones.jsonl": 1509,
-    "excepciones.jsonl": 1,
-    "restricciones-alcance.jsonl": 3,
-}
-TOTAL_ESPERADO = sum(EXPECTED_COUNTS.values())
-
-
-def load_jsonl(path: Path) -> list[dict]:
-    return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line]
-
-
-def dump_jsonl(path: Path, rows: list[dict]) -> None:
-    path.write_text(
-        "".join(json.dumps(row, ensure_ascii=False, sort_keys=True) + "\n" for row in rows),
-        encoding="utf-8",
-    )
-
-
-def validator(schema: dict, name: str) -> Draft202012Validator:
-    return Draft202012Validator(
-        {"$schema": schema["$schema"], "$defs": schema["$defs"], "$ref": f"#/$defs/{name}"}
-    )
-
-
-def run(input_root: Path, output_root: Path, expected_code: int) -> subprocess.CompletedProcess[str]:
-    result = subprocess.run(
-        [
-            sys.executable,
-            str(MOTOR),
-            "--input-root",
-            str(input_root),
-            "--output-root",
-            str(output_root),
-            "--unidades",
-            str(UNIDADES),
-        ],
-        cwd=ROOT,
-        text=True,
-        capture_output=True,
-    )
-    assert result.returncode == expected_code, (result.returncode, result.stdout, result.stderr)
-    return result
-
-
-def copy_inputs(destination: Path) -> None:
-    destination.mkdir(parents=True, exist_ok=True)
-    for filename in FILES:
-        shutil.copy2(INPUT / filename, destination / filename)
-
-
-def audit_status(root: Path, filename: str, record_id: str) -> str:
-    return next(row["estado_auditoria"] for row in load_jsonl(root / filename) if row["id"] == record_id)
-
-
-def main() -> int:
-    schema = json.loads(SCHEMA.read_text(encoding="utf-8"))
-    validators = {filename: validator(schema, ref) for filename, ref in FILES.items()}
-
-    result = run(INPUT, OUTPUT, 0)
-    assert f'"auditados": {TOTAL_ESPERADO}' in result.stdout and '"rechazados": 0' in result.stdout
-
-    snapshot: dict[str, bytes] = {}
-    total = 0
-    for filename, count in EXPECTED_COUNTS.items():
-        source = load_jsonl(INPUT / filename)
-        audited = load_jsonl(OUTPUT / filename)
-        assert len(source) == len(audited) == count
-        snapshot[filename] = (OUTPUT / filename).read_bytes()
-        total += count
-        for before, after in zip(source, audited):
-            errors = list(validators[filename].iter_errors(after))
-            assert not errors, f"Salida inválida {after['id']}: {errors[0].message}"
-            changed = {key for key in set(before) | set(after) if before.get(key) != after.get(key)}
-            assert changed == {"estado_auditoria"}, (filename, before["id"], changed)
-            assert before["estado_verificacion"] == after["estado_verificacion"] == "verificado"
-            assert after["estado_auditoria"] == "auditado"
-    assert total == TOTAL_ESPERADO == 4632
-
-    run(INPUT, OUTPUT, 0)
-    for filename, content in snapshot.items():
-        assert (OUTPUT / filename).read_bytes() == content, f"Salida no reproducible: {filename}"
-
-    with tempfile.TemporaryDirectory() as temporary:
-        temporary = Path(temporary)
-
-        mutated = temporary / "unverified"
-        copy_inputs(mutated)
-        rows = load_jsonl(mutated / "negaciones.jsonl")
-        record_id = rows[0]["id"]
-        rows[0]["estado_verificacion"] = "pendiente"
-        dump_jsonl(mutated / "negaciones.jsonl", rows)
-        rejected = temporary / "r1"
-        run(mutated, rejected, 2)
-        assert audit_status(rejected, "negaciones.jsonl", record_id) == "rechazado"
-
-        mutated = temporary / "broken-ref"
-        copy_inputs(mutated)
-        rows = load_jsonl(mutated / "relaciones-explicitas.jsonl")
-        record_id = rows[0]["id"]
-        rows[0]["objeto_ref"] = "CON-INEXISTENTE"
-        dump_jsonl(mutated / "relaciones-explicitas.jsonl", rows)
-        rejected = temporary / "r2"
-        run(mutated, rejected, 2)
-        assert audit_status(rejected, "relaciones-explicitas.jsonl", record_id) == "rechazado"
-
-        mutated = temporary / "force"
-        copy_inputs(mutated)
-        rows = load_jsonl(mutated / "negaciones.jsonl")
-        record_id = rows[0]["id"]
-        rows[0]["estado_extraccion"] = "extraido"
-        dump_jsonl(mutated / "negaciones.jsonl", rows)
-        rejected = temporary / "r3"
-        run(mutated, rejected, 2)
-        assert audit_status(rejected, "negaciones.jsonl", record_id) == "rechazado"
-
-        mutated = temporary / "duplicate"
-        copy_inputs(mutated)
-        rows = load_jsonl(mutated / "excepciones.jsonl")
-        record_id = rows[0]["id"]
-        rows.append(dict(rows[0]))
-        dump_jsonl(mutated / "excepciones.jsonl", rows)
-        rejected = temporary / "r4"
-        run(mutated, rejected, 2)
-        assert all(row["estado_auditoria"] == "rechazado" for row in load_jsonl(rejected / "excepciones.jsonl"))
-
-        mutated = temporary / "formula-context"
-        copy_inputs(mutated)
-        rows = load_jsonl(mutated / "formulas-candidatas.jsonl")
-        record_id = rows[0]["id"]
-        rows[0]["contexto_unidad_ids"] = []
-        dump_jsonl(mutated / "formulas-candidatas.jsonl", rows)
-        rejected = temporary / "r5"
-        run(mutated, rejected, 2)
-        assert audit_status(rejected, "formulas-candidatas.jsonl", record_id) == "rechazado"
-
-    run(INPUT, OUTPUT, 0)
-    print(
-        "OK Fase 7A: 4632 registros auditados; 0 rechazados; salida reproducible; "
-        "solo cambia estado_auditoria; evidencia pendiente, referencias rotas, fuerza "
-        "incoherente, IDs duplicados y contexto de fórmula inválido son rechazados."
-    )
-    return 0
-
-
-if __name__ == "__main__":
-    raise SystemExit(main())
+ROOT=Path(__file__).resolve().parents[2];SCHEMA=ROOT/'analista/esquema/contratos-v1.0.0.schema.json';INPUT=ROOT/'analista/generado/verificados';OUTPUT=ROOT/'analista/generado/auditados';UNITS=ROOT/'analista/generado/unidades.jsonl';MOTOR=ROOT/'analista/motores/auditor_estructural.py'
+FILES={'apariciones-conceptuales.jsonl':'aparicion_conceptual','conceptos.jsonl':'concepto','definiciones.jsonl':'definicion','afirmaciones-candidatas.jsonl':'afirmacion','formulas-candidatas.jsonl':'formula','relaciones-explicitas.jsonl':'relacion_explicita','distinciones.jsonl':'distincion','negaciones.jsonl':'negacion','excepciones.jsonl':'excepcion','restricciones-alcance.jsonl':'restriccion_alcance'}
+COUNTS={'apariciones-conceptuales.jsonl':2575,'conceptos.jsonl':21,'definiciones.jsonl':60,'afirmaciones-candidatas.jsonl':333,'formulas-candidatas.jsonl':21,'relaciones-explicitas.jsonl':83,'distinciones.jsonl':233,'negaciones.jsonl':1346,'excepciones.jsonl':1,'restricciones-alcance.jsonl':16};TOTAL=sum(COUNTS.values())
+def load(p):return [json.loads(x) for x in p.read_text(encoding='utf-8').splitlines() if x]
+def dump(p,rows):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(''.join(json.dumps(r,ensure_ascii=False,sort_keys=True)+'\n' for r in rows),encoding='utf-8')
+def val(schema,name):return Draft202012Validator({'$schema':schema['$schema'],'$defs':schema['$defs'],'$ref':f'#/$defs/{name}'})
+def run(inp,out,code=0):
+ r=subprocess.run([sys.executable,str(MOTOR),'--input-root',str(inp),'--output-root',str(out),'--unidades',str(UNITS)],cwd=ROOT,text=True,capture_output=True);assert r.returncode==code,(r.returncode,r.stdout,r.stderr);return r
+def copy_inputs(dst):dst.mkdir(parents=True,exist_ok=True);[shutil.copy2(INPUT/fn,dst/fn) for fn in FILES]
+def status(root,fn,rid):return next(r['estado_auditoria'] for r in load(root/fn) if r['id']==rid)
+def main():
+ schema=json.loads(SCHEMA.read_text(encoding='utf-8'));validators={fn:val(schema,k) for fn,k in FILES.items()};result=run(INPUT,OUTPUT);assert f'"auditados": {TOTAL}' in result.stdout and '"rechazados": 0' in result.stdout
+ snap={};total=0
+ for fn,count in COUNTS.items():
+  before=load(INPUT/fn);after=load(OUTPUT/fn);assert len(before)==len(after)==count;total+=count;snap[fn]=(OUTPUT/fn).read_bytes()
+  for a,b in zip(before,after):
+   errors=list(validators[fn].iter_errors(b));assert not errors,f"{b['id']}: {errors[0].message}";changed={k for k in set(a)|set(b) if a.get(k)!=b.get(k)};assert changed=={'estado_auditoria'};assert a['estado_verificacion']==b['estado_verificacion']=='verificado' and b['estado_auditoria']=='auditado'
+ assert total==TOTAL==4689;run(INPUT,OUTPUT)
+ for fn,b in snap.items():assert (OUTPUT/fn).read_bytes()==b,f'No reproducible: {fn}'
+ with tempfile.TemporaryDirectory() as td:
+  td=Path(td);mut=td/'unverified';copy_inputs(mut);rows=load(mut/'negaciones.jsonl');rid=rows[0]['id'];rows[0]['estado_verificacion']='pendiente';dump(mut/'negaciones.jsonl',rows);out=td/'r1';run(mut,out,2);assert status(out,'negaciones.jsonl',rid)=='rechazado'
+  mut=td/'broken';copy_inputs(mut);rows=load(mut/'relaciones-explicitas.jsonl');rid=rows[0]['id'];rows[0]['objeto_ref']='CON-INEXISTENTE';dump(mut/'relaciones-explicitas.jsonl',rows);out=td/'r2';run(mut,out,2);assert status(out,'relaciones-explicitas.jsonl',rid)=='rechazado'
+  mut=td/'force';copy_inputs(mut);rows=load(mut/'negaciones.jsonl');idx=next(i for i,r in enumerate(rows) if r['clasificacion_negacion']=='negacion_candidata');rid=rows[idx]['id'];rows[idx]['estado_extraccion']='extraido';dump(mut/'negaciones.jsonl',rows);out=td/'r3';run(mut,out,2);assert status(out,'negaciones.jsonl',rid)=='rechazado'
+  mut=td/'dup';copy_inputs(mut);rows=load(mut/'excepciones.jsonl');rows.append(dict(rows[0]));dump(mut/'excepciones.jsonl',rows);out=td/'r4';run(mut,out,2);assert all(r['estado_auditoria']=='rechazado' for r in load(out/'excepciones.jsonl'))
+  mut=td/'formula';copy_inputs(mut);rows=load(mut/'formulas-candidatas.jsonl');rid=rows[0]['id'];rows[0]['contexto_unidad_ids']=[];dump(mut/'formulas-candidatas.jsonl',rows);out=td/'r5';run(mut,out,2);assert status(out,'formulas-candidatas.jsonl',rid)=='rechazado'
+ print('OK Fase 7A: 4689 registros auditados; 0 rechazados; solo cambia estado_auditoria; mutaciones de verificación, referencia, fuerza, duplicado y contexto son rechazadas.');return 0
+if __name__=='__main__':raise SystemExit(main())
