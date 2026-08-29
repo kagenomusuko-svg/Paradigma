@@ -19,7 +19,7 @@ EXPECTED_PRODUCER={
  'aparicion_conceptual':('conceptos_apariciones','1.1.0'),
  'concepto':('conceptos_apariciones','1.1.0'),
  'definicion':('definiciones','1.1.0'),
- 'afirmacion':('afirmaciones','1.0.0'),
+ 'afirmacion':('afirmaciones','1.1.0'),
  'formula':('formulas','1.1.0'),
  'relacion_explicita':('relaciones_explicitas','1.1.0'),
  'distincion':('limitadores','1.0.1'),
@@ -180,9 +180,12 @@ def main() -> int:
                     if not literal_matches_excerpt(r['texto_literal'],ex): fail(rid,'literal_definicion'); ok=False
                     if r.get('concepto_id') not in concepts: fail(rid,'concepto_inexistente'); ok=False
                 elif t=='afirmacion':
-                    if ex!=r['texto_literal']: fail(rid,'literal_afirmacion'); ok=False
                     uloc=u['localizacion']
-                    if loc!=uloc: fail(rid,'rango_afirmacion'); ok=False
+                    if not (
+                        uloc['linea_inicio'] <= loc['linea_inicio'] <= loc['linea_fin'] <= uloc['linea_fin']
+                    ):
+                        fail(rid,'rango_afirmacion'); ok=False
+                    if not literal_matches_excerpt(r['texto_literal'],ex): fail(rid,'literal_afirmacion'); ok=False
                     if any(cid not in concepts for cid in r.get('concepto_ids',[])): fail(rid,'concepto_inexistente'); ok=False
                 elif t=='formula':
                     if r['texto_literal']!=r['formula_literal']: fail(rid,'literal_formula'); ok=False
