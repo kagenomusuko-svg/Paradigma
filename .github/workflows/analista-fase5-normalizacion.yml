@@ -6,6 +6,7 @@ on:
     paths:
       - "analista/motores/normalizacion.py"
       - "analista/pruebas/validar_normalizacion_fase5.py"
+      - "analista/motores/conceptos.py"
       - "analista/motores/definiciones.py"
       - "analista/motores/formulas.py"
       - "analista/motores/relaciones_explicitas.py"
@@ -40,6 +41,7 @@ jobs:
       - run: python -m pip install --quiet jsonschema
       - name: Regenerar productos calibrados de Fase 4
         run: |
+          python analista/motores/conceptos.py
           python analista/motores/definiciones.py
           python analista/motores/formulas.py
           python analista/motores/relaciones_explicitas.py
