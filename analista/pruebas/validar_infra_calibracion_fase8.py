@@ -161,6 +161,10 @@ def main() -> int:
         output = temporary / "report.json"
         dump_jsonl(gold, [entry])
         perfect = report(run_evaluator(gold, fixture, output))
+        assert perfect["version"] == "1.1.0"
+        assert perfect["positivos_esperados"] == 3
+        assert perfect["predicciones_emitidas"] == 3
+        assert perfect["verdaderos_positivos"] == 3
         assert perfect["precision"] == 1
         assert perfect["cobertura"] == 1
         assert perfect["falsos_positivos"] == 0
@@ -184,6 +188,9 @@ def main() -> int:
         fewer["items_esperados"] = entry["items_esperados"][:-1]
         dump_jsonl(gold, [fewer])
         fp = report(run_evaluator(gold, fixture, output))
+        assert fp["positivos_esperados"] == 2
+        assert fp["predicciones_emitidas"] == 3
+        assert fp["verdaderos_positivos"] == 2
         assert fp["falsos_positivos"] == 1
         assert fp["falsos_negativos"] == 0
 
@@ -193,6 +200,9 @@ def main() -> int:
         extra["items_esperados"].append(fake)
         dump_jsonl(gold, [extra])
         fn = report(run_evaluator(gold, fixture, output))
+        assert fn["positivos_esperados"] == 4
+        assert fn["predicciones_emitidas"] == 3
+        assert fn["verdaderos_positivos"] == 3
         assert fn["falsos_positivos"] == 0
         assert fn["falsos_negativos"] == 1
 
@@ -201,7 +211,8 @@ def main() -> int:
 
     print(
         "OK infraestructura Fase 8: lock reproducible (96 unidades); esquema manual válido; "
-        "manifiesto aislado por motor; evaluador distingue TP/FP/FN y rechaza duplicados."
+        "manifiesto aislado por motor; reporte v1.1 expone denominadores y distingue TP/FP/FN; "
+        "duplicados unidad–motor rechazados."
     )
     return 0
 
