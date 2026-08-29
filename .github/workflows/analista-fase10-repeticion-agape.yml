@@ -10,10 +10,14 @@ on:
       - "analista/motores/definiciones.py"
       - "analista/motores/afirmaciones.py"
       - "analista/motores/formulas.py"
+      - "analista/motores/formulas_obra_fase10.py"
       - "analista/motores/relaciones_explicitas.py"
       - "analista/motores/limitadores.py"
       - "analista/pruebas/validar_inventario_fase10.py"
       - "analista/pruebas/validar_repeticion_agape_fase10.py"
+      - "analista/pruebas/validar_muestra_agape_fase10.py"
+      - "analista/pruebas/validar_formulas_agape_fase10.py"
+      - "analista/calibracion/fase10/FUE-2C28F35DD6CF/**"
       - "analista/esquema/contratos-v1.0.0.schema.json"
       - "analista/generado/fuentes.jsonl"
       - "analista/generado/unidades.jsonl"
@@ -43,6 +47,12 @@ jobs:
         run: |
           python analista/motores/ejecutar_extractores_obra_fase10.py \
             --obra-id FUE-2C28F35DD6CF
+
+      - name: Validar muestra congelada previa a calibración
+        run: python analista/pruebas/validar_muestra_agape_fase10.py
+
+      - name: Validar regresión piloto y fórmulas Ágape v1.2
+        run: python analista/pruebas/validar_formulas_agape_fase10.py
 
       - name: Validar producto real y aislamiento del piloto
         run: python analista/pruebas/validar_repeticion_agape_fase10.py
