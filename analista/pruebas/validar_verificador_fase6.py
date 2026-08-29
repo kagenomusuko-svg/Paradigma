@@ -34,15 +34,16 @@ FILES = {
 EXPECTED_COUNTS = {
     "apariciones-conceptuales.jsonl": 2575,
     "conceptos.jsonl": 21,
-    "definiciones.jsonl": 21,
+    "definiciones.jsonl": 60,
     "afirmaciones-candidatas.jsonl": 73,
     "formulas-candidatas.jsonl": 21,
-    "relaciones-explicitas.jsonl": 4,
+    "relaciones-explicitas.jsonl": 83,
     "distinciones.jsonl": 26,
     "negaciones.jsonl": 1509,
     "excepciones.jsonl": 1,
     "restricciones-alcance.jsonl": 3,
 }
+TOTAL_ESPERADO = sum(EXPECTED_COUNTS.values())
 
 
 def load_jsonl(path: Path) -> list[dict]:
@@ -114,7 +115,7 @@ def main() -> int:
 
     completed = run_verifier()
     assert '"fallidos": 0' in completed.stdout
-    assert '"verificados": 4254' in completed.stdout
+    assert f'"verificados": {TOTAL_ESPERADO}' in completed.stdout
 
     total = 0
     snapshot: dict[str, bytes] = {}
@@ -141,7 +142,7 @@ def main() -> int:
             assert source["estado_verificacion"] == "pendiente"
             assert verified["estado_verificacion"] == "verificado"
 
-    assert total == 4254
+    assert total == TOTAL_ESPERADO == 4372
 
     run_verifier()
     for filename, content in snapshot.items():
@@ -219,7 +220,7 @@ def main() -> int:
 
     run_verifier()
     print(
-        "OK Fase 6: 4254 registros verificados mecánicamente; 0 fallidos; "
+        "OK Fase 6: 4372 registros verificados mecánicamente; 0 fallidos; "
         "salida reproducible; solo cambia estado_verificacion; hash, unidad, literal, "
         "rango, referencias y versiones incorrectas producen fallo expreso."
     )
