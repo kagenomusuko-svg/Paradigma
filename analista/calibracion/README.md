@@ -30,11 +30,14 @@ Un patrón de oro registra lo que la revisión textual considera recuperable baj
 
 ## Reglas manuales de anotación
 
-- **Definiciones:** una definición explícita conserva el bloque literal efectivamente dedicado a definir el lema. Un marcador de página interpuesto se conserva si cae dentro del bloque canónico. Una abreviatura o remisión no autoriza expandir la identidad conceptual por similitud.
-- **Relaciones explícitas:** sujeto y objeto se registran solo cuando la relación entre ambos está textual y suficientemente establecida. No se aplica transitividad ni expansión automática de abreviaturas.
+- **Conceptos/apariciones:** toda coincidencia literal exacta, con frontera de palabra y espacios internos flexibles, de uno de los 21 lemas técnicos congelados puede anotarse como `aparicion_conceptual`. Esto no determina por sí mismo identidad conceptual. Fuera de la declaración del glosario, `concepto_designacion` solo se fija cuando la propia coincidencia reproduce exactamente una designación técnica de más de una palabra. Las palabras simples (`Pasión`, `Ego`, `Caos`, etc.) permanecen con identidad `null` por forma sola. No se generan plurales, abreviaturas, sinónimos ni variantes semánticas. Las líneas declarativas del glosario pueden anotar además el registro `concepto`, con identidad establecida por esa evidencia declarativa.
+- **Definiciones:** una definición explícita conserva el bloque literal efectivamente dedicado a definir el lema. Un marcador de página interpuesto se conserva si cae dentro del bloque canónico. Una abreviatura o remisión no autoriza expandir la identidad conceptual por similitud. Las formulaciones definicionales menos inequívocas permanecen candidatas y conservan su estatus enunciativo.
+- **Relaciones explícitas:** sujeto y objeto se registran solo cuando la relación entre ambos está textual y suficientemente establecida. No se aplica transitividad ni expansión automática de abreviaturas. El literal puede ocupar solo una parte de las líneas extremas de su rango, pero no omitir líneas intermedias completas.
 - **Fórmulas:** `texto_literal` contiene la expresión formal mínima completa que aparece en la fuente, preservando sus saltos de línea internos. Se excluye el prosema introductorio y la puntuación terminal que no forme parte de la expresión. El rango de líneas cubre exactamente las líneas tocadas por la expresión. Una expresión escrita de forma inequívoca puede anotarse como `formula_explicita`; no se normalizan ni fusionan expresiones matemáticamente parecidas.
 
-Estas reglas se fijan antes de usar las métricas para ajustar extractores. Un cambio posterior exige versionar el criterio y no puede reetiquetar silenciosamente el patrón existente.
+Para 4A, `politica-oro-conceptos-v1.0.0.json` congela la decisión manual y los SHA-256 de sus dos JSONL. `materializar_oro_conceptos.py` reproduce esos archivos únicamente desde la política, la muestra bloqueada y las unidades textuales de Fase 3; no consulta `apariciones-conceptuales.jsonl` ni `conceptos.jsonl`. El materializador debe reproducir los hashes congelados o fallar.
+
+Estas reglas se fijan antes de usar las métricas para ajustar extractores. Un cambio posterior exige versionar el criterio y no puede reetiquetar silenciosamente el patrón existente. Las correcciones de una anotación histórica se declaran como reemplazos explícitos en el manifiesto; no se aplica `last write wins` implícito.
 
 ## Protocolo cuantitativo
 
