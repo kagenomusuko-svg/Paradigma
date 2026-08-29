@@ -7,6 +7,7 @@ on:
       - 'corpus/fuentes/**'
       - 'corpus/libros/**'
       - 'analista/esquema/**'
+      - 'analista/motores/conceptos.py'
       - 'analista/motores/definiciones.py'
       - 'analista/motores/formulas.py'
       - 'analista/motores/relaciones_explicitas.py'
@@ -37,6 +38,7 @@ jobs:
 
       - name: Regenerar productos calibrados de Fase 4
         run: |
+          python analista/motores/conceptos.py
           python analista/motores/definiciones.py
           python analista/motores/formulas.py
           python analista/motores/relaciones_explicitas.py
