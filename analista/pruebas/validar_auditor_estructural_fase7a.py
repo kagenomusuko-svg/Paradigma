@@ -34,7 +34,7 @@ EXPECTED_COUNTS = {
     "conceptos.jsonl": 21,
     "definiciones.jsonl": 21,
     "afirmaciones-candidatas.jsonl": 73,
-    "formulas-candidatas.jsonl": 20,
+    "formulas-candidatas.jsonl": 21,
     "relaciones-explicitas.jsonl": 4,
     "distinciones.jsonl": 26,
     "negaciones.jsonl": 1509,
@@ -95,7 +95,7 @@ def main() -> int:
     validators = {filename: validator(schema, ref) for filename, ref in FILES.items()}
 
     result = run(INPUT, OUTPUT, 0)
-    assert '"auditados": 4253' in result.stdout and '"rechazados": 0' in result.stdout
+    assert '"auditados": 4254' in result.stdout and '"rechazados": 0' in result.stdout
 
     snapshot: dict[str, bytes] = {}
     total = 0
@@ -112,7 +112,7 @@ def main() -> int:
             assert changed == {"estado_auditoria"}, (filename, before["id"], changed)
             assert before["estado_verificacion"] == after["estado_verificacion"] == "verificado"
             assert after["estado_auditoria"] == "auditado"
-    assert total == 4253
+    assert total == 4254
 
     run(INPUT, OUTPUT, 0)
     for filename, content in snapshot.items():
@@ -173,7 +173,7 @@ def main() -> int:
 
     run(INPUT, OUTPUT, 0)
     print(
-        "OK Fase 7A: 4253 registros auditados; 0 rechazados; salida reproducible; "
+        "OK Fase 7A: 4254 registros auditados; 0 rechazados; salida reproducible; "
         "solo cambia estado_auditoria; evidencia pendiente, referencias rotas, fuerza "
         "incoherente, IDs duplicados y contexto de fórmula inválido son rechazados."
     )
