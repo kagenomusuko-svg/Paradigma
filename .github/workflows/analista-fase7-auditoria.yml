@@ -5,6 +5,7 @@ on:
     branches: [analisis-textual-v0.1]
     paths:
       - 'analista/esquema/**'
+      - 'analista/motores/conceptos.py'
       - 'analista/motores/definiciones.py'
       - 'analista/motores/formulas.py'
       - 'analista/motores/relaciones_explicitas.py'
@@ -38,6 +39,7 @@ jobs:
 
       - name: Regenerar cadena previa con productos calibrados
         run: |
+          python analista/motores/conceptos.py
           python analista/motores/definiciones.py
           python analista/motores/formulas.py
           python analista/motores/relaciones_explicitas.py
