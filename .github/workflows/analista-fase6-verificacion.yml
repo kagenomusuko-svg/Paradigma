@@ -7,7 +7,9 @@ on:
       - 'corpus/fuentes/**'
       - 'corpus/libros/**'
       - 'analista/esquema/**'
+      - 'analista/motores/definiciones.py'
       - 'analista/motores/formulas.py'
+      - 'analista/motores/relaciones_explicitas.py'
       - 'analista/motores/limitadores.py'
       - 'analista/motores/normalizacion.py'
       - 'analista/motores/verificador_evidencia.py'
@@ -23,6 +25,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
 
       - uses: actions/setup-python@v5
         with:
@@ -31,9 +35,11 @@ jobs:
       - name: Instalar dependencias de validacion
         run: python -m pip install --disable-pip-version-check jsonschema
 
-      - name: Regenerar productos no persistidos de Fase 4
+      - name: Regenerar productos calibrados de Fase 4
         run: |
+          python analista/motores/definiciones.py
           python analista/motores/formulas.py
+          python analista/motores/relaciones_explicitas.py
           python analista/motores/limitadores.py
 
       - name: Regenerar normalizacion de Fase 5
