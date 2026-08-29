@@ -11,6 +11,15 @@ on:
       - "scripts/analisis_textual.py"
       - "scripts/auditar_analisis.py"
       - ".github/workflows/analisis-textual.yml"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "corpus/libros/afrodita-areia/01-sobre-la-pasion/**"
+      - "analisis/**"
+      - "scripts/analisis_textual.py"
+      - "scripts/auditar_analisis.py"
+      - ".github/workflows/analisis-textual.yml"
   workflow_dispatch:
 
 permissions:
