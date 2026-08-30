@@ -16,11 +16,14 @@ on:
       - "analista/motores/limitadores.py"
       - "analista/motores/normalizacion.py"
       - "analista/motores/verificador_evidencia.py"
+      - "analista/motores/auditor_estructural.py"
+      - "analista/motores/auditor_descriptivo.py"
       - "analista/pruebas/validar_inventario_fase10.py"
       - "analista/pruebas/validar_repeticion_agape_fase10.py"
       - "analista/pruebas/validar_muestra_agape_fase10.py"
       - "analista/pruebas/validar_formulas_agape_fase10.py"
       - "analista/pruebas/validar_verificacion_agape_fase10.py"
+      - "analista/pruebas/validar_auditoria_agape_fase10.py"
       - "analista/calibracion/fase10/FUE-2C28F35DD6CF/**"
       - "analista/calibracion/evaluar_formulas_fase10.py"
       - "analista/calibracion/materializar_oro_formulas_fase10.py"
@@ -67,10 +70,13 @@ jobs:
       - name: Normalizar y verificar evidencia de Ágape
         run: python analista/pruebas/validar_verificacion_agape_fase10.py
 
+      - name: Auditar Ágape intraobra sin síntesis doctrinal
+        run: python analista/pruebas/validar_auditoria_agape_fase10.py
+
       - name: Publicar repetición controlada Ágape
         uses: actions/upload-artifact@v4
         with:
-          name: analista-fase10-agape-extractores-y-verificacion
+          name: analista-fase10-agape-cadena-intraobra
           path: |
             analista/generado/fase10/inventario-obras.json
             analista/generado/obras/FUE-2C28F35DD6CF/
@@ -86,5 +92,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add analista/generado/fase10 analista/generado/obras/FUE-2C28F35DD6CF
-          git commit -m "Generar repetición controlada Ágape Fase 10"
+          git commit -m "Generar cadena intraobra Ágape Fase 10"
           git push origin HEAD:"${TARGET_BRANCH}"
