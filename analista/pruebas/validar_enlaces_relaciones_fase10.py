@@ -27,6 +27,6 @@ def main()->int:
   conditional=[x for x in rr if x['texto_literal'].startswith('Si la voluntad produce')]; assert conditional and all(x['clasificacion_relacion']=='relacion_candidata' for x in conditional)
   negated=[x for x in rr if 'no produce' in x['texto_literal']]; assert negated and all(x['clasificacion_relacion']=='relacion_candidata' for x in negated)
   questioned=[x for x in rr if '?' in x['texto_literal']]; assert questioned and all(x['clasificacion_relacion']=='relacion_candidata' for x in questioned)
-  assert all(x['producido_por']=={'motor':'relaciones_explicitas','version':'1.3.0'} for x in rr)
+  assert all(x['producido_por']=={'motor':'relaciones_explicitas','version':'1.2.0'} for x in rr)
  print('OK Fase 10 4C/4E: relación explícita exige contexto asertivo; condicional, negación y pregunta quedan candidatas');return 0
 if __name__=='__main__':raise SystemExit(main())
