@@ -8,6 +8,11 @@ los motores cerrados de Fase 4 y registra hashes de todos los productos.
 La primera ruta controlada exige un glosario técnico explícito porque 4A, 4B y
 4E dependen documentalmente de ese soporte. Las obras sin glosario se rechazan
 en vez de recibir conceptos inferidos desde otra obra.
+
+Los perfiles de calibración son opt-in por obra. Si existe
+`analista/calibracion/fase10/<obra_id>/perfil-extractores.json`, solo puede
+clasificar detecciones que el detector de esa obra ya produjo; no puede añadir,
+eliminar ni reubicar evidencia.
 """
 from __future__ import annotations
 
@@ -23,7 +28,8 @@ ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_FUENTES = ROOT / "analista/generado/fuentes.jsonl"
 DEFAULT_UNIDADES = ROOT / "analista/generado/unidades.jsonl"
 DEFAULT_OBRAS_ROOT = ROOT / "analista/generado/obras"
-VERSION = "1.1.0"
+DEFAULT_CALIBRATION_ROOT = ROOT / "analista/calibracion/fase10"
+VERSION = "1.2.0"
 
 
 def load_jsonl(path: Path) -> list[dict]:
@@ -98,14 +104,24 @@ def run_afirmaciones(obra_id: str, unidades: Path, out: Path) -> None:
         raise SystemExit("Falló afirmaciones")
 
 
-def run_formulas(obra_id: str, unidades: Path, out: Path) -> None:
-    m = load_module("fase10_formulas_v120", ROOT / "analista/motores/formulas_obra_fase10.py")
-    m.run(
+def run_formulas(obra_id: str, unidades: Path, out: Path) -> tuple[dict, Path | None]:
+    """Ejecuta 4D y aplica únicamente un perfil calibrado de la misma obra.
+
+    El adaptador de producción conserva la salida v1.2 cuando no hay perfil. Si
+    existe un perfil, este valida su obra, detector de origen, censo manual y
+    número exacto de detecciones antes de permitir una reclasificación.
+    """
+    m = load_module("fase10_formulas_produccion", ROOT / "analista/motores/formulas_perfil_fase10.py")
+    profile = DEFAULT_CALIBRATION_ROOT / obra_id / "perfil-extractores.json"
+    profile_arg = profile if profile.is_file() else None
+    result = m.run(
         obra_id=obra_id,
         unidades=unidades,
         salida=out / "formulas-candidatas.jsonl",
         cobertura=out / "cobertura-formulas.jsonl",
+        perfil=profile_arg,
     )
+    return result, profile_arg
 
 
 def run_relaciones(obra_id: str, fuente: Path, unidades: Path, out: Path) -> None:
@@ -180,7 +196,7 @@ def main() -> int:
     run_conceptos(args.obra_id, fuente_local, unidades_local, out)
     run_definiciones(args.obra_id, fuente_local, unidades_local, out)
     run_afirmaciones(args.obra_id, unidades_local, out)
-    run_formulas(args.obra_id, unidades_local, out)
+    formula_result, formula_profile = run_formulas(args.obra_id, unidades_local, out)
     run_relaciones(args.obra_id, fuente_local, unidades_local, out)
     run_limitadores(args.obra_id, unidades_local, out)
 
@@ -208,6 +224,16 @@ def main() -> int:
     if missing:
         raise SystemExit(f"Productos faltantes tras extracción: {missing}")
 
+    formula_calibration = {
+        "perfil": None,
+        "perfil_sha256": None,
+        "version_produccion": formula_result.get("version"),
+        "perfil_calibrado": bool(formula_result.get("perfil_calibrado", False)),
+    }
+    if formula_profile is not None:
+        formula_calibration["perfil"] = str(formula_profile.relative_to(ROOT))
+        formula_calibration["perfil_sha256"] = sha256(formula_profile)
+
     manifest = {
         "version": VERSION,
         "obra_id": args.obra_id,
@@ -216,6 +242,7 @@ def main() -> int:
         "unidades": len(work_units),
         "fase": "4A-4F_repeticion_controlada",
         "comparacion_interobra": False,
+        "calibracion": {"formulas": formula_calibration},
         "productos": {name: sha256(out / name) for name in product_names},
     }
     manifest_path = out / "manifest-extractores.json"
@@ -230,6 +257,8 @@ def main() -> int:
                 "titulo": source.get("titulo"),
                 "unidades": len(work_units),
                 "productos": len(product_names),
+                "formulas_version": formula_result.get("version"),
+                "formulas_perfil_calibrado": bool(formula_result.get("perfil_calibrado", False)),
                 "manifest_sha256": sha256(manifest_path),
             },
             ensure_ascii=False,
