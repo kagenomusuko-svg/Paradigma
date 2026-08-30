@@ -17,6 +17,7 @@ UNIDADES = ROOT / "analista/generado/unidades.jsonl"
 SCHEMA = ROOT / "analista/esquema/contratos-v1.0.0.schema.json"
 AGAPE = "FUE-2C28F35DD6CF"
 OUT = ROOT / "analista/generado/obras" / AGAPE
+PROFILE = ROOT / "analista/calibracion/fase10" / AGAPE / "perfil-extractores.json"
 
 PRODUCT_TYPES = {
     "apariciones-conceptuales.jsonl": "aparicion_conceptual",
@@ -101,6 +102,7 @@ def main() -> int:
     assert len(agape_units) == 643, len(agape_units)
     assert len({u["id"] for u in agape_units}) == 643
     assert len([r for r in agape_source[0].get("rutas_derivadas", []) if r.endswith("99-glosario.md")]) == 1
+    assert PROFILE.is_file(), "Ágape debe tener perfil de calibración explícito antes de producción v1.3"
 
     pilot_hashes = {
         name: sha(ROOT / "analista/generado" / name)
@@ -164,10 +166,29 @@ def main() -> int:
         assert relation["sujeto_ref"] in concepts
         assert relation["objeto_ref"] in concepts
 
+    # El perfil calibrado de Ágape solo puede reclasificar las 33 detecciones ya
+    # censadas. El expediente de extracción no acepta fórmulas añadidas por perfil.
+    formulas = by_file["formulas-candidatas.jsonl"]
+    assert len(formulas) == 33
+    assert len({r["id"] for r in formulas}) == 33
+    assert len({r["unidad_id"] for r in formulas}) == 17
+    assert all(r["clasificacion_formula"] == "formula_explicita" for r in formulas)
+    assert all(r["estado_extraccion"] == "extraido" for r in formulas)
+    assert all(r["producido_por"] == {"motor": "formulas", "version": "1.3.0"} for r in formulas)
+    formula_cov = load_jsonl(OUT / "cobertura-formulas.jsonl")[0]
+    assert formula_cov["version_motor"] == "1.3.0"
+    assert formula_cov["producido_por"] == {"motor": "formulas", "version": "1.3.0"}
+
     manifest = json.loads((OUT / "manifest-extractores.json").read_text(encoding="utf-8"))
+    assert manifest["version"] == "1.2.0"
     assert manifest["obra_id"] == AGAPE
     assert manifest["unidades"] == 643
     assert manifest["comparacion_interobra"] is False
+    formula_calibration = manifest["calibracion"]["formulas"]
+    assert formula_calibration["perfil"] == f"analista/calibracion/fase10/{AGAPE}/perfil-extractores.json"
+    assert formula_calibration["perfil_sha256"] == sha(PROFILE)
+    assert formula_calibration["version_produccion"] == "1.3.0"
+    assert formula_calibration["perfil_calibrado"] is True
     for filename, digest in manifest["productos"].items():
         assert sha(OUT / filename) == digest
 
@@ -203,7 +224,8 @@ def main() -> int:
     print(
         "OK Fase 10 Ágape: 643 unidades aisladas; contratos 4A–4F válidos; "
         f"conteos={json.dumps(counts, ensure_ascii=False, sort_keys=True)}; "
-        "reproducibilidad exacta; piloto intacto; obra sin glosario rechazada sin inferencia."
+        "4D v1.3 ligado a perfil humano; reproducibilidad exacta; piloto intacto; "
+        "obra sin glosario rechazada sin inferencia."
     )
     return 0
 
