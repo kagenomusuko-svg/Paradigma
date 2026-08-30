@@ -2,8 +2,8 @@
 """Inventario mecánico de obras previstas para Fase 10.
 
 Deriva únicamente de los registros de fuente (Fase 2) y unidades (Fase 3).
-Clasifica soporte estructural de glosario por presencia literal de `99-glosario.md`;
-no extrae conceptos ni compara doctrina entre obras.
+Clasifica rasgos editoriales y la ruta prevista de procesamiento, pero no afirma
+cierres de fase que este inventariador no verifica.
 """
 from __future__ import annotations
 
@@ -15,7 +15,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 PILOT = "AA-SP-V1"
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 
 
 def load_jsonl(path: Path) -> list[dict]:
@@ -42,6 +42,7 @@ def main() -> int:
         glossaries = [route for route in derived if str(route).endswith("99-glosario.md")]
         if len(glossaries) > 1:
             raise AssertionError(f"Más de un glosario técnico en {source['id']}: {glossaries}")
+        is_pilot = source["id"] == PILOT
         works.append(
             {
                 "obra_id": source["id"],
@@ -51,12 +52,10 @@ def main() -> int:
                 "unidades": counts[source["id"]],
                 "rutas_derivadas": len(derived),
                 "glosario_tecnico": glossaries[0] if glossaries else None,
-                "perfil_conceptual": (
-                    "glosario_tecnico_explicito" if glossaries else "sin_glosario_tecnico_explicito"
-                ),
-                "estado_fase10": (
-                    "piloto_cerrado_fase9" if source["id"] == PILOT else "pendiente_repeticion_controlada"
-                ),
+                "perfil_conceptual": "glosario_tecnico_explicito" if glossaries else "sin_glosario_tecnico_explicito",
+                "rol_fase10": "piloto_reutilizado" if is_pilot else "obra_repeticion_controlada",
+                "ruta_procesamiento_prevista": "reutilizar_maestro_fase9_tras_validacion" if is_pilot else "ejecutar_cadena_fase10_independiente",
+                "estado_verificado": "no_verificado_por_inventario",
             }
         )
 
@@ -67,23 +66,14 @@ def main() -> int:
         "obras_con_glosario": sum(work["glosario_tecnico"] is not None for work in works),
         "obras_sin_glosario": sum(work["glosario_tecnico"] is None for work in works),
         "piloto_id": PILOT,
+        "alcance_estado": "inventario_no_certifica_cierres_de_fase",
         "obras": works,
     }
     payload = (json.dumps(document, ensure_ascii=False, sort_keys=True, indent=2) + "\n").encode("utf-8")
     args.salida.parent.mkdir(parents=True, exist_ok=True)
     args.salida.write_bytes(payload)
-    print(
-        json.dumps(
-            {
-                "obras": len(works),
-                "unidades": len(units),
-                "con_glosario": document["obras_con_glosario"],
-                "sin_glosario": document["obras_sin_glosario"],
-                "sha256": hashlib.sha256(payload).hexdigest(),
-            },
-            sort_keys=True,
-        )
-    )
+    print(json.dumps({"obras": len(works), "unidades": len(units), "con_glosario": document["obras_con_glosario"],
+                      "sin_glosario": document["obras_sin_glosario"], "sha256": hashlib.sha256(payload).hexdigest()}, sort_keys=True))
     return 0
 
 
