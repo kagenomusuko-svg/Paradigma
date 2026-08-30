@@ -8,19 +8,29 @@ on:
       - "analista/motores/ejecutar_extractores_obra_fase10.py"
       - "analista/motores/ensamblador_maestro_obra_fase10.py"
       - "analista/motores/conceptos.py"
+      - "analista/motores/conceptos_obra_fase10.py"
+      - "analista/motores/conceptos_compuesto_fase10.py"
       - "analista/motores/definiciones.py"
+      - "analista/motores/definiciones_compuesto_fase10.py"
       - "analista/motores/afirmaciones.py"
+      - "analista/motores/afirmaciones_compuesto_fase10.py"
+      - "analista/motores/referencias_conceptuales_fase10.py"
       - "analista/motores/formulas.py"
       - "analista/motores/formulas_obra_fase10.py"
       - "analista/motores/formulas_perfil_fase10.py"
       - "analista/motores/relaciones_explicitas.py"
+      - "analista/motores/relaciones_compuesto_fase10.py"
       - "analista/motores/limitadores.py"
       - "analista/motores/normalizacion.py"
       - "analista/motores/verificador_evidencia.py"
       - "analista/motores/auditor_estructural.py"
       - "analista/motores/auditor_descriptivo.py"
+      - "analista/motores/auditor_descriptivo_fase10.py"
       - "analista/motores/ensamblador_maestro.py"
       - "analista/pruebas/validar_inventario_fase10.py"
+      - "analista/pruebas/validar_conceptos_obra_fase10.py"
+      - "analista/pruebas/validar_extractores_conceptuales_fase10.py"
+      - "analista/pruebas/validar_enlaces_relaciones_fase10.py"
       - "analista/pruebas/validar_obra_fase10.py"
       - "analista/pruebas/validar_cierre_fase10.py"
       - "analista/pruebas/validar_maestro_fase9.py"
@@ -53,6 +63,12 @@ jobs:
         with:
           python-version: "3.12"
       - run: python -m pip install --quiet jsonschema
+
+      - name: Validar regresiones genéricas de extracción conceptual
+        run: |
+          python analista/pruebas/validar_conceptos_obra_fase10.py
+          python analista/pruebas/validar_extractores_conceptuales_fase10.py
+          python analista/pruebas/validar_enlaces_relaciones_fase10.py
 
       - name: Ejecutar y validar las 20 obras hasta maestro independiente
         run: python analista/pruebas/validar_cierre_fase10.py

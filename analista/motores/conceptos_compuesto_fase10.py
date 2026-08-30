@@ -96,7 +96,12 @@ def strict_records(obra_id: str, units: list[dict], glossary_rel: str) -> tuple[
 
 
 def coverage(obra_id: str, n: int) -> dict:
-    r=g.coverage_record(obra_id,n); producer(r); r["version_motor"]=VERSION; return r
+    r=g.coverage_record(obra_id,n)
+    producer(r)
+    r["id"]=g.stable_id("COB",obra_id,MOTOR,VERSION)
+    r["motor"]=MOTOR
+    r["version_motor"]=VERSION
+    return r
 
 
 def run(*, obra_id:str, fuentes:Path, unidades:Path, apariciones:Path, conceptos:Path, cobertura:Path) -> dict:

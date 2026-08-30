@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Gate global y reproducible de cierre administrativo de Fase 10.
+"""Gate global y reproducible de cierre administrativo de Fase 10 v1.2.
 
 Solo emite ``fase10_cerrada=true`` después de ejecutar y validar de forma
 independiente las veinte obras previstas. No compara contenidos entre obras ni
-produce síntesis doctrinal. Para las diecinueve repeticiones, el propio maestro
-transporta el alcance conceptual de la obra para que una etapa posterior no
-confunda ausencia de extracción autorizada con ausencia semántica.
+produce síntesis doctrinal. La recuperación conceptual se ejecuta en todas las
+obras; la ausencia de glosario únicamente impide establecer identidades por esa
+vía, no ejecutar los motores.
 """
 from __future__ import annotations
 
@@ -24,7 +24,7 @@ INVENTORY = ROOT / "analista/generado/fase10/inventario-obras.json"
 MASTERS = ROOT / "analista/generado/maestros"
 REPORT = ROOT / "analista/generado/fase10/cierre-fase10.json"
 PILOT = "AA-SP-V1"
-VERSION = "1.1.0"
+VERSION = "1.2.0"
 
 
 def run(cmd: list[str]) -> None:
@@ -33,6 +33,17 @@ def run(cmd: list[str]) -> None:
 
 def sha(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def conceptual_counts(master: dict) -> dict[str, int]:
+    rows = master.get("conceptos", [])
+    return {
+        "total": len(rows),
+        "establecida_por_evidencia": sum(
+            row.get("estado_identidad_conceptual") == "establecida_por_evidencia" for row in rows
+        ),
+        "no_determinada": sum(row.get("estado_identidad_conceptual") == "no_determinada" for row in rows),
+    }
 
 
 def main() -> int:
@@ -48,8 +59,6 @@ def main() -> int:
     assert len(ids) == len(set(ids)) == 20
     assert ids.count(PILOT) == 1
 
-    # El piloto conserva su cierre completo de Fase 9. Las otras diecinueve
-    # obras se regeneran y validan mediante la cadena parametrizada de Fase 10.
     run([sys.executable, str(PILOT_VALIDATOR)])
     for work in works:
         obra_id = work["obra_id"]
@@ -83,15 +92,19 @@ def main() -> int:
             assert master["schema_version"] == "1.1.0"
             route = "piloto_cerrado_fase9"
             comparison = False
-            conceptual_enabled = True
+            scope = {
+                "perfil": "glosario_tecnico_explicito",
+                "glosario_tecnico": work["glosario_tecnico"],
+                "extraccion_conceptual_habilitada": True,
+            }
         else:
-            assert master["schema_version"] == "1.3.0"
+            assert master["schema_version"] == "1.4.0"
             assert master["producido_por"] == {
                 "motor": "ensamblador_maestro_obra_fase10",
-                "version": "1.1.0",
+                "version": "1.2.0",
             }
             controls = master["controles_fase10"]
-            assert controls["version"] == "1.1.0"
+            assert controls["version"] == "1.2.0"
             assert controls["obra_id"] == obra_id
             assert controls["comparacion_interobra"] is False
             assert controls["maestro_independiente"] is True
@@ -102,6 +115,10 @@ def main() -> int:
             scope = controls["alcance_conceptual"]
             assert scope["perfil"] == work["perfil_conceptual"]
             assert scope["glosario_tecnico"] == work["glosario_tecnico"]
+            assert scope["extraccion_conceptual_habilitada"] is True
+            assert scope["recuperacion_candidatos_habilitada"] is True
+            assert scope["identidad_confirmada_requiere_evidencia_explicita"] is True
+            assert scope["candidatos_sin_evidencia_permanecen_no_determinados"] is True
             assert scope["identidades_conceptuales_inferidas"] is False
             assert scope["glosario_interobra_reutilizado"] is False
             assert scope["interpretacion_cero_registros"] == "no_autoriza_afirmar_ausencia_semantica"
@@ -109,27 +126,31 @@ def main() -> int:
             manifest = json.loads(
                 (ROOT / "analista/generado/obras" / obra_id / "manifest-extractores.json").read_text(encoding="utf-8")
             )
-            assert manifest["version"] == "1.3.0"
+            assert manifest["version"] == "1.4.0"
             assert manifest["obra_id"] == obra_id
             assert manifest["comparacion_interobra"] is False
             assert manifest["perfil_conceptual"] == scope["perfil"]
             assert manifest["glosario_tecnico"] == scope["glosario_tecnico"]
             limits = manifest["limitaciones_conceptuales"]
-            assert scope["extraccion_conceptual_habilitada"] == limits["extraccion_conceptual_habilitada"]
-            assert limits["identidades_conceptuales_inferidas"] is False
-            assert limits["glosario_interobra_reutilizado"] is False
-            assert limits["interpretacion_cero_registros"] == "no_autoriza_afirmar_ausencia_semantica"
+            for key in (
+                "extraccion_conceptual_habilitada",
+                "recuperacion_candidatos_habilitada",
+                "identidad_confirmada_requiere_evidencia_explicita",
+                "candidatos_sin_evidencia_permanecen_no_determinados",
+                "identidades_conceptuales_inferidas",
+                "glosario_interobra_reutilizado",
+                "interpretacion_cero_registros",
+            ):
+                assert scope[key] == limits[key]
 
             if work["glosario_tecnico"] is None:
                 assert scope["perfil"] == "sin_glosario_tecnico_explicito"
-                assert scope["extraccion_conceptual_habilitada"] is False
-                assert not master["apariciones_conceptuales"]
-                assert not master["conceptos"]
-                assert not master["definiciones"]
-                assert not master["relaciones_explicitas"]
+                assert all(
+                    row.get("estado_identidad_conceptual") == "no_determinada"
+                    for row in master["conceptos"]
+                )
             else:
                 assert scope["perfil"] == "glosario_tecnico_explicito"
-                assert scope["extraccion_conceptual_habilitada"] is True
 
             assert all(
                 finding.get("resolucion_doctrinal") == "no_realizada"
@@ -137,15 +158,16 @@ def main() -> int:
             )
             route = "repeticion_controlada_fase10"
             comparison = controls["comparacion_interobra"]
-            conceptual_enabled = scope["extraccion_conceptual_habilitada"]
 
+        counts = conceptual_counts(master)
         closure_works.append({
             "obra_id": obra_id,
             "titulo": work["titulo"],
             "ruta_cierre": route,
             "schema_maestro": master["schema_version"],
             "perfil_conceptual": work["perfil_conceptual"],
-            "extraccion_conceptual_habilitada": conceptual_enabled,
+            "extraccion_conceptual_habilitada": True,
+            "conceptos": counts,
             "unidades": work["unidades"],
             "maestro": master_path.relative_to(ROOT).as_posix(),
             "maestro_sha256": sha(master_path),
@@ -168,6 +190,7 @@ def main() -> int:
             "sintesis_doctrinal": False,
             "resolucion_doctrinal": "no_realizada",
             "ausencia_de_registros_implica_ausencia_semantica": False,
+            "identidad_candidata_se_convierte_en_doctrina": False,
         },
         "obras": closure_works,
     }
@@ -181,6 +204,7 @@ def main() -> int:
     assert persisted == report and persisted["fase10_cerrada"] is True
     assert len(persisted["obras"]) == 20
     assert all(row["comparacion_interobra"] is False for row in persisted["obras"])
+    assert all(row["extraccion_conceptual_habilitada"] is True for row in persisted["obras"])
     digest, filename = sidecar.read_text(encoding="utf-8").strip().split("  ", 1)
     assert filename == REPORT.name and digest == sha(REPORT)
 

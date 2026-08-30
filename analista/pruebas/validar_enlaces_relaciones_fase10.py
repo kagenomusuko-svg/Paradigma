@@ -3,10 +3,11 @@
 from __future__ import annotations
 import importlib.util,json,tempfile
 from pathlib import Path
-HERE=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[2]
+MOTORS=ROOT/'analista/motores'
 
 def mod(name,file):
- s=importlib.util.spec_from_file_location(name,HERE/file);assert s and s.loader
+ s=importlib.util.spec_from_file_location(name,MOTORS/file);assert s and s.loader
  m=importlib.util.module_from_spec(s);s.loader.exec_module(m);return m
 
 def main()->int:

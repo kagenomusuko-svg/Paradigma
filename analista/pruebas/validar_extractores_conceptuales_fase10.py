@@ -4,7 +4,7 @@ from __future__ import annotations
 import importlib.util, json, tempfile
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
-MOTORS=Path(__file__).resolve().parent
+MOTORS=ROOT/'analista/motores'
 
 def module(name,path):
     s=importlib.util.spec_from_file_location(name,path); assert s and s.loader
@@ -19,9 +19,9 @@ def main()->int:
         units=[
           {'id':'U1','fuente_id':'O','archivo':gl,'tipo_estructural':'parrafo','texto_literal':'Primera mediación','localizacion':{'linea_inicio':3,'linea_fin':3},'orden_textual':0},
           {'id':'U1D','fuente_id':'O','archivo':gl,'tipo_estructural':'parrafo','texto_literal':'Definición literal.','localizacion':{'linea_inicio':4,'linea_fin':4},'orden_textual':1},
-          {'id':'U2','fuente_id':'O','archivo':'c1.md','tipo_estructural':'parrafo','texto_literal':'La primera mediación actúa. Voluntad es una orientación.','localizacion':{'linea_inicio':1,'linea_fin':1},'orden_textual':1},
-          {'id':'U3','fuente_id':'O','archivo':'c2.md','tipo_estructural':'parrafo','texto_literal':'Voluntad reaparece. Autonomía se define como capacidad propia.','localizacion':{'linea_inicio':1,'linea_fin':1},'orden_textual':2},
-          {'id':'U4','fuente_id':'O','archivo':'c3.md','tipo_estructural':'parrafo','texto_literal':'Autonomía reaparece.','localizacion':{'linea_inicio':1,'linea_fin':1},'orden_textual':3},
+          {'id':'U2','fuente_id':'O','archivo':'c1.md','tipo_estructural':'parrafo','texto_literal':'La primera mediación actúa. Voluntad es una orientación.','localizacion':{'linea_inicio':1,'linea_fin':1},'orden_textual':2},
+          {'id':'U3','fuente_id':'O','archivo':'c2.md','tipo_estructural':'parrafo','texto_literal':'Voluntad reaparece. Autonomía se define como capacidad propia.','localizacion':{'linea_inicio':1,'linea_fin':1},'orden_textual':3},
+          {'id':'U4','fuente_id':'O','archivo':'c3.md','tipo_estructural':'parrafo','texto_literal':'Autonomía reaparece.','localizacion':{'linea_inicio':1,'linea_fin':1},'orden_textual':4},
         ]
         src=r/'s.jsonl'; uni=r/'u.jsonl'; apps=r/'a.jsonl'; cons=r/'c.jsonl'; ccov=r/'ccov.jsonl'; defs=r/'d.jsonl'; dcov=r/'dcov.jsonl'
         src.write_text(json.dumps({'id':'O','rutas_derivadas':[gl]},ensure_ascii=False)+'\n',encoding='utf-8')
