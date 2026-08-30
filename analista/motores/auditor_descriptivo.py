@@ -49,7 +49,7 @@ def stable_id(category: str, record_ids: list[str]) -> str:
     return "HA-" + hashlib.sha1(raw).hexdigest()[:12].upper()
 
 
-def finding(category: str, record_ids: list[str], description: str) -> dict:
+def finding(obra_id: str, category: str, record_ids: list[str], description: str) -> dict:
     return {
         "id": stable_id(category, record_ids),
         "tipo_registro": "hallazgo_auditoria",
@@ -62,7 +62,7 @@ def finding(category: str, record_ids: list[str], description: str) -> dict:
         "estado_verificacion": "verificado",
         "estado_auditoria": "auditado",
         "producido_por": {"motor": "auditor_descriptivo", "version": MOTOR_VERSION},
-        "obra_id": PILOTO_ID,
+        "obra_id": obra_id,
         "categoria": category,
         "registro_ids": sorted(record_ids),
         "descripcion_documental": description,
@@ -92,6 +92,11 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--input-root", type=Path, default=DEFAULT_INPUT)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument(
+        "--obra-id",
+        default=PILOTO_ID,
+        help="ID documental de la obra auditada; por defecto conserva el piloto histórico.",
+    )
     args = parser.parse_args()
 
     by_file = {filename: load_jsonl(args.input_root / filename) for filename in FILES}
@@ -102,6 +107,13 @@ def main() -> int:
         for record in records
     ):
         raise SystemExit("7B solo acepta registros verificados y auditados.")
+
+    # El ID de obra es metadato de procedencia, no una fuente de contenido.
+    source_ids = {record.get("fuente_id") for record in records if record.get("fuente_id")}
+    if source_ids and source_ids != {args.obra_id}:
+        raise SystemExit(
+            f"7B recibió registros de una obra distinta: esperada={args.obra_id}; fuentes={sorted(source_ids)}"
+        )
 
     concepts = {row["id"]: row for row in by_file["conceptos.jsonl"]}
     findings: list[dict] = []
@@ -115,6 +127,7 @@ def main() -> int:
         if len(rows) == 1:
             findings.append(
                 finding(
+                    args.obra_id,
                     "uso_singular",
                     [concept_id, rows[0]["id"]],
                     f"El concepto {concept_id} ({concept['designacion_operativa']}) tiene una sola "
@@ -130,6 +143,7 @@ def main() -> int:
         if len(rows) > 1:
             findings.append(
                 finding(
+                    args.obra_id,
                     "definiciones_multiples",
                     [row["id"] for row in rows],
                     f"El concepto {concept_id} posee {len(rows)} definiciones auditadas distintas "
@@ -145,6 +159,7 @@ def main() -> int:
         if len(rows) > 1:
             findings.append(
                 finding(
+                    args.obra_id,
                     "multiplicidad_predicativa",
                     [row["id"] for row in rows],
                     f"El concepto {concept_id} está referenciado por {len(rows)} afirmaciones "
@@ -160,6 +175,7 @@ def main() -> int:
         if len(objects) > 1:
             findings.append(
                 finding(
+                    args.obra_id,
                     "variacion_de_objeto",
                     [row["id"] for row in rows],
                     f"El sujeto {concept_id} participa en relaciones explícitas auditadas con "
@@ -175,6 +191,7 @@ def main() -> int:
         if len(rows) > 1:
             findings.append(
                 finding(
+                    args.obra_id,
                     "relacion_repetida",
                     [row["id"] for row in rows],
                     f"Se registran {len(rows)} relaciones auditadas con el mismo sujeto, objeto "
@@ -186,6 +203,7 @@ def main() -> int:
         if row.get("clasificacion_negacion") == "negacion_explicita":
             findings.append(
                 finding(
+                    args.obra_id,
                     "negacion_explicita",
                     [row["id"]],
                     f"El registro {row['id']} conserva una negación clasificada explícitamente "
@@ -196,6 +214,7 @@ def main() -> int:
         if row.get("clasificacion_excepcion") == "excepcion_explicita":
             findings.append(
                 finding(
+                    args.obra_id,
                     "excepcion_explicita",
                     [row["id"]],
                     f"El registro {row['id']} conserva una excepción clasificada explícitamente "
@@ -206,6 +225,7 @@ def main() -> int:
         if row.get("clasificacion_restriccion") == "restriccion_explicita":
             findings.append(
                 finding(
+                    args.obra_id,
                     "restriccion_de_alcance",
                     [row["id"]],
                     f"El registro {row['id']} conserva una restricción de alcance explícita; "
@@ -218,6 +238,7 @@ def main() -> int:
         if len(set(forms)) > 1:
             findings.append(
                 finding(
+                    args.obra_id,
                     "variacion_terminologica",
                     [concept_id],
                     f"El concepto {concept_id} conserva múltiples formas literales observadas: "
@@ -231,6 +252,7 @@ def main() -> int:
     print(
         json.dumps(
             {
+                "obra_id": args.obra_id,
                 "hallazgos": len(findings),
                 "categorias": dict(sorted(Counter(row["categoria"] for row in findings).items())),
             },
