@@ -24,6 +24,7 @@ on:
       - "analista/pruebas/validar_formulas_agape_fase10.py"
       - "analista/pruebas/validar_verificacion_agape_fase10.py"
       - "analista/pruebas/validar_auditoria_agape_fase10.py"
+      - "analista/pruebas/validar_cadena_agape_fase10.py"
       - "analista/calibracion/fase10/FUE-2C28F35DD6CF/**"
       - "analista/calibracion/evaluar_formulas_fase10.py"
       - "analista/calibracion/materializar_oro_formulas_fase10.py"
@@ -50,28 +51,8 @@ jobs:
           python-version: "3.12"
       - run: python -m pip install --quiet jsonschema
 
-      - name: Validar perímetro de obras Fase 10
-        run: python analista/pruebas/validar_inventario_fase10.py
-
-      - name: Generar extractores aislados de Ágape
-        run: |
-          python analista/motores/ejecutar_extractores_obra_fase10.py \
-            --obra-id FUE-2C28F35DD6CF
-
-      - name: Validar muestra congelada previa a calibración
-        run: python analista/pruebas/validar_muestra_agape_fase10.py
-
-      - name: Validar regresión piloto y transición 4D Ágape v1.2 a v1.3
-        run: python analista/pruebas/validar_formulas_agape_fase10.py
-
-      - name: Validar producto real y aislamiento del piloto
-        run: python analista/pruebas/validar_repeticion_agape_fase10.py
-
-      - name: Normalizar y verificar evidencia de Ágape
-        run: python analista/pruebas/validar_verificacion_agape_fase10.py
-
-      - name: Auditar Ágape intraobra sin síntesis doctrinal
-        run: python analista/pruebas/validar_auditoria_agape_fase10.py
+      - name: Validar cadena intraobra completa de Ágape
+        run: python analista/pruebas/validar_cadena_agape_fase10.py
 
       - name: Publicar repetición controlada Ágape
         uses: actions/upload-artifact@v4
