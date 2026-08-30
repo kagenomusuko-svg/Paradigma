@@ -3,13 +3,15 @@
 
 Exige dos designaciones conceptuales literales separadas por un conector
 observable. Solo eleva a relación explícita cuando ambos conceptos tienen
-identidad establecida por evidencia y el conector pertenece al conjunto fuerte;
-en cualquier otro caso conserva el registro como candidato.
+identidad establecida por evidencia, el conector es fuerte y el enunciado lo
+presenta asertivamente. Condicionales, preguntas, negaciones, citas y discurso
+referido permanecen candidatos. No se crean relaciones por proximidad o
+transitividad.
 """
 from __future__ import annotations
 import argparse, hashlib, importlib.util, json, re
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[2];MOTOR="relaciones_explicitas";VERSION="1.2.0";SCHEMA="1.0.0"
+ROOT=Path(__file__).resolve().parents[2];MOTOR="relaciones_explicitas";VERSION="1.3.0";SCHEMA="1.0.0"
 HELPER=ROOT/"analista/motores/referencias_conceptuales_fase10.py"
 s=importlib.util.spec_from_file_location('refs_rel_f10',HELPER);assert s and s.loader;refs=importlib.util.module_from_spec(s);s.loader.exec_module(refs)
 CONNECTORS=[
@@ -17,6 +19,10 @@ CONNECTORS=[
  (re.compile(r"\b(?:es|son|constituye|orienta|determina|limita|afecta|modifica|permite|condiciona)\b",re.I),False),
 ]
 BOUNDARY=re.compile(r"(?<=[.!?])\s+(?=[A-ZÁÉÍÓÚÜÑ¿¡])")
+NON_ASSERTIVE_LEAD=re.compile(r"^\s*(?:si\b|cuando\b|aunque\b|supongamos\b|imaginemos\b|por\s+ejemplo\b|quiz[aá]s\b|tal\s+vez\b)",re.I)
+REPORTED=re.compile(r"\b(?:dice|dijo|afirma|afirmó|escribe|escribió|según|cita|citado)\b",re.I)
+QUOTED=re.compile(r"^\s*[«“\"'].*[»”\"']\s*[.!?]?$",re.S)
+
 def sid(prefix,*parts):return f"{prefix}-{hashlib.sha1(chr(31).join(parts).encode()).hexdigest()[:12].upper()}"
 def load(p):return [json.loads(x) for x in p.read_text(encoding='utf-8').splitlines() if x]
 def dump(p,rows):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(''.join(json.dumps(r,ensure_ascii=False,sort_keys=True)+'\n' for r in rows),encoding='utf-8')
@@ -25,12 +31,18 @@ def sentences(text):
  out=[];start=0
  for m in BOUNDARY.finditer(text):out.append((start,m.start(),text[start:m.start()]));start=m.end()
  out.append((start,len(text),text[start:]));return [(a,b,x) for a,b,x in out if x.strip()]
-def pair_for_connector(occ:list[dict],a:int,b:int):
+def pair_for_connector(occ,a,b):
  left=[x for x in occ if x['fin']<=a];right=[x for x in occ if x['inicio']>=b]
  if not left or not right:return None
  l=max(left,key=lambda x:(x['fin'],x['inicio']));r=min(right,key=lambda x:(x['inicio'],-x['fin']))
- if l['concepto_id']==r['concepto_id']:return None
- return l,r
+ return None if l['concepto_id']==r['concepto_id'] else (l,r)
+def assertive(sentence:str,connector_start:int)->bool:
+ stripped=sentence.strip()
+ if not stripped or '?' in stripped or NON_ASSERTIVE_LEAD.search(stripped) or REPORTED.search(stripped) or QUOTED.match(stripped):return False
+ before=sentence[max(0,connector_start-12):connector_start]
+ if re.search(r"\bno\s*$",before,re.I):return False
+ return True
+
 def run(*,obra_id,unidades,conceptos,salida,cobertura):
  units=[x for x in load(unidades) if x.get('fuente_id')==obra_id];cons=load(conceptos);index,by=refs.build_index(cons)
  if not units:raise SystemExit(f'Sin unidades: {obra_id}')
@@ -49,7 +61,7 @@ def run(*,obra_id,unidades,conceptos,salida,cobertura):
      if key in seen:continue
      seen.add(key);literal=sentence.strip();trim=sentence.find(literal);a=sa+trim;b=a+len(literal);ls,le=line_range(u,text,a,b)
      established=by[left['concepto_id']].get('estado_identidad_conceptual')=='establecida_por_evidencia' and by[right['concepto_id']].get('estado_identidad_conceptual')=='establecida_por_evidencia'
-     explicit=bool(strong and established);classification='relacion_explicita' if explicit else 'relacion_candidata'
+     explicit=bool(strong and established and assertive(sentence,cm.start()));classification='relacion_explicita' if explicit else 'relacion_candidata'
      rid=sid('REL',obra_id,u['id'],left['concepto_id'],right['concepto_id'],str(a),str(b),cm.group(0))
      rows.append({'id':rid,'tipo_registro':'relacion_explicita','schema_version':SCHEMA,'texto_literal':literal,'normalizacion_formal':None,'normalizacion_lexica':None,'estatus_enunciativo':None,
       'estado_extraccion':'extraido' if explicit else 'candidato','estado_verificacion':'pendiente','estado_auditoria':'pendiente','producido_por':{'motor':MOTOR,'version':VERSION},'fuente_id':obra_id,'unidad_id':u['id'],
