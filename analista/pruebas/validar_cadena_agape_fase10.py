@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
-"""Replay integral de la cadena intraobra de Ágape en Fase 10.
+"""Replay de compatibilidad para Ágape sobre la cadena genérica de Fase 10.
 
-Ejecuta, en el orden vinculante ya implementado, los validadores y productores
-que componen la repetición controlada hasta el JSON maestro independiente. No
-añade reglas de extracción, no modifica configuraciones doctrinales y no
-sustituye la revisión humana: únicamente ofrece un punto de entrada local
-reproducible equivalente al workflow de GitHub Actions.
+Conserva un punto de entrada específico para el primer caso de repetición, pero
+la lógica de cierre ya es la misma que se aplica a todas las obras no piloto.
 """
 from __future__ import annotations
 
@@ -17,81 +14,21 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 AGAPE = "FUE-2C28F35DD6CF"
 
-ETAPAS: tuple[tuple[str, list[str]], ...] = (
-    (
-        "inventario_fase10",
-        [sys.executable, "analista/pruebas/validar_inventario_fase10.py"],
-    ),
-    (
-        "extraccion_4a_4f",
-        [
-            sys.executable,
-            "analista/motores/ejecutar_extractores_obra_fase10.py",
-            "--obra-id",
-            AGAPE,
-        ],
-    ),
-    (
-        "muestra_precalibracion",
-        [sys.executable, "analista/pruebas/validar_muestra_agape_fase10.py"],
-    ),
-    (
-        "calibracion_formulas_4d",
-        [sys.executable, "analista/pruebas/validar_formulas_agape_fase10.py"],
-    ),
-    (
-        "repeticion_extractores",
-        [sys.executable, "analista/pruebas/validar_repeticion_agape_fase10.py"],
-    ),
-    (
-        "verificacion_evidencia",
-        [sys.executable, "analista/pruebas/validar_verificacion_agape_fase10.py"],
-    ),
-    (
-        "auditoria_intraobra",
-        [sys.executable, "analista/pruebas/validar_auditoria_agape_fase10.py"],
-    ),
-    (
-        "maestro_independiente",
-        [sys.executable, "analista/pruebas/validar_maestro_agape_fase10.py"],
-    ),
-)
 
-
-def ejecutar(nombre: str, comando: list[str]) -> dict:
-    print(f"\n=== Fase 10 Ágape: {nombre} ===", flush=True)
-    result = subprocess.run(
-        comando,
-        cwd=ROOT,
-        text=True,
-        capture_output=True,
-        check=False,
-    )
-    if result.stdout:
-        print(result.stdout, end="" if result.stdout.endswith("\n") else "\n")
-    if result.stderr:
-        print(result.stderr, end="" if result.stderr.endswith("\n") else "\n", file=sys.stderr)
-    estado = {
-        "etapa": nombre,
-        "returncode": result.returncode,
-        "comando": comando,
-    }
-    if result.returncode != 0:
-        print(json.dumps({"estado": "fallo", **estado}, ensure_ascii=False, sort_keys=True))
-        raise SystemExit(result.returncode)
-    print(json.dumps({"estado": "ok", **estado}, ensure_ascii=False, sort_keys=True))
-    return estado
+def run(script: str, *args: str) -> None:
+    subprocess.run([sys.executable, str(ROOT / script), *args], cwd=ROOT, check=True)
 
 
 def main() -> int:
-    completadas = [ejecutar(nombre, comando) for nombre, comando in ETAPAS]
+    run("analista/motores/inventariar_obras_fase10.py")
+    run("analista/pruebas/validar_inventario_fase10.py")
+    run("analista/pruebas/validar_obra_fase10.py", "--obra-id", AGAPE)
     print(
         json.dumps(
             {
-                "estado": "cadena_intraobra_con_maestro_validada",
                 "obra_id": AGAPE,
-                "etapas": [row["etapa"] for row in completadas],
-                "cantidad_etapas": len(completadas),
+                "fase": 10,
+                "estado": "cadena_intraobra_con_maestro_validada",
                 "maestro_independiente": True,
                 "comparacion_interobra": False,
                 "avance_fase10": "sin_cierre_global",

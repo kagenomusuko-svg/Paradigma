@@ -1,0 +1,82 @@
+name: Analista Fase 10 - cierre global
+
+on:
+  push:
+    branches: [analisis-textual-v0.1]
+    paths:
+      - "analista/motores/inventariar_obras_fase10.py"
+      - "analista/motores/ejecutar_extractores_obra_fase10.py"
+      - "analista/motores/ensamblador_maestro_obra_fase10.py"
+      - "analista/motores/conceptos.py"
+      - "analista/motores/definiciones.py"
+      - "analista/motores/afirmaciones.py"
+      - "analista/motores/formulas.py"
+      - "analista/motores/formulas_obra_fase10.py"
+      - "analista/motores/formulas_perfil_fase10.py"
+      - "analista/motores/relaciones_explicitas.py"
+      - "analista/motores/limitadores.py"
+      - "analista/motores/normalizacion.py"
+      - "analista/motores/verificador_evidencia.py"
+      - "analista/motores/auditor_estructural.py"
+      - "analista/motores/auditor_descriptivo.py"
+      - "analista/motores/ensamblador_maestro.py"
+      - "analista/pruebas/validar_inventario_fase10.py"
+      - "analista/pruebas/validar_obra_fase10.py"
+      - "analista/pruebas/validar_cierre_fase10.py"
+      - "analista/pruebas/validar_maestro_fase9.py"
+      - "analista/esquema/contratos-v1.0.0.schema.json"
+      - "analista/esquema/expediente-maestro-v1.1.0.schema.json"
+      - "analista/esquema/expediente-maestro-fase10-v1.2.0.schema.json"
+      - "analista/calibracion/fase10/**"
+      - "analista/generado/fuentes.jsonl"
+      - "analista/generado/unidades.jsonl"
+      - ".github/workflows/analista-fase10-cierre-global.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: analista-fase10-cierre-global-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  cierre-fase10:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --quiet jsonschema
+
+      - name: Ejecutar y validar las 20 obras hasta maestro independiente
+        run: python analista/pruebas/validar_cierre_fase10.py
+
+      - name: Publicar evidencia de cierre de Fase 10
+        uses: actions/upload-artifact@v4
+        with:
+          name: analista-fase10-cierre-global
+          path: |
+            analista/generado/fase10/
+            analista/generado/obras/
+            analista/generado/maestros/
+          if-no-files-found: error
+
+      - name: Persistir productos deterministas y gate de cierre
+        env:
+          TARGET_BRANCH: ${{ github.ref_name }}
+        run: |
+          if [ -z "$(git status --porcelain -- analista/generado/fase10 analista/generado/obras analista/generado/maestros)" ]; then
+            echo "Sin cambios generados."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add analista/generado/fase10 analista/generado/obras analista/generado/maestros
+          git commit -m "Cerrar productos documentales de Fase 10"
+          git push origin HEAD:"${TARGET_BRANCH}"

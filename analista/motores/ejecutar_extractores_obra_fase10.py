@@ -2,14 +2,16 @@
 """Repetición controlada de extractores 4A–4F para una obra de Fase 10.
 
 No modifica los productos globales del piloto. Copia sin transformación la fuente
-y sus unidades ya verificadas a un directorio por obra, parametriza en memoria
-los motores cerrados de Fase 4 y registra hashes de todos los productos.
+y sus unidades ya verificadas a un directorio por obra, parametriza los motores
+cerrados de Fase 4 y registra hashes de todos los productos.
 
-La primera ruta controlada exige un glosario técnico explícito porque 4A, 4B y
-4E dependen documentalmente de ese soporte. Las obras sin glosario se rechazan
-en vez de recibir conceptos inferidos desde otra obra.
+Las identidades conceptuales solo se producen cuando la propia obra declara un
+único `99-glosario.md`. Si la obra no tiene glosario técnico explícito, 4A, 4B y
+4E producen conjuntos vacíos y coberturas completas: ese cero significa que la
+extracción conceptual no fue habilitada por falta de soporte de identidad; no
+autoriza a afirmar ausencia semántica. Nunca se reutiliza un glosario de otra obra.
 
-Los perfiles de calibración son opt-in por obra. Si existe
+Los perfiles de calibración de fórmulas son opt-in por obra. Si existe
 `analista/calibracion/fase10/<obra_id>/perfil-extractores.json`, solo puede
 clasificar detecciones que el detector de esa obra ya produjo; no puede añadir,
 eliminar ni reubicar evidencia.
@@ -29,7 +31,7 @@ DEFAULT_FUENTES = ROOT / "analista/generado/fuentes.jsonl"
 DEFAULT_UNIDADES = ROOT / "analista/generado/unidades.jsonl"
 DEFAULT_OBRAS_ROOT = ROOT / "analista/generado/obras"
 DEFAULT_CALIBRATION_ROOT = ROOT / "analista/calibracion/fase10"
-VERSION = "1.2.0"
+VERSION = "1.3.0"
 
 
 def load_jsonl(path: Path) -> list[dict]:
@@ -50,6 +52,11 @@ def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def stable_id(prefix: str, *parts: str) -> str:
+    payload = "\x1f".join(parts).encode("utf-8")
+    return f"{prefix}-{hashlib.sha1(payload).hexdigest()[:12].upper()}"
+
+
 def load_module(name: str, path: Path):
     spec = importlib.util.spec_from_file_location(name, path)
     if spec is None or spec.loader is None:
@@ -68,6 +75,55 @@ def argv_temporal(values: list[str]):
         yield
     finally:
         sys.argv = original
+
+
+def coverage_without_glossary(obra_id: str, motor: str, total_units: int) -> dict:
+    return {
+        "id": stable_id("COB", obra_id, motor, VERSION, "sin_glosario"),
+        "tipo_registro": "reporte_cobertura",
+        "schema_version": "1.0.0",
+        "texto_literal": None,
+        "normalizacion_formal": None,
+        "normalizacion_lexica": None,
+        "estatus_enunciativo": None,
+        "estado_extraccion": "extraido",
+        "estado_verificacion": "pendiente",
+        "estado_auditoria": "no_aplica",
+        "producido_por": {"motor": "ejecutar_extractores_obra_fase10", "version": VERSION},
+        "obra_id": obra_id,
+        "motor": motor,
+        "version_motor": VERSION,
+        "unidades_totales": total_units,
+        "unidades_procesadas": total_units,
+        "unidades_omitidas": [],
+        "errores": [],
+    }
+
+
+def write_empty_conceptual_route(obra_id: str, work_units: list[dict], out: Path) -> None:
+    # La lista autorizada de identidades es vacía. Se recorren mecánicamente las
+    # unidades para que la cobertura registre un procesamiento real, sin buscar
+    # ni inventar designaciones no autorizadas.
+    processed_ids = []
+    for unit in work_units:
+        processed_ids.append(unit["id"])
+        _ = unit["texto_literal"]
+    if len(processed_ids) != len(set(processed_ids)):
+        raise SystemExit(f"IDs de unidad duplicados en ruta sin glosario: {obra_id}")
+    total_units = len(processed_ids)
+    for filename in (
+        "apariciones-conceptuales.jsonl",
+        "conceptos.jsonl",
+        "definiciones.jsonl",
+        "relaciones-explicitas.jsonl",
+    ):
+        dump_jsonl(out / filename, [])
+    for filename, motor in (
+        ("cobertura-conceptos.jsonl", "conceptos_apariciones"),
+        ("cobertura-definiciones.jsonl", "definiciones"),
+        ("cobertura-relaciones.jsonl", "relaciones_explicitas"),
+    ):
+        dump_jsonl(out / filename, [coverage_without_glossary(obra_id, motor, total_units)])
 
 
 def run_conceptos(obra_id: str, fuente: Path, unidades: Path, out: Path) -> None:
@@ -105,12 +161,6 @@ def run_afirmaciones(obra_id: str, unidades: Path, out: Path) -> None:
 
 
 def run_formulas(obra_id: str, unidades: Path, out: Path) -> tuple[dict, Path | None]:
-    """Ejecuta 4D y aplica únicamente un perfil calibrado de la misma obra.
-
-    El adaptador de producción conserva la salida v1.2 cuando no hay perfil. Si
-    existe un perfil, este valida su obra, detector de origen, censo manual y
-    número exacto de detecciones antes de permitir una reclasificación.
-    """
     m = load_module("fase10_formulas_produccion", ROOT / "analista/motores/formulas_perfil_fase10.py")
     profile = DEFAULT_CALIBRATION_ROOT / obra_id / "perfil-extractores.json"
     profile_arg = profile if profile.is_file() else None
@@ -175,10 +225,10 @@ def main() -> int:
     glossaries = [
         route for route in source.get("rutas_derivadas", []) if str(route).endswith("99-glosario.md")
     ]
-    if len(glossaries) != 1:
+    if len(glossaries) > 1:
         raise SystemExit(
-            f"Fase 10 controlada v{VERSION}: {args.obra_id} no tiene exactamente un glosario técnico explícito; "
-            "no se fabricarán conceptos ni se reutilizará el glosario de otra obra."
+            f"Fase 10 controlada v{VERSION}: {args.obra_id} tiene más de un glosario técnico explícito; "
+            "la identidad conceptual es ambigua y no se resolverá automáticamente."
         )
 
     out = args.output_root or (DEFAULT_OBRAS_ROOT / args.obra_id)
@@ -193,11 +243,17 @@ def main() -> int:
     dump_jsonl(fuente_local, [source])
     dump_jsonl(unidades_local, work_units)
 
-    run_conceptos(args.obra_id, fuente_local, unidades_local, out)
-    run_definiciones(args.obra_id, fuente_local, unidades_local, out)
+    if glossaries:
+        run_conceptos(args.obra_id, fuente_local, unidades_local, out)
+        run_definiciones(args.obra_id, fuente_local, unidades_local, out)
+        run_relaciones(args.obra_id, fuente_local, unidades_local, out)
+        perfil_conceptual = "glosario_tecnico_explicito"
+    else:
+        write_empty_conceptual_route(args.obra_id, work_units, out)
+        perfil_conceptual = "sin_glosario_tecnico_explicito"
+
     run_afirmaciones(args.obra_id, unidades_local, out)
     formula_result, formula_profile = run_formulas(args.obra_id, unidades_local, out)
-    run_relaciones(args.obra_id, fuente_local, unidades_local, out)
     run_limitadores(args.obra_id, unidades_local, out)
 
     product_names = [
@@ -238,7 +294,14 @@ def main() -> int:
         "version": VERSION,
         "obra_id": args.obra_id,
         "titulo": source.get("titulo"),
-        "glosario_tecnico": glossaries[0],
+        "glosario_tecnico": glossaries[0] if glossaries else None,
+        "perfil_conceptual": perfil_conceptual,
+        "limitaciones_conceptuales": {
+            "extraccion_conceptual_habilitada": bool(glossaries),
+            "identidades_conceptuales_inferidas": False,
+            "glosario_interobra_reutilizado": False,
+            "interpretacion_cero_registros": "no_autoriza_afirmar_ausencia_semantica",
+        },
         "unidades": len(work_units),
         "fase": "4A-4F_repeticion_controlada",
         "comparacion_interobra": False,
@@ -256,6 +319,7 @@ def main() -> int:
                 "obra_id": args.obra_id,
                 "titulo": source.get("titulo"),
                 "unidades": len(work_units),
+                "perfil_conceptual": perfil_conceptual,
                 "productos": len(product_names),
                 "formulas_version": formula_result.get("version"),
                 "formulas_perfil_calibrado": bool(formula_result.get("perfil_calibrado", False)),

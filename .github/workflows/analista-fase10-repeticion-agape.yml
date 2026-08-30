@@ -1,46 +1,10 @@
 name: Analista Fase 10 - repetición Ágape
 
 on:
-  push:
-    branches: [analisis-textual-v0.1]
-    paths:
-      - "analista/motores/inventariar_obras_fase10.py"
-      - "analista/motores/ejecutar_extractores_obra_fase10.py"
-      - "analista/motores/ensamblador_maestro_obra_fase10.py"
-      - "analista/motores/conceptos.py"
-      - "analista/motores/definiciones.py"
-      - "analista/motores/afirmaciones.py"
-      - "analista/motores/formulas.py"
-      - "analista/motores/formulas_obra_fase10.py"
-      - "analista/motores/formulas_perfil_fase10.py"
-      - "analista/motores/relaciones_explicitas.py"
-      - "analista/motores/limitadores.py"
-      - "analista/motores/normalizacion.py"
-      - "analista/motores/verificador_evidencia.py"
-      - "analista/motores/auditor_estructural.py"
-      - "analista/motores/auditor_descriptivo.py"
-      - "analista/pruebas/validar_inventario_fase10.py"
-      - "analista/pruebas/validar_repeticion_agape_fase10.py"
-      - "analista/pruebas/validar_muestra_agape_fase10.py"
-      - "analista/pruebas/validar_formulas_agape_fase10.py"
-      - "analista/pruebas/validar_verificacion_agape_fase10.py"
-      - "analista/pruebas/validar_auditoria_agape_fase10.py"
-      - "analista/pruebas/validar_maestro_agape_fase10.py"
-      - "analista/pruebas/validar_cadena_agape_fase10.py"
-      - "analista/calibracion/fase10/FUE-2C28F35DD6CF/**"
-      - "analista/calibracion/evaluar_formulas_fase10.py"
-      - "analista/calibracion/materializar_oro_formulas_fase10.py"
-      - "analista/calibracion/patron-oro-obra-v1.1.0.schema.json"
-      - "analista/esquema/contratos-v1.0.0.schema.json"
-      - "analista/esquema/expediente-maestro-fase10-v1.2.0.schema.json"
-      - "analista/generado/fuentes.jsonl"
-      - "analista/generado/unidades.jsonl"
-      - "corpus/libros/afrodita-areia/02-agape/**"
-      - ".github/workflows/analista-fase10-repeticion-agape.yml"
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   repeticion-agape:
@@ -54,29 +18,16 @@ jobs:
           python-version: "3.12"
       - run: python -m pip install --quiet jsonschema
 
-      - name: Validar cadena intraobra completa de Ágape hasta maestro
+      - name: Validar cadena intraobra de Ágape con el validador genérico
         run: python analista/pruebas/validar_cadena_agape_fase10.py
 
-      - name: Publicar repetición controlada Ágape
+      - name: Publicar replay de Ágape
         uses: actions/upload-artifact@v4
         with:
-          name: analista-fase10-agape-cadena-intraobra
+          name: analista-fase10-agape-replay
           path: |
             analista/generado/fase10/inventario-obras.json
             analista/generado/obras/FUE-2C28F35DD6CF/
             analista/generado/maestros/FUE-2C28F35DD6CF.json
             analista/generado/maestros/FUE-2C28F35DD6CF.json.sha256
           if-no-files-found: error
-
-      - name: Persistir productos deterministas de Ágape
-        if: github.actor != 'github-actions[bot]'
-        env:
-          TARGET_BRANCH: ${{ github.ref_name }}
-        run: |
-          python analista/motores/inventariar_obras_fase10.py
-          if [ -z "$(git status --porcelain -- analista/generado/fase10 analista/generado/obras/FUE-2C28F35DD6CF analista/generado/maestros/FUE-2C28F35DD6CF.json analista/generado/maestros/FUE-2C28F35DD6CF.json.sha256)" ]; then exit 0; fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add analista/generado/fase10 analista/generado/obras/FUE-2C28F35DD6CF analista/generado/maestros/FUE-2C28F35DD6CF.json analista/generado/maestros/FUE-2C28F35DD6CF.json.sha256
-          git commit -m "Generar cadena intraobra Ágape Fase 10"
-          git push origin HEAD:"${TARGET_BRANCH}"
