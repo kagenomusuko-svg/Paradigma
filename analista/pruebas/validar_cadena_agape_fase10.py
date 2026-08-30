@@ -2,10 +2,10 @@
 """Replay integral de la cadena intraobra de Ágape en Fase 10.
 
 Ejecuta, en el orden vinculante ya implementado, los validadores y productores
-que componen el tramo actual de repetición controlada. No añade reglas de
-extracción, no modifica configuraciones doctrinales y no sustituye la revisión
-humana: únicamente ofrece un punto de entrada local reproducible equivalente al
-workflow de GitHub Actions.
+que componen la repetición controlada hasta el JSON maestro independiente. No
+añade reglas de extracción, no modifica configuraciones doctrinales y no
+sustituye la revisión humana: únicamente ofrece un punto de entrada local
+reproducible equivalente al workflow de GitHub Actions.
 """
 from __future__ import annotations
 
@@ -51,6 +51,10 @@ ETAPAS: tuple[tuple[str, list[str]], ...] = (
         "auditoria_intraobra",
         [sys.executable, "analista/pruebas/validar_auditoria_agape_fase10.py"],
     ),
+    (
+        "maestro_independiente",
+        [sys.executable, "analista/pruebas/validar_maestro_agape_fase10.py"],
+    ),
 )
 
 
@@ -84,10 +88,12 @@ def main() -> int:
     print(
         json.dumps(
             {
-                "estado": "cadena_intraobra_validada",
+                "estado": "cadena_intraobra_con_maestro_validada",
                 "obra_id": AGAPE,
                 "etapas": [row["etapa"] for row in completadas],
                 "cantidad_etapas": len(completadas),
+                "maestro_independiente": True,
+                "comparacion_interobra": False,
                 "avance_fase10": "sin_cierre_global",
             },
             ensure_ascii=False,

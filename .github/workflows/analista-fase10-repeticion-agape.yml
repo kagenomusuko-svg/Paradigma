@@ -6,6 +6,7 @@ on:
     paths:
       - "analista/motores/inventariar_obras_fase10.py"
       - "analista/motores/ejecutar_extractores_obra_fase10.py"
+      - "analista/motores/ensamblador_maestro_obra_fase10.py"
       - "analista/motores/conceptos.py"
       - "analista/motores/definiciones.py"
       - "analista/motores/afirmaciones.py"
@@ -24,12 +25,14 @@ on:
       - "analista/pruebas/validar_formulas_agape_fase10.py"
       - "analista/pruebas/validar_verificacion_agape_fase10.py"
       - "analista/pruebas/validar_auditoria_agape_fase10.py"
+      - "analista/pruebas/validar_maestro_agape_fase10.py"
       - "analista/pruebas/validar_cadena_agape_fase10.py"
       - "analista/calibracion/fase10/FUE-2C28F35DD6CF/**"
       - "analista/calibracion/evaluar_formulas_fase10.py"
       - "analista/calibracion/materializar_oro_formulas_fase10.py"
       - "analista/calibracion/patron-oro-obra-v1.1.0.schema.json"
       - "analista/esquema/contratos-v1.0.0.schema.json"
+      - "analista/esquema/expediente-maestro-fase10-v1.2.0.schema.json"
       - "analista/generado/fuentes.jsonl"
       - "analista/generado/unidades.jsonl"
       - "corpus/libros/afrodita-areia/02-agape/**"
@@ -51,7 +54,7 @@ jobs:
           python-version: "3.12"
       - run: python -m pip install --quiet jsonschema
 
-      - name: Validar cadena intraobra completa de Ágape
+      - name: Validar cadena intraobra completa de Ágape hasta maestro
         run: python analista/pruebas/validar_cadena_agape_fase10.py
 
       - name: Publicar repetición controlada Ágape
@@ -61,6 +64,8 @@ jobs:
           path: |
             analista/generado/fase10/inventario-obras.json
             analista/generado/obras/FUE-2C28F35DD6CF/
+            analista/generado/maestros/FUE-2C28F35DD6CF.json
+            analista/generado/maestros/FUE-2C28F35DD6CF.json.sha256
           if-no-files-found: error
 
       - name: Persistir productos deterministas de Ágape
@@ -69,9 +74,9 @@ jobs:
           TARGET_BRANCH: ${{ github.ref_name }}
         run: |
           python analista/motores/inventariar_obras_fase10.py
-          if [ -z "$(git status --porcelain -- analista/generado/fase10 analista/generado/obras/FUE-2C28F35DD6CF)" ]; then exit 0; fi
+          if [ -z "$(git status --porcelain -- analista/generado/fase10 analista/generado/obras/FUE-2C28F35DD6CF analista/generado/maestros/FUE-2C28F35DD6CF.json analista/generado/maestros/FUE-2C28F35DD6CF.json.sha256)" ]; then exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add analista/generado/fase10 analista/generado/obras/FUE-2C28F35DD6CF
+          git add analista/generado/fase10 analista/generado/obras/FUE-2C28F35DD6CF analista/generado/maestros/FUE-2C28F35DD6CF.json analista/generado/maestros/FUE-2C28F35DD6CF.json.sha256
           git commit -m "Generar cadena intraobra Ágape Fase 10"
           git push origin HEAD:"${TARGET_BRANCH}"
