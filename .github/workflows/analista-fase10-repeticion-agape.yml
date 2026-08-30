@@ -14,10 +14,13 @@ on:
       - "analista/motores/formulas_perfil_fase10.py"
       - "analista/motores/relaciones_explicitas.py"
       - "analista/motores/limitadores.py"
+      - "analista/motores/normalizacion.py"
+      - "analista/motores/verificador_evidencia.py"
       - "analista/pruebas/validar_inventario_fase10.py"
       - "analista/pruebas/validar_repeticion_agape_fase10.py"
       - "analista/pruebas/validar_muestra_agape_fase10.py"
       - "analista/pruebas/validar_formulas_agape_fase10.py"
+      - "analista/pruebas/validar_verificacion_agape_fase10.py"
       - "analista/calibracion/fase10/FUE-2C28F35DD6CF/**"
       - "analista/calibracion/evaluar_formulas_fase10.py"
       - "analista/calibracion/materializar_oro_formulas_fase10.py"
@@ -61,10 +64,13 @@ jobs:
       - name: Validar producto real y aislamiento del piloto
         run: python analista/pruebas/validar_repeticion_agape_fase10.py
 
+      - name: Normalizar y verificar evidencia de Ágape
+        run: python analista/pruebas/validar_verificacion_agape_fase10.py
+
       - name: Publicar repetición controlada Ágape
         uses: actions/upload-artifact@v4
         with:
-          name: analista-fase10-agape-extractores
+          name: analista-fase10-agape-extractores-y-verificacion
           path: |
             analista/generado/fase10/inventario-obras.json
             analista/generado/obras/FUE-2C28F35DD6CF/
