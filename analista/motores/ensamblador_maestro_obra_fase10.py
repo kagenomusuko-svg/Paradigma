@@ -4,6 +4,11 @@
 Opera exclusivamente sobre productos de una sola obra que ya pasaron
 normalización de recuperación, verificación de evidencia y auditoría intraobra.
 No compara obras, no sintetiza doctrina y no introduce registros nuevos.
+
+El maestro transporta además el alcance conceptual declarado por el manifest de
+la propia obra. Esto evita que una etapa posterior interprete un conjunto vacío
+como ausencia semántica cuando la extracción conceptual no estuvo habilitada por
+falta de glosario técnico explícito.
 """
 from __future__ import annotations
 
@@ -13,8 +18,8 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-SCHEMA_VERSION = "1.2.0"
-MOTOR_VERSION = "1.0.0"
+SCHEMA_VERSION = "1.3.0"
+MOTOR_VERSION = "1.1.0"
 
 AUDITED_FILES = {
     "apariciones_conceptuales": "apariciones-conceptuales.jsonl",
@@ -44,6 +49,12 @@ EXPECTED_COVERAGE_MOTORS = {
     "relaciones_explicitas",
     "limitadores",
 }
+CONCEPTUAL_FIELDS = (
+    "apariciones_conceptuales",
+    "conceptos",
+    "definiciones",
+    "relaciones_explicitas",
+)
 
 
 def load_jsonl(path: Path) -> list[dict]:
@@ -75,6 +86,49 @@ def relative(path: Path) -> str:
 
 def comparable_chain_rows(rows: list[dict]) -> list[tuple[str, str]]:
     return [(row["id"], row["tipo_registro"]) for row in rows]
+
+
+def conceptual_scope_from_manifest(manifest: dict) -> dict:
+    profile = manifest.get("perfil_conceptual")
+    glossary = manifest.get("glosario_tecnico")
+    limitations = manifest.get("limitaciones_conceptuales")
+    if not isinstance(limitations, dict):
+        raise AssertionError("Manifest sin limitaciones conceptuales explícitas")
+
+    expected_common = {
+        "identidades_conceptuales_inferidas": False,
+        "glosario_interobra_reutilizado": False,
+        "interpretacion_cero_registros": "no_autoriza_afirmar_ausencia_semantica",
+    }
+    for key, expected in expected_common.items():
+        if limitations.get(key) != expected:
+            raise AssertionError(f"Limitación conceptual inválida en manifest: {key}")
+
+    enabled = limitations.get("extraccion_conceptual_habilitada")
+    if profile == "glosario_tecnico_explicito":
+        if not isinstance(glossary, str) or not glossary or enabled is not True:
+            raise AssertionError("Perfil conceptual con glosario inconsistente")
+    elif profile == "sin_glosario_tecnico_explicito":
+        if glossary is not None or enabled is not False:
+            raise AssertionError("Perfil conceptual sin glosario inconsistente")
+    else:
+        raise AssertionError(f"Perfil conceptual no autorizado: {profile!r}")
+
+    allowed_keys = {
+        "extraccion_conceptual_habilitada",
+        "identidades_conceptuales_inferidas",
+        "glosario_interobra_reutilizado",
+        "interpretacion_cero_registros",
+    }
+    if set(limitations) != allowed_keys:
+        raise AssertionError("Manifest contiene campos conceptuales no autorizados")
+
+    return {
+        "perfil": profile,
+        "glosario_tecnico": glossary,
+        "extraccion_conceptual_habilitada": enabled,
+        **expected_common,
+    }
 
 
 def validate_traceability(master: dict) -> None:
@@ -160,6 +214,8 @@ def validate_traceability(master: dict) -> None:
             raise AssertionError(f"Cobertura con omisiones/errores: {row.get('id')}")
 
     controls = master["controles_fase10"]
+    if controls.get("version") != "1.1.0":
+        raise AssertionError("Versión de controles Fase 10 no autorizada")
     if controls.get("obra_id") != obra_id or controls.get("fase") != 10:
         raise AssertionError("Controles Fase 10 ajenos a la obra")
     if controls.get("comparacion_interobra") is not False:
@@ -172,6 +228,29 @@ def validate_traceability(master: dict) -> None:
     ):
         if controls.get(key) is not True:
             raise AssertionError(f"Control Fase 10 no satisfecho: {key}")
+
+    scope = controls.get("alcance_conceptual")
+    if not isinstance(scope, dict):
+        raise AssertionError("Maestro sin alcance conceptual explícito")
+    if scope.get("identidades_conceptuales_inferidas") is not False:
+        raise AssertionError("El maestro no puede declarar identidades conceptuales inferidas")
+    if scope.get("glosario_interobra_reutilizado") is not False:
+        raise AssertionError("El maestro no puede reutilizar glosarios interobra")
+    if scope.get("interpretacion_cero_registros") != "no_autoriza_afirmar_ausencia_semantica":
+        raise AssertionError("El maestro debe preservar la semántica conservadora de cero registros")
+    profile = scope.get("perfil")
+    enabled = scope.get("extraccion_conceptual_habilitada")
+    glossary = scope.get("glosario_tecnico")
+    if profile == "sin_glosario_tecnico_explicito":
+        if enabled is not False or glossary is not None:
+            raise AssertionError("Alcance conceptual sin glosario inconsistente")
+        if any(master[field] for field in CONCEPTUAL_FIELDS):
+            raise AssertionError("Obra sin glosario contiene productos de identidad conceptual")
+    elif profile == "glosario_tecnico_explicito":
+        if enabled is not True or not isinstance(glossary, str) or not glossary:
+            raise AssertionError("Alcance conceptual con glosario inconsistente")
+    else:
+        raise AssertionError("Perfil conceptual del maestro no autorizado")
 
 
 def history(records: list[dict]) -> list[dict]:
@@ -195,12 +274,12 @@ def history(records: list[dict]) -> list[dict]:
             "Overlay de recuperación aplicado sin alterar evidencia ni productor original.",
         ),
         (
-            "expediente-maestro-fase10/1.2.0",
-            "Contrato de maestro independiente para repetición controlada de Fase 10.",
+            "expediente-maestro-fase10/1.3.0",
+            "Contrato de maestro independiente que conserva el alcance conceptual de la obra.",
         ),
         (
-            "ensamblador_maestro_obra_fase10/1.0.0",
-            "Ensamblador descriptivo parametrizado por obra; no compara ni sintetiza.",
+            "ensamblador_maestro_obra_fase10/1.1.0",
+            "Ensamblador descriptivo parametrizado por obra; transporta limitaciones conceptuales y no compara ni sintetiza.",
         ),
     ]
     seen = {row["version"] for row in result}
@@ -220,6 +299,7 @@ def assemble(obra_id: str, obra_root: Path, output: Path) -> dict:
         raise AssertionError("Manifest de extractores corresponde a otra obra")
     if manifest.get("comparacion_interobra") is not False:
         raise AssertionError("Manifest de Fase 10 habilita comparación interobra")
+    scope = conceptual_scope_from_manifest(manifest)
 
     source_rows = [row for row in load_jsonl(source_path) if row.get("id") == obra_id]
     if len(source_rows) != 1:
@@ -258,6 +338,11 @@ def assemble(obra_id: str, obra_root: Path, output: Path) -> dict:
                 (audited_path, "producto_auditado", len(audited)),
             ]
         )
+
+    if scope["perfil"] == "sin_glosario_tecnico_explicito" and any(
+        arrays[field] for field in CONCEPTUAL_FIELDS
+    ):
+        raise AssertionError("Manifest sin glosario no puede ensamblar productos conceptuales")
 
     findings_path = obra_root / "hallazgos-auditoria.jsonl"
     findings = load_jsonl(findings_path)
@@ -313,7 +398,7 @@ def assemble(obra_id: str, obra_root: Path, output: Path) -> dict:
         "hallazgos_auditoria": findings,
         "reportes_cobertura": sorted(coverage, key=lambda row: row["motor"]),
         "controles_fase10": {
-            "version": "1.0.0",
+            "version": "1.1.0",
             "obra_id": obra_id,
             "fase": 10,
             "comparacion_interobra": False,
@@ -321,6 +406,7 @@ def assemble(obra_id: str, obra_root: Path, output: Path) -> dict:
             "normalizacion_recuperacion": True,
             "verificacion_evidencia": True,
             "auditoria_intraobra": True,
+            "alcance_conceptual": scope,
             "calibracion_formulas": {
                 "perfil_calibrado": bool(formula_calibration.get("perfil_calibrado", False)),
                 "version_produccion": formula_calibration.get("version_produccion"),
@@ -377,6 +463,7 @@ def main() -> int:
                 "hallazgos": len(master["hallazgos_auditoria"]),
                 "registros_auditados": sum(counts.values()),
                 "conteos": counts,
+                "perfil_conceptual": master["controles_fase10"]["alcance_conceptual"]["perfil"],
                 "comparacion_interobra": False,
                 "salida": relative(output),
             },

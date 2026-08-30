@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Gate global y reproducible de cierre administrativo de Fase 10.
 
-El gate ejecuta la cadena completa por obra de forma independiente y solo emite
-`fase10_cerrada=true` cuando todas las obras del inventario mecánico cuentan con
-un maestro válido. No compara hallazgos entre obras ni produce síntesis doctrinal.
+Solo emite ``fase10_cerrada=true`` después de ejecutar y validar de forma
+independiente las veinte obras previstas. No compara contenidos entre obras ni
+produce síntesis doctrinal. Para las diecinueve repeticiones, el propio maestro
+transporta el alcance conceptual de la obra para que una etapa posterior no
+confunda ausencia de extracción autorizada con ausencia semántica.
 """
 from __future__ import annotations
 
@@ -22,7 +24,7 @@ INVENTORY = ROOT / "analista/generado/fase10/inventario-obras.json"
 MASTERS = ROOT / "analista/generado/maestros"
 REPORT = ROOT / "analista/generado/fase10/cierre-fase10.json"
 PILOT = "AA-SP-V1"
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 
 
 def run(cmd: list[str]) -> None:
@@ -46,14 +48,13 @@ def main() -> int:
     assert len(ids) == len(set(ids)) == 20
     assert ids.count(PILOT) == 1
 
-    # El piloto conserva como evidencia su cierre completo de Fase 9. Las otras
-    # 19 obras se ejecutan con el contrato parametrizado de Fase 10.
+    # El piloto conserva su cierre completo de Fase 9. Las otras diecinueve
+    # obras se regeneran y validan mediante la cadena parametrizada de Fase 10.
     run([sys.executable, str(PILOT_VALIDATOR)])
     for work in works:
         obra_id = work["obra_id"]
-        if obra_id == PILOT:
-            continue
-        run([sys.executable, str(WORK_VALIDATOR), "--obra-id", obra_id])
+        if obra_id != PILOT:
+            run([sys.executable, str(WORK_VALIDATOR), "--obra-id", obra_id])
 
     expected_master_names = {f"{obra_id}.json" for obra_id in ids}
     found_master_names = {path.name for path in MASTERS.glob("*.json")}
@@ -82,52 +83,74 @@ def main() -> int:
             assert master["schema_version"] == "1.1.0"
             route = "piloto_cerrado_fase9"
             comparison = False
+            conceptual_enabled = True
         else:
-            assert master["schema_version"] == "1.2.0"
+            assert master["schema_version"] == "1.3.0"
+            assert master["producido_por"] == {
+                "motor": "ensamblador_maestro_obra_fase10",
+                "version": "1.1.0",
+            }
             controls = master["controles_fase10"]
+            assert controls["version"] == "1.1.0"
             assert controls["obra_id"] == obra_id
             assert controls["comparacion_interobra"] is False
             assert controls["maestro_independiente"] is True
             assert controls["normalizacion_recuperacion"] is True
             assert controls["verificacion_evidencia"] is True
             assert controls["auditoria_intraobra"] is True
+
+            scope = controls["alcance_conceptual"]
+            assert scope["perfil"] == work["perfil_conceptual"]
+            assert scope["glosario_tecnico"] == work["glosario_tecnico"]
+            assert scope["identidades_conceptuales_inferidas"] is False
+            assert scope["glosario_interobra_reutilizado"] is False
+            assert scope["interpretacion_cero_registros"] == "no_autoriza_afirmar_ausencia_semantica"
+
             manifest = json.loads(
                 (ROOT / "analista/generado/obras" / obra_id / "manifest-extractores.json").read_text(encoding="utf-8")
             )
-            assert manifest["perfil_conceptual"] == work["perfil_conceptual"]
+            assert manifest["version"] == "1.3.0"
+            assert manifest["obra_id"] == obra_id
             assert manifest["comparacion_interobra"] is False
+            assert manifest["perfil_conceptual"] == scope["perfil"]
+            assert manifest["glosario_tecnico"] == scope["glosario_tecnico"]
             limits = manifest["limitaciones_conceptuales"]
+            assert scope["extraccion_conceptual_habilitada"] == limits["extraccion_conceptual_habilitada"]
             assert limits["identidades_conceptuales_inferidas"] is False
             assert limits["glosario_interobra_reutilizado"] is False
             assert limits["interpretacion_cero_registros"] == "no_autoriza_afirmar_ausencia_semantica"
+
             if work["glosario_tecnico"] is None:
-                assert limits["extraccion_conceptual_habilitada"] is False
+                assert scope["perfil"] == "sin_glosario_tecnico_explicito"
+                assert scope["extraccion_conceptual_habilitada"] is False
                 assert not master["apariciones_conceptuales"]
                 assert not master["conceptos"]
                 assert not master["definiciones"]
                 assert not master["relaciones_explicitas"]
             else:
-                assert limits["extraccion_conceptual_habilitada"] is True
+                assert scope["perfil"] == "glosario_tecnico_explicito"
+                assert scope["extraccion_conceptual_habilitada"] is True
+
             assert all(
                 finding.get("resolucion_doctrinal") == "no_realizada"
                 for finding in master["hallazgos_auditoria"]
             )
             route = "repeticion_controlada_fase10"
             comparison = controls["comparacion_interobra"]
+            conceptual_enabled = scope["extraccion_conceptual_habilitada"]
 
-        closure_works.append(
-            {
-                "obra_id": obra_id,
-                "titulo": work["titulo"],
-                "ruta_cierre": route,
-                "schema_maestro": master["schema_version"],
-                "perfil_conceptual": work["perfil_conceptual"],
-                "unidades": work["unidades"],
-                "maestro": master_path.relative_to(ROOT).as_posix(),
-                "maestro_sha256": sha(master_path),
-                "comparacion_interobra": comparison,
-            }
-        )
+        closure_works.append({
+            "obra_id": obra_id,
+            "titulo": work["titulo"],
+            "ruta_cierre": route,
+            "schema_maestro": master["schema_version"],
+            "perfil_conceptual": work["perfil_conceptual"],
+            "extraccion_conceptual_habilitada": conceptual_enabled,
+            "unidades": work["unidades"],
+            "maestro": master_path.relative_to(ROOT).as_posix(),
+            "maestro_sha256": sha(master_path),
+            "comparacion_interobra": comparison,
+        })
 
     report = {
         "version": VERSION,
@@ -161,21 +184,15 @@ def main() -> int:
     digest, filename = sidecar.read_text(encoding="utf-8").strip().split("  ", 1)
     assert filename == REPORT.name and digest == sha(REPORT)
 
-    print(
-        json.dumps(
-            {
-                "fase": 10,
-                "fase10_cerrada": True,
-                "obras": len(closure_works),
-                "maestros": len(found_master_names),
-                "repeticiones_fase10": len(closure_works) - 1,
-                "comparacion_interobra": False,
-                "reporte_sha256": sha(REPORT),
-            },
-            ensure_ascii=False,
-            sort_keys=True,
-        )
-    )
+    print(json.dumps({
+        "fase": 10,
+        "fase10_cerrada": True,
+        "obras": len(closure_works),
+        "maestros": len(found_master_names),
+        "repeticiones_fase10": len(closure_works) - 1,
+        "comparacion_interobra": False,
+        "reporte_sha256": sha(REPORT),
+    }, ensure_ascii=False, sort_keys=True))
     return 0
 
 

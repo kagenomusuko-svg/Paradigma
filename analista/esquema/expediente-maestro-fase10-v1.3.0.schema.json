@@ -1,0 +1,222 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://paradigma.local/analista/esquema/expediente-maestro-fase10-v1.3.0.schema.json",
+  "title": "Expediente maestro independiente de Fase 10 v1.3.0",
+  "description": "Extensión compatible de la familia de contratos del analista. Reúne una sola obra ya normalizada, verificada y auditada, conserva los registros atómicos v1.0.0, transporta al maestro el alcance conceptual de la propia obra y prohíbe comparación interobra o síntesis doctrinal.",
+  "$defs": {
+    "input_hash": {
+      "type": "object",
+      "required": ["ruta", "sha256", "funcion", "registros_incluidos"],
+      "properties": {
+        "ruta": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "funcion": {
+          "enum": [
+            "fuente",
+            "unidades",
+            "manifest",
+            "producto_normalizado",
+            "producto_verificado",
+            "producto_auditado",
+            "hallazgos",
+            "cobertura",
+            "calibracion_obra"
+          ]
+        },
+        "registros_incluidos": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": false
+    },
+    "history": {
+      "type": "object",
+      "required": ["version", "descripcion"],
+      "properties": {
+        "version": {"type": "string", "minLength": 1},
+        "descripcion": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    },
+    "formula_calibration": {
+      "type": "object",
+      "required": ["perfil_calibrado", "version_produccion", "perfil", "perfil_sha256"],
+      "properties": {
+        "perfil_calibrado": {"type": "boolean"},
+        "version_produccion": {"type": ["string", "null"]},
+        "perfil": {"type": ["string", "null"]},
+        "perfil_sha256": {
+          "anyOf": [
+            {"type": "null"},
+            {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "conceptual_scope": {
+      "type": "object",
+      "required": [
+        "perfil",
+        "glosario_tecnico",
+        "extraccion_conceptual_habilitada",
+        "identidades_conceptuales_inferidas",
+        "glosario_interobra_reutilizado",
+        "interpretacion_cero_registros"
+      ],
+      "properties": {
+        "perfil": {
+          "enum": [
+            "glosario_tecnico_explicito",
+            "sin_glosario_tecnico_explicito"
+          ]
+        },
+        "glosario_tecnico": {"type": ["string", "null"]},
+        "extraccion_conceptual_habilitada": {"type": "boolean"},
+        "identidades_conceptuales_inferidas": {"const": false},
+        "glosario_interobra_reutilizado": {"const": false},
+        "interpretacion_cero_registros": {"const": "no_autoriza_afirmar_ausencia_semantica"}
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {"perfil": {"const": "sin_glosario_tecnico_explicito"}},
+            "required": ["perfil"]
+          },
+          "then": {
+            "properties": {
+              "glosario_tecnico": {"type": "null"},
+              "extraccion_conceptual_habilitada": {"const": false}
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {"perfil": {"const": "glosario_tecnico_explicito"}},
+            "required": ["perfil"]
+          },
+          "then": {
+            "properties": {
+              "glosario_tecnico": {"type": "string", "minLength": 1},
+              "extraccion_conceptual_habilitada": {"const": true}
+            }
+          }
+        }
+      ],
+      "additionalProperties": false
+    }
+  },
+  "type": "object",
+  "required": [
+    "id",
+    "tipo_registro",
+    "schema_version",
+    "texto_literal",
+    "normalizacion_formal",
+    "normalizacion_lexica",
+    "estatus_enunciativo",
+    "estado_extraccion",
+    "estado_verificacion",
+    "estado_auditoria",
+    "producido_por",
+    "obra_id",
+    "titulo",
+    "fuentes",
+    "unidades",
+    "apariciones_conceptuales",
+    "conceptos",
+    "definiciones",
+    "afirmaciones",
+    "formulas",
+    "relaciones_explicitas",
+    "distinciones",
+    "negaciones",
+    "excepciones",
+    "restricciones_alcance",
+    "hallazgos_auditoria",
+    "reportes_cobertura",
+    "controles_fase10",
+    "trazabilidad_archivos",
+    "historial_versiones"
+  ],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[A-Z0-9][A-Z0-9._:-]{2,99}$"},
+    "tipo_registro": {"const": "expediente_maestro_obra"},
+    "schema_version": {"const": "1.3.0"},
+    "texto_literal": {"type": "null"},
+    "normalizacion_formal": {"type": "null"},
+    "normalizacion_lexica": {"type": "null"},
+    "estatus_enunciativo": {"type": "null"},
+    "estado_extraccion": {"const": "extraido"},
+    "estado_verificacion": {"const": "verificado"},
+    "estado_auditoria": {"const": "no_aplica"},
+    "producido_por": {
+      "type": "object",
+      "required": ["motor", "version"],
+      "properties": {
+        "motor": {"const": "ensamblador_maestro_obra_fase10"},
+        "version": {"const": "1.1.0"}
+      },
+      "additionalProperties": false
+    },
+    "obra_id": {"type": "string", "minLength": 1},
+    "titulo": {"type": "string", "minLength": 1},
+    "fuentes": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/fuente"}
+    },
+    "unidades": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/unidad_textual"}
+    },
+    "apariciones_conceptuales": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/aparicion_conceptual"}},
+    "conceptos": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/concepto"}},
+    "definiciones": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/definicion"}},
+    "afirmaciones": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/afirmacion"}},
+    "formulas": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/formula"}},
+    "relaciones_explicitas": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/relacion_explicita"}},
+    "distinciones": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/distincion"}},
+    "negaciones": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/negacion"}},
+    "excepciones": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/excepcion"}},
+    "restricciones_alcance": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/restriccion_alcance"}},
+    "hallazgos_auditoria": {"type": "array", "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/hallazgo_auditoria"}},
+    "reportes_cobertura": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 6,
+      "items": {"$ref": "https://paradigma.local/analista/esquema/contratos-v1.0.0.schema.json#/$defs/reporte_cobertura"}
+    },
+    "controles_fase10": {
+      "type": "object",
+      "required": [
+        "version",
+        "obra_id",
+        "fase",
+        "comparacion_interobra",
+        "maestro_independiente",
+        "normalizacion_recuperacion",
+        "verificacion_evidencia",
+        "auditoria_intraobra",
+        "alcance_conceptual",
+        "calibracion_formulas"
+      ],
+      "properties": {
+        "version": {"const": "1.1.0"},
+        "obra_id": {"type": "string", "minLength": 1},
+        "fase": {"const": 10},
+        "comparacion_interobra": {"const": false},
+        "maestro_independiente": {"const": true},
+        "normalizacion_recuperacion": {"const": true},
+        "verificacion_evidencia": {"const": true},
+        "auditoria_intraobra": {"const": true},
+        "alcance_conceptual": {"$ref": "#/$defs/conceptual_scope"},
+        "calibracion_formulas": {"$ref": "#/$defs/formula_calibration"}
+      },
+      "additionalProperties": false
+    },
+    "trazabilidad_archivos": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/input_hash"}},
+    "historial_versiones": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/history"}}
+  },
+  "additionalProperties": false
+}
