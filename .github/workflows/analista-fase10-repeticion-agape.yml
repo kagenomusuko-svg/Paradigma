@@ -11,6 +11,7 @@ on:
       - "analista/motores/afirmaciones.py"
       - "analista/motores/formulas.py"
       - "analista/motores/formulas_obra_fase10.py"
+      - "analista/motores/formulas_perfil_fase10.py"
       - "analista/motores/relaciones_explicitas.py"
       - "analista/motores/limitadores.py"
       - "analista/pruebas/validar_inventario_fase10.py"
@@ -18,6 +19,9 @@ on:
       - "analista/pruebas/validar_muestra_agape_fase10.py"
       - "analista/pruebas/validar_formulas_agape_fase10.py"
       - "analista/calibracion/fase10/FUE-2C28F35DD6CF/**"
+      - "analista/calibracion/evaluar_formulas_fase10.py"
+      - "analista/calibracion/materializar_oro_formulas_fase10.py"
+      - "analista/calibracion/patron-oro-obra-v1.1.0.schema.json"
       - "analista/esquema/contratos-v1.0.0.schema.json"
       - "analista/generado/fuentes.jsonl"
       - "analista/generado/unidades.jsonl"
@@ -51,7 +55,7 @@ jobs:
       - name: Validar muestra congelada previa a calibración
         run: python analista/pruebas/validar_muestra_agape_fase10.py
 
-      - name: Validar regresión piloto y fórmulas Ágape v1.2
+      - name: Validar regresión piloto y transición 4D Ágape v1.2 a v1.3
         run: python analista/pruebas/validar_formulas_agape_fase10.py
 
       - name: Validar producto real y aislamiento del piloto
