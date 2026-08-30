@@ -24,4 +24,4 @@ El contrato v1.1.0:
 
 El ensamblador de Fase 9 debe copiar los registros auditados **sin transformarlos**. La prueba `analista/pruebas/validar_maestro_fase9.py` comprueba el contrato, la igualdad exacta con las entradas auditadas, las referencias, los hashes, el gate de calibración y la reproducibilidad byte a byte.
 
-El esquema histórico `analisis/esquema/registro-v0.1.schema.json` se conserva como artefacto del prototipo y no es contrato vigente de `analista/`.
+El prototipo histórico v0.1 (`analisis/`, sus scripts y su workflow) fue retirado de la rama activa una vez sustituido por `analista/`. Permanece recuperable y auditable en el historial de Git; no forma parte de los contratos ni de la ejecución vigente.
