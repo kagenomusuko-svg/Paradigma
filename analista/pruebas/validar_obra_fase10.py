@@ -13,7 +13,7 @@ PILOT="AA-SP-V1"
 PRODUCT={"apariciones-conceptuales.jsonl":"aparicion_conceptual","conceptos.jsonl":"concepto","definiciones.jsonl":"definicion","afirmaciones-candidatas.jsonl":"afirmacion","formulas-candidatas.jsonl":"formula","relaciones-explicitas.jsonl":"relacion_explicita","distinciones.jsonl":"distincion","negaciones.jsonl":"negacion","excepciones.jsonl":"excepcion","restricciones-alcance.jsonl":"restriccion_alcance"}
 FIELD={"apariciones-conceptuales.jsonl":"apariciones_conceptuales","conceptos.jsonl":"conceptos","definiciones.jsonl":"definiciones","afirmaciones-candidatas.jsonl":"afirmaciones","formulas-candidatas.jsonl":"formulas","relaciones-explicitas.jsonl":"relaciones_explicitas","distinciones.jsonl":"distinciones","negaciones.jsonl":"negaciones","excepciones.jsonl":"excepciones","restricciones-alcance.jsonl":"restricciones_alcance"}
 COVER=("cobertura-conceptos.jsonl","cobertura-definiciones.jsonl","cobertura-afirmaciones.jsonl","cobertura-formulas.jsonl","cobertura-relaciones.jsonl","cobertura-limitadores.jsonl")
-MOTORS={"conceptos_apariciones","definiciones","afirmaciones","formulas","relaciones_explicitas","limitadores"}; FIXED={"conceptos_apariciones":"1.2.0","definiciones":"1.2.0","afirmaciones":"1.2.0","relaciones_explicitas":"1.2.0","limitadores":"1.1.0"}
+MOTORS={"conceptos_apariciones","definiciones","afirmaciones","formulas","relaciones_explicitas","limitadores"}; FIXED={"conceptos_apariciones":"1.3.0","definiciones":"1.2.0","afirmaciones":"1.2.0","relaciones_explicitas":"1.2.0","limitadores":"1.1.0"}
 
 def loadl(p):
  if not Path(p).is_file(): raise AssertionError(f"Falta JSONL: {p}")
@@ -23,6 +23,9 @@ def run(*args):subprocess.run([sys.executable,*map(str,args)],cwd=ROOT,check=Tru
 def atomic(schema,name):return Draft202012Validator({"$schema":schema["$schema"],"$defs":schema["$defs"],"$ref":f"#/$defs/{name}"})
 def assembler():
  s=importlib.util.spec_from_file_location("asm_f10",ASM);assert s and s.loader;m=importlib.util.module_from_spec(s);s.loader.exec_module(m);return m
+def declarative(app):
+ criterion=app.get("criterio_deteccion","")
+ return criterion=="lema_en_glosario_tecnico_explicito" or criterion.startswith("declaracion_designativa_explicita_en_cuerpo:")
 
 def execute(obra,root,master):
  run(EX,"--obra-id",obra,"--fuentes",FUENTES,"--unidades",UNIDADES,"--output-root",root)
@@ -65,9 +68,10 @@ def validate(obra,root,master):
  apps={r["id"]:r for r in raw_by["apariciones-conceptuales.jsonl"]};cons=raw_by["conceptos.jsonl"]
  for c in cons:
   aids=c["aparicion_ids"];ev=c["evidencia_identidad_ids"];assert aids and all(a in apps and apps[a].get("concepto_id")==c["id"] for a in aids)
-  if c["estado_identidad_conceptual"]=="establecida_por_evidencia":assert has and c["estado_extraccion"]=="extraido" and ev and all(apps[a]["criterio_deteccion"]=="lema_en_glosario_tecnico_explicito" for a in ev)
+  if c["estado_identidad_conceptual"]=="establecida_por_evidencia":
+   assert c["estado_extraccion"]=="extraido" and ev and all(a in aids and declarative(apps[a]) for a in ev)
+   assert all(apps[a]["fuente_id"]==obra and apps[a]["unidad_id"] in {u["id"] for u in wu} for a in ev)
   else:assert c["estado_identidad_conceptual"]=="no_determinada" and c["estado_extraccion"]=="candidato" and ev==[]
- if not has:assert all(c["estado_identidad_conceptual"]=="no_determinada" for c in cons)
  cov=[];cv=atomic(schema,"reporte_cobertura")
  for name in COVER:
   rows=loadl(root/name);assert len(rows)==1 and not list(cv.iter_errors(rows[0]));r=rows[0];assert r["obra_id"]==obra and r["unidades_totales"]==r["unidades_procesadas"]==len(wu) and not r["unidades_omitidas"] and not r["errores"];cov.append(r)
