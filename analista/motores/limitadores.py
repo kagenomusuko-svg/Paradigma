@@ -11,9 +11,9 @@ def load(p): return [json.loads(x) for x in p.read_text(encoding='utf-8').splitl
 def dump(p,rows): p.parent.mkdir(parents=True,exist_ok=True);p.write_text(''.join(json.dumps(r,ensure_ascii=False,sort_keys=True)+'\n' for r in rows),encoding='utf-8')
 def sid(prefix,*parts): return prefix+'-'+hashlib.sha1('\x1f'.join(parts).encode()).hexdigest()[:12].upper()
 def lr(u,t,a,b): base=u['localizacion']['linea_inicio'];return base+t[:a].count('\n'),base+t[:b].count('\n')
-def base(kind,uid,lit,li,lf,classification):
+def base(kind,uid,lit,li,lf,classification,char_start,char_end):
  explicit=classification.endswith('_explicita')
- return {'id':sid({'distincion':'DIS','negacion':'NEG','excepcion':'EXC','restriccion_alcance':'RES'}[kind],uid,str(li),str(lf),lit,classification),'tipo_registro':kind,'schema_version':SCHEMA,'texto_literal':lit,'normalizacion_formal':None,'normalizacion_lexica':None,'estatus_enunciativo':'no_determinado','estado_extraccion':'extraido' if explicit else 'candidato','estado_verificacion':'pendiente','estado_auditoria':'pendiente','producido_por':{'motor':'limitadores','version':VERSION},'fuente_id':PILOTO,'unidad_id':uid,'localizacion':{'ruta':None,'linea_inicio':li,'linea_fin':lf}}
+ return {'id':sid({'distincion':'DIS','negacion':'NEG','excepcion':'EXC','restriccion_alcance':'RES'}[kind],uid,str(li),str(lf),str(char_start),str(char_end),lit,classification),'tipo_registro':kind,'schema_version':SCHEMA,'texto_literal':lit,'normalizacion_formal':None,'normalizacion_lexica':None,'estatus_enunciativo':'no_determinado','estado_extraccion':'extraido' if explicit else 'candidato','estado_verificacion':'pendiente','estado_auditoria':'pendiente','producido_por':{'motor':'limitadores','version':VERSION},'fuente_id':PILOTO,'unidad_id':uid,'localizacion':{'ruta':None,'linea_inicio':li,'linea_fin':lf}}
 def spans(t,rx):
  out=[];s=0
  for m in rx.finditer(t):out.append((s,m.end(),True));s=m.end()
@@ -28,7 +28,7 @@ def negations(u):
   if sm:tail=tail[:sm.start()]
   lit=tail.strip(' \n\t.,;:!?');lit=re.sub(r'\n[IVXLCDM]+\s*$','',lit).rstrip()
   if not lit:continue
-  li,lf=lr(u,t,start,start+len(lit));cls='negacion_explicita' if complete else 'negacion_candidata';r=base('negacion',u['id'],lit,li,lf,cls);r['localizacion']['ruta']=u['archivo'];r.update({'objeto_negado_literal':lit,'alcance_literal':None,'clasificacion_negacion':cls});out.append(r)
+  end=start+len(lit);li,lf=lr(u,t,start,end);cls='negacion_explicita' if complete else 'negacion_candidata';r=base('negacion',u['id'],lit,li,lf,cls,start,end);r['localizacion']['ruta']=u['archivo'];r.update({'objeto_negado_literal':lit,'alcance_literal':None,'clasificacion_negacion':cls});out.append(r)
  return out
 def distinctions(u):
  t=u['texto_literal'];out=[]
@@ -54,7 +54,7 @@ def distinctions(u):
    A=m.group(1).strip(' ,:');B=m.group(2).strip(' ,:')
    if B.lower().startswith('que '):B=B[4:]
    A=re.sub(r'(?i)^(?:es|son)\s+','',A);A=re.sub(r'(?i)^lo\s+hizo\s+','',A)
-   li,lf=lr(u,t,start,start+len(lit));cls='distincion_explicita' if complete else 'distincion_candidata';r=base('distincion',u['id'],lit,li,lf,cls);r['localizacion']['ruta']=u['archivo'];r.update({'termino_a_literal':A,'termino_b_literal':B,'marcador_literal':'sino','clasificacion_distincion':cls});out.append(r);break
+   end=start+len(lit);li,lf=lr(u,t,start,end);cls='distincion_explicita' if complete else 'distincion_candidata';r=base('distincion',u['id'],lit,li,lf,cls,start,end);r['localizacion']['ruta']=u['archivo'];r.update({'termino_a_literal':A,'termino_b_literal':B,'marcador_literal':'sino','clasificacion_distincion':cls});out.append(r);break
  return out
 def restrictions(u):
  t=u['texto_literal'];out=[]
@@ -67,15 +67,15 @@ def restrictions(u):
    if not re.match(r'(?is)s[oó]lo\s+(?:pued[eo]|desde)\b',rest):continue
    lit=rest.strip(' \n\t.,;?!');mm=re.match(r'(?is)(solo puede encontrarse en los actos)\b',lit)
    if mm:lit=mm.group(1)
-   st=a+m.start();li,lf=lr(u,t,st,st+len(lit));cls='restriccion_explicita';r=base('restriccion_alcance',u['id'],lit,li,lf,cls);r['localizacion']['ruta']=u['archivo'];r.update({'afirmacion_limitada_id':None,'tipo_restriccion':'no_determinada','fragmento_restriccion_literal':lit,'clasificacion_restriccion':cls});out.append(r);break
+   st=a+m.start();end=st+len(lit);li,lf=lr(u,t,st,end);cls='restriccion_explicita';r=base('restriccion_alcance',u['id'],lit,li,lf,cls,st,end);r['localizacion']['ruta']=u['archivo'];r.update({'afirmacion_limitada_id':None,'tipo_restriccion':'no_determinada','fragmento_restriccion_literal':lit,'clasificacion_restriccion':cls});out.append(r);break
   mm=re.search(r'(?is)((?:el|este)\s+sistema\s+no\s+describe\s+aquí.*?excede\s+el\s+alcance\s+de\s+(?:este|esta)\s+\w+)',seg)
   if mm:
-   lit=mm.group(1);st=a+mm.start();li,lf=lr(u,t,st,st+len(lit));cls='restriccion_explicita';r=base('restriccion_alcance',u['id'],lit,li,lf,cls);r['localizacion']['ruta']=u['archivo'];r.update({'afirmacion_limitada_id':None,'tipo_restriccion':'no_determinada','fragmento_restriccion_literal':lit,'clasificacion_restriccion':cls});out.append(r)
+   lit=mm.group(1);st=a+mm.start();end=st+len(lit);li,lf=lr(u,t,st,end);cls='restriccion_explicita';r=base('restriccion_alcance',u['id'],lit,li,lf,cls,st,end);r['localizacion']['ruta']=u['archivo'];r.update({'afirmacion_limitada_id':None,'tipo_restriccion':'no_determinada','fragmento_restriccion_literal':lit,'clasificacion_restriccion':cls});out.append(r)
  return out
 def exceptions(u):
  t=u['texto_literal'];out=[]
  for m in re.finditer(r'(?i)\bexcepto\s+[A-ZÁÉÍÓÚÑ][\wÁÉÍÓÚáéíóúÑñ-]*',t):
-  lit=m.group(0);li,lf=lr(u,t,m.start(),m.end());cls='excepcion_explicita';r=base('excepcion',u['id'],lit,li,lf,cls);r['localizacion']['ruta']=u['archivo'];r.update({'afirmacion_limitada_id':None,'fragmento_exceptivo_literal':lit,'clasificacion_excepcion':cls});out.append(r)
+  lit=m.group(0);li,lf=lr(u,t,m.start(),m.end());cls='excepcion_explicita';r=base('excepcion',u['id'],lit,li,lf,cls,m.start(),m.end());r['localizacion']['ruta']=u['archivo'];r.update({'afirmacion_limitada_id':None,'fragmento_exceptivo_literal':lit,'clasificacion_excepcion':cls});out.append(r)
  return out
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--unidades',type=Path,default=DEFAULT_UNITS);ap.add_argument('--output-root',type=Path,default=DEFAULT_OUT);a=ap.parse_args();units=[u for u in load(a.unidades) if u.get('fuente_id')==PILOTO];outs={'distinciones.jsonl':[],'negaciones.jsonl':[],'excepciones.jsonl':[],'restricciones-alcance.jsonl':[]}
