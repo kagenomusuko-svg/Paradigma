@@ -145,6 +145,49 @@ def classify(sentence: str, start: int, end: int) -> tuple[str, str, str] | None
     return None
 
 
+def glossary_body_spans(
+    body: list[int], lines: list[str], units: list[dict], rel: str
+) -> list[tuple[dict, int, int, str, int]]:
+    """Mapea líneas de cuerpo a tramos contiguos contenidos en unidades reales.
+
+    ``body`` usa índices de línea base cero del archivo. Un tramo jamás cruza
+    una unidad de Fase 3 ni una línea estructural excluida del cuerpo.
+    """
+    spans: list[tuple[dict, int, int, str, int]] = []
+    covered: list[int] = []
+    for unit in units:
+        if unit.get("archivo") != rel:
+            continue
+        lo = unit["localizacion"]["linea_inicio"] - 1
+        hi = unit["localizacion"]["linea_fin"] - 1
+        indices = [idx for idx in body if lo <= idx <= hi]
+        if not indices:
+            continue
+        group = [indices[0]]
+        for idx in indices[1:]:
+            if idx == group[-1] + 1:
+                group.append(idx)
+                continue
+            start, end = group[0] + 1, group[-1] + 1
+            spans.append((unit, start, end, "\n".join(lines[start - 1 : end]), len(group)))
+            covered.extend(group)
+            group = [idx]
+        start, end = group[0] + 1, group[-1] + 1
+        spans.append((unit, start, end, "\n".join(lines[start - 1 : end]), len(group)))
+        covered.extend(group)
+
+    if sorted(covered) != sorted(body):
+        missing = sorted(set(body) - set(covered))
+        duplicated = sorted(idx for idx in set(covered) if covered.count(idx) > 1)
+        raise SystemExit(
+            "Cuerpo de glosario no mapeable unívocamente a unidades: "
+            f"ruta={rel}; faltantes={[x + 1 for x in missing]}; "
+            f"duplicadas={[x + 1 for x in duplicated]}"
+        )
+    spans.sort(key=lambda row: (row[1], row[2], row[0]["id"]))
+    return spans
+
+
 def glossary_definitions(obra_id: str, source: dict, units: list[dict], concepts: list[dict]) -> list[dict]:
     gloss = [str(route) for route in source.get("rutas_derivadas", []) if str(route).endswith(GLOSSARY)]
     if len(gloss) != 1:
@@ -173,26 +216,30 @@ def glossary_definitions(obra_id: str, source: dict, units: list[dict], concepts
             j += 1
         if not body or j >= len(lines):
             continue
-        start, end = body[0] + 1, body[-1] + 1
-        literal = "\n".join(lines[start - 1:end])
-        holders = [
-            u for u in units
-            if u["archivo"] == rel
-            and u["localizacion"]["linea_inicio"] <= start <= end <= u["localizacion"]["linea_fin"]
-        ]
-        if len(holders) != 1:
-            raise SystemExit(f"Definición de glosario sin unidad única: {concept['id']}")
-        rid = sid("DEF", obra_id, rel, str(start), str(end), concept["id"], literal)
-        row = base(rid, literal, "definicion", "definicion_explicita")
-        row.update({
-            "fuente_id": obra_id,
-            "unidad_id": holders[0]["id"],
-            "concepto_id": concept["id"],
-            "clasificacion_definicion": "definicion_explicita",
-            "localizacion": {"ruta": rel, "linea_inicio": start, "linea_fin": end},
-            "criterio_deteccion": "entrada_de_glosario_tecnico_explicito",
-        })
-        out.append(row)
+
+        spans = glossary_body_spans(body, lines, units, rel)
+        if not spans:
+            continue
+        complete = len(spans) == 1 and spans[0][4] == len(body)
+
+        for unit, start, end, literal, _ in spans:
+            classification = "definicion_explicita" if complete else "definicion_candidata"
+            criterion = (
+                "entrada_de_glosario_tecnico_explicito"
+                if complete
+                else "entrada_glosario_fragmentada_por_unidades; contrato_definicion_requiere_unidad_unica"
+            )
+            rid = sid("DEF", obra_id, rel, str(start), str(end), concept["id"], literal)
+            row = base(rid, literal, "definicion", classification)
+            row.update({
+                "fuente_id": obra_id,
+                "unidad_id": unit["id"],
+                "concepto_id": concept["id"],
+                "clasificacion_definicion": classification,
+                "localizacion": {"ruta": rel, "linea_inicio": start, "linea_fin": end},
+                "criterio_deteccion": criterion,
+            })
+            out.append(row)
     return out
 
 
