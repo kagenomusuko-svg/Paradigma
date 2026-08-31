@@ -21,6 +21,7 @@ on:
       - "analista/motores/formulas.py"
       - "analista/motores/formulas_obra_fase10.py"
       - "analista/motores/formulas_perfil_fase10.py"
+      - "analista/motores/relaciones_explicititas.py"
       - "analista/motores/relaciones_explicitas.py"
       - "analista/motores/relaciones_compuesto_fase10.py"
       - "analista/motores/limitadores.py"
@@ -34,6 +35,7 @@ on:
       - "analista/pruebas/validar_inventario_fase10.py"
       - "analista/pruebas/validar_conceptos_obra_fase10.py"
       - "analista/pruebas/validar_extractores_conceptuales_fase10.py"
+      - "analista/pruebas/validar_glosarios_reales_fase10.py"
       - "analista/pruebas/validar_definiciones_fase10.py"
       - "analista/pruebas/validar_identidad_conceptual_fase10.py"
       - "analista/pruebas/validar_enlaces_relaciones_fase10.py"
@@ -71,10 +73,11 @@ jobs:
           python-version: "3.12"
       - run: python -m pip install --quiet jsonschema
 
-      - name: Validar regresiones genéricas de extracción conceptual
+      - name: Validar regresiones genéricas y glosarios reales
         run: |
           python analista/pruebas/validar_conceptos_obra_fase10.py
           python analista/pruebas/validar_extractores_conceptuales_fase10.py
+          python analista/pruebas/validar_glosarios_reales_fase10.py
           python analista/pruebas/validar_definiciones_fase10.py
           python analista/pruebas/validar_identidad_conceptual_fase10.py
           python analista/pruebas/validar_enlaces_relaciones_fase10.py
