@@ -196,7 +196,7 @@ def validate_rows(*, rows: list[tuple[Path, int, dict]], schema: Path, lock: Pat
     if not pilot_units:
         raise AssertionError(f"No hay unidades para {PILOTO_ID}")
 
-    frozen = set(lock_doc["desafios"]["general"])
+    frozen = set(lock_doc["general"])
     for motor in MOTOR_TYPES:
         frozen.update(lock_doc["desafios"][motor])
 
@@ -220,7 +220,7 @@ def validate_rows(*, rows: list[tuple[Path, int, dict]], schema: Path, lock: Pat
             raise AssertionError(f"Unidad fuera del lock de Fase 8: {unit_id}")
         if unit_id not in pilot_units:
             raise AssertionError(f"Unidad desconocida del piloto: {unit_id}")
-        if "general" in row["estratos"] and unit_id not in lock_doc["desafios"]["general"]:
+        if "general" in row["estratos"] and unit_id not in lock_doc["general"]:
             raise AssertionError(f"{unit_id} marcado general sin pertenecer al estrato general")
         if "desafio" in row["estratos"] and unit_id not in lock_doc["desafios"][motor]:
             raise AssertionError(f"{unit_id} marcado desafío sin pertenecer al desafío de {motor}")
