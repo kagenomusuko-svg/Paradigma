@@ -52,7 +52,7 @@ DEFINITIONAL_RES = (
         re.IGNORECASE,
     ),
 )
-SENTENCE_BREAK_RE = re.compile(r"[.!?;:\n_]")
+SENTENCE_BREAK_RE = re.compile(r"[.!?;:\n]")
 ROMAN_RE = re.compile(r"^[IVXLCDM]+$", re.IGNORECASE)
 
 # Palabras funcionales: se usan solo para evitar que una secuencia puramente
@@ -144,7 +144,7 @@ def trim_candidate(tokens: list[tuple[str, str, int, int]], i: int, j: int) -> t
 
 
 def lexical_spans(text: str, max_tokens: int = 4) -> list[tuple[int, int, str, str]]:
-    """Secuencias literales candidatas sin cruzar fronteras fuertes."""
+    """Secuencias literales candidatas unidas solo por espacio blanco."""
     tokens = token_rows(text)
     spans: list[tuple[int, int, str, str]] = []
     for i in range(len(tokens)):
@@ -158,6 +158,9 @@ def lexical_spans(text: str, max_tokens: int = 4) -> list[tuple[int, int, str, s
             a, b = trimmed
             start, end = tokens[a][2], tokens[b - 1][3]
             if end - start > 100:
+                continue
+            gaps = [text[tokens[k][3]:tokens[k + 1][2]] for k in range(a, b - 1)]
+            if any(not gap.isspace() for gap in gaps):
                 continue
             between = text[start:end]
             if SENTENCE_BREAK_RE.search(between):
