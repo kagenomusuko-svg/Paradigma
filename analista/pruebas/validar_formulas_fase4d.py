@@ -15,7 +15,6 @@ SCHEMA = ROOT / "analista/esquema/contratos-v1.0.0.schema.json"
 UNIDADES = ROOT / "analista/generado/unidades.jsonl"
 FORMULAS = ROOT / "analista/generado/formulas-candidatas.jsonl"
 COBERTURA = ROOT / "analista/generado/cobertura-formulas.jsonl"
-LEGACY = ROOT / "analisis/generado/sobre-la-pasion/formulas-candidatas.jsonl"
 MOTOR = ROOT / "analista/motores/formulas.py"
 PILOTO_ID = "AA-SP-V1"
 MOTOR_VERSION = "1.1.0"
@@ -78,7 +77,6 @@ def main() -> int:
     unidades = load_jsonl(UNIDADES)
     formulas = load_jsonl(FORMULAS)
     reports = load_jsonl(COBERTURA)
-    legacy = load_jsonl(LEGACY)
 
     pilot_units = sorted(
         (unit for unit in unidades if unit["fuente_id"] == PILOTO_ID),
@@ -87,7 +85,6 @@ def main() -> int:
     unit_by_id = {unit["id"]: unit for unit in pilot_units}
     index_by_id = {unit["id"]: index for index, unit in enumerate(pilot_units)}
     seeds, heading_seeds = seed_lines(pilot_units)
-    legacy_unit_ids = {row["unidad_id"] for row in legacy}
 
     assert len(pilot_units) == 836
     assert len(seeds) == 20, f"Se esperaban 20 semillas '=' elegibles; obtenidas={len(seeds)}"
@@ -131,9 +128,10 @@ def main() -> int:
         formulas_by_unit[formula["unidad_id"]].append(formula)
 
     formula_unit_ids = set(formulas_by_unit)
-    assert formula_unit_ids == legacy_unit_ids, (
-        "La calibración añade una fórmula dentro de las mismas 18 unidades históricas, sin ampliar por similitud."
-    )
+    # El prototipo retirado ya no define el universo de regresión. La salida
+    # vigente fija por sí misma 21 fórmulas en 18 unidades, y las 20 semillas
+    # literales '=' deben quedar cubiertas exactamente una vez.
+    assert len(formula_unit_ids) == 18, f"Las 21 fórmulas deben distribuirse en 18 unidades; obtenidas={len(formula_unit_ids)}"
     assert heading_seeds[0][0] not in formula_unit_ids
 
     uncovered = []
