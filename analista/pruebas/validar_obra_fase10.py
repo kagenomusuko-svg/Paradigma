@@ -79,7 +79,7 @@ def validate(obra,root,master):
  findings=loadl(root/"hallazgos-auditoria.jsonl");fv=atomic(schema,"hallazgo_auditoria")
  for h in findings:assert not list(fv.iter_errors(h)) and h["obra_id"]==obra and h["resolucion_doctrinal"]=="no_realizada"
  m=json.loads(master.read_text(encoding="utf-8"));ms=json.loads(MASTER_SCHEMA.read_text(encoding="utf-8"));Draft202012Validator.check_schema(ms);reg=Registry().with_resource(schema["$id"],Resource.from_contents(schema));errs=list(Draft202012Validator(ms,registry=reg).iter_errors(m));assert not errs,errs[0].message if errs else ""
- assert m["schema_version"]=="1.4.0" and m["producido_por"]=={"motor":"ensamblador_maestro_obra_fase10","version":"1.2.0"} and m["obra_id"]==obra and m["fuentes"]==src and m["unidades"]==sorted(wu,key=lambda x:x["orden_textual"])
+ assert m["schema_version"]=="1.4.0" and m["producido_por"]=={"motor":"ensamblador_maestro_obra_fase10","version":"1.2.1"} and m["obra_id"]==obra and m["fuentes"]==src and m["unidades"]==sorted(wu,key=lambda x:x["orden_textual"])
  c=m["controles_fase10"];assert c["version"]=="1.2.0" and c["comparacion_interobra"] is False and c["alcance_conceptual"]=={"perfil":profile,"glosario_tecnico":gloss[0] if has else None,**expected}
  for name,field in FIELD.items():assert m[field]==aud_by[name]
  assert m["hallazgos_auditoria"]==findings and {r["motor"] for r in m["reportes_cobertura"]}==MOTORS

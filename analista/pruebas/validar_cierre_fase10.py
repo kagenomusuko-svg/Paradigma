@@ -50,7 +50,7 @@ def main()->int:
   if oid==PILOT:
    assert master["schema_version"]=="1.1.0"; route="piloto_cerrado_fase9"; comparison=False
   else:
-   assert master["schema_version"]=="1.4.0" and master["producido_por"]=={"motor":"ensamblador_maestro_obra_fase10","version":"1.2.0"}
+   assert master["schema_version"]=="1.4.0" and master["producido_por"]=={"motor":"ensamblador_maestro_obra_fase10","version":"1.2.1"}
    controls=master["controles_fase10"]; assert controls["version"]=="1.2.0" and controls["obra_id"]==oid and controls["comparacion_interobra"] is False
    assert all(controls[k] is True for k in ("maestro_independiente","normalizacion_recuperacion","verificacion_evidencia","auditoria_intraobra"))
    scope=controls["alcance_conceptual"]; assert scope["perfil"]==work["perfil_conceptual"] and scope["glosario_tecnico"]==work["glosario_tecnico"]
