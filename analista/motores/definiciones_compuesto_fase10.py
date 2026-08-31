@@ -29,6 +29,7 @@ spec.loader.exec_module(refs)
 
 SPACE = re.compile(r"\s+")
 BOUNDARY = re.compile(r"[.!?](?:[¹²³⁴⁵⁶⁷⁸⁹⁰]+)?(?=\s|$)|\n+")
+ROMAN_PAGE = re.compile(r"^[IVXLCDM]+$", re.I)
 STRONG_AFTER = ("se define como", "significa", "designa", "se denomina", "se entiende como")
 STRONG_BEFORE = ("llamamos", "denominamos", "definimos", "defino", "denomino")
 NON_ASSERTIVE_LEAD = re.compile(r"^\s*(?:si\b|cuando\b|aunque\b|supongamos\b|imaginemos\b|por\s+ejemplo\b|quiz[aá]s\b|tal\s+vez\b)", re.I)
@@ -166,7 +167,8 @@ def glossary_definitions(obra_id: str, source: dict, units: list[dict], concepts
         j = i + 1
         body: list[int] = []
         while j < len(lines) and not lines[j].lstrip().startswith("→"):
-            if lines[j].strip() and not lines[j].startswith("#"):
+            stripped = lines[j].strip()
+            if stripped and not lines[j].lstrip().startswith("#") and not ROMAN_PAGE.fullmatch(stripped):
                 body.append(j)
             j += 1
         if not body or j >= len(lines):
