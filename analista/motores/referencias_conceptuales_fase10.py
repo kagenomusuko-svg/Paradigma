@@ -18,7 +18,16 @@ def build_index(concepts:list[dict]):
         ts=tuple(x[1] for x in tokens(c["designacion_operativa"]))
         if not ts:continue
         prev=idx[len(ts)].get(ts)
-        if prev is not None and prev!=c["id"]:raise SystemExit(f"Designación formal duplicada: {c['designacion_operativa']}")
+        if prev is not None and prev!=c["id"]:
+            anterior=by_id.get(prev,{})
+            raise SystemExit(
+                "Designación formal duplicada: "
+                f"tokens={ts!r}; "
+                f"anterior={{id={prev!r}, designacion={anterior.get('designacion_operativa')!r}, "
+                f"estado_identidad={anterior.get('estado_identidad_conceptual')!r}, estado_extraccion={anterior.get('estado_extraccion')!r}}}; "
+                f"actual={{id={c.get('id')!r}, designacion={c.get('designacion_operativa')!r}, "
+                f"estado_identidad={c.get('estado_identidad_conceptual')!r}, estado_extraccion={c.get('estado_extraccion')!r}}}"
+            )
         idx[len(ts)][ts]=c["id"];by_id[c["id"]]=c
     return dict(idx),by_id
 
