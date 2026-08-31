@@ -37,6 +37,7 @@ on:
       - "analista/pruebas/validar_definiciones_fase10.py"
       - "analista/pruebas/validar_identidad_conceptual_fase10.py"
       - "analista/pruebas/validar_enlaces_relaciones_fase10.py"
+      - "analista/pruebas/validar_limitadores_fase10.py"
       - "analista/pruebas/validar_obra_fase10.py"
       - "analista/pruebas/validar_cierre_fase10.py"
       - "analista/pruebas/validar_maestro_fase9.py"
@@ -77,6 +78,7 @@ jobs:
           python analista/pruebas/validar_definiciones_fase10.py
           python analista/pruebas/validar_identidad_conceptual_fase10.py
           python analista/pruebas/validar_enlaces_relaciones_fase10.py
+          python analista/pruebas/validar_limitadores_fase10.py
 
       - name: Ejecutar y validar las 20 obras hasta maestro independiente
         run: python analista/pruebas/validar_cierre_fase10.py
