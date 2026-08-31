@@ -40,10 +40,10 @@ PRODUCER = {
     "afirmacion": ("afirmaciones", "1.1.0"),
     "formula": ("formulas", "1.1.0"),
     "relacion_explicita": ("relaciones_explicitas", "1.1.0"),
-    "distincion": ("limitadores", "1.1.0"),
-    "negacion": ("limitadores", "1.1.0"),
-    "excepcion": ("limitadores", "1.1.0"),
-    "restriccion_alcance": ("limitadores", "1.1.0"),
+    "distincion": ("limitadores", "1.1.1"),
+    "negacion": ("limitadores", "1.1.1"),
+    "excepcion": ("limitadores", "1.1.1"),
+    "restriccion_alcance": ("limitadores", "1.1.1"),
 }
 
 

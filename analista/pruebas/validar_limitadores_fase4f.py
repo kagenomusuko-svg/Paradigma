@@ -25,7 +25,7 @@ def main():
   rows=load(OUT/fn);assert len(rows)==count,(fn,len(rows),count);snapshots[fn]=(OUT/fn).read_bytes();v=validator(schema,kind)
   for r in rows:
    errors=list(v.iter_errors(r));assert not errors,f"{r.get('id')}: {errors[0].message}"
-   assert r['id'] not in seen;seen.add(r['id']);total+=1;assert r['producido_por']=={'motor':'limitadores','version':'1.1.0'}
+   assert r['id'] not in seen;seen.add(r['id']);total+=1;assert r['producido_por']=={'motor':'limitadores','version':'1.1.1'}
    assert r['unidad_id'] in units and r['fuente_id']==PILOTO;u=units[r['unidad_id']];loc=r['localizacion'];assert loc['ruta']==u['archivo'];assert (loc['linea_inicio'],loc['linea_fin']) in occurrences(u,r['texto_literal'])
    assert r['estatus_enunciativo']=='no_determinado' and r['estado_verificacion']=='pendiente' and r['estado_auditoria']=='pendiente'
    cls=r.get('clasificacion_distincion') or r.get('clasificacion_negacion') or r.get('clasificacion_excepcion') or r.get('clasificacion_restriccion');assert cls
@@ -41,7 +41,7 @@ def main():
     assert r['fragmento_restriccion_literal']==r['texto_literal'] and r['afirmacion_limitada_id'] is None and r['tipo_restriccion']=='no_determinada'
   forbidden=copy.deepcopy(rows[0]);forbidden['solucion_doctrinal']='X';assert not v.is_valid(forbidden)
  assert total==1596 and len(seen)==1596
- coverage=load(COVERAGE);assert len(coverage)==1;cv=validator(schema,'reporte_cobertura');assert cv.is_valid(coverage[0]);c=coverage[0];assert c['version_motor']=='1.1.0' and c['unidades_totales']==c['unidades_procesadas']==836 and c['unidades_omitidas']==[] and c['errores']==[]
+ coverage=load(COVERAGE);assert len(coverage)==1;cv=validator(schema,'reporte_cobertura');assert cv.is_valid(coverage[0]);c=coverage[0];assert c['version_motor']=='1.1.1' and c['unidades_totales']==c['unidades_procesadas']==836 and c['unidades_omitidas']==[] and c['errores']==[]
  snapshots[COVERAGE.name]=COVERAGE.read_bytes();subprocess.run([sys.executable,str(MOTOR)],cwd=ROOT,check=True)
  for fn,content in snapshots.items():assert (OUT/fn).read_bytes()==content,f'Salida no reproducible: {fn}'
  print('OK Fase 4F v1.1: 233 distinciones, 1346 negaciones, 1 excepción y 16 restricciones; 836/836 unidades; 1596 IDs únicos; literalidad, fuerza y reproducibilidad verificadas; 0 vínculos de afirmación inferidos.')

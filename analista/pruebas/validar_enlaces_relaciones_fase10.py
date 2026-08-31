@@ -61,6 +61,6 @@ def main()->int:
   assert len(repeated)==2,repeated
   assert len({x['id'] for x in repeated})==2,repeated
   assert all(x['clasificacion_relacion']=='relacion_explicita' for x in repeated)
-  assert all(x['producido_por']=={'motor':'relaciones_explicitas','version':'1.2.0'} for x in rr)
+  assert all(x['producido_por']=={'motor':'relaciones_explicitas','version':'1.2.1'} for x in rr)
  print('OK Fase 10 4C/4E: aserción explícita; firmas ambiguas no se resuelven; relaciones repetidas conservan IDs únicos');return 0
 if __name__=='__main__':raise SystemExit(main())

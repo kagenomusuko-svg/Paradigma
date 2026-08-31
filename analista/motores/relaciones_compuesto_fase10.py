@@ -11,7 +11,7 @@ transitividad.
 from __future__ import annotations
 import argparse, hashlib, importlib.util, json, re
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[2];MOTOR="relaciones_explicitas";VERSION="1.2.0";SCHEMA="1.0.0"
+ROOT=Path(__file__).resolve().parents[2];MOTOR="relaciones_explicitas";VERSION="1.2.1";SCHEMA="1.0.0"
 HELPER=ROOT/"analista/motores/referencias_conceptuales_fase10.py"
 s=importlib.util.spec_from_file_location('refs_rel_f10',HELPER);assert s and s.loader;refs=importlib.util.module_from_spec(s);s.loader.exec_module(refs)
 CONNECTORS=[

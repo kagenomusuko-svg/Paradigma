@@ -13,7 +13,7 @@ PILOT="AA-SP-V1"
 PRODUCT={"apariciones-conceptuales.jsonl":"aparicion_conceptual","conceptos.jsonl":"concepto","definiciones.jsonl":"definicion","afirmaciones-candidatas.jsonl":"afirmacion","formulas-candidatas.jsonl":"formula","relaciones-explicitas.jsonl":"relacion_explicita","distinciones.jsonl":"distincion","negaciones.jsonl":"negacion","excepciones.jsonl":"excepcion","restricciones-alcance.jsonl":"restriccion_alcance"}
 FIELD={"apariciones-conceptuales.jsonl":"apariciones_conceptuales","conceptos.jsonl":"conceptos","definiciones.jsonl":"definiciones","afirmaciones-candidatas.jsonl":"afirmaciones","formulas-candidatas.jsonl":"formulas","relaciones-explicitas.jsonl":"relaciones_explicitas","distinciones.jsonl":"distinciones","negaciones.jsonl":"negaciones","excepciones.jsonl":"excepciones","restricciones-alcance.jsonl":"restricciones_alcance"}
 COVER=("cobertura-conceptos.jsonl","cobertura-definiciones.jsonl","cobertura-afirmaciones.jsonl","cobertura-formulas.jsonl","cobertura-relaciones.jsonl","cobertura-limitadores.jsonl")
-MOTORS={"conceptos_apariciones","definiciones","afirmaciones","formulas","relaciones_explicitas","limitadores"}; FIXED={"conceptos_apariciones":"1.3.0","definiciones":"1.3.0","afirmaciones":"1.2.0","relaciones_explicitas":"1.2.0","limitadores":"1.1.0"}
+MOTORS={"conceptos_apariciones","definiciones","afirmaciones","formulas","relaciones_explicitas","limitadores"}; FIXED={"conceptos_apariciones":"1.3.1","definiciones":"1.3.0","afirmaciones":"1.2.0","relaciones_explicitas":"1.2.1","limitadores":"1.1.1"}
 
 def loadl(p):
  if not Path(p).is_file(): raise AssertionError(f"Falta JSONL: {p}")
@@ -33,7 +33,7 @@ def execute(obra,root,master):
  man=json.loads((root/"manifest-extractores.json").read_text(encoding="utf-8")); versions=man.get("versiones_extractores",{})
  if set(versions)!=MOTORS:raise AssertionError("Manifest sin seis versiones")
  cmd=[str(VER),"--repo-root",str(ROOT),"--fuentes",str(root/"fuente.jsonl"),"--unidades",str(root/"unidades.jsonl"),"--input-root",str(root/"normalizados"),"--output-root",str(root/"verificados")]
- for motor in ("conceptos_apariciones","definiciones","afirmaciones","formulas","relaciones_explicitas"):
+ for motor in ("conceptos_apariciones","definiciones","afirmaciones","formulas","relaciones_explicitas","limitadores"):
   cmd += ["--producer-version",f"{motor}={versions[motor]}"]
  run(*cmd);run(IDV,"--obra-id",obra,"--conceptos",root/"verificados"/"conceptos.jsonl","--apariciones",root/"verificados"/"apariciones-conceptuales.jsonl");run(AUD,"--input-root",root/"verificados","--output-root",root/"auditados","--unidades",root/"unidades.jsonl");run(DESC,"--input-root",root/"auditados","--output",root/"hallazgos-auditoria.jsonl","--obra-id",obra);run(ASM,"--obra-id",obra,"--obra-root",root,"--output",master)
 

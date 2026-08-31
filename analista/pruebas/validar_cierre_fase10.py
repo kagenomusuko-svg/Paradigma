@@ -57,7 +57,9 @@ def main()->int:
    assert scope["extraccion_conceptual_habilitada"] is True and scope["recuperacion_candidatos_habilitada"] is True and scope["identidad_confirmada_requiere_evidencia_explicita"] is True and scope["candidatos_sin_evidencia_permanecen_no_determinados"] is True
    assert scope["identidades_conceptuales_inferidas"] is False and scope["glosario_interobra_reutilizado"] is False and scope["interpretacion_cero_registros"]=="no_autoriza_afirmar_ausencia_semantica"
    manifest=json.loads((ROOT/"analista/generado/obras"/oid/"manifest-extractores.json").read_text(encoding="utf-8")); assert manifest["version"]=="1.4.0" and manifest["obra_id"]==oid and manifest["comparacion_interobra"] is False
-   assert manifest["versiones_extractores"]["conceptos_apariciones"]=="1.3.0"
+   assert manifest["versiones_extractores"]["conceptos_apariciones"]=="1.3.1"
+   assert manifest["versiones_extractores"]["relaciones_explicitas"]=="1.2.1"
+   assert manifest["versiones_extractores"]["limitadores"]=="1.1.1"
    assert manifest["perfil_conceptual"]==scope["perfil"] and manifest["glosario_tecnico"]==scope["glosario_tecnico"]
    for key in ("extraccion_conceptual_habilitada","recuperacion_candidatos_habilitada","identidad_confirmada_requiere_evidencia_explicita","candidatos_sin_evidencia_permanecen_no_determinados","identidades_conceptuales_inferidas","glosario_interobra_reutilizado","interpretacion_cero_registros"):
     assert scope[key]==manifest["limitaciones_conceptuales"][key]

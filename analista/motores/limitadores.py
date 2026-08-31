@@ -4,7 +4,7 @@ import argparse,hashlib,json,re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
 DEFAULT_UNITS=ROOT/'analista/generado/unidades.jsonl'; DEFAULT_OUT=ROOT/'analista/generado'
-PILOTO='AA-SP-V1';VERSION='1.1.0';SCHEMA='1.0.0'
+PILOTO='AA-SP-V1';VERSION='1.1.1';SCHEMA='1.0.0'
 NO=re.compile(r'(?<![\w-])no(?![\w-])',re.I); CLAUSE_END=re.compile(r'[.;?!:](?=\s|$)'); SENT_END=re.compile(r'[.;?!](?=\s|$)')
 
 def load(p): return [json.loads(x) for x in p.read_text(encoding='utf-8').splitlines() if x]

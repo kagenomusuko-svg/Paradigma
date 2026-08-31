@@ -125,7 +125,7 @@ def main()->int:
         assert_identity_evidence(c,voluntad,apps,unit_map,'lema_en_glosario_tecnico_explicito')
         assert all(c.g.norm(x['designacion_operativa'])!='en este sistema' for x in concepts)
 
-        assert all(x['producido_por']=={'motor':'conceptos_apariciones','version':'1.3.0'} for x in concepts+apps)
+        assert all(x['producido_por']=={'motor':'conceptos_apariciones','version':'1.3.1'} for x in concepts+apps)
 
     print('OK Fase 10 4A: identidad solo por evidencia explícita intraobra; recurrencia, semejanza, ambigüedad y dos puntos internos no ascienden')
     return 0

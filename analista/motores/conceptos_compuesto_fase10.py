@@ -19,7 +19,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 GENERIC = ROOT / "analista/motores/conceptos_obra_fase10.py"
 MOTOR = "conceptos_apariciones"
-VERSION = "1.3.0"
+VERSION = "1.3.1"
 GLOSSARY = "99-glosario.md"
 
 ARROW = re.compile(r"^\s*→")

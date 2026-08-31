@@ -28,11 +28,11 @@ DEFAULT_OBRAS_ROOT = ROOT / "analista/generado/obras"
 DEFAULT_CALIBRATION_ROOT = ROOT / "analista/calibracion/fase10"
 VERSION = "1.4.0"
 
-CONCEPTS_VERSION = "1.3.0"
+CONCEPTS_VERSION = "1.3.1"
 DEFINITIONS_VERSION = "1.3.0"
 ASSERTIONS_VERSION = "1.2.0"
-RELATIONS_VERSION = "1.2.0"
-LIMITERS_VERSION = "1.1.0"
+RELATIONS_VERSION = "1.2.1"
+LIMITERS_VERSION = "1.1.1"
 
 
 def load_jsonl(path: Path) -> list[dict]:
@@ -118,6 +118,8 @@ def run_relaciones(obra_id: str, unidades: Path, out: Path) -> dict:
 
 def run_limitadores(obra_id: str, unidades: Path, out: Path) -> None:
     m = load_module("fase10_limitadores", ROOT / "analista/motores/limitadores.py")
+    if getattr(m, "VERSION", None) != LIMITERS_VERSION:
+        raise SystemExit(f"Versión inesperada de 4F: {getattr(m, 'VERSION', None)}")
     m.PILOTO = obra_id
     with argv_temporal([str(ROOT / "analista/motores/limitadores.py"), "--unidades", str(unidades), "--output-root", str(out)]):
         if m.main() != 0:

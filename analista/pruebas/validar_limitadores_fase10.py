@@ -39,7 +39,7 @@ def main() -> int:
     assert all(row["localizacion"]["linea_inicio"] == 10 for row in repeated)
     assert all(row["localizacion"]["linea_fin"] == 10 for row in repeated)
     assert all(row["clasificacion_negacion"] == "negacion_explicita" for row in repeated)
-    assert all(row["producido_por"] == {"motor": "limitadores", "version": "1.1.0"} for row in repeated)
+    assert all(row["producido_por"] == {"motor": "limitadores", "version": "1.1.1"} for row in repeated)
 
     print("OK Fase 10 4F: ocurrencias repetidas en una misma línea conservan IDs únicos")
     return 0
