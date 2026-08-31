@@ -12,7 +12,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
 INVENTORY_ENGINE=ROOT/"analista/motores/inventariar_obras_fase10.py"; INVENTORY_VALIDATOR=ROOT/"analista/pruebas/validar_inventario_fase10.py"; WORK_VALIDATOR=ROOT/"analista/pruebas/validar_obra_fase10.py"; PILOT_VALIDATOR=ROOT/"analista/pruebas/validar_maestro_fase9.py"
 INVENTORY=ROOT/"analista/generado/fase10/inventario-obras.json"; MASTERS=ROOT/"analista/generado/maestros"; REPORT=ROOT/"analista/generado/fase10/cierre-fase10.json"
-PILOT="AA-SP-V1"; VERSION="1.2.0"
+PILOT="AA-SP-V1"; VERSION="1.2.0"; PRIORIDAD_DIAGNOSTICA=("FUE-8B22B605F823",)
 
 def run(cmd): subprocess.run(cmd,cwd=ROOT,check=True)
 def sha(path): return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -27,13 +27,16 @@ def main()->int:
  assert len(works)==inventory["fuentes"]==20; assert inventory["obras_con_glosario"]==8 and inventory["obras_sin_glosario"]==12 and inventory["piloto_id"]==PILOT
  ids=[w["obra_id"] for w in works]; assert len(ids)==len(set(ids))==20 and ids.count(PILOT)==1
  assert all(w["estado_verificado"]=="no_verificado_por_inventario" for w in works)
+ assert all(oid in ids and oid!=PILOT for oid in PRIORIDAD_DIAGNOSTICA)
 
  # El cierre del piloto se afirma aquí solo después de ejecutar su validador de Fase 9.
  run([sys.executable,str(PILOT_VALIDATOR)])
- # El orden de ejecución no tiene significado documental. Para fallar pronto
- # durante la construcción se validan primero las obras más pequeñas; el cierre
- # y su reporte conservan después el orden canónico del inventario.
- execution_order=sorted((w for w in works if w["obra_id"]!=PILOT),key=lambda w:(w["unidades"],w["obra_id"]))
+ # El orden de ejecución no tiene significado documental. La última obra que
+ # expuso un fallo real se adelanta para comprobar la regresión sobre producto
+ # completo; después se conserva el criterio fail-fast por número de unidades.
+ # El cierre y su reporte usan más abajo el orden canónico del inventario.
+ rank={oid:i for i,oid in enumerate(PRIORIDAD_DIAGNOSTICA)}
+ execution_order=sorted((w for w in works if w["obra_id"]!=PILOT),key=lambda w:(0,rank[w["obra_id"]]) if w["obra_id"] in rank else (1,w["unidades"],w["obra_id"]))
  for work in execution_order:
   run([sys.executable,str(WORK_VALIDATOR),"--obra-id",work["obra_id"]])
 
