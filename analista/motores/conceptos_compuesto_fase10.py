@@ -188,7 +188,10 @@ def _colon_entries(lines: list[str], start: int) -> list[tuple[str, int, str]]:
     out: list[tuple[str, int, str]] = []
     seen: set[str] = set()
     for i in range(start + 1, len(lines)):
-        m = INLINE_COLON.match(lines[i].strip())
+        raw = lines[i].strip()
+        if _is_structural(raw):
+            continue
+        m = INLINE_COLON.match(raw)
         if not m:
             continue
         term = m.group("t").strip()
@@ -238,7 +241,11 @@ def glossary_entries(path: Path) -> list[tuple[str, int, str]]:
         out = _arrow_entries(lines, start)
     elif sum(bool(REFERENCE_DASH.match(x.strip())) for x in tail) >= 2:
         out = _reference_entries(lines, start)
-    elif sum(bool(INLINE_COLON.match(x.strip())) for x in tail) >= 3:
+    elif sum(
+        bool(INLINE_COLON.match(x.strip()))
+        for x in tail
+        if not _is_structural(x)
+    ) >= 3:
         out = _colon_entries(lines, start)
     else:
         out = _plain_entries(lines, start)
