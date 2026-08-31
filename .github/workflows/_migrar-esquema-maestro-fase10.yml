@@ -74,9 +74,6 @@ jobs:
               'assert master["schema_version"]=="1.4.1" and master["producido_por"]=={"motor":"ensamblador_maestro_obra_fase10","version":"1.2.2"}',
           )
 
-          rep(".github/workflows/analista-fase10-cierre-global.yml", "assert m.MOTOR_VERSION=='1.2.1'", "assert m.MOTOR_VERSION=='1.2.2'")
-          rep(".github/workflows/analista-fase10-cierre-global.yml", "print('OK Fase 10 ensamblador 1.2.1: matriz cerrada de extractores vigente')", "print('OK Fase 10 ensamblador 1.2.2: matriz cerrada de extractores vigente')")
-
           assert hashlib.sha256(old_schema.read_bytes()).hexdigest() == old_hash
           ns = new_schema.read_text(encoding='utf-8')
           assert 'expediente-maestro-fase10-v1.4.1.schema.json' in ns
