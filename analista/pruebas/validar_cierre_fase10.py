@@ -30,8 +30,12 @@ def main()->int:
 
  # El cierre del piloto se afirma aquí solo después de ejecutar su validador de Fase 9.
  run([sys.executable,str(PILOT_VALIDATOR)])
- for work in works:
-  if work["obra_id"]!=PILOT: run([sys.executable,str(WORK_VALIDATOR),"--obra-id",work["obra_id"]])
+ # El orden de ejecución no tiene significado documental. Para fallar pronto
+ # durante la construcción se validan primero las obras más pequeñas; el cierre
+ # y su reporte conservan después el orden canónico del inventario.
+ execution_order=sorted((w for w in works if w["obra_id"]!=PILOT),key=lambda w:(w["unidades"],w["obra_id"]))
+ for work in execution_order:
+  run([sys.executable,str(WORK_VALIDATOR),"--obra-id",work["obra_id"]])
 
  expected={f"{oid}.json" for oid in ids}; found={p.name for p in MASTERS.glob("*.json")}; assert found==expected,{"faltantes":sorted(expected-found),"extras":sorted(found-expected)}
  closure=[]
