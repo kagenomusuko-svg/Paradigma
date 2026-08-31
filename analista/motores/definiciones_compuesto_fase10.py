@@ -262,5 +262,29 @@ def run(*, obra_id: str, fuentes: Path, unidades: Path, conceptos: Path, salida:
         "version": VERSION,
         "obra_id": obra_id,
         "registros": len(rows),
-        "explicitas": sum(r["classificacion_definicion"] == "definicion_explicita" for r in rows),
+        "explicitas": sum(r["clasificacion_definicion"] == "definicion_explicita" for r in rows),
     }
+
+
+def main() -> int:
+    p = argparse.ArgumentParser()
+    p.add_argument("--obra-id", required=True)
+    p.add_argument("--fuentes", type=Path, required=True)
+    p.add_argument("--unidades", type=Path, required=True)
+    p.add_argument("--conceptos", type=Path, required=True)
+    p.add_argument("--salida", type=Path, required=True)
+    p.add_argument("--cobertura", type=Path, required=True)
+    a = p.parse_args()
+    print(json.dumps(run(
+        obra_id=a.obra_id,
+        fuentes=a.fuentes,
+        unidades=a.unidades,
+        conceptos=a.conceptos,
+        salida=a.salida,
+        cobertura=a.cobertura,
+    ), ensure_ascii=False, sort_keys=True))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
