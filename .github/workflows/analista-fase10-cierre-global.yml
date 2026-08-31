@@ -4,6 +4,9 @@ on:
   push:
     branches: [analisis-textual-v0.1]
     paths:
+      - "analista/README.md"
+      - "analista/FASES.md"
+      - "analista/config/clausura-descriptiva.yaml"
       - "analista/motores/inventariar_obras_fase10.py"
       - "analista/motores/ejecutar_extractores_obra_fase10.py"
       - "analista/motores/ensamblador_maestro_obra_fase10.py"
