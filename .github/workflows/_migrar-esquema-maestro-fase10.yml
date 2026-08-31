@@ -27,7 +27,7 @@ jobs:
           old_schema = Path('analista/esquema/expediente-maestro-fase10-v1.4.0.schema.json')
           new_schema = Path('analista/esquema/expediente-maestro-fase10-v1.4.1.schema.json')
           old_hash = hashlib.sha256(old_schema.read_bytes()).hexdigest()
-          assert old_hash == 'ba4e7c99ec7f3c176a378139ec4538cb20cc6302', old_hash
+          assert old_hash == 'dba74318ac5ed4201c37ce9b3c301b80713fd3723a0acc6b5bf1d32d526b9727', old_hash
           assert not new_schema.exists(), new_schema
           new_schema.write_bytes(old_schema.read_bytes())
 
