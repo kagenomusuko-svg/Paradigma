@@ -8,11 +8,12 @@ un requisito para que evidencia explícita de la propia obra establezca identida
 """
 from __future__ import annotations
 import hashlib, json, subprocess, sys
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
 INVENTORY_ENGINE=ROOT/"analista/motores/inventariar_obras_fase10.py"; INVENTORY_VALIDATOR=ROOT/"analista/pruebas/validar_inventario_fase10.py"; WORK_VALIDATOR=ROOT/"analista/pruebas/validar_obra_fase10.py"; PILOT_VALIDATOR=ROOT/"analista/pruebas/validar_maestro_fase9.py"
 INVENTORY=ROOT/"analista/generado/fase10/inventario-obras.json"; MASTERS=ROOT/"analista/generado/maestros"; REPORT=ROOT/"analista/generado/fase10/cierre-fase10.json"
-PILOT="AA-SP-V1"; VERSION="1.2.1"; PRIORIDAD_DIAGNOSTICA=("FUE-8B22B605F823",)
+PILOT="AA-SP-V1"; VERSION="1.2.2"; PRIORIDAD_DIAGNOSTICA=("FUE-8B22B605F823",); MAX_OBRAS_SIMULTANEAS=2
 
 def run(cmd): subprocess.run(cmd,cwd=ROOT,check=True)
 def sha(path): return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -33,12 +34,16 @@ def main()->int:
  run([sys.executable,str(PILOT_VALIDATOR)])
  # El orden de ejecución no tiene significado documental. La última obra que
  # expuso un fallo real se adelanta para comprobar la regresión sobre producto
- # completo; después se conserva el criterio fail-fast por número de unidades.
+ # completo. Las obras no piloto escriben en raíces disjuntas y solo leen los
+ # insumos compartidos, por lo que se ejecutan con concurrencia conservadora 2.
  # El cierre y su reporte usan más abajo el orden canónico del inventario.
  rank={oid:i for i,oid in enumerate(PRIORIDAD_DIAGNOSTICA)}
  execution_order=sorted((w for w in works if w["obra_id"]!=PILOT),key=lambda w:(0,rank[w["obra_id"]]) if w["obra_id"] in rank else (1,w["unidades"],w["obra_id"]))
- for work in execution_order:
-  run([sys.executable,str(WORK_VALIDATOR),"--obra-id",work["obra_id"]])
+ with ThreadPoolExecutor(max_workers=MAX_OBRAS_SIMULTANEAS) as pool:
+  pending=[(work,pool.submit(run,[sys.executable,str(WORK_VALIDATOR),"--obra-id",work["obra_id"]])) for work in execution_order]
+  for work,future in pending:
+   try: future.result()
+   except Exception as exc: raise RuntimeError(f"Falló validación independiente de {work['obra_id']}") from exc
 
  expected={f"{oid}.json" for oid in ids}; found={p.name for p in MASTERS.glob("*.json")}; assert found==expected,{"faltantes":sorted(expected-found),"extras":sorted(found-expected)}
  closure=[]
@@ -70,5 +75,5 @@ def main()->int:
  report={"version":VERSION,"fase":10,"fase10_cerrada":True,"criterio":"todas_las_obras_previstas_con_maestro_independiente_validado","inventario":{"obras":len(works),"con_glosario_tecnico_explicito":inventory["obras_con_glosario"],"sin_glosario_tecnico_explicito":inventory["obras_sin_glosario"],"piloto_id":PILOT},"clausura_descriptiva":{"comparacion_interobra":False,"sintesis_doctrinal":False,"resolucion_doctrinal":"no_realizada","ausencia_de_registros_implica_ausencia_semantica":False,"identidad_candidata_se_convierte_en_doctrina":False},"obras":closure}
  payload=(json.dumps(report,ensure_ascii=False,sort_keys=True,indent=2)+"\n").encode("utf-8"); REPORT.parent.mkdir(parents=True,exist_ok=True); REPORT.write_bytes(payload); REPORT.with_suffix(REPORT.suffix+".sha256").write_text(f"{hashlib.sha256(payload).hexdigest()}  {REPORT.name}\n",encoding="utf-8")
  persisted=json.loads(REPORT.read_text(encoding="utf-8")); assert persisted==report and persisted["fase10_cerrada"] is True and len(persisted["obras"])==20 and all(not x["comparacion_interobra"] for x in persisted["obras"])
- print(json.dumps({"fase":10,"fase10_cerrada":True,"obras":len(closure),"maestros":len(found),"repeticiones_fase10":len(closure)-1,"comparacion_interobra":False,"reporte_sha256":sha(REPORT)},ensure_ascii=False,sort_keys=True)); return 0
+ print(json.dumps({"fase":10,"fase10_cerrada":True,"obras":len(closure),"maestros":len(found),"repeticiones_fase10":len(closure)-1,"comparacion_interobra":False,"concurrencia_maxima":MAX_OBRAS_SIMULTANEAS,"reporte_sha256":sha(REPORT)},ensure_ascii=False,sort_keys=True)); return 0
 if __name__=="__main__": raise SystemExit(main())
