@@ -3,6 +3,9 @@
 
 No lematiza, no busca sinónimos y no compara obras. Solo localiza secuencias de
 tokens que coinciden con la designación operativa normalizada de un concepto.
+Si dos o más conceptos distintos colapsan a la misma firma mecánica de tokens,
+la firma queda deliberadamente fuera del índice: el helper conserva los
+conceptos, pero no elige ni fusiona una identidad ambigua.
 """
 from __future__ import annotations
 import re, unicodedata
@@ -13,22 +16,17 @@ def norm(x:str)->str:return " ".join(unicodedata.normalize("NFKC",x).casefold().
 def tokens(text:str):return [(m.group(0),norm(m.group(0)),m.start(),m.end()) for m in TOKEN_RE.finditer(text)]
 
 def build_index(concepts:list[dict]):
-    idx=defaultdict(dict); by_id={}
+    signatures=defaultdict(list);by_id={}
     for c in concepts:
+        by_id[c["id"]]=c
         ts=tuple(x[1] for x in tokens(c["designacion_operativa"]))
-        if not ts:continue
-        prev=idx[len(ts)].get(ts)
-        if prev is not None and prev!=c["id"]:
-            anterior=by_id.get(prev,{})
-            raise SystemExit(
-                "Designación formal duplicada: "
-                f"tokens={ts!r}; "
-                f"anterior={{id={prev!r}, designacion={anterior.get('designacion_operativa')!r}, "
-                f"estado_identidad={anterior.get('estado_identidad_conceptual')!r}, estado_extraccion={anterior.get('estado_extraccion')!r}}}; "
-                f"actual={{id={c.get('id')!r}, designacion={c.get('designacion_operativa')!r}, "
-                f"estado_identidad={c.get('estado_identidad_conceptual')!r}, estado_extraccion={c.get('estado_extraccion')!r}}}"
-            )
-        idx[len(ts)][ts]=c["id"];by_id[c["id"]]=c
+        if ts:signatures[(len(ts),ts)].append(c["id"])
+    idx=defaultdict(dict)
+    for (n,ts),ids in signatures.items():
+        unique=list(dict.fromkeys(ids))
+        if len(unique)!=1:
+            continue
+        idx[n][ts]=unique[0]
     return dict(idx),by_id
 
 def occurrences(text:str,index:dict[int,dict[tuple[str,...],str]])->list[dict]:
