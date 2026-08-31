@@ -2,6 +2,8 @@
   "version": "1.0.0",
   "obra_id": "AA-SP-V1",
   "selector": "sha256-stratified-v1",
+  "modo_reproduccion": "snapshot-sellado-v1",
+  "selector_recalculable": false,
   "lock": "analista/calibracion/muestra-fase8.lock.json",
   "lock_blob_git": "df477a67935bbd63a39cd5ea2cf98a9169634b7d",
   "lock_commit": "5e0a84699fed3a233c56f236f3a6c462251837d9",
@@ -9,5 +11,5 @@
   "unidades_blob_git": "1019ad0cee9fd5feb3b99fe68406e0ba276e4711",
   "selector_inicial_commit": "fd8905e81a4c49e2976b0809256e4eb6c60badc8",
   "regla_desafios": "Los desafíos quedan congelados en el lock y no se recalculan desde salidas posteriores de extractores.",
-  "nota_procedencia": "Las salidas de extractores se usaron únicamente para estratificar la selección inicial. Tras el congelamiento, el lock es el registro normativo de la muestra y el blob de unidades fija su universo estructural."
+  "nota_procedencia": "El lock precede al commit que incorporó seleccionar_muestra.py. La implementación posterior de sha256-stratified-v1 no reproduce exactamente el estrato general ya congelado; por ello la reproducción histórica válida consiste en verificar los blobs sellados del lock y de unidades.jsonl, la pertenencia de todos los IDs al snapshot y los invariantes estructurales de la muestra. El nombre del selector se conserva como metadato histórico y no autoriza reselección retroactiva."
 }

@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Valida la muestra congelada de Fase 8 sin reseleccionarla desde extractores mutables.
+"""Valida la muestra congelada de Fase 8 sin reseleccionarla retroactivamente.
 
-El estrato general sí se reconstruye de forma determinista desde el snapshot
-sellado de ``unidades.jsonl``. Los estratos de desafío son parte del lock
-normativo: cambiar un extractor después del congelamiento no puede moverlos.
+La muestra normativa es ``muestra-fase8.lock.json``. Su procedencia sella tanto
+el blob del lock como el snapshot de ``unidades.jsonl`` sobre el que se congeló.
+El identificador histórico ``sha256-stratified-v1`` no se usa para recalcular la
+muestra: el lock fue creado antes que la implementación del selector y esa
+implementación posterior no reproduce exactamente el estrato general congelado.
 """
 from __future__ import annotations
 
@@ -19,6 +21,7 @@ ORIGEN = ROOT / "analista/calibracion/muestra-fase8.origen.json"
 
 PILOTO_ID = "AA-SP-V1"
 SELECTOR_ID = "sha256-stratified-v1"
+REPRODUCTION_MODE = "snapshot-sellado-v1"
 EXPECTED_CHALLENGES = {
     "conceptos_apariciones": 10,
     "definiciones": 7,
@@ -43,30 +46,6 @@ def git_blob_sha(path: Path) -> str:
     return hashlib.sha1(payload).hexdigest()
 
 
-def rank(seed: str, ids: list[str]) -> list[str]:
-    return sorted(ids, key=lambda item: hashlib.sha256(f"{seed}|{item}".encode()).hexdigest())
-
-
-def deterministic_general(units: dict[str, dict]) -> list[str]:
-    by_file: dict[str, list[dict]] = {}
-    for row in units.values():
-        by_file.setdefault(row["archivo"], []).append(row)
-
-    general: list[str] = []
-    for filename in sorted(by_file):
-        candidates = [row["id"] for row in by_file[filename] if row["tipo_estructural"] == "parrafo"]
-        if not candidates:
-            candidates = [row["id"] for row in by_file[filename]]
-        general.append(rank("general-file", candidates)[0])
-    general.extend(
-        rank("general-header", [row["id"] for row in units.values() if row["tipo_estructural"] == "encabezado"])[:5]
-    )
-    general.extend(
-        rank("general-sep", [row["id"] for row in units.values() if row["tipo_estructural"] == "separador"])[:3]
-    )
-    return list(dict.fromkeys(general))
-
-
 def validate(units_path: Path, lock_path: Path, origin_path: Path) -> dict:
     if not lock_path.is_file() or not origin_path.is_file():
         raise AssertionError("Faltan lock u origen de la muestra de Fase 8")
@@ -76,6 +55,8 @@ def validate(units_path: Path, lock_path: Path, origin_path: Path) -> dict:
         "version": "1.0.0",
         "obra_id": PILOTO_ID,
         "selector": SELECTOR_ID,
+        "modo_reproduccion": REPRODUCTION_MODE,
+        "selector_recalculable": False,
         "lock": "analista/calibracion/muestra-fase8.lock.json",
         "unidades": "analista/generado/unidades.jsonl",
     }
@@ -101,9 +82,20 @@ def validate(units_path: Path, lock_path: Path, origin_path: Path) -> dict:
     general = locked.get("general")
     if not isinstance(general, list) or len(general) != EXPECTED_GENERAL:
         raise AssertionError(f"Estrato general inválido: se esperaban {EXPECTED_GENERAL} unidades")
-    regenerated_general = deterministic_general(units)
-    if general != regenerated_general:
-        raise AssertionError("El estrato general no reproduce sha256-stratified-v1 sobre el snapshot sellado de unidades")
+    if len(general) != len(set(general)):
+        raise AssertionError("El estrato general contiene unidades duplicadas")
+    unknown_general = [unit_id for unit_id in general if unit_id not in units]
+    if unknown_general:
+        raise AssertionError(f"Estrato general: unidades fuera del snapshot sellado: {unknown_general}")
+
+    # El propósito declarado del estrato general exige cobertura de todos los
+    # archivos de la obra piloto; se valida la propiedad del snapshot, no una
+    # reselección posterior de qué unidad representa cada archivo.
+    all_files = {row["archivo"] for row in units.values()}
+    general_files = {units[unit_id]["archivo"] for unit_id in general}
+    missing_files = sorted(all_files - general_files)
+    if missing_files:
+        raise AssertionError(f"Estrato general sin representación de archivos del piloto: {missing_files}")
 
     challenges = locked.get("desafios")
     if not isinstance(challenges, dict) or set(challenges) != set(EXPECTED_CHALLENGES):
