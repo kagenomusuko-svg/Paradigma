@@ -106,8 +106,27 @@ def main()->int:
         assert result['conceptos_confirmados_glosario']==1
         assert_identity_evidence(c,glossary,apps,unit_map,'lema_en_glosario_tecnico_explicito')
 
+        # Glosario de lemas en línea propia: los dos puntos del cuerpo no cambian el formato.
+        gp.write_text(
+            '## Glosario\n'
+            'Identidad\n'
+            'En este sistema: el sesgo.\n'
+            'Descripción complementaria.\n'
+            'Voluntad\n'
+            'En este sistema: no el libre albedrío metafísico sino el operador.\n'
+            'Descripción complementaria.\n',
+            encoding='utf-8',
+        )
+        units=[unit('GP1','Identidad',0,gl,2),unit('GP2','Voluntad',1,gl,5)]
+        result,apps,concepts,unit_map=run_case(c,root,units,[gl])
+        assert result['conceptos_confirmados_glosario']==2
+        identidad=concept(c,concepts,'Identidad'); voluntad=concept(c,concepts,'Voluntad')
+        assert_identity_evidence(c,identidad,apps,unit_map,'lema_en_glosario_tecnico_explicito')
+        assert_identity_evidence(c,voluntad,apps,unit_map,'lema_en_glosario_tecnico_explicito')
+        assert all(c.g.norm(x['designacion_operativa'])!='en este sistema' for x in concepts)
+
         assert all(x['producido_por']=={'motor':'conceptos_apariciones','version':'1.3.0'} for x in concepts+apps)
 
-    print('OK Fase 10 4A: identidad solo por evidencia explícita intraobra; recurrencia, semejanza y ambigüedad no ascienden')
+    print('OK Fase 10 4A: identidad solo por evidencia explícita intraobra; recurrencia, semejanza, ambigüedad y dos puntos internos no ascienden')
     return 0
 if __name__=='__main__': raise SystemExit(main())
