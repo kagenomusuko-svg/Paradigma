@@ -184,12 +184,24 @@ def _reference_entries(lines: list[str], start: int) -> list[tuple[str, int, str
     return out
 
 
+def _inline_colon_boundary(lines: list[str], i: int, start: int) -> bool:
+    """Distingue una entrada ``Lema: cuerpo`` de dos puntos dentro del cuerpo."""
+    if i <= start + 1:
+        return True
+    prev = lines[i - 1].strip()
+    if not prev or _is_structural(prev) or ARROW.match(prev):
+        return True
+    if INLINE_COLON.match(prev):
+        return True
+    return prev.endswith((".", "!", "?"))
+
+
 def _colon_entries(lines: list[str], start: int) -> list[tuple[str, int, str]]:
     out: list[tuple[str, int, str]] = []
     seen: set[str] = set()
     for i in range(start + 1, len(lines)):
         raw = lines[i].strip()
-        if _is_structural(raw):
+        if _is_structural(raw) or not _inline_colon_boundary(lines, i, start):
             continue
         m = INLINE_COLON.match(raw)
         if not m:
@@ -238,9 +250,9 @@ def glossary_entries(path: Path) -> list[tuple[str, int, str]]:
 
     tail = lines[start + 1 :]
     colon_terms = []
-    for x in tail:
-        raw = x.strip()
-        if _is_structural(raw):
+    for i in range(start + 1, len(lines)):
+        raw = lines[i].strip()
+        if _is_structural(raw) or not _inline_colon_boundary(lines, i, start):
             continue
         m = INLINE_COLON.match(raw)
         if m and _term_candidate(m.group("t").strip()):
