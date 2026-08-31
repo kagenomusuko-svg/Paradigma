@@ -66,31 +66,46 @@ def main()->int:
             assert row['concepto_id']=='C1'
         assert all(r['producido_por']=={'motor':'definiciones','version':'1.3.0'} for r in rows)
 
-    # Un número romano aislado entre el lema y su definición es un marcador
-    # documental de página, no parte del contenido definicional. La definición
-    # debe seguir exigiendo una única unidad textual real que la contenga.
+    # Marcadores romanos aislados son estructura documental. Si quedan antes de
+    # la definición, no la contaminan; si interrumpen una entrada y Fase 3 la
+    # divide, ningún fragmento parcial asciende a definición explícita.
     with tempfile.TemporaryDirectory(dir=ROOT/'analista/pruebas') as td:
         gloss=Path(td)/'99-glosario.md'
         gloss.write_text(
-            '## Glosario\n\nAnnona\nXXIII\n\nDefinición primera.\nDefinición segunda.\n→ Cap. 1\n',
+            '## Glosario\n\n'
+            'Annona\nXXIII\n\nDefinición primera.\nDefinición segunda.\n→ Cap. 1\n'
+            'Contrato fiscal\nPrimera parte contractual.\nXXV\n\nSegunda parte contractual.\n→ Cap. 2\n',
             encoding='utf-8',
         )
         rel=gloss.relative_to(ROOT).as_posix()
         gloss_units=[
             {'id':'UG1','fuente_id':'OG','archivo':rel,'tipo_estructural':'parrafo','texto_literal':'Annona\nXXIII','localizacion':{'linea_inicio':3,'linea_fin':4}},
-            {'id':'UG2','fuente_id':'OG','archivo':rel,'tipo_estructural':'parrafo','texto_literal':'Definición primera.\nDefinición segunda.','localizacion':{'linea_inicio':6,'linea_fin':7}},
-            {'id':'UG3','fuente_id':'OG','archivo':rel,'tipo_estructural':'parrafo','texto_literal':'→ Cap. 1','localizacion':{'linea_inicio':8,'linea_fin':8}},
+            {'id':'UG2','fuente_id':'OG','archivo':rel,'tipo_estructural':'parrafo','texto_literal':'Definición primera.\nDefinición segunda.\n→ Cap. 1\nContrato fiscal\nPrimera parte contractual.\nXXV','localizacion':{'linea_inicio':6,'linea_fin':11}},
+            {'id':'UG3','fuente_id':'OG','archivo':rel,'tipo_estructural':'parrafo','texto_literal':'Segunda parte contractual.\n→ Cap. 2','localizacion':{'linea_inicio':13,'linea_fin':14}},
         ]
         source={'id':'OG','rutas_derivadas':[rel]}
-        gloss_concepts=[{'id':'CANNONA','designacion_operativa':'Annona','estado_identidad_conceptual':'establecida_por_evidencia'}]
+        gloss_concepts=[
+            {'id':'CANNONA','designacion_operativa':'Annona','estado_identidad_conceptual':'establecida_por_evidencia'},
+            {'id':'CCONTRATO','designacion_operativa':'Contrato fiscal','estado_identidad_conceptual':'establecida_por_evidencia'},
+        ]
         gloss_rows=d.glossary_definitions('OG',source,gloss_units,gloss_concepts)
-        assert len(gloss_rows)==1,gloss_rows
-        annona=gloss_rows[0]
-        assert annona['unidad_id']=='UG2'
-        assert annona['texto_literal']=='Definición primera.\nDefinición segunda.'
-        assert annona['localizacion']=={'ruta':rel,'linea_inicio':6,'linea_fin':7}
-        assert 'XXIII' not in annona['texto_literal']
+        annona=[r for r in gloss_rows if r['concepto_id']=='CANNONA']
+        assert len(annona)==1,annona
+        assert annona[0]['unidad_id']=='UG2'
+        assert annona[0]['texto_literal']=='Definición primera.\nDefinición segunda.'
+        assert annona[0]['clasificacion_definicion']=='definicion_explicita'
+        assert annona[0]['localizacion']=={'ruta':rel,'linea_inicio':6,'linea_fin':7}
+        assert 'XXIII' not in annona[0]['texto_literal']
 
-    print('OK Fase 10 4B: forma definicional fuerte solo asciende en contexto asertivo inequívoco; marcadores romanos no contaminan glosario')
+        contrato=[r for r in gloss_rows if r['concepto_id']=='CCONTRATO']
+        assert len(contrato)==2,contrato
+        assert {r['unidad_id'] for r in contrato}=={'UG2','UG3'}
+        assert {r['texto_literal'] for r in contrato}=={'Primera parte contractual.','Segunda parte contractual.'}
+        assert all(r['clasificacion_definicion']=='definicion_candidata' for r in contrato)
+        assert all(r['estado_extraccion']=='candidato' and r['estatus_enunciativo']=='definicion' for r in contrato)
+        assert all('entrada_glosario_fragmentada_por_unidades' in r['criterio_deteccion'] for r in contrato)
+        assert all('XXV' not in r['texto_literal'] for r in contrato)
+
+    print('OK Fase 10 4B: explícita solo si es inequívoca y mono-unidad; entradas de glosario fragmentadas permanecen candidatas')
     return 0
 if __name__=='__main__': raise SystemExit(main())
