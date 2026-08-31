@@ -35,6 +35,7 @@ def main()->int:
    unit('U4','¿La voluntad produce el acto?',4),
    unit('U5','«La voluntad produce el acto.»',5),
    unit('U6','Según Elena, la voluntad produce el acto.',6),
+   unit('U7','La voluntad produce el acto y la voluntad produce el acto.',7),
   ]
   concepts=[
    {'id':'C1','designacion_operativa':'voluntad','estado_identidad_conceptual':'establecida_por_evidencia'},
@@ -56,6 +57,10 @@ def main()->int:
    assert rel_by_unit[uid]['estado_extraccion']=='candidato'
    assert rel_by_unit[uid]['fuente_id']=='O' and rel_by_unit[uid]['unidad_id']==uid
    assert rel_by_unit[uid]['texto_literal']==next(x['texto_literal'] for x in units if x['id']==uid)
+  repeated=[x for x in rr if x['unidad_id']=='U7' and x['sujeto_ref']=='C1' and x['objeto_ref']=='C2']
+  assert len(repeated)==2,repeated
+  assert len({x['id'] for x in repeated})==2,repeated
+  assert all(x['clasificacion_relacion']=='relacion_explicita' for x in repeated)
   assert all(x['producido_por']=={'motor':'relaciones_explicitas','version':'1.2.0'} for x in rr)
- print('OK Fase 10 4C/4E: aserción explícita; firmas ambiguas no se resuelven; contextos no asertivos quedan candidatos');return 0
+ print('OK Fase 10 4C/4E: aserción explícita; firmas ambiguas no se resuelven; relaciones repetidas conservan IDs únicos');return 0
 if __name__=='__main__':raise SystemExit(main())
