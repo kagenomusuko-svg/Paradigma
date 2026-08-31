@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import copy
+import hashlib
 import json
 import subprocess
 import sys
@@ -18,7 +19,6 @@ UNIDADES_PATH = ROOT / "analista/generado/unidades.jsonl"
 APARICIONES_PATH = ROOT / "analista/generado/apariciones-conceptuales.jsonl"
 CONCEPTOS_PATH = ROOT / "analista/generado/conceptos.jsonl"
 COBERTURA_PATH = ROOT / "analista/generado/cobertura-conceptos.jsonl"
-LEGACY_CONCEPTOS = ROOT / "analisis/generado/sobre-la-pasion/conceptos.json"
 MOTOR_PATH = ROOT / "analista/motores/conceptos.py"
 PILOTO_ID = "AA-SP-V1"
 MOTOR_VERSION = "1.1.0"
@@ -39,6 +39,11 @@ def load_jsonl(path: Path) -> list[dict]:
 
 def norm(text: str) -> str:
     return " ".join(unicodedata.normalize("NFKC", text).casefold().split())
+
+
+def stable_concept_id(designacion: str) -> str:
+    digest = hashlib.sha1(norm(designacion).encode("utf-8")).hexdigest()[:12].upper()
+    return f"CON-{digest}"
 
 
 def validator_for(schema: dict, name: str) -> Draft202012Validator:
@@ -83,10 +88,13 @@ def main() -> int:
     assert report["unidades_omitidas"] == [] and report["errores"] == []
     assert report["estado_verificacion"] == "pendiente"
 
-    legacy = json.loads(LEGACY_CONCEPTOS.read_text(encoding="utf-8"))
-    legacy_ids = {row["id"]: row["lema"] for row in legacy}
-    new_ids = {row["id"]: row["designacion_operativa"] for row in conceptos}
-    assert new_ids == legacy_ids and len(conceptos) == 21
+    # El sistema vigente no depende del prototipo retirado. Los IDs se validan
+    # contra la regla estable del propio contrato 4A y la salida se exige
+    # byte-reproducible más abajo.
+    assert len(conceptos) == 21
+    normalized_designations = [norm(row["designacion_operativa"]) for row in conceptos]
+    assert len(normalized_designations) == len(set(normalized_designations)) == 21
+    assert all(row["id"] == stable_concept_id(row["designacion_operativa"]) for row in conceptos)
 
     appearance_by_id = {row["id"]: row for row in apariciones}
     assert len(appearance_by_id) == len(apariciones) == 2575
@@ -172,9 +180,9 @@ def main() -> int:
 
     assert_reproducible()
     print(
-        "OK Fase 4A v1.1: 21 conceptos históricos; 2575 apariciones = 419 vinculadas + "
+        "OK Fase 4A v1.1: 21 conceptos del piloto; 2575 apariciones = 419 vinculadas + "
         "2156 candidatas; 21 evidencias declarativas; palabras simples no se vinculan por forma; "
-        "836 unidades; sin sinónimos, abreviaturas ni fusión conceptual."
+        "836 unidades; IDs estables; sin sinónimos, abreviaturas ni fusión conceptual."
     )
     return 0
 
