@@ -7,7 +7,7 @@ from jsonschema import Draft202012Validator
 from referencing import Registry, Resource
 ROOT=Path(__file__).resolve().parents[2]
 FUENTES=ROOT/"analista/generado/fuentes.jsonl"; UNIDADES=ROOT/"analista/generado/unidades.jsonl"
-OLD=ROOT/"analista/esquema/contratos-v1.0.0.schema.json"; MASTER_SCHEMA=ROOT/"analista/esquema/expediente-maestro-fase10-v1.4.0.schema.json"
+OLD=ROOT/"analista/esquema/contratos-v1.0.0.schema.json"; MASTER_SCHEMA=ROOT/"analista/esquema/expediente-maestro-fase10-v1.4.1.schema.json"
 EX=ROOT/"analista/motores/ejecutar_extractores_obra_fase10.py"; NORM=ROOT/"analista/motores/normalizacion.py"; VER=ROOT/"analista/motores/verificador_evidencia.py"; IDV=ROOT/"analista/motores/validador_identidad_fase10.py"; AUD=ROOT/"analista/motores/auditor_estructural.py"; DESC=ROOT/"analista/motores/auditor_descriptivo_fase10.py"; ASM=ROOT/"analista/motores/ensamblador_maestro_obra_fase10.py"
 PILOT="AA-SP-V1"
 PRODUCT={"apariciones-conceptuales.jsonl":"aparicion_conceptual","conceptos.jsonl":"concepto","definiciones.jsonl":"definicion","afirmaciones-candidatas.jsonl":"afirmacion","formulas-candidatas.jsonl":"formula","relaciones-explicitas.jsonl":"relacion_explicita","distinciones.jsonl":"distincion","negaciones.jsonl":"negacion","excepciones.jsonl":"excepcion","restricciones-alcance.jsonl":"restriccion_alcance"}
@@ -79,7 +79,7 @@ def validate(obra,root,master):
  findings=loadl(root/"hallazgos-auditoria.jsonl");fv=atomic(schema,"hallazgo_auditoria")
  for h in findings:assert not list(fv.iter_errors(h)) and h["obra_id"]==obra and h["resolucion_doctrinal"]=="no_realizada"
  m=json.loads(master.read_text(encoding="utf-8"));ms=json.loads(MASTER_SCHEMA.read_text(encoding="utf-8"));Draft202012Validator.check_schema(ms);reg=Registry().with_resource(schema["$id"],Resource.from_contents(schema));errs=list(Draft202012Validator(ms,registry=reg).iter_errors(m));assert not errs,errs[0].message if errs else ""
- assert m["schema_version"]=="1.4.0" and m["producido_por"]=={"motor":"ensamblador_maestro_obra_fase10","version":"1.2.1"} and m["obra_id"]==obra and m["fuentes"]==src and m["unidades"]==sorted(wu,key=lambda x:x["orden_textual"])
+ assert m["schema_version"]=="1.4.1" and m["producido_por"]=={"motor":"ensamblador_maestro_obra_fase10","version":"1.2.2"} and m["obra_id"]==obra and m["fuentes"]==src and m["unidades"]==sorted(wu,key=lambda x:x["orden_textual"])
  c=m["controles_fase10"];assert c["version"]=="1.2.0" and c["comparacion_interobra"] is False and c["alcance_conceptual"]=={"perfil":profile,"glosario_tecnico":gloss[0] if has else None,**expected}
  for name,field in FIELD.items():assert m[field]==aud_by[name]
  assert m["hallazgos_auditoria"]==findings and {r["motor"] for r in m["reportes_cobertura"]}==MOTORS

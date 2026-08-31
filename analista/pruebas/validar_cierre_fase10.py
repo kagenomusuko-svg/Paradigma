@@ -12,7 +12,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
 INVENTORY_ENGINE=ROOT/"analista/motores/inventariar_obras_fase10.py"; INVENTORY_VALIDATOR=ROOT/"analista/pruebas/validar_inventario_fase10.py"; WORK_VALIDATOR=ROOT/"analista/pruebas/validar_obra_fase10.py"; PILOT_VALIDATOR=ROOT/"analista/pruebas/validar_maestro_fase9.py"
 INVENTORY=ROOT/"analista/generado/fase10/inventario-obras.json"; MASTERS=ROOT/"analista/generado/maestros"; REPORT=ROOT/"analista/generado/fase10/cierre-fase10.json"
-PILOT="AA-SP-V1"; VERSION="1.2.0"; PRIORIDAD_DIAGNOSTICA=("FUE-8B22B605F823",)
+PILOT="AA-SP-V1"; VERSION="1.2.1"; PRIORIDAD_DIAGNOSTICA=("FUE-8B22B605F823",)
 
 def run(cmd): subprocess.run(cmd,cwd=ROOT,check=True)
 def sha(path): return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -50,7 +50,7 @@ def main()->int:
   if oid==PILOT:
    assert master["schema_version"]=="1.1.0"; route="piloto_cerrado_fase9"; comparison=False
   else:
-   assert master["schema_version"]=="1.4.0" and master["producido_por"]=={"motor":"ensamblador_maestro_obra_fase10","version":"1.2.1"}
+   assert master["schema_version"]=="1.4.1" and master["producido_por"]=={"motor":"ensamblador_maestro_obra_fase10","version":"1.2.2"}
    controls=master["controles_fase10"]; assert controls["version"]=="1.2.0" and controls["obra_id"]==oid and controls["comparacion_interobra"] is False
    assert all(controls[k] is True for k in ("maestro_independiente","normalizacion_recuperacion","verificacion_evidencia","auditoria_intraobra"))
    scope=controls["alcance_conceptual"]; assert scope["perfil"]==work["perfil_conceptual"] and scope["glosario_tecnico"]==work["glosario_tecnico"]

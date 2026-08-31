@@ -4,7 +4,7 @@ from __future__ import annotations
 import argparse, hashlib, json
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
-SCHEMA_VERSION="1.4.0"; MOTOR_VERSION="1.2.1"; CONTROL_VERSION="1.2.0"
+SCHEMA_VERSION="1.4.1"; MOTOR_VERSION="1.2.2"; CONTROL_VERSION="1.2.0"
 FILES={"apariciones_conceptuales":"apariciones-conceptuales.jsonl","conceptos":"conceptos.jsonl","definiciones":"definiciones.jsonl","afirmaciones":"afirmaciones-candidatas.jsonl","formulas":"formulas-candidatas.jsonl","relaciones_explicitas":"relaciones-explicitas.jsonl","distinciones":"distinciones.jsonl","negaciones":"negaciones.jsonl","excepciones":"excepciones.jsonl","restricciones_alcance":"restricciones-alcance.jsonl"}
 COVER=("cobertura-conceptos.jsonl","cobertura-definiciones.jsonl","cobertura-afirmaciones.jsonl","cobertura-formulas.jsonl","cobertura-relaciones.jsonl","cobertura-limitadores.jsonl")
 MOTORS={"conceptos_apariciones","definiciones","afirmaciones","formulas","relaciones_explicitas","limitadores"}
@@ -98,7 +98,7 @@ def validate_traceability(m:dict)->None:
 
 def hist(rows):
  out=[{"version":f"{a}/{b}","descripcion":"Versión declarada por un producto incluido en el expediente."} for a,b in sorted({(r["producido_por"]["motor"],r["producido_por"]["version"]) for r in rows if r.get("producido_por")})]
- out += [{"version":"normalizacion/1.0.0","descripcion":"Overlay de recuperación sin alterar evidencia."},{"version":"expediente-maestro-fase10/1.4.0","descripcion":"Maestro independiente con recuperación conceptual en todas las obras."},{"version":"ensamblador_maestro_obra_fase10/1.2.1","descripcion":"Ensamblador descriptivo intraobra."}]
+ out += [{"version":"normalizacion/1.0.0","descripcion":"Overlay de recuperación sin alterar evidencia."},{"version":"expediente-maestro-fase10/1.4.1","descripcion":"Maestro independiente con recuperación conceptual en todas las obras."},{"version":"ensamblador_maestro_obra_fase10/1.2.2","descripcion":"Ensamblador descriptivo intraobra."}]
  seen=set(); return [x for x in sorted(out,key=lambda z:z["version"]) if not (x["version"] in seen or seen.add(x["version"]))]
 
 def assemble(obra:str,root:Path,output:Path)->dict:
