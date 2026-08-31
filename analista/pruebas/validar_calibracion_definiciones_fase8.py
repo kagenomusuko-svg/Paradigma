@@ -34,7 +34,9 @@ def main() -> int:
     subprocess.run([sys.executable, str(EXTRACTOR)], cwd=ROOT, check=True)
     entries = [e for e in mod.load_manifest(MANIFEST) if e["motor"] == MOTOR]
     predictions = mod.extracted_items(GENERATED, MOTOR)
-    assert len(entries) == 38
+    # 31 general + 7 desafío comparten UT-428B3A62142E; el manifiesto efectivo
+    # conserva una sola revisión marcada en ambos estratos.
+    assert len(entries) == 37
     assert len(predictions) == 60, "El producto 4B v1.1 cambió; revisar calibración antes de alterar esta prueba."
 
     general = report(entries, predictions, "general")
@@ -66,10 +68,10 @@ def main() -> int:
     assert challenge["exactitud_estatus"] == 1
 
     combined = report(entries, predictions, "combinado")
-    assert combined["unidades_procesadas"] == 38
-    assert combined["positivos_esperados"] == 33
-    assert combined["predicciones_emitidas"] == 33
-    assert combined["verdaderos_positivos"] == 33
+    assert combined["unidades_procesadas"] == 37
+    assert combined["positivos_esperados"] == 30
+    assert combined["predicciones_emitidas"] == 30
+    assert combined["verdaderos_positivos"] == 30
     assert combined["falsos_positivos"] == 0
     assert combined["falsos_negativos"] == 0
     assert combined["precision"] == 1
@@ -79,7 +81,7 @@ def main() -> int:
 
     print(
         "OK calibración Fase 8/4B v1.1: general 12 TP/0 FP/0 FN; desafío 21 TP/0 FP/0 FN; "
-        "precisión, cobertura, clasificación y estatus = 1.0 en ambos estratos."
+        "combinado 30 TP en 37 unidades por solapamiento explícito; precisión, cobertura, clasificación y estatus = 1.0."
     )
     return 0
 
