@@ -54,7 +54,7 @@ permissions:
 
 concurrency:
   group: analista-fase10-cierre-global-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   cierre-fase10:
