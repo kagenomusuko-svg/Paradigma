@@ -17,7 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 MOTOR = "definiciones"
-VERSION = "1.2.0"
+VERSION = "1.3.0"
 SCHEMA = "1.0.0"
 GLOSSARY = "99-glosario.md"
 HELPER = ROOT / "analista/motores/referencias_conceptuales_fase10.py"
@@ -31,6 +31,13 @@ SPACE = re.compile(r"\s+")
 BOUNDARY = re.compile(r"[.!?](?:[¹²³⁴⁵⁶⁷⁸⁹⁰]+)?(?=\s|$)|\n+")
 STRONG_AFTER = ("se define como", "significa", "designa", "se denomina", "se entiende como")
 STRONG_BEFORE = ("llamamos", "denominamos", "definimos", "defino", "denomino")
+NON_ASSERTIVE_LEAD = re.compile(r"^\s*(?:si\b|cuando\b|aunque\b|supongamos\b|imaginemos\b|por\s+ejemplo\b|quiz[aá]s\b|tal\s+vez\b)", re.I)
+REPORTED = re.compile(r"\b(?:dice|dijo|afirma|afirmó|escribe|escribió|según|cita|citado)\b", re.I)
+QUOTED = re.compile(r"^\s*[«“\"'].*[»”\"']\s*[.!?]?$", re.S)
+NEGATED_DEFINITION = re.compile(
+    r"\bno\s+(?:llamamos|denominamos|denomino|definimos|defino|se\s+define|significa|designa|se\s+denomina|se\s+entiende)\b",
+    re.I,
+)
 
 
 def norm(text: str) -> str:
@@ -92,15 +99,44 @@ def sentence_spans(text: str) -> list[tuple[int, int, str]]:
     return out
 
 
+def contextual_status(sentence: str) -> str | None:
+    stripped = sentence.strip()
+    if not stripped:
+        return "no_determinado"
+    if stripped.startswith("¿") or "?" in stripped:
+        return "pregunta"
+    if NON_ASSERTIVE_LEAD.search(stripped):
+        return "formulacion_condicional"
+    if QUOTED.match(stripped):
+        return "cita"
+    if REPORTED.search(stripped):
+        return "discurso_referido"
+    if NEGATED_DEFINITION.search(stripped):
+        return "negacion_autoral"
+    return None
+
+
+def downgrade_if_contextual(sentence: str, criterion: str) -> tuple[str, str, str]:
+    status = contextual_status(sentence)
+    if status is None:
+        return "definicion_explicita", "definicion", criterion
+    return (
+        "definicion_candidata",
+        status,
+        f"{criterion}; contexto_no_autoriza_definicion_explicita:{status}",
+    )
+
+
 def classify(sentence: str, start: int, end: int) -> tuple[str, str, str] | None:
     before = norm(sentence[:start])
     after = norm(sentence[end:])
-    if after.startswith(STRONG_AFTER):
-        return "definicion_explicita", "definicion", "estructura_definicional_fuerte_postnominal"
+    after_structural = re.sub(r"^no\s+", "", after)
+    if after_structural.startswith(STRONG_AFTER):
+        return downgrade_if_contextual(sentence, "estructura_definicional_fuerte_postnominal")
     if any(before.endswith(marker) for marker in STRONG_BEFORE):
-        return "definicion_explicita", "definicion", "estructura_definicional_fuerte_prenominal"
-    if before.endswith("por") and after.startswith("se entiende"):
-        return "definicion_explicita", "definicion", "estructura_por_termino_se_entiende"
+        return downgrade_if_contextual(sentence, "estructura_definicional_fuerte_prenominal")
+    if before.endswith("por") and after_structural.startswith("se entiende"):
+        return downgrade_if_contextual(sentence, "estructura_por_termino_se_entiende")
     if re.match(r"^(?:es|son)\b", after):
         return "definicion_candidata", "no_determinado", "copula_simple_no_autoriza_definicion_explicita"
     if after.startswith(":"):
@@ -226,29 +262,5 @@ def run(*, obra_id: str, fuentes: Path, unidades: Path, conceptos: Path, salida:
         "version": VERSION,
         "obra_id": obra_id,
         "registros": len(rows),
-        "explicitas": sum(r["clasificacion_definicion"] == "definicion_explicita" for r in rows),
+        "explicitas": sum(r["classificacion_definicion"] == "definicion_explicita" for r in rows),
     }
-
-
-def main() -> int:
-    p = argparse.ArgumentParser()
-    p.add_argument("--obra-id", required=True)
-    p.add_argument("--fuentes", type=Path, required=True)
-    p.add_argument("--unidades", type=Path, required=True)
-    p.add_argument("--conceptos", type=Path, required=True)
-    p.add_argument("--salida", type=Path, required=True)
-    p.add_argument("--cobertura", type=Path, required=True)
-    a = p.parse_args()
-    print(json.dumps(run(
-        obra_id=a.obra_id,
-        fuentes=a.fuentes,
-        unidades=a.unidades,
-        conceptos=a.conceptos,
-        salida=a.salida,
-        cobertura=a.cobertura,
-    ), ensure_ascii=False, sort_keys=True))
-    return 0
-
-
-if __name__ == "__main__":
-    raise SystemExit(main())

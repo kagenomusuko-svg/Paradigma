@@ -8,12 +8,12 @@ from referencing import Registry, Resource
 ROOT=Path(__file__).resolve().parents[2]
 FUENTES=ROOT/"analista/generado/fuentes.jsonl"; UNIDADES=ROOT/"analista/generado/unidades.jsonl"
 OLD=ROOT/"analista/esquema/contratos-v1.0.0.schema.json"; MASTER_SCHEMA=ROOT/"analista/esquema/expediente-maestro-fase10-v1.4.0.schema.json"
-EX=ROOT/"analista/motores/ejecutar_extractores_obra_fase10.py"; NORM=ROOT/"analista/motores/normalizacion.py"; VER=ROOT/"analista/motores/verificador_evidencia.py"; AUD=ROOT/"analista/motores/auditor_estructural.py"; DESC=ROOT/"analista/motores/auditor_descriptivo_fase10.py"; ASM=ROOT/"analista/motores/ensamblador_maestro_obra_fase10.py"
+EX=ROOT/"analista/motores/ejecutar_extractores_obra_fase10.py"; NORM=ROOT/"analista/motores/normalizacion.py"; VER=ROOT/"analista/motores/verificador_evidencia.py"; IDV=ROOT/"analista/motores/validador_identidad_fase10.py"; AUD=ROOT/"analista/motores/auditor_estructural.py"; DESC=ROOT/"analista/motores/auditor_descriptivo_fase10.py"; ASM=ROOT/"analista/motores/ensamblador_maestro_obra_fase10.py"
 PILOT="AA-SP-V1"
 PRODUCT={"apariciones-conceptuales.jsonl":"aparicion_conceptual","conceptos.jsonl":"concepto","definiciones.jsonl":"definicion","afirmaciones-candidatas.jsonl":"afirmacion","formulas-candidatas.jsonl":"formula","relaciones-explicitas.jsonl":"relacion_explicita","distinciones.jsonl":"distincion","negaciones.jsonl":"negacion","excepciones.jsonl":"excepcion","restricciones-alcance.jsonl":"restriccion_alcance"}
 FIELD={"apariciones-conceptuales.jsonl":"apariciones_conceptuales","conceptos.jsonl":"conceptos","definiciones.jsonl":"definiciones","afirmaciones-candidatas.jsonl":"afirmaciones","formulas-candidatas.jsonl":"formulas","relaciones-explicitas.jsonl":"relaciones_explicitas","distinciones.jsonl":"distinciones","negaciones.jsonl":"negaciones","excepciones.jsonl":"excepciones","restricciones-alcance.jsonl":"restricciones_alcance"}
 COVER=("cobertura-conceptos.jsonl","cobertura-definiciones.jsonl","cobertura-afirmaciones.jsonl","cobertura-formulas.jsonl","cobertura-relaciones.jsonl","cobertura-limitadores.jsonl")
-MOTORS={"conceptos_apariciones","definiciones","afirmaciones","formulas","relaciones_explicitas","limitadores"}; FIXED={"conceptos_apariciones":"1.3.0","definiciones":"1.2.0","afirmaciones":"1.2.0","relaciones_explicitas":"1.2.0","limitadores":"1.1.0"}
+MOTORS={"conceptos_apariciones","definiciones","afirmaciones","formulas","relaciones_explicitas","limitadores"}; FIXED={"conceptos_apariciones":"1.3.0","definiciones":"1.3.0","afirmaciones":"1.2.0","relaciones_explicitas":"1.2.0","limitadores":"1.1.0"}
 
 def loadl(p):
  if not Path(p).is_file(): raise AssertionError(f"Falta JSONL: {p}")
@@ -35,7 +35,7 @@ def execute(obra,root,master):
  cmd=[str(VER),"--repo-root",str(ROOT),"--fuentes",str(root/"fuente.jsonl"),"--unidades",str(root/"unidades.jsonl"),"--input-root",str(root/"normalizados"),"--output-root",str(root/"verificados")]
  for motor in ("conceptos_apariciones","definiciones","afirmaciones","formulas","relaciones_explicitas"):
   cmd += ["--producer-version",f"{motor}={versions[motor]}"]
- run(*cmd);run(AUD,"--input-root",root/"verificados","--output-root",root/"auditados","--unidades",root/"unidades.jsonl");run(DESC,"--input-root",root/"auditados","--output",root/"hallazgos-auditoria.jsonl","--obra-id",obra);run(ASM,"--obra-id",obra,"--obra-root",root,"--output",master)
+ run(*cmd);run(IDV,"--obra-id",obra,"--conceptos",root/"verificados"/"conceptos.jsonl","--apariciones",root/"verificados"/"apariciones-conceptuales.jsonl");run(AUD,"--input-root",root/"verificados","--output-root",root/"auditados","--unidades",root/"unidades.jsonl");run(DESC,"--input-root",root/"auditados","--output",root/"hallazgos-auditoria.jsonl","--obra-id",obra);run(ASM,"--obra-id",obra,"--obra-root",root,"--output",master)
 
 def outputs(root,master):return [root/"fuente.jsonl",root/"unidades.jsonl",root/"manifest-extractores.json",root/"hallazgos-auditoria.jsonl",*[root/x for x in PRODUCT],*[root/x for x in COVER],*[root/l/x for l in ("normalizados","verificados","auditados") for x in PRODUCT],master,master.with_suffix(master.suffix+".sha256")]
 

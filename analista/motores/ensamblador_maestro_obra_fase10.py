@@ -8,7 +8,7 @@ SCHEMA_VERSION="1.4.0"; MOTOR_VERSION="1.2.0"; CONTROL_VERSION="1.2.0"
 FILES={"apariciones_conceptuales":"apariciones-conceptuales.jsonl","conceptos":"conceptos.jsonl","definiciones":"definiciones.jsonl","afirmaciones":"afirmaciones-candidatas.jsonl","formulas":"formulas-candidatas.jsonl","relaciones_explicitas":"relaciones-explicitas.jsonl","distinciones":"distinciones.jsonl","negaciones":"negaciones.jsonl","excepciones":"excepciones.jsonl","restricciones_alcance":"restricciones-alcance.jsonl"}
 COVER=("cobertura-conceptos.jsonl","cobertura-definiciones.jsonl","cobertura-afirmaciones.jsonl","cobertura-formulas.jsonl","cobertura-relaciones.jsonl","cobertura-limitadores.jsonl")
 MOTORS={"conceptos_apariciones","definiciones","afirmaciones","formulas","relaciones_explicitas","limitadores"}
-FIXED={"conceptos_apariciones":"1.3.0","definiciones":"1.2.0","afirmaciones":"1.2.0","relaciones_explicitas":"1.2.0","limitadores":"1.1.0"}
+FIXED={"conceptos_apariciones":"1.3.0","definiciones":"1.3.0","afirmaciones":"1.2.0","relaciones_explicitas":"1.2.0","limitadores":"1.1.0"}
 DECLARATIVE_CRITERIA=("lema_en_glosario_tecnico_explicito","declaracion_designativa_explicita_en_cuerpo:")
 
 def loadl(p:Path):

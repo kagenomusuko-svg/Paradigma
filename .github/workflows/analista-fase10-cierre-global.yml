@@ -23,6 +23,7 @@ on:
       - "analista/motores/limitadores.py"
       - "analista/motores/normalizacion.py"
       - "analista/motores/verificador_evidencia.py"
+      - "analista/motores/validador_identidad_fase10.py"
       - "analista/motores/auditor_estructural.py"
       - "analista/motores/auditor_descriptivo.py"
       - "analista/motores/auditor_descriptivo_fase10.py"
@@ -30,6 +31,8 @@ on:
       - "analista/pruebas/validar_inventario_fase10.py"
       - "analista/pruebas/validar_conceptos_obra_fase10.py"
       - "analista/pruebas/validar_extractores_conceptuales_fase10.py"
+      - "analista/pruebas/validar_definiciones_fase10.py"
+      - "analista/pruebas/validar_identidad_conceptual_fase10.py"
       - "analista/pruebas/validar_enlaces_relaciones_fase10.py"
       - "analista/pruebas/validar_obra_fase10.py"
       - "analista/pruebas/validar_cierre_fase10.py"
@@ -68,6 +71,8 @@ jobs:
         run: |
           python analista/pruebas/validar_conceptos_obra_fase10.py
           python analista/pruebas/validar_extractores_conceptuales_fase10.py
+          python analista/pruebas/validar_definiciones_fase10.py
+          python analista/pruebas/validar_identidad_conceptual_fase10.py
           python analista/pruebas/validar_enlaces_relaciones_fase10.py
 
       - name: Ejecutar y validar las 20 obras hasta maestro independiente
