@@ -1,0 +1,99 @@
+name: Migrar versiones exactas de extractores
+
+on:
+  push:
+    branches: [analisis-textual-v0.1]
+    paths:
+      - ".github/workflows/_migrar-versiones-extractores-fase10.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  migrar:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Aplicar bumps exactos y coherentes
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          def rep(path, old, new, expected=1):
+              p = Path(path)
+              text = p.read_text(encoding='utf-8')
+              found = text.count(old)
+              if found != expected:
+                  raise SystemExit(f'{path}: esperado {expected} x {old!r}; encontrado {found}')
+              p.write_text(text.replace(old, new), encoding='utf-8')
+
+          rep('analista/motores/conceptos_compuesto_fase10.py', 'VERSION = "1.3.0"', 'VERSION = "1.3.1"')
+          rep('analista/motores/relaciones_compuesto_fase10.py', 'VERSION="1.2.0"', 'VERSION="1.2.1"')
+          rep('analista/motores/limitadores.py', "VERSION='1.1.0'", "VERSION='1.1.1'")
+
+          rep('analista/motores/ejecutar_extractores_obra_fase10.py', 'CONCEPTS_VERSION = "1.3.0"', 'CONCEPTS_VERSION = "1.3.1"')
+          rep('analista/motores/ejecutar_extractores_obra_fase10.py', 'RELATIONS_VERSION = "1.2.0"', 'RELATIONS_VERSION = "1.2.1"')
+          rep('analista/motores/ejecutar_extractores_obra_fase10.py', 'LIMITERS_VERSION = "1.1.0"', 'LIMITERS_VERSION = "1.1.1"')
+          rep(
+              'analista/motores/ejecutar_extractores_obra_fase10.py',
+              '    m = load_module("fase10_limitadores", ROOT / "analista/motores/limitadores.py")\n    m.PILOTO = obra_id',
+              '    m = load_module("fase10_limitadores", ROOT / "analista/motores/limitadores.py")\n    if getattr(m, "VERSION", None) != LIMITERS_VERSION:\n        raise SystemExit(f"Versión inesperada de 4F: {getattr(m, \'VERSION\', None)}")\n    m.PILOTO = obra_id',
+          )
+
+          rep('analista/pruebas/validar_extractores_conceptuales_fase10.py', "{'motor':'conceptos_apariciones','version':'1.3.0'}", "{'motor':'conceptos_apariciones','version':'1.3.1'}")
+          rep('analista/pruebas/validar_enlaces_relaciones_fase10.py', "{'motor':'relaciones_explicitas','version':'1.2.0'}", "{'motor':'relaciones_explicitas','version':'1.2.1'}")
+          rep('analista/pruebas/validar_limitadores_fase10.py', '{"motor": "limitadores", "version": "1.1.0"}', '{"motor": "limitadores", "version": "1.1.1"}')
+
+          rep('analista/pruebas/validar_limitadores_fase4f.py', "{'motor':'limitadores','version':'1.1.0'}", "{'motor':'limitadores','version':'1.1.1'}")
+          rep('analista/pruebas/validar_limitadores_fase4f.py', "c['version_motor']=='1.1.0'", "c['version_motor']=='1.1.1'")
+
+          rep('analista/motores/verificador_evidencia.py', '"limitadores": ("limitadores", "1.1.0"),', '"limitadores": ("limitadores", "1.1.1"),')
+
+          rep('analista/pruebas/validar_obra_fase10.py', '"conceptos_apariciones":"1.3.0"', '"conceptos_apariciones":"1.3.1"')
+          rep('analista/pruebas/validar_obra_fase10.py', '"relaciones_explicitas":"1.2.0"', '"relaciones_explicitas":"1.2.1"')
+          rep('analista/pruebas/validar_obra_fase10.py', '"limitadores":"1.1.0"', '"limitadores":"1.1.1"')
+          rep(
+              'analista/pruebas/validar_obra_fase10.py',
+              'for motor in ("conceptos_apariciones","definiciones","afirmaciones","formulas","relaciones_explicitas"):',
+              'for motor in ("conceptos_apariciones","definiciones","afirmaciones","formulas","relaciones_explicitas","limitadores"):',
+          )
+
+          rep(
+              'analista/pruebas/validar_cierre_fase10.py',
+              '   assert manifest["versiones_extractores"]["conceptos_apariciones"]=="1.3.0"',
+              '   assert manifest["versiones_extractores"]["conceptos_apariciones"]=="1.3.1"\n   assert manifest["versiones_extractores"]["relaciones_explicitas"]=="1.2.1"\n   assert manifest["versiones_extractores"]["limitadores"]=="1.1.1"',
+          )
+
+          # Guardia final: los archivos que ejecutan o validan estas revisiones no
+          # pueden conservar las etiquetas anteriores de los tres extractores.
+          guards = {
+              'analista/motores/conceptos_compuesto_fase10.py': ['VERSION = "1.3.0"'],
+              'analista/motores/relaciones_compuesto_fase10.py': ['VERSION="1.2.0"'],
+              'analista/motores/limitadores.py': ["VERSION='1.1.0'"],
+              'analista/motores/ejecutar_extractores_obra_fase10.py': ['CONCEPTS_VERSION = "1.3.0"','RELATIONS_VERSION = "1.2.0"','LIMITERS_VERSION = "1.1.0"'],
+              'analista/pruebas/validar_obra_fase10.py': ['"conceptos_apariciones":"1.3.0"','"relaciones_explicitas":"1.2.0"','"limitadores":"1.1.0"'],
+          }
+          for path, stale in guards.items():
+              text = Path(path).read_text(encoding='utf-8')
+              bad = [x for x in stale if x in text]
+              if bad:
+                  raise SystemExit(f'{path}: etiquetas obsoletas restantes: {bad}')
+          PY
+      - name: Retirar migrador temporal y persistir cambio
+        env:
+          TARGET_BRANCH: ${{ github.ref_name }}
+        run: |
+          rm .github/workflows/_migrar-versiones-extractores-fase10.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --check
+          git commit -m "Versionar extractores modificados de Fase 10"
+          git push origin HEAD:"${TARGET_BRANCH}"
