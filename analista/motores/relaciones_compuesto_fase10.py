@@ -57,12 +57,12 @@ def run(*,obra_id,unidades,conceptos,salida,cobertura):
     for cm in cre.finditer(sentence):
      pair=pair_for_connector(occ,cm.start(),cm.end())
      if pair is None:continue
-     left,right=pair;key=(u['id'],sa+cm.start(),left['concepto_id'],right['concepto_id'])
+     left,right=pair;connector_start=sa+cm.start();connector_end=sa+cm.end();key=(u['id'],connector_start,left['concepto_id'],right['concepto_id'])
      if key in seen:continue
      seen.add(key);literal=sentence.strip();trim=sentence.find(literal);a=sa+trim;b=a+len(literal);ls,le=line_range(u,text,a,b)
      established=by[left['concepto_id']].get('estado_identidad_conceptual')=='establecida_por_evidencia' and by[right['concepto_id']].get('estado_identidad_conceptual')=='establecida_por_evidencia'
      explicit=bool(strong and established and assertive(sentence,cm.start()));classification='relacion_explicita' if explicit else 'relacion_candidata'
-     rid=sid('REL',obra_id,u['id'],left['concepto_id'],right['concepto_id'],str(a),str(b),cm.group(0))
+     rid=sid('REL',obra_id,u['id'],left['concepto_id'],right['concepto_id'],str(a),str(b),str(connector_start),str(connector_end),cm.group(0))
      rows.append({'id':rid,'tipo_registro':'relacion_explicita','schema_version':SCHEMA,'texto_literal':literal,'normalizacion_formal':None,'normalizacion_lexica':None,'estatus_enunciativo':None,
       'estado_extraccion':'extraido' if explicit else 'candidato','estado_verificacion':'pendiente','estado_auditoria':'pendiente','producido_por':{'motor':MOTOR,'version':VERSION},'fuente_id':obra_id,'unidad_id':u['id'],
       'sujeto_ref':left['concepto_id'],'objeto_ref':right['concepto_id'],'relacion_literal':literal,'clasificacion_relacion':classification,'localizacion':{'ruta':u['archivo'],'linea_inicio':ls,'linea_fin':le}})
