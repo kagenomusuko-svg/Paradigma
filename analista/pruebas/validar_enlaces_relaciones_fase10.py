@@ -13,7 +13,19 @@ def unit(uid,text,line):
  return {'id':uid,'fuente_id':'O','archivo':'x.md','tipo_estructural':'parrafo','texto_literal':text,'localizacion':{'linea_inicio':line,'linea_fin':line}}
 
 def main()->int:
- a=mod('a','afirmaciones_compuesto_fase10.py');r=mod('r','relaciones_compuesto_fase10.py')
+ a=mod('a','afirmaciones_compuesto_fase10.py');r=mod('r','relaciones_compuesto_fase10.py');refs=mod('refs_regresion','referencias_conceptuales_fase10.py')
+
+ # Dos designaciones distintas que colapsan a la misma firma mecánica no se
+ # fusionan ni se elige una. Permanecen en el expediente conceptual, pero esa
+ # firma ambigua queda fuera del índice usado para enlaces downstream.
+ ambiguous=[
+  {'id':'A1','designacion_operativa':'Colección','estado_identidad_conceptual':'no_determinada'},
+  {'id':'A2','designacion_operativa':'Colección:','estado_identidad_conceptual':'no_determinada'},
+ ]
+ idx,by=refs.build_index(ambiguous)
+ assert set(by)=={'A1','A2'}
+ assert refs.occurrences('Colección: ejemplo.',idx)==[]
+
  with tempfile.TemporaryDirectory() as td:
   p=Path(td);u=p/'u';c=p/'c';ao=p/'ao';ac=p/'ac';ro=p/'ro';rc=p/'rc'
   units=[
@@ -45,5 +57,5 @@ def main()->int:
    assert rel_by_unit[uid]['fuente_id']=='O' and rel_by_unit[uid]['unidad_id']==uid
    assert rel_by_unit[uid]['texto_literal']==next(x['texto_literal'] for x in units if x['id']==uid)
   assert all(x['producido_por']=={'motor':'relaciones_explicitas','version':'1.2.0'} for x in rr)
- print('OK Fase 10 4C/4E: aserción explícita; condicional, negación, pregunta, cita y discurso referido quedan candidatos');return 0
+ print('OK Fase 10 4C/4E: aserción explícita; firmas ambiguas no se resuelven; contextos no asertivos quedan candidatos');return 0
 if __name__=='__main__':raise SystemExit(main())
