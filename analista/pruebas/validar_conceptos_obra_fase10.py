@@ -65,6 +65,14 @@ def main() -> int:
         mod.norm(row["designacion_operativa"]) for row in single_concepts
     }
 
+    # El guion bajo es una frontera formal. La recuperación léxica no puede
+    # cortar a ambos lados y reconstruir después una falsa frase que lo atraviese.
+    underscored = mod.lexical_spans("La variable forma_específica queda registrada.")
+    assert not any("_" in literal for _, _, _, literal in underscored)
+    assert not any(key == "forma_específica" for _, _, key, _ in underscored)
+    spaced = mod.lexical_spans("La forma específica queda registrada.")
+    assert any(key == "forma específica" for _, _, key, _ in spaced)
+
     print(
         "OK conceptos_obra_fase10: recuperación formal/recurrente sin identidad inferida"
     )
