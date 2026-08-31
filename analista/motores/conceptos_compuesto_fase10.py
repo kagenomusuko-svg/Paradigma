@@ -237,15 +237,20 @@ def glossary_entries(path: Path) -> list[tuple[str, int, str]]:
         return []
 
     tail = lines[start + 1 :]
+    colon_terms = []
+    for x in tail:
+        raw = x.strip()
+        if _is_structural(raw):
+            continue
+        m = INLINE_COLON.match(raw)
+        if m and _term_candidate(m.group("t").strip()):
+            colon_terms.append(m.group("t").strip())
+
     if any(ARROW.match(x.strip()) for x in tail):
         out = _arrow_entries(lines, start)
     elif sum(bool(REFERENCE_DASH.match(x.strip())) for x in tail) >= 2:
         out = _reference_entries(lines, start)
-    elif sum(
-        bool(INLINE_COLON.match(x.strip()))
-        for x in tail
-        if not _is_structural(x)
-    ) >= 3:
+    elif len(colon_terms) >= 3:
         out = _colon_entries(lines, start)
     else:
         out = _plain_entries(lines, start)
