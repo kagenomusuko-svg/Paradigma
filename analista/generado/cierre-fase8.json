@@ -1,0 +1,943 @@
+{
+  "cierre_cuantitativo": true,
+  "criterio": "general_y_desafio_separados; control_solo_negativos_explicito_con_fp_cero_y_positivos_complementarios; combinado_informativo",
+  "detalle": [
+    {
+      "estado": "cumple",
+      "estrato": "general",
+      "metricas": [
+        {
+          "cumple": true,
+          "metrica": "unidades_procesadas",
+          "minimo": 1,
+          "razon": null,
+          "valor": 31
+        },
+        {
+          "cumple": true,
+          "metrica": "positivos_esperados",
+          "minimo": 0,
+          "razon": null,
+          "valor": 114
+        },
+        {
+          "cumple": true,
+          "metrica": "predicciones_emitidas",
+          "minimo": 0,
+          "razon": null,
+          "valor": 114
+        },
+        {
+          "cumple": true,
+          "metrica": "verdaderos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 114
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_negativos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "consistencia_conteos",
+          "razon": null,
+          "valor": true
+        },
+        {
+          "cumple": true,
+          "metrica": "precision",
+          "minimo": 0.95,
+          "razon": null,
+          "valor": 1.0
+        },
+        {
+          "cumple": true,
+          "metrica": "cobertura",
+          "minimo": 0.9,
+          "razon": null,
+          "valor": 1.0
+        },
+        {
+          "cumple": true,
+          "metrica": "exactitud_identidad",
+          "minimo": 1.0,
+          "razon": null,
+          "valor": 1.0
+        }
+      ],
+      "metricas_no_aplicables": [],
+      "modo": "umbral",
+      "motor": "conceptos_apariciones"
+    },
+    {
+      "estado": "cumple",
+      "estrato": "desafio",
+      "metricas": [
+        {
+          "cumple": true,
+          "metrica": "unidades_procesadas",
+          "minimo": 1,
+          "razon": null,
+          "valor": 10
+        },
+        {
+          "cumple": true,
+          "metrica": "positivos_esperados",
+          "minimo": 0,
+          "razon": null,
+          "valor": 70
+        },
+        {
+          "cumple": true,
+          "metrica": "predicciones_emitidas",
+          "minimo": 0,
+          "razon": null,
+          "valor": 70
+        },
+        {
+          "cumple": true,
+          "metrica": "verdaderos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 70
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_negativos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "consistencia_conteos",
+          "razon": null,
+          "valor": true
+        },
+        {
+          "cumple": true,
+          "metrica": "precision",
+          "minimo": 0.95,
+          "razon": null,
+          "valor": 1.0
+        },
+        {
+          "cumple": true,
+          "metrica": "cobertura",
+          "minimo": 0.9,
+          "razon": null,
+          "valor": 1.0
+        },
+        {
+          "cumple": true,
+          "metrica": "exactitud_identidad",
+          "minimo": 1.0,
+          "razon": null,
+          "valor": 1.0
+        }
+      ],
+      "metricas_no_aplicables": [],
+      "modo": "umbral",
+      "motor": "conceptos_apariciones"
+    },
+    {
+      "estado": "cumple",
+      "estrato": "general",
+      "metricas": [
+        {
+          "cumple": true,
+          "metrica": "unidades_procesadas",
+          "minimo": 1,
+          "razon": null,
+          "valor": 31
+        },
+        {
+          "cumple": true,
+          "metrica": "positivos_esperados",
+          "minimo": 0,
+          "razon": null,
+          "valor": 12
+        },
+        {
+          "cumple": true,
+          "metrica": "predicciones_emitidas",
+          "minimo": 0,
+          "razon": null,
+          "valor": 12
+        },
+        {
+          "cumple": true,
+          "metrica": "verdaderos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 12
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_negativos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "consistencia_conteos",
+          "razon": null,
+          "valor": true
+        },
+        {
+          "cumple": true,
+          "metrica": "precision",
+          "minimo": 0.95,
+          "razon": null,
+          "valor": 1.0
+        },
+        {
+          "cumple": true,
+          "metrica": "cobertura",
+          "minimo": 0.9,
+          "razon": null,
+          "valor": 1.0
+        },
+        {
+          "cumple": true,
+          "metrica": "exactitud_clasificacion",
+          "minimo": 0.95,
+          "razon": null,
+          "valor": 1.0
+        }
+      ],
+      "metricas_no_aplicables": [],
+      "modo": "umbral",
+      "motor": "definiciones"
+    },
+    {
+      "estado": "cumple",
+      "estrato": "desafio",
+      "metricas": [
+        {
+          "cumple": true,
+          "metrica": "unidades_procesadas",
+          "minimo": 1,
+          "razon": null,
+          "valor": 7
+        },
+        {
+          "cumple": true,
+          "metrica": "positivos_esperados",
+          "minimo": 0,
+          "razon": null,
+          "valor": 21
+        },
+        {
+          "cumple": true,
+          "metrica": "predicciones_emitidas",
+          "minimo": 0,
+          "razon": null,
+          "valor": 21
+        },
+        {
+          "cumple": true,
+          "metrica": "verdaderos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 21
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_negativos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "consistencia_conteos",
+          "razon": null,
+          "valor": true
+        },
+        {
+          "cumple": true,
+          "metrica": "precision",
+          "minimo": 0.95,
+          "razon": null,
+          "valor": 1.0
+        },
+        {
+          "cumple": true,
+          "metrica": "cobertura",
+          "minimo": 0.9,
+          "razon": null,
+          "valor": 1.0
+        },
+        {
+          "cumple": true,
+          "metrica": "exactitud_clasificacion",
+          "minimo": 0.95,
+          "razon": null,
+          "valor": 1.0
+        }
+      ],
+      "metricas_no_aplicables": [],
+      "modo": "umbral",
+      "motor": "definiciones"
+    },
+    {
+      "estado": "cumple",
+      "estrato": "general",
+      "metricas": [
+        {
+          "cumple": true,
+          "metrica": "unidades_procesadas",
+          "minimo": 1,
+          "razon": null,
+          "valor": 31
+        },
+        {
+          "cumple": true,
+          "metrica": "positivos_esperados",
+          "minimo": 0,
+          "razon": null,
+          "valor": 34
+        },
+        {
+          "cumple": true,
+          "metrica": "predicciones_emitidas",
+          "minimo": 0,
+          "razon": null,
+          "valor": 34
+        },
+        {
+          "cumple": true,
+          "metrica": "verdaderos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 34
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_negativos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "consistencia_conteos",
+          "razon": null,
+          "valor": true
+        },
+        {
+          "cumple": true,
+          "metrica": "precision",
+          "minimo": 0.9,
+          "razon": null,
+          "valor": 1.0
+        },
+        {
+          "cumple": true,
+          "metrica": "cobertura",
+          "minimo": 0.85,
+          "razon": null,
+          "valor": 1.0
+        },
+        {
+          "cumple": true,
+          "metrica": "exactitud_estatus",
+          "minimo": 0.95,
+          "razon": null,
+          "valor": 1.0
+        }
+      ],
+      "metricas_no_aplicables": [],
+      "modo": "umbral",
+      "motor": "afirmaciones"
+    },
+    {
+      "estado": "cumple",
+      "estrato": "desafio",
+      "metricas": [
+        {
+          "cumple": true,
+          "metrica": "unidades_procesadas",
+          "minimo": 1,
+          "razon": null,
+          "valor": 12
+        },
+        {
+          "cumple": true,
+          "metrica": "positivos_esperados",
+          "minimo": 0,
+          "razon": null,
+          "valor": 26
+        },
+        {
+          "cumple": true,
+          "metrica": "predicciones_emitidas",
+          "minimo": 0,
+          "razon": null,
+          "valor": 26
+        },
+        {
+          "cumple": true,
+          "metrica": "verdaderos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 26
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_negativos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "consistencia_conteos",
+          "razon": null,
+          "valor": true
+        },
+        {
+          "cumple": true,
+          "metrica": "precision",
+          "minimo": 0.9,
+          "razon": null,
+          "valor": 1.0
+        },
+        {
+          "cumple": true,
+          "metrica": "cobertura",
+          "minimo": 0.85,
+          "razon": null,
+          "valor": 1.0
+        },
+        {
+          "cumple": true,
+          "metrica": "exactitud_estatus",
+          "minimo": 0.95,
+          "razon": null,
+          "valor": 1.0
+        }
+      ],
+      "metricas_no_aplicables": [],
+      "modo": "umbral",
+      "motor": "afirmaciones"
+    },
+    {
+      "estado": "cumple_control_negativo",
+      "estrato": "general",
+      "metricas": [
+        {
+          "cumple": true,
+          "metrica": "unidades_procesadas",
+          "minimo": 1,
+          "razon": null,
+          "valor": 31
+        },
+        {
+          "cumple": true,
+          "metrica": "positivos_esperados",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "predicciones_emitidas",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "verdaderos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_negativos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "consistencia_conteos",
+          "razon": null,
+          "valor": true
+        },
+        {
+          "cumple": true,
+          "maximo": 0,
+          "metrica": "falsos_positivos_control_negativo",
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "positivos_estrato_complementario",
+          "minimo": 1,
+          "razon": null,
+          "valor": 21
+        }
+      ],
+      "metricas_no_aplicables": [
+        "precision",
+        "cobertura",
+        "exactitud_clasificacion"
+      ],
+      "modo": "control_solo_negativos",
+      "motor": "formulas"
+    },
+    {
+      "estado": "cumple",
+      "estrato": "desafio",
+      "metricas": [
+        {
+          "cumple": true,
+          "metrica": "unidades_procesadas",
+          "minimo": 1,
+          "razon": null,
+          "valor": 18
+        },
+        {
+          "cumple": true,
+          "metrica": "positivos_esperados",
+          "minimo": 0,
+          "razon": null,
+          "valor": 21
+        },
+        {
+          "cumple": true,
+          "metrica": "predicciones_emitidas",
+          "minimo": 0,
+          "razon": null,
+          "valor": 21
+        },
+        {
+          "cumple": true,
+          "metrica": "verdaderos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 21
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_negativos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "consistencia_conteos",
+          "razon": null,
+          "valor": true
+        },
+        {
+          "cumple": true,
+          "metrica": "precision",
+          "minimo": 0.98,
+          "razon": null,
+          "valor": 1.0
+        },
+        {
+          "cumple": true,
+          "metrica": "cobertura",
+          "minimo": 0.95,
+          "razon": null,
+          "valor": 1.0
+        },
+        {
+          "cumple": true,
+          "metrica": "exactitud_clasificacion",
+          "minimo": 0.98,
+          "razon": null,
+          "valor": 1.0
+        }
+      ],
+      "metricas_no_aplicables": [],
+      "modo": "umbral",
+      "motor": "formulas"
+    },
+    {
+      "estado": "cumple",
+      "estrato": "general",
+      "metricas": [
+        {
+          "cumple": true,
+          "metrica": "unidades_procesadas",
+          "minimo": 1,
+          "razon": null,
+          "valor": 31
+        },
+        {
+          "cumple": true,
+          "metrica": "positivos_esperados",
+          "minimo": 0,
+          "razon": null,
+          "valor": 14
+        },
+        {
+          "cumple": true,
+          "metrica": "predicciones_emitidas",
+          "minimo": 0,
+          "razon": null,
+          "valor": 14
+        },
+        {
+          "cumple": true,
+          "metrica": "verdaderos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 14
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_negativos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "consistencia_conteos",
+          "razon": null,
+          "valor": true
+        },
+        {
+          "cumple": true,
+          "metrica": "precision",
+          "minimo": 1.0,
+          "razon": null,
+          "valor": 1.0
+        },
+        {
+          "cumple": true,
+          "metrica": "cobertura",
+          "minimo": 0.95,
+          "razon": null,
+          "valor": 1.0
+        },
+        {
+          "cumple": true,
+          "metrica": "exactitud_clasificacion",
+          "minimo": 1.0,
+          "razon": null,
+          "valor": 1.0
+        }
+      ],
+      "metricas_no_aplicables": [],
+      "modo": "umbral",
+      "motor": "relaciones_explicitas"
+    },
+    {
+      "estado": "cumple",
+      "estrato": "desafio",
+      "metricas": [
+        {
+          "cumple": true,
+          "metrica": "unidades_procesadas",
+          "minimo": 1,
+          "razon": null,
+          "valor": 2
+        },
+        {
+          "cumple": true,
+          "metrica": "positivos_esperados",
+          "minimo": 0,
+          "razon": null,
+          "valor": 14
+        },
+        {
+          "cumple": true,
+          "metrica": "predicciones_emitidas",
+          "minimo": 0,
+          "razon": null,
+          "valor": 14
+        },
+        {
+          "cumple": true,
+          "metrica": "verdaderos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 14
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_negativos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 0
+        },
+        {
+          "cumple": true,
+          "metrica": "consistencia_conteos",
+          "razon": null,
+          "valor": true
+        },
+        {
+          "cumple": true,
+          "metrica": "precision",
+          "minimo": 1.0,
+          "razon": null,
+          "valor": 1.0
+        },
+        {
+          "cumple": true,
+          "metrica": "cobertura",
+          "minimo": 0.95,
+          "razon": null,
+          "valor": 1.0
+        },
+        {
+          "cumple": true,
+          "metrica": "exactitud_clasificacion",
+          "minimo": 1.0,
+          "razon": null,
+          "valor": 1.0
+        }
+      ],
+      "metricas_no_aplicables": [],
+      "modo": "umbral",
+      "motor": "relaciones_explicitas"
+    },
+    {
+      "estado": "cumple",
+      "estrato": "general",
+      "metricas": [
+        {
+          "cumple": true,
+          "metrica": "unidades_procesadas",
+          "minimo": 1,
+          "razon": null,
+          "valor": 31
+        },
+        {
+          "cumple": true,
+          "metrica": "positivos_esperados",
+          "minimo": 0,
+          "razon": null,
+          "valor": 96
+        },
+        {
+          "cumple": true,
+          "metrica": "predicciones_emitidas",
+          "minimo": 0,
+          "razon": null,
+          "valor": 92
+        },
+        {
+          "cumple": true,
+          "metrica": "verdaderos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 87
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 5
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_negativos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 9
+        },
+        {
+          "cumple": true,
+          "metrica": "consistencia_conteos",
+          "razon": null,
+          "valor": true
+        },
+        {
+          "cumple": true,
+          "metrica": "precision",
+          "minimo": 0.9,
+          "razon": null,
+          "valor": 0.9456521739130435
+        },
+        {
+          "cumple": true,
+          "metrica": "cobertura",
+          "minimo": 0.85,
+          "razon": null,
+          "valor": 0.90625
+        },
+        {
+          "cumple": true,
+          "metrica": "exactitud_clasificacion",
+          "minimo": 0.95,
+          "razon": null,
+          "valor": 1.0
+        }
+      ],
+      "metricas_no_aplicables": [],
+      "modo": "umbral",
+      "motor": "limitadores"
+    },
+    {
+      "estado": "cumple",
+      "estrato": "desafio",
+      "metricas": [
+        {
+          "cumple": true,
+          "metrica": "unidades_procesadas",
+          "minimo": 1,
+          "razon": null,
+          "valor": 27
+        },
+        {
+          "cumple": true,
+          "metrica": "positivos_esperados",
+          "minimo": 0,
+          "razon": null,
+          "valor": 132
+        },
+        {
+          "cumple": true,
+          "metrica": "predicciones_emitidas",
+          "minimo": 0,
+          "razon": null,
+          "valor": 126
+        },
+        {
+          "cumple": true,
+          "metrica": "verdaderos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 115
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_positivos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 11
+        },
+        {
+          "cumple": true,
+          "metrica": "falsos_negativos",
+          "minimo": 0,
+          "razon": null,
+          "valor": 17
+        },
+        {
+          "cumple": true,
+          "metrica": "consistencia_conteos",
+          "razon": null,
+          "valor": true
+        },
+        {
+          "cumple": true,
+          "metrica": "precision",
+          "minimo": 0.9,
+          "razon": null,
+          "valor": 0.9126984126984127
+        },
+        {
+          "cumple": true,
+          "metrica": "cobertura",
+          "minimo": 0.85,
+          "razon": null,
+          "valor": 0.8712121212121212
+        },
+        {
+          "cumple": true,
+          "metrica": "exactitud_clasificacion",
+          "minimo": 0.95,
+          "razon": null,
+          "valor": 1.0
+        }
+      ],
+      "metricas_no_aplicables": [],
+      "modo": "umbral",
+      "motor": "limitadores"
+    }
+  ],
+  "fase": 8,
+  "obra_id": "AA-SP-V1",
+  "version": "1.1.0",
+  "version_reporte": "1.1.0"
+}
