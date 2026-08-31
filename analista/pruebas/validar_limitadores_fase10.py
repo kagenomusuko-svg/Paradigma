@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regresiones mecánicas de 4F para repetición controlada de Fase 10.
+"""Regresiones mecánicas de 4F v1.1.1 para repetición controlada de Fase 10.
 
 Los IDs deben identificar ocurrencias textuales, no solo contenido y línea. Dos
 limitadores literales iguales en una misma línea siguen siendo dos ocurrencias
@@ -31,6 +31,7 @@ def unit(uid: str, text: str) -> dict:
 
 
 def main() -> int:
+    assert mod.VERSION == "1.1.1"
     repeated = mod.negations(unit("UT-N", "No procede. No procede."))
     assert len(repeated) == 2, repeated
     assert [row["texto_literal"] for row in repeated] == ["No procede", "No procede"]
@@ -41,7 +42,7 @@ def main() -> int:
     assert all(row["clasificacion_negacion"] == "negacion_explicita" for row in repeated)
     assert all(row["producido_por"] == {"motor": "limitadores", "version": "1.1.1"} for row in repeated)
 
-    print("OK Fase 10 4F: ocurrencias repetidas en una misma línea conservan IDs únicos")
+    print("OK Fase 10 4F v1.1.1: ocurrencias repetidas en una misma línea conservan IDs únicos")
     return 0
 
 
