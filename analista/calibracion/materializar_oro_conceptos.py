@@ -129,7 +129,7 @@ def materialize() -> tuple[bytes, bytes]:
         declarations.setdefault(declaration["unidad_id"], []).append(declaration)
 
     general_rows = []
-    for unit_id in lock["desafios"]["general"]:
+    for unit_id in lock["general"]:
         items = appearance_items(units[unit_id], terms)
         for declaration in declarations.get(unit_id, []):
             items.append(

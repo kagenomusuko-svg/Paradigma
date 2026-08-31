@@ -78,7 +78,7 @@ def materialize() -> bytes:
         for row in load_jsonl(UNITS)
         if row.get("fuente_id") == PILOTO_ID
     }
-    general = lock["desafios"]["general"]
+    general = lock["general"]
     challenge = lock["desafios"]["afirmaciones"]
     ordered: list[str] = []
     for unit_id in [*general, *challenge]:

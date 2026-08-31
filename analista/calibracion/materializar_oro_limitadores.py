@@ -39,7 +39,7 @@ def anchored(a,u):
  return row
 def materialize():
  policy=json.loads(POLICY.read_text(encoding='utf-8')); lock=json.loads(LOCK.read_text(encoding='utf-8')); units={r['id']:r for r in load_jsonl(UNITS) if r.get('fuente_id')==PILOTO}
- challenge=lock['desafios']['limitadores']; general=lock['desafios']['general']; ids=[]
+ challenge=lock['desafios']['limitadores']; general=lock['general']; ids=[]
  for uid in general+challenge:
   if uid not in ids: ids.append(uid)
  by={uid:[] for uid in ids}
