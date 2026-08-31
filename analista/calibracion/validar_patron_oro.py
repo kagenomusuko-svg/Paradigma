@@ -201,7 +201,7 @@ def validate_rows(*, rows: list[tuple[Path, int, dict]], schema: Path, lock: Pat
         frozen.update(lock_doc["desafios"][motor])
 
     seen_entries: set[tuple[str, str]] = set()
-    seen_items: set[tuple] = set()
+    item_multiplicity: dict[tuple, int] = {}
     total_items = 0
 
     for origin, number, row in rows:
@@ -275,9 +275,14 @@ def validate_rows(*, rows: list[tuple[Path, int, dict]], schema: Path, lock: Pat
                 item.get("termino_b_literal"), item.get("objeto_negado_literal"),
                 item.get("fragmento_literal"),
             )
-            if detection_identity in seen_items:
-                raise AssertionError(f"Ítem manual duplicado: {detection_identity[:5]}")
-            seen_items.add(detection_identity)
+            multiplicity = item_multiplicity.get(detection_identity, 0) + 1
+            available = excerpt.count(literal)
+            if multiplicity > available:
+                raise AssertionError(
+                    "Multiplicidad manual no respaldada por evidencia literal: "
+                    f"{detection_identity[:5]} ({multiplicity}>{available})"
+                )
+            item_multiplicity[detection_identity] = multiplicity
 
     return {
         "revisiones": len(rows),
