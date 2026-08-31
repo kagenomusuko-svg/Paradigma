@@ -72,9 +72,10 @@ jobs:
           python analista/motores/auditor_descriptivo.py
           python analista/pruebas/validar_auditor_descriptivo_fase7b.py
 
-      - name: Confirmar patrón y cierre cuantitativo Fase 8
+      - name: Confirmar patrón, infraestructura y cierre cuantitativo Fase 8
         run: |
           python analista/pruebas/validar_patron_oro_fase8.py
+          python analista/pruebas/validar_infra_calibracion_fase8.py
           python analista/pruebas/validar_calibracion_conceptos_fase8.py
           python analista/pruebas/validar_calibracion_definiciones_fase8.py
           python analista/pruebas/validar_calibracion_afirmaciones_fase8.py

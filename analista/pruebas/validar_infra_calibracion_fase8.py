@@ -104,12 +104,12 @@ def report(payload: dict) -> dict:
 
 
 def main() -> int:
-    # El selector necesita los productos raros para reconstruir el mismo lock.
-    subprocess.run([sys.executable, "analista/motores/formulas.py"], cwd=ROOT, check=True)
-    subprocess.run([sys.executable, "analista/motores/limitadores.py"], cwd=ROOT, check=True)
+    # La muestra está congelada: el selector valida lock, procedencia y snapshot
+    # de unidades; no reconstruye desafíos desde productos de extractores.
     selected = subprocess.run(
-        [sys.executable, str(SELECTOR)], cwd=ROOT, text=True, capture_output=True, check=True
+        [sys.executable, str(SELECTOR)], cwd=ROOT, text=True, capture_output=True
     )
+    assert selected.returncode == 0, (selected.returncode, selected.stdout, selected.stderr)
     selector_report = json.loads(selected.stdout.strip().splitlines()[-1])
     assert selector_report == {
         "lock_verificado": True,
