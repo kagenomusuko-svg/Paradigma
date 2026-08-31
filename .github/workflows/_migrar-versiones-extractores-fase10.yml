@@ -54,7 +54,7 @@ jobs:
           rep('analista/pruebas/validar_limitadores_fase4f.py', "{'motor':'limitadores','version':'1.1.0'}", "{'motor':'limitadores','version':'1.1.1'}")
           rep('analista/pruebas/validar_limitadores_fase4f.py', "c['version_motor']=='1.1.0'", "c['version_motor']=='1.1.1'")
 
-          rep('analista/motores/verificador_evidencia.py', '"limitadores": ("limitadores", "1.1.0"),', '"limitadores": ("limitadores", "1.1.1"),')
+          rep('analista/motores/verificador_evidencia.py', '("limitadores", "1.1.0")', '("limitadores", "1.1.1")', expected=4)
 
           rep('analista/pruebas/validar_obra_fase10.py', '"conceptos_apariciones":"1.3.0"', '"conceptos_apariciones":"1.3.1"')
           rep('analista/pruebas/validar_obra_fase10.py', '"relaciones_explicitas":"1.2.0"', '"relaciones_explicitas":"1.2.1"')
@@ -71,8 +71,6 @@ jobs:
               '   assert manifest["versiones_extractores"]["conceptos_apariciones"]=="1.3.1"\n   assert manifest["versiones_extractores"]["relaciones_explicitas"]=="1.2.1"\n   assert manifest["versiones_extractores"]["limitadores"]=="1.1.1"',
           )
 
-          # Guardia final: los archivos que ejecutan o validan estas revisiones no
-          # pueden conservar las etiquetas anteriores de los tres extractores.
           guards = {
               'analista/motores/conceptos_compuesto_fase10.py': ['VERSION = "1.3.0"'],
               'analista/motores/relaciones_compuesto_fase10.py': ['VERSION="1.2.0"'],
