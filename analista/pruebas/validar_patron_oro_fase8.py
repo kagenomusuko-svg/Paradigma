@@ -30,7 +30,7 @@ def main():
  for m in MATERIALIZERS:subprocess.run([sys.executable,str(m)],cwd=ROOT,check=True)
  rows=mod.manifest_rows(MANIFEST);result=mod.validate_manifest(manifest=MANIFEST,schema=SCHEMA,lock=LOCK,units=UNITS,corpus_root=ROOT)
  expected_files=['patron-oro.jsonl','patron-oro-formulas.jsonl','patron-oro-formulas-general.jsonl','patron-oro-relaciones-general.jsonl','patron-oro-relaciones-desafio-v2.jsonl','patron-oro-relaciones-general-correccion-v2.jsonl','patron-oro-definiciones-general.jsonl','patron-oro-conceptos-desafio.jsonl','patron-oro-conceptos-general.jsonl','patron-oro-afirmaciones.jsonl','patron-oro-limitadores.jsonl']
- assert result=={'revisiones':259,'items':542,'motores':['afirmaciones','conceptos_apariciones','definiciones','formulas','limitadores','relaciones_explicitas'],'archivos_gold':expected_files,'reemplazos':3},result
+ assert result=={'revisiones':258,'items':539,'motores':['afirmaciones','conceptos_apariciones','definiciones','formulas','limitadores','relaciones_explicitas'],'archivos_gold':expected_files,'reemplazos':4},result
  strata=Counter((r['motor'],s) for r in rows for s in r['estratos'])
  assert strata==Counter({('conceptos_apariciones','general'):31,('conceptos_apariciones','desafio'):10,('definiciones','general'):31,('definiciones','desafio'):7,('afirmaciones','general'):31,('afirmaciones','desafio'):12,('formulas','general'):31,('formulas','desafio'):18,('relaciones_explicitas','general'):31,('relaciones_explicitas','desafio'):2,('limitadores','general'):31,('limitadores','desafio'):27})
  _,cg=items(rows,'conceptos_apariciones','general');_,cd=items(rows,'conceptos_apariciones','desafio');assert len(cg)==114 and sum(i['tipo_registro']=='concepto' for i in cg)==3 and sum(i['tipo_registro']=='aparicion_conceptual' and i['concepto_designacion'] is not None for i in cg)==17;assert len(cd)==70 and sum(i['concepto_designacion'] is not None for i in cd)==8
@@ -47,6 +47,6 @@ def main():
  mutated=copy.deepcopy(rows);mutated[0]['estratos']=['general'];expect_failure(mutated,'marcado general')
  mutated=copy.deepcopy(rows);mutated[0]['items_esperados'][0]['tipo_registro']='formula';expect_failure(mutated,'no pertenece al motor')
  expect_manifest_failure(lambda d:d['reemplazos'].append(copy.deepcopy(d['reemplazos'][0])),'Reemplazo duplicado unidad–motor');expect_manifest_failure(lambda d:d['reemplazos'][0].update({'archivo_origen':'inexistente.jsonl'}),'archivo no declarado');expect_manifest_failure(lambda d:d['reemplazos'][0].update({'archivo_sustituto':'patron-oro.jsonl'}),'Origen y sustituto no pueden coincidir')
- print('OK Fase 8 infraestructura: 259 revisiones/542 ítems; seis motores manifestados; 3 sustituciones históricas explícitas; gold 4F=56 revisiones/218 ítems.')
+ print('OK Fase 8 infraestructura: 258 revisiones/539 ítems; seis motores manifestados; 4 sustituciones históricas explícitas; gold 4F=56 revisiones/218 ítems.')
  return 0
 if __name__=='__main__':raise SystemExit(main())
