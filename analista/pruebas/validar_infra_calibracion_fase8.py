@@ -23,7 +23,6 @@ SELECTOR = CAL / "seleccionar_muestra.py"
 EVALUATOR = CAL / "evaluar.py"
 SCHEMA = CAL / "patron-oro-v1.0.0.schema.json"
 GENERATED = ROOT / "analista/generado"
-RELATION_UNIT = "UT-BEF6D53FB3C7"
 
 
 def load_jsonl(path: Path) -> list[dict]:
@@ -136,19 +135,33 @@ def main() -> int:
         # Aislamiento real: para evaluar relaciones no se materializan salidas de
         # fórmulas, afirmaciones, definiciones, limitadores ni apariciones.
         shutil.copy2(GENERATED / "conceptos.jsonl", fixture / "conceptos.jsonl")
-        shutil.copy2(GENERATED / "relaciones-explicitas.jsonl", fixture / "relaciones-explicitas.jsonl")
 
-        actual = [
-            item
-            for item in evaluator.extracted_items(fixture, "relaciones_explicitas")
-            if item["unidad_id"] == RELATION_UNIT
-        ]
-        assert len(actual) == 3, "El fixture de relaciones cambió; revisar la prueba de infraestructura."
+        # El fixture siempre contiene exactamente tres filas reales de una misma
+        # unidad. No depende de que el extractor de producción conserve para
+        # siempre un conteo histórico concreto en una unidad prefijada.
+        by_unit: dict[str, list[dict]] = {}
+        for row in load_jsonl(GENERATED / "relaciones-explicitas.jsonl"):
+            unit_id = row.get("unidad_id")
+            if unit_id:
+                by_unit.setdefault(unit_id, []).append(row)
+        eligible = sorted(
+            (unit_id, rows)
+            for unit_id, rows in by_unit.items()
+            if len(rows) >= 3
+        )
+        assert eligible, "Se requieren al menos tres relaciones reales en una misma unidad para el fixture sintético."
+        relation_unit, source_rows = eligible[0]
+        fixture_rows = sorted(source_rows, key=lambda row: row["id"])[:3]
+        dump_jsonl(fixture / "relaciones-explicitas.jsonl", fixture_rows)
+
+        actual = evaluator.extracted_items(fixture, "relaciones_explicitas")
+        assert len(actual) == 3
+        assert {item["unidad_id"] for item in actual} == {relation_unit}
 
         entry = {
             "version": "1.0.0",
             "obra_id": "AA-SP-V1",
-            "unidad_id": RELATION_UNIT,
+            "unidad_id": relation_unit,
             "motor": "relaciones_explicitas",
             "estratos": ["desafio"],
             "revision_manual": True,
@@ -211,8 +224,8 @@ def main() -> int:
 
     print(
         "OK infraestructura Fase 8: lock reproducible (96 unidades); esquema manual válido; "
-        "manifiesto aislado por motor; reporte v1.1 expone denominadores y distingue TP/FP/FN; "
-        "duplicados unidad–motor rechazados."
+        "fixture aislado de tres relaciones reales; manifiesto aislado por motor; reporte v1.1 "
+        "expone denominadores y distingue TP/FP/FN; duplicados unidad–motor rechazados."
     )
     return 0
 
