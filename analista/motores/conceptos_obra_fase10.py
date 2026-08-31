@@ -52,7 +52,7 @@ DEFINITIONAL_RES = (
         re.IGNORECASE,
     ),
 )
-SENTENCE_BREAK_RE = re.compile(r"[.!?;:\n]")
+SENTENCE_BREAK_RE = re.compile(r"[.!?;:\n_]")
 ROMAN_RE = re.compile(r"^[IVXLCDM]+$", re.IGNORECASE)
 
 # Palabras funcionales: se usan solo para evitar que una secuencia puramente
