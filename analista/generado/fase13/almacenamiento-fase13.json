@@ -1,0 +1,82 @@
+{
+  "almacenamiento": {
+    "asset": "analista-fase13-cierre-v1.0.0.zip",
+    "asset_bytes": 591868985,
+    "asset_sha256": "2639d6467669a92428d57eaafab732976878c0373a646d0864014dc4b51d399b",
+    "raiz_al_extraer": "analista/generado",
+    "raiz_contenida": "fase13",
+    "release_tag": "analista-fase13-cierre-v1.0.0",
+    "tipo": "github_release_asset_zip"
+  },
+  "clausura_descriptiva": {
+    "complementariedad_inferida": false,
+    "contradiccion_inferida": false,
+    "definicion_preferida": false,
+    "equivalencia_inferida": false,
+    "evolucion_doctrinal_inferida": false,
+    "formula_concepto_inferida": false,
+    "identidad_interobra_inferida": false,
+    "reconciliacion_interobra": false,
+    "resolucion_doctrinal": "no_realizada",
+    "sintesis_doctrinal": false
+  },
+  "estado": "evidencia_validada_persistida_fuera_de_blobs_git",
+  "fase": 13,
+  "gate": {
+    "cierre_sha256": "e34b31186342581dda03c7566789b05bbb073acd6810a937ab963f5834c13b5a",
+    "conceptos": 84998,
+    "fase13_cerrada": true,
+    "formulas": 5311,
+    "head_sha": "148773555f6042340b87b8fb71e5fa769bec01ac",
+    "maestros_obra": 20,
+    "predicaciones_trazables": 1307992,
+    "restricciones": 180
+  },
+  "origen_fase10": {
+    "asset": "analista-fase10-cierre-global.zip",
+    "asset_sha256": "13b580dcdcb83f1f15a4008a7e423ca733a6a5e48e467ef30f212d7a7403a3d8",
+    "maestros": 20,
+    "release_tag": "analista-fase10-cierre-v1.2.2",
+    "reporte_sha256": "17261e7f61888fd390466abe3ec4f16291db3a9064f54ed2e66aa763a2515413"
+  },
+  "origen_fase11": {
+    "asset": "analista-fase11-cierre-v1.0.0.zip",
+    "asset_sha256": "326ad7ebec885d303c543e3b3c5d798ec60300ac42aefdd6aebede54ca26d00c",
+    "cierre_sha256": "e6cd4168cb27980339a7334b47680b620a801a6a38c92f642a5bd10bd52f4ea0",
+    "motores": 9,
+    "release_tag": "analista-fase11-cierre-v1.0.0"
+  },
+  "origen_fase12": {
+    "asset": "analista-fase12-cierre-v1.0.0.zip",
+    "asset_sha256": "bc9f272839b4fa9032c7da3bd2b34994f111e7aa8909e7aa294f7226bcd5876f",
+    "cierre_sha256": "a77fab72969325ce106ac07aa898401c0ec978cb89ebf331550b7fe11624fabd",
+    "expedientes_transversales": 84998,
+    "release_tag": "analista-fase12-cierre-v1.0.0"
+  },
+  "productos": [
+    {
+      "ruta_en_zip": "fase13/maestro-corpus.json",
+      "sha256": "87d53647435c963daed8c9c7c149abae015818e82e24d3fb10ce657bd588ac28",
+      "tipo": "maestro_corpus"
+    },
+    {
+      "registros": 84998,
+      "ruta_en_zip": "fase13/conceptos-maestro-corpus.jsonl",
+      "sha256": "bb9521e4a7f831d7a7cd2ead891182e5a3e9a97441017e33273cad1ad1c7d49a",
+      "tipo": "conceptos_maestro_corpus"
+    },
+    {
+      "registros": 5311,
+      "ruta_en_zip": "fase13/formulas-corpus.jsonl",
+      "sha256": "ebccc1e6918613243afe7b486e5b27ed4d1d090440c3eb941a686cf58801735c",
+      "tipo": "formulas_corpus"
+    },
+    {
+      "registros": 180,
+      "ruta_en_zip": "fase13/restricciones-corpus.jsonl",
+      "sha256": "58c33541d7f07047d7dc0f8a19d3efbbfb971cd37aa86f295f8a7e7ef8ca5727",
+      "tipo": "restricciones_corpus"
+    }
+  ],
+  "version": "1.0.0"
+}
