@@ -1,0 +1,184 @@
+name: Analista Fase 10 - persistir artefacto validado
+
+on:
+  push:
+    branches: [analisis-textual-v0.1]
+    paths:
+      - ".github/workflows/analista-fase10-persistir-artefacto.yml"
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: write
+
+jobs:
+  persistir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      ARTIFACT_ID: "9781983506"
+      ARTIFACT_RUN_ID: "33452333414"
+      VALIDATED_SHA: "c0d4abd1b1dd15122d9cf5af741d3772f0d16354"
+      EXPECTED_ZIP_SHA256: "13b580dcdcb83f1f15a4008a7e423ca733a6a5e48e467ef30f212d7a7403a3d8"
+      EXPECTED_REPORT_SHA256: "17261e7f61888fd390466abe3ec4f16291db3a9064f54ed2e66aa763a2515413"
+      RELEASE_TAG: "analista-fase10-cierre-v1.2.2"
+      ASSET_NAME: "analista-fase10-cierre-global.zip"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: analisis-textual-v0.1
+
+      - name: Descargar artefacto exacto publicado por #50
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 3 \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/artifacts/${ARTIFACT_ID}/zip" \
+            --output "${ASSET_NAME}"
+          actual="$(sha256sum "${ASSET_NAME}" | awk '{print $1}')"
+          test "${actual}" = "${EXPECTED_ZIP_SHA256}"
+          echo "ZIP exacto verificado: ${actual}"
+
+      - name: Verificar cierre, sidecars y los 20 maestros dentro del ZIP
+        run: |
+          python - <<'PY'
+          import hashlib, json, os
+          from zipfile import ZipFile
+          asset=os.environ['ASSET_NAME']
+          expected_report=os.environ['EXPECTED_REPORT_SHA256']
+          with ZipFile(asset) as z:
+              names=set(z.namelist())
+              required={'fase10/cierre-fase10.json','fase10/cierre-fase10.json.sha256','fase10/inventario-obras.json'}
+              assert required <= names, required-names
+              report_bytes=z.read('fase10/cierre-fase10.json')
+              report_sha=hashlib.sha256(report_bytes).hexdigest()
+              assert report_sha==expected_report,(report_sha,expected_report)
+              side=z.read('fase10/cierre-fase10.json.sha256').decode('utf-8').strip()
+              digest,filename=side.split('  ',1)
+              assert digest==report_sha and filename=='cierre-fase10.json'
+              report=json.loads(report_bytes)
+              assert report['fase']==10 and report['fase10_cerrada'] is True
+              assert report['version']=='1.2.2'
+              assert report['clausura_descriptiva']['comparacion_interobra'] is False
+              assert report['clausura_descriptiva']['sintesis_doctrinal'] is False
+              assert len(report['obras'])==20
+              master_names={n for n in names if n.startswith('maestros/') and n.endswith('.json')}
+              side_names={n for n in names if n.startswith('maestros/') and n.endswith('.json.sha256')}
+              assert len(master_names)==20,len(master_names)
+              assert len(side_names)==20,len(side_names)
+              for work in report['obras']:
+                  oid=work['obra_id']
+                  member=f'maestros/{oid}.json'
+                  side_member=f'{member}.sha256'
+                  assert member in master_names and side_member in side_names
+                  h=hashlib.sha256()
+                  with z.open(member) as f:
+                      for chunk in iter(lambda:f.read(1024*1024),b''):
+                          h.update(chunk)
+                  actual=h.hexdigest()
+                  assert actual==work['maestro_sha256'],(oid,actual,work['maestro_sha256'])
+                  sd,sn=z.read(side_member).decode('utf-8').strip().split('  ',1)
+                  assert sd==actual and sn==f'{oid}.json'
+              print(json.dumps({'fase':10,'fase10_cerrada':True,'maestros_verificados':20,'reporte_sha256':report_sha,'comparacion_interobra':False},sort_keys=True))
+          PY
+
+      - name: Crear release durable y subir el ZIP sin modificar sus bytes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          if gh release view "${RELEASE_TAG}" --repo "${GITHUB_REPOSITORY}" >/dev/null 2>&1; then
+            echo "Release ${RELEASE_TAG} ya existe; se verificará/reemplazará únicamente el activo nombrado."
+          else
+            gh release create "${RELEASE_TAG}" \
+              --repo "${GITHUB_REPOSITORY}" \
+              --target "${VALIDATED_SHA}" \
+              --title "Analista documental — cierre Fase 10 v1.2.2" \
+              --notes "Evidencia binaria exacta del gate Fase 10 #50. Contiene fase10/, obras/ y maestros/. No realiza comparación doctrinal interobra. ZIP SHA-256: ${EXPECTED_ZIP_SHA256}."
+          fi
+          gh release upload "${RELEASE_TAG}" "${ASSET_NAME}" --clobber --repo "${GITHUB_REPOSITORY}"
+          size="$(stat -c %s "${ASSET_NAME}")"
+          remote_size="$(gh api "repos/${GITHUB_REPOSITORY}/releases/tags/${RELEASE_TAG}" --jq ".assets[] | select(.name==\"${ASSET_NAME}\") | .size")"
+          test "${remote_size}" = "${size}"
+          remote_digest="$(gh api "repos/${GITHUB_REPOSITORY}/releases/tags/${RELEASE_TAG}" --jq ".assets[] | select(.name==\"${ASSET_NAME}\") | .digest // empty")"
+          if [ -n "${remote_digest}" ]; then
+            test "${remote_digest}" = "sha256:${EXPECTED_ZIP_SHA256}"
+          fi
+          echo "Release asset persistido: size=${remote_size} digest=${remote_digest:-no_expuesto_por_api}"
+
+      - name: Persistir reporte de cierre y manifiesto de almacenamiento en Git
+        run: |
+          set -euo pipefail
+          mkdir -p analista/generado/fase10
+          python - <<'PY'
+          import hashlib, json, os
+          from pathlib import Path
+          from zipfile import ZipFile
+          asset=Path(os.environ['ASSET_NAME'])
+          out=Path('analista/generado/fase10')
+          with ZipFile(asset) as z:
+              for member,name in [
+                  ('fase10/cierre-fase10.json','cierre-fase10.json'),
+                  ('fase10/cierre-fase10.json.sha256','cierre-fase10.json.sha256'),
+                  ('fase10/inventario-obras.json','inventario-obras.json'),
+              ]:
+                  (out/name).write_bytes(z.read(member))
+              report=json.loads((out/'cierre-fase10.json').read_text(encoding='utf-8'))
+          manifest={
+              'version':'1.0.0',
+              'fase':10,
+              'estado':'evidencia_validada_persistida_fuera_de_blobs_git',
+              'motivo':'productos_exceden_limite_de_tamano_de_git_normal',
+              'gate':{
+                  'run_id':int(os.environ['ARTIFACT_RUN_ID']),
+                  'head_sha':os.environ['VALIDATED_SHA'],
+                  'fase10_cerrada':True,
+                  'obras':20,
+                  'comparacion_interobra':False,
+                  'reporte_sha256':os.environ['EXPECTED_REPORT_SHA256'],
+              },
+              'almacenamiento':{
+                  'tipo':'github_release_asset_zip',
+                  'release_tag':os.environ['RELEASE_TAG'],
+                  'asset':os.environ['ASSET_NAME'],
+                  'asset_sha256':os.environ['EXPECTED_ZIP_SHA256'],
+                  'artifact_origen_id':int(os.environ['ARTIFACT_ID']),
+                  'artifact_origen_run_id':int(os.environ['ARTIFACT_RUN_ID']),
+                  'raiz_al_extraer':'analista/generado',
+                  'raices_contenidas':['fase10','maestros','obras'],
+                  'archivos':993,
+                  'bytes_descomprimidos':8107190703,
+              },
+              'maestros':[
+                  {'obra_id':w['obra_id'],'ruta_en_zip':f"maestros/{w['obra_id']}.json",'sha256':w['maestro_sha256']}
+                  for w in report['obras']
+              ],
+              'clausura_descriptiva':{
+                  'comparacion_interobra':False,
+                  'sintesis_doctrinal':False,
+                  'resolucion_doctrinal':'no_realizada',
+              },
+          }
+          payload=(json.dumps(manifest,ensure_ascii=False,sort_keys=True,indent=2)+'\n').encode('utf-8')
+          p=out/'almacenamiento-fase10.json';p.write_bytes(payload)
+          d=hashlib.sha256(payload).hexdigest()
+          (out/'almacenamiento-fase10.json.sha256').write_text(f'{d}  {p.name}\n',encoding='utf-8')
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add analista/generado/fase10/cierre-fase10.json \
+                  analista/generado/fase10/cierre-fase10.json.sha256 \
+                  analista/generado/fase10/inventario-obras.json \
+                  analista/generado/fase10/almacenamiento-fase10.json \
+                  analista/generado/fase10/almacenamiento-fase10.json.sha256
+          if git diff --cached --quiet; then
+            echo "Manifiestos ya persistidos sin cambios."
+          else
+            git commit -m "Persistir evidencia durable del cierre de Fase 10"
+            git push origin HEAD:analisis-textual-v0.1
+          fi
