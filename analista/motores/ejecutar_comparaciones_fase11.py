@@ -98,8 +98,9 @@ def main() -> int:
     args.salida_dir.mkdir(parents=True, exist_ok=True)
     index = []
     for motor in motors:
-        log_event("inicio_serializacion", motor=motor.motor)
+        log_event("inicio_ensamblado", motor=motor.motor)
         output = motor.output(masters_meta)
+        log_event("salida_ensamblada", motor=motor.motor, grupos=output["cobertura"]["grupos_emitidos"])
         filename = OUTPUTS[motor.motor]
         path = args.salida_dir / filename
         digest = write_json(path, output)
@@ -112,7 +113,9 @@ def main() -> int:
         })
         log_event("salida_escrita", motor=motor.motor, bytes_salida=path.stat().st_size, sha256=digest)
         del output
+        motor.release()
         gc.collect()
+        log_event("motor_liberado", motor=motor.motor)
 
     index_payload = {
         "version": "1.0.0",
