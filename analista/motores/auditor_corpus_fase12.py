@@ -274,8 +274,11 @@ def audit_product(
         if group.get("id") != expected_id or expected_id in group_ids:
             raise SystemExit(f"ID de grupo inválido o duplicado en {motor}: {group.get('id')}")
         group_ids.add(expected_id)
-        if group.get("estado_identidad_interobra") not in {"no_determinada", "no_aplica"}:
+        identity_state = group.get("estado_identidad_interobra")
+        if identity_state not in {"no_determinada", "no_aplica"}:
             raise SystemExit(f"Identidad interobra impropia en {motor}:{key}")
+        if motor == "distribucion_por_obra" and identity_state != "no_aplica":
+            raise SystemExit(f"Distribución por obra requiere identidad no_aplica en {motor}:{key}")
         if any(group.get(name) is not False for name in ("equivalencia_inferida", "complementariedad_inferida", "contradiccion_inferida")):
             raise SystemExit(f"Inferencia doctrinal prohibida en {motor}:{key}")
         if group.get("resolucion_doctrinal") != "no_realizada":
@@ -289,8 +292,13 @@ def audit_product(
             rid = ref.get("registro_id")
             if obra not in master_ids or not isinstance(rid, str) or not rid:
                 raise SystemExit(f"Referencia de origen inválida en {motor}:{key}")
-            if ref.get("estado_verificacion") != "verificado" or ref.get("estado_auditoria") != "auditado":
-                raise SystemExit(f"Registro no verificado/auditado en {motor}:{key}:{rid}")
+            if ref.get("estado_verificacion") != "verificado":
+                raise SystemExit(f"Registro no verificado en {motor}:{key}:{rid}")
+            if motor == "distribucion_por_obra":
+                if ref.get("tipo_registro_origen") != "expediente_maestro_obra":
+                    raise SystemExit(f"Distribución por obra requiere expediente maestro en {motor}:{key}:{rid}")
+            elif ref.get("estado_auditoria") != "auditado":
+                raise SystemExit(f"Registro no auditado en {motor}:{key}:{rid}")
             obras.add(obra)
             source_ids.add((obra, rid))
         if group.get("obra_ids") != sorted(obras):

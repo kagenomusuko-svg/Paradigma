@@ -14,10 +14,17 @@ VALIDATOR = ROOT / "pruebas/validar_cierre_fase12.py"
 SCHEMA_A = ROOT / "esquema/auditoria-corpus-fase12-v1.0.0.schema.json"
 SCHEMA_E = ROOT / "esquema/expediente-transversal-fase12-v1.0.0.schema.json"
 sys.path.insert(0, str(ROOT / "motores"))
-from auditor_corpus_fase12 import CLAUSURA_F11, EXPECTED_MOTORS, sha256_file, stable_id
+from auditor_corpus_fase12 import CLAUSURA_F11, EXPECTED_MOTORS, audit_product, sha256_file, stable_id
 
 
-def make_ref(obra: str, rid: str, tipo: str, datos: dict | None = None, texto: str = "x") -> dict:
+def make_ref(
+    obra: str,
+    rid: str,
+    tipo: str,
+    datos: dict | None = None,
+    texto: str = "x",
+    estado_auditoria: str | None = "auditado",
+) -> dict:
     return {
         "obra_id": obra,
         "titulo_obra": f"Obra {obra}",
@@ -26,7 +33,7 @@ def make_ref(obra: str, rid: str, tipo: str, datos: dict | None = None, texto: s
         "tipo_registro_origen": tipo,
         "estado_extraccion": "extraido",
         "estado_verificacion": "verificado",
-        "estado_auditoria": "auditado",
+        "estado_auditoria": estado_auditoria,
         "estatus_enunciativo": None,
         "fuente_id": obra,
         "unidad_id": "U1",
@@ -84,12 +91,29 @@ def write_product(root: Path, masters: list[dict], motor: str, groups: list[dict
     }
 
 
+def expect_audit_failure(
+    root: Path,
+    motor: str,
+    expected: dict,
+    masters: list[dict],
+    message_fragment: str,
+) -> None:
+    try:
+        audit_product(root / expected["ruta"], motor, expected, masters, lambda group: None)
+    except SystemExit as exc:
+        assert message_fragment in str(exc), str(exc)
+    else:
+        raise AssertionError(f"Se esperaba rechazo de auditoría para {motor}: {message_fragment}")
+
+
 def main() -> int:
     with tempfile.TemporaryDirectory(prefix="fase12-regresion-") as tmp:
         base = Path(tmp)
         fase11 = base / "fase11"
         fase12 = base / "fase12"
+        negatives = base / "negatives"
         fase11.mkdir()
+        negatives.mkdir()
         masters = []
         for i in range(20):
             obra = "A" if i == 0 else ("B" if i == 1 else f"W{i:02d}")
@@ -152,10 +176,9 @@ def main() -> int:
         products["variantes_terminologicas_corpus"] = write_product(
             fase11, masters, "variantes_terminologicas_corpus", [make_group("variantes_terminologicas_corpus", "yo", [c1])]
         )
+        master_ref = make_ref("A", "M-A", "expediente_maestro_obra", estado_auditoria=None)
         products["distribucion_por_obra"] = write_product(
-            fase11, masters, "distribucion_por_obra", [make_group("distribucion_por_obra", "A", [
-                make_ref("A", "M-A", "expediente_maestro_obra")
-            ], identity="no_aplica")]
+            fase11, masters, "distribucion_por_obra", [make_group("distribucion_por_obra", "A", [master_ref], identity="no_aplica")]
         )
         order_refs = [
             make_ref("A", "C1", "concepto", {"concepto_id": "C1", "apariciones_totales": 3}),
@@ -164,6 +187,50 @@ def main() -> int:
         ]
         products["orden_recurrencia"] = write_product(
             fase11, masters, "orden_recurrencia", [make_group("orden_recurrencia", "ego", order_refs)]
+        )
+
+        unaudited_concept = make_ref("A", "C-NA", "concepto", estado_auditoria=None)
+        bad_concepts = write_product(
+            negatives,
+            masters,
+            "conceptos_corpus",
+            [make_group("conceptos_corpus", "sin-auditoria", [unaudited_concept])],
+        )
+        expect_audit_failure(negatives, "conceptos_corpus", bad_concepts, masters, "Registro no auditado")
+
+        non_master_distribution = write_product(
+            negatives,
+            masters,
+            "distribucion_por_obra",
+            [make_group(
+                "distribucion_por_obra",
+                "A-invalida",
+                [make_ref("A", "C-DIST", "concepto")],
+                identity="no_aplica",
+            )],
+        )
+        expect_audit_failure(
+            negatives,
+            "distribucion_por_obra",
+            non_master_distribution,
+            masters,
+            "requiere expediente maestro",
+        )
+
+        unverified_master = make_ref("A", "M-NV", "expediente_maestro_obra", estado_auditoria=None)
+        unverified_master["estado_verificacion"] = "pendiente"
+        bad_master_distribution = write_product(
+            negatives,
+            masters,
+            "distribucion_por_obra",
+            [make_group("distribucion_por_obra", "A-no-verificada", [unverified_master], identity="no_aplica")],
+        )
+        expect_audit_failure(
+            negatives,
+            "distribucion_por_obra",
+            bad_master_distribution,
+            masters,
+            "Registro no verificado",
         )
 
         closure = {
@@ -219,7 +286,7 @@ def main() -> int:
         assert close["expedientes_transversales"] == 1
         assert close["clausura_descriptiva"]["resolucion_doctrinal"] == "no_realizada"
 
-    print("OK Fase 12: auditor transversal conserva multiplicidades y no resuelve identidad ni doctrina")
+    print("OK Fase 12: contrato especial de distribución preserva maestros verificados y auditoría estricta interna")
     return 0
 
 
