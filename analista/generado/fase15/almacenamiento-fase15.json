@@ -1,0 +1,59 @@
+{
+  "almacenamiento": {
+    "asset": "analista-fase15-cierre-v1.0.0.zip",
+    "asset_bytes": 6937,
+    "asset_sha256": "d3fe6c4b6790c25c4d2297f491689160ae542915be456c6bc379802c9ea744cc",
+    "raiz_al_extraer": "analista/generado",
+    "raiz_contenida": "fase15",
+    "release_tag": "analista-fase15-cierre-v1.0.0",
+    "tipo": "github_release_asset_zip"
+  },
+  "clausura_descriptiva": {
+    "complementariedad_inferida": false,
+    "completar_lagunas": false,
+    "contradiccion_inferida": false,
+    "equivalencia_inferida": false,
+    "generacion_doctrinal": false,
+    "presentar_inferencias_como_corpus": false,
+    "reconciliar_formulaciones": false,
+    "resolucion_doctrinal": "no_realizada",
+    "sintesis_doctrinal": false,
+    "solo_interfaz_documental": true
+  },
+  "estado": "evidencia_validada_persistida_fuera_de_blobs_git",
+  "fase": 15,
+  "gate": {
+    "abstenciones": 3,
+    "cierre_sha256": "1ddde499362abd17367dd8454ac79b6fb01b46429dc8eaf3d3620dcd06b02041",
+    "fase15_cerrada": true,
+    "head_sha": "91829d4a51fe4da51d876b28e0907b296e40d91b",
+    "paquetes_generados": 10,
+    "registros_utilizados_expuestos": 8
+  },
+  "origen_fase13": {
+    "asset_sha256": "2639d6467669a92428d57eaafab732976878c0373a646d0864014dc4b51d399b",
+    "cierre_sha256": "e34b31186342581dda03c7566789b05bbb073acd6810a937ab963f5834c13b5a",
+    "release_tag": "analista-fase13-cierre-v1.0.0"
+  },
+  "origen_fase14": {
+    "asset": "analista-fase14-cierre-v1.0.0.zip",
+    "asset_sha256": "b5eba8bd94662f8e8da243e98ece6f3797497d4528f6781b0a47879c8d60bbc9",
+    "cierre_sha256": "0755054c7c0c957322c718e8ec3f8a48aa5be090766930254b0561c697e5ebcf",
+    "consultas": 10,
+    "release_tag": "analista-fase14-cierre-v1.0.0"
+  },
+  "productos": [
+    {
+      "ruta_en_zip": "fase15/auditoria-interfaz-ia-fase15.json",
+      "sha256": "f3276ccdb63dccac3f6c9340b08d8284a957abe930f8b972f749b1859831ed3a",
+      "tipo": "auditoria_interfaz_ia"
+    },
+    {
+      "registros": 10,
+      "ruta_en_zip": "fase15/muestra-paquetes-ia-fase15.jsonl",
+      "sha256": "551a18e1984e75d3dbc294b4ceedda66c8e364c18ae84f750a7eb9da6db92150",
+      "tipo": "muestra_paquetes_interfaz_ia"
+    }
+  ],
+  "version": "1.0.0"
+}

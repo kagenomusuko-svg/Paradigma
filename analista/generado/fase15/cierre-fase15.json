@@ -1,0 +1,41 @@
+{
+  "abstencion_demostrada": true,
+  "abstenciones": 3,
+  "abstenciones_por_evidencia_literal_insuficiente": 0,
+  "auditoria_sha256": "f3276ccdb63dccac3f6c9340b08d8284a957abe930f8b972f749b1859831ed3a",
+  "clausura_descriptiva": {
+    "complementariedad_inferida": false,
+    "completar_lagunas": false,
+    "contradiccion_inferida": false,
+    "equivalencia_inferida": false,
+    "generacion_doctrinal": false,
+    "presentar_inferencias_como_corpus": false,
+    "reconciliar_formulaciones": false,
+    "resolucion_doctrinal": "no_realizada",
+    "sintesis_doctrinal": false,
+    "solo_interfaz_documental": true
+  },
+  "criterio": "respuesta_generada_expone_registros_utilizados_y_se_abstiene_sin_evidencia_suficiente",
+  "fase": 15,
+  "fase15_cerrada": true,
+  "fuente_exclusiva": "respuestas_fase14_cerradas_y_contexto_fase13_auditado",
+  "origen_fase13": {
+    "asset_sha256": "2639d6467669a92428d57eaafab732976878c0373a646d0864014dc4b51d399b",
+    "cierre_sha256": "e34b31186342581dda03c7566789b05bbb073acd6810a937ab963f5834c13b5a",
+    "release_tag": "analista-fase13-cierre-v1.0.0"
+  },
+  "origen_fase14": {
+    "asset": "analista-fase14-cierre-v1.0.0.zip",
+    "asset_sha256": "b5eba8bd94662f8e8da243e98ece6f3797497d4528f6781b0a47879c8d60bbc9",
+    "cierre_sha256": "0755054c7c0c957322c718e8ec3f8a48aa5be090766930254b0561c697e5ebcf",
+    "consultas": 10,
+    "release_tag": "analista-fase14-cierre-v1.0.0"
+  },
+  "paquetes_generados": 10,
+  "paquetes_sha256": "551a18e1984e75d3dbc294b4ceedda66c8e364c18ae84f750a7eb9da6db92150",
+  "registros_utilizados_expuestos": 8,
+  "registros_utilizados_identificables": true,
+  "reproducible_byte_a_byte": true,
+  "textos_literales_expuestos": 8,
+  "version": "1.0.0"
+}
