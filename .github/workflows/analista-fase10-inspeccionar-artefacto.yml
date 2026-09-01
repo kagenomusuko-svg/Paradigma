@@ -1,0 +1,57 @@
+name: Analista Fase 10 - inspeccionar artefacto validado
+
+on:
+  push:
+    branches: [analisis-textual-v0.1]
+    paths:
+      - ".github/workflows/analista-fase10-inspeccionar-artefacto.yml"
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: read
+
+jobs:
+  inspeccionar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Descargar y verificar artefacto exacto de #50
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ARTIFACT_ID: "9781983506"
+          EXPECTED_ZIP_SHA256: "13b580dcdcb83f1f15a4008a7e423ca733a6a5e48e467ef30f212d7a7403a3d8"
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 3 \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/artifacts/${ARTIFACT_ID}/zip" \
+            --output fase10.zip
+          actual="$(sha256sum fase10.zip | awk '{print $1}')"
+          test "${actual}" = "${EXPECTED_ZIP_SHA256}"
+          echo "ZIP_SHA256=${actual}"
+          ls -lh fase10.zip
+
+      - name: Inspeccionar estructura y tamaños sin modificar el repositorio
+        run: |
+          python - <<'PY'
+          from pathlib import PurePosixPath
+          from zipfile import ZipFile
+          z=ZipFile('fase10.zip')
+          files=[i for i in z.infolist() if not i.is_dir()]
+          print(f'ARCHIVOS={len(files)}')
+          print(f'BYTES_DESCOMPRIMIDOS={sum(i.file_size for i in files)}')
+          print(f'BYTES_COMPRIMIDOS={sum(i.compress_size for i in files)}')
+          roots=sorted({PurePosixPath(i.filename).parts[0] for i in files})
+          print('RAICES=' + ','.join(roots))
+          print('MAYORES_30:')
+          for i in sorted(files,key=lambda x:x.file_size,reverse=True)[:30]:
+              print(f'{i.file_size}\t{i.compress_size}\t{i.filename}')
+          print('MAYORES_95_MIB:')
+          big=[i for i in files if i.file_size >= 95*1024*1024]
+          for i in sorted(big,key=lambda x:x.file_size,reverse=True):
+              print(f'{i.file_size}\t{i.filename}')
+          print(f'CUENTA_MAYORES_95_MIB={len(big)}')
+          PY
