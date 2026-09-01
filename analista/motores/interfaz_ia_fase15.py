@@ -22,6 +22,7 @@ RESTRICCIONES_RESPUESTA = {
     "presentar_inferencias_como_corpus": False,
     "resolver_contradicciones": False,
     "abstenerse_sin_evidencia_suficiente": True,
+    "abstenerse_si_falta_texto_literal": True,
 }
 
 CLAUSURA_F15 = {
@@ -136,12 +137,11 @@ def use_record(result: dict[str, Any]) -> dict[str, Any]:
         raise SystemExit("Resultado F14 sin referencia documental")
     if ref.get("estado_verificacion") != "verificado" or ref.get("estado_auditoria") != "auditado":
         raise SystemExit("F15 rechazó referencia no verificada/auditada")
-    for field in ("obra_id", "registro_id", "fuente_id", "unidad_id", "localizacion", "texto_literal"):
-        if ref.get(field) in (None, "", {}):
-            raise SystemExit(f"F15 requiere referencia completa con {field}")
-    literal = ref["texto_literal"]
-    if not isinstance(literal, str) or not literal.strip():
-        raise SystemExit("F15 requiere texto literal no vacío")
+    for field in ("obra_id", "registro_id"):
+        if not isinstance(ref.get(field), str) or not ref[field]:
+            raise SystemExit(f"F15 requiere identidad documental con {field}")
+    literal = ref.get("texto_literal")
+    literal_available = isinstance(literal, str) and bool(literal.strip())
     usage_id = stable_id("F15U", {
         "tipo": result.get("tipo_hallazgo"),
         "clave": result.get("clave_recuperacion"),
@@ -155,7 +155,8 @@ def use_record(result: dict[str, Any]) -> dict[str, Any]:
         "registro_documental_id": f"{ref['obra_id']}:{ref['registro_id']}",
         "tipo_hallazgo": result.get("tipo_hallazgo"),
         "clave_recuperacion": result.get("clave_recuperacion", ""),
-        "texto_literal": literal,
+        "texto_literal": literal if literal_available else None,
+        "texto_literal_disponible": literal_available,
         "estatus_enunciativo": ref.get("estatus_enunciativo"),
         "estado_verificacion": "verificado",
         "estado_auditoria": "auditado",
@@ -223,12 +224,18 @@ def packet_from_response(
     if response.get("estado") == "hallazgo_auditado":
         if not records:
             raise SystemExit("F15 recibió hallazgo F14 sin registros")
-        state = "evidencia_disponible"
-        reason = None
-        mode = "extractiva_con_referencias"
-        text = "Evidencia auditada recuperada:\n" + "\n".join(
-            f"[{row['uso_id']}] {row['texto_literal']}" for row in records
-        )
+        if all(row["texto_literal_disponible"] for row in records):
+            state = "evidencia_disponible"
+            reason = None
+            mode = "extractiva_con_referencias"
+            text = "Evidencia auditada recuperada:\n" + "\n".join(
+                f"[{row['uso_id']}] {row['texto_literal']}" for row in records
+            )
+        else:
+            state = "abstencion"
+            reason = "evidencia_literal_insuficiente"
+            mode = "abstencion"
+            text = "No hay texto literal suficiente en todos los registros auditados recuperados para generar una respuesta extractiva."
     else:
         if records:
             raise SystemExit("F15 no puede abstenerse conservando registros como evidencia suficiente")
@@ -272,9 +279,9 @@ def packet_from_response(
                 "uso_id": row["uso_id"],
                 "obra_id": row["referencia"]["obra_id"],
                 "registro_id": row["referencia"]["registro_id"],
-                "fuente_id": row["referencia"]["fuente_id"],
-                "unidad_id": row["referencia"]["unidad_id"],
-                "localizacion": row["referencia"]["localizacion"],
+                "fuente_id": row["referencia"].get("fuente_id"),
+                "unidad_id": row["referencia"].get("unidad_id"),
+                "localizacion": row["referencia"].get("localizacion"),
             }
             for row in records
         ],

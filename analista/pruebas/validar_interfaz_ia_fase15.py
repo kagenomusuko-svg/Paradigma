@@ -63,6 +63,7 @@ def main() -> int:
     assert len(packet["registros_utilizados"]) == 1
     use = packet["registros_utilizados"][0]
     assert use["texto_literal"] == ref["texto_literal"]
+    assert use["texto_literal_disponible"] is True
     assert use["referencia"] == ref
     assert packet["respuesta_controlada"]["registros_utilizados_ids"] == [use["uso_id"]]
     assert f"[{use['uso_id']}] {ref['texto_literal']}" in packet["respuesta_controlada"]["texto"]
@@ -70,6 +71,29 @@ def main() -> int:
     assert packet["restricciones_documentales"][0]["restricciones"] == context["restricciones"]
     assert packet["restricciones_respuesta"] == RESTRICCIONES_RESPUESTA
     assert packet["clausura_descriptiva"] == CLAUSURA_F15
+
+
+    partial_ref = dict(ref)
+    partial_ref["registro_id"] = "R2"
+    partial_ref["fuente_id"] = None
+    partial_ref["unidad_id"] = None
+    partial_ref["localizacion"] = None
+    partial_ref["texto_literal"] = None
+    partial = dict(response)
+    partial["id"] = "F14R-111111111111"
+    partial["resultados"] = [{
+        "tipo_hallazgo": "registro_conceptual",
+        "clave_recuperacion": "X",
+        "expediente_fase13_id": "F13C-AAA",
+        "referencia": partial_ref,
+    }]
+    partial_packet = packet_from_response(partial, storage14, {"F13C-AAA": context}, {"X": context})
+    validator.validate(partial_packet)
+    assert partial_packet["estado"] == "abstencion"
+    assert partial_packet["motivo_abstencion"] == "evidencia_literal_insuficiente"
+    assert partial_packet["registros_utilizados"][0]["texto_literal"] is None
+    assert partial_packet["registros_utilizados"][0]["texto_literal_disponible"] is False
+    assert partial_packet["respuesta_controlada"]["registros_utilizados_ids"]
 
     negative = dict(response)
     negative["id"] = "F14R-ABCDEF123456"

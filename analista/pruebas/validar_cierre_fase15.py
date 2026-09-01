@@ -80,7 +80,7 @@ def validate_packet(
     response: dict[str, Any],
     expected_context: dict[str, dict[str, Any]],
     validator: jsonschema.Draft202012Validator,
-) -> tuple[int, int]:
+) -> tuple[int, int, int, int]:
     validator.validate(packet)
     if packet["solicitud"] != response["consulta"]:
         raise SystemExit("Paquete F15 alteró la solicitud F14")
@@ -105,18 +105,20 @@ def validate_packet(
         ref = result["referencia"]
         if record["referencia"] != ref:
             raise SystemExit("F15 alteró una referencia F14")
-        if record["texto_literal"] != ref.get("texto_literal"):
+        literal = ref.get("texto_literal")
+        literal_available = isinstance(literal, str) and bool(literal.strip())
+        if record["texto_literal_disponible"] is not literal_available:
+            raise SystemExit("F15 alteró disponibilidad de texto literal")
+        expected_literal = literal if literal_available else None
+        if record["texto_literal"] != expected_literal:
             raise SystemExit("F15 alteró texto literal")
         if record["estado_verificacion"] != "verificado" or record["estado_auditoria"] != "auditado":
             raise SystemExit("F15 emitió registro sin estados auditados")
         if trace["uso_id"] != record["uso_id"]:
             raise SystemExit("Traza F15 no apunta al registro utilizado")
         for field in ("obra_id", "registro_id", "fuente_id", "unidad_id", "localizacion"):
-            if trace[field] != ref[field]:
+            if trace[field] != ref.get(field):
                 raise SystemExit(f"Traza F15 divergente en {field}")
-        marker = f"[{record['uso_id']}] {record['texto_literal']}"
-        if marker not in packet["respuesta_controlada"]["texto"]:
-            raise SystemExit("Respuesta controlada F15 no muestra texto literal e ID de uso")
 
     for context in packet["hallazgos_auditoria"]:
         exp = context["expediente_fase13_id"]
@@ -132,11 +134,22 @@ def validate_packet(
             raise SystemExit("F15 alteró restricciones documentales F13")
 
     if response["estado"] == "hallazgo_auditado":
-        if packet["estado"] != "evidencia_disponible" or packet["motivo_abstencion"] is not None:
-            raise SystemExit("F15 se abstuvo pese a evidencia F14 disponible")
-        if packet["respuesta_controlada"]["modo"] != "extractiva_con_referencias":
-            raise SystemExit("F15 no usa respuesta extractiva con evidencia")
-        return len(records), 0
+        texts = sum(1 for row in records if row["texto_literal_disponible"])
+        if texts == len(records):
+            if packet["estado"] != "evidencia_disponible" or packet["motivo_abstencion"] is not None:
+                raise SystemExit("F15 se abstuvo pese a texto literal suficiente")
+            if packet["respuesta_controlada"]["modo"] != "extractiva_con_referencias":
+                raise SystemExit("F15 no usa respuesta extractiva con evidencia")
+            for record in records:
+                marker = f"[{record['uso_id']}] {record['texto_literal']}"
+                if marker not in packet["respuesta_controlada"]["texto"]:
+                    raise SystemExit("Respuesta controlada F15 no muestra texto literal e ID de uso")
+            return len(records), 0, texts, 0
+        if packet["estado"] != "abstencion" or packet["motivo_abstencion"] != "evidencia_literal_insuficiente":
+            raise SystemExit("F15 no se abstuvo ante referencia auditada sin texto literal suficiente")
+        if packet["respuesta_controlada"]["modo"] != "abstencion":
+            raise SystemExit("F15 no marcó abstención por evidencia literal insuficiente")
+        return len(records), 1, texts, 1
 
     if packet["estado"] != "abstencion" or packet["motivo_abstencion"] != response["estado"]:
         raise SystemExit("F15 no se abstuvo ante insuficiencia F14")
@@ -146,7 +159,7 @@ def validate_packet(
         raise SystemExit("F15 alteró la respuesta negativa F14")
     if records or traces or used_ids:
         raise SystemExit("F15 inventó registros durante abstención")
-    return 0, 1
+    return 0, 1, 0, 0
 
 
 def main() -> int:
@@ -186,12 +199,16 @@ def main() -> int:
     contexts = exact_contexts(args.fase13_dir / "conceptos-maestro-corpus.jsonl", fresh_responses)
 
     records_total = 0
+    texts_total = 0
     abstentions = 0
+    literal_abstentions = 0
     states: Counter[str] = Counter()
     for packet, response in zip(packets, fresh_responses):
-        used, abstained = validate_packet(packet, response, contexts, validator)
+        used, abstained, texts, literal_abstained = validate_packet(packet, response, contexts, validator)
         records_total += used
+        texts_total += texts
         abstentions += abstained
+        literal_abstentions += literal_abstained
         states[packet["estado"]] += 1
     if records_total != storage14["gate"]["referencias_auditadas_verificadas_emitidas"]:
         raise SystemExit("F15 no conserva la cardinalidad de referencias emitidas por F14")
@@ -241,8 +258,9 @@ def main() -> int:
         },
         "paquetes_generados": len(packets),
         "registros_utilizados_expuestos": records_total,
-        "textos_literales_expuestos": records_total,
+        "textos_literales_expuestos": texts_total,
         "abstenciones": abstentions,
+        "abstenciones_por_evidencia_literal_insuficiente": literal_abstentions,
         "estados_paquete": dict(sorted(states.items())),
         "registros_utilizados_identificables": True,
         "abstencion_demostrada": True,
@@ -265,7 +283,9 @@ def main() -> int:
         "origen_fase13": audit["origen_fase13"],
         "paquetes_generados": len(packets),
         "registros_utilizados_expuestos": records_total,
+        "textos_literales_expuestos": texts_total,
         "abstenciones": abstentions,
+        "abstenciones_por_evidencia_literal_insuficiente": literal_abstentions,
         "paquetes_sha256": packets_sha,
         "auditoria_sha256": audit_sha,
         "reproducible_byte_a_byte": True,
@@ -279,7 +299,9 @@ def main() -> int:
         "fase15_cerrada": True,
         "paquetes": len(packets),
         "registros_utilizados": records_total,
+        "textos_literales": texts_total,
         "abstenciones": abstentions,
+        "abstenciones_literales": literal_abstentions,
         "paquetes_sha256": packets_sha,
         "cierre_sha256": closure_sha,
     }, ensure_ascii=False, sort_keys=True))
