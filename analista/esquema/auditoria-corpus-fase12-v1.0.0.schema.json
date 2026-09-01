@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://paradigma.local/analista/esquema/auditoria-corpus-fase12-v1.0.0.schema.json",
+  "title": "Auditoría del corpus - Fase 12 v1.0.0",
+  "type": "object",
+  "required": [
+    "id", "tipo_registro", "schema_version", "fase", "version_auditor", "fuente_exclusiva",
+    "origen_fase11", "productos_auditados", "cobertura", "expedientes", "clausura_descriptiva", "estado_auditoria"
+  ],
+  "properties": {
+    "id": {"type": "string", "pattern": "^F12AUD-[0-9A-F]{12}$"},
+    "tipo_registro": {"const": "auditoria_corpus"},
+    "schema_version": {"const": "1.0.0"},
+    "fase": {"const": 12},
+    "version_auditor": {"const": "1.0.0"},
+    "fuente_exclusiva": {"const": "productos_comparativos_fase11_auditados"},
+    "origen_fase11": {
+      "type": "object",
+      "required": ["cierre_sha256", "head_sha", "release_tag", "asset", "asset_sha256", "maestros", "motores"],
+      "properties": {
+        "cierre_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "head_sha": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+        "release_tag": {"type": "string", "minLength": 1},
+        "asset": {"type": "string", "minLength": 1},
+        "asset_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "maestros": {"const": 20},
+        "motores": {"const": 9}
+      },
+      "additionalProperties": false
+    },
+    "productos_auditados": {
+      "type": "array", "minItems": 9, "maxItems": 9,
+      "items": {
+        "type": "object",
+        "required": ["motor", "ruta", "sha256", "grupos_auditados", "registros_origen_unicos", "estado_auditoria"],
+        "properties": {
+          "motor": {"type": "string", "minLength": 1},
+          "ruta": {"type": "string", "minLength": 1},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "grupos_auditados": {"type": "integer", "minimum": 0},
+          "registros_origen_unicos": {"type": "integer", "minimum": 0},
+          "estado_auditoria": {"const": "auditado"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "cobertura": {
+      "type": "object",
+      "required": ["motores_previstos", "motores_auditados", "maestros_origen", "expedientes_transversales", "grupos_sin_expediente_conceptual_por_motor"],
+      "properties": {
+        "motores_previstos": {"const": 9},
+        "motores_auditados": {"const": 9},
+        "maestros_origen": {"const": 20},
+        "expedientes_transversales": {"type": "integer", "minimum": 1},
+        "grupos_sin_expediente_conceptual_por_motor": {
+          "type": "object", "additionalProperties": {"type": "integer", "minimum": 0}
+        }
+      },
+      "additionalProperties": false
+    },
+    "expedientes": {
+      "type": "object",
+      "required": ["ruta", "sha256", "registros"],
+      "properties": {
+        "ruta": {"const": "expedientes-transversales.jsonl"},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "registros": {"type": "integer", "minimum": 1}
+      },
+      "additionalProperties": false
+    },
+    "clausura_descriptiva": {
+      "type": "object",
+      "required": [
+        "identidad_interobra_inferida", "equivalencia_inferida", "complementariedad_inferida",
+        "contradiccion_inferida", "sintesis_doctrinal", "reconciliacion_interobra",
+        "evolucion_doctrinal_inferida", "definicion_preferida", "resolucion_doctrinal"
+      ],
+      "properties": {
+        "identidad_interobra_inferida": {"const": false},
+        "equivalencia_inferida": {"const": false},
+        "complementariedad_inferida": {"const": false},
+        "contradiccion_inferida": {"const": false},
+        "sintesis_doctrinal": {"const": false},
+        "reconciliacion_interobra": {"const": false},
+        "evolucion_doctrinal_inferida": {"const": false},
+        "definicion_preferida": {"const": false},
+        "resolucion_doctrinal": {"const": "no_realizada"}
+      },
+      "additionalProperties": false
+    },
+    "estado_auditoria": {"const": "auditado"}
+  },
+  "additionalProperties": false
+}
