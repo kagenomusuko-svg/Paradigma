@@ -1,0 +1,54 @@
+{
+  "almacenamiento": {
+    "asset": "analista-fase12-cierre-v1.0.0.zip",
+    "asset_bytes": 20149622,
+    "asset_sha256": "bc9f272839b4fa9032c7da3bd2b34994f111e7aa8909e7aa294f7226bcd5876f",
+    "raiz_al_extraer": "analista/generado",
+    "raiz_contenida": "fase12",
+    "release_tag": "analista-fase12-cierre-v1.0.0",
+    "tipo": "github_release_asset_zip"
+  },
+  "clausura_descriptiva": {
+    "complementariedad_inferida": false,
+    "contradiccion_inferida": false,
+    "definicion_preferida": false,
+    "equivalencia_inferida": false,
+    "evolucion_doctrinal_inferida": false,
+    "identidad_interobra_inferida": false,
+    "reconciliacion_interobra": false,
+    "resolucion_doctrinal": "no_realizada",
+    "sintesis_doctrinal": false
+  },
+  "estado": "evidencia_validada_persistida_fuera_de_blobs_git",
+  "fase": 12,
+  "gate": {
+    "cierre_sha256": "a77fab72969325ce106ac07aa898401c0ec978cb89ebf331550b7fe11624fabd",
+    "expedientes_transversales": 84998,
+    "fase12_cerrada": true,
+    "head_sha": "d83bd4b0fb38e84abc83a648d2910b3cf64533c8",
+    "maestros_origen": 20,
+    "motores_auditados": 9
+  },
+  "origen_fase11": {
+    "asset": "analista-fase11-cierre-v1.0.0.zip",
+    "asset_sha256": "326ad7ebec885d303c543e3b3c5d798ec60300ac42aefdd6aebede54ca26d00c",
+    "cierre_sha256": "e6cd4168cb27980339a7334b47680b620a801a6a38c92f642a5bd10bd52f4ea0",
+    "head_sha": "ceed300dcdbb91afc1fa5c794bbb16f579c403e0",
+    "maestros": 20,
+    "motores": 9,
+    "release_tag": "analista-fase11-cierre-v1.0.0"
+  },
+  "productos": [
+    {
+      "ruta_en_zip": "fase12/auditoria-corpus.json",
+      "sha256": "90917aa12e8737455549eb03f24ae87e0b4d2756c64173ab32006b9fd46a348d",
+      "tipo": "auditoria_corpus"
+    },
+    {
+      "ruta_en_zip": "fase12/expedientes-transversales.jsonl",
+      "sha256": "330e81687c62fa0c767c48047579eae235bcd2cfb9e717ab08e28ca649d34271",
+      "tipo": "expedientes_transversales"
+    }
+  ],
+  "version": "1.0.0"
+}

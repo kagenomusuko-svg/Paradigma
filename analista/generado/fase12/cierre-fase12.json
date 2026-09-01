@@ -1,0 +1,32 @@
+{
+  "auditoria_sha256": "90917aa12e8737455549eb03f24ae87e0b4d2756c64173ab32006b9fd46a348d",
+  "clausura_descriptiva": {
+    "complementariedad_inferida": false,
+    "contradiccion_inferida": false,
+    "definicion_preferida": false,
+    "equivalencia_inferida": false,
+    "evolucion_doctrinal_inferida": false,
+    "identidad_interobra_inferida": false,
+    "reconciliacion_interobra": false,
+    "resolucion_doctrinal": "no_realizada",
+    "sintesis_doctrinal": false
+  },
+  "criterio": "expediente_transversal_por_clave_documental_sin_sobrepasar_maestros_de_origen",
+  "expedientes_sha256": "330e81687c62fa0c767c48047579eae235bcd2cfb9e717ab08e28ca649d34271",
+  "expedientes_transversales": 84998,
+  "fase": 12,
+  "fase12_cerrada": true,
+  "fuente_exclusiva": "productos_comparativos_fase11_auditados",
+  "maestros_origen": 20,
+  "origen_fase11": {
+    "asset": "analista-fase11-cierre-v1.0.0.zip",
+    "asset_sha256": "326ad7ebec885d303c543e3b3c5d798ec60300ac42aefdd6aebede54ca26d00c",
+    "cierre_sha256": "e6cd4168cb27980339a7334b47680b620a801a6a38c92f642a5bd10bd52f4ea0",
+    "head_sha": "ceed300dcdbb91afc1fa5c794bbb16f579c403e0",
+    "maestros": 20,
+    "motores": 9,
+    "release_tag": "analista-fase11-cierre-v1.0.0"
+  },
+  "productos_auditados": 9,
+  "version": "1.0.0"
+}
