@@ -1,0 +1,68 @@
+name: Analista Fase 11 - verificar cierre persistido
+
+on:
+  push:
+    branches: [analisis-textual-v0.1]
+    paths:
+      - "analista/generado/fase11/cierre-fase11.json"
+      - "analista/generado/fase11/cierre-fase11.json.sha256"
+      - "analista/generado/fase11/almacenamiento-fase11.json"
+      - "analista/generado/fase11/almacenamiento-fase11.json.sha256"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verificar-cierre:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verificar manifiestos persistidos
+        run: |
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          root=Path('analista/generado/fase11')
+          for name in ['cierre-fase11.json','almacenamiento-fase11.json']:
+              p=root/name
+              d=hashlib.sha256(p.read_bytes()).hexdigest()
+              sd,sn=(root/(name+'.sha256')).read_text(encoding='utf-8').strip().split('  ',1)
+              assert (d,name)==(sd,sn)
+          closure=json.loads((root/'cierre-fase11.json').read_text(encoding='utf-8'))
+          storage=json.loads((root/'almacenamiento-fase11.json').read_text(encoding='utf-8'))
+          assert closure['fase']==11 and closure['fase11_cerrada'] is True
+          assert len(closure['maestros'])==20 and len(closure['motores'])==9
+          assert storage['fase']==11 and storage['gate']['fase11_cerrada'] is True
+          assert storage['gate']['cierre_sha256']==hashlib.sha256((root/'cierre-fase11.json').read_bytes()).hexdigest()
+          assert storage['clausura_descriptiva']['identidad_interobra_inferida'] is False
+          assert storage['clausura_descriptiva']['equivalencia_inferida'] is False
+          assert storage['clausura_descriptiva']['contradiccion_inferida'] is False
+          print('OK manifiestos persistidos de Fase 11')
+          PY
+      - name: Descargar release durable y verificar las nueve salidas
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          tag="$(python -c "import json;print(json.load(open('analista/generado/fase11/almacenamiento-fase11.json'))['almacenamiento']['release_tag'])")"
+          asset="$(python -c "import json;print(json.load(open('analista/generado/fase11/almacenamiento-fase11.json'))['almacenamiento']['asset'])")"
+          expected="$(python -c "import json;print(json.load(open('analista/generado/fase11/almacenamiento-fase11.json'))['almacenamiento']['asset_sha256'])")"
+          gh release download "${tag}" --repo "${GITHUB_REPOSITORY}" --pattern "${asset}" --output fase11.zip
+          test "$(sha256sum fase11.zip | awk '{print $1}')" = "${expected}"
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          from zipfile import ZipFile
+          root=Path('analista/generado/fase11')
+          closure_bytes=(root/'cierre-fase11.json').read_bytes()
+          closure=json.loads(closure_bytes)
+          with ZipFile('fase11.zip') as z:
+              assert z.read('fase11/cierre-fase11.json')==closure_bytes
+              for motor in closure['motores']:
+                  name='fase11/'+motor['ruta']
+                  h=hashlib.sha256(z.read(name)).hexdigest()
+                  assert h==motor['sha256'],(motor['motor'],h,motor['sha256'])
+          print(json.dumps({'fase':11,'fase11_cerrada':True,'maestros':20,'motores_verificados':9},sort_keys=True))
+          PY
