@@ -1,0 +1,167 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://paradigma.local/esquema/paquete-interfaz-ia-fase15-v1.0.0.schema.json",
+  "title": "Paquete documental para IA Fase 15",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "tipo_registro", "schema_version", "fase", "solicitud", "origen_fase14",
+    "estado", "motivo_abstencion", "respuesta_controlada", "registros_utilizados",
+    "hallazgos_auditoria", "restricciones_documentales", "restricciones_respuesta",
+    "trazabilidad", "clausura_descriptiva"
+  ],
+  "properties": {
+    "id": {"type": "string", "pattern": "^F15P-[0-9A-F]{12}$"},
+    "tipo_registro": {"const": "paquete_interfaz_ia"},
+    "schema_version": {"const": "1.0.0"},
+    "fase": {"const": 15},
+    "solicitud": {"type": "object"},
+    "origen_fase14": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["cierre_sha256", "release_tag", "asset_sha256", "respuesta_fase14_id", "estado_respuesta_fase14"],
+      "properties": {
+        "cierre_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "release_tag": {"type": "string", "minLength": 1},
+        "asset_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "respuesta_fase14_id": {"type": "string", "pattern": "^F14R-[0-9A-F]{12}$"},
+        "estado_respuesta_fase14": {"enum": ["hallazgo_auditado", "sin_hallazgo_auditado", "no_determinado_por_el_corpus"]}
+      }
+    },
+    "estado": {"enum": ["evidencia_disponible", "abstencion"]},
+    "motivo_abstencion": {"type": ["string", "null"], "enum": [null, "sin_hallazgo_auditado", "no_determinado_por_el_corpus"]},
+    "respuesta_controlada": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["modo", "texto", "registros_utilizados_ids"],
+      "properties": {
+        "modo": {"enum": ["extractiva_con_referencias", "abstencion"]},
+        "texto": {"type": "string", "minLength": 1},
+        "registros_utilizados_ids": {"type": "array", "items": {"type": "string", "pattern": "^F15U-[0-9A-F]{12}$"}}
+      }
+    },
+    "registros_utilizados": {"type": "array", "items": {"$ref": "#/$defs/uso"}},
+    "hallazgos_auditoria": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["expediente_fase13_id", "clave_recuperacion", "hallazgos"],
+        "properties": {
+          "expediente_fase13_id": {"type": "string", "minLength": 1},
+          "clave_recuperacion": {"type": "string"},
+          "hallazgos": {"type": "array"}
+        }
+      }
+    },
+    "restricciones_documentales": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["expediente_fase13_id", "clave_recuperacion", "restricciones"],
+        "properties": {
+          "expediente_fase13_id": {"type": "string", "minLength": 1},
+          "clave_recuperacion": {"type": "string"},
+          "restricciones": {"type": "array", "minItems": 1}
+        }
+      }
+    },
+    "restricciones_respuesta": {"$ref": "#/$defs/restricciones_respuesta"},
+    "trazabilidad": {"type": "array", "items": {"$ref": "#/$defs/traza"}},
+    "clausura_descriptiva": {"$ref": "#/$defs/clausura"}
+  },
+  "$defs": {
+    "referencia": {
+      "type": "object",
+      "required": ["obra_id", "registro_id", "fuente_id", "unidad_id", "localizacion", "texto_literal", "estado_verificacion", "estado_auditoria"],
+      "properties": {
+        "obra_id": {"type": "string", "minLength": 1},
+        "registro_id": {"type": "string", "minLength": 1},
+        "fuente_id": {"type": "string", "minLength": 1},
+        "unidad_id": {"type": "string", "minLength": 1},
+        "localizacion": {},
+        "texto_literal": {"type": "string", "minLength": 1},
+        "estado_verificacion": {"const": "verificado"},
+        "estado_auditoria": {"const": "auditado"}
+      },
+      "additionalProperties": true
+    },
+    "uso": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "uso_id", "registro_documental_id", "tipo_hallazgo", "clave_recuperacion",
+        "texto_literal", "estatus_enunciativo", "estado_verificacion", "estado_auditoria",
+        "referencia", "metadatos_recuperacion"
+      ],
+      "properties": {
+        "uso_id": {"type": "string", "pattern": "^F15U-[0-9A-F]{12}$"},
+        "registro_documental_id": {"type": "string", "minLength": 3},
+        "tipo_hallazgo": {"type": "string", "minLength": 1},
+        "clave_recuperacion": {"type": "string"},
+        "texto_literal": {"type": "string", "minLength": 1},
+        "estatus_enunciativo": {"type": ["string", "null"]},
+        "estado_verificacion": {"const": "verificado"},
+        "estado_auditoria": {"const": "auditado"},
+        "referencia": {"$ref": "#/$defs/referencia"},
+        "metadatos_recuperacion": {"type": "object"}
+      }
+    },
+    "traza": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["uso_id", "obra_id", "registro_id", "fuente_id", "unidad_id", "localizacion"],
+      "properties": {
+        "uso_id": {"type": "string", "pattern": "^F15U-[0-9A-F]{12}$"},
+        "obra_id": {"type": "string", "minLength": 1},
+        "registro_id": {"type": "string", "minLength": 1},
+        "fuente_id": {"type": "string", "minLength": 1},
+        "unidad_id": {"type": "string", "minLength": 1},
+        "localizacion": {}
+      }
+    },
+    "restricciones_respuesta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "usar_solo_registros_listados", "preservar_texto_literal", "preservar_estatus_enunciativo",
+        "completar_lagunas", "reconciliar_formulaciones", "convertir_semejanza_en_equivalencia",
+        "presentar_inferencias_como_corpus", "resolver_contradicciones", "abstenerse_sin_evidencia_suficiente"
+      ],
+      "properties": {
+        "usar_solo_registros_listados": {"const": true},
+        "preservar_texto_literal": {"const": true},
+        "preservar_estatus_enunciativo": {"const": true},
+        "completar_lagunas": {"const": false},
+        "reconciliar_formulaciones": {"const": false},
+        "convertir_semejanza_en_equivalencia": {"const": false},
+        "presentar_inferencias_como_corpus": {"const": false},
+        "resolver_contradicciones": {"const": false},
+        "abstenerse_sin_evidencia_suficiente": {"const": true}
+      }
+    },
+    "clausura": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "solo_interfaz_documental", "generacion_doctrinal", "completar_lagunas",
+        "reconciliar_formulaciones", "equivalencia_inferida", "complementariedad_inferida",
+        "contradiccion_inferida", "sintesis_doctrinal", "presentar_inferencias_como_corpus",
+        "resolucion_doctrinal"
+      ],
+      "properties": {
+        "solo_interfaz_documental": {"const": true},
+        "generacion_doctrinal": {"const": false},
+        "completar_lagunas": {"const": false},
+        "reconciliar_formulaciones": {"const": false},
+        "equivalencia_inferida": {"const": false},
+        "complementariedad_inferida": {"const": false},
+        "contradiccion_inferida": {"const": false},
+        "sintesis_doctrinal": {"const": false},
+        "presentar_inferencias_como_corpus": {"const": false},
+        "resolucion_doctrinal": {"const": "no_realizada"}
+      }
+    }
+  }
+}
