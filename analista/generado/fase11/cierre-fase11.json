@@ -1,0 +1,211 @@
+{
+  "clausura_descriptiva": {
+    "complementariedad_inferida": false,
+    "contradiccion_inferida": false,
+    "equivalencia_inferida": false,
+    "identidad_interobra_inferida": false,
+    "resolucion_doctrinal": "no_realizada",
+    "sintesis_doctrinal": false
+  },
+  "criterio": "registros_relacionados_reunidos_exhaustivamente_sin_relaciones_no_documentadas",
+  "fase": 11,
+  "fase11_cerrada": true,
+  "fuente_exclusiva": "json_maestros_obra_auditados",
+  "maestros": [
+    {
+      "obra_id": "AA-SP-V1",
+      "schema_version": "1.1.0",
+      "sha256": "a0a4bb207b89d04d10cb6bd4ff94d91100c4310162901840a5b65693b70e580d",
+      "titulo": "Afrodita Areia: Sobre la pasión"
+    },
+    {
+      "obra_id": "FUE-0DCCFF3B469D",
+      "schema_version": "1.4.1",
+      "sha256": "29b1fa737e9237e2490a19acb089ed5af5cdeeaff415e93aecb9512f188b5f9c",
+      "titulo": "La transformación formal: La ontología del ego como fundamento del cálculo causal"
+    },
+    {
+      "obra_id": "FUE-20DE1953EAB8",
+      "schema_version": "1.4.1",
+      "sha256": "a86fa20c6a2d04b2f64c953e8502deb07f72c07dda27c6d3eb21bc20db5cbad2",
+      "titulo": "Metrología Causal: La ciencia de la medición causal"
+    },
+    {
+      "obra_id": "FUE-2C28F35DD6CF",
+      "schema_version": "1.4.1",
+      "sha256": "5b3e49f458216bfd8ce9df3969c42108674ca954d86900ea8cd25d195a997170",
+      "titulo": "Afrodita Areia: Ágape"
+    },
+    {
+      "obra_id": "FUE-45C4FB4522AC",
+      "schema_version": "1.4.1",
+      "sha256": "c9ec65153b3471856598f1c0f2d6576cff8ccb25dad0b59f1ac0a780289a65e1",
+      "titulo": "El cálculo de la responsabilidad: Una ontología matemática para sistemas causales complejos"
+    },
+    {
+      "obra_id": "FUE-485F93B810A9",
+      "schema_version": "1.4.1",
+      "sha256": "ea343f1416ec6747214c2c07c5c409b30896e019e3577738dbd9da10f4759c90",
+      "titulo": "HISTOS: Protocolo de Acompañamiento Ontológico"
+    },
+    {
+      "obra_id": "FUE-5B97FBF86F71",
+      "schema_version": "1.4.1",
+      "sha256": "035ec883a64943fce592b36f0b8bd8aa7c52a437b56701823bc147db6fb143f0",
+      "titulo": "Afrodita Areia: Damasén"
+    },
+    {
+      "obra_id": "FUE-5D0D2D0EAAE9",
+      "schema_version": "1.4.1",
+      "sha256": "ffc74133307b4680c1923815098b3d8b7fcebc8f7d917b79f7a8cdee493dd473",
+      "titulo": "El telar de las Moiras: Ontología de la autodeterminación causal"
+    },
+    {
+      "obra_id": "FUE-6F24D4138FC2",
+      "schema_version": "1.4.1",
+      "sha256": "3ddecac64e0c19ca2d3edf08eb88077f5ce7eff28e1d31142103c94612bc37e1",
+      "titulo": "Caos: El abismo del ego y la doble mediación"
+    },
+    {
+      "obra_id": "FUE-8239B13CABE5",
+      "schema_version": "1.4.1",
+      "sha256": "de026d689d68f6d8c64fdc0ba7e1fd865e17d09083a0deed87dfb08a9f81725e",
+      "titulo": "Afrodita Areia: Caelus"
+    },
+    {
+      "obra_id": "FUE-83A1810BB0A1",
+      "schema_version": "1.4.1",
+      "sha256": "b93afaf50de221bd47caef156214bd22f6e03d6a43f301cdf9b1bcf93753b714",
+      "titulo": "SDO: Sistema de Diagnóstico Ontológico"
+    },
+    {
+      "obra_id": "FUE-84037974F5AF",
+      "schema_version": "1.4.1",
+      "sha256": "8a2a966ff9a974ce9d7419b2f2235804902ff390b1127f22c15dab855e563841",
+      "titulo": "Afrodita Areia: Areópago"
+    },
+    {
+      "obra_id": "FUE-8B22B605F823",
+      "schema_version": "1.4.1",
+      "sha256": "e7a216b602ac34c267fea5bffd3d264b764b71fed5b599e81635af2f856542d7",
+      "titulo": "El juego de las máscaras o la disforia de la identidad"
+    },
+    {
+      "obra_id": "FUE-8D874E9B440D",
+      "schema_version": "1.4.1",
+      "sha256": "f821b92c8e1e484a5dd709f4256effce85927862b42b9ddf85d52522df46b34d",
+      "titulo": "El método Prometeo: Imputación causal para juristas y abogados"
+    },
+    {
+      "obra_id": "FUE-AC349C929C15",
+      "schema_version": "1.4.1",
+      "sha256": "b08027460f903b7f56a16da18904be26cafd6a67335e968f825af25b3f16fed9",
+      "titulo": "ECO: Entrevista Clínica Ontológica"
+    },
+    {
+      "obra_id": "FUE-AFB58779DA59",
+      "schema_version": "1.4.1",
+      "sha256": "c83bdc186142b523c89d3bedeca90598bf0a61a7f1e9e197a915e2b8f580eb2b",
+      "titulo": "El dilema de Aquiles o la disociación del ego"
+    },
+    {
+      "obra_id": "FUE-B16438498D68",
+      "schema_version": "1.4.1",
+      "sha256": "5496cccaca55ccad667bc1941b6d3d63f0f2c664a4c907b98db7d93bcd14627a",
+      "titulo": "Axiomatización del sistema de la doble mediación"
+    },
+    {
+      "obra_id": "FUE-B5CE5FA49DBA",
+      "schema_version": "1.4.1",
+      "sha256": "3500a3685d1c25296f690f588c9bc1bcbe00eeb258f7e53f10eebe33ac838306",
+      "titulo": "Metrología Causal: Vol. II"
+    },
+    {
+      "obra_id": "FUE-B62AC3A43830",
+      "schema_version": "1.4.1",
+      "sha256": "ec1379eb44e43fbbdaf52f91b16b4e300a5e8260d70612e1ddf7abcbbc858f02",
+      "titulo": "Arquitectura ontológica de sistemas artificiales"
+    },
+    {
+      "obra_id": "FUE-D2CEF8B587D7",
+      "schema_version": "1.4.1",
+      "sha256": "728c61ebc748474564cdd52d6198c00c7e281b9acea3315086e726a42af8a2fa",
+      "titulo": "Taxonomía General de Aplicaciones"
+    }
+  ],
+  "motores": [
+    {
+      "grupos_emitidos": 85045,
+      "motor": "afirmaciones_corpus",
+      "registros_origen": 81400,
+      "ruta": "afirmaciones-corpus.json",
+      "sha256": "56ace4f93997317098aa0cd070734466a42a71dca912ec2172d43276dd3b4804",
+      "version": "1.0.0"
+    },
+    {
+      "grupos_emitidos": 84998,
+      "motor": "conceptos_corpus",
+      "registros_origen": 140455,
+      "ruta": "conceptos-corpus.json",
+      "sha256": "7ca225dc4c2105c64085fece9f654e695dfea7106ae21fbdbd607229e23722ad",
+      "version": "1.0.0"
+    },
+    {
+      "grupos_emitidos": 14848,
+      "motor": "definiciones_corpus",
+      "registros_origen": 61572,
+      "ruta": "definiciones-corpus.json",
+      "sha256": "ef7bdcf1a79816dbbfffbfcb718c51a8bfbb23ef743ab28b84e2236ed39dcb35",
+      "version": "1.0.0"
+    },
+    {
+      "grupos_emitidos": 20,
+      "motor": "distribucion_por_obra",
+      "registros_origen": 20,
+      "ruta": "distribucion-por-obra.json",
+      "sha256": "310a2889a1b4ceace2236f8e2060cf0e0cd03a67123df45601128beebae98fdd",
+      "version": "1.0.0"
+    },
+    {
+      "grupos_emitidos": 5311,
+      "motor": "formulas_corpus",
+      "registros_origen": 5425,
+      "ruta": "formulas-corpus.json",
+      "sha256": "552fe0eab57ece2bf47fec548d31c7c7e21db8956e09ab516be118c342a7c43c",
+      "version": "1.0.0"
+    },
+    {
+      "grupos_emitidos": 28503,
+      "motor": "negaciones_excepciones_corpus",
+      "registros_origen": 31351,
+      "ruta": "negaciones-excepciones-corpus.json",
+      "sha256": "7542b23b7315ee058ba6ea533c68bd064b265b65ef9781c534dcbf06cf368aab",
+      "version": "1.0.0"
+    },
+    {
+      "grupos_emitidos": 84998,
+      "motor": "orden_recurrencia",
+      "registros_origen": 140455,
+      "ruta": "orden-recurrencia.json",
+      "sha256": "8146bb87cacfd50840f469f8ccd8106234cca472517fe3583681450bf50c6811",
+      "version": "1.0.0"
+    },
+    {
+      "grupos_emitidos": 43993,
+      "motor": "relaciones_explicitas_corpus",
+      "registros_origen": 44458,
+      "ruta": "relaciones-explicitas-corpus.json",
+      "sha256": "090982938c28a83f6f1ba469596f155ee42ca5b484ad29c7ed4b4681712a17b0",
+      "version": "1.0.0"
+    },
+    {
+      "grupos_emitidos": 111565,
+      "motor": "variantes_terminologicas_corpus",
+      "registros_origen": 140455,
+      "ruta": "variantes-terminologicas-corpus.json",
+      "sha256": "2a5615eb23c9618319f7fe7e167bc7ae4b7bbf1db99723ee50afa1489f8c88da",
+      "version": "1.0.0"
+    }
+  ],
+  "version": "1.0.0"
+}

@@ -1,0 +1,76 @@
+{
+  "almacenamiento": {
+    "asset": "analista-fase11-cierre-v1.0.0.zip",
+    "asset_bytes": 386645812,
+    "asset_sha256": "326ad7ebec885d303c543e3b3c5d798ec60300ac42aefdd6aebede54ca26d00c",
+    "raiz_al_extraer": "analista/generado",
+    "raiz_contenida": "fase11",
+    "release_tag": "analista-fase11-cierre-v1.0.0",
+    "tipo": "github_release_asset_zip"
+  },
+  "clausura_descriptiva": {
+    "complementariedad_inferida": false,
+    "contradiccion_inferida": false,
+    "equivalencia_inferida": false,
+    "identidad_interobra_inferida": false,
+    "resolucion_doctrinal": "no_realizada",
+    "sintesis_doctrinal": false
+  },
+  "estado": "evidencia_validada_persistida_fuera_de_blobs_git",
+  "fase": 11,
+  "gate": {
+    "cierre_sha256": "e6cd4168cb27980339a7334b47680b620a801a6a38c92f642a5bd10bd52f4ea0",
+    "fase11_cerrada": true,
+    "head_sha": "ceed300dcdbb91afc1fa5c794bbb16f579c403e0",
+    "maestros": 20,
+    "motores": 9
+  },
+  "productos": [
+    {
+      "motor": "afirmaciones_corpus",
+      "ruta_en_zip": "fase11/afirmaciones-corpus.json",
+      "sha256": "56ace4f93997317098aa0cd070734466a42a71dca912ec2172d43276dd3b4804"
+    },
+    {
+      "motor": "conceptos_corpus",
+      "ruta_en_zip": "fase11/conceptos-corpus.json",
+      "sha256": "7ca225dc4c2105c64085fece9f654e695dfea7106ae21fbdbd607229e23722ad"
+    },
+    {
+      "motor": "definiciones_corpus",
+      "ruta_en_zip": "fase11/definiciones-corpus.json",
+      "sha256": "ef7bdcf1a79816dbbfffbfcb718c51a8bfbb23ef743ab28b84e2236ed39dcb35"
+    },
+    {
+      "motor": "distribucion_por_obra",
+      "ruta_en_zip": "fase11/distribucion-por-obra.json",
+      "sha256": "310a2889a1b4ceace2236f8e2060cf0e0cd03a67123df45601128beebae98fdd"
+    },
+    {
+      "motor": "formulas_corpus",
+      "ruta_en_zip": "fase11/formulas-corpus.json",
+      "sha256": "552fe0eab57ece2bf47fec548d31c7c7e21db8956e09ab516be118c342a7c43c"
+    },
+    {
+      "motor": "negaciones_excepciones_corpus",
+      "ruta_en_zip": "fase11/negaciones-excepciones-corpus.json",
+      "sha256": "7542b23b7315ee058ba6ea533c68bd064b265b65ef9781c534dcbf06cf368aab"
+    },
+    {
+      "motor": "orden_recurrencia",
+      "ruta_en_zip": "fase11/orden-recurrencia.json",
+      "sha256": "8146bb87cacfd50840f469f8ccd8106234cca472517fe3583681450bf50c6811"
+    },
+    {
+      "motor": "relaciones_explicitas_corpus",
+      "ruta_en_zip": "fase11/relaciones-explicitas-corpus.json",
+      "sha256": "090982938c28a83f6f1ba469596f155ee42ca5b484ad29c7ed4b4681712a17b0"
+    },
+    {
+      "motor": "variantes_terminologicas_corpus",
+      "ruta_en_zip": "fase11/variantes-terminologicas-corpus.json",
+      "sha256": "2a5615eb23c9618319f7fe7e167bc7ae4b7bbf1db99723ee50afa1489f8c88da"
+    }
+  ],
+  "version": "1.0.0"
+}
