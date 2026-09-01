@@ -1,0 +1,157 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://paradigma.local/analista/esquema/expediente-transversal-fase12-v1.0.0.schema.json",
+  "title": "Expediente transversal auditado - Fase 12 v1.0.0",
+  "type": "object",
+  "required": [
+    "id", "tipo_registro", "schema_version", "clave_recuperacion", "criterio_clave",
+    "estado_identidad_interobra", "fuentes_fase11", "multiplicidad", "obras",
+    "formas_literales_observadas", "variaciones_terminologicas", "relaciones_explicitas",
+    "negaciones_recuperadas_por_forma", "excepciones_vinculadas_a_predicaciones", "hallazgos",
+    "equivalencia_inferida", "complementariedad_inferida", "contradiccion_inferida",
+    "evolucion_doctrinal_inferida", "definicion_preferida", "resolucion_doctrinal"
+  ],
+  "$defs": {
+    "conteos": {
+      "type": "object",
+      "additionalProperties": {"type": "integer", "minimum": 0}
+    },
+    "grupoId": {"type": "string", "pattern": "^F11G-[0-9A-F]{12}$"}
+  },
+  "properties": {
+    "id": {"type": "string", "pattern": "^F12X-[0-9A-F]{12}$"},
+    "tipo_registro": {"const": "expediente_transversal_auditado"},
+    "schema_version": {"const": "1.0.0"},
+    "clave_recuperacion": {"type": "string"},
+    "criterio_clave": {"const": "clave_documental_de_fase11_no_identidad_conceptual_interobra"},
+    "estado_identidad_interobra": {"const": "no_determinada"},
+    "fuentes_fase11": {
+      "type": "object",
+      "required": ["conceptos_corpus", "definiciones_corpus", "afirmaciones_corpus", "orden_recurrencia"],
+      "properties": {
+        "conceptos_corpus": {"$ref": "#/$defs/grupoId"},
+        "definiciones_corpus": {"anyOf": [{"$ref": "#/$defs/grupoId"}, {"type": "null"}]},
+        "afirmaciones_corpus": {"anyOf": [{"$ref": "#/$defs/grupoId"}, {"type": "null"}]},
+        "orden_recurrencia": {"anyOf": [{"$ref": "#/$defs/grupoId"}, {"type": "null"}]}
+      },
+      "additionalProperties": false
+    },
+    "multiplicidad": {
+      "type": "object",
+      "required": [
+        "obras_con_clave", "conceptos_registrados_total", "apariciones_totales_documentadas",
+        "definiciones_registros_total", "predicaciones_registros_total", "vinculos_predicacion_concepto_total"
+      ],
+      "properties": {
+        "obras_con_clave": {"type": "integer", "minimum": 1},
+        "conceptos_registrados_total": {"type": "integer", "minimum": 1},
+        "apariciones_totales_documentadas": {"type": "integer", "minimum": 0},
+        "definiciones_registros_total": {"type": "integer", "minimum": 0},
+        "predicaciones_registros_total": {"type": "integer", "minimum": 0},
+        "vinculos_predicacion_concepto_total": {"type": "integer", "minimum": 0}
+      },
+      "additionalProperties": false
+    },
+    "obras": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "obra_id", "conceptos_registrados", "apariciones_totales_documentadas", "definiciones_registros",
+          "predicaciones_registros", "vinculos_predicacion_concepto", "relaciones_como_sujeto",
+          "relaciones_como_objeto", "negaciones_recuperadas_por_forma", "excepciones_vinculadas_a_predicaciones",
+          "formas_literales_observadas"
+        ],
+        "properties": {
+          "obra_id": {"type": "string", "minLength": 1},
+          "conceptos_registrados": {"type": "integer", "minimum": 0},
+          "apariciones_totales_documentadas": {"type": "integer", "minimum": 0},
+          "definiciones_registros": {"type": "integer", "minimum": 0},
+          "predicaciones_registros": {"type": "integer", "minimum": 0},
+          "vinculos_predicacion_concepto": {"type": "integer", "minimum": 0},
+          "relaciones_como_sujeto": {"type": "integer", "minimum": 0},
+          "relaciones_como_objeto": {"type": "integer", "minimum": 0},
+          "negaciones_recuperadas_por_forma": {"type": "integer", "minimum": 0},
+          "excepciones_vinculadas_a_predicaciones": {"type": "integer", "minimum": 0},
+          "formas_literales_observadas": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+        },
+        "additionalProperties": false
+      }
+    },
+    "formas_literales_observadas": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "variaciones_terminologicas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["grupo_id", "clave_lexica_recuperacion", "criterio_vinculo", "conteos_por_obra"],
+        "properties": {
+          "grupo_id": {"$ref": "#/$defs/grupoId"},
+          "clave_lexica_recuperacion": {"type": "string"},
+          "criterio_vinculo": {"const": "mismo_registro_conceptual_de_origen"},
+          "conteos_por_obra": {"$ref": "#/$defs/conteos"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "relaciones_explicitas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["grupo_id", "clave_relacion", "otra_clave", "roles_de_la_clave", "conteos_por_obra"],
+        "properties": {
+          "grupo_id": {"$ref": "#/$defs/grupoId"},
+          "clave_relacion": {"type": "string"},
+          "otra_clave": {"type": "string"},
+          "roles_de_la_clave": {
+            "type": "array", "minItems": 1, "uniqueItems": true,
+            "items": {"enum": ["sujeto", "objeto"]}
+          },
+          "conteos_por_obra": {"$ref": "#/$defs/conteos"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "negaciones_recuperadas_por_forma": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["grupo_id", "criterio_vinculo", "estado_vinculo_conceptual", "conteos_por_obra", "clasificaciones"],
+        "properties": {
+          "grupo_id": {"$ref": "#/$defs/grupoId"},
+          "criterio_vinculo": {"const": "coincidencia_formal_exclusivamente_para_recuperacion"},
+          "estado_vinculo_conceptual": {"const": "no_determinado"},
+          "conteos_por_obra": {"$ref": "#/$defs/conteos"},
+          "clasificaciones": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+        },
+        "additionalProperties": false
+      }
+    },
+    "excepciones_vinculadas_a_predicaciones": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["grupo_id", "criterio_vinculo", "conteos_por_obra", "clasificaciones"],
+        "properties": {
+          "grupo_id": {"$ref": "#/$defs/grupoId"},
+          "criterio_vinculo": {"const": "afirmacion_limitada_id_documentado"},
+          "conteos_por_obra": {"$ref": "#/$defs/conteos"},
+          "clasificaciones": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+        },
+        "additionalProperties": false
+      }
+    },
+    "hallazgos": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"enum": ["multiplicidad_predicativa", "definiciones_multiples", "variacion_terminologica"]}
+    },
+    "equivalencia_inferida": {"const": false},
+    "complementariedad_inferida": {"const": false},
+    "contradiccion_inferida": {"const": false},
+    "evolucion_doctrinal_inferida": {"const": false},
+    "definicion_preferida": {"const": false},
+    "resolucion_doctrinal": {"const": "no_realizada"}
+  },
+  "additionalProperties": false
+}
