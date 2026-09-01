@@ -1,0 +1,72 @@
+name: Analista Fase 11 - inspeccionar maestros reales
+
+on:
+  push:
+    branches: [analisis-textual-v0.1]
+    paths:
+      - ".github/workflows/analista-fase11-inspeccionar-maestros.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inspeccionar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Descargar release cerrado de Fase 10
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download analista-fase10-cierre-v1.2.2 \
+            --repo "${GITHUB_REPOSITORY}" \
+            --pattern analista-fase10-cierre-global.zip \
+            --output fase10.zip
+          test "$(sha256sum fase10.zip | awk '{print $1}')" = "13b580dcdcb83f1f15a4008a7e423ca733a6a5e48e467ef30f212d7a7403a3d8"
+      - name: Inspeccionar estructura compatible de maestros
+        run: |
+          python - <<'PY'
+          import json
+          from zipfile import ZipFile
+
+          sections = [
+              'unidades','apariciones_conceptuales','conceptos','definiciones','afirmaciones',
+              'formulas','relaciones_explicitas','distinciones','negaciones','excepciones',
+              'restricciones_alcance','hallazgos_auditoria','reportes_cobertura'
+          ]
+          with ZipFile('fase10.zip') as z:
+              report=json.loads(z.read('fase10/cierre-fase10.json'))
+              print('OBRAS', len(report['obras']))
+              print('SCHEMAS', sorted({w['schema_maestro'] for w in report['obras']}))
+              picks=['AA-SP-V1', next(w['obra_id'] for w in report['obras'] if w['obra_id']!='AA-SP-V1')]
+              for oid in picks:
+                  m=json.loads(z.read(f'maestros/{oid}.json'))
+                  print('\nMAESTRO', oid, m['titulo'], 'schema', m['schema_version'])
+                  print('TOP_KEYS', sorted(m))
+                  for sec in sections:
+                      rows=m.get(sec, [])
+                      print('SECTION', sec, 'COUNT', len(rows))
+                      if rows:
+                          r=rows[0]
+                          print(' SAMPLE_KEYS', sorted(r))
+                          sample={k:r.get(k) for k in [
+                              'id','tipo_registro','texto_literal','normalizacion_formal','normalizacion_lexica',
+                              'estatus_enunciativo','estado_extraccion','estado_verificacion','estado_auditoria',
+                              'designacion_operativa','aparicion_ids','formas_literales_observadas',
+                              'estado_identidad_conceptual','evidencia_identidad_ids','concepto_id','concepto_ids',
+                              'clasificacion_definicion','clasificacion_afirmacion','sujeto_literal','predicado_literal',
+                              'objeto_literal','formula_literal','simbolos_literales','sujeto_ref','objeto_ref',
+                              'relacion_literal','clasificacion_relacion','objeto_negado_literal','alcance_literal',
+                              'fragmento_exceptivo_literal','afirmacion_limitada_id','fragmento_restriccion_literal',
+                              'tipo_restriccion','unidad_id','fuente_id','forma_literal','variante_formal',
+                              'variantes_lexicas_busqueda','criterio_deteccion','orden_textual','localizacion'
+                          ] if k in r}
+                          for k,v in list(sample.items()):
+                              if isinstance(v,list) and len(v)>5:
+                                  sample[k]=v[:5]+[f'...(+{len(v)-5})']
+                              elif isinstance(v,str) and len(v)>240:
+                                  sample[k]=v[:240]+'…'
+                          print(' SAMPLE', json.dumps(sample, ensure_ascii=False, sort_keys=True))
+          PY
