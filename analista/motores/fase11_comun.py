@@ -4,7 +4,6 @@ from __future__ import annotations
 import hashlib
 import json
 import unicodedata
-from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
@@ -198,11 +197,18 @@ class BaseMotor:
         payload["id"] = stable_id("F11OUT", {"motor": self.motor, "maestros": metadata, "grupos": len(groups)})
         return payload
 
+    def release(self) -> None:
+        """Libera estructuras ya materializadas después de escribir una salida."""
+        self._groups.clear()
+        self._source_ids.clear()
+        self._processed_works.clear()
+
 
 def write_json(path: Path, value: dict[str, Any]) -> str:
     path.parent.mkdir(parents=True, exist_ok=True)
-    payload = (json.dumps(value, ensure_ascii=False, sort_keys=True, indent=2) + "\n").encode("utf-8")
-    path.write_bytes(payload)
-    digest = hashlib.sha256(payload).hexdigest()
+    with path.open("w", encoding="utf-8", newline="\n") as f:
+        json.dump(value, f, ensure_ascii=False, sort_keys=True, indent=2)
+        f.write("\n")
+    digest = sha256_file(path)
     path.with_name(path.name + ".sha256").write_text(f"{digest}  {path.name}\n", encoding="utf-8")
     return digest
