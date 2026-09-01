@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://paradigma.local/esquema/respuesta-consulta-literal-fase14-v1.0.0.schema.json",
+  "title": "Respuesta de consulta literal Fase 14",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "tipo_registro", "schema_version", "fase", "consulta", "origen_fase13",
+    "criterio_recuperacion", "resolucion_consulta", "estado", "mensaje", "resultados",
+    "conteo_resultados", "clausura_descriptiva"
+  ],
+  "properties": {
+    "id": {"type": "string", "pattern": "^F14R-[0-9A-F]{12}$"},
+    "tipo_registro": {"const": "respuesta_consulta_literal"},
+    "schema_version": {"const": "1.0.0"},
+    "fase": {"const": 14},
+    "consulta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tipo", "termino"],
+      "properties": {
+        "tipo": {
+          "enum": [
+            "definiciones_explicitas", "predicaciones", "negaciones", "apariciones",
+            "variantes_terminologicas", "excepciones", "formulas_contienen", "relacion_explicita"
+          ]
+        },
+        "termino": {"type": "string", "minLength": 1},
+        "relacion": {"type": "string", "minLength": 1},
+        "objeto": {"type": "string", "minLength": 1}
+      }
+    },
+    "origen_fase13": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["cierre_sha256", "maestro_id", "maestro_sha256"],
+      "properties": {
+        "cierre_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "maestro_id": {"type": "string", "minLength": 1},
+        "maestro_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    },
+    "criterio_recuperacion": {"type": "string", "minLength": 1},
+    "resolucion_consulta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["termino"],
+      "properties": {
+        "termino": {"$ref": "#/$defs/resolucion"},
+        "objeto": {"$ref": "#/$defs/resolucion"}
+      }
+    },
+    "estado": {
+      "enum": ["hallazgo_auditado", "sin_hallazgo_auditado", "no_determinado_por_el_corpus"]
+    },
+    "mensaje": {"type": ["string", "null"]},
+    "resultados": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/resultado"}
+    },
+    "conteo_resultados": {"type": "integer", "minimum": 0},
+    "clausura_descriptiva": {"$ref": "#/$defs/clausura"}
+  },
+  "$defs": {
+    "resolucion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["entrada", "normalizacion_recuperacion", "criterio", "claves"],
+      "properties": {
+        "entrada": {"type": "string"},
+        "normalizacion_recuperacion": {"type": "string"},
+        "criterio": {"type": "string"},
+        "claves": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+      }
+    },
+    "referencia": {
+      "type": "object",
+      "required": ["obra_id", "registro_id", "estado_verificacion", "estado_auditoria"],
+      "properties": {
+        "obra_id": {"type": "string", "minLength": 1},
+        "registro_id": {"type": "string", "minLength": 1},
+        "estado_verificacion": {"const": "verificado"},
+        "estado_auditoria": {"const": "auditado"}
+      },
+      "additionalProperties": true
+    },
+    "resultado": {
+      "type": "object",
+      "required": ["tipo_hallazgo", "clave_recuperacion", "referencia"],
+      "properties": {
+        "tipo_hallazgo": {"type": "string", "minLength": 1},
+        "clave_recuperacion": {"type": "string"},
+        "expediente_fase13_id": {"type": "string"},
+        "grupo_id": {"type": "string"},
+        "grupo_fase11_id": {"type": "string"},
+        "clave_grupo": {"type": "string"},
+        "criterio_agrupacion": {"type": "string"},
+        "estado_identidad_interobra": {"type": "string"},
+        "estado_vinculo_conceptual": {"type": "string"},
+        "resolucion_doctrinal": {"type": "string"},
+        "referencia": {"$ref": "#/$defs/referencia"}
+      },
+      "additionalProperties": false
+    },
+    "clausura": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "solo_recuperacion_documental", "busqueda_semantica_inferida", "identidad_interobra_inferida",
+        "equivalencia_inferida", "complementariedad_inferida", "contradiccion_inferida",
+        "evolucion_doctrinal_inferida", "definicion_preferida", "formula_concepto_inferida",
+        "sintesis_doctrinal", "resolucion_doctrinal"
+      ],
+      "properties": {
+        "solo_recuperacion_documental": {"const": true},
+        "busqueda_semantica_inferida": {"const": false},
+        "identidad_interobra_inferida": {"const": false},
+        "equivalencia_inferida": {"const": false},
+        "complementariedad_inferida": {"const": false},
+        "contradiccion_inferida": {"const": false},
+        "evolucion_doctrinal_inferida": {"const": false},
+        "definicion_preferida": {"const": false},
+        "formula_concepto_inferida": {"const": false},
+        "sintesis_doctrinal": {"const": false},
+        "resolucion_doctrinal": {"const": "no_realizada"}
+      }
+    }
+  }
+}
