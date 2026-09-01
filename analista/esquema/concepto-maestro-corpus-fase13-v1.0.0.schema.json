@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://paradigma.local/analista/esquema/concepto-maestro-corpus-fase13-v1.0.0.schema.json",
+  "title": "Concepto del maestro del corpus - Fase 13 v1.0.0",
+  "type": "object",
+  "$defs": {
+    "compactRef": {
+      "type": "object",
+      "required": ["obra_id","titulo_obra","schema_maestro","registro_id","tipo_registro_origen","estado_extraccion","estado_verificacion","estado_auditoria","texto_literal","normalizacion_formal","normalizacion_lexica","datos_documentales"],
+      "properties": {
+        "obra_id": {"type":"string","minLength":1},
+        "titulo_obra": {"type":"string","minLength":1},
+        "schema_maestro": {"enum":["1.1.0","1.4.1"]},
+        "registro_id": {"type":"string","minLength":1},
+        "tipo_registro_origen": {"type":"string","minLength":1},
+        "estado_extraccion": {"type":["string","null"]},
+        "estado_verificacion": {"type":["string","null"]},
+        "estado_auditoria": {"type":["string","null"]},
+        "estatus_enunciativo": {"type":["string","null"]},
+        "fuente_id": {"type":["string","null"]},
+        "unidad_id": {"type":["string","null"]},
+        "localizacion": {"type":["object","null"]},
+        "texto_literal": {"type":["string","null"]},
+        "normalizacion_formal": {"type":["string","null"]},
+        "normalizacion_lexica": {"type":["array","null"],"items":{"type":"string"}},
+        "datos_documentales": {"type":"object"}
+      },
+      "additionalProperties": false
+    },
+    "masterPointer": {
+      "type":"object",
+      "required":["obra_id","titulo","schema_version","ruta_en_asset_fase10","sha256"],
+      "properties": {
+        "obra_id":{"type":"string","minLength":1},
+        "titulo":{"type":"string","minLength":1},
+        "schema_version":{"enum":["1.1.0","1.4.1"]},
+        "ruta_en_asset_fase10":{"type":"string","minLength":1},
+        "sha256":{"type":"string","pattern":"^[0-9a-f]{64}$"}
+      },
+      "additionalProperties":false
+    },
+    "groupedRefs": {
+      "type":"object",
+      "required":["grupo_id","clave_recuperacion","criterio_agrupacion","estado_identidad_interobra","registros"],
+      "properties": {
+        "grupo_id":{"type":"string","pattern":"^F11G-[0-9A-F]{12}$"},
+        "clave_recuperacion":{"type":"string"},
+        "criterio_agrupacion":{"type":"string","minLength":1},
+        "estado_identidad_interobra":{"enum":["no_determinada","no_aplica"]},
+        "registros":{"type":"array","minItems":1,"items":{"$ref":"#/$defs/compactRef"}}
+      },
+      "additionalProperties":false
+    }
+  },
+  "required": [
+    "id","tipo_registro","schema_version","clave_recuperacion","criterio_clave","estado_identidad_interobra",
+    "expediente_fase12_id","fuentes_fase11","multiplicidad","obras","formas_literales","variantes_recuperacion",
+    "definiciones","definiciones_explicitas","predicaciones","relaciones_explicitas","formulas","criterio_formulas",
+    "negaciones","excepciones","restricciones","hallazgos_auditoria","trazabilidad","equivalencia_inferida",
+    "complementariedad_inferida","contradiccion_inferida","evolucion_doctrinal_inferida","definicion_preferida",
+    "formula_concepto_inferida","resolucion_doctrinal"
+  ],
+  "properties": {
+    "id":{"type":"string","pattern":"^F13C-[0-9A-F]{12}$"},
+    "tipo_registro":{"const":"concepto_maestro_corpus"},
+    "schema_version":{"const":"1.0.0"},
+    "clave_recuperacion":{"type":"string"},
+    "criterio_clave":{"const":"clave_documental_de_fase11_no_identidad_conceptual_interobra"},
+    "estado_identidad_interobra":{"const":"no_determinada"},
+    "expediente_fase12_id":{"type":"string","pattern":"^F12X-[0-9A-F]{12}$"},
+    "fuentes_fase11":{
+      "type":"object",
+      "required":["conceptos_corpus","definiciones_corpus","afirmaciones_corpus","orden_recurrencia"],
+      "properties":{
+        "conceptos_corpus":{"type":"string","pattern":"^F11G-[0-9A-F]{12}$"},
+        "definiciones_corpus":{"anyOf":[{"type":"string","pattern":"^F11G-[0-9A-F]{12}$"},{"type":"null"}]},
+        "afirmaciones_corpus":{"anyOf":[{"type":"string","pattern":"^F11G-[0-9A-F]{12}$"},{"type":"null"}]},
+        "orden_recurrencia":{"anyOf":[{"type":"string","pattern":"^F11G-[0-9A-F]{12}$"},{"type":"null"}]}
+      },
+      "additionalProperties":false
+    },
+    "multiplicidad":{"type":"object"},
+    "obras":{
+      "type":"array","minItems":1,
+      "items":{
+        "type":"object","required":["obra_id","maestro_obra","resumen_auditoria_fase12"],
+        "properties":{
+          "obra_id":{"type":"string","minLength":1},
+          "maestro_obra":{"$ref":"#/$defs/masterPointer"},
+          "resumen_auditoria_fase12":{"type":"object"}
+        },
+        "additionalProperties":false
+      }
+    },
+    "formas_literales":{"type":"array","items":{"type":"string"},"uniqueItems":true},
+    "variantes_recuperacion":{"type":"array","items":{"$ref":"#/$defs/groupedRefs"}},
+    "definiciones":{"type":"array","items":{"$ref":"#/$defs/compactRef"}},
+    "definiciones_explicitas":{"type":"array","items":{"$ref":"#/$defs/compactRef"}},
+    "predicaciones":{"type":"array","items":{"$ref":"#/$defs/compactRef"}},
+    "relaciones_explicitas":{"type":"array","items":{"$ref":"#/$defs/groupedRefs"}},
+    "formulas":{
+      "type":"array",
+      "items":{
+        "type":"object",
+        "required":["grupo_fase11_id","criterio_vinculo","estado_vinculo_conceptual","referencia"],
+        "properties":{
+          "grupo_fase11_id":{"type":"string","pattern":"^F11G-[0-9A-F]{12}$"},
+          "criterio_vinculo":{"const":"coocurrencia_en_unidad_documentada_solo_para_recuperacion"},
+          "estado_vinculo_conceptual":{"const":"no_determinado"},
+          "referencia":{"$ref":"#/$defs/compactRef"}
+        },
+        "additionalProperties":false
+      }
+    },
+    "criterio_formulas":{"const":"coocurrencia_en_unidad_documentada_solo_para_recuperacion_no_identidad_conceptual"},
+    "negaciones":{"type":"array","items":{"$ref":"#/$defs/groupedRefs"}},
+    "excepciones":{"type":"array","items":{"$ref":"#/$defs/groupedRefs"}},
+    "restricciones":{
+      "type":"array",
+      "items":{
+        "type":"object",
+        "required":["id","tipo_registro","schema_version","criterio_vinculo","claves_conceptuales_vinculadas","referencia"],
+        "properties":{
+          "id":{"type":"string","pattern":"^F13R-[0-9A-F]{12}$"},
+          "tipo_registro":{"const":"restriccion_corpus_auditada"},
+          "schema_version":{"const":"1.0.0"},
+          "criterio_vinculo":{"enum":["afirmacion_limitada_id_documentado","sin_vinculo_conceptual_documentado"]},
+          "claves_conceptuales_vinculadas":{"type":"array","items":{"type":"string"},"uniqueItems":true},
+          "referencia":{"$ref":"#/$defs/compactRef"}
+        },
+        "additionalProperties":false
+      }
+    },
+    "hallazgos_auditoria":{"type":"array","items":{"type":"string"},"uniqueItems":true},
+    "trazabilidad":{
+      "type":"object","required":["grupo_conceptos_fase11","grupo_orden_recurrencia_fase11","registros_conceptuales"],
+      "properties":{
+        "grupo_conceptos_fase11":{"type":"string","pattern":"^F11G-[0-9A-F]{12}$"},
+        "grupo_orden_recurrencia_fase11":{"anyOf":[{"type":"string","pattern":"^F11G-[0-9A-F]{12}$"},{"type":"null"}]},
+        "registros_conceptuales":{"type":"array","minItems":1,"items":{"$ref":"#/$defs/compactRef"}}
+      },
+      "additionalProperties":false
+    },
+    "equivalencia_inferida":{"const":false},
+    "complementariedad_inferida":{"const":false},
+    "contradiccion_inferida":{"const":false},
+    "evolucion_doctrinal_inferida":{"const":false},
+    "definicion_preferida":{"const":false},
+    "formula_concepto_inferida":{"const":false},
+    "resolucion_doctrinal":{"const":"no_realizada"}
+  },
+  "additionalProperties":false
+}
