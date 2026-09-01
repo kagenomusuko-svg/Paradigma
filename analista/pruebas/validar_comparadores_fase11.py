@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
-import importlib.util
 import json
 import sys
 from pathlib import Path
@@ -76,7 +75,7 @@ def make_master(obra: str, title: str, suffix: str) -> dict:
     definition = base(f"DEF-{suffix}", "definicion", "Mediación es X", "Mediación es X")
     definition.update({"concepto_id": c1["id"], "unidad_id": u1["id"], "fuente_id": obra, "clasificacion_definicion": "definicion_explicita", "criterio_deteccion": "prueba"})
     assertion = base(f"AF-{suffix}", "afirmacion", "Mediación produce X", "Mediación produce X")
-    assertion.update({"concepto_ids": [c1["id"]], "unidad_id": u1["id"], "fuente_id": obra, "clasificacion_afirmacion": "afirmacion_explicita", "criterio_deteccion": "prueba", "confianza_extraccion": 1.0, "sujeto_literal": "Mediación", "predicado_literal": "produce", "objeto_literal": "X"})
+    assertion.update({"concepto_ids": [c1["id"], c2["id"]], "unidad_id": u1["id"], "fuente_id": obra, "clasificacion_afirmacion": "afirmacion_explicita", "criterio_deteccion": "prueba", "confianza_extraccion": 1.0, "sujeto_literal": "Mediación", "predicado_literal": "produce", "objeto_literal": "X"})
     formula = base(f"FOR-{suffix}", "formula", "A = B", "A = B")
     formula.update({"formula_literal": "A = B", "simbolos_literales": ["="], "contexto_unidad_ids": [u1["id"]], "unidad_id": u1["id"], "fuente_id": obra, "clasificacion_formula": "formula_explicita"})
     relation = base(f"REL-{suffix}", "relacion_explicita", "Mediación vincula Objeto", "Mediación vincula Objeto")
@@ -138,6 +137,42 @@ def main() -> int:
     assert vg["obra_ids"] == ["OBRA-A", "OBRA-B"]
     assert vg["estado_identidad_interobra"] == "no_determinada"
 
+    assertion_pairs = {
+        (
+            group["clave_recuperacion"],
+            ref["obra_id"],
+            ref["registro_id"],
+            ref["datos_documentales"].get("concepto_id_clave"),
+        )
+        for group in outputs["afirmaciones_corpus"]["grupos"]
+        for ref in group["registros"]
+    }
+    assert assertion_pairs == {
+        ("Mediación", "OBRA-A", "AF-A", "CON-AA"),
+        ("Objeto", "OBRA-A", "AF-A", "CON-AB"),
+        ("Mediación", "OBRA-B", "AF-B", "CON-BA"),
+        ("Objeto", "OBRA-B", "AF-B", "CON-BB"),
+    }
+    for group in outputs["afirmaciones_corpus"]["grupos"]:
+        for ref in group["registros"]:
+            datos = ref["datos_documentales"]
+            assert "concepto_ids_origen" not in datos
+            assert datos["conceptos_referidos_total"] == 2
+
+    ambiguous = make_master("OBRA-X", "Obra X", "X")
+    ambiguous["conceptos"][1]["designacion_operativa"] = "Mediación"
+    ambiguous["conceptos"][1]["normalizacion_formal"] = "Mediación"
+    ambiguous["conceptos"][1]["normalizacion_lexica"] = ["mediación", "mediacion"]
+    amotor = MotorAfirmacionesCorpus()
+    amotor.consume(ambiguous)
+    aout = amotor.output([{"obra_id": "OBRA-X", "titulo": "Obra X", "schema_version": "1.4.1", "sha256": "2" * 64}])
+    ag = next(g for g in aout["grupos"] if g["clave_recuperacion"] == "Mediación")
+    assert {
+        ref["datos_documentales"]["concepto_id_clave"]
+        for ref in ag["registros"]
+        if ref["registro_id"] == "AF-X"
+    } == {"CON-XA", "CON-XB"}
+
     og = next(g for g in outputs["orden_recurrencia"]["grupos"] if g["clave_recuperacion"] == "Mediación")
     for ref in og["registros"]:
         assert ref["datos_documentales"]["aparicion_ids_ordenados"][0].endswith("1")
@@ -149,7 +184,7 @@ def main() -> int:
     assert outputs["relaciones_explicitas_corpus"]["cobertura"]["registros_origen"] == 2
     assert outputs["negaciones_excepciones_corpus"]["cobertura"]["registros_origen"] == 4
     assert outputs["distribucion_por_obra"]["cobertura"]["registros_origen"] == 2
-    print("OK Fase 11: nueve comparadores conservan clausura descriptiva, cobertura y orden intraobra")
+    print("OK Fase 11: nueve comparadores conservan clausura descriptiva, pares documentados y orden intraobra")
     return 0
 
 

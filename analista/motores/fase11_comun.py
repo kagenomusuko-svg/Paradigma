@@ -138,6 +138,7 @@ class BaseMotor:
         row: dict[str, Any],
         datos: dict[str, Any] | None = None,
         identity_state: str = "no_determinada",
+        ref_discriminator: str | None = None,
     ) -> None:
         normalized_key = formal_key(key)
         source_key = (master["obra_id"], row["id"])
@@ -153,7 +154,7 @@ class BaseMotor:
         )
         if bucket["criterion"] != criterion or bucket["identity"] != identity_state:
             raise SystemExit(f"Clave de recuperación ambigua en {self.motor}: {normalized_key!r}")
-        ref_key = (master["obra_id"], row["id"])
+        ref_key = (master["obra_id"], row["id"], ref_discriminator)
         if ref_key not in bucket["seen"]:
             bucket["seen"].add(ref_key)
             bucket["refs"].append(compact_origin(master, row, datos))
@@ -162,7 +163,14 @@ class BaseMotor:
         groups = []
         for key in sorted(self._groups):
             bucket = self._groups[key]
-            refs = sorted(bucket["refs"], key=lambda r: (r["obra_id"], r["registro_id"]))
+            refs = sorted(
+                bucket["refs"],
+                key=lambda r: (
+                    r["obra_id"],
+                    r["registro_id"],
+                    canonical_bytes(r.get("datos_documentales", {})),
+                ),
+            )
             groups.append(
                 {
                     "id": stable_id("F11G", {"motor": self.motor, "clave": key}),

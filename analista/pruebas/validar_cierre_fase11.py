@@ -11,7 +11,7 @@ import jsonschema
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "motores"))
-from fase11_comun import load_manifest, load_master, sha256_file, write_json
+from fase11_comun import concept_key, load_manifest, load_master, sha256_file, write_json
 from ejecutar_comparaciones_fase11 import OUTPUTS
 
 SOURCE_SECTIONS = {
@@ -72,6 +72,7 @@ def main() -> int:
 
     expected: dict[str, set[tuple[str, str]]] = {m: set() for m in SOURCE_SECTIONS}
     concepts_by_id: dict[tuple[str, str], dict] = {}
+    expected_assertion_links: set[tuple[str, str, str, str]] = set()
     master_meta = []
     for meta in sorted(manifest["maestros"], key=lambda x: x["obra_id"]):
         path = args.maestros_dir / f"{meta['obra_id']}.json"
@@ -88,8 +89,18 @@ def main() -> int:
                     expected[motor].add((master["obra_id"], master["id"]))
                 else:
                     expected[motor].update((master["obra_id"], row["id"]) for row in master.get(section, []))
-        for concept in master.get("conceptos", []):
+        local_concepts = {concept["id"]: concept for concept in master.get("conceptos", [])}
+        for concept in local_concepts.values():
             concepts_by_id[(master["obra_id"], concept["id"])] = concept
+        for row in master.get("afirmaciones", []):
+            for cid in dict.fromkeys(row.get("concepto_ids", [])):
+                concept = local_concepts.get(cid)
+                if concept is None:
+                    raise SystemExit(f"Afirmación refiere concepto inexistente: {master['obra_id']}:{row['id']}:{cid}")
+                key = concept_key(concept)
+                if not key:
+                    raise SystemExit(f"Afirmación refiere concepto sin clave formal: {master['obra_id']}:{row['id']}:{cid}")
+                expected_assertion_links.add((master["obra_id"], row["id"], cid, key))
         del master
 
     summaries = []
@@ -112,6 +123,25 @@ def main() -> int:
             raise SystemExit(f"Cobertura no exhaustiva en {motor}: faltan={list(sorted(missing))[:5]} extras={list(sorted(extra))[:5]}")
         if output["cobertura"]["registros_origen"] != len(expected[motor]):
             raise SystemExit(f"Conteo de cobertura incompatible en {motor}")
+        if motor == "afirmaciones_corpus":
+            actual_assertion_links = {
+                (
+                    ref["obra_id"],
+                    ref["registro_id"],
+                    ref["datos_documentales"]["concepto_id_clave"],
+                    group["clave_recuperacion"],
+                )
+                for group in output["grupos"]
+                for ref in group["registros"]
+                if ref["datos_documentales"].get("concepto_id_clave") is not None
+            }
+            missing_links = expected_assertion_links - actual_assertion_links
+            extra_links = actual_assertion_links - expected_assertion_links
+            if missing_links or extra_links:
+                raise SystemExit(
+                    "Vínculos afirmación→concepto no exhaustivos: "
+                    f"faltan={list(sorted(missing_links))[:5]} extras={list(sorted(extra_links))[:5]}"
+                )
         if motor == "orden_recurrencia":
             for group in output["grupos"]:
                 for ref in group["registros"]:

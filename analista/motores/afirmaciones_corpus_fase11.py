@@ -29,7 +29,7 @@ class MotorAfirmacionesCorpus(BaseMotor):
                     {
                         "concepto_id_clave": cid,
                         "concepto_designacion_clave": designation,
-                        "concepto_ids_origen": concept_ids,
+                        "conceptos_referidos_total": len(concept_ids),
                         "clasificacion_afirmacion": row.get("clasificacion_afirmacion"),
                         "sujeto_literal": row.get("sujeto_literal"),
                         "predicado_literal": row.get("predicado_literal"),
@@ -37,4 +37,5 @@ class MotorAfirmacionesCorpus(BaseMotor):
                         "criterio_deteccion": row.get("criterio_deteccion"),
                         "confianza_extraccion": row.get("confianza_extraccion"),
                     },
+                    ref_discriminator=cid,
                 )
