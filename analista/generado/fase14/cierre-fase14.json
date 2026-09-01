@@ -1,0 +1,47 @@
+{
+  "auditoria_sha256": "55757b99dfd9fd1027a3200676e8973797a3cb532eadcd2c68524ff924174815",
+  "clausura_descriptiva": {
+    "busqueda_semantica_inferida": false,
+    "complementariedad_inferida": false,
+    "contradiccion_inferida": false,
+    "definicion_preferida": false,
+    "equivalencia_inferida": false,
+    "evolucion_doctrinal_inferida": false,
+    "formula_concepto_inferida": false,
+    "identidad_interobra_inferida": false,
+    "resolucion_doctrinal": "no_realizada",
+    "sintesis_doctrinal": false,
+    "solo_recuperacion_documental": true
+  },
+  "consultas_ejecutadas": 10,
+  "criterio": "respuestas_mediante_registros_auditados_y_referencias_sin_generar_doctrina_nueva",
+  "estados_respuesta": {
+    "hallazgo_auditado": 7,
+    "no_determinado_por_el_corpus": 1,
+    "sin_hallazgo_auditado": 2
+  },
+  "fase": 14,
+  "fase14_cerrada": true,
+  "fuente_exclusiva": "json_maestro_corpus_fase13_cerrado",
+  "origen_fase13": {
+    "asset": "analista-fase13-cierre-v1.0.0.zip",
+    "asset_sha256": "2639d6467669a92428d57eaafab732976878c0373a646d0864014dc4b51d399b",
+    "cierre_sha256": "e34b31186342581dda03c7566789b05bbb073acd6810a937ab963f5834c13b5a",
+    "maestro_id": "F13M-41B58389F285",
+    "release_tag": "analista-fase13-cierre-v1.0.0"
+  },
+  "referencias_auditadas_verificadas_emitidas": 8,
+  "reproducible_byte_a_byte": true,
+  "respuestas_sha256": "8630172ffcfd247bc0251a7e0f465a71de12c201b2dac31680d35ca9a22a858f",
+  "tipos_consulta_ejercitados": [
+    "apariciones",
+    "definiciones_explicitas",
+    "excepciones",
+    "formulas_contienen",
+    "negaciones",
+    "predicaciones",
+    "relacion_explicita",
+    "variantes_terminologicas"
+  ],
+  "version": "1.0.0"
+}

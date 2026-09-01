@@ -1,0 +1,59 @@
+{
+  "almacenamiento": {
+    "asset": "analista-fase14-cierre-v1.0.0.zip",
+    "asset_bytes": 6216,
+    "asset_sha256": "b5eba8bd94662f8e8da243e98ece6f3797497d4528f6781b0a47879c8d60bbc9",
+    "raiz_al_extraer": "analista/generado",
+    "raiz_contenida": "fase14",
+    "release_tag": "analista-fase14-cierre-v1.0.0",
+    "tipo": "github_release_asset_zip"
+  },
+  "clausura_descriptiva": {
+    "busqueda_semantica_inferida": false,
+    "complementariedad_inferida": false,
+    "contradiccion_inferida": false,
+    "definicion_preferida": false,
+    "equivalencia_inferida": false,
+    "evolucion_doctrinal_inferida": false,
+    "formula_concepto_inferida": false,
+    "identidad_interobra_inferida": false,
+    "resolucion_doctrinal": "no_realizada",
+    "sintesis_doctrinal": false,
+    "solo_recuperacion_documental": true
+  },
+  "estado": "evidencia_validada_persistida_fuera_de_blobs_git",
+  "fase": 14,
+  "gate": {
+    "cierre_sha256": "0755054c7c0c957322c718e8ec3f8a48aa5be090766930254b0561c697e5ebcf",
+    "consultas_ejecutadas": 10,
+    "estados_respuesta": {
+      "hallazgo_auditado": 7,
+      "no_determinado_por_el_corpus": 1,
+      "sin_hallazgo_auditado": 2
+    },
+    "fase14_cerrada": true,
+    "head_sha": "7cb2ffd872ceb785fe51a6852b83242673323669",
+    "referencias_auditadas_verificadas_emitidas": 8
+  },
+  "origen_fase13": {
+    "asset": "analista-fase13-cierre-v1.0.0.zip",
+    "asset_sha256": "2639d6467669a92428d57eaafab732976878c0373a646d0864014dc4b51d399b",
+    "cierre_sha256": "e34b31186342581dda03c7566789b05bbb073acd6810a937ab963f5834c13b5a",
+    "maestro_id": "F13M-41B58389F285",
+    "release_tag": "analista-fase13-cierre-v1.0.0"
+  },
+  "productos": [
+    {
+      "ruta_en_zip": "fase14/auditoria-consulta-fase14.json",
+      "sha256": "55757b99dfd9fd1027a3200676e8973797a3cb532eadcd2c68524ff924174815",
+      "tipo": "auditoria_consulta_literal"
+    },
+    {
+      "registros": 10,
+      "ruta_en_zip": "fase14/muestra-respuestas-fase14.jsonl",
+      "sha256": "8630172ffcfd247bc0251a7e0f465a71de12c201b2dac31680d35ca9a22a858f",
+      "tipo": "muestra_respuestas_consulta_literal"
+    }
+  ],
+  "version": "1.0.0"
+}
