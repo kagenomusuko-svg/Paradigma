@@ -1,0 +1,361 @@
+{
+  "clausura_descriptiva": {
+    "ausencia_de_registros_implica_ausencia_semantica": false,
+    "comparacion_interobra": false,
+    "identidad_candidata_se_convierte_en_doctrina": false,
+    "resolucion_doctrinal": "no_realizada",
+    "sintesis_doctrinal": false
+  },
+  "criterio": "todas_las_obras_previstas_con_maestro_independiente_validado",
+  "fase": 10,
+  "fase10_cerrada": true,
+  "inventario": {
+    "con_glosario_tecnico_explicito": 8,
+    "obras": 20,
+    "piloto_id": "AA-SP-V1",
+    "sin_glosario_tecnico_explicito": 12
+  },
+  "obras": [
+    {
+      "comparacion_interobra": false,
+      "conceptos": {
+        "establecida_por_evidencia": 14,
+        "no_determinada": 6674,
+        "total": 6688
+      },
+      "extraccion_conceptual_habilitada": true,
+      "maestro": "analista/generado/maestros/FUE-84037974F5AF.json",
+      "maestro_sha256": "8a2a966ff9a974ce9d7419b2f2235804902ff390b1127f22c15dab855e563841",
+      "obra_id": "FUE-84037974F5AF",
+      "perfil_conceptual": "glosario_tecnico_explicito",
+      "ruta_cierre": "repeticion_controlada_fase10",
+      "schema_maestro": "1.4.1",
+      "titulo": "Afrodita Areia: Areópago",
+      "unidades": 950
+    },
+    {
+      "comparacion_interobra": false,
+      "conceptos": {
+        "establecida_por_evidencia": 28,
+        "no_determinada": 5235,
+        "total": 5263
+      },
+      "extraccion_conceptual_habilitada": true,
+      "maestro": "analista/generado/maestros/FUE-8239B13CABE5.json",
+      "maestro_sha256": "de026d689d68f6d8c64fdc0ba7e1fd865e17d09083a0deed87dfb08a9f81725e",
+      "obra_id": "FUE-8239B13CABE5",
+      "perfil_conceptual": "glosario_tecnico_explicito",
+      "ruta_cierre": "repeticion_controlada_fase10",
+      "schema_maestro": "1.4.1",
+      "titulo": "Afrodita Areia: Caelus",
+      "unidades": 579
+    },
+    {
+      "comparacion_interobra": false,
+      "conceptos": {
+        "establecida_por_evidencia": 34,
+        "no_determinada": 3915,
+        "total": 3949
+      },
+      "extraccion_conceptual_habilitada": true,
+      "maestro": "analista/generado/maestros/FUE-5B97FBF86F71.json",
+      "maestro_sha256": "035ec883a64943fce592b36f0b8bd8aa7c52a437b56701823bc147db6fb143f0",
+      "obra_id": "FUE-5B97FBF86F71",
+      "perfil_conceptual": "glosario_tecnico_explicito",
+      "ruta_cierre": "repeticion_controlada_fase10",
+      "schema_maestro": "1.4.1",
+      "titulo": "Afrodita Areia: Damasén",
+      "unidades": 816
+    },
+    {
+      "comparacion_interobra": false,
+      "conceptos": {
+        "establecida_por_evidencia": 21,
+        "no_determinada": 0,
+        "total": 21
+      },
+      "extraccion_conceptual_habilitada": true,
+      "maestro": "analista/generado/maestros/AA-SP-V1.json",
+      "maestro_sha256": "a0a4bb207b89d04d10cb6bd4ff94d91100c4310162901840a5b65693b70e580d",
+      "obra_id": "AA-SP-V1",
+      "perfil_conceptual": "glosario_tecnico_explicito",
+      "ruta_cierre": "piloto_cerrado_fase9",
+      "schema_maestro": "1.1.0",
+      "titulo": "Afrodita Areia: Sobre la pasión",
+      "unidades": 836
+    },
+    {
+      "comparacion_interobra": false,
+      "conceptos": {
+        "establecida_por_evidencia": 17,
+        "no_determinada": 3962,
+        "total": 3979
+      },
+      "extraccion_conceptual_habilitada": true,
+      "maestro": "analista/generado/maestros/FUE-2C28F35DD6CF.json",
+      "maestro_sha256": "5b3e49f458216bfd8ce9df3969c42108674ca954d86900ea8cd25d195a997170",
+      "obra_id": "FUE-2C28F35DD6CF",
+      "perfil_conceptual": "glosario_tecnico_explicito",
+      "ruta_cierre": "repeticion_controlada_fase10",
+      "schema_maestro": "1.4.1",
+      "titulo": "Afrodita Areia: Ágape",
+      "unidades": 643
+    },
+    {
+      "comparacion_interobra": false,
+      "conceptos": {
+        "establecida_por_evidencia": 17,
+        "no_determinada": 1430,
+        "total": 1447
+      },
+      "extraccion_conceptual_habilitada": true,
+      "maestro": "analista/generado/maestros/FUE-B62AC3A43830.json",
+      "maestro_sha256": "ec1379eb44e43fbbdaf52f91b16b4e300a5e8260d70612e1ddf7abcbbc858f02",
+      "obra_id": "FUE-B62AC3A43830",
+      "perfil_conceptual": "glosario_tecnico_explicito",
+      "ruta_cierre": "repeticion_controlada_fase10",
+      "schema_maestro": "1.4.1",
+      "titulo": "Arquitectura ontológica de sistemas artificiales",
+      "unidades": 132
+    },
+    {
+      "comparacion_interobra": false,
+      "conceptos": {
+        "establecida_por_evidencia": 0,
+        "no_determinada": 2091,
+        "total": 2091
+      },
+      "extraccion_conceptual_habilitada": true,
+      "maestro": "analista/generado/maestros/FUE-B16438498D68.json",
+      "maestro_sha256": "5496cccaca55ccad667bc1941b6d3d63f0f2c664a4c907b98db7d93bcd14627a",
+      "obra_id": "FUE-B16438498D68",
+      "perfil_conceptual": "sin_glosario_tecnico_explicito",
+      "ruta_cierre": "repeticion_controlada_fase10",
+      "schema_maestro": "1.4.1",
+      "titulo": "Axiomatización del sistema de la doble mediación",
+      "unidades": 194
+    },
+    {
+      "comparacion_interobra": false,
+      "conceptos": {
+        "establecida_por_evidencia": 1,
+        "no_determinada": 7126,
+        "total": 7127
+      },
+      "extraccion_conceptual_habilitada": true,
+      "maestro": "analista/generado/maestros/FUE-6F24D4138FC2.json",
+      "maestro_sha256": "3ddecac64e0c19ca2d3edf08eb88077f5ce7eff28e1d31142103c94612bc37e1",
+      "obra_id": "FUE-6F24D4138FC2",
+      "perfil_conceptual": "sin_glosario_tecnico_explicito",
+      "ruta_cierre": "repeticion_controlada_fase10",
+      "schema_maestro": "1.4.1",
+      "titulo": "Caos: El abismo del ego y la doble mediación",
+      "unidades": 607
+    },
+    {
+      "comparacion_interobra": false,
+      "conceptos": {
+        "establecida_por_evidencia": 0,
+        "no_determinada": 11167,
+        "total": 11167
+      },
+      "extraccion_conceptual_habilitada": true,
+      "maestro": "analista/generado/maestros/FUE-AC349C929C15.json",
+      "maestro_sha256": "b08027460f903b7f56a16da18904be26cafd6a67335e968f825af25b3f16fed9",
+      "obra_id": "FUE-AC349C929C15",
+      "perfil_conceptual": "sin_glosario_tecnico_explicito",
+      "ruta_cierre": "repeticion_controlada_fase10",
+      "schema_maestro": "1.4.1",
+      "titulo": "ECO: Entrevista Clínica Ontológica",
+      "unidades": 872
+    },
+    {
+      "comparacion_interobra": false,
+      "conceptos": {
+        "establecida_por_evidencia": 0,
+        "no_determinada": 10884,
+        "total": 10884
+      },
+      "extraccion_conceptual_habilitada": true,
+      "maestro": "analista/generado/maestros/FUE-45C4FB4522AC.json",
+      "maestro_sha256": "c9ec65153b3471856598f1c0f2d6576cff8ccb25dad0b59f1ac0a780289a65e1",
+      "obra_id": "FUE-45C4FB4522AC",
+      "perfil_conceptual": "sin_glosario_tecnico_explicito",
+      "ruta_cierre": "repeticion_controlada_fase10",
+      "schema_maestro": "1.4.1",
+      "titulo": "El cálculo de la responsabilidad: Una ontología matemática para sistemas causales complejos",
+      "unidades": 1065
+    },
+    {
+      "comparacion_interobra": false,
+      "conceptos": {
+        "establecida_por_evidencia": 0,
+        "no_determinada": 4122,
+        "total": 4122
+      },
+      "extraccion_conceptual_habilitada": true,
+      "maestro": "analista/generado/maestros/FUE-AFB58779DA59.json",
+      "maestro_sha256": "c83bdc186142b523c89d3bedeca90598bf0a61a7f1e9e197a915e2b8f580eb2b",
+      "obra_id": "FUE-AFB58779DA59",
+      "perfil_conceptual": "sin_glosario_tecnico_explicito",
+      "ruta_cierre": "repeticion_controlada_fase10",
+      "schema_maestro": "1.4.1",
+      "titulo": "El dilema de Aquiles o la disociación del ego",
+      "unidades": 322
+    },
+    {
+      "comparacion_interobra": false,
+      "conceptos": {
+        "establecida_por_evidencia": 4,
+        "no_determinada": 4167,
+        "total": 4171
+      },
+      "extraccion_conceptual_habilitada": true,
+      "maestro": "analista/generado/maestros/FUE-8B22B605F823.json",
+      "maestro_sha256": "e7a216b602ac34c267fea5bffd3d264b764b71fed5b599e81635af2f856542d7",
+      "obra_id": "FUE-8B22B605F823",
+      "perfil_conceptual": "glosario_tecnico_explicito",
+      "ruta_cierre": "repeticion_controlada_fase10",
+      "schema_maestro": "1.4.1",
+      "titulo": "El juego de las máscaras o la disforia de la identidad",
+      "unidades": 573
+    },
+    {
+      "comparacion_interobra": false,
+      "conceptos": {
+        "establecida_por_evidencia": 1,
+        "no_determinada": 4353,
+        "total": 4354
+      },
+      "extraccion_conceptual_habilitada": true,
+      "maestro": "analista/generado/maestros/FUE-8D874E9B440D.json",
+      "maestro_sha256": "f821b92c8e1e484a5dd709f4256effce85927862b42b9ddf85d52522df46b34d",
+      "obra_id": "FUE-8D874E9B440D",
+      "perfil_conceptual": "sin_glosario_tecnico_explicito",
+      "ruta_cierre": "repeticion_controlada_fase10",
+      "schema_maestro": "1.4.1",
+      "titulo": "El método Prometeo: Imputación causal para juristas y abogados",
+      "unidades": 437
+    },
+    {
+      "comparacion_interobra": false,
+      "conceptos": {
+        "establecida_por_evidencia": 1,
+        "no_determinada": 4097,
+        "total": 4098
+      },
+      "extraccion_conceptual_habilitada": true,
+      "maestro": "analista/generado/maestros/FUE-5D0D2D0EAAE9.json",
+      "maestro_sha256": "ffc74133307b4680c1923815098b3d8b7fcebc8f7d917b79f7a8cdee493dd473",
+      "obra_id": "FUE-5D0D2D0EAAE9",
+      "perfil_conceptual": "sin_glosario_tecnico_explicito",
+      "ruta_cierre": "repeticion_controlada_fase10",
+      "schema_maestro": "1.4.1",
+      "titulo": "El telar de las Moiras: Ontología de la autodeterminación causal",
+      "unidades": 526
+    },
+    {
+      "comparacion_interobra": false,
+      "conceptos": {
+        "establecida_por_evidencia": 1,
+        "no_determinada": 11110,
+        "total": 11111
+      },
+      "extraccion_conceptual_habilitada": true,
+      "maestro": "analista/generado/maestros/FUE-485F93B810A9.json",
+      "maestro_sha256": "ea343f1416ec6747214c2c07c5c409b30896e019e3577738dbd9da10f4759c90",
+      "obra_id": "FUE-485F93B810A9",
+      "perfil_conceptual": "sin_glosario_tecnico_explicito",
+      "ruta_cierre": "repeticion_controlada_fase10",
+      "schema_maestro": "1.4.1",
+      "titulo": "HISTOS: Protocolo de Acompañamiento Ontológico",
+      "unidades": 1248
+    },
+    {
+      "comparacion_interobra": false,
+      "conceptos": {
+        "establecida_por_evidencia": 2,
+        "no_determinada": 7496,
+        "total": 7498
+      },
+      "extraccion_conceptual_habilitada": true,
+      "maestro": "analista/generado/maestros/FUE-0DCCFF3B469D.json",
+      "maestro_sha256": "29b1fa737e9237e2490a19acb089ed5af5cdeeaff415e93aecb9512f188b5f9c",
+      "obra_id": "FUE-0DCCFF3B469D",
+      "perfil_conceptual": "sin_glosario_tecnico_explicito",
+      "ruta_cierre": "repeticion_controlada_fase10",
+      "schema_maestro": "1.4.1",
+      "titulo": "La transformación formal: La ontología del ego como fundamento del cálculo causal",
+      "unidades": 881
+    },
+    {
+      "comparacion_interobra": false,
+      "conceptos": {
+        "establecida_por_evidencia": 3,
+        "no_determinada": 6848,
+        "total": 6851
+      },
+      "extraccion_conceptual_habilitada": true,
+      "maestro": "analista/generado/maestros/FUE-20DE1953EAB8.json",
+      "maestro_sha256": "a86fa20c6a2d04b2f64c953e8502deb07f72c07dda27c6d3eb21bc20db5cbad2",
+      "obra_id": "FUE-20DE1953EAB8",
+      "perfil_conceptual": "glosario_tecnico_explicito",
+      "ruta_cierre": "repeticion_controlada_fase10",
+      "schema_maestro": "1.4.1",
+      "titulo": "Metrología Causal: La ciencia de la medición causal",
+      "unidades": 1420
+    },
+    {
+      "comparacion_interobra": false,
+      "conceptos": {
+        "establecida_por_evidencia": 0,
+        "no_determinada": 3320,
+        "total": 3320
+      },
+      "extraccion_conceptual_habilitada": true,
+      "maestro": "analista/generado/maestros/FUE-B5CE5FA49DBA.json",
+      "maestro_sha256": "3500a3685d1c25296f690f588c9bc1bcbe00eeb258f7e53f10eebe33ac838306",
+      "obra_id": "FUE-B5CE5FA49DBA",
+      "perfil_conceptual": "sin_glosario_tecnico_explicito",
+      "ruta_cierre": "repeticion_controlada_fase10",
+      "schema_maestro": "1.4.1",
+      "titulo": "Metrología Causal: Vol. II",
+      "unidades": 515
+    },
+    {
+      "comparacion_interobra": false,
+      "conceptos": {
+        "establecida_por_evidencia": 1,
+        "no_determinada": 16910,
+        "total": 16911
+      },
+      "extraccion_conceptual_habilitada": true,
+      "maestro": "analista/generado/maestros/FUE-83A1810BB0A1.json",
+      "maestro_sha256": "b93afaf50de221bd47caef156214bd22f6e03d6a43f301cdf9b1bcf93753b714",
+      "obra_id": "FUE-83A1810BB0A1",
+      "perfil_conceptual": "sin_glosario_tecnico_explicito",
+      "ruta_cierre": "repeticion_controlada_fase10",
+      "schema_maestro": "1.4.1",
+      "titulo": "SDO: Sistema de Diagnóstico Ontológico",
+      "unidades": 2304
+    },
+    {
+      "comparacion_interobra": false,
+      "conceptos": {
+        "establecida_por_evidencia": 0,
+        "no_determinada": 25403,
+        "total": 25403
+      },
+      "extraccion_conceptual_habilitada": true,
+      "maestro": "analista/generado/maestros/FUE-D2CEF8B587D7.json",
+      "maestro_sha256": "728c61ebc748474564cdd52d6198c00c7e281b9acea3315086e726a42af8a2fa",
+      "obra_id": "FUE-D2CEF8B587D7",
+      "perfil_conceptual": "sin_glosario_tecnico_explicito",
+      "ruta_cierre": "repeticion_controlada_fase10",
+      "schema_maestro": "1.4.1",
+      "titulo": "Taxonomía General de Aplicaciones",
+      "unidades": 2653
+    }
+  ],
+  "version": "1.2.2"
+}
