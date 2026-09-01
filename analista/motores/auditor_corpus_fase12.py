@@ -210,7 +210,10 @@ def count_by_work(refs: list[dict[str, Any]], *, unique_records: bool = False) -
 
 def merge_count(target: dict[str, dict[str, Any]], field: str, counts: dict[str, int]) -> None:
     for obra, count in counts.items():
-        target.setdefault(obra, {})[field] = target.setdefault(obra, {}).get(field, 0) + count
+        work = target.setdefault(obra, {"obra_id": obra})
+        if work.get("obra_id") != obra:
+            raise SystemExit(f"Entrada de obra inconsistente al agregar conteo: {obra}")
+        work[field] = work.get(field, 0) + count
 
 
 def load_source(fase11_dir: Path, storage_path: Path) -> tuple[dict[str, Any], dict[str, Any], dict[str, dict[str, Any]]]:

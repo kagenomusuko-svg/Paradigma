@@ -166,7 +166,7 @@ def main() -> int:
         products["negaciones_excepciones_corpus"] = write_product(
             fase11, masters, "negaciones_excepciones_corpus", [
                 make_group("negaciones_excepciones_corpus", "negacion::ego", [
-                    make_ref("B", "N1", "negacion", {"clasificacion_negacion": "negacion_explicita", "objeto_negado_literal": "ego"})
+                    make_ref("W02", "N1", "negacion", {"clasificacion_negacion": "negacion_explicita", "objeto_negado_literal": "ego"})
                 ], identity="no_aplica"),
                 make_group("negaciones_excepciones_corpus", "excepcion::salvo x", [
                     make_ref("A", "E1", "excepcion", {"clasificacion_excepcion": "excepcion_explicita", "afirmacion_limitada_id": "AF1"})
@@ -266,6 +266,9 @@ def main() -> int:
         assert dossier["relaciones_explicitas"][0]["roles_de_la_clave"] == ["sujeto"]
         assert dossier["negaciones_recuperadas_por_forma"][0]["estado_vinculo_conceptual"] == "no_determinado"
         assert dossier["excepciones_vinculadas_a_predicaciones"][0]["criterio_vinculo"] == "afirmacion_limitada_id_documentado"
+        works = {work["obra_id"]: work for work in dossier["obras"]}
+        assert works["W02"]["conceptos_registrados"] == 0
+        assert works["W02"]["negaciones_recuperadas_por_forma"] == 1
         assert set(dossier["hallazgos"]) == {"definiciones_multiples", "multiplicidad_predicativa", "variacion_terminologica"}
         assert dossier["resolucion_doctrinal"] == "no_realizada"
         assert dossier["equivalencia_inferida"] is False
@@ -286,7 +289,7 @@ def main() -> int:
         assert close["expedientes_transversales"] == 1
         assert close["clausura_descriptiva"]["resolucion_doctrinal"] == "no_realizada"
 
-    print("OK Fase 12: contrato especial de distribución preserva maestros verificados y auditoría estricta interna")
+    print("OK Fase 12: contrato especial de distribución y obras agregadas conservan trazabilidad estructural")
     return 0
 
 
