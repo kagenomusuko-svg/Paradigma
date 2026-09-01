@@ -1,0 +1,176 @@
+name: Analista Fase 11 - cierre de comparadores del corpus
+
+on:
+  push:
+    branches: [analisis-textual-v0.1]
+    paths:
+      - "analista/README.md"
+      - "analista/FASES.md"
+      - "analista/config/clausura-descriptiva.yaml"
+      - "analista/generado/fase10/almacenamiento-fase10.json"
+      - "analista/esquema/comparacion-corpus-fase11-v1.0.0.schema.json"
+      - "analista/motores/fase11_comun.py"
+      - "analista/motores/conceptos_corpus_fase11.py"
+      - "analista/motores/definiciones_corpus_fase11.py"
+      - "analista/motores/afirmaciones_corpus_fase11.py"
+      - "analista/motores/formulas_corpus_fase11.py"
+      - "analista/motores/relaciones_explicitas_corpus_fase11.py"
+      - "analista/motores/negaciones_excepciones_corpus_fase11.py"
+      - "analista/motores/variantes_terminologicas_corpus_fase11.py"
+      - "analista/motores/distribucion_por_obra_fase11.py"
+      - "analista/motores/orden_recurrencia_corpus_fase11.py"
+      - "analista/motores/ejecutar_comparaciones_fase11.py"
+      - "analista/pruebas/validar_comparadores_fase11.py"
+      - "analista/pruebas/validar_cierre_fase11.py"
+      - ".github/workflows/analista-fase11-cierre.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: analista-fase11-cierre-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  cierre-fase11:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --quiet jsonschema
+
+      - name: Validar regresiones epistemológicas de Fase 11
+        run: python analista/pruebas/validar_comparadores_fase11.py
+
+      - name: Restaurar exclusivamente los maestros cerrados de Fase 10
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh release download analista-fase10-cierre-v1.2.2 \
+            --repo "${GITHUB_REPOSITORY}" \
+            --pattern analista-fase10-cierre-global.zip \
+            --output fase10.zip
+          test "$(sha256sum fase10.zip | awk '{print $1}')" = "13b580dcdcb83f1f15a4008a7e423ca733a6a5e48e467ef30f212d7a7403a3d8"
+          mkdir -p analista/generado
+          unzip -q fase10.zip 'maestros/*' -d analista/generado
+          test "$(find analista/generado/maestros -maxdepth 1 -type f -name '*.json' | wc -l)" -eq 20
+
+      - name: Ejecutar nueve motores especializados sobre los 20 maestros
+        run: |
+          python analista/motores/ejecutar_comparaciones_fase11.py \
+            --manifest analista/generado/fase10/almacenamiento-fase10.json \
+            --maestros-dir analista/generado/maestros \
+            --salida-dir analista/generado/fase11
+
+      - name: Validar cobertura exhaustiva y cierre descriptivo
+        run: |
+          python analista/pruebas/validar_cierre_fase11.py \
+            --manifest analista/generado/fase10/almacenamiento-fase10.json \
+            --maestros-dir analista/generado/maestros \
+            --salida-dir analista/generado/fase11 \
+            --cierre analista/generado/fase11/cierre-fase11.json
+
+      - name: Empaquetar productos determinísticamente
+        run: |
+          python - <<'PY'
+          import hashlib,shutil
+          from pathlib import Path
+          from zipfile import ZIP_DEFLATED, ZipFile, ZipInfo
+          root=Path('analista/generado')
+          out=Path('analista-fase11-cierre-v1.0.0.zip')
+          files=sorted(p for p in (root/'fase11').iterdir() if p.is_file())
+          with ZipFile(out,'w',compression=ZIP_DEFLATED,compresslevel=9) as z:
+              for p in files:
+                  info=ZipInfo(p.relative_to(root).as_posix(),date_time=(1980,1,1,0,0,0))
+                  info.compress_type=ZIP_DEFLATED
+                  info.external_attr=(0o100644 & 0xffff)<<16
+                  with p.open('rb') as src,z.open(info,'w') as dst:
+                      shutil.copyfileobj(src,dst,1024*1024)
+          h=hashlib.sha256(out.read_bytes()).hexdigest()
+          print(f'F11_ZIP_SHA256={h}')
+          print(f'F11_ZIP_BYTES={out.stat().st_size}')
+          print(f'F11_ARCHIVOS={len(files)}')
+          PY
+
+      - name: Publicar evidencia durable de Fase 11
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: analista-fase11-cierre-v1.0.0
+          ASSET: analista-fase11-cierre-v1.0.0.zip
+        run: |
+          set -euo pipefail
+          digest="$(sha256sum "${ASSET}" | awk '{print $1}')"
+          if gh release view "${RELEASE_TAG}" --repo "${GITHUB_REPOSITORY}" >/dev/null 2>&1; then
+            target="$(gh api "repos/${GITHUB_REPOSITORY}/releases/tags/${RELEASE_TAG}" --jq .target_commitish)"
+            test "${target}" = "${GITHUB_SHA}"
+          else
+            gh release create "${RELEASE_TAG}" \
+              --repo "${GITHUB_REPOSITORY}" \
+              --target "${GITHUB_SHA}" \
+              --title "Analista documental — cierre Fase 11 v1.0.0" \
+              --notes "Nueve comparadores descriptivos sobre los 20 JSON maestros cerrados de Fase 10. No establece identidad, equivalencia, complementariedad ni contradicción doctrinal interobra."
+          fi
+          gh release upload "${RELEASE_TAG}" "${ASSET}" --clobber --repo "${GITHUB_REPOSITORY}"
+          remote_digest="$(gh api "repos/${GITHUB_REPOSITORY}/releases/tags/${RELEASE_TAG}" --jq ".assets[] | select(.name==\"${ASSET}\") | .digest")"
+          test "${remote_digest}" = "sha256:${digest}"
+          echo "Release Fase 11 persistido: ${remote_digest}"
+
+      - name: Persistir gate y manifiesto ligero en Git
+        env:
+          RELEASE_TAG: analista-fase11-cierre-v1.0.0
+          ASSET: analista-fase11-cierre-v1.0.0.zip
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib,json,os
+          from pathlib import Path
+          import sys
+          sys.path.insert(0,'analista/motores')
+          from fase11_comun import write_json
+          root=Path('analista/generado/fase11')
+          asset=Path(os.environ['ASSET'])
+          closure_bytes=(root/'cierre-fase11.json').read_bytes()
+          closure=json.loads(closure_bytes)
+          storage={
+              'version':'1.0.0',
+              'fase':11,
+              'estado':'evidencia_validada_persistida_fuera_de_blobs_git',
+              'gate':{
+                  'fase11_cerrada':True,
+                  'head_sha':os.environ['GITHUB_SHA'],
+                  'maestros':20,
+                  'motores':9,
+                  'cierre_sha256':hashlib.sha256(closure_bytes).hexdigest(),
+              },
+              'almacenamiento':{
+                  'tipo':'github_release_asset_zip',
+                  'release_tag':os.environ['RELEASE_TAG'],
+                  'asset':os.environ['ASSET'],
+                  'asset_sha256':hashlib.sha256(asset.read_bytes()).hexdigest(),
+                  'asset_bytes':asset.stat().st_size,
+                  'raiz_al_extraer':'analista/generado',
+                  'raiz_contenida':'fase11',
+              },
+              'productos':[
+                  {'motor':m['motor'],'ruta_en_zip':'fase11/'+m['ruta'],'sha256':m['sha256']}
+                  for m in closure['motores']
+              ],
+              'clausura_descriptiva':closure['clausura_descriptiva'],
+          }
+          write_json(root/'almacenamiento-fase11.json',storage)
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add analista/generado/fase11/cierre-fase11.json \
+                  analista/generado/fase11/cierre-fase11.json.sha256 \
+                  analista/generado/fase11/almacenamiento-fase11.json \
+                  analista/generado/fase11/almacenamiento-fase11.json.sha256
+          git commit -m "Persistir cierre descriptivo de Fase 11"
+          git push origin HEAD:analisis-textual-v0.1
