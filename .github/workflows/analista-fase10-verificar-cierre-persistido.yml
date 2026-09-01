@@ -1,0 +1,98 @@
+name: Analista Fase 10 - verificar cierre persistido
+
+on:
+  push:
+    branches: [analisis-textual-v0.1]
+    paths:
+      - ".github/workflows/analista-fase10-verificar-cierre-persistido.yml"
+      - "analista/generado/fase10/cierre-fase10.json"
+      - "analista/generado/fase10/cierre-fase10.json.sha256"
+      - "analista/generado/fase10/almacenamiento-fase10.json"
+      - "analista/generado/fase10/almacenamiento-fase10.json.sha256"
+      - "analista/generado/fase10/inventario-obras.json"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verificar-cierre:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: analisis-textual-v0.1
+
+      - name: Verificar manifiestos persistidos
+        run: |
+          set -euo pipefail
+          cd analista/generado/fase10
+          sha256sum --check cierre-fase10.json.sha256
+          sha256sum --check almacenamiento-fase10.json.sha256
+          cd ../../..
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('analista/generado/fase10')
+          c=json.loads((root/'cierre-fase10.json').read_text(encoding='utf-8'))
+          s=json.loads((root/'almacenamiento-fase10.json').read_text(encoding='utf-8'))
+          assert c['version']=='1.2.2' and c['fase']==10 and c['fase10_cerrada'] is True
+          assert c['criterio']=='todas_las_obras_previstas_con_maestro_independiente_validado'
+          assert c['inventario']['obras']==20 and len(c['obras'])==20
+          assert c['clausura_descriptiva']=={
+              'ausencia_de_registros_implica_ausencia_semantica':False,
+              'comparacion_interobra':False,
+              'identidad_candidata_se_convierte_en_doctrina':False,
+              'resolucion_doctrinal':'no_realizada',
+              'sintesis_doctrinal':False,
+          }
+          assert s['fase']==10 and s['gate']['fase10_cerrada'] is True and s['gate']['obras']==20
+          assert s['gate']['run_id']==33452333414
+          assert s['gate']['head_sha']=='c0d4abd1b1dd15122d9cf5af741d3772f0d16354'
+          assert s['gate']['reporte_sha256']=='17261e7f61888fd390466abe3ec4f16291db3a9064f54ed2e66aa763a2515413'
+          assert s['almacenamiento']['release_tag']=='analista-fase10-cierre-v1.2.2'
+          assert s['almacenamiento']['asset']=='analista-fase10-cierre-global.zip'
+          assert s['almacenamiento']['asset_sha256']=='13b580dcdcb83f1f15a4008a7e423ca733a6a5e48e467ef30f212d7a7403a3d8'
+          assert len(s['maestros'])==20
+          assert {x['obra_id'] for x in s['maestros']}=={x['obra_id'] for x in c['obras']}
+          assert {x['obra_id']:x['sha256'] for x in s['maestros']}=={x['obra_id']:x['maestro_sha256'] for x in c['obras']}
+          print('OK manifiestos: Fase 10 cerrada, 20 maestros, sin comparación interobra')
+          PY
+
+      - name: Verificar release durable y hashes de los 20 maestros
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: "analista-fase10-cierre-v1.2.2"
+          ASSET: "analista-fase10-cierre-global.zip"
+          EXPECTED: "13b580dcdcb83f1f15a4008a7e423ca733a6a5e48e467ef30f212d7a7403a3d8"
+        run: |
+          set -euo pipefail
+          target="$(gh api "repos/${GITHUB_REPOSITORY}/releases/tags/${TAG}" --jq .target_commitish)"
+          test "${target}" = "c0d4abd1b1dd15122d9cf5af741d3772f0d16354"
+          size="$(gh api "repos/${GITHUB_REPOSITORY}/releases/tags/${TAG}" --jq ".assets[] | select(.name==\"${ASSET}\") | .size")"
+          digest="$(gh api "repos/${GITHUB_REPOSITORY}/releases/tags/${TAG}" --jq ".assets[] | select(.name==\"${ASSET}\") | .digest")"
+          test "${size}" = "562659412"
+          test "${digest}" = "sha256:${EXPECTED}"
+          curl --fail --location --retry 3 \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/octet-stream" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/releases/assets/538782946" \
+            --output "${ASSET}"
+          test "$(sha256sum "${ASSET}" | awk '{print $1}')" = "${EXPECTED}"
+          python - <<'PY'
+          import hashlib,json
+          from pathlib import Path
+          from zipfile import ZipFile
+          m=json.loads(Path('analista/generado/fase10/almacenamiento-fase10.json').read_text(encoding='utf-8'))
+          with ZipFile('analista-fase10-cierre-global.zip') as z:
+              assert len([n for n in z.namelist() if n.startswith('maestros/') and n.endswith('.json')])==20
+              for row in m['maestros']:
+                  h=hashlib.sha256()
+                  with z.open(row['ruta_en_zip']) as f:
+                      for chunk in iter(lambda:f.read(1024*1024),b''):
+                          h.update(chunk)
+                  assert h.hexdigest()==row['sha256'],row['obra_id']
+          print('FASE10_CERRADA_PERSISTIDA: 20 maestros verificados contra release durable')
+          PY
