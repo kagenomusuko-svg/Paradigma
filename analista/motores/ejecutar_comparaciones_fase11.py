@@ -30,6 +30,24 @@ OUTPUTS = {
 }
 
 
+def memory_kib() -> dict[str, int | None]:
+    values: dict[str, int | None] = {"rss_kib": None, "hwm_kib": None}
+    status = Path("/proc/self/status")
+    if not status.is_file():
+        return values
+    for line in status.read_text(encoding="utf-8").splitlines():
+        if line.startswith("VmRSS:"):
+            values["rss_kib"] = int(line.split()[1])
+        elif line.startswith("VmHWM:"):
+            values["hwm_kib"] = int(line.split()[1])
+    return values
+
+
+def log_event(event: str, **data: object) -> None:
+    payload = {"evento": event, **memory_kib(), **data}
+    print(json.dumps(payload, ensure_ascii=False, sort_keys=True), flush=True)
+
+
 def main() -> int:
     p = argparse.ArgumentParser()
     p.add_argument("--manifest", type=Path, required=True)
@@ -54,22 +72,33 @@ def main() -> int:
         path = args.maestros_dir / f"{expected['obra_id']}.json"
         if not path.is_file():
             raise SystemExit(f"Maestro requerido ausente: {path}")
+        log_event("inicio_obra", obra_id=expected["obra_id"], bytes_maestro=path.stat().st_size)
         master = load_master(path, expected)
+        log_event(
+            "maestro_cargado",
+            obra_id=master["obra_id"],
+            schema=master["schema_version"],
+            conceptos=len(master.get("conceptos", [])),
+            apariciones=len(master.get("apariciones_conceptuales", [])),
+        )
         masters_meta.append(master_metadata(master, expected["sha256"]))
         for motor in motors:
             motor.consume(master)
-        print(json.dumps({
-            "obra_id": master["obra_id"],
-            "schema": master["schema_version"],
-            "conceptos": len(master.get("conceptos", [])),
-            "apariciones": len(master.get("apariciones_conceptuales", [])),
-        }, ensure_ascii=False, sort_keys=True))
+        log_event(
+            "obra_consumida",
+            obra_id=master["obra_id"],
+            schema=master["schema_version"],
+            conceptos=len(master.get("conceptos", [])),
+            apariciones=len(master.get("apariciones_conceptuales", [])),
+        )
         del master
         gc.collect()
+        log_event("obra_liberada", obra_id=expected["obra_id"])
 
     args.salida_dir.mkdir(parents=True, exist_ok=True)
     index = []
     for motor in motors:
+        log_event("inicio_serializacion", motor=motor.motor)
         output = motor.output(masters_meta)
         filename = OUTPUTS[motor.motor]
         path = args.salida_dir / filename
@@ -81,7 +110,9 @@ def main() -> int:
             "sha256": digest,
             "cobertura": output["cobertura"],
         })
-        print(json.dumps(index[-1], ensure_ascii=False, sort_keys=True))
+        log_event("salida_escrita", motor=motor.motor, bytes_salida=path.stat().st_size, sha256=digest)
+        del output
+        gc.collect()
 
     index_payload = {
         "version": "1.0.0",
@@ -99,6 +130,7 @@ def main() -> int:
         },
     }
     write_json(args.salida_dir / "indice-fase11.json", index_payload)
+    log_event("fin_fase11", motores=len(index))
     return 0
 
 
