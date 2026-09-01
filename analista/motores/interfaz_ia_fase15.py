@@ -173,17 +173,13 @@ def relevant_contexts(
     seen: set[str] = set()
     rows: list[dict[str, Any]] = []
     for result in response.get("resultados", []):
-        context = None
         expediente = result.get("expediente_fase13_id")
-        if isinstance(expediente, str):
-            context = by_id.get(expediente)
-        if context is None:
-            key = result.get("clave_recuperacion")
-            if isinstance(key, str):
-                context = by_key.get(key)
+        if not isinstance(expediente, str) or not expediente:
+            continue
+        context = by_id.get(expediente)
         if not context:
             continue
-        cid = context.get("expediente_fase13_id") or context.get("clave_recuperacion")
+        cid = context.get("expediente_fase13_id")
         if cid in seen:
             continue
         seen.add(str(cid))
