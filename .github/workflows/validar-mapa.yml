@@ -1,0 +1,28 @@
+name: Validar mapa maestro
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'mapa/**'
+      - 'scripts/validar_mapa.py'
+  pull_request:
+    paths:
+      - 'mapa/**'
+      - 'scripts/validar_mapa.py'
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validar integridad referencial del mapa
+        run: python scripts/validar_mapa.py

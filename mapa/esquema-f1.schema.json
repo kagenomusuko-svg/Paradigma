@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://paradigma.local/mapa/esquema-f1.schema.json",
+  "title": "Esquema F1 del mapa maestro de Paradigma",
+  "type": "object",
+  "required": ["map_version", "schema_status", "phase", "works", "evidence", "nodes", "relations", "routes", "review_queue", "tests"],
+  "properties": {
+    "map_version": {"type": "string"},
+    "schema_status": {"enum": ["draft", "frozen"]},
+    "phase": {"enum": ["F1", "F2", "F3", "F4", "F5", "MANT"]},
+    "purpose": {"type": "string"},
+    "scope_note": {"type": "string"},
+    "works": {"type": "array", "items": {"type": "object", "required": ["id", "title", "source", "sha256"], "properties": {"id": {"type": "string", "minLength": 1}, "title": {"type": "string", "minLength": 1}, "source": {"type": "string", "pattern": "^corpus/fuentes/"}, "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}}, "additionalProperties": true}},
+    "evidence": {"type": "array", "items": {"type": "object", "required": ["id", "work_id", "segment", "source_lines", "section", "evidence_type"], "properties": {"id": {"type": "string"}, "work_id": {"type": "string"}, "segment": {"type": "string", "pattern": "^corpus/libros/"}, "source_lines": {"type": "array", "prefixItems": [{"type": "integer", "minimum": 1}, {"type": "integer", "minimum": 1}], "minItems": 2, "maxItems": 2}, "section": {"type": "string"}, "evidence_type": {"type": "string"}}, "additionalProperties": true}},
+    "nodes": {"type": "array", "items": {"type": "object", "required": ["id", "kind", "label"], "properties": {"id": {"type": "string"}, "kind": {"enum": ["concept", "formulation", "formal_object", "method", "instrument", "application", "distinction"]}, "label": {"type": "string"}, "aliases": {"type": "array", "items": {"type": "string"}}, "subject": {"type": "string"}, "role": {"type": "string"}, "content": {"type": "object"}, "formal_spec": {"type": "object"}, "evidence": {"type": "array", "items": {"type": "string"}}, "evidence_status": {"enum": ["explicit", "inferred", "editorial"]}, "applicability": {"type": "string"}}, "additionalProperties": true}},
+    "relations": {"type": "array", "items": {"type": "object", "required": ["id", "type", "from", "to", "evidence_status"], "properties": {"id": {"type": "string"}, "type": {"type": "string"}, "from": {"type": "string"}, "to": {"type": "string"}, "evidence_status": {"enum": ["explicit", "inferred", "editorial"]}, "evidence": {"type": "array", "items": {"type": "string"}}, "rationale": {"type": "string"}, "note": {"type": "string"}}, "additionalProperties": true}},
+    "routes": {"type": "array", "items": {"type": "object", "required": ["id", "purpose", "triggers", "steps"], "properties": {"id": {"type": "string"}, "purpose": {"type": "string"}, "triggers": {"type": "array", "items": {"type": "string"}}, "steps": {"type": "array", "items": {"type": "object", "required": ["order", "evidence_id", "reason"], "properties": {"order": {"type": "integer", "minimum": 1}, "evidence_id": {"type": "string"}, "reason": {"type": "string"}}}, "must_surface_review_items": {"type": "array", "items": {"type": "string"}}}}},
+    "review_queue": {"type": "array", "items": {"type": "object", "required": ["id", "status", "subject", "question", "why_not_auto_resolved", "blocking"], "properties": {"id": {"type": "string"}, "status": {"type": "string"}, "subject": {"type": "string"}, "related_relation": {"type": "string"}, "question": {"type": "string"}, "why_not_auto_resolved": {"type": "string"}, "blocking": {"type": "boolean"}}}},
+    "tests": {"type": "array", "items": {"type": "object", "required": ["id", "stress_case", "queries", "required_routes", "pass_condition"], "properties": {"id": {"type": "string"}, "stress_case": {"enum": ["formula_del_ego", "rstar", "aego"]}, "queries": {"type": "array", "items": {"type": "string"}}, "required_routes": {"type": "array", "items": {"type": "string"}}, "pass_condition": {"type": "string"}}}}
+  },
+  "additionalProperties": true
+}
