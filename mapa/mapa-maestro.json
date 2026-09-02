@@ -1,1 +1,3139 @@
-{"map_version":"1.0.0","schema_status":"frozen","phase":"F2","purpose":"Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.","scope_note":"El esquema v1 fue validado en F1 con fórmula del ego, R* y Aego como casos de estrés estructural; esos casos no definen la jerarquía temática del corpus.","works":[{"id":"CAOS","title":"Caos: El abismo del ego y la doble mediación","source":"corpus/fuentes/Caos_El_abismo_del_ego_y_la_doble_mediacion.md","sha256":"9ab791af757776fe768b0c4f4c6406d53cb2b68afcc00b2cb5006cb00a95e6bb"},{"id":"TRANSFORMACION-FORMAL","title":"La transformación formal: La ontología del ego como fundamento del cálculo causal","source":"corpus/fuentes/La_transformacion_formal_ontologia_del_ego_como_fundamento_del_calculo_causal.md","sha256":"ceccc803b62ad08d65cccb2067cf93b7d4d9a9e12fe80b21e739d5979e2155a2"},{"id":"AXIOM-SDM","title":"Axiomatización del sistema de la doble mediación","source":"corpus/fuentes/Axiomatizacion_Sistema_Doble_Mediacion.md","sha256":"2d7691d0885865e821f6cadd994119147409531072bd1b4c731c21140f98e2db"},{"id":"AA-I","title":"Afrodita Areia: Sobre la pasión","source":"corpus/fuentes/Afrodita_Areia_Sobre_la_Pasion.md","sha256":"354b70bc646e5294dac370372fc0dbe3617a5979d43f26ffcc871af826698ee3"},{"id":"AA-III","title":"Afrodita Areia: Damasén","source":"corpus/fuentes/Afrodita_Areia_Damasen.md","sha256":"d88315887451e88c207de1ac6008b3806c39e063b984f6927d9f5591b2b5bfd3"},{"id":"SDO","title":"SDO: Sistema de Diagnóstico Ontológico","source":"corpus/fuentes/SDO_Sistema_de_diagnostico_ontologico.md","sha256":"29358922aee3f1dea3105a263bdd2ff2c23494d403410967906ca6e916ad1553"},{"id":"MC-I","title":"Metrología Causal: La ciencia de la medición causal","source":"corpus/fuentes/Metrologia_Causal_La_ciencia_de_la_medicion_causal.md","sha256":"f5a154fbeb8e82c89cb8fd935af7741e2f961bc8347d76c6efe413966a0c370f"}],"evidence":[{"id":"ev.caos.formula_ego","work_id":"CAOS","segment":"corpus/libros/caos/capitulo-06.md","source_lines":[6178,7332],"section":"Capítulo VI · La doble mediación · La fórmula del ego","evidence_type":"primary_text"},{"id":"ev.tf.tres_formulas","work_id":"TRANSFORMACION-FORMAL","segment":"corpus/libros/transformacion-formal/01-prologo.md","source_lines":[373,817],"section":"Prólogo · II. Las tres fórmulas del sistema","evidence_type":"primary_text"},{"id":"ev.tf.correspondencias","work_id":"TRANSFORMACION-FORMAL","segment":"corpus/libros/transformacion-formal/01-prologo.md","source_lines":[373,817],"section":"Prólogo · IV. Tabla de correspondencias terminológicas","evidence_type":"authorial_correspondence_table"},{"id":"ev.axiom.phi1","work_id":"AXIOM-SDM","segment":"corpus/libros/axiomatizacion-doble-mediacion/parte-01.md","source_lines":[400,590],"section":"Parte I · La primera mediación φ₁","evidence_type":"primary_text"},{"id":"ev.axiom.phi2_it","work_id":"AXIOM-SDM","segment":"corpus/libros/axiomatizacion-doble-mediacion/parte-02.md","source_lines":[591,800],"section":"Parte II · La segunda mediación φ₂ e I(t)","evidence_type":"primary_text"},{"id":"ev.axiom.rstar","work_id":"AXIOM-SDM","segment":"corpus/libros/axiomatizacion-doble-mediacion/parte-06.md","source_lines":[1422,1793],"section":"Parte VI · El vector de responsabilidad causal R*","evidence_type":"primary_text"},{"id":"ev.axiom.translation","work_id":"AXIOM-SDM","segment":"corpus/libros/axiomatizacion-doble-mediacion/apendice-c.md","source_lines":[3409,3548],"section":"Apéndice C · Glosario de traducción formal","evidence_type":"authorial_correspondence_table"},{"id":"ev.axiom.system_map","work_id":"AXIOM-SDM","segment":"corpus/libros/axiomatizacion-doble-mediacion/01-prologo.md","source_lines":[31,268],"section":"Prólogo · II–V","evidence_type":"primary_text"},{"id":"ev.aa1.aego","work_id":"AA-I","segment":"corpus/libros/afrodita-areia/01-sobre-la-pasion/apendice-a.md","source_lines":[7822,8113],"section":"Apéndice A · El aego","evidence_type":"primary_text"},{"id":"ev.aa3.aego","work_id":"AA-III","segment":"corpus/libros/afrodita-areia/03-damasen/capitulo-02.md","source_lines":[1123,1447],"section":"Capítulo 2 · La singularidad","evidence_type":"primary_text"},{"id":"ev.aa3.glossary","work_id":"AA-III","segment":"corpus/libros/afrodita-areia/03-damasen/99-glosario.md","source_lines":[7016,7316],"section":"Glosario · Aego, Damasén, Peribea y singularidad volitiva","evidence_type":"authorial_glossary"},{"id":"ev.sdo.aego","work_id":"SDO","segment":"corpus/libros/sdo/i-e-6.md","source_lines":[8788,9375],"section":"E-6 · Aego","evidence_type":"instrument_definition"},{"id":"ev.mci.rstar_validity","work_id":"MC-I","segment":"corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-02.md","source_lines":[8188,8289],"section":"Capítulo V·2 · Condiciones de validez de R*","evidence_type":"metrological_validity"}],"nodes":[{"id":"concept.ego","kind":"concept","label":"Ego","aliases":[]},{"id":"concept.voluntad","kind":"concept","label":"Voluntad","aliases":["tendencia de determinación"]},{"id":"concept.primera_mediacion","kind":"concept","label":"Primera mediación","aliases":[]},{"id":"concept.segunda_mediacion","kind":"concept","label":"Segunda mediación","aliases":[]},{"id":"concept.mediacion_neutral","kind":"concept","label":"Mediación neutral","aliases":[]},{"id":"concept.mediacion_fanes","kind":"concept","label":"Mediación fanes","aliases":[]},{"id":"concept.mediacion_bis","kind":"concept","label":"Mediación bis","aliases":[]},{"id":"term.caos.mediacion_prima_material","kind":"terminology","label":"Mediación prima / primera mediación (sentido material) en Caos","aliases":[],"evidence":["ev.tf.correspondencias"],"evidence_status":"explicit"},{"id":"formal.phi1","kind":"formal_object","label":"φ₁","formal_spec":{"symbol":"φ₁","object_type":"function","signature":"φ₁: V × C × H → A","epistemic_status":"axiom"},"evidence":["ev.axiom.phi1"],"evidence_status":"explicit"},{"id":"formal.phi2","kind":"formal_object","label":"φ₂","formal_spec":{"symbol":"φ₂","object_type":"function","signature":"φ₂: A × E → E","epistemic_status":"axiom"},"evidence":["ev.axiom.phi2_it"],"evidence_status":"explicit"},{"id":"formal.I_t","kind":"formal_object","label":"I(t)","formal_spec":{"symbol":"I(t)","object_type":"Bochner_integral_in_E","expression":"I(t) = ∫₀ᵗ c(τ)w(τ)dτ ∈ E","epistemic_status":"definition"},"evidence":["ev.axiom.phi2_it","ev.axiom.translation"],"evidence_status":"explicit"},{"id":"formulation.ego.caos","kind":"formulation","label":"Fórmula del ego en Caos","subject":"concept.ego","role":"structural_formula","content":{"language":"philosophical","expression":"voluntad + primera mediación + acto + segunda mediación → ego"},"evidence":["ev.caos.formula_ego"],"evidence_status":"explicit"},{"id":"formulation.system.neutral.tf","kind":"formulation","label":"Primera fórmula · mediación neutral","subject":"concept.mediacion_neutral","role":"system_formula","content":{"language":"philosophical_formal","expression":"Voluntad + Acto + Mediación = ser / existir"},"evidence":["ev.tf.tres_formulas"],"evidence_status":"explicit"},{"id":"formulation.system.fanes.tf","kind":"formulation","label":"Segunda fórmula · mediación fanes","subject":"concept.mediacion_fanes","role":"system_formula","content":{"language":"philosophical_formal","expression":"Identidad + Voluntad + φ₁(v_t,c) + Acto + φ₂(Acto,I) = Ego primordial"},"evidence":["ev.tf.tres_formulas"],"evidence_status":"explicit"},{"id":"formulation.ego.bis.tf","kind":"formulation","label":"Tercera fórmula · mediación bis","subject":"concept.ego","role":"iterated_formula","content":{"language":"mathematical_bridge","expression":"Ego(t) = φ₂(φ₁(v_t,c), I(t))","iterated_expression":"(Identidad + Voluntad + φ₁ + Acto + φ₂ = Ego)^n"},"evidence":["ev.tf.tres_formulas"],"evidence_status":"explicit"},{"id":"concept.aego","kind":"concept","label":"Aego","aliases":["aego","singularidad volitiva"]},{"id":"concept.aego_damasen","kind":"concept","label":"Aego-Damasén","aliases":["forma Damasén del Aego"]},{"id":"concept.aego_peribea","kind":"concept","label":"Aego-Peribea","aliases":["forma Peribea del Aego"]},{"id":"concept.campo_relacional","kind":"concept","label":"Campo relacional","aliases":[]},{"id":"formulation.aego.aa1","kind":"formulation","label":"Formulación inicial del Aego en Sobre la pasión","subject":"concept.aego","role":"initial_formulation","content":{"language":"ontological","summary":"Aego como ruptura de la cadena de asunción: φ₂ deja de operar y la integral deja de acumular colapsos asumidos."},"evidence":["ev.aa1.aego"],"evidence_status":"explicit"},{"id":"formulation.aego.aa3","kind":"formulation","label":"Formulación del Aego en Damasén","subject":"concept.aego","role":"later_central_formulation","content":{"language":"ontological_formal","expression":"Φ_aego = ∫φ(t)dt × 0","summary":"La voluntad y su historia persisten; lo nulo es el efecto diferencial de esa voluntad sobre el campo relacional."},"applicability":"En sentido pleno requiere segunda mediación; sin ella solo hay análogo funcional.","evidence":["ev.aa3.aego","ev.aa3.glossary"],"evidence_status":"explicit"},{"id":"formulation.aego.sdo","kind":"formulation","label":"Operacionalización E-6 del Aego","subject":"concept.aego","role":"diagnostic_operationalization","content":{"language":"instrumental","code":"E-6","expression":"Φ_aego = ∫φ(t)dt × 0","summary":"La voluntad integra, pero su producto diferencial sobre el campo relacional es nulo."},"evidence":["ev.sdo.aego"],"evidence_status":"explicit"},{"id":"concept.responsabilidad_causal","kind":"concept","label":"Responsabilidad causal","aliases":["imputación causal"]},{"id":"concept.responsabilidad_moral","kind":"concept","label":"Responsabilidad moral","aliases":[]},{"id":"concept.responsabilidad_juridica","kind":"concept","label":"Responsabilidad jurídica","aliases":[]},{"id":"formal.G","kind":"formal_object","label":"Grafo causal G","formal_spec":{"symbol":"G","object_type":"weighted_directed_graph","expression":"G = (N, A, w)","epistemic_status":"definition"},"evidence":["ev.axiom.rstar"],"evidence_status":"explicit"},{"id":"formal.W","kind":"formal_object","label":"Matriz de pesos W","formal_spec":{"symbol":"W","object_type":"nonnegative_weight_matrix_with_sink_row","epistemic_status":"definition"},"evidence":["ev.axiom.rstar"],"evidence_status":"explicit"},{"id":"formal.rstar","kind":"formal_object","label":"Vector de responsabilidad causal R*","formal_spec":{"symbol":"R*","object_type":"probability_distribution_on_nodes","expression":"WᵀR* = λ₁R*, ΣᵢR*ᵢ = 1, R*ᵢ > 0","domain":"Δⁿ","epistemic_status":"definition_with_existence_uniqueness_claim","calculation":"Método de potencias sobre Wᵀ; normalización L1; tolerancia estándar 10^-6.","scope":"Distribución de influencia causal estructural; no culpabilidad jurídica ni responsabilidad moral."},"evidence":["ev.axiom.rstar","ev.axiom.translation"],"evidence_status":"explicit"},{"id":"formal.alpha","kind":"formal_object","label":"Coeficiente de asunción α","formal_spec":{"symbol":"α","object_type":"scalar_or_nodewise_coefficient","epistemic_status":"definition"},"evidence":["ev.axiom.system_map","ev.axiom.translation"],"evidence_status":"explicit"},{"id":"formal.delta","kind":"formal_object","label":"Déficit de asunción Δ","formal_spec":{"symbol":"Δ","object_type":"difference","expression":"Δ = R* − α","epistemic_status":"definition"},"evidence":["ev.axiom.system_map"],"evidence_status":"explicit"}],"relations":[{"id":"rel.caos.material_to_neutral","type":"translates","from":"term.caos.mediacion_prima_material","to":"concept.mediacion_neutral","evidence_status":"explicit","evidence":["ev.tf.correspondencias"]},{"id":"rel.phi1.translates_first_mediation","type":"translates","from":"concept.primera_mediacion","to":"formal.phi1","evidence_status":"explicit","evidence":["ev.axiom.translation"]},{"id":"rel.phi2.translates_second_mediation","type":"translates","from":"concept.segunda_mediacion","to":"formal.phi2","evidence_status":"explicit","evidence":["ev.axiom.translation"]},{"id":"rel.ego.translates_it","type":"translates","from":"concept.ego","to":"formal.I_t","evidence_status":"explicit","evidence":["ev.axiom.translation"]},{"id":"rel.caos_formula.corresponds_fanes","type":"corresponds_to","from":"formulation.ego.caos","to":"formulation.system.fanes.tf","evidence_status":"explicit","evidence":["ev.tf.correspondencias"],"note":"Transformación formal distingue la primera instancia de doble mediación (fanes) de su iteración continua."},{"id":"rel.caos_formula.corresponds_bis","type":"corresponds_to","from":"formulation.ego.caos","to":"formulation.ego.bis.tf","evidence_status":"explicit","evidence":["ev.tf.correspondencias"]},{"id":"rel.tf_phi1.formalized_by_axiom","type":"formalizes","from":"concept.primera_mediacion","to":"formal.phi1","evidence_status":"explicit","evidence":["ev.tf.correspondencias","ev.axiom.phi1"],"note":"Transformación formal presenta φ₁(v_t,c); Axiomatización explicita el dominio como V×C×H→A."},{"id":"rel.aego.aa3_refines_aa1","type":"refines","from":"formulation.aego.aa3","to":"formulation.aego.aa1","evidence_status":"inferred","rationale":"El Vol. I define Aego mediante interrupción de φ₂ e integración; el Vol. III conserva el término pero formula persistencia de voluntad e integral con producto relacional nulo. El glosario del Vol. III remite al Vol. I como introducción y al Cap. 2 del Vol. III como desarrollo central. Falta adjudicar si el cambio es refinamiento, sustitución o corrección."},{"id":"rel.aego.sdo_operationalizes_aa3","type":"operationalizes","from":"formulation.aego.sdo","to":"formulation.aego.aa3","evidence_status":"explicit","evidence":["ev.sdo.aego","ev.aa3.aego"]},{"id":"rel.aego_damasen.case_of_aego","type":"case_of","from":"concept.aego_damasen","to":"concept.aego","evidence_status":"explicit","evidence":["ev.aa3.aego","ev.sdo.aego"]},{"id":"rel.aego_peribea.case_of_aego","type":"case_of","from":"concept.aego_peribea","to":"concept.aego","evidence_status":"explicit","evidence":["ev.aa3.aego","ev.sdo.aego"]},{"id":"rel.rstar.requires_w","type":"requires","from":"formal.rstar","to":"formal.W","evidence_status":"explicit","evidence":["ev.axiom.rstar"]},{"id":"rel.w.requires_g","type":"requires","from":"formal.W","to":"formal.G","evidence_status":"explicit","evidence":["ev.axiom.rstar"]},{"id":"rel.rstar.measures_causal","type":"measures","from":"formal.rstar","to":"concept.responsabilidad_causal","evidence_status":"explicit","evidence":["ev.axiom.rstar","ev.axiom.translation"]},{"id":"rel.rstar.distinguished_moral","type":"distinguished_from","from":"formal.rstar","to":"concept.responsabilidad_moral","evidence_status":"explicit","evidence":["ev.axiom.rstar"]},{"id":"rel.rstar.distinguished_legal","type":"distinguished_from","from":"formal.rstar","to":"concept.responsabilidad_juridica","evidence_status":"explicit","evidence":["ev.axiom.rstar"]},{"id":"rel.delta.requires_rstar","type":"requires","from":"formal.delta","to":"formal.rstar","evidence_status":"explicit","evidence":["ev.axiom.system_map"]},{"id":"rel.delta.requires_alpha","type":"requires","from":"formal.delta","to":"formal.alpha","evidence_status":"explicit","evidence":["ev.axiom.system_map"]}],"routes":[{"id":"route.ego.explicacion","purpose":"Explicar la fórmula del ego y su evolución terminológica.","triggers":["fórmula del ego","doble mediación","cómo se constituye el ego"],"steps":[{"order":1,"evidence_id":"ev.caos.formula_ego","reason":"Formulación estructural en Caos."},{"order":2,"evidence_id":"ev.tf.tres_formulas","reason":"Desdoblamiento posterior en mediación neutral, fanes y bis."},{"order":3,"evidence_id":"ev.tf.correspondencias","reason":"Evita confundir los usos terminológicos de primera mediación en Caos."},{"order":4,"evidence_id":"ev.axiom.translation","reason":"Traducción bidireccional del lenguaje ontológico al formal."}]},{"id":"route.ego.implementacion","purpose":"Preparar una implementación técnica de la estructura φ₁/φ₂/I(t).","triggers":["programar fórmula del ego","implementar φ₁","implementar φ₂","I(t)"],"steps":[{"order":1,"evidence_id":"ev.tf.tres_formulas","reason":"Define la relación ontológica entre los componentes."},{"order":2,"evidence_id":"ev.tf.correspondencias","reason":"Fija las correspondencias entre estadios y funciones."},{"order":3,"evidence_id":"ev.axiom.phi1","reason":"Dominio, codominio y forma de la primera mediación."},{"order":4,"evidence_id":"ev.axiom.phi2_it","reason":"Segunda mediación e integral acumulativa."},{"order":5,"evidence_id":"ev.axiom.translation","reason":"Verifica correspondencias terminológicas."}]},{"id":"route.rstar.definicion_calculo","purpose":"Definir, calcular y delimitar R*.","triggers":["qué es R*","cómo se calcula R*","vector de responsabilidad causal","imputación causal"],"steps":[{"order":1,"evidence_id":"ev.axiom.system_map","reason":"Ubica R* dentro de la cadena formal y sus dependencias."},{"order":2,"evidence_id":"ev.axiom.rstar","reason":"Definición 6.1, condiciones declaradas de existencia/unicidad y método de potencias."},{"order":3,"evidence_id":"ev.mci.rstar_validity","reason":"Condiciones metrológicas de validez y protocolo cuando fallan."},{"order":4,"evidence_id":"ev.axiom.translation","reason":"Traducción a la noción de imputación causal."}],"must_surface_review_items":["review.rstar.sink_irreducibility"]},{"id":"route.aego.definicion_evolucion","purpose":"Explicar Aego sin ocultar la diferencia entre sus formulaciones históricas.","triggers":["qué es Aego","singularidad volitiva","evolución del concepto Aego"],"steps":[{"order":1,"evidence_id":"ev.aa1.aego","reason":"Introducción histórica del concepto."},{"order":2,"evidence_id":"ev.aa3.aego","reason":"Desarrollo central posterior y nueva fórmula."},{"order":3,"evidence_id":"ev.aa3.glossary","reason":"Autolocalización del término dentro de la trilogía."},{"order":4,"evidence_id":"ev.sdo.aego","reason":"Operacionalización diagnóstica E-6."}],"must_surface_review_items":["review.aego.formulation_change"]},{"id":"route.aego.sdo","purpose":"Interpretar el código E-6 del SDO con su fundamento ontológico.","triggers":["E-6","Aego en SDO","Damasén y Peribea en SDO"],"steps":[{"order":1,"evidence_id":"ev.aa3.aego","reason":"Fundamento ontológico de la fórmula y sus dos formas."},{"order":2,"evidence_id":"ev.sdo.aego","reason":"Criterios, alcance y operación del código E-6."}]}],"review_queue":[{"id":"review.aego.formulation_change","status":"pending_authorial_adjudication","subject":"concept.aego","related_relation":"rel.aego.aa3_refines_aa1","question":"¿La formulación de Aego de Damasén sustituye/corrige la formulación del Apéndice A de Sobre la pasión, o deben conservarse como dos formulaciones con alcances distintos?","why_not_auto_resolved":"Los textos muestran una diferencia material y el Vol. III se presenta como desarrollo central, pero los pasajes revisados no declaran de forma inequívoca que la formulación anterior quede abrogada.","blocking":false,"blocking_for":[]},{"id":"review.rstar.sink_irreducibility","status":"pending_formal_review","subject":"formal.rstar","question":"¿Cómo deben compatibilizarse el nodo final sumidero con fila nula y la condición de irreducibilidad/primitividad usada para la existencia, unicidad y λ₁=1 de R*?","why_not_auto_resolved":"La Definición 6 declara un nodo final sin aristas salientes y fila nula de W, mientras el Teorema 6 exige irreducibilidad sobre N y en su demostración usa W·1=1 como si toda W fuera estocástica por filas. Un sumidero con fila nula no puede alcanzar los demás nodos y su fila no suma 1. Metrología Causal V·2 vuelve a exigir irreducibilidad para la validez de R*.","blocking":false,"blocking_for":["software_implementation","formal_validation"],"evidence":["ev.axiom.rstar","ev.mci.rstar_validity"]}],"tests":[{"id":"test.f1.ego","stress_case":"formula_del_ego","queries":["¿Cuál es la fórmula del ego?","¿Cómo cambia su formulación entre Caos, Transformación formal y Axiomatización?"],"required_routes":["route.ego.explicacion","route.ego.implementacion"],"pass_condition":"Debe distinguir formulación filosófica, desdoblamiento posterior, usos terminológicos y traducción formal sin reducirlos a una sola frase.","status":"pass_with_correction","finding":"La primera ejecución detectó que 'primera mediación en sentido material (Caos)' no debía figurar como alias de la función que orienta el acto. Se modeló como uso terminológico separado que corresponde a mediación neutral."},{"id":"test.f1.rstar","stress_case":"rstar","queries":["¿Qué es R*?","¿Cómo se calcula y qué necesita?"],"required_routes":["route.rstar.definicion_calculo"],"pass_condition":"Debe recuperar definición, G/W, condiciones de validez, cálculo y límite de alcance moral/jurídico, y elevar inconsistencias formales relevantes.","status":"pass_with_review","finding":"La ruta recupera definición y cálculo, pero también revela una tensión formal entre el sumidero con fila nula y las condiciones de irreducibilidad/estocasticidad usadas en el teorema. El mapa la conserva como revisión bloqueante para implementación, no la corrige silenciosamente."},{"id":"test.f1.aego","stress_case":"aego","queries":["¿Qué es Aego?","¿Cómo se relacionan sus formulaciones del Vol. I, Vol. III y SDO?"],"required_routes":["route.aego.definicion_evolucion","route.aego.sdo"],"pass_condition":"Debe preservar la diferencia material entre formulaciones y elevar la adjudicación doctrinal pendiente en vez de fusionarlas silenciosamente.","status":"pass_with_review","finding":"El mapa distingue la formulación inicial basada en interrupción de φ₂ de la formulación posterior ∫φ×0 y de su operacionalización E-6; la relación exacta entre las dos primeras queda pendiente de adjudicación autoral."}]}
+{
+  "map_version": "1.1.0",
+  "schema_status": "frozen",
+  "phase": "F2",
+  "purpose": "Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.",
+  "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 integra sistemáticamente el núcleo conceptual y ontológico del corpus; Caos queda auditado por capítulos y apéndices, sin convertir sus analogías o formalizaciones pendientes en doctrina validada.",
+  "works": [
+    {
+      "id": "CAOS",
+      "title": "Caos: El abismo del ego y la doble mediación",
+      "source": "corpus/fuentes/Caos_El_abismo_del_ego_y_la_doble_mediacion.md",
+      "sha256": "9ab791af757776fe768b0c4f4c6406d53cb2b68afcc00b2cb5006cb00a95e6bb"
+    },
+    {
+      "id": "TRANSFORMACION-FORMAL",
+      "title": "La transformación formal: La ontología del ego como fundamento del cálculo causal",
+      "source": "corpus/fuentes/La_transformacion_formal_ontologia_del_ego_como_fundamento_del_calculo_causal.md",
+      "sha256": "ceccc803b62ad08d65cccb2067cf93b7d4d9a9e12fe80b21e739d5979e2155a2"
+    },
+    {
+      "id": "AXIOM-SDM",
+      "title": "Axiomatización del sistema de la doble mediación",
+      "source": "corpus/fuentes/Axiomatizacion_Sistema_Doble_Mediacion.md",
+      "sha256": "2d7691d0885865e821f6cadd994119147409531072bd1b4c731c21140f98e2db"
+    },
+    {
+      "id": "AA-I",
+      "title": "Afrodita Areia: Sobre la pasión",
+      "source": "corpus/fuentes/Afrodita_Areia_Sobre_la_Pasion.md",
+      "sha256": "354b70bc646e5294dac370372fc0dbe3617a5979d43f26ffcc871af826698ee3"
+    },
+    {
+      "id": "AA-III",
+      "title": "Afrodita Areia: Damasén",
+      "source": "corpus/fuentes/Afrodita_Areia_Damasen.md",
+      "sha256": "d88315887451e88c207de1ac6008b3806c39e063b984f6927d9f5591b2b5bfd3"
+    },
+    {
+      "id": "SDO",
+      "title": "SDO: Sistema de Diagnóstico Ontológico",
+      "source": "corpus/fuentes/SDO_Sistema_de_diagnostico_ontologico.md",
+      "sha256": "29358922aee3f1dea3105a263bdd2ff2c23494d403410967906ca6e916ad1553"
+    },
+    {
+      "id": "MC-I",
+      "title": "Metrología Causal: La ciencia de la medición causal",
+      "source": "corpus/fuentes/Metrologia_Causal_La_ciencia_de_la_medicion_causal.md",
+      "sha256": "f5a154fbeb8e82c89cb8fd935af7741e2f961bc8347d76c6efe413966a0c370f"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev.caos.formula_ego",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-06.md",
+      "source_lines": [
+        6178,
+        7332
+      ],
+      "section": "Capítulo VI · La doble mediación · La fórmula del ego",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.tf.tres_formulas",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/01-prologo.md",
+      "source_lines": [
+        373,
+        817
+      ],
+      "section": "Prólogo · II. Las tres fórmulas del sistema",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.tf.correspondencias",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/01-prologo.md",
+      "source_lines": [
+        373,
+        817
+      ],
+      "section": "Prólogo · IV. Tabla de correspondencias terminológicas",
+      "evidence_type": "authorial_correspondence_table"
+    },
+    {
+      "id": "ev.axiom.phi1",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-01.md",
+      "source_lines": [
+        400,
+        590
+      ],
+      "section": "Parte I · La primera mediación φ₁",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.axiom.phi2_it",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-02.md",
+      "source_lines": [
+        591,
+        800
+      ],
+      "section": "Parte II · La segunda mediación φ₂ e I(t)",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.axiom.rstar",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-06.md",
+      "source_lines": [
+        1422,
+        1793
+      ],
+      "section": "Parte VI · El vector de responsabilidad causal R*",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.axiom.translation",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/apendice-c.md",
+      "source_lines": [
+        3409,
+        3548
+      ],
+      "section": "Apéndice C · Glosario de traducción formal",
+      "evidence_type": "authorial_correspondence_table"
+    },
+    {
+      "id": "ev.axiom.system_map",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/01-prologo.md",
+      "source_lines": [
+        31,
+        268
+      ],
+      "section": "Prólogo · II–V",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.aego",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/apendice-a.md",
+      "source_lines": [
+        7822,
+        8113
+      ],
+      "section": "Apéndice A · El aego",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa3.aego",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-02.md",
+      "source_lines": [
+        1123,
+        1447
+      ],
+      "section": "Capítulo 2 · La singularidad",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa3.glossary",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/99-glosario.md",
+      "source_lines": [
+        7016,
+        7316
+      ],
+      "section": "Glosario · Aego, Damasén, Peribea y singularidad volitiva",
+      "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.sdo.aego",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/i-e-6.md",
+      "source_lines": [
+        8788,
+        9375
+      ],
+      "section": "E-6 · Aego",
+      "evidence_type": "instrument_definition"
+    },
+    {
+      "id": "ev.mci.rstar_validity",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-02.md",
+      "source_lines": [
+        8188,
+        8289
+      ],
+      "section": "Capítulo V·2 · Condiciones de validez de R*",
+      "evidence_type": "metrological_validity"
+    },
+    {
+      "id": "ev.caos.prelim.architecture",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/00-preliminares.md",
+      "source_lines": [
+        62,
+        151
+      ],
+      "section": "Nota del autor e introducción · arquitectura del sistema",
+      "evidence_type": "authorial_system_statement"
+    },
+    {
+      "id": "ev.caos.subject_being",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-01.md",
+      "source_lines": [
+        303,
+        584
+      ],
+      "section": "Capítulo I · II–III · inversión del cogito y sujeto como suelo",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.explanatory_conditions",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-01.md",
+      "source_lines": [
+        585,
+        859
+      ],
+      "section": "Capítulo I · IV · condiciones biológica, social y fenomenológica",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.ego_event_subject",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-01.md",
+      "source_lines": [
+        860,
+        1133
+      ],
+      "section": "Capítulo I · V–VI · ego como acontecimiento y sujeto material",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.origin_integral",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-01.md",
+      "source_lines": [
+        1134,
+        1293
+      ],
+      "section": "Capítulo I · VII · error categorial del origen y acumulación",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.infinity_collapse",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-02.md",
+      "source_lines": [
+        1383,
+        1779
+      ],
+      "section": "Capítulo II · I–II · infinito, posibilidad y modelo físico del colapso",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.collapse_intersection",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-02.md",
+      "source_lines": [
+        1780,
+        1895
+      ],
+      "section": "Capítulo II · III · colapso en la intersección sujeto-mundo",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.integral_open_death",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-02.md",
+      "source_lines": [
+        1896,
+        2146
+      ],
+      "section": "Capítulo II · IV–V · integral abierta y cierre en la muerte",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.lived_time",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-02.md",
+      "source_lines": [
+        2147,
+        2351
+      ],
+      "section": "Capítulo II · VI · tiempo vivido y eterno presente",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.irreversibility_responsibility",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-02.md",
+      "source_lines": [
+        2352,
+        2527
+      ],
+      "section": "Capítulo II · VII · irreversibilidad y responsabilidad",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.chaos_definition",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-03.md",
+      "source_lines": [
+        2625,
+        2778
+      ],
+      "section": "Capítulo III · I · caos como abertura y posibilidad absoluta",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.chaos_science",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-03.md",
+      "source_lines": [
+        2779,
+        2986
+      ],
+      "section": "Capítulo III · II · distinción respecto del caos científico",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.chaos_time",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-03.md",
+      "source_lines": [
+        2987,
+        3422
+      ],
+      "section": "Capítulo III · III–V · caos atemporal, tiempo y presente",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.knowledge_other",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-03.md",
+      "source_lines": [
+        3423,
+        3610
+      ],
+      "section": "Capítulo III · VI · límite epistémico y conocimiento del otro",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.anguish_freedom",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-03.md",
+      "source_lines": [
+        3611,
+        3782
+      ],
+      "section": "Capítulo III · VII · angustia, posibilidad y libertad",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.scales",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-04.md",
+      "source_lines": [
+        3894,
+        4143
+      ],
+      "section": "Capítulo IV · I–II · escalas, permeabilidad material e impermeabilidad causal",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.accident",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-04.md",
+      "source_lines": [
+        4144,
+        4445
+      ],
+      "section": "Capítulo IV · III–IV · accidente y distinción respecto del acto",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.field_zero_reconstruction",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-04.md",
+      "source_lines": [
+        4446,
+        4751
+      ],
+      "section": "Capítulo IV · V–VI · campo cero y nueva integral",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.god_agnostic",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-04.md",
+      "source_lines": [
+        4752,
+        4936
+      ],
+      "section": "Capítulo IV · VII · hipótesis condicional de una escala divina",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.mediation_general_neutral",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-05.md",
+      "source_lines": [
+        5033,
+        5284
+      ],
+      "section": "Capítulo V · I–II · mediación general y mediación neutral",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.animal_mediation",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-05.md",
+      "source_lines": [
+        5285,
+        5480
+      ],
+      "section": "Capítulo V · III · gradiente de mediación animal",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.mediation_ego_responsibility",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-05.md",
+      "source_lines": [
+        5481,
+        5897
+      ],
+      "section": "Capítulo V · IV–VI · mediación, ego, responsabilidad y autoconciencia",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.language_mediation",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-05.md",
+      "source_lines": [
+        5898,
+        6073
+      ],
+      "section": "Capítulo V · VII · mediación lingüística y horizonte social",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.first_mediation",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-06.md",
+      "source_lines": [
+        6186,
+        6519
+      ],
+      "section": "Capítulo VI · I–II · primera mediación e intencionalidad presupuesta",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.act_second_mediation",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-06.md",
+      "source_lines": [
+        6520,
+        6816
+      ],
+      "section": "Capítulo VI · III–IV · acto y segunda mediación",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.ego_function_failures",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-06.md",
+      "source_lines": [
+        6817,
+        7095
+      ],
+      "section": "Capítulo VI · V–VI · ego como función y ausencia de mediaciones",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.responsibility_first",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-06.md",
+      "source_lines": [
+        7096,
+        7249
+      ],
+      "section": "Capítulo VI · VII · responsabilidad en la primera mediación",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.hume_scope",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-07.md",
+      "source_lines": [
+        7342,
+        7613
+      ],
+      "section": "Capítulo VII · I–II · alcance local frente al problema causal de Hume",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.sine_qua_non",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-07.md",
+      "source_lines": [
+        7614,
+        7730
+      ],
+      "section": "Capítulo VII · III · condición sine qua non del acto",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.responsibility_asymmetry",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-07.md",
+      "source_lines": [
+        7731,
+        7834
+      ],
+      "section": "Capítulo VII · IV · asimetría ontológica y normativa",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.imputation_cases",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-07.md",
+      "source_lines": [
+        7835,
+        7942
+      ],
+      "section": "Capítulo VII · V · eje de imputación y casos límite",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.collision",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-07.md",
+      "source_lines": [
+        7943,
+        8079
+      ],
+      "section": "Capítulo VII · VI · colisión como evento irreductible",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.ego_four_levels",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/capitulo-07.md",
+      "source_lines": [
+        8080,
+        8202
+      ],
+      "section": "Capítulo VII · VII · síntesis de los cuatro niveles del ego",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.caos.math_limit_infinity",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/apendice-01.md",
+      "source_lines": [
+        8407,
+        8868
+      ],
+      "section": "Apéndice I · I–II · límite e infinito matemático",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.caos.math_function",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/apendice-01.md",
+      "source_lines": [
+        8869,
+        8997
+      ],
+      "section": "Apéndice I · III · función, integral y derivada",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.caos.math_topology",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/apendice-01.md",
+      "source_lines": [
+        8998,
+        9265
+      ],
+      "section": "Apéndice I · IV · acumulación, clausura y perfección",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.caos.quantum_superposition",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/apendice-02.md",
+      "source_lines": [
+        9308,
+        9489
+      ],
+      "section": "Apéndice II · I · función de onda y superposición",
+      "evidence_type": "authorial_scientific_correspondence"
+    },
+    {
+      "id": "ev.caos.quantum_measurement",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/apendice-02.md",
+      "source_lines": [
+        9490,
+        9660
+      ],
+      "section": "Apéndice II · II · medición y colapso",
+      "evidence_type": "authorial_scientific_correspondence"
+    },
+    {
+      "id": "ev.caos.quantum_uncertainty",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/apendice-02.md",
+      "source_lines": [
+        9661,
+        9833
+      ],
+      "section": "Apéndice II · III · incertidumbre y apertura",
+      "evidence_type": "authorial_scientific_correspondence"
+    },
+    {
+      "id": "ev.caos.quantum_interpretations",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/apendice-02.md",
+      "source_lines": [
+        9834,
+        10040
+      ],
+      "section": "Apéndice II · IV · Copenhague, Muchos Mundos, Bohm y GRW",
+      "evidence_type": "authorial_scientific_correspondence"
+    },
+    {
+      "id": "ev.caos.quantum_correspondence",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/apendice-02.md",
+      "source_lines": [
+        10041,
+        10352
+      ],
+      "section": "Apéndice II · V · tabla de isomorfismo declarada y límites",
+      "evidence_type": "authorial_correspondence_table"
+    },
+    {
+      "id": "ev.caos.glossary_subject_collapse",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/apendice-03.md",
+      "source_lines": [
+        10378,
+        10524
+      ],
+      "section": "Apéndice III · Sujeto, caos y colapso",
+      "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.caos.glossary_mediation_neutral",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/apendice-03.md",
+      "source_lines": [
+        10525,
+        10599
+      ],
+      "section": "Apéndice III · Mediación y mediación neutral",
+      "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.caos.glossary_first_field",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/apendice-03.md",
+      "source_lines": [
+        10600,
+        10738
+      ],
+      "section": "Apéndice III · Primera mediación, intencionalidad y campo de acción",
+      "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.caos.glossary_second_act",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/apendice-03.md",
+      "source_lines": [
+        10739,
+        10854
+      ],
+      "section": "Apéndice III · Segunda mediación, doble mediación y acto",
+      "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.caos.glossary_ego_identity",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/apendice-03.md",
+      "source_lines": [
+        10855,
+        10987
+      ],
+      "section": "Apéndice III · Integral, ego e identidad",
+      "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.caos.glossary_scale_accident",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/apendice-03.md",
+      "source_lines": [
+        10988,
+        11104
+      ],
+      "section": "Apéndice III · Escala de colapso y accidente",
+      "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.caos.glossary_responsibility",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/apendice-03.md",
+      "source_lines": [
+        11105,
+        11246
+      ],
+      "section": "Apéndice III · Condición sine qua non, responsabilidad e imputación",
+      "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.caos.glossary_time",
+      "work_id": "CAOS",
+      "segment": "corpus/libros/caos/apendice-03.md",
+      "source_lines": [
+        11247,
+        11290
+      ],
+      "section": "Apéndice III · Tiempo del ego",
+      "evidence_type": "authorial_glossary"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "concept.ego",
+      "kind": "concept",
+      "label": "Ego",
+      "aliases": [],
+      "summary": "Proceso o función acumulativa constituida por la doble mediación; se distingue del sujeto material.",
+      "evidence": [
+        "ev.caos.ego_event_subject",
+        "ev.caos.glossary_ego_identity"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.voluntad",
+      "kind": "concept",
+      "label": "Voluntad",
+      "aliases": [
+        "tendencia de determinación"
+      ],
+      "evidence": [
+        "ev.caos.first_mediation",
+        "ev.caos.glossary_first_field"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.primera_mediacion",
+      "kind": "concept",
+      "label": "Primera mediación",
+      "aliases": [],
+      "evidence": [
+        "ev.caos.first_mediation",
+        "ev.caos.glossary_first_field"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.segunda_mediacion",
+      "kind": "concept",
+      "label": "Segunda mediación",
+      "aliases": [],
+      "evidence": [
+        "ev.caos.act_second_mediation",
+        "ev.caos.glossary_second_act"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.mediacion_neutral",
+      "kind": "concept",
+      "label": "Mediación neutral",
+      "aliases": [],
+      "evidence": [
+        "ev.caos.mediation_general_neutral",
+        "ev.caos.glossary_mediation_neutral"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.mediacion_fanes",
+      "kind": "concept",
+      "label": "Mediación fanes",
+      "aliases": []
+    },
+    {
+      "id": "concept.mediacion_bis",
+      "kind": "concept",
+      "label": "Mediación bis",
+      "aliases": []
+    },
+    {
+      "id": "term.caos.mediacion_prima_material",
+      "kind": "terminology",
+      "label": "Mediación prima / primera mediación (sentido material) en Caos",
+      "aliases": [],
+      "evidence": [
+        "ev.tf.correspondencias"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.phi1",
+      "kind": "formal_object",
+      "label": "φ₁",
+      "formal_spec": {
+        "symbol": "φ₁",
+        "object_type": "function",
+        "signature": "φ₁: V × C × H → A",
+        "epistemic_status": "axiom"
+      },
+      "evidence": [
+        "ev.axiom.phi1"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.phi2",
+      "kind": "formal_object",
+      "label": "φ₂",
+      "formal_spec": {
+        "symbol": "φ₂",
+        "object_type": "function",
+        "signature": "φ₂: A × E → E",
+        "epistemic_status": "axiom"
+      },
+      "evidence": [
+        "ev.axiom.phi2_it"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.I_t",
+      "kind": "formal_object",
+      "label": "I(t)",
+      "formal_spec": {
+        "symbol": "I(t)",
+        "object_type": "Bochner_integral_in_E",
+        "expression": "I(t) = ∫₀ᵗ c(τ)w(τ)dτ ∈ E",
+        "epistemic_status": "definition"
+      },
+      "evidence": [
+        "ev.axiom.phi2_it",
+        "ev.axiom.translation"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.ego.caos",
+      "kind": "formulation",
+      "label": "Fórmula del ego en Caos",
+      "subject": "concept.ego",
+      "role": "structural_formula",
+      "content": {
+        "language": "philosophical",
+        "expression": "voluntad + primera mediación + acto + segunda mediación → ego"
+      },
+      "evidence": [
+        "ev.caos.formula_ego"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.system.neutral.tf",
+      "kind": "formulation",
+      "label": "Primera fórmula · mediación neutral",
+      "subject": "concept.mediacion_neutral",
+      "role": "system_formula",
+      "content": {
+        "language": "philosophical_formal",
+        "expression": "Voluntad + Acto + Mediación = ser / existir"
+      },
+      "evidence": [
+        "ev.tf.tres_formulas"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.system.fanes.tf",
+      "kind": "formulation",
+      "label": "Segunda fórmula · mediación fanes",
+      "subject": "concept.mediacion_fanes",
+      "role": "system_formula",
+      "content": {
+        "language": "philosophical_formal",
+        "expression": "Identidad + Voluntad + φ₁(v_t,c) + Acto + φ₂(Acto,I) = Ego primordial"
+      },
+      "evidence": [
+        "ev.tf.tres_formulas"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.ego.bis.tf",
+      "kind": "formulation",
+      "label": "Tercera fórmula · mediación bis",
+      "subject": "concept.ego",
+      "role": "iterated_formula",
+      "content": {
+        "language": "mathematical_bridge",
+        "expression": "Ego(t) = φ₂(φ₁(v_t,c), I(t))",
+        "iterated_expression": "(Identidad + Voluntad + φ₁ + Acto + φ₂ = Ego)^n"
+      },
+      "evidence": [
+        "ev.tf.tres_formulas"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.aego",
+      "kind": "concept",
+      "label": "Aego",
+      "aliases": [
+        "aego",
+        "singularidad volitiva"
+      ]
+    },
+    {
+      "id": "concept.aego_damasen",
+      "kind": "concept",
+      "label": "Aego-Damasén",
+      "aliases": [
+        "forma Damasén del Aego"
+      ]
+    },
+    {
+      "id": "concept.aego_peribea",
+      "kind": "concept",
+      "label": "Aego-Peribea",
+      "aliases": [
+        "forma Peribea del Aego"
+      ]
+    },
+    {
+      "id": "concept.campo_relacional",
+      "kind": "concept",
+      "label": "Campo relacional",
+      "aliases": []
+    },
+    {
+      "id": "formulation.aego.aa1",
+      "kind": "formulation",
+      "label": "Formulación inicial del Aego en Sobre la pasión",
+      "subject": "concept.aego",
+      "role": "initial_formulation",
+      "content": {
+        "language": "ontological",
+        "summary": "Aego como ruptura de la cadena de asunción: φ₂ deja de operar y la integral deja de acumular colapsos asumidos."
+      },
+      "evidence": [
+        "ev.aa1.aego"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.aego.aa3",
+      "kind": "formulation",
+      "label": "Formulación del Aego en Damasén",
+      "subject": "concept.aego",
+      "role": "later_central_formulation",
+      "content": {
+        "language": "ontological_formal",
+        "expression": "Φ_aego = ∫φ(t)dt × 0",
+        "summary": "La voluntad y su historia persisten; lo nulo es el efecto diferencial de esa voluntad sobre el campo relacional."
+      },
+      "applicability": "En sentido pleno requiere segunda mediación; sin ella solo hay análogo funcional.",
+      "evidence": [
+        "ev.aa3.aego",
+        "ev.aa3.glossary"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.aego.sdo",
+      "kind": "formulation",
+      "label": "Operacionalización E-6 del Aego",
+      "subject": "concept.aego",
+      "role": "diagnostic_operationalization",
+      "content": {
+        "language": "instrumental",
+        "code": "E-6",
+        "expression": "Φ_aego = ∫φ(t)dt × 0",
+        "summary": "La voluntad integra, pero su producto diferencial sobre el campo relacional es nulo."
+      },
+      "evidence": [
+        "ev.sdo.aego"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.responsabilidad_causal",
+      "kind": "concept",
+      "label": "Responsabilidad causal",
+      "aliases": [
+        "imputación causal"
+      ]
+    },
+    {
+      "id": "concept.responsabilidad_moral",
+      "kind": "concept",
+      "label": "Responsabilidad moral",
+      "aliases": []
+    },
+    {
+      "id": "concept.responsabilidad_juridica",
+      "kind": "concept",
+      "label": "Responsabilidad jurídica",
+      "aliases": []
+    },
+    {
+      "id": "formal.G",
+      "kind": "formal_object",
+      "label": "Grafo causal G",
+      "formal_spec": {
+        "symbol": "G",
+        "object_type": "weighted_directed_graph",
+        "expression": "G = (N, A, w)",
+        "epistemic_status": "definition"
+      },
+      "evidence": [
+        "ev.axiom.rstar"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.W",
+      "kind": "formal_object",
+      "label": "Matriz de pesos W",
+      "formal_spec": {
+        "symbol": "W",
+        "object_type": "nonnegative_weight_matrix_with_sink_row",
+        "epistemic_status": "definition"
+      },
+      "evidence": [
+        "ev.axiom.rstar"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.rstar",
+      "kind": "formal_object",
+      "label": "Vector de responsabilidad causal R*",
+      "formal_spec": {
+        "symbol": "R*",
+        "object_type": "probability_distribution_on_nodes",
+        "expression": "WᵀR* = λ₁R*, ΣᵢR*ᵢ = 1, R*ᵢ > 0",
+        "domain": "Δⁿ",
+        "epistemic_status": "definition_with_existence_uniqueness_claim",
+        "calculation": "Método de potencias sobre Wᵀ; normalización L1; tolerancia estándar 10^-6.",
+        "scope": "Distribución de influencia causal estructural; no culpabilidad jurídica ni responsabilidad moral."
+      },
+      "evidence": [
+        "ev.axiom.rstar",
+        "ev.axiom.translation"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.alpha",
+      "kind": "formal_object",
+      "label": "Coeficiente de asunción α",
+      "formal_spec": {
+        "symbol": "α",
+        "object_type": "scalar_or_nodewise_coefficient",
+        "epistemic_status": "definition"
+      },
+      "evidence": [
+        "ev.axiom.system_map",
+        "ev.axiom.translation"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.delta",
+      "kind": "formal_object",
+      "label": "Déficit de asunción Δ",
+      "formal_spec": {
+        "symbol": "Δ",
+        "object_type": "difference",
+        "expression": "Δ = R* − α",
+        "epistemic_status": "definition"
+      },
+      "evidence": [
+        "ev.axiom.system_map"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.sujeto",
+      "kind": "concept",
+      "label": "Sujeto",
+      "aliases": [
+        "condición material del ego"
+      ],
+      "summary": "Soporte material y biológico capaz de doble mediación; condición del ego, no idéntico a él.",
+      "evidence": [
+        "ev.caos.subject_being",
+        "ev.caos.ego_event_subject",
+        "ev.caos.glossary_subject_collapse"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.mundo",
+      "kind": "concept",
+      "label": "Mundo",
+      "aliases": [
+        "campo de condiciones"
+      ],
+      "summary": "Condición correlativa con la que el sujeto intersecta y desde la que se delimita el campo de acción.",
+      "evidence": [
+        "ev.caos.collapse_intersection",
+        "ev.caos.sine_qua_non"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.caos",
+      "kind": "concept",
+      "label": "Caos",
+      "aliases": [
+        "abertura",
+        "abismo",
+        "posibilidad absoluta"
+      ],
+      "summary": "Infinito atemporal de posibilidad anterior a toda determinación; no equivale a desorden.",
+      "evidence": [
+        "ev.caos.chaos_definition",
+        "ev.caos.chaos_time",
+        "ev.caos.glossary_subject_collapse"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.posibilidad",
+      "kind": "concept",
+      "label": "Posibilidad",
+      "aliases": [
+        "campo de lo no determinado"
+      ],
+      "evidence": [
+        "ev.caos.infinity_collapse",
+        "ev.caos.chaos_definition"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.colapso",
+      "kind": "concept",
+      "label": "Colapso",
+      "aliases": [
+        "determinación singular"
+      ],
+      "summary": "Paso irreversible de posibilidad a determinación en la intersección pertinente.",
+      "evidence": [
+        "ev.caos.infinity_collapse",
+        "ev.caos.collapse_intersection",
+        "ev.caos.glossary_subject_collapse"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.determinacion",
+      "kind": "concept",
+      "label": "Determinación",
+      "aliases": [
+        "actualización singular"
+      ],
+      "evidence": [
+        "ev.caos.infinity_collapse",
+        "ev.caos.glossary_subject_collapse"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.mediacion",
+      "kind": "concept",
+      "label": "Mediación",
+      "aliases": [
+        "estructura de determinación"
+      ],
+      "summary": "Estructura por la que una intersección produce una determinación; es más amplia que la mediación del ego.",
+      "evidence": [
+        "ev.caos.mediation_general_neutral",
+        "ev.caos.glossary_mediation_neutral"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.doble_mediacion",
+      "kind": "concept",
+      "label": "Doble mediación",
+      "aliases": [
+        "primera y segunda mediación"
+      ],
+      "evidence": [
+        "ev.caos.formula_ego",
+        "ev.caos.glossary_second_act"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.acto",
+      "kind": "concept",
+      "label": "Acto",
+      "aliases": [
+        "primer colapso del ego"
+      ],
+      "summary": "Determinación pública e irreversible producida por la primera mediación.",
+      "evidence": [
+        "ev.caos.act_second_mediation",
+        "ev.caos.glossary_second_act"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.integral_acumulativa",
+      "kind": "concept",
+      "label": "Integral acumulativa",
+      "aliases": [
+        "integral del ego",
+        "I(t)"
+      ],
+      "summary": "Modelo de la acumulación funcional de los colapsos pasados y de la identidad del ego.",
+      "evidence": [
+        "ev.caos.integral_open_death",
+        "ev.caos.glossary_ego_identity"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.identidad_ego",
+      "kind": "concept",
+      "label": "Identidad del ego",
+      "aliases": [
+        "continuidad funcional"
+      ],
+      "evidence": [
+        "ev.caos.integral_open_death",
+        "ev.caos.glossary_ego_identity"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.campo_accion",
+      "kind": "concept",
+      "label": "Campo de acción",
+      "aliases": [
+        "conjunto de posibilidades efectivamente disponibles"
+      ],
+      "evidence": [
+        "ev.caos.field_zero_reconstruction",
+        "ev.caos.glossary_first_field"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.escala_colapso",
+      "kind": "concept",
+      "label": "Escala de colapso",
+      "aliases": [
+        "nivel de organización"
+      ],
+      "evidence": [
+        "ev.caos.scales",
+        "ev.caos.glossary_scale_accident"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.accidente",
+      "kind": "concept",
+      "label": "Accidente",
+      "aliases": [
+        "modificación no operada del campo"
+      ],
+      "evidence": [
+        "ev.caos.accident",
+        "ev.caos.glossary_scale_accident"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.mediacion_animal",
+      "kind": "concept",
+      "label": "Mediación animal",
+      "aliases": [
+        "gradiente animal de mediación"
+      ],
+      "evidence": [
+        "ev.caos.animal_mediation"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.mediacion_linguistica",
+      "kind": "concept",
+      "label": "Mediación lingüística",
+      "aliases": [
+        "mediación del lenguaje"
+      ],
+      "evidence": [
+        "ev.caos.language_mediation"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.intencionalidad_presupuesta",
+      "kind": "concept",
+      "label": "Intencionalidad presupuesta",
+      "aliases": [
+        "capacidad estructural de orientación"
+      ],
+      "evidence": [
+        "ev.caos.first_mediation",
+        "ev.caos.glossary_first_field"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tiempo_ego",
+      "kind": "concept",
+      "label": "Tiempo del ego",
+      "aliases": [
+        "tiempo vivido"
+      ],
+      "evidence": [
+        "ev.caos.lived_time",
+        "ev.caos.chaos_time",
+        "ev.caos.glossary_time"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.eterno_presente",
+      "kind": "concept",
+      "label": "Eterno presente",
+      "aliases": [
+        "presente del colapso"
+      ],
+      "evidence": [
+        "ev.caos.lived_time",
+        "ev.caos.chaos_time"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.otro",
+      "kind": "concept",
+      "label": "Otro",
+      "aliases": [
+        "otro ego"
+      ],
+      "evidence": [
+        "ev.caos.knowledge_other"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.colision",
+      "kind": "concept",
+      "label": "Colisión",
+      "aliases": [
+        "evento irreductible ego-mundo"
+      ],
+      "evidence": [
+        "ev.caos.collision"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.imputacion",
+      "kind": "concept",
+      "label": "Imputación",
+      "aliases": [
+        "atribución del acto al ego"
+      ],
+      "evidence": [
+        "ev.caos.imputation_cases",
+        "ev.caos.glossary_responsibility"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.responsabilidad_ontologica",
+      "kind": "concept",
+      "label": "Responsabilidad ontológica",
+      "aliases": [
+        "relación causal ego-acto"
+      ],
+      "evidence": [
+        "ev.caos.responsibility_first",
+        "ev.caos.glossary_responsibility"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.angustia",
+      "kind": "concept",
+      "label": "Angustia",
+      "aliases": [
+        "vértigo ante la posibilidad"
+      ],
+      "evidence": [
+        "ev.caos.anguish_freedom"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.libertad",
+      "kind": "concept",
+      "label": "Libertad",
+      "aliases": [
+        "exposición y respuesta a la posibilidad"
+      ],
+      "evidence": [
+        "ev.caos.anguish_freedom",
+        "ev.caos.hume_scope"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.sujeto_ego.caos",
+      "kind": "formulation",
+      "label": "Distinción sujeto/ego en Caos",
+      "subject": "concept.ego",
+      "role": "ontological_distinction",
+      "content": {
+        "summary": "El sujeto es la condición material; el ego es el proceso o función acumulativa que emerge cuando opera la doble mediación."
+      },
+      "evidence": [
+        "ev.caos.ego_event_subject",
+        "ev.caos.glossary_ego_identity"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.ego.event_function.caos",
+      "kind": "formulation",
+      "label": "Ego como acontecimiento y función",
+      "subject": "concept.ego",
+      "role": "nuclear_definition",
+      "content": {
+        "summary": "El ego no es entidad, sustancia o sustrato: es un proceso funcional acumulativo."
+      },
+      "evidence": [
+        "ev.caos.ego_event_subject",
+        "ev.caos.ego_function_failures",
+        "ev.caos.glossary_ego_identity"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.ego.four_levels.caos",
+      "kind": "formulation",
+      "label": "Cuatro niveles simultáneos del ego",
+      "subject": "concept.ego",
+      "role": "structural_synthesis",
+      "content": {
+        "levels": [
+          "sujeto como punto de partida",
+          "función acumulativa",
+          "condición sine qua non del acto",
+          "integral cerrada en la muerte"
+        ]
+      },
+      "evidence": [
+        "ev.caos.ego_four_levels",
+        "ev.caos.glossary_ego_identity"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.caos.possibility.caos",
+      "kind": "formulation",
+      "label": "Caos como posibilidad absoluta",
+      "subject": "concept.caos",
+      "role": "nuclear_definition",
+      "content": {
+        "summary": "Abertura atemporal de todas las posibilidades, condición del colapso y distinta del desorden coloquial o del caos determinista científico."
+      },
+      "evidence": [
+        "ev.caos.chaos_definition",
+        "ev.caos.chaos_science",
+        "ev.caos.glossary_subject_collapse"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.collapse.caos",
+      "kind": "formulation",
+      "label": "Colapso como determinación singular",
+      "subject": "concept.colapso",
+      "role": "nuclear_definition",
+      "content": {
+        "summary": "Transición irreversible y única desde posibilidad a determinación; en el ego ocurre en la intersección sujeto-mundo."
+      },
+      "evidence": [
+        "ev.caos.infinity_collapse",
+        "ev.caos.collapse_intersection",
+        "ev.caos.glossary_subject_collapse"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.time.caos",
+      "kind": "formulation",
+      "label": "Temporalidad del ego",
+      "subject": "concept.tiempo_ego",
+      "role": "temporal_structure",
+      "content": {
+        "past": "integral acumulada",
+        "present": "colapso en curso",
+        "future": "campo de posibilidades"
+      },
+      "evidence": [
+        "ev.caos.lived_time",
+        "ev.caos.chaos_time",
+        "ev.caos.glossary_time"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.knowledge_other.caos",
+      "kind": "formulation",
+      "label": "Conocimiento mediado del otro",
+      "subject": "concept.otro",
+      "role": "epistemic_limit",
+      "content": {
+        "summary": "El colapso ajeno no es directamente accesible; se conoce mediante un colapso interpretativo propio, real pero parcial, mediado y revisable."
+      },
+      "evidence": [
+        "ev.caos.knowledge_other"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.scales.caos",
+      "kind": "formulation",
+      "label": "Relación entre escalas de colapso",
+      "subject": "concept.escala_colapso",
+      "role": "cross_scale_structure",
+      "content": {
+        "material_relation": "permeabilidad",
+        "causal_relation": "impermeabilidad",
+        "summary": "Una escala modifica el campo de otra sin operar ni sustituir su colapso."
+      },
+      "evidence": [
+        "ev.caos.scales",
+        "ev.caos.glossary_scale_accident"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.accident.caos",
+      "kind": "formulation",
+      "label": "Accidente como modificación no operada del campo",
+      "subject": "concept.accidente",
+      "role": "technical_definition",
+      "content": {
+        "summary": "Colapso de otra escala que modifica el campo del ego sin haber sido producido por su primera mediación."
+      },
+      "evidence": [
+        "ev.caos.accident",
+        "ev.caos.glossary_scale_accident"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.field_zero.caos",
+      "kind": "formulation",
+      "label": "Límite del campo de acción",
+      "subject": "concept.campo_accion",
+      "role": "boundary_condition",
+      "content": {
+        "summary": "Con campo reducido puede operar una responsabilidad graduada; con campo colapsado a cero no puede operar la primera mediación para ese acto."
+      },
+      "evidence": [
+        "ev.caos.field_zero_reconstruction",
+        "ev.caos.imputation_cases",
+        "ev.caos.glossary_responsibility"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.god_scale.caos",
+      "kind": "formulation",
+      "label": "Hipótesis de Dios como escala superior",
+      "subject": "concept.escala_colapso",
+      "role": "conditional_hypothesis",
+      "content": {
+        "epistemic_scope": "agnostic",
+        "summary": "El esquema permite formular condicionalmente una escala superior de colapso, pero el argumento declara que no decide la existencia de Dios."
+      },
+      "evidence": [
+        "ev.caos.god_agnostic"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.neutral_mediation.caos",
+      "kind": "formulation",
+      "label": "Mediación neutral en Caos",
+      "subject": "concept.mediacion_neutral",
+      "role": "technical_definition",
+      "content": {
+        "summary": "Determinación activa sin intención, voluntad ni ego; puede ser compleja u organizada."
+      },
+      "evidence": [
+        "ev.caos.mediation_general_neutral",
+        "ev.caos.glossary_mediation_neutral"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.animal_mediation.caos",
+      "kind": "formulation",
+      "label": "Gradiente animal de mediación",
+      "subject": "concept.mediacion_animal",
+      "role": "boundary_formulation",
+      "content": {
+        "summary": "Zona intermedia entre mediación neutral y doble mediación plena; la adjudicación por especie se deja a investigación empírica."
+      },
+      "evidence": [
+        "ev.caos.animal_mediation"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.language_mediation.caos",
+      "kind": "formulation",
+      "label": "Lenguaje como mediación constitutiva",
+      "subject": "concept.mediacion_linguistica",
+      "role": "social_mediation",
+      "content": {
+        "summary": "Los actos lingüísticos son irreversibles y el lenguaje constituye un horizonte social de posibilidades, no un mero instrumento."
+      },
+      "evidence": [
+        "ev.caos.language_mediation"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.responsibility.caos",
+      "kind": "formulation",
+      "label": "Responsabilidad e imputación en Caos",
+      "subject": "concept.responsabilidad_ontologica",
+      "role": "causal_normative_distinction",
+      "content": {
+        "ontological": "relación ego-acto fundada en primera mediación y condición sine qua non",
+        "normative": "posibilidad de interpelar al ego y asignar consecuencias",
+        "boundary": "el resultado y las cadenas imprevisibles no sustituyen la primera mediación como origen de la responsabilidad"
+      },
+      "evidence": [
+        "ev.caos.responsibility_first",
+        "ev.caos.responsibility_asymmetry",
+        "ev.caos.glossary_responsibility"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.collision.caos",
+      "kind": "formulation",
+      "label": "Colisión ego-mundo",
+      "subject": "concept.colision",
+      "role": "irreducible_event",
+      "content": {
+        "summary": "El acto no se reduce al ego aislado ni al mundo aislado: es el evento de su intersección, compatible con descripciones físicas y agenciales."
+      },
+      "evidence": [
+        "ev.caos.collision"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.quantum_correspondence.caos",
+      "kind": "formulation",
+      "label": "Correspondencia cuántica declarada como isomorfismo",
+      "subject": "concept.colapso",
+      "role": "authorial_scientific_correspondence",
+      "content": {
+        "authorial_claim": "El apéndice denomina isomorfismo estructural a la correspondencia entre superposición/medición/resultado y caos/mediación/colapso.",
+        "scope_limit": "El mismo texto niega identidad o reducción del ego a procesos cuánticos y distingue mecanismos, escalas y sustratos.",
+        "validation_status": "pending_formal_review"
+      },
+      "evidence": [
+        "ev.caos.quantum_superposition",
+        "ev.caos.quantum_measurement",
+        "ev.caos.quantum_correspondence"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.collapse_function.caos",
+      "kind": "formal_object",
+      "label": "Función de colapso c en Caos",
+      "formal_spec": {
+        "symbol": "c",
+        "object_type": "authorial_function_model",
+        "signature": "c: T → E",
+        "expression": "c(t) = estado determinado por el colapso en t",
+        "epistemic_status": "authorial_formalization_pending_review"
+      },
+      "evidence": [
+        "ev.caos.glossary_subject_collapse"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.phi1.caos",
+      "kind": "formal_object",
+      "label": "φ₁ en Caos",
+      "formal_spec": {
+        "symbol": "φ₁",
+        "object_type": "authorial_function_model",
+        "signature": "φ₁: V × C → A",
+        "epistemic_status": "authorial_formalization"
+      },
+      "evidence": [
+        "ev.caos.first_mediation",
+        "ev.caos.glossary_first_field"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.phi2.caos",
+      "kind": "formal_object",
+      "label": "φ₂ en Caos",
+      "formal_spec": {
+        "symbol": "φ₂",
+        "object_type": "authorial_function_model",
+        "signature": "φ₂: A × I → I′",
+        "update": "I′ = I ∪ {a}",
+        "epistemic_status": "authorial_formalization_pending_review"
+      },
+      "evidence": [
+        "ev.caos.act_second_mediation",
+        "ev.caos.glossary_second_act"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.I.caos",
+      "kind": "formal_object",
+      "label": "Integral acumulativa I(t) en Caos",
+      "formal_spec": {
+        "symbol": "I(t)",
+        "object_type": "authorial_integral_model",
+        "expression": "I(t) = ∫₀ᵗ c(τ)·w(τ)dτ",
+        "epistemic_status": "authorial_formalization_pending_review"
+      },
+      "evidence": [
+        "ev.caos.math_function",
+        "ev.caos.glossary_ego_identity"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.ego.caos",
+      "kind": "formal_object",
+      "label": "Composición funcional del ego en Caos",
+      "formal_spec": {
+        "symbol": "Ego(t)",
+        "object_type": "authorial_composite_function",
+        "expression": "Ego(t) = φ₂(φ₁(v_t,c_t), I(t))",
+        "epistemic_status": "authorial_formalization_pending_review"
+      },
+      "evidence": [
+        "ev.caos.formula_ego",
+        "ev.caos.glossary_second_act"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.state_pair.caos",
+      "kind": "formal_object",
+      "label": "Estado y derivada del ego en Caos",
+      "formal_spec": {
+        "symbol": "(f(x₀), f′(x₀))",
+        "object_type": "authorial_local_state_model",
+        "claim": "estado presente y dirección inmediata",
+        "epistemic_status": "authorial_formalization_pending_review"
+      },
+      "evidence": [
+        "ev.caos.math_function"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.accumulation_point.caos",
+      "kind": "formal_object",
+      "label": "Ego como punto de acumulación",
+      "formal_spec": {
+        "object_type": "authorial_topological_model",
+        "claim": "la sucesión de colapsos tendría al ego como punto de acumulación y la muerte cerraría la integral",
+        "epistemic_status": "authorial_formalization_pending_review"
+      },
+      "evidence": [
+        "ev.caos.math_topology"
+      ],
+      "evidence_status": "explicit"
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel.caos.material_to_neutral",
+      "type": "translates",
+      "from": "term.caos.mediacion_prima_material",
+      "to": "concept.mediacion_neutral",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.correspondencias"
+      ]
+    },
+    {
+      "id": "rel.phi1.translates_first_mediation",
+      "type": "translates",
+      "from": "concept.primera_mediacion",
+      "to": "formal.phi1",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.translation"
+      ]
+    },
+    {
+      "id": "rel.phi2.translates_second_mediation",
+      "type": "translates",
+      "from": "concept.segunda_mediacion",
+      "to": "formal.phi2",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.translation"
+      ]
+    },
+    {
+      "id": "rel.ego.translates_it",
+      "type": "translates",
+      "from": "concept.ego",
+      "to": "formal.I_t",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.translation"
+      ]
+    },
+    {
+      "id": "rel.caos_formula.corresponds_fanes",
+      "type": "corresponds_to",
+      "from": "formulation.ego.caos",
+      "to": "formulation.system.fanes.tf",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.correspondencias"
+      ],
+      "note": "Transformación formal distingue la primera instancia de doble mediación (fanes) de su iteración continua."
+    },
+    {
+      "id": "rel.caos_formula.corresponds_bis",
+      "type": "corresponds_to",
+      "from": "formulation.ego.caos",
+      "to": "formulation.ego.bis.tf",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.correspondencias"
+      ]
+    },
+    {
+      "id": "rel.tf_phi1.formalized_by_axiom",
+      "type": "formalizes",
+      "from": "concept.primera_mediacion",
+      "to": "formal.phi1",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.correspondencias",
+        "ev.axiom.phi1"
+      ],
+      "note": "Transformación formal presenta φ₁(v_t,c); Axiomatización explicita el dominio como V×C×H→A."
+    },
+    {
+      "id": "rel.aego.aa3_refines_aa1",
+      "type": "refines",
+      "from": "formulation.aego.aa3",
+      "to": "formulation.aego.aa1",
+      "evidence_status": "inferred",
+      "rationale": "El Vol. I define Aego mediante interrupción de φ₂ e integración; el Vol. III conserva el término pero formula persistencia de voluntad e integral con producto relacional nulo. El glosario del Vol. III remite al Vol. I como introducción y al Cap. 2 del Vol. III como desarrollo central. Falta adjudicar si el cambio es refinamiento, sustitución o corrección."
+    },
+    {
+      "id": "rel.aego.sdo_operationalizes_aa3",
+      "type": "operationalizes",
+      "from": "formulation.aego.sdo",
+      "to": "formulation.aego.aa3",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.sdo.aego",
+        "ev.aa3.aego"
+      ]
+    },
+    {
+      "id": "rel.aego_damasen.case_of_aego",
+      "type": "case_of",
+      "from": "concept.aego_damasen",
+      "to": "concept.aego",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa3.aego",
+        "ev.sdo.aego"
+      ]
+    },
+    {
+      "id": "rel.aego_peribea.case_of_aego",
+      "type": "case_of",
+      "from": "concept.aego_peribea",
+      "to": "concept.aego",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa3.aego",
+        "ev.sdo.aego"
+      ]
+    },
+    {
+      "id": "rel.rstar.requires_w",
+      "type": "requires",
+      "from": "formal.rstar",
+      "to": "formal.W",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.rstar"
+      ]
+    },
+    {
+      "id": "rel.w.requires_g",
+      "type": "requires",
+      "from": "formal.W",
+      "to": "formal.G",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.rstar"
+      ]
+    },
+    {
+      "id": "rel.rstar.measures_causal",
+      "type": "measures",
+      "from": "formal.rstar",
+      "to": "concept.responsabilidad_causal",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.rstar",
+        "ev.axiom.translation"
+      ]
+    },
+    {
+      "id": "rel.rstar.distinguished_moral",
+      "type": "distinguished_from",
+      "from": "formal.rstar",
+      "to": "concept.responsabilidad_moral",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.rstar"
+      ]
+    },
+    {
+      "id": "rel.rstar.distinguished_legal",
+      "type": "distinguished_from",
+      "from": "formal.rstar",
+      "to": "concept.responsabilidad_juridica",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.rstar"
+      ]
+    },
+    {
+      "id": "rel.delta.requires_rstar",
+      "type": "requires",
+      "from": "formal.delta",
+      "to": "formal.rstar",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.system_map"
+      ]
+    },
+    {
+      "id": "rel.delta.requires_alpha",
+      "type": "requires",
+      "from": "formal.delta",
+      "to": "formal.alpha",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.system_map"
+      ]
+    },
+    {
+      "id": "rel.sujeto.condition_of_ego",
+      "type": "condition_of",
+      "from": "concept.sujeto",
+      "to": "concept.ego",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.ego_event_subject",
+        "ev.caos.glossary_ego_identity"
+      ]
+    },
+    {
+      "id": "rel.ego.distinguished_subject",
+      "type": "distinguished_from",
+      "from": "concept.ego",
+      "to": "concept.sujeto",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.ego_event_subject",
+        "ev.caos.glossary_ego_identity"
+      ]
+    },
+    {
+      "id": "rel.caos.condition_of_collapse",
+      "type": "condition_of",
+      "from": "concept.caos",
+      "to": "concept.colapso",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.chaos_definition",
+        "ev.caos.glossary_subject_collapse"
+      ]
+    },
+    {
+      "id": "rel.collapse.determines_possibility",
+      "type": "determines",
+      "from": "concept.colapso",
+      "to": "concept.posibilidad",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.infinity_collapse",
+        "ev.caos.glossary_subject_collapse"
+      ],
+      "note": "La dirección registra la operación sobre una posibilidad: el colapso la convierte en determinación singular."
+    },
+    {
+      "id": "rel.neutral.case_of_mediation",
+      "type": "case_of",
+      "from": "concept.mediacion_neutral",
+      "to": "concept.mediacion",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.mediation_general_neutral",
+        "ev.caos.glossary_mediation_neutral"
+      ]
+    },
+    {
+      "id": "rel.first.case_of_mediation",
+      "type": "case_of",
+      "from": "concept.primera_mediacion",
+      "to": "concept.mediacion",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.first_mediation",
+        "ev.caos.glossary_first_field"
+      ]
+    },
+    {
+      "id": "rel.second.case_of_mediation",
+      "type": "case_of",
+      "from": "concept.segunda_mediacion",
+      "to": "concept.mediacion",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.act_second_mediation",
+        "ev.caos.glossary_second_act"
+      ]
+    },
+    {
+      "id": "rel.first.produces_act",
+      "type": "produces",
+      "from": "concept.primera_mediacion",
+      "to": "concept.acto",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.first_mediation",
+        "ev.caos.act_second_mediation"
+      ]
+    },
+    {
+      "id": "rel.second.integrates_act",
+      "type": "integrates",
+      "from": "concept.segunda_mediacion",
+      "to": "concept.acto",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.act_second_mediation",
+        "ev.caos.glossary_second_act"
+      ]
+    },
+    {
+      "id": "rel.double.constitutes_ego",
+      "type": "constitutes",
+      "from": "concept.doble_mediacion",
+      "to": "concept.ego",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.formula_ego",
+        "ev.caos.glossary_second_act"
+      ]
+    },
+    {
+      "id": "rel.integral.constitutes_identity",
+      "type": "constitutes",
+      "from": "concept.integral_acumulativa",
+      "to": "concept.identidad_ego",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.integral_open_death",
+        "ev.caos.glossary_ego_identity"
+      ]
+    },
+    {
+      "id": "rel.collapse.constitutes_ego_time",
+      "type": "constitutes",
+      "from": "concept.colapso",
+      "to": "concept.tiempo_ego",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.lived_time",
+        "ev.caos.chaos_time",
+        "ev.caos.glossary_time"
+      ]
+    },
+    {
+      "id": "rel.field.enables_first",
+      "type": "enables",
+      "from": "concept.campo_accion",
+      "to": "concept.primera_mediacion",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.field_zero_reconstruction",
+        "ev.caos.glossary_first_field"
+      ]
+    },
+    {
+      "id": "rel.accident.modifies_field",
+      "type": "modifies",
+      "from": "concept.accidente",
+      "to": "concept.campo_accion",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.accident",
+        "ev.caos.glossary_scale_accident"
+      ]
+    },
+    {
+      "id": "rel.scale.conditions_field",
+      "type": "conditions",
+      "from": "concept.escala_colapso",
+      "to": "concept.campo_accion",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.scales",
+        "ev.caos.glossary_scale_accident"
+      ]
+    },
+    {
+      "id": "rel.first.grounds_responsibility",
+      "type": "grounds",
+      "from": "concept.primera_mediacion",
+      "to": "concept.responsabilidad_ontologica",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.responsibility_first",
+        "ev.caos.glossary_responsibility"
+      ]
+    },
+    {
+      "id": "rel.imputation.attributes_act",
+      "type": "attributes",
+      "from": "concept.imputacion",
+      "to": "concept.acto",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.imputation_cases",
+        "ev.caos.glossary_responsibility"
+      ]
+    },
+    {
+      "id": "rel.ego.condition_of_act",
+      "type": "necessary_condition_of",
+      "from": "concept.ego",
+      "to": "concept.acto",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.sine_qua_non",
+        "ev.caos.glossary_responsibility"
+      ]
+    },
+    {
+      "id": "rel.world.condition_of_act",
+      "type": "necessary_condition_of",
+      "from": "concept.mundo",
+      "to": "concept.acto",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.sine_qua_non"
+      ]
+    },
+    {
+      "id": "rel.collision.requires_ego",
+      "type": "requires",
+      "from": "concept.colision",
+      "to": "concept.ego",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.collision"
+      ]
+    },
+    {
+      "id": "rel.collision.requires_world",
+      "type": "requires",
+      "from": "concept.colision",
+      "to": "concept.mundo",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.collision"
+      ]
+    },
+    {
+      "id": "rel.knowledge_other.mediated_by_collapse",
+      "type": "mediated_by",
+      "from": "concept.otro",
+      "to": "concept.colapso",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.knowledge_other"
+      ],
+      "note": "La relación registra que el conocimiento del otro ocurre mediante el colapso interpretativo propio, no acceso directo al colapso ajeno."
+    },
+    {
+      "id": "rel.animal.between_neutral_double",
+      "type": "intermediate_between",
+      "from": "concept.mediacion_animal",
+      "to": "concept.mediacion_neutral",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.animal_mediation"
+      ],
+      "note": "El segundo polo explícito es la doble mediación plena."
+    },
+    {
+      "id": "rel.language.constitutes_field",
+      "type": "constitutes",
+      "from": "concept.mediacion_linguistica",
+      "to": "concept.campo_accion",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.language_mediation"
+      ]
+    },
+    {
+      "id": "rel.freedom.requires_field",
+      "type": "requires",
+      "from": "concept.libertad",
+      "to": "concept.campo_accion",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.anguish_freedom",
+        "ev.caos.imputation_cases"
+      ]
+    },
+    {
+      "id": "rel.caos_phi1.corresponds_axiom_phi1",
+      "type": "corresponds_to",
+      "from": "formal.phi1.caos",
+      "to": "formal.phi1",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.glossary_first_field",
+        "ev.tf.correspondencias",
+        "ev.axiom.translation"
+      ],
+      "note": "Se conservan las firmas históricas: Caos presenta V×C→A; Axiomatización explicita V×C×H→A."
+    },
+    {
+      "id": "rel.caos_phi2.corresponds_axiom_phi2",
+      "type": "corresponds_to",
+      "from": "formal.phi2.caos",
+      "to": "formal.phi2",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.glossary_second_act",
+        "ev.tf.correspondencias",
+        "ev.axiom.translation"
+      ],
+      "note": "La correspondencia no borra la diferencia de tipado entre I/I′ y E."
+    },
+    {
+      "id": "rel.caos_integral.corresponds_axiom_it",
+      "type": "corresponds_to",
+      "from": "formal.I.caos",
+      "to": "formal.I_t",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.glossary_ego_identity",
+        "ev.axiom.translation"
+      ],
+      "note": "Se mantienen separadas la formulación inicial y la especificación posterior como integral de Bochner en E."
+    },
+    {
+      "id": "rel.formal_ego.expresses_caos_formula",
+      "type": "formalizes",
+      "from": "formulation.ego.caos",
+      "to": "formal.ego.caos",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.formula_ego",
+        "ev.caos.glossary_second_act"
+      ]
+    },
+    {
+      "id": "rel.responsibility_ontological.distinguished_normative",
+      "type": "distinguished_from",
+      "from": "concept.responsabilidad_ontologica",
+      "to": "concept.responsabilidad_moral",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.responsibility_asymmetry",
+        "ev.caos.glossary_responsibility"
+      ],
+      "note": "Caos distingue la relación causal ontológica de sus derivaciones moral y jurídica."
+    },
+    {
+      "id": "rel.collapse.produces_determination",
+      "type": "produces",
+      "from": "concept.colapso",
+      "to": "concept.determinacion",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.infinity_collapse",
+        "ev.caos.glossary_subject_collapse"
+      ]
+    },
+    {
+      "id": "rel.present.locates_collapse",
+      "type": "locates",
+      "from": "concept.eterno_presente",
+      "to": "concept.colapso",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.lived_time",
+        "ev.caos.glossary_time"
+      ]
+    },
+    {
+      "id": "rel.first.presupposes_intentionality",
+      "type": "presupposes",
+      "from": "concept.primera_mediacion",
+      "to": "concept.intencionalidad_presupuesta",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.first_mediation",
+        "ev.caos.glossary_first_field"
+      ]
+    },
+    {
+      "id": "rel.double.requires_first",
+      "type": "requires",
+      "from": "concept.doble_mediacion",
+      "to": "concept.primera_mediacion",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.formula_ego",
+        "ev.caos.glossary_second_act"
+      ]
+    },
+    {
+      "id": "rel.double.requires_second",
+      "type": "requires",
+      "from": "concept.doble_mediacion",
+      "to": "concept.segunda_mediacion",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.formula_ego",
+        "ev.caos.glossary_second_act"
+      ]
+    },
+    {
+      "id": "rel.language.case_of_mediation",
+      "type": "case_of",
+      "from": "concept.mediacion_linguistica",
+      "to": "concept.mediacion",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.language_mediation"
+      ]
+    },
+    {
+      "id": "rel.animal.toward_double_mediation",
+      "type": "intermediate_toward",
+      "from": "concept.mediacion_animal",
+      "to": "concept.doble_mediacion",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.animal_mediation"
+      ]
+    },
+    {
+      "id": "rel.anguish.exposes_chaos",
+      "type": "discloses",
+      "from": "concept.angustia",
+      "to": "concept.caos",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.anguish_freedom"
+      ]
+    },
+    {
+      "id": "rel.freedom.responds_to_possibility",
+      "type": "responds_to",
+      "from": "concept.libertad",
+      "to": "concept.posibilidad",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.caos.anguish_freedom"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "route.ego.explicacion",
+      "purpose": "Explicar la fórmula del ego y su evolución terminológica.",
+      "triggers": [
+        "fórmula del ego",
+        "doble mediación",
+        "cómo se constituye el ego"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.caos.formula_ego",
+          "reason": "Formulación estructural en Caos."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.tf.tres_formulas",
+          "reason": "Desdoblamiento posterior en mediación neutral, fanes y bis."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.tf.correspondencias",
+          "reason": "Evita confundir los usos terminológicos de primera mediación en Caos."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.axiom.translation",
+          "reason": "Traducción bidireccional del lenguaje ontológico al formal."
+        }
+      ]
+    },
+    {
+      "id": "route.ego.implementacion",
+      "purpose": "Preparar una implementación técnica de la estructura φ₁/φ₂/I(t).",
+      "triggers": [
+        "programar fórmula del ego",
+        "implementar φ₁",
+        "implementar φ₂",
+        "I(t)"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.tf.tres_formulas",
+          "reason": "Define la relación ontológica entre los componentes."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.tf.correspondencias",
+          "reason": "Fija las correspondencias entre estadios y funciones."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.axiom.phi1",
+          "reason": "Dominio, codominio y forma de la primera mediación."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.axiom.phi2_it",
+          "reason": "Segunda mediación e integral acumulativa."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.axiom.translation",
+          "reason": "Verifica correspondencias terminológicas."
+        }
+      ]
+    },
+    {
+      "id": "route.rstar.definicion_calculo",
+      "purpose": "Definir, calcular y delimitar R*.",
+      "triggers": [
+        "qué es R*",
+        "cómo se calcula R*",
+        "vector de responsabilidad causal",
+        "imputación causal"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.axiom.system_map",
+          "reason": "Ubica R* dentro de la cadena formal y sus dependencias."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.axiom.rstar",
+          "reason": "Definición 6.1, condiciones declaradas de existencia/unicidad y método de potencias."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mci.rstar_validity",
+          "reason": "Condiciones metrológicas de validez y protocolo cuando fallan."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.axiom.translation",
+          "reason": "Traducción a la noción de imputación causal."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.rstar.sink_irreducibility"
+      ]
+    },
+    {
+      "id": "route.aego.definicion_evolucion",
+      "purpose": "Explicar Aego sin ocultar la diferencia entre sus formulaciones históricas.",
+      "triggers": [
+        "qué es Aego",
+        "singularidad volitiva",
+        "evolución del concepto Aego"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aa1.aego",
+          "reason": "Introducción histórica del concepto."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa3.aego",
+          "reason": "Desarrollo central posterior y nueva fórmula."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa3.glossary",
+          "reason": "Autolocalización del término dentro de la trilogía."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.sdo.aego",
+          "reason": "Operacionalización diagnóstica E-6."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aego.formulation_change"
+      ]
+    },
+    {
+      "id": "route.aego.sdo",
+      "purpose": "Interpretar el código E-6 del SDO con su fundamento ontológico.",
+      "triggers": [
+        "E-6",
+        "Aego en SDO",
+        "Damasén y Peribea en SDO"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aa3.aego",
+          "reason": "Fundamento ontológico de la fórmula y sus dos formas."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.sdo.aego",
+          "reason": "Criterios, alcance y operación del código E-6."
+        }
+      ]
+    },
+    {
+      "id": "route.caos.architecture",
+      "purpose": "Reconstruir la arquitectura autoral completa de Caos sin reducirla a la fórmula del ego.",
+      "triggers": [
+        "arquitectura de Caos",
+        "sistema de Caos",
+        "núcleo ontológico de Caos"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.caos.prelim.architecture",
+          "reason": "Expone la cadena declarada caos–colapso–mediación–doble mediación–ego."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.caos.ego_event_subject",
+          "reason": "Distingue sujeto material de ego procesual."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.caos.chaos_definition",
+          "reason": "Fija el sentido ontológico de caos."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.caos.mediation_general_neutral",
+          "reason": "Sitúa la mediación como categoría más amplia que el ego."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.caos.glossary_ego_identity",
+          "reason": "Consolida las definiciones nucleares en el glosario autoral."
+        }
+      ]
+    },
+    {
+      "id": "route.caos.subject_ego_identity",
+      "purpose": "Explicar la distinción sujeto/ego y la identidad acumulativa.",
+      "triggers": [
+        "sujeto y ego",
+        "ego como proceso",
+        "identidad del ego",
+        "ego y muerte"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.caos.subject_being",
+          "reason": "Fija la prioridad material y ontológica del sujeto."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.caos.ego_event_subject",
+          "reason": "Define el ego como acontecimiento y función, no entidad."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.caos.integral_open_death",
+          "reason": "Expone la integral abierta y su cierre en la muerte."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.caos.ego_four_levels",
+          "reason": "Sintetiza los cuatro niveles simultáneos."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.caos.glossary_ego_identity",
+          "reason": "Precisa continuidad funcional y opacidad del ego."
+        }
+      ]
+    },
+    {
+      "id": "route.caos.chaos_collapse",
+      "purpose": "Definir caos, posibilidad, colapso y determinación conservando sus distinciones.",
+      "triggers": [
+        "qué es el caos",
+        "qué es el colapso",
+        "caos y desorden",
+        "posibilidad y determinación"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.caos.infinity_collapse",
+          "reason": "Distingue infinito de magnitud y presenta el modelo de colapso."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.caos.chaos_definition",
+          "reason": "Define caos como abertura de posibilidad, no desorden."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.caos.chaos_science",
+          "reason": "Separa el concepto ontológico del caos determinista científico."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.caos.collapse_intersection",
+          "reason": "Localiza la determinación en la intersección sujeto-mundo."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.caos.glossary_subject_collapse",
+          "reason": "Reúne las definiciones técnicas y la asimetría caos/colapso."
+        }
+      ]
+    },
+    {
+      "id": "route.caos.time_other_freedom",
+      "purpose": "Navegar la temporalidad vivida, el límite epistémico ante el otro y la libertad.",
+      "triggers": [
+        "tiempo del ego",
+        "eterno presente",
+        "conocer al otro",
+        "angustia y libertad"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.caos.lived_time",
+          "reason": "Define la sucesión de colapsos como tiempo vivido."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.caos.chaos_time",
+          "reason": "Relaciona pasado determinado, presente y futuro abierto."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.caos.knowledge_other",
+          "reason": "Delimita el acceso mediado y revisable al otro."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.caos.anguish_freedom",
+          "reason": "Distingue angustia de miedo y libertad de indeterminación."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.caos.glossary_time",
+          "reason": "Condensa la estructura pasado–presente–futuro."
+        }
+      ]
+    },
+    {
+      "id": "route.caos.scales_accident_field",
+      "purpose": "Explicar escalas, accidente, campo de acción y los límites de imputación.",
+      "triggers": [
+        "escalas de colapso",
+        "accidente",
+        "campo de acción",
+        "campo cero",
+        "responsabilidad reducida"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.caos.scales",
+          "reason": "Distingue permeabilidad material e impermeabilidad causal."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.caos.accident",
+          "reason": "Define accidente como modificación del campo no operada por el ego."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.caos.field_zero_reconstruction",
+          "reason": "Distingue campo reducido, campo cero y reconstrucción posterior."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.caos.imputation_cases",
+          "reason": "Aplica la graduación del campo a casos límite."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.caos.glossary_scale_accident",
+          "reason": "Fija las definiciones técnicas de escala y accidente."
+        }
+      ]
+    },
+    {
+      "id": "route.caos.mediations",
+      "purpose": "Distinguir mediación general, neutral, animal, lingüística, primera y segunda mediación.",
+      "triggers": [
+        "tipos de mediación",
+        "mediación neutral",
+        "mediación animal",
+        "primera mediación",
+        "segunda mediación",
+        "lenguaje y mediación"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.caos.mediation_general_neutral",
+          "reason": "Define mediación general y mediación neutral."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.caos.animal_mediation",
+          "reason": "Sitúa el gradiente animal sin adjudicarlo por especie."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.caos.language_mediation",
+          "reason": "Expone la dimensión performativa y social del lenguaje."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.caos.first_mediation",
+          "reason": "Define orientación volitiva e intencionalidad presupuesta."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.caos.act_second_mediation",
+          "reason": "Distingue acto e integración constitutiva."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.caos.glossary_mediation_neutral",
+          "reason": "Consolida la categoría general y su modalidad neutral."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.caos.glossary_second_act",
+          "reason": "Consolida segunda mediación, doble mediación y acto."
+        }
+      ]
+    },
+    {
+      "id": "route.caos.responsibility_imputation",
+      "purpose": "Explicar condición sine qua non, responsabilidad e imputación sin confundir acto, resultado y accidente.",
+      "triggers": [
+        "responsabilidad en Caos",
+        "condición sine qua non",
+        "imputación",
+        "acto y resultado",
+        "responsabilidad y campo"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.caos.irreversibility_responsibility",
+          "reason": "Vincula irreversibilidad con responsabilidad por el acto."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.caos.responsibility_first",
+          "reason": "Localiza el origen de la responsabilidad en la primera mediación."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.caos.sine_qua_non",
+          "reason": "Formula la condición necesaria y sus límites."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.caos.responsibility_asymmetry",
+          "reason": "Separa asimetría ontológica y derivación normativa."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.caos.imputation_cases",
+          "reason": "Gradúa imputación según el campo efectivamente disponible."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.caos.glossary_responsibility",
+          "reason": "Fija las definiciones autónomas de los tres términos."
+        }
+      ]
+    },
+    {
+      "id": "route.caos.god_conditional",
+      "purpose": "Recuperar el argumento sobre Dios manteniendo su estatuto condicional y agnóstico.",
+      "triggers": [
+        "Dios en Caos",
+        "Dios como escala",
+        "argumento agnóstico"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.caos.scales",
+          "reason": "Establece primero la estructura general de escalas."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.caos.god_agnostic",
+          "reason": "Formula la extensión condicional y declara que no decide existencia."
+        }
+      ]
+    },
+    {
+      "id": "route.caos.formalization",
+      "purpose": "Examinar las formalizaciones matemáticas de Caos conservando su estatuto autoral y sus problemas abiertos.",
+      "triggers": [
+        "matemáticas de Caos",
+        "integral del ego",
+        "punto de acumulación",
+        "derivada del ego",
+        "implementar Caos"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.caos.math_limit_infinity",
+          "reason": "Presenta límite e infinito como bases declaradas."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.caos.math_function",
+          "reason": "Introduce función, integral, peso y derivada."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.caos.math_topology",
+          "reason": "Introduce acumulación, clausura y perfección."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.caos.glossary_first_field",
+          "reason": "Fija la firma inicial de φ₁."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.caos.glossary_second_act",
+          "reason": "Fija φ₂, actualización y composición."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.caos.glossary_ego_identity",
+          "reason": "Fija la integral acumulativa y reconoce su idealización."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.axiom.translation",
+          "reason": "Permite comparar con la traducción formal posterior sin fusionarlas."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.caos.formal_typing",
+        "review.caos.accumulation_topology",
+        "review.caos.local_derivative"
+      ]
+    },
+    {
+      "id": "route.caos.quantum_correspondence",
+      "purpose": "Recuperar la correspondencia cuántica declarada sin presentarla como validación física o isomorfismo ya demostrado.",
+      "triggers": [
+        "Caos y física cuántica",
+        "isomorfismo cuántico",
+        "colapso cuántico y ego",
+        "Bohm en Caos"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.caos.quantum_superposition",
+          "reason": "Expone superposición y función de onda."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.caos.quantum_measurement",
+          "reason": "Presenta el problema de medición y colapso."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.caos.quantum_uncertainty",
+          "reason": "Añade la correspondencia autoral con apertura de posibilidades."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.caos.quantum_interpretations",
+          "reason": "Compara interpretaciones que discrepan sobre el colapso."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.caos.quantum_correspondence",
+          "reason": "Contiene la tabla denominada isomorfismo y sus límites declarados."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.caos.quantum_isomorphism",
+        "review.caos.quantum_interpretations"
+      ]
+    }
+  ],
+  "review_queue": [
+    {
+      "id": "review.aego.formulation_change",
+      "status": "pending_authorial_adjudication",
+      "subject": "concept.aego",
+      "related_relation": "rel.aego.aa3_refines_aa1",
+      "question": "¿La formulación de Aego de Damasén sustituye/corrige la formulación del Apéndice A de Sobre la pasión, o deben conservarse como dos formulaciones con alcances distintos?",
+      "why_not_auto_resolved": "Los textos muestran una diferencia material y el Vol. III se presenta como desarrollo central, pero los pasajes revisados no declaran de forma inequívoca que la formulación anterior quede abrogada.",
+      "blocking": false,
+      "blocking_for": []
+    },
+    {
+      "id": "review.rstar.sink_irreducibility",
+      "status": "pending_formal_review",
+      "subject": "formal.rstar",
+      "question": "¿Cómo deben compatibilizarse el nodo final sumidero con fila nula y la condición de irreducibilidad/primitividad usada para la existencia, unicidad y λ₁=1 de R*?",
+      "why_not_auto_resolved": "La Definición 6 declara un nodo final sin aristas salientes y fila nula de W, mientras el Teorema 6 exige irreducibilidad sobre N y en su demostración usa W·1=1 como si toda W fuera estocástica por filas. Un sumidero con fila nula no puede alcanzar los demás nodos y su fila no suma 1. Metrología Causal V·2 vuelve a exigir irreducibilidad para la validez de R*.",
+      "blocking": false,
+      "blocking_for": [
+        "software_implementation",
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.axiom.rstar",
+        "ev.mci.rstar_validity"
+      ]
+    },
+    {
+      "id": "review.caos.formal_typing",
+      "status": "pending_formal_review",
+      "subject": "formal.I.caos",
+      "question": "¿Cómo deben tiparse conjuntamente c:T→E, la integral ponderada I(t), φ₂:A×I→I′ y la actualización I′=I∪{a}, y cómo se relacionan con la especificación posterior φ₂:A×E→E?",
+      "why_not_auto_resolved": "Caos usa I a la vez como valor integral, estado acumulativo y conjunto actualizable por unión. El corpus posterior precisa un espacio E y una integral de Bochner, pero los pasajes auditados no ofrecen una migración formal que demuestre equivalencia entre ambos tipados.",
+      "blocking": false,
+      "blocking_for": [
+        "software_implementation",
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.caos.math_function",
+        "ev.caos.glossary_second_act",
+        "ev.caos.glossary_ego_identity",
+        "ev.axiom.phi2_it"
+      ]
+    },
+    {
+      "id": "review.caos.accumulation_topology",
+      "status": "pending_formal_review",
+      "subject": "formal.accumulation_point.caos",
+      "question": "¿Qué espacio topológico, hipótesis de compacidad y criterio de unicidad sostienen que la sucesión de colapsos tenga al ego como punto de acumulación y que la muerte produzca un conjunto cerrado o perfecto?",
+      "why_not_auto_resolved": "Bolzano-Weierstrass garantiza subsucesiones convergentes bajo hipótesis concretas, no un límite único por mera completitud; además, que no haya un colapso posterior no basta para establecer clausura ni perfección del conjunto. El apéndice no define la topología necesaria.",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.caos.math_topology"
+      ]
+    },
+    {
+      "id": "review.caos.local_derivative",
+      "status": "pending_formal_review",
+      "subject": "formal.state_pair.caos",
+      "question": "¿Qué dinámica adicional permite afirmar que (f(x₀),f′(x₀)) determina el futuro inmediato del ego?",
+      "why_not_auto_resolved": "El valor y la derivada en un punto no determinan por sí solos la evolución futura de una función; haría falta una ecuación de evolución y condiciones de existencia/unicidad que el pasaje no proporciona.",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.caos.math_function"
+      ]
+    },
+    {
+      "id": "review.caos.quantum_isomorphism",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.quantum_correspondence.caos",
+      "question": "¿La relación cuántica debe mantenerse como isomorfismo matemático, formalizarse mediante una biyección que preserve estructura, o reclasificarse como correspondencia estructural o analogía?",
+      "why_not_auto_resolved": "El texto define isomorfismo en sentido matemático y niega que sea metáfora, pero no especifica objetos, aplicación biyectiva ni relaciones preservadas. Además, asigna medición y decoherencia a mediaciones que luego declara ausentes en los sistemas cuánticos. Elegir entre formalización y cambio de estatuto requiere adjudicación autoral.",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "technical_use"
+      ],
+      "evidence": [
+        "ev.caos.quantum_measurement",
+        "ev.caos.quantum_correspondence"
+      ]
+    },
+    {
+      "id": "review.caos.quantum_interpretations",
+      "status": "pending_formal_review",
+      "subject": "formulation.quantum_correspondence.caos",
+      "question": "¿Cómo se compatibilizan las afirmaciones sobre un colapso físico común con Muchos Mundos y Bohm, y la doble caracterización de Bohm como teoría que preserva y que elimina el colapso?",
+      "why_not_auto_resolved": "El apéndice reconoce que Muchos Mundos y Bohm niegan el colapso físico, pero también presenta el colapso como estructura compartida y agrupa inicialmente a Bohm entre teorías que lo preservan. Los pasajes no resuelven la incompatibilidad editorial y física.",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "technical_use"
+      ],
+      "evidence": [
+        "ev.caos.quantum_interpretations",
+        "ev.caos.quantum_correspondence"
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "id": "test.f1.ego",
+      "stress_case": "formula_del_ego",
+      "queries": [
+        "¿Cuál es la fórmula del ego?",
+        "¿Cómo cambia su formulación entre Caos, Transformación formal y Axiomatización?"
+      ],
+      "required_routes": [
+        "route.ego.explicacion",
+        "route.ego.implementacion"
+      ],
+      "pass_condition": "Debe distinguir formulación filosófica, desdoblamiento posterior, usos terminológicos y traducción formal sin reducirlos a una sola frase.",
+      "status": "pass_with_correction",
+      "finding": "La primera ejecución detectó que 'primera mediación en sentido material (Caos)' no debía figurar como alias de la función que orienta el acto. Se modeló como uso terminológico separado que corresponde a mediación neutral."
+    },
+    {
+      "id": "test.f1.rstar",
+      "stress_case": "rstar",
+      "queries": [
+        "¿Qué es R*?",
+        "¿Cómo se calcula y qué necesita?"
+      ],
+      "required_routes": [
+        "route.rstar.definicion_calculo"
+      ],
+      "pass_condition": "Debe recuperar definición, G/W, condiciones de validez, cálculo y límite de alcance moral/jurídico, y elevar inconsistencias formales relevantes.",
+      "status": "pass_with_review",
+      "finding": "La ruta recupera definición y cálculo, pero también revela una tensión formal entre el sumidero con fila nula y las condiciones de irreducibilidad/estocasticidad usadas en el teorema. El mapa la conserva como revisión bloqueante para implementación, no la corrige silenciosamente."
+    },
+    {
+      "id": "test.f1.aego",
+      "stress_case": "aego",
+      "queries": [
+        "¿Qué es Aego?",
+        "¿Cómo se relacionan sus formulaciones del Vol. I, Vol. III y SDO?"
+      ],
+      "required_routes": [
+        "route.aego.definicion_evolucion",
+        "route.aego.sdo"
+      ],
+      "pass_condition": "Debe preservar la diferencia material entre formulaciones y elevar la adjudicación doctrinal pendiente en vez de fusionarlas silenciosamente.",
+      "status": "pass_with_review",
+      "finding": "El mapa distingue la formulación inicial basada en interrupción de φ₂ de la formulación posterior ∫φ×0 y de su operacionalización E-6; la relación exacta entre las dos primeras queda pendiente de adjudicación autoral."
+    }
+  ]
+}
