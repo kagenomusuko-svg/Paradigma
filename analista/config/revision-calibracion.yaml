@@ -1,0 +1,128 @@
+version: "1.0"
+proceso: revision_calibracion_documental
+estado: activo
+
+especificacion: analista/REVISION-CALIBRACION.md
+
+baseline:
+  rama: analisis-textual-v0.1
+  commit: 817b05a9a2eaa2643a5a49ec90f881b85a5d572e
+  preservar_inmutable: true
+
+rama_revision: revision-calibracion-v0.2
+
+proposito: >-
+  Calibrar los motores existentes mediante auditoria documental de sus resultados
+  reales sobre obras completas, sin reescribir doctrina, sin sustituir el corpus
+  como autoridad y sin destruir la arquitectura F0-F15 ya construida.
+
+principios:
+  conservar_componentes_que_cumplen: true
+  correccion_minima_suficiente: true
+  motor_antes_que_auditor_humano: true
+  revision_obra_por_obra: true
+  escalar_solo_tras_generalizacion: true
+  corregir_causa_raiz_no_resultado_manual: true
+  prueba_regresion_por_error_confirmado: true
+  reejecutar_obras_previas_tras_cambio_motor: true
+  clausura_descriptiva_obligatoria: true
+
+intervencion_humana:
+  permitida: true
+  funcion: auditoria_documental_de_resultados_contra_fuente
+  autoridad_doctrinal: false
+  puede:
+    - verificar_correspondencia_texto_localizacion
+    - detectar_truncamiento
+    - detectar_fragmentacion_o_fusion_indebida
+    - reconocer_funcion_textual_visible
+    - verificar_estructura_de_glosario
+    - verificar_integridad_de_formula
+    - identificar_artefacto_de_conversion
+    - verificar_criterio_de_deteccion_presente
+  no_puede:
+    - declarar_intencion_autoral_como_evidencia
+    - elegir_definicion_preferida
+    - resolver_ambiguedad_doctrinal
+    - fusionar_conceptos_por_interpretacion
+    - armonizar_formulaciones
+    - completar_tesis_ausentes
+    - corregir_contenido_conceptual
+  patron_humano_calibracion: >-
+    Patron de auditoria documental construido despues de ejecutar el motor,
+    verificando salida y evidencia contra la fuente; no patron doctrinal previo.
+
+categorias_auditoria:
+  - correcto
+  - truncado_inicio
+  - truncado_final
+  - fragmentacion_indebida
+  - fusion_indebida
+  - tipo_registro_incorrecto
+  - estatus_enunciativo_incorrecto
+  - concepto_no_establecido_por_la_evidencia
+  - evidencia_insuficiente
+  - referencia_incorrecta
+  - trazabilidad_incorrecta
+  - corrupcion_conversion
+  - formula_incompleta
+  - duplicado_indebido
+  - otro_error_documental
+  - no_determinado
+
+fases:
+  - id: RC-0
+    nombre: Constitucion de la revision
+    estado: abierta
+    modifica_motores: false
+    cierre: contrato_de_revision_inequivoco_y_primera_obra_seleccionada
+  - id: RC-1
+    nombre: Auditoria documental de la primera obra
+    estado: pendiente
+    cierre: catalogo_reproducible_de_aciertos_errores_y_causas_probables
+  - id: RC-2
+    nombre: Calibracion sobre la primera obra
+    estado: pendiente
+    cierre: errores_sistemicos_conocidos_resueltos_o_degradados_con_regresiones
+  - id: RC-3
+    nombre: Prueba de generalizacion en segunda obra
+    estado: pendiente
+    cierre: generalizacion_y_nuevas_familias_de_error_determinadas
+  - id: RC-4
+    nombre: Calibracion multilibro
+    estado: pendiente
+    cierre: obras_1_y_2_estables_conjuntamente
+  - id: RC-5
+    nombre: Validacion de generalizacion
+    estado: pendiente
+    cierre: nuevas_obras_no_revelan_familias_sistemicas_nuevas
+  - id: RC-6
+    nombre: Regeneracion controlada del corpus
+    estado: pendiente
+    cierre: todas_las_obras_sin_regresiones_conocidas_y_anomalias_resueltas
+  - id: RC-7
+    nombre: Revalidacion de F9-F15
+    estado: pendiente
+    cierre: productos_superiores_regenerados_y_gates_de_contrato_y_cobertura_validos
+  - id: RC-8
+    nombre: Cierre de la revision
+    estado: pendiente
+    cierre: generalizacion_documentada_y_comparacion_baseline_vs_calibrado_completa
+
+primera_obra_candidata:
+  ruta: corpus/fuentes/Caos_El_abismo_del_ego_y_la_doble_mediacion.md
+  estado: candidata
+
+criterio_detencion_revision_intensiva:
+  numero_fijo_de_obras: false
+  expectativa_operativa_minima: 2
+  expectativa_operativa_maxima_inicial: 4
+  regla: >-
+    Detener la incorporacion de obras a revision manual intensiva cuando una obra
+    nueva no revele familias importantes de error, las correcciones generalicen
+    sin reglas ad hoc y las anomalias restantes puedan detectarse automaticamente.
+
+regla_final: >-
+  No corregimos lo que dice la obra. Corregimos unicamente la manera en que el
+  motor observa, segmenta, recupera, clasifica y representa lo que la obra
+  efectivamente contiene.
