@@ -8,6 +8,12 @@ on:
       - "analista/revision-calibracion/generar_expediente_rc1.py"
       - "analista/config/revision-calibracion.yaml"
       - "analista/config/clausura-descriptiva.yaml"
+  pull_request:
+    branches: [revision-calibracion-v0.2]
+    paths:
+      - "analista/revision-calibracion/trigger-rc1.txt"
+      - ".github/workflows/analista-rc1-caos-baseline.yml"
+      - "analista/revision-calibracion/generar_expediente_rc1.py"
   workflow_dispatch:
 
 permissions:
@@ -43,9 +49,10 @@ jobs:
         run: |
           python - <<'PY'
           import json
+          import os
           from pathlib import Path
           r=json.loads(Path('rc1-caos/resumen-baseline.json').read_text(encoding='utf-8'))
-          with Path(__import__('os').environ['GITHUB_STEP_SUMMARY']).open('a',encoding='utf-8') as f:
+          with Path(os.environ['GITHUB_STEP_SUMMARY']).open('a',encoding='utf-8') as f:
               f.write('# RC-1 · Caos · baseline F10\n\n')
               f.write(f"- Obra: `{r['obra_id']}` — {r.get('titulo')}\n")
               f.write(f"- Registros proyectados: **{r['registros_expediente']:,}**\n")
