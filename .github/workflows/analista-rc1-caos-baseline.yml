@@ -1,0 +1,67 @@
+name: Analista RC-1 - expediente baseline Caos
+
+on:
+  push:
+    branches: [revision-calibracion-v0.2]
+    paths:
+      - ".github/workflows/analista-rc1-caos-baseline.yml"
+      - "analista/revision-calibracion/generar_expediente_rc1.py"
+      - "analista/config/revision-calibracion.yaml"
+      - "analista/config/clausura-descriptiva.yaml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  expediente-caos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Descargar producto F10 cerrado
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download analista-fase10-cierre-v1.2.2 \
+            --repo "${GITHUB_REPOSITORY}" \
+            --pattern analista-fase10-cierre-global.zip \
+            --output fase10.zip
+          echo "13b580dcdcb83f1f15a4008a7e423ca733a6a5e48e467ef30f212d7a7403a3d8  fase10.zip" | sha256sum -c -
+
+      - name: Generar expediente documental RC-1
+        run: |
+          python analista/revision-calibracion/generar_expediente_rc1.py \
+            --zip-fase10 fase10.zip \
+            --obra-id FUE-6F24D4138FC2 \
+            --zip-sha256-esperado 13b580dcdcb83f1f15a4008a7e423ca733a6a5e48e467ef30f212d7a7403a3d8 \
+            --maestro-sha256-esperado 3ddecac64e0c19ca2d3edf08eb88077f5ce7eff28e1d31142103c94612bc37e1 \
+            --salida-dir rc1-caos
+
+      - name: Publicar resumen en job summary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('rc1-caos/resumen-baseline.json').read_text(encoding='utf-8'))
+          with Path(__import__('os').environ['GITHUB_STEP_SUMMARY']).open('a',encoding='utf-8') as f:
+              f.write('# RC-1 · Caos · baseline F10\n\n')
+              f.write(f"- Obra: `{r['obra_id']}` — {r.get('titulo')}\n")
+              f.write(f"- Registros proyectados: **{r['registros_expediente']:,}**\n")
+              f.write(f"- Registros prioritarios: **{r['registros_prioritarios']:,}**\n")
+              f.write('- Motores modificados: **no**\n\n')
+              f.write('## Conteos por sección\n\n')
+              for k,v in r['conteos_secciones'].items(): f.write(f'- `{k}`: {v:,}\n')
+              f.write('\n## Señales diagnósticas\n\n')
+              for k,v in r['senales_diagnosticas'].items(): f.write(f'- `{k}`: {v:,}\n')
+          PY
+
+      - name: Subir expediente RC-1
+        uses: actions/upload-artifact@v4
+        with:
+          name: rc1-caos-baseline
+          path: rc1-caos/
+          if-no-files-found: error
+          compression-level: 9
+          retention-days: 30
