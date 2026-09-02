@@ -6,6 +6,7 @@ on:
     paths:
       - ".github/workflows/analista-rc1-caos-baseline.yml"
       - "analista/revision-calibracion/generar_expediente_rc1.py"
+      - "analista/revision-calibracion/generar_cuadernos_humanos_rc1.py"
       - "analista/config/revision-calibracion.yaml"
       - "analista/config/clausura-descriptiva.yaml"
   pull_request:
@@ -14,6 +15,7 @@ on:
       - "analista/revision-calibracion/trigger-rc1.txt"
       - ".github/workflows/analista-rc1-caos-baseline.yml"
       - "analista/revision-calibracion/generar_expediente_rc1.py"
+      - "analista/revision-calibracion/generar_cuadernos_humanos_rc1.py"
   workflow_dispatch:
 
 permissions:
@@ -45,6 +47,13 @@ jobs:
             --maestro-sha256-esperado 3ddecac64e0c19ca2d3edf08eb88077f5ce7eff28e1d31142103c94612bc37e1 \
             --salida-dir rc1-caos
 
+      - name: Generar cuadernos de auditoría humana
+        run: |
+          python analista/revision-calibracion/generar_cuadernos_humanos_rc1.py \
+            --expediente rc1-caos/expediente-prioritario.jsonl \
+            --salida-dir rc1-caos/cuadernos-humanos \
+            --tamano-lote 12
+
       - name: Publicar resumen en job summary
         run: |
           python - <<'PY'
@@ -57,7 +66,8 @@ jobs:
               f.write(f"- Obra: `{r['obra_id']}` — {r.get('titulo')}\n")
               f.write(f"- Registros proyectados: **{r['registros_expediente']:,}**\n")
               f.write(f"- Registros prioritarios: **{r['registros_prioritarios']:,}**\n")
-              f.write('- Motores modificados: **no**\n\n')
+              f.write('- Motores modificados: **no**\n')
+              f.write('- Interfaz humana: `cuadernos-humanos/README.md`\n\n')
               f.write('## Conteos por sección\n\n')
               for k,v in r['conteos_secciones'].items(): f.write(f'- `{k}`: {v:,}\n')
               f.write('\n## Señales diagnósticas\n\n')
