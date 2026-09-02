@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "fase": "RC-1",
+  "estado": "baseline_proyectado_para_auditoria",
+  "obra_id": "FUE-6F24D4138FC2",
+  "titulo": "Caos: El abismo del ego y la doble mediación",
+  "schema_maestro": "1.4.1",
+  "origen": {
+    "release": "analista-fase10-cierre-v1.2.2",
+    "zip_sha256": "13b580dcdcb83f1f15a4008a7e423ca733a6a5e48e467ef30f212d7a7403a3d8",
+    "maestro_ruta": "maestros/FUE-6F24D4138FC2.json",
+    "maestro_sha256": "3ddecac64e0c19ca2d3edf08eb88077f5ce7eff28e1d31142103c94612bc37e1",
+    "workflow_run_id": 33576810404,
+    "artifact_id": 9826919921,
+    "artifact_digest": "sha256:448a254d29f025f65d2b678baca5e115b920e3896ad29d5bb343a8f0cb128fd6"
+  },
+  "conteos_secciones": {
+    "afirmaciones": 4031,
+    "apariciones_conceptuales": 56535,
+    "conceptos": 7127,
+    "definiciones": 3285,
+    "distinciones": 257,
+    "excepciones": 3,
+    "formulas": 67,
+    "hallazgos_auditoria": 9207,
+    "negaciones": 1748,
+    "relaciones_explicitas": 2835,
+    "reportes_cobertura": 6,
+    "restricciones_alcance": 11,
+    "unidades": 607
+  },
+  "registros_expediente": 85719,
+  "registros_prioritarios": 702,
+  "senales_diagnosticas": {
+    "afirmacion_con_interrogacion": 115,
+    "contiene_cid": 66,
+    "estatus_no_determinado": 3601,
+    "final_sin_puntuacion_terminal": 3026,
+    "formula_con_glifo_no_mapeado": 5,
+    "inicio_minuscula": 2455
+  },
+  "expediente_sha256": "28a2c5a06bc1057a2f2df9244bac9ed898d93ca68189f40f268a06e05c93b482",
+  "prioritario_sha256": "e26e8d6cdcc8d74c98ce45eb4c7ee9376569d8818764433e7370bbaa0c0d82b6",
+  "senales_son_veredictos_de_auditoria": false,
+  "motores_modificados": false,
+  "auditoria_documental": "iniciada"
+}
