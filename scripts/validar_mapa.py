@@ -215,6 +215,146 @@ def main() -> int:
             "La ruta cuántica de Caos debe surfacer sus revisiones de estatuto y consistencia",
         )
 
+        # Invariantes ganadas al integrar Afrodita Areia I sistemáticamente en F2.
+        aa1_structure_path = (
+            ROOT
+            / "corpus"
+            / "libros"
+            / "afrodita-areia"
+            / "01-sobre-la-pasion"
+            / "estructura.json"
+        )
+        require(aa1_structure_path.exists(), "Falta la estructura derivada de Afrodita Areia I")
+        aa1_structure = json.loads(aa1_structure_path.read_text(encoding="utf-8"))
+        aa1_segments = {
+            segment["path"]: (segment["start_line"], segment["end_line"])
+            for segment in aa1_structure["segments"]
+        }
+        aa1_evidence = [ev for ev in evidence.values() if ev["work_id"] == "AA-I"]
+        aa1_covered_segments = {ev["segment"] for ev in aa1_evidence}
+        require(
+            set(aa1_segments) <= aa1_covered_segments,
+            "La auditoría de Afrodita Areia I debe cubrir preliminares, prefacio, "
+            "prólogo, dieciséis capítulos, tres apéndices y glosario; faltan: "
+            f"{sorted(set(aa1_segments) - aa1_covered_segments)}",
+        )
+        require(
+            len(aa1_evidence) >= 42,
+            f"La auditoría semántica de Afrodita Areia I perdió granularidad: {len(aa1_evidence)} evidencias",
+        )
+        for ev in aa1_evidence:
+            require(ev["segment"] in aa1_segments, f"{ev['id']}: segmento de AA-I no declarado en estructura.json")
+            segment_start, segment_end = aa1_segments[ev["segment"]]
+            line_start, line_end = ev["source_lines"]
+            require(
+                segment_start <= line_start <= line_end <= segment_end,
+                f"{ev['id']}: rango fuera del segmento declarado {ev['segment']}",
+            )
+
+        required_aa1_nodes = {
+            "concept.pasion_ontologica",
+            "concept.tendencia_material",
+            "concept.orden_emergente",
+            "concept.afrodita_dominio",
+            "concept.ares_conquista",
+            "concept.mediacion_neutral",
+            "concept.mediacion_fanes",
+            "concept.mediacion_bis",
+            "concept.identidad_sesgo.aa1",
+            "concept.accidente_identidad.aa1",
+            "concept.ego_primordial",
+            "concept.asuncion_causal.aa1",
+            "concept.posibilidades_negadas",
+            "concept.disforia_identidad",
+            "concept.disociacion_ego",
+            "concept.razon_tardia",
+            "concept.afasia_volitiva",
+            "concept.singularidad_ontologica.aa1",
+            "concept.aego_anterioridad",
+            "concept.soberania_ego.aa1",
+            "concept.suicidio_aego.aa1",
+            "formulation.passion.aa1",
+            "formulation.three_stages.aa1",
+            "formulation.identity.aa1",
+            "formulation.fanes.aa1",
+            "formulation.bis.aa1",
+            "formulation.responsibility.aa1",
+            "formulation.cogito_inversion.aa1",
+            "formulation.denied_possibilities.aa1",
+            "formulation.zagreo.aa1",
+            "formulation.narcissus.aa1",
+            "formal.neutral.aa1",
+            "formal.fanes.aa1",
+            "formal.bis.aa1",
+            "formal.aego.limit.aa1",
+        }
+        require(
+            required_aa1_nodes <= set(nodes),
+            f"Núcleo de Afrodita Areia I incompleto; faltan nodos: {sorted(required_aa1_nodes - set(nodes))}",
+        )
+
+        required_aa1_routes = {
+            "route.aa1.architecture_method",
+            "route.aa1.chaos_causality_order",
+            "route.aa1.passion_definition_levels",
+            "route.aa1.afrodita_ares_other",
+            "route.aa1.three_mediations",
+            "route.aa1.identity_distortions",
+            "route.aa1.responsibility_assumption",
+            "route.aa1.ego_trajectory_possibilities",
+            "route.aa1.cogito_reason",
+            "route.aa1.zagreo_sovereignty",
+            "route.aa1.narcissus_suicide",
+            "route.aa1.aego_limit_cases",
+            "route.aa1.open_questions_downstream",
+        }
+        require(
+            required_aa1_routes <= set(routes),
+            f"Rutas de Afrodita Areia I incompletas: {sorted(required_aa1_routes - set(routes))}",
+        )
+
+        aa1_reviews = {
+            "review.aa1.caos_crosswalk",
+            "review.aa1.responsibility_grounding",
+            "review.aa1.neutral_habits",
+            "review.aa1.identity_change",
+            "review.aa1.aego_zero_indeterminate",
+            "review.aa1.aego_operator_agency",
+        }
+        require(aa1_reviews <= set(reviews), "Deben conservarse las seis revisiones pendientes de Afrodita Areia I")
+        require(
+            {"review.aa1.caos_crosswalk", "review.aa1.neutral_habits"}
+            <= set(routes["route.aa1.three_mediations"].get("must_surface_review_items", [])),
+            "La ruta de mediaciones de AA-I debe surfacer atribución terminológica y hábitos",
+        )
+        require(
+            {"review.aa1.responsibility_grounding", "review.aa1.neutral_habits"}
+            <= set(routes["route.aa1.responsibility_assumption"].get("must_surface_review_items", [])),
+            "La ruta de responsabilidad de AA-I debe surfacer sus dos adjudicaciones",
+        )
+        require(
+            "review.aa1.identity_change"
+            in routes["route.aa1.identity_distortions"].get("must_surface_review_items", []),
+            "La ruta de identidad de AA-I debe surfacer el cambio de uso respecto de Caos",
+        )
+        require(
+            {"review.aa1.aego_zero_indeterminate", "review.aa1.aego_operator_agency"}
+            <= set(routes["route.aa1.aego_limit_cases"].get("must_surface_review_items", [])),
+            "La ruta de casos límite de Aego debe surfacer sus revisiones formal y de agencia",
+        )
+        require(
+            relations["rel.responsibility_aa1.differs_caos_grounding"]["evidence_status"] == "inferred",
+            "La diferencia de fundamento de responsabilidad AA-I/Caos no puede presentarse como adjudicación autoral",
+        )
+        require(
+            relations["rel.identity_aa1.distinguished_caos_identity"]["evidence_status"] == "inferred",
+            "La diferencia entre identidad-sesgo e identidad-continuidad debe seguir marcada como inferida",
+        )
+        require(
+            "atribuida retrospectivamente a Caos" in nodes["term.caos.mediacion_prima_material"]["label"],
+            "La terminología material no puede presentarse como vocabulario literal de Caos",
+        )
+
     print(
         "Mapa válido:",
         f"fase={phase}, schema={schema_status};",
@@ -225,7 +365,8 @@ def main() -> int:
         f"{len(routes)} rutas,",
         f"{len(reviews)} revisiones pendientes,",
         f"{len(tests)} pruebas F1 preservadas,",
-        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'CAOS'])} evidencias de Caos."
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'CAOS'])} evidencias de Caos,",
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-I'])} evidencias de Afrodita Areia I."
     )
     return 0
 
