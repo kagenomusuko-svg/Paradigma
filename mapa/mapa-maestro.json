@@ -1,9 +1,9 @@
 {
-  "map_version": "1.1.0",
+  "map_version": "1.2.0",
   "schema_status": "frozen",
   "phase": "F2",
   "purpose": "Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.",
-  "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 integra sistemáticamente el núcleo conceptual y ontológico del corpus; Caos queda auditado por capítulos y apéndices, sin convertir sus analogías o formalizaciones pendientes en doctrina validada.",
+  "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 integra sistemáticamente el núcleo conceptual y ontológico del corpus; Caos y Afrodita Areia I quedan auditados por secciones, capítulos y apéndices, conservando las evoluciones terminológicas, doctrinales y formales que requieren adjudicación.",
   "works": [
     {
       "id": "CAOS",
@@ -730,6 +730,457 @@
       ],
       "section": "Apéndice III · Tiempo del ego",
       "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.aa1.prelim.scope",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/00-preliminares.md",
+      "source_lines": [
+        1,
+        84
+      ],
+      "section": "Preliminares · arquitectura y paratextos",
+      "evidence_type": "authorial_system_statement"
+    },
+    {
+      "id": "ev.aa1.preface.mythic_program",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/01-prefacio.md",
+      "source_lines": [
+        85,
+        188
+      ],
+      "section": "Prefacio · Afrodita y Ares como programa ontológico",
+      "evidence_type": "authorial_system_statement"
+    },
+    {
+      "id": "ev.aa1.prologue.problem",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/02-prologo.md",
+      "source_lines": [
+        189,
+        294
+      ],
+      "section": "Prólogo · I–II · voluntad anterior a conciencia y pasión como problema",
+      "evidence_type": "authorial_system_statement"
+    },
+    {
+      "id": "ev.aa1.prologue.method",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/02-prologo.md",
+      "source_lines": [
+        295,
+        443
+      ],
+      "section": "Prólogo · III–VI · interlocutores, arquitectura, naturalismo causal y contrato de lectura",
+      "evidence_type": "authorial_method_statement"
+    },
+    {
+      "id": "ev.aa1.chaos.genealogy",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-01.md",
+      "source_lines": [
+        451,
+        699
+      ],
+      "section": "Capítulo 1 · I–IV · Hesíodo, Anaximandro y Deleuze ante el caos",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.chaos.definition",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-01.md",
+      "source_lines": [
+        700,
+        809
+      ],
+      "section": "Capítulo 1 · V–VI · caos como posibilidad infinita y condición del ego",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.causality.tendency",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-02.md",
+      "source_lines": [
+        853,
+        1064
+      ],
+      "section": "Capítulo 2 · I–IV · causalidad sin necesidad y tendencia material real",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.collapse.existence",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-02.md",
+      "source_lines": [
+        1065,
+        1273
+      ],
+      "section": "Capítulo 2 · V–VII · propiedades del colapso y existencia como sostenerse",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.order.emergence",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-03.md",
+      "source_lines": [
+        1274,
+        1574
+      ],
+      "section": "Capítulo 3 · I–V · orden local emergente frente a sustancia y necesidad",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.order.subject",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-03.md",
+      "source_lines": [
+        1575,
+        1692
+      ],
+      "section": "Capítulo 3 · VI · sujeto como coproductor responsable de orden local",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.passion.genealogy",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-04.md",
+      "source_lines": [
+        1693,
+        1880
+      ],
+      "section": "Capítulo 4 · I–III · conatus y voluntad de poder como interlocutores",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.passion.definition",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-04.md",
+      "source_lines": [
+        1881,
+        2147
+      ],
+      "section": "Capítulo 4 · IV–VII · pasión como tendencia universal, no consciente, irreducible y dual",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.passion.objects",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-05.md",
+      "source_lines": [
+        2148,
+        2574
+      ],
+      "section": "Capítulo 5 · pasión mínima, resistencia material y objetos",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.passion.organisms",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-06.md",
+      "source_lines": [
+        2575,
+        3015
+      ],
+      "section": "Capítulo 6 · autopoiesis, normatividad vital y pasión sin ego",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.duality.interlocutors",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-07.md",
+      "source_lines": [
+        3016,
+        3238
+      ],
+      "section": "Capítulo 7 · I–III · dualidad distinguida de Empédocles y Freud",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.duality.dimensions",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-07.md",
+      "source_lines": [
+        3239,
+        3434
+      ],
+      "section": "Capítulo 7 · IV–VI · Afrodita-dominio y Ares-conquista",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.duality.other_responsibility",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-07.md",
+      "source_lines": [
+        3435,
+        3576
+      ],
+      "section": "Capítulo 7 · VII–VIII · conocimiento por colisión y límite de responsabilidad",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.neutral.interlocutors",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-08.md",
+      "source_lines": [
+        3577,
+        3840
+      ],
+      "section": "Capítulo 8 · I–IV · condiciones pre-egóicas e interlocutores",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.neutral.formula_scope",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-08.md",
+      "source_lines": [
+        3841,
+        4099
+      ],
+      "section": "Capítulo 8 · V–VIII · fórmula neutral, alcance humano y ausencia de responsabilidad",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.identity.formation",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-09.md",
+      "source_lines": [
+        4100,
+        4385
+      ],
+      "section": "Capítulo 9 · I–V · identidad como sedimento pre-egóico y accidente",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.identity.bias_boundary",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-09.md",
+      "source_lines": [
+        4386,
+        4595
+      ],
+      "section": "Capítulo 9 · VI–VIII · sesgo interpretativo, exclusión de la fórmula y perturbaciones",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.fanes.provenance",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-10.md",
+      "source_lines": [
+        4596,
+        4861
+      ],
+      "section": "Capítulo 10 · I–IV · problema y atribución de Fanes a Caos",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.fanes.formula_responsibility",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-10.md",
+      "source_lines": [
+        4862,
+        5154
+      ],
+      "section": "Capítulo 10 · V–VIII · φ₁, φ₂, fórmula de Fanes y comienzo de responsabilidad",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.bis.iteration",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-11.md",
+      "source_lines": [
+        5155,
+        5387
+      ],
+      "section": "Capítulo 11 · I–IV · iteración, integral y continuidad no sustancial",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.bis.habits_assumption",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-11.md",
+      "source_lines": [
+        5388,
+        5636
+      ],
+      "section": "Capítulo 11 · V–VIII · modificación, hábitos, asunción posterior y coherencia",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.stages.crosswalk",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-12.md",
+      "source_lines": [
+        5637,
+        5887
+      ],
+      "section": "Capítulo 12 · I–IV · tres estadios y correspondencia terminológica retrospectiva con Caos",
+      "evidence_type": "authorial_correspondence_table"
+    },
+    {
+      "id": "ev.aa1.cogito.responsibility",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-12.md",
+      "source_lines": [
+        5888,
+        6126
+      ],
+      "section": "Capítulo 12 · V–VII · inversión del cogito y responsabilidad por asunción",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.ego.trajectory",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-13.md",
+      "source_lines": [
+        6127,
+        6400
+      ],
+      "section": "Capítulo 13 · I–V · ego como proceso, trayectoria y modificación irreversible",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.ego.death_persistence",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-13.md",
+      "source_lines": [
+        6401,
+        6586
+      ],
+      "section": "Capítulo 13 · VI–VIII · muerte, cierre de integral y persistencia en otros campos",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.denied_possibilities",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-14.md",
+      "source_lines": [
+        6587,
+        6735
+      ],
+      "section": "Capítulo 14 · I–III · posibilidades negadas como constitución del ego",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.distortion.bad_faith",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-14.md",
+      "source_lines": [
+        6736,
+        7013
+      ],
+      "section": "Capítulo 14 · IV–VII · asunción distorsionada, mala fe, disforia y disociación",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.reason.debates",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-15.md",
+      "source_lines": [
+        7014,
+        7332
+      ],
+      "section": "Capítulo 15 · I–VI · razón tardía y debates con Descartes, Hume y Kant",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa1.reason.synthesis",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-15.md",
+      "source_lines": [
+        7333,
+        7464
+      ],
+      "section": "Capítulo 15 · VII–VIII · cinco proposiciones y apertura del Volumen II",
+      "evidence_type": "authorial_system_statement"
+    },
+    {
+      "id": "ev.aa1.closure.downstream",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-16.md",
+      "source_lines": [
+        7465,
+        7669
+      ],
+      "section": "Capítulo 16 · I–IV · cierre y dependencias hacia Juego, Dilema y volúmenes II–III",
+      "evidence_type": "authorial_system_statement"
+    },
+    {
+      "id": "ev.aa1.closure.limits",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-16.md",
+      "source_lines": [
+        7670,
+        7821
+      ],
+      "section": "Capítulo 16 · V–VII · límites declarados, lector y circularidad del sistema",
+      "evidence_type": "authorial_limit_statement"
+    },
+    {
+      "id": "ev.aa1.aego_formal",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/apendice-a.md",
+      "source_lines": [
+        7870,
+        8113
+      ],
+      "section": "Apéndice A · derivada, afasia volitiva, singularidad y tres momentos",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.aa1.zagreo.asymmetry",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/apendice-b.md",
+      "source_lines": [
+        8114,
+        8321
+      ],
+      "section": "Apéndice B · aego por anterioridad, alumbramiento y aborto",
+      "evidence_type": "limit_case_analysis"
+    },
+    {
+      "id": "ev.aa1.zagreo.threshold_limits",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/apendice-b.md",
+      "source_lines": [
+        8322,
+        8471
+      ],
+      "section": "Apéndice B · Fanes como umbral indeterminado de soberanía y límite normativo",
+      "evidence_type": "authorial_limit_statement"
+    },
+    {
+      "id": "ev.aa1.narcissus.suicide",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/apendice-c.md",
+      "source_lines": [
+        8472,
+        8714
+      ],
+      "section": "Apéndice C · escisión operador/máquina, suicidio y justicia restaurativa",
+      "evidence_type": "limit_case_analysis"
+    },
+    {
+      "id": "ev.aa1.narcissus.reversibility",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/apendice-c.md",
+      "source_lines": [
+        8715,
+        8882
+      ],
+      "section": "Apéndice C · reversibilidad del estado de aego y función del otro",
+      "evidence_type": "limit_case_analysis"
+    },
+    {
+      "id": "ev.aa1.glossary",
+      "work_id": "AA-I",
+      "segment": "corpus/libros/afrodita-areia/01-sobre-la-pasion/99-glosario.md",
+      "source_lines": [
+        8883,
+        9076
+      ],
+      "section": "Glosario · vocabulario técnico de Sobre la pasión",
+      "evidence_type": "authorial_glossary"
     }
   ],
   "nodes": [
@@ -741,7 +1192,10 @@
       "summary": "Proceso o función acumulativa constituida por la doble mediación; se distingue del sujeto material.",
       "evidence": [
         "ev.caos.ego_event_subject",
-        "ev.caos.glossary_ego_identity"
+        "ev.caos.glossary_ego_identity",
+        "ev.aa1.bis.iteration",
+        "ev.aa1.ego.trajectory",
+        "ev.aa1.glossary"
       ],
       "evidence_status": "explicit"
     },
@@ -754,7 +1208,8 @@
       ],
       "evidence": [
         "ev.caos.first_mediation",
-        "ev.caos.glossary_first_field"
+        "ev.caos.glossary_first_field",
+        "ev.aa1.passion.definition"
       ],
       "evidence_status": "explicit"
     },
@@ -765,7 +1220,9 @@
       "aliases": [],
       "evidence": [
         "ev.caos.first_mediation",
-        "ev.caos.glossary_first_field"
+        "ev.caos.glossary_first_field",
+        "ev.aa1.fanes.formula_responsibility",
+        "ev.aa1.glossary"
       ],
       "evidence_status": "explicit"
     },
@@ -776,7 +1233,9 @@
       "aliases": [],
       "evidence": [
         "ev.caos.act_second_mediation",
-        "ev.caos.glossary_second_act"
+        "ev.caos.glossary_second_act",
+        "ev.aa1.fanes.formula_responsibility",
+        "ev.aa1.glossary"
       ],
       "evidence_status": "explicit"
     },
@@ -787,7 +1246,9 @@
       "aliases": [],
       "evidence": [
         "ev.caos.mediation_general_neutral",
-        "ev.caos.glossary_mediation_neutral"
+        "ev.caos.glossary_mediation_neutral",
+        "ev.aa1.neutral.formula_scope",
+        "ev.aa1.glossary"
       ],
       "evidence_status": "explicit"
     },
@@ -795,21 +1256,36 @@
       "id": "concept.mediacion_fanes",
       "kind": "concept",
       "label": "Mediación fanes",
-      "aliases": []
+      "aliases": [],
+      "summary": "Evento único en que φ₂ asume por primera vez un colapso y emerge el ego primordial.",
+      "evidence": [
+        "ev.aa1.fanes.formula_responsibility",
+        "ev.aa1.stages.crosswalk",
+        "ev.aa1.glossary"
+      ],
+      "evidence_status": "explicit"
     },
     {
       "id": "concept.mediacion_bis",
       "kind": "concept",
       "label": "Mediación bis",
-      "aliases": []
+      "aliases": [],
+      "summary": "Iteración indefinida de la estructura de Fanes mediante la que el ego acumula colapsos asumidos.",
+      "evidence": [
+        "ev.aa1.bis.iteration",
+        "ev.aa1.stages.crosswalk",
+        "ev.aa1.glossary"
+      ],
+      "evidence_status": "explicit"
     },
     {
       "id": "term.caos.mediacion_prima_material",
       "kind": "terminology",
-      "label": "Mediación prima / primera mediación (sentido material) en Caos",
+      "label": "Mediación prima / primera mediación (sentido material), atribuida retrospectivamente a Caos",
       "aliases": [],
       "evidence": [
-        "ev.tf.correspondencias"
+        "ev.tf.correspondencias",
+        "ev.aa1.stages.crosswalk"
       ],
       "evidence_status": "explicit"
     },
@@ -927,7 +1403,16 @@
       "aliases": [
         "aego",
         "singularidad volitiva"
-      ]
+      ],
+      "summary": "Familia históricamente variable de estados límite del ego; su formulación inicial en AA-I interrumpe φ₂ y la acumulación asumida.",
+      "evidence": [
+        "ev.aa1.aego",
+        "ev.aa1.glossary",
+        "ev.aa3.aego",
+        "ev.aa3.glossary",
+        "ev.sdo.aego"
+      ],
+      "evidence_status": "explicit"
     },
     {
       "id": "concept.aego_damasen",
@@ -1813,6 +2298,579 @@
         "ev.caos.math_topology"
       ],
       "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.pasion_ontologica",
+      "kind": "concept",
+      "label": "Pasión ontológica",
+      "aliases": [
+        "tendencia de determinación"
+      ],
+      "summary": "Tendencia universal, no consciente, irreducible y dual que produce determinaciones; se distingue de emoción, intención y finalidad.",
+      "evidence": [
+        "ev.aa1.prologue.problem",
+        "ev.aa1.passion.definition",
+        "ev.aa1.reason.synthesis",
+        "ev.aa1.glossary"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tendencia_material",
+      "kind": "concept",
+      "label": "Tendencia material causal",
+      "aliases": [
+        "causalidad sin necesidad"
+      ],
+      "summary": "Regularidad real que orienta la probabilidad de colapsos sin imponer necesidad lógica ni teleología.",
+      "evidence": [
+        "ev.aa1.causality.tendency",
+        "ev.aa1.reason.debates"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.orden_emergente",
+      "kind": "concept",
+      "label": "Orden emergente",
+      "aliases": [
+        "orden local"
+      ],
+      "summary": "Patrón local y relacional producido por colapsos sin orden cósmico necesario; el sujeto coproduce el orden que habita.",
+      "evidence": [
+        "ev.aa1.order.emergence",
+        "ev.aa1.order.subject"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.afrodita_dominio",
+      "kind": "concept",
+      "label": "Afrodita / dominio",
+      "aliases": [
+        "dimensión afrodítica",
+        "dominio por apropiación"
+      ],
+      "summary": "Dimensión de la pasión que incorpora lo externo y lo vuelve constitutivo del ser; no equivale a amor sentimental.",
+      "evidence": [
+        "ev.aa1.duality.dimensions",
+        "ev.aa1.glossary"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.ares_conquista",
+      "kind": "concept",
+      "label": "Ares / conquista",
+      "aliases": [
+        "dimensión arética",
+        "conquista por colisión"
+      ],
+      "summary": "Dimensión de la pasión que afirma y define al ser mediante resistencia, choque y ocupación; no equivale a una pulsión de muerte.",
+      "evidence": [
+        "ev.aa1.duality.dimensions",
+        "ev.aa1.glossary"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.identidad_sesgo.aa1",
+      "kind": "concept",
+      "label": "Identidad como sesgo en AA-I",
+      "aliases": [
+        "sesgo interpretativo",
+        "sedimento pre-egóico"
+      ],
+      "summary": "Condición heredada y relacional formada en mediación neutral, anterior al ego, invisible y de plasticidad limitada; orienta φ₁ sin integrar la fórmula como componente constitutivo.",
+      "evidence": [
+        "ev.aa1.identity.formation",
+        "ev.aa1.identity.bias_boundary",
+        "ev.aa1.glossary"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.accidente_identidad.aa1",
+      "kind": "concept",
+      "label": "Accidente del ego en AA-I",
+      "aliases": [
+        "identidad como accidente aristotélico"
+      ],
+      "summary": "Estatuto no sustancial atribuido a la identidad: pertenece al sujeto y condiciona la mediación sin constituir el ego como integral asumida.",
+      "evidence": [
+        "ev.aa1.identity.formation",
+        "ev.aa1.stages.crosswalk"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.ego_primordial",
+      "kind": "concept",
+      "label": "Ego primordial",
+      "aliases": [],
+      "summary": "Primer ego, singular, frágil y abierto, producido por el evento irrepetible de Fanes.",
+      "evidence": [
+        "ev.aa1.fanes.formula_responsibility",
+        "ev.aa1.glossary"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.asuncion_causal.aa1",
+      "kind": "concept",
+      "label": "Asunción causal en AA-I",
+      "aliases": [
+        "reclamo del acto como propio"
+      ],
+      "summary": "Operación de φ₂ que retorna el acto al sujeto y lo integra como propio; puede ser posterior, parcial, distorsionada o interrumpirse.",
+      "evidence": [
+        "ev.aa1.fanes.formula_responsibility",
+        "ev.aa1.bis.habits_assumption",
+        "ev.aa1.distortion.bad_faith",
+        "ev.aa1.glossary"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.posibilidades_negadas",
+      "kind": "concept",
+      "label": "Posibilidades negadas",
+      "aliases": [
+        "trayectorias no recorridas"
+      ],
+      "summary": "Alternativas reales excluidas por cada colapso y declaradas constitutivas del ego por contraste con su trayectoria efectiva.",
+      "evidence": [
+        "ev.aa1.denied_possibilities",
+        "ev.aa1.glossary"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.disforia_identidad",
+      "kind": "concept",
+      "label": "Disforia de identidad",
+      "aliases": [],
+      "summary": "Perturbación en que el sesgo diverge de la integral y se toma la imagen identitaria por el ego efectivo.",
+      "evidence": [
+        "ev.aa1.identity.bias_boundary",
+        "ev.aa1.distortion.bad_faith",
+        "ev.aa1.closure.downstream"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.disociacion_ego",
+      "kind": "concept",
+      "label": "Disociación del ego",
+      "aliases": [],
+      "summary": "Perturbación en que φ₂ niega colapsos o la integral pierde coherencia, incorporando la negación de la propia historia.",
+      "evidence": [
+        "ev.aa1.identity.bias_boundary",
+        "ev.aa1.distortion.bad_faith",
+        "ev.aa1.closure.downstream"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.razon_tardia",
+      "kind": "concept",
+      "label": "Razón como producto tardío",
+      "aliases": [
+        "antes del pensamiento, la pasión"
+      ],
+      "summary": "Capacidad que presupone un ego ya constituido por pasión y mediación bis; no funda la existencia ni la unidad del sujeto.",
+      "evidence": [
+        "ev.aa1.reason.debates",
+        "ev.aa1.reason.synthesis"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.afasia_volitiva",
+      "kind": "concept",
+      "label": "Afasia volitiva",
+      "aliases": [],
+      "summary": "Nombre técnico inicial del aego: pérdida de acceso al mecanismo que traduce pasión y colapsos en actos asumidos.",
+      "evidence": [
+        "ev.aa1.aego_formal",
+        "ev.aa1.glossary"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.singularidad_ontologica.aa1",
+      "kind": "concept",
+      "label": "Singularidad ontológica en AA-I",
+      "aliases": [
+        "singularidad existencial"
+      ],
+      "summary": "Límite interno en que las reglas de asunción dejan de estar definidas; se distingue del accidente externo y puede ser transitorio mientras el recipiente persista.",
+      "evidence": [
+        "ev.aa1.aego_formal",
+        "ev.aa1.narcissus.reversibility",
+        "ev.aa1.glossary"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.aego_anterioridad",
+      "kind": "concept",
+      "label": "Aego por anterioridad",
+      "aliases": [
+        "estado pre-subjetivo"
+      ],
+      "summary": "Equivalencia formal propuesta para el sistema anterior a Fanes: no hay φ₂ ni integral porque la asunción aún no comenzó, no porque se haya roto.",
+      "evidence": [
+        "ev.aa1.aego_formal",
+        "ev.aa1.zagreo.asymmetry"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.soberania_ego.aa1",
+      "kind": "concept",
+      "label": "Soberanía del ego en AA-I",
+      "aliases": [],
+      "summary": "Capacidad ligada a la existencia de un ego y de φ₂ operante; Fanes se propone como umbral ontológico cuya fecha el sistema no puede localizar.",
+      "evidence": [
+        "ev.aa1.zagreo.asymmetry",
+        "ev.aa1.zagreo.threshold_limits",
+        "ev.aa1.narcissus.reversibility"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.cosificacion_primaria",
+      "kind": "concept",
+      "label": "Cosificación primaria",
+      "aliases": [
+        "alumbramiento como decisión no consentida"
+      ],
+      "summary": "Caracterización del alumbramiento como decisión soberana sobre un sistema pre-subjetivo que aún no puede consentir.",
+      "evidence": [
+        "ev.aa1.zagreo.asymmetry"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.cosificacion_inversa",
+      "kind": "concept",
+      "label": "Cosificación inversa",
+      "aliases": [
+        "aborto como vector inverso"
+      ],
+      "summary": "Caracterización del aborto como la misma asimetría soberana con dirección existencial inversa; el volumen declara insuficiente la ontología para una conclusión normativa.",
+      "evidence": [
+        "ev.aa1.zagreo.asymmetry",
+        "ev.aa1.zagreo.threshold_limits"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.yo_operador.aa1",
+      "kind": "concept",
+      "label": "Yo-operador en AA-I",
+      "aliases": [],
+      "summary": "Residuo de conciencia que observa y decide durante la escisión del aego, aunque el mismo apéndice niega soberanía y asunción al estado singular.",
+      "evidence": [
+        "ev.aa1.narcissus.suicide",
+        "ev.aa1.narcissus.reversibility"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.yo_maquina.aa1",
+      "kind": "concept",
+      "label": "Yo-máquina en AA-I",
+      "aliases": [],
+      "summary": "Cuerpo e historia integral que continúan produciendo colapsos neutrales sin ser reconocidos como propios por el operador.",
+      "evidence": [
+        "ev.aa1.narcissus.suicide",
+        "ev.aa1.narcissus.reversibility"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.suicidio_aego.aa1",
+      "kind": "concept",
+      "label": "Suicidio en estado de aego",
+      "aliases": [],
+      "summary": "Caso límite en que el yo-operador actúa sobre el yo-máquina percibido como ajeno y elimina a la vez agente, paciente y posibilidad de asunción futura.",
+      "evidence": [
+        "ev.aa1.narcissus.suicide",
+        "ev.aa1.narcissus.reversibility"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.passion.aa1",
+      "kind": "formulation",
+      "label": "Definición de pasión en AA-I",
+      "subject": "concept.pasion_ontologica",
+      "role": "core_definition",
+      "content": {
+        "language": "ontological",
+        "summary": "Tendencia de determinación constitutiva de todo ser, universal, no consciente, irreducible y dual."
+      },
+      "evidence": [
+        "ev.aa1.passion.definition",
+        "ev.aa1.reason.synthesis",
+        "ev.aa1.glossary"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.passion_levels.aa1",
+      "kind": "formulation",
+      "label": "Continuidad de la pasión entre objetos, organismos y sujetos",
+      "subject": "concept.pasion_ontologica",
+      "role": "ontological_extension",
+      "content": {
+        "language": "ontological",
+        "summary": "Resistencia y afinidad materiales en objetos; autopoiesis y normatividad vital en organismos; asunción egóica en sujetos, sin cambio de sustancia."
+      },
+      "evidence": [
+        "ev.aa1.passion.objects",
+        "ev.aa1.passion.organisms",
+        "ev.aa1.reason.synthesis"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.duality.aa1",
+      "kind": "formulation",
+      "label": "Dualidad Afrodita–Ares en AA-I",
+      "subject": "concept.pasion_ontologica",
+      "role": "structural_duality",
+      "content": {
+        "language": "ontological",
+        "summary": "Dominio por apropiación y conquista por colisión son dimensiones inseparables de toda determinación."
+      },
+      "evidence": [
+        "ev.aa1.duality.interlocutors",
+        "ev.aa1.duality.dimensions",
+        "ev.aa1.glossary"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.three_stages.aa1",
+      "kind": "formulation",
+      "label": "Tres estadios ontológicos en AA-I",
+      "subject": "concept.mediacion",
+      "role": "system_architecture",
+      "content": {
+        "language": "philosophical_formal",
+        "summary": "Mediación neutral sin ego; Fanes como primera asunción; Bis como iteración acumulativa. Se declaran distintos e irreversibles aunque la neutral persiste."
+      },
+      "evidence": [
+        "ev.aa1.neutral.formula_scope",
+        "ev.aa1.fanes.formula_responsibility",
+        "ev.aa1.bis.iteration",
+        "ev.aa1.stages.crosswalk"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.identity.aa1",
+      "kind": "formulation",
+      "label": "Identidad como accidente y sesgo en AA-I",
+      "subject": "concept.identidad_sesgo.aa1",
+      "role": "historical_formulation",
+      "content": {
+        "language": "ontological",
+        "summary": "La identidad es sedimento pre-egóico y filtro de φ₁; el ego es la integral de lo asumido."
+      },
+      "evidence": [
+        "ev.aa1.identity.formation",
+        "ev.aa1.identity.bias_boundary",
+        "ev.aa1.stages.crosswalk"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.fanes.aa1",
+      "kind": "formulation",
+      "label": "Formulación de Fanes en AA-I",
+      "subject": "concept.mediacion_fanes",
+      "role": "foundational_formula",
+      "content": {
+        "language": "philosophical_formal",
+        "expression": "Identidad + Voluntad + φ₁(v,c) + Acto + φ₂(Acto,I) = Ego primordial"
+      },
+      "evidence": [
+        "ev.aa1.fanes.formula_responsibility",
+        "ev.aa1.stages.crosswalk",
+        "ev.aa1.glossary"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.bis.aa1",
+      "kind": "formulation",
+      "label": "Formulación de Bis en AA-I",
+      "subject": "concept.mediacion_bis",
+      "role": "iterated_formula",
+      "content": {
+        "language": "philosophical_formal",
+        "expression": "Ego(t) = φ₂(φ₁(v_t,c_t), I(t))",
+        "iterated_expression": "(Identidad + Voluntad + φ₁ + Acto + φ₂ = Ego)^n"
+      },
+      "evidence": [
+        "ev.aa1.bis.iteration",
+        "ev.aa1.stages.crosswalk",
+        "ev.aa1.glossary"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.responsibility.aa1",
+      "kind": "formulation",
+      "label": "Responsabilidad por asunción en AA-I",
+      "subject": "concept.responsabilidad_ontologica",
+      "role": "historical_formulation",
+      "content": {
+        "language": "ontological",
+        "summary": "La responsabilidad comienza con Fanes y se vincula a que φ₂ asuma el acto, incluso posteriormente; no alcanza colapsos neutrales no asumidos."
+      },
+      "evidence": [
+        "ev.aa1.neutral.formula_scope",
+        "ev.aa1.fanes.formula_responsibility",
+        "ev.aa1.bis.habits_assumption",
+        "ev.aa1.cogito.responsibility",
+        "ev.aa1.glossary"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.cogito_inversion.aa1",
+      "kind": "formulation",
+      "label": "Inversión del cogito en AA-I",
+      "subject": "concept.razon_tardia",
+      "role": "critical_thesis",
+      "content": {
+        "language": "ontological",
+        "summary": "La pasión determina y la asunción constituye el yo antes de que el pensamiento confirme su existencia."
+      },
+      "evidence": [
+        "ev.aa1.cogito.responsibility",
+        "ev.aa1.reason.debates",
+        "ev.aa1.reason.synthesis"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.denied_possibilities.aa1",
+      "kind": "formulation",
+      "label": "Doble constitución del ego por afirmación y negación",
+      "subject": "concept.posibilidades_negadas",
+      "role": "constitutive_thesis",
+      "content": {
+        "language": "ontological",
+        "summary": "La trayectoria real se define también por las alternativas que cada colapso excluyó."
+      },
+      "evidence": [
+        "ev.aa1.denied_possibilities",
+        "ev.aa1.distortion.bad_faith",
+        "ev.aa1.glossary"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.zagreo.aa1",
+      "kind": "formulation",
+      "label": "Asimetría de soberanía en Zagreo",
+      "subject": "concept.soberania_ego.aa1",
+      "role": "limit_case",
+      "content": {
+        "language": "ontological_not_normative",
+        "summary": "Alumbramiento y aborto comparten decisión soberana sobre un sistema pre-subjetivo; su diferencia normativa exige criterios externos a la ontología del ego."
+      },
+      "evidence": [
+        "ev.aa1.zagreo.asymmetry",
+        "ev.aa1.zagreo.threshold_limits"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.narcissus.aa1",
+      "kind": "formulation",
+      "label": "Suicidio en aego y víctima indistinguible",
+      "subject": "concept.suicidio_aego.aa1",
+      "role": "limit_case",
+      "content": {
+        "language": "ontological_not_clinical",
+        "summary": "El operador sin φ₂ reconoce como ajena su propia trayectoria y actúa sobre ella; el estado puede revertir, el acto consumado no."
+      },
+      "evidence": [
+        "ev.aa1.narcissus.suicide",
+        "ev.aa1.narcissus.reversibility"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.neutral.aa1",
+      "kind": "formal_object",
+      "label": "Fórmula neutral en AA-I",
+      "formal_spec": {
+        "object_type": "authorial_formula",
+        "expression": "Voluntad + Acto + Mediación = ser/existir",
+        "epistemic_status": "authorial_formalization"
+      },
+      "evidence": [
+        "ev.aa1.neutral.formula_scope",
+        "ev.aa1.stages.crosswalk"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.fanes.aa1",
+      "kind": "formal_object",
+      "label": "Fórmula de Fanes en AA-I",
+      "formal_spec": {
+        "object_type": "authorial_formula",
+        "expression": "Identidad + Voluntad + φ₁(v,c) + Acto + φ₂(Acto,I) = Ego primordial",
+        "epistemic_status": "authorial_formalization"
+      },
+      "evidence": [
+        "ev.aa1.fanes.formula_responsibility",
+        "ev.aa1.stages.crosswalk"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.bis.aa1",
+      "kind": "formal_object",
+      "label": "Fórmulas de Bis en AA-I",
+      "formal_spec": {
+        "object_type": "authorial_iterative_model",
+        "expression": "Ego(t) = φ₂(φ₁(v_t,c_t), I(t))",
+        "iterated_expression": "(Identidad + Voluntad + φ₁ + Acto + φ₂ = Ego)^n",
+        "epistemic_status": "authorial_formalization_pending_review"
+      },
+      "evidence": [
+        "ev.aa1.bis.iteration",
+        "ev.aa1.stages.crosswalk",
+        "ev.aa1.ego.trajectory"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.aego.limit.aa1",
+      "kind": "formal_object",
+      "label": "Modelos formales del límite Aego en AA-I",
+      "formal_spec": {
+        "object_type": "authorial_limit_model",
+        "derivative_expression": "d/dt [Ego(t)] = f(v_t)",
+        "zero_expression": "si f(v_t) → 0, entonces Ego(t) = ∫ 0 dv = C (constante nula)",
+        "glossary_claim": "φ₂ se vuelve indeterminada, no igual a cero",
+        "epistemic_status": "authorial_formalization_pending_review"
+      },
+      "evidence": [
+        "ev.aa1.aego_formal",
+        "ev.aa1.glossary"
+      ],
+      "evidence_status": "explicit"
     }
   ],
   "relations": [
@@ -1823,7 +2881,8 @@
       "to": "concept.mediacion_neutral",
       "evidence_status": "explicit",
       "evidence": [
-        "ev.tf.correspondencias"
+        "ev.tf.correspondencias",
+        "ev.aa1.stages.crosswalk"
       ]
     },
     {
@@ -2429,6 +3488,458 @@
       "evidence": [
         "ev.caos.anguish_freedom"
       ]
+    },
+    {
+      "id": "rel.passion.produces_determination",
+      "type": "produces",
+      "from": "concept.pasion_ontologica",
+      "to": "concept.determinacion",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.passion.definition",
+        "ev.aa1.reason.synthesis",
+        "ev.aa1.glossary"
+      ]
+    },
+    {
+      "id": "rel.passion.expressed_as_tendency",
+      "type": "expressed_as",
+      "from": "concept.pasion_ontologica",
+      "to": "concept.tendencia_material",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.causality.tendency",
+        "ev.aa1.passion.definition"
+      ]
+    },
+    {
+      "id": "rel.order.emerges_from_collapse",
+      "type": "emerges_from",
+      "from": "concept.orden_emergente",
+      "to": "concept.colapso",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.order.emergence",
+        "ev.aa1.order.subject"
+      ]
+    },
+    {
+      "id": "rel.afrodita.dimension_of_passion",
+      "type": "dimension_of",
+      "from": "concept.afrodita_dominio",
+      "to": "concept.pasion_ontologica",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.duality.dimensions",
+        "ev.aa1.glossary"
+      ]
+    },
+    {
+      "id": "rel.ares.dimension_of_passion",
+      "type": "dimension_of",
+      "from": "concept.ares_conquista",
+      "to": "concept.pasion_ontologica",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.duality.dimensions",
+        "ev.aa1.glossary"
+      ]
+    },
+    {
+      "id": "rel.duality.elaborates_passion",
+      "type": "elaborates",
+      "from": "formulation.duality.aa1",
+      "to": "formulation.passion.aa1",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.duality.dimensions",
+        "ev.aa1.reason.synthesis"
+      ]
+    },
+    {
+      "id": "rel.passion_levels.elaborates_passion",
+      "type": "elaborates",
+      "from": "formulation.passion_levels.aa1",
+      "to": "formulation.passion.aa1",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.passion.objects",
+        "ev.aa1.passion.organisms"
+      ]
+    },
+    {
+      "id": "rel.neutral.case_of_three_stages",
+      "type": "stage_of",
+      "from": "concept.mediacion_neutral",
+      "to": "formulation.three_stages.aa1",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.neutral.formula_scope",
+        "ev.aa1.stages.crosswalk"
+      ]
+    },
+    {
+      "id": "rel.fanes.case_of_mediation",
+      "type": "case_of",
+      "from": "concept.mediacion_fanes",
+      "to": "concept.mediacion",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.fanes.formula_responsibility",
+        "ev.aa1.glossary"
+      ]
+    },
+    {
+      "id": "rel.bis.case_of_mediation",
+      "type": "case_of",
+      "from": "concept.mediacion_bis",
+      "to": "concept.mediacion",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.bis.iteration",
+        "ev.aa1.glossary"
+      ]
+    },
+    {
+      "id": "rel.fanes.produces_primordial_ego",
+      "type": "produces",
+      "from": "concept.mediacion_fanes",
+      "to": "concept.ego_primordial",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.fanes.formula_responsibility",
+        "ev.aa1.glossary"
+      ]
+    },
+    {
+      "id": "rel.bis.constitutes_ego",
+      "type": "constitutes",
+      "from": "concept.mediacion_bis",
+      "to": "concept.ego",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.bis.iteration",
+        "ev.aa1.ego.trajectory",
+        "ev.aa1.glossary"
+      ]
+    },
+    {
+      "id": "rel.identity.conditions_phi1",
+      "type": "conditions",
+      "from": "concept.identidad_sesgo.aa1",
+      "to": "concept.primera_mediacion",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.identity.bias_boundary",
+        "ev.aa1.fanes.formula_responsibility",
+        "ev.aa1.glossary"
+      ]
+    },
+    {
+      "id": "rel.identity.distinguished_from_ego",
+      "type": "distinguished_from",
+      "from": "concept.identidad_sesgo.aa1",
+      "to": "concept.ego",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.identity.formation",
+        "ev.aa1.identity.bias_boundary",
+        "ev.aa1.glossary"
+      ]
+    },
+    {
+      "id": "rel.identity_accident.expresses_identity",
+      "type": "characterizes",
+      "from": "concept.accidente_identidad.aa1",
+      "to": "concept.identidad_sesgo.aa1",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.identity.formation",
+        "ev.aa1.stages.crosswalk"
+      ]
+    },
+    {
+      "id": "rel.identity_aa1.distinguished_caos_identity",
+      "type": "distinguished_from",
+      "from": "concept.identidad_sesgo.aa1",
+      "to": "concept.identidad_ego",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.aa1.identity.bias_boundary",
+        "ev.caos.glossary_ego_identity"
+      ],
+      "rationale": "AA-I usa identidad para el sesgo pre-egóico que no entra en la fórmula, mientras Caos la define como continuidad funcional inseparable de la integral; el corpus auditado no declara equivalencia."
+    },
+    {
+      "id": "rel.identity_accident.distinguished_caos_accident",
+      "type": "distinguished_from",
+      "from": "concept.accidente_identidad.aa1",
+      "to": "concept.accidente",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.aa1.identity.formation",
+        "ev.caos.accident",
+        "ev.caos.glossary_scale_accident"
+      ],
+      "rationale": "AA-I llama accidente a una propiedad aristotélica no sustancial del ego; Caos reserva el término para la modificación externa del campo entre escalas."
+    },
+    {
+      "id": "rel.phi2.operates_assumption",
+      "type": "operates",
+      "from": "concept.segunda_mediacion",
+      "to": "concept.asuncion_causal.aa1",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.fanes.formula_responsibility",
+        "ev.aa1.bis.habits_assumption",
+        "ev.aa1.glossary"
+      ]
+    },
+    {
+      "id": "rel.assumption.grounds_responsibility_aa1",
+      "type": "grounds",
+      "from": "concept.asuncion_causal.aa1",
+      "to": "concept.responsabilidad_ontologica",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.fanes.formula_responsibility",
+        "ev.aa1.cogito.responsibility",
+        "ev.aa1.glossary"
+      ]
+    },
+    {
+      "id": "rel.responsibility_aa1.differs_caos_grounding",
+      "type": "differs_from",
+      "from": "formulation.responsibility.aa1",
+      "to": "formulation.responsibility.caos",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.aa1.cogito.responsibility",
+        "ev.aa1.glossary",
+        "ev.caos.responsibility_first",
+        "ev.caos.glossary_responsibility"
+      ],
+      "rationale": "Caos hace originaria la responsabilidad en φ₁ y niega que nazca con la consecuencia; AA-I la define por la asunción de φ₂ y admite asunción posterior. No hay declaración inequívoca de sustitución o compatibilidad."
+    },
+    {
+      "id": "rel.denied_possibilities.constitute_ego",
+      "type": "constitutes",
+      "from": "concept.posibilidades_negadas",
+      "to": "concept.ego",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.denied_possibilities",
+        "ev.aa1.glossary"
+      ]
+    },
+    {
+      "id": "rel.disphoria.perturbs_identity_ego",
+      "type": "perturbs_relation",
+      "from": "concept.disforia_identidad",
+      "to": "concept.identidad_sesgo.aa1",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.distortion.bad_faith",
+        "ev.aa1.closure.downstream"
+      ]
+    },
+    {
+      "id": "rel.dissociation.perturbs_ego",
+      "type": "perturbs",
+      "from": "concept.disociacion_ego",
+      "to": "concept.ego",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.distortion.bad_faith",
+        "ev.aa1.closure.downstream"
+      ]
+    },
+    {
+      "id": "rel.reason.presupposes_ego",
+      "type": "presupposes",
+      "from": "concept.razon_tardia",
+      "to": "concept.ego",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.reason.debates",
+        "ev.aa1.reason.synthesis"
+      ]
+    },
+    {
+      "id": "rel.ego.emerges_from_passion",
+      "type": "emerges_from",
+      "from": "concept.ego",
+      "to": "concept.pasion_ontologica",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.prologue.problem",
+        "ev.aa1.reason.synthesis"
+      ]
+    },
+    {
+      "id": "rel.afasia.form_of_aego",
+      "type": "name_for",
+      "from": "concept.afasia_volitiva",
+      "to": "concept.aego",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.aego_formal",
+        "ev.aa1.glossary"
+      ]
+    },
+    {
+      "id": "rel.aego.form_of_singularity",
+      "type": "case_of",
+      "from": "concept.aego",
+      "to": "concept.singularidad_ontologica.aa1",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.aego_formal",
+        "ev.aa1.glossary"
+      ]
+    },
+    {
+      "id": "rel.aego_anteriority.corresponds_aego",
+      "type": "formally_corresponds_to",
+      "from": "concept.aego_anterioridad",
+      "to": "concept.aego",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.aego_formal",
+        "ev.aa1.zagreo.asymmetry"
+      ],
+      "note": "La obra distingue anterioridad de ruptura: la semejanza es ausencia de φ₂/integral, no una historia causal común."
+    },
+    {
+      "id": "rel.sovereignty.requires_ego",
+      "type": "requires",
+      "from": "concept.soberania_ego.aa1",
+      "to": "concept.ego",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.zagreo.threshold_limits",
+        "ev.aa1.narcissus.reversibility"
+      ]
+    },
+    {
+      "id": "rel.primary_objectification.case_of_asymmetry",
+      "type": "case_of",
+      "from": "concept.cosificacion_primaria",
+      "to": "concept.soberania_ego.aa1",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.zagreo.asymmetry"
+      ]
+    },
+    {
+      "id": "rel.inverse_objectification.case_of_asymmetry",
+      "type": "case_of",
+      "from": "concept.cosificacion_inversa",
+      "to": "concept.soberania_ego.aa1",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.zagreo.asymmetry",
+        "ev.aa1.zagreo.threshold_limits"
+      ]
+    },
+    {
+      "id": "rel.operator.distinguished_machine",
+      "type": "distinguished_from",
+      "from": "concept.yo_operador.aa1",
+      "to": "concept.yo_maquina.aa1",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.narcissus.suicide"
+      ],
+      "note": "La obra presenta la distinción como escisión percibida dentro de un solo sujeto, no como dos sujetos reales."
+    },
+    {
+      "id": "rel.suicide_aego.arises_from_aego",
+      "type": "limit_case_of",
+      "from": "concept.suicidio_aego.aa1",
+      "to": "concept.aego",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.narcissus.suicide",
+        "ev.aa1.narcissus.reversibility"
+      ]
+    },
+    {
+      "id": "rel.formal_neutral.expresses_aa1",
+      "type": "formalizes",
+      "from": "formulation.three_stages.aa1",
+      "to": "formal.neutral.aa1",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.neutral.formula_scope",
+        "ev.aa1.stages.crosswalk"
+      ]
+    },
+    {
+      "id": "rel.formal_fanes.expresses_aa1",
+      "type": "formalizes",
+      "from": "formulation.fanes.aa1",
+      "to": "formal.fanes.aa1",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.fanes.formula_responsibility",
+        "ev.aa1.stages.crosswalk"
+      ]
+    },
+    {
+      "id": "rel.formal_bis.expresses_aa1",
+      "type": "formalizes",
+      "from": "formulation.bis.aa1",
+      "to": "formal.bis.aa1",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.bis.iteration",
+        "ev.aa1.stages.crosswalk"
+      ]
+    },
+    {
+      "id": "rel.formal_aego.expresses_aa1",
+      "type": "formalizes",
+      "from": "formulation.aego.aa1",
+      "to": "formal.aego.limit.aa1",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.aego_formal",
+        "ev.aa1.glossary"
+      ]
+    },
+    {
+      "id": "rel.neutral_aa1.corresponds_tf",
+      "type": "corresponds_to",
+      "from": "formal.neutral.aa1",
+      "to": "formulation.system.neutral.tf",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.stages.crosswalk",
+        "ev.tf.correspondencias"
+      ]
+    },
+    {
+      "id": "rel.fanes_aa1.corresponds_tf",
+      "type": "corresponds_to",
+      "from": "formulation.fanes.aa1",
+      "to": "formulation.system.fanes.tf",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.stages.crosswalk",
+        "ev.tf.correspondencias"
+      ]
+    },
+    {
+      "id": "rel.bis_aa1.corresponds_tf",
+      "type": "corresponds_to",
+      "from": "formulation.bis.aa1",
+      "to": "formulation.ego.bis.tf",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aa1.stages.crosswalk",
+        "ev.tf.correspondencias"
+      ]
     }
   ],
   "routes": [
@@ -2448,19 +3959,39 @@
         },
         {
           "order": 2,
+          "evidence_id": "ev.aa1.fanes.formula_responsibility",
+          "reason": "AA-I separa el evento inaugural Fanes y vincula su φ₂ con el ego primordial."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa1.bis.iteration",
+          "reason": "AA-I formula la iteración Bis y la acumulación de I(t)."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aa1.stages.crosswalk",
+          "reason": "Expone la correspondencia retrospectiva y obliga a conservar sus problemas de atribución."
+        },
+        {
+          "order": 5,
           "evidence_id": "ev.tf.tres_formulas",
           "reason": "Desdoblamiento posterior en mediación neutral, fanes y bis."
         },
         {
-          "order": 3,
+          "order": 6,
           "evidence_id": "ev.tf.correspondencias",
           "reason": "Evita confundir los usos terminológicos de primera mediación en Caos."
         },
         {
-          "order": 4,
+          "order": 7,
           "evidence_id": "ev.axiom.translation",
           "reason": "Traducción bidireccional del lenguaje ontológico al formal."
         }
+      ],
+      "must_surface_review_items": [
+        "review.aa1.caos_crosswalk",
+        "review.aa1.responsibility_grounding",
+        "review.aa1.neutral_habits"
       ]
     },
     {
@@ -2551,22 +4082,34 @@
         },
         {
           "order": 2,
+          "evidence_id": "ev.aa1.aego_formal",
+          "reason": "Expone derivada, función nula e indeterminación como modelos no equivalentes del límite."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa1.glossary",
+          "reason": "Fija la formulación glosada de φ₂ indeterminada y la distinción accidente/singularidad."
+        },
+        {
+          "order": 4,
           "evidence_id": "ev.aa3.aego",
           "reason": "Desarrollo central posterior y nueva fórmula."
         },
         {
-          "order": 3,
+          "order": 5,
           "evidence_id": "ev.aa3.glossary",
           "reason": "Autolocalización del término dentro de la trilogía."
         },
         {
-          "order": 4,
+          "order": 6,
           "evidence_id": "ev.sdo.aego",
           "reason": "Operacionalización diagnóstica E-6."
         }
       ],
       "must_surface_review_items": [
-        "review.aego.formulation_change"
+        "review.aego.formulation_change",
+        "review.aa1.aego_zero_indeterminate",
+        "review.aa1.aego_operator_agency"
       ]
     },
     {
@@ -2981,6 +4524,447 @@
         "review.caos.quantum_isomorphism",
         "review.caos.quantum_interpretations"
       ]
+    },
+    {
+      "id": "route.aa1.architecture_method",
+      "purpose": "Recuperar el programa, alcance y método de Sobre la pasión sin tratar a sus interlocutores como autoridades del sistema.",
+      "triggers": [
+        "arquitectura de Sobre la pasión",
+        "método de Afrodita Areia I",
+        "interlocutores de AA-I"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aa1.prelim.scope",
+          "reason": "Localiza la arquitectura paratextual del volumen."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa1.preface.mythic_program",
+          "reason": "Presenta el programa mitológico Afrodita–Ares."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa1.prologue.problem",
+          "reason": "Formula la anterioridad de la pasión respecto del sujeto consciente."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aa1.prologue.method",
+          "reason": "Delimita naturalismo causal, interlocutores y contrato de lectura."
+        }
+      ]
+    },
+    {
+      "id": "route.aa1.chaos_causality_order",
+      "purpose": "Explicar cómo AA-I enlaza caos, causalidad, colapso y orden emergente.",
+      "triggers": [
+        "caos en Sobre la pasión",
+        "causalidad sin necesidad",
+        "orden emergente"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aa1.chaos.genealogy",
+          "reason": "Distingue la propuesta de Hesíodo, Anaximandro y Deleuze."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa1.chaos.definition",
+          "reason": "Fija el caos como posibilidad infinita no productora."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa1.causality.tendency",
+          "reason": "Sustituye necesidad por tendencia material real."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aa1.collapse.existence",
+          "reason": "Caracteriza colapso y existencia procesual."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aa1.order.emergence",
+          "reason": "Define orden local sin sustancia universal."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.aa1.order.subject",
+          "reason": "Sitúa al sujeto como coproductor del orden que habita."
+        }
+      ]
+    },
+    {
+      "id": "route.aa1.passion_definition_levels",
+      "purpose": "Definir la pasión ontológica y seguir su continuidad por objetos, organismos y sujetos.",
+      "triggers": [
+        "qué es pasión ontológica",
+        "pasión en los objetos",
+        "pasión y organismos"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aa1.passion.genealogy",
+          "reason": "Separa la propuesta de conatus y voluntad de poder."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa1.passion.definition",
+          "reason": "Establece las cuatro propiedades técnicas."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa1.passion.objects",
+          "reason": "Documenta resistencia y afinidad como pasión mínima material."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aa1.passion.organisms",
+          "reason": "Introduce autopoiesis y normatividad vital sin ego."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aa1.reason.synthesis",
+          "reason": "Reúne la tesis genética del sujeto emergido de la pasión."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.aa1.glossary",
+          "reason": "Control terminológico final del volumen."
+        }
+      ]
+    },
+    {
+      "id": "route.aa1.afrodita_ares_other",
+      "purpose": "Distinguir las dimensiones Afrodita y Ares y su papel en la relación con el otro.",
+      "triggers": [
+        "Afrodita y Ares",
+        "dominio y conquista",
+        "colisión con el otro"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aa1.duality.interlocutors",
+          "reason": "Evita fusionar la dualidad con amor/odio o Eros/Tánatos."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa1.duality.dimensions",
+          "reason": "Define apropiación y colisión como dimensiones inseparables."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa1.duality.other_responsibility",
+          "reason": "Expone conocimiento situado del otro y el límite declarado de responsabilidad."
+        }
+      ]
+    },
+    {
+      "id": "route.aa1.three_mediations",
+      "purpose": "Reconstruir mediación neutral, Fanes y Bis preservando la correspondencia retrospectiva y la tensión sobre los hábitos.",
+      "triggers": [
+        "tres mediaciones",
+        "mediación fanes",
+        "mediación bis",
+        "mediación neutral en adultos"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aa1.neutral.interlocutors",
+          "reason": "Sitúa la pre-subjetividad corporal y sus interlocutores."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa1.neutral.formula_scope",
+          "reason": "Fija fórmula, alcance y ejemplos de mediación neutral."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa1.fanes.formula_responsibility",
+          "reason": "Documenta primera asunción y ego primordial."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aa1.bis.iteration",
+          "reason": "Documenta iteración e integral."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aa1.bis.habits_assumption",
+          "reason": "Expone la posible asunción posterior de actos automáticos."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.aa1.stages.crosswalk",
+          "reason": "Conserva la tabla retrospectiva sin naturalizar su atribución a Caos."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aa1.caos_crosswalk",
+        "review.aa1.neutral_habits"
+      ]
+    },
+    {
+      "id": "route.aa1.identity_distortions",
+      "purpose": "Distinguir identidad-sesgo, ego-integral y sus perturbaciones sin fusionar el uso de identidad con Caos.",
+      "triggers": [
+        "identidad como sesgo",
+        "identidad y ego",
+        "disforia de identidad",
+        "disociación del ego"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aa1.identity.formation",
+          "reason": "Forma la identidad como sedimento neutral y accidente."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa1.identity.bias_boundary",
+          "reason": "Distingue el sesgo de la integral y abre las perturbaciones."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa1.distortion.bad_faith",
+          "reason": "Describe φ₂ parcial o distorsionada, mala fe, disforia y disociación."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.caos.glossary_ego_identity",
+          "reason": "Contrasta el uso anterior de identidad como continuidad funcional."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aa1.closure.downstream",
+          "reason": "Localiza el desarrollo remitido a Juego y Dilema."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aa1.identity_change"
+      ]
+    },
+    {
+      "id": "route.aa1.responsibility_assumption",
+      "purpose": "Explicar la responsabilidad por asunción de AA-I y contrastarla con la formulación de Caos.",
+      "triggers": [
+        "responsabilidad por asunción",
+        "φ₂ y responsabilidad",
+        "responsabilidad en AA-I"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.caos.responsibility_first",
+          "reason": "Fija el antecedente: responsabilidad originada en φ₁."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa1.neutral.formula_scope",
+          "reason": "Excluye inicialmente los actos neutrales no asumidos."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa1.fanes.formula_responsibility",
+          "reason": "Sitúa el comienzo de la responsabilidad en Fanes y φ₂."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aa1.bis.habits_assumption",
+          "reason": "Admite reconocimiento y asunción posteriores."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aa1.glossary",
+          "reason": "Consolida la definición de responsabilidad por acto asumido."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aa1.responsibility_grounding",
+        "review.aa1.neutral_habits"
+      ]
+    },
+    {
+      "id": "route.aa1.ego_trajectory_possibilities",
+      "purpose": "Explicar el ego como trayectoria irreversible que incluye colapsos y posibilidades negadas.",
+      "triggers": [
+        "trayectoria del ego",
+        "posibilidades negadas",
+        "muerte e integral"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aa1.ego.trajectory",
+          "reason": "Define proceso, dependencia del camino e irreversibilidad."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa1.ego.death_persistence",
+          "reason": "Distingue cierre por muerte y persistencia de efectos en otros."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa1.denied_possibilities",
+          "reason": "Añade la constitución por alternativas excluidas."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aa1.distortion.bad_faith",
+          "reason": "Muestra cómo la negación puede alimentar distorsión identitaria."
+        }
+      ]
+    },
+    {
+      "id": "route.aa1.cogito_reason",
+      "purpose": "Reconstruir la inversión del cogito y el estatuto tardío de la razón.",
+      "triggers": [
+        "antes del pensamiento la pasión",
+        "inversión del cogito",
+        "Descartes Hume Kant"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aa1.cogito.responsibility",
+          "reason": "Formula la inversión desde los tres estadios."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa1.reason.debates",
+          "reason": "Reúne los debates con Descartes, Hume y Kant."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa1.reason.synthesis",
+          "reason": "Condensa las cinco proposiciones finales."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aa1.closure.limits",
+          "reason": "Conserva los límites ontológicos y normativos declarados."
+        }
+      ]
+    },
+    {
+      "id": "route.aa1.zagreo_sovereignty",
+      "purpose": "Recuperar el caso Zagreo como análisis ontológico no normativo de soberanía no consentida.",
+      "triggers": [
+        "Zagreo",
+        "aego por anterioridad",
+        "alumbramiento y aborto",
+        "umbral de soberanía"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aa1.zagreo.asymmetry",
+          "reason": "Expone la simetría estructural y los dos vectores de cosificación."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa1.zagreo.threshold_limits",
+          "reason": "Declara Fanes como umbral no localizable y niega una conclusión normativa desde la ontología sola."
+        }
+      ]
+    },
+    {
+      "id": "route.aa1.narcissus_suicide",
+      "purpose": "Recuperar el caso Narciso como límite ontológico, sin convertirlo en diagnóstico clínico ni recomendación.",
+      "triggers": [
+        "Narciso y suicidio",
+        "yo-operador y yo-máquina",
+        "suicidio en aego"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aa1.narcissus.suicide",
+          "reason": "Describe escisión, acto límite y justicia restaurativa imposible."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa1.narcissus.reversibility",
+          "reason": "Distingue estado potencialmente reversible de muerte irreversible y sitúa al otro."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aa1.aego_operator_agency"
+      ]
+    },
+    {
+      "id": "route.aa1.aego_limit_cases",
+      "purpose": "Navegar la formulación inicial del Aego y sus tres casos límite conservando sus problemas formales y de agencia.",
+      "triggers": [
+        "afasia volitiva",
+        "singularidad ontológica",
+        "casos límite del aego"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aa1.aego",
+          "reason": "Introduce ruptura de φ₂ y continuidad del recipiente."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa1.aego_formal",
+          "reason": "Expone las formalizaciones rivales y los tres momentos."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa1.zagreo.asymmetry",
+          "reason": "Desarrolla la anterioridad pre-subjetiva."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aa1.narcissus.suicide",
+          "reason": "Desarrolla la escisión operador/máquina."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aa1.glossary",
+          "reason": "Contrasta el cierre glosado con los desarrollos formales."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aa1.aego_zero_indeterminate",
+        "review.aa1.aego_operator_agency",
+        "review.aego.formulation_change"
+      ]
+    },
+    {
+      "id": "route.aa1.open_questions_downstream",
+      "purpose": "Localizar lo que AA-I declara cerrado, lo que remite a otras obras y lo que considera irresoluble dentro de su alcance.",
+      "triggers": [
+        "qué deja abierto Sobre la pasión",
+        "continuidad hacia Volumen II",
+        "Juego y Dilema",
+        "límites del sistema"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aa1.reason.synthesis",
+          "reason": "Señala la pregunta epistemológica del Volumen II."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa1.closure.downstream",
+          "reason": "Mapea las dependencias declaradas hacia Juego, Dilema y volúmenes II–III."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa1.closure.limits",
+          "reason": "Conserva las preguntas por origen, valor y realismo como límites declarados."
+        }
+      ]
     }
   ],
   "review_queue": [
@@ -3087,6 +5071,109 @@
       "evidence": [
         "ev.caos.quantum_interpretations",
         "ev.caos.quantum_correspondence"
+      ]
+    },
+    {
+      "id": "review.aa1.caos_crosswalk",
+      "status": "pending_editorial_review",
+      "subject": "term.caos.mediacion_prima_material",
+      "question": "¿Cómo debe corregirse o autorizarse la atribución retrospectiva de 'mediación prima / primera mediación en sentido material' y de Fanes a Caos?",
+      "why_not_auto_resolved": "AA-I declara la equivalencia terminológica y afirma que Fanes fue introducida en Caos, pero la fuente canónica completa de Caos no contiene esas expresiones: usa mediación neutral y primera mediación para funciones distintas. Transformación formal repite parte de la correspondencia, pero no decide si se trata de retroterminología autorizada o de una atribución bibliográfica errónea.",
+      "blocking": false,
+      "blocking_for": [],
+      "evidence": [
+        "ev.aa1.fanes.provenance",
+        "ev.aa1.stages.crosswalk",
+        "ev.caos.mediation_general_neutral",
+        "ev.caos.first_mediation",
+        "ev.tf.correspondencias"
+      ]
+    },
+    {
+      "id": "review.aa1.responsibility_grounding",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.responsibility.aa1",
+      "related_relation": "rel.responsibility_aa1.differs_caos_grounding",
+      "question": "¿La responsabilidad por asunción de AA-I sustituye la responsabilidad originada en φ₁ de Caos, la refina, o describe un nivel distinto?",
+      "why_not_auto_resolved": "Caos sitúa el origen de la responsabilidad en la primera mediación y separa el acto de su segunda mediación; AA-I la vincula a φ₂, permite asunción posterior y excluye los colapsos neutrales no asumidos. Los pasajes no ofrecen una regla que compatibilice inequívocamente ambos fundamentos.",
+      "blocking": false,
+      "blocking_for": [
+        "normative_use",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.aa1.fanes.formula_responsibility",
+        "ev.aa1.bis.habits_assumption",
+        "ev.aa1.cogito.responsibility",
+        "ev.aa1.glossary",
+        "ev.caos.responsibility_first",
+        "ev.caos.glossary_responsibility"
+      ]
+    },
+    {
+      "id": "review.aa1.neutral_habits",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.three_stages.aa1",
+      "question": "¿Después de Fanes los hábitos y actos automáticos siguen ocurriendo realmente en mediación neutral o dejan de ser neutrales por su posibilidad de asunción posterior?",
+      "why_not_auto_resolved": "El Capítulo 8 incluye sueño, hábitos y desbordes emocionales adultos en mediación neutral y niega responsabilidad plena; el Capítulo 11 sostiene que después de Fanes ningún acto es puramente neutral, incluso respirar, porque puede ser asumido después. La distinción entre estatuto actual y asumibilidad futura no queda formalizada.",
+      "blocking": false,
+      "blocking_for": [
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.aa1.neutral.formula_scope",
+        "ev.aa1.bis.habits_assumption"
+      ]
+    },
+    {
+      "id": "review.aa1.identity_change",
+      "status": "pending_authorial_adjudication",
+      "subject": "concept.identidad_sesgo.aa1",
+      "related_relation": "rel.identity_aa1.distinguished_caos_identity",
+      "question": "¿La identidad-sesgo de AA-I reemplaza la identidad como continuidad funcional de Caos o deben mantenerse como conceptos homónimos distintos?",
+      "why_not_auto_resolved": "AA-I declara que la identidad es un accidente pre-egóico que no constituye el ego ni entra en su fórmula; Caos llama identidad a la continuidad funcional e integral del ego. La obra posterior no adjudica expresamente la relación histórica entre ambos usos.",
+      "blocking": false,
+      "blocking_for": [],
+      "evidence": [
+        "ev.aa1.identity.formation",
+        "ev.aa1.identity.bias_boundary",
+        "ev.aa1.stages.crosswalk",
+        "ev.caos.integral_open_death",
+        "ev.caos.glossary_ego_identity"
+      ]
+    },
+    {
+      "id": "review.aa1.aego_zero_indeterminate",
+      "status": "pending_formal_review",
+      "subject": "formal.aego.limit.aa1",
+      "question": "¿El límite formal del Aego debe modelarse como f(v_t)→0 e integral nula, como φ₂ indeterminada/fuera de dominio, o mediante otra operación que distinga voluntad, asunción e integral histórica?",
+      "why_not_auto_resolved": "El desarrollo deriva el ego para eliminar acumulación y después usa f(v_t)→0 para obtener una constante nula; la nota y el glosario insisten en que una función cero sigue definida y que la singularidad correcta es φ₂ indeterminada. A la vez se afirma que la historia integral permanece. Las tres descripciones no son formalmente equivalentes.",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.aa1.aego_formal",
+        "ev.aa1.glossary"
+      ]
+    },
+    {
+      "id": "review.aa1.aego_operator_agency",
+      "status": "pending_authorial_adjudication",
+      "subject": "concept.yo_operador.aa1",
+      "question": "¿Qué estatuto causal tiene el yo-operador que observa, decide y produce el acto si φ₂ no opera, el ego ya no es y la soberanía requiere precisamente un ego operante?",
+      "why_not_auto_resolved": "El Apéndice C atribuye observación, decisión y producción causal a un residuo operador, pero también define el aego como ausencia del operador e interpreta el acto como no soberano por falta de φ₂. El texto no especifica si se trata de conciencia pre-egóica, agencia neutral u otra función.",
+      "blocking": false,
+      "blocking_for": [
+        "normative_use",
+        "clinical_use",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.aa1.aego",
+        "ev.aa1.narcissus.suicide",
+        "ev.aa1.narcissus.reversibility"
       ]
     }
   ],
