@@ -18,7 +18,9 @@ Paradigma conserva el corpus filosófico de Miguel Hilario Olvera Aguilar y cons
 
 El objetivo del repositorio **no** es convertir los libros en JSON ni sustituir su lectura.
 
-El mapa maestro sirve para conducir desde una pregunta o tarea hacia los pasajes correctos del corpus.
+El objetivo del mapa maestro es conducir desde una pregunta o tarea hacia los pasajes correctos del corpus.
+
+Paradigma y su mapa maestro **no están organizados alrededor de un único concepto, obra o familia doctrinal**. Deben representar el corpus completo en la pluralidad de problemas, conceptos, distinciones, argumentos, formalizaciones, métodos y aplicaciones que las propias obras desarrollen. Que un concepto se utilice como caso de prueba, ejemplo o puerta de entrada no le concede centralidad automática sobre los demás.
 
 Flujo obligatorio:
 
@@ -103,10 +105,19 @@ Los commits automáticos se rigen por la regla especial de la sección 17 para q
 10. Si el mapa no resuelve una consulta, registrar el fallo como caso de prueba antes de proponer un cambio de esquema.
 11. No pedir al autor extracción mecánica que pueda realizarse directamente desde el corpus.
 12. La intervención humana se reserva principalmente para ambigüedades filosóficas reales, decisiones editoriales y validación de interpretaciones difíciles.
+13. No inferir la jerarquía temática del corpus a partir de los conceptos elegidos para probar, explicar o implementar el mapa.
 
 ---
 
 ## 5. Reglas del mapa maestro
+
+### 5.0 Alcance integral
+
+El mapa es **corpus-céntrico, no ego-céntrico ni concepto-céntrico en sentido jerárquico**.
+
+Debe poder navegar cualquier núcleo doctrinal o técnico relevante que aparezca en las obras: ontología, voluntad, pasión, posibilidad, colapso, mediación, identidad, alteridad, responsabilidad, metrología, diagnóstico, métodos, aplicaciones y cualquier otro dominio que el corpus desarrolle con función sustantiva.
+
+Esta enumeración es ilustrativa, no una taxonomía cerrada. La centralidad de un concepto se establece por su función y dependencias dentro del corpus, no por haber sido seleccionado antes como ejemplo.
 
 ### 5.1 Unidad semántica
 
@@ -230,11 +241,13 @@ Modelar primero tres casos deliberadamente distintos:
 2. **R\*** — objeto formal, definición matemática, dependencias y aplicaciones.
 3. **Aego** — categoría ontológica/diagnóstica, distinciones y uso instrumental.
 
+Estos tres casos son **pruebas de estrés del esquema**, no una selección de los conceptos más importantes del paradigma ni una delimitación del contenido futuro. Se eligen porque obligan al mismo modelo a resolver tres problemas estructurales distintos: evolución doctrinal, objeto matemático y categoría aplicada.
+
 El mismo esquema debe resolver los tres.
 
 No extender el esquema al corpus completo antes de superar esta fase.
 
-### Fase 2 — Núcleo ontológico
+### Fase 2 — Núcleo conceptual y ontológico del corpus
 
 Integrar:
 
@@ -244,7 +257,9 @@ Integrar:
 - `El juego de las máscaras`;
 - `El telar de las Moiras`.
 
-Objetivo: representar el vocabulario y las relaciones que las obras posteriores presuponen, no agotar cada frase.
+Objetivo: representar **el conjunto de conceptos, problemas, distinciones y relaciones nucleares que estas obras desarrollan y que otras partes del corpus presuponen**, no únicamente ego, mediación o sus derivados y no agotar cada frase.
+
+La extracción debe dejar que la estructura conceptual emerja de las obras. No debe forzar todos los contenidos a organizarse como subtemas de un concepto elegido previamente.
 
 ### Fase 3 — Formalización y metrología
 
@@ -292,6 +307,8 @@ La versión 1 debe permitir localizar el contexto necesario, sin barrer indiscri
 10. ¿Qué partes del corpus deben leerse para implementar un motor de cálculo sin mezclar metáfora, definición y calibración?
 11. ¿Qué pasajes deben revisarse si se corrige una formulación doctrinal concreta?
 12. ¿Qué capítulos son prerrequisitos para diseñar un módulo de diplomado sobre un concepto determinado?
+
+Estas pruebas verifican capacidades de navegación y representación, no definen por sí solas el inventario temático completo del corpus.
 
 La prueba se considera superada cuando el sistema puede devolver primero localizadores adecuados y, tras leerlos, producir una respuesta o producto consistente con el corpus.
 
@@ -415,7 +432,8 @@ No se debe:
 - refactorizar infraestructura estable solo por limpieza estética;
 - crear nuevas carpetas o herramientas cuya única finalidad sea preparar otra capa futura sin un caso de uso actual;
 - exigir al autor extracción mecánica que el sistema puede realizar;
-- reiniciar desde cero trabajo ya validado cuando pueda migrarse.
+- reiniciar desde cero trabajo ya validado cuando pueda migrarse;
+- reducir el mapa del corpus a un eje temático único porque ese eje haya sido usado como ejemplo o caso de prueba.
 
 ---
 
@@ -424,6 +442,7 @@ No se debe:
 El mapa maestro v1 está terminado cuando:
 
 - los conceptos nucleares necesarios para comprender las obras posteriores tienen localizadores verificables;
+- la cobertura conceptual refleja los distintos núcleos sustantivos del corpus y no solo una familia temática preseleccionada;
 - las formulaciones históricas y posteriores están conectadas sin borrarse entre sí;
 - los objetos formales relevantes poseen dependencias y estatus epistémico;
 - métodos e instrumentos enlazan al núcleo en vez de duplicarlo;
@@ -443,6 +462,7 @@ Estado vigente al fijar estas instrucciones:
 - **fase:** F0 cerrada — arquitectura e instrucciones;
 - **siguiente fase:** F1 — prueba de arquitectura del mapa maestro;
 - **casos de F1:** fórmula del ego + R\* + Aego;
+- **sentido de los casos:** validar capacidades estructurales distintas del esquema, no definir la jerarquía temática del corpus;
 - **restricción:** no realizar extracción sistemática del corpus antes de validar esos tres casos.
 
 Este apartado describe el hito de partida, pero el **estado operativo más reciente siempre se obtiene del último commit de trabajo**, conforme a la sección 17.
@@ -476,7 +496,7 @@ Fases:
 
 - `F0` — arquitectura, instrucciones e infraestructura de base;
 - `F1` — prueba de arquitectura del mapa;
-- `F2` — núcleo ontológico;
+- `F2` — núcleo conceptual y ontológico del corpus;
 - `F3` — formalización y metrología;
 - `F4` — métodos, instrumentos y aplicaciones;
 - `F5` — rutas de lectura y validación final;
