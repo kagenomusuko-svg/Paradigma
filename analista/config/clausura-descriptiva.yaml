@@ -112,6 +112,25 @@ salidas_prohibidas:
 
 respuesta_ante_ausencia_de_evidencia: "NO DETERMINADO POR EL CORPUS"
 
+revision_calibracion:
+  especificacion: analista/REVISION-CALIBRACION.md
+  configuracion: analista/config/revision-calibracion.yaml
+  rama: revision-calibracion-v0.2
+  baseline:
+    rama: analisis-textual-v0.1
+    commit: 817b05a9a2eaa2643a5a49ec90f881b85a5d572e
+    preservar_inmutable: true
+  fase_activa: RC-0
+  finalidad: calibrar_motores_existentes_sin_reescribir_doctrina
+  auditoria_humana:
+    permitida: true
+    funcion: verificacion_documental_de_resultados_contra_fuente
+    autoridad_doctrinal: false
+    intervencion_previa_para_indicar_que_debe_encontrar_el_motor: false
+  patron_humano:
+    interpretacion: auditoria_documental_posterior_a_la_ejecucion
+    patron_doctrinal_autoral_previo: false
+
 invariante_final: >-
   Ningún registro producido por el analista puede contener una afirmación
   doctrinal más fuerte que la evidencia textual verificada de la que procede.
