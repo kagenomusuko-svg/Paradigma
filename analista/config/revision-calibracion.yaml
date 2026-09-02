@@ -73,12 +73,13 @@ categorias_auditoria:
 fases:
   - id: RC-0
     nombre: Constitucion de la revision
-    estado: abierta
+    estado: cerrada
     modifica_motores: false
     cierre: contrato_de_revision_inequivoco_y_primera_obra_seleccionada
+    evidencia_cierre: analista/revision-calibracion/cierre-RC-0.json
   - id: RC-1
     nombre: Auditoria documental de la primera obra
-    estado: pendiente
+    estado: abierta
     cierre: catalogo_reproducible_de_aciertos_errores_y_causas_probables
   - id: RC-2
     nombre: Calibracion sobre la primera obra
@@ -109,9 +110,11 @@ fases:
     estado: pendiente
     cierre: generalizacion_documentada_y_comparacion_baseline_vs_calibrado_completa
 
-primera_obra_candidata:
+primera_obra:
+  obra_id: FUE-6F24D4138FC2
+  titulo: "Caos: El abismo del ego y la doble mediacion"
   ruta: corpus/fuentes/Caos_El_abismo_del_ego_y_la_doble_mediacion.md
-  estado: candidata
+  estado: seleccionada
 
 criterio_detencion_revision_intensiva:
   numero_fijo_de_obras: false
