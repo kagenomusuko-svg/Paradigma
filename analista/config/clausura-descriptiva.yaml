@@ -120,7 +120,8 @@ revision_calibracion:
     rama: analisis-textual-v0.1
     commit: 817b05a9a2eaa2643a5a49ec90f881b85a5d572e
     preservar_inmutable: true
-  fase_activa: RC-0
+  fase_activa: RC-1
+  cierre_rc0: analista/revision-calibracion/cierre-RC-0.json
   finalidad: calibrar_motores_existentes_sin_reescribir_doctrina
   auditoria_humana:
     permitida: true
