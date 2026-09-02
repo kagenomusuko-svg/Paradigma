@@ -2,7 +2,8 @@
 """Valida la integridad estructural y las invariantes ya ganadas por el mapa.
 
 No decide doctrina. Comprueba referencias, proveniencia, rutas y que las
-pruebas de F1 no puedan degradarse silenciosamente durante F2–F5.
+pruebas de F1 y la cobertura incorporada en F2 no puedan degradarse
+silenciosamente durante las fases posteriores.
 """
 from __future__ import annotations
 import json
@@ -128,6 +129,92 @@ def main() -> int:
     require("review.aego.formulation_change" in reviews, "La diferencia doctrinal de Aego debe quedar en cola de adjudicación")
     require("review.aego.formulation_change" in routes["route.aego.definicion_evolucion"].get("must_surface_review_items", []), "La ruta de Aego debe surfacer la adjudicación pendiente")
 
+    # Invariantes ganadas al integrar Caos sistemáticamente en F2.
+    if phase != "F1":
+        chaos_structure_path = ROOT / "corpus" / "libros" / "caos" / "estructura.json"
+        require(chaos_structure_path.exists(), "Falta la estructura derivada de Caos")
+        chaos_structure = json.loads(chaos_structure_path.read_text(encoding="utf-8"))
+        chaos_segments = {
+            segment["path"]: (segment["start_line"], segment["end_line"])
+            for segment in chaos_structure["segments"]
+        }
+        chaos_evidence = [ev for ev in evidence.values() if ev["work_id"] == "CAOS"]
+        covered_segments = {ev["segment"] for ev in chaos_evidence}
+        require(
+            set(chaos_segments) <= covered_segments,
+            f"La auditoría de Caos debe cubrir preliminares, siete capítulos y tres apéndices; faltan: {sorted(set(chaos_segments) - covered_segments)}",
+        )
+        for ev in chaos_evidence:
+            require(ev["segment"] in chaos_segments, f"{ev['id']}: segmento de Caos no declarado en estructura.json")
+            segment_start, segment_end = chaos_segments[ev["segment"]]
+            line_start, line_end = ev["source_lines"]
+            require(
+                segment_start <= line_start <= line_end <= segment_end,
+                f"{ev['id']}: rango fuera del segmento declarado {ev['segment']}",
+            )
+
+        required_chaos_nodes = {
+            "concept.sujeto",
+            "concept.caos",
+            "concept.colapso",
+            "concept.mediacion",
+            "concept.doble_mediacion",
+            "concept.acto",
+            "concept.integral_acumulativa",
+            "concept.campo_accion",
+            "concept.escala_colapso",
+            "concept.accidente",
+            "concept.tiempo_ego",
+            "concept.imputacion",
+            "concept.responsabilidad_ontologica",
+            "formal.phi1.caos",
+            "formal.phi2.caos",
+            "formal.I.caos",
+            "formal.ego.caos",
+            "formulation.quantum_correspondence.caos",
+        }
+        require(
+            required_chaos_nodes <= set(nodes),
+            f"Núcleo de Caos incompleto; faltan nodos: {sorted(required_chaos_nodes - set(nodes))}",
+        )
+
+        required_chaos_routes = {
+            "route.caos.architecture",
+            "route.caos.subject_ego_identity",
+            "route.caos.chaos_collapse",
+            "route.caos.time_other_freedom",
+            "route.caos.scales_accident_field",
+            "route.caos.mediations",
+            "route.caos.responsibility_imputation",
+            "route.caos.god_conditional",
+            "route.caos.formalization",
+            "route.caos.quantum_correspondence",
+        }
+        require(
+            required_chaos_routes <= set(routes),
+            f"Rutas de Caos incompletas: {sorted(required_chaos_routes - set(routes))}",
+        )
+
+        chaos_formal_reviews = {
+            "review.caos.formal_typing",
+            "review.caos.accumulation_topology",
+            "review.caos.local_derivative",
+        }
+        chaos_quantum_reviews = {
+            "review.caos.quantum_isomorphism",
+            "review.caos.quantum_interpretations",
+        }
+        require(chaos_formal_reviews <= set(reviews), "Deben conservarse las revisiones matemáticas pendientes de Caos")
+        require(chaos_quantum_reviews <= set(reviews), "Deben conservarse las revisiones cuánticas pendientes de Caos")
+        require(
+            chaos_formal_reviews <= set(routes["route.caos.formalization"].get("must_surface_review_items", [])),
+            "La ruta matemática de Caos debe surfacer todas sus revisiones formales",
+        )
+        require(
+            chaos_quantum_reviews <= set(routes["route.caos.quantum_correspondence"].get("must_surface_review_items", [])),
+            "La ruta cuántica de Caos debe surfacer sus revisiones de estatuto y consistencia",
+        )
+
     print(
         "Mapa válido:",
         f"fase={phase}, schema={schema_status};",
@@ -137,7 +224,8 @@ def main() -> int:
         f"{len(relations)} relaciones,",
         f"{len(routes)} rutas,",
         f"{len(reviews)} revisiones pendientes,",
-        f"{len(tests)} pruebas F1 preservadas."
+        f"{len(tests)} pruebas F1 preservadas,",
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'CAOS'])} evidencias de Caos."
     )
     return 0
 
