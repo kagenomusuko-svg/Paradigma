@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "proceso": "revision_calibracion_documental",
+  "rama": "revision-calibracion-v0.2",
+  "baseline": {
+    "rama": "analisis-textual-v0.1",
+    "commit": "817b05a9a2eaa2643a5a49ec90f881b85a5d572e"
+  },
+  "fase_cerrada_mas_reciente": "RC-0",
+  "fase_activa": "RC-1",
+  "obra_activa": {
+    "obra_id": "FUE-6F24D4138FC2",
+    "titulo": "Caos: El abismo del ego y la doble mediación",
+    "ruta": "corpus/fuentes/Caos_El_abismo_del_ego_y_la_doble_mediacion.md"
+  },
+  "motores_modificados_en_revision": false,
+  "estado": "RC-1_abierta_preparando_expediente_baseline"
+}
