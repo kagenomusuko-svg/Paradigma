@@ -1,0 +1,2 @@
+Disparo aislado para ejecutar la auditoría RC-1 de Caos contra el baseline F10 certificado.
+No modifica motores ni productos históricos.
