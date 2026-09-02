@@ -4,11 +4,11 @@
 >
 > Si una persona, asistente o agente va a trabajar con Paradigma, este es el único archivo de instrucciones que necesita leer antes de comenzar.
 >
-> Los README y los documentos de `documentacion/` pueden explicar estructura, antecedentes o detalles técnicos, pero **no añaden reglas operativas nuevas**. Si alguna redacción secundaria parece entrar en conflicto con este archivo, prevalece `INSTRUCCIONES.md`.
+> Los README y los documentos de `documentacion/` pueden explicar estructura o detalles técnicos, pero **no añaden reglas operativas nuevas**. Si alguna redacción secundaria parece entrar en conflicto con este archivo, prevalece `INSTRUCCIONES.md`.
 
-## 1. Propósito del repositorio
+## 1. Propósito
 
-Paradigma conserva el corpus filosófico de Miguel Hilario Olvera Aguilar y construye representaciones derivadas que permiten localizar el contexto correcto para:
+Paradigma conserva el corpus filosófico de Miguel Hilario Olvera Aguilar y construye representaciones derivadas que permitan localizar el contexto correcto para:
 
 - responder preguntas sobre el corpus;
 - preparar diplomados y materiales docentes;
@@ -18,7 +18,7 @@ Paradigma conserva el corpus filosófico de Miguel Hilario Olvera Aguilar y cons
 
 El objetivo del repositorio **no** es convertir los libros en JSON ni sustituir su lectura.
 
-El objetivo del mapa maestro es conducir desde una pregunta o tarea hacia los pasajes correctos del corpus.
+El mapa maestro sirve para conducir desde una pregunta o tarea hacia los pasajes correctos del corpus.
 
 Flujo obligatorio:
 
@@ -30,7 +30,7 @@ Nunca:
 
 ---
 
-## 2. Orden de autoridad
+## 2. Orden de autoridad y capas
 
 ### 2.1 Fuente canónica
 
@@ -40,7 +40,7 @@ Es la máxima autoridad para establecer qué dice una obra.
 
 - Los Markdown se conservan íntegros.
 - `SHA256SUMS.txt` registra su integridad.
-- No se modifican para normalizar estilo, facilitar búsquedas, adaptar el texto a una IA ni resolver una discrepancia doctrinal.
+- No se modifican para normalizar estilo, facilitar búsquedas, adaptar el texto a una IA ni resolver discrepancias doctrinales.
 - Una corrección directa solo procede cuando se verifica que el Markdown no reproduce fielmente la edición fuente.
 
 ### 2.2 Estructura documental derivada
@@ -50,13 +50,13 @@ Rutas:
 - `corpus/libros/`
 - `corpus/catalogo-generado.json`
 
-Sirven para localizar y leer unidades manejables.
+Función: responder **dónde está** un contenido.
 
 - Los segmentos son derivados y regenerables.
 - Cada `estructura.json` enlaza segmentos con la fuente canónica y sus rangos.
-- Ante cualquier discrepancia, prevalece `corpus/fuentes/`.
+- Ante discrepancia, prevalece `corpus/fuentes/`.
 - `corpus/catalogo-generado.json` es el único catálogo estructural global vigente.
-- El catálogo global se genera; no se edita manualmente.
+- El catálogo global se genera; no se mantiene manualmente.
 
 ### 2.3 Mapa semántico
 
@@ -64,31 +64,28 @@ Ruta: `mapa/`
 
 Es una capa analítica derivada.
 
-Su función es responder:
-
-**¿qué debe leerse para comprender correctamente esta pregunta o realizar esta tarea?**
+Función: responder **qué debe leerse para comprender correctamente una pregunta o realizar una tarea**.
 
 No adquiere autoridad doctrinal sobre los libros.
 
 ### 2.4 Productos de uso
 
-Diplomados, revisiones editoriales, motores de cálculo, interfaces, informes y demás productos aplican el corpus. No redefinen retrospectivamente ninguna de las capas anteriores.
+Diplomados, revisiones editoriales, motores de cálculo, interfaces, informes y demás productos aplican el corpus. No redefinen retrospectivamente ninguna capa anterior.
 
 ---
 
-## 3. Modelo mental del repositorio
+## 3. Cómo reanudar el proyecto
 
-No usar el árbol completo de `corpus/libros/` como menú humano.
-
-Para orientarse:
+Para reanudar Paradigma en una conversación nueva o después de una pausa:
 
 1. leer `INSTRUCCIONES.md`;
-2. consultar `mapa/` si la tarea depende del contenido filosófico;
-3. usar `corpus/catalogo-generado.json` para localizar obras y segmentos;
-4. abrir el segmento o la fuente necesarios;
-5. ejecutar la tarea desde el texto real.
+2. leer el **commit más reciente de trabajo en `main`**;
+3. tomar de ese commit la fase, subsistema, estado, trabajo validado y siguiente paso;
+4. continuar desde ese punto sin reconstruir decisiones históricas desde conversaciones anteriores.
 
-`corpus/libros/` puede ser visualmente grande porque funciona como caché estructural regenerable. Su tamaño no implica que deba reorganizarse.
+No debe ser necesario leer una cadena de documentos, chats o commits antiguos para saber qué sigue.
+
+Los commits automáticos se rigen por la regla especial de la sección 17 para que tampoco destruyan esta continuidad.
 
 ---
 
@@ -104,7 +101,7 @@ Para orientarse:
 8. Para correcciones editoriales o doctrinales, leer contexto continuo; no decidir desde un snippet aislado.
 9. Para implementación tecnológica, cargar definiciones, fórmulas, dependencias, supuestos y estatus epistémico antes de programar.
 10. Si el mapa no resuelve una consulta, registrar el fallo como caso de prueba antes de proponer un cambio de esquema.
-11. No pedir al autor que haga extracción mecánica que puede realizarse directamente desde el corpus.
+11. No pedir al autor extracción mecánica que pueda realizarse directamente desde el corpus.
 12. La intervención humana se reserva principalmente para ambigüedades filosóficas reales, decisiones editoriales y validación de interpretaciones difíciles.
 
 ---
@@ -135,7 +132,7 @@ Una mera mención no se registra salvo que sea necesaria para navegación, evolu
 
 No se construye una tabla exhaustiva frase por frase del corpus.
 
-### 5.2 Evidencia
+### 5.2 Evidencia y proveniencia
 
 Cada entrada semántica debe indicar su carácter:
 
@@ -223,7 +220,7 @@ No tratar:
 
 ---
 
-## 6. Construcción del mapa: orden obligatorio
+## 6. Construcción del mapa: fases obligatorias
 
 ### Fase 1 — Prueba de arquitectura
 
@@ -357,13 +354,13 @@ Una nueva versión de una obra no autoriza a sobrescribir silenciosamente formul
 
 ## 11. Correcciones de estilo y doctrina
 
-### Corrección de estilo
+### 11.1 Corrección de estilo
 
 - Se trabaja sobre una copia o producto editorial, no directamente sobre la fuente canónica.
 - Se lee contexto continuo.
 - El mapa sirve para localizar usos conceptualmente relacionados que podrían requerir consistencia terminológica.
 
-### Corrección doctrinal
+### 11.2 Corrección doctrinal
 
 - Se identifican todas las formulaciones relevantes y sus relaciones históricas.
 - Se compara la formulación que se desea modificar con desarrollos posteriores.
@@ -437,19 +434,137 @@ El mapa maestro v1 está terminado cuando:
 
 ---
 
-## 16. Estado actual del proyecto
+## 16. Estado actual y siguiente hito
 
 La infraestructura documental ya está construida y no es el trabajo principal pendiente.
 
-El siguiente hito es **Fase 1 del mapa maestro**:
+Estado vigente al fijar estas instrucciones:
 
-**fórmula del ego + R\* + Aego**.
+- **fase:** F0 cerrada — arquitectura e instrucciones;
+- **siguiente fase:** F1 — prueba de arquitectura del mapa maestro;
+- **casos de F1:** fórmula del ego + R\* + Aego;
+- **restricción:** no realizar extracción sistemática del corpus antes de validar esos tres casos.
 
-Hasta que esos tres casos no validen el esquema, no se realiza extracción sistemática de todo el corpus.
+Este apartado describe el hito de partida, pero el **estado operativo más reciente siempre se obtiene del último commit de trabajo**, conforme a la sección 17.
 
 ---
 
-## 17. Regla final
+## 17. Protocolo obligatorio de commits y continuidad
+
+### 17.1 Principio
+
+Cada commit de trabajo debe funcionar como **punto de reanudación autosuficiente**.
+
+Una persona o agente que lea `INSTRUCCIONES.md` y el commit de trabajo más reciente debe poder saber:
+
+- en qué fase está el proyecto;
+- qué subsistema se modificó;
+- si el trabajo quedó terminado, parcial o bloqueado;
+- qué se hizo;
+- qué quedó validado;
+- cuál es el siguiente paso concreto.
+
+No asumir que el lector revisará el commit anterior ni una conversación previa.
+
+### 17.2 Formato del asunto
+
+Todo commit de trabajo usa:
+
+`[F<fase>][<SISTEMA>][<ESTADO>] descripción breve de lo completado`
+
+Fases:
+
+- `F0` — arquitectura, instrucciones e infraestructura de base;
+- `F1` — prueba de arquitectura del mapa;
+- `F2` — núcleo ontológico;
+- `F3` — formalización y metrología;
+- `F4` — métodos, instrumentos y aplicaciones;
+- `F5` — rutas de lectura y validación final;
+- `MANT` — mantenimiento posterior a v1.
+
+Subsistemas preferidos:
+
+- `DOCS` — instrucciones y documentación normativa;
+- `FUENTES` — fuentes canónicas e integridad;
+- `ESTRUCTURA` — segmentación, estructuras y catálogo;
+- `MAPA` — datos o esquema semántico;
+- `VALIDACION` — pruebas de aceptación y consistencia;
+- `EDITORIAL` — revisiones de estilo o doctrina;
+- `DOCENCIA` — diplomados y materiales formativos;
+- `SOFTWARE` — motores, calculadoras e interfaces;
+- `INFRA` — scripts, workflows y automatización.
+
+Estados:
+
+- `HECHO` — el hito descrito quedó completado y validado;
+- `PARCIAL` — avance utilizable, pero el hito continúa;
+- `BLOQUEADO` — existe un impedimento concreto que debe quedar descrito;
+- `DERIVADO` — commit automático o regenerado que no modifica por sí mismo el hito intelectual del proyecto.
+
+### 17.3 Cuerpo obligatorio del commit de trabajo
+
+Todo commit de trabajo debe incluir estas líneas:
+
+```text
+FASE: <fase y nombre>
+SISTEMA: <subsistema>
+ESTADO: <HECHO | PARCIAL | BLOQUEADO>
+HECHO: <qué cambió o quedó construido>
+VALIDADO: <qué prueba, criterio o verificación ya pasó>
+SIGUIENTE: <una acción concreta que continúa el proyecto>
+```
+
+Cuando proceda puede añadirse:
+
+```text
+BLOQUEO: <impedimento verificable>
+DECISION: <decisión arquitectónica/doctrinal que no debe rediscutirse sin una prueba fallida>
+```
+
+### 17.4 Granularidad
+
+- Un commit debe representar un hito lógico reconocible, no una mezcla arbitraria de subsistemas.
+- No crear commits vacíos únicamente para actualizar el estado.
+- El mensaje describe el estado después del commit, no el plan previo.
+- Si un trabajo queda parcial por cierre de sesión, debe poder retomarse desde `SIGUIENTE` sin reconstruir el razonamiento histórico.
+
+### 17.5 Commits automáticos
+
+Los workflows que generen commits deben usar `DERIVADO` y preservar el contexto del commit que los disparó.
+
+Formato mínimo:
+
+```text
+[F<fase>][<SISTEMA>][DERIVADO] <regeneración automática>
+
+ORIGEN: <mensaje del commit que disparó el workflow>
+CAMBIO_DE_HITO: no
+```
+
+Un commit `DERIVADO` no sustituye el estado intelectual del commit de origen: debe permitir recuperarlo directamente desde su propio mensaje mediante `ORIGEN`.
+
+Si un workflow no puede preservar ese contexto, debe modificarse antes de considerarlo compatible con esta estrategia de continuidad.
+
+### 17.6 Pull requests y merges
+
+Cuando se use un pull request:
+
+- el título y el merge deben conservar la fase y el subsistema;
+- el mensaje final en `main` debe seguir siendo suficiente para reanudar el trabajo;
+- no usar un merge genérico que borre el significado de los commits de trabajo.
+
+### 17.7 Regla de cierre de cada sesión de trabajo
+
+Antes de considerar terminada una sesión que haya modificado el repositorio:
+
+1. verificar que el último commit cumple este protocolo;
+2. comprobar que `SIGUIENTE` apunta al próximo trabajo real y no a otra ronda abstracta de preparación;
+3. si cambió una fase, reflejarlo explícitamente en el mensaje;
+4. no crear otro documento de estado paralelo.
+
+---
+
+## 18. Regla final
 
 **No volver a cimentar una base que ya funciona.**
 
