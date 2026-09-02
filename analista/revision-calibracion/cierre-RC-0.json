@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "proceso": "revision_calibracion_documental",
+  "fase": "RC-0",
+  "estado": "cerrada",
+  "criterio": "la_revision_puede_comenzar_una_obra_sin_ambiguedad_sobre_auditoria_error_y_preservacion_del_baseline",
+  "baseline": {
+    "rama": "analisis-textual-v0.1",
+    "commit": "817b05a9a2eaa2643a5a49ec90f881b85a5d572e",
+    "preservar_inmutable": true
+  },
+  "rama_revision": "revision-calibracion-v0.2",
+  "productos": {
+    "especificacion": "analista/REVISION-CALIBRACION.md",
+    "configuracion": "analista/config/revision-calibracion.yaml",
+    "clausura": "analista/config/clausura-descriptiva.yaml",
+    "catalogo_inicial": "analista/revision-calibracion/incidencias-iniciales.jsonl"
+  },
+  "primera_obra": {
+    "obra_id": "FUE-6F24D4138FC2",
+    "titulo": "Caos: El abismo del ego y la doble mediación",
+    "ruta": "corpus/fuentes/Caos_El_abismo_del_ego_y_la_doble_mediacion.md",
+    "sha256_fuente_fase10": "9ab791af757776fe768b0c4f4c6406d53cb2b68afcc00b2cb5006cb00a95e6bb",
+    "unidades_fase10": 607,
+    "perfil_conceptual_fase10": "sin_glosario_tecnico_explicito"
+  },
+  "modifica_motores": false,
+  "autoridad_doctrinal_humana": false,
+  "siguiente_fase": "RC-1"
+}
