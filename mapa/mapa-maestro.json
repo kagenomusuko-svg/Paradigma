@@ -1,9 +1,9 @@
 {
-  "map_version": "1.7.0",
+  "map_version": "1.8.0",
   "schema_status": "frozen",
   "phase": "F2",
   "purpose": "Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.",
-  "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 integra sistemáticamente Caos, Afrodita Areia I–V y El dilema de Aquiles, auditados por sus unidades editoriales; se conservan las evoluciones terminológicas, doctrinales, psicológicas, jurídicas y formales que requieren adjudicación.",
+  "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 integra sistemáticamente Caos, Afrodita Areia I–V, El dilema de Aquiles y El juego de las máscaras, auditados por sus unidades editoriales; se conservan diferencias ontológicas, psicológicas, jurídicas, políticas, formales y editoriales pendientes de adjudicación.",
   "works": [
     {
       "id": "CAOS",
@@ -70,6 +70,12 @@
       "title": "El dilema de Aquiles o la disociación del ego",
       "source": "corpus/fuentes/El_dilema_de_Aquiles_o_la_disociacion_del_ego.md",
       "sha256": "ae930142db6d9a62b4bb591175b8f7169984a22bab1cd4bb780812ad76508615"
+    },
+    {
+      "id": "MASCARAS",
+      "title": "El juego de las máscaras o la disforia de la identidad",
+      "source": "corpus/fuentes/El_juego_de_las_mascaras_o_la_disforia_de_la_identidad.md",
+      "sha256": "cbab9ee5a1bb8c838e2dd5de64e314148b90c3f6831d58edb96252e23b255541"
     }
   ],
   "evidence": [
@@ -3702,6 +3708,655 @@
       ],
       "section": "Epílogo · arco, mar y autolocalización autoral",
       "evidence_type": "authorial_closure"
+    },
+    {
+      "id": "ev.mask.prelim.bibliographic",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/00-preliminares.md",
+      "source_lines": [
+        1,
+        40
+      ],
+      "section": "Preliminares · edición, licencia e índice",
+      "evidence_type": "editorial_evidence"
+    },
+    {
+      "id": "ev.mask.prelim.program",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/00-preliminares.md",
+      "source_lines": [
+        41,
+        85
+      ],
+      "section": "Notas del autor · programa y arco de Odiseo",
+      "evidence_type": "authorial_program"
+    },
+    {
+      "id": "ev.mask.prologue.universal",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/02-prologo.md",
+      "source_lines": [
+        86,
+        150
+      ],
+      "section": "Prólogo · del masking clínico a condición humana",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.mask.prologue.formula",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/02-prologo.md",
+      "source_lines": [
+        151,
+        220
+      ],
+      "section": "Prólogo · mediación sin voluntad y continuidad de la colección",
+      "evidence_type": "authorial_crosswork_claim"
+    },
+    {
+      "id": "ev.mask.prologue.odysseus",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/02-prologo.md",
+      "source_lines": [
+        221,
+        280
+      ],
+      "section": "Prólogo · Nadie y el grito de Odiseo",
+      "evidence_type": "authorial_interpretation"
+    },
+    {
+      "id": "ev.mask.prologue.scope",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/02-prologo.md",
+      "source_lines": [
+        281,
+        338
+      ],
+      "section": "Prólogo · no diagnóstico, catarsis, rendición y no-receta",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.mask.masking.clinical",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-01.md",
+      "source_lines": [
+        339,
+        470
+      ],
+      "section": "Capítulo I · masking clínico y trampa de la excepción",
+      "evidence_type": "authorial_literature_use"
+    },
+    {
+      "id": "ev.mask.masking.ontological",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-01.md",
+      "source_lines": [
+        471,
+        590
+      ],
+      "section": "Capítulo I · enmascaramiento ontológico, código y máscara",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.mask.institution",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-01.md",
+      "source_lines": [
+        591,
+        700
+      ],
+      "section": "Capítulo I · institución informal y adaptación",
+      "evidence_type": "authorial_model"
+    },
+    {
+      "id": "ev.mask.formulas.initial",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-01.md",
+      "source_lines": [
+        701,
+        790
+      ],
+      "section": "Capítulo I · dos cadenas de autodeterminación",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.mask.dysphoria.initial",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-01.md",
+      "source_lines": [
+        791,
+        847
+      ],
+      "section": "Capítulo I · disforia y disociación como indicadores",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.mask.dysphoria.definition",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-02.md",
+      "source_lines": [
+        848,
+        1000
+      ],
+      "section": "Capítulo II · disforia y suma fáctica",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.mask.formulas.developed",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-02.md",
+      "source_lines": [
+        1001,
+        1160
+      ],
+      "section": "Capítulo II · fórmula completa y fórmula sin voluntad",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.mask.dysphoria.modes",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-02.md",
+      "source_lines": [
+        1161,
+        1280
+      ],
+      "section": "Capítulo II · disforia con duelo y disociación anestesiada",
+      "evidence_type": "authorial_typology"
+    },
+    {
+      "id": "ev.mask.dysphoria.huxley",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-02.md",
+      "source_lines": [
+        1281,
+        1400
+      ],
+      "section": "Capítulo II · Mundo Feliz y disforia colectiva",
+      "evidence_type": "authorial_interpretation"
+    },
+    {
+      "id": "ev.mask.dysphoria.confusions",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-02.md",
+      "source_lines": [
+        1401,
+        1476
+      ],
+      "section": "Capítulo II · infelicidad, inconformismo, falsedad e identidad",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.mask.grief.definition",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-03.md",
+      "source_lines": [
+        1477,
+        1620
+      ],
+      "section": "Capítulo III · duelo como resistencia y proporcionalidad",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.mask.grief.therapy",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-03.md",
+      "source_lines": [
+        1621,
+        1760
+      ],
+      "section": "Capítulo III · lectura del duelo y crítica de la catarsis terapéutica",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.mask.grief.catharsis_time",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-03.md",
+      "source_lines": [
+        1761,
+        1900
+      ],
+      "section": "Capítulo III · alarma, clarificación y tiempo",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.mask.grief.types_threshold",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-03.md",
+      "source_lines": [
+        1901,
+        2044
+      ],
+      "section": "Capítulo III · duelo productivo, obsesivo y umbral",
+      "evidence_type": "authorial_typology"
+    },
+    {
+      "id": "ev.mask.identity.definition",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-04.md",
+      "source_lines": [
+        2045,
+        2190
+      ],
+      "section": "Capítulo IV · identidad como sesgo imperfecto",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.mask.identity.ownership_inertia",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-04.md",
+      "source_lines": [
+        2191,
+        2340
+      ],
+      "section": "Capítulo IV · voluntad, propiedad e inercia",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.mask.identity.change_ethics",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-04.md",
+      "source_lines": [
+        2341,
+        2490
+      ],
+      "section": "Capítulo IV · velocidades, cambio y plano ético",
+      "evidence_type": "authorial_model"
+    },
+    {
+      "id": "ev.mask.identity.other",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-04.md",
+      "source_lines": [
+        2491,
+        2570
+      ],
+      "section": "Capítulo IV · sesgo propio y sesgo ajeno",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.mask.identity.circularity",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-04.md",
+      "source_lines": [
+        2571,
+        2638
+      ],
+      "section": "Capítulo IV · circularidad y criterio del duelo",
+      "evidence_type": "authorial_limit"
+    },
+    {
+      "id": "ev.mask.odysseus.nobody",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-05.md",
+      "source_lines": [
+        2639,
+        2775
+      ],
+      "section": "Capítulo V · Nadie como acto del ego",
+      "evidence_type": "authorial_interpretation"
+    },
+    {
+      "id": "ev.mask.odysseus.shout",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-05.md",
+      "source_lines": [
+        2776,
+        2910
+      ],
+      "section": "Capítulo V · anonimato, audiencia y grito",
+      "evidence_type": "authorial_interpretation"
+    },
+    {
+      "id": "ev.mask.odysseus.transit",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-05.md",
+      "source_lines": [
+        2911,
+        3050
+      ],
+      "section": "Capítulo V · costo y Nadie como tránsito",
+      "evidence_type": "authorial_interpretation"
+    },
+    {
+      "id": "ev.mask.odysseus.application",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-05.md",
+      "source_lines": [
+        3051,
+        3184
+      ],
+      "section": "Capítulo V · diagnóstico contemporáneo y puente",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.mask.surrender.definition",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-06.md",
+      "source_lines": [
+        3185,
+        3330
+      ],
+      "section": "Capítulo VI · aceptación y definición técnica de rendición",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.mask.surrender.time_paradox",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-06.md",
+      "source_lines": [
+        3331,
+        3475
+      ],
+      "section": "Capítulo VI · historia, tiempo propio y paradoja de voluntad",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.mask.surrender.formula_conditions",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-06.md",
+      "source_lines": [
+        3476,
+        3620
+      ],
+      "section": "Capítulo VI · reapertura de fórmula y condiciones",
+      "evidence_type": "authorial_model"
+    },
+    {
+      "id": "ev.mask.surrender.experience",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-06.md",
+      "source_lines": [
+        3621,
+        3700
+      ],
+      "section": "Capítulo VI · vértigo y fenomenología",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.mask.surrender.limits",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-06.md",
+      "source_lines": [
+        3701,
+        3763
+      ],
+      "section": "Capítulo VI · límites y transición a vanidad soberana",
+      "evidence_type": "authorial_limit"
+    },
+    {
+      "id": "ev.mask.vanity.definition",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-07.md",
+      "source_lines": [
+        3764,
+        3920
+      ],
+      "section": "Capítulo VII · vanidad soberana, suficiencia e indiferencia",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.mask.vanity.equality_need",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-07.md",
+      "source_lines": [
+        3921,
+        4080
+      ],
+      "section": "Capítulo VII · igualdad ontológica y necesidad del otro",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.mask.vanity.solitude_vulnerability",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-07.md",
+      "source_lines": [
+        4081,
+        4240
+      ],
+      "section": "Capítulo VII · soledad, vulnerabilidad y profundidad",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.mask.vanity.revision",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-07.md",
+      "source_lines": [
+        4241,
+        4330
+      ],
+      "section": "Capítulo VII · crítica y capacidad de revisión",
+      "evidence_type": "authorial_test"
+    },
+    {
+      "id": "ev.mask.vanity.possibilities",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-07.md",
+      "source_lines": [
+        4331,
+        4400
+      ],
+      "section": "Capítulo VII · posibilidades y estructura espiral",
+      "evidence_type": "authorial_synthesis"
+    },
+    {
+      "id": "ev.mask.encounter.negotiation",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-08.md",
+      "source_lines": [
+        4401,
+        4555
+      ],
+      "section": "Capítulo VIII · negociación de identidades",
+      "evidence_type": "authorial_model"
+    },
+    {
+      "id": "ev.mask.encounter.difference_ethics",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-08.md",
+      "source_lines": [
+        4556,
+        4710
+      ],
+      "section": "Capítulo VIII · diferencia y planos ontológico/ético",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.mask.encounter.presence",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-08.md",
+      "source_lines": [
+        4711,
+        4865
+      ],
+      "section": "Capítulo VIII · presencia sin programa",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.mask.encounter.asymmetry_cost",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-08.md",
+      "source_lines": [
+        4866,
+        5017
+      ],
+      "section": "Capítulo VIII · encuentro asimétrico, costo y responsabilidad",
+      "evidence_type": "authorial_limit"
+    },
+    {
+      "id": "ev.mask.imputation.causality_fraud",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-09.md",
+      "source_lines": [
+        5018,
+        5185
+      ],
+      "section": "Capítulo IX · causalidad, dolo y fraude bancario",
+      "evidence_type": "authorial_legal_argument"
+    },
+    {
+      "id": "ev.mask.imputation.penalty_damage",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-09.md",
+      "source_lines": [
+        5186,
+        5350
+      ],
+      "section": "Capítulo IX · pena como tiempo de vida y alcance del daño",
+      "evidence_type": "authorial_normative_proposal"
+    },
+    {
+      "id": "ev.mask.imputation.disassociated",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-09.md",
+      "source_lines": [
+        5351,
+        5450
+      ],
+      "section": "Capítulo IX · responsabilidad sin voluntad",
+      "evidence_type": "authorial_legal_analogy"
+    },
+    {
+      "id": "ev.mask.imputation.limit_collective",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-09.md",
+      "source_lines": [
+        5451,
+        5515
+      ],
+      "section": "Capítulo IX · límite causal y sesgo colectivo",
+      "evidence_type": "authorial_limit"
+    },
+    {
+      "id": "ev.mask.imputation.penal_principles",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-09.md",
+      "source_lines": [
+        5516,
+        5600
+      ],
+      "section": "Capítulo IX · tres principios punitivos",
+      "evidence_type": "authorial_normative_proposal"
+    },
+    {
+      "id": "ev.mask.imputation.past",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-09.md",
+      "source_lines": [
+        5601,
+        5684
+      ],
+      "section": "Capítulo IX · deuda previa a la rendición",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.mask.collective.institution",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-10.md",
+      "source_lines": [
+        5685,
+        5830
+      ],
+      "section": "Capítulo X · escala institucional, sesgo y hegemonía",
+      "evidence_type": "authorial_scale_extension"
+    },
+    {
+      "id": "ev.mask.collective.oppressed_ego",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-10.md",
+      "source_lines": [
+        5831,
+        5975
+      ],
+      "section": "Capítulo X · identidad vulnerada y ego colectivo",
+      "evidence_type": "authorial_political_argument"
+    },
+    {
+      "id": "ev.mask.collective.dysphoria_surrender",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-10.md",
+      "source_lines": [
+        5976,
+        6120
+      ],
+      "section": "Capítulo X · duelo y rendición colectivos",
+      "evidence_type": "authorial_scale_extension"
+    },
+    {
+      "id": "ev.mask.collective.individual_closure",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/capitulo-10.md",
+      "source_lines": [
+        6121,
+        6264
+      ],
+      "section": "Capítulo X · responsabilidad individual y cierre",
+      "evidence_type": "authorial_normative_argument"
+    },
+    {
+      "id": "ev.mask.epilogue.return_promise",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/90-epilogo.md",
+      "source_lines": [
+        6265,
+        6420
+      ],
+      "section": "Epílogo · retorno a Odiseo y alcance del libro",
+      "evidence_type": "authorial_closure"
+    },
+    {
+      "id": "ev.mask.epilogue.story",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/90-epilogo.md",
+      "source_lines": [
+        6421,
+        6500
+      ],
+      "section": "Epílogo · historia y relato",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.mask.epilogue.collapse_work",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/90-epilogo.md",
+      "source_lines": [
+        6501,
+        6576
+      ],
+      "section": "Epílogo · colapso protagonizado y trabajo abierto",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.mask.glossary.first",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/99-glosario.md",
+      "source_lines": [
+        6577,
+        6645
+      ],
+      "section": "Glosario · aceptación a disforia",
+      "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.mask.glossary.second",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/99-glosario.md",
+      "source_lines": [
+        6646,
+        6715
+      ],
+      "section": "Glosario · duelo a imputación",
+      "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.mask.glossary.third",
+      "work_id": "MASCARAS",
+      "segment": "corpus/libros/juego-de-las-mascaras/99-glosario.md",
+      "source_lines": [
+        6716,
+        6781
+      ],
+      "section": "Glosario · máscara a voluntad",
+      "evidence_type": "authorial_glossary"
     }
   ],
   "nodes": [
@@ -7868,6 +8523,497 @@
         "ev.aq.epilogue.closure"
       ],
       "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.scope.mask",
+      "kind": "formulation",
+      "label": "Estatuto declarado de El juego de las máscaras",
+      "summary": "Ensayo filosófico no diagnóstico ni recetario que propone un mapa de máscara, disforia, duelo y rendición, aunque usa y evalúa materiales clínicos.",
+      "evidence": [
+        "ev.mask.prelim.program",
+        "ev.mask.prologue.scope"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.mask.mask",
+      "kind": "concept",
+      "label": "Máscara",
+      "summary": "Mediación no reconocida como propia que sustituye al ego y reproduce lo que el contexto exige.",
+      "evidence": [
+        "ev.mask.masking.ontological",
+        "ev.mask.glossary.third"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.social_code.mask",
+      "kind": "concept",
+      "label": "Código social",
+      "summary": "Modulación contextual elegida por el ego sin pérdida del eje propio.",
+      "evidence": [
+        "ev.mask.masking.ontological",
+        "ev.mask.glossary.first"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.modulation.mask",
+      "kind": "concept",
+      "label": "Modulación",
+      "summary": "Ajuste deliberado de la expresión de una respuesta propia al contexto.",
+      "evidence": [
+        "ev.mask.masking.ontological"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.substitution.mask",
+      "kind": "concept",
+      "label": "Sustitución",
+      "summary": "Producción automática de la respuesta esperada en lugar de una respuesta operada por la voluntad.",
+      "evidence": [
+        "ev.mask.masking.ontological",
+        "ev.mask.institution"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.ontological_masking.mask",
+      "kind": "concept",
+      "label": "Enmascaramiento ontológico",
+      "summary": "Sedimentación previa a la reflexión que la obra extiende como condición humana general.",
+      "evidence": [
+        "ev.mask.prologue.universal",
+        "ev.mask.masking.ontological"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.mask_institution.mask",
+      "kind": "concept",
+      "label": "Máscara como institución",
+      "summary": "Prácticas, incentivos y expectativas informales que convierten adaptación en identidad y hacen al sujeto agente de su reproducción.",
+      "evidence": [
+        "ev.mask.institution"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.will_operator.mask",
+      "kind": "concept",
+      "label": "Voluntad como operador",
+      "summary": "Intervención entre sesgo y mediación que examina, sostiene o modifica el sesgo antes del acto.",
+      "evidence": [
+        "ev.mask.formulas.initial",
+        "ev.mask.formulas.developed",
+        "ev.mask.glossary.third"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.first_formula.mask",
+      "kind": "formal_object",
+      "label": "Primera fórmula de Máscaras",
+      "summary": "Cadena autoral con voluntad que produce acto y ego genuinos.",
+      "evidence": [
+        "ev.mask.formulas.initial",
+        "ev.mask.formulas.developed",
+        "ev.mask.glossary.second"
+      ],
+      "evidence_status": "explicit",
+      "formal_spec": {
+        "expression": "Sesgo → Voluntad → Primera mediación → Acto → Segunda mediación → Ego",
+        "object_type": "authorial_causal_chain",
+        "epistemic_status": "pending_crosswork_and_typing_review"
+      }
+    },
+    {
+      "id": "formal.second_formula.mask",
+      "kind": "formal_object",
+      "label": "Segunda fórmula de Máscaras",
+      "summary": "Cadena sin voluntad en la que la suma fáctica produce mediación, acto y ego disociado.",
+      "evidence": [
+        "ev.mask.formulas.initial",
+        "ev.mask.formulas.developed",
+        "ev.mask.glossary.second"
+      ],
+      "evidence_status": "explicit",
+      "formal_spec": {
+        "expression": "Sesgo (suma fáctica) → Primera mediación → Acto → Segunda mediación → Ego disociado",
+        "object_type": "authorial_causal_chain",
+        "epistemic_status": "pending_crosswork_and_typing_review"
+      }
+    },
+    {
+      "id": "concept.factical_sum.mask",
+      "kind": "concept",
+      "label": "Suma fáctica",
+      "summary": "Sesgo implantado acumulado que opera como si fuera el sujeto, sin intervención de la voluntad.",
+      "evidence": [
+        "ev.mask.dysphoria.definition",
+        "ev.mask.glossary.third"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.identity_dysphoria.mask",
+      "kind": "concept",
+      "label": "Disforia de la identidad en Máscaras",
+      "summary": "Incomodidad estructural producida por actos que nacen de suma fáctica; se declara no clínica y no equivalente a infelicidad, inconformismo o falsedad.",
+      "evidence": [
+        "ev.mask.dysphoria.definition",
+        "ev.mask.dysphoria.confusions",
+        "ev.mask.glossary.first"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.dysphoria_modes.mask",
+      "kind": "formulation",
+      "label": "Dos modalidades de disforia",
+      "summary": "Con ego operante hay resistencia y duelo; con ego anulado o disociado desaparece la señal de superficie.",
+      "evidence": [
+        "ev.mask.dysphoria.modes",
+        "ev.mask.glossary.first"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.dissociation.mask",
+      "kind": "formulation",
+      "label": "Disociación del ego en Máscaras",
+      "summary": "Pérdida de acceso del ego a la superficie cuando la máscara se vuelve normalidad y la suma fáctica ocupa la cadena.",
+      "evidence": [
+        "ev.mask.dysphoria.modes",
+        "ev.mask.glossary.second"
+      ],
+      "evidence_status": "explicit",
+      "subject": "concept.disociacion_ego",
+      "role": "historical_formulation"
+    },
+    {
+      "id": "concept.productive_grief.mask",
+      "kind": "concept",
+      "label": "Duelo productivo",
+      "summary": "Resistencia sostenida del ego que señala hacia la brecha interna y abre el umbral de la rendición.",
+      "evidence": [
+        "ev.mask.grief.definition",
+        "ev.mask.grief.types_threshold",
+        "ev.mask.glossary.second"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.obsessive_grief.mask",
+      "kind": "concept",
+      "label": "Duelo obsesivo",
+      "summary": "Duelo por máscara o ideal que señala hacia afuera, reclama y cierra el camino de retorno.",
+      "evidence": [
+        "ev.mask.grief.types_threshold",
+        "ev.mask.glossary.second"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.catharsis.mask",
+      "kind": "formulation",
+      "label": "Catarsis como descarga o clarificación",
+      "summary": "Contrasta una catarsis terapéutica caracterizada como alivio/anestesia con una lectura aristotélica como clarificación de la señal.",
+      "evidence": [
+        "ev.mask.grief.therapy",
+        "ev.mask.grief.catharsis_time",
+        "ev.mask.glossary.first"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.identity.mask",
+      "kind": "formulation",
+      "label": "Identidad como sesgo en Máscaras",
+      "summary": "Identidad particular, falible e imperfecta que se vuelve propia cuando la voluntad opera el sesgo heredado.",
+      "evidence": [
+        "ev.mask.identity.definition",
+        "ev.mask.identity.ownership_inertia",
+        "ev.mask.glossary.second"
+      ],
+      "evidence_status": "explicit",
+      "subject": "concept.identidad_sesgo.aa1",
+      "role": "historical_formulation"
+    },
+    {
+      "id": "concept.own_bias.mask",
+      "kind": "concept",
+      "label": "Sesgo propio",
+      "summary": "Sesgo heredado que la voluntad sostuvo, modificó o no abandonó cuando hubo oportunidad de hacerlo.",
+      "evidence": [
+        "ev.mask.identity.ownership_inertia",
+        "ev.mask.identity.other"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.implanted_bias.mask",
+      "kind": "concept",
+      "label": "Sesgo implantado",
+      "summary": "Sesgo instalado sin oportunidad de aceptación o rechazo que opera como realidad y no como perspectiva.",
+      "evidence": [
+        "ev.mask.identity.ownership_inertia",
+        "ev.mask.glossary.third"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.identity_inertia.mask",
+      "kind": "formulation",
+      "label": "Velocidades del ego y la identidad",
+      "summary": "El ego cambiaría con cada acto, mientras la identidad sedimentaria cambiaría por acumulación de épocas y conservaría capas anteriores.",
+      "evidence": [
+        "ev.mask.identity.ownership_inertia",
+        "ev.mask.identity.change_ethics"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.odysseus.mask",
+      "kind": "formulation",
+      "label": "Lectura de Odiseo en Máscaras",
+      "summary": "Nadie es acto genuino y táctico; el grito revela dependencia de audiencia, y el anonimato se propone como tránsito, no destino.",
+      "evidence": [
+        "ev.mask.prologue.odysseus",
+        "ev.mask.odysseus.nobody",
+        "ev.mask.odysseus.shout",
+        "ev.mask.odysseus.transit"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.nobody_transit.mask",
+      "kind": "concept",
+      "label": "Nadie como tránsito",
+      "summary": "Paso temporal desde identidad dependiente del reconocimiento hacia capacidad de existir sin testigos.",
+      "evidence": [
+        "ev.mask.odysseus.transit",
+        "ev.mask.odysseus.application"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.surrender.mask",
+      "kind": "concept",
+      "label": "Rendición",
+      "summary": "Cese del esfuerzo que sostiene la mediación disociada y reapertura de la cadena con voluntad; no se identifica con derrota ni aceptación.",
+      "evidence": [
+        "ev.mask.surrender.definition",
+        "ev.mask.surrender.formula_conditions",
+        "ev.mask.glossary.third"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.surrender_paradox.mask",
+      "kind": "formulation",
+      "label": "Paradoja de la rendición",
+      "summary": "La rendición necesita voluntad mínima residual, se presenta como acto y a la vez como acontecimiento que no se decide sino que se produce.",
+      "evidence": [
+        "ev.mask.surrender.time_paradox",
+        "ev.mask.surrender.formula_conditions"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.own_time.mask",
+      "kind": "concept",
+      "label": "Tiempo propio",
+      "summary": "Tiempo cuyos actos pasaron por la voluntad, contrapuesto al tiempo meramente vivido a través del sujeto.",
+      "evidence": [
+        "ev.mask.surrender.time_paradox",
+        "ev.mask.glossary.third"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.genuine_collapse.mask",
+      "kind": "concept",
+      "label": "Colapso genuino en Máscaras",
+      "summary": "Acto producido por la primera fórmula que determina al ego y deposita sedimento en dirección propia.",
+      "evidence": [
+        "ev.mask.surrender.formula_conditions",
+        "ev.mask.epilogue.collapse_work",
+        "ev.mask.glossary.first"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.sovereign_vanity.mask",
+      "kind": "concept",
+      "label": "Vanidad soberana",
+      "summary": "Suficiencia interior que permite existir sin confirmación, necesitar al otro sin usarlo como espejo y revisar posiciones.",
+      "evidence": [
+        "ev.mask.vanity.definition",
+        "ev.mask.vanity.possibilities",
+        "ev.mask.glossary.third"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.ontological_equality.mask",
+      "kind": "concept",
+      "label": "Igualdad ontológica en Máscaras",
+      "summary": "Igualdad de todo sujeto en tener sesgo, historia y posibilidad de voluntad, distinta de equivalencia de capacidades o actos.",
+      "evidence": [
+        "ev.mask.vanity.equality_need",
+        "ev.mask.encounter.difference_ethics",
+        "ev.mask.glossary.second"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.encounter_without_negotiation.mask",
+      "kind": "concept",
+      "label": "Encuentro sin negociación",
+      "summary": "Encuentro sin urgencia de confirmación de imagen, posible parcialmente aunque solo uno esté presente como sujeto.",
+      "evidence": [
+        "ev.mask.encounter.negotiation",
+        "ev.mask.encounter.presence",
+        "ev.mask.glossary.second"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.presence_without_program.mask",
+      "kind": "concept",
+      "label": "Presencia sin programa",
+      "summary": "Apertura a que el encuentro exceda el resultado previsto, compatible con propósitos y código social.",
+      "evidence": [
+        "ev.mask.encounter.presence"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.ethical_ontological_planes.mask",
+      "kind": "formulation",
+      "label": "Plano ontológico y plano ético",
+      "summary": "La igualdad en el ser no hace equivalentes los actos; propiedad de un sesgo no implica corrección moral.",
+      "evidence": [
+        "ev.mask.identity.change_ethics",
+        "ev.mask.encounter.difference_ethics"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.causal_imputation.mask",
+      "kind": "concept",
+      "label": "Imputación causal en Máscaras",
+      "summary": "Principio según el cual responsabilidad sigue a causalidad y al ego como nodo sine qua non, no centralmente al dolo.",
+      "evidence": [
+        "ev.mask.imputation.causality_fraud",
+        "ev.mask.glossary.second"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.responsibility.mask",
+      "kind": "formulation",
+      "label": "Responsabilidad causal en Máscaras",
+      "summary": "Atribuye responsabilidad por daño al ego causal, incluida omisión de voluntad bajo disociación y deuda anterior a la rendición.",
+      "evidence": [
+        "ev.mask.imputation.causality_fraud",
+        "ev.mask.imputation.disassociated",
+        "ev.mask.imputation.past"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.penalty_time.mask",
+      "kind": "formulation",
+      "label": "Pena como sustracción de tiempo de vida",
+      "summary": "Propone retirar al responsable tiempo de vida proporcional al tiempo cristalizado o directamente sustraído a la víctima.",
+      "evidence": [
+        "ev.mask.imputation.penalty_damage",
+        "ev.mask.imputation.penal_principles"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.damage_scope.mask",
+      "kind": "formulation",
+      "label": "Reconstruibilidad y alcance del daño",
+      "summary": "Limita imputación individual a cadenas reconstruibles con precisión suficiente y remite el resto al sesgo colectivo.",
+      "evidence": [
+        "ev.mask.imputation.penalty_damage",
+        "ev.mask.imputation.limit_collective",
+        "ev.mask.imputation.penal_principles"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.collective_bias.mask",
+      "kind": "concept",
+      "label": "Sesgo colectivo en Máscaras",
+      "summary": "Convergencia de sesgos individuales sin proyecto común que produce efectos de escala no imputables a un ego individual.",
+      "evidence": [
+        "ev.mask.imputation.limit_collective",
+        "ev.mask.collective.institution",
+        "ev.mask.glossary.third"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.collective_ego.mask",
+      "kind": "concept",
+      "label": "Ego colectivo en Máscaras",
+      "summary": "Punto de referencia compartido capaz de decir nosotros y producir actos que ningún individuo produciría solo; no se declara mera suma de egos.",
+      "evidence": [
+        "ev.mask.collective.oppressed_ego",
+        "ev.mask.glossary.second"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.collective_dysphoria.mask",
+      "kind": "concept",
+      "label": "Disforia colectiva",
+      "summary": "Extensión del esquema de sesgo implantado, voluntad ausente y duelo a instituciones, clases y sociedades.",
+      "evidence": [
+        "ev.mask.dysphoria.huxley",
+        "ev.mask.collective.oppressed_ego",
+        "ev.mask.collective.dysphoria_surrender"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.institutional_mask.mask",
+      "kind": "concept",
+      "label": "Máscara institucional",
+      "summary": "Sesgo histórico del poder presentado como neutralidad o realidad y reproducido por reglas formales e informales.",
+      "evidence": [
+        "ev.mask.collective.institution",
+        "ev.mask.collective.oppressed_ego"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.collective_surrender.mask",
+      "kind": "concept",
+      "label": "Rendición colectiva",
+      "summary": "Cese agregado de reproducción hegemónica cuando una masa crítica de individuos opera voluntad sobre sus sesgos.",
+      "evidence": [
+        "ev.mask.collective.dysphoria_surrender",
+        "ev.mask.collective.individual_closure"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.story_release.mask",
+      "kind": "formulation",
+      "label": "Soltar el relato",
+      "summary": "Distingue historia como material propio de relato orientado a una audiencia y propone dejar de necesitar su confirmación.",
+      "evidence": [
+        "ev.mask.epilogue.story",
+        "ev.mask.epilogue.collapse_work"
+      ],
+      "evidence_status": "explicit"
     }
   ],
   "relations": [
@@ -10976,6 +12122,500 @@
         "ev.aa3.collective.identity"
       ],
       "rationale": "Ambas figuras describen gobierno por una representación, pero Aquiles exige origen ajeno de la imagen y AA-III presenta mascarada constituida por colapsos asumidos y extensible a colectivos."
+    },
+    {
+      "id": "rel.social_code_mask.realizes_modulation",
+      "type": "realizes",
+      "from": "concept.social_code.mask",
+      "to": "concept.modulation.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.masking.ontological"
+      ]
+    },
+    {
+      "id": "rel.mask_mask.realizes_substitution",
+      "type": "realizes",
+      "from": "concept.mask.mask",
+      "to": "concept.substitution.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.masking.ontological"
+      ]
+    },
+    {
+      "id": "rel.ontological_masking_mask.institutionalized",
+      "type": "institutionalized_as",
+      "from": "concept.ontological_masking.mask",
+      "to": "concept.mask_institution.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.institution"
+      ]
+    },
+    {
+      "id": "rel.will_mask.completes_first_formula",
+      "type": "operates_in",
+      "from": "concept.will_operator.mask",
+      "to": "formal.first_formula.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.formulas.initial",
+        "ev.mask.formulas.developed"
+      ]
+    },
+    {
+      "id": "rel.factical_sum_mask.drives_second_formula",
+      "type": "operates_in",
+      "from": "concept.factical_sum.mask",
+      "to": "formal.second_formula.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.formulas.developed"
+      ]
+    },
+    {
+      "id": "rel.implanted_bias_mask.accumulates_factical_sum",
+      "type": "accumulates_as",
+      "from": "concept.implanted_bias.mask",
+      "to": "concept.factical_sum.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.dysphoria.definition",
+        "ev.mask.glossary.third"
+      ]
+    },
+    {
+      "id": "rel.second_formula_mask.produces_dysphoria",
+      "type": "produces",
+      "from": "formal.second_formula.mask",
+      "to": "concept.identity_dysphoria.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.formulas.developed",
+        "ev.mask.dysphoria.definition"
+      ]
+    },
+    {
+      "id": "rel.dysphoria_modes_mask.classify_dysphoria",
+      "type": "classifies",
+      "from": "formulation.dysphoria_modes.mask",
+      "to": "concept.identity_dysphoria.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.dysphoria.modes"
+      ]
+    },
+    {
+      "id": "rel.dissociation_mask.anesthetizes_dysphoria",
+      "type": "anesthetizes",
+      "from": "formulation.dissociation.mask",
+      "to": "concept.identity_dysphoria.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.dysphoria.modes"
+      ]
+    },
+    {
+      "id": "rel.productive_grief_mask.signals_dysphoria",
+      "type": "signals",
+      "from": "concept.productive_grief.mask",
+      "to": "concept.identity_dysphoria.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.grief.definition"
+      ]
+    },
+    {
+      "id": "rel.obsessive_grief_mask.distinguished_productive",
+      "type": "distinguished_from",
+      "from": "concept.obsessive_grief.mask",
+      "to": "concept.productive_grief.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.grief.types_threshold"
+      ]
+    },
+    {
+      "id": "rel.catharsis_mask.interprets_grief",
+      "type": "interprets",
+      "from": "formulation.catharsis.mask",
+      "to": "concept.productive_grief.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.grief.therapy",
+        "ev.mask.grief.catharsis_time"
+      ]
+    },
+    {
+      "id": "rel.will_mask.makes_bias_own",
+      "type": "makes_own",
+      "from": "concept.will_operator.mask",
+      "to": "concept.own_bias.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.identity.ownership_inertia"
+      ]
+    },
+    {
+      "id": "rel.implanted_bias_mask.distinguished_own",
+      "type": "distinguished_from",
+      "from": "concept.implanted_bias.mask",
+      "to": "concept.own_bias.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.identity.ownership_inertia"
+      ]
+    },
+    {
+      "id": "rel.identity_mask.formulated_as_own_bias",
+      "type": "formulated_as",
+      "from": "formulation.identity.mask",
+      "to": "concept.own_bias.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.identity.definition",
+        "ev.mask.identity.ownership_inertia"
+      ]
+    },
+    {
+      "id": "rel.nobody_mask.exemplifies_first_formula",
+      "type": "exemplifies",
+      "from": "concept.nobody_transit.mask",
+      "to": "formal.first_formula.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.odysseus.nobody"
+      ]
+    },
+    {
+      "id": "rel.odysseus_mask.models_nobody",
+      "type": "models",
+      "from": "formulation.odysseus.mask",
+      "to": "concept.nobody_transit.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.odysseus.transit"
+      ]
+    },
+    {
+      "id": "rel.productive_grief_mask.enables_surrender",
+      "type": "enables",
+      "from": "concept.productive_grief.mask",
+      "to": "concept.surrender.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.grief.types_threshold",
+        "ev.mask.surrender.time_paradox"
+      ]
+    },
+    {
+      "id": "rel.surrender_mask.reopens_first_formula",
+      "type": "reopens",
+      "from": "concept.surrender.mask",
+      "to": "formal.first_formula.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.surrender.formula_conditions"
+      ]
+    },
+    {
+      "id": "rel.surrender_paradox_mask.qualifies_surrender",
+      "type": "qualifies",
+      "from": "formulation.surrender_paradox.mask",
+      "to": "concept.surrender.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.surrender.time_paradox",
+        "ev.mask.surrender.formula_conditions"
+      ]
+    },
+    {
+      "id": "rel.first_formula_mask.produces_own_time",
+      "type": "produces",
+      "from": "formal.first_formula.mask",
+      "to": "concept.own_time.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.surrender.time_paradox"
+      ]
+    },
+    {
+      "id": "rel.first_formula_mask.produces_genuine_collapse",
+      "type": "produces",
+      "from": "formal.first_formula.mask",
+      "to": "concept.genuine_collapse.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.surrender.formula_conditions"
+      ]
+    },
+    {
+      "id": "rel.genuine_collapse_mask.accumulates_vanity",
+      "type": "accumulates_toward",
+      "from": "concept.genuine_collapse.mask",
+      "to": "concept.sovereign_vanity.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.vanity.possibilities",
+        "ev.mask.epilogue.return_promise"
+      ]
+    },
+    {
+      "id": "rel.ontological_equality_mask.grounds_encounter",
+      "type": "grounds",
+      "from": "concept.ontological_equality.mask",
+      "to": "concept.encounter_without_negotiation.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.vanity.equality_need",
+        "ev.mask.encounter.difference_ethics"
+      ]
+    },
+    {
+      "id": "rel.sovereign_vanity_mask.enables_encounter",
+      "type": "enables",
+      "from": "concept.sovereign_vanity.mask",
+      "to": "concept.encounter_without_negotiation.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.vanity.equality_need",
+        "ev.mask.encounter.negotiation"
+      ]
+    },
+    {
+      "id": "rel.presence_mask.conditions_encounter",
+      "type": "conditions",
+      "from": "concept.presence_without_program.mask",
+      "to": "concept.encounter_without_negotiation.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.encounter.presence"
+      ]
+    },
+    {
+      "id": "rel.ethical_planes_mask.qualify_equality",
+      "type": "qualifies",
+      "from": "formulation.ethical_ontological_planes.mask",
+      "to": "concept.ontological_equality.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.encounter.difference_ethics"
+      ]
+    },
+    {
+      "id": "rel.causal_imputation_mask.grounds_responsibility",
+      "type": "grounds",
+      "from": "concept.causal_imputation.mask",
+      "to": "formulation.responsibility.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.imputation.causality_fraud"
+      ]
+    },
+    {
+      "id": "rel.responsibility_mask.justifies_penalty",
+      "type": "justifies",
+      "from": "formulation.responsibility.mask",
+      "to": "formulation.penalty_time.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.imputation.penalty_damage",
+        "ev.mask.imputation.penal_principles"
+      ]
+    },
+    {
+      "id": "rel.damage_scope_mask.limits_imputation",
+      "type": "limits",
+      "from": "formulation.damage_scope.mask",
+      "to": "concept.causal_imputation.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.imputation.limit_collective"
+      ]
+    },
+    {
+      "id": "rel.collective_bias_mask.receives_diffuse_damage",
+      "type": "receives_unattributed_damage",
+      "from": "concept.collective_bias.mask",
+      "to": "formulation.damage_scope.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.imputation.limit_collective"
+      ]
+    },
+    {
+      "id": "rel.institutional_mask_mask.installs_collective_bias",
+      "type": "installs",
+      "from": "concept.institutional_mask.mask",
+      "to": "concept.collective_bias.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.collective.institution"
+      ]
+    },
+    {
+      "id": "rel.collective_dysphoria_mask.affects_collective_ego",
+      "type": "affects",
+      "from": "concept.collective_dysphoria.mask",
+      "to": "concept.collective_ego.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.collective.oppressed_ego"
+      ]
+    },
+    {
+      "id": "rel.collective_surrender_mask.reorients_collective_bias",
+      "type": "reorients",
+      "from": "concept.collective_surrender.mask",
+      "to": "concept.collective_bias.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.collective.dysphoria_surrender"
+      ]
+    },
+    {
+      "id": "rel.story_release_mask.supports_vanity",
+      "type": "supports",
+      "from": "formulation.story_release.mask",
+      "to": "concept.sovereign_vanity.mask",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.mask.epilogue.story",
+        "ev.mask.epilogue.collapse_work"
+      ]
+    },
+    {
+      "id": "rel.formula_mask.differs_core_order",
+      "type": "differs_from",
+      "from": "formal.first_formula.mask",
+      "to": "formal.ego.caos",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mask.formulas.developed",
+        "ev.caos.formula_ego"
+      ],
+      "rationale": "Máscaras ubica voluntad antes de φ₁ y trata la cadena completa como fórmula de autodeterminación; Caos formula ego con φ₁, A, φ₂ e I(t) sin ese operador separado ni el mismo orden."
+    },
+    {
+      "id": "rel.identity_mask.elaborates_aa1_bias",
+      "type": "elaborates",
+      "from": "formulation.identity.mask",
+      "to": "formulation.identity.aa1",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mask.identity.definition",
+        "ev.aa1.identity.formation"
+      ],
+      "rationale": "Ambas llaman sesgo a la identidad, pero Máscaras la hace propia mediante operación volitiva y separa su velocidad de la del ego; AA-I la presenta como sedimento pre-egóico y filtro de φ₁."
+    },
+    {
+      "id": "rel.dysphoria_mask.differs_aa1",
+      "type": "differs_from",
+      "from": "concept.identity_dysphoria.mask",
+      "to": "concept.disforia_identidad",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mask.dysphoria.definition",
+        "ev.aa1.distortion.bad_faith"
+      ],
+      "rationale": "Máscaras define disforia por suma fáctica sin voluntad y la vuelve señal positiva de resistencia; AA-I la ubica como perturbación entre identidad-sesgo y ego-integral sin esta tipología."
+    },
+    {
+      "id": "rel.dissociation_mask.differs_aquiles",
+      "type": "differs_from",
+      "from": "formulation.dissociation.mask",
+      "to": "formulation.dissociation.aq",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mask.dysphoria.modes",
+        "ev.aq.dissociation.definition"
+      ],
+      "rationale": "Máscaras asocia disociación a anestesia y ausencia de duelo por voluntad fuera de la cadena; Aquiles la define como gobierno del yo que representa sobre el yo que actúa y admite dolor somático."
+    },
+    {
+      "id": "rel.identity_inertia_mask.differs_ego_integral",
+      "type": "differs_from",
+      "from": "formulation.identity_inertia.mask",
+      "to": "concept.ego",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mask.identity.ownership_inertia",
+        "ev.caos.integral_open_death"
+      ],
+      "rationale": "Máscaras afirma que el ego no tiene inercia propia y cambia con cada acto, reservando sedimento profundo a la identidad; el núcleo define el ego mismo como proceso integral acumulativo e irreversible."
+    },
+    {
+      "id": "rel.responsibility_mask.reframes_aa4",
+      "type": "reframes",
+      "from": "formulation.responsibility.mask",
+      "to": "formulation.responsibility.aa4",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mask.imputation.causality_fraud",
+        "ev.aa4.dolo.causal_order"
+      ],
+      "rationale": "Máscaras retoma causalidad antes que dolo, pero añade pena como tiempo y responsabilidad por omisión de voluntad bajo disociación, extensiones no formalizadas en AA-IV."
+    },
+    {
+      "id": "rel.responsibility_mask.differs_aquiles",
+      "type": "differs_from",
+      "from": "formulation.responsibility.mask",
+      "to": "formulation.responsibility.aq",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mask.imputation.disassociated",
+        "ev.aq.ethics.responsibility_time"
+      ],
+      "rationale": "Máscaras mantiene responsabilidad del ego disociado y agrava por omisión del operador; Aquiles niega que pueda ser plenamente responsable porque el acto no parte genuinamente de él."
+    },
+    {
+      "id": "rel.collective_ego_mask.differs_aa3",
+      "type": "differs_from",
+      "from": "concept.collective_ego.mask",
+      "to": "concept.aego_colectivo.aa3",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mask.collective.oppressed_ego",
+        "ev.aa3.collective.aego"
+      ],
+      "rationale": "Máscaras introduce un nosotros con voluntad colectiva y posible disociación; AA-III modela homogeneización de segundas mediaciones y Aego colectivo, sin la misma composición ni umbral."
+    },
+    {
+      "id": "rel.collective_ego_mask.differs_aa4",
+      "type": "differs_from",
+      "from": "concept.collective_ego.mask",
+      "to": "formulation.corporate_ego.aa4",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mask.collective.oppressed_ego",
+        "ev.aa4.corporate.ego"
+      ],
+      "rationale": "Máscaras aplica ego a clase, institución o colectivo y luego explica la rendición por agregación individual; AA-IV exige órganos de decisión, memoria institucional y capacidad causal para ego corporativo."
+    },
+    {
+      "id": "rel.ontological_equality_mask.differs_aa5",
+      "type": "differs_from",
+      "from": "concept.ontological_equality.mask",
+      "to": "concept.ontological_equality.aa5",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mask.vanity.equality_need",
+        "ev.aa5.rights.guarantee_equality"
+      ],
+      "rationale": "Máscaras funda igualdad en estructura subjetiva y posibilidad de voluntad, mientras AA-V la formula como igualdad de forma y capital ontológico del ciudadano soberano."
+    },
+    {
+      "id": "rel.collective_bias_mask.differs_rstar",
+      "type": "differs_from",
+      "from": "concept.collective_bias.mask",
+      "to": "formal.rstar",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mask.imputation.limit_collective",
+        "ev.mci.rstar_validity"
+      ],
+      "rationale": "Máscaras declara que daños colectivos difusos no pueden imputarse a egos individuales; la metrología R* distribuye responsabilidad entre nodos de redes causales bajo supuestos formales."
     }
   ],
   "routes": [
@@ -11032,6 +12672,11 @@
           "order": 9,
           "evidence_id": "ev.aq.ego.axis",
           "reason": "Contrasta el ego técnico previo con el eje funcional y experiencial de Aquiles."
+        },
+        {
+          "order": 10,
+          "evidence_id": "ev.mask.formulas.developed",
+          "reason": "Contrasta la voluntad antepuesta a φ₁ y el ego resultante de Máscaras."
         }
       ],
       "must_surface_review_items": [
@@ -11040,7 +12685,9 @@
         "review.aa1.neutral_habits",
         "review.aa2.phi2_function_change",
         "review.aq.ego_crosswalk",
-        "review.aq.ego_ownership"
+        "review.aq.ego_ownership",
+        "review.mask.formula_crosswalk",
+        "review.mask.identity_ego_inertia"
       ]
     },
     {
@@ -11832,13 +13479,21 @@
           "order": 6,
           "evidence_id": "ev.aq.dissociation.definition",
           "reason": "Registra el desarrollo posterior bajo el mismo nombre con componentes distintos."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.mask.dysphoria.modes",
+          "reason": "Añade la tipología posterior de disforia y disociación."
         }
       ],
       "must_surface_review_items": [
         "review.aa1.identity_change",
         "review.aa3.identity_masquerade",
         "review.aq.dissociation_crosswalk",
-        "review.aq.identity_crosswalk"
+        "review.aq.identity_crosswalk",
+        "review.mask.dysphoria_crosswalk",
+        "review.mask.dissociation_crosswalk",
+        "review.mask.identity_ownership"
       ]
     },
     {
@@ -11884,6 +13539,11 @@
           "order": 7,
           "evidence_id": "ev.aq.ethics.responsibility_time",
           "reason": "Añade la condición de autoría desde el eje genuino de Aquiles."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.mask.imputation.disassociated",
+          "reason": "Añade responsabilidad por omisión del operador en Máscaras."
         }
       ],
       "must_surface_review_items": [
@@ -11891,7 +13551,9 @@
         "review.aa1.neutral_habits",
         "review.aa4.responsibility_crosswalk",
         "review.aa5.responsibility_crosswalk",
-        "review.aq.responsibility_crosswalk"
+        "review.aq.responsibility_crosswalk",
+        "review.mask.responsibility_crosswalk",
+        "review.mask.disassociated_culpability"
       ]
     },
     {
@@ -12846,12 +14508,19 @@
           "order": 5,
           "evidence_id": "ev.caos.glossary_ego_identity",
           "reason": "Contrasta la identidad como continuidad integral en Caos."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mask.collective.oppressed_ego",
+          "reason": "Contrasta mascarada, sesgo y ego colectivo posteriores."
         }
       ],
       "must_surface_review_items": [
         "review.aa1.identity_change",
         "review.aa3.identity_masquerade",
-        "review.aa3.phi_functions"
+        "review.aa3.phi_functions",
+        "review.mask.collective_agent",
+        "review.mask.collective_crosswalk"
       ]
     },
     {
@@ -13061,13 +14730,22 @@
           "order": 6,
           "evidence_id": "ev.aq.ethics.responsibility_time",
           "reason": "Contrasta causalidad externa y autoría auténtica."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.mask.imputation.causality_fraud",
+          "reason": "Registra la extensión de causalidad a pena y daño de Máscaras."
         }
       ],
       "must_surface_review_items": [
         "review.aa1.responsibility_grounding",
         "review.aa4.responsibility_crosswalk",
         "review.aa4.derivative_formalization",
-        "review.aq.responsibility_crosswalk"
+        "review.aq.responsibility_crosswalk",
+        "review.mask.responsibility_crosswalk",
+        "review.mask.legal_dolo",
+        "review.mask.causal_necessity",
+        "review.mask.penalty_time"
       ]
     },
     {
@@ -13093,10 +14771,17 @@
           "order": 3,
           "evidence_id": "ev.aa4.imputation.external",
           "reason": "Conecta pertenencia causal e imputación."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mask.collective.oppressed_ego",
+          "reason": "Contrasta el ego corporativo con el nosotros colectivo sin órgano definido."
         }
       ],
       "must_surface_review_items": [
-        "review.aa4.corporate_ego"
+        "review.aa4.corporate_ego",
+        "review.mask.collective_agent",
+        "review.mask.collective_crosswalk"
       ]
     },
     {
@@ -13538,6 +15223,11 @@
           "order": 5,
           "evidence_id": "ev.aq.return.autodetermination",
           "reason": "Contrasta libertad como φ₂ cedible y autodeterminación como fuente propia del acto."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mask.formulas.developed",
+          "reason": "Añade voluntad como operador previo a φ₁ en Máscaras."
         }
       ],
       "must_surface_review_items": [
@@ -13545,7 +15235,9 @@
         "review.aa5.editorial_notation",
         "review.aa3.identity_masquerade",
         "review.aq.freedom_crosswalk",
-        "review.aq.ego_crosswalk"
+        "review.aq.ego_crosswalk",
+        "review.mask.formula_crosswalk",
+        "review.mask.will_opportunity"
       ]
     },
     {
@@ -14176,6 +15868,11 @@
           "order": 8,
           "evidence_id": "ev.aq.fall.threshold_others",
           "reason": "Declara umbral sin garantía."
+        },
+        {
+          "order": 9,
+          "evidence_id": "ev.mask.dysphoria.modes",
+          "reason": "Contrasta disociación dolorosa de Aquiles y anestesiada de Máscaras."
         }
       ],
       "must_surface_review_items": [
@@ -14184,7 +15881,10 @@
         "review.aq.dissociation_operationalization",
         "review.aq.body_claims",
         "review.aq.fall_inevitability",
-        "review.aq.return_ontology"
+        "review.aq.return_ontology",
+        "review.mask.dysphoria_crosswalk",
+        "review.mask.dissociation_crosswalk",
+        "review.mask.ego_persistence"
       ]
     },
     {
@@ -14315,6 +16015,11 @@
           "order": 5,
           "evidence_id": "ev.aq.ethics.excellence_principles",
           "reason": "Sintetiza excelencia y principios."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mask.imputation.disassociated",
+          "reason": "Contrasta autoría auténtica y responsabilidad mantenida bajo disociación."
         }
       ],
       "must_surface_review_items": [
@@ -14323,7 +16028,9 @@
         "review.aq.empirical_support",
         "review.aq.responsibility_crosswalk",
         "review.aq.forgiveness_normativity",
-        "review.aq.relational_generalization"
+        "review.aq.relational_generalization",
+        "review.mask.responsibility_crosswalk",
+        "review.mask.disassociated_culpability"
       ]
     },
     {
@@ -14431,6 +16138,16 @@
           "order": 10,
           "evidence_id": "ev.aq.return.narrative_phthia",
           "reason": "Introduce identidad narrativa."
+        },
+        {
+          "order": 11,
+          "evidence_id": "ev.mask.identity.definition",
+          "reason": "Añade la identidad-sesgo rearticulada por voluntad."
+        },
+        {
+          "order": 12,
+          "evidence_id": "ev.mask.dysphoria.modes",
+          "reason": "Añade disociación sin duelo y ego desplazado."
         }
       ],
       "must_surface_review_items": [
@@ -14438,7 +16155,671 @@
         "review.aq.dissociation_crosswalk",
         "review.aq.freedom_crosswalk",
         "review.aq.responsibility_crosswalk",
-        "review.aq.identity_crosswalk"
+        "review.aq.identity_crosswalk",
+        "review.mask.dysphoria_crosswalk",
+        "review.mask.dissociation_crosswalk",
+        "review.mask.identity_ego_inertia",
+        "review.mask.responsibility_crosswalk"
+      ]
+    },
+    {
+      "id": "route.mask.scope",
+      "purpose": "Recuperar alcance y método sin convertir generalizaciones clínicas en diagnóstico o validación.",
+      "triggers": [
+        "alcance de Máscaras",
+        "masking",
+        "no diagnóstico",
+        "colección"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mask.prelim.program",
+          "reason": "Formula programa."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mask.prologue.universal",
+          "reason": "Universaliza el masking."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mask.prologue.scope",
+          "reason": "Declara límites y método."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mask.glossary.first",
+          "reason": "Fija los usos técnicos."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mask.universal_masking",
+        "review.mask.clinical_boundary",
+        "review.mask.series_order",
+        "review.mask.editorial_notation"
+      ]
+    },
+    {
+      "id": "route.mask.institution_formulas",
+      "purpose": "Reconstruir máscara, código y dos fórmulas conservando el cambio respecto de la doble mediación.",
+      "triggers": [
+        "máscara",
+        "código social",
+        "modulación",
+        "sustitución",
+        "primera fórmula",
+        "segunda fórmula",
+        "suma fáctica"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mask.masking.clinical",
+          "reason": "Fija el antecedente clínico."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mask.masking.ontological",
+          "reason": "Separa código y máscara."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mask.institution",
+          "reason": "Institucionaliza el mecanismo."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mask.formulas.initial",
+          "reason": "Introduce cadenas."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mask.formulas.developed",
+          "reason": "Desarrolla voluntad y suma fáctica."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mask.glossary.third",
+          "reason": "Consolida definiciones."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mask.universal_masking",
+        "review.mask.formula_crosswalk",
+        "review.mask.will_opportunity",
+        "review.mask.identity_ego_inertia"
+      ]
+    },
+    {
+      "id": "route.mask.dysphoria_dissociation",
+      "purpose": "Distinguir disforia, duelo y disociación sin fusionarlos con homónimos ni usarlos clínicamente.",
+      "triggers": [
+        "disforia de identidad",
+        "disociación",
+        "ego anulado",
+        "duelo",
+        "suma fáctica"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mask.dysphoria.definition",
+          "reason": "Define disforia y suma."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mask.formulas.developed",
+          "reason": "Vincula fórmula."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mask.dysphoria.modes",
+          "reason": "Separa modalidades."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mask.dysphoria.huxley",
+          "reason": "Presenta caso límite y escala."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mask.dysphoria.confusions",
+          "reason": "Deshace confusiones."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mask.glossary.first",
+          "reason": "Fija cierre terminológico."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mask.clinical_boundary",
+        "review.mask.dysphoria_crosswalk",
+        "review.mask.dissociation_crosswalk",
+        "review.mask.ego_persistence",
+        "review.mask.grief_claims"
+      ]
+    },
+    {
+      "id": "route.mask.grief_catharsis",
+      "purpose": "Recuperar la teoría del duelo y su crítica terapéutica con reservas clínicas y empíricas.",
+      "triggers": [
+        "duelo productivo",
+        "duelo obsesivo",
+        "catarsis",
+        "terapia",
+        "clarificación"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mask.grief.definition",
+          "reason": "Define y proporcionaliza."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mask.grief.therapy",
+          "reason": "Critica descarga terapéutica."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mask.grief.catharsis_time",
+          "reason": "Propone clarificación y tiempo."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mask.grief.types_threshold",
+          "reason": "Distingue objetos y umbral."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mask.glossary.second",
+          "reason": "Consolida ambos duelos."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mask.clinical_boundary",
+        "review.mask.grief_claims",
+        "review.mask.therapy_claims",
+        "review.mask.ego_persistence"
+      ]
+    },
+    {
+      "id": "route.mask.identity_bias",
+      "purpose": "Explicar identidad como sesgo sin ocultar circularidad, cambio de velocidad ni plano ético.",
+      "triggers": [
+        "identidad como sesgo",
+        "sesgo propio",
+        "sesgo implantado",
+        "historia sucia",
+        "velocidad del ego"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mask.identity.definition",
+          "reason": "Define sesgo-identidad."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mask.identity.ownership_inertia",
+          "reason": "Atribuye propiedad por voluntad."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mask.identity.change_ethics",
+          "reason": "Separa velocidades y planos."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mask.identity.other",
+          "reason": "Reconoce sesgo ajeno."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mask.identity.circularity",
+          "reason": "Admite circularidad."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mask.glossary.second",
+          "reason": "Fija definición glosada."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mask.will_opportunity",
+        "review.mask.identity_ownership",
+        "review.mask.identity_ego_inertia",
+        "review.mask.dysphoria_crosswalk"
+      ]
+    },
+    {
+      "id": "route.mask.odysseus",
+      "purpose": "Recuperar a Odiseo como interpretación autoral y no como hecho psicológico del poema.",
+      "triggers": [
+        "Odiseo",
+        "Nadie",
+        "Polifemo",
+        "grito desde el barco",
+        "anonimato"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mask.prologue.odysseus",
+          "reason": "Presenta el episodio."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mask.odysseus.nobody",
+          "reason": "Lee Nadie como acto genuino."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mask.odysseus.shout",
+          "reason": "Lee el grito como miedo."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mask.odysseus.transit",
+          "reason": "Convierte anonimato en tránsito."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mask.odysseus.application",
+          "reason": "Aplica al presente."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mask.epilogue.return_promise",
+          "reason": "Relee el arco al cierre."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mask.myth_sources",
+        "review.mask.series_order",
+        "review.mask.editorial_notation"
+      ]
+    },
+    {
+      "id": "route.mask.surrender",
+      "purpose": "Recuperar rendición y reapertura de voluntad conservando la paradoja causal y límites clínicos.",
+      "triggers": [
+        "rendición",
+        "aceptación",
+        "voluntad mínima",
+        "tiempo propio",
+        "colapso genuino"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mask.surrender.definition",
+          "reason": "Separa aceptación y rendición."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mask.surrender.time_paradox",
+          "reason": "Formula tiempo y paradoja."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mask.surrender.formula_conditions",
+          "reason": "Reabre fórmula y da condiciones."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mask.surrender.experience",
+          "reason": "Describe experiencia."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mask.surrender.limits",
+          "reason": "Declara límites."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mask.glossary.third",
+          "reason": "Fija definición."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mask.clinical_boundary",
+        "review.mask.will_opportunity",
+        "review.mask.ego_persistence",
+        "review.mask.surrender_paradox",
+        "review.mask.therapy_claims"
+      ]
+    },
+    {
+      "id": "route.mask.sovereign_vanity",
+      "purpose": "Recuperar vanidad soberana, igualdad y revisión sin naturalizar su terminología ni sus generalizaciones.",
+      "triggers": [
+        "vanidad soberana",
+        "suficiencia",
+        "igualdad ontológica",
+        "soledad",
+        "capacidad de revisión"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mask.vanity.definition",
+          "reason": "Rehabilita el término."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mask.vanity.equality_need",
+          "reason": "Funda igualdad y necesidad."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mask.vanity.solitude_vulnerability",
+          "reason": "Aplica a soledad y herida."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mask.vanity.revision",
+          "reason": "Propone prueba de revisión."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mask.vanity.possibilities",
+          "reason": "Sintetiza posibilidades."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mask.glossary.third",
+          "reason": "Consolida definición."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mask.vanity_term",
+        "review.mask.equality_crosswalk",
+        "review.mask.relational_claims",
+        "review.mask.identity_ego_inertia"
+      ]
+    },
+    {
+      "id": "route.mask.encounter",
+      "purpose": "Recuperar el encuentro sin negociación sin convertir presencia interna en criterio observable o deber universal.",
+      "triggers": [
+        "encuentro sin negociación",
+        "presencia sin programa",
+        "negociación de identidades",
+        "Yo-Tú"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mask.encounter.negotiation",
+          "reason": "Modela presentación, monitoreo y ajuste."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mask.encounter.difference_ethics",
+          "reason": "Separa diferencia y ética."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mask.encounter.presence",
+          "reason": "Define presencia sin programa."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mask.encounter.asymmetry_cost",
+          "reason": "Declara asimetría y costo."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mask.glossary.second",
+          "reason": "Fija definición."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mask.relational_claims",
+        "review.mask.equality_crosswalk",
+        "review.mask.clinical_boundary"
+      ]
+    },
+    {
+      "id": "route.mask.causal_imputation",
+      "purpose": "Recuperar imputación y ejemplo bancario sin presentar como derecho vigente ni cálculo validado.",
+      "triggers": [
+        "imputación causal",
+        "dolo",
+        "fraude bancario",
+        "nodo sine qua non",
+        "reconstruibilidad"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mask.imputation.causality_fraud",
+          "reason": "Formula causalidad y ejemplo."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mask.imputation.penalty_damage",
+          "reason": "Convierte daño y pena a tiempo."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mask.imputation.disassociated",
+          "reason": "Atribuye omisión de voluntad."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mask.imputation.limit_collective",
+          "reason": "Declara límite y sesgo colectivo."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mask.imputation.penal_principles",
+          "reason": "Propone principios."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mask.imputation.past",
+          "reason": "Mantiene deuda histórica."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.mask.glossary.second",
+          "reason": "Consolida imputación."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mask.responsibility_crosswalk",
+        "review.mask.legal_dolo",
+        "review.mask.causal_necessity",
+        "review.mask.penalty_time",
+        "review.mask.damage_measure",
+        "review.mask.disassociated_culpability",
+        "review.mask.nonaction_responsibility"
+      ]
+    },
+    {
+      "id": "route.mask.collective",
+      "purpose": "Recuperar las extensiones colectiva e institucional conservando problemas de composición, agencia y atribución política.",
+      "triggers": [
+        "mascarada colectiva",
+        "ego colectivo",
+        "sesgo colectivo",
+        "disforia colectiva",
+        "rendición colectiva",
+        "hegemonía"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mask.dysphoria.huxley",
+          "reason": "Anticipa escala."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mask.imputation.limit_collective",
+          "reason": "Deriva daños difusos."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mask.collective.institution",
+          "reason": "Extiende a institución."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mask.collective.oppressed_ego",
+          "reason": "Define ego colectivo."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mask.collective.dysphoria_surrender",
+          "reason": "Define duelo y rendición."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mask.collective.individual_closure",
+          "reason": "Devuelve responsabilidad al nodo."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.mask.glossary.third",
+          "reason": "Fija sesgo colectivo."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mask.collective_agent",
+        "review.mask.collective_scale",
+        "review.mask.collective_crosswalk",
+        "review.mask.political_generalization",
+        "review.mask.nonaction_responsibility",
+        "review.mask.causal_necessity"
+      ]
+    },
+    {
+      "id": "route.mask.epilogue_glossary",
+      "purpose": "Localizar cierre y definiciones finales junto con inconsistencias editoriales.",
+      "triggers": [
+        "glosario de Máscaras",
+        "soltar el relato",
+        "ser alguien sin que nadie lo sepa",
+        "(cid:0)"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mask.epilogue.return_promise",
+          "reason": "Fija no-promesas y acumulación."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mask.epilogue.story",
+          "reason": "Separa historia y relato."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mask.epilogue.collapse_work",
+          "reason": "Convierte cierre en trabajo."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mask.glossary.first",
+          "reason": "Glosa primera serie."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mask.glossary.second",
+          "reason": "Glosa segunda serie."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mask.glossary.third",
+          "reason": "Glosa cierre."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mask.series_order",
+        "review.mask.editorial_notation",
+        "review.mask.surrender_paradox",
+        "review.mask.formula_crosswalk"
+      ]
+    },
+    {
+      "id": "route.mask.crosswork_history",
+      "purpose": "Contrastar Máscaras con las formulaciones heredadas de ego, identidad, disociación, responsabilidad y colectivos.",
+      "triggers": [
+        "Máscaras y Paradigma",
+        "fórmulas comparadas",
+        "disforia comparada",
+        "responsabilidad comparada",
+        "ego colectivo comparado"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.caos.formula_ego",
+          "reason": "Fija fórmula nuclear."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa1.identity.formation",
+          "reason": "Fija identidad-sesgo."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa3.collective.aego",
+          "reason": "Fija Aego colectivo."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aa4.dolo.causal_order",
+          "reason": "Fija responsabilidad causal."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aa5.state.identity_will",
+          "reason": "Fija Estado-ego."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.aq.dissociation.definition",
+          "reason": "Fija disociación de Aquiles."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.mask.formulas.developed",
+          "reason": "Introduce voluntad antes de φ₁."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.mask.identity.definition",
+          "reason": "Reformula identidad."
+        },
+        {
+          "order": 9,
+          "evidence_id": "ev.mask.dysphoria.modes",
+          "reason": "Reformula disociación."
+        },
+        {
+          "order": 10,
+          "evidence_id": "ev.mask.imputation.disassociated",
+          "reason": "Extiende responsabilidad."
+        },
+        {
+          "order": 11,
+          "evidence_id": "ev.mask.collective.oppressed_ego",
+          "reason": "Introduce ego colectivo."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mask.formula_crosswalk",
+        "review.mask.dysphoria_crosswalk",
+        "review.mask.dissociation_crosswalk",
+        "review.mask.identity_ego_inertia",
+        "review.mask.responsibility_crosswalk",
+        "review.mask.collective_crosswalk",
+        "review.mask.equality_crosswalk"
       ]
     }
   ],
@@ -15899,6 +18280,529 @@
         "ev.aq.return.links_revision",
         "ev.aq.ethics.links_decisions",
         "ev.aq.ethics.generosity_body"
+      ]
+    },
+    {
+      "id": "review.mask.universal_masking",
+      "status": "pending_empirical_and_scope_review",
+      "subject": "concept.ontological_masking.mask",
+      "question": "¿Puede extenderse el masking documentado en neurodivergencia a una condición humana universal sin borrar sus especificidades clínicas y sociales?",
+      "why_not_auto_resolved": "La obra reconoce especificidad neurodivergente, pero la evidencia citada no demuestra la universalización ontológica que adopta como tesis.",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_use",
+        "empirical_use",
+        "social_policy_use"
+      ],
+      "evidence": [
+        "ev.mask.prologue.universal",
+        "ev.mask.masking.clinical",
+        "ev.mask.masking.ontological"
+      ]
+    },
+    {
+      "id": "review.mask.clinical_boundary",
+      "status": "pending_scope_review",
+      "subject": "formulation.scope.mask",
+      "question": "¿Qué estatuto tienen las afirmaciones sobre ansiedad, depresión, suicidio, síntomas, tratamiento y salud si el libro niega ser diagnóstico o terapia?",
+      "why_not_auto_resolved": "El deslinde autoral convive con generalizaciones clínicas, evaluación de intervenciones y vocabulario de enfermedad, síntoma, anestesia y cirugía.",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_use",
+        "diagnostic_use"
+      ],
+      "evidence": [
+        "ev.mask.prologue.scope",
+        "ev.mask.masking.clinical",
+        "ev.mask.grief.therapy",
+        "ev.mask.surrender.definition"
+      ]
+    },
+    {
+      "id": "review.mask.formula_crosswalk",
+      "status": "pending_authorial_and_formal_review",
+      "subject": "formal.first_formula.mask",
+      "question": "¿Cómo se traduce la cadena Sesgo→Voluntad→φ₁→Acto→φ₂→Ego a la doble mediación e integral del núcleo?",
+      "why_not_auto_resolved": "La obra atribuye la fórmula a la colección, pero reubica voluntad antes de φ₁, omite I(t) en la cadena y usa mediación sin tipado funcional; el corpus no ofrece la traducción.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mask.formulas.initial",
+        "ev.mask.formulas.developed",
+        "ev.caos.formula_ego",
+        "ev.aa1.bis.iteration"
+      ],
+      "related_relation": "rel.formula_mask.differs_core_order"
+    },
+    {
+      "id": "review.mask.will_opportunity",
+      "status": "pending_doctrinal_review",
+      "subject": "concept.will_operator.mask",
+      "question": "¿Qué constituye intervención de voluntad y cuándo tuvo realmente el sujeto oportunidad de operar o rechazar un sesgo?",
+      "why_not_auto_resolved": "La obra admite operaciones no conscientes, convierte no abandono en apropiación y funda responsabilidad por oportunidades pasadas sin criterio observable de capacidad u ocasión.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "legal_use",
+        "diagnostic_use"
+      ],
+      "evidence": [
+        "ev.mask.identity.ownership_inertia",
+        "ev.mask.identity.circularity",
+        "ev.mask.imputation.disassociated"
+      ]
+    },
+    {
+      "id": "review.mask.dysphoria_crosswalk",
+      "status": "pending_authorial_adjudication",
+      "subject": "concept.identity_dysphoria.mask",
+      "question": "¿La disforia-señal de Máscaras desarrolla o reemplaza la perturbación identitaria de AA-I?",
+      "why_not_auto_resolved": "Comparten el término pero no la cadena causal, valoración ni criterio; la obra actual no adjudica la relación con la formulación ontológica previa.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "diagnostic_use"
+      ],
+      "evidence": [
+        "ev.mask.dysphoria.definition",
+        "ev.mask.dysphoria.confusions",
+        "ev.aa1.distortion.bad_faith"
+      ],
+      "related_relation": "rel.dysphoria_mask.differs_aa1"
+    },
+    {
+      "id": "review.mask.dissociation_crosswalk",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.dissociation.mask",
+      "question": "¿Cómo se relacionan la disociación anestesiada de Máscaras, la disociación representación/acción de Aquiles y la disociación φ₂/integral de AA-I?",
+      "why_not_auto_resolved": "Las tres formulaciones comparten rótulo pero difieren en componentes, presencia de dolor y estatuto del ego; el corpus no declara equivalencia.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "diagnostic_use"
+      ],
+      "evidence": [
+        "ev.mask.dysphoria.modes",
+        "ev.aq.dissociation.definition",
+        "ev.aa1.distortion.bad_faith"
+      ],
+      "related_relation": "rel.dissociation_mask.differs_aquiles"
+    },
+    {
+      "id": "review.mask.ego_persistence",
+      "status": "pending_internal_consistency_review",
+      "subject": "formulation.dysphoria_modes.mask",
+      "question": "¿En la disociación el ego persiste desplazado, queda anulado, desaparece de la superficie o deja de existir como alguien que registra?",
+      "why_not_auto_resolved": "La obra niega la desaparición ontológica, habla de ego anulado y de que no queda nadie que resista, pero luego exige un residuo capaz de voluntad mínima.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "clinical_use"
+      ],
+      "evidence": [
+        "ev.mask.dysphoria.modes",
+        "ev.mask.dysphoria.huxley",
+        "ev.mask.surrender.time_paradox",
+        "ev.mask.glossary.first"
+      ]
+    },
+    {
+      "id": "review.mask.grief_claims",
+      "status": "pending_empirical_and_clinical_review",
+      "subject": "concept.productive_grief.mask",
+      "question": "¿Puede la intensidad o ausencia de duelo medir presencia del ego y distinguir salud, disociación, rendición u obsesión?",
+      "why_not_auto_resolved": "La proporcionalidad se afirma con certeza, pero la obra admite que estados opuestos son indistinguibles desde fuera y no presenta instrumento, umbral ni diagnóstico diferencial.",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_use",
+        "empirical_use"
+      ],
+      "evidence": [
+        "ev.mask.grief.definition",
+        "ev.mask.grief.types_threshold",
+        "ev.mask.dysphoria.modes"
+      ]
+    },
+    {
+      "id": "review.mask.therapy_claims",
+      "status": "pending_empirical_and_normative_review",
+      "subject": "formulation.catharsis.mask",
+      "question": "¿Qué terapias son mera descarga y qué evidencia permite afirmar que perpetúan o profundizan la disociación?",
+      "why_not_auto_resolved": "La crítica incluye terapia, grupos, mindfulness, coaching y wellness mediante la metáfora anestesia/cirugía, sin definir intervenciones ni aportar resultados comparativos; una nota reconoce eficacia de ACT.",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_use",
+        "therapeutic_guidance",
+        "empirical_use"
+      ],
+      "evidence": [
+        "ev.mask.grief.therapy",
+        "ev.mask.grief.catharsis_time",
+        "ev.mask.surrender.definition"
+      ]
+    },
+    {
+      "id": "review.mask.identity_ownership",
+      "status": "pending_doctrinal_review",
+      "subject": "concept.own_bias.mask",
+      "question": "¿Cómo distingue el sujeto el sesgo propio del implantado sin usar como criterio el mismo sesgo examinado o un duelo ambiguo?",
+      "why_not_auto_resolved": "La obra reconoce expresamente la circularidad hermenéutica y que ambos tienen igual textura interna; voluntad, oportunidad y duelo no aportan una prueba independiente.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "diagnostic_use"
+      ],
+      "evidence": [
+        "ev.mask.identity.ownership_inertia",
+        "ev.mask.identity.circularity"
+      ]
+    },
+    {
+      "id": "review.mask.identity_ego_inertia",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.identity_inertia.mask",
+      "question": "¿Cómo se reconcilia el ego sin inercia, actualizado por cada acto, con el ego integral acumulativo e irreversible del núcleo?",
+      "why_not_auto_resolved": "Máscaras reserva profundidad sedimentaria a la identidad y niega inercia propia al ego; Caos y AA-I hacen de la acumulación histórica constitutiva del ego.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "formal_use"
+      ],
+      "evidence": [
+        "ev.mask.identity.ownership_inertia",
+        "ev.mask.identity.change_ethics",
+        "ev.caos.integral_open_death",
+        "ev.aa1.ego.trajectory"
+      ],
+      "related_relation": "rel.identity_inertia_mask.differs_ego_integral"
+    },
+    {
+      "id": "review.mask.myth_sources",
+      "status": "pending_source_review",
+      "subject": "formulation.odysseus.mask",
+      "question": "¿Qué afirmaciones sobre Nadie, el grito, Ítaca y la necesidad de audiencia proceden del poema y cuáles son proyección analítica?",
+      "why_not_auto_resolved": "La obra declara su inversión interpretativa, pero atribuye estados internos, causalidad de diez años y patrones de revelación cuya base textual exacta requiere cotejo filológico.",
+      "blocking": false,
+      "blocking_for": [
+        "source_attribution",
+        "doctrinal_use"
+      ],
+      "evidence": [
+        "ev.mask.prologue.odysseus",
+        "ev.mask.odysseus.nobody",
+        "ev.mask.odysseus.shout",
+        "ev.mask.odysseus.transit"
+      ]
+    },
+    {
+      "id": "review.mask.series_order",
+      "status": "pending_editorial_review",
+      "subject": "formulation.scope.mask",
+      "question": "¿Cuál es el orden autoral de la colección y a qué obra se refiere cada mención de ‘primer libro’?",
+      "why_not_auto_resolved": "El prólogo llama Telar primero, Aquiles segundo y Máscaras tercero; capítulos posteriores llaman Aquiles primer libro y remiten a Telar como primer libro en otras ocasiones.",
+      "blocking": false,
+      "blocking_for": [
+        "editorial_use",
+        "crosswork_retrieval"
+      ],
+      "evidence": [
+        "ev.mask.prologue.formula",
+        "ev.mask.odysseus.nobody",
+        "ev.mask.vanity.definition",
+        "ev.mask.epilogue.return_promise"
+      ]
+    },
+    {
+      "id": "review.mask.surrender_paradox",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.surrender_paradox.mask",
+      "question": "¿La rendición es una decisión/acto de voluntad, un cese no decidido que se produce o el resultado de un umbral causal?",
+      "why_not_auto_resolved": "La obra sostiene las tres descripciones y resuelve parcialmente con voluntad mínima residual, pero no explica cómo esa voluntad alcanza la cadena si estaba excluida ni qué causa el umbral.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "clinical_use",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mask.surrender.definition",
+        "ev.mask.surrender.time_paradox",
+        "ev.mask.surrender.formula_conditions",
+        "ev.mask.epilogue.collapse_work"
+      ]
+    },
+    {
+      "id": "review.mask.vanity_term",
+      "status": "pending_terminological_review",
+      "subject": "concept.sovereign_vanity.mask",
+      "question": "¿Qué justifica redefinir vanidad como plenitud o suficiencia si su uso histórico y etimológico remite a vacuidad, apariencia o presunción?",
+      "why_not_auto_resolved": "La rehabilitación es estipulativa y la obra no ofrece evidencia lingüística; puede invertir el significado ordinario y confundirse con su propia crítica de la imagen.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "retrieval_use",
+        "editorial_use"
+      ],
+      "evidence": [
+        "ev.mask.vanity.definition",
+        "ev.mask.glossary.third"
+      ]
+    },
+    {
+      "id": "review.mask.relational_claims",
+      "status": "pending_empirical_and_normative_review",
+      "subject": "concept.encounter_without_negotiation.mask",
+      "question": "¿Es la vanidad soberana condición necesaria o única del encuentro genuino y qué evidencia distingue presencia de negociación?",
+      "why_not_auto_resolved": "La obra formula necesidad y exclusividad, admite invisibilidad y asimetría, y deriva juicios sobre vínculos que sobreviven o no sin criterio observable externo.",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_use",
+        "clinical_use",
+        "normative_use"
+      ],
+      "evidence": [
+        "ev.mask.vanity.equality_need",
+        "ev.mask.encounter.negotiation",
+        "ev.mask.encounter.presence",
+        "ev.mask.encounter.asymmetry_cost"
+      ]
+    },
+    {
+      "id": "review.mask.equality_crosswalk",
+      "status": "pending_authorial_adjudication",
+      "subject": "concept.ontological_equality.mask",
+      "question": "¿Cómo se relaciona igualdad por estructura subjetiva y posibilidad de voluntad con igualdad formal y capital ontológico de AA-V?",
+      "why_not_auto_resolved": "Las obras emplean fundamentos y alcances distintos; Máscaras incluye a todo sujeto sin definir límites de capacidad y AA-V liga igualdad a ciudadanía soberana.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "legal_use",
+        "political_use"
+      ],
+      "evidence": [
+        "ev.mask.vanity.equality_need",
+        "ev.aa5.rights.guarantee_equality"
+      ],
+      "related_relation": "rel.ontological_equality_mask.differs_aa5"
+    },
+    {
+      "id": "review.mask.responsibility_crosswalk",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.responsibility.mask",
+      "question": "¿Cómo se armoniza responsabilidad por omisión de voluntad con causalidad de AA-IV, asunción de AA-I y autoría genuina de Aquiles?",
+      "why_not_auto_resolved": "Máscaras combina causalidad, posibilidad contrafáctica de voluntad y deuda moral; las formulaciones heredadas separan de otro modo origen causal, intención, asunción y autenticidad.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "legal_use",
+        "normative_use"
+      ],
+      "evidence": [
+        "ev.mask.imputation.causality_fraud",
+        "ev.mask.imputation.disassociated",
+        "ev.aa4.dolo.causal_order",
+        "ev.aq.ethics.responsibility_time"
+      ],
+      "related_relation": "rel.responsibility_mask.reframes_aa4"
+    },
+    {
+      "id": "review.mask.legal_dolo",
+      "status": "pending_legal_review",
+      "subject": "concept.causal_imputation.mask",
+      "question": "¿Es correcto que el derecho penal moderno haga depender central o exclusivamente la responsabilidad del dolo y que la causalidad propuesta lo reemplace?",
+      "why_not_auto_resolved": "La obra simplifica sistemas que ya distinguen dolo, culpa, imputación objetiva, riesgo, capacidad y excusas; sus notas no establecen comparativamente el alcance jurídico de la tesis.",
+      "blocking": false,
+      "blocking_for": [
+        "legal_use",
+        "normative_use"
+      ],
+      "evidence": [
+        "ev.mask.imputation.causality_fraud"
+      ]
+    },
+    {
+      "id": "review.mask.causal_necessity",
+      "status": "pending_causal_and_formal_review",
+      "subject": "concept.causal_imputation.mask",
+      "question": "¿Cómo se identifica un nodo sine qua non en cadenas multicausales, redundantes o sobredeterminadas y cómo se asigna proporcionalidad?",
+      "why_not_auto_resolved": "El fraude ejemplar llama necesario a cada ejecutivo, directivo, regulador y accionista, aunque la eliminación contrafáctica de uno puede no eliminar el resultado; no proporciona cálculo ni tratamiento de redundancia.",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "legal_use",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mask.imputation.causality_fraud",
+        "ev.mask.imputation.limit_collective"
+      ]
+    },
+    {
+      "id": "review.mask.penalty_time",
+      "status": "pending_legal_and_normative_review",
+      "subject": "formulation.penalty_time.mask",
+      "question": "¿Por qué retirar libertad sería devolución proporcional de tiempo de vida y no retribución, y qué límites jurídicos o de derechos la rigen?",
+      "why_not_auto_resolved": "La obra niega carácter retributivo mientras prescribe un costo equivalente al causado; no aborda culpabilidad, prevención, reparación, proporcionalidad constitucional ni efectos desiguales de prisión.",
+      "blocking": false,
+      "blocking_for": [
+        "legal_use",
+        "normative_use",
+        "policy_use"
+      ],
+      "evidence": [
+        "ev.mask.imputation.penalty_damage",
+        "ev.mask.imputation.penal_principles"
+      ]
+    },
+    {
+      "id": "review.mask.damage_measure",
+      "status": "pending_formal_and_empirical_review",
+      "subject": "formulation.damage_scope.mask",
+      "question": "¿Cómo se convierten dinero, salud, libertad, recuperación y daños difusos a una unidad común de tiempo de vida?",
+      "why_not_auto_resolved": "La teoría del valor-trabajo no demuestra que ahorros monetarios equivalgan a años personales de vida ni proporciona descuento, ingresos, causalidad, incertidumbre o umbral de reconstruibilidad.",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_use",
+        "legal_use",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mask.imputation.penalty_damage",
+        "ev.mask.imputation.limit_collective",
+        "ev.mask.imputation.penal_principles"
+      ]
+    },
+    {
+      "id": "review.mask.disassociated_culpability",
+      "status": "pending_legal_and_doctrinal_review",
+      "subject": "formulation.responsibility.mask",
+      "question": "¿Cuándo puede imputarse como antecedente libre la no operación acumulada de voluntad en un sujeto disociado?",
+      "why_not_auto_resolved": "La analogía con actio libera in causa se declara sin precedente, presupone oportunidades y capacidad no establecidas y puede responsabilizar por una condición que la obra describe como invisible y no elegida.",
+      "blocking": false,
+      "blocking_for": [
+        "legal_use",
+        "clinical_use",
+        "normative_use"
+      ],
+      "evidence": [
+        "ev.mask.dysphoria.modes",
+        "ev.mask.imputation.disassociated"
+      ],
+      "related_relation": "rel.responsibility_mask.differs_aquiles"
+    },
+    {
+      "id": "review.mask.collective_agent",
+      "status": "pending_authorial_and_formal_review",
+      "subject": "concept.collective_ego.mask",
+      "question": "¿Qué constituye voluntad, memoria, decisión y unidad de un ego colectivo, especialmente cuando la institución no es sujeto?",
+      "why_not_auto_resolved": "La obra niega preferencias conscientes a instituciones, introduce voluntad institucional y ego de clases o sistemas, y no define órgano, agregación, frontera ni criterio de identidad.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "formal_validation",
+        "legal_use",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mask.collective.institution",
+        "ev.mask.collective.oppressed_ego"
+      ],
+      "related_relation": "rel.collective_ego_mask.differs_aa4"
+    },
+    {
+      "id": "review.mask.collective_scale",
+      "status": "pending_formal_and_empirical_review",
+      "subject": "concept.collective_surrender.mask",
+      "question": "¿Qué número, proporción o topología constituye la masa crítica que vuelve colectiva una rendición individual?",
+      "why_not_auto_resolved": "La obra dice que ego colectivo no es suma de egos, pero explica la rendición colectiva como acumulación de suficientes nodos individuales sin umbral ni regla de composición.",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_use",
+        "political_use"
+      ],
+      "evidence": [
+        "ev.mask.collective.oppressed_ego",
+        "ev.mask.collective.dysphoria_surrender"
+      ]
+    },
+    {
+      "id": "review.mask.collective_crosswalk",
+      "status": "pending_authorial_adjudication",
+      "subject": "concept.collective_ego.mask",
+      "question": "¿Cómo se relacionan el ego colectivo y sesgo colectivo de Máscaras con Aego colectivo, ego corporativo, Estado-ego y R*?",
+      "why_not_auto_resolved": "Las obras difieren en composición, agencia, escala e imputabilidad; Máscaras además excluye daños difusos de imputación individual donde R* propone distribución nodal.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "formal_use",
+        "legal_use"
+      ],
+      "evidence": [
+        "ev.mask.collective.oppressed_ego",
+        "ev.mask.imputation.limit_collective",
+        "ev.aa3.collective.aego",
+        "ev.aa4.corporate.ego",
+        "ev.aa5.state.identity_will",
+        "ev.mci.rstar_validity"
+      ],
+      "related_relation": "rel.collective_bias_mask.differs_rstar"
+    },
+    {
+      "id": "review.mask.nonaction_responsibility",
+      "status": "pending_normative_and_causal_review",
+      "subject": "formulation.responsibility.mask",
+      "question": "¿Cuándo no actuar convierte a un sujeto en nodo causal necesario y qué deber previo de intervención se presupone?",
+      "why_not_auto_resolved": "La conclusión colectiva atribuye consecuencias y responsabilidad por no interrumpir cadenas sin delimitar capacidad, conocimiento, deber, costo, alternativas ni causalidad de omisiones.",
+      "blocking": false,
+      "blocking_for": [
+        "normative_use",
+        "legal_use",
+        "political_use"
+      ],
+      "evidence": [
+        "ev.mask.collective.individual_closure"
+      ]
+    },
+    {
+      "id": "review.mask.political_generalization",
+      "status": "pending_empirical_and_normative_review",
+      "subject": "concept.collective_dysphoria.mask",
+      "question": "¿Quién determina los intereses genuinos de clases vulneradas y cuándo su apoyo a un arreglo expresa voluntad propia o sesgo hegemónico?",
+      "why_not_auto_resolved": "La obra rechaza la falsa conciencia como condescendiente, pero conserva un criterio externo de perjuicio y voz implantada; además afirma a la vez apropiación volitiva e instalación sin voluntad.",
+      "blocking": false,
+      "blocking_for": [
+        "political_use",
+        "empirical_use",
+        "normative_use"
+      ],
+      "evidence": [
+        "ev.mask.dysphoria.huxley",
+        "ev.mask.collective.oppressed_ego"
+      ]
+    },
+    {
+      "id": "review.mask.editorial_notation",
+      "status": "pending_editorial_review",
+      "subject": "formulation.scope.mask",
+      "question": "¿Qué signos sustituyen los ‘(cid:0)’ y cómo se corrigen epígrafes, localizadores y remisiones internas?",
+      "why_not_auto_resolved": "La corrupción afecta numeración de notas y caracteres; hay atribuciones y referencias de capítulo/colección inconsistentes que no pueden corregirse documentalmente desde esta fuente.",
+      "blocking": false,
+      "blocking_for": [
+        "editorial_use",
+        "source_attribution",
+        "quotation_use"
+      ],
+      "evidence": [
+        "ev.mask.masking.ontological",
+        "ev.mask.grief.types_threshold",
+        "ev.mask.identity.other",
+        "ev.mask.prelim.bibliographic"
       ]
     }
   ],
