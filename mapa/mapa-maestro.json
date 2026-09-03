@@ -1,9 +1,9 @@
 {
-  "map_version": "1.2.0",
+  "map_version": "1.3.0",
   "schema_status": "frozen",
   "phase": "F2",
   "purpose": "Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.",
-  "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 integra sistemáticamente el núcleo conceptual y ontológico del corpus; Caos y Afrodita Areia I quedan auditados por secciones, capítulos y apéndices, conservando las evoluciones terminológicas, doctrinales y formales que requieren adjudicación.",
+  "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 integra sistemáticamente el núcleo conceptual y ontológico del corpus; Caos y Afrodita Areia I–II quedan auditados por secciones, capítulos, apéndices y glosarios, conservando las evoluciones terminológicas, doctrinales y formales que requieren adjudicación.",
   "works": [
     {
       "id": "CAOS",
@@ -28,6 +28,12 @@
       "title": "Afrodita Areia: Sobre la pasión",
       "source": "corpus/fuentes/Afrodita_Areia_Sobre_la_Pasion.md",
       "sha256": "354b70bc646e5294dac370372fc0dbe3617a5979d43f26ffcc871af826698ee3"
+    },
+    {
+      "id": "AA-II",
+      "title": "Afrodita Areia: Ágape",
+      "source": "corpus/fuentes/Afrodita_Areia_Agape.md",
+      "sha256": "b1accaa75a10c62152de2c86af63f199e1192d54e68291f5c968e93a3babd95c"
     },
     {
       "id": "AA-III",
@@ -1180,6 +1186,286 @@
         9076
       ],
       "section": "Glosario · vocabulario técnico de Sobre la pasión",
+      "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.aa2.preliminaries",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/00-preliminares.md",
+      "source_lines": [1, 83],
+      "section": "Preliminares · ubicación editorial de Ágape",
+      "evidence_type": "paratext"
+    },
+    {
+      "id": "ev.aa2.preface.myth",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/01-prefacio.md",
+      "source_lines": [84, 337],
+      "section": "Prefacio · mito de Ágape y sus hijos",
+      "evidence_type": "mythic_construction"
+    },
+    {
+      "id": "ev.aa2.preface.program",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/01-prefacio.md",
+      "source_lines": [84, 337],
+      "section": "Prefacio · programa del volumen y movilidad entre posiciones",
+      "evidence_type": "authorial_program"
+    },
+    {
+      "id": "ev.aa2.prologue.interlocutors",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/02-prologo.md",
+      "source_lines": [338, 728],
+      "section": "Prólogo · interlocutores y toma de distancia",
+      "evidence_type": "interlocutor_map"
+    },
+    {
+      "id": "ev.aa2.prologue.method_scope",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/02-prologo.md",
+      "source_lines": [338, 728],
+      "section": "Prólogo · alcance ontológico, descriptivo y no psicológico",
+      "evidence_type": "methodological_scope"
+    },
+    {
+      "id": "ev.aa2.prologue.inherited_model",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/02-prologo.md",
+      "source_lines": [338, 728],
+      "section": "Prólogo · modelo heredado de voluntad, φ₁, φ₂ e integral",
+      "evidence_type": "cross_volume_statement"
+    },
+    {
+      "id": "ev.aa2.agape.definition",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-01.md",
+      "source_lines": [729, 1057],
+      "section": "Capítulo 1 · Ágape como potencia anterior a toda dirección",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa2.agape.chaos_distinction",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-01.md",
+      "source_lines": [729, 1057],
+      "section": "Capítulo 1 · diferencia entre caos y Ágape",
+      "evidence_type": "conceptual_distinction"
+    },
+    {
+      "id": "ev.aa2.alterity.orientation",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-02.md",
+      "source_lines": [1058, 1416],
+      "section": "Capítulo 2 · alteridad como condición de orientación",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa2.alterity.formula",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-02.md",
+      "source_lines": [1058, 1416],
+      "section": "Capítulo 2 · protofórmula Ágape + α → h",
+      "evidence_type": "authorial_formula"
+    },
+    {
+      "id": "ev.aa2.children.architecture",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-03.md",
+      "source_lines": [1417, 1788],
+      "section": "Capítulo 3 · seis hijos como posiciones de la voluntad",
+      "evidence_type": "system_architecture"
+    },
+    {
+      "id": "ev.aa2.children.tensions",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-03.md",
+      "source_lines": [1417, 1788],
+      "section": "Capítulo 3 · tres tensiones constitutivas",
+      "evidence_type": "system_architecture"
+    },
+    {
+      "id": "ev.aa2.levels.universality",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-04.md",
+      "source_lines": [1789, 2148],
+      "section": "Capítulo 4 · operación en objetos, organismos y sujetos",
+      "evidence_type": "cross_level_application"
+    },
+    {
+      "id": "ev.aa2.levels.isomorphism_note",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-04.md",
+      "source_lines": [1789, 2148],
+      "section": "Capítulo 4 · nota sobre analogía e isomorfismo inmunológico",
+      "evidence_type": "authorial_qualification"
+    },
+    {
+      "id": "ev.aa2.eros",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-05.md",
+      "source_lines": [2149, 2453],
+      "section": "Capítulo 5 · Eros como primer sí y colapso hacia lo exterior",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa2.deimos",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-06.md",
+      "source_lines": [2454, 2753],
+      "section": "Capítulo 6 · Deimos como vértigo de lo posible",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa2.threshold",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-07.md",
+      "source_lines": [2754, 3050],
+      "section": "Capítulo 7 · tensión Eros–Deimos y umbral",
+      "evidence_type": "relational_analysis"
+    },
+    {
+      "id": "ev.aa2.anteros",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-08.md",
+      "source_lines": [3051, 3342],
+      "section": "Capítulo 8 · Anteros como no que preserva",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa2.fobos",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-09.md",
+      "source_lines": [3343, 3619],
+      "section": "Capítulo 9 · Fobos como no reactivo ante amenaza",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa2.defense",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-10.md",
+      "source_lines": [3620, 3927],
+      "section": "Capítulo 10 · tensión Anteros–Fobos y defensa",
+      "evidence_type": "relational_analysis"
+    },
+    {
+      "id": "ev.aa2.potos",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-11.md",
+      "source_lines": [3928, 4196],
+      "section": "Capítulo 11 · Potós como voluntad en la ausencia",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa2.harmonia",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-12.md",
+      "source_lines": [4197, 4498],
+      "section": "Capítulo 12 · Harmonía como tensión habitable de lo presente",
+      "evidence_type": "primary_text"
+    },
+    {
+      "id": "ev.aa2.time_presence",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-13.md",
+      "source_lines": [4499, 4786],
+      "section": "Capítulo 13 · tensión Potós–Harmonía, tiempo y presencia",
+      "evidence_type": "relational_analysis"
+    },
+    {
+      "id": "ev.aa2.system.network",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-14.md",
+      "source_lines": [4787, 5445],
+      "section": "Capítulo 14 · red de posiciones y transiciones",
+      "evidence_type": "system_architecture"
+    },
+    {
+      "id": "ev.aa2.system.phi2",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-14.md",
+      "source_lines": [4787, 5445],
+      "section": "Capítulo 14 · φ₂ como lucidez y condición global de movilidad",
+      "evidence_type": "historical_formulation"
+    },
+    {
+      "id": "ev.aa2.system.pathology",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-14.md",
+      "source_lines": [4787, 5445],
+      "section": "Capítulo 14 · salud como movilidad y patología sistémica",
+      "evidence_type": "system_synthesis"
+    },
+    {
+      "id": "ev.aa2.closure.synthesis",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-15.md",
+      "source_lines": [5446, 5846],
+      "section": "Capítulo 15 · síntesis del sistema de Ágape",
+      "evidence_type": "authorial_synthesis"
+    },
+    {
+      "id": "ev.aa2.closure.volume_crosswalk",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-15.md",
+      "source_lines": [5446, 5846],
+      "section": "Capítulo 15 · atribuciones retrospectivas y programa de volúmenes",
+      "evidence_type": "cross_volume_statement"
+    },
+    {
+      "id": "ev.aa2.closure.limits",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/capitulo-15.md",
+      "source_lines": [5446, 5846],
+      "section": "Capítulo 15 · alcance descriptivo y apertura al encuentro entre voluntades",
+      "evidence_type": "scope_boundary"
+    },
+    {
+      "id": "ev.aa2.himeno.definition",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/apendice.md",
+      "source_lines": [5847, 6721],
+      "section": "Apéndice Himeno · posición límite y vaciamiento de la forma propia",
+      "evidence_type": "limit_case_analysis"
+    },
+    {
+      "id": "ev.aa2.himeno.aego_distinction",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/apendice.md",
+      "source_lines": [5847, 6721],
+      "section": "Apéndice Himeno · diferencia respecto de Harmonía obstructiva y Aego",
+      "evidence_type": "conceptual_distinction"
+    },
+    {
+      "id": "ev.aa2.himeno.return",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/apendice.md",
+      "source_lines": [5847, 6721],
+      "section": "Apéndice Himeno · contraste exterior, agencia limitada y retorno",
+      "evidence_type": "limit_case_analysis"
+    },
+    {
+      "id": "ev.aa2.himeno.architecture",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/apendice.md",
+      "source_lines": [5847, 6721],
+      "section": "Apéndice Himeno · integridad de la forma propia como condición previa a φ₂",
+      "evidence_type": "system_revision"
+    },
+    {
+      "id": "ev.aa2.himeno.warning",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/apendice.md",
+      "source_lines": [5847, 6721],
+      "section": "Apéndice Himeno · límites diagnósticos y relacionales del concepto",
+      "evidence_type": "scope_boundary"
+    },
+    {
+      "id": "ev.aa2.glossary",
+      "work_id": "AA-II",
+      "segment": "corpus/libros/afrodita-areia/02-agape/99-glosario.md",
+      "source_lines": [6722, 6941],
+      "section": "Glosario · vocabulario técnico de Ágape",
       "evidence_type": "authorial_glossary"
     }
   ],
@@ -2871,6 +3157,347 @@
         "ev.aa1.glossary"
       ],
       "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.agape.aa2",
+      "kind": "concept",
+      "label": "Ágape en AA-II",
+      "aliases": ["potencia de la voluntad", "voluntad antes de la dirección"],
+      "summary": "Potencia universal, pre-subjetiva y ya volitiva anterior a toda orientación; condición de posibilidad de sus hijos, no amor cristiano, emoción, logro ni caos.",
+      "evidence": ["ev.aa2.agape.definition", "ev.aa2.agape.chaos_distinction", "ev.aa2.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.alteridad_activadora.aa2",
+      "kind": "concept",
+      "label": "Alteridad activadora en AA-II",
+      "aliases": ["α", "lo otro"],
+      "summary": "Contacto contingente con algo distinto que hace emerger una orientación de Ágape sin imponer una teleología ni una necesidad mecánica.",
+      "evidence": ["ev.aa2.alterity.orientation", "ev.aa2.alterity.formula"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.hijos_agape.aa2",
+      "kind": "concept",
+      "label": "Hijos de Ágape",
+      "aliases": ["hijos de la voluntad"],
+      "summary": "Seis posiciones ontológicas universales —Eros, Deimos, Anteros, Fobos, Potós y Harmonía— desde las que la voluntad se orienta y entre las que puede moverse.",
+      "evidence": ["ev.aa2.children.architecture", "ev.aa2.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.posicion_voluntad.aa2",
+      "kind": "concept",
+      "label": "Posición de la voluntad en AA-II",
+      "aliases": [],
+      "summary": "Configuración transitoria desde la que opera la voluntad; no es emoción, identidad ni patología por sí misma.",
+      "evidence": ["ev.aa2.preface.program", "ev.aa2.children.architecture", "ev.aa2.system.pathology"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.eros.aa2",
+      "kind": "concept",
+      "label": "Eros en AA-II",
+      "aliases": ["primer sí"],
+      "summary": "Posición afrodítica que colapsa posibilidades hacia algo exterior y abre movimiento afirmativo antes de que el objeto esté plenamente definido.",
+      "evidence": ["ev.aa2.eros", "ev.aa2.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.deimos.aa2",
+      "kind": "concept",
+      "label": "Deimos en AA-II",
+      "aliases": ["vértigo de lo posible"],
+      "summary": "Posición arética que sostiene la apertura simétrica ante posibilidades aún no colapsadas; su fijación puede producir parálisis.",
+      "evidence": ["ev.aa2.deimos", "ev.aa2.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.anteros.aa2",
+      "kind": "concept",
+      "label": "Anteros en AA-II",
+      "aliases": ["no que preserva"],
+      "summary": "Posición arética que resiste la presión de la alteridad para preservar la forma propia y su diferencia.",
+      "evidence": ["ev.aa2.anteros", "ev.aa2.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.fobos.aa2",
+      "kind": "concept",
+      "label": "Fobos en AA-II",
+      "aliases": ["no reactivo", "miedo ante amenaza concreta"],
+      "summary": "Posición arética de respuesta a una amenaza concreta; puede proteger o destruir aquello que intenta preservar.",
+      "evidence": ["ev.aa2.fobos", "ev.aa2.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.potos.aa2",
+      "kind": "concept",
+      "label": "Potós en AA-II",
+      "aliases": ["voluntad en la ausencia"],
+      "summary": "Posición afrodítica en que la voluntad se organiza alrededor de un objeto definido que no está presente.",
+      "evidence": ["ev.aa2.potos", "ev.aa2.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.harmonia.aa2",
+      "kind": "concept",
+      "label": "Harmonía en AA-II",
+      "aliases": ["habitar lo que hay"],
+      "summary": "Posición afrodítica que sostiene la tensión de lo presente sin exigir su transformación inmediata; no equivale a ausencia de tensión.",
+      "evidence": ["ev.aa2.harmonia", "ev.aa2.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tension_umbral.aa2",
+      "kind": "concept",
+      "label": "Umbral Eros–Deimos",
+      "aliases": [],
+      "summary": "Tensión entre colapsar una posibilidad hacia algo concreto y mantener abierto el campo de lo posible.",
+      "evidence": ["ev.aa2.threshold"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tension_defensa.aa2",
+      "kind": "concept",
+      "label": "Defensa Anteros–Fobos",
+      "aliases": [],
+      "summary": "Tensión entre preservar la diferencia con distancia operativa y reaccionar ante la amenaza sin esa distancia.",
+      "evidence": ["ev.aa2.defense"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tension_tiempo.aa2",
+      "kind": "concept",
+      "label": "Tiempo Potós–Harmonía",
+      "aliases": ["tensión ausencia–presencia"],
+      "summary": "Tensión entre organizar la voluntad por lo ausente y habitar la configuración presente.",
+      "evidence": ["ev.aa2.time_presence"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.movilidad_relacional.aa2",
+      "kind": "concept",
+      "label": "Movilidad del sistema relacional",
+      "aliases": [],
+      "summary": "Capacidad de reconocer y abandonar una posición para acceder a otras; AA-II la presenta como criterio general de salud antes de precisar su insuficiencia en Himeno.",
+      "evidence": ["ev.aa2.system.network", "ev.aa2.system.pathology", "ev.aa2.himeno.architecture"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.fijacion_relacional.aa2",
+      "kind": "concept",
+      "label": "Fijación relacional",
+      "aliases": ["forma obstructiva"],
+      "summary": "Reducción o pérdida de acceso a otras posiciones; la patología se atribuye a esta inmovilidad y no a un hijo particular.",
+      "evidence": ["ev.aa2.system.pathology", "ev.aa2.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.patologia_sistemica.aa2",
+      "kind": "concept",
+      "label": "Patología del sistema relacional",
+      "aliases": [],
+      "summary": "Configuración de fijaciones y bloqueos entre posiciones que puede deteriorar la lucidez necesaria para la autocorrección del sistema.",
+      "evidence": ["ev.aa2.system.pathology", "ev.aa2.closure.synthesis"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.himeno.aa2",
+      "kind": "concept",
+      "label": "Himeno",
+      "aliases": ["posición límite afrodítica"],
+      "summary": "Estado límite en que la cesión sostenida de la dimensión arética vacía la forma propia y permite que la voluntad opere desde una forma prestada como si fuera propia.",
+      "evidence": ["ev.aa2.himeno.definition", "ev.aa2.himeno.architecture", "ev.aa2.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.integridad_forma_propia.aa2",
+      "kind": "concept",
+      "label": "Integridad de la forma propia",
+      "aliases": [],
+      "summary": "Perspectiva irreductiblemente propia que el apéndice introduce como condición previa para que φ₂ reconozca las posiciones como pertenecientes al propio sistema.",
+      "evidence": ["ev.aa2.himeno.architecture", "ev.aa2.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.retorno_himeno.aa2",
+      "kind": "concept",
+      "label": "Retorno de Himeno",
+      "aliases": ["rendición, duelo y vanidad soberana"],
+      "summary": "Posibilidad no garantizada que requiere contraste exterior y tres movimientos ordenados: rendición ante el reconocimiento, duelo por la forma prestada y reconstrucción de una forma propia soberana.",
+      "evidence": ["ev.aa2.himeno.return", "ev.aa2.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.agape.aa2",
+      "kind": "formulation",
+      "label": "Formulación de Ágape en AA-II",
+      "subject": "concept.agape.aa2",
+      "role": "central_formulation",
+      "content": {
+        "language": "ontological",
+        "summary": "Entre el caos de posibilidad pura y las orientaciones determinadas existe una voluntad real pero todavía sin dirección."
+      },
+      "evidence": ["ev.aa2.agape.definition", "ev.aa2.agape.chaos_distinction"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.orientation.aa2",
+      "kind": "formulation",
+      "label": "Orientación por contacto en AA-II",
+      "subject": "concept.alteridad_activadora.aa2",
+      "role": "causal_transition",
+      "content": {
+        "language": "ontological_formal",
+        "expression": "Ágape + α → h",
+        "summary": "El contacto con alteridad hace emerger una posición sin que el resultado esté teleológicamente predeterminado."
+      },
+      "evidence": ["ev.aa2.alterity.orientation", "ev.aa2.alterity.formula"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.children.aa2",
+      "kind": "formulation",
+      "label": "Sistema de los hijos de Ágape",
+      "subject": "concept.hijos_agape.aa2",
+      "role": "system_architecture",
+      "content": {
+        "language": "ontological_relational",
+        "summary": "Las seis posiciones forman tres tensiones constitutivas y una red móvil sin hijo privilegiado."
+      },
+      "evidence": ["ev.aa2.children.architecture", "ev.aa2.children.tensions", "ev.aa2.system.network"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.cross_levels.aa2",
+      "kind": "formulation",
+      "label": "Continuidad de posiciones entre niveles en AA-II",
+      "subject": "concept.hijos_agape.aa2",
+      "role": "cross_level_claim",
+      "content": {
+        "language": "ontological_and_analogical",
+        "summary": "La obra presenta las posiciones como universales en objetos, organismos y sujetos, pero califica expresamente el ejemplo inmunológico como analogía o isomorfismo estructural."
+      },
+      "evidence": ["ev.aa2.levels.universality", "ev.aa2.levels.isomorphism_note"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mobility_health.aa2",
+      "kind": "formulation",
+      "label": "Salud como movilidad en AA-II",
+      "subject": "concept.movilidad_relacional.aa2",
+      "role": "systemic_criterion_revised_by_appendix",
+      "content": {
+        "language": "ontological_relational",
+        "summary": "Los capítulos definen salud como movilidad y patología como fijación; Himeno muestra después que también se requiere integridad de la forma propia."
+      },
+      "evidence": ["ev.aa2.system.pathology", "ev.aa2.himeno.architecture"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.phi2.aa2",
+      "kind": "formulation",
+      "label": "φ₂ como condición global del sistema relacional",
+      "subject": "formal.phi2.aa2",
+      "role": "historical_functional_formulation",
+      "content": {
+        "language": "ontological_functional",
+        "summary": "AA-II llama φ₂ a la lucidez operativa por la que el sujeto reconoce su posición, modula el colapso y se mueve entre posiciones; llega a afirmar que φ₂ es el sujeto."
+      },
+      "evidence": ["ev.aa2.prologue.inherited_model", "ev.aa2.system.phi2", "ev.aa2.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.himeno.aa2",
+      "kind": "formulation",
+      "label": "Himeno como revisión límite de la movilidad",
+      "subject": "concept.himeno.aa2",
+      "role": "limit_revision",
+      "content": {
+        "language": "ontological_relational",
+        "summary": "Puede persistir movilidad entre posiciones sin salud cuando las posiciones operan desde la forma de otro; la forma propia se vuelve condición adicional del sistema."
+      },
+      "evidence": ["ev.aa2.himeno.definition", "ev.aa2.himeno.architecture"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.volume_crosswalk.aa2",
+      "kind": "formulation",
+      "label": "Autoubicación retrospectiva de Ágape",
+      "subject": "concept.agape.aa2",
+      "role": "cross_volume_statement_pending_review",
+      "content": {
+        "language": "editorial_programmatic",
+        "summary": "AA-II atribuye a un Vol. I la pregunta y respuesta de Ágape y alterna pentalogía y trilogía al ubicar los volúmenes, aunque la fuente canónica de AA-I no usa Ágape."
+      },
+      "evidence": ["ev.aa2.preliminaries", "ev.aa2.closure.volume_crosswalk", "ev.aa2.himeno.architecture"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.alpha_alterity.aa2",
+      "kind": "formal_object",
+      "label": "α como alteridad en AA-II",
+      "formal_spec": {
+        "symbol": "α",
+        "object_type": "authorial_variable",
+        "meaning": "alteridad que entra en contacto con Ágape",
+        "epistemic_status": "authorial_formalization_pending_review"
+      },
+      "evidence": ["ev.aa2.alterity.formula"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.transition_agape.aa2",
+      "kind": "formal_object",
+      "label": "Transición de Ágape a una posición",
+      "formal_spec": {
+        "object_type": "authorial_transition_formula",
+        "expression": "Ágape + α → h",
+        "expanded_expression": "φ₁(Ágape, α) → primer colapso direccional",
+        "epistemic_status": "authorial_formalization"
+      },
+      "evidence": ["ev.aa2.alterity.formula", "ev.aa2.children.architecture"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.phi1.aa2",
+      "kind": "formal_object",
+      "label": "φ₁ en AA-II",
+      "formal_spec": {
+        "symbol": "φ₁",
+        "object_type": "authorial_function_model",
+        "operation": "colapso de Ágape orientado por alteridad hacia una posición o acto",
+        "epistemic_status": "authorial_formalization_pending_review"
+      },
+      "evidence": ["ev.aa2.prologue.inherited_model", "ev.aa2.alterity.formula", "ev.aa2.system.phi2"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.phi2.aa2",
+      "kind": "formal_object",
+      "label": "φ₂ en AA-II",
+      "formal_spec": {
+        "symbol": "φ₂",
+        "object_type": "authorial_global_operator",
+        "operation": "reconocer, seleccionar o modular posiciones y sostener movilidad con lucidez",
+        "required_condition": "integridad de la forma propia",
+        "epistemic_status": "authorial_formalization_pending_review"
+      },
+      "evidence": ["ev.aa2.system.phi2", "ev.aa2.himeno.architecture", "ev.aa2.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.harmonia.aa2",
+      "kind": "formal_object",
+      "label": "Fórmula de Harmonía en AA-II",
+      "formal_spec": {
+        "object_type": "authorial_formula",
+        "expression": "Harmonía: Ágape + φ₂ activa + tensión habitable entre α y β → movilidad plena",
+        "epistemic_status": "authorial_formalization"
+      },
+      "evidence": ["ev.aa2.harmonia", "ev.aa2.system.network"],
+      "evidence_status": "explicit"
     }
   ],
   "relations": [
@@ -3940,6 +4567,233 @@
         "ev.aa1.stages.crosswalk",
         "ev.tf.correspondencias"
       ]
+    },
+    {
+      "id": "rel.agape_aa2.distinguished_caos",
+      "type": "distinguished_from",
+      "from": "concept.agape.aa2",
+      "to": "concept.caos",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.agape.chaos_distinction"]
+    },
+    {
+      "id": "rel.agape_aa2.generates_children",
+      "type": "generates",
+      "from": "concept.agape.aa2",
+      "to": "concept.hijos_agape.aa2",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.children.architecture", "ev.aa2.glossary"]
+    },
+    {
+      "id": "rel.alterity_aa2.orients_agape",
+      "type": "activates_orientation",
+      "from": "concept.alteridad_activadora.aa2",
+      "to": "concept.agape.aa2",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.alterity.orientation", "ev.aa2.alterity.formula"]
+    },
+    {
+      "id": "rel.eros_aa2.position",
+      "type": "instance_of",
+      "from": "concept.eros.aa2",
+      "to": "concept.posicion_voluntad.aa2",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.eros"]
+    },
+    {
+      "id": "rel.deimos_aa2.position",
+      "type": "instance_of",
+      "from": "concept.deimos.aa2",
+      "to": "concept.posicion_voluntad.aa2",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.deimos"]
+    },
+    {
+      "id": "rel.anteros_aa2.position",
+      "type": "instance_of",
+      "from": "concept.anteros.aa2",
+      "to": "concept.posicion_voluntad.aa2",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.anteros"]
+    },
+    {
+      "id": "rel.fobos_aa2.position",
+      "type": "instance_of",
+      "from": "concept.fobos.aa2",
+      "to": "concept.posicion_voluntad.aa2",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.fobos"]
+    },
+    {
+      "id": "rel.potos_aa2.position",
+      "type": "instance_of",
+      "from": "concept.potos.aa2",
+      "to": "concept.posicion_voluntad.aa2",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.potos"]
+    },
+    {
+      "id": "rel.harmonia_aa2.position",
+      "type": "instance_of",
+      "from": "concept.harmonia.aa2",
+      "to": "concept.posicion_voluntad.aa2",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.harmonia"]
+    },
+    {
+      "id": "rel.eros_aa2.afroditic",
+      "type": "belongs_to_dimension",
+      "from": "concept.eros.aa2",
+      "to": "concept.afrodita_dominio",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.children.architecture", "ev.aa2.glossary"]
+    },
+    {
+      "id": "rel.potos_aa2.afroditic",
+      "type": "belongs_to_dimension",
+      "from": "concept.potos.aa2",
+      "to": "concept.afrodita_dominio",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.children.architecture", "ev.aa2.glossary"]
+    },
+    {
+      "id": "rel.harmonia_aa2.afroditic",
+      "type": "belongs_to_dimension",
+      "from": "concept.harmonia.aa2",
+      "to": "concept.afrodita_dominio",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.children.architecture", "ev.aa2.glossary"]
+    },
+    {
+      "id": "rel.anteros_aa2.aretic",
+      "type": "belongs_to_dimension",
+      "from": "concept.anteros.aa2",
+      "to": "concept.ares_conquista",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.children.architecture", "ev.aa2.glossary"]
+    },
+    {
+      "id": "rel.fobos_aa2.aretic",
+      "type": "belongs_to_dimension",
+      "from": "concept.fobos.aa2",
+      "to": "concept.ares_conquista",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.children.architecture", "ev.aa2.glossary"]
+    },
+    {
+      "id": "rel.deimos_aa2.aretic",
+      "type": "belongs_to_dimension",
+      "from": "concept.deimos.aa2",
+      "to": "concept.ares_conquista",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.children.architecture", "ev.aa2.glossary"]
+    },
+    {
+      "id": "rel.eros_deimos.threshold",
+      "type": "constitutive_tension",
+      "from": "concept.eros.aa2",
+      "to": "concept.deimos.aa2",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.threshold"]
+    },
+    {
+      "id": "rel.anteros_fobos.defense",
+      "type": "constitutive_tension",
+      "from": "concept.anteros.aa2",
+      "to": "concept.fobos.aa2",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.defense"]
+    },
+    {
+      "id": "rel.potos_harmonia.time",
+      "type": "constitutive_tension",
+      "from": "concept.potos.aa2",
+      "to": "concept.harmonia.aa2",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.time_presence"]
+    },
+    {
+      "id": "rel.phi2_aa2.enables_mobility",
+      "type": "enables",
+      "from": "formal.phi2.aa2",
+      "to": "concept.movilidad_relacional.aa2",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.system.phi2", "ev.aa2.system.network"]
+    },
+    {
+      "id": "rel.integrity_aa2.conditions_phi2",
+      "type": "required_condition_for",
+      "from": "concept.integridad_forma_propia.aa2",
+      "to": "formal.phi2.aa2",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.himeno.architecture", "ev.aa2.glossary"]
+    },
+    {
+      "id": "rel.fixation_aa2.reduces_mobility",
+      "type": "reduces",
+      "from": "concept.fijacion_relacional.aa2",
+      "to": "concept.movilidad_relacional.aa2",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.system.pathology"]
+    },
+    {
+      "id": "rel.himeno_aa2.differs_aego",
+      "type": "distinguished_from",
+      "from": "concept.himeno.aa2",
+      "to": "concept.aego",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.himeno.aego_distinction", "ev.aa2.glossary"]
+    },
+    {
+      "id": "rel.himeno_aa2.absence_anteros",
+      "type": "results_from_sustained_absence",
+      "from": "concept.himeno.aa2",
+      "to": "concept.anteros.aa2",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.himeno.definition", "ev.aa2.glossary"]
+    },
+    {
+      "id": "rel.return_himeno.requires_exterior",
+      "type": "requires",
+      "from": "concept.retorno_himeno.aa2",
+      "to": "concept.alteridad_activadora.aa2",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.himeno.return"]
+    },
+    {
+      "id": "rel.mobility_aa2.revised_by_himeno",
+      "type": "revised_by_limit_case",
+      "from": "formulation.mobility_health.aa2",
+      "to": "formulation.himeno.aa2",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa2.system.pathology", "ev.aa2.himeno.architecture"]
+    },
+    {
+      "id": "rel.phi2_aa2.differs_phi2_caos",
+      "type": "differs_from",
+      "from": "formal.phi2.aa2",
+      "to": "formal.phi2.caos",
+      "evidence_status": "inferred",
+      "evidence": ["ev.aa2.system.phi2", "ev.aa2.glossary", "ev.caos.act_second_mediation", "ev.caos.glossary_second_act"],
+      "rationale": "AA-II asigna a φ₂ reconocimiento, selección, modulación y movilidad global; Caos la define como segunda mediación que integra en I un acto ya producido. La diferencia se registra sin decidir si es ampliación o sustitución."
+    },
+    {
+      "id": "rel.phi2_aa2.differs_bis_aa1",
+      "type": "differs_from",
+      "from": "formulation.phi2.aa2",
+      "to": "formal.bis.aa1",
+      "evidence_status": "inferred",
+      "evidence": ["ev.aa2.prologue.inherited_model", "ev.aa2.system.phi2", "ev.aa1.bis.iteration", "ev.aa1.glossary"],
+      "rationale": "AA-I coloca φ₂ después de φ₁ y del acto como asunción que actualiza la integral; AA-II la hace intervenir también en el reconocimiento y la modulación anteriores o globales. El corpus no declara formalmente equivalentes ambos órdenes."
+    },
+    {
+      "id": "rel.alpha_alterity.distinguished_assumption",
+      "type": "distinguished_from",
+      "from": "formal.alpha_alterity.aa2",
+      "to": "formal.alpha",
+      "evidence_status": "inferred",
+      "evidence": ["ev.aa2.alterity.formula", "ev.axiom.system_map", "ev.axiom.translation"],
+      "rationale": "AA-II define α como alteridad, mientras la Axiomatización usa α como coeficiente de asunción. No hay correspondencia autoral entre ambos objetos pese a compartir símbolo."
     }
   ],
   "routes": [
@@ -3974,16 +4828,21 @@
         },
         {
           "order": 5,
+          "evidence_id": "ev.aa2.system.phi2",
+          "reason": "AA-II reutiliza φ₂ como lucidez global y movilidad, una variación que debe conservarse como formulación histórica pendiente de adjudicación."
+        },
+        {
+          "order": 6,
           "evidence_id": "ev.tf.tres_formulas",
           "reason": "Desdoblamiento posterior en mediación neutral, fanes y bis."
         },
         {
-          "order": 6,
+          "order": 7,
           "evidence_id": "ev.tf.correspondencias",
           "reason": "Evita confundir los usos terminológicos de primera mediación en Caos."
         },
         {
-          "order": 7,
+          "order": 8,
           "evidence_id": "ev.axiom.translation",
           "reason": "Traducción bidireccional del lenguaje ontológico al formal."
         }
@@ -3991,7 +4850,8 @@
       "must_surface_review_items": [
         "review.aa1.caos_crosswalk",
         "review.aa1.responsibility_grounding",
-        "review.aa1.neutral_habits"
+        "review.aa1.neutral_habits",
+        "review.aa2.phi2_function_change"
       ]
     },
     {
@@ -4029,6 +4889,10 @@
           "evidence_id": "ev.axiom.translation",
           "reason": "Verifica correspondencias terminológicas."
         }
+      ],
+      "must_surface_review_items": [
+        "review.aa2.phi2_function_change",
+        "review.aa2.alpha_symbol_collision"
       ]
     },
     {
@@ -4965,6 +5829,128 @@
           "reason": "Conserva las preguntas por origen, valor y realismo como límites declarados."
         }
       ]
+    },
+    {
+      "id": "route.aa2.agape_orientation",
+      "purpose": "Explicar Ágape y el surgimiento de orientación sin confundirla con caos, amor cristiano o emoción.",
+      "triggers": ["qué es Ágape", "voluntad antes de dirección", "Ágape y caos", "alteridad α"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa2.preface.program", "reason": "Sitúa la pregunta y la función del volumen."},
+        {"order": 2, "evidence_id": "ev.aa2.agape.definition", "reason": "Fija la definición técnica y sus exclusiones."},
+        {"order": 3, "evidence_id": "ev.aa2.agape.chaos_distinction", "reason": "Separa posibilidad pura de potencia volitiva sin dirección."},
+        {"order": 4, "evidence_id": "ev.aa2.alterity.orientation", "reason": "Introduce el contacto contingente con alteridad."},
+        {"order": 5, "evidence_id": "ev.aa2.alterity.formula", "reason": "Registra la protofórmula y su notación."},
+        {"order": 6, "evidence_id": "ev.aa2.glossary", "reason": "Consolida el vocabulario autoral."}
+      ],
+      "must_surface_review_items": ["review.aa2.alpha_symbol_collision"]
+    },
+    {
+      "id": "route.aa2.children_positions",
+      "purpose": "Recuperar el sistema completo de los seis hijos como posiciones móviles y no como tipos psicológicos.",
+      "triggers": ["hijos de Ágape", "posiciones de la voluntad", "mapa relacional de Ágape"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa2.children.architecture", "reason": "Enumera las seis posiciones y sus dimensiones."},
+        {"order": 2, "evidence_id": "ev.aa2.children.tensions", "reason": "Organiza las posiciones en tres tensiones."},
+        {"order": 3, "evidence_id": "ev.aa2.system.network", "reason": "Muestra la red y sus transiciones."},
+        {"order": 4, "evidence_id": "ev.aa2.system.pathology", "reason": "Distingue posición de fijación patológica."},
+        {"order": 5, "evidence_id": "ev.aa2.glossary", "reason": "Consolida las definiciones técnicas."}
+      ]
+    },
+    {
+      "id": "route.aa2.cross_level_status",
+      "purpose": "Examinar la extensión de los hijos a objetos, organismos y sujetos conservando el estatuto desigual de ejemplos, analogías e isomorfismos.",
+      "triggers": ["Ágape en objetos", "Ágape en organismos", "isomorfismo inmunológico", "universalidad de los hijos"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa2.prologue.method_scope", "reason": "Fija la pretensión ontológica y no meramente psicológica."},
+        {"order": 2, "evidence_id": "ev.aa2.levels.universality", "reason": "Presenta ejemplos en los tres niveles."},
+        {"order": 3, "evidence_id": "ev.aa2.levels.isomorphism_note", "reason": "Conserva la calificación autoral como analogía o isomorfismo."}
+      ],
+      "must_surface_review_items": ["review.aa2.cross_level_status"]
+    },
+    {
+      "id": "route.aa2.threshold",
+      "purpose": "Explicar la tensión Eros–Deimos entre cierre y apertura de posibilidades.",
+      "triggers": ["Eros y Deimos", "umbral", "primer sí", "vértigo de lo posible"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa2.eros", "reason": "Define el movimiento afirmativo y el colapso asimétrico."},
+        {"order": 2, "evidence_id": "ev.aa2.deimos", "reason": "Define el campo simétrico y el vértigo ante posibilidades."},
+        {"order": 3, "evidence_id": "ev.aa2.threshold", "reason": "Expone la tensión, sus formas productivas y sus fijaciones."}
+      ]
+    },
+    {
+      "id": "route.aa2.defense",
+      "purpose": "Explicar la tensión Anteros–Fobos sin equiparar todo no, miedo o resistencia.",
+      "triggers": ["Anteros y Fobos", "defensa", "no que preserva", "miedo y amenaza"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa2.anteros", "reason": "Define la preservación de la forma propia."},
+        {"order": 2, "evidence_id": "ev.aa2.fobos", "reason": "Define la reacción ante amenaza concreta."},
+        {"order": 3, "evidence_id": "ev.aa2.defense", "reason": "Distingue distancia operativa, respuesta y destrucción."}
+      ]
+    },
+    {
+      "id": "route.aa2.time_presence",
+      "purpose": "Explicar la tensión Potós–Harmonía como organización por ausencia y presencia.",
+      "triggers": ["Potós y Harmonía", "ausencia y presencia", "tiempo relacional", "habitar lo que hay"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa2.potos", "reason": "Define la voluntad organizada por un objeto ausente."},
+        {"order": 2, "evidence_id": "ev.aa2.harmonia", "reason": "Define la tensión habitable de lo presente."},
+        {"order": 3, "evidence_id": "ev.aa2.time_presence", "reason": "Articula ambos polos en una estructura temporal."}
+      ]
+    },
+    {
+      "id": "route.aa2.phi2_mobility",
+      "purpose": "Recuperar la función relacional atribuida a φ₂ y su relación con movilidad, fijación y autocorrección.",
+      "triggers": ["φ₂ en Ágape", "lucidez operativa", "movilidad relacional", "salud y fijación"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa2.prologue.inherited_model", "reason": "Muestra cómo AA-II presenta el modelo recibido."},
+        {"order": 2, "evidence_id": "ev.aa2.system.network", "reason": "Sitúa φ₂ dentro de la red de posiciones."},
+        {"order": 3, "evidence_id": "ev.aa2.system.phi2", "reason": "Formula φ₂ como lucidez global y condición del movimiento."},
+        {"order": 4, "evidence_id": "ev.aa2.system.pathology", "reason": "Vincula deterioro sistémico y pérdida de autocorrección."},
+        {"order": 5, "evidence_id": "ev.aa2.himeno.architecture", "reason": "Añade la integridad de la forma propia como condición previa."},
+        {"order": 6, "evidence_id": "ev.aa2.glossary", "reason": "Cierra la formulación glosada."}
+      ],
+      "must_surface_review_items": ["review.aa2.phi2_function_change"]
+    },
+    {
+      "id": "route.aa2.himeno",
+      "purpose": "Explicar Himeno como límite del sistema, sus distinciones y las condiciones autorales del retorno sin usarlo como diagnóstico.",
+      "triggers": ["Himeno", "forma prestada", "retorno de Himeno", "Himeno y Aego"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa2.himeno.definition", "reason": "Define el vaciamiento gradual y la forma prestada."},
+        {"order": 2, "evidence_id": "ev.aa2.himeno.aego_distinction", "reason": "Separa proceso, límite y deterioro de φ₂."},
+        {"order": 3, "evidence_id": "ev.aa2.himeno.return", "reason": "Describe contraste exterior, agencia limitada y los tres movimientos."},
+        {"order": 4, "evidence_id": "ev.aa2.himeno.architecture", "reason": "Revisa el criterio de movilidad e introduce integridad de forma propia."},
+        {"order": 5, "evidence_id": "ev.aa2.himeno.warning", "reason": "Prohíbe convertir el mapa en diagnóstico directo."},
+        {"order": 6, "evidence_id": "ev.aa2.glossary", "reason": "Fija las distinciones técnicas del cierre."}
+      ],
+      "must_surface_review_items": ["review.aego.formulation_change", "review.aa2.phi2_function_change"]
+    },
+    {
+      "id": "route.aa2.formal_objects",
+      "purpose": "Reunir las fórmulas y símbolos de AA-II sin fusionarlos automáticamente con las formalizaciones anteriores.",
+      "triggers": ["fórmulas de Ágape", "Ágape más alfa", "φ₁ y φ₂ en Ágape", "formalizar los hijos"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa2.alterity.formula", "reason": "Introduce α y la transición hacia h."},
+        {"order": 2, "evidence_id": "ev.aa2.prologue.inherited_model", "reason": "Expone la cadena que la obra presenta como heredada."},
+        {"order": 3, "evidence_id": "ev.aa2.eros", "reason": "Formula el colapso asimétrico de Eros."},
+        {"order": 4, "evidence_id": "ev.aa2.deimos", "reason": "Contrasta el campo simétrico de Deimos."},
+        {"order": 5, "evidence_id": "ev.aa2.harmonia", "reason": "Registra la fórmula de Harmonía."},
+        {"order": 6, "evidence_id": "ev.aa2.system.phi2", "reason": "Registra la función global atribuida a φ₂."}
+      ],
+      "must_surface_review_items": ["review.aa2.phi2_function_change", "review.aa2.alpha_symbol_collision"]
+    },
+    {
+      "id": "route.aa2.volume_continuity",
+      "purpose": "Auditar la autoubicación de Ágape y sus remisiones a otros volúmenes sin normalizar las discordancias editoriales.",
+      "triggers": ["continuidad de Ágape", "volúmenes de Afrodita Areia", "Ágape en Volumen I", "trilogía o pentalogía"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa2.preliminaries", "reason": "Fija la identidad editorial efectiva de la obra como volumen II."},
+        {"order": 2, "evidence_id": "ev.aa2.prologue.inherited_model", "reason": "Recoge las atribuciones de modelo al volumen anterior."},
+        {"order": 3, "evidence_id": "ev.aa2.closure.volume_crosswalk", "reason": "Conserva la retrospectiva sobre Ágape y la arquitectura declarada."},
+        {"order": 4, "evidence_id": "ev.aa2.closure.limits", "reason": "Abre el problema de dos voluntades al volumen siguiente."},
+        {"order": 5, "evidence_id": "ev.aa2.himeno.architecture", "reason": "Expone la remisión relacional del apéndice."}
+      ],
+      "must_surface_review_items": ["review.aa2.volume_crosswalk"]
     }
   ],
   "review_queue": [
@@ -5175,6 +6161,48 @@
         "ev.aa1.narcissus.suicide",
         "ev.aa1.narcissus.reversibility"
       ]
+    },
+    {
+      "id": "review.aa2.phi2_function_change",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.phi2.aa2",
+      "related_relation": "rel.phi2_aa2.differs_bis_aa1",
+      "question": "¿La φ₂ relacional de AA-II —lucidez que reconoce, selecciona o modula posiciones y puede operar antes del efecto— sustituye, amplía o usa homónimamente la φ₂ de Caos y AA-I que asume un acto ya producido en la integral?",
+      "why_not_auto_resolved": "AA-II presenta su función como continuidad del modelo anterior y conserva la fórmula anidada, pero desplaza φ₂ hacia operaciones anteriores o globales y llega a identificarla con el sujeto. Caos y AA-I la sitúan después del acto como asunción constitutiva. El corpus leído no ofrece una regla que haga equivalentes ambos órdenes funcionales.",
+      "blocking": false,
+      "blocking_for": ["formal_validation", "software_implementation"],
+      "evidence": ["ev.aa2.prologue.inherited_model", "ev.aa2.system.phi2", "ev.aa2.himeno.architecture", "ev.aa2.glossary", "ev.aa1.bis.iteration", "ev.aa1.glossary", "ev.caos.act_second_mediation"]
+    },
+    {
+      "id": "review.aa2.volume_crosswalk",
+      "status": "pending_editorial_review",
+      "subject": "formulation.volume_crosswalk.aa2",
+      "question": "¿Cómo debe corregirse o autorizarse la autoubicación que atribuye Ágape y parte de su modelo al Vol. I, llama a AA-II a la vez Vol. II, y alterna pentalogía y trilogía para la serie?",
+      "why_not_auto_resolved": "La fuente canónica de AA-I no usa Ágape y declara para el volumen siguiente una pregunta epistemológica distinta; AA-II se identifica materialmente como volumen 2, pero su cierre llama Ágape a la respuesta del Vol. I y el propio texto usa arquitecturas de serie incompatibles. Es una discordancia autoral/editorial, no una equivalencia que la auditoría pueda imponer.",
+      "blocking": false,
+      "blocking_for": [],
+      "evidence": ["ev.aa2.preliminaries", "ev.aa2.prologue.inherited_model", "ev.aa2.closure.volume_crosswalk", "ev.aa2.closure.limits", "ev.aa2.himeno.architecture", "ev.aa1.reason.synthesis", "ev.aa1.closure.downstream"]
+    },
+    {
+      "id": "review.aa2.cross_level_status",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.cross_levels.aa2",
+      "question": "¿La presencia de los hijos en objetos y organismos es identidad ontológica literal, isomorfismo formal o analogía estructural diferenciada por nivel?",
+      "why_not_auto_resolved": "El capítulo niega que la extensión entre niveles sea una mera metáfora y presenta las posiciones como universales, pero una nota califica expresamente el caso inmunológico como analogía e isomorfismo, sin definir aplicación biyectiva ni estructura preservada. El texto no adjudica un estatuto único para todos los ejemplos.",
+      "blocking": false,
+      "blocking_for": ["formal_validation", "technical_use"],
+      "evidence": ["ev.aa2.prologue.method_scope", "ev.aa2.levels.universality", "ev.aa2.levels.isomorphism_note"]
+    },
+    {
+      "id": "review.aa2.alpha_symbol_collision",
+      "status": "pending_formal_review",
+      "subject": "formal.alpha_alterity.aa2",
+      "related_relation": "rel.alpha_alterity.distinguished_assumption",
+      "question": "¿Debe conservarse α para la alteridad de AA-II cuando la Axiomatización usa el mismo símbolo para el coeficiente de asunción, o debe desambiguarse editorialmente una de las notaciones?",
+      "why_not_auto_resolved": "Las dos fuentes asignan al mismo símbolo objetos formales distintos y no establecen equivalencia ni traducción. El mapa los mantiene separados; elegir una renotación corresponde a revisión formal o editorial.",
+      "blocking": false,
+      "blocking_for": ["formal_validation", "software_implementation"],
+      "evidence": ["ev.aa2.alterity.formula", "ev.axiom.system_map", "ev.axiom.translation"]
     }
   ],
   "tests": [
