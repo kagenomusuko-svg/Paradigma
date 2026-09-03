@@ -1,9 +1,9 @@
 {
-  "map_version": "2.0.0",
+  "map_version": "2.1.0",
   "schema_status": "frozen",
   "phase": "F3",
   "purpose": "Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.",
-  "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 quedó cerrada con nueve obras integradas sistemáticamente y sus diferencias heredadas preservadas. F3 incorpora ya La transformación formal por sus 19 unidades editoriales: registra objetos, dependencias, supuestos, correspondencias ontológicas, cambios de tipado, límites y problemas con el estatuto que la fuente permite, sin convertir la formalización autoral en validación matemática. La siguiente obra de F3 es Axiomatización del Paradigma de Autodeterminación Causal.",
+  "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 quedó cerrada con nueve obras integradas. F3 incorpora sistemáticamente La transformación formal y Axiomatización del sistema de la doble mediación, conservando sus objetos, supuestos, correspondencias, revisiones y contradicciones sin convertir teoremas autorales en resultados matemáticamente validados. La siguiente obra de F3 es Metrología Causal, volumen I.",
   "works": [
     {
       "id": "CAOS",
@@ -6431,6 +6431,842 @@
       ],
       "section": "Epílogo · programa empírico futuro",
       "evidence_type": "authorial_program"
+    },
+    {
+      "id": "ev.axiom.prelim.bibliographic",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/00-preliminares.md",
+      "source_lines": [
+        1,
+        30
+      ],
+      "section": "Preliminares · datos y licencia",
+      "evidence_type": "editorial_evidence"
+    },
+    {
+      "id": "ev.axiom.pro.problem",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/01-prologo.md",
+      "source_lines": [
+        31,
+        82
+      ],
+      "section": "Prólogo · problema de inversión",
+      "evidence_type": "authorial_program"
+    },
+    {
+      "id": "ev.axiom.pro.chain",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/01-prologo.md",
+      "source_lines": [
+        83,
+        150
+      ],
+      "section": "Prólogo · cadena de objetos",
+      "evidence_type": "authorial_architecture"
+    },
+    {
+      "id": "ev.axiom.pro.results",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/01-prologo.md",
+      "source_lines": [
+        151,
+        205
+      ],
+      "section": "Prólogo · resultados y estatutos",
+      "evidence_type": "authorial_classification"
+    },
+    {
+      "id": "ev.axiom.pro.dependencies",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/01-prologo.md",
+      "source_lines": [
+        206,
+        240
+      ],
+      "section": "Prólogo · dependencias lógicas",
+      "evidence_type": "authorial_architecture"
+    },
+    {
+      "id": "ev.axiom.pro.notation",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/01-prologo.md",
+      "source_lines": [
+        241,
+        268
+      ],
+      "section": "Prólogo · tipos y deslinde ontológico",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.axiom.0.hilbert",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-00.md",
+      "source_lines": [
+        269,
+        318
+      ],
+      "section": "Parte 0 · Axioma de Hilbert",
+      "evidence_type": "authorial_axiom"
+    },
+    {
+      "id": "ev.axiom.0.embedding",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-00.md",
+      "source_lines": [
+        319,
+        350
+      ],
+      "section": "Parte 0 · embedding",
+      "evidence_type": "authorial_assumption"
+    },
+    {
+      "id": "ev.axiom.0.collapse",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-00.md",
+      "source_lines": [
+        351,
+        380
+      ],
+      "section": "Parte 0 · función de colapso",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.axiom.0.bochner",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-00.md",
+      "source_lines": [
+        381,
+        399
+      ],
+      "section": "Parte 0 · integrabilidad y correspondencia",
+      "evidence_type": "authorial_claim"
+    },
+    {
+      "id": "ev.axiom.1.signature",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-01.md",
+      "source_lines": [
+        400,
+        455
+      ],
+      "section": "Parte I · firma de φ₁",
+      "evidence_type": "authorial_axiom"
+    },
+    {
+      "id": "ev.axiom.1.vt",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-01.md",
+      "source_lines": [
+        456,
+        490
+      ],
+      "section": "Parte I · estado interno v_t",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.axiom.1.softmax",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-01.md",
+      "source_lines": [
+        491,
+        535
+      ],
+      "section": "Parte I · softmax de seis modos",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.axiom.1.corrections",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-01.md",
+      "source_lines": [
+        536,
+        560
+      ],
+      "section": "Parte I · correcciones de sigmoide y gradiente",
+      "evidence_type": "authorial_revision"
+    },
+    {
+      "id": "ev.axiom.1.existence",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-01.md",
+      "source_lines": [
+        561,
+        590
+      ],
+      "section": "Parte I · existencia para sistemas artificiales",
+      "evidence_type": "authorial_claim"
+    },
+    {
+      "id": "ev.axiom.2.signature",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-02.md",
+      "source_lines": [
+        591,
+        635
+      ],
+      "section": "Parte II · firma y pasos de φ₂",
+      "evidence_type": "authorial_axiom"
+    },
+    {
+      "id": "ev.axiom.2.integral",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-02.md",
+      "source_lines": [
+        636,
+        690
+      ],
+      "section": "Parte II · integral de Bochner",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.axiom.2.irreversibility",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-02.md",
+      "source_lines": [
+        691,
+        735
+      ],
+      "section": "Parte II · teorema de irreversibilidad",
+      "evidence_type": "authorial_theorem"
+    },
+    {
+      "id": "ev.axiom.2.rsc",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-02.md",
+      "source_lines": [
+        736,
+        770
+      ],
+      "section": "Parte II · registro RSC e I(t)",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.axiom.2.eval",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-02.md",
+      "source_lines": [
+        771,
+        800
+      ],
+      "section": "Parte II · eval, umbral y no amplificación",
+      "evidence_type": "authorial_theorem"
+    },
+    {
+      "id": "ev.axiom.3.sop",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-03.md",
+      "source_lines": [
+        801,
+        850
+      ],
+      "section": "Parte III · S operacional",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.axiom.3.sest",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-03.md",
+      "source_lines": [
+        851,
+        914
+      ],
+      "section": "Parte III · S estructural",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.axiom.3.bridge",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-03.md",
+      "source_lines": [
+        915,
+        975
+      ],
+      "section": "Parte III · puente S_op-S_est",
+      "evidence_type": "authorial_proposition"
+    },
+    {
+      "id": "ev.axiom.3.ranges",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-03.md",
+      "source_lines": [
+        976,
+        1040
+      ],
+      "section": "Parte III · rangos por modo",
+      "evidence_type": "authorial_calibration"
+    },
+    {
+      "id": "ev.axiom.3.status",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-03.md",
+      "source_lines": [
+        1041,
+        1065
+      ],
+      "section": "Parte III · estatuto y correspondencia",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.axiom.4.continuous",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-04.md",
+      "source_lines": [
+        1066,
+        1115
+      ],
+      "section": "Parte IV · α continua",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.axiom.4.discrete",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-04.md",
+      "source_lines": [
+        1116,
+        1160
+      ],
+      "section": "Parte IV · α discreta",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.axiom.4.calibration",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-04.md",
+      "source_lines": [
+        1161,
+        1210
+      ],
+      "section": "Parte IV · funciones f y g",
+      "evidence_type": "authorial_calibration"
+    },
+    {
+      "id": "ev.axiom.4.bounds",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-04.md",
+      "source_lines": [
+        1211,
+        1235
+      ],
+      "section": "Parte IV · acotación de α",
+      "evidence_type": "authorial_theorem"
+    },
+    {
+      "id": "ev.axiom.4.intent",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-04.md",
+      "source_lines": [
+        1236,
+        1258
+      ],
+      "section": "Parte IV · independencia del dolo y asunción forzada",
+      "evidence_type": "authorial_claim"
+    },
+    {
+      "id": "ev.axiom.5.delta",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-05.md",
+      "source_lines": [
+        1259,
+        1310
+      ],
+      "section": "Parte V · Δ y signos",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.axiom.5.evolution",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-05.md",
+      "source_lines": [
+        1311,
+        1355
+      ],
+      "section": "Parte V · evolución temporal",
+      "evidence_type": "authorial_theorem"
+    },
+    {
+      "id": "ev.axiom.5.signal",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-05.md",
+      "source_lines": [
+        1356,
+        1405
+      ],
+      "section": "Parte V · señal de sobreasunción",
+      "evidence_type": "authorial_proposition"
+    },
+    {
+      "id": "ev.axiom.5.countercases",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-05.md",
+      "source_lines": [
+        1406,
+        1421
+      ],
+      "section": "Parte V · contraejemplos reconocidos",
+      "evidence_type": "authorial_limit"
+    },
+    {
+      "id": "ev.axiom.6.graph",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-06.md",
+      "source_lines": [
+        1422,
+        1490
+      ],
+      "section": "Parte VI · grafo con sumidero",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.axiom.6.rstar",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-06.md",
+      "source_lines": [
+        1491,
+        1550
+      ],
+      "section": "Parte VI · R* sobre Wᵀ",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.axiom.6.pf",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-06.md",
+      "source_lines": [
+        1551,
+        1630
+      ],
+      "section": "Parte VI · Perron-Frobenius",
+      "evidence_type": "authorial_theorem"
+    },
+    {
+      "id": "ev.axiom.6.power",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-06.md",
+      "source_lines": [
+        1631,
+        1695
+      ],
+      "section": "Parte VI · perturbación y potencias",
+      "evidence_type": "authorial_method"
+    },
+    {
+      "id": "ev.axiom.6.intervals",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-06.md",
+      "source_lines": [
+        1696,
+        1750
+      ],
+      "section": "Parte VI · intervalos de evidencia",
+      "evidence_type": "authorial_method"
+    },
+    {
+      "id": "ev.axiom.6.consistency",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-06.md",
+      "source_lines": [
+        1751,
+        1793
+      ],
+      "section": "Cierre · consistencia interna",
+      "evidence_type": "authorial_claim"
+    },
+    {
+      "id": "ev.axiom.7.fisher",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-07.md",
+      "source_lines": [
+        1794,
+        1845
+      ],
+      "section": "Parte VII · temperatura e información de Fisher",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.axiom.7.cramer",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-07.md",
+      "source_lines": [
+        1846,
+        1900
+      ],
+      "section": "Parte VII · cotas Cramér-Rao",
+      "evidence_type": "authorial_lemma"
+    },
+    {
+      "id": "ev.axiom.7.rec",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-07.md",
+      "source_lines": [
+        1901,
+        1960
+      ],
+      "section": "Parte VII · REC",
+      "evidence_type": "authorial_theorem"
+    },
+    {
+      "id": "ev.axiom.7.predictability",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-07.md",
+      "source_lines": [
+        1961,
+        2005
+      ],
+      "section": "Parte VII · consecuencia predictiva",
+      "evidence_type": "authorial_limit"
+    },
+    {
+      "id": "ev.axiom.7.heisenberg",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-07.md",
+      "source_lines": [
+        2006,
+        2040
+      ],
+      "section": "Parte VII · deslinde de Heisenberg",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.axiom.8.objects",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-08.md",
+      "source_lines": [
+        2041,
+        2095
+      ],
+      "section": "Parte VIII · D, E, V y α descompuesta",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.axiom.8.bounds",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-08.md",
+      "source_lines": [
+        2096,
+        2145
+      ],
+      "section": "Parte VIII · cotas R*(E) y R*(D)",
+      "evidence_type": "authorial_lemma"
+    },
+    {
+      "id": "ev.axiom.8.conventional",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-08.md",
+      "source_lines": [
+        2146,
+        2195
+      ],
+      "section": "Parte VIII · axiomas de imputación convencional",
+      "evidence_type": "authorial_axiom"
+    },
+    {
+      "id": "ev.axiom.8.tic",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-08.md",
+      "source_lines": [
+        2196,
+        2250
+      ],
+      "section": "Parte VIII · Teorema de Inversión Causal",
+      "evidence_type": "authorial_theorem"
+    },
+    {
+      "id": "ev.axiom.8.iinv",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-08.md",
+      "source_lines": [
+        2251,
+        2285
+      ],
+      "section": "Parte VIII · índice y monotonicidad",
+      "evidence_type": "authorial_theorem"
+    },
+    {
+      "id": "ev.axiom.8.annona",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-08.md",
+      "source_lines": [
+        2286,
+        2333
+      ],
+      "section": "Parte VIII · fraude annona y ejemplo",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.axiom.9.state",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-09.md",
+      "source_lines": [
+        2334,
+        2385
+      ],
+      "section": "Parte IX · estado Ψ(t)",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.axiom.9.model",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-09.md",
+      "source_lines": [
+        2386,
+        2440
+      ],
+      "section": "Parte IX · logits y modelo predictivo",
+      "evidence_type": "authorial_model"
+    },
+    {
+      "id": "ev.axiom.9.linearity",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-09.md",
+      "source_lines": [
+        2441,
+        2495
+      ],
+      "section": "Parte IX · linealidad declarada",
+      "evidence_type": "authorial_lemma"
+    },
+    {
+      "id": "ev.axiom.9.error",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-09.md",
+      "source_lines": [
+        2496,
+        2525
+      ],
+      "section": "Parte IX · error y temperatura",
+      "evidence_type": "authorial_calibration"
+    },
+    {
+      "id": "ev.axiom.9.asymmetry",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-09.md",
+      "source_lines": [
+        2526,
+        2549
+      ],
+      "section": "Parte IX · asimetría REC-MP",
+      "evidence_type": "authorial_claim"
+    },
+    {
+      "id": "ev.axiom.10.closure",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-10.md",
+      "source_lines": [
+        2550,
+        2605
+      ],
+      "section": "Parte X · clausura del ego",
+      "evidence_type": "authorial_theorem"
+    },
+    {
+      "id": "ev.axiom.10.proof",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-10.md",
+      "source_lines": [
+        2606,
+        2655
+      ],
+      "section": "Parte X · demostración de clausura",
+      "evidence_type": "authorial_proof"
+    },
+    {
+      "id": "ev.axiom.10.perfect",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-10.md",
+      "source_lines": [
+        2656,
+        2685
+      ],
+      "section": "Parte X · perfectibilidad y no numerabilidad",
+      "evidence_type": "authorial_corollary"
+    },
+    {
+      "id": "ev.axiom.10.scope",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/parte-10.md",
+      "source_lines": [
+        2686,
+        2712
+      ],
+      "section": "Parte X · alcance ontológico",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.axiom.a.chain",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/apendice-a.md",
+      "source_lines": [
+        2713,
+        2765
+      ],
+      "section": "Apéndice A · cadena Pinsker-Davis-Kahan",
+      "evidence_type": "authorial_proof"
+    },
+    {
+      "id": "ev.axiom.a.reverse",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/apendice-a.md",
+      "source_lines": [
+        2766,
+        2815
+      ],
+      "section": "Apéndice A · continuidad inversa y perturbación",
+      "evidence_type": "authorial_proof"
+    },
+    {
+      "id": "ev.axiom.a.bound",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/apendice-a.md",
+      "source_lines": [
+        2816,
+        2854
+      ],
+      "section": "Apéndice A · cota final",
+      "evidence_type": "authorial_proof"
+    },
+    {
+      "id": "ev.axiom.b.limit",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/apendice-b.md",
+      "source_lines": [
+        2855,
+        2920
+      ],
+      "section": "Apéndice B · muestra y limitaciones",
+      "evidence_type": "authorial_empirical_claim"
+    },
+    {
+      "id": "ev.axiom.b.calibration",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/apendice-b.md",
+      "source_lines": [
+        2921,
+        3000
+      ],
+      "section": "Apéndice B · calibración φ y ψ",
+      "evidence_type": "authorial_calibration"
+    },
+    {
+      "id": "ev.axiom.b.sensitivity",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/apendice-b.md",
+      "source_lines": [
+        3001,
+        3070
+      ],
+      "section": "Apéndice B · sensibilidad",
+      "evidence_type": "authorial_method"
+    },
+    {
+      "id": "ev.axiom.b.cases",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/apendice-b.md",
+      "source_lines": [
+        3071,
+        3220
+      ],
+      "section": "Apéndice B · tabla de 18 casos",
+      "evidence_type": "authorial_dataset"
+    },
+    {
+      "id": "ev.axiom.b.mechanisms",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/apendice-b.md",
+      "source_lines": [
+        3221,
+        3330
+      ],
+      "section": "Apéndice B · mecanismos de verificación",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.axiom.b.levels",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/apendice-b.md",
+      "source_lines": [
+        3331,
+        3408
+      ],
+      "section": "Apéndice B · niveles de evidencia",
+      "evidence_type": "authorial_classification"
+    },
+    {
+      "id": "ev.axiom.d.discrete",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/apendice-d.md",
+      "source_lines": [
+        3549,
+        3615
+      ],
+      "section": "Apéndice D · trayectoria discreta",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.axiom.d.markov",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/apendice-d.md",
+      "source_lines": [
+        3616,
+        3685
+      ],
+      "section": "Apéndice D · Markov y convergencia",
+      "evidence_type": "authorial_theorem"
+    },
+    {
+      "id": "ev.axiom.d.rnet",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/apendice-d.md",
+      "source_lines": [
+        3686,
+        3760
+      ],
+      "section": "Apéndice D · R* neta y Δ neta",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.axiom.d.identifiability",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/apendice-d.md",
+      "source_lines": [
+        3761,
+        3810
+      ],
+      "section": "Apéndice D · identificabilidad",
+      "evidence_type": "authorial_protocol"
+    },
+    {
+      "id": "ev.axiom.d.counterfactual",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/apendice-d.md",
+      "source_lines": [
+        3811,
+        3890
+      ],
+      "section": "Apéndice D · operador contrafactual",
+      "evidence_type": "authorial_theorem"
+    },
+    {
+      "id": "ev.axiom.d.dynamics",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/apendice-d.md",
+      "source_lines": [
+        3891,
+        3970
+      ],
+      "section": "Apéndice D · dominancia y estabilidad",
+      "evidence_type": "authorial_theorem"
+    },
+    {
+      "id": "ev.axiom.d.bifurcation",
+      "work_id": "AXIOM-SDM",
+      "segment": "corpus/libros/axiomatizacion-doble-mediacion/apendice-d.md",
+      "source_lines": [
+        3971,
+        4137
+      ],
+      "section": "Apéndice D · bifurcación causal",
+      "evidence_type": "authorial_theorem"
     }
   ],
   "nodes": [
@@ -6547,10 +7383,23 @@
         "symbol": "φ₁",
         "object_type": "function",
         "signature": "φ₁: V × C × H → A",
-        "epistemic_status": "axiom"
+        "epistemic_status": "axiom",
+        "domain": "V×C×H",
+        "codomain": "A⊂E",
+        "dependencies": [
+          "formal.axiom.V",
+          "formal.axiom.C",
+          "formal.axiom.H"
+        ],
+        "assumptions": [
+          "existencia postulada; sin continuidad, medibilidad ni linealidad"
+        ],
+        "ontological_correspondence": "primera mediación que produce el acto",
+        "provenance": "Axioma 1"
       },
       "evidence": [
-        "ev.axiom.phi1"
+        "ev.axiom.1.signature",
+        "ev.axiom.1.softmax"
       ],
       "evidence_status": "explicit"
     },
@@ -6562,10 +7411,22 @@
         "symbol": "φ₂",
         "object_type": "function",
         "signature": "φ₂: A × E → E",
-        "epistemic_status": "axiom"
+        "epistemic_status": "axiom",
+        "domain": "A×E",
+        "codomain": "E",
+        "dependencies": [
+          "formal.axiom.eval",
+          "formal.axiom.delta_a"
+        ],
+        "assumptions": [
+          "decisión binaria por umbral"
+        ],
+        "ontological_correspondence": "segunda mediación que integra o rechaza el acto",
+        "provenance": "Axioma 2"
       },
       "evidence": [
-        "ev.axiom.phi2_it"
+        "ev.axiom.2.signature",
+        "ev.axiom.2.eval"
       ],
       "evidence_status": "explicit"
     },
@@ -6577,10 +7438,21 @@
         "symbol": "I(t)",
         "object_type": "Bochner_integral_in_E",
         "expression": "I(t) = ∫₀ᵗ c(τ)w(τ)dτ ∈ E",
-        "epistemic_status": "definition"
+        "epistemic_status": "definition",
+        "domain": "T",
+        "codomain": "E",
+        "dependencies": [
+          "formal.axiom.collapse",
+          "formal.axiom.weight_time"
+        ],
+        "assumptions": [
+          "integrando Bochner medible e integrable"
+        ],
+        "ontological_correspondence": "historia/integral del ego",
+        "provenance": "Definición 2"
       },
       "evidence": [
-        "ev.axiom.phi2_it",
+        "ev.axiom.2.integral",
         "ev.axiom.translation"
       ],
       "evidence_status": "explicit"
@@ -6784,10 +7656,20 @@
         "symbol": "G",
         "object_type": "weighted_directed_graph",
         "expression": "G = (N, A, w)",
-        "epistemic_status": "definition"
+        "epistemic_status": "definition",
+        "domain": "N finito con nodo final",
+        "codomain": "dígrafo ponderado",
+        "dependencies": [
+          "formal.W"
+        ],
+        "assumptions": [
+          "sumidero con fila nula; actores con filas normalizadas"
+        ],
+        "ontological_correspondence": "grafo causal documentado",
+        "provenance": "Definición 6"
       },
       "evidence": [
-        "ev.axiom.rstar"
+        "ev.axiom.6.graph"
       ],
       "evidence_status": "explicit"
     },
@@ -6798,10 +7680,21 @@
       "formal_spec": {
         "symbol": "W",
         "object_type": "nonnegative_weight_matrix_with_sink_row",
-        "epistemic_status": "definition"
+        "epistemic_status": "definition",
+        "expression": "W≥0; filas 1…n suman 1; fila n+1=0",
+        "domain": "R^{(n+1)×(n+1)}",
+        "codomain": "matriz substocástica",
+        "dependencies": [
+          "formal.G"
+        ],
+        "assumptions": [
+          "pesos documentales"
+        ],
+        "ontological_correspondence": "influencia causal entre nodos",
+        "provenance": "Definición 6"
       },
       "evidence": [
-        "ev.axiom.rstar"
+        "ev.axiom.6.graph"
       ],
       "evidence_status": "explicit"
     },
@@ -6816,10 +7709,20 @@
         "domain": "Δⁿ",
         "epistemic_status": "definition_with_existence_uniqueness_claim",
         "calculation": "Método de potencias sobre Wᵀ; normalización L1; tolerancia estándar 10^-6.",
-        "scope": "Distribución de influencia causal estructural; no culpabilidad jurídica ni responsabilidad moral."
+        "scope": "Distribución de influencia causal estructural; no culpabilidad jurídica ni responsabilidad moral.",
+        "codomain": "Δⁿ declarado",
+        "dependencies": [
+          "formal.W"
+        ],
+        "assumptions": [
+          "irreducibilidad, aperiodicidad y estocasticidad por filas declaradas"
+        ],
+        "ontological_correspondence": "imputación causal estructural",
+        "provenance": "Definición 6.1 y Teorema 6"
       },
       "evidence": [
-        "ev.axiom.rstar",
+        "ev.axiom.6.rstar",
+        "ev.axiom.6.pf",
         "ev.axiom.translation"
       ],
       "evidence_status": "explicit"
@@ -6831,10 +7734,24 @@
       "formal_spec": {
         "symbol": "α",
         "object_type": "scalar_or_nodewise_coefficient",
-        "epistemic_status": "definition"
+        "epistemic_status": "definition",
+        "expression": "α(t)=∫1_int·w·p/∫w",
+        "domain": "T y registro de colapsos",
+        "codomain": "[0,1]",
+        "dependencies": [
+          "formal.I_t",
+          "formal.axiom.RSC",
+          "formal.axiom.depth"
+        ],
+        "assumptions": [
+          "w>0; p medible"
+        ],
+        "ontological_correspondence": "asunción de lo producido",
+        "provenance": "Definición 4"
       },
       "evidence": [
-        "ev.axiom.system_map",
+        "ev.axiom.4.continuous",
+        "ev.axiom.4.bounds",
         "ev.axiom.translation"
       ],
       "evidence_status": "explicit"
@@ -6847,10 +7764,21 @@
         "symbol": "Δ",
         "object_type": "difference",
         "expression": "Δ = R* − α",
-        "epistemic_status": "definition"
+        "epistemic_status": "definition",
+        "domain": "[0,1]²",
+        "codomain": "[-1,1]",
+        "dependencies": [
+          "formal.rstar",
+          "formal.alpha"
+        ],
+        "assumptions": [
+          "R* y α comparables por nodo"
+        ],
+        "ontological_correspondence": "déficit de asunción",
+        "provenance": "Definición 5"
       },
       "evidence": [
-        "ev.axiom.system_map"
+        "ev.axiom.5.delta"
       ],
       "evidence_status": "explicit"
     },
@@ -13017,6 +13945,951 @@
         "ev.tf.51.retrospective"
       ],
       "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.E",
+      "kind": "formal_object",
+      "label": "Espacio de Hilbert E",
+      "formal_spec": {
+        "symbol": "E",
+        "object_type": "separable_Hilbert_space",
+        "expression": "E con producto interno y norma",
+        "epistemic_status": "authorial_axiom_not_externally_validated",
+        "ontological_correspondence": "Caos como espacio de posibilidad",
+        "codomain": "espacio completo separable",
+        "assumptions": [
+          "adopción de estructura de Hilbert"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.0.hilbert",
+        "ev.axiom.translation"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.emb",
+      "kind": "formal_object",
+      "label": "Embedding emb",
+      "formal_spec": {
+        "symbol": "emb",
+        "object_type": "modeling_embedding",
+        "expression": "emb: Outputs→E",
+        "epistemic_status": "authorial_modeling_assumption",
+        "ontological_correspondence": "traducción de outputs a colapsos",
+        "domain": "Outputs",
+        "codomain": "E",
+        "assumptions": [
+          "preserva orden de similitud causal"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.0.embedding"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.collapse",
+      "kind": "formal_object",
+      "label": "Función de colapso c",
+      "formal_spec": {
+        "symbol": "c:T→E",
+        "object_type": "Bochner_measurable_bounded_function",
+        "expression": "c:T→E",
+        "epistemic_status": "authorial_definition",
+        "ontological_correspondence": "colapso/determinación",
+        "domain": "T=[0,t_m]",
+        "codomain": "E",
+        "dependencies": [
+          "formal.axiom.E"
+        ],
+        "assumptions": [
+          "medible y uniformemente acotada"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.0.collapse"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.V",
+      "kind": "formal_object",
+      "label": "Espacio V",
+      "formal_spec": {
+        "symbol": "V",
+        "object_type": "internal_state_space",
+        "expression": "v_t∈V",
+        "epistemic_status": "authorial_axiom_component",
+        "ontological_correspondence": "voluntad",
+        "codomain": "espacio con producto interno declarado"
+      },
+      "evidence": [
+        "ev.axiom.1.signature",
+        "ev.axiom.1.vt"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.C",
+      "kind": "formal_object",
+      "label": "Espacio C",
+      "formal_spec": {
+        "symbol": "C",
+        "object_type": "normed_configuration_space",
+        "expression": "c∈C",
+        "epistemic_status": "authorial_axiom_component",
+        "ontological_correspondence": "configuración heredada",
+        "codomain": "espacio normado"
+      },
+      "evidence": [
+        "ev.axiom.1.signature"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.H",
+      "kind": "formal_object",
+      "label": "Espacio H",
+      "formal_spec": {
+        "symbol": "H",
+        "object_type": "history_state_space",
+        "expression": "I(t)∈H",
+        "epistemic_status": "authorial_axiom_component",
+        "ontological_correspondence": "espacio de historias",
+        "codomain": "no especificado"
+      },
+      "evidence": [
+        "ev.axiom.1.signature"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.vt",
+      "kind": "formal_object",
+      "label": "Estado interno v_t",
+      "formal_spec": {
+        "symbol": "v_t",
+        "object_type": "state_vector",
+        "expression": "v_t=(τ,a_t,I(t))",
+        "epistemic_status": "authorial_definition",
+        "ontological_correspondence": "voluntad instantánea",
+        "domain": "T",
+        "codomain": "V",
+        "dependencies": [
+          "formal.axiom.tau",
+          "formal.I_t"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.1.vt"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.softmax",
+      "kind": "formal_object",
+      "label": "Distribución h(v_t)",
+      "formal_spec": {
+        "symbol": "h(v_t)",
+        "object_type": "softmax_distribution",
+        "expression": "h_k=exp(z_k)/Σ_j exp(z_j)",
+        "epistemic_status": "authorial_lemma_with_elementary_normalization",
+        "ontological_correspondence": "seis modos/Hijos",
+        "domain": "V",
+        "codomain": "Δ⁵",
+        "dependencies": [
+          "formal.axiom.logits"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.1.softmax",
+        "ev.axiom.1.corrections"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.logits",
+      "kind": "formal_object",
+      "label": "Logits z_k",
+      "formal_spec": {
+        "symbol": "z_k",
+        "object_type": "scalar_logit",
+        "expression": "(⟨β_k,a_t⟩+γ_k‖I(t)‖−θ_k(I(t)))/τ",
+        "epistemic_status": "authorial_definition_pending_typing",
+        "ontological_correspondence": "activación de modo",
+        "domain": "E×H",
+        "codomain": "R",
+        "dependencies": [
+          "formal.axiom.vt",
+          "formal.I_t"
+        ],
+        "assumptions": [
+          "τ>0"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.1.softmax"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.eval",
+      "kind": "formal_object",
+      "label": "Función eval",
+      "formal_spec": {
+        "symbol": "eval",
+        "object_type": "measurable_compatibility_function",
+        "expression": "eval:A×E→R",
+        "epistemic_status": "authorial_family_pending_domain_calibration",
+        "ontological_correspondence": "evaluación de compatibilidad",
+        "domain": "A×E",
+        "codomain": "R",
+        "assumptions": [
+          "medible; umbral fijo; compatibilidad específica del dominio"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.2.eval"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.delta_a",
+      "kind": "formal_object",
+      "label": "Modificación δ(a)",
+      "formal_spec": {
+        "symbol": "δ(a)",
+        "object_type": "bounded_update_vector",
+        "expression": "‖δ(a)‖≤‖a‖",
+        "epistemic_status": "authorial_condition",
+        "ontological_correspondence": "modificación por integración",
+        "domain": "A",
+        "codomain": "E",
+        "assumptions": [
+          "no amplificación"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.2.eval"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.RSC",
+      "kind": "formal_object",
+      "label": "Registro RSC(t)",
+      "formal_spec": {
+        "symbol": "RSC(t)",
+        "object_type": "image_set",
+        "expression": "{c(τ):τ∈[0,t]}",
+        "epistemic_status": "authorial_definition_with_type_conflict",
+        "ontological_correspondence": "registro de todos los colapsos",
+        "domain": "T",
+        "codomain": "P(E)",
+        "dependencies": [
+          "formal.axiom.collapse"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.2.rsc"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.weight_time",
+      "kind": "formal_object",
+      "label": "Peso temporal w",
+      "formal_spec": {
+        "symbol": "w",
+        "object_type": "bounded_measurable_weight",
+        "expression": "w:T→R_+",
+        "epistemic_status": "authorial_definition",
+        "ontological_correspondence": "relevancia temporal",
+        "domain": "T",
+        "codomain": "R_+",
+        "assumptions": [
+          "medible y acotada"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.2.integral"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.Sop",
+      "kind": "formal_object",
+      "label": "S operacional",
+      "formal_spec": {
+        "symbol": "S_op",
+        "object_type": "norm_ratio",
+        "expression": "‖c‖_C/(‖c‖_C+‖a_t‖_E)",
+        "epistemic_status": "authorial_definition_pending_scale_validation",
+        "ontological_correspondence": "sustituibilidad por configuración",
+        "domain": "C×E",
+        "codomain": "[0,1]",
+        "assumptions": [
+          "normas de espacios distintos normalizadas y comparables"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.3.sop"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.Sest",
+      "kind": "formal_object",
+      "label": "S estructural",
+      "formal_spec": {
+        "symbol": "S_est(i)",
+        "object_type": "normalized_KL_complement",
+        "expression": "1−D_KL(R*||R*^(i))/log(m)",
+        "epistemic_status": "authorial_definition_with_unproven_bounds",
+        "ontological_correspondence": "sustituibilidad contrafactual",
+        "domain": "dos distribuciones sobre nodos",
+        "codomain": "[0,1] declarado",
+        "dependencies": [
+          "formal.rstar",
+          "formal.axiom.Wi"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.3.sest"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.Wi",
+      "kind": "formal_object",
+      "label": "Matriz de sustitución W^(i)",
+      "formal_spec": {
+        "symbol": "W^(i)",
+        "object_type": "row_replacement_matrix",
+        "expression": "fila i=promedio de otras filas",
+        "epistemic_status": "authorial_definition",
+        "ontological_correspondence": "reemplazo estructural del nodo",
+        "domain": "W",
+        "codomain": "matriz de pesos",
+        "dependencies": [
+          "formal.W"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.3.sest"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.gbridge",
+      "kind": "formal_object",
+      "label": "Puente g",
+      "formal_spec": {
+        "symbol": "g",
+        "object_type": "monotone_empirical_bridge",
+        "expression": "S_op≈g(S_est)",
+        "epistemic_status": "authorial_proposition_not_demonstrated",
+        "ontological_correspondence": "traducción entre sustituibilidad interna y estructural",
+        "domain": "[0,1]",
+        "codomain": "[0,1]",
+        "assumptions": [
+          "preservación de orden; regularidad no definida"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.3.bridge"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.depth",
+      "kind": "formal_object",
+      "label": "Profundidad p",
+      "formal_spec": {
+        "symbol": "p",
+        "object_type": "measurable_depth_function",
+        "expression": "p:T→[0,1]",
+        "epistemic_status": "authorial_parameter_requiring_calibration",
+        "ontological_correspondence": "profundidad de integración",
+        "domain": "T",
+        "codomain": "[0,1]"
+      },
+      "evidence": [
+        "ev.axiom.4.continuous",
+        "ev.axiom.4.calibration"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.alpha_discrete",
+      "kind": "formal_object",
+      "label": "α discreta",
+      "formal_spec": {
+        "symbol": "α(a_i)",
+        "object_type": "discrete_product",
+        "expression": "p_pres·f(τ_i)·g(τ_i)",
+        "epistemic_status": "authorial_definition_with_measure_mismatch",
+        "ontological_correspondence": "asunción puntual",
+        "domain": "colapso a_i",
+        "codomain": "[0,1]",
+        "dependencies": [
+          "formal.alpha"
+        ],
+        "assumptions": [
+          "delta de Dirac tratada como peso acotado"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.4.discrete"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.delta_evolution",
+      "kind": "formal_object",
+      "label": "Evolución de Δ",
+      "formal_spec": {
+        "symbol": "dΔ_i/dt",
+        "object_type": "differential_identity",
+        "expression": "dR*_i/dt−dα_i/dt",
+        "epistemic_status": "authorial_conditional_identity",
+        "ontological_correspondence": "cambio temporal de brecha",
+        "domain": "tiempo diferenciable",
+        "codomain": "R",
+        "dependencies": [
+          "formal.delta"
+        ],
+        "assumptions": [
+          "R*(t) y α(t) diferenciables"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.5.evolution"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.Wepsilon",
+      "kind": "formal_object",
+      "label": "Perturbación W(ε)",
+      "formal_spec": {
+        "symbol": "W(ε)",
+        "object_type": "teleportation_regularization",
+        "expression": "(1−ε)W+(ε/n)J",
+        "epistemic_status": "authorial_regularization_pending_dimension_review",
+        "ontological_correspondence": "influencia difusa",
+        "domain": "W, ε∈(0,1)",
+        "codomain": "matriz primitiva declarada",
+        "dependencies": [
+          "formal.W"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.6.pf",
+        "ev.axiom.6.power"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.rstar_interval",
+      "kind": "formal_object",
+      "label": "Intervalos R*",
+      "formal_spec": {
+        "symbol": "[R*(min),R*(max)]",
+        "object_type": "endpoint_recomputation",
+        "expression": "potencias con todos los extremos inferiores/superiores",
+        "epistemic_status": "authorial_uncertainty_method_pending_validation",
+        "ontological_correspondence": "incertidumbre empírica del analista",
+        "domain": "intervalos de pesos",
+        "codomain": "intervalos por componente",
+        "dependencies": [
+          "formal.rstar"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.6.intervals"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.tau",
+      "kind": "formal_object",
+      "label": "Temperatura τ",
+      "formal_spec": {
+        "symbol": "τ",
+        "object_type": "positive_temperature_parameter",
+        "expression": "τ>0",
+        "epistemic_status": "authorial_axiom",
+        "ontological_correspondence": "variabilidad de voluntad",
+        "domain": "T",
+        "codomain": "R_{>0}"
+      },
+      "evidence": [
+        "ev.axiom.7.fisher"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.fisher",
+      "kind": "formal_object",
+      "label": "Información de Fisher declarada",
+      "formal_spec": {
+        "symbol": "J(θ)",
+        "object_type": "scalar_Fisher_information",
+        "expression": "h_k(1−h_k)/τ²",
+        "epistemic_status": "authorial_lemma_pending_statistical_review",
+        "ontological_correspondence": "información sobre historia",
+        "domain": "modelo Bernoulli de un modo",
+        "codomain": "R_+",
+        "dependencies": [
+          "formal.axiom.softmax",
+          "formal.axiom.tau"
+        ],
+        "assumptions": [
+          "n observaciones independientes; derivada logística unitaria"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.7.fisher"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.REC",
+      "kind": "formal_object",
+      "label": "Relación de Escala del Conocimiento",
+      "formal_spec": {
+        "symbol": "REC",
+        "object_type": "uncertainty_product_bound",
+        "expression": "n·(ΔI·Δh)≥4τ₀²; también ΔI·Δh≥τ₀/n",
+        "epistemic_status": "authorial_theorem_internally_inconsistent",
+        "ontological_correspondence": "límite de autoconocimiento",
+        "domain": "estimadores insesgados declarados",
+        "codomain": "desigualdad",
+        "dependencies": [
+          "formal.axiom.fisher",
+          "formal.axiom.tau"
+        ],
+        "assumptions": [
+          "Cramér-Rao e independencia"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.7.cramer",
+        "ev.axiom.7.rec"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.visibility",
+      "kind": "formal_object",
+      "label": "Visibilidad V(i)",
+      "formal_spec": {
+        "symbol": "V(i)",
+        "object_type": "document_frequency_ratio",
+        "expression": "n_doc(i)/n_total",
+        "epistemic_status": "authorial_definition",
+        "ontological_correspondence": "visibilidad documental",
+        "domain": "nodos",
+        "codomain": "[0,1]"
+      },
+      "evidence": [
+        "ev.axiom.8.objects"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.alpha_components",
+      "kind": "formal_object",
+      "label": "α descompuesta",
+      "formal_spec": {
+        "symbol": "α(i)",
+        "object_type": "additive_assumption_components",
+        "expression": "α_vol+α_for+α_imp",
+        "epistemic_status": "authorial_definition_pending_bounds",
+        "ontological_correspondence": "asunción voluntaria, forzada e impuesta",
+        "domain": "nodos",
+        "codomain": "[0,1] declarado",
+        "dependencies": [
+          "formal.alpha"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.8.objects",
+        "ev.axiom.8.conventional"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.phi_visibility",
+      "kind": "formal_object",
+      "label": "Función φ de visibilidad",
+      "formal_spec": {
+        "symbol": "φ(V)",
+        "object_type": "calibrated_monotone_function",
+        "expression": "1−(1−V)^1.54",
+        "epistemic_status": "authorial_empirical_axiom_n3",
+        "ontological_correspondence": "probabilidad de sanción por visibilidad",
+        "domain": "[0,1]",
+        "codomain": "[0,1]"
+      },
+      "evidence": [
+        "ev.axiom.8.conventional",
+        "ev.axiom.b.calibration"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.psi_severity",
+      "kind": "formal_object",
+      "label": "Función ψ de severidad",
+      "formal_spec": {
+        "symbol": "ψ(x)",
+        "object_type": "calibrated_power_function",
+        "expression": "0.21·x^(−0.55)",
+        "epistemic_status": "authorial_empirical_axiom_n3",
+        "ontological_correspondence": "severidad convencional por sustituibilidad",
+        "domain": "[0,1] declarado",
+        "codomain": "[0,1] declarado",
+        "assumptions": [
+          "x=1−S"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.8.conventional",
+        "ev.axiom.b.calibration"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.TIC",
+      "kind": "formal_object",
+      "label": "Teorema de Inversión Causal",
+      "formal_spec": {
+        "symbol": "TIC",
+        "object_type": "conditional_sign_claim",
+        "expression": "Δ(D)>0 y Δ(E)<0",
+        "epistemic_status": "authorial_theorem_not_validated",
+        "ontological_correspondence": "inversión diseñador/ejecutor",
+        "domain": "condiciones R*(D)>R*(E), S(E)>θ, V asimétrica",
+        "codomain": "dos desigualdades",
+        "dependencies": [
+          "formal.delta",
+          "formal.axiom.Sest",
+          "formal.axiom.visibility"
+        ],
+        "assumptions": [
+          "cotas empíricas adicionales usadas en la prueba"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.8.tic"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.Iinv",
+      "kind": "formal_object",
+      "label": "Índice de inversión",
+      "formal_spec": {
+        "symbol": "I_inv",
+        "object_type": "positive_ratio",
+        "expression": "|Δ(D)|/|Δ(E)|",
+        "epistemic_status": "authorial_definition_with_interpretive_conflict",
+        "ontological_correspondence": "razón de brechas",
+        "domain": "Δ(D)>0,Δ(E)<0",
+        "codomain": "R_+",
+        "dependencies": [
+          "formal.axiom.TIC"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.8.iinv"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.Psi",
+      "kind": "formal_object",
+      "label": "Estado completo Ψ(t)",
+      "formal_spec": {
+        "symbol": "Ψ(t)",
+        "object_type": "product_state",
+        "expression": "(I(t),h(t),E(t),D(t),C(t))",
+        "epistemic_status": "authorial_definition_pending_typing",
+        "ontological_correspondence": "estado completo predictivo",
+        "domain": "T",
+        "codomain": "E×Δ⁵×{1,…,6}×{1,2}×P(E)"
+      },
+      "evidence": [
+        "ev.axiom.9.state"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.MP",
+      "kind": "formal_object",
+      "label": "Modelo de Predictibilidad",
+      "formal_spec": {
+        "symbol": "MP",
+        "object_type": "logistic_regression_model",
+        "expression": "P(y=1|Ψ,c)=σ(β·Φ(Ψ,c))",
+        "epistemic_status": "authorial_statistical_model_unfitted",
+        "ontological_correspondence": "predicción exterior",
+        "domain": "Ψ×C",
+        "codomain": "[0,1]",
+        "dependencies": [
+          "formal.axiom.Psi"
+        ],
+        "assumptions": [
+          "Φ elegida y β estimado por máxima verosimilitud"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.9.model"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.closure",
+      "kind": "formal_object",
+      "label": "Clausura Ω",
+      "formal_spec": {
+        "symbol": "Ω",
+        "object_type": "subset_of_Hilbert_space",
+        "expression": "Im(c)∪{I(t_m)}",
+        "epistemic_status": "authorial_theorem_false_under_stated_hypotheses",
+        "ontological_correspondence": "clausura del ego",
+        "domain": "c:T→E admisible",
+        "codomain": "P(E)",
+        "dependencies": [
+          "formal.axiom.collapse",
+          "formal.I_t"
+        ],
+        "assumptions": [
+          "solo medibilidad y acotación declaradas"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.10.closure",
+        "ev.axiom.10.proof"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.Id",
+      "kind": "formal_object",
+      "label": "Integral discreta I_d",
+      "formal_spec": {
+        "symbol": "I_d(k)",
+        "object_type": "weighted_finite_sum",
+        "expression": "Σ_{i≤k}c(τ_i)w(τ_i)",
+        "epistemic_status": "authorial_discrete_extension",
+        "ontological_correspondence": "trayectoria acumulada discreta",
+        "domain": "T_d",
+        "codomain": "E",
+        "dependencies": [
+          "formal.axiom.collapse"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.d.discrete"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.rstar_struct",
+      "kind": "formal_object",
+      "label": "R* estructural",
+      "formal_spec": {
+        "symbol": "R*_struct(i)",
+        "object_type": "replacement_baseline_component",
+        "expression": "R*^(i)_i",
+        "epistemic_status": "authorial_definition",
+        "ontological_correspondence": "línea base estructural",
+        "domain": "grafo sustituido",
+        "codomain": "R",
+        "dependencies": [
+          "formal.axiom.Wi"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.d.rnet"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.rstar_net",
+      "kind": "formal_object",
+      "label": "R* neta",
+      "formal_spec": {
+        "symbol": "R*_net(i)",
+        "object_type": "difference_component",
+        "expression": "R*(i)−R*^(i)_i",
+        "epistemic_status": "authorial_definition_pending_sign_review",
+        "ontological_correspondence": "exceso idiosincrático",
+        "domain": "dos centralidades",
+        "codomain": "R",
+        "dependencies": [
+          "formal.rstar",
+          "formal.axiom.rstar_struct"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.d.rnet"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.delta_net",
+      "kind": "formal_object",
+      "label": "Δ neta",
+      "formal_spec": {
+        "symbol": "Δ_net(i)",
+        "object_type": "difference_index",
+        "expression": "R*_net(i)−α_vol(i)",
+        "epistemic_status": "authorial_definition_pending_identifiability",
+        "ontological_correspondence": "imputación idiosincrática neta",
+        "domain": "R×[0,1]",
+        "codomain": "[-1,1] declarado",
+        "dependencies": [
+          "formal.axiom.rstar_net",
+          "formal.axiom.alpha_components"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.d.rnet",
+        "ev.axiom.d.identifiability"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.counterfactual",
+      "kind": "formal_object",
+      "label": "Operador contrafactual",
+      "formal_spec": {
+        "symbol": "C(G,i,W'_i)",
+        "object_type": "graph_to_distribution_operator",
+        "expression": "R*(G')",
+        "epistemic_status": "authorial_definition_pending_stability_review",
+        "ontological_correspondence": "responsabilidad bajo fila alternativa",
+        "domain": "grafo, nodo, fila estocástica",
+        "codomain": "Δⁿ",
+        "dependencies": [
+          "formal.rstar"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.d.counterfactual"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.axiom.impact",
+      "kind": "formal_object",
+      "label": "Impacto causal",
+      "formal_spec": {
+        "symbol": "V(G,G')",
+        "object_type": "L1_distance",
+        "expression": "‖R*(G')−R*(G)‖₁",
+        "epistemic_status": "authorial_definition",
+        "ontological_correspondence": "cambio de responsabilidad",
+        "domain": "pares de grafos",
+        "codomain": "[0,2]",
+        "dependencies": [
+          "formal.axiom.counterfactual"
+        ]
+      },
+      "evidence": [
+        "ev.axiom.d.counterfactual"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.axiom.consistency",
+      "kind": "formulation",
+      "label": "Consistencia interna declarada",
+      "summary": "Cuatro compatibilidades presentadas como cierre de fundamentos, sin prueba metamatemática de consistencia.",
+      "evidence": [
+        "ev.axiom.6.consistency"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.axiom.signal_negative_delta",
+      "kind": "formulation",
+      "label": "Señal de Δ negativo",
+      "summary": "La obra afirma que sobreasunción de i garantiza brecha positiva en otro nodo con grafo completo.",
+      "evidence": [
+        "ev.axiom.5.signal",
+        "ev.axiom.5.countercases"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.axiom.mode_ranges",
+      "kind": "formulation",
+      "label": "Rangos S por seis modos",
+      "summary": "Traduce los Hijos a modos softmax y asigna rangos calibrados, declarados revisables.",
+      "evidence": [
+        "ev.axiom.3.ranges",
+        "ev.axiom.translation"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.axiom.annona",
+      "kind": "formulation",
+      "label": "Fraude annona formalizado",
+      "summary": "Combina S alto, sobreasunción del ejecutor y α casi nula del diseñador.",
+      "evidence": [
+        "ev.axiom.8.annona"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.axiom.closure_perfect",
+      "kind": "formulation",
+      "label": "Perfectibilidad de Ω",
+      "summary": "Afirma Ω=Ω' e incontabilidad cuando c es continua.",
+      "evidence": [
+        "ev.axiom.10.perfect"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.axiom.bifurcation",
+      "kind": "concept",
+      "label": "Nodo de bifurcación causal",
+      "summary": "Cambio de fila que altera el soporte de R*.",
+      "evidence": [
+        "ev.axiom.d.bifurcation"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.axiom.calibration",
+      "kind": "method",
+      "label": "Calibración piloto",
+      "summary": "Calibra φ y ψ con tres casos y afirma corroboración cualitativa con dieciocho casos.",
+      "evidence": [
+        "ev.axiom.b.limit",
+        "ev.axiom.b.calibration"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.axiom.case_verification",
+      "kind": "method",
+      "label": "Verificación de 18 casos",
+      "summary": "Clasifica casos en nueve dominios mediante mecanismos y niveles autorales sin referencias bibliográficas trazables.",
+      "evidence": [
+        "ev.axiom.b.cases",
+        "ev.axiom.b.mechanisms",
+        "ev.axiom.b.levels"
+      ],
+      "evidence_status": "explicit"
     }
   ],
   "relations": [
@@ -18167,6 +20040,449 @@
         "ev.aa4.appendix3.sovereignty"
       ],
       "rationale": "La función fiscal intenta cuantificar el contrato previo, pero deja f, unidades y fundamento distributivo sin especificar."
+    },
+    {
+      "id": "rel.axiom.E.requires_emb",
+      "from": "formal.axiom.E",
+      "to": "formal.axiom.emb",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.0.embedding"
+      ]
+    },
+    {
+      "id": "rel.axiom.collapse.maps_E",
+      "from": "formal.axiom.collapse",
+      "to": "formal.axiom.E",
+      "type": "maps_to",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.0.collapse"
+      ]
+    },
+    {
+      "id": "rel.axiom.phi1.requires_vt",
+      "from": "formal.phi1",
+      "to": "formal.axiom.vt",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.1.signature"
+      ]
+    },
+    {
+      "id": "rel.axiom.softmax.defines_modes",
+      "from": "formal.axiom.softmax",
+      "to": "formulation.axiom.mode_ranges",
+      "type": "supports",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.1.softmax",
+        "ev.axiom.3.ranges"
+      ]
+    },
+    {
+      "id": "rel.axiom.phi2.requires_eval",
+      "from": "formal.phi2",
+      "to": "formal.axiom.eval",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.2.eval"
+      ]
+    },
+    {
+      "id": "rel.axiom.I.requires_collapse",
+      "from": "formal.I_t",
+      "to": "formal.axiom.collapse",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.2.integral"
+      ]
+    },
+    {
+      "id": "rel.axiom.alpha.requires_rsc",
+      "from": "formal.alpha",
+      "to": "formal.axiom.RSC",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.4.continuous"
+      ]
+    },
+    {
+      "id": "rel.axiom.Sest.requires_rstar",
+      "from": "formal.axiom.Sest",
+      "to": "formal.rstar",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.3.sest"
+      ]
+    },
+    {
+      "id": "rel.axiom.Sest.requires_Wi",
+      "from": "formal.axiom.Sest",
+      "to": "formal.axiom.Wi",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.3.sest"
+      ]
+    },
+    {
+      "id": "rel.axiom.g.links_S",
+      "from": "formal.axiom.gbridge",
+      "to": "formal.axiom.Sop",
+      "type": "maps_to",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.3.bridge"
+      ]
+    },
+    {
+      "id": "rel.axiom.delta_signal.applies_delta",
+      "from": "formulation.axiom.signal_negative_delta",
+      "to": "formal.delta",
+      "type": "applies",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.5.signal"
+      ]
+    },
+    {
+      "id": "rel.axiom.rstar.requires_epsilon",
+      "from": "formal.rstar",
+      "to": "formal.axiom.Wepsilon",
+      "type": "regularized_by",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.6.pf"
+      ]
+    },
+    {
+      "id": "rel.axiom.REC.requires_fisher",
+      "from": "formal.axiom.REC",
+      "to": "formal.axiom.fisher",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.7.cramer"
+      ]
+    },
+    {
+      "id": "rel.axiom.TIC.requires_Sest",
+      "from": "formal.axiom.TIC",
+      "to": "formal.axiom.Sest",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.8.bounds"
+      ]
+    },
+    {
+      "id": "rel.axiom.TIC.requires_visibility",
+      "from": "formal.axiom.TIC",
+      "to": "formal.axiom.visibility",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.8.conventional"
+      ]
+    },
+    {
+      "id": "rel.axiom.annona.instantiates_TIC",
+      "from": "formulation.axiom.annona",
+      "to": "formal.axiom.TIC",
+      "type": "instantiates",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.8.annona"
+      ]
+    },
+    {
+      "id": "rel.axiom.MP.requires_Psi",
+      "from": "formal.axiom.MP",
+      "to": "formal.axiom.Psi",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.9.model"
+      ]
+    },
+    {
+      "id": "rel.axiom.closure.requires_c",
+      "from": "formal.axiom.closure",
+      "to": "formal.axiom.collapse",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.10.closure"
+      ]
+    },
+    {
+      "id": "rel.axiom.perfect.elaborates_closure",
+      "from": "formulation.axiom.closure_perfect",
+      "to": "formal.axiom.closure",
+      "type": "elaborates",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.10.perfect"
+      ]
+    },
+    {
+      "id": "rel.axiom.rstar_net.requires_struct",
+      "from": "formal.axiom.rstar_net",
+      "to": "formal.axiom.rstar_struct",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.d.rnet"
+      ]
+    },
+    {
+      "id": "rel.axiom.delta_net.requires_rstar_net",
+      "from": "formal.axiom.delta_net",
+      "to": "formal.axiom.rstar_net",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.d.rnet"
+      ]
+    },
+    {
+      "id": "rel.axiom.impact.measures_counterfactual",
+      "from": "formal.axiom.impact",
+      "to": "formal.axiom.counterfactual",
+      "type": "measures",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.d.counterfactual"
+      ]
+    },
+    {
+      "id": "rel.axiom.bifurcation.uses_counterfactual",
+      "from": "concept.axiom.bifurcation",
+      "to": "formal.axiom.counterfactual",
+      "type": "defined_by",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.d.bifurcation"
+      ]
+    },
+    {
+      "id": "rel.axiom.calibration.supports_functions",
+      "from": "method.axiom.calibration",
+      "to": "formal.axiom.phi_visibility",
+      "type": "calibrates",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.b.calibration"
+      ]
+    },
+    {
+      "id": "rel.axiom.cases.support_TIC",
+      "from": "method.axiom.case_verification",
+      "to": "formal.axiom.TIC",
+      "type": "supports",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.axiom.b.cases"
+      ]
+    },
+    {
+      "id": "rel.axiom.E.formalizes_caos",
+      "from": "formal.axiom.E",
+      "to": "concept.caos",
+      "type": "formalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.axiom.0.hilbert",
+        "ev.caos.chaos_definition"
+      ],
+      "rationale": "La obra declara la correspondencia, pero completitud y separabilidad de Hilbert no demuestran posibilidad absoluta ni computabilidad ontológica."
+    },
+    {
+      "id": "rel.axiom.phi1.refines_tf",
+      "from": "formal.phi1",
+      "to": "formal.tf.phi1",
+      "type": "refines",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.axiom.1.signature",
+        "ev.tf.22.phi1_inputs"
+      ],
+      "rationale": "Axiomatización añade H y espacios formales; Transformación formal usa v_t×c sin una migración que pruebe equivalencia."
+    },
+    {
+      "id": "rel.axiom.phi2.refines_tf",
+      "from": "formal.phi2",
+      "to": "formal.tf.phi2",
+      "type": "refines",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.axiom.2.signature",
+        "ev.tf.13.phi2_update"
+      ],
+      "rationale": "Axiomatización impone evaluación binaria y actualización vectorial; la obra previa solo expresa integración histórica."
+    },
+    {
+      "id": "rel.axiom.I.refines_tf",
+      "from": "formal.I_t",
+      "to": "formal.tf.I",
+      "type": "refines",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.axiom.2.integral",
+        "ev.tf.13.phi2_update"
+      ],
+      "rationale": "La integral de Bochner tipa I en E, pero no demuestra que sea el mismo estado histórico de la formulación previa."
+    },
+    {
+      "id": "rel.axiom.c.differs_tf_c",
+      "from": "formal.axiom.C",
+      "to": "formal.tf.c",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.axiom.1.signature",
+        "ev.tf.prologue.c_internal"
+      ],
+      "rationale": "Axiomatización convierte c en configuración estructural compartida; Transformación formal la define como sesgo interno, identidad y máscara."
+    },
+    {
+      "id": "rel.axiom.modes.reframe_tf_children",
+      "from": "formulation.axiom.mode_ranges",
+      "to": "formulation.tf.child_s_ranges",
+      "type": "reframes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.axiom.3.ranges",
+        "ev.tf.22.child_ranges"
+      ],
+      "rationale": "Cambian el orden, perfiles y rangos: Harmonía pasa de S bajo a indeterminado y Potós se reduce a rango moderado."
+    },
+    {
+      "id": "rel.axiom.Sop.refines_tf_S",
+      "from": "formal.axiom.Sop",
+      "to": "formal.tf.S",
+      "type": "refines",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.axiom.3.sop",
+        "ev.tf.22.s_definition"
+      ],
+      "rationale": "Ambas son razones de componentes, pero Axiomatización sustituye pesos no definidos por normas de espacios distintos."
+    },
+    {
+      "id": "rel.axiom.alpha.differs_tf_alpha",
+      "from": "formal.alpha",
+      "to": "formal.tf.alpha",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.axiom.4.continuous",
+        "ev.tf.23.alpha_scale"
+      ],
+      "rationale": "Transformación formal mide integración interior; Axiomatización la operacionaliza con documentos y admite asunción forzada o impuesta."
+    },
+    {
+      "id": "rel.axiom.alpha_forced.contradicts_tf",
+      "from": "formal.axiom.alpha_components",
+      "to": "concept.tf.imputation_external_phi2",
+      "type": "contradicts",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.axiom.4.intent",
+        "ev.tf.13.external_imputation"
+      ],
+      "rationale": "Axiomatización afirma que α puede crecer por imposición con efecto idéntico; Transformación formal niega que la señal colectiva fuerce integración."
+    },
+    {
+      "id": "rel.axiom.delta.refines_tf",
+      "from": "formal.delta",
+      "to": "formal.tf.delta",
+      "type": "refines",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.axiom.5.delta",
+        "ev.tf.11.rstar_delta"
+      ],
+      "rationale": "Conserva la resta, pero cambia el tipado operativo de ambos términos y añade afirmaciones sobre sus signos."
+    },
+    {
+      "id": "rel.axiom.REC.formalizes_tf_limits",
+      "from": "formal.axiom.REC",
+      "to": "concept.tf.uncertainty_ontological",
+      "type": "formalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.axiom.7.rec",
+        "ev.tf.43.limits"
+      ],
+      "rationale": "La REC intenta cuantificar un límite previo, aunque su derivación y las variables no quedan validadas."
+    },
+    {
+      "id": "rel.axiom.TIC.formalizes_tf_imputation",
+      "from": "formal.axiom.TIC",
+      "to": "concept.tf.imputation_external_phi2",
+      "type": "formalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.axiom.8.tic",
+        "ev.tf.13.external_imputation"
+      ],
+      "rationale": "El TIC cuantifica la inversión de imputación exterior, pero requiere premisas y cotas no contenidas en la formulación anterior."
+    },
+    {
+      "id": "rel.axiom.annona.elaborates_aa4",
+      "from": "formulation.axiom.annona",
+      "to": "concept.fraude_annona.aa4",
+      "type": "elaborates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.axiom.8.annona",
+        "ev.aa4.appendix3.rights_fraud"
+      ],
+      "rationale": "Axiomatización reemplaza la formulación jurídico-fiscal de AA-IV por condiciones de red, sustituibilidad y asunción."
+    },
+    {
+      "id": "rel.axiom.MP.operationalizes_tf_future",
+      "from": "formal.axiom.MP",
+      "to": "concept.tf.limit_alpha_future",
+      "type": "operationalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.axiom.9.model",
+        "ev.tf.43.limits"
+      ],
+      "rationale": "El modelo estadístico estima decisiones futuras mientras la obra previa declara α futura ontológicamente no predecible; sus objetos no son idénticos."
+    },
+    {
+      "id": "rel.axiom.closure.formalizes_caos",
+      "from": "formal.axiom.closure",
+      "to": "formal.accumulation_point.caos",
+      "type": "formalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.axiom.10.closure",
+        "ev.caos.math_topology"
+      ],
+      "rationale": "La obra posterior da un conjunto concreto, pero el teorema no se sigue de las hipótesis y no valida la formulación de Caos."
+    },
+    {
+      "id": "rel.axiom.rstar_net.replaces_tf_rnet",
+      "from": "formal.axiom.rstar_net",
+      "to": "formal.tf.rstar_net",
+      "type": "replaces",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.axiom.d.rnet",
+        "ev.tf.21.rnet"
+      ],
+      "rationale": "El apéndice rechaza multiplicar por 1−S como doble conteo y propone diferencia de centralidades; las dos versiones se conservan."
     }
   ],
   "routes": [
@@ -18296,6 +20612,11 @@
           "order": 6,
           "evidence_id": "ev.tf.epilogue.calibration_gap",
           "reason": "Impide tratar las fórmulas como modelo ya validado."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.axiom.2.rsc",
+          "reason": "Hace visible el conflicto de tipos entre I(t) y RSC."
         }
       ],
       "must_surface_review_items": [
@@ -18303,7 +20624,10 @@
         "review.aa2.alpha_symbol_collision",
         "review.tf.phi1_typing",
         "review.tf.phi2_typing",
-        "review.tf.volume2_validation"
+        "review.tf.volume2_validation",
+        "review.axiom.rsc_type",
+        "review.axiom.irreversibility",
+        "review.axiom.phi2_integration"
       ]
     },
     {
@@ -18340,12 +20664,20 @@
           "order": 5,
           "evidence_id": "ev.tf.21.eigenvector",
           "reason": "Contrasta la orientación matricial de Transformación formal."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.axiom.6.pf",
+          "reason": "Expone condiciones incompatibles de existencia y unicidad."
         }
       ],
       "must_surface_review_items": [
         "review.rstar.sink_irreducibility",
         "review.tf.rstar_orientation",
-        "review.tf.rstar_target_centrality"
+        "review.tf.rstar_target_centrality",
+        "review.axiom.rstar_sink",
+        "review.axiom.epsilon_dimension",
+        "review.axiom.rstar_intervals"
       ]
     },
     {
@@ -18804,12 +21136,19 @@
           "order": 7,
           "evidence_id": "ev.axiom.translation",
           "reason": "Permite comparar con la traducción formal posterior sin fusionarlas."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.axiom.10.proof",
+          "reason": "Contrasta la pretendida clausura topológica posterior."
         }
       ],
       "must_surface_review_items": [
         "review.caos.formal_typing",
         "review.caos.accumulation_topology",
-        "review.caos.local_derivative"
+        "review.caos.local_derivative",
+        "review.axiom.closure",
+        "review.axiom.perfect"
       ]
     },
     {
@@ -23468,12 +25807,20 @@
           "order": 6,
           "evidence_id": "ev.tf.23.alpha_pattern",
           "reason": "Separa acto y patrón."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.axiom.4.intent",
+          "reason": "Contrasta integración interior con asunción forzada posterior."
         }
       ],
       "must_surface_review_items": [
         "review.tf.alpha_measurement",
         "review.tf.alpha_irreversibility",
-        "review.tf.loss_alpha_ceiling"
+        "review.tf.loss_alpha_ceiling",
+        "review.axiom.alpha_observation",
+        "review.axiom.alpha_forced",
+        "review.axiom.alpha_sum"
       ]
     },
     {
@@ -23705,6 +26052,11 @@
           "order": 8,
           "evidence_id": "ev.tf.42.priority",
           "reason": "Prioriza reducción."
+        },
+        {
+          "order": 9,
+          "evidence_id": "ev.axiom.6.intervals",
+          "reason": "Añade el método posterior de extremos de R*."
         }
       ],
       "must_surface_review_items": [
@@ -23712,7 +26064,8 @@
         "review.tf.interval_mixture",
         "review.tf.interval_dependencies",
         "review.tf.vertex_robustness",
-        "review.tf.priority_formula"
+        "review.tf.priority_formula",
+        "review.axiom.rstar_intervals"
       ]
     },
     {
@@ -23879,6 +26232,596 @@
         "review.tf.adjustment_variants",
         "review.tf.delta_thresholds",
         "review.tf.volume2_validation"
+      ]
+    },
+    {
+      "id": "route.axiom.architecture",
+      "purpose": "Recorrer arquitectura, estatutos y dependencias.",
+      "triggers": [
+        "Axiomatización",
+        "arquitectura AXIOM"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.axiom.pro.problem",
+          "reason": "Fija problema."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.axiom.pro.chain",
+          "reason": "Enumera objetos."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.axiom.pro.results",
+          "reason": "Clasifica estatutos."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.axiom.pro.dependencies",
+          "reason": "Declara dependencias."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.axiom.pro.notation",
+          "reason": "Fija tipos y deslinde."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.axiom.consistency_claim",
+        "review.axiom.calibration_sources"
+      ]
+    },
+    {
+      "id": "route.axiom.base_phi",
+      "purpose": "Auditar E, emb, c, φ₁ y φ₂.",
+      "triggers": [
+        "Hilbert E",
+        "phi1 axiom",
+        "phi2 axiom"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.axiom.0.hilbert",
+          "reason": "Define E."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.axiom.0.embedding",
+          "reason": "Añade emb."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.axiom.0.collapse",
+          "reason": "Define c."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.axiom.1.signature",
+          "reason": "Firma φ₁."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.axiom.1.softmax",
+          "reason": "Forma softmax."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.axiom.2.signature",
+          "reason": "Firma φ₂."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.axiom.2.eval",
+          "reason": "Representa actualización."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.axiom.hilbert_ontology",
+        "review.axiom.embedding",
+        "review.axiom.logit_typing",
+        "review.axiom.phi2_integration"
+      ]
+    },
+    {
+      "id": "route.axiom.integral",
+      "purpose": "Auditar I(t), RSC e irreversibilidad.",
+      "triggers": [
+        "I(t) Bochner",
+        "irreversibilidad AXIOM"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.axiom.2.integral",
+          "reason": "Define integral."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.axiom.2.irreversibility",
+          "reason": "Declara irreversibilidad."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.axiom.2.rsc",
+          "reason": "Separa registro e integración."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.axiom.d.discrete",
+          "reason": "Añade versión discreta."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.axiom.d.markov",
+          "reason": "Declara convergencia."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.axiom.rsc_type",
+        "review.axiom.irreversibility",
+        "review.axiom.phi2_integration",
+        "review.axiom.discrete_weights",
+        "review.axiom.markov"
+      ]
+    },
+    {
+      "id": "route.axiom.substitutability",
+      "purpose": "Auditar S_op, S_est y puente.",
+      "triggers": [
+        "S operacional",
+        "S estructural"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.axiom.3.sop",
+          "reason": "Define cociente."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.axiom.3.sest",
+          "reason": "Define divergencia."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.axiom.3.bridge",
+          "reason": "Afirma puente."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.axiom.3.ranges",
+          "reason": "Calibra modos."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.axiom.a.chain",
+          "reason": "Reutiliza la cadena."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.axiom.Sop_units",
+        "review.axiom.Sest_KL",
+        "review.axiom.S_bridge",
+        "review.axiom.mode_ranges"
+      ]
+    },
+    {
+      "id": "route.axiom.alpha_delta",
+      "purpose": "Auditar α, Δ y sus signos.",
+      "triggers": [
+        "alpha AXIOM",
+        "Delta AXIOM"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.axiom.4.continuous",
+          "reason": "Define α."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.axiom.4.discrete",
+          "reason": "Da versión discreta."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.axiom.4.calibration",
+          "reason": "Operacionaliza."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.axiom.4.intent",
+          "reason": "Separa dolo."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.axiom.5.delta",
+          "reason": "Define Δ."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.axiom.5.signal",
+          "reason": "Afirma señal."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.axiom.5.countercases",
+          "reason": "Admite contraejemplos."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.axiom.dirac",
+        "review.axiom.alpha_observation",
+        "review.axiom.alpha_forced",
+        "review.axiom.alpha_sum",
+        "review.axiom.delta_signal"
+      ]
+    },
+    {
+      "id": "route.axiom.rstar",
+      "purpose": "Auditar grafo, R* y cálculo.",
+      "triggers": [
+        "R* Axiomatización",
+        "Perron Frobenius AXIOM"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.axiom.6.graph",
+          "reason": "Define grafo."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.axiom.6.rstar",
+          "reason": "Orienta Wᵀ."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.axiom.6.pf",
+          "reason": "Declara existencia."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.axiom.6.power",
+          "reason": "Da algoritmo."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.axiom.6.intervals",
+          "reason": "Propaga evidencia."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.tf.21.eigenvector",
+          "reason": "Conserva orientación W previa."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.axiom.rstar_sink",
+        "review.axiom.epsilon_dimension",
+        "review.axiom.rstar_intervals",
+        "review.tf.rstar_orientation"
+      ]
+    },
+    {
+      "id": "route.axiom.rec",
+      "purpose": "Auditar REC y predictibilidad cualitativa.",
+      "triggers": [
+        "REC",
+        "escala conocimiento"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.axiom.7.fisher",
+          "reason": "Construye Fisher."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.axiom.7.cramer",
+          "reason": "Aplica Cramér-Rao."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.axiom.7.rec",
+          "reason": "Declara REC."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.axiom.7.predictability",
+          "reason": "Limita consecuencia."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.axiom.7.heisenberg",
+          "reason": "Deslinda analogía."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.axiom.fisher_model",
+        "review.axiom.rec_factor",
+        "review.axiom.rec_estimators"
+      ]
+    },
+    {
+      "id": "route.axiom.tic",
+      "purpose": "Auditar el Teorema de Inversión Causal.",
+      "triggers": [
+        "TIC",
+        "inversión causal AXIOM"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.axiom.8.objects",
+          "reason": "Define objetos."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.axiom.8.bounds",
+          "reason": "Da cotas."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.axiom.8.conventional",
+          "reason": "Postula sistema."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.axiom.8.tic",
+          "reason": "Declara teoremas."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.axiom.8.iinv",
+          "reason": "Define índice."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.axiom.8.annona",
+          "reason": "Aplica fraude."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.axiom.a.bound",
+          "reason": "Expone prueba de cota."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.axiom.tic_bound_E",
+        "review.axiom.tic_bound_D",
+        "review.axiom.tic_universality",
+        "review.axiom.psi_domain",
+        "review.axiom.Iinv_monotonicity"
+      ]
+    },
+    {
+      "id": "route.axiom.predictability",
+      "purpose": "Auditar el modelo estadístico sin elevarlo a teorema.",
+      "triggers": [
+        "Modelo Predictibilidad",
+        "MP AXIOM"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.axiom.9.state",
+          "reason": "Define Ψ."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.axiom.9.model",
+          "reason": "Define regresión."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.axiom.9.linearity",
+          "reason": "Afirma linealidad."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.axiom.9.error",
+          "reason": "Da tabla orientativa."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.axiom.9.asymmetry",
+          "reason": "Relaciona REC y MP."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.axiom.MP_linearity",
+        "review.axiom.tau_estimation"
+      ]
+    },
+    {
+      "id": "route.axiom.closure",
+      "purpose": "Auditar clausura topológica y correspondencia.",
+      "triggers": [
+        "clausura ego AXIOM",
+        "Omega perfecto"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.axiom.10.closure",
+          "reason": "Enuncia Ω."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.axiom.10.proof",
+          "reason": "Desarrolla prueba."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.axiom.10.perfect",
+          "reason": "Afirma perfectibilidad."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.axiom.10.scope",
+          "reason": "Delimita lectura."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.caos.math_topology",
+          "reason": "Conserva antecedente."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.axiom.closure",
+        "review.axiom.perfect"
+      ]
+    },
+    {
+      "id": "route.axiom.calibration",
+      "purpose": "Auditar calibración y casos.",
+      "triggers": [
+        "calibración AXIOM",
+        "18 casos TIC"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.axiom.b.limit",
+          "reason": "Declara muestra y límites."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.axiom.b.calibration",
+          "reason": "Ajusta funciones."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.axiom.b.sensitivity",
+          "reason": "Prueba rango."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.axiom.b.cases",
+          "reason": "Lista casos."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.axiom.b.mechanisms",
+          "reason": "Clasifica mecanismos."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.axiom.b.levels",
+          "reason": "Asigna niveles."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.axiom.calibration_sources",
+        "review.axiom.calibration_circularity",
+        "review.axiom.mode_ranges"
+      ]
+    },
+    {
+      "id": "route.axiom.extensions",
+      "purpose": "Auditar imputación neta, contrafactual y bifurcación.",
+      "triggers": [
+        "Delta net AXIOM",
+        "contrafactual AXIOM",
+        "bifurcación causal"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.axiom.d.discrete",
+          "reason": "Discretiza trayectoria."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.axiom.d.rnet",
+          "reason": "Reemplaza descuento previo."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.axiom.d.identifiability",
+          "reason": "Declara protocolo."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.axiom.d.counterfactual",
+          "reason": "Define operador."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.axiom.d.dynamics",
+          "reason": "Declara estabilidad."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.axiom.d.bifurcation",
+          "reason": "Cambia soporte."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.axiom.rstar_net_sign",
+        "review.axiom.counterfactual_stability",
+        "review.axiom.bifurcation",
+        "review.axiom.discrete_weights"
+      ]
+    },
+    {
+      "id": "route.axiom.crosswork",
+      "purpose": "Contrastar formalización con F2 y Transformación formal sin armonizar.",
+      "triggers": [
+        "Axiomatización y F2",
+        "Axiomatización y Transformación formal"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.caos.formula_ego",
+          "reason": "Fija antecedente."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.tf.tres_formulas",
+          "reason": "Fija formalización intermedia."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.axiom.1.signature",
+          "reason": "Cambia firma φ₁."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.axiom.2.signature",
+          "reason": "Cambia φ₂."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.tf.21.eigenvector",
+          "reason": "Usa W."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.axiom.6.rstar",
+          "reason": "Usa Wᵀ."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.tf.24.aego_phi2",
+          "reason": "Conserva Aego no formalizado aquí."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.axiom.translation",
+          "reason": "Expone traducción autoral."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.rstar_orientation",
+        "review.axiom.alpha_forced",
+        "review.axiom.mode_ranges",
+        "review.axiom.hilbert_ontology"
       ]
     }
   ],
@@ -27293,6 +30236,635 @@
         "ev.tf.22.child_ranges"
       ],
       "why_not_auto_resolved": "Aparecen como cadenas aisladas dentro de la tabla sin función textual definida."
+    },
+    {
+      "id": "review.axiom.license",
+      "subject": "formal.axiom.E",
+      "question": "¿Cuál es el régimen editorial aplicable: todos los derechos reservados o CC BY-NC-ND 4.0?",
+      "status": "pending_editorial_review",
+      "blocking": false,
+      "blocking_for": [
+        "editorial_use"
+      ],
+      "evidence": [
+        "ev.axiom.prelim.bibliographic"
+      ],
+      "why_not_auto_resolved": "Los dos avisos aparecen juntos sin jerarquía editorial."
+    },
+    {
+      "id": "review.axiom.hilbert_ontology",
+      "subject": "formal.axiom.E",
+      "question": "¿Completitud y separabilidad formalizan ausencia de posibilidades y computabilidad ontológica?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.axiom.0.hilbert",
+        "ev.axiom.translation"
+      ],
+      "why_not_auto_resolved": "Son propiedades matemáticas técnicas; la correspondencia filosófica es una interpretación autoral, no consecuencia.",
+      "related_relation": "rel.axiom.E.formalizes_caos"
+    },
+    {
+      "id": "review.axiom.embedding",
+      "subject": "formal.axiom.emb",
+      "question": "¿Qué significa preservar orden causal y cómo se valida emb por dominio?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.axiom.0.embedding"
+      ],
+      "why_not_auto_resolved": "La condición no define relación de orden, métrica de similitud ni test."
+    },
+    {
+      "id": "review.axiom.phi1_existence",
+      "subject": "formal.phi1",
+      "question": "¿La proposición para programas computables demuestra existencia en sistemas humanos o solo construye una clase artificial?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "clinical_application"
+      ],
+      "evidence": [
+        "ev.axiom.1.existence"
+      ],
+      "why_not_auto_resolved": "La prueba presupone f para sistemas artificiales y luego postula el caso humano."
+    },
+    {
+      "id": "review.axiom.logit_typing",
+      "subject": "formal.axiom.logits",
+      "question": "¿La suma del producto interno y γ_k‖I‖−θ_k(I) está dimensionalmente tipada?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.axiom.1.softmax"
+      ],
+      "why_not_auto_resolved": "No se fijan unidades ni escala conjunta; V se declara con producto interno aunque β_k,a_t están en E."
+    },
+    {
+      "id": "review.axiom.rsc_type",
+      "subject": "formal.axiom.RSC",
+      "question": "¿Cómo puede I(t)∈E ser subconjunto de RSC(t)⊂E para formar RSC(t)\\I(t)?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.axiom.2.integral",
+        "ev.axiom.2.rsc"
+      ],
+      "why_not_auto_resolved": "I(t) es vector y RSC(t) conjunto; pertenencia, diferencia e indicador usan tipos incompatibles."
+    },
+    {
+      "id": "review.axiom.irreversibility",
+      "subject": "formal.I_t",
+      "question": "¿Qué hipótesis impiden cancelación en la integral de Bochner?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.axiom.2.irreversibility"
+      ],
+      "why_not_auto_resolved": "Un integrando vectorial no nulo en medida positiva puede integrar cero; el paso fundamental invocado es falso."
+    },
+    {
+      "id": "review.axiom.phi2_integration",
+      "subject": "formal.phi2",
+      "question": "¿Cómo se compatibiliza la actualización binaria con la integral que incluye todos los c(τ)?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.axiom.2.signature",
+        "ev.axiom.2.integral",
+        "ev.axiom.2.rsc"
+      ],
+      "why_not_auto_resolved": "I(t) se define integrando c sin indicador, pero se afirma que solo acumula colapsos aceptados."
+    },
+    {
+      "id": "review.axiom.Sop_units",
+      "subject": "formal.axiom.Sop",
+      "question": "¿Dividir dos normas por su suma las vuelve conmensurables?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.axiom.3.sop"
+      ],
+      "why_not_auto_resolved": "Las normas pertenecen a espacios y escalas distintas; normalizar por una suma ya presupone comparabilidad."
+    },
+    {
+      "id": "review.axiom.Sest_KL",
+      "subject": "formal.axiom.Sest",
+      "question": "¿Por qué D_KL≤log(m) y cómo se tratan componentes nulas?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.axiom.3.sest"
+      ],
+      "why_not_auto_resolved": "La divergencia KL no está acotada por log(m) en general y puede ser infinita si R*^(i) tiene ceros."
+    },
+    {
+      "id": "review.axiom.S_bridge",
+      "subject": "formal.axiom.gbridge",
+      "question": "¿Existe el puente monótono g bajo las hipótesis dadas?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.axiom.3.bridge",
+        "ev.axiom.a.reverse"
+      ],
+      "why_not_auto_resolved": "Pinsker no permite invertir de cambio de distribución a cambio de filas ni relaciona normas internas con geometría del grafo."
+    },
+    {
+      "id": "review.axiom.mode_ranges",
+      "subject": "formulation.axiom.mode_ranges",
+      "question": "¿Cuál es la fuente trazable de validación en cuatro dominios y cómo se reconcilian los rangos con Transformación formal?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "doctrinal_use"
+      ],
+      "evidence": [
+        "ev.axiom.3.ranges",
+        "ev.tf.22.child_ranges"
+      ],
+      "why_not_auto_resolved": "Se afirma calibración externa sin referencias y cambian rangos/perfiles históricos.",
+      "related_relation": "rel.axiom.modes.reframe_tf_children"
+    },
+    {
+      "id": "review.axiom.dirac",
+      "subject": "formal.axiom.alpha_discrete",
+      "question": "¿Puede δ de Dirac ser caso particular de w:T→R+ medible y acotada?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.axiom.4.discrete"
+      ],
+      "why_not_auto_resolved": "La delta es una distribución/medida, no una función acotada bajo las hipótesis de la versión continua."
+    },
+    {
+      "id": "review.axiom.alpha_observation",
+      "subject": "formal.alpha",
+      "question": "¿Los documentos miden integración interior o respuesta observable posterior?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.axiom.4.calibration",
+        "ev.tf.23.alpha_scale"
+      ],
+      "why_not_auto_resolved": "La operacionalización cambia el objeto respecto de F3 anterior y puede confundir reconocimiento, reparación y coerción.",
+      "related_relation": "rel.axiom.alpha.differs_tf_alpha"
+    },
+    {
+      "id": "review.axiom.alpha_forced",
+      "subject": "formal.axiom.alpha_components",
+      "question": "¿La asunción forzada integra en I(t) con el mismo estatuto que la voluntaria?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.axiom.4.intent",
+        "ev.tf.13.external_imputation"
+      ],
+      "why_not_auto_resolved": "Dos obras hacen afirmaciones contrarias sobre si la imposición exterior puede producir integración.",
+      "related_relation": "rel.axiom.alpha_forced.contradicts_tf"
+    },
+    {
+      "id": "review.axiom.alpha_sum",
+      "subject": "formal.axiom.alpha_components",
+      "question": "¿Cómo se conserva α∈[0,1] al sumar tres componentes?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.axiom.4.bounds",
+        "ev.axiom.8.conventional"
+      ],
+      "why_not_auto_resolved": "No hay normalización ni restricción conjunta; la suma puede exceder uno."
+    },
+    {
+      "id": "review.axiom.delta_signal",
+      "subject": "formulation.axiom.signal_negative_delta",
+      "question": "¿Δ_i<0 implica algún Δ_j>0 si Σα no está conservada?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.axiom.5.signal",
+        "ev.axiom.5.countercases"
+      ],
+      "why_not_auto_resolved": "La prueba admite Σα>1 y no justifica transferencia; la reparación voluntaria se ofrece después como contraejemplo."
+    },
+    {
+      "id": "review.axiom.rstar_sink",
+      "subject": "formal.rstar",
+      "question": "¿Cómo coexisten sumidero con fila nula, irreducibilidad y λ=1?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.axiom.6.graph",
+        "ev.axiom.6.pf"
+      ],
+      "why_not_auto_resolved": "El sumidero no alcanza otros nodos y W no es estocástica en su última fila; las hipótesis del teorema son incompatibles."
+    },
+    {
+      "id": "review.axiom.epsilon_dimension",
+      "subject": "formal.axiom.Wepsilon",
+      "question": "¿La perturbación usa J/n o J/(n+1) y qué grafo modela?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.axiom.6.pf",
+        "ev.axiom.6.power"
+      ],
+      "why_not_auto_resolved": "W tiene dimensión n+1; la normalización escrita puede no preservar filas y añade aristas inexistentes."
+    },
+    {
+      "id": "review.axiom.rstar_intervals",
+      "subject": "formal.axiom.rstar_interval",
+      "question": "¿Ejecutar todos los mínimos y máximos produce cotas componente a componente válidas?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.axiom.6.intervals"
+      ],
+      "why_not_auto_resolved": "Los extremos pueden violar la suma por fila y los autovectores no son monótonos en todos los pesos simultáneamente."
+    },
+    {
+      "id": "review.axiom.consistency_claim",
+      "subject": "formulation.axiom.consistency",
+      "question": "¿Las cuatro comprobaciones establecen consistencia formal?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.axiom.6.consistency"
+      ],
+      "why_not_auto_resolved": "Verifican ejemplos y compatibilidades locales, varias dependientes de resultados disputados; no son prueba de consistencia del sistema."
+    },
+    {
+      "id": "review.axiom.fisher_model",
+      "subject": "formal.axiom.fisher",
+      "question": "¿La información de Fisher corresponde al softmax multiclase y al parámetro I(t) definido?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "statistical_application"
+      ],
+      "evidence": [
+        "ev.axiom.7.fisher"
+      ],
+      "why_not_auto_resolved": "La prueba sustituye h_k por sigmoide escalar con derivada 1/τ, aunque el logit contiene γ_k, θ_k y normalización multiclase."
+    },
+    {
+      "id": "review.axiom.rec_factor",
+      "subject": "formal.axiom.REC",
+      "question": "¿Cuál de τ/n y 4τ²/n es la cota REC?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.axiom.7.cramer",
+        "ev.axiom.7.rec"
+      ],
+      "why_not_auto_resolved": "La raíz del lema produce τ/n; el teorema introduce 4τ² y afirma equivalencia sin identidad algebraica o dimensional."
+    },
+    {
+      "id": "review.axiom.rec_estimators",
+      "subject": "formal.axiom.REC",
+      "question": "¿Cómo se definen Var(Î) para I(t)∈E y n observaciones independientes?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "statistical_application"
+      ],
+      "evidence": [
+        "ev.axiom.7.cramer",
+        "ev.axiom.7.rec"
+      ],
+      "why_not_auto_resolved": "No se define covarianza de un estimador Hilbertiano ni se justifica independencia de colapsos dependientes de historia."
+    },
+    {
+      "id": "review.axiom.tic_bound_E",
+      "subject": "formal.axiom.TIC",
+      "question": "¿La cadena Davis-Kahan demuestra R*(E)≤(1−S)/(m−1)?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.axiom.8.bounds",
+        "ev.axiom.a.chain",
+        "ev.axiom.a.bound"
+      ],
+      "why_not_auto_resolved": "El apéndice invierte continuidad, aplica perturbación simétrica a matriz no normal y termina con una cota que no se deriva de sus pasos."
+    },
+    {
+      "id": "review.axiom.tic_bound_D",
+      "subject": "formal.axiom.TIC",
+      "question": "¿R*(D)>R*(E) implica R*(D)>1/m?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.axiom.8.bounds"
+      ],
+      "why_not_auto_resolved": "La prueba supone sin estar en el enunciado que D domina a todos los nodos, no solo a E."
+    },
+    {
+      "id": "review.axiom.tic_universality",
+      "subject": "formal.axiom.TIC",
+      "question": "¿Las tres condiciones del TIC bastan para los signos concluidos?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.axiom.8.tic"
+      ],
+      "why_not_auto_resolved": "La prueba introduce m=5, S=.85, α_vol, h y umbrales numéricos no contenidos en las condiciones generales."
+    },
+    {
+      "id": "review.axiom.psi_domain",
+      "subject": "formal.axiom.psi_severity",
+      "question": "¿Cómo mapea ψ(x)=.21x^−.55 todo [0,1] a [0,1]?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.axiom.8.conventional",
+        "ev.axiom.b.calibration"
+      ],
+      "why_not_auto_resolved": "Diverge en cero y excede uno cerca de cero; no se define recorte."
+    },
+    {
+      "id": "review.axiom.Iinv_monotonicity",
+      "subject": "formal.axiom.Iinv",
+      "question": "¿El índice aumenta o disminuye cuando crece la sobreasunción de E?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.axiom.8.iinv"
+      ],
+      "why_not_auto_resolved": "Con numerador fijo, aumentar |Δ(E)| reduce el cociente; texto y teorema afirman lo contrario y también invierten la lectura de I_inv>1."
+    },
+    {
+      "id": "review.axiom.MP_linearity",
+      "subject": "formal.axiom.MP",
+      "question": "¿El log-softmax de logits lineales es lineal?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation",
+        "statistical_application"
+      ],
+      "evidence": [
+        "ev.axiom.9.model",
+        "ev.axiom.9.linearity"
+      ],
+      "why_not_auto_resolved": "log Σexp(z_j) no es lineal en general; la demostración lo trata como término independiente de I aunque todos z_j dependen de I."
+    },
+    {
+      "id": "review.axiom.tau_estimation",
+      "subject": "formal.axiom.MP",
+      "question": "¿Cómo se estima τ como varianza de logits y se valida la tabla de error?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.axiom.9.error"
+      ],
+      "why_not_auto_resolved": "Temperatura y varianza no son la misma magnitud; la tabla reutiliza una interpolación que el propio libro eliminó como no deductiva."
+    },
+    {
+      "id": "review.axiom.closure",
+      "subject": "formal.axiom.closure",
+      "question": "¿Por qué Im(c)∪{I(t_m)} es cerrado para c solo medible y acotada?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.axiom.10.closure",
+        "ev.axiom.10.proof"
+      ],
+      "why_not_auto_resolved": "La imagen de un compacto bajo función no continua puede no ser cerrada; añadir una integral no agrega todos sus puntos límite y la prueba incorpora I(t) que no pertenece a Ω."
+    },
+    {
+      "id": "review.axiom.perfect",
+      "subject": "formulation.axiom.closure_perfect",
+      "question": "¿Continuidad de c hace Ω perfecto e incontable?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "doctrinal_use"
+      ],
+      "evidence": [
+        "ev.axiom.10.perfect"
+      ],
+      "why_not_auto_resolved": "Una función continua constante tiene imagen finita; I(t_n) no es generalmente valor de c y los puntos pueden ser aislados."
+    },
+    {
+      "id": "review.axiom.calibration_sources",
+      "subject": "method.axiom.case_verification",
+      "question": "¿Dónde están fuentes, codificación reproducible y expedientes de los 18 casos?",
+      "status": "pending_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "source_attribution",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.axiom.b.cases",
+        "ev.axiom.b.mechanisms",
+        "ev.axiom.b.levels"
+      ],
+      "why_not_auto_resolved": "La tabla ofrece cifras y atribuciones sin referencias bibliográficas, datos ni protocolo reproducible dentro del corpus auditado."
+    },
+    {
+      "id": "review.axiom.calibration_circularity",
+      "subject": "method.axiom.case_verification",
+      "question": "¿Puede el Lema 8.1 contar como verificación independiente del TIC?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.axiom.b.mechanisms",
+        "ev.axiom.a.chain"
+      ],
+      "why_not_auto_resolved": "Dos mecanismos usan una cota construida para el propio TIC; además la selección de casos no documenta muestreo previo."
+    },
+    {
+      "id": "review.axiom.discrete_weights",
+      "subject": "formal.axiom.Id",
+      "question": "¿La suma discreta incluye Δτ y coincide con la definición anterior?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.axiom.d.discrete",
+        "ev.axiom.d.markov"
+      ],
+      "why_not_auto_resolved": "La definición omite anchuras de intervalo; la prueba de convergencia las introduce después."
+    },
+    {
+      "id": "review.axiom.markov",
+      "subject": "formal.axiom.Id",
+      "question": "¿Qué justifica independencia condicional de v_t y C(t) respecto de historia previa?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "statistical_application"
+      ],
+      "evidence": [
+        "ev.axiom.d.markov"
+      ],
+      "why_not_auto_resolved": "La definición funcional no impone la independencia probabilística usada en el paso 2."
+    },
+    {
+      "id": "review.axiom.rstar_net_sign",
+      "subject": "formal.axiom.rstar_net",
+      "question": "¿R*(i)−R*^(i)_i es siempre no negativo?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.axiom.d.rnet"
+      ],
+      "why_not_auto_resolved": "Sustituir una fila puede aumentar la componente i; la cota invocada no prueba el signo."
+    },
+    {
+      "id": "review.axiom.counterfactual_stability",
+      "subject": "formal.axiom.counterfactual",
+      "question": "¿Davis-Kahan aplica a W no simétrica y a cambios de soporte?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.axiom.d.counterfactual",
+        "ev.axiom.d.bifurcation"
+      ],
+      "why_not_auto_resolved": "La matriz estocástica no es normal en general; el propio texto dice después que la cota no aplica a bifurcaciones."
+    },
+    {
+      "id": "review.axiom.bifurcation",
+      "subject": "concept.axiom.bifurcation",
+      "question": "¿Añadir una arista garantiza que j entre al soporte bajo el marco declarado?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.axiom.d.bifurcation"
+      ],
+      "why_not_auto_resolved": "Con primitividad todo nodo ya tiene R*>0, por lo que el soporte completo impide la bifurcación definida; sin primitividad PF no da la conclusión."
     }
   ],
   "tests": [
