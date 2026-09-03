@@ -1671,6 +1671,356 @@ def main() -> int:
             "La disociación de Máscaras debe conservarse como formulación histórica diferenciada",
         )
 
+        # Invariantes ganadas al integrar El telar de las Moiras y cerrar F2.
+        require("TELAR" in works, "Falta El telar de las Moiras en el registro de obras")
+        telar_structure_path = (
+            ROOT / "corpus" / "libros" / "telar-de-las-moiras" / "estructura.json"
+        )
+        require(telar_structure_path.exists(), "Falta la estructura derivada de El telar de las Moiras")
+        telar_structure = json.loads(telar_structure_path.read_text(encoding="utf-8"))
+        require(
+            telar_structure.get("sha256") == works["TELAR"]["sha256"],
+            "La estructura de El telar de las Moiras no corresponde al hash de la fuente canónica",
+        )
+        require(
+            telar_structure.get("source") == works["TELAR"]["source"],
+            "La ruta canónica de El telar de las Moiras debe conservarse sin sustituciones editoriales",
+        )
+        telar_segments = {
+            segment["path"]: (segment["start_line"], segment["end_line"])
+            for segment in telar_structure["segments"]
+        }
+        require(
+            len(telar_segments) == 15,
+            "La estructura de El telar debe conservar preliminares, presentación, diez capítulos, epílogo y dos apéndices",
+        )
+        telar_evidence = [ev for ev in evidence.values() if ev["work_id"] == "TELAR"]
+        telar_covered_segments = {ev["segment"] for ev in telar_evidence}
+        require(
+            set(telar_segments) <= telar_covered_segments,
+            "La auditoría de El telar debe cubrir sus quince segmentos; faltan: "
+            f"{sorted(set(telar_segments) - telar_covered_segments)}",
+        )
+        require(
+            len(telar_evidence) >= 88,
+            "La auditoría semántica de El telar perdió granularidad: "
+            f"{len(telar_evidence)} evidencias",
+        )
+        for ev in telar_evidence:
+            require(
+                ev["segment"] in telar_segments,
+                f"{ev['id']}: segmento de El telar no declarado en estructura.json",
+            )
+            segment_start, segment_end = telar_segments[ev["segment"]]
+            line_start, line_end = ev["source_lines"]
+            require(
+                segment_start <= line_start <= line_end <= segment_end,
+                f"{ev['id']}: rango fuera del segmento declarado {ev['segment']}",
+            )
+
+        required_telar_nodes = {
+            "formulation.scope.telar",
+            "concept.autodetermination.telar",
+            "formulation.identity_process.telar",
+            "concept.existential_anesthesia.telar",
+            "concept.indirect_listening.telar",
+            "concept.ego_reference.telar",
+            "formulation.ego_distinctions.telar",
+            "concept.ego_resistance.telar",
+            "formulation.being_condition.telar",
+            "concept.ego_permanence.telar",
+            "concept.identity_content.telar",
+            "formulation.argos.telar",
+            "concept.emotional_map.telar",
+            "formulation.melancholy_knowledge.telar",
+            "concept.ego_mediation.telar",
+            "formulation.being_before_thought.telar",
+            "concept.otherness.telar",
+            "concept.ontological_equality.telar",
+            "concept.ego_measure.telar",
+            "concept.eternal_return.telar",
+            "formulation.relational_closure.telar",
+            "formulation.justice_retribution.telar",
+            "concept.memento_mori.telar",
+            "concept.relational_coherence.telar",
+            "concept.fiscal_contract.telar",
+            "formulation.rights_conditions.telar",
+            "formulation.state_breach.telar",
+            "concept.dignity.telar",
+            "formulation.law_morality.telar",
+            "formulation.banality.telar",
+            "concept.expanded_judgment.telar",
+            "concept.conflict_discomfort.telar",
+            "formulation.reaction_responsibility.telar",
+            "concept.ontological_limit.telar",
+            "concept.non_annulment_ethics.telar",
+            "concept.ethical_conflict_resolution.telar",
+            "formulation.false_resolutions.telar",
+            "formulation.conflict_attitudes.telar",
+            "concept.respect.telar",
+            "concept.self_respect.telar",
+            "formulation.respect_agency.telar",
+            "formulation.relationship_nonuse.telar",
+            "formulation.law_as_respect.telar",
+            "concept.fear_submission.telar",
+            "formulation.forgiveness_modes.telar",
+            "concept.forgiveness_release.telar",
+            "formulation.restorative_forgiveness.telar",
+            "concept.love_catastrophe.telar",
+            "concept.affective_selfdetermination.telar",
+            "formulation.self_love.telar",
+            "concept.domestication.telar",
+            "formulation.love_modification.telar",
+            "formulation.separation.telar",
+            "formulation.love_act.telar",
+            "concept.existential_anguish.telar",
+            "formulation.freedom_response.telar",
+            "formulation.responsibility_remainder.telar",
+            "formulation.limit_autobiography.telar",
+            "formulation.anguish_evasions.telar",
+            "concept.false_ego.telar",
+            "formulation.achilles.telar",
+            "formulation.odysseus.telar",
+            "concept.authentic_ego.telar",
+            "formulation.cave_selfknowledge.telar",
+            "formulation.experience_understanding.telar",
+            "concept.ontological_empathy.telar",
+            "formulation.nonviolence.telar",
+            "formulation.pain_boundary.telar",
+            "formulation.knowing_other.telar",
+            "formulation.practice.telar",
+        }
+        require(
+            required_telar_nodes <= set(nodes),
+            "Núcleo de El telar incompleto; faltan nodos: "
+            f"{sorted(required_telar_nodes - set(nodes))}",
+        )
+
+        required_telar_routes = {
+            "route.telar.scope",
+            "route.telar.identity_ego_being",
+            "route.telar.otherness_equality",
+            "route.telar.fiscal_dignity",
+            "route.telar.conflict_limits",
+            "route.telar.respect",
+            "route.telar.fear_forgiveness",
+            "route.telar.love",
+            "route.telar.anguish_false_ego",
+            "route.telar.cave_empathy",
+            "route.telar.epilogue_glossary",
+            "route.telar.interlocutors",
+            "route.telar.crosswork_history",
+        }
+        require(
+            required_telar_routes <= set(routes),
+            "Rutas de El telar incompletas: "
+            f"{sorted(required_telar_routes - set(routes))}",
+        )
+
+        telar_reviews = {
+            "review.telar.scope_prescription",
+            "review.telar.architecture_consistency",
+            "review.telar.selfdetermination_crosswalk",
+            "review.telar.ego_crosswalk",
+            "review.telar.identity_crosswalk",
+            "review.telar.continuity_claims",
+            "review.telar.emotion_epistemology",
+            "review.telar.equality_dignity",
+            "review.telar.social_generalizations",
+            "review.telar.eternal_return_normativity",
+            "review.telar.justice_retribution",
+            "review.telar.fiscal_crosswalk",
+            "review.telar.fiscal_legal_basis",
+            "review.telar.fiscal_damage",
+            "review.telar.dignity_scope",
+            "review.telar.law_model",
+            "review.telar.arendt_attribution",
+            "review.telar.conflict_reaction",
+            "review.telar.conflict_generalization",
+            "review.telar.limit_permission",
+            "review.telar.respect_agency",
+            "review.telar.forgiveness_order",
+            "review.telar.forgiveness_normativity",
+            "review.telar.collective_forgiveness",
+            "review.telar.love_generalizations",
+            "review.telar.love_ego_modification",
+            "review.telar.clinical_boundary",
+            "review.telar.animal_agency",
+            "review.telar.responsibility_constraints",
+            "review.telar.myth_sources",
+            "review.telar.empathy_claims",
+            "review.telar.nonviolence_inference",
+            "review.telar.cave_attribution",
+            "review.telar.editorial_notation",
+            "review.telar.appendix_consistency",
+        }
+        require(
+            telar_reviews <= set(reviews),
+            "Deben conservarse las treinta y cinco revisiones pendientes de El telar",
+        )
+        require(
+            {
+                "review.telar.selfdetermination_crosswalk",
+                "review.telar.ego_crosswalk",
+                "review.telar.identity_crosswalk",
+                "review.telar.continuity_claims",
+                "review.telar.emotion_epistemology",
+                "review.telar.love_ego_modification",
+            }
+            <= set(routes["route.telar.identity_ego_being"].get("must_surface_review_items", [])),
+            "La ruta identidad-ego-ser debe conservar cruces, continuidad, emociones y modificación amorosa",
+        )
+        require(
+            {
+                "review.telar.fiscal_crosswalk",
+                "review.telar.fiscal_legal_basis",
+                "review.telar.fiscal_damage",
+                "review.telar.dignity_scope",
+                "review.telar.equality_dignity",
+                "review.telar.law_model",
+                "review.telar.arendt_attribution",
+            }
+            <= set(routes["route.telar.fiscal_dignity"].get("must_surface_review_items", [])),
+            "La ruta fiscal-dignidad debe conservar todos sus límites doctrinales, jurídicos y metrológicos",
+        )
+        require(
+            {
+                "review.telar.conflict_reaction",
+                "review.telar.conflict_generalization",
+                "review.telar.limit_permission",
+                "review.telar.respect_agency",
+                "review.telar.nonviolence_inference",
+            }
+            <= set(routes["route.telar.conflict_limits"].get("must_surface_review_items", [])),
+            "La ruta conflicto-límite debe conservar agencia, causalidad y puente normativo",
+        )
+        require(
+            {
+                "review.aq.forgiveness_order",
+                "review.aq.forgiveness_normativity",
+                "review.telar.forgiveness_order",
+                "review.telar.forgiveness_normativity",
+                "review.telar.collective_forgiveness",
+                "review.telar.arendt_attribution",
+            }
+            <= set(routes["route.telar.fear_forgiveness"].get("must_surface_review_items", [])),
+            "La ruta miedo-perdón debe conservar secuencia, normatividad, escala y atribución",
+        )
+        require(
+            {
+                "review.telar.love_generalizations",
+                "review.telar.love_ego_modification",
+                "review.telar.clinical_boundary",
+                "review.telar.scope_prescription",
+            }
+            <= set(routes["route.telar.love"].get("must_surface_review_items", [])),
+            "La ruta del amor debe conservar generalización, niveles del ego y alcance clínico",
+        )
+        require(
+            {
+                "review.telar.clinical_boundary",
+                "review.telar.animal_agency",
+                "review.telar.responsibility_constraints",
+                "review.telar.myth_sources",
+                "review.telar.ego_crosswalk",
+                "review.telar.selfdetermination_crosswalk",
+            }
+            <= set(routes["route.telar.anguish_false_ego"].get("must_surface_review_items", [])),
+            "La ruta angustia-falso ego debe conservar clínica, agencia, responsabilidad, mito y cruces",
+        )
+        require(
+            {
+                "review.telar.empathy_claims",
+                "review.telar.nonviolence_inference",
+                "review.telar.cave_attribution",
+                "review.telar.scope_prescription",
+            }
+            <= set(routes["route.telar.cave_empathy"].get("must_surface_review_items", [])),
+            "La ruta caverna-empatía debe conservar epistemología, atribución y puente normativo",
+        )
+        require(
+            {
+                "review.telar.selfdetermination_crosswalk",
+                "review.telar.ego_crosswalk",
+                "review.telar.identity_crosswalk",
+                "review.telar.fiscal_crosswalk",
+                "review.telar.forgiveness_order",
+                "review.telar.collective_forgiveness",
+                "review.telar.myth_sources",
+                "review.telar.responsibility_constraints",
+            }
+            <= set(routes["route.telar.crosswork_history"].get("must_surface_review_items", [])),
+            "La ruta histórica de El telar no puede ocultar cruces ontológicos, jurídicos o mitográficos",
+        )
+        require(
+            {
+                "review.telar.selfdetermination_crosswalk",
+                "review.telar.ego_crosswalk",
+                "review.telar.identity_crosswalk",
+            }
+            <= set(routes["route.ego.explicacion"].get("must_surface_review_items", [])),
+            "La ruta general del ego debe incorporar las formulaciones de El telar",
+        )
+        require(
+            {"review.telar.ego_crosswalk", "review.telar.identity_crosswalk"}
+            <= set(routes["route.caos.subject_ego_identity"].get("must_surface_review_items", [])),
+            "La ruta sujeto-ego-identidad debe conservar la separación tardía de El telar",
+        )
+        require(
+            {"review.telar.identity_crosswalk", "review.telar.ego_crosswalk"}
+            <= set(routes["route.aa1.identity_distortions"].get("must_surface_review_items", [])),
+            "La ruta histórica de identidad debe incorporar El telar",
+        )
+        require(
+            {"review.telar.fiscal_crosswalk", "review.telar.fiscal_legal_basis", "review.telar.fiscal_damage"}
+            <= set(routes["route.aa5.collective_contract"].get("must_surface_review_items", [])),
+            "La ruta histórica del contrato fiscal debe incorporar El telar",
+        )
+        require(
+            {"review.telar.forgiveness_order", "review.telar.forgiveness_normativity", "review.telar.collective_forgiveness"}
+            <= set(routes["route.aq.fear_forgiveness"].get("must_surface_review_items", [])),
+            "La ruta histórica del perdón debe incorporar El telar",
+        )
+
+        telar_inferred_relations = {
+            "rel.selfdetermination_telar.differs_caos_ego",
+            "rel.selfdetermination_telar.reframes_aa3",
+            "rel.identity_telar.differs_caos",
+            "rel.identity_telar.differs_aa1",
+            "rel.identity_telar.differs_aquiles",
+            "rel.identity_telar.differs_masks",
+            "rel.ego_telar.differs_integral",
+            "rel.ego_telar.differs_masks_inertia",
+            "rel.equality_telar.differs_aa5",
+            "rel.fiscal_telar.reframes_aa3",
+            "rel.fiscal_telar.differs_aa4",
+            "rel.fiscal_telar.elaborates_aa5",
+            "rel.forgiveness_telar.elaborates_aquiles",
+            "rel.achilles_telar.reframes_aquiles",
+            "rel.false_ego_telar.differs_dissociation_aquiles",
+            "rel.responsibility_telar.differs_aa4",
+            "rel.responsibility_telar.differs_masks",
+        }
+        require(
+            all(
+                relation_id in relations
+                and relations[relation_id]["evidence_status"] == "inferred"
+                and bool(relations[relation_id].get("rationale"))
+                for relation_id in telar_inferred_relations
+            ),
+            "Los cruces históricos de El telar deben seguir marcados como inferidos",
+        )
+        require(
+            {"ev.telar.ch7.political", "ev.telar.ch7.synthesis"}
+            <= set(nodes["formulation.restorative_forgiveness.telar"].get("evidence", [])),
+            "La formulación restaurativa debe conservar juntas las dos secuencias incompatibles",
+        )
+        require(
+            "review.telar.forgiveness_order"
+            in routes["route.telar.fear_forgiveness"].get("must_surface_review_items", []),
+            "La contradicción de orden entre perdón y justicia debe permanecer visible",
+        )
+
     print(
         "Mapa válido:",
         f"fase={phase}, schema={schema_status};",
@@ -1688,7 +2038,8 @@ def main() -> int:
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-IV'])} evidencias de Afrodita Areia IV,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-V'])} evidencias de Afrodita Areia V,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AQUILES'])} evidencias de El dilema de Aquiles,",
-        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'MASCARAS'])} evidencias de El juego de las máscaras."
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'MASCARAS'])} evidencias de El juego de las máscaras,",
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'TELAR'])} evidencias de El telar de las Moiras."
     )
     return 0
 

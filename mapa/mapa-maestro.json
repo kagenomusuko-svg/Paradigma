@@ -1,9 +1,9 @@
 {
   "map_version": "1.9.0",
   "schema_status": "frozen",
-  "phase": "F2",
+  "phase": "F3",
   "purpose": "Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.",
-  "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 integra sistemáticamente Caos, Afrodita Areia I–V, El dilema de Aquiles, El juego de las máscaras y El telar de las Moiras, auditados por sus unidades editoriales; se conservan diferencias ontológicas, psicológicas, jurídicas, políticas, formales, empíricas, normativas y editoriales pendientes de adjudicación.",
+  "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 quedó cerrada con la integración sistemática de Caos, Afrodita Areia I–V, El dilema de Aquiles, El juego de las máscaras y El telar de las Moiras, auditados por sus unidades editoriales; se conservan diferencias ontológicas, psicológicas, jurídicas, políticas, formales, empíricas, normativas y editoriales pendientes de adjudicación. La fase operativa siguiente es F3: formalización y metrología.",
   "works": [
     {
       "id": "CAOS",
