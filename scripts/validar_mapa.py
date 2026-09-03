@@ -1364,6 +1364,313 @@ def main() -> int:
             "El mapa no puede convertir la disociación filosófica de Aquiles en diagnóstico clínico",
         )
 
+        # Invariantes ganadas al integrar El juego de las máscaras sistemáticamente en F2.
+        require("MASCARAS" in works, "Falta El juego de las máscaras en el registro de obras")
+        masks_structure_path = (
+            ROOT
+            / "corpus"
+            / "libros"
+            / "juego-de-las-mascaras"
+            / "estructura.json"
+        )
+        require(masks_structure_path.exists(), "Falta la estructura derivada de El juego de las máscaras")
+        masks_structure = json.loads(masks_structure_path.read_text(encoding="utf-8"))
+        require(
+            masks_structure.get("sha256") == works["MASCARAS"]["sha256"],
+            "La estructura de El juego de las máscaras no corresponde al hash de la fuente canónica",
+        )
+        require(
+            masks_structure.get("source") == works["MASCARAS"]["source"],
+            "La ruta canónica de El juego de las máscaras debe conservarse sin sustituciones editoriales",
+        )
+        masks_segments = {
+            segment["path"]: (segment["start_line"], segment["end_line"])
+            for segment in masks_structure["segments"]
+        }
+        require(
+            len(masks_segments) == 14,
+            "La estructura de El juego de las máscaras debe conservar preliminares, prólogo, diez capítulos, epílogo y glosario",
+        )
+        masks_evidence = [ev for ev in evidence.values() if ev["work_id"] == "MASCARAS"]
+        masks_covered_segments = {ev["segment"] for ev in masks_evidence}
+        require(
+            set(masks_segments) <= masks_covered_segments,
+            "La auditoría de El juego de las máscaras debe cubrir sus catorce segmentos; faltan: "
+            f"{sorted(set(masks_segments) - masks_covered_segments)}",
+        )
+        require(
+            len(masks_evidence) >= 59,
+            "La auditoría semántica de El juego de las máscaras perdió granularidad: "
+            f"{len(masks_evidence)} evidencias",
+        )
+        for ev in masks_evidence:
+            require(
+                ev["segment"] in masks_segments,
+                f"{ev['id']}: segmento de El juego de las máscaras no declarado en estructura.json",
+            )
+            segment_start, segment_end = masks_segments[ev["segment"]]
+            line_start, line_end = ev["source_lines"]
+            require(
+                segment_start <= line_start <= line_end <= segment_end,
+                f"{ev['id']}: rango fuera del segmento declarado {ev['segment']}",
+            )
+
+        required_masks_nodes = {
+            "formulation.scope.mask",
+            "concept.mask.mask",
+            "concept.social_code.mask",
+            "concept.modulation.mask",
+            "concept.substitution.mask",
+            "concept.ontological_masking.mask",
+            "concept.mask_institution.mask",
+            "concept.will_operator.mask",
+            "formal.first_formula.mask",
+            "formal.second_formula.mask",
+            "concept.factical_sum.mask",
+            "concept.identity_dysphoria.mask",
+            "formulation.dysphoria_modes.mask",
+            "formulation.dissociation.mask",
+            "concept.productive_grief.mask",
+            "concept.obsessive_grief.mask",
+            "formulation.catharsis.mask",
+            "formulation.identity.mask",
+            "concept.own_bias.mask",
+            "concept.implanted_bias.mask",
+            "formulation.identity_inertia.mask",
+            "formulation.odysseus.mask",
+            "concept.nobody_transit.mask",
+            "concept.surrender.mask",
+            "formulation.surrender_paradox.mask",
+            "concept.own_time.mask",
+            "concept.genuine_collapse.mask",
+            "concept.sovereign_vanity.mask",
+            "concept.ontological_equality.mask",
+            "concept.encounter_without_negotiation.mask",
+            "concept.presence_without_program.mask",
+            "formulation.ethical_ontological_planes.mask",
+            "concept.causal_imputation.mask",
+            "formulation.responsibility.mask",
+            "formulation.penalty_time.mask",
+            "formulation.damage_scope.mask",
+            "concept.collective_bias.mask",
+            "concept.collective_ego.mask",
+            "concept.collective_dysphoria.mask",
+            "concept.institutional_mask.mask",
+            "concept.collective_surrender.mask",
+            "formulation.story_release.mask",
+        }
+        require(
+            required_masks_nodes <= set(nodes),
+            "Núcleo de El juego de las máscaras incompleto; faltan nodos: "
+            f"{sorted(required_masks_nodes - set(nodes))}",
+        )
+
+        required_masks_routes = {
+            "route.mask.scope",
+            "route.mask.institution_formulas",
+            "route.mask.dysphoria_dissociation",
+            "route.mask.grief_catharsis",
+            "route.mask.identity_bias",
+            "route.mask.odysseus",
+            "route.mask.surrender",
+            "route.mask.sovereign_vanity",
+            "route.mask.encounter",
+            "route.mask.causal_imputation",
+            "route.mask.collective",
+            "route.mask.epilogue_glossary",
+            "route.mask.crosswork_history",
+        }
+        require(
+            required_masks_routes <= set(routes),
+            "Rutas de El juego de las máscaras incompletas: "
+            f"{sorted(required_masks_routes - set(routes))}",
+        )
+
+        masks_reviews = {
+            "review.mask.universal_masking",
+            "review.mask.clinical_boundary",
+            "review.mask.formula_crosswalk",
+            "review.mask.will_opportunity",
+            "review.mask.dysphoria_crosswalk",
+            "review.mask.dissociation_crosswalk",
+            "review.mask.ego_persistence",
+            "review.mask.grief_claims",
+            "review.mask.therapy_claims",
+            "review.mask.identity_ownership",
+            "review.mask.identity_ego_inertia",
+            "review.mask.myth_sources",
+            "review.mask.series_order",
+            "review.mask.surrender_paradox",
+            "review.mask.vanity_term",
+            "review.mask.relational_claims",
+            "review.mask.equality_crosswalk",
+            "review.mask.responsibility_crosswalk",
+            "review.mask.legal_dolo",
+            "review.mask.causal_necessity",
+            "review.mask.penalty_time",
+            "review.mask.damage_measure",
+            "review.mask.disassociated_culpability",
+            "review.mask.collective_agent",
+            "review.mask.collective_scale",
+            "review.mask.collective_crosswalk",
+            "review.mask.nonaction_responsibility",
+            "review.mask.political_generalization",
+            "review.mask.editorial_notation",
+        }
+        require(
+            masks_reviews <= set(reviews),
+            "Deben conservarse las veintinueve revisiones pendientes de El juego de las máscaras",
+        )
+        require(
+            {
+                "review.mask.universal_masking",
+                "review.mask.formula_crosswalk",
+                "review.mask.will_opportunity",
+                "review.mask.identity_ego_inertia",
+            }
+            <= set(routes["route.mask.institution_formulas"].get("must_surface_review_items", [])),
+            "La ruta máscara-fórmulas debe conservar universalización, cambio formal, voluntad e inercia",
+        )
+        require(
+            {
+                "review.mask.clinical_boundary",
+                "review.mask.dysphoria_crosswalk",
+                "review.mask.dissociation_crosswalk",
+                "review.mask.ego_persistence",
+                "review.mask.grief_claims",
+            }
+            <= set(routes["route.mask.dysphoria_dissociation"].get("must_surface_review_items", [])),
+            "La ruta de disforia debe conservar alcance, homónimos, persistencia y criterio del duelo",
+        )
+        require(
+            {
+                "review.mask.clinical_boundary",
+                "review.mask.grief_claims",
+                "review.mask.therapy_claims",
+                "review.mask.ego_persistence",
+            }
+            <= set(routes["route.mask.grief_catharsis"].get("must_surface_review_items", [])),
+            "La ruta duelo-catarsis debe conservar todas sus reservas clínicas y empíricas",
+        )
+        require(
+            {
+                "review.mask.will_opportunity",
+                "review.mask.identity_ownership",
+                "review.mask.identity_ego_inertia",
+                "review.mask.dysphoria_crosswalk",
+            }
+            <= set(routes["route.mask.identity_bias"].get("must_surface_review_items", [])),
+            "La ruta identidad-sesgo debe conservar propiedad, circularidad, velocidad e historia",
+        )
+        require(
+            {
+                "review.mask.responsibility_crosswalk",
+                "review.mask.legal_dolo",
+                "review.mask.causal_necessity",
+                "review.mask.penalty_time",
+                "review.mask.damage_measure",
+                "review.mask.disassociated_culpability",
+                "review.mask.nonaction_responsibility",
+            }
+            <= set(routes["route.mask.causal_imputation"].get("must_surface_review_items", [])),
+            "La ruta de imputación debe conservar todas sus reservas causales, legales, metrológicas y normativas",
+        )
+        require(
+            {
+                "review.mask.collective_agent",
+                "review.mask.collective_scale",
+                "review.mask.collective_crosswalk",
+                "review.mask.political_generalization",
+                "review.mask.nonaction_responsibility",
+                "review.mask.causal_necessity",
+            }
+            <= set(routes["route.mask.collective"].get("must_surface_review_items", [])),
+            "La ruta colectiva debe conservar agencia, escala, cruces, política y causalidad",
+        )
+        require(
+            {
+                "review.mask.formula_crosswalk",
+                "review.mask.dysphoria_crosswalk",
+                "review.mask.dissociation_crosswalk",
+                "review.mask.identity_ego_inertia",
+                "review.mask.responsibility_crosswalk",
+                "review.mask.collective_crosswalk",
+                "review.mask.equality_crosswalk",
+            }
+            <= set(routes["route.mask.crosswork_history"].get("must_surface_review_items", [])),
+            "La ruta histórica de Máscaras no puede ocultar diferencias ontológicas o jurídicas",
+        )
+        require(
+            {"review.mask.formula_crosswalk", "review.mask.identity_ego_inertia"}
+            <= set(routes["route.ego.explicacion"].get("must_surface_review_items", [])),
+            "La ruta general del ego debe incorporar el cambio formal de Máscaras",
+        )
+        require(
+            {
+                "review.mask.dysphoria_crosswalk",
+                "review.mask.dissociation_crosswalk",
+                "review.mask.identity_ownership",
+            }
+            <= set(routes["route.aa1.identity_distortions"].get("must_surface_review_items", [])),
+            "La ruta de identidad y perturbaciones debe incorporar las formulaciones de Máscaras",
+        )
+        require(
+            {
+                "review.mask.responsibility_crosswalk",
+                "review.mask.legal_dolo",
+                "review.mask.causal_necessity",
+                "review.mask.penalty_time",
+            }
+            <= set(routes["route.aa4.responsibility_causality"].get("must_surface_review_items", [])),
+            "La ruta histórica de responsabilidad debe conservar la extensión penal de Máscaras",
+        )
+        require(
+            {"review.mask.collective_agent", "review.mask.collective_crosswalk"}
+            <= set(routes["route.aa4.corporate_ego"].get("must_surface_review_items", [])),
+            "La ruta del ego corporativo debe conservar la diferencia del ego colectivo de Máscaras",
+        )
+        require(
+            {"review.mask.dysphoria_crosswalk", "review.mask.dissociation_crosswalk", "review.mask.ego_persistence"}
+            <= set(routes["route.aq.dissociation_fall"].get("must_surface_review_items", [])),
+            "La ruta de Aquiles debe surfacer la disociación anestesiada posterior",
+        )
+        masks_inferred_relations = {
+            "rel.formula_mask.differs_core_order",
+            "rel.identity_mask.elaborates_aa1_bias",
+            "rel.dysphoria_mask.differs_aa1",
+            "rel.dissociation_mask.differs_aquiles",
+            "rel.identity_inertia_mask.differs_ego_integral",
+            "rel.responsibility_mask.reframes_aa4",
+            "rel.responsibility_mask.differs_aquiles",
+            "rel.collective_ego_mask.differs_aa3",
+            "rel.collective_ego_mask.differs_aa4",
+            "rel.ontological_equality_mask.differs_aa5",
+            "rel.collective_bias_mask.differs_rstar",
+        }
+        require(
+            all(
+                relation_id in relations
+                and relations[relation_id]["evidence_status"] == "inferred"
+                and bool(relations[relation_id].get("rationale"))
+                for relation_id in masks_inferred_relations
+            ),
+            "Los cruces históricos de Máscaras deben seguir marcados como inferidos",
+        )
+        require(
+            nodes["formal.first_formula.mask"]["formal_spec"].get("expression")
+            == "Sesgo → Voluntad → Primera mediación → Acto → Segunda mediación → Ego",
+            "La primera fórmula publicada por Máscaras debe conservarse literalmente hasta revisión",
+        )
+        require(
+            nodes["formal.second_formula.mask"]["formal_spec"].get("expression")
+            == "Sesgo (suma fáctica) → Primera mediación → Acto → Segunda mediación → Ego disociado",
+            "La segunda fórmula publicada por Máscaras debe conservarse literalmente hasta revisión",
+        )
+        require(
+            nodes["formulation.dissociation.mask"].get("subject") == "concept.disociacion_ego",
+            "La disociación de Máscaras debe conservarse como formulación histórica diferenciada",
+        )
+
     print(
         "Mapa válido:",
         f"fase={phase}, schema={schema_status};",
@@ -1380,7 +1687,8 @@ def main() -> int:
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-III'])} evidencias de Afrodita Areia III,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-IV'])} evidencias de Afrodita Areia IV,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-V'])} evidencias de Afrodita Areia V,",
-        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AQUILES'])} evidencias de El dilema de Aquiles."
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AQUILES'])} evidencias de El dilema de Aquiles,",
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'MASCARAS'])} evidencias de El juego de las máscaras."
     )
     return 0
 
