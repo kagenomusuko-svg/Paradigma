@@ -1,9 +1,9 @@
 {
-  "map_version": "1.8.0",
+  "map_version": "1.9.0",
   "schema_status": "frozen",
   "phase": "F2",
   "purpose": "Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.",
-  "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 integra sistemáticamente Caos, Afrodita Areia I–V, El dilema de Aquiles y El juego de las máscaras, auditados por sus unidades editoriales; se conservan diferencias ontológicas, psicológicas, jurídicas, políticas, formales y editoriales pendientes de adjudicación.",
+  "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 integra sistemáticamente Caos, Afrodita Areia I–V, El dilema de Aquiles, El juego de las máscaras y El telar de las Moiras, auditados por sus unidades editoriales; se conservan diferencias ontológicas, psicológicas, jurídicas, políticas, formales, empíricas, normativas y editoriales pendientes de adjudicación.",
   "works": [
     {
       "id": "CAOS",
@@ -76,6 +76,12 @@
       "title": "El juego de las máscaras o la disforia de la identidad",
       "source": "corpus/fuentes/El_juego_de_las_mascaras_o_la_disforia_de_la_identidad.md",
       "sha256": "cbab9ee5a1bb8c838e2dd5de64e314148b90c3f6831d58edb96252e23b255541"
+    },
+    {
+      "id": "TELAR",
+      "title": "El telar de las Moiras: Ontología de la autodeterminación causal",
+      "source": "corpus/fuentes/El_telar_de_las_Moiras_Ontologia_de_la_autodeterminacion_causal.md",
+      "sha256": "05b0636bc15c9c0bd92c96cf95e2a96fae0d030a54843e7c87bb9608378fc049"
     }
   ],
   "evidence": [
@@ -4357,6 +4363,974 @@
       ],
       "section": "Glosario · máscara a voluntad",
       "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.telar.prelim.bibliographic",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/00-preliminares.md",
+      "source_lines": [
+        1,
+        52
+      ],
+      "section": "Preliminares · edición, licencia e índice",
+      "evidence_type": "editorial_evidence"
+    },
+    {
+      "id": "ev.telar.prelim.program",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/00-preliminares.md",
+      "source_lines": [
+        53,
+        125
+      ],
+      "section": "Nota sobre este libro y programa autoral",
+      "evidence_type": "authorial_program"
+    },
+    {
+      "id": "ev.telar.presentation.thesis",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/01-presentacion.md",
+      "source_lines": [
+        126,
+        196
+      ],
+      "section": "Presentación · causalidad, colisión y tesis central",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.presentation.scope",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/01-presentacion.md",
+      "source_lines": [
+        197,
+        259
+      ],
+      "section": "Presentación · método, deslindes y responsabilidad",
+      "evidence_type": "authorial_program"
+    },
+    {
+      "id": "ev.telar.presentation.identity",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/01-presentacion.md",
+      "source_lines": [
+        260,
+        314
+      ],
+      "section": "Presentación · identidad como resultado y arquitectura",
+      "evidence_type": "authorial_program"
+    },
+    {
+      "id": "ev.telar.ch1.identity_question",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-01.md",
+      "source_lines": [
+        315,
+        375
+      ],
+      "section": "Cap. I · identidad como pregunta viva",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch1.anesthesia",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-01.md",
+      "source_lines": [
+        376,
+        444
+      ],
+      "section": "Cap. I · anestesia existencial y ruido externo",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch1.listening",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-01.md",
+      "source_lines": [
+        445,
+        515
+      ],
+      "section": "Cap. I · escucha indirecta y localización propia",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch1.ego_reference",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-01.md",
+      "source_lines": [
+        516,
+        636
+      ],
+      "section": "Cap. I · ego como referencia y distinciones",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch1.resistance_being",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-01.md",
+      "source_lines": [
+        637,
+        717
+      ],
+      "section": "Cap. I · resistencia, absorción y puente al ser",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch2.being_problem",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-02.md",
+      "source_lines": [
+        718,
+        800
+      ],
+      "section": "Cap. II · identidad y problema del ser",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch2.permanence",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-02.md",
+      "source_lines": [
+        801,
+        930
+      ],
+      "section": "Cap. II · permanencia, continuidad y apropiación",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch2.identity_ego",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-02.md",
+      "source_lines": [
+        931,
+        1000
+      ],
+      "section": "Cap. II · identidad como contenido y ego como estructura",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch2.argos_emotion",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-02.md",
+      "source_lines": [
+        1001,
+        1090
+      ],
+      "section": "Cap. II · Argos y mapa emocional",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch2.melancholy",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-02.md",
+      "source_lines": [
+        1091,
+        1125
+      ],
+      "section": "Cap. II · melancolía y alegría como conocimiento",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch2.mediation",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-02.md",
+      "source_lines": [
+        1126,
+        1175
+      ],
+      "section": "Cap. II · ego como mediación sujeto-mundo",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch2.being_thought",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-02.md",
+      "source_lines": [
+        1176,
+        1250
+      ],
+      "section": "Cap. II · ser anterior al pensamiento",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch3.otherness_equality",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-03.md",
+      "source_lines": [
+        1251,
+        1395
+      ],
+      "section": "Cap. III · otredad, diferencia e igualdad de valor",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch3.ego_conflict",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-03.md",
+      "source_lines": [
+        1396,
+        1450
+      ],
+      "section": "Cap. III · ego convertido en medida y conflicto",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch3.eternal_return",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-03.md",
+      "source_lines": [
+        1451,
+        1510
+      ],
+      "section": "Cap. III · eterno retorno como criterio existencial",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch3.relational_pending",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-03.md",
+      "source_lines": [
+        1511,
+        1570
+      ],
+      "section": "Cap. III · vínculos y asuntos propios pendientes",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch3.justice_retribution",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-03.md",
+      "source_lines": [
+        1571,
+        1630
+      ],
+      "section": "Cap. III · justicia y retribución",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch3.finitude_synthesis",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-03.md",
+      "source_lines": [
+        1631,
+        1692
+      ],
+      "section": "Cap. III · memento mori y coherencia relacional",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch4.social_contract",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-04.md",
+      "source_lines": [
+        1693,
+        1840
+      ],
+      "section": "Cap. IV · contrato social como intercambio",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch4.fiscal_dimensions",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-04.md",
+      "source_lines": [
+        1841,
+        1910
+      ],
+      "section": "Cap. IV · contrato fiscal y tres dimensiones de deuda",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch4.rights",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-04.md",
+      "source_lines": [
+        1911,
+        1970
+      ],
+      "section": "Cap. IV · derechos como condiciones de posibilidad",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch4.state_breach",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-04.md",
+      "source_lines": [
+        1971,
+        2040
+      ],
+      "section": "Cap. IV · incumplimiento estatal y daño de trayectoria",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch4.dignity",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-04.md",
+      "source_lines": [
+        2041,
+        2170
+      ],
+      "section": "Cap. IV · dignidad ontológica y sujeto de derecho",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch4.law_morality",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-04.md",
+      "source_lines": [
+        2171,
+        2240
+      ],
+      "section": "Cap. IV · ley, moral, acto y persona",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch4.ego_law",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-04.md",
+      "source_lines": [
+        2241,
+        2285
+      ],
+      "section": "Cap. IV · perspectiva del ego y norma pública",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch4.banality",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-04.md",
+      "source_lines": [
+        2286,
+        2350
+      ],
+      "section": "Cap. IV · banalidad del mal como renuncia al juicio",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch4.expanded_judgment",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-04.md",
+      "source_lines": [
+        2351,
+        2395
+      ],
+      "section": "Cap. IV · mentalidad ampliada y juicio político",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch4.synthesis",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-04.md",
+      "source_lines": [
+        2396,
+        2449
+      ],
+      "section": "Cap. IV · ego, justicia y límite del poder",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch5.conflict",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-05.md",
+      "source_lines": [
+        2450,
+        2535
+      ],
+      "section": "Cap. V · conflicto como incomodidad estructural",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch5.reaction",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-05.md",
+      "source_lines": [
+        2536,
+        2610
+      ],
+      "section": "Cap. V · reacción, elección y responsabilidad",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch5.limit",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-05.md",
+      "source_lines": [
+        2611,
+        2665
+      ],
+      "section": "Cap. V · límite como acto ontológico",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch5.other_limit",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-05.md",
+      "source_lines": [
+        2666,
+        2720
+      ],
+      "section": "Cap. V · el otro como límite ético",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch5.ethical_resolution",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-05.md",
+      "source_lines": [
+        2721,
+        2765
+      ],
+      "section": "Cap. V · resolución como coexistencia",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch5.false_resolutions",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-05.md",
+      "source_lines": [
+        2766,
+        2845
+      ],
+      "section": "Cap. V · anulación y evasión",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch5.attitudes",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-05.md",
+      "source_lines": [
+        2846,
+        2900
+      ],
+      "section": "Cap. V · cuatro actitudes para habitar el conflicto",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch5.frontier",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-05.md",
+      "source_lines": [
+        2901,
+        2952
+      ],
+      "section": "Cap. V · conflicto como frontera y necesidad de ley",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch6.respect",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-06.md",
+      "source_lines": [
+        2953,
+        3025
+      ],
+      "section": "Cap. VI · respeto como reconocimiento del sujeto",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch6.self_respect",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-06.md",
+      "source_lines": [
+        3026,
+        3105
+      ],
+      "section": "Cap. VI · autorrespeto y normalización del trato",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch6.agency",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-06.md",
+      "source_lines": [
+        3106,
+        3170
+      ],
+      "section": "Cap. VI · gobierno de sí y no control del otro",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch6.other_and_use",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-06.md",
+      "source_lines": [
+        3171,
+        3290
+      ],
+      "section": "Cap. VI · respeto sin desaparición e instrumentalización",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch6.conflict",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-06.md",
+      "source_lines": [
+        3291,
+        3350
+      ],
+      "section": "Cap. VI · respeto y conflicto",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch6.self_start",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-06.md",
+      "source_lines": [
+        3351,
+        3395
+      ],
+      "section": "Cap. VI · respeto iniciado por el propio sujeto",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch6.law",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-06.md",
+      "source_lines": [
+        3396,
+        3435
+      ],
+      "section": "Cap. VI · ley como extensión estructural del respeto",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch7.hobbes",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-07.md",
+      "source_lines": [
+        3436,
+        3505
+      ],
+      "section": "Cap. VII · Hobbes, miedo y origen del orden",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch7.submission",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-07.md",
+      "source_lines": [
+        3506,
+        3575
+      ],
+      "section": "Cap. VII · sumisión interpersonal y normalización",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch7.forgiveness_types",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-07.md",
+      "source_lines": [
+        3576,
+        3640
+      ],
+      "section": "Cap. VII · perdón por miedo y perdón soberano",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch7.release",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-07.md",
+      "source_lines": [
+        3641,
+        3710
+      ],
+      "section": "Cap. VII · soltar sin absolver",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch7.memory",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-07.md",
+      "source_lines": [
+        3711,
+        3775
+      ],
+      "section": "Cap. VII · memoria, justicia y límite",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch7.political",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-07.md",
+      "source_lines": [
+        3776,
+        3835
+      ],
+      "section": "Cap. VII · perdón político y justicia restaurativa",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch7.synthesis",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-07.md",
+      "source_lines": [
+        3836,
+        3935
+      ],
+      "section": "Cap. VII · perdón que desactiva y orden de justicia",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch8.scope_danger",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-08.md",
+      "source_lines": [
+        3936,
+        4090
+      ],
+      "section": "Cap. VIII · alcance y amor como exposición peligrosa",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch8.catastrophe",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-08.md",
+      "source_lines": [
+        4091,
+        4170
+      ],
+      "section": "Cap. VIII · catástrofe de la autosuficiencia",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch8.idealization",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-08.md",
+      "source_lines": [
+        4171,
+        4250
+      ],
+      "section": "Cap. VIII · idealización y encuentro real",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch8.capacity_selflove",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-08.md",
+      "source_lines": [
+        4251,
+        4395
+      ],
+      "section": "Cap. VIII · capacidad afectiva y amor propio",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch8.begging_domestication",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-08.md",
+      "source_lines": [
+        4396,
+        4530
+      ],
+      "section": "Cap. VIII · mendicidad afectiva y domesticación",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch8.modification_separation",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-08.md",
+      "source_lines": [
+        4531,
+        4635
+      ],
+      "section": "Cap. VIII · modificación del ego y dolor de separación",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch8.reintegration",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-08.md",
+      "source_lines": [
+        4636,
+        4695
+      ],
+      "section": "Cap. VIII · separación como reintegración",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch8.act_imperfection",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-08.md",
+      "source_lines": [
+        4696,
+        4795
+      ],
+      "section": "Cap. VIII · amor como acto y sí a lo imperfecto",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch8.synthesis",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-08.md",
+      "source_lines": [
+        4796,
+        4837
+      ],
+      "section": "Cap. VIII · amor y autodeterminación causal",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch9.anguish_fear",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-09.md",
+      "source_lines": [
+        4838,
+        4990
+      ],
+      "section": "Cap. IX · angustia, miedo y libertad",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch9.price_neutrality",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-09.md",
+      "source_lines": [
+        4991,
+        5130
+      ],
+      "section": "Cap. IX · precio de no ser cosa y ficción de neutralidad",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch9.freedom_responsibility",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-09.md",
+      "source_lines": [
+        5131,
+        5195
+      ],
+      "section": "Cap. IX · libertad como respuesta",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch9.no_blame",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-09.md",
+      "source_lines": [
+        5196,
+        5255
+      ],
+      "section": "Cap. IX · resto propio y ausencia de excusa",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch9.autobiography_evasions",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-09.md",
+      "source_lines": [
+        5256,
+        5390
+      ],
+      "section": "Cap. IX · límite autobiográfico y estrategias de evasión",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch9.false_ego",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-09.md",
+      "source_lines": [
+        5391,
+        5455
+      ],
+      "section": "Cap. IX · falso ego como pérdida de sí",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch9.achilles",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-09.md",
+      "source_lines": [
+        5456,
+        5580
+      ],
+      "section": "Cap. IX · dilema y talón de Aquiles",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch9.odysseus_egolatry",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-09.md",
+      "source_lines": [
+        5581,
+        5700
+      ],
+      "section": "Cap. IX · Odiseo, egolatría y aprobación",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch9.character_distinctions",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-09.md",
+      "source_lines": [
+        5701,
+        5820
+      ],
+      "section": "Cap. IX · personaje y tres distinciones del ego",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch9.authentic_ego",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-09.md",
+      "source_lines": [
+        5821,
+        5890
+      ],
+      "section": "Cap. IX · angustia y constitución del ego auténtico",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch9.synthesis",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-09.md",
+      "source_lines": [
+        5891,
+        5949
+      ],
+      "section": "Cap. IX · vértigo de saberse autor",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch10.cave",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-10.md",
+      "source_lines": [
+        5950,
+        6090
+      ],
+      "section": "Cap. X · caverna como desconocimiento de sí",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch10.enter_self",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-10.md",
+      "source_lines": [
+        6091,
+        6145
+      ],
+      "section": "Cap. X · salir de la caverna entrando en sí",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch10.experience",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-10.md",
+      "source_lines": [
+        6146,
+        6205
+      ],
+      "section": "Cap. X · experiencia y comprensión sin reproducción",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch10.empathy",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-10.md",
+      "source_lines": [
+        6206,
+        6335
+      ],
+      "section": "Cap. X · empatía ontológica y vulnerabilidad",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch10.nonviolence",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-10.md",
+      "source_lines": [
+        6336,
+        6395
+      ],
+      "section": "Cap. X · reconocimiento causal y no violencia",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch10.pain",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-10.md",
+      "source_lines": [
+        6396,
+        6495
+      ],
+      "section": "Cap. X · dolor vivido como frontera ética",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch10.knowing_other",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-10.md",
+      "source_lines": [
+        6496,
+        6550
+      ],
+      "section": "Cap. X · conocimiento de sí y del otro",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.ch10.closure",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/capitulo-10.md",
+      "source_lines": [
+        6551,
+        6604
+      ],
+      "section": "Cap. X · comprender sin dominar",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.telar.epilogue.practice",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/90-epilogo.md",
+      "source_lines": [
+        6605,
+        6660
+      ],
+      "section": "Epílogo · límite del libro y práctica",
+      "evidence_type": "authorial_program"
+    },
+    {
+      "id": "ev.telar.epilogue.glossary_first",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/90-epilogo.md",
+      "source_lines": [
+        6661,
+        6740
+      ],
+      "section": "Notas y glosario · autodeterminación a dignidad",
+      "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.telar.epilogue.glossary_second",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/90-epilogo.md",
+      "source_lines": [
+        6741,
+        6823
+      ],
+      "section": "Glosario · domesticación a resentimiento",
+      "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.telar.appendix.authors",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/apendice-01.md",
+      "source_lines": [
+        6824,
+        6893
+      ],
+      "section": "Apéndice I · índice de autores",
+      "evidence_type": "editorial_evidence"
+    },
+    {
+      "id": "ev.telar.appendix.chronology",
+      "work_id": "TELAR",
+      "segment": "corpus/libros/telar-de-las-moiras/apendice-02.md",
+      "source_lines": [
+        6894,
+        7052
+      ],
+      "section": "Apéndice II · cronología de autores",
+      "evidence_type": "editorial_evidence"
     }
   ],
   "nodes": [
@@ -9014,6 +9988,742 @@
         "ev.mask.epilogue.collapse_work"
       ],
       "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.scope.telar",
+      "kind": "formulation",
+      "label": "Estatuto declarado de El telar de las Moiras",
+      "summary": "Exploración mayéutica de una tesis única, declarada no terapéutica, no prescriptiva y no cerrada, que interpela personalmente al lector.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.prelim.program",
+        "ev.telar.presentation.scope"
+      ]
+    },
+    {
+      "id": "concept.autodetermination.telar",
+      "kind": "concept",
+      "label": "Autodeterminación causal en El telar",
+      "summary": "Condición en que la totalidad histórica y proyectiva del individuo colisiona con el mundo y produce un acto irreductible del que el sujeto es origen activo y responsable.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.presentation.thesis",
+        "ev.telar.epilogue.glossary_first"
+      ]
+    },
+    {
+      "id": "formulation.identity_process.telar",
+      "kind": "formulation",
+      "label": "Identidad como resultado y mediación",
+      "summary": "La identidad no antecede a la acción: es forma histórica y territorio de mediación construido por lo que el sujeto hace con lo que le ocurre.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.presentation.identity",
+        "ev.telar.ch1.identity_question"
+      ]
+    },
+    {
+      "id": "concept.existential_anesthesia.telar",
+      "kind": "concept",
+      "label": "Anestesia existencial",
+      "summary": "Insensibilización de la voz propia bajo ruido y expectativas externas que convierte elecciones en reacción y adaptación sin dirección.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch1.anesthesia"
+      ]
+    },
+    {
+      "id": "concept.indirect_listening.telar",
+      "kind": "concept",
+      "label": "Escucha indirecta de sí",
+      "summary": "Práctica relacional que aprende a localizar emoción, intención e historia en la voz ajena y revierte después esa localización sobre la voz propia.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch1.listening"
+      ]
+    },
+    {
+      "id": "concept.ego_reference.telar",
+      "kind": "concept",
+      "label": "Ego como referencia ontológica",
+      "summary": "Eje o posición desde la cual el sujeto se localiza, vive, decide y apropia sus actos; condición y no contenido moral.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch1.ego_reference",
+        "ev.telar.ch2.identity_ego"
+      ]
+    },
+    {
+      "id": "formulation.ego_distinctions.telar",
+      "kind": "formulation",
+      "label": "Ego, egolatría y egocentrismo",
+      "summary": "Distingue conciencia de sí como referencia, culto rígido a la imagen de sí y reducción relacional de los otros a satélites propios.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch1.ego_reference"
+      ]
+    },
+    {
+      "id": "concept.ego_resistance.telar",
+      "kind": "concept",
+      "label": "Ego como resistencia a la absorción",
+      "summary": "Capacidad de mantenerse en sí y distinguir elección de absorción sin convertir el eje en fortaleza contra el mundo.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch1.resistance_being"
+      ]
+    },
+    {
+      "id": "formulation.being_condition.telar",
+      "kind": "formulation",
+      "label": "Ser como condición silenciosa",
+      "summary": "El hecho de estar siendo antecede a identidad, emoción, nombre y pregunta y hace posible que alguien pueda decir yo.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch1.resistance_being",
+        "ev.telar.ch2.being_problem"
+      ]
+    },
+    {
+      "id": "concept.ego_permanence.telar",
+      "kind": "concept",
+      "label": "Ego como permanencia estructural",
+      "summary": "Principio formal de coherencia que permite reconocer como propios los cambios de identidad y persistir como el mismo sin permanecer igual.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch2.permanence",
+        "ev.telar.ch2.identity_ego"
+      ]
+    },
+    {
+      "id": "concept.identity_content.telar",
+      "kind": "concept",
+      "label": "Identidad como contenido histórico del ego",
+      "summary": "Suma cambiante de experiencias, decisiones, vínculos, heridas y logros organizada por la posición persistente del ego.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch2.identity_ego"
+      ]
+    },
+    {
+      "id": "formulation.argos.telar",
+      "kind": "formulation",
+      "label": "Argos como continuidad del sujeto",
+      "summary": "La nave de piezas sustituidas ilustra que la continuidad reconocible de historia y trayectoria, no la materia, sostiene la identidad del mismo sujeto.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch2.argos_emotion"
+      ]
+    },
+    {
+      "id": "concept.emotional_map.telar",
+      "kind": "concept",
+      "label": "Emociones como mapa del ego",
+      "summary": "Resonancias del ego en contacto con el mundo que informan posición y patrones sin constituir esencia ni instrucción moral.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch2.argos_emotion"
+      ]
+    },
+    {
+      "id": "formulation.melancholy_knowledge.telar",
+      "kind": "formulation",
+      "label": "Melancolía como modo de conocimiento",
+      "summary": "Propone que la melancolía intensifica la pregunta por el yo mientras la alegría tiende a cerrarla, sin jerarquizarlas moralmente.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch2.melancholy"
+      ]
+    },
+    {
+      "id": "concept.ego_mediation.telar",
+      "kind": "concept",
+      "label": "Ego como mediación sujeto-mundo",
+      "summary": "Condición que posibilita contacto y colisión sin absorción del sujeto por el mundo ni reducción del mundo a proyección subjetiva.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch2.mediation"
+      ]
+    },
+    {
+      "id": "formulation.being_before_thought.telar",
+      "kind": "formulation",
+      "label": "Ser anterior al pensamiento",
+      "summary": "Reordena el cogito: la existencia corporal y el estar situado son condición ontológica del pensamiento, no su resultado.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch2.being_thought"
+      ]
+    },
+    {
+      "id": "concept.otherness.telar",
+      "kind": "concept",
+      "label": "Otredad irreductible",
+      "summary": "Diferencia de trayectorias que no amenaza ni puede reducirse a categoría, espejo, recurso o copia del propio ego.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch3.otherness_equality",
+        "ev.telar.ch10.knowing_other"
+      ]
+    },
+    {
+      "id": "concept.ontological_equality.telar",
+      "kind": "concept",
+      "label": "Igualdad ontológica en El telar",
+      "summary": "Igual valor fundado en compartir la capacidad de ser, actuar, decidir y transformarse, pese a diferencias de identidad y circunstancia.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch3.otherness_equality"
+      ]
+    },
+    {
+      "id": "concept.ego_measure.telar",
+      "kind": "concept",
+      "label": "Ego convertido en medida",
+      "summary": "Deformación por la cual el eje propio se absolutiza como dogma y convierte la diferencia ajena en desvío o amenaza.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch3.ego_conflict"
+      ]
+    },
+    {
+      "id": "concept.eternal_return.telar",
+      "kind": "concept",
+      "label": "Eterno retorno como criterio existencial",
+      "summary": "Prueba de autenticidad y coherencia que pregunta si el sujeto sostendría indefinidamente el mismo acto, con independencia de su resultado.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch3.eternal_return",
+        "ev.telar.epilogue.glossary_second"
+      ]
+    },
+    {
+      "id": "formulation.relational_closure.telar",
+      "kind": "formulation",
+      "label": "Cierre relacional por coherencia",
+      "summary": "Exige agotar lo propio por decir o hacer sin convertir reconciliación o reacción ajena en objetivo controlable.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch3.relational_pending"
+      ]
+    },
+    {
+      "id": "formulation.justice_retribution.telar",
+      "kind": "formulation",
+      "label": "Justicia como reconocimiento y retribución como daño",
+      "summary": "Distingue la actitud que conserva al responsable como sujeto de la devolución que lo reduce a función del agravio.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch3.justice_retribution"
+      ]
+    },
+    {
+      "id": "concept.memento_mori.telar",
+      "kind": "concept",
+      "label": "Memento mori como discernimiento",
+      "summary": "La finitud y la irreversibilidad de cada acto ordenan lo importante y exigen coherencia presente.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch3.finitude_synthesis"
+      ]
+    },
+    {
+      "id": "concept.relational_coherence.telar",
+      "kind": "concept",
+      "label": "Coherencia relacional",
+      "summary": "Ética de vínculos que sostiene diferencia, reciprocidad de responsabilidad y correspondencia entre pensamiento, palabra y acto.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch3.finitude_synthesis"
+      ]
+    },
+    {
+      "id": "concept.fiscal_contract.telar",
+      "kind": "concept",
+      "label": "Contrato fiscal en El telar",
+      "summary": "Intercambio en el que el ciudadano cede recursos, obediencia, legitimidad y libertad inmediata, y el Estado contrae deudas formal, material y ontológica.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch4.social_contract",
+        "ev.telar.ch4.fiscal_dimensions",
+        "ev.telar.epilogue.glossary_first"
+      ]
+    },
+    {
+      "id": "formulation.rights_conditions.telar",
+      "kind": "formulation",
+      "label": "Derechos como condiciones políticas del ego",
+      "summary": "El Estado no otorga derechos sino que reconoce y debe hacer efectivas las condiciones de posibilidad de la autodeterminación ciudadana.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch4.rights"
+      ]
+    },
+    {
+      "id": "formulation.state_breach.telar",
+      "kind": "formulation",
+      "label": "Incumplimiento estatal como ruptura contractual",
+      "summary": "La carencia de educación, seguridad, salud o igualdad legal contrae futuros y produce clausuras acumulativas que la obra declara daño no prescriptible.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch4.state_breach"
+      ]
+    },
+    {
+      "id": "concept.dignity.telar",
+      "kind": "concept",
+      "label": "Dignidad ontológica del sujeto",
+      "summary": "Condición incondicional de ser sujeto y origen de actos, fundamento precontractual de derechos y obligaciones y límite absoluto del poder.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch4.dignity",
+        "ev.telar.epilogue.glossary_first"
+      ]
+    },
+    {
+      "id": "formulation.law_morality.telar",
+      "kind": "formulation",
+      "label": "Ley que juzga actos y moral que juzga desde perspectiva",
+      "summary": "Separa una ley pública, general y consensuada que evalúa actos de una moral histórica y perspectival que puede esencializar personas.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch4.law_morality",
+        "ev.telar.ch4.ego_law"
+      ]
+    },
+    {
+      "id": "formulation.banality.telar",
+      "kind": "formulation",
+      "label": "Banalidad del mal como renuncia a autodeterminarse",
+      "summary": "Lee la obediencia burocrática sin juicio como delegación de autoría y condición de posibilidad de violencia sistémica.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch4.banality"
+      ]
+    },
+    {
+      "id": "concept.expanded_judgment.telar",
+      "kind": "concept",
+      "label": "Mentalidad ampliada en El telar",
+      "summary": "Juicio que mantiene la posición propia mientras considera otras perspectivas para no convertirla en dictado universal.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch4.expanded_judgment",
+        "ev.telar.epilogue.glossary_second"
+      ]
+    },
+    {
+      "id": "concept.conflict_discomfort.telar",
+      "kind": "concept",
+      "label": "Conflicto como incomodidad estructural",
+      "summary": "Fricción previa al enfrentamiento que surge inevitablemente del contacto entre diferencias y vuelve visibles límites e historia.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch5.conflict"
+      ]
+    },
+    {
+      "id": "formulation.reaction_responsibility.telar",
+      "kind": "formulation",
+      "label": "Responsabilidad por la reacción",
+      "summary": "El acto ajeno no pertenece al receptor; la obra atribuye al sujeto el significado y la respuesta construidos desde su ego, aunque la emoción llegue sin elección.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch5.reaction"
+      ]
+    },
+    {
+      "id": "concept.ontological_limit.telar",
+      "kind": "concept",
+      "label": "Límite como afirmación ontológica",
+      "summary": "Acto que define el territorio y la posición propia sin castigar, dominar ni programar la conducta del otro.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch5.limit",
+        "ev.telar.epilogue.glossary_second"
+      ]
+    },
+    {
+      "id": "concept.non_annulment_ethics.telar",
+      "kind": "concept",
+      "label": "Ética del no-anular",
+      "summary": "Reconocimiento de que la libertad propia encuentra como límite ontológico y material a otro sujeto igualmente digno y situado.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch5.other_limit"
+      ]
+    },
+    {
+      "id": "concept.ethical_conflict_resolution.telar",
+      "kind": "concept",
+      "label": "Resolución ética como coexistencia",
+      "summary": "El conflicto queda resuelto cuando ambos polos permanecen sujetos, no necesariamente de acuerdo ni indemnes.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch5.ethical_resolution"
+      ]
+    },
+    {
+      "id": "formulation.false_resolutions.telar",
+      "kind": "formulation",
+      "label": "Anulación y evasión como falsos cierres",
+      "summary": "Distingue victoria que anula al otro, rendición que anula al yo y performance evasiva que impide el encuentro.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch5.false_resolutions"
+      ]
+    },
+    {
+      "id": "formulation.conflict_attitudes.telar",
+      "kind": "formulation",
+      "label": "Cuatro actitudes para habitar el conflicto",
+      "summary": "Diálogo, reconocimiento, responsabilidad delimitada y límite hacen posible coexistencia sin prometer armonía.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch5.attitudes",
+        "ev.telar.ch5.frontier"
+      ]
+    },
+    {
+      "id": "concept.respect.telar",
+      "kind": "concept",
+      "label": "Respeto como reconocimiento ontológico",
+      "summary": "Reconocimiento no sentimental ni meritocrático del otro como sujeto con ego, historia, dignidad y territorio propios.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch6.respect"
+      ]
+    },
+    {
+      "id": "concept.self_respect.telar",
+      "kind": "concept",
+      "label": "Autorrespeto como sostener el límite",
+      "summary": "No ceder la propia posición bajo presión y evitar que la tolerancia silenciosa normalice el irrespeto.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch6.self_respect",
+        "ev.telar.ch6.self_start"
+      ]
+    },
+    {
+      "id": "formulation.respect_agency.telar",
+      "kind": "formulation",
+      "label": "Respeto como gobierno de sí",
+      "summary": "La agencia propia alcanza lo que se permite, nombra o deja de sostener, no el control ni la moralización del otro.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch6.agency",
+        "ev.telar.ch6.self_start"
+      ]
+    },
+    {
+      "id": "formulation.relationship_nonuse.telar",
+      "kind": "formulation",
+      "label": "Relación frente a instrumentalización",
+      "summary": "Donde el otro se reduce a recurso emocional, laboral o simbólico hay uso y proyección, no encuentro entre sujetos.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch6.other_and_use",
+        "ev.telar.ch6.conflict"
+      ]
+    },
+    {
+      "id": "formulation.law_as_respect.telar",
+      "kind": "formulation",
+      "label": "Ley como extensión estructural del respeto",
+      "summary": "La norma común sostiene al sujeto cuando la asimetría de poder vuelve insuficiente el límite interpersonal.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch6.law"
+      ]
+    },
+    {
+      "id": "concept.fear_submission.telar",
+      "kind": "concept",
+      "label": "Sometimiento por miedo",
+      "summary": "Preferencia por un orden o vínculo dañino pero predecible frente a la incertidumbre, hasta normalizar la cesión de voz y territorio.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch7.hobbes",
+        "ev.telar.ch7.submission"
+      ]
+    },
+    {
+      "id": "formulation.forgiveness_modes.telar",
+      "kind": "formulation",
+      "label": "Dos modos del perdón en El telar",
+      "summary": "Contrapone perdón por miedo que preserva sujeción y perdón soberano dirigido a retirar al daño su función organizadora.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch7.forgiveness_types",
+        "ev.telar.ch7.release"
+      ]
+    },
+    {
+      "id": "concept.forgiveness_release.telar",
+      "kind": "concept",
+      "label": "Perdón como soltar sin absolver",
+      "summary": "Acto interno que no borra el daño, la memoria, el límite ni las consecuencias, y no obliga a reconciliar.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch7.release",
+        "ev.telar.ch7.memory"
+      ]
+    },
+    {
+      "id": "formulation.restorative_forgiveness.telar",
+      "kind": "formulation",
+      "label": "Perdón, justicia y restauración",
+      "summary": "En el plano político exige reconocimiento del daño, responsabilidad y seguridad; en la síntesis también se afirma que el perdón precede a la justicia.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch7.political",
+        "ev.telar.ch7.synthesis"
+      ]
+    },
+    {
+      "id": "concept.love_catastrophe.telar",
+      "kind": "concept",
+      "label": "Amor como catástrofe necesaria",
+      "summary": "Exposición a la contingencia de otro incontrolable que rompe la ilusión de autosuficiencia sin exigir fusión del ego.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch8.scope_danger",
+        "ev.telar.ch8.catastrophe"
+      ]
+    },
+    {
+      "id": "concept.affective_selfdetermination.telar",
+      "kind": "concept",
+      "label": "Autodeterminación afectiva",
+      "summary": "Claridad para amar al otro real con lo que se es y reconocer incompatibilidades entre lo que puede darse y lo que se necesita.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch8.idealization",
+        "ev.telar.ch8.capacity_selflove"
+      ]
+    },
+    {
+      "id": "formulation.self_love.telar",
+      "kind": "formulation",
+      "label": "Amor propio como capacidad de soportarse",
+      "summary": "Hacerse cargo de fragilidad, error y contradicción sin inflación ni delegar al otro el sostén del ego.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch8.capacity_selflove",
+        "ev.telar.ch8.begging_domestication"
+      ]
+    },
+    {
+      "id": "concept.domestication.telar",
+      "kind": "concept",
+      "label": "Domesticación como vínculo",
+      "summary": "Proceso por el cual dos sujetos se vuelven únicos, cargan el mundo de referencias mutuas y aceptan vulnerabilidad ante la pérdida.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch8.begging_domestication",
+        "ev.telar.epilogue.glossary_second"
+      ]
+    },
+    {
+      "id": "formulation.love_modification.telar",
+      "kind": "formulation",
+      "label": "Amor como modificación del ego",
+      "summary": "El vínculo incorpora al otro al esquema desde el que se percibe y actúa; la separación duele como pérdida de algo apropiado.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch8.modification_separation"
+      ]
+    },
+    {
+      "id": "formulation.separation.telar",
+      "kind": "formulation",
+      "label": "Separación como reintegración",
+      "summary": "Rehabitarse integrando la modificación y el duelo sin borrar el vínculo ni dejarlo gobernar el presente.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch8.modification_separation",
+        "ev.telar.ch8.reintegration"
+      ]
+    },
+    {
+      "id": "formulation.love_act.telar",
+      "kind": "formulation",
+      "label": "Amor como acto renovado",
+      "summary": "Orientación responsable hacia un otro imperfecto que puede persistir cuando cambia el estado afectivo, sin cancelar límites.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch8.act_imperfection",
+        "ev.telar.ch8.synthesis"
+      ]
+    },
+    {
+      "id": "concept.existential_anguish.telar",
+      "kind": "concept",
+      "label": "Angustia existencial en El telar",
+      "summary": "Vértigo sin objeto producido por la posibilidad y por saberse origen de una decisión que ninguna instancia exterior tomará.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch9.anguish_fear",
+        "ev.telar.epilogue.glossary_first"
+      ]
+    },
+    {
+      "id": "formulation.freedom_response.telar",
+      "kind": "formulation",
+      "label": "Libertad como responsabilidad y respuesta",
+      "summary": "La libertad genuina no consiste solo en disponer de opciones sino en asumir autoría y consecuencias de lo elegido.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch9.price_neutrality",
+        "ev.telar.ch9.freedom_responsibility"
+      ]
+    },
+    {
+      "id": "formulation.responsibility_remainder.telar",
+      "kind": "formulation",
+      "label": "Resto propio bajo condicionamiento",
+      "summary": "Aun bajo daños y asimetrías, la obra postula siempre un resto de decisión propio y rechaza que el entorno agote la explicación.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch9.no_blame"
+      ]
+    },
+    {
+      "id": "formulation.limit_autobiography.telar",
+      "kind": "formulation",
+      "label": "Límite como autobiografía",
+      "summary": "Cada sí y no sostenido deposita autoría irreversible en la trayectoria real del sujeto, frente a una mera cronología de acontecimientos.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch9.autobiography_evasions"
+      ]
+    },
+    {
+      "id": "formulation.anguish_evasions.telar",
+      "kind": "formulation",
+      "label": "Estrategias de evasión de la angustia",
+      "summary": "Victimismo, fatalismo, delegación y norma ciega niegan sin eliminar la libertad y dejan la capacidad de autodeterminación sin ejercicio.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch9.autobiography_evasions"
+      ]
+    },
+    {
+      "id": "concept.false_ego.telar",
+      "kind": "concept",
+      "label": "Falso ego como referencia externalizada",
+      "summary": "Imagen sostenida por aprobación ajena que sustituye la posición interna y evade la angustia de la autoría.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch9.false_ego",
+        "ev.telar.ch9.character_distinctions",
+        "ev.telar.epilogue.glossary_second"
+      ]
+    },
+    {
+      "id": "formulation.achilles.telar",
+      "kind": "formulation",
+      "label": "Aquiles como falso ego",
+      "summary": "Interpreta kleos, muerte y talón como hipoteca de la vida propia al relato futuro y como supervivencia mítica de la falla que la imagen ocultaba.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch9.achilles"
+      ]
+    },
+    {
+      "id": "formulation.odysseus.telar",
+      "kind": "formulation",
+      "label": "Odiseo como elección de lo propio",
+      "summary": "Lee el rechazo de Calipso y el retorno a Ítaca como preferencia de mortalidad e identidad propias sobre inmortalidad o gloria ajenas.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch9.odysseus_egolatry"
+      ]
+    },
+    {
+      "id": "concept.authentic_ego.telar",
+      "kind": "concept",
+      "label": "Ego auténtico constituido en la angustia",
+      "summary": "Sujeto que sostiene posibilidad, fracaso y falta de aprobación, se toma como referencia y responde por sus actos.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch9.character_distinctions",
+        "ev.telar.ch9.authentic_ego",
+        "ev.telar.ch9.synthesis"
+      ]
+    },
+    {
+      "id": "formulation.cave_selfknowledge.telar",
+      "kind": "formulation",
+      "label": "Caverna como desconocimiento de sí",
+      "summary": "Relee las sombras platónicas como roles, narrativas, deseos y automatismos propios no examinados, y el giro hacia el fuego como autoconocimiento.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch10.cave",
+        "ev.telar.ch10.enter_self"
+      ]
+    },
+    {
+      "id": "formulation.experience_understanding.telar",
+      "kind": "formulation",
+      "label": "Experiencia como acceso no exhaustivo",
+      "summary": "La experiencia propia aporta textura para comprender sin exigir reproducir el daño ni autorizar equivalencia entre vivencias.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch10.experience"
+      ]
+    },
+    {
+      "id": "concept.ontological_empathy.telar",
+      "kind": "concept",
+      "label": "Empatía ontológica",
+      "summary": "Comprensión analógica del otro fundada en reconocer la propia vulnerabilidad, no virtud sentimental ni acceso directo a experiencia ajena.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch10.empathy"
+      ]
+    },
+    {
+      "id": "formulation.nonviolence.telar",
+      "kind": "formulation",
+      "label": "No violencia como consecuencia de la autodeterminación",
+      "summary": "Afirma que reconocer la causalidad y dignidad propias obliga lógicamente a reconocer las ajenas y vuelve incoherente reducir al otro a objeto.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch10.nonviolence"
+      ]
+    },
+    {
+      "id": "formulation.pain_boundary.telar",
+      "kind": "formulation",
+      "label": "Dolor elaborado como frontera ética",
+      "summary": "Convierte experiencia examinada del daño en conocimiento de lo que no se quiere producir, frente a rumiación o reproducción del ciclo.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch10.pain"
+      ]
+    },
+    {
+      "id": "formulation.knowing_other.telar",
+      "kind": "formulation",
+      "label": "Conocer al otro como incognoscible en totalidad",
+      "summary": "El autoconocimiento calibra el filtro propio y permite reconocer una interioridad ajena irreductible sin invadirla.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch10.knowing_other",
+        "ev.telar.ch10.closure"
+      ]
+    },
+    {
+      "id": "formulation.practice.telar",
+      "kind": "formulation",
+      "label": "Autodeterminación como práctica no transferible",
+      "summary": "El libro puede ofrecer preguntas y conceptos, pero el lector debe convertirlos en examen, límite y acción propios.",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.epilogue.practice"
+      ]
     }
   ],
   "relations": [
@@ -12616,6 +14326,879 @@
         "ev.mci.rstar_validity"
       ],
       "rationale": "Máscaras declara que daños colectivos difusos no pueden imputarse a egos individuales; la metrología R* distribuye responsabilidad entre nodos de redes causales bajo supuestos formales."
+    },
+    {
+      "id": "rel.ego_reference_telar.condition_selfdetermination",
+      "from": "concept.ego_reference.telar",
+      "to": "concept.autodetermination.telar",
+      "type": "condition_of",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch1.ego_reference",
+        "ev.telar.ch2.mediation"
+      ]
+    },
+    {
+      "id": "rel.selfdetermination_telar.produces_identity",
+      "from": "concept.autodetermination.telar",
+      "to": "formulation.identity_process.telar",
+      "type": "produces",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.presentation.identity"
+      ]
+    },
+    {
+      "id": "rel.anesthesia_telar.obstructs_listening",
+      "from": "concept.existential_anesthesia.telar",
+      "to": "concept.indirect_listening.telar",
+      "type": "obstructs",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch1.anesthesia",
+        "ev.telar.ch1.listening"
+      ]
+    },
+    {
+      "id": "rel.listening_telar.enables_ego_reference",
+      "from": "concept.indirect_listening.telar",
+      "to": "concept.ego_reference.telar",
+      "type": "enables",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch1.listening"
+      ]
+    },
+    {
+      "id": "rel.ego_reference_telar.distinguished_egolatry",
+      "from": "concept.ego_reference.telar",
+      "to": "concept.ego_measure.telar",
+      "type": "distinguished_from",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch1.ego_reference",
+        "ev.telar.ch3.ego_conflict"
+      ]
+    },
+    {
+      "id": "rel.ego_resistance_telar.condition_contact",
+      "from": "concept.ego_resistance.telar",
+      "to": "concept.ego_mediation.telar",
+      "type": "condition_of",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch1.resistance_being",
+        "ev.telar.ch2.mediation"
+      ]
+    },
+    {
+      "id": "rel.being_telar.condition_ego",
+      "from": "formulation.being_condition.telar",
+      "to": "concept.ego_reference.telar",
+      "type": "condition_of",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch1.resistance_being"
+      ]
+    },
+    {
+      "id": "rel.identity_content_telar.distinguished_ego",
+      "from": "concept.identity_content.telar",
+      "to": "concept.ego_permanence.telar",
+      "type": "distinguished_from",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch2.identity_ego"
+      ]
+    },
+    {
+      "id": "rel.ego_permanence_telar.organizes_identity",
+      "from": "concept.ego_permanence.telar",
+      "to": "concept.identity_content.telar",
+      "type": "organizes",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch2.identity_ego"
+      ]
+    },
+    {
+      "id": "rel.argos_telar.case_permanence",
+      "from": "formulation.argos.telar",
+      "to": "concept.ego_permanence.telar",
+      "type": "case_of",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch2.argos_emotion"
+      ]
+    },
+    {
+      "id": "rel.emotion_telar.maps_ego",
+      "from": "concept.emotional_map.telar",
+      "to": "concept.ego_reference.telar",
+      "type": "discloses",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch2.argos_emotion",
+        "ev.telar.ch2.melancholy"
+      ]
+    },
+    {
+      "id": "rel.melancholy_telar.case_emotional_map",
+      "from": "formulation.melancholy_knowledge.telar",
+      "to": "concept.emotional_map.telar",
+      "type": "case_of",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch2.melancholy"
+      ]
+    },
+    {
+      "id": "rel.ego_mediation_telar.produces_selfdetermination",
+      "from": "concept.ego_mediation.telar",
+      "to": "concept.autodetermination.telar",
+      "type": "condition_of",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch2.mediation"
+      ]
+    },
+    {
+      "id": "rel.being_before_thought_telar.refines_condition",
+      "from": "formulation.being_before_thought.telar",
+      "to": "formulation.being_condition.telar",
+      "type": "refines",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch2.being_thought"
+      ]
+    },
+    {
+      "id": "rel.otherness_telar.condition_encounter",
+      "from": "concept.otherness.telar",
+      "to": "concept.relational_coherence.telar",
+      "type": "condition_of",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch3.otherness_equality",
+        "ev.telar.ch3.finitude_synthesis"
+      ]
+    },
+    {
+      "id": "rel.equality_telar.grounded_subject_capacity",
+      "from": "concept.ontological_equality.telar",
+      "to": "concept.autodetermination.telar",
+      "type": "presupposes",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch3.otherness_equality"
+      ]
+    },
+    {
+      "id": "rel.ego_measure_telar.produces_conflict",
+      "from": "concept.ego_measure.telar",
+      "to": "concept.conflict_discomfort.telar",
+      "type": "produces",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch3.ego_conflict"
+      ]
+    },
+    {
+      "id": "rel.eternal_return_telar.tests_coherence",
+      "from": "concept.eternal_return.telar",
+      "to": "concept.relational_coherence.telar",
+      "type": "operationalizes",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch3.eternal_return",
+        "ev.telar.ch3.relational_pending"
+      ]
+    },
+    {
+      "id": "rel.memento_telar.tests_coherence",
+      "from": "concept.memento_mori.telar",
+      "to": "concept.relational_coherence.telar",
+      "type": "operationalizes",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch3.finitude_synthesis"
+      ]
+    },
+    {
+      "id": "rel.justice_telar.requires_otherness",
+      "from": "formulation.justice_retribution.telar",
+      "to": "concept.otherness.telar",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch3.justice_retribution"
+      ]
+    },
+    {
+      "id": "rel.fiscal_contract_telar.requires_subject",
+      "from": "concept.fiscal_contract.telar",
+      "to": "concept.autodetermination.telar",
+      "type": "presupposes",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch4.social_contract",
+        "ev.telar.ch4.synthesis"
+      ]
+    },
+    {
+      "id": "rel.dignity_telar.condition_fiscal_contract",
+      "from": "concept.dignity.telar",
+      "to": "concept.fiscal_contract.telar",
+      "type": "condition_of",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch4.dignity",
+        "ev.telar.ch4.synthesis"
+      ]
+    },
+    {
+      "id": "rel.rights_telar.apply_dignity",
+      "from": "formulation.rights_conditions.telar",
+      "to": "concept.dignity.telar",
+      "type": "applies",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch4.rights",
+        "ev.telar.ch4.dignity"
+      ]
+    },
+    {
+      "id": "rel.state_breach_telar.violates_contract",
+      "from": "formulation.state_breach.telar",
+      "to": "concept.fiscal_contract.telar",
+      "type": "violates",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch4.state_breach"
+      ]
+    },
+    {
+      "id": "rel.law_morality_telar.protects_dignity",
+      "from": "formulation.law_morality.telar",
+      "to": "concept.dignity.telar",
+      "type": "applies",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch4.law_morality"
+      ]
+    },
+    {
+      "id": "rel.expanded_judgment_telar.limits_ego_measure",
+      "from": "concept.expanded_judgment.telar",
+      "to": "concept.ego_measure.telar",
+      "type": "limits",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch4.ego_law",
+        "ev.telar.ch4.expanded_judgment"
+      ]
+    },
+    {
+      "id": "rel.banality_telar.negates_selfdetermination",
+      "from": "formulation.banality.telar",
+      "to": "concept.autodetermination.telar",
+      "type": "negates",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch4.banality"
+      ]
+    },
+    {
+      "id": "rel.conflict_telar.discloses_limit",
+      "from": "concept.conflict_discomfort.telar",
+      "to": "concept.ontological_limit.telar",
+      "type": "discloses",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch5.conflict",
+        "ev.telar.ch5.limit"
+      ]
+    },
+    {
+      "id": "rel.reaction_telar.applies_selfdetermination",
+      "from": "formulation.reaction_responsibility.telar",
+      "to": "concept.autodetermination.telar",
+      "type": "applies",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch5.reaction"
+      ]
+    },
+    {
+      "id": "rel.limit_telar.expresses_ego",
+      "from": "concept.ontological_limit.telar",
+      "to": "concept.ego_reference.telar",
+      "type": "expresses",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch5.limit"
+      ]
+    },
+    {
+      "id": "rel.non_annulment_telar.requires_otherness",
+      "from": "concept.non_annulment_ethics.telar",
+      "to": "concept.otherness.telar",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch5.other_limit"
+      ]
+    },
+    {
+      "id": "rel.ethical_resolution_telar.applies_non_annulment",
+      "from": "concept.ethical_conflict_resolution.telar",
+      "to": "concept.non_annulment_ethics.telar",
+      "type": "applies",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch5.ethical_resolution"
+      ]
+    },
+    {
+      "id": "rel.false_resolutions_telar.negate_resolution",
+      "from": "formulation.false_resolutions.telar",
+      "to": "concept.ethical_conflict_resolution.telar",
+      "type": "distinguished_from",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch5.false_resolutions"
+      ]
+    },
+    {
+      "id": "rel.conflict_attitudes_telar.enable_resolution",
+      "from": "formulation.conflict_attitudes.telar",
+      "to": "concept.ethical_conflict_resolution.telar",
+      "type": "enables",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch5.attitudes"
+      ]
+    },
+    {
+      "id": "rel.respect_telar.recognizes_dignity",
+      "from": "concept.respect.telar",
+      "to": "concept.dignity.telar",
+      "type": "recognizes",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch6.respect"
+      ]
+    },
+    {
+      "id": "rel.self_respect_telar.sustains_limit",
+      "from": "concept.self_respect.telar",
+      "to": "concept.ontological_limit.telar",
+      "type": "sustains",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch6.self_respect"
+      ]
+    },
+    {
+      "id": "rel.respect_agency_telar.applies_selfdetermination",
+      "from": "formulation.respect_agency.telar",
+      "to": "concept.autodetermination.telar",
+      "type": "applies",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch6.agency"
+      ]
+    },
+    {
+      "id": "rel.nonuse_telar.requires_respect",
+      "from": "formulation.relationship_nonuse.telar",
+      "to": "concept.respect.telar",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch6.other_and_use"
+      ]
+    },
+    {
+      "id": "rel.law_respect_telar.extends_respect",
+      "from": "formulation.law_as_respect.telar",
+      "to": "concept.respect.telar",
+      "type": "extends",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch6.law"
+      ]
+    },
+    {
+      "id": "rel.fear_submission_telar.obstructs_selfrespect",
+      "from": "concept.fear_submission.telar",
+      "to": "concept.self_respect.telar",
+      "type": "obstructs",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch7.submission"
+      ]
+    },
+    {
+      "id": "rel.forgiveness_modes_telar.responds_fear",
+      "from": "formulation.forgiveness_modes.telar",
+      "to": "concept.fear_submission.telar",
+      "type": "responds_to",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch7.forgiveness_types"
+      ]
+    },
+    {
+      "id": "rel.forgiveness_release_telar.applies_selfdetermination",
+      "from": "concept.forgiveness_release.telar",
+      "to": "concept.autodetermination.telar",
+      "type": "applies",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch7.release"
+      ]
+    },
+    {
+      "id": "rel.forgiveness_release_telar.requires_memory",
+      "from": "concept.forgiveness_release.telar",
+      "to": "formulation.restorative_forgiveness.telar",
+      "type": "distinguished_from",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch7.memory",
+        "ev.telar.ch7.political"
+      ]
+    },
+    {
+      "id": "rel.restorative_telar.requires_justice",
+      "from": "formulation.restorative_forgiveness.telar",
+      "to": "formulation.justice_retribution.telar",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch7.political"
+      ]
+    },
+    {
+      "id": "rel.love_catastrophe_telar.requires_otherness",
+      "from": "concept.love_catastrophe.telar",
+      "to": "concept.otherness.telar",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch8.catastrophe"
+      ]
+    },
+    {
+      "id": "rel.affective_selfdetermination_telar.applies_selfdetermination",
+      "from": "concept.affective_selfdetermination.telar",
+      "to": "concept.autodetermination.telar",
+      "type": "applies",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch8.idealization"
+      ]
+    },
+    {
+      "id": "rel.self_love_telar.condition_affective",
+      "from": "formulation.self_love.telar",
+      "to": "concept.affective_selfdetermination.telar",
+      "type": "condition_of",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch8.capacity_selflove"
+      ]
+    },
+    {
+      "id": "rel.domestication_telar.modifies_ego",
+      "from": "concept.domestication.telar",
+      "to": "formulation.love_modification.telar",
+      "type": "produces",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch8.begging_domestication",
+        "ev.telar.ch8.modification_separation"
+      ]
+    },
+    {
+      "id": "rel.separation_telar.responds_modification",
+      "from": "formulation.separation.telar",
+      "to": "formulation.love_modification.telar",
+      "type": "responds_to",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch8.reintegration"
+      ]
+    },
+    {
+      "id": "rel.love_act_telar.applies_affective",
+      "from": "formulation.love_act.telar",
+      "to": "concept.affective_selfdetermination.telar",
+      "type": "applies",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch8.act_imperfection"
+      ]
+    },
+    {
+      "id": "rel.anguish_telar.discloses_freedom",
+      "from": "concept.existential_anguish.telar",
+      "to": "formulation.freedom_response.telar",
+      "type": "discloses",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch9.anguish_fear",
+        "ev.telar.ch9.freedom_responsibility"
+      ]
+    },
+    {
+      "id": "rel.freedom_response_telar.applies_selfdetermination",
+      "from": "formulation.freedom_response.telar",
+      "to": "concept.autodetermination.telar",
+      "type": "refines",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch9.freedom_responsibility"
+      ]
+    },
+    {
+      "id": "rel.responsibility_remainder_telar.grounds_freedom",
+      "from": "formulation.responsibility_remainder.telar",
+      "to": "formulation.freedom_response.telar",
+      "type": "condition_of",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch9.no_blame"
+      ]
+    },
+    {
+      "id": "rel.limit_autobiography_telar.produces_identity",
+      "from": "formulation.limit_autobiography.telar",
+      "to": "formulation.identity_process.telar",
+      "type": "produces",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch9.autobiography_evasions"
+      ]
+    },
+    {
+      "id": "rel.evasions_telar.obstruct_authentic_ego",
+      "from": "formulation.anguish_evasions.telar",
+      "to": "concept.authentic_ego.telar",
+      "type": "obstructs",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch9.autobiography_evasions",
+        "ev.telar.ch9.authentic_ego"
+      ]
+    },
+    {
+      "id": "rel.false_ego_telar.case_evasion",
+      "from": "concept.false_ego.telar",
+      "to": "formulation.anguish_evasions.telar",
+      "type": "case_of",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch9.false_ego"
+      ]
+    },
+    {
+      "id": "rel.achilles_telar.case_false_ego",
+      "from": "formulation.achilles.telar",
+      "to": "concept.false_ego.telar",
+      "type": "case_of",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch9.achilles"
+      ]
+    },
+    {
+      "id": "rel.odysseus_telar.contrasts_achilles",
+      "from": "formulation.odysseus.telar",
+      "to": "formulation.achilles.telar",
+      "type": "contrasts",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch9.odysseus_egolatry"
+      ]
+    },
+    {
+      "id": "rel.anguish_telar.constitutes_authentic_ego",
+      "from": "concept.existential_anguish.telar",
+      "to": "concept.authentic_ego.telar",
+      "type": "condition_of",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch9.authentic_ego"
+      ]
+    },
+    {
+      "id": "rel.cave_telar.obstructs_empathy",
+      "from": "formulation.cave_selfknowledge.telar",
+      "to": "concept.ontological_empathy.telar",
+      "type": "obstructs",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch10.cave",
+        "ev.telar.ch10.empathy"
+      ]
+    },
+    {
+      "id": "rel.experience_telar.condition_empathy",
+      "from": "formulation.experience_understanding.telar",
+      "to": "concept.ontological_empathy.telar",
+      "type": "condition_of",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch10.experience",
+        "ev.telar.ch10.empathy"
+      ]
+    },
+    {
+      "id": "rel.empathy_telar.supports_nonviolence",
+      "from": "concept.ontological_empathy.telar",
+      "to": "formulation.nonviolence.telar",
+      "type": "supports",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch10.empathy",
+        "ev.telar.ch10.nonviolence"
+      ]
+    },
+    {
+      "id": "rel.pain_telar.case_experience",
+      "from": "formulation.pain_boundary.telar",
+      "to": "formulation.experience_understanding.telar",
+      "type": "case_of",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch10.pain"
+      ]
+    },
+    {
+      "id": "rel.knowing_other_telar.requires_selfknowledge",
+      "from": "formulation.knowing_other.telar",
+      "to": "formulation.cave_selfknowledge.telar",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.ch10.knowing_other"
+      ]
+    },
+    {
+      "id": "rel.practice_telar.applies_selfdetermination",
+      "from": "formulation.practice.telar",
+      "to": "concept.autodetermination.telar",
+      "type": "applies",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.telar.epilogue.practice"
+      ]
+    },
+    {
+      "id": "rel.selfdetermination_telar.differs_caos_ego",
+      "from": "concept.autodetermination.telar",
+      "to": "formulation.ego.caos",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.telar.presentation.thesis",
+        "ev.caos.formula_ego"
+      ],
+      "rationale": "El telar hace del ego un polo ontológico ya disponible en la colisión que produce el acto; Caos formula el ego como resultado de φ₂ sobre el acto y de acumulación integral."
+    },
+    {
+      "id": "rel.selfdetermination_telar.reframes_aa3",
+      "from": "concept.autodetermination.telar",
+      "to": "concept.autodeterminacion_causal.aa3",
+      "type": "reframes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.telar.presentation.thesis",
+        "ev.aa3.limit.autodetermination"
+      ],
+      "rationale": "El telar condensa la autodeterminación en colisión ego-mundo y autoría de respuesta; AA-III la despliega mediante cuatro dimensiones temporales y bordes."
+    },
+    {
+      "id": "rel.identity_telar.differs_caos",
+      "from": "formulation.identity_process.telar",
+      "to": "concept.identidad_ego",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.telar.ch2.identity_ego",
+        "ev.caos.glossary_ego_identity"
+      ],
+      "rationale": "El telar convierte identidad en contenido histórico cambiante organizado por un ego estructural permanente; Caos vincula identidad con continuidad producida por la integral acumulativa del ego."
+    },
+    {
+      "id": "rel.identity_telar.differs_aa1",
+      "from": "formulation.identity_process.telar",
+      "to": "formulation.identity.aa1",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.telar.presentation.identity",
+        "ev.aa1.identity.formation"
+      ],
+      "rationale": "El telar presenta identidad como resultado de actos y contenido del ego; AA-I la formula como sesgo pre-egóico que condiciona φ₁."
+    },
+    {
+      "id": "rel.identity_telar.differs_aquiles",
+      "from": "formulation.identity_process.telar",
+      "to": "formulation.narrative_identity.aq",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.telar.ch2.identity_ego",
+        "ev.aq.return.narrative_phthia"
+      ],
+      "rationale": "El telar separa identidad-contenido de ego-estructura; Aquiles formula identidad narrativa asumible y distingue performance."
+    },
+    {
+      "id": "rel.identity_telar.differs_masks",
+      "from": "formulation.identity_process.telar",
+      "to": "formulation.identity.mask",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.telar.ch2.identity_ego",
+        "ev.mask.identity.definition"
+      ],
+      "rationale": "El telar define identidad como suma histórica organizada por ego permanente; Máscaras la define como sesgo o estructura de preferencia con velocidad propia."
+    },
+    {
+      "id": "rel.ego_telar.differs_integral",
+      "from": "concept.ego_permanence.telar",
+      "to": "concept.integral_acumulativa",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.telar.ch2.identity_ego",
+        "ev.caos.origin_integral"
+      ],
+      "rationale": "La permanencia formal del ego de El telar no explica cómo se relaciona con el ego acumulativo e irreversible de Caos, cuyo contenido y continuidad emergen de I(t)."
+    },
+    {
+      "id": "rel.ego_telar.differs_masks_inertia",
+      "from": "concept.ego_permanence.telar",
+      "to": "formulation.identity_inertia.mask",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.telar.ch2.identity_ego",
+        "ev.mask.identity.ownership_inertia"
+      ],
+      "rationale": "El telar atribuye al ego permanencia estructural; Máscaras sostiene que el ego se actualiza sin inercia con cada acto, mientras la identidad cambia lentamente."
+    },
+    {
+      "id": "rel.equality_telar.differs_aa5",
+      "from": "concept.ontological_equality.telar",
+      "to": "concept.ontological_equality.aa5",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.telar.ch3.otherness_equality",
+        "ev.aa5.rights.guarantee_equality"
+      ],
+      "rationale": "El telar funda igualdad de valor en capacidad subjetiva compartida; AA-V la inscribe en igual forma y capital ontológico del ciudadano dentro del contrato fiscal."
+    },
+    {
+      "id": "rel.fiscal_telar.reframes_aa3",
+      "from": "concept.fiscal_contract.telar",
+      "to": "concept.contrato_fiscal_aego.aa3",
+      "type": "reframes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.telar.ch4.fiscal_dimensions",
+        "ev.aa3.fiscal.contract"
+      ],
+      "rationale": "El telar presenta una deuda estatal formal, material y ontológica del ciudadano-acreedor; AA-III aplica Aego a la relación Estado-Damasén y contribuyente-Peribea."
+    },
+    {
+      "id": "rel.fiscal_telar.differs_aa4",
+      "from": "concept.fiscal_contract.telar",
+      "to": "concept.contrato_fiscal.aa4",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.telar.ch4.social_contract",
+        "ev.aa4.appendix3.sovereignty"
+      ],
+      "rationale": "El telar funda el contrato en capital cedido por el ciudadano y obligaciones estatales; AA-IV formula soberano colectivo acreedor, Estado deudor y fraude annona con otro reparto de agentes."
+    },
+    {
+      "id": "rel.fiscal_telar.elaborates_aa5",
+      "from": "concept.fiscal_contract.telar",
+      "to": "concept.fiscal_contract.aa5",
+      "type": "elaborates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.telar.ch4.fiscal_dimensions",
+        "ev.aa5.collapse.contract"
+      ],
+      "rationale": "El telar añade tres dimensiones de deuda y daño de posibilidades, pero no reproduce la partida doble ni la fórmula estatal desarrolladas en AA-V."
+    },
+    {
+      "id": "rel.forgiveness_telar.elaborates_aquiles",
+      "from": "formulation.forgiveness_modes.telar",
+      "to": "formulation.forgiveness.aq",
+      "type": "elaborates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.telar.ch7.forgiveness_types",
+        "ev.aq.forgiveness.forms"
+      ],
+      "rationale": "El telar conserva los dos perdones de Aquiles y añade memoria, justicia restaurativa y escala política, sin resolver el orden entre perdón y justicia."
+    },
+    {
+      "id": "rel.achilles_telar.reframes_aquiles",
+      "from": "formulation.achilles.telar",
+      "to": "formulation.achilles_myth.aq",
+      "type": "reframes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.telar.ch9.achilles",
+        "ev.aq.myth.structure"
+      ],
+      "rationale": "Ambas obras leen gloria, talón y Hades como imagen; El telar subsume el dilema bajo egolatría y evasión de angustia, mientras Aquiles lo articula como desplazamiento y disociación del ego."
+    },
+    {
+      "id": "rel.false_ego_telar.differs_dissociation_aquiles",
+      "from": "concept.false_ego.telar",
+      "to": "formulation.dissociation.aq",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.telar.ch9.false_ego",
+        "ev.aq.dissociation.definition"
+      ],
+      "rationale": "El telar identifica falso ego con egolatría y referencia externalizada; Aquiles denomina disociación a la separación funcional entre quien actúa y quien representa."
+    },
+    {
+      "id": "rel.responsibility_telar.differs_aa4",
+      "from": "formulation.responsibility_remainder.telar",
+      "to": "formulation.responsibility.aa4",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.telar.ch9.no_blame",
+        "ev.aa4.dolo.causal_order"
+      ],
+      "rationale": "El telar postula siempre un resto propio y una autoría existencial; AA-IV ordena imputación mediante causalidad, competencia y dolo y admite límites de posición."
+    },
+    {
+      "id": "rel.responsibility_telar.differs_masks",
+      "from": "formulation.reaction_responsibility.telar",
+      "to": "formulation.responsibility.mask",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.telar.ch5.reaction",
+        "ev.mask.imputation.causality_fraud"
+      ],
+      "rationale": "El telar localiza responsabilidad en significado y reacción del receptor; Máscaras extiende imputación causal a acto, no-acción, disociación y escalas colectivas."
     }
   ],
   "routes": [
@@ -12677,6 +15260,11 @@
           "order": 10,
           "evidence_id": "ev.mask.formulas.developed",
           "reason": "Contrasta la voluntad antepuesta a φ₁ y el ego resultante de Máscaras."
+        },
+        {
+          "order": 11,
+          "evidence_id": "ev.telar.ch2.identity_ego",
+          "reason": "Contrasta ego estructural permanente e identidad-contenido de El telar."
         }
       ],
       "must_surface_review_items": [
@@ -12687,7 +15275,10 @@
         "review.aq.ego_crosswalk",
         "review.aq.ego_ownership",
         "review.mask.formula_crosswalk",
-        "review.mask.identity_ego_inertia"
+        "review.mask.identity_ego_inertia",
+        "review.telar.selfdetermination_crosswalk",
+        "review.telar.ego_crosswalk",
+        "review.telar.identity_crosswalk"
       ]
     },
     {
@@ -12933,7 +15524,16 @@
           "order": 5,
           "evidence_id": "ev.caos.glossary_ego_identity",
           "reason": "Precisa continuidad funcional y opacidad del ego."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.telar.ch2.identity_ego",
+          "reason": "Añade la separación tardía entre ego-estructura e identidad-contenido."
         }
+      ],
+      "must_surface_review_items": [
+        "review.telar.ego_crosswalk",
+        "review.telar.identity_crosswalk"
       ]
     },
     {
@@ -13484,6 +16084,11 @@
           "order": 7,
           "evidence_id": "ev.mask.dysphoria.modes",
           "reason": "Añade la tipología posterior de disforia y disociación."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.telar.ch2.identity_ego",
+          "reason": "Contrasta identidad resultado con sesgo pre-egóico."
         }
       ],
       "must_surface_review_items": [
@@ -13493,7 +16098,9 @@
         "review.aq.identity_crosswalk",
         "review.mask.dysphoria_crosswalk",
         "review.mask.dissociation_crosswalk",
-        "review.mask.identity_ownership"
+        "review.mask.identity_ownership",
+        "review.telar.identity_crosswalk",
+        "review.telar.ego_crosswalk"
       ]
     },
     {
@@ -15269,6 +17876,11 @@
           "order": 4,
           "evidence_id": "ev.aa5.fiscal.validity",
           "reason": "Enumera elementos de validez."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.telar.ch4.fiscal_dimensions",
+          "reason": "Añade las tres dimensiones de deuda de El telar."
         }
       ],
       "must_surface_review_items": [
@@ -15276,7 +17888,10 @@
         "review.aa5.freedom_transfer",
         "review.aa5.contract_validity",
         "review.aa5.hume_crosswalk",
-        "review.aa4.fiscal_crosswalk"
+        "review.aa4.fiscal_crosswalk",
+        "review.telar.fiscal_crosswalk",
+        "review.telar.fiscal_legal_basis",
+        "review.telar.fiscal_damage"
       ]
     },
     {
@@ -15922,13 +18537,26 @@
           "order": 5,
           "evidence_id": "ev.aq.forgiveness.justice",
           "reason": "Relaciona perdón, límite y justicia."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.telar.ch7.political",
+          "reason": "Añade memoria, escala política y condición restaurativa."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.telar.ch7.synthesis",
+          "reason": "Conserva la secuencia contradictoria del cierre."
         }
       ],
       "must_surface_review_items": [
         "review.aq.hobbes_status",
         "review.aq.forgiveness_order",
         "review.aq.forgiveness_normativity",
-        "review.aq.relational_generalization"
+        "review.aq.relational_generalization",
+        "review.telar.forgiveness_order",
+        "review.telar.forgiveness_normativity",
+        "review.telar.collective_forgiveness"
       ]
     },
     {
@@ -16148,6 +18776,11 @@
           "order": 12,
           "evidence_id": "ev.mask.dysphoria.modes",
           "reason": "Añade disociación sin duelo y ego desplazado."
+        },
+        {
+          "order": 13,
+          "evidence_id": "ev.telar.ch9.achilles",
+          "reason": "Añade la relectura de Aquiles como egolatría y evasión de angustia."
         }
       ],
       "must_surface_review_items": [
@@ -16159,7 +18792,10 @@
         "review.mask.dysphoria_crosswalk",
         "review.mask.dissociation_crosswalk",
         "review.mask.identity_ego_inertia",
-        "review.mask.responsibility_crosswalk"
+        "review.mask.responsibility_crosswalk",
+        "review.telar.ego_crosswalk",
+        "review.telar.myth_sources",
+        "review.telar.responsibility_constraints"
       ]
     },
     {
@@ -16810,6 +19446,11 @@
           "order": 11,
           "evidence_id": "ev.mask.collective.oppressed_ego",
           "reason": "Introduce ego colectivo."
+        },
+        {
+          "order": 12,
+          "evidence_id": "ev.telar.ch2.identity_ego",
+          "reason": "Añade ego permanente e identidad-contenido de El telar."
         }
       ],
       "must_surface_review_items": [
@@ -16819,7 +19460,761 @@
         "review.mask.identity_ego_inertia",
         "review.mask.responsibility_crosswalk",
         "review.mask.collective_crosswalk",
-        "review.mask.equality_crosswalk"
+        "review.mask.equality_crosswalk",
+        "review.telar.selfdetermination_crosswalk",
+        "review.telar.ego_crosswalk",
+        "review.telar.identity_crosswalk",
+        "review.telar.responsibility_constraints"
+      ]
+    },
+    {
+      "id": "route.telar.scope",
+      "purpose": "Recuperar programa, método y límites declarados sin ocultar normatividad ni contradicción arquitectónica.",
+      "triggers": [
+        "alcance de El telar",
+        "método mayéutico",
+        "no terapia",
+        "estructura del libro"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.telar.prelim.program",
+          "reason": "Fija voz y lectura editorial."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.telar.presentation.thesis",
+          "reason": "Formula tesis central."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.telar.presentation.scope",
+          "reason": "Declara método y deslindes."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.telar.presentation.identity",
+          "reason": "Expone acumulación y arquitectura."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.telar.epilogue.practice",
+          "reason": "Delimita lo que el libro no hace."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.telar.scope_prescription",
+        "review.telar.architecture_consistency",
+        "review.telar.editorial_notation",
+        "review.telar.appendix_consistency"
+      ]
+    },
+    {
+      "id": "route.telar.identity_ego_being",
+      "purpose": "Seguir identidad, ego, ser, permanencia y mediación sin fusionarlos con las formulaciones heredadas.",
+      "triggers": [
+        "identidad en El telar",
+        "ego como referencia",
+        "ego permanente",
+        "ser antes de pensar",
+        "Argos"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.telar.presentation.identity",
+          "reason": "Introduce identidad resultado."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.telar.ch1.ego_reference",
+          "reason": "Fija ego como eje."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.telar.ch2.being_problem",
+          "reason": "Eleva el problema al ser."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.telar.ch2.permanence",
+          "reason": "Formula continuidad."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.telar.ch2.identity_ego",
+          "reason": "Separa contenido y estructura."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.telar.ch2.mediation",
+          "reason": "Hace del ego mediación."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.telar.ch2.being_thought",
+          "reason": "Reordena cogito y ser."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.telar.selfdetermination_crosswalk",
+        "review.telar.ego_crosswalk",
+        "review.telar.identity_crosswalk",
+        "review.telar.continuity_claims",
+        "review.telar.emotion_epistemology",
+        "review.telar.love_ego_modification"
+      ]
+    },
+    {
+      "id": "route.telar.otherness_equality",
+      "purpose": "Recuperar otredad, igualdad, eterno retorno y coherencia relacional con sus puentes normativos visibles.",
+      "triggers": [
+        "otredad",
+        "igualdad ontológica",
+        "eterno retorno",
+        "memento mori",
+        "justicia y retribución"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.telar.ch3.otherness_equality",
+          "reason": "Fija diferencia e igualdad."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.telar.ch3.ego_conflict",
+          "reason": "Localiza deformación del ego."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.telar.ch3.eternal_return",
+          "reason": "Introduce criterio existencial."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.telar.ch3.relational_pending",
+          "reason": "Lo aplica a vínculos."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.telar.ch3.justice_retribution",
+          "reason": "Separa justicia y retribución."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.telar.ch3.finitude_synthesis",
+          "reason": "Integra finitud y reciprocidad."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.telar.equality_dignity",
+        "review.telar.social_generalizations",
+        "review.telar.eternal_return_normativity",
+        "review.telar.justice_retribution",
+        "review.telar.nonviolence_inference"
+      ]
+    },
+    {
+      "id": "route.telar.fiscal_dignity",
+      "purpose": "Recuperar el contrato fiscal, sus deudas, derechos, dignidad y juicio sin asumir validez jurídica o metrológica.",
+      "triggers": [
+        "contrato fiscal de El telar",
+        "deuda estatal",
+        "dignidad",
+        "derechos",
+        "banalidad del mal",
+        "mentalidad ampliada"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.telar.ch4.social_contract",
+          "reason": "Sitúa genealogía y capital cedido."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.telar.ch4.fiscal_dimensions",
+          "reason": "Define tres dimensiones."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.telar.ch4.rights",
+          "reason": "Formula derechos-condición."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.telar.ch4.state_breach",
+          "reason": "Describe daño e incumplimiento."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.telar.ch4.dignity",
+          "reason": "Funda el contrato."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.telar.ch4.law_morality",
+          "reason": "Separa ley y moral."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.telar.ch4.banality",
+          "reason": "Aplica a obediencia."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.telar.ch4.expanded_judgment",
+          "reason": "Propone juicio ampliado."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.telar.fiscal_crosswalk",
+        "review.telar.fiscal_legal_basis",
+        "review.telar.fiscal_damage",
+        "review.telar.dignity_scope",
+        "review.telar.equality_dignity",
+        "review.telar.law_model",
+        "review.telar.arendt_attribution"
+      ]
+    },
+    {
+      "id": "route.telar.conflict_limits",
+      "purpose": "Seguir conflicto, reacción, límite y no-anulación sin desplazar responsabilidad ni convertir actitudes en protocolo universal.",
+      "triggers": [
+        "conflicto",
+        "incomodidad",
+        "límite ontológico",
+        "no anular",
+        "resolución de conflicto"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.telar.ch5.conflict",
+          "reason": "Define conflicto temprano."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.telar.ch5.reaction",
+          "reason": "Localiza reacción."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.telar.ch5.limit",
+          "reason": "Define límite."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.telar.ch5.other_limit",
+          "reason": "Introduce al otro."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.telar.ch5.ethical_resolution",
+          "reason": "Fija criterio de coexistencia."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.telar.ch5.false_resolutions",
+          "reason": "Distingue supresiones."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.telar.ch5.attitudes",
+          "reason": "Enumera actitudes."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.telar.ch5.frontier",
+          "reason": "Lleva a la ley."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.telar.conflict_reaction",
+        "review.telar.conflict_generalization",
+        "review.telar.limit_permission",
+        "review.telar.respect_agency",
+        "review.telar.nonviolence_inference"
+      ]
+    },
+    {
+      "id": "route.telar.respect",
+      "purpose": "Recuperar respeto, autorrespeto, agencia y ley sin confundir reconocimiento con capacidad material de impedir daño.",
+      "triggers": [
+        "respeto",
+        "autorrespeto",
+        "no permitir",
+        "instrumentalización",
+        "ley como respeto"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.telar.ch6.respect",
+          "reason": "Define respeto."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.telar.ch6.self_respect",
+          "reason": "Formula autorrespeto."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.telar.ch6.agency",
+          "reason": "Delimita agencia."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.telar.ch6.other_and_use",
+          "reason": "Distingue relación y uso."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.telar.ch6.conflict",
+          "reason": "Aplica al desacuerdo."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.telar.ch6.self_start",
+          "reason": "Coloca inicio en el yo."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.telar.ch6.law",
+          "reason": "Extiende a institución."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.telar.limit_permission",
+        "review.telar.respect_agency",
+        "review.telar.law_model",
+        "review.telar.scope_prescription"
+      ]
+    },
+    {
+      "id": "route.telar.fear_forgiveness",
+      "purpose": "Reconstruir miedo, sumisión, dos perdones, memoria y justicia conservando la contradicción de secuencia.",
+      "triggers": [
+        "Hobbes y perdón",
+        "perdón soberano",
+        "perdón por miedo",
+        "justicia restaurativa",
+        "memoria del daño"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.telar.ch7.hobbes",
+          "reason": "Fija analogía hobbessiana."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.telar.ch7.submission",
+          "reason": "La traslada al vínculo."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.telar.ch7.forgiveness_types",
+          "reason": "Distingue dos perdones."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.telar.ch7.release",
+          "reason": "Separa perdón y absolución."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.telar.ch7.memory",
+          "reason": "Conserva memoria y límite."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.telar.ch7.political",
+          "reason": "Escala y ordena condiciones."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.telar.ch7.synthesis",
+          "reason": "Afirma la secuencia contraria."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aq.forgiveness_order",
+        "review.aq.forgiveness_normativity",
+        "review.telar.forgiveness_order",
+        "review.telar.forgiveness_normativity",
+        "review.telar.collective_forgiveness",
+        "review.telar.arendt_attribution"
+      ]
+    },
+    {
+      "id": "route.telar.love",
+      "purpose": "Recuperar amor, autosuficiencia, capacidad afectiva, domesticación y separación sin universalizar su fenomenología.",
+      "triggers": [
+        "amor como catástrofe",
+        "autodeterminación afectiva",
+        "domesticación",
+        "amor propio",
+        "separación",
+        "amor como acto"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.telar.ch8.scope_danger",
+          "reason": "Define exposición."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.telar.ch8.catastrophe",
+          "reason": "Rompe autosuficiencia."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.telar.ch8.idealization",
+          "reason": "Distingue proyección y encuentro."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.telar.ch8.capacity_selflove",
+          "reason": "Separa capacidad y merecimiento."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.telar.ch8.begging_domestication",
+          "reason": "Introduce vínculo único."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.telar.ch8.modification_separation",
+          "reason": "Afirma modificación y dolor."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.telar.ch8.reintegration",
+          "reason": "Formula reintegración."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.telar.ch8.act_imperfection",
+          "reason": "Define amor-acto."
+        },
+        {
+          "order": 9,
+          "evidence_id": "ev.telar.ch8.synthesis",
+          "reason": "Integra con autodeterminación."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.telar.love_generalizations",
+        "review.telar.love_ego_modification",
+        "review.telar.clinical_boundary",
+        "review.telar.scope_prescription"
+      ]
+    },
+    {
+      "id": "route.telar.anguish_false_ego",
+      "purpose": "Seguir angustia, libertad, responsabilidad, evasiones y lectura de Aquiles sin patologizar ni cerrar cruces históricos.",
+      "triggers": [
+        "angustia existencial",
+        "falso ego",
+        "Aquiles",
+        "Odiseo",
+        "victimismo",
+        "libertad y responsabilidad"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.telar.ch9.anguish_fear",
+          "reason": "Distingue miedo y angustia."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.telar.ch9.price_neutrality",
+          "reason": "La vincula con posibilidad."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.telar.ch9.freedom_responsibility",
+          "reason": "Define libertad-respuesta."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.telar.ch9.no_blame",
+          "reason": "Postula resto propio."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.telar.ch9.autobiography_evasions",
+          "reason": "Enumera evasiones."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.telar.ch9.false_ego",
+          "reason": "Define referencia externalizada."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.telar.ch9.achilles",
+          "reason": "Aplica a Aquiles."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.telar.ch9.odysseus_egolatry",
+          "reason": "Contrasta con Odiseo."
+        },
+        {
+          "order": 9,
+          "evidence_id": "ev.telar.ch9.character_distinctions",
+          "reason": "Distingue egos."
+        },
+        {
+          "order": 10,
+          "evidence_id": "ev.telar.ch9.authentic_ego",
+          "reason": "Constituye ego auténtico."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.telar.clinical_boundary",
+        "review.telar.animal_agency",
+        "review.telar.responsibility_constraints",
+        "review.telar.myth_sources",
+        "review.telar.ego_crosswalk",
+        "review.telar.selfdetermination_crosswalk"
+      ]
+    },
+    {
+      "id": "route.telar.cave_empathy",
+      "purpose": "Recuperar caverna interior, experiencia, empatía y no violencia preservando el estatuto inferencial de sus puentes.",
+      "triggers": [
+        "caverna interior",
+        "empatía ontológica",
+        "dolor y conocimiento",
+        "no violencia",
+        "conocer al otro"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.telar.ch10.cave",
+          "reason": "Relee el mito."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.telar.ch10.enter_self",
+          "reason": "Sitúa el giro interior."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.telar.ch10.experience",
+          "reason": "Distingue experiencia y reproducción."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.telar.ch10.empathy",
+          "reason": "Formula empatía."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.telar.ch10.nonviolence",
+          "reason": "Deriva no violencia."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.telar.ch10.pain",
+          "reason": "Convierte dolor en frontera."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.telar.ch10.knowing_other",
+          "reason": "Fija límite epistémico."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.telar.ch10.closure",
+          "reason": "Cierra sin dominio."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.telar.empathy_claims",
+        "review.telar.nonviolence_inference",
+        "review.telar.cave_attribution",
+        "review.telar.scope_prescription"
+      ]
+    },
+    {
+      "id": "route.telar.epilogue_glossary",
+      "purpose": "Localizar cierre y definiciones consolidadas junto con problemas de segmentación y consistencia editorial.",
+      "triggers": [
+        "glosario de El telar",
+        "epílogo",
+        "definiciones finales",
+        "índice de autores"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.telar.epilogue.practice",
+          "reason": "Declara límite práctico."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.telar.epilogue.glossary_first",
+          "reason": "Consolida primera serie."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.telar.epilogue.glossary_second",
+          "reason": "Consolida segunda serie."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.telar.appendix.authors",
+          "reason": "Indexa interlocutores."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.telar.appendix.chronology",
+          "reason": "Ordena cronología."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.telar.editorial_notation",
+        "review.telar.appendix_consistency",
+        "review.telar.scope_prescription"
+      ]
+    },
+    {
+      "id": "route.telar.interlocutors",
+      "purpose": "Auditar apropiaciones de interlocutores sin atribuirles automáticamente la traducción de El telar.",
+      "triggers": [
+        "interlocutores de El telar",
+        "Arendt",
+        "Kierkegaard",
+        "Platón",
+        "Hobbes",
+        "Nietzsche"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.telar.appendix.authors",
+          "reason": "Proporciona índice autoral."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.telar.appendix.chronology",
+          "reason": "Explicita funciones declaradas."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.telar.ch4.banality",
+          "reason": "Muestra traducción arendtiana."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.telar.ch9.anguish_fear",
+          "reason": "Muestra apropiación de Kierkegaard."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.telar.ch10.cave",
+          "reason": "Muestra relectura platónica."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.telar.arendt_attribution",
+        "review.telar.myth_sources",
+        "review.telar.cave_attribution",
+        "review.telar.editorial_notation",
+        "review.telar.appendix_consistency"
+      ]
+    },
+    {
+      "id": "route.telar.crosswork_history",
+      "purpose": "Contrastar El telar con el núcleo previo de ego, identidad, contrato, responsabilidad, perdón y mitos sin adjudicar equivalencias.",
+      "triggers": [
+        "El telar y Paradigma",
+        "ego comparado",
+        "identidad comparada",
+        "contrato fiscal comparado",
+        "perdón comparado",
+        "Aquiles comparado"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.caos.formula_ego",
+          "reason": "Fija fórmula nuclear."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa1.identity.formation",
+          "reason": "Fija identidad-sesgo."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa3.fiscal.contract",
+          "reason": "Fija primera aplicación fiscal."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aa4.dolo.causal_order",
+          "reason": "Fija imputación causal."
+        },
+        {
+          "order": 5,
+            "evidence_id": "ev.aa5.collapse.contract",
+          "reason": "Fija contrato desarrollado."
+        },
+        {
+          "order": 6,
+            "evidence_id": "ev.aq.forgiveness.forms",
+          "reason": "Fija dos perdones."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.mask.identity.definition",
+          "reason": "Fija identidad-sesgo posterior."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.telar.presentation.thesis",
+          "reason": "Introduce colisión ego-mundo."
+        },
+        {
+          "order": 9,
+          "evidence_id": "ev.telar.ch2.identity_ego",
+          "reason": "Separa ego e identidad."
+        },
+        {
+          "order": 10,
+          "evidence_id": "ev.telar.ch4.fiscal_dimensions",
+          "reason": "Reformula contrato."
+        },
+        {
+          "order": 11,
+          "evidence_id": "ev.telar.ch7.political",
+          "reason": "Escala perdón."
+        },
+        {
+          "order": 12,
+          "evidence_id": "ev.telar.ch9.achilles",
+          "reason": "Relee Aquiles."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.telar.selfdetermination_crosswalk",
+        "review.telar.ego_crosswalk",
+        "review.telar.identity_crosswalk",
+        "review.telar.fiscal_crosswalk",
+        "review.telar.forgiveness_order",
+        "review.telar.collective_forgiveness",
+        "review.telar.myth_sources",
+        "review.telar.responsibility_constraints"
       ]
     }
   ],
@@ -18804,6 +22199,633 @@
         "ev.mask.identity.other",
         "ev.mask.prelim.bibliographic"
       ]
+    },
+    {
+      "id": "review.telar.scope_prescription",
+      "subject": "formulation.scope.telar",
+      "question": "¿Cómo se delimita el carácter no terapéutico y no prescriptivo frente a mandatos sobre vínculo, duelo, angustia, perdón, respeto y vida auténtica?",
+      "status": "pending_scope_and_normative_review",
+      "blocking": false,
+      "blocking_for": [
+        "therapeutic_use",
+        "normative_use",
+        "clinical_use"
+      ],
+      "evidence": [
+        "ev.telar.presentation.scope",
+        "ev.telar.ch7.synthesis",
+        "ev.telar.ch8.act_imperfection",
+        "ev.telar.ch9.synthesis"
+      ],
+      "why_not_auto_resolved": "El deslinde autoral convive con criterios universales de conducta, salud relacional y autenticidad que el texto presenta con fuerza normativa."
+    },
+    {
+      "id": "review.telar.architecture_consistency",
+      "subject": "formulation.scope.telar",
+      "question": "¿Los capítulos son voces autónomas que pueden leerse en cualquier orden o una demostración acumulativa en la que cada capítulo presupone el anterior?",
+      "status": "pending_editorial_review",
+      "blocking": false,
+      "blocking_for": [
+        "editorial_use",
+        "teaching_use"
+      ],
+      "evidence": [
+        "ev.telar.prelim.program",
+        "ev.telar.presentation.identity"
+      ],
+      "why_not_auto_resolved": "La nota inicial afirma autonomía y lectura no secuencial; la presentación declara acumulación y que cada capítulo parte de una pregunta dejada por el anterior."
+    },
+    {
+      "id": "review.telar.selfdetermination_crosswalk",
+      "subject": "concept.autodetermination.telar",
+      "question": "¿Cómo se tipa la colisión ego-mundo que produce el acto respecto de φ₁, φ₂, el acto y el ego resultante de Caos?",
+      "status": "pending_doctrinal_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "formalization_use",
+        "software_use"
+      ],
+      "evidence": [
+        "ev.telar.presentation.thesis",
+        "ev.telar.ch2.mediation",
+        "ev.caos.formula_ego"
+      ],
+      "why_not_auto_resolved": "El telar usa ego como polo previo y mediación de la colisión, mientras Caos produce ego después del acto mediante φ₂ e integral acumulativa.",
+      "related_relation": "rel.selfdetermination_telar.differs_caos_ego"
+    },
+    {
+      "id": "review.telar.ego_crosswalk",
+      "subject": "concept.ego_permanence.telar",
+      "question": "¿El ego de El telar es posición formal invariante, estructura actualizable, integral histórica o una formulación homónima que debe conservarse separada?",
+      "status": "pending_doctrinal_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "formalization_use",
+        "teaching_use"
+      ],
+      "evidence": [
+        "ev.telar.ch2.identity_ego",
+        "ev.caos.origin_integral",
+        "ev.mask.identity.ownership_inertia"
+      ],
+      "why_not_auto_resolved": "El corpus conserva ego permanente, ego integral acumulativo y ego sin inercia actualizado por cada acto; ninguna fuente adjudica su equivalencia.",
+      "related_relation": "rel.ego_telar.differs_integral"
+    },
+    {
+      "id": "review.telar.identity_crosswalk",
+      "subject": "formulation.identity_process.telar",
+      "question": "¿Cómo se relaciona identidad como resultado/contenido del ego con continuidad integral, sesgo pre-egóico, narrativa asumible y estructura de preferencia?",
+      "status": "pending_doctrinal_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "teaching_use",
+        "editorial_use"
+      ],
+      "evidence": [
+        "ev.telar.presentation.identity",
+        "ev.telar.ch2.identity_ego",
+        "ev.caos.glossary_ego_identity",
+        "ev.aa1.identity.formation",
+        "ev.aq.return.narrative_phthia",
+        "ev.mask.identity.definition"
+      ],
+      "why_not_auto_resolved": "Las obras asignan a identidad posiciones causales y funciones distintas que no pueden fusionarse por coincidencia terminológica.",
+      "related_relation": "rel.identity_telar.differs_aa1"
+    },
+    {
+      "id": "review.telar.continuity_claims",
+      "subject": "concept.ego_permanence.telar",
+      "question": "¿Qué evidencia sostiene que el cuerpo no conserva ninguna célula de la infancia y que apropiación del cambio basta para identidad numérica personal?",
+      "status": "pending_empirical_and_doctrinal_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_use",
+        "doctrinal_use",
+        "teaching_use"
+      ],
+      "evidence": [
+        "ev.telar.ch2.permanence",
+        "ev.telar.ch2.argos_emotion"
+      ],
+      "why_not_auto_resolved": "La afirmación biológica es demasiado general y la transición de reconocimiento narrativo a identidad ontológica requiere un criterio adicional."
+    },
+    {
+      "id": "review.telar.emotion_epistemology",
+      "subject": "formulation.melancholy_knowledge.telar",
+      "question": "¿Puede sostenerse que la alegría cierra la pregunta y la melancolía revela con mayor profundidad sin generalizar estados afectivos ni romantizar sufrimiento?",
+      "status": "pending_empirical_and_scope_review",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_use",
+        "empirical_use",
+        "teaching_use"
+      ],
+      "evidence": [
+        "ev.telar.ch2.melancholy"
+      ],
+      "why_not_auto_resolved": "La obra reconoce excepciones, pero asigna funciones epistemológicas generales a emociones y apoya la melancolía en una tradición discutida, no en validación empírica."
+    },
+    {
+      "id": "review.telar.equality_dignity",
+      "subject": "concept.ontological_equality.telar",
+      "question": "¿La igualdad y la dignidad descansan en capacidad efectiva, potencialidad de agencia, condición de sujeto humano o en el ser con independencia de esas capacidades?",
+      "status": "pending_doctrinal_and_normative_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "legal_use",
+        "political_use"
+      ],
+      "evidence": [
+        "ev.telar.ch3.otherness_equality",
+        "ev.telar.ch4.dignity"
+      ],
+      "why_not_auto_resolved": "El capítulo III funda valor en poder actuar, decidir y transformarse; el IV niega que la dignidad dependa del ejercicio y la restringe alternativamente a sujeto y ser humano."
+    },
+    {
+      "id": "review.telar.social_generalizations",
+      "subject": "concept.ontological_equality.telar",
+      "question": "¿Qué alcance documental tienen las tesis sobre pobreza, marginación, opciones clausuradas y ausencia de jerarquía natural?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_use",
+        "political_use",
+        "policy_use"
+      ],
+      "evidence": [
+        "ev.telar.ch3.otherness_equality",
+        "ev.telar.ch4.state_breach"
+      ],
+      "why_not_auto_resolved": "Son aplicaciones políticas y causales amplias sin modelo de identificación, umbral ni evidencia empírica dentro de la obra."
+    },
+    {
+      "id": "review.telar.eternal_return_normativity",
+      "subject": "concept.eternal_return.telar",
+      "question": "¿El eterno retorno recuperado como prueba de autenticidad es heurística personal, criterio ético o estándar de cierre exigible?",
+      "status": "pending_epistemic_and_normative_review",
+      "blocking": false,
+      "blocking_for": [
+        "normative_use",
+        "therapeutic_use",
+        "teaching_use"
+      ],
+      "evidence": [
+        "ev.telar.ch3.eternal_return",
+        "ev.telar.ch3.relational_pending"
+      ],
+      "why_not_auto_resolved": "La lectura se declara existencial, pero pasa de experimento nietzscheano a exigencia de agotar asuntos pendientes y actuar ahora."
+    },
+    {
+      "id": "review.telar.justice_retribution",
+      "subject": "formulation.justice_retribution.telar",
+      "question": "¿Puede definirse justicia como actitud de coherencia y retribución como daño recíproco sin distinguir pena, reparación, prevención y debido proceso?",
+      "status": "pending_legal_and_normative_review",
+      "blocking": false,
+      "blocking_for": [
+        "legal_use",
+        "normative_use",
+        "policy_use"
+      ],
+      "evidence": [
+        "ev.telar.ch3.justice_retribution",
+        "ev.telar.ch4.law_morality"
+      ],
+      "why_not_auto_resolved": "La oposición autoral comprime teorías y funciones jurídicas heterogéneas y no ofrece criterios institucionales de aplicación."
+    },
+    {
+      "id": "review.telar.fiscal_crosswalk",
+      "subject": "concept.fiscal_contract.telar",
+      "question": "¿El contrato fiscal de El telar refina o sustituye las configuraciones de AA-III, AA-IV y AA-V?",
+      "status": "pending_doctrinal_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "legal_use",
+        "formalization_use"
+      ],
+      "evidence": [
+        "ev.telar.ch4.social_contract",
+        "ev.telar.ch4.fiscal_dimensions",
+        "ev.aa3.fiscal.contract",
+        "ev.aa4.appendix3.sovereignty",
+        "ev.aa5.collapse.contract"
+      ],
+      "why_not_auto_resolved": "Cambian los sujetos acreedores, el capital cedido, las obligaciones, la función de Aego y el aparato de partida doble; no hay adjudicación autoral de continuidad.",
+      "related_relation": "rel.fiscal_telar.differs_aa4"
+    },
+    {
+      "id": "review.telar.fiscal_legal_basis",
+      "subject": "concept.fiscal_contract.telar",
+      "question": "¿Qué estatuto jurídico o filosófico tiene la deuda estatal y cuándo un incumplimiento de política pública rompe el contrato y legitima resistencia?",
+      "status": "pending_legal_review",
+      "blocking": false,
+      "blocking_for": [
+        "legal_use",
+        "policy_use",
+        "normative_use"
+      ],
+      "evidence": [
+        "ev.telar.ch4.social_contract",
+        "ev.telar.ch4.rights",
+        "ev.telar.ch4.state_breach"
+      ],
+      "why_not_auto_resolved": "La analogía acreedor-deudor se presenta como reformulación ontológica, pero no fija consentimiento, jurisdicción, exigibilidad, remedios ni prioridades entre obligaciones."
+    },
+    {
+      "id": "review.telar.fiscal_damage",
+      "subject": "formulation.state_breach.telar",
+      "question": "¿Cómo se identifica y mide la brecha entre lo que un ciudadano habría sido con contrato cumplido y su trayectoria efectiva, y por qué ese daño no prescribe?",
+      "status": "pending_formal_and_legal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formalization_use",
+        "metrological_use",
+        "legal_use",
+        "software_use"
+      ],
+      "evidence": [
+        "ev.telar.ch4.state_breach"
+      ],
+      "why_not_auto_resolved": "La obra llama conceptualmente cuantificable al daño, pero no define contrafactual, unidad, atribución, plazo ni procedimiento metrológico o jurídico."
+    },
+    {
+      "id": "review.telar.dignity_scope",
+      "subject": "concept.dignity.telar",
+      "question": "¿Cuál es la extensión de la dignidad ontológica si se funda unas veces en ser humano, otras en ser sujeto y otras en origen de actos?",
+      "status": "pending_doctrinal_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "legal_use",
+        "bioethical_use"
+      ],
+      "evidence": [
+        "ev.telar.ch4.dignity",
+        "ev.telar.epilogue.glossary_first"
+      ],
+      "why_not_auto_resolved": "Esas condiciones no son coextensivas sin una definición de sujeto, agencia potencial y estatuto de seres no humanos o personas con capacidades afectadas."
+    },
+    {
+      "id": "review.telar.law_model",
+      "subject": "formulation.law_morality.telar",
+      "question": "¿En qué jurisdicciones y bajo qué teoría puede afirmarse que la ley es siempre pública, general, consensuada y que juzga actos pero no personas?",
+      "status": "pending_legal_and_scope_review",
+      "blocking": false,
+      "blocking_for": [
+        "legal_use",
+        "political_use",
+        "teaching_use"
+      ],
+      "evidence": [
+        "ev.telar.ch4.law_morality",
+        "ev.telar.ch4.ego_law"
+      ],
+      "why_not_auto_resolved": "La obra convierte rasgos ideales de legalidad democrática en propiedades generales y contrapone ley y moral de modo más rígido que la práctica jurídica documentada."
+    },
+    {
+      "id": "review.telar.arendt_attribution",
+      "subject": "formulation.banality.telar",
+      "question": "¿Hasta dónde Arendt sostiene que categorizar quita responsabilidad y que el mal banal equivale a renunciar a la autodeterminación causal?",
+      "status": "pending_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "source_attribution",
+        "quotation_use",
+        "teaching_use"
+      ],
+      "evidence": [
+        "ev.telar.ch3.justice_retribution",
+        "ev.telar.ch4.dignity",
+        "ev.telar.ch4.banality"
+      ],
+      "why_not_auto_resolved": "El telar apropia y traduce a Arendt al vocabulario propio, pero varias formulaciones se presentan como consecuencias directas o citas sin deslindar reconstrucción autoral."
+    },
+    {
+      "id": "review.telar.conflict_reaction",
+      "subject": "formulation.reaction_responsibility.telar",
+      "question": "¿Qué parte del significado y de la reacción es elegida, especialmente bajo trauma, coerción, incapacidad o respuestas fisiológicas involuntarias?",
+      "status": "pending_clinical_and_causal_review",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_use",
+        "legal_use",
+        "causal_analysis_use"
+      ],
+      "evidence": [
+        "ev.telar.ch5.reaction",
+        "ev.telar.ch9.no_blame"
+      ],
+      "why_not_auto_resolved": "La obra distingue emoción no elegida de respuesta propia, pero afirma que el significado se elige y que siempre queda un resto sin operacionalizar grados de control."
+    },
+    {
+      "id": "review.telar.conflict_generalization",
+      "subject": "concept.conflict_discomfort.telar",
+      "question": "¿La profundidad de un vínculo puede medirse por sobrevivir al conflicto y la ausencia de fricción implica necesariamente superficialidad?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_use",
+        "therapeutic_use",
+        "relational_use"
+      ],
+      "evidence": [
+        "ev.telar.ch5.conflict",
+        "ev.telar.ch6.conflict"
+      ],
+      "why_not_auto_resolved": "La obra generaliza desde una lectura sociológica a vínculos personales sin métrica, tipo de conflicto ni condiciones de seguridad."
+    },
+    {
+      "id": "review.telar.limit_permission",
+      "subject": "concept.self_respect.telar",
+      "question": "¿Cuándo el silencio se interpreta como permiso sin desplazar responsabilidad del abuso hacia quien no pudo o no quiso confrontarlo?",
+      "status": "pending_causal_and_normative_review",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_use",
+        "legal_use",
+        "relational_use"
+      ],
+      "evidence": [
+        "ev.telar.ch6.self_respect",
+        "ev.telar.ch7.submission"
+      ],
+      "why_not_auto_resolved": "La obra califica la autoironía de pedagogía del abuso y afirma lectura inevitable del silencio, aunque reconoce miedo, costos y asimetrías estructurales."
+    },
+    {
+      "id": "review.telar.respect_agency",
+      "subject": "formulation.respect_agency.telar",
+      "question": "¿Qué significa ‘no permitir’ un trato cosificante cuando el sujeto carece de poder material para detenerlo o retirarse?",
+      "status": "pending_scope_and_normative_review",
+      "blocking": false,
+      "blocking_for": [
+        "political_use",
+        "clinical_use",
+        "normative_use"
+      ],
+      "evidence": [
+        "ev.telar.ch6.agency",
+        "ev.telar.ch6.self_start",
+        "ev.telar.ch6.law"
+      ],
+      "why_not_auto_resolved": "El capítulo sitúa el respeto en la postura propia y después admite que las asimetrías pueden volver imposible sostener el límite sin consecuencias desproporcionadas."
+    },
+    {
+      "id": "review.telar.forgiveness_order",
+      "subject": "formulation.restorative_forgiveness.telar",
+      "question": "¿La justicia, el reconocimiento y la seguridad preceden al perdón o el perdón precede a la justicia?",
+      "status": "pending_doctrinal_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "legal_use",
+        "therapeutic_use"
+      ],
+      "evidence": [
+        "ev.telar.ch7.political",
+        "ev.telar.ch7.synthesis",
+        "ev.aq.forgiveness.justice"
+      ],
+      "why_not_auto_resolved": "El mismo capítulo afirma ambas secuencias y hereda la contradicción ya registrada en Aquiles."
+    },
+    {
+      "id": "review.telar.forgiveness_normativity",
+      "subject": "concept.forgiveness_release.telar",
+      "question": "¿Soltar el gobierno del daño es una posibilidad autoral, una definición estipulativa o un deber general para toda víctima?",
+      "status": "pending_normative_and_clinical_review",
+      "blocking": false,
+      "blocking_for": [
+        "therapeutic_use",
+        "normative_use",
+        "clinical_use"
+      ],
+      "evidence": [
+        "ev.telar.ch7.release",
+        "ev.telar.ch7.synthesis"
+      ],
+      "why_not_auto_resolved": "El texto declara que el perdón no es absolución, pero caracteriza el no-perdón como cesión de soberanía y su liberación como necesaria, sin condiciones clínicas o temporales."
+    },
+    {
+      "id": "review.telar.collective_forgiveness",
+      "subject": "formulation.restorative_forgiveness.telar",
+      "question": "¿Qué constituye al ego colectivo que perdona y cómo se agregan memoria, soberanía, daño y voluntad sin borrar disenso interno?",
+      "status": "pending_collective_agency_review",
+      "blocking": false,
+      "blocking_for": [
+        "political_use",
+        "formalization_use",
+        "legal_use"
+      ],
+      "evidence": [
+        "ev.telar.ch7.political",
+        "ev.aa3.collective.aego",
+        "ev.aa5.state.identity_will",
+        "ev.mask.collective.oppressed_ego"
+      ],
+      "why_not_auto_resolved": "El telar traslada la soberanía del ego individual a comunidades y pueblos sin mecanismo de escala ni agente decisor."
+    },
+    {
+      "id": "review.telar.love_generalizations",
+      "subject": "concept.love_catastrophe.telar",
+      "question": "¿Qué alcance tienen las tesis de que el amor necesariamente expone, rompe autosuficiencia, incorpora al otro y hace que toda separación auténtica duela?",
+      "status": "pending_empirical_and_scope_review",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_use",
+        "empirical_use",
+        "relational_use"
+      ],
+      "evidence": [
+        "ev.telar.ch8.scope_danger",
+        "ev.telar.ch8.modification_separation",
+        "ev.telar.ch8.synthesis"
+      ],
+      "why_not_auto_resolved": "La obra presenta una fenomenología general del amor y niega amor genuino ante indiferencia o falta de modificación sin evidencia o criterios para diversidad afectiva."
+    },
+    {
+      "id": "review.telar.love_ego_modification",
+      "subject": "formulation.love_modification.telar",
+      "question": "¿Cómo puede el amor modificar, expandir e intercambiar ‘partes del ego’ si el ego se define como estructura permanente y la identidad como su contenido cambiante?",
+      "status": "pending_doctrinal_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "clinical_use",
+        "teaching_use"
+      ],
+      "evidence": [
+        "ev.telar.ch2.identity_ego",
+        "ev.telar.ch8.begging_domestication",
+        "ev.telar.ch8.modification_separation"
+      ],
+      "why_not_auto_resolved": "La obra usa ego unas veces como posición formal y otras como contenido incorporable o amputable, sin aclarar el cambio de nivel."
+    },
+    {
+      "id": "review.telar.clinical_boundary",
+      "subject": "concept.existential_anguish.telar",
+      "question": "¿Cómo se distingue la angustia existencial saludable de cuadros clínicos y qué autoriza a tratar su ausencia como señal de falta de libertad genuina?",
+      "status": "pending_clinical_scope_review",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_use",
+        "diagnostic_use",
+        "therapeutic_use"
+      ],
+      "evidence": [
+        "ev.telar.presentation.scope",
+        "ev.telar.ch2.melancholy",
+        "ev.telar.ch8.modification_separation",
+        "ev.telar.ch9.anguish_fear",
+        "ev.telar.ch9.synthesis"
+      ],
+      "why_not_auto_resolved": "El libro se declara no terapéutico, pero despatologiza o patologiza estados y evalúa duelo, ansiedad, angustia, victimismo y salud del ego."
+    },
+    {
+      "id": "review.telar.animal_agency",
+      "subject": "formulation.freedom_response.telar",
+      "question": "¿Qué evidencia permite contrastar al animal como respuesta instintiva previsible sin distancia reflexiva con la elección humana?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_use",
+        "doctrinal_use",
+        "teaching_use"
+      ],
+      "evidence": [
+        "ev.telar.ch9.price_neutrality"
+      ],
+      "why_not_auto_resolved": "La obra declara el contraste metodológico y excluye complejidades etológicas, pero lo usa para fundar la angustia y la libertad como singularmente humanas."
+    },
+    {
+      "id": "review.telar.responsibility_constraints",
+      "subject": "formulation.responsibility_remainder.telar",
+      "question": "¿Existe siempre un resto de elección imputable y cómo se gradúa bajo coerción, incapacidad, trauma, ignorancia o clausura material de opciones?",
+      "status": "pending_causal_and_legal_review",
+      "blocking": false,
+      "blocking_for": [
+        "legal_use",
+        "clinical_use",
+        "causal_analysis_use",
+        "metrological_use"
+      ],
+      "evidence": [
+        "ev.telar.ch4.state_breach",
+        "ev.telar.ch5.reaction",
+        "ev.telar.ch9.no_blame"
+      ],
+      "why_not_auto_resolved": "La obra reconoce condicionamiento y asimetría, pero sostiene sin umbral que nadie decide por el sujeto y que siempre queda una decisión propia.",
+      "related_relation": "rel.responsibility_telar.differs_aa4"
+    },
+    {
+      "id": "review.telar.myth_sources",
+      "subject": "formulation.achilles.telar",
+      "question": "¿Qué partes de las lecturas de Aquiles, su talón y Odiseo proceden de Homero, de tradiciones posteriores o de interpretación autoral?",
+      "status": "pending_source_and_mythographic_review",
+      "blocking": false,
+      "blocking_for": [
+        "source_attribution",
+        "teaching_use",
+        "quotation_use"
+      ],
+      "evidence": [
+        "ev.telar.ch2.argos_emotion",
+        "ev.telar.ch9.achilles",
+        "ev.telar.ch9.odysseus_egolatry"
+      ],
+      "why_not_auto_resolved": "El talón vulnerable no pertenece al relato homérico y las conclusiones sobre gloria, error, identidad propia e intención de los héroes son inferencias analíticas presentadas con distinto grado de deslinde."
+    },
+    {
+      "id": "review.telar.empathy_claims",
+      "subject": "concept.ontological_empathy.telar",
+      "question": "¿La vulnerabilidad y el dolor vividos son condición necesaria de comprensión o solo una vía posible, y cómo se evita proyectar analogías propias sobre el otro?",
+      "status": "pending_epistemic_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_use",
+        "clinical_use",
+        "epistemic_use"
+      ],
+      "evidence": [
+        "ev.telar.ch10.experience",
+        "ev.telar.ch10.empathy",
+        "ev.telar.ch10.pain"
+      ],
+      "why_not_auto_resolved": "La obra niega identidad de experiencias y acceso directo, pero afirma que quien no se conoce no puede comprender y que la experiencia propia provee el puente necesario."
+    },
+    {
+      "id": "review.telar.nonviolence_inference",
+      "subject": "formulation.nonviolence.telar",
+      "question": "¿El reconocimiento de autodeterminación ajena implica lógicamente no violencia o requiere un puente normativo adicional?",
+      "status": "pending_inferential_and_normative_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "normative_use",
+        "formalization_use"
+      ],
+      "evidence": [
+        "ev.telar.ch10.nonviolence",
+        "ev.telar.ch5.other_limit"
+      ],
+      "why_not_auto_resolved": "La obra presenta una consecuencia ética como consistencia ontológica, pero no explicita la premisa que convierte igual agencia en prohibición del uso o de la violencia."
+    },
+    {
+      "id": "review.telar.cave_attribution",
+      "subject": "formulation.cave_selfknowledge.telar",
+      "question": "¿Qué pertenece al mito platónico, qué a Plotino y qué es relectura existencial propia de El telar?",
+      "status": "pending_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "source_attribution",
+        "teaching_use",
+        "doctrinal_use"
+      ],
+      "evidence": [
+        "ev.telar.ch10.cave",
+        "ev.telar.ch10.enter_self"
+      ],
+      "why_not_auto_resolved": "La obra anuncia una lectura faltante y reconfigura salida, fuego, verdad y regreso; requiere conservar explícito su estatuto de apropiación autoral."
+    },
+    {
+      "id": "review.telar.editorial_notation",
+      "subject": "formulation.scope.telar",
+      "question": "¿Qué caracteres sustituyen los ‘(cid:0)’, qué epígrafes son citas literales y cómo se corrigen errores tipográficos o remisiones?",
+      "status": "pending_editorial_review",
+      "blocking": false,
+      "blocking_for": [
+        "editorial_use",
+        "source_attribution",
+        "quotation_use"
+      ],
+      "evidence": [
+        "ev.telar.prelim.bibliographic",
+        "ev.telar.presentation.scope",
+        "ev.telar.ch1.identity_question",
+        "ev.telar.ch10.cave"
+      ],
+      "why_not_auto_resolved": "La fuente contiene marcadores corruptos, palabras cortadas, dobles signos, epígrafes reformulados y atribuciones que no pueden corregirse por conjetura."
+    },
+    {
+      "id": "review.telar.appendix_consistency",
+      "subject": "formulation.scope.telar",
+      "question": "¿Cómo se reconcilian índice, cuerpo, notas, glosario e índices de autores cuando atribuyen apariciones y capítulos diferentes?",
+      "status": "pending_editorial_review",
+      "blocking": false,
+      "blocking_for": [
+        "editorial_use",
+        "source_attribution",
+        "teaching_use"
+      ],
+      "evidence": [
+        "ev.telar.prelim.bibliographic",
+        "ev.telar.epilogue.glossary_first",
+        "ev.telar.appendix.authors",
+        "ev.telar.appendix.chronology"
+      ],
+      "why_not_auto_resolved": "Los apéndices registran autores o capítulos no visibles en el cuerpo correspondiente, omiten otros usos y sitúan notas del capítulo X y glosario dentro del epílogo derivado."
     }
   ],
   "tests": [
