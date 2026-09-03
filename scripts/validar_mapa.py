@@ -2246,6 +2246,223 @@ def main() -> int:
             "La ruta histórica de Aego debe incorporar la reformulación de F3",
         )
 
+        axiom_structure_path = (
+            ROOT / "corpus" / "libros" / "axiomatizacion-doble-mediacion" / "estructura.json"
+        )
+        require(axiom_structure_path.exists(), "Falta la estructura derivada de Axiomatización")
+        axiom_structure = json.loads(axiom_structure_path.read_text(encoding="utf-8"))
+        axiom_segments = {
+            segment["path"]: (segment["start_line"], segment["end_line"])
+            for segment in axiom_structure["segments"]
+        }
+        axiom_evidence = [ev for ev in evidence.values() if ev["work_id"] == "AXIOM-SDM"]
+        axiom_covered_segments = {ev["segment"] for ev in axiom_evidence}
+        require(
+            set(axiom_segments) <= axiom_covered_segments,
+            "La auditoría de Axiomatización debe cubrir preliminares, prólogo, once partes "
+            "y cuatro apéndices; faltan: "
+            f"{sorted(set(axiom_segments) - axiom_covered_segments)}",
+        )
+        require(
+            len(axiom_evidence) >= 80,
+            "La auditoría semántica de Axiomatización perdió granularidad: "
+            f"{len(axiom_evidence)} evidencias",
+        )
+        for ev in axiom_evidence:
+            require(
+                ev["segment"] in axiom_segments,
+                f"{ev['id']}: segmento de Axiomatización no declarado en estructura.json",
+            )
+            segment_start, segment_end = axiom_segments[ev["segment"]]
+            line_start, line_end = ev["source_lines"]
+            require(
+                segment_start <= line_start <= line_end <= segment_end,
+                f"{ev['id']}: rango fuera del segmento declarado {ev['segment']}",
+            )
+
+        required_axiom_nodes = {
+            "formal.axiom.E",
+            "formal.axiom.emb",
+            "formal.axiom.collapse",
+            "formal.phi1",
+            "formal.phi2",
+            "formal.I_t",
+            "formal.axiom.RSC",
+            "formal.axiom.Sop",
+            "formal.axiom.Sest",
+            "formal.axiom.gbridge",
+            "formal.alpha",
+            "formal.axiom.alpha_discrete",
+            "formal.delta",
+            "formal.G",
+            "formal.W",
+            "formal.rstar",
+            "formal.axiom.Wepsilon",
+            "formal.axiom.rstar_interval",
+            "formal.axiom.REC",
+            "formal.axiom.TIC",
+            "formal.axiom.Iinv",
+            "formal.axiom.MP",
+            "formal.axiom.closure",
+            "formal.axiom.Id",
+            "formal.axiom.rstar_net",
+            "formal.axiom.delta_net",
+            "formal.axiom.counterfactual",
+            "formal.axiom.impact",
+            "formulation.axiom.consistency",
+            "formulation.axiom.mode_ranges",
+            "formulation.axiom.annona",
+            "concept.axiom.bifurcation",
+            "method.axiom.calibration",
+            "method.axiom.case_verification",
+        }
+        require(
+            required_axiom_nodes <= set(nodes),
+            "Núcleo de Axiomatización incompleto; faltan nodos: "
+            f"{sorted(required_axiom_nodes - set(nodes))}",
+        )
+        axiom_formal_nodes = {
+            node_id
+            for node_id in required_axiom_nodes
+            if node_id.startswith("formal.axiom.")
+            or node_id in {"formal.phi1", "formal.phi2", "formal.I_t", "formal.alpha", "formal.delta", "formal.G", "formal.W", "formal.rstar"}
+        }
+        for node_id in axiom_formal_nodes:
+            spec = nodes[node_id].get("formal_spec", {})
+            require(
+                bool(spec.get("object_type"))
+                and bool(spec.get("epistemic_status"))
+                and bool(spec.get("ontological_correspondence")),
+                f"{node_id}: debe conservar tipo, estatuto epistémico y correspondencia ontológica",
+            )
+
+        required_axiom_routes = {
+            "route.axiom.architecture",
+            "route.axiom.base_phi",
+            "route.axiom.integral",
+            "route.axiom.substitutability",
+            "route.axiom.alpha_delta",
+            "route.axiom.rstar",
+            "route.axiom.rec",
+            "route.axiom.tic",
+            "route.axiom.predictability",
+            "route.axiom.closure",
+            "route.axiom.calibration",
+            "route.axiom.extensions",
+            "route.axiom.crosswork",
+        }
+        require(
+            required_axiom_routes <= set(routes),
+            "Rutas de Axiomatización incompletas: "
+            f"{sorted(required_axiom_routes - set(routes))}",
+        )
+        required_axiom_reviews = {
+            "review.axiom.hilbert_ontology",
+            "review.axiom.embedding",
+            "review.axiom.rsc_type",
+            "review.axiom.irreversibility",
+            "review.axiom.phi2_integration",
+            "review.axiom.Sop_units",
+            "review.axiom.Sest_KL",
+            "review.axiom.S_bridge",
+            "review.axiom.dirac",
+            "review.axiom.alpha_forced",
+            "review.axiom.alpha_sum",
+            "review.axiom.delta_signal",
+            "review.axiom.rstar_sink",
+            "review.axiom.epsilon_dimension",
+            "review.axiom.rstar_intervals",
+            "review.axiom.fisher_model",
+            "review.axiom.rec_factor",
+            "review.axiom.rec_estimators",
+            "review.axiom.tic_bound_E",
+            "review.axiom.tic_bound_D",
+            "review.axiom.tic_universality",
+            "review.axiom.psi_domain",
+            "review.axiom.Iinv_monotonicity",
+            "review.axiom.MP_linearity",
+            "review.axiom.closure",
+            "review.axiom.perfect",
+            "review.axiom.calibration_sources",
+            "review.axiom.discrete_weights",
+            "review.axiom.markov",
+            "review.axiom.rstar_net_sign",
+            "review.axiom.counterfactual_stability",
+            "review.axiom.bifurcation",
+        }
+        require(
+            required_axiom_reviews <= set(reviews),
+            "Deben conservarse las revisiones formales, empíricas y editoriales de Axiomatización",
+        )
+        required_axiom_inferred_relations = {
+            "rel.axiom.E.formalizes_caos",
+            "rel.axiom.phi1.refines_tf",
+            "rel.axiom.phi2.refines_tf",
+            "rel.axiom.I.refines_tf",
+            "rel.axiom.c.differs_tf_c",
+            "rel.axiom.modes.reframe_tf_children",
+            "rel.axiom.Sop.refines_tf_S",
+            "rel.axiom.alpha.differs_tf_alpha",
+            "rel.axiom.alpha_forced.contradicts_tf",
+            "rel.axiom.delta.refines_tf",
+            "rel.axiom.REC.formalizes_tf_limits",
+            "rel.axiom.TIC.formalizes_tf_imputation",
+            "rel.axiom.annona.elaborates_aa4",
+            "rel.axiom.MP.operationalizes_tf_future",
+            "rel.axiom.closure.formalizes_caos",
+            "rel.axiom.rstar_net.replaces_tf_rnet",
+        }
+        require(
+            all(
+                relation_id in relations
+                and relations[relation_id]["evidence_status"] == "inferred"
+                and bool(relations[relation_id].get("rationale"))
+                for relation_id in required_axiom_inferred_relations
+            ),
+            "Los cruces de Axiomatización con F2 y Transformación formal deben seguir inferidos",
+        )
+        require(
+            nodes["formal.rstar"]["formal_spec"].get("expression")
+            == "WᵀR* = λ₁R*, ΣᵢR*ᵢ = 1, R*ᵢ > 0",
+            "No debe armonizarse silenciosamente la orientación Wᵀ de R* en Axiomatización",
+        )
+        require(
+            nodes["formal.axiom.REC"]["formal_spec"].get("epistemic_status")
+            == "authorial_theorem_internally_inconsistent",
+            "La REC no puede promoverse a resultado validado sin resolver sus cotas incompatibles",
+        )
+        require(
+            nodes["formal.axiom.closure"]["formal_spec"].get("epistemic_status")
+            == "authorial_theorem_false_under_stated_hypotheses",
+            "La clausura no puede promoverse a teorema válido bajo las hipótesis registradas",
+        )
+        require(
+            {
+                "review.axiom.rstar_sink",
+                "review.axiom.epsilon_dimension",
+                "review.axiom.rstar_intervals",
+                "review.tf.rstar_orientation",
+            }
+            <= set(routes["route.axiom.rstar"].get("must_surface_review_items", [])),
+            "La ruta R* de Axiomatización debe surfacer sus fallos de hipótesis y el cruce W/Wᵀ",
+        )
+        require(
+            {
+                "review.axiom.tic_bound_E",
+                "review.axiom.tic_bound_D",
+                "review.axiom.tic_universality",
+                "review.axiom.psi_domain",
+                "review.axiom.Iinv_monotonicity",
+            }
+            <= set(routes["route.axiom.tic"].get("must_surface_review_items", [])),
+            "La ruta del TIC debe surfacer todos sus problemas demostrativos",
+        )
+        require(
+            {"review.axiom.closure", "review.axiom.perfect"}
+            <= set(routes["route.axiom.closure"].get("must_surface_review_items", [])),
+            "La ruta de clausura debe impedir presentar sus resultados como validados",
+        )
+
     print(
         "Mapa válido:",
         f"fase={phase}, schema={schema_status};",
@@ -2265,7 +2482,8 @@ def main() -> int:
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AQUILES'])} evidencias de El dilema de Aquiles,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'MASCARAS'])} evidencias de El juego de las máscaras,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'TELAR'])} evidencias de El telar de las Moiras,",
-        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'TRANSFORMACION-FORMAL'])} evidencias de La transformación formal."
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'TRANSFORMACION-FORMAL'])} evidencias de La transformación formal,",
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AXIOM-SDM'])} evidencias de Axiomatización."
     )
     return 0
 
