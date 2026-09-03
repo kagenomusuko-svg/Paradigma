@@ -2021,6 +2021,231 @@ def main() -> int:
             "La contradicción de orden entre perdón y justicia debe permanecer visible",
         )
 
+    # Invariantes ganadas al integrar La transformación formal en F3.
+    if phase in {"F3", "F4", "F5", "MANT"}:
+        tf_structure_path = (
+            ROOT / "corpus" / "libros" / "transformacion-formal" / "estructura.json"
+        )
+        require(tf_structure_path.exists(), "Falta la estructura derivada de La transformación formal")
+        tf_structure = json.loads(tf_structure_path.read_text(encoding="utf-8"))
+        tf_segments = {
+            segment["path"]: (segment["start_line"], segment["end_line"])
+            for segment in tf_structure["segments"]
+        }
+        tf_evidence = [
+            ev for ev in evidence.values() if ev["work_id"] == "TRANSFORMACION-FORMAL"
+        ]
+        tf_covered_segments = {ev["segment"] for ev in tf_evidence}
+        require(
+            set(tf_segments) <= tf_covered_segments,
+            "La auditoría de La transformación formal debe cubrir preliminares, prólogo, "
+            "dieciséis capítulos y epílogo; faltan: "
+            f"{sorted(set(tf_segments) - tf_covered_segments)}",
+        )
+        require(
+            len(tf_evidence) >= 100,
+            "La auditoría semántica de La transformación formal perdió granularidad: "
+            f"{len(tf_evidence)} evidencias",
+        )
+        for ev in tf_evidence:
+            require(
+                ev["segment"] in tf_segments,
+                f"{ev['id']}: segmento de La transformación formal no declarado en estructura.json",
+            )
+            segment_start, segment_end = tf_segments[ev["segment"]]
+            line_start, line_end = ev["source_lines"]
+            require(
+                segment_start <= line_start <= line_end <= segment_end,
+                f"{ev['id']}: rango fuera del segmento declarado {ev['segment']}",
+            )
+
+        required_tf_nodes = {
+            "formal.tf.v_t",
+            "formal.tf.c",
+            "formal.tf.phi1",
+            "formal.tf.phi2",
+            "formal.tf.I",
+            "formal.tf.w",
+            "formal.tf.G",
+            "formal.tf.rstar",
+            "formal.tf.rstar_net",
+            "formal.tf.S",
+            "formal.tf.alpha",
+            "formal.tf.delta",
+            "formal.tf.rstar_b",
+            "formal.tf.delta_b",
+            "formal.tf.I_col",
+            "formal.tf.IIC",
+            "formal.tf.w_adjusted",
+            "formal.tf.P_children",
+            "formal.tf.S_interval",
+            "formal.tf.rstar_net_interval",
+            "formal.tf.delta_interval",
+            "formal.tf.priority_criterion",
+            "formal.tf.T_i",
+            "formal.tf.delta_net",
+            "formal.tf.feedback_alpha",
+            "formal.tf.robustness_extended",
+            "formulation.aego.tf",
+            "formulation.tf.state_ego",
+            "formulation.tf.rights_phi2",
+            "formulation.tf.sdo_axes_crosswalk",
+            "concept.tf.collective_ego",
+            "concept.tf.uncertainty_calibration",
+            "concept.tf.volume2_program",
+        }
+        require(
+            required_tf_nodes <= set(nodes),
+            "Núcleo de La transformación formal incompleto; faltan nodos: "
+            f"{sorted(required_tf_nodes - set(nodes))}",
+        )
+        tf_formal_nodes = {
+            node_id for node_id in required_tf_nodes if node_id.startswith("formal.tf.")
+        }
+        for node_id in tf_formal_nodes:
+            spec = nodes[node_id].get("formal_spec", {})
+            require(
+                bool(spec.get("object_type"))
+                and bool(spec.get("epistemic_status"))
+                and bool(spec.get("ontological_correspondence")),
+                f"{node_id}: debe conservar tipo, estatuto epistémico y correspondencia ontológica",
+            )
+
+        required_tf_routes = {
+            "route.tf.architecture",
+            "route.tf.formulas_crosswalk",
+            "route.tf.identity_claim",
+            "route.tf.rstar",
+            "route.tf.s",
+            "route.tf.alpha",
+            "route.tf.delta_aego",
+            "route.tf.collective_iic",
+            "route.tf.iic_adjustment",
+            "route.tf.state_fiscal",
+            "route.tf.uncertainty",
+            "route.tf.limits",
+            "route.tf.sdo",
+            "route.tf.eco",
+            "route.tf.implementation",
+        }
+        require(
+            required_tf_routes <= set(routes),
+            "Rutas de La transformación formal incompletas: "
+            f"{sorted(required_tf_routes - set(routes))}",
+        )
+
+        required_tf_reviews = {
+            "review.tf.proof_status",
+            "review.tf.phi1_typing",
+            "review.tf.phi2_typing",
+            "review.tf.rstar_orientation",
+            "review.tf.normalization_completeness",
+            "review.tf.s_weights",
+            "review.tf.alpha_comparability",
+            "review.tf.aego_crosswalk",
+            "review.tf.iic_correlation",
+            "review.tf.iic_aego_reverse",
+            "review.tf.w_adjustment_bounds",
+            "review.tf.adjustment_variants",
+            "review.tf.state_force_alpha",
+            "review.tf.fiscal_function",
+            "review.tf.interval_dependencies",
+            "review.tf.vertex_robustness",
+            "review.tf.priority_formula",
+            "review.tf.eco_clinical_safety",
+            "review.tf.feedback_freedom",
+            "review.tf.volume2_validation",
+        }
+        require(
+            required_tf_reviews <= set(reviews),
+            "Deben conservarse las revisiones formales, doctrinales y empíricas de "
+            "La transformación formal",
+        )
+        require(
+            {
+                "review.tf.rstar_orientation",
+                "review.tf.rstar_target_centrality",
+                "review.tf.pf_epsilon",
+                "review.tf.normalization_completeness",
+                "review.tf.rnet_redistribution",
+            }
+            <= set(routes["route.tf.rstar"].get("must_surface_review_items", [])),
+            "La ruta de R* en La transformación formal debe surfacer sus problemas formales",
+        )
+        require(
+            {
+                "review.tf.probability_calibration",
+                "review.tf.interval_mixture",
+                "review.tf.interval_dependencies",
+                "review.tf.vertex_robustness",
+                "review.tf.priority_formula",
+            }
+            <= set(routes["route.tf.uncertainty"].get("must_surface_review_items", [])),
+            "La ruta de incertidumbre debe surfacer límites de intervalos y robustez",
+        )
+        require(
+            {
+                "review.tf.rstar_orientation",
+                "review.tf.phi1_typing",
+                "review.tf.phi2_typing",
+                "review.tf.adjustment_variants",
+                "review.tf.delta_thresholds",
+                "review.tf.volume2_validation",
+            }
+            <= set(routes["route.tf.implementation"].get("must_surface_review_items", [])),
+            "La ruta de implementación no puede ocultar formalizaciones no adjudicadas",
+        )
+
+        tf_crosswork_relations = {
+            "rel.tf.vt.elaborates_children_aa2",
+            "rel.tf.c.reframes_identity_aa1",
+            "rel.tf.phi1.refines_aa2",
+            "rel.tf.phi2.refines_aa2",
+            "rel.tf.rstar.differs_axiom",
+            "rel.tf.aego.reframes_aa1",
+            "rel.tf.aego.reframes_aa3",
+            "rel.tf.collective_ego.elaborates_aa4",
+            "rel.tf.collective_ego.elaborates_aa5",
+            "rel.tf.fiscal.elaborates_aa4",
+            "rel.tf.state_ego.elaborates_aa5",
+            "rel.tf.hume.elaborates_aa5",
+            "rel.tf.rights.reframes_aa5",
+            "rel.tf.rights.differs_telar",
+            "rel.tf.imputation.elaborates_aa4",
+            "rel.tf.imputation.elaborates_masks",
+            "rel.tf.identity.differs_telar",
+            "rel.tf.derivative.reframes_aa4",
+            "rel.tf.sdo.extends_aego_sdo",
+            "rel.tf.fiscal_function.elaborates_contract",
+        }
+        require(
+            all(
+                relation_id in relations
+                and relations[relation_id]["evidence_status"] == "inferred"
+                and bool(relations[relation_id].get("rationale"))
+                for relation_id in tf_crosswork_relations
+            ),
+            "Los cruces históricos de La transformación formal con F2 deben seguir "
+            "marcados como inferidos",
+        )
+        require(
+            nodes["formal.tf.rstar"]["formal_spec"].get("expression")
+            == "W·R*=λ_max·R*; Σ_i R*_i=1",
+            "No debe armonizarse silenciosamente la orientación W de R* en Transformación formal",
+        )
+        require(
+            relations["rel.tf.rstar.differs_axiom"]["evidence_status"] == "inferred",
+            "La diferencia W/Wᵀ debe conservarse como cruce analítico no adjudicado",
+        )
+        require(
+            {
+                "review.tf.aego_crosswalk",
+                "review.tf.aego_clinical",
+            }
+            <= set(routes["route.aego.definicion_evolucion"].get("must_surface_review_items", [])),
+            "La ruta histórica de Aego debe incorporar la reformulación de F3",
+        )
+
     print(
         "Mapa válido:",
         f"fase={phase}, schema={schema_status};",
@@ -2039,7 +2264,8 @@ def main() -> int:
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-V'])} evidencias de Afrodita Areia V,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AQUILES'])} evidencias de El dilema de Aquiles,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'MASCARAS'])} evidencias de El juego de las máscaras,",
-        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'TELAR'])} evidencias de El telar de las Moiras."
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'TELAR'])} evidencias de El telar de las Moiras,",
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'TRANSFORMACION-FORMAL'])} evidencias de La transformación formal."
     )
     return 0
 
