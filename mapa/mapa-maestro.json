@@ -1,5 +1,5 @@
 {
-  "map_version": "2.2.0",
+  "map_version": "2.3.0",
   "schema_status": "frozen",
   "phase": "F3",
   "purpose": "Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.",
@@ -82,6 +82,12 @@
       "title": "El telar de las Moiras: Ontología de la autodeterminación causal",
       "source": "corpus/fuentes/El_telar_de_las_Moiras_Ontologia_de_la_autodeterminacion_causal.md",
       "sha256": "05b0636bc15c9c0bd92c96cf95e2a96fae0d030a54843e7c87bb9608378fc049"
+    },
+    {
+      "id": "MC-II",
+      "title": "Metrología Causal: Vol. II",
+      "source": "corpus/fuentes/Metrologia_Causal_Vol_II.md",
+      "sha256": "bd957cae2bf36c1352a107f82f39f135e2aeb2009950a5489981251e6017bb15"
     }
   ],
   "evidence": [
@@ -9203,6 +9209,1062 @@
       ],
       "section": "Glosario · obras pendientes",
       "evidence_type": "authorial_program"
+    },
+    {
+      "id": "ev.mcii.segment.00_preliminares",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/00-preliminares.md",
+      "source_lines": [
+        1,
+        25
+      ],
+      "section": "preliminares",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.01_introduccion",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/01-introduccion.md",
+      "source_lines": [
+        26,
+        560
+      ],
+      "section": "INTRODUCCIÓN",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.capitulo_01_01",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-01.md",
+      "source_lines": [
+        561,
+        735
+      ],
+      "section": "### Capítulo I·1",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.capitulo_01_02",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-02.md",
+      "source_lines": [
+        736,
+        895
+      ],
+      "section": "### Capítulo I·2",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.capitulo_01_03",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-03.md",
+      "source_lines": [
+        896,
+        1044
+      ],
+      "section": "### Capítulo I·3",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.capitulo_01_04",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-04.md",
+      "source_lines": [
+        1045,
+        1216
+      ],
+      "section": "### Capítulo I·4",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.capitulo_01_05",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-05.md",
+      "source_lines": [
+        1217,
+        1418
+      ],
+      "section": "### Capítulo I·5",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.capitulo_01_06",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-06.md",
+      "source_lines": [
+        1419,
+        1575
+      ],
+      "section": "### Capítulo I·6",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.capitulo_01_07",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-07.md",
+      "source_lines": [
+        1576,
+        1760
+      ],
+      "section": "### Capítulo I·7",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.capitulo_02_01",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-01.md",
+      "source_lines": [
+        1761,
+        2088
+      ],
+      "section": "### Capítulo II·1",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.capitulo_02_02",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-02.md",
+      "source_lines": [
+        2089,
+        2372
+      ],
+      "section": "### Capítulo II·2",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.capitulo_02_03",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-03.md",
+      "source_lines": [
+        2373,
+        2657
+      ],
+      "section": "### Capítulo II·3",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.capitulo_03_01",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-03-01.md",
+      "source_lines": [
+        2658,
+        2845
+      ],
+      "section": "### Capítulo III·1",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.capitulo_03_02",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-03-02.md",
+      "source_lines": [
+        2846,
+        3111
+      ],
+      "section": "### Capítulo III·2",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.capitulo_03_03",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-03-03.md",
+      "source_lines": [
+        3112,
+        3333
+      ],
+      "section": "### Capítulo III·3",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.capitulo_03_04",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-03-04.md",
+      "source_lines": [
+        3334,
+        3501
+      ],
+      "section": "### Capítulo III·4",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.capitulo_03_05",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-03-05.md",
+      "source_lines": [
+        3502,
+        3785
+      ],
+      "section": "### Capítulo III·5",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.capitulo_04_01",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-01.md",
+      "source_lines": [
+        3786,
+        3951
+      ],
+      "section": "### Capítulo IV·1",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.capitulo_04_02",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-02.md",
+      "source_lines": [
+        3952,
+        4102
+      ],
+      "section": "### Capítulo IV·2",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.capitulo_04_03",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-03.md",
+      "source_lines": [
+        4103,
+        4197
+      ],
+      "section": "### Capítulo IV·3",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.capitulo_04_04",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-04.md",
+      "source_lines": [
+        4198,
+        4304
+      ],
+      "section": "### Capítulo IV·4",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.capitulo_04_05",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-05.md",
+      "source_lines": [
+        4305,
+        4414
+      ],
+      "section": "### Capítulo IV·5",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.capitulo_04_06",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-06.md",
+      "source_lines": [
+        4415,
+        4526
+      ],
+      "section": "### Capítulo IV·6",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.capitulo_04_07",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-07.md",
+      "source_lines": [
+        4527,
+        4683
+      ],
+      "section": "### Capítulo IV·7",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.apendice_a",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/apendice-a.md",
+      "source_lines": [
+        4684,
+        5063
+      ],
+      "section": "Apéndice A",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.segment.apendice_b",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/apendice-b.md",
+      "source_lines": [
+        5064,
+        5486
+      ],
+      "section": "Apéndice B",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mcii.intro.glossary",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/01-introduccion.md",
+      "source_lines": [
+        96,
+        318
+      ],
+      "section": "Introducción · glosario operativo",
+      "evidence_type": "definition"
+    },
+    {
+      "id": "ev.mcii.intro.derived",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/01-introduccion.md",
+      "source_lines": [
+        318,
+        430
+      ],
+      "section": "Introducción · conceptos derivados",
+      "evidence_type": "formal_claim"
+    },
+    {
+      "id": "ev.mcii.intro.question_types",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/01-introduccion.md",
+      "source_lines": [
+        434,
+        507
+      ],
+      "section": "Introducción · cinco preguntas",
+      "evidence_type": "classification"
+    },
+    {
+      "id": "ev.mcii.intro.empirical_claim",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/01-introduccion.md",
+      "source_lines": [
+        499,
+        553
+      ],
+      "section": "Introducción · revisión editorial atribuida a evidencia de campo",
+      "evidence_type": "empirical_claim"
+    },
+    {
+      "id": "ev.mcii.i1.types",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-01.md",
+      "source_lines": [
+        586,
+        661
+      ],
+      "section": "I·1 · tipología y series",
+      "evidence_type": "method"
+    },
+    {
+      "id": "ev.mcii.i1.dependencies",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-01.md",
+      "source_lines": [
+        662,
+        733
+      ],
+      "section": "I·1 · dependencias declaradas entre series",
+      "evidence_type": "formal_claim"
+    },
+    {
+      "id": "ev.mcii.i2.workflow",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-02.md",
+      "source_lines": [
+        736,
+        895
+      ],
+      "section": "I·2 · flujo ECO–SDO–grafo–expediente",
+      "evidence_type": "method"
+    },
+    {
+      "id": "ev.mcii.i3.eco_graph",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-03.md",
+      "source_lines": [
+        896,
+        1044
+      ],
+      "section": "I·3 · DI-ECO a grafo y observabilidad",
+      "evidence_type": "operationalization"
+    },
+    {
+      "id": "ev.mcii.i4.s_definition",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-04.md",
+      "source_lines": [
+        1045,
+        1070
+      ],
+      "section": "I·4 · S desde P(Hijos)",
+      "evidence_type": "definition"
+    },
+    {
+      "id": "ev.mcii.i4.s_ranges",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-04.md",
+      "source_lines": [
+        1071,
+        1130
+      ],
+      "section": "I·4 · rangos de S por Hijo",
+      "evidence_type": "calibration_scale"
+    },
+    {
+      "id": "ev.mcii.i4.ep_adjustment",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-04.md",
+      "source_lines": [
+        1130,
+        1160
+      ],
+      "section": "I·4 · modulación por evidencia",
+      "evidence_type": "calibration_rule"
+    },
+    {
+      "id": "ev.mcii.i4.calibration_status",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-04.md",
+      "source_lines": [
+        1186,
+        1203
+      ],
+      "section": "I·4 · estatuto teórico de los rangos",
+      "evidence_type": "limitation"
+    },
+    {
+      "id": "ev.mcii.i5.alpha_routes",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-05.md",
+      "source_lines": [
+        1225,
+        1245
+      ],
+      "section": "I·5 · tres rutas de α",
+      "evidence_type": "operationalization"
+    },
+    {
+      "id": "ev.mcii.i5.route_a",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-05.md",
+      "source_lines": [
+        1247,
+        1286
+      ],
+      "section": "I·5 · Ruta A clínica",
+      "evidence_type": "calibration_scale"
+    },
+    {
+      "id": "ev.mcii.i5.route_b",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-05.md",
+      "source_lines": [
+        1288,
+        1336
+      ],
+      "section": "I·5 · Ruta B documental",
+      "evidence_type": "calculation_procedure"
+    },
+    {
+      "id": "ev.mcii.i5.route_c",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-05.md",
+      "source_lines": [
+        1338,
+        1361
+      ],
+      "section": "I·5 · Ruta C longitudinal",
+      "evidence_type": "calibration_procedure"
+    },
+    {
+      "id": "ev.mcii.i5.divergence",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-05.md",
+      "source_lines": [
+        1363,
+        1396
+      ],
+      "section": "I·5 · protocolo de divergencia",
+      "evidence_type": "decision_rule"
+    },
+    {
+      "id": "ev.mcii.i5.orthogonality",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-05.md",
+      "source_lines": [
+        1407,
+        1415
+      ],
+      "section": "I·5 · independencia declarada de S y α",
+      "evidence_type": "formal_claim"
+    },
+    {
+      "id": "ev.mcii.i6.selector",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-06.md",
+      "source_lines": [
+        1426,
+        1514
+      ],
+      "section": "I·6 · selección eigenvector/Shapley",
+      "evidence_type": "decision_rule"
+    },
+    {
+      "id": "ev.mcii.i6.mixed",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-06.md",
+      "source_lines": [
+        1516,
+        1552
+      ],
+      "section": "I·6 · casos mixtos",
+      "evidence_type": "method"
+    },
+    {
+      "id": "ev.mcii.i6.combined_rejected",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-06.md",
+      "source_lines": [
+        1562,
+        1572
+      ],
+      "section": "I·6 · rechazo de fórmula combinada",
+      "evidence_type": "scope_restriction"
+    },
+    {
+      "id": "ev.mcii.i7.errors",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-07.md",
+      "source_lines": [
+        1600,
+        1690
+      ],
+      "section": "I·7 · errores de protocolo",
+      "evidence_type": "quality_control"
+    },
+    {
+      "id": "ev.mcii.i7.checklist",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-07.md",
+      "source_lines": [
+        1700,
+        1753
+      ],
+      "section": "I·7 · lista de control",
+      "evidence_type": "quality_control"
+    },
+    {
+      "id": "ev.mcii.ii1.weights",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-01.md",
+      "source_lines": [
+        1794,
+        1829
+      ],
+      "section": "II·1 · rangos de evidencia E0–E8",
+      "evidence_type": "calibration_scale"
+    },
+    {
+      "id": "ev.mcii.ii1.graph",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-01.md",
+      "source_lines": [
+        1831,
+        1862
+      ],
+      "section": "II·1 · grafo, irreducibilidad y autolazo",
+      "evidence_type": "formalization"
+    },
+    {
+      "id": "ev.mcii.ii1.power",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-01.md",
+      "source_lines": [
+        1863,
+        1901
+      ],
+      "section": "II·1 · método de potencias y vector publicado",
+      "evidence_type": "calculation_result"
+    },
+    {
+      "id": "ev.mcii.ii1.s_rnet",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-01.md",
+      "source_lines": [
+        1907,
+        1947
+      ],
+      "section": "II·1 · S y R* neta",
+      "evidence_type": "calculation_result"
+    },
+    {
+      "id": "ev.mcii.ii1.delta",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-01.md",
+      "source_lines": [
+        1954,
+        1984
+      ],
+      "section": "II·1 · α y Δ",
+      "evidence_type": "calculation_result"
+    },
+    {
+      "id": "ev.mcii.ii1.damage",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-01.md",
+      "source_lines": [
+        2000,
+        2028
+      ],
+      "section": "II·1 · D_total y AD",
+      "evidence_type": "calculation_procedure"
+    },
+    {
+      "id": "ev.mcii.ii1.prevention",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-01.md",
+      "source_lines": [
+        2033,
+        2088
+      ],
+      "section": "II·1 · prevención y límites",
+      "evidence_type": "decision_rule"
+    },
+    {
+      "id": "ev.mcii.ii2.iic_dependency",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-02.md",
+      "source_lines": [
+        2095,
+        2116
+      ],
+      "section": "II·2 · dependencia declarada del IIC",
+      "evidence_type": "formal_claim"
+    },
+    {
+      "id": "ev.mcii.ii2.prospective_graph",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-02.md",
+      "source_lines": [
+        2118,
+        2144
+      ],
+      "section": "II·2 · aristas prospectivas",
+      "evidence_type": "method"
+    },
+    {
+      "id": "ev.mcii.ii2.iic",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-02.md",
+      "source_lines": [
+        2148,
+        2210
+      ],
+      "section": "II·2 · definición, escala y ejemplo del IIC",
+      "evidence_type": "formalization"
+    },
+    {
+      "id": "ev.mcii.ii2.weight_adjustment",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-02.md",
+      "source_lines": [
+        2214,
+        2241
+      ],
+      "section": "II·2 · ajuste de pesos y recalculo",
+      "evidence_type": "calculation_procedure"
+    },
+    {
+      "id": "ev.mcii.ii2.annona",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-02.md",
+      "source_lines": [
+        2245,
+        2269
+      ],
+      "section": "II·2 · fraude annona y umbral",
+      "evidence_type": "formalization"
+    },
+    {
+      "id": "ev.mcii.ii2.debitor",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-02.md",
+      "source_lines": [
+        2271,
+        2305
+      ],
+      "section": "II·2 · ajuste debitor",
+      "evidence_type": "application_rule"
+    },
+    {
+      "id": "ev.mcii.ii3.hypercube",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-03.md",
+      "source_lines": [
+        2465,
+        2505
+      ],
+      "section": "II·3 · hipercubo y muestreo",
+      "evidence_type": "uncertainty_method"
+    },
+    {
+      "id": "ev.mcii.ii3.rho",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-02-03.md",
+      "source_lines": [
+        2508,
+        2575
+      ],
+      "section": "II·3 · robustez ρ y declaraciones",
+      "evidence_type": "formalization"
+    },
+    {
+      "id": "ev.mcii.iii1.dependencies",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-03-01.md",
+      "source_lines": [
+        2658,
+        2712
+      ],
+      "section": "III·1 · dependencia entre series",
+      "evidence_type": "formal_claim"
+    },
+    {
+      "id": "ev.mcii.iii1.integrated",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-03-01.md",
+      "source_lines": [
+        2720,
+        2825
+      ],
+      "section": "III·1 · protocolo integrado",
+      "evidence_type": "method"
+    },
+    {
+      "id": "ev.mcii.iii2.consistency",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-03-02.md",
+      "source_lines": [
+        2846,
+        2995
+      ],
+      "section": "III·2 · controles C1–C4",
+      "evidence_type": "quality_control"
+    },
+    {
+      "id": "ev.mcii.iii2.diagnostics",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-03-02.md",
+      "source_lines": [
+        3030,
+        3090
+      ],
+      "section": "III·2 · diagnóstico de inconsistencias",
+      "evidence_type": "decision_rule"
+    },
+    {
+      "id": "ev.mcii.iii3.dossier",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-03-03.md",
+      "source_lines": [
+        3112,
+        3333
+      ],
+      "section": "III·3 · expediente integrado",
+      "evidence_type": "documentation_protocol"
+    },
+    {
+      "id": "ev.mcii.iii4.communication",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-03-04.md",
+      "source_lines": [
+        3334,
+        3501
+      ],
+      "section": "III·4 · comunicación por destinatario",
+      "evidence_type": "translation_protocol"
+    },
+    {
+      "id": "ev.mcii.iii5.limits",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-03-05.md",
+      "source_lines": [
+        3502,
+        3785
+      ],
+      "section": "III·5 · límites de aplicación",
+      "evidence_type": "scope_restriction"
+    },
+    {
+      "id": "ev.mcii.iv1.axioms",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-01.md",
+      "source_lines": [
+        3786,
+        3931
+      ],
+      "section": "IV·1 · axiomas A1–A4",
+      "evidence_type": "formalization"
+    },
+    {
+      "id": "ev.mcii.iv1.independence",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-01.md",
+      "source_lines": [
+        3933,
+        3951
+      ],
+      "section": "IV·1 · independencia declarada",
+      "evidence_type": "formal_claim"
+    },
+    {
+      "id": "ev.mcii.iv2.theorem",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-02.md",
+      "source_lines": [
+        3952,
+        3975
+      ],
+      "section": "IV·2 · teorema principal",
+      "evidence_type": "formal_theorem_claim"
+    },
+    {
+      "id": "ev.mcii.iv2.pf",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-02.md",
+      "source_lines": [
+        3976,
+        3995
+      ],
+      "section": "IV·2 · lema Perron–Frobenius",
+      "evidence_type": "formal_proof_claim"
+    },
+    {
+      "id": "ev.mcii.iv2.proof",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-02.md",
+      "source_lines": [
+        3996,
+        4065
+      ],
+      "section": "IV·2 · demostración A1–A4 y unicidad",
+      "evidence_type": "formal_proof_claim"
+    },
+    {
+      "id": "ev.mcii.iv2.domain",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-02.md",
+      "source_lines": [
+        4067,
+        4102
+      ],
+      "section": "IV·2 · dominio declarado",
+      "evidence_type": "validity_condition"
+    },
+    {
+      "id": "ev.mcii.iv3.rnet",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-03.md",
+      "source_lines": [
+        4103,
+        4197
+      ],
+      "section": "IV·3 · descomposición R* neta/sistémica",
+      "evidence_type": "formal_corollary"
+    },
+    {
+      "id": "ev.mcii.iv4.delta",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-04.md",
+      "source_lines": [
+        4198,
+        4275
+      ],
+      "section": "IV·4 · corolario de Δ y tres signos",
+      "evidence_type": "formal_corollary"
+    },
+    {
+      "id": "ev.mcii.iv4.impossibility",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-04.md",
+      "source_lines": [
+        4276,
+        4304
+      ],
+      "section": "IV·4 · imposibilidad de α>1 e inversión",
+      "evidence_type": "formal_claim"
+    },
+    {
+      "id": "ev.mcii.iv5.annona",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-05.md",
+      "source_lines": [
+        4305,
+        4366
+      ],
+      "section": "IV·5 · corolario del fraude annona",
+      "evidence_type": "formal_corollary"
+    },
+    {
+      "id": "ev.mcii.iv5.table",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-05.md",
+      "source_lines": [
+        4367,
+        4414
+      ],
+      "section": "IV·5 · tabla, umbral y amplificación",
+      "evidence_type": "calculation_result"
+    },
+    {
+      "id": "ev.mcii.iv6.shapley",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-06.md",
+      "source_lines": [
+        4415,
+        4472
+      ],
+      "section": "IV·6 · función característica y Shapley",
+      "evidence_type": "formalization"
+    },
+    {
+      "id": "ev.mcii.iv6.continuity",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-06.md",
+      "source_lines": [
+        4474,
+        4526
+      ],
+      "section": "IV·6 · continuidad declarada eigenvector–Shapley",
+      "evidence_type": "formal_claim"
+    },
+    {
+      "id": "ev.mcii.iv7.conjecture",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-07.md",
+      "source_lines": [
+        4527,
+        4557
+      ],
+      "section": "IV·7 · Conjetura del Operador Unificador",
+      "evidence_type": "formal_conjecture"
+    },
+    {
+      "id": "ev.mcii.iv7.precedents",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-07.md",
+      "source_lines": [
+        4559,
+        4601
+      ],
+      "section": "IV·7 · precedentes atribuidos",
+      "evidence_type": "source_attribution"
+    },
+    {
+      "id": "ev.mcii.iv7.program",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-07.md",
+      "source_lines": [
+        4603,
+        4648
+      ],
+      "section": "IV·7 · programa abierto de demostración",
+      "evidence_type": "research_program"
+    },
+    {
+      "id": "ev.mcii.iv7.discontinuity",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-04-07.md",
+      "source_lines": [
+        4661,
+        4681
+      ],
+      "section": "IV·7 · discontinuidad y validación pendiente",
+      "evidence_type": "limitation"
+    },
+    {
+      "id": "ev.mcii.a.parameters",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/apendice-a.md",
+      "source_lines": [
+        4684,
+        4775
+      ],
+      "section": "Apéndice A · cuatro parámetros por estimar",
+      "evidence_type": "calibration_protocol"
+    },
+    {
+      "id": "ev.mcii.a.forms",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/apendice-a.md",
+      "source_lines": [
+        4776,
+        4872
+      ],
+      "section": "Apéndice A · formularios A y B",
+      "evidence_type": "instrument_design"
+    },
+    {
+      "id": "ev.mcii.a.conversion",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/apendice-a.md",
+      "source_lines": [
+        4873,
+        4930
+      ],
+      "section": "Apéndice A · tabla de conversión y Δ de sesión",
+      "evidence_type": "operationalization"
+    },
+    {
+      "id": "ev.mcii.a.classifier",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/apendice-a.md",
+      "source_lines": [
+        4931,
+        4992
+      ],
+      "section": "Apéndice A · árbol de Hijo dominante",
+      "evidence_type": "classification_rule"
+    },
+    {
+      "id": "ev.mcii.a.kconv",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/apendice-a.md",
+      "source_lines": [
+        4993,
+        5035
+      ],
+      "section": "Apéndice A · criterio k_conv",
+      "evidence_type": "calibration_rule"
+    },
+    {
+      "id": "ev.mcii.a.sheet",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/apendice-a.md",
+      "source_lines": [
+        5036,
+        5063
+      ],
+      "section": "Apéndice A · hoja de calibración",
+      "evidence_type": "calibration_protocol"
+    },
+    {
+      "id": "ev.mcii.b.equivalences",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/apendice-b.md",
+      "source_lines": [
+        5064,
+        5430
+      ],
+      "section": "Apéndice B · equivalencias por dominio",
+      "evidence_type": "translation_table"
+    },
+    {
+      "id": "ev.mcii.b.direction",
+      "work_id": "MC-II",
+      "segment": "corpus/libros/metrologia-causal/02-vol-ii/apendice-b.md",
+      "source_lines": [
+        5431,
+        5486
+      ],
+      "section": "Apéndice B · dirección y límites de traducción",
+      "evidence_type": "scope_restriction"
     }
   ],
   "nodes": [
@@ -17644,6 +18706,778 @@
         "ev.mci.a5.duality"
       ],
       "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.mcii.operational_volume",
+      "kind": "concept",
+      "label": "Volumen operativo de la metrología causal",
+      "summary": "MC-II se presenta como manual de operación multidominio y añade un teorema, corolarios, protocolos e instrumentos; esas afirmaciones se registran por separado de su validación.",
+      "evidence": [
+        "ev.mcii.intro.glossary",
+        "ev.mcii.intro.question_types"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mcii.translation",
+      "kind": "formulation",
+      "label": "Traducción disciplinar asimétrica",
+      "summary": "Nueve conceptos se traducen a vocabularios disciplinares como aproximaciones comunicativas, no como identidades exactas.",
+      "evidence": [
+        "ev.mcii.intro.glossary",
+        "ev.mcii.b.direction"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mcii.question_types",
+      "kind": "formulation",
+      "label": "Cinco tipos de pregunta causal",
+      "summary": "Clasifica diagnóstico, compliance, imputación, prevención y seguimiento y los asigna a las Series I–III, aunque reconoce que la lista editorial anterior tenía tres tipos.",
+      "evidence": [
+        "ev.mcii.intro.question_types",
+        "ev.mcii.i1.types"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.mcii.workflow",
+      "kind": "method",
+      "label": "Flujo ECO–SDO–Prometeo–expediente",
+      "summary": "Propone convertir documentos y entrevista en variables, grafo, cálculo y dossier con trazabilidad declarada.",
+      "evidence": [
+        "ev.mcii.i2.workflow",
+        "ev.mcii.i3.eco_graph"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mcii.G",
+      "kind": "formal_object",
+      "label": "G en MC-II",
+      "formal_spec": {
+        "symbol": "G=(N,E,W)",
+        "object_type": "directed_weighted_causal_graph_with_sink",
+        "expression": "G con nodo sumidero Nf y aristas necesarias, incluidas aristas prospectivas en Serie II",
+        "domain": "entidades y relaciones documentadas o añadidas como E0",
+        "codomain": "grafo dirigido ponderado",
+        "dependencies": [],
+        "assumptions": [
+          "cada nodo alcanza Nf; el texto llama a eso irreducibilidad"
+        ],
+        "epistemic_status": "authorial_operationalization_with_invalid_connectivity_condition",
+        "ontological_correspondence": "estructura causal del caso"
+      },
+      "evidence": [
+        "ev.mcii.i7.checklist",
+        "ev.mcii.ii1.graph",
+        "ev.mcii.ii2.prospective_graph"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mcii.W",
+      "kind": "formal_object",
+      "label": "W en MC-II",
+      "formal_spec": {
+        "symbol": "W=(w_ij)",
+        "object_type": "nonnegative_weight_matrix_with_ambiguous_normalization",
+        "expression": "w_ij=m_ij; autolazo w_Nf,Nf=.01; renormalizar cada columna; Σ_j w_ij=1 aparece como condición",
+        "domain": "rangos de pesos E0–E8",
+        "codomain": "matriz no negativa",
+        "dependencies": [],
+        "assumptions": [
+          "orientación y regla de normalización consistentes"
+        ],
+        "epistemic_status": "authorial_calculation_input_internally_inconsistent",
+        "ontological_correspondence": "intensidades de influencia causal"
+      },
+      "evidence": [
+        "ev.mcii.ii1.weights",
+        "ev.mcii.ii1.graph",
+        "ev.mcii.ii1.power"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mcii.rstar",
+      "kind": "formal_object",
+      "label": "R* en MC-II",
+      "formal_spec": {
+        "symbol": "R*",
+        "object_type": "eigenvector_centrality_claimed_as_counterfactual_fraction",
+        "expression": "R^(k+1)=W R^(k)/||W R^(k)||_1; R*=lim R^(k)",
+        "domain": "W≥0 declarada irreducible/aperiódica",
+        "codomain": "simplejo declarado",
+        "dependencies": [
+          "formal.mcii.W"
+        ],
+        "assumptions": [
+          "al menos un nodo sine qua non; convergencia y unicidad PF"
+        ],
+        "epistemic_status": "authorial_operationalization_not_reproduced_and_theorem_invalid",
+        "ontological_correspondence": "fracción de resultado y responsabilidad causal proporcional"
+      },
+      "evidence": [
+        "ev.mcii.intro.glossary",
+        "ev.mcii.i6.selector",
+        "ev.mcii.ii1.power",
+        "ev.mcii.iv2.theorem"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mcii.S",
+      "kind": "formal_object",
+      "label": "S en MC-II",
+      "formal_spec": {
+        "symbol": "S",
+        "object_type": "substitutability_probability",
+        "expression": "S=P(otro nodo de igual perfil y posición produce el mismo resultado)",
+        "domain": "alternativa, norma/protocolo y pares equivalentes",
+        "codomain": "[0,1]",
+        "dependencies": [],
+        "assumptions": [
+          "probabilidad estimable desde evidencia o P(Hijos)"
+        ],
+        "epistemic_status": "authorial_operationalization_uncalibrated",
+        "ontological_correspondence": "fracción sistémica o de campo de la conducta"
+      },
+      "evidence": [
+        "ev.mcii.intro.glossary",
+        "ev.mcii.i4.s_definition"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mcii.s_ranges",
+      "kind": "formulation",
+      "label": "Rangos de S por Hijo y EP",
+      "summary": "Asigna intervalos teóricos por Hijo y reglas de ampliación según EP; declara futura su comprobación empírica.",
+      "evidence": [
+        "ev.mcii.i4.s_ranges",
+        "ev.mcii.i4.ep_adjustment",
+        "ev.mcii.i4.calibration_status"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mcii.alpha",
+      "kind": "formal_object",
+      "label": "α en MC-II",
+      "formal_spec": {
+        "symbol": "α",
+        "object_type": "fraction_of_rstar_integrated_by_action",
+        "expression": "α=conocimiento(.33)+acción(0–.33)+oportunidad(.33) en Ruta B; rutas A/C usan escalas observacionales",
+        "domain": "entrevista DI-ECO, expediente o observación longitudinal",
+        "codomain": "[0,1] declarado; Ruta B alcanza como máximo .99",
+        "dependencies": [],
+        "assumptions": [
+          "tres rutas miden el mismo parámetro y son comparables"
+        ],
+        "epistemic_status": "authorial_operationalization_internally_inconsistent_and_uncalibrated",
+        "ontological_correspondence": "asunción verificable e integración por φ₂"
+      },
+      "evidence": [
+        "ev.mcii.i5.alpha_routes",
+        "ev.mcii.i5.route_a",
+        "ev.mcii.i5.route_b",
+        "ev.mcii.i5.route_c"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.mcii.alpha_routes",
+      "kind": "method",
+      "label": "Rutas A/B/C para α",
+      "summary": "Jerarquiza acceso clínico, documental y longitudinal y da reglas asimétricas para discrepancias mayores a .25.",
+      "evidence": [
+        "ev.mcii.i5.alpha_routes",
+        "ev.mcii.i5.divergence"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.mcii.method_selector",
+      "kind": "method",
+      "label": "Selector eigenvector/Shapley",
+      "summary": "Usa eigenvector si al menos un nodo pasa un test sine qua non y Shapley si ninguno lo pasa; el umbral de suficiencia del camino alternativo no queda cuantificado.",
+      "evidence": [
+        "ev.mcii.i6.selector",
+        "ev.mcii.i6.mixed"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mcii.shapley",
+      "kind": "formal_object",
+      "label": "Shapley en MC-II",
+      "formal_spec": {
+        "symbol": "φ_i",
+        "object_type": "cooperative_game_shapley_value",
+        "expression": "φ_i=Σ_{S⊆N\\{i,Nf}} |S|!(n−|S|−1)!/n! · [v(S∪{i})−v(S)]",
+        "domain": "coaliciones de nodos sin Nf",
+        "codomain": "distribución que suma v(N)",
+        "dependencies": [],
+        "assumptions": [
+          "v(S) definida y computable desde W_S"
+        ],
+        "epistemic_status": "authorial_extension_with_undefined_characteristic_value",
+        "ontological_correspondence": "responsabilidad causal acumulativa"
+      },
+      "evidence": [
+        "ev.mcii.i6.selector",
+        "ev.mcii.iv6.shapley"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mcii.series",
+      "kind": "formulation",
+      "label": "Tres series y cinco preguntas",
+      "summary": "Serie I calcula atribución, II congruencia del diseño y III robustez adversarial; el volumen las presenta como dependientes sobre un mismo grafo.",
+      "evidence": [
+        "ev.mcii.i1.types",
+        "ev.mcii.iii1.dependencies"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mcii.series1_case",
+      "kind": "formal_object",
+      "label": "Cálculo numérico de Serie I",
+      "formal_spec": {
+        "symbol": "R*_{caso}",
+        "object_type": "published_numeric_eigenvector_case",
+        "expression": "R*=(.4812,.3104,.1521,.0563) para (D,E,S,Nf)",
+        "domain": "grafo de cuatro nodos y cinco aristas con midpoints publicados",
+        "codomain": "simplejo de dimensión 4",
+        "dependencies": [
+          "formal.mcii.W",
+          "formal.mcii.rstar"
+        ],
+        "assumptions": [
+          "orientación, normalización y autolazo descritos producen el vector"
+        ],
+        "epistemic_status": "authorial_numeric_result_not_reproduced",
+        "ontological_correspondence": "distribución de responsabilidad del caso de referencia"
+      },
+      "evidence": [
+        "ev.mcii.ii1.graph",
+        "ev.mcii.ii1.power"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mcii.rstar_net",
+      "kind": "formal_object",
+      "label": "R* neta/sistémica en MC-II",
+      "formal_spec": {
+        "symbol": "R*_neta, R*_sistémica",
+        "object_type": "multiplicative_decomposition",
+        "expression": "R*_neta=R*(1−S); R*_sistémica=R*S",
+        "domain": "R*,S∈[0,1] por nodo",
+        "codomain": "dos componentes no negativas que suman R*",
+        "dependencies": [
+          "formal.mcii.rstar",
+          "formal.mcii.S"
+        ],
+        "assumptions": [
+          "S calibrada y comparable con R*"
+        ],
+        "epistemic_status": "authorial_algebraic_decomposition_on_uncalibrated_inputs",
+        "ontological_correspondence": "responsabilidad idiosincrática y de campo"
+      },
+      "evidence": [
+        "ev.mcii.ii1.s_rnet",
+        "ev.mcii.iv3.rnet"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mcii.delta",
+      "kind": "formal_object",
+      "label": "Δ en MC-II",
+      "formal_spec": {
+        "symbol": "Δ_i",
+        "object_type": "multiplicative_assumption_gap_with_impossible_negative_case",
+        "expression": "Δ_i=R*(i)(1−α_i); Δ_total=Σ_iΔ_i",
+        "domain": "R*,α∈[0,1]",
+        "codomain": "[0,1] por nodo; [0,n] agregado",
+        "dependencies": [
+          "formal.mcii.rstar",
+          "formal.mcii.alpha"
+        ],
+        "assumptions": [
+          "α fracción de R* integrada"
+        ],
+        "epistemic_status": "authorial_definition_with_contradictory_sign_interpretation",
+        "ontological_correspondence": "peso causal no asumido"
+      },
+      "evidence": [
+        "ev.mcii.ii1.delta",
+        "ev.mcii.iv4.delta",
+        "ev.mcii.iv4.impossibility"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mcii.D_total",
+      "kind": "formal_object",
+      "label": "Daño total en MC-II",
+      "formal_spec": {
+        "symbol": "D_total",
+        "object_type": "additive_damage_aggregate",
+        "expression": "D_total=T_inv+T_imp+ΔT_tray",
+        "domain": "componentes fijados por el destinatario",
+        "codomain": "unidades del dominio",
+        "dependencies": [],
+        "assumptions": [
+          "componentes conmensurables y horizonte definido"
+        ],
+        "epistemic_status": "authorial_application_formula_without_measurement_model",
+        "ontological_correspondence": "magnitud total del daño"
+      },
+      "evidence": [
+        "ev.mcii.ii1.damage"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mcii.AD",
+      "kind": "formal_object",
+      "label": "Fracción atribuible absoluta",
+      "formal_spec": {
+        "symbol": "AD_i",
+        "object_type": "responsibility_scaled_damage",
+        "expression": "AD_i=R*_i·D_total",
+        "domain": "R* y D_total",
+        "codomain": "unidad de D_total",
+        "dependencies": [
+          "formal.mcii.rstar",
+          "formal.mcii.D_total"
+        ],
+        "assumptions": [
+          "R* admite interpretación causal y D_total es válido"
+        ],
+        "epistemic_status": "authorial_application_formula_unvalidated",
+        "ontological_correspondence": "daño atribuido al nodo"
+      },
+      "evidence": [
+        "ev.mcii.ii1.damage"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mcii.IIC",
+      "kind": "formal_object",
+      "label": "IIC en MC-II",
+      "formal_spec": {
+        "symbol": "IIC",
+        "object_type": "mean_of_quantitative_or_qualitative_correlations",
+        "expression": "IIC=(1/n)Σ_k c_k; c_k=corr(declarado_k,observable_k)",
+        "domain": "protocolos del nodo de diseño relevantes para D",
+        "codomain": "[-1,1]",
+        "dependencies": [],
+        "assumptions": [
+          "codificación, unidades repetidas y varianza definidas"
+        ],
+        "epistemic_status": "authorial_reformulation_uncalibrated",
+        "ontological_correspondence": "congruencia entre campo declarado y producido"
+      },
+      "evidence": [
+        "ev.mcii.ii2.iic_dependency",
+        "ev.mcii.ii2.iic"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mcii.w_iic",
+      "kind": "formal_object",
+      "label": "Ajuste de W por IIC en MC-II",
+      "formal_spec": {
+        "symbol": "w_ij(ajustado)",
+        "object_type": "multiplicative_edge_adjustment",
+        "expression": "w_ij(adj)=w_ij(base)[1+k(1−IIC_D)], k∈[.5,1.5]",
+        "domain": "aristas salientes del nodo de diseño",
+        "codomain": "no acotado en [0,1] antes de renormalizar",
+        "dependencies": [
+          "formal.mcii.W",
+          "formal.mcii.IIC"
+        ],
+        "assumptions": [
+          "k calibrado; renormalización preserva efecto pretendido"
+        ],
+        "epistemic_status": "authorial_calculation_rule_uncalibrated_and_potentially_inert",
+        "ontological_correspondence": "amplificación causal de la brecha de diseño"
+      },
+      "evidence": [
+        "ev.mcii.ii2.weight_adjustment"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mcii.fraud_annona",
+      "kind": "formal_object",
+      "label": "Fraude annona en MC-II",
+      "formal_spec": {
+        "symbol": "F_D",
+        "object_type": "multiplicative_design_index",
+        "expression": "F_D=R*_D(1−α_D)(1−IIC_D)",
+        "domain": "nodo de diseño; R*,α∈[0,1]; IIC alterna entre [-1,1] y [0,1]",
+        "codomain": "[0,1] solo si IIC∈[0,1]",
+        "dependencies": [
+          "formal.mcii.rstar",
+          "formal.mcii.alpha",
+          "formal.mcii.IIC"
+        ],
+        "assumptions": [
+          "factores validados y comparables"
+        ],
+        "epistemic_status": "authorial_definition_mislabeled_as_identity_and_internally_inconsistent",
+        "ontological_correspondence": "posición del diseño con centralidad, no asunción e incongruencia"
+      },
+      "evidence": [
+        "ev.mcii.ii2.annona",
+        "ev.mcii.iv5.annona",
+        "ev.mcii.iv5.table"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mcii.robustness",
+      "kind": "formal_object",
+      "label": "Robustez ρ en MC-II",
+      "formal_spec": {
+        "symbol": "ρ(θ)",
+        "object_type": "hypercube_volume_ratio_estimated_by_sampling",
+        "expression": "ρ(θ)=Vol{w∈Π:R*_θ(w)>R*_j(w),∀j≠θ}/Vol(Π)",
+        "domain": "hipercubo Π de rangos de aristas",
+        "codomain": "[0,1]",
+        "dependencies": [
+          "formal.mcii.rstar"
+        ],
+        "assumptions": [
+          "distribución de muestreo y restricciones entre pesos especificadas"
+        ],
+        "epistemic_status": "authorial_uncertainty_measure_with_unquantified_sampling_error",
+        "ontological_correspondence": "estabilidad del ranking causal"
+      },
+      "evidence": [
+        "ev.mcii.ii3.hypercube",
+        "ev.mcii.ii3.rho"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.mcii.integrated_protocol",
+      "kind": "method",
+      "label": "Protocolo integrado I–III",
+      "summary": "Encadena atribución, compliance y robustez, con opción de usar el grafo base o ajustado; la identidad del grafo cambia con aristas y pesos.",
+      "evidence": [
+        "ev.mcii.iii1.dependencies",
+        "ev.mcii.iii1.integrated"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.mcii.consistency_checks",
+      "kind": "method",
+      "label": "Controles internos C1–C4",
+      "summary": "Propone verificaciones entre R* base/ajustada, Δ/IIC, vectores y ρ/amplitud; los umbrales son operativos y no validaciones externas.",
+      "evidence": [
+        "ev.mcii.iii2.consistency",
+        "ev.mcii.iii2.diagnostics"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.mcii.dossier",
+      "kind": "method",
+      "label": "Expediente integrado",
+      "summary": "Especifica documentos, versiones, audiencia y límites de comunicación para las tres series.",
+      "evidence": [
+        "ev.mcii.iii3.dossier",
+        "ev.mcii.iii4.communication"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.mcii.application_limits",
+      "kind": "concept",
+      "label": "Límites reconocidos de aplicación",
+      "summary": "La obra niega que R* pruebe intención, justicia, predicción o el contrafactual real y separa D_total de la metrología, aunque otras traducciones exceden esos límites.",
+      "evidence": [
+        "ev.mcii.iii5.limits",
+        "ev.mcii.b.equivalences"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mcii.axioms",
+      "kind": "formal_object",
+      "label": "Axiomas A1–A4",
+      "formal_spec": {
+        "symbol": "A1–A4",
+        "object_type": "axiom_bundle",
+        "expression": "A1 Σ_iR*(i)=1; A2 R*(i)>0↔i sine qua non; A3 recursividad; A4 monotonicidad entrante",
+        "domain": "distribuciones de responsabilidad sobre G",
+        "codomain": "condiciones declaradas",
+        "dependencies": [
+          "formal.mcii.G",
+          "formal.mcii.rstar"
+        ],
+        "assumptions": [
+          "independencia y suficiencia conjunta"
+        ],
+        "epistemic_status": "authorial_axioms_with_unproved_independence_and_incompatible_indices",
+        "ontological_correspondence": "condiciones de responsabilidad causal proporcional"
+      },
+      "evidence": [
+        "ev.mcii.iv1.axioms",
+        "ev.mcii.iv1.independence"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mcii.pf_lemma",
+      "kind": "formulation",
+      "label": "Lema PF de MC-II",
+      "summary": "Afirma positividad, unicidad y dominancia estricta para toda matriz no negativa irreducible y equipara alcanzar Nf con irreducibilidad.",
+      "evidence": [
+        "ev.mcii.iv2.pf",
+        "ev.mcii.iv2.domain"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mcii.responsibility_theorem",
+      "kind": "formulation",
+      "label": "Teorema de Responsabilidad Causal Proporcional",
+      "summary": "Afirma que el eigenvector es la única distribución que satisface A1–A4; la prueba usa selección circular de nodos, una versión insuficiente de PF y una monotonicidad no demostrada.",
+      "evidence": [
+        "ev.mcii.iv2.theorem",
+        "ev.mcii.iv2.proof"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mcii.delta_corollary",
+      "kind": "formal_object",
+      "label": "Corolario II de Δ",
+      "formal_spec": {
+        "symbol": "Δ_i, Δ_total",
+        "object_type": "claimed_formal_corollary_with_impossible_sign_case",
+        "expression": "Δ_i=R*(i)(1−α_i); Δ_total=Σ_iΔ_i",
+        "domain": "R*,α∈[0,1]",
+        "codomain": "no negativo por fórmula; la obra también declara Δ<0",
+        "dependencies": [
+          "formal.mcii.delta",
+          "formal.mcii.rstar",
+          "formal.mcii.alpha"
+        ],
+        "assumptions": [
+          "el producto se deriva del teorema principal"
+        ],
+        "epistemic_status": "authorial_corollary_internally_contradictory",
+        "ontological_correspondence": "déficit de asunción e inversión causal declarada"
+      },
+      "evidence": [
+        "ev.mcii.iv4.delta",
+        "ev.mcii.iv4.impossibility"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mcii.annona_corollary",
+      "kind": "formal_object",
+      "label": "Corolario III de fraude annona",
+      "formal_spec": {
+        "symbol": "F_D, Δ_efectivo_D",
+        "object_type": "claimed_identity_with_additional_factor",
+        "expression": "F_D=Δ_D(1−IIC_D)=R*_D(1−α_D)(1−IIC_D)",
+        "domain": "R*,α,IIC∈[0,1] en el corolario",
+        "codomain": "[0,1] bajo el dominio restringido",
+        "dependencies": [
+          "formal.mcii.delta",
+          "formal.mcii.IIC"
+        ],
+        "assumptions": [
+          "multiplicar por 1−IIC constituye una derivación y una amplificación"
+        ],
+        "epistemic_status": "authorial_corollary_not_derived_and_semantically_inverted",
+        "ontological_correspondence": "déficit efectivo del nodo de diseño"
+      },
+      "evidence": [
+        "ev.mcii.iv5.annona",
+        "ev.mcii.iv5.table"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mcii.shapley_extension",
+      "kind": "formal_object",
+      "label": "Extensión acumulativa por Shapley",
+      "formal_spec": {
+        "symbol": "v(S), φ_i",
+        "object_type": "claimed_accumulative_extension",
+        "expression": "v(S)=fracción de D producida por W_S; φ_i=Shapley(v)",
+        "domain": "coaliciones de nodos cuando ninguno es sine qua non individual",
+        "codomain": "distribución de responsabilidad en [0,1]^n",
+        "dependencies": [
+          "formal.mcii.shapley",
+          "formal.mcii.W"
+        ],
+        "assumptions": [
+          "W_S define una fracción en Nf y Shapley es límite del eigenvector"
+        ],
+        "epistemic_status": "authorial_extension_with_undefined_value_function_and_unproved_continuity",
+        "ontological_correspondence": "responsabilidad en causalidad acumulativa"
+      },
+      "evidence": [
+        "ev.mcii.iv6.shapley",
+        "ev.mcii.iv6.continuity"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mcii.unifying_operator",
+      "kind": "formal_object",
+      "label": "Conjetura del Operador Unificador",
+      "formal_spec": {
+        "symbol": "O:C→ℝ^|N| (codominio corrupto en fuente)",
+        "object_type": "open_unifying_operator_conjecture",
+        "expression": "O(G)=eigenvector en caso sine qua non; Shapley en acumulativo; interpolación continua en mixto",
+        "domain": "clase C de grafos aún por definir",
+        "codomain": "distribuciones por nodo",
+        "dependencies": [
+          "formal.mcii.rstar",
+          "formal.mcii.shapley"
+        ],
+        "assumptions": [
+          "métrica, axiomas y función característica pendientes"
+        ],
+        "epistemic_status": "explicitly_open_authorial_conjecture",
+        "ontological_correspondence": "distribución unificada de responsabilidad causal"
+      },
+      "evidence": [
+        "ev.mcii.iv7.conjecture",
+        "ev.mcii.iv7.program",
+        "ev.mcii.iv7.discontinuity"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.mcii.empirical_calibration",
+      "kind": "method",
+      "label": "Protocolo prospectivo de calibración",
+      "summary": "Diseña recolección longitudinal para estimar w(τ), pesos de φ₁, dimensión efectiva de E y k_conv; no aporta cohortes, datos ni estimaciones realizadas.",
+      "evidence": [
+        "ev.mcii.a.parameters",
+        "ev.mcii.a.sheet"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mcii.forms",
+      "kind": "formal_object",
+      "label": "Formularios A/B",
+      "formal_spec": {
+        "symbol": "V1–V4",
+        "object_type": "paired_observer_participant_questionnaire",
+        "expression": "cuatro ítems categóricos por sesión para operador y participante",
+        "domain": "sesiones de intervención longitudinal",
+        "codomain": "opciones A/B/C",
+        "dependencies": [],
+        "assumptions": [
+          "fiabilidad, validez y cegamiento suficientes"
+        ],
+        "epistemic_status": "authorial_instrument_design_not_validated",
+        "ontological_correspondence": "atribución, conformidad, estado interno y reconocimiento"
+      },
+      "evidence": [
+        "ev.mcii.a.forms"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mcii.conversion",
+      "kind": "formal_object",
+      "label": "Tabla de conversión de MC-II",
+      "formal_spec": {
+        "symbol": "T(V1…V4)",
+        "object_type": "fixed_score_conversion",
+        "expression": "V1→α {1,.5,0}; V2→S {.1,NA,.9}; V3,V4→{2,1,0}; Δ_sesión=V1_A−P1_B",
+        "domain": "respuestas A/B/C",
+        "codomain": "escalas heterogéneas",
+        "dependencies": [
+          "formal.mcii.forms"
+        ],
+        "assumptions": [
+          "valores invariantes entre poblaciones"
+        ],
+        "epistemic_status": "authorial_scoring_rule_uncalibrated_and_redefines_delta",
+        "ontological_correspondence": "proxies de α, S, v_t y φ₂"
+      },
+      "evidence": [
+        "ev.mcii.a.conversion"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.mcii.child_classifier",
+      "kind": "method",
+      "label": "Árbol de Hijo dominante",
+      "summary": "Clasifica seis Hijos mediante umbrales de promedios de α, S, v_t y φ₂ y asigna patrones esperados de Δ sin datos de entrenamiento o validación.",
+      "evidence": [
+        "ev.mcii.a.classifier"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mcii.kconv",
+      "kind": "formal_object",
+      "label": "Convergencia k_conv",
+      "formal_spec": {
+        "symbol": "k_conv",
+        "object_type": "three_session_modal_stability_rule",
+        "expression": "primer k con modas V1 y V4 iguales en k−2,k−1,k",
+        "domain": "secuencia de sesiones categóricas",
+        "codomain": "entero ≥3 o indefinido",
+        "dependencies": [
+          "formal.mcii.forms"
+        ],
+        "assumptions": [
+          "estabilidad modal es análogo empírico de convergencia eigenvectorial"
+        ],
+        "epistemic_status": "authorial_proxy_without_correspondence_validation",
+        "ontological_correspondence": "estabilización del patrón humano"
+      },
+      "evidence": [
+        "ev.mcii.a.kconv"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.mcii.calibration_sheet",
+      "kind": "method",
+      "label": "Hoja de calibración de la Axiomatización",
+      "summary": "Propone correlaciones, regresión, PCA y k_conv agregado; fija 80% de varianza y afirma precisión publicable con diez cohortes sin análisis de potencia.",
+      "evidence": [
+        "ev.mcii.a.sheet"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.mcii.equivalences",
+      "kind": "method",
+      "label": "Equivalencias extendidas por dominio",
+      "summary": "Traduce Nodo, Arista, R*, S, α, Δ, IIC y fraude annona a ocho dominios; advierte que son aproximaciones, pero ofrece formulaciones normativas y porcentuales fuertes.",
+      "evidence": [
+        "ev.mcii.b.equivalences",
+        "ev.mcii.b.direction"
+      ],
+      "evidence_status": "explicit"
     }
   ],
   "relations": [
@@ -23638,6 +25472,410 @@
         "ev.tf.epilogue.calibration_gap"
       ],
       "rationale": "A·4 se presenta como respuesta a la falta de calibración, pero no incorpora datos ni protocolo reproducible que permita cerrar la revisión."
+    },
+    {
+      "id": "rel.mcii.volume.operationalizes_mci",
+      "from": "concept.mcii.operational_volume",
+      "to": "concept.mci.causal_metrology",
+      "type": "operationalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.intro.glossary",
+        "ev.mci.pro.scope"
+      ],
+      "rationale": "MC-II convierte el programa de MC-I en protocolos y añade afirmaciones formales propias; la relación no valida esos protocolos."
+    },
+    {
+      "id": "rel.mcii.G.reuses_mci",
+      "from": "formal.mcii.G",
+      "to": "formal.mci.G",
+      "type": "reuses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.ii1.graph",
+        "ev.mci.ii3.graph"
+      ],
+      "rationale": "Conserva grafo dirigido y sumidero, pero añade aristas prospectivas y mantiene la conectividad defectuosa."
+    },
+    {
+      "id": "rel.mcii.W.reuses_mci",
+      "from": "formal.mcii.W",
+      "to": "formal.mci.W",
+      "type": "reuses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.ii1.graph",
+        "ev.mci.ii4.operators"
+      ],
+      "rationale": "Reutiliza W y los midpoints sin resolver orientación ni normalización."
+    },
+    {
+      "id": "rel.mcii.rstar.reuses_mci",
+      "from": "formal.mcii.rstar",
+      "to": "formal.mci.rstar",
+      "type": "reuses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.ii1.power",
+        "ev.mci.ii5.rstar",
+        "ev.mci.ii6.power_pf"
+      ],
+      "rationale": "MC-II conserva el algoritmo con W y publica un ejemplo, sin adjudicar la suma entrante de MC-I."
+    },
+    {
+      "id": "rel.mcii.rstar.claims_counterfactual",
+      "from": "formal.mcii.rstar",
+      "to": "formal.tf.rstar",
+      "type": "reformulates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.intro.glossary",
+        "ev.tf.21.eigenvector"
+      ],
+      "rationale": "MC-II presenta centralidad como fracción que desaparecería al retirar el nodo, una correspondencia contrafactual adicional no demostrada."
+    },
+    {
+      "id": "rel.mcii.S.operationalizes_mci",
+      "from": "formal.mcii.S",
+      "to": "formal.mci.S",
+      "type": "operationalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.i4.s_definition",
+        "ev.mci.ii9.s_definition"
+      ],
+      "rationale": "Mantiene S como probabilidad y agrega tres rutas, sin cerrar la falta de modelo probabilístico."
+    },
+    {
+      "id": "rel.mcii.s_ranges.refines_mci",
+      "from": "formulation.mcii.s_ranges",
+      "to": "formulation.mci.s_ranges",
+      "type": "refines",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.i4.s_ranges",
+        "ev.mci.ii10.s_ranges"
+      ],
+      "rationale": "Modifica intervalos y añade EP, conservando el carácter teórico y sin explicar todas las diferencias históricas."
+    },
+    {
+      "id": "rel.mcii.alpha.reuses_mci",
+      "from": "formal.mcii.alpha",
+      "to": "formal.mci.alpha",
+      "type": "operationalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.i5.alpha_routes",
+        "ev.mci.ii12.alpha"
+      ],
+      "rationale": "Añade tres procedimientos a la definición de fracción integrada; ninguno aporta calibración empírica realizada."
+    },
+    {
+      "id": "rel.mcii.alpha.differs_axiom",
+      "from": "formal.mcii.alpha",
+      "to": "formal.axiom.alpha_discrete",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.i5.route_b",
+        "ev.axiom.4.calibration"
+      ],
+      "rationale": "MC-II usa tres componentes de .33 y escalas continuas, mientras Axiomatización había fijado otra descomposición discreta."
+    },
+    {
+      "id": "rel.mcii.alpha_route_a.claims_phi2",
+      "from": "method.mcii.alpha_routes",
+      "to": "formal.mci.phi2",
+      "type": "claims_observability_of",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.i5.route_a",
+        "ev.mci.v4.alpha_limit"
+      ],
+      "rationale": "MC-II declara acceso directo a φ₂ donde MC-I había limitado su observabilidad directa."
+    },
+    {
+      "id": "rel.mcii.selector.restricts_rstar",
+      "from": "method.mcii.method_selector",
+      "to": "formal.mcii.rstar",
+      "type": "restricts",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.i6.selector"
+      ],
+      "rationale": "MC-II condiciona la interpretación causal de R* a que algún nodo sea sine qua non."
+    },
+    {
+      "id": "rel.mcii.shapley.reuses_mci",
+      "from": "formal.mcii.shapley",
+      "to": "formal.mci.shapley",
+      "type": "elaborates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.iv6.shapley",
+        "ev.mci.v7.shapley"
+      ],
+      "rationale": "Desarrolla la fórmula de Shapley, pero no vuelve reproducible la función característica."
+    },
+    {
+      "id": "rel.mcii.series.elaborates_mci",
+      "from": "formulation.mcii.series",
+      "to": "formulation.mci.series",
+      "type": "elaborates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.i1.types",
+        "ev.mci.iv1.series"
+      ],
+      "rationale": "Asigna cinco preguntas a tres series y agrega dependencias que no se siguen de las fórmulas."
+    },
+    {
+      "id": "rel.mcii.rnet.reuses_mci",
+      "from": "formal.mcii.rstar_net",
+      "to": "formal.mci.rstar_net",
+      "type": "reuses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.iv3.rnet",
+        "ev.mci.ii7.rnet"
+      ],
+      "rationale": "Reitera la descomposición multiplicativa sin calibrar S."
+    },
+    {
+      "id": "rel.mcii.delta.reuses_mci",
+      "from": "formal.mcii.delta",
+      "to": "formal.mci.delta",
+      "type": "reuses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.iv4.delta",
+        "ev.mci.ii14.delta"
+      ],
+      "rationale": "Conserva el producto de MC-I y le añade casos de signo incompatibles con su dominio."
+    },
+    {
+      "id": "rel.mcii.delta.differs_axiom",
+      "from": "formal.mcii.delta",
+      "to": "formal.axiom.delta_evolution",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.iv4.delta",
+        "ev.axiom.5.delta"
+      ],
+      "rationale": "La versión multiplicativa sigue sin adjudicar la resta R*−α de Axiomatización."
+    },
+    {
+      "id": "rel.mcii.IIC.redefines_mci",
+      "from": "formal.mcii.IIC",
+      "to": "formal.mci.IIC",
+      "type": "reformulates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.ii2.iic",
+        "ev.mci.iii9.iic"
+      ],
+      "rationale": "Amplía el codominio a [-1,1] y permite estimación cualitativa sin resolver qué muestra permite una correlación."
+    },
+    {
+      "id": "rel.mcii.w_iic.reuses_mci",
+      "from": "formal.mcii.w_iic",
+      "to": "formal.mci.w_iic",
+      "type": "reformulates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.ii2.weight_adjustment",
+        "ev.mci.iv4.iic_weights"
+      ],
+      "rationale": "Cambia el rango de k y mantiene multiplicación/renormalización con efecto no demostrado."
+    },
+    {
+      "id": "rel.mcii.annona.reuses_mci",
+      "from": "formal.mcii.fraud_annona",
+      "to": "formal.mci.fraud_annona",
+      "type": "reuses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.iv5.annona",
+        "ev.mci.iv5.annona"
+      ],
+      "rationale": "Repite el producto, restringe IIC a [0,1] solo en el corolario y lo presenta como derivación necesaria."
+    },
+    {
+      "id": "rel.mcii.robustness.refines_mci",
+      "from": "formal.mcii.robustness",
+      "to": "formal.mci.robustness",
+      "type": "refines",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.ii3.hypercube",
+        "ev.mcii.ii3.rho",
+        "ev.mci.vi7.vertices"
+      ],
+      "rationale": "Distingue volumen exacto y muestreo, pero no cuantifica error ni dependencias de parámetros."
+    },
+    {
+      "id": "rel.mcii.axioms.attempt_validate_rstar",
+      "from": "formal.mcii.axioms",
+      "to": "formal.mcii.rstar",
+      "type": "attempts_to_validate",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.iv1.axioms"
+      ],
+      "rationale": "A1–A4 se ofrecen como caracterización, pero su independencia y compatibilidad no se establecen."
+    },
+    {
+      "id": "rel.mcii.theorem.attempt_validate_rstar",
+      "from": "formulation.mcii.responsibility_theorem",
+      "to": "formal.mcii.rstar",
+      "type": "attempts_to_validate",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.iv2.theorem",
+        "ev.mcii.iv2.proof"
+      ],
+      "rationale": "La prueba declarada no satisface las condiciones necesarias para convertir el eigenvector en responsabilidad causal."
+    },
+    {
+      "id": "rel.mcii.pf.reuses_mci",
+      "from": "formulation.mcii.pf_lemma",
+      "to": "formulation.mci.pf_proof",
+      "type": "reuses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.iv2.pf",
+        "ev.mci.a1.pf"
+      ],
+      "rationale": "MC-II repite la inferencia irreducible→dominancia estricta/convergencia sin añadir primitivad."
+    },
+    {
+      "id": "rel.mcii.delta_corollary.restates_delta",
+      "from": "formal.mcii.delta_corollary",
+      "to": "formal.mcii.delta",
+      "type": "restates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.iv4.delta"
+      ],
+      "rationale": "El corolario reitera la fórmula y agrega una interpretación de signo contradictoria."
+    },
+    {
+      "id": "rel.mcii.annona_corollary.restates_annona",
+      "from": "formal.mcii.annona_corollary",
+      "to": "formal.mcii.fraud_annona",
+      "type": "restates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.iv5.annona"
+      ],
+      "rationale": "El corolario no deriva el tercer factor de los axiomas; lo introduce como definición adicional."
+    },
+    {
+      "id": "rel.mcii.shapley_extension.extends_selector",
+      "from": "formal.mcii.shapley_extension",
+      "to": "method.mcii.method_selector",
+      "type": "elaborates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.iv6.shapley",
+        "ev.mcii.i6.selector"
+      ],
+      "rationale": "Formaliza la rama acumulativa del selector, pero la función v(S) queda indeterminada."
+    },
+    {
+      "id": "rel.mcii.cou.connects_methods",
+      "from": "formulation.mcii.unifying_operator",
+      "to": "formal.mcii.shapley",
+      "type": "conjecturally_relates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.iv7.conjecture"
+      ],
+      "rationale": "La obra marca explícitamente como conjetural la continuidad con el eigenvector."
+    },
+    {
+      "id": "rel.mcii.calibration.claims_address_tf",
+      "from": "method.mcii.empirical_calibration",
+      "to": "concept.tf.uncertainty_calibration",
+      "type": "addresses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.a.parameters",
+        "ev.tf.epilogue.calibration_gap"
+      ],
+      "rationale": "El apéndice diseña una futura recolección, pero no aporta evidencia que cierre la brecha de TF."
+    },
+    {
+      "id": "rel.mcii.calibration.claims_address_axiom",
+      "from": "method.mcii.calibration_sheet",
+      "to": "method.axiom.calibration",
+      "type": "addresses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.a.sheet",
+        "ev.axiom.b.calibration"
+      ],
+      "rationale": "Propone estimadores para parámetros axiomáticos, todavía sin datos ni validación del instrumento."
+    },
+    {
+      "id": "rel.mcii.conversion.operationalizes_alpha_s",
+      "from": "formal.mcii.conversion",
+      "to": "formal.mcii.alpha",
+      "type": "operationalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.a.conversion"
+      ],
+      "rationale": "Convierte respuestas en proxies fijos de α y S; la asignación no está calibrada."
+    },
+    {
+      "id": "rel.mcii.conversion.redefines_delta",
+      "from": "formal.mcii.conversion",
+      "to": "formal.mcii.delta",
+      "type": "redefines",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.a.conversion",
+        "ev.mcii.iv4.delta"
+      ],
+      "rationale": "Δ_sesión se vuelve una diferencia entre formularios y deja de depender de R*, sin adjudicación explícita."
+    },
+    {
+      "id": "rel.mcii.classifier.operationalizes_mci",
+      "from": "method.mcii.child_classifier",
+      "to": "method.mci.children_classifier",
+      "type": "operationalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.a.classifier",
+        "ev.mci.iii1.classifier"
+      ],
+      "rationale": "Añade un árbol determinista a la clasificación previa sin muestra de entrenamiento o validación."
+    },
+    {
+      "id": "rel.mcii.kconv.claims_eigenvector_correspondence",
+      "from": "formal.mcii.kconv",
+      "to": "formal.mcii.rstar",
+      "type": "claims_empirical_correspondence",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.a.kconv",
+        "ev.mcii.ii1.power"
+      ],
+      "rationale": "Equipara estabilidad modal humana y convergencia numérica sin función de correspondencia demostrada."
+    },
+    {
+      "id": "rel.mcii.equivalences.qualify_translation",
+      "from": "method.mcii.equivalences",
+      "to": "formulation.mcii.translation",
+      "type": "elaborates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mcii.b.equivalences",
+        "ev.mcii.b.direction"
+      ],
+      "rationale": "Amplía ocho dominios y reconoce que las equivalencias son aproximaciones."
     }
   ],
   "routes": [
@@ -30604,6 +32842,576 @@
         "review.mci.delta_crosswork",
         "review.mci.empirical_calibration"
       ]
+    },
+    {
+      "id": "route.mcii.architecture",
+      "purpose": "Recorrer arquitectura, preguntas, series y límites de MC-II.",
+      "triggers": [
+        "MC-II",
+        "arquitectura MC-II",
+        "Volumen II"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mcii.intro.question_types",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mcii.i1.types",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mcii.iii1.integrated",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mcii.iii5.limits",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mcii.question_exhaustiveness",
+        "review.mcii.series_dependencies"
+      ]
+    },
+    {
+      "id": "route.mcii.translation",
+      "purpose": "Distinguir concepto propio, equivalencia disciplinar y uso normativo.",
+      "triggers": [
+        "traducción MC-II",
+        "equivalencias",
+        "dominios"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mcii.intro.glossary",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mcii.b.equivalences",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mcii.b.direction",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mcii.translation_validity",
+        "review.mcii.communication_overclaim"
+      ]
+    },
+    {
+      "id": "route.mcii.graph_rstar",
+      "purpose": "Auditar G, W, sumidero, normalización, PF y el vector numérico.",
+      "triggers": [
+        "R* MC-II",
+        "grafo MC-II",
+        "Serie I"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mcii.ii1.weights",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mcii.ii1.graph",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mcii.ii1.power",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mcii.iv2.pf",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mcii.iv2.proof",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.rstar.sink_irreducibility",
+        "review.tf.rstar_orientation",
+        "review.axiom.rstar_sink",
+        "review.mci.rstar_orientation",
+        "review.mci.pf_hypotheses",
+        "review.mcii.rstar_counterfactual",
+        "review.mcii.irreducibility",
+        "review.mcii.epsilon",
+        "review.mcii.normalization",
+        "review.mcii.series1_vector",
+        "review.mcii.sink_normalization",
+        "review.mcii.pf_primitive"
+      ]
+    },
+    {
+      "id": "route.mcii.s_alpha_delta",
+      "purpose": "Conservar definiciones, escalas y contradicciones de S, α y Δ.",
+      "triggers": [
+        "S MC-II",
+        "α MC-II",
+        "Δ MC-II"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mcii.i4.s_ranges",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mcii.i5.alpha_routes",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mcii.i5.route_b",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mcii.i5.divergence",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mcii.iv4.delta",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mcii.iv4.impossibility",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mcii.s_range_arithmetic",
+        "review.mcii.s_range_calibration",
+        "review.mcii.alpha_route_a",
+        "review.mcii.alpha_route_b_sum",
+        "review.mcii.alpha_opportunity_direction",
+        "review.mcii.alpha_route_c",
+        "review.mcii.alpha_divergence",
+        "review.mcii.delta_sign",
+        "review.mcii.delta_magnitude",
+        "review.mci.delta_crosswork"
+      ]
+    },
+    {
+      "id": "route.mcii.method_selector",
+      "purpose": "Seguir el selector eigenvector/Shapley y sus condiciones no demostradas.",
+      "triggers": [
+        "eigenvector o Shapley",
+        "sine qua non",
+        "caso mixto"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mcii.i6.selector",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mcii.i6.mixed",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mcii.iv6.shapley",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mcii.iv6.continuity",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mcii.method_selector",
+        "review.mcii.path_sufficiency",
+        "review.mcii.broken_crossreference",
+        "review.mcii.shapley_value_function",
+        "review.mcii.shapley_continuity"
+      ]
+    },
+    {
+      "id": "route.mcii.iic_annona",
+      "purpose": "Auditar IIC, ajuste de pesos y fraude annona sin promoverlos a identidad validada.",
+      "triggers": [
+        "IIC MC-II",
+        "fraude annona",
+        "compliance"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mcii.ii2.iic",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mcii.ii2.weight_adjustment",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mcii.ii2.annona",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mcii.iv5.annona",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mcii.iv5.table",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mcii.iic_codomain",
+        "review.mcii.iic_correlation",
+        "review.mcii.weight_adjustment_bounds",
+        "review.mcii.weight_adjustment_invariance",
+        "review.mcii.annona_domain",
+        "review.mcii.annona_derivation",
+        "review.mcii.annona_amplification",
+        "review.mcii.annona_arithmetic",
+        "review.mcii.annona_threshold"
+      ]
+    },
+    {
+      "id": "route.mcii.robustness",
+      "purpose": "Separar definición exacta de ρ, muestreo, declaración y error.",
+      "triggers": [
+        "ρ MC-II",
+        "hipercubo MC-II",
+        "Serie III"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mcii.ii3.hypercube",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mcii.ii3.rho",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mcii.iii2.consistency",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mcii.hypercube_sampling",
+        "review.mcii.rho_estimation",
+        "review.mcii.consistency_c3",
+        "review.mcii.consistency_c4",
+        "review.tf.vertex_robustness",
+        "review.mci.corner_exhaustiveness"
+      ]
+    },
+    {
+      "id": "route.mcii.integrated",
+      "purpose": "Conservar versiones y dependencias del protocolo integrado.",
+      "triggers": [
+        "protocolo integrado",
+        "Series I II III",
+        "C1 C2 C3 C4"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mcii.iii1.dependencies",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mcii.iii1.integrated",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mcii.iii2.consistency",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mcii.iii2.diagnostics",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mcii.iii3.dossier",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mcii.series_dependencies",
+        "review.mcii.integrated_graph_identity",
+        "review.mcii.consistency_c1",
+        "review.mcii.consistency_c2",
+        "review.mcii.consistency_c3",
+        "review.mcii.consistency_c4"
+      ]
+    },
+    {
+      "id": "route.mcii.theorem",
+      "purpose": "Auditar axiomas, PF y teorema con condiciones y fallas formales visibles.",
+      "triggers": [
+        "teorema MC-II",
+        "axiomas A1 A2 A3 A4",
+        "PF MC-II"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mcii.iv1.axioms",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mcii.iv1.independence",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mcii.iv2.theorem",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mcii.iv2.pf",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mcii.iv2.proof",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mcii.iv2.domain",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mcii.axiom_independence",
+        "review.mcii.axiom_indices",
+        "review.mcii.pf_primitive",
+        "review.mcii.theorem_a2",
+        "review.mcii.theorem_monotonicity",
+        "review.mcii.theorem_uniqueness",
+        "review.mci.pf_proof",
+        "review.mci.rstar_monotonicity"
+      ]
+    },
+    {
+      "id": "route.mcii.corollaries",
+      "purpose": "Separar descomposiciones algebraicas, definiciones añadidas y casos imposibles.",
+      "triggers": [
+        "corolarios MC-II",
+        "R* neta",
+        "Δ",
+        "fraude annona"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mcii.iv3.rnet",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mcii.iv4.delta",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mcii.iv4.impossibility",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mcii.iv5.annona",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mcii.iv5.table",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mcii.delta_sign",
+        "review.mcii.annona_derivation",
+        "review.mcii.annona_amplification",
+        "review.mcii.annona_arithmetic",
+        "review.mci.delta_crosswork",
+        "review.mci.annona_formula"
+      ]
+    },
+    {
+      "id": "route.mcii.cou",
+      "purpose": "Mantener la C.O.U. como conjetura abierta y auditar sus referencias.",
+      "triggers": [
+        "C.O.U.",
+        "operador unificador",
+        "conjetura MC-II"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mcii.iv7.conjecture",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mcii.iv7.precedents",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mcii.iv7.program",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mcii.iv7.discontinuity",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mcii.cou_sources",
+        "review.mcii.cou_definition",
+        "review.mcii.shapley_continuity"
+      ]
+    },
+    {
+      "id": "route.mcii.calibration",
+      "purpose": "Distinguir diseño de instrumento, conversión, clasificación y calibración empírica realizada.",
+      "triggers": [
+        "calibración MC-II",
+        "Apéndice A",
+        "ECO longitudinal"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mcii.a.parameters",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mcii.a.forms",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mcii.a.conversion",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mcii.a.classifier",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mcii.a.kconv",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mcii.a.sheet",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mci.empirical_calibration",
+        "review.axiom.calibration_sources",
+        "review.mcii.instrument_validity",
+        "review.mcii.conversion_values",
+        "review.mcii.delta_appendix",
+        "review.mcii.child_classifier",
+        "review.mcii.kconv",
+        "review.mcii.calibration_estimators",
+        "review.mcii.cohort_precision"
+      ]
+    },
+    {
+      "id": "route.mcii.crosswork",
+      "purpose": "Contrastar MC-II con TF, Axiomatización y MC-I conservando fórmulas y estatus históricos.",
+      "triggers": [
+        "MC-II y MC-I",
+        "MC-II y Axiomatización",
+        "MC-II y Transformación formal"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.tf.21.eigenvector",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.axiom.6.rstar",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mci.ii5.rstar",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mcii.ii1.power",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mcii.iv2.theorem",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mcii.iv4.delta",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.mcii.a.conversion",
+          "reason": "Conserva el pasaje autoral y su estatuto."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.rstar_orientation",
+        "review.axiom.rstar_sink",
+        "review.mci.rstar_orientation",
+        "review.mci.delta_crosswork",
+        "review.mcii.rstar_counterfactual",
+        "review.mcii.delta_sign",
+        "review.mcii.delta_appendix"
+      ]
     }
   ],
   "review_queue": [
@@ -30633,7 +33441,7 @@
       "status": "pending_formal_review",
       "subject": "formal.rstar",
       "question": "¿Cómo deben compatibilizarse el nodo final sumidero con fila nula y la condición de irreducibilidad/primitividad usada para la existencia, unicidad y λ₁=1 de R*?",
-      "why_not_auto_resolved": "La Definición 6 declara un nodo final sin aristas salientes y fila nula de W, mientras el Teorema 6 exige irreducibilidad sobre N y en su demostración usa W·1=1 como si toda W fuera estocástica por filas. Un sumidero con fila nula no puede alcanzar los demás nodos y su fila no suma 1. Metrología Causal V·2 vuelve a exigir irreducibilidad para la validez de R*. MC-I confunde fuerte conexidad con alcance del resultado y su caso aplicado conserva un terminal sin retorno.",
+      "why_not_auto_resolved": "La Definición 6 declara un nodo final sin aristas salientes y fila nula de W, mientras el Teorema 6 exige irreducibilidad sobre N y en su demostración usa W·1=1 como si toda W fuera estocástica por filas. Un sumidero con fila nula no puede alcanzar los demás nodos y su fila no suma 1. Metrología Causal V·2 vuelve a exigir irreducibilidad para la validez de R*. MC-I confunde fuerte conexidad con alcance del resultado y su caso aplicado conserva un terminal sin retorno. MC-II vuelve a equiparar alcanzar el sumidero con irreducibilidad y no repara la incompatibilidad.",
       "blocking": false,
       "blocking_for": [
         "software_implementation",
@@ -30642,7 +33450,9 @@
       "evidence": [
         "ev.axiom.rstar",
         "ev.mci.rstar_validity",
-        "ev.mci.vi16.graph"
+        "ev.mci.vi16.graph",
+        "ev.mcii.ii1.graph",
+        "ev.mcii.iv2.pf"
       ]
     },
     {
@@ -33313,9 +36123,11 @@
         "ev.tf.21.eigenvector",
         "ev.axiom.rstar",
         "ev.mci.ii5.rstar",
-        "ev.mci.ii6.power_pf"
+        "ev.mci.ii6.power_pf",
+        "ev.mcii.ii1.power",
+        "ev.mcii.iv1.axioms"
       ],
-      "why_not_auto_resolved": "Las dos obras registran orientaciones opuestas y producen centralidades distintas. MC-I no adjudica la diferencia: usa suma entrante en la ecuación y W en el algoritmo.",
+      "why_not_auto_resolved": "Las dos obras registran orientaciones opuestas y producen centralidades distintas. MC-I no adjudica la diferencia: usa suma entrante en la ecuación y W en el algoritmo. MC-II conserva la iteración con W y alterna índices entrantes/salientes; no adjudica W frente a Wᵀ.",
       "related_relation": "rel.tf.rstar.differs_axiom"
     },
     {
@@ -34326,9 +37138,11 @@
         "ev.axiom.6.graph",
         "ev.axiom.6.pf",
         "ev.mci.rstar_validity",
-        "ev.mci.vi16.graph"
+        "ev.mci.vi16.graph",
+        "ev.mcii.ii1.graph",
+        "ev.mcii.iv2.theorem"
       ],
-      "why_not_auto_resolved": "El sumidero no alcanza otros nodos y W no es estocástica en su última fila; las hipótesis del teorema son incompatibles. MC-I no resuelve la incompatibilidad y la reproduce en el caso aplicado."
+      "why_not_auto_resolved": "El sumidero no alcanza otros nodos y W no es estocástica en su última fila; las hipótesis del teorema son incompatibles. MC-I no resuelve la incompatibilidad y la reproduce en el caso aplicado. MC-II añade autolazo ε, pero Nf sigue sin retornar a actores y la condición PF continúa sin cumplirse."
     },
     {
       "id": "review.axiom.epsilon_dimension",
@@ -34803,9 +37617,11 @@
       ],
       "evidence": [
         "ev.mci.ii5.rstar",
-        "ev.mci.ii6.power_pf"
+        "ev.mci.ii6.power_pf",
+        "ev.mcii.ii1.power",
+        "ev.mcii.iv1.axioms"
       ],
-      "why_not_auto_resolved": "La ecuación componente usa pesos entrantes, mientras el algoritmo escrito multiplica por W; ambas orientaciones no coinciden en general."
+      "why_not_auto_resolved": "La ecuación componente usa pesos entrantes, mientras el algoritmo escrito multiplica por W; ambas orientaciones no coinciden en general. El segundo volumen reutiliza W e índices incompatibles sin fijar una convención única."
     },
     {
       "id": "review.mci.pf_hypotheses",
@@ -34819,9 +37635,11 @@
       ],
       "evidence": [
         "ev.mci.ii6.power_pf",
-        "ev.mci.a1.pf"
+        "ev.mci.a1.pf",
+        "ev.mcii.iv2.pf",
+        "ev.mcii.iv2.domain"
       ],
-      "why_not_auto_resolved": "Irreducibilidad no basta para dominancia estricta; se requiere primitividad/aperiodicidad, y el apéndice alterna ambas afirmaciones."
+      "why_not_auto_resolved": "Irreducibilidad no basta para dominancia estricta; se requiere primitividad/aperiodicidad, y el apéndice alterna ambas afirmaciones. El nuevo teorema repite que irreducibilidad implica dominancia estricta y usa una definición de conectividad insuficiente."
     },
     {
       "id": "review.mci.rnet_redistribution",
@@ -34883,9 +37701,12 @@
       ],
       "evidence": [
         "ev.mci.ii10.s_ranges",
-        "ev.mci.a4.calibration"
+        "ev.mci.a4.calibration",
+        "ev.mcii.i4.s_ranges",
+        "ev.mcii.i4.calibration_status",
+        "ev.mcii.a.parameters"
       ],
-      "why_not_auto_resolved": "La derivación se denomina ontológica y A·4 no aporta muestra, observaciones ni estimador."
+      "why_not_auto_resolved": "La derivación se denomina ontológica y A·4 no aporta muestra, observaciones ni estimador. MC-II modifica rangos y propone un protocolo futuro, pero no aporta datos de calibración."
     },
     {
       "id": "review.mci.s_designer_conflict",
@@ -34917,9 +37738,12 @@
       "evidence": [
         "ev.mci.ii12.alpha",
         "ev.mci.v4.alpha_limit",
-        "ev.mci.a4.calibration"
+        "ev.mci.a4.calibration",
+        "ev.mcii.i5.route_a",
+        "ev.mcii.i5.route_b",
+        "ev.mcii.a.conversion"
       ],
-      "why_not_auto_resolved": "Los valores se presentan como escala operativa, pero no hay estudio de fiabilidad, validez ni función de enlace a observables."
+      "why_not_auto_resolved": "Los valores se presentan como escala operativa, pero no hay estudio de fiabilidad, validez ni función de enlace a observables. Las rutas y conversiones añaden reglas operativas no validadas y una suma máxima de .99."
     },
     {
       "id": "review.mci.alpha_observability",
@@ -34932,9 +37756,11 @@
         "clinical_application"
       ],
       "evidence": [
-        "ev.mci.v4.alpha_limit"
+        "ev.mci.v4.alpha_limit",
+        "ev.mcii.i3.eco_graph",
+        "ev.mcii.i5.route_a"
       ],
-      "why_not_auto_resolved": "MC-I reconoce que α no es observable y que la narrativa puede imitar integración; ECO se propone como mejor aproximación sin validación independiente."
+      "why_not_auto_resolved": "MC-I reconoce que α no es observable y que la narrativa puede imitar integración; ECO se propone como mejor aproximación sin validación independiente. MC-II afirma observación directa de φ₂ sin estudio que adjudique la restricción previa de MC-I."
     },
     {
       "id": "review.mci.delta_crosswork",
@@ -34950,9 +37776,11 @@
       "evidence": [
         "ev.mci.ii14.delta",
         "ev.tf.24.delta_states",
-        "ev.axiom.5.delta"
+        "ev.axiom.5.delta",
+        "ev.mcii.iv4.delta",
+        "ev.mcii.a.conversion"
       ],
-      "why_not_auto_resolved": "Las expresiones tienen distinto rango y signo; MC-I reutiliza la versión de TF sin adjudicar la sustitución axiomática."
+      "why_not_auto_resolved": "Las expresiones tienen distinto rango y signo; MC-I reutiliza la versión de TF sin adjudicar la sustitución axiomática. MC-II preserva R*(1−α), conserva casos negativos imposibles y además introduce Δ_sesión con otra firma."
     },
     {
       "id": "review.mci.delta_impossible_cases",
@@ -34966,9 +37794,11 @@
       ],
       "evidence": [
         "ev.mci.ii14.delta",
-        "ev.mci.vi5.delta"
+        "ev.mci.vi5.delta",
+        "ev.mcii.ii1.delta",
+        "ev.mcii.iv4.impossibility"
       ],
-      "why_not_auto_resolved": "Con R*,α∈[0,1], Δ es no negativa y no supera R*; las interpretaciones de VI·5 requieren otro objeto o una fórmula distinta."
+      "why_not_auto_resolved": "Con R*,α∈[0,1], Δ es no negativa y no supera R*; las interpretaciones de VI·5 requieren otro objeto o una fórmula distinta. El volumen insiste en Δ<0 a la vez que declara α>1 matemáticamente imposible."
     },
     {
       "id": "review.mci.uncertainty_percentages",
@@ -35077,9 +37907,10 @@
         "software_implementation"
       ],
       "evidence": [
-        "ev.mci.iii9.iic"
+        "ev.mci.iii9.iic",
+        "ev.mcii.ii2.iic"
       ],
-      "why_not_auto_resolved": "La correlación requiere observaciones emparejadas y variación; promediar dimensiones cualitativas no define por sí solo esas series."
+      "why_not_auto_resolved": "La correlación requiere observaciones emparejadas y variación; promediar dimensiones cualitativas no define por sí solo esas series. MC-II amplía c_k a [-1,1] y admite estimación cualitativa, sin definir las observaciones de la correlación."
     },
     {
       "id": "review.mci.iic_scale",
@@ -35093,9 +37924,11 @@
       ],
       "evidence": [
         "ev.mci.iii9.iic",
-        "ev.mci.a4.calibration"
+        "ev.mci.a4.calibration",
+        "ev.mcii.ii2.iic",
+        "ev.mcii.iv5.annona"
       ],
-      "why_not_auto_resolved": "No hay datos, distribución de referencia ni estudio de sensibilidad de los cortes."
+      "why_not_auto_resolved": "No hay datos, distribución de referencia ni estudio de sensibilidad de los cortes. El volumen usa [-1,1] en Serie II y [0,1] en el corolario, por lo que la escala sigue inestable."
     },
     {
       "id": "review.mci.iic_circularity",
@@ -35126,9 +37959,10 @@
       ],
       "evidence": [
         "ev.mci.iv4.iic_weights",
-        "ev.mci.ii3.graph"
+        "ev.mci.ii3.graph",
+        "ev.mcii.ii2.weight_adjustment"
       ],
-      "why_not_auto_resolved": "k no se fija y el producto puede superar uno, contradiciendo el rango declarado de W."
+      "why_not_auto_resolved": "k no se fija y el producto puede superar uno, contradiciendo el rango declarado de W. MC-II amplía k a [.5,1.5] y renormaliza después, sin probar cotas ni efecto sobre R*."
     },
     {
       "id": "review.mci.series_identity",
@@ -35160,9 +37994,12 @@
       ],
       "evidence": [
         "ev.mci.iv5.annona",
-        "ev.mci.a4.calibration"
+        "ev.mci.a4.calibration",
+        "ev.mcii.ii2.annona",
+        "ev.mcii.iv5.annona",
+        "ev.mcii.iv5.table"
       ],
-      "why_not_auto_resolved": "La fórmula es nueva en MC-I y no se acompaña de derivación, identificación, calibración ni validación predictiva."
+      "why_not_auto_resolved": "La fórmula es nueva en MC-I y no se acompaña de derivación, identificación, calibración ni validación predictiva. MC-II llama identidad al producto, mezcla dominios del IIC y contiene un ejemplo que afirma .144>.20."
     },
     {
       "id": "review.mci.normalization_closure",
@@ -35175,9 +38012,11 @@
         "legal_application"
       ],
       "evidence": [
-        "ev.mci.iv11.normalization"
+        "ev.mci.iv11.normalization",
+        "ev.mcii.ii1.graph",
+        "ev.mcii.ii1.power"
       ],
-      "why_not_auto_resolved": "La suma unitaria resulta de normalizar cualquier vector no nulo y no demuestra que el grafo incluya todas las causas relevantes."
+      "why_not_auto_resolved": "La suma unitaria resulta de normalizar cualquier vector no nulo y no demuestra que el grafo incluya todas las causas relevantes. La nueva receta alterna normalización de columnas con una suma escrita por filas."
     },
     {
       "id": "review.mci.irreducibility_definition",
@@ -35190,9 +38029,12 @@
         "software_implementation"
       ],
       "evidence": [
-        "ev.mci.rstar_validity"
+        "ev.mci.rstar_validity",
+        "ev.mcii.i7.checklist",
+        "ev.mcii.ii1.graph",
+        "ev.mcii.iv2.pf"
       ],
-      "why_not_auto_resolved": "MC-I presenta ambas condiciones como equivalentes, pero un grafo dirigido al sumidero puede satisfacer la segunda y no la primera."
+      "why_not_auto_resolved": "MC-I presenta ambas condiciones como equivalentes, pero un grafo dirigido al sumidero puede satisfacer la segunda y no la primera. MC-II sistematiza la misma equivalencia incorrecta entre camino a Nf y fuerte conexidad."
     },
     {
       "id": "review.mci.epsilon_diagonal",
@@ -35205,9 +38047,10 @@
         "software_implementation"
       ],
       "evidence": [
-        "ev.mci.rstar_validity"
+        "ev.mci.rstar_validity",
+        "ev.mcii.ii1.graph"
       ],
-      "why_not_auto_resolved": "Los auto-bucles no conectan componentes, y la perturbación puede cambiar el autovector; la invariancia sustantiva se afirma sin prueba."
+      "why_not_auto_resolved": "Los auto-bucles no conectan componentes, y la perturbación puede cambiar el autovector; la invariancia sustantiva se afirma sin prueba. MC-II fija ε=.01 en Nf, sin mostrar que vuelva primitiva la matriz ni preserve el significado causal."
     },
     {
       "id": "review.mci.temporal_layering",
@@ -35253,9 +38096,10 @@
         "software_implementation"
       ],
       "evidence": [
-        "ev.mci.v7.shapley"
+        "ev.mci.v7.shapley",
+        "ev.mcii.iv6.shapley"
       ],
-      "why_not_auto_resolved": "Sin función de valor observable, la fórmula de Shapley no produce una atribución; la obra reconoce además coste 2^n."
+      "why_not_auto_resolved": "Sin función de valor observable, la fórmula de Shapley no produce una atribución; la obra reconoce además coste 2^n. MC-II propone calcular v(S) con W_S y normalizar en Nf, pero Nf está excluido de las coaliciones y la operación no queda definida."
     },
     {
       "id": "review.mci.discount_rate",
@@ -35457,9 +38301,11 @@
         "software_implementation"
       ],
       "evidence": [
-        "ev.mci.a3.monotonicity"
+        "ev.mci.a3.monotonicity",
+        "ev.mcii.iv1.axioms",
+        "ev.mcii.iv2.proof"
       ],
-      "why_not_auto_resolved": "La perturbación afecta todas las componentes y la normalización; la fórmula derivativa omite el resolvente reducido y no prueba el signo general."
+      "why_not_auto_resolved": "La perturbación afecta todas las componentes y la normalización; la fórmula derivativa omite el resolvente reducido y no prueba el signo general. MC-II eleva la monotonicidad de componentes a axioma y pretende probarla desde el radio espectral, sin controlar el autovector normalizado."
     },
     {
       "id": "review.mci.empirical_calibration",
@@ -35472,9 +38318,12 @@
         "empirical_application"
       ],
       "evidence": [
-        "ev.mci.a4.calibration"
+        "ev.mci.a4.calibration",
+        "ev.mcii.a.parameters",
+        "ev.mcii.a.forms",
+        "ev.mcii.a.sheet"
       ],
-      "why_not_auto_resolved": "No se aportan muestra, datos, criterios de inclusión, codificación, estimador, incertidumbre ni validación externa."
+      "why_not_auto_resolved": "No se aportan muestra, datos, criterios de inclusión, codificación, estimador, incertidumbre ni validación externa. MC-II aporta diseño prospectivo de recolección, no muestra, datos, estimaciones ni validación externa; la revisión permanece abierta."
     },
     {
       "id": "review.mci.duality_proof",
@@ -35509,6 +38358,939 @@
         "ev.mci.ii6.power_pf"
       ],
       "why_not_auto_resolved": "Con los puntos medios de las siete aristas, ni el autovector principal normalizado de W ni el de Wᵀ —incluyendo o excluyendo el resultado terminal— coincide con (.308,.118,.381,.193); la obra no publica una matriz transformada que produzca esos cuatro valores."
+    },
+    {
+      "id": "review.mcii.question_exhaustiveness",
+      "subject": "formulation.mcii.question_types",
+      "question": "¿Los cinco tipos son exhaustivos y qué evidencia produjo la ampliación de tres a cinco?",
+      "status": "pending_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "methodological_validation"
+      ],
+      "evidence": [
+        "ev.mcii.intro.question_types",
+        "ev.mcii.intro.empirical_claim"
+      ],
+      "why_not_auto_resolved": "La obra afirma exhaustividad y evidencia de campo, pero no identifica corpus, casos, selección ni análisis."
+    },
+    {
+      "id": "review.mcii.translation_validity",
+      "subject": "formulation.mcii.translation",
+      "question": "¿Qué valida las equivalencias en cada disciplina y sus consecuencias normativas?",
+      "status": "pending_domain_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "legal_application",
+        "clinical_application"
+      ],
+      "evidence": [
+        "ev.mcii.b.equivalences",
+        "ev.mcii.b.direction"
+      ],
+      "why_not_auto_resolved": "La advertencia de aproximación no aporta validación disciplinar ni autoriza presentar R* como porcentaje explicado en todos los foros."
+    },
+    {
+      "id": "review.mcii.rstar_counterfactual",
+      "subject": "formal.mcii.rstar",
+      "question": "¿Por qué un eigenvector equivale a la fracción del resultado que desaparecería al retirar un nodo?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.mcii.intro.glossary",
+        "ev.mcii.iv2.theorem"
+      ],
+      "why_not_auto_resolved": "Centralidad espectral y efecto de eliminación son objetos distintos; el teorema propuesto no demuestra la equivalencia."
+    },
+    {
+      "id": "review.mcii.edge_weight_calibration",
+      "subject": "formal.mcii.W",
+      "question": "¿Qué datos calibran los rangos E0–E8 y permiten compararlos entre dominios?",
+      "status": "pending_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.ii1.weights"
+      ],
+      "why_not_auto_resolved": "Los anchos se prescriben sin muestra, estimador, cobertura ni validación multidominio."
+    },
+    {
+      "id": "review.mcii.series_dependencies",
+      "subject": "formulation.mcii.series",
+      "question": "¿Por qué IIC tendría R* como denominador y el hipercubo el vector R* como centro?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.i1.dependencies",
+        "ev.mcii.ii2.iic_dependency",
+        "ev.mcii.iii1.dependencies"
+      ],
+      "why_not_auto_resolved": "La fórmula del IIC no contiene R* y el hipercubo se define sobre pesos de aristas, no sobre el vector de centralidad."
+    },
+    {
+      "id": "review.mcii.undocumented_nodes",
+      "subject": "formal.mcii.G",
+      "question": "¿Cómo puede un nodo E0 sin evidencia ser a la vez condición necesaria verificada?",
+      "status": "pending_methodological_review",
+      "blocking": false,
+      "blocking_for": [
+        "source_attribution",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.mcii.i7.checklist",
+        "ev.mcii.ii1.weights"
+      ],
+      "why_not_auto_resolved": "Incluir como necesario lo no documentado introduce una inferencia estructural que necesita criterio y trazabilidad propios."
+    },
+    {
+      "id": "review.mcii.phi2_observability",
+      "subject": "method.mcii.alpha_routes",
+      "question": "¿Puede DI-ECO observar φ₂ directamente y producir α cuantitativa?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "clinical_application"
+      ],
+      "evidence": [
+        "ev.mcii.i3.eco_graph",
+        "ev.mcii.i5.route_a",
+        "ev.mci.v4.alpha_limit"
+      ],
+      "why_not_auto_resolved": "MC-II afirma observación directa donde MC-I restringe la inferencia y no aporta fiabilidad ni validez del instrumento."
+    },
+    {
+      "id": "review.mcii.s_range_arithmetic",
+      "subject": "formulation.mcii.s_ranges",
+      "question": "¿Cómo se corrigen intervalos cuya amplitud contradice la amplitud uniforme declarada?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "software_implementation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.mcii.i4.s_ranges"
+      ],
+      "why_not_auto_resolved": "Varios intervalos tienen ancho .25 aunque el texto afirma .30 para todos."
+    },
+    {
+      "id": "review.mcii.s_range_calibration",
+      "subject": "formulation.mcii.s_ranges",
+      "question": "¿Qué datos sostienen rangos, midpoints y ajustes EP de S?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.mcii.i4.s_ranges",
+        "ev.mcii.i4.ep_adjustment",
+        "ev.mcii.i4.calibration_status"
+      ],
+      "why_not_auto_resolved": "La obra los llama teóricos y remite a una verificación futura."
+    },
+    {
+      "id": "review.mcii.alpha_route_a",
+      "subject": "formal.mcii.alpha",
+      "question": "¿Qué procedimiento valida los cuatro patrones clínicos como intervalos de α?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_application",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.mcii.i5.route_a"
+      ],
+      "why_not_auto_resolved": "No se documentan datos, observadores, acuerdo, sensibilidad ni relación estimada con R*."
+    },
+    {
+      "id": "review.mcii.alpha_route_b_sum",
+      "subject": "formal.mcii.alpha",
+      "question": "¿Cómo alcanza α=1 una suma de tres contribuciones máximas de .33?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "software_implementation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.mcii.i5.route_b"
+      ],
+      "why_not_auto_resolved": "La suma máxima publicada es .99 aunque el texto declara [0,1], sin regla de redondeo."
+    },
+    {
+      "id": "review.mcii.alpha_opportunity_direction",
+      "subject": "formal.mcii.alpha",
+      "question": "¿Por qué una oportunidad no actuada incrementa la asunción α?",
+      "status": "pending_doctrinal_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.mcii.i5.route_b",
+        "ev.mcii.i5.orthogonality"
+      ],
+      "why_not_auto_resolved": "La evidencia descrita acredita capacidad omitida, mientras α se define como acción verificable e integración."
+    },
+    {
+      "id": "review.mcii.alpha_route_c",
+      "subject": "formal.mcii.alpha",
+      "question": "¿Qué número de observaciones, estimador y criterio hacen estable la Ruta C?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.mcii.i5.route_c"
+      ],
+      "why_not_auto_resolved": "Diez sesiones y 'deja de cambiar significativamente' carecen de umbral, incertidumbre y estudio aportado."
+    },
+    {
+      "id": "review.mcii.alpha_divergence",
+      "subject": "method.mcii.alpha_routes",
+      "question": "¿Qué justifica el umbral .25 y las reglas asimétricas de resolución?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.i5.divergence"
+      ],
+      "why_not_auto_resolved": "No se aportan distribución del error, validación ni pérdida que funde usar mínimo, promedio o rango."
+    },
+    {
+      "id": "review.mcii.method_selector",
+      "subject": "method.mcii.method_selector",
+      "question": "¿Qué teorema justifica elegir eigenvector cuando al menos un nodo es sine qua non y Shapley cuando ninguno lo es?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.i6.selector",
+        "ev.mcii.iv6.shapley"
+      ],
+      "why_not_auto_resolved": "La condición no caracteriza centralidad ni el juego cooperativo y mezcla necesidad individual con contribución colectiva."
+    },
+    {
+      "id": "review.mcii.path_sufficiency",
+      "subject": "method.mcii.method_selector",
+      "question": "¿Cómo se calcula que un camino alternativo tiene peso suficiente para producir D?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.i6.selector"
+      ],
+      "why_not_auto_resolved": "La igualdad cualitativa D'=D no define una función de producción sobre caminos y pesos."
+    },
+    {
+      "id": "review.mcii.broken_crossreference",
+      "subject": "method.mcii.method_selector",
+      "question": "¿A qué fuente corresponde Vol. I, Cap. VII·3?",
+      "status": "pending_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "source_attribution"
+      ],
+      "evidence": [
+        "ev.mcii.i6.selector"
+      ],
+      "why_not_auto_resolved": "MC-I no contiene una Parte VII; el reenvío no permite verificar la supuesta condición matemática previa."
+    },
+    {
+      "id": "review.mcii.irreducibility",
+      "subject": "formal.mcii.G",
+      "question": "¿Cómo puede un grafo con sumidero ser irreducible bajo la definición usada?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.ii1.graph",
+        "ev.mcii.iv2.pf"
+      ],
+      "why_not_auto_resolved": "Que cada nodo alcance Nf no implica fuerte conexidad; Nf no retorna a los demás."
+    },
+    {
+      "id": "review.mcii.epsilon",
+      "subject": "formal.mcii.W",
+      "question": "¿Un autolazo ε=.01 en Nf vuelve aperiódico el grafo relevante y preserva su interpretación?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.ii1.graph"
+      ],
+      "why_not_auto_resolved": "El autolazo no hace fuertemente conexo el grafo y no repara por sí solo las hipótesis de convergencia."
+    },
+    {
+      "id": "review.mcii.normalization",
+      "subject": "formal.mcii.W",
+      "question": "¿Se normalizan filas o columnas y qué orientación representa w_ij?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.ii1.graph",
+        "ev.mcii.ii1.power"
+      ],
+      "why_not_auto_resolved": "El texto ordena normalizar columnas mientras escribe una suma por fila y luego itera W."
+    },
+    {
+      "id": "review.mcii.series1_vector",
+      "subject": "formal.mcii.series1_case",
+      "question": "¿Qué matriz exacta reproduce (.4812,.3104,.1521,.0563)?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.mcii.ii1.graph",
+        "ev.mcii.ii1.power"
+      ],
+      "why_not_auto_resolved": "Con los midpoints publicados, ninguna de las cuatro variantes auditadas reproduce el vector: W sin normalizar concentra aproximadamente (.585,.011,.404,0), Wᵀ concentra en Nf, W normalizada por filas da (.25,.25,.25,.25) y W normalizada por columnas vuelve a concentrar aproximadamente (.585,.010,.404,0)."
+    },
+    {
+      "id": "review.mcii.sink_normalization",
+      "subject": "formal.mcii.rstar",
+      "question": "¿Cómo coexisten A1 sobre todos los nodos y la exclusión posterior de Nf de responsabilidad?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.ii1.power",
+        "ev.mcii.ii1.s_rnet",
+        "ev.mcii.iv1.axioms"
+      ],
+      "why_not_auto_resolved": "El vector incluye .0563 en Nf, pero las responsabilidades de actores suman .9437 y el residuo se excluye."
+    },
+    {
+      "id": "review.mcii.delta_sign",
+      "subject": "formal.mcii.delta",
+      "question": "¿Cómo puede Δ<0 si R*,α∈[0,1] y Δ=R*(1−α)?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.ii1.delta",
+        "ev.mcii.iv4.delta",
+        "ev.mcii.iv4.impossibility"
+      ],
+      "why_not_auto_resolved": "La fórmula obliga Δ≥0 y la nota declara α>1 imposible, pero conserva inversión causal negativa."
+    },
+    {
+      "id": "review.mcii.delta_magnitude",
+      "subject": "formal.mcii.delta",
+      "question": "¿Cómo puede haber R* bajo y Δ alto bajo la fórmula multiplicativa?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.mcii.ii1.delta"
+      ],
+      "why_not_auto_resolved": "Para α∈[0,1], Δ≤R*; las tipologías que separan ambas magnitudes deben respetar esa cota."
+    },
+    {
+      "id": "review.mcii.damage_units",
+      "subject": "formal.mcii.D_total",
+      "question": "¿Cuándo T_inv, T_imp y ΔT_tray son conmensurables y cómo se estima cada término?",
+      "status": "pending_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.mcii.ii1.damage"
+      ],
+      "why_not_auto_resolved": "El destinatario fija magnitudes y horizonte, pero no se proporciona modelo de medición, escala común ni incertidumbre."
+    },
+    {
+      "id": "review.mcii.prevention_threshold",
+      "subject": "formal.mcii.AD",
+      "question": "¿Qué valida R*>.15 como umbral preventivo y una reducción prevista de R*?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "policy_application"
+      ],
+      "evidence": [
+        "ev.mcii.ii1.prevention"
+      ],
+      "why_not_auto_resolved": "No se aporta calibración ni modelo contrafactual capaz de estimar el efecto del rediseño."
+    },
+    {
+      "id": "review.mcii.iic_codomain",
+      "subject": "formal.mcii.IIC",
+      "question": "¿El IIC tiene codominio [0,1] o [-1,1]?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.ii2.iic",
+        "ev.mcii.iv5.annona",
+        "ev.mci.iii9.iic"
+      ],
+      "why_not_auto_resolved": "MC-II admite correlaciones negativas en Serie II, pero el corolario y MC-I presuponen [0,1]."
+    },
+    {
+      "id": "review.mcii.iic_correlation",
+      "subject": "formal.mcii.IIC",
+      "question": "¿Sobre qué observaciones se calcula corr(declarado,observable) para cada protocolo?",
+      "status": "pending_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.ii2.iic"
+      ],
+      "why_not_auto_resolved": "Una pareja cualitativa por protocolo no define una correlación; faltan unidad muestral, codificación, varianza y estimador."
+    },
+    {
+      "id": "review.mcii.weight_adjustment_bounds",
+      "subject": "formal.mcii.w_iic",
+      "question": "¿Cómo se preservan pesos válidos cuando IIC<0 y k llega a 1.5?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.ii2.iic",
+        "ev.mcii.ii2.weight_adjustment"
+      ],
+      "why_not_auto_resolved": "El factor puede exceder ampliamente uno y no se define la transformación de los intervalos ni restricciones conjuntas."
+    },
+    {
+      "id": "review.mcii.weight_adjustment_invariance",
+      "subject": "formal.mcii.w_iic",
+      "question": "¿La renormalización cancela el ajuste uniforme de todas las aristas salientes de N_D?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.ii2.weight_adjustment"
+      ],
+      "why_not_auto_resolved": "Con normalización por fila, multiplicar todas las salidas por el mismo factor y renormalizar deja la fila igual; con otra convención debe especificarse el efecto."
+    },
+    {
+      "id": "review.mcii.annona_domain",
+      "subject": "formal.mcii.fraud_annona",
+      "question": "¿Qué propiedades conserva fraude annona si IIC puede ser negativo?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.ii2.iic",
+        "ev.mcii.iv5.annona"
+      ],
+      "why_not_auto_resolved": "Para IIC<0, (1−IIC)>1, el índice puede exceder R* y el argumento de codominio [0,1] deja de aplicar."
+    },
+    {
+      "id": "review.mcii.annona_derivation",
+      "subject": "formal.mcii.annona_corollary",
+      "question": "¿El tercer factor se deriva de A1–A4 o es una definición adicional?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "doctrinal_use"
+      ],
+      "evidence": [
+        "ev.mcii.iv5.annona"
+      ],
+      "why_not_auto_resolved": "No hay paso lógico desde el teorema a multiplicar Δ por (1−IIC); llamarlo identidad no demuestra necesidad."
+    },
+    {
+      "id": "review.mcii.annona_amplification",
+      "subject": "formal.mcii.annona_corollary",
+      "question": "¿Por qué (1−IIC) se llama amplificación si en [0,1] reduce o conserva Δ?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.mcii.iv5.annona",
+        "ev.mcii.iv5.table"
+      ],
+      "why_not_auto_resolved": "El factor nunca supera uno bajo las hipótesis del corolario."
+    },
+    {
+      "id": "review.mcii.annona_arithmetic",
+      "subject": "formal.mcii.fraud_annona",
+      "question": "¿Cómo puede .144 superar el umbral .20?",
+      "status": "pending_editorial_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "regulatory_application"
+      ],
+      "evidence": [
+        "ev.mcii.iv5.table"
+      ],
+      "why_not_auto_resolved": "La tabla publica .20×.90×.80=.144 y afirma que supera .20; además el umbral no tiene fuente de calibración."
+    },
+    {
+      "id": "review.mcii.annona_threshold",
+      "subject": "formal.mcii.fraud_annona",
+      "question": "¿Qué datos o normas sostienen el umbral regulatorio .20?",
+      "status": "pending_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "regulatory_application",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.mcii.ii2.annona",
+        "ev.mcii.iv5.table"
+      ],
+      "why_not_auto_resolved": "No se identifican jurisdicciones, dominios, datos ni regla de decisión que lo validen."
+    },
+    {
+      "id": "review.mcii.hypercube_sampling",
+      "subject": "formal.mcii.robustness",
+      "question": "¿Cómo respeta el muestreo de Π dependencias, normalización y factibilidad de pesos?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.ii3.hypercube"
+      ],
+      "why_not_auto_resolved": "Muestrear cada arista uniforme e independientemente puede producir matrices incompatibles con las restricciones del modelo."
+    },
+    {
+      "id": "review.mcii.rho_estimation",
+      "subject": "formal.mcii.robustness",
+      "question": "¿Qué estimador, tamaño de muestra e incertidumbre aproximan el cociente de volúmenes ρ?",
+      "status": "pending_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.ii3.rho"
+      ],
+      "why_not_auto_resolved": "La definición exacta se mezcla con una evaluación finita sin intervalo de error ni criterio de convergencia."
+    },
+    {
+      "id": "review.mcii.integrated_graph_identity",
+      "subject": "method.mcii.integrated_protocol",
+      "question": "¿En qué sentido las tres series operan sobre el mismo grafo?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "software_implementation",
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.mcii.ii2.prospective_graph",
+        "ev.mcii.iii1.integrated"
+      ],
+      "why_not_auto_resolved": "Serie II añade aristas prospectivas y ajusta pesos; Serie III puede usar base o ajustado, de modo que hay objetos versionados distintos."
+    },
+    {
+      "id": "review.mcii.consistency_c1",
+      "subject": "method.mcii.consistency_checks",
+      "question": "¿Una baja IIC debe aumentar necesariamente R*_D?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.iii2.consistency",
+        "ev.mcii.iii2.diagnostics"
+      ],
+      "why_not_auto_resolved": "El efecto del ajuste depende de orientación, normalización y estructura global; no es una ley monotónica."
+    },
+    {
+      "id": "review.mcii.consistency_c2",
+      "subject": "method.mcii.consistency_checks",
+      "question": "¿Qué valida los umbrales cruzados entre Δ e IIC?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.mcii.iii2.consistency"
+      ],
+      "why_not_auto_resolved": "Son magnitudes conceptualmente distintas y los cortes .30/.10/.80/.60 no tienen calibración aportada."
+    },
+    {
+      "id": "review.mcii.consistency_c3",
+      "subject": "method.mcii.consistency_checks",
+      "question": "¿Por qué .15 es el límite entre vectores base, ajustado y adversarial?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.iii2.consistency"
+      ],
+      "why_not_auto_resolved": "No se documenta distribución de variación ni criterio de relevancia para ese corte."
+    },
+    {
+      "id": "review.mcii.consistency_c4",
+      "subject": "method.mcii.consistency_checks",
+      "question": "¿Qué relación formal vincula amplitud media de rangos y ρ?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.mcii.iii2.consistency",
+        "ev.mcii.iii2.diagnostics"
+      ],
+      "why_not_auto_resolved": "Rangos estrechos no garantizan ranking estable; la geometría y cercanía a cruces importan."
+    },
+    {
+      "id": "review.mcii.communication_overclaim",
+      "subject": "method.mcii.equivalences",
+      "question": "¿Cuándo puede comunicarse R* como porcentaje explicado, cuota jurídica o fracción atribuible?",
+      "status": "pending_domain_review",
+      "blocking": false,
+      "blocking_for": [
+        "legal_application",
+        "clinical_application",
+        "policy_application"
+      ],
+      "evidence": [
+        "ev.mcii.iii4.communication",
+        "ev.mcii.b.equivalences",
+        "ev.mcii.b.direction"
+      ],
+      "why_not_auto_resolved": "La traducción reconocida como aproximada puede transformar centralidad no validada en afirmaciones causales o normativas fuertes."
+    },
+    {
+      "id": "review.mcii.axiom_independence",
+      "subject": "formal.mcii.axioms",
+      "question": "¿Se demuestra independencia y suficiencia conjunta de A1–A4?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.mcii.iv1.axioms",
+        "ev.mcii.iv1.independence",
+        "ev.mcii.iv2.proof"
+      ],
+      "why_not_auto_resolved": "Los ejemplos alteran la centralidad o la normalización y no establecen sistemáticamente modelos que satisfagan exactamente los otros tres axiomas."
+    },
+    {
+      "id": "review.mcii.axiom_indices",
+      "subject": "formal.mcii.axioms",
+      "question": "¿A3 usa influencia saliente o entrante y coincide con A4 y W?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.iv1.axioms",
+        "ev.mcii.ii1.power"
+      ],
+      "why_not_auto_resolved": "A3 usa w_ij sobre nodos influidos; A4 se formula con w_ji entrante, sin convención única."
+    },
+    {
+      "id": "review.mcii.pf_primitive",
+      "subject": "formulation.mcii.pf_lemma",
+      "question": "¿Irreducibilidad basta para dominancia estricta y convergencia del método de potencias?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.iv2.pf"
+      ],
+      "why_not_auto_resolved": "Una matriz irreducible periódica puede tener otros autovalores con igual módulo; se requiere primitivad u otra condición."
+    },
+    {
+      "id": "review.mcii.theorem_a2",
+      "subject": "formulation.mcii.responsibility_theorem",
+      "question": "¿PF demuestra el bicondicional entre R*>0 y condición sine qua non?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.mcii.iv1.axioms",
+        "ev.mcii.iv2.proof"
+      ],
+      "why_not_auto_resolved": "PF da positividad por irreducibilidad; la prueba presupone que el protocolo eliminó irrelevantes y no demuestra necesidad contrafactual."
+    },
+    {
+      "id": "review.mcii.theorem_monotonicity",
+      "subject": "formulation.mcii.responsibility_theorem",
+      "question": "¿Monotonía del radio espectral implica monotonía de cada componente normalizada?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.mcii.iv1.axioms",
+        "ev.mcii.iv2.proof"
+      ],
+      "why_not_auto_resolved": "Cambiar una entrada perturba todas las componentes y la normalización; la inferencia componente a componente no se justifica."
+    },
+    {
+      "id": "review.mcii.theorem_uniqueness",
+      "subject": "formulation.mcii.responsibility_theorem",
+      "question": "¿La prueba establece que ninguna otra distribución satisface A1–A4?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.mcii.iv2.proof"
+      ],
+      "why_not_auto_resolved": "Mostrar que ciertas alternativas violan axiomas no prueba unicidad sobre toda la clase de distribuciones."
+    },
+    {
+      "id": "review.mcii.delta_appendix",
+      "subject": "formal.mcii.conversion",
+      "question": "¿Cómo se relaciona Δ_sesión=V1_A−P1_B con Δ=R*(1−α)?",
+      "status": "pending_authorial_adjudication",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_application",
+        "doctrinal_use"
+      ],
+      "evidence": [
+        "ev.mcii.a.conversion",
+        "ev.mcii.iv4.delta"
+      ],
+      "why_not_auto_resolved": "El apéndice cambia dependencias, unidad y signo del objeto sin declarar una nueva variable ni correspondencia."
+    },
+    {
+      "id": "review.mcii.shapley_value_function",
+      "subject": "formal.mcii.shapley",
+      "question": "¿Cómo produce W_S una fracción de D en Nf y qué ocurre si Nf no pertenece a S?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.iv6.shapley"
+      ],
+      "why_not_auto_resolved": "La submatriz se restringe a S excluyendo Nf, pero luego se normaliza sobre Nf; la operación no queda definida."
+    },
+    {
+      "id": "review.mcii.shapley_continuity",
+      "subject": "formal.mcii.shapley_extension",
+      "question": "¿En qué topología Shapley es límite continuo del eigenvector?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.mcii.iv6.continuity",
+        "ev.mcii.iv7.discontinuity"
+      ],
+      "why_not_auto_resolved": "No se da familia paramétrica ni métrica y el propio texto reconoce que k/n puede ser discontinuo."
+    },
+    {
+      "id": "review.mcii.cou_sources",
+      "subject": "formulation.mcii.unifying_operator",
+      "question": "¿Las referencias atribuidas sostienen exactamente las equivalencias descritas?",
+      "status": "pending_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "source_attribution",
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.mcii.iv7.precedents"
+      ],
+      "why_not_auto_resolved": "El corpus no incorpora bibliografía verificable ni textos de los precedentes; las atribuciones no pueden adjudicarse documentalmente."
+    },
+    {
+      "id": "review.mcii.cou_definition",
+      "subject": "formulation.mcii.unifying_operator",
+      "question": "¿Cuál es la clase C, el codominio, la métrica y los axiomas que definen O?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.mcii.iv7.conjecture",
+        "ev.mcii.iv7.program",
+        "ev.mcii.iv7.discontinuity"
+      ],
+      "why_not_auto_resolved": "La fuente marca esos componentes como programa abierto y además presenta corrupción tipográfica en el codominio."
+    },
+    {
+      "id": "review.mcii.instrument_validity",
+      "subject": "formal.mcii.forms",
+      "question": "¿Qué validez, fiabilidad y sensibilidad tienen los formularios V1–V4?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "clinical_application"
+      ],
+      "evidence": [
+        "ev.mcii.a.forms",
+        "ev.mcii.a.parameters"
+      ],
+      "why_not_auto_resolved": "Se presentan como listos para campo, pero no hay estudio piloto, manual de codificación, acuerdo interobservador ni propiedades métricas."
+    },
+    {
+      "id": "review.mcii.conversion_values",
+      "subject": "formal.mcii.conversion",
+      "question": "¿Qué calibra los valores fijos y permite mantenerlos invariantes entre poblaciones?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mcii.a.conversion",
+        "ev.mcii.a.sheet"
+      ],
+      "why_not_auto_resolved": "La tabla asigna números por diseño y afirma invariancia sin datos; mezcla escalas [0,1] y {0,1,2}."
+    },
+    {
+      "id": "review.mcii.child_classifier",
+      "subject": "method.mcii.child_classifier",
+      "question": "¿Qué datos entrenan y validan umbrales y patrones Δ del árbol?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "clinical_application"
+      ],
+      "evidence": [
+        "ev.mcii.a.classifier"
+      ],
+      "why_not_auto_resolved": "No hay muestra, etiquetas de referencia, error de clasificación ni validación externa."
+    },
+    {
+      "id": "review.mcii.kconv",
+      "subject": "formal.mcii.kconv",
+      "question": "¿Por qué tres modas iguales estiman convergencia de un eigenvector humano?",
+      "status": "pending_correspondence_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.mcii.a.kconv",
+        "ev.mcii.ii1.power"
+      ],
+      "why_not_auto_resolved": "Estabilidad de dos categorías no es convergencia espectral y no se define el estado vectorial ni la iteración humana."
+    },
+    {
+      "id": "review.mcii.calibration_estimators",
+      "subject": "method.mcii.calibration_sheet",
+      "question": "¿Los estimadores propuestos identifican w(τ), pesos de φ₁ y dimensión de E?",
+      "status": "pending_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.mcii.a.parameters",
+        "ev.mcii.a.sheet"
+      ],
+      "why_not_auto_resolved": "Correlación, regresión y PCA sobre proxies no identifican automáticamente los objetos ontológicos; faltan confusores, error de medida y modelo."
+    },
+    {
+      "id": "review.mcii.cohort_precision",
+      "subject": "method.mcii.calibration_sheet",
+      "question": "¿Por qué tres cohortes dan estabilidad y diez precisión publicable?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "source_attribution"
+      ],
+      "evidence": [
+        "ev.mcii.a.sheet"
+      ],
+      "why_not_auto_resolved": "No hay tamaños de cohorte, varianzas, potencia, pérdida longitudinal ni criterio de precisión."
     }
   ],
   "tests": [
