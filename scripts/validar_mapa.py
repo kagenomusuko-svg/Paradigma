@@ -670,6 +670,197 @@ def main() -> int:
             "La ruta general de Aego debe conservar visible la atribución variable del producto nulo",
         )
 
+        # Invariantes ganadas al integrar Afrodita Areia IV sistemáticamente en F2.
+        aa4_structure_path = (
+            ROOT
+            / "corpus"
+            / "libros"
+            / "afrodita-areia"
+            / "04-areopago"
+            / "estructura.json"
+        )
+        require(aa4_structure_path.exists(), "Falta la estructura derivada de Afrodita Areia IV")
+        aa4_structure = json.loads(aa4_structure_path.read_text(encoding="utf-8"))
+        require(
+            aa4_structure.get("sha256") == works["AA-IV"]["sha256"],
+            "La estructura de Afrodita Areia IV no corresponde al hash de la fuente canónica",
+        )
+        require(
+            aa4_structure.get("source") == works["AA-IV"]["source"],
+            "La ruta canónica de Afrodita Areia IV debe conservar la grafía editorial registrada",
+        )
+        aa4_segments = {
+            segment["path"]: (segment["start_line"], segment["end_line"])
+            for segment in aa4_structure["segments"]
+        }
+        require(len(aa4_segments) == 19, "La estructura de Afrodita Areia IV debe conservar sus 19 segmentos")
+        aa4_evidence = [ev for ev in evidence.values() if ev["work_id"] == "AA-IV"]
+        aa4_covered_segments = {ev["segment"] for ev in aa4_evidence}
+        require(
+            set(aa4_segments) <= aa4_covered_segments,
+            "La auditoría de Afrodita Areia IV debe cubrir preliminares, prólogo, "
+            "trece capítulos, glosario y tres apéndices; faltan: "
+            f"{sorted(set(aa4_segments) - aa4_covered_segments)}",
+        )
+        require(
+            len(aa4_evidence) >= 42,
+            f"La auditoría semántica de Afrodita Areia IV perdió granularidad: {len(aa4_evidence)} evidencias",
+        )
+        for ev in aa4_evidence:
+            require(ev["segment"] in aa4_segments, f"{ev['id']}: segmento de AA-IV no declarado en estructura.json")
+            segment_start, segment_end = aa4_segments[ev["segment"]]
+            line_start, line_end = ev["source_lines"]
+            require(
+                segment_start <= line_start <= line_end <= segment_end,
+                f"{ev['id']}: rango fuera del segmento declarado {ev['segment']}",
+            )
+
+        required_aa4_nodes = {
+            "concept.imputacion_causal.aa4",
+            "concept.cadena_causal.aa4",
+            "concept.nodo_necesario.aa4",
+            "concept.diseno_campo.aa4",
+            "concept.sustituibilidad.aa4",
+            "concept.jerarquia_causal.aa4",
+            "concept.dolo.aa4",
+            "concept.invisibilidades_dolo.aa4",
+            "concept.externalizacion_causal.aa4",
+            "concept.dano_secundario.aa4",
+            "concept.eutaxia_utopica.aa4",
+            "concept.dano_total.aa4",
+            "concept.pena_tiempo_vida.aa4",
+            "concept.deslinde_autoridad.aa4",
+            "concept.limite_funcional_legal.aa4",
+            "concept.quid_pro_quo.aa4",
+            "concept.imputacion_acto_por_acto.aa4",
+            "concept.delta_int.aa4",
+            "concept.delta_ext.aa4",
+            "concept.causalidad_acumulativa.aa4",
+            "concept.dano_sin_nodo_individual.aa4",
+            "concept.contrato_fiscal.aa4",
+            "concept.soberano_ontologico.aa4",
+            "concept.soberano_colectivo.aa4",
+            "concept.ciudadano.aa4",
+            "concept.derechos_activo.aa4",
+            "concept.estado_deudor.aa4",
+            "concept.fraude_annona.aa4",
+            "concept.eutaxia_colectiva.aa4",
+            "formulation.responsibility.aa4",
+            "formulation.corporate_ego.aa4",
+            "formulation.damasen_peribea_institutional.aa4",
+            "formulation.normativity_limit.aa4",
+            "formulation.subordinate_imputability.aa4",
+            "formulation.fiscal.aa4",
+            "formal.node_necessary.aa4",
+            "formal.secondary_damage.aa4",
+            "formal.total_damage.aa4",
+            "formal.ego_iteration.aa4",
+            "formal.derivatives.aa4",
+            "formal.imputation_postulates.aa4",
+        }
+        require(
+            required_aa4_nodes <= set(nodes),
+            f"Núcleo de Afrodita Areia IV incompleto; faltan nodos: {sorted(required_aa4_nodes - set(nodes))}",
+        )
+
+        required_aa4_routes = {
+            "route.aa4.architecture_method",
+            "route.aa4.responsibility_causality",
+            "route.aa4.corporate_ego",
+            "route.aa4.node_hierarchy",
+            "route.aa4.damasen_peribea",
+            "route.aa4.dolo_externalization",
+            "route.aa4.damage_penalty",
+            "route.aa4.eutaxia",
+            "route.aa4.subordinate",
+            "route.aa4.derivatives_formal",
+            "route.aa4.fiscal_contract",
+            "route.aa4.open_limits",
+        }
+        require(
+            required_aa4_routes <= set(routes),
+            f"Rutas de Afrodita Areia IV incompletas: {sorted(required_aa4_routes - set(routes))}",
+        )
+
+        aa4_reviews = {
+            "review.aa4.responsibility_crosswalk",
+            "review.aa4.corporate_ego",
+            "review.aa4.normative_derivation",
+            "review.aa4.node_necessity",
+            "review.aa4.overdetermination",
+            "review.aa4.proportionality",
+            "review.aa4.executor_necessity",
+            "review.aa4.damasen_crosswalk",
+            "review.aa4.secondary_damage_measure",
+            "review.aa4.subordinate_criteria",
+            "review.aa4.derivative_formalization",
+            "review.aa4.postulate_inventory",
+            "review.aa4.fiscal_crosswalk",
+            "review.aa4.editorial_notation",
+        }
+        require(aa4_reviews <= set(reviews), "Deben conservarse las catorce revisiones pendientes de Afrodita Areia IV")
+        require(
+            {
+                "review.aa4.node_necessity",
+                "review.aa4.overdetermination",
+                "review.aa4.proportionality",
+                "review.aa4.executor_necessity",
+            }
+            <= set(routes["route.aa4.node_hierarchy"].get("must_surface_review_items", [])),
+            "La ruta causal de AA-IV debe surfacer necesidad, sobredeterminación, proporcionalidad y ejecutor",
+        )
+        require(
+            {
+                "review.aa4.derivative_formalization",
+                "review.aa4.postulate_inventory",
+                "review.aa4.editorial_notation",
+                "review.aa3.aego_zero_locus",
+                "review.aa3.aego_regime_derivative",
+            }
+            <= set(routes["route.aa4.derivatives_formal"].get("must_surface_review_items", [])),
+            "La ruta formal de AA-IV debe surfacer tipado, inventario, notación y tensiones heredadas de Aego",
+        )
+        require(
+            {
+                "review.aa4.fiscal_crosswalk",
+                "review.aa4.normative_derivation",
+                "review.aa3.aego_zero_locus",
+            }
+            <= set(routes["route.aa4.fiscal_contract"].get("must_surface_review_items", [])),
+            "La ruta fiscal de AA-IV debe surfacer evolución, derivación normativa y Aego",
+        )
+        require(
+            {"review.aa4.subordinate_criteria", "review.aa4.executor_necessity"}
+            <= set(routes["route.aa4.subordinate"].get("must_surface_review_items", [])),
+            "La ruta del subordinado debe surfacer sus criterios variables y el estatuto del ejecutor",
+        )
+        require(
+            "review.aa4.responsibility_crosswalk"
+            in routes["route.aa1.responsibility_assumption"].get("must_surface_review_items", []),
+            "La ruta histórica de responsabilidad debe conservar visible la reformulación de AA-IV",
+        )
+        require(
+            "review.aa4.damasen_crosswalk"
+            in routes["route.aego.definicion_evolucion"].get("must_surface_review_items", []),
+            "La ruta general de Aego debe conservar visible la aplicación institucional de AA-IV",
+        )
+        require(
+            "review.aa4.fiscal_crosswalk"
+            in routes["route.aa3.fiscal_contract"].get("must_surface_review_items", []),
+            "La ruta fiscal de AA-III debe conservar visible la reformulación de AA-IV",
+        )
+        require(
+            relations["rel.responsibility_aa4.differs_aa1"]["evidence_status"] == "inferred"
+            and relations["rel.damasen_application_aa4.reframes_aa3"]["evidence_status"] == "inferred"
+            and relations["rel.fiscal_aa4.reframes_aa3"]["evidence_status"] == "inferred",
+            "Las diferencias históricas de AA-IV no pueden presentarse como adjudicaciones autorales",
+        )
+        require(
+            nodes["formal.imputation_postulates.aa4"]["formal_spec"]["listed"]
+            == ["I1", "I2", "I5", "I6", "I7", "I9", "I10"],
+            "La omisión editorial de I3, I4 e I8 debe conservarse visible hasta revisión",
+        )
+
     print(
         "Mapa válido:",
         f"fase={phase}, schema={schema_status};",
@@ -683,7 +874,8 @@ def main() -> int:
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'CAOS'])} evidencias de Caos,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-I'])} evidencias de Afrodita Areia I,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-II'])} evidencias de Afrodita Areia II,",
-        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-III'])} evidencias de Afrodita Areia III."
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-III'])} evidencias de Afrodita Areia III,",
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-IV'])} evidencias de Afrodita Areia IV."
     )
     return 0
 
