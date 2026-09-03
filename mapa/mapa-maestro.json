@@ -1479,7 +1479,7 @@
     {
       "id": "ev.aa3.preface.program",
       "work_id": "AA-III",
-      "segment": "corpus/libros/afrodita-areia/03-damasen/00-prefacio.md",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/01-prefacio.md",
       "source_lines": [76, 320],
       "section": "Prefacio · programa en cinco partes y función del volumen",
       "evidence_type": "authorial_program"
@@ -1487,7 +1487,7 @@
     {
       "id": "ev.aa3.preface.edges",
       "work_id": "AA-III",
-      "segment": "corpus/libros/afrodita-areia/03-damasen/00-prefacio.md",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/01-prefacio.md",
       "source_lines": [76, 320],
       "section": "Prefacio · Damasén y Peribea como bordes opuestos del Aego",
       "evidence_type": "conceptual_architecture"
@@ -1495,7 +1495,7 @@
     {
       "id": "ev.aa3.preface.collective",
       "work_id": "AA-III",
-      "segment": "corpus/libros/afrodita-areia/03-damasen/00-prefacio.md",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/01-prefacio.md",
       "source_lines": [76, 320],
       "section": "Prefacio · escala colectiva, soberanía y consecuencia fiscal",
       "evidence_type": "scope_statement"
@@ -1503,7 +1503,7 @@
     {
       "id": "ev.aa3.prologue.debates",
       "work_id": "AA-III",
-      "segment": "corpus/libros/afrodita-areia/03-damasen/00-prologo.md",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/02-prologo.md",
       "source_lines": [321, 748],
       "section": "Prólogo · interlocución con teoría del poder, psicoanálisis y teoría de la acción",
       "evidence_type": "authorial_interlocution"
@@ -1511,7 +1511,7 @@
     {
       "id": "ev.aa3.prologue.inherited_model",
       "work_id": "AA-III",
-      "segment": "corpus/libros/afrodita-areia/03-damasen/00-prologo.md",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/02-prologo.md",
       "source_lines": [321, 748],
       "section": "Prólogo · modelo recibido de pasión, doble mediación e integral",
       "evidence_type": "historical_formulation"
@@ -1519,7 +1519,7 @@
     {
       "id": "ev.aa3.prologue.levels",
       "work_id": "AA-III",
-      "segment": "corpus/libros/afrodita-areia/03-damasen/00-prologo.md",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/02-prologo.md",
       "source_lines": [321, 748],
       "section": "Prólogo · preguntas ontológica, relacional y colectiva; límite no humano",
       "evidence_type": "method_and_scope"
