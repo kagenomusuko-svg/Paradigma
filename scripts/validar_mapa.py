@@ -2463,6 +2463,271 @@ def main() -> int:
             "La ruta de clausura debe impedir presentar sus resultados como validados",
         )
 
+        # Invariantes ganadas al integrar Metrología Causal I en F3.
+        mci_structure_path = (
+            ROOT
+            / "corpus"
+            / "libros"
+            / "metrologia-causal"
+            / "01-la-ciencia-de-la-medicion-causal"
+            / "estructura.json"
+        )
+        require(mci_structure_path.exists(), "Falta la estructura derivada de Metrología Causal I")
+        mci_structure = json.loads(mci_structure_path.read_text(encoding="utf-8"))
+        require(
+            mci_structure.get("sha256")
+            == "f5a154fbeb8e82c89cb8fd935af7741e2f961bc8347d76c6efe413966a0c370f",
+            "La estructura de Metrología Causal I no corresponde al hash de la fuente canónica",
+        )
+        mci_segments = {
+            segment["path"]: (segment["start_line"], segment["end_line"])
+            for segment in mci_structure["segments"]
+        }
+        require(
+            len(mci_segments) == 99,
+            "Metrología Causal I debe conservar preliminares, prólogo, 88 capítulos, "
+            "dos epílogos, seis apéndices y glosario",
+        )
+        mci_evidence = [ev for ev in evidence.values() if ev["work_id"] == "MC-I"]
+        mci_covered_segments = {ev["segment"] for ev in mci_evidence}
+        require(
+            set(mci_segments) <= mci_covered_segments,
+            "La auditoría de Metrología Causal I debe cubrir sus 99 segmentos; faltan: "
+            f"{sorted(set(mci_segments) - mci_covered_segments)}",
+        )
+        require(
+            len(mci_evidence) >= 175,
+            "La auditoría semántica de Metrología Causal I perdió granularidad: "
+            f"{len(mci_evidence)} evidencias",
+        )
+        for ev in mci_evidence:
+            require(
+                ev["segment"] in mci_segments,
+                f"{ev['id']}: segmento de Metrología Causal I no declarado en estructura.json",
+            )
+            segment_start, segment_end = mci_segments[ev["segment"]]
+            line_start, line_end = ev["source_lines"]
+            require(
+                segment_start <= line_start <= line_end <= segment_end,
+                f"{ev['id']}: rango fuera del segmento declarado {ev['segment']}",
+            )
+
+        required_mci_nodes = {
+            "concept.mci.causal_metrology",
+            "formulation.mci.prior_validation_claims",
+            "formulation.mci.structural_correspondence",
+            "formulation.mci.integral_correspondence",
+            "formulation.mci.quantum_scope",
+            "formulation.mci.internal_measurement",
+            "method.mci.operationalization",
+            "formal.mci.necessary_node",
+            "formal.mci.G",
+            "formal.mci.W",
+            "formal.mci.phi1",
+            "formal.mci.phi2",
+            "formal.mci.ego_update",
+            "formal.mci.rstar",
+            "formal.mci.rstar_net",
+            "formal.mci.rstar_b",
+            "formal.mci.S",
+            "formulation.mci.s_ranges",
+            "formulation.mci.s_designer_zero",
+            "formulation.mci.s_nonestimable",
+            "formal.mci.alpha",
+            "formal.mci.delta",
+            "formal.mci.weight_intervals",
+            "formal.mci.declaration",
+            "method.mci.children_classifier",
+            "formal.mci.IIC",
+            "formal.mci.w_iic",
+            "formal.mci.fraud_annona",
+            "formulation.mci.series",
+            "method.mci.validity_levels",
+            "formal.mci.shapley",
+            "method.mci.time_expansion",
+            "method.mci.dossier",
+            "formal.mci.robustness",
+            "concept.mci.application_limits",
+            "case.mci.altamirano",
+            "formal.mci.altamirano_graph",
+            "formal.mci.altamirano_vector",
+            "formulation.mci.pf_proof",
+            "formulation.mci.spectral_claims",
+            "formulation.mci.monotonicity",
+            "method.mci.empirical_calibration",
+            "formulation.mci.duality",
+        }
+        require(
+            required_mci_nodes <= set(nodes),
+            "Núcleo de Metrología Causal I incompleto; faltan nodos: "
+            f"{sorted(required_mci_nodes - set(nodes))}",
+        )
+        for node_id in {
+            node_id for node_id in required_mci_nodes if node_id.startswith("formal.mci.")
+        }:
+            spec = nodes[node_id].get("formal_spec", {})
+            require(
+                bool(spec.get("object_type"))
+                and bool(spec.get("epistemic_status"))
+                and bool(spec.get("ontological_correspondence")),
+                f"{node_id}: debe conservar tipo, estatuto epistémico y correspondencia ontológica",
+            )
+
+        required_mci_routes = {
+            "route.mci.architecture",
+            "route.mci.correspondence",
+            "route.mci.phi_ego",
+            "route.mci.rstar",
+            "route.mci.s_rnet",
+            "route.mci.alpha_delta",
+            "route.mci.classifier",
+            "route.mci.iic_series",
+            "route.mci.validity_uncertainty",
+            "route.mci.dossier_case",
+            "route.mci.appendices",
+            "route.mci.crosswork",
+        }
+        require(
+            required_mci_routes <= set(routes),
+            "Rutas de Metrología Causal I incompletas: "
+            f"{sorted(required_mci_routes - set(routes))}",
+        )
+        required_mci_reviews = {
+            "review.mci.retroactive_isomorphism",
+            "review.mci.integral_properties",
+            "review.mci.phi_typing",
+            "review.mci.necessary_eigenvector",
+            "review.mci.graph_connectivity",
+            "review.mci.rstar_orientation",
+            "review.mci.pf_hypotheses",
+            "review.mci.rnet_redistribution",
+            "review.mci.s_probability",
+            "review.mci.s_ranges_calibration",
+            "review.mci.s_designer_conflict",
+            "review.mci.alpha_calibration",
+            "review.mci.alpha_observability",
+            "review.mci.delta_crosswork",
+            "review.mci.delta_impossible_cases",
+            "review.mci.interval_widths",
+            "review.mci.declaration_a_logic",
+            "review.mci.classifier_bayesian",
+            "review.mci.iic_definition",
+            "review.mci.iic_circularity",
+            "review.mci.w_iic_bounds",
+            "review.mci.series_identity",
+            "review.mci.annona_formula",
+            "review.mci.normalization_closure",
+            "review.mci.irreducibility_definition",
+            "review.mci.epsilon_diagonal",
+            "review.mci.correction_propagation",
+            "review.mci.shapley_value_function",
+            "review.mci.corner_exhaustiveness",
+            "review.mci.robustness_statistic",
+            "review.mci.case_sources",
+            "review.mci.altamirano_graph_pf",
+            "review.mci.altamirano_vector_reproduction",
+            "review.mci.pf_proof",
+            "review.mci.spectral_markov",
+            "review.mci.rstar_monotonicity",
+            "review.mci.empirical_calibration",
+            "review.mci.duality_proof",
+        }
+        require(
+            required_mci_reviews <= set(reviews),
+            "Deben conservarse las revisiones formales, metrológicas y empíricas de MC-I",
+        )
+        required_mci_inferred_relations = {
+            "rel.mci.correspondence.reclassifies_caos",
+            "rel.mci.correspondence.reclassifies_tf",
+            "rel.mci.phi1.refines_tf",
+            "rel.mci.phi1.differs_axiom",
+            "rel.mci.phi2.refines_tf",
+            "rel.mci.phi2.differs_axiom",
+            "rel.mci.rstar.operationalizes_tf",
+            "rel.mci.rstar.reuses_axiom",
+            "rel.mci.rnet.reuses_tf",
+            "rel.mci.rnet.differs_axiom",
+            "rel.mci.s.operationalizes_tf",
+            "rel.mci.s.differs_axiom",
+            "rel.mci.s_nonestimable.restricts_s",
+            "rel.mci.alpha.operationalizes_tf",
+            "rel.mci.alpha.differs_axiom",
+            "rel.mci.delta.reuses_tf",
+            "rel.mci.delta.differs_axiom",
+            "rel.mci.classifier.operationalizes_children",
+            "rel.mci.iic.operationalizes_tf",
+            "rel.mci.w_iic.operationalizes_tf",
+            "rel.mci.annona.elaborates_axiom",
+            "rel.mci.robustness.elaborates_tf",
+            "rel.mci.robustness.elaborates_axiom",
+            "rel.mci.calibration.claims_tf_gap",
+        }
+        require(
+            all(
+                relation_id in relations
+                and relations[relation_id]["evidence_status"] == "inferred"
+                and bool(relations[relation_id].get("rationale"))
+                for relation_id in required_mci_inferred_relations
+            ),
+            "Los cruces de MC-I con F2, TF y Axiomatización deben seguir inferidos",
+        )
+        require(
+            nodes["formal.mci.rstar"]["formal_spec"].get("epistemic_status")
+            == "authorial_operationalization_internally_inconsistent",
+            "MC-I no puede presentar R* como cálculo validado mientras discrepen ecuación e iteración",
+        )
+        require(
+            nodes["formal.mci.S"]["formal_spec"].get("codomain")
+            == "[0,1] o no estimable",
+            "La restricción de no estimabilidad de S debe permanecer visible",
+        )
+        require(
+            nodes["formal.mci.delta"]["formal_spec"].get("expression") == "Δ=R*(1−α)",
+            "No debe armonizarse la fórmula de Δ en MC-I con la resta de Axiomatización",
+        )
+        require(
+            nodes["formal.mci.robustness"]["formal_spec"].get("epistemic_status")
+            == "authorial_algorithm_with_invalid_exhaustiveness_claims",
+            "El protocolo de vértices no puede promoverse a garantía universal",
+        )
+        require(
+            {
+                "review.rstar.sink_irreducibility",
+                "review.tf.rstar_orientation",
+                "review.axiom.rstar_sink",
+                "review.mci.graph_connectivity",
+                "review.mci.rstar_orientation",
+                "review.mci.pf_hypotheses",
+                "review.mci.normalization_closure",
+            }
+            <= set(routes["route.mci.rstar"].get("must_surface_review_items", [])),
+            "La ruta R* de MC-I debe surfacer problemas heredados y propios",
+        )
+        require(
+            {
+                "review.tf.vertex_robustness",
+                "review.axiom.rstar_intervals",
+                "review.mci.interval_widths",
+                "review.mci.declaration_a_logic",
+                "review.mci.corner_exhaustiveness",
+            }
+            <= set(
+                routes["route.mci.validity_uncertainty"].get(
+                    "must_surface_review_items", []
+                )
+            ),
+            "La ruta de incertidumbre de MC-I debe impedir confundir muestreo con garantía",
+        )
+        require(
+            {
+                "review.mci.case_sources",
+                "review.mci.altamirano_graph_pf",
+                "review.mci.altamirano_vector_reproduction",
+            }
+            <= set(routes["route.mci.dossier_case"].get("must_surface_review_items", [])),
+            "La ruta del caso no puede presentar el vector publicado como reproducido",
+        )
+
     print(
         "Mapa válido:",
         f"fase={phase}, schema={schema_status};",
@@ -2483,7 +2748,8 @@ def main() -> int:
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'MASCARAS'])} evidencias de El juego de las máscaras,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'TELAR'])} evidencias de El telar de las Moiras,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'TRANSFORMACION-FORMAL'])} evidencias de La transformación formal,",
-        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AXIOM-SDM'])} evidencias de Axiomatización."
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AXIOM-SDM'])} evidencias de Axiomatización,",
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'MC-I'])} evidencias de Metrología Causal I."
     )
     return 0
 
