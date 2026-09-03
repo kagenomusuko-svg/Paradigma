@@ -1101,6 +1101,269 @@ def main() -> int:
             "La deducción fiscal introducida solo en el glosario debe permanecer visible",
         )
 
+        # Invariantes ganadas al integrar El dilema de Aquiles sistemáticamente en F2.
+        require("AQUILES" in works, "Falta El dilema de Aquiles en el registro de obras")
+        aquiles_structure_path = (
+            ROOT
+            / "corpus"
+            / "libros"
+            / "dilema-de-aquiles"
+            / "estructura.json"
+        )
+        require(aquiles_structure_path.exists(), "Falta la estructura derivada de El dilema de Aquiles")
+        aquiles_structure = json.loads(aquiles_structure_path.read_text(encoding="utf-8"))
+        require(
+            aquiles_structure.get("sha256") == works["AQUILES"]["sha256"],
+            "La estructura de El dilema de Aquiles no corresponde al hash de la fuente canónica",
+        )
+        require(
+            aquiles_structure.get("source") == works["AQUILES"]["source"],
+            "La ruta canónica de El dilema de Aquiles debe conservarse sin sustituciones editoriales",
+        )
+        aquiles_segments = {
+            segment["path"]: (segment["start_line"], segment["end_line"])
+            for segment in aquiles_structure["segments"]
+        }
+        require(
+            len(aquiles_segments) == 11,
+            "La estructura de El dilema de Aquiles debe conservar preliminares, prólogo, ocho capítulos y epílogo",
+        )
+        aquiles_evidence = [ev for ev in evidence.values() if ev["work_id"] == "AQUILES"]
+        aquiles_covered_segments = {ev["segment"] for ev in aquiles_evidence}
+        require(
+            set(aquiles_segments) <= aquiles_covered_segments,
+            "La auditoría de El dilema de Aquiles debe cubrir sus once segmentos; faltan: "
+            f"{sorted(set(aquiles_segments) - aquiles_covered_segments)}",
+        )
+        require(
+            len(aquiles_evidence) >= 51,
+            "La auditoría semántica de El dilema de Aquiles perdió granularidad: "
+            f"{len(aquiles_evidence)} evidencias",
+        )
+        for ev in aquiles_evidence:
+            require(
+                ev["segment"] in aquiles_segments,
+                f"{ev['id']}: segmento de El dilema de Aquiles no declarado en estructura.json",
+            )
+            segment_start, segment_end = aquiles_segments[ev["segment"]]
+            line_start, line_end = ev["source_lines"]
+            require(
+                segment_start <= line_start <= line_end <= segment_end,
+                f"{ev['id']}: rango fuera del segmento declarado {ev['segment']}",
+            )
+
+        required_aquiles_nodes = {
+            "formulation.scope.aq",
+            "concept.ego_axis.aq",
+            "formulation.ego.aq",
+            "concept.ego_image.aq",
+            "concept.own_egolatry.aq",
+            "concept.borrowed_egolatry.aq",
+            "concept.egocentrism.aq",
+            "concept.achilles_dilemma.aq",
+            "concept.image_displacement.aq",
+            "formulation.displacement_stages.aq",
+            "concept.confirming_recognition.aq",
+            "concept.constitutive_recognition.aq",
+            "concept.performance_identity.aq",
+            "concept.visibility_economy.aq",
+            "formulation.achilles_myth.aq",
+            "concept.kleos_image.aq",
+            "concept.heel_blindspot.aq",
+            "formulation.dissociation.aq",
+            "concept.acting_self.aq",
+            "concept.representing_self.aq",
+            "formulation.dissociation_mechanisms.aq",
+            "concept.body_witness.aq",
+            "concept.image_fall.aq",
+            "formulation.fall_stages.aq",
+            "concept.return_self.aq",
+            "concept.causal_selfdetermination.aq",
+            "formulation.return_practices.aq",
+            "concept.internal_sovereign_fear.aq",
+            "concept.fear_forgiveness.aq",
+            "concept.sovereign_forgiveness.aq",
+            "formulation.forgiveness.aq",
+            "concept.presence.aq",
+            "concept.performance.aq",
+            "concept.bounded_generosity.aq",
+            "formulation.responsibility.aq",
+            "concept.position_ethics.aq",
+            "concept.excellence_without_image.aq",
+            "formulation.authentic_ethics.aq",
+            "concept.habited_tension.aq",
+            "concept.return_within_return.aq",
+            "formulation.narrative_identity.aq",
+            "concept.phthia.aq",
+        }
+        require(
+            required_aquiles_nodes <= set(nodes),
+            "Núcleo de El dilema de Aquiles incompleto; faltan nodos: "
+            f"{sorted(required_aquiles_nodes - set(nodes))}",
+        )
+
+        required_aquiles_routes = {
+            "route.aq.scope_sources",
+            "route.aq.ego_triad",
+            "route.aq.displacement_recognition",
+            "route.aq.myth_analysis",
+            "route.aq.dissociation_fall",
+            "route.aq.fear_forgiveness",
+            "route.aq.return_autodetermination",
+            "route.aq.authentic_ethics",
+            "route.aq.tension_closure",
+            "route.aq.crosswork_history",
+        }
+        require(
+            required_aquiles_routes <= set(routes),
+            "Rutas de El dilema de Aquiles incompletas: "
+            f"{sorted(required_aquiles_routes - set(routes))}",
+        )
+
+        aquiles_reviews = {
+            "review.aq.ego_crosswalk",
+            "review.aq.ego_ownership",
+            "review.aq.authenticity_criterion",
+            "review.aq.clinical_boundary",
+            "review.aq.empirical_support",
+            "review.aq.myth_status",
+            "review.aq.editorial_citations",
+            "review.aq.dissociation_crosswalk",
+            "review.aq.dissociation_operationalization",
+            "review.aq.body_claims",
+            "review.aq.fall_inevitability",
+            "review.aq.return_ontology",
+            "review.aq.hobbes_status",
+            "review.aq.forgiveness_order",
+            "review.aq.forgiveness_normativity",
+            "review.aq.responsibility_crosswalk",
+            "review.aq.freedom_crosswalk",
+            "review.aq.identity_crosswalk",
+            "review.aq.relational_generalization",
+        }
+        require(
+            aquiles_reviews <= set(reviews),
+            "Deben conservarse las diecinueve revisiones pendientes de El dilema de Aquiles",
+        )
+        require(
+            {
+                "review.aq.clinical_boundary",
+                "review.aq.empirical_support",
+                "review.aq.myth_status",
+                "review.aq.editorial_citations",
+            }
+            <= set(routes["route.aq.scope_sources"].get("must_surface_review_items", [])),
+            "La ruta de alcance de Aquiles debe conservar sus reservas clínicas, empíricas, míticas y editoriales",
+        )
+        require(
+            {
+                "review.aq.ego_crosswalk",
+                "review.aq.ego_ownership",
+                "review.aq.authenticity_criterion",
+            }
+            <= set(routes["route.aq.ego_triad"].get("must_surface_review_items", [])),
+            "La ruta del ego de Aquiles debe surfacer formulación histórica, propiedad y criterio de autenticidad",
+        )
+        require(
+            {
+                "review.aq.clinical_boundary",
+                "review.aq.dissociation_crosswalk",
+                "review.aq.dissociation_operationalization",
+                "review.aq.body_claims",
+                "review.aq.fall_inevitability",
+                "review.aq.return_ontology",
+            }
+            <= set(routes["route.aq.dissociation_fall"].get("must_surface_review_items", [])),
+            "La ruta disociación-caída debe conservar todas sus reservas de alcance, medida y ontología",
+        )
+        require(
+            {
+                "review.aq.hobbes_status",
+                "review.aq.forgiveness_order",
+                "review.aq.forgiveness_normativity",
+                "review.aq.relational_generalization",
+            }
+            <= set(routes["route.aq.fear_forgiveness"].get("must_surface_review_items", [])),
+            "La ruta miedo-perdón debe conservar contradicción hobbesiana, orden, normatividad y alcance relacional",
+        )
+        require(
+            {
+                "review.aq.ego_crosswalk",
+                "review.aq.ego_ownership",
+                "review.aq.authenticity_criterion",
+                "review.aq.clinical_boundary",
+                "review.aq.empirical_support",
+                "review.aq.return_ontology",
+                "review.aq.freedom_crosswalk",
+                "review.aq.identity_crosswalk",
+            }
+            <= set(routes["route.aq.return_autodetermination"].get("must_surface_review_items", [])),
+            "La ruta de retorno debe conservar todas las reservas doctrinales, clínicas y metódicas",
+        )
+        require(
+            {
+                "review.aq.ego_crosswalk",
+                "review.aq.dissociation_crosswalk",
+                "review.aq.freedom_crosswalk",
+                "review.aq.responsibility_crosswalk",
+                "review.aq.identity_crosswalk",
+            }
+            <= set(routes["route.aq.crosswork_history"].get("must_surface_review_items", [])),
+            "La ruta histórica de Aquiles no puede ocultar ninguna diferencia con el núcleo ontológico",
+        )
+        require(
+            {
+                "review.aq.ego_crosswalk",
+                "review.aq.ego_ownership",
+            }
+            <= set(routes["route.ego.explicacion"].get("must_surface_review_items", [])),
+            "La ruta general del ego debe conservar visible la formulación de Aquiles",
+        )
+        require(
+            {
+                "review.aq.dissociation_crosswalk",
+                "review.aq.identity_crosswalk",
+            }
+            <= set(routes["route.aa1.identity_distortions"].get("must_surface_review_items", [])),
+            "La ruta histórica de identidad y disociación debe incorporar las diferencias de Aquiles",
+        )
+        require(
+            "review.aq.responsibility_crosswalk"
+            in routes["route.aa4.responsibility_causality"].get("must_surface_review_items", []),
+            "La ruta de responsabilidad causal debe conservar visible la condición de autoría de Aquiles",
+        )
+        require(
+            "review.aq.freedom_crosswalk"
+            in routes["route.aa5.ego_freedom"].get("must_surface_review_items", []),
+            "La ruta histórica de libertad debe conservar visible la autodeterminación de Aquiles",
+        )
+        aquiles_inferred_relations = {
+            "rel.ego_aq.differs_caos_process",
+            "rel.dissociation_aq.differs_aa1",
+            "rel.selfdetermination_aq.reframes_aa3",
+            "rel.freedom_aq.differs_aa5",
+            "rel.responsibility_aq.differs_aa4",
+            "rel.narrative_identity_aq.differs_aa1",
+            "rel.borrowed_egolatry_aq.overlaps_masquerade_aa3",
+        }
+        require(
+            all(
+                relation_id in relations
+                and relations[relation_id]["evidence_status"] == "inferred"
+                and bool(relations[relation_id].get("rationale"))
+                for relation_id in aquiles_inferred_relations
+            ),
+            "Los cruces históricos de Aquiles deben seguir explícitamente marcados como inferidos",
+        )
+        require(
+            nodes["formulation.dissociation.aq"].get("subject") == "concept.disociacion_ego",
+            "La formulación de disociación de Aquiles debe conservarse como formulación histórica del término compartido",
+        )
+        require(
+            "no diagnóstica" in nodes["formulation.dissociation.aq"].get("summary", ""),
+            "El mapa no puede convertir la disociación filosófica de Aquiles en diagnóstico clínico",
+        )
+
     print(
         "Mapa válido:",
         f"fase={phase}, schema={schema_status};",
@@ -1116,7 +1379,8 @@ def main() -> int:
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-II'])} evidencias de Afrodita Areia II,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-III'])} evidencias de Afrodita Areia III,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-IV'])} evidencias de Afrodita Areia IV,",
-        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-V'])} evidencias de Afrodita Areia V."
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-V'])} evidencias de Afrodita Areia V,",
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AQUILES'])} evidencias de El dilema de Aquiles."
     )
     return 0
 
