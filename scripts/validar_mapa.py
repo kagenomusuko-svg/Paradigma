@@ -861,6 +861,246 @@ def main() -> int:
             "La omisión editorial de I3, I4 e I8 debe conservarse visible hasta revisión",
         )
 
+        # Invariantes ganadas al integrar Afrodita Areia V sistemáticamente en F2.
+        aa5_structure_path = (
+            ROOT
+            / "corpus"
+            / "libros"
+            / "afrodita-areia"
+            / "05-caelus"
+            / "estructura.json"
+        )
+        require(aa5_structure_path.exists(), "Falta la estructura derivada de Afrodita Areia V")
+        aa5_structure = json.loads(aa5_structure_path.read_text(encoding="utf-8"))
+        require(
+            aa5_structure.get("sha256") == works["AA-V"]["sha256"],
+            "La estructura de Afrodita Areia V no corresponde al hash de la fuente canónica",
+        )
+        require(
+            aa5_structure.get("source") == works["AA-V"]["source"],
+            "La ruta canónica de Afrodita Areia V debe conservarse sin sustituciones editoriales",
+        )
+        aa5_segments = {
+            segment["path"]: (segment["start_line"], segment["end_line"])
+            for segment in aa5_structure["segments"]
+        }
+        require(len(aa5_segments) == 18, "La estructura de Afrodita Areia V debe conservar sus 18 segmentos")
+        aa5_evidence = [ev for ev in evidence.values() if ev["work_id"] == "AA-V"]
+        aa5_covered_segments = {ev["segment"] for ev in aa5_evidence}
+        require(
+            set(aa5_segments) <= aa5_covered_segments,
+            "La auditoría de Afrodita Areia V debe cubrir preliminares, prólogo, "
+            "trece capítulos, epílogo, apéndice y glosario; faltan: "
+            f"{sorted(set(aa5_segments) - aa5_covered_segments)}",
+        )
+        require(
+            len(aa5_evidence) >= 50,
+            f"La auditoría semántica de Afrodita Areia V perdió granularidad: {len(aa5_evidence)} evidencias",
+        )
+        for ev in aa5_evidence:
+            require(ev["segment"] in aa5_segments, f"{ev['id']}: segmento de AA-V no declarado en estructura.json")
+            segment_start, segment_end = aa5_segments[ev["segment"]]
+            line_start, line_end = ev["source_lines"]
+            require(
+                segment_start <= line_start <= line_end <= segment_end,
+                f"{ev['id']}: rango fuera del segmento declarado {ev['segment']}",
+            )
+
+        required_aa5_nodes = {
+            "concept.scale.aa5",
+            "concept.collective_collapse.aa5",
+            "formulation.hume_scales.aa5",
+            "concept.sum.aa5",
+            "concept.ego_integral.aa5",
+            "concept.sovereign_ego.aa5",
+            "concept.freedom.aa5",
+            "concept.fiscal_contract.aa5",
+            "concept.state_ego.aa5",
+            "concept.collective_identity.aa5",
+            "concept.borrowed_will.aa5",
+            "concept.state_phi1.aa5",
+            "concept.state_act.aa5",
+            "concept.state_phi2.aa5",
+            "concept.state_bias.aa5",
+            "concept.sovereign_collective.aa5",
+            "concept.citizen.aa5",
+            "concept.state_capital.aa5",
+            "concept.citizen_assets.aa5",
+            "concept.state_liability.aa5",
+            "concept.material_conditions.aa5",
+            "concept.recognized_rights.aa5",
+            "concept.ontological_equality.aa5",
+            "concept.politics.aa5",
+            "concept.proselytism.aa5",
+            "concept.state_legitimacy.aa5",
+            "concept.friction.aa5",
+            "concept.state_aego_damasen.aa5",
+            "concept.state_aego_peribea.aa5",
+            "concept.fraud_annona.aa5",
+            "concept.fraud_forms.aa5",
+            "concept.collective_eutaxia.aa5",
+            "concept.audit_protocol.aa5",
+            "concept.state_solvency.aa5",
+            "concept.deferred_debt.aa5",
+            "concept.debitor_adjustment.aa5",
+            "concept.restorative_justice.aa5",
+            "formulation.normative_descriptive.aa5",
+            "formulation.responsibility.aa5",
+            "formulation.human_rights.aa5",
+            "formulation.redistribution.aa5",
+            "formal.ego_state.aa5",
+            "formal.double_entry.aa5",
+            "formal.eutaxia.aa5",
+            "formal.asymmetry.aa5",
+            "formal.total_damage.aa5",
+            "formal.adjustment_node.aa5",
+        }
+        require(
+            required_aa5_nodes <= set(nodes),
+            f"Núcleo de Afrodita Areia V incompleto; faltan nodos: {sorted(required_aa5_nodes - set(nodes))}",
+        )
+
+        required_aa5_routes = {
+            "route.aa5.architecture_scales",
+            "route.aa5.ego_freedom",
+            "route.aa5.collective_contract",
+            "route.aa5.philosophical_crosswalk",
+            "route.aa5.state_formula",
+            "route.aa5.capital_double_entry",
+            "route.aa5.rights_conditions",
+            "route.aa5.citizen_sovereign",
+            "route.aa5.state_aego",
+            "route.aa5.fraud_annona",
+            "route.aa5.audit_protocol",
+            "route.aa5.debitor_adjustment",
+            "route.aa5.formal_editorial",
+        }
+        require(
+            required_aa5_routes <= set(routes),
+            f"Rutas de Afrodita Areia V incompletas: {sorted(required_aa5_routes - set(routes))}",
+        )
+
+        aa5_reviews = {
+            "review.aa5.hume_crosswalk",
+            "review.aa5.emergence_bridge",
+            "review.aa5.scale_threshold",
+            "review.aa5.freedom_transfer",
+            "review.aa5.state_will",
+            "review.aa5.state_formula",
+            "review.aa5.contract_validity",
+            "review.aa5.descriptive_normative",
+            "review.aa5.responsibility_crosswalk",
+            "review.aa5.equality_capital",
+            "review.aa5.rights_scope",
+            "review.aa5.double_entry",
+            "review.aa5.audit_criterion",
+            "review.aa5.eutaxia_formal",
+            "review.aa5.counterfactual",
+            "review.aa5.damage_formal",
+            "review.aa5.actor_scope",
+            "review.aa5.deduction_fiscal",
+            "review.aa5.editorial_notation",
+            "review.aa5.redistribution",
+        }
+        require(aa5_reviews <= set(reviews), "Deben conservarse las veinte revisiones pendientes de Afrodita Areia V")
+        require(
+            {
+                "review.aa5.hume_crosswalk",
+                "review.aa5.emergence_bridge",
+                "review.aa5.scale_threshold",
+                "review.aa5.descriptive_normative",
+                "review.aa4.normative_derivation",
+            }
+            <= set(routes["route.aa5.architecture_scales"].get("must_surface_review_items", [])),
+            "La ruta de escalas debe surfacer cambio humeano, emergencia, umbral y registro normativo",
+        )
+        require(
+            {
+                "review.aa5.state_formula",
+                "review.aa5.state_will",
+                "review.aa5.responsibility_crosswalk",
+                "review.aa5.editorial_notation",
+            }
+            <= set(routes["route.aa5.state_formula"].get("must_surface_review_items", [])),
+            "La ruta del ego estatal debe surfacer tipado, voluntad, responsabilidad y notación",
+        )
+        require(
+            {
+                "review.aa5.audit_criterion",
+                "review.aa5.eutaxia_formal",
+                "review.aa5.counterfactual",
+                "review.aa4.proportionality",
+            }
+            <= set(routes["route.aa5.audit_protocol"].get("must_surface_review_items", [])),
+            "La ruta de auditoría debe surfacer universalidad, cálculo estocástico, identificación y proporcionalidad",
+        )
+        require(
+            {
+                "review.aa5.damage_formal",
+                "review.aa5.actor_scope",
+                "review.aa5.deduction_fiscal",
+                "review.aa5.descriptive_normative",
+                "review.aa4.secondary_damage_measure",
+            }
+            <= set(routes["route.aa5.debitor_adjustment"].get("must_surface_review_items", [])),
+            "La ruta del ajuste debe surfacer medida, sujeto obligado, variante glosada y salto normativo",
+        )
+        require(
+            {
+                "review.aa5.state_formula",
+                "review.aa5.double_entry",
+                "review.aa5.eutaxia_formal",
+                "review.aa5.damage_formal",
+                "review.aa5.actor_scope",
+                "review.aa5.deduction_fiscal",
+                "review.aa5.editorial_notation",
+            }
+            <= set(routes["route.aa5.formal_editorial"].get("must_surface_review_items", [])),
+            "La ruta formal-editorial de AA-V debe conservar todas sus reservas técnicas y glosadas",
+        )
+        require(
+            "review.aa5.responsibility_crosswalk"
+            in routes["route.aa1.responsibility_assumption"].get("must_surface_review_items", []),
+            "La ruta histórica de responsabilidad debe conservar visible la aplicación de AA-V",
+        )
+        require(
+            "review.aa5.state_will"
+            in routes["route.aego.definicion_evolucion"].get("must_surface_review_items", []),
+            "La ruta histórica de Aego debe conservar visible la agencia atribuida al Estado en AA-V",
+        )
+        require(
+            {"review.aa5.contract_validity", "review.aa5.actor_scope"}
+            <= set(routes["route.aa3.fiscal_contract"].get("must_surface_review_items", [])),
+            "La ruta fiscal de AA-III debe surfacer validez y sujeto obligado en AA-V",
+        )
+        require(
+            {"review.aa5.hume_crosswalk", "review.aa5.descriptive_normative", "review.aa5.audit_criterion"}
+            <= set(routes["route.aa4.fiscal_contract"].get("must_surface_review_items", [])),
+            "La ruta fiscal de AA-IV debe surfacer la revisión humeana y operacional de AA-V",
+        )
+        require(
+            relations["rel.hume_aa5.revises_aa4"]["evidence_status"] == "inferred"
+            and relations["rel.responsibility_aa5.differs_aa1"]["evidence_status"] == "inferred"
+            and relations["rel.fiscal_aa5.reframes_aa3"]["evidence_status"] == "inferred"
+            and relations["rel.state_bias_aa5.overlaps_identity"]["evidence_status"] == "inferred",
+            "Las diferencias históricas e internas de AA-V no pueden presentarse como adjudicaciones autorales",
+        )
+        require(
+            nodes["formal.double_entry.aa5"]["formal_spec"].get("identity")
+            == "Capital estatal ≡ Activo ciudadano + Pasivo estatal",
+            "La identidad contable publicada por AA-V debe conservarse literalmente hasta revisión",
+        )
+        require(
+            nodes["formal.eutaxia.aa5"]["formal_spec"].get("expression")
+            == "EU(t) = E[dX/dt | F_t]",
+            "La fórmula estocástica publicada por AA-V debe conservarse literalmente hasta revisión",
+        )
+        require(
+            "review.aa5.deduction_fiscal"
+            in routes["route.aa5.formal_editorial"].get("must_surface_review_items", []),
+            "La deducción fiscal introducida solo en el glosario debe permanecer visible",
+        )
+
     print(
         "Mapa válido:",
         f"fase={phase}, schema={schema_status};",
@@ -875,7 +1115,8 @@ def main() -> int:
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-I'])} evidencias de Afrodita Areia I,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-II'])} evidencias de Afrodita Areia II,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-III'])} evidencias de Afrodita Areia III,",
-        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-IV'])} evidencias de Afrodita Areia IV."
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-IV'])} evidencias de Afrodita Areia IV,",
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-V'])} evidencias de Afrodita Areia V."
     )
     return 0
 
