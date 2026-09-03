@@ -498,6 +498,178 @@ def main() -> int:
             "Himeno debe conservarse como revisión autoral explícita del criterio de movilidad",
         )
 
+        # Invariantes ganadas al integrar Afrodita Areia III sistemáticamente en F2.
+        aa3_structure_path = (
+            ROOT
+            / "corpus"
+            / "libros"
+            / "afrodita-areia"
+            / "03-damasen"
+            / "estructura.json"
+        )
+        require(aa3_structure_path.exists(), "Falta la estructura derivada de Afrodita Areia III")
+        aa3_structure = json.loads(aa3_structure_path.read_text(encoding="utf-8"))
+        require(
+            aa3_structure.get("sha256") == works["AA-III"]["sha256"],
+            "La estructura de Afrodita Areia III no corresponde al hash de la fuente canónica",
+        )
+        aa3_segments = {
+            segment["path"]: (segment["start_line"], segment["end_line"])
+            for segment in aa3_structure["segments"]
+        }
+        require(len(aa3_segments) == 25, "La estructura de Afrodita Areia III debe conservar sus 25 segmentos")
+        aa3_evidence = [ev for ev in evidence.values() if ev["work_id"] == "AA-III"]
+        aa3_covered_segments = {ev["segment"] for ev in aa3_evidence}
+        require(
+            set(aa3_segments) <= aa3_covered_segments,
+            "La auditoría de Afrodita Areia III debe cubrir preliminares, prefacio, "
+            "prólogo, veinte capítulos, apéndice y glosario; faltan: "
+            f"{sorted(set(aa3_segments) - aa3_covered_segments)}",
+        )
+        require(
+            len(aa3_evidence) >= 49,
+            f"La auditoría semántica de Afrodita Areia III perdió granularidad: {len(aa3_evidence)} evidencias",
+        )
+        for ev in aa3_evidence:
+            require(ev["segment"] in aa3_segments, f"{ev['id']}: segmento de AA-III no declarado en estructura.json")
+            segment_start, segment_end = aa3_segments[ev["segment"]]
+            line_start, line_end = ev["source_lines"]
+            require(
+                segment_start <= line_start <= line_end <= segment_end,
+                f"{ev['id']}: rango fuera del segmento declarado {ev['segment']}",
+            )
+
+        required_aa3_nodes = {
+            "concept.aego_damasen",
+            "concept.aego_peribea",
+            "concept.autodeterminacion_causal.aa3",
+            "concept.bordes_autodeterminacion.aa3",
+            "concept.disfasia_volitiva.aa3",
+            "concept.saturacion_expresiva.aa3",
+            "concept.eje_propio.aa3",
+            "concept.adominio.aa3",
+            "concept.pax_damasen.aa3",
+            "concept.vinculo_colapsado.aa3",
+            "concept.encuentro_genuino.aa3",
+            "concept.perturbacion_productiva.aa3",
+            "concept.retorno_aego.aa3",
+            "concept.mascarada.aa3",
+            "concept.aego_colectivo.aa3",
+            "concept.damasen_colectivo.aa3",
+            "concept.peribea_colectivo.aa3",
+            "concept.retorno_colectivo.aa3",
+            "concept.soberania_colectiva.aa3",
+            "concept.contrato_fiscal_aego.aa3",
+            "concept.estado_damasen.aa3",
+            "concept.contribuyente_peribea.aa3",
+            "formulation.mediations.aa3",
+            "formulation.aego_levels.aa3",
+            "formulation.himeno_bridge.aa3",
+            "formulation.identity.aa3",
+            "formulation.agape.aa3",
+            "formulation.damasen_dimension.aa3",
+            "formulation.mythic_reading.aa3",
+            "formulation.fiscal.aa3",
+            "formal.aego.aa3",
+            "formal.aego_applicability.aa3",
+            "formal.aego_regimes.aa3",
+        }
+        require(
+            required_aa3_nodes <= set(nodes),
+            f"Núcleo de Afrodita Areia III incompleto; faltan nodos: {sorted(required_aa3_nodes - set(nodes))}",
+        )
+
+        required_aa3_routes = {
+            "route.aa3.architecture_method",
+            "route.aa3.aego_formal",
+            "route.aa3.language_regimes",
+            "route.aa3.damasen",
+            "route.aa3.peribea",
+            "route.aa3.volume_crosswalk",
+            "route.aa3.collapsed_bond",
+            "route.aa3.individual_return",
+            "route.aa3.collective_identity",
+            "route.aa3.collective_poles",
+            "route.aa3.collective_return",
+            "route.aa3.fiscal_contract",
+            "route.aa3.editorial_issues",
+        }
+        require(
+            required_aa3_routes <= set(routes),
+            f"Rutas de Afrodita Areia III incompletas: {sorted(required_aa3_routes - set(routes))}",
+        )
+
+        aa3_reviews = {
+            "review.aa3.aego_zero_locus",
+            "review.aa3.aego_regime_derivative",
+            "review.aa3.phi_functions",
+            "review.aa3.himeno_crosswalk",
+            "review.aa3.myth_sources",
+            "review.aa3.damasen_dimension",
+            "review.aa3.identity_masquerade",
+            "review.aa3.agape_glossary",
+            "review.aa3.nonhuman_boundary",
+            "review.aa3.glossary_notation",
+        }
+        require(aa3_reviews <= set(reviews), "Deben conservarse las diez revisiones pendientes de Afrodita Areia III")
+        require(
+            {
+                "review.aa3.aego_zero_locus",
+                "review.aa3.aego_regime_derivative",
+                "review.aa3.phi_functions",
+                "review.aa3.nonhuman_boundary",
+            }
+            <= set(routes["route.aa3.aego_formal"].get("must_surface_review_items", [])),
+            "La ruta formal de AA-III debe surfacer lugar del cero, derivada, mediaciones y límite no humano",
+        )
+        require(
+            {"review.aa3.myth_sources", "review.aa3.damasen_dimension"}
+            <= set(routes["route.aa3.damasen"].get("must_surface_review_items", [])),
+            "La ruta de Damasén debe surfacer sus problemas mitográfico y dimensional",
+        )
+        require(
+            {
+                "review.aa3.himeno_crosswalk",
+                "review.aa3.identity_masquerade",
+                "review.aa3.agape_glossary",
+                "review.aa3.phi_functions",
+            }
+            <= set(routes["route.aa3.volume_crosswalk"].get("must_surface_review_items", [])),
+            "La ruta histórica de AA-III debe surfacer todas sus variaciones doctrinales entre volúmenes",
+        )
+        require(
+            {"review.aa3.myth_sources", "review.aa3.glossary_notation"}
+            <= set(routes["route.aa3.editorial_issues"].get("must_surface_review_items", [])),
+            "La ruta editorial de AA-III debe surfacer fuente mítica y notación dañada",
+        )
+        require(
+            "review.aa3.identity_masquerade"
+            in routes["route.aa1.identity_distortions"].get("must_surface_review_items", []),
+            "La ruta histórica de identidad debe conservar visible la reformulación de AA-III",
+        )
+        require(
+            "review.aa3.agape_glossary"
+            in routes["route.aa2.agape_orientation"].get("must_surface_review_items", []),
+            "La ruta de Ágape debe conservar visible la definición divergente del glosario de AA-III",
+        )
+        require(
+            "review.aa3.himeno_crosswalk"
+            in routes["route.aa2.himeno"].get("must_surface_review_items", []),
+            "La ruta de Himeno debe conservar visible el puente retrospectivo de AA-III",
+        )
+        require(
+            relations["rel.mediations_aa3.differs_aa2"]["evidence_status"] == "inferred"
+            and relations["rel.himeno_bridge_aa3.differs_aa2"]["evidence_status"] == "inferred"
+            and relations["rel.identity_aa3.differs_aa1"]["evidence_status"] == "inferred"
+            and relations["rel.agape_aa3.differs_aa2"]["evidence_status"] == "inferred",
+            "Las diferencias históricas entre AA-III y volúmenes previos no pueden presentarse como adjudicaciones autorales",
+        )
+        require(
+            "review.aa3.aego_zero_locus"
+            in routes["route.aego.definicion_evolucion"].get("must_surface_review_items", []),
+            "La ruta general de Aego debe conservar visible la atribución variable del producto nulo",
+        )
+
     print(
         "Mapa válido:",
         f"fase={phase}, schema={schema_status};",
@@ -510,7 +682,8 @@ def main() -> int:
         f"{len(tests)} pruebas F1 preservadas,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'CAOS'])} evidencias de Caos,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-I'])} evidencias de Afrodita Areia I,",
-        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-II'])} evidencias de Afrodita Areia II."
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-II'])} evidencias de Afrodita Areia II,",
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-III'])} evidencias de Afrodita Areia III."
     )
     return 0
 
