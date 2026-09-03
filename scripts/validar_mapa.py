@@ -2728,6 +2728,254 @@ def main() -> int:
             "La ruta del caso no puede presentar el vector publicado como reproducido",
         )
 
+        # Invariantes ganadas al integrar Metrología Causal II en F3.
+        require("MC-II" in works, "Falta Metrología Causal II en el inventario de F3")
+        mcii_structure_path = (
+            ROOT
+            / "corpus"
+            / "libros"
+            / "metrologia-causal"
+            / "02-vol-ii"
+            / "estructura.json"
+        )
+        require(mcii_structure_path.exists(), "Falta la estructura derivada de Metrología Causal II")
+        mcii_structure = json.loads(mcii_structure_path.read_text(encoding="utf-8"))
+        mcii_segments = {
+            segment["path"]: (segment["start_line"], segment["end_line"])
+            for segment in mcii_structure["segments"]
+        }
+        mcii_evidence = [ev for ev in evidence.values() if ev["work_id"] == "MC-II"]
+        mcii_covered_segments = {ev["segment"] for ev in mcii_evidence}
+        require(
+            set(mcii_segments) <= mcii_covered_segments,
+            "La auditoría de Metrología Causal II debe cubrir introducción, "
+            "diecinueve capítulos y dos apéndices; faltan: "
+            f"{sorted(set(mcii_segments) - mcii_covered_segments)}",
+        )
+        require(
+            len(mcii_evidence) >= 96,
+            "La auditoría semántica y formal de Metrología Causal II perdió "
+            f"granularidad: {len(mcii_evidence)} evidencias",
+        )
+        for ev in mcii_evidence:
+            require(
+                ev["segment"] in mcii_segments,
+                f"{ev['id']}: segmento de Metrología Causal II no declarado en estructura.json",
+            )
+            segment_start, segment_end = mcii_segments[ev["segment"]]
+            line_start, line_end = ev["source_lines"]
+            require(
+                segment_start <= line_start <= line_end <= segment_end,
+                f"{ev['id']}: rango fuera del segmento declarado {ev['segment']}",
+            )
+
+        required_mcii_nodes = {
+            "concept.mcii.operational_volume",
+            "formulation.mcii.translation",
+            "formulation.mcii.question_types",
+            "method.mcii.workflow",
+            "formal.mcii.G",
+            "formal.mcii.W",
+            "formal.mcii.rstar",
+            "formal.mcii.S",
+            "formulation.mcii.s_ranges",
+            "formal.mcii.alpha",
+            "method.mcii.alpha_routes",
+            "method.mcii.method_selector",
+            "formal.mcii.shapley",
+            "formulation.mcii.series",
+            "formal.mcii.series1_case",
+            "formal.mcii.rstar_net",
+            "formal.mcii.delta",
+            "formal.mcii.D_total",
+            "formal.mcii.AD",
+            "formal.mcii.IIC",
+            "formal.mcii.w_iic",
+            "formal.mcii.fraud_annona",
+            "formal.mcii.robustness",
+            "method.mcii.integrated_protocol",
+            "method.mcii.consistency_checks",
+            "method.mcii.dossier",
+            "concept.mcii.application_limits",
+            "formal.mcii.axioms",
+            "formulation.mcii.pf_lemma",
+            "formulation.mcii.responsibility_theorem",
+            "formal.mcii.delta_corollary",
+            "formal.mcii.annona_corollary",
+            "formal.mcii.shapley_extension",
+            "formulation.mcii.unifying_operator",
+            "method.mcii.empirical_calibration",
+            "formal.mcii.forms",
+            "formal.mcii.conversion",
+            "method.mcii.child_classifier",
+            "formal.mcii.kconv",
+            "method.mcii.calibration_sheet",
+            "method.mcii.equivalences",
+        }
+        require(
+            required_mcii_nodes <= set(nodes),
+            "Núcleo de Metrología Causal II incompleto; faltan nodos: "
+            f"{sorted(required_mcii_nodes - set(nodes))}",
+        )
+        required_mcii_formal_nodes = {
+            node_id
+            for node_id in required_mcii_nodes
+            if nodes[node_id].get("kind") == "formal_object"
+        }
+        for node_id in required_mcii_formal_nodes:
+            spec = nodes[node_id].get("formal_spec", {})
+            require(
+                bool(spec.get("symbol"))
+                and bool(spec.get("object_type"))
+                and bool(spec.get("domain"))
+                and bool(spec.get("codomain"))
+                and isinstance(spec.get("dependencies"), list)
+                and isinstance(spec.get("assumptions"), list)
+                and bool(spec.get("epistemic_status"))
+                and bool(spec.get("ontological_correspondence")),
+                f"{node_id}: debe conservar símbolo, tipo, dominio, codominio, "
+                "dependencias, supuestos, estatuto y correspondencia ontológica",
+            )
+
+        required_mcii_routes = {
+            "route.mcii.architecture",
+            "route.mcii.translation",
+            "route.mcii.graph_rstar",
+            "route.mcii.s_alpha_delta",
+            "route.mcii.method_selector",
+            "route.mcii.iic_annona",
+            "route.mcii.robustness",
+            "route.mcii.integrated",
+            "route.mcii.theorem",
+            "route.mcii.corollaries",
+            "route.mcii.cou",
+            "route.mcii.calibration",
+            "route.mcii.crosswork",
+        }
+        require(
+            required_mcii_routes <= set(routes),
+            "Rutas de Metrología Causal II incompletas: "
+            f"{sorted(required_mcii_routes - set(routes))}",
+        )
+        required_mcii_reviews = {
+            "review.mcii.question_exhaustiveness",
+            "review.mcii.translation_validity",
+            "review.mcii.rstar_counterfactual",
+            "review.mcii.series_dependencies",
+            "review.mcii.phi2_observability",
+            "review.mcii.s_range_arithmetic",
+            "review.mcii.s_range_calibration",
+            "review.mcii.alpha_route_b_sum",
+            "review.mcii.alpha_opportunity_direction",
+            "review.mcii.alpha_divergence",
+            "review.mcii.method_selector",
+            "review.mcii.irreducibility",
+            "review.mcii.epsilon",
+            "review.mcii.normalization",
+            "review.mcii.series1_vector",
+            "review.mcii.sink_normalization",
+            "review.mcii.delta_sign",
+            "review.mcii.delta_magnitude",
+            "review.mcii.iic_codomain",
+            "review.mcii.iic_correlation",
+            "review.mcii.weight_adjustment_invariance",
+            "review.mcii.annona_domain",
+            "review.mcii.annona_derivation",
+            "review.mcii.annona_arithmetic",
+            "review.mcii.hypercube_sampling",
+            "review.mcii.rho_estimation",
+            "review.mcii.integrated_graph_identity",
+            "review.mcii.consistency_c1",
+            "review.mcii.consistency_c2",
+            "review.mcii.axiom_independence",
+            "review.mcii.axiom_indices",
+            "review.mcii.pf_primitive",
+            "review.mcii.theorem_a2",
+            "review.mcii.theorem_monotonicity",
+            "review.mcii.theorem_uniqueness",
+            "review.mcii.delta_appendix",
+            "review.mcii.shapley_value_function",
+            "review.mcii.shapley_continuity",
+            "review.mcii.cou_sources",
+            "review.mcii.cou_definition",
+            "review.mcii.instrument_validity",
+            "review.mcii.conversion_values",
+            "review.mcii.child_classifier",
+            "review.mcii.kconv",
+            "review.mcii.calibration_estimators",
+            "review.mcii.cohort_precision",
+        }
+        require(
+            required_mcii_reviews <= set(reviews),
+            "Deben conservarse las revisiones formales, metrológicas, "
+            "empíricas y de correspondencia de MC-II",
+        )
+        require(
+            len([review for review in reviews if review.startswith("review.mcii.")]) >= 60,
+            "La cola de MC-II no puede perder problemas auditados",
+        )
+        require(
+            all(
+                relation["evidence_status"] == "inferred"
+                and bool(relation.get("rationale"))
+                for relation in relations.values()
+                if relation["id"].startswith("rel.mcii.")
+            ),
+            "Los cruces de MC-II con MC-I, TF y Axiomatización deben seguir inferidos",
+        )
+        require(
+            nodes["formal.mcii.rstar"]["formal_spec"].get("epistemic_status")
+            == "authorial_operationalization_not_reproduced_and_theorem_invalid",
+            "El vector y el teorema de R* de MC-II no pueden presentarse como validados",
+        )
+        require(
+            nodes["formal.mcii.IIC"]["formal_spec"].get("codomain") == "[-1,1]",
+            "Debe conservarse el cambio de codominio del IIC en MC-II",
+        )
+        require(
+            nodes["formal.mcii.delta"]["formal_spec"].get("expression")
+            == "Δ_i=R*(i)(1−α_i); Δ_total=Σ_iΔ_i",
+            "No debe armonizarse Δ de MC-II con la resta axiomática ni con Δ_sesión",
+        )
+        require(
+            nodes["formal.mcii.conversion"]["formal_spec"].get("epistemic_status")
+            == "authorial_scoring_rule_uncalibrated_and_redefines_delta",
+            "La tabla de conversión no puede promoverse a calibración empírica realizada",
+        )
+        require(
+            nodes["formulation.mcii.unifying_operator"]["formal_spec"].get(
+                "epistemic_status"
+            )
+            == "explicitly_open_authorial_conjecture",
+            "La C.O.U. debe permanecer registrada como conjetura abierta",
+        )
+        require(
+            {
+                "review.rstar.sink_irreducibility",
+                "review.tf.rstar_orientation",
+                "review.axiom.rstar_sink",
+                "review.mci.rstar_orientation",
+                "review.mci.pf_hypotheses",
+                "review.mcii.irreducibility",
+                "review.mcii.normalization",
+                "review.mcii.series1_vector",
+            }
+            <= set(routes["route.mcii.graph_rstar"].get("must_surface_review_items", [])),
+            "La ruta R* de MC-II debe surfacer revisiones heredadas y propias",
+        )
+        require(
+            {
+                "review.mci.empirical_calibration",
+                "review.axiom.calibration_sources",
+                "review.mcii.instrument_validity",
+                "review.mcii.conversion_values",
+                "review.mcii.kconv",
+                "review.mcii.calibration_estimators",
+            }
+            <= set(routes["route.mcii.calibration"].get("must_surface_review_items", [])),
+            "La ruta de calibración debe separar protocolo prospectivo y evidencia realizada",
+        )
+
     print(
         "Mapa válido:",
         f"fase={phase}, schema={schema_status};",
@@ -2750,6 +2998,7 @@ def main() -> int:
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'TRANSFORMACION-FORMAL'])} evidencias de La transformación formal,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AXIOM-SDM'])} evidencias de Axiomatización,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'MC-I'])} evidencias de Metrología Causal I."
+        f" {len([ev for ev in evidence.values() if ev['work_id'] == 'MC-II'])} evidencias de Metrología Causal II."
     )
     return 0
 
