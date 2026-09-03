@@ -1,9 +1,9 @@
 {
-  "map_version": "1.3.0",
+  "map_version": "1.4.0",
   "schema_status": "frozen",
   "phase": "F2",
   "purpose": "Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.",
-  "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 integra sistemáticamente el núcleo conceptual y ontológico del corpus; Caos y Afrodita Areia I–II quedan auditados por secciones, capítulos, apéndices y glosarios, conservando las evoluciones terminológicas, doctrinales y formales que requieren adjudicación.",
+  "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 integra sistemáticamente el núcleo conceptual y ontológico del corpus; Caos y Afrodita Areia I–III quedan auditados por secciones, capítulos, apéndices y glosarios, conservando las evoluciones terminológicas, doctrinales y formales que requieren adjudicación.",
   "works": [
     {
       "id": "CAOS",
@@ -1467,6 +1467,398 @@
       "source_lines": [6722, 6941],
       "section": "Glosario · vocabulario técnico de Ágape",
       "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.aa3.preliminaries",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/00-preliminares.md",
+      "source_lines": [1, 75],
+      "section": "Preliminares · identidad editorial y lugar del volumen III",
+      "evidence_type": "editorial_front_matter"
+    },
+    {
+      "id": "ev.aa3.preface.program",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/00-prefacio.md",
+      "source_lines": [76, 320],
+      "section": "Prefacio · programa en cinco partes y función del volumen",
+      "evidence_type": "authorial_program"
+    },
+    {
+      "id": "ev.aa3.preface.edges",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/00-prefacio.md",
+      "source_lines": [76, 320],
+      "section": "Prefacio · Damasén y Peribea como bordes opuestos del Aego",
+      "evidence_type": "conceptual_architecture"
+    },
+    {
+      "id": "ev.aa3.preface.collective",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/00-prefacio.md",
+      "source_lines": [76, 320],
+      "section": "Prefacio · escala colectiva, soberanía y consecuencia fiscal",
+      "evidence_type": "scope_statement"
+    },
+    {
+      "id": "ev.aa3.prologue.debates",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/00-prologo.md",
+      "source_lines": [321, 748],
+      "section": "Prólogo · interlocución con teoría del poder, psicoanálisis y teoría de la acción",
+      "evidence_type": "authorial_interlocution"
+    },
+    {
+      "id": "ev.aa3.prologue.inherited_model",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/00-prologo.md",
+      "source_lines": [321, 748],
+      "section": "Prólogo · modelo recibido de pasión, doble mediación e integral",
+      "evidence_type": "historical_formulation"
+    },
+    {
+      "id": "ev.aa3.prologue.levels",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/00-prologo.md",
+      "source_lines": [321, 748],
+      "section": "Prólogo · preguntas ontológica, relacional y colectiva; límite no humano",
+      "evidence_type": "method_and_scope"
+    },
+    {
+      "id": "ev.aa3.limit.autodetermination",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-01.md",
+      "source_lines": [749, 1122],
+      "section": "Capítulo 1 · autodeterminación causal y dos mediaciones",
+      "evidence_type": "historical_formulation"
+    },
+    {
+      "id": "ev.aa3.limit.edges",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-01.md",
+      "source_lines": [749, 1122],
+      "section": "Capítulo 1 · borde inferior y borde superior de la autodeterminación",
+      "evidence_type": "conceptual_distinction"
+    },
+    {
+      "id": "ev.aa3.limit.nonclinical",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-01.md",
+      "source_lines": [749, 1122],
+      "section": "Capítulo 1 · singularidades constitutivas, retorno exterior y límite clínico",
+      "evidence_type": "scope_boundary"
+    },
+    {
+      "id": "ev.aa3.aego.regimes",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-02.md",
+      "source_lines": [1123, 1447],
+      "section": "Capítulo 2 · regímenes ordinario, Damasén y Peribea de I(t)",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.aa3.aego.applicability",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-02.md",
+      "source_lines": [1123, 1447],
+      "section": "Capítulo 2 · requisito de φ₂ y analogías funcionales no humanas",
+      "evidence_type": "applicability_boundary"
+    },
+    {
+      "id": "ev.aa3.language.distinctions",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-03.md",
+      "source_lines": [1448, 1792],
+      "section": "Capítulo 3 · afasia, disfasia y saturación expresiva",
+      "evidence_type": "conceptual_distinction"
+    },
+    {
+      "id": "ev.aa3.language.return",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-03.md",
+      "source_lines": [1448, 1792],
+      "section": "Capítulo 3 · episodio, régimen instalado y operaciones distintas de retorno",
+      "evidence_type": "process_analysis"
+    },
+    {
+      "id": "ev.aa3.continuity.claims",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-04.md",
+      "source_lines": [1793, 2110],
+      "section": "Capítulo 4 · reconstrucción retrospectiva de Aego en los volúmenes I–II",
+      "evidence_type": "cross_volume_statement"
+    },
+    {
+      "id": "ev.aa3.continuity.himeno",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-04.md",
+      "source_lines": [1793, 2110],
+      "section": "Capítulo 4 · Himeno como preparación de Damasén y Peribea",
+      "evidence_type": "cross_volume_statement"
+    },
+    {
+      "id": "ev.aa3.continuity.collective",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-04.md",
+      "source_lines": [1793, 2110],
+      "section": "Capítulo 4 · extensión del Aego del individuo al vínculo y al colectivo",
+      "evidence_type": "scale_extension"
+    },
+    {
+      "id": "ev.aa3.myth.damasen",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-05.md",
+      "source_lines": [2111, 2397],
+      "section": "Capítulo 5 · figura mítica y apropiación conceptual de Damasén",
+      "evidence_type": "mythic_interlocution"
+    },
+    {
+      "id": "ev.aa3.myth.peribea_reading",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-05.md",
+      "source_lines": [2111, 2397],
+      "section": "Capítulo 5 · lectura autoral de Ares como figura Peribea no contenida en el mito",
+      "evidence_type": "declared_authorial_interpretation"
+    },
+    {
+      "id": "ev.aa3.damasen.phenomenology",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-06.md",
+      "source_lines": [2398, 2684],
+      "section": "Capítulo 6 · transparencia del campo, eficacia inmediata y asimetría imperceptible",
+      "evidence_type": "phenomenological_analysis"
+    },
+    {
+      "id": "ev.aa3.pax.definition",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-07.md",
+      "source_lines": [2685, 2950],
+      "section": "Capítulo 7 · Pax-Damasén y paz unilateral",
+      "evidence_type": "relational_analysis"
+    },
+    {
+      "id": "ev.aa3.pax.zero_locus",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-07.md",
+      "source_lines": [2685, 2950],
+      "section": "Capítulo 7 · atribución del producto nulo al vínculo y no a Damasén",
+      "evidence_type": "formal_scope_statement"
+    },
+    {
+      "id": "ev.aa3.damasen.loop_return",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-08.md",
+      "source_lines": [2951, 3243],
+      "section": "Capítulo 8 · ceguera al costo, bucle de auto-confirmación y perturbación exterior",
+      "evidence_type": "process_analysis"
+    },
+    {
+      "id": "ev.aa3.peribea.adominio",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-09.md",
+      "source_lines": [3244, 3544],
+      "section": "Capítulo 9 · Peribea y adominio como pérdida pasiva del eje propio",
+      "evidence_type": "concept_definition"
+    },
+    {
+      "id": "ev.aa3.peribea.phases",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-09.md",
+      "source_lines": [3244, 3544],
+      "section": "Capítulo 9 · contacto, adaptación progresiva y adominio instalado",
+      "evidence_type": "process_analysis"
+    },
+    {
+      "id": "ev.aa3.peribea.phenomenology",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-10.md",
+      "source_lines": [3545, 3848],
+      "section": "Capítulo 10 · extrañamiento, fatiga, perplejidad y doble silencio",
+      "evidence_type": "phenomenological_analysis"
+    },
+    {
+      "id": "ev.aa3.peribea.afrodita_distinction",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-11.md",
+      "source_lines": [3849, 4136],
+      "section": "Capítulo 11 · Peribea como inversión post-egóica de Afrodita",
+      "evidence_type": "conceptual_distinction"
+    },
+    {
+      "id": "ev.aa3.damasen.arete_claim",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-11.md",
+      "source_lines": [3849, 4136],
+      "section": "Capítulo 11 · Damasén como borde superior de la dimensión arética",
+      "evidence_type": "dimensional_statement"
+    },
+    {
+      "id": "ev.aa3.peribea.masks",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-12.md",
+      "source_lines": [4137, 4444],
+      "section": "Capítulo 12 · máscaras de consenso, madurez y Harmonía obstructiva",
+      "evidence_type": "phenomenological_analysis"
+    },
+    {
+      "id": "ev.aa3.harmonia.retrospective_claim",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-12.md",
+      "source_lines": [4137, 4444],
+      "section": "Capítulo 12 · atribución al volumen III de la distinción entre Harmonía constitucional y obstructiva",
+      "evidence_type": "cross_volume_statement"
+    },
+    {
+      "id": "ev.aa3.bond.definition",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-13.md",
+      "source_lines": [4445, 4738],
+      "section": "Capítulo 13 · vínculo colapsado como objeto autónomo entre Damasén y Peribea",
+      "evidence_type": "relational_definition"
+    },
+    {
+      "id": "ev.aa3.bond.asymmetries",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-13.md",
+      "source_lines": [4445, 4738],
+      "section": "Capítulo 13 · asimetrías de sorpresa, aprendizaje y costo",
+      "evidence_type": "relational_analysis"
+    },
+    {
+      "id": "ev.aa3.encounter.axes",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-14.md",
+      "source_lines": [4739, 5022],
+      "section": "Capítulo 14 · encuentro genuino como cruce de dos ejes propios",
+      "evidence_type": "concept_definition"
+    },
+    {
+      "id": "ev.aa3.encounter.echo_contagion",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-14.md",
+      "source_lines": [4739, 5022],
+      "section": "Capítulo 14 · eco de Damasén y propagación relacional del adominio",
+      "evidence_type": "relational_analysis"
+    },
+    {
+      "id": "ev.aa3.bond.persistence",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-15.md",
+      "source_lines": [5023, 5327],
+      "section": "Capítulo 15 · geometría, historia y relato legitimador del vínculo instalado",
+      "evidence_type": "process_analysis"
+    },
+    {
+      "id": "ev.aa3.bond.return",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-15.md",
+      "source_lines": [5023, 5327],
+      "section": "Capítulo 15 · perturbación, vocabulario, distancia y transformación bilateral",
+      "evidence_type": "return_conditions"
+    },
+    {
+      "id": "ev.aa3.collective.identity",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-16.md",
+      "source_lines": [5328, 5647],
+      "section": "Capítulo 16 · identidad como mascarada individual y colectiva",
+      "evidence_type": "historical_formulation"
+    },
+    {
+      "id": "ev.aa3.collective.aego",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-16.md",
+      "source_lines": [5328, 5647],
+      "section": "Capítulo 16 · Aego colectivo y homogeneización de segundas mediaciones",
+      "evidence_type": "scale_extension"
+    },
+    {
+      "id": "ev.aa3.collective.damasen",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-17.md",
+      "source_lines": [5648, 5949],
+      "section": "Capítulo 17 · categorías universalizadas y asimetría naturalizada",
+      "evidence_type": "collective_analysis"
+    },
+    {
+      "id": "ev.aa3.collective.peribea",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-18.md",
+      "source_lines": [5950, 6247],
+      "section": "Capítulo 18 · productividad sin eje propio, insuficiencia y amnesia selectiva",
+      "evidence_type": "collective_analysis"
+    },
+    {
+      "id": "ev.aa3.collective.return_conditions",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-19.md",
+      "source_lines": [6248, 6549],
+      "section": "Capítulo 19 · perturbación, vocabulario, transmisión y transformación de Damasén",
+      "evidence_type": "return_conditions"
+    },
+    {
+      "id": "ev.aa3.collective.return_stages",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-19.md",
+      "source_lines": [6248, 6549],
+      "section": "Capítulo 19 · reconocimiento, revalorización de márgenes y producción desde el eje recuperado",
+      "evidence_type": "process_analysis"
+    },
+    {
+      "id": "ev.aa3.collective.sovereignty",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/capitulo-20.md",
+      "source_lines": [6550, 6708],
+      "section": "Capítulo 20 · soberanía colectiva sin repliegue ni independencia política necesaria",
+      "evidence_type": "concept_definition"
+    },
+    {
+      "id": "ev.aa3.fiscal.structure",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/apendice.md",
+      "source_lines": [6709, 7015],
+      "section": "Apéndice · Estado-Damasén, contribuyente-Peribea y contrato fiscal en Aego",
+      "evidence_type": "applied_analysis"
+    },
+    {
+      "id": "ev.aa3.fiscal.contract",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/apendice.md",
+      "source_lines": [6709, 7015],
+      "section": "Apéndice · capacidad, objeto, consentimiento e intercambio fiscal",
+      "evidence_type": "applied_analysis"
+    },
+    {
+      "id": "ev.aa3.fiscal.mechanisms",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/apendice.md",
+      "source_lines": [6709, 7015],
+      "section": "Apéndice · auditoría ciudadana, presupuestos participativos y evaluación",
+      "evidence_type": "institutional_application"
+    },
+    {
+      "id": "ev.aa3.glossary.mediations",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/99-glosario.md",
+      "source_lines": [7016, 7316],
+      "section": "Glosario · φ₁, φ₂, integral y regímenes Damasén/Peribea",
+      "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.aa3.glossary.identity_agape",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/99-glosario.md",
+      "source_lines": [7016, 7316],
+      "section": "Glosario · Ágape, colapso asumido, Ego, identidad y mascarada",
+      "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.aa3.glossary.series_notation",
+      "work_id": "AA-III",
+      "segment": "corpus/libros/afrodita-areia/03-damasen/99-glosario.md",
+      "source_lines": [7016, 7316],
+      "section": "Glosario · autoubicación de serie y notación dañada de φ₂",
+      "evidence_type": "editorial_issue"
     }
   ],
   "nodes": [
@@ -1690,7 +2082,7 @@
         "aego",
         "singularidad volitiva"
       ],
-      "summary": "Familia históricamente variable de estados límite del ego; su formulación inicial en AA-I interrumpe φ₂ y la acumulación asumida.",
+      "summary": "Familia históricamente variable de singularidades volitivas: AA-I interrumpe φ₂ y problematiza la acumulación asumida; AA-III conserva voluntad e historia pero anula su efecto diferencial y despliega formas individual, relacional y colectiva.",
       "evidence": [
         "ev.aa1.aego",
         "ev.aa1.glossary",
@@ -1706,7 +2098,15 @@
       "label": "Aego-Damasén",
       "aliases": [
         "forma Damasén del Aego"
-      ]
+      ],
+      "summary": "Borde superior del Aego en AA-III: la voluntad propia satura el campo hasta volverlo transparente para sí y borrar la diferencia que podría devolverle información.",
+      "evidence": [
+        "ev.aa3.preface.edges",
+        "ev.aa3.limit.edges",
+        "ev.aa3.damasen.phenomenology",
+        "ev.aa3.glossary"
+      ],
+      "evidence_status": "explicit"
     },
     {
       "id": "concept.aego_peribea",
@@ -1714,7 +2114,16 @@
       "label": "Aego-Peribea",
       "aliases": [
         "forma Peribea del Aego"
-      ]
+      ],
+      "summary": "Borde inferior por suspensión en AA-III: la segunda mediación funciona bajo un eje ajeno mientras el eje propio persiste, pero queda sin acceso operativo.",
+      "evidence": [
+        "ev.aa3.preface.edges",
+        "ev.aa3.limit.edges",
+        "ev.aa3.peribea.adominio",
+        "ev.aa3.peribea.phenomenology",
+        "ev.aa3.glossary"
+      ],
+      "evidence_status": "explicit"
     },
     {
       "id": "concept.campo_relacional",
@@ -1751,7 +2160,10 @@
       "applicability": "En sentido pleno requiere segunda mediación; sin ella solo hay análogo funcional.",
       "evidence": [
         "ev.aa3.aego",
-        "ev.aa3.glossary"
+        "ev.aa3.aego.regimes",
+        "ev.aa3.aego.applicability",
+        "ev.aa3.glossary",
+        "ev.aa3.glossary.mediations"
       ],
       "evidence_status": "explicit"
     },
@@ -2776,10 +3188,12 @@
       "kind": "concept",
       "label": "Afasia volitiva",
       "aliases": [],
-      "summary": "Nombre técnico inicial del aego: pérdida de acceso al mecanismo que traduce pasión y colapsos en actos asumidos.",
+      "summary": "Nombre técnico inicial del Aego en AA-I; AA-III lo restringe a una imposibilidad o bloqueo de φ₂ y lo distingue de la disfasia Peribea y de la saturación Damasén.",
       "evidence": [
         "ev.aa1.aego_formal",
-        "ev.aa1.glossary"
+        "ev.aa1.glossary",
+        "ev.aa3.language.distinctions",
+        "ev.aa3.glossary"
       ],
       "evidence_status": "explicit"
     },
@@ -3498,6 +3912,331 @@
       },
       "evidence": ["ev.aa2.harmonia", "ev.aa2.system.network"],
       "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.autodeterminacion_causal.aa3",
+      "kind": "concept",
+      "label": "Autodeterminación causal en AA-III",
+      "aliases": ["intervención propia en la cadena causal"],
+      "summary": "Capacidad de intervenir desde un eje propio entre el sesgo heredado y el efecto, atribuida en la obra a la segunda mediación.",
+      "evidence": ["ev.aa3.limit.autodetermination", "ev.aa3.glossary.mediations"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.bordes_autodeterminacion.aa3",
+      "kind": "concept",
+      "label": "Bordes de la autodeterminación",
+      "aliases": ["borde inferior", "borde superior"],
+      "summary": "Límites por falta, bloqueo o préstamo de la segunda mediación y por saturación del campo mediante la propia mediación.",
+      "evidence": ["ev.aa3.limit.edges", "ev.aa3.preface.edges"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.disfasia_volitiva.aa3",
+      "kind": "concept",
+      "label": "Disfasia volitiva",
+      "aliases": ["disfasia Peribea"],
+      "summary": "Operación fluida de φ₂ sin eje propio accesible: la voluntad actúa, pero organiza su expresión conforme a un eje ajeno.",
+      "evidence": ["ev.aa3.language.distinctions", "ev.aa3.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.saturacion_expresiva.aa3",
+      "kind": "concept",
+      "label": "Saturación expresiva",
+      "aliases": ["saturación Damasén"],
+      "summary": "Régimen en que la propia mediación deja de comparecer como operación diferenciada y pasa a constituir la geometría del campo.",
+      "evidence": ["ev.aa3.language.distinctions", "ev.aa3.damasen.phenomenology"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.eje_propio.aa3",
+      "kind": "concept",
+      "label": "Eje propio",
+      "aliases": ["principio interno de orientación"],
+      "summary": "Principio de orientación cuya operatividad distingue una mediación propia de una mediación prestada y hace posible el encuentro entre voluntades.",
+      "evidence": ["ev.aa3.peribea.adominio", "ev.aa3.encounter.axes", "ev.aa3.collective.sovereignty", "ev.aa3.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.adominio.aa3",
+      "kind": "concept",
+      "label": "Adominio",
+      "aliases": ["polo pasivo del dominio"],
+      "summary": "Pérdida progresiva de la capacidad de producir orientación propia bajo una forma ajena; no equivale a debilidad, obediencia puntual ni ausencia de voluntad.",
+      "evidence": ["ev.aa3.peribea.adominio", "ev.aa3.peribea.phases", "ev.aa3.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.pax_damasen.aa3",
+      "kind": "concept",
+      "label": "Pax-Damasén",
+      "aliases": ["paz unilateral"],
+      "summary": "Estabilidad producida por la ausencia de un vector capaz de romper el campo, vivida por Damasén como acuerdo aunque el costo recaiga asimétricamente.",
+      "evidence": ["ev.aa3.pax.definition", "ev.aa3.damasen.loop_return", "ev.aa3.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.vinculo_colapsado.aa3",
+      "kind": "concept",
+      "label": "Vínculo colapsado",
+      "aliases": ["vínculo Damasén–Peribea"],
+      "summary": "Objeto relacional estabilizado que se reproduce entre un eje saturante y otro suspendido, con asimetrías de sorpresa, aprendizaje y costo.",
+      "evidence": ["ev.aa3.bond.definition", "ev.aa3.bond.asymmetries", "ev.aa3.bond.persistence", "ev.aa3.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.encuentro_genuino.aa3",
+      "kind": "concept",
+      "label": "Encuentro genuino",
+      "aliases": ["cruce de dos ejes propios"],
+      "summary": "Relación que requiere dos ejes propios capaces de producir diferencia, sorpresa y aprendizaje recíproco.",
+      "evidence": ["ev.aa3.encounter.axes", "ev.aa3.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.perturbacion_productiva.aa3",
+      "kind": "concept",
+      "label": "Perturbación productiva",
+      "aliases": ["diferencia exterior"],
+      "summary": "Intervención exterior que devuelve información al campo sin sustituir el eje propio y abre una posibilidad de retorno.",
+      "evidence": ["ev.aa3.damasen.loop_return", "ev.aa3.bond.return", "ev.aa3.collective.return_conditions", "ev.aa3.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.retorno_aego.aa3",
+      "kind": "concept",
+      "label": "Retorno individual desde el Aego",
+      "aliases": ["reapertura del campo"],
+      "summary": "Recuperación no restaurativa del acceso diferencial: en Damasén exige perturbación del campo y en Peribea, contraste y reorientación hacia el eje propio.",
+      "evidence": ["ev.aa3.language.return", "ev.aa3.bond.return", "ev.aa3.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.mascarada.aa3",
+      "kind": "concept",
+      "label": "Mascarada en AA-III",
+      "aliases": ["identidad asumida"],
+      "summary": "Forma relativamente estable del ego producida por colapsos asumidos; en escala colectiva se distribuye entre generaciones, instituciones y hábitos.",
+      "evidence": ["ev.aa3.collective.identity", "ev.aa3.glossary.identity_agape"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.aego_colectivo.aa3",
+      "kind": "concept",
+      "label": "Aego colectivo",
+      "aliases": ["singularidad volitiva colectiva"],
+      "summary": "Régimen colectivo en que persisten actividad e historia, pero se homogeneizan las segundas mediaciones y se pierde capacidad diferencial de reorientación.",
+      "evidence": ["ev.aa3.continuity.collective", "ev.aa3.collective.aego", "ev.aa3.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.damasen_colectivo.aa3",
+      "kind": "concept",
+      "label": "Damasén colectivo",
+      "aliases": ["campo colectivo saturante"],
+      "summary": "Colectivo cuyas categorías particulares operan como universales implícitos, asimilan la resistencia y naturalizan su asimetría.",
+      "evidence": ["ev.aa3.collective.damasen", "ev.aa3.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.peribea_colectivo.aa3",
+      "kind": "concept",
+      "label": "Peribea colectivo",
+      "aliases": ["colectivo sin eje propio operativo"],
+      "summary": "Colectivo productivo cuya orientación depende de categorías ajenas, con insuficiencia legitimada y pérdida selectiva de vehículos de transmisión.",
+      "evidence": ["ev.aa3.collective.peribea", "ev.aa3.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.retorno_colectivo.aa3",
+      "kind": "concept",
+      "label": "Retorno colectivo",
+      "aliases": ["recuperación creadora del eje colectivo"],
+      "summary": "Proceso no restaurativo de reconocimiento, revaloración de márgenes y producción desde un eje recuperado, condicionado por transmisión y transformación del campo Damasén.",
+      "evidence": ["ev.aa3.collective.return_conditions", "ev.aa3.collective.return_stages", "ev.aa3.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.soberania_colectiva.aa3",
+      "kind": "concept",
+      "label": "Soberanía colectiva",
+      "aliases": ["eje propio en campo ampliado"],
+      "summary": "Capacidad de un colectivo para actuar en un campo ampliado desde orientación propia, distinguida de aislamiento, repliegue e independencia política necesaria.",
+      "evidence": ["ev.aa3.collective.sovereignty", "ev.aa3.glossary"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.contrato_fiscal_aego.aa3",
+      "kind": "concept",
+      "label": "Contrato fiscal en Aego",
+      "aliases": ["vínculo fiscal colapsado"],
+      "summary": "Aplicación institucional en que la geometría estatal naturaliza obligación, información y asignación hasta viciar capacidad, objeto o consentimiento del intercambio fiscal.",
+      "evidence": ["ev.aa3.fiscal.structure", "ev.aa3.fiscal.contract", "ev.aa3.fiscal.mechanisms"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.estado_damasen.aa3",
+      "kind": "concept",
+      "label": "Estado-Damasén",
+      "aliases": ["campo fiscal saturante"],
+      "summary": "Polo estatal de la aplicación fiscal: universaliza criterios de asignación, absorbe la resistencia e invisibiliza la asimetría informativa.",
+      "evidence": ["ev.aa3.fiscal.structure", "ev.aa3.fiscal.contract"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.contribuyente_peribea.aa3",
+      "kind": "concept",
+      "label": "Contribuyente-Peribea",
+      "aliases": ["polo fiscal en adominio"],
+      "summary": "Polo contribuyente cuya acción continúa dentro de un campo fiscal experimentado como natural e inmodificable, sin eje eficaz sobre su geometría.",
+      "evidence": ["ev.aa3.fiscal.structure", "ev.aa3.fiscal.contract"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mediations.aa3",
+      "kind": "formulation",
+      "label": "Funciones de φ₁ y φ₂ en AA-III",
+      "subject": "concept.autodeterminacion_causal.aa3",
+      "role": "historical_formulation",
+      "content": {
+        "language": "ontological_formal",
+        "summary": "El capítulo 1 aproxima φ₁ al sesgo que orienta el impulso y φ₂ a la intervención propia; el glosario presenta φ₁ como traducción de voluntad en impulso y φ₂ como evaluación, orientación y ajuste."
+      },
+      "evidence": ["ev.aa3.limit.autodetermination", "ev.aa3.glossary.mediations"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.aego_levels.aa3",
+      "kind": "formulation",
+      "label": "Tres escalas del Aego en AA-III",
+      "subject": "concept.aego",
+      "role": "scale_extension",
+      "content": {
+        "language": "ontological_relational_collective",
+        "summary": "La obra aplica la misma familia estructural al sujeto, al vínculo y al colectivo, con adaptaciones declaradas para cada escala."
+      },
+      "evidence": ["ev.aa3.prologue.levels", "ev.aa3.continuity.collective", "ev.aa3.collective.aego"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.himeno_bridge.aa3",
+      "kind": "formulation",
+      "label": "Himeno como puente hacia Damasén y Peribea en AA-III",
+      "subject": "concept.himeno.aa2",
+      "role": "retrospective_crosswalk",
+      "content": {
+        "language": "historical_doctrinal",
+        "summary": "AA-III atribuye a Himeno la preparación de los dos polos y describe al sujeto Himeno con eje propio capaz de percibir la discrepancia."
+      },
+      "evidence": ["ev.aa3.limit.edges", "ev.aa3.continuity.himeno", "ev.aa3.harmonia.retrospective_claim"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.identity.aa3",
+      "kind": "formulation",
+      "label": "Identidad y mascarada en AA-III",
+      "subject": "concept.mascarada.aa3",
+      "role": "historical_formulation",
+      "content": {
+        "language": "ontological",
+        "summary": "Identidad y mascarada aparecen como forma constituida del ego mediante colapsos asumidos, también distribuible colectivamente."
+      },
+      "evidence": ["ev.aa3.collective.identity", "ev.aa3.glossary.identity_agape"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.agape.aa3",
+      "kind": "formulation",
+      "label": "Definición glosada de Ágape en AA-III",
+      "subject": "concept.agape.aa2",
+      "role": "later_glossary_formulation",
+      "content": {
+        "language": "relational",
+        "summary": "El glosario define Ágape como amor que no requiere reciprocidad y lo distingue de Eros y Philia."
+      },
+      "evidence": ["ev.aa3.glossary.identity_agape"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.damasen_dimension.aa3",
+      "kind": "formulation",
+      "label": "Ubicación dimensional de Damasén en AA-III",
+      "subject": "concept.aego_damasen",
+      "role": "internally_variable_formulation",
+      "content": {
+        "language": "ontological",
+        "summary": "La obra separa inicialmente Damasén de una intensificación de Ares o del dominio, pero después lo llama borde superior de la dimensión arética."
+      },
+      "evidence": ["ev.aa3.preface.edges", "ev.aa3.myth.damasen", "ev.aa3.damasen.arete_claim"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mythic_reading.aa3",
+      "kind": "formulation",
+      "label": "Apropiación conceptual del mito de Damasén",
+      "subject": "concept.aego_damasen",
+      "role": "declared_authorial_interpretation",
+      "content": {
+        "language": "mythic_hermeneutic",
+        "summary": "Damasén se lee como eficacia que satura el campo y la aceptación de paz por Ares como posición Peribea; la obra advierte que esta segunda atribución no aparece en el mito."
+      },
+      "evidence": ["ev.aa3.myth.damasen", "ev.aa3.myth.peribea_reading"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.fiscal.aa3",
+      "kind": "formulation",
+      "label": "Aplicación fiscal del vínculo Damasén–Peribea",
+      "subject": "concept.contrato_fiscal_aego.aa3",
+      "role": "institutional_application",
+      "content": {
+        "language": "political_institutional",
+        "summary": "El Estado ocupa el polo Damasén y el contribuyente el polo Peribea; mecanismos participativos se presentan como perturbaciones capaces de devolver diferencia al vínculo."
+      },
+      "evidence": ["ev.aa3.fiscal.structure", "ev.aa3.fiscal.contract", "ev.aa3.fiscal.mechanisms"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.aego.aa3",
+      "kind": "formal_object",
+      "label": "Fórmula del Aego en AA-III",
+      "formal_spec": {
+        "symbol": "Φ_aego",
+        "object_type": "authorial_structural_formula",
+        "expression": "Φ_aego = ∫φ(t)dt × 0",
+        "interpretation": "persisten voluntad e historia; el producto diferencial sobre el campo es nulo",
+        "epistemic_status": "authorial_formalization_pending_review"
+      },
+      "evidence": ["ev.aa3.aego", "ev.aa3.pax.zero_locus", "ev.aa3.bond.definition", "ev.aa3.glossary.mediations"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.aego_applicability.aa3",
+      "kind": "formal_object",
+      "label": "Condición de aplicabilidad plena del Aego",
+      "formal_spec": {
+        "object_type": "authorial_applicability_condition",
+        "expression": "∃ φ₂ tal que φ₂(φ₁(v,c), I) sea posible",
+        "scope": "sujeto con segunda mediación; los demás sistemas solo admiten analogía funcional",
+        "epistemic_status": "authorial_boundary"
+      },
+      "evidence": ["ev.aa3.aego.applicability", "ev.aa3.prologue.levels"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.aego_regimes.aa3",
+      "kind": "formal_object",
+      "label": "Regímenes diferenciales del Aego en AA-III",
+      "formal_spec": {
+        "object_type": "authorial_regime_comparison",
+        "ordinary": "dI/dt = δ(t) > 0 cuando φ₂ opera",
+        "damasen": "dI/dt ≈ 0 respecto del efecto diferencial sobre el campo",
+        "peribea": "dI/dt crece en dirección ajena",
+        "epistemic_status": "structural_analogy_pending_formal_review"
+      },
+      "evidence": ["ev.aa3.aego.regimes", "ev.aa3.glossary.mediations"],
+      "evidence_status": "explicit"
     }
   ],
   "relations": [
@@ -3581,6 +4320,7 @@
       "from": "formulation.aego.aa3",
       "to": "formulation.aego.aa1",
       "evidence_status": "inferred",
+      "evidence": ["ev.aa1.aego_formal", "ev.aa1.glossary", "ev.aa3.aego", "ev.aa3.continuity.claims", "ev.aa3.glossary.mediations"],
       "rationale": "El Vol. I define Aego mediante interrupción de φ₂ e integración; el Vol. III conserva el término pero formula persistencia de voluntad e integral con producto relacional nulo. El glosario del Vol. III remite al Vol. I como introducción y al Cap. 2 del Vol. III como desarrollo central. Falta adjudicar si el cambio es refinamiento, sustitución o corrección."
     },
     {
@@ -3602,6 +4342,7 @@
       "evidence_status": "explicit",
       "evidence": [
         "ev.aa3.aego",
+        "ev.aa3.preface.edges",
         "ev.sdo.aego"
       ]
     },
@@ -3613,6 +4354,7 @@
       "evidence_status": "explicit",
       "evidence": [
         "ev.aa3.aego",
+        "ev.aa3.preface.edges",
         "ev.sdo.aego"
       ]
     },
@@ -4794,6 +5536,234 @@
       "evidence_status": "inferred",
       "evidence": ["ev.aa2.alterity.formula", "ev.axiom.system_map", "ev.axiom.translation"],
       "rationale": "AA-II define α como alteridad, mientras la Axiomatización usa α como coeficiente de asunción. No hay correspondencia autoral entre ambos objetos pese a compartir símbolo."
+    },
+    {
+      "id": "rel.autodetermination_aa3.has_edges",
+      "type": "bounded_by",
+      "from": "concept.autodeterminacion_causal.aa3",
+      "to": "concept.bordes_autodeterminacion.aa3",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.limit.autodetermination", "ev.aa3.limit.edges"]
+    },
+    {
+      "id": "rel.damasen_aa3.upper_edge",
+      "type": "case_of",
+      "from": "concept.aego_damasen",
+      "to": "concept.bordes_autodeterminacion.aa3",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.preface.edges", "ev.aa3.limit.edges"]
+    },
+    {
+      "id": "rel.peribea_aa3.lower_edge",
+      "type": "case_of",
+      "from": "concept.aego_peribea",
+      "to": "concept.bordes_autodeterminacion.aa3",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.preface.edges", "ev.aa3.limit.edges"]
+    },
+    {
+      "id": "rel.damasen_aa3.expressed_as_saturation",
+      "type": "expressed_as",
+      "from": "concept.aego_damasen",
+      "to": "concept.saturacion_expresiva.aa3",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.language.distinctions", "ev.aa3.damasen.phenomenology"]
+    },
+    {
+      "id": "rel.peribea_aa3.expressed_as_dysphasia",
+      "type": "expressed_as",
+      "from": "concept.aego_peribea",
+      "to": "concept.disfasia_volitiva.aa3",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.language.distinctions", "ev.aa3.peribea.phenomenology"]
+    },
+    {
+      "id": "rel.peribea_aa3.installs_adominio",
+      "type": "develops_as",
+      "from": "concept.aego_peribea",
+      "to": "concept.adominio.aa3",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.peribea.adominio", "ev.aa3.peribea.phases"]
+    },
+    {
+      "id": "rel.adominio_aa3.obscures_axis",
+      "type": "obscures_access_to",
+      "from": "concept.adominio.aa3",
+      "to": "concept.eje_propio.aa3",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.peribea.adominio", "ev.aa3.peribea.phenomenology"]
+    },
+    {
+      "id": "rel.pax_aa3.instantiates_collapsed_bond",
+      "type": "case_of",
+      "from": "concept.pax_damasen.aa3",
+      "to": "concept.vinculo_colapsado.aa3",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.pax.definition", "ev.aa3.bond.definition"]
+    },
+    {
+      "id": "rel.damasen_peribea_aa3.form_bond",
+      "type": "co_constitute",
+      "from": "concept.aego_damasen",
+      "to": "concept.aego_peribea",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.bond.definition", "ev.aa3.bond.asymmetries"]
+    },
+    {
+      "id": "rel.encounter_aa3.requires_axis",
+      "type": "requires",
+      "from": "concept.encuentro_genuino.aa3",
+      "to": "concept.eje_propio.aa3",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.encounter.axes"]
+    },
+    {
+      "id": "rel.collapsed_bond_aa3.blocks_encounter",
+      "type": "blocks",
+      "from": "concept.vinculo_colapsado.aa3",
+      "to": "concept.encuentro_genuino.aa3",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.encounter.axes", "ev.aa3.bond.persistence"]
+    },
+    {
+      "id": "rel.return_aa3.requires_perturbation",
+      "type": "requires",
+      "from": "concept.retorno_aego.aa3",
+      "to": "concept.perturbacion_productiva.aa3",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.language.return", "ev.aa3.bond.return"]
+    },
+    {
+      "id": "rel.aego_collective_aa3.scales_aego",
+      "type": "scale_extension_of",
+      "from": "concept.aego_colectivo.aa3",
+      "to": "concept.aego",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.continuity.collective", "ev.aa3.collective.aego"]
+    },
+    {
+      "id": "rel.damasen_collective_aa3.case_of",
+      "type": "case_of",
+      "from": "concept.damasen_colectivo.aa3",
+      "to": "concept.aego_colectivo.aa3",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.collective.damasen"]
+    },
+    {
+      "id": "rel.peribea_collective_aa3.case_of",
+      "type": "case_of",
+      "from": "concept.peribea_colectivo.aa3",
+      "to": "concept.aego_colectivo.aa3",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.collective.peribea"]
+    },
+    {
+      "id": "rel.collective_return_aa3.restores_sovereignty",
+      "type": "enables",
+      "from": "concept.retorno_colectivo.aa3",
+      "to": "concept.soberania_colectiva.aa3",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.collective.return_stages", "ev.aa3.collective.sovereignty"]
+    },
+    {
+      "id": "rel.collective_return_aa3.requires_damasen_change",
+      "type": "requires",
+      "from": "concept.retorno_colectivo.aa3",
+      "to": "concept.damasen_colectivo.aa3",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.collective.return_conditions"]
+    },
+    {
+      "id": "rel.fiscal_contract_aa3.applies_collective_aego",
+      "type": "applies",
+      "from": "concept.contrato_fiscal_aego.aa3",
+      "to": "concept.aego_colectivo.aa3",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.fiscal.structure", "ev.aa3.fiscal.contract"]
+    },
+    {
+      "id": "rel.state_damasen_aa3.pole_of_fiscal",
+      "type": "pole_of",
+      "from": "concept.estado_damasen.aa3",
+      "to": "concept.contrato_fiscal_aego.aa3",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.fiscal.structure"]
+    },
+    {
+      "id": "rel.taxpayer_peribea_aa3.pole_of_fiscal",
+      "type": "pole_of",
+      "from": "concept.contribuyente_peribea.aa3",
+      "to": "concept.contrato_fiscal_aego.aa3",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.fiscal.structure"]
+    },
+    {
+      "id": "rel.formal_aego_aa3.formalizes_formulation",
+      "type": "formalizes",
+      "from": "formal.aego.aa3",
+      "to": "formulation.aego.aa3",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.aego", "ev.aa3.glossary.mediations"]
+    },
+    {
+      "id": "rel.aego_regimes_aa3.instantiates_formula",
+      "type": "specifies_regimes_of",
+      "from": "formal.aego_regimes.aa3",
+      "to": "formal.aego.aa3",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.aego.regimes"]
+    },
+    {
+      "id": "rel.aego_applicability_aa3.conditions_formula",
+      "type": "conditions_applicability_of",
+      "from": "formal.aego_applicability.aa3",
+      "to": "formal.aego.aa3",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.aego.applicability"]
+    },
+    {
+      "id": "rel.mediations_aa3.differs_aa2",
+      "type": "differs_from",
+      "from": "formulation.mediations.aa3",
+      "to": "formulation.phi2.aa2",
+      "evidence_status": "inferred",
+      "evidence": ["ev.aa3.limit.autodetermination", "ev.aa3.glossary.mediations", "ev.aa2.system.phi2", "ev.aa2.glossary"],
+      "rationale": "AA-III distribuye entre φ₁ y φ₂ funciones que no coinciden de modo estable con la lucidez global y movilidad de AA-II; registra además dos descripciones no idénticas dentro del propio volumen."
+    },
+    {
+      "id": "rel.himeno_bridge_aa3.differs_aa2",
+      "type": "differs_from",
+      "from": "formulation.himeno_bridge.aa3",
+      "to": "formulation.himeno.aa2",
+      "evidence_status": "inferred",
+      "evidence": ["ev.aa3.limit.edges", "ev.aa3.continuity.himeno", "ev.aa2.himeno.aego_distinction", "ev.aa2.himeno.architecture"],
+      "rationale": "AA-II separa Himeno del Aego y lo hace estructuralmente anterior, con forma propia vaciada; AA-III lo usa como preparación de los dos polos y atribuye al sujeto Himeno un eje propio suficiente para percibir discrepancia."
+    },
+    {
+      "id": "rel.identity_aa3.differs_aa1",
+      "type": "differs_from",
+      "from": "formulation.identity.aa3",
+      "to": "concept.identidad_sesgo.aa1",
+      "evidence_status": "inferred",
+      "evidence": ["ev.aa3.collective.identity", "ev.aa3.glossary.identity_agape", "ev.aa1.identity.formation", "ev.aa1.identity.bias_boundary"],
+      "rationale": "AA-I define identidad como sesgo pre-egóico y accidente que no constituye el ego; AA-III la presenta como mascarada resultante de colapsos asumidos y forma del ego."
+    },
+    {
+      "id": "rel.agape_aa3.differs_aa2",
+      "type": "differs_from",
+      "from": "formulation.agape.aa3",
+      "to": "formulation.agape.aa2",
+      "evidence_status": "inferred",
+      "evidence": ["ev.aa3.glossary.identity_agape", "ev.aa2.agape.definition", "ev.aa2.glossary"],
+      "rationale": "AA-II excluye expresamente amor cristiano y emoción y define Ágape como potencia volitiva pre-direccional; el glosario de AA-III la define como amor sin exigencia de reciprocidad."
+    },
+    {
+      "id": "rel.damasen_dimension_aa3.varies_internally",
+      "type": "internally_varies",
+      "from": "formulation.damasen_dimension.aa3",
+      "to": "concept.ares_conquista",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa3.preface.edges", "ev.aa3.myth.damasen", "ev.aa3.damasen.arete_claim"]
     }
   ],
   "routes": [
@@ -4957,15 +5927,30 @@
         {
           "order": 4,
           "evidence_id": "ev.aa3.aego",
-          "reason": "Desarrollo central posterior y nueva fórmula."
+          "reason": "Desarrollo central posterior y nueva fórmula sobre voluntad e historia persistentes."
         },
         {
           "order": 5,
+          "evidence_id": "ev.aa3.aego.regimes",
+          "reason": "Distingue los regímenes ordinario, Damasén y Peribea y conserva el problema de su derivada."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.aa3.pax.zero_locus",
+          "reason": "Contrasta la atribución posterior del producto nulo al vínculo, no al sujeto Damasén."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.aa3.continuity.collective",
+          "reason": "Expone la extensión declarada del Aego a vínculo y colectivo."
+        },
+        {
+          "order": 8,
           "evidence_id": "ev.aa3.glossary",
           "reason": "Autolocalización del término dentro de la trilogía."
         },
         {
-          "order": 6,
+          "order": 9,
           "evidence_id": "ev.sdo.aego",
           "reason": "Operacionalización diagnóstica E-6."
         }
@@ -4973,7 +5958,10 @@
       "must_surface_review_items": [
         "review.aego.formulation_change",
         "review.aa1.aego_zero_indeterminate",
-        "review.aa1.aego_operator_agency"
+        "review.aa1.aego_operator_agency",
+        "review.aa3.aego_zero_locus",
+        "review.aa3.aego_regime_derivative",
+        "review.aa3.phi_functions"
       ]
     },
     {
@@ -5611,7 +6599,8 @@
         }
       ],
       "must_surface_review_items": [
-        "review.aa1.identity_change"
+        "review.aa1.identity_change",
+        "review.aa3.identity_masquerade"
       ]
     },
     {
@@ -5842,7 +6831,7 @@
         {"order": 5, "evidence_id": "ev.aa2.alterity.formula", "reason": "Registra la protofórmula y su notación."},
         {"order": 6, "evidence_id": "ev.aa2.glossary", "reason": "Consolida el vocabulario autoral."}
       ],
-      "must_surface_review_items": ["review.aa2.alpha_symbol_collision"]
+      "must_surface_review_items": ["review.aa2.alpha_symbol_collision", "review.aa3.agape_glossary"]
     },
     {
       "id": "route.aa2.children_positions",
@@ -5923,7 +6912,7 @@
         {"order": 5, "evidence_id": "ev.aa2.himeno.warning", "reason": "Prohíbe convertir el mapa en diagnóstico directo."},
         {"order": 6, "evidence_id": "ev.aa2.glossary", "reason": "Fija las distinciones técnicas del cierre."}
       ],
-      "must_surface_review_items": ["review.aego.formulation_change", "review.aa2.phi2_function_change"]
+      "must_surface_review_items": ["review.aego.formulation_change", "review.aa2.phi2_function_change", "review.aa3.himeno_crosswalk", "review.aa3.phi_functions"]
     },
     {
       "id": "route.aa2.formal_objects",
@@ -5948,9 +6937,175 @@
         {"order": 2, "evidence_id": "ev.aa2.prologue.inherited_model", "reason": "Recoge las atribuciones de modelo al volumen anterior."},
         {"order": 3, "evidence_id": "ev.aa2.closure.volume_crosswalk", "reason": "Conserva la retrospectiva sobre Ágape y la arquitectura declarada."},
         {"order": 4, "evidence_id": "ev.aa2.closure.limits", "reason": "Abre el problema de dos voluntades al volumen siguiente."},
-        {"order": 5, "evidence_id": "ev.aa2.himeno.architecture", "reason": "Expone la remisión relacional del apéndice."}
+        {"order": 5, "evidence_id": "ev.aa2.himeno.architecture", "reason": "Expone la remisión relacional del apéndice."},
+        {"order": 6, "evidence_id": "ev.aa3.preliminaries", "reason": "Confirma la identidad material del volumen III."},
+        {"order": 7, "evidence_id": "ev.aa3.preface.program", "reason": "Contrasta el programa de pentalogía."},
+        {"order": 8, "evidence_id": "ev.aa3.glossary.series_notation", "reason": "Conserva la reaparición de trilogía y el problema editorial de notación."}
       ],
-      "must_surface_review_items": ["review.aa2.volume_crosswalk"]
+      "must_surface_review_items": ["review.aa2.volume_crosswalk", "review.aa3.myth_sources", "review.aa3.glossary_notation"]
+    },
+    {
+      "id": "route.aa3.architecture_method",
+      "purpose": "Recuperar la arquitectura, los interlocutores y los límites de aplicación declarados por Damasén.",
+      "triggers": ["estructura de Damasén", "método de Damasén", "interlocutores de Damasén", "niveles del Aego"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa3.preliminaries", "reason": "Fija identidad editorial y posición del volumen."},
+        {"order": 2, "evidence_id": "ev.aa3.preface.program", "reason": "Presenta el programa en cinco partes."},
+        {"order": 3, "evidence_id": "ev.aa3.prologue.debates", "reason": "Separa teoría del poder, psicoanálisis y acción de la respuesta autoral."},
+        {"order": 4, "evidence_id": "ev.aa3.prologue.levels", "reason": "Distingue escalas y limita la aplicación plena a sistemas con segunda mediación."}
+      ],
+      "must_surface_review_items": ["review.aa3.nonhuman_boundary", "review.aa2.volume_crosswalk"]
+    },
+    {
+      "id": "route.aa3.aego_formal",
+      "purpose": "Explicar la singularidad volitiva de AA-III con sus fórmulas, regímenes, escalas y contradicciones formales visibles.",
+      "triggers": ["fórmula del Aego en Damasén", "por cero en Aego", "regímenes de I(t)", "aplicabilidad del Aego"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa3.limit.autodetermination", "reason": "Define el criterio causal de autodeterminación."},
+        {"order": 2, "evidence_id": "ev.aa3.limit.edges", "reason": "Ubica Damasén y Peribea en los dos bordes."},
+        {"order": 3, "evidence_id": "ev.aa3.aego", "reason": "Fija la fórmula central y su lectura autoral."},
+        {"order": 4, "evidence_id": "ev.aa3.aego.regimes", "reason": "Expone las tres dinámicas diferenciales."},
+        {"order": 5, "evidence_id": "ev.aa3.aego.applicability", "reason": "Delimita condición de φ₂ y analogías funcionales."},
+        {"order": 6, "evidence_id": "ev.aa3.pax.zero_locus", "reason": "Conserva el desplazamiento del cero desde Damasén hacia el vínculo."},
+        {"order": 7, "evidence_id": "ev.aa3.bond.definition", "reason": "Aplica la fórmula al objeto relacional."},
+        {"order": 8, "evidence_id": "ev.aa3.glossary.mediations", "reason": "Contrasta el cierre terminológico y formal."}
+      ],
+      "must_surface_review_items": ["review.aego.formulation_change", "review.aa3.aego_zero_locus", "review.aa3.aego_regime_derivative", "review.aa3.phi_functions", "review.aa3.nonhuman_boundary"]
+    },
+    {
+      "id": "route.aa3.language_regimes",
+      "purpose": "Distinguir afasia, disfasia y saturación expresiva sin convertir analogías lingüísticas o clínicas en diagnósticos.",
+      "triggers": ["afasia volitiva", "disfasia Peribea", "saturación Damasén", "lenguaje y Aego"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa3.language.distinctions", "reason": "Separa los tres regímenes de expresión."},
+        {"order": 2, "evidence_id": "ev.aa3.language.return", "reason": "Distingue episodio, instalación y retorno."},
+        {"order": 3, "evidence_id": "ev.aa3.limit.nonclinical", "reason": "Mantiene el límite ontológico y no clínico."},
+        {"order": 4, "evidence_id": "ev.aa3.glossary", "reason": "Recupera definiciones glosadas."}
+      ],
+      "must_surface_review_items": ["review.aa3.phi_functions"]
+    },
+    {
+      "id": "route.aa3.damasen",
+      "purpose": "Explicar Damasén desde la apropiación mítica hasta su fenomenología y su retorno exterior.",
+      "triggers": ["qué es Damasén", "mito de Damasén", "Pax-Damasén", "ceguera de Damasén"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa3.myth.damasen", "reason": "Distingue la figura mítica de su función conceptual."},
+        {"order": 2, "evidence_id": "ev.aa3.damasen.phenomenology", "reason": "Describe transparencia, eficacia y asimetría no percibida."},
+        {"order": 3, "evidence_id": "ev.aa3.pax.definition", "reason": "Define la paz unilateral del campo saturado."},
+        {"order": 4, "evidence_id": "ev.aa3.damasen.loop_return", "reason": "Expone el bucle y la necesidad de perturbación exterior."},
+        {"order": 5, "evidence_id": "ev.aa3.damasen.arete_claim", "reason": "Conserva su ubicación dimensional tardía."}
+      ],
+      "must_surface_review_items": ["review.aa3.myth_sources", "review.aa3.damasen_dimension", "review.aa3.aego_zero_locus"]
+    },
+    {
+      "id": "route.aa3.peribea",
+      "purpose": "Explicar Peribea y el adominio como régimen post-egóico de mediación prestada y no como debilidad o ausencia de voluntad.",
+      "triggers": ["qué es Peribea", "adominio", "fenomenología Peribea", "máscaras de Peribea"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa3.peribea.adominio", "reason": "Define el polo pasivo del dominio y el eje propio inaccesible."},
+        {"order": 2, "evidence_id": "ev.aa3.peribea.phases", "reason": "Describe su instalación gradual."},
+        {"order": 3, "evidence_id": "ev.aa3.peribea.phenomenology", "reason": "Registra extrañamiento, fatiga, perplejidad y doble silencio."},
+        {"order": 4, "evidence_id": "ev.aa3.peribea.afrodita_distinction", "reason": "La separa de la posición pre-egóica de Afrodita."},
+        {"order": 5, "evidence_id": "ev.aa3.peribea.masks", "reason": "Expone consenso, madurez y Harmonía obstructiva como máscaras."}
+      ],
+      "must_surface_review_items": ["review.aa3.himeno_crosswalk", "review.aa3.phi_functions"]
+    },
+    {
+      "id": "route.aa3.volume_crosswalk",
+      "purpose": "Auditar las atribuciones retrospectivas de Damasén a los volúmenes I–II y sus variaciones internas sin reconstruir continuidad por inferencia.",
+      "triggers": ["Damasén y volúmenes anteriores", "Aego en volumen I", "Himeno y Peribea", "Harmonía obstructiva"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa3.prologue.inherited_model", "reason": "Recoge el modelo que AA-III presenta como heredado."},
+        {"order": 2, "evidence_id": "ev.aa3.continuity.claims", "reason": "Explicita la reconstrucción retrospectiva del Aego."},
+        {"order": 3, "evidence_id": "ev.aa3.continuity.himeno", "reason": "Registra el puente declarado desde Himeno."},
+        {"order": 4, "evidence_id": "ev.aa3.harmonia.retrospective_claim", "reason": "Conserva la atribución tardía de la distinción de Harmonía."},
+        {"order": 5, "evidence_id": "ev.aa3.collective.identity", "reason": "Registra la reformulación de identidad y mascarada."},
+        {"order": 6, "evidence_id": "ev.aa3.glossary.identity_agape", "reason": "Contrasta los términos glosados con los volúmenes previos."}
+      ],
+      "must_surface_review_items": ["review.aego.formulation_change", "review.aa3.himeno_crosswalk", "review.aa3.identity_masquerade", "review.aa3.agape_glossary", "review.aa3.phi_functions", "review.aa2.volume_crosswalk"]
+    },
+    {
+      "id": "route.aa3.collapsed_bond",
+      "purpose": "Reconstruir el vínculo Damasén–Peribea como objeto relacional, sus asimetrías y la imposibilidad de encuentro instalado.",
+      "triggers": ["vínculo colapsado", "Damasén y Peribea", "asimetrías del vínculo", "encuentro genuino"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa3.pax.definition", "reason": "Introduce la estabilidad unilateral."},
+        {"order": 2, "evidence_id": "ev.aa3.bond.definition", "reason": "Define el vínculo como objeto autónomo."},
+        {"order": 3, "evidence_id": "ev.aa3.bond.asymmetries", "reason": "Distingue sorpresa, aprendizaje y costo."},
+        {"order": 4, "evidence_id": "ev.aa3.encounter.axes", "reason": "Fija el requisito de dos ejes para el encuentro."},
+        {"order": 5, "evidence_id": "ev.aa3.encounter.echo_contagion", "reason": "Describe eco y propagación del adominio."},
+        {"order": 6, "evidence_id": "ev.aa3.bond.persistence", "reason": "Explica la persistencia geométrica, histórica y narrativa."}
+      ],
+      "must_surface_review_items": ["review.aa3.aego_zero_locus"]
+    },
+    {
+      "id": "route.aa3.individual_return",
+      "purpose": "Recuperar las condiciones de retorno individual sin prometer restauración ni sustituir el eje Peribea desde fuera.",
+      "triggers": ["retorno de Damasén", "retorno de Peribea", "perturbación productiva", "transformar vínculo Aego"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa3.language.return", "reason": "Distingue la operación requerida por cada régimen."},
+        {"order": 2, "evidence_id": "ev.aa3.damasen.loop_return", "reason": "Sitúa la resistencia exterior como información."},
+        {"order": 3, "evidence_id": "ev.aa3.bond.return", "reason": "Reúne perturbación, vocabulario, distancia y cambio bilateral."},
+        {"order": 4, "evidence_id": "ev.aa3.encounter.axes", "reason": "Mantiene el objetivo estructural de dos ejes propios."}
+      ],
+      "must_surface_review_items": ["review.aa3.himeno_crosswalk"]
+    },
+    {
+      "id": "route.aa3.collective_identity",
+      "purpose": "Explicar la escala colectiva del ego, la identidad y el Aego sin fusionarla con los usos anteriores de identidad.",
+      "triggers": ["identidad colectiva", "mascarada colectiva", "Aego colectivo", "segundas mediaciones colectivas"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa3.continuity.collective", "reason": "Presenta la extensión entre escalas."},
+        {"order": 2, "evidence_id": "ev.aa3.collective.identity", "reason": "Define la mascarada distribuida."},
+        {"order": 3, "evidence_id": "ev.aa3.collective.aego", "reason": "Describe la homogeneización de segundas mediaciones."},
+        {"order": 4, "evidence_id": "ev.aa1.identity.bias_boundary", "reason": "Contrasta la identidad-sesgo pre-egóica de AA-I."},
+        {"order": 5, "evidence_id": "ev.caos.glossary_ego_identity", "reason": "Contrasta la identidad como continuidad integral en Caos."}
+      ],
+      "must_surface_review_items": ["review.aa1.identity_change", "review.aa3.identity_masquerade", "review.aa3.phi_functions"]
+    },
+    {
+      "id": "route.aa3.collective_poles",
+      "purpose": "Distinguir Damasén y Peribea colectivos por sus mecanismos observables y responsabilidades declaradas.",
+      "triggers": ["Damasén colectivo", "Peribea colectivo", "amnesia selectiva", "asimetría colectiva"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa3.collective.aego", "reason": "Fija la estructura común del Aego colectivo."},
+        {"order": 2, "evidence_id": "ev.aa3.collective.damasen", "reason": "Expone universalización, asimilación y responsabilidad sin intención necesaria."},
+        {"order": 3, "evidence_id": "ev.aa3.collective.peribea", "reason": "Expone productividad ajena, insuficiencia y pérdida de transmisión."}
+      ]
+    },
+    {
+      "id": "route.aa3.collective_return",
+      "purpose": "Recuperar las condiciones, etapas y límite político de la soberanía colectiva.",
+      "triggers": ["retorno colectivo", "soberanía colectiva", "eje colectivo", "repliegue e independencia"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa3.collective.return_conditions", "reason": "Exige perturbación, vocabulario, transmisión y transformación Damasén."},
+        {"order": 2, "evidence_id": "ev.aa3.collective.return_stages", "reason": "Ordena reconocimiento, márgenes y producción propia."},
+        {"order": 3, "evidence_id": "ev.aa3.collective.sovereignty", "reason": "Distingue soberanía de repliegue e independencia política."}
+      ]
+    },
+    {
+      "id": "route.aa3.fiscal_contract",
+      "purpose": "Recuperar la aplicación fiscal del Aego como construcción autoral y no como derivación técnica ya validada.",
+      "triggers": ["contrato fiscal en Aego", "Estado-Damasén", "contribuyente-Peribea", "auditoría ciudadana"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa3.fiscal.structure", "reason": "Asigna los polos estatal y contribuyente."},
+        {"order": 2, "evidence_id": "ev.aa3.fiscal.contract", "reason": "Examina capacidad, objeto, consentimiento e intercambio."},
+        {"order": 3, "evidence_id": "ev.aa3.fiscal.mechanisms", "reason": "Enumera perturbaciones institucionales propuestas."},
+        {"order": 4, "evidence_id": "ev.aa3.collective.sovereignty", "reason": "Ubica la aplicación dentro de la soberanía colectiva."}
+      ],
+      "must_surface_review_items": ["review.aa3.aego_zero_locus", "review.aa3.phi_functions"]
+    },
+    {
+      "id": "route.aa3.editorial_issues",
+      "purpose": "Localizar discordancias mitográficas, de serie y de notación propias de la fuente sin corregirlas por conjetura.",
+      "triggers": ["fuentes del mito Damasén", "trilogía o pentalogía", "errores editoriales Damasén", "notación de Damasén"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa3.preface.program", "reason": "Recoge genealogía y programa declarados en el prefacio."},
+        {"order": 2, "evidence_id": "ev.aa3.myth.damasen", "reason": "Contrasta genealogía, fuente y episodio del capítulo mítico."},
+        {"order": 3, "evidence_id": "ev.aa3.preliminaries", "reason": "Fija la identidad material del volumen."},
+        {"order": 4, "evidence_id": "ev.aa3.glossary.series_notation", "reason": "Conserva la autoubicación como trilogía y el signo corrompido."}
+      ],
+      "must_surface_review_items": ["review.aa3.myth_sources", "review.aa2.volume_crosswalk", "review.aa3.glossary_notation"]
     }
   ],
   "review_queue": [
@@ -5962,7 +7117,8 @@
       "question": "¿La formulación de Aego de Damasén sustituye/corrige la formulación del Apéndice A de Sobre la pasión, o deben conservarse como dos formulaciones con alcances distintos?",
       "why_not_auto_resolved": "Los textos muestran una diferencia material y el Vol. III se presenta como desarrollo central, pero los pasajes revisados no declaran de forma inequívoca que la formulación anterior quede abrogada.",
       "blocking": false,
-      "blocking_for": []
+      "blocking_for": ["formal_validation", "software_implementation"],
+      "evidence": ["ev.aa1.aego", "ev.aa1.aego_formal", "ev.aa1.glossary", "ev.aa3.aego", "ev.aa3.continuity.claims", "ev.aa3.glossary.mediations"]
     },
     {
       "id": "review.rstar.sink_irreducibility",
@@ -6177,11 +7333,11 @@
       "id": "review.aa2.volume_crosswalk",
       "status": "pending_editorial_review",
       "subject": "formulation.volume_crosswalk.aa2",
-      "question": "¿Cómo debe corregirse o autorizarse la autoubicación que atribuye Ágape y parte de su modelo al Vol. I, llama a AA-II a la vez Vol. II, y alterna pentalogía y trilogía para la serie?",
-      "why_not_auto_resolved": "La fuente canónica de AA-I no usa Ágape y declara para el volumen siguiente una pregunta epistemológica distinta; AA-II se identifica materialmente como volumen 2, pero su cierre llama Ágape a la respuesta del Vol. I y el propio texto usa arquitecturas de serie incompatibles. Es una discordancia autoral/editorial, no una equivalencia que la auditoría pueda imponer.",
+      "question": "¿Cómo debe corregirse o autorizarse la autoubicación que atribuye Ágape y parte de su modelo al Vol. I, llama a AA-II a la vez Vol. II, y alterna pentalogía y trilogía a lo largo de AA-II y AA-III?",
+      "why_not_auto_resolved": "La fuente canónica de AA-I no usa Ágape y declara para el volumen siguiente una pregunta epistemológica distinta; AA-II se identifica materialmente como volumen 2, mientras AA-III se identifica como volumen 3. Sin embargo, cierres, apéndices y glosarios atribuyen de otro modo contenidos previos y alternan arquitecturas de serie incompatibles. Es una discordancia autoral/editorial, no una equivalencia que la auditoría pueda imponer.",
       "blocking": false,
       "blocking_for": [],
-      "evidence": ["ev.aa2.preliminaries", "ev.aa2.prologue.inherited_model", "ev.aa2.closure.volume_crosswalk", "ev.aa2.closure.limits", "ev.aa2.himeno.architecture", "ev.aa1.reason.synthesis", "ev.aa1.closure.downstream"]
+      "evidence": ["ev.aa2.preliminaries", "ev.aa2.prologue.inherited_model", "ev.aa2.closure.volume_crosswalk", "ev.aa2.closure.limits", "ev.aa2.himeno.architecture", "ev.aa1.reason.synthesis", "ev.aa1.closure.downstream", "ev.aa3.preliminaries", "ev.aa3.preface.program", "ev.aa3.glossary.series_notation"]
     },
     {
       "id": "review.aa2.cross_level_status",
@@ -6203,6 +7359,111 @@
       "blocking": false,
       "blocking_for": ["formal_validation", "software_implementation"],
       "evidence": ["ev.aa2.alterity.formula", "ev.axiom.system_map", "ev.axiom.translation"]
+    },
+    {
+      "id": "review.aa3.aego_zero_locus",
+      "status": "pending_authorial_adjudication",
+      "subject": "formal.aego.aa3",
+      "question": "¿El producto por cero describe al sujeto Damasén, al vínculo Damasén–Peribea, a ambos en escalas distintas o solo a su efecto diferencial sobre un campo específicamente tipado?",
+      "why_not_auto_resolved": "El prefacio y el capítulo 2 presentan Damasén y Peribea como formas individuales del Aego y aplican Φ_aego = ∫φ(t)dt × 0; el capítulo 7 afirma expresamente que Damasén no tiene producto nulo y que el ×0 pertenece al vínculo, y el capítulo 13 vuelve a aplicar la fórmula al vínculo. El texto no ofrece una regla de tipado entre sujetos, relación y campo que haga equivalentes las atribuciones.",
+      "blocking": false,
+      "blocking_for": ["formal_validation", "software_implementation", "technical_use"],
+      "evidence": ["ev.aa3.preface.edges", "ev.aa3.aego", "ev.aa3.pax.zero_locus", "ev.aa3.bond.definition", "ev.aa3.glossary.mediations"]
+    },
+    {
+      "id": "review.aa3.aego_regime_derivative",
+      "status": "pending_formal_review",
+      "subject": "formal.aego_regimes.aa3",
+      "question": "¿Qué variable y codominio representa dI/dt en cada régimen si la integral histórica de Damasén sigue creciendo, pero a la vez se escribe dI/dt ≈ 0?",
+      "why_not_auto_resolved": "El capítulo 2 insiste en que voluntad e historia persisten y que lo nulo es el efecto diferencial sobre el campo; a continuación usa la derivada temporal de I para expresar ese efecto y asigna a Peribea crecimiento en una dirección ajena. Sin una función de campo o proyección adicional, acumulación temporal y producto relacional aparecen confundidos.",
+      "blocking": false,
+      "blocking_for": ["formal_validation", "software_implementation"],
+      "evidence": ["ev.aa3.aego", "ev.aa3.aego.regimes", "ev.aa3.glossary.mediations"]
+    },
+    {
+      "id": "review.aa3.phi_functions",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.mediations.aa3",
+      "related_relation": "rel.mediations_aa3.differs_aa2",
+      "question": "¿Qué funciones y orden definitivos tienen φ₁ y φ₂ en AA-III, y cómo se relacionan con las funciones históricas de Caos, AA-I y AA-II?",
+      "why_not_auto_resolved": "El capítulo 1 aproxima φ₁ al sesgo heredado y φ₂ a la intervención del ego; el glosario define φ₁ como traducción de voluntad en impulso y φ₂ como evaluación, orientación y ajuste. AA-I sitúa φ₂ después del acto como asunción y AA-II la usa como lucidez global que modula posiciones. El corpus no proporciona una tabla de correspondencia que adjudique estas operaciones.",
+      "blocking": false,
+      "blocking_for": ["formal_validation", "software_implementation"],
+      "evidence": ["ev.aa3.limit.autodetermination", "ev.aa3.glossary.mediations", "ev.aa1.bis.iteration", "ev.aa1.glossary", "ev.aa2.system.phi2", "ev.aa2.glossary", "ev.caos.act_second_mediation"]
+    },
+    {
+      "id": "review.aa3.himeno_crosswalk",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.himeno_bridge.aa3",
+      "related_relation": "rel.himeno_bridge_aa3.differs_aa2",
+      "question": "¿Himeno permanece estructuralmente anterior y distinto del Aego, constituye un proceso que desemboca solo en Peribea, o prepara por igual los polos Damasén y Peribea?",
+      "why_not_auto_resolved": "AA-II distingue Himeno del Aego, conserva φ₂ y lo define por vaciamiento de la forma propia; AA-III afirma que Himeno prepara los dos polos y, al separarlo de Peribea, atribuye al sujeto Himeno un eje propio capaz de percibir discrepancia. Además declara nueva en el volumen III una distinción de Harmonía ya formulada en AA-II.",
+      "blocking": false,
+      "blocking_for": ["technical_use", "software_implementation"],
+      "evidence": ["ev.aa2.himeno.definition", "ev.aa2.himeno.aego_distinction", "ev.aa2.himeno.architecture", "ev.aa2.glossary", "ev.aa3.limit.edges", "ev.aa3.continuity.himeno", "ev.aa3.harmonia.retrospective_claim"]
+    },
+    {
+      "id": "review.aa3.myth_sources",
+      "status": "pending_editorial_review",
+      "subject": "formulation.mythic_reading.aa3",
+      "question": "¿Qué genealogía, fuente antigua y secuencia mítica de Damasén debe considerarse editorialmente pretendida?",
+      "why_not_auto_resolved": "El prefacio presenta a Damasén como hijo de Gea y remite a Antonino Liberal, mientras el capítulo 5 lo presenta como hijo de Heracles y Moria y remite a Nono de Panópolis; también varían el adversario, el episodio y la función de Moria. La auditoría puede registrar las versiones, pero no escoger una sin corrección autoral o cotejo editorial autorizado.",
+      "blocking": false,
+      "blocking_for": [],
+      "evidence": ["ev.aa3.preface.program", "ev.aa3.myth.damasen", "ev.aa3.myth.peribea_reading"]
+    },
+    {
+      "id": "review.aa3.damasen_dimension",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.damasen_dimension.aa3",
+      "related_relation": "rel.damasen_dimension_aa3.varies_internally",
+      "question": "¿Damasén pertenece al borde superior de la dimensión arética o debe mantenerse fuera de las intensificaciones de Ares y Afrodita como singularidad de otra esfera?",
+      "why_not_auto_resolved": "El prefacio niega que Damasén y Peribea sean meras intensificaciones de Ares y Afrodita y el capítulo mítico separa a Damasén de conquista y dominio; el capítulo 11 lo denomina borde superior de la dimensión arética. No se formula una distinción entre pertenencia, analogía y génesis que resuelva la variación.",
+      "blocking": false,
+      "blocking_for": ["technical_use"],
+      "evidence": ["ev.aa3.preface.edges", "ev.aa3.myth.damasen", "ev.aa3.damasen.arete_claim"]
+    },
+    {
+      "id": "review.aa3.identity_masquerade",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.identity.aa3",
+      "related_relation": "rel.identity_aa3.differs_aa1",
+      "question": "¿La identidad/mascarada de AA-III sustituye la identidad-sesgo pre-egóica de AA-I, recupera la identidad integral de Caos o introduce un tercer concepto homónimo?",
+      "why_not_auto_resolved": "AA-I excluye la identidad-sesgo de la constitución del ego y la trata como accidente pre-egóico; AA-III presenta identidad y mascarada como forma del ego producida por colapsos asumidos y atribuye esta noción al volumen I, donde el término mascarada no aparece en los pasajes canónicos auditados. Caos usa identidad para la continuidad integral.",
+      "blocking": false,
+      "blocking_for": ["software_implementation"],
+      "evidence": ["ev.aa3.collective.identity", "ev.aa3.glossary.identity_agape", "ev.aa1.identity.formation", "ev.aa1.identity.bias_boundary", "ev.caos.glossary_ego_identity"]
+    },
+    {
+      "id": "review.aa3.agape_glossary",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.agape.aa3",
+      "related_relation": "rel.agape_aa3.differs_aa2",
+      "question": "¿La definición de Ágape como amor sin reciprocidad en el glosario de AA-III reemplaza, metaforiza o contradice la potencia volitiva pre-direccional de AA-II?",
+      "why_not_auto_resolved": "AA-II niega expresamente que Ágape sea amor cristiano o emoción y lo define como voluntad sin dirección; el glosario de AA-III lo define como una forma de amor distinguida de Eros y Philia. El texto no marca el cambio como revisión ni propone dos alcances.",
+      "blocking": false,
+      "blocking_for": ["technical_use"],
+      "evidence": ["ev.aa2.agape.definition", "ev.aa2.agape.chaos_distinction", "ev.aa2.glossary", "ev.aa3.glossary.identity_agape"]
+    },
+    {
+      "id": "review.aa3.nonhuman_boundary",
+      "status": "pending_empirical_review",
+      "subject": "formal.aego_applicability.aa3",
+      "question": "¿Qué criterio empírico permitiría atribuir segunda mediación a organismos o sistemas de aprendizaje complejos y distinguir Aego pleno de analogía funcional?",
+      "why_not_auto_resolved": "El prólogo y el capítulo 2 restringen el Aego pleno a sistemas con φ₂, permiten analogías en otros niveles y dejan expresamente abierta la situación de organismos complejos. El corpus no suministra una prueba operacional para adjudicar el límite.",
+      "blocking": false,
+      "blocking_for": ["empirical_use", "technical_use"],
+      "evidence": ["ev.aa3.prologue.levels", "ev.aa3.aego.applicability"]
+    },
+    {
+      "id": "review.aa3.glossary_notation",
+      "status": "pending_editorial_review",
+      "subject": "formulation.mediations.aa3",
+      "question": "¿Qué signo o subíndice pretendía la entrada de adominio donde la fuente contiene la secuencia dañada ‘φ(cid:0)’, y debe corregirse también la autoubicación final como trilogía frente a la pentalogía declarada?",
+      "why_not_auto_resolved": "El glosario contiene una marca de extracción o composición que impide identificar con certeza la función aludida; el mismo cierre vuelve a llamar trilogía al sistema que preliminares y prefacio presentan como pentalogía. Ambas correcciones requieren fuente editorial o decisión autoral.",
+      "blocking": false,
+      "blocking_for": ["formal_validation", "software_implementation"],
+      "evidence": ["ev.aa3.preliminaries", "ev.aa3.preface.program", "ev.aa3.glossary.series_notation"]
     }
   ],
   "tests": [
