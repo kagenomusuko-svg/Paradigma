@@ -1,9 +1,9 @@
 {
-  "map_version": "1.4.0",
+  "map_version": "1.5.0",
   "schema_status": "frozen",
   "phase": "F2",
   "purpose": "Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.",
-  "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 integra sistemáticamente el núcleo conceptual y ontológico del corpus; Caos y Afrodita Areia I–III quedan auditados por secciones, capítulos, apéndices y glosarios, conservando las evoluciones terminológicas, doctrinales y formales que requieren adjudicación.",
+  "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 integra sistemáticamente el núcleo conceptual y ontológico del corpus; Caos y Afrodita Areia I–IV quedan auditados por secciones, capítulos, apéndices y glosarios, conservando las evoluciones terminológicas, doctrinales y formales que requieren adjudicación.",
   "works": [
     {
       "id": "CAOS",
@@ -40,6 +40,12 @@
       "title": "Afrodita Areia: Damasén",
       "source": "corpus/fuentes/Afrodita_Areia_Damasen.md",
       "sha256": "d88315887451e88c207de1ac6008b3806c39e063b984f6927d9f5591b2b5bfd3"
+    },
+    {
+      "id": "AA-IV",
+      "title": "Afrodita Areia: Areópago",
+      "source": "corpus/fuentes/Afrodita_Areia_Areopopago.md",
+      "sha256": "e5d3165c7d0a85e10478c287c2c68382529071b9b7f6e00a7327109426d02eeb"
     },
     {
       "id": "SDO",
@@ -1859,6 +1865,342 @@
       "source_lines": [7016, 7316],
       "section": "Glosario · autoubicación de serie y notación dañada de φ₂",
       "evidence_type": "editorial_issue"
+    },
+    {
+      "id": "ev.aa4.preliminaries",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/00-preliminares.md",
+      "source_lines": [1, 87],
+      "section": "Preliminares · identidad material, volumen IV y aparato editorial",
+      "evidence_type": "editorial_metadata"
+    },
+    {
+      "id": "ev.aa4.prologue.program",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/02-prologo.md",
+      "source_lines": [88, 230],
+      "section": "Prólogo · responsabilidad causal, diseño institucional e inversión por el dolo",
+      "evidence_type": "authorial_program"
+    },
+    {
+      "id": "ev.aa4.prologue.scope",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/02-prologo.md",
+      "source_lines": [231, 386],
+      "section": "Prólogo · arquitectura del libro, eutaxia utópica y límite normativo declarado",
+      "evidence_type": "methodological_statement"
+    },
+    {
+      "id": "ev.aa4.dolo.genealogy",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-01.md",
+      "source_lines": [387, 650],
+      "section": "Capítulo 1 · genealogía penal del dolo y contraste con riesgo y rol",
+      "evidence_type": "authorial_genealogy"
+    },
+    {
+      "id": "ev.aa4.dolo.causal_order",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-01.md",
+      "source_lines": [651, 950],
+      "section": "Capítulo 1 · causalidad pública primero, intención como modulación posterior",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.aa4.corporate.personality",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-02.md",
+      "source_lines": [951, 1325],
+      "section": "Capítulo 2 · teorías de personalidad jurídica y postulado del ego funcional",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.aa4.corporate.ego",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-02.md",
+      "source_lines": [1326, 1705],
+      "section": "Capítulo 2 · ego colectivo, φ₁ institucional y fraude ontológico de personalidad selectiva",
+      "evidence_type": "authorial_formulation"
+    },
+    {
+      "id": "ev.aa4.imputation.external",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-03.md",
+      "source_lines": [1706, 2100],
+      "section": "Capítulo 3 · asunción interna frente a imputación exterior fundada en φ₁",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.aa4.imputation.omission",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-03.md",
+      "source_lines": [2101, 2460],
+      "section": "Capítulo 3 · daño accidental, omisión causal y reconocimiento del otro",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.aa4.node.counterfactual",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-04.md",
+      "source_lines": [2461, 2860],
+      "section": "Capítulo 4 · criterio contrafáctico del nodo necesario y proporcionalidad causal",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.aa4.node.hard_cases",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-04.md",
+      "source_lines": [2861, 3150],
+      "section": "Capítulo 4 · sobredeterminación simultánea, INUS, anticipación y omisión institucional",
+      "evidence_type": "limit_case"
+    },
+    {
+      "id": "ev.aa4.node.limits",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-04.md",
+      "source_lines": [3151, 3361],
+      "section": "Capítulo 4 · caso bancario, necesidad específica y límite de daños difusos",
+      "evidence_type": "applied_analysis"
+    },
+    {
+      "id": "ev.aa4.hierarchy.design",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-05.md",
+      "source_lines": [3362, 3760],
+      "section": "Capítulo 5 · prioridad del diseño, pendiente prestada y sustituibilidad del ejecutor",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.aa4.hierarchy.bank",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-05.md",
+      "source_lines": [3761, 4154],
+      "section": "Capítulo 5 · aplicación bancaria y postulados I6, I7 e I9",
+      "evidence_type": "applied_analysis"
+    },
+    {
+      "id": "ev.aa4.field.institutional",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-06.md",
+      "source_lines": [4155, 4550],
+      "section": "Capítulo 6 · Damasén institucional como campo de incentivos, procesos y autoridad",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.aa4.field.formulas",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-06.md",
+      "source_lines": [4551, 4926],
+      "section": "Capítulo 6 · caso bancario, diseño deliberado/no examinado y analogía actio libera in causa",
+      "evidence_type": "applied_analysis"
+    },
+    {
+      "id": "ev.aa4.executor.regimes",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-07.md",
+      "source_lines": [4927, 5320],
+      "section": "Capítulo 7 · Peribea ejecutor, agencia residual y tres formas de adaptación",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.aa4.executor.secondary_damage",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-07.md",
+      "source_lines": [5321, 5712],
+      "section": "Capítulo 7 · responsabilidad subordinada y anticipo del daño por falsa imputación",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.aa4.substitutability.test",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-08.md",
+      "source_lines": [5713, 6100],
+      "section": "Capítulo 8 · test lateral de sustituibilidad y tres grados",
+      "evidence_type": "authorial_method"
+    },
+    {
+      "id": "ev.aa4.substitutability.recursion",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-08.md",
+      "source_lines": [6101, 6442],
+      "section": "Capítulo 8 · recursión ascendente y detención en diseño idiosincrático",
+      "evidence_type": "authorial_method"
+    },
+    {
+      "id": "ev.aa4.dolo.narrative",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-09.md",
+      "source_lines": [6443, 6810],
+      "section": "Capítulo 9 · dolo como criterio técnico y narrativa controlada",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.aa4.dolo.mechanisms",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-09.md",
+      "source_lines": [6811, 7187],
+      "section": "Capítulo 9 · naturalización del acto, individualización de la causa y borrado del campo",
+      "evidence_type": "authorial_analysis"
+    },
+    {
+      "id": "ev.aa4.dolo.invisibilities",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-10.md",
+      "source_lines": [7188, 7600],
+      "section": "Capítulo 10 · invisibilidades intencional, actorial, subjetiva y temporal",
+      "evidence_type": "authorial_formulation"
+    },
+    {
+      "id": "ev.aa4.dolo.i10",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-10.md",
+      "source_lines": [7601, 7934],
+      "section": "Capítulo 10 · beneficio, fórmula institucional del Aego y postulado I10",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.aa4.damage.secondary",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-11.md",
+      "source_lines": [7935, 8300],
+      "section": "Capítulo 11 · falsa imputación como cadena autónoma y fórmula del daño secundario",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.aa4.damage.secondary_limits",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-11.md",
+      "source_lines": [8301, 8643],
+      "section": "Capítulo 11 · trayectoria reescrita, exceso imputable y límites probatorios",
+      "evidence_type": "authorial_method"
+    },
+    {
+      "id": "ev.aa4.eutaxia.damage",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-12.md",
+      "source_lines": [8644, 9050],
+      "section": "Capítulo 12 · daño total en tiempo de vida y genealogía de la eutaxia utópica",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.aa4.eutaxia.penalty",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-12.md",
+      "source_lines": [9051, 9456],
+      "section": "Capítulo 12 · definición técnica, pena proporcional y límite simétrico",
+      "evidence_type": "authorial_normative_argument"
+    },
+    {
+      "id": "ev.aa4.open.procedure",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-13.md",
+      "source_lines": [9457, 9800],
+      "section": "Capítulo 13 · procedimiento jurídico, causalidad acumulativa y jurisdicción",
+      "evidence_type": "authorial_limit"
+    },
+    {
+      "id": "ev.aa4.open.systemic",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/capitulo-13.md",
+      "source_lines": [9801, 10107],
+      "section": "Capítulo 13 · ΔT, daño sistémico sin nodo individual y umbral del sistema",
+      "evidence_type": "authorial_limit"
+    },
+    {
+      "id": "ev.aa4.glossary.core",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/99-glosario.md",
+      "source_lines": [10108, 10200],
+      "section": "Glosario · Damasén, Peribea, cadena causal, daño secundario y deslinde",
+      "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.aa4.glossary.formal_fiscal",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/99-glosario.md",
+      "source_lines": [10201, 10311],
+      "section": "Glosario · dolo, eutaxia, fraude annona, imputación, nodo y sustituibilidad",
+      "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.aa4.appendix1.criteria",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/apendice-01.md",
+      "source_lines": [10312, 10580],
+      "section": "Apéndice I · deslinde de autoridad y límites funcional y legal",
+      "evidence_type": "authorial_method"
+    },
+    {
+      "id": "ev.aa4.appendix1.quidproquo",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/apendice-01.md",
+      "source_lines": [10581, 10850],
+      "section": "Apéndice I · quid pro quo como indicador de ego y salvedad disociativa",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.aa4.appendix1.synthesis",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/apendice-01.md",
+      "source_lines": [10851, 10987],
+      "section": "Apéndice I · matriz acto por acto y síntesis de imputabilidad subordinada",
+      "evidence_type": "authorial_method"
+    },
+    {
+      "id": "ev.aa4.appendix2.derivatives",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/apendice-02.md",
+      "source_lines": [10988, 11200],
+      "section": "Apéndice II · Ego(t), δ_int y propuesta de derivada exterior",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.aa4.appendix2.cases",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/apendice-02.md",
+      "source_lines": [11201, 11430],
+      "section": "Apéndice II · δ_ext y casos de convergencia, exceso y déficit",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.aa4.appendix2.postulates",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/apendice-02.md",
+      "source_lines": [11431, 11628],
+      "section": "Apéndice II · reescritura parcial declarada de I1–I10 y cierre formal",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.aa4.appendix3.sovereignty",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/apendice-03.md",
+      "source_lines": [11629, 11900],
+      "section": "Apéndice III · libertades cedidas, soberano colectivo, Estado y ciudadano",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.aa4.appendix3.rights_fraud",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/apendice-03.md",
+      "source_lines": [11901, 12130],
+      "section": "Apéndice III · derechos-activo, Estado-deudor y modalidades del fraude annona",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.aa4.appendix3.asymmetry",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/apendice-03.md",
+      "source_lines": [12131, 12300],
+      "section": "Apéndice III · asimetrías de información y prueba, límite normativo declarado",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.aa4.appendix3.collective_damage",
+      "work_id": "AA-IV",
+      "segment": "corpus/libros/afrodita-areia/04-areopago/apendice-03.md",
+      "source_lines": [12301, 12354],
+      "section": "Apéndice III · daño colectivo y ajuste debitor",
+      "evidence_type": "authorial_formalization"
     }
   ],
   "nodes": [
@@ -4237,6 +4579,362 @@
       },
       "evidence": ["ev.aa3.aego.regimes", "ev.aa3.glossary.mediations"],
       "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.imputacion_causal.aa4",
+      "kind": "concept",
+      "label": "Imputación causal en AA-IV",
+      "summary": "Atribución exterior de responsabilidad al nodo causalmente necesario, sin exigir intención ni asunción interna.",
+      "evidence": ["ev.aa4.prologue.program", "ev.aa4.imputation.external", "ev.aa4.glossary.formal_fiscal"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.cadena_causal.aa4",
+      "kind": "concept",
+      "label": "Cadena causal en AA-IV",
+      "summary": "Secuencia reconstruible de nodos desde decisiones de diseño hasta el resultado, con pesos y visibilidades diferenciados.",
+      "evidence": ["ev.aa4.node.counterfactual", "ev.aa4.glossary.core"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.nodo_necesario.aa4",
+      "kind": "concept",
+      "label": "Nodo necesario en AA-IV",
+      "summary": "Actor sin cuya operación específica el resultado no habría ocurrido de esa forma particular; admite múltiples nodos con pesos distintos.",
+      "evidence": ["ev.aa4.node.counterfactual", "ev.aa4.node.hard_cases", "ev.aa4.glossary.formal_fiscal"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.diseno_campo.aa4",
+      "kind": "concept",
+      "label": "Diseño del campo institucional",
+      "summary": "Incentivos, procedimientos, criterios y tolerancias que producen sistemáticamente conductas de ejecución.",
+      "evidence": ["ev.aa4.hierarchy.design", "ev.aa4.field.institutional", "ev.aa4.glossary.core"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.sustituibilidad.aa4",
+      "kind": "concept",
+      "label": "Sustituibilidad del ejecutor",
+      "summary": "Contrafáctico lateral que distingue cuánto depende el resultado del actor concreto y cuánto de la posición diseñada.",
+      "evidence": ["ev.aa4.substitutability.test", "ev.aa4.substitutability.recursion", "ev.aa4.glossary.formal_fiscal"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.jerarquia_causal.aa4",
+      "kind": "concept",
+      "label": "Jerarquía causal de diseño y ejecución",
+      "summary": "Ordena el nodo que determina el tipo de resultado por encima del nodo que concreta su especificidad temporal.",
+      "evidence": ["ev.aa4.hierarchy.design", "ev.aa4.hierarchy.bank"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.dolo.aa4",
+      "kind": "concept",
+      "label": "Dolo en AA-IV",
+      "summary": "Intención o reconocimiento interno del acto, equiparado por la obra a φ₂ y conservado como modulador de la responsabilidad, no como su fundamento.",
+      "evidence": ["ev.aa4.dolo.genealogy", "ev.aa4.dolo.causal_order", "ev.aa4.glossary.formal_fiscal"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.invisibilidades_dolo.aa4",
+      "kind": "concept",
+      "label": "Cuatro invisibilidades del dolo",
+      "summary": "Invisibilidades intencional, actorial, subjetiva y temporal que excluyen el diseño institucional del campo visible del dolo.",
+      "evidence": ["ev.aa4.dolo.invisibilities", "ev.aa4.dolo.i10"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.externalizacion_causal.aa4",
+      "kind": "concept",
+      "label": "Externalización institucional de causalidad",
+      "summary": "Desplazamiento sistemático de responsabilidad desde el diseñador del campo hacia el ejecutor visible.",
+      "evidence": ["ev.aa4.dolo.narrative", "ev.aa4.dolo.mechanisms", "ev.aa4.dolo.i10"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.dano_secundario.aa4",
+      "kind": "concept",
+      "label": "Daño secundario por falsa imputación",
+      "summary": "Daño autónomo producido por imputar al ejecutor un peso superior a su posición causal real.",
+      "evidence": ["ev.aa4.damage.secondary", "ev.aa4.damage.secondary_limits", "ev.aa4.glossary.core"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.eutaxia_utopica.aa4",
+      "kind": "concept",
+      "label": "Eutaxia utópica",
+      "summary": "Tendencia constitutiva, sin destino fijo, hacia condiciones de mayor despliegue de las posibilidades propias.",
+      "evidence": ["ev.aa4.eutaxia.damage", "ev.aa4.eutaxia.penalty", "ev.aa4.glossary.formal_fiscal"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.dano_total.aa4",
+      "kind": "concept",
+      "label": "Daño total en tiempo de vida",
+      "summary": "Suma autoral de tiempo ya invertido, tiempo impedido y diferencia de trayectoria.",
+      "evidence": ["ev.aa4.eutaxia.damage", "ev.aa4.eutaxia.penalty"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.pena_tiempo_vida.aa4",
+      "kind": "concept",
+      "label": "Pena como tiempo de vida",
+      "summary": "Consecuencia propuesta como proporcional al daño total y distribuida según el peso causal de los nodos.",
+      "evidence": ["ev.aa4.eutaxia.penalty"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.deslinde_autoridad.aa4",
+      "kind": "concept",
+      "label": "Deslinde de autoridad",
+      "summary": "Solicitud explícita y documentable de autorización superior destinada a modificar la posición causal del subordinado.",
+      "evidence": ["ev.aa4.appendix1.criteria", "ev.aa4.glossary.core"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.limite_funcional_legal.aa4",
+      "kind": "concept",
+      "label": "Límites funcional y legal",
+      "summary": "Dos criterios independientes para distinguir implementación del campo e intervención autónoma del ejecutor.",
+      "evidence": ["ev.aa4.appendix1.criteria", "ev.aa4.appendix1.synthesis"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.quid_pro_quo.aa4",
+      "kind": "concept",
+      "label": "Quid pro quo del subordinado",
+      "summary": "Beneficio personal vinculado al acto que la obra usa como indicador de responsabilidad autónoma y, con variación interna, de φ₂ activa.",
+      "evidence": ["ev.aa4.appendix1.quidproquo", "ev.aa4.appendix1.synthesis"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.imputacion_acto_por_acto.aa4",
+      "kind": "concept",
+      "label": "Imputación acto por acto",
+      "summary": "Granularidad que permite atribuir al mismo subordinado posiciones causales diferentes dentro de una sola cadena.",
+      "evidence": ["ev.aa4.appendix1.synthesis"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.delta_int.aa4",
+      "kind": "concept",
+      "label": "δ_int en AA-IV",
+      "summary": "Diferencia Ego(t)−I(t), denominada tasa interna de asunción y comparada escalarmente con la atribución exterior.",
+      "evidence": ["ev.aa4.appendix2.derivatives", "ev.aa4.appendix2.cases"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.delta_ext.aa4",
+      "kind": "concept",
+      "label": "δ_ext en AA-IV",
+      "summary": "Función exterior de atribución de un acto al sujeto cuyo nodo fue condición necesaria, presentada como isomorfa a δ_int.",
+      "evidence": ["ev.aa4.appendix2.cases", "ev.aa4.appendix2.postulates"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.causalidad_acumulativa.aa4",
+      "kind": "concept",
+      "label": "Causalidad acumulativa",
+      "summary": "Daño producido por muchas decisiones ninguna de las cuales satisface individualmente el test del nodo necesario.",
+      "evidence": ["ev.aa4.open.procedure", "ev.aa4.open.systemic"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.dano_sin_nodo_individual.aa4",
+      "kind": "concept",
+      "label": "Daño sin nodo necesario individual",
+      "summary": "Límite declarado que exige una categoría colectiva o sistémica aún no construida por la obra.",
+      "evidence": ["ev.aa4.open.systemic", "ev.aa4.appendix2.postulates"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.contrato_fiscal.aa4",
+      "kind": "concept",
+      "label": "Contrato fiscal en AA-IV",
+      "summary": "Relación por la que el soberano colectivo cede libertades al Estado y adquiere derechos cuyo ejercicio requiere condiciones materiales.",
+      "evidence": ["ev.aa4.appendix3.sovereignty", "ev.aa4.appendix3.rights_fraud"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.soberano_ontologico.aa4",
+      "kind": "concept",
+      "label": "Soberano ontológico en AA-IV",
+      "summary": "Ego individual capaz de segunda mediación, distinguido de soberano colectivo y ciudadano.",
+      "evidence": ["ev.aa4.appendix3.sovereignty"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.soberano_colectivo.aa4",
+      "kind": "concept",
+      "label": "Soberano colectivo en AA-IV",
+      "summary": "Comunidad de egos que se autodetermina colectivamente y es presentada como depositaria de las libertades cedidas.",
+      "evidence": ["ev.aa4.appendix3.sovereignty", "ev.aa4.appendix3.collective_damage"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.ciudadano.aa4",
+      "kind": "concept",
+      "label": "Ciudadano en AA-IV",
+      "summary": "Soberano ontológico que ingresa al contrato fiscal y supedita su marco individual de libertades.",
+      "evidence": ["ev.aa4.appendix3.sovereignty"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.derechos_activo.aa4",
+      "kind": "concept",
+      "label": "Derechos como activo del ciudadano",
+      "summary": "Marco reconocido que la obra contabiliza como activo ciudadano y pasivo estatal.",
+      "evidence": ["ev.aa4.appendix3.rights_fraud"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.estado_deudor.aa4",
+      "kind": "concept",
+      "label": "Estado como deudor",
+      "summary": "Posición del Estado obligado, según la construcción autoral, a producir condiciones materiales de ejercicio de derechos.",
+      "evidence": ["ev.aa4.appendix3.rights_fraud"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.fraude_annona.aa4",
+      "kind": "concept",
+      "label": "Fraude annona",
+      "summary": "Incumplimiento estatal o aprovechamiento particular de la asimetría fiscal que extrae capital sin la contraprestación construida por la obra.",
+      "evidence": ["ev.aa4.glossary.formal_fiscal", "ev.aa4.appendix3.rights_fraud", "ev.aa4.appendix3.asymmetry"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.eutaxia_colectiva.aa4",
+      "kind": "concept",
+      "label": "Eutaxia utópica colectiva",
+      "summary": "Extensión analógica de la orientación individual de mejora al soberano colectivo.",
+      "evidence": ["ev.aa4.eutaxia.penalty", "ev.aa4.appendix3.collective_damage"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.responsibility.aa4",
+      "kind": "formulation",
+      "label": "Responsabilidad por causalidad en AA-IV",
+      "summary": "La responsabilidad se establece por pertenencia causal de φ₁; la intención o φ₂ modula su forma y pena.",
+      "evidence": ["ev.aa4.prologue.program", "ev.aa4.dolo.causal_order", "ev.aa4.imputation.external"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.corporate_ego.aa4",
+      "kind": "formulation",
+      "label": "Ego funcional corporativo",
+      "summary": "La personalidad jurídica se usa como premisa para atribuir historia, actos, compromisos y condición causal a la institución.",
+      "evidence": ["ev.aa4.corporate.personality", "ev.aa4.corporate.ego"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.damasen_peribea_institutional.aa4",
+      "kind": "formulation",
+      "label": "Damasén diseñador y Peribea ejecutor",
+      "summary": "Aplicación institucional que asigna geometría del campo a Damasén y pendiente prestada al ejecutor Peribea.",
+      "evidence": ["ev.aa4.hierarchy.design", "ev.aa4.field.institutional", "ev.aa4.executor.regimes", "ev.aa4.dolo.i10"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.normativity_limit.aa4",
+      "kind": "formulation",
+      "label": "Límite descriptivo-normativo declarado en AA-IV",
+      "summary": "La obra declara no derivar deber ser de la ontología, aunque formula consecuencias jurídicas, deberes, penas y exigibilidad.",
+      "evidence": ["ev.aa4.prologue.scope", "ev.aa4.eutaxia.penalty", "ev.aa4.appendix3.sovereignty", "ev.aa4.appendix3.asymmetry"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.subordinate_imputability.aa4",
+      "kind": "formulation",
+      "label": "Imputabilidad del subordinado en AA-IV",
+      "summary": "Matriz autoral de deslinde, límites y quid pro quo aplicada separadamente a cada acto.",
+      "evidence": ["ev.aa4.appendix1.criteria", "ev.aa4.appendix1.quidproquo", "ev.aa4.appendix1.synthesis"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.fiscal.aa4",
+      "kind": "formulation",
+      "label": "Contrato fiscal y fraude annona en AA-IV",
+      "summary": "Aplicación que coloca al soberano colectivo como acreedor, al Estado como deudor y admite fraude por Estado o particular.",
+      "evidence": ["ev.aa4.appendix3.sovereignty", "ev.aa4.appendix3.rights_fraud", "ev.aa4.appendix3.asymmetry", "ev.aa4.appendix3.collective_damage"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.node_necessary.aa4",
+      "kind": "formal_object",
+      "label": "Formalización del nodo necesario",
+      "formal_spec": {
+        "expression": "Nₙ es responsable ⟺ ¬Nₙ → ¬Daño",
+        "object_type": "authorial_counterfactual_criterion",
+        "scope": "resultado en su forma específica; admite necesidad tendencial y múltiples pesos",
+        "epistemic_status": "authorial_formalization_pending_review"
+      },
+      "evidence": ["ev.aa4.node.counterfactual", "ev.aa4.node.hard_cases", "ev.aa4.glossary.formal_fiscal"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.secondary_damage.aa4",
+      "kind": "formal_object",
+      "label": "Fórmula del daño secundario",
+      "formal_spec": {
+        "expression": "Daño_secundario = T_defensa + T_deformación_ego + ΔT_trayectoria_reescrita",
+        "object_type": "authorial_additive_formula",
+        "epistemic_status": "conceptual_measure_pending_metrological_review"
+      },
+      "evidence": ["ev.aa4.damage.secondary", "ev.aa4.damage.secondary_limits"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.total_damage.aa4",
+      "kind": "formal_object",
+      "label": "Fórmula del daño total",
+      "formal_spec": {
+        "expression": "Daño_total = T_invertido + T_impedido + ΔT_trayectoria",
+        "object_type": "authorial_additive_formula",
+        "epistemic_status": "conceptual_measure_pending_metrological_review"
+      },
+      "evidence": ["ev.aa4.eutaxia.damage", "ev.aa4.eutaxia.penalty", "ev.aa4.appendix3.collective_damage"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.ego_iteration.aa4",
+      "kind": "formal_object",
+      "label": "Iteración del ego en AA-IV",
+      "formal_spec": {
+        "expression": "Ego(t) = φ₂(φ₁(v_t,c_t), I(t))",
+        "object_type": "authorial_iterative_formula",
+        "epistemic_status": "retrospective_formalization_pending_crosswalk"
+      },
+      "evidence": ["ev.aa4.appendix2.derivatives"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.derivatives.aa4",
+      "kind": "formal_object",
+      "label": "Derivadas interna y exterior en AA-IV",
+      "formal_spec": {
+        "internal": "δ_int(t) = Ego(t) − I(t)",
+        "external": "δ_ext(t) = atribución(φ₁(v_t,c_t), Sujeto)",
+        "comparison": "convergencia =; exceso >; déficit <",
+        "object_type": "authorial_isomorphism_claim",
+        "epistemic_status": "pending_formal_review"
+      },
+      "evidence": ["ev.aa4.appendix2.derivatives", "ev.aa4.appendix2.cases"],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.imputation_postulates.aa4",
+      "kind": "formal_object",
+      "label": "Reescritura formal declarada de I1–I10",
+      "formal_spec": {
+        "listed": ["I1", "I2", "I5", "I6", "I7", "I9", "I10"],
+        "declared_scope": "diez postulados I1–I10",
+        "object_type": "authorial_postulate_rewrite",
+        "epistemic_status": "incomplete_inventory_pending_review"
+      },
+      "evidence": ["ev.aa4.appendix2.postulates"],
+      "evidence_status": "explicit"
     }
   ],
   "relations": [
@@ -5764,6 +6462,329 @@
       "to": "concept.ares_conquista",
       "evidence_status": "explicit",
       "evidence": ["ev.aa3.preface.edges", "ev.aa3.myth.damasen", "ev.aa3.damasen.arete_claim"]
+    },
+    {
+      "id": "rel.imputation_aa4.assigns_node",
+      "type": "assigns_responsibility_to",
+      "from": "concept.imputacion_causal.aa4",
+      "to": "concept.nodo_necesario.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.imputation.external", "ev.aa4.glossary.formal_fiscal"]
+    },
+    {
+      "id": "rel.chain_aa4.contains_nodes",
+      "type": "contains",
+      "from": "concept.cadena_causal.aa4",
+      "to": "concept.nodo_necesario.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.node.counterfactual", "ev.aa4.glossary.core"]
+    },
+    {
+      "id": "rel.responsibility_aa4.grounded_causality",
+      "type": "grounds",
+      "from": "concept.imputacion_causal.aa4",
+      "to": "formulation.responsibility.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.prologue.program", "ev.aa4.dolo.causal_order", "ev.aa4.imputation.external"]
+    },
+    {
+      "id": "rel.responsibility_aa4.differs_aa1",
+      "type": "differs_from",
+      "from": "formulation.responsibility.aa4",
+      "to": "formulation.responsibility.aa1",
+      "evidence_status": "inferred",
+      "evidence": ["ev.aa4.imputation.external", "ev.aa4.appendix2.postulates", "ev.aa1.fanes.formula_responsibility", "ev.aa1.bis.habits_assumption", "ev.aa1.glossary"],
+      "rationale": "AA-IV hace de φ₁ y la reconstrucción causal condiciones suficientes de imputación y relega φ₂ a modulación; AA-I vincula la responsabilidad ontológica a la asunción por φ₂ y excluye colapsos neutrales no asumidos."
+    },
+    {
+      "id": "rel.corporate_ego_aa4.enables_imputation",
+      "type": "enables",
+      "from": "formulation.corporate_ego.aa4",
+      "to": "concept.imputacion_causal.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.corporate.personality", "ev.aa4.corporate.ego"]
+    },
+    {
+      "id": "rel.design_aa4.produces_chain",
+      "type": "initiates",
+      "from": "concept.diseno_campo.aa4",
+      "to": "concept.cadena_causal.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.field.institutional", "ev.aa4.glossary.core"]
+    },
+    {
+      "id": "rel.design_aa4.prioritized_hierarchy",
+      "type": "has_priority_in",
+      "from": "concept.diseno_campo.aa4",
+      "to": "concept.jerarquia_causal.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.hierarchy.design", "ev.aa4.hierarchy.bank"]
+    },
+    {
+      "id": "rel.substitutability_aa4.measures_hierarchy",
+      "type": "measures",
+      "from": "concept.sustituibilidad.aa4",
+      "to": "concept.jerarquia_causal.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.substitutability.test", "ev.aa4.glossary.formal_fiscal"]
+    },
+    {
+      "id": "rel.damasen_institutional_aa4.instantiates_design",
+      "type": "applies",
+      "from": "formulation.damasen_peribea_institutional.aa4",
+      "to": "concept.aego_damasen",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.field.institutional", "ev.aa4.dolo.i10", "ev.aa4.glossary.core"]
+    },
+    {
+      "id": "rel.peribea_executor_aa4.instantiates_execution",
+      "type": "applies",
+      "from": "formulation.damasen_peribea_institutional.aa4",
+      "to": "concept.aego_peribea",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.executor.regimes", "ev.aa4.glossary.core"]
+    },
+    {
+      "id": "rel.damasen_application_aa4.reframes_aa3",
+      "type": "reframes",
+      "from": "formulation.damasen_peribea_institutional.aa4",
+      "to": "formal.aego.aa3",
+      "evidence_status": "inferred",
+      "evidence": ["ev.aa4.field.institutional", "ev.aa4.dolo.i10", "ev.aa3.pax.zero_locus", "ev.aa3.bond.definition", "ev.aa3.glossary.mediations"],
+      "rationale": "AA-IV usa el producto ×0 como nulidad del acto institucional puntual y simultáneamente asigna al Damasén diseñador el máximo peso causal; AA-III atribuye de manera variable el cero al sujeto, al vínculo o al efecto diferencial sobre el campo."
+    },
+    {
+      "id": "rel.dolo_aa4.expresses_phi2",
+      "type": "expresses_as",
+      "from": "concept.dolo.aa4",
+      "to": "concept.segunda_mediacion",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.glossary.formal_fiscal", "ev.aa4.appendix2.derivatives"]
+    },
+    {
+      "id": "rel.dolo_aa4.modulates_responsibility",
+      "type": "modulates",
+      "from": "concept.dolo.aa4",
+      "to": "formulation.responsibility.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.dolo.causal_order", "ev.aa4.dolo.i10"]
+    },
+    {
+      "id": "rel.invisibilities_aa4.produce_externalization",
+      "type": "produces",
+      "from": "concept.invisibilidades_dolo.aa4",
+      "to": "concept.externalizacion_causal.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.dolo.invisibilities", "ev.aa4.dolo.i10"]
+    },
+    {
+      "id": "rel.externalization_aa4.causes_secondary_damage",
+      "type": "causes",
+      "from": "concept.externalizacion_causal.aa4",
+      "to": "concept.dano_secundario.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.executor.secondary_damage", "ev.aa4.damage.secondary"]
+    },
+    {
+      "id": "rel.secondary_damage_aa4.expressed_formula",
+      "type": "expressed_as",
+      "from": "concept.dano_secundario.aa4",
+      "to": "formal.secondary_damage.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.damage.secondary", "ev.aa4.damage.secondary_limits"]
+    },
+    {
+      "id": "rel.total_damage_aa4.expressed_formula",
+      "type": "expressed_as",
+      "from": "concept.dano_total.aa4",
+      "to": "formal.total_damage.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.eutaxia.damage", "ev.aa4.eutaxia.penalty"]
+    },
+    {
+      "id": "rel.damage_aa4.interrupts_eutaxia",
+      "type": "interrupts",
+      "from": "concept.dano_total.aa4",
+      "to": "concept.eutaxia_utopica.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.eutaxia.damage", "ev.aa4.eutaxia.penalty"]
+    },
+    {
+      "id": "rel.penalty_aa4.measured_by_damage",
+      "type": "proportional_to",
+      "from": "concept.pena_tiempo_vida.aa4",
+      "to": "concept.dano_total.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.eutaxia.penalty"]
+    },
+    {
+      "id": "rel.penalty_aa4.interrupts_responsible_eutaxia",
+      "type": "interrupts",
+      "from": "concept.pena_tiempo_vida.aa4",
+      "to": "concept.eutaxia_utopica.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.eutaxia.penalty"]
+    },
+    {
+      "id": "rel.normative_limit_aa4.varies_with_penalty",
+      "type": "internally_varies",
+      "from": "formulation.normativity_limit.aa4",
+      "to": "concept.pena_tiempo_vida.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.prologue.scope", "ev.aa4.eutaxia.penalty", "ev.aa4.appendix3.rights_fraud", "ev.aa4.appendix3.asymmetry"]
+    },
+    {
+      "id": "rel.node_aa4.expressed_counterfactual",
+      "type": "expressed_as",
+      "from": "concept.nodo_necesario.aa4",
+      "to": "formal.node_necessary.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.node.counterfactual", "ev.aa4.glossary.formal_fiscal"]
+    },
+    {
+      "id": "rel.accumulative_aa4.limits_node_test",
+      "type": "limits",
+      "from": "concept.causalidad_acumulativa.aa4",
+      "to": "formal.node_necessary.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.node.hard_cases", "ev.aa4.open.procedure", "ev.aa4.open.systemic"]
+    },
+    {
+      "id": "rel.systemic_damage_aa4.requires_collective_category",
+      "type": "requires",
+      "from": "concept.dano_sin_nodo_individual.aa4",
+      "to": "concept.soberano_colectivo.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.open.systemic", "ev.aa4.appendix2.postulates"]
+    },
+    {
+      "id": "rel.deslinde_aa4.modifies_position",
+      "type": "modifies",
+      "from": "concept.deslinde_autoridad.aa4",
+      "to": "concept.jerarquia_causal.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.appendix1.criteria", "ev.aa4.appendix1.synthesis"]
+    },
+    {
+      "id": "rel.limits_aa4.assign_autonomy",
+      "type": "modulates",
+      "from": "concept.limite_funcional_legal.aa4",
+      "to": "formulation.subordinate_imputability.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.appendix1.criteria", "ev.aa4.appendix1.synthesis"]
+    },
+    {
+      "id": "rel.qpq_aa4.assigns_autonomy",
+      "type": "modulates",
+      "from": "concept.quid_pro_quo.aa4",
+      "to": "formulation.subordinate_imputability.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.appendix1.quidproquo", "ev.aa4.appendix1.synthesis"]
+    },
+    {
+      "id": "rel.qpq_aa4.varies_phi2",
+      "type": "internally_varies",
+      "from": "concept.quid_pro_quo.aa4",
+      "to": "concept.segunda_mediacion",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.appendix1.quidproquo", "ev.aa4.appendix1.synthesis"]
+    },
+    {
+      "id": "rel.act_by_act_aa4.operationalizes_subordinate",
+      "type": "operationalizes",
+      "from": "concept.imputacion_acto_por_acto.aa4",
+      "to": "formulation.subordinate_imputability.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.appendix1.synthesis"]
+    },
+    {
+      "id": "rel.delta_int_aa4.expresses_phi2",
+      "type": "formalizes",
+      "from": "concept.delta_int.aa4",
+      "to": "concept.segunda_mediacion",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.appendix2.derivatives"]
+    },
+    {
+      "id": "rel.delta_ext_aa4.attributes_phi1",
+      "type": "attributes",
+      "from": "concept.delta_ext.aa4",
+      "to": "concept.primera_mediacion",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.appendix2.cases", "ev.aa4.appendix2.postulates"]
+    },
+    {
+      "id": "rel.derivatives_aa4.compares_operations",
+      "type": "formalizes",
+      "from": "formal.derivatives.aa4",
+      "to": "concept.imputacion_causal.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.appendix2.derivatives", "ev.aa4.appendix2.cases"]
+    },
+    {
+      "id": "rel.postulates_aa4.formalize_responsibility",
+      "type": "formalizes",
+      "from": "formal.imputation_postulates.aa4",
+      "to": "formulation.responsibility.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.appendix2.postulates"]
+    },
+    {
+      "id": "rel.fiscal_contract_aa4.contains_citizen",
+      "type": "contains_party",
+      "from": "concept.contrato_fiscal.aa4",
+      "to": "concept.ciudadano.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.appendix3.sovereignty"]
+    },
+    {
+      "id": "rel.collective_aa4.founds_contract",
+      "type": "founds",
+      "from": "concept.soberano_colectivo.aa4",
+      "to": "concept.contrato_fiscal.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.appendix3.sovereignty", "ev.aa4.appendix3.collective_damage"]
+    },
+    {
+      "id": "rel.rights_aa4.claim_on_state",
+      "type": "claim_on",
+      "from": "concept.derechos_activo.aa4",
+      "to": "concept.estado_deudor.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.appendix3.rights_fraud"]
+    },
+    {
+      "id": "rel.fraud_annona_aa4.breaches_contract",
+      "type": "breaches",
+      "from": "concept.fraude_annona.aa4",
+      "to": "concept.contrato_fiscal.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.appendix3.rights_fraud", "ev.aa4.appendix3.asymmetry"]
+    },
+    {
+      "id": "rel.fiscal_aa4.applies_imputation",
+      "type": "applies",
+      "from": "formulation.fiscal.aa4",
+      "to": "concept.imputacion_causal.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.appendix3.rights_fraud", "ev.aa4.appendix3.asymmetry", "ev.aa4.appendix3.collective_damage"]
+    },
+    {
+      "id": "rel.eutaxia_collective_aa4.scales_individual",
+      "type": "scale_extension_of",
+      "from": "concept.eutaxia_colectiva.aa4",
+      "to": "concept.eutaxia_utopica.aa4",
+      "evidence_status": "explicit",
+      "evidence": ["ev.aa4.eutaxia.penalty", "ev.aa4.appendix3.collective_damage"]
+    },
+    {
+      "id": "rel.fiscal_aa4.reframes_aa3",
+      "type": "reframes",
+      "from": "formulation.fiscal.aa4",
+      "to": "formulation.fiscal.aa3",
+      "evidence_status": "inferred",
+      "evidence": ["ev.aa4.appendix3.sovereignty", "ev.aa4.appendix3.rights_fraud", "ev.aa4.appendix3.collective_damage", "ev.aa3.fiscal.structure", "ev.aa3.fiscal.contract", "ev.aa3.fiscal.mechanisms"],
+      "rationale": "AA-III modela un vínculo Estado-Damasén/contribuyente-Peribea centrado en extracción, hábito y auditoría; AA-IV reconstruye el contrato desde libertades cedidas por el soberano colectivo, derechos como activo, Estado deudor y fraude estatal o particular, sin declarar de modo inequívoco si sustituye o solo amplía el modelo previo."
     }
   ],
   "routes": [
@@ -5953,6 +6974,11 @@
           "order": 9,
           "evidence_id": "ev.sdo.aego",
           "reason": "Operacionalización diagnóstica E-6."
+        },
+        {
+          "order": 10,
+          "evidence_id": "ev.aa4.dolo.i10",
+          "reason": "Registra la aplicación institucional del producto nulo y su máxima causalidad de diseño."
         }
       ],
       "must_surface_review_items": [
@@ -5961,7 +6987,8 @@
         "review.aa1.aego_operator_agency",
         "review.aa3.aego_zero_locus",
         "review.aa3.aego_regime_derivative",
-        "review.aa3.phi_functions"
+        "review.aa3.phi_functions",
+        "review.aa4.damasen_crosswalk"
       ]
     },
     {
@@ -6640,7 +7667,8 @@
       ],
       "must_surface_review_items": [
         "review.aa1.responsibility_grounding",
-        "review.aa1.neutral_habits"
+        "review.aa1.neutral_habits",
+        "review.aa4.responsibility_crosswalk"
       ]
     },
     {
@@ -6970,7 +7998,7 @@
         {"order": 7, "evidence_id": "ev.aa3.bond.definition", "reason": "Aplica la fórmula al objeto relacional."},
         {"order": 8, "evidence_id": "ev.aa3.glossary.mediations", "reason": "Contrasta el cierre terminológico y formal."}
       ],
-      "must_surface_review_items": ["review.aego.formulation_change", "review.aa3.aego_zero_locus", "review.aa3.aego_regime_derivative", "review.aa3.phi_functions", "review.aa3.nonhuman_boundary"]
+      "must_surface_review_items": ["review.aego.formulation_change", "review.aa3.aego_zero_locus", "review.aa3.aego_regime_derivative", "review.aa3.phi_functions", "review.aa3.nonhuman_boundary", "review.aa4.damasen_crosswalk"]
     },
     {
       "id": "route.aa3.language_regimes",
@@ -7093,7 +8121,7 @@
         {"order": 3, "evidence_id": "ev.aa3.fiscal.mechanisms", "reason": "Enumera perturbaciones institucionales propuestas."},
         {"order": 4, "evidence_id": "ev.aa3.collective.sovereignty", "reason": "Ubica la aplicación dentro de la soberanía colectiva."}
       ],
-      "must_surface_review_items": ["review.aa3.aego_zero_locus", "review.aa3.phi_functions"]
+      "must_surface_review_items": ["review.aa3.aego_zero_locus", "review.aa3.phi_functions", "review.aa4.fiscal_crosswalk"]
     },
     {
       "id": "route.aa3.editorial_issues",
@@ -7106,6 +8134,155 @@
         {"order": 4, "evidence_id": "ev.aa3.glossary.series_notation", "reason": "Conserva la autoubicación como trilogía y el signo corrompido."}
       ],
       "must_surface_review_items": ["review.aa3.myth_sources", "review.aa2.volume_crosswalk", "review.aa3.glossary_notation"]
+    },
+    {
+      "id": "route.aa4.architecture_method",
+      "purpose": "Recuperar el programa, la arquitectura y los límites declarados de Areópago.",
+      "triggers": ["arquitectura de Areópago", "método de AA-IV", "límites de Areópago"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa4.preliminaries", "reason": "Fija la identidad material del volumen."},
+        {"order": 2, "evidence_id": "ev.aa4.prologue.program", "reason": "Formula el problema de imputación y diseño."},
+        {"order": 3, "evidence_id": "ev.aa4.prologue.scope", "reason": "Declara estructura y límite normativo."},
+        {"order": 4, "evidence_id": "ev.aa4.open.systemic", "reason": "Registra el umbral reconocido al cierre."}
+      ],
+      "must_surface_review_items": ["review.aa4.normative_derivation"]
+    },
+    {
+      "id": "route.aa4.responsibility_causality",
+      "purpose": "Reconstruir el fundamento causal de la responsabilidad y su diferencia histórica con la asunción.",
+      "triggers": ["responsabilidad causal", "φ₁ e imputación", "causalidad frente a intención"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa4.prologue.program", "reason": "Formula la tesis central."},
+        {"order": 2, "evidence_id": "ev.aa4.dolo.causal_order", "reason": "Ordena causalidad antes que intención."},
+        {"order": 3, "evidence_id": "ev.aa4.imputation.external", "reason": "Distingue asunción interior e imputación exterior."},
+        {"order": 4, "evidence_id": "ev.aa1.fanes.formula_responsibility", "reason": "Conserva el contraste con la responsabilidad por asunción de AA-I."},
+        {"order": 5, "evidence_id": "ev.aa4.appendix2.postulates", "reason": "Recoge la reescritura formal de AA-IV."}
+      ],
+      "must_surface_review_items": ["review.aa1.responsibility_grounding", "review.aa4.responsibility_crosswalk", "review.aa4.derivative_formalization"]
+    },
+    {
+      "id": "route.aa4.corporate_ego",
+      "purpose": "Recuperar el argumento que convierte la institución en ego funcional y sujeto imputable.",
+      "triggers": ["ego corporativo", "persona jurídica", "responsabilidad institucional"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa4.corporate.personality", "reason": "Revisa teorías de personalidad jurídica."},
+        {"order": 2, "evidence_id": "ev.aa4.corporate.ego", "reason": "Formula ego temporal y causal colectivo."},
+        {"order": 3, "evidence_id": "ev.aa4.imputation.external", "reason": "Conecta pertenencia causal e imputación."}
+      ],
+      "must_surface_review_items": ["review.aa4.corporate_ego"]
+    },
+    {
+      "id": "route.aa4.node_hierarchy",
+      "purpose": "Aplicar nodo necesario, jerarquía de diseño y sustituibilidad sin ocultar los casos donde el test falla.",
+      "triggers": ["nodo necesario", "jerarquía causal", "sustituibilidad", "sobredeterminación"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa4.node.counterfactual", "reason": "Define el criterio y sus propiedades."},
+        {"order": 2, "evidence_id": "ev.aa4.node.hard_cases", "reason": "Expone sobredeterminación e INUS."},
+        {"order": 3, "evidence_id": "ev.aa4.hierarchy.design", "reason": "Ordena diseño y ejecución."},
+        {"order": 4, "evidence_id": "ev.aa4.substitutability.test", "reason": "Proporciona el contrafáctico lateral."},
+        {"order": 5, "evidence_id": "ev.aa4.substitutability.recursion", "reason": "Extiende el test y declara su parada."},
+        {"order": 6, "evidence_id": "ev.aa4.open.procedure", "reason": "Conserva el límite de causalidad acumulativa."}
+      ],
+      "must_surface_review_items": ["review.aa4.node_necessity", "review.aa4.overdetermination", "review.aa4.proportionality", "review.aa4.executor_necessity"]
+    },
+    {
+      "id": "route.aa4.damasen_peribea",
+      "purpose": "Recuperar la aplicación institucional de Damasén y Peribea sin resolver el lugar variable del producto nulo.",
+      "triggers": ["Damasén institucional", "Peribea ejecutor", "pendiente prestada", "Aego bancario"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa4.hierarchy.design", "reason": "Introduce la traducción de diseño y ejecución."},
+        {"order": 2, "evidence_id": "ev.aa4.field.institutional", "reason": "Define el campo Damasén institucional."},
+        {"order": 3, "evidence_id": "ev.aa4.executor.regimes", "reason": "Conserva agencia residual del Peribea."},
+        {"order": 4, "evidence_id": "ev.aa4.dolo.i10", "reason": "Aplica Φ_aego al diseñador invisible."},
+        {"order": 5, "evidence_id": "ev.aa3.pax.zero_locus", "reason": "Contrasta la atribución del cero en AA-III."}
+      ],
+      "must_surface_review_items": ["review.aa3.aego_zero_locus", "review.aa4.damasen_crosswalk", "review.aa4.executor_necessity"]
+    },
+    {
+      "id": "route.aa4.dolo_externalization",
+      "purpose": "Reconstruir la genealogía, mecanismos e invisibilidades por los que el dolo externaliza causalidad.",
+      "triggers": ["dolo", "inversión causal", "externalización", "cuatro invisibilidades"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa4.dolo.genealogy", "reason": "Sitúa el criterio en la dogmática penal."},
+        {"order": 2, "evidence_id": "ev.aa4.dolo.narrative", "reason": "Distingue criterio y narrativa."},
+        {"order": 3, "evidence_id": "ev.aa4.dolo.mechanisms", "reason": "Enumera mecanismos de borrado."},
+        {"order": 4, "evidence_id": "ev.aa4.dolo.invisibilities", "reason": "Sistematiza cuatro invisibilidades."},
+        {"order": 5, "evidence_id": "ev.aa4.dolo.i10", "reason": "Formula I10 y conserva el dolo como modulador."}
+      ],
+      "must_surface_review_items": ["review.aa4.responsibility_crosswalk", "review.aa4.editorial_notation"]
+    },
+    {
+      "id": "route.aa4.damage_penalty",
+      "purpose": "Recuperar daño secundario, daño total y pena como formulaciones autorales pendientes de revisión metrológica y normativa.",
+      "triggers": ["daño secundario", "tiempo de vida", "pena proporcional", "trayectoria reescrita"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa4.damage.secondary", "reason": "Define la cadena autónoma y su fórmula."},
+        {"order": 2, "evidence_id": "ev.aa4.damage.secondary_limits", "reason": "Limita el exceso imputable y su prueba."},
+        {"order": 3, "evidence_id": "ev.aa4.eutaxia.damage", "reason": "Integra la fórmula del daño total."},
+        {"order": 4, "evidence_id": "ev.aa4.eutaxia.penalty", "reason": "Deriva la pena y su límite simétrico."},
+        {"order": 5, "evidence_id": "ev.aa4.open.systemic", "reason": "Conserva las limitaciones de cuantificación."}
+      ],
+      "must_surface_review_items": ["review.aa4.secondary_damage_measure", "review.aa4.proportionality", "review.aa4.normative_derivation"]
+    },
+    {
+      "id": "route.aa4.eutaxia",
+      "purpose": "Recuperar definición, genealogía, escalamiento y límites de la eutaxia utópica.",
+      "triggers": ["eutaxia utópica", "conatus", "voluntad de poder", "eutaxia colectiva"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa4.eutaxia.damage", "reason": "Introduce genealogía y fórmula de daño."},
+        {"order": 2, "evidence_id": "ev.aa4.eutaxia.penalty", "reason": "Fija cuatro propiedades y aplicación penal."},
+        {"order": 3, "evidence_id": "ev.aa4.glossary.formal_fiscal", "reason": "Conserva la definición técnica abreviada."},
+        {"order": 4, "evidence_id": "ev.aa4.appendix3.collective_damage", "reason": "Escala la orientación al soberano colectivo."}
+      ],
+      "must_surface_review_items": ["review.aa4.secondary_damage_measure", "review.aa4.normative_derivation"]
+    },
+    {
+      "id": "route.aa4.subordinate",
+      "purpose": "Aplicar la matriz de imputabilidad subordinada acto por acto y surfacer sus variaciones internas.",
+      "triggers": ["deslinde", "subordinado", "límite funcional", "quid pro quo"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa4.executor.regimes", "reason": "Conserva los grados de agencia ejecutora."},
+        {"order": 2, "evidence_id": "ev.aa4.appendix1.criteria", "reason": "Define deslinde y límites."},
+        {"order": 3, "evidence_id": "ev.aa4.appendix1.quidproquo", "reason": "Introduce el beneficio y su salvedad disociativa."},
+        {"order": 4, "evidence_id": "ev.aa4.appendix1.synthesis", "reason": "Organiza la verificación acto por acto."}
+      ],
+      "must_surface_review_items": ["review.aa4.subordinate_criteria", "review.aa4.executor_necessity"]
+    },
+    {
+      "id": "route.aa4.derivatives_formal",
+      "purpose": "Recuperar la formalización δ_int/δ_ext como propuesta autoral y no como cálculo ya validado.",
+      "triggers": ["δ_int", "δ_ext", "derivada exterior", "postulados I1-I10"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa4.appendix2.derivatives", "reason": "Define Ego(t) y δ_int."},
+        {"order": 2, "evidence_id": "ev.aa4.appendix2.cases", "reason": "Define δ_ext y comparaciones escalares."},
+        {"order": 3, "evidence_id": "ev.aa4.appendix2.postulates", "reason": "Reescribe el inventario declarado y muestra sus omisiones."}
+      ],
+      "must_surface_review_items": ["review.aa4.derivative_formalization", "review.aa4.postulate_inventory", "review.aa4.editorial_notation", "review.aa3.aego_zero_locus", "review.aa3.aego_regime_derivative"]
+    },
+    {
+      "id": "route.aa4.fiscal_contract",
+      "purpose": "Recuperar la aplicación fiscal de AA-IV y contrastarla documentalmente con AA-III.",
+      "triggers": ["contrato fiscal", "fraude annona", "Estado deudor", "soberano colectivo"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa4.appendix3.sovereignty", "reason": "Distingue sujetos y cesión de libertades."},
+        {"order": 2, "evidence_id": "ev.aa4.appendix3.rights_fraud", "reason": "Construye partida doble y modalidades de fraude."},
+        {"order": 3, "evidence_id": "ev.aa4.appendix3.asymmetry", "reason": "Expone información, prueba y límite declarado."},
+        {"order": 4, "evidence_id": "ev.aa4.appendix3.collective_damage", "reason": "Mide el daño sobre eutaxia colectiva."},
+        {"order": 5, "evidence_id": "ev.aa3.fiscal.structure", "reason": "Contrasta los polos fiscales formulados en AA-III."}
+      ],
+      "must_surface_review_items": ["review.aa4.fiscal_crosswalk", "review.aa4.normative_derivation", "review.aa3.aego_zero_locus"]
+    },
+    {
+      "id": "route.aa4.open_limits",
+      "purpose": "Localizar las limitaciones que la propia obra deja sin resolver.",
+      "triggers": ["límites de imputación causal", "causalidad acumulativa", "daño sistémico", "ΔT no cuantificado"],
+      "steps": [
+        {"order": 1, "evidence_id": "ev.aa4.node.hard_cases", "reason": "Muestra el fallo inicial ante sobredeterminación."},
+        {"order": 2, "evidence_id": "ev.aa4.open.procedure", "reason": "Enumera procedimiento, acumulación y jurisdicción."},
+        {"order": 3, "evidence_id": "ev.aa4.open.systemic", "reason": "Deja fuera daño sin nodo individual."},
+        {"order": 4, "evidence_id": "ev.aa4.appendix2.postulates", "reason": "Declara que δ_ext colectiva no está construida."}
+      ],
+      "must_surface_review_items": ["review.aa4.overdetermination", "review.aa4.proportionality", "review.aa4.derivative_formalization"]
     }
   ],
   "review_queue": [
@@ -7236,8 +8413,8 @@
       "status": "pending_authorial_adjudication",
       "subject": "formulation.responsibility.aa1",
       "related_relation": "rel.responsibility_aa1.differs_caos_grounding",
-      "question": "¿La responsabilidad por asunción de AA-I sustituye la responsabilidad originada en φ₁ de Caos, la refina, o describe un nivel distinto?",
-      "why_not_auto_resolved": "Caos sitúa el origen de la responsabilidad en la primera mediación y separa el acto de su segunda mediación; AA-I la vincula a φ₂, permite asunción posterior y excluye los colapsos neutrales no asumidos. Los pasajes no ofrecen una regla que compatibilice inequívocamente ambos fundamentos.",
+      "question": "¿La responsabilidad por asunción de AA-I sustituye la responsabilidad originada en φ₁ de Caos, describe un nivel distinto o queda a su vez sustituida por la imputación exterior de AA-IV?",
+      "why_not_auto_resolved": "Caos sitúa el origen de la responsabilidad en la primera mediación; AA-I la vincula a φ₂, permite asunción posterior y excluye colapsos neutrales no asumidos; AA-IV declara que φ₁ basta para la imputación y que φ₂ solo modula su forma, atribuyendo retrospectivamente esa suficiencia a la colección. Ningún pasaje ofrece una regla que compatibilice inequívocamente los tres fundamentos.",
       "blocking": false,
       "blocking_for": [
         "normative_use",
@@ -7249,7 +8426,9 @@
         "ev.aa1.cogito.responsibility",
         "ev.aa1.glossary",
         "ev.caos.responsibility_first",
-        "ev.caos.glossary_responsibility"
+        "ev.caos.glossary_responsibility",
+        "ev.aa4.imputation.external",
+        "ev.aa4.appendix2.postulates"
       ]
     },
     {
@@ -7365,10 +8544,10 @@
       "status": "pending_authorial_adjudication",
       "subject": "formal.aego.aa3",
       "question": "¿El producto por cero describe al sujeto Damasén, al vínculo Damasén–Peribea, a ambos en escalas distintas o solo a su efecto diferencial sobre un campo específicamente tipado?",
-      "why_not_auto_resolved": "El prefacio y el capítulo 2 presentan Damasén y Peribea como formas individuales del Aego y aplican Φ_aego = ∫φ(t)dt × 0; el capítulo 7 afirma expresamente que Damasén no tiene producto nulo y que el ×0 pertenece al vínculo, y el capítulo 13 vuelve a aplicar la fórmula al vínculo. El texto no ofrece una regla de tipado entre sujetos, relación y campo que haga equivalentes las atribuciones.",
+      "why_not_auto_resolved": "AA-III presenta Damasén y Peribea como formas individuales del Aego, pero también afirma que Damasén no tiene producto nulo y localiza el ×0 en el vínculo o el efecto diferencial. AA-IV vuelve a colocar Φ_aego y el ×0 en la institución Damasén, ahora como ausencia de acto puntual compatible con máximo peso causal. El corpus no ofrece una regla de tipado entre sujeto, relación, acto y campo que haga equivalentes esas atribuciones.",
       "blocking": false,
       "blocking_for": ["formal_validation", "software_implementation", "technical_use"],
-      "evidence": ["ev.aa3.preface.edges", "ev.aa3.aego", "ev.aa3.pax.zero_locus", "ev.aa3.bond.definition", "ev.aa3.glossary.mediations"]
+      "evidence": ["ev.aa3.preface.edges", "ev.aa3.aego", "ev.aa3.pax.zero_locus", "ev.aa3.bond.definition", "ev.aa3.glossary.mediations", "ev.aa4.field.institutional", "ev.aa4.dolo.i10", "ev.aa4.appendix2.postulates"]
     },
     {
       "id": "review.aa3.aego_regime_derivative",
@@ -7464,6 +8643,150 @@
       "blocking": false,
       "blocking_for": ["formal_validation", "software_implementation"],
       "evidence": ["ev.aa3.preliminaries", "ev.aa3.preface.program", "ev.aa3.glossary.series_notation"]
+    },
+    {
+      "id": "review.aa4.responsibility_crosswalk",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.responsibility.aa4",
+      "related_relation": "rel.responsibility_aa4.differs_aa1",
+      "question": "¿La imputación exterior fundada en φ₁ de AA-IV sustituye la responsabilidad por asunción de AA-I, recupera el fundamento de Caos o distingue responsabilidad causal, ontológica y jurídica en niveles todavía no explicitados?",
+      "why_not_auto_resolved": "AA-IV declara que φ₁ y la reconstrucción causal bastan para imputar y que φ₂ solo modula, mientras AA-I hace de la asunción el fundamento de responsabilidad y excluye actos no asumidos. La atribución retrospectiva de AA-IV no contiene una regla de revisión ni una taxonomía de niveles que resuelva la diferencia.",
+      "blocking": false,
+      "blocking_for": ["normative_use", "software_implementation"],
+      "evidence": ["ev.aa4.prologue.program", "ev.aa4.imputation.external", "ev.aa4.appendix2.postulates", "ev.aa1.fanes.formula_responsibility", "ev.aa1.bis.habits_assumption", "ev.aa1.glossary", "ev.caos.responsibility_first"]
+    },
+    {
+      "id": "review.aa4.corporate_ego",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.corporate_ego.aa4",
+      "question": "¿La personalidad jurídica es evidencia de un ego colectivo ontológicamente real, una ficción funcional suficiente para imputar o una premisa normativa que la obra convierte en conclusión ontológica?",
+      "why_not_auto_resolved": "El capítulo pasa de reconocimiento jurídico a ego funcional y causal, critica la oscilación estratégica entre realidad y ficción y afirma que el colectivo no se reduce a individuos; no especifica qué propiedad observable, independiente de la atribución legal, decide el estatuto ontológico.",
+      "blocking": false,
+      "blocking_for": ["technical_use", "normative_use"],
+      "evidence": ["ev.aa4.corporate.personality", "ev.aa4.corporate.ego"]
+    },
+    {
+      "id": "review.aa4.normative_derivation",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.normativity_limit.aa4",
+      "related_relation": "rel.normative_limit_aa4.varies_with_penalty",
+      "question": "¿Qué premisas normativas autorizan el paso desde causalidad y daño a deber, legitimidad, pena, exigibilidad de derechos y ajuste debitor, pese al límite humeano declarado?",
+      "why_not_auto_resolved": "La obra declara reiteradamente que solo describe estructuras y que no deriva deber ser, pero formula que la pena debe ser proporcional, que el Estado debe generar condiciones materiales, que el pasivo es exigible y que el ajuste debitor sigue del fraude. El corpus no identifica premisas normativas independientes que validen esos pasos.",
+      "blocking": false,
+      "blocking_for": ["normative_use", "legal_use"],
+      "evidence": ["ev.aa4.prologue.scope", "ev.aa4.eutaxia.penalty", "ev.aa4.appendix3.sovereignty", "ev.aa4.appendix3.rights_fraud", "ev.aa4.appendix3.asymmetry", "ev.aa4.appendix3.collective_damage"]
+    },
+    {
+      "id": "review.aa4.node_necessity",
+      "status": "pending_formal_review",
+      "subject": "formal.node_necessary.aa4",
+      "question": "¿El criterio pretende necesidad contrafáctica modal, implicación material, necesidad del tipo de resultado o suficiencia causal tendencial, y cómo se tipa el bicondicional completo?",
+      "why_not_auto_resolved": "El capítulo alterna lenguaje contrafáctico, fórmula condicional, referencia a implicación material, especificidad de forma y causalidad probabilística. Estas nociones no son equivalentes y la fuente no define un modelo causal que las unifique.",
+      "blocking": false,
+      "blocking_for": ["formal_validation", "software_implementation", "legal_use"],
+      "evidence": ["ev.aa4.node.counterfactual", "ev.aa4.node.hard_cases", "ev.aa4.glossary.formal_fiscal"]
+    },
+    {
+      "id": "review.aa4.overdetermination",
+      "status": "pending_formal_review",
+      "subject": "formal.node_necessary.aa4",
+      "question": "¿Qué regla sustituye el test sine qua non cuando hay causas simultáneas suficientes, causalidad acumulativa o daño sin nodo individual, y cómo distribuye pesos sin reintroducir arbitrariedad?",
+      "why_not_auto_resolved": "La obra reconoce que el test estricto falla en sobredeterminación, menciona INUS, contribución sustancial y proporcionalidad, y finalmente deja abierta la causalidad acumulativa y colectiva. No formula una operación común ni criterios de selección entre esas alternativas.",
+      "blocking": false,
+      "blocking_for": ["formal_validation", "software_implementation", "legal_use"],
+      "evidence": ["ev.aa4.node.hard_cases", "ev.aa4.open.procedure", "ev.aa4.open.systemic", "ev.aa4.appendix2.postulates"]
+    },
+    {
+      "id": "review.aa4.proportionality",
+      "status": "pending_metrological_review",
+      "subject": "concept.jerarquia_causal.aa4",
+      "question": "¿Cómo se miden y comparan los pesos causales que sustentan la jerarquía, la distribución de responsabilidad y la pena proporcional?",
+      "why_not_auto_resolved": "La obra afirma que basta un ordenamiento sin precisión matemática, pero después usa distancias, exceso, proporciones y comparaciones de δ para distribuir responsabilidad, reparación y pena. No entrega escala, unidad, función de agregación ni tratamiento de incertidumbre.",
+      "blocking": false,
+      "blocking_for": ["formal_validation", "software_implementation", "legal_use"],
+      "evidence": ["ev.aa4.node.counterfactual", "ev.aa4.hierarchy.design", "ev.aa4.damage.secondary_limits", "ev.aa4.eutaxia.penalty", "ev.aa4.appendix2.cases"]
+    },
+    {
+      "id": "review.aa4.executor_necessity",
+      "status": "pending_authorial_adjudication",
+      "subject": "concept.sustituibilidad.aa4",
+      "question": "¿Un ejecutor altamente sustituible sigue siendo nodo necesario de la especificidad temporal, deja de ser necesario por el contrafáctico lateral o conserva ambas descripciones en niveles diferentes?",
+      "why_not_auto_resolved": "Los capítulos 4, 7 y 8 sostienen que cualquier reemplazo habría producido el resultado y llegan a negar necesidad del ejecutor concreto, pero también lo mantienen como nodo necesario del acto específico y con responsabilidad nunca nula. Falta una regla que distinga necesidad individual, de posición y temporal.",
+      "blocking": false,
+      "blocking_for": ["formal_validation", "legal_use"],
+      "evidence": ["ev.aa4.node.limits", "ev.aa4.executor.regimes", "ev.aa4.substitutability.test", "ev.aa4.damage.secondary_limits"]
+    },
+    {
+      "id": "review.aa4.damasen_crosswalk",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.damasen_peribea_institutional.aa4",
+      "related_relation": "rel.damasen_application_aa4.reframes_aa3",
+      "question": "¿Cómo se compatibiliza el Damasén institucional de máximo peso causal de AA-IV con la localización variable del ×0 y la afirmación de AA-III de que Damasén no tiene producto nulo?",
+      "why_not_auto_resolved": "AA-IV interpreta ×0 como ausencia de acto puntual de la institución al tiempo del daño y lo coloca en el diseñador Damasén; AA-III localiza el cero en el vínculo o efecto diferencial y en un pasaje niega que Damasén tenga producto nulo. Puede tratarse de escalas distintas, pero no se proporciona su tipado.",
+      "blocking": false,
+      "blocking_for": ["formal_validation", "software_implementation", "technical_use"],
+      "evidence": ["ev.aa4.field.institutional", "ev.aa4.dolo.i10", "ev.aa4.appendix2.postulates", "ev.aa3.aego", "ev.aa3.pax.zero_locus", "ev.aa3.bond.definition"]
+    },
+    {
+      "id": "review.aa4.secondary_damage_measure",
+      "status": "pending_metrological_review",
+      "subject": "formal.secondary_damage.aa4",
+      "question": "¿Cómo se convierten T_defensa, T_deformación_ego y ΔT_trayectoria —y sus análogos del daño total— a una unidad aditiva sin doble conteo ni contrafácticos inobservables?",
+      "why_not_auto_resolved": "La obra declara que todos son tiempo de vida y que no exige precisión matemática, pero uno combina horas y coste psíquico, otro denomina tiempo a una deformación y el tercero compara trayectorias contrafácticas y calidad de posibilidades. No existe protocolo metrológico para homogeneizarlos.",
+      "blocking": false,
+      "blocking_for": ["formal_validation", "legal_use", "software_implementation"],
+      "evidence": ["ev.aa4.damage.secondary", "ev.aa4.damage.secondary_limits", "ev.aa4.eutaxia.damage", "ev.aa4.eutaxia.penalty", "ev.aa4.open.systemic"]
+    },
+    {
+      "id": "review.aa4.subordinate_criteria",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.subordinate_imputability.aa4",
+      "question": "¿Cuáles de deslinde omitido, cruce de límite y quid pro quo son suficientes para responsabilidad autónoma máxima, cuáles solo aumentan peso y qué efecto tiene una autorización superior?",
+      "why_not_auto_resolved": "El Apéndice I declara inicialmente que cada condición es suficiente para responsabilidad causal autónoma; la síntesis asigna al deslinde posible no ejercido solo responsabilidad parcial, y una nota incluye entre los casos de máximo peso al subordinado que deslindó y recibió autorización aunque la tabla desplaza el mayor peso al superior. El quid pro quo primero demuestra φ₂ y luego se declara compatible con adominio sin φ₂ plena.",
+      "blocking": false,
+      "blocking_for": ["legal_use", "software_implementation"],
+      "evidence": ["ev.aa4.appendix1.criteria", "ev.aa4.appendix1.quidproquo", "ev.aa4.appendix1.synthesis"]
+    },
+    {
+      "id": "review.aa4.derivative_formalization",
+      "status": "pending_formal_review",
+      "subject": "formal.derivatives.aa4",
+      "question": "¿Qué espacios, unidades y operadores hacen de Ego(t)−I(t) una derivada y de atribución(φ₁,Sujeto) una derivada exterior isomorfa, permitiendo además compararlas con =, < y >?",
+      "why_not_auto_resolved": "δ_int se define como diferencia puntual pero se denomina derivada sin límite; δ_ext es una función de atribución, no una derivada especificada; no se tipan sus codominios ni una biyección que preserve estructura. Aun así se ordenan escalarmente para convergencia, exceso y déficit.",
+      "blocking": false,
+      "blocking_for": ["formal_validation", "software_implementation"],
+      "evidence": ["ev.aa4.appendix2.derivatives", "ev.aa4.appendix2.cases", "ev.aa4.appendix2.postulates"]
+    },
+    {
+      "id": "review.aa4.postulate_inventory",
+      "status": "pending_editorial_review",
+      "subject": "formal.imputation_postulates.aa4",
+      "question": "¿Cuáles son los diez postulados I1–I10 y qué formulaciones corresponden a I3, I4 e I8, ausentes de la reescritura que declara cubrirlos todos?",
+      "why_not_auto_resolved": "El Apéndice II anuncia una reescritura de los diez postulados I1–I10, pero la tabla solo enumera I1, I2, I5, I6, I7, I9 e I10. Los tres identificadores omitidos no pueden reconstruirse con seguridad a partir de la numeración dispersa.",
+      "blocking": false,
+      "blocking_for": ["formal_validation", "software_implementation"],
+      "evidence": ["ev.aa4.hierarchy.bank", "ev.aa4.dolo.i10", "ev.aa4.appendix2.postulates"]
+    },
+    {
+      "id": "review.aa4.fiscal_crosswalk",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.fiscal.aa4",
+      "related_relation": "rel.fiscal_aa4.reframes_aa3",
+      "question": "¿El contrato fiscal de AA-IV sustituye el vínculo Estado-Damasén/contribuyente-Peribea de AA-III o describe otra capa con soberano colectivo acreedor, Estado deudor y fraude también atribuible a particulares?",
+      "why_not_auto_resolved": "AA-III organiza la aplicación por extracción estatal, habituación del contribuyente y mecanismos de perturbación; AA-IV la funda en libertades cedidas, partida doble de derechos, deuda estatal y fraude annona estatal o particular. No declara si revisa la asignación anterior de polos ni cómo se componen ambas estructuras.",
+      "blocking": false,
+      "blocking_for": ["normative_use", "legal_use", "technical_use"],
+      "evidence": ["ev.aa3.fiscal.structure", "ev.aa3.fiscal.contract", "ev.aa3.fiscal.mechanisms", "ev.aa4.appendix3.sovereignty", "ev.aa4.appendix3.rights_fraud", "ev.aa4.appendix3.asymmetry", "ev.aa4.appendix3.collective_damage"]
+    },
+    {
+      "id": "review.aa4.editorial_notation",
+      "status": "pending_editorial_review",
+      "subject": "formal.derivatives.aa4",
+      "question": "¿Qué símbolos y subíndices pretendía la fuente en las numerosas secuencias ‘(cid:0)’ que afectan φ₁, φ₂, bicondicionales, índices de nodos y postulados?",
+      "why_not_auto_resolved": "La extracción conserva fórmulas legibles en algunos pasajes y marcas corruptas en otros, pero varias corrupciones pueden corresponder a signos distintos. Corregirlas por contexto impondría una reconstrucción conjetural sin fuente editorial autorizada.",
+      "blocking": false,
+      "blocking_for": ["formal_validation", "software_implementation"],
+      "evidence": ["ev.aa4.node.counterfactual", "ev.aa4.field.formulas", "ev.aa4.substitutability.recursion", "ev.aa4.dolo.i10", "ev.aa4.appendix1.criteria", "ev.aa4.appendix1.quidproquo", "ev.aa4.appendix2.derivatives", "ev.aa4.appendix2.postulates", "ev.aa4.appendix3.sovereignty"]
     }
   ],
   "tests": [
