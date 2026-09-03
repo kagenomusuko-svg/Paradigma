@@ -1,5 +1,5 @@
 {
-  "map_version": "2.1.0",
+  "map_version": "2.2.0",
   "schema_status": "frozen",
   "phase": "F3",
   "purpose": "Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.",
@@ -7267,6 +7267,1942 @@
       ],
       "section": "Apéndice D · bifurcación causal",
       "evidence_type": "authorial_theorem"
+    },
+    {
+      "id": "ev.mci.segment.00_preliminares",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/00-preliminares.md",
+      "source_lines": [
+        1,
+        26
+      ],
+      "section": "preliminares",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.01_prologo",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/01-prologo.md",
+      "source_lines": [
+        27,
+        447
+      ],
+      "section": "PRÓLOGO",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_01_01",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-01.md",
+      "source_lines": [
+        448,
+        572
+      ],
+      "section": "### Capítulo I·1",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_01_02",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-02.md",
+      "source_lines": [
+        573,
+        693
+      ],
+      "section": "### Capítulo I·2",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_01_03",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-03.md",
+      "source_lines": [
+        694,
+        811
+      ],
+      "section": "### Capítulo I·3",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_01_04",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-04.md",
+      "source_lines": [
+        812,
+        994
+      ],
+      "section": "### Capítulo I·4",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_01_05",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-05.md",
+      "source_lines": [
+        995,
+        1119
+      ],
+      "section": "### Capítulo I·5",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_01_06",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-06.md",
+      "source_lines": [
+        1120,
+        1220
+      ],
+      "section": "### Capítulo I·6",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_01_07",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-07.md",
+      "source_lines": [
+        1221,
+        1292
+      ],
+      "section": "### Capítulo I·7",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_01_08",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-08.md",
+      "source_lines": [
+        1293,
+        1386
+      ],
+      "section": "### Capítulo I·8",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_01_09",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-09.md",
+      "source_lines": [
+        1387,
+        1504
+      ],
+      "section": "### Capítulo I·9",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_01_10",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-10.md",
+      "source_lines": [
+        1505,
+        1606
+      ],
+      "section": "### Capítulo I·10",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_01_11",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-11.md",
+      "source_lines": [
+        1607,
+        1765
+      ],
+      "section": "### Capítulo I·11",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_01_12",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-12.md",
+      "source_lines": [
+        1766,
+        1873
+      ],
+      "section": "### Capítulo I·12",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_01_13",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-13.md",
+      "source_lines": [
+        1874,
+        1959
+      ],
+      "section": "### Capítulo I·13",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_01_14",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-14.md",
+      "source_lines": [
+        1960,
+        2053
+      ],
+      "section": "### Capítulo I·14",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_01_15",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-15.md",
+      "source_lines": [
+        2054,
+        2178
+      ],
+      "section": "### Capítulo I·15",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_02_01",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-01.md",
+      "source_lines": [
+        2179,
+        2306
+      ],
+      "section": "### Capítulo II·1",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_02_02",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-02.md",
+      "source_lines": [
+        2307,
+        2426
+      ],
+      "section": "### Capítulo II·2",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_02_03",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-03.md",
+      "source_lines": [
+        2427,
+        2563
+      ],
+      "section": "### Capítulo II·3",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_02_04",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-04.md",
+      "source_lines": [
+        2564,
+        2674
+      ],
+      "section": "### Capítulo II·4",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_02_05",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-05.md",
+      "source_lines": [
+        2675,
+        2777
+      ],
+      "section": "### Capítulo II·5",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_02_06",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-06.md",
+      "source_lines": [
+        2778,
+        2912
+      ],
+      "section": "### Capítulo II·6",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_02_07",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-07.md",
+      "source_lines": [
+        2913,
+        3010
+      ],
+      "section": "### Capítulo II·7",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_02_08",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-08.md",
+      "source_lines": [
+        3011,
+        3101
+      ],
+      "section": "### Capítulo II·8",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_02_09",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-09.md",
+      "source_lines": [
+        3102,
+        3186
+      ],
+      "section": "### Capítulo II·9",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_02_10",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-10.md",
+      "source_lines": [
+        3187,
+        3409
+      ],
+      "section": "### Capítulo II·10",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_02_11",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-11.md",
+      "source_lines": [
+        3410,
+        3500
+      ],
+      "section": "### Capítulo II·11",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_02_12",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-12.md",
+      "source_lines": [
+        3501,
+        3603
+      ],
+      "section": "### Capítulo II·12",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_02_13",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-13.md",
+      "source_lines": [
+        3604,
+        3704
+      ],
+      "section": "### Capítulo II·13",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_02_14",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-14.md",
+      "source_lines": [
+        3705,
+        3802
+      ],
+      "section": "### Capítulo II·14",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_02_15",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-15.md",
+      "source_lines": [
+        3803,
+        3886
+      ],
+      "section": "### Capítulo II·15",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_02_16",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-16.md",
+      "source_lines": [
+        3887,
+        3984
+      ],
+      "section": "### Capítulo II·16",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_02_17",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-17.md",
+      "source_lines": [
+        3985,
+        4139
+      ],
+      "section": "### Capítulo II·17",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_03_01",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-01.md",
+      "source_lines": [
+        4140,
+        4248
+      ],
+      "section": "### Capítulo III·1",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_03_02",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-02.md",
+      "source_lines": [
+        4249,
+        4360
+      ],
+      "section": "### Capítulo III·2",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_03_03",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-03.md",
+      "source_lines": [
+        4361,
+        4458
+      ],
+      "section": "### Capítulo III·3",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_03_04",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-04.md",
+      "source_lines": [
+        4459,
+        4726
+      ],
+      "section": "### Capítulo III·4",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_03_05",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-05.md",
+      "source_lines": [
+        4727,
+        4811
+      ],
+      "section": "### Capítulo III·5",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_03_06",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-06.md",
+      "source_lines": [
+        4812,
+        4921
+      ],
+      "section": "### Capítulo III·6",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_03_07",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-07.md",
+      "source_lines": [
+        4922,
+        5013
+      ],
+      "section": "### Capítulo III·7",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_03_08",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-08.md",
+      "source_lines": [
+        5014,
+        5171
+      ],
+      "section": "### Capítulo III·8",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_03_09",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-09.md",
+      "source_lines": [
+        5172,
+        5281
+      ],
+      "section": "### Capítulo III·9",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_03_10",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-10.md",
+      "source_lines": [
+        5282,
+        5467
+      ],
+      "section": "### Capítulo III·10",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_03_11",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-11.md",
+      "source_lines": [
+        5468,
+        5615
+      ],
+      "section": "### Capítulo III·11",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_03_12",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-12.md",
+      "source_lines": [
+        5616,
+        5789
+      ],
+      "section": "### Capítulo III·12",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_03_13",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-13.md",
+      "source_lines": [
+        5790,
+        5898
+      ],
+      "section": "### Capítulo III·13",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_03_14",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-14.md",
+      "source_lines": [
+        5899,
+        6024
+      ],
+      "section": "### Capítulo III·14",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_03_15",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-15.md",
+      "source_lines": [
+        6025,
+        6167
+      ],
+      "section": "### Capítulo III·15",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_03_16",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-16.md",
+      "source_lines": [
+        6168,
+        6351
+      ],
+      "section": "### Capítulo III·16",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_03_17",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-17.md",
+      "source_lines": [
+        6352,
+        6517
+      ],
+      "section": "### Capítulo III·17",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_03_18",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-18.md",
+      "source_lines": [
+        6518,
+        6666
+      ],
+      "section": "### Capítulo III·18",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_04_01",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-01.md",
+      "source_lines": [
+        6667,
+        6772
+      ],
+      "section": "### Capítulo IV·1",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_04_02",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-02.md",
+      "source_lines": [
+        6773,
+        6875
+      ],
+      "section": "### Capítulo IV·2",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_04_03",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-03.md",
+      "source_lines": [
+        6876,
+        6975
+      ],
+      "section": "### Capítulo IV·3",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_04_04",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-04.md",
+      "source_lines": [
+        6976,
+        7078
+      ],
+      "section": "### Capítulo IV·4",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_04_05",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-05.md",
+      "source_lines": [
+        7079,
+        7215
+      ],
+      "section": "### Capítulo IV·5",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_04_06",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-06.md",
+      "source_lines": [
+        7216,
+        7313
+      ],
+      "section": "### Capítulo IV·6",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_04_07",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-07.md",
+      "source_lines": [
+        7314,
+        7425
+      ],
+      "section": "### Capítulo IV·7",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_04_08",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-08.md",
+      "source_lines": [
+        7426,
+        7619
+      ],
+      "section": "### Capítulo IV·8",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_04_09",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-09.md",
+      "source_lines": [
+        7620,
+        7719
+      ],
+      "section": "### Capítulo IV·9",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_04_10",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-10.md",
+      "source_lines": [
+        7720,
+        7953
+      ],
+      "section": "### Capítulo IV·10",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_04_11",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-11.md",
+      "source_lines": [
+        7954,
+        8094
+      ],
+      "section": "### Capítulo IV·11",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_05_01",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-01.md",
+      "source_lines": [
+        8095,
+        8187
+      ],
+      "section": "### Capítulo V·1",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_05_02",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-02.md",
+      "source_lines": [
+        8188,
+        8289
+      ],
+      "section": "### Capítulo V·2",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_05_03",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-03.md",
+      "source_lines": [
+        8290,
+        8381
+      ],
+      "section": "### Capítulo V·3",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_05_04",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-04.md",
+      "source_lines": [
+        8382,
+        8481
+      ],
+      "section": "### Capítulo V·4",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_05_05",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-05.md",
+      "source_lines": [
+        8482,
+        8663
+      ],
+      "section": "### Capítulo V·5",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_05_06",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-06.md",
+      "source_lines": [
+        8664,
+        8765
+      ],
+      "section": "### Capítulo V·6",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_05_07",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-07.md",
+      "source_lines": [
+        8766,
+        8886
+      ],
+      "section": "### Capítulo V·7",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_05_08",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-08.md",
+      "source_lines": [
+        8887,
+        8988
+      ],
+      "section": "### Capítulo V·8",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_05_09",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-09.md",
+      "source_lines": [
+        8989,
+        9087
+      ],
+      "section": "### Capítulo V·9",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_05_10",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-10.md",
+      "source_lines": [
+        9088,
+        9177
+      ],
+      "section": "### Capítulo V·10",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_05_11",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-11.md",
+      "source_lines": [
+        9178,
+        9310
+      ],
+      "section": "### Capítulo V·11",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_06_01",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-01.md",
+      "source_lines": [
+        9311,
+        9418
+      ],
+      "section": "### Capítulo VI·1",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_06_02",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-02.md",
+      "source_lines": [
+        9419,
+        9513
+      ],
+      "section": "### Capítulo VI·2",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_06_03",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-03.md",
+      "source_lines": [
+        9514,
+        9601
+      ],
+      "section": "### Capítulo VI·3",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_06_04",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-04.md",
+      "source_lines": [
+        9602,
+        9701
+      ],
+      "section": "### Capítulo VI·4",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_06_05",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-05.md",
+      "source_lines": [
+        9702,
+        9833
+      ],
+      "section": "### Capítulo VI·5",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_06_06",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-06.md",
+      "source_lines": [
+        9834,
+        9925
+      ],
+      "section": "### Capítulo VI·6",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_06_07",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-07.md",
+      "source_lines": [
+        9926,
+        10010
+      ],
+      "section": "### Capítulo VI·7",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_06_08",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-08.md",
+      "source_lines": [
+        10011,
+        10091
+      ],
+      "section": "### Capítulo VI·8",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_06_09",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-09.md",
+      "source_lines": [
+        10092,
+        10200
+      ],
+      "section": "### Capítulo VI·9",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_06_10",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-10.md",
+      "source_lines": [
+        10201,
+        10285
+      ],
+      "section": "### Capítulo VI·10",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_06_11",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-11.md",
+      "source_lines": [
+        10286,
+        10510
+      ],
+      "section": "### Capítulo VI·11",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_06_12",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-12.md",
+      "source_lines": [
+        10511,
+        10590
+      ],
+      "section": "### Capítulo VI·12",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_06_13",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-13.md",
+      "source_lines": [
+        10591,
+        10676
+      ],
+      "section": "### Capítulo VI·13",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_06_14",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-14.md",
+      "source_lines": [
+        10677,
+        10754
+      ],
+      "section": "### Capítulo VI·14",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_06_15",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-15.md",
+      "source_lines": [
+        10755,
+        10839
+      ],
+      "section": "### Capítulo VI·15",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.capitulo_06_16",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-16.md",
+      "source_lines": [
+        10840,
+        12204
+      ],
+      "section": "### Capítulo VI·16",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.epilogo_01",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/epilogo-01.md",
+      "source_lines": [
+        12205,
+        12301
+      ],
+      "section": "Capítulo E·1",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.epilogo_02",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/epilogo-02.md",
+      "source_lines": [
+        12302,
+        12417
+      ],
+      "section": "Capítulo E·2",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.apendice_a_01",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-01.md",
+      "source_lines": [
+        12418,
+        12530
+      ],
+      "section": "Apéndice A·1",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.apendice_a_02",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-02.md",
+      "source_lines": [
+        12531,
+        12642
+      ],
+      "section": "Apéndice A·2",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.apendice_a_03",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-03.md",
+      "source_lines": [
+        12643,
+        12739
+      ],
+      "section": "Apéndice A·3",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.apendice_a_04",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-04.md",
+      "source_lines": [
+        12740,
+        12918
+      ],
+      "section": "Apéndice A·4",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.apendice_a_05",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-05.md",
+      "source_lines": [
+        12919,
+        13013
+      ],
+      "section": "Apéndice A·5",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.apendice_a_06",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-06.md",
+      "source_lines": [
+        13014,
+        13179
+      ],
+      "section": "Apéndice A·6",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.segment.99_glosario",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/99-glosario.md",
+      "source_lines": [
+        13180,
+        14379
+      ],
+      "section": "GLOSARIO",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.mci.pro.scope",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/01-prologo.md",
+      "source_lines": [
+        27,
+        447
+      ],
+      "section": "Prólogo · estatuto de la metrología causal",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.mci.pro.prior_claims",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/01-prologo.md",
+      "source_lines": [
+        27,
+        447
+      ],
+      "section": "Prólogo · resultados previos declarados",
+      "evidence_type": "authorial_validation_claim"
+    },
+    {
+      "id": "ev.mci.i1.objection",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-01.md",
+      "source_lines": [
+        448,
+        572
+      ],
+      "section": "I·1 · objeción de analogía e isomorfismo",
+      "evidence_type": "authorial_objection"
+    },
+    {
+      "id": "ev.mci.i2.replacement",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-02.md",
+      "source_lines": [
+        573,
+        693
+      ],
+      "section": "I·2 · sustitución por correspondencia formal estructural",
+      "evidence_type": "authorial_revision"
+    },
+    {
+      "id": "ev.mci.i3.definition",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-03.md",
+      "source_lines": [
+        694,
+        811
+      ],
+      "section": "I·3 · definición de correspondencia",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.mci.i4.integral",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-04.md",
+      "source_lines": [
+        812,
+        994
+      ],
+      "section": "I·4 · integral matemática e integral del ego",
+      "evidence_type": "authorial_correspondence"
+    },
+    {
+      "id": "ev.mci.i5.quantum_scope",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-05.md",
+      "source_lines": [
+        995,
+        1119
+      ],
+      "section": "I·5 · alcance de la correspondencia cuántica",
+      "evidence_type": "authorial_scope_limit"
+    },
+    {
+      "id": "ev.mci.i8.measurement",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-08.md",
+      "source_lines": [
+        1293,
+        1386
+      ],
+      "section": "I·8 · medición interior",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.mci.i9.phi1",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-09.md",
+      "source_lines": [
+        1387,
+        1504
+      ],
+      "section": "I·9 · φ₁ como operador de medición",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.mci.i11.hard_problem",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-11.md",
+      "source_lines": [
+        1607,
+        1765
+      ],
+      "section": "I·11 · límite frente al problema difícil",
+      "evidence_type": "authorial_scope_limit"
+    },
+    {
+      "id": "ev.mci.i12.freedom",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-12.md",
+      "source_lines": [
+        1766,
+        1873
+      ],
+      "section": "I·12 · indeterminación y libertad",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.mci.i13.frontiers",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-13.md",
+      "source_lines": [
+        1874,
+        1959
+      ],
+      "section": "I·13 · fronteras revisadas",
+      "evidence_type": "authorial_revision"
+    },
+    {
+      "id": "ev.mci.i14.caos_revision",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-14.md",
+      "source_lines": [
+        1960,
+        2053
+      ],
+      "section": "I·14 · reclasificación retrospectiva de Caos",
+      "evidence_type": "authorial_retrospective_revision"
+    },
+    {
+      "id": "ev.mci.i15.tf_revision",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-15.md",
+      "source_lines": [
+        2054,
+        2178
+      ],
+      "section": "I·15 · reclasificación retrospectiva de Transformación formal",
+      "evidence_type": "authorial_retrospective_revision"
+    },
+    {
+      "id": "ev.mci.ii1.status",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-01.md",
+      "source_lines": [
+        2179,
+        2306
+      ],
+      "section": "II·1 · operacionalización y no demostración",
+      "evidence_type": "authorial_method_status"
+    },
+    {
+      "id": "ev.mci.ii2.necessary",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-02.md",
+      "source_lines": [
+        2307,
+        2426
+      ],
+      "section": "II·2 · nodo causalmente necesario",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.mci.ii3.graph",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-03.md",
+      "source_lines": [
+        2427,
+        2563
+      ],
+      "section": "II·3 · grafo, matriz y pesos",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.mci.ii4.operators",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-04.md",
+      "source_lines": [
+        2564,
+        2674
+      ],
+      "section": "II·4 · φ₁, φ₂ y actualización",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.mci.ii5.rstar",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-05.md",
+      "source_lines": [
+        2675,
+        2777
+      ],
+      "section": "II·5 · centralidad y ecuación de R*",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.mci.ii6.power_pf",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-06.md",
+      "source_lines": [
+        2778,
+        2912
+      ],
+      "section": "II·6 · método de potencias y Perron–Frobenius",
+      "evidence_type": "authorial_calculation"
+    },
+    {
+      "id": "ev.mci.ii7.rnet",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-07.md",
+      "source_lines": [
+        2913,
+        3010
+      ],
+      "section": "II·7 · responsabilidad neta y fracción sistémica",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.mci.ii8.benefit",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-08.md",
+      "source_lines": [
+        3011,
+        3101
+      ],
+      "section": "II·8 · grafo de beneficio",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.mci.ii9.s_definition",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-09.md",
+      "source_lines": [
+        3102,
+        3186
+      ],
+      "section": "II·9 · definición contrafáctica de S",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.mci.ii10.s_ranges",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-10.md",
+      "source_lines": [
+        3187,
+        3409
+      ],
+      "section": "II·10 · intervalos S por Hijo",
+      "evidence_type": "authorial_scale"
+    },
+    {
+      "id": "ev.mci.ii11.designer",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-11.md",
+      "source_lines": [
+        3410,
+        3500
+      ],
+      "section": "II·11 · S del diseñador",
+      "evidence_type": "authorial_application_rule"
+    },
+    {
+      "id": "ev.mci.ii12.alpha",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-12.md",
+      "source_lines": [
+        3501,
+        3603
+      ],
+      "section": "II·12 · niveles y escala α",
+      "evidence_type": "authorial_scale"
+    },
+    {
+      "id": "ev.mci.ii13.alpha_time",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-13.md",
+      "source_lines": [
+        3604,
+        3704
+      ],
+      "section": "II·13 · temporalidad de φ₂",
+      "evidence_type": "authorial_operational_criterion"
+    },
+    {
+      "id": "ev.mci.ii14.delta",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-14.md",
+      "source_lines": [
+        3705,
+        3802
+      ],
+      "section": "II·14 · déficit Δ",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.mci.ii15.adjustment",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-15.md",
+      "source_lines": [
+        3803,
+        3886
+      ],
+      "section": "II·15 · ajuste debitorio",
+      "evidence_type": "authorial_application_rule"
+    },
+    {
+      "id": "ev.mci.ii16.uncertainty",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-16.md",
+      "source_lines": [
+        3887,
+        3984
+      ],
+      "section": "II·16 · incertidumbre epistémica y estructural",
+      "evidence_type": "authorial_typology"
+    },
+    {
+      "id": "ev.mci.ii17.intervals",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-17.md",
+      "source_lines": [
+        3985,
+        4139
+      ],
+      "section": "II·17 · intervalos, sensibilidad y declaraciones",
+      "evidence_type": "authorial_method"
+    },
+    {
+      "id": "ev.mci.iii1.classifier",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-01.md",
+      "source_lines": [
+        4140,
+        4248
+      ],
+      "section": "III·1 · clasificación de los Hijos",
+      "evidence_type": "authorial_method"
+    },
+    {
+      "id": "ev.mci.iii3.tree",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-03.md",
+      "source_lines": [
+        4361,
+        4458
+      ],
+      "section": "III·3 · árbol binario",
+      "evidence_type": "authorial_method"
+    },
+    {
+      "id": "ev.mci.iii2.outputs",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-02.md",
+      "source_lines": [
+        4249,
+        4360
+      ],
+      "section": "III·2 · márgenes y salidas",
+      "evidence_type": "authorial_operational_criterion"
+    },
+    {
+      "id": "ev.mci.iii4.signatures",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-04.md",
+      "source_lines": [
+        4459,
+        4726
+      ],
+      "section": "III·4 · firmas documentales",
+      "evidence_type": "authorial_calibration_claim"
+    },
+    {
+      "id": "ev.mci.iii6.harmonia",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-06.md",
+      "source_lines": [
+        4812,
+        4921
+      ],
+      "section": "III·6 · Harmonía y anestesia",
+      "evidence_type": "authorial_scope_limit"
+    },
+    {
+      "id": "ev.mci.iii7.contradictions",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-07.md",
+      "source_lines": [
+        4922,
+        5013
+      ],
+      "section": "III·7 · contradicciones clasificatorias",
+      "evidence_type": "authorial_error_typology"
+    },
+    {
+      "id": "ev.mci.iii8.sdo",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-08.md",
+      "source_lines": [
+        5014,
+        5171
+      ],
+      "section": "III·8 · traducción SDO–parámetros",
+      "evidence_type": "authorial_crosswalk"
+    },
+    {
+      "id": "ev.mci.iii9.iic",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-09.md",
+      "source_lines": [
+        5172,
+        5281
+      ],
+      "section": "III·9 · fórmula y escala IIC",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.mci.iii10.domains",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-10.md",
+      "source_lines": [
+        5282,
+        5467
+      ],
+      "section": "III·10 · protocolos por dominio",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.mci.iv1.series",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-01.md",
+      "source_lines": [
+        6667,
+        6772
+      ],
+      "section": "IV·1 · tres series de medición",
+      "evidence_type": "authorial_method"
+    },
+    {
+      "id": "ev.mci.iv4.iic_weights",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-04.md",
+      "source_lines": [
+        6976,
+        7078
+      ],
+      "section": "IV·4 · modulación de pesos por IIC",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.mci.iv7.identity",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-07.md",
+      "source_lines": [
+        7314,
+        7425
+      ],
+      "section": "IV·7 · identidad formal entre series",
+      "evidence_type": "authorial_identity_claim"
+    },
+    {
+      "id": "ev.mci.iv5.annona",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-05.md",
+      "source_lines": [
+        7079,
+        7215
+      ],
+      "section": "IV·5 · fraude annona metrológico",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.mci.iv11.normalization",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-11.md",
+      "source_lines": [
+        7954,
+        8094
+      ],
+      "section": "IV·11 · normalización y cierre causal",
+      "evidence_type": "authorial_result_claim"
+    },
+    {
+      "id": "ev.mci.v1.levels",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-01.md",
+      "source_lines": [
+        8095,
+        8187
+      ],
+      "section": "V·1 · niveles de validez",
+      "evidence_type": "authorial_validity_criteria"
+    },
+    {
+      "id": "ev.mci.v3.s_limit",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-03.md",
+      "source_lines": [
+        8290,
+        8381
+      ],
+      "section": "V·3 · límite de estimación de S",
+      "evidence_type": "authorial_scope_limit"
+    },
+    {
+      "id": "ev.mci.v4.alpha_limit",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-04.md",
+      "source_lines": [
+        8382,
+        8481
+      ],
+      "section": "V·4 · inobservabilidad de α",
+      "evidence_type": "authorial_scope_limit"
+    },
+    {
+      "id": "ev.mci.v5.errors",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-05.md",
+      "source_lines": [
+        8482,
+        8663
+      ],
+      "section": "V·5 · errores de medición",
+      "evidence_type": "authorial_error_typology"
+    },
+    {
+      "id": "ev.mci.v6.propagation",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-06.md",
+      "source_lines": [
+        8664,
+        8765
+      ],
+      "section": "V·6 · propagación de correcciones",
+      "evidence_type": "authorial_recalculation_rule"
+    },
+    {
+      "id": "ev.mci.v7.shapley",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-07.md",
+      "source_lines": [
+        8766,
+        8886
+      ],
+      "section": "V·7 · causalidad acumulativa y Shapley",
+      "evidence_type": "authorial_alternative_method"
+    },
+    {
+      "id": "ev.mci.v8.cycles",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-08.md",
+      "source_lines": [
+        8887,
+        8988
+      ],
+      "section": "V·8 · ciclos y expansión temporal",
+      "evidence_type": "authorial_alternative_method"
+    },
+    {
+      "id": "ev.mci.v9.discount",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-09.md",
+      "source_lines": [
+        8989,
+        9087
+      ],
+      "section": "V·9 · tasa de descuento no adjudicada",
+      "evidence_type": "authorial_scope_limit"
+    },
+    {
+      "id": "ev.mci.v11.declarations",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-11.md",
+      "source_lines": [
+        9178,
+        9310
+      ],
+      "section": "V·11 · declaraciones metrológicas",
+      "evidence_type": "authorial_reporting_rule"
+    },
+    {
+      "id": "ev.mci.vi1.dossier",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-01.md",
+      "source_lines": [
+        9311,
+        9418
+      ],
+      "section": "VI·1 · expediente metrológico",
+      "evidence_type": "authorial_protocol"
+    },
+    {
+      "id": "ev.mci.vi2.sheet",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-02.md",
+      "source_lines": [
+        9419,
+        9513
+      ],
+      "section": "VI·2 · hoja de calibración",
+      "evidence_type": "authorial_protocol"
+    },
+    {
+      "id": "ev.mci.vi4.vector",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-04.md",
+      "source_lines": [
+        9602,
+        9701
+      ],
+      "section": "VI·4 · vector R* reproducible",
+      "evidence_type": "authorial_protocol"
+    },
+    {
+      "id": "ev.mci.vi4.midpoint",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-04.md",
+      "source_lines": [
+        9602,
+        9701
+      ],
+      "section": "VI·4 · punto medio",
+      "evidence_type": "authorial_estimation_rule"
+    },
+    {
+      "id": "ev.mci.vi5.delta",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-05.md",
+      "source_lines": [
+        9702,
+        9833
+      ],
+      "section": "VI·5 · interpretación operativa de Δ",
+      "evidence_type": "authorial_interpretation"
+    },
+    {
+      "id": "ev.mci.vi7.vertices",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-07.md",
+      "source_lines": [
+        9926,
+        10010
+      ],
+      "section": "VI·7 · vértices y centro",
+      "evidence_type": "authorial_robustness_rule"
+    },
+    {
+      "id": "ev.mci.vi7.thresholds",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-07.md",
+      "source_lines": [
+        9926,
+        10010
+      ],
+      "section": "VI·7 · umbrales de robustez",
+      "evidence_type": "authorial_scale"
+    },
+    {
+      "id": "ev.mci.vi9.declaration",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-09.md",
+      "source_lines": [
+        10092,
+        10200
+      ],
+      "section": "VI·9 · reglas A/B/C",
+      "evidence_type": "authorial_reporting_rule"
+    },
+    {
+      "id": "ev.mci.vi14.consistency",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-14.md",
+      "source_lines": [
+        10677,
+        10754
+      ],
+      "section": "VI·14 · controles internos",
+      "evidence_type": "authorial_validation_claim"
+    },
+    {
+      "id": "ev.mci.vi13.breakpoints",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-13.md",
+      "source_lines": [
+        10591,
+        10676
+      ],
+      "section": "VI·13 · puntos de ruptura",
+      "evidence_type": "authorial_robustness_rule"
+    },
+    {
+      "id": "ev.mci.vi15.limits",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-15.md",
+      "source_lines": [
+        10755,
+        10839
+      ],
+      "section": "VI·15 · preguntas fuera del instrumento",
+      "evidence_type": "authorial_scope_limit"
+    },
+    {
+      "id": "ev.mci.vi16.chain",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-16.md",
+      "source_lines": [
+        10840,
+        12204
+      ],
+      "section": "VI·16 · cadena del caso Altamirano",
+      "evidence_type": "authorial_case_application"
+    },
+    {
+      "id": "ev.mci.vi16.graph",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-16.md",
+      "source_lines": [
+        10840,
+        12204
+      ],
+      "section": "VI·16 · grafo y pesos del caso Altamirano",
+      "evidence_type": "authorial_case_calculation"
+    },
+    {
+      "id": "ev.mci.vi16.parameters",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-16.md",
+      "source_lines": [
+        10840,
+        12204
+      ],
+      "section": "VI·16 · S, α, IIC y Δ del caso Altamirano",
+      "evidence_type": "authorial_case_calibration"
+    },
+    {
+      "id": "ev.mci.vi16.traceability",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-16.md",
+      "source_lines": [
+        10840,
+        12204
+      ],
+      "section": "VI·16 · carácter real y trazabilidad declarados",
+      "evidence_type": "authorial_empirical_claim"
+    },
+    {
+      "id": "ev.mci.a1.pf",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-01.md",
+      "source_lines": [
+        12418,
+        12530
+      ],
+      "section": "A·1 · demostración de Perron–Frobenius",
+      "evidence_type": "authorial_proof"
+    },
+    {
+      "id": "ev.mci.a2.spectral",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-02.md",
+      "source_lines": [
+        12531,
+        12642
+      ],
+      "section": "A·2 · convergencia espectral",
+      "evidence_type": "authorial_proof"
+    },
+    {
+      "id": "ev.mci.a3.monotonicity",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-03.md",
+      "source_lines": [
+        12643,
+        12739
+      ],
+      "section": "A·3 · sensibilidad y monotonicidad",
+      "evidence_type": "authorial_theorem"
+    },
+    {
+      "id": "ev.mci.a4.calibration",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-04.md",
+      "source_lines": [
+        12740,
+        12918
+      ],
+      "section": "A·4 · calibración empírica declarada",
+      "evidence_type": "authorial_empirical_calibration"
+    },
+    {
+      "id": "ev.mci.a5.duality",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-05.md",
+      "source_lines": [
+        12919,
+        13013
+      ],
+      "section": "A·5 · dualidad causal",
+      "evidence_type": "authorial_proof"
+    },
+    {
+      "id": "ev.mci.a6.robustness",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-06.md",
+      "source_lines": [
+        13014,
+        13179
+      ],
+      "section": "A·6 · algoritmo de robustez",
+      "evidence_type": "authorial_algorithm"
+    },
+    {
+      "id": "ev.mci.glossary.formal",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/99-glosario.md",
+      "source_lines": [
+        13180,
+        14379
+      ],
+      "section": "Glosario · objetos formales y metrológicos",
+      "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.mci.glossary.program",
+      "work_id": "MC-I",
+      "segment": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/99-glosario.md",
+      "source_lines": [
+        13180,
+        14379
+      ],
+      "section": "Glosario · obras pendientes",
+      "evidence_type": "authorial_program"
     }
   ],
   "nodes": [
@@ -14890,6 +16826,824 @@
         "ev.axiom.b.levels"
       ],
       "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.mci.causal_metrology",
+      "kind": "concept",
+      "label": "Metrología causal",
+      "summary": "Disciplina autoral para establecer cuándo una medición causal es válida, comparable y comunicable; no convierte por sí misma las fórmulas en resultados demostrados.",
+      "evidence": [
+        "ev.mci.pro.scope",
+        "ev.mci.ii1.status"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mci.prior_validation_claims",
+      "kind": "formulation",
+      "label": "Validaciones previas declaradas en MC-I",
+      "summary": "El prólogo da por calibrados SDO y P(Hijos) y por adversarialmente resistente a Prometeo sin aportar en esta obra datos, muestras ni referencias reproducibles.",
+      "evidence": [
+        "ev.mci.pro.prior_claims"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mci.structural_correspondence",
+      "kind": "formulation",
+      "label": "Correspondencia formal estructural",
+      "summary": "Relación entre objetos de tipos distintos que conserva propiedades estructurales seleccionadas; sustituye expresamente el uso técnico de isomorfismo para ego e integral.",
+      "evidence": [
+        "ev.mci.i1.objection",
+        "ev.mci.i2.replacement",
+        "ev.mci.i3.definition"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mci.integral_correspondence",
+      "kind": "formulation",
+      "label": "Correspondencia integral–ego",
+      "summary": "Distingue rasgos positivos, negativos y neutrales, pero atribuye a la integral ordinaria irreversibilidad, memoria perfecta y dependencia del orden.",
+      "evidence": [
+        "ev.mci.i4.integral"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mci.quantum_scope",
+      "kind": "formulation",
+      "label": "Alcance cuántico restringido",
+      "summary": "Conserva superposición, posibilidades incompatibles y colapso como correspondencia, y excluye amplitudes probabilísticas, función de onda y cálculo cuántico literal.",
+      "evidence": [
+        "ev.mci.i5.quantum_scope",
+        "ev.mci.i14.caos_revision"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mci.internal_measurement",
+      "kind": "formulation",
+      "label": "φ₁ como medición interior",
+      "summary": "Llama medición a la producción interna del acto, distinta de I(t), y aclara que no es un observable hermítico ni una medición física.",
+      "evidence": [
+        "ev.mci.i8.measurement",
+        "ev.mci.i9.phi1"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mci.hard_problem_limit",
+      "kind": "formulation",
+      "label": "Límite frente al problema difícil",
+      "summary": "La obra declara que no resuelve por qué existe experiencia subjetiva y limita su propuesta a una relevancia estructural.",
+      "evidence": [
+        "ev.mci.i11.hard_problem"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.mci.operationalization",
+      "kind": "method",
+      "label": "Operacionalización metrológica",
+      "summary": "Traduce objetos heredados a protocolos de medición y aplicación, con declaración expresa de que operacionalizar no equivale a demostrar.",
+      "evidence": [
+        "ev.mci.ii1.status",
+        "ev.mci.v1.levels"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mci.necessary_node",
+      "kind": "formal_object",
+      "label": "Nodo necesario en MC-I",
+      "formal_spec": {
+        "symbol": "sin_i(D)",
+        "object_type": "counterfactual_necessity_predicate",
+        "expression": "sin_i(D) ∧ (¬i → ¬D_forma)",
+        "domain": "actor i y resultado D",
+        "codomain": "{verdadero,falso}",
+        "dependencies": [
+          "formal.mci.G"
+        ],
+        "assumptions": [
+          "contrafáctico estable; forma de D especificada"
+        ],
+        "epistemic_status": "authorial_formalization_pending_causal_review",
+        "ontological_correspondence": "necesidad causal del nodo"
+      },
+      "evidence": [
+        "ev.mci.ii2.necessary"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mci.G",
+      "kind": "formal_object",
+      "label": "Grafo causal en MC-I",
+      "formal_spec": {
+        "symbol": "G",
+        "object_type": "weighted_directed_graph",
+        "expression": "G=(N,E,W)",
+        "domain": "nodos y aristas documentadas",
+        "codomain": "dígrafo ponderado",
+        "dependencies": [],
+        "assumptions": [
+          "aristas orientadas de causa a efecto; resultado alcanzable"
+        ],
+        "epistemic_status": "authorial_definition",
+        "ontological_correspondence": "cadena causal exterior"
+      },
+      "evidence": [
+        "ev.mci.ii3.graph"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mci.W",
+      "kind": "formal_object",
+      "label": "Matriz de pesos en MC-I",
+      "formal_spec": {
+        "symbol": "W",
+        "object_type": "nonnegative_weight_matrix",
+        "expression": "w_ij∈[0,1] para i→j",
+        "domain": "E",
+        "codomain": "[0,1]^{n×n}",
+        "dependencies": [
+          "formal.mci.G"
+        ],
+        "assumptions": [
+          "pesos comparables; intervalos documentales"
+        ],
+        "epistemic_status": "authorial_definition_uncalibrated",
+        "ontological_correspondence": "intensidad causal de las aristas"
+      },
+      "evidence": [
+        "ev.mci.ii3.graph",
+        "ev.mci.vi2.sheet"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mci.phi1",
+      "kind": "formal_object",
+      "label": "φ₁ en MC-I",
+      "formal_spec": {
+        "symbol": "φ₁",
+        "object_type": "authorial_internal_measurement_operator",
+        "expression": "φ₁:V×C→A",
+        "domain": "V×C",
+        "codomain": "A",
+        "dependencies": [],
+        "assumptions": [
+          "estado volitivo y campo tipados"
+        ],
+        "epistemic_status": "authorial_formalization_pending_typing",
+        "ontological_correspondence": "primera mediación/producción del acto"
+      },
+      "evidence": [
+        "ev.mci.i9.phi1",
+        "ev.mci.ii4.operators"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mci.phi2",
+      "kind": "formal_object",
+      "label": "φ₂ en MC-I",
+      "formal_spec": {
+        "symbol": "φ₂",
+        "object_type": "authorial_integration_operator",
+        "expression": "φ₂:A×I→I′",
+        "domain": "A×I",
+        "codomain": "I′",
+        "dependencies": [
+          "formal.mci.phi1"
+        ],
+        "assumptions": [
+          "I e I′ comparables; integración definida"
+        ],
+        "epistemic_status": "authorial_formalization_pending_typing",
+        "ontological_correspondence": "segunda mediación/integración del acto"
+      },
+      "evidence": [
+        "ev.mci.ii4.operators"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mci.ego_update",
+      "kind": "formal_object",
+      "label": "Actualización del ego en MC-I",
+      "formal_spec": {
+        "symbol": "Ego(t+1)",
+        "object_type": "discrete_state_update",
+        "expression": "Ego(t+1)=φ₂(φ₁(v_t,c),I(t))",
+        "domain": "V×C×I",
+        "codomain": "estado de ego",
+        "dependencies": [
+          "formal.mci.phi1",
+          "formal.mci.phi2",
+          "formal.I_t"
+        ],
+        "assumptions": [
+          "compatibilidad entre I(t), I y estado de ego"
+        ],
+        "epistemic_status": "authorial_formalization_pending_typing",
+        "ontological_correspondence": "ciclo de producción e integración"
+      },
+      "evidence": [
+        "ev.mci.ii4.operators"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mci.rstar",
+      "kind": "formal_object",
+      "label": "R* en MC-I",
+      "formal_spec": {
+        "symbol": "R*",
+        "object_type": "eigenvector_centrality_with_conflicting_orientation",
+        "expression": "R*_i=λ⁻¹Σ_j w_jiR*_j; algoritmo v_{k+1}=Wv_k/||Wv_k||",
+        "domain": "matriz W no negativa",
+        "codomain": "simplejo declarado",
+        "dependencies": [
+          "formal.mci.W"
+        ],
+        "assumptions": [
+          "irreducibilidad y aperiodicidad declaradas; normalización"
+        ],
+        "epistemic_status": "authorial_operationalization_internally_inconsistent",
+        "ontological_correspondence": "responsabilidad causal estructural"
+      },
+      "evidence": [
+        "ev.mci.ii5.rstar",
+        "ev.mci.ii6.power_pf",
+        "ev.mci.rstar_validity"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mci.rstar_net",
+      "kind": "formal_object",
+      "label": "R* neta en MC-I",
+      "formal_spec": {
+        "symbol": "R*_neta",
+        "object_type": "multiplicative_discount",
+        "expression": "R*_neta=R*(1−S)",
+        "domain": "R*,S∈[0,1]",
+        "codomain": "[0,1]",
+        "dependencies": [
+          "formal.mci.rstar",
+          "formal.mci.S"
+        ],
+        "assumptions": [
+          "R* y S por nodo; masa descontada interpretable"
+        ],
+        "epistemic_status": "authorial_definition_pending_redistribution_review",
+        "ontological_correspondence": "responsabilidad específica tras condicionamiento"
+      },
+      "evidence": [
+        "ev.mci.ii7.rnet"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mci.rstar_b",
+      "kind": "formal_object",
+      "label": "R* de beneficio en MC-I",
+      "formal_spec": {
+        "symbol": "R*_B",
+        "object_type": "eigenvector_centrality_on_benefit_graph",
+        "expression": "mismo operador R* sobre G_B",
+        "domain": "grafo de beneficio",
+        "codomain": "simplejo declarado",
+        "dependencies": [
+          "formal.mci.rstar"
+        ],
+        "assumptions": [
+          "grafo de beneficio documentado y comparable"
+        ],
+        "epistemic_status": "authorial_formalization_uncalibrated",
+        "ontological_correspondence": "responsabilidad por beneficio"
+      },
+      "evidence": [
+        "ev.mci.ii8.benefit"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mci.S",
+      "kind": "formal_object",
+      "label": "S en MC-I",
+      "formal_spec": {
+        "symbol": "S_i",
+        "object_type": "counterfactual_probability",
+        "expression": "S_i=P(D_específico|c,sin i)",
+        "domain": "actor i, campo c y resultado D",
+        "codomain": "[0,1] o no estimable",
+        "dependencies": [],
+        "assumptions": [
+          "contrafáctico conserva el campo; modelo probabilístico definido"
+        ],
+        "epistemic_status": "authorial_definition_with_explicit_nonestimability_limit",
+        "ontological_correspondence": "sustituibilidad/condicionamiento causal"
+      },
+      "evidence": [
+        "ev.mci.ii9.s_definition",
+        "ev.mci.v3.s_limit"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mci.s_ranges",
+      "kind": "formulation",
+      "label": "Rangos S por Hijo en MC-I",
+      "summary": "Intervalos atribuidos a una derivación ontológica y presentados como referencia; la obra remite su calibración empírica al apéndice A·4.",
+      "evidence": [
+        "ev.mci.ii10.s_ranges",
+        "ev.mci.a4.calibration"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mci.s_designer_zero",
+      "kind": "formulation",
+      "label": "S del diseñador aproximadamente cero",
+      "summary": "II·11 asigna S≈0 por construcción cuando retirar al diseñador cambia el campo contrafáctico.",
+      "evidence": [
+        "ev.mci.ii11.designer"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mci.s_nonestimable",
+      "kind": "formulation",
+      "label": "S no estimable al cambiar el campo",
+      "summary": "V·3 restringe el procedimiento: si retirar al actor altera c, S no es estimable; propone grafo contrafáctico o S=0 conservador.",
+      "evidence": [
+        "ev.mci.v3.s_limit"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mci.alpha",
+      "kind": "formal_object",
+      "label": "α en MC-I",
+      "formal_spec": {
+        "symbol": "α",
+        "object_type": "ordinal_integration_scale",
+        "expression": "α∈{0,.33,.67,.90,1} con niveles reconocimiento/narrativa/identidad",
+        "domain": "evidencia de integración",
+        "codomain": "[0,1]",
+        "dependencies": [
+          "formal.mci.phi2"
+        ],
+        "assumptions": [
+          "criterios conductuales discriminan integración de narrativa"
+        ],
+        "epistemic_status": "authorial_operational_scale_uncalibrated_and_indirect",
+        "ontological_correspondence": "grado de asunción del acto"
+      },
+      "evidence": [
+        "ev.mci.ii12.alpha",
+        "ev.mci.ii13.alpha_time",
+        "ev.mci.v4.alpha_limit"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mci.alpha_scale",
+      "kind": "formulation",
+      "label": "Escala operativa de α",
+      "summary": "Asigna puntos a reconocimiento, integración narrativa e integración identitaria; α=1 corresponde a vanidad soberana y se presenta como límite asintótico.",
+      "evidence": [
+        "ev.mci.ii12.alpha"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mci.delta",
+      "kind": "formal_object",
+      "label": "Δ en MC-I",
+      "formal_spec": {
+        "symbol": "Δ",
+        "object_type": "multiplicative_assumption_gap",
+        "expression": "Δ=R*(1−α)",
+        "domain": "R*,α∈[0,1]",
+        "codomain": "[0,1]",
+        "dependencies": [
+          "formal.mci.rstar",
+          "formal.mci.alpha"
+        ],
+        "assumptions": [
+          "R* y α comparables por nodo"
+        ],
+        "epistemic_status": "authorial_definition_with_inconsistent_later_interpretation",
+        "ontological_correspondence": "responsabilidad causal no integrada"
+      },
+      "evidence": [
+        "ev.mci.ii14.delta",
+        "ev.mci.vi5.delta"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.mci.debtor_adjustment",
+      "kind": "method",
+      "label": "Ajuste debitorio en MC-I",
+      "summary": "Propone una respuesta proporcional a Δ y la distingue de sanción, con aplicación a Aego y evasión.",
+      "evidence": [
+        "ev.mci.ii15.adjustment"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.mci.uncertainty",
+      "kind": "concept",
+      "label": "Incertidumbre metrológica en MC-I",
+      "summary": "Distingue incertidumbre epistémica sobre valores e incertidumbre estructural sobre nodos y aristas.",
+      "evidence": [
+        "ev.mci.ii16.uncertainty"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mci.weight_intervals",
+      "kind": "formal_object",
+      "label": "Intervalos de pesos en MC-I",
+      "formal_spec": {
+        "symbol": "w_ij∈[a_ij,b_ij]",
+        "object_type": "evidence_consistency_interval",
+        "expression": "valores compatibles con toda la evidencia disponible",
+        "domain": "evidencia documental",
+        "codomain": "subintervalos de [0,1]",
+        "dependencies": [
+          "formal.mci.W"
+        ],
+        "assumptions": [
+          "regla de compatibilidad y anchuras por tipo de evidencia"
+        ],
+        "epistemic_status": "authorial_uncertainty_method_uncalibrated",
+        "ontological_correspondence": "incertidumbre epistémica de los pesos"
+      },
+      "evidence": [
+        "ev.mci.ii17.intervals"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mci.declaration",
+      "kind": "formal_object",
+      "label": "Declaración metrológica A–D",
+      "formal_spec": {
+        "symbol": "A/B/C/D",
+        "object_type": "ordinal_reporting_classification",
+        "expression": "A=orden robusto; B=orden mayormente robusto; C=orden significativamente inestable; D=sin ranking mínimo estable",
+        "domain": "resultados de sensibilidad",
+        "codomain": "{A,B,C,D}",
+        "dependencies": [
+          "formal.mci.weight_intervals",
+          "formal.mci.robustness"
+        ],
+        "assumptions": [
+          "umbrales y cobertura de muestreo suficientes"
+        ],
+        "epistemic_status": "authorial_reporting_rule_pending_consistency_review",
+        "ontological_correspondence": "fuerza comunicable de la conclusión"
+      },
+      "evidence": [
+        "ev.mci.ii17.intervals",
+        "ev.mci.v11.declarations",
+        "ev.mci.vi9.declaration"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.mci.children_classifier",
+      "kind": "method",
+      "label": "Clasificador documental de Hijos",
+      "summary": "Procedimiento denominado bayesiano que combina firmas documentales, árbol de decisión, márgenes y salidas de localización confirmable, hipótesis y derivación hacia ECO, sin verosimilitudes ni tasas base especificadas.",
+      "evidence": [
+        "ev.mci.iii1.classifier",
+        "ev.mci.iii3.tree",
+        "ev.mci.iii2.outputs",
+        "ev.mci.iii4.signatures"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.mci.sdo_crosswalk",
+      "kind": "method",
+      "label": "Cruce SDO–S–α–Δ",
+      "summary": "Traduce códigos y ejes del SDO a parámetros metrológicos; la traducción reutiliza cambios heredados de la tipología de Aego.",
+      "evidence": [
+        "ev.mci.iii8.sdo"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mci.IIC",
+      "kind": "formal_object",
+      "label": "IIC en MC-I",
+      "formal_spec": {
+        "symbol": "IIC",
+        "object_type": "mean_of_undefined_correlations",
+        "expression": "IIC=(1/n)Σ_k corr(declarado_k,observable_k)",
+        "domain": "dimensiones declaradas y observables",
+        "codomain": "intervalo declarado [0,1]",
+        "dependencies": [],
+        "assumptions": [
+          "pares repetidos, codificación y correlación definidos; varianza no nula"
+        ],
+        "epistemic_status": "authorial_operationalization_uncalibrated",
+        "ontological_correspondence": "coherencia entre identidad declarada y conducta"
+      },
+      "evidence": [
+        "ev.mci.iii9.iic"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mci.iic_scale",
+      "kind": "formulation",
+      "label": "Escala IIC en MC-I",
+      "summary": "Interpreta rangos del índice y propone valores típicos sin muestra, distribución ni estudio de calibración trazable.",
+      "evidence": [
+        "ev.mci.iii9.iic",
+        "ev.mci.a4.calibration"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mci.w_iic",
+      "kind": "formal_object",
+      "label": "Peso modulado por IIC",
+      "formal_spec": {
+        "symbol": "w_ij^(IIC)",
+        "object_type": "multiplicative_edge_adjustment",
+        "expression": "w_ij(designer→executor)=w_base(1+k(1−IIC))",
+        "domain": "w_base,IIC∈[0,1], k no fijado",
+        "codomain": "real; no se garantiza [0,1]",
+        "dependencies": [
+          "formal.mci.W",
+          "formal.mci.IIC"
+        ],
+        "assumptions": [
+          "k definido; ajuste no reutiliza circularmente la conducta explicada"
+        ],
+        "epistemic_status": "authorial_operational_formula_pending_bounds_and_circularity_review",
+        "ontological_correspondence": "incremento de responsabilidad de diseño ante incoherencia"
+      },
+      "evidence": [
+        "ev.mci.iv4.iic_weights"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mci.fraud_annona",
+      "kind": "formal_object",
+      "label": "Fraude annona metrológico",
+      "formal_spec": {
+        "symbol": "FA",
+        "object_type": "multiplicative_index",
+        "expression": "FA=R*(1−α)(1−IIC)",
+        "domain": "R*,α,IIC",
+        "codomain": "[0,1] declarado",
+        "dependencies": [
+          "formal.mci.rstar",
+          "formal.mci.alpha",
+          "formal.mci.IIC"
+        ],
+        "assumptions": [
+          "componentes comparables, independientes o interacción justificada"
+        ],
+        "epistemic_status": "authorial_new_formula_uncalibrated",
+        "ontological_correspondence": "beneficio o diseño no asumido e incoherente"
+      },
+      "evidence": [
+        "ev.mci.iv5.annona"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mci.series",
+      "kind": "formulation",
+      "label": "Tres series metrológicas",
+      "summary": "Aplica el dispositivo a causalidad interna, causalidad exterior y beneficio, mientras la segunda serie admite aristas prospectivas y ajuste por IIC.",
+      "evidence": [
+        "ev.mci.iv1.series",
+        "ev.mci.iv4.iic_weights",
+        "ev.mci.iv7.identity"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.mci.validity_levels",
+      "kind": "method",
+      "label": "Validez de grafo, parámetros y aplicación",
+      "summary": "Separa validez estructural, paramétrica y aplicativa; los controles propuestos son principalmente internos al mismo expediente.",
+      "evidence": [
+        "ev.mci.v1.levels",
+        "ev.mci.v5.errors",
+        "ev.mci.vi14.consistency"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mci.shapley",
+      "kind": "formal_object",
+      "label": "Alternativa Shapley en MC-I",
+      "formal_spec": {
+        "symbol": "φ_i(v)",
+        "object_type": "cooperative_game_attribution",
+        "expression": "φ_i(v)=Σ_{S⊆N\\{i}} |S|!(n−|S|−1)!/n! · [v(S∪{i})−v(S)]",
+        "domain": "juego causal (N,v)",
+        "codomain": "R^n",
+        "dependencies": [],
+        "assumptions": [
+          "función de valor causal v(S) definida; coaliciones comparables"
+        ],
+        "epistemic_status": "authorial_alternative_pending_value_function_and_computation",
+        "ontological_correspondence": "atribución bajo causalidad acumulativa"
+      },
+      "evidence": [
+        "ev.mci.v7.shapley"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.mci.time_expansion",
+      "kind": "method",
+      "label": "Expansión temporal de ciclos",
+      "summary": "Propone desdoblar nodos por tiempo para representar retroalimentaciones, sin fijar discretización ni regla de conversión de pesos.",
+      "evidence": [
+        "ev.mci.v8.cycles"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.mci.dossier",
+      "kind": "method",
+      "label": "Expediente metrológico reproducible",
+      "summary": "Exige hoja de calibración, vector R*, informe de sensibilidad y declaración metrológica; constituye arquitectura procedimental, no validación externa.",
+      "evidence": [
+        "ev.mci.vi1.dossier",
+        "ev.mci.vi2.sheet",
+        "ev.mci.vi4.vector",
+        "ev.mci.vi9.declaration"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mci.robustness",
+      "kind": "formal_object",
+      "label": "Robustez en MC-I",
+      "formal_spec": {
+        "symbol": "ρ",
+        "object_type": "ranking_stability_protocol",
+        "expression": "evaluación de centro, vértices o muestra Monte Carlo del hipercubo",
+        "domain": "producto de intervalos de pesos",
+        "codomain": "frecuencias y declaración A/B/C",
+        "dependencies": [
+          "formal.mci.weight_intervals",
+          "formal.mci.rstar"
+        ],
+        "assumptions": [
+          "búsqueda cubre extremos interiores; estadístico de estabilidad definido"
+        ],
+        "epistemic_status": "authorial_algorithm_with_invalid_exhaustiveness_claims",
+        "ontological_correspondence": "estabilidad de la atribución causal"
+      },
+      "evidence": [
+        "ev.mci.vi7.vertices",
+        "ev.mci.vi13.breakpoints",
+        "ev.mci.a6.robustness"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.mci.application_limits",
+      "kind": "concept",
+      "label": "Límites de aplicación de MC-I",
+      "summary": "El instrumento no decide justicia, conducta futura, valoración monetaria ni contrafácticos no observados; tampoco resuelve el tipo jurídico o el dolo.",
+      "evidence": [
+        "ev.mci.v9.discount",
+        "ev.mci.vi15.limits",
+        "ev.mci.vi16.chain"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "case.mci.altamirano",
+      "kind": "case",
+      "label": "Caso Altamirano en MC-I",
+      "summary": "Aplicación declarada real y anonimizada cuyo expediente, documentos y datos externos no están incorporados al corpus auditable.",
+      "evidence": [
+        "ev.mci.vi16.chain",
+        "ev.mci.vi16.traceability"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mci.altamirano_graph",
+      "kind": "formal_object",
+      "label": "Grafo del caso Altamirano",
+      "formal_spec": {
+        "symbol": "G_A",
+        "object_type": "four_actor_weighted_digraph_plus_terminal_result",
+        "expression": "siete aristas entre cuatro actores y un resultado terminal",
+        "domain": "caso Altamirano",
+        "codomain": "dígrafo ponderado",
+        "dependencies": [
+          "formal.mci.G"
+        ],
+        "assumptions": [
+          "cadena fáctica y pesos documentados; hipótesis PF satisfechas"
+        ],
+        "epistemic_status": "authorial_case_model_incompatible_with_claimed_irreducibility",
+        "ontological_correspondence": "cadena causal exterior del caso"
+      },
+      "evidence": [
+        "ev.mci.vi16.graph"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.mci.altamirano_vector",
+      "kind": "formal_object",
+      "label": "Vector R* del caso Altamirano",
+      "formal_spec": {
+        "symbol": "R*_A",
+        "object_type": "reported_numeric_vector",
+        "expression": "(.381,.308,.193,.118)",
+        "domain": "formal.mci.altamirano_graph",
+        "codomain": "simplejo de cuatro componentes",
+        "dependencies": [
+          "formal.mci.altamirano_graph",
+          "formal.mci.rstar"
+        ],
+        "assumptions": [
+          "orientación y matriz permiten el autovector reportado"
+        ],
+        "epistemic_status": "authorial_case_result_not_reproducible_from_stated_graph",
+        "ontological_correspondence": "orden de responsabilidad del caso"
+      },
+      "evidence": [
+        "ev.mci.vi16.graph",
+        "ev.mci.vi16.parameters"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mci.pf_proof",
+      "kind": "formulation",
+      "label": "Demostración PF en MC-I",
+      "summary": "El apéndice presenta existencia, positividad, unicidad y convergencia; mezcla irreducibilidad con dominancia estricta y no demuestra simplicidad bajo las hipótesis usadas.",
+      "evidence": [
+        "ev.mci.a1.pf"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mci.spectral_claims",
+      "kind": "formulation",
+      "label": "Convergencia espectral en MC-I",
+      "summary": "La derivación usa descomposición diagonalizable y llega a llamar matriz de transición de Markov a W/ρ sin normalización estocástica.",
+      "evidence": [
+        "ev.mci.a2.spectral"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mci.monotonicity",
+      "kind": "formulation",
+      "label": "Monotonicidad de R* en MC-I",
+      "summary": "Afirma que aumentar una arista entrante aumenta la componente correspondiente y ofrece una derivada que no controla todos los efectos del autovector normalizado.",
+      "evidence": [
+        "ev.mci.a3.monotonicity"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.mci.empirical_calibration",
+      "kind": "method",
+      "label": "Calibración empírica declarada en A·4",
+      "summary": "El apéndice ofrece intervalos y valores de referencia, pero no identifica muestra, datos, selección, estimador, validación ni fuente externa reproducible.",
+      "evidence": [
+        "ev.mci.a4.calibration"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.mci.duality",
+      "kind": "formulation",
+      "label": "Dualidad causal declarada",
+      "summary": "Aplica la misma forma funcional a dos matrices y lo presenta como prueba de dualidad; la simetría formal no valida los grafos ni su interpretación.",
+      "evidence": [
+        "ev.mci.a5.duality"
+      ],
+      "evidence_status": "explicit"
     }
   ],
   "relations": [
@@ -20483,6 +23237,407 @@
         "ev.tf.21.rnet"
       ],
       "rationale": "El apéndice rechaza multiplicar por 1−S como doble conteo y propone diferencia de centralidades; las dos versiones se conservan."
+    },
+    {
+      "id": "rel.mci.metrology.operationalizes_tf",
+      "from": "concept.mci.causal_metrology",
+      "to": "method.tf.sequence",
+      "type": "operationalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.pro.scope",
+        "ev.mci.ii1.status"
+      ],
+      "rationale": "MC-I convierte la secuencia instrumental anunciada en TF en un protocolo metrológico, sin aportar por ello validación automática."
+    },
+    {
+      "id": "rel.mci.correspondence.reclassifies_caos",
+      "from": "formulation.mci.structural_correspondence",
+      "to": "formulation.quantum_correspondence.caos",
+      "type": "reclassifies",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.i14.caos_revision",
+        "ev.caos.quantum_correspondence"
+      ],
+      "rationale": "MC-I declara retrospectivamente que el isomorfismo de Caos debe leerse como correspondencia formal estructural; se conserva la formulación histórica."
+    },
+    {
+      "id": "rel.mci.correspondence.reclassifies_tf",
+      "from": "formulation.mci.structural_correspondence",
+      "to": "formulation.tf.identity_sdo_prometeo",
+      "type": "reclassifies",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.i15.tf_revision",
+        "ev.tf.prologue.identity_claim"
+      ],
+      "rationale": "MC-I restringe la identidad/isomorfismo de TF a una correspondencia entre tipos distintos, sin borrar la pretensión anterior."
+    },
+    {
+      "id": "rel.mci.phi1.refines_tf",
+      "from": "formal.mci.phi1",
+      "to": "formal.tf.phi1",
+      "type": "refines",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.i9.phi1",
+        "ev.tf.tres_formulas"
+      ],
+      "rationale": "MC-I añade firma V×C→A y función de medición interna, pero mantiene tipos no construidos."
+    },
+    {
+      "id": "rel.mci.phi1.differs_axiom",
+      "from": "formal.mci.phi1",
+      "to": "formal.phi1",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.ii4.operators",
+        "ev.axiom.1.signature"
+      ],
+      "rationale": "MC-I omite el argumento H de la firma axiomática posterior ya auditada y no explica equivalencia o proyección."
+    },
+    {
+      "id": "rel.mci.phi2.refines_tf",
+      "from": "formal.mci.phi2",
+      "to": "formal.tf.phi2",
+      "type": "refines",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.ii4.operators",
+        "ev.tf.tres_formulas"
+      ],
+      "rationale": "MC-I explicita A×I→I′, pero sigue usando I como estado, integral y tipo."
+    },
+    {
+      "id": "rel.mci.phi2.differs_axiom",
+      "from": "formal.mci.phi2",
+      "to": "formal.phi2",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.ii4.operators",
+        "ev.axiom.2.signature"
+      ],
+      "rationale": "La firma A×I→I′ de MC-I difiere de A×E→E en Axiomatización; no hay migración demostrada."
+    },
+    {
+      "id": "rel.mci.graph.operationalizes_tf",
+      "from": "formal.mci.G",
+      "to": "formal.tf.G",
+      "type": "operationalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.ii3.graph",
+        "ev.tf.21.graph"
+      ],
+      "rationale": "MC-I añade intervalos y requisitos de validez al grafo de TF."
+    },
+    {
+      "id": "rel.mci.graph.differs_axiom",
+      "from": "formal.mci.G",
+      "to": "formal.G",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.ii3.graph",
+        "ev.axiom.6.graph"
+      ],
+      "rationale": "MC-I presenta un grafo dirigido al resultado, mientras Axiomatización incluye sumidero y filas normalizadas incompatibles con irreducibilidad."
+    },
+    {
+      "id": "rel.mci.rstar.operationalizes_tf",
+      "from": "formal.mci.rstar",
+      "to": "formal.tf.rstar",
+      "type": "operationalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.ii5.rstar",
+        "ev.mci.ii6.power_pf",
+        "ev.tf.21.eigenvector"
+      ],
+      "rationale": "MC-I da pasos de cálculo, pero combina la ecuación entrante con una iteración mediante W y no resuelve la orientación heredada."
+    },
+    {
+      "id": "rel.mci.rstar.reuses_axiom",
+      "from": "formal.mci.rstar",
+      "to": "formal.rstar",
+      "type": "reuses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.ii5.rstar",
+        "ev.mci.rstar_validity",
+        "ev.axiom.6.rstar"
+      ],
+      "rationale": "MC-I reutiliza R* y sus condiciones, sin corregir las incompatibilidades entre sumidero, conectividad y estocasticidad."
+    },
+    {
+      "id": "rel.mci.rnet.reuses_tf",
+      "from": "formal.mci.rstar_net",
+      "to": "formal.tf.rstar_net",
+      "type": "reuses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.ii7.rnet",
+        "ev.tf.21.rnet"
+      ],
+      "rationale": "MC-I conserva el producto R*(1−S), no la resta por sustitución propuesta en el apéndice D de Axiomatización."
+    },
+    {
+      "id": "rel.mci.rnet.differs_axiom",
+      "from": "formal.mci.rstar_net",
+      "to": "formal.axiom.rstar_net",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.ii7.rnet",
+        "ev.axiom.d.rnet"
+      ],
+      "rationale": "Las expresiones R*(1−S) y R*(i)−R*^(i)_i tienen dominios, signos e interpretaciones distintos."
+    },
+    {
+      "id": "rel.mci.s.operationalizes_tf",
+      "from": "formal.mci.S",
+      "to": "formal.tf.S",
+      "type": "operationalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.ii9.s_definition",
+        "ev.tf.22.s_definition"
+      ],
+      "rationale": "MC-I reemplaza la razón de pesos por una probabilidad contrafáctica, cambiando el tipo formal sin demostrar equivalencia."
+    },
+    {
+      "id": "rel.mci.s.differs_axiom",
+      "from": "formal.mci.S",
+      "to": "formal.axiom.Sest",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.ii9.s_definition",
+        "ev.axiom.3.sest"
+      ],
+      "rationale": "La probabilidad contrafáctica de MC-I no es la distancia entre autovectores del reemplazo estructural axiomático."
+    },
+    {
+      "id": "rel.mci.s_nonestimable.restricts_s",
+      "from": "formulation.mci.s_nonestimable",
+      "to": "formulation.mci.s_designer_zero",
+      "type": "restricts",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.ii11.designer",
+        "ev.mci.v3.s_limit"
+      ],
+      "rationale": "V·3 reconoce que cambiar el campo invalida la estimación que II·11 resolvía por construcción con S≈0."
+    },
+    {
+      "id": "rel.mci.alpha.operationalizes_tf",
+      "from": "formal.mci.alpha",
+      "to": "formal.tf.alpha",
+      "type": "operationalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.ii12.alpha",
+        "ev.tf.23.alpha_scale"
+      ],
+      "rationale": "MC-I fija niveles y puntos operativos para la escala de TF, pero admite que α no es directamente observable."
+    },
+    {
+      "id": "rel.mci.alpha.differs_axiom",
+      "from": "formal.mci.alpha",
+      "to": "formal.alpha",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.ii12.alpha",
+        "ev.axiom.4.continuous"
+      ],
+      "rationale": "La escala ordinal de MC-I no implementa la integral temporal ponderada de Axiomatización."
+    },
+    {
+      "id": "rel.mci.delta.reuses_tf",
+      "from": "formal.mci.delta",
+      "to": "formal.tf.delta",
+      "type": "reuses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.ii14.delta",
+        "ev.tf.24.delta_states"
+      ],
+      "rationale": "MC-I conserva Δ=R*(1−α) y añade interpretación operativa."
+    },
+    {
+      "id": "rel.mci.delta.differs_axiom",
+      "from": "formal.mci.delta",
+      "to": "formal.delta",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.ii14.delta",
+        "ev.axiom.5.delta"
+      ],
+      "rationale": "El producto no negativo de MC-I difiere de Δ=R*−α, que admite signo negativo."
+    },
+    {
+      "id": "rel.mci.classifier.operationalizes_children",
+      "from": "method.mci.children_classifier",
+      "to": "formal.tf.P_children",
+      "type": "operationalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.iii1.classifier",
+        "ev.mci.iii3.tree",
+        "ev.tf.42.child_probability"
+      ],
+      "rationale": "MC-I añade árbol, firmas y márgenes, pero no suministra el modelo probabilístico necesario para la denominación bayesiana."
+    },
+    {
+      "id": "rel.mci.sdo.operationalizes_tf",
+      "from": "method.mci.sdo_crosswalk",
+      "to": "formulation.tf.sdo_axes_crosswalk",
+      "type": "operationalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.iii8.sdo",
+        "ev.tf.51.axes"
+      ],
+      "rationale": "MC-I convierte el cruce de ejes en reglas para S, α y Δ sin resolver las revisiones de tipología heredadas."
+    },
+    {
+      "id": "rel.mci.iic.operationalizes_tf",
+      "from": "formal.mci.IIC",
+      "to": "formal.tf.IIC",
+      "type": "operationalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.iii9.iic",
+        "ev.tf.31.iic_definition"
+      ],
+      "rationale": "MC-I promedia correlaciones por dimensión, pero no define observaciones emparejadas ni calibración."
+    },
+    {
+      "id": "rel.mci.w_iic.operationalizes_tf",
+      "from": "formal.mci.w_iic",
+      "to": "formal.tf.w_adjusted",
+      "type": "operationalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.iv4.iic_weights",
+        "ev.tf.31.w_adjustment"
+      ],
+      "rationale": "MC-I especializa el ajuste diseñador–ejecutor con k no fijado y sin garantía de mantener el peso en [0,1]."
+    },
+    {
+      "id": "rel.mci.annona.elaborates_axiom",
+      "from": "formal.mci.fraud_annona",
+      "to": "formulation.axiom.annona",
+      "type": "elaborates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.iv5.annona",
+        "ev.axiom.8.annona"
+      ],
+      "rationale": "MC-I añade un índice multiplicativo con IIC; la obra no demuestra que mida el constructo ni calibra sus factores."
+    },
+    {
+      "id": "rel.mci.series.claims_identity",
+      "from": "formulation.mci.series",
+      "to": "formulation.tf.identity_sdo_prometeo",
+      "type": "reframes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.iv1.series",
+        "ev.mci.iv7.identity",
+        "ev.tf.12.identity_types"
+      ],
+      "rationale": "MC-I traslada la pretensión de identidad a tres series que no mantienen exactamente el mismo grafo ni los mismos pesos."
+    },
+    {
+      "id": "rel.mci.validity.elaborates_axiom_calibration",
+      "from": "method.mci.validity_levels",
+      "to": "method.axiom.calibration",
+      "type": "elaborates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.v1.levels",
+        "ev.mci.a4.calibration",
+        "ev.axiom.b.calibration"
+      ],
+      "rationale": "MC-I ordena niveles de validez, pero sus comprobaciones y el apéndice de calibración siguen sin datos independientes trazables."
+    },
+    {
+      "id": "rel.mci.robustness.elaborates_tf",
+      "from": "formal.mci.robustness",
+      "to": "formal.tf.robustness_extended",
+      "type": "elaborates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.vi7.vertices",
+        "ev.mci.a6.robustness",
+        "ev.tf.42.sensitivity_methods"
+      ],
+      "rationale": "MC-I concreta centro, vértices y Monte Carlo, aunque no justifica exhaustividad ni universalidad."
+    },
+    {
+      "id": "rel.mci.robustness.elaborates_axiom",
+      "from": "formal.mci.robustness",
+      "to": "formal.axiom.rstar_interval",
+      "type": "elaborates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.vi7.vertices",
+        "ev.axiom.6.intervals"
+      ],
+      "rationale": "MC-I amplía el uso de extremos de Axiomatización, pero los autovectores pueden tener cambios interiores no capturados por las esquinas."
+    },
+    {
+      "id": "rel.mci.altamirano.instantiates_graph",
+      "from": "formal.mci.altamirano_graph",
+      "to": "formal.mci.G",
+      "type": "instantiates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.vi16.graph"
+      ],
+      "rationale": "El caso aplica la definición de grafo a cuatro actores y un resultado terminal."
+    },
+    {
+      "id": "rel.mci.altamirano.instantiates_rstar",
+      "from": "formal.mci.altamirano_vector",
+      "to": "formal.mci.rstar",
+      "type": "instantiates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.vi16.graph",
+        "ev.mci.vi16.parameters"
+      ],
+      "rationale": "El vector se presenta como resultado del operador, pero la matriz y las hipótesis declaradas no lo hacen reproducible."
+    },
+    {
+      "id": "rel.mci.pf.elaborates_axiom",
+      "from": "formulation.mci.pf_proof",
+      "to": "formal.rstar",
+      "type": "attempts_to_validate",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.a1.pf",
+        "ev.axiom.6.pf"
+      ],
+      "rationale": "A·1 intenta justificar PF, pero no repara las hipótesis incompatibles ni prueba la dominancia estricta desde irreducibilidad sola."
+    },
+    {
+      "id": "rel.mci.calibration.claims_tf_gap",
+      "from": "method.mci.empirical_calibration",
+      "to": "concept.tf.uncertainty_calibration",
+      "type": "addresses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.mci.a4.calibration",
+        "ev.tf.epilogue.calibration_gap"
+      ],
+      "rationale": "A·4 se presenta como respuesta a la falta de calibración, pero no incorpora datos ni protocolo reproducible que permita cerrar la revisión."
     }
   ],
   "routes": [
@@ -26823,6 +29978,632 @@
         "review.axiom.mode_ranges",
         "review.axiom.hilbert_ontology"
       ]
+    },
+    {
+      "id": "route.mci.architecture",
+      "purpose": "Recorrer estatuto, arquitectura, límites y carácter metrológico de MC-I.",
+      "triggers": [
+        "MC-I",
+        "Metrología Causal I",
+        "arquitectura MC-I"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mci.pro.scope",
+          "reason": "Fija propósito y pretensiones."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mci.ii1.status",
+          "reason": "Distingue operacionalización de prueba."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mci.v1.levels",
+          "reason": "Separa niveles de validez."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mci.vi15.limits",
+          "reason": "Delimita preguntas no respondidas."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mci.glossary.program",
+          "reason": "Registra continuidad declarada."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mci.empirical_calibration",
+        "review.mci.case_sources"
+      ]
+    },
+    {
+      "id": "route.mci.correspondence",
+      "purpose": "Auditar la sustitución autoral de isomorfismo por correspondencia formal estructural.",
+      "triggers": [
+        "correspondencia formal estructural",
+        "isomorfismo MC-I"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mci.i1.objection",
+          "reason": "Expone la objeción."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mci.i2.replacement",
+          "reason": "Declara el reemplazo."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mci.i3.definition",
+          "reason": "Define el nuevo estatuto."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mci.i14.caos_revision",
+          "reason": "Reclasifica Caos."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mci.i15.tf_revision",
+          "reason": "Reclasifica TF."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mci.retroactive_isomorphism",
+        "review.mci.integral_properties",
+        "review.mci.quantum_collapse"
+      ]
+    },
+    {
+      "id": "route.mci.phi_ego",
+      "purpose": "Contrastar medición interior, φ₁, φ₂ y actualización del ego con TF y Axiomatización.",
+      "triggers": [
+        "φ1 MC-I",
+        "φ2 MC-I",
+        "ego MC-I"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mci.i8.measurement",
+          "reason": "Distingue medición e integral."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mci.i9.phi1",
+          "reason": "Tipa φ₁."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mci.ii4.operators",
+          "reason": "Compone φ₁ y φ₂."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.tf.tres_formulas",
+          "reason": "Conserva antecedente TF."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.axiom.2.signature",
+          "reason": "Contrasta la firma axiomática."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mci.phi_typing",
+        "review.mci.unique_ego_operator",
+        "review.caos.formal_typing"
+      ]
+    },
+    {
+      "id": "route.mci.rstar",
+      "purpose": "Reconstruir definición, cálculo, validez y caso de R* sin promoverlo a resultado matemático validado.",
+      "triggers": [
+        "R* MC-I",
+        "Perron-Frobenius MC-I",
+        "centralidad MC-I"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mci.ii2.necessary",
+          "reason": "Fija necesidad declarada."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mci.ii3.graph",
+          "reason": "Define G y W."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mci.ii5.rstar",
+          "reason": "Da ecuación componente."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mci.ii6.power_pf",
+          "reason": "Da algoritmo e hipótesis."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mci.rstar_validity",
+          "reason": "Fija validez declarada."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mci.vi16.graph",
+          "reason": "Muestra aplicación."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.mci.a1.pf",
+          "reason": "Expone intento de prueba."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.mci.a3.monotonicity",
+          "reason": "Añade sensibilidad."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.rstar.sink_irreducibility",
+        "review.tf.rstar_orientation",
+        "review.axiom.rstar_sink",
+        "review.mci.graph_connectivity",
+        "review.mci.rstar_orientation",
+        "review.mci.pf_hypotheses",
+        "review.mci.normalization_closure",
+        "review.mci.pf_proof",
+        "review.mci.rstar_monotonicity"
+      ]
+    },
+    {
+      "id": "route.mci.s_rnet",
+      "purpose": "Seguir S y R* neta, incluida la restricción de no estimabilidad.",
+      "triggers": [
+        "S MC-I",
+        "R* neta MC-I",
+        "sustituibilidad MC-I"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mci.ii7.rnet",
+          "reason": "Define descuento."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mci.ii9.s_definition",
+          "reason": "Define S contrafáctico."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mci.ii10.s_ranges",
+          "reason": "Asigna rangos."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mci.ii11.designer",
+          "reason": "Fija regla del diseñador."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mci.v3.s_limit",
+          "reason": "Restringe estimabilidad."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mci.a4.calibration",
+          "reason": "Declara calibración."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.rnet_redistribution",
+        "review.tf.s_ranges",
+        "review.mci.rnet_redistribution",
+        "review.mci.s_probability",
+        "review.mci.s_ranges_calibration",
+        "review.mci.s_designer_conflict"
+      ]
+    },
+    {
+      "id": "route.mci.alpha_delta",
+      "purpose": "Auditar escala α, temporalidad, Δ y ajuste sin fusionar fórmulas históricas.",
+      "triggers": [
+        "alpha MC-I",
+        "Delta MC-I",
+        "ajuste debitorio"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mci.ii12.alpha",
+          "reason": "Fija escala."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mci.ii13.alpha_time",
+          "reason": "Añade temporalidad."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mci.ii14.delta",
+          "reason": "Define Δ."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mci.ii15.adjustment",
+          "reason": "Propone ajuste."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mci.v4.alpha_limit",
+          "reason": "Reconoce límite de observación."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mci.vi5.delta",
+          "reason": "Expone interpretación incompatible."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.axiom.5.delta",
+          "reason": "Conserva versión axiomática."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.alpha_measurement",
+        "review.tf.alpha_irreversibility",
+        "review.mci.alpha_calibration",
+        "review.mci.alpha_observability",
+        "review.mci.delta_crosswork",
+        "review.mci.delta_impossible_cases"
+      ]
+    },
+    {
+      "id": "route.mci.classifier",
+      "purpose": "Reconstruir P(Hijos), árbol, firmas y límites documentales.",
+      "triggers": [
+        "P(Hijos) MC-I",
+        "clasificador MC-I",
+        "árbol Hijos"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mci.iii1.classifier",
+          "reason": "Introduce el procedimiento."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mci.iii3.tree",
+          "reason": "Da árbol."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mci.iii2.outputs",
+          "reason": "Fija salidas y márgenes."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mci.iii4.signatures",
+          "reason": "Cuantifica firmas."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mci.iii6.harmonia",
+          "reason": "Reconoce indeterminación."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mci.iii7.contradictions",
+          "reason": "Clasifica contradicciones."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.probability_calibration",
+        "review.mci.classifier_bayesian",
+        "review.mci.classifier_thresholds",
+        "review.mci.harmonia_anesthesia"
+      ]
+    },
+    {
+      "id": "route.mci.iic_series",
+      "purpose": "Auditar IIC, modulación de W y las tres series sin asumir identidad formal.",
+      "triggers": [
+        "IIC MC-I",
+        "series metrológicas",
+        "ajuste IIC"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mci.iii9.iic",
+          "reason": "Define IIC."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mci.iv1.series",
+          "reason": "Distingue series."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mci.iv4.iic_weights",
+          "reason": "Modula pesos."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mci.iv7.identity",
+          "reason": "Afirma identidad."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mci.iv5.annona",
+          "reason": "Añade índice annona."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mci.vi14.consistency",
+          "reason": "Usa control interno."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.iic_correlation",
+        "review.tf.adjustment_circularity",
+        "review.mci.iic_definition",
+        "review.mci.iic_scale",
+        "review.mci.iic_circularity",
+        "review.mci.w_iic_bounds",
+        "review.mci.series_identity",
+        "review.mci.annona_formula"
+      ]
+    },
+    {
+      "id": "route.mci.validity_uncertainty",
+      "purpose": "Distinguir validez, incertidumbre, sensibilidad y fuerza de declaración.",
+      "triggers": [
+        "validez MC-I",
+        "incertidumbre MC-I",
+        "declaración A B C"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mci.ii16.uncertainty",
+          "reason": "Distingue incertidumbres."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mci.ii17.intervals",
+          "reason": "Construye intervalos."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mci.v1.levels",
+          "reason": "Separa niveles."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mci.v5.errors",
+          "reason": "Clasifica errores."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mci.v11.declarations",
+          "reason": "Regula comunicación."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mci.vi7.vertices",
+          "reason": "Propone evaluación."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.mci.a6.robustness",
+          "reason": "Formaliza algoritmo."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.vertex_robustness",
+        "review.axiom.rstar_intervals",
+        "review.mci.interval_widths",
+        "review.mci.declaration_a_logic",
+        "review.mci.corner_exhaustiveness",
+        "review.mci.robustness_statistic",
+        "review.mci.monte_carlo_precision"
+      ]
+    },
+    {
+      "id": "route.mci.dossier_case",
+      "purpose": "Seguir del expediente reproducible al caso aplicado y sus faltas de trazabilidad.",
+      "triggers": [
+        "expediente MC-I",
+        "caso Altamirano",
+        "aplicación MC-I"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mci.vi1.dossier",
+          "reason": "Enumera documentos."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mci.vi2.sheet",
+          "reason": "Fija calibración declarada."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mci.vi4.vector",
+          "reason": "Exige vector."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mci.vi9.declaration",
+          "reason": "Exige declaración."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mci.vi16.chain",
+          "reason": "Expone cadena."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mci.vi16.graph",
+          "reason": "Calcula grafo."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.mci.vi16.parameters",
+          "reason": "Asigna parámetros."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.mci.vi16.traceability",
+          "reason": "Afirma realidad del caso."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mci.case_sources",
+        "review.mci.altamirano_graph_pf",
+        "review.mci.altamirano_s_range",
+        "review.mci.altamirano_alpha_trace",
+        "review.mci.altamirano_external_data",
+        "review.mci.altamirano_vector_reproduction"
+      ]
+    },
+    {
+      "id": "route.mci.appendices",
+      "purpose": "Auditar por separado pruebas, calibración y algoritmos de los apéndices.",
+      "triggers": [
+        "apéndices MC-I",
+        "pruebas MC-I",
+        "calibración A4"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mci.a1.pf",
+          "reason": "Intenta probar PF."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mci.a2.spectral",
+          "reason": "Afirma convergencia espectral."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mci.a3.monotonicity",
+          "reason": "Afirma monotonicidad."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mci.a4.calibration",
+          "reason": "Declara calibración empírica."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mci.a5.duality",
+          "reason": "Declara dualidad."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mci.a6.robustness",
+          "reason": "Da algoritmo."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mci.pf_proof",
+        "review.mci.spectral_markov",
+        "review.mci.rstar_monotonicity",
+        "review.mci.empirical_calibration",
+        "review.mci.duality_proof",
+        "review.mci.monte_carlo_precision"
+      ]
+    },
+    {
+      "id": "route.mci.crosswork",
+      "purpose": "Contrastar MC-I con TF y Axiomatización conservando tipos, fórmulas y estatus históricos.",
+      "triggers": [
+        "MC-I y Transformación formal",
+        "MC-I y Axiomatización"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.tf.tres_formulas",
+          "reason": "Fija operadores TF."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mci.ii4.operators",
+          "reason": "Registra firma MC-I."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.axiom.2.signature",
+          "reason": "Conserva firma axiomática."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.tf.21.eigenvector",
+          "reason": "Fija R* con W."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mci.ii5.rstar",
+          "reason": "Añade ecuación entrante."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mci.ii6.power_pf",
+          "reason": "Añade algoritmo con W."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.axiom.6.rstar",
+          "reason": "Conserva Wᵀ."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.mci.ii9.s_definition",
+          "reason": "Cambia S a probabilidad."
+        },
+        {
+          "order": 9,
+          "evidence_id": "ev.axiom.3.sest",
+          "reason": "Conserva S por sustitución."
+        },
+        {
+          "order": 10,
+          "evidence_id": "ev.mci.ii14.delta",
+          "reason": "Conserva producto Δ."
+        },
+        {
+          "order": 11,
+          "evidence_id": "ev.axiom.5.delta",
+          "reason": "Conserva diferencia Δ."
+        },
+        {
+          "order": 12,
+          "evidence_id": "ev.mci.a4.calibration",
+          "reason": "Contrasta promesa de calibración."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.rstar_orientation",
+        "review.axiom.rstar_sink",
+        "review.mci.phi_typing",
+        "review.mci.rstar_orientation",
+        "review.mci.s_probability",
+        "review.mci.delta_crosswork",
+        "review.mci.empirical_calibration"
+      ]
     }
   ],
   "review_queue": [
@@ -26852,7 +30633,7 @@
       "status": "pending_formal_review",
       "subject": "formal.rstar",
       "question": "¿Cómo deben compatibilizarse el nodo final sumidero con fila nula y la condición de irreducibilidad/primitividad usada para la existencia, unicidad y λ₁=1 de R*?",
-      "why_not_auto_resolved": "La Definición 6 declara un nodo final sin aristas salientes y fila nula de W, mientras el Teorema 6 exige irreducibilidad sobre N y en su demostración usa W·1=1 como si toda W fuera estocástica por filas. Un sumidero con fila nula no puede alcanzar los demás nodos y su fila no suma 1. Metrología Causal V·2 vuelve a exigir irreducibilidad para la validez de R*.",
+      "why_not_auto_resolved": "La Definición 6 declara un nodo final sin aristas salientes y fila nula de W, mientras el Teorema 6 exige irreducibilidad sobre N y en su demostración usa W·1=1 como si toda W fuera estocástica por filas. Un sumidero con fila nula no puede alcanzar los demás nodos y su fila no suma 1. Metrología Causal V·2 vuelve a exigir irreducibilidad para la validez de R*. MC-I confunde fuerte conexidad con alcance del resultado y su caso aplicado conserva un terminal sin retorno.",
       "blocking": false,
       "blocking_for": [
         "software_implementation",
@@ -26860,7 +30641,8 @@
       ],
       "evidence": [
         "ev.axiom.rstar",
-        "ev.mci.rstar_validity"
+        "ev.mci.rstar_validity",
+        "ev.mci.vi16.graph"
       ]
     },
     {
@@ -29529,9 +33311,11 @@
       ],
       "evidence": [
         "ev.tf.21.eigenvector",
-        "ev.axiom.rstar"
+        "ev.axiom.rstar",
+        "ev.mci.ii5.rstar",
+        "ev.mci.ii6.power_pf"
       ],
-      "why_not_auto_resolved": "Las dos obras registran orientaciones opuestas y producen centralidades distintas.",
+      "why_not_auto_resolved": "Las dos obras registran orientaciones opuestas y producen centralidades distintas. MC-I no adjudica la diferencia: usa suma entrante en la ecuación y W en el algoritmo.",
       "related_relation": "rel.tf.rstar.differs_axiom"
     },
     {
@@ -29546,9 +33330,11 @@
       ],
       "evidence": [
         "ev.tf.21.graph",
-        "ev.tf.21.eigenvector"
+        "ev.tf.21.eigenvector",
+        "ev.mci.ii5.rstar",
+        "ev.mci.ii6.power_pf"
       ],
-      "why_not_auto_resolved": "La convención de w_ij y la interpretación verbal no eliminan la ambigüedad matricial."
+      "why_not_auto_resolved": "La convención de w_ij y la interpretación verbal no eliminan la ambigüedad matricial. La operacionalización posterior reproduce ambas orientaciones."
     },
     {
       "id": "review.tf.pf_epsilon",
@@ -29561,9 +33347,11 @@
         "empirical_application"
       ],
       "evidence": [
-        "ev.tf.21.pf_epsilon"
+        "ev.tf.21.pf_epsilon",
+        "ev.mci.rstar_validity",
+        "ev.mci.a1.pf"
       ],
-      "why_not_auto_resolved": "Añadir todas las aristas garantiza positividad a costa de introducir causalidad artificial."
+      "why_not_auto_resolved": "Añadir todas las aristas garantiza positividad a costa de introducir causalidad artificial. MC-I propone auto-bucles ε, que no corrigen la reducibilidad entre componentes."
     },
     {
       "id": "review.tf.normalization_completeness",
@@ -29577,9 +33365,10 @@
       ],
       "evidence": [
         "ev.tf.21.eigenvector",
-        "ev.tf.21.limits"
+        "ev.tf.21.limits",
+        "ev.mci.iv11.normalization"
       ],
-      "why_not_auto_resolved": "La propia obra reconoce que cualquier vector normalizado suma uno aunque falten nodos."
+      "why_not_auto_resolved": "La propia obra reconoce que cualquier vector normalizado suma uno aunque falten nodos. MC-I vuelve a usar ΣR*=1 como cierre causal, sin aportar exhaustividad externa."
     },
     {
       "id": "review.tf.shapley_uniqueness",
@@ -29624,9 +33413,11 @@
       ],
       "evidence": [
         "ev.tf.22.child_ranges",
-        "ev.tf.22.limit_calibration"
+        "ev.tf.22.limit_calibration",
+        "ev.mci.ii10.s_ranges",
+        "ev.mci.a4.calibration"
       ],
-      "why_not_auto_resolved": "La obra los declara coherentes y provisionales, no validados."
+      "why_not_auto_resolved": "La obra los declara coherentes y provisionales, no validados. MC-I repite intervalos y llama empírico a A·4, pero sigue sin presentar datos."
     },
     {
       "id": "review.tf.rnet_redistribution",
@@ -29640,9 +33431,10 @@
       ],
       "evidence": [
         "ev.tf.21.rnet",
-        "ev.tf.22.rnet"
+        "ev.tf.22.rnet",
+        "ev.mci.ii7.rnet"
       ],
-      "why_not_auto_resolved": "La fórmula reduce la suma y no especifica destino ni interpretación de la diferencia."
+      "why_not_auto_resolved": "La fórmula reduce la suma y no especifica destino ni interpretación de la diferencia. MC-I afirma migración al diseñador pero no la incorpora a la ecuación."
     },
     {
       "id": "review.tf.rstar_benefit",
@@ -29687,9 +33479,11 @@
       ],
       "evidence": [
         "ev.tf.23.alpha_scale",
-        "ev.tf.43.instrument_boundaries"
+        "ev.tf.43.instrument_boundaries",
+        "ev.mci.ii12.alpha",
+        "ev.mci.v4.alpha_limit"
       ],
-      "why_not_auto_resolved": "La escala combina niveles ontológicos y clínicos sin instrumento validado."
+      "why_not_auto_resolved": "La escala combina niveles ontológicos y clínicos sin instrumento validado. MC-I fija una escala y reconoce a la vez que α no es directamente observable."
     },
     {
       "id": "review.tf.alpha_comparability",
@@ -29718,9 +33512,11 @@
         "doctrinal_use"
       ],
       "evidence": [
-        "ev.tf.23.alpha_time"
+        "ev.tf.23.alpha_time",
+        "ev.mci.i4.integral",
+        "ev.mci.ii13.alpha_time"
       ],
-      "why_not_auto_resolved": "El texto distingue acceso actual de contenido histórico, pero no formaliza ambos estados."
+      "why_not_auto_resolved": "El texto distingue acceso actual de contenido histórico, pero no formaliza ambos estados. La obra conserva irreversibilidad histórica y variación de acceso sin formalizar dos estados."
     },
     {
       "id": "review.tf.aego_crosswalk",
@@ -29800,9 +33596,10 @@
       ],
       "evidence": [
         "ev.tf.31.iic_definition",
-        "ev.tf.31.iic_protocol"
+        "ev.tf.31.iic_protocol",
+        "ev.mci.iii9.iic"
       ],
-      "why_not_auto_resolved": "La correlación de Pearson requiere decisiones de medición y supuestos ausentes."
+      "why_not_auto_resolved": "La correlación de Pearson requiere decisiones de medición y supuestos ausentes. MC-I añade un promedio por dimensiones, pero no define las series requeridas por corr."
     },
     {
       "id": "review.tf.iic_scale",
@@ -29815,9 +33612,11 @@
         "software_implementation"
       ],
       "evidence": [
-        "ev.tf.31.iic_scale"
+        "ev.tf.31.iic_scale",
+        "ev.mci.iii9.iic",
+        "ev.mci.a4.calibration"
       ],
-      "why_not_auto_resolved": "Los intervalos descriptivos se solapan en cero y no tienen calibración."
+      "why_not_auto_resolved": "Los intervalos descriptivos se solapan en cero y no tienen calibración. Los nuevos rangos tampoco incluyen un estudio calibrador trazable."
     },
     {
       "id": "review.tf.iic_aego_reverse",
@@ -29894,9 +33693,11 @@
       "evidence": [
         "ev.tf.31.w_adjustment",
         "ev.tf.32.iic_s",
-        "ev.tf.32.w_gap"
+        "ev.tf.32.w_gap",
+        "ev.mci.iv4.iic_weights",
+        "ev.mci.vi14.consistency"
       ],
-      "why_not_auto_resolved": "Los observables alimentan parámetros que luego explican los mismos patrones."
+      "why_not_auto_resolved": "Los observables alimentan parámetros que luego explican los mismos patrones. MC-I operacionaliza el bucle IIC→W→R* y luego usa coherencia interna como control."
     },
     {
       "id": "review.tf.beta_default",
@@ -30008,9 +33809,11 @@
       ],
       "evidence": [
         "ev.tf.42.child_probability",
-        "ev.tf.42.case_errors"
+        "ev.tf.42.case_errors",
+        "ev.mci.iii1.classifier",
+        "ev.mci.iii4.signatures"
       ],
-      "why_not_auto_resolved": "Se propone distribución sin datos, concentración ni tratamiento de ceros."
+      "why_not_auto_resolved": "Se propone distribución sin datos, concentración ni tratamiento de ceros. El clasificador llamado bayesiano no aporta tasas base ni verosimilitudes."
     },
     {
       "id": "review.tf.interval_mixture",
@@ -30055,9 +33858,11 @@
       ],
       "evidence": [
         "ev.tf.41.declarations",
-        "ev.tf.42.sensitivity_methods"
+        "ev.tf.42.sensitivity_methods",
+        "ev.mci.vi7.vertices",
+        "ev.mci.a6.robustness"
       ],
-      "why_not_auto_resolved": "El texto alterna cuatro esquinas, 2^n y muestreo; solo el examen exhaustivo sostiene universalidad finita."
+      "why_not_auto_resolved": "El texto alterna cuatro esquinas, 2^n y muestreo; solo el examen exhaustivo sostiene universalidad finita. MC-I alterna de nuevo esquinas y Monte Carlo y atribuye exhaustividad donde puede haber cruces interiores."
     },
     {
       "id": "review.tf.priority_formula",
@@ -30341,9 +34146,10 @@
         "software_implementation"
       ],
       "evidence": [
-        "ev.axiom.2.irreversibility"
+        "ev.axiom.2.irreversibility",
+        "ev.mci.i4.integral"
       ],
-      "why_not_auto_resolved": "Un integrando vectorial no nulo en medida positiva puede integrar cero; el paso fundamental invocado es falso."
+      "why_not_auto_resolved": "Un integrando vectorial no nulo en medida positiva puede integrar cero; el paso fundamental invocado es falso. MC-I trata irreversibilidad y memoria como propiedades de la integral sin añadir hipótesis que impidan cancelación."
     },
     {
       "id": "review.axiom.phi2_integration",
@@ -30518,9 +34324,11 @@
       ],
       "evidence": [
         "ev.axiom.6.graph",
-        "ev.axiom.6.pf"
+        "ev.axiom.6.pf",
+        "ev.mci.rstar_validity",
+        "ev.mci.vi16.graph"
       ],
-      "why_not_auto_resolved": "El sumidero no alcanza otros nodos y W no es estocástica en su última fila; las hipótesis del teorema son incompatibles."
+      "why_not_auto_resolved": "El sumidero no alcanza otros nodos y W no es estocástica en su última fila; las hipótesis del teorema son incompatibles. MC-I no resuelve la incompatibilidad y la reproduce en el caso aplicado."
     },
     {
       "id": "review.axiom.epsilon_dimension",
@@ -30534,9 +34342,10 @@
       ],
       "evidence": [
         "ev.axiom.6.pf",
-        "ev.axiom.6.power"
+        "ev.axiom.6.power",
+        "ev.mci.rstar_validity"
       ],
-      "why_not_auto_resolved": "W tiene dimensión n+1; la normalización escrita puede no preservar filas y añade aristas inexistentes."
+      "why_not_auto_resolved": "W tiene dimensión n+1; la normalización escrita puede no preservar filas y añade aristas inexistentes. MC-I cambia a ε diagonal, que tampoco crea fuerte conexidad."
     },
     {
       "id": "review.axiom.rstar_intervals",
@@ -30550,9 +34359,11 @@
         "empirical_application"
       ],
       "evidence": [
-        "ev.axiom.6.intervals"
+        "ev.axiom.6.intervals",
+        "ev.mci.vi7.vertices",
+        "ev.mci.a6.robustness"
       ],
-      "why_not_auto_resolved": "Los extremos pueden violar la suma por fila y los autovectores no son monótonos en todos los pesos simultáneamente."
+      "why_not_auto_resolved": "Los extremos pueden violar la suma por fila y los autovectores no son monótonos en todos los pesos simultáneamente. La obra posterior generaliza el examen de extremos sin demostrar monotonicidad del ranking."
     },
     {
       "id": "review.axiom.consistency_claim",
@@ -30769,9 +34580,11 @@
       "evidence": [
         "ev.axiom.b.cases",
         "ev.axiom.b.mechanisms",
-        "ev.axiom.b.levels"
+        "ev.axiom.b.levels",
+        "ev.mci.a4.calibration",
+        "ev.mci.vi16.traceability"
       ],
-      "why_not_auto_resolved": "La tabla ofrece cifras y atribuciones sin referencias bibliográficas, datos ni protocolo reproducible dentro del corpus auditado."
+      "why_not_auto_resolved": "La tabla ofrece cifras y atribuciones sin referencias bibliográficas, datos ni protocolo reproducible dentro del corpus auditado. MC-I vuelve a declarar calibración y casos reales sin incorporar datos o expedientes reproducibles."
     },
     {
       "id": "review.axiom.calibration_circularity",
@@ -30865,6 +34678,837 @@
         "ev.axiom.d.bifurcation"
       ],
       "why_not_auto_resolved": "Con primitividad todo nodo ya tiene R*>0, por lo que el soporte completo impide la bifurcación definida; sin primitividad PF no da la conclusión."
+    },
+    {
+      "id": "review.mci.retroactive_isomorphism",
+      "subject": "formulation.mci.structural_correspondence",
+      "question": "¿La reclasificación retrospectiva autoriza sustituir los usos históricos de identidad/isomorfismo o solo limita su lectura en MC-I?",
+      "status": "pending_authorial_adjudication",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "doctrinal_use"
+      ],
+      "evidence": [
+        "ev.mci.i14.caos_revision",
+        "ev.mci.i15.tf_revision"
+      ],
+      "why_not_auto_resolved": "MC-I declara que los argumentos anteriores sobreviven al cambio terminológico, pero no proporciona las aplicaciones preservadoras ni corrige los textos fuente."
+    },
+    {
+      "id": "review.mci.integral_properties",
+      "subject": "formulation.mci.integral_correspondence",
+      "question": "¿Qué objeto matemático sostiene irreversibilidad, memoria perfecta y dependencia del orden?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.i4.integral"
+      ],
+      "why_not_auto_resolved": "Una integral ordinaria puede cancelarse, su valor escalar no codifica toda la trayectoria y la suma/integración ordinaria no depende del orden bajo las hipótesis usuales."
+    },
+    {
+      "id": "review.mci.quantum_collapse",
+      "subject": "formulation.mci.quantum_scope",
+      "question": "¿Qué estatuto físico tiene el colapso irreversible usado en la correspondencia cuántica?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "scientific_use"
+      ],
+      "evidence": [
+        "ev.mci.i5.quantum_scope"
+      ],
+      "why_not_auto_resolved": "La obra restringe amplitudes y cálculo, pero sigue tratando el colapso como rasgo estructural sin adjudicar interpretaciones que lo niegan."
+    },
+    {
+      "id": "review.mci.unique_ego_operator",
+      "subject": "formulation.mci.internal_measurement",
+      "question": "¿Qué soporte permite afirmar que el ego es el único sistema con operador de colapso interno?",
+      "status": "pending_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "scientific_use"
+      ],
+      "evidence": [
+        "ev.mci.i9.phi1",
+        "ev.mci.segment.capitulo_01_10"
+      ],
+      "why_not_auto_resolved": "La universalidad comparativa se afirma sin dominio de sistemas, criterio de equivalencia ni revisión empírica."
+    },
+    {
+      "id": "review.mci.phi_typing",
+      "subject": "formal.mci.ego_update",
+      "question": "¿Cómo se tipan conjuntamente I(t), I, I′ y Ego(t+1), y cómo migran a E en Axiomatización?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.ii4.operators",
+        "ev.axiom.2.signature",
+        "ev.axiom.2.integral"
+      ],
+      "why_not_auto_resolved": "MC-I vuelve a usar I como valor, espacio y estado; Axiomatización usa E, pero no demuestra una traducción entre ambos."
+    },
+    {
+      "id": "review.mci.necessary_eigenvector",
+      "subject": "formal.mci.necessary_node",
+      "question": "¿La centralidad espectral positiva demuestra necesidad causal contrafáctica?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.mci.ii2.necessary",
+        "ev.mci.ii5.rstar"
+      ],
+      "why_not_auto_resolved": "La positividad o centralidad de un autovector no implica que retirar el nodo haga imposible la forma del resultado."
+    },
+    {
+      "id": "review.mci.graph_connectivity",
+      "subject": "formal.mci.G",
+      "question": "¿Cómo puede un grafo causal orientado a un resultado terminal ser irreducible o fuertemente conexo sin añadir causalidad inversa?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.ii3.graph",
+        "ev.mci.rstar_validity",
+        "ev.mci.vi16.graph"
+      ],
+      "why_not_auto_resolved": "La exigencia de caminos al resultado no equivale a fuerte conexidad; añadir aristas para lograrla cambia la semántica causal."
+    },
+    {
+      "id": "review.mci.rstar_orientation",
+      "subject": "formal.mci.rstar",
+      "question": "¿Debe la iteración usar W o Wᵀ bajo w_ij:i→j?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.mci.ii5.rstar",
+        "ev.mci.ii6.power_pf"
+      ],
+      "why_not_auto_resolved": "La ecuación componente usa pesos entrantes, mientras el algoritmo escrito multiplica por W; ambas orientaciones no coinciden en general."
+    },
+    {
+      "id": "review.mci.pf_hypotheses",
+      "subject": "formal.mci.rstar",
+      "question": "¿Qué hipótesis exactas garantizan positividad, unicidad y dominancia estricta?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.ii6.power_pf",
+        "ev.mci.a1.pf"
+      ],
+      "why_not_auto_resolved": "Irreducibilidad no basta para dominancia estricta; se requiere primitividad/aperiodicidad, y el apéndice alterna ambas afirmaciones."
+    },
+    {
+      "id": "review.mci.rnet_redistribution",
+      "subject": "formal.mci.rstar_net",
+      "question": "¿Dónde se asigna la fracción R*S descontada y cómo se evita doble conteo del diseñador?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.mci.ii7.rnet"
+      ],
+      "why_not_auto_resolved": "El producto reduce masa pero no la redistribuye; afirmar que migra al diseñador no se deriva de la fórmula."
+    },
+    {
+      "id": "review.mci.benefit_symmetry",
+      "subject": "formal.mci.rstar_b",
+      "question": "¿La reutilización del operador prueba comparabilidad causal entre daño y beneficio?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.mci.ii8.benefit",
+        "ev.mci.a5.duality"
+      ],
+      "why_not_auto_resolved": "Aplicar la misma función a matrices distintas solo establece simetría sintáctica, no validez ni equivalencia ontológica."
+    },
+    {
+      "id": "review.mci.s_probability",
+      "subject": "formal.mci.S",
+      "question": "¿Qué modelo probabilístico, población y estimador definen P(D|c,sin i)?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.ii9.s_definition",
+        "ev.mci.v3.s_limit"
+      ],
+      "why_not_auto_resolved": "No se especifican espacio muestral, distribución, datos ni identificación contrafáctica."
+    },
+    {
+      "id": "review.mci.s_ranges_calibration",
+      "subject": "formulation.mci.s_ranges",
+      "question": "¿Qué datos calibran los intervalos S por Hijo?",
+      "status": "pending_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "clinical_application"
+      ],
+      "evidence": [
+        "ev.mci.ii10.s_ranges",
+        "ev.mci.a4.calibration"
+      ],
+      "why_not_auto_resolved": "La derivación se denomina ontológica y A·4 no aporta muestra, observaciones ni estimador."
+    },
+    {
+      "id": "review.mci.s_designer_conflict",
+      "subject": "formulation.mci.s_nonestimable",
+      "question": "¿Debe S del diseñador fijarse en cero o declararse no estimable cuando retirarlo altera c?",
+      "status": "pending_authorial_adjudication",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.mci.ii11.designer",
+        "ev.mci.v3.s_limit"
+      ],
+      "why_not_auto_resolved": "Dos capítulos dan tratamientos distintos; S=0 aparece tanto como construcción como convención conservadora, no como estimación."
+    },
+    {
+      "id": "review.mci.alpha_calibration",
+      "subject": "formal.mci.alpha",
+      "question": "¿Qué calibración sostiene los puntos 0,.33,.67,.90 y los umbrales narrativos?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "clinical_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.ii12.alpha",
+        "ev.mci.v4.alpha_limit",
+        "ev.mci.a4.calibration"
+      ],
+      "why_not_auto_resolved": "Los valores se presentan como escala operativa, pero no hay estudio de fiabilidad, validez ni función de enlace a observables."
+    },
+    {
+      "id": "review.mci.alpha_observability",
+      "subject": "formal.mci.alpha",
+      "question": "¿Cómo discrimina ECO integración real de relato estratégicamente coherente?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "clinical_application"
+      ],
+      "evidence": [
+        "ev.mci.v4.alpha_limit"
+      ],
+      "why_not_auto_resolved": "MC-I reconoce que α no es observable y que la narrativa puede imitar integración; ECO se propone como mejor aproximación sin validación independiente."
+    },
+    {
+      "id": "review.mci.delta_crosswork",
+      "subject": "formal.mci.delta",
+      "question": "¿Qué relación existe entre R*(1−α), R*−α y las anteriores nociones clínicas de Aego/evasión?",
+      "status": "pending_authorial_adjudication",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "doctrinal_use",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.ii14.delta",
+        "ev.tf.24.delta_states",
+        "ev.axiom.5.delta"
+      ],
+      "why_not_auto_resolved": "Las expresiones tienen distinto rango y signo; MC-I reutiliza la versión de TF sin adjudicar la sustitución axiomática."
+    },
+    {
+      "id": "review.mci.delta_impossible_cases",
+      "subject": "formal.mci.delta",
+      "question": "¿Cómo puede Δ ser negativa o combinarse R* bajo con Δ alto bajo Δ=R*(1−α)?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.ii14.delta",
+        "ev.mci.vi5.delta"
+      ],
+      "why_not_auto_resolved": "Con R*,α∈[0,1], Δ es no negativa y no supera R*; las interpretaciones de VI·5 requieren otro objeto o una fórmula distinta."
+    },
+    {
+      "id": "review.mci.uncertainty_percentages",
+      "subject": "concept.mci.uncertainty",
+      "question": "¿Qué evidencia sostiene que los pesos suelen variar entre 15% y 25%?",
+      "status": "pending_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.mci.ii16.uncertainty"
+      ],
+      "why_not_auto_resolved": "La obra aporta porcentajes típicos sin corpus, muestra, distribución ni fuente."
+    },
+    {
+      "id": "review.mci.interval_widths",
+      "subject": "formal.mci.weight_intervals",
+      "question": "¿Cómo se fijan anchuras de intervalos y dependencias entre pesos?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.ii17.intervals",
+        "ev.mci.vi2.sheet"
+      ],
+      "why_not_auto_resolved": "La consistencia con evidencia y las anchuras por tipo documental no se traducen en una regla reproducible ni preservan restricciones conjuntas."
+    },
+    {
+      "id": "review.mci.declaration_a_logic",
+      "subject": "formal.mci.declaration",
+      "question": "¿Qué condición refuta una Declaración A y cómo se tratan puntos interiores del dominio?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.ii17.intervals",
+        "ev.mci.vi13.breakpoints"
+      ],
+      "why_not_auto_resolved": "MC-I exige en un pasaje salir del intervalo para refutar A, aunque basta una combinación incluida que cambie el orden; otros pasajes también relegan rupturas interiores."
+    },
+    {
+      "id": "review.mci.classifier_bayesian",
+      "subject": "method.mci.children_classifier",
+      "question": "¿En qué sentido el clasificador es bayesiano?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.iii1.classifier",
+        "ev.mci.iii4.signatures"
+      ],
+      "why_not_auto_resolved": "No se definen tasas base, verosimilitudes, posterior, entrenamiento ni evaluación predictiva."
+    },
+    {
+      "id": "review.mci.classifier_thresholds",
+      "subject": "method.mci.children_classifier",
+      "question": "¿Qué calibración justifica márgenes .15/.30 e incrementos documentales?",
+      "status": "pending_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "clinical_application"
+      ],
+      "evidence": [
+        "ev.mci.iii2.outputs",
+        "ev.mci.iii4.signatures"
+      ],
+      "why_not_auto_resolved": "Los umbrales y aportes numéricos aparecen como referencia sin conjunto etiquetado ni análisis de error."
+    },
+    {
+      "id": "review.mci.harmonia_anesthesia",
+      "subject": "method.mci.children_classifier",
+      "question": "¿Puede la documentación distinguir Harmonía de anestesia o sumisión adaptativa?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_application",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.mci.iii6.harmonia"
+      ],
+      "why_not_auto_resolved": "La propia obra admite que esa distinción no es resoluble documentalmente, por lo que no debe convertirse en clasificación confirmada."
+    },
+    {
+      "id": "review.mci.iic_definition",
+      "subject": "formal.mci.IIC",
+      "question": "¿Qué significa corr para un expediente o protocolo cualitativo individual?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.iii9.iic"
+      ],
+      "why_not_auto_resolved": "La correlación requiere observaciones emparejadas y variación; promediar dimensiones cualitativas no define por sí solo esas series."
+    },
+    {
+      "id": "review.mci.iic_scale",
+      "subject": "formulation.mci.iic_scale",
+      "question": "¿Qué evidencia sostiene rangos y valores típicos de IIC?",
+      "status": "pending_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.iii9.iic",
+        "ev.mci.a4.calibration"
+      ],
+      "why_not_auto_resolved": "No hay datos, distribución de referencia ni estudio de sensibilidad de los cortes."
+    },
+    {
+      "id": "review.mci.iic_circularity",
+      "subject": "formal.mci.w_iic",
+      "question": "¿IIC puede modificar W y después usarse para corroborar R* calculado con W?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.mci.iii9.iic",
+        "ev.mci.iv4.iic_weights",
+        "ev.mci.vi14.consistency"
+      ],
+      "why_not_auto_resolved": "El mismo patrón conductual puede alimentar IIC, ajustar pesos y reaparecer como control de coherencia del resultado."
+    },
+    {
+      "id": "review.mci.w_iic_bounds",
+      "subject": "formal.mci.w_iic",
+      "question": "¿Qué valor de k preserva w_ij∈[0,1] y cómo se estima?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.iv4.iic_weights",
+        "ev.mci.ii3.graph"
+      ],
+      "why_not_auto_resolved": "k no se fija y el producto puede superar uno, contradiciendo el rango declarado de W."
+    },
+    {
+      "id": "review.mci.series_identity",
+      "subject": "formulation.mci.series",
+      "question": "¿Las tres series usan realmente el mismo grafo y operador?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "doctrinal_use"
+      ],
+      "evidence": [
+        "ev.mci.iv1.series",
+        "ev.mci.iv4.iic_weights",
+        "ev.mci.iv7.identity"
+      ],
+      "why_not_auto_resolved": "La serie exterior admite aristas prospectivas y pesos modulados por IIC; esas transformaciones impiden identidad literal con las demás."
+    },
+    {
+      "id": "review.mci.annona_formula",
+      "subject": "formal.mci.fraud_annona",
+      "question": "¿Qué constructo, unidades y evidencia validan R*(1−α)(1−IIC)?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_application",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.mci.iv5.annona",
+        "ev.mci.a4.calibration"
+      ],
+      "why_not_auto_resolved": "La fórmula es nueva en MC-I y no se acompaña de derivación, identificación, calibración ni validación predictiva."
+    },
+    {
+      "id": "review.mci.normalization_closure",
+      "subject": "formal.mci.rstar",
+      "question": "¿ΣR*=1 prueba cierre o exhaustividad causal?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.mci.iv11.normalization"
+      ],
+      "why_not_auto_resolved": "La suma unitaria resulta de normalizar cualquier vector no nulo y no demuestra que el grafo incluya todas las causas relevantes."
+    },
+    {
+      "id": "review.mci.irreducibility_definition",
+      "subject": "method.mci.validity_levels",
+      "question": "¿Se exige fuerte conexidad o solo que cada nodo alcance el resultado?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.rstar_validity"
+      ],
+      "why_not_auto_resolved": "MC-I presenta ambas condiciones como equivalentes, pero un grafo dirigido al sumidero puede satisfacer la segunda y no la primera."
+    },
+    {
+      "id": "review.mci.epsilon_diagonal",
+      "subject": "formal.mci.rstar",
+      "question": "¿Añadir ε a la diagonal corrige reducibilidad sin alterar el resultado causal?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.rstar_validity"
+      ],
+      "why_not_auto_resolved": "Los auto-bucles no conectan componentes, y la perturbación puede cambiar el autovector; la invariancia sustantiva se afirma sin prueba."
+    },
+    {
+      "id": "review.mci.temporal_layering",
+      "subject": "method.mci.time_expansion",
+      "question": "¿Cómo se eligen capas temporales y se trasladan los pesos originales?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.v8.cycles"
+      ],
+      "why_not_auto_resolved": "La expansión se propone como remedio, pero no especifica discretización, aristas intertemporales ni preservación de magnitudes."
+    },
+    {
+      "id": "review.mci.correction_propagation",
+      "subject": "method.mci.validity_levels",
+      "question": "¿Por qué corregir S requiere recalcular R* si el operador definido para R* no depende de S?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.v6.propagation",
+        "ev.mci.ii5.rstar",
+        "ev.mci.ii9.s_definition"
+      ],
+      "why_not_auto_resolved": "La dependencia se ordena en V·6 pero no aparece en la definición de R*, salvo que S cambie W mediante un paso no especificado."
+    },
+    {
+      "id": "review.mci.shapley_value_function",
+      "subject": "formal.mci.shapley",
+      "question": "¿Cómo se define v(S) causal y se comparan coaliciones entre roles heterogéneos?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.v7.shapley"
+      ],
+      "why_not_auto_resolved": "Sin función de valor observable, la fórmula de Shapley no produce una atribución; la obra reconoce además coste 2^n."
+    },
+    {
+      "id": "review.mci.discount_rate",
+      "subject": "concept.mci.application_limits",
+      "question": "¿Qué tasa de descuento temporal debe usar el instrumento?",
+      "status": "pending_human_decision",
+      "blocking": false,
+      "blocking_for": [
+        "economic_application",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.mci.v9.discount"
+      ],
+      "why_not_auto_resolved": "MC-I declara expresamente que no tiene respuesta técnica interna y que elegirla es una decisión de valor."
+    },
+    {
+      "id": "review.mci.midpoint_probability",
+      "subject": "method.mci.dossier",
+      "question": "¿Cuándo el punto medio de un intervalo es el valor más probable?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.mci.vi4.midpoint"
+      ],
+      "why_not_auto_resolved": "Sin distribución o función de pérdida, el punto medio es una convención, no un estimador modal o probabilístico."
+    },
+    {
+      "id": "review.mci.corner_exhaustiveness",
+      "subject": "formal.mci.robustness",
+      "question": "¿Centro y vértices bastan para garantizar estabilidad de un ranking espectral?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.vi7.vertices",
+        "ev.mci.vi13.breakpoints",
+        "ev.mci.a6.robustness"
+      ],
+      "why_not_auto_resolved": "La dependencia no lineal del autovector permite cruces y extremos interiores; revisar esquinas no establece universalidad sobre el hipercubo."
+    },
+    {
+      "id": "review.mci.robustness_statistic",
+      "subject": "formal.mci.robustness",
+      "question": "¿Qué probabilidad o frecuencia define ρ y cómo se traduce a A/B/C?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.vi7.thresholds",
+        "ev.mci.a6.robustness"
+      ],
+      "why_not_auto_resolved": "A·6 escribe una frecuencia por pares que no depende del parámetro minimizado y usa un criterio ρ(0.90)≥1.00 sin definición coherente."
+    },
+    {
+      "id": "review.mci.monte_carlo_precision",
+      "subject": "formal.mci.robustness",
+      "question": "¿500 muestras garantizan error estándar menor que .02?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.a6.robustness"
+      ],
+      "why_not_auto_resolved": "Para una proporción cercana a .5, el máximo aproximado con n=500 es 0.0224; además, error muestral no convierte muestreo en prueba universal."
+    },
+    {
+      "id": "review.mci.case_sources",
+      "subject": "case.mci.altamirano",
+      "question": "¿Dónde están el expediente, la selección documental y los datos que permiten reproducir el caso?",
+      "status": "pending_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "source_attribution",
+        "empirical_application",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.mci.vi16.traceability",
+        "ev.mci.vi16.chain"
+      ],
+      "why_not_auto_resolved": "La obra afirma que el caso y los valores son reales, pero el corpus no incluye los documentos subyacentes ni referencias verificables."
+    },
+    {
+      "id": "review.mci.altamirano_graph_pf",
+      "subject": "formal.mci.altamirano_graph",
+      "question": "¿Cómo satisface el grafo del caso la fuerte conexidad y produce el vector reportado?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.mci.vi16.graph",
+        "ev.mci.rstar_validity"
+      ],
+      "why_not_auto_resolved": "El nodo de resultado es terminal y el actor que conecta con él no retorna a los demás; las hipótesis PF declaradas no se cumplen."
+    },
+    {
+      "id": "review.mci.altamirano_s_range",
+      "subject": "case.mci.altamirano",
+      "question": "¿Cómo se justifica S=.08 para un actor clasificado como Fobos frente a los intervalos teóricos de la obra?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.mci.vi16.parameters",
+        "ev.mci.ii10.s_ranges"
+      ],
+      "why_not_auto_resolved": "El ajuste por acceso produce un valor fuera del rango presentado para Fobos sin regla de transformación calibrada."
+    },
+    {
+      "id": "review.mci.altamirano_alpha_trace",
+      "subject": "case.mci.altamirano",
+      "question": "¿Puede α de un actor inferirse de una frase atribuida a otro actor?",
+      "status": "pending_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.mci.vi16.parameters"
+      ],
+      "why_not_auto_resolved": "La evidencia citada en la aplicación no pertenece al sujeto cuyo grado de integración se estima."
+    },
+    {
+      "id": "review.mci.altamirano_external_data",
+      "subject": "case.mci.altamirano",
+      "question": "¿Qué fuente sostiene percentiles salariales y la cuantificación monetaria del daño?",
+      "status": "pending_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "source_attribution",
+        "empirical_application",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.mci.vi16.traceability",
+        "ev.mci.vi16.parameters"
+      ],
+      "why_not_auto_resolved": "No se identifica conjunto salarial, fecha, mercado, método de comparación ni documento incorporado al corpus."
+    },
+    {
+      "id": "review.mci.pf_proof",
+      "subject": "formulation.mci.pf_proof",
+      "question": "¿A·1 demuestra existencia, simplicidad, unicidad y convergencia bajo las hipótesis declaradas?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.mci.a1.pf"
+      ],
+      "why_not_auto_resolved": "El argumento de Brouwer no prueba que el valor sea el radio espectral ni su simplicidad; la unicidad presupone un dato que no establece."
+    },
+    {
+      "id": "review.mci.spectral_markov",
+      "subject": "formulation.mci.spectral_claims",
+      "question": "¿Cuándo existe la descomposición usada y cuándo W/ρ es una matriz de Markov?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.a2.spectral"
+      ],
+      "why_not_auto_resolved": "Una matriz no negativa puede no ser diagonalizable y dividir por el radio espectral no normaliza las sumas por fila."
+    },
+    {
+      "id": "review.mci.rstar_monotonicity",
+      "subject": "formulation.mci.monotonicity",
+      "question": "¿Aumentar una arista entrante aumenta necesariamente la componente normalizada R*_i?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.mci.a3.monotonicity"
+      ],
+      "why_not_auto_resolved": "La perturbación afecta todas las componentes y la normalización; la fórmula derivativa omite el resolvente reducido y no prueba el signo general."
+    },
+    {
+      "id": "review.mci.empirical_calibration",
+      "subject": "method.mci.empirical_calibration",
+      "question": "¿Qué estudio empírico produjo los rangos de A·4?",
+      "status": "pending_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "source_attribution",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.mci.a4.calibration"
+      ],
+      "why_not_auto_resolved": "No se aportan muestra, datos, criterios de inclusión, codificación, estimador, incertidumbre ni validación externa."
+    },
+    {
+      "id": "review.mci.duality_proof",
+      "subject": "formulation.mci.duality",
+      "question": "¿La identidad del operador valida causalidad y beneficio como medidas duales?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "doctrinal_use"
+      ],
+      "evidence": [
+        "ev.mci.a5.duality"
+      ],
+      "why_not_auto_resolved": "Compartir una forma matemática no demuestra que las matrices estén bien construidas ni que sus resultados sean comparables."
+    },
+    {
+      "id": "review.mci.altamirano_vector_reproduction",
+      "subject": "formal.mci.altamirano_vector",
+      "question": "¿Qué matriz y orientación reproducen el vector numérico publicado para el caso?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.mci.vi16.graph",
+        "ev.mci.vi16.parameters",
+        "ev.mci.ii5.rstar",
+        "ev.mci.ii6.power_pf"
+      ],
+      "why_not_auto_resolved": "Con los puntos medios de las siete aristas, ni el autovector principal normalizado de W ni el de Wᵀ —incluyendo o excluyendo el resultado terminal— coincide con (.308,.118,.381,.193); la obra no publica una matriz transformada que produzca esos cuatro valores."
     }
   ],
   "tests": [
