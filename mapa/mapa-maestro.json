@@ -1,9 +1,9 @@
 {
-  "map_version": "1.9.0",
+  "map_version": "2.0.0",
   "schema_status": "frozen",
   "phase": "F3",
   "purpose": "Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.",
-  "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 quedó cerrada con la integración sistemática de Caos, Afrodita Areia I–V, El dilema de Aquiles, El juego de las máscaras y El telar de las Moiras, auditados por sus unidades editoriales; se conservan diferencias ontológicas, psicológicas, jurídicas, políticas, formales, empíricas, normativas y editoriales pendientes de adjudicación. La fase operativa siguiente es F3: formalización y metrología.",
+  "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 quedó cerrada con nueve obras integradas sistemáticamente y sus diferencias heredadas preservadas. F3 incorpora ya La transformación formal por sus 19 unidades editoriales: registra objetos, dependencias, supuestos, correspondencias ontológicas, cambios de tipado, límites y problemas con el estatuto que la fuente permite, sin convertir la formalización autoral en validación matemática. La siguiente obra de F3 es Axiomatización del Paradigma de Autodeterminación Causal.",
   "works": [
     {
       "id": "CAOS",
@@ -101,22 +101,22 @@
       "work_id": "TRANSFORMACION-FORMAL",
       "segment": "corpus/libros/transformacion-formal/01-prologo.md",
       "source_lines": [
-        373,
-        817
+        401,
+        552
       ],
-      "section": "Prólogo · II. Las tres fórmulas del sistema",
-      "evidence_type": "primary_text"
+      "section": "Prólogo · tres estadios y sus fórmulas",
+      "evidence_type": "authorial_formalization"
     },
     {
       "id": "ev.tf.correspondencias",
       "work_id": "TRANSFORMACION-FORMAL",
       "segment": "corpus/libros/transformacion-formal/01-prologo.md",
       "source_lines": [
-        373,
-        817
+        686,
+        748
       ],
-      "section": "Prólogo · IV. Tabla de correspondencias terminológicas",
-      "evidence_type": "authorial_correspondence_table"
+      "section": "Prólogo · tabla de correspondencias",
+      "evidence_type": "authorial_crosswalk"
     },
     {
       "id": "ev.axiom.phi1",
@@ -5331,6 +5331,1106 @@
       ],
       "section": "Apéndice II · cronología de autores",
       "evidence_type": "editorial_evidence"
+    },
+    {
+      "id": "ev.tf.prelim.architecture",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/00-preliminares.md",
+      "source_lines": [
+        25,
+        360
+      ],
+      "section": "Preliminares · arquitectura y programa",
+      "evidence_type": "editorial_evidence"
+    },
+    {
+      "id": "ev.tf.prologue.children",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/01-prologo.md",
+      "source_lines": [
+        553,
+        685
+      ],
+      "section": "Prólogo · variables v_t y sistema de los Hijos",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.tf.prologue.c_internal",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/01-prologo.md",
+      "source_lines": [
+        749,
+        782
+      ],
+      "section": "Prólogo · c como sesgo interno acumulado",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.tf.prologue.identity_claim",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/01-prologo.md",
+      "source_lines": [
+        783,
+        817
+      ],
+      "section": "Prólogo · tesis de identidad interior/exterior",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.tf.11.perspectives",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-01-01.md",
+      "source_lines": [
+        818,
+        1030
+      ],
+      "section": "1.1 · perspectivas interior y exterior",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.tf.11.isomorphism",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-01-01.md",
+      "source_lines": [
+        1031,
+        1165
+      ],
+      "section": "1.1 · identidad e isomorfismo declarados",
+      "evidence_type": "authorial_claim"
+    },
+    {
+      "id": "ev.tf.11.imputation_phi2",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-01-01.md",
+      "source_lines": [
+        1166,
+        1245
+      ],
+      "section": "1.1 · imputación colectiva y φ₂ individual",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.tf.11.rstar_delta",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-01-01.md",
+      "source_lines": [
+        1246,
+        1348
+      ],
+      "section": "1.1 · R*, α y Δ",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.12.identity_types",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-01-02.md",
+      "source_lines": [
+        1349,
+        1530
+      ],
+      "section": "1.2 · tipos de identidad y demostración",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.tf.12.w_rstar",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-01-02.md",
+      "source_lines": [
+        1531,
+        1665
+      ],
+      "section": "1.2 · peso w y responsabilidad R*",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.12.s_alpha_delta",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-01-02.md",
+      "source_lines": [
+        1666,
+        1830
+      ],
+      "section": "1.2 · S, α y Δ",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.12.iic",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-01-02.md",
+      "source_lines": [
+        1831,
+        1905
+      ],
+      "section": "1.2 · índice IIC",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.12.parameter_status",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-01-02.md",
+      "source_lines": [
+        1906,
+        2025
+      ],
+      "section": "1.2 · estatuto ontológico y empírico de parámetros",
+      "evidence_type": "authorial_classification"
+    },
+    {
+      "id": "ev.tf.12.proposition",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-01-02.md",
+      "source_lines": [
+        2026,
+        2095
+      ],
+      "section": "1.2 · proposición de identidad demostrada",
+      "evidence_type": "authorial_claim"
+    },
+    {
+      "id": "ev.tf.13.derivative_nonmath",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-01-03.md",
+      "source_lines": [
+        2096,
+        2180
+      ],
+      "section": "1.3 · derivada exterior no matemática",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.tf.13.phi2_update",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-01-03.md",
+      "source_lines": [
+        2181,
+        2265
+      ],
+      "section": "1.3 · actualización temporal de φ₂",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.13.external_imputation",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-01-03.md",
+      "source_lines": [
+        2266,
+        2375
+      ],
+      "section": "1.3 · señal colectiva y límite de integración",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.tf.13.nonconventional",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-01-03.md",
+      "source_lines": [
+        2376,
+        2465
+      ],
+      "section": "1.3 · pretensión de necesidad no convencional",
+      "evidence_type": "authorial_claim"
+    },
+    {
+      "id": "ev.tf.13.failure_modes",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-01-03.md",
+      "source_lines": [
+        2466,
+        2595
+      ],
+      "section": "1.3 · fallos exterior e interior",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.tf.13.instrument_roles",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-01-03.md",
+      "source_lines": [
+        2596,
+        2635
+      ],
+      "section": "1.3 · papeles de Prometeo, SDO y ECO",
+      "evidence_type": "authorial_crosswalk"
+    },
+    {
+      "id": "ev.tf.21.condition",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-01.md",
+      "source_lines": [
+        2636,
+        2760
+      ],
+      "section": "2.1 · condición necesaria, suficiente y próxima",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.tf.21.graph",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-01.md",
+      "source_lines": [
+        2761,
+        2885
+      ],
+      "section": "2.1 · grafo causal G=(N,E,W)",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.21.eigenvector",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-01.md",
+      "source_lines": [
+        2886,
+        3015
+      ],
+      "section": "2.1 · ecuación y normalización de R*",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.21.rnet",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-01.md",
+      "source_lines": [
+        3016,
+        3065
+      ],
+      "section": "2.1 · responsabilidad neta",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.21.rstar_b",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-01.md",
+      "source_lines": [
+        3066,
+        3180
+      ],
+      "section": "2.1 · red de beneficio y Δ_B",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.21.limits",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-01.md",
+      "source_lines": [
+        3181,
+        3295
+      ],
+      "section": "2.1 · límites y fuentes de error",
+      "evidence_type": "authorial_limit"
+    },
+    {
+      "id": "ev.tf.21.pf_epsilon",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-01.md",
+      "source_lines": [
+        3296,
+        3336
+      ],
+      "section": "2.1 · irreducibilidad y regularización ε",
+      "evidence_type": "authorial_assumption"
+    },
+    {
+      "id": "ev.tf.22.phi1_inputs",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-02.md",
+      "source_lines": [
+        3337,
+        3480
+      ],
+      "section": "2.2 · entradas de φ₁",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.tf.22.s_definition",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-02.md",
+      "source_lines": [
+        3481,
+        3575
+      ],
+      "section": "2.2 · definición de S",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.22.child_ranges",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-02.md",
+      "source_lines": [
+        3576,
+        3700
+      ],
+      "section": "2.2 · rangos S por Hijo",
+      "evidence_type": "authorial_scale"
+    },
+    {
+      "id": "ev.tf.22.situational",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-02.md",
+      "source_lines": [
+        3701,
+        3815
+      ],
+      "section": "2.2 · S situacional",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.tf.22.rnet",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-02.md",
+      "source_lines": [
+        3816,
+        3915
+      ],
+      "section": "2.2 · usos defensivo y acusatorio de R*neta",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.tf.22.limit_calibration",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-02.md",
+      "source_lines": [
+        3916,
+        4085
+      ],
+      "section": "2.2 · límites y ausencia de calibración",
+      "evidence_type": "authorial_limit"
+    },
+    {
+      "id": "ev.tf.23.integration_levels",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-03.md",
+      "source_lines": [
+        4086,
+        4215
+      ],
+      "section": "2.3 · integración factual, causal y constitutiva",
+      "evidence_type": "authorial_scale"
+    },
+    {
+      "id": "ev.tf.23.temporal_phi2",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-03.md",
+      "source_lines": [
+        4216,
+        4375
+      ],
+      "section": "2.3 · dos tiempos de φ₂",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.tf.23.child_alpha",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-03.md",
+      "source_lines": [
+        4376,
+        4580
+      ],
+      "section": "2.3 · rangos α por Hijo",
+      "evidence_type": "authorial_scale"
+    },
+    {
+      "id": "ev.tf.23.alpha_scale",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-03.md",
+      "source_lines": [
+        4581,
+        4700
+      ],
+      "section": "2.3 · escala clínica de α",
+      "evidence_type": "authorial_scale"
+    },
+    {
+      "id": "ev.tf.23.alpha_time",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-03.md",
+      "source_lines": [
+        4701,
+        4770
+      ],
+      "section": "2.3 · variación de α e irreversibilidad de I(t)",
+      "evidence_type": "authorial_claim"
+    },
+    {
+      "id": "ev.tf.23.alpha_pattern",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-03.md",
+      "source_lines": [
+        4771,
+        4845
+      ],
+      "section": "2.3 · α del acto y del patrón",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.tf.23.institutional",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-03.md",
+      "source_lines": [
+        4846,
+        4947
+      ],
+      "section": "2.3 · α institucional y errores",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.tf.24.delta_states",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-04.md",
+      "source_lines": [
+        4948,
+        5055
+      ],
+      "section": "2.4 · estados de Δ",
+      "evidence_type": "authorial_scale"
+    },
+    {
+      "id": "ev.tf.24.origins",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-04.md",
+      "source_lines": [
+        5056,
+        5170
+      ],
+      "section": "2.4 · orígenes A y B de Δ",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.tf.24.aego_phi2",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-04.md",
+      "source_lines": [
+        5171,
+        5295
+      ],
+      "section": "2.4 · Aego como indisponibilidad de φ₂",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.tf.24.sdo_criteria",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-04.md",
+      "source_lines": [
+        5296,
+        5405
+      ],
+      "section": "2.4 · criterios SDO para Aego",
+      "evidence_type": "operational_protocol"
+    },
+    {
+      "id": "ev.tf.24.aego_ethics",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-04.md",
+      "source_lines": [
+        5406,
+        5485
+      ],
+      "section": "2.4 · incapacidad ética y analogía jurídica",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.tf.24.delta_temporal_collective",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-02-04.md",
+      "source_lines": [
+        5486,
+        5637
+      ],
+      "section": "2.4 · Δ temporal, estructural, colectivo y neto",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.31.collective_ego",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-03-01.md",
+      "source_lines": [
+        5638,
+        5770
+      ],
+      "section": "3.1 · ego colectivo no reducible",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.31.collective_components",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-03-01.md",
+      "source_lines": [
+        5771,
+        5905
+      ],
+      "section": "3.1 · c_col, φ₁_col y φ₂_col",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.tf.31.iic_definition",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-03-01.md",
+      "source_lines": [
+        5906,
+        5995
+      ],
+      "section": "3.1 · IIC como correlación de Pearson",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.31.iic_scale",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-03-01.md",
+      "source_lines": [
+        5996,
+        6070
+      ],
+      "section": "3.1 · escala interpretativa de IIC",
+      "evidence_type": "authorial_scale"
+    },
+    {
+      "id": "ev.tf.31.w_adjustment",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-03-01.md",
+      "source_lines": [
+        6071,
+        6135
+      ],
+      "section": "3.1 · ajuste de w por incoherencia",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.31.collective_aego",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-03-01.md",
+      "source_lines": [
+        6136,
+        6200
+      ],
+      "section": "3.1 · máscara y Aego colectivos",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.tf.31.iic_protocol",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-03-01.md",
+      "source_lines": [
+        6201,
+        6340
+      ],
+      "section": "3.1 · protocolo operativo de IIC",
+      "evidence_type": "operational_protocol"
+    },
+    {
+      "id": "ev.tf.32.iic_s",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-03-02.md",
+      "source_lines": [
+        6341,
+        6470
+      ],
+      "section": "3.2 · relación IIC-S",
+      "evidence_type": "authorial_claim"
+    },
+    {
+      "id": "ev.tf.32.w_gap",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-03-02.md",
+      "source_lines": [
+        6471,
+        6555
+      ],
+      "section": "3.2 · brecha y migración de w",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.tf.32.adjustment_variants",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-03-02.md",
+      "source_lines": [
+        6556,
+        6635
+      ],
+      "section": "3.2 · fórmulas variantes de ajuste",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.32.rstar_migration",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-03-02.md",
+      "source_lines": [
+        6636,
+        6730
+      ],
+      "section": "3.2 · migración de R*",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.tf.32.edge_types",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-03-02.md",
+      "source_lines": [
+        6731,
+        6815
+      ],
+      "section": "3.2 · tipos de arista institucional",
+      "evidence_type": "authorial_classification"
+    },
+    {
+      "id": "ev.tf.32.designer_phi2",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-03-02.md",
+      "source_lines": [
+        6816,
+        6870
+      ],
+      "section": "3.2 · φ₂ del diseñador",
+      "evidence_type": "authorial_claim"
+    },
+    {
+      "id": "ev.tf.32.protocol_beta",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-03-02.md",
+      "source_lines": [
+        6871,
+        6985
+      ],
+      "section": "3.2 · protocolo y β provisional",
+      "evidence_type": "operational_protocol"
+    },
+    {
+      "id": "ev.tf.33.hume",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-03-03.md",
+      "source_lines": [
+        6986,
+        7070
+      ],
+      "section": "3.3 · respuesta a Hume",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.tf.33.cession_phi2",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-03-03.md",
+      "source_lines": [
+        7071,
+        7160
+      ],
+      "section": "3.3 · cesión del ejercicio de φ₂",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.tf.33.sovereignty_force",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-03-03.md",
+      "source_lines": [
+        7161,
+        7240
+      ],
+      "section": "3.3 · soberanía y pretensión de forzar α",
+      "evidence_type": "authorial_claim"
+    },
+    {
+      "id": "ev.tf.33.rights",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-03-03.md",
+      "source_lines": [
+        7241,
+        7315
+      ],
+      "section": "3.3 · derechos como φ₂ retenida",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.33.fiscal_formula",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-03-03.md",
+      "source_lines": [
+        7316,
+        7385
+      ],
+      "section": "3.3 · función fiscal T_i",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.33.state_parameters",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-03-03.md",
+      "source_lines": [
+        7386,
+        7528
+      ],
+      "section": "3.3 · parámetros del ego estatal y deuda histórica",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.41.uncertainty_types",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-04-01.md",
+      "source_lines": [
+        7529,
+        7735
+      ],
+      "section": "4.1 · tres incertidumbres",
+      "evidence_type": "authorial_classification"
+    },
+    {
+      "id": "ev.tf.41.reduction",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-04-01.md",
+      "source_lines": [
+        7736,
+        7890
+      ],
+      "section": "4.1 · reducción y fijación de variables",
+      "evidence_type": "authorial_method"
+    },
+    {
+      "id": "ev.tf.41.representation",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-04-01.md",
+      "source_lines": [
+        7891,
+        7995
+      ],
+      "section": "4.1 · intervalos y distribuciones",
+      "evidence_type": "authorial_method"
+    },
+    {
+      "id": "ev.tf.41.sensitivity",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-04-01.md",
+      "source_lines": [
+        7996,
+        8085
+      ],
+      "section": "4.1 · sensibilidad extendida",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.41.declarations",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-04-01.md",
+      "source_lines": [
+        8086,
+        8166
+      ],
+      "section": "4.1 · declaraciones de robustez",
+      "evidence_type": "authorial_method"
+    },
+    {
+      "id": "ev.tf.42.child_probability",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-04-02.md",
+      "source_lines": [
+        8167,
+        8290
+      ],
+      "section": "4.2 · probabilidad sobre los Hijos",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.42.s_interval",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-04-02.md",
+      "source_lines": [
+        8291,
+        8395
+      ],
+      "section": "4.2 · intervalo ponderado de S",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.42.rnet_delta_ranges",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-04-02.md",
+      "source_lines": [
+        8396,
+        8495
+      ],
+      "section": "4.2 · rangos de R*neta y Δ",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.42.sensitivity_methods",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-04-02.md",
+      "source_lines": [
+        8496,
+        8585
+      ],
+      "section": "4.2 · esquinas, grilla y Monte Carlo",
+      "evidence_type": "authorial_method"
+    },
+    {
+      "id": "ev.tf.42.priority",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-04-02.md",
+      "source_lines": [
+        8586,
+        8650
+      ],
+      "section": "4.2 · criterio de prioridad",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.42.case_errors",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-04-02.md",
+      "source_lines": [
+        8651,
+        8745
+      ],
+      "section": "4.2 · caso y límites de probabilidades",
+      "evidence_type": "authorial_limit"
+    },
+    {
+      "id": "ev.tf.43.limits",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-04-03.md",
+      "source_lines": [
+        8746,
+        8955
+      ],
+      "section": "4.3 · tres límites ontológicos",
+      "evidence_type": "authorial_limit"
+    },
+    {
+      "id": "ev.tf.43.instrument_boundaries",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-04-03.md",
+      "source_lines": [
+        8956,
+        9050
+      ],
+      "section": "4.3 · fronteras de instrumentos",
+      "evidence_type": "authorial_limit"
+    },
+    {
+      "id": "ev.tf.43.calculable_claims",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-04-03.md",
+      "source_lines": [
+        9051,
+        9115
+      ],
+      "section": "4.3 · parámetros declarados calculables",
+      "evidence_type": "authorial_claim"
+    },
+    {
+      "id": "ev.tf.43.limit_analogies",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-04-03.md",
+      "source_lines": [
+        9116,
+        9189
+      ],
+      "section": "4.3 · analogías de incompletitud",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.tf.51.sdo_role",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-05-01.md",
+      "source_lines": [
+        9190,
+        9290
+      ],
+      "section": "5.1 · papel diagnóstico del SDO",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.tf.51.axes",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-05-01.md",
+      "source_lines": [
+        9291,
+        9480
+      ],
+      "section": "5.1 · cinco ejes y parámetros",
+      "evidence_type": "authorial_crosswalk"
+    },
+    {
+      "id": "ev.tf.51.loss_ceiling",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-05-01.md",
+      "source_lines": [
+        9481,
+        9540
+      ],
+      "section": "5.1 · pérdida y techo de α",
+      "evidence_type": "authorial_claim"
+    },
+    {
+      "id": "ev.tf.51.retrospective",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-05-01.md",
+      "source_lines": [
+        9541,
+        9610
+      ],
+      "section": "5.1 · lectura retrospectiva de SDO",
+      "evidence_type": "authorial_attribution"
+    },
+    {
+      "id": "ev.tf.51.ethics",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-05-01.md",
+      "source_lines": [
+        9611,
+        9663
+      ],
+      "section": "5.1 · ética, consentimiento y límite",
+      "evidence_type": "authorial_limit"
+    },
+    {
+      "id": "ev.tf.52.eco_role",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-05-02.md",
+      "source_lines": [
+        9664,
+        9765
+      ],
+      "section": "5.2 · ECO como intervención sobre φ₂",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.tf.52.origin_a",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-05-02.md",
+      "source_lines": [
+        9766,
+        9895
+      ],
+      "section": "5.2 · protocolo ECO para origen A",
+      "evidence_type": "operational_protocol"
+    },
+    {
+      "id": "ev.tf.52.origin_b",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-05-02.md",
+      "source_lines": [
+        9896,
+        9985
+      ],
+      "section": "5.2 · protocolo ECO para origen B",
+      "evidence_type": "operational_protocol"
+    },
+    {
+      "id": "ev.tf.52.alpha_work",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-05-02.md",
+      "source_lines": [
+        9986,
+        10040
+      ],
+      "section": "5.2 · trabajo clínico sobre α",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.tf.52.feedback",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-05-02.md",
+      "source_lines": [
+        10041,
+        10090
+      ],
+      "section": "5.2 · círculo de retroalimentación",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.52.ethics_confidentiality",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-05-02.md",
+      "source_lines": [
+        10091,
+        10130
+      ],
+      "section": "5.2 · consentimiento y confidencialidad institucional",
+      "evidence_type": "authorial_limit"
+    },
+    {
+      "id": "ev.tf.53.sequence",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-05-03.md",
+      "source_lines": [
+        10131,
+        10245
+      ],
+      "section": "5.3 · secuencia SDO-Prometeo-ECO",
+      "evidence_type": "operational_protocol"
+    },
+    {
+      "id": "ev.tf.53.thresholds",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-05-03.md",
+      "source_lines": [
+        10246,
+        10305
+      ],
+      "section": "5.3 · umbrales de Δ",
+      "evidence_type": "authorial_scale"
+    },
+    {
+      "id": "ev.tf.53.limit_cases",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-05-03.md",
+      "source_lines": [
+        10306,
+        10420
+      ],
+      "section": "5.3 · casos límite",
+      "evidence_type": "authorial_limit"
+    },
+    {
+      "id": "ev.tf.53.subjective_delta",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-05-03.md",
+      "source_lines": [
+        10421,
+        10490
+      ],
+      "section": "5.3 · Δ subjetiva",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.tf.53.admitted_unvalidated",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/capitulo-05-03.md",
+      "source_lines": [
+        10491,
+        10605
+      ],
+      "section": "5.3 · validaciones remitidas al volumen II",
+      "evidence_type": "authorial_limit"
+    },
+    {
+      "id": "ev.tf.epilogue.claimed_proof",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/90-epilogo.md",
+      "source_lines": [
+        10606,
+        10675
+      ],
+      "section": "Epílogo · pretensión de prueba",
+      "evidence_type": "authorial_claim"
+    },
+    {
+      "id": "ev.tf.epilogue.calibration_gap",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/90-epilogo.md",
+      "source_lines": [
+        10676,
+        10770
+      ],
+      "section": "Epílogo · brecha reconocida de calibración",
+      "evidence_type": "authorial_limit"
+    },
+    {
+      "id": "ev.tf.epilogue.program",
+      "work_id": "TRANSFORMACION-FORMAL",
+      "segment": "corpus/libros/transformacion-formal/90-epilogo.md",
+      "source_lines": [
+        10771,
+        10859
+      ],
+      "section": "Epílogo · programa empírico futuro",
+      "evidence_type": "authorial_program"
     }
   ],
   "nodes": [
@@ -10724,6 +11824,1199 @@
       "evidence": [
         "ev.telar.epilogue.practice"
       ]
+    },
+    {
+      "id": "concept.tf.perspective_interior",
+      "kind": "concept",
+      "label": "Perspectiva interior en Transformación formal",
+      "summary": "Integración del acto en la historia propia mediante φ₂.",
+      "evidence": [
+        "ev.tf.11.perspectives"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.perspective_exterior",
+      "kind": "concept",
+      "label": "Perspectiva exterior en Transformación formal",
+      "summary": "Atribución colectiva de posición causal mediante el grafo y R*.",
+      "evidence": [
+        "ev.tf.11.perspectives"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.tf.identity_sdo_prometeo",
+      "kind": "formulation",
+      "label": "Identidad declarada entre interior y exterior",
+      "summary": "La obra sostiene identidad estructural, no analogía, entre SDO/φ₂ y Prometeo/R*.",
+      "evidence": [
+        "ev.tf.11.isomorphism",
+        "ev.tf.12.proposition"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.imputation_external_phi2",
+      "kind": "concept",
+      "label": "Imputación externa como φ₂ colectiva",
+      "summary": "La atribución externa puede señalar y constreñir, pero no integrar por el sujeto.",
+      "evidence": [
+        "ev.tf.11.imputation_phi2",
+        "ev.tf.13.external_imputation"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.failure_internal",
+      "kind": "concept",
+      "label": "Fallo interior de integración",
+      "summary": "El sujeto no integra causalidad atribuida en su historia.",
+      "evidence": [
+        "ev.tf.13.failure_modes"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.failure_external",
+      "kind": "concept",
+      "label": "Fallo exterior de atribución",
+      "summary": "El colectivo atribuye causalidad sin reconstrucción adecuada del campo.",
+      "evidence": [
+        "ev.tf.13.failure_modes"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.uncertainty_empirical",
+      "kind": "concept",
+      "label": "Incertidumbre empírica",
+      "summary": "Indeterminación por datos incompletos o medición falible.",
+      "evidence": [
+        "ev.tf.41.uncertainty_types"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.uncertainty_ontological",
+      "kind": "concept",
+      "label": "Incertidumbre ontológica",
+      "summary": "Indeterminación irreductible ligada a interioridad, Aego y libertad futura.",
+      "evidence": [
+        "ev.tf.41.uncertainty_types",
+        "ev.tf.43.limits"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.uncertainty_calibration",
+      "kind": "concept",
+      "label": "Incertidumbre de calibración",
+      "summary": "Indeterminación de parámetros cuya escala no ha sido validada empíricamente.",
+      "evidence": [
+        "ev.tf.41.uncertainty_types",
+        "ev.tf.epilogue.calibration_gap"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.aego_evasion_origin_a",
+      "kind": "concept",
+      "label": "Origen A de Aego",
+      "summary": "Evasión deliberada de una integración disponible.",
+      "evidence": [
+        "ev.tf.24.origins",
+        "ev.tf.52.origin_a"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.aego_origin_b",
+      "kind": "concept",
+      "label": "Origen B de Aego",
+      "summary": "Incapacidad estructural o clínica para operar φ₂.",
+      "evidence": [
+        "ev.tf.24.origins",
+        "ev.tf.52.origin_b"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.aego.tf",
+      "kind": "formulation",
+      "label": "Formulación del Aego en Transformación formal",
+      "summary": "φ₁ continúa, φ₂ queda indisponible e I(t) se congela; se distinguen erosión, parcialidad y escala institucional.",
+      "evidence": [
+        "ev.tf.24.aego_phi2",
+        "ev.tf.24.aego_ethics"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.collective_ego",
+      "kind": "concept",
+      "label": "Ego colectivo en Transformación formal",
+      "summary": "Sistema histórico no reducible a individuos, con sesgo, decisiones e integración institucional.",
+      "evidence": [
+        "ev.tf.31.collective_ego"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.collective_phi2",
+      "kind": "concept",
+      "label": "φ₂ colectiva",
+      "summary": "Gobernanza y mecanismos de revisión que integran actos colectivos en historia institucional.",
+      "evidence": [
+        "ev.tf.31.collective_components"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.collective_aego",
+      "kind": "concept",
+      "label": "Aego colectivo",
+      "summary": "Indisponibilidad institucional para integrar contradicciones y corregir curso.",
+      "evidence": [
+        "ev.tf.31.collective_aego"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.fiscal_cession_phi2",
+      "kind": "concept",
+      "label": "Cesión fiscal del ejercicio de φ₂",
+      "summary": "El ciudadano cede ejercicio colectivo, no capacidad ontológica, a cambio de condiciones y derechos.",
+      "evidence": [
+        "ev.tf.33.cession_phi2"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.sovereignty_phi2",
+      "kind": "concept",
+      "label": "Soberanía como φ₂ colectiva",
+      "summary": "La obra sitúa soberanía en la mediación colectiva capaz de integrar actos del Estado.",
+      "evidence": [
+        "ev.tf.33.sovereignty_force"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.historical_delta",
+      "kind": "concept",
+      "label": "Δ histórico estatal",
+      "summary": "Brecha acumulada entre responsabilidad causal estatal y asunción institucional.",
+      "evidence": [
+        "ev.tf.33.state_parameters"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.instrument_sdo_role",
+      "kind": "concept",
+      "label": "SDO en Transformación formal",
+      "summary": "Instrumento diagnóstico de v_t, S, α, Δ y Aego, con derivación añadida por esta obra.",
+      "evidence": [
+        "ev.tf.13.instrument_roles",
+        "ev.tf.51.sdo_role",
+        "ev.tf.51.retrospective"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.instrument_prometeo_role",
+      "kind": "concept",
+      "label": "Prometeo en Transformación formal",
+      "summary": "Instrumento externo para mapear red, pesos y R*.",
+      "evidence": [
+        "ev.tf.13.instrument_roles",
+        "ev.tf.53.sequence"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.instrument_eco_role",
+      "kind": "concept",
+      "label": "ECO en Transformación formal",
+      "summary": "Intervención declarada sobre condiciones de φ₂ y α.",
+      "evidence": [
+        "ev.tf.52.eco_role"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.tf.sequence",
+      "kind": "method",
+      "label": "Secuencia operativa SDO-Prometeo-ECO",
+      "summary": "Diagnóstico interior, reconstrucción exterior e intervención integrativa.",
+      "evidence": [
+        "ev.tf.53.sequence"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.tf.sensitivity_extended",
+      "kind": "method",
+      "label": "Sensibilidad extendida",
+      "summary": "Propagación de rangos y declaración de robustez sobre combinaciones paramétricas.",
+      "evidence": [
+        "ev.tf.41.sensitivity",
+        "ev.tf.42.sensitivity_methods"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.tf.iic_adjustment_protocol",
+      "kind": "method",
+      "label": "Protocolo de ajuste IIC-w",
+      "summary": "Ajuste provisional de pesos por brecha entre valores declarados y conducta observable.",
+      "evidence": [
+        "ev.tf.31.w_adjustment",
+        "ev.tf.32.protocol_beta"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.limit_vt_experience",
+      "kind": "concept",
+      "label": "Límite de acceso a v_t",
+      "summary": "La posición interior solo puede conocerse por autoinforme y conducta indirecta.",
+      "evidence": [
+        "ev.tf.43.limits"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.limit_aego_evasion",
+      "kind": "concept",
+      "label": "Límite Aego/evasión",
+      "summary": "La observación externa no decide por sí sola incapacidad frente a mala fe.",
+      "evidence": [
+        "ev.tf.43.limits"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.limit_alpha_future",
+      "kind": "concept",
+      "label": "Límite de α futura",
+      "summary": "La libertad impide predecir necesariamente la integración futura.",
+      "evidence": [
+        "ev.tf.43.limits"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.alpha_act_pattern",
+      "kind": "concept",
+      "label": "α del acto y del patrón",
+      "summary": "Distingue integración puntual de disposición histórica habitual.",
+      "evidence": [
+        "ev.tf.23.alpha_pattern"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.delta_state_structure",
+      "kind": "concept",
+      "label": "Δ transitoria y estructural",
+      "summary": "Distingue brecha episódica de patrón estabilizado.",
+      "evidence": [
+        "ev.tf.24.delta_temporal_collective"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.rstar_benefit",
+      "kind": "concept",
+      "label": "Responsabilidad por beneficio",
+      "summary": "Centralidad construida sobre flujos de beneficio para comparar causalidad y apropiación.",
+      "evidence": [
+        "ev.tf.21.rstar_b"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.scapegoat_structural",
+      "kind": "concept",
+      "label": "Chivo expiatorio estructural",
+      "summary": "Actor con atribución visible desproporcionada respecto de su responsabilidad neta.",
+      "evidence": [
+        "ev.tf.22.rnet"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.edge_types",
+      "kind": "concept",
+      "label": "Tipos de arista institucional",
+      "summary": "Aristas de mando, información, recursos y beneficio.",
+      "evidence": [
+        "ev.tf.32.edge_types"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.parameter_status",
+      "kind": "concept",
+      "label": "Estatuto mixto de parámetros",
+      "summary": "La obra clasifica w como empírico; S, α e IIC como ontológicos; R* como mixto.",
+      "evidence": [
+        "ev.tf.12.parameter_status"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.tf.volume2_program",
+      "kind": "concept",
+      "label": "Programa empírico del volumen II",
+      "summary": "Calibración y validación futura reconocidas como todavía no realizadas.",
+      "evidence": [
+        "ev.tf.53.admitted_unvalidated",
+        "ev.tf.epilogue.program"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.v_t",
+      "kind": "formal_object",
+      "label": "v_t en Transformación formal",
+      "formal_spec": {
+        "symbol": "v_t",
+        "object_type": "authorial_categorical_latent_state",
+        "domain": "{Harmonía, Anteros, Eros, Potós, Fobos, Deimos}",
+        "definition": "posición volitiva-afectiva en el momento t",
+        "dependencies": [
+          "systema de los Hijos"
+        ],
+        "assumptions": [
+          "inferible solo indirectamente"
+        ],
+        "epistemic_status": "authorial_definition_uncalibrated",
+        "ontological_correspondence": "configuración de voluntad y alteridad"
+      },
+      "evidence": [
+        "ev.tf.prologue.children",
+        "ev.tf.22.phi1_inputs"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.c",
+      "kind": "formal_object",
+      "label": "c en Transformación formal",
+      "formal_spec": {
+        "symbol": "c",
+        "object_type": "authorial_internal_state_parameter",
+        "domain": "historia identitaria acumulada",
+        "codomain": "no tipado por la obra",
+        "definition": "sesgo interno, máscara e identidad sedimentada",
+        "dependencies": [
+          "I(t)"
+        ],
+        "epistemic_status": "authorial_definition_pending_typing",
+        "ontological_correspondence": "historia que orienta el colapso"
+      },
+      "evidence": [
+        "ev.tf.prologue.c_internal",
+        "ev.tf.22.phi1_inputs"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.phi1",
+      "kind": "formal_object",
+      "label": "φ₁ en Transformación formal",
+      "formal_spec": {
+        "symbol": "φ₁",
+        "object_type": "authorial_operator",
+        "expression": "Acto(t)=φ₁(v_t,c)",
+        "domain": "v_t × c (tipos no formalizados)",
+        "codomain": "Acto (espacio no definido)",
+        "dependencies": [
+          "formal.tf.v_t",
+          "formal.tf.c"
+        ],
+        "assumptions": [
+          "el colapso fija responsabilidad"
+        ],
+        "epistemic_status": "authorial_formalization_pending_typing",
+        "ontological_correspondence": "primera mediación/colapso en acto"
+      },
+      "evidence": [
+        "ev.tf.tres_formulas",
+        "ev.tf.22.phi1_inputs"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.phi2",
+      "kind": "formal_object",
+      "label": "φ₂ en Transformación formal",
+      "formal_spec": {
+        "symbol": "φ₂",
+        "object_type": "authorial_update_operator",
+        "expression": "I(t+1)=φ₂(Acto(t),I(t))",
+        "domain": "Acto × I (tipos no formalizados)",
+        "codomain": "I (espacio no definido)",
+        "dependencies": [
+          "formal.tf.I",
+          "formal.tf.phi1"
+        ],
+        "assumptions": [
+          "integración libre y no forzable"
+        ],
+        "epistemic_status": "authorial_formalization_pending_typing",
+        "ontological_correspondence": "segunda mediación/asunción e integración"
+      },
+      "evidence": [
+        "ev.tf.13.phi2_update",
+        "ev.tf.13.external_imputation"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.I",
+      "kind": "formal_object",
+      "label": "I(t) en Transformación formal",
+      "formal_spec": {
+        "symbol": "I(t)",
+        "object_type": "authorial_history_state",
+        "definition": "historia acumulada de actos integrados",
+        "domain": "tiempo",
+        "codomain": "estado identitario no tipado",
+        "dependencies": [
+          "formal.tf.phi2"
+        ],
+        "epistemic_status": "authorial_definition_pending_typing",
+        "ontological_correspondence": "identidad histórica del ego"
+      },
+      "evidence": [
+        "ev.tf.tres_formulas",
+        "ev.tf.23.alpha_time"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.w",
+      "kind": "formal_object",
+      "label": "w_ij en Transformación formal",
+      "formal_spec": {
+        "symbol": "w_ij",
+        "object_type": "interval_edge_weight",
+        "domain": "aristas E",
+        "codomain": "[0,1] o intervalo [w_min,w_max]",
+        "definition": "fracción de condición causal atribuible a i sobre j",
+        "dependencies": [
+          "formal.tf.G"
+        ],
+        "assumptions": [
+          "estimación empírica con incertidumbre"
+        ],
+        "epistemic_status": "authorial_empirical_parameter_uncalibrated",
+        "ontological_correspondence": "condicionamiento causal"
+      },
+      "evidence": [
+        "ev.tf.12.w_rstar",
+        "ev.tf.21.graph"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.G",
+      "kind": "formal_object",
+      "label": "Grafo causal en Transformación formal",
+      "formal_spec": {
+        "symbol": "G=(N,E,W)",
+        "object_type": "weighted_directed_graph",
+        "domain": "nodos personales y estructurales",
+        "codomain": "red causal",
+        "dependencies": [
+          "formal.tf.w"
+        ],
+        "assumptions": [
+          "delimitación del campo y de nodos"
+        ],
+        "epistemic_status": "authorial_model_pending_validation",
+        "ontological_correspondence": "perspectiva exterior del acontecimiento"
+      },
+      "evidence": [
+        "ev.tf.21.graph"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.rstar",
+      "kind": "formal_object",
+      "label": "R* en Transformación formal",
+      "formal_spec": {
+        "symbol": "R*",
+        "object_type": "dominant_right_eigenvector",
+        "expression": "W·R*=λ_max·R*; Σ_i R*_i=1",
+        "domain": "matriz W no negativa",
+        "codomain": "simplejo de responsabilidad",
+        "dependencies": [
+          "formal.tf.G",
+          "formal.tf.w"
+        ],
+        "assumptions": [
+          "irreducibilidad o regularización ε",
+          "normalización unitaria"
+        ],
+        "epistemic_status": "authorial_formalization_pending_mathematical_review",
+        "ontological_correspondence": "responsabilidad causal exterior"
+      },
+      "evidence": [
+        "ev.tf.21.eigenvector",
+        "ev.tf.21.pf_epsilon"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.rstar_net",
+      "kind": "formal_object",
+      "label": "R*neta en Transformación formal",
+      "formal_spec": {
+        "symbol": "R*_{neta,i}",
+        "object_type": "derived_scalar",
+        "expression": "R*_{neta,i}=R*_i(1-S_i)",
+        "domain": "[0,1]²",
+        "codomain": "[0,1] bajo supuestos",
+        "dependencies": [
+          "formal.tf.rstar",
+          "formal.tf.S"
+        ],
+        "assumptions": [
+          "R* y S comparables"
+        ],
+        "epistemic_status": "authorial_formula_uncalibrated",
+        "ontological_correspondence": "responsabilidad descontada por condicionamiento"
+      },
+      "evidence": [
+        "ev.tf.21.rnet",
+        "ev.tf.22.rnet"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.S",
+      "kind": "formal_object",
+      "label": "S en Transformación formal",
+      "formal_spec": {
+        "symbol": "S",
+        "object_type": "derived_conditioning_ratio",
+        "expression": "S=peso_c/(peso_c+peso_vt)",
+        "domain": "pesos no tipados no negativos",
+        "codomain": "[0,1]",
+        "dependencies": [
+          "formal.tf.v_t",
+          "formal.tf.c"
+        ],
+        "assumptions": [
+          "pesos definidos y denominador no nulo"
+        ],
+        "epistemic_status": "authorial_ontological_parameter_uncalibrated",
+        "ontological_correspondence": "grado de condicionamiento en φ₁"
+      },
+      "evidence": [
+        "ev.tf.12.s_alpha_delta",
+        "ev.tf.22.s_definition"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.alpha",
+      "kind": "formal_object",
+      "label": "α en Transformación formal",
+      "formal_spec": {
+        "symbol": "α",
+        "object_type": "integration_degree",
+        "domain": "acto e historia no tipados",
+        "codomain": "[0,1]",
+        "definition": "grado en que φ₂ integra el acto en I(t)",
+        "dependencies": [
+          "formal.tf.phi2",
+          "formal.tf.I"
+        ],
+        "assumptions": [
+          "escala ordinal tratada numéricamente"
+        ],
+        "epistemic_status": "authorial_ontological_parameter_uncalibrated",
+        "ontological_correspondence": "asunción interior"
+      },
+      "evidence": [
+        "ev.tf.12.s_alpha_delta",
+        "ev.tf.23.alpha_scale"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.delta",
+      "kind": "formal_object",
+      "label": "Δ en Transformación formal",
+      "formal_spec": {
+        "symbol": "Δ",
+        "object_type": "difference_index",
+        "expression": "Δ=R*−α",
+        "domain": "[0,1]²",
+        "codomain": "[-1,1]",
+        "dependencies": [
+          "formal.tf.rstar",
+          "formal.tf.alpha"
+        ],
+        "assumptions": [
+          "R* y α conmensurables"
+        ],
+        "epistemic_status": "authorial_formula_uncalibrated",
+        "ontological_correspondence": "brecha entre causalidad externa y asunción interna"
+      },
+      "evidence": [
+        "ev.tf.11.rstar_delta",
+        "ev.tf.24.delta_states"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.rstar_b",
+      "kind": "formal_object",
+      "label": "R*_B en Transformación formal",
+      "formal_spec": {
+        "symbol": "R*_B",
+        "object_type": "benefit_network_eigenvector",
+        "expression": "W_B·R*_B=λ_max·R*_B",
+        "domain": "matriz de beneficios W_B",
+        "codomain": "simplejo de beneficio",
+        "dependencies": [
+          "formal.tf.G"
+        ],
+        "assumptions": [
+          "beneficios representables como red no negativa"
+        ],
+        "epistemic_status": "authorial_formula_pending_normative_review",
+        "ontological_correspondence": "participación causal en el beneficio"
+      },
+      "evidence": [
+        "ev.tf.21.rstar_b"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.beta_benefit",
+      "kind": "formal_object",
+      "label": "β de beneficio",
+      "formal_spec": {
+        "symbol": "β_i",
+        "object_type": "benefit_share",
+        "domain": "actores",
+        "codomain": "[0,1]",
+        "definition": "proporción de beneficio apropiado",
+        "epistemic_status": "authorial_parameter_uncalibrated",
+        "ontological_correspondence": "beneficio recibido"
+      },
+      "evidence": [
+        "ev.tf.21.rstar_b"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.delta_b",
+      "kind": "formal_object",
+      "label": "Δ_B en Transformación formal",
+      "formal_spec": {
+        "symbol": "Δ_B",
+        "object_type": "difference_index",
+        "expression": "Δ_{B,i}=R*_{B,i}−β_i",
+        "domain": "[0,1]²",
+        "codomain": "[-1,1]",
+        "dependencies": [
+          "formal.tf.rstar_b",
+          "formal.tf.beta_benefit"
+        ],
+        "assumptions": [
+          "centralidad de beneficio y apropiación comparables"
+        ],
+        "epistemic_status": "authorial_formula_uncalibrated",
+        "ontological_correspondence": "brecha entre contribución causal al beneficio y apropiación"
+      },
+      "evidence": [
+        "ev.tf.21.rstar_b"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.I_col",
+      "kind": "formal_object",
+      "label": "I_col(t) en Transformación formal",
+      "formal_spec": {
+        "symbol": "I_col(t)",
+        "object_type": "authorial_collective_integral",
+        "expression": "I_col(t)=∫φ₂_col(φ₁_col(v_col,c_col),I_col)dτ",
+        "domain": "tiempo colectivo",
+        "codomain": "historia institucional no tipada",
+        "dependencies": [
+          "concept.tf.collective_phi2"
+        ],
+        "assumptions": [
+          "no reducibilidad a suma individual"
+        ],
+        "epistemic_status": "authorial_formalization_pending_typing",
+        "ontological_correspondence": "historia del ego colectivo"
+      },
+      "evidence": [
+        "ev.tf.31.collective_ego",
+        "ev.tf.31.collective_components"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.IIC",
+      "kind": "formal_object",
+      "label": "IIC en Transformación formal",
+      "formal_spec": {
+        "symbol": "IIC",
+        "object_type": "Pearson_correlation_index",
+        "expression": "corr(valores_declarados,conducta_observable)",
+        "domain": "dos vectores emparejados no definidos",
+        "codomain": "[-1,1]",
+        "dependencies": [
+          "selección y codificación de dimensiones"
+        ],
+        "assumptions": [
+          "variables cuantificables, pares comparables, varianza no nula"
+        ],
+        "epistemic_status": "authorial_formula_uncalibrated",
+        "ontological_correspondence": "coherencia identitaria colectiva"
+      },
+      "evidence": [
+        "ev.tf.31.iic_definition",
+        "ev.tf.31.iic_protocol"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.w_adjusted",
+      "kind": "formal_object",
+      "label": "w ajustado por IIC",
+      "formal_spec": {
+        "symbol": "w_ajustado",
+        "object_type": "weight_adjustment",
+        "expression": "w_base·(1+β·max(0,IIC_umbral−IIC))",
+        "domain": "w_base∈[0,1], parámetros no calibrados",
+        "codomain": "no acotado explícitamente a [0,1]",
+        "dependencies": [
+          "formal.tf.IIC",
+          "formal.tf.beta_adjustment",
+          "formal.tf.iic_threshold"
+        ],
+        "assumptions": [
+          "incoherencia aumenta peso causal"
+        ],
+        "epistemic_status": "authorial_formula_provisional",
+        "ontological_correspondence": "traslado de responsabilidad hacia diseño"
+      },
+      "evidence": [
+        "ev.tf.31.w_adjustment",
+        "ev.tf.32.protocol_beta"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.gamma",
+      "kind": "formal_object",
+      "label": "γ en relación IIC-S",
+      "formal_spec": {
+        "symbol": "γ",
+        "object_type": "proportionality_parameter",
+        "domain": "no definido",
+        "codomain": "no definido",
+        "definition": "intensidad de relación aproximada entre IIC y S",
+        "epistemic_status": "authorial_parameter_uncalibrated",
+        "ontological_correspondence": "acoplamiento entre coherencia y condicionamiento"
+      },
+      "evidence": [
+        "ev.tf.32.iic_s"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.beta_adjustment",
+      "kind": "formal_object",
+      "label": "β de ajuste",
+      "formal_spec": {
+        "symbol": "β",
+        "object_type": "adjustment_sensitivity",
+        "domain": "no definido",
+        "codomain": "no definido",
+        "definition": "intensidad del ajuste de w; valor provisional 0.30",
+        "epistemic_status": "authorial_default_uncalibrated",
+        "ontological_correspondence": "sensibilidad del peso a incoherencia"
+      },
+      "evidence": [
+        "ev.tf.32.protocol_beta"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.iic_threshold",
+      "kind": "formal_object",
+      "label": "Umbral IIC",
+      "formal_spec": {
+        "symbol": "IIC_umbral",
+        "object_type": "threshold_parameter",
+        "domain": "[-1,1]",
+        "codomain": "[-1,1]",
+        "definition": "nivel bajo el cual se activa ajuste de w",
+        "epistemic_status": "authorial_parameter_uncalibrated",
+        "ontological_correspondence": "mínimo de coherencia esperado"
+      },
+      "evidence": [
+        "ev.tf.31.w_adjustment"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.P_children",
+      "kind": "formal_object",
+      "label": "P(Hijos)",
+      "formal_spec": {
+        "symbol": "P(Hijo_k)",
+        "object_type": "categorical_probability_distribution",
+        "domain": "seis Hijos",
+        "codomain": "simplejo de probabilidad",
+        "definition": "incertidumbre probabilística sobre v_t",
+        "assumptions": [
+          "probabilidades estimables; posible uso de Dirichlet"
+        ],
+        "epistemic_status": "authorial_method_uncalibrated",
+        "ontological_correspondence": "incertidumbre empírica sobre posición volitiva"
+      },
+      "evidence": [
+        "ev.tf.42.child_probability"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.S_interval",
+      "kind": "formal_object",
+      "label": "Intervalo de S",
+      "formal_spec": {
+        "symbol": "[S_min,S_max]",
+        "object_type": "weighted_bound_interval",
+        "expression": "[Σp_k S_{k,min}, Σp_k S_{k,max}]",
+        "domain": "probabilidades y rangos por Hijo",
+        "codomain": "[0,1]",
+        "dependencies": [
+          "formal.tf.P_children",
+          "formal.tf.S"
+        ],
+        "assumptions": [
+          "ponderación lineal de extremos"
+        ],
+        "epistemic_status": "authorial_interval_construction_pending_review",
+        "ontological_correspondence": "incertidumbre en condicionamiento"
+      },
+      "evidence": [
+        "ev.tf.42.s_interval"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.rstar_net_interval",
+      "kind": "formal_object",
+      "label": "Intervalo de R*neta",
+      "formal_spec": {
+        "symbol": "[R*_{neta,min},R*_{neta,max}]",
+        "object_type": "interval_propagation",
+        "expression": "[R*_{min}(1−S_{max}),R*_{max}(1−S_{min})]",
+        "domain": "intervalos de R* y S",
+        "codomain": "intervalo real",
+        "dependencies": [
+          "formal.tf.rstar",
+          "formal.tf.S_interval"
+        ],
+        "assumptions": [
+          "monotonía y tratamiento separado de dependencias"
+        ],
+        "epistemic_status": "authorial_interval_formula_pending_review",
+        "ontological_correspondence": "rango de responsabilidad neta"
+      },
+      "evidence": [
+        "ev.tf.42.rnet_delta_ranges"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.delta_interval",
+      "kind": "formal_object",
+      "label": "Intervalo de Δ",
+      "formal_spec": {
+        "symbol": "[Δ_min,Δ_max]",
+        "object_type": "interval_propagation",
+        "expression": "[R*_{min}−α_{max},R*_{max}−α_{min}]",
+        "domain": "intervalos de R* y α",
+        "codomain": "[-1,1]",
+        "dependencies": [
+          "formal.tf.rstar",
+          "formal.tf.alpha"
+        ],
+        "assumptions": [
+          "extremos combinables"
+        ],
+        "epistemic_status": "authorial_interval_formula_pending_review",
+        "ontological_correspondence": "rango de brecha"
+      },
+      "evidence": [
+        "ev.tf.42.rnet_delta_ranges"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.priority_criterion",
+      "kind": "formal_object",
+      "label": "Criterio de prioridad",
+      "formal_spec": {
+        "object_type": "authorial_inequality",
+        "expression": "(R*max−R*min)(Smax−Smin) > (wmax−wmin)·ΔR*/Δw",
+        "domain": "magnitudes de sensibilidad heterogéneas",
+        "codomain": "booleano",
+        "dependencies": [
+          "formal.tf.rstar_net_interval",
+          "formal.tf.w"
+        ],
+        "assumptions": [
+          "comparabilidad dimensional"
+        ],
+        "epistemic_status": "authorial_formula_pending_mathematical_review",
+        "ontological_correspondence": "prioridad de reducir incertidumbre"
+      },
+      "evidence": [
+        "ev.tf.42.priority"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.T_i",
+      "kind": "formal_object",
+      "label": "Función fiscal T_i",
+      "formal_spec": {
+        "symbol": "T_i",
+        "object_type": "unspecified_authorial_function",
+        "expression": "T_i=f(R*_{i,colectiva}×φ₁_{i,productiva})",
+        "domain": "responsabilidad colectiva × acto productivo",
+        "codomain": "tributo no definido",
+        "dependencies": [
+          "formal.tf.rstar",
+          "formal.tf.phi1"
+        ],
+        "assumptions": [
+          "función f y unidades pendientes"
+        ],
+        "epistemic_status": "authorial_normative_formula_underspecified",
+        "ontological_correspondence": "aportación fiscal proporcional a causalidad y producción"
+      },
+      "evidence": [
+        "ev.tf.33.fiscal_formula"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.delta_net",
+      "kind": "formal_object",
+      "label": "Δ_neta",
+      "formal_spec": {
+        "symbol": "Δ_neta",
+        "object_type": "difference_index",
+        "expression": "Δ_neta=R*_{neta}−α_neta",
+        "domain": "magnitudes netas no completamente definidas",
+        "codomain": "no especificado",
+        "dependencies": [
+          "formal.tf.rstar_net",
+          "formal.tf.alpha_net"
+        ],
+        "epistemic_status": "authorial_formula_underspecified",
+        "ontological_correspondence": "brecha neta"
+      },
+      "evidence": [
+        "ev.tf.24.delta_temporal_collective"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.alpha_net",
+      "kind": "formal_object",
+      "label": "α_neta",
+      "formal_spec": {
+        "symbol": "α_neta",
+        "object_type": "undefined_derived_parameter",
+        "definition": "versión neta de α usada sin definición operacional suficiente",
+        "domain": "no definido",
+        "codomain": "no definido",
+        "epistemic_status": "authorial_symbol_underspecified",
+        "ontological_correspondence": "asunción neta"
+      },
+      "evidence": [
+        "ev.tf.24.delta_temporal_collective"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.delta_subjective",
+      "kind": "formal_object",
+      "label": "Δ subjetiva",
+      "formal_spec": {
+        "symbol": "Δ_subjetiva",
+        "object_type": "difference_index",
+        "expression": "R*_{percibida}−α_{observada}",
+        "domain": "percepción y observación no calibradas",
+        "codomain": "no especificado",
+        "epistemic_status": "authorial_formula_uncalibrated",
+        "ontological_correspondence": "brecha percibida en intervención"
+      },
+      "evidence": [
+        "ev.tf.53.subjective_delta"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.feedback_alpha",
+      "kind": "formal_object",
+      "label": "Retroalimentación de α",
+      "formal_spec": {
+        "symbol": "α_{t+1}",
+        "object_type": "authorial_update_relation",
+        "expression": "Δ_{t+1}=R*−α_{t+1}; α_{t+1}=f(trabajo ECO sobre v_t)",
+        "domain": "intervención y estado no tipados",
+        "codomain": "[0,1] declarado",
+        "dependencies": [
+          "formal.tf.alpha",
+          "concept.tf.instrument_eco_role"
+        ],
+        "assumptions": [
+          "función f no especificada"
+        ],
+        "epistemic_status": "authorial_clinical_formula_unvalidated",
+        "ontological_correspondence": "cambio integrativo tras intervención"
+      },
+      "evidence": [
+        "ev.tf.52.feedback"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.tf.robustness_extended",
+      "kind": "formal_object",
+      "label": "Robustez extendida",
+      "formal_spec": {
+        "object_type": "universal_parameter_claim",
+        "expression": "la conclusión se mantiene para toda combinación del hiperrrectángulo de parámetros",
+        "domain": "producto cartesiano de intervalos",
+        "codomain": "declaración booleana",
+        "dependencies": [
+          "method.tf.sensitivity_extended"
+        ],
+        "assumptions": [
+          "evaluación exhaustiva o aproximada distinguida"
+        ],
+        "epistemic_status": "authorial_validation_rule_pending_computation",
+        "ontological_correspondence": "estabilidad de conclusión ante incertidumbre"
+      },
+      "evidence": [
+        "ev.tf.41.declarations",
+        "ev.tf.42.sensitivity_methods"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.tf.child_s_ranges",
+      "kind": "formulation",
+      "label": "Rangos S por Hijo",
+      "summary": "Asigna intervalos crecientes de condicionamiento desde Harmonía hasta Deimos.",
+      "evidence": [
+        "ev.tf.22.child_ranges"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.tf.child_alpha_ranges",
+      "kind": "formulation",
+      "label": "Rangos α por Hijo",
+      "summary": "Asigna intervalos de integración a las posiciones de los Hijos, con Anteros integrativo.",
+      "evidence": [
+        "ev.tf.23.child_alpha"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.tf.iic_scale",
+      "kind": "formulation",
+      "label": "Escala IIC",
+      "summary": "Interpreta correlaciones positivas, nulas y negativas como grados de coherencia institucional.",
+      "evidence": [
+        "ev.tf.31.iic_scale"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.tf.delta_thresholds",
+      "kind": "formulation",
+      "label": "Umbrales de Δ",
+      "summary": "Propone Δ≤0.15, 0.15<Δ≤0.45 y Δ>0.45 sin calibración empírica.",
+      "evidence": [
+        "ev.tf.53.thresholds"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.tf.rights_phi2",
+      "kind": "formulation",
+      "label": "Derechos como φ₂ retenida",
+      "summary": "Formula derechos como capacidades de autodeterminación no cedidas al Estado.",
+      "evidence": [
+        "ev.tf.33.rights"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.tf.state_ego",
+      "kind": "formulation",
+      "label": "Ego estatal parametrizado",
+      "summary": "Aplica R*, α, Δ e IIC al Estado como ego colectivo.",
+      "evidence": [
+        "ev.tf.33.state_parameters"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.tf.hume_response",
+      "kind": "formulation",
+      "label": "Respuesta formal a Hume",
+      "summary": "Afirma que el deber emerge al pasar de causalidad individual a escala colectiva.",
+      "evidence": [
+        "ev.tf.33.hume"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.tf.derivative_nonmath",
+      "kind": "formulation",
+      "label": "Derivada exterior ontológica",
+      "summary": "Aclara que ‘derivada’ significa atribución derivada y no derivación matemática.",
+      "evidence": [
+        "ev.tf.13.derivative_nonmath"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.tf.sdo_axes_crosswalk",
+      "kind": "formulation",
+      "label": "Cruce de cinco ejes SDO con parámetros",
+      "summary": "Mapea ejes a v_t, S, α, Δ y Aego como derivación retrospectiva de esta obra.",
+      "evidence": [
+        "ev.tf.51.axes",
+        "ev.tf.51.retrospective"
+      ],
+      "evidence_status": "explicit"
     }
   ],
   "relations": [
@@ -15199,6 +17492,681 @@
         "ev.mask.imputation.causality_fraud"
       ],
       "rationale": "El telar localiza responsabilidad en significado y reacción del receptor; Máscaras extiende imputación causal a acto, no-acción, disociación y escalas colectivas."
+    },
+    {
+      "id": "rel.tf.interior.corresponds_exterior",
+      "from": "concept.tf.perspective_interior",
+      "to": "concept.tf.perspective_exterior",
+      "type": "corresponds_to",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.11.isomorphism"
+      ]
+    },
+    {
+      "id": "rel.tf.identity.links_sdo_prometeo",
+      "from": "formulation.tf.identity_sdo_prometeo",
+      "to": "concept.tf.instrument_prometeo_role",
+      "type": "formalized_by",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.11.isomorphism",
+        "ev.tf.12.proposition"
+      ]
+    },
+    {
+      "id": "rel.tf.external_imputation.limits_phi2",
+      "from": "concept.tf.imputation_external_phi2",
+      "to": "formal.tf.phi2",
+      "type": "limits",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.13.external_imputation"
+      ]
+    },
+    {
+      "id": "rel.tf.phi1.requires_vt",
+      "from": "formal.tf.phi1",
+      "to": "formal.tf.v_t",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.22.phi1_inputs"
+      ]
+    },
+    {
+      "id": "rel.tf.phi1.requires_c",
+      "from": "formal.tf.phi1",
+      "to": "formal.tf.c",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.22.phi1_inputs"
+      ]
+    },
+    {
+      "id": "rel.tf.phi2.requires_I",
+      "from": "formal.tf.phi2",
+      "to": "formal.tf.I",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.13.phi2_update"
+      ]
+    },
+    {
+      "id": "rel.tf.G.contains_w",
+      "from": "formal.tf.G",
+      "to": "formal.tf.w",
+      "type": "contains",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.21.graph"
+      ]
+    },
+    {
+      "id": "rel.tf.rstar.requires_G",
+      "from": "formal.tf.rstar",
+      "to": "formal.tf.G",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.21.eigenvector"
+      ]
+    },
+    {
+      "id": "rel.tf.rstar_net.requires_rstar",
+      "from": "formal.tf.rstar_net",
+      "to": "formal.tf.rstar",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.21.rnet"
+      ]
+    },
+    {
+      "id": "rel.tf.rstar_net.requires_S",
+      "from": "formal.tf.rstar_net",
+      "to": "formal.tf.S",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.21.rnet"
+      ]
+    },
+    {
+      "id": "rel.tf.delta.requires_rstar",
+      "from": "formal.tf.delta",
+      "to": "formal.tf.rstar",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.11.rstar_delta"
+      ]
+    },
+    {
+      "id": "rel.tf.delta.requires_alpha",
+      "from": "formal.tf.delta",
+      "to": "formal.tf.alpha",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.11.rstar_delta"
+      ]
+    },
+    {
+      "id": "rel.tf.rstar_b.requires_benefit_graph",
+      "from": "formal.tf.rstar_b",
+      "to": "concept.tf.rstar_benefit",
+      "type": "formalizes",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.21.rstar_b"
+      ]
+    },
+    {
+      "id": "rel.tf.delta_b.requires_rstar_b",
+      "from": "formal.tf.delta_b",
+      "to": "formal.tf.rstar_b",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.21.rstar_b"
+      ]
+    },
+    {
+      "id": "rel.tf.delta_b.requires_beta",
+      "from": "formal.tf.delta_b",
+      "to": "formal.tf.beta_benefit",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.21.rstar_b"
+      ]
+    },
+    {
+      "id": "rel.tf.alpha_pattern.refines_alpha",
+      "from": "concept.tf.alpha_act_pattern",
+      "to": "formal.tf.alpha",
+      "type": "distinguishes",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.23.alpha_pattern"
+      ]
+    },
+    {
+      "id": "rel.tf.origin_a.produces_failure",
+      "from": "concept.tf.aego_evasion_origin_a",
+      "to": "concept.tf.failure_internal",
+      "type": "produces",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.24.origins"
+      ]
+    },
+    {
+      "id": "rel.tf.origin_b.produces_failure",
+      "from": "concept.tf.aego_origin_b",
+      "to": "concept.tf.failure_internal",
+      "type": "produces",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.24.origins"
+      ]
+    },
+    {
+      "id": "rel.tf.aego.depends_phi2",
+      "from": "formulation.aego.tf",
+      "to": "formal.tf.phi2",
+      "type": "defined_by",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.24.aego_phi2"
+      ]
+    },
+    {
+      "id": "rel.tf.collective_ego.contains_phi2",
+      "from": "concept.tf.collective_ego",
+      "to": "concept.tf.collective_phi2",
+      "type": "contains",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.31.collective_components"
+      ]
+    },
+    {
+      "id": "rel.tf.collective_aego.limits_phi2",
+      "from": "concept.tf.collective_aego",
+      "to": "concept.tf.collective_phi2",
+      "type": "limits",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.31.collective_aego"
+      ]
+    },
+    {
+      "id": "rel.tf.IIC.measures_collective_ego",
+      "from": "formal.tf.IIC",
+      "to": "concept.tf.collective_ego",
+      "type": "measures",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.31.iic_definition"
+      ]
+    },
+    {
+      "id": "rel.tf.w_adjusted.requires_iic",
+      "from": "formal.tf.w_adjusted",
+      "to": "formal.tf.IIC",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.31.w_adjustment"
+      ]
+    },
+    {
+      "id": "rel.tf.w_adjusted.requires_beta",
+      "from": "formal.tf.w_adjusted",
+      "to": "formal.tf.beta_adjustment",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.32.protocol_beta"
+      ]
+    },
+    {
+      "id": "rel.tf.w_adjusted.requires_threshold",
+      "from": "formal.tf.w_adjusted",
+      "to": "formal.tf.iic_threshold",
+      "type": "requires",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.31.w_adjustment"
+      ]
+    },
+    {
+      "id": "rel.tf.iic_protocol.operationalizes_iic",
+      "from": "method.tf.iic_adjustment_protocol",
+      "to": "formal.tf.IIC",
+      "type": "operationalizes",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.31.iic_protocol"
+      ]
+    },
+    {
+      "id": "rel.tf.fiscal_cession.enables_sovereignty",
+      "from": "concept.tf.fiscal_cession_phi2",
+      "to": "concept.tf.sovereignty_phi2",
+      "type": "enables",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.33.cession_phi2",
+        "ev.tf.33.sovereignty_force"
+      ]
+    },
+    {
+      "id": "rel.tf.state_ego.uses_delta",
+      "from": "formulation.tf.state_ego",
+      "to": "formal.tf.delta",
+      "type": "applies",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.33.state_parameters"
+      ]
+    },
+    {
+      "id": "rel.tf.historical_delta.instantiates_delta",
+      "from": "concept.tf.historical_delta",
+      "to": "formal.tf.delta",
+      "type": "instantiates",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.33.state_parameters"
+      ]
+    },
+    {
+      "id": "rel.tf.Pchildren.affects_Sinterval",
+      "from": "formal.tf.P_children",
+      "to": "formal.tf.S_interval",
+      "type": "affects",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.42.s_interval"
+      ]
+    },
+    {
+      "id": "rel.tf.Sinterval.affects_rnet_interval",
+      "from": "formal.tf.S_interval",
+      "to": "formal.tf.rstar_net_interval",
+      "type": "affects",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.42.rnet_delta_ranges"
+      ]
+    },
+    {
+      "id": "rel.tf.sensitivity.tests_robustness",
+      "from": "method.tf.sensitivity_extended",
+      "to": "formal.tf.robustness_extended",
+      "type": "tests",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.41.sensitivity",
+        "ev.tf.41.declarations"
+      ]
+    },
+    {
+      "id": "rel.tf.uncertainty_empirical.affects_w",
+      "from": "concept.tf.uncertainty_empirical",
+      "to": "formal.tf.w",
+      "type": "affects",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.41.uncertainty_types"
+      ]
+    },
+    {
+      "id": "rel.tf.uncertainty_calibration.affects_alpha",
+      "from": "concept.tf.uncertainty_calibration",
+      "to": "formal.tf.alpha",
+      "type": "affects",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.41.uncertainty_types"
+      ]
+    },
+    {
+      "id": "rel.tf.limit_vt.affects_vt",
+      "from": "concept.tf.limit_vt_experience",
+      "to": "formal.tf.v_t",
+      "type": "limits",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.43.limits"
+      ]
+    },
+    {
+      "id": "rel.tf.limit_aego.affects_diagnosis",
+      "from": "concept.tf.limit_aego_evasion",
+      "to": "formulation.aego.tf",
+      "type": "limits",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.43.limits"
+      ]
+    },
+    {
+      "id": "rel.tf.limit_alpha.affects_feedback",
+      "from": "concept.tf.limit_alpha_future",
+      "to": "formal.tf.feedback_alpha",
+      "type": "limits",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.43.limits",
+        "ev.tf.52.feedback"
+      ]
+    },
+    {
+      "id": "rel.tf.sequence.starts_sdo",
+      "from": "method.tf.sequence",
+      "to": "concept.tf.instrument_sdo_role",
+      "type": "uses",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.53.sequence"
+      ]
+    },
+    {
+      "id": "rel.tf.sequence.uses_prometeo",
+      "from": "method.tf.sequence",
+      "to": "concept.tf.instrument_prometeo_role",
+      "type": "uses",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.53.sequence"
+      ]
+    },
+    {
+      "id": "rel.tf.sequence.uses_eco",
+      "from": "method.tf.sequence",
+      "to": "concept.tf.instrument_eco_role",
+      "type": "uses",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.53.sequence"
+      ]
+    },
+    {
+      "id": "rel.tf.sdo_crosswalk.maps_vt",
+      "from": "formulation.tf.sdo_axes_crosswalk",
+      "to": "formal.tf.v_t",
+      "type": "maps_to",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.51.axes"
+      ]
+    },
+    {
+      "id": "rel.tf.sdo_crosswalk.maps_delta",
+      "from": "formulation.tf.sdo_axes_crosswalk",
+      "to": "formal.tf.delta",
+      "type": "maps_to",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.51.axes"
+      ]
+    },
+    {
+      "id": "rel.tf.volume2.pending_calibration",
+      "from": "concept.tf.volume2_program",
+      "to": "concept.tf.uncertainty_calibration",
+      "type": "addresses",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.tf.epilogue.calibration_gap",
+        "ev.tf.epilogue.program"
+      ]
+    },
+    {
+      "id": "rel.tf.vt.elaborates_children_aa2",
+      "from": "formal.tf.v_t",
+      "to": "formulation.children.aa2",
+      "type": "elaborates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.tf.prologue.children",
+        "ev.aa2.children.architecture"
+      ],
+      "rationale": "La obra posterior convierte las seis posiciones narrativo-ontológicas de AA-II en dominio categorial de v_t y les asigna rangos; AA-II no proporciona ese tipado."
+    },
+    {
+      "id": "rel.tf.c.reframes_identity_aa1",
+      "from": "formal.tf.c",
+      "to": "concept.identidad_sesgo.aa1",
+      "type": "reframes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.tf.prologue.c_internal",
+        "ev.aa1.identity.formation"
+      ],
+      "rationale": "Transformación formal agrupa identidad, sesgo y máscara dentro de c; AA-I mantenía identidad como condición previa que no integraba la fórmula como componente."
+    },
+    {
+      "id": "rel.tf.phi1.refines_aa2",
+      "from": "formal.tf.phi1",
+      "to": "formal.phi1.aa2",
+      "type": "reframes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.tf.22.phi1_inputs",
+        "ev.aa2.system.phi2"
+      ],
+      "rationale": "Ambas usan φ₁ para colapso, pero Transformación formal propone una signatura v_t×c→Acto que AA-II no tipa."
+    },
+    {
+      "id": "rel.tf.phi2.refines_aa2",
+      "from": "formal.tf.phi2",
+      "to": "formal.phi2.aa2",
+      "type": "reframes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.tf.13.phi2_update",
+        "ev.aa2.system.phi2"
+      ],
+      "rationale": "Transformación formal presenta φ₂ como actualización de I(t); AA-II la describe como operador global de selección y movilidad."
+    },
+    {
+      "id": "rel.tf.rstar.differs_axiom",
+      "from": "formal.tf.rstar",
+      "to": "formal.rstar",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.tf.21.eigenvector",
+        "ev.axiom.rstar"
+      ],
+      "rationale": "Transformación formal usa el autovector derecho de W; Axiomatización ya registrada usa Wᵀ. La orientación cambia qué centralidad se calcula."
+    },
+    {
+      "id": "rel.tf.aego.reframes_aa1",
+      "from": "formulation.aego.tf",
+      "to": "formulation.aego.aa1",
+      "type": "reframes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.tf.24.aego_phi2",
+        "ev.aa1.aego_formal"
+      ],
+      "rationale": "La obra fija indisponibilidad de φ₂ y congelamiento de I, mientras AA-I conserva formalizaciones rivales de derivada nula e indeterminación."
+    },
+    {
+      "id": "rel.tf.aego.reframes_aa3",
+      "from": "formulation.aego.tf",
+      "to": "formulation.aego.aa3",
+      "type": "reframes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.tf.24.aego_phi2",
+        "ev.aa3.aego"
+      ],
+      "rationale": "AA-III sitúa el producto diferencial nulo sobre el campo con voluntad e historia persistentes; Transformación formal declara φ₂ indisponible e I congelada."
+    },
+    {
+      "id": "rel.tf.collective_ego.elaborates_aa4",
+      "from": "concept.tf.collective_ego",
+      "to": "formulation.corporate_ego.aa4",
+      "type": "elaborates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.tf.31.collective_ego",
+        "ev.aa4.corporate.ego"
+      ],
+      "rationale": "La personalidad funcional corporativa de AA-IV recibe aquí una integral, componentes y un índice de coherencia, sin demostración de equivalencia."
+    },
+    {
+      "id": "rel.tf.collective_ego.elaborates_aa5",
+      "from": "concept.tf.collective_ego",
+      "to": "concept.state_ego.aa5",
+      "type": "elaborates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.tf.31.collective_ego",
+        "ev.aa5.collapse.state"
+      ],
+      "rationale": "El ego estatal de AA-V se generaliza a cualquier colectivo y se parametriza; se conserva la formulación estatal histórica."
+    },
+    {
+      "id": "rel.tf.fiscal.elaborates_aa4",
+      "from": "concept.tf.fiscal_cession_phi2",
+      "to": "concept.contrato_fiscal.aa4",
+      "type": "elaborates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.tf.33.cession_phi2",
+        "ev.aa4.appendix3.sovereignty"
+      ],
+      "rationale": "Transformación formal traduce la cesión fiscal de libertades de AA-IV como cesión del ejercicio colectivo de φ₂."
+    },
+    {
+      "id": "rel.tf.state_ego.elaborates_aa5",
+      "from": "formulation.tf.state_ego",
+      "to": "concept.state_ego.aa5",
+      "type": "elaborates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.tf.33.state_parameters",
+        "ev.aa5.appendix.ego_state"
+      ],
+      "rationale": "La obra añade R*, α, Δ e IIC al ego estatal construido por AA-V."
+    },
+    {
+      "id": "rel.tf.hume.elaborates_aa5",
+      "from": "formulation.tf.hume_response",
+      "to": "formulation.hume_scales.aa5",
+      "type": "elaborates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.tf.33.hume",
+        "ev.aa5.prelim.hume"
+      ],
+      "rationale": "Ambas responden mediante cambio de escala; Transformación formal lo reexpresa como paso de causalidad individual a φ₂ colectiva."
+    },
+    {
+      "id": "rel.tf.rights.reframes_aa5",
+      "from": "formulation.tf.rights_phi2",
+      "to": "formulation.human_rights.aa5",
+      "type": "reframes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.tf.33.rights",
+        "ev.aa5.rights.limits_human"
+      ],
+      "rationale": "AA-V deriva derechos de deuda tributaria; Transformación formal los formula como capacidad φ₂ retenida."
+    },
+    {
+      "id": "rel.tf.rights.differs_telar",
+      "from": "formulation.tf.rights_phi2",
+      "to": "formulation.rights_conditions.telar",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.tf.33.rights",
+        "ev.telar.ch4.rights"
+      ],
+      "rationale": "El telar funda el contrato en dignidad y condiciones de posibilidad; Transformación formal lo expresa como retención de autodeterminación."
+    },
+    {
+      "id": "rel.tf.imputation.elaborates_aa4",
+      "from": "concept.tf.imputation_external_phi2",
+      "to": "concept.imputacion_causal.aa4",
+      "type": "elaborates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.tf.13.external_imputation",
+        "ev.aa4.dolo.causal_order"
+      ],
+      "rationale": "La imputación causal de AA-IV es reinterpretada como φ₂ colectiva; la equivalencia no está establecida en AA-IV."
+    },
+    {
+      "id": "rel.tf.imputation.elaborates_masks",
+      "from": "concept.tf.imputation_external_phi2",
+      "to": "concept.causal_imputation.mask",
+      "type": "elaborates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.tf.13.external_imputation",
+        "ev.mask.imputation.causality_fraud"
+      ],
+      "rationale": "Máscaras formula imputación por causalidad; Transformación formal añade distinción entre señal exterior e integración interior."
+    },
+    {
+      "id": "rel.tf.identity.differs_telar",
+      "from": "formal.tf.I",
+      "to": "concept.identity_content.telar",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.tf.13.phi2_update",
+        "ev.telar.ch2.identity_ego"
+      ],
+      "rationale": "Ambas remiten a historia acumulada, pero Transformación formal trata I(t) como estado en una ecuación y El telar como contenido cambiante organizado por un ego permanente."
+    },
+    {
+      "id": "rel.tf.derivative.reframes_aa4",
+      "from": "formulation.tf.derivative_nonmath",
+      "to": "formal.derivatives.aa4",
+      "type": "reframes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.tf.13.derivative_nonmath",
+        "ev.aa4.appendix2.derivatives"
+      ],
+      "rationale": "Transformación formal aclara que la derivada exterior de AA-IV no es una derivada matemática, sin resolver el estatuto de δ_int y δ_ext."
+    },
+    {
+      "id": "rel.tf.sdo.extends_aego_sdo",
+      "from": "formulation.tf.sdo_axes_crosswalk",
+      "to": "formulation.aego.sdo",
+      "type": "extends",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.tf.51.retrospective",
+        "ev.sdo.aego"
+      ],
+      "rationale": "La obra declara que el mapeo de cinco ejes a parámetros es una derivación retrospectiva propia, no contenido original del SDO."
+    },
+    {
+      "id": "rel.tf.fiscal_function.elaborates_contract",
+      "from": "formal.tf.T_i",
+      "to": "concept.contrato_fiscal.aa4",
+      "type": "formalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.tf.33.fiscal_formula",
+        "ev.aa4.appendix3.sovereignty"
+      ],
+      "rationale": "La función fiscal intenta cuantificar el contrato previo, pero deja f, unidades y fundamento distributivo sin especificar."
     }
   ],
   "routes": [
@@ -15265,6 +18233,11 @@
           "order": 11,
           "evidence_id": "ev.telar.ch2.identity_ego",
           "reason": "Contrasta ego estructural permanente e identidad-contenido de El telar."
+        },
+        {
+          "order": 12,
+          "evidence_id": "ev.tf.13.phi2_update",
+          "reason": "Precisa la actualización temporal posterior sin borrar formulaciones previas."
         }
       ],
       "must_surface_review_items": [
@@ -15278,7 +18251,10 @@
         "review.mask.identity_ego_inertia",
         "review.telar.selfdetermination_crosswalk",
         "review.telar.ego_crosswalk",
-        "review.telar.identity_crosswalk"
+        "review.telar.identity_crosswalk",
+        "review.tf.phi1_typing",
+        "review.tf.phi2_typing",
+        "review.tf.c_internal_crosswalk"
       ]
     },
     {
@@ -15315,11 +18291,19 @@
           "order": 5,
           "evidence_id": "ev.axiom.translation",
           "reason": "Verifica correspondencias terminológicas."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.tf.epilogue.calibration_gap",
+          "reason": "Impide tratar las fórmulas como modelo ya validado."
         }
       ],
       "must_surface_review_items": [
         "review.aa2.phi2_function_change",
-        "review.aa2.alpha_symbol_collision"
+        "review.aa2.alpha_symbol_collision",
+        "review.tf.phi1_typing",
+        "review.tf.phi2_typing",
+        "review.tf.volume2_validation"
       ]
     },
     {
@@ -15351,10 +18335,17 @@
           "order": 4,
           "evidence_id": "ev.axiom.translation",
           "reason": "Traducción a la noción de imputación causal."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.tf.21.eigenvector",
+          "reason": "Contrasta la orientación matricial de Transformación formal."
         }
       ],
       "must_surface_review_items": [
-        "review.rstar.sink_irreducibility"
+        "review.rstar.sink_irreducibility",
+        "review.tf.rstar_orientation",
+        "review.tf.rstar_target_centrality"
       ]
     },
     {
@@ -15420,6 +18411,11 @@
           "order": 11,
           "evidence_id": "ev.aa5.friction.aego",
           "reason": "Extiende Damasén y Peribea a escala estatal."
+        },
+        {
+          "order": 12,
+          "evidence_id": "ev.tf.24.aego_phi2",
+          "reason": "Añade la reformulación de φ₂ indisponible e I congelada."
         }
       ],
       "must_surface_review_items": [
@@ -15430,7 +18426,9 @@
         "review.aa3.aego_regime_derivative",
         "review.aa3.phi_functions",
         "review.aa4.damasen_crosswalk",
-        "review.aa5.state_will"
+        "review.aa5.state_will",
+        "review.tf.aego_crosswalk",
+        "review.tf.aego_clinical"
       ]
     },
     {
@@ -17881,6 +20879,11 @@
           "order": 5,
           "evidence_id": "ev.telar.ch4.fiscal_dimensions",
           "reason": "Añade las tres dimensiones de deuda de El telar."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.tf.33.fiscal_formula",
+          "reason": "Añade función fiscal posterior sin adjudicar su fundamento."
         }
       ],
       "must_surface_review_items": [
@@ -17891,7 +20894,9 @@
         "review.aa4.fiscal_crosswalk",
         "review.telar.fiscal_crosswalk",
         "review.telar.fiscal_legal_basis",
-        "review.telar.fiscal_damage"
+        "review.telar.fiscal_damage",
+        "review.tf.fiscal_function",
+        "review.tf.rights_crosswalk"
       ]
     },
     {
@@ -17954,13 +20959,20 @@
           "order": 4,
           "evidence_id": "ev.aa5.appendix.ego_state",
           "reason": "Consolida la fórmula."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.tf.33.state_parameters",
+          "reason": "Añade parametrización posterior del ego estatal."
         }
       ],
       "must_surface_review_items": [
         "review.aa5.state_formula",
         "review.aa5.state_will",
         "review.aa5.responsibility_crosswalk",
-        "review.aa5.editorial_notation"
+        "review.aa5.editorial_notation",
+        "review.tf.historical_delta",
+        "review.tf.state_force_alpha"
       ]
     },
     {
@@ -20167,12 +23179,12 @@
         },
         {
           "order": 5,
-            "evidence_id": "ev.aa5.collapse.contract",
+          "evidence_id": "ev.aa5.collapse.contract",
           "reason": "Fija contrato desarrollado."
         },
         {
           "order": 6,
-            "evidence_id": "ev.aq.forgiveness.forms",
+          "evidence_id": "ev.aq.forgiveness.forms",
           "reason": "Fija dos perdones."
         },
         {
@@ -20215,6 +23227,658 @@
         "review.telar.collective_forgiveness",
         "review.telar.myth_sources",
         "review.telar.responsibility_constraints"
+      ]
+    },
+    {
+      "id": "route.tf.architecture",
+      "purpose": "Recorrer arquitectura, programa y límites de la obra.",
+      "triggers": [
+        "Transformación formal",
+        "arquitectura TF"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.tf.prelim.architecture",
+          "reason": "Fija programa y unidades."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.tf.tres_formulas",
+          "reason": "Introduce las tres fórmulas."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.tf.43.limits",
+          "reason": "Delimita alcance ontológico."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.tf.epilogue.calibration_gap",
+          "reason": "Distingue formalización de calibración."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.proof_status",
+        "review.tf.volume2_validation"
+      ]
+    },
+    {
+      "id": "route.tf.formulas_crosswalk",
+      "purpose": "Contrastar fórmulas de ego y mediaciones sin fusionar versiones.",
+      "triggers": [
+        "φ1 TF",
+        "φ2 TF",
+        "ego formal"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.tf.tres_formulas",
+          "reason": "Fija fórmulas de partida."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.tf.correspondencias",
+          "reason": "Registra cruce autoral."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.tf.22.phi1_inputs",
+          "reason": "Define entradas de φ₁."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.tf.13.phi2_update",
+          "reason": "Expresa actualización de φ₂."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aa2.system.phi2",
+          "reason": "Conserva la formulación de AA-II."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.phi1_typing",
+        "review.tf.phi2_typing",
+        "review.tf.c_internal_crosswalk"
+      ]
+    },
+    {
+      "id": "route.tf.identity_claim",
+      "purpose": "Examinar el estatuto de la identidad interior/exterior.",
+      "triggers": [
+        "identidad SDO Prometeo",
+        "isomorfismo TF"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.tf.prologue.identity_claim",
+          "reason": "Enuncia la tesis."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.tf.11.isomorphism",
+          "reason": "La califica de identidad."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.tf.12.identity_types",
+          "reason": "Distingue sentidos de identidad."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.tf.12.proposition",
+          "reason": "Declara demostración."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.tf.epilogue.claimed_proof",
+          "reason": "Reitera pretensión de prueba."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.proof_status",
+        "review.tf.identity_mapping"
+      ]
+    },
+    {
+      "id": "route.tf.rstar",
+      "purpose": "Reconstruir grafo, pesos, R* y condiciones de validez.",
+      "triggers": [
+        "R* TF",
+        "grafo causal TF",
+        "responsabilidad neta"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.tf.21.condition",
+          "reason": "Fija condición causal."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.tf.21.graph",
+          "reason": "Define G, N, E y W."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.tf.21.eigenvector",
+          "reason": "Da ecuación y normalización."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.tf.21.rnet",
+          "reason": "Introduce descuento por S."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.tf.21.limits",
+          "reason": "Reconoce límites."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.tf.21.pf_epsilon",
+          "reason": "Añade regularización."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.rstar_orientation",
+        "review.tf.rstar_target_centrality",
+        "review.tf.pf_epsilon",
+        "review.tf.normalization_completeness",
+        "review.tf.rnet_redistribution"
+      ]
+    },
+    {
+      "id": "route.tf.s",
+      "purpose": "Auditar condicionamiento S y sus rangos.",
+      "triggers": [
+        "S TF",
+        "condicionamiento Hijos"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.tf.22.phi1_inputs",
+          "reason": "Sitúa v_t y c."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.tf.22.s_definition",
+          "reason": "Define la razón."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.tf.22.child_ranges",
+          "reason": "Asigna rangos."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.tf.22.situational",
+          "reason": "Niega fijación por actor."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.tf.22.limit_calibration",
+          "reason": "Reconoce provisionalidad."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.s_weights",
+        "review.tf.s_ranges",
+        "review.tf.editorial_codes"
+      ]
+    },
+    {
+      "id": "route.tf.alpha",
+      "purpose": "Auditar integración α, tiempo y escala.",
+      "triggers": [
+        "alpha TF",
+        "integración φ2"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.tf.23.integration_levels",
+          "reason": "Distingue niveles."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.tf.23.temporal_phi2",
+          "reason": "Distingue momentos."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.tf.23.child_alpha",
+          "reason": "Asigna rangos."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.tf.23.alpha_scale",
+          "reason": "Da escala."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.tf.23.alpha_time",
+          "reason": "Relaciona variación e historia."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.tf.23.alpha_pattern",
+          "reason": "Separa acto y patrón."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.alpha_measurement",
+        "review.tf.alpha_irreversibility",
+        "review.tf.loss_alpha_ceiling"
+      ]
+    },
+    {
+      "id": "route.tf.delta_aego",
+      "purpose": "Seguir Δ y reformulaciones de Aego.",
+      "triggers": [
+        "Delta TF",
+        "Aego TF"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.tf.24.delta_states",
+          "reason": "Clasifica signos."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.tf.24.origins",
+          "reason": "Separa orígenes."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.tf.24.aego_phi2",
+          "reason": "Redefine Aego."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.tf.24.sdo_criteria",
+          "reason": "Da criterios."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.tf.24.delta_temporal_collective",
+          "reason": "Extiende escalas."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.aa3.aego",
+          "reason": "Conserva formulación AA-III."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.alpha_comparability",
+        "review.tf.aego_crosswalk",
+        "review.tf.aego_clinical",
+        "review.tf.delta_net"
+      ]
+    },
+    {
+      "id": "route.tf.collective_iic",
+      "purpose": "Reconstruir ego colectivo e IIC.",
+      "triggers": [
+        "ego colectivo TF",
+        "IIC"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.tf.31.collective_ego",
+          "reason": "Define no reducibilidad."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.tf.31.collective_components",
+          "reason": "Expone operadores."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.tf.31.iic_definition",
+          "reason": "Define correlación."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.tf.31.iic_scale",
+          "reason": "Interpreta valores."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.tf.31.collective_aego",
+          "reason": "Aplica Aego."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.tf.31.iic_protocol",
+          "reason": "Da protocolo."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.collective_nonreduction",
+        "review.tf.iic_correlation",
+        "review.tf.iic_scale",
+        "review.tf.iic_aego_reverse"
+      ]
+    },
+    {
+      "id": "route.tf.iic_adjustment",
+      "purpose": "Auditar fórmulas de ajuste institucional.",
+      "triggers": [
+        "ajuste IIC w",
+        "beta TF"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.tf.31.w_adjustment",
+          "reason": "Da primera fórmula."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.tf.32.iic_s",
+          "reason": "Relaciona IIC y S."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.tf.32.adjustment_variants",
+          "reason": "Muestra variantes."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.tf.32.rstar_migration",
+          "reason": "Aplica migración."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.tf.32.protocol_beta",
+          "reason": "Fija β provisional."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.w_adjustment_bounds",
+        "review.tf.adjustment_variants",
+        "review.tf.iic_s_formula",
+        "review.tf.adjustment_circularity",
+        "review.tf.beta_default"
+      ]
+    },
+    {
+      "id": "route.tf.state_fiscal",
+      "purpose": "Contrastar soberanía, derechos y función fiscal con F2.",
+      "triggers": [
+        "Estado TF",
+        "contrato fiscal TF",
+        "derechos φ2"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.tf.33.hume",
+          "reason": "Formula puente normativo."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.tf.33.cession_phi2",
+          "reason": "Define cesión."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.tf.33.sovereignty_force",
+          "reason": "Atribuye soberanía."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.tf.33.rights",
+          "reason": "Formula derechos."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.tf.33.fiscal_formula",
+          "reason": "Da T_i."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.tf.33.state_parameters",
+          "reason": "Parametriza Estado."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.state_force_alpha",
+        "review.tf.hume_bridge",
+        "review.tf.fiscal_function",
+        "review.tf.rights_crosswalk",
+        "review.tf.historical_delta"
+      ]
+    },
+    {
+      "id": "route.tf.uncertainty",
+      "purpose": "Auditar intervalos, sensibilidad y robustez.",
+      "triggers": [
+        "incertidumbre TF",
+        "sensibilidad extendida"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.tf.41.uncertainty_types",
+          "reason": "Distingue estatutos."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.tf.41.representation",
+          "reason": "Define representaciones."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.tf.41.sensitivity",
+          "reason": "Propone análisis."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.tf.42.child_probability",
+          "reason": "Añade probabilidades."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.tf.42.s_interval",
+          "reason": "Propaga S."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.tf.42.rnet_delta_ranges",
+          "reason": "Propaga índices."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.tf.42.sensitivity_methods",
+          "reason": "Compara métodos."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.tf.42.priority",
+          "reason": "Prioriza reducción."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.probability_calibration",
+        "review.tf.interval_mixture",
+        "review.tf.interval_dependencies",
+        "review.tf.vertex_robustness",
+        "review.tf.priority_formula"
+      ]
+    },
+    {
+      "id": "route.tf.limits",
+      "purpose": "Conservar límites ontológicos y contradicciones de calculabilidad.",
+      "triggers": [
+        "límites TF",
+        "incertidumbre ontológica"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.tf.43.limits",
+          "reason": "Enumera tres límites."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.tf.43.instrument_boundaries",
+          "reason": "Delimita observación."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.tf.43.calculable_claims",
+          "reason": "Declara calculabilidad."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.tf.43.limit_analogies",
+          "reason": "Califica analogías."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.limit_proof",
+        "review.tf.calculable_claim"
+      ]
+    },
+    {
+      "id": "route.tf.sdo",
+      "purpose": "Auditar traducción retrospectiva del SDO.",
+      "triggers": [
+        "SDO TF",
+        "ejes SDO parámetros"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.tf.51.sdo_role",
+          "reason": "Asigna papel."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.tf.51.axes",
+          "reason": "Mapea ejes."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.tf.51.loss_ceiling",
+          "reason": "Expone tensión de α."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.tf.51.retrospective",
+          "reason": "Declara derivación nueva."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.tf.51.ethics",
+          "reason": "Marca límites."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.sdo_crosswalk",
+        "review.tf.loss_alpha_ceiling"
+      ]
+    },
+    {
+      "id": "route.tf.eco",
+      "purpose": "Auditar uso clínico de ECO sin asumir validación.",
+      "triggers": [
+        "ECO TF",
+        "intervención alpha"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.tf.52.eco_role",
+          "reason": "Define intervención."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.tf.52.origin_a",
+          "reason": "Protocolo A."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.tf.52.origin_b",
+          "reason": "Protocolo B."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.tf.52.alpha_work",
+          "reason": "Describe trabajo."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.tf.52.feedback",
+          "reason": "Formula cambio."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.tf.52.ethics_confidentiality",
+          "reason": "Fija límites."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.eco_clinical_safety",
+        "review.tf.consent_confidentiality",
+        "review.tf.feedback_freedom"
+      ]
+    },
+    {
+      "id": "route.tf.implementation",
+      "purpose": "Delimitar qué puede implementarse y qué requiere adjudicación o validación.",
+      "triggers": [
+        "implementar TF",
+        "software Transformación formal"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.tf.53.sequence",
+          "reason": "Ordena instrumentos."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.tf.53.thresholds",
+          "reason": "Da umbrales."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.tf.53.limit_cases",
+          "reason": "Expone límites."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.tf.53.admitted_unvalidated",
+          "reason": "Reconoce validaciones pendientes."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.tf.epilogue.calibration_gap",
+          "reason": "Enumera parámetros sin calibrar."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.tf.epilogue.program",
+          "reason": "Remite a trabajo futuro."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.rstar_orientation",
+        "review.tf.phi1_typing",
+        "review.tf.phi2_typing",
+        "review.tf.adjustment_variants",
+        "review.tf.delta_thresholds",
+        "review.tf.volume2_validation"
       ]
     }
   ],
@@ -22826,6 +26490,809 @@
         "ev.telar.appendix.chronology"
       ],
       "why_not_auto_resolved": "Los apéndices registran autores o capítulos no visibles en el cuerpo correspondiente, omiten otros usos y sitúan notas del capítulo X y glosario dentro del epílogo derivado."
+    },
+    {
+      "id": "review.tf.proof_status",
+      "subject": "formulation.tf.identity_sdo_prometeo",
+      "question": "¿La identidad declarada entre perspectivas está demostrada o solo postulada mediante correspondencias?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "doctrinal_use"
+      ],
+      "evidence": [
+        "ev.tf.11.isomorphism",
+        "ev.tf.12.proposition",
+        "ev.tf.epilogue.claimed_proof"
+      ],
+      "why_not_auto_resolved": "El texto denomina prueba a su reconstrucción ontológica, pero no ofrece demostración formal independiente."
+    },
+    {
+      "id": "review.tf.identity_mapping",
+      "subject": "formulation.tf.identity_sdo_prometeo",
+      "question": "¿Qué condiciones harían biyectiva o isomorfa la correspondencia SDO-Prometeo?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.tf.11.isomorphism",
+        "ev.tf.correspondencias"
+      ],
+      "why_not_auto_resolved": "Se afirma identidad sin definir estructuras, morfismos ni preservación."
+    },
+    {
+      "id": "review.tf.phi1_typing",
+      "subject": "formal.tf.phi1",
+      "question": "¿Cuál es la signatura matemática completa de φ₁?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.tf.tres_formulas",
+        "ev.tf.22.phi1_inputs"
+      ],
+      "why_not_auto_resolved": "v_t, c y Acto no comparten espacios formalmente definidos."
+    },
+    {
+      "id": "review.tf.phi2_typing",
+      "subject": "formal.tf.phi2",
+      "question": "¿Cuál es la signatura de φ₂ y cómo se representa I(t)?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.tf.13.phi2_update"
+      ],
+      "why_not_auto_resolved": "La ecuación de actualización no define espacios, operación ni propiedades."
+    },
+    {
+      "id": "review.tf.c_internal_crosswalk",
+      "subject": "formal.tf.c",
+      "question": "¿Puede c identificar sin pérdida sesgo, identidad y máscara heredados?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.tf.prologue.c_internal",
+        "ev.aa1.identity.bias_boundary",
+        "ev.mask.identity.definition"
+      ],
+      "why_not_auto_resolved": "Las obras anteriores distinguen funciones y estatutos que la variable posterior agrupa.",
+      "related_relation": "rel.tf.c.reframes_identity_aa1"
+    },
+    {
+      "id": "review.tf.rstar_orientation",
+      "subject": "formal.tf.rstar",
+      "question": "¿Debe R* calcularse con W o con Wᵀ?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.tf.21.eigenvector",
+        "ev.axiom.rstar"
+      ],
+      "why_not_auto_resolved": "Las dos obras registran orientaciones opuestas y producen centralidades distintas.",
+      "related_relation": "rel.tf.rstar.differs_axiom"
+    },
+    {
+      "id": "review.tf.rstar_target_centrality",
+      "subject": "formal.tf.rstar",
+      "question": "¿La orientación elegida mide influencia causal emitida o recibida?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.tf.21.graph",
+        "ev.tf.21.eigenvector"
+      ],
+      "why_not_auto_resolved": "La convención de w_ij y la interpretación verbal no eliminan la ambigüedad matricial."
+    },
+    {
+      "id": "review.tf.pf_epsilon",
+      "subject": "formal.tf.rstar",
+      "question": "¿La regularización ε conserva el significado causal y qué ε usar?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.tf.21.pf_epsilon"
+      ],
+      "why_not_auto_resolved": "Añadir todas las aristas garantiza positividad a costa de introducir causalidad artificial."
+    },
+    {
+      "id": "review.tf.normalization_completeness",
+      "subject": "formal.tf.rstar",
+      "question": "¿Puede ΣR*=1 probar completitud del mapa causal?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.tf.21.eigenvector",
+        "ev.tf.21.limits"
+      ],
+      "why_not_auto_resolved": "La propia obra reconoce que cualquier vector normalizado suma uno aunque falten nodos."
+    },
+    {
+      "id": "review.tf.shapley_uniqueness",
+      "subject": "formal.tf.rstar",
+      "question": "¿Está justificada la afirmación de que Shapley es la única distribución equitativa?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.tf.13.nonconventional"
+      ],
+      "why_not_auto_resolved": "No se exponen axiomas, juego coalicional ni prueba de unicidad."
+    },
+    {
+      "id": "review.tf.s_weights",
+      "subject": "formal.tf.S",
+      "question": "¿Cómo se definen y estiman peso_c y peso_vt?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.tf.22.s_definition"
+      ],
+      "why_not_auto_resolved": "La razón es calculable solo si los pesos y su escala quedan especificados."
+    },
+    {
+      "id": "review.tf.s_ranges",
+      "subject": "formulation.tf.child_s_ranges",
+      "question": "¿Qué evidencia calibra los intervalos S por Hijo?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "clinical_application"
+      ],
+      "evidence": [
+        "ev.tf.22.child_ranges",
+        "ev.tf.22.limit_calibration"
+      ],
+      "why_not_auto_resolved": "La obra los declara coherentes y provisionales, no validados."
+    },
+    {
+      "id": "review.tf.rnet_redistribution",
+      "subject": "formal.tf.rstar_net",
+      "question": "¿El descuento R*(1−S) requiere redistribuir la masa causal descontada?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.tf.21.rnet",
+        "ev.tf.22.rnet"
+      ],
+      "why_not_auto_resolved": "La fórmula reduce la suma y no especifica destino ni interpretación de la diferencia."
+    },
+    {
+      "id": "review.tf.rstar_benefit",
+      "subject": "formal.tf.delta_b",
+      "question": "¿La centralidad de beneficio y la apropiación β son conmensurables y normativamente comparables?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "policy_application"
+      ],
+      "evidence": [
+        "ev.tf.21.rstar_b"
+      ],
+      "why_not_auto_resolved": "La igualdad de escala no demuestra equivalencia conceptual ni criterio de justicia."
+    },
+    {
+      "id": "review.tf.beta_collision",
+      "subject": "formal.tf.beta_adjustment",
+      "question": "¿Deben distinguirse notacionalmente β de beneficio y β de ajuste?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.tf.21.rstar_b",
+        "ev.tf.32.protocol_beta"
+      ],
+      "why_not_auto_resolved": "La misma letra representa participación de beneficio y sensibilidad de ajuste."
+    },
+    {
+      "id": "review.tf.alpha_measurement",
+      "subject": "formal.tf.alpha",
+      "question": "¿Cómo se observa y valida α sin confundir autoinforme, juicio clínico y conducta?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "clinical_application"
+      ],
+      "evidence": [
+        "ev.tf.23.alpha_scale",
+        "ev.tf.43.instrument_boundaries"
+      ],
+      "why_not_auto_resolved": "La escala combina niveles ontológicos y clínicos sin instrumento validado."
+    },
+    {
+      "id": "review.tf.alpha_comparability",
+      "subject": "formal.tf.delta",
+      "question": "¿R* y α son magnitudes conmensurables para sustraerse?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.tf.11.rstar_delta",
+        "ev.tf.12.parameter_status"
+      ],
+      "why_not_auto_resolved": "R* surge de una red normalizada y α de una escala interior no calibrada."
+    },
+    {
+      "id": "review.tf.alpha_irreversibility",
+      "subject": "formal.tf.alpha",
+      "question": "¿Cómo puede disminuir α si I(t) conserva irreversiblemente lo integrado?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "doctrinal_use"
+      ],
+      "evidence": [
+        "ev.tf.23.alpha_time"
+      ],
+      "why_not_auto_resolved": "El texto distingue acceso actual de contenido histórico, pero no formaliza ambos estados."
+    },
+    {
+      "id": "review.tf.aego_crosswalk",
+      "subject": "formulation.aego.tf",
+      "question": "¿Qué relación doctrinal exacta guarda esta indisponibilidad de φ₂ con AA-I y AA-III?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.tf.24.aego_phi2",
+        "ev.aa1.aego_formal",
+        "ev.aa3.aego"
+      ],
+      "why_not_auto_resolved": "Cambian operador, estado de I y locus del producto nulo; el corpus no adjudica equivalencia.",
+      "related_relation": "rel.tf.aego.reframes_aa3"
+    },
+    {
+      "id": "review.tf.aego_clinical",
+      "subject": "concept.tf.aego_origin_b",
+      "question": "¿Qué criterios separan límite ontológico, diagnóstico clínico e incapacidad jurídica?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_application",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.tf.24.sdo_criteria",
+        "ev.tf.24.aego_ethics"
+      ],
+      "why_not_auto_resolved": "La analogía cruza dominios sin validación clínica ni jurídica aportada."
+    },
+    {
+      "id": "review.tf.delta_net",
+      "subject": "formal.tf.delta_net",
+      "question": "¿Cómo se define α_neta y bajo qué escala opera Δ_neta?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.tf.24.delta_temporal_collective"
+      ],
+      "why_not_auto_resolved": "La obra introduce ambos símbolos sin construcción suficiente."
+    },
+    {
+      "id": "review.tf.collective_nonreduction",
+      "subject": "formal.tf.I_col",
+      "question": "¿Qué operación colectiva justifica la integral y su no reducibilidad?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.tf.31.collective_ego",
+        "ev.tf.31.collective_components"
+      ],
+      "why_not_auto_resolved": "φ₁_col, φ₂_col, v_col y c_col no reciben espacios ni regla de agregación."
+    },
+    {
+      "id": "review.tf.iic_correlation",
+      "subject": "formal.tf.IIC",
+      "question": "¿Qué observaciones emparejadas, escala y tratamiento de varianza definen IIC?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.tf.31.iic_definition",
+        "ev.tf.31.iic_protocol"
+      ],
+      "why_not_auto_resolved": "La correlación de Pearson requiere decisiones de medición y supuestos ausentes."
+    },
+    {
+      "id": "review.tf.iic_scale",
+      "subject": "formulation.tf.iic_scale",
+      "question": "¿Cómo se adjudican límites de intervalos, incluido IIC=0?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.tf.31.iic_scale"
+      ],
+      "why_not_auto_resolved": "Los intervalos descriptivos se solapan en cero y no tienen calibración."
+    },
+    {
+      "id": "review.tf.iic_aego_reverse",
+      "subject": "concept.tf.collective_aego",
+      "question": "¿IIC negativo significa φ₂ inversa o ausencia de φ₂?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.tf.31.iic_scale",
+        "ev.tf.31.collective_aego"
+      ],
+      "why_not_auto_resolved": "La obra llama Aego activo a inversión sistemática, en tensión con Aego como indisponibilidad."
+    },
+    {
+      "id": "review.tf.w_adjustment_bounds",
+      "subject": "formal.tf.w_adjusted",
+      "question": "¿Cómo permanece w_ajustado dentro de [0,1]?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.tf.31.w_adjustment"
+      ],
+      "why_not_auto_resolved": "La fórmula multiplicativa puede superar uno y no prescribe recorte o renormalización."
+    },
+    {
+      "id": "review.tf.adjustment_variants",
+      "subject": "formal.tf.w_adjusted",
+      "question": "¿Cuál de las fórmulas incompatibles de ajuste debe conservarse para implementación?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.tf.32.adjustment_variants",
+        "ev.tf.32.protocol_beta"
+      ],
+      "why_not_auto_resolved": "El capítulo usa variantes basadas en S e IIC que no son algebraicamente equivalentes."
+    },
+    {
+      "id": "review.tf.iic_s_formula",
+      "subject": "formal.tf.gamma",
+      "question": "¿Cómo se restringe S≈1−γ·IIC al rango [0,1]?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.tf.32.iic_s"
+      ],
+      "why_not_auto_resolved": "Con IIC negativo y γ positivo la expresión excede uno salvo regla adicional."
+    },
+    {
+      "id": "review.tf.adjustment_circularity",
+      "subject": "method.tf.iic_adjustment_protocol",
+      "question": "¿El ajuste de w introduce circularidad entre conducta, IIC, S y R*?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.tf.31.w_adjustment",
+        "ev.tf.32.iic_s",
+        "ev.tf.32.w_gap"
+      ],
+      "why_not_auto_resolved": "Los observables alimentan parámetros que luego explican los mismos patrones."
+    },
+    {
+      "id": "review.tf.beta_default",
+      "subject": "formal.tf.beta_adjustment",
+      "question": "¿Qué evidencia sostiene β=0.30?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.tf.32.protocol_beta",
+        "ev.tf.epilogue.calibration_gap"
+      ],
+      "why_not_auto_resolved": "Se presenta como valor provisional con referencia retrospectiva no acompañada de conjunto de datos."
+    },
+    {
+      "id": "review.tf.state_force_alpha",
+      "subject": "concept.tf.sovereignty_phi2",
+      "question": "¿Puede el Estado forzar α sin contradecir el límite de integración interior?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "policy_application"
+      ],
+      "evidence": [
+        "ev.tf.13.external_imputation",
+        "ev.tf.33.sovereignty_force"
+      ],
+      "why_not_auto_resolved": "Una sección niega que lo colectivo fuerce integración y otra atribuye al Estado capacidad de forzar α."
+    },
+    {
+      "id": "review.tf.hume_bridge",
+      "subject": "formulation.tf.hume_response",
+      "question": "¿El cambio de escala justifica normatividad o la presupone?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.tf.33.hume",
+        "ev.aa5.prelim.hume"
+      ],
+      "why_not_auto_resolved": "La emergencia colectiva se afirma como respuesta, pero no explicita una premisa normativa independiente.",
+      "related_relation": "rel.tf.hume.elaborates_aa5"
+    },
+    {
+      "id": "review.tf.fiscal_function",
+      "subject": "formal.tf.T_i",
+      "question": "¿Cuál es f, qué unidades usa y cómo integra beneficios o servicios recibidos?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "policy_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.tf.33.fiscal_formula"
+      ],
+      "why_not_auto_resolved": "La expresión deja indeterminada la función y convive con criterios distributivos adicionales."
+    },
+    {
+      "id": "review.tf.rights_crosswalk",
+      "subject": "formulation.tf.rights_phi2",
+      "question": "¿Cómo se relacionan φ₂ retenida, deuda tributaria y dignidad sin fusionar fundamentos?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.tf.33.rights",
+        "ev.aa5.rights.limits_human",
+        "ev.telar.ch4.dignity"
+      ],
+      "why_not_auto_resolved": "F2 conserva tres fundamentos históricos diferentes que F3 no adjudica.",
+      "related_relation": "rel.tf.rights.reframes_aa5"
+    },
+    {
+      "id": "review.tf.historical_delta",
+      "subject": "concept.tf.historical_delta",
+      "question": "¿Cómo se agregan R* y α a través del tiempo y cambios institucionales?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "policy_application"
+      ],
+      "evidence": [
+        "ev.tf.33.state_parameters"
+      ],
+      "why_not_auto_resolved": "Se afirma deuda acumulada sin operador temporal, descuento ni regla de continuidad."
+    },
+    {
+      "id": "review.tf.probability_calibration",
+      "subject": "formal.tf.P_children",
+      "question": "¿Cómo se estiman P(Hijo) y los parámetros de una Dirichlet?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.tf.42.child_probability",
+        "ev.tf.42.case_errors"
+      ],
+      "why_not_auto_resolved": "Se propone distribución sin datos, concentración ni tratamiento de ceros."
+    },
+    {
+      "id": "review.tf.interval_mixture",
+      "subject": "formal.tf.S_interval",
+      "question": "¿El promedio ponderado de extremos representa incertidumbre de mezcla o solo un intervalo heurístico?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.tf.42.s_interval"
+      ],
+      "why_not_auto_resolved": "La construcción no equivale en general al soporte ni a un intervalo de confianza."
+    },
+    {
+      "id": "review.tf.interval_dependencies",
+      "subject": "formal.tf.rstar_net_interval",
+      "question": "¿Cómo se preservan dependencias entre w, R*, S y α al propagar intervalos?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.tf.42.rnet_delta_ranges",
+        "ev.tf.41.representation"
+      ],
+      "why_not_auto_resolved": "Las fórmulas de extremos asumen combinabilidad que puede fallar con variables dependientes."
+    },
+    {
+      "id": "review.tf.vertex_robustness",
+      "subject": "formal.tf.robustness_extended",
+      "question": "¿La comprobación usa cuatro esquinas o 2^n vértices y cuándo Monte Carlo permite decir ‘todos’?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.tf.41.declarations",
+        "ev.tf.42.sensitivity_methods"
+      ],
+      "why_not_auto_resolved": "El texto alterna cuatro esquinas, 2^n y muestreo; solo el examen exhaustivo sostiene universalidad finita."
+    },
+    {
+      "id": "review.tf.priority_formula",
+      "subject": "formal.tf.priority_criterion",
+      "question": "¿La desigualdad de prioridad es dimensionalmente coherente?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.tf.42.priority"
+      ],
+      "why_not_auto_resolved": "Compara productos y una derivada con unidades no definidas."
+    },
+    {
+      "id": "review.tf.limit_proof",
+      "subject": "concept.tf.uncertainty_ontological",
+      "question": "¿Las analogías con Gödel y mecánica cuántica prueban los límites o solo los ilustran?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.tf.43.limits",
+        "ev.tf.43.limit_analogies"
+      ],
+      "why_not_auto_resolved": "La obra aclara parcialmente el carácter analógico, pero usa el vocabulario de demostración."
+    },
+    {
+      "id": "review.tf.calculable_claim",
+      "subject": "concept.tf.limit_vt_experience",
+      "question": "¿Puede R*neta calcularse sin acceso a experiencia interior si depende de S y v_t?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.tf.43.instrument_boundaries",
+        "ev.tf.43.calculable_claims"
+      ],
+      "why_not_auto_resolved": "La lista de magnitudes calculables no concuerda con dependencias declaradas."
+    },
+    {
+      "id": "review.tf.sdo_crosswalk",
+      "subject": "formulation.tf.sdo_axes_crosswalk",
+      "question": "¿Es válido atribuir retrospectivamente parámetros de F3 a los cinco ejes del SDO?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "clinical_application"
+      ],
+      "evidence": [
+        "ev.tf.51.axes",
+        "ev.tf.51.retrospective",
+        "ev.sdo.aego"
+      ],
+      "why_not_auto_resolved": "La propia obra identifica el cruce como derivación nueva, no como contenido del manual.",
+      "related_relation": "rel.tf.sdo.extends_aego_sdo"
+    },
+    {
+      "id": "review.tf.loss_alpha_ceiling",
+      "subject": "formal.tf.alpha",
+      "question": "¿α=1 es imposible por pérdida o posible con sentido especial?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "clinical_application"
+      ],
+      "evidence": [
+        "ev.tf.51.loss_ceiling",
+        "ev.tf.23.alpha_scale"
+      ],
+      "why_not_auto_resolved": "El texto sostiene ambas formulaciones sin regla de dominio que las reconcilie."
+    },
+    {
+      "id": "review.tf.eco_clinical_safety",
+      "subject": "concept.tf.instrument_eco_role",
+      "question": "¿Qué validación clínica y salvaguardas autorizan intervenir sobre α, trauma o Aego?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_application",
+        "safety_review"
+      ],
+      "evidence": [
+        "ev.tf.52.origin_b",
+        "ev.tf.52.alpha_work"
+      ],
+      "why_not_auto_resolved": "Se ofrecen protocolos clínicos sin evidencia de validación, cualificación o evaluación de daño."
+    },
+    {
+      "id": "review.tf.consent_confidentiality",
+      "subject": "method.tf.sequence",
+      "question": "¿Cómo se resuelven consentimiento y confidencialidad cuando SDO, Prometeo y ECO comparten datos?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_application",
+        "institutional_application"
+      ],
+      "evidence": [
+        "ev.tf.51.ethics",
+        "ev.tf.52.ethics_confidentiality"
+      ],
+      "why_not_auto_resolved": "La obra enuncia límites éticos pero no define gobernanza, acceso ni conflicto institucional."
+    },
+    {
+      "id": "review.tf.feedback_freedom",
+      "subject": "formal.tf.feedback_alpha",
+      "question": "¿Cómo es función α_{t+1}=f(intervención) compatible con α futura no predecible ni forzable?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "clinical_application"
+      ],
+      "evidence": [
+        "ev.tf.43.limits",
+        "ev.tf.52.feedback"
+      ],
+      "why_not_auto_resolved": "La relación funcional convive con una tesis explícita de libertad irreductible."
+    },
+    {
+      "id": "review.tf.delta_thresholds",
+      "subject": "formulation.tf.delta_thresholds",
+      "question": "¿Qué datos justifican los cortes 0.15 y 0.45?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "clinical_application",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.tf.53.thresholds",
+        "ev.tf.53.admitted_unvalidated"
+      ],
+      "why_not_auto_resolved": "Son umbrales prácticos declarados sin calibración ni análisis de sensibilidad."
+    },
+    {
+      "id": "review.tf.volume2_validation",
+      "subject": "concept.tf.volume2_program",
+      "question": "¿Qué afirmaciones quedan suspendidas hasta la calibración y validación del volumen II?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_application",
+        "implementation"
+      ],
+      "evidence": [
+        "ev.tf.53.admitted_unvalidated",
+        "ev.tf.epilogue.calibration_gap",
+        "ev.tf.epilogue.program"
+      ],
+      "why_not_auto_resolved": "La obra distingue estructura y calibración, pero mantiene lenguaje de prueba para resultados aún no contrastados."
+    },
+    {
+      "id": "review.tf.editorial_codes",
+      "subject": "formulation.tf.child_s_ranges",
+      "question": "¿Los códigos FAECE7, FAEEDA, E1F5EE y EEEDFE son restos editoriales?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "editorial_use"
+      ],
+      "evidence": [
+        "ev.tf.22.child_ranges"
+      ],
+      "why_not_auto_resolved": "Aparecen como cadenas aisladas dentro de la tabla sin función textual definida."
     }
   ],
   "tests": [
