@@ -1,9 +1,9 @@
 {
-  "map_version": "1.6.0",
+  "map_version": "1.7.0",
   "schema_status": "frozen",
   "phase": "F2",
   "purpose": "Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.",
-  "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 integra sistemáticamente el núcleo conceptual y ontológico del corpus; Caos y Afrodita Areia I–V quedan auditados por secciones, capítulos, apéndices y glosarios, conservando las evoluciones terminológicas, doctrinales, jurídicas y formales que requieren adjudicación.",
+  "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 integra sistemáticamente Caos, Afrodita Areia I–V y El dilema de Aquiles, auditados por sus unidades editoriales; se conservan las evoluciones terminológicas, doctrinales, psicológicas, jurídicas y formales que requieren adjudicación.",
   "works": [
     {
       "id": "CAOS",
@@ -64,6 +64,12 @@
       "title": "Metrología Causal: La ciencia de la medición causal",
       "source": "corpus/fuentes/Metrologia_Causal_La_ciencia_de_la_medicion_causal.md",
       "sha256": "f5a154fbeb8e82c89cb8fd935af7741e2f961bc8347d76c6efe413966a0c370f"
+    },
+    {
+      "id": "AQUILES",
+      "title": "El dilema de Aquiles o la disociación del ego",
+      "source": "corpus/fuentes/El_dilema_de_Aquiles_o_la_disociacion_del_ego.md",
+      "sha256": "ae930142db6d9a62b4bb591175b8f7169984a22bab1cd4bb780812ad76508615"
     }
   ],
   "evidence": [
@@ -3135,6 +3141,567 @@
       ],
       "section": "Glosario · escala a voluntad prestada",
       "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.aq.prelim.scope",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/00-preliminares.md",
+      "source_lines": [
+        1,
+        100
+      ],
+      "section": "Preliminares · estatuto híbrido y límites",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.aq.prelim.method",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/00-preliminares.md",
+      "source_lines": [
+        101,
+        200
+      ],
+      "section": "Preliminares · mito como instrumento analítico",
+      "evidence_type": "authorial_methodology"
+    },
+    {
+      "id": "ev.aq.prelim.sources",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/00-preliminares.md",
+      "source_lines": [
+        201,
+        290
+      ],
+      "section": "Preliminares · familias de fuentes y niveles de afirmación",
+      "evidence_type": "authorial_methodology"
+    },
+    {
+      "id": "ev.aq.prologue.dilemma",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/02-prologo.md",
+      "source_lines": [
+        291,
+        355
+      ],
+      "section": "Prólogo · dilema e imagen prestada",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.aq.prologue.triad",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/02-prologo.md",
+      "source_lines": [
+        356,
+        420
+      ],
+      "section": "Prólogo · ego, egolatría y egocentrismo",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.aq.prologue.promise",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/02-prologo.md",
+      "source_lines": [
+        421,
+        485
+      ],
+      "section": "Prólogo · paradoja, libertad y recorrido",
+      "evidence_type": "authorial_program"
+    },
+    {
+      "id": "ev.aq.ego.axis",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-01.md",
+      "source_lines": [
+        486,
+        620
+      ],
+      "section": "Capítulo I · ego como eje funcional",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.aq.ego.function_dynamic",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-01.md",
+      "source_lines": [
+        621,
+        760
+      ],
+      "section": "Capítulo I · ejercicio dinámico y dominios",
+      "evidence_type": "authorial_elaboration"
+    },
+    {
+      "id": "ev.aq.egolatry.forms",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-01.md",
+      "source_lines": [
+        761,
+        900
+      ],
+      "section": "Capítulo I · egolatría propia y prestada",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.aq.egocentrism.distinction",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-01.md",
+      "source_lines": [
+        901,
+        1030
+      ],
+      "section": "Capítulo I · egocentrismo y combinaciones",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.aq.ego.freedom_bond",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-01.md",
+      "source_lines": [
+        1031,
+        1179
+      ],
+      "section": "Capítulo I · libertad, responsabilidad y vínculo",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.aq.displacement.steps",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-02.md",
+      "source_lines": [
+        1180,
+        1335
+      ],
+      "section": "Capítulo II · cuatro movimientos del desplazamiento",
+      "evidence_type": "authorial_model"
+    },
+    {
+      "id": "ev.aq.recognition.modes",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-02.md",
+      "source_lines": [
+        1336,
+        1480
+      ],
+      "section": "Capítulo II · reconocimiento confirmatorio y constitutivo",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.aq.validation.dependence",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-02.md",
+      "source_lines": [
+        1481,
+        1600
+      ],
+      "section": "Capítulo II · dependencia de validación y rendimiento",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.aq.visibility.economy",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-02.md",
+      "source_lines": [
+        1601,
+        1720
+      ],
+      "section": "Capítulo II · economía contemporánea de visibilidad",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.aq.displacement.costs",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-02.md",
+      "source_lines": [
+        1721,
+        1855
+      ],
+      "section": "Capítulo II · costos, colapso y alternativa informativa",
+      "evidence_type": "authorial_synthesis"
+    },
+    {
+      "id": "ev.aq.myth.structure",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-03.md",
+      "source_lines": [
+        1856,
+        2010
+      ],
+      "section": "Capítulo III · Aquiles como estructura analítica",
+      "evidence_type": "authorial_interpretation"
+    },
+    {
+      "id": "ev.aq.kleos.freedom",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-03.md",
+      "source_lines": [
+        2011,
+        2170
+      ],
+      "section": "Capítulo III · kleos y servidumbre sustancial",
+      "evidence_type": "authorial_interpretation"
+    },
+    {
+      "id": "ev.aq.patroclus.armor",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-03.md",
+      "source_lines": [
+        2171,
+        2330
+      ],
+      "section": "Capítulo III · Patroclo, proyección y armadura",
+      "evidence_type": "authorial_interpretation"
+    },
+    {
+      "id": "ev.aq.heel.blindspot",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-03.md",
+      "source_lines": [
+        2331,
+        2430
+      ],
+      "section": "Capítulo III · talón como punto ciego estructural",
+      "evidence_type": "authorial_interpretation"
+    },
+    {
+      "id": "ev.aq.phthia.modern",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-03.md",
+      "source_lines": [
+        2431,
+        2542
+      ],
+      "section": "Capítulo III · Ftía y formas contemporáneas",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.aq.dissociation.definition",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-04.md",
+      "source_lines": [
+        2543,
+        2690
+      ],
+      "section": "Capítulo IV · disociación filosófica no diagnóstica",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.aq.dissociation.duality",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-04.md",
+      "source_lines": [
+        2691,
+        2810
+      ],
+      "section": "Capítulo IV · yo que actúa y yo que representa",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.aq.dissociation.mechanisms",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-04.md",
+      "source_lines": [
+        2811,
+        2950
+      ],
+      "section": "Capítulo IV · cuatro mecanismos de mantenimiento",
+      "evidence_type": "authorial_model"
+    },
+    {
+      "id": "ev.aq.body.witness",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-04.md",
+      "source_lines": [
+        2951,
+        3110
+      ],
+      "section": "Capítulo IV · invisibilidad y cuerpo testigo",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.aq.dissociation.degrees_relations",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-04.md",
+      "source_lines": [
+        3111,
+        3270
+      ],
+      "section": "Capítulo IV · grados y efectos relacionales",
+      "evidence_type": "authorial_typology"
+    },
+    {
+      "id": "ev.aq.fall.phases",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-05.md",
+      "source_lines": [
+        3271,
+        3440
+      ],
+      "section": "Capítulo V · inevitabilidad y fases de la caída",
+      "evidence_type": "authorial_model"
+    },
+    {
+      "id": "ev.aq.fall.ego_persists",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-05.md",
+      "source_lines": [
+        3441,
+        3560
+      ],
+      "section": "Capítulo V · persistencia y atrofia del yo",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.aq.fall.responses",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-05.md",
+      "source_lines": [
+        3561,
+        3700
+      ],
+      "section": "Capítulo V · hundimiento y apertura",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.aq.guilt.shame",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-05.md",
+      "source_lines": [
+        3701,
+        3810
+      ],
+      "section": "Capítulo V · culpa y vergüenza",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.aq.fall.threshold_others",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-05.md",
+      "source_lines": [
+        3811,
+        3938
+      ],
+      "section": "Capítulo V · entorno y umbral sin garantía",
+      "evidence_type": "authorial_synthesis"
+    },
+    {
+      "id": "ev.aq.hobbes.status",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-06.md",
+      "source_lines": [
+        3939,
+        4100
+      ],
+      "section": "Capítulo VI · estatuto del estado de naturaleza",
+      "evidence_type": "authorial_interpretation"
+    },
+    {
+      "id": "ev.aq.internal.leviathan",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-06.md",
+      "source_lines": [
+        4101,
+        4250
+      ],
+      "section": "Capítulo VI · imagen como Leviatán interior",
+      "evidence_type": "authorial_analogy"
+    },
+    {
+      "id": "ev.aq.relationship.sovereignty",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-06.md",
+      "source_lines": [
+        4251,
+        4380
+      ],
+      "section": "Capítulo VI · miedo y soberanía interpersonal",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.aq.forgiveness.forms",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-06.md",
+      "source_lines": [
+        4381,
+        4500
+      ],
+      "section": "Capítulo VI · perdón por miedo y soberano",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.aq.forgiveness.justice",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-06.md",
+      "source_lines": [
+        4501,
+        4629
+      ],
+      "section": "Capítulo VI · memoria, límites, justicia y orden",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.aq.return.framework",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-07.md",
+      "source_lines": [
+        4630,
+        4760
+      ],
+      "section": "Capítulo VII · retorno como reconocimiento",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.aq.return.autodetermination",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-07.md",
+      "source_lines": [
+        4761,
+        4900
+      ],
+      "section": "Capítulo VII · autodeterminación causal",
+      "evidence_type": "authorial_definition"
+    },
+    {
+      "id": "ev.aq.return.pain_practices",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-07.md",
+      "source_lines": [
+        4901,
+        5000
+      ],
+      "section": "Capítulo VII · dolor y disposiciones prácticas",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.aq.return.links_revision",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-07.md",
+      "source_lines": [
+        5001,
+        5120
+      ],
+      "section": "Capítulo VII · vínculos y prueba de revisión",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.aq.return.narrative_phthia",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-07.md",
+      "source_lines": [
+        5121,
+        5310
+      ],
+      "section": "Capítulo VII · identidad narrativa, cuidado y Ftía",
+      "evidence_type": "authorial_synthesis"
+    },
+    {
+      "id": "ev.aq.ethics.presence_performance",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-08.md",
+      "source_lines": [
+        5311,
+        5470
+      ],
+      "section": "Capítulo VIII · presencia y performance",
+      "evidence_type": "authorial_distinction"
+    },
+    {
+      "id": "ev.aq.ethics.links_decisions",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-08.md",
+      "source_lines": [
+        5471,
+        5630
+      ],
+      "section": "Capítulo VIII · vínculos y decisiones desde el eje",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.aq.ethics.generosity_body",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-08.md",
+      "source_lines": [
+        5631,
+        5790
+      ],
+      "section": "Capítulo VIII · generosidad acotada y cuerpo habitado",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.aq.ethics.responsibility_time",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-08.md",
+      "source_lines": [
+        5791,
+        5920
+      ],
+      "section": "Capítulo VIII · responsabilidad, posición y tiempo",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.aq.ethics.excellence_principles",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/capitulo-08.md",
+      "source_lines": [
+        5921,
+        6042
+      ],
+      "section": "Capítulo VIII · excelencia y cinco principios",
+      "evidence_type": "authorial_synthesis"
+    },
+    {
+      "id": "ev.aq.epilogue.tension",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/90-epilogo.md",
+      "source_lines": [
+        6043,
+        6160
+      ],
+      "section": "Epílogo · tensión constitutiva",
+      "evidence_type": "authorial_thesis"
+    },
+    {
+      "id": "ev.aq.epilogue.return_within",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/90-epilogo.md",
+      "source_lines": [
+        6161,
+        6260
+      ],
+      "section": "Epílogo · retorno dentro del retorno",
+      "evidence_type": "authorial_elaboration"
+    },
+    {
+      "id": "ev.aq.epilogue.myth_companion",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/90-epilogo.md",
+      "source_lines": [
+        6261,
+        6380
+      ],
+      "section": "Epílogo · Aquiles como compañía y posibilidad",
+      "evidence_type": "authorial_interpretation"
+    },
+    {
+      "id": "ev.aq.epilogue.productivity_others",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/90-epilogo.md",
+      "source_lines": [
+        6381,
+        6480
+      ],
+      "section": "Epílogo · productividad de la tensión y compasión",
+      "evidence_type": "authorial_application"
+    },
+    {
+      "id": "ev.aq.epilogue.closure",
+      "work_id": "AQUILES",
+      "segment": "corpus/libros/dilema-de-aquiles/90-epilogo.md",
+      "source_lines": [
+        6481,
+        6573
+      ],
+      "section": "Epílogo · arco, mar y autolocalización autoral",
+      "evidence_type": "authorial_closure"
     }
   ],
   "nodes": [
@@ -6838,6 +7405,469 @@
         "ev.aa5.appendix.damage"
       ],
       "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.scope.aq",
+      "kind": "formulation",
+      "label": "Estatuto declarado de El dilema de Aquiles",
+      "summary": "Ensayo híbrido filosófico, psicológico y épico: usa el mito como instrumento analítico, no como lectura filológica; niega ser manual clínico o de autoayuda.",
+      "evidence": [
+        "ev.aq.prelim.scope",
+        "ev.aq.prelim.method",
+        "ev.aq.prelim.sources"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.ego_axis.aq",
+      "kind": "concept",
+      "label": "Ego como eje de referencia",
+      "summary": "Función o perspectiva desde la cual el sujeto evalúa y actúa; puede ser ejercida, desplazada o recuperada por ámbitos.",
+      "evidence": [
+        "ev.aq.ego.axis",
+        "ev.aq.ego.function_dynamic"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.ego.aq",
+      "kind": "formulation",
+      "label": "Formulación del ego en Aquiles",
+      "summary": "El ego es el quién previo a su descripción: eje funcional y dinámico, no imagen ni sustancia fija.",
+      "evidence": [
+        "ev.aq.prologue.triad",
+        "ev.aq.ego.axis",
+        "ev.aq.ego.function_dynamic"
+      ],
+      "evidence_status": "explicit",
+      "subject": "concept.ego",
+      "role": "historical_formulation"
+    },
+    {
+      "id": "concept.ego_image.aq",
+      "kind": "concept",
+      "label": "Imagen del ego",
+      "summary": "Representación propia o ajena que puede informar al eje o sustituirlo y gobernar la conducta.",
+      "evidence": [
+        "ev.aq.prologue.dilemma",
+        "ev.aq.egolatry.forms"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.own_egolatry.aq",
+      "kind": "concept",
+      "label": "Egolatría propia",
+      "summary": "Culto a una imagen producida por el propio sujeto, rigidizada hasta impedir la revisión.",
+      "evidence": [
+        "ev.aq.prologue.triad",
+        "ev.aq.egolatry.forms"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.borrowed_egolatry.aq",
+      "kind": "concept",
+      "label": "Egolatría prestada",
+      "summary": "Culto a una imagen construida por otros que desplaza el eje propio; constituye el dilema de Aquiles.",
+      "evidence": [
+        "ev.aq.prologue.dilemma",
+        "ev.aq.egolatry.forms"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.egocentrism.aq",
+      "kind": "concept",
+      "label": "Egocentrismo en Aquiles",
+      "summary": "Colocación de la propia perspectiva en el centro relacional; se distingue tanto del ego funcional como de las dos egolatrías.",
+      "evidence": [
+        "ev.aq.prologue.triad",
+        "ev.aq.egocentrism.distinction"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.achilles_dilemma.aq",
+      "kind": "concept",
+      "label": "Dilema de Aquiles",
+      "summary": "Estructura en que el sujeto vive para una imagen externa y sacrifica la vida habitable desde el propio eje.",
+      "evidence": [
+        "ev.aq.prologue.dilemma",
+        "ev.aq.myth.structure"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.image_displacement.aq",
+      "kind": "concept",
+      "label": "Desplazamiento del ego por la imagen",
+      "summary": "Proceso sedimentario por el que una imagen parcial se internaliza, invierte la dirección causal y se expande a la persona completa.",
+      "evidence": [
+        "ev.aq.displacement.steps",
+        "ev.aq.displacement.costs"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.displacement_stages.aq",
+      "kind": "formulation",
+      "label": "Cuatro etapas del desplazamiento",
+      "summary": "Especialización, internalización, inversión y expansión describen la captura progresiva del eje.",
+      "evidence": [
+        "ev.aq.displacement.steps"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.confirming_recognition.aq",
+      "kind": "concept",
+      "label": "Reconocimiento confirmatorio",
+      "summary": "Mirada ajena que confirma información que el sujeto ya puede evaluar desde su eje.",
+      "evidence": [
+        "ev.aq.recognition.modes"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.constitutive_recognition.aq",
+      "kind": "concept",
+      "label": "Reconocimiento constitutivo",
+      "summary": "Mirada ajena que pasa a constituir la existencia evaluada del sujeto y lo deja sin solidez cuando falta.",
+      "evidence": [
+        "ev.aq.recognition.modes",
+        "ev.aq.validation.dependence"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.performance_identity.aq",
+      "kind": "concept",
+      "label": "Identidad como performance",
+      "summary": "Producción sostenida de una versión de sí para una audiencia externa o internalizada.",
+      "evidence": [
+        "ev.aq.validation.dependence",
+        "ev.aq.ethics.presence_performance"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.visibility_economy.aq",
+      "kind": "concept",
+      "label": "Economía de la visibilidad",
+      "summary": "Entorno digital y social que cuantifica y acelera la confirmación externa, presentado con reserva causal parcial.",
+      "evidence": [
+        "ev.aq.visibility.economy"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.achilles_myth.aq",
+      "kind": "formulation",
+      "label": "Lectura analítica de Aquiles",
+      "summary": "Relectura filosófica y psicoanalítica: kleos, Patroclo, armadura, talón y Ftía modelan imagen, proyección, punto ciego y retorno no realizado.",
+      "evidence": [
+        "ev.aq.prelim.method",
+        "ev.aq.myth.structure",
+        "ev.aq.kleos.freedom",
+        "ev.aq.patroclus.armor",
+        "ev.aq.heel.blindspot"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.kleos_image.aq",
+      "kind": "concept",
+      "label": "Kleos como imagen prestada",
+      "summary": "Gloria póstuma sostenida por la memoria ajena que organiza la elección de Aquiles.",
+      "evidence": [
+        "ev.aq.kleos.freedom",
+        "ev.aq.phthia.modern"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.heel_blindspot.aq",
+      "kind": "concept",
+      "label": "Talón como punto ciego",
+      "summary": "Metáfora del desajuste inevitable entre imagen totalizante y sujeto efectivo.",
+      "evidence": [
+        "ev.aq.heel.blindspot"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.dissociation.aq",
+      "kind": "formulation",
+      "label": "Disociación del ego en Aquiles",
+      "summary": "Divergencia filosófica, no diagnóstica, entre el yo que actúa y el yo que representa cuando la representación gobierna.",
+      "evidence": [
+        "ev.aq.dissociation.definition",
+        "ev.aq.dissociation.duality",
+        "ev.aq.dissociation.mechanisms"
+      ],
+      "evidence_status": "explicit",
+      "subject": "concept.disociacion_ego",
+      "role": "historical_formulation"
+    },
+    {
+      "id": "concept.acting_self.aq",
+      "kind": "concept",
+      "label": "Yo que actúa",
+      "summary": "Dimensión que experimenta, desea y actúa desde la perspectiva propia.",
+      "evidence": [
+        "ev.aq.dissociation.duality"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.representing_self.aq",
+      "kind": "concept",
+      "label": "Yo que representa",
+      "summary": "Dimensión que construye y mantiene la imagen ante la mirada real o internalizada.",
+      "evidence": [
+        "ev.aq.dissociation.duality"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.dissociation_mechanisms.aq",
+      "kind": "formulation",
+      "label": "Mecanismos de la disociación",
+      "summary": "Supresión de información discrepante, reinterpretación de estados, externalización de perspectiva y colonización del lenguaje interior.",
+      "evidence": [
+        "ev.aq.dissociation.mechanisms"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.body_witness.aq",
+      "kind": "concept",
+      "label": "Cuerpo como testigo",
+      "summary": "El cuerpo es presentado como registro de lo que la imagen y el lenguaje consciente suprimen.",
+      "evidence": [
+        "ev.aq.body.witness",
+        "ev.aq.ethics.generosity_body"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.image_fall.aq",
+      "kind": "concept",
+      "label": "Caída de la imagen",
+      "summary": "Fracaso visible de la imagen tras acumulación de discrepancia; se presenta como estructuralmente inevitable y como umbral sin resultado garantizado.",
+      "evidence": [
+        "ev.aq.fall.phases",
+        "ev.aq.fall.threshold_others"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.fall_stages.aq",
+      "kind": "formulation",
+      "label": "Fases de la caída",
+      "summary": "Fisura invisible, acumulación de presión, desencadenante y cascada.",
+      "evidence": [
+        "ev.aq.fall.phases"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.return_self.aq",
+      "kind": "concept",
+      "label": "Retorno al yo",
+      "summary": "Reconocimiento y reejercicio de un eje que la obra supone persistente pero atrofiado bajo la imagen.",
+      "evidence": [
+        "ev.aq.fall.ego_persists",
+        "ev.aq.return.framework",
+        "ev.aq.return.pain_practices"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.causal_selfdetermination.aq",
+      "kind": "concept",
+      "label": "Autodeterminación causal en Aquiles",
+      "summary": "Posición en que la causa relevante del acto es la perspectiva propia, que procesa influencias como información y admite error, cambio y recuperación.",
+      "evidence": [
+        "ev.aq.return.autodetermination",
+        "ev.aq.return.links_revision"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.return_practices.aq",
+      "kind": "formulation",
+      "label": "Disposiciones del retorno",
+      "summary": "Consulta interior previa, tolerancia a la discrepancia, experiencia directa y expresión gradual de bajo riesgo.",
+      "evidence": [
+        "ev.aq.return.pain_practices"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.internal_sovereign_fear.aq",
+      "kind": "concept",
+      "label": "Miedo como soberano interior",
+      "summary": "La imagen opera por miedo como un Leviatán internalizado que ordena conducta y vínculos.",
+      "evidence": [
+        "ev.aq.internal.leviathan",
+        "ev.aq.relationship.sovereignty"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.fear_forgiveness.aq",
+      "kind": "concept",
+      "label": "Perdón por miedo",
+      "summary": "Renuncia o sumisión que preserva la soberanía del daño o del agresor sobre el eje.",
+      "evidence": [
+        "ev.aq.forgiveness.forms"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.sovereign_forgiveness.aq",
+      "kind": "concept",
+      "label": "Perdón soberano",
+      "summary": "Desactivación del gobierno del daño sobre el propio eje, compatible con memoria, límite y ausencia de reconciliación.",
+      "evidence": [
+        "ev.aq.forgiveness.forms",
+        "ev.aq.forgiveness.justice"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.forgiveness.aq",
+      "kind": "formulation",
+      "label": "Formulación del perdón en Aquiles",
+      "summary": "El perdón se formula como recuperación de soberanía interior y se relaciona de manera no uniforme con justicia y reparación.",
+      "evidence": [
+        "ev.aq.forgiveness.forms",
+        "ev.aq.forgiveness.justice",
+        "ev.aq.ethics.excellence_principles"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.presence.aq",
+      "kind": "concept",
+      "label": "Presencia",
+      "summary": "Contacto directo con la experiencia propia sin mediación permanente de la gestión de imagen.",
+      "evidence": [
+        "ev.aq.ethics.presence_performance",
+        "ev.aq.ethics.links_decisions"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.performance.aq",
+      "kind": "concept",
+      "label": "Performance",
+      "summary": "Modo de vivir desde afuera hacia adentro, evaluando la representación antes de habitar la experiencia.",
+      "evidence": [
+        "ev.aq.ethics.presence_performance"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.bounded_generosity.aq",
+      "kind": "concept",
+      "label": "Generosidad acotada",
+      "summary": "Dar desde atención al otro y límites reales, con capacidad correlativa de recibir.",
+      "evidence": [
+        "ev.aq.ethics.generosity_body",
+        "ev.aq.ethics.excellence_principles"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.responsibility.aq",
+      "kind": "formulation",
+      "label": "Responsabilidad desde el ego genuino",
+      "summary": "Responsabilidad plena exige que el sujeto sea autor desde su eje; admite reconocer, reparar y aprender sin defensa ni aniquilación de imagen.",
+      "evidence": [
+        "ev.aq.ego.freedom_bond",
+        "ev.aq.ethics.responsibility_time",
+        "ev.aq.ethics.excellence_principles"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.position_ethics.aq",
+      "kind": "concept",
+      "label": "Ética de la posición",
+      "summary": "Ocupación precisa del espacio propio, sin expansión ni contracción defensiva.",
+      "evidence": [
+        "ev.aq.ethics.responsibility_time"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.excellence_without_image.aq",
+      "kind": "concept",
+      "label": "Excelencia sin imagen",
+      "summary": "Hacer bien por valor intrínseco, abierto al feedback y sin depender de gloria o visibilidad.",
+      "evidence": [
+        "ev.aq.ethics.excellence_principles"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.authentic_ethics.aq",
+      "kind": "formulation",
+      "label": "Cinco principios del ego auténtico",
+      "summary": "Honestidad interna, responsabilidad sin imagen, generosidad acotada, presencia sin garantías y memoria sin resentimiento con límite sin venganza.",
+      "evidence": [
+        "ev.aq.ethics.excellence_principles"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.habited_tension.aq",
+      "kind": "concept",
+      "label": "Tensión habitada",
+      "summary": "Persistencia constitutiva de la atracción de la imagen, gobernada desde el eje en lugar de eliminada.",
+      "evidence": [
+        "ev.aq.epilogue.tension",
+        "ev.aq.epilogue.productivity_others"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "concept.return_within_return.aq",
+      "kind": "concept",
+      "label": "Retorno dentro del retorno",
+      "summary": "Capacidad de acortar el intervalo entre una nueva cesión a la imagen y la recuperación del eje.",
+      "evidence": [
+        "ev.aq.epilogue.return_within"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.narrative_identity.aq",
+      "kind": "formulation",
+      "label": "Identidad narrativa en Aquiles",
+      "summary": "Unidad temporal que integra disociación, caída y cambio sin exigir mismidad fija.",
+      "evidence": [
+        "ev.aq.return.narrative_phthia",
+        "ev.aq.ethics.responsibility_time"
+      ],
+      "evidence_status": "explicit",
+      "subject": "concept.identidad_ego",
+      "role": "historical_formulation"
+    },
+    {
+      "id": "concept.phthia.aq",
+      "kind": "concept",
+      "label": "Ftía como vida propia",
+      "summary": "Metáfora de una vida ordinaria y revisable habitada desde el propio eje, que Aquiles vislumbra pero no realiza.",
+      "evidence": [
+        "ev.aq.phthia.modern",
+        "ev.aq.return.narrative_phthia",
+        "ev.aq.epilogue.closure"
+      ],
+      "evidence_status": "explicit"
     }
   ],
   "relations": [
@@ -9508,6 +10538,444 @@
         "ev.aa5.glossary.second"
       ],
       "rationale": "AA-V llama sesgo a la idiosincrasia que ocupa la identidad y también al judicial como componente separado; la correspondencia no explica si son dos sesgos, una institucionalización del mismo filtro o una duplicación."
+    },
+    {
+      "id": "rel.ego_axis_aq.formulates_ego",
+      "type": "formulates",
+      "from": "formulation.ego.aq",
+      "to": "concept.ego_axis.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.ego.axis"
+      ]
+    },
+    {
+      "id": "rel.ego_image_aq.displaces_axis",
+      "type": "can_displace",
+      "from": "concept.ego_image.aq",
+      "to": "concept.ego_axis.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.egolatry.forms",
+        "ev.aq.displacement.steps"
+      ]
+    },
+    {
+      "id": "rel.own_egolatry_aq.worships_image",
+      "type": "worships",
+      "from": "concept.own_egolatry.aq",
+      "to": "concept.ego_image.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.egolatry.forms"
+      ]
+    },
+    {
+      "id": "rel.borrowed_egolatry_aq.worships_image",
+      "type": "worships",
+      "from": "concept.borrowed_egolatry.aq",
+      "to": "concept.ego_image.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.prologue.dilemma",
+        "ev.aq.egolatry.forms"
+      ]
+    },
+    {
+      "id": "rel.egocentrism_aq.distinguished_egolatry",
+      "type": "distinguished_from",
+      "from": "concept.egocentrism.aq",
+      "to": "concept.borrowed_egolatry.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.egocentrism.distinction"
+      ]
+    },
+    {
+      "id": "rel.dilemma_aq.instantiates_borrowed",
+      "type": "instantiates",
+      "from": "concept.achilles_dilemma.aq",
+      "to": "concept.borrowed_egolatry.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.prologue.dilemma",
+        "ev.aq.myth.structure"
+      ]
+    },
+    {
+      "id": "rel.displacement_stages_aq.describe_displacement",
+      "type": "describes",
+      "from": "formulation.displacement_stages.aq",
+      "to": "concept.image_displacement.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.displacement.steps"
+      ]
+    },
+    {
+      "id": "rel.recognition_confirming_aq.informs_axis",
+      "type": "informs",
+      "from": "concept.confirming_recognition.aq",
+      "to": "concept.ego_axis.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.recognition.modes"
+      ]
+    },
+    {
+      "id": "rel.recognition_constitutive_aq.enables_displacement",
+      "type": "enables",
+      "from": "concept.constitutive_recognition.aq",
+      "to": "concept.image_displacement.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.recognition.modes",
+        "ev.aq.validation.dependence"
+      ]
+    },
+    {
+      "id": "rel.visibility_aq.reinforces_performance",
+      "type": "reinforces",
+      "from": "concept.visibility_economy.aq",
+      "to": "concept.performance_identity.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.visibility.economy"
+      ]
+    },
+    {
+      "id": "rel.kleos_aq.instantiates_image",
+      "type": "instantiates",
+      "from": "concept.kleos_image.aq",
+      "to": "concept.ego_image.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.kleos.freedom"
+      ]
+    },
+    {
+      "id": "rel.heel_aq.exposes_mismatch",
+      "type": "exposes_limit_of",
+      "from": "concept.heel_blindspot.aq",
+      "to": "concept.ego_image.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.heel.blindspot"
+      ]
+    },
+    {
+      "id": "rel.dissociation_aq.separates_selfs",
+      "type": "separates",
+      "from": "concept.representing_self.aq",
+      "to": "concept.acting_self.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.dissociation.duality"
+      ]
+    },
+    {
+      "id": "rel.representing_self_aq.governs_acting",
+      "type": "can_govern",
+      "from": "concept.representing_self.aq",
+      "to": "concept.acting_self.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.dissociation.duality",
+        "ev.aq.dissociation.mechanisms"
+      ]
+    },
+    {
+      "id": "rel.mechanisms_aq.maintain_dissociation",
+      "type": "maintains",
+      "from": "formulation.dissociation_mechanisms.aq",
+      "to": "formulation.dissociation.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.dissociation.mechanisms"
+      ]
+    },
+    {
+      "id": "rel.body_aq.witnesses_dissociation",
+      "type": "witnesses",
+      "from": "concept.body_witness.aq",
+      "to": "formulation.dissociation.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.body.witness"
+      ]
+    },
+    {
+      "id": "rel.dissociation_aq.leads_fall",
+      "type": "leads_to",
+      "from": "formulation.dissociation.aq",
+      "to": "concept.image_fall.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.dissociation.degrees_relations",
+        "ev.aq.fall.phases"
+      ]
+    },
+    {
+      "id": "rel.fall_stages_aq.describe_fall",
+      "type": "describes",
+      "from": "formulation.fall_stages.aq",
+      "to": "concept.image_fall.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.fall.phases"
+      ]
+    },
+    {
+      "id": "rel.fall_aq.enables_return",
+      "type": "can_enable",
+      "from": "concept.image_fall.aq",
+      "to": "concept.return_self.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.fall.responses",
+        "ev.aq.fall.threshold_others"
+      ]
+    },
+    {
+      "id": "rel.return_aq.realizes_selfdetermination",
+      "type": "enables",
+      "from": "concept.return_self.aq",
+      "to": "concept.causal_selfdetermination.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.return.framework",
+        "ev.aq.return.autodetermination"
+      ]
+    },
+    {
+      "id": "rel.return_practices_aq.support_return",
+      "type": "supports",
+      "from": "formulation.return_practices.aq",
+      "to": "concept.return_self.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.return.pain_practices"
+      ]
+    },
+    {
+      "id": "rel.internal_fear_aq.governs_displacement",
+      "type": "governs",
+      "from": "concept.internal_sovereign_fear.aq",
+      "to": "concept.image_displacement.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.internal.leviathan"
+      ]
+    },
+    {
+      "id": "rel.fear_forgiveness_aq.preserves_sovereignty",
+      "type": "preserves",
+      "from": "concept.fear_forgiveness.aq",
+      "to": "concept.internal_sovereign_fear.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.forgiveness.forms"
+      ]
+    },
+    {
+      "id": "rel.sovereign_forgiveness_aq.restores_axis",
+      "type": "restores",
+      "from": "concept.sovereign_forgiveness.aq",
+      "to": "concept.ego_axis.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.forgiveness.forms",
+        "ev.aq.forgiveness.justice"
+      ]
+    },
+    {
+      "id": "rel.presence_aq.opposes_performance",
+      "type": "distinguished_from",
+      "from": "concept.presence.aq",
+      "to": "concept.performance.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.ethics.presence_performance"
+      ]
+    },
+    {
+      "id": "rel.performance_aq.instantiates_image_identity",
+      "type": "instantiates",
+      "from": "concept.performance.aq",
+      "to": "concept.performance_identity.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.ethics.presence_performance"
+      ]
+    },
+    {
+      "id": "rel.selfdetermination_aq.enables_presence",
+      "type": "enables",
+      "from": "concept.causal_selfdetermination.aq",
+      "to": "concept.presence.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.return.links_revision",
+        "ev.aq.ethics.presence_performance"
+      ]
+    },
+    {
+      "id": "rel.presence_aq.enables_generosity",
+      "type": "enables",
+      "from": "concept.presence.aq",
+      "to": "concept.bounded_generosity.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.ethics.generosity_body"
+      ]
+    },
+    {
+      "id": "rel.selfdetermination_aq.grounds_responsibility",
+      "type": "grounds",
+      "from": "concept.causal_selfdetermination.aq",
+      "to": "formulation.responsibility.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.ego.freedom_bond",
+        "ev.aq.ethics.responsibility_time"
+      ]
+    },
+    {
+      "id": "rel.position_aq.expresses_authentic_ethics",
+      "type": "expresses",
+      "from": "concept.position_ethics.aq",
+      "to": "formulation.authentic_ethics.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.ethics.responsibility_time",
+        "ev.aq.ethics.excellence_principles"
+      ]
+    },
+    {
+      "id": "rel.excellence_aq.expresses_authentic_ethics",
+      "type": "expresses",
+      "from": "concept.excellence_without_image.aq",
+      "to": "formulation.authentic_ethics.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.ethics.excellence_principles"
+      ]
+    },
+    {
+      "id": "rel.tension_aq.conditions_return",
+      "type": "conditions",
+      "from": "concept.habited_tension.aq",
+      "to": "concept.return_within_return.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.epilogue.tension",
+        "ev.aq.epilogue.return_within"
+      ]
+    },
+    {
+      "id": "rel.phthia_aq.symbolizes_return",
+      "type": "symbolizes",
+      "from": "concept.phthia.aq",
+      "to": "concept.return_self.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.return.narrative_phthia",
+        "ev.aq.epilogue.closure"
+      ]
+    },
+    {
+      "id": "rel.narrative_identity_aq.integrates_fall",
+      "type": "integrates",
+      "from": "formulation.narrative_identity.aq",
+      "to": "concept.image_fall.aq",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aq.return.narrative_phthia"
+      ]
+    },
+    {
+      "id": "rel.ego_aq.differs_caos_process",
+      "type": "differs_from",
+      "from": "formulation.ego.aq",
+      "to": "formulation.ego.event_function.caos",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.aq.ego.axis",
+        "ev.caos.ego_event_subject"
+      ],
+      "rationale": "Aquiles presenta un eje previo a la descripción que persiste bajo la imagen; Caos presenta el ego como acontecimiento, función e integral constituida. La equivalencia o subordinación no está formulada por ninguna de las dos obras."
+    },
+    {
+      "id": "rel.dissociation_aq.differs_aa1",
+      "type": "differs_from",
+      "from": "formulation.dissociation.aq",
+      "to": "concept.disociacion_ego",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.aq.dissociation.definition",
+        "ev.aa1.distortion.bad_faith"
+      ],
+      "rationale": "AA-I liga la disociación a la negación de colapsos e incoherencia de la integral; Aquiles la define como gobierno del yo que representa sobre el yo que actúa, sin φ₁, φ₂ ni I(t)."
+    },
+    {
+      "id": "rel.selfdetermination_aq.reframes_aa3",
+      "type": "reframes",
+      "from": "concept.causal_selfdetermination.aq",
+      "to": "concept.autodeterminacion_causal.aa3",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.aq.return.autodetermination",
+        "ev.aa3.limit.autodetermination"
+      ],
+      "rationale": "Ambas usan el rótulo autodeterminación causal, pero Aquiles lo vincula a una fuente experiencial propia y AA-III a mediaciones y campo causal; el corpus no declara su identidad técnica."
+    },
+    {
+      "id": "rel.freedom_aq.differs_aa5",
+      "type": "differs_from",
+      "from": "concept.causal_selfdetermination.aq",
+      "to": "concept.freedom.aa5",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.aq.return.autodetermination",
+        "ev.aa5.ego.freedom"
+      ],
+      "rationale": "Aquiles define libertad por la fuente relevante del acto y capacidad de revisión; AA-V la formula como φ₂ bajo marco propio y como objeto cedible al Estado."
+    },
+    {
+      "id": "rel.responsibility_aq.differs_aa4",
+      "type": "differs_from",
+      "from": "formulation.responsibility.aq",
+      "to": "formulation.responsibility.aa4",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.aq.ethics.responsibility_time",
+        "ev.aa4.dolo.causal_order"
+      ],
+      "rationale": "Aquiles niega responsabilidad plena cuando el acto parte de la imagen; AA-IV atribuye responsabilidad por pertenencia causal de φ₁ y usa intención para modular, no para fundar."
+    },
+    {
+      "id": "rel.narrative_identity_aq.differs_aa1",
+      "type": "differs_from",
+      "from": "formulation.narrative_identity.aq",
+      "to": "formulation.identity.aa1",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.aq.return.narrative_phthia",
+        "ev.aa1.identity.formation"
+      ],
+      "rationale": "Aquiles adopta identidad narrativa integrada por el yo; AA-I llama identidad a sedimento pre-egóico y sesgo de φ₁. La relación no puede fusionarse por homonimia."
+    },
+    {
+      "id": "rel.borrowed_egolatry_aq.overlaps_masquerade_aa3",
+      "type": "overlaps_with",
+      "from": "concept.borrowed_egolatry.aq",
+      "to": "concept.mascarada.aa3",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.aq.egolatry.forms",
+        "ev.aa3.collective.identity"
+      ],
+      "rationale": "Ambas figuras describen gobierno por una representación, pero Aquiles exige origen ajeno de la imagen y AA-III presenta mascarada constituida por colapsos asumidos y extensible a colectivos."
     }
   ],
   "routes": [
@@ -9559,13 +11027,20 @@
           "order": 8,
           "evidence_id": "ev.axiom.translation",
           "reason": "Traducción bidireccional del lenguaje ontológico al formal."
+        },
+        {
+          "order": 9,
+          "evidence_id": "ev.aq.ego.axis",
+          "reason": "Contrasta el ego técnico previo con el eje funcional y experiencial de Aquiles."
         }
       ],
       "must_surface_review_items": [
         "review.aa1.caos_crosswalk",
         "review.aa1.responsibility_grounding",
         "review.aa1.neutral_habits",
-        "review.aa2.phi2_function_change"
+        "review.aa2.phi2_function_change",
+        "review.aq.ego_crosswalk",
+        "review.aq.ego_ownership"
       ]
     },
     {
@@ -10352,11 +11827,18 @@
           "order": 5,
           "evidence_id": "ev.aa1.closure.downstream",
           "reason": "Localiza el desarrollo remitido a Juego y Dilema."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.aq.dissociation.definition",
+          "reason": "Registra el desarrollo posterior bajo el mismo nombre con componentes distintos."
         }
       ],
       "must_surface_review_items": [
         "review.aa1.identity_change",
-        "review.aa3.identity_masquerade"
+        "review.aa3.identity_masquerade",
+        "review.aq.dissociation_crosswalk",
+        "review.aq.identity_crosswalk"
       ]
     },
     {
@@ -10397,13 +11879,19 @@
           "order": 6,
           "evidence_id": "ev.aa5.state.legislation_law",
           "reason": "Registra el retorno de AA-V a responsabilidad nacida en φ₁, ahora estatal."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.aq.ethics.responsibility_time",
+          "reason": "Añade la condición de autoría desde el eje genuino de Aquiles."
         }
       ],
       "must_surface_review_items": [
         "review.aa1.responsibility_grounding",
         "review.aa1.neutral_habits",
         "review.aa4.responsibility_crosswalk",
-        "review.aa5.responsibility_crosswalk"
+        "review.aa5.responsibility_crosswalk",
+        "review.aq.responsibility_crosswalk"
       ]
     },
     {
@@ -10434,7 +11922,16 @@
           "order": 4,
           "evidence_id": "ev.aa1.distortion.bad_faith",
           "reason": "Muestra cómo la negación puede alimentar distorsión identitaria."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aq.return.narrative_phthia",
+          "reason": "Contrasta trayectoria ontológica e integración narrativa del retorno."
         }
+      ],
+      "must_surface_review_items": [
+        "review.aq.return_ontology",
+        "review.aq.identity_crosswalk"
       ]
     },
     {
@@ -11559,12 +13056,18 @@
           "order": 5,
           "evidence_id": "ev.aa4.appendix2.postulates",
           "reason": "Recoge la reescritura formal de AA-IV."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.aq.ethics.responsibility_time",
+          "reason": "Contrasta causalidad externa y autoría auténtica."
         }
       ],
       "must_surface_review_items": [
         "review.aa1.responsibility_grounding",
         "review.aa4.responsibility_crosswalk",
-        "review.aa4.derivative_formalization"
+        "review.aa4.derivative_formalization",
+        "review.aq.responsibility_crosswalk"
       ]
     },
     {
@@ -12030,12 +13533,19 @@
           "order": 4,
           "evidence_id": "ev.aa5.collapse.cession",
           "reason": "Distingue lo cedible."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aq.return.autodetermination",
+          "reason": "Contrasta libertad como φ₂ cedible y autodeterminación como fuente propia del acto."
         }
       ],
       "must_surface_review_items": [
         "review.aa5.freedom_transfer",
         "review.aa5.editorial_notation",
-        "review.aa3.identity_masquerade"
+        "review.aa3.identity_masquerade",
+        "review.aq.freedom_crosswalk",
+        "review.aq.ego_crosswalk"
       ]
     },
     {
@@ -12441,6 +13951,494 @@
         "review.aa5.actor_scope",
         "review.aa5.deduction_fiscal",
         "review.aa5.editorial_notation"
+      ]
+    },
+    {
+      "id": "route.aq.scope_sources",
+      "purpose": "Recuperar el estatuto declarado del libro sin convertir sus préstamos psicológicos o míticos en validación clínica o filológica.",
+      "triggers": [
+        "estatuto de Aquiles",
+        "fuentes",
+        "no clínico",
+        "mito como instrumento"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aq.prelim.scope",
+          "reason": "Delimita género y exclusiones."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aq.prelim.method",
+          "reason": "Declara el uso analítico del mito."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aq.prelim.sources",
+          "reason": "Separa familias de fuentes."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aq.prologue.promise",
+          "reason": "Formula la promesa del recorrido."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aq.clinical_boundary",
+        "review.aq.empirical_support",
+        "review.aq.myth_status",
+        "review.aq.editorial_citations"
+      ]
+    },
+    {
+      "id": "route.aq.ego_triad",
+      "purpose": "Explicar ego, imagen, egolatrías y egocentrismo sin fusionarlos con el ego técnico previo.",
+      "triggers": [
+        "ego genuino",
+        "egolatría prestada",
+        "egolatría propia",
+        "egocentrismo",
+        "imagen del ego"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aq.prologue.triad",
+          "reason": "Introduce la tríada."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aq.ego.axis",
+          "reason": "Define el eje."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aq.ego.function_dynamic",
+          "reason": "Describe ejercicio y formación relacional."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aq.egolatry.forms",
+          "reason": "Separa las dos egolatrías."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aq.egocentrism.distinction",
+          "reason": "Separa egocentrismo."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aq.ego_crosswalk",
+        "review.aq.ego_ownership",
+        "review.aq.authenticity_criterion"
+      ]
+    },
+    {
+      "id": "route.aq.displacement_recognition",
+      "purpose": "Reconstruir captura de imagen, reconocimiento y visibilidad con sus reservas causales.",
+      "triggers": [
+        "desplazamiento del ego",
+        "reconocimiento",
+        "validación",
+        "economía de visibilidad",
+        "performance identitaria"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aq.displacement.steps",
+          "reason": "Enumera cuatro etapas."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aq.recognition.modes",
+          "reason": "Distingue confirmación y constitución."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aq.validation.dependence",
+          "reason": "Vincula rendimiento y dependencia."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aq.visibility.economy",
+          "reason": "Aplica el modelo al entorno digital."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aq.displacement.costs",
+          "reason": "Cierra costos y alternativa."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aq.ego_ownership",
+        "review.aq.authenticity_criterion",
+        "review.aq.empirical_support",
+        "review.aq.fall_inevitability"
+      ]
+    },
+    {
+      "id": "route.aq.myth_analysis",
+      "purpose": "Recuperar la arquitectura mítica como interpretación autoral, no como hecho filológico adjudicado.",
+      "triggers": [
+        "Aquiles",
+        "kleos",
+        "Patroclo",
+        "armadura",
+        "talón",
+        "Ftía"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aq.prelim.method",
+          "reason": "Fija el estatuto instrumental."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aq.myth.structure",
+          "reason": "Presenta a Aquiles como estructura."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aq.kleos.freedom",
+          "reason": "Vincula gloria y servidumbre."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aq.patroclus.armor",
+          "reason": "Desarrolla proyección y armadura."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aq.heel.blindspot",
+          "reason": "Construye el punto ciego."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.aq.phthia.modern",
+          "reason": "Contrasta Ftía y Troya."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aq.myth_status",
+        "review.aq.editorial_citations"
+      ]
+    },
+    {
+      "id": "route.aq.dissociation_fall",
+      "purpose": "Seguir definición, mecanismos, grados, cuerpo y caída sin diagnosticar ni asegurar causalidad.",
+      "triggers": [
+        "disociación del ego",
+        "yo que actúa",
+        "yo que representa",
+        "cuerpo testigo",
+        "caída de la imagen"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aq.dissociation.definition",
+          "reason": "Delimita el constructo no DSM."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aq.dissociation.duality",
+          "reason": "Distingue las dos funciones del yo."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aq.dissociation.mechanisms",
+          "reason": "Enumera mecanismos."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aq.body.witness",
+          "reason": "Atribuye registro al cuerpo."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aq.dissociation.degrees_relations",
+          "reason": "Gradúa y aplica a vínculos."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.aq.fall.phases",
+          "reason": "Modela la caída."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.aq.fall.responses",
+          "reason": "Separa hundimiento y apertura."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.aq.fall.threshold_others",
+          "reason": "Declara umbral sin garantía."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aq.clinical_boundary",
+        "review.aq.dissociation_crosswalk",
+        "review.aq.dissociation_operationalization",
+        "review.aq.body_claims",
+        "review.aq.fall_inevitability",
+        "review.aq.return_ontology"
+      ]
+    },
+    {
+      "id": "route.aq.fear_forgiveness",
+      "purpose": "Recuperar la analogía hobbesiana y las dos formas de perdón conservando contradicciones y salto normativo.",
+      "triggers": [
+        "Leviatán interior",
+        "miedo",
+        "perdón soberano",
+        "perdón por miedo",
+        "justicia restaurativa"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aq.hobbes.status",
+          "reason": "Expone el estatuto no uniforme de Hobbes."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aq.internal.leviathan",
+          "reason": "Construye la analogía interior."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aq.relationship.sovereignty",
+          "reason": "Aplica soberanía a vínculos."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aq.forgiveness.forms",
+          "reason": "Distingue dos perdones."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aq.forgiveness.justice",
+          "reason": "Relaciona perdón, límite y justicia."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aq.hobbes_status",
+        "review.aq.forgiveness_order",
+        "review.aq.forgiveness_normativity",
+        "review.aq.relational_generalization"
+      ]
+    },
+    {
+      "id": "route.aq.return_autodetermination",
+      "purpose": "Recuperar retorno y autodeterminación como propuestas autorales, no como terapia o métrica validada.",
+      "triggers": [
+        "retorno al yo",
+        "autodeterminación causal",
+        "consulta interior",
+        "tolerancia a la discrepancia",
+        "identidad narrativa"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aq.return.framework",
+          "reason": "Define retorno como reconocimiento."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aq.return.autodetermination",
+          "reason": "Formula la fuente causal propia."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aq.return.pain_practices",
+          "reason": "Propone cuatro disposiciones."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aq.return.links_revision",
+          "reason": "Añade vínculos y prueba de revisión."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aq.return.narrative_phthia",
+          "reason": "Integra historia, cuidado y Ftía."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aq.ego_crosswalk",
+        "review.aq.ego_ownership",
+        "review.aq.authenticity_criterion",
+        "review.aq.clinical_boundary",
+        "review.aq.empirical_support",
+        "review.aq.return_ontology",
+        "review.aq.freedom_crosswalk",
+        "review.aq.identity_crosswalk"
+      ]
+    },
+    {
+      "id": "route.aq.authentic_ethics",
+      "purpose": "Recuperar la ética propuesta sin convertir descripciones psicológicas en obligaciones validadas.",
+      "triggers": [
+        "presencia",
+        "performance",
+        "generosidad acotada",
+        "responsabilidad",
+        "ética del ego auténtico",
+        "excelencia"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aq.ethics.presence_performance",
+          "reason": "Distingue modos de habitar."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aq.ethics.links_decisions",
+          "reason": "Aplica a vínculos y decisiones."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aq.ethics.generosity_body",
+          "reason": "Aplica a don y cuerpo."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aq.ethics.responsibility_time",
+          "reason": "Aplica a autoría, posición y tiempo."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aq.ethics.excellence_principles",
+          "reason": "Sintetiza excelencia y principios."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aq.authenticity_criterion",
+        "review.aq.clinical_boundary",
+        "review.aq.empirical_support",
+        "review.aq.responsibility_crosswalk",
+        "review.aq.forgiveness_normativity",
+        "review.aq.relational_generalization"
+      ]
+    },
+    {
+      "id": "route.aq.tension_closure",
+      "purpose": "Recuperar la conclusión como tensión habitable y retorno recurrente, incluida la autolocalización autoral.",
+      "triggers": [
+        "habitar la tensión",
+        "retorno dentro del retorno",
+        "arco de Heráclito",
+        "mar después de la tormenta"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aq.epilogue.tension",
+          "reason": "Declara que el dilema no se elimina."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aq.epilogue.return_within",
+          "reason": "Define elasticidad y recuperación."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aq.epilogue.myth_companion",
+          "reason": "Relee a Aquiles como compañía."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aq.epilogue.productivity_others",
+          "reason": "Expone productividad y precaución diagnóstica."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aq.epilogue.closure",
+          "reason": "Cierra con arco, mar y posición del autor."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aq.return_ontology",
+        "review.aq.empirical_support",
+        "review.aq.myth_status",
+        "review.aq.editorial_citations",
+        "review.aq.relational_generalization"
+      ]
+    },
+    {
+      "id": "route.aq.crosswork_history",
+      "purpose": "Contrastar los homónimos y cambios de Aquiles con Caos y Afrodita Areia sin adjudicar equivalencias.",
+      "triggers": [
+        "Aquiles y Paradigma",
+        "ego en Aquiles",
+        "disociación comparada",
+        "autodeterminación comparada",
+        "responsabilidad comparada",
+        "identidad narrativa"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.caos.ego_event_subject",
+          "reason": "Fija ego como acontecimiento y función."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa1.identity.bias_boundary",
+          "reason": "Fija identidad-sesgo y disociación ontológica."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa3.limit.autodetermination",
+          "reason": "Fija autodeterminación causal de AA-III."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aa4.dolo.causal_order",
+          "reason": "Fija responsabilidad causal de AA-IV."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aa5.ego.freedom",
+          "reason": "Fija libertad bajo marco propio de AA-V."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.aq.ego.axis",
+          "reason": "Introduce el eje de Aquiles."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.aq.dissociation.definition",
+          "reason": "Introduce el constructo no diagnóstico."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.aq.return.autodetermination",
+          "reason": "Introduce fuente experiencial propia."
+        },
+        {
+          "order": 9,
+          "evidence_id": "ev.aq.ethics.responsibility_time",
+          "reason": "Condiciona autoría plena."
+        },
+        {
+          "order": 10,
+          "evidence_id": "ev.aq.return.narrative_phthia",
+          "reason": "Introduce identidad narrativa."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aq.ego_crosswalk",
+        "review.aq.dissociation_crosswalk",
+        "review.aq.freedom_crosswalk",
+        "review.aq.responsibility_crosswalk",
+        "review.aq.identity_crosswalk"
       ]
     }
   ],
@@ -13556,6 +15554,351 @@
       "evidence": [
         "ev.aa5.fraud.scope_forms",
         "ev.aa5.friction.asymmetry"
+      ]
+    },
+    {
+      "id": "review.aq.ego_crosswalk",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.ego.aq",
+      "question": "¿Cómo se relaciona el eje persistente y previo a la descripción de Aquiles con el ego acontecimiento, proceso e integral del núcleo ontológico?",
+      "why_not_auto_resolved": "Las obras emplean ontologías y criterios temporales distintos; igualarlos o jerarquizarlos requeriría una síntesis no declarada.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "formal_use"
+      ],
+      "evidence": [
+        "ev.aq.ego.axis",
+        "ev.aq.ego.function_dynamic",
+        "ev.caos.ego_event_subject",
+        "ev.aa1.ego.trajectory"
+      ],
+      "related_relation": "rel.ego_aq.differs_caos_process"
+    },
+    {
+      "id": "review.aq.ego_ownership",
+      "status": "pending_doctrinal_review",
+      "subject": "concept.ego_axis.aq",
+      "question": "¿Qué criterio no circular distingue una evaluación genuinamente propia de una expectativa ajena ya internalizada?",
+      "why_not_auto_resolved": "La obra afirma a la vez que todo eje se constituye en intercambio y que el retorno consulta una perspectiva propia; ofrece pruebas introspectivas y de revisión, pero no un criterio independiente de adjudicación.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "clinical_use"
+      ],
+      "evidence": [
+        "ev.aq.ego.function_dynamic",
+        "ev.aq.return.autodetermination",
+        "ev.aq.return.links_revision"
+      ]
+    },
+    {
+      "id": "review.aq.authenticity_criterion",
+      "status": "pending_methodological_review",
+      "subject": "concept.causal_selfdetermination.aq",
+      "question": "¿Cómo se identifica causalmente que la fuente relevante de un acto fue el eje genuino y no la imagen?",
+      "why_not_auto_resolved": "La diferencia puede ser invisible desde fuera y la mezcla motivacional es admitida por la obra; consulta interior, sostenibilidad y revisión son indicios, no una operación de medida validada.",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_use",
+        "diagnostic_use",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.aq.return.autodetermination",
+        "ev.aq.return.pain_practices",
+        "ev.aq.ethics.presence_performance"
+      ]
+    },
+    {
+      "id": "review.aq.clinical_boundary",
+      "status": "pending_scope_review",
+      "subject": "formulation.scope.aq",
+      "question": "¿Qué estatuto tienen las afirmaciones clínicas y terapéuticas si la obra niega ser un texto clínico o diagnóstico?",
+      "why_not_auto_resolved": "Aunque declara una disociación filosófica, la obra habla de experiencia clínica, síntomas, somatización, salud, terapia, trauma y condiciones necesarias o suficientes para el cambio.",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_use",
+        "diagnostic_use"
+      ],
+      "evidence": [
+        "ev.aq.prelim.scope",
+        "ev.aq.dissociation.definition",
+        "ev.aq.body.witness",
+        "ev.aq.return.pain_practices"
+      ]
+    },
+    {
+      "id": "review.aq.empirical_support",
+      "status": "pending_empirical_review",
+      "subject": "formulation.scope.aq",
+      "question": "¿Qué afirmaciones psicológicas quedan realmente respaldadas por las fuentes citadas y con qué alcance poblacional o causal?",
+      "why_not_auto_resolved": "La obra transfiere resultados sobre mentalidad, apego, redes, memoria, pareja, motivación, cuerpo, flujo y bienestar a su modelo propio; las notas no documentan muestras, límites ni validez de esas extrapolaciones.",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_use",
+        "clinical_use"
+      ],
+      "evidence": [
+        "ev.aq.validation.dependence",
+        "ev.aq.visibility.economy",
+        "ev.aq.body.witness",
+        "ev.aq.ethics.links_decisions",
+        "ev.aq.ethics.excellence_principles"
+      ]
+    },
+    {
+      "id": "review.aq.myth_status",
+      "status": "pending_source_review",
+      "subject": "formulation.achilles_myth.aq",
+      "question": "¿Qué elementos proceden de Homero o fuentes tardías y cuáles son proyección filosófica o psicoanalítica de la obra?",
+      "why_not_auto_resolved": "La obra reconoce que el talón no aparece en la Ilíada y declara no hacer filología, pero a veces formula como hechos del personaje inferencias sobre deseo, formación, Patroclo, armadura y libertad.",
+      "blocking": false,
+      "blocking_for": [
+        "source_attribution",
+        "doctrinal_use"
+      ],
+      "evidence": [
+        "ev.aq.prelim.method",
+        "ev.aq.myth.structure",
+        "ev.aq.patroclus.armor",
+        "ev.aq.heel.blindspot",
+        "ev.aq.phthia.modern"
+      ]
+    },
+    {
+      "id": "review.aq.editorial_citations",
+      "status": "pending_editorial_review",
+      "subject": "formulation.scope.aq",
+      "question": "¿Cómo se corrigen los caracteres ‘(cid:0)’, remisiones, títulos y atribuciones de citas sin reconstrucción conjetural?",
+      "why_not_auto_resolved": "La corrupción afecta griego y signos; varias citas se presentan con localizadores o títulos que requieren cotejo de edición, y la fuente no aporta un aparato bibliográfico suficiente para resolverlos internamente.",
+      "blocking": false,
+      "blocking_for": [
+        "editorial_use",
+        "quotation_use",
+        "source_attribution"
+      ],
+      "evidence": [
+        "ev.aq.prelim.sources",
+        "ev.aq.heel.blindspot",
+        "ev.aq.ethics.responsibility_time",
+        "ev.aq.epilogue.closure"
+      ]
+    },
+    {
+      "id": "review.aq.dissociation_crosswalk",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.dissociation.aq",
+      "question": "¿Es la disociación representación/acción de Aquiles una revisión, aplicación o concepto distinto de la disociación φ₂/integral de AA-I?",
+      "why_not_auto_resolved": "Comparten nombre y efectos de incoherencia, pero sus componentes, mecanismos y criterios son distintos y Aquiles no establece la correspondencia formal.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "diagnostic_use"
+      ],
+      "evidence": [
+        "ev.aq.dissociation.definition",
+        "ev.aq.dissociation.duality",
+        "ev.aa1.distortion.bad_faith"
+      ],
+      "related_relation": "rel.dissociation_aq.differs_aa1"
+    },
+    {
+      "id": "review.aq.dissociation_operationalization",
+      "status": "pending_methodological_review",
+      "subject": "formulation.dissociation.aq",
+      "question": "¿Cómo se delimitan y miden sus grados situacional, parcial crónico y generalizado?",
+      "why_not_auto_resolved": "La obra ofrece descripciones fenomenológicas y relacionales, pero no umbrales, instrumentos ni criterios diferenciales, mientras insiste en que el mecanismo es invisible desde dentro y desde fuera.",
+      "blocking": false,
+      "blocking_for": [
+        "diagnostic_use",
+        "empirical_use",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.aq.dissociation.definition",
+        "ev.aq.dissociation.mechanisms",
+        "ev.aq.dissociation.degrees_relations"
+      ]
+    },
+    {
+      "id": "review.aq.body_claims",
+      "status": "pending_empirical_review",
+      "subject": "concept.body_witness.aq",
+      "question": "¿Con qué evidencia se sostiene que el cuerpo registra verazmente lo que la mente suprime y que los síntomas señalados indican disociación?",
+      "why_not_auto_resolved": "La obra generaliza desde metáforas y lenguaje somático a fatiga, insomnio, tensión, dolor y enfermedad sin diagnóstico diferencial ni base causal presentada en el corpus.",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_use",
+        "empirical_use"
+      ],
+      "evidence": [
+        "ev.aq.body.witness",
+        "ev.aq.return.framework",
+        "ev.aq.ethics.generosity_body"
+      ]
+    },
+    {
+      "id": "review.aq.fall_inevitability",
+      "status": "pending_doctrinal_review",
+      "subject": "concept.image_fall.aq",
+      "question": "¿En qué sentido y bajo qué condiciones toda imagen debe caer inevitablemente?",
+      "why_not_auto_resolved": "La tesis universal se deriva del desajuste entre imagen y realidad, pero la propia obra describe defensas duraderas y no ofrece condición temporal, umbral o contraejemplos.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "predictive_use"
+      ],
+      "evidence": [
+        "ev.aq.displacement.costs",
+        "ev.aq.fall.phases",
+        "ev.aq.fall.threshold_others"
+      ]
+    },
+    {
+      "id": "review.aq.return_ontology",
+      "status": "pending_authorial_adjudication",
+      "subject": "concept.return_self.aq",
+      "question": "¿El retorno reconoce un yo que siempre estuvo, construye un eje mediante ejercicio o integra narrativamente un yo transformado?",
+      "why_not_auto_resolved": "La obra sostiene las tres descripciones: persistencia real bajo la imagen, atrofia que se rehabilita y posición dinámica que se construye, pierde y recupera; no adjudica su relación ontológica.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "clinical_use"
+      ],
+      "evidence": [
+        "ev.aq.fall.ego_persists",
+        "ev.aq.return.framework",
+        "ev.aq.return.autodetermination",
+        "ev.aq.return.narrative_phthia"
+      ]
+    },
+    {
+      "id": "review.aq.hobbes_status",
+      "status": "pending_editorial_review",
+      "subject": "concept.internal_sovereign_fear.aq",
+      "question": "¿El estado de naturaleza hobbesiano se usa como descripción no hipotética o como experimento mental?",
+      "why_not_auto_resolved": "El cuerpo del capítulo niega que sea hipótesis abstracta y la nota final del mismo capítulo lo denomina experimento mental; el corpus no resuelve la contradicción.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "source_attribution"
+      ],
+      "evidence": [
+        "ev.aq.hobbes.status",
+        "ev.aq.internal.leviathan"
+      ]
+    },
+    {
+      "id": "review.aq.forgiveness_order",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.forgiveness.aq",
+      "question": "¿La justicia y la seguridad deben preceder al perdón o el perdón precede a la justicia?",
+      "why_not_auto_resolved": "El capítulo exige reconocimiento, responsabilidad y seguridad antes del perdón restaurativo, pero luego afirma expresamente que el perdón no reemplaza la justicia sino que la precede.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "normative_use",
+        "legal_use"
+      ],
+      "evidence": [
+        "ev.aq.forgiveness.forms",
+        "ev.aq.forgiveness.justice"
+      ]
+    },
+    {
+      "id": "review.aq.forgiveness_normativity",
+      "status": "pending_normative_review",
+      "subject": "concept.sovereign_forgiveness.aq",
+      "question": "¿La liberación del gobierno del daño es una posibilidad, una definición estipulativa o un deber para toda víctima?",
+      "why_not_auto_resolved": "La obra alterna lenguaje descriptivo y prescriptivo y afirma que no perdonar mantiene al agresor como soberano, sin delimitar trauma, seguridad, tiempo ni pluralidad de respuestas legítimas.",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_use",
+        "normative_use",
+        "legal_use"
+      ],
+      "evidence": [
+        "ev.aq.relationship.sovereignty",
+        "ev.aq.forgiveness.forms",
+        "ev.aq.forgiveness.justice"
+      ]
+    },
+    {
+      "id": "review.aq.responsibility_crosswalk",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.responsibility.aq",
+      "question": "¿Cómo se reconcilia la ausencia de responsabilidad plena del sujeto disociado con la responsabilidad por causalidad o por asunción de las obras ontológicas y jurídicas?",
+      "why_not_auto_resolved": "Aquiles condiciona autoría plena al eje genuino; Caos y AA-IV sitúan responsabilidad o imputación en la primera mediación causal y AA-I en la asunción, sin hacer depender siempre la atribución de autenticidad interna.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "legal_use",
+        "normative_use"
+      ],
+      "evidence": [
+        "ev.aq.ego.freedom_bond",
+        "ev.aq.ethics.responsibility_time",
+        "ev.caos.responsibility_first",
+        "ev.aa1.fanes.formula_responsibility",
+        "ev.aa4.dolo.causal_order"
+      ],
+      "related_relation": "rel.responsibility_aq.differs_aa4"
+    },
+    {
+      "id": "review.aq.freedom_crosswalk",
+      "status": "pending_authorial_adjudication",
+      "subject": "concept.causal_selfdetermination.aq",
+      "question": "¿La autodeterminación de Aquiles traduce la fórmula de AA-III/AA-V o introduce un criterio psicológico diferente?",
+      "why_not_auto_resolved": "Aquiles define fuente propia, motivación y revisabilidad sin φ₁/φ₂/I(t); AA-III y AA-V emplean arquitectura de mediaciones y campo o marco propio.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "formal_use"
+      ],
+      "evidence": [
+        "ev.aq.return.autodetermination",
+        "ev.aa3.limit.autodetermination",
+        "ev.aa5.ego.freedom"
+      ],
+      "related_relation": "rel.selfdetermination_aq.reframes_aa3"
+    },
+    {
+      "id": "review.aq.identity_crosswalk",
+      "status": "pending_authorial_adjudication",
+      "subject": "formulation.narrative_identity.aq",
+      "question": "¿Cómo se relaciona la identidad narrativa asumible de Aquiles con identidad como continuidad en Caos, sesgo pre-egóico en AA-I y mascarada en AA-III?",
+      "why_not_auto_resolved": "El corpus usa ‘identidad’ para al menos cuatro objetos y Aquiles adopta a Ricoeur sin traducirlo al vocabulario ontológico previo.",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_use",
+        "retrieval_use"
+      ],
+      "evidence": [
+        "ev.aq.return.narrative_phthia",
+        "ev.caos.glossary_ego_identity",
+        "ev.aa1.identity.formation",
+        "ev.aa3.collective.identity"
+      ],
+      "related_relation": "rel.narrative_identity_aq.differs_aa1"
+    },
+    {
+      "id": "review.aq.relational_generalization",
+      "status": "pending_empirical_and_normative_review",
+      "subject": "concept.presence.aq",
+      "question": "¿Qué alcance tienen las generalizaciones sobre vínculos ‘reales’, abandono, amor, generosidad, conflicto y selección de relaciones?",
+      "why_not_auto_resolved": "La obra convierte su distinción interna entre eje e imagen en juicios sobre autenticidad ajena y calidad relacional, a veces universales, sin criterio externo ni evidencia suficiente dentro del corpus.",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_use",
+        "clinical_use",
+        "normative_use"
+      ],
+      "evidence": [
+        "ev.aq.fall.threshold_others",
+        "ev.aq.return.links_revision",
+        "ev.aq.ethics.links_decisions",
+        "ev.aq.ethics.generosity_body"
       ]
     }
   ],
