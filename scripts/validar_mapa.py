@@ -355,6 +355,149 @@ def main() -> int:
             "La terminología material no puede presentarse como vocabulario literal de Caos",
         )
 
+        # Invariantes ganadas al integrar Afrodita Areia II sistemáticamente en F2.
+        aa2_structure_path = (
+            ROOT
+            / "corpus"
+            / "libros"
+            / "afrodita-areia"
+            / "02-agape"
+            / "estructura.json"
+        )
+        require(aa2_structure_path.exists(), "Falta la estructura derivada de Afrodita Areia II")
+        aa2_structure = json.loads(aa2_structure_path.read_text(encoding="utf-8"))
+        aa2_segments = {
+            segment["path"]: (segment["start_line"], segment["end_line"])
+            for segment in aa2_structure["segments"]
+        }
+        aa2_evidence = [ev for ev in evidence.values() if ev["work_id"] == "AA-II"]
+        aa2_covered_segments = {ev["segment"] for ev in aa2_evidence}
+        require(
+            set(aa2_segments) <= aa2_covered_segments,
+            "La auditoría de Afrodita Areia II debe cubrir preliminares, prefacio, "
+            "prólogo, quince capítulos, apéndice y glosario; faltan: "
+            f"{sorted(set(aa2_segments) - aa2_covered_segments)}",
+        )
+        require(
+            len(aa2_evidence) >= 35,
+            f"La auditoría semántica de Afrodita Areia II perdió granularidad: {len(aa2_evidence)} evidencias",
+        )
+        for ev in aa2_evidence:
+            require(ev["segment"] in aa2_segments, f"{ev['id']}: segmento de AA-II no declarado en estructura.json")
+            segment_start, segment_end = aa2_segments[ev["segment"]]
+            line_start, line_end = ev["source_lines"]
+            require(
+                segment_start <= line_start <= line_end <= segment_end,
+                f"{ev['id']}: rango fuera del segmento declarado {ev['segment']}",
+            )
+
+        required_aa2_nodes = {
+            "concept.agape.aa2",
+            "concept.alteridad_activadora.aa2",
+            "concept.hijos_agape.aa2",
+            "concept.posicion_voluntad.aa2",
+            "concept.eros.aa2",
+            "concept.deimos.aa2",
+            "concept.anteros.aa2",
+            "concept.fobos.aa2",
+            "concept.potos.aa2",
+            "concept.harmonia.aa2",
+            "concept.tension_umbral.aa2",
+            "concept.tension_defensa.aa2",
+            "concept.tension_tiempo.aa2",
+            "concept.movilidad_relacional.aa2",
+            "concept.fijacion_relacional.aa2",
+            "concept.patologia_sistemica.aa2",
+            "concept.himeno.aa2",
+            "concept.integridad_forma_propia.aa2",
+            "concept.retorno_himeno.aa2",
+            "formulation.agape.aa2",
+            "formulation.orientation.aa2",
+            "formulation.children.aa2",
+            "formulation.cross_levels.aa2",
+            "formulation.mobility_health.aa2",
+            "formulation.phi2.aa2",
+            "formulation.himeno.aa2",
+            "formulation.volume_crosswalk.aa2",
+            "formal.alpha_alterity.aa2",
+            "formal.transition_agape.aa2",
+            "formal.phi1.aa2",
+            "formal.phi2.aa2",
+            "formal.harmonia.aa2",
+        }
+        require(
+            required_aa2_nodes <= set(nodes),
+            f"Núcleo de Afrodita Areia II incompleto; faltan nodos: {sorted(required_aa2_nodes - set(nodes))}",
+        )
+
+        required_aa2_routes = {
+            "route.aa2.agape_orientation",
+            "route.aa2.children_positions",
+            "route.aa2.cross_level_status",
+            "route.aa2.threshold",
+            "route.aa2.defense",
+            "route.aa2.time_presence",
+            "route.aa2.phi2_mobility",
+            "route.aa2.himeno",
+            "route.aa2.formal_objects",
+            "route.aa2.volume_continuity",
+        }
+        require(
+            required_aa2_routes <= set(routes),
+            f"Rutas de Afrodita Areia II incompletas: {sorted(required_aa2_routes - set(routes))}",
+        )
+
+        aa2_reviews = {
+            "review.aa2.phi2_function_change",
+            "review.aa2.volume_crosswalk",
+            "review.aa2.cross_level_status",
+            "review.aa2.alpha_symbol_collision",
+        }
+        require(aa2_reviews <= set(reviews), "Deben conservarse las cuatro revisiones pendientes de Afrodita Areia II")
+        require(
+            "review.aa2.phi2_function_change"
+            in routes["route.aa2.phi2_mobility"].get("must_surface_review_items", []),
+            "La ruta de φ₂ y movilidad de AA-II debe surfacer su cambio funcional pendiente",
+        )
+        require(
+            "review.aa2.cross_level_status"
+            in routes["route.aa2.cross_level_status"].get("must_surface_review_items", []),
+            "La ruta transnivel de AA-II debe surfacer su estatuto pendiente",
+        )
+        require(
+            "review.aa2.volume_crosswalk"
+            in routes["route.aa2.volume_continuity"].get("must_surface_review_items", []),
+            "La ruta de continuidad de AA-II debe surfacer sus discordancias editoriales",
+        )
+        require(
+            "review.aa2.alpha_symbol_collision"
+            in routes["route.aa2.formal_objects"].get("must_surface_review_items", []),
+            "La ruta formal de AA-II debe surfacer la colisión del símbolo α",
+        )
+        require(
+            relations["rel.phi2_aa2.differs_phi2_caos"]["evidence_status"] == "inferred"
+            and relations["rel.phi2_aa2.differs_bis_aa1"]["evidence_status"] == "inferred",
+            "La diferencia funcional de φ₂ en AA-II no puede presentarse como adjudicación autoral",
+        )
+        require(
+            relations["rel.alpha_alterity.distinguished_assumption"]["evidence_status"] == "inferred",
+            "La separación entre α-alteridad y α-coeficiente debe seguir marcada como inferida",
+        )
+        require(
+            "review.aa2.phi2_function_change"
+            in routes["route.ego.explicacion"].get("must_surface_review_items", []),
+            "La ruta histórica del ego debe surfacer la variación relacional de φ₂",
+        )
+        require(
+            "review.aego.formulation_change"
+            in routes["route.aa2.himeno"].get("must_surface_review_items", []),
+            "La distinción Himeno/Aego debe conservar visible la evolución histórica de Aego",
+        )
+        require(
+            relations["rel.mobility_aa2.revised_by_himeno"]["evidence_status"] == "explicit",
+            "Himeno debe conservarse como revisión autoral explícita del criterio de movilidad",
+        )
+
     print(
         "Mapa válido:",
         f"fase={phase}, schema={schema_status};",
@@ -366,7 +509,8 @@ def main() -> int:
         f"{len(reviews)} revisiones pendientes,",
         f"{len(tests)} pruebas F1 preservadas,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'CAOS'])} evidencias de Caos,",
-        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-I'])} evidencias de Afrodita Areia I."
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-I'])} evidencias de Afrodita Areia I,",
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AA-II'])} evidencias de Afrodita Areia II."
     )
     return 0
 
