@@ -3438,6 +3438,36 @@ def main() -> int:
             surfaced={rid for route_item in routes.values() if route_item["id"].startswith("route.histos.") for rid in route_item.get("must_surface_review_items",[])}
             require(required_histos_reviews <= surfaced, f"Toda revisión propia de HISTOS debe ser navegable; faltan {sorted(required_histos_reviews-surfaced)}")
 
+
+        # Invariantes ganadas al auditar Método Prometeo jurídico en F4.
+        require("PROMETEO-JUR" in works, "Falta Método Prometeo jurídico en F4")
+        prom_structure_path=ROOT/"corpus"/"libros"/"metodo-prometeo-juristas-abogados"/"estructura.json"
+        require(prom_structure_path.exists(), "Falta estructura derivada de Método Prometeo")
+        prom_structure=json.loads(prom_structure_path.read_text(encoding="utf-8"))
+        require(prom_structure.get("sha256")==works["PROMETEO-JUR"]["sha256"], "Estructura Prometeo no corresponde a la fuente")
+        prom_segments={s["path"]:(s["start_line"],s["end_line"]) for s in prom_structure["segments"]}
+        require(len(prom_segments)==13, "Método Prometeo debe conservar 13 segmentos y la duplicidad 6a/6b")
+        prom_ev=[x for x in evidence.values() if x["work_id"]=="PROMETEO-JUR"]
+        require(set(prom_segments)<={x["segment"] for x in prom_ev}, "Auditoría Prometeo perdió cobertura")
+        for x in prom_ev:
+            require(x["segment"] in prom_segments, f"{x['id']}: segmento Prometeo no declarado")
+            a,b=prom_segments[x["segment"]]; c,d=x["source_lines"]
+            require(a<=c<=d<=b, f"{x['id']}: rango fuera del segmento Prometeo")
+        required_prom_nodes={"method.prometeo.imputation","method.prometeo.workflow","method.prometeo.graph","formal.prometeo.evidence_scale","formal.prometeo.rstar_operational","formal.prometeo.S","formal.prometeo.alpha","formal.prometeo.delta","formal.prometeo.adjustment_debitor","formal.prometeo.shapley","method.prometeo.pld","method.prometeo.presentation","method.prometeo.calibration_sheet","method.prometeo.template","case.prometeo.fincen_2025","case.prometeo.meridiano"}
+        require(required_prom_nodes<=set(nodes), f"Auditoría Prometeo incompleta: {sorted(required_prom_nodes-set(nodes))}")
+        require(nodes["formal.prometeo.evidence_scale"]["formal_spec"].get("epistemic_status")=="authorial_calibration_internally_inconsistent_pending_validation", "No deben armonizarse las dos tablas E0–E8 de Prometeo")
+        require(nodes["formal.prometeo.rstar_operational"]["formal_spec"].get("epistemic_status")=="authorial_operationalization_with_unresolved_algorithmic_equivalence", "R* Prometeo no puede presentarse como equivalente validado al R* eigenvectorial")
+        require(nodes["formal.prometeo.alpha"]["formal_spec"].get("epistemic_status")=="authorial_parameter_with_crossdomain_semantic_drift", "Debe conservarse el cambio semántico de α en PLD")
+        required_prom_reviews={"review.prometeo.external_derivative","review.prometeo.causal_vs_legal","review.prometeo.evidence_scale_versions","review.prometeo.weight_calibration","review.prometeo.rstar_algorithm_equivalence","review.prometeo.design_node_presumption","review.prometeo.S_calibration","review.prometeo.alpha_semantic_drift","review.prometeo.delta_comparability","review.prometeo.robustness_threshold","review.prometeo.legal_admissibility","review.prometeo.forum_thresholds","review.prometeo.shapley_value_function","review.prometeo.fincen_sources","review.prometeo.case_reproduction","review.prometeo.meridiano_status","review.prometeo.damage_allocation","review.prometeo.template_limits"}
+        require(required_prom_reviews<=set(reviews), "Deben conservarse las revisiones abiertas de Método Prometeo")
+        inherited_prom={"review.mci.rstar_orientation","review.mci.s_ranges_calibration","review.mci.alpha_calibration","review.mci.alpha_observability","review.mci.delta_crosswork","review.calc.rstar_equivalence","review.histos.prometeo_independence","review.histos.alpha_scale"}
+        for rid in inherited_prom:
+            require(str(reviews[rid].get("status","")).startswith("pending"), f"Prometeo no autoriza cerrar revisión heredada {rid}")
+            require(any(e.startswith("ev.prometeo.") for e in reviews[rid].get("evidence",[])), f"{rid} debe conservar evidencia nueva de Prometeo")
+        required_prom_routes={"route.prometeo.scope","route.prometeo.workflow","route.prometeo.weights","route.prometeo.rstar_s","route.prometeo.alpha_delta","route.prometeo.robustness","route.prometeo.pld","route.prometeo.cases","route.prometeo.presentation","route.prometeo.crosswork"}
+        require(required_prom_routes<=set(routes), "Faltan rutas F4 de Método Prometeo")
+        require(all(relations[r]["evidence_status"]=="inferred" and bool(relations[r].get("rationale")) for r in {"rel.prometeo.rstar.reuses_axiom","rel.prometeo.rstar.differs_tf","rel.prometeo.S.operationalizes_mci","rel.prometeo.alpha.reuses_global","rel.prometeo.delta.reuses_global","rel.prometeo.shapley.reuses_mci","rel.prometeo.histos.interface"}), "Los cruces Prometeo con F3/F4 deben seguir como inferencias auditables")
+
     print(
         "Mapa válido:",
         f"fase={phase}, schema={schema_status};",

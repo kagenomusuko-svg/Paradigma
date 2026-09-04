@@ -1,5 +1,5 @@
 {
-  "map_version": "2.7.0",
+  "map_version": "2.8.0",
   "schema_status": "frozen",
   "phase": "F4",
   "purpose": "Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.",
@@ -106,6 +106,12 @@
       "title": "HISTOS: Protocolo de Acompañamiento Ontológico",
       "source": "corpus/fuentes/HISTOS_Protocolo_de_Acompanamiento_Ontologico.md",
       "sha256": "35497bc426d2468e69541dc52e29125b446e1fb9e4ca05b81894242d37e1599b"
+    },
+    {
+      "id": "PROMETEO-JUR",
+      "title": "El método Prometeo: Imputación causal para juristas y abogados",
+      "source": "corpus/fuentes/El_metodo_Prometeo_imputacion_causal_para_juristas_y_abogados.md",
+      "sha256": "e63d118a5b4cd676b9c28b69cea59bb739ff55575f35788ab5b56b1816fcc03e"
     }
   ],
   "evidence": [
@@ -12912,6 +12918,149 @@
       ],
       "section": "VII·4",
       "evidence_type": "group_and_collective_application"
+    },
+    {
+      "id": "ev.prometeo.f4.00-preliminares",
+      "work_id": "PROMETEO-JUR",
+      "segment": "corpus/libros/metodo-prometeo-juristas-abogados/00-preliminares.md",
+      "source_lines": [
+        1,
+        22
+      ],
+      "section": "00-preliminares",
+      "evidence_type": "scope"
+    },
+    {
+      "id": "ev.prometeo.f4.01-prologo",
+      "work_id": "PROMETEO-JUR",
+      "segment": "corpus/libros/metodo-prometeo-juristas-abogados/01-prologo.md",
+      "source_lines": [
+        23,
+        424
+      ],
+      "section": "PROLOGO",
+      "evidence_type": "prologue"
+    },
+    {
+      "id": "ev.prometeo.f4.capitulo-01",
+      "work_id": "PROMETEO-JUR",
+      "segment": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-01.md",
+      "source_lines": [
+        425,
+        1183
+      ],
+      "section": "1",
+      "evidence_type": "method_and_case_segment"
+    },
+    {
+      "id": "ev.prometeo.f4.capitulo-02",
+      "work_id": "PROMETEO-JUR",
+      "segment": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-02.md",
+      "source_lines": [
+        1184,
+        2423
+      ],
+      "section": "2",
+      "evidence_type": "method_and_case_segment"
+    },
+    {
+      "id": "ev.prometeo.f4.capitulo-03",
+      "work_id": "PROMETEO-JUR",
+      "segment": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-03.md",
+      "source_lines": [
+        2424,
+        3622
+      ],
+      "section": "3",
+      "evidence_type": "method_and_case_segment"
+    },
+    {
+      "id": "ev.prometeo.f4.capitulo-04",
+      "work_id": "PROMETEO-JUR",
+      "segment": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-04.md",
+      "source_lines": [
+        3623,
+        4631
+      ],
+      "section": "4",
+      "evidence_type": "method_and_case_segment"
+    },
+    {
+      "id": "ev.prometeo.f4.capitulo-05",
+      "work_id": "PROMETEO-JUR",
+      "segment": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-05.md",
+      "source_lines": [
+        4632,
+        5675
+      ],
+      "section": "5",
+      "evidence_type": "method_and_case_segment"
+    },
+    {
+      "id": "ev.prometeo.f4.capitulo-06a",
+      "work_id": "PROMETEO-JUR",
+      "segment": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-06a.md",
+      "source_lines": [
+        5676,
+        6832
+      ],
+      "section": "6a",
+      "evidence_type": "method_and_case_segment"
+    },
+    {
+      "id": "ev.prometeo.f4.capitulo-06b",
+      "work_id": "PROMETEO-JUR",
+      "segment": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-06b.md",
+      "source_lines": [
+        6833,
+        8157
+      ],
+      "section": "6b",
+      "evidence_type": "method_and_case_segment"
+    },
+    {
+      "id": "ev.prometeo.f4.capitulo-07",
+      "work_id": "PROMETEO-JUR",
+      "segment": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-07.md",
+      "source_lines": [
+        8158,
+        9918
+      ],
+      "section": "7",
+      "evidence_type": "method_and_case_segment"
+    },
+    {
+      "id": "ev.prometeo.f4.apendice-a",
+      "work_id": "PROMETEO-JUR",
+      "segment": "corpus/libros/metodo-prometeo-juristas-abogados/apendice-a.md",
+      "source_lines": [
+        9919,
+        10255
+      ],
+      "section": "A",
+      "evidence_type": "appendix"
+    },
+    {
+      "id": "ev.prometeo.f4.apendice-b",
+      "work_id": "PROMETEO-JUR",
+      "segment": "corpus/libros/metodo-prometeo-juristas-abogados/apendice-b.md",
+      "source_lines": [
+        10256,
+        10359
+      ],
+      "section": "B",
+      "evidence_type": "appendix"
+    },
+    {
+      "id": "ev.prometeo.f4.apendice-c",
+      "work_id": "PROMETEO-JUR",
+      "segment": "corpus/libros/metodo-prometeo-juristas-abogados/apendice-c.md",
+      "source_lines": [
+        10360,
+        10506
+      ],
+      "section": "C",
+      "evidence_type": "appendix"
     }
   ],
   "nodes": [
@@ -24116,6 +24265,401 @@
         "ev.histos.f4.capitulo-p-2"
       ],
       "evidence_status": "explicit"
+    },
+    {
+      "id": "method.prometeo.imputation",
+      "kind": "method",
+      "label": "Método Prometeo de imputación causal",
+      "summary": "Método autoral dirigido a juristas para reconstruir cadenas multiactor, ponderar conexiones, distribuir causalidad, refinar por sustituibilidad/asunción y traducir el resultado a expediente; declara no decidir culpabilidad ni sustituir la calificación jurídica.",
+      "evidence": [
+        "ev.prometeo.f4.01-prologo",
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-06b"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.prometeo.external_derivative",
+      "kind": "formulation",
+      "label": "Imputación como derivada exterior de la segunda mediación",
+      "role": "authorial_ontological_correspondence",
+      "summary": "El prólogo equipara la imputación exterior del sistema con la operación interior de reconocimiento del acto y sostiene que el dolo modula pero no funda la imputación causal.",
+      "evidence": [
+        "ev.prometeo.f4.01-prologo"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.prometeo.scope",
+      "kind": "formulation",
+      "label": "Ámbito y límites declarados de Prometeo",
+      "summary": "Declara mayor utilidad en causalidad multiactor, fraude institucional y delitos financieros; afirma menor valor cuando la evidencia directa identifica sin ambigüedad al nodo causal visible.",
+      "evidence": [
+        "ev.prometeo.f4.01-prologo"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.prometeo.workflow",
+      "kind": "method",
+      "label": "Protocolo Prometeo de cinco pasos",
+      "summary": "Secuencia prescriptiva: mapa/grafo, pesos de conexiones, distribución causal, idiosincrasia y brecha, y magnitud monetaria del daño. La obra declara el orden necesario.",
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-03",
+        "ev.prometeo.f4.capitulo-07"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.prometeo.graph",
+      "kind": "method",
+      "label": "Construcción del grafo causal",
+      "summary": "Define nodos de diseño, ejecución, instrumentales y final; clasifica aristas directas, estructurales, de omisión y nulas; exige fuente documental para cada conexión y distingue ausencia de evidencia de evidencia de ausencia.",
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-03"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.prometeo.evidence_scale",
+      "kind": "formal_object",
+      "label": "Escalas E0–E8 de peso de aristas en Método Prometeo",
+      "formal_spec": {
+        "symbol": "E0–E8 → [w_min,w_max]",
+        "object_type": "authorial_evidence_to_weight_calibration_with_internal_versions",
+        "expression": "Cap.2: E1[.75,.95], E2[.70,.90], E3[.55,.75], E4[.50,.70], E5[.35,.55], E6[.25,.45], E7[.10,.30], E8[.05,.20], E0=0; Ap.A: E1[.75,.95], E2[.55,.75], E3[.40,.60], E4[.30,.55], E5[.20,.45], E6[.15,.35], E7[.05,.20], E8[.02,.10]",
+        "domain": "tipos autorales de evidencia documental, pericial, testimonial, estadística e inferencial",
+        "codomain": "intervalos numéricos de peso w",
+        "dependencies": [
+          "method.prometeo.graph"
+        ],
+        "assumptions": [
+          "el tipo de evidencia determina intervalos comparables de fuerza causal",
+          "los rangos son transportables entre dominios",
+          "la clasificación por tipo es reproducible"
+        ],
+        "epistemic_status": "authorial_calibration_internally_inconsistent_pending_validation",
+        "ontological_correspondence": "fuerza atribuida a aristas del grafo causal"
+      },
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-03",
+        "ev.prometeo.f4.apendice-a"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.prometeo.rstar_operational",
+      "kind": "formal_object",
+      "label": "R* operacional en Método Prometeo jurídico",
+      "formal_spec": {
+        "symbol": "R*",
+        "object_type": "authorial_causal_allocation_with_multiple_algorithms",
+        "expression": "La obra usa método de rondas; Ap.C resume R*(i)=w_i/Σw_j para escenarios mínimo/central/máximo",
+        "domain": "grafos y pesos calibrados por la obra",
+        "codomain": "porcentajes que suman 1",
+        "dependencies": [
+          "method.prometeo.graph",
+          "formal.prometeo.evidence_scale"
+        ],
+        "assumptions": [
+          "los pesos representan fuerza causal",
+          "normalización produce proporciones causales",
+          "las variantes de cálculo son equivalentes donde se aplican"
+        ],
+        "epistemic_status": "authorial_operationalization_with_unresolved_algorithmic_equivalence",
+        "ontological_correspondence": "fracción de daño causalmente atribuida a cada nodo"
+      },
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-03",
+        "ev.prometeo.f4.capitulo-04",
+        "ev.prometeo.f4.apendice-c"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.prometeo.bstar",
+      "kind": "formal_object",
+      "label": "B* — distribución de beneficio",
+      "formal_spec": {
+        "symbol": "B*",
+        "object_type": "authorial_benefit_allocation",
+        "expression": "B*_i = Beneficio_neto_i / Beneficio_total",
+        "domain": "beneficios atribuidos a nodos",
+        "codomain": "proporciones de beneficio",
+        "dependencies": [
+          "method.prometeo.graph"
+        ],
+        "assumptions": [
+          "beneficios monetarios y no monetarios son cuantificables y comparables"
+        ],
+        "epistemic_status": "authorial_operationalization_pending_normative_and_metrological_review",
+        "ontological_correspondence": "participación atribuida en el beneficio del evento"
+      },
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.prometeo.S",
+      "kind": "formal_object",
+      "label": "S — sustituibilidad operacional Prometeo",
+      "formal_spec": {
+        "symbol": "S_i",
+        "object_type": "authorial_three_item_score",
+        "expression": "S(i)=(A+B+C)/3, A,B,C∈{0,0.5,1}",
+        "domain": "juicios del analista sobre fungibilidad/idiosincrasia del nodo",
+        "codomain": "[0,1]",
+        "dependencies": [
+          "formal.prometeo.rstar_operational"
+        ],
+        "assumptions": [
+          "tres respuestas discretas miden sustituibilidad",
+          "los tres ítems tienen igual peso"
+        ],
+        "epistemic_status": "authorial_scoring_rule_pending_calibration",
+        "ontological_correspondence": "sustituibilidad/fungibilidad del actor"
+      },
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.apendice-c"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.prometeo.rstar_net",
+      "kind": "formal_object",
+      "label": "R*neta operacional Prometeo",
+      "formal_spec": {
+        "symbol": "R*_{neta,i}",
+        "object_type": "authorial_derived_score",
+        "expression": "R*_neta(i)=R*(i)×(1−S(i))",
+        "domain": "R*,S∈[0,1]",
+        "codomain": "[0,1] bajo supuestos",
+        "dependencies": [
+          "formal.prometeo.rstar_operational",
+          "formal.prometeo.S"
+        ],
+        "assumptions": [
+          "R* y S son comparables y multiplicativamente combinables"
+        ],
+        "epistemic_status": "authorial_formula_pending_metrological_review",
+        "ontological_correspondence": "responsabilidad causal atribuida como idiosincrática"
+      },
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-04",
+        "ev.prometeo.f4.apendice-c"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.prometeo.alpha",
+      "kind": "formal_object",
+      "label": "α operacional en Método Prometeo jurídico",
+      "formal_spec": {
+        "symbol": "α_i",
+        "object_type": "authorial_crossdomain_assumption_or_compliance_ratio",
+        "expression": "Ap.C: α(i)=[monto reconocido o reparado por i]/AD(i); en PLD se reinterpreta como cumplimiento de reporte/due diligence",
+        "domain": "reparación/asunción o cumplimiento regulatorio según dominio",
+        "codomain": "[0,1] declarado",
+        "dependencies": [
+          "formal.prometeo.adjustment_debitor"
+        ],
+        "assumptions": [
+          "reparación monetaria y asunción son comparables",
+          "la semántica puede trasladarse a cumplimiento PLD"
+        ],
+        "epistemic_status": "authorial_parameter_with_crossdomain_semantic_drift",
+        "ontological_correspondence": "asunción/reparación o cumplimiento atribuido al nodo"
+      },
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-05",
+        "ev.prometeo.f4.apendice-c"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.prometeo.delta",
+      "kind": "formal_object",
+      "label": "Δ operacional en Método Prometeo jurídico",
+      "formal_spec": {
+        "symbol": "Δ_i",
+        "object_type": "authorial_difference_index",
+        "expression": "Δ(i)=R*(i)−α(i)",
+        "domain": "[0,1]² declarado",
+        "codomain": "[-1,1]",
+        "dependencies": [
+          "formal.prometeo.rstar_operational",
+          "formal.prometeo.alpha"
+        ],
+        "assumptions": [
+          "R* y α son conmensurables pese a cambios semánticos por dominio"
+        ],
+        "epistemic_status": "authorial_formula_pending_comparability_review",
+        "ontological_correspondence": "brecha entre causalidad atribuida y asunción/cumplimiento"
+      },
+      "evidence": [
+        "ev.prometeo.f4.01-prologo",
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-05",
+        "ev.prometeo.f4.apendice-c"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.prometeo.adjustment_debitor",
+      "kind": "formal_object",
+      "label": "Ajuste debitor AD",
+      "formal_spec": {
+        "symbol": "AD_i",
+        "object_type": "authorial_damage_allocation",
+        "expression": "AD(i)=R*(i)×D_total",
+        "domain": "R* y magnitud monetaria de daño",
+        "codomain": "unidad monetaria",
+        "dependencies": [
+          "formal.prometeo.rstar_operational"
+        ],
+        "assumptions": [
+          "D_total es cuantificable",
+          "R* puede escalar directamente daño monetario"
+        ],
+        "epistemic_status": "authorial_allocation_rule_pending_legal_and_normative_review",
+        "ontological_correspondence": "cuota monetaria atribuida al nodo"
+      },
+      "evidence": [
+        "ev.prometeo.f4.01-prologo",
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-07",
+        "ev.prometeo.f4.apendice-c"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.prometeo.sensitivity",
+      "kind": "method",
+      "label": "Análisis de sensibilidad y declaraciones A–D",
+      "summary": "Calcula escenarios mínimo, central y máximo y clasifica robustez según estabilidad del líder/ranking; usa un umbral del 10% para separar candidatos en Declaración C y lo presenta como práctica forense.",
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-06b"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.prometeo.shapley",
+      "kind": "formal_object",
+      "label": "Valor de Shapley en Prometeo PLD",
+      "formal_spec": {
+        "symbol": "φ(i)",
+        "object_type": "authorial_coalitional_allocation",
+        "expression": "φ(i)=Σ sobre órdenes [aporte marginal de i]/n!",
+        "domain": "coaliciones/órdenes de nodos sustituibles",
+        "codomain": "participación proporcional",
+        "dependencies": [
+          "method.prometeo.graph"
+        ],
+        "assumptions": [
+          "función de valor/resultado de coalición está definida",
+          "Shapley representa responsabilidad causal jurídica"
+        ],
+        "epistemic_status": "authorial_application_pending_value_function_and_legal_correspondence_review",
+        "ontological_correspondence": "responsabilidad proporcional cuando no hay nodo necesario individual"
+      },
+      "evidence": [
+        "ev.prometeo.f4.capitulo-05",
+        "ev.prometeo.f4.capitulo-06a",
+        "ev.prometeo.f4.apendice-c"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.prometeo.pld",
+      "kind": "method",
+      "label": "Adaptación Prometeo a PLD y delitos financieros",
+      "summary": "Traduce grafo, R*, S, α, Δ, daño y Shapley al lenguaje de PLD; reconstruye desde nodos visibles hacia arquitectos y distingue facilitadores parcialmente sustituibles.",
+      "evidence": [
+        "ev.prometeo.f4.capitulo-05",
+        "ev.prometeo.f4.capitulo-06a"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.prometeo.presentation",
+      "kind": "method",
+      "label": "Protocolo de presentación ante tribunal",
+      "summary": "Separa método, perito y abogado; prescribe hoja de calibración, sensibilidad, declaración de robustez y ajuste debitor, así como reglas de defensa adversarial y limitaciones explícitas.",
+      "evidence": [
+        "ev.prometeo.f4.capitulo-06b",
+        "ev.prometeo.f4.apendice-b"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.prometeo.calibration_sheet",
+      "kind": "method",
+      "label": "Hoja de calibración Prometeo",
+      "summary": "Documento por arista con tipo E, rango, punto central, fuente y limitaciones; exige declarar aristas excluidas y versionar sin borrar versiones previas.",
+      "evidence": [
+        "ev.prometeo.f4.capitulo-06b",
+        "ev.prometeo.f4.apendice-b"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.prometeo.template",
+      "kind": "method",
+      "label": "Plantilla automatizada Prometeo",
+      "summary": "Automatiza pasos 2–5 para hasta seis nodos/aristas activas según el apéndice, con pestañas de calibración, R*, S/R*neta, sensibilidad y ajuste debitor; se declara instrumento de trabajo, no pieza procesal autónoma.",
+      "evidence": [
+        "ev.prometeo.f4.apendice-c"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "case.prometeo.bank_tutorial",
+      "kind": "case",
+      "label": "Caso tutorial Fondo Seguro Plus",
+      "summary": "Caso construido para ejecutar el protocolo completo y mostrar grafo, rangos, R*, S, α, Δ y expediente.",
+      "evidence": [
+        "ev.prometeo.f4.capitulo-03"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "case.prometeo.civil_set",
+      "kind": "case",
+      "label": "Tres casos civiles/contractuales de Prometeo",
+      "summary": "Tres aplicaciones autorales destinadas a mostrar desagregación de institución, responsabilidad alta del ejecutor cuando S es baja y responsabilidad compartida laboral.",
+      "evidence": [
+        "ev.prometeo.f4.capitulo-04"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "case.prometeo.fincen_2025",
+      "kind": "case",
+      "label": "Caso CIBanco–Intercam–Vector / FinCEN 2025",
+      "summary": "Ejercicio didáctico basado en fuentes públicas y expresamente no presentado como determinación jurídica firme; combina rondas y Shapley.",
+      "evidence": [
+        "ev.prometeo.f4.capitulo-06a"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "case.prometeo.meridiano",
+      "kind": "case",
+      "label": "Caso Meridiano ilustrativo",
+      "summary": "Caso ficticio internamente construido sobre patrones de accidentes de obra para producir un peritaje completo y cuatro documentos procesales.",
+      "evidence": [
+        "ev.prometeo.f4.capitulo-07"
+      ],
+      "evidence_status": "explicit"
     }
   ],
   "relations": [
@@ -31682,6 +32226,176 @@
       "evidence_status": "explicit",
       "evidence": [
         "ev.histos.f4.capitulo-p-2"
+      ]
+    },
+    {
+      "id": "rel.prometeo.method.refines_tf",
+      "type": "refines",
+      "from": "method.prometeo.imputation",
+      "to": "concept.tf.instrument_prometeo_role",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.prometeo.f4.01-prologo",
+        "ev.prometeo.f4.capitulo-02"
+      ],
+      "rationale": "El manual desarrolla como procedimiento jurídico el papel externo anticipado por Transformación formal; no reemplaza esa formulación histórica."
+    },
+    {
+      "id": "rel.prometeo.rstar.reuses_axiom",
+      "type": "operationalizes",
+      "from": "formal.prometeo.rstar_operational",
+      "to": "formal.rstar",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.apendice-c"
+      ],
+      "rationale": "Usa el mismo símbolo y propósito de distribución causal, pero el procedimiento simplificado/rondas no adjudica equivalencia con la formalización eigenvectorial."
+    },
+    {
+      "id": "rel.prometeo.rstar.differs_tf",
+      "type": "differs_from",
+      "from": "formal.prometeo.rstar_operational",
+      "to": "formal.tf.rstar",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.apendice-c"
+      ],
+      "rationale": "La obra usa variantes de rondas y normalización de pesos que requieren revisión frente a W·R*=λR*."
+    },
+    {
+      "id": "rel.prometeo.S.operationalizes_mci",
+      "type": "operationalizes",
+      "from": "formal.prometeo.S",
+      "to": "formal.mci.S",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.apendice-c"
+      ],
+      "rationale": "La puntuación de tres preguntas pretende representar sustituibilidad, pero su calibración y equivalencia con S de MC-I no están demostradas."
+    },
+    {
+      "id": "rel.prometeo.alpha.reuses_global",
+      "type": "reuses",
+      "from": "formal.prometeo.alpha",
+      "to": "formal.alpha",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-05"
+      ],
+      "rationale": "Reutiliza α pero cambia de asunción/reparación a cumplimiento PLD según dominio."
+    },
+    {
+      "id": "rel.prometeo.alpha.informed_by_histos",
+      "type": "may_use",
+      "from": "formal.prometeo.alpha",
+      "to": "method.histos.prometeo_handoff",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02"
+      ],
+      "rationale": "HISTOS declara aportar α cualitativo; el manual jurídico no resuelve la independencia ni observabilidad de ese insumo."
+    },
+    {
+      "id": "rel.prometeo.delta.reuses_global",
+      "type": "reuses",
+      "from": "formal.prometeo.delta",
+      "to": "formal.delta",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.prometeo.f4.01-prologo",
+        "ev.prometeo.f4.capitulo-02"
+      ],
+      "rationale": "Conserva Δ=R*−α pero la conmensurabilidad depende de la semántica de α."
+    },
+    {
+      "id": "rel.prometeo.rnet.refines_tf",
+      "type": "operationalizes",
+      "from": "formal.prometeo.rstar_net",
+      "to": "formal.tf.rstar_net",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.apendice-c"
+      ],
+      "rationale": "Reproduce R*(1−S) con S propia de tres ítems; no valida la fórmula heredada."
+    },
+    {
+      "id": "rel.prometeo.shapley.reuses_mci",
+      "type": "applies",
+      "from": "formal.prometeo.shapley",
+      "to": "formal.mci.shapley",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.prometeo.f4.capitulo-05",
+        "ev.prometeo.f4.capitulo-06a"
+      ],
+      "rationale": "Aplica Shapley a responsabilidad de facilitadores sustituibles; requiere función de valor y correspondencia causal/jurídica no demostradas."
+    },
+    {
+      "id": "rel.prometeo.histos.interface",
+      "type": "receives_input_from",
+      "from": "method.prometeo.imputation",
+      "to": "method.histos.prometeo_handoff",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02"
+      ],
+      "rationale": "La interfaz HISTOS→Prometeo queda como insumo cualitativo de segundo nivel, no como medición independiente."
+    },
+    {
+      "id": "rel.prometeo.pld.specializes_method",
+      "type": "specializes",
+      "from": "method.prometeo.pld",
+      "to": "method.prometeo.imputation",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.prometeo.f4.capitulo-05",
+        "ev.prometeo.f4.capitulo-06a"
+      ]
+    },
+    {
+      "id": "rel.prometeo.presentation.operationalizes_method",
+      "type": "operationalizes",
+      "from": "method.prometeo.presentation",
+      "to": "method.prometeo.imputation",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.prometeo.f4.capitulo-06b",
+        "ev.prometeo.f4.apendice-b"
+      ]
+    },
+    {
+      "id": "rel.prometeo.template.implements_scores",
+      "type": "implements",
+      "from": "method.prometeo.template",
+      "to": "formal.prometeo.rstar_operational",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.prometeo.f4.apendice-c"
+      ]
+    },
+    {
+      "id": "rel.prometeo.case_fincen.applies_pld",
+      "type": "applies",
+      "from": "case.prometeo.fincen_2025",
+      "to": "method.prometeo.pld",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.prometeo.f4.capitulo-06a"
+      ]
+    },
+    {
+      "id": "rel.prometeo.case_meridiano.applies_method",
+      "type": "applies",
+      "from": "case.prometeo.meridiano",
+      "to": "method.prometeo.imputation",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.prometeo.f4.capitulo-07"
       ]
     }
   ],
@@ -40854,6 +41568,313 @@
         "review.histos.group_validity",
         "review.histos.change_attribution"
       ]
+    },
+    {
+      "id": "route.prometeo.scope",
+      "purpose": "Alcance, derivada exterior y límites",
+      "triggers": [
+        "Prometeo alcance",
+        "imputación causal",
+        "derivada exterior"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.prometeo.f4.01-prologo",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.prometeo.external_derivative",
+        "review.prometeo.causal_vs_legal",
+        "review.prometeo.forum_thresholds"
+      ]
+    },
+    {
+      "id": "route.prometeo.workflow",
+      "purpose": "Cinco pasos y construcción del grafo",
+      "triggers": [
+        "cinco pasos Prometeo",
+        "grafo causal",
+        "nodos aristas"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.prometeo.f4.capitulo-02",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.prometeo.f4.capitulo-03",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.prometeo.design_node_presumption",
+        "review.prometeo.causal_vs_legal"
+      ]
+    },
+    {
+      "id": "route.prometeo.weights",
+      "purpose": "Pesos y calibración E0–E8",
+      "triggers": [
+        "E0 E8 Prometeo",
+        "peso w",
+        "hoja calibración"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.prometeo.f4.capitulo-02",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.prometeo.f4.capitulo-03",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.prometeo.f4.apendice-a",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.prometeo.f4.apendice-b",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.prometeo.evidence_scale_versions",
+        "review.prometeo.weight_calibration",
+        "review.calc.weight_evidence_conflation",
+        "review.calc.weight_interrater"
+      ]
+    },
+    {
+      "id": "route.prometeo.rstar_s",
+      "purpose": "R*, S y R*neta",
+      "triggers": [
+        "R* Prometeo",
+        "sustituibilidad Prometeo",
+        "R*neta"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.prometeo.f4.capitulo-02",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.prometeo.f4.capitulo-04",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.prometeo.f4.apendice-c",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.prometeo.rstar_algorithm_equivalence",
+        "review.prometeo.design_node_presumption",
+        "review.prometeo.S_calibration",
+        "review.tf.rstar_orientation",
+        "review.mci.rstar_orientation",
+        "review.calc.rstar_equivalence"
+      ]
+    },
+    {
+      "id": "route.prometeo.alpha_delta",
+      "purpose": "α y Δ entre dominios",
+      "triggers": [
+        "alpha Prometeo",
+        "delta Prometeo",
+        "déficit compliance"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.prometeo.f4.capitulo-02",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.prometeo.f4.capitulo-05",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.prometeo.f4.apendice-c",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.prometeo.alpha_semantic_drift",
+        "review.prometeo.delta_comparability",
+        "review.mci.alpha_observability",
+        "review.mci.delta_crosswork",
+        "review.calc.alpha_crossdomain",
+        "review.histos.alpha_scale",
+        "review.histos.delta_semantics"
+      ]
+    },
+    {
+      "id": "route.prometeo.robustness",
+      "purpose": "Sensibilidad y declaraciones A–D",
+      "triggers": [
+        "robustez Prometeo",
+        "Declaración A B C D",
+        "sensibilidad"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.prometeo.f4.capitulo-02",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.prometeo.f4.capitulo-06b",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.prometeo.robustness_threshold",
+        "review.prometeo.legal_admissibility",
+        "review.prometeo.forum_thresholds"
+      ]
+    },
+    {
+      "id": "route.prometeo.pld",
+      "purpose": "PLD, nodo invisible y Shapley",
+      "triggers": [
+        "Prometeo PLD",
+        "fentanilo Prometeo",
+        "Shapley Prometeo"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.prometeo.f4.capitulo-05",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.prometeo.f4.capitulo-06a",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.prometeo.shapley_value_function",
+        "review.prometeo.fincen_sources",
+        "review.calc.shapley_value"
+      ]
+    },
+    {
+      "id": "route.prometeo.cases",
+      "purpose": "Casos y estatus probatorio",
+      "triggers": [
+        "casos Prometeo",
+        "Fondo Seguro Plus",
+        "Caso Meridiano"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.prometeo.f4.capitulo-03",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.prometeo.f4.capitulo-04",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.prometeo.f4.capitulo-06a",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.prometeo.f4.capitulo-07",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.prometeo.case_reproduction",
+        "review.prometeo.meridiano_status",
+        "review.prometeo.fincen_sources",
+        "review.calc.case_sources"
+      ]
+    },
+    {
+      "id": "route.prometeo.presentation",
+      "purpose": "Expediente y presentación forense",
+      "triggers": [
+        "peritaje Prometeo",
+        "hoja calibración expediente",
+        "tribunal Prometeo"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.prometeo.f4.capitulo-06b",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.prometeo.f4.apendice-b",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.prometeo.f4.apendice-c",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.prometeo.legal_admissibility",
+        "review.prometeo.damage_allocation",
+        "review.prometeo.template_limits"
+      ]
+    },
+    {
+      "id": "route.prometeo.crosswork",
+      "purpose": "Cruces con F3, ECO/HISTOS y problemas heredados",
+      "triggers": [
+        "Prometeo F3",
+        "Histos Prometeo",
+        "R* alpha delta historia"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.prometeo.f4.capitulo-02",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.prometeo.f4.capitulo-05",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.prometeo.f4.capitulo-06b",
+          "reason": "Segmento canónico de la ruta Prometeo."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.prometeo.rstar_algorithm_equivalence",
+        "review.prometeo.alpha_semantic_drift",
+        "review.prometeo.delta_comparability",
+        "review.histos.prometeo_independence",
+        "review.histos.system_coherence",
+        "review.mci.alpha_observability",
+        "review.calc.rstar_equivalence"
+      ]
     }
   ],
   "review_queue": [
@@ -43572,7 +44593,9 @@
         "ev.mci.ii6.power_pf",
         "ev.mcii.ii1.power",
         "ev.mcii.iv1.axioms",
-        "ev.calc.d.core"
+        "ev.calc.d.core",
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.apendice-c"
       ],
       "why_not_auto_resolved": "Las dos obras registran orientaciones opuestas y producen centralidades distintas. MC-I no adjudica la diferencia: usa suma entrante en la ecuación y W en el algoritmo. MC-II conserva la iteración con W y alterna índices entrantes/salientes; no adjudica W frente a Wᵀ. El código vuelve a usar W@R con aristas cargadas como fila-origen.",
       "related_relation": "rel.tf.rstar.differs_axiom"
@@ -45099,7 +46122,9 @@
         "ev.mci.ii6.power_pf",
         "ev.mcii.ii1.power",
         "ev.mcii.iv1.axioms",
-        "ev.calc.d.core"
+        "ev.calc.d.core",
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.apendice-c"
       ],
       "why_not_auto_resolved": "La ecuación componente usa pesos entrantes, mientras el algoritmo escrito multiplica por W; ambas orientaciones no coinciden en general. El segundo volumen reutiliza W e índices incompatibles sin fijar una convención única. La biblioteca reproduce la misma convención ambigua."
     },
@@ -45184,7 +46209,9 @@
         "ev.mci.a4.calibration",
         "ev.mcii.i4.s_ranges",
         "ev.mcii.i4.calibration_status",
-        "ev.mcii.a.parameters"
+        "ev.mcii.a.parameters",
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.apendice-c"
       ],
       "why_not_auto_resolved": "La derivación se denomina ontológica y A·4 no aporta muestra, observaciones ni estimador. MC-II modifica rangos y propone un protocolo futuro, pero no aporta datos de calibración."
     },
@@ -45228,7 +46255,9 @@
         "ev.eco.f4.capitulo-p-2",
         "ev.eco.f4.b-ii-i",
         "ev.histos.f4.capitulo-04-02",
-        "ev.histos.f4.capitulo-05-03"
+        "ev.histos.f4.capitulo-05-03",
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-05"
       ],
       "why_not_auto_resolved": "Los valores se presentan como escala operativa, pero no hay estudio de fiabilidad, validez ni función de enlace a observables. Las rutas y conversiones añaden reglas operativas no validadas y una suma máxima de .99. Los anclajes posteriores siguen sin datos de calibración."
     },
@@ -45254,7 +46283,9 @@
         "ev.eco.f4.b-ii-i",
         "ev.histos.f4.capitulo-04-02",
         "ev.histos.f4.capitulo-05-03",
-        "ev.histos.f4.capitulo-06-02"
+        "ev.histos.f4.capitulo-06-02",
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-05"
       ],
       "why_not_auto_resolved": "MC-I reconoce que α no es observable y que la narrativa puede imitar integración; ECO se propone como mejor aproximación sin validación independiente. MC-II afirma observación directa de φ₂ sin estudio que adjudique la restricción previa de MC-I."
     },
@@ -45280,7 +46311,9 @@
         "ev.sdo.f4.vii-4",
         "ev.histos.f4.capitulo-04-02",
         "ev.histos.f4.capitulo-05-03",
-        "ev.histos.f4.capitulo-06-02"
+        "ev.histos.f4.capitulo-06-02",
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-05"
       ],
       "why_not_auto_resolved": "Las expresiones tienen distinto rango y signo; MC-I reutiliza la versión de TF sin adjudicar la sustitución axiomática. MC-II preserva R*(1−α), conserva casos negativos imposibles y además introduce Δ_sesión con otra firma. El cálculo adopta explícitamente Δ=R*−α, nueva versión histórica sin adjudicar las multiplicativas."
     },
@@ -46834,7 +47867,9 @@
       "evidence": [
         "ev.calc.c01.2",
         "ev.calc.c16.4",
-        "ev.calc.e.core"
+        "ev.calc.e.core",
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.apendice-c"
       ],
       "why_not_auto_resolved": "La obra alterna definiciones algorítmicamente distintas sin teorema de equivalencia.",
       "related_relation": "rel.calc.rstar.reformulates_tf"
@@ -46931,7 +47966,9 @@
       ],
       "evidence": [
         "ev.calc.b.direction",
-        "ev.calc.b.evidence"
+        "ev.calc.b.evidence",
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.apendice-a"
       ],
       "why_not_auto_resolved": "E0–E8 ordena fuerza/tipo de evidencia, pero los rangos la convierten directamente en tamaño del efecto causal."
     },
@@ -46947,7 +47984,9 @@
       ],
       "evidence": [
         "ev.calc.b.evidence",
-        "ev.calc.b.tests"
+        "ev.calc.b.tests",
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.apendice-a"
       ],
       "why_not_auto_resolved": "Sólo hay soluciones autorales; no se aportan muestras, jueces independientes, concordancia ni error."
     },
@@ -47042,7 +48081,9 @@
         "ev.calc.b.domains",
         "ev.sdo.f4.vii-1",
         "ev.sdo.f4.vii-3",
-        "ev.sdo.f4.vii-4"
+        "ev.sdo.f4.vii-4",
+        "ev.prometeo.f4.capitulo-05",
+        "ev.prometeo.f4.apendice-c"
       ],
       "why_not_auto_resolved": "Las escalas comparten [0,1] pero no instrumento, unidad o invariancia."
     },
@@ -47062,7 +48103,9 @@
         "ev.mci.ii14.delta",
         "ev.mcii.iv4.delta",
         "ev.sdo.f4.vii-1",
-        "ev.sdo.f4.vii-4"
+        "ev.sdo.f4.vii-4",
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-05"
       ],
       "why_not_auto_resolved": "La obra adopta la resta; las obras metrológicas mantienen fórmulas multiplicativas y otra resta observador/participante.",
       "related_relation": "rel.calc.delta.redefines_mci"
@@ -47287,7 +48330,9 @@
       "evidence": [
         "ev.calc.c14.2",
         "ev.calc.c14.3",
-        "ev.calc.c.shapley"
+        "ev.calc.c.shapley",
+        "ev.prometeo.f4.capitulo-05",
+        "ev.prometeo.f4.capitulo-06a"
       ],
       "why_not_auto_resolved": "El teorema estándar asume v; los casos asignan valores periciales sin dataset reproducible."
     },
@@ -47732,7 +48777,9 @@
       "evidence": [
         "ev.calc.c18.case.context",
         "ev.calc.c18.case.rsd",
-        "ev.calc.b.sheet"
+        "ev.calc.b.sheet",
+        "ev.prometeo.f4.capitulo-06a",
+        "ev.prometeo.f4.capitulo-07"
       ],
       "why_not_auto_resolved": "El corpus sólo contiene la narración y referencias a anexos no incorporados."
     },
@@ -48441,7 +49488,8 @@
         "crosswork_consistency"
       ],
       "evidence": [
-        "ev.histos.f4.capitulo-p-2"
+        "ev.histos.f4.capitulo-p-2",
+        "ev.prometeo.f4.capitulo-02"
       ],
       "why_not_auto_resolved": "La obra denomina verificación cruzada a rutas que no son independientes por diseño y comparten constructos/juicios del mediador."
     },
@@ -48530,7 +49578,9 @@
       ],
       "evidence": [
         "ev.histos.f4.capitulo-04-02",
-        "ev.histos.f4.capitulo-05-03"
+        "ev.histos.f4.capitulo-05-03",
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-05"
       ],
       "why_not_auto_resolved": "Los intervalos se asignan a descripciones de sesión sin datos de calibración, error, validez de criterio o correspondencia con α formal."
     },
@@ -48546,7 +49596,9 @@
       ],
       "evidence": [
         "ev.histos.f4.capitulo-04-02",
-        "ev.histos.f4.capitulo-05-03"
+        "ev.histos.f4.capitulo-05-03",
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-05"
       ],
       "why_not_auto_resolved": "La obra afirma continuidad formal mientras cambia procedimiento, observables y estatuto del resultado."
     },
@@ -48561,7 +49613,8 @@
         "formal_application"
       ],
       "evidence": [
-        "ev.histos.f4.capitulo-05-03"
+        "ev.histos.f4.capitulo-05-03",
+        "ev.prometeo.f4.capitulo-02"
       ],
       "why_not_auto_resolved": "La respuesta del sujeto y el juicio del mediador no están calibrados contra el S formal ni contra un criterio causal independiente."
     },
@@ -48673,7 +49726,9 @@
         "causal_validation"
       ],
       "evidence": [
-        "ev.histos.f4.capitulo-06-02"
+        "ev.histos.f4.capitulo-06-02",
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-06b"
       ],
       "why_not_auto_resolved": "La obra reconoce riesgo de contaminación, pero el mediador produce estimaciones y cambios que después pueden entrar al análisis del mismo actor."
     },
@@ -48773,6 +49828,286 @@
         "ev.histos.f4.capitulo-04-02"
       ],
       "why_not_auto_resolved": "La fuente contiene sustituciones “(cid:0)” en posiciones donde el contexto apunta a φ₂ u otros signos, lo que debe corregirse editorialmente sin alterar doctrina."
+    },
+    {
+      "id": "review.prometeo.external_derivative",
+      "subject": "formulation.prometeo.external_derivative",
+      "question": "¿Qué demuestra que imputación exterior y segunda mediación interior sean la misma operación y no una analogía autoral?",
+      "status": "pending_ontological_and_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "forensic_use"
+      ],
+      "evidence": [
+        "ev.prometeo.f4.01-prologo"
+      ],
+      "why_not_auto_resolved": "La obra afirma identidad funcional sin derivación independiente."
+    },
+    {
+      "id": "review.prometeo.causal_vs_legal",
+      "subject": "method.prometeo.imputation",
+      "question": "¿Cómo se limita la inferencia de peso causal para que no se convierta automáticamente en responsabilidad, culpabilidad o estándar jurídico?",
+      "status": "pending_legal_and_methodological_review",
+      "blocking": false,
+      "blocking_for": [
+        "legal_use"
+      ],
+      "evidence": [
+        "ev.prometeo.f4.01-prologo",
+        "ev.prometeo.f4.capitulo-06b"
+      ],
+      "why_not_auto_resolved": "La obra declara la separación pero también asigna usos/umbrales procesales fuertes."
+    },
+    {
+      "id": "review.prometeo.evidence_scale_versions",
+      "subject": "formal.prometeo.evidence_scale",
+      "question": "¿Cuál tabla E0–E8 es vigente y qué justifica los rangos cuando Capítulo 2 y Apéndice A asignan intervalos incompatibles a E2–E8?",
+      "status": "pending_formal_and_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "forensic_use"
+      ],
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.apendice-a"
+      ],
+      "why_not_auto_resolved": "Las dos versiones son explícitas y no equivalentes; no puede armonizarse editorialmente."
+    },
+    {
+      "id": "review.prometeo.weight_calibration",
+      "subject": "formal.prometeo.evidence_scale",
+      "question": "¿Qué datos empíricos, interevaluador o teoría de medición calibran tipo de evidencia → intervalo w y su portabilidad entre dominios?",
+      "status": "pending_metrological_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "forensic_use"
+      ],
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.apendice-a"
+      ],
+      "why_not_auto_resolved": "Los rangos se presentan como técnicamente razonables sin estudio de calibración."
+    },
+    {
+      "id": "review.prometeo.rstar_algorithm_equivalence",
+      "subject": "formal.prometeo.rstar_operational",
+      "question": "¿Son equivalentes el método de rondas, la normalización simple w/Σw y las formulaciones eigenvectoriales heredadas de R*?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "forensic_use"
+      ],
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-03",
+        "ev.prometeo.f4.apendice-c"
+      ],
+      "why_not_auto_resolved": "La obra usa más de un procedimiento con el mismo símbolo sin prueba de equivalencia."
+    },
+    {
+      "id": "review.prometeo.design_node_presumption",
+      "subject": "formal.prometeo.rstar_operational",
+      "question": "¿Es válido afirmar que en casos institucionales el diseñador debe resultar con mayor R* y tratar el resultado contrario como señal de grafo mal construido?",
+      "status": "pending_methodological_and_causal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "forensic_use"
+      ],
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02"
+      ],
+      "why_not_auto_resolved": "La regla puede introducir circularidad al usar el resultado esperado para juzgar la construcción del grafo."
+    },
+    {
+      "id": "review.prometeo.S_calibration",
+      "subject": "formal.prometeo.S",
+      "question": "¿Qué valida tres ítems equiponderados con respuestas {0,.5,1} como medida de sustituibilidad y sus usos para descontar R*?",
+      "status": "pending_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "forensic_use"
+      ],
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.apendice-c"
+      ],
+      "why_not_auto_resolved": "La puntuación se prescribe sin calibración o fiabilidad publicada."
+    },
+    {
+      "id": "review.prometeo.alpha_semantic_drift",
+      "subject": "formal.prometeo.alpha",
+      "question": "¿Cómo pueden compararse bajo el mismo α asunción/reparación, reconocimiento y cumplimiento regulatorio PLD?",
+      "status": "pending_formal_and_crossdomain_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "forensic_use"
+      ],
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-05",
+        "ev.prometeo.f4.apendice-c"
+      ],
+      "why_not_auto_resolved": "La obra cambia el referente observable de α según dominio."
+    },
+    {
+      "id": "review.prometeo.delta_comparability",
+      "subject": "formal.prometeo.delta",
+      "question": "¿Qué asegura que R* y α sean conmensurables cuando α cambia semánticamente y R* depende de una calibración de pesos no validada?",
+      "status": "pending_formal_and_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "forensic_use"
+      ],
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-05"
+      ],
+      "why_not_auto_resolved": "La resta requiere escala y referente comparables."
+    },
+    {
+      "id": "review.prometeo.robustness_threshold",
+      "subject": "method.prometeo.sensitivity",
+      "question": "¿Qué justifica tres escenarios y el umbral forense del 10% como criterio de Declaraciones A–D y robustez?",
+      "status": "pending_statistical_and_methodological_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "forensic_use"
+      ],
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-06b"
+      ],
+      "why_not_auto_resolved": "El umbral se atribuye a práctica forense sin fuente o estudio."
+    },
+    {
+      "id": "review.prometeo.legal_admissibility",
+      "subject": "method.prometeo.presentation",
+      "question": "¿En qué jurisdicciones y bajo qué reglas probatorias es admisible el método como peritaje, y qué requisitos de validación/aceptación científica aplican?",
+      "status": "pending_legal_review",
+      "blocking": false,
+      "blocking_for": [
+        "legal_use"
+      ],
+      "evidence": [
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-06b"
+      ],
+      "why_not_auto_resolved": "La obra afirma admisibilidad amplia sin aparato jurídico suficiente."
+    },
+    {
+      "id": "review.prometeo.forum_thresholds",
+      "subject": "formulation.prometeo.scope",
+      "question": "¿Qué base jurídica vincula Declaraciones A/B/C con duda razonable, preponderancia, arbitraje o estándares regulatorios?",
+      "status": "pending_legal_review",
+      "blocking": false,
+      "blocking_for": [
+        "legal_use"
+      ],
+      "evidence": [
+        "ev.prometeo.f4.01-prologo"
+      ],
+      "why_not_auto_resolved": "Los cruces entre robustez del modelo y estándares de prueba son afirmaciones normativas/procesales."
+    },
+    {
+      "id": "review.prometeo.shapley_value_function",
+      "subject": "formal.prometeo.shapley",
+      "question": "¿Cuál es la función de valor de las coaliciones y por qué el valor de Shapley resultante representa responsabilidad causal/jurídica?",
+      "status": "pending_formal_and_legal_review",
+      "blocking": false,
+      "blocking_for": [
+        "legal_use"
+      ],
+      "evidence": [
+        "ev.prometeo.f4.capitulo-05",
+        "ev.prometeo.f4.capitulo-06a"
+      ],
+      "why_not_auto_resolved": "La fórmula de órdenes no basta sin definir el juego y su correspondencia."
+    },
+    {
+      "id": "review.prometeo.fincen_sources",
+      "subject": "case.prometeo.fincen_2025",
+      "question": "¿Se reproducen exactamente hechos, montos y estatus procesal del caso 2025 desde fuentes primarias, distinguiendo acusación, medida administrativa e impugnación?",
+      "status": "pending_sources_and_legal_review",
+      "blocking": false,
+      "blocking_for": [
+        "legal_use"
+      ],
+      "evidence": [
+        "ev.prometeo.f4.capitulo-06a"
+      ],
+      "why_not_auto_resolved": "La obra reconoce uso de fuentes públicas y ausencia de sentencia firme."
+    },
+    {
+      "id": "review.prometeo.case_reproduction",
+      "subject": "case.prometeo.bank_tutorial",
+      "question": "¿Los cálculos de casos tutoriales y civiles son reproducibles con un algoritmo R* coherente y sin pasos ad hoc?",
+      "status": "pending_formal_reproduction",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "forensic_use"
+      ],
+      "evidence": [
+        "ev.prometeo.f4.capitulo-03",
+        "ev.prometeo.f4.capitulo-04",
+        "ev.prometeo.f4.capitulo-07"
+      ],
+      "why_not_auto_resolved": "Los casos muestran cálculos manuales que deben contrastarse con la definición formal adoptada."
+    },
+    {
+      "id": "review.prometeo.meridiano_status",
+      "subject": "case.prometeo.meridiano",
+      "question": "¿Cómo debe evitarse que el Caso Meridiano ficticio/internamente consistente sea leído como evidencia empírica o validación forense?",
+      "status": "pending_epistemic_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "forensic_use"
+      ],
+      "evidence": [
+        "ev.prometeo.f4.capitulo-07"
+      ],
+      "why_not_auto_resolved": "La propia obra lo declara ilustrativo; su reproducibilidad interna no valida el método."
+    },
+    {
+      "id": "review.prometeo.damage_allocation",
+      "subject": "formal.prometeo.adjustment_debitor",
+      "question": "¿Qué justifica convertir directamente R* en cuota monetaria AD=R*·D_total y cómo se compatibiliza con reglas sustantivas de daño, solidaridad, concurrencia y reparación?",
+      "status": "pending_legal_normative_review",
+      "blocking": false,
+      "blocking_for": [
+        "legal_use"
+      ],
+      "evidence": [
+        "ev.prometeo.f4.01-prologo",
+        "ev.prometeo.f4.capitulo-02",
+        "ev.prometeo.f4.capitulo-07"
+      ],
+      "why_not_auto_resolved": "La proporcionalidad causal no implica por sí sola proporcionalidad jurídica de reparación."
+    },
+    {
+      "id": "review.prometeo.template_limits",
+      "subject": "method.prometeo.template",
+      "question": "¿Qué ocurre con grafos mayores al límite de seis nodos/aristas de la plantilla y cómo se verifica equivalencia con el cálculo general?",
+      "status": "pending_technical_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "forensic_use"
+      ],
+      "evidence": [
+        "ev.prometeo.f4.apendice-c"
+      ],
+      "why_not_auto_resolved": "El instrumento automatizado impone un límite operativo que no es límite del método teórico."
     }
   ],
   "tests": [
