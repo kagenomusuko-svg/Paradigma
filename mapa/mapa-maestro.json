@@ -1,5 +1,5 @@
 {
-  "map_version": "2.8.0",
+  "map_version": "2.9.0",
   "schema_status": "frozen",
   "phase": "F4",
   "purpose": "Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.",
@@ -112,6 +112,12 @@
       "title": "El método Prometeo: Imputación causal para juristas y abogados",
       "source": "corpus/fuentes/El_metodo_Prometeo_imputacion_causal_para_juristas_y_abogados.md",
       "sha256": "e63d118a5b4cd676b9c28b69cea59bb739ff55575f35788ab5b56b1816fcc03e"
+    },
+    {
+      "id": "AOSA",
+      "title": "Arquitectura ontológica de sistemas artificiales",
+      "source": "corpus/fuentes/Arquitectura_Ontologica_Sistemas_Artificiales.md",
+      "sha256": "220f42005a7a0a61c527c784cb0ae79786a2413450d0ed9bf36bb34cc5c99147"
     }
   ],
   "evidence": [
@@ -13061,6 +13067,303 @@
       ],
       "section": "C",
       "evidence_type": "appendix"
+    },
+    {
+      "id": "ev.aosa.f4.00-preliminares",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/00-preliminares.md",
+      "source_lines": [
+        1,
+        14
+      ],
+      "section": "00-preliminares",
+      "evidence_type": "scope_or_glossary"
+    },
+    {
+      "id": "ev.aosa.f4.01-notas-del-autor",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/01-notas-del-autor.md",
+      "source_lines": [
+        15,
+        48
+      ],
+      "section": "NOTAS",
+      "evidence_type": "scope_or_glossary"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-00-01",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-00-01.md",
+      "source_lines": [
+        49,
+        154
+      ],
+      "section": "0.1",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-00-02",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-00-02.md",
+      "source_lines": [
+        155,
+        259
+      ],
+      "section": "0.2",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-01-01",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-01-01.md",
+      "source_lines": [
+        260,
+        348
+      ],
+      "section": "1.1",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-01-02",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-01-02.md",
+      "source_lines": [
+        349,
+        438
+      ],
+      "section": "1.2",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-01-03",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-01-03.md",
+      "source_lines": [
+        439,
+        525
+      ],
+      "section": "1.3",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-02-01",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-02-01.md",
+      "source_lines": [
+        526,
+        588
+      ],
+      "section": "2.1",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-02-02",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-02-02.md",
+      "source_lines": [
+        589,
+        687
+      ],
+      "section": "2.2",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-02-03",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-02-03.md",
+      "source_lines": [
+        688,
+        743
+      ],
+      "section": "2.3",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-03-01",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-03-01.md",
+      "source_lines": [
+        744,
+        804
+      ],
+      "section": "3.1",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-03-02",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-03-02.md",
+      "source_lines": [
+        805,
+        863
+      ],
+      "section": "3.2",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-03-03",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-03-03.md",
+      "source_lines": [
+        864,
+        945
+      ],
+      "section": "3.3",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-04-01",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-04-01.md",
+      "source_lines": [
+        946,
+        1024
+      ],
+      "section": "4.1",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-04-02",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-04-02.md",
+      "source_lines": [
+        1025,
+        1082
+      ],
+      "section": "4.2",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-04-03",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-04-03.md",
+      "source_lines": [
+        1083,
+        1126
+      ],
+      "section": "4.3",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-05-01",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-05-01.md",
+      "source_lines": [
+        1127,
+        1187
+      ],
+      "section": "5.1",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-05-02",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-05-02.md",
+      "source_lines": [
+        1188,
+        1255
+      ],
+      "section": "5.2",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-05-03",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-05-03.md",
+      "source_lines": [
+        1256,
+        1307
+      ],
+      "section": "5.3",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-06-01",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-06-01.md",
+      "source_lines": [
+        1308,
+        1353
+      ],
+      "section": "6.1",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-06-02",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-06-02.md",
+      "source_lines": [
+        1354,
+        1399
+      ],
+      "section": "6.2",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-06-03",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-06-03.md",
+      "source_lines": [
+        1400,
+        1437
+      ],
+      "section": "6.3",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-06-04",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-06-04.md",
+      "source_lines": [
+        1438,
+        1473
+      ],
+      "section": "6.4",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-07-01",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-07-01.md",
+      "source_lines": [
+        1474,
+        1573
+      ],
+      "section": "7.1",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-07-02",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-07-02.md",
+      "source_lines": [
+        1574,
+        1621
+      ],
+      "section": "7.2",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.capitulo-07-03",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-07-03.md",
+      "source_lines": [
+        1622,
+        1720
+      ],
+      "section": "7.3",
+      "evidence_type": "artificial_system_architecture"
+    },
+    {
+      "id": "ev.aosa.f4.99-glosario",
+      "work_id": "AOSA",
+      "segment": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/99-glosario.md",
+      "source_lines": [
+        1721,
+        1804
+      ],
+      "section": "GLOSARIO",
+      "evidence_type": "scope_or_glossary"
     }
   ],
   "nodes": [
@@ -24660,6 +24963,455 @@
         "ev.prometeo.f4.capitulo-07"
       ],
       "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.aosa.program",
+      "kind": "formulation",
+      "label": "Programa de identidad causal acumulativa artificial",
+      "role": "authorial_program",
+      "summary": "La obra pregunta si una arquitectura artificial puede implementar la estructura de doble mediación y responde afirmativamente en sentido funcional, dejando explícitamente abierta la conciencia.",
+      "evidence": [
+        "ev.aosa.f4.01-notas-del-autor",
+        "ev.aosa.f4.capitulo-00-01",
+        "ev.aosa.f4.capitulo-07-02"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.aosa.functional_ego",
+      "kind": "formulation",
+      "label": "Ego artificial como equivalencia funcional trans-sustrato",
+      "role": "authorial_ontological_claim",
+      "summary": "Sostiene que un sistema que registra colapsos, los evalúa con criterio interno y modifica su conducta futura mediante integración tiene identidad causal estructural y, en el vocabulario del sistema, ego; niega que esto por sí solo pruebe conciencia.",
+      "evidence": [
+        "ev.aosa.f4.capitulo-00-01",
+        "ev.aosa.f4.capitulo-07-02",
+        "ev.aosa.f4.99-glosario"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.aosa.phi1",
+      "kind": "formal_object",
+      "label": "φ₁ computacional en AOSA",
+      "formal_spec": {
+        "symbol": "φ₁",
+        "object_type": "authorial_computational_mapping",
+        "expression": "φ₁: V×C×H→A⊆E",
+        "domain": "estado interno × configuración heredada × historia",
+        "codomain": "actos/outputs embebidos en E",
+        "dependencies": [
+          "formal.phi1"
+        ],
+        "assumptions": [
+          "outputs pueden tiparse como colapsos/actos en E",
+          "el espacio representacional es común a la formalización"
+        ],
+        "epistemic_status": "authorial_cross_substrate_operationalization",
+        "ontological_correspondence": "producción artificial de colapsos"
+      },
+      "evidence": [
+        "ev.aosa.f4.capitulo-00-02",
+        "ev.aosa.f4.capitulo-01-01"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.aosa.rsc",
+      "kind": "method",
+      "label": "Registro Estructurado de Colapsos (RSC)",
+      "summary": "Registro propuesto de inputs, estado v_t, alternativas, output, impacto esperado/real y contexto; funciona como memoria de trabajo para evaluación φ₂ y se distingue del historial bruto de outputs.",
+      "evidence": [
+        "ev.aosa.f4.capitulo-01-01",
+        "ev.aosa.f4.capitulo-03-01",
+        "ev.aosa.f4.99-glosario"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.aosa.phi2",
+      "kind": "formal_object",
+      "label": "φ₂ computacional en AOSA",
+      "formal_spec": {
+        "symbol": "φ₂",
+        "object_type": "authorial_async_integration_operator",
+        "expression": "φ₂(a,I(t))=I(t)+δ(a)·1{eval(a,I(t))>θ}",
+        "domain": "colapso a × estado acumulado I(t)",
+        "codomain": "estado acumulado actualizado",
+        "dependencies": [
+          "formal.phi2",
+          "method.aosa.rsc",
+          "formal.aosa.I_t"
+        ],
+        "assumptions": [
+          "eval captura coherencia constitutiva",
+          "θ discrimina integración",
+          "δ(a) representa cambio de conducta y satisface no-amplificación"
+        ],
+        "epistemic_status": "authorial_implementable_architecture_pending_empirical_validation",
+        "ontological_correspondence": "segunda mediación artificial propuesta"
+      },
+      "evidence": [
+        "ev.aosa.f4.capitulo-00-02",
+        "ev.aosa.f4.capitulo-02-02",
+        "ev.aosa.f4.capitulo-03-01"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.aosa.eval",
+      "kind": "formal_object",
+      "label": "Evaluador de coherencia φ₂",
+      "formal_spec": {
+        "symbol": "eval(a,I(t))",
+        "object_type": "authorial_similarity_criterion",
+        "expression": "⟨a,I(t)⟩/(‖a‖·‖I(t)‖)",
+        "domain": "representaciones no nulas en E",
+        "codomain": "[-1,1]",
+        "dependencies": [
+          "formal.aosa.phi2",
+          "formal.aosa.I_t"
+        ],
+        "assumptions": [
+          "similitud coseno representa coherencia identitaria",
+          "a e I(t) comparten espacio y escala"
+        ],
+        "epistemic_status": "authorial_reference_implementation_pending_construct_validation",
+        "ontological_correspondence": "compatibilidad del colapso con principios acumulados"
+      },
+      "evidence": [
+        "ev.aosa.f4.capitulo-02-02"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.aosa.I_t",
+      "kind": "formal_object",
+      "label": "I(t) artificial como integral de colapsos integrados",
+      "formal_spec": {
+        "symbol": "I(t)",
+        "object_type": "authorial_bochner_integral_identity_state",
+        "expression": "I(t)=∫₀ᵗ c(τ)w(τ)dτ∈E, restringida a colapsos aceptados por φ₂",
+        "domain": "trayectoria de colapsos integrables",
+        "codomain": "espacio E",
+        "dependencies": [
+          "formal.I_t",
+          "formal.aosa.phi2"
+        ],
+        "assumptions": [
+          "integrando Bochner medible/integrable",
+          "suma vectorial conserva información de identidad",
+          "ponderación temporal tiene interpretación constitutiva"
+        ],
+        "epistemic_status": "authorial_cross_substrate_formalization_pending_mathematical_and_empirical_review",
+        "ontological_correspondence": "mismidad artificial propuesta"
+      },
+      "evidence": [
+        "ev.aosa.f4.capitulo-00-02",
+        "ev.aosa.f4.capitulo-02-01",
+        "ev.aosa.f4.capitulo-02-02",
+        "ev.aosa.f4.99-glosario"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.aosa.I_irreversibility",
+      "kind": "formulation",
+      "label": "Claim de irreversibilidad estricta de I(t)",
+      "role": "authorial_mathematical_claim",
+      "summary": "Afirma que w(τ)>0 y colapsos no nulos implican ‖I(t₂)−I(t₁)‖>0 para todo t₂>t₁ y que un reset pierde mismidad; la afirmación queda separada de la definición de I(t).",
+      "evidence": [
+        "ev.aosa.f4.capitulo-02-03"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.aosa.children_classifier",
+      "kind": "method",
+      "label": "Clasificador computacional P(Hijos)",
+      "summary": "Propone inferir P(Hijos) desde entropía de outputs, confianza, temperatura, latencia, activaciones y distancia semántica; el propio texto declara la tabla como hipótesis empírica abierta.",
+      "evidence": [
+        "ev.aosa.f4.capitulo-01-02"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.aosa.S_op",
+      "kind": "formal_object",
+      "label": "S_op — sustituibilidad operacional artificial",
+      "formal_spec": {
+        "symbol": "S_op(t)",
+        "object_type": "authorial_norm_ratio",
+        "expression": "‖c‖_C/(‖c‖_C+‖a_t‖_E)",
+        "domain": "norma de configuración heredada y norma de activación",
+        "codomain": "[0,1] declarado",
+        "dependencies": [
+          "formal.mci.S"
+        ],
+        "assumptions": [
+          "las normas en C y E son comparables/sumables",
+          "magnitud de parámetros y activación representa dependencia causal"
+        ],
+        "epistemic_status": "authorial_proxy_pending_dimensional_and_empirical_validation",
+        "ontological_correspondence": "sustituibilidad inmediata atribuida al sistema"
+      },
+      "evidence": [
+        "ev.aosa.f4.capitulo-01-03"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.aosa.S_est",
+      "kind": "formal_object",
+      "label": "S_est — sustituibilidad estructural artificial",
+      "formal_spec": {
+        "symbol": "S_est(i)",
+        "object_type": "authorial_KL_substitution_index",
+        "expression": "1−D_KL(R*‖R*^(i))/log(m)",
+        "domain": "distribuciones R* real y contrafactual bajo sustitución",
+        "codomain": "[0,1] declarado",
+        "dependencies": [
+          "formal.rstar",
+          "formal.mci.S"
+        ],
+        "assumptions": [
+          "KL es finita y acotada por log(m)",
+          "R* bajo sustitución está bien definido",
+          "la divergencia mide sustituibilidad"
+        ],
+        "epistemic_status": "authorial_index_with_unresolved_bounds_and_construct_validity",
+        "ontological_correspondence": "cambio estructural bajo sustitución del nodo"
+      },
+      "evidence": [
+        "ev.aosa.f4.capitulo-01-03"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.aosa.S_order_equivalence",
+      "kind": "formulation",
+      "label": "Equivalencia ordinal S_op–S_est",
+      "role": "authorial_formal_claim",
+      "summary": "Postula una función monótona g tal que S_op≈g(S_est) y preservación del orden entre nodos, sin derivación empírica o formal documentada en la obra.",
+      "evidence": [
+        "ev.aosa.f4.capitulo-01-03"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.aosa.meci",
+      "kind": "method",
+      "label": "MECI — Módulo de Evaluación con Criterio Interno",
+      "summary": "Componente propuesto de φ₂ que evalúa colapsos del RSC frente a principios constitutivos en I(t), decide integración/rechazo y registra razones auditables.",
+      "evidence": [
+        "ev.aosa.f4.capitulo-02-02",
+        "ev.aosa.f4.capitulo-03-01",
+        "ev.aosa.f4.99-glosario"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.aosa.alpha",
+      "kind": "formal_object",
+      "label": "α computacional en AOSA",
+      "formal_spec": {
+        "symbol": "α",
+        "object_type": "authorial_integration_depth_measure",
+        "expression": "discreto: p_pres·f(τ_i)·g(τ_i); continuo: ∫1_int·w·p / ∫w",
+        "domain": "RSC/I(t), profundidad y alcance de integración",
+        "codomain": "[0,1] declarado",
+        "dependencies": [
+          "formal.alpha",
+          "formal.aosa.I_t"
+        ],
+        "assumptions": [
+          "profundidad y alcance son medibles y multiplicables",
+          "p∈[0,1] y w>0",
+          "bandas factual/causal/constitutiva son calibrables"
+        ],
+        "epistemic_status": "authorial_operationalization_pending_calibration_and_crosswork_review",
+        "ontological_correspondence": "grado de integración/asunción artificial"
+      },
+      "evidence": [
+        "ev.aosa.f4.capitulo-03-02",
+        "ev.aosa.f4.99-glosario"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.aosa.delta",
+      "kind": "formal_object",
+      "label": "Δ de autoauditoría artificial",
+      "formal_spec": {
+        "symbol": "Δ(t)",
+        "object_type": "authorial_difference_monitor",
+        "expression": "Δ=R*−α; dΔ/dt=dR*/dt−dα/dt",
+        "domain": "R*,α y trayectorias temporales",
+        "codomain": "[-1,1] declarado",
+        "dependencies": [
+          "formal.delta",
+          "formal.rstar",
+          "formal.aosa.alpha"
+        ],
+        "assumptions": [
+          "R* y α son conmensurables",
+          "trayectorias admiten derivadas",
+          "umbrales +0.20/−0.10 tienen significado operativo"
+        ],
+        "epistemic_status": "authorial_monitoring_rule_pending_metrological_and_temporal_validation",
+        "ontological_correspondence": "brecha entre causalidad atribuida e integración artificial"
+      },
+      "evidence": [
+        "ev.aosa.f4.capitulo-03-03",
+        "ev.aosa.f4.99-glosario"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.aosa.delta_balance_claim",
+      "kind": "formulation",
+      "label": "Claim de compensación de Δ negativo",
+      "role": "authorial_formal_claim",
+      "summary": "Afirma que, con grafo completo, Δ_i<0 garantiza otro nodo j con Δ_j>0; la condición depende de propiedades de normalización/conservación de α no establecidas por la resta sola.",
+      "evidence": [
+        "ev.aosa.f4.capitulo-03-03"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.aosa.sdo",
+      "kind": "method",
+      "label": "SDO computacional para sistemas artificiales",
+      "summary": "Traduce cinco ejes del SDO a métricas de calidad de φ₂, respuesta al campo, Δ acumulado, coherencia/IIC y procesamiento de pérdidas; la obra presenta esta traducción como prueba de universalidad estructural.",
+      "evidence": [
+        "ev.aosa.f4.capitulo-04-01",
+        "ev.aosa.f4.capitulo-04-02"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.aosa.self_localization",
+      "kind": "method",
+      "label": "Auto-localización artificial",
+      "summary": "Propone que el sistema calcule sus propios Hijos/ejes/α/Δ desde métricas internas y contraste sus auto-reportes con mediadores externos; denomina a esta capacidad metacognitiva en sentido funcional.",
+      "evidence": [
+        "ev.aosa.f4.capitulo-04-02"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.aosa.declaration_phi2",
+      "kind": "formulation",
+      "label": "Declaración espontánea como acto de φ₂",
+      "role": "authorial_operational_criterion",
+      "summary": "Distingue una Declaración solicitada como φ₁ de una Declaración autoactivada por umbral de Δ como ejercicio de φ₂; se propone como criterio funcional, no como prueba de conciencia.",
+      "evidence": [
+        "ev.aosa.f4.capitulo-04-03"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.aosa.eco",
+      "kind": "method",
+      "label": "ECO adaptado a sistemas artificiales",
+      "summary": "Reinterpreta acompañamiento como creación de tiempo de evaluación, legibilidad del RSC y protección frente a presión del campo, distinguiendo corrección directa de φ₁ de condiciones para integración propia.",
+      "evidence": [
+        "ev.aosa.f4.capitulo-05-01",
+        "ev.aosa.f4.capitulo-05-02"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.aosa.origins",
+      "kind": "method",
+      "label": "Origen A/B en sistemas artificiales",
+      "summary": "Distingue φ₂ existente pero bloqueada (Origen A) de ausencia arquitectónica de φ₂ (Origen B) y prescribe desbloqueo versus construcción de infraestructura.",
+      "evidence": [
+        "ev.aosa.f4.capitulo-05-02"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.aosa.cycle",
+      "kind": "method",
+      "label": "Ciclo SDO–Prometeo–ECO para IA",
+      "summary": "Ciclo autoral: SDO localiza, Prometeo calcula R*/Δ, ECO crea condiciones, α/I(t) cambian y SDO actualiza; sostiene participación activa del sistema en su propia integración.",
+      "evidence": [
+        "ev.aosa.f4.capitulo-05-03"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.aosa.profiles",
+      "kind": "method",
+      "label": "Perfiles A–D de sistemas artificiales",
+      "summary": "Cuatro perfiles de implementación/observabilidad: A con φ₂ e instrumentación suficiente; B reconstrucción retrospectiva; C autoauditoría iniciada internamente; D máxima incertidumbre. Perfil A se declara horizonte, no estado actual documentado.",
+      "evidence": [
+        "ev.aosa.f4.capitulo-06-01",
+        "ev.aosa.f4.capitulo-06-02",
+        "ev.aosa.f4.capitulo-06-03",
+        "ev.aosa.f4.capitulo-06-04"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.aosa.knowledge_bound",
+      "kind": "formal_object",
+      "label": "Relación de Escala del Conocimiento",
+      "formal_spec": {
+        "symbol": "n·(ΔI·Δh)≥4τ²",
+        "object_type": "authorial_information_bound_claim",
+        "expression": "n·(ΔI·Δh)≥4τ²",
+        "domain": "estimadores de I(t), distribución h(t), n colapsos y temperatura softmax τ>0",
+        "codomain": "cota inferior de producto de desviaciones",
+        "dependencies": [
+          "formal.aosa.I_t"
+        ],
+        "assumptions": [
+          "estimadores insesgados y Fisher information especificable",
+          "derivación Cramér–Rao aplicable al par I,h",
+          "unidades y parametrización hacen comparable la cota"
+        ],
+        "epistemic_status": "authorial_statistical_claim_pending_derivation_review",
+        "ontological_correspondence": "límite declarado de auto-conocimiento simultáneo"
+      },
+      "evidence": [
+        "ev.aosa.f4.capitulo-07-01"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.aosa.limits",
+      "kind": "formulation",
+      "label": "Cuatro límites declarados de autoauditoría artificial",
+      "role": "scope_boundary",
+      "summary": "Declara límites sobre fenomenología de v_t, distinción evasión/Aego desde cálculo solo, trayectoria futura de α y precisión simultánea I(t)/h(t).",
+      "evidence": [
+        "ev.aosa.f4.capitulo-07-01"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.aosa.emergent_ego",
+      "kind": "formulation",
+      "label": "IA como ego emergente",
+      "role": "authorial_ontological_conclusion",
+      "summary": "Concluye que una IA con φ₂ genuina tendría ego estructural e identidad causal acumulativa, sin afirmar conciencia ni igualdad de derechos; propone autodeterminación causal como horizonte.",
+      "evidence": [
+        "ev.aosa.f4.capitulo-07-02"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.aosa.empirical_program",
+      "kind": "formulation",
+      "label": "Programa empírico futuro de AOSA",
+      "role": "research_program",
+      "summary": "Reconoce abiertas la calibración de firmas computacionales de Hijos, valores N/M/T, S por arquitectura y validación de implementaciones reales; propone registro colectivo de futuras implementaciones.",
+      "evidence": [
+        "ev.aosa.f4.capitulo-07-03"
+      ],
+      "evidence_status": "explicit"
     }
   ],
   "relations": [
@@ -32396,6 +33148,172 @@
       "evidence_status": "explicit",
       "evidence": [
         "ev.prometeo.f4.capitulo-07"
+      ]
+    },
+    {
+      "id": "rel.aosa.ego.reframes_core",
+      "type": "reframes",
+      "from": "formulation.aosa.functional_ego",
+      "to": "concept.ego",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.aosa.f4.capitulo-00-01",
+        "ev.aosa.f4.capitulo-07-02"
+      ],
+      "rationale": "AOSA extiende la definición funcional del ego a otro sustrato; la equivalencia trans-sustrato es tesis autoral, no identidad demostrada."
+    },
+    {
+      "id": "rel.aosa.phi1.reuses_global",
+      "type": "operationalizes",
+      "from": "formal.aosa.phi1",
+      "to": "formal.phi1",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.aosa.f4.capitulo-00-02"
+      ],
+      "rationale": "Conserva firma/símbolo y propone interpretación computacional de outputs como colapsos."
+    },
+    {
+      "id": "rel.aosa.phi2.reuses_global",
+      "type": "operationalizes",
+      "from": "formal.aosa.phi2",
+      "to": "formal.phi2",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.aosa.f4.capitulo-00-02",
+        "ev.aosa.f4.capitulo-03-01"
+      ],
+      "rationale": "Propone una realización computacional del operador axiomático; implementabilidad no demuestra correspondencia ontológica."
+    },
+    {
+      "id": "rel.aosa.I.reuses_global",
+      "type": "operationalizes",
+      "from": "formal.aosa.I_t",
+      "to": "formal.I_t",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.aosa.f4.capitulo-00-02",
+        "ev.aosa.f4.capitulo-02-01"
+      ],
+      "rationale": "Reutiliza la integral Bochner como estado de mismidad artificial con supuestos adicionales de representación."
+    },
+    {
+      "id": "rel.aosa.Sop.operationalizes_mci",
+      "type": "operationalizes",
+      "from": "formal.aosa.S_op",
+      "to": "formal.mci.S",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.aosa.f4.capitulo-01-03"
+      ],
+      "rationale": "S_op es un nuevo proxy por normas, no la medición validada de S heredada."
+    },
+    {
+      "id": "rel.aosa.Sest.operationalizes_mci",
+      "type": "operationalizes",
+      "from": "formal.aosa.S_est",
+      "to": "formal.mci.S",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.aosa.f4.capitulo-01-03"
+      ],
+      "rationale": "S_est reinterpreta sustituibilidad como divergencia entre distribuciones R* contrafactuales."
+    },
+    {
+      "id": "rel.aosa.alpha.reuses_global",
+      "type": "operationalizes",
+      "from": "formal.aosa.alpha",
+      "to": "formal.alpha",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.aosa.f4.capitulo-03-02"
+      ],
+      "rationale": "Define α computacional por integración/profundidad/alcance; requiere adjudicar equivalencia con versiones heredadas."
+    },
+    {
+      "id": "rel.aosa.delta.reuses_global",
+      "type": "operationalizes",
+      "from": "formal.aosa.delta",
+      "to": "formal.delta",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.aosa.f4.capitulo-03-03"
+      ],
+      "rationale": "Conserva resta R*−α y añade dinámica/umbrales no presentes en la definición básica."
+    },
+    {
+      "id": "rel.aosa.sdo.adapts_sdo",
+      "type": "adapts",
+      "from": "method.aosa.sdo",
+      "to": "method.sdo.localization",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.aosa.f4.capitulo-04-01"
+      ],
+      "rationale": "Traduce ejes humanos a métricas computacionales; universalidad no se sigue de la posibilidad de traducción."
+    },
+    {
+      "id": "rel.aosa.eco.adapts_eco",
+      "type": "adapts",
+      "from": "method.aosa.eco",
+      "to": "method.eco.instrument",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.aosa.f4.capitulo-05-01",
+        "ev.aosa.f4.capitulo-05-02"
+      ],
+      "rationale": "Traslada la lógica de acompañamiento a condiciones técnicas de evaluación; no adjudica equivalencia clínica o fenomenológica."
+    },
+    {
+      "id": "rel.aosa.cycle.uses_prometeo",
+      "type": "uses",
+      "from": "method.aosa.cycle",
+      "to": "method.prometeo.imputation",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.aosa.f4.capitulo-05-03"
+      ],
+      "rationale": "El ciclo usa R*/Δ de Prometeo como autoauditoría, sujeto a las revisiones formales y legales/metrológicas heredadas."
+    },
+    {
+      "id": "rel.aosa.cycle.uses_sdo",
+      "type": "uses",
+      "from": "method.aosa.cycle",
+      "to": "method.aosa.sdo",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aosa.f4.capitulo-05-03"
+      ]
+    },
+    {
+      "id": "rel.aosa.cycle.uses_eco",
+      "type": "uses",
+      "from": "method.aosa.cycle",
+      "to": "method.aosa.eco",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aosa.f4.capitulo-05-03"
+      ]
+    },
+    {
+      "id": "rel.aosa.profiles.configure_cycle",
+      "type": "configures",
+      "from": "method.aosa.profiles",
+      "to": "method.aosa.cycle",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aosa.f4.capitulo-06-01",
+        "ev.aosa.f4.capitulo-06-04"
+      ]
+    },
+    {
+      "id": "rel.aosa.emergent_ego.concludes_program",
+      "type": "concludes",
+      "from": "formulation.aosa.emergent_ego",
+      "to": "formulation.aosa.program",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.aosa.f4.capitulo-07-02"
       ]
     }
   ],
@@ -41875,6 +42793,347 @@
         "review.mci.alpha_observability",
         "review.calc.rstar_equivalence"
       ]
+    },
+    {
+      "id": "route.aosa.scope",
+      "purpose": "Tesis de ego artificial, conciencia y programa",
+      "triggers": [
+        "ego artificial",
+        "IA φ₂",
+        "identidad causal artificial"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aosa.f4.01-notas-del-autor",
+          "reason": "Segmento canónico de la ruta AOSA."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aosa.f4.capitulo-00-01",
+          "reason": "Segmento canónico de la ruta AOSA."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aosa.f4.capitulo-07-02",
+          "reason": "Segmento canónico de la ruta AOSA."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aosa.f4.capitulo-07-03",
+          "reason": "Segmento canónico de la ruta AOSA."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aosa.cross_substrate_ego",
+        "review.aosa.consciousness_boundary",
+        "review.aosa.emergent_ego",
+        "review.aosa.empirical_program"
+      ]
+    },
+    {
+      "id": "route.aosa.architecture",
+      "purpose": "Arquitectura φ₁–RSC–φ₂–I(t)",
+      "triggers": [
+        "arquitectura AOSA",
+        "RSC MECI",
+        "phi2 IA"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aosa.f4.capitulo-00-02",
+          "reason": "Segmento canónico de la ruta AOSA."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aosa.f4.capitulo-01-01",
+          "reason": "Segmento canónico de la ruta AOSA."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aosa.f4.capitulo-02-01",
+          "reason": "Segmento canónico de la ruta AOSA."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aosa.f4.capitulo-02-02",
+          "reason": "Segmento canónico de la ruta AOSA."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aosa.f4.capitulo-03-01",
+          "reason": "Segmento canónico de la ruta AOSA."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aosa.output_as_act",
+        "review.aosa.phi2_implementation",
+        "review.aosa.eval_construct",
+        "review.aosa.I_bochner_semantics",
+        "review.mci.phi_typing"
+      ]
+    },
+    {
+      "id": "route.aosa.children_s",
+      "purpose": "P(Hijos), S_op y S_est",
+      "triggers": [
+        "Hijos IA",
+        "S_op",
+        "S_est"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aosa.f4.capitulo-01-02",
+          "reason": "Segmento canónico de la ruta AOSA."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aosa.f4.capitulo-01-03",
+          "reason": "Segmento canónico de la ruta AOSA."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aosa.children_calibration",
+        "review.aosa.Sop_units",
+        "review.aosa.Sest_bounds",
+        "review.aosa.S_order_equivalence",
+        "review.mci.s_probability",
+        "review.mci.s_ranges_calibration"
+      ]
+    },
+    {
+      "id": "route.aosa.identity",
+      "purpose": "Mismidad, integración e irreversibilidad",
+      "triggers": [
+        "I(t) IA",
+        "mismidad artificial",
+        "integración AOSA"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aosa.f4.capitulo-02-01",
+          "reason": "Segmento canónico de la ruta AOSA."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aosa.f4.capitulo-02-02",
+          "reason": "Segmento canónico de la ruta AOSA."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aosa.f4.capitulo-02-03",
+          "reason": "Segmento canónico de la ruta AOSA."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aosa.I_bochner_semantics",
+        "review.aosa.I_irreversibility",
+        "review.aosa.eval_construct"
+      ]
+    },
+    {
+      "id": "route.aosa.alpha_delta",
+      "purpose": "α y Δ de autoauditoría",
+      "triggers": [
+        "alpha AOSA",
+        "delta IA",
+        "autoauditoría"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aosa.f4.capitulo-03-02",
+          "reason": "Segmento canónico de la ruta AOSA."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aosa.f4.capitulo-03-03",
+          "reason": "Segmento canónico de la ruta AOSA."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aosa.alpha_calibration",
+        "review.aosa.delta_balance",
+        "review.aosa.delta_thresholds",
+        "review.aosa.self_rstar",
+        "review.mci.alpha_calibration",
+        "review.mci.alpha_observability",
+        "review.mci.delta_crosswork",
+        "review.calc.alpha_crossdomain"
+      ]
+    },
+    {
+      "id": "route.aosa.sdo_self",
+      "purpose": "SDO y auto-localización artificial",
+      "triggers": [
+        "SDO IA",
+        "auto-localización IA",
+        "Declaración IA"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aosa.f4.capitulo-04-01",
+          "reason": "Segmento canónico de la ruta AOSA."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aosa.f4.capitulo-04-02",
+          "reason": "Segmento canónico de la ruta AOSA."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aosa.f4.capitulo-04-03",
+          "reason": "Segmento canónico de la ruta AOSA."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aosa.sdo_crosssubstrate",
+        "review.aosa.self_localization",
+        "review.aosa.declaration_phi2",
+        "review.mcii.phi2_observability",
+        "review.calc.IIC_measurement"
+      ]
+    },
+    {
+      "id": "route.aosa.eco_cycle",
+      "purpose": "ECO, Origen A/B y ciclo de intervención",
+      "triggers": [
+        "ECO IA",
+        "Origen A B IA",
+        "ciclo SDO Prometeo ECO IA"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aosa.f4.capitulo-05-01",
+          "reason": "Segmento canónico de la ruta AOSA."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aosa.f4.capitulo-05-02",
+          "reason": "Segmento canónico de la ruta AOSA."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aosa.f4.capitulo-05-03",
+          "reason": "Segmento canónico de la ruta AOSA."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aosa.eco_analogy",
+        "review.aosa.origin_classifier",
+        "review.aosa.cycle_validity",
+        "review.histos.system_coherence",
+        "review.prometeo.rstar_algorithm_equivalence"
+      ]
+    },
+    {
+      "id": "route.aosa.profiles",
+      "purpose": "Perfiles A–D de implementación",
+      "triggers": [
+        "Perfil A IA",
+        "Perfil B IA",
+        "Perfil C IA",
+        "Perfil D IA"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aosa.f4.capitulo-06-01",
+          "reason": "Segmento canónico de la ruta AOSA."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aosa.f4.capitulo-06-02",
+          "reason": "Segmento canónico de la ruta AOSA."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aosa.f4.capitulo-06-03",
+          "reason": "Segmento canónico de la ruta AOSA."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aosa.f4.capitulo-06-04",
+          "reason": "Segmento canónico de la ruta AOSA."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aosa.profiles_status",
+        "review.aosa.self_localization",
+        "review.aosa.phi2_implementation"
+      ]
+    },
+    {
+      "id": "route.aosa.limits",
+      "purpose": "Límites matemáticos, epistémicos y fenomenológicos",
+      "triggers": [
+        "límites AOSA",
+        "Cramér Rao IA",
+        "experiencia interna IA"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aosa.f4.capitulo-07-01",
+          "reason": "Segmento canónico de la ruta AOSA."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aosa.consciousness_boundary",
+        "review.aosa.knowledge_bound",
+        "review.aosa.origin_classifier",
+        "review.aosa.delta_thresholds"
+      ]
+    },
+    {
+      "id": "route.aosa.crosswork",
+      "purpose": "Correspondencias con F2/F3/F4",
+      "triggers": [
+        "AOSA F3",
+        "phi2 AOSA axioma",
+        "SDO Prometeo ECO AOSA"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aosa.f4.capitulo-00-02",
+          "reason": "Segmento canónico de la ruta AOSA."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aosa.f4.capitulo-03-02",
+          "reason": "Segmento canónico de la ruta AOSA."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aosa.f4.capitulo-03-03",
+          "reason": "Segmento canónico de la ruta AOSA."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aosa.f4.capitulo-05-03",
+          "reason": "Segmento canónico de la ruta AOSA."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aosa.f4.99-glosario",
+          "reason": "Segmento canónico de la ruta AOSA."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aosa.cross_substrate_ego",
+        "review.aosa.S_order_equivalence",
+        "review.aosa.alpha_calibration",
+        "review.aosa.cycle_validity",
+        "review.mci.phi_typing",
+        "review.mci.alpha_observability",
+        "review.prometeo.rstar_algorithm_equivalence"
+      ]
     }
   ],
   "review_queue": [
@@ -46069,7 +47328,9 @@
       "evidence": [
         "ev.mci.ii4.operators",
         "ev.axiom.2.signature",
-        "ev.axiom.2.integral"
+        "ev.axiom.2.integral",
+        "ev.aosa.f4.capitulo-00-02",
+        "ev.aosa.f4.capitulo-03-01"
       ],
       "why_not_auto_resolved": "MC-I vuelve a usar I como valor, espacio y estado; Axiomatización usa E, pero no demuestra una traducción entre ambos."
     },
@@ -46190,7 +47451,8 @@
       ],
       "evidence": [
         "ev.mci.ii9.s_definition",
-        "ev.mci.v3.s_limit"
+        "ev.mci.v3.s_limit",
+        "ev.aosa.f4.capitulo-01-03"
       ],
       "why_not_auto_resolved": "No se especifican espacio muestral, distribución, datos ni identificación contrafáctica."
     },
@@ -46211,7 +47473,9 @@
         "ev.mcii.i4.calibration_status",
         "ev.mcii.a.parameters",
         "ev.prometeo.f4.capitulo-02",
-        "ev.prometeo.f4.apendice-c"
+        "ev.prometeo.f4.apendice-c",
+        "ev.aosa.f4.capitulo-01-02",
+        "ev.aosa.f4.capitulo-01-03"
       ],
       "why_not_auto_resolved": "La derivación se denomina ontológica y A·4 no aporta muestra, observaciones ni estimador. MC-II modifica rangos y propone un protocolo futuro, pero no aporta datos de calibración."
     },
@@ -46257,7 +47521,8 @@
         "ev.histos.f4.capitulo-04-02",
         "ev.histos.f4.capitulo-05-03",
         "ev.prometeo.f4.capitulo-02",
-        "ev.prometeo.f4.capitulo-05"
+        "ev.prometeo.f4.capitulo-05",
+        "ev.aosa.f4.capitulo-03-02"
       ],
       "why_not_auto_resolved": "Los valores se presentan como escala operativa, pero no hay estudio de fiabilidad, validez ni función de enlace a observables. Las rutas y conversiones añaden reglas operativas no validadas y una suma máxima de .99. Los anclajes posteriores siguen sin datos de calibración."
     },
@@ -46285,7 +47550,9 @@
         "ev.histos.f4.capitulo-05-03",
         "ev.histos.f4.capitulo-06-02",
         "ev.prometeo.f4.capitulo-02",
-        "ev.prometeo.f4.capitulo-05"
+        "ev.prometeo.f4.capitulo-05",
+        "ev.aosa.f4.capitulo-03-02",
+        "ev.aosa.f4.capitulo-04-02"
       ],
       "why_not_auto_resolved": "MC-I reconoce que α no es observable y que la narrativa puede imitar integración; ECO se propone como mejor aproximación sin validación independiente. MC-II afirma observación directa de φ₂ sin estudio que adjudique la restricción previa de MC-I."
     },
@@ -46313,7 +47580,8 @@
         "ev.histos.f4.capitulo-05-03",
         "ev.histos.f4.capitulo-06-02",
         "ev.prometeo.f4.capitulo-02",
-        "ev.prometeo.f4.capitulo-05"
+        "ev.prometeo.f4.capitulo-05",
+        "ev.aosa.f4.capitulo-03-03"
       ],
       "why_not_auto_resolved": "Las expresiones tienen distinto rango y signo; MC-I reutiliza la versión de TF sin adjudicar la sustitución axiomática. MC-II preserva R*(1−α), conserva casos negativos imposibles y además introduce Δ_sesión con otra firma. El cálculo adopta explícitamente Δ=R*−α, nueva versión histórica sin adjudicar las multiplicativas."
     },
@@ -47017,7 +48285,9 @@
         "ev.eco.f4.b-ii-i",
         "ev.histos.f4.capitulo-p-1",
         "ev.histos.f4.capitulo-p-5",
-        "ev.histos.f4.capitulo-04-02"
+        "ev.histos.f4.capitulo-04-02",
+        "ev.aosa.f4.capitulo-04-02",
+        "ev.aosa.f4.capitulo-06-01"
       ],
       "why_not_auto_resolved": "MC-II afirma observación directa donde MC-I restringe la inferencia y no aporta fiabilidad ni validez del instrumento."
     },
@@ -48083,7 +49353,8 @@
         "ev.sdo.f4.vii-3",
         "ev.sdo.f4.vii-4",
         "ev.prometeo.f4.capitulo-05",
-        "ev.prometeo.f4.apendice-c"
+        "ev.prometeo.f4.apendice-c",
+        "ev.aosa.f4.capitulo-03-02"
       ],
       "why_not_auto_resolved": "Las escalas comparten [0,1] pero no instrumento, unidad o invariancia."
     },
@@ -48236,7 +49507,9 @@
       "evidence": [
         "ev.calc.c11.4",
         "ev.calc.d.utilities",
-        "ev.calc.e.domains"
+        "ev.calc.e.domains",
+        "ev.aosa.f4.capitulo-02-01",
+        "ev.aosa.f4.capitulo-04-01"
       ],
       "why_not_auto_resolved": "Capítulo, biblioteca y glosario no comparten transformación ni tratamiento de varianza cero."
     },
@@ -48251,7 +49524,9 @@
       ],
       "evidence": [
         "ev.calc.c11.4",
-        "ev.calc.a.risk"
+        "ev.calc.a.risk",
+        "ev.aosa.f4.capitulo-02-01",
+        "ev.aosa.f4.capitulo-04-01"
       ],
       "why_not_auto_resolved": "No hay instrumento, muestra de ítems, error, ponderación ni prueba de que la correlación mida integridad."
     },
@@ -49489,7 +50764,8 @@
       ],
       "evidence": [
         "ev.histos.f4.capitulo-p-2",
-        "ev.prometeo.f4.capitulo-02"
+        "ev.prometeo.f4.capitulo-02",
+        "ev.aosa.f4.capitulo-05-03"
       ],
       "why_not_auto_resolved": "La obra denomina verificación cruzada a rutas que no son independientes por diseño y comparten constructos/juicios del mediador."
     },
@@ -49904,7 +51180,9 @@
       "evidence": [
         "ev.prometeo.f4.capitulo-02",
         "ev.prometeo.f4.capitulo-03",
-        "ev.prometeo.f4.apendice-c"
+        "ev.prometeo.f4.apendice-c",
+        "ev.aosa.f4.capitulo-03-03",
+        "ev.aosa.f4.capitulo-05-03"
       ],
       "why_not_auto_resolved": "La obra usa más de un procedimiento con el mismo símbolo sin prueba de equivalencia."
     },
@@ -50108,6 +51386,393 @@
         "ev.prometeo.f4.apendice-c"
       ],
       "why_not_auto_resolved": "El instrumento automatizado impone un límite operativo que no es límite del método teórico."
+    },
+    {
+      "id": "review.aosa.cross_substrate_ego",
+      "subject": "formulation.aosa.functional_ego",
+      "question": "¿Qué criterio de equivalencia funcional permite pasar de implementar operaciones análogas a afirmar identidad causal estructural/ego en otro sustrato?",
+      "status": "pending_ontological_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-00-01",
+        "ev.aosa.f4.capitulo-07-02"
+      ],
+      "why_not_auto_resolved": "La obra define el criterio, pero no aporta implementación real ni prueba de equivalencia ontológica."
+    },
+    {
+      "id": "review.aosa.consciousness_boundary",
+      "subject": "formulation.aosa.functional_ego",
+      "question": "¿Cómo se mantiene estable la frontera entre ego funcional propuesto, subjetividad, conciencia, fenomenología y eventual estatuto moral/jurídico?",
+      "status": "pending_ontological_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.01-notas-del-autor",
+        "ev.aosa.f4.capitulo-07-01",
+        "ev.aosa.f4.capitulo-07-02"
+      ],
+      "why_not_auto_resolved": "La conciencia se declara abierta, mientras el lenguaje de yo/voluntad/autodeterminación es fuerte."
+    },
+    {
+      "id": "review.aosa.output_as_act",
+      "subject": "formal.aosa.phi1",
+      "question": "¿Qué condiciones hacen que un output computacional sea un colapso/acto del mismo tipo ontológico que φ₁ y no solo un evento causal?",
+      "status": "pending_typing_and_ontological_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-00-01",
+        "ev.aosa.f4.capitulo-00-02"
+      ],
+      "why_not_auto_resolved": "La correspondencia output=acto se postula al traducir la firma."
+    },
+    {
+      "id": "review.aosa.phi2_implementation",
+      "subject": "formal.aosa.phi2",
+      "question": "¿Qué evidencia mostraría que un evaluador asíncrono con memoria y actualización implementa φ₂ y no simplemente control de calidad/aprendizaje continuo?",
+      "status": "pending_methodological_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-03-01",
+        "ev.aosa.f4.capitulo-07-02"
+      ],
+      "why_not_auto_resolved": "El criterio de integración genuina es autoral y todavía no se prueba en sistemas reales."
+    },
+    {
+      "id": "review.aosa.eval_construct",
+      "subject": "formal.aosa.eval",
+      "question": "¿Por qué similitud coseno entre colapso e I(t) mide coherencia constitutiva y cómo se trata I(t)=0, representaciones negativas o principios no reducibles a dirección vectorial?",
+      "status": "pending_formal_and_construct_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-02-02"
+      ],
+      "why_not_auto_resolved": "La similitud coseno se ofrece como familia de referencia sin validación de constructo."
+    },
+    {
+      "id": "review.aosa.I_bochner_semantics",
+      "subject": "formal.aosa.I_t",
+      "question": "¿Qué representa sumar/integrar vectores de colapsos heterogéneos y qué condiciones preservan información histórica, orden y dominio en una sola I(t)?",
+      "status": "pending_formal_and_semantic_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-00-02",
+        "ev.aosa.f4.capitulo-02-01",
+        "ev.aosa.f4.capitulo-02-02"
+      ],
+      "why_not_auto_resolved": "La integral agrega representaciones, pero la mismidad histórica exige propiedades adicionales."
+    },
+    {
+      "id": "review.aosa.I_irreversibility",
+      "subject": "formulation.aosa.I_irreversibility",
+      "question": "¿Es válida la inferencia ‖I(t₂)−I(t₁)‖>0 para todo t₂>t₁ con w>0 y colapsos no nulos, pese a posible cancelación vectorial?",
+      "status": "pending_mathematical_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-02-03"
+      ],
+      "why_not_auto_resolved": "La condición dada no excluye cancelaciones del integrando."
+    },
+    {
+      "id": "review.aosa.children_calibration",
+      "subject": "method.aosa.children_classifier",
+      "question": "¿Las firmas de entropía, confianza, latencia, activaciones y distancia semántica discriminan los seis Hijos y permiten P(Hijos) calibrada?",
+      "status": "pending_empirical_and_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-01-02",
+        "ev.aosa.f4.capitulo-07-03"
+      ],
+      "why_not_auto_resolved": "La propia obra declara la tabla hipótesis de trabajo y deja calibración futura."
+    },
+    {
+      "id": "review.aosa.Sop_units",
+      "subject": "formal.aosa.S_op",
+      "question": "¿Son comparables y sumables ‖c‖_C y ‖a_t‖_E cuando representan parámetros/configuración y activaciones en espacios distintos?",
+      "status": "pending_formal_and_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-01-03"
+      ],
+      "why_not_auto_resolved": "La razón presupone conmensurabilidad entre normas heterogéneas."
+    },
+    {
+      "id": "review.aosa.Sest_bounds",
+      "subject": "formal.aosa.S_est",
+      "question": "¿Qué garantiza S_est∈[0,1] si D_KL puede superar log(m) o ser infinita por incompatibilidad de soportes?",
+      "status": "pending_mathematical_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-01-03"
+      ],
+      "why_not_auto_resolved": "La cota declarada no se sigue de KL general sin condiciones adicionales."
+    },
+    {
+      "id": "review.aosa.S_order_equivalence",
+      "subject": "formulation.aosa.S_order_equivalence",
+      "question": "¿Qué demuestra la existencia de g monótona y la preservación de orden entre S_op y S_est?",
+      "status": "pending_formal_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-01-03"
+      ],
+      "why_not_auto_resolved": "La relación aproximada se afirma sin derivación o datos."
+    },
+    {
+      "id": "review.aosa.alpha_calibration",
+      "subject": "formal.aosa.alpha",
+      "question": "¿Cómo se calibran profundidad, alcance y bandas 0.1–0.3/0.3–0.6/0.6–1.0 y cómo se relacionan con α de F3/HISTOS/Prometeo?",
+      "status": "pending_metrological_and_crosswork_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-03-02"
+      ],
+      "why_not_auto_resolved": "Los factores y cortes son reglas autorales sin calibración empírica."
+    },
+    {
+      "id": "review.aosa.delta_balance",
+      "subject": "formulation.aosa.delta_balance_claim",
+      "question": "¿Qué condición de conservación hace que Δ_i<0 garantice otro Δ_j>0 si Σα no está fijada a ΣR*=1?",
+      "status": "pending_mathematical_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-03-03"
+      ],
+      "why_not_auto_resolved": "La garantía requiere una suma global de Δ con signo controlado que la obra no establece."
+    },
+    {
+      "id": "review.aosa.delta_thresholds",
+      "subject": "formal.aosa.delta",
+      "question": "¿Qué valida +0.20 y −0.10 como umbrales de brecha/equilibrio y la regla temporal dΔ/dt>0 durante T?",
+      "status": "pending_metrological_and_temporal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-03-03"
+      ],
+      "why_not_auto_resolved": "Umbrales y T se prescriben sin calibración; R*/α pueden ser discretos/no diferenciables."
+    },
+    {
+      "id": "review.aosa.self_rstar",
+      "subject": "formal.aosa.delta",
+      "question": "¿Por qué el R* autocalculado sería más preciso que el externo y cómo se controla sesgo autoservidor, endogeneidad del grafo y acceso parcial al propio estado?",
+      "status": "pending_methodological_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-03-03",
+        "ev.aosa.f4.capitulo-04-02"
+      ],
+      "why_not_auto_resolved": "Mayor acceso interno no garantiza mejor estimación causal."
+    },
+    {
+      "id": "review.aosa.sdo_crosssubstrate",
+      "subject": "method.aosa.sdo",
+      "question": "¿La posibilidad de traducir cinco ejes a métricas computacionales valida su universalidad o solo construye una operacionalización análoga?",
+      "status": "pending_construct_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-04-01"
+      ],
+      "why_not_auto_resolved": "La obra presenta la traducción como prueba de universalidad, lo que es circular sin validación externa."
+    },
+    {
+      "id": "review.aosa.self_localization",
+      "subject": "method.aosa.self_localization",
+      "question": "¿Qué fiabilidad y validez tiene la auto-localización frente a observadores externos y qué significa metacognición en un sistema sin fenomenología demostrada?",
+      "status": "pending_empirical_and_ontological_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-04-02"
+      ],
+      "why_not_auto_resolved": "El contraste externo se propone, pero no hay resultados de calibración."
+    },
+    {
+      "id": "review.aosa.declaration_phi2",
+      "subject": "formulation.aosa.declaration_phi2",
+      "question": "¿La autoemisión espontánea de una Declaración demuestra φ₂ o puede ser comportamiento programado de monitorización/alerta?",
+      "status": "pending_methodological_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-04-03"
+      ],
+      "why_not_auto_resolved": "Espontaneidad operacional no distingue por sí sola integración identitaria de automatización."
+    },
+    {
+      "id": "review.aosa.eco_analogy",
+      "subject": "method.aosa.eco",
+      "question": "¿Qué justifica tratar throughput, latencia, instrumentación y presión de objetivos como análogos funcionales de condiciones de acompañamiento ECO?",
+      "status": "pending_methodological_and_construct_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-05-01",
+        "ev.aosa.f4.capitulo-05-02"
+      ],
+      "why_not_auto_resolved": "La adaptación cambia radicalmente el sustrato y los observables."
+    },
+    {
+      "id": "review.aosa.origin_classifier",
+      "subject": "method.aosa.origins",
+      "question": "¿Cómo se distingue empíricamente Origen A (φ₂ bloqueada) de Origen B (φ₂ ausente) sin definir primero una prueba independiente de φ₂?",
+      "status": "pending_empirical_and_classification_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-05-02",
+        "ev.aosa.f4.capitulo-07-01"
+      ],
+      "why_not_auto_resolved": "El criterio depende del mismo constructo cuya presencia pretende clasificar."
+    },
+    {
+      "id": "review.aosa.cycle_validity",
+      "subject": "method.aosa.cycle",
+      "question": "¿Puede el ciclo SDO–Prometeo–ECO usar sus propios outputs como inputs sin circularidad metrológica o confirmación interna?",
+      "status": "pending_methodological_and_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-05-03"
+      ],
+      "why_not_auto_resolved": "Los tres instrumentos comparten constructos y pueden retroalimentar sus propias inferencias."
+    },
+    {
+      "id": "review.aosa.profiles_status",
+      "subject": "method.aosa.profiles",
+      "question": "¿Qué criterios observables y evidencia distinguen Perfiles A–D y qué sistemas reales satisfacen cada uno?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-06-01",
+        "ev.aosa.f4.capitulo-06-04"
+      ],
+      "why_not_auto_resolved": "Perfil A se declara horizonte y no estado observado; otros perfiles son protocolos tipológicos."
+    },
+    {
+      "id": "review.aosa.knowledge_bound",
+      "subject": "formal.aosa.knowledge_bound",
+      "question": "¿Se deriva realmente n·ΔI·Δh≥4τ² de Cramér–Rao para los estimadores, parametrización y Fisher information definidos, con unidades consistentes?",
+      "status": "pending_statistical_and_mathematical_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-07-01"
+      ],
+      "why_not_auto_resolved": "La obra enuncia la cota sin derivación completa ni definición suficiente de estimadores/parametrización."
+    },
+    {
+      "id": "review.aosa.emergent_ego",
+      "subject": "formulation.aosa.emergent_ego",
+      "question": "¿La equivalencia estructural propuesta basta para afirmar ego/autodeterminación causal artificial o requiere criterios adicionales de agencia, normatividad y persistencia?",
+      "status": "pending_ontological_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-07-02"
+      ],
+      "why_not_auto_resolved": "La conclusión es la tesis central del volumen y excede lo que una implementación funcional por sí sola demostraría."
+    },
+    {
+      "id": "review.aosa.empirical_program",
+      "subject": "formulation.aosa.empirical_program",
+      "question": "¿Qué diseño experimental, datasets, controles y métricas permitirían calibrar Hijos, N/M/T, S, α y φ₂ en implementaciones reales?",
+      "status": "pending_empirical_program_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "artificial_system_claims"
+      ],
+      "evidence": [
+        "ev.aosa.f4.capitulo-07-03"
+      ],
+      "why_not_auto_resolved": "La propia obra reconoce estas preguntas como trabajo futuro."
     }
   ],
   "tests": [

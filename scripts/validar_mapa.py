@@ -3468,6 +3468,37 @@ def main() -> int:
         require(required_prom_routes<=set(routes), "Faltan rutas F4 de Método Prometeo")
         require(all(relations[r]["evidence_status"]=="inferred" and bool(relations[r].get("rationale")) for r in {"rel.prometeo.rstar.reuses_axiom","rel.prometeo.rstar.differs_tf","rel.prometeo.S.operationalizes_mci","rel.prometeo.alpha.reuses_global","rel.prometeo.delta.reuses_global","rel.prometeo.shapley.reuses_mci","rel.prometeo.histos.interface"}), "Los cruces Prometeo con F3/F4 deben seguir como inferencias auditables")
 
+
+        # Invariantes ganadas al auditar Arquitectura ontológica de sistemas artificiales en F4.
+        require("AOSA" in works, "Falta AOSA en el inventario F4")
+        aosa_path=ROOT/"corpus"/"libros"/"arquitectura-ontologica-sistemas-artificiales"/"estructura.json"
+        require(aosa_path.exists(), "Falta estructura derivada AOSA")
+        aosa_struct=json.loads(aosa_path.read_text(encoding="utf-8"))
+        require(aosa_struct.get("sha256")==works["AOSA"]["sha256"], "Estructura AOSA no corresponde a fuente canónica")
+        aosa_segments={s["path"]:(s["start_line"],s["end_line"]) for s in aosa_struct["segments"]}
+        require(len(aosa_segments)==27, "AOSA debe conservar sus 27 segmentos")
+        aosa_ev=[x for x in evidence.values() if x["work_id"]=="AOSA"]
+        require(set(aosa_segments)<={x["segment"] for x in aosa_ev}, "Auditoría AOSA perdió cobertura")
+        for x in aosa_ev:
+            require(x["segment"] in aosa_segments, f"{x['id']}: segmento AOSA no declarado")
+            a,b=aosa_segments[x["segment"]]; c,d=x["source_lines"]
+            require(a<=c<=d<=b, f"{x['id']}: rango AOSA fuera de segmento")
+        required_aosa_nodes={"formulation.aosa.functional_ego","formal.aosa.phi1","method.aosa.rsc","formal.aosa.phi2","formal.aosa.eval","formal.aosa.I_t","formulation.aosa.I_irreversibility","method.aosa.children_classifier","formal.aosa.S_op","formal.aosa.S_est","formulation.aosa.S_order_equivalence","method.aosa.meci","formal.aosa.alpha","formal.aosa.delta","formulation.aosa.delta_balance_claim","method.aosa.sdo","method.aosa.self_localization","formulation.aosa.declaration_phi2","method.aosa.eco","method.aosa.origins","method.aosa.cycle","method.aosa.profiles","formal.aosa.knowledge_bound","formulation.aosa.limits","formulation.aosa.emergent_ego","formulation.aosa.empirical_program"}
+        require(required_aosa_nodes<=set(nodes), f"Auditoría AOSA incompleta: {sorted(required_aosa_nodes-set(nodes))}")
+        require(nodes["formal.aosa.S_est"]["formal_spec"].get("epistemic_status")=="authorial_index_with_unresolved_bounds_and_construct_validity", "S_est no puede presentarse como índice validado/acotado")
+        require(nodes["formal.aosa.knowledge_bound"]["formal_spec"].get("epistemic_status")=="authorial_statistical_claim_pending_derivation_review", "La cota Cramér–Rao de AOSA debe seguir pendiente de derivación")
+        require(nodes["formal.aosa.phi2"]["formal_spec"].get("epistemic_status")=="authorial_implementable_architecture_pending_empirical_validation", "Implementar un evaluador no adjudica φ₂ ontológica")
+        aosa_reviews={rid for rid in reviews if rid.startswith("review.aosa.")}
+        require(len(aosa_reviews)>=25, "Deben conservarse al menos 25 revisiones propias AOSA")
+        inherited_aosa={"review.mci.phi_typing","review.mcii.phi2_observability","review.mci.s_ranges_calibration","review.mci.alpha_calibration","review.mci.alpha_observability","review.mci.delta_crosswork","review.calc.alpha_crossdomain","review.calc.IIC_measurement","review.histos.system_coherence","review.prometeo.rstar_algorithm_equivalence"}
+        for rid in inherited_aosa:
+            require(str(reviews[rid].get("status","")).startswith("pending"), f"AOSA no autoriza cerrar revisión heredada {rid}")
+            require(any(e.startswith("ev.aosa.") for e in reviews[rid].get("evidence",[])), f"{rid} debe conservar evidencia AOSA")
+        aosa_routes={"route.aosa.scope","route.aosa.architecture","route.aosa.children_s","route.aosa.identity","route.aosa.alpha_delta","route.aosa.sdo_self","route.aosa.eco_cycle","route.aosa.profiles","route.aosa.limits","route.aosa.crosswork"}
+        require(aosa_routes<=set(routes), "Faltan rutas F4 AOSA")
+        inferred_aosa={"rel.aosa.ego.reframes_core","rel.aosa.phi1.reuses_global","rel.aosa.phi2.reuses_global","rel.aosa.I.reuses_global","rel.aosa.Sop.operationalizes_mci","rel.aosa.Sest.operationalizes_mci","rel.aosa.alpha.reuses_global","rel.aosa.delta.reuses_global","rel.aosa.sdo.adapts_sdo","rel.aosa.eco.adapts_eco","rel.aosa.cycle.uses_prometeo"}
+        require(all(relations[r]["evidence_status"]=="inferred" and bool(relations[r].get("rationale")) for r in inferred_aosa), "Cruces AOSA con F2/F3/F4 deben seguir como inferencias auditables")
+
     print(
         "Mapa válido:",
         f"fase={phase}, schema={schema_status};",
