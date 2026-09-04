@@ -1,5 +1,5 @@
 {
-  "map_version": "2.6.0",
+  "map_version": "2.7.0",
   "schema_status": "frozen",
   "phase": "F4",
   "purpose": "Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.",
@@ -100,6 +100,12 @@
       "title": "ECO: Entrevista Clínica Ontológica",
       "source": "corpus/fuentes/ECO_Entrevista_Clinica_Ontologica.md",
       "sha256": "b28e6fa3c07196525d8d6b880ff7a8674abd6460f00b0adda0353d84b3a811ac"
+    },
+    {
+      "id": "HISTOS",
+      "title": "HISTOS: Protocolo de Acompañamiento Ontológico",
+      "source": "corpus/fuentes/HISTOS_Protocolo_de_Acompanamiento_Ontologico.md",
+      "sha256": "35497bc426d2468e69541dc52e29125b446e1fb9e4ca05b81894242d37e1599b"
     }
   ],
   "evidence": [
@@ -12444,6 +12450,468 @@
       ],
       "section": "APENDICES",
       "evidence_type": "instrument_templates"
+    },
+    {
+      "id": "ev.histos.f4.00-preliminares",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/00-preliminares.md",
+      "source_lines": [
+        1,
+        31
+      ],
+      "section": "00-preliminares",
+      "evidence_type": "work_scope"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-p-1",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-p-1.md",
+      "source_lines": [
+        32,
+        541
+      ],
+      "section": "P·1",
+      "evidence_type": "instrument_architecture"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-p-2",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-p-2.md",
+      "source_lines": [
+        542,
+        1137
+      ],
+      "section": "P·2",
+      "evidence_type": "instrument_architecture"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-p-3",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-p-3.md",
+      "source_lines": [
+        1138,
+        1555
+      ],
+      "section": "P·3",
+      "evidence_type": "instrument_architecture"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-p-4",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-p-4.md",
+      "source_lines": [
+        1556,
+        2005
+      ],
+      "section": "P·4",
+      "evidence_type": "instrument_architecture"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-p-5",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-p-5.md",
+      "source_lines": [
+        2006,
+        2442
+      ],
+      "section": "P·5",
+      "evidence_type": "instrument_architecture"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-01-01",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-01-01.md",
+      "source_lines": [
+        2443,
+        3043
+      ],
+      "section": "I·1",
+      "evidence_type": "input_and_record_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-01-02",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-01-02.md",
+      "source_lines": [
+        3044,
+        3658
+      ],
+      "section": "I·2",
+      "evidence_type": "input_and_record_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-01-03",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-01-03.md",
+      "source_lines": [
+        3659,
+        4287
+      ],
+      "section": "I·3",
+      "evidence_type": "input_and_record_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-01-04",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-01-04.md",
+      "source_lines": [
+        4288,
+        4753
+      ],
+      "section": "I·4",
+      "evidence_type": "input_and_record_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-02-01",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-02-01.md",
+      "source_lines": [
+        4754,
+        5324
+      ],
+      "section": "II·1",
+      "evidence_type": "process_arc_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-02-02",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-02-02.md",
+      "source_lines": [
+        5325,
+        6012
+      ],
+      "section": "II·2",
+      "evidence_type": "process_arc_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-02-03",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-02-03.md",
+      "source_lines": [
+        6013,
+        6657
+      ],
+      "section": "II·3",
+      "evidence_type": "process_arc_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-02-04",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-02-04.md",
+      "source_lines": [
+        6658,
+        7258
+      ],
+      "section": "II·4",
+      "evidence_type": "process_arc_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-02-05",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-02-05.md",
+      "source_lines": [
+        7259,
+        7792
+      ],
+      "section": "II·5",
+      "evidence_type": "process_arc_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-02-06",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-02-06.md",
+      "source_lines": [
+        7793,
+        8222
+      ],
+      "section": "II·6",
+      "evidence_type": "process_arc_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-02-07",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-02-07.md",
+      "source_lines": [
+        8223,
+        8659
+      ],
+      "section": "II·7",
+      "evidence_type": "process_arc_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-03-01",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-03-01.md",
+      "source_lines": [
+        8660,
+        9239
+      ],
+      "section": "III·1",
+      "evidence_type": "child_differentiated_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-03-02",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-03-02.md",
+      "source_lines": [
+        9240,
+        9807
+      ],
+      "section": "III·2",
+      "evidence_type": "child_differentiated_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-03-03",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-03-03.md",
+      "source_lines": [
+        9808,
+        10401
+      ],
+      "section": "III·3",
+      "evidence_type": "child_differentiated_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-03-04",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-03-04.md",
+      "source_lines": [
+        10402,
+        10966
+      ],
+      "section": "III·4",
+      "evidence_type": "child_differentiated_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-03-05",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-03-05.md",
+      "source_lines": [
+        10967,
+        11508
+      ],
+      "section": "III·5",
+      "evidence_type": "child_differentiated_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-03-06",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-03-06.md",
+      "source_lines": [
+        11509,
+        12020
+      ],
+      "section": "III·6",
+      "evidence_type": "child_differentiated_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-03-07",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-03-07.md",
+      "source_lines": [
+        12021,
+        12546
+      ],
+      "section": "III·7",
+      "evidence_type": "child_differentiated_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-04-01",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-04-01.md",
+      "source_lines": [
+        12547,
+        13019
+      ],
+      "section": "IV·1",
+      "evidence_type": "phi2_and_blockage_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-04-02",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-04-02.md",
+      "source_lines": [
+        13020,
+        13571
+      ],
+      "section": "IV·2",
+      "evidence_type": "phi2_and_blockage_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-04-03",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-04-03.md",
+      "source_lines": [
+        13572,
+        14111
+      ],
+      "section": "IV·3",
+      "evidence_type": "phi2_and_blockage_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-04-04",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-04-04.md",
+      "source_lines": [
+        14112,
+        14640
+      ],
+      "section": "IV·4",
+      "evidence_type": "phi2_and_blockage_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-04-05",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-04-05.md",
+      "source_lines": [
+        14641,
+        15152
+      ],
+      "section": "IV·5",
+      "evidence_type": "phi2_and_blockage_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-04-06",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-04-06.md",
+      "source_lines": [
+        15153,
+        15630
+      ],
+      "section": "IV·6",
+      "evidence_type": "phi2_and_blockage_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-05-01",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-05-01.md",
+      "source_lines": [
+        15631,
+        16060
+      ],
+      "section": "V·1",
+      "evidence_type": "longitudinal_tracking_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-05-02",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-05-02.md",
+      "source_lines": [
+        16061,
+        16535
+      ],
+      "section": "V·2",
+      "evidence_type": "longitudinal_tracking_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-05-03",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-05-03.md",
+      "source_lines": [
+        16536,
+        16955
+      ],
+      "section": "V·3",
+      "evidence_type": "longitudinal_tracking_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-05-04",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-05-04.md",
+      "source_lines": [
+        16956,
+        17339
+      ],
+      "section": "V·4",
+      "evidence_type": "longitudinal_tracking_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-06-01",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-06-01.md",
+      "source_lines": [
+        17340,
+        17683
+      ],
+      "section": "VI·1",
+      "evidence_type": "closure_transition_referral_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-06-02",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-06-02.md",
+      "source_lines": [
+        17684,
+        18056
+      ],
+      "section": "VI·2",
+      "evidence_type": "closure_transition_referral_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-06-03",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-06-03.md",
+      "source_lines": [
+        18057,
+        18448
+      ],
+      "section": "VI·3",
+      "evidence_type": "closure_transition_referral_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-06-04",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-06-04.md",
+      "source_lines": [
+        18449,
+        18749
+      ],
+      "section": "VI·4",
+      "evidence_type": "closure_transition_referral_protocol"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-07-01",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-07-01.md",
+      "source_lines": [
+        18750,
+        19155
+      ],
+      "section": "VII·1",
+      "evidence_type": "group_and_collective_application"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-07-02",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-07-02.md",
+      "source_lines": [
+        19156,
+        19650
+      ],
+      "section": "VII·2",
+      "evidence_type": "group_and_collective_application"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-07-03",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-07-03.md",
+      "source_lines": [
+        19651,
+        20092
+      ],
+      "section": "VII·3",
+      "evidence_type": "group_and_collective_application"
+    },
+    {
+      "id": "ev.histos.f4.capitulo-07-04",
+      "work_id": "HISTOS",
+      "segment": "corpus/libros/histos/capitulo-07-04.md",
+      "source_lines": [
+        20093,
+        20597
+      ],
+      "section": "VII·4",
+      "evidence_type": "group_and_collective_application"
     }
   ],
   "nodes": [
@@ -23307,6 +23775,347 @@
         "ev.eco.f4.bloque-iv-03"
       ],
       "evidence_status": "explicit"
+    },
+    {
+      "id": "method.histos.instrument",
+      "kind": "method",
+      "label": "HISTOS como instrumento longitudinal de acompañamiento",
+      "summary": "Instrumento autoral sesión a sesión que recibe ECO/SDO y pretende facilitar la operación de φ₂ desde el ego genuino, registrar movimiento longitudinal y devolver información al sistema. La obra distingue acompañar/facilitar de producir el cambio por el sujeto.",
+      "evidence": [
+        "ev.histos.f4.capitulo-p-1",
+        "ev.histos.f4.capitulo-p-2"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.histos.nonclinical_scope",
+      "kind": "formulation",
+      "label": "Delimitación no clínica de HISTOS",
+      "summary": "La obra declara que HISTOS no es psicoterapia, diagnóstico, tratamiento psiquiátrico ni manejo de crisis; puede coexistir con trabajo clínico y prescribe derivación cuando seguridad o condiciones clínicas exceden su alcance.",
+      "evidence": [
+        "ev.histos.f4.capitulo-p-1",
+        "ev.histos.f4.capitulo-06-03",
+        "ev.histos.f4.capitulo-06-04"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.histos.eco_handoff",
+      "kind": "method",
+      "label": "Transferencia ECO → HISTOS",
+      "summary": "Recibe P(Hijos), cinco ejes SDO y principios orientadores de ECO; exige leer incertidumbre y verificar actualidad del mapa antes de iniciar el acompañamiento.",
+      "evidence": [
+        "ev.histos.f4.capitulo-p-2",
+        "ev.histos.f4.capitulo-p-4",
+        "ev.histos.f4.capitulo-01-01",
+        "ev.histos.f4.capitulo-01-02"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.histos.profiles",
+      "kind": "method",
+      "label": "Seis perfiles de uso de HISTOS",
+      "summary": "Distribuye bloques y preguntas entre mediación en crisis, psicología clínica, coaching ontológico, mediación educativa, organizacional y estructural/Prometeo.",
+      "evidence": [
+        "ev.histos.f4.capitulo-p-3"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.histos.validity_conditions",
+      "kind": "method",
+      "label": "Condiciones autorales de administración válida",
+      "summary": "Declara conjuntamente necesarias formación SDO/ECO, práctica supervisada, localización ECO disponible y encuadre relacional de acompañamiento; una administración que no cumple las condiciones no debe llamarse HISTOS.",
+      "evidence": [
+        "ev.histos.f4.capitulo-p-4"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.histos.session_cycle",
+      "kind": "method",
+      "label": "Anatomía de seis momentos de sesión",
+      "summary": "Orden estándar M·1 apertura/D, M·2 acto concreto, M·3 eje/Hijo, M·4 trabajo de Δ, M·5 seguimiento V y M·6 orientación de φ₂, con árbol de navegación y desviaciones justificadas.",
+      "evidence": [
+        "ev.histos.f4.capitulo-p-5"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.histos.input_reading",
+      "kind": "method",
+      "label": "Bloque I · lectura de insumos y entrada",
+      "summary": "Lee P(Hijos) con niveles EP, integra cinco ejes, verifica la localización inicial, construye encuadre y expediente ontológico sin sustituir la Capa 0 de ECO.",
+      "evidence": [
+        "ev.histos.f4.capitulo-01-01",
+        "ev.histos.f4.capitulo-01-02",
+        "ev.histos.f4.capitulo-01-03",
+        "ev.histos.f4.capitulo-01-04"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.histos.initial_relocalization",
+      "kind": "method",
+      "label": "Re-localización inicial sin repetir ECO",
+      "summary": "Verifica el desfase temporal entre ECO y la primera sesión mediante protocolos de re-localización y decide cuándo el cambio obliga a nueva administración de ECO.",
+      "evidence": [
+        "ev.histos.f4.capitulo-01-02"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.histos.expediente",
+      "kind": "method",
+      "label": "Expediente ontológico longitudinal",
+      "summary": "Registro por capas que preserva Capa 0 de ECO, re-localización inicial y observaciones sesión a sesión para comparar mediaciones, actos, S, asunción, arco y cambios de ejes. Se diferencia del expediente clínico y del expediente causal de Prometeo.",
+      "evidence": [
+        "ev.histos.f4.capitulo-01-04",
+        "ev.histos.f4.capitulo-05-01",
+        "ev.histos.f4.capitulo-05-03"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.histos.arc",
+      "kind": "method",
+      "label": "Bloque II · arco de cinco momentos",
+      "summary": "Operacionaliza reconocimiento M·1, contacto M·2, duelo M·3, rendición M·4 y vanidad soberana M·5 como posiciones no lineales del proceso, con señales y errores de transición.",
+      "evidence": [
+        "ev.histos.f4.capitulo-02-01",
+        "ev.histos.f4.capitulo-02-02",
+        "ev.histos.f4.capitulo-02-03",
+        "ev.histos.f4.capitulo-02-04",
+        "ev.histos.f4.capitulo-02-05",
+        "ev.histos.f4.capitulo-02-06",
+        "ev.histos.f4.capitulo-02-07"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.histos.arc_nonsequential",
+      "kind": "formulation",
+      "label": "No linealidad y dominio específico del arco",
+      "summary": "Los cinco momentos no son etapas cronológicas rígidas: pueden coexistir por dominio, retroceder o repetirse; la obra trata el retorno como posible información del proceso.",
+      "evidence": [
+        "ev.histos.f4.capitulo-02-01"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.histos.child_differentiation",
+      "kind": "method",
+      "label": "Bloque III · protocolos diferenciados por Hijo dominante",
+      "summary": "Adapta punto de entrada, errores y modo de acompañamiento para Fobos, Deimos, Anteros, Potós, Eros y Harmonía a partir de la distribución P(Hijos), sin reducirla a clasificación binaria.",
+      "evidence": [
+        "ev.histos.f4.capitulo-03-01",
+        "ev.histos.f4.capitulo-03-02",
+        "ev.histos.f4.capitulo-03-03",
+        "ev.histos.f4.capitulo-03-04",
+        "ev.histos.f4.capitulo-03-05",
+        "ev.histos.f4.capitulo-03-06",
+        "ev.histos.f4.capitulo-03-07"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.histos.child_axis_association",
+      "kind": "formulation",
+      "label": "Asociaciones declaradas entre Hijo dominante y Eje E",
+      "role": "authorial_statistical_claim",
+      "summary": "La obra afirma asociaciones estadísticas no necesarias entre posiciones de los Hijos y configuraciones del Eje E y usa esas asociaciones para orientar la lectura e intervención.",
+      "evidence": [
+        "ev.histos.f4.capitulo-03-01"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.histos.phi2_work",
+      "kind": "method",
+      "label": "Bloque IV · trabajo de φ₂ y bloqueos",
+      "summary": "Organiza el acompañamiento de la asunción causal y los bloqueos de φ₂ mediante preguntas de nodo, niveles de asunción y protocolos para trauma, saturación, condición del campo y Aego.",
+      "evidence": [
+        "ev.histos.f4.capitulo-04-01",
+        "ev.histos.f4.capitulo-04-02",
+        "ev.histos.f4.capitulo-04-03",
+        "ev.histos.f4.capitulo-04-04",
+        "ev.histos.f4.capitulo-04-05",
+        "ev.histos.f4.capitulo-04-06"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.histos.alpha_levels",
+      "kind": "formal_object",
+      "label": "Tabla α de seis niveles en sesión",
+      "formal_spec": {
+        "symbol": "α_Histos",
+        "object_type": "authorial_ordinal_interval_scale",
+        "expression": "seis bandas aproximadas: 0; [.05,.25]; [.25,.55]; [.55,.80]; [.80,.95]; 1.00",
+        "domain": "lectura de asunción causal de actos por dominio en sesión",
+        "codomain": "nivel cualitativo/intervalo numérico aproximado",
+        "dependencies": [
+          "method.histos.phi2_work",
+          "method.histos.expediente"
+        ],
+        "assumptions": [
+          "la conducta y narrativa en sesión identifican nivel de asunción",
+          "los intervalos representan posiciones distinguibles",
+          "la comparación longitudinal conserva significado"
+        ],
+        "epistemic_status": "authorial_session_scale_pending_metrological_and_empirical_validation",
+        "ontological_correspondence": "grado declarado de asunción causal del acto en el proceso"
+      },
+      "evidence": [
+        "ev.histos.f4.capitulo-04-02",
+        "ev.histos.f4.capitulo-05-03"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.histos.delta_qualitative",
+      "kind": "formulation",
+      "label": "Δ cualitativo como trabajo y seguimiento de asunción",
+      "role": "historical_parameter_reinterpretation",
+      "summary": "HISTOS conserva la fórmula Δ=R*−α como referencia de Prometeo, pero no calcula R*; usa “trabajo de Δ” y movimiento de Δ cualitativamente para orientar reconocimiento causal y seguimiento.",
+      "evidence": [
+        "ev.histos.f4.capitulo-p-5",
+        "ev.histos.f4.capitulo-04-02",
+        "ev.histos.f4.capitulo-05-03"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.histos.s_delta_tracking",
+      "kind": "formulation",
+      "label": "S y Δ como indicadores cualitativos de avance",
+      "role": "authorial_outcome_indicator_claim",
+      "summary": "La obra estima S mediante idiosincrasia del acto y Δ mediante asunción, y afirma que tendencias coherentes de ambos en el expediente son el indicador más preciso disponible de avance genuino.",
+      "evidence": [
+        "ev.histos.f4.capitulo-p-2",
+        "ev.histos.f4.capitulo-05-03"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.histos.trauma_protocol",
+      "kind": "method",
+      "label": "Protocolo periférico-central para bloqueo por trauma",
+      "summary": "Reformula trauma como bloqueo selectivo de φ₂, propone mapear constelación, trabajar periferia, detectar aproximación, verificar capacidad y aproximarse al evento central; declara límites y derivación clínica.",
+      "evidence": [
+        "ev.histos.f4.capitulo-04-03",
+        "ev.histos.f4.capitulo-06-03"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.histos.aego_protocol",
+      "kind": "method",
+      "label": "Protocolo HISTOS para E-6/Aego",
+      "summary": "Trata Aego como caso límite, propone diferenciarlo de D-2/E-3, buscar fisuras de efecto en dominios pequeños y coordinar derivación según causas atribuidas; reconoce que HISTOS no restaura por sí mismo el producto del ego sobre el campo.",
+      "evidence": [
+        "ev.histos.f4.capitulo-04-06",
+        "ev.histos.f4.capitulo-06-03"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.histos.dynamic_relocalization",
+      "kind": "method",
+      "label": "Bloque V · re-localización dinámica",
+      "summary": "Actualiza D, V, T, M, E y P(Hijos) con frecuencias declaradas distintas; incluye re-localización inter-sesión, ampliación, indicadores comparados y criterios para repetir ECO.",
+      "evidence": [
+        "ev.histos.f4.capitulo-05-01",
+        "ev.histos.f4.capitulo-05-02",
+        "ev.histos.f4.capitulo-05-03",
+        "ev.histos.f4.capitulo-05-04"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.histos.closure",
+      "kind": "method",
+      "label": "Criterios de cierre completo y funcional",
+      "summary": "Define cierre por autonomía de φ₂ con criterios de arco, S, α/Δ, P(Hijos), relación con el mediador y tolerancia a la reducción/cese de sesiones; distingue cierre completo, funcional y seguimiento.",
+      "evidence": [
+        "ev.histos.f4.capitulo-06-01",
+        "ev.histos.f4.capitulo-06-04"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.histos.prometeo_handoff",
+      "kind": "method",
+      "label": "Interfaz HISTOS → Prometeo",
+      "summary": "Con consentimiento, extrae P(Hijos), α, S, momento del arco y bloqueos del expediente como información cualitativa de segundo nivel para Prometeo; declara que no reemplaza evidencia documental y prescribe coordinación para evitar contaminación.",
+      "evidence": [
+        "ev.histos.f4.capitulo-06-02"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.histos.referral",
+      "kind": "method",
+      "label": "Criterios de derivación y límites honestos",
+      "summary": "Suspende o deriva ante riesgo suicida, psicosis, descompensación, violencia, trauma no respondiente, depresión clínica, trastornos de alimentación, consumo u otras condiciones fuera del alcance, con receptores y acciones sugeridas.",
+      "evidence": [
+        "ev.histos.f4.capitulo-06-03",
+        "ev.histos.f4.capitulo-06-04"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.histos.group",
+      "kind": "method",
+      "label": "Bloque VII · modalidad grupal de HISTOS",
+      "summary": "Adapta encuadre, arco y acompañamiento a grupos; distingue trabajo con individuos en grupo de trabajo con ego colectivo y usa resonancia entre pares e imagen institucional como recursos del campo.",
+      "evidence": [
+        "ev.histos.f4.capitulo-07-01",
+        "ev.histos.f4.capitulo-07-02",
+        "ev.histos.f4.capitulo-07-03",
+        "ev.histos.f4.capitulo-07-04"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.histos.educational_field_claim",
+      "kind": "formulation",
+      "label": "Programa ECO Telesecundaria 468 como evidencia de campo",
+      "role": "authorial_field_evidence_claim",
+      "content": {
+        "epistemic_status": "observational_field_claim_pending_empirical_validation",
+        "summary": "La obra presenta un programa educativo de diez sesiones como primera instancia documentada y base empírica del protocolo grupal; reconoce que no es informe técnico, carece de seguimiento longitudinal y usa observación/autoinforme/docentes como evidencia principal."
+      },
+      "summary": "HISTOS atribuye al programa educativo capacidad demostrativa para la modalidad grupal, aunque la propia obra reconoce diseño observacional, falta de seguimiento longitudinal y ausencia de indicadores estructurados equivalentes al expediente individual.",
+      "evidence": [
+        "ev.histos.f4.capitulo-07-02"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.histos.collective_process",
+      "kind": "method",
+      "label": "Ego colectivo como objeto del proceso",
+      "summary": "Aplica ejes SDO, P(Hijos) y arco de cinco momentos al ego colectivo institucional; usa D-1 colectivo como condición de entrada y distingue cambio genuino colectivo de respuesta a presión externa.",
+      "evidence": [
+        "ev.histos.f4.capitulo-07-04"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.histos.system_coherence_claim",
+      "kind": "formulation",
+      "label": "Coherencia interinstrumental como mecanismo de verificación",
+      "role": "authorial_validity_claim",
+      "content": {
+        "epistemic_status": "internal_crosscheck_claim_not_independent_validation"
+      },
+      "summary": "La obra presenta convergencia/divergencia entre ECO, re-localización HISTOS, S/Δ y Prometeo como mecanismo de verificación y aprendizaje; las rutas comparten constructos y operadores, por lo que no constituyen validación independiente por sí mismas.",
+      "evidence": [
+        "ev.histos.f4.capitulo-p-2"
+      ],
+      "evidence_status": "explicit"
     }
   ],
   "relations": [
@@ -30673,6 +31482,206 @@
       "evidence_status": "explicit",
       "evidence": [
         "ev.eco.f4.90-apendices"
+      ]
+    },
+    {
+      "id": "rel.histos.instrument.requires_eco",
+      "type": "requires",
+      "from": "method.histos.instrument",
+      "to": "method.eco.instrument",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.histos.f4.capitulo-p-1",
+        "ev.histos.f4.capitulo-p-4"
+      ]
+    },
+    {
+      "id": "rel.histos.handoff.uses_p_hijos",
+      "type": "uses",
+      "from": "method.histos.eco_handoff",
+      "to": "formal.eco.p_hijos",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.histos.f4.capitulo-p-2",
+        "ev.histos.f4.capitulo-01-01"
+      ]
+    },
+    {
+      "id": "rel.histos.handoff.uses_sdo",
+      "type": "uses",
+      "from": "method.histos.eco_handoff",
+      "to": "method.sdo.localization",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.histos.f4.capitulo-p-2",
+        "ev.histos.f4.capitulo-01-01"
+      ]
+    },
+    {
+      "id": "rel.histos.relocalization.adapts_sdo",
+      "type": "adapts",
+      "from": "method.histos.dynamic_relocalization",
+      "to": "method.sdo.localization",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.histos.f4.capitulo-05-01",
+        "ev.histos.f4.capitulo-05-04"
+      ],
+      "rationale": "HISTOS declara usar el SDO dinámicamente entre sesiones, pero su re-localización ligera no equivale a una nueva administración SDO/ECO validada."
+    },
+    {
+      "id": "rel.histos.alpha.reframes_mci",
+      "type": "reframes",
+      "from": "formal.histos.alpha_levels",
+      "to": "formal.mci.alpha",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.histos.f4.capitulo-04-02",
+        "ev.histos.f4.capitulo-05-03"
+      ],
+      "rationale": "La obra vincula los seis niveles de sesión con α de Prometeo, pero los intervalos y observaciones no están metrológicamente identificados con el parámetro formal."
+    },
+    {
+      "id": "rel.histos.delta.reframes_mci",
+      "type": "reframes",
+      "from": "formulation.histos.delta_qualitative",
+      "to": "formal.mci.delta",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.histos.f4.capitulo-04-02",
+        "ev.histos.f4.capitulo-05-03"
+      ],
+      "rationale": "HISTOS conserva Δ=R*−α como referencia y usa “movimiento de Δ” sin calcular R*; la equivalencia formal no puede asumirse."
+    },
+    {
+      "id": "rel.histos.tracking.claims_s",
+      "type": "claims_to_measure",
+      "from": "formulation.histos.s_delta_tracking",
+      "to": "formal.mci.S",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.histos.f4.capitulo-05-03"
+      ],
+      "rationale": "La estimación de S surge del juicio del mediador sobre idiosincrasia, no del procedimiento formal/calibrado de Prometeo."
+    },
+    {
+      "id": "rel.histos.tracking.claims_delta",
+      "type": "claims_to_measure",
+      "from": "formulation.histos.s_delta_tracking",
+      "to": "formal.mci.delta",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.histos.f4.capitulo-05-03"
+      ],
+      "rationale": "El indicador cualitativo de asunción no es automáticamente la magnitud formal Δ."
+    },
+    {
+      "id": "rel.histos.trauma.refines_sdo",
+      "type": "refines",
+      "from": "method.histos.trauma_protocol",
+      "to": "formulation.sdo.trauma",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.histos.f4.capitulo-04-03"
+      ],
+      "rationale": "HISTOS desarrolla un protocolo aplicado sobre la formulación SDO de trauma; no valida clínica ni causalmente esa reformulación."
+    },
+    {
+      "id": "rel.histos.aego.applies_sdo",
+      "type": "applies",
+      "from": "method.histos.aego_protocol",
+      "to": "formulation.aego.sdo",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.histos.f4.capitulo-04-06"
+      ]
+    },
+    {
+      "id": "rel.histos.prometeo.informs_s",
+      "type": "claims_to_inform",
+      "from": "method.histos.prometeo_handoff",
+      "to": "formal.mci.S",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.histos.f4.capitulo-06-02"
+      ],
+      "rationale": "La propia obra califica S del expediente como estimación cualitativa de segundo nivel."
+    },
+    {
+      "id": "rel.histos.prometeo.informs_alpha",
+      "type": "claims_to_inform",
+      "from": "method.histos.prometeo_handoff",
+      "to": "formal.mci.alpha",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.histos.f4.capitulo-06-02"
+      ],
+      "rationale": "α del expediente es cualitativo y por acto/dominio; su uso en Prometeo requiere adjudicación y validación."
+    },
+    {
+      "id": "rel.histos.prometeo.informs_delta",
+      "type": "claims_to_inform",
+      "from": "method.histos.prometeo_handoff",
+      "to": "formal.mci.delta",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.histos.f4.capitulo-06-02"
+      ],
+      "rationale": "La obra propone usar evolución de asunción para refinar Δ, pero no prueba equivalencia ni independencia del dato."
+    },
+    {
+      "id": "rel.histos.group.extends_eco_collective",
+      "type": "extends",
+      "from": "method.histos.group",
+      "to": "method.eco.collective",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.histos.f4.capitulo-07-01",
+        "ev.histos.f4.capitulo-07-04"
+      ],
+      "rationale": "HISTOS toma la localización colectiva de ECO y la convierte en acompañamiento longitudinal; la continuidad doctrinal no valida el constructo colectivo."
+    },
+    {
+      "id": "rel.histos.collective.applies_eco_collective",
+      "type": "operationalizes",
+      "from": "method.histos.collective_process",
+      "to": "method.eco.collective",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.histos.f4.capitulo-07-04"
+      ],
+      "rationale": "La aplicación del arco al ego colectivo presupone la identificación colectiva auditada en ECO, que permanece pendiente de validación."
+    },
+    {
+      "id": "rel.histos.field_claim.supports_group",
+      "type": "supports_claim",
+      "from": "formulation.histos.educational_field_claim",
+      "to": "method.histos.group",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.histos.f4.capitulo-07-02"
+      ]
+    },
+    {
+      "id": "rel.histos.scope.qualifies_instrument",
+      "type": "qualifies",
+      "from": "formulation.histos.nonclinical_scope",
+      "to": "method.histos.instrument",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.histos.f4.capitulo-p-1",
+        "ev.histos.f4.capitulo-06-03",
+        "ev.histos.f4.capitulo-06-04"
+      ]
+    },
+    {
+      "id": "rel.histos.coherence.qualifies_outputs",
+      "type": "qualifies",
+      "from": "formulation.histos.system_coherence_claim",
+      "to": "method.histos.instrument",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.histos.f4.capitulo-p-2"
       ]
     }
   ],
@@ -39413,6 +40422,438 @@
         "review.eco.localization_vigency",
         "review.eco.interrater_reliability"
       ]
+    },
+    {
+      "id": "route.histos.scope_architecture",
+      "purpose": "Explicar definición, posición sistémica, perfiles, condiciones y límites de HISTOS.",
+      "triggers": [
+        "HISTOS",
+        "qué es Histos",
+        "acompañamiento ontológico",
+        "validez Histos"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.histos.f4.capitulo-p-1",
+          "reason": "Define instrumento y límites."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.histos.f4.capitulo-p-2",
+          "reason": "Sitúa entradas/salidas y cruces."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.histos.f4.capitulo-p-3",
+          "reason": "Distribuye perfiles."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.histos.f4.capitulo-p-4",
+          "reason": "Fija condiciones autorales de validez."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.histos.f4.capitulo-06-04",
+          "reason": "Explicita límites negativos."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.histos.replicability",
+        "review.histos.validity_conditions",
+        "review.histos.training_thresholds",
+        "review.histos.eco_calibration_claim",
+        "review.histos.system_coherence",
+        "review.histos.editorial_notation",
+        "review.sdo.clinical_boundary"
+      ]
+    },
+    {
+      "id": "route.histos.session_inputs",
+      "purpose": "Auditar anatomía de sesión, lectura de ECO, re-localización inicial, encuadre y expediente.",
+      "triggers": [
+        "sesión Histos",
+        "Capa 0",
+        "relocalización inicial",
+        "expediente ontológico"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.histos.f4.capitulo-p-5",
+          "reason": "Define seis momentos de sesión."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.histos.f4.capitulo-01-01",
+          "reason": "Lee P(Hijos), ejes y orientaciones."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.histos.f4.capitulo-01-02",
+          "reason": "Verifica actualidad de ECO."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.histos.f4.capitulo-01-03",
+          "reason": "Construye encuadre."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.histos.f4.capitulo-01-04",
+          "reason": "Construye expediente longitudinal."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.histos.session_structure",
+        "review.histos.eco_calibration_claim",
+        "review.histos.expediente_measurement",
+        "review.eco.histos_handoff",
+        "review.eco.interrater_reliability",
+        "review.eco.nonlabel_transparency"
+      ]
+    },
+    {
+      "id": "route.histos.arc",
+      "purpose": "Auditar los cinco momentos del arco y sus criterios de transición.",
+      "triggers": [
+        "M1 Histos",
+        "M2 Histos",
+        "M3 Histos",
+        "M4 Histos",
+        "M5 Histos",
+        "arco Histos"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.histos.f4.capitulo-02-01",
+          "reason": "Capítulo 1 del Bloque II."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.histos.f4.capitulo-02-02",
+          "reason": "Capítulo 2 del Bloque II."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.histos.f4.capitulo-02-03",
+          "reason": "Capítulo 3 del Bloque II."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.histos.f4.capitulo-02-04",
+          "reason": "Capítulo 4 del Bloque II."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.histos.f4.capitulo-02-05",
+          "reason": "Capítulo 5 del Bloque II."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.histos.f4.capitulo-02-06",
+          "reason": "Capítulo 6 del Bloque II."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.histos.f4.capitulo-02-07",
+          "reason": "Capítulo 7 del Bloque II."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.histos.arc_construct",
+        "review.histos.change_attribution",
+        "review.histos.session_structure"
+      ]
+    },
+    {
+      "id": "route.histos.children",
+      "purpose": "Auditar protocolos diferenciados por Hijo dominante y asociaciones con ejes.",
+      "triggers": [
+        "Fobos Histos",
+        "Deimos Histos",
+        "Anteros Histos",
+        "Potós Histos",
+        "Eros Histos",
+        "Harmonía Histos"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.histos.f4.capitulo-03-01",
+          "reason": "Capítulo 1 del Bloque III."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.histos.f4.capitulo-03-02",
+          "reason": "Capítulo 2 del Bloque III."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.histos.f4.capitulo-03-03",
+          "reason": "Capítulo 3 del Bloque III."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.histos.f4.capitulo-03-04",
+          "reason": "Capítulo 4 del Bloque III."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.histos.f4.capitulo-03-05",
+          "reason": "Capítulo 5 del Bloque III."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.histos.f4.capitulo-03-06",
+          "reason": "Capítulo 6 del Bloque III."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.histos.f4.capitulo-03-07",
+          "reason": "Capítulo 7 del Bloque III."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.histos.child_protocol_efficacy",
+        "review.histos.child_axis_association",
+        "review.sdo.children_weight_calibration",
+        "review.eco.p_hijos_semantics"
+      ]
+    },
+    {
+      "id": "route.histos.phi2_blockages",
+      "purpose": "Auditar trabajo de asunción, α/Δ y protocolos de bloqueo.",
+      "triggers": [
+        "trabajo de Δ Histos",
+        "alpha Histos",
+        "trauma Histos",
+        "Aego Histos",
+        "bloqueo phi2"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.histos.f4.capitulo-04-01",
+          "reason": "Capítulo 1 del Bloque IV."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.histos.f4.capitulo-04-02",
+          "reason": "Capítulo 2 del Bloque IV."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.histos.f4.capitulo-04-03",
+          "reason": "Capítulo 3 del Bloque IV."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.histos.f4.capitulo-04-04",
+          "reason": "Capítulo 4 del Bloque IV."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.histos.f4.capitulo-04-05",
+          "reason": "Capítulo 5 del Bloque IV."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.histos.f4.capitulo-04-06",
+          "reason": "Capítulo 6 del Bloque IV."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.histos.alpha_scale",
+        "review.histos.delta_semantics",
+        "review.histos.s_qualitative",
+        "review.histos.change_attribution",
+        "review.histos.trauma_scope",
+        "review.histos.trauma_protocol",
+        "review.histos.aego_scope",
+        "review.mci.alpha_calibration",
+        "review.mci.alpha_observability",
+        "review.mci.delta_crosswork"
+      ]
+    },
+    {
+      "id": "route.histos.tracking",
+      "purpose": "Auditar re-localización dinámica y S/Δ como indicadores longitudinales.",
+      "triggers": [
+        "seguimiento Histos",
+        "S cualitativa",
+        "Δ cualitativo",
+        "relocalización intersesión"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.histos.f4.capitulo-05-01",
+          "reason": "Capítulo 1 del Bloque V."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.histos.f4.capitulo-05-02",
+          "reason": "Capítulo 2 del Bloque V."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.histos.f4.capitulo-05-03",
+          "reason": "Capítulo 3 del Bloque V."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.histos.f4.capitulo-05-04",
+          "reason": "Capítulo 4 del Bloque V."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.histos.dynamic_relocalization",
+        "review.histos.expediente_measurement",
+        "review.histos.s_qualitative",
+        "review.histos.delta_semantics",
+        "review.histos.change_attribution",
+        "review.sdo.coding_reproducibility"
+      ]
+    },
+    {
+      "id": "route.histos.closure",
+      "purpose": "Auditar criterios de cierre y límites del instrumento.",
+      "triggers": [
+        "cierre Histos",
+        "cierre funcional",
+        "cierre completo",
+        "seguimiento post Histos"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.histos.f4.capitulo-06-01",
+          "reason": "Define cierre completo/funcional."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.histos.f4.capitulo-06-04",
+          "reason": "Delimita lo que el instrumento puede/no puede producir."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.histos.closure_criteria",
+        "review.histos.change_attribution",
+        "review.histos.validity_conditions"
+      ]
+    },
+    {
+      "id": "route.histos.prometeo",
+      "purpose": "Auditar transferencia del expediente HISTOS a Prometeo y riesgo de contaminación.",
+      "triggers": [
+        "Histos Prometeo",
+        "expediente Histos Prometeo",
+        "S alpha delta Histos"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.histos.f4.capitulo-06-02",
+          "reason": "Define interfaz, consentimiento, extracción y operación paralela."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.histos.prometeo_independence",
+        "review.histos.alpha_scale",
+        "review.histos.delta_semantics",
+        "review.histos.s_qualitative",
+        "review.histos.system_coherence",
+        "review.mci.alpha_observability",
+        "review.mci.delta_crosswork",
+        "review.tf.consent_confidentiality"
+      ]
+    },
+    {
+      "id": "route.histos.referral",
+      "purpose": "Auditar derivación, seguridad y frontera clínica/jurídica.",
+      "triggers": [
+        "derivación Histos",
+        "seguridad Histos",
+        "suicidio Histos",
+        "trauma derivación"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.histos.f4.capitulo-06-03",
+          "reason": "Define derivación urgente/no urgente y receptores."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.histos.f4.capitulo-06-04",
+          "reason": "Explicita límites constitutivos."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.histos.referral_scope",
+        "review.histos.trauma_scope",
+        "review.histos.aego_scope",
+        "review.tf.eco_clinical_safety",
+        "review.eco.referral_criteria",
+        "review.sdo.clinical_boundary"
+      ]
+    },
+    {
+      "id": "route.histos.group",
+      "purpose": "Auditar modalidad grupal y ego colectivo en proceso.",
+      "triggers": [
+        "Histos grupal",
+        "ego colectivo Histos",
+        "mediación grupal"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.histos.f4.capitulo-07-01",
+          "reason": "Define modalidad grupal."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.histos.f4.capitulo-07-03",
+          "reason": "Desarrolla adaptaciones operativas."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.histos.f4.capitulo-07-04",
+          "reason": "Aplica arco/ejes al ego colectivo."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.histos.group_validity",
+        "review.histos.collective_construct",
+        "review.histos.collective_crosswork",
+        "review.eco.collective_aggregation_validity",
+        "review.eco.collective_sovereign_identification"
+      ]
+    },
+    {
+      "id": "route.histos.field_evidence",
+      "purpose": "Auditar el Programa ECO en Telesecundaria 468 como evidencia de campo declarada.",
+      "triggers": [
+        "Telesecundaria 468 Histos",
+        "evidencia de campo Histos",
+        "Programa ECO"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.histos.f4.capitulo-07-02",
+          "reason": "Describe diseño, observaciones, límites y lecciones atribuidas al programa."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.histos.educational_field_evidence",
+        "review.histos.group_validity",
+        "review.histos.change_attribution"
+      ]
     }
   ],
   "review_queue": [
@@ -42307,7 +43748,9 @@
         "ev.sdo.f4.viii-1",
         "ev.eco.f4.capitulo-p-1",
         "ev.eco.f4.capitulo-p-2",
-        "ev.eco.f4.b-ii-i"
+        "ev.eco.f4.b-ii-i",
+        "ev.histos.f4.capitulo-04-02",
+        "ev.histos.f4.capitulo-05-03"
       ],
       "why_not_auto_resolved": "La escala combina niveles ontológicos y clínicos sin instrumento validado. MC-I fija una escala y reconoce a la vez que α no es directamente observable."
     },
@@ -42791,7 +44234,9 @@
         "ev.tf.52.origin_b",
         "ev.tf.52.alpha_work",
         "ev.eco.f4.capitulo-p-1",
-        "ev.eco.f4.bloque-iv-05"
+        "ev.eco.f4.bloque-iv-05",
+        "ev.histos.f4.capitulo-04-03",
+        "ev.histos.f4.capitulo-06-03"
       ],
       "why_not_auto_resolved": "Se ofrecen protocolos clínicos sin evidencia de validación, cualificación o evaluación de daño."
     },
@@ -42810,7 +44255,10 @@
         "ev.tf.52.ethics_confidentiality",
         "ev.eco.f4.capitulo-p-3",
         "ev.eco.f4.bloque-iv-04",
-        "ev.eco.f4.bloque-iv-05"
+        "ev.eco.f4.bloque-iv-05",
+        "ev.histos.f4.capitulo-01-03",
+        "ev.histos.f4.capitulo-06-02",
+        "ev.histos.f4.capitulo-06-03"
       ],
       "why_not_auto_resolved": "La obra enuncia límites éticos pero no define gobernanza, acceso ni conflicto institucional."
     },
@@ -42828,7 +44276,9 @@
         "ev.tf.43.limits",
         "ev.tf.52.feedback",
         "ev.eco.f4.bloque-iv-01",
-        "ev.eco.f4.bloque-iv-04"
+        "ev.eco.f4.bloque-iv-04",
+        "ev.histos.f4.capitulo-01-03",
+        "ev.histos.f4.capitulo-p-5"
       ],
       "why_not_auto_resolved": "La relación funcional convive con una tesis explícita de libertad irreductible."
     },
@@ -43776,7 +45226,9 @@
         "ev.sdo.f4.vii-1",
         "ev.sdo.f4.vii-3",
         "ev.eco.f4.capitulo-p-2",
-        "ev.eco.f4.b-ii-i"
+        "ev.eco.f4.b-ii-i",
+        "ev.histos.f4.capitulo-04-02",
+        "ev.histos.f4.capitulo-05-03"
       ],
       "why_not_auto_resolved": "Los valores se presentan como escala operativa, pero no hay estudio de fiabilidad, validez ni función de enlace a observables. Las rutas y conversiones añaden reglas operativas no validadas y una suma máxima de .99. Los anclajes posteriores siguen sin datos de calibración."
     },
@@ -43799,7 +45251,10 @@
         "ev.sdo.f4.viii-2",
         "ev.eco.f4.capitulo-p-1",
         "ev.eco.f4.capitulo-p-2",
-        "ev.eco.f4.b-ii-i"
+        "ev.eco.f4.b-ii-i",
+        "ev.histos.f4.capitulo-04-02",
+        "ev.histos.f4.capitulo-05-03",
+        "ev.histos.f4.capitulo-06-02"
       ],
       "why_not_auto_resolved": "MC-I reconoce que α no es observable y que la narrativa puede imitar integración; ECO se propone como mejor aproximación sin validación independiente. MC-II afirma observación directa de φ₂ sin estudio que adjudique la restricción previa de MC-I."
     },
@@ -43822,7 +45277,10 @@
         "ev.mcii.a.conversion",
         "ev.calc.e.core",
         "ev.sdo.f4.vii-1",
-        "ev.sdo.f4.vii-4"
+        "ev.sdo.f4.vii-4",
+        "ev.histos.f4.capitulo-04-02",
+        "ev.histos.f4.capitulo-05-03",
+        "ev.histos.f4.capitulo-06-02"
       ],
       "why_not_auto_resolved": "Las expresiones tienen distinto rango y signo; MC-I reutiliza la versión de TF sin adjudicar la sustitución axiomática. MC-II preserva R*(1−α), conserva casos negativos imposibles y además introduce Δ_sesión con otra firma. El cálculo adopta explícitamente Δ=R*−α, nueva versión histórica sin adjudicar las multiplicativas."
     },
@@ -44523,7 +45981,10 @@
         "ev.sdo.f4.viii-2",
         "ev.eco.f4.capitulo-p-1",
         "ev.eco.f4.capitulo-p-3",
-        "ev.eco.f4.b-ii-i"
+        "ev.eco.f4.b-ii-i",
+        "ev.histos.f4.capitulo-p-1",
+        "ev.histos.f4.capitulo-p-5",
+        "ev.histos.f4.capitulo-04-02"
       ],
       "why_not_auto_resolved": "MC-II afirma observación directa donde MC-I restringe la inferencia y no aporta fiabilidad ni validez del instrumento."
     },
@@ -46427,7 +47888,9 @@
         "ev.eco.f4.capitulo-p-3",
         "ev.eco.f4.capitulo-p-4",
         "ev.eco.f4.capitulo-p-5",
-        "ev.eco.f4.b-ii-i"
+        "ev.eco.f4.b-ii-i",
+        "ev.histos.f4.capitulo-01-02",
+        "ev.histos.f4.capitulo-05-01"
       ],
       "why_not_auto_resolved": "Hay procedimiento y certeza, pero no estudio de concordancia, test-retest ni adjudicación independiente."
     },
@@ -46527,7 +47990,9 @@
         "ev.sdo.f4.vii-2",
         "ev.eco.f4.capitulo-p-4",
         "ev.eco.f4.b-i-f",
-        "ev.eco.f4.b-i-h"
+        "ev.eco.f4.b-i-h",
+        "ev.histos.f4.capitulo-01-01",
+        "ev.histos.f4.capitulo-05-01"
       ],
       "why_not_auto_resolved": "Los pesos se infieren por juicio contextual sin calibración, error ni concordancia."
     },
@@ -46548,7 +48013,10 @@
         "ev.sdo.f4.vii-4",
         "ev.sdo.f4.viii-2",
         "ev.eco.f4.capitulo-p-1",
-        "ev.eco.f4.bloque-iv-05"
+        "ev.eco.f4.bloque-iv-05",
+        "ev.histos.f4.capitulo-p-1",
+        "ev.histos.f4.capitulo-04-03",
+        "ev.histos.f4.capitulo-06-03"
       ],
       "why_not_auto_resolved": "La delimitación es explícita, pero persisten lenguaje e inferencias de alcance clínico o cuasi-clínico."
     },
@@ -46629,7 +48097,9 @@
       "evidence": [
         "ev.eco.f4.capitulo-p-1",
         "ev.eco.f4.capitulo-p-4",
-        "ev.eco.f4.capitulo-p-5"
+        "ev.eco.f4.capitulo-p-5",
+        "ev.histos.f4.capitulo-01-01",
+        "ev.histos.f4.capitulo-p-2"
       ],
       "why_not_auto_resolved": "La notación P y el lenguaje de probabilidad conviven con asignación por juicio EP y normalización forzada; el estatuto probabilístico no queda identificado."
     },
@@ -46646,7 +48116,10 @@
       "evidence": [
         "ev.eco.f4.capitulo-p-1",
         "ev.eco.f4.capitulo-p-3",
-        "ev.eco.f4.capitulo-p-4"
+        "ev.eco.f4.capitulo-p-4",
+        "ev.histos.f4.capitulo-p-1",
+        "ev.histos.f4.capitulo-p-5",
+        "ev.histos.f4.capitulo-05-01"
       ],
       "why_not_auto_resolved": "La replicabilidad se declara como propiedad del instrumento, pero la fuente no aporta estudio de concordancia, estabilidad o error del operador."
     },
@@ -46711,7 +48184,8 @@
       ],
       "evidence": [
         "ev.eco.f4.b-iii-1",
-        "ev.eco.f4.b-iii-2"
+        "ev.eco.f4.b-iii-2",
+        "ev.histos.f4.capitulo-07-04"
       ],
       "why_not_auto_resolved": "La regla de tres fuentes y el constructo de proximidad se prescriben sin criterio externo que identifique φ₂ colectivo."
     },
@@ -46759,7 +48233,8 @@
         "collective_application"
       ],
       "evidence": [
-        "ev.eco.f4.b-iii-3"
+        "ev.eco.f4.b-iii-3",
+        "ev.histos.f4.capitulo-07-04"
       ],
       "why_not_auto_resolved": "La obra rechaza promedio/moda por razones ontológicas y luego usa una media ponderada con ajustes discrecionales; faltan propiedades de agregación y validación del constructo colectivo."
     },
@@ -46821,7 +48296,8 @@
       "evidence": [
         "ev.eco.f4.bloque-iv-01",
         "ev.eco.f4.bloque-iv-02",
-        "ev.eco.f4.bloque-iv-04"
+        "ev.eco.f4.bloque-iv-04",
+        "ev.histos.f4.capitulo-01-03"
       ],
       "why_not_auto_resolved": "La obra justifica el no-etiquetado ontológicamente y ofrece respuestas parciales si el sujeto pregunta, pero no fija un régimen de acceso, documentación y revisión por el sujeto."
     },
@@ -46837,7 +48313,8 @@
         "legal_application"
       ],
       "evidence": [
-        "ev.eco.f4.bloque-iv-05"
+        "ev.eco.f4.bloque-iv-05",
+        "ev.histos.f4.capitulo-06-03"
       ],
       "why_not_auto_resolved": "La obra incluye señales y acciones de alto impacto —suicidio, psicosis, manía, trauma, duelo prolongado, violencia y terapias nominadas— sin aparato normativo o clínico verificable en el corpus."
     },
@@ -46868,9 +48345,434 @@
         "crosswork_consistency"
       ],
       "evidence": [
-        "ev.eco.f4.bloque-iv-04"
+        "ev.eco.f4.bloque-iv-04",
+        "ev.histos.f4.capitulo-p-1",
+        "ev.histos.f4.capitulo-p-2",
+        "ev.histos.f4.capitulo-p-4",
+        "ev.histos.f4.capitulo-01-01"
       ],
       "why_not_auto_resolved": "Las condiciones de transferencia y las consecuencias por código se presentan como protocolo de intervención; su eficacia y necesidad deberán contrastarse con Histos y evidencia de aplicación."
+    },
+    {
+      "id": "review.histos.replicability",
+      "subject": "method.histos.instrument",
+      "question": "¿Qué concordancia inter-mediador, estabilidad temporal y sensibilidad al estilo sostienen que la estructura longitudinal de HISTOS sea replicable?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "instrument_validation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-p-1",
+        "ev.histos.f4.capitulo-p-5"
+      ],
+      "why_not_auto_resolved": "La obra identifica estructura enseñable/supervisable con replicabilidad, pero no aporta estudio de concordancia, test-retest ni error del operador."
+    },
+    {
+      "id": "review.histos.validity_conditions",
+      "subject": "method.histos.validity_conditions",
+      "question": "¿Qué evidencia permite llamar “condiciones de validez” —y conjuntamente necesarias— a formación, ECO y encuadre?",
+      "status": "pending_methodological_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "instrument_validation"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-p-4"
+      ],
+      "why_not_auto_resolved": "Las condiciones se justifican desde la arquitectura del sistema, no mediante contraste de administraciones con/sin cada condición."
+    },
+    {
+      "id": "review.histos.training_thresholds",
+      "subject": "method.histos.validity_conditions",
+      "question": "¿Qué valida un caso completo supervisado como mínimo, las distribuciones de bloques por perfil y otras exigencias formativas publicadas?",
+      "status": "pending_source_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "training_standard",
+        "instrument_validation"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-p-3",
+        "ev.histos.f4.capitulo-p-4"
+      ],
+      "why_not_auto_resolved": "Los umbrales y perfiles son estándares autorales sin estudio de competencia, curva de aprendizaje o fuente externa."
+    },
+    {
+      "id": "review.histos.session_structure",
+      "subject": "method.histos.session_cycle",
+      "question": "¿Qué valida los seis momentos de sesión, su orden causal/ontológico y la regla de suspender M·2–M·6 cuando D-1 no está activa?",
+      "status": "pending_methodological_review",
+      "blocking": false,
+      "blocking_for": [
+        "intervention_application",
+        "instrument_validation"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-p-5"
+      ],
+      "why_not_auto_resolved": "El árbol de navegación prescribe una secuencia y consecuencias de intervención sin comparación con alternativas ni criterio independiente de resultado."
+    },
+    {
+      "id": "review.histos.eco_calibration_claim",
+      "subject": "method.histos.eco_handoff",
+      "question": "¿Con qué fundamento HISTOS llama “calibrada” a P(Hijos) y trata ECO como mapa de máxima calidad si las escalas EP/P(Hijos) siguen sin validación metrológica independiente?",
+      "status": "pending_crosswork_and_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "crosswork_consistency",
+        "metrological_validation"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-p-4",
+        "ev.histos.f4.capitulo-01-01"
+      ],
+      "why_not_auto_resolved": "La obra posterior eleva retóricamente el estatuto de un output cuya calibración quedó abierta en ECO; la repetición intertextual no resuelve esa revisión."
+    },
+    {
+      "id": "review.histos.system_coherence",
+      "subject": "formulation.histos.system_coherence_claim",
+      "question": "¿La convergencia entre ECO, HISTOS, S/Δ y Prometeo aporta validación independiente o solo consistencia interna entre instrumentos que comparten teoría, datos y operadores?",
+      "status": "pending_epistemic_and_methodological_review",
+      "blocking": false,
+      "blocking_for": [
+        "instrument_validation",
+        "crosswork_consistency"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-p-2"
+      ],
+      "why_not_auto_resolved": "La obra denomina verificación cruzada a rutas que no son independientes por diseño y comparten constructos/juicios del mediador."
+    },
+    {
+      "id": "review.histos.expediente_measurement",
+      "subject": "method.histos.expediente",
+      "question": "¿Qué autoriza comparar registros cualitativos entre sesiones “con la misma precisión” que mediciones y qué fiabilidad tiene el expediente como instrumento longitudinal?",
+      "status": "pending_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "longitudinal_application",
+        "instrument_validation"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-01-04",
+        "ev.histos.f4.capitulo-05-01"
+      ],
+      "why_not_auto_resolved": "El registro está estructurado, pero no hay escala de error, concordancia, cegamiento ni invariancia longitudinal."
+    },
+    {
+      "id": "review.histos.arc_construct",
+      "subject": "method.histos.arc",
+      "question": "¿Qué evidencia identifica los cinco momentos como posiciones reales del proceso, discrimina transiciones genuinas de performativas y sostiene su orden/relaciones?",
+      "status": "pending_empirical_and_construct_review",
+      "blocking": false,
+      "blocking_for": [
+        "intervention_application",
+        "construct_validation"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-02-01",
+        "ev.histos.f4.capitulo-02-02",
+        "ev.histos.f4.capitulo-02-03",
+        "ev.histos.f4.capitulo-02-04",
+        "ev.histos.f4.capitulo-02-05",
+        "ev.histos.f4.capitulo-02-06",
+        "ev.histos.f4.capitulo-02-07"
+      ],
+      "why_not_auto_resolved": "La obra ofrece señales y criterios internos, pero no validación externa del constructo, trayectorias observadas sistemáticamente ni comparador."
+    },
+    {
+      "id": "review.histos.child_protocol_efficacy",
+      "subject": "method.histos.child_differentiation",
+      "question": "¿Qué evidencia muestra que protocolos distintos por Hijo mejoran resultados y que un protocolo genérico es irrelevante/contraproducente según la distribución?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "intervention_application",
+        "instrument_validation"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-03-01",
+        "ev.histos.f4.capitulo-03-02",
+        "ev.histos.f4.capitulo-03-03",
+        "ev.histos.f4.capitulo-03-04",
+        "ev.histos.f4.capitulo-03-05",
+        "ev.histos.f4.capitulo-03-06",
+        "ev.histos.f4.capitulo-03-07"
+      ],
+      "why_not_auto_resolved": "La diferenciación se deriva de la teoría de Hijos y se presenta como condición de precisión sin estudio comparativo de resultados."
+    },
+    {
+      "id": "review.histos.child_axis_association",
+      "subject": "formulation.histos.child_axis_association",
+      "question": "¿Qué datos sostienen las asociaciones “estadísticas” entre Hijos y Eje E y permiten usarlas para orientar el acompañamiento?",
+      "status": "pending_source_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_validation",
+        "intervention_application"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-03-01"
+      ],
+      "why_not_auto_resolved": "La obra afirma asociación estadística y ofrece lógica ontológica, pero no muestra muestra, estimador, frecuencias ni incertidumbre."
+    },
+    {
+      "id": "review.histos.alpha_scale",
+      "subject": "formal.histos.alpha_levels",
+      "question": "¿Qué calibración y evidencia observacional sostienen seis bandas α, sus cortes numéricos y la equivalencia con asunción causal del parámetro de Prometeo?",
+      "status": "pending_metrological_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "metrological_validation",
+        "formal_application"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-04-02",
+        "ev.histos.f4.capitulo-05-03"
+      ],
+      "why_not_auto_resolved": "Los intervalos se asignan a descripciones de sesión sin datos de calibración, error, validez de criterio o correspondencia con α formal."
+    },
+    {
+      "id": "review.histos.delta_semantics",
+      "subject": "formulation.histos.delta_qualitative",
+      "question": "¿Cómo puede ser “la misma operación” que Δ=R*−α si HISTOS no calcula R* y usa Δ como trabajo/movimiento cualitativo de asunción?",
+      "status": "pending_authorial_and_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "crosswork_consistency"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-04-02",
+        "ev.histos.f4.capitulo-05-03"
+      ],
+      "why_not_auto_resolved": "La obra afirma continuidad formal mientras cambia procedimiento, observables y estatuto del resultado."
+    },
+    {
+      "id": "review.histos.s_qualitative",
+      "subject": "formulation.histos.s_delta_tracking",
+      "question": "¿Qué valida inferir S desde la pregunta de idiosincrasia y distinguir idiosincrasia del ego de patrones del Hijo/campo?",
+      "status": "pending_metrological_and_methodological_review",
+      "blocking": false,
+      "blocking_for": [
+        "metrological_validation",
+        "formal_application"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-05-03"
+      ],
+      "why_not_auto_resolved": "La respuesta del sujeto y el juicio del mediador no están calibrados contra el S formal ni contra un criterio causal independiente."
+    },
+    {
+      "id": "review.histos.change_attribution",
+      "subject": "formulation.histos.s_delta_tracking",
+      "question": "¿Qué permite atribuir a HISTOS cambios de S, Δ, ejes, P(Hijos) o vínculos observados durante el tiempo en vez de maduración, eventos externos, regresión a la media o selección?",
+      "status": "pending_causal_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "efficacy_validation",
+        "longitudinal_application"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-p-1",
+        "ev.histos.f4.capitulo-05-01",
+        "ev.histos.f4.capitulo-05-03",
+        "ev.histos.f4.capitulo-06-01"
+      ],
+      "why_not_auto_resolved": "El expediente registra co-ocurrencia temporal dentro del proceso, pero no identifica el efecto causal del acompañamiento."
+    },
+    {
+      "id": "review.histos.trauma_scope",
+      "subject": "method.histos.trauma_protocol",
+      "question": "¿Qué estatuto tienen las señales somáticas/disociativas y la “firma diagnóstica” del trauma dentro de un instrumento que niega ser clínico?",
+      "status": "pending_clinical_scope_review",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_application",
+        "safety_protocol"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-04-03",
+        "ev.histos.f4.capitulo-06-03"
+      ],
+      "why_not_auto_resolved": "La obra usa lenguaje diagnóstico y señales del sistema nervioso, a la vez que delimita HISTOS de psicoterapia/diagnóstico clínico."
+    },
+    {
+      "id": "review.histos.trauma_protocol",
+      "subject": "method.histos.trauma_protocol",
+      "question": "¿Qué evidencia sostiene el protocolo periférico-central, los criterios α para aproximarse al evento central y la afirmación de que la integración ocurrirá cuando el ego pueda sostenerlo?",
+      "status": "pending_clinical_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_application",
+        "intervention_application"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-04-03"
+      ],
+      "why_not_auto_resolved": "No se aporta ensayo, serie de casos, seguimiento o criterio clínico externo para eficacia, dosificación o seguridad del protocolo."
+    },
+    {
+      "id": "review.histos.aego_scope",
+      "subject": "method.histos.aego_protocol",
+      "question": "¿Qué valida reconocer E-6 frente a D-2/E-3, atribuir causas clínicas/estructurales y usar “fisuras” de efecto como señal de movimiento?",
+      "status": "pending_clinical_and_methodological_review",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_application",
+        "intervention_application"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-04-06"
+      ],
+      "why_not_auto_resolved": "La distinción usa señales autorales y atribuye depresión/trauma/campo como causas sin procedimiento diagnóstico o validación causal independiente."
+    },
+    {
+      "id": "review.histos.dynamic_relocalization",
+      "subject": "method.histos.dynamic_relocalization",
+      "question": "¿Qué valida frecuencias distintas de lectura, actualización P(Hijos) cada 5–10 sesiones y re-localización sin repetir ECO?",
+      "status": "pending_longitudinal_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "longitudinal_application",
+        "instrument_validation"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-05-01",
+        "ev.histos.f4.capitulo-05-02",
+        "ev.histos.f4.capitulo-05-03",
+        "ev.histos.f4.capitulo-05-04"
+      ],
+      "why_not_auto_resolved": "Las velocidades y frecuencias se prescriben sin datos longitudinales de estabilidad, sensibilidad al cambio o error de actualización."
+    },
+    {
+      "id": "review.histos.closure_criteria",
+      "subject": "method.histos.closure",
+      "question": "¿Qué valida los umbrales de cierre completo/funcional —incluidos rangos α, número de actos, P(Harmonía), ansiedad ante cierre y frecuencias de seguimiento— como indicadores de autonomía?",
+      "status": "pending_empirical_and_methodological_review",
+      "blocking": false,
+      "blocking_for": [
+        "outcome_validation",
+        "intervention_application"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-06-01"
+      ],
+      "why_not_auto_resolved": "Los criterios combinan constructos no calibrados y reglas clínicas/relacionales sin estudio de pronóstico o recaída."
+    },
+    {
+      "id": "review.histos.prometeo_independence",
+      "subject": "method.histos.prometeo_handoff",
+      "question": "¿Puede el expediente HISTOS refinar S/α/Δ de Prometeo sin introducir circularidad o contaminación cuando el acompañamiento trabaja precisamente sobre los actos/parámetros que luego se analizan?",
+      "status": "pending_formal_and_methodological_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_application",
+        "causal_validation"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-06-02"
+      ],
+      "why_not_auto_resolved": "La obra reconoce riesgo de contaminación, pero el mediador produce estimaciones y cambios que después pueden entrar al análisis del mismo actor."
+    },
+    {
+      "id": "review.histos.referral_scope",
+      "subject": "method.histos.referral",
+      "question": "¿Qué estándares clínicos/jurídicos sustentan señales, receptores, terapias nominadas, obligaciones ante riesgo y decisiones de suspender/continuar HISTOS por dominios?",
+      "status": "pending_clinical_and_legal_scope_review",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_application",
+        "legal_application",
+        "safety_protocol"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-06-03",
+        "ev.histos.f4.capitulo-06-04"
+      ],
+      "why_not_auto_resolved": "El protocolo incluye decisiones de alto impacto y recomendaciones clínicas/jurídicas que requieren fuentes, jurisdicción y competencias externas al marco ontológico."
+    },
+    {
+      "id": "review.histos.group_validity",
+      "subject": "method.histos.group",
+      "question": "¿Qué valida trasladar encuadre, arco, ejes y protocolos del individuo al grupo y atribuir a resonancia entre pares mayor eficacia que a intervención del mediador?",
+      "status": "pending_collective_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "collective_application",
+        "intervention_application"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-07-01",
+        "ev.histos.f4.capitulo-07-02",
+        "ev.histos.f4.capitulo-07-03"
+      ],
+      "why_not_auto_resolved": "La adaptación se apoya en teoría y una aplicación educativa observacional sin comparación ni identificación causal."
+    },
+    {
+      "id": "review.histos.educational_field_evidence",
+      "subject": "formulation.histos.educational_field_claim",
+      "question": "¿Qué puede inferirse realmente del Programa ECO Telesecundaria 468 sobre eficacia, generalización y causalidad de HISTOS grupal?",
+      "status": "pending_empirical_and_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_validation",
+        "educational_application"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-07-02"
+      ],
+      "why_not_auto_resolved": "La obra misma reconoce ausencia de seguimiento longitudinal, predominio de autoinforme/observación y condiciones favorables; además no incorpora aquí la documentación técnica primaria."
+    },
+    {
+      "id": "review.histos.collective_construct",
+      "subject": "method.histos.collective_process",
+      "question": "¿Qué identifica un ego colectivo, D-1/D-2 colectivo, P(Hijos) colectivo y momentos del arco como propiedades del grupo y no agregados, narrativas o presión institucional?",
+      "status": "pending_collective_agency_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "collective_application",
+        "construct_validation"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-07-04"
+      ],
+      "why_not_auto_resolved": "La aplicación traslada categorías individuales al colectivo y usa señales institucionales sin criterio externo de constitución/medición del sujeto colectivo."
+    },
+    {
+      "id": "review.histos.collective_crosswork",
+      "subject": "method.histos.collective_process",
+      "question": "¿Cómo se relaciona el ego colectivo en proceso de HISTOS con el ego soberano/proximidad a φ₂ de ECO y con las formulaciones colectivas previas de AA-IV/AA-V?",
+      "status": "pending_authorial_adjudication",
+      "blocking": false,
+      "blocking_for": [
+        "crosswork_consistency",
+        "collective_application"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-07-04",
+        "ev.eco.f4.b-iii-1",
+        "ev.eco.f4.b-iii-3"
+      ],
+      "why_not_auto_resolved": "HISTOS aplica directamente códigos individuales y arco al grupo mientras ECO identifica portador soberano y pondera miembros; la relación entre ambos modelos no está adjudicada."
+    },
+    {
+      "id": "review.histos.editorial_notation",
+      "subject": "method.histos.instrument",
+      "question": "¿Qué símbolo sustituye los múltiples “φ(cid:0)” y otros restos de codificación dañada en la fuente de HISTOS?",
+      "status": "pending_editorial_review",
+      "blocking": false,
+      "blocking_for": [
+        "editorial_cleanup"
+      ],
+      "evidence": [
+        "ev.histos.f4.capitulo-p-1",
+        "ev.histos.f4.capitulo-p-5",
+        "ev.histos.f4.capitulo-04-02"
+      ],
+      "why_not_auto_resolved": "La fuente contiene sustituciones “(cid:0)” en posiciones donde el contexto apunta a φ₂ u otros signos, lo que debe corregirse editorialmente sin alterar doctrina."
     }
   ],
   "tests": [

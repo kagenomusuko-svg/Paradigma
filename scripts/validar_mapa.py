@@ -3398,6 +3398,46 @@ def main() -> int:
             eco_surfaced={rid for route_item in routes.values() if route_item["id"].startswith("route.eco.") for rid in route_item.get("must_surface_review_items",[])}
             require(required_eco_reviews <= eco_surfaced, f"Toda revisión propia de ECO debe ser navegable; faltan {sorted(required_eco_reviews-eco_surfaced)}")
 
+
+        # Invariantes ganadas al auditar HISTOS sistemáticamente en F4.
+        if phase in {"F4", "F5", "MANT"} and "HISTOS" in works:
+            histos_structure_path = ROOT / "corpus" / "libros" / "histos" / "estructura.json"
+            require(histos_structure_path.exists(), "Falta la estructura derivada de HISTOS")
+            histos_structure = json.loads(histos_structure_path.read_text(encoding="utf-8"))
+            require(histos_structure.get("sha256") == works["HISTOS"]["sha256"], "La estructura HISTOS no corresponde a la fuente canónica")
+            require(histos_structure.get("source") == works["HISTOS"]["source"], "La ruta HISTOS no corresponde a la fuente canónica")
+            histos_segments={s["path"]:(s["start_line"],s["end_line"]) for s in histos_structure["segments"]}
+            require(len(histos_segments)==42, "HISTOS debe conservar sus 42 segmentos auditados")
+            histos_evidence=[ev for ev in evidence.values() if ev["work_id"]=="HISTOS"]
+            covered={ev["segment"] for ev in histos_evidence}
+            require(set(histos_segments) <= covered, f"La auditoría F4 de HISTOS perdió cobertura: {sorted(set(histos_segments)-covered)}")
+            require(len(histos_evidence)>=42, "HISTOS debe conservar al menos una evidencia por segmento")
+            for ev in histos_evidence:
+                require(ev["segment"] in histos_segments, f"{ev['id']}: segmento HISTOS no declarado")
+                a,b=histos_segments[ev["segment"]]; x,y=ev["source_lines"]
+                require(a <= x <= y <= b, f"{ev['id']}: rango fuera del segmento HISTOS")
+            required_histos_nodes={
+                "method.histos.instrument","formulation.histos.nonclinical_scope","method.histos.eco_handoff","method.histos.profiles","method.histos.validity_conditions","method.histos.session_cycle","method.histos.input_reading","method.histos.initial_relocalization","method.histos.expediente","method.histos.arc","formulation.histos.arc_nonsequential","method.histos.child_differentiation","formulation.histos.child_axis_association","method.histos.phi2_work","formal.histos.alpha_levels","formulation.histos.delta_qualitative","formulation.histos.s_delta_tracking","method.histos.trauma_protocol","method.histos.aego_protocol","method.histos.dynamic_relocalization","method.histos.closure","method.histos.prometeo_handoff","method.histos.referral","method.histos.group","formulation.histos.educational_field_claim","method.histos.collective_process","formulation.histos.system_coherence_claim"
+            }
+            require(required_histos_nodes <= set(nodes), f"Auditoría HISTOS incompleta: {sorted(required_histos_nodes-set(nodes))}")
+            required_histos_routes={"route.histos.scope_architecture","route.histos.session_inputs","route.histos.arc","route.histos.children","route.histos.phi2_blockages","route.histos.tracking","route.histos.closure","route.histos.prometeo","route.histos.referral","route.histos.group","route.histos.field_evidence"}
+            require(required_histos_routes <= set(routes), f"Faltan rutas F4 de HISTOS: {sorted(required_histos_routes-set(routes))}")
+            required_histos_reviews={
+                "review.histos.replicability","review.histos.validity_conditions","review.histos.training_thresholds","review.histos.session_structure","review.histos.eco_calibration_claim","review.histos.system_coherence","review.histos.expediente_measurement","review.histos.arc_construct","review.histos.child_protocol_efficacy","review.histos.child_axis_association","review.histos.alpha_scale","review.histos.delta_semantics","review.histos.s_qualitative","review.histos.change_attribution","review.histos.trauma_scope","review.histos.trauma_protocol","review.histos.aego_scope","review.histos.dynamic_relocalization","review.histos.closure_criteria","review.histos.prometeo_independence","review.histos.referral_scope","review.histos.group_validity","review.histos.educational_field_evidence","review.histos.collective_construct","review.histos.collective_crosswork","review.histos.editorial_notation"
+            }
+            require(required_histos_reviews <= set(reviews), "Deben conservarse las veintiséis revisiones abiertas creadas por HISTOS")
+            require(nodes["formal.histos.alpha_levels"]["formal_spec"].get("epistemic_status")=="authorial_session_scale_pending_metrological_and_empirical_validation", "La tabla α de HISTOS no puede promoverse a escala calibrada")
+            require(nodes["formulation.histos.educational_field_claim"].get("content",{}).get("epistemic_status")=="observational_field_claim_pending_empirical_validation", "El programa educativo no puede convertirse en eficacia validada")
+            require(nodes["formulation.histos.system_coherence_claim"].get("content",{}).get("epistemic_status")=="internal_crosscheck_claim_not_independent_validation", "La coherencia interna no puede presentarse como validación independiente")
+            inferred_histos={"rel.histos.relocalization.adapts_sdo","rel.histos.alpha.reframes_mci","rel.histos.delta.reframes_mci","rel.histos.tracking.claims_s","rel.histos.tracking.claims_delta","rel.histos.trauma.refines_sdo","rel.histos.prometeo.informs_s","rel.histos.prometeo.informs_alpha","rel.histos.prometeo.informs_delta","rel.histos.group.extends_eco_collective","rel.histos.collective.applies_eco_collective"}
+            require(all(rid in relations and relations[rid]["evidence_status"]=="inferred" and bool(relations[rid].get("rationale")) for rid in inferred_histos), "Cruces HISTOS con SDO/Prometeo/colectivo deben permanecer inferidos")
+            inherited={"review.eco.histos_handoff","review.eco.interrater_reliability","review.eco.p_hijos_semantics","review.eco.referral_criteria","review.eco.nonlabel_transparency","review.tf.eco_clinical_safety","review.tf.consent_confidentiality","review.tf.feedback_freedom","review.sdo.clinical_boundary","review.sdo.coding_reproducibility","review.sdo.children_weight_calibration","review.mci.alpha_calibration","review.mci.alpha_observability","review.mci.delta_crosswork","review.tf.alpha_measurement","review.mcii.phi2_observability","review.eco.collective_aggregation_validity","review.eco.collective_sovereign_identification"}
+            for rid in inherited:
+                require(str(reviews[rid].get("status","")).startswith("pending"), f"HISTOS no autoriza cerrar revisión heredada {rid}")
+                require(any(e.startswith("ev.histos.") for e in reviews[rid].get("evidence",[])), f"{rid} debe conservar evidencia HISTOS")
+            surfaced={rid for route_item in routes.values() if route_item["id"].startswith("route.histos.") for rid in route_item.get("must_surface_review_items",[])}
+            require(required_histos_reviews <= surfaced, f"Toda revisión propia de HISTOS debe ser navegable; faltan {sorted(required_histos_reviews-surfaced)}")
+
     print(
         "Mapa válido:",
         f"fase={phase}, schema={schema_status};",
