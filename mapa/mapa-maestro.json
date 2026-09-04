@@ -1,7 +1,7 @@
 {
-  "map_version": "2.9.0",
+  "map_version": "2.10.0",
   "schema_status": "frozen",
-  "phase": "F4",
+  "phase": "F5",
   "purpose": "Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.",
   "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 quedó cerrada con nueve obras integradas. F3 incorpora sistemáticamente La transformación formal y Axiomatización del sistema de la doble mediación, conservando sus objetos, supuestos, correspondencias, revisiones y contradicciones sin convertir teoremas autorales en resultados matemáticamente validados. La siguiente obra de F3 es Metrología Causal, volumen I.",
   "works": [
@@ -118,6 +118,12 @@
       "title": "Arquitectura ontológica de sistemas artificiales",
       "source": "corpus/fuentes/Arquitectura_Ontologica_Sistemas_Artificiales.md",
       "sha256": "220f42005a7a0a61c527c784cb0ae79786a2413450d0ed9bf36bb34cc5c99147"
+    },
+    {
+      "id": "TAXONOMIA",
+      "title": "Taxonomía General de Aplicaciones",
+      "source": "corpus/fuentes/Taxonomia_General_de_Aplicaciones.md",
+      "sha256": "3700161a587f17f4e58538165db10e3971739f20ba4d7daf7528324c93633144"
     }
   ],
   "evidence": [
@@ -13364,6 +13370,919 @@
       ],
       "section": "GLOSARIO",
       "evidence_type": "scope_or_glossary"
+    },
+    {
+      "id": "ev.taxonomia.f4.00-preliminares",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/00-preliminares.md",
+      "source_lines": [
+        1,
+        153
+      ],
+      "section": "00-preliminares",
+      "evidence_type": "scope"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-u-01",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-u-01.md",
+      "source_lines": [
+        154,
+        640
+      ],
+      "section": "U·1",
+      "evidence_type": "universal_protocol"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-u-02",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-u-02.md",
+      "source_lines": [
+        641,
+        1014
+      ],
+      "section": "U·2",
+      "evidence_type": "universal_protocol"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-u-03",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-u-03.md",
+      "source_lines": [
+        1015,
+        1464
+      ],
+      "section": "U·3",
+      "evidence_type": "universal_protocol"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-u-04",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-u-04.md",
+      "source_lines": [
+        1465,
+        1870
+      ],
+      "section": "U·4",
+      "evidence_type": "universal_protocol"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-01",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-01.md",
+      "source_lines": [
+        1871,
+        3064
+      ],
+      "section": "1",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-02",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-02.md",
+      "source_lines": [
+        3065,
+        4602
+      ],
+      "section": "2",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-03",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-03.md",
+      "source_lines": [
+        4603,
+        6314
+      ],
+      "section": "3",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-04",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-04.md",
+      "source_lines": [
+        6315,
+        7933
+      ],
+      "section": "4",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-05",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-05.md",
+      "source_lines": [
+        7934,
+        9477
+      ],
+      "section": "5",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-06",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-06.md",
+      "source_lines": [
+        9478,
+        10998
+      ],
+      "section": "6",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-07",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-07.md",
+      "source_lines": [
+        10999,
+        12417
+      ],
+      "section": "7",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-08",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-08.md",
+      "source_lines": [
+        12418,
+        13901
+      ],
+      "section": "8",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-09",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-09.md",
+      "source_lines": [
+        13902,
+        15460
+      ],
+      "section": "9",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-10",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-10.md",
+      "source_lines": [
+        15461,
+        17057
+      ],
+      "section": "10",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-11",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-11.md",
+      "source_lines": [
+        17058,
+        18509
+      ],
+      "section": "11",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-12",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-12.md",
+      "source_lines": [
+        18510,
+        20224
+      ],
+      "section": "12",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-13",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-13.md",
+      "source_lines": [
+        20225,
+        21886
+      ],
+      "section": "13",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-14",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-14.md",
+      "source_lines": [
+        21887,
+        23757
+      ],
+      "section": "14",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-15",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-15.md",
+      "source_lines": [
+        23758,
+        25154
+      ],
+      "section": "15",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-16",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-16.md",
+      "source_lines": [
+        25155,
+        26654
+      ],
+      "section": "16",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-17",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-17.md",
+      "source_lines": [
+        26655,
+        28285
+      ],
+      "section": "17",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-18",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-18.md",
+      "source_lines": [
+        28286,
+        29970
+      ],
+      "section": "18",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-19",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-19.md",
+      "source_lines": [
+        29971,
+        31954
+      ],
+      "section": "19",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-20",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-20.md",
+      "source_lines": [
+        31955,
+        33880
+      ],
+      "section": "20",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-21",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-21.md",
+      "source_lines": [
+        33881,
+        35537
+      ],
+      "section": "21",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-22",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-22.md",
+      "source_lines": [
+        35538,
+        36843
+      ],
+      "section": "22",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-23",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-23.md",
+      "source_lines": [
+        36844,
+        38233
+      ],
+      "section": "23",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-24",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-24.md",
+      "source_lines": [
+        38234,
+        39798
+      ],
+      "section": "24",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-25",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-25.md",
+      "source_lines": [
+        39799,
+        41339
+      ],
+      "section": "25",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-26",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-26.md",
+      "source_lines": [
+        41340,
+        42986
+      ],
+      "section": "26",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-27",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-27.md",
+      "source_lines": [
+        42987,
+        44772
+      ],
+      "section": "27",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-28",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-28.md",
+      "source_lines": [
+        44773,
+        46427
+      ],
+      "section": "28",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-29",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-29.md",
+      "source_lines": [
+        46428,
+        48244
+      ],
+      "section": "29",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-30",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-30.md",
+      "source_lines": [
+        48245,
+        50244
+      ],
+      "section": "30",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-31",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-31.md",
+      "source_lines": [
+        50245,
+        52127
+      ],
+      "section": "31",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-32",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-32.md",
+      "source_lines": [
+        52128,
+        54219
+      ],
+      "section": "32",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-33",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-33.md",
+      "source_lines": [
+        54220,
+        55896
+      ],
+      "section": "33",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-34",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-34.md",
+      "source_lines": [
+        55897,
+        57697
+      ],
+      "section": "34",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-35",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-35.md",
+      "source_lines": [
+        57698,
+        59243
+      ],
+      "section": "35",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-36",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-36.md",
+      "source_lines": [
+        59244,
+        61017
+      ],
+      "section": "36",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-37",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-37.md",
+      "source_lines": [
+        61018,
+        62452
+      ],
+      "section": "37",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-38",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-38.md",
+      "source_lines": [
+        62453,
+        64215
+      ],
+      "section": "38",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-39",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-39.md",
+      "source_lines": [
+        64216,
+        65983
+      ],
+      "section": "39",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-40",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-40.md",
+      "source_lines": [
+        65984,
+        67572
+      ],
+      "section": "40",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-41",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-41.md",
+      "source_lines": [
+        67573,
+        69208
+      ],
+      "section": "41",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-42",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-42.md",
+      "source_lines": [
+        69209,
+        70836
+      ],
+      "section": "42",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-43",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-43.md",
+      "source_lines": [
+        70837,
+        72224
+      ],
+      "section": "43",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-44",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-44.md",
+      "source_lines": [
+        72225,
+        73580
+      ],
+      "section": "44",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-45",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-45.md",
+      "source_lines": [
+        73581,
+        74953
+      ],
+      "section": "45",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-46",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-46.md",
+      "source_lines": [
+        74954,
+        75784
+      ],
+      "section": "46",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-47",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-47.md",
+      "source_lines": [
+        75785,
+        77012
+      ],
+      "section": "47",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-48",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-48.md",
+      "source_lines": [
+        77013,
+        77869
+      ],
+      "section": "48",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-49",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-49.md",
+      "source_lines": [
+        77870,
+        79520
+      ],
+      "section": "49",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-50",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-50.md",
+      "source_lines": [
+        79521,
+        79792
+      ],
+      "section": "50",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-51",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-51.md",
+      "source_lines": [
+        79793,
+        79992
+      ],
+      "section": "51",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-52",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-52.md",
+      "source_lines": [
+        79993,
+        80205
+      ],
+      "section": "52",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-53",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-53.md",
+      "source_lines": [
+        80206,
+        80384
+      ],
+      "section": "53",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-54",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-54.md",
+      "source_lines": [
+        80385,
+        80708
+      ],
+      "section": "54",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-55",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-55.md",
+      "source_lines": [
+        80709,
+        81434
+      ],
+      "section": "55",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-56",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-56.md",
+      "source_lines": [
+        81435,
+        81906
+      ],
+      "section": "56",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-57",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-57.md",
+      "source_lines": [
+        81907,
+        82343
+      ],
+      "section": "57",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-58",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-58.md",
+      "source_lines": [
+        82344,
+        82794
+      ],
+      "section": "58",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-59",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-59.md",
+      "source_lines": [
+        82795,
+        83926
+      ],
+      "section": "59",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-60",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-60.md",
+      "source_lines": [
+        83927,
+        84755
+      ],
+      "section": "60",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-61",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-61.md",
+      "source_lines": [
+        84756,
+        85420
+      ],
+      "section": "61",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-62",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-62.md",
+      "source_lines": [
+        85421,
+        85895
+      ],
+      "section": "62",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-63",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-63.md",
+      "source_lines": [
+        85896,
+        86405
+      ],
+      "section": "63",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-64",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-64.md",
+      "source_lines": [
+        86406,
+        86935
+      ],
+      "section": "64",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-65",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-65.md",
+      "source_lines": [
+        86936,
+        87287
+      ],
+      "section": "65",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-66",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-66.md",
+      "source_lines": [
+        87288,
+        87611
+      ],
+      "section": "66",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-67",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-67.md",
+      "source_lines": [
+        87612,
+        87965
+      ],
+      "section": "67",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-68",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-68.md",
+      "source_lines": [
+        87966,
+        88348
+      ],
+      "section": "68",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-69",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-69.md",
+      "source_lines": [
+        88349,
+        88719
+      ],
+      "section": "69",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-70",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-70.md",
+      "source_lines": [
+        88720,
+        89082
+      ],
+      "section": "70",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-71",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-71.md",
+      "source_lines": [
+        89083,
+        89461
+      ],
+      "section": "71",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-72",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-72.md",
+      "source_lines": [
+        89462,
+        89908
+      ],
+      "section": "72",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-73",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-73.md",
+      "source_lines": [
+        89909,
+        90284
+      ],
+      "section": "73",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-74",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-74.md",
+      "source_lines": [
+        90285,
+        90576
+      ],
+      "section": "74",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-75",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-75.md",
+      "source_lines": [
+        90577,
+        90891
+      ],
+      "section": "75",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-76",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-76.md",
+      "source_lines": [
+        90892,
+        91271
+      ],
+      "section": "76",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-77",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-77.md",
+      "source_lines": [
+        91272,
+        91523
+      ],
+      "section": "77",
+      "evidence_type": "domain_application"
+    },
+    {
+      "id": "ev.taxonomia.f4.capitulo-78",
+      "work_id": "TAXONOMIA",
+      "segment": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-78.md",
+      "source_lines": [
+        91524,
+        91892
+      ],
+      "section": "78",
+      "evidence_type": "domain_application"
     }
   ],
   "nodes": [
@@ -25412,6 +26331,995 @@
         "ev.aosa.f4.capitulo-07-03"
       ],
       "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.taxonomia.scope",
+      "kind": "formulation",
+      "label": "Taxonomía como protocolo general de aplicaciones",
+      "role": "authorial_scope_claim",
+      "summary": "La obra organiza un protocolo universal U·1–U·4 y después lo adapta a 78 dominios; la portabilidad documental se presenta como generalidad metodológica, no como resultado de validación comparativa entre dominios.",
+      "evidence": [
+        "ev.taxonomia.f4.00-preliminares",
+        "ev.taxonomia.f4.capitulo-u-01",
+        "ev.taxonomia.f4.capitulo-u-04"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.universal_protocol",
+      "kind": "method",
+      "label": "Protocolo Universal de Taxonomía",
+      "summary": "Secuencia autoral que articula localización documental de P(Hijos), tratamiento de evidencia contradictoria, transformación SDO→S/α/inputs Prometeo y Declaraciones por sensibilidad antes de adaptar el análisis a cada dominio.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-01",
+        "ev.taxonomia.f4.capitulo-u-02",
+        "ev.taxonomia.f4.capitulo-u-03",
+        "ev.taxonomia.f4.capitulo-u-04"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.hijos_tree",
+      "kind": "method",
+      "label": "Árbol documental del Hijo dominante",
+      "summary": "Clasifica Fobos, Deimos y Anteros como documentablemente confirmables; Potós/Eros como hipótesis de baja legibilidad; Harmonía como inaccesible desde expediente y derivable a ECO. Produce localización, hipótesis o derivación según evidencia.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-01"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.taxonomia.evidence_scale",
+      "kind": "formal_object",
+      "label": "Escala E0–E8 del Protocolo Universal",
+      "formal_spec": {
+        "symbol": "E0–E8",
+        "object_type": "authorial_evidence_weight_scale",
+        "expression": "E1 [0.75,0.95], E2 [0.55,0.75], E3 [0.40,0.60], E4 [0.35,0.55], E5 [0.30,0.50], E6 [0.25,0.45], E7 [0.15,0.35], E8 [0.05,0.20], E0=0",
+        "domain": "evidencia documental/pericial/testimonial/estadística/indiciaria",
+        "codomain": "rangos w",
+        "dependencies": [],
+        "assumptions": [
+          "los niveles conservan jerarquía entre dominios",
+          "rangos w representan comparativamente fuerza epistémica"
+        ],
+        "epistemic_status": "authorial_calibration_table_historically_inconsistent_and_uncalibrated",
+        "ontological_correspondence": "peso documental para aristas causales"
+      },
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-02"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.evidence_conflict",
+      "kind": "method",
+      "label": "Protocolo para evidencia contradictoria",
+      "summary": "Usa intersección cuando rangos se solapan; cuando no, prioriza el tipo superior y desplaza conservadoramente su rango mediante k=0.1/0.2/0.3 según contradicción leve/moderada/severa; permite Declaración D.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-02"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.taxonomia.S_route_A",
+      "kind": "formal_object",
+      "label": "Ruta A hacia S desde P(Hijos)",
+      "formal_spec": {
+        "symbol": "[S_min,S_max]_A",
+        "object_type": "authorial_weighted_interval_mapping",
+        "expression": "S_min=ΣP(H_i)S_min_i; S_max=ΣP(H_i)S_max_i",
+        "domain": "P(Hijos) y rangos S por Hijo",
+        "codomain": "intervalo S",
+        "dependencies": [
+          "formal.mci.S"
+        ],
+        "assumptions": [
+          "P(Hijos) está calibrada",
+          "rangos por Hijo son transportables",
+          "mezcla lineal preserva significado de S"
+        ],
+        "epistemic_status": "authorial_operational_mapping_pending_calibration",
+        "ontological_correspondence": "traducción de estado volitivo observado a sustituibilidad"
+      },
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-03"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.taxonomia.S_route_B",
+      "kind": "formal_object",
+      "label": "Ruta B hacia S desde determinación sistémica",
+      "formal_spec": {
+        "symbol": "DS→S",
+        "object_type": "authorial_documentary_scale_mapping",
+        "expression": "DS-1…DS-6 → rangos S desde [0.80,0.95] hasta [0.05,0.20]",
+        "domain": "protocolos, sanciones, incentivos, presión y discrecionalidad documentados",
+        "codomain": "intervalo S",
+        "dependencies": [
+          "formal.mci.S"
+        ],
+        "assumptions": [
+          "niveles DS son ordenados y calibrables",
+          "evidencia documental permite cuantificar determinación sistémica"
+        ],
+        "epistemic_status": "authorial_scale_pending_empirical_calibration",
+        "ontological_correspondence": "peso relativo del campo c frente a idiosincrasia v_t"
+      },
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-03"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.taxonomia.IIC_adjustment",
+      "kind": "formal_object",
+      "label": "Ajuste IIC de aristas estructurales",
+      "formal_spec": {
+        "symbol": "IIC→factor(w_max)",
+        "object_type": "authorial_piecewise_adjustment_rule",
+        "expression": "IIC>0.80:×1.00; 0.60–0.80:×0.85; 0.40–0.60:×0.70; <0.40:×0.55",
+        "domain": "IIC observado y aristas estructurales",
+        "codomain": "w_max ajustado",
+        "dependencies": [],
+        "assumptions": [
+          "IIC es medido de forma válida",
+          "factor multiplicativo conserva interpretación del rango"
+        ],
+        "epistemic_status": "authorial_adjustment_rule_pending_domain_calibration",
+        "ontological_correspondence": "fiabilidad causal del diseño formal del ego colectivo"
+      },
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-03"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.taxonomia.alpha_bridge",
+      "kind": "formal_object",
+      "label": "Puente α_clínico/observacional → α numérico",
+      "formal_spec": {
+        "symbol": "α",
+        "object_type": "authorial_ordinal_to_interval_mapping",
+        "expression": "negación [0,.05]; reconocimiento factual [.05,.25]; asunción parcial [.25,.55]; asunción causal [.55,.80]; integración constitutiva [.80,1]",
+        "domain": "gradaciones observacionales y señales documentales",
+        "codomain": "intervalo α",
+        "dependencies": [
+          "formal.mcii.alpha"
+        ],
+        "assumptions": [
+          "gradaciones observacionales son identificables",
+          "bandas son comparables con α formal/metrológica"
+        ],
+        "epistemic_status": "authorial_crosswork_mapping_pending_metrological_validation",
+        "ontological_correspondence": "grado de asunción/integración"
+      },
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-03"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.feedback_loop",
+      "kind": "method",
+      "label": "Retroalimentación Prometeo → revisión de inputs",
+      "summary": "Si el output se juzga inconsistente con la evidencia del caso, prescribe revisar S, α, pesos o grafo y recalcular hasta coherencia o Declaración D; el output funciona como prueba interna de coherencia de inputs.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-03"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.sensitivity",
+      "kind": "method",
+      "label": "Sensibilidad empírica y ontológica",
+      "summary": "Define un espacio de variación como producto cartesiano de pesos w, P(Hijos) y α, y clasifica robustez según si cambia el líder y la magnitud de la brecha; también admite como mínimo operativo tres escenarios.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-04"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.declarations",
+      "kind": "method",
+      "label": "Declaraciones A–D de Taxonomía",
+      "summary": "A: líder y brecha robustos; B: líder robusto con magnitudes variables; C: candidato base cuyo liderazgo cambia; D: incertidumbre insuficiente. U·4 vincula cada resultado con acciones sugeridas al foro.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-04"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.taxonomia.forum_portability",
+      "kind": "formulation",
+      "label": "Portabilidad de Declaraciones entre foros",
+      "role": "authorial_application_claim",
+      "summary": "La obra presenta las Declaraciones como producto utilizable por tribunal, consejo, equipo clínico o comité de investigación, trasladando una misma arquitectura decisional a foros heterogéneos.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-04"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_01",
+      "kind": "method",
+      "label": "Derecho penal y civil — responsabilidad individual y colectiva",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE I · Derecho y Justicia: adapta el protocolo universal al subcampo «Derecho penal y civil — responsabilidad individual y colectiva» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-01"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_02",
+      "kind": "method",
+      "label": "Derecho laboral — relaciones de poder y responsabilidad patronal",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE I · Derecho y Justicia: adapta el protocolo universal al subcampo «Derecho laboral — relaciones de poder y responsabilidad patronal» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-02"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_03",
+      "kind": "method",
+      "label": "Derecho penal internacional y crímenes de lesa humanidad",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE I · Derecho y Justicia: adapta el protocolo universal al subcampo «Derecho penal internacional y crímenes de lesa humanidad» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-03"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_04",
+      "kind": "method",
+      "label": "Derecho ambiental — responsabilidad por daño ecológico",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE I · Derecho y Justicia: adapta el protocolo universal al subcampo «Derecho ambiental — responsabilidad por daño ecológico» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-04"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_05",
+      "kind": "method",
+      "label": "Derecho de familia — responsabilidad parental y protección del menor",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE I · Derecho y Justicia: adapta el protocolo universal al subcampo «Derecho de familia — responsabilidad parental y protección del menor» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-05"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_06",
+      "kind": "method",
+      "label": "Derecho de la competencia — prácticas anticompetitivas",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE I · Derecho y Justicia: adapta el protocolo universal al subcampo «Derecho de la competencia — prácticas anticompetitivas» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-06"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_07",
+      "kind": "method",
+      "label": "Propiedad intelectual — autoría, plagio y diseño",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE I · Derecho y Justicia: adapta el protocolo universal al subcampo «Propiedad intelectual — autoría, plagio y diseño» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-07"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_08",
+      "kind": "method",
+      "label": "Responsabilidad médica — mala praxis y daño iatrogénico",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE I · Derecho y Justicia: adapta el protocolo universal al subcampo «Responsabilidad médica — mala praxis y daño iatrogénico» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-08"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_09",
+      "kind": "method",
+      "label": "Derecho tributario — evasión, elusión y fraude fiscal",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE I · Derecho y Justicia: adapta el protocolo universal al subcampo «Derecho tributario — evasión, elusión y fraude fiscal» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-09"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_10",
+      "kind": "method",
+      "label": "Arbitraje e inversión extranjera",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE I · Derecho y Justicia: adapta el protocolo universal al subcampo «Arbitraje e inversión extranjera» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-10"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_11",
+      "kind": "method",
+      "label": "Crédito y sistema financiero — fraude y colapso crediticio",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE II · Ciencias Económicas y Financieras: adapta el protocolo universal al subcampo «Crédito y sistema financiero — fraude y colapso crediticio» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-11"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_12",
+      "kind": "method",
+      "label": "Insolvencia y quiebra — responsabilidad de administradores",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE II · Ciencias Económicas y Financieras: adapta el protocolo universal al subcampo «Insolvencia y quiebra — responsabilidad de administradores» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-12"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_13",
+      "kind": "method",
+      "label": "Gobierno corporativo — responsabilidad de directivos",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE II · Ciencias Económicas y Financieras: adapta el protocolo universal al subcampo «Gobierno corporativo — responsabilidad de directivos» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-13"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_14",
+      "kind": "method",
+      "label": "Finanzas de mercado — manipulación y asimetría de información",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE II · Ciencias Económicas y Financieras: adapta el protocolo universal al subcampo «Finanzas de mercado — manipulación y asimetría de información» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-14"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_15",
+      "kind": "method",
+      "label": "Seguros — fraude, responsabilidad y valoración de siniestros",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE II · Ciencias Económicas y Financieras: adapta el protocolo universal al subcampo «Seguros — fraude, responsabilidad y valoración de siniestros» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-15"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_16",
+      "kind": "method",
+      "label": "Economía del comportamiento — sesgos sistemáticos y decisión bajo presión",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE II · Ciencias Económicas y Financieras: adapta el protocolo universal al subcampo «Economía del comportamiento — sesgos sistemáticos y decisión bajo presión» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-16"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_17",
+      "kind": "method",
+      "label": "Plataformas digitales — economía de datos y responsabilidad algorítmica",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE II · Ciencias Económicas y Financieras: adapta el protocolo universal al subcampo «Plataformas digitales — economía de datos y responsabilidad algorítmica» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-17"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_18",
+      "kind": "method",
+      "label": "Comercio internacional — cadenas de suministro y responsabilidad del comprador final",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE II · Ciencias Económicas y Financieras: adapta el protocolo universal al subcampo «Comercio internacional — cadenas de suministro y responsabilidad del comprador final» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-18"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_19",
+      "kind": "method",
+      "label": "Economía de la salud —",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE II · Ciencias Económicas y Financieras: adapta el protocolo universal al subcampo «Economía de la salud —» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-19"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_20",
+      "kind": "method",
+      "label": "Criptoeconomía y activos digitales — protocolos, exchanges y responsabilidad",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE II · Ciencias Económicas y Financieras: adapta el protocolo universal al subcampo «Criptoeconomía y activos digitales — protocolos, exchanges y responsabilidad» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-20"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_21",
+      "kind": "method",
+      "label": "Epidemiología y salud pública — causalidad a escala poblacional",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE III · Ciencias de la Salud y Biomédicas: adapta el protocolo universal al subcampo «Epidemiología y salud pública — causalidad a escala poblacional» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-21"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_22",
+      "kind": "method",
+      "label": "Oncología — causalidad en enfermedades multifactoriales",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE III · Ciencias de la Salud y Biomédicas: adapta el protocolo universal al subcampo «Oncología — causalidad en enfermedades multifactoriales» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-22"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_23",
+      "kind": "method",
+      "label": "Adicciones — responsabilidad de la industria y del sistema",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE III · Ciencias de la Salud y Biomédicas: adapta el protocolo universal al subcampo «Adicciones — responsabilidad de la industria y del sistema» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-23"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_24",
+      "kind": "method",
+      "label": "Salud mental — responsabilidad clínica y sistémica",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE III · Ciencias de la Salud y Biomédicas: adapta el protocolo universal al subcampo «Salud mental — responsabilidad clínica y sistémica» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-24"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_25",
+      "kind": "method",
+      "label": "Medicina laboral y enfermedades profesionales",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE III · Ciencias de la Salud y Biomédicas: adapta el protocolo universal al subcampo «Medicina laboral y enfermedades profesionales» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-25"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_26",
+      "kind": "method",
+      "label": "Bioética y experimentación — consentimiento y daño en investigación",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE III · Ciencias de la Salud y Biomédicas: adapta el protocolo universal al subcampo «Bioética y experimentación — consentimiento y daño en investigación» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-26"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_27",
+      "kind": "method",
+      "label": "Sistemas de salud y política sanitaria",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE III · Ciencias de la Salud y Biomédicas: adapta el protocolo universal al subcampo «Sistemas de salud y política sanitaria» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-27"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_28",
+      "kind": "method",
+      "label": "Trasplantes y donación — responsabilidad en sistemas de asignación",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE III · Ciencias de la Salud y Biomédicas: adapta el protocolo universal al subcampo «Trasplantes y donación — responsabilidad en sistemas de asignación» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-28"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_29",
+      "kind": "method",
+      "label": "Evaluación docente y responsabilidad en resultados de aprendizaje",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE IV · Educación: adapta el protocolo universal al subcampo «Evaluación docente y responsabilidad en resultados de aprendizaje» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-29"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_30",
+      "kind": "method",
+      "label": "Políticas educativas — responsabilidad sistémica",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE IV · Educación: adapta el protocolo universal al subcampo «Políticas educativas — responsabilidad sistémica» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-30"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_31",
+      "kind": "method",
+      "label": "Acoso escolar y violencia en entornos educativos",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE IV · Educación: adapta el protocolo universal al subcampo «Acoso escolar y violencia en entornos educativos» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-31"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_32",
+      "kind": "method",
+      "label": "Educación superior — responsabilidad en investigación y publicación",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE IV · Educación: adapta el protocolo universal al subcampo «Educación superior — responsabilidad en investigación y publicación» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-32"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_33",
+      "kind": "method",
+      "label": "Educación especial e inclusión",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE IV · Educación: adapta el protocolo universal al subcampo «Educación especial e inclusión» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-33"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_34",
+      "kind": "method",
+      "label": "Formación profesional y certificaciones",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE IV · Educación: adapta el protocolo universal al subcampo «Formación profesional y certificaciones» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-34"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_35",
+      "kind": "method",
+      "label": "Responsabilidad organizacional y cultura institucional — el IIC aplicado",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE V · Organizaciones y Gestión: adapta el protocolo universal al subcampo «Responsabilidad organizacional y cultura institucional — el IIC aplicado» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-35"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_36",
+      "kind": "method",
+      "label": "Gestión de proyectos — responsabilidad en retrasos y sobrecostos",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE V · Organizaciones y Gestión: adapta el protocolo universal al subcampo «Gestión de proyectos — responsabilidad en retrasos y sobrecostos» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-36"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_37",
+      "kind": "method",
+      "label": "Recursos humanos — responsabilidad en contratación, despido y discriminación",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE V · Organizaciones y Gestión: adapta el protocolo universal al subcampo «Recursos humanos — responsabilidad en contratación, despido y discriminación» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-37"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_38",
+      "kind": "method",
+      "label": "Liderazgo y decisión estratégica — responsabilidad del C-suite",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE V · Organizaciones y Gestión: adapta el protocolo universal al subcampo «Liderazgo y decisión estratégica — responsabilidad del C-suite» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-38"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_39",
+      "kind": "method",
+      "label": "Cambio organizacional — fusiones, adquisiciones y reestructuraciones",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE V · Organizaciones y Gestión: adapta el protocolo universal al subcampo «Cambio organizacional — fusiones, adquisiciones y reestructuraciones» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-39"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_40",
+      "kind": "method",
+      "label": "Innovación y emprendimiento — responsabilidad en startups y proyectos",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE V · Organizaciones y Gestión: adapta el protocolo universal al subcampo «Innovación y emprendimiento — responsabilidad en startups y proyectos» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-40"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_41",
+      "kind": "method",
+      "label": "Responsabilidad ambiental corporativa — ESG y greenwashing",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE V · Organizaciones y Gestión: adapta el protocolo universal al subcampo «Responsabilidad ambiental corporativa — ESG y greenwashing» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-41"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_42",
+      "kind": "method",
+      "label": "Historia — causalidad en procesos históricos y responsabilidad de actores",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE VI · Ciencias Sociales y Humanidades: adapta el protocolo universal al subcampo «Historia — causalidad en procesos históricos y responsabilidad de actores» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-42"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_43",
+      "kind": "method",
+      "label": "Geopolítica — responsabilidad de Estados en conflictos internacionales",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE VI · Ciencias Sociales y Humanidades: adapta el protocolo universal al subcampo «Geopolítica — responsabilidad de Estados en conflictos internacionales» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-43"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_44",
+      "kind": "method",
+      "label": "Ciencia política y procesos electorales",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE VI · Ciencias Sociales y Humanidades: adapta el protocolo universal al subcampo «Ciencia política y procesos electorales» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-44"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_45",
+      "kind": "method",
+      "label": "Sociología de las organizaciones — responsabilidad colectiva y movimientos sociales",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE VI · Ciencias Sociales y Humanidades: adapta el protocolo universal al subcampo «Sociología de las organizaciones — responsabilidad colectiva y movimientos sociales» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-45"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_46",
+      "kind": "method",
+      "label": "Antropología y comunidades indígenas — responsabilidad por daño cultural",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE VI · Ciencias Sociales y Humanidades: adapta el protocolo universal al subcampo «Antropología y comunidades indígenas — responsabilidad por daño cultural» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-46"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_47",
+      "kind": "method",
+      "label": "Literatura y análisis cultural — lectura causal de textos y procesos creativos",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE VI · Ciencias Sociales y Humanidades: adapta el protocolo universal al subcampo «Literatura y análisis cultural — lectura causal de textos y procesos creativos» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-47"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_48",
+      "kind": "method",
+      "label": "Ciberseguridad — responsabilidad en brechas y ataques",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE VII · Ingeniería y Tecnología: adapta el protocolo universal al subcampo «Ciberseguridad — responsabilidad en brechas y ataques» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-48"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_49",
+      "kind": "method",
+      "label": "Inteligencia artificial y sistemas automatizados",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE VII · Ingeniería y Tecnología: adapta el protocolo universal al subcampo «Inteligencia artificial y sistemas automatizados» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-49"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_50",
+      "kind": "method",
+      "label": "Ingeniería civil — responsabilidad en fallas de infraestructura",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE VII · Ingeniería y Tecnología: adapta el protocolo universal al subcampo «Ingeniería civil — responsabilidad en fallas de infraestructura» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-50"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_51",
+      "kind": "method",
+      "label": "Transporte — accidentes, responsabilidad de sistemas y regulación",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE VII · Ingeniería y Tecnología: adapta el protocolo universal al subcampo «Transporte — accidentes, responsabilidad de sistemas y regulación» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-51"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_52",
+      "kind": "method",
+      "label": "Energía y transición energética — responsabilidad en cambio de sistemas",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE VII · Ingeniería y Tecnología: adapta el protocolo universal al subcampo «Energía y transición energética — responsabilidad en cambio de sistemas» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-52"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_53",
+      "kind": "method",
+      "label": "Telecomunicaciones y medios — responsabilidad de plataformas y redes",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE VII · Ingeniería y Tecnología: adapta el protocolo universal al subcampo «Telecomunicaciones y medios — responsabilidad de plataformas y redes» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-53"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_54",
+      "kind": "method",
+      "label": "Diseño de productos — responsabilidad por defectos y daño al usuario",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE VII · Ingeniería y Tecnología: adapta el protocolo universal al subcampo «Diseño de productos — responsabilidad por defectos y daño al usuario» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-54"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_55",
+      "kind": "method",
+      "label": "Valoración de jugadores y distribución del éxito deportivo",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE VIII · Deporte y Rendimiento: adapta el protocolo universal al subcampo «Valoración de jugadores y distribución del éxito deportivo» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-55"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_56",
+      "kind": "method",
+      "label": "Análisis de equipos y responsabilidad del cuerpo técnico",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE VIII · Deporte y Rendimiento: adapta el protocolo universal al subcampo «Análisis de equipos y responsabilidad del cuerpo técnico» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-56"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_57",
+      "kind": "method",
+      "label": "Dopaje y sustancias prohibidas — responsabilidad individual y sistémica",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE VIII · Deporte y Rendimiento: adapta el protocolo universal al subcampo «Dopaje y sustancias prohibidas — responsabilidad individual y sistémica» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-57"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_58",
+      "kind": "method",
+      "label": "Lesiones y seguridad en el deporte — responsabilidad en el diseño de reglas",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE VIII · Deporte y Rendimiento: adapta el protocolo universal al subcampo «Lesiones y seguridad en el deporte — responsabilidad en el diseño de reglas» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-58"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_59",
+      "kind": "method",
+      "label": "Psicología clínica — responsabilidad en daño por diagnóstico y tratamiento",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE IX · Psicología y Comportamiento: adapta el protocolo universal al subcampo «Psicología clínica — responsabilidad en daño por diagnóstico y tratamiento» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-59"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_60",
+      "kind": "method",
+      "label": "Duelo y pérdida — el eje V del SDO en el contexto del análisis causal",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE IX · Psicología y Comportamiento: adapta el protocolo universal al subcampo «Duelo y pérdida — el eje V del SDO en el contexto del análisis causal» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-60"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_61",
+      "kind": "method",
+      "label": "Psicología del desarrollo — responsabilidad en daño en la infancia y adolescencia",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE IX · Psicología y Comportamiento: adapta el protocolo universal al subcampo «Psicología del desarrollo — responsabilidad en daño en la infancia y adolescencia» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-61"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_62",
+      "kind": "method",
+      "label": "Psicología forense — evaluación de imputabilidad y competencia",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE IX · Psicología y Comportamiento: adapta el protocolo universal al subcampo «Psicología forense — evaluación de imputabilidad y competencia» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-62"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_63",
+      "kind": "method",
+      "label": "Criminología — responsabilidad sistémica en el delito",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE IX · Psicología y Comportamiento: adapta el protocolo universal al subcampo «Criminología — responsabilidad sistémica en el delito» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-63"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_64",
+      "kind": "method",
+      "label": "Cambio climático — responsabilidad histórica en emisiones globales",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE X · Ciencias Naturales y Medioambiente: adapta el protocolo universal al subcampo «Cambio climático — responsabilidad histórica en emisiones globales» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-64"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_65",
+      "kind": "method",
+      "label": "Ecología y biodiversidad — responsabilidad en pérdida de ecosistemas",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE X · Ciencias Naturales y Medioambiente: adapta el protocolo universal al subcampo «Ecología y biodiversidad — responsabilidad en pérdida de ecosistemas» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-65"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_66",
+      "kind": "method",
+      "label": "Agua y suelo — contaminación y responsabilidad ambiental específica",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE X · Ciencias Naturales y Medioambiente: adapta el protocolo universal al subcampo «Agua y suelo — contaminación y responsabilidad ambiental específica» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-66"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_67",
+      "kind": "method",
+      "label": "Energía nuclear — responsabilidad en accidentes y gestión de residuos",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE X · Ciencias Naturales y Medioambiente: adapta el protocolo universal al subcampo «Energía nuclear — responsabilidad en accidentes y gestión de residuos» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-67"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_68",
+      "kind": "method",
+      "label": "Industrias creativas — responsabilidad en producción colaborativa",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE XI · Arte, Cultura y Medios: adapta el protocolo universal al subcampo «Industrias creativas — responsabilidad en producción colaborativa» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-68"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_69",
+      "kind": "method",
+      "label": "Videojuegos y diseño de sistemas adictivos",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE XI · Arte, Cultura y Medios: adapta el protocolo universal al subcampo «Videojuegos y diseño de sistemas adictivos» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-69"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_70",
+      "kind": "method",
+      "label": "Publicidad y marketing — responsabilidad en daños por comunicación comercial",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE XI · Arte, Cultura y Medios: adapta el protocolo universal al subcampo «Publicidad y marketing — responsabilidad en daños por comunicación comercial» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-70"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_71",
+      "kind": "method",
+      "label": "Medios de comunicación y periodismo — responsabilidad en desinformación",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE XI · Arte, Cultura y Medios: adapta el protocolo universal al subcampo «Medios de comunicación y periodismo — responsabilidad en desinformación» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-71"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_72",
+      "kind": "method",
+      "label": "Violencia de género — responsabilidad individual, sistémica e institucional",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE XII · Trabajo Social y Políticas Sociales: adapta el protocolo universal al subcampo «Violencia de género — responsabilidad individual, sistémica e institucional» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-72"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_73",
+      "kind": "method",
+      "label": "Exclusión social y pobreza — responsabilidad del Estado y las instituciones",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE XII · Trabajo Social y Políticas Sociales: adapta el protocolo universal al subcampo «Exclusión social y pobreza — responsabilidad del Estado y las instituciones» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-73"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_74",
+      "kind": "method",
+      "label": "Sistemas de protección de infancia y adolescencia",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE XII · Trabajo Social y Políticas Sociales: adapta el protocolo universal al subcampo «Sistemas de protección de infancia y adolescencia» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-74"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_75",
+      "kind": "method",
+      "label": "Migraciones forzadas y refugio — responsabilidad de Estados y actores internacionales",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE XII · Trabajo Social y Políticas Sociales: adapta el protocolo universal al subcampo «Migraciones forzadas y refugio — responsabilidad de Estados y actores internacionales» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-75"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_76",
+      "kind": "method",
+      "label": "Teorías de justicia — formalización en vocabulario Prometeo",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE XIII · Filosofía, Ética y Pensamiento: adapta el protocolo universal al subcampo «Teorías de justicia — formalización en vocabulario Prometeo» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-76"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_77",
+      "kind": "method",
+      "label": "Ética aplicada — responsabilidad moral y responsabilidad causal",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE XIII · Filosofía, Ética y Pensamiento: adapta el protocolo universal al subcampo «Ética aplicada — responsabilidad moral y responsabilidad causal» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-77"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.taxonomia.domain_78",
+      "kind": "method",
+      "label": "Pensamiento sistémico y causalidad circular — los límites del modelo lineal",
+      "summary": "Capítulo de aplicación de Taxonomía en PARTE XIII · Filosofía, Ética y Pensamiento: adapta el protocolo universal al subcampo «Pensamiento sistémico y causalidad circular — los límites del modelo lineal» mediante sus propias fuentes, escalas, firmas, prioridades, ejemplos y límites documentados; su presencia en la obra demuestra portabilidad propuesta, no validación externa del método.",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-78"
+      ],
+      "evidence_status": "explicit"
     }
   ],
   "relations": [
@@ -33315,6 +35223,945 @@
       "evidence": [
         "ev.aosa.f4.capitulo-07-02"
       ]
+    },
+    {
+      "id": "rel.taxonomia.universal.uses_prometeo",
+      "type": "uses",
+      "from": "method.taxonomia.universal_protocol",
+      "to": "method.prometeo.imputation",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-02",
+        "ev.taxonomia.f4.capitulo-u-03",
+        "ev.taxonomia.f4.capitulo-u-04"
+      ],
+      "rationale": "La obra usa cálculos y Declaraciones de Prometeo como base operativa; ello no resuelve sus revisiones metrológicas o jurídicas."
+    },
+    {
+      "id": "rel.taxonomia.universal.uses_sdo",
+      "type": "uses",
+      "from": "method.taxonomia.universal_protocol",
+      "to": "method.sdo.localization",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-01",
+        "ev.taxonomia.f4.capitulo-u-03"
+      ],
+      "rationale": "El protocolo toma localizaciones/gradaciones SDO como inputs documentales; la equivalencia métrica requiere validación."
+    },
+    {
+      "id": "rel.taxonomia.universal.uses_eco",
+      "type": "uses",
+      "from": "method.taxonomia.universal_protocol",
+      "to": "method.eco.instrument",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-01",
+        "ev.taxonomia.f4.capitulo-u-02"
+      ],
+      "rationale": "ECO aparece como vía cuando el expediente no permite localizar o resolver incertidumbre ontológica."
+    },
+    {
+      "id": "rel.taxonomia.SA.operationalizes_S",
+      "type": "operationalizes",
+      "from": "formal.taxonomia.S_route_A",
+      "to": "formal.mci.S",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-03"
+      ],
+      "rationale": "La mezcla P(Hijos)→S es una nueva regla operacional, no una identidad formal demostrada."
+    },
+    {
+      "id": "rel.taxonomia.SB.operationalizes_S",
+      "type": "operationalizes",
+      "from": "formal.taxonomia.S_route_B",
+      "to": "formal.mci.S",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-03"
+      ],
+      "rationale": "DS→S es una escala documental propuesta para aproximar el mismo constructo."
+    },
+    {
+      "id": "rel.taxonomia.alpha.operationalizes_mcii",
+      "type": "operationalizes",
+      "from": "formal.taxonomia.alpha_bridge",
+      "to": "formal.mcii.alpha",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-03"
+      ],
+      "rationale": "Las cinco bandas observacionales se asignan a α numérica sin calibración que pruebe equivalencia con MC-II."
+    },
+    {
+      "id": "rel.taxonomia.declarations.adapts_prometeo",
+      "type": "adapts",
+      "from": "method.taxonomia.declarations",
+      "to": "method.prometeo.presentation",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-04"
+      ],
+      "rationale": "Taxonomía generaliza las Declaraciones hacia foros múltiples y añade criterios propios de sensibilidad/acción."
+    },
+    {
+      "id": "rel.taxonomia.domain_01.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_01",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-01"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_02.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_02",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-02"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_03.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_03",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-03"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_04.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_04",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-04"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_05.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_05",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-05"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_06.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_06",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-06"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_07.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_07",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-07"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_08.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_08",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-08"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_09.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_09",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-09"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_10.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_10",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-10"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_11.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_11",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-11"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_12.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_12",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-12"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_13.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_13",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-13"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_14.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_14",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-14"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_15.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_15",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-15"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_16.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_16",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-16"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_17.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_17",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-17"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_18.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_18",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-18"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_19.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_19",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-19"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_20.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_20",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-20"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_21.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_21",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-21"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_22.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_22",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-22"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_23.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_23",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-23"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_24.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_24",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-24"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_25.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_25",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-25"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_26.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_26",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-26"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_27.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_27",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-27"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_28.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_28",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-28"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_29.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_29",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-29"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_30.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_30",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-30"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_31.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_31",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-31"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_32.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_32",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-32"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_33.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_33",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-33"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_34.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_34",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-34"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_35.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_35",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-35"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_36.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_36",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-36"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_37.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_37",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-37"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_38.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_38",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-38"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_39.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_39",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-39"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_40.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_40",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-40"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_41.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_41",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-41"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_42.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_42",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-42"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_43.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_43",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-43"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_44.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_44",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-44"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_45.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_45",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-45"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_46.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_46",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-46"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_47.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_47",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-47"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_48.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_48",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-48"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_49.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_49",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-49"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_50.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_50",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-50"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_51.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_51",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-51"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_52.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_52",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-52"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_53.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_53",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-53"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_54.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_54",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-54"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_55.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_55",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-55"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_56.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_56",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-56"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_57.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_57",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-57"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_58.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_58",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-58"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_59.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_59",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-59"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_60.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_60",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-60"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_61.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_61",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-61"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_62.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_62",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-62"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_63.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_63",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-63"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_64.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_64",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-64"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_65.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_65",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-65"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_66.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_66",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-66"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_67.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_67",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-67"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_68.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_68",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-68"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_69.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_69",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-69"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_70.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_70",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-70"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_71.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_71",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-71"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_72.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_72",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-72"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_73.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_73",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-73"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_74.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_74",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-74"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_75.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_75",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-75"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_76.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_76",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-76"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_77.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_77",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-77"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
+    },
+    {
+      "id": "rel.taxonomia.domain_78.applies_universal",
+      "type": "applies",
+      "from": "method.taxonomia.domain_78",
+      "to": "method.taxonomia.universal_protocol",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-78"
+      ],
+      "rationale": "Relación editorial-analítica derivada de la arquitectura Parte U → capítulos de dominio; no implica validación empírica del protocolo en ese dominio."
     }
   ],
   "routes": [
@@ -43134,6 +45981,1176 @@
         "review.mci.alpha_observability",
         "review.prometeo.rstar_algorithm_equivalence"
       ]
+    },
+    {
+      "id": "route.taxonomia.universal",
+      "purpose": "Protocolo universal U·1–U·4",
+      "triggers": [
+        "Taxonomía protocolo universal",
+        "U1 U2 U3 U4",
+        "aplicaciones Prometeo"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.taxonomia.f4.capitulo-u-01",
+          "reason": "Segmento canónico del Protocolo Universal."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.taxonomia.f4.capitulo-u-02",
+          "reason": "Segmento canónico del Protocolo Universal."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.taxonomia.f4.capitulo-u-03",
+          "reason": "Segmento canónico del Protocolo Universal."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.taxonomia.f4.capitulo-u-04",
+          "reason": "Segmento canónico del Protocolo Universal."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.taxonomia.hijos_legibility",
+        "review.taxonomia.evidence_scale_versions",
+        "review.taxonomia.route_independence",
+        "review.taxonomia.sensitivity_space"
+      ]
+    },
+    {
+      "id": "route.taxonomia.hijos",
+      "purpose": "Localización documental de Hijos",
+      "triggers": [
+        "Hijos expediente",
+        "Fobos Deimos Anteros documento",
+        "Harmonía ECO"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.taxonomia.f4.capitulo-u-01",
+          "reason": "Segmento canónico del Protocolo Universal."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.taxonomia.hijos_legibility",
+        "review.taxonomia.harmonia_inaccessible",
+        "review.eco.p_hijos_semantics"
+      ]
+    },
+    {
+      "id": "route.taxonomia.evidence",
+      "purpose": "Evidencia, contradicción y calibración",
+      "triggers": [
+        "E0 E8 Taxonomía",
+        "evidencia contradictoria",
+        "intersección rangos"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.taxonomia.f4.capitulo-u-02",
+          "reason": "Segmento canónico del Protocolo Universal."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.taxonomia.evidence_scale_versions",
+        "review.taxonomia.evidence_calibration",
+        "review.taxonomia.intersection_semantics",
+        "review.taxonomia.contradiction_k"
+      ]
+    },
+    {
+      "id": "route.taxonomia.s_alpha",
+      "purpose": "Transformación SDO → S/α e IIC",
+      "triggers": [
+        "S Ruta A Ruta B",
+        "DS IIC alpha clínico",
+        "SDO inputs Prometeo"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.taxonomia.f4.capitulo-u-03",
+          "reason": "Segmento canónico del Protocolo Universal."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.taxonomia.SA_mixture",
+        "review.taxonomia.route_independence",
+        "review.taxonomia.DS_calibration",
+        "review.taxonomia.IIC_adjustment",
+        "review.taxonomia.alpha_bridge",
+        "review.taxonomia.feedback_circularity"
+      ]
+    },
+    {
+      "id": "route.taxonomia.sensitivity",
+      "purpose": "Sensibilidad y Declaraciones A–D",
+      "triggers": [
+        "Declaración A B C D Taxonomía",
+        "sensibilidad ontológica empírica",
+        "espacio variación"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.taxonomia.f4.capitulo-u-04",
+          "reason": "Segmento canónico del Protocolo Universal."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.taxonomia.sensitivity_space",
+        "review.taxonomia.declaration_30",
+        "review.taxonomia.forum_action"
+      ]
+    },
+    {
+      "id": "route.taxonomia.part.parte_i_derecho_y_justicia",
+      "purpose": "Aplicaciones de Taxonomía en PARTE I · Derecho y Justicia",
+      "triggers": [
+        "PARTE I · Derecho y Justicia",
+        "Taxonomía PARTE I · Derecho y Justicia",
+        "Derecho penal y civil — responsabilidad individual y colectiva",
+        "Derecho laboral — relaciones de poder y responsabilidad patronal",
+        "Derecho penal internacional y crímenes de lesa humanidad"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.taxonomia.f4.capitulo-01",
+          "reason": "Capítulo de dominio 1: Derecho penal y civil — responsabilidad individual y colectiva"
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.taxonomia.f4.capitulo-02",
+          "reason": "Capítulo de dominio 2: Derecho laboral — relaciones de poder y responsabilidad patronal"
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.taxonomia.f4.capitulo-03",
+          "reason": "Capítulo de dominio 3: Derecho penal internacional y crímenes de lesa humanidad"
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.taxonomia.f4.capitulo-04",
+          "reason": "Capítulo de dominio 4: Derecho ambiental — responsabilidad por daño ecológico"
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.taxonomia.f4.capitulo-05",
+          "reason": "Capítulo de dominio 5: Derecho de familia — responsabilidad parental y protección del menor"
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.taxonomia.f4.capitulo-06",
+          "reason": "Capítulo de dominio 6: Derecho de la competencia — prácticas anticompetitivas"
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.taxonomia.f4.capitulo-07",
+          "reason": "Capítulo de dominio 7: Propiedad intelectual — autoría, plagio y diseño"
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.taxonomia.f4.capitulo-08",
+          "reason": "Capítulo de dominio 8: Responsabilidad médica — mala praxis y daño iatrogénico"
+        },
+        {
+          "order": 9,
+          "evidence_id": "ev.taxonomia.f4.capitulo-09",
+          "reason": "Capítulo de dominio 9: Derecho tributario — evasión, elusión y fraude fiscal"
+        },
+        {
+          "order": 10,
+          "evidence_id": "ev.taxonomia.f4.capitulo-10",
+          "reason": "Capítulo de dominio 10: Arbitraje e inversión extranjera"
+        }
+      ],
+      "must_surface_review_items": [
+        "review.taxonomia.universal_portability",
+        "review.taxonomia.domain_ranges",
+        "review.taxonomia.domain_examples",
+        "review.taxonomia.domain_validation"
+      ]
+    },
+    {
+      "id": "route.taxonomia.part.parte_ii_ciencias_economicas_y_financieras",
+      "purpose": "Aplicaciones de Taxonomía en PARTE II · Ciencias Económicas y Financieras",
+      "triggers": [
+        "PARTE II · Ciencias Económicas y Financieras",
+        "Taxonomía PARTE II · Ciencias Económicas y Financieras",
+        "Crédito y sistema financiero — fraude y colapso crediticio",
+        "Insolvencia y quiebra — responsabilidad de administradores",
+        "Gobierno corporativo — responsabilidad de directivos"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.taxonomia.f4.capitulo-11",
+          "reason": "Capítulo de dominio 11: Crédito y sistema financiero — fraude y colapso crediticio"
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.taxonomia.f4.capitulo-12",
+          "reason": "Capítulo de dominio 12: Insolvencia y quiebra — responsabilidad de administradores"
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.taxonomia.f4.capitulo-13",
+          "reason": "Capítulo de dominio 13: Gobierno corporativo — responsabilidad de directivos"
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.taxonomia.f4.capitulo-14",
+          "reason": "Capítulo de dominio 14: Finanzas de mercado — manipulación y asimetría de información"
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.taxonomia.f4.capitulo-15",
+          "reason": "Capítulo de dominio 15: Seguros — fraude, responsabilidad y valoración de siniestros"
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.taxonomia.f4.capitulo-16",
+          "reason": "Capítulo de dominio 16: Economía del comportamiento — sesgos sistemáticos y decisión bajo presión"
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.taxonomia.f4.capitulo-17",
+          "reason": "Capítulo de dominio 17: Plataformas digitales — economía de datos y responsabilidad algorítmica"
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.taxonomia.f4.capitulo-18",
+          "reason": "Capítulo de dominio 18: Comercio internacional — cadenas de suministro y responsabilidad del comprador final"
+        },
+        {
+          "order": 9,
+          "evidence_id": "ev.taxonomia.f4.capitulo-19",
+          "reason": "Capítulo de dominio 19: Economía de la salud —"
+        },
+        {
+          "order": 10,
+          "evidence_id": "ev.taxonomia.f4.capitulo-20",
+          "reason": "Capítulo de dominio 20: Criptoeconomía y activos digitales — protocolos, exchanges y responsabilidad"
+        }
+      ],
+      "must_surface_review_items": [
+        "review.taxonomia.universal_portability",
+        "review.taxonomia.domain_ranges",
+        "review.taxonomia.domain_examples",
+        "review.taxonomia.domain_validation"
+      ]
+    },
+    {
+      "id": "route.taxonomia.part.parte_iii_ciencias_de_la_salud_y_biomedicas",
+      "purpose": "Aplicaciones de Taxonomía en PARTE III · Ciencias de la Salud y Biomédicas",
+      "triggers": [
+        "PARTE III · Ciencias de la Salud y Biomédicas",
+        "Taxonomía PARTE III · Ciencias de la Salud y Biomédicas",
+        "Epidemiología y salud pública — causalidad a escala poblacional",
+        "Oncología — causalidad en enfermedades multifactoriales",
+        "Adicciones — responsabilidad de la industria y del sistema"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.taxonomia.f4.capitulo-21",
+          "reason": "Capítulo de dominio 21: Epidemiología y salud pública — causalidad a escala poblacional"
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.taxonomia.f4.capitulo-22",
+          "reason": "Capítulo de dominio 22: Oncología — causalidad en enfermedades multifactoriales"
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.taxonomia.f4.capitulo-23",
+          "reason": "Capítulo de dominio 23: Adicciones — responsabilidad de la industria y del sistema"
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.taxonomia.f4.capitulo-24",
+          "reason": "Capítulo de dominio 24: Salud mental — responsabilidad clínica y sistémica"
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.taxonomia.f4.capitulo-25",
+          "reason": "Capítulo de dominio 25: Medicina laboral y enfermedades profesionales"
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.taxonomia.f4.capitulo-26",
+          "reason": "Capítulo de dominio 26: Bioética y experimentación — consentimiento y daño en investigación"
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.taxonomia.f4.capitulo-27",
+          "reason": "Capítulo de dominio 27: Sistemas de salud y política sanitaria"
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.taxonomia.f4.capitulo-28",
+          "reason": "Capítulo de dominio 28: Trasplantes y donación — responsabilidad en sistemas de asignación"
+        }
+      ],
+      "must_surface_review_items": [
+        "review.taxonomia.universal_portability",
+        "review.taxonomia.domain_ranges",
+        "review.taxonomia.domain_examples",
+        "review.taxonomia.domain_validation"
+      ]
+    },
+    {
+      "id": "route.taxonomia.part.parte_iv_educacion",
+      "purpose": "Aplicaciones de Taxonomía en PARTE IV · Educación",
+      "triggers": [
+        "PARTE IV · Educación",
+        "Taxonomía PARTE IV · Educación",
+        "Evaluación docente y responsabilidad en resultados de aprendizaje",
+        "Políticas educativas — responsabilidad sistémica",
+        "Acoso escolar y violencia en entornos educativos"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.taxonomia.f4.capitulo-29",
+          "reason": "Capítulo de dominio 29: Evaluación docente y responsabilidad en resultados de aprendizaje"
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.taxonomia.f4.capitulo-30",
+          "reason": "Capítulo de dominio 30: Políticas educativas — responsabilidad sistémica"
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.taxonomia.f4.capitulo-31",
+          "reason": "Capítulo de dominio 31: Acoso escolar y violencia en entornos educativos"
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.taxonomia.f4.capitulo-32",
+          "reason": "Capítulo de dominio 32: Educación superior — responsabilidad en investigación y publicación"
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.taxonomia.f4.capitulo-33",
+          "reason": "Capítulo de dominio 33: Educación especial e inclusión"
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.taxonomia.f4.capitulo-34",
+          "reason": "Capítulo de dominio 34: Formación profesional y certificaciones"
+        }
+      ],
+      "must_surface_review_items": [
+        "review.taxonomia.universal_portability",
+        "review.taxonomia.domain_ranges",
+        "review.taxonomia.domain_examples",
+        "review.taxonomia.domain_validation"
+      ]
+    },
+    {
+      "id": "route.taxonomia.part.parte_v_organizaciones_y_gestion",
+      "purpose": "Aplicaciones de Taxonomía en PARTE V · Organizaciones y Gestión",
+      "triggers": [
+        "PARTE V · Organizaciones y Gestión",
+        "Taxonomía PARTE V · Organizaciones y Gestión",
+        "Responsabilidad organizacional y cultura institucional — el IIC aplicado",
+        "Gestión de proyectos — responsabilidad en retrasos y sobrecostos",
+        "Recursos humanos — responsabilidad en contratación, despido y discriminación"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.taxonomia.f4.capitulo-35",
+          "reason": "Capítulo de dominio 35: Responsabilidad organizacional y cultura institucional — el IIC aplicado"
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.taxonomia.f4.capitulo-36",
+          "reason": "Capítulo de dominio 36: Gestión de proyectos — responsabilidad en retrasos y sobrecostos"
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.taxonomia.f4.capitulo-37",
+          "reason": "Capítulo de dominio 37: Recursos humanos — responsabilidad en contratación, despido y discriminación"
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.taxonomia.f4.capitulo-38",
+          "reason": "Capítulo de dominio 38: Liderazgo y decisión estratégica — responsabilidad del C-suite"
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.taxonomia.f4.capitulo-39",
+          "reason": "Capítulo de dominio 39: Cambio organizacional — fusiones, adquisiciones y reestructuraciones"
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.taxonomia.f4.capitulo-40",
+          "reason": "Capítulo de dominio 40: Innovación y emprendimiento — responsabilidad en startups y proyectos"
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.taxonomia.f4.capitulo-41",
+          "reason": "Capítulo de dominio 41: Responsabilidad ambiental corporativa — ESG y greenwashing"
+        }
+      ],
+      "must_surface_review_items": [
+        "review.taxonomia.universal_portability",
+        "review.taxonomia.domain_ranges",
+        "review.taxonomia.domain_examples",
+        "review.taxonomia.domain_validation"
+      ]
+    },
+    {
+      "id": "route.taxonomia.part.parte_vi_ciencias_sociales_y_humanidades",
+      "purpose": "Aplicaciones de Taxonomía en PARTE VI · Ciencias Sociales y Humanidades",
+      "triggers": [
+        "PARTE VI · Ciencias Sociales y Humanidades",
+        "Taxonomía PARTE VI · Ciencias Sociales y Humanidades",
+        "Historia — causalidad en procesos históricos y responsabilidad de actores",
+        "Geopolítica — responsabilidad de Estados en conflictos internacionales",
+        "Ciencia política y procesos electorales"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.taxonomia.f4.capitulo-42",
+          "reason": "Capítulo de dominio 42: Historia — causalidad en procesos históricos y responsabilidad de actores"
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.taxonomia.f4.capitulo-43",
+          "reason": "Capítulo de dominio 43: Geopolítica — responsabilidad de Estados en conflictos internacionales"
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.taxonomia.f4.capitulo-44",
+          "reason": "Capítulo de dominio 44: Ciencia política y procesos electorales"
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.taxonomia.f4.capitulo-45",
+          "reason": "Capítulo de dominio 45: Sociología de las organizaciones — responsabilidad colectiva y movimientos sociales"
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.taxonomia.f4.capitulo-46",
+          "reason": "Capítulo de dominio 46: Antropología y comunidades indígenas — responsabilidad por daño cultural"
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.taxonomia.f4.capitulo-47",
+          "reason": "Capítulo de dominio 47: Literatura y análisis cultural — lectura causal de textos y procesos creativos"
+        }
+      ],
+      "must_surface_review_items": [
+        "review.taxonomia.universal_portability",
+        "review.taxonomia.domain_ranges",
+        "review.taxonomia.domain_examples",
+        "review.taxonomia.domain_validation"
+      ]
+    },
+    {
+      "id": "route.taxonomia.part.parte_vii_ingenieria_y_tecnologia",
+      "purpose": "Aplicaciones de Taxonomía en PARTE VII · Ingeniería y Tecnología",
+      "triggers": [
+        "PARTE VII · Ingeniería y Tecnología",
+        "Taxonomía PARTE VII · Ingeniería y Tecnología",
+        "Ciberseguridad — responsabilidad en brechas y ataques",
+        "Inteligencia artificial y sistemas automatizados",
+        "Ingeniería civil — responsabilidad en fallas de infraestructura"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.taxonomia.f4.capitulo-48",
+          "reason": "Capítulo de dominio 48: Ciberseguridad — responsabilidad en brechas y ataques"
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.taxonomia.f4.capitulo-49",
+          "reason": "Capítulo de dominio 49: Inteligencia artificial y sistemas automatizados"
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.taxonomia.f4.capitulo-50",
+          "reason": "Capítulo de dominio 50: Ingeniería civil — responsabilidad en fallas de infraestructura"
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.taxonomia.f4.capitulo-51",
+          "reason": "Capítulo de dominio 51: Transporte — accidentes, responsabilidad de sistemas y regulación"
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.taxonomia.f4.capitulo-52",
+          "reason": "Capítulo de dominio 52: Energía y transición energética — responsabilidad en cambio de sistemas"
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.taxonomia.f4.capitulo-53",
+          "reason": "Capítulo de dominio 53: Telecomunicaciones y medios — responsabilidad de plataformas y redes"
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.taxonomia.f4.capitulo-54",
+          "reason": "Capítulo de dominio 54: Diseño de productos — responsabilidad por defectos y daño al usuario"
+        }
+      ],
+      "must_surface_review_items": [
+        "review.taxonomia.universal_portability",
+        "review.taxonomia.domain_ranges",
+        "review.taxonomia.domain_examples",
+        "review.taxonomia.domain_validation"
+      ]
+    },
+    {
+      "id": "route.taxonomia.part.parte_viii_deporte_y_rendimiento",
+      "purpose": "Aplicaciones de Taxonomía en PARTE VIII · Deporte y Rendimiento",
+      "triggers": [
+        "PARTE VIII · Deporte y Rendimiento",
+        "Taxonomía PARTE VIII · Deporte y Rendimiento",
+        "Valoración de jugadores y distribución del éxito deportivo",
+        "Análisis de equipos y responsabilidad del cuerpo técnico",
+        "Dopaje y sustancias prohibidas — responsabilidad individual y sistémica"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.taxonomia.f4.capitulo-55",
+          "reason": "Capítulo de dominio 55: Valoración de jugadores y distribución del éxito deportivo"
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.taxonomia.f4.capitulo-56",
+          "reason": "Capítulo de dominio 56: Análisis de equipos y responsabilidad del cuerpo técnico"
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.taxonomia.f4.capitulo-57",
+          "reason": "Capítulo de dominio 57: Dopaje y sustancias prohibidas — responsabilidad individual y sistémica"
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.taxonomia.f4.capitulo-58",
+          "reason": "Capítulo de dominio 58: Lesiones y seguridad en el deporte — responsabilidad en el diseño de reglas"
+        }
+      ],
+      "must_surface_review_items": [
+        "review.taxonomia.universal_portability",
+        "review.taxonomia.domain_ranges",
+        "review.taxonomia.domain_examples",
+        "review.taxonomia.domain_validation"
+      ]
+    },
+    {
+      "id": "route.taxonomia.part.parte_ix_psicologia_y_comportamiento",
+      "purpose": "Aplicaciones de Taxonomía en PARTE IX · Psicología y Comportamiento",
+      "triggers": [
+        "PARTE IX · Psicología y Comportamiento",
+        "Taxonomía PARTE IX · Psicología y Comportamiento",
+        "Psicología clínica — responsabilidad en daño por diagnóstico y tratamiento",
+        "Duelo y pérdida — el eje V del SDO en el contexto del análisis causal",
+        "Psicología del desarrollo — responsabilidad en daño en la infancia y adolescencia"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.taxonomia.f4.capitulo-59",
+          "reason": "Capítulo de dominio 59: Psicología clínica — responsabilidad en daño por diagnóstico y tratamiento"
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.taxonomia.f4.capitulo-60",
+          "reason": "Capítulo de dominio 60: Duelo y pérdida — el eje V del SDO en el contexto del análisis causal"
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.taxonomia.f4.capitulo-61",
+          "reason": "Capítulo de dominio 61: Psicología del desarrollo — responsabilidad en daño en la infancia y adolescencia"
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.taxonomia.f4.capitulo-62",
+          "reason": "Capítulo de dominio 62: Psicología forense — evaluación de imputabilidad y competencia"
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.taxonomia.f4.capitulo-63",
+          "reason": "Capítulo de dominio 63: Criminología — responsabilidad sistémica en el delito"
+        }
+      ],
+      "must_surface_review_items": [
+        "review.taxonomia.universal_portability",
+        "review.taxonomia.domain_ranges",
+        "review.taxonomia.domain_examples",
+        "review.taxonomia.domain_validation"
+      ]
+    },
+    {
+      "id": "route.taxonomia.part.parte_x_ciencias_naturales_y_medioambiente",
+      "purpose": "Aplicaciones de Taxonomía en PARTE X · Ciencias Naturales y Medioambiente",
+      "triggers": [
+        "PARTE X · Ciencias Naturales y Medioambiente",
+        "Taxonomía PARTE X · Ciencias Naturales y Medioambiente",
+        "Cambio climático — responsabilidad histórica en emisiones globales",
+        "Ecología y biodiversidad — responsabilidad en pérdida de ecosistemas",
+        "Agua y suelo — contaminación y responsabilidad ambiental específica"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.taxonomia.f4.capitulo-64",
+          "reason": "Capítulo de dominio 64: Cambio climático — responsabilidad histórica en emisiones globales"
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.taxonomia.f4.capitulo-65",
+          "reason": "Capítulo de dominio 65: Ecología y biodiversidad — responsabilidad en pérdida de ecosistemas"
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.taxonomia.f4.capitulo-66",
+          "reason": "Capítulo de dominio 66: Agua y suelo — contaminación y responsabilidad ambiental específica"
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.taxonomia.f4.capitulo-67",
+          "reason": "Capítulo de dominio 67: Energía nuclear — responsabilidad en accidentes y gestión de residuos"
+        }
+      ],
+      "must_surface_review_items": [
+        "review.taxonomia.universal_portability",
+        "review.taxonomia.domain_ranges",
+        "review.taxonomia.domain_examples",
+        "review.taxonomia.domain_validation"
+      ]
+    },
+    {
+      "id": "route.taxonomia.part.parte_xi_arte_cultura_y_medios",
+      "purpose": "Aplicaciones de Taxonomía en PARTE XI · Arte, Cultura y Medios",
+      "triggers": [
+        "PARTE XI · Arte, Cultura y Medios",
+        "Taxonomía PARTE XI · Arte, Cultura y Medios",
+        "Industrias creativas — responsabilidad en producción colaborativa",
+        "Videojuegos y diseño de sistemas adictivos",
+        "Publicidad y marketing — responsabilidad en daños por comunicación comercial"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.taxonomia.f4.capitulo-68",
+          "reason": "Capítulo de dominio 68: Industrias creativas — responsabilidad en producción colaborativa"
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.taxonomia.f4.capitulo-69",
+          "reason": "Capítulo de dominio 69: Videojuegos y diseño de sistemas adictivos"
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.taxonomia.f4.capitulo-70",
+          "reason": "Capítulo de dominio 70: Publicidad y marketing — responsabilidad en daños por comunicación comercial"
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.taxonomia.f4.capitulo-71",
+          "reason": "Capítulo de dominio 71: Medios de comunicación y periodismo — responsabilidad en desinformación"
+        }
+      ],
+      "must_surface_review_items": [
+        "review.taxonomia.universal_portability",
+        "review.taxonomia.domain_ranges",
+        "review.taxonomia.domain_examples",
+        "review.taxonomia.domain_validation"
+      ]
+    },
+    {
+      "id": "route.taxonomia.part.parte_xii_trabajo_social_y_politicas_sociales",
+      "purpose": "Aplicaciones de Taxonomía en PARTE XII · Trabajo Social y Políticas Sociales",
+      "triggers": [
+        "PARTE XII · Trabajo Social y Políticas Sociales",
+        "Taxonomía PARTE XII · Trabajo Social y Políticas Sociales",
+        "Violencia de género — responsabilidad individual, sistémica e institucional",
+        "Exclusión social y pobreza — responsabilidad del Estado y las instituciones",
+        "Sistemas de protección de infancia y adolescencia"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.taxonomia.f4.capitulo-72",
+          "reason": "Capítulo de dominio 72: Violencia de género — responsabilidad individual, sistémica e institucional"
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.taxonomia.f4.capitulo-73",
+          "reason": "Capítulo de dominio 73: Exclusión social y pobreza — responsabilidad del Estado y las instituciones"
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.taxonomia.f4.capitulo-74",
+          "reason": "Capítulo de dominio 74: Sistemas de protección de infancia y adolescencia"
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.taxonomia.f4.capitulo-75",
+          "reason": "Capítulo de dominio 75: Migraciones forzadas y refugio — responsabilidad de Estados y actores internacionales"
+        }
+      ],
+      "must_surface_review_items": [
+        "review.taxonomia.universal_portability",
+        "review.taxonomia.domain_ranges",
+        "review.taxonomia.domain_examples",
+        "review.taxonomia.domain_validation"
+      ]
+    },
+    {
+      "id": "route.taxonomia.part.parte_xiii_filosofia_etica_y_pensamiento",
+      "purpose": "Aplicaciones de Taxonomía en PARTE XIII · Filosofía, Ética y Pensamiento",
+      "triggers": [
+        "PARTE XIII · Filosofía, Ética y Pensamiento",
+        "Taxonomía PARTE XIII · Filosofía, Ética y Pensamiento",
+        "Teorías de justicia — formalización en vocabulario Prometeo",
+        "Ética aplicada — responsabilidad moral y responsabilidad causal",
+        "Pensamiento sistémico y causalidad circular — los límites del modelo lineal"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.taxonomia.f4.capitulo-76",
+          "reason": "Capítulo de dominio 76: Teorías de justicia — formalización en vocabulario Prometeo"
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.taxonomia.f4.capitulo-77",
+          "reason": "Capítulo de dominio 77: Ética aplicada — responsabilidad moral y responsabilidad causal"
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.taxonomia.f4.capitulo-78",
+          "reason": "Capítulo de dominio 78: Pensamiento sistémico y causalidad circular — los límites del modelo lineal"
+        }
+      ],
+      "must_surface_review_items": [
+        "review.taxonomia.universal_portability",
+        "review.taxonomia.domain_ranges",
+        "review.taxonomia.domain_examples",
+        "review.taxonomia.domain_validation"
+      ]
+    },
+    {
+      "id": "route.taxonomia.domains",
+      "purpose": "Navegar los 78 capítulos de adaptación por dominio sin confundir cobertura con validación.",
+      "triggers": [
+        "78 dominios Taxonomía",
+        "aplicaciones por dominio",
+        "Taxonomía General capítulos"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.taxonomia.f4.capitulo-01",
+          "reason": "Dominio 1: Derecho penal y civil — responsabilidad individual y colectiva"
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.taxonomia.f4.capitulo-02",
+          "reason": "Dominio 2: Derecho laboral — relaciones de poder y responsabilidad patronal"
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.taxonomia.f4.capitulo-03",
+          "reason": "Dominio 3: Derecho penal internacional y crímenes de lesa humanidad"
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.taxonomia.f4.capitulo-04",
+          "reason": "Dominio 4: Derecho ambiental — responsabilidad por daño ecológico"
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.taxonomia.f4.capitulo-05",
+          "reason": "Dominio 5: Derecho de familia — responsabilidad parental y protección del menor"
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.taxonomia.f4.capitulo-06",
+          "reason": "Dominio 6: Derecho de la competencia — prácticas anticompetitivas"
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.taxonomia.f4.capitulo-07",
+          "reason": "Dominio 7: Propiedad intelectual — autoría, plagio y diseño"
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.taxonomia.f4.capitulo-08",
+          "reason": "Dominio 8: Responsabilidad médica — mala praxis y daño iatrogénico"
+        },
+        {
+          "order": 9,
+          "evidence_id": "ev.taxonomia.f4.capitulo-09",
+          "reason": "Dominio 9: Derecho tributario — evasión, elusión y fraude fiscal"
+        },
+        {
+          "order": 10,
+          "evidence_id": "ev.taxonomia.f4.capitulo-10",
+          "reason": "Dominio 10: Arbitraje e inversión extranjera"
+        },
+        {
+          "order": 11,
+          "evidence_id": "ev.taxonomia.f4.capitulo-11",
+          "reason": "Dominio 11: Crédito y sistema financiero — fraude y colapso crediticio"
+        },
+        {
+          "order": 12,
+          "evidence_id": "ev.taxonomia.f4.capitulo-12",
+          "reason": "Dominio 12: Insolvencia y quiebra — responsabilidad de administradores"
+        },
+        {
+          "order": 13,
+          "evidence_id": "ev.taxonomia.f4.capitulo-13",
+          "reason": "Dominio 13: Gobierno corporativo — responsabilidad de directivos"
+        },
+        {
+          "order": 14,
+          "evidence_id": "ev.taxonomia.f4.capitulo-14",
+          "reason": "Dominio 14: Finanzas de mercado — manipulación y asimetría de información"
+        },
+        {
+          "order": 15,
+          "evidence_id": "ev.taxonomia.f4.capitulo-15",
+          "reason": "Dominio 15: Seguros — fraude, responsabilidad y valoración de siniestros"
+        },
+        {
+          "order": 16,
+          "evidence_id": "ev.taxonomia.f4.capitulo-16",
+          "reason": "Dominio 16: Economía del comportamiento — sesgos sistemáticos y decisión bajo presión"
+        },
+        {
+          "order": 17,
+          "evidence_id": "ev.taxonomia.f4.capitulo-17",
+          "reason": "Dominio 17: Plataformas digitales — economía de datos y responsabilidad algorítmica"
+        },
+        {
+          "order": 18,
+          "evidence_id": "ev.taxonomia.f4.capitulo-18",
+          "reason": "Dominio 18: Comercio internacional — cadenas de suministro y responsabilidad del comprador final"
+        },
+        {
+          "order": 19,
+          "evidence_id": "ev.taxonomia.f4.capitulo-19",
+          "reason": "Dominio 19: Economía de la salud —"
+        },
+        {
+          "order": 20,
+          "evidence_id": "ev.taxonomia.f4.capitulo-20",
+          "reason": "Dominio 20: Criptoeconomía y activos digitales — protocolos, exchanges y responsabilidad"
+        },
+        {
+          "order": 21,
+          "evidence_id": "ev.taxonomia.f4.capitulo-21",
+          "reason": "Dominio 21: Epidemiología y salud pública — causalidad a escala poblacional"
+        },
+        {
+          "order": 22,
+          "evidence_id": "ev.taxonomia.f4.capitulo-22",
+          "reason": "Dominio 22: Oncología — causalidad en enfermedades multifactoriales"
+        },
+        {
+          "order": 23,
+          "evidence_id": "ev.taxonomia.f4.capitulo-23",
+          "reason": "Dominio 23: Adicciones — responsabilidad de la industria y del sistema"
+        },
+        {
+          "order": 24,
+          "evidence_id": "ev.taxonomia.f4.capitulo-24",
+          "reason": "Dominio 24: Salud mental — responsabilidad clínica y sistémica"
+        },
+        {
+          "order": 25,
+          "evidence_id": "ev.taxonomia.f4.capitulo-25",
+          "reason": "Dominio 25: Medicina laboral y enfermedades profesionales"
+        },
+        {
+          "order": 26,
+          "evidence_id": "ev.taxonomia.f4.capitulo-26",
+          "reason": "Dominio 26: Bioética y experimentación — consentimiento y daño en investigación"
+        },
+        {
+          "order": 27,
+          "evidence_id": "ev.taxonomia.f4.capitulo-27",
+          "reason": "Dominio 27: Sistemas de salud y política sanitaria"
+        },
+        {
+          "order": 28,
+          "evidence_id": "ev.taxonomia.f4.capitulo-28",
+          "reason": "Dominio 28: Trasplantes y donación — responsabilidad en sistemas de asignación"
+        },
+        {
+          "order": 29,
+          "evidence_id": "ev.taxonomia.f4.capitulo-29",
+          "reason": "Dominio 29: Evaluación docente y responsabilidad en resultados de aprendizaje"
+        },
+        {
+          "order": 30,
+          "evidence_id": "ev.taxonomia.f4.capitulo-30",
+          "reason": "Dominio 30: Políticas educativas — responsabilidad sistémica"
+        },
+        {
+          "order": 31,
+          "evidence_id": "ev.taxonomia.f4.capitulo-31",
+          "reason": "Dominio 31: Acoso escolar y violencia en entornos educativos"
+        },
+        {
+          "order": 32,
+          "evidence_id": "ev.taxonomia.f4.capitulo-32",
+          "reason": "Dominio 32: Educación superior — responsabilidad en investigación y publicación"
+        },
+        {
+          "order": 33,
+          "evidence_id": "ev.taxonomia.f4.capitulo-33",
+          "reason": "Dominio 33: Educación especial e inclusión"
+        },
+        {
+          "order": 34,
+          "evidence_id": "ev.taxonomia.f4.capitulo-34",
+          "reason": "Dominio 34: Formación profesional y certificaciones"
+        },
+        {
+          "order": 35,
+          "evidence_id": "ev.taxonomia.f4.capitulo-35",
+          "reason": "Dominio 35: Responsabilidad organizacional y cultura institucional — el IIC aplicado"
+        },
+        {
+          "order": 36,
+          "evidence_id": "ev.taxonomia.f4.capitulo-36",
+          "reason": "Dominio 36: Gestión de proyectos — responsabilidad en retrasos y sobrecostos"
+        },
+        {
+          "order": 37,
+          "evidence_id": "ev.taxonomia.f4.capitulo-37",
+          "reason": "Dominio 37: Recursos humanos — responsabilidad en contratación, despido y discriminación"
+        },
+        {
+          "order": 38,
+          "evidence_id": "ev.taxonomia.f4.capitulo-38",
+          "reason": "Dominio 38: Liderazgo y decisión estratégica — responsabilidad del C-suite"
+        },
+        {
+          "order": 39,
+          "evidence_id": "ev.taxonomia.f4.capitulo-39",
+          "reason": "Dominio 39: Cambio organizacional — fusiones, adquisiciones y reestructuraciones"
+        },
+        {
+          "order": 40,
+          "evidence_id": "ev.taxonomia.f4.capitulo-40",
+          "reason": "Dominio 40: Innovación y emprendimiento — responsabilidad en startups y proyectos"
+        },
+        {
+          "order": 41,
+          "evidence_id": "ev.taxonomia.f4.capitulo-41",
+          "reason": "Dominio 41: Responsabilidad ambiental corporativa — ESG y greenwashing"
+        },
+        {
+          "order": 42,
+          "evidence_id": "ev.taxonomia.f4.capitulo-42",
+          "reason": "Dominio 42: Historia — causalidad en procesos históricos y responsabilidad de actores"
+        },
+        {
+          "order": 43,
+          "evidence_id": "ev.taxonomia.f4.capitulo-43",
+          "reason": "Dominio 43: Geopolítica — responsabilidad de Estados en conflictos internacionales"
+        },
+        {
+          "order": 44,
+          "evidence_id": "ev.taxonomia.f4.capitulo-44",
+          "reason": "Dominio 44: Ciencia política y procesos electorales"
+        },
+        {
+          "order": 45,
+          "evidence_id": "ev.taxonomia.f4.capitulo-45",
+          "reason": "Dominio 45: Sociología de las organizaciones — responsabilidad colectiva y movimientos sociales"
+        },
+        {
+          "order": 46,
+          "evidence_id": "ev.taxonomia.f4.capitulo-46",
+          "reason": "Dominio 46: Antropología y comunidades indígenas — responsabilidad por daño cultural"
+        },
+        {
+          "order": 47,
+          "evidence_id": "ev.taxonomia.f4.capitulo-47",
+          "reason": "Dominio 47: Literatura y análisis cultural — lectura causal de textos y procesos creativos"
+        },
+        {
+          "order": 48,
+          "evidence_id": "ev.taxonomia.f4.capitulo-48",
+          "reason": "Dominio 48: Ciberseguridad — responsabilidad en brechas y ataques"
+        },
+        {
+          "order": 49,
+          "evidence_id": "ev.taxonomia.f4.capitulo-49",
+          "reason": "Dominio 49: Inteligencia artificial y sistemas automatizados"
+        },
+        {
+          "order": 50,
+          "evidence_id": "ev.taxonomia.f4.capitulo-50",
+          "reason": "Dominio 50: Ingeniería civil — responsabilidad en fallas de infraestructura"
+        },
+        {
+          "order": 51,
+          "evidence_id": "ev.taxonomia.f4.capitulo-51",
+          "reason": "Dominio 51: Transporte — accidentes, responsabilidad de sistemas y regulación"
+        },
+        {
+          "order": 52,
+          "evidence_id": "ev.taxonomia.f4.capitulo-52",
+          "reason": "Dominio 52: Energía y transición energética — responsabilidad en cambio de sistemas"
+        },
+        {
+          "order": 53,
+          "evidence_id": "ev.taxonomia.f4.capitulo-53",
+          "reason": "Dominio 53: Telecomunicaciones y medios — responsabilidad de plataformas y redes"
+        },
+        {
+          "order": 54,
+          "evidence_id": "ev.taxonomia.f4.capitulo-54",
+          "reason": "Dominio 54: Diseño de productos — responsabilidad por defectos y daño al usuario"
+        },
+        {
+          "order": 55,
+          "evidence_id": "ev.taxonomia.f4.capitulo-55",
+          "reason": "Dominio 55: Valoración de jugadores y distribución del éxito deportivo"
+        },
+        {
+          "order": 56,
+          "evidence_id": "ev.taxonomia.f4.capitulo-56",
+          "reason": "Dominio 56: Análisis de equipos y responsabilidad del cuerpo técnico"
+        },
+        {
+          "order": 57,
+          "evidence_id": "ev.taxonomia.f4.capitulo-57",
+          "reason": "Dominio 57: Dopaje y sustancias prohibidas — responsabilidad individual y sistémica"
+        },
+        {
+          "order": 58,
+          "evidence_id": "ev.taxonomia.f4.capitulo-58",
+          "reason": "Dominio 58: Lesiones y seguridad en el deporte — responsabilidad en el diseño de reglas"
+        },
+        {
+          "order": 59,
+          "evidence_id": "ev.taxonomia.f4.capitulo-59",
+          "reason": "Dominio 59: Psicología clínica — responsabilidad en daño por diagnóstico y tratamiento"
+        },
+        {
+          "order": 60,
+          "evidence_id": "ev.taxonomia.f4.capitulo-60",
+          "reason": "Dominio 60: Duelo y pérdida — el eje V del SDO en el contexto del análisis causal"
+        },
+        {
+          "order": 61,
+          "evidence_id": "ev.taxonomia.f4.capitulo-61",
+          "reason": "Dominio 61: Psicología del desarrollo — responsabilidad en daño en la infancia y adolescencia"
+        },
+        {
+          "order": 62,
+          "evidence_id": "ev.taxonomia.f4.capitulo-62",
+          "reason": "Dominio 62: Psicología forense — evaluación de imputabilidad y competencia"
+        },
+        {
+          "order": 63,
+          "evidence_id": "ev.taxonomia.f4.capitulo-63",
+          "reason": "Dominio 63: Criminología — responsabilidad sistémica en el delito"
+        },
+        {
+          "order": 64,
+          "evidence_id": "ev.taxonomia.f4.capitulo-64",
+          "reason": "Dominio 64: Cambio climático — responsabilidad histórica en emisiones globales"
+        },
+        {
+          "order": 65,
+          "evidence_id": "ev.taxonomia.f4.capitulo-65",
+          "reason": "Dominio 65: Ecología y biodiversidad — responsabilidad en pérdida de ecosistemas"
+        },
+        {
+          "order": 66,
+          "evidence_id": "ev.taxonomia.f4.capitulo-66",
+          "reason": "Dominio 66: Agua y suelo — contaminación y responsabilidad ambiental específica"
+        },
+        {
+          "order": 67,
+          "evidence_id": "ev.taxonomia.f4.capitulo-67",
+          "reason": "Dominio 67: Energía nuclear — responsabilidad en accidentes y gestión de residuos"
+        },
+        {
+          "order": 68,
+          "evidence_id": "ev.taxonomia.f4.capitulo-68",
+          "reason": "Dominio 68: Industrias creativas — responsabilidad en producción colaborativa"
+        },
+        {
+          "order": 69,
+          "evidence_id": "ev.taxonomia.f4.capitulo-69",
+          "reason": "Dominio 69: Videojuegos y diseño de sistemas adictivos"
+        },
+        {
+          "order": 70,
+          "evidence_id": "ev.taxonomia.f4.capitulo-70",
+          "reason": "Dominio 70: Publicidad y marketing — responsabilidad en daños por comunicación comercial"
+        },
+        {
+          "order": 71,
+          "evidence_id": "ev.taxonomia.f4.capitulo-71",
+          "reason": "Dominio 71: Medios de comunicación y periodismo — responsabilidad en desinformación"
+        },
+        {
+          "order": 72,
+          "evidence_id": "ev.taxonomia.f4.capitulo-72",
+          "reason": "Dominio 72: Violencia de género — responsabilidad individual, sistémica e institucional"
+        },
+        {
+          "order": 73,
+          "evidence_id": "ev.taxonomia.f4.capitulo-73",
+          "reason": "Dominio 73: Exclusión social y pobreza — responsabilidad del Estado y las instituciones"
+        },
+        {
+          "order": 74,
+          "evidence_id": "ev.taxonomia.f4.capitulo-74",
+          "reason": "Dominio 74: Sistemas de protección de infancia y adolescencia"
+        },
+        {
+          "order": 75,
+          "evidence_id": "ev.taxonomia.f4.capitulo-75",
+          "reason": "Dominio 75: Migraciones forzadas y refugio — responsabilidad de Estados y actores internacionales"
+        },
+        {
+          "order": 76,
+          "evidence_id": "ev.taxonomia.f4.capitulo-76",
+          "reason": "Dominio 76: Teorías de justicia — formalización en vocabulario Prometeo"
+        },
+        {
+          "order": 77,
+          "evidence_id": "ev.taxonomia.f4.capitulo-77",
+          "reason": "Dominio 77: Ética aplicada — responsabilidad moral y responsabilidad causal"
+        },
+        {
+          "order": 78,
+          "evidence_id": "ev.taxonomia.f4.capitulo-78",
+          "reason": "Dominio 78: Pensamiento sistémico y causalidad circular — los límites del modelo lineal"
+        }
+      ],
+      "must_surface_review_items": [
+        "review.taxonomia.universal_portability",
+        "review.taxonomia.domain_validation",
+        "review.taxonomia.clinical_boundary",
+        "review.taxonomia.legal_boundary",
+        "review.taxonomia.scientific_causality"
+      ]
     }
   ],
   "review_queue": [
@@ -47452,7 +51469,9 @@
       "evidence": [
         "ev.mci.ii9.s_definition",
         "ev.mci.v3.s_limit",
-        "ev.aosa.f4.capitulo-01-03"
+        "ev.aosa.f4.capitulo-01-03",
+        "ev.taxonomia.f4.capitulo-u-01",
+        "ev.taxonomia.f4.capitulo-u-03"
       ],
       "why_not_auto_resolved": "No se especifican espacio muestral, distribución, datos ni identificación contrafáctica."
     },
@@ -47475,7 +51494,8 @@
         "ev.prometeo.f4.capitulo-02",
         "ev.prometeo.f4.apendice-c",
         "ev.aosa.f4.capitulo-01-02",
-        "ev.aosa.f4.capitulo-01-03"
+        "ev.aosa.f4.capitulo-01-03",
+        "ev.taxonomia.f4.capitulo-u-03"
       ],
       "why_not_auto_resolved": "La derivación se denomina ontológica y A·4 no aporta muestra, observaciones ni estimador. MC-II modifica rangos y propone un protocolo futuro, pero no aporta datos de calibración."
     },
@@ -47522,7 +51542,8 @@
         "ev.histos.f4.capitulo-05-03",
         "ev.prometeo.f4.capitulo-02",
         "ev.prometeo.f4.capitulo-05",
-        "ev.aosa.f4.capitulo-03-02"
+        "ev.aosa.f4.capitulo-03-02",
+        "ev.taxonomia.f4.capitulo-u-03"
       ],
       "why_not_auto_resolved": "Los valores se presentan como escala operativa, pero no hay estudio de fiabilidad, validez ni función de enlace a observables. Las rutas y conversiones añaden reglas operativas no validadas y una suma máxima de .99. Los anclajes posteriores siguen sin datos de calibración."
     },
@@ -47552,7 +51573,8 @@
         "ev.prometeo.f4.capitulo-02",
         "ev.prometeo.f4.capitulo-05",
         "ev.aosa.f4.capitulo-03-02",
-        "ev.aosa.f4.capitulo-04-02"
+        "ev.aosa.f4.capitulo-04-02",
+        "ev.taxonomia.f4.capitulo-u-03"
       ],
       "why_not_auto_resolved": "MC-I reconoce que α no es observable y que la narrativa puede imitar integración; ECO se propone como mejor aproximación sin validación independiente. MC-II afirma observación directa de φ₂ sin estudio que adjudique la restricción previa de MC-I."
     },
@@ -47581,7 +51603,8 @@
         "ev.histos.f4.capitulo-06-02",
         "ev.prometeo.f4.capitulo-02",
         "ev.prometeo.f4.capitulo-05",
-        "ev.aosa.f4.capitulo-03-03"
+        "ev.aosa.f4.capitulo-03-03",
+        "ev.taxonomia.f4.capitulo-u-03"
       ],
       "why_not_auto_resolved": "Las expresiones tienen distinto rango y signo; MC-I reutiliza la versión de TF sin adjudicar la sustitución axiomática. MC-II preserva R*(1−α), conserva casos negativos imposibles y además introduce Δ_sesión con otra firma. El cálculo adopta explícitamente Δ=R*−α, nueva versión histórica sin adjudicar las multiplicativas."
     },
@@ -49526,7 +53549,8 @@
         "ev.calc.c11.4",
         "ev.calc.a.risk",
         "ev.aosa.f4.capitulo-02-01",
-        "ev.aosa.f4.capitulo-04-01"
+        "ev.aosa.f4.capitulo-04-01",
+        "ev.taxonomia.f4.capitulo-u-03"
       ],
       "why_not_auto_resolved": "No hay instrumento, muestra de ítems, error, ponderación ni prueba de que la correlación mida integridad."
     },
@@ -50212,7 +54236,8 @@
         "ev.eco.f4.capitulo-p-5",
         "ev.eco.f4.b-ii-i",
         "ev.histos.f4.capitulo-01-02",
-        "ev.histos.f4.capitulo-05-01"
+        "ev.histos.f4.capitulo-05-01",
+        "ev.taxonomia.f4.capitulo-u-01"
       ],
       "why_not_auto_resolved": "Hay procedimiento y certeza, pero no estudio de concordancia, test-retest ni adjudicación independiente."
     },
@@ -50421,7 +54446,9 @@
         "ev.eco.f4.capitulo-p-4",
         "ev.eco.f4.capitulo-p-5",
         "ev.histos.f4.capitulo-01-01",
-        "ev.histos.f4.capitulo-p-2"
+        "ev.histos.f4.capitulo-p-2",
+        "ev.taxonomia.f4.capitulo-u-01",
+        "ev.taxonomia.f4.capitulo-u-03"
       ],
       "why_not_auto_resolved": "La notación P y el lenguaje de probabilidad conviven con asignación por juicio EP y normalización forzada; el estatuto probabilístico no queda identificado."
     },
@@ -51131,7 +55158,9 @@
       ],
       "evidence": [
         "ev.prometeo.f4.01-prologo",
-        "ev.prometeo.f4.capitulo-06b"
+        "ev.prometeo.f4.capitulo-06b",
+        "ev.taxonomia.f4.capitulo-01",
+        "ev.taxonomia.f4.capitulo-u-04"
       ],
       "why_not_auto_resolved": "La obra declara la separación pero también asigna usos/umbrales procesales fuertes."
     },
@@ -51147,7 +55176,9 @@
       ],
       "evidence": [
         "ev.prometeo.f4.capitulo-02",
-        "ev.prometeo.f4.apendice-a"
+        "ev.prometeo.f4.apendice-a",
+        "ev.taxonomia.f4.capitulo-u-02",
+        "ev.taxonomia.f4.capitulo-01"
       ],
       "why_not_auto_resolved": "Las dos versiones son explícitas y no equivalentes; no puede armonizarse editorialmente."
     },
@@ -51277,7 +55308,9 @@
       ],
       "evidence": [
         "ev.prometeo.f4.capitulo-02",
-        "ev.prometeo.f4.capitulo-06b"
+        "ev.prometeo.f4.capitulo-06b",
+        "ev.taxonomia.f4.capitulo-u-04",
+        "ev.taxonomia.f4.capitulo-01"
       ],
       "why_not_auto_resolved": "La obra afirma admisibilidad amplia sin aparato jurídico suficiente."
     },
@@ -51773,6 +55806,403 @@
         "ev.aosa.f4.capitulo-07-03"
       ],
       "why_not_auto_resolved": "La propia obra reconoce estas preguntas como trabajo futuro."
+    },
+    {
+      "id": "review.taxonomia.universal_portability",
+      "subject": "formulation.taxonomia.scope",
+      "question": "¿Qué evidencia comparativa permite afirmar que un mismo protocolo conserva validez entre 78 dominios y no solo que puede redactarse para todos?",
+      "status": "pending_methodological_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.00-preliminares",
+        "ev.taxonomia.f4.capitulo-u-01"
+      ],
+      "why_not_auto_resolved": "La cobertura editorial demuestra extensión documental, no desempeño, validez o calibración universal."
+    },
+    {
+      "id": "review.taxonomia.hijos_legibility",
+      "subject": "method.taxonomia.hijos_tree",
+      "question": "¿Qué estudio de fiabilidad/validez sostiene la jerarquía confirmable–hipótesis–inaccesible de los seis Hijos desde expedientes?",
+      "status": "pending_empirical_and_construct_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-01"
+      ],
+      "why_not_auto_resolved": "Las firmas se prescriben como estructurales pero no se documentan sensibilidad, especificidad ni acuerdo interevaluador."
+    },
+    {
+      "id": "review.taxonomia.harmonia_inaccessible",
+      "subject": "method.taxonomia.hijos_tree",
+      "question": "¿Está demostrado que Harmonía y D-2 sean documentalmente indistinguibles y que la presencia del sujeto sea necesaria/suficiente para discriminarlas?",
+      "status": "pending_epistemic_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-01"
+      ],
+      "why_not_auto_resolved": "La inaccesibilidad se afirma ontológicamente sin prueba de imposibilidad observacional."
+    },
+    {
+      "id": "review.taxonomia.evidence_scale_versions",
+      "subject": "formal.taxonomia.evidence_scale",
+      "question": "¿Cómo se adjudica esta tercera tabla E0–E8 frente a las versiones incompatibles ya auditadas en Prometeo y otros textos?",
+      "status": "pending_historical_formal_and_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-02"
+      ],
+      "why_not_auto_resolved": "Taxonomía declara la tabla central y permite ajustes por dominio, mientras rangos anteriores difieren."
+    },
+    {
+      "id": "review.taxonomia.evidence_calibration",
+      "subject": "formal.taxonomia.evidence_scale",
+      "question": "¿Qué datos calibran los intervalos w de E0–E8 y permiten interpretar mayor rango como mayor fuerza causal/epistémica?",
+      "status": "pending_metrological_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-02"
+      ],
+      "why_not_auto_resolved": "La jerarquía y los intervalos se presentan como técnicamente razonables sin estudio de calibración."
+    },
+    {
+      "id": "review.taxonomia.intersection_semantics",
+      "subject": "method.taxonomia.evidence_conflict",
+      "question": "¿Es válida la intersección de intervalos procedentes de tipos de evidencia distintos como si estimaran el mismo parámetro w con significado homogéneo?",
+      "status": "pending_statistical_and_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-02"
+      ],
+      "why_not_auto_resolved": "Solapamiento de rangos no equivale por sí mismo a convergencia estadística de estimadores."
+    },
+    {
+      "id": "review.taxonomia.contradiction_k",
+      "subject": "method.taxonomia.evidence_conflict",
+      "question": "¿Qué fundamento valida k=0.1/0.2/0.3 y la fórmula de desplazamiento del rango ante contradicción?",
+      "status": "pending_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-02"
+      ],
+      "why_not_auto_resolved": "Los coeficientes y cortes de severidad son reglas autorales no calibradas."
+    },
+    {
+      "id": "review.taxonomia.contradiction_diagnostic",
+      "subject": "method.taxonomia.evidence_conflict",
+      "question": "¿Puede contradicción narrativa distinguir Anteros negativo de Fobos estratégico e informar IIC/α sin circularidad o alternativas explicativas?",
+      "status": "pending_construct_and_methodological_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-02"
+      ],
+      "why_not_auto_resolved": "La misma evidencia se usa para clasificar disposición y luego ajustar parámetros que alimentan el resultado."
+    },
+    {
+      "id": "review.taxonomia.SA_mixture",
+      "subject": "formal.taxonomia.S_route_A",
+      "question": "¿Qué justifica promediar linealmente límites S por P(Hijos) y qué incertidumbre/calibración de P(Hijos) debe propagarse?",
+      "status": "pending_formal_and_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-03"
+      ],
+      "why_not_auto_resolved": "La regla de mezcla se prescribe sin derivación del constructo S ni modelo probabilístico de incertidumbre."
+    },
+    {
+      "id": "review.taxonomia.route_independence",
+      "subject": "method.taxonomia.universal_protocol",
+      "question": "¿Son realmente independientes Ruta A y Ruta B cuando ambas pueden apoyarse en el mismo expediente y en juicios del mismo analista?",
+      "status": "pending_methodological_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-03"
+      ],
+      "why_not_auto_resolved": "Compartir fuentes/juicios invalida tratar convergencia como doble medición independiente sin diseño adicional."
+    },
+    {
+      "id": "review.taxonomia.DS_calibration",
+      "subject": "formal.taxonomia.S_route_B",
+      "question": "¿Qué evidencia sostiene niveles DS-1…DS-6 y sus rangos S, y son invariantes entre dominios?",
+      "status": "pending_metrological_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-03"
+      ],
+      "why_not_auto_resolved": "La obra los marca expresamente como propuesta pendiente de calibración."
+    },
+    {
+      "id": "review.taxonomia.IIC_adjustment",
+      "subject": "formal.taxonomia.IIC_adjustment",
+      "question": "¿Cómo se calibran cortes IIC y factores ×1.00/0.85/0.70/0.55, y por qué solo modifican w_max?",
+      "status": "pending_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-03"
+      ],
+      "why_not_auto_resolved": "La regla es orientativa y puede alterar el ancho/orden del intervalo sin modelo de error."
+    },
+    {
+      "id": "review.taxonomia.IIC_range_collapse",
+      "subject": "formal.taxonomia.IIC_adjustment",
+      "question": "¿Qué interpretación formal tiene un ajuste que produce w_min>w_max y por qué eso autoriza excluir la arista en vez de revisar la regla de ajuste?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-03"
+      ],
+      "why_not_auto_resolved": "El ejemplo de la propia obra produce [0.55,0.53] y lo trata como señal de exclusión."
+    },
+    {
+      "id": "review.taxonomia.alpha_bridge",
+      "subject": "formal.taxonomia.alpha_bridge",
+      "question": "¿Qué evidencia permite mapear negación/reconocimiento/asunción/integración a cinco bandas numéricas y hacerlas comparables con α formal/MC-II/Prometeo?",
+      "status": "pending_metrological_and_crosswork_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-03"
+      ],
+      "why_not_auto_resolved": "La tabla convierte categorías observacionales en intervalos sin calibración independiente."
+    },
+    {
+      "id": "review.taxonomia.feedback_circularity",
+      "subject": "method.taxonomia.feedback_loop",
+      "question": "¿Usar la “coherencia con la evidencia” del output para revisar inputs introduce ajuste post hoc hasta obtener el resultado esperado?",
+      "status": "pending_methodological_and_validation_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-03"
+      ],
+      "why_not_auto_resolved": "El ciclo puede ser útil como depuración, pero sin criterio externo puede convertirse en confirmación circular."
+    },
+    {
+      "id": "review.taxonomia.sensitivity_space",
+      "subject": "method.taxonomia.sensitivity",
+      "question": "¿Cómo se reconcilia definir sensibilidad sobre TODO el producto cartesiano con aceptar como mínimo tres escenarios no exhaustivos?",
+      "status": "pending_formal_and_computational_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-04"
+      ],
+      "why_not_auto_resolved": "Tres escenarios no demuestran invariancia global salvo condiciones adicionales de monotonía/extremos."
+    },
+    {
+      "id": "review.taxonomia.declaration_30",
+      "subject": "method.taxonomia.declarations",
+      "question": "¿Qué valida el umbral orientativo del 30% para distinguir A de B y cómo cambia por dominio/foro?",
+      "status": "pending_metrological_and_decision_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-04"
+      ],
+      "why_not_auto_resolved": "El propio texto permite sustituir el umbral con justificación, por lo que no es calibración estable."
+    },
+    {
+      "id": "review.taxonomia.forum_action",
+      "subject": "formulation.taxonomia.forum_portability",
+      "question": "¿Puede una Declaración algorítmica autorizar acciones distintas en tribunales, consejos, equipos clínicos y comités sin estándares de validación/admisibilidad específicos?",
+      "status": "pending_legal_clinical_and_governance_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-04"
+      ],
+      "why_not_auto_resolved": "La misma salida se traduce a consecuencias institucionales heterogéneas."
+    },
+    {
+      "id": "review.taxonomia.domain_ranges",
+      "subject": "method.taxonomia.universal_protocol",
+      "question": "¿Qué justifica ajustar por dominio la tabla E0–E8 manteniendo simultáneamente una jerarquía universal y cómo se comparan resultados entre dominios?",
+      "status": "pending_crossdomain_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-u-02",
+        "ev.taxonomia.f4.capitulo-01"
+      ],
+      "why_not_auto_resolved": "El protocolo permite rangos específicos por dominio, lo que abre problemas de equivalencia y transportabilidad."
+    },
+    {
+      "id": "review.taxonomia.domain_examples",
+      "subject": "formulation.taxonomia.scope",
+      "question": "¿Los casos, ejemplos y guías de los 78 capítulos son ilustraciones internas o aportan evidencia empírica independiente de validez?",
+      "status": "pending_empirical_status_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.00-preliminares",
+        "ev.taxonomia.f4.capitulo-01"
+      ],
+      "why_not_auto_resolved": "La multiplicidad de aplicaciones no debe convertirse automáticamente en validación causal, clínica, jurídica o técnica."
+    },
+    {
+      "id": "review.taxonomia.clinical_boundary",
+      "subject": "formulation.taxonomia.scope",
+      "question": "¿Qué capítulos de salud/psicología usan lenguaje diagnóstico o clínico y qué validación/competencia profesional requeriría su uso real?",
+      "status": "pending_clinical_and_legal_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-21",
+        "ev.taxonomia.f4.capitulo-24",
+        "ev.taxonomia.f4.capitulo-59",
+        "ev.taxonomia.f4.capitulo-62"
+      ],
+      "why_not_auto_resolved": "La taxonomía extiende instrumentos a dominios clínicos sin que la obra constituya validación clínica."
+    },
+    {
+      "id": "review.taxonomia.legal_boundary",
+      "subject": "formulation.taxonomia.scope",
+      "question": "¿Qué uso jurídico real es admisible en los múltiples dominios legales y cómo se separa causalidad modelada de calificación, prueba y decisión judicial?",
+      "status": "pending_legal_and_methodological_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-01",
+        "ev.taxonomia.f4.capitulo-03",
+        "ev.taxonomia.f4.capitulo-09",
+        "ev.taxonomia.f4.capitulo-10"
+      ],
+      "why_not_auto_resolved": "Los capítulos jurídicos ofrecen operacionalizaciones, no validación normativa/admisibilidad universal."
+    },
+    {
+      "id": "review.taxonomia.scientific_causality",
+      "subject": "formulation.taxonomia.scope",
+      "question": "¿Cómo se evita trasladar sin validación un modelo de imputación de agentes a epidemiología, oncología, clima, ecología u otros sistemas causales no equivalentes?",
+      "status": "pending_scientific_and_methodological_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.capitulo-21",
+        "ev.taxonomia.f4.capitulo-22",
+        "ev.taxonomia.f4.capitulo-64",
+        "ev.taxonomia.f4.capitulo-65"
+      ],
+      "why_not_auto_resolved": "Portabilidad conceptual no demuestra adecuación del modelo causal a cada disciplina."
+    },
+    {
+      "id": "review.taxonomia.domain_validation",
+      "subject": "formulation.taxonomia.scope",
+      "question": "¿Qué batería de validación por dominio distinguirá utilidad documental, calibración, validez predictiva/causal y eficacia decisional?",
+      "status": "pending_validation_program_review",
+      "blocking": false,
+      "blocking_for": [
+        "crossdomain_application",
+        "formal_application",
+        "real_world_use"
+      ],
+      "evidence": [
+        "ev.taxonomia.f4.00-preliminares",
+        "ev.taxonomia.f4.capitulo-u-04"
+      ],
+      "why_not_auto_resolved": "La obra cubre dominios, pero no presenta una validación comparativa transversal de todos ellos."
     }
   ],
   "tests": [

@@ -3499,6 +3499,44 @@ def main() -> int:
         inferred_aosa={"rel.aosa.ego.reframes_core","rel.aosa.phi1.reuses_global","rel.aosa.phi2.reuses_global","rel.aosa.I.reuses_global","rel.aosa.Sop.operationalizes_mci","rel.aosa.Sest.operationalizes_mci","rel.aosa.alpha.reuses_global","rel.aosa.delta.reuses_global","rel.aosa.sdo.adapts_sdo","rel.aosa.eco.adapts_eco","rel.aosa.cycle.uses_prometeo"}
         require(all(relations[r]["evidence_status"]=="inferred" and bool(relations[r].get("rationale")) for r in inferred_aosa), "Cruces AOSA con F2/F3/F4 deben seguir como inferencias auditables")
 
+
+        # Invariantes ganadas al cerrar F4 con Taxonomía General de Aplicaciones.
+        require("TAXONOMIA" in works, "F4 no puede cerrarse sin Taxonomía")
+        tax_path=ROOT/"corpus"/"libros"/"taxonomia-general-de-aplicaciones"/"estructura.json"
+        require(tax_path.exists(), "Falta estructura derivada Taxonomía")
+        tax_struct=json.loads(tax_path.read_text(encoding="utf-8"))
+        require(tax_struct.get("sha256")==works["TAXONOMIA"]["sha256"], "Taxonomía no corresponde a fuente canónica")
+        tax_segments={s["path"]:(s["start_line"],s["end_line"]) for s in tax_struct["segments"]}
+        require(len(tax_segments)==83, "Taxonomía debe conservar 83 segmentos")
+        tax_ev=[x for x in evidence.values() if x["work_id"]=="TAXONOMIA"]
+        require(set(tax_segments)<={x["segment"] for x in tax_ev}, "Auditoría Taxonomía perdió cobertura")
+        for x in tax_ev:
+            require(x["segment"] in tax_segments, f"{x['id']}: segmento Taxonomía no declarado")
+            a,b=tax_segments[x["segment"]]; c,d=x["source_lines"]
+            require(a<=c<=d<=b, f"{x['id']}: rango Taxonomía fuera de segmento")
+        required_tax={"formulation.taxonomia.scope","method.taxonomia.universal_protocol","method.taxonomia.hijos_tree","formal.taxonomia.evidence_scale","method.taxonomia.evidence_conflict","formal.taxonomia.S_route_A","formal.taxonomia.S_route_B","formal.taxonomia.IIC_adjustment","formal.taxonomia.alpha_bridge","method.taxonomia.feedback_loop","method.taxonomia.sensitivity","method.taxonomia.declarations","formulation.taxonomia.forum_portability"}
+        require(required_tax<=set(nodes), f"Auditoría Taxonomía incompleta: {sorted(required_tax-set(nodes))}")
+        domain_nodes=[nid for nid in nodes if nid.startswith("method.taxonomia.domain_")]
+        require(len(domain_nodes)==78, f"Taxonomía debe conservar 78 perfiles de dominio, hay {len(domain_nodes)}")
+        require(nodes["formal.taxonomia.evidence_scale"]["formal_spec"].get("epistemic_status")=="authorial_calibration_table_historically_inconsistent_and_uncalibrated", "E0–E8 de Taxonomía no puede promoverse a calibración validada")
+        require(nodes["formal.taxonomia.S_route_B"]["formal_spec"].get("epistemic_status")=="authorial_scale_pending_empirical_calibration", "DS→S debe seguir pendiente de calibración")
+        require(nodes["formal.taxonomia.alpha_bridge"]["formal_spec"].get("epistemic_status")=="authorial_crosswork_mapping_pending_metrological_validation", "Puente α Taxonomía no puede tratarse como equivalencia demostrada")
+        tax_reviews={rid for rid in reviews if rid.startswith("review.taxonomia.")}
+        require(len(tax_reviews)>=24, "Deben conservarse al menos 24 revisiones propias Taxonomía")
+        inherited_tax={"review.prometeo.evidence_scale_versions","review.mci.s_probability","review.mci.s_ranges_calibration","review.mci.alpha_calibration","review.mci.alpha_observability","review.mci.delta_crosswork","review.calc.IIC_measurement","review.prometeo.causal_vs_legal","review.prometeo.legal_admissibility","review.eco.p_hijos_semantics","review.sdo.coding_reproducibility"}
+        for rid in inherited_tax:
+            require(rid in reviews, f"Falta revisión heredada {rid}")
+            require(str(reviews[rid].get("status","")).startswith("pending"), f"Taxonomía no autoriza cerrar {rid}")
+            require(any(e.startswith("ev.taxonomia.") for e in reviews[rid].get("evidence",[])), f"{rid} debe conservar evidencia Taxonomía")
+        required_routes={"route.taxonomia.universal","route.taxonomia.hijos","route.taxonomia.evidence","route.taxonomia.s_alpha","route.taxonomia.sensitivity","route.taxonomia.domains"}
+        require(required_routes<=set(routes), "Faltan rutas universales/de dominios de Taxonomía")
+        part_routes=[r for r in routes if r.startswith("route.taxonomia.part.")]
+        require(len(part_routes)==13, f"Taxonomía debe conservar 13 rutas de área; hay {len(part_routes)}")
+        require(len(routes["route.taxonomia.domains"]["steps"])==78, "Ruta transversal Taxonomía debe cubrir 78 dominios")
+        inferred_tax={"rel.taxonomia.universal.uses_prometeo","rel.taxonomia.universal.uses_sdo","rel.taxonomia.universal.uses_eco","rel.taxonomia.SA.operationalizes_S","rel.taxonomia.SB.operationalizes_S","rel.taxonomia.alpha.operationalizes_mcii","rel.taxonomia.declarations.adapts_prometeo"}
+        require(all(relations[r]["evidence_status"]=="inferred" and bool(relations[r].get("rationale")) for r in inferred_tax), "Cruces Taxonomía con F2/F3/F4 deben seguir inferidos")
+        require(phase=="F5", "Tras integrar Taxonomía, F4 debe quedar cerrada y F5 operativa")
+
     print(
         "Mapa válido:",
         f"fase={phase}, schema={schema_status};",
