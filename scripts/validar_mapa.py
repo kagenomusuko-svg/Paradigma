@@ -3267,6 +3267,69 @@ def main() -> int:
             <= set(routes["route.calc.case_axis"].get("must_surface_review_items", [])),
             "La ruta del Caso Eje debe surfacer fuentes, calibración, J y reproducción",
         )
+        require(
+            phase in {"F4", "F5", "MANT"},
+            "Con las cinco obras de F3 integradas y validadas, la fase operativa no puede retroceder a F3",
+        )
+        f3_formal_prefixes = (
+            "formal.tf.",
+            "formal.axiom.",
+            "formal.mci.",
+            "formal.mcii.",
+            "formal.calc.",
+        )
+        f3_formal_nodes = {
+            node_id: item
+            for node_id, item in nodes.items()
+            if item.get("kind") == "formal_object"
+            and node_id.startswith(f3_formal_prefixes)
+        }
+        require(
+            len(f3_formal_nodes) >= 155,
+            "El cierre de F3 debe conservar al menos 155 objetos formales auditados",
+        )
+        for node_id, item in f3_formal_nodes.items():
+            spec = item.get("formal_spec", {})
+            require(
+                bool(spec.get("symbol"))
+                and bool(spec.get("object_type"))
+                and (bool(spec.get("expression")) or bool(spec.get("definition")))
+                and bool(spec.get("domain"))
+                and bool(spec.get("codomain"))
+                and isinstance(spec.get("dependencies"), list)
+                and isinstance(spec.get("assumptions"), list)
+                and bool(spec.get("epistemic_status"))
+                and bool(spec.get("ontological_correspondence"))
+                and bool(item.get("evidence")),
+                f"{node_id}: F3 exige símbolo, tipo, definición o expresión, dominio, "
+                "codominio, dependencias, supuestos, estatuto, correspondencia y proveniencia",
+            )
+        f3_review_prefixes = (
+            "review.tf.",
+            "review.axiom.",
+            "review.mci.",
+            "review.mcii.",
+            "review.calc.",
+        )
+        f3_reviews = {
+            review_id
+            for review_id in reviews
+            if review_id.startswith(f3_review_prefixes)
+        }
+        surfaced_reviews = {
+            review_id
+            for route_item in routes.values()
+            for review_id in route_item.get("must_surface_review_items", [])
+        }
+        require(
+            len(f3_reviews) >= 269,
+            "El cierre de F3 no puede perder revisiones heredadas o propias",
+        )
+        require(
+            f3_reviews <= surfaced_reviews,
+            "Toda revisión de F3 debe ser navegable desde al menos una ruta; faltan: "
+            f"{sorted(f3_reviews - surfaced_reviews)}",
+        )
 
     print(
         "Mapa válido:",
