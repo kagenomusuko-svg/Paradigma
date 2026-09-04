@@ -1,7 +1,7 @@
 {
-  "map_version": "2.10.0",
+  "map_version": "2.11.0",
   "schema_status": "frozen",
-  "phase": "F5",
+  "phase": "MANT",
   "purpose": "Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.",
   "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 quedó cerrada con nueve obras integradas. F3 incorpora sistemáticamente La transformación formal y Axiomatización del sistema de la doble mediación, conservando sus objetos, supuestos, correspondencias, revisiones y contradicciones sin convertir teoremas autorales en resultados matemáticamente validados. La siguiente obra de F3 es Metrología Causal, volumen I.",
   "works": [
@@ -47151,6 +47151,1401 @@
         "review.taxonomia.legal_boundary",
         "review.taxonomia.scientific_causality"
       ]
+    },
+    {
+      "id": "route.f5.acceptance.01",
+      "purpose": "Prueba F5 01: Fórmula del ego y evolución entre obras",
+      "triggers": [
+        "Fórmula del ego y evolución entre obras",
+        "aceptación 01",
+        "F5 01"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.caos.formula_ego",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa1.fanes.formula_responsibility",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa1.bis.iteration",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aa1.stages.crosswalk",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aa2.system.phi2",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.tf.tres_formulas",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.tf.correspondencias",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.axiom.translation",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 9,
+          "evidence_id": "ev.aq.ego.axis",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 10,
+          "evidence_id": "ev.mask.formulas.developed",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 11,
+          "evidence_id": "ev.telar.ch2.identity_ego",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 12,
+          "evidence_id": "ev.tf.13.phi2_update",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 13,
+          "evidence_id": "ev.axiom.phi1",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 14,
+          "evidence_id": "ev.axiom.phi2_it",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 15,
+          "evidence_id": "ev.tf.epilogue.calibration_gap",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 16,
+          "evidence_id": "ev.axiom.2.rsc",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aa1.caos_crosswalk",
+        "review.aa1.responsibility_grounding",
+        "review.aa1.neutral_habits",
+        "review.aa2.phi2_function_change",
+        "review.aq.ego_crosswalk",
+        "review.aq.ego_ownership",
+        "review.mask.formula_crosswalk",
+        "review.mask.identity_ego_inertia",
+        "review.telar.selfdetermination_crosswalk",
+        "review.telar.ego_crosswalk",
+        "review.telar.identity_crosswalk",
+        "review.tf.phi1_typing",
+        "review.tf.phi2_typing",
+        "review.tf.c_internal_crosswalk",
+        "review.aa2.alpha_symbol_collision",
+        "review.tf.volume2_validation",
+        "review.axiom.rsc_type",
+        "review.axiom.irreversibility",
+        "review.axiom.phi2_integration"
+      ]
+    },
+    {
+      "id": "route.f5.acceptance.02",
+      "purpose": "Prueba F5 02: Primera y segunda mediación",
+      "triggers": [
+        "Primera y segunda mediación",
+        "aceptación 02",
+        "F5 02"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aa1.neutral.interlocutors",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa1.neutral.formula_scope",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa1.fanes.formula_responsibility",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aa1.bis.iteration",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aa1.bis.habits_assumption",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.aa1.stages.crosswalk",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.caos.formula_ego",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.aa2.system.phi2",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 9,
+          "evidence_id": "ev.tf.tres_formulas",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 10,
+          "evidence_id": "ev.tf.correspondencias",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 11,
+          "evidence_id": "ev.axiom.translation",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 12,
+          "evidence_id": "ev.aq.ego.axis",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 13,
+          "evidence_id": "ev.mask.formulas.developed",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 14,
+          "evidence_id": "ev.telar.ch2.identity_ego",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 15,
+          "evidence_id": "ev.tf.13.phi2_update",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 16,
+          "evidence_id": "ev.axiom.phi1",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 17,
+          "evidence_id": "ev.axiom.phi2_it",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 18,
+          "evidence_id": "ev.tf.epilogue.calibration_gap",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 19,
+          "evidence_id": "ev.axiom.2.rsc",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aa1.caos_crosswalk",
+        "review.aa1.neutral_habits",
+        "review.aa1.responsibility_grounding",
+        "review.aa2.phi2_function_change",
+        "review.aq.ego_crosswalk",
+        "review.aq.ego_ownership",
+        "review.mask.formula_crosswalk",
+        "review.mask.identity_ego_inertia",
+        "review.telar.selfdetermination_crosswalk",
+        "review.telar.ego_crosswalk",
+        "review.telar.identity_crosswalk",
+        "review.tf.phi1_typing",
+        "review.tf.phi2_typing",
+        "review.tf.c_internal_crosswalk",
+        "review.aa2.alpha_symbol_collision",
+        "review.tf.volume2_validation",
+        "review.axiom.rsc_type",
+        "review.axiom.irreversibility",
+        "review.axiom.phi2_integration"
+      ]
+    },
+    {
+      "id": "route.f5.acceptance.03",
+      "purpose": "Prueba F5 03: Mediación neutral, Fanes y Bis frente a Caos",
+      "triggers": [
+        "Mediación neutral, Fanes y Bis frente a Caos",
+        "aceptación 03",
+        "F5 03"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aa1.neutral.interlocutors",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa1.neutral.formula_scope",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa1.fanes.formula_responsibility",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aa1.bis.iteration",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aa1.bis.habits_assumption",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.aa1.stages.crosswalk",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.caos.prelim.architecture",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.caos.ego_event_subject",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 9,
+          "evidence_id": "ev.caos.chaos_definition",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 10,
+          "evidence_id": "ev.caos.mediation_general_neutral",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 11,
+          "evidence_id": "ev.caos.glossary_ego_identity",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 12,
+          "evidence_id": "ev.caos.formula_ego",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 13,
+          "evidence_id": "ev.aa2.system.phi2",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 14,
+          "evidence_id": "ev.tf.tres_formulas",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 15,
+          "evidence_id": "ev.tf.correspondencias",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 16,
+          "evidence_id": "ev.axiom.translation",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 17,
+          "evidence_id": "ev.aq.ego.axis",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 18,
+          "evidence_id": "ev.mask.formulas.developed",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 19,
+          "evidence_id": "ev.telar.ch2.identity_ego",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 20,
+          "evidence_id": "ev.tf.13.phi2_update",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aa1.caos_crosswalk",
+        "review.aa1.neutral_habits",
+        "review.aa1.responsibility_grounding",
+        "review.aa2.phi2_function_change",
+        "review.aq.ego_crosswalk",
+        "review.aq.ego_ownership",
+        "review.mask.formula_crosswalk",
+        "review.mask.identity_ego_inertia",
+        "review.telar.selfdetermination_crosswalk",
+        "review.telar.ego_crosswalk",
+        "review.telar.identity_crosswalk",
+        "review.tf.phi1_typing",
+        "review.tf.phi2_typing",
+        "review.tf.c_internal_crosswalk"
+      ]
+    },
+    {
+      "id": "route.f5.acceptance.04",
+      "purpose": "Prueba F5 04: Aego frente a evasión o bloqueo de φ₂",
+      "triggers": [
+        "Aego frente a evasión o bloqueo de φ₂",
+        "aceptación 04",
+        "F5 04"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aa1.aego",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa1.aego_formal",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa1.glossary",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aa3.aego",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aa3.aego.regimes",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.aa3.pax.zero_locus",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.aa3.continuity.collective",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.aa3.glossary",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 9,
+          "evidence_id": "ev.sdo.aego",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 10,
+          "evidence_id": "ev.aa4.dolo.i10",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 11,
+          "evidence_id": "ev.aa5.friction.aego",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 12,
+          "evidence_id": "ev.tf.24.aego_phi2",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aego.formulation_change",
+        "review.aa1.aego_zero_indeterminate",
+        "review.aa1.aego_operator_agency",
+        "review.aa3.aego_zero_locus",
+        "review.aa3.aego_regime_derivative",
+        "review.aa3.phi_functions",
+        "review.aa4.damasen_crosswalk",
+        "review.aa5.state_will",
+        "review.tf.aego_crosswalk",
+        "review.tf.aego_clinical"
+      ]
+    },
+    {
+      "id": "route.f5.acceptance.05",
+      "purpose": "Prueba F5 05: R* definición, cálculo y presupuestos",
+      "triggers": [
+        "R* definición, cálculo y presupuestos",
+        "aceptación 05",
+        "F5 05"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.axiom.system_map",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.axiom.rstar",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mci.rstar_validity",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.axiom.translation",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.tf.21.eigenvector",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.axiom.6.pf",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.rstar.sink_irreducibility",
+        "review.tf.rstar_orientation",
+        "review.tf.rstar_target_centrality",
+        "review.axiom.rstar_sink",
+        "review.axiom.epsilon_dimension",
+        "review.axiom.rstar_intervals"
+      ]
+    },
+    {
+      "id": "route.f5.acceptance.06",
+      "purpose": "Prueba F5 06: S entre ontología, metrología y aplicación",
+      "triggers": [
+        "S entre ontología, metrología y aplicación",
+        "aceptación 06",
+        "F5 06"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mci.ii7.rnet",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mci.ii9.s_definition",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mci.ii10.s_ranges",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mci.ii11.designer",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mci.v3.s_limit",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mci.a4.calibration",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.prometeo.f4.capitulo-02",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.prometeo.f4.capitulo-04",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 9,
+          "evidence_id": "ev.prometeo.f4.apendice-c",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 10,
+          "evidence_id": "ev.aosa.f4.capitulo-01-02",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 11,
+          "evidence_id": "ev.aosa.f4.capitulo-01-03",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 12,
+          "evidence_id": "ev.taxonomia.f4.capitulo-u-03",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.rnet_redistribution",
+        "review.tf.s_ranges",
+        "review.mci.rnet_redistribution",
+        "review.mci.s_probability",
+        "review.mci.s_ranges_calibration",
+        "review.mci.s_designer_conflict",
+        "review.mci.benefit_symmetry",
+        "review.prometeo.rstar_algorithm_equivalence",
+        "review.prometeo.design_node_presumption",
+        "review.prometeo.S_calibration",
+        "review.tf.rstar_orientation",
+        "review.mci.rstar_orientation",
+        "review.calc.rstar_equivalence",
+        "review.aosa.children_calibration",
+        "review.aosa.Sop_units",
+        "review.aosa.Sest_bounds",
+        "review.aosa.S_order_equivalence",
+        "review.taxonomia.SA_mixture",
+        "review.taxonomia.route_independence",
+        "review.taxonomia.DS_calibration",
+        "review.taxonomia.IIC_adjustment",
+        "review.taxonomia.alpha_bridge",
+        "review.taxonomia.feedback_circularity"
+      ]
+    },
+    {
+      "id": "route.f5.acceptance.07",
+      "purpose": "Prueba F5 07: α y Δ y su estatus formal",
+      "triggers": [
+        "α y Δ y su estatus formal",
+        "aceptación 07",
+        "F5 07"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mci.ii12.alpha",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mci.ii13.alpha_time",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mci.ii14.delta",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mci.ii15.adjustment",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mci.v4.alpha_limit",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mci.vi5.delta",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.axiom.5.delta",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.prometeo.f4.capitulo-02",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 9,
+          "evidence_id": "ev.prometeo.f4.capitulo-05",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 10,
+          "evidence_id": "ev.prometeo.f4.apendice-c",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 11,
+          "evidence_id": "ev.aosa.f4.capitulo-03-02",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 12,
+          "evidence_id": "ev.aosa.f4.capitulo-03-03",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 13,
+          "evidence_id": "ev.taxonomia.f4.capitulo-u-03",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.alpha_measurement",
+        "review.tf.alpha_irreversibility",
+        "review.mci.alpha_calibration",
+        "review.mci.alpha_observability",
+        "review.mci.delta_crosswork",
+        "review.mci.delta_impossible_cases",
+        "review.prometeo.alpha_semantic_drift",
+        "review.prometeo.delta_comparability",
+        "review.calc.alpha_crossdomain",
+        "review.histos.alpha_scale",
+        "review.histos.delta_semantics",
+        "review.aosa.alpha_calibration",
+        "review.aosa.delta_balance",
+        "review.aosa.delta_thresholds",
+        "review.aosa.self_rstar",
+        "review.taxonomia.SA_mixture",
+        "review.taxonomia.route_independence",
+        "review.taxonomia.DS_calibration",
+        "review.taxonomia.IIC_adjustment",
+        "review.taxonomia.alpha_bridge",
+        "review.taxonomia.feedback_circularity"
+      ]
+    },
+    {
+      "id": "route.f5.acceptance.08",
+      "purpose": "Prueba F5 08: IIC y cálculo colectivo",
+      "triggers": [
+        "IIC y cálculo colectivo",
+        "aceptación 08",
+        "F5 08"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.mci.iii9.iic",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.mci.iv1.series",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mci.iv4.iic_weights",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mci.iv7.identity",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mci.iv5.annona",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.mci.vi14.consistency",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.taxonomia.f4.capitulo-u-03",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.iic_correlation",
+        "review.tf.adjustment_circularity",
+        "review.mci.iic_definition",
+        "review.mci.iic_scale",
+        "review.mci.iic_circularity",
+        "review.mci.w_iic_bounds",
+        "review.mci.series_identity",
+        "review.mci.annona_formula",
+        "review.taxonomia.SA_mixture",
+        "review.taxonomia.route_independence",
+        "review.taxonomia.DS_calibration",
+        "review.taxonomia.IIC_adjustment",
+        "review.taxonomia.alpha_bridge",
+        "review.taxonomia.feedback_circularity"
+      ]
+    },
+    {
+      "id": "route.f5.acceptance.09",
+      "purpose": "Prueba F5 09: SDO hacia entradas del modelo causal",
+      "triggers": [
+        "SDO hacia entradas del modelo causal",
+        "aceptación 09",
+        "F5 09"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.sdo.f4.vii-1",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.sdo.f4.vii-2",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.sdo.f4.vii-3",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.sdo.f4.vii-4",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mci.rstar_validity",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.taxonomia.f4.capitulo-u-03",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.sdo.code_to_graph_validity",
+        "review.sdo.alpha_semantics",
+        "review.sdo.delta_semantics",
+        "review.sdo.alphaT_validation",
+        "review.sdo.children_weight_calibration",
+        "review.sdo.prognostic_claims",
+        "review.tf.alpha_measurement",
+        "review.tf.alpha_comparability",
+        "review.mci.alpha_calibration",
+        "review.mci.delta_crosswork",
+        "review.calc.delta_history",
+        "review.rstar.sink_irreducibility",
+        "review.taxonomia.SA_mixture",
+        "review.taxonomia.route_independence",
+        "review.taxonomia.DS_calibration",
+        "review.taxonomia.IIC_adjustment",
+        "review.taxonomia.alpha_bridge",
+        "review.taxonomia.feedback_circularity"
+      ]
+    },
+    {
+      "id": "route.f5.acceptance.10",
+      "purpose": "Prueba F5 10: Implementar motor de cálculo sin mezclar estatutos",
+      "triggers": [
+        "Implementar motor de cálculo sin mezclar estatutos",
+        "aceptación 10",
+        "F5 10"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.tf.tres_formulas",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.tf.correspondencias",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.axiom.phi1",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.axiom.phi2_it",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.axiom.translation",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.tf.epilogue.calibration_gap",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.axiom.2.rsc",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.axiom.system_map",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 9,
+          "evidence_id": "ev.axiom.rstar",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 10,
+          "evidence_id": "ev.mci.rstar_validity",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 11,
+          "evidence_id": "ev.tf.21.eigenvector",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 12,
+          "evidence_id": "ev.axiom.6.pf",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 13,
+          "evidence_id": "ev.mci.ii7.rnet",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 14,
+          "evidence_id": "ev.mci.ii9.s_definition",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 15,
+          "evidence_id": "ev.mci.ii10.s_ranges",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 16,
+          "evidence_id": "ev.mci.ii11.designer",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 17,
+          "evidence_id": "ev.mci.v3.s_limit",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 18,
+          "evidence_id": "ev.mci.a4.calibration",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 19,
+          "evidence_id": "ev.mci.ii12.alpha",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 20,
+          "evidence_id": "ev.mci.ii13.alpha_time",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 21,
+          "evidence_id": "ev.mci.ii14.delta",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 22,
+          "evidence_id": "ev.mci.ii15.adjustment",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 23,
+          "evidence_id": "ev.mci.v4.alpha_limit",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 24,
+          "evidence_id": "ev.mci.vi5.delta",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 25,
+          "evidence_id": "ev.axiom.5.delta",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 26,
+          "evidence_id": "ev.mci.iii9.iic",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 27,
+          "evidence_id": "ev.mci.iv1.series",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 28,
+          "evidence_id": "ev.mci.iv4.iic_weights",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 29,
+          "evidence_id": "ev.mci.iv7.identity",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 30,
+          "evidence_id": "ev.mci.iv5.annona",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 31,
+          "evidence_id": "ev.mci.vi14.consistency",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 32,
+          "evidence_id": "ev.prometeo.f4.capitulo-02",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 33,
+          "evidence_id": "ev.prometeo.f4.capitulo-04",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 34,
+          "evidence_id": "ev.prometeo.f4.apendice-c",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 35,
+          "evidence_id": "ev.prometeo.f4.capitulo-05",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 36,
+          "evidence_id": "ev.taxonomia.f4.capitulo-u-02",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 37,
+          "evidence_id": "ev.taxonomia.f4.capitulo-u-04",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aa2.phi2_function_change",
+        "review.aa2.alpha_symbol_collision",
+        "review.tf.phi1_typing",
+        "review.tf.phi2_typing",
+        "review.tf.volume2_validation",
+        "review.axiom.rsc_type",
+        "review.axiom.irreversibility",
+        "review.axiom.phi2_integration",
+        "review.rstar.sink_irreducibility",
+        "review.tf.rstar_orientation",
+        "review.tf.rstar_target_centrality",
+        "review.axiom.rstar_sink",
+        "review.axiom.epsilon_dimension",
+        "review.axiom.rstar_intervals",
+        "review.tf.rnet_redistribution",
+        "review.tf.s_ranges",
+        "review.mci.rnet_redistribution",
+        "review.mci.s_probability",
+        "review.mci.s_ranges_calibration",
+        "review.mci.s_designer_conflict",
+        "review.mci.benefit_symmetry",
+        "review.tf.alpha_measurement",
+        "review.tf.alpha_irreversibility",
+        "review.mci.alpha_calibration",
+        "review.mci.alpha_observability",
+        "review.mci.delta_crosswork",
+        "review.mci.delta_impossible_cases",
+        "review.tf.iic_correlation",
+        "review.tf.adjustment_circularity",
+        "review.mci.iic_definition",
+        "review.mci.iic_scale",
+        "review.mci.iic_circularity",
+        "review.mci.w_iic_bounds",
+        "review.mci.series_identity",
+        "review.mci.annona_formula",
+        "review.prometeo.rstar_algorithm_equivalence",
+        "review.prometeo.design_node_presumption",
+        "review.prometeo.S_calibration",
+        "review.mci.rstar_orientation",
+        "review.calc.rstar_equivalence",
+        "review.prometeo.alpha_semantic_drift",
+        "review.prometeo.delta_comparability",
+        "review.calc.alpha_crossdomain",
+        "review.histos.alpha_scale",
+        "review.histos.delta_semantics",
+        "review.taxonomia.evidence_scale_versions",
+        "review.taxonomia.evidence_calibration",
+        "review.taxonomia.intersection_semantics",
+        "review.taxonomia.contradiction_k",
+        "review.taxonomia.sensitivity_space",
+        "review.taxonomia.declaration_30",
+        "review.taxonomia.forum_action"
+      ]
+    },
+    {
+      "id": "route.f5.acceptance.11",
+      "purpose": "Prueba F5 11: Corrección doctrinal concreta: Aego",
+      "triggers": [
+        "Corrección doctrinal concreta: Aego",
+        "aceptación 11",
+        "F5 11"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aa1.aego",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa1.aego_formal",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa1.glossary",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aa3.aego",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aa3.aego.regimes",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.aa3.pax.zero_locus",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.aa3.continuity.collective",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.aa3.glossary",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 9,
+          "evidence_id": "ev.sdo.aego",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 10,
+          "evidence_id": "ev.aa4.dolo.i10",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 11,
+          "evidence_id": "ev.aa5.friction.aego",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 12,
+          "evidence_id": "ev.tf.24.aego_phi2",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 13,
+          "evidence_id": "ev.caos.formula_ego",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 14,
+          "evidence_id": "ev.aa1.fanes.formula_responsibility",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 15,
+          "evidence_id": "ev.aa1.bis.iteration",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 16,
+          "evidence_id": "ev.aa1.stages.crosswalk",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 17,
+          "evidence_id": "ev.aa2.system.phi2",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 18,
+          "evidence_id": "ev.tf.tres_formulas",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 19,
+          "evidence_id": "ev.tf.correspondencias",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 20,
+          "evidence_id": "ev.axiom.translation",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 21,
+          "evidence_id": "ev.aq.ego.axis",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 22,
+          "evidence_id": "ev.mask.formulas.developed",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 23,
+          "evidence_id": "ev.telar.ch2.identity_ego",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 24,
+          "evidence_id": "ev.tf.13.phi2_update",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aego.formulation_change",
+        "review.aa1.aego_zero_indeterminate",
+        "review.aa1.aego_operator_agency",
+        "review.aa3.aego_zero_locus",
+        "review.aa3.aego_regime_derivative",
+        "review.aa3.phi_functions",
+        "review.aa4.damasen_crosswalk",
+        "review.aa5.state_will",
+        "review.tf.aego_crosswalk",
+        "review.tf.aego_clinical",
+        "review.aa1.caos_crosswalk",
+        "review.aa1.responsibility_grounding",
+        "review.aa1.neutral_habits",
+        "review.aa2.phi2_function_change",
+        "review.aq.ego_crosswalk",
+        "review.aq.ego_ownership",
+        "review.mask.formula_crosswalk",
+        "review.mask.identity_ego_inertia",
+        "review.telar.selfdetermination_crosswalk",
+        "review.telar.ego_crosswalk",
+        "review.telar.identity_crosswalk",
+        "review.tf.phi1_typing",
+        "review.tf.phi2_typing",
+        "review.tf.c_internal_crosswalk"
+      ]
+    },
+    {
+      "id": "route.f5.acceptance.12",
+      "purpose": "Prueba F5 12: Diseñar módulo de diplomado sobre Aego",
+      "triggers": [
+        "Diseñar módulo de diplomado sobre Aego",
+        "aceptación 12",
+        "F5 12"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.aa1.neutral.interlocutors",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.aa1.neutral.formula_scope",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.aa1.fanes.formula_responsibility",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.aa1.bis.iteration",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.aa1.bis.habits_assumption",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.aa1.stages.crosswalk",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.aa1.aego",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 8,
+          "evidence_id": "ev.aa1.aego_formal",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 9,
+          "evidence_id": "ev.aa1.glossary",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 10,
+          "evidence_id": "ev.aa3.aego",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 11,
+          "evidence_id": "ev.aa3.aego.regimes",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 12,
+          "evidence_id": "ev.aa3.pax.zero_locus",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 13,
+          "evidence_id": "ev.aa3.continuity.collective",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 14,
+          "evidence_id": "ev.aa3.glossary",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 15,
+          "evidence_id": "ev.sdo.aego",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 16,
+          "evidence_id": "ev.aa4.dolo.i10",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 17,
+          "evidence_id": "ev.aa5.friction.aego",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 18,
+          "evidence_id": "ev.tf.24.aego_phi2",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 19,
+          "evidence_id": "ev.caos.formula_ego",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 20,
+          "evidence_id": "ev.aa2.system.phi2",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 21,
+          "evidence_id": "ev.tf.tres_formulas",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 22,
+          "evidence_id": "ev.tf.correspondencias",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 23,
+          "evidence_id": "ev.axiom.translation",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 24,
+          "evidence_id": "ev.aq.ego.axis",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 25,
+          "evidence_id": "ev.mask.formulas.developed",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 26,
+          "evidence_id": "ev.telar.ch2.identity_ego",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        },
+        {
+          "order": 27,
+          "evidence_id": "ev.tf.13.phi2_update",
+          "reason": "Localizador heredado necesario para la tarea de aceptación."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.aa1.caos_crosswalk",
+        "review.aa1.neutral_habits",
+        "review.aego.formulation_change",
+        "review.aa1.aego_zero_indeterminate",
+        "review.aa1.aego_operator_agency",
+        "review.aa3.aego_zero_locus",
+        "review.aa3.aego_regime_derivative",
+        "review.aa3.phi_functions",
+        "review.aa4.damasen_crosswalk",
+        "review.aa5.state_will",
+        "review.tf.aego_crosswalk",
+        "review.tf.aego_clinical",
+        "review.aa1.responsibility_grounding",
+        "review.aa2.phi2_function_change",
+        "review.aq.ego_crosswalk",
+        "review.aq.ego_ownership",
+        "review.mask.formula_crosswalk",
+        "review.mask.identity_ego_inertia",
+        "review.telar.selfdetermination_crosswalk",
+        "review.telar.ego_crosswalk",
+        "review.telar.identity_crosswalk",
+        "review.tf.phi1_typing",
+        "review.tf.phi2_typing",
+        "review.tf.c_internal_crosswalk"
+      ]
     }
   ],
   "review_queue": [
@@ -56249,6 +57644,423 @@
       "pass_condition": "Debe preservar la diferencia material entre formulaciones y elevar la adjudicación doctrinal pendiente en vez de fusionarlas silenciosamente.",
       "status": "pass_with_review",
       "finding": "El mapa distingue la formulación inicial basada en interrupción de φ₂ de la formulación posterior ∫φ×0 y de su operacionalización E-6; la relación exacta entre las dos primeras queda pendiente de adjudicación autoral."
+    },
+    {
+      "id": "test.f5.acceptance.01",
+      "stress_case": "acceptance_01",
+      "queries": [
+        "Fórmula del ego y evolución entre obras"
+      ],
+      "required_routes": [
+        "route.f5.acceptance.01"
+      ],
+      "pass_condition": "Debe recuperar formulación filosófica, Fanes/Bis, traducción formal y condiciones de implementación sin reducirlas a una definición única.",
+      "status": "pass_f5_corpus_read",
+      "finding": "La ruta conjunta recupera Caos, Afrodita Areia, Transformación formal y Axiomatización, y conserva revisiones de tipado/correspondencia.",
+      "validation_trace": {
+        "source_routes": [
+          "route.ego.explicacion",
+          "route.ego.implementacion"
+        ],
+        "evidence_count": 16,
+        "work_ids": [
+          "AA-I",
+          "AA-II",
+          "AQUILES",
+          "AXIOM-SDM",
+          "CAOS",
+          "MASCARAS",
+          "TELAR",
+          "TRANSFORMACION-FORMAL"
+        ],
+        "terms_verified": [
+          "ego",
+          "φ₁",
+          "φ₂"
+        ],
+        "open_reviews_surfaced": 19
+      }
+    },
+    {
+      "id": "test.f5.acceptance.02",
+      "stress_case": "acceptance_02",
+      "queries": [
+        "Primera y segunda mediación"
+      ],
+      "required_routes": [
+        "route.f5.acceptance.02"
+      ],
+      "pass_condition": "Debe distinguir producción/orientación del acto y retorno/integración, preservando la historia terminológica.",
+      "status": "pass_f5_corpus_read",
+      "finding": "La recuperación separa mediación neutral/Fanes/Bis de φ₁/φ₂ y evita convertir usos retrospectivos de “primera mediación” en identidad terminológica.",
+      "validation_trace": {
+        "source_routes": [
+          "route.aa1.three_mediations",
+          "route.ego.explicacion",
+          "route.ego.implementacion"
+        ],
+        "evidence_count": 19,
+        "work_ids": [
+          "AA-I",
+          "AA-II",
+          "AQUILES",
+          "AXIOM-SDM",
+          "CAOS",
+          "MASCARAS",
+          "TELAR",
+          "TRANSFORMACION-FORMAL"
+        ],
+        "terms_verified": [
+          "mediación",
+          "φ₁",
+          "φ₂"
+        ],
+        "open_reviews_surfaced": 19
+      }
+    },
+    {
+      "id": "test.f5.acceptance.03",
+      "stress_case": "acceptance_03",
+      "queries": [
+        "Mediación neutral, Fanes y Bis frente a Caos"
+      ],
+      "required_routes": [
+        "route.f5.acceptance.03"
+      ],
+      "pass_condition": "Debe mostrar qué pertenece a Caos, qué formula AA-I y qué correspondencias son retrospectivas.",
+      "status": "pass_f5_corpus_read",
+      "finding": "La ruta recupera mediación neutral en Caos y las formulaciones Fanes/Bis de AA-I con la revisión de crosswalk visible.",
+      "validation_trace": {
+        "source_routes": [
+          "route.aa1.three_mediations",
+          "route.caos.architecture",
+          "route.ego.explicacion"
+        ],
+        "evidence_count": 20,
+        "work_ids": [
+          "AA-I",
+          "AA-II",
+          "AQUILES",
+          "AXIOM-SDM",
+          "CAOS",
+          "MASCARAS",
+          "TELAR",
+          "TRANSFORMACION-FORMAL"
+        ],
+        "terms_verified": [
+          "neutral",
+          "fanes",
+          "bis"
+        ],
+        "open_reviews_surfaced": 14
+      }
+    },
+    {
+      "id": "test.f5.acceptance.04",
+      "stress_case": "acceptance_04",
+      "queries": [
+        "Aego frente a evasión o bloqueo de φ₂"
+      ],
+      "required_routes": [
+        "route.f5.acceptance.04"
+      ],
+      "pass_condition": "Debe preservar formulaciones históricas, operacionalización E-6 y límites de adjudicación en vez de fusionar Aego con evasión/bloqueo.",
+      "status": "pass_f5_corpus_read",
+      "finding": "La ruta devuelve AA-I, AA-III, SDO y desarrollos posteriores; la diferencia doctrinal permanece en revisión y no se resuelve por normalización editorial.",
+      "validation_trace": {
+        "source_routes": [
+          "route.aego.definicion_evolucion",
+          "route.aego.sdo"
+        ],
+        "evidence_count": 12,
+        "work_ids": [
+          "AA-I",
+          "AA-III",
+          "AA-IV",
+          "AA-V",
+          "SDO",
+          "TRANSFORMACION-FORMAL"
+        ],
+        "terms_verified": [
+          "aego",
+          "φ₂"
+        ],
+        "open_reviews_surfaced": 10
+      }
+    },
+    {
+      "id": "test.f5.acceptance.05",
+      "stress_case": "acceptance_05",
+      "queries": [
+        "R* definición, cálculo y presupuestos"
+      ],
+      "required_routes": [
+        "route.f5.acceptance.05"
+      ],
+      "pass_condition": "Debe recuperar G/W, eigenvector, supuestos, cálculo y límites de alcance, incluyendo tensiones formales abiertas.",
+      "status": "pass_f5_corpus_read",
+      "finding": "La ruta recupera definición/cálculo y obliga a surfacer la revisión del sumidero, orientación y condiciones Perron–Frobenius.",
+      "validation_trace": {
+        "source_routes": [
+          "route.rstar.definicion_calculo"
+        ],
+        "evidence_count": 6,
+        "work_ids": [
+          "AXIOM-SDM",
+          "MC-I",
+          "TRANSFORMACION-FORMAL"
+        ],
+        "terms_verified": [
+          "r*",
+          "w"
+        ],
+        "open_reviews_surfaced": 6
+      }
+    },
+    {
+      "id": "test.f5.acceptance.06",
+      "stress_case": "acceptance_06",
+      "queries": [
+        "S entre ontología, metrología y aplicación"
+      ],
+      "required_routes": [
+        "route.f5.acceptance.06"
+      ],
+      "pass_condition": "Debe distinguir S formal/metrológica de sus operacionalizaciones Prometeo, AOSA y Taxonomía y mantener calibraciones pendientes.",
+      "status": "pass_f5_corpus_read",
+      "finding": "La ruta cruza MC-I, Prometeo, AOSA y Taxonomía; recupera definiciones/proxies/rangos sin adjudicar equivalencia automática.",
+      "validation_trace": {
+        "source_routes": [
+          "route.mci.s_rnet",
+          "route.prometeo.rstar_s",
+          "route.aosa.children_s",
+          "route.taxonomia.s_alpha"
+        ],
+        "evidence_count": 12,
+        "work_ids": [
+          "AOSA",
+          "MC-I",
+          "PROMETEO-JUR",
+          "TAXONOMIA"
+        ],
+        "terms_verified": [
+          "sustituibilidad",
+          "s"
+        ],
+        "open_reviews_surfaced": 23
+      }
+    },
+    {
+      "id": "test.f5.acceptance.07",
+      "stress_case": "acceptance_07",
+      "queries": [
+        "α y Δ y su estatus formal"
+      ],
+      "required_routes": [
+        "route.f5.acceptance.07"
+      ],
+      "pass_condition": "Debe recuperar definiciones, escalas, temporalidad y variantes aplicadas, señalando conmensurabilidad/calibración pendientes.",
+      "status": "pass_f5_corpus_read",
+      "finding": "La ruta muestra versiones MC-I/Prometeo/AOSA/Taxonomía y conserva revisiones de observabilidad, calibración y cruce entre obras.",
+      "validation_trace": {
+        "source_routes": [
+          "route.mci.alpha_delta",
+          "route.prometeo.alpha_delta",
+          "route.aosa.alpha_delta",
+          "route.taxonomia.s_alpha"
+        ],
+        "evidence_count": 13,
+        "work_ids": [
+          "AOSA",
+          "AXIOM-SDM",
+          "MC-I",
+          "PROMETEO-JUR",
+          "TAXONOMIA"
+        ],
+        "terms_verified": [
+          "α",
+          "δ"
+        ],
+        "open_reviews_surfaced": 21
+      }
+    },
+    {
+      "id": "test.f5.acceptance.08",
+      "stress_case": "acceptance_08",
+      "queries": [
+        "IIC y cálculo colectivo"
+      ],
+      "required_routes": [
+        "route.f5.acceptance.08"
+      ],
+      "pass_condition": "Debe localizar definición/medición de IIC, su papel colectivo y ajustes operativos sin convertir reglas orientativas en teoremas.",
+      "status": "pass_f5_corpus_read",
+      "finding": "La ruta recupera IIC en MC-I y su uso Taxonomía→w, incluyendo calibración y problemas de medición/rango.",
+      "validation_trace": {
+        "source_routes": [
+          "route.mci.iic_series",
+          "route.taxonomia.s_alpha"
+        ],
+        "evidence_count": 7,
+        "work_ids": [
+          "MC-I",
+          "TAXONOMIA"
+        ],
+        "terms_verified": [
+          "iic"
+        ],
+        "open_reviews_surfaced": 14
+      }
+    },
+    {
+      "id": "test.f5.acceptance.09",
+      "stress_case": "acceptance_09",
+      "queries": [
+        "SDO hacia entradas del modelo causal"
+      ],
+      "required_routes": [
+        "route.f5.acceptance.09"
+      ],
+      "pass_condition": "Debe reconstruir localización/codificación → grafo/inputs → Prometeo y conservar los límites de S, α, Δ y P(Hijos).",
+      "status": "pass_f5_corpus_read",
+      "finding": "La ruta enlaza el instrumento SDO con el grafo y las transformaciones Taxonomía sin tratar observación cualitativa como medición calibrada.",
+      "validation_trace": {
+        "source_routes": [
+          "route.sdo.prometeo_interface",
+          "route.taxonomia.s_alpha"
+        ],
+        "evidence_count": 6,
+        "work_ids": [
+          "MC-I",
+          "SDO",
+          "TAXONOMIA"
+        ],
+        "terms_verified": [
+          "sdo",
+          "prometeo"
+        ],
+        "open_reviews_surfaced": 18
+      }
+    },
+    {
+      "id": "test.f5.acceptance.10",
+      "stress_case": "acceptance_10",
+      "queries": [
+        "Implementar motor de cálculo sin mezclar estatutos"
+      ],
+      "required_routes": [
+        "route.f5.acceptance.10"
+      ],
+      "pass_condition": "Debe reunir definiciones, fórmulas, dependencias, supuestos, calibraciones y revisiones antes de programar, distinguiendo axioma/modelo/heurística.",
+      "status": "pass_f5_corpus_read",
+      "finding": "La ruta de implementación reúne Axiomatización, TF, MC-I, Método Prometeo y Taxonomía; las revisiones formales/metrológicas se mantienen como barreras de implementación.",
+      "validation_trace": {
+        "source_routes": [
+          "route.ego.implementacion",
+          "route.rstar.definicion_calculo",
+          "route.mci.s_rnet",
+          "route.mci.alpha_delta",
+          "route.mci.iic_series",
+          "route.prometeo.rstar_s",
+          "route.prometeo.alpha_delta",
+          "route.taxonomia.evidence",
+          "route.taxonomia.sensitivity"
+        ],
+        "evidence_count": 37,
+        "work_ids": [
+          "AXIOM-SDM",
+          "MC-I",
+          "PROMETEO-JUR",
+          "TAXONOMIA",
+          "TRANSFORMACION-FORMAL"
+        ],
+        "terms_verified": [
+          "r*",
+          "α",
+          "s"
+        ],
+        "open_reviews_surfaced": 52
+      }
+    },
+    {
+      "id": "test.f5.acceptance.11",
+      "stress_case": "acceptance_11",
+      "queries": [
+        "Corrección doctrinal concreta: Aego"
+      ],
+      "required_routes": [
+        "route.f5.acceptance.11"
+      ],
+      "pass_condition": "Debe identificar todas las formulaciones y aplicaciones afectadas por una corrección de Aego y distinguir error/evolución/refinamiento.",
+      "status": "pass_f5_corpus_read",
+      "finding": "El caso Aego localiza AA-I, AA-III, SDO, TF y cruces posteriores; la relación histórica sigue pendiente de adjudicación autoral.",
+      "validation_trace": {
+        "source_routes": [
+          "route.aego.definicion_evolucion",
+          "route.aego.sdo",
+          "route.ego.explicacion"
+        ],
+        "evidence_count": 24,
+        "work_ids": [
+          "AA-I",
+          "AA-II",
+          "AA-III",
+          "AA-IV",
+          "AA-V",
+          "AQUILES",
+          "AXIOM-SDM",
+          "CAOS",
+          "MASCARAS",
+          "SDO",
+          "TELAR",
+          "TRANSFORMACION-FORMAL"
+        ],
+        "terms_verified": [
+          "aego"
+        ],
+        "open_reviews_surfaced": 24
+      }
+    },
+    {
+      "id": "test.f5.acceptance.12",
+      "stress_case": "acceptance_12",
+      "queries": [
+        "Diseñar módulo de diplomado sobre Aego"
+      ],
+      "required_routes": [
+        "route.f5.acceptance.12"
+      ],
+      "pass_condition": "Debe devolver prerrequisitos ontológicos, formulaciones históricas, formalización/aplicación e hitos de lectura para secuencia pedagógica.",
+      "status": "pass_f5_corpus_read",
+      "finding": "La ruta produce una secuencia desde mediaciones y constitución del ego hasta Aego, refinamientos y SDO, con revisiones que deben explicitarse en docencia.",
+      "validation_trace": {
+        "source_routes": [
+          "route.aa1.three_mediations",
+          "route.aego.definicion_evolucion",
+          "route.aego.sdo",
+          "route.ego.explicacion"
+        ],
+        "evidence_count": 27,
+        "work_ids": [
+          "AA-I",
+          "AA-II",
+          "AA-III",
+          "AA-IV",
+          "AA-V",
+          "AQUILES",
+          "AXIOM-SDM",
+          "CAOS",
+          "MASCARAS",
+          "SDO",
+          "TELAR",
+          "TRANSFORMACION-FORMAL"
+        ],
+        "terms_verified": [
+          "aego",
+          "mediación"
+        ],
+        "open_reviews_surfaced": 24
+      }
     }
   ]
 }

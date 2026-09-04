@@ -105,7 +105,8 @@ def main() -> int:
         for ev_id in review.get("evidence", []):
             require(ev_id in evidence, f"{review['id']}: evidencia inexistente {ev_id}")
 
-    stress_cases = {test["stress_case"] for test in tests.values()}
+    f1_tests = [test for tid, test in tests.items() if tid.startswith("test.f1.")]
+    stress_cases = {test["stress_case"] for test in f1_tests}
     require(stress_cases == {"formula_del_ego", "rstar", "aego"}, f"Deben conservarse los tres casos de estrés F1; encontrados: {sorted(stress_cases)}")
     for test in tests.values():
         for route_id in test["required_routes"]:
@@ -3535,7 +3536,26 @@ def main() -> int:
         require(len(routes["route.taxonomia.domains"]["steps"])==78, "Ruta transversal Taxonomía debe cubrir 78 dominios")
         inferred_tax={"rel.taxonomia.universal.uses_prometeo","rel.taxonomia.universal.uses_sdo","rel.taxonomia.universal.uses_eco","rel.taxonomia.SA.operationalizes_S","rel.taxonomia.SB.operationalizes_S","rel.taxonomia.alpha.operationalizes_mcii","rel.taxonomia.declarations.adapts_prometeo"}
         require(all(relations[r]["evidence_status"]=="inferred" and bool(relations[r].get("rationale")) for r in inferred_tax), "Cruces Taxonomía con F2/F3/F4 deben seguir inferidos")
-        require(phase=="F5", "Tras integrar Taxonomía, F4 debe quedar cerrada y F5 operativa")
+        require(phase in {"F5","MANT"}, "Tras integrar Taxonomía, F4 debe permanecer cerrada en F5 o MANT")
+
+
+        # Invariantes F5: doce tareas reales de aceptación y cierre de mapa v1.
+        f5_tests={tid:t for tid,t in tests.items() if tid.startswith("test.f5.acceptance.")}
+        require(len(f5_tests)==12, f"F5 requiere 12 pruebas de aceptación; hay {len(f5_tests)}")
+        expected_f5={f"test.f5.acceptance.{i:02d}" for i in range(1,13)}
+        require(set(f5_tests)==expected_f5, "IDs de batería F5 incompletos")
+        for tid,t in f5_tests.items():
+            require(t.get("status")=="pass_f5_corpus_read", f"{tid}: la prueba debe haber leído corpus real y pasar")
+            trace=t.get("validation_trace",{})
+            require(trace.get("evidence_count",0)>0, f"{tid}: sin evidencia recuperada")
+            require(bool(trace.get("work_ids")), f"{tid}: sin obras recuperadas")
+            require(t.get("finding"), f"{tid}: falta hallazgo de ejecución")
+            for rid in t.get("required_routes",[]):
+                require(rid.startswith("route.f5.acceptance."), f"{tid}: debe usar ruta F5 orientada a tarea")
+        f5_routes={rid:r for rid,r in routes.items() if rid.startswith("route.f5.acceptance.")}
+        require(len(f5_routes)==12, f"F5 requiere 12 rutas de aceptación; hay {len(f5_routes)}")
+        require(all(r.get("steps") for r in f5_routes.values()), "Toda ruta F5 debe devolver localizadores")
+        require(phase=="MANT", "Las 12 pruebas pasaron: la fase operativa debe ser MANT")
 
     print(
         "Mapa válido:",
