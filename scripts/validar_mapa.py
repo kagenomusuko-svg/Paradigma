@@ -2976,6 +2976,298 @@ def main() -> int:
             "La ruta de calibración debe separar protocolo prospectivo y evidencia realizada",
         )
 
+        # Invariantes ganadas al integrar El cálculo de la responsabilidad en F3.
+        require("CALCULO-R" in works, "Falta El cálculo de la responsabilidad en F3")
+        calc_structure_path = (
+            ROOT
+            / "corpus"
+            / "libros"
+            / "calculo-de-la-responsabilidad"
+            / "estructura.json"
+        )
+        require(
+            calc_structure_path.exists(),
+            "Falta la estructura derivada de El cálculo de la responsabilidad",
+        )
+        calc_structure = json.loads(calc_structure_path.read_text(encoding="utf-8"))
+        require(
+            calc_structure.get("sha256") == works["CALCULO-R"]["sha256"],
+            "La estructura de El cálculo no corresponde al hash de la fuente canónica",
+        )
+        calc_segments = {
+            segment["path"]: (segment["start_line"], segment["end_line"])
+            for segment in calc_structure["segments"]
+        }
+        require(
+            len(calc_segments) == 25,
+            "El cálculo debe conservar preliminares, prólogo, 18 capítulos y 5 apéndices",
+        )
+        calc_evidence = [
+            ev for ev in evidence.values() if ev["work_id"] == "CALCULO-R"
+        ]
+        calc_covered_segments = {ev["segment"] for ev in calc_evidence}
+        require(
+            set(calc_segments) <= calc_covered_segments,
+            "La auditoría de El cálculo debe cubrir sus 25 segmentos; faltan: "
+            f"{sorted(set(calc_segments) - calc_covered_segments)}",
+        )
+        require(
+            len(calc_evidence) >= 124,
+            "La auditoría semántica, formal y aplicada de El cálculo perdió "
+            f"granularidad: {len(calc_evidence)} evidencias",
+        )
+        for ev in calc_evidence:
+            require(
+                ev["segment"] in calc_segments,
+                f"{ev['id']}: segmento de El cálculo no declarado en estructura.json",
+            )
+            segment_start, segment_end = calc_segments[ev["segment"]]
+            line_start, line_end = ev["source_lines"]
+            require(
+                segment_start <= line_start <= line_end <= segment_end,
+                f"{ev['id']}: rango fuera del segmento declarado {ev['segment']}",
+            )
+
+        required_calc_nodes = {
+            "formal.calc.G",
+            "formal.calc.W",
+            "formal.calc.rstar",
+            "formal.calc.power",
+            "formal.calc.S",
+            "formal.calc.alpha",
+            "formal.calc.delta",
+            "formal.calc.rnet",
+            "formal.calc.Dtotal",
+            "formal.calc.Dvital",
+            "formal.calc.Btotal",
+            "formal.calc.deltaB",
+            "formal.calc.AD",
+            "formal.calc.J",
+            "formal.calc.IIC",
+            "formal.calc.FA",
+            "formal.calc.childprob",
+            "formal.calc.childentropy",
+            "formal.calc.egoito",
+            "formal.calc.shapley",
+            "formal.calc.rhist",
+            "formal.calc.Iid",
+            "formal.calc.prescription",
+            "formal.calc.causal_inversion",
+            "formal.calc.opacity",
+            "formal.calc.inherited",
+            "formal.calc.clinical",
+            "formal.calc.R0",
+            "formal.calc.tanatology",
+            "formal.calc.DI",
+            "formal.calc.ICRS",
+            "formal.calc.PAC",
+            "formal.calc.fine",
+            "formal.calc.governance",
+            "formal.calc.INCF",
+            "formal.calc.IAS",
+            "formal.calc.algorithmic",
+            "formal.calc.education",
+            "formal.calc.sports",
+            "formal.calc.narrative",
+            "method.calc.weight_protocol",
+            "method.calc.domain_translation",
+            "method.calc.library",
+            "formulation.calc.banach",
+            "formulation.calc.pf",
+            "formulation.calc.ito",
+            "formulation.calc.shapley",
+            "case.calc.axis",
+            "formulation.calc.domain_limits",
+            "formulation.calc.source_status",
+            "calculation.calc.published_graphs_spectral_check",
+        }
+        require(
+            required_calc_nodes <= set(nodes),
+            "Núcleo de El cálculo incompleto; faltan nodos: "
+            f"{sorted(required_calc_nodes - set(nodes))}",
+        )
+        required_calc_formal_nodes = {
+            node_id
+            for node_id in required_calc_nodes
+            if nodes[node_id].get("kind") == "formal_object"
+        }
+        for node_id in required_calc_formal_nodes:
+            spec = nodes[node_id].get("formal_spec", {})
+            require(
+                bool(spec.get("symbol"))
+                and bool(spec.get("object_type"))
+                and bool(spec.get("expression"))
+                and bool(spec.get("domain"))
+                and bool(spec.get("codomain"))
+                and isinstance(spec.get("dependencies"), list)
+                and isinstance(spec.get("assumptions"), list)
+                and bool(spec.get("epistemic_status"))
+                and bool(spec.get("ontological_correspondence")),
+                f"{node_id}: debe conservar símbolo, tipo, expresión, dominio, "
+                "codominio, dependencias, supuestos, estatuto y correspondencia",
+            )
+
+        required_calc_routes = {
+            "route.calc.core",
+            "route.calc.rstar",
+            "route.calc.weights",
+            "route.calc.delta",
+            "route.calc.damage",
+            "route.calc.indices",
+            "route.calc.proofs",
+            "route.calc.health",
+            "route.calc.finance",
+            "route.calc.technology",
+            "route.calc.humanities",
+            "route.calc.case_axis",
+            "route.calc.software",
+            "route.calc.sources",
+            "route.calc.crosswork",
+        }
+        require(
+            required_calc_routes <= set(routes),
+            "Rutas de El cálculo incompletas: "
+            f"{sorted(required_calc_routes - set(routes))}",
+        )
+        required_calc_reviews = {
+            "review.calc.rstar_equivalence",
+            "review.calc.orientation",
+            "review.calc.sinks",
+            "review.calc.banach_contraction",
+            "review.calc.pf_periodicity",
+            "review.calc.self_loop_connectivity",
+            "review.calc.weight_evidence_conflation",
+            "review.calc.weight_interrater",
+            "review.calc.S_loop",
+            "review.calc.S_definedness",
+            "review.calc.alpha_crossdomain",
+            "review.calc.delta_history",
+            "review.calc.deltaB_type",
+            "review.calc.damage_units",
+            "review.calc.dvital_normativity",
+            "review.calc.J_domain",
+            "review.calc.J_comparability",
+            "review.calc.IIC_scale",
+            "review.calc.IIC_measurement",
+            "review.calc.child_calibration",
+            "review.calc.child_entropy",
+            "review.calc.ito_bridge",
+            "review.calc.shapley_value",
+            "review.calc.shapley_collapse",
+            "review.calc.historical_probabilities",
+            "review.calc.causal_inversion",
+            "review.calc.opacity_redundancy",
+            "review.calc.pld_arithmetic",
+            "review.calc.R0_correspondence",
+            "review.calc.ICRS_calibration",
+            "review.calc.governance_dataset",
+            "review.calc.algorithmic_additivity",
+            "review.calc.case_sources",
+            "review.calc.case_J",
+            "review.calc.source_apparatus",
+            "review.calc.code_artifact",
+            "review.calc.FA_typing",
+            "review.calc.prediction_status",
+            "review.calc.published_vectors_reproduction",
+        }
+        require(
+            required_calc_reviews <= set(reviews),
+            "Deben conservarse las revisiones formales, metrológicas, empíricas, "
+            "doctrinales y de fuentes de El cálculo",
+        )
+        require(
+            len([review for review in reviews if review.startswith("review.calc.")])
+            >= 67,
+            "La cola de El cálculo no puede perder problemas auditados",
+        )
+        require(
+            len(reviews) >= 413,
+            "La integración de El cálculo no puede borrar las 346 revisiones heredadas",
+        )
+        require(
+            all(
+                relation["evidence_status"] == "inferred"
+                and bool(relation.get("rationale"))
+                for relation in relations.values()
+                if relation["id"].startswith("rel.calc.")
+            ),
+            "Los cruces de El cálculo deben seguir marcados como inferencias auditables",
+        )
+        require(
+            nodes["formal.calc.rstar"]["formal_spec"].get("epistemic_status")
+            == "authorial_definition_with_unresolved_formal_and_causal_correspondence",
+            "R* de El cálculo no puede presentarse como fracción causal validada",
+        )
+        require(
+            nodes["formal.calc.delta"]["formal_spec"].get("expression")
+            == "Δ_i=R*_i−α_i",
+            "Debe conservarse la versión sustractiva de Δ en El cálculo",
+        )
+        require(
+            nodes["formal.calc.deltaB"]["formal_spec"].get("epistemic_status")
+            == "authorial_internal_type_conflict",
+            "No debe armonizarse el conflicto resta/producto de Δ_B",
+        )
+        require(
+            nodes["formal.calc.J"]["formal_spec"].get("codomain")
+            == "(-∞,1] en general; el texto usa valores negativos",
+            "J debe conservar el uso negativo que contradice la cota anterior",
+        )
+        require(
+            nodes["formal.calc.IIC"]["formal_spec"].get("codomain")
+            == "[-1,1] en capítulo; [0,1] en biblioteca/glosario",
+            "No debe armonizarse el cambio interno de escala de IIC",
+        )
+        spectral = nodes["calculation.calc.published_graphs_spectral_check"]
+        require(
+            spectral.get("evidence_status") == "inferred"
+            and all(
+                result.get("spectral_radius") == 0.0
+                for result in spectral.get("results", {}).values()
+            )
+            and set(spectral.get("results", {}))
+            == {"caso_eje", "caso_clinico", "john_snow"},
+            "La reproducción espectral de los tres grafos publicados debe permanecer visible",
+        )
+        require(
+            relations["rel.calc.spectral_check.tests_power"]["evidence_status"]
+            == "inferred",
+            "La reproducción espectral es un resultado analítico, no lenguaje autoral",
+        )
+        require(
+            {
+                "review.rstar.sink_irreducibility",
+                "review.tf.rstar_orientation",
+                "review.axiom.rstar_sink",
+                "review.mci.rstar_orientation",
+                "review.mcii.sink_normalization",
+                "review.calc.published_vectors_reproduction",
+            }
+            <= set(routes["route.calc.rstar"].get("must_surface_review_items", [])),
+            "La ruta R* de El cálculo debe surfacer fallas heredadas y reproducción",
+        )
+        require(
+            {
+                "review.mci.delta_crosswork",
+                "review.mcii.delta_sign",
+                "review.mcii.delta_appendix",
+                "review.calc.delta_history",
+                "review.calc.deltaB_type",
+            }
+            <= set(routes["route.calc.delta"].get("must_surface_review_items", [])),
+            "La ruta Δ debe preservar versiones históricas y conflicto de tipado",
+        )
+        require(
+            {
+                "review.calc.case_sources",
+                "review.calc.case_J",
+                "review.calc.case_alpha",
+                "review.calc.published_vectors_reproduction",
+            }
+            <= set(routes["route.calc.case_axis"].get("must_surface_review_items", [])),
+            "La ruta del Caso Eje debe surfacer fuentes, calibración, J y reproducción",
+        )
+
     print(
         "Mapa válido:",
         f"fase={phase}, schema={schema_status};",
@@ -2998,7 +3290,8 @@ def main() -> int:
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'TRANSFORMACION-FORMAL'])} evidencias de La transformación formal,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'AXIOM-SDM'])} evidencias de Axiomatización,",
         f"{len([ev for ev in evidence.values() if ev['work_id'] == 'MC-I'])} evidencias de Metrología Causal I."
-        f" {len([ev for ev in evidence.values() if ev['work_id'] == 'MC-II'])} evidencias de Metrología Causal II."
+        f" {len([ev for ev in evidence.values() if ev['work_id'] == 'MC-II'])} evidencias de Metrología Causal II.",
+        f"{len([ev for ev in evidence.values() if ev['work_id'] == 'CALCULO-R'])} evidencias de El cálculo de la responsabilidad."
     )
     return 0
 
