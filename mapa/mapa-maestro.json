@@ -1,5 +1,5 @@
 {
-  "map_version": "2.3.0",
+  "map_version": "2.4.0",
   "schema_status": "frozen",
   "phase": "F3",
   "purpose": "Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.",
@@ -88,6 +88,12 @@
       "title": "Metrología Causal: Vol. II",
       "source": "corpus/fuentes/Metrologia_Causal_Vol_II.md",
       "sha256": "bd957cae2bf36c1352a107f82f39f135e2aeb2009950a5489981251e6017bb15"
+    },
+    {
+      "id": "CALCULO-R",
+      "title": "El cálculo de la responsabilidad: Una ontología matemática para sistemas causales complejos",
+      "source": "corpus/fuentes/El_calculo_de_la_responsabilidad.md",
+      "sha256": "b79aba06afedcc7f4c85a03ce5fc5f9fc8af1c94da92f486938da2d58ee161fa"
     }
   ],
   "evidence": [
@@ -10265,6 +10271,1370 @@
       ],
       "section": "Apéndice B · dirección y límites de traducción",
       "evidence_type": "scope_restriction"
+    },
+    {
+      "id": "ev.calc.coverage.preliminares",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/00-preliminares.md",
+      "source_lines": [
+        1,
+        31
+      ],
+      "section": "Cobertura integral · preliminares",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.prologo",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/01-prologo.md",
+      "source_lines": [
+        32,
+        229
+      ],
+      "section": "Cobertura integral · PRÓLOGO",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.1",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-01.md",
+      "source_lines": [
+        230,
+        1416
+      ],
+      "section": "Cobertura integral · ### Capítulo 1",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.2",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-02.md",
+      "source_lines": [
+        1417,
+        3207
+      ],
+      "section": "Cobertura integral · ### Capítulo 2",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.3",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-03.md",
+      "source_lines": [
+        3208,
+        4662
+      ],
+      "section": "Cobertura integral · ### Capítulo 3",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.4",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-04.md",
+      "source_lines": [
+        4663,
+        5194
+      ],
+      "section": "Cobertura integral · ### Capítulo 4",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.5",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-05.md",
+      "source_lines": [
+        5195,
+        6594
+      ],
+      "section": "Cobertura integral · ### Capítulo 5",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.6",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-06.md",
+      "source_lines": [
+        6595,
+        8156
+      ],
+      "section": "Cobertura integral · ### Capítulo 6",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.7",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-07.md",
+      "source_lines": [
+        8157,
+        9462
+      ],
+      "section": "Cobertura integral · ### Capítulo 7",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.8",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-08.md",
+      "source_lines": [
+        9463,
+        10869
+      ],
+      "section": "Cobertura integral · ### Capítulo 8",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.9",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-09.md",
+      "source_lines": [
+        10870,
+        12252
+      ],
+      "section": "Cobertura integral · ### Capítulo 9",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.10",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-10.md",
+      "source_lines": [
+        12253,
+        13567
+      ],
+      "section": "Cobertura integral · ### Capítulo 10",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.11",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-11.md",
+      "source_lines": [
+        13568,
+        15024
+      ],
+      "section": "Cobertura integral · ### Capítulo 11",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.12",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-12.md",
+      "source_lines": [
+        15025,
+        16272
+      ],
+      "section": "Cobertura integral · ### Capítulo 12",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.13",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-13.md",
+      "source_lines": [
+        16273,
+        17537
+      ],
+      "section": "Cobertura integral · ### Capítulo 13",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.14",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-14.md",
+      "source_lines": [
+        17538,
+        18638
+      ],
+      "section": "Cobertura integral · ### Capítulo 14",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.15",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-15.md",
+      "source_lines": [
+        18639,
+        19745
+      ],
+      "section": "Cobertura integral · ### Capítulo 15",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.16",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-16.md",
+      "source_lines": [
+        19746,
+        20930
+      ],
+      "section": "Cobertura integral · ### Capítulo 16",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.17",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-17.md",
+      "source_lines": [
+        20931,
+        22286
+      ],
+      "section": "Cobertura integral · ### Capítulo 17",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.18",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-18.md",
+      "source_lines": [
+        22287,
+        24516
+      ],
+      "section": "Cobertura integral · ### Capítulo 18",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.a",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-a.md",
+      "source_lines": [
+        24517,
+        25063
+      ],
+      "section": "Cobertura integral · APÉNDICE A",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.b",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-b.md",
+      "source_lines": [
+        25064,
+        26282
+      ],
+      "section": "Cobertura integral · APÉNDICE B",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.c",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-c.md",
+      "source_lines": [
+        26283,
+        26526
+      ],
+      "section": "Cobertura integral · APÉNDICE C",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.d",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-d.md",
+      "source_lines": [
+        26527,
+        26778
+      ],
+      "section": "Cobertura integral · APÉNDICE D",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.coverage.e",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-e.md",
+      "source_lines": [
+        26779,
+        27214
+      ],
+      "section": "Cobertura integral · APÉNDICE E",
+      "evidence_type": "segment_audit_coverage"
+    },
+    {
+      "id": "ev.calc.prelim.status",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/00-preliminares.md",
+      "source_lines": [
+        1,
+        31
+      ],
+      "section": "Preliminares · estatuto editorial",
+      "evidence_type": "editorial_front_matter"
+    },
+    {
+      "id": "ev.calc.prologue.program",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/01-prologo.md",
+      "source_lines": [
+        32,
+        229
+      ],
+      "section": "Prólogo · programa transversal y Caso Eje",
+      "evidence_type": "authorial_program"
+    },
+    {
+      "id": "ev.calc.c01.1",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-01.md",
+      "source_lines": [
+        230,
+        317
+      ],
+      "section": "Capítulo 1 · problema y traducción jurídica",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.calc.c01.2",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-01.md",
+      "source_lines": [
+        318,
+        692
+      ],
+      "section": "Capítulo 1 · herramientas jurídicas",
+      "evidence_type": "authorial_operationalization"
+    },
+    {
+      "id": "ev.calc.c01.3",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-01.md",
+      "source_lines": [
+        693,
+        1212
+      ],
+      "section": "Capítulo 1 · casos y cálculos jurídicos",
+      "evidence_type": "authorial_case_calculation"
+    },
+    {
+      "id": "ev.calc.c01.4",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-01.md",
+      "source_lines": [
+        1213,
+        1416
+      ],
+      "section": "Capítulo 1 · límites y formalización",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.calc.c02.1",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-02.md",
+      "source_lines": [
+        1417,
+        1550
+      ],
+      "section": "Capítulo 2 · problema PLD",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.calc.c02.2",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-02.md",
+      "source_lines": [
+        1551,
+        2095
+      ],
+      "section": "Capítulo 2 · traducción y herramientas PLD",
+      "evidence_type": "authorial_operationalization"
+    },
+    {
+      "id": "ev.calc.c02.3",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-02.md",
+      "source_lines": [
+        2096,
+        2659
+      ],
+      "section": "Capítulo 2 · casos PLD",
+      "evidence_type": "authorial_case_calculation"
+    },
+    {
+      "id": "ev.calc.c02.4",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-02.md",
+      "source_lines": [
+        2660,
+        3207
+      ],
+      "section": "Capítulo 2 · límites y formalización PLD",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.calc.c03.1",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-03.md",
+      "source_lines": [
+        3208,
+        3386
+      ],
+      "section": "Capítulo 3 · problema histórico",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.calc.c03.2",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-03.md",
+      "source_lines": [
+        3387,
+        3801
+      ],
+      "section": "Capítulo 3 · traducción y herramientas históricas",
+      "evidence_type": "authorial_operationalization"
+    },
+    {
+      "id": "ev.calc.c03.3",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-03.md",
+      "source_lines": [
+        3802,
+        4424
+      ],
+      "section": "Capítulo 3 · casos históricos",
+      "evidence_type": "authorial_case_calculation"
+    },
+    {
+      "id": "ev.calc.c03.4",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-03.md",
+      "source_lines": [
+        4425,
+        4662
+      ],
+      "section": "Capítulo 3 · límites y formalización histórica",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.calc.c04.1",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-04.md",
+      "source_lines": [
+        4663,
+        4807
+      ],
+      "section": "Capítulo 4 · síntesis Parte I",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.calc.c04.2",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-04.md",
+      "source_lines": [
+        4808,
+        5031
+      ],
+      "section": "Capítulo 4 · cuatro herramientas transversales",
+      "evidence_type": "authorial_operationalization"
+    },
+    {
+      "id": "ev.calc.c04.3",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-04.md",
+      "source_lines": [
+        5032,
+        5107
+      ],
+      "section": "Capítulo 4 · prescripción ontológica",
+      "evidence_type": "authorial_case_calculation"
+    },
+    {
+      "id": "ev.calc.c04.4",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-04.md",
+      "source_lines": [
+        5108,
+        5194
+      ],
+      "section": "Capítulo 4 · código de síntesis",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.calc.c05.1",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-05.md",
+      "source_lines": [
+        5195,
+        5298
+      ],
+      "section": "Capítulo 5 · problema clínico",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.calc.c05.2",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-05.md",
+      "source_lines": [
+        5299,
+        5922
+      ],
+      "section": "Capítulo 5 · traducción y herramientas clínicas",
+      "evidence_type": "authorial_operationalization"
+    },
+    {
+      "id": "ev.calc.c05.3",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-05.md",
+      "source_lines": [
+        5923,
+        6368
+      ],
+      "section": "Capítulo 5 · casos clínicos",
+      "evidence_type": "authorial_case_calculation"
+    },
+    {
+      "id": "ev.calc.c05.4",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-05.md",
+      "source_lines": [
+        6369,
+        6594
+      ],
+      "section": "Capítulo 5 · límites y formalización clínica",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.calc.c06.1",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-06.md",
+      "source_lines": [
+        6595,
+        6802
+      ],
+      "section": "Capítulo 6 · problema epidemiológico",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.calc.c06.2",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-06.md",
+      "source_lines": [
+        6803,
+        7274
+      ],
+      "section": "Capítulo 6 · traducción y herramientas epidemiológicas",
+      "evidence_type": "authorial_operationalization"
+    },
+    {
+      "id": "ev.calc.c06.3",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-06.md",
+      "source_lines": [
+        7275,
+        7938
+      ],
+      "section": "Capítulo 6 · casos epidemiológicos",
+      "evidence_type": "authorial_case_calculation"
+    },
+    {
+      "id": "ev.calc.c06.4",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-06.md",
+      "source_lines": [
+        7939,
+        8156
+      ],
+      "section": "Capítulo 6 · límites y formalización epidemiológica",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.calc.c07.1",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-07.md",
+      "source_lines": [
+        8157,
+        8313
+      ],
+      "section": "Capítulo 7 · singularidad tanatológica",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.calc.c07.2",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-07.md",
+      "source_lines": [
+        8314,
+        8846
+      ],
+      "section": "Capítulo 7 · traducción y herramientas tanatológicas",
+      "evidence_type": "authorial_operationalization"
+    },
+    {
+      "id": "ev.calc.c07.3",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-07.md",
+      "source_lines": [
+        8847,
+        9235
+      ],
+      "section": "Capítulo 7 · casos de duelo",
+      "evidence_type": "authorial_case_calculation"
+    },
+    {
+      "id": "ev.calc.c07.4",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-07.md",
+      "source_lines": [
+        9236,
+        9462
+      ],
+      "section": "Capítulo 7 · límites y formalización tanatológica",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.calc.c08.1",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-08.md",
+      "source_lines": [
+        9463,
+        9602
+      ],
+      "section": "Capítulo 8 · problema crediticio",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.calc.c08.2",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-08.md",
+      "source_lines": [
+        9603,
+        10061
+      ],
+      "section": "Capítulo 8 · traducción y herramientas crediticias",
+      "evidence_type": "authorial_operationalization"
+    },
+    {
+      "id": "ev.calc.c08.3",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-08.md",
+      "source_lines": [
+        10062,
+        10514
+      ],
+      "section": "Capítulo 8 · casos crediticios",
+      "evidence_type": "authorial_case_calculation"
+    },
+    {
+      "id": "ev.calc.c08.4",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-08.md",
+      "source_lines": [
+        10515,
+        10869
+      ],
+      "section": "Capítulo 8 · límites y formalización crediticia",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.calc.c09.1",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-09.md",
+      "source_lines": [
+        10870,
+        11014
+      ],
+      "section": "Capítulo 9 · problema de quiebra",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.calc.c09.2",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-09.md",
+      "source_lines": [
+        11015,
+        11372
+      ],
+      "section": "Capítulo 9 · traducción y herramientas de riesgo sistémico",
+      "evidence_type": "authorial_operationalization"
+    },
+    {
+      "id": "ev.calc.c09.3",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-09.md",
+      "source_lines": [
+        11373,
+        11898
+      ],
+      "section": "Capítulo 9 · casos financieros",
+      "evidence_type": "authorial_case_calculation"
+    },
+    {
+      "id": "ev.calc.c09.4",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-09.md",
+      "source_lines": [
+        11899,
+        12252
+      ],
+      "section": "Capítulo 9 · límites y formalización de quiebra",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.calc.c10.1",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-10.md",
+      "source_lines": [
+        12253,
+        12394
+      ],
+      "section": "Capítulo 10 · problema asegurador",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.calc.c10.2",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-10.md",
+      "source_lines": [
+        12395,
+        12799
+      ],
+      "section": "Capítulo 10 · traducción y herramientas actuariales",
+      "evidence_type": "authorial_operationalization"
+    },
+    {
+      "id": "ev.calc.c10.3",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-10.md",
+      "source_lines": [
+        12800,
+        13226
+      ],
+      "section": "Capítulo 10 · casos aseguradores",
+      "evidence_type": "authorial_case_calculation"
+    },
+    {
+      "id": "ev.calc.c10.4",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-10.md",
+      "source_lines": [
+        13227,
+        13567
+      ],
+      "section": "Capítulo 10 · límites y formalización actuarial",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.calc.c11.1",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-11.md",
+      "source_lines": [
+        13568,
+        13709
+      ],
+      "section": "Capítulo 11 · problema de gobernanza",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.calc.c11.2",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-11.md",
+      "source_lines": [
+        13710,
+        14110
+      ],
+      "section": "Capítulo 11 · traducción y herramientas corporativas",
+      "evidence_type": "authorial_operationalization"
+    },
+    {
+      "id": "ev.calc.c11.3",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-11.md",
+      "source_lines": [
+        14111,
+        14583
+      ],
+      "section": "Capítulo 11 · casos corporativos",
+      "evidence_type": "authorial_case_calculation"
+    },
+    {
+      "id": "ev.calc.c11.4",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-11.md",
+      "source_lines": [
+        14584,
+        15024
+      ],
+      "section": "Capítulo 11 · límites, predictor y formalización corporativa",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.calc.c12.1",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-12.md",
+      "source_lines": [
+        15025,
+        15210
+      ],
+      "section": "Capítulo 12 · problema de ingeniería",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.calc.c12.2",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-12.md",
+      "source_lines": [
+        15211,
+        15542
+      ],
+      "section": "Capítulo 12 · traducción y herramientas de fallo",
+      "evidence_type": "authorial_operationalization"
+    },
+    {
+      "id": "ev.calc.c12.3",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-12.md",
+      "source_lines": [
+        15543,
+        16059
+      ],
+      "section": "Capítulo 12 · casos de ingeniería",
+      "evidence_type": "authorial_case_calculation"
+    },
+    {
+      "id": "ev.calc.c12.4",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-12.md",
+      "source_lines": [
+        16060,
+        16272
+      ],
+      "section": "Capítulo 12 · límites y formalización de ingeniería",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.calc.c13.1",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-13.md",
+      "source_lines": [
+        16273,
+        16459
+      ],
+      "section": "Capítulo 13 · problema algorítmico",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.calc.c13.2",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-13.md",
+      "source_lines": [
+        16460,
+        16834
+      ],
+      "section": "Capítulo 13 · traducción y herramientas IA",
+      "evidence_type": "authorial_operationalization"
+    },
+    {
+      "id": "ev.calc.c13.3",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-13.md",
+      "source_lines": [
+        16835,
+        17316
+      ],
+      "section": "Capítulo 13 · casos algorítmicos",
+      "evidence_type": "authorial_case_calculation"
+    },
+    {
+      "id": "ev.calc.c13.4",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-13.md",
+      "source_lines": [
+        17317,
+        17537
+      ],
+      "section": "Capítulo 13 · límites y formalización IA",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.calc.c14.1",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-14.md",
+      "source_lines": [
+        17538,
+        17688
+      ],
+      "section": "Capítulo 14 · problema ambiental",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.calc.c14.2",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-14.md",
+      "source_lines": [
+        17689,
+        18004
+      ],
+      "section": "Capítulo 14 · traducción, R* y Shapley ambiental",
+      "evidence_type": "authorial_operationalization"
+    },
+    {
+      "id": "ev.calc.c14.3",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-14.md",
+      "source_lines": [
+        18005,
+        18398
+      ],
+      "section": "Capítulo 14 · casos ambientales",
+      "evidence_type": "authorial_case_calculation"
+    },
+    {
+      "id": "ev.calc.c14.4",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-14.md",
+      "source_lines": [
+        18399,
+        18638
+      ],
+      "section": "Capítulo 14 · límites y formalización Shapley",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.calc.c15.1",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-15.md",
+      "source_lines": [
+        18639,
+        18762
+      ],
+      "section": "Capítulo 15 · problema educativo",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.calc.c15.2",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-15.md",
+      "source_lines": [
+        18763,
+        19126
+      ],
+      "section": "Capítulo 15 · traducción y herramientas educativas",
+      "evidence_type": "authorial_operationalization"
+    },
+    {
+      "id": "ev.calc.c15.3",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-15.md",
+      "source_lines": [
+        19127,
+        19533
+      ],
+      "section": "Capítulo 15 · casos educativos",
+      "evidence_type": "authorial_case_calculation"
+    },
+    {
+      "id": "ev.calc.c15.4",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-15.md",
+      "source_lines": [
+        19534,
+        19745
+      ],
+      "section": "Capítulo 15 · límites y formalización educativa",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.calc.c16.1",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-16.md",
+      "source_lines": [
+        19746,
+        19907
+      ],
+      "section": "Capítulo 16 · problema histórico-geopolítico",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.calc.c16.2",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-16.md",
+      "source_lines": [
+        19908,
+        20190
+      ],
+      "section": "Capítulo 16 · traducción y contrafáctico histórico",
+      "evidence_type": "authorial_operationalization"
+    },
+    {
+      "id": "ev.calc.c16.3",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-16.md",
+      "source_lines": [
+        20191,
+        20709
+      ],
+      "section": "Capítulo 16 · casos históricos",
+      "evidence_type": "authorial_case_calculation"
+    },
+    {
+      "id": "ev.calc.c16.4",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-16.md",
+      "source_lines": [
+        20710,
+        20930
+      ],
+      "section": "Capítulo 16 · límites y formalización histórica",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.calc.c17.1",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-17.md",
+      "source_lines": [
+        20931,
+        21082
+      ],
+      "section": "Capítulo 17 · problema deportivo",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.calc.c17.2",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-17.md",
+      "source_lines": [
+        21083,
+        21400
+      ],
+      "section": "Capítulo 17 · traducción y contribución deportiva",
+      "evidence_type": "authorial_operationalization"
+    },
+    {
+      "id": "ev.calc.c17.3",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-17.md",
+      "source_lines": [
+        21401,
+        21703
+      ],
+      "section": "Capítulo 17 · casos deportivos",
+      "evidence_type": "authorial_case_calculation"
+    },
+    {
+      "id": "ev.calc.c17.4",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-17.md",
+      "source_lines": [
+        21704,
+        22286
+      ],
+      "section": "Capítulo 17 · límites, predictores y formalización deportiva",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.calc.c18.1",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-18.md",
+      "source_lines": [
+        22287,
+        22447
+      ],
+      "section": "Capítulo 18 · problema narrativo",
+      "evidence_type": "authorial_scope"
+    },
+    {
+      "id": "ev.calc.c18.2",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-18.md",
+      "source_lines": [
+        22448,
+        22748
+      ],
+      "section": "Capítulo 18 · traducción y herramientas narrativas",
+      "evidence_type": "authorial_operationalization"
+    },
+    {
+      "id": "ev.calc.c18.3",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-18.md",
+      "source_lines": [
+        22749,
+        23147
+      ],
+      "section": "Capítulo 18 · casos literarios",
+      "evidence_type": "authorial_case_calculation"
+    },
+    {
+      "id": "ev.calc.c18.4",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-18.md",
+      "source_lines": [
+        23148,
+        23384
+      ],
+      "section": "Capítulo 18 · límites y formalización narrativa",
+      "evidence_type": "authorial_formalization"
+    },
+    {
+      "id": "ev.calc.c18.case.context",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-18.md",
+      "source_lines": [
+        23385,
+        23619
+      ],
+      "section": "Caso Eje · hechos y grafo",
+      "evidence_type": "authorial_case_application"
+    },
+    {
+      "id": "ev.calc.c18.case.rsd",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-18.md",
+      "source_lines": [
+        23620,
+        23756
+      ],
+      "section": "Caso Eje · R*, S y Δ",
+      "evidence_type": "authorial_case_calculation"
+    },
+    {
+      "id": "ev.calc.c18.case.bd",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-18.md",
+      "source_lines": [
+        23757,
+        23952
+      ],
+      "section": "Caso Eje · B_total y D_total",
+      "evidence_type": "authorial_case_calculation"
+    },
+    {
+      "id": "ev.calc.c18.case.indices",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-18.md",
+      "source_lines": [
+        23953,
+        24301
+      ],
+      "section": "Caso Eje · hijos, fraude annona, IIC y J",
+      "evidence_type": "authorial_case_calculation"
+    },
+    {
+      "id": "ev.calc.c18.case.synthesis",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/capitulo-18.md",
+      "source_lines": [
+        24302,
+        24516
+      ],
+      "section": "Caso Eje · análisis y síntesis",
+      "evidence_type": "authorial_synthesis"
+    },
+    {
+      "id": "ev.calc.a.risk",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-a.md",
+      "source_lines": [
+        24517,
+        24727
+      ],
+      "section": "Apéndice A · riesgo, sustitución e IIC",
+      "evidence_type": "authorial_argument"
+    },
+    {
+      "id": "ev.calc.a.roi",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-a.md",
+      "source_lines": [
+        24728,
+        25063
+      ],
+      "section": "Apéndice A · ROI y prioridad de prevención",
+      "evidence_type": "authorial_formula"
+    },
+    {
+      "id": "ev.calc.b.direction",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-b.md",
+      "source_lines": [
+        25064,
+        25177
+      ],
+      "section": "Apéndice B · dirección e intensidad de W",
+      "evidence_type": "calibration_protocol"
+    },
+    {
+      "id": "ev.calc.b.evidence",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-b.md",
+      "source_lines": [
+        25178,
+        25315
+      ],
+      "section": "Apéndice B · escala E0–E8",
+      "evidence_type": "calibration_scale"
+    },
+    {
+      "id": "ev.calc.b.domains",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-b.md",
+      "source_lines": [
+        25316,
+        25834
+      ],
+      "section": "Apéndice B · matrices por dominio",
+      "evidence_type": "translation_table"
+    },
+    {
+      "id": "ev.calc.b.contradiction",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-b.md",
+      "source_lines": [
+        25835,
+        25910
+      ],
+      "section": "Apéndice B · fuentes contradictorias",
+      "evidence_type": "uncertainty_method"
+    },
+    {
+      "id": "ev.calc.b.zero",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-b.md",
+      "source_lines": [
+        25911,
+        25987
+      ],
+      "section": "Apéndice B · arista nula documentada",
+      "evidence_type": "validity_condition"
+    },
+    {
+      "id": "ev.calc.b.sheet",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-b.md",
+      "source_lines": [
+        25988,
+        26155
+      ],
+      "section": "Apéndice B · hoja de calibración e impugnación",
+      "evidence_type": "documentation_protocol"
+    },
+    {
+      "id": "ev.calc.b.tests",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-b.md",
+      "source_lines": [
+        26156,
+        26282
+      ],
+      "section": "Apéndice B · ejercicios con solución autoral",
+      "evidence_type": "authorial_test"
+    },
+    {
+      "id": "ev.calc.c.banach",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-c.md",
+      "source_lines": [
+        26283,
+        26347
+      ],
+      "section": "Apéndice C · Banach y contracción",
+      "evidence_type": "formal_proof_claim"
+    },
+    {
+      "id": "ev.calc.c.pf",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-c.md",
+      "source_lines": [
+        26348,
+        26389
+      ],
+      "section": "Apéndice C · Perron–Frobenius",
+      "evidence_type": "formal_proof_claim"
+    },
+    {
+      "id": "ev.calc.c.ito",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-c.md",
+      "source_lines": [
+        26390,
+        26438
+      ],
+      "section": "Apéndice C · Itô y ego",
+      "evidence_type": "formal_proof_claim"
+    },
+    {
+      "id": "ev.calc.c.shapley",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-c.md",
+      "source_lines": [
+        26439,
+        26482
+      ],
+      "section": "Apéndice C · Shapley",
+      "evidence_type": "formal_proof_claim"
+    },
+    {
+      "id": "ev.calc.c.counterfactual",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-c.md",
+      "source_lines": [
+        26483,
+        26526
+      ],
+      "section": "Apéndice C · contrafáctico histórico",
+      "evidence_type": "calibration_procedure"
+    },
+    {
+      "id": "ev.calc.d.core",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-d.md",
+      "source_lines": [
+        26527,
+        26613
+      ],
+      "section": "Apéndice D · biblioteca, R*, S, Δ y Shapley",
+      "evidence_type": "authorial_algorithm"
+    },
+    {
+      "id": "ev.calc.d.predictors",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-d.md",
+      "source_lines": [
+        26614,
+        26670
+      ],
+      "section": "Apéndice D · predictores",
+      "evidence_type": "authorial_model"
+    },
+    {
+      "id": "ev.calc.d.children",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-d.md",
+      "source_lines": [
+        26671,
+        26725
+      ],
+      "section": "Apéndice D · clasificación de hijos",
+      "evidence_type": "classification_rule"
+    },
+    {
+      "id": "ev.calc.d.utilities",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-d.md",
+      "source_lines": [
+        26726,
+        26778
+      ],
+      "section": "Apéndice D · IIC, IAS y reporte",
+      "evidence_type": "authorial_algorithm"
+    },
+    {
+      "id": "ev.calc.e.core",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-e.md",
+      "source_lines": [
+        26779,
+        26997
+      ],
+      "section": "Apéndice E · glosario formal",
+      "evidence_type": "authorial_glossary"
+    },
+    {
+      "id": "ev.calc.e.domains",
+      "work_id": "CALCULO-R",
+      "segment": "corpus/libros/calculo-de-la-responsabilidad/apendice-e.md",
+      "source_lines": [
+        26998,
+        27214
+      ],
+      "section": "Apéndice E · glosario por dominio",
+      "evidence_type": "translation_table"
     }
   ],
   "nodes": [
@@ -19478,6 +20848,1170 @@
         "ev.mcii.b.direction"
       ],
       "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.G",
+      "kind": "formal_object",
+      "label": "Grafo causal transversal",
+      "formal_spec": {
+        "symbol": "G=(N,A,w)",
+        "object_type": "weighted_directed_graph",
+        "expression": "nodos humanos, institucionales, estructurales y finales conectados por pesos w",
+        "domain": "caso delimitado",
+        "codomain": "grafo dirigido ponderado",
+        "dependencies": [],
+        "assumptions": [
+          "la selección de nodos captura mecanismos relevantes"
+        ],
+        "epistemic_status": "authorial_definition_not_empirically_validated",
+        "ontological_correspondence": "estructura causal del caso"
+      },
+      "evidence": [
+        "ev.calc.prologue.program",
+        "ev.calc.e.core"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.W",
+      "kind": "formal_object",
+      "label": "Matriz W del cálculo",
+      "formal_spec": {
+        "symbol": "W",
+        "object_type": "nonnegative_weight_matrix",
+        "expression": "w_ij∈[0,1] según dirección y escala E0–E8",
+        "domain": "pares de nodos y expediente",
+        "codomain": "R^{n×n}_{≥0}",
+        "dependencies": [
+          "formal.calc.G",
+          "method.calc.weight_protocol"
+        ],
+        "assumptions": [
+          "el tipo/calidad de evidencia determina un rango de intensidad causal"
+        ],
+        "epistemic_status": "authorial_calibration_rule_without_interrater_validation",
+        "ontological_correspondence": "intensidad de influencia causal"
+      },
+      "evidence": [
+        "ev.calc.b.direction",
+        "ev.calc.b.evidence"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.rstar",
+      "kind": "formal_object",
+      "label": "R* en El cálculo",
+      "formal_spec": {
+        "symbol": "R*",
+        "object_type": "dominant_eigenvector_and_causal_share",
+        "expression": "R*=W R*/||W R*||_1; también diferencia contrafáctica normalizada por dominio",
+        "domain": "W o probabilidades contrafácticas",
+        "codomain": "simplejo Δ^{n-1}",
+        "dependencies": [
+          "formal.calc.W",
+          "formal.calc.power"
+        ],
+        "assumptions": [
+          "W admite vector dominante útil; centralidad equivale a fracción causal"
+        ],
+        "epistemic_status": "authorial_definition_with_unresolved_formal_and_causal_correspondence",
+        "ontological_correspondence": "fracción del resultado atribuible al nodo"
+      },
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.calc.c16.4",
+        "ev.calc.e.core"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.power",
+      "kind": "formal_object",
+      "label": "Iteración de potencia",
+      "formal_spec": {
+        "symbol": "T(v)=Wv/||Wv||_1",
+        "object_type": "normalized_power_iteration",
+        "expression": "R_{k+1}=W R_k/Σ(W R_k)",
+        "domain": "vectores no negativos con denominador no nulo",
+        "codomain": "simplejo o estado indefinido",
+        "dependencies": [
+          "formal.calc.W"
+        ],
+        "assumptions": [
+          "primitividad/contracción; orientación compatible con aristas"
+        ],
+        "epistemic_status": "authorial_algorithm_not_validated_on_published_graphs",
+        "ontological_correspondence": "procedimiento de cálculo de R*"
+      },
+      "evidence": [
+        "ev.calc.c01.4",
+        "ev.calc.c.banach",
+        "ev.calc.d.core"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.S",
+      "kind": "formal_object",
+      "label": "Sustituibilidad en El cálculo",
+      "formal_spec": {
+        "symbol": "S_i",
+        "object_type": "perturbation_correlation_index",
+        "expression": "1−max_j |corr(R*,R*_{W^{(i)}})|",
+        "domain": "W, nodo i y perturbación por fila media",
+        "codomain": "[0,1] si la correlación está definida",
+        "dependencies": [
+          "formal.calc.rstar"
+        ],
+        "assumptions": [
+          "sustituir una fila por la media representa reemplazo del nodo; j aporta alternativas"
+        ],
+        "epistemic_status": "authorial_operationalization_with_code_and_identifiability_issues",
+        "ontological_correspondence": "fungibilidad o genericidad del nodo"
+      },
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.calc.d.core",
+        "ev.calc.e.core"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.alpha",
+      "kind": "formal_object",
+      "label": "Coeficiente α transversal",
+      "formal_spec": {
+        "symbol": "α_i",
+        "object_type": "domain_dependent_assumption_fraction",
+        "expression": "escala 0–1 traducida como asunción, integración, contención o mitigación",
+        "domain": "actor y dominio",
+        "codomain": "[0,1]",
+        "dependencies": [],
+        "assumptions": [
+          "los anclajes ordinales son comparables con R*"
+        ],
+        "epistemic_status": "authorial_scale_without_cross_domain_calibration",
+        "ontological_correspondence": "grado observable de asunción/contención/integración"
+      },
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.calc.c05.2",
+        "ev.calc.c06.2",
+        "ev.calc.e.core"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.delta",
+      "kind": "formal_object",
+      "label": "Δ sustractiva dominante",
+      "formal_spec": {
+        "symbol": "Δ_i",
+        "object_type": "dimensionless_difference",
+        "expression": "Δ_i=R*_i−α_i",
+        "domain": "R*, α por nodo",
+        "codomain": "[-1,1]",
+        "dependencies": [
+          "formal.calc.rstar",
+          "formal.calc.alpha"
+        ],
+        "assumptions": [
+          "R* y α tienen escala y semántica comparables"
+        ],
+        "epistemic_status": "authorial_reformulation_preserving_negative_values",
+        "ontological_correspondence": "déficit o sobreasunción"
+      },
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.calc.c18.case.rsd",
+        "ev.calc.e.core"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.rnet",
+      "kind": "formal_object",
+      "label": "Responsabilidad causal neta",
+      "formal_spec": {
+        "symbol": "R*_{neta,i}",
+        "object_type": "substitutability_discounted_share",
+        "expression": "R*_i(1−S_i)",
+        "domain": "R*, S",
+        "codomain": "[0,1]",
+        "dependencies": [
+          "formal.calc.rstar",
+          "formal.calc.S"
+        ],
+        "assumptions": [
+          "la sustituibilidad descuenta linealmente atribución"
+        ],
+        "epistemic_status": "authorial_formula_without_derivation",
+        "ontological_correspondence": "porción idiosincrática del peso causal"
+      },
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.calc.e.core"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.Dtotal",
+      "kind": "formal_object",
+      "label": "Daño total tripartito",
+      "formal_spec": {
+        "symbol": "D_total",
+        "object_type": "three_component_damage_aggregate",
+        "expression": "T_invertido+T_impedido+ΔT_trayectoria",
+        "domain": "pérdidas directas, oportunidades y trayectoria",
+        "codomain": "unidades monetarias o temporales",
+        "dependencies": [],
+        "assumptions": [
+          "componentes son conmensurables y no se solapan"
+        ],
+        "epistemic_status": "authorial_aggregate_with_unresolved_units_and_double_counting",
+        "ontological_correspondence": "daño directo, desarrollo impedido y potencial perdido"
+      },
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.calc.c18.case.bd",
+        "ev.calc.e.core"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.Dvital",
+      "kind": "formal_object",
+      "label": "Conversión de daño a vida",
+      "formal_spec": {
+        "symbol": "D_vital",
+        "object_type": "money_to_labor_time_conversion",
+        "expression": "D_total/w_ref",
+        "domain": "daño monetizado y salario de referencia",
+        "codomain": "horas de trabajo",
+        "dependencies": [
+          "formal.calc.Dtotal"
+        ],
+        "assumptions": [
+          "w_ref es referencia universal normativamente válida"
+        ],
+        "epistemic_status": "authorial_conversion_not_empirically_or_normatively_validated",
+        "ontological_correspondence": "tiempo de vida cristalizado"
+      },
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.calc.c06.3",
+        "ev.calc.e.core"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.Btotal",
+      "kind": "formal_object",
+      "label": "Beneficio total tripartito",
+      "formal_spec": {
+        "symbol": "B_total",
+        "object_type": "three_component_benefit_aggregate",
+        "expression": "G_inmediato+G_acumulado+ΔG_trayectoria",
+        "domain": "ganancias y trayectoria",
+        "codomain": "unidades monetarias o temporales",
+        "dependencies": [],
+        "assumptions": [
+          "componentes son conmensurables y atribuibles"
+        ],
+        "epistemic_status": "authorial_aggregate_without_general_identification_rule",
+        "ontological_correspondence": "beneficio producido por el evento"
+      },
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.calc.c18.case.bd",
+        "ev.calc.e.core"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.deltaB",
+      "kind": "formal_object",
+      "label": "Déficit de beneficio",
+      "formal_spec": {
+        "symbol": "Δ_B",
+        "object_type": "benefit_assumption_gap",
+        "expression": "glosario: B_total−α_B; código: B_total(1−α_B)",
+        "domain": "B_total y α_B",
+        "codomain": "inconsistente: monto si multiplicativo; unidad mixta si sustractivo",
+        "dependencies": [
+          "formal.calc.Btotal"
+        ],
+        "assumptions": [
+          "α_B es alternativamente fracción o monto"
+        ],
+        "epistemic_status": "authorial_internal_type_conflict",
+        "ontological_correspondence": "beneficio no asumido"
+      },
+      "evidence": [
+        "ev.calc.c10.2",
+        "ev.calc.d.core",
+        "ev.calc.e.core"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.AD",
+      "kind": "formal_object",
+      "label": "Ajuste debitor",
+      "formal_spec": {
+        "symbol": "AD_i",
+        "object_type": "causal_share_damage_allocation",
+        "expression": "R*_i D_total",
+        "domain": "R* y daño total",
+        "codomain": "unidad de D_total",
+        "dependencies": [
+          "formal.calc.rstar",
+          "formal.calc.Dtotal"
+        ],
+        "assumptions": [
+          "R* identifica cuotas aditivas de daño"
+        ],
+        "epistemic_status": "authorial_allocation_rule_without_legal_validation",
+        "ontological_correspondence": "monto o acción atribuida al nodo"
+      },
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.calc.e.core"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.J",
+      "kind": "formal_object",
+      "label": "Índice de Justicia Estructural",
+      "formal_spec": {
+        "symbol": "J",
+        "object_type": "l1_alignment_index",
+        "expression": "1−Σ_i|R*_i−α_i|",
+        "domain": "R* normalizado y vector α no necesariamente normalizado",
+        "codomain": "(-∞,1] en general; el texto usa valores negativos",
+        "dependencies": [
+          "formal.calc.delta"
+        ],
+        "assumptions": [
+          "la distancia L1 sin normalización representa justicia"
+        ],
+        "epistemic_status": "authorial_index_with_internal_range_revision",
+        "ontological_correspondence": "congruencia entre peso causal y asunción"
+      },
+      "evidence": [
+        "ev.calc.c04.2",
+        "ev.calc.c18.case.indices",
+        "ev.calc.e.core"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.IIC",
+      "kind": "formal_object",
+      "label": "Índice de Integridad Corporativa",
+      "formal_spec": {
+        "symbol": "IIC",
+        "object_type": "correlation_or_rescaled_correlation",
+        "expression": "corr(valores,conducta); biblioteca: max(0,(corr+1)/2)",
+        "domain": "dos vectores observables",
+        "codomain": "[-1,1] en capítulo; [0,1] en biblioteca/glosario",
+        "dependencies": [],
+        "assumptions": [
+          "vectores, codificación e ítems son comparables"
+        ],
+        "epistemic_status": "authorial_internal_codomain_and_transformation_conflict",
+        "ontological_correspondence": "congruencia institucional declarada/observada"
+      },
+      "evidence": [
+        "ev.calc.c11.4",
+        "ev.calc.c18.case.indices",
+        "ev.calc.d.utilities",
+        "ev.calc.e.domains"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.FA",
+      "kind": "formal_object",
+      "label": "Fraude annona agregado",
+      "formal_spec": {
+        "symbol": "FA",
+        "object_type": "domain_specific_deficit_aggregate",
+        "expression": "productos R*·D·(1−α) o suma de componentes en Caso Eje",
+        "domain": "nodos estatales/institucionales",
+        "codomain": "fracción, monto o índice según sección",
+        "dependencies": [
+          "formal.calc.rstar",
+          "formal.calc.alpha",
+          "formal.calc.Dtotal"
+        ],
+        "assumptions": [
+          "componentes de distinto dominio pueden agregarse"
+        ],
+        "epistemic_status": "authorial_cross_domain_formula_with_typing_variation",
+        "ontological_correspondence": "incumplimiento causal del contrato institucional/fiscal"
+      },
+      "evidence": [
+        "ev.calc.c06.4",
+        "ev.calc.c18.case.indices"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.childprob",
+      "kind": "formal_object",
+      "label": "Probabilidad de hijos",
+      "formal_spec": {
+        "symbol": "P(h|ψ,c)",
+        "object_type": "sigmoid_scores_then_normalization",
+        "expression": "σ((∇_c v·u_h−θ_h(I))/T), seguida de normalización",
+        "domain": "estado, contexto, umbrales y temperatura",
+        "codomain": "distribución en seis categorías",
+        "dependencies": [],
+        "assumptions": [
+          "vectores u_h, gradiente, θ y T tienen calibración común"
+        ],
+        "epistemic_status": "authorial_predictive_formula_without_training_or_validation",
+        "ontological_correspondence": "disposición de voluntad"
+      },
+      "evidence": [
+        "ev.calc.c05.4",
+        "ev.calc.d.children"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.childentropy",
+      "kind": "formal_object",
+      "label": "Entropía de hijos",
+      "formal_spec": {
+        "symbol": "H(P)",
+        "object_type": "shannon_entropy",
+        "expression": "−Σ_h P(h)log P(h)",
+        "domain": "distribución de seis hijos",
+        "codomain": "[0,log 6]",
+        "dependencies": [
+          "formal.calc.childprob"
+        ],
+        "assumptions": [
+          "mayor entropía indica acceso saludable a disposiciones"
+        ],
+        "epistemic_status": "authorial_metric_with_reversed_low_entropy_statement",
+        "ontological_correspondence": "diversidad de disposiciones"
+      },
+      "evidence": [
+        "ev.calc.c05.4",
+        "ev.calc.d.children"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.egoito",
+      "kind": "formal_object",
+      "label": "Ego como proceso de Itô",
+      "formal_spec": {
+        "symbol": "Ego(t)",
+        "object_type": "stochastic_process_claim",
+        "expression": "Ego(0)+∫φ₂dμ+∫σdW hasta τ_muerte",
+        "domain": "tiempo y eventos aleatorios",
+        "codomain": "estado del ego no tipado",
+        "dependencies": [],
+        "assumptions": [
+          "el ego satisface una EDE definida; φ₂ es deriva/integrando compatible"
+        ],
+        "epistemic_status": "authorial_analogy_presented_as_formal_application",
+        "ontological_correspondence": "acumulación e integración estocástica del ego"
+      },
+      "evidence": [
+        "ev.calc.c.ito"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.shapley",
+      "kind": "formal_object",
+      "label": "Extensión Shapley",
+      "formal_spec": {
+        "symbol": "φ_i(v)",
+        "object_type": "cooperative_game_value",
+        "expression": "Σ_{S⊆N\\{i}} |S|!(n−|S|−1)!/n! [v(S∪{i})−v(S)]",
+        "domain": "juego cooperativo finito (N,v)",
+        "codomain": "R^n",
+        "dependencies": [],
+        "assumptions": [
+          "v(S) está identificada para todas las coaliciones"
+        ],
+        "epistemic_status": "standard_theorem_reused_with_unvalidated_causal_value_function",
+        "ontological_correspondence": "atribución acumulativa/no aditiva"
+      },
+      "evidence": [
+        "ev.calc.c14.2",
+        "ev.calc.c.shapley",
+        "ev.calc.d.core"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.rhist",
+      "kind": "formal_object",
+      "label": "R* histórico contrafáctico",
+      "formal_spec": {
+        "symbol": "R*_{hist}(N_i)",
+        "object_type": "normalized_probability_difference",
+        "expression": "[P(E|G)−P(E|G\\N_i)]/P(E|G)",
+        "domain": "evento histórico y dos modelos contrafácticos",
+        "codomain": "intervalo real; puede salir de [0,1] sin restricciones",
+        "dependencies": [],
+        "assumptions": [
+          "probabilidades contrafácticas son identificables por analogía, mecanismo y tasa base"
+        ],
+        "epistemic_status": "authorial_method_without_empirical_probability_model",
+        "ontological_correspondence": "peso histórico del nodo"
+      },
+      "evidence": [
+        "ev.calc.c16.4",
+        "ev.calc.c.counterfactual"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.Iid",
+      "kind": "formal_object",
+      "label": "Índice de injusticia del diseñador",
+      "formal_spec": {
+        "symbol": "I_d",
+        "object_type": "normalized_designer_gap",
+        "expression": "(R*_d−α_d)/max(1−ᾱ_exec,ε)",
+        "domain": "diseñador y ejecutores",
+        "codomain": "[-1/ε,1/ε]",
+        "dependencies": [
+          "formal.calc.delta"
+        ],
+        "assumptions": [
+          "denominador representa descarga sobre ejecutores"
+        ],
+        "epistemic_status": "authorial_index_without_calibration",
+        "ontological_correspondence": "externalización del déficit del diseño"
+      },
+      "evidence": [
+        "ev.calc.c04.2"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.prescription",
+      "kind": "formal_object",
+      "label": "Dinámica de prescripción ontológica",
+      "formal_spec": {
+        "symbol": "CI(t),HB(t),RI(t)",
+        "object_type": "exponential_decay_model",
+        "expression": "CI_0e^{-k_CI ΔRI(t)}; variantes de código añaden factor t",
+        "domain": "tiempo y parámetros elegidos",
+        "codomain": "[0,1] bajo supuestos",
+        "dependencies": [],
+        "assumptions": [
+          "tasas exponenciales y variables son observables"
+        ],
+        "epistemic_status": "authorial_model_with_expression_code_discrepancy",
+        "ontological_correspondence": "persistencia de posición histórica"
+      },
+      "evidence": [
+        "ev.calc.c04.3",
+        "ev.calc.c04.4"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.causal_inversion",
+      "kind": "formal_object",
+      "label": "Teorema de inversión causal",
+      "formal_spec": {
+        "symbol": "TIC",
+        "object_type": "authorial_theorem_claim",
+        "expression": "si diseño invisible domina R* y ejecución visible recibe imputación, la atribución jurídica se invierte",
+        "domain": "grafo jurídico y visibilidad",
+        "codomain": "proposición cualitativa",
+        "dependencies": [
+          "formal.calc.rstar"
+        ],
+        "assumptions": [
+          "diseñador necesariamente tiene mayor R*, dolo/visibilidad se corresponden con α"
+        ],
+        "epistemic_status": "authorial_proof_claim_not_mathematically_established",
+        "ontological_correspondence": "inversión diseño/ejecución"
+      },
+      "evidence": [
+        "ev.calc.c01.4"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.opacity",
+      "kind": "formal_object",
+      "label": "Indicadores de opacidad PLD",
+      "formal_spec": {
+        "symbol": "O,H,Alerta",
+        "object_type": "composite_detection_scores",
+        "expression": "O=ΣR*_visible S; H≈1−ΣR*_visible(1−S); Alerta=(R*_instr/α_instr)(1−Hijo·T)",
+        "domain": "grafo PLD, S, α e indicadores",
+        "codomain": "reales con singularidad en α=0",
+        "dependencies": [
+          "formal.calc.rstar",
+          "formal.calc.S",
+          "formal.calc.alpha"
+        ],
+        "assumptions": [
+          "O y H aportan información independiente; umbrales están calibrados"
+        ],
+        "epistemic_status": "authorial_operationalization_without_calibration",
+        "ontological_correspondence": "opacidad y alerta de diseñador oculto"
+      },
+      "evidence": [
+        "ev.calc.c02.2",
+        "ev.calc.c02.4"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.inherited",
+      "kind": "formal_object",
+      "label": "Posición histórica heredada",
+      "formal_spec": {
+        "symbol": "P_heredada",
+        "object_type": "multiplicative_historical_position",
+        "expression": "R*_{hist}·CI·HB·(1−RI)",
+        "domain": "actor histórico, continuidad, beneficio y reparación",
+        "codomain": "[0,1] bajo factores acotados",
+        "dependencies": [
+          "formal.calc.rhist"
+        ],
+        "assumptions": [
+          "continuidad y beneficio transmiten posición causal"
+        ],
+        "epistemic_status": "authorial_doctrinal_model_without_calibration",
+        "ontological_correspondence": "responsabilidad diferida institucional"
+      },
+      "evidence": [
+        "ev.calc.c03.2",
+        "ev.calc.c03.4"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.clinical",
+      "kind": "formal_object",
+      "label": "Dinámica clínica del síntoma",
+      "formal_spec": {
+        "symbol": "ψ_S,W(t+Δt)",
+        "object_type": "clinical_state_and_update_model",
+        "expression": "dψ_S/dt=F(ψ_S,G,intervención,φ₂); W_{t+Δt}=W_t(1−ηΔα)",
+        "domain": "estado clínico y terapia",
+        "codomain": "estado/matriz, tipado incompleto",
+        "dependencies": [
+          "formal.calc.W",
+          "formal.calc.alpha"
+        ],
+        "assumptions": [
+          "pesos cualitativos permiten dinámica cuantitativa; η identificable"
+        ],
+        "epistemic_status": "authorial_clinical_model_explicitly_limited_to_priority_ranges",
+        "ontological_correspondence": "cambio del síntoma por integración"
+      },
+      "evidence": [
+        "ev.calc.c05.2",
+        "ev.calc.c05.4"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.R0",
+      "kind": "formal_object",
+      "label": "Correspondencia R₀–R*",
+      "formal_spec": {
+        "symbol": "R₀, R*",
+        "object_type": "epidemiological_correspondence_claim",
+        "expression": "R₀≈Σ_i R*_i·transmisibilidad_i; Var(R*)∝1/p",
+        "domain": "modelo epidemiológico y grafo causal",
+        "codomain": "escalar/vector",
+        "dependencies": [
+          "formal.calc.rstar"
+        ],
+        "assumptions": [
+          "pesos de centralidad equivalen a contribuciones de transmisión"
+        ],
+        "epistemic_status": "authorial_approximation_without_derivation_or_data",
+        "ontological_correspondence": "dinámica global y nodos críticos"
+      },
+      "evidence": [
+        "ev.calc.c06.2",
+        "ev.calc.c06.4"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.tanatology",
+      "kind": "formal_object",
+      "label": "Premisas tanatológicas",
+      "formal_spec": {
+        "symbol": "B_total=0; α_fallecido=0",
+        "object_type": "ontological_domain_premises",
+        "expression": "B_total=0 y α_fallecido(t)=0 para t>t_muerte",
+        "domain": "duelo por muerte",
+        "codomain": "cero por definición",
+        "dependencies": [],
+        "assumptions": [
+          "ningún efecto de una muerte constituye beneficio ontológico"
+        ],
+        "epistemic_status": "authorial_ontological_premise_not_calculation_result",
+        "ontological_correspondence": "dominio unidimensional del duelo"
+      },
+      "evidence": [
+        "ev.calc.c07.1",
+        "ev.calc.c07.2"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.DI",
+      "kind": "formal_object",
+      "label": "Disparate impact y cuota causal",
+      "formal_spec": {
+        "symbol": "DI,R*_{dataset}",
+        "object_type": "group_ratio_and_normalized_excess",
+        "expression": "DI=P(neg|A)/P(neg|B); R*_{dataset}=(DI_obs−DI_sin)/DI_obs",
+        "domain": "tasas grupales y contrafáctico de dataset",
+        "codomain": "R_{≥0}",
+        "dependencies": [],
+        "assumptions": [
+          "diferencia de ratios se descompone causalmente"
+        ],
+        "epistemic_status": "authorial_operationalization_without_identification_proof",
+        "ontological_correspondence": "sesgo de datos/métrica"
+      },
+      "evidence": [
+        "ev.calc.c08.4",
+        "ev.calc.c13.4",
+        "ev.calc.e.domains"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.ICRS",
+      "kind": "formal_object",
+      "label": "Índice de Concentración de Riesgo Sistémico",
+      "formal_spec": {
+        "symbol": "ICRS",
+        "object_type": "domain_alias_and_hazard_model",
+        "expression": "ICRS_i=R*_i; P(quiebra,T)=1−e^{−λ ICRS_total T}",
+        "domain": "grafo financiero, λ y horizonte",
+        "codomain": "[0,1]",
+        "dependencies": [
+          "formal.calc.rstar"
+        ],
+        "assumptions": [
+          "λ es calibrado por sector y R* suma riesgo relevante"
+        ],
+        "epistemic_status": "authorial_predictor_without_supplied_calibration_dataset",
+        "ontological_correspondence": "dependencia causal del colapso"
+      },
+      "evidence": [
+        "ev.calc.c09.2",
+        "ev.calc.c09.4",
+        "ev.calc.d.predictors"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.PAC",
+      "kind": "formal_object",
+      "label": "Prima Actuarial Causal",
+      "formal_spec": {
+        "symbol": "PAC_i",
+        "object_type": "causal_risk_premium",
+        "expression": "P(siniestro)E[D]R*_i(1−S_i)+carga",
+        "domain": "asegurado y cartera",
+        "codomain": "moneda",
+        "dependencies": [
+          "formal.calc.rstar",
+          "formal.calc.S",
+          "formal.calc.Dtotal"
+        ],
+        "assumptions": [
+          "producto representa riesgo individual y permite cubrir cartera"
+        ],
+        "epistemic_status": "authorial_normative_formula_without_actuarial_validation",
+        "ontological_correspondence": "prima por contribución idiosincrática"
+      },
+      "evidence": [
+        "ev.calc.c10.4",
+        "ev.calc.e.domains"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.fine",
+      "kind": "formal_object",
+      "label": "Multa disuasoria",
+      "formal_spec": {
+        "symbol": "M",
+        "object_type": "expected_value_deterrence_rule",
+        "expression": "Δ_B/P(detección)+ε",
+        "domain": "beneficio predatorio y detección",
+        "codomain": "moneda",
+        "dependencies": [
+          "formal.calc.deltaB"
+        ],
+        "assumptions": [
+          "detección y beneficio están calibrados; ε compensa daño"
+        ],
+        "epistemic_status": "authorial_normative_formula_with_type_dependency",
+        "ontological_correspondence": "eliminación del incentivo predatorio"
+      },
+      "evidence": [
+        "ev.calc.c10.3",
+        "ev.calc.c10.4"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.governance",
+      "kind": "formal_object",
+      "label": "Predictor de colapso corporativo",
+      "formal_spec": {
+        "symbol": "P_colapso",
+        "object_type": "logistic_risk_model",
+        "expression": "σ(−3.2+2.8S_consejo+1.6(1−IIC)+2.1P_Anteros+1.4R*_cultura,neta)",
+        "domain": "empresa y horizonte",
+        "codomain": "[0,1]",
+        "dependencies": [
+          "formal.calc.S",
+          "formal.calc.IIC",
+          "formal.calc.childprob"
+        ],
+        "assumptions": [
+          "coeficientes calibrados con datos 2003–2024"
+        ],
+        "epistemic_status": "authorial_calibration_claim_without_dataset_or_fit_statistics",
+        "ontological_correspondence": "riesgo de colapso de gobernanza"
+      },
+      "evidence": [
+        "ev.calc.c11.4",
+        "ev.calc.d.predictors"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.INCF",
+      "kind": "formal_object",
+      "label": "Índice de Necesidad Causal del Fallo",
+      "formal_spec": {
+        "symbol": "INCF",
+        "object_type": "engineering_alias_of_rstar",
+        "expression": "INCF_i=R*_i; prioridad=P_FTA·INCF·(1−S)",
+        "domain": "grafo de fallo",
+        "codomain": "[0,1]",
+        "dependencies": [
+          "formal.calc.rstar",
+          "formal.calc.S"
+        ],
+        "assumptions": [
+          "centralidad y probabilidad FTA se multiplican sin doble conteo"
+        ],
+        "epistemic_status": "authorial_engineering_rule_without_validation",
+        "ontological_correspondence": "peso causal sistémico del fallo"
+      },
+      "evidence": [
+        "ev.calc.c12.2",
+        "ev.calc.c12.4",
+        "ev.calc.e.domains"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.IAS",
+      "kind": "formal_object",
+      "label": "Índice de Aprendizaje Sistémico",
+      "formal_spec": {
+        "symbol": "IAS",
+        "object_type": "difference_of_justice_indices",
+        "expression": "J_post−J_pre",
+        "domain": "dos estados institucionales",
+        "codomain": "R",
+        "dependencies": [
+          "formal.calc.J"
+        ],
+        "assumptions": [
+          "J es comparable entre grafos/épocas"
+        ],
+        "epistemic_status": "authorial_index_without_longitudinal_validation",
+        "ontological_correspondence": "reforma o regresión sistémica"
+      },
+      "evidence": [
+        "ev.calc.c12.4",
+        "ev.calc.c16.4",
+        "ev.calc.d.utilities"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.algorithmic",
+      "kind": "formal_object",
+      "label": "Descomposición de daño algorítmico",
+      "formal_spec": {
+        "symbol": "DI_total",
+        "object_type": "additive_disparate_impact_decomposition",
+        "expression": "DI_métrica+DI_dataset+DI_modelo; R* proporcional a cada componente",
+        "domain": "sistema algorítmico",
+        "codomain": "ratio/componentes no tipados",
+        "dependencies": [
+          "formal.calc.DI"
+        ],
+        "assumptions": [
+          "componentes de DI son aditivos e identificables"
+        ],
+        "epistemic_status": "authorial_decomposition_without_causal_identification",
+        "ontological_correspondence": "responsabilidad del diseñador/dataset/modelo"
+      },
+      "evidence": [
+        "ev.calc.c13.2",
+        "ev.calc.c13.4"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.education",
+      "kind": "formal_object",
+      "label": "Ajuste educativo causal",
+      "formal_spec": {
+        "symbol": "Resultado_ajustado, IAS_edu",
+        "object_type": "context_adjustment_rule",
+        "expression": "resultado real−R*_{entorno}; IAS=J_actual−J_Coleman",
+        "domain": "alumno/docente/política",
+        "codomain": "resultado e índice",
+        "dependencies": [
+          "formal.calc.rstar",
+          "formal.calc.J"
+        ],
+        "assumptions": [
+          "efectos Coleman se transfieren al caso y son separables"
+        ],
+        "epistemic_status": "authorial_application_without_case_level_identification",
+        "ontological_correspondence": "separación docente/entorno"
+      },
+      "evidence": [
+        "ev.calc.c15.2",
+        "ev.calc.c15.4"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.sports",
+      "kind": "formal_object",
+      "label": "Contribución Idiosincrática deportiva",
+      "formal_spec": {
+        "symbol": "CI_i",
+        "object_type": "sports_benefit_share",
+        "expression": "R*_{B,i}(1−S_{B,i}); salario=B_total·CI_i",
+        "domain": "jugador/equipo/beneficio",
+        "codomain": "fracción y moneda",
+        "dependencies": [
+          "formal.calc.rstar",
+          "formal.calc.S",
+          "formal.calc.Btotal"
+        ],
+        "assumptions": [
+          "probabilidades con/sin jugador identifican causalidad y salario justo"
+        ],
+        "epistemic_status": "authorial_metric_without_validated_counterfactual_model",
+        "ontological_correspondence": "contribución no sustituible al triunfo"
+      },
+      "evidence": [
+        "ev.calc.c17.2",
+        "ev.calc.c17.4",
+        "ev.calc.e.domains"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.calc.narrative",
+      "kind": "formal_object",
+      "label": "Grafo narrativo de dos niveles",
+      "formal_spec": {
+        "symbol": "W_lit",
+        "object_type": "narrative_causal_matrix",
+        "expression": "W_lit=W_personajes×W_autor",
+        "domain": "relato, personajes y autor",
+        "codomain": "matriz no tipada",
+        "dependencies": [
+          "formal.calc.W"
+        ],
+        "assumptions": [
+          "producto matricial separa causalidad diegética y diseño autoral"
+        ],
+        "epistemic_status": "authorial_interpretive_formalization",
+        "ontological_correspondence": "diseño causal del relato"
+      },
+      "evidence": [
+        "ev.calc.c18.2",
+        "ev.calc.c18.4"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.calc.weight_protocol",
+      "kind": "method",
+      "label": "Protocolo E0–E8 para W",
+      "summary": "Separa dirección e intensidad, exige hoja de calibración, rangos ante contradicción y evidencia positiva para w=0; asigna rangos mayores a evidencia de mayor calidad.",
+      "evidence": [
+        "ev.calc.b.direction",
+        "ev.calc.b.evidence",
+        "ev.calc.b.contradiction",
+        "ev.calc.b.zero",
+        "ev.calc.b.sheet"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.calc.domain_translation",
+      "kind": "method",
+      "label": "Traducción a 18 dominios",
+      "summary": "Renombra R*, S, α, Δ, daño, beneficio e hijos por dominio y añade índices especializados; sus correspondencias no tienen un único régimen de medición.",
+      "evidence": [
+        "ev.calc.b.domains",
+        "ev.calc.e.domains"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.calc.library",
+      "kind": "method",
+      "label": "Biblioteca Python de referencia",
+      "summary": "Compila cálculo causal, Shapley, predictores, hijos, IIC, IAS y reporte; el texto extraído no constituye por sí solo un módulo ejecutable versionado ni pruebas automatizadas.",
+      "evidence": [
+        "ev.calc.d.core",
+        "ev.calc.d.predictors",
+        "ev.calc.d.children",
+        "ev.calc.d.utilities"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.calc.banach",
+      "kind": "formulation",
+      "label": "Demostración de contracción",
+      "summary": "Afirma que T es contracción en variación total para W primitiva y deriva c=1−δ(W), sin establecer las hipótesis de estocasticidad/positividad necesarias para la matriz usada.",
+      "evidence": [
+        "ev.calc.c.banach"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.calc.pf",
+      "kind": "formulation",
+      "label": "Perron–Frobenius aplicado",
+      "summary": "Enuncia unicidad y |λ|<ρ para W irreducible, aunque la desigualdad estricta exige primitivad; los grafos de casos son DAG con nodo final sumidero.",
+      "evidence": [
+        "ev.calc.c.pf"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.calc.ito",
+      "kind": "formulation",
+      "label": "Itô como fundamento del ego y D_vital",
+      "summary": "Presenta la fórmula estándar y luego identifica deriva, φ₂, eventos aleatorios, muerte y daño vital sin especificar una EDE o una función que produzca esas correspondencias.",
+      "evidence": [
+        "ev.calc.c.ito"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.calc.shapley",
+      "kind": "formulation",
+      "label": "Shapley como generalización causal",
+      "summary": "Reproduce la caracterización axiomática estándar y define un juego aditivo a partir de R* para afirmar colapso; no deriva R* desde Shapley ni identifica v(S) empíricamente.",
+      "evidence": [
+        "ev.calc.c.shapley"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "case.calc.axis",
+      "kind": "case",
+      "label": "Caso Eje institucional",
+      "summary": "Caso activo aplicado a dos hechos: asigna daño al cliente igual a cero, beneficio institucional y daño procesal cercanos a 10.1M MXN, α y S numéricos, fraude annona 1.08, IIC 0.125 y J −0.632.",
+      "evidence": [
+        "ev.calc.c18.case.context",
+        "ev.calc.c18.case.rsd",
+        "ev.calc.c18.case.bd",
+        "ev.calc.c18.case.indices",
+        "ev.calc.c18.case.synthesis"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.calc.domain_limits",
+      "kind": "formulation",
+      "label": "Límites declarados por dominio",
+      "summary": "Cada capítulo reconoce límites distintos: datos cualitativos, contrafácticos, multiescala, privacidad, dinámica, concurrencia, opacidad, causalidad reversa, interpretabilidad, fuentes históricas y reducción narrativa.",
+      "evidence": [
+        "ev.calc.c01.4",
+        "ev.calc.c02.4",
+        "ev.calc.c03.4",
+        "ev.calc.c04.4",
+        "ev.calc.c05.4",
+        "ev.calc.c06.4",
+        "ev.calc.c07.4",
+        "ev.calc.c08.4",
+        "ev.calc.c09.4",
+        "ev.calc.c10.4",
+        "ev.calc.c11.4",
+        "ev.calc.c12.4",
+        "ev.calc.c13.4",
+        "ev.calc.c14.4",
+        "ev.calc.c15.4",
+        "ev.calc.c16.4",
+        "ev.calc.c17.4",
+        "ev.calc.c18.4"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.calc.source_status",
+      "kind": "formulation",
+      "label": "Atribuciones y cifras sin aparato de fuentes",
+      "summary": "La obra menciona OMS, Coleman, Lloyd-Smith, Chouldechova y estudios diversos, pero no incluye bibliografía ni trazabilidad documental suficiente para reproducir las cifras de casos y calibraciones.",
+      "evidence": [
+        "ev.calc.c06.3",
+        "ev.calc.c08.3",
+        "ev.calc.c11.3",
+        "ev.calc.c13.3",
+        "ev.calc.c15.3",
+        "ev.calc.c16.3",
+        "ev.calc.b.domains"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "calculation.calc.published_graphs_spectral_check",
+      "kind": "calculation_result",
+      "label": "Comprobación espectral de tres grafos publicados",
+      "summary": "La reconstrucción literal de las matrices del Caso Eje, del caso clínico y de John Snow da radio espectral 0 en los tres casos. Al ser DAG, W es nilpotente; tanto W como Wᵀ llevan la suma del iterado a cero en 3–5 pasos, por lo que la normalización deja de estar definida y no reproduce los porcentajes publicados.",
+      "method": "Reconstrucción NumPy de las asignaciones W[i,j] impresas; cálculo de eigenvalores y seguimiento de Σ(Mr) con vector inicial uniforme para M=W y M=Wᵀ.",
+      "results": {
+        "caso_eje": {"spectral_radius": 0.0, "rank": 4, "collapse_step_W": 4, "collapse_step_W_transpose": 4},
+        "caso_clinico": {"spectral_radius": 0.0, "rank": 2, "collapse_step_W": 3, "collapse_step_W_transpose": 3},
+        "john_snow": {"spectral_radius": 0.0, "rank": 4, "collapse_step_W": 5, "collapse_step_W_transpose": 5}
+      },
+      "evidence": [
+        "ev.calc.c05.4",
+        "ev.calc.c06.4",
+        "ev.calc.c18.case.context",
+        "ev.calc.d.core"
+      ],
+      "evidence_status": "inferred"
     }
   ],
   "relations": [
@@ -25876,6 +28410,555 @@
         "ev.mcii.b.direction"
       ],
       "rationale": "Amplía ocho dominios y reconoce que las equivalencias son aproximaciones."
+    },
+    {
+      "id": "rel.calc.rstar.reformulates_tf",
+      "from": "formal.calc.rstar",
+      "to": "formal.tf.rstar",
+      "type": "reformulates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.tf.21.eigenvector"
+      ],
+      "rationale": "Conserva el eigenvector pero lo equipara además con fracción causal y contrafáctico."
+    },
+    {
+      "id": "rel.calc.rstar.reuses_axiom",
+      "from": "formal.calc.rstar",
+      "to": "formal.rstar",
+      "type": "reuses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.axiom.6.rstar"
+      ],
+      "rationale": "Reutiliza la misma iteración sin resolver orientación, sumidero ni tipado causal."
+    },
+    {
+      "id": "rel.calc.rstar.reuses_mci",
+      "from": "formal.calc.rstar",
+      "to": "formal.mci.rstar",
+      "type": "reuses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.mci.ii5.rstar"
+      ],
+      "rationale": "Generaliza por dominios la formulación de MC-I."
+    },
+    {
+      "id": "rel.calc.rstar.reuses_mcii",
+      "from": "formal.calc.rstar",
+      "to": "formal.mcii.rstar",
+      "type": "reuses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.mcii.ii1.power"
+      ],
+      "rationale": "Adopta R* de MC-II sin resolver su vector no reproducido."
+    },
+    {
+      "id": "rel.calc.W.operationalizes_mcii",
+      "from": "formal.calc.W",
+      "to": "formal.mcii.W",
+      "type": "operationalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.b.direction",
+        "ev.mcii.ii1.weights"
+      ],
+      "rationale": "Añade rangos E0–E8 y hoja documental, pero no calibración empírica de magnitud."
+    },
+    {
+      "id": "rel.calc.S.reuses_mci",
+      "from": "formal.calc.S",
+      "to": "formal.mci.S",
+      "type": "reuses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.d.core",
+        "ev.mci.ii9.s_definition"
+      ],
+      "rationale": "Implementa la perturbación por fila media con bucle de alternativa inoperante."
+    },
+    {
+      "id": "rel.calc.alpha.extends_mcii",
+      "from": "formal.calc.alpha",
+      "to": "formal.mcii.alpha",
+      "type": "extends",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c05.2",
+        "ev.calc.c06.2",
+        "ev.mcii.i5.alpha_routes"
+      ],
+      "rationale": "Traduce α a integración clínica, contención, mitigación y otras conductas sin demostrar equivalencia de escala."
+    },
+    {
+      "id": "rel.calc.delta.redefines_mci",
+      "from": "formal.calc.delta",
+      "to": "formal.mci.delta",
+      "type": "redefines",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.mci.ii14.delta"
+      ],
+      "rationale": "Usa Δ=R*−α y abandona la fórmula histórica R*(1−α) de MC-I."
+    },
+    {
+      "id": "rel.calc.delta.reuses_axiom",
+      "from": "formal.calc.delta",
+      "to": "formal.delta",
+      "type": "reuses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.axiom.5.delta"
+      ],
+      "rationale": "Retoma la resta de Axiomatización y normaliza Δ negativo como sobreasunción."
+    },
+    {
+      "id": "rel.calc.delta.differs_mcii",
+      "from": "formal.calc.delta",
+      "to": "formal.mcii.delta",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.mcii.iv4.delta"
+      ],
+      "rationale": "Difiere de la fórmula multiplicativa dominante de MC-II, aunque coincide con su apéndice observador/participante sólo superficialmente."
+    },
+    {
+      "id": "rel.calc.rnet.reuses_mcii",
+      "from": "formal.calc.rnet",
+      "to": "formal.mcii.rstar_net",
+      "type": "reuses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.e.core",
+        "ev.mcii.iv3.rnet"
+      ],
+      "rationale": "Conserva el descuento lineal por sustituibilidad."
+    },
+    {
+      "id": "rel.calc.damage.extends_mcii",
+      "from": "formal.calc.Dtotal",
+      "to": "formal.mcii.D_total",
+      "type": "extends",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.mcii.ii1.damage"
+      ],
+      "rationale": "Expande el agregado tripartito a todos los dominios sin resolver unidades o solapamientos."
+    },
+    {
+      "id": "rel.calc.dvital.formalizes_damage",
+      "from": "formal.calc.Dvital",
+      "to": "formal.calc.Dtotal",
+      "type": "formalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.e.core"
+      ],
+      "rationale": "Convierte daño monetario mediante un salario de referencia normativo."
+    },
+    {
+      "id": "rel.calc.deltaB.differs_tf",
+      "from": "formal.calc.deltaB",
+      "to": "formal.tf.delta_b",
+      "type": "differs_from",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.e.core",
+        "ev.tf.21.rstar_b"
+      ],
+      "rationale": "La obra alterna resta dimensionalmente mixta y multiplicación por fracción."
+    },
+    {
+      "id": "rel.calc.J.reuses_axiom",
+      "from": "formal.calc.J",
+      "to": "formal.axiom.RSC",
+      "type": "reframes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c04.2",
+        "ev.axiom.2.rsc"
+      ],
+      "rationale": "Cambia RSC por una distancia L1 de Δ y posteriormente admite valores negativos."
+    },
+    {
+      "id": "rel.calc.IIC.reuses_mcii",
+      "from": "formal.calc.IIC",
+      "to": "formal.mcii.IIC",
+      "type": "reuses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c11.4",
+        "ev.mcii.ii2.iic"
+      ],
+      "rationale": "Mantiene correlación pero varía el codominio entre correlación cruda y reescalada."
+    },
+    {
+      "id": "rel.calc.children.operationalizes_mcii",
+      "from": "formal.calc.childprob",
+      "to": "formal.mcii.forms",
+      "type": "operationalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c05.4",
+        "ev.mcii.a.forms"
+      ],
+      "rationale": "Propone sigmoides y vectores simplificados sin calibración de umbrales."
+    },
+    {
+      "id": "rel.calc.egoito.reformulates_tf",
+      "from": "formal.calc.egoito",
+      "to": "formulation.ego.bis.tf",
+      "type": "reformulates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c.ito",
+        "ev.tf.tres_formulas"
+      ],
+      "rationale": "Traduce la integral del ego a un proceso estocástico sin derivar la correspondencia."
+    },
+    {
+      "id": "rel.calc.shapley.extends_mcii",
+      "from": "formal.calc.shapley",
+      "to": "formal.mcii.shapley_extension",
+      "type": "extends",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c.shapley",
+        "ev.mcii.iv6.shapley"
+      ],
+      "rationale": "Aporta fórmula estándar y código, pero deja la función v sin trazabilidad empírica."
+    },
+    {
+      "id": "rel.calc.rhist.differs_rstar",
+      "from": "formal.calc.rhist",
+      "to": "formal.calc.rstar",
+      "type": "internally_varies",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c.counterfactual",
+        "ev.calc.e.domains"
+      ],
+      "rationale": "El objeto histórico se define por diferencia de probabilidades y no por eigenvector."
+    },
+    {
+      "id": "rel.calc.protocol.refines_mcii",
+      "from": "method.calc.weight_protocol",
+      "to": "method.mcii.calibration_sheet",
+      "type": "refines",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.b.sheet",
+        "ev.mcii.a.sheet"
+      ],
+      "rationale": "Exige hoja por arista y rangos ante contradicción, sin aportar estudios de fiabilidad."
+    },
+    {
+      "id": "rel.calc.library.implements_core",
+      "from": "method.calc.library",
+      "to": "formal.calc.rstar",
+      "type": "operationalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.d.core"
+      ],
+      "rationale": "La biblioteca transcribe el procedimiento central y replica sus supuestos."
+    },
+    {
+      "id": "rel.calc.banach.attempts_validation",
+      "from": "formulation.calc.banach",
+      "to": "formal.calc.power",
+      "type": "attempts_to_validate",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c.banach"
+      ],
+      "rationale": "Invoca Banach sin probar contracción para W general usada por el libro."
+    },
+    {
+      "id": "rel.calc.pf.attempts_validation",
+      "from": "formulation.calc.pf",
+      "to": "formal.calc.rstar",
+      "type": "attempts_to_validate",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c.pf"
+      ],
+      "rationale": "Invoca PF, pero confunde irreducibilidad con primitivad y no aplica a DAG con sumidero."
+    },
+    {
+      "id": "rel.calc.ito.claims_correspondence",
+      "from": "formulation.calc.ito",
+      "to": "formal.calc.egoito",
+      "type": "claims_empirical_correspondence",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c.ito"
+      ],
+      "rationale": "Presenta analogías ontológicas como aplicación del cálculo estocástico sin puente formal."
+    },
+    {
+      "id": "rel.calc.shapley.formalizes",
+      "from": "formulation.calc.shapley",
+      "to": "formal.calc.shapley",
+      "type": "formalizes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c.shapley"
+      ],
+      "rationale": "La caracterización estándar no valida la función de valor causal elegida."
+    },
+    {
+      "id": "rel.calc.case.instantiates",
+      "from": "case.calc.axis",
+      "to": "formal.calc.rstar",
+      "type": "instantiates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c18.case.rsd"
+      ],
+      "rationale": "Asigna valores al expediente sin adjuntar la hoja de calibración o anexos citados."
+    },
+    {
+      "id": "rel.calc.case.revises_J",
+      "from": "case.calc.axis",
+      "to": "formal.calc.J",
+      "type": "revises",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c04.2",
+        "ev.calc.c18.case.indices"
+      ],
+      "rationale": "El caso usa J negativo y contradice la afirmación previa de imposibilidad."
+    },
+    {
+      "id": "rel.calc.case.uses_deltaB",
+      "from": "case.calc.axis",
+      "to": "formal.calc.deltaB",
+      "type": "uses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c18.case.bd"
+      ],
+      "rationale": "Cuantifica beneficio institucional mediante una de las variantes de Δ_B."
+    },
+    {
+      "id": "rel.calc.opacity.uses_core",
+      "from": "formal.calc.opacity",
+      "to": "formal.calc.rstar",
+      "type": "uses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c02.2"
+      ],
+      "rationale": "Construye alertas a partir de R*, S y α no calibrados."
+    },
+    {
+      "id": "rel.calc.inherited.reframes_historical_delta",
+      "from": "formal.calc.inherited",
+      "to": "concept.tf.historical_delta",
+      "type": "reformulates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c03.2",
+        "ev.tf.33.state_parameters"
+      ],
+      "rationale": "Convierte continuidad, beneficio y reparación en producto cuantitativo."
+    },
+    {
+      "id": "rel.calc.clinical.maps_phi2",
+      "from": "formal.calc.clinical",
+      "to": "formal.mci.phi2",
+      "type": "maps_to",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c05.2",
+        "ev.mci.ii4.operators"
+      ],
+      "rationale": "Identifica φ₂ con integración clínica, cambio semántico que requiere validación de correspondencia."
+    },
+    {
+      "id": "rel.calc.R0.claims_correspondence",
+      "from": "formal.calc.R0",
+      "to": "formal.calc.rstar",
+      "type": "claims_empirical_correspondence",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c06.4"
+      ],
+      "rationale": "Relaciona R* con R₀ y dispersión sin derivación estadística."
+    },
+    {
+      "id": "rel.calc.tanatology.restricts_benefit",
+      "from": "formal.calc.tanatology",
+      "to": "formal.calc.Btotal",
+      "type": "restricts",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c07.1"
+      ],
+      "rationale": "Fija B_total=0 por premisa ontológica, no por cálculo."
+    },
+    {
+      "id": "rel.calc.DI.reuses_credit",
+      "from": "formal.calc.DI",
+      "to": "formal.calc.rstar",
+      "type": "reframes",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c08.4",
+        "ev.calc.c13.4"
+      ],
+      "rationale": "Convierte exceso de ratio grupal en cuota causal sin identificación."
+    },
+    {
+      "id": "rel.calc.ICRS.reuses_rstar",
+      "from": "formal.calc.ICRS",
+      "to": "formal.calc.rstar",
+      "type": "name_for",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c09.2"
+      ],
+      "rationale": "ICRS es R* renombrado y luego entrada de un modelo de riesgo."
+    },
+    {
+      "id": "rel.calc.PAC.uses_rnet",
+      "from": "formal.calc.PAC",
+      "to": "formal.calc.rnet",
+      "type": "uses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c10.4"
+      ],
+      "rationale": "Multiplica riesgo esperado por la cuota neta individual."
+    },
+    {
+      "id": "rel.calc.governance.uses_IIC",
+      "from": "formal.calc.governance",
+      "to": "formal.calc.IIC",
+      "type": "uses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c11.4"
+      ],
+      "rationale": "El predictor usa IIC junto con variables no calibradas y coeficientes sin dataset."
+    },
+    {
+      "id": "rel.calc.INCF.reuses_rstar",
+      "from": "formal.calc.INCF",
+      "to": "formal.calc.rstar",
+      "type": "name_for",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c12.2"
+      ],
+      "rationale": "INCF es el alias de ingeniería para R*."
+    },
+    {
+      "id": "rel.calc.IAS.uses_J",
+      "from": "formal.calc.IAS",
+      "to": "formal.calc.J",
+      "type": "uses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c12.4"
+      ],
+      "rationale": "Resta J entre momentos aunque composición del grafo pueda cambiar."
+    },
+    {
+      "id": "rel.calc.algorithmic.uses_DI",
+      "from": "formal.calc.algorithmic",
+      "to": "formal.calc.DI",
+      "type": "uses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c13.4"
+      ],
+      "rationale": "Atribuye aditivamente disparate impact a métrica, datos y modelo."
+    },
+    {
+      "id": "rel.calc.shapley.restricts_rstar",
+      "from": "formal.calc.shapley",
+      "to": "formal.calc.rstar",
+      "type": "revised_by_limit_case",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c14.2",
+        "ev.calc.c14.4"
+      ],
+      "rationale": "La obra abandona R* eigenvectorial cuando falla la condición individual necesaria."
+    },
+    {
+      "id": "rel.calc.education.uses_rstar",
+      "from": "formal.calc.education",
+      "to": "formal.calc.rstar",
+      "type": "uses",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c15.2"
+      ],
+      "rationale": "Aplica cuotas agregadas del entorno a evaluación de casos individuales."
+    },
+    {
+      "id": "rel.calc.sports.benefit",
+      "from": "formal.calc.sports",
+      "to": "formal.tf.rstar_b",
+      "type": "extends",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c17.2",
+        "ev.tf.21.rstar_b"
+      ],
+      "rationale": "Especializa R*_B al triunfo y deriva un salario normativo."
+    },
+    {
+      "id": "rel.calc.narrative.interpretive",
+      "from": "formal.calc.narrative",
+      "to": "formal.calc.rstar",
+      "type": "translates",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c18.2"
+      ],
+      "rationale": "Traslada lenguaje causal a interpretación literaria sin pretensión empírica equivalente."
+    },
+    {
+      "id": "rel.calc.limits.qualify_domains",
+      "from": "formulation.calc.domain_limits",
+      "to": "method.calc.domain_translation",
+      "type": "qualifies",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c05.4",
+        "ev.calc.c06.4",
+        "ev.calc.c16.4"
+      ],
+      "rationale": "Los límites autorales restringen precisión, predicción y generalización por dominio."
+    },
+    {
+      "id": "rel.calc.spectral_check.tests_power",
+      "from": "calculation.calc.published_graphs_spectral_check",
+      "to": "formal.calc.power",
+      "type": "tests",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.calc.c05.4",
+        "ev.calc.c06.4",
+        "ev.calc.c18.case.context",
+        "ev.calc.d.core"
+      ],
+      "rationale": "La prueba reproduce literalmente tres matrices publicadas y muestra colapso de la normalización bajo ambas orientaciones, sin proponer una matriz alternativa."
     }
   ],
   "routes": [
@@ -33412,6 +36495,684 @@
         "review.mcii.delta_sign",
         "review.mcii.delta_appendix"
       ]
+    },
+    {
+      "id": "route.calc.core",
+      "purpose": "Recuperar el núcleo formal sin equiparar formulación con validación.",
+      "triggers": [
+        "El cálculo de la responsabilidad",
+        "núcleo formal",
+        "R* S alpha delta"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.calc.prologue.program",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.calc.c01.2",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.calc.e.core",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.calc.rstar_equivalence",
+        "review.calc.orientation",
+        "review.calc.sinks",
+        "review.calc.S_semantics",
+        "review.calc.alpha_crossdomain",
+        "review.calc.delta_history"
+      ]
+    },
+    {
+      "id": "route.calc.rstar",
+      "purpose": "Auditar R*, W, iteración, orientación, sumideros y correspondencia causal.",
+      "triggers": [
+        "R* El cálculo",
+        "eigenvector causal",
+        "iteración de potencia"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.calc.c01.4",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.calc.b.direction",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.calc.c.banach",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.calc.c.pf",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.calc.d.core",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.rstar.sink_irreducibility",
+        "review.tf.rstar_orientation",
+        "review.axiom.rstar_sink",
+        "review.mci.rstar_orientation",
+        "review.mcii.sink_normalization",
+        "review.calc.rstar_equivalence",
+        "review.calc.orientation",
+        "review.calc.sinks",
+        "review.calc.banach_contraction",
+        "review.calc.pf_periodicity",
+        "review.calc.self_loop_connectivity",
+        "review.calc.published_vectors_reproduction"
+      ]
+    },
+    {
+      "id": "route.calc.weights",
+      "purpose": "Distinguir documentación, fuerza probatoria, magnitud causal, incertidumbre y arista nula.",
+      "triggers": [
+        "calibración W",
+        "E0 E8",
+        "hoja de calibración"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.calc.b.direction",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.calc.b.evidence",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.calc.b.contradiction",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.calc.b.zero",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.calc.b.sheet",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.calc.b.tests",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mcii.edge_weight_calibration",
+        "review.calc.weight_evidence_conflation",
+        "review.calc.weight_interrater",
+        "review.calc.weight_direction_counterfactual",
+        "review.calc.weight_hierarchy"
+      ]
+    },
+    {
+      "id": "route.calc.delta",
+      "purpose": "Conservar las versiones históricas de Δ, R*neta, Δ_B y sus conflictos de tipo.",
+      "triggers": [
+        "Delta cálculo",
+        "responsabilidad neta",
+        "Delta B"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.calc.c01.2",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.calc.c10.2",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.calc.c18.case.rsd",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.calc.d.core",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.calc.e.core",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mci.delta_crosswork",
+        "review.mcii.delta_sign",
+        "review.mcii.delta_appendix",
+        "review.calc.delta_history",
+        "review.calc.rnet_derivation",
+        "review.calc.deltaB_type"
+      ]
+    },
+    {
+      "id": "route.calc.damage",
+      "purpose": "Auditar daño, beneficio, conversión vital, ajuste debitor y fraude annona.",
+      "triggers": [
+        "D_total",
+        "D_vital",
+        "B_total",
+        "ajuste debitor",
+        "fraude annona"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.calc.c01.2",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.calc.c06.3",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.calc.c10.2",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.calc.c18.case.bd",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.calc.e.core",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.mcii.damage_units",
+        "review.calc.damage_units",
+        "review.calc.dvital_normativity",
+        "review.calc.AD_allocation",
+        "review.calc.deltaB_type",
+        "review.calc.FA_typing"
+      ]
+    },
+    {
+      "id": "route.calc.indices",
+      "purpose": "Recuperar J, IIC, I_d e IAS con dominio, codominio y contradicciones.",
+      "triggers": [
+        "J justicia",
+        "IIC",
+        "I_d",
+        "IAS"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.calc.c04.2",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.calc.c11.4",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.calc.c12.4",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.calc.c18.case.indices",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.calc.d.utilities",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.calc.J_domain",
+        "review.calc.J_comparability",
+        "review.calc.IIC_scale",
+        "review.calc.IIC_measurement",
+        "review.calc.Iid_range",
+        "review.calc.IAS_graph_invariance"
+      ]
+    },
+    {
+      "id": "route.calc.proofs",
+      "purpose": "Separar teoremas estándar, aplicaciones autorales y pasos no demostrados.",
+      "triggers": [
+        "demostraciones El cálculo",
+        "Banach Perron Frobenius Ito Shapley"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.calc.c.banach",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.calc.c.pf",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.calc.c.ito",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.calc.c.shapley",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.calc.c.counterfactual",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.calc.banach_contraction",
+        "review.calc.pf_periodicity",
+        "review.calc.self_loop_connectivity",
+        "review.calc.ito_bridge",
+        "review.calc.shapley_value",
+        "review.calc.shapley_collapse",
+        "review.calc.historical_probabilities"
+      ]
+    },
+    {
+      "id": "route.calc.health",
+      "purpose": "Auditar clínica, epidemiología y tanatología conservando límites y estatus.",
+      "triggers": [
+        "clínica",
+        "epidemiología",
+        "tanatología"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.calc.c05.2",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.calc.c05.4",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.calc.c06.2",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.calc.c06.4",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.calc.c07.1",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.calc.c07.4",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.calc.child_calibration",
+        "review.calc.child_entropy",
+        "review.calc.clinical_safety",
+        "review.calc.R0_correspondence",
+        "review.calc.covid_sources",
+        "review.calc.covid_units",
+        "review.calc.tanatology_benefit"
+      ]
+    },
+    {
+      "id": "route.calc.finance",
+      "purpose": "Auditar crédito, quiebra, seguros y gobernanza sin promover predictores no validados.",
+      "triggers": [
+        "crédito causal",
+        "ICRS",
+        "PAC",
+        "gobernanza"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.calc.c08.4",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.calc.c09.4",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.calc.c10.4",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.calc.c11.4",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.calc.d.predictors",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.calc.credit_DI",
+        "review.calc.ICRS_calibration",
+        "review.calc.PAC_portfolio",
+        "review.calc.fine_formula",
+        "review.calc.governance_dataset",
+        "review.calc.governance_horizon"
+      ]
+    },
+    {
+      "id": "route.calc.technology",
+      "purpose": "Auditar INCF, IA y Shapley ambiental con condiciones de correspondencia.",
+      "triggers": [
+        "INCF",
+        "IA causal",
+        "Shapley ambiental"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.calc.c12.4",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.calc.c13.4",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.calc.c14.2",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.calc.c14.4",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.calc.INCF_doublecount",
+        "review.calc.algorithmic_additivity",
+        "review.calc.model_S_one",
+        "review.calc.shapley_value",
+        "review.calc.environment_irreversibility"
+      ]
+    },
+    {
+      "id": "route.calc.humanities",
+      "purpose": "Auditar educación, historia, deporte y literatura como traducciones no equivalentes.",
+      "triggers": [
+        "educación causal",
+        "historia contrafáctica",
+        "deporte causal",
+        "literatura causal"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.calc.c15.4",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.calc.c16.4",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.calc.c17.4",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.calc.c18.4",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.calc.education_transfer",
+        "review.calc.historical_probabilities",
+        "review.calc.sports_counterfactual",
+        "review.calc.sports_salary",
+        "review.calc.narrative_matrix"
+      ]
+    },
+    {
+      "id": "route.calc.case_axis",
+      "purpose": "Recuperar el Caso Eje con fuentes, fórmulas y contradicción de J visibles.",
+      "triggers": [
+        "Caso Eje",
+        "antiguo gerente",
+        "J negativo"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.calc.c18.case.context",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.calc.c18.case.rsd",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.calc.c18.case.bd",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.calc.c18.case.indices",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.calc.c18.case.synthesis",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.calc.b.sheet",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.calc.case_sources",
+        "review.calc.case_J",
+        "review.calc.case_alpha",
+        "review.calc.J_domain",
+        "review.calc.deltaB_type",
+        "review.calc.published_vectors_reproduction"
+      ]
+    },
+    {
+      "id": "route.calc.software",
+      "purpose": "Distinguir código de referencia, ejecución reproducible, calibración y validación.",
+      "triggers": [
+        "biblioteca Python cálculo",
+        "código referencia",
+        "predictores"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.calc.d.core",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.calc.d.predictors",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.calc.d.children",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.calc.d.utilities",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.calc.orientation",
+        "review.calc.S_loop",
+        "review.calc.S_definedness",
+        "review.calc.child_entropy",
+        "review.calc.shapley_mc_error",
+        "review.calc.code_artifact",
+        "review.calc.prediction_status",
+        "review.calc.published_vectors_reproduction"
+      ]
+    },
+    {
+      "id": "route.calc.sources",
+      "purpose": "Elevar toda cifra externa y caso aplicado que carece de aparato documental.",
+      "triggers": [
+        "fuentes El cálculo",
+        "bibliografía",
+        "evidencia casos"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.calc.c06.3",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.calc.c11.3",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.calc.c13.3",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.calc.c15.3",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.calc.c16.3",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.calc.b.domains",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.calc.source_apparatus",
+        "review.calc.covid_sources",
+        "review.calc.case_sources",
+        "review.calc.governance_dataset",
+        "review.calc.historical_probabilities"
+      ]
+    },
+    {
+      "id": "route.calc.crosswork",
+      "purpose": "Contrastar El cálculo con TF, Axiomatización y MC-I–II preservando las versiones.",
+      "triggers": [
+        "El cálculo y Metrología",
+        "El cálculo y Axiomatización",
+        "historia R*"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.tf.21.eigenvector",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.axiom.6.rstar",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.mci.ii5.rstar",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.mcii.ii1.power",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.calc.c01.2",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.calc.c.pf",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        },
+        {
+          "order": 7,
+          "evidence_id": "ev.calc.e.core",
+          "reason": "Conserva formulación, aplicación y estatus documental."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.rstar_orientation",
+        "review.axiom.rstar_sink",
+        "review.mci.rstar_orientation",
+        "review.mci.delta_crosswork",
+        "review.mcii.delta_sign",
+        "review.mcii.iic_codomain",
+        "review.calc.rstar_equivalence",
+        "review.calc.delta_history",
+        "review.calc.IIC_scale"
+      ]
     }
   ],
   "review_queue": [
@@ -33441,7 +37202,7 @@
       "status": "pending_formal_review",
       "subject": "formal.rstar",
       "question": "¿Cómo deben compatibilizarse el nodo final sumidero con fila nula y la condición de irreducibilidad/primitividad usada para la existencia, unicidad y λ₁=1 de R*?",
-      "why_not_auto_resolved": "La Definición 6 declara un nodo final sin aristas salientes y fila nula de W, mientras el Teorema 6 exige irreducibilidad sobre N y en su demostración usa W·1=1 como si toda W fuera estocástica por filas. Un sumidero con fila nula no puede alcanzar los demás nodos y su fila no suma 1. Metrología Causal V·2 vuelve a exigir irreducibilidad para la validez de R*. MC-I confunde fuerte conexidad con alcance del resultado y su caso aplicado conserva un terminal sin retorno. MC-II vuelve a equiparar alcanzar el sumidero con irreducibilidad y no repara la incompatibilidad.",
+      "why_not_auto_resolved": "La Definición 6 declara un nodo final sin aristas salientes y fila nula de W, mientras el Teorema 6 exige irreducibilidad sobre N y en su demostración usa W·1=1 como si toda W fuera estocástica por filas. Un sumidero con fila nula no puede alcanzar los demás nodos y su fila no suma 1. Metrología Causal V·2 vuelve a exigir irreducibilidad para la validez de R*. MC-I confunde fuerte conexidad con alcance del resultado y su caso aplicado conserva un terminal sin retorno. MC-II vuelve a equiparar alcanzar el sumidero con irreducibilidad y no repara la incompatibilidad. El Apéndice C exige primitivad/fuerte conexión, pero los casos mantienen DAG y sumidero.",
       "blocking": false,
       "blocking_for": [
         "software_implementation",
@@ -33452,7 +37213,8 @@
         "ev.mci.rstar_validity",
         "ev.mci.vi16.graph",
         "ev.mcii.ii1.graph",
-        "ev.mcii.iv2.pf"
+        "ev.mcii.iv2.pf",
+        "ev.calc.c.pf"
       ]
     },
     {
@@ -36125,9 +39887,10 @@
         "ev.mci.ii5.rstar",
         "ev.mci.ii6.power_pf",
         "ev.mcii.ii1.power",
-        "ev.mcii.iv1.axioms"
+        "ev.mcii.iv1.axioms",
+        "ev.calc.d.core"
       ],
-      "why_not_auto_resolved": "Las dos obras registran orientaciones opuestas y producen centralidades distintas. MC-I no adjudica la diferencia: usa suma entrante en la ecuación y W en el algoritmo. MC-II conserva la iteración con W y alterna índices entrantes/salientes; no adjudica W frente a Wᵀ.",
+      "why_not_auto_resolved": "Las dos obras registran orientaciones opuestas y producen centralidades distintas. MC-I no adjudica la diferencia: usa suma entrante en la ecuación y W en el algoritmo. MC-II conserva la iteración con W y alterna índices entrantes/salientes; no adjudica W frente a Wᵀ. El código vuelve a usar W@R con aristas cargadas como fila-origen.",
       "related_relation": "rel.tf.rstar.differs_axiom"
     },
     {
@@ -36209,9 +39972,10 @@
         "empirical_application"
       ],
       "evidence": [
-        "ev.tf.22.s_definition"
+        "ev.tf.22.s_definition",
+        "ev.calc.d.core"
       ],
-      "why_not_auto_resolved": "La razón es calculable solo si los pesos y su escala quedan especificados."
+      "why_not_auto_resolved": "La razón es calculable solo si los pesos y su escala quedan especificados. La biblioteca fija S por correlación de una perturbación no validada."
     },
     {
       "id": "review.tf.s_ranges",
@@ -36309,9 +40073,10 @@
       ],
       "evidence": [
         "ev.tf.11.rstar_delta",
-        "ev.tf.12.parameter_status"
+        "ev.tf.12.parameter_status",
+        "ev.calc.b.domains"
       ],
-      "why_not_auto_resolved": "R* surge de una red normalizada y α de una escala interior no calibrada."
+      "why_not_auto_resolved": "R* surge de una red normalizada y α de una escala interior no calibrada. La obra extiende α a 18 dominios sin invariancia metrológica."
     },
     {
       "id": "review.tf.alpha_irreversibility",
@@ -36426,9 +40191,10 @@
       "evidence": [
         "ev.tf.31.iic_scale",
         "ev.mci.iii9.iic",
-        "ev.mci.a4.calibration"
+        "ev.mci.a4.calibration",
+        "ev.calc.d.utilities"
       ],
-      "why_not_auto_resolved": "Los intervalos descriptivos se solapan en cero y no tienen calibración. Los nuevos rangos tampoco incluyen un estudio calibrador trazable."
+      "why_not_auto_resolved": "Los intervalos descriptivos se solapan en cero y no tienen calibración. Los nuevos rangos tampoco incluyen un estudio calibrador trazable. La biblioteca reescala y trunca la correlación a [0,1], nueva variante."
     },
     {
       "id": "review.tf.iic_aego_reverse",
@@ -36623,9 +40389,10 @@
         "ev.tf.42.child_probability",
         "ev.tf.42.case_errors",
         "ev.mci.iii1.classifier",
-        "ev.mci.iii4.signatures"
+        "ev.mci.iii4.signatures",
+        "ev.calc.d.children"
       ],
-      "why_not_auto_resolved": "Se propone distribución sin datos, concentración ni tratamiento de ceros. El clasificador llamado bayesiano no aporta tasas base ni verosimilitudes."
+      "why_not_auto_resolved": "Se propone distribución sin datos, concentración ni tratamiento de ceros. El clasificador llamado bayesiano no aporta tasas base ni verosimilitudes. La biblioteca fija reglas de hijos sin dataset."
     },
     {
       "id": "review.tf.interval_mixture",
@@ -37140,9 +40907,10 @@
         "ev.mci.rstar_validity",
         "ev.mci.vi16.graph",
         "ev.mcii.ii1.graph",
-        "ev.mcii.iv2.theorem"
+        "ev.mcii.iv2.theorem",
+        "ev.calc.c.banach"
       ],
-      "why_not_auto_resolved": "El sumidero no alcanza otros nodos y W no es estocástica en su última fila; las hipótesis del teorema son incompatibles. MC-I no resuelve la incompatibilidad y la reproduce en el caso aplicado. MC-II añade autolazo ε, pero Nf sigue sin retornar a actores y la condición PF continúa sin cumplirse."
+      "why_not_auto_resolved": "El sumidero no alcanza otros nodos y W no es estocástica en su última fila; las hipótesis del teorema son incompatibles. MC-I no resuelve la incompatibilidad y la reproduce en el caso aplicado. MC-II añade autolazo ε, pero Nf sigue sin retornar a actores y la condición PF continúa sin cumplirse. La obra posterior no elimina el sumidero; añade hipótesis incompatibles con los grafos aplicados."
     },
     {
       "id": "review.axiom.epsilon_dimension",
@@ -37396,9 +41164,10 @@
         "ev.axiom.b.mechanisms",
         "ev.axiom.b.levels",
         "ev.mci.a4.calibration",
-        "ev.mci.vi16.traceability"
+        "ev.mci.vi16.traceability",
+        "ev.calc.b.evidence"
       ],
-      "why_not_auto_resolved": "La tabla ofrece cifras y atribuciones sin referencias bibliográficas, datos ni protocolo reproducible dentro del corpus auditado. MC-I vuelve a declarar calibración y casos reales sin incorporar datos o expedientes reproducibles."
+      "why_not_auto_resolved": "La tabla ofrece cifras y atribuciones sin referencias bibliográficas, datos ni protocolo reproducible dentro del corpus auditado. MC-I vuelve a declarar calibración y casos reales sin incorporar datos o expedientes reproducibles. El protocolo posterior asigna rangos autorales E0–E8, sin fuentes de calibración."
     },
     {
       "id": "review.axiom.calibration_circularity",
@@ -37619,9 +41388,10 @@
         "ev.mci.ii5.rstar",
         "ev.mci.ii6.power_pf",
         "ev.mcii.ii1.power",
-        "ev.mcii.iv1.axioms"
+        "ev.mcii.iv1.axioms",
+        "ev.calc.d.core"
       ],
-      "why_not_auto_resolved": "La ecuación componente usa pesos entrantes, mientras el algoritmo escrito multiplica por W; ambas orientaciones no coinciden en general. El segundo volumen reutiliza W e índices incompatibles sin fijar una convención única."
+      "why_not_auto_resolved": "La ecuación componente usa pesos entrantes, mientras el algoritmo escrito multiplica por W; ambas orientaciones no coinciden en general. El segundo volumen reutiliza W e índices incompatibles sin fijar una convención única. La biblioteca reproduce la misma convención ambigua."
     },
     {
       "id": "review.mci.pf_hypotheses",
@@ -37741,9 +41511,10 @@
         "ev.mci.a4.calibration",
         "ev.mcii.i5.route_a",
         "ev.mcii.i5.route_b",
-        "ev.mcii.a.conversion"
+        "ev.mcii.a.conversion",
+        "ev.calc.b.domains"
       ],
-      "why_not_auto_resolved": "Los valores se presentan como escala operativa, pero no hay estudio de fiabilidad, validez ni función de enlace a observables. Las rutas y conversiones añaden reglas operativas no validadas y una suma máxima de .99."
+      "why_not_auto_resolved": "Los valores se presentan como escala operativa, pero no hay estudio de fiabilidad, validez ni función de enlace a observables. Las rutas y conversiones añaden reglas operativas no validadas y una suma máxima de .99. Los anclajes posteriores siguen sin datos de calibración."
     },
     {
       "id": "review.mci.alpha_observability",
@@ -37778,9 +41549,10 @@
         "ev.tf.24.delta_states",
         "ev.axiom.5.delta",
         "ev.mcii.iv4.delta",
-        "ev.mcii.a.conversion"
+        "ev.mcii.a.conversion",
+        "ev.calc.e.core"
       ],
-      "why_not_auto_resolved": "Las expresiones tienen distinto rango y signo; MC-I reutiliza la versión de TF sin adjudicar la sustitución axiomática. MC-II preserva R*(1−α), conserva casos negativos imposibles y además introduce Δ_sesión con otra firma."
+      "why_not_auto_resolved": "Las expresiones tienen distinto rango y signo; MC-I reutiliza la versión de TF sin adjudicar la sustitución axiomática. MC-II preserva R*(1−α), conserva casos negativos imposibles y además introduce Δ_sesión con otra firma. El cálculo adopta explícitamente Δ=R*−α, nueva versión histórica sin adjudicar las multiplicativas."
     },
     {
       "id": "review.mci.delta_impossible_cases",
@@ -37926,9 +41698,10 @@
         "ev.mci.iii9.iic",
         "ev.mci.a4.calibration",
         "ev.mcii.ii2.iic",
-        "ev.mcii.iv5.annona"
+        "ev.mcii.iv5.annona",
+        "ev.calc.c11.4"
       ],
-      "why_not_auto_resolved": "No hay datos, distribución de referencia ni estudio de sensibilidad de los cortes. El volumen usa [-1,1] en Serie II y [0,1] en el corolario, por lo que la escala sigue inestable."
+      "why_not_auto_resolved": "No hay datos, distribución de referencia ni estudio de sensibilidad de los cortes. El volumen usa [-1,1] en Serie II y [0,1] en el corolario, por lo que la escala sigue inestable. El capítulo vuelve a hablar de correlación [-1,1] y el glosario de [0,1]."
     },
     {
       "id": "review.mci.iic_circularity",
@@ -38097,9 +41870,10 @@
       ],
       "evidence": [
         "ev.mci.v7.shapley",
-        "ev.mcii.iv6.shapley"
+        "ev.mcii.iv6.shapley",
+        "ev.calc.c.shapley"
       ],
-      "why_not_auto_resolved": "Sin función de valor observable, la fórmula de Shapley no produce una atribución; la obra reconoce además coste 2^n. MC-II propone calcular v(S) con W_S y normalizar en Nf, pero Nf está excluido de las coaliciones y la operación no queda definida."
+      "why_not_auto_resolved": "Sin función de valor observable, la fórmula de Shapley no produce una atribución; la obra reconoce además coste 2^n. MC-II propone calcular v(S) con W_S y normalizar en Nf, pero Nf está excluido de las coaliciones y la operación no queda definida. El teorema estándar se aporta, pero v(S) sigue asumida."
     },
     {
       "id": "review.mci.discount_rate",
@@ -38271,9 +42045,10 @@
         "formal_validation"
       ],
       "evidence": [
-        "ev.mci.a1.pf"
+        "ev.mci.a1.pf",
+        "ev.calc.c.pf"
       ],
-      "why_not_auto_resolved": "El argumento de Brouwer no prueba que el valor sea el radio espectral ni su simplicidad; la unicidad presupone un dato que no establece."
+      "why_not_auto_resolved": "El argumento de Brouwer no prueba que el valor sea el radio espectral ni su simplicidad; la unicidad presupone un dato que no establece. La demostración posterior repite una versión de PF que confunde irreducibilidad y primitivad."
     },
     {
       "id": "review.mci.spectral_markov",
@@ -38303,9 +42078,10 @@
       "evidence": [
         "ev.mci.a3.monotonicity",
         "ev.mcii.iv1.axioms",
-        "ev.mcii.iv2.proof"
+        "ev.mcii.iv2.proof",
+        "ev.calc.c.pf"
       ],
-      "why_not_auto_resolved": "La perturbación afecta todas las componentes y la normalización; la fórmula derivativa omite el resolvente reducido y no prueba el signo general. MC-II eleva la monotonicidad de componentes a axioma y pretende probarla desde el radio espectral, sin controlar el autovector normalizado."
+      "why_not_auto_resolved": "La perturbación afecta todas las componentes y la normalización; la fórmula derivativa omite el resolvente reducido y no prueba el signo general. MC-II eleva la monotonicidad de componentes a axioma y pretende probarla desde el radio espectral, sin controlar el autovector normalizado. Las nuevas pruebas no demuestran monotonicidad causal."
     },
     {
       "id": "review.mci.empirical_calibration",
@@ -38321,9 +42097,10 @@
         "ev.mci.a4.calibration",
         "ev.mcii.a.parameters",
         "ev.mcii.a.forms",
-        "ev.mcii.a.sheet"
+        "ev.mcii.a.sheet",
+        "ev.calc.b.sheet"
       ],
-      "why_not_auto_resolved": "No se aportan muestra, datos, criterios de inclusión, codificación, estimador, incertidumbre ni validación externa. MC-II aporta diseño prospectivo de recolección, no muestra, datos, estimaciones ni validación externa; la revisión permanece abierta."
+      "why_not_auto_resolved": "No se aportan muestra, datos, criterios de inclusión, codificación, estimador, incertidumbre ni validación externa. MC-II aporta diseño prospectivo de recolección, no muestra, datos, estimaciones ni validación externa; la revisión permanece abierta. Se aporta formato de expediente, pero no calibración empírica del método."
     },
     {
       "id": "review.mci.duality_proof",
@@ -38418,9 +42195,10 @@
         "software_implementation"
       ],
       "evidence": [
-        "ev.mcii.ii1.weights"
+        "ev.mcii.ii1.weights",
+        "ev.calc.b.evidence"
       ],
-      "why_not_auto_resolved": "Los anchos se prescriben sin muestra, estimador, cobertura ni validación multidominio."
+      "why_not_auto_resolved": "Los anchos se prescriben sin muestra, estimador, cobertura ni validación multidominio. La obra propone rangos por tipo de evidencia y abre la cuestión de confundir certeza con magnitud."
     },
     {
       "id": "review.mcii.series_dependencies",
@@ -38574,9 +42352,10 @@
         "software_implementation"
       ],
       "evidence": [
-        "ev.mcii.i5.divergence"
+        "ev.mcii.i5.divergence",
+        "ev.calc.b.domains"
       ],
-      "why_not_auto_resolved": "No se aportan distribución del error, validación ni pérdida que funde usar mínimo, promedio o rango."
+      "why_not_auto_resolved": "No se aportan distribución del error, validación ni pérdida que funde usar mínimo, promedio o rango. La traducción transversal multiplica las semánticas observables de α."
     },
     {
       "id": "review.mcii.method_selector",
@@ -38700,9 +42479,10 @@
       "evidence": [
         "ev.mcii.ii1.power",
         "ev.mcii.ii1.s_rnet",
-        "ev.mcii.iv1.axioms"
+        "ev.mcii.iv1.axioms",
+        "ev.calc.c.pf"
       ],
-      "why_not_auto_resolved": "El vector incluye .0563 en Nf, pero las responsabilidades de actores suman .9437 y el residuo se excluye."
+      "why_not_auto_resolved": "El vector incluye .0563 en Nf, pero las responsabilidades de actores suman .9437 y el residuo se excluye. La invocación a primitivad no resuelve los grafos reducibles publicados."
     },
     {
       "id": "review.mcii.delta_sign",
@@ -38717,9 +42497,10 @@
       "evidence": [
         "ev.mcii.ii1.delta",
         "ev.mcii.iv4.delta",
-        "ev.mcii.iv4.impossibility"
+        "ev.mcii.iv4.impossibility",
+        "ev.calc.c18.case.indices"
       ],
-      "why_not_auto_resolved": "La fórmula obliga Δ≥0 y la nota declara α>1 imposible, pero conserva inversión causal negativa."
+      "why_not_auto_resolved": "La fórmula obliga Δ≥0 y la nota declara α>1 imposible, pero conserva inversión causal negativa. El Caso Eje usa Δ negativo y J negativo como resultados interpretables."
     },
     {
       "id": "review.mcii.delta_magnitude",
@@ -38746,9 +42527,10 @@
         "legal_application"
       ],
       "evidence": [
-        "ev.mcii.ii1.damage"
+        "ev.mcii.ii1.damage",
+        "ev.calc.e.core"
       ],
-      "why_not_auto_resolved": "El destinatario fija magnitudes y horizonte, pero no se proporciona modelo de medición, escala común ni incertidumbre."
+      "why_not_auto_resolved": "El destinatario fija magnitudes y horizonte, pero no se proporciona modelo de medición, escala común ni incertidumbre. La obra amplía D_total y D_vital a 18 dominios conservando unidades heterogéneas."
     },
     {
       "id": "review.mcii.prevention_threshold",
@@ -38778,9 +42560,10 @@
       "evidence": [
         "ev.mcii.ii2.iic",
         "ev.mcii.iv5.annona",
-        "ev.mci.iii9.iic"
+        "ev.mci.iii9.iic",
+        "ev.calc.d.utilities"
       ],
-      "why_not_auto_resolved": "MC-II admite correlaciones negativas en Serie II, pero el corolario y MC-I presuponen [0,1]."
+      "why_not_auto_resolved": "MC-II admite correlaciones negativas en Serie II, pero el corolario y MC-I presuponen [0,1]. Se añade max(0,(corr+1)/2), incompatible con la escala cruda."
     },
     {
       "id": "review.mcii.iic_correlation",
@@ -38793,9 +42576,10 @@
         "software_implementation"
       ],
       "evidence": [
-        "ev.mcii.ii2.iic"
+        "ev.mcii.ii2.iic",
+        "ev.calc.a.risk"
       ],
-      "why_not_auto_resolved": "Una pareja cualitativa por protocolo no define una correlación; faltan unidad muestral, codificación, varianza y estimador."
+      "why_not_auto_resolved": "Una pareja cualitativa por protocolo no define una correlación; faltan unidad muestral, codificación, varianza y estimador. Se afirma calculabilidad pública sin instrumento ni validación."
     },
     {
       "id": "review.mcii.weight_adjustment_bounds",
@@ -39133,9 +42917,10 @@
       ],
       "evidence": [
         "ev.mcii.a.conversion",
-        "ev.mcii.iv4.delta"
+        "ev.mcii.iv4.delta",
+        "ev.calc.e.core"
       ],
-      "why_not_auto_resolved": "El apéndice cambia dependencias, unidad y signo del objeto sin declarar una nueva variable ni correspondencia."
+      "why_not_auto_resolved": "El apéndice cambia dependencias, unidad y signo del objeto sin declarar una nueva variable ni correspondencia. El glosario consolida la resta R*−α, pero no explica su relación con la resta observador/participante de MC-II."
     },
     {
       "id": "review.mcii.shapley_value_function",
@@ -39148,9 +42933,10 @@
         "software_implementation"
       ],
       "evidence": [
-        "ev.mcii.iv6.shapley"
+        "ev.mcii.iv6.shapley",
+        "ev.calc.c14.3"
       ],
-      "why_not_auto_resolved": "La submatriz se restringe a S excluyendo Nf, pero luego se normaliza sobre Nf; la operación no queda definida."
+      "why_not_auto_resolved": "La submatriz se restringe a S excluyendo Nf, pero luego se normaliza sobre Nf; la operación no queda definida. Los casos asignan valores de coalición sin trazabilidad empírica."
     },
     {
       "id": "review.mcii.shapley_continuity",
@@ -39163,9 +42949,10 @@
       ],
       "evidence": [
         "ev.mcii.iv6.continuity",
-        "ev.mcii.iv7.discontinuity"
+        "ev.mcii.iv7.discontinuity",
+        "ev.calc.c.shapley"
       ],
-      "why_not_auto_resolved": "No se da familia paramétrica ni métrica y el propio texto reconoce que k/n puede ser discontinuo."
+      "why_not_auto_resolved": "No se da familia paramétrica ni métrica y el propio texto reconoce que k/n puede ser discontinuo. La relación se formula por un juego definido desde R*, no por continuidad o límite demostrado."
     },
     {
       "id": "review.mcii.cou_sources",
@@ -39273,9 +43060,10 @@
       ],
       "evidence": [
         "ev.mcii.a.parameters",
-        "ev.mcii.a.sheet"
+        "ev.mcii.a.sheet",
+        "ev.calc.b.tests"
       ],
-      "why_not_auto_resolved": "Correlación, regresión y PCA sobre proxies no identifican automáticamente los objetos ontológicos; faltan confusores, error de medida y modelo."
+      "why_not_auto_resolved": "Correlación, regresión y PCA sobre proxies no identifican automáticamente los objetos ontológicos; faltan confusores, error de medida y modelo. Los casos de prueba son soluciones autorales y no validación externa."
     },
     {
       "id": "review.mcii.cohort_precision",
@@ -39291,6 +43079,1051 @@
         "ev.mcii.a.sheet"
       ],
       "why_not_auto_resolved": "No hay tamaños de cohorte, varianzas, potencia, pérdida longitudinal ni criterio de precisión."
+    },
+    {
+      "id": "review.calc.rstar_equivalence",
+      "subject": "formal.calc.rstar",
+      "question": "¿Qué demuestra que centralidad eigenvectorial, necesidad contrafáctica y fracción de daño sean el mismo objeto?",
+      "status": "pending_causal_and_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.calc.c16.4",
+        "ev.calc.e.core"
+      ],
+      "why_not_auto_resolved": "La obra alterna definiciones algorítmicamente distintas sin teorema de equivalencia.",
+      "related_relation": "rel.calc.rstar.reformulates_tf"
+    },
+    {
+      "id": "review.calc.orientation",
+      "subject": "formal.calc.W",
+      "question": "¿La convención fila-origen usada al construir casos es compatible con W@R?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "software_implementation",
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.calc.c01.4",
+        "ev.calc.d.core"
+      ],
+      "why_not_auto_resolved": "Los ejemplos asignan W[origen,destino], mientras W@R agrega sobre filas y revierte el flujo esperado."
+    },
+    {
+      "id": "review.calc.sinks",
+      "subject": "formal.calc.power",
+      "question": "¿Cómo produce R* la iteración en DAG con nodo final sumidero y filas nulas?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "software_implementation",
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.calc.c01.4",
+        "ev.calc.c.pf",
+        "ev.calc.d.core"
+      ],
+      "why_not_auto_resolved": "Los grafos publicados no son fuertemente conexos ni primitivos y el sumidero contradice las hipótesis declaradas."
+    },
+    {
+      "id": "review.calc.banach_contraction",
+      "subject": "formulation.calc.banach",
+      "question": "¿Dónde se prueba contracción en variación total para la normalización no lineal usada?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.calc.c.banach"
+      ],
+      "why_not_auto_resolved": "Primitividad por sí sola no establece el paso escrito; Dobrushin requiere normalización/positividad precisas no demostradas.",
+      "related_relation": "rel.calc.banach.attempts_validation"
+    },
+    {
+      "id": "review.calc.pf_periodicity",
+      "subject": "formulation.calc.pf",
+      "question": "¿Por qué se afirma |λ|<ρ bajo mera irreducibilidad?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.calc.c.pf"
+      ],
+      "why_not_auto_resolved": "La desigualdad estricta y convergencia sin oscilación requieren primitivad; una matriz irreducible periódica puede tener otros eigenvalores de módulo ρ.",
+      "related_relation": "rel.calc.pf.attempts_validation"
+    },
+    {
+      "id": "review.calc.self_loop_connectivity",
+      "subject": "formulation.calc.banach",
+      "question": "¿Cómo una autorreferencia ε en hojas vuelve fuertemente conexo un DAG?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.calc.c.banach",
+        "ev.calc.d.core"
+      ],
+      "why_not_auto_resolved": "Un bucle propio puede romper periodicidad pero no crea caminos de retorno ni irreducibilidad."
+    },
+    {
+      "id": "review.calc.weight_evidence_conflation",
+      "subject": "formal.calc.W",
+      "question": "¿Por qué la calidad probatoria determina la magnitud causal de w?",
+      "status": "pending_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "legal_application",
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.calc.b.direction",
+        "ev.calc.b.evidence"
+      ],
+      "why_not_auto_resolved": "E0–E8 ordena fuerza/tipo de evidencia, pero los rangos la convierten directamente en tamaño del efecto causal."
+    },
+    {
+      "id": "review.calc.weight_interrater",
+      "subject": "method.calc.weight_protocol",
+      "question": "¿Qué fiabilidad interevaluador y validez predictiva tienen los rangos E0–E8?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.calc.b.evidence",
+        "ev.calc.b.tests"
+      ],
+      "why_not_auto_resolved": "Sólo hay soluciones autorales; no se aportan muestras, jueces independientes, concordancia ni error."
+    },
+    {
+      "id": "review.calc.weight_direction_counterfactual",
+      "subject": "method.calc.weight_protocol",
+      "question": "¿Cómo se estima la pregunta contrafáctica usada para decidir si una arista existe?",
+      "status": "pending_causal_and_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.calc.b.direction"
+      ],
+      "why_not_auto_resolved": "La regla requiere el mismo contrafáctico cuya identificación está en disputa."
+    },
+    {
+      "id": "review.calc.weight_hierarchy",
+      "subject": "method.calc.weight_protocol",
+      "question": "¿Por qué una fuente de mayor categoría debe desplazar, y no actualizar, evidencia contradictoria?",
+      "status": "pending_methodological_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.calc.b.contradiction"
+      ],
+      "why_not_auto_resolved": "La jerarquía E0–E8 es autoral y no incluye un modelo de error o combinación probatoria."
+    },
+    {
+      "id": "review.calc.S_loop",
+      "subject": "formal.calc.S",
+      "question": "¿Qué representa j si la perturbación y correlación no dependen de j?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "software_implementation",
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.calc.d.core"
+      ],
+      "why_not_auto_resolved": "El bucle repite la misma matriz y correlación; no genera sustitutos alternativos."
+    },
+    {
+      "id": "review.calc.S_definedness",
+      "subject": "formal.calc.S",
+      "question": "¿Cómo se define S con R* constante, n pequeño o correlación NaN?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.calc.d.core"
+      ],
+      "why_not_auto_resolved": "Pearson puede ser indefinido y no hay regla de fallback ni propagación de incertidumbre."
+    },
+    {
+      "id": "review.calc.S_semantics",
+      "subject": "formal.calc.S",
+      "question": "¿La correlación tras sustituir una fila identifica fungibilidad, genericidad y contrafáctico individual?",
+      "status": "pending_correspondence_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.calc.c05.2",
+        "ev.calc.c06.2"
+      ],
+      "why_not_auto_resolved": "La misma cifra recibe semánticas distintas sin estudio de correspondencia."
+    },
+    {
+      "id": "review.calc.alpha_crossdomain",
+      "subject": "formal.calc.alpha",
+      "question": "¿Son comparables asunción legal, integración clínica, contención epidemiológica y mitigación técnica?",
+      "status": "pending_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "cross_domain_comparison",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.calc.c05.2",
+        "ev.calc.c06.2",
+        "ev.calc.b.domains"
+      ],
+      "why_not_auto_resolved": "Las escalas comparten [0,1] pero no instrumento, unidad o invariancia."
+    },
+    {
+      "id": "review.calc.delta_history",
+      "subject": "formal.calc.delta",
+      "question": "¿Qué versión de Δ gobierna respecto de TF, Axiomatización y MC-I–II?",
+      "status": "pending_authorial_adjudication",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_synthesis",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.calc.e.core",
+        "ev.mci.ii14.delta",
+        "ev.mcii.iv4.delta"
+      ],
+      "why_not_auto_resolved": "La obra adopta la resta; las obras metrológicas mantienen fórmulas multiplicativas y otra resta observador/participante.",
+      "related_relation": "rel.calc.delta.redefines_mci"
+    },
+    {
+      "id": "review.calc.rnet_derivation",
+      "subject": "formal.calc.rnet",
+      "question": "¿Por qué el descuento por sustituibilidad es lineal y conserva interpretación causal?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.calc.e.core"
+      ],
+      "why_not_auto_resolved": "No hay derivación probabilística o causal de R*(1−S)."
+    },
+    {
+      "id": "review.calc.deltaB_type",
+      "subject": "formal.calc.deltaB",
+      "question": "¿α_B es una fracción o un monto y cuál fórmula de Δ_B es válida?",
+      "status": "pending_internal_consistency_review",
+      "blocking": false,
+      "blocking_for": [
+        "software_implementation",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.calc.c10.2",
+        "ev.calc.d.core",
+        "ev.calc.e.core"
+      ],
+      "why_not_auto_resolved": "La resta B−α mezcla unidades si α es fracción; el código usa B(1−α)."
+    },
+    {
+      "id": "review.calc.damage_units",
+      "subject": "formal.calc.Dtotal",
+      "question": "¿Cómo se hacen conmensurables y mutuamente excluyentes T_invertido, T_impedido y ΔT_trayectoria?",
+      "status": "pending_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.calc.c05.3",
+        "ev.calc.c06.3"
+      ],
+      "why_not_auto_resolved": "Los componentes alternan dinero, años, oportunidades y contrafácticos; pueden solaparse."
+    },
+    {
+      "id": "review.calc.dvital_normativity",
+      "subject": "formal.calc.Dvital",
+      "question": "¿Qué justifica w_ref como conversor universal de daño a tiempo de vida?",
+      "status": "pending_normative_review",
+      "blocking": false,
+      "blocking_for": [
+        "legal_application",
+        "cross_domain_comparison"
+      ],
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.calc.c06.3",
+        "ev.calc.e.core"
+      ],
+      "why_not_auto_resolved": "El salario elegido es parámetro normativo, varía por capítulo y no mide todo el tiempo vital."
+    },
+    {
+      "id": "review.calc.AD_allocation",
+      "subject": "formal.calc.AD",
+      "question": "¿Cuándo R*D es una cuota aditiva de daño jurídicamente atribuible?",
+      "status": "pending_causal_and_legal_review",
+      "blocking": false,
+      "blocking_for": [
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.calc.c01.2",
+        "ev.calc.e.core"
+      ],
+      "why_not_auto_resolved": "Centralidad no prueba contribución marginal ni estándar jurídico de imputación."
+    },
+    {
+      "id": "review.calc.J_domain",
+      "subject": "formal.calc.J",
+      "question": "¿Cuál es el dominio y cota inferior de J cuando α no suma uno?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.calc.c04.2",
+        "ev.calc.c18.case.indices"
+      ],
+      "why_not_auto_resolved": "La obra primero declara imposible J<0 y luego calcula −0.632; con n nodos el índice puede ser mucho menor que cero."
+    },
+    {
+      "id": "review.calc.J_comparability",
+      "subject": "formal.calc.J",
+      "question": "¿Puede compararse J entre grafos con distinto número de nodos y definiciones de α?",
+      "status": "pending_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "cross_case_comparison"
+      ],
+      "evidence": [
+        "ev.calc.c04.2",
+        "ev.calc.c12.4",
+        "ev.calc.c16.4"
+      ],
+      "why_not_auto_resolved": "La suma L1 escala con dimensión y no normaliza por número/composición de nodos."
+    },
+    {
+      "id": "review.calc.IIC_scale",
+      "subject": "formal.calc.IIC",
+      "question": "¿Se usa correlación [-1,1], truncamiento o reescala [0,1]?",
+      "status": "pending_internal_consistency_review",
+      "blocking": false,
+      "blocking_for": [
+        "software_implementation",
+        "cross_work_synthesis"
+      ],
+      "evidence": [
+        "ev.calc.c11.4",
+        "ev.calc.d.utilities",
+        "ev.calc.e.domains"
+      ],
+      "why_not_auto_resolved": "Capítulo, biblioteca y glosario no comparten transformación ni tratamiento de varianza cero."
+    },
+    {
+      "id": "review.calc.IIC_measurement",
+      "subject": "formal.calc.IIC",
+      "question": "¿Cómo se codifican valores y conductas y qué validez tiene su correlación?",
+      "status": "pending_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.calc.c11.4",
+        "ev.calc.a.risk"
+      ],
+      "why_not_auto_resolved": "No hay instrumento, muestra de ítems, error, ponderación ni prueba de que la correlación mida integridad."
+    },
+    {
+      "id": "review.calc.child_calibration",
+      "subject": "formal.calc.childprob",
+      "question": "¿De dónde provienen u_h, θ_h, T y el gradiente usado para hijos?",
+      "status": "pending_empirical_and_clinical_review",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.calc.c05.4",
+        "ev.calc.d.children"
+      ],
+      "why_not_auto_resolved": "Los vectores y umbrales son ilustrativos y no hay entrenamiento, etiquetas clínicas ni validación."
+    },
+    {
+      "id": "review.calc.child_entropy",
+      "subject": "formal.calc.childentropy",
+      "question": "¿Cuál es la interpretación correcta de H si log 6 es su máximo?",
+      "status": "pending_internal_consistency_review",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.calc.c05.4"
+      ],
+      "why_not_auto_resolved": "El texto llama baja a una entropía cercana a log 6 mientras también normaliza por ese máximo."
+    },
+    {
+      "id": "review.calc.clinical_safety",
+      "subject": "formal.calc.clinical",
+      "question": "¿Qué evidencia clínica, supervisión y límites de uso sostienen prioridades y pronósticos numéricos?",
+      "status": "pending_clinical_scope_review",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_application"
+      ],
+      "evidence": [
+        "ev.calc.c05.2",
+        "ev.calc.c05.3",
+        "ev.calc.c05.4"
+      ],
+      "why_not_auto_resolved": "La obra admite pesos cualitativos, pero publica porcentajes, pronósticos y actualizaciones dinámicas sin estudio clínico."
+    },
+    {
+      "id": "review.calc.ito_bridge",
+      "subject": "formulation.calc.ito",
+      "question": "¿Cuál es la EDE del ego y cómo se deriva D/w_ref mediante Itô?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.calc.c.ito"
+      ],
+      "why_not_auto_resolved": "μ se usa como deriva/medida, φ₂ no queda tipada y el corolario de daño no sigue de la fórmula estándar.",
+      "related_relation": "rel.calc.ito.claims_correspondence"
+    },
+    {
+      "id": "review.calc.shapley_value",
+      "subject": "formal.calc.shapley",
+      "question": "¿Cómo se identifica v(S) para todas las coaliciones y con qué incertidumbre?",
+      "status": "pending_formal_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.calc.c14.2",
+        "ev.calc.c14.3",
+        "ev.calc.c.shapley"
+      ],
+      "why_not_auto_resolved": "El teorema estándar asume v; los casos asignan valores periciales sin dataset reproducible."
+    },
+    {
+      "id": "review.calc.shapley_collapse",
+      "subject": "formulation.calc.shapley",
+      "question": "¿En qué sentido Shapley 'colapsa a R*' si v se define usando R*?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.calc.c.shapley"
+      ],
+      "why_not_auto_resolved": "La igualdad es tautológica para el juego construido y no relaciona la centralidad eigenvectorial con contribuciones marginales."
+    },
+    {
+      "id": "review.calc.shapley_mc_error",
+      "subject": "method.calc.library",
+      "question": "¿Qué acotación justifica error <2% con 10,000 permutaciones?",
+      "status": "pending_formal_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.calc.d.core"
+      ],
+      "why_not_auto_resolved": "O(1/√m) no fija una cota porcentual universal sin varianza, escala ni nivel de confianza."
+    },
+    {
+      "id": "review.calc.historical_probabilities",
+      "subject": "formal.calc.rhist",
+      "question": "¿Qué modelo, datos y experto calibran P(E|G) y P(E|G\\N_i)?",
+      "status": "pending_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "historical_application"
+      ],
+      "evidence": [
+        "ev.calc.c16.3",
+        "ev.calc.c16.4",
+        "ev.calc.c.counterfactual"
+      ],
+      "why_not_auto_resolved": "Los rangos históricos se presentan sin modelo probabilístico, corpus de casos o trazabilidad de elicitation."
+    },
+    {
+      "id": "review.calc.causal_inversion",
+      "subject": "formal.calc.causal_inversion",
+      "question": "¿Las premisas prueban inversión causal o presuponen que el diseñador tiene mayor R*?",
+      "status": "pending_formal_and_legal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.calc.c01.4"
+      ],
+      "why_not_auto_resolved": "La prueba incorpora como premisa la jerarquía que pretende concluir y vincula visibilidad, dolo y α sin definición común."
+    },
+    {
+      "id": "review.calc.opacity_redundancy",
+      "subject": "formal.calc.opacity",
+      "question": "¿Son independientes O y H cuando ΣR*_visible=1?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.calc.c02.2",
+        "ev.calc.c02.4"
+      ],
+      "why_not_auto_resolved": "Bajo normalización completa, ambas expresiones coinciden; no pueden validar mutuamente la detección."
+    },
+    {
+      "id": "review.calc.opacity_singularity",
+      "subject": "formal.calc.opacity",
+      "question": "¿Cómo se define Alerta cuando α_instrumento=0?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.calc.c02.2"
+      ],
+      "why_not_auto_resolved": "La división diverge y no se especifica regularización."
+    },
+    {
+      "id": "review.calc.pld_arithmetic",
+      "subject": "formal.calc.opacity",
+      "question": "¿Por qué el ejemplo usa α_pred≈0.25 si la fórmula y parámetros dan ≈0.112?",
+      "status": "pending_internal_consistency_review",
+      "blocking": false,
+      "blocking_for": [
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.calc.c02.3",
+        "ev.calc.c02.4"
+      ],
+      "why_not_auto_resolved": "El valor publicado y la alerta resultante no siguen los parámetros mostrados."
+    },
+    {
+      "id": "review.calc.inherited_position",
+      "subject": "formal.calc.inherited",
+      "question": "¿Continuidad institucional y beneficio heredado transfieren causalidad o sólo obligaciones normativas?",
+      "status": "pending_doctrinal_and_normative_review",
+      "blocking": false,
+      "blocking_for": [
+        "historical_application",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.calc.c03.2",
+        "ev.calc.c03.3"
+      ],
+      "why_not_auto_resolved": "El producto formaliza una tesis doctrinal sin puente entre causalidad del actor histórico y deber del sucesor."
+    },
+    {
+      "id": "review.calc.prescription_formula",
+      "subject": "formal.calc.prescription",
+      "question": "¿CI decae con e^{-kΔRI(t)} o e^{-kΔRI·t}?",
+      "status": "pending_internal_consistency_review",
+      "blocking": false,
+      "blocking_for": [
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.calc.c04.3",
+        "ev.calc.c04.4"
+      ],
+      "why_not_auto_resolved": "Texto y código introducen dependencias temporales distintas."
+    },
+    {
+      "id": "review.calc.Iid_range",
+      "subject": "formal.calc.Iid",
+      "question": "¿Cómo se interpreta I_d negativo y por qué 'tiende a infinito' si ε lo acota?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.calc.c04.2"
+      ],
+      "why_not_auto_resolved": "El regularizador impone cota finita y el numerador puede ser negativo, casos omitidos por la interpretación."
+    },
+    {
+      "id": "review.calc.R0_correspondence",
+      "subject": "formal.calc.R0",
+      "question": "¿Se deriva R₀ como media ponderada de R* y Var(R*)∝1/p en un modelo epidemiológico?",
+      "status": "pending_epistemic_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "epidemiological_application"
+      ],
+      "evidence": [
+        "ev.calc.c06.4"
+      ],
+      "why_not_auto_resolved": "No hay derivación desde matriz de siguiente generación ni estimación con datos."
+    },
+    {
+      "id": "review.calc.covid_sources",
+      "subject": "formulation.calc.source_status",
+      "question": "¿Qué fuentes y versiones sostienen muertes, AVAD, salarios, R*, α y perfiles de hijos de COVID-19?",
+      "status": "pending_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "source_attribution"
+      ],
+      "evidence": [
+        "ev.calc.c06.3"
+      ],
+      "why_not_auto_resolved": "Hay menciones generales a OMS y estudios, sin bibliografía, tablas de datos o hojas de calibración."
+    },
+    {
+      "id": "review.calc.covid_units",
+      "subject": "formal.calc.Dvital",
+      "question": "¿La tabla COVID conserva escala entre billones/trillions y abreviatura B?",
+      "status": "pending_internal_consistency_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.calc.c06.3"
+      ],
+      "why_not_auto_resolved": "El total se expresa en billones USD y las cuotas como $10.9B, notación potencialmente mil veces menor."
+    },
+    {
+      "id": "review.calc.tanatology_benefit",
+      "subject": "formal.calc.tanatology",
+      "question": "¿La prohibición B_total=0 es definición doctrinal o afirmación universal sobre efectos de toda muerte?",
+      "status": "pending_doctrinal_review",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_synthesis"
+      ],
+      "evidence": [
+        "ev.calc.c07.1",
+        "ev.calc.c07.2"
+      ],
+      "why_not_auto_resolved": "La obra la declara premisa sin excepción y luego distingue ganancias del trabajo de duelo; requiere conservar ese estatuto."
+    },
+    {
+      "id": "review.calc.credit_DI",
+      "subject": "formal.calc.DI",
+      "question": "¿El exceso de disparate impact identifica causalidad del dataset o sólo diferencia grupal?",
+      "status": "pending_formal_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "credit_application",
+        "ai_application"
+      ],
+      "evidence": [
+        "ev.calc.c08.4",
+        "ev.calc.c13.4"
+      ],
+      "why_not_auto_resolved": "No se controlan confusores ni se identifica el contrafáctico sin sesgo."
+    },
+    {
+      "id": "review.calc.ICRS_calibration",
+      "subject": "formal.calc.ICRS",
+      "question": "¿Qué datos estiman λ y validan P(quiebra,T)?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "financial_application"
+      ],
+      "evidence": [
+        "ev.calc.c09.4",
+        "ev.calc.d.predictors"
+      ],
+      "why_not_auto_resolved": "Se dan tasas sectoriales sin dataset, ajuste, intervalos ni validación fuera de muestra."
+    },
+    {
+      "id": "review.calc.PAC_portfolio",
+      "subject": "formal.calc.PAC",
+      "question": "¿Cómo cubre PAC el costo esperado cuando ΣR*(1−S)<1 y quién debe financiar la diferencia?",
+      "status": "pending_normative_review",
+      "blocking": false,
+      "blocking_for": [
+        "insurance_application"
+      ],
+      "evidence": [
+        "ev.calc.c10.4"
+      ],
+      "why_not_auto_resolved": "La ecuación reconoce déficit y lo asigna al regulador/diseñador mediante una decisión normativa no actuarial."
+    },
+    {
+      "id": "review.calc.fine_formula",
+      "subject": "formal.calc.fine",
+      "question": "¿La multa produce esperanza negativa si Δ_B no equivale a B_predatorio?",
+      "status": "pending_normative_review",
+      "blocking": false,
+      "blocking_for": [
+        "legal_application",
+        "insurance_application"
+      ],
+      "evidence": [
+        "ev.calc.c10.3",
+        "ev.calc.c10.4"
+      ],
+      "why_not_auto_resolved": "La demostración sustituye B por Δ_B y añade ε sin aclarar reparación, sanción y unidades."
+    },
+    {
+      "id": "review.calc.governance_dataset",
+      "subject": "formal.calc.governance",
+      "question": "¿Dónde están los datos 2003–2024, especificación, ajuste y validación del predictor?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "corporate_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.calc.c11.4",
+        "ev.calc.d.predictors"
+      ],
+      "why_not_auto_resolved": "La biblioteca afirma calibración, pero el corpus no contiene dataset, procedimiento ni métricas."
+    },
+    {
+      "id": "review.calc.governance_horizon",
+      "subject": "formal.calc.governance",
+      "question": "¿Multiplicar el logit por N/5 produce probabilidades coherentes entre horizontes?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.calc.d.predictors"
+      ],
+      "why_not_auto_resolved": "El reescalado temporal no se deriva de un modelo de supervivencia y cambia también el intercepto."
+    },
+    {
+      "id": "review.calc.INCF_doublecount",
+      "subject": "formal.calc.INCF",
+      "question": "¿Multiplicar P_FTA por INCF evita o duplica información causal del mismo grafo?",
+      "status": "pending_formal_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "engineering_application"
+      ],
+      "evidence": [
+        "ev.calc.c12.4"
+      ],
+      "why_not_auto_resolved": "No se demuestra independencia ni calibración conjunta."
+    },
+    {
+      "id": "review.calc.IAS_graph_invariance",
+      "subject": "formal.calc.IAS",
+      "question": "¿J_pre y J_post son comparables si cambian nodos, α y escalas?",
+      "status": "pending_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "engineering_application",
+        "historical_application"
+      ],
+      "evidence": [
+        "ev.calc.c12.4",
+        "ev.calc.c16.4"
+      ],
+      "why_not_auto_resolved": "No se define alineación longitudinal de grafos ni incertidumbre de la diferencia."
+    },
+    {
+      "id": "review.calc.algorithmic_additivity",
+      "subject": "formal.calc.algorithmic",
+      "question": "¿Por qué DI_total se suma linealmente y sus cuotas son causales?",
+      "status": "pending_formal_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "ai_application"
+      ],
+      "evidence": [
+        "ev.calc.c13.4"
+      ],
+      "why_not_auto_resolved": "Los ratios no son componentes aditivos naturales y la descomposición carece de modelo causal."
+    },
+    {
+      "id": "review.calc.model_S_one",
+      "subject": "formal.calc.algorithmic",
+      "question": "¿Por qué todo modelo determinista tiene S≈1 y responsabilidad neta cero?",
+      "status": "pending_causal_and_normative_review",
+      "blocking": false,
+      "blocking_for": [
+        "ai_application",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.calc.c13.2"
+      ],
+      "why_not_auto_resolved": "Reproducibilidad del código no equivale a sustituibilidad causal o ausencia de responsabilidad del artefacto."
+    },
+    {
+      "id": "review.calc.environment_irreversibility",
+      "subject": "formal.calc.shapley",
+      "question": "¿Cómo incorpora Shapley irreversibilidad, tiempo y daño ecológico no monetizable?",
+      "status": "pending_scope_and_normative_review",
+      "blocking": false,
+      "blocking_for": [
+        "environmental_application"
+      ],
+      "evidence": [
+        "ev.calc.c14.4"
+      ],
+      "why_not_auto_resolved": "La obra reconoce que la asignación no resuelve irreversibilidad ni que D_monetary sea compensación."
+    },
+    {
+      "id": "review.calc.education_transfer",
+      "subject": "formal.calc.education",
+      "question": "¿Se pueden aplicar porcentajes agregados de Coleman a un alumno, escuela o docente particular?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "educational_application"
+      ],
+      "evidence": [
+        "ev.calc.c15.3",
+        "ev.calc.c15.4"
+      ],
+      "why_not_auto_resolved": "La inferencia ecológica y variación temporal/contextual no están modeladas."
+    },
+    {
+      "id": "review.calc.sports_counterfactual",
+      "subject": "formal.calc.sports",
+      "question": "¿Cómo se identifican P(victoria|con/sin) y se separan plantilla, rival y azar?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "sports_application"
+      ],
+      "evidence": [
+        "ev.calc.c17.3",
+        "ev.calc.c17.4"
+      ],
+      "why_not_auto_resolved": "Los casos usan rangos y valoraciones sin modelo/dataset reproducible."
+    },
+    {
+      "id": "review.calc.sports_salary",
+      "subject": "formal.calc.sports",
+      "question": "¿Por qué contribución causal al triunfo determina normativamente salario justo?",
+      "status": "pending_normative_review",
+      "blocking": false,
+      "blocking_for": [
+        "sports_application"
+      ],
+      "evidence": [
+        "ev.calc.c17.2"
+      ],
+      "why_not_auto_resolved": "La fórmula salta de medición de contribución a distribución contractual del beneficio."
+    },
+    {
+      "id": "review.calc.narrative_matrix",
+      "subject": "formal.calc.narrative",
+      "question": "¿Qué dimensiones permiten W_personajes×W_autor y qué significa su producto?",
+      "status": "pending_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "literary_application"
+      ],
+      "evidence": [
+        "ev.calc.c18.4"
+      ],
+      "why_not_auto_resolved": "No se tipan matrices ni se distingue inferencia textual de causalidad extratextual."
+    },
+    {
+      "id": "review.calc.case_sources",
+      "subject": "case.calc.axis",
+      "question": "¿Dónde están expediente, anexos, hoja E0–E8 y autorización para verificar los valores del Caso Eje?",
+      "status": "pending_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "legal_application",
+        "source_attribution"
+      ],
+      "evidence": [
+        "ev.calc.c18.case.context",
+        "ev.calc.c18.case.rsd",
+        "ev.calc.b.sheet"
+      ],
+      "why_not_auto_resolved": "El corpus sólo contiene la narración y referencias a anexos no incorporados."
+    },
+    {
+      "id": "review.calc.case_J",
+      "subject": "case.calc.axis",
+      "question": "¿El J negativo debe corregir formalmente la afirmación previa o constituye otra versión histórica?",
+      "status": "pending_authorial_adjudication",
+      "blocking": false,
+      "blocking_for": [
+        "doctrinal_synthesis",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.calc.c04.2",
+        "ev.calc.c18.case.indices"
+      ],
+      "why_not_auto_resolved": "Ambas formulaciones aparecen en la misma obra y no hay fe de erratas o prioridad explícita."
+    },
+    {
+      "id": "review.calc.case_alpha",
+      "subject": "case.calc.axis",
+      "question": "¿Qué evidencia calibra α=1 del exgerente y α=0.03 de la institución?",
+      "status": "pending_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.calc.c18.case.rsd",
+        "ev.calc.c18.case.indices"
+      ],
+      "why_not_auto_resolved": "No se adjunta instrumento ni hoja de observaciones para los coeficientes."
+    },
+    {
+      "id": "review.calc.source_apparatus",
+      "subject": "formulation.calc.source_status",
+      "question": "¿Qué bibliografía y fuentes primarias sostienen hechos, cifras y calibraciones de los 18 dominios?",
+      "status": "pending_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "source_attribution",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.calc.c06.3",
+        "ev.calc.c11.3",
+        "ev.calc.c13.3",
+        "ev.calc.c15.3",
+        "ev.calc.c16.3"
+      ],
+      "why_not_auto_resolved": "La fuente no contiene sección bibliográfica ni referencias recuperables suficientes."
+    },
+    {
+      "id": "review.calc.appendix_crossrefs",
+      "subject": "method.calc.library",
+      "question": "¿Deben corregirse las referencias que atribuyen demostraciones al Apéndice A y código al B?",
+      "status": "pending_editorial_review",
+      "blocking": false,
+      "blocking_for": [
+        "publication"
+      ],
+      "evidence": [
+        "ev.calc.b.sheet",
+        "ev.calc.c.banach",
+        "ev.calc.d.core"
+      ],
+      "why_not_auto_resolved": "Las demostraciones están en C y la biblioteca en D."
+    },
+    {
+      "id": "review.calc.code_artifact",
+      "subject": "method.calc.library",
+      "question": "¿Existe una versión ejecutable, con dependencias, pruebas y salidas reproducibles?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.calc.d.core",
+        "ev.calc.d.predictors",
+        "ev.calc.d.children",
+        "ev.calc.d.utilities"
+      ],
+      "why_not_auto_resolved": "El corpus contiene código aplanado por maquetación, sin archivo .py, entorno ni pruebas."
+    },
+    {
+      "id": "review.calc.FA_typing",
+      "subject": "formal.calc.FA",
+      "question": "¿Fraude annona es fracción, monto monetario o suma de tres puntuaciones?",
+      "status": "pending_internal_consistency_review",
+      "blocking": false,
+      "blocking_for": [
+        "software_implementation",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.calc.c06.4",
+        "ev.calc.c18.case.indices"
+      ],
+      "why_not_auto_resolved": "Las expresiones por dominio no comparten tipo ni cota; el Caso Eje suma 1.08."
+    },
+    {
+      "id": "review.calc.prediction_status",
+      "subject": "method.calc.library",
+      "question": "¿Qué predictores fueron realmente calibrados y validados fuera de los ejemplos?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_application",
+        "software_implementation"
+      ],
+      "evidence": [
+        "ev.calc.d.predictors",
+        "ev.calc.a.roi"
+      ],
+      "why_not_auto_resolved": "Las etiquetas de calibración no vienen acompañadas de datasets, loss, intervalos, validación externa o monitorización."
+    },
+    {
+      "id": "review.calc.published_vectors_reproduction",
+      "subject": "calculation.calc.published_graphs_spectral_check",
+      "related_relation": "rel.calc.spectral_check.tests_power",
+      "question": "¿Qué operador o regularización produjo los R* publicados si las matrices impresas son nilpotentes?",
+      "status": "pending_authorial_and_formal_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "software_implementation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.calc.c05.4",
+        "ev.calc.c06.4",
+        "ev.calc.c18.case.context",
+        "ev.calc.d.core"
+      ],
+      "why_not_auto_resolved": "Las tres reconstrucciones literales tienen radio espectral cero y la suma del iterado colapsa a cero bajo W y Wᵀ; el corpus no documenta teleportación, cierre de ciclos, eliminación del sumidero ni otro operador que genere los porcentajes."
     }
   ],
   "tests": [
