@@ -1,7 +1,7 @@
 {
   "map_version": "2.4.0",
   "schema_status": "frozen",
-  "phase": "F3",
+  "phase": "F4",
   "purpose": "Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.",
   "scope_note": "El esquema v1 fue validado en F1 y permanece congelado. F2 quedó cerrada con nueve obras integradas. F3 incorpora sistemáticamente La transformación formal y Axiomatización del sistema de la doble mediación, conservando sus objetos, supuestos, correspondencias, revisiones y contradicciones sin convertir teoremas autorales en resultados matemáticamente validados. La siguiente obra de F3 es Metrología Causal, volumen I.",
   "works": [
@@ -17490,7 +17490,8 @@
           "inferible solo indirectamente"
         ],
         "epistemic_status": "authorial_definition_uncalibrated",
-        "ontological_correspondence": "configuración de voluntad y alteridad"
+        "ontological_correspondence": "configuración de voluntad y alteridad",
+        "codomain": "no especificado por la obra"
       },
       "evidence": [
         "ev.tf.prologue.children",
@@ -17512,7 +17513,8 @@
           "I(t)"
         ],
         "epistemic_status": "authorial_definition_pending_typing",
-        "ontological_correspondence": "historia que orienta el colapso"
+        "ontological_correspondence": "historia que orienta el colapso",
+        "assumptions": []
       },
       "evidence": [
         "ev.tf.prologue.c_internal",
@@ -17586,7 +17588,8 @@
           "formal.tf.phi2"
         ],
         "epistemic_status": "authorial_definition_pending_typing",
-        "ontological_correspondence": "identidad histórica del ego"
+        "ontological_correspondence": "identidad histórica del ego",
+        "assumptions": []
       },
       "evidence": [
         "ev.tf.tres_formulas",
@@ -17635,7 +17638,8 @@
           "delimitación del campo y de nodos"
         ],
         "epistemic_status": "authorial_model_pending_validation",
-        "ontological_correspondence": "perspectiva exterior del acontecimiento"
+        "ontological_correspondence": "perspectiva exterior del acontecimiento",
+        "definition": "G=(N,E,W)"
       },
       "evidence": [
         "ev.tf.21.graph"
@@ -17808,7 +17812,9 @@
         "codomain": "[0,1]",
         "definition": "proporción de beneficio apropiado",
         "epistemic_status": "authorial_parameter_uncalibrated",
-        "ontological_correspondence": "beneficio recibido"
+        "ontological_correspondence": "beneficio recibido",
+        "dependencies": [],
+        "assumptions": []
       },
       "evidence": [
         "ev.tf.21.rstar_b"
@@ -17928,7 +17934,9 @@
         "codomain": "no definido",
         "definition": "intensidad de relación aproximada entre IIC y S",
         "epistemic_status": "authorial_parameter_uncalibrated",
-        "ontological_correspondence": "acoplamiento entre coherencia y condicionamiento"
+        "ontological_correspondence": "acoplamiento entre coherencia y condicionamiento",
+        "dependencies": [],
+        "assumptions": []
       },
       "evidence": [
         "ev.tf.32.iic_s"
@@ -17946,7 +17954,9 @@
         "codomain": "no definido",
         "definition": "intensidad del ajuste de w; valor provisional 0.30",
         "epistemic_status": "authorial_default_uncalibrated",
-        "ontological_correspondence": "sensibilidad del peso a incoherencia"
+        "ontological_correspondence": "sensibilidad del peso a incoherencia",
+        "dependencies": [],
+        "assumptions": []
       },
       "evidence": [
         "ev.tf.32.protocol_beta"
@@ -17964,7 +17974,9 @@
         "codomain": "[-1,1]",
         "definition": "nivel bajo el cual se activa ajuste de w",
         "epistemic_status": "authorial_parameter_uncalibrated",
-        "ontological_correspondence": "mínimo de coherencia esperado"
+        "ontological_correspondence": "mínimo de coherencia esperado",
+        "dependencies": [],
+        "assumptions": []
       },
       "evidence": [
         "ev.tf.31.w_adjustment"
@@ -17985,7 +17997,8 @@
           "probabilidades estimables; posible uso de Dirichlet"
         ],
         "epistemic_status": "authorial_method_uncalibrated",
-        "ontological_correspondence": "incertidumbre empírica sobre posición volitiva"
+        "ontological_correspondence": "incertidumbre empírica sobre posición volitiva",
+        "dependencies": []
       },
       "evidence": [
         "ev.tf.42.child_probability"
@@ -18084,7 +18097,8 @@
           "comparabilidad dimensional"
         ],
         "epistemic_status": "authorial_formula_pending_mathematical_review",
-        "ontological_correspondence": "prioridad de reducir incertidumbre"
+        "ontological_correspondence": "prioridad de reducir incertidumbre",
+        "symbol": "sin símbolo propio"
       },
       "evidence": [
         "ev.tf.42.priority"
@@ -18131,7 +18145,8 @@
           "formal.tf.alpha_net"
         ],
         "epistemic_status": "authorial_formula_underspecified",
-        "ontological_correspondence": "brecha neta"
+        "ontological_correspondence": "brecha neta",
+        "assumptions": []
       },
       "evidence": [
         "ev.tf.24.delta_temporal_collective"
@@ -18149,7 +18164,9 @@
         "domain": "no definido",
         "codomain": "no definido",
         "epistemic_status": "authorial_symbol_underspecified",
-        "ontological_correspondence": "asunción neta"
+        "ontological_correspondence": "asunción neta",
+        "dependencies": [],
+        "assumptions": []
       },
       "evidence": [
         "ev.tf.24.delta_temporal_collective"
@@ -18167,7 +18184,9 @@
         "domain": "percepción y observación no calibradas",
         "codomain": "no especificado",
         "epistemic_status": "authorial_formula_uncalibrated",
-        "ontological_correspondence": "brecha percibida en intervención"
+        "ontological_correspondence": "brecha percibida en intervención",
+        "dependencies": [],
+        "assumptions": []
       },
       "evidence": [
         "ev.tf.53.subjective_delta"
@@ -18215,7 +18234,8 @@
           "evaluación exhaustiva o aproximada distinguida"
         ],
         "epistemic_status": "authorial_validation_rule_pending_computation",
-        "ontological_correspondence": "estabilidad de conclusión ante incertidumbre"
+        "ontological_correspondence": "estabilidad de conclusión ante incertidumbre",
+        "symbol": "sin símbolo propio"
       },
       "evidence": [
         "ev.tf.41.declarations",
@@ -18327,7 +18347,9 @@
         "codomain": "espacio completo separable",
         "assumptions": [
           "adopción de estructura de Hilbert"
-        ]
+        ],
+        "domain": "no especificado por la obra",
+        "dependencies": []
       },
       "evidence": [
         "ev.axiom.0.hilbert",
@@ -18349,7 +18371,8 @@
         "codomain": "E",
         "assumptions": [
           "preserva orden de similitud causal"
-        ]
+        ],
+        "dependencies": []
       },
       "evidence": [
         "ev.axiom.0.embedding"
@@ -18390,7 +18413,10 @@
         "expression": "v_t∈V",
         "epistemic_status": "authorial_axiom_component",
         "ontological_correspondence": "voluntad",
-        "codomain": "espacio con producto interno declarado"
+        "codomain": "espacio con producto interno declarado",
+        "domain": "no especificado por la obra",
+        "dependencies": [],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.1.signature",
@@ -18408,7 +18434,10 @@
         "expression": "c∈C",
         "epistemic_status": "authorial_axiom_component",
         "ontological_correspondence": "configuración heredada",
-        "codomain": "espacio normado"
+        "codomain": "espacio normado",
+        "domain": "no especificado por la obra",
+        "dependencies": [],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.1.signature"
@@ -18425,7 +18454,10 @@
         "expression": "I(t)∈H",
         "epistemic_status": "authorial_axiom_component",
         "ontological_correspondence": "espacio de historias",
-        "codomain": "no especificado"
+        "codomain": "no especificado",
+        "domain": "no especificado por la obra",
+        "dependencies": [],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.1.signature"
@@ -18447,7 +18479,8 @@
         "dependencies": [
           "formal.axiom.tau",
           "formal.I_t"
-        ]
+        ],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.1.vt"
@@ -18468,7 +18501,8 @@
         "codomain": "Δ⁵",
         "dependencies": [
           "formal.axiom.logits"
-        ]
+        ],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.1.softmax",
@@ -18515,7 +18549,8 @@
         "codomain": "R",
         "assumptions": [
           "medible; umbral fijo; compatibilidad específica del dominio"
-        ]
+        ],
+        "dependencies": []
       },
       "evidence": [
         "ev.axiom.2.eval"
@@ -18536,7 +18571,8 @@
         "codomain": "E",
         "assumptions": [
           "no amplificación"
-        ]
+        ],
+        "dependencies": []
       },
       "evidence": [
         "ev.axiom.2.eval"
@@ -18557,7 +18593,8 @@
         "codomain": "P(E)",
         "dependencies": [
           "formal.axiom.collapse"
-        ]
+        ],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.2.rsc"
@@ -18578,7 +18615,8 @@
         "codomain": "R_+",
         "assumptions": [
           "medible y acotada"
-        ]
+        ],
+        "dependencies": []
       },
       "evidence": [
         "ev.axiom.2.integral"
@@ -18599,7 +18637,8 @@
         "codomain": "[0,1]",
         "assumptions": [
           "normas de espacios distintos normalizadas y comparables"
-        ]
+        ],
+        "dependencies": []
       },
       "evidence": [
         "ev.axiom.3.sop"
@@ -18621,7 +18660,8 @@
         "dependencies": [
           "formal.rstar",
           "formal.axiom.Wi"
-        ]
+        ],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.3.sest"
@@ -18642,7 +18682,8 @@
         "codomain": "matriz de pesos",
         "dependencies": [
           "formal.W"
-        ]
+        ],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.3.sest"
@@ -18663,7 +18704,8 @@
         "codomain": "[0,1]",
         "assumptions": [
           "preservación de orden; regularidad no definida"
-        ]
+        ],
+        "dependencies": []
       },
       "evidence": [
         "ev.axiom.3.bridge"
@@ -18681,7 +18723,9 @@
         "epistemic_status": "authorial_parameter_requiring_calibration",
         "ontological_correspondence": "profundidad de integración",
         "domain": "T",
-        "codomain": "[0,1]"
+        "codomain": "[0,1]",
+        "dependencies": [],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.4.continuous",
@@ -18751,7 +18795,8 @@
         "codomain": "matriz primitiva declarada",
         "dependencies": [
           "formal.W"
-        ]
+        ],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.6.pf",
@@ -18773,7 +18818,8 @@
         "codomain": "intervalos por componente",
         "dependencies": [
           "formal.rstar"
-        ]
+        ],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.6.intervals"
@@ -18791,7 +18837,9 @@
         "epistemic_status": "authorial_axiom",
         "ontological_correspondence": "variabilidad de voluntad",
         "domain": "T",
-        "codomain": "R_{>0}"
+        "codomain": "R_{>0}",
+        "dependencies": [],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.7.fisher"
@@ -18860,7 +18908,9 @@
         "epistemic_status": "authorial_definition",
         "ontological_correspondence": "visibilidad documental",
         "domain": "nodos",
-        "codomain": "[0,1]"
+        "codomain": "[0,1]",
+        "dependencies": [],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.8.objects"
@@ -18881,7 +18931,8 @@
         "codomain": "[0,1] declarado",
         "dependencies": [
           "formal.alpha"
-        ]
+        ],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.8.objects",
@@ -18900,7 +18951,9 @@
         "epistemic_status": "authorial_empirical_axiom_n3",
         "ontological_correspondence": "probabilidad de sanción por visibilidad",
         "domain": "[0,1]",
-        "codomain": "[0,1]"
+        "codomain": "[0,1]",
+        "dependencies": [],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.8.conventional",
@@ -18922,7 +18975,8 @@
         "codomain": "[0,1] declarado",
         "assumptions": [
           "x=1−S"
-        ]
+        ],
+        "dependencies": []
       },
       "evidence": [
         "ev.axiom.8.conventional",
@@ -18970,7 +19024,8 @@
         "codomain": "R_+",
         "dependencies": [
           "formal.axiom.TIC"
-        ]
+        ],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.8.iinv"
@@ -18988,7 +19043,9 @@
         "epistemic_status": "authorial_definition_pending_typing",
         "ontological_correspondence": "estado completo predictivo",
         "domain": "T",
-        "codomain": "E×Δ⁵×{1,…,6}×{1,2}×P(E)"
+        "codomain": "E×Δ⁵×{1,…,6}×{1,2}×P(E)",
+        "dependencies": [],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.9.state"
@@ -19059,7 +19116,8 @@
         "codomain": "E",
         "dependencies": [
           "formal.axiom.collapse"
-        ]
+        ],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.d.discrete"
@@ -19080,7 +19138,8 @@
         "codomain": "R",
         "dependencies": [
           "formal.axiom.Wi"
-        ]
+        ],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.d.rnet"
@@ -19102,7 +19161,8 @@
         "dependencies": [
           "formal.rstar",
           "formal.axiom.rstar_struct"
-        ]
+        ],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.d.rnet"
@@ -19124,7 +19184,8 @@
         "dependencies": [
           "formal.axiom.rstar_net",
           "formal.axiom.alpha_components"
-        ]
+        ],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.d.rnet",
@@ -19146,7 +19207,8 @@
         "codomain": "Δⁿ",
         "dependencies": [
           "formal.rstar"
-        ]
+        ],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.d.counterfactual"
@@ -19167,7 +19229,8 @@
         "codomain": "[0,2]",
         "dependencies": [
           "formal.axiom.counterfactual"
-        ]
+        ],
+        "assumptions": []
       },
       "evidence": [
         "ev.axiom.d.counterfactual"
@@ -22001,9 +22064,24 @@
       "summary": "La reconstrucción literal de las matrices del Caso Eje, del caso clínico y de John Snow da radio espectral 0 en los tres casos. Al ser DAG, W es nilpotente; tanto W como Wᵀ llevan la suma del iterado a cero en 3–5 pasos, por lo que la normalización deja de estar definida y no reproduce los porcentajes publicados.",
       "method": "Reconstrucción NumPy de las asignaciones W[i,j] impresas; cálculo de eigenvalores y seguimiento de Σ(Mr) con vector inicial uniforme para M=W y M=Wᵀ.",
       "results": {
-        "caso_eje": {"spectral_radius": 0.0, "rank": 4, "collapse_step_W": 4, "collapse_step_W_transpose": 4},
-        "caso_clinico": {"spectral_radius": 0.0, "rank": 2, "collapse_step_W": 3, "collapse_step_W_transpose": 3},
-        "john_snow": {"spectral_radius": 0.0, "rank": 4, "collapse_step_W": 5, "collapse_step_W_transpose": 5}
+        "caso_eje": {
+          "spectral_radius": 0.0,
+          "rank": 4,
+          "collapse_step_W": 4,
+          "collapse_step_W_transpose": 4
+        },
+        "caso_clinico": {
+          "spectral_radius": 0.0,
+          "rank": 2,
+          "collapse_step_W": 3,
+          "collapse_step_W_transpose": 3
+        },
+        "john_snow": {
+          "spectral_radius": 0.0,
+          "rank": 4,
+          "collapse_step_W": 5,
+          "collapse_step_W_transpose": 5
+        }
       },
       "evidence": [
         "ev.calc.c05.4",
@@ -34203,7 +34281,9 @@
         "review.tf.rstar_target_centrality",
         "review.tf.pf_epsilon",
         "review.tf.normalization_completeness",
-        "review.tf.rnet_redistribution"
+        "review.tf.rnet_redistribution",
+        "review.tf.shapley_uniqueness",
+        "review.tf.rstar_benefit"
       ]
     },
     {
@@ -34388,7 +34468,8 @@
         "review.tf.collective_nonreduction",
         "review.tf.iic_correlation",
         "review.tf.iic_scale",
-        "review.tf.iic_aego_reverse"
+        "review.tf.iic_aego_reverse",
+        "review.tf.beta_collision"
       ]
     },
     {
@@ -34746,7 +34827,8 @@
       ],
       "must_surface_review_items": [
         "review.axiom.consistency_claim",
-        "review.axiom.calibration_sources"
+        "review.axiom.calibration_sources",
+        "review.axiom.license"
       ]
     },
     {
@@ -34798,7 +34880,8 @@
         "review.axiom.hilbert_ontology",
         "review.axiom.embedding",
         "review.axiom.logit_typing",
-        "review.axiom.phi2_integration"
+        "review.axiom.phi2_integration",
+        "review.axiom.phi1_existence"
       ]
     },
     {
@@ -35480,7 +35563,10 @@
         "review.mci.pf_hypotheses",
         "review.mci.normalization_closure",
         "review.mci.pf_proof",
-        "review.mci.rstar_monotonicity"
+        "review.mci.rstar_monotonicity",
+        "review.mci.necessary_eigenvector",
+        "review.mci.irreducibility_definition",
+        "review.mci.epsilon_diagonal"
       ]
     },
     {
@@ -35529,7 +35615,8 @@
         "review.mci.rnet_redistribution",
         "review.mci.s_probability",
         "review.mci.s_ranges_calibration",
-        "review.mci.s_designer_conflict"
+        "review.mci.s_designer_conflict",
+        "review.mci.benefit_symmetry"
       ]
     },
     {
@@ -35736,7 +35823,9 @@
         "review.mci.declaration_a_logic",
         "review.mci.corner_exhaustiveness",
         "review.mci.robustness_statistic",
-        "review.mci.monte_carlo_precision"
+        "review.mci.monte_carlo_precision",
+        "review.mci.uncertainty_percentages",
+        "review.mci.correction_propagation"
       ]
     },
     {
@@ -35795,7 +35884,8 @@
         "review.mci.altamirano_s_range",
         "review.mci.altamirano_alpha_trace",
         "review.mci.altamirano_external_data",
-        "review.mci.altamirano_vector_reproduction"
+        "review.mci.altamirano_vector_reproduction",
+        "review.mci.midpoint_probability"
       ]
     },
     {
@@ -35844,7 +35934,10 @@
         "review.mci.rstar_monotonicity",
         "review.mci.empirical_calibration",
         "review.mci.duality_proof",
-        "review.mci.monte_carlo_precision"
+        "review.mci.monte_carlo_precision",
+        "review.mci.temporal_layering",
+        "review.mci.shapley_value_function",
+        "review.mci.discount_rate"
       ]
     },
     {
@@ -36038,7 +36131,8 @@
         "review.mcii.normalization",
         "review.mcii.series1_vector",
         "review.mcii.sink_normalization",
-        "review.mcii.pf_primitive"
+        "review.mcii.pf_primitive",
+        "review.mcii.undocumented_nodes"
       ]
     },
     {
@@ -36091,7 +36185,8 @@
         "review.mcii.alpha_divergence",
         "review.mcii.delta_sign",
         "review.mcii.delta_magnitude",
-        "review.mci.delta_crosswork"
+        "review.mci.delta_crosswork",
+        "review.mcii.phi2_observability"
       ]
     },
     {
@@ -36254,7 +36349,8 @@
         "review.mcii.consistency_c1",
         "review.mcii.consistency_c2",
         "review.mcii.consistency_c3",
-        "review.mcii.consistency_c4"
+        "review.mcii.consistency_c4",
+        "review.mcii.prevention_threshold"
       ]
     },
     {
@@ -36804,7 +36900,8 @@
         "review.calc.ito_bridge",
         "review.calc.shapley_value",
         "review.calc.shapley_collapse",
-        "review.calc.historical_probabilities"
+        "review.calc.historical_probabilities",
+        "review.calc.causal_inversion"
       ]
     },
     {
@@ -36899,7 +36996,10 @@
         "review.calc.PAC_portfolio",
         "review.calc.fine_formula",
         "review.calc.governance_dataset",
-        "review.calc.governance_horizon"
+        "review.calc.governance_horizon",
+        "review.calc.opacity_redundancy",
+        "review.calc.opacity_singularity",
+        "review.calc.pld_arithmetic"
       ]
     },
     {
@@ -36976,7 +37076,9 @@
         "review.calc.historical_probabilities",
         "review.calc.sports_counterfactual",
         "review.calc.sports_salary",
-        "review.calc.narrative_matrix"
+        "review.calc.narrative_matrix",
+        "review.calc.inherited_position",
+        "review.calc.prescription_formula"
       ]
     },
     {
@@ -37066,7 +37168,8 @@
         "review.calc.shapley_mc_error",
         "review.calc.code_artifact",
         "review.calc.prediction_status",
-        "review.calc.published_vectors_reproduction"
+        "review.calc.published_vectors_reproduction",
+        "review.calc.appendix_crossrefs"
       ]
     },
     {
