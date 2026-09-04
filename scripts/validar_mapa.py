@@ -3359,6 +3359,45 @@ def main() -> int:
                 require(any(e.startswith("ev.sdo.") for e in reviews[rid].get("evidence",[])), f"{rid} debe conservar nueva evidencia SDO")
             require({"review.sdo.code_to_graph_validity","review.sdo.alpha_semantics","review.sdo.delta_semantics","review.sdo.prognostic_claims"} <= set(routes["route.sdo.prometeo_interface"].get("must_surface_review_items",[])), "Ruta SDO-Prometeo debe surfacer causalidad, semántica y pronóstico")
 
+
+        # Invariantes ganadas al auditar ECO sistemáticamente en F4.
+        if phase in {"F4", "F5", "MANT"} and "ECO" in works:
+            eco_structure_path = ROOT / "corpus" / "libros" / "eco" / "estructura.json"
+            require(eco_structure_path.exists(), "Falta la estructura derivada de ECO")
+            eco_structure = json.loads(eco_structure_path.read_text(encoding="utf-8"))
+            require(eco_structure.get("sha256") == works["ECO"]["sha256"], "La estructura ECO no corresponde a la fuente canónica")
+            require(eco_structure.get("source") == works["ECO"]["source"], "La ruta ECO no corresponde a la fuente canónica")
+            eco_segments = {s["path"]:(s["start_line"],s["end_line"]) for s in eco_structure["segments"]}
+            require(len(eco_segments) == 28, "ECO debe conservar sus 28 segmentos auditados")
+            eco_evidence = [ev for ev in evidence.values() if ev["work_id"] == "ECO"]
+            eco_covered = {ev["segment"] for ev in eco_evidence}
+            require(set(eco_segments) <= eco_covered, f"La auditoría F4 de ECO perdió cobertura: {sorted(set(eco_segments)-eco_covered)}")
+            require(len(eco_evidence) >= 28, "ECO debe conservar al menos una evidencia por segmento")
+            for ev in eco_evidence:
+                require(ev["segment"] in eco_segments, f"{ev['id']}: segmento ECO no declarado")
+                a,b=eco_segments[ev["segment"]]; x,y=ev["source_lines"]
+                require(a <= x <= y <= b, f"{ev['id']}: rango fuera del segmento ECO")
+            required_eco_nodes={
+                "method.eco.instrument","formulation.eco.nonclinical_scope","method.eco.profiles","method.eco.administration","method.eco.ep_scale","formal.eco.p_hijos","method.eco.navigation","method.eco.children_modules","method.eco.harmonia_d2","method.eco.sdo_axes","formulation.eco.prometeo_inputs","method.eco.collective","method.eco.sovereign_identification","formal.eco.collective_weighting","method.eco.collective_artifacts","method.eco.community_memory","method.eco.intervention_boundary","method.eco.referral","method.eco.records"
+            }
+            require(required_eco_nodes <= set(nodes), f"Auditoría ECO incompleta: {sorted(required_eco_nodes-set(nodes))}")
+            required_eco_routes={"route.eco.scope_architecture","route.eco.ep_navigation","route.eco.children","route.eco.sdo_axes","route.eco.prometeo_interface","route.eco.collective","route.eco.collective_artifacts","route.eco.community_memory","route.eco.intervention_referral","route.eco.records"}
+            require(required_eco_routes <= set(routes), f"Faltan rutas F4 de ECO: {sorted(required_eco_routes-set(routes))}")
+            required_eco_reviews={
+                "review.eco.ep_calibration","review.eco.p_hijos_semantics","review.eco.interrater_reliability","review.eco.navigation_consistency","review.eco.harmonia_d2_validity","review.eco.administration_thresholds","review.eco.collective_sovereign_identification","review.eco.collective_crosswork","review.eco.collective_proximity_weights","review.eco.collective_aggregation_validity","review.eco.collective_artifact_ep","review.eco.focus_group_validity","review.eco.community_memory_inference","review.eco.nonlabel_transparency","review.eco.referral_criteria","review.eco.localization_vigency","review.eco.histos_handoff"
+            }
+            require(required_eco_reviews <= set(reviews), "Deben conservarse las diecisiete revisiones abiertas creadas por ECO")
+            require(nodes["formal.eco.p_hijos"]["formal_spec"].get("epistemic_status") == "authorial_scoring_rule_pending_metrological_validation", "P(Hijos) ECO no puede promoverse a probabilidad calibrada")
+            require(nodes["formal.eco.collective_weighting"]["formal_spec"].get("epistemic_status") == "authorial_aggregation_rule_pending_metrological_and_empirical_validation", "La agregación colectiva ECO no puede presentarse como medida validada")
+            inferred_eco={"rel.eco.instrument.operationalizes_sdo","rel.eco.instrument.refines_tf_role","rel.eco.children.operationalizes_sdo_weights","rel.eco.axes.operationalizes_sdo_profile","rel.eco.prometeo_inputs.informs_s","rel.eco.prometeo_inputs.informs_alpha","rel.eco.collective.operationalizes_collective_collapse","rel.eco.sovereign.relates_collective_sovereign"}
+            require(all(rid in relations and relations[rid]["evidence_status"]=="inferred" and bool(relations[rid].get("rationale")) for rid in inferred_eco), "Los cruces ECO con SDO, Prometeo y ontología colectiva deben permanecer inferidos")
+            inherited_eco_reviews={"review.tf.eco_clinical_safety","review.tf.consent_confidentiality","review.tf.feedback_freedom","review.tf.alpha_measurement","review.mci.alpha_calibration","review.mci.alpha_observability","review.mcii.phi2_observability","review.sdo.coding_reproducibility","review.sdo.clinical_boundary","review.sdo.children_weight_calibration","review.sdo.code_to_graph_validity"}
+            for rid in inherited_eco_reviews:
+                require(str(reviews[rid].get("status","")).startswith("pending"), f"ECO no autoriza cerrar revisión heredada {rid}")
+                require(any(e.startswith("ev.eco.") for e in reviews[rid].get("evidence",[])), f"{rid} debe conservar nueva evidencia ECO")
+            eco_surfaced={rid for route_item in routes.values() if route_item["id"].startswith("route.eco.") for rid in route_item.get("must_surface_review_items",[])}
+            require(required_eco_reviews <= eco_surfaced, f"Toda revisión propia de ECO debe ser navegable; faltan {sorted(required_eco_reviews-eco_surfaced)}")
+
     print(
         "Mapa válido:",
         f"fase={phase}, schema={schema_status};",

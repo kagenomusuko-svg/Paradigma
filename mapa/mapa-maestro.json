@@ -1,5 +1,5 @@
 {
-  "map_version": "2.5.0",
+  "map_version": "2.6.0",
   "schema_status": "frozen",
   "phase": "F4",
   "purpose": "Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.",
@@ -94,6 +94,12 @@
       "title": "El cálculo de la responsabilidad: Una ontología matemática para sistemas causales complejos",
       "source": "corpus/fuentes/El_calculo_de_la_responsabilidad.md",
       "sha256": "b79aba06afedcc7f4c85a03ce5fc5f9fc8af1c94da92f486938da2d58ee161fa"
+    },
+    {
+      "id": "ECO",
+      "title": "ECO: Entrevista Clínica Ontológica",
+      "source": "corpus/fuentes/ECO_Entrevista_Clinica_Ontologica.md",
+      "sha256": "b28e6fa3c07196525d8d6b880ff7a8674abd6460f00b0adda0353d84b3a811ac"
     }
   ],
   "evidence": [
@@ -12130,6 +12136,314 @@
       ],
       "section": "VIII·3",
       "evidence_type": "self_application_instrument"
+    },
+    {
+      "id": "ev.eco.f4.00-preliminares",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/00-preliminares.md",
+      "source_lines": [
+        1,
+        27
+      ],
+      "section": "00-preliminares",
+      "evidence_type": "work_scope"
+    },
+    {
+      "id": "ev.eco.f4.capitulo-p-1",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/capitulo-p-1.md",
+      "source_lines": [
+        28,
+        354
+      ],
+      "section": "P·1",
+      "evidence_type": "instrument_architecture"
+    },
+    {
+      "id": "ev.eco.f4.capitulo-p-2",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/capitulo-p-2.md",
+      "source_lines": [
+        355,
+        784
+      ],
+      "section": "P·2",
+      "evidence_type": "instrument_architecture"
+    },
+    {
+      "id": "ev.eco.f4.capitulo-p-3",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/capitulo-p-3.md",
+      "source_lines": [
+        785,
+        1193
+      ],
+      "section": "P·3",
+      "evidence_type": "instrument_architecture"
+    },
+    {
+      "id": "ev.eco.f4.capitulo-p-4",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/capitulo-p-4.md",
+      "source_lines": [
+        1194,
+        1846
+      ],
+      "section": "P·4",
+      "evidence_type": "instrument_architecture"
+    },
+    {
+      "id": "ev.eco.f4.capitulo-p-5",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/capitulo-p-5.md",
+      "source_lines": [
+        1847,
+        2408
+      ],
+      "section": "P·5",
+      "evidence_type": "instrument_architecture"
+    },
+    {
+      "id": "ev.eco.f4.b-i-f",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/b-i-f.md",
+      "source_lines": [
+        2409,
+        3243
+      ],
+      "section": "B·I·F",
+      "evidence_type": "instrument_module"
+    },
+    {
+      "id": "ev.eco.f4.b-i-d",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/b-i-d.md",
+      "source_lines": [
+        3244,
+        4132
+      ],
+      "section": "B·I·D",
+      "evidence_type": "instrument_module"
+    },
+    {
+      "id": "ev.eco.f4.b-i-a",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/b-i-a.md",
+      "source_lines": [
+        4133,
+        5111
+      ],
+      "section": "B·I·A",
+      "evidence_type": "instrument_module"
+    },
+    {
+      "id": "ev.eco.f4.b-i-p",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/b-i-p.md",
+      "source_lines": [
+        5112,
+        6023
+      ],
+      "section": "B·I·P",
+      "evidence_type": "instrument_module"
+    },
+    {
+      "id": "ev.eco.f4.b-i-e",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/b-i-e.md",
+      "source_lines": [
+        6024,
+        6926
+      ],
+      "section": "B·I·E",
+      "evidence_type": "instrument_module"
+    },
+    {
+      "id": "ev.eco.f4.b-i-h",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/b-i-h.md",
+      "source_lines": [
+        6927,
+        7841
+      ],
+      "section": "B·I·H",
+      "evidence_type": "instrument_module"
+    },
+    {
+      "id": "ev.eco.f4.b-ii-i",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/b-ii-i.md",
+      "source_lines": [
+        7842,
+        8570
+      ],
+      "section": "B·II·I",
+      "evidence_type": "sdo_operationalization"
+    },
+    {
+      "id": "ev.eco.f4.b-ii-ii",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/b-ii-ii.md",
+      "source_lines": [
+        8571,
+        9156
+      ],
+      "section": "B·II·II",
+      "evidence_type": "sdo_operationalization"
+    },
+    {
+      "id": "ev.eco.f4.b-ii-iii",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/b-ii-iii.md",
+      "source_lines": [
+        9157,
+        10184
+      ],
+      "section": "B·II·III",
+      "evidence_type": "sdo_operationalization"
+    },
+    {
+      "id": "ev.eco.f4.b-ii-iv",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/b-ii-iv.md",
+      "source_lines": [
+        10185,
+        11109
+      ],
+      "section": "B·II·IV",
+      "evidence_type": "sdo_operationalization"
+    },
+    {
+      "id": "ev.eco.f4.b-ii-v",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/b-ii-v.md",
+      "source_lines": [
+        11110,
+        12248
+      ],
+      "section": "B·II·V",
+      "evidence_type": "sdo_operationalization"
+    },
+    {
+      "id": "ev.eco.f4.b-iii-1",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/b-iii-1.md",
+      "source_lines": [
+        12249,
+        12851
+      ],
+      "section": "B·III·1",
+      "evidence_type": "collective_application_protocol"
+    },
+    {
+      "id": "ev.eco.f4.b-iii-2",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/b-iii-2.md",
+      "source_lines": [
+        12852,
+        13562
+      ],
+      "section": "B·III·2",
+      "evidence_type": "collective_application_protocol"
+    },
+    {
+      "id": "ev.eco.f4.b-iii-3",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/b-iii-3.md",
+      "source_lines": [
+        13563,
+        14200
+      ],
+      "section": "B·III·3",
+      "evidence_type": "collective_application_protocol"
+    },
+    {
+      "id": "ev.eco.f4.b-iii-4",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/b-iii-4.md",
+      "source_lines": [
+        14201,
+        14870
+      ],
+      "section": "B·III·4",
+      "evidence_type": "collective_application_protocol"
+    },
+    {
+      "id": "ev.eco.f4.b-iii-5",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/b-iii-5.md",
+      "source_lines": [
+        14871,
+        15607
+      ],
+      "section": "B·III·5",
+      "evidence_type": "collective_application_protocol"
+    },
+    {
+      "id": "ev.eco.f4.bloque-iv-01",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/bloque-iv-01.md",
+      "source_lines": [
+        15608,
+        16072
+      ],
+      "section": "B·IV·1",
+      "evidence_type": "use_and_referral_protocol"
+    },
+    {
+      "id": "ev.eco.f4.bloque-iv-02",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/bloque-iv-02.md",
+      "source_lines": [
+        16073,
+        16554
+      ],
+      "section": "B·IV·2",
+      "evidence_type": "use_and_referral_protocol"
+    },
+    {
+      "id": "ev.eco.f4.bloque-iv-03",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/bloque-iv-03.md",
+      "source_lines": [
+        16555,
+        16996
+      ],
+      "section": "B·IV·3",
+      "evidence_type": "use_and_referral_protocol"
+    },
+    {
+      "id": "ev.eco.f4.bloque-iv-04",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/bloque-iv-04.md",
+      "source_lines": [
+        16997,
+        17465
+      ],
+      "section": "B·IV·4",
+      "evidence_type": "use_and_referral_protocol"
+    },
+    {
+      "id": "ev.eco.f4.bloque-iv-05",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/bloque-iv-05.md",
+      "source_lines": [
+        17466,
+        17860
+      ],
+      "section": "B·IV·5",
+      "evidence_type": "use_and_referral_protocol"
+    },
+    {
+      "id": "ev.eco.f4.90-apendices",
+      "work_id": "ECO",
+      "segment": "corpus/libros/eco/90-apendices.md",
+      "source_lines": [
+        17861,
+        19317
+      ],
+      "section": "APENDICES",
+      "evidence_type": "instrument_templates"
     }
   ],
   "nodes": [
@@ -22739,6 +23053,260 @@
         "ev.sdo.f4.viii-3"
       ],
       "evidence_status": "explicit"
+    },
+    {
+      "id": "method.eco.instrument",
+      "kind": "method",
+      "label": "ECO como instrumento de localización",
+      "summary": "Instrumento autoral de localización de la configuración actual de la voluntad en presencia del sujeto. Declara estructura replicable, criterios de administración y salidas verificables; produce P(Hijos), códigos SDO y orientaciones inmediatas, no el acompañamiento completo.",
+      "evidence": [
+        "ev.eco.f4.capitulo-p-1",
+        "ev.eco.f4.capitulo-p-3",
+        "ev.eco.f4.capitulo-p-5"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.eco.nonclinical_scope",
+      "kind": "formulation",
+      "label": "Delimitación no clínica de ECO",
+      "summary": "La obra declara que ECO no es psicoterapia ni psiquiatría, no diagnostica DSM/CIE ni prescribe tratamientos; localiza configuraciones ontológicas y ordena derivar cuando el nivel clínico, somático, jurídico o material excede su alcance.",
+      "evidence": [
+        "ev.eco.f4.capitulo-p-1",
+        "ev.eco.f4.bloque-iv-05"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.eco.profiles",
+      "kind": "method",
+      "label": "Perfiles de administración ECO",
+      "summary": "Distribuye el uso del instrumento entre seis perfiles de mediador —Crisis, Educativo, Organizacional, Estructural, Modelador y Memoria Comunitaria— con bloques y objetivos distintos; las proporciones publicadas son reglas autorales de uso.",
+      "evidence": [
+        "ev.eco.f4.capitulo-p-2"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.eco.administration",
+      "kind": "method",
+      "label": "Condiciones de administración ECO",
+      "summary": "Exige dominio ontológico, escala EP y perfil propio; recomienda supervisión previa, fija encuadre, apertura narrativa, estructura temporal, autocalibración del mediador y condiciones que invalidan la administración.",
+      "evidence": [
+        "ev.eco.f4.capitulo-p-3"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.eco.ep_scale",
+      "kind": "method",
+      "label": "Escala de evidencia personal EP-0–EP-8",
+      "summary": "Jerarquía autoral de tipos de señal en sesión con códigos H-1/H-2/H-3/? y rangos numéricos de peso. La obra la presenta como instrumento de calibración y control de calidad equivalente en función a E0–E8, sin aportar aquí estudio de calibración externa.",
+      "evidence": [
+        "ev.eco.f4.capitulo-p-4"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.eco.p_hijos",
+      "kind": "formal_object",
+      "label": "Distribución P(Hijos) en ECO",
+      "formal_spec": {
+        "symbol": "P(Hijos)",
+        "object_type": "authorial_scoring_distribution",
+        "expression": "P(Hijos)=[p_F,p_D,p_A,p_P,p_E,p_H], con p_i∈[0,1] y Σp_i=1.00",
+        "domain": "señales de sesión codificadas mediante módulos H-n y niveles EP",
+        "codomain": "seis pesos no negativos normalizados",
+        "dependencies": [
+          "method.eco.ep_scale",
+          "method.eco.children_modules"
+        ],
+        "assumptions": [
+          "los niveles EP sostienen rangos de peso",
+          "el juicio del mediador puede convertir señales indirectas en pesos",
+          "la normalización conserva significado entre Hijos"
+        ],
+        "epistemic_status": "authorial_scoring_rule_pending_metrological_validation",
+        "ontological_correspondence": "distribución declarada de posiciones de la voluntad entre seis Hijos de Afrodita"
+      },
+      "evidence": [
+        "ev.eco.f4.capitulo-p-1",
+        "ev.eco.f4.capitulo-p-4",
+        "ev.eco.f4.capitulo-p-5",
+        "ev.eco.f4.90-apendices"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.eco.navigation",
+      "kind": "method",
+      "label": "Navegación, SKIP y cierre ECO",
+      "summary": "Define entrada directa, orden estándar, verificaciones de exclusión, reglas SKIP, cierres completos/parciales/no concluyentes y Declaración de Incertidumbre ECO; contiene umbrales y reglas internas que deben conservarse como prescripciones autorales.",
+      "evidence": [
+        "ev.eco.f4.capitulo-p-5",
+        "ev.eco.f4.bloque-iv-03",
+        "ev.eco.f4.90-apendices"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.eco.children_modules",
+      "kind": "method",
+      "label": "Bloque I · módulos de Hijos de Afrodita",
+      "summary": "Seis módulos de localización —Fobos, Deimos, Anteros, Potós, Eros y Harmonía/D-2— con fundamento, entrada/SKIP, pregunta ancla, sondeos, exclusiones, señales observacionales, codificación H-n/EP y peso en P(Hijos).",
+      "evidence": [
+        "ev.eco.f4.b-i-f",
+        "ev.eco.f4.b-i-d",
+        "ev.eco.f4.b-i-a",
+        "ev.eco.f4.b-i-p",
+        "ev.eco.f4.b-i-e",
+        "ev.eco.f4.b-i-h"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.eco.harmonia_d2",
+      "kind": "method",
+      "label": "Discriminación Harmonía–D-2",
+      "summary": "Módulo obligatorio que afirma discriminar integración genuina de anestesia ontológica mediante cinco preguntas de presencia interna y reserva P(Harmonía)>0 para H-3(H) con EP-1/EP-2.",
+      "evidence": [
+        "ev.eco.f4.b-i-h"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.eco.sdo_axes",
+      "kind": "method",
+      "label": "Bloque II · operacionalización de los cinco ejes SDO",
+      "summary": "Administra módulos para Eje I E-1–E-6, Eje II M-1–M-3, Eje III V-1–V-3, Eje IV D-1/D-2 y Eje V T-0–T-6/T-ext, usando señales EP y discriminantes en presencia.",
+      "evidence": [
+        "ev.eco.f4.b-ii-i",
+        "ev.eco.f4.b-ii-ii",
+        "ev.eco.f4.b-ii-iii",
+        "ev.eco.f4.b-ii-iv",
+        "ev.eco.f4.b-ii-v"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.eco.prometeo_inputs",
+      "kind": "formulation",
+      "label": "Pretensión ECO de informar S y α de Prometeo",
+      "role": "authorial_cross_instrument_claim",
+      "summary": "La obra sostiene que la localización en presencia puede confirmar o ajustar parámetros S y α usados por Prometeo, especialmente para el perfil estructural; se registra como pretensión operativa, no como observabilidad o calibración demostrada.",
+      "evidence": [
+        "ev.eco.f4.capitulo-p-1",
+        "ev.eco.f4.capitulo-p-2",
+        "ev.eco.f4.b-ii-i"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.eco.collective",
+      "kind": "method",
+      "label": "Bloque III · localización del ego colectivo",
+      "summary": "Extiende ECO a organizaciones, instituciones y comunidades mediante identificación del ego soberano, entrevistas a miembros, agregación por proximidad a φ₂, artefactos, grupos focales y memoria comunitaria.",
+      "evidence": [
+        "ev.eco.f4.b-iii-1",
+        "ev.eco.f4.b-iii-2",
+        "ev.eco.f4.b-iii-3",
+        "ev.eco.f4.b-iii-4",
+        "ev.eco.f4.b-iii-5"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.eco.sovereign_identification",
+      "kind": "method",
+      "label": "Identificación del ego soberano real",
+      "summary": "Protocolo de revisión documental, entrevistas de mapeo y convergencia; declara identificado al portador real de φ₂ colectivo cuando al menos tres fuentes independientes convergen sobre el mismo actor.",
+      "evidence": [
+        "ev.eco.f4.b-iii-1",
+        "ev.eco.f4.b-iii-2"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.eco.collective_weighting",
+      "kind": "formal_object",
+      "label": "Ponderación colectiva por proximidad a φ₂",
+      "formal_spec": {
+        "symbol": "P(Hijo)_colectivo",
+        "object_type": "authorial_weighted_aggregation",
+        "expression": "P(Hijo)_colectivo = Σ(P(Hijo)_i·f_i)/Σf_i",
+        "domain": "localizaciones individuales + factores de proximidad a φ₂",
+        "codomain": "vector P(Hijos) colectivo normalizado",
+        "dependencies": [
+          "formal.eco.p_hijos",
+          "method.eco.sovereign_identification"
+        ],
+        "assumptions": [
+          "la proximidad real a φ₂ es identificable",
+          "los factores por nivel son comparables",
+          "la media ponderada representa al ego colectivo",
+          "los ajustes de convergencia/divergencia preservan significado"
+        ],
+        "epistemic_status": "authorial_aggregation_rule_pending_metrological_and_empirical_validation",
+        "ontological_correspondence": "lectura cuantificada declarada del ego colectivo"
+      },
+      "evidence": [
+        "ev.eco.f4.b-iii-3"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.eco.collective_artifacts",
+      "kind": "method",
+      "label": "Análisis ECO de artefactos y grupos focales colectivos",
+      "summary": "Usa juntas, grupos focales ontológicos, documentos, cultura material y métricas como señales del ego colectivo, asignando máximos EP colectivos y distinguiendo corroboración de acceso alternativo.",
+      "evidence": [
+        "ev.eco.f4.b-iii-4"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.eco.community_memory",
+      "kind": "method",
+      "label": "Aplicación ECO a Memoria Comunitaria",
+      "summary": "Localiza el ego colectivo en la triada lo que fue / lo que es / lo que pudo ser mediante portadores de memoria, artefactos y vector tanatológico colectivo, con advertencias contra romanticismo y restauración utópica.",
+      "evidence": [
+        "ev.eco.f4.b-iii-5"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.eco.intervention_boundary",
+      "kind": "method",
+      "label": "Uso post-localización y principio de no-etiquetado",
+      "summary": "Ordena usar la localización como mapa interno sin revelarla como etiqueta, distingue localización de acompañamiento y define el umbral de transferencia hacia Histos con condiciones técnicas, relacionales y volitivas.",
+      "evidence": [
+        "ev.eco.f4.bloque-iv-01",
+        "ev.eco.f4.bloque-iv-02",
+        "ev.eco.f4.bloque-iv-03",
+        "ev.eco.f4.bloque-iv-04"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.eco.referral",
+      "kind": "method",
+      "label": "Derivación fuera del paradigma",
+      "summary": "Protocolo autoral de suspensión o derivación a servicios clínicos, psiquiátricos, jurídicos, de protección o apoyo social ante señales que la obra considera fuera del alcance ontológico; incluye criterios urgentes y programados.",
+      "evidence": [
+        "ev.eco.f4.bloque-iv-05"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.eco.records",
+      "kind": "method",
+      "label": "Hoja de síntesis, DI-ECO y registros modulares",
+      "summary": "Apéndices reproducibles para registrar módulos, EP, P(Hijos), ejes SDO, observación relacional, ego colectivo, cierre, vigencia, derivación, recursos y Declaración de Incertidumbre ECO.",
+      "evidence": [
+        "ev.eco.f4.90-apendices",
+        "ev.eco.f4.bloque-iv-03"
+      ],
+      "evidence_status": "explicit"
     }
   ],
   "relations": [
@@ -29874,6 +30442,237 @@
       "evidence_status": "explicit",
       "evidence": [
         "ev.sdo.f4.viii-3"
+      ]
+    },
+    {
+      "id": "rel.eco.scope.qualifies_instrument",
+      "type": "qualifies",
+      "from": "formulation.eco.nonclinical_scope",
+      "to": "method.eco.instrument",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.eco.f4.capitulo-p-1",
+        "ev.eco.f4.bloque-iv-05"
+      ]
+    },
+    {
+      "id": "rel.eco.instrument.operationalizes_sdo",
+      "type": "operationalizes",
+      "from": "method.eco.instrument",
+      "to": "method.sdo.localization",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.eco.f4.capitulo-p-1",
+        "ev.eco.f4.b-ii-i"
+      ],
+      "rationale": "ECO declara ser la operacionalización en presencia del SDO; el enlace al nodo de localización SDO conserva esa correspondencia sin identificar ambos instrumentos."
+    },
+    {
+      "id": "rel.eco.instrument.refines_tf_role",
+      "type": "refines",
+      "from": "method.eco.instrument",
+      "to": "concept.tf.instrument_eco_role",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.eco.f4.capitulo-p-1",
+        "ev.tf.52.eco_role"
+      ],
+      "rationale": "La obra ECO desarrolla posteriormente el papel de instrumento anticipado por Transformación formal; no se borra la formulación histórica anterior."
+    },
+    {
+      "id": "rel.eco.profiles.configure_instrument",
+      "type": "configures",
+      "from": "method.eco.profiles",
+      "to": "method.eco.instrument",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.eco.f4.capitulo-p-2"
+      ]
+    },
+    {
+      "id": "rel.eco.administration.governs_instrument",
+      "type": "governs",
+      "from": "method.eco.administration",
+      "to": "method.eco.instrument",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.eco.f4.capitulo-p-3"
+      ]
+    },
+    {
+      "id": "rel.eco.ep.scores_p_hijos",
+      "type": "scores",
+      "from": "method.eco.ep_scale",
+      "to": "formal.eco.p_hijos",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.eco.f4.capitulo-p-4"
+      ]
+    },
+    {
+      "id": "rel.eco.children.produces_p_hijos",
+      "type": "produces",
+      "from": "method.eco.children_modules",
+      "to": "formal.eco.p_hijos",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.eco.f4.capitulo-p-4",
+        "ev.eco.f4.capitulo-p-5"
+      ]
+    },
+    {
+      "id": "rel.eco.children.operationalizes_sdo_weights",
+      "type": "operationalizes",
+      "from": "method.eco.children_modules",
+      "to": "method.sdo.children_weights",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.eco.f4.capitulo-p-1",
+        "ev.eco.f4.b-i-f",
+        "ev.eco.f4.b-i-h"
+      ],
+      "rationale": "ECO produce pesos de la misma familia de Hijos en presencia, pero sus reglas EP y módulos son propias y no validan la cuantificación SDO."
+    },
+    {
+      "id": "rel.eco.harmonia.refines_children",
+      "type": "refines",
+      "from": "method.eco.harmonia_d2",
+      "to": "method.eco.children_modules",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.eco.f4.b-i-h"
+      ]
+    },
+    {
+      "id": "rel.eco.axes.operationalizes_sdo_profile",
+      "type": "operationalizes",
+      "from": "method.eco.sdo_axes",
+      "to": "formulation.sdo.five_axis_profile",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.eco.f4.b-ii-i",
+        "ev.eco.f4.b-ii-v"
+      ],
+      "rationale": "Los módulos ECO implementan en presencia los códigos definidos por SDO sin convertir la codificación en validación independiente de los ejes."
+    },
+    {
+      "id": "rel.eco.prometeo_inputs.informs_s",
+      "type": "claims_to_inform",
+      "from": "formulation.eco.prometeo_inputs",
+      "to": "formal.mci.S",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.eco.f4.capitulo-p-2",
+        "ev.eco.f4.b-ii-i"
+      ],
+      "rationale": "ECO afirma aportar información para S; la relación con el objeto formal de MC-I se conserva como pretensión de observabilidad pendiente."
+    },
+    {
+      "id": "rel.eco.prometeo_inputs.informs_alpha",
+      "type": "claims_to_inform",
+      "from": "formulation.eco.prometeo_inputs",
+      "to": "formal.mci.alpha",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.eco.f4.capitulo-p-1",
+        "ev.eco.f4.capitulo-p-2",
+        "ev.eco.f4.b-ii-i"
+      ],
+      "rationale": "ECO afirma aportar información para α; las revisiones de calibración y observabilidad permanecen abiertas."
+    },
+    {
+      "id": "rel.eco.collective.operationalizes_collective_collapse",
+      "type": "operationalizes",
+      "from": "method.eco.collective",
+      "to": "concept.collective_collapse.aa5",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.eco.f4.b-iii-1",
+        "ev.eco.f4.b-iii-3"
+      ],
+      "rationale": "ECO trata la ontología colectiva heredada como base operativa; no demuestra que la entidad colectiva ni φ₂ colectivo sean empíricamente identificables."
+    },
+    {
+      "id": "rel.eco.sovereign.relates_collective_sovereign",
+      "type": "operationalizes",
+      "from": "method.eco.sovereign_identification",
+      "to": "concept.soberano_colectivo.aa4",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.eco.f4.b-iii-1"
+      ],
+      "rationale": "El ego soberano real de ECO y el soberano colectivo de AA-IV pertenecen a elaboraciones históricas relacionadas pero no se adjudican como identidad conceptual."
+    },
+    {
+      "id": "rel.eco.collective_weighting.uses_p_hijos",
+      "type": "uses",
+      "from": "formal.eco.collective_weighting",
+      "to": "formal.eco.p_hijos",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.eco.f4.b-iii-3"
+      ]
+    },
+    {
+      "id": "rel.eco.artifacts.supports_collective",
+      "type": "supports",
+      "from": "method.eco.collective_artifacts",
+      "to": "method.eco.collective",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.eco.f4.b-iii-4"
+      ]
+    },
+    {
+      "id": "rel.eco.memory.applies_collective",
+      "type": "applies",
+      "from": "method.eco.community_memory",
+      "to": "method.eco.collective",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.eco.f4.b-iii-5"
+      ]
+    },
+    {
+      "id": "rel.eco.navigation.governs_instrument",
+      "type": "governs",
+      "from": "method.eco.navigation",
+      "to": "method.eco.instrument",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.eco.f4.capitulo-p-5",
+        "ev.eco.f4.bloque-iv-03"
+      ]
+    },
+    {
+      "id": "rel.eco.boundary.qualifies_instrument",
+      "type": "qualifies",
+      "from": "method.eco.intervention_boundary",
+      "to": "method.eco.instrument",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.eco.f4.bloque-iv-01",
+        "ev.eco.f4.bloque-iv-04"
+      ]
+    },
+    {
+      "id": "rel.eco.referral.qualifies_scope",
+      "type": "qualifies",
+      "from": "method.eco.referral",
+      "to": "formulation.eco.nonclinical_scope",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.eco.f4.bloque-iv-05"
+      ]
+    },
+    {
+      "id": "rel.eco.records.records_instrument",
+      "type": "records",
+      "from": "method.eco.records",
+      "to": "method.eco.instrument",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.eco.f4.90-apendices"
       ]
     }
   ],
@@ -38261,6 +39060,359 @@
         "review.sdo.self_application_validity",
         "review.mcii.instrument_validity"
       ]
+    },
+    {
+      "id": "route.eco.scope_architecture",
+      "purpose": "Explicar qué es ECO, su alcance, perfiles y condiciones de administración.",
+      "triggers": [
+        "ECO",
+        "Entrevista Clínica Ontológica",
+        "alcance de ECO",
+        "administración ECO"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.eco.f4.capitulo-p-1",
+          "reason": "Define instrumento, salidas, relación interinstrumental y límites."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.eco.f4.capitulo-p-2",
+          "reason": "Distingue perfiles y usos."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.eco.f4.capitulo-p-3",
+          "reason": "Fija condiciones de administración y validez operativa."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.eco.interrater_reliability",
+        "review.eco.administration_thresholds",
+        "review.sdo.clinical_boundary",
+        "review.tf.eco_clinical_safety",
+        "review.tf.consent_confidentiality"
+      ]
+    },
+    {
+      "id": "route.eco.ep_navigation",
+      "purpose": "Reconstruir codificación H-n/EP, P(Hijos), navegación, SKIP, cierre y DI-ECO.",
+      "triggers": [
+        "EP-0",
+        "EP-8",
+        "P(Hijos)",
+        "H-1",
+        "H-2",
+        "H-3",
+        "SKIP",
+        "DI-ECO"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.eco.f4.capitulo-p-4",
+          "reason": "Define convenciones, códigos y escala EP."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.eco.f4.capitulo-p-5",
+          "reason": "Define navegación, SKIP y cierres."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.eco.f4.bloque-iv-03",
+          "reason": "Formaliza estados de cierre y DI-ECO."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.eco.f4.90-apendices",
+          "reason": "Materializa hojas y reglas de registro."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.eco.ep_calibration",
+        "review.eco.p_hijos_semantics",
+        "review.eco.navigation_consistency",
+        "review.eco.localization_vigency",
+        "review.sdo.coding_reproducibility",
+        "review.sdo.children_weight_calibration"
+      ]
+    },
+    {
+      "id": "route.eco.children",
+      "purpose": "Auditar los seis módulos de Hijos de Afrodita en ECO.",
+      "triggers": [
+        "Fobos ECO",
+        "Deimos ECO",
+        "Anteros ECO",
+        "Potós ECO",
+        "Eros ECO",
+        "Harmonía D-2 ECO"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.eco.f4.b-i-f",
+          "reason": "Módulo Fobos."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.eco.f4.b-i-d",
+          "reason": "Módulo Deimos."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.eco.f4.b-i-a",
+          "reason": "Módulo Anteros."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.eco.f4.b-i-p",
+          "reason": "Módulo Potós."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.eco.f4.b-i-e",
+          "reason": "Módulo Eros."
+        },
+        {
+          "order": 6,
+          "evidence_id": "ev.eco.f4.b-i-h",
+          "reason": "Módulo Harmonía/D-2 y restricción de peso."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.eco.ep_calibration",
+        "review.eco.p_hijos_semantics",
+        "review.eco.interrater_reliability",
+        "review.eco.harmonia_d2_validity",
+        "review.eco.navigation_consistency",
+        "review.sdo.children_weight_calibration"
+      ]
+    },
+    {
+      "id": "route.eco.sdo_axes",
+      "purpose": "Auditar la operacionalización ECO de los cinco ejes SDO.",
+      "triggers": [
+        "Eje I ECO",
+        "Eje II ECO",
+        "Eje III ECO",
+        "Eje IV ECO",
+        "Eje V ECO"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.eco.f4.b-ii-i",
+          "reason": "Estados del ego."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.eco.f4.b-ii-ii",
+          "reason": "Mascarada."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.eco.f4.b-ii-iii",
+          "reason": "Vínculo."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.eco.f4.b-ii-iv",
+          "reason": "Disforia/señal."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.eco.f4.b-ii-v",
+          "reason": "Vector tanatológico."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.sdo.coding_reproducibility",
+        "review.sdo.clinical_boundary",
+        "review.tf.alpha_measurement",
+        "review.mci.alpha_observability",
+        "review.mcii.phi2_observability"
+      ]
+    },
+    {
+      "id": "route.eco.prometeo_interface",
+      "purpose": "Distinguir lo que ECO afirma aportar a Prometeo de lo que está metrológicamente validado.",
+      "triggers": [
+        "ECO Prometeo",
+        "S y alpha ECO",
+        "α ECO",
+        "parámetros Prometeo"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.eco.f4.capitulo-p-1",
+          "reason": "Declara división de trabajo y salidas."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.eco.f4.capitulo-p-2",
+          "reason": "Perfil estructural reclama ajuste de S y α."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.eco.f4.b-ii-i",
+          "reason": "Eje I vincula estados del ego con estimación de α."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.tf.alpha_measurement",
+        "review.mci.alpha_calibration",
+        "review.mci.alpha_observability",
+        "review.mcii.phi2_observability",
+        "review.eco.ep_calibration",
+        "review.eco.p_hijos_semantics"
+      ]
+    },
+    {
+      "id": "route.eco.collective",
+      "purpose": "Auditar identificación, entrevistas y agregación del ego colectivo.",
+      "triggers": [
+        "ego colectivo ECO",
+        "ego soberano",
+        "proximidad a φ₂",
+        "P(Hijos) colectivo"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.eco.f4.b-iii-1",
+          "reason": "Define ego soberano y protocolo de identificación."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.eco.f4.b-iii-2",
+          "reason": "Entrevista a miembros y niveles de acceso."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.eco.f4.b-iii-3",
+          "reason": "Agregación ponderada y divergencia."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.eco.collective_sovereign_identification",
+        "review.eco.collective_crosswork",
+        "review.eco.collective_proximity_weights",
+        "review.eco.collective_aggregation_validity"
+      ]
+    },
+    {
+      "id": "route.eco.collective_artifacts",
+      "purpose": "Auditar artefactos, grupos focales y evidencia colectiva.",
+      "triggers": [
+        "artefactos ECO",
+        "grupo focal ontológico",
+        "juntas ECO",
+        "EP colectivo"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.eco.f4.b-iii-4",
+          "reason": "Tipifica artefactos y técnicas colectivas."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.eco.collective_artifact_ep",
+        "review.eco.focus_group_validity",
+        "review.eco.collective_sovereign_identification"
+      ]
+    },
+    {
+      "id": "route.eco.community_memory",
+      "purpose": "Auditar la aplicación ECO a Memoria Comunitaria.",
+      "triggers": [
+        "Memoria Comunitaria ECO",
+        "lo que fue lo que es lo que pudo ser",
+        "memoria colectiva"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.eco.f4.b-iii-5",
+          "reason": "Define triada temporal, portadores y lectura del Eje V colectivo."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.eco.community_memory_inference",
+        "review.eco.collective_crosswork"
+      ]
+    },
+    {
+      "id": "route.eco.intervention_referral",
+      "purpose": "Delimitar uso post-localización, paso a Histos y derivación fuera del paradigma.",
+      "triggers": [
+        "no etiquetado ECO",
+        "Histos ECO",
+        "derivación ECO",
+        "seguridad ECO"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.eco.f4.bloque-iv-01",
+          "reason": "Errores post-localización y separación ECO/Histos."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.eco.f4.bloque-iv-02",
+          "reason": "Principio de no-etiquetado."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.eco.f4.bloque-iv-03",
+          "reason": "Cierre e incertidumbre."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.eco.f4.bloque-iv-04",
+          "reason": "Criterios de paso a Histos."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.eco.f4.bloque-iv-05",
+          "reason": "Criterios de derivación externa."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.eco.nonlabel_transparency",
+        "review.eco.referral_criteria",
+        "review.eco.histos_handoff",
+        "review.tf.eco_clinical_safety",
+        "review.tf.consent_confidentiality",
+        "review.tf.feedback_freedom",
+        "review.sdo.clinical_boundary"
+      ]
+    },
+    {
+      "id": "route.eco.records",
+      "purpose": "Auditar hojas, registros y declaración de incertidumbre como instrumentos reproducibles.",
+      "triggers": [
+        "hoja ECO",
+        "DI-ECO",
+        "registro ECO",
+        "apéndices ECO"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.eco.f4.90-apendices",
+          "reason": "Contiene hoja de síntesis, registros modulares y DI-ECO."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.eco.navigation_consistency",
+        "review.eco.localization_vigency",
+        "review.eco.interrater_reliability"
+      ]
     }
   ],
   "review_queue": [
@@ -41152,7 +42304,10 @@
         "ev.sdo.f4.vii-1",
         "ev.sdo.f4.vii-3",
         "ev.sdo.f4.vii-4",
-        "ev.sdo.f4.viii-1"
+        "ev.sdo.f4.viii-1",
+        "ev.eco.f4.capitulo-p-1",
+        "ev.eco.f4.capitulo-p-2",
+        "ev.eco.f4.b-ii-i"
       ],
       "why_not_auto_resolved": "La escala combina niveles ontológicos y clínicos sin instrumento validado. MC-I fija una escala y reconoce a la vez que α no es directamente observable."
     },
@@ -41634,7 +42789,9 @@
       ],
       "evidence": [
         "ev.tf.52.origin_b",
-        "ev.tf.52.alpha_work"
+        "ev.tf.52.alpha_work",
+        "ev.eco.f4.capitulo-p-1",
+        "ev.eco.f4.bloque-iv-05"
       ],
       "why_not_auto_resolved": "Se ofrecen protocolos clínicos sin evidencia de validación, cualificación o evaluación de daño."
     },
@@ -41650,7 +42807,10 @@
       ],
       "evidence": [
         "ev.tf.51.ethics",
-        "ev.tf.52.ethics_confidentiality"
+        "ev.tf.52.ethics_confidentiality",
+        "ev.eco.f4.capitulo-p-3",
+        "ev.eco.f4.bloque-iv-04",
+        "ev.eco.f4.bloque-iv-05"
       ],
       "why_not_auto_resolved": "La obra enuncia límites éticos pero no define gobernanza, acceso ni conflicto institucional."
     },
@@ -41666,7 +42826,9 @@
       ],
       "evidence": [
         "ev.tf.43.limits",
-        "ev.tf.52.feedback"
+        "ev.tf.52.feedback",
+        "ev.eco.f4.bloque-iv-01",
+        "ev.eco.f4.bloque-iv-04"
       ],
       "why_not_auto_resolved": "La relación funcional convive con una tesis explícita de libertad irreductible."
     },
@@ -42612,7 +43774,9 @@
         "ev.mcii.a.conversion",
         "ev.calc.b.domains",
         "ev.sdo.f4.vii-1",
-        "ev.sdo.f4.vii-3"
+        "ev.sdo.f4.vii-3",
+        "ev.eco.f4.capitulo-p-2",
+        "ev.eco.f4.b-ii-i"
       ],
       "why_not_auto_resolved": "Los valores se presentan como escala operativa, pero no hay estudio de fiabilidad, validez ni función de enlace a observables. Las rutas y conversiones añaden reglas operativas no validadas y una suma máxima de .99. Los anclajes posteriores siguen sin datos de calibración."
     },
@@ -42632,7 +43796,10 @@
         "ev.mcii.i5.route_a",
         "ev.sdo.f4.vii-3",
         "ev.sdo.f4.vii-4",
-        "ev.sdo.f4.viii-2"
+        "ev.sdo.f4.viii-2",
+        "ev.eco.f4.capitulo-p-1",
+        "ev.eco.f4.capitulo-p-2",
+        "ev.eco.f4.b-ii-i"
       ],
       "why_not_auto_resolved": "MC-I reconoce que α no es observable y que la narrativa puede imitar integración; ECO se propone como mejor aproximación sin validación independiente. MC-II afirma observación directa de φ₂ sin estudio que adjudique la restricción previa de MC-I."
     },
@@ -43353,7 +44520,10 @@
         "ev.mcii.i5.route_a",
         "ev.mci.v4.alpha_limit",
         "ev.sdo.f4.vii-4",
-        "ev.sdo.f4.viii-2"
+        "ev.sdo.f4.viii-2",
+        "ev.eco.f4.capitulo-p-1",
+        "ev.eco.f4.capitulo-p-3",
+        "ev.eco.f4.b-ii-i"
       ],
       "why_not_auto_resolved": "MC-II afirma observación directa donde MC-I restringe la inferencia y no aporta fiabilidad ni validez del instrumento."
     },
@@ -45253,7 +46423,11 @@
       "evidence": [
         "ev.sdo.f4.vi-3",
         "ev.sdo.f4.viii-1",
-        "ev.sdo.f4.viii-2"
+        "ev.sdo.f4.viii-2",
+        "ev.eco.f4.capitulo-p-3",
+        "ev.eco.f4.capitulo-p-4",
+        "ev.eco.f4.capitulo-p-5",
+        "ev.eco.f4.b-ii-i"
       ],
       "why_not_auto_resolved": "Hay procedimiento y certeza, pero no estudio de concordancia, test-retest ni adjudicación independiente."
     },
@@ -45284,7 +46458,9 @@
       ],
       "evidence": [
         "ev.sdo.f4.vii-1",
-        "ev.sdo.f4.viii-1"
+        "ev.sdo.f4.viii-1",
+        "ev.eco.f4.capitulo-p-1",
+        "ev.eco.f4.capitulo-p-2"
       ],
       "why_not_auto_resolved": "Se especifican reglas de traducción, no identificación causal independiente."
     },
@@ -45348,7 +46524,10 @@
         "empirical_validation"
       ],
       "evidence": [
-        "ev.sdo.f4.vii-2"
+        "ev.sdo.f4.vii-2",
+        "ev.eco.f4.capitulo-p-4",
+        "ev.eco.f4.b-i-f",
+        "ev.eco.f4.b-i-h"
       ],
       "why_not_auto_resolved": "Los pesos se infieren por juicio contextual sin calibración, error ni concordancia."
     },
@@ -45367,7 +46546,9 @@
         "ev.sdo.f4.vi-3",
         "ev.sdo.f4.vii-3",
         "ev.sdo.f4.vii-4",
-        "ev.sdo.f4.viii-2"
+        "ev.sdo.f4.viii-2",
+        "ev.eco.f4.capitulo-p-1",
+        "ev.eco.f4.bloque-iv-05"
       ],
       "why_not_auto_resolved": "La delimitación es explícita, pero persisten lenguaje e inferencias de alcance clínico o cuasi-clínico."
     },
@@ -45418,6 +46599,278 @@
         "ev.sdo.f4.vii-4"
       ],
       "why_not_auto_resolved": "Los parámetros se usan prospectivamente sin modelo predictivo validado ni error de predicción."
+    },
+    {
+      "id": "review.eco.ep_calibration",
+      "subject": "method.eco.ep_scale",
+      "question": "¿Qué datos calibran los rangos numéricos EP-0–EP-8 y permiten interpretar niveles observacionales como pesos comparables?",
+      "status": "pending_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "instrument_validation",
+        "quantitative_application"
+      ],
+      "evidence": [
+        "ev.eco.f4.capitulo-p-4",
+        "ev.eco.f4.90-apendices"
+      ],
+      "why_not_auto_resolved": "La obra fija anclas y rangos por decisión instrumental, pero no aporta muestra, estimador, curva de calibración, error ni validación externa."
+    },
+    {
+      "id": "review.eco.p_hijos_semantics",
+      "subject": "formal.eco.p_hijos",
+      "question": "¿Los seis valores normalizados de P(Hijos) son probabilidades calibradas, grados de pertenencia, pesos de evidencia o una puntuación composicional?",
+      "status": "pending_formal_and_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "metrological_validation"
+      ],
+      "evidence": [
+        "ev.eco.f4.capitulo-p-1",
+        "ev.eco.f4.capitulo-p-4",
+        "ev.eco.f4.capitulo-p-5"
+      ],
+      "why_not_auto_resolved": "La notación P y el lenguaje de probabilidad conviven con asignación por juicio EP y normalización forzada; el estatuto probabilístico no queda identificado."
+    },
+    {
+      "id": "review.eco.interrater_reliability",
+      "subject": "method.eco.instrument",
+      "question": "¿Qué concordancia inter-mediador, estabilidad test-retest y sensibilidad al encuadre sostienen la replicabilidad declarada de ECO?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "instrument_validation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.eco.f4.capitulo-p-1",
+        "ev.eco.f4.capitulo-p-3",
+        "ev.eco.f4.capitulo-p-4"
+      ],
+      "why_not_auto_resolved": "La replicabilidad se declara como propiedad del instrumento, pero la fuente no aporta estudio de concordancia, estabilidad o error del operador."
+    },
+    {
+      "id": "review.eco.navigation_consistency",
+      "subject": "method.eco.navigation",
+      "question": "¿Cómo se reconcilian H-1 como ausencia tras administración completa, los SKIP que asignan H-1/EP-0 sin administración completa y los cierres que asignan peso residual a módulos marcados “?”?",
+      "status": "pending_internal_consistency_review",
+      "blocking": false,
+      "blocking_for": [
+        "instrument_implementation",
+        "formal_validation"
+      ],
+      "evidence": [
+        "ev.eco.f4.capitulo-p-4",
+        "ev.eco.f4.capitulo-p-5",
+        "ev.eco.f4.90-apendices"
+      ],
+      "why_not_auto_resolved": "P·4 distingue estrictamente evidencia negativa de ausencia de información; P·5 y hojas anexas permiten salidas que cruzan esa frontera y además contienen condiciones SKIP divergentes."
+    },
+    {
+      "id": "review.eco.harmonia_d2_validity",
+      "subject": "method.eco.harmonia_d2",
+      "question": "¿Qué evidencia valida que cinco preguntas en presencia distingan Harmonía de D-2, el umbral implícito de coherencia y la exclusividad de ECO para asignar P(Harmonía)>0?",
+      "status": "pending_empirical_and_methodological_review",
+      "blocking": false,
+      "blocking_for": [
+        "instrument_validation",
+        "clinical_scope"
+      ],
+      "evidence": [
+        "ev.eco.f4.b-i-h",
+        "ev.eco.f4.capitulo-p-5"
+      ],
+      "why_not_auto_resolved": "La obra formula una capacidad discriminante exclusiva y umbrales de administración sin estudio de sensibilidad, especificidad, criterio externo ni concordancia."
+    },
+    {
+      "id": "review.eco.administration_thresholds",
+      "subject": "method.eco.administration",
+      "question": "¿Qué evidencia sostiene tres administraciones supervisadas, duraciones mínimas por módulo, intervalos entre sesiones y umbrales temporales de validez?",
+      "status": "pending_source_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "training_standard",
+        "instrument_validation"
+      ],
+      "evidence": [
+        "ev.eco.f4.capitulo-p-3",
+        "ev.eco.f4.b-i-h"
+      ],
+      "why_not_auto_resolved": "Los valores se presentan como condiciones técnicas del instrumento sin fuente de calibración o ensayo comparativo."
+    },
+    {
+      "id": "review.eco.collective_sovereign_identification",
+      "subject": "method.eco.sovereign_identification",
+      "question": "¿Qué valida la identificación de un portador real de φ₂ colectivo mediante convergencia mínima de tres fuentes y cómo se distingue influencia, información y autoridad de segunda mediación?",
+      "status": "pending_methodological_and_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "collective_application",
+        "instrument_validation"
+      ],
+      "evidence": [
+        "ev.eco.f4.b-iii-1",
+        "ev.eco.f4.b-iii-2"
+      ],
+      "why_not_auto_resolved": "La regla de tres fuentes y el constructo de proximidad se prescriben sin criterio externo que identifique φ₂ colectivo."
+    },
+    {
+      "id": "review.eco.collective_crosswork",
+      "subject": "method.eco.collective",
+      "question": "¿El ego soberano/φ₂ colectivo operacionalizado por ECO corresponde al soberano colectivo de AA-IV, al colapso estatal de AA-V o a una construcción aplicada distinta?",
+      "status": "pending_authorial_adjudication",
+      "blocking": false,
+      "blocking_for": [
+        "crosswork_consistency",
+        "collective_application"
+      ],
+      "evidence": [
+        "ev.eco.f4.b-iii-1",
+        "ev.eco.f4.b-iii-3",
+        "ev.aa4.appendix3.sovereignty",
+        "ev.aa5.collapse.state"
+      ],
+      "why_not_auto_resolved": "ECO combina una figura portadora individual con ontologías colectivas previas que no fijan la misma relación entre sujeto, soberanía y voluntad colectiva."
+    },
+    {
+      "id": "review.eco.collective_proximity_weights",
+      "subject": "formal.eco.collective_weighting",
+      "question": "¿Qué datos calibran los factores 1.00, .60–.80, .35–.55, .15–.30 y .05–.10 de proximidad a φ₂?",
+      "status": "pending_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "quantitative_application",
+        "collective_application"
+      ],
+      "evidence": [
+        "ev.eco.f4.b-iii-3"
+      ],
+      "why_not_auto_resolved": "Los factores se publican como rangos operativos sin estimación, unidad, función de enlace ni evidencia de invariancia entre colectivos."
+    },
+    {
+      "id": "review.eco.collective_aggregation_validity",
+      "subject": "formal.eco.collective_weighting",
+      "question": "¿Bajo qué supuestos una media ponderada de localizaciones individuales representa un ego colectivo y cómo se justifican renormalización, aumento de EP por convergencia y umbral de divergencia .30?",
+      "status": "pending_formal_and_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "collective_application"
+      ],
+      "evidence": [
+        "ev.eco.f4.b-iii-3"
+      ],
+      "why_not_auto_resolved": "La obra rechaza promedio/moda por razones ontológicas y luego usa una media ponderada con ajustes discrecionales; faltan propiedades de agregación y validación del constructo colectivo."
+    },
+    {
+      "id": "review.eco.collective_artifact_ep",
+      "subject": "method.eco.collective_artifacts",
+      "question": "¿Qué valida los máximos EP asignados a grupos focales, juntas, documentos, cultura material y métricas como evidencia del ego colectivo?",
+      "status": "pending_metrological_and_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "collective_application",
+        "instrument_validation"
+      ],
+      "evidence": [
+        "ev.eco.f4.b-iii-4"
+      ],
+      "why_not_auto_resolved": "La jerarquía adapta E0–E8 sustituyendo proximidad al evento por proximidad a φ₂, pero no aporta estudio que funde esa equivalencia ni los niveles máximos."
+    },
+    {
+      "id": "review.eco.focus_group_validity",
+      "subject": "method.eco.collective_artifacts",
+      "question": "¿Cuándo la dinámica de un grupo focal reproduce al ego colectivo y no una muestra situacional, efecto del observador, jerarquía de participantes o performance institucional?",
+      "status": "pending_methodological_review",
+      "blocking": false,
+      "blocking_for": [
+        "collective_application",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.eco.f4.b-iii-4"
+      ],
+      "why_not_auto_resolved": "La obra afirma reproducción en tiempo real del ego colectivo con composición prescrita, sin identificación independiente del constructo ni control del efecto del mediador."
+    },
+    {
+      "id": "review.eco.community_memory_inference",
+      "subject": "method.eco.community_memory",
+      "question": "¿Qué permite inferir retrospectivamente P(Hijos), ejes y “lo que pudo ser” de un ego colectivo pasado sin confundir memoria, narrativa, selección de supervivientes y contrafácticos no identificados?",
+      "status": "pending_epistemic_and_source_review",
+      "blocking": false,
+      "blocking_for": [
+        "historical_application",
+        "collective_application"
+      ],
+      "evidence": [
+        "ev.eco.f4.b-iii-5"
+      ],
+      "why_not_auto_resolved": "La triangulación propuesta ordena fuentes por EP, pero no identifica el estado histórico de la voluntad ni el contrafáctico cancelado de manera independiente."
+    },
+    {
+      "id": "review.eco.nonlabel_transparency",
+      "subject": "method.eco.intervention_boundary",
+      "question": "¿Cómo se compatibiliza el principio de no revelar la localización con consentimiento informado, acceso del sujeto a información sobre el proceso y prevención de influencia asimétrica del mediador?",
+      "status": "pending_ethics_and_governance_review",
+      "blocking": false,
+      "blocking_for": [
+        "ethical_application",
+        "clinical_application"
+      ],
+      "evidence": [
+        "ev.eco.f4.bloque-iv-01",
+        "ev.eco.f4.bloque-iv-02",
+        "ev.eco.f4.bloque-iv-04"
+      ],
+      "why_not_auto_resolved": "La obra justifica el no-etiquetado ontológicamente y ofrece respuestas parciales si el sujeto pregunta, pero no fija un régimen de acceso, documentación y revisión por el sujeto."
+    },
+    {
+      "id": "review.eco.referral_criteria",
+      "subject": "method.eco.referral",
+      "question": "¿Qué estándares clínicos, jurídicos y de crisis sustentan los criterios urgentes/programados, umbrales temporales y recomendaciones terapéuticas concretas de derivación?",
+      "status": "pending_clinical_and_legal_scope_review",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_application",
+        "safety_protocol",
+        "legal_application"
+      ],
+      "evidence": [
+        "ev.eco.f4.bloque-iv-05"
+      ],
+      "why_not_auto_resolved": "La obra incluye señales y acciones de alto impacto —suicidio, psicosis, manía, trauma, duelo prolongado, violencia y terapias nominadas— sin aparato normativo o clínico verificable en el corpus."
+    },
+    {
+      "id": "review.eco.localization_vigency",
+      "subject": "method.eco.records",
+      "question": "¿Qué evidencia sostiene vigencias de seis meses, tres meses u otros horizontes para reutilizar una localización ECO sin re-administración?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "instrument_validation",
+        "longitudinal_application"
+      ],
+      "evidence": [
+        "ev.eco.f4.bloque-iv-03",
+        "ev.eco.f4.90-apendices"
+      ],
+      "why_not_auto_resolved": "Los horizontes se registran como reglas del instrumento sin datos longitudinales sobre estabilidad de las localizaciones."
+    },
+    {
+      "id": "review.eco.histos_handoff",
+      "subject": "method.eco.intervention_boundary",
+      "question": "¿Qué valida como condiciones necesarias de paso a Histos la certeza en Eje I/P(Hijos), una señal V-1 y orientación volitiva del sujeto, y qué estatuto tienen las intervenciones derivadas por código?",
+      "status": "pending_methodological_review",
+      "blocking": false,
+      "blocking_for": [
+        "intervention_application",
+        "crosswork_consistency"
+      ],
+      "evidence": [
+        "ev.eco.f4.bloque-iv-04"
+      ],
+      "why_not_auto_resolved": "Las condiciones de transferencia y las consecuencias por código se presentan como protocolo de intervención; su eficacia y necesidad deberán contrastarse con Histos y evidencia de aplicación."
     }
   ],
   "tests": [
