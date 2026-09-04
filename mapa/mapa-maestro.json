@@ -1,5 +1,5 @@
 {
-  "map_version": "2.4.0",
+  "map_version": "2.5.0",
   "schema_status": "frozen",
   "phase": "F4",
   "purpose": "Mapa maestro de Paradigma. Orienta desde preguntas o tareas hacia el contexto pertinente del corpus y no sustituye su lectura.",
@@ -11635,6 +11635,501 @@
       ],
       "section": "Apéndice E · glosario por dominio",
       "evidence_type": "translation_table"
+    },
+    {
+      "id": "ev.sdo.f4.00-preliminares",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/00-preliminares.md",
+      "source_lines": [
+        1,
+        455
+      ],
+      "section": "00-preliminares",
+      "evidence_type": "work_scope"
+    },
+    {
+      "id": "ev.sdo.f4.pi-1",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/pi-1.md",
+      "source_lines": [
+        456,
+        995
+      ],
+      "section": "PI·1",
+      "evidence_type": "conceptual_foundation"
+    },
+    {
+      "id": "ev.sdo.f4.pi-2",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/pi-2.md",
+      "source_lines": [
+        996,
+        1531
+      ],
+      "section": "PI·2",
+      "evidence_type": "conceptual_foundation"
+    },
+    {
+      "id": "ev.sdo.f4.pi-3",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/pi-3.md",
+      "source_lines": [
+        1532,
+        2036
+      ],
+      "section": "PI·3",
+      "evidence_type": "conceptual_foundation"
+    },
+    {
+      "id": "ev.sdo.f4.pi-4",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/pi-4.md",
+      "source_lines": [
+        2037,
+        2565
+      ],
+      "section": "PI·4",
+      "evidence_type": "conceptual_foundation"
+    },
+    {
+      "id": "ev.sdo.f4.pi-5",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/pi-5.md",
+      "source_lines": [
+        2566,
+        3089
+      ],
+      "section": "PI·5",
+      "evidence_type": "conceptual_foundation"
+    },
+    {
+      "id": "ev.sdo.f4.pi-6",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/pi-6.md",
+      "source_lines": [
+        3090,
+        3605
+      ],
+      "section": "PI·6",
+      "evidence_type": "conceptual_foundation"
+    },
+    {
+      "id": "ev.sdo.f4.pi-7",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/pi-7.md",
+      "source_lines": [
+        3606,
+        4149
+      ],
+      "section": "PI·7",
+      "evidence_type": "conceptual_foundation"
+    },
+    {
+      "id": "ev.sdo.f4.pi-8",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/pi-8.md",
+      "source_lines": [
+        4150,
+        4615
+      ],
+      "section": "PI·8",
+      "evidence_type": "conceptual_foundation"
+    },
+    {
+      "id": "ev.sdo.f4.i-0",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/i-0.md",
+      "source_lines": [
+        4616,
+        5202
+      ],
+      "section": "I·0",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.i-e-1",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/i-e-1.md",
+      "source_lines": [
+        5203,
+        5854
+      ],
+      "section": "I·E-1",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.i-e-2",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/i-e-2.md",
+      "source_lines": [
+        5855,
+        6604
+      ],
+      "section": "I·E-2",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.i-e-3",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/i-e-3.md",
+      "source_lines": [
+        6605,
+        7310
+      ],
+      "section": "I·E-3",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.i-e-4",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/i-e-4.md",
+      "source_lines": [
+        7311,
+        8074
+      ],
+      "section": "I·E-4",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.i-e-5",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/i-e-5.md",
+      "source_lines": [
+        8075,
+        8787
+      ],
+      "section": "I·E-5",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.ii-0",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/ii-0.md",
+      "source_lines": [
+        9376,
+        9889
+      ],
+      "section": "II·0",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.ii-m-1",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/ii-m-1.md",
+      "source_lines": [
+        9890,
+        10456
+      ],
+      "section": "II·M-1",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.ii-m-2",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/ii-m-2.md",
+      "source_lines": [
+        10457,
+        11091
+      ],
+      "section": "II·M-2",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.ii-m-3",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/ii-m-3.md",
+      "source_lines": [
+        11092,
+        11663
+      ],
+      "section": "II·M-3",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.iii-0",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/iii-0.md",
+      "source_lines": [
+        11664,
+        12221
+      ],
+      "section": "III·0",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.iii-v-1",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/iii-v-1.md",
+      "source_lines": [
+        12222,
+        12834
+      ],
+      "section": "III·V-1",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.iii-v-2",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/iii-v-2.md",
+      "source_lines": [
+        12835,
+        13458
+      ],
+      "section": "III·V-2",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.iii-v-3",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/iii-v-3.md",
+      "source_lines": [
+        13459,
+        14088
+      ],
+      "section": "III·V-3",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.iv-0",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/iv-0.md",
+      "source_lines": [
+        14089,
+        14547
+      ],
+      "section": "IV·0",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.iv-d-1",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/iv-d-1.md",
+      "source_lines": [
+        14548,
+        15177
+      ],
+      "section": "IV·D-1",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.iv-d-2",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/iv-d-2.md",
+      "source_lines": [
+        15178,
+        16052
+      ],
+      "section": "IV·D-2",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.v-0",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/v-0.md",
+      "source_lines": [
+        16053,
+        16698
+      ],
+      "section": "V·0",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.v-t-0",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/v-t-0.md",
+      "source_lines": [
+        16699,
+        17424
+      ],
+      "section": "V·T-0",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.v-t-1",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/v-t-1.md",
+      "source_lines": [
+        17425,
+        18205
+      ],
+      "section": "V·T-1",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.v-t-2",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/v-t-2.md",
+      "source_lines": [
+        18206,
+        19025
+      ],
+      "section": "V·T-2",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.v-t-3",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/v-t-3.md",
+      "source_lines": [
+        19026,
+        19820
+      ],
+      "section": "V·T-3",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.v-t-4",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/v-t-4.md",
+      "source_lines": [
+        19821,
+        20607
+      ],
+      "section": "V·T-4",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.v-t-5",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/v-t-5.md",
+      "source_lines": [
+        20608,
+        21301
+      ],
+      "section": "V·T-5",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.v-t-6",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/v-t-6.md",
+      "source_lines": [
+        21302,
+        22028
+      ],
+      "section": "V·T-6",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.v-t-ext",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/v-t-ext.md",
+      "source_lines": [
+        22029,
+        22737
+      ],
+      "section": "V·T-ext",
+      "evidence_type": "instrument_category_definition"
+    },
+    {
+      "id": "ev.sdo.f4.vi-1",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/vi-1.md",
+      "source_lines": [
+        22738,
+        23435
+      ],
+      "section": "VI·1",
+      "evidence_type": "systemic_logic"
+    },
+    {
+      "id": "ev.sdo.f4.vi-2",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/vi-2.md",
+      "source_lines": [
+        23436,
+        24066
+      ],
+      "section": "VI·2",
+      "evidence_type": "authorial_practice_claims"
+    },
+    {
+      "id": "ev.sdo.f4.vi-3",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/vi-3.md",
+      "source_lines": [
+        24067,
+        24624
+      ],
+      "section": "VI·3",
+      "evidence_type": "operational_protocol"
+    },
+    {
+      "id": "ev.sdo.f4.vii-1",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/vii-1.md",
+      "source_lines": [
+        24625,
+        25196
+      ],
+      "section": "VII·1",
+      "evidence_type": "instrument_interface"
+    },
+    {
+      "id": "ev.sdo.f4.vii-2",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/vii-2.md",
+      "source_lines": [
+        25197,
+        25881
+      ],
+      "section": "VII·2",
+      "evidence_type": "quantitative_operationalization"
+    },
+    {
+      "id": "ev.sdo.f4.vii-3",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/vii-3.md",
+      "source_lines": [
+        25882,
+        26565
+      ],
+      "section": "VII·3",
+      "evidence_type": "trajectory_model"
+    },
+    {
+      "id": "ev.sdo.f4.vii-4",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/vii-4.md",
+      "source_lines": [
+        26566,
+        27276
+      ],
+      "section": "VII·4",
+      "evidence_type": "trauma_operationalization"
+    },
+    {
+      "id": "ev.sdo.f4.viii-1",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/viii-1.md",
+      "source_lines": [
+        27277,
+        27750
+      ],
+      "section": "VIII·1",
+      "evidence_type": "instrument_template"
+    },
+    {
+      "id": "ev.sdo.f4.viii-2",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/viii-2.md",
+      "source_lines": [
+        27751,
+        28447
+      ],
+      "section": "VIII·2",
+      "evidence_type": "interview_protocol"
+    },
+    {
+      "id": "ev.sdo.f4.viii-3",
+      "work_id": "SDO",
+      "segment": "corpus/libros/sdo/viii-3.md",
+      "source_lines": [
+        28448,
+        29039
+      ],
+      "section": "VIII·3",
+      "evidence_type": "self_application_instrument"
     }
   ],
   "nodes": [
@@ -22090,6 +22585,160 @@
         "ev.calc.d.core"
       ],
       "evidence_status": "inferred"
+    },
+    {
+      "id": "method.sdo.localization",
+      "kind": "method",
+      "label": "Protocolo de localización SDO",
+      "summary": "Procedimiento interpretativo y actualizable: escucha sin localizar, preguntas por ejes, confirmación/contrastación y perfil de cuatro o cinco coordenadas para orientar acompañamiento.",
+      "evidence": [
+        "ev.sdo.f4.vi-3",
+        "ev.sdo.f4.viii-2"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.sdo.nonclinical_scope",
+      "kind": "formulation",
+      "label": "Delimitación no clínica del SDO",
+      "summary": "La obra declara que localiza posiciones actuales de la voluntad y no produce diagnóstico clínico, juicio, etiqueta permanente ni pronóstico; extiende esa delimitación a trauma y autolocalización.",
+      "evidence": [
+        "ev.sdo.f4.vi-3",
+        "ev.sdo.f4.vii-4",
+        "ev.sdo.f4.viii-2",
+        "ev.sdo.f4.viii-3"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.sdo.five_axis_profile",
+      "kind": "formulation",
+      "label": "Perfil SDO de cinco ejes",
+      "summary": "Eje I E-1–E-6, Eje II M-1–M-3, Eje III V-1–V-3, Eje IV D-1–D-2 y Eje V T-0–T-6/T-ext cuando existe pérdida; la localización escrita combina cuatro o cinco coordenadas.",
+      "evidence": [
+        "ev.sdo.f4.i-0",
+        "ev.sdo.f4.ii-0",
+        "ev.sdo.f4.iii-0",
+        "ev.sdo.f4.iv-0",
+        "ev.sdo.f4.v-0",
+        "ev.sdo.f4.vi-3"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.sdo.constellations",
+      "kind": "formulation",
+      "label": "Constelaciones y relaciones sistémicas SDO",
+      "role": "authorial_practice_claim",
+      "summary": "Presenta combinaciones de códigos como frecuentes o regulares en la práctica, afirma tendencias entre ejes y deriva direcciones de trabajo, negando que sean leyes deterministas.",
+      "evidence": [
+        "ev.sdo.f4.vi-1",
+        "ev.sdo.f4.vi-2"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.sdo.prometeo_bridge",
+      "kind": "method",
+      "label": "Interfaz SDO → grafo → Prometeo",
+      "summary": "Convierte la localización cualitativa en especificación de nodos y aristas de un grafo y atribuye a Prometeo el cálculo posterior de R*, α y Δ; se registra como regla metodológica declarada, no validación causal.",
+      "evidence": [
+        "ev.sdo.f4.vii-1",
+        "ev.sdo.f4.viii-1"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.sdo.alpha_reinterpretation",
+      "kind": "formulation",
+      "label": "Reinterpretación SDO de α",
+      "subject": "formal.alpha",
+      "role": "historical_parameter_reinterpretation",
+      "summary": "SDO describe α como capacidad/proporción de integración genuina y la usa para estimar rapidez o accesibilidad del cambio, distinto del coeficiente de asunción formalizado previamente.",
+      "evidence": [
+        "ev.sdo.f4.vii-1",
+        "ev.sdo.f4.vii-3",
+        "ev.sdo.f4.vii-4"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.sdo.delta_reinterpretation",
+      "kind": "formulation",
+      "label": "Reinterpretación SDO de Δ",
+      "subject": "formal.delta",
+      "role": "historical_parameter_reinterpretation",
+      "summary": "SDO usa Δ como magnitud retrospectiva/prospectiva de cambio y variación temporal de nodos, sin conservar establemente Δ=R*−α auditada en F3.",
+      "evidence": [
+        "ev.sdo.f4.vii-1",
+        "ev.sdo.f4.vii-4"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formal.sdo.alpha_T",
+      "kind": "formal",
+      "label": "Coeficiente tanatológico α_T",
+      "summary": "Razón entre incremento genuino asumido en I(t) y exposición a la pérdida, usada para caracterizar amortiguación y proyección de trayectorias de duelo.",
+      "content": {
+        "expression": "α_T = ΔI(t)_genuina_asumida / exposición_a_la_pérdida",
+        "claimed_range": "0..1",
+        "status": "authorial_operationalization"
+      },
+      "evidence": [
+        "ev.sdo.f4.vii-3"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.sdo.children_weights",
+      "kind": "method",
+      "label": "Cuantificación SDO de Hijos de Afrodita",
+      "summary": "Parte de manifestaciones observables indirectas, identifica hijos activos, estima intensidad relativa, aplica factores contextuales y normaliza un vector de seis pesos a suma 1.00.",
+      "evidence": [
+        "ev.sdo.f4.vii-2"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "formulation.sdo.trauma",
+      "kind": "formulation",
+      "label": "Trauma como bloqueo cuantificable de φ₂",
+      "summary": "Sin asumir diagnóstico clínico, reformula trauma como bloqueo sostenido/selectivo de φ₂ y le atribuye nodo causal, R*, α y Δ propios y trayectorias diferenciales.",
+      "evidence": [
+        "ev.sdo.f4.vii-4"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.sdo.form_sheet",
+      "kind": "method",
+      "label": "Ficha de Formulación SDO",
+      "summary": "Registro estándar/extendido de códigos, señales observadas, certeza, dirección e indicadores; la versión extendida añade nodos/aristas y campos R*, α y Δ, separando señal e inferencia.",
+      "evidence": [
+        "ev.sdo.f4.viii-1"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.sdo.interview",
+      "kind": "method",
+      "label": "Entrevista estructurada de localización",
+      "summary": "Guía adaptable por ejes que combina contenido verbal con presencia interna, perplejidad, coherencia temporal y reactividad corporal; no se presenta como cuestionario mecánico ni entrevista clínica.",
+      "evidence": [
+        "ev.sdo.f4.viii-2"
+      ],
+      "evidence_status": "explicit"
+    },
+    {
+      "id": "method.sdo.self_localization",
+      "kind": "method",
+      "label": "Cuaderno de autolocalización SDO",
+      "summary": "Autoaplicación por preguntas y lectura personal de cinco dimensiones sin mediador; declara no ser test, diagnóstico ni sustituto del acompañamiento.",
+      "evidence": [
+        "ev.sdo.f4.viii-3"
+      ],
+      "evidence_status": "explicit"
     }
   ],
   "relations": [
@@ -29037,6 +29686,195 @@
         "ev.calc.d.core"
       ],
       "rationale": "La prueba reproduce literalmente tres matrices publicadas y muestra colapso de la normalización bajo ambas orientaciones, sin proponer una matriz alternativa."
+    },
+    {
+      "id": "rel.sdo.localization.uses_phi2",
+      "type": "uses",
+      "from": "method.sdo.localization",
+      "to": "formal.phi2",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.sdo.f4.vi-3"
+      ]
+    },
+    {
+      "id": "rel.sdo.localization.uses_aego",
+      "type": "uses",
+      "from": "method.sdo.localization",
+      "to": "formulation.aego.sdo",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.sdo.f4.vi-3",
+        "ev.sdo.aego"
+      ]
+    },
+    {
+      "id": "rel.sdo.scope.qualifies_localization",
+      "type": "qualifies",
+      "from": "formulation.sdo.nonclinical_scope",
+      "to": "method.sdo.localization",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.sdo.f4.vi-3"
+      ]
+    },
+    {
+      "id": "rel.sdo.profile.operationalizes_phi2",
+      "type": "operationalizes",
+      "from": "formulation.sdo.five_axis_profile",
+      "to": "formal.phi2",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.sdo.f4.i-0",
+        "ev.sdo.f4.vi-3"
+      ]
+    },
+    {
+      "id": "rel.sdo.constellations.uses_profile",
+      "type": "uses",
+      "from": "formulation.sdo.constellations",
+      "to": "formulation.sdo.five_axis_profile",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.sdo.f4.vi-1",
+        "ev.sdo.f4.vi-2"
+      ]
+    },
+    {
+      "id": "rel.sdo.bridge.maps_graph",
+      "type": "maps_to",
+      "from": "method.sdo.prometeo_bridge",
+      "to": "formal.G",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.sdo.f4.vii-1",
+        "ev.sdo.f4.viii-1"
+      ]
+    },
+    {
+      "id": "rel.sdo.bridge.uses_rstar",
+      "type": "uses",
+      "from": "method.sdo.prometeo_bridge",
+      "to": "formal.rstar",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.sdo.f4.vii-1"
+      ]
+    },
+    {
+      "id": "rel.sdo.bridge.uses_alpha",
+      "type": "uses",
+      "from": "method.sdo.prometeo_bridge",
+      "to": "formal.alpha",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.sdo.f4.vii-1"
+      ]
+    },
+    {
+      "id": "rel.sdo.bridge.uses_delta",
+      "type": "uses",
+      "from": "method.sdo.prometeo_bridge",
+      "to": "formal.delta",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.sdo.f4.vii-1"
+      ]
+    },
+    {
+      "id": "rel.sdo.alpha.reframes_formal",
+      "type": "reframes",
+      "from": "formulation.sdo.alpha_reinterpretation",
+      "to": "formal.alpha",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.sdo.f4.vii-1",
+        "ev.sdo.f4.vii-3"
+      ],
+      "rationale": "SDO reutiliza α con semántica operativa distinta; se registra relación histórica sin adjudicar equivalencia formal."
+    },
+    {
+      "id": "rel.sdo.delta.reframes_formal",
+      "type": "reframes",
+      "from": "formulation.sdo.delta_reinterpretation",
+      "to": "formal.delta",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.sdo.f4.vii-1",
+        "ev.sdo.f4.vii-4"
+      ],
+      "rationale": "SDO reutiliza Δ como cambio temporal/proyectado; no se identifica automáticamente con las definiciones formales previas."
+    },
+    {
+      "id": "rel.sdo.alphaT.extends_alpha",
+      "type": "extends",
+      "from": "formal.sdo.alpha_T",
+      "to": "formulation.sdo.alpha_reinterpretation",
+      "evidence_status": "inferred",
+      "evidence": [
+        "ev.sdo.f4.vii-3"
+      ],
+      "rationale": "α_T se presenta como especialización tanatológica de la capacidad de integración SDO, no como teorema derivado del α formal previo."
+    },
+    {
+      "id": "rel.sdo.trauma.operationalizes_phi2",
+      "type": "operationalizes",
+      "from": "formulation.sdo.trauma",
+      "to": "formal.phi2",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.sdo.f4.vii-4"
+      ]
+    },
+    {
+      "id": "rel.sdo.trauma.maps_graph",
+      "type": "maps_to",
+      "from": "formulation.sdo.trauma",
+      "to": "formal.G",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.sdo.f4.vii-4"
+      ]
+    },
+    {
+      "id": "rel.sdo.form_sheet.uses_localization",
+      "type": "uses",
+      "from": "method.sdo.form_sheet",
+      "to": "method.sdo.localization",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.sdo.f4.viii-1"
+      ]
+    },
+    {
+      "id": "rel.sdo.form_sheet.uses_bridge",
+      "type": "uses",
+      "from": "method.sdo.form_sheet",
+      "to": "method.sdo.prometeo_bridge",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.sdo.f4.viii-1"
+      ]
+    },
+    {
+      "id": "rel.sdo.interview.operationalizes_localization",
+      "type": "operationalizes",
+      "from": "method.sdo.interview",
+      "to": "method.sdo.localization",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.sdo.f4.viii-2"
+      ]
+    },
+    {
+      "id": "rel.sdo.self_localization.adapts_interview",
+      "type": "adapts",
+      "from": "method.sdo.self_localization",
+      "to": "method.sdo.interview",
+      "evidence_status": "explicit",
+      "evidence": [
+        "ev.sdo.f4.viii-3"
+      ]
     }
   ],
   "routes": [
@@ -37276,6 +38114,153 @@
         "review.calc.delta_history",
         "review.calc.IIC_scale"
       ]
+    },
+    {
+      "id": "route.sdo.localization",
+      "purpose": "Reconstruir la localización SDO como procedimiento interpretativo actualizable sin confundir código con diagnóstico clínico ni esencia.",
+      "triggers": [
+        "SDO",
+        "localización",
+        "cinco ejes",
+        "entrevista de localización"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.sdo.f4.i-0",
+          "reason": "Eje I fija primera coordenada."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.sdo.f4.vi-3",
+          "reason": "Protocolo de escucha, preguntas y contrastación."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.sdo.f4.viii-1",
+          "reason": "Ficha separa señal, inferencia, certeza y seguimiento."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.sdo.f4.viii-2",
+          "reason": "Entrevista operacionaliza preguntas y señales."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.sdo.coding_reproducibility",
+        "review.sdo.clinical_boundary",
+        "review.sdo.self_application_validity"
+      ]
+    },
+    {
+      "id": "route.sdo.systemic_claims",
+      "purpose": "Leer constelaciones y relaciones entre ejes como afirmaciones autorales de práctica, no frecuencias o causalidad validadas.",
+      "triggers": [
+        "constelaciones SDO",
+        "configuraciones frecuentes",
+        "relaciones entre ejes"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.sdo.f4.vi-1",
+          "reason": "Relaciones sistémicas y excepciones."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.sdo.f4.vi-2",
+          "reason": "Constelaciones frecuentes, señales y dirección."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.sdo.constellation_evidence",
+        "review.sdo.coding_reproducibility"
+      ]
+    },
+    {
+      "id": "route.sdo.prometeo_interface",
+      "purpose": "Seguir SDO → grafo → Prometeo preservando versiones históricas y límites de R*, α y Δ.",
+      "triggers": [
+        "SDO Prometeo",
+        "grafo SDO",
+        "R* α Δ SDO",
+        "α_T",
+        "Hijos de Afrodita pesos"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.sdo.f4.vii-1",
+          "reason": "Interfaz grafo/parametrización."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.sdo.f4.vii-2",
+          "reason": "Pesos de Hijos desde observación indirecta."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.sdo.f4.vii-3",
+          "reason": "α_T y trayectoria de duelo."
+        },
+        {
+          "order": 4,
+          "evidence_id": "ev.sdo.f4.vii-4",
+          "reason": "R*, α y Δ aplicados al bloqueo traumático."
+        },
+        {
+          "order": 5,
+          "evidence_id": "ev.mci.rstar_validity",
+          "reason": "F3 conserva límites formales de R*."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.sdo.code_to_graph_validity",
+        "review.sdo.alpha_semantics",
+        "review.sdo.delta_semantics",
+        "review.sdo.alphaT_validation",
+        "review.sdo.children_weight_calibration",
+        "review.sdo.prognostic_claims",
+        "review.tf.alpha_measurement",
+        "review.tf.alpha_comparability",
+        "review.mci.alpha_calibration",
+        "review.mci.delta_crosswork",
+        "review.calc.delta_history",
+        "review.rstar.sink_irreducibility"
+      ]
+    },
+    {
+      "id": "route.sdo.instruments",
+      "purpose": "Distinguir ficha, entrevista y autolocalización de las afirmaciones ontológicas y de cualquier validación clínica o empírica.",
+      "triggers": [
+        "Ficha SDO",
+        "entrevista SDO",
+        "autolocalización SDO",
+        "instrumentos SDO"
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "evidence_id": "ev.sdo.f4.viii-1",
+          "reason": "Ficha estándar y extendida."
+        },
+        {
+          "order": 2,
+          "evidence_id": "ev.sdo.f4.viii-2",
+          "reason": "Entrevista y señales."
+        },
+        {
+          "order": 3,
+          "evidence_id": "ev.sdo.f4.viii-3",
+          "reason": "Autoaplicación y límites."
+        }
+      ],
+      "must_surface_review_items": [
+        "review.sdo.coding_reproducibility",
+        "review.sdo.clinical_boundary",
+        "review.sdo.self_application_validity",
+        "review.mcii.instrument_validity"
+      ]
     }
   ],
   "review_queue": [
@@ -38883,7 +39868,8 @@
       "evidence": [
         "ev.mask.grief.definition",
         "ev.mask.grief.types_threshold",
-        "ev.mask.dysphoria.modes"
+        "ev.mask.dysphoria.modes",
+        "ev.sdo.f4.vii-3"
       ]
     },
     {
@@ -39904,7 +40890,8 @@
       "evidence": [
         "ev.tf.11.isomorphism",
         "ev.tf.12.proposition",
-        "ev.tf.epilogue.claimed_proof"
+        "ev.tf.epilogue.claimed_proof",
+        "ev.sdo.f4.vii-1"
       ],
       "why_not_auto_resolved": "El texto denomina prueba a su reconstrucción ontológica, pero no ofrece demostración formal independiente."
     },
@@ -39920,7 +40907,8 @@
       ],
       "evidence": [
         "ev.tf.11.isomorphism",
-        "ev.tf.correspondencias"
+        "ev.tf.correspondencias",
+        "ev.sdo.f4.vii-1"
       ],
       "why_not_auto_resolved": "Se afirma identidad sin definir estructuras, morfismos ni preservación."
     },
@@ -40160,7 +41148,11 @@
         "ev.tf.23.alpha_scale",
         "ev.tf.43.instrument_boundaries",
         "ev.mci.ii12.alpha",
-        "ev.mci.v4.alpha_limit"
+        "ev.mci.v4.alpha_limit",
+        "ev.sdo.f4.vii-1",
+        "ev.sdo.f4.vii-3",
+        "ev.sdo.f4.vii-4",
+        "ev.sdo.f4.viii-1"
       ],
       "why_not_auto_resolved": "La escala combina niveles ontológicos y clínicos sin instrumento validado. MC-I fija una escala y reconoce a la vez que α no es directamente observable."
     },
@@ -40177,7 +41169,8 @@
       "evidence": [
         "ev.tf.11.rstar_delta",
         "ev.tf.12.parameter_status",
-        "ev.calc.b.domains"
+        "ev.calc.b.domains",
+        "ev.sdo.f4.vii-1"
       ],
       "why_not_auto_resolved": "R* surge de una red normalizada y α de una escala interior no calibrada. La obra extiende α a 18 dominios sin invariancia metrológica."
     },
@@ -40228,7 +41221,9 @@
       ],
       "evidence": [
         "ev.tf.24.sdo_criteria",
-        "ev.tf.24.aego_ethics"
+        "ev.tf.24.aego_ethics",
+        "ev.sdo.f4.vi-3",
+        "ev.sdo.f4.vii-4"
       ],
       "why_not_auto_resolved": "La analogía cruza dominios sin validación clínica ni jurídica aportada."
     },
@@ -41615,7 +42610,9 @@
         "ev.mcii.i5.route_a",
         "ev.mcii.i5.route_b",
         "ev.mcii.a.conversion",
-        "ev.calc.b.domains"
+        "ev.calc.b.domains",
+        "ev.sdo.f4.vii-1",
+        "ev.sdo.f4.vii-3"
       ],
       "why_not_auto_resolved": "Los valores se presentan como escala operativa, pero no hay estudio de fiabilidad, validez ni función de enlace a observables. Las rutas y conversiones añaden reglas operativas no validadas y una suma máxima de .99. Los anclajes posteriores siguen sin datos de calibración."
     },
@@ -41632,7 +42629,10 @@
       "evidence": [
         "ev.mci.v4.alpha_limit",
         "ev.mcii.i3.eco_graph",
-        "ev.mcii.i5.route_a"
+        "ev.mcii.i5.route_a",
+        "ev.sdo.f4.vii-3",
+        "ev.sdo.f4.vii-4",
+        "ev.sdo.f4.viii-2"
       ],
       "why_not_auto_resolved": "MC-I reconoce que α no es observable y que la narrativa puede imitar integración; ECO se propone como mejor aproximación sin validación independiente. MC-II afirma observación directa de φ₂ sin estudio que adjudique la restricción previa de MC-I."
     },
@@ -41653,7 +42653,9 @@
         "ev.axiom.5.delta",
         "ev.mcii.iv4.delta",
         "ev.mcii.a.conversion",
-        "ev.calc.e.core"
+        "ev.calc.e.core",
+        "ev.sdo.f4.vii-1",
+        "ev.sdo.f4.vii-4"
       ],
       "why_not_auto_resolved": "Las expresiones tienen distinto rango y signo; MC-I reutiliza la versión de TF sin adjudicar la sustitución axiomática. MC-II preserva R*(1−α), conserva casos negativos imposibles y además introduce Δ_sesión con otra firma. El cálculo adopta explícitamente Δ=R*−α, nueva versión histórica sin adjudicar las multiplicativas."
     },
@@ -42349,7 +43351,9 @@
       "evidence": [
         "ev.mcii.i3.eco_graph",
         "ev.mcii.i5.route_a",
-        "ev.mci.v4.alpha_limit"
+        "ev.mci.v4.alpha_limit",
+        "ev.sdo.f4.vii-4",
+        "ev.sdo.f4.viii-2"
       ],
       "why_not_auto_resolved": "MC-II afirma observación directa donde MC-I restringe la inferencia y no aporta fiabilidad ni validez del instrumento."
     },
@@ -43100,7 +44104,10 @@
       ],
       "evidence": [
         "ev.mcii.a.forms",
-        "ev.mcii.a.parameters"
+        "ev.mcii.a.parameters",
+        "ev.sdo.f4.viii-1",
+        "ev.sdo.f4.viii-2",
+        "ev.sdo.f4.viii-3"
       ],
       "why_not_auto_resolved": "Se presentan como listos para campo, pero no hay estudio piloto, manual de codificación, acuerdo interobservador ni propiedades métricas."
     },
@@ -43401,7 +44408,10 @@
         "ev.calc.c01.2",
         "ev.calc.c05.2",
         "ev.calc.c06.2",
-        "ev.calc.b.domains"
+        "ev.calc.b.domains",
+        "ev.sdo.f4.vii-1",
+        "ev.sdo.f4.vii-3",
+        "ev.sdo.f4.vii-4"
       ],
       "why_not_auto_resolved": "Las escalas comparten [0,1] pero no instrumento, unidad o invariancia."
     },
@@ -43419,7 +44429,9 @@
         "ev.calc.c01.2",
         "ev.calc.e.core",
         "ev.mci.ii14.delta",
-        "ev.mcii.iv4.delta"
+        "ev.mcii.iv4.delta",
+        "ev.sdo.f4.vii-1",
+        "ev.sdo.f4.vii-4"
       ],
       "why_not_auto_resolved": "La obra adopta la resta; las obras metrológicas mantienen fórmulas multiplicativas y otra resta observador/participante.",
       "related_relation": "rel.calc.delta.redefines_mci"
@@ -44227,6 +45239,185 @@
         "ev.calc.d.core"
       ],
       "why_not_auto_resolved": "Las tres reconstrucciones literales tienen radio espectral cero y la suma del iterado colapsa a cero bajo W y Wᵀ; el corpus no documenta teleportación, cierre de ciclos, eliminación del sumidero ni otro operador que genere los porcentajes."
+    },
+    {
+      "id": "review.sdo.coding_reproducibility",
+      "subject": "method.sdo.localization",
+      "question": "¿Qué fiabilidad inter-mediador, estabilidad temporal y criterios de desempate sostienen la asignación de códigos a partir de señales interpretativas?",
+      "status": "pending_methodological_review",
+      "blocking": false,
+      "blocking_for": [
+        "instrument_validation",
+        "empirical_application"
+      ],
+      "evidence": [
+        "ev.sdo.f4.vi-3",
+        "ev.sdo.f4.viii-1",
+        "ev.sdo.f4.viii-2"
+      ],
+      "why_not_auto_resolved": "Hay procedimiento y certeza, pero no estudio de concordancia, test-retest ni adjudicación independiente."
+    },
+    {
+      "id": "review.sdo.constellation_evidence",
+      "subject": "formulation.sdo.constellations",
+      "question": "¿Qué muestra, frecuencia y diseño sostienen que ciertas constelaciones sean frecuentes, regulares o de alta probabilidad en la práctica?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_validation"
+      ],
+      "evidence": [
+        "ev.sdo.f4.vi-1",
+        "ev.sdo.f4.vi-2"
+      ],
+      "why_not_auto_resolved": "Las tendencias se afirman sin denominador, muestreo ni contraste reproducible."
+    },
+    {
+      "id": "review.sdo.code_to_graph_validity",
+      "subject": "method.sdo.prometeo_bridge",
+      "question": "¿Qué criterio independiente valida el paso de códigos cualitativos a nodos, aristas y direcciones causales sin introducir la causalidad que luego R* cuantifica?",
+      "status": "pending_methodological_review",
+      "blocking": false,
+      "blocking_for": [
+        "causal_validation",
+        "formal_application"
+      ],
+      "evidence": [
+        "ev.sdo.f4.vii-1",
+        "ev.sdo.f4.viii-1"
+      ],
+      "why_not_auto_resolved": "Se especifican reglas de traducción, no identificación causal independiente."
+    },
+    {
+      "id": "review.sdo.alpha_semantics",
+      "subject": "formulation.sdo.alpha_reinterpretation",
+      "question": "¿La α de capacidad de integración del SDO sustituye, adapta o solo homonimiza el coeficiente de asunción formalizado en F3?",
+      "status": "pending_authorial_adjudication",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "crosswork_consistency"
+      ],
+      "evidence": [
+        "ev.sdo.f4.vii-1",
+        "ev.sdo.f4.vii-3",
+        "ev.sdo.f4.vii-4"
+      ],
+      "why_not_auto_resolved": "La misma notación recibe semántica y usos pronósticos distintos sin regla de equivalencia."
+    },
+    {
+      "id": "review.sdo.delta_semantics",
+      "subject": "formulation.sdo.delta_reinterpretation",
+      "question": "¿Cómo se relaciona la Δ de cambio retrospectivo/prospectivo y variación nodal con Δ=R*−α y las versiones históricas de F3?",
+      "status": "pending_authorial_adjudication",
+      "blocking": false,
+      "blocking_for": [
+        "formal_validation",
+        "crosswork_consistency"
+      ],
+      "evidence": [
+        "ev.sdo.f4.vii-1",
+        "ev.sdo.f4.vii-4"
+      ],
+      "why_not_auto_resolved": "Se reutiliza Δ para objetos y operaciones distintas sin transformación ni unidades comunes."
+    },
+    {
+      "id": "review.sdo.alphaT_validation",
+      "subject": "formal.sdo.alpha_T",
+      "question": "¿Cómo se observan, miden y calibran numerador y denominador de α_T, y qué evidencia vincula sus valores con amortiguación o tiempo esperado de duelo?",
+      "status": "pending_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "metrological_validation",
+        "empirical_validation",
+        "clinical_application"
+      ],
+      "evidence": [
+        "ev.sdo.f4.vii-3"
+      ],
+      "why_not_auto_resolved": "Hay fórmula y valores ilustrativos, no escala, estimador, unidades ni validación longitudinal."
+    },
+    {
+      "id": "review.sdo.children_weight_calibration",
+      "subject": "method.sdo.children_weights",
+      "question": "¿Qué regla reproducible convierte manifestaciones cualitativas e intensidad relativa en pesos numéricos de los seis Hijos y valida su normalización?",
+      "status": "pending_metrological_review",
+      "blocking": false,
+      "blocking_for": [
+        "metrological_validation",
+        "empirical_validation"
+      ],
+      "evidence": [
+        "ev.sdo.f4.vii-2"
+      ],
+      "why_not_auto_resolved": "Los pesos se infieren por juicio contextual sin calibración, error ni concordancia."
+    },
+    {
+      "id": "review.sdo.clinical_boundary",
+      "subject": "formulation.sdo.nonclinical_scope",
+      "question": "¿Qué estatuto tienen las afirmaciones sobre pacientes, síntomas, trauma, duelo, dirección de intervención y consecuencias clínicas si el SDO declara no ser diagnóstico clínico ni evaluación psicológica?",
+      "status": "pending_clinical_scope_review",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_application",
+        "scope_validation"
+      ],
+      "evidence": [
+        "ev.sdo.f4.vi-2",
+        "ev.sdo.f4.vi-3",
+        "ev.sdo.f4.vii-3",
+        "ev.sdo.f4.vii-4",
+        "ev.sdo.f4.viii-2"
+      ],
+      "why_not_auto_resolved": "La delimitación es explícita, pero persisten lenguaje e inferencias de alcance clínico o cuasi-clínico."
+    },
+    {
+      "id": "review.sdo.trauma_claims",
+      "subject": "formulation.sdo.trauma",
+      "question": "¿Qué evidencia clínica y causal valida identificar trauma con un nodo de bloqueo de φ₂ y atribuirle R*, α, Δ, extensión selectiva y resistencia diferencial?",
+      "status": "pending_empirical_and_clinical_review",
+      "blocking": false,
+      "blocking_for": [
+        "clinical_application",
+        "empirical_validation",
+        "causal_validation"
+      ],
+      "evidence": [
+        "ev.sdo.f4.vii-4"
+      ],
+      "why_not_auto_resolved": "No se aportan comparación diagnóstica, cohortes, identificación causal ni validación de resultados."
+    },
+    {
+      "id": "review.sdo.self_application_validity",
+      "subject": "method.sdo.self_localization",
+      "question": "¿Qué validez, sesgos y límites de seguridad tiene la autolocalización cuando la misma persona produce señales, inferencia y lectura sin mediador?",
+      "status": "pending_methodological_review",
+      "blocking": false,
+      "blocking_for": [
+        "instrument_validation",
+        "self_application"
+      ],
+      "evidence": [
+        "ev.sdo.f4.viii-3"
+      ],
+      "why_not_auto_resolved": "Declara límites, pero no evalúa sesgo, concordancia ni seguridad en casos vulnerables."
+    },
+    {
+      "id": "review.sdo.prognostic_claims",
+      "subject": "method.sdo.prometeo_bridge",
+      "question": "¿Qué evidencia permite usar R*, α, Δ o R*·α para anticipar punto óptimo de entrada, rapidez, magnitud o trayectoria esperada de cambio?",
+      "status": "pending_empirical_review",
+      "blocking": false,
+      "blocking_for": [
+        "empirical_validation",
+        "intervention_application"
+      ],
+      "evidence": [
+        "ev.sdo.f4.vii-1",
+        "ev.sdo.f4.vii-3",
+        "ev.sdo.f4.vii-4"
+      ],
+      "why_not_auto_resolved": "Los parámetros se usan prospectivamente sin modelo predictivo validado ni error de predicción."
     }
   ],
   "tests": [

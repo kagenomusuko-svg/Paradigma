@@ -3331,6 +3331,34 @@ def main() -> int:
             f"{sorted(f3_reviews - surfaced_reviews)}",
         )
 
+        # Invariantes ganadas al auditar SDO sistemáticamente en F4.
+        if phase in {"F4", "F5", "MANT"}:
+            sdo_structure_path = ROOT / "corpus" / "libros" / "sdo" / "estructura.json"
+            require(sdo_structure_path.exists(), "Falta la estructura derivada de SDO")
+            sdo_structure = json.loads(sdo_structure_path.read_text(encoding="utf-8"))
+            require(sdo_structure.get("sha256") == works["SDO"]["sha256"], "La estructura SDO no corresponde a la fuente canónica")
+            sdo_segments = {s["path"]:(s["start_line"],s["end_line"]) for s in sdo_structure["segments"]}
+            require(len(sdo_segments) == 46, "SDO debe conservar sus 46 segmentos auditados")
+            sdo_evidence = [ev for ev in evidence.values() if ev["work_id"] == "SDO"]
+            covered = {ev["segment"] for ev in sdo_evidence}
+            require(set(sdo_segments) <= covered, f"La auditoría F4 de SDO perdió cobertura: {sorted(set(sdo_segments)-covered)}")
+            for ev in sdo_evidence:
+                require(ev["segment"] in sdo_segments, f"{ev['id']}: segmento SDO no declarado")
+                a,b=sdo_segments[ev["segment"]]; x,y=ev["source_lines"]
+                require(a <= x <= y <= b, f"{ev['id']}: rango fuera del segmento SDO")
+            required_sdo_nodes={"method.sdo.localization","formulation.sdo.nonclinical_scope","formulation.sdo.five_axis_profile","formulation.sdo.constellations","method.sdo.prometeo_bridge","formulation.sdo.alpha_reinterpretation","formulation.sdo.delta_reinterpretation","formal.sdo.alpha_T","method.sdo.children_weights","formulation.sdo.trauma","method.sdo.form_sheet","method.sdo.interview","method.sdo.self_localization"}
+            require(required_sdo_nodes <= set(nodes), f"Auditoría SDO incompleta: {sorted(required_sdo_nodes-set(nodes))}")
+            require({"route.sdo.localization","route.sdo.systemic_claims","route.sdo.prometeo_interface","route.sdo.instruments"} <= set(routes), "Faltan rutas F4 de SDO")
+            required_sdo_reviews={"review.sdo.coding_reproducibility","review.sdo.constellation_evidence","review.sdo.code_to_graph_validity","review.sdo.alpha_semantics","review.sdo.delta_semantics","review.sdo.alphaT_validation","review.sdo.children_weight_calibration","review.sdo.clinical_boundary","review.sdo.trauma_claims","review.sdo.self_application_validity","review.sdo.prognostic_claims"}
+            require(required_sdo_reviews <= set(reviews), "Deben conservarse las revisiones abiertas creadas por SDO")
+            require(relations["rel.sdo.alpha.reframes_formal"]["evidence_status"] == "inferred", "α SDO no puede adjudicarse como equivalencia formal")
+            require(relations["rel.sdo.delta.reframes_formal"]["evidence_status"] == "inferred", "Δ SDO no puede adjudicarse como equivalencia formal")
+            inherited_sdo_reviews={"review.tf.proof_status","review.tf.identity_mapping","review.tf.alpha_measurement","review.tf.alpha_comparability","review.tf.aego_clinical","review.mci.alpha_calibration","review.mci.alpha_observability","review.mci.delta_crosswork","review.mcii.phi2_observability","review.mcii.instrument_validity","review.calc.alpha_crossdomain","review.calc.delta_history","review.mask.grief_claims"}
+            for rid in inherited_sdo_reviews:
+                require(str(reviews[rid].get("status","")).startswith("pending"), f"SDO no autoriza cerrar revisión heredada {rid}")
+                require(any(e.startswith("ev.sdo.") for e in reviews[rid].get("evidence",[])), f"{rid} debe conservar nueva evidencia SDO")
+            require({"review.sdo.code_to_graph_validity","review.sdo.alpha_semantics","review.sdo.delta_semantics","review.sdo.prognostic_claims"} <= set(routes["route.sdo.prometeo_interface"].get("must_surface_review_items",[])), "Ruta SDO-Prometeo debe surfacer causalidad, semántica y pronóstico")
+
     print(
         "Mapa válido:",
         f"fase={phase}, schema={schema_status};",
