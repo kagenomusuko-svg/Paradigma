@@ -1,12 +1,12 @@
 # NORM-RSTAR-EGO-001 — Normalización conceptual de R* desde la fórmula del ego
 
-> **Documento derivado de mantenimiento, no fuente canónica.** Su función es normalizar la genealogía conceptual y el tipado de los objetos que conectan la fórmula del ego con la imputación causal y R*. No modifica retrospectivamente las primeras ediciones ni declara resuelta la construcción matemática del operador de responsabilidad.
+> **Documento derivado de mantenimiento, no fuente canónica.** Normaliza la genealogía conceptual y el tipado que conectan la fórmula del ego con la imputación causal y R*. La construcción matemática de `M_R(D)` fue adjudicada posteriormente en `RES-RSTAR-001`, que gobierna esta normalización.
 
 - **ID:** `NORM-RSTAR-EGO-001`
-- **Estado:** NORMALIZACIÓN CONCEPTUAL VIGENTE / FORMALIZACIÓN MATEMÁTICA ABIERTA
+- **Estado:** NORMALIZACIÓN CONCEPTUAL VIGENTE / FORMALIZACIÓN ADJUDICADA EN `RES-RSTAR-001`
 - **Ámbito:** fórmula del ego, φ₁, φ₂, W, δ_ext, R*, α y Δ
-- **Decisión autoral MANT:** conservar `R*` como **eigenvector de responsabilidad**.
-- **Precisión:** esa decisión no equivale a afirmar que `R*` sea necesariamente el eigenvector de la matriz causal cruda `W`.
+- **Decisión autoral MANT:** `R*` es el **eigenvector de responsabilidad**.
+- **Precisión vigente:** `R*` no es el eigenvector de la matriz causal cruda `W`; es el Perron-eigenvector del operador de responsabilidad `M_R(D)` definido en `RES-RSTAR-001`.
 
 ---
 
@@ -28,7 +28,7 @@ Esquemáticamente:
 
 `v_i, c_i → φ₁,i → a_i → φ₂,i → I_i(t+1)`.
 
-Esta fórmula contiene dos direcciones distintas que después darán lugar a dos familias metrológicas distintas:
+Esta fórmula contiene dos direcciones que originan familias metrológicas distintas:
 
 1. **producción causal hacia el mundo**, asociada a `φ₁`;
 2. **retorno/asunción hacia el ego**, asociada a `φ₂`.
@@ -37,13 +37,11 @@ Esta fórmula contiene dos direcciones distintas que después darán lugar a dos
 
 ## 2. Del ego individual al campo causal
 
-El acto producido por un ego no queda aislado. Puede entrar como condición del campo de otro ego.
-
-Esquemáticamente:
+El acto producido por un ego puede entrar como condición del campo de otro ego:
 
 `a_i → c_j`.
 
-Para hacer visible esa dependencia puede escribirse, como representación auxiliar:
+Como representación auxiliar:
 
 `c_j(t) = c_j^0(t) + Σ_i Γ_ij(a_i(t))`,
 
@@ -57,25 +55,19 @@ La estructura encadenada es:
 
 `a_i → c_j → φ₁,j → a_j → c_k → φ₁,k → ... → D`,
 
-donde `D` es el resultado concreto respecto del cual se reconstruye la responsabilidad.
+donde `D` es el resultado respecto del cual se reconstruye responsabilidad.
 
-El grafo causal surge como representación externa de esas dependencias encadenadas. No es el fundamento ontológico de la relación; es su representación metrológica.
+El grafo causal es la representación metrológica externa de esas dependencias; no su fundamento ontológico.
 
 ---
 
-## 3. W: matriz de determinaciones locales, no matriz de responsabilidad por definición
+## 3. W: matriz de determinaciones locales
 
-Normalización de significado:
+Bajo la convención:
 
-`W_ij = grado en que el nodo i determinó causalmente el colapso/acto del nodo j`.
+`W_ij = w(i→j)`,
 
-En lenguaje operativo:
-
-`W_ij = fracción del comportamiento de j determinada por i`,
-
-siempre bajo la convención de arista:
-
-`i → j`.
+`W_ij` representa el grado en que `i` determinó causalmente el colapso o comportamiento de `j`.
 
 Por tanto:
 
@@ -86,11 +78,11 @@ representa **dependencias locales entre primeras mediaciones**.
 No debe identificarse por definición con:
 
 - responsabilidad total;
-- atribución global respecto de un resultado;
-- R*;
-- el operador de responsabilidad.
+- atribución global respecto de `D`;
+- `R*`;
+- el operador espectral de responsabilidad.
 
-La relación correcta es de precedencia:
+La relación correcta es:
 
 `φ₁ → relaciones locales → W`.
 
@@ -98,31 +90,27 @@ La relación correcta es de precedencia:
 
 ## 4. Composición causal por rutas
 
-Si existe una cadena:
+Si existe:
 
 `A → B → C`,
 
 la influencia de `A` sobre `C` puede transmitirse por mediación de `B`.
 
-Bajo una aproximación multiplicativa local, la contribución de la ruta es:
+Bajo la aproximación multiplicativa adoptada:
 
-`w_AB · w_BC`.
+`peso(A→B→C)=w_AB·w_BC`.
 
-Si existen múltiples rutas entre un nodo y el resultado, todas las rutas causalmente distintas relevantes deben ser consideradas sin contabilizar dos veces el mismo flujo causal.
+Si existen múltiples rutas causalmente distintas, sus contribuciones se agregan antes de normalizar, evitando contabilizar dos veces un mismo mecanismo.
 
-La estructura general que el corpus intenta representar es:
+La estructura vigente es:
 
-`influencia total de i sobre D = contribuciones directas + contribuciones mediadas por rutas hacia D`.
-
-Esta propiedad —composición/transitividad causal— sí se deriva del encadenamiento de primeras mediaciones.
-
-No se deriva de ella, por sí sola, que el eigenvector de la matriz cruda `W` sea el operador correcto para calcular esa influencia total.
+`influencia total de i sobre D = contribución directa + contribuciones mediadas por rutas hacia D`.
 
 ---
 
-## 5. δ_ext: exteriorización atributiva de la segunda mediación
+## 5. δ_ext: exteriorización atributiva
 
-La distinción de Areópago normaliza dos operaciones:
+Areópago distingue:
 
 `δ_int(t) = Ego(t) − I(t)`
 
@@ -132,122 +120,99 @@ como retorno interno del acto al sujeto, y:
 
 como atribución exterior del acto al nodo cuya cadena causal es reconstruible.
 
-La relación debe leerse con precisión:
-
-- `δ_int` requiere la operación interna de `φ₂`;
-- `δ_ext` opera sobre el colapso producido por `φ₁` y una cadena causal reconstruible;
-- ambas tienen una **estructura atributiva isomorfa**: retornar/asignar un acto a un sujeto;
-- esa semejanza estructural no convierte a `δ_ext` en medición de la `φ₂` interna del sujeto.
-
 Regla de normalización:
 
 > **La imputación exterior tiene forma atributiva análoga a φ₂, pero su material causal es la cadena de φ₁.**
+
+Por tanto:
+
+- `δ_int` requiere `φ₂` interna;
+- `δ_ext` opera sobre colapsos de `φ₁` y cadenas causales reconstruibles;
+- la semejanza estructural no convierte `δ_ext` en medición de `φ₂` interna.
 
 ---
 
 ## 6. Corrección del crosswalk de Transformación formal
 
-La formulación histórica que presenta `R*` como «lectura exterior de la distribución de φ₂» debe interpretarse y, en segunda edición, precisarse.
+La formulación histórica que presenta `R*` como «lectura exterior de la distribución de φ₂» debe precisarse.
 
-La formulación normalizada es:
+La formulación vigente es:
 
-`R* = distribución exterior de la atribución causal de los colapsos de φ₁ respecto de un resultado D`.
+`R* = distribución exterior de atribución causal de los colapsos de φ₁ respecto de un resultado D`.
 
 No:
 
 `R* = medida de cuánto operó la φ₂ interna de cada ego`.
 
-Ese segundo objeto pertenece a la genealogía de la asunción y de α.
-
-La normalización preserva la intuición correcta de Transformación formal —la imputación como operación exterior de retorno atributivo— pero separa:
-
-- **estructura de la operación:** análoga a `φ₂`;
-- **objeto causal atribuido:** producido por `φ₁`.
+Ese segundo objeto pertenece a la genealogía de α.
 
 ---
 
-## 7. R*(D): distribución global de atribución causal respecto de un resultado
+## 7. R*(D): distribución global y convergencia causal
 
-Para un resultado concreto `D`, R* debe representar:
+Para un resultado `D`:
 
-`R*_i(D) = participación total del nodo i en la producción causal de D`.
+`R*_i(D) = proporción estable de convergencia causal del nodo i respecto de D`.
 
-Con normalización:
+Con:
 
-`Σ_i R*_i(D) = 1`.
+`Σ_i R*_i(D)=1`.
 
-La suma unitaria expresa que el objeto distribuido es la totalidad de la participación causal considerada en el modelo para ese resultado.
+`R*` no mide intención, dolo, culpabilidad, arrepentimiento, reconocimiento subjetivo ni sanción.
 
-`R*` no mide:
-
-- intención;
-- dolo;
-- culpabilidad;
-- arrepentimiento;
-- reconocimiento subjetivo;
-- asunción;
-- sanción.
-
-Mide posición causal relativa respecto de un resultado definido.
+Mide la posición causal relativa que resulta estable bajo el operador de responsabilidad.
 
 ---
 
-## 8. M_R(D): operador de responsabilidad como objeto intermedio
+## 8. M_R(D): operador espectral de responsabilidad
 
-Para evitar identificar prematuramente `W` con responsabilidad global, esta normalización introduce un símbolo editorial provisional:
+`RES-RSTAR-001` adjudica:
 
-`M_R(D)`.
+`Q_D` = matriz de determinaciones primitivas entre ancestros causales de `D`;
 
-Definición conceptual:
+`b_D` = vector de determinaciones primitivas directas sobre `D`.
 
-`M_R(D) = operador que transforma la red local de determinaciones W en una atribución causal global respecto del resultado D`.
+Para:
 
-La decisión autoral vigente conserva a `R*` como **eigenvector de responsabilidad**. Por tanto, la forma objetivo de la formalización futura es:
+`ρ(Q_D)<1`,
 
-`M_R(D) · R*(D) = λ_R · R*(D)`.
+se define:
 
-Esta expresión fija el **tipo de relación buscada**, no la construcción matemática ya validada de `M_R(D)`.
+`r_D=(I−Q_D)^−1b_D`.
 
-Todavía debe demostrarse:
+La distribución normalizada es:
 
-- cómo se construye `M_R(D)` a partir de `W` y `D`;
-- cómo compone rutas;
-- cómo evita doble contabilización;
-- cómo trata DAG, ciclos y componentes desconectados;
-- qué condiciones garantizan existencia/unicidad del eigenvector relevante;
-- qué orientación matricial corresponde a la convención causal;
-- cómo se excluye o trata el nodo final;
-- cómo reproduce los casos publicados.
+`R*(D)=r_D/[1^T r_D]`.
 
-Por ello:
+Con:
 
-`R* = eig(M_R(D))`
+`η_D=[1^T r_D]^−1`,
 
-es la forma normalizada de la tesis autoral,
+se define:
 
-mientras:
+`M_R(D)=Q_D+η_D b_D1^T`.
 
-`R* = eig(W)`
+Y:
 
-permanece como una identificación histórica que requiere revisión formal.
+`M_R(D)R*(D)=R*(D)`.
+
+La iteración:
+
+`x^(t+1)=M_R(D)x^(t)`
+
+representa rondas de propagación/atribución causal que, bajo las condiciones espectrales vigentes, convergen a `R*(D)`.
+
+Así, `R*` es el **Perron-eigenvector normalizado del operador de responsabilidad**.
 
 ---
 
 ## 9. El nodo final D
 
-El resultado o nodo final cumple una función distinta de los nodos causales.
+`D` es el objeto respecto del cual se distribuye causalidad.
 
-`D`
+No recibe automáticamente responsabilidad por ser el sumidero del grafo.
 
-es el **objeto respecto del cual** se distribuye causalidad.
-
-No debe recibir automáticamente un componente de responsabilidad causal sólo por ser el sumidero del grafo.
-
-Normalización conceptual:
-
-`W` puede representar conexiones que terminan en `D`, pero `R*(D)` distribuye responsabilidad entre nodos causalmente pertinentes, no entre el resultado y sus causas como si fueran homogéneos.
-
-La construcción matemática exacta de esta exclusión pertenece a la revisión formal pendiente.
+Su separación en `b_D` permite que los nodos causales formen el espacio de responsabilidad sin exigir que el resultado sea homogéneo a sus causas.
 
 ---
 
@@ -259,23 +224,19 @@ La otra dirección de la fórmula del ego es:
 
 De esta rama deriva la genealogía de la asunción.
 
-Normalización:
+Conforme a `RES-ALPHA-001`:
 
 `α_i = grado de asunción efectiva de la posición causal del nodo i`.
 
-Su genealogía ontológica procede de `φ₂`; su operacionalización aplicada puede registrar acciones, reparaciones y consecuencias efectivamente soportadas, incluidas modalidades voluntarias, forzadas o impuestas, conforme a `RES-ALPHA-001`.
-
-Esta normalización no redefine α ni reabre su resolución.
+Su operacionalización aplicada puede registrar acciones, reparaciones y consecuencias efectivamente soportadas, incluidas modalidades voluntarias, forzadas o impuestas.
 
 ---
 
 ## 11. R* y α como dos lecturas de la fórmula del ego
 
-La arquitectura queda dividida en dos ramas:
-
 ### Rama causal/exterior
 
-`v,c → φ₁ → acto → red causal → W → M_R(D) → R*(D)`.
+`v,c → φ₁ → acto → W → Q_D,b_D → r_D → M_R(D) → R*(D)`.
 
 ### Rama de retorno/asunción
 
@@ -283,68 +244,67 @@ La arquitectura queda dividida en dos ramas:
 
 Por tanto:
 
-- `R*` cuantifica cuánto causalmente pertenece al nodo respecto del resultado;
-- `α` cuantifica cuánto de esa posición fue efectivamente asumido/soportado en el dominio aplicado.
+- `R*` cuantifica cuánto causalmente converge hacia cada nodo respecto del resultado;
+- `α` cuantifica cuánto de esa posición fue efectivamente asumido o soportado.
 
 ---
 
 ## 12. Δ como comparación entre ambas ramas
 
-Con las resoluciones MANT ya adoptadas:
+Con `RES-DELTA-001`:
 
 `Δ_i = R*_i − α_i`.
 
-Su genealogía puede esquematizarse como:
+Genealogía:
 
-`φ₁ → W → M_R(D) → R*`
+`φ₁ → W → Q_D,b_D → M_R(D) → R*`
 
 frente a:
 
 `φ₂ → α`.
 
-Y finalmente:
+Y:
 
-`R* − α → Δ`.
+`R*−α → Δ`.
 
-Esta comparación no convierte causalidad en normatividad. Δ describe una brecha entre magnitudes del sistema.
+La comparación sigue siendo descriptiva; no introduce por sí sola una predicación normativa.
 
 ---
 
-## 13. Esquema maestro normalizado
+## 13. Esquema maestro vigente
 
 ```text
-EGO INDIVIDUAL
-
-v_i , c_i
+v_i,c_i
    │
    ▼
  φ₁,i
    │
    ▼
- a_i ──────────────────────────────┐
-   │                               │
-   │ entra en el campo de j        │ retorno/asunción
-   ▼                               ▼
- c_j                              φ₂,i
-   │                               │
-   ▼                               ▼
- φ₁,j                           I_i(t+1)
-   │                               │
-   ▼                               ▼
- a_j                              α_i
-   │
-   ▼
- ...
+ a_i ───────────────────────────────┐
+   │                                │
+   │ entra en el campo de j         │ retorno/asunción
+   ▼                                ▼
+ c_j                               φ₂,i
+   │                                │
+   ▼                                ▼
+ φ₁,j                            I_i(t+1)
+   │                                │
+   ▼                                ▼
+ ...                               α_i
    │
    ▼
  D
-
-RED EXTERIOR
 
 φ₁ encadenadas
       │
       ▼
       W
+      │
+      ▼
+   Q_D,b_D
+      │
+      ▼
+     r_D
       │
       ▼
    M_R(D)
@@ -353,99 +313,94 @@ RED EXTERIOR
     R*(D)
       │
       ├──────────────┐
-      │              │
       │              ▼
       │             α_i
       │              │
       └───────┬──────┘
               ▼
-        Δ_i = R*_i − α_i
+        Δ_i=R*_i−α_i
 ```
 
 Forma compacta:
 
-`v,c → φ₁ → a → W → M_R(D) → R*`
+`φ₁ → W → Q_D,b_D → r_D → M_R(D) → R*`
 
-`a → φ₂ → I(t+1) → α`
+`φ₂ → α`
 
-`R* − α = Δ`.
+`R*−α=Δ`.
 
 ---
 
-## 14. Qué aporta esta normalización
+## 14. Qué queda fijado
 
-Queda fijado conceptualmente que:
-
-1. `W` representa determinaciones locales entre primeras mediaciones.
+1. `W` representa determinaciones locales de `φ₁`.
 2. `W` no es responsabilidad global por definición.
-3. `δ_ext` atribuye exteriormente colapsos de `φ₁` y es estructuralmente análoga al retorno de `φ₂`.
-4. `R*(D)` distribuye causalidad global respecto de un resultado.
-5. `R*` se conserva autoralmente como eigenvector de responsabilidad.
-6. El eigenvector debe pertenecer al operador de responsabilidad `M_R(D)`, cuya construcción aún debe demostrarse.
-7. α pertenece a la rama de asunción/retorno y no debe confundirse con causalidad.
-8. Δ compara ambas ramas mediante `R* − α`.
+3. `δ_ext` atribuye exteriormente colapsos de `φ₁` y conserva una estructura atributiva análoga a `φ₂`.
+4. `D` se separa del espacio de causas.
+5. `Q_D` y `b_D` reconstruyen la red pertinente respecto de `D`.
+6. `r_D=(I−Q_D)^−1b_D` calcula atribución total por rutas para `ρ(Q_D)<1`.
+7. La normalización se realiza una sola vez al final.
+8. `M_R(D)=Q_D+η_D b_D1^T` es el operador espectral de responsabilidad vigente.
+9. `R*_i` es la proporción estable de convergencia causal del nodo `i`.
+10. La velocidad de convergencia es distinta y depende del espectro secundario.
+11. α pertenece a la rama de asunción/retorno.
+12. Δ compara ambas ramas mediante `R*−α`.
 
 ---
 
-## 15. Qué NO queda resuelto
+## 15. Problemas que permanecen abiertos
 
-Esta normalización no adjudica todavía:
+`RES-RSTAR-001` no resuelve:
 
-- `W` frente a `Wᵀ` como implementación final;
-- fórmula concreta de `M_R(D)`;
-- equivalencia entre método de rondas y formulaciones eigenvectoriales;
-- normalización simple `w_i/Σw_j` del Apéndice C de Prometeo;
-- doble contabilización de rutas;
-- tratamiento formal de sumideros;
-- irreducibilidad;
-- primitividad/aperiodicidad;
-- condiciones precisas de Perron–Frobenius;
-- regularización de DAG nilpotentes;
-- ciclos causales;
-- reproducción de los vectores publicados;
-- validación empírica de pesos o calibraciones.
-
-Todos estos puntos permanecen como revisiones formales separadas.
+- calibración empírica de `w`;
+- validación externa de rangos;
+- interacción no aditiva entre rutas;
+- rutas solapadas;
+- condiciones conjuntas e hiperaristas;
+- causalidad acumulativa;
+- Shapley;
+- feedback con `ρ(Q_D)≥1`;
+- temporalización de ciclos fuera del dominio del operador;
+- reasignación de nodos instrumentales a diseñadores;
+- validación científica o jurídica universal del modelo.
 
 ---
 
-## 16. Revisiones relacionadas que permanecen abiertas
+## 16. Revisiones formalmente adjudicadas por RES-RSTAR-001
 
-Entre otras:
+Quedan resueltas respecto de su problema histórico:
 
-- `review.prometeo.rstar_algorithm_equivalence`;
-- `review.prometeo.design_node_presumption`;
-- `review.calc.rstar_equivalence`;
+- `review.prometeo.rstar_algorithm_equivalence` — no equivalencia;
+- `review.prometeo.design_node_presumption` — no universalidad;
+- `review.calc.published_vectors_reproduction` — no reproducibilidad del operador declarado;
 - `review.calc.orientation`;
 - `review.calc.sinks`;
-- `review.calc.published_vectors_reproduction`;
 - `review.rstar.sink_irreducibility`;
 - `review.tf.rstar_orientation`;
 - `review.axiom.rstar_sink`;
 - `review.mci.rstar_orientation`;
-- `review.mcii.sink_normalization`;
-- revisiones de periodicidad, conectividad y condiciones espectrales asociadas.
+- `review.mcii.sink_normalization`.
 
-La normalización debe consultarse antes de intentar resolver esas revisiones, porque fija qué objetos deben distinguirse.
+Las formulaciones históricas permanecen visibles como proveniencia.
 
 ---
 
-## 17. Criterio para la formalización futura
+## 17. Criterios para implementación
 
-Cualquier propuesta matemática futura para `M_R(D)` deberá demostrar, como mínimo, que:
+Toda implementación de R* deberá:
 
-1. preserva la convención causal local de `W`;
-2. compone influencia a través de rutas;
-3. permite responsabilidad upstream en grafos acíclicos;
-4. no requiere inventar causalidad inversa para obtener un espectro útil;
-5. distingue nodos causales del resultado `D`;
-6. evita doble contabilización;
-7. produce una distribución normalizable;
-8. ofrece condiciones explícitas de existencia y unicidad;
-9. reproduce o explica las diferencias con los casos publicados;
-10. mantiene la separación entre causalidad `R*`, asunción `α` y predicación normativa posterior.
-
-Hasta que esas pruebas existan, `M_R(D)` es una **normalización conceptual y un objetivo de formalización**, no un teorema validado.
+1. preservar `W_ij=i→j`;
+2. distinguir aristas primitivas de acumuladas;
+3. separar `D` del espacio causal activo;
+4. construir `Q_D` y `b_D`;
+5. verificar `ρ(Q_D)<1` antes de aplicar el operador vigente;
+6. calcular la atribución total antes de normalizar;
+7. normalizar una sola vez;
+8. verificar `M_RR*=R*`;
+9. distinguir porcentajes `R*_i` de velocidad de convergencia;
+10. mantener independencia respecto de α;
+11. rechazar o modelar separadamente feedback fuera de dominio;
+12. reportar calibraciones y supuestos sin presentarlos como teoremas.
 
 ---
 
@@ -453,10 +408,10 @@ Hasta que esas pruebas existan, `M_R(D)` es una **normalización conceptual y un
 
 La normalización se apoya en lectura transversal de:
 
-- *Caos: El abismo del ego y la doble mediación*, cap. VI — fórmula del ego y doble mediación;
-- *Afrodita Areia: Areópago*, apéndice II — `δ_int`, `δ_ext` e imputación exterior sobre `φ₁`;
-- *La transformación formal*, cap. 2.1 — derivación histórica de R*, red de caminos y formulación eigenvectorial;
-- *El cálculo de la responsabilidad* — R* como vector de distribución causal y formulación espectral;
-- *El método Prometeo* — grafo, pesos, método de rondas, composición de caminos, casos calculados y normalización simplificada del Apéndice C.
+- *Caos: El abismo del ego y la doble mediación*, cap. VI;
+- *Afrodita Areia: Areópago*, apéndice II;
+- *La transformación formal*, cap. 2.1;
+- *El cálculo de la responsabilidad*;
+- *El método Prometeo*.
 
-La decisión de conservar `R*` como **eigenvector de responsabilidad** es una adjudicación autoral MANT posterior a esas primeras ediciones. Esta decisión no adjudica todavía el operador matemático exacto cuyo eigenvector debe ser `R*`.
+La construcción exacta de `M_R(D)` y la interpretación de `R*_i` como proporción estable de convergencia causal fueron adjudicadas autoralmente en MANT mediante `RES-RSTAR-001` después de la primera edición. No deben retroproyectarse como si todas las obras históricas hubieran usado ya esta formulación.
