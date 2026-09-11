@@ -3,7 +3,7 @@
 > **Documento derivado de auditoría transversal.** No modifica fuentes canónicas, no ejecuta correcciones de segunda edición y no convierte deudas formales o empíricas en resultados validados. Su función es comprobar si las tensiones MANT registradas cuentan ya con una adjudicación suficiente para iniciar la campaña editorial y clasificar con precisión lo que todavía permanece abierto.
 
 - **ID:** `AUD-MANT-TRANS-001`
-- **Estado:** **TENSIONES PRIORITARIAS ADJUDICADAS / DEUDAS 2E CLASIFICADAS / CAMPAÑA 2E HABILITABLE**
+- **Estado:** **CHECKPOINT MANT CERRADO / DEUDAS 2E CLASIFICADAS / CAMPAÑA 2E HABILITADA**
 - **Fecha:** 2026-09-10
 - **Fase:** MANT — mantenimiento posterior a mapa maestro v1
 - **Alcance:** resoluciones MANT, auditorías derivadas y registro de segunda edición existentes en `documentacion/`
@@ -72,7 +72,7 @@ La revisión del historial anterior a esta auditoría muestra una secuencia sufi
 
 Por tanto, la afirmación de que faltaba una adjudicación autónoma de `S` fue incorrecta. La ausencia de un archivo llamado `resolucion-s.md` no significaba ausencia de decisión: la decisión ya estaba fijada materialmente por el commit autoral de `2E-S-001`.
 
-La creación posterior de `RES-S-001` en `4d8ce7263d81dae78360bd37f859222b57c05075` fue redundante y debe retirarse. No añade una nueva doctrina ni debe convertirse en una segunda adjudicación del mismo objeto.
+La creación posterior de `RES-S-001` en `4d8ce7263d81dae78360bd37f859222b57c05075` fue redundante y fue retirada en `318ae81cd414915d0796f91bf848c2fecb8cd945`. No añade una nueva doctrina ni constituye una segunda adjudicación del mismo objeto.
 
 La lectura vigente de `S` continúa siendo la ya fijada antes de esta verificación:
 
@@ -267,17 +267,39 @@ Dentro del conjunto de tensiones MANT registradas y revisadas transversalmente:
 - los problemas restantes se localizan en formalización, calibración, validación, recálculo o incorporación editorial;
 - no se detecta una razón para reiniciar la auditoría prioritaria antes de abrir segunda edición.
 
-Esta conclusión es **provisionalmente suficiente para el checkpoint MANT** y no pretende afirmar que el corpus carece de toda posible tensión futura. Una auditoría independiente que identifique una contradicción nueva reabre únicamente la familia afectada.
+Esta conclusión es **suficiente para el checkpoint MANT** y no pretende afirmar que el corpus carece de toda posible tensión futura. Una auditoría independiente que identifique una contradicción nueva reabre únicamente la familia afectada.
 
-## 12. Punto de contraste con la auditoría paralela del autor
+## 12. Contraste con la auditoría paralela del autor — completado
 
-Dado que existe una auditoría independiente en curso, el cierre operativo debe comparar ambos resultados antes de cambiar el `SIGUIENTE` a ejecución editorial.
+El autor completó una auditoría independiente y confirmó que su resultado coincide sustantivamente con `AUD-MANT-TRANS-001`.
 
-Regla de contraste:
+Quedan expresamente confirmados:
 
-- coincidencia → consolidar el checkpoint e iniciar 2E;
-- deuda adicional de formalización/calibración → añadirla al backlog sin reabrir doctrina;
-- contradicción nueva respaldada por fuente canónica → abrir auditoría específica de esa familia;
-- diferencia de interpretación genuinamente autoral → detener únicamente esa familia para adjudicación.
+- la separación entre tensión adjudicada, deuda formal/metrológica, deuda empírica/calibración y deuda editorial/interfaz;
+- los dos carriles de dependencia del §9;
+- la ausencia de contradicciones doctrinales prioritarias sin adjudicación;
+- que las diferencias surgidas durante la sesión fueron de inventario/estado documental y no doctrinales;
+- la regla **PREPARADO ≠ INCORPORADO**;
+- que el inventario exhaustivo de apariciones de `R*` es el prerequisito técnico real antes de ejecutar correcciones dependientes.
 
-La comparación no debe borrar las resoluciones ya sostenidas por corpus salvo que aparezca evidencia canónica que realmente las contradiga.
+Por tanto:
+
+> **el checkpoint MANT queda cerrado y la campaña de segunda edición queda habilitada.**
+
+La habilitación no autoriza a inventar calibraciones ni a tratar como demostradas las formalizaciones que permanecen abiertas.
+
+## 13. Primer prerequisito de campaña 2E
+
+Antes de modificar una fuente canónica dependiente de `R*`, debe completarse un inventario transversal de todas sus apariciones y clasificarlas al menos como:
+
+1. definición directa;
+2. axioma, lema, teorema o prueba;
+3. fórmula dependiente;
+4. vector o valor numérico publicado;
+5. ejemplo o caso calculado;
+6. código/pseudocódigo;
+7. interfaz con otro objeto (`S`, `Δ`, `Δ_B`, IIC u otros).
+
+La razón es de dependencia: una sustitución local de la definición de `R*` puede dejar intacta una prueba, un ejemplo o una fórmula aguas abajo que ya no sea válida bajo el operador vigente.
+
+El inventario precede a la incorporación editorial. Ningún recálculo se ejecutará usando las antiguas bandas `E→w` como si siguieran siendo una calibración canónica después de `RES-EVID-001`.
