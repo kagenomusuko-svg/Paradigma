@@ -1,0 +1,45 @@
+name: Integrar AA-VI Nikomachos al mapa
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/integrar-aa6-mapa.yml'
+      - 'scripts/integrar_nikomachos_mapa.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  integrar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Integrar AA-VI al mapa maestro
+        run: python scripts/integrar_nikomachos_mapa.py
+
+      - name: Validar mapa maestro
+        run: python scripts/validar_mapa.py
+
+      - name: Guardar mapa integrado
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add mapa/mapa-maestro.json
+          git diff --cached --quiet && { echo "No hay cambios de mapa para guardar."; exit 0; }
+          git commit \
+            -m "[MANT][MAPA][AA-VI][HECHO] Integrar Nikomachos al mapa maestro" \
+            -m "FASE: MANT — integración incremental de corpus posterior" \
+            -m "HECHO: incorpora AA-VI, evidencia, nodos, relaciones, rutas y review de crosswalk de sum sin borrar formulaciones históricas." \
+            -m "VALIDADO: scripts/validar_mapa.py verde antes del commit." \
+            -m "DECISION: las reviews históricas se conservan; sólo se enlaza resolución posterior donde existe soporte textual explícito." \
+            -m "SIGUIENTE: cerrar continuidad de AA-VI y entregar el mapa actualizado a normalizacion P0→N1."
+          git push
