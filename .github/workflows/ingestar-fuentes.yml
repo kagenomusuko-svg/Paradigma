@@ -6,6 +6,7 @@ on:
     paths:
       - '*.md'
       - '!README.md'
+      - 'scripts/ingestar_fuentes.py'
 
 permissions:
   contents: write
