@@ -169,3 +169,11 @@ Después de este saneamiento:
 - ninguna nota 2E de esta sesión puede citarse por sí sola como prueba de que el autor aprobó todos sus detalles de implementación.
 
 La ejecución editorial deberá volver siempre a la resolución específica, a su proveniencia y, cuando corresponda, a la fuente canónica.
+
+## 9. Continuidad
+
+Este saneamiento no crea una nueva fase ni un nuevo plan de trabajo. Conserva el `SIGUIENTE` operativo posterior a la retirada del inventario paralelo:
+
+> **MANT — reanudar la campaña 2E desde el mapa maestro, `2E-RSTAR-001` y `2E-RSTAR-RECALCULO-001`; no crear inventarios paralelos.**
+
+Cualquier clasificación nueva que resulte útil deberá declarar su estatus de herramienta editorial o inferencia, salvo adjudicación autoral expresa.
