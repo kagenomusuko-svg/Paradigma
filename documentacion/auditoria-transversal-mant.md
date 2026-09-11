@@ -27,7 +27,7 @@ Esta auditoría usa cuatro estados distintos.
 
 ### 2.1 Tensión adjudicada
 
-Existe una resolución que fija qué lectura o arquitectura gobierna hacia adelante, aunque la primera edición conserve la formulación histórica.
+Existe una adjudicación que fija qué lectura o arquitectura gobierna hacia adelante, aunque la primera edición conserve la formulación histórica.
 
 ### 2.2 Deuda formal/metrológica
 
@@ -54,30 +54,31 @@ Sólo el primer estado bloquea por sí mismo el cierre de una tensión MANT. Los
 | `Δ_B` | `RES-DELTAB-001` | objeto/tipo/fórmula adjudicados | `G_B`, `R*_B`, beneficio total, doble conteo |
 | φ₂ / observabilidad | `RES-PHI2-OBS-001` | frontera ontológica/metrológica adjudicada | fiabilidad e identificabilidad de proxies |
 | `RSC` / `I(t)` | `RES-RSC-IT-001` | distinción conceptual adjudicada | representación matemática y operador de integración |
-| `S` | `RES-S-001` | constructo adjudicado | contrafactual exacto, estimador, proxies y calibración |
+| `S` | `AUD-S-001` + adjudicación autoral de `2E-S-001` (`1a532f07`) | constructo adjudicado | contrafactual exacto, estimador, proxies y calibración |
 | SDO → Prometeo | `RES-SDO-PROM-001` | interfaz conceptual adjudicada | reparación editorial y validación instrumental |
 | HISTOS → Prometeo | `RES-HISTOS-PROM-001` + precisión | interfaz/temporalidad adjudicadas | implementación editorial, trazabilidad y validación |
 | E0–E8 / `w` | `RES-EVID-001` | arquitectura epistémica adjudicada | estimador `ŵ`, `U(ŵ)`, perfiles y combinación |
 | IIC | `RES-IIC-001` | escala/semántica adjudicadas | estimador, materialidad, `k`, ajuste de `W`, fraude annona |
 | REC | `RES-REC-001` | error formal y alcance adjudicados | multinomial, Fisher matricial, `τ`, predictibilidad |
 
-La existencia de una entrada `2E-...` no se usa como prueba de que el problema esté matemáticamente resuelto. Se usa únicamente como evidencia de que la reparación editorial correspondiente está identificada y diferida.
+La existencia de una entrada `2E-...` no se usa por sí sola como prueba de que un problema esté matemáticamente resuelto. En `S`, sin embargo, el propio commit `1a532f07e31eb8e65662088e159a6a7ea999c100` registra expresamente una **adjudicación autoral** del constructo; por ello no hacía falta crear una resolución adicional para volver a decidir lo ya decidido.
 
-## 4. Hallazgo documental corregido durante esta verificación: `S`
+## 4. Comprobación de `S`: ya estaba resuelta
 
-Antes de esta auditoría existía una asimetría documental:
+La revisión del historial anterior a esta auditoría muestra una secuencia suficiente y explícita:
 
-- `AUD-S-001` registraba el problema;
-- `2E-S-001` contenía ya una adjudicación autoral clara del constructo;
-- no existía un `RES-S-001` autónomo equivalente a las demás familias prioritarias.
+- `d5bde166600171908aee4e0cdccb0200739bb625` añadió `AUD-S-001` y decidió que **no existe tensión doctrinal nuclear en S**: el concepto de sustituibilidad es estable, mientras los problemas pertenecen al tipado, la formalización y la calibración;
+- `1a532f07e31eb8e65662088e159a6a7ea999c100` añadió `2E-S-001` y registró expresamente la **adjudicación autoral**: el concepto de sustituibilidad se mantiene y la segunda edición debe normalizar su fórmula y aparato de medición sobre el `R*` vigente, separando constructo, estimador y operacionalización.
 
-La asimetría no era una nueva contradicción del corpus, pero sí un riesgo de continuidad: un agente podía leer la auditoría y concluir que la doctrina de `S` seguía abierta aunque la decisión estuviera escondida dentro de una nota de segunda edición.
+Por tanto, la afirmación de que faltaba una adjudicación autónoma de `S` fue incorrecta. La ausencia de un archivo llamado `resolucion-s.md` no significaba ausencia de decisión: la decisión ya estaba fijada materialmente por el commit autoral de `2E-S-001`.
 
-Se corrige mediante `RES-S-001`, que fija:
+La creación posterior de `RES-S-001` en `4d8ce7263d81dae78360bd37f859222b57c05075` fue redundante y debe retirarse. No añade una nueva doctrina ni debe convertirse en una segunda adjudicación del mismo objeto.
+
+La lectura vigente de `S` continúa siendo la ya fijada antes de esta verificación:
 
 `constructo S estable ≠ S_prob ≠ S_op ≠ S_est ≠ S_app`.
 
-El estimador sigue pendiente; la doctrina del objeto no.
+El estimador formal sigue pendiente; la doctrina del objeto no.
 
 ## 5. Deudas formales de alta dependencia
 
