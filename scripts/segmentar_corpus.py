@@ -112,6 +112,18 @@ SPECS = [
         ],
     },
     {
+        "source": "Afrodita_Areia_Nikomachos.md",
+        "dest": "corpus/libros/afrodita-areia/06-nikomachos",
+        "title": "Afrodita Areia: Nikomachos — El límite de la predicación",
+        "series": "Afrodita Areia",
+        "volume": 6,
+        "markers": [
+            ("prologo", exact("## Prólogo")),
+            ("chapter", regex(r"## Capítulo [IVXLCDM]+")),
+            ("epilogo", exact("## Epílogo")),
+        ],
+    },
+    {
         "source": "Caos_El_abismo_del_ego_y_la_doble_mediacion.md",
         "dest": "corpus/libros/caos",
         "title": "Caos: El abismo del ego y la doble mediación",
