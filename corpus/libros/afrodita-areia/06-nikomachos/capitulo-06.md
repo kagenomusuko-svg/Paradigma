@@ -250,3 +250,5 @@ El libro no sale invicto de su propia auditoría. Sale honesto, que es lo que pu
 ¹³ Anselmo de Canterbury, *Proslogion* (c. 1077-1078), cap. II-IV. El argumento ontológico en su formulación original: «Dios es aquello mayor que lo cual nada puede pensarse» (aliquid quo nihil maius cogitari potest); si existiera solo en el entendimiento y no en la realidad, podría pensarse algo mayor; luego existe en la realidad. La primera objeción del monje Gaunilón: podría argumentarse lo mismo de la isla perfecta.
 
 ¹⁴ Kant, Immanuel, *Crítica de la razón pura*, A592-602/B620-630: «Del imposible argumento ontológico de la existencia de Dios». La existencia no es un predicado real: no agrega nada a la descripción del objeto sino que lo pone como existente. «Cien táleros reales no contienen ni un centavo más que cien táleros posibles.» El argumento ontológico confunde la posición lógica de un concepto con la existencia real de un objeto.
+
+

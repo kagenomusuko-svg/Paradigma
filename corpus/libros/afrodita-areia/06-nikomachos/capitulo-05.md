@@ -252,3 +252,5 @@ El capítulo siguiente examina los instrumentos que autorizan los tránsitos ent
 ⁴ Aristóteles, *Categorías*, caps. 4-9 (1b25-11b14). Las diez categorías: sustancia (οὐσία), cantidad (ποσόν), cualidad (ποιόν), relación (πρός τι), lugar (ποῦ), tiempo (ποτέ), posición (κεῖσθαι), estado (ἔχειν), acción (ποιεῖν), pasión (πάσχειν). No todo puede predicarse de todo: la categoría del predicado tiene que ser compatible con la categoría del sujeto para que la predicación tenga sentido. La cualidad «blanco» puede predicarse de la sustancia «Pedro»; la sustancia «Pedro» no puede predicarse de la cualidad «blanco».
 
 ⁵ Korzybski, Alfred, *Science and Sanity* (1933): «el mapa no es el territorio». La confusión entre la representación y lo representado es la fuente de algunos de los errores más persistentes en el pensamiento humano. Para los propósitos de este libro: la predicación no es el ser del predicado, del mismo modo en que el mapa no es el territorio que representa. Un mapa muy preciso puede ser enormemente útil sin dejar de ser un mapa.
+
+

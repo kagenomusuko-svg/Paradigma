@@ -256,3 +256,5 @@ El embargo de dignidad es, en última instancia, la operación que pretende prod
 ⁴ Para la historia del monstruo como figura cultural y filosófica, véase Daston, Lorraine, y Park, Katharine, *Wonders and the Order of Nature, 1150-1750* (1998), especialmente caps. 5-6. El monstruo como portento (augurio de desastre), como error de la naturaleza (fracaso de la forma), como maravilla (signo de la plenitud del poder divino). La secularización del concepto y su migración hacia el lenguaje moral moderno.
 
 ⁵ Para el juicio de Nuremberg como problema filosófico y jurídico, véase Jaspers, Karl, *El problema de la culpa* (1946) — escrito en 1945, antes de que el juicio terminara. La distinción de Jaspers entre culpa criminal (determinable jurídicamente), culpa política (colectiva, por participación en el sistema), culpa moral (individual, por no haber resistido) y culpa metafísica (por no haber hecho todo lo posible para impedir el crimen). También Shklar, Judith, *Legalism: Law, Morals, and Political Trials* (1964), especialmente cap. 5.
+
+

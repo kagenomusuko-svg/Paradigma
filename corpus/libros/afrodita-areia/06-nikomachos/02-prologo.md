@@ -134,3 +134,5 @@ Desde ahí construye hacia arriba. Hacia el colapso que produce ser determinado.
 La respuesta no se da en el Prólogo. Se construye en los doce capítulos que siguen. Pero la pregunta puede instalarse aquí, antes de que el recorrido comience, porque es la pregunta que hace necesario el recorrido.
 
 Ahí está el comienzo.
+
+

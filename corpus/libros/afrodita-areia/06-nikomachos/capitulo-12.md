@@ -121,7 +121,7 @@ M(x) = malo, como predicado ontológico, dice que el ser de x tiene la propiedad
 
 Lo que sí puede predicarse — con precisión, con jurisdicción específica, con criterios declarables — es M(A) = malo como predicado evaluativo del acto: el acto A, evaluado desde los criterios morales o jurídicos que se declaran, es condenable. Y desde ahí puede seguirse la imputación de A a x, la sanción correspondiente, la reparación debida, las medidas de protección justificadas. Todo eso sin cruzar la frontera que el argumento protege.
 
-El norte editorial formuló esta restricción con una precisión que vale la pena reproducir: *Νικόμαχος* no debe convertir la renuncia a la ontologización en indulgencia. La responsabilidad sin juicio ontológico es más exigente que la responsabilidad con juicio ontológico — no más indulgente. Porque la responsabilidad con juicio ontológico puede siempre apelar a «pero ese ser es malo» cuando los argumentos fallan. La responsabilidad sin juicio ontológico no tiene ese recurso: tiene que sostener cada operación con sus propios instrumentos declarados.
+*Νικόμαχος* no debe convertir la renuncia a la ontologización en indulgencia. La responsabilidad sin juicio ontológico es más exigente que la responsabilidad con juicio ontológico — no más indulgente. Porque la responsabilidad con juicio ontológico puede siempre apelar a «pero ese ser es malo» cuando los argumentos fallan. La responsabilidad sin juicio ontológico no tiene ese recurso: tiene que sostener cada operación con sus propios instrumentos declarados.
 
 ---
 
@@ -280,6 +280,8 @@ Y lo que no puede predicarse no necesita predicarse. La responsabilidad es sufic
 ---
 
 ¹ Rimbaud, Arthur, *Une Saison en Enfer* (1873), «Adieu»: «Jadis, si je me souviens bien, ma vie était un festin où s'ouvraient tous les cœurs, où tous les vins coulaient. Un soir, j'ai assis la Beauté sur mes genoux. — Et je l'ai trouvée amère. — Et je l'ai injuriée. Je me suis armé contre la justice. Je me suis enfui. Ô sorcières, ô misère, ô haine, c'est à vous que mon trésor a été confié! [...] Moi! moi qui me suis dit mage ou ange, dispensé de toute morale, je suis rendu au sol, avec un devoir à chercher, et la réalité rugueuse à étreindre! Paysan!» Y en particular «Mauvais Sang»: «Les paiens, je le sais, n'ont pas de chrétienté pour aller en enfer.» — «Los paganos, lo sé, no tienen la cristiandad para ir al infierno.» La imagen funciona como estructura de jurisdicción: el infierno es un sistema punitivo construido para administrar las consecuencias de una economía moral específica; quien está fuera de esa economía moral no es destinatario del sistema que la administra, no porque su vida sea mejor sino porque es de un tipo que el sistema no tiene instrumentos para procesar.
+
+
 # Νικόμαχος
 ## El límite de la predicación
 ### Ser, dignidad y responsabilidad después del noúmeno

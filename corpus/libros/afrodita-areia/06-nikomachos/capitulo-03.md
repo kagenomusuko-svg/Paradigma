@@ -222,3 +222,5 @@ El capítulo siguiente preguntará qué ocurre cuando se intenta ignorar esa fro
 ¹² La decisión de la Unión Astronómica Internacional de excluir a Plutón de la categoría «planeta» en la Asamblea General de Praga, 24 de agosto de 2006, es filosóficamente útil precisamente porque la decisión fue controvertida y muchos la sintieron como una degradación. Lo que la controversia revela: la confusión entre la clasificación (el modo de ser «planeta» que el sistema humano de clasificación astronómica asigna) y el ser de Plutón (su determinación física, geológica y orbital). Plutón no cambió. La categoría cambió.
 
 ¹³ La noción de honor manchado (*pollutio*, *macula*) en la teología moral medieval; la pérdida de la *dignitas* por la infamia en el derecho romano; la degradación del samurái en la tradición japonesa. Todos estos sistemas reconocen propiedades valorativas que pueden adquirirse y perderse. El sum no niega esos sistemas: los sitúa en sus propias escalas, separadas de la dignidad del ser en tanto ser.
+
+

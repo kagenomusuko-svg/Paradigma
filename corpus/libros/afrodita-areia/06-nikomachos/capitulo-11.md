@@ -236,3 +236,5 @@ El capítulo siguiente examina el territorio donde toda esa articulación se pon
 ⁵ Hart, *El concepto de derecho*, cap. IX: «Derecho y moral». El principio de que la obligación de obedecer presupone la posibilidad de obedecer es uno de los principios mínimos de justicia natural que cualquier sistema jurídico tiene que satisfacer para ser un sistema genuino. Para la discusión sobre capacidad y responsabilidad penal, véase cap. VII: «El formalismo y el escepticismo ante las reglas».
 
 ⁶ La imputabilidad como capacidad de comprender y querer es la definición estándar en el derecho penal continental. Código Penal español, art. 20; Código Penal mexicano, art. 15; Código Penal alemán (StGB), §20. Para la fundamentación filosófica, véase Jakobs, Günther, *Derecho penal: Parte general. Fundamentos y teoría de la imputación* (1991/1995), especialmente §§17-18.
+
+

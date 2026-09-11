@@ -257,3 +257,5 @@ Lo que puede decirse — y puede decirse con toda la severidad que la evidencia,
 ⁸ Kant, Immanuel, *Metafísica de las costumbres* (1797), Primera parte: «Principios metafísicos de la doctrina del derecho», Introducción. También *Religión dentro de los límites de la mera razón* (1793), Primera parte: el concepto de carácter inteligible como la disposición moral fundamental del sujeto — la elección originaria que el noúmeno del sujeto hizo antes de cualquier acto fenoménico específico. Allison, Henry E., *Kant's Theory of Freedom* (1990), caps. 6-7.
 
 ⁹ La tensión entre la imputabilidad específica y la inaccesibilidad del noúmeno es el problema que la tradición kantiana llama el «factum de la razón» — el hecho de que la razón práctica se imponga a sí misma como legisladora, que es la única evidencia disponible de la libertad trascendental. Para el debate contemporáneo, véase Korsgaard, Christine, *Self-Constitution: Agency, Identity, and Integrity* (2009), especialmente cap. 3, y Herman, Barbara, *The Practice of Moral Judgment* (1993), cap. 7.
+
+

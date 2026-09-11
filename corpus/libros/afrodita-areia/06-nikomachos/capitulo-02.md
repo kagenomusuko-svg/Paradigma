@@ -221,3 +221,5 @@ Eso es la Parte II.
 ⁶ Aristóteles, *Física*, II, 1, 192b8-23; *Metafísica*, IX, 6-9, 1048a25-1051b2. La distinción entre potencia (*dynamis*) y acto (*energeia*). La teleología aristotélica: la potencia tiende naturalmente hacia el acto que le es propio, el acto más perfecto hacia el cual esa potencia apunta. La semilla tiende al árbol porque el árbol es la actualización de la potencia propia de la semilla.
 
 ⁷ Hume, David. *Tratado sobre la naturaleza humana*, Apéndice (1740): «hay dos principios que no puedo hacer consistentes, y que me parece imposible renunciar a ninguno de ellos: que todas nuestras percepciones distintas son existencias distintas, y que la mente nunca percibe ninguna conexión real entre existencias distintas». Hume reconoció que su teoría del yo como haz de percepciones no podía explicar la unidad del haz sin postular algo que su propia teoría excluía.
+
+

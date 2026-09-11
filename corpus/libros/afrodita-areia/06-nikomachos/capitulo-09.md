@@ -244,3 +244,5 @@ El capítulo siguiente examina exactamente el punto donde las inferencias legít
 ⁸ Aristóteles, *Ética Nicomáquea*, Libro II, 1103a14-b25. La formación del carácter a través del hábito: «nos hacemos justos practicando actos justos, y valientes practicando actos valientes». El carácter virtuoso no es innato sino adquirido mediante la repetición de actos hasta que las disposiciones se incorporen como parte del quién del sujeto. Para la confirmación psicológica contemporánea, véase Duhigg, Charles, *El poder de los hábitos* (2012) y Baumeister, Roy, y Tierney, John, *Willpower* (2011).
 
 ⁹ Ricoeur, Paul, *Sí mismo como otro* (1990), Estudio V-VI. La distinción entre identidad-idem (mismidad: lo que permanece igual a través del cambio) e identidad-ipse (ipseidad: el quién del sujeto que se mantiene fiel a sus compromisos). La narrativa como la forma en que el sujeto integra las dos dimensiones de su identidad: «¿quién soy yo?» se responde contando la historia de mi vida. Para la relación con la imputabilidad, véanse los Estudios VII-VIII: el sujeto responsable es el que puede imputarse sus propios actos como parte de la historia que lo constituye.
+
+

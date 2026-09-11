@@ -140,6 +140,8 @@ Desde ahí construye hacia arriba. Hacia el colapso que produce ser determinado.
 La respuesta no se da en el Prólogo. Se construye en los doce capítulos que siguen. Pero la pregunta puede instalarse aquí, antes de que el recorrido comience, porque es la pregunta que hace necesario el recorrido.
 
 Ahí está el comienzo.
+
+
 ## Capítulo I
 
 ### Antes de la determinación
@@ -259,7 +261,7 @@ Hay una tentación simétrica a la que ya se describió respecto del Caos, y que
 
 La tentación dice: el no-ser es el dominio de las cosas que no existen — los objetos imposibles, los seres ficticios antes de ser creados, los estados de affairs que nunca se actualicen. Como si el ser y el no-ser fueran dos campos adyacentes con una frontera entre ellos, y lo que hay en el campo del no-ser fueran todos los objetos ausentes, todos los seres posibles que todavía no han colapsado, todas las determinaciones que nunca se actualizarán.
 
-Esa imagen destruye exactamente lo que la frontera parmenídea establece. Si el no-ser fuera un dominio con contenido — aunque fuera un contenido de objetos no-existentes —, el no-ser sería algo, y algo que es no es no-ser. La paradoja es visible: para que el no-ser tenga contenido, ese contenido tiene que ser de algún modo; pero si es, ya no pertenece al no-ser. El propio Parménides lo señaló: incluso pensar el no-ser es ya una forma de darle ser, y esa es exactamente la trampa que hay que evitar.⁹
+Esa imagen destruye exactamente lo que la frontera parmenídea establece. Si el no-ser fuera un dominio con contenido — aunque fuera un contenido de objetos no existentes —, el no-ser sería algo, y algo que es no es no-ser. La paradoja es visible: para que el no-ser tenga contenido, ese contenido tiene que ser de algún modo; pero si es, ya no pertenece al no-ser. El propio Parménides lo señaló: incluso pensar el no-ser es ya una forma de darle ser, y esa es exactamente la trampa que hay que evitar.⁹
 
 La ontología analítica del siglo XX intentó resolver el problema con distintos recursos. Meinong propuso que hay objetos que no tienen existencia pero que sí tienen ser — los objetos que meramente subsisten, como los seres ficticios o los objetos imposibles.¹⁰ Russell respondió que eso es hablar de forma gramaticalmente correcta de nada, y que el análisis lógico de las oraciones sobre lo inexistente muestra que no predican nada de ningún objeto real. La controversia sigue abierta, pero el sum tiene una posición precisa respecto de ella: el no-ser no es un dominio. No tiene contenido. No puede convertirse en objeto de predicación positiva sin dejar de ser no-ser.
 
@@ -312,6 +314,8 @@ Esa es la pregunta que el siguiente capítulo tiene que responder.
 ⁹ Parménides, DK 28 B 7: «οὐ γὰρ μήποτε τοῦτο δαμῇ εἶναι μὴ ἐόντα» — nunca podría esto doblegarse: que las cosas que no son, sean. Y B 6: «μὴ ἐόν» — lo que no es — no puede ser pensado ni dicho sin ya darle un tipo de ser. La trampa que la ontología tiene que evitar: hablar del no-ser como si fuera un objeto produce siempre una contradicción, porque el acto mismo de nombrarlo lo convierte en algo que es.
 
 ¹⁰ Meinong, Alexius, «Über Gegenstandstheorie» (1904), en *Untersuchungen zur Gegenstandstheorie und Psychologie*. La teoría de los objetos: hay objetos que subsisten sin existir (los objetos abstractos), objetos que ni subsisten ni existen (los objetos imposibles como el círculo cuadrado), y objetos que existen (los objetos físicos). Russell respondió en «On Denoting», *Mind* 14 (1905): 479-493, con el análisis de las descripciones definidas: «el actual rey de Francia» no denota ningún objeto — es una función proposicional que falla por no tener instancia.
+
+
 ## Capítulo II
 
 ### El ser es en tanto está
@@ -535,6 +539,8 @@ Eso es la Parte II.
 ⁶ Aristóteles, *Física*, II, 1, 192b8-23; *Metafísica*, IX, 6-9, 1048a25-1051b2. La distinción entre potencia (*dynamis*) y acto (*energeia*). La teleología aristotélica: la potencia tiende naturalmente hacia el acto que le es propio, el acto más perfecto hacia el cual esa potencia apunta. La semilla tiende al árbol porque el árbol es la actualización de la potencia propia de la semilla.
 
 ⁷ Hume, David. *Tratado sobre la naturaleza humana*, Apéndice (1740): «hay dos principios que no puedo hacer consistentes, y que me parece imposible renunciar a ninguno de ellos: que todas nuestras percepciones distintas son existencias distintas, y que la mente nunca percibe ninguna conexión real entre existencias distintas». Hume reconoció que su teoría del yo como haz de percepciones no podía explicar la unidad del haz sin postular algo que su propia teoría excluía.
+
+
 ## Capítulo III
 
 ### Lo que es es digno de ser lo que es
@@ -759,6 +765,8 @@ El capítulo siguiente preguntará qué ocurre cuando se intenta ignorar esa fro
 ¹² La decisión de la Unión Astronómica Internacional de excluir a Plutón de la categoría «planeta» en la Asamblea General de Praga, 24 de agosto de 2006, es filosóficamente útil precisamente porque la decisión fue controvertida y muchos la sintieron como una degradación. Lo que la controversia revela: la confusión entre la clasificación (el modo de ser «planeta» que el sistema humano de clasificación astronómica asigna) y el ser de Plutón (su determinación física, geológica y orbital). Plutón no cambió. La categoría cambió.
 
 ¹³ La noción de honor manchado (*pollutio*, *macula*) en la teología moral medieval; la pérdida de la *dignitas* por la infamia en el derecho romano; la degradación del samurái en la tradición japonesa. Todos estos sistemas reconocen propiedades valorativas que pueden adquirirse y perderse. El sum no niega esos sistemas: los sitúa en sus propias escalas, separadas de la dignidad del ser en tanto ser.
+
+
 ## Capítulo IV
 
 ### La dignidad no compara
@@ -800,9 +808,9 @@ Platón realizó ese movimiento con la razón como criterio del ser pleno. Los s
 
 Aristóteles retuvo la jerarquía aunque rechazó la metafísica de las Ideas. La escala del ser — mineral, planta, animal, humano — es una escala de complejidad y de función: cada nivel superior tiene las capacidades de los inferiores más las suyas propias. El humano tiene alma vegetativa y sensitiva y racional; la planta tiene solo vegetativa; la piedra no tiene ninguna. Esa diferencia es real para Aristóteles y tiene consecuencias: el alma racional es lo que hace al humano ser humano en plenitud, y los seres sin alma racional son seres de una especie inferior — no seres disminuidos en sentido peyorativo, pero sí seres en un peldaño más bajo de la escala.²
 
-Hegel llevó la jerarquía al nivel histórico. El Espíritu se despliega en el tiempo, y los pueblos, las culturas y las épocas que han llegado más cerca de la auto-conciencia del Espíritu son culturalmente superiores a los que no han llegado. El Espíritu absoluto no ha llegado a todos los pueblos por igual — hay pueblos que están en un estadio más primitivo del desarrollo espiritual, y esa primitividad es una deficiencia histórica, no meramente una diferencia. El colonialismo encontró en ese argumento una justificación filosófica que Hegel no habría rechazado con la facilidad que sus admiradores modernos desearían.³
+Hegel llevó la jerarquía al nivel histórico. El Espíritu se despliega en el tiempo, y los pueblos, las culturas y las épocas que han llegado más cerca de la autoconciencia del Espíritu son culturalmente superiores a los que no han llegado. El Espíritu absoluto no ha llegado a todos los pueblos por igual — hay pueblos que están en un estadio más primitivo del desarrollo espiritual, y esa primitividad es una deficiencia histórica, no meramente una diferencia. El colonialismo encontró en ese argumento una justificación filosófica que Hegel no habría rechazado con la facilidad que sus admiradores modernos desearían.³
 
-Nietzsche invirtió la jerarquía pero no la estructura. Lo que Platón, Aristóteles y Hegel celebraban como el criterio del ser pleno — la razón, el alma racional, la auto-conciencia espiritual — Nietzsche lo denunció como la ideología de los débiles, el resentimiento de quienes no pueden afirmar su vida y necesitan degradar la vida para sentirse superiores. La voluntad de poder es el criterio auténtico: los seres que afirman su poder sin pedir permiso ni justificación son seres más plenos; los que necesitan la moral del rebaño para sobrevivir son seres más disminuidos.⁴ La jerarquía se invirtió; la estructura permaneció intacta. Sigue habiendo seres más plenos y seres más deficitarios, solo que el criterio cambió.
+Nietzsche invirtió la jerarquía pero no la estructura. Lo que Platón, Aristóteles y Hegel celebraban como el criterio del ser pleno — la razón, el alma racional, la autoconciencia espiritual — Nietzsche lo denunció como la ideología de los débiles, el resentimiento de quienes no pueden afirmar su vida y necesitan degradar la vida para sentirse superiores. La voluntad de poder es el criterio auténtico: los seres que afirman su poder sin pedir permiso ni justificación son seres más plenos; los que necesitan la moral del rebaño para sobrevivir son seres más disminuidos.⁴ La jerarquía se invirtió; la estructura permaneció intacta. Sigue habiendo seres más plenos y seres más deficitarios, solo que el criterio cambió.
 
 Lo que el sum establece es que todas esas jerarquías comparten el mismo error de categoría: confunden los modos del ser con el ser, y producen escalas de plenitud ontológica que no tienen base en el ser en tanto ser. La piedra no es un ser disminuido respecto del humano. Tiene un modo de ser diferente. El pueblo que Hegel declaró primitivo no es un pueblo en un estadio inferior del ser. Tiene un modo histórico-cultural de ser diferente — diferente, no deficitario. El esclavo nietzscheano no es un ser de menor voluntad de poder que el amo en términos del ser: tiene un modo diferente de estar siendo, con las determinaciones específicas de su trayectoria particular.
 
@@ -876,7 +884,7 @@ Para que esa operación tenga sentido, tiene que satisfacer ciertas condiciones.
 
 Ninguna de esas tres condiciones puede satisfacerse sin producir una contradicción.
 
-Si el patrón del ser pleno del humano es la racionalidad — como en Kant —, entonces el humano irracional no es simplemente un humano que no razona bien sino un ser que no satisface el criterio del ser humano pleno. Pero entonces el criterio de la dignidad kantiana tiene que excluir a los humanos que no son racionales, y esa exclusión es exactamente el tipo de jerarquía ontológica que el sum rechaza.⁶ Si el criterio es la capacidad de sufrir — como en Bentham —, excluye a los seres que no pueden sufrir. Si el criterio es la auto-conciencia — como en Hegel —, excluye a los seres que no la han alcanzado. En todos los casos, el patrón que define el ser pleno excluye a seres que son — y los excluye por razones que operan en la escala del modo de ser, no en la escala del ser *qua ser*.
+Si el patrón del ser pleno del humano es la racionalidad — como en Kant —, entonces el humano irracional no es simplemente un humano que no razona bien sino un ser que no satisface el criterio del ser humano pleno. Pero entonces el criterio de la dignidad kantiana tiene que excluir a los humanos que no son racionales, y esa exclusión es exactamente el tipo de jerarquía ontológica que el sum rechaza.⁶ Si el criterio es la capacidad de sufrir — como en Bentham —, excluye a los seres que no pueden sufrir. Si el criterio es la autoconciencia — como en Hegel —, excluye a los seres que no la han alcanzado. En todos los casos, el patrón que define el ser pleno excluye a seres que son — y los excluye por razones que operan en la escala del modo de ser, no en la escala del ser *qua ser*.
 
 Aquí el argumento del sum no necesita elegir entre esos criterios ni proponer uno propio. Solo necesita mostrar que cualquier criterio de ser pleno que se aplique al ser *qua ser* produce la misma contradicción: o excluye seres que son — en cuyo caso aplica un criterio de modo de ser como si fuera criterio del ser en tanto ser —, o no excluye a nadie — en cuyo caso no produce ninguna jerarquía ontológica y la pregunta por el déficit ontológico no tiene objeto.
 
@@ -956,7 +964,7 @@ La Parte III de este libro examina exactamente eso: la gramática de la predicac
 
 ² Aristóteles, *Sobre el alma* (*De anima*), II.2-3, 413a20-414b20. La escala de las almas: vegetativa (plantas), sensitiva (animales), racional (humanos). Cada nivel superior incorpora las funciones de los inferiores más las suyas propias. La jerarquía no es evaluativa en el sentido moral, pero sí ontológica en el sentido de que implica distintos grados de complejidad del ser.
 
-³ Hegel, G.W.F., *Lecciones sobre la filosofía de la historia universal* (1822-1831), Introducción. El desarrollo del Espíritu en el tiempo produce una jerarquía histórica de los pueblos según su proximidad a la auto-conciencia del Espíritu absoluto. Para el problema del colonialismo en Hegel, véase Bernasconi, Robert, «With What Must the Philosophy of World History Begin? On the Racial Basis of Hegel's Eurocentrism», *Nineteenth-Century Contexts* 22 (2000): 171-201.
+³ Hegel, G.W.F., *Lecciones sobre la filosofía de la historia universal* (1822-1831), Introducción. El desarrollo del Espíritu en el tiempo produce una jerarquía histórica de los pueblos según su proximidad a la autoconciencia del Espíritu absoluto. Para el problema del colonialismo en Hegel, véase Bernasconi, Robert, «With What Must the Philosophy of World History Begin? On the Racial Basis of Hegel's Eurocentrism», *Nineteenth-Century Contexts* 22 (2000): 171-201.
 
 ⁴ Nietzsche, Friedrich, *Así habló Zaratustra* (1883-1885), especialmente «De las tres transformaciones» y «Del camino del creador»; *La genealogía de la moral* (1887), Segunda disertación. La voluntad de poder como criterio del ser pleno y la moral del rebaño como la ideología de los débiles que invierte los valores auténticos para convertir su debilidad en virtud.
 
@@ -969,6 +977,8 @@ La Parte III de este libro examina exactamente eso: la gramática de la predicac
 ⁸ La muerte civil (*mors civilis*) en el derecho medieval y moderno: el individuo condenado a ciertas penas graves — destierro perpetuo, esclavitud de galeras, profesión religiosa irrevocable — perdía su personalidad jurídica civil. No podía contraer matrimonio, no podía heredar, no podía ser parte en juicios. Fue abolida progresivamente en Europa durante el siglo XIX. Para su historia, véase Coke, Edward, *Institutes of the Lawes of England* (1628), y la discusión moderna en Goffman, Erving, *Asylums* (1961).
 
 ⁹ Agamben, Giorgio, *Homo Sacer: El poder soberano y la nuda vida* (1995). La distinción griega entre *zōe* (vida biológica, el mero hecho de vivir) y *bios* (vida cualificada, la forma de vida que le corresponde a un individuo o un grupo). El homo sacer es el ser al que la vida política ha reducido a la mera *zōe* — puede ser matado sin que ese acto sea homicidio ni sacrificio. El campo de concentración como espacio donde esa reducción se realiza a escala y donde la excepción se convierte en regla.
+
+
 ## Capítulo V
 
 ### Predicar sin agotar
@@ -1223,6 +1233,8 @@ El capítulo siguiente examina los instrumentos que autorizan los tránsitos ent
 ⁴ Aristóteles, *Categorías*, caps. 4-9 (1b25-11b14). Las diez categorías: sustancia (οὐσία), cantidad (ποσόν), cualidad (ποιόν), relación (πρός τι), lugar (ποῦ), tiempo (ποτέ), posición (κεῖσθαι), estado (ἔχειν), acción (ποιεῖν), pasión (πάσχειν). No todo puede predicarse de todo: la categoría del predicado tiene que ser compatible con la categoría del sujeto para que la predicación tenga sentido. La cualidad «blanco» puede predicarse de la sustancia «Pedro»; la sustancia «Pedro» no puede predicarse de la cualidad «blanco».
 
 ⁵ Korzybski, Alfred, *Science and Sanity* (1933): «el mapa no es el territorio». La confusión entre la representación y lo representado es la fuente de algunos de los errores más persistentes en el pensamiento humano. Para los propósitos de este libro: la predicación no es el ser del predicado, del mismo modo en que el mapa no es el territorio que representa. Un mapa muy preciso puede ser enormemente útil sin dejar de ser un mapa.
+
+
 ## Capítulo VI
 
 ### ¿Qué hay en la flecha?
@@ -1475,6 +1487,8 @@ El libro no sale invicto de su propia auditoría. Sale honesto, que es lo que pu
 ¹³ Anselmo de Canterbury, *Proslogion* (c. 1077-1078), cap. II-IV. El argumento ontológico en su formulación original: «Dios es aquello mayor que lo cual nada puede pensarse» (aliquid quo nihil maius cogitari potest); si existiera solo en el entendimiento y no en la realidad, podría pensarse algo mayor; luego existe en la realidad. La primera objeción del monje Gaunilón: podría argumentarse lo mismo de la isla perfecta.
 
 ¹⁴ Kant, Immanuel, *Crítica de la razón pura*, A592-602/B620-630: «Del imposible argumento ontológico de la existencia de Dios». La existencia no es un predicado real: no agrega nada a la descripción del objeto sino que lo pone como existente. «Cien táleros reales no contienen ni un centavo más que cien táleros posibles.» El argumento ontológico confunde la posición lógica de un concepto con la existencia real de un objeto.
+
+
 ## Capítulo VII
 
 ### Conocer siendo
@@ -1530,7 +1544,7 @@ El escepticismo clásico — desde Pirrón hasta Descartes y más allá — cons
 
 El sum no responde al escepticismo con una refutación directa. Responde con una redirección: el escepticismo está mal planteado porque supone que el conocimiento válido exige certeza absoluta desde una posición sin perspectiva. Esa suposición es la que el sum rechaza — no porque sea imposible de satisfacer, sino porque es una exigencia que ningún conocimiento real ha satisfecho nunca y que el escepticismo instala como criterio precisamente porque sabe que no puede satisfacerse.
 
-El conocimiento situado no requiere certeza absoluta. Requiere algo más modesto y más productivo: evidencia suficiente para las conclusiones que se extraen, transparencia sobre las condiciones desde las cuales se observa, y honestidad sobre la jurisdicción de las conclusiones. Esas son exigencias que el conocimiento científico, histórico, jurídico y cotidiano puede satisfacer — no perfectamente, no sin error, no sin revision — pero satisfacer.
+El conocimiento situado no requiere certeza absoluta. Requiere algo más modesto y más productivo: evidencia suficiente para las conclusiones que se extraen, transparencia sobre las condiciones desde las cuales se observa, y honestidad sobre la jurisdicción de las conclusiones. Esas son exigencias que el conocimiento científico, histórico, jurídico y cotidiano puede satisfacer — no perfectamente, no sin error, no sin revisión — pero satisfacer.
 
 La distinción que el sum introduce aquí es la misma que el Capítulo V construyó para la predicación: inaccesibilidad exhaustiva ≠ inmensurabilidad. No tener acceso exhaustivo al ser *qua ser* de lo que se conoce no equivale a no poder conocer nada de ello. Equivale a conocer desde una posición, con instrumentos que tienen alcance y límite, produciendo verdades que tienen jurisdicción específica.
 
@@ -1726,7 +1740,7 @@ Y es suficiente para todo lo que el libro necesita hacer. Es suficiente para med
 
 ⁴ Einstein, Albert, «Zur Elektrodynamik bewegter Körper» (1905), *Annalen der Physik* 17: 891-921. La relatividad especial sin ninguna referencia a la «naturaleza íntima» del espacio o el tiempo — solo a sus propiedades operacionales: cómo se relacionan las mediciones de distintos observadores en movimiento relativo. La confirmación empírica de la curvatura del espacio-tiempo por el eclipse de 1919 (observaciones de Eddington) es el modelo de conocimiento por efectos: no se observa la curvatura directamente, se observan sus efectos sobre la trayectoria de la luz.
 
-⁵ Sistema Internacional de Unidades (SI), Bureau International des Poids et Mesures. Las siete unidades base — metro, kilogramo, segundo, ampere, kelvin, mol, candela — definidas desde 2019 en términos de constantes físicas fundamentales. El principio metológico: una medición válida debe ser reproducible (otros observadores con los mismos instrumentos obtienen el mismo resultado), trazable (vinculada a los estándares del SI) y tiene una incertidumbre declarada.
+⁵ Sistema Internacional de Unidades (SI), Bureau International des Poids et Mesures. Las siete unidades base — metro, kilogramo, segundo, ampere, kelvin, mol, candela — definidas desde 2019 en términos de constantes físicas fundamentales. El principio metrológico: una medición válida debe ser reproducible (otros observadores con los mismos instrumentos obtienen el mismo resultado), trazable (vinculada a los estándares del SI) y tiene una incertidumbre declarada.
 
 ⁶ El debate sobre la interpretación de la mecánica cuántica — de Copenhague a los mundos múltiples, de las variables ocultas a la teoría de la decoherencia — es el ejemplo más claro de cómo el conocimiento operacional más preciso que existe coexiste con una incertidumbre filosófica profunda sobre qué es lo que ese conocimiento describe. Para una revisión accesible, véase Rovelli, Carlo, *Helgoland* (2020).
 
@@ -1743,6 +1757,8 @@ Y es suficiente para todo lo que el libro necesita hacer. Es suficiente para med
 ¹² Hume, David, *Tratado sobre la naturaleza humana* (1739-1740), Libro I, Parte IV, Sección VI: «De la identidad personal». La búsqueda introspectiva del yo: «Cuando entro más íntimamente en lo que llamo yo mismo, siempre tropiezo con alguna percepción particular u otra, de calor o frío, de luz o sombra, de amor u odio, de dolor o placer. Nunca puedo atraparme a mí mismo en ningún momento sin una percepción, y nunca puedo observar nada más que la percepción».
 
 ¹³ Hume, *Tratado*, I.IV.VI: «Son solo un haz o colección de diferentes percepciones, que se suceden unas a otras con rapidez inconcebible, y están en flujo y movimiento perpetuos». El Apéndice al *Tratado* (1740): Hume reconoce que no puede dar una explicación satisfactoria de cómo las percepciones se unen sin postular algo que su propia teoría excluye — la insatisfacción que el sum resuelve sin recuperar la sustancia que Hume disolvió.
+
+
 ## Capítulo VIII
 
 ### La frontera de la razón
@@ -2002,6 +2018,8 @@ Lo que puede decirse — y puede decirse con toda la severidad que la evidencia,
 ⁸ Kant, Immanuel, *Metafísica de las costumbres* (1797), Primera parte: «Principios metafísicos de la doctrina del derecho», Introducción. También *Religión dentro de los límites de la mera razón* (1793), Primera parte: el concepto de carácter inteligible como la disposición moral fundamental del sujeto — la elección originaria que el noúmeno del sujeto hizo antes de cualquier acto fenoménico específico. Allison, Henry E., *Kant's Theory of Freedom* (1990), caps. 6-7.
 
 ⁹ La tensión entre la imputabilidad específica y la inaccesibilidad del noúmeno es el problema que la tradición kantiana llama el «factum de la razón» — el hecho de que la razón práctica se imponga a sí misma como legisladora, que es la única evidencia disponible de la libertad trascendental. Para el debate contemporáneo, véase Korsgaard, Christine, *Self-Constitution: Agency, Identity, and Integrity* (2009), especialmente cap. 3, y Herman, Barbara, *The Practice of Moral Judgment* (1993), cap. 7.
+
+
 ## Capítulo IX
 
 ### El acto soy yo
@@ -2248,6 +2266,8 @@ El capítulo siguiente examina exactamente el punto donde las inferencias legít
 ⁸ Aristóteles, *Ética Nicomáquea*, Libro II, 1103a14-b25. La formación del carácter a través del hábito: «nos hacemos justos practicando actos justos, y valientes practicando actos valientes». El carácter virtuoso no es innato sino adquirido mediante la repetición de actos hasta que las disposiciones se incorporen como parte del quién del sujeto. Para la confirmación psicológica contemporánea, véase Duhigg, Charles, *El poder de los hábitos* (2012) y Baumeister, Roy, y Tierney, John, *Willpower* (2011).
 
 ⁹ Ricoeur, Paul, *Sí mismo como otro* (1990), Estudio V-VI. La distinción entre identidad-idem (mismidad: lo que permanece igual a través del cambio) e identidad-ipse (ipseidad: el quién del sujeto que se mantiene fiel a sus compromisos). La narrativa como la forma en que el sujeto integra las dos dimensiones de su identidad: «¿quién soy yo?» se responde contando la historia de mi vida. Para la relación con la imputabilidad, véanse los Estudios VII-VIII: el sujeto responsable es el que puede imputarse sus propios actos como parte de la historia que lo constituye.
+
+
 ## Capítulo X
 
 ### Criticar sin sentenciar el ser
@@ -2506,6 +2526,8 @@ El embargo de dignidad es, en última instancia, la operación que pretende prod
 ⁴ Para la historia del monstruo como figura cultural y filosófica, véase Daston, Lorraine, y Park, Katharine, *Wonders and the Order of Nature, 1150-1750* (1998), especialmente caps. 5-6. El monstruo como portento (augurio de desastre), como error de la naturaleza (fracaso de la forma), como maravilla (signo de la plenitud del poder divino). La secularización del concepto y su migración hacia el lenguaje moral moderno.
 
 ⁵ Para el juicio de Nuremberg como problema filosófico y jurídico, véase Jaspers, Karl, *El problema de la culpa* (1946) — escrito en 1945, antes de que el juicio terminara. La distinción de Jaspers entre culpa criminal (determinable jurídicamente), culpa política (colectiva, por participación en el sistema), culpa moral (individual, por no haber resistido) y culpa metafísica (por no haber hecho todo lo posible para impedir el crimen). También Shklar, Judith, *Legalism: Law, Morals, and Political Trials* (1964), especialmente cap. 5.
+
+
 ## Capítulo XI
 
 ### La ley no manda al tornado
@@ -2744,6 +2766,8 @@ El capítulo siguiente examina el territorio donde toda esa articulación se pon
 ⁵ Hart, *El concepto de derecho*, cap. IX: «Derecho y moral». El principio de que la obligación de obedecer presupone la posibilidad de obedecer es uno de los principios mínimos de justicia natural que cualquier sistema jurídico tiene que satisfacer para ser un sistema genuino. Para la discusión sobre capacidad y responsabilidad penal, véase cap. VII: «El formalismo y el escepticismo ante las reglas».
 
 ⁶ La imputabilidad como capacidad de comprender y querer es la definición estándar en el derecho penal continental. Código Penal español, art. 20; Código Penal mexicano, art. 15; Código Penal alemán (StGB), §20. Para la fundamentación filosófica, véase Jakobs, Günther, *Derecho penal: Parte general. Fundamentos y teoría de la imputación* (1991/1995), especialmente §§17-18.
+
+
 ## Capítulo XII
 
 ### Responsabilidad sin juicio ontológico
@@ -2867,7 +2891,7 @@ M(x) = malo, como predicado ontológico, dice que el ser de x tiene la propiedad
 
 Lo que sí puede predicarse — con precisión, con jurisdicción específica, con criterios declarables — es M(A) = malo como predicado evaluativo del acto: el acto A, evaluado desde los criterios morales o jurídicos que se declaran, es condenable. Y desde ahí puede seguirse la imputación de A a x, la sanción correspondiente, la reparación debida, las medidas de protección justificadas. Todo eso sin cruzar la frontera que el argumento protege.
 
-El norte editorial formuló esta restricción con una precisión que vale la pena reproducir: *Νικόμαχος* no debe convertir la renuncia a la ontologización en indulgencia. La responsabilidad sin juicio ontológico es más exigente que la responsabilidad con juicio ontológico — no más indulgente. Porque la responsabilidad con juicio ontológico puede siempre apelar a «pero ese ser es malo» cuando los argumentos fallan. La responsabilidad sin juicio ontológico no tiene ese recurso: tiene que sostener cada operación con sus propios instrumentos declarados.
+*Νικόμαχος* no debe convertir la renuncia a la ontologización en indulgencia. La responsabilidad sin juicio ontológico es más exigente que la responsabilidad con juicio ontológico — no más indulgente. Porque la responsabilidad con juicio ontológico puede siempre apelar a «pero ese ser es malo» cuando los argumentos fallan. La responsabilidad sin juicio ontológico no tiene ese recurso: tiene que sostener cada operación con sus propios instrumentos declarados.
 
 ---
 
@@ -3026,6 +3050,8 @@ Y lo que no puede predicarse no necesita predicarse. La responsabilidad es sufic
 ---
 
 ¹ Rimbaud, Arthur, *Une Saison en Enfer* (1873), «Adieu»: «Jadis, si je me souviens bien, ma vie était un festin où s'ouvraient tous les cœurs, où tous les vins coulaient. Un soir, j'ai assis la Beauté sur mes genoux. — Et je l'ai trouvée amère. — Et je l'ai injuriée. Je me suis armé contre la justice. Je me suis enfui. Ô sorcières, ô misère, ô haine, c'est à vous que mon trésor a été confié! [...] Moi! moi qui me suis dit mage ou ange, dispensé de toute morale, je suis rendu au sol, avec un devoir à chercher, et la réalité rugueuse à étreindre! Paysan!» Y en particular «Mauvais Sang»: «Les paiens, je le sais, n'ont pas de chrétienté pour aller en enfer.» — «Los paganos, lo sé, no tienen la cristiandad para ir al infierno.» La imagen funciona como estructura de jurisdicción: el infierno es un sistema punitivo construido para administrar las consecuencias de una economía moral específica; quien está fuera de esa economía moral no es destinatario del sistema que la administra, no porque su vida sea mejor sino porque es de un tipo que el sistema no tiene instrumentos para procesar.
+
+
 # Νικόμαχος
 ## El límite de la predicación
 ### Ser, dignidad y responsabilidad después del noúmeno
