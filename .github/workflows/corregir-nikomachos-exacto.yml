@@ -1,0 +1,78 @@
+name: Corregir Nikomachos exacto
+
+on:
+  push:
+    paths:
+      - '.github/workflows/corregir-nikomachos-exacto.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  transferir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Descargar artifact verificado
+        run: |
+          set -euo pipefail
+          curl -fL 'https://sdmntprcentralus.oaiusercontent.com/files/00000000-f384-81f5-9a65-767eeb3b9c6c/raw?se=2026-09-11T18%3A30%3A32Z&sp=r&sv=2026-02-06&sr=b&scid=647e75ae-1760-58ff-abfc-34d86567b6b2&skoid=38550de5-1fab-49d1-9ebb-83af5557cc43&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-11T12%3A38%3A21Z&ske=2026-09-12T12%3A38%3A21Z&sks=b&skv=2026-02-06&sig=N4lF4fqF7CBlNoE3RSdjYPJTpgHBvUKFFJUf9ytOHgA%3D' -o /tmp/nikomachos.zip
+          rm -rf /tmp/nikomachos && mkdir -p /tmp/nikomachos
+          unzip -q /tmp/nikomachos.zip -d /tmp/nikomachos
+          FILE=/tmp/nikomachos/Nikomachos_completo.md
+          test "$(wc -c < "$FILE")" = "477333"
+          test "$(git hash-object "$FILE")" = "d7296a59a79c3aca0b860f95933dad62e265e3dd"
+          test "$(sha256sum "$FILE" | awk '{print $1}')" = "5ad5ca58854ab1664dd41e6027ea30f29cc6e5217ee7210e14a612a684a08a21"
+          cp "$FILE" corpus/fuentes/Afrodita_Areia_Nikomachos.md
+          test "$(git hash-object corpus/fuentes/Afrodita_Areia_Nikomachos.md)" = "d7296a59a79c3aca0b860f95933dad62e265e3dd"
+
+      - name: Regenerar estructura derivada
+        run: |
+          set -euo pipefail
+          python scripts/segmentar_corpus.py
+          python scripts/segmentar_lote_02.py
+          python scripts/segmentar_lote_03.py
+          python scripts/construir_catalogo.py
+          python scripts/recalcular_hashes.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('corpus/libros/afrodita-areia/06-nikomachos/estructura.json')
+          d = json.loads(p.read_text(encoding='utf-8'))
+          assert d['series'] == 'Afrodita Areia'
+          assert d['volume'] == 6
+          assert d['sha256'] == '5ad5ca58854ab1664dd41e6027ea30f29cc6e5217ee7210e14a612a684a08a21'
+          kinds = [s['kind'] for s in d['segments']]
+          assert kinds.count('chapter') == 12, kinds
+          assert kinds.count('prologo') == 1, kinds
+          assert kinds.count('epilogo') == 1, kinds
+          print('AA-VI validado:', len(d['segments']), 'segmentos')
+          PY
+
+      - name: Promover fuente y derivados exactos
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add corpus/fuentes/Afrodita_Areia_Nikomachos.md \
+                  corpus/fuentes/SHA256SUMS.txt \
+                  corpus/catalogo-generado.json \
+                  corpus/libros/afrodita-areia/06-nikomachos
+          if git diff --cached --quiet; then
+            echo 'Sin cambios que promover'
+            exit 0
+          fi
+          git commit -m '[MANT][AA-VI][HECHO] Incorporar Nikomachos byte a byte y regenerar derivados' \
+            -m 'ORIGEN: kagenomusuko-svg/borrador-libros@19a2079813b17b35ca4852e26a29e39b8272f438' \
+            -m 'BLOB_ORIGEN: d7296a59a79c3aca0b860f95933dad62e265e3dd' \
+            -m 'SHA256: 5ad5ca58854ab1664dd41e6027ea30f29cc6e5217ee7210e14a612a684a08a21' \
+            -m 'CAMBIO_DE_HITO: no'
+          git push origin HEAD:main
