@@ -128,8 +128,9 @@ SPECS = [
         "dest": "corpus/libros/caos",
         "title": "Caos: El abismo del ego y la doble mediación",
         "markers": [
-            ("chapter", regex(r"### Capítulo [IVXLCDM]+")),
-            ("appendix", regex(r"### Apéndice [IVXLCDM]+")),
+            ("chapter", regex(r"#{1,6} Capítulo [IVXLCDM]+")),
+            ("appendix", regex(r"#{1,6} Apéndice [IVXLCDM]+")),
+            ("bibliography", regex(r"#{1,6} Bibliografía")),
         ],
     },
     {
@@ -181,6 +182,8 @@ def filename(kind: str, heading: str) -> str:
         return "02-prologo.md"
     if kind == "epilogo":
         return "90-epilogo.md"
+    if kind == "bibliography":
+        return "98-bibliografia.md"
     if kind == "glossary":
         return "99-glosario.md"
     if kind == "chapter":
@@ -204,7 +207,14 @@ def detect_boundaries(lines: list[str], spec: dict) -> list[tuple[int, str, str]
         for kind, predicate in spec["markers"]:
             if not predicate(line):
                 continue
-            if kind in {"prefacio", "prologo", "presentacion", "epilogo", "glossary"}:
+            if kind in {
+                "prefacio",
+                "prologo",
+                "presentacion",
+                "epilogo",
+                "bibliography",
+                "glossary",
+            }:
                 if kind == "glossary" and not any(item[1] == "chapter" for item in candidates):
                     break
                 if kind in special_seen:
@@ -234,10 +244,10 @@ def detect_boundaries(lines: list[str], spec: dict) -> list[tuple[int, str, str]
     return result
 
 
-def segment(spec: dict) -> dict:
+def segment(spec: dict) -> dict | None:
     source = FUENTES / spec["source"]
     if not source.exists():
-        raise FileNotFoundError(source)
+        return None
 
     text = source.read_text(encoding="utf-8")
     lines = text.splitlines(keepends=True)
@@ -250,19 +260,28 @@ def segment(spec: dict) -> dict:
     first = boundaries[0][0] if boundaries else len(lines)
     prelim = destination / "00-preliminares.md"
     prelim.write_text("".join(lines[:first]), encoding="utf-8")
-    segments = [{"path": str(prelim.relative_to(ROOT)), "kind": "preliminares", "start_line": 1, "end_line": first}]
+    segments = [
+        {
+            "path": str(prelim.relative_to(ROOT)),
+            "kind": "preliminares",
+            "start_line": 1,
+            "end_line": first,
+        }
+    ]
 
     for position, (start, kind, heading) in enumerate(boundaries):
         end = boundaries[position + 1][0] if position + 1 < len(boundaries) else len(lines)
         target = destination / filename(kind, heading)
         target.write_text("".join(lines[start:end]), encoding="utf-8")
-        segments.append({
-            "path": str(target.relative_to(ROOT)),
-            "kind": kind,
-            "heading": heading,
-            "start_line": start + 1,
-            "end_line": end,
-        })
+        segments.append(
+            {
+                "path": str(target.relative_to(ROOT)),
+                "kind": kind,
+                "heading": heading,
+                "start_line": start + 1,
+                "end_line": end,
+            }
+        )
 
     digest = hashlib.sha256(source.read_bytes()).hexdigest()
     metadata = {
@@ -274,7 +293,10 @@ def segment(spec: dict) -> dict:
         "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
         "segments": segments,
     }
-    (destination / "estructura.json").write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (destination / "estructura.json").write_text(
+        json.dumps(metadata, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
 
     reconstructed = b"".join((ROOT / item["path"]).read_bytes() for item in segments)
     if reconstructed != source.read_bytes():
@@ -285,11 +307,16 @@ def segment(spec: dict) -> dict:
 def main() -> None:
     catalog = []
     hashes = []
+    missing = []
     for spec in SPECS:
         metadata = segment(spec)
+        if metadata is None:
+            missing.append(spec["source"])
+            continue
         catalog.append(metadata)
         hashes.append((metadata["sha256"], metadata["source"]))
 
+    FUENTES.mkdir(parents=True, exist_ok=True)
     (FUENTES / "SHA256SUMS.txt").write_text(
         "\n".join(f"{digest}  {path}" for digest, path in hashes) + "\n",
         encoding="utf-8",
@@ -299,6 +326,8 @@ def main() -> None:
         encoding="utf-8",
     )
     print(f"Segmentación validada: {len(catalog)} obras.")
+    if missing:
+        print(f"Fuentes del lote base aún no presentes: {len(missing)}")
 
 
 if __name__ == "__main__":
