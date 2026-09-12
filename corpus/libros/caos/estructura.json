@@ -1,0 +1,93 @@
+{
+  "title": "Caos: El abismo del ego y la doble mediación",
+  "source": "corpus/fuentes/Caos_El_abismo_del_ego_y_la_doble_mediacion.md",
+  "sha256": "5e8deb0fe3009929436a69549ca265ebda1ebd9688c9d4e8201c05a32cbddeb8",
+  "series": null,
+  "volume": null,
+  "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
+  "segments": [
+    {
+      "path": "corpus/libros/caos/00-preliminares.md",
+      "kind": "preliminares",
+      "start_line": 1,
+      "end_line": 51
+    },
+    {
+      "path": "corpus/libros/caos/capitulo-01.md",
+      "kind": "chapter",
+      "heading": "# Capítulo I",
+      "start_line": 52,
+      "end_line": 357
+    },
+    {
+      "path": "corpus/libros/caos/capitulo-02.md",
+      "kind": "chapter",
+      "heading": "# Capítulo II",
+      "start_line": 358,
+      "end_line": 633
+    },
+    {
+      "path": "corpus/libros/caos/capitulo-03.md",
+      "kind": "chapter",
+      "heading": "# Capítulo III",
+      "start_line": 634,
+      "end_line": 919
+    },
+    {
+      "path": "corpus/libros/caos/capitulo-04.md",
+      "kind": "chapter",
+      "heading": "# Capítulo IV",
+      "start_line": 920,
+      "end_line": 1147
+    },
+    {
+      "path": "corpus/libros/caos/capitulo-05.md",
+      "kind": "chapter",
+      "heading": "# Capítulo V",
+      "start_line": 1148,
+      "end_line": 1385
+    },
+    {
+      "path": "corpus/libros/caos/capitulo-06.md",
+      "kind": "chapter",
+      "heading": "# Capítulo VI",
+      "start_line": 1386,
+      "end_line": 1607
+    },
+    {
+      "path": "corpus/libros/caos/capitulo-07.md",
+      "kind": "chapter",
+      "heading": "# Capítulo VII",
+      "start_line": 1608,
+      "end_line": 1825
+    },
+    {
+      "path": "corpus/libros/caos/apendice-01.md",
+      "kind": "appendix",
+      "heading": "# Apéndice I",
+      "start_line": 1826,
+      "end_line": 2173
+    },
+    {
+      "path": "corpus/libros/caos/apendice-02.md",
+      "kind": "appendix",
+      "heading": "# Apéndice II",
+      "start_line": 2174,
+      "end_line": 2522
+    },
+    {
+      "path": "corpus/libros/caos/apendice-03.md",
+      "kind": "appendix",
+      "heading": "# Apéndice III",
+      "start_line": 2523,
+      "end_line": 2860
+    },
+    {
+      "path": "corpus/libros/caos/98-bibliografia.md",
+      "kind": "bibliography",
+      "heading": "# Bibliografía",
+      "start_line": 2861,
+      "end_line": 3117
+    }
+  ]
+}
