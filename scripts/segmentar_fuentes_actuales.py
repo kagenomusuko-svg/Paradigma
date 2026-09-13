@@ -54,6 +54,15 @@ def _normalize_markdown_heading(raw: str) -> str:
     return text + newline
 
 
+def _prefix_heading(lines, index, pattern, lookback):
+    regex = re.compile(pattern, re.IGNORECASE)
+    for position in range(index - 1, max(-1, index - lookback - 1), -1):
+        text = _normalize_markdown_heading(lines[position]).strip()
+        if regex.fullmatch(text):
+            return position
+    return index
+
+
 def boundaries_axiomatizacion_vigente(lines):
     result = []
     prologue = next(i for i, line in enumerate(lines) if line.strip() == "## Prólogo")
@@ -93,7 +102,7 @@ def boundaries_calculo_vigente(lines):
     for index, raw in enumerate(lines):
         match = chapter_pattern.fullmatch(raw.strip())
         if match and int(match.group(1)) == expected:
-            start = segmentar_lote_02.prefix_start(lines, index, r"## PARTE .*", 4)
+            start = _prefix_heading(lines, index, r"PARTE .*", 4)
             result.append(segmentar_lote_02.unit(start, "capitulo", f"capitulo-{expected:02d}.md", str(expected), raw.strip()))
             expected += 1
             if expected == 19:
@@ -142,7 +151,7 @@ def boundaries_histos_vigente(lines):
     for number in range(1, 6):
         pattern = re.compile(rf"#{{1,6}}\s+Capítulo\s+P·{number}(?:\s+.*)?", re.IGNORECASE)
         index = next(i for i, line in enumerate(lines) if pattern.fullmatch(line.strip()))
-        start = segmentar_lote_02.prefix_start(lines, index, r"PARTE PRELIMINAR · Fundamentos del instrumento", 3)
+        start = _prefix_heading(lines, index, r"PARTE PRELIMINAR · Fundamentos del instrumento", 3)
         result.append(segmentar_lote_02.unit(start, "capitulo", f"capitulo-p-{number}.md", f"P·{number}", lines[index].strip()))
     for index, raw in enumerate(lines):
         match = re.fullmatch(r"### Capítulo ([IVX]+)·(\d+)(?:\s+.*)?", raw.strip())
@@ -161,27 +170,65 @@ def boundaries_histos_vigente(lines):
 
 
 def boundaries_transformacion_vigente(lines):
-    """Conserva capítulos decimales y admite prólogo/epílogo como headings Markdown."""
     result = []
-    prologue = next(
-        i for i, line in enumerate(lines)
-        if i > 300 and _normalize_markdown_heading(line).strip() == "PRÓLOGO"
-    )
+    prologue = next(i for i, line in enumerate(lines) if i > 300 and _normalize_markdown_heading(line).strip() == "PRÓLOGO")
     result.append(segmentar_lote_02.unit(prologue, "prologo", "01-prologo.md", "PROLOGO", lines[prologue].strip()))
     for index, raw in enumerate(lines):
         match = re.fullmatch(r"### Capítulo (\d+)\.(\d+)", raw.strip())
         if not match:
             continue
-        start = segmentar_lote_02.prefix_start(lines, index, r"(?:##\s+)?PARTE .*", 4)
+        start = _prefix_heading(lines, index, r"PARTE .*", 4)
         a, b = int(match.group(1)), int(match.group(2))
         result.append(segmentar_lote_02.unit(start, "capitulo", f"capitulo-{a:02d}-{b:02d}.md", f"{a}.{b}", raw.strip()))
     if len(result) == 1:
         raise RuntimeError("La transformación formal: no se detectaron capítulos decimales.")
-    epilogue = next(
-        i for i, line in enumerate(lines)
-        if i > result[-1]["start"] and _normalize_markdown_heading(line).strip().upper() == "EPÍLOGO"
-    )
+    epilogue = next(i for i, line in enumerate(lines) if i > result[-1]["start"] and _normalize_markdown_heading(line).strip().upper() == "EPÍLOGO")
     result.append(segmentar_lote_02.unit(epilogue, "epilogo", "90-epilogo.md", "EPILOGO", lines[epilogue].strip()))
+    return result
+
+
+def boundaries_metrologia_i_vigente(lines):
+    result = []
+    prologue = next(i for i, line in enumerate(lines) if _normalize_markdown_heading(line).strip() == "PRÓLOGO")
+    result.append(segmentar_lote_02.unit(prologue, "prologo", "01-prologo.md", "PROLOGO", lines[prologue].strip()))
+    for index, raw in enumerate(lines):
+        match = re.fullmatch(r"### Capítulo ([IVX]+)·(\d+)", raw.strip())
+        if not match:
+            continue
+        start = _prefix_heading(lines, index, r"PARTE .*", 4)
+        roman, number = match.group(1), int(match.group(2))
+        result.append(segmentar_lote_02.unit(start, "capitulo", f"capitulo-{segmentar_lote_02.roman_to_int(roman):02d}-{number:02d}.md", f"{roman}·{number}", raw.strip()))
+    for number in (1, 2):
+        pattern = re.compile(rf"#{{1,6}}\s+Capítulo\s+E·{number}(?:\s+.*)?", re.IGNORECASE)
+        index = next(i for i, line in enumerate(lines) if pattern.fullmatch(line.strip()))
+        start = _prefix_heading(lines, index, r"EPÍLOGO ·.*", 4)
+        result.append(segmentar_lote_02.unit(start, "epilogo", f"epilogo-{number:02d}.md", f"E·{number}", lines[index].strip()))
+    for number in range(1, 7):
+        pattern = re.compile(rf"#{{1,6}}\s+Apéndice\s+A·{number}(?:\s+.*)?", re.IGNORECASE)
+        index = next(i for i, line in enumerate(lines) if pattern.fullmatch(line.strip()))
+        start = _prefix_heading(lines, index, r"APÉNDICES ·.*", 3)
+        result.append(segmentar_lote_02.unit(start, "apendice", f"apendice-a-{number:02d}.md", f"A·{number}", lines[index].strip()))
+    glossary = next(i for i, line in enumerate(lines) if _normalize_markdown_heading(line).strip() == "GLOSARIO")
+    result.append(segmentar_lote_02.unit(glossary, "glosario", "99-glosario.md", "GLOSARIO", lines[glossary].strip()))
+    return result
+
+
+def boundaries_metrologia_ii_vigente(lines):
+    result = []
+    introduction = next(i for i, line in enumerate(lines) if _normalize_markdown_heading(line).strip() == "INTRODUCCIÓN")
+    result.append(segmentar_lote_02.unit(introduction, "introduccion", "01-introduccion.md", "INTRO", lines[introduction].strip()))
+    for index, raw in enumerate(lines):
+        match = re.fullmatch(r"### Capítulo ([IVX]+)·(\d+)", raw.strip())
+        if not match:
+            continue
+        start = _prefix_heading(lines, index, r"PARTE .*", 4)
+        roman, number = match.group(1), int(match.group(2))
+        result.append(segmentar_lote_02.unit(start, "capitulo", f"capitulo-{segmentar_lote_02.roman_to_int(roman):02d}-{number:02d}.md", f"{roman}·{number}", raw.strip()))
+    for letter in "AB":
+        pattern = re.compile(rf"#{{1,6}}\s+Apéndice\s+{letter}(?:\s+.*)?", re.IGNORECASE)
+        index = next(i for i, line in enumerate(lines) if i > 4000 and pattern.fullmatch(line.strip()))
+        start = _prefix_heading(lines, index, r"APÉNDICES", 3)
+        result.append(segmentar_lote_02.unit(start, "apendice", f"apendice-{letter.lower()}.md", letter, lines[index].strip()))
     return result
 
 
@@ -195,6 +242,8 @@ def adapt_specs() -> None:
     segmentar_lote_02.PARSERS["prometeo"] = boundaries_prometeo_vigente
     segmentar_lote_02.PARSERS["histos"] = boundaries_histos_vigente
     segmentar_lote_02.PARSERS["transformacion"] = boundaries_transformacion_vigente
+    segmentar_lote_02.PARSERS["metrologia_i"] = boundaries_metrologia_i_vigente
+    segmentar_lote_02.PARSERS["metrologia_ii"] = boundaries_metrologia_ii_vigente
 
 
 def validate_sources() -> None:
