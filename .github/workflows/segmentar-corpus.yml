@@ -28,14 +28,16 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Diagnóstico temporal de Taxonomía
+      - name: Diagnóstico temporal de Arquitectura
         run: |
           python - <<'PY'
           from pathlib import Path
-          path = Path('corpus/fuentes/Taxonomía General de Aplicaciones.md')
-          for number, line in enumerate(path.read_text(encoding='utf-8').splitlines(), 1):
+          path = Path('corpus/fuentes/Arquitectura ontológica de sistemas artificiales.md')
+          lines = path.read_text(encoding='utf-8').splitlines()
+          cutoff = max(0, len(lines) - 250)
+          for number, line in enumerate(lines, 1):
               text = line.strip()
-              if (text.startswith('#') and 'Capítulo ' in text) or 'PARTE U' in text or (text.startswith('#') and 'PARTE ' in text):
+              if 'glosario' in text.lower() or (number > cutoff and text.startswith('#')):
                   print(f'{number}: {text}')
           PY
 
