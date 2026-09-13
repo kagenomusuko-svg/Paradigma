@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """Ejecuta los segmentadores históricos contra los nombres canónicos vigentes.
 
-Los parsers existentes se conservan sin refactorización. Este adaptador sólo
-resuelve los renombrados de las fuentes canónicas y exige que cada fuente
-esperada exista antes de generar derivados.
+Los parsers existentes se conservan sin refactorización. Este adaptador resuelve
+los renombrados de fuentes y corrige únicamente incompatibilidades estructurales
+comprobadas entre los parsers históricos y las ediciones canónicas vigentes.
 """
 
 from __future__ import annotations
 
 from pathlib import Path
+import re
 
 import segmentar_corpus
 import segmentar_lote_02
@@ -42,10 +43,49 @@ SOURCE_ALIASES = {
 SEGMENTERS = (segmentar_corpus, segmentar_lote_02, segmentar_lote_03)
 
 
+def boundaries_axiomatizacion_vigente(lines):
+    """Reconoce las Partes/Apéndices como encabezados Markdown de la edición vigente."""
+    result = []
+    prologue = next(i for i, line in enumerate(lines) if line.strip() == "## Prólogo")
+    result.append(segmentar_lote_02.unit(prologue, "prologo", "01-prologo.md", "PROLOGO", "Prólogo"))
+
+    expected = ["0", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"]
+    found = []
+    for index, raw in enumerate(lines):
+        match = re.fullmatch(r"#{1,6}\s+Parte\s+(0|[IVX]+)", raw.strip())
+        if not match:
+            continue
+        code = match.group(1)
+        if len(found) < len(expected) and code == expected[len(found)]:
+            found.append(code)
+            number = 0 if code == "0" else segmentar_lote_02.roman_to_int(code)
+            result.append(
+                segmentar_lote_02.unit(index, "parte", f"parte-{number:02d}.md", f"PARTE-{code}", raw.strip())
+            )
+    if found != expected:
+        raise RuntimeError(f"Secuencia de partes inesperada en Axiomatización: {found}")
+
+    last_part = max(item["start"] for item in result if item["kind"] == "parte")
+    for letter in "ABCD":
+        pattern = re.compile(rf"#{{1,6}}\s+Apéndice\s+{letter}", re.IGNORECASE)
+        index = next(
+            i for i in range(last_part + 1, len(lines)) if pattern.fullmatch(lines[i].strip())
+        )
+        result.append(
+            segmentar_lote_02.unit(index, "apendice", f"apendice-{letter.lower()}.md", f"AP-{letter}", lines[index].strip())
+        )
+    return result
+
+
 def adapt_specs() -> None:
     for module in SEGMENTERS:
         for spec in module.SPECS:
             spec["source"] = SOURCE_ALIASES.get(spec["source"], spec["source"])
+
+    # La edición canónica actual usa encabezados «### Parte N»; el parser
+    # histórico esperaba texto plano. La corrección vive aquí para conservar
+    # estable el segmentador de lote y limitar el cambio al formato comprobado.
+    segmentar_lote_02.PARSERS["axiomatizacion"] = boundaries_axiomatizacion_vigente
 
 
 def validate_sources() -> None:
