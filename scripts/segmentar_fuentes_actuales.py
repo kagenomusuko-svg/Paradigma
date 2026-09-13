@@ -234,6 +234,27 @@ def boundaries_metrologia_ii_vigente(lines):
     return result
 
 
+def boundaries_taxonomia_vigente(lines):
+    result = []
+    for number in range(1, 5):
+        pattern = re.compile(rf"###\s+Capítulo\s+U·{number}")
+        index = next(i for i, line in enumerate(lines) if pattern.fullmatch(line.strip()))
+        start = _prefix_heading(lines, index, r"PARTE U · Protocolo Universal", 3)
+        result.append(segmentar_lote_02.unit(start, "capitulo", f"capitulo-u-{number:02d}.md", f"U·{number}", lines[index].strip()))
+    numeric = []
+    for index, raw in enumerate(lines):
+        match = re.fullmatch(r"##\s+Capítulo\s+(\d+)", raw.strip())
+        if match:
+            numeric.append((index, int(match.group(1)), raw.strip()))
+    numbers = [number for _, number, _ in numeric]
+    if numbers != list(range(1, 79)):
+        raise RuntimeError(f"La Taxonomía no contiene la secuencia exacta 1–78: {numbers}")
+    for index, number, heading in numeric:
+        start = _prefix_heading(lines, index, r"PARTE .*", 4)
+        result.append(segmentar_lote_02.unit(start, "capitulo", f"capitulo-{number:02d}.md", str(number), heading))
+    return result
+
+
 def adapt_specs() -> None:
     for module in SEGMENTERS:
         for spec in module.SPECS:
@@ -246,6 +267,7 @@ def adapt_specs() -> None:
     segmentar_lote_02.PARSERS["transformacion"] = boundaries_transformacion_vigente
     segmentar_lote_02.PARSERS["metrologia_i"] = boundaries_metrologia_i_vigente
     segmentar_lote_02.PARSERS["metrologia_ii"] = boundaries_metrologia_ii_vigente
+    segmentar_lote_02.PARSERS["taxonomia"] = boundaries_taxonomia_vigente
 
 
 def validate_sources() -> None:
