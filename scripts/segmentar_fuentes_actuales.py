@@ -110,7 +110,7 @@ def boundaries_calculo_vigente(lines):
 
 
 def boundaries_prometeo_vigente(lines):
-    """Mantiene el parser histórico y adapta sólo el prólogo a su encabezado vigente con título."""
+    """Mantiene el parser histórico y adapta los encabezados editoriales vigentes."""
     result = []
     prologue = next(
         i for i, line in enumerate(lines)
@@ -119,13 +119,13 @@ def boundaries_prometeo_vigente(lines):
     result.append(segmentar_lote_02.unit(prologue, "prologo", "01-prologo.md", "PROLOGO", lines[prologue].strip()))
     chapters = []
     for index, raw in enumerate(lines):
-        match = re.fullmatch(r"### Capítulo (\d+)\.?", raw.strip())
+        match = re.fullmatch(r"### Capítulo (\d+)(?:\s+.*)?", raw.strip())
         if not match:
             continue
         if any(previous == "EL MÉTODO PROMETEO · IMPUTACIÓN CAUSAL" for _, previous in segmentar_lote_02.previous_nonblank(lines, index, 5)):
             chapters.append((index, int(match.group(1)), raw.strip()))
     if not chapters:
-        raise RuntimeError("Método Prometeo: no se detectaron capítulos con el patrón histórico vigente.")
+        raise RuntimeError("Método Prometeo: no se detectaron capítulos con el patrón canónico vigente.")
     occurrences = Counter(number for _, number, _ in chapters)
     used = Counter()
     for index, number, heading in chapters:
