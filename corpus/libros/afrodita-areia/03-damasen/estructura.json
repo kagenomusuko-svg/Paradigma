@@ -1,0 +1,16 @@
+{
+  "title": "Afrodita Areia: Damasén",
+  "source": "corpus/fuentes/Afrodita Areia Damasén.md",
+  "sha256": "827630df92051e05799bf9a86547deb822f168917f2a5405a25a4716c76cda28",
+  "series": "Afrodita Areia",
+  "volume": 3,
+  "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
+  "segments": [
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/00-preliminares.md",
+      "kind": "preliminares",
+      "start_line": 1,
+      "end_line": 11059
+    }
+  ]
+}

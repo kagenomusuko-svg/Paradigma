@@ -1,0 +1,23 @@
+{
+  "title": "Afrodita Areia: Caelus",
+  "source": "corpus/fuentes/Afrodita Areia Caelus.md",
+  "sha256": "ea64ce10d1dfe15abbc1db55b881edbec92e3e9786bb9dfd9ee8186369ea0093",
+  "series": "Afrodita Areia",
+  "volume": 5,
+  "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
+  "segments": [
+    {
+      "path": "corpus/libros/afrodita-areia/05-caelus/00-preliminares.md",
+      "kind": "preliminares",
+      "start_line": 1,
+      "end_line": 90
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/05-caelus/02-prologo.md",
+      "kind": "prologo",
+      "heading": "## Prólogo",
+      "start_line": 91,
+      "end_line": 4199
+    }
+  ]
+}

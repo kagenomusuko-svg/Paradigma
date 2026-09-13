@@ -1,0 +1,23 @@
+{
+  "title": "El telar de las Moiras: Ontología de la autodeterminación causal",
+  "source": "corpus/fuentes/El telar de las Moiras Ontología de la autodeterminación causal.md",
+  "sha256": "1e650aec697c2ef2a0cce73854cf0efd403a332d4aa60c1fb42828772188aa50",
+  "series": null,
+  "volume": null,
+  "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
+  "segments": [
+    {
+      "path": "corpus/libros/telar-de-las-moiras/00-preliminares.md",
+      "kind": "preliminares",
+      "start_line": 1,
+      "end_line": 11328
+    },
+    {
+      "path": "corpus/libros/telar-de-las-moiras/90-epilogo.md",
+      "kind": "epilogo",
+      "heading": "Epílogo: lo que el libro no puede hacer por el lector",
+      "start_line": 11329,
+      "end_line": 11947
+    }
+  ]
+}

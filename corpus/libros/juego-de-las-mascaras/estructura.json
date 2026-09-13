@@ -1,0 +1,16 @@
+{
+  "title": "El juego de las máscaras o la disforia de la identidad",
+  "source": "corpus/fuentes/El juego de las máscaras o la disforia de la identidad.md",
+  "sha256": "5b72c15a3029d48be5156b0fd49130011c41ec673bcae82e2b5a212d678e84aa",
+  "series": null,
+  "volume": null,
+  "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
+  "segments": [
+    {
+      "path": "corpus/libros/juego-de-las-mascaras/00-preliminares.md",
+      "kind": "preliminares",
+      "start_line": 1,
+      "end_line": 11175
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "SDO",
+  "title": "SDO: Sistema de Diagnóstico Ontológico",
+  "source": "corpus/fuentes/SDO Sistema de diagnóstico ontológico.md",
+  "sha256": "e0719f144cd63bd915c08076a9f01243267192141e378817fd1ba1c45194834b",
+  "collection": "Autodeterminación Causal",
+  "volume": null,
+  "source_anomalies": [],
+  "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
+  "segments": [
+    {
+      "path": "corpus/libros/sdo/00-preliminares.md",
+      "kind": "preliminares",
+      "start_line": 1,
+      "end_line": 15885
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Afrodita Areia: Sobre la pasión",
+  "source": "corpus/fuentes/Afrodita Areia sobre la pasión.md",
+  "sha256": "a414fe3506939b4cd259f0521ff1812fa12f5e7b95c1228fbb393473c65e729c",
+  "series": "Afrodita Areia",
+  "volume": 1,
+  "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
+  "segments": [
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/00-preliminares.md",
+      "kind": "preliminares",
+      "start_line": 1,
+      "end_line": 14827
+    }
+  ]
+}

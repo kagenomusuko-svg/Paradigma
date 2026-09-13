@@ -1,0 +1,802 @@
+{
+  "id": "MC-I",
+  "title": "Metrología Causal: La ciencia de la medición causal",
+  "source": "corpus/fuentes/Metrología Causal La ciencia de la medición causal.md",
+  "sha256": "1f6003d35a797bab13a90ae81cd3d4d9adb45cd98edeb34af3b98b3a7270c18e",
+  "collection": "Metrología Causal",
+  "volume": 1,
+  "source_anomalies": [],
+  "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
+  "segments": [
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/00-preliminares.md",
+      "kind": "preliminares",
+      "start_line": 1,
+      "end_line": 32
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/01-prologo.md",
+      "kind": "prologo",
+      "key": "PROLOGO",
+      "heading": "## PRÓLOGO",
+      "start_line": 33,
+      "end_line": 200
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-01.md",
+      "kind": "capitulo",
+      "key": "I·1",
+      "heading": "### Capítulo I·1",
+      "start_line": 201,
+      "end_line": 256
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-02.md",
+      "kind": "capitulo",
+      "key": "I·2",
+      "heading": "### Capítulo I·2",
+      "start_line": 257,
+      "end_line": 316
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-03.md",
+      "kind": "capitulo",
+      "key": "I·3",
+      "heading": "### Capítulo I·3",
+      "start_line": 317,
+      "end_line": 366
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-04.md",
+      "kind": "capitulo",
+      "key": "I·4",
+      "heading": "### Capítulo I·4",
+      "start_line": 367,
+      "end_line": 486
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-05.md",
+      "kind": "capitulo",
+      "key": "I·5",
+      "heading": "### Capítulo I·5",
+      "start_line": 487,
+      "end_line": 538
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-06.md",
+      "kind": "capitulo",
+      "key": "I·6",
+      "heading": "### Capítulo I·6",
+      "start_line": 539,
+      "end_line": 586
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-07.md",
+      "kind": "capitulo",
+      "key": "I·7",
+      "heading": "### Capítulo I·7",
+      "start_line": 587,
+      "end_line": 622
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-08.md",
+      "kind": "capitulo",
+      "key": "I·8",
+      "heading": "### Capítulo I·8",
+      "start_line": 623,
+      "end_line": 670
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-09.md",
+      "kind": "capitulo",
+      "key": "I·9",
+      "heading": "### Capítulo I·9",
+      "start_line": 671,
+      "end_line": 728
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-10.md",
+      "kind": "capitulo",
+      "key": "I·10",
+      "heading": "### Capítulo I·10",
+      "start_line": 729,
+      "end_line": 774
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-11.md",
+      "kind": "capitulo",
+      "key": "I·11",
+      "heading": "### Capítulo I·11",
+      "start_line": 775,
+      "end_line": 842
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-12.md",
+      "kind": "capitulo",
+      "key": "I·12",
+      "heading": "### Capítulo I·12",
+      "start_line": 843,
+      "end_line": 890
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-13.md",
+      "kind": "capitulo",
+      "key": "I·13",
+      "heading": "### Capítulo I·13",
+      "start_line": 891,
+      "end_line": 932
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-14.md",
+      "kind": "capitulo",
+      "key": "I·14",
+      "heading": "### Capítulo I·14",
+      "start_line": 933,
+      "end_line": 1000
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-15.md",
+      "kind": "capitulo",
+      "key": "I·15",
+      "heading": "### Capítulo I·15",
+      "start_line": 1001,
+      "end_line": 1050
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-01.md",
+      "kind": "capitulo",
+      "key": "II·1",
+      "heading": "### Capítulo II·1",
+      "start_line": 1051,
+      "end_line": 1100
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-02.md",
+      "kind": "capitulo",
+      "key": "II·2",
+      "heading": "### Capítulo II·2",
+      "start_line": 1101,
+      "end_line": 1154
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-03.md",
+      "kind": "capitulo",
+      "key": "II·3",
+      "heading": "### Capítulo II·3",
+      "start_line": 1155,
+      "end_line": 1220
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-04.md",
+      "kind": "capitulo",
+      "key": "II·4",
+      "heading": "### Capítulo II·4",
+      "start_line": 1221,
+      "end_line": 1272
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-05.md",
+      "kind": "capitulo",
+      "key": "II·5",
+      "heading": "### Capítulo II·5",
+      "start_line": 1273,
+      "end_line": 1312
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-06.md",
+      "kind": "capitulo",
+      "key": "II·6",
+      "heading": "### Capítulo II·6",
+      "start_line": 1313,
+      "end_line": 1370
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-07.md",
+      "kind": "capitulo",
+      "key": "II·7",
+      "heading": "### Capítulo II·7",
+      "start_line": 1371,
+      "end_line": 1418
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-08.md",
+      "kind": "capitulo",
+      "key": "II·8",
+      "heading": "### Capítulo II·8",
+      "start_line": 1419,
+      "end_line": 1460
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-09.md",
+      "kind": "capitulo",
+      "key": "II·9",
+      "heading": "### Capítulo II·9",
+      "start_line": 1461,
+      "end_line": 1502
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-10.md",
+      "kind": "capitulo",
+      "key": "II·10",
+      "heading": "### Capítulo II·10",
+      "start_line": 1503,
+      "end_line": 1644
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-11.md",
+      "kind": "capitulo",
+      "key": "II·11",
+      "heading": "### Capítulo II·11",
+      "start_line": 1645,
+      "end_line": 1686
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-12.md",
+      "kind": "capitulo",
+      "key": "II·12",
+      "heading": "### Capítulo II·12",
+      "start_line": 1687,
+      "end_line": 1736
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-13.md",
+      "kind": "capitulo",
+      "key": "II·13",
+      "heading": "### Capítulo II·13",
+      "start_line": 1737,
+      "end_line": 1782
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-14.md",
+      "kind": "capitulo",
+      "key": "II·14",
+      "heading": "### Capítulo II·14",
+      "start_line": 1783,
+      "end_line": 1832
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-15.md",
+      "kind": "capitulo",
+      "key": "II·15",
+      "heading": "### Capítulo II·15",
+      "start_line": 1833,
+      "end_line": 1872
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-16.md",
+      "kind": "capitulo",
+      "key": "II·16",
+      "heading": "### Capítulo II·16",
+      "start_line": 1873,
+      "end_line": 1920
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-02-17.md",
+      "kind": "capitulo",
+      "key": "II·17",
+      "heading": "### Capítulo II·17",
+      "start_line": 1921,
+      "end_line": 1986
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-01.md",
+      "kind": "capitulo",
+      "key": "III·1",
+      "heading": "### Capítulo III·1",
+      "start_line": 1987,
+      "end_line": 2038
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-02.md",
+      "kind": "capitulo",
+      "key": "III·2",
+      "heading": "### Capítulo III·2",
+      "start_line": 2039,
+      "end_line": 2090
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-03.md",
+      "kind": "capitulo",
+      "key": "III·3",
+      "heading": "### Capítulo III·3",
+      "start_line": 2091,
+      "end_line": 2138
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-04.md",
+      "kind": "capitulo",
+      "key": "III·4",
+      "heading": "### Capítulo III·4",
+      "start_line": 2139,
+      "end_line": 2278
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-05.md",
+      "kind": "capitulo",
+      "key": "III·5",
+      "heading": "### Capítulo III·5",
+      "start_line": 2279,
+      "end_line": 2320
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-06.md",
+      "kind": "capitulo",
+      "key": "III·6",
+      "heading": "### Capítulo III·6",
+      "start_line": 2321,
+      "end_line": 2374
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-07.md",
+      "kind": "capitulo",
+      "key": "III·7",
+      "heading": "### Capítulo III·7",
+      "start_line": 2375,
+      "end_line": 2414
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-08.md",
+      "kind": "capitulo",
+      "key": "III·8",
+      "heading": "### Capítulo III·8",
+      "start_line": 2415,
+      "end_line": 2582
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-09.md",
+      "kind": "capitulo",
+      "key": "III·9",
+      "heading": "### Capítulo III·9",
+      "start_line": 2583,
+      "end_line": 2630
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-10.md",
+      "kind": "capitulo",
+      "key": "III·10",
+      "heading": "### Capítulo III·10",
+      "start_line": 2631,
+      "end_line": 2770
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-11.md",
+      "kind": "capitulo",
+      "key": "III·11",
+      "heading": "### Capítulo III·11",
+      "start_line": 2771,
+      "end_line": 2906
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-12.md",
+      "kind": "capitulo",
+      "key": "III·12",
+      "heading": "### Capítulo III·12",
+      "start_line": 2907,
+      "end_line": 3052
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-13.md",
+      "kind": "capitulo",
+      "key": "III·13",
+      "heading": "### Capítulo III·13",
+      "start_line": 3053,
+      "end_line": 3150
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-14.md",
+      "kind": "capitulo",
+      "key": "III·14",
+      "heading": "### Capítulo III·14",
+      "start_line": 3151,
+      "end_line": 3250
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-15.md",
+      "kind": "capitulo",
+      "key": "III·15",
+      "heading": "### Capítulo III·15",
+      "start_line": 3251,
+      "end_line": 3350
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-16.md",
+      "kind": "capitulo",
+      "key": "III·16",
+      "heading": "### Capítulo III·16",
+      "start_line": 3351,
+      "end_line": 3474
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-17.md",
+      "kind": "capitulo",
+      "key": "III·17",
+      "heading": "### Capítulo III·17",
+      "start_line": 3475,
+      "end_line": 3600
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-03-18.md",
+      "kind": "capitulo",
+      "key": "III·18",
+      "heading": "### Capítulo III·18",
+      "start_line": 3601,
+      "end_line": 3658
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-01.md",
+      "kind": "capitulo",
+      "key": "IV·1",
+      "heading": "### Capítulo IV·1",
+      "start_line": 3659,
+      "end_line": 3702
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-02.md",
+      "kind": "capitulo",
+      "key": "IV·2",
+      "heading": "### Capítulo IV·2",
+      "start_line": 3703,
+      "end_line": 3754
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-03.md",
+      "kind": "capitulo",
+      "key": "IV·3",
+      "heading": "### Capítulo IV·3",
+      "start_line": 3755,
+      "end_line": 3798
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-04.md",
+      "kind": "capitulo",
+      "key": "IV·4",
+      "heading": "### Capítulo IV·4",
+      "start_line": 3799,
+      "end_line": 3846
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-05.md",
+      "kind": "capitulo",
+      "key": "IV·5",
+      "heading": "### Capítulo IV·5",
+      "start_line": 3847,
+      "end_line": 3906
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-06.md",
+      "kind": "capitulo",
+      "key": "IV·6",
+      "heading": "### Capítulo IV·6",
+      "start_line": 3907,
+      "end_line": 3954
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-07.md",
+      "kind": "capitulo",
+      "key": "IV·7",
+      "heading": "### Capítulo IV·7",
+      "start_line": 3955,
+      "end_line": 4006
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-08.md",
+      "kind": "capitulo",
+      "key": "IV·8",
+      "heading": "### Capítulo IV·8",
+      "start_line": 4007,
+      "end_line": 4132
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-09.md",
+      "kind": "capitulo",
+      "key": "IV·9",
+      "heading": "### Capítulo IV·9",
+      "start_line": 4133,
+      "end_line": 4178
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-10.md",
+      "kind": "capitulo",
+      "key": "IV·10",
+      "heading": "### Capítulo IV·10",
+      "start_line": 4179,
+      "end_line": 4296
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-04-11.md",
+      "kind": "capitulo",
+      "key": "IV·11",
+      "heading": "### Capítulo IV·11",
+      "start_line": 4297,
+      "end_line": 4352
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-01.md",
+      "kind": "capitulo",
+      "key": "V·1",
+      "heading": "### Capítulo V·1",
+      "start_line": 4353,
+      "end_line": 4390
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-02.md",
+      "kind": "capitulo",
+      "key": "V·2",
+      "heading": "### Capítulo V·2",
+      "start_line": 4391,
+      "end_line": 4436
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-03.md",
+      "kind": "capitulo",
+      "key": "V·3",
+      "heading": "### Capítulo V·3",
+      "start_line": 4437,
+      "end_line": 4476
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-04.md",
+      "kind": "capitulo",
+      "key": "V·4",
+      "heading": "### Capítulo V·4",
+      "start_line": 4477,
+      "end_line": 4518
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-05.md",
+      "kind": "capitulo",
+      "key": "V·5",
+      "heading": "### Capítulo V·5",
+      "start_line": 4519,
+      "end_line": 4630
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-06.md",
+      "kind": "capitulo",
+      "key": "V·6",
+      "heading": "### Capítulo V·6",
+      "start_line": 4631,
+      "end_line": 4678
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-07.md",
+      "kind": "capitulo",
+      "key": "V·7",
+      "heading": "### Capítulo V·7",
+      "start_line": 4679,
+      "end_line": 4730
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-08.md",
+      "kind": "capitulo",
+      "key": "V·8",
+      "heading": "### Capítulo V·8",
+      "start_line": 4731,
+      "end_line": 4778
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-09.md",
+      "kind": "capitulo",
+      "key": "V·9",
+      "heading": "### Capítulo V·9",
+      "start_line": 4779,
+      "end_line": 4826
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-10.md",
+      "kind": "capitulo",
+      "key": "V·10",
+      "heading": "### Capítulo V·10",
+      "start_line": 4827,
+      "end_line": 4868
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-05-11.md",
+      "kind": "capitulo",
+      "key": "V·11",
+      "heading": "### Capítulo V·11",
+      "start_line": 4869,
+      "end_line": 4924
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-01.md",
+      "kind": "capitulo",
+      "key": "VI·1",
+      "heading": "### Capítulo VI·1",
+      "start_line": 4925,
+      "end_line": 4970
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-02.md",
+      "kind": "capitulo",
+      "key": "VI·2",
+      "heading": "### Capítulo VI·2",
+      "start_line": 4971,
+      "end_line": 5008
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-03.md",
+      "kind": "capitulo",
+      "key": "VI·3",
+      "heading": "### Capítulo VI·3",
+      "start_line": 5009,
+      "end_line": 5044
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-04.md",
+      "kind": "capitulo",
+      "key": "VI·4",
+      "heading": "### Capítulo VI·4",
+      "start_line": 5045,
+      "end_line": 5126
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-05.md",
+      "kind": "capitulo",
+      "key": "VI·5",
+      "heading": "### Capítulo VI·5",
+      "start_line": 5127,
+      "end_line": 5220
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-06.md",
+      "kind": "capitulo",
+      "key": "VI·6",
+      "heading": "### Capítulo VI·6",
+      "start_line": 5221,
+      "end_line": 5260
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-07.md",
+      "kind": "capitulo",
+      "key": "VI·7",
+      "heading": "### Capítulo VI·7",
+      "start_line": 5261,
+      "end_line": 5298
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-08.md",
+      "kind": "capitulo",
+      "key": "VI·8",
+      "heading": "### Capítulo VI·8",
+      "start_line": 5299,
+      "end_line": 5334
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-09.md",
+      "kind": "capitulo",
+      "key": "VI·9",
+      "heading": "### Capítulo VI·9",
+      "start_line": 5335,
+      "end_line": 5380
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-10.md",
+      "kind": "capitulo",
+      "key": "VI·10",
+      "heading": "### Capítulo VI·10",
+      "start_line": 5381,
+      "end_line": 5422
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-11.md",
+      "kind": "capitulo",
+      "key": "VI·11",
+      "heading": "### Capítulo VI·11",
+      "start_line": 5423,
+      "end_line": 5554
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-12.md",
+      "kind": "capitulo",
+      "key": "VI·12",
+      "heading": "### Capítulo VI·12",
+      "start_line": 5555,
+      "end_line": 5594
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-13.md",
+      "kind": "capitulo",
+      "key": "VI·13",
+      "heading": "### Capítulo VI·13",
+      "start_line": 5595,
+      "end_line": 5634
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-14.md",
+      "kind": "capitulo",
+      "key": "VI·14",
+      "heading": "### Capítulo VI·14",
+      "start_line": 5635,
+      "end_line": 5674
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-15.md",
+      "kind": "capitulo",
+      "key": "VI·15",
+      "heading": "### Capítulo VI·15",
+      "start_line": 5675,
+      "end_line": 5716
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-06-16.md",
+      "kind": "capitulo",
+      "key": "VI·16",
+      "heading": "### Capítulo VI·16",
+      "start_line": 5717,
+      "end_line": 6446
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/epilogo-01.md",
+      "kind": "epilogo",
+      "key": "E·1",
+      "heading": "### Capítulo E·1",
+      "start_line": 6447,
+      "end_line": 6494
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/epilogo-02.md",
+      "kind": "epilogo",
+      "key": "E·2",
+      "heading": "### Capítulo E·2",
+      "start_line": 6495,
+      "end_line": 6546
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-01.md",
+      "kind": "apendice",
+      "key": "A·1",
+      "heading": "### Apéndice A·1",
+      "start_line": 6547,
+      "end_line": 6612
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-02.md",
+      "kind": "apendice",
+      "key": "A·2",
+      "heading": "### Apéndice A·2",
+      "start_line": 6613,
+      "end_line": 6680
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-03.md",
+      "kind": "apendice",
+      "key": "A·3",
+      "heading": "### Apéndice A·3",
+      "start_line": 6681,
+      "end_line": 6732
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-04.md",
+      "kind": "apendice",
+      "key": "A·4",
+      "heading": "### Apéndice A·4",
+      "start_line": 6733,
+      "end_line": 6858
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-05.md",
+      "kind": "apendice",
+      "key": "A·5",
+      "heading": "### Apéndice A·5",
+      "start_line": 6859,
+      "end_line": 6910
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/apendice-a-06.md",
+      "kind": "apendice",
+      "key": "A·6",
+      "heading": "### Apéndice A·6",
+      "start_line": 6911,
+      "end_line": 6988
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/99-glosario.md",
+      "kind": "glosario",
+      "key": "GLOSARIO",
+      "heading": "GLOSARIO",
+      "start_line": 6989,
+      "end_line": 8003
+    }
+  ]
+}

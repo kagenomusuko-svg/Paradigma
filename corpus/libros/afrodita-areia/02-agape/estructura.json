@@ -1,0 +1,16 @@
+{
+  "title": "Afrodita Areia: Ágape",
+  "source": "corpus/fuentes/Afrodita Areia Ágape.md",
+  "sha256": "38907af244e8e6e4f0967bdf710c409ad8faba89dd8730366d1bd681a5d0aa71",
+  "series": "Afrodita Areia",
+  "volume": 2,
+  "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
+  "segments": [
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/00-preliminares.md",
+      "kind": "preliminares",
+      "start_line": 1,
+      "end_line": 2545
+    }
+  ]
+}

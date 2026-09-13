@@ -1,0 +1,162 @@
+{
+  "id": "TRANSFORMACION-FORMAL",
+  "title": "La transformación formal: La ontología del ego como fundamento del cálculo causal",
+  "source": "corpus/fuentes/La transformación formal la ontología del ego como fundamento del cálculo causal.md",
+  "sha256": "f1fb1f46a0876108abd393aefb01b13ce7ef00ef012cdd429641f1217ce6f666",
+  "collection": "Autodeterminación Causal",
+  "volume": null,
+  "source_anomalies": [],
+  "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
+  "segments": [
+    {
+      "path": "corpus/libros/transformacion-formal/00-preliminares.md",
+      "kind": "preliminares",
+      "start_line": 1,
+      "end_line": 390
+    },
+    {
+      "path": "corpus/libros/transformacion-formal/01-prologo.md",
+      "kind": "prologo",
+      "key": "PROLOGO",
+      "heading": "## PRÓLOGO",
+      "start_line": 391,
+      "end_line": 682
+    },
+    {
+      "path": "corpus/libros/transformacion-formal/capitulo-01-01.md",
+      "kind": "capitulo",
+      "key": "1.1",
+      "heading": "### Capítulo 1.1",
+      "start_line": 683,
+      "end_line": 942
+    },
+    {
+      "path": "corpus/libros/transformacion-formal/capitulo-01-02.md",
+      "kind": "capitulo",
+      "key": "1.2",
+      "heading": "### Capítulo 1.2",
+      "start_line": 943,
+      "end_line": 1254
+    },
+    {
+      "path": "corpus/libros/transformacion-formal/capitulo-01-03.md",
+      "kind": "capitulo",
+      "key": "1.3",
+      "heading": "### Capítulo 1.3",
+      "start_line": 1255,
+      "end_line": 1500
+    },
+    {
+      "path": "corpus/libros/transformacion-formal/capitulo-02-01.md",
+      "kind": "capitulo",
+      "key": "2.1",
+      "heading": "### Capítulo 2.1",
+      "start_line": 1501,
+      "end_line": 1816
+    },
+    {
+      "path": "corpus/libros/transformacion-formal/capitulo-02-02.md",
+      "kind": "capitulo",
+      "key": "2.2",
+      "heading": "### Capítulo 2.2",
+      "start_line": 1817,
+      "end_line": 2184
+    },
+    {
+      "path": "corpus/libros/transformacion-formal/capitulo-02-03.md",
+      "kind": "capitulo",
+      "key": "2.3",
+      "heading": "### Capítulo 2.3",
+      "start_line": 2185,
+      "end_line": 2670
+    },
+    {
+      "path": "corpus/libros/transformacion-formal/capitulo-02-04.md",
+      "kind": "capitulo",
+      "key": "2.4",
+      "heading": "### Capítulo 2.4",
+      "start_line": 2671,
+      "end_line": 3034
+    },
+    {
+      "path": "corpus/libros/transformacion-formal/capitulo-03-01.md",
+      "kind": "capitulo",
+      "key": "3.1",
+      "heading": "### Capítulo 3.1",
+      "start_line": 3035,
+      "end_line": 3378
+    },
+    {
+      "path": "corpus/libros/transformacion-formal/capitulo-03-02.md",
+      "kind": "capitulo",
+      "key": "3.2",
+      "heading": "### Capítulo 3.2",
+      "start_line": 3379,
+      "end_line": 3726
+    },
+    {
+      "path": "corpus/libros/transformacion-formal/capitulo-03-03.md",
+      "kind": "capitulo",
+      "key": "3.3",
+      "heading": "### Capítulo 3.3",
+      "start_line": 3727,
+      "end_line": 3942
+    },
+    {
+      "path": "corpus/libros/transformacion-formal/capitulo-04-01.md",
+      "kind": "capitulo",
+      "key": "4.1",
+      "heading": "### Capítulo 4.1",
+      "start_line": 3943,
+      "end_line": 4278
+    },
+    {
+      "path": "corpus/libros/transformacion-formal/capitulo-04-02.md",
+      "kind": "capitulo",
+      "key": "4.2",
+      "heading": "### Capítulo 4.2",
+      "start_line": 4279,
+      "end_line": 4582
+    },
+    {
+      "path": "corpus/libros/transformacion-formal/capitulo-04-03.md",
+      "kind": "capitulo",
+      "key": "4.3",
+      "heading": "### Capítulo 4.3",
+      "start_line": 4583,
+      "end_line": 4798
+    },
+    {
+      "path": "corpus/libros/transformacion-formal/capitulo-05-01.md",
+      "kind": "capitulo",
+      "key": "5.1",
+      "heading": "### Capítulo 5.1",
+      "start_line": 4799,
+      "end_line": 5032
+    },
+    {
+      "path": "corpus/libros/transformacion-formal/capitulo-05-02.md",
+      "kind": "capitulo",
+      "key": "5.2",
+      "heading": "### Capítulo 5.2",
+      "start_line": 5033,
+      "end_line": 5220
+    },
+    {
+      "path": "corpus/libros/transformacion-formal/capitulo-05-03.md",
+      "kind": "capitulo",
+      "key": "5.3",
+      "heading": "### Capítulo 5.3",
+      "start_line": 5221,
+      "end_line": 5478
+    },
+    {
+      "path": "corpus/libros/transformacion-formal/90-epilogo.md",
+      "kind": "epilogo",
+      "key": "EPILOGO",
+      "heading": "## Epílogo",
+      "start_line": 5479,
+      "end_line": 5631
+    }
+  ]
+}
