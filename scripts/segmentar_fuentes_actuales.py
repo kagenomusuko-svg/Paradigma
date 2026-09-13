@@ -234,6 +234,37 @@ def boundaries_metrologia_ii_vigente(lines):
     return result
 
 
+def boundaries_sdo_vigente(lines):
+    code_pattern = re.compile(r"(PI·\d+|I·0|I·E-\d+|II·0|II·M-\d+|III·0|III·V-\d+|IV·0|IV·D-\d+|V·0|V·T-(?:\d+|ext)|VI·\d+|VII·\d+|VIII·\d+)")
+    expected = (
+        [f"PI·{n}" for n in range(1, 9)]
+        + ["I·0"] + [f"I·E-{n}" for n in range(1, 7)]
+        + ["II·0"] + [f"II·M-{n}" for n in range(1, 4)]
+        + ["III·0"] + [f"III·V-{n}" for n in range(1, 4)]
+        + ["IV·0"] + [f"IV·D-{n}" for n in range(1, 3)]
+        + ["V·0"] + [f"V·T-{n}" for n in range(0, 7)] + ["V·T-ext"]
+        + [f"VI·{n}" for n in range(1, 4)]
+        + [f"VII·{n}" for n in range(1, 5)]
+        + [f"VIII·{n}" for n in range(1, 4)]
+    )
+    detected = []
+    result = []
+    for index, raw in enumerate(lines):
+        text = raw.strip()
+        if not text.startswith("PARTE "):
+            continue
+        match = code_pattern.search(text)
+        if not match:
+            continue
+        code = match.group(1)
+        detected.append(code)
+        filename = code.lower().replace("·", "-") + ".md"
+        result.append(segmentar_lote_02.unit(index, "unidad", filename, code, text))
+    if detected != expected:
+        raise RuntimeError(f"SDO no contiene la secuencia estructural esperada: {detected}")
+    return result
+
+
 def boundaries_taxonomia_vigente(lines):
     result = []
     for number in range(1, 5):
@@ -267,6 +298,7 @@ def adapt_specs() -> None:
     segmentar_lote_02.PARSERS["transformacion"] = boundaries_transformacion_vigente
     segmentar_lote_02.PARSERS["metrologia_i"] = boundaries_metrologia_i_vigente
     segmentar_lote_02.PARSERS["metrologia_ii"] = boundaries_metrologia_ii_vigente
+    segmentar_lote_02.PARSERS["sdo"] = boundaries_sdo_vigente
     segmentar_lote_02.PARSERS["taxonomia"] = boundaries_taxonomia_vigente
 
 
