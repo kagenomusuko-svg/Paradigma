@@ -93,15 +93,16 @@ def boundaries_eco_vigente(lines):
 
 
 def boundaries_calculo_vigente(lines):
-    """Conserva la secuencia histórica de 18 capítulos y admite prólogo/apéndices como headings Markdown."""
+    """Conserva la secuencia histórica de 18 capítulos y admite envolturas/títulos editoriales vigentes."""
     result = []
     prologue = next(
         i for i, line in enumerate(lines) if _normalize_markdown_heading(line).strip() == "PRÓLOGO"
     )
     result.append(segmentar_lote_02.unit(prologue, "prologo", "01-prologo.md", "PROLOGO", "PRÓLOGO"))
     expected = 1
+    chapter_pattern = re.compile(r"#{1,6}\s+Capítulo\s+(\d+)(?:\s*[.:·—-]\s*.*)?")
     for index, raw in enumerate(lines):
-        match = re.fullmatch(r"### Capítulo (\d+)", raw.strip())
+        match = chapter_pattern.fullmatch(raw.strip())
         if match and int(match.group(1)) == expected:
             start = segmentar_lote_02.prefix_start(lines, index, r"## PARTE .*", 4)
             result.append(
@@ -114,10 +115,11 @@ def boundaries_calculo_vigente(lines):
         raise RuntimeError(f"Se esperaban 18 capítulos en El cálculo; se detectaron {expected-1}")
     last = result[-1]["start"]
     for letter in "ABCDE":
+        appendix_pattern = re.compile(rf"APÉNDICE\s+{letter}(?:\s*[.:·—-]\s*.*)?", re.IGNORECASE)
         index = next(
             i
             for i in range(last + 1, len(lines))
-            if _normalize_markdown_heading(lines[i]).strip() == f"APÉNDICE {letter}"
+            if appendix_pattern.fullmatch(_normalize_markdown_heading(lines[i]).strip())
         )
         result.append(
             segmentar_lote_02.unit(index, "apendice", f"apendice-{letter.lower()}.md", letter, f"APÉNDICE {letter}")
