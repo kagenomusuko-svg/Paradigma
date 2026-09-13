@@ -224,11 +224,13 @@ def boundaries_metrologia_ii_vigente(lines):
         start = _prefix_heading(lines, index, r"PARTE .*", 4)
         roman, number = match.group(1), int(match.group(2))
         result.append(segmentar_lote_02.unit(start, "capitulo", f"capitulo-{segmentar_lote_02.roman_to_int(roman):02d}-{number:02d}.md", f"{roman}·{number}", raw.strip()))
+    cursor = result[-1]["start"] + 1
     for letter in "AB":
         pattern = re.compile(rf"#{{1,6}}\s+Apéndice\s+{letter}(?:\s+.*)?", re.IGNORECASE)
-        index = next(i for i, line in enumerate(lines) if i > 4000 and pattern.fullmatch(line.strip()))
+        index = next(i for i in range(cursor, len(lines)) if pattern.fullmatch(lines[i].strip()))
         start = _prefix_heading(lines, index, r"APÉNDICES", 3)
         result.append(segmentar_lote_02.unit(start, "apendice", f"apendice-{letter.lower()}.md", letter, lines[index].strip()))
+        cursor = index + 1
     return result
 
 
