@@ -43,6 +43,17 @@ SOURCE_ALIASES = {
 SEGMENTERS = (segmentar_corpus, segmentar_lote_02, segmentar_lote_03)
 
 
+def _normalize_markdown_heading(raw: str) -> str:
+    """Quita sólo envolturas Markdown de encabezado, conservando texto e índice."""
+    newline = "\n" if raw.endswith("\n") else ""
+    text = raw.rstrip("\r\n")
+    text = re.sub(r"^\s*#{1,6}\s+", "", text)
+    stripped = text.strip()
+    if len(stripped) >= 4 and stripped.startswith("**") and stripped.endswith("**"):
+        text = stripped[2:-2]
+    return text + newline
+
+
 def boundaries_axiomatizacion_vigente(lines):
     """Reconoce las Partes/Apéndices como encabezados Markdown de la edición vigente."""
     result = []
@@ -77,15 +88,20 @@ def boundaries_axiomatizacion_vigente(lines):
     return result
 
 
+def boundaries_eco_vigente(lines):
+    """Aplica el parser histórico de ECO ignorando sólo prefijos Markdown de encabezado."""
+    normalized = [_normalize_markdown_heading(line) for line in lines]
+    return segmentar_lote_02.boundaries_eco(normalized)
+
+
 def adapt_specs() -> None:
     for module in SEGMENTERS:
         for spec in module.SPECS:
             spec["source"] = SOURCE_ALIASES.get(spec["source"], spec["source"])
 
-    # La edición canónica actual usa encabezados Markdown y conserva subtítulos
-    # en algunas Partes. La corrección vive aquí para limitar el cambio al
-    # formato comprobado sin reescribir el segmentador histórico del lote.
+    # Adaptaciones mínimas demostradas por ejecuciones sobre las fuentes vigentes.
     segmentar_lote_02.PARSERS["axiomatizacion"] = boundaries_axiomatizacion_vigente
+    segmentar_lote_02.PARSERS["eco"] = boundaries_eco_vigente
 
 
 def validate_sources() -> None:
