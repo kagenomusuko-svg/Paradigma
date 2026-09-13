@@ -2,9 +2,16 @@ name: Segmentar corpus
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+      - mant/segmentacion-corpus-completa
     paths:
       - 'corpus/fuentes/**'
+      - 'scripts/segmentar_*.py'
+      - 'scripts/construir_catalogo.py'
+      - 'scripts/recalcular_hashes.py'
+      - 'scripts/validar_cobertura_segmentacion.py'
+      - '.github/workflows/segmentar-corpus.yml'
 
 permissions:
   contents: write
@@ -21,20 +28,17 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Segmentar y verificar corpus inicial
-        run: python scripts/segmentar_corpus.py
-
-      - name: Segmentar y verificar segundo lote
-        run: python scripts/segmentar_lote_02.py
-
-      - name: Segmentar y verificar tercer lote
-        run: python scripts/segmentar_lote_03.py
+      - name: Segmentar y verificar corpus completo
+        run: python scripts/segmentar_fuentes_actuales.py
 
       - name: Reconstruir catálogo general
         run: python scripts/construir_catalogo.py
 
       - name: Recalcular integridad de todas las fuentes
         run: python scripts/recalcular_hashes.py
+
+      - name: Verificar cobertura integral de fuentes
+        run: python scripts/validar_cobertura_segmentacion.py
 
       - name: Guardar resultados
         env:
