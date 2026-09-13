@@ -137,6 +137,26 @@ def boundaries_prometeo_vigente(lines):
     return result
 
 
+def boundaries_histos_diagnostico(lines):
+    candidates = []
+    for index, raw in enumerate(lines):
+        text = _normalize_markdown_heading(raw).strip()
+        upper = text.upper()
+        if (
+            "P·" in text
+            or upper.startswith("BLOQUE ")
+            or upper.startswith("PARTE PRELIMINAR")
+            or upper.startswith("APÉNDICE")
+            or upper == "APÉNDICES"
+            or re.match(r"^CAPÍTULO\s+[IVX]+[·.]\d+", upper)
+        ):
+            candidates.append(f"{index+1}: {raw.strip()}")
+    raise RuntimeError(
+        "HISTOS: diagnóstico temporal de marcadores estructurales:\n"
+        + "\n".join(candidates[:120])
+    )
+
+
 def adapt_specs() -> None:
     for module in SEGMENTERS:
         for spec in module.SPECS:
@@ -145,6 +165,7 @@ def adapt_specs() -> None:
     segmentar_lote_02.PARSERS["eco"] = boundaries_eco_vigente
     segmentar_lote_02.PARSERS["calculo"] = boundaries_calculo_vigente
     segmentar_lote_02.PARSERS["prometeo"] = boundaries_prometeo_vigente
+    segmentar_lote_02.PARSERS["histos"] = boundaries_histos_diagnostico
 
 
 def validate_sources() -> None:
