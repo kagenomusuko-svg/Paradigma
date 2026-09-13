@@ -8,6 +8,7 @@ comprobadas entre los parsers históricos y las ediciones canónicas vigentes.
 
 from __future__ import annotations
 
+from collections import Counter
 from pathlib import Path
 import re
 
@@ -55,11 +56,9 @@ def _normalize_markdown_heading(raw: str) -> str:
 
 
 def boundaries_axiomatizacion_vigente(lines):
-    """Reconoce las Partes/Apéndices como encabezados Markdown de la edición vigente."""
     result = []
     prologue = next(i for i, line in enumerate(lines) if line.strip() == "## Prólogo")
     result.append(segmentar_lote_02.unit(prologue, "prologo", "01-prologo.md", "PROLOGO", "Prólogo"))
-
     expected = ["0", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"]
     found = []
     for index, raw in enumerate(lines):
@@ -70,34 +69,25 @@ def boundaries_axiomatizacion_vigente(lines):
         if len(found) < len(expected) and code == expected[len(found)]:
             found.append(code)
             number = 0 if code == "0" else segmentar_lote_02.roman_to_int(code)
-            result.append(
-                segmentar_lote_02.unit(index, "parte", f"parte-{number:02d}.md", f"PARTE-{code}", raw.strip())
-            )
+            result.append(segmentar_lote_02.unit(index, "parte", f"parte-{number:02d}.md", f"PARTE-{code}", raw.strip()))
     if found != expected:
         raise RuntimeError(f"Secuencia de partes inesperada en Axiomatización: {found}")
-
     last_part = max(item["start"] for item in result if item["kind"] == "parte")
     for letter in "ABCD":
         pattern = re.compile(rf"#{{1,6}}\s+Apéndice\s+{letter}(?:\s*[·.]\s*.*)?", re.IGNORECASE)
         index = next(i for i in range(last_part + 1, len(lines)) if pattern.fullmatch(lines[i].strip()))
-        result.append(
-            segmentar_lote_02.unit(index, "apendice", f"apendice-{letter.lower()}.md", f"AP-{letter}", lines[index].strip())
-        )
+        result.append(segmentar_lote_02.unit(index, "apendice", f"apendice-{letter.lower()}.md", f"AP-{letter}", lines[index].strip()))
     return result
 
 
 def boundaries_eco_vigente(lines):
-    """Aplica el parser histórico de ECO ignorando sólo prefijos Markdown de encabezado."""
     normalized = [_normalize_markdown_heading(line) for line in lines]
     return segmentar_lote_02.boundaries_eco(normalized)
 
 
 def boundaries_calculo_vigente(lines):
-    """Conserva la secuencia histórica de 18 capítulos y admite los títulos editoriales vigentes."""
     result = []
-    prologue = next(
-        i for i, line in enumerate(lines) if _normalize_markdown_heading(line).strip() == "PRÓLOGO"
-    )
+    prologue = next(i for i, line in enumerate(lines) if _normalize_markdown_heading(line).strip() == "PRÓLOGO")
     result.append(segmentar_lote_02.unit(prologue, "prologo", "01-prologo.md", "PROLOGO", "PRÓLOGO"))
     expected = 1
     chapter_pattern = re.compile(r"#{1,6}\s+Capítulo\s+(\d+)(?:\s+.*)?")
@@ -105,9 +95,7 @@ def boundaries_calculo_vigente(lines):
         match = chapter_pattern.fullmatch(raw.strip())
         if match and int(match.group(1)) == expected:
             start = segmentar_lote_02.prefix_start(lines, index, r"## PARTE .*", 4)
-            result.append(
-                segmentar_lote_02.unit(start, "capitulo", f"capitulo-{expected:02d}.md", str(expected), raw.strip())
-            )
+            result.append(segmentar_lote_02.unit(start, "capitulo", f"capitulo-{expected:02d}.md", str(expected), raw.strip()))
             expected += 1
             if expected == 19:
                 break
@@ -116,14 +104,40 @@ def boundaries_calculo_vigente(lines):
     last = result[-1]["start"]
     for letter in "ABCDE":
         appendix_pattern = re.compile(rf"APÉNDICE\s+{letter}(?:\s+.*)?", re.IGNORECASE)
-        index = next(
-            i
-            for i in range(last + 1, len(lines))
-            if appendix_pattern.fullmatch(_normalize_markdown_heading(lines[i]).strip())
-        )
-        result.append(
-            segmentar_lote_02.unit(index, "apendice", f"apendice-{letter.lower()}.md", letter, f"APÉNDICE {letter}")
-        )
+        index = next(i for i in range(last + 1, len(lines)) if appendix_pattern.fullmatch(_normalize_markdown_heading(lines[i]).strip()))
+        result.append(segmentar_lote_02.unit(index, "apendice", f"apendice-{letter.lower()}.md", letter, f"APÉNDICE {letter}"))
+    return result
+
+
+def boundaries_prometeo_vigente(lines):
+    """Mantiene el parser histórico y adapta sólo el prólogo a su encabezado vigente con título."""
+    result = []
+    prologue = next(
+        i for i, line in enumerate(lines)
+        if re.match(r"^#{1,6}\s+Prólogo(?:\s|$)", line.strip(), re.IGNORECASE)
+    )
+    result.append(segmentar_lote_02.unit(prologue, "prologo", "01-prologo.md", "PROLOGO", lines[prologue].strip()))
+    chapters = []
+    for index, raw in enumerate(lines):
+        match = re.fullmatch(r"### Capítulo (\d+)\.?", raw.strip())
+        if not match:
+            continue
+        if any(previous == "EL MÉTODO PROMETEO · IMPUTACIÓN CAUSAL" for _, previous in segmentar_lote_02.previous_nonblank(lines, index, 5)):
+            chapters.append((index, int(match.group(1)), raw.strip()))
+    if not chapters:
+        raise RuntimeError("Método Prometeo: no se detectaron capítulos con el patrón histórico vigente.")
+    occurrences = Counter(number for _, number, _ in chapters)
+    used = Counter()
+    for index, number, heading in chapters:
+        used[number] += 1
+        suffix = ""
+        if occurrences[number] > 1:
+            suffix = chr(ord("a") + used[number] - 1)
+        result.append(segmentar_lote_02.unit(index, "capitulo", f"capitulo-{number:02d}{suffix}.md", f"{number}{suffix}", heading))
+    last = chapters[-1][0]
+    for letter in "ABC":
+        index = next(i for i in range(last + 1, len(lines)) if lines[i].strip() == f"Apéndice {letter}")
+        result.append(segmentar_lote_02.unit(index, "apendice", f"apendice-{letter.lower()}.md", letter, f"Apéndice {letter}"))
     return result
 
 
@@ -131,11 +145,10 @@ def adapt_specs() -> None:
     for module in SEGMENTERS:
         for spec in module.SPECS:
             spec["source"] = SOURCE_ALIASES.get(spec["source"], spec["source"])
-
-    # Adaptaciones mínimas demostradas por ejecuciones sobre las fuentes vigentes.
     segmentar_lote_02.PARSERS["axiomatizacion"] = boundaries_axiomatizacion_vigente
     segmentar_lote_02.PARSERS["eco"] = boundaries_eco_vigente
     segmentar_lote_02.PARSERS["calculo"] = boundaries_calculo_vigente
+    segmentar_lote_02.PARSERS["prometeo"] = boundaries_prometeo_vigente
 
 
 def validate_sources() -> None:
