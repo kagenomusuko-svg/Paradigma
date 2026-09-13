@@ -28,6 +28,29 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Diagnóstico temporal de seis fuentes
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          files = [
+              'Afrodita Areia sobre la pasión.md',
+              'Afrodita Areia Ágape.md',
+              'Afrodita Areia Damasén.md',
+              'El dilema de Aquiles o la disociación del ego.md',
+              'El juego de las máscaras o la disforia de la identidad.md',
+              'SDO Sistema de diagnóstico ontológico.md',
+          ]
+          keys = ('prefacio', 'prólogo', 'prologo', 'capítulo', 'capitulo', 'epílogo', 'epilogo', 'apéndice', 'apendice', 'glosario', 'presentación', 'presentacion', 'bibliografía', 'bibliografia', 'parte ')
+          root = Path('corpus/fuentes')
+          for name in files:
+              print(f'===== {name} =====')
+              for number, line in enumerate((root / name).read_text(encoding='utf-8').splitlines(), 1):
+                  text = line.strip()
+                  low = text.lower()
+                  if text.startswith('#') and any(key in low for key in keys):
+                      print(f'{number}: {text}')
+          PY
+
       - name: Segmentar y verificar corpus completo
         run: python scripts/segmentar_fuentes_actuales.py
 
