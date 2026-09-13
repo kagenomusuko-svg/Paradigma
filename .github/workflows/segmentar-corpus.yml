@@ -28,19 +28,6 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Diagnóstico temporal de SDO
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          import re
-          path = Path('corpus/fuentes/SDO Sistema de diagnóstico ontológico.md')
-          code = re.compile(r'(PI·\d+|I·0|I·E-\d+|II·0|II·M-\d+|III·0|III·V-\d+|IV·0|IV·D-\d+|V·0|V·T-(?:\d+|ext)|VI·\d+|VII·\d+|VIII·\d+)')
-          for number, line in enumerate(path.read_text(encoding='utf-8').splitlines(), 1):
-              text = line.strip()
-              if len(text) <= 180 and (code.search(text) or text.upper().startswith('PARTE ')):
-                  print(f'{number}: {text}')
-          PY
-
       - name: Segmentar y verificar corpus completo
         run: python scripts/segmentar_fuentes_actuales.py
 
