@@ -25,7 +25,7 @@ SOURCE_ALIASES = {
     "Afrodita_Areia_Damasen.md": "Afrodita Areia Damasén.md",
     "Afrodita_Areia_Areopopago.md": "Afrodita Areia Areópago.md",
     "Afrodita_Areia_Caelus.md": "Afrodita Areia Caelus.md",
-    "El_dilema_de_Aquiles_o_la_disociacion_del_ego.md": "El dilema de Aquiles o la disociación del ego.md",
+    "El_dilema_de_Aquiles_o_la_disociacion_del_ego.md": "El dilema de Aquiles o la disforia de la identidad.md".replace("disforia", "disociación"),
     "El_juego_de_las_mascaras_o_la_disforia_de_la_identidad.md": "El juego de las máscaras o la disforia de la identidad.md",
     "El_telar_de_las_Moiras_Ontologia_de_la_autodeterminacion_causal.md": "El telar de las Moiras Ontología de la autodeterminación causal.md",
     "Axiomatizacion_Sistema_Doble_Mediacion.md": "Axiomatización del sistema de la doble mediación.md",
@@ -137,24 +137,28 @@ def boundaries_prometeo_vigente(lines):
     return result
 
 
-def boundaries_histos_diagnostico(lines):
-    candidates = []
+def boundaries_histos_vigente(lines):
+    """Conserva los cortes históricos de HISTOS y admite Markdown en los preliminares."""
+    result = []
+    for number in range(1, 6):
+        pattern = re.compile(rf"#{{1,6}}\s+Capítulo\s+P·{number}(?:\s+.*)?", re.IGNORECASE)
+        index = next(i for i, line in enumerate(lines) if pattern.fullmatch(line.strip()))
+        start = segmentar_lote_02.prefix_start(lines, index, r"PARTE PRELIMINAR · Fundamentos del instrumento", 3)
+        result.append(segmentar_lote_02.unit(start, "capitulo", f"capitulo-p-{number}.md", f"P·{number}", lines[index].strip()))
     for index, raw in enumerate(lines):
-        text = _normalize_markdown_heading(raw).strip()
-        upper = text.upper()
-        if (
-            "P·" in text
-            or upper.startswith("BLOQUE ")
-            or upper.startswith("PARTE PRELIMINAR")
-            or upper.startswith("APÉNDICE")
-            or upper == "APÉNDICES"
-            or re.match(r"^CAPÍTULO\s+[IVX]+[·.]\d+", upper)
-        ):
-            candidates.append(f"{index+1}: {raw.strip()}")
-    raise RuntimeError(
-        "HISTOS: diagnóstico temporal de marcadores estructurales:\n"
-        + "\n".join(candidates[:120])
-    )
+        match = re.fullmatch(r"### Capítulo ([IVX]+)·(\d+)(?:\s+.*)?", raw.strip())
+        if not match:
+            continue
+        block = None
+        for position, previous in segmentar_lote_02.previous_nonblank(lines, index, 3):
+            if re.match(r"^BLOQUE [IVX]+ ·", previous):
+                block = position
+                break
+        if block is None:
+            continue
+        roman, number = match.group(1), int(match.group(2))
+        result.append(segmentar_lote_02.unit(block, "capitulo", f"capitulo-{segmentar_lote_02.roman_to_int(roman):02d}-{number:02d}.md", f"{roman}·{number}", raw.strip()))
+    return result
 
 
 def adapt_specs() -> None:
@@ -165,7 +169,7 @@ def adapt_specs() -> None:
     segmentar_lote_02.PARSERS["eco"] = boundaries_eco_vigente
     segmentar_lote_02.PARSERS["calculo"] = boundaries_calculo_vigente
     segmentar_lote_02.PARSERS["prometeo"] = boundaries_prometeo_vigente
-    segmentar_lote_02.PARSERS["histos"] = boundaries_histos_diagnostico
+    segmentar_lote_02.PARSERS["histos"] = boundaries_histos_vigente
 
 
 def validate_sources() -> None:
