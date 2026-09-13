@@ -1,0 +1,44 @@
+{
+  "title": "Afrodita Areia: Areópago",
+  "source": "corpus/fuentes/Afrodita Areia Areópago.md",
+  "sha256": "30a753e31d48e3d3812773f47d5d977282e1d716f1ca3cca33e4cdde3dbd3177",
+  "series": "Afrodita Areia",
+  "volume": 4,
+  "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
+  "segments": [
+    {
+      "path": "corpus/libros/afrodita-areia/04-areopago/00-preliminares.md",
+      "kind": "preliminares",
+      "start_line": 1,
+      "end_line": 94
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/04-areopago/02-prologo.md",
+      "kind": "prologo",
+      "heading": "## Prólogo",
+      "start_line": 95,
+      "end_line": 12360
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/04-areopago/apendice-01.md",
+      "kind": "appendix",
+      "heading": "## APÉNDICE I",
+      "start_line": 12361,
+      "end_line": 12994
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/04-areopago/apendice-02.md",
+      "kind": "appendix",
+      "heading": "## APÉNDICE II",
+      "start_line": 12995,
+      "end_line": 13570
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/04-areopago/apendice-03.md",
+      "kind": "appendix",
+      "heading": "## APÉNDICE III",
+      "start_line": 13571,
+      "end_line": 14950
+    }
+  ]
+}

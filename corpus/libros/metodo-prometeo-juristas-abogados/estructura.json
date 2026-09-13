@@ -1,0 +1,116 @@
+{
+  "id": "PROMETEO-JUR",
+  "title": "El método Prometeo: Imputación causal para juristas y abogados",
+  "source": "corpus/fuentes/El método Prometeo imputación causal para juristas y abogados.md",
+  "sha256": "fa722e6d9a36e83ee35a23854fae87b0f8aa09ea7d4b8c9cf193de76c2f23ca1",
+  "collection": "Método Prometeo de imputación causal",
+  "volume": null,
+  "source_anomalies": [
+    "La fuente contiene dos unidades distintas rotuladas «Capítulo 6»; se conservan como 6a y 6b en la capa derivada sin alterar la fuente."
+  ],
+  "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
+  "segments": [
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/00-preliminares.md",
+      "kind": "preliminares",
+      "start_line": 1,
+      "end_line": 30
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/01-prologo.md",
+      "kind": "prologo",
+      "key": "PROLOGO",
+      "heading": "### Prólogo Por qué este método, para",
+      "start_line": 31,
+      "end_line": 206
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-01.md",
+      "kind": "capitulo",
+      "key": "1",
+      "heading": "### Capítulo 1 El origen del método",
+      "start_line": 207,
+      "end_line": 568
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-02.md",
+      "kind": "capitulo",
+      "key": "2",
+      "heading": "### Capítulo 2 La estructura del",
+      "start_line": 569,
+      "end_line": 1454
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-03.md",
+      "kind": "capitulo",
+      "key": "3",
+      "heading": "### Capítulo 3 Las herramientas en",
+      "start_line": 1455,
+      "end_line": 2466
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-04.md",
+      "kind": "capitulo",
+      "key": "4",
+      "heading": "### Capítulo 4 Análisis de casos",
+      "start_line": 2467,
+      "end_line": 3148
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-05.md",
+      "kind": "capitulo",
+      "key": "5",
+      "heading": "### Capítulo 5 PLD y delitos financieros complejos",
+      "start_line": 3149,
+      "end_line": 3850
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-06a.md",
+      "kind": "capitulo",
+      "key": "6a",
+      "heading": "### Capítulo 6 Caso PLD: las tres",
+      "start_line": 3851,
+      "end_line": 4840
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-06b.md",
+      "kind": "capitulo",
+      "key": "6b",
+      "heading": "### Capítulo 6 El protocolo de presentación ante el",
+      "start_line": 4841,
+      "end_line": 5622
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-07.md",
+      "kind": "capitulo",
+      "key": "7",
+      "heading": "### Capítulo 7 El peritaje completo",
+      "start_line": 5623,
+      "end_line": 6540
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/apendice-a.md",
+      "kind": "apendice",
+      "key": "A",
+      "heading": "### Apéndice A Tabla de evidencia E0-E8",
+      "start_line": 6541,
+      "end_line": 6776
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/apendice-b.md",
+      "kind": "apendice",
+      "key": "B",
+      "heading": "### Apéndice B Hoja de calibración en",
+      "start_line": 6777,
+      "end_line": 6886
+    },
+    {
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/apendice-c.md",
+      "kind": "apendice",
+      "key": "C",
+      "heading": "### Apéndice C Guía de la plantilla de",
+      "start_line": 6887,
+      "end_line": 7008
+    }
+  ]
+}

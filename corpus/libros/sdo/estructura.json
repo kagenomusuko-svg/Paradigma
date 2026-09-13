@@ -1,0 +1,378 @@
+{
+  "id": "SDO",
+  "title": "SDO: Sistema de Diagnóstico Ontológico",
+  "source": "corpus/fuentes/SDO Sistema de diagnóstico ontológico.md",
+  "sha256": "e0719f144cd63bd915c08076a9f01243267192141e378817fd1ba1c45194834b",
+  "collection": "Autodeterminación Causal",
+  "volume": null,
+  "source_anomalies": [],
+  "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
+  "segments": [
+    {
+      "path": "corpus/libros/sdo/00-preliminares.md",
+      "kind": "preliminares",
+      "start_line": 1,
+      "end_line": 360
+    },
+    {
+      "path": "corpus/libros/sdo/pi-1.md",
+      "kind": "unidad",
+      "key": "PI·1",
+      "heading": "PARTE INICIAL · PI·1 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 361,
+      "end_line": 620
+    },
+    {
+      "path": "corpus/libros/sdo/pi-2.md",
+      "kind": "unidad",
+      "key": "PI·2",
+      "heading": "PARTE INICIAL · PI·2 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 621,
+      "end_line": 970
+    },
+    {
+      "path": "corpus/libros/sdo/pi-3.md",
+      "kind": "unidad",
+      "key": "PI·3",
+      "heading": "PARTE INICIAL · PI·3 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 971,
+      "end_line": 1270
+    },
+    {
+      "path": "corpus/libros/sdo/pi-4.md",
+      "kind": "unidad",
+      "key": "PI·4",
+      "heading": "PARTE INICIAL · PI·4 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 1271,
+      "end_line": 1594
+    },
+    {
+      "path": "corpus/libros/sdo/pi-5.md",
+      "kind": "unidad",
+      "key": "PI·5",
+      "heading": "PARTE INICIAL · PI·5 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 1595,
+      "end_line": 1906
+    },
+    {
+      "path": "corpus/libros/sdo/pi-6.md",
+      "kind": "unidad",
+      "key": "PI·6",
+      "heading": "PARTE INICIAL · PI·6 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 1907,
+      "end_line": 2220
+    },
+    {
+      "path": "corpus/libros/sdo/pi-7.md",
+      "kind": "unidad",
+      "key": "PI·7",
+      "heading": "PARTE INICIAL · PI·7 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 2221,
+      "end_line": 2514
+    },
+    {
+      "path": "corpus/libros/sdo/pi-8.md",
+      "kind": "unidad",
+      "key": "PI·8",
+      "heading": "PARTE INICIAL · PI·8 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 2515,
+      "end_line": 2862
+    },
+    {
+      "path": "corpus/libros/sdo/i-0.md",
+      "kind": "unidad",
+      "key": "I·0",
+      "heading": "PARTE I · I·0 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 2863,
+      "end_line": 3232
+    },
+    {
+      "path": "corpus/libros/sdo/i-e-1.md",
+      "kind": "unidad",
+      "key": "I·E-1",
+      "heading": "PARTE I · EJE I · I·E-1 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 3233,
+      "end_line": 3574
+    },
+    {
+      "path": "corpus/libros/sdo/i-e-2.md",
+      "kind": "unidad",
+      "key": "I·E-2",
+      "heading": "PARTE I · EJE I · I·E-2 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 3575,
+      "end_line": 3972
+    },
+    {
+      "path": "corpus/libros/sdo/i-e-3.md",
+      "kind": "unidad",
+      "key": "I·E-3",
+      "heading": "PARTE I · EJE I · I·E-3 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 3973,
+      "end_line": 4410
+    },
+    {
+      "path": "corpus/libros/sdo/i-e-4.md",
+      "kind": "unidad",
+      "key": "I·E-4",
+      "heading": "PARTE I · EJE I · I·E-4 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 4411,
+      "end_line": 4840
+    },
+    {
+      "path": "corpus/libros/sdo/i-e-5.md",
+      "kind": "unidad",
+      "key": "I·E-5",
+      "heading": "PARTE I · EJE I · I·E-5 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 4841,
+      "end_line": 5212
+    },
+    {
+      "path": "corpus/libros/sdo/i-e-6.md",
+      "kind": "unidad",
+      "key": "I·E-6",
+      "heading": "PARTE I · EJE I · I·E-6 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 5213,
+      "end_line": 5544
+    },
+    {
+      "path": "corpus/libros/sdo/ii-0.md",
+      "kind": "unidad",
+      "key": "II·0",
+      "heading": "PARTE II · II·0 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 5545,
+      "end_line": 5840
+    },
+    {
+      "path": "corpus/libros/sdo/ii-m-1.md",
+      "kind": "unidad",
+      "key": "II·M-1",
+      "heading": "PARTE II · EJE II · II·M-1 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 5841,
+      "end_line": 6176
+    },
+    {
+      "path": "corpus/libros/sdo/ii-m-2.md",
+      "kind": "unidad",
+      "key": "II·M-2",
+      "heading": "PARTE II · EJE II · II·M-2 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 6177,
+      "end_line": 6560
+    },
+    {
+      "path": "corpus/libros/sdo/ii-m-3.md",
+      "kind": "unidad",
+      "key": "II·M-3",
+      "heading": "PARTE II · EJE II · II·M-3 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 6561,
+      "end_line": 6878
+    },
+    {
+      "path": "corpus/libros/sdo/iii-0.md",
+      "kind": "unidad",
+      "key": "III·0",
+      "heading": "PARTE III · III·0 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 6879,
+      "end_line": 7174
+    },
+    {
+      "path": "corpus/libros/sdo/iii-v-1.md",
+      "kind": "unidad",
+      "key": "III·V-1",
+      "heading": "PARTE III · EJE III · III·V-1 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 7175,
+      "end_line": 7524
+    },
+    {
+      "path": "corpus/libros/sdo/iii-v-2.md",
+      "kind": "unidad",
+      "key": "III·V-2",
+      "heading": "PARTE III · EJE III · III·V-2 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 7525,
+      "end_line": 7902
+    },
+    {
+      "path": "corpus/libros/sdo/iii-v-3.md",
+      "kind": "unidad",
+      "key": "III·V-3",
+      "heading": "PARTE III · EJE III · III·V-3 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 7903,
+      "end_line": 8242
+    },
+    {
+      "path": "corpus/libros/sdo/iv-0.md",
+      "kind": "unidad",
+      "key": "IV·0",
+      "heading": "PARTE IV · IV·0 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 8243,
+      "end_line": 8490
+    },
+    {
+      "path": "corpus/libros/sdo/iv-d-1.md",
+      "kind": "unidad",
+      "key": "IV·D-1",
+      "heading": "PARTE IV · EJE IV · IV·D-1 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 8491,
+      "end_line": 8852
+    },
+    {
+      "path": "corpus/libros/sdo/iv-d-2.md",
+      "kind": "unidad",
+      "key": "IV·D-2",
+      "heading": "PARTE IV · EJE IV · IV·D-2 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 8853,
+      "end_line": 9244
+    },
+    {
+      "path": "corpus/libros/sdo/v-0.md",
+      "kind": "unidad",
+      "key": "V·0",
+      "heading": "PARTE V · V·0 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 9245,
+      "end_line": 9596
+    },
+    {
+      "path": "corpus/libros/sdo/v-t-0.md",
+      "kind": "unidad",
+      "key": "V·T-0",
+      "heading": "PARTE V · EJE V · V·T-0 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 9597,
+      "end_line": 9966
+    },
+    {
+      "path": "corpus/libros/sdo/v-t-1.md",
+      "kind": "unidad",
+      "key": "V·T-1",
+      "heading": "PARTE V · EJE V · V·T-1 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 9967,
+      "end_line": 10354
+    },
+    {
+      "path": "corpus/libros/sdo/v-t-2.md",
+      "kind": "unidad",
+      "key": "V·T-2",
+      "heading": "PARTE V · EJE V · V·T-2 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 10355,
+      "end_line": 10746
+    },
+    {
+      "path": "corpus/libros/sdo/v-t-3.md",
+      "kind": "unidad",
+      "key": "V·T-3",
+      "heading": "PARTE V · EJE V · V·T-3 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 10747,
+      "end_line": 11132
+    },
+    {
+      "path": "corpus/libros/sdo/v-t-4.md",
+      "kind": "unidad",
+      "key": "V·T-4",
+      "heading": "PARTE V · EJE V · V·T-4 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 11133,
+      "end_line": 11526
+    },
+    {
+      "path": "corpus/libros/sdo/v-t-5.md",
+      "kind": "unidad",
+      "key": "V·T-5",
+      "heading": "PARTE V · EJE V · V·T-5 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 11527,
+      "end_line": 11882
+    },
+    {
+      "path": "corpus/libros/sdo/v-t-6.md",
+      "kind": "unidad",
+      "key": "V·T-6",
+      "heading": "PARTE V · EJE V · V·T-6 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 11883,
+      "end_line": 12242
+    },
+    {
+      "path": "corpus/libros/sdo/v-t-ext.md",
+      "kind": "unidad",
+      "key": "V·T-ext",
+      "heading": "PARTE V · EJE V · V·T-ext Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 12243,
+      "end_line": 12586
+    },
+    {
+      "path": "corpus/libros/sdo/vi-1.md",
+      "kind": "unidad",
+      "key": "VI·1",
+      "heading": "PARTE VI · EL SDO COMO SISTEMA · VI·1",
+      "start_line": 12587,
+      "end_line": 12902
+    },
+    {
+      "path": "corpus/libros/sdo/vi-2.md",
+      "kind": "unidad",
+      "key": "VI·2",
+      "heading": "PARTE VI · VI·2 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 12903,
+      "end_line": 13230
+    },
+    {
+      "path": "corpus/libros/sdo/vi-3.md",
+      "kind": "unidad",
+      "key": "VI·3",
+      "heading": "PARTE VI · VI·3 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 13231,
+      "end_line": 13536
+    },
+    {
+      "path": "corpus/libros/sdo/vii-1.md",
+      "kind": "unidad",
+      "key": "VII·1",
+      "heading": "PARTE VII · VII·1 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 13537,
+      "end_line": 13814
+    },
+    {
+      "path": "corpus/libros/sdo/vii-2.md",
+      "kind": "unidad",
+      "key": "VII·2",
+      "heading": "PARTE VII · VII·2 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 13815,
+      "end_line": 14146
+    },
+    {
+      "path": "corpus/libros/sdo/vii-3.md",
+      "kind": "unidad",
+      "key": "VII·3",
+      "heading": "PARTE VII · VII·3 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 14147,
+      "end_line": 14458
+    },
+    {
+      "path": "corpus/libros/sdo/vii-4.md",
+      "kind": "unidad",
+      "key": "VII·4",
+      "heading": "PARTE VII · VII·4 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 14459,
+      "end_line": 14788
+    },
+    {
+      "path": "corpus/libros/sdo/viii-1.md",
+      "kind": "unidad",
+      "key": "VIII·1",
+      "heading": "PARTE VIII · VIII·1 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 14789,
+      "end_line": 15172
+    },
+    {
+      "path": "corpus/libros/sdo/viii-2.md",
+      "kind": "unidad",
+      "key": "VIII·2",
+      "heading": "PARTE VIII · VIII·2 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 15173,
+      "end_line": 15534
+    },
+    {
+      "path": "corpus/libros/sdo/viii-3.md",
+      "kind": "unidad",
+      "key": "VIII·3",
+      "heading": "PARTE VIII · VIII·3 Sistema de Diagnóstico Ontológico · SDO",
+      "start_line": 15535,
+      "end_line": 15885
+    }
+  ]
+}

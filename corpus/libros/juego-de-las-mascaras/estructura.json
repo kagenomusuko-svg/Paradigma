@@ -1,0 +1,107 @@
+{
+  "title": "El juego de las máscaras o la disforia de la identidad",
+  "source": "corpus/fuentes/El juego de las máscaras o la disforia de la identidad.md",
+  "sha256": "5b72c15a3029d48be5156b0fd49130011c41ec673bcae82e2b5a212d678e84aa",
+  "series": null,
+  "volume": null,
+  "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
+  "segments": [
+    {
+      "path": "corpus/libros/juego-de-las-mascaras/00-preliminares.md",
+      "kind": "preliminares",
+      "start_line": 1,
+      "end_line": 86
+    },
+    {
+      "path": "corpus/libros/juego-de-las-mascaras/02-prologo.md",
+      "kind": "prologo",
+      "heading": "## Prólogo",
+      "start_line": 87,
+      "end_line": 526
+    },
+    {
+      "path": "corpus/libros/juego-de-las-mascaras/capitulo-01.md",
+      "kind": "chapter",
+      "heading": "## Capítulo I",
+      "start_line": 527,
+      "end_line": 1360
+    },
+    {
+      "path": "corpus/libros/juego-de-las-mascaras/capitulo-02.md",
+      "kind": "chapter",
+      "heading": "## Capítulo II",
+      "start_line": 1361,
+      "end_line": 2436
+    },
+    {
+      "path": "corpus/libros/juego-de-las-mascaras/capitulo-03.md",
+      "kind": "chapter",
+      "heading": "## Capítulo III",
+      "start_line": 2437,
+      "end_line": 3380
+    },
+    {
+      "path": "corpus/libros/juego-de-las-mascaras/capitulo-04.md",
+      "kind": "chapter",
+      "heading": "## Capítulo IV",
+      "start_line": 3381,
+      "end_line": 4364
+    },
+    {
+      "path": "corpus/libros/juego-de-las-mascaras/capitulo-05.md",
+      "kind": "chapter",
+      "heading": "## Capítulo V",
+      "start_line": 4365,
+      "end_line": 5246
+    },
+    {
+      "path": "corpus/libros/juego-de-las-mascaras/capitulo-06.md",
+      "kind": "chapter",
+      "heading": "## Capítulo VI",
+      "start_line": 5247,
+      "end_line": 6212
+    },
+    {
+      "path": "corpus/libros/juego-de-las-mascaras/capitulo-07.md",
+      "kind": "chapter",
+      "heading": "## Capítulo VII",
+      "start_line": 6213,
+      "end_line": 7260
+    },
+    {
+      "path": "corpus/libros/juego-de-las-mascaras/capitulo-08.md",
+      "kind": "chapter",
+      "heading": "## Capítulo VIII",
+      "start_line": 7261,
+      "end_line": 8270
+    },
+    {
+      "path": "corpus/libros/juego-de-las-mascaras/capitulo-09.md",
+      "kind": "chapter",
+      "heading": "## Capítulo IX",
+      "start_line": 8271,
+      "end_line": 9356
+    },
+    {
+      "path": "corpus/libros/juego-de-las-mascaras/capitulo-10.md",
+      "kind": "chapter",
+      "heading": "## Capítulo X",
+      "start_line": 9357,
+      "end_line": 10306
+    },
+    {
+      "path": "corpus/libros/juego-de-las-mascaras/90-epilogo.md",
+      "kind": "epilogo",
+      "heading": "## Epílogo",
+      "start_line": 10307,
+      "end_line": 10856
+    },
+    {
+      "path": "corpus/libros/juego-de-las-mascaras/99-glosario.md",
+      "kind": "glossary",
+      "heading": "### Glosario",
+      "start_line": 10857,
+      "end_line": 11175
+    }
+  ]
+}

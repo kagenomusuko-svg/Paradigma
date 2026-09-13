@@ -1,0 +1,142 @@
+{
+  "title": "Afrodita Areia: Ágape",
+  "source": "corpus/fuentes/Afrodita Areia Ágape.md",
+  "sha256": "38907af244e8e6e4f0967bdf710c409ad8faba89dd8730366d1bd681a5d0aa71",
+  "series": "Afrodita Areia",
+  "volume": 2,
+  "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
+  "segments": [
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/00-preliminares.md",
+      "kind": "preliminares",
+      "start_line": 1,
+      "end_line": 54
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/01-prefacio.md",
+      "kind": "prefacio",
+      "heading": "### PREFACIO El útero que no recuerda haber parido",
+      "start_line": 55,
+      "end_line": 188
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/02-prologo.md",
+      "kind": "prologo",
+      "heading": "### PRÓLOGO FILOSÓFICO Por qué la voluntad tiene formas",
+      "start_line": 189,
+      "end_line": 348
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/capitulo-01.md",
+      "kind": "chapter",
+      "heading": "### CAPÍTULO 1 Ágape no es amor",
+      "start_line": 349,
+      "end_line": 492
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/capitulo-02.md",
+      "kind": "chapter",
+      "heading": "### CAPÍTULO 2 La voluntad antes de tener dirección",
+      "start_line": 493,
+      "end_line": 628
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/capitulo-03.md",
+      "kind": "chapter",
+      "heading": "### CAPÍTULO 3 Cómo el fondo produce hijos",
+      "start_line": 629,
+      "end_line": 782
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/capitulo-04.md",
+      "kind": "chapter",
+      "heading": "### CAPÍTULO 4 La voluntad en los objetos y",
+      "start_line": 783,
+      "end_line": 928
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/capitulo-05.md",
+      "kind": "chapter",
+      "heading": "### CAPÍTULO 5 Eros: el primer sí",
+      "start_line": 929,
+      "end_line": 1046
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/capitulo-06.md",
+      "kind": "chapter",
+      "heading": "### CAPÍTULO 6 Deimos: el vértigo de lo posible",
+      "start_line": 1047,
+      "end_line": 1162
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/capitulo-07.md",
+      "kind": "chapter",
+      "heading": "### CAPÍTULO 7 La misma puerta que abre y paraliza",
+      "start_line": 1163,
+      "end_line": 1284
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/capitulo-08.md",
+      "kind": "chapter",
+      "heading": "### CAPÍTULO 8 Anteros: el no que preserva",
+      "start_line": 1285,
+      "end_line": 1398
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/capitulo-09.md",
+      "kind": "chapter",
+      "heading": "### CAPÍTULO 9 Fobos: el no que destruye",
+      "start_line": 1399,
+      "end_line": 1510
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/capitulo-10.md",
+      "kind": "chapter",
+      "heading": "### CAPÍTULO 10 La dimensión arética y sus dos caras",
+      "start_line": 1511,
+      "end_line": 1634
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/capitulo-11.md",
+      "kind": "chapter",
+      "heading": "### CAPÍTULO 11 Potós: la voluntad que vive en lo que",
+      "start_line": 1635,
+      "end_line": 1746
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/capitulo-12.md",
+      "kind": "chapter",
+      "heading": "### CAPÍTULO 12 Harmonía: habitar lo que hay",
+      "start_line": 1747,
+      "end_line": 1856
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/capitulo-13.md",
+      "kind": "chapter",
+      "heading": "### CAPÍTULO 13 El tiempo de la voluntad: anhelo y",
+      "start_line": 1857,
+      "end_line": 1964
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/capitulo-14.md",
+      "kind": "chapter",
+      "heading": "### CAPÍTULO 14 Los hijos entre sí",
+      "start_line": 1965,
+      "end_line": 2176
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/capitulo-15.md",
+      "kind": "chapter",
+      "heading": "### CAPÍTULO 15 Lo que este volumen deja abierto",
+      "start_line": 2177,
+      "end_line": 2438
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/99-glosario.md",
+      "kind": "glossary",
+      "heading": "### Glosario de términos",
+      "start_line": 2439,
+      "end_line": 2545
+    }
+  ]
+}

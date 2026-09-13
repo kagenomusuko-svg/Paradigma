@@ -1,0 +1,86 @@
+{
+  "title": "El dilema de Aquiles o la disociación del ego",
+  "source": "corpus/fuentes/El dilema de Aquiles o la disociación del ego.md",
+  "sha256": "6951226d215ba5b3fbc5c57ec8ec3ce619c356d7eb013337678f55fc38598c17",
+  "series": null,
+  "volume": null,
+  "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
+  "segments": [
+    {
+      "path": "corpus/libros/dilema-de-aquiles/00-preliminares.md",
+      "kind": "preliminares",
+      "start_line": 1,
+      "end_line": 460
+    },
+    {
+      "path": "corpus/libros/dilema-de-aquiles/02-prologo.md",
+      "kind": "prologo",
+      "heading": "## PRÓLOGO",
+      "start_line": 461,
+      "end_line": 784
+    },
+    {
+      "path": "corpus/libros/dilema-de-aquiles/capitulo-01.md",
+      "kind": "chapter",
+      "heading": "## CAPÍTULO I",
+      "start_line": 785,
+      "end_line": 1930
+    },
+    {
+      "path": "corpus/libros/dilema-de-aquiles/capitulo-02.md",
+      "kind": "chapter",
+      "heading": "## CAPÍTULO II",
+      "start_line": 1931,
+      "end_line": 3032
+    },
+    {
+      "path": "corpus/libros/dilema-de-aquiles/capitulo-03.md",
+      "kind": "chapter",
+      "heading": "## CAPÍTULO III",
+      "start_line": 3033,
+      "end_line": 4140
+    },
+    {
+      "path": "corpus/libros/dilema-de-aquiles/capitulo-04.md",
+      "kind": "chapter",
+      "heading": "## CAPÍTULO IV",
+      "start_line": 4141,
+      "end_line": 5340
+    },
+    {
+      "path": "corpus/libros/dilema-de-aquiles/capitulo-05.md",
+      "kind": "chapter",
+      "heading": "## CAPÍTULO V",
+      "start_line": 5341,
+      "end_line": 6440
+    },
+    {
+      "path": "corpus/libros/dilema-de-aquiles/capitulo-06.md",
+      "kind": "chapter",
+      "heading": "## CAPÍTULO VI",
+      "start_line": 6441,
+      "end_line": 7566
+    },
+    {
+      "path": "corpus/libros/dilema-de-aquiles/capitulo-07.md",
+      "kind": "chapter",
+      "heading": "## CAPÍTULO VII",
+      "start_line": 7567,
+      "end_line": 8684
+    },
+    {
+      "path": "corpus/libros/dilema-de-aquiles/capitulo-08.md",
+      "kind": "chapter",
+      "heading": "## CAPÍTULO VIII",
+      "start_line": 8685,
+      "end_line": 9912
+    },
+    {
+      "path": "corpus/libros/dilema-de-aquiles/90-epilogo.md",
+      "kind": "epilogo",
+      "heading": "## EPÍLOGO",
+      "start_line": 9913,
+      "end_line": 10809
+    }
+  ]
+}

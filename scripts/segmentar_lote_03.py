@@ -83,7 +83,16 @@ def boundaries_architecture(lines):
             "heading": heading,
         })
 
-    glossary = next(i for i, line in enumerate(lines) if line.strip() == "## Glosario de términos")
+    epilogue = next(i for i, line in enumerate(lines) if line.strip() == "## Epílogo")
+    result.append({
+        "start": epilogue,
+        "kind": "epilogo",
+        "filename": "90-epilogo.md",
+        "key": "EPILOGO",
+        "heading": "Epílogo",
+    })
+
+    glossary = next(i for i, line in enumerate(lines) if line.strip() == "### Glosario de términos")
     result.append({
         "start": glossary,
         "kind": "glosario",
