@@ -138,7 +138,6 @@ def boundaries_prometeo_vigente(lines):
 
 
 def boundaries_histos_vigente(lines):
-    """Conserva los cortes históricos de HISTOS y admite Markdown en los preliminares."""
     result = []
     for number in range(1, 6):
         pattern = re.compile(rf"#{{1,6}}\s+Capítulo\s+P·{number}(?:\s+.*)?", re.IGNORECASE)
@@ -161,6 +160,31 @@ def boundaries_histos_vigente(lines):
     return result
 
 
+def boundaries_transformacion_vigente(lines):
+    """Conserva capítulos decimales y admite prólogo/epílogo como headings Markdown."""
+    result = []
+    prologue = next(
+        i for i, line in enumerate(lines)
+        if i > 300 and _normalize_markdown_heading(line).strip() == "PRÓLOGO"
+    )
+    result.append(segmentar_lote_02.unit(prologue, "prologo", "01-prologo.md", "PROLOGO", lines[prologue].strip()))
+    for index, raw in enumerate(lines):
+        match = re.fullmatch(r"### Capítulo (\d+)\.(\d+)", raw.strip())
+        if not match:
+            continue
+        start = segmentar_lote_02.prefix_start(lines, index, r"(?:##\s+)?PARTE .*", 4)
+        a, b = int(match.group(1)), int(match.group(2))
+        result.append(segmentar_lote_02.unit(start, "capitulo", f"capitulo-{a:02d}-{b:02d}.md", f"{a}.{b}", raw.strip()))
+    if len(result) == 1:
+        raise RuntimeError("La transformación formal: no se detectaron capítulos decimales.")
+    epilogue = next(
+        i for i, line in enumerate(lines)
+        if i > result[-1]["start"] and _normalize_markdown_heading(line).strip().upper() == "EPÍLOGO"
+    )
+    result.append(segmentar_lote_02.unit(epilogue, "epilogo", "90-epilogo.md", "EPILOGO", lines[epilogue].strip()))
+    return result
+
+
 def adapt_specs() -> None:
     for module in SEGMENTERS:
         for spec in module.SPECS:
@@ -170,6 +194,7 @@ def adapt_specs() -> None:
     segmentar_lote_02.PARSERS["calculo"] = boundaries_calculo_vigente
     segmentar_lote_02.PARSERS["prometeo"] = boundaries_prometeo_vigente
     segmentar_lote_02.PARSERS["histos"] = boundaries_histos_vigente
+    segmentar_lote_02.PARSERS["transformacion"] = boundaries_transformacion_vigente
 
 
 def validate_sources() -> None:
