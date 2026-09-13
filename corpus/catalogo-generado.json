@@ -104,6 +104,76 @@
         "path": "corpus/libros/dilema-de-aquiles/00-preliminares.md",
         "kind": "preliminares",
         "start_line": 1,
+        "end_line": 460
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/02-prologo.md",
+        "kind": "prologo",
+        "heading": "## PRÓLOGO",
+        "start_line": 461,
+        "end_line": 784
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-01.md",
+        "kind": "chapter",
+        "heading": "## CAPÍTULO I",
+        "start_line": 785,
+        "end_line": 1930
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-02.md",
+        "kind": "chapter",
+        "heading": "## CAPÍTULO II",
+        "start_line": 1931,
+        "end_line": 3032
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-03.md",
+        "kind": "chapter",
+        "heading": "## CAPÍTULO III",
+        "start_line": 3033,
+        "end_line": 4140
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-04.md",
+        "kind": "chapter",
+        "heading": "## CAPÍTULO IV",
+        "start_line": 4141,
+        "end_line": 5340
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-05.md",
+        "kind": "chapter",
+        "heading": "## CAPÍTULO V",
+        "start_line": 5341,
+        "end_line": 6440
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-06.md",
+        "kind": "chapter",
+        "heading": "## CAPÍTULO VI",
+        "start_line": 6441,
+        "end_line": 7566
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-07.md",
+        "kind": "chapter",
+        "heading": "## CAPÍTULO VII",
+        "start_line": 7567,
+        "end_line": 8684
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/capitulo-08.md",
+        "kind": "chapter",
+        "heading": "## CAPÍTULO VIII",
+        "start_line": 8685,
+        "end_line": 9912
+      },
+      {
+        "path": "corpus/libros/dilema-de-aquiles/90-epilogo.md",
+        "kind": "epilogo",
+        "heading": "## EPÍLOGO",
+        "start_line": 9913,
         "end_line": 10809
       }
     ]
@@ -120,6 +190,97 @@
         "path": "corpus/libros/juego-de-las-mascaras/00-preliminares.md",
         "kind": "preliminares",
         "start_line": 1,
+        "end_line": 86
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/02-prologo.md",
+        "kind": "prologo",
+        "heading": "## Prólogo",
+        "start_line": 87,
+        "end_line": 526
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-01.md",
+        "kind": "chapter",
+        "heading": "## Capítulo I",
+        "start_line": 527,
+        "end_line": 1360
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-02.md",
+        "kind": "chapter",
+        "heading": "## Capítulo II",
+        "start_line": 1361,
+        "end_line": 2436
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-03.md",
+        "kind": "chapter",
+        "heading": "## Capítulo III",
+        "start_line": 2437,
+        "end_line": 3380
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-04.md",
+        "kind": "chapter",
+        "heading": "## Capítulo IV",
+        "start_line": 3381,
+        "end_line": 4364
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-05.md",
+        "kind": "chapter",
+        "heading": "## Capítulo V",
+        "start_line": 4365,
+        "end_line": 5246
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-06.md",
+        "kind": "chapter",
+        "heading": "## Capítulo VI",
+        "start_line": 5247,
+        "end_line": 6212
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-07.md",
+        "kind": "chapter",
+        "heading": "## Capítulo VII",
+        "start_line": 6213,
+        "end_line": 7260
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-08.md",
+        "kind": "chapter",
+        "heading": "## Capítulo VIII",
+        "start_line": 7261,
+        "end_line": 8270
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-09.md",
+        "kind": "chapter",
+        "heading": "## Capítulo IX",
+        "start_line": 8271,
+        "end_line": 9356
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/capitulo-10.md",
+        "kind": "chapter",
+        "heading": "## Capítulo X",
+        "start_line": 9357,
+        "end_line": 10306
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/90-epilogo.md",
+        "kind": "epilogo",
+        "heading": "## Epílogo",
+        "start_line": 10307,
+        "end_line": 10856
+      },
+      {
+        "path": "corpus/libros/juego-de-las-mascaras/99-glosario.md",
+        "kind": "glossary",
+        "heading": "### Glosario",
+        "start_line": 10857,
         "end_line": 11175
       }
     ]
@@ -159,6 +320,153 @@
         "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/00-preliminares.md",
         "kind": "preliminares",
         "start_line": 1,
+        "end_line": 92
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/01-prefacio.md",
+        "kind": "prefacio",
+        "heading": "### Prefacio",
+        "start_line": 93,
+        "end_line": 284
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/02-prologo.md",
+        "kind": "prologo",
+        "heading": "### Prólogo filosófico",
+        "start_line": 285,
+        "end_line": 750
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-01.md",
+        "kind": "chapter",
+        "heading": "## Capítulo 1",
+        "start_line": 751,
+        "end_line": 1424
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-02.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 2 Determinación y colapso",
+        "start_line": 1425,
+        "end_line": 2136
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-03.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 3 Habitar el caos",
+        "start_line": 2137,
+        "end_line": 2892
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-04.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 4 Qué es la pasión",
+        "start_line": 2893,
+        "end_line": 3672
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-05.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 5 La pasión en los objetos",
+        "start_line": 3673,
+        "end_line": 4374
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-06.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 6 La pasión en los organismos",
+        "start_line": 4375,
+        "end_line": 5090
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-07.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 7 Las dos direcciones de la pasión",
+        "start_line": 5091,
+        "end_line": 6058
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-08.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 8 La mediación neutral",
+        "start_line": 6059,
+        "end_line": 6932
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-09.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 9 La identidad como accidente del ego",
+        "start_line": 6933,
+        "end_line": 7744
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-10.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 10 La mediación fanes",
+        "start_line": 7745,
+        "end_line": 8654
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-11.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 11 La mediación bis",
+        "start_line": 8655,
+        "end_line": 9440
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-12.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 12 Las tres fórmulas: mapa del sistema",
+        "start_line": 9441,
+        "end_line": 10262
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-13.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 13 El ego como proceso",
+        "start_line": 10263,
+        "end_line": 11014
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-14.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 14 Las posibilidades negadas",
+        "start_line": 11015,
+        "end_line": 11720
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-15.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 15 Antes del pensamiento, la pasión",
+        "start_line": 11721,
+        "end_line": 12446
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-16.md",
+        "kind": "chapter",
+        "heading": "### Capítulo 16 Lo que este volumen deja abierto",
+        "start_line": 12447,
+        "end_line": 13492
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/apendice-b.md",
+        "kind": "appendix",
+        "heading": "### Apéndice B Zagreo o la soberanía no consentida",
+        "start_line": 13493,
+        "end_line": 14010
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/apendice-c.md",
+        "kind": "appendix",
+        "heading": "### Apéndice C Narciso o la víctima indistinguible",
+        "start_line": 14011,
+        "end_line": 14604
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/99-glosario.md",
+        "kind": "glossary",
+        "heading": "### Glosario de términos",
+        "start_line": 14605,
         "end_line": 14827
       }
     ]
@@ -175,6 +483,132 @@
         "path": "corpus/libros/afrodita-areia/02-agape/00-preliminares.md",
         "kind": "preliminares",
         "start_line": 1,
+        "end_line": 54
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/01-prefacio.md",
+        "kind": "prefacio",
+        "heading": "### PREFACIO El útero que no recuerda haber parido",
+        "start_line": 55,
+        "end_line": 188
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/02-prologo.md",
+        "kind": "prologo",
+        "heading": "### PRÓLOGO FILOSÓFICO Por qué la voluntad tiene formas",
+        "start_line": 189,
+        "end_line": 348
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-01.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 1 Ágape no es amor",
+        "start_line": 349,
+        "end_line": 492
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-02.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 2 La voluntad antes de tener dirección",
+        "start_line": 493,
+        "end_line": 628
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-03.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 3 Cómo el fondo produce hijos",
+        "start_line": 629,
+        "end_line": 782
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-04.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 4 La voluntad en los objetos y",
+        "start_line": 783,
+        "end_line": 928
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-05.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 5 Eros: el primer sí",
+        "start_line": 929,
+        "end_line": 1046
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-06.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 6 Deimos: el vértigo de lo posible",
+        "start_line": 1047,
+        "end_line": 1162
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-07.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 7 La misma puerta que abre y paraliza",
+        "start_line": 1163,
+        "end_line": 1284
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-08.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 8 Anteros: el no que preserva",
+        "start_line": 1285,
+        "end_line": 1398
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-09.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 9 Fobos: el no que destruye",
+        "start_line": 1399,
+        "end_line": 1510
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-10.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 10 La dimensión arética y sus dos caras",
+        "start_line": 1511,
+        "end_line": 1634
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-11.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 11 Potós: la voluntad que vive en lo que",
+        "start_line": 1635,
+        "end_line": 1746
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-12.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 12 Harmonía: habitar lo que hay",
+        "start_line": 1747,
+        "end_line": 1856
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-13.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 13 El tiempo de la voluntad: anhelo y",
+        "start_line": 1857,
+        "end_line": 1964
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-14.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 14 Los hijos entre sí",
+        "start_line": 1965,
+        "end_line": 2176
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-15.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 15 Lo que este volumen deja abierto",
+        "start_line": 2177,
+        "end_line": 2438
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/99-glosario.md",
+        "kind": "glossary",
+        "heading": "### Glosario de términos",
+        "start_line": 2439,
         "end_line": 2545
       }
     ]
@@ -191,6 +625,167 @@
         "path": "corpus/libros/afrodita-areia/03-damasen/00-preliminares.md",
         "kind": "preliminares",
         "start_line": 1,
+        "end_line": 86
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/01-prefacio.md",
+        "kind": "prefacio",
+        "heading": "### PREFACIO El que doma no puede ya ser domado",
+        "start_line": 87,
+        "end_line": 482
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/02-prologo.md",
+        "kind": "prologo",
+        "heading": "### PRÓLOGO FILOSÓFICO Lo que la voluntad no puede hacer",
+        "start_line": 483,
+        "end_line": 1184
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-01.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 1 La autodeterminación causal y sus",
+        "start_line": 1185,
+        "end_line": 1806
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-02.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 2 La singularidad",
+        "start_line": 1807,
+        "end_line": 2302
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-03.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 3 Afasia volitiva y disfasia volitiva",
+        "start_line": 2303,
+        "end_line": 2846
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-04.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 4 Lo que los volúmenes anteriores",
+        "start_line": 2847,
+        "end_line": 3356
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-05.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 5 El mito de Damasén",
+        "start_line": 3357,
+        "end_line": 3806
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-06.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 6 El ego que colapsa hacia afuera",
+        "start_line": 3807,
+        "end_line": 4256
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-07.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 7 Damasén y Ares",
+        "start_line": 4257,
+        "end_line": 4654
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-08.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 8 Lo que Damasén no puede ver",
+        "start_line": 4655,
+        "end_line": 5086
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-09.md",
+        "kind": "chapter",
+        "heading": "## CAPÍTULO 9",
+        "start_line": 5087,
+        "end_line": 5526
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-10.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 10 El ego que colapsa hacia adentro",
+        "start_line": 5527,
+        "end_line": 5968
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-11.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 11 Peribea y Afrodita",
+        "start_line": 5969,
+        "end_line": 6382
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-12.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 12 Lo que Peribea parece",
+        "start_line": 6383,
+        "end_line": 6830
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-13.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 13 La asimetría fundamental",
+        "start_line": 6831,
+        "end_line": 7260
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-14.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 14 El encuentro imposible",
+        "start_line": 7261,
+        "end_line": 7660
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-15.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 15 El vínculo que se sostiene solo",
+        "start_line": 7661,
+        "end_line": 8096
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-16.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 16 De la identidad colectiva al Aego",
+        "start_line": 8097,
+        "end_line": 8566
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-17.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 17 Damasén colectivo",
+        "start_line": 8567,
+        "end_line": 9002
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-18.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 18 Peribea colectivo",
+        "start_line": 9003,
+        "end_line": 9426
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/capitulo-19.md",
+        "kind": "chapter",
+        "heading": "### CAPÍTULO 19 El retorno colectivo",
+        "start_line": 9427,
+        "end_line": 10074
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/apendice.md",
+        "kind": "appendix",
+        "heading": "### APÉNDICE El contrato fiscal",
+        "start_line": 10075,
+        "end_line": 10508
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/03-damasen/99-glosario.md",
+        "kind": "glossary",
+        "heading": "### Glosario",
+        "start_line": 10509,
         "end_line": 11059
       }
     ]
@@ -1132,6 +1727,366 @@
         "path": "corpus/libros/sdo/00-preliminares.md",
         "kind": "preliminares",
         "start_line": 1,
+        "end_line": 360
+      },
+      {
+        "path": "corpus/libros/sdo/pi-1.md",
+        "kind": "unidad",
+        "key": "PI·1",
+        "heading": "PARTE INICIAL · PI·1 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 361,
+        "end_line": 620
+      },
+      {
+        "path": "corpus/libros/sdo/pi-2.md",
+        "kind": "unidad",
+        "key": "PI·2",
+        "heading": "PARTE INICIAL · PI·2 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 621,
+        "end_line": 970
+      },
+      {
+        "path": "corpus/libros/sdo/pi-3.md",
+        "kind": "unidad",
+        "key": "PI·3",
+        "heading": "PARTE INICIAL · PI·3 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 971,
+        "end_line": 1270
+      },
+      {
+        "path": "corpus/libros/sdo/pi-4.md",
+        "kind": "unidad",
+        "key": "PI·4",
+        "heading": "PARTE INICIAL · PI·4 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 1271,
+        "end_line": 1594
+      },
+      {
+        "path": "corpus/libros/sdo/pi-5.md",
+        "kind": "unidad",
+        "key": "PI·5",
+        "heading": "PARTE INICIAL · PI·5 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 1595,
+        "end_line": 1906
+      },
+      {
+        "path": "corpus/libros/sdo/pi-6.md",
+        "kind": "unidad",
+        "key": "PI·6",
+        "heading": "PARTE INICIAL · PI·6 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 1907,
+        "end_line": 2220
+      },
+      {
+        "path": "corpus/libros/sdo/pi-7.md",
+        "kind": "unidad",
+        "key": "PI·7",
+        "heading": "PARTE INICIAL · PI·7 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 2221,
+        "end_line": 2514
+      },
+      {
+        "path": "corpus/libros/sdo/pi-8.md",
+        "kind": "unidad",
+        "key": "PI·8",
+        "heading": "PARTE INICIAL · PI·8 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 2515,
+        "end_line": 2862
+      },
+      {
+        "path": "corpus/libros/sdo/i-0.md",
+        "kind": "unidad",
+        "key": "I·0",
+        "heading": "PARTE I · I·0 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 2863,
+        "end_line": 3232
+      },
+      {
+        "path": "corpus/libros/sdo/i-e-1.md",
+        "kind": "unidad",
+        "key": "I·E-1",
+        "heading": "PARTE I · EJE I · I·E-1 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 3233,
+        "end_line": 3574
+      },
+      {
+        "path": "corpus/libros/sdo/i-e-2.md",
+        "kind": "unidad",
+        "key": "I·E-2",
+        "heading": "PARTE I · EJE I · I·E-2 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 3575,
+        "end_line": 3972
+      },
+      {
+        "path": "corpus/libros/sdo/i-e-3.md",
+        "kind": "unidad",
+        "key": "I·E-3",
+        "heading": "PARTE I · EJE I · I·E-3 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 3973,
+        "end_line": 4410
+      },
+      {
+        "path": "corpus/libros/sdo/i-e-4.md",
+        "kind": "unidad",
+        "key": "I·E-4",
+        "heading": "PARTE I · EJE I · I·E-4 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 4411,
+        "end_line": 4840
+      },
+      {
+        "path": "corpus/libros/sdo/i-e-5.md",
+        "kind": "unidad",
+        "key": "I·E-5",
+        "heading": "PARTE I · EJE I · I·E-5 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 4841,
+        "end_line": 5212
+      },
+      {
+        "path": "corpus/libros/sdo/i-e-6.md",
+        "kind": "unidad",
+        "key": "I·E-6",
+        "heading": "PARTE I · EJE I · I·E-6 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 5213,
+        "end_line": 5544
+      },
+      {
+        "path": "corpus/libros/sdo/ii-0.md",
+        "kind": "unidad",
+        "key": "II·0",
+        "heading": "PARTE II · II·0 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 5545,
+        "end_line": 5840
+      },
+      {
+        "path": "corpus/libros/sdo/ii-m-1.md",
+        "kind": "unidad",
+        "key": "II·M-1",
+        "heading": "PARTE II · EJE II · II·M-1 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 5841,
+        "end_line": 6176
+      },
+      {
+        "path": "corpus/libros/sdo/ii-m-2.md",
+        "kind": "unidad",
+        "key": "II·M-2",
+        "heading": "PARTE II · EJE II · II·M-2 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 6177,
+        "end_line": 6560
+      },
+      {
+        "path": "corpus/libros/sdo/ii-m-3.md",
+        "kind": "unidad",
+        "key": "II·M-3",
+        "heading": "PARTE II · EJE II · II·M-3 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 6561,
+        "end_line": 6878
+      },
+      {
+        "path": "corpus/libros/sdo/iii-0.md",
+        "kind": "unidad",
+        "key": "III·0",
+        "heading": "PARTE III · III·0 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 6879,
+        "end_line": 7174
+      },
+      {
+        "path": "corpus/libros/sdo/iii-v-1.md",
+        "kind": "unidad",
+        "key": "III·V-1",
+        "heading": "PARTE III · EJE III · III·V-1 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 7175,
+        "end_line": 7524
+      },
+      {
+        "path": "corpus/libros/sdo/iii-v-2.md",
+        "kind": "unidad",
+        "key": "III·V-2",
+        "heading": "PARTE III · EJE III · III·V-2 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 7525,
+        "end_line": 7902
+      },
+      {
+        "path": "corpus/libros/sdo/iii-v-3.md",
+        "kind": "unidad",
+        "key": "III·V-3",
+        "heading": "PARTE III · EJE III · III·V-3 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 7903,
+        "end_line": 8242
+      },
+      {
+        "path": "corpus/libros/sdo/iv-0.md",
+        "kind": "unidad",
+        "key": "IV·0",
+        "heading": "PARTE IV · IV·0 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 8243,
+        "end_line": 8490
+      },
+      {
+        "path": "corpus/libros/sdo/iv-d-1.md",
+        "kind": "unidad",
+        "key": "IV·D-1",
+        "heading": "PARTE IV · EJE IV · IV·D-1 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 8491,
+        "end_line": 8852
+      },
+      {
+        "path": "corpus/libros/sdo/iv-d-2.md",
+        "kind": "unidad",
+        "key": "IV·D-2",
+        "heading": "PARTE IV · EJE IV · IV·D-2 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 8853,
+        "end_line": 9244
+      },
+      {
+        "path": "corpus/libros/sdo/v-0.md",
+        "kind": "unidad",
+        "key": "V·0",
+        "heading": "PARTE V · V·0 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 9245,
+        "end_line": 9596
+      },
+      {
+        "path": "corpus/libros/sdo/v-t-0.md",
+        "kind": "unidad",
+        "key": "V·T-0",
+        "heading": "PARTE V · EJE V · V·T-0 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 9597,
+        "end_line": 9966
+      },
+      {
+        "path": "corpus/libros/sdo/v-t-1.md",
+        "kind": "unidad",
+        "key": "V·T-1",
+        "heading": "PARTE V · EJE V · V·T-1 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 9967,
+        "end_line": 10354
+      },
+      {
+        "path": "corpus/libros/sdo/v-t-2.md",
+        "kind": "unidad",
+        "key": "V·T-2",
+        "heading": "PARTE V · EJE V · V·T-2 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 10355,
+        "end_line": 10746
+      },
+      {
+        "path": "corpus/libros/sdo/v-t-3.md",
+        "kind": "unidad",
+        "key": "V·T-3",
+        "heading": "PARTE V · EJE V · V·T-3 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 10747,
+        "end_line": 11132
+      },
+      {
+        "path": "corpus/libros/sdo/v-t-4.md",
+        "kind": "unidad",
+        "key": "V·T-4",
+        "heading": "PARTE V · EJE V · V·T-4 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 11133,
+        "end_line": 11526
+      },
+      {
+        "path": "corpus/libros/sdo/v-t-5.md",
+        "kind": "unidad",
+        "key": "V·T-5",
+        "heading": "PARTE V · EJE V · V·T-5 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 11527,
+        "end_line": 11882
+      },
+      {
+        "path": "corpus/libros/sdo/v-t-6.md",
+        "kind": "unidad",
+        "key": "V·T-6",
+        "heading": "PARTE V · EJE V · V·T-6 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 11883,
+        "end_line": 12242
+      },
+      {
+        "path": "corpus/libros/sdo/v-t-ext.md",
+        "kind": "unidad",
+        "key": "V·T-ext",
+        "heading": "PARTE V · EJE V · V·T-ext Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 12243,
+        "end_line": 12586
+      },
+      {
+        "path": "corpus/libros/sdo/vi-1.md",
+        "kind": "unidad",
+        "key": "VI·1",
+        "heading": "PARTE VI · EL SDO COMO SISTEMA · VI·1",
+        "start_line": 12587,
+        "end_line": 12902
+      },
+      {
+        "path": "corpus/libros/sdo/vi-2.md",
+        "kind": "unidad",
+        "key": "VI·2",
+        "heading": "PARTE VI · VI·2 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 12903,
+        "end_line": 13230
+      },
+      {
+        "path": "corpus/libros/sdo/vi-3.md",
+        "kind": "unidad",
+        "key": "VI·3",
+        "heading": "PARTE VI · VI·3 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 13231,
+        "end_line": 13536
+      },
+      {
+        "path": "corpus/libros/sdo/vii-1.md",
+        "kind": "unidad",
+        "key": "VII·1",
+        "heading": "PARTE VII · VII·1 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 13537,
+        "end_line": 13814
+      },
+      {
+        "path": "corpus/libros/sdo/vii-2.md",
+        "kind": "unidad",
+        "key": "VII·2",
+        "heading": "PARTE VII · VII·2 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 13815,
+        "end_line": 14146
+      },
+      {
+        "path": "corpus/libros/sdo/vii-3.md",
+        "kind": "unidad",
+        "key": "VII·3",
+        "heading": "PARTE VII · VII·3 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 14147,
+        "end_line": 14458
+      },
+      {
+        "path": "corpus/libros/sdo/vii-4.md",
+        "kind": "unidad",
+        "key": "VII·4",
+        "heading": "PARTE VII · VII·4 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 14459,
+        "end_line": 14788
+      },
+      {
+        "path": "corpus/libros/sdo/viii-1.md",
+        "kind": "unidad",
+        "key": "VIII·1",
+        "heading": "PARTE VIII · VIII·1 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 14789,
+        "end_line": 15172
+      },
+      {
+        "path": "corpus/libros/sdo/viii-2.md",
+        "kind": "unidad",
+        "key": "VIII·2",
+        "heading": "PARTE VIII · VIII·2 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 15173,
+        "end_line": 15534
+      },
+      {
+        "path": "corpus/libros/sdo/viii-3.md",
+        "kind": "unidad",
+        "key": "VIII·3",
+        "heading": "PARTE VIII · VIII·3 Sistema de Diagnóstico Ontológico · SDO",
+        "start_line": 15535,
         "end_line": 15885
       }
     ]

@@ -10,6 +10,153 @@
       "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/00-preliminares.md",
       "kind": "preliminares",
       "start_line": 1,
+      "end_line": 92
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/01-prefacio.md",
+      "kind": "prefacio",
+      "heading": "### Prefacio",
+      "start_line": 93,
+      "end_line": 284
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/02-prologo.md",
+      "kind": "prologo",
+      "heading": "### Prólogo filosófico",
+      "start_line": 285,
+      "end_line": 750
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-01.md",
+      "kind": "chapter",
+      "heading": "## Capítulo 1",
+      "start_line": 751,
+      "end_line": 1424
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-02.md",
+      "kind": "chapter",
+      "heading": "### Capítulo 2 Determinación y colapso",
+      "start_line": 1425,
+      "end_line": 2136
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-03.md",
+      "kind": "chapter",
+      "heading": "### Capítulo 3 Habitar el caos",
+      "start_line": 2137,
+      "end_line": 2892
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-04.md",
+      "kind": "chapter",
+      "heading": "### Capítulo 4 Qué es la pasión",
+      "start_line": 2893,
+      "end_line": 3672
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-05.md",
+      "kind": "chapter",
+      "heading": "### Capítulo 5 La pasión en los objetos",
+      "start_line": 3673,
+      "end_line": 4374
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-06.md",
+      "kind": "chapter",
+      "heading": "### Capítulo 6 La pasión en los organismos",
+      "start_line": 4375,
+      "end_line": 5090
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-07.md",
+      "kind": "chapter",
+      "heading": "### Capítulo 7 Las dos direcciones de la pasión",
+      "start_line": 5091,
+      "end_line": 6058
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-08.md",
+      "kind": "chapter",
+      "heading": "### Capítulo 8 La mediación neutral",
+      "start_line": 6059,
+      "end_line": 6932
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-09.md",
+      "kind": "chapter",
+      "heading": "### Capítulo 9 La identidad como accidente del ego",
+      "start_line": 6933,
+      "end_line": 7744
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-10.md",
+      "kind": "chapter",
+      "heading": "### Capítulo 10 La mediación fanes",
+      "start_line": 7745,
+      "end_line": 8654
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-11.md",
+      "kind": "chapter",
+      "heading": "### Capítulo 11 La mediación bis",
+      "start_line": 8655,
+      "end_line": 9440
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-12.md",
+      "kind": "chapter",
+      "heading": "### Capítulo 12 Las tres fórmulas: mapa del sistema",
+      "start_line": 9441,
+      "end_line": 10262
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-13.md",
+      "kind": "chapter",
+      "heading": "### Capítulo 13 El ego como proceso",
+      "start_line": 10263,
+      "end_line": 11014
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-14.md",
+      "kind": "chapter",
+      "heading": "### Capítulo 14 Las posibilidades negadas",
+      "start_line": 11015,
+      "end_line": 11720
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-15.md",
+      "kind": "chapter",
+      "heading": "### Capítulo 15 Antes del pensamiento, la pasión",
+      "start_line": 11721,
+      "end_line": 12446
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-16.md",
+      "kind": "chapter",
+      "heading": "### Capítulo 16 Lo que este volumen deja abierto",
+      "start_line": 12447,
+      "end_line": 13492
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/apendice-b.md",
+      "kind": "appendix",
+      "heading": "### Apéndice B Zagreo o la soberanía no consentida",
+      "start_line": 13493,
+      "end_line": 14010
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/apendice-c.md",
+      "kind": "appendix",
+      "heading": "### Apéndice C Narciso o la víctima indistinguible",
+      "start_line": 14011,
+      "end_line": 14604
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/99-glosario.md",
+      "kind": "glossary",
+      "heading": "### Glosario de términos",
+      "start_line": 14605,
       "end_line": 14827
     }
   ]
