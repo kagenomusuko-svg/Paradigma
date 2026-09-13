@@ -52,7 +52,7 @@ def boundaries_axiomatizacion_vigente(lines):
     expected = ["0", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"]
     found = []
     for index, raw in enumerate(lines):
-        match = re.fullmatch(r"#{1,6}\s+Parte\s+(0|[IVX]+)", raw.strip())
+        match = re.fullmatch(r"#{1,6}\s+Parte\s+(0|[IVX]+)(?:\s*[·.]\s*.*)?", raw.strip())
         if not match:
             continue
         code = match.group(1)
@@ -67,7 +67,7 @@ def boundaries_axiomatizacion_vigente(lines):
 
     last_part = max(item["start"] for item in result if item["kind"] == "parte")
     for letter in "ABCD":
-        pattern = re.compile(rf"#{{1,6}}\s+Apéndice\s+{letter}", re.IGNORECASE)
+        pattern = re.compile(rf"#{{1,6}}\s+Apéndice\s+{letter}(?:\s*[·.]\s*.*)?", re.IGNORECASE)
         index = next(
             i for i in range(last_part + 1, len(lines)) if pattern.fullmatch(lines[i].strip())
         )
@@ -82,9 +82,9 @@ def adapt_specs() -> None:
         for spec in module.SPECS:
             spec["source"] = SOURCE_ALIASES.get(spec["source"], spec["source"])
 
-    # La edición canónica actual usa encabezados «### Parte N»; el parser
-    # histórico esperaba texto plano. La corrección vive aquí para conservar
-    # estable el segmentador de lote y limitar el cambio al formato comprobado.
+    # La edición canónica actual usa encabezados Markdown y conserva subtítulos
+    # en algunas Partes. La corrección vive aquí para limitar el cambio al
+    # formato comprobado sin reescribir el segmentador histórico del lote.
     segmentar_lote_02.PARSERS["axiomatizacion"] = boundaries_axiomatizacion_vigente
 
 
