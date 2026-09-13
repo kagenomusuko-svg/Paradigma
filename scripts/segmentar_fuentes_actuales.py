@@ -93,14 +93,14 @@ def boundaries_eco_vigente(lines):
 
 
 def boundaries_calculo_vigente(lines):
-    """Conserva la secuencia histórica de 18 capítulos y admite envolturas/títulos editoriales vigentes."""
+    """Conserva la secuencia histórica de 18 capítulos y admite los títulos editoriales vigentes."""
     result = []
     prologue = next(
         i for i, line in enumerate(lines) if _normalize_markdown_heading(line).strip() == "PRÓLOGO"
     )
     result.append(segmentar_lote_02.unit(prologue, "prologo", "01-prologo.md", "PROLOGO", "PRÓLOGO"))
     expected = 1
-    chapter_pattern = re.compile(r"#{1,6}\s+Capítulo\s+(\d+)(?:\s*[.:·—-]\s*.*)?")
+    chapter_pattern = re.compile(r"#{1,6}\s+Capítulo\s+(\d+)(?:\s+.*)?")
     for index, raw in enumerate(lines):
         match = chapter_pattern.fullmatch(raw.strip())
         if match and int(match.group(1)) == expected:
@@ -112,18 +112,10 @@ def boundaries_calculo_vigente(lines):
             if expected == 19:
                 break
     if expected != 19:
-        candidates = [
-            f"{i+1}: {line.strip()}"
-            for i, line in enumerate(lines)
-            if "cap" in _normalize_markdown_heading(line).lower() and len(line.strip()) < 220
-        ][:40]
-        raise RuntimeError(
-            f"Se esperaban 18 capítulos en El cálculo; se detectaron {expected-1}. "
-            f"Candidatos estructurales:\n" + "\n".join(candidates)
-        )
+        raise RuntimeError(f"Se esperaban 18 capítulos en El cálculo; se detectaron {expected-1}")
     last = result[-1]["start"]
     for letter in "ABCDE":
-        appendix_pattern = re.compile(rf"APÉNDICE\s+{letter}(?:\s*[.:·—-]\s*.*)?", re.IGNORECASE)
+        appendix_pattern = re.compile(rf"APÉNDICE\s+{letter}(?:\s+.*)?", re.IGNORECASE)
         index = next(
             i
             for i in range(last + 1, len(lines))
