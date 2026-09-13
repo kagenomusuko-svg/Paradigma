@@ -25,7 +25,7 @@ SOURCE_ALIASES = {
     "Afrodita_Areia_Damasen.md": "Afrodita Areia Damasén.md",
     "Afrodita_Areia_Areopopago.md": "Afrodita Areia Areópago.md",
     "Afrodita_Areia_Caelus.md": "Afrodita Areia Caelus.md",
-    "El_dilema_de_Aquiles_o_la_disociacion_del_ego.md": "El dilema de Aquiles o la disforia de la identidad.md".replace("disforia", "disociación"),
+    "El_dilema_de_Aquiles_o_la_disociacion_del_ego.md": "El dilema de Aquiles o la disociación del ego.md",
     "El_juego_de_las_mascaras_o_la_disforia_de_la_identidad.md": "El juego de las máscaras o la disforia de la identidad.md",
     "El_telar_de_las_Moiras_Ontologia_de_la_autodeterminacion_causal.md": "El telar de las Moiras Ontología de la autodeterminación causal.md",
     "Axiomatizacion_Sistema_Doble_Mediacion.md": "Axiomatización del sistema de la doble mediación.md",
