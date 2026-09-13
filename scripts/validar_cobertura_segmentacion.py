@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verifica que cada fuente Markdown canónica tenga derivados estructurales."""
+"""Verifica cobertura y segmentación estructural efectiva de todas las fuentes."""
 
 from __future__ import annotations
 
@@ -36,20 +36,29 @@ def main() -> None:
         )
 
     for item in catalogo:
+        title = item.get("title")
         source = item.get("source")
         if not source or not (ROOT / source).is_file():
             errores.append(f"Fuente inexistente referenciada por catálogo: {source!r}")
-        for segment in item.get("segments", []):
+
+        segments = item.get("segments") or []
+        if not segments:
+            errores.append(f"Estructura sin segmentos: {title!r}")
+        elif not any(segment.get("kind") != "preliminares" for segment in segments):
+            errores.append(f"Estructura degenerada (sólo preliminares): {title!r} — {source}")
+
+        for segment in segments:
             path = segment.get("path")
             if not path or not (ROOT / path).is_file():
-                errores.append(f"Segmento inexistente: {path!r} ({item.get('title')})")
+                errores.append(f"Segmento inexistente: {path!r} ({title})")
 
     if errores:
         raise RuntimeError("\n\n".join(errores))
 
     print(
         f"Cobertura integral validada: {len(fuentes)} fuentes canónicas, "
-        f"{len(catalogo)} obras catalogadas, {len(estructuras)} estructuras."
+        f"{len(catalogo)} obras catalogadas, {len(estructuras)} estructuras; "
+        "todas con segmentación sustantiva."
     )
 
 
