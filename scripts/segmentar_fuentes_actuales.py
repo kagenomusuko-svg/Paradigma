@@ -112,7 +112,15 @@ def boundaries_calculo_vigente(lines):
             if expected == 19:
                 break
     if expected != 19:
-        raise RuntimeError(f"Se esperaban 18 capítulos en El cálculo; se detectaron {expected-1}")
+        candidates = [
+            f"{i+1}: {line.strip()}"
+            for i, line in enumerate(lines)
+            if "cap" in _normalize_markdown_heading(line).lower() and len(line.strip()) < 220
+        ][:40]
+        raise RuntimeError(
+            f"Se esperaban 18 capítulos en El cálculo; se detectaron {expected-1}. "
+            f"Candidatos estructurales:\n" + "\n".join(candidates)
+        )
     last = result[-1]["start"]
     for letter in "ABCDE":
         appendix_pattern = re.compile(rf"APÉNDICE\s+{letter}(?:\s*[.:·—-]\s*.*)?", re.IGNORECASE)
