@@ -49,11 +49,11 @@ SPECS = [
         "series": "Afrodita Areia",
         "volume": 1,
         "markers": [
-            ("prefacio", exact("## Prefacio")),
-            ("prologo", exact("Prólogo filosófico")),
-            ("chapter", regex(r"### Capítulo \d+")),
-            ("appendix", regex(r"## Apéndice [ABC]")),
-            ("glossary", exact("## Glosario de términos")),
+            ("prefacio", regex(r"#{1,6} Prefacio(?: .*)?")),
+            ("prologo", regex(r"#{1,6} Prólogo filosófico(?: .*)?")),
+            ("chapter", regex(r"#{1,6} Capítulo \d+(?: .*)?")),
+            ("appendix", regex(r"#{1,6} Apéndice [ABC](?: .*)?")),
+            ("glossary", regex(r"#{1,6} Glosario de términos")),
         ],
     },
     {
@@ -63,11 +63,11 @@ SPECS = [
         "series": "Afrodita Areia",
         "volume": 2,
         "markers": [
-            ("prefacio", exact("## Prefacio")),
-            ("prologo", exact("## Prólogo Filosófico")),
-            ("chapter", regex(r"### CAPÍTULO \d+")),
-            ("appendix", exact("## APÉNDICE")),
-            ("glossary", exact("## Glosario de términos")),
+            ("prefacio", regex(r"#{1,6} PREFACIO(?: .*)?")),
+            ("prologo", regex(r"#{1,6} PRÓLOGO FILOSÓFICO(?: .*)?")),
+            ("chapter", regex(r"#{1,6} CAPÍTULO \d+(?: .*)?")),
+            ("appendix", regex(r"#{1,6} APÉNDICE(?: .*)?")),
+            ("glossary", regex(r"#{1,6} Glosario de términos")),
         ],
     },
     {
@@ -77,11 +77,11 @@ SPECS = [
         "series": "Afrodita Areia",
         "volume": 3,
         "markers": [
-            ("prefacio", exact("## Prefacio")),
-            ("prologo", exact("PRÓLOGO FILOSÓFICO")),
-            ("chapter", regex(r"### CAPÍTULO \d+")),
-            ("appendix", exact("## APÉNDICE")),
-            ("glossary", exact("## Glosario")),
+            ("prefacio", regex(r"#{1,6} PREFACIO(?: .*)?")),
+            ("prologo", regex(r"#{1,6} PRÓLOGO FILOSÓFICO(?: .*)?")),
+            ("chapter", regex(r"#{1,6} CAPÍTULO \d+(?: .*)?")),
+            ("appendix", regex(r"#{1,6} APÉNDICE(?: .*)?")),
+            ("glossary", regex(r"#{1,6} Glosario")),
         ],
     },
     {
@@ -138,9 +138,9 @@ SPECS = [
         "dest": "corpus/libros/dilema-de-aquiles",
         "title": "El dilema de Aquiles o la disociación del ego",
         "markers": [
-            ("prologo", exact("PRÓLOGO")),
-            ("chapter", regex(r"### CAPÍTULO [IVXLCDM]+")),
-            ("epilogo", exact("EPÍLOGO")),
+            ("prologo", regex(r"#{1,6} PRÓLOGO")),
+            ("chapter", regex(r"#{1,6} CAPÍTULO [IVXLCDM]+")),
+            ("epilogo", regex(r"#{1,6} EPÍLOGO")),
         ],
     },
     {
@@ -148,10 +148,10 @@ SPECS = [
         "dest": "corpus/libros/juego-de-las-mascaras",
         "title": "El juego de las máscaras o la disforia de la identidad",
         "markers": [
-            ("prologo", exact("Prólogo")),
-            ("chapter", regex(r"### Capítulo [IVXLCDM]+")),
-            ("epilogo", exact("Epílogo")),
-            ("glossary", exact("## Glosario")),
+            ("prologo", regex(r"#{1,6} Prólogo")),
+            ("chapter", regex(r"#{1,6} Capítulo [IVXLCDM]+")),
+            ("epilogo", regex(r"#{1,6} Epílogo")),
+            ("glossary", regex(r"#{1,6} Glosario")),
         ],
     },
     {
@@ -169,7 +169,12 @@ SPECS = [
 
 
 def unit_number(heading: str) -> int:
-    raw = re.search(r"(\d+|[IVXLCDM]+)$", heading).group(1)
+    match = re.search(r"(?:Capítulo|CAPÍTULO)\s+(\d+|[IVXLCDM]+)(?:\s|$)", heading)
+    if not match:
+        match = re.search(r"(\d+|[IVXLCDM]+)$", heading)
+    if not match:
+        raise ValueError(f"No se pudo extraer número de unidad de {heading!r}")
+    raw = match.group(1)
     return int(raw) if raw.isdigit() else roman_to_int(raw)
 
 
@@ -189,7 +194,7 @@ def filename(kind: str, heading: str) -> str:
     if kind == "chapter":
         return f"capitulo-{unit_number(heading):02d}.md"
     if kind == "appendix":
-        match = re.search(r"(?:Apéndice|APÉNDICE)\s+([A-C]|[IVXLCDM]+)$", heading)
+        match = re.search(r"(?:Apéndice|APÉNDICE)\s+([A-C]|[IVXLCDM]+)(?:\s|$)", heading)
         if not match:
             return "apendice.md"
         value = match.group(1)
@@ -234,7 +239,7 @@ def detect_boundaries(lines: list[str], spec: dict) -> list[tuple[int, str, str]
                 continue
             expected_chapter += 1
         elif kind == "appendix":
-            match = re.search(r"(?:Apéndice|APÉNDICE)\s+([A-C]|[IVXLCDM]+)$", heading)
+            match = re.search(r"(?:Apéndice|APÉNDICE)\s+([A-C]|[IVXLCDM]+)(?:\s|$)", heading)
             if match and match.group(1) not in {"A", "B", "C"}:
                 number = roman_to_int(match.group(1))
                 if number != expected_appendix:
