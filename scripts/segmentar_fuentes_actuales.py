@@ -45,7 +45,6 @@ SEGMENTERS = (segmentar_corpus, segmentar_lote_02, segmentar_lote_03)
 
 
 def _normalize_markdown_heading(raw: str) -> str:
-    """Quita sólo envolturas Markdown de encabezado, conservando texto e índice."""
     newline = "\n" if raw.endswith("\n") else ""
     text = raw.rstrip("\r\n")
     text = re.sub(r"^\s*#{1,6}\s+", "", text)
@@ -110,12 +109,8 @@ def boundaries_calculo_vigente(lines):
 
 
 def boundaries_prometeo_vigente(lines):
-    """Mantiene el parser histórico y adapta los encabezados editoriales vigentes."""
     result = []
-    prologue = next(
-        i for i, line in enumerate(lines)
-        if re.match(r"^#{1,6}\s+Prólogo(?:\s|$)", line.strip(), re.IGNORECASE)
-    )
+    prologue = next(i for i, line in enumerate(lines) if re.match(r"^#{1,6}\s+Prólogo(?:\s|$)", line.strip(), re.IGNORECASE))
     result.append(segmentar_lote_02.unit(prologue, "prologo", "01-prologo.md", "PROLOGO", lines[prologue].strip()))
     chapters = []
     for index, raw in enumerate(lines):
@@ -136,8 +131,9 @@ def boundaries_prometeo_vigente(lines):
         result.append(segmentar_lote_02.unit(index, "capitulo", f"capitulo-{number:02d}{suffix}.md", f"{number}{suffix}", heading))
     last = chapters[-1][0]
     for letter in "ABC":
-        index = next(i for i in range(last + 1, len(lines)) if lines[i].strip() == f"Apéndice {letter}")
-        result.append(segmentar_lote_02.unit(index, "apendice", f"apendice-{letter.lower()}.md", letter, f"Apéndice {letter}"))
+        pattern = re.compile(rf"#{{1,6}}\s+Apéndice\s+{letter}(?:\s+.*)?", re.IGNORECASE)
+        index = next(i for i in range(last + 1, len(lines)) if pattern.fullmatch(lines[i].strip()))
+        result.append(segmentar_lote_02.unit(index, "apendice", f"apendice-{letter.lower()}.md", letter, lines[index].strip()))
     return result
 
 
