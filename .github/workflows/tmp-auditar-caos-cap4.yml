@@ -1,0 +1,67 @@
+name: Auditar temporalmente Caos capítulo 4
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp-auditar-caos-cap4.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  auditar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Auditar capítulo, fuente canónica y mapa
+        shell: python
+        run: |
+          from pathlib import Path
+          import json, re
+
+          p = Path('corpus/libros/caos/capitulo-04.md')
+          t = p.read_text(encoding='utf-8')
+          refs = [int(x) for x in re.findall(r'href="#fn-main-(\d+)"', t)]
+          plain = [int(x) for x in re.findall(r'<sup>(\d+)</sup>', t)]
+          notes = [int(x) for x in re.findall(r'<a id="fn-main-(\d+)"></a>', t)]
+          print('CHARS', len(t), 'LINES', len(t.splitlines()))
+          print('LINKED_REFS', sorted(set(refs)))
+          print('PLAIN_SUP_REFS', plain)
+          print('NOTES', notes)
+          print('MISSING_LINKED', sorted(set(refs)-set(notes)))
+          print('PLAIN_WITHOUT_NOTE', sorted(set(plain)-set(notes)))
+          print('ORPHAN_NOTES', sorted(set(notes)-set(refs)-set(plain)))
+          print('EM_DASHES', t.count('—'), 'EN_DASHES', t.count('–'))
+          for n in (93,102):
+              for m in re.finditer(fr'<sup>{n}</sup>', t):
+                  a=max(0,m.start()-900); b=min(len(t),m.end()+900)
+                  print(f'CTX_BODY_{n}:', t[a:b].replace('\n',' '))
+
+          src = Path('corpus/fuentes/Caos_El_abismo_del_ego_y_la_doble_mediacion.md').read_text(encoding='utf-8')
+          for n in (93,102):
+              pats = [fr'<a id="fn-main-{n}"', fr'<sup>{n}</sup>']
+              hits=[]
+              for pat in pats:
+                  for m in re.finditer(pat, src):
+                      hits.append(m.start())
+              print(f'SOURCE_HITS_{n}:', len(hits))
+              for pos in hits[:6]:
+                  print(f'CTX_SOURCE_{n}:', src[max(0,pos-700):min(len(src),pos+1800)].replace('\n',' '))
+
+          mapa = json.loads(Path('mapa/mapa-maestro.json').read_text(encoding='utf-8'))
+          for i,item in enumerate(mapa.get('review_queue', [])):
+              dump=json.dumps(item, ensure_ascii=False).lower()
+              if 'ev.caos' in dump and any(k in dump for k in ('responsab','mediaci','escala','dios','accident','campo de acción','campo de accion')):
+                  print('MAP_REVIEW', i, json.dumps(item, ensure_ascii=False))
+
+      - name: Retirar flujo temporal
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/tmp-auditar-caos-cap4.yml
+          git commit -m '[MANT][NORMALIZACION] Retirar auditoría temporal de Caos capítulo 4'
+          git push
