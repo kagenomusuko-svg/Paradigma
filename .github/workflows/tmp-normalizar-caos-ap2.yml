@@ -1,0 +1,114 @@
+name: Normalizar temporalmente Caos apéndice 2
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp-normalizar-caos-ap2.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  normalizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Primera pasada material
+        shell: python
+        run: |
+          from pathlib import Path
+          import re, unicodedata
+          src=Path('corpus/libros/caos/apendice-02.md')
+          dst=Path('corpus/normalización/caos/apendice-02.md')
+          t=unicodedata.normalize('NFC',src.read_text(encoding='utf-8'))
+
+          # Reconstruir glifos físicos/matemáticos dañados en las notas.
+          t=t.replace('Si ψ□ y ψ□ son soluciones de la ecuación, entonces cualquier combinación lineal αψ□ + βψ□', 'Si ψ₁ y ψ₂ son soluciones de la ecuación, entonces cualquier combinación lineal αψ₁ + βψ₂')
+          t=t.replace('Un estado cuántico es un vector |ψ□ en un espacio de Hilbert', 'Un estado cuántico es un vector |ψ⟩ en un espacio de Hilbert')
+          t=t.replace('autovalores a□ y autovectores |a□□ proyecta el estado |ψ□ sobre uno de los autovectores |a□□ con probabilidad |□a□|ψ□|²', 'autovalores aₙ y autovectores |aₙ⟩ proyecta el estado |ψ⟩ sobre uno de los autovectores |aₙ⟩ con probabilidad |⟨aₙ|ψ⟩|²')
+          t=t.replace('el estado |ψ□ es una superposición de autovectores', 'el estado |ψ⟩ es una superposición de autovectores')
+          t=t.replace('Δx · Δp ≥ □/2', 'Δx · Δp ≥ ℏ/2')
+          t=t.replace('operadores hermíticos Â y B□', 'operadores hermíticos Â y B̂')
+          t=t.replace('ΔA · ΔB ≥ (1/2)|□[Â, B□]□|', 'ΔA · ΔB ≥ (1/2)|⟨[Â, B̂]⟩|')
+          t=t.replace('[Â, B□] = ÂB□ − B□Â', '[Â, B̂] = ÂB̂ − B̂Â')
+          t=t.replace('Â = x□ (operador posición) y B□ = p□ (operador momentum)', 'Â = x̂ (operador posición) y B̂ = p̂ (operador momentum)')
+          t=t.replace('[x□, p□] = i□', '[x̂, p̂] = iℏ')
+
+          # Reparar cortes claros de maquetación.
+          t=t.replace('Si un electrón puede estar\n\nen el estado |↑⟩ (spin hacia arriba) o en el estado |↓⟩ (spin\n\nhacia abajo)', 'Si un electrón puede estar en el estado |↑⟩ (spin hacia arriba) o en el estado |↓⟩ (spin hacia abajo)')
+          t=t.replace('Una vez que el\n\nestado |ψ⟩ ha colapsado en el autovector |aₙ⟩', 'Una vez que el estado |ψ⟩ ha colapsado en el autovector |aₙ⟩')
+          t=t.replace('La mezcla estadística dice: "con probabilidad |α|² el sistema\n\nestá en |a₁⟩ y con probabilidad |β|² está en |a₂⟩."', 'La mezcla estadística dice: "con probabilidad |α|² el sistema está en |a₁⟩ y con probabilidad |β|² está en |a₂⟩."')
+          t=t.replace('En uno de los términos de la superposición, el observador ha obtenido el\n\nresultado a₁ y el sistema está en |a₁⟩. En otro, el observador ha obtenido el resultado a₂ y el sistema está en |a₂⟩. Everett\n\nllama a estos términos', 'En uno de los términos de la superposición, el observador ha obtenido el resultado a₁ y el sistema está en |a₁⟩. En otro, el observador ha obtenido el resultado a₂ y el sistema está en |a₂⟩. Everett llama a estos términos')
+          t=t.replace('El estado entrelazado |Φ⁺⟩ = (1/√2)(|↑⟩₁|↑⟩₂ + |↓⟩₁|↓⟩₂) no puede escribirse como el producto de estados\n\nindividuales', 'El estado entrelazado |Φ⁺⟩ = (1/√2)(|↑⟩₁|↑⟩₂ + |↓⟩₁|↓⟩₂) no puede escribirse como el producto de estados individuales')
+
+          # Restaurar llamadas planas y notas perdidas por remisión interna.
+          for n in (21,25,26,31,32):
+              t=t.replace(f'<sup>{n}</sup>',f'<sup id="fnref-app-{n}"><a href="#fn-app-{n}">{n}</a></sup>')
+          n21='<a id="fn-app-21"></a><sup>21</sup> Véase la nota 20, sobre decoherencia cuántica y la interacción sistema-entorno.'
+          n25='<a id="fn-app-25"></a><sup>25</sup> Véase la nota 23, sobre la formulación original de Heisenberg y la interpretación de perturbación.'
+          n26='<a id="fn-app-26"></a><sup>26</sup> Véase la nota 17, sobre las desigualdades de Bell y los límites de las variables ocultas locales.'
+          n31='<a id="fn-app-31"></a><sup>31</sup> Véanse las notas 20 y 22, sobre decoherencia y redundancia ambiental del resultado.'
+          n32='<a id="fn-app-32"></a><sup>32</sup> Véase la nota 17, sobre las desigualdades de Bell.'
+          t=t.replace('<a id="fn-app-22"></a><sup>22</sup>',n21+'\n\n<a id="fn-app-22"></a><sup>22</sup>',1)
+          t=t.replace('<a id="fn-app-27"></a><sup>27</sup>',n25+'\n\n'+n26+'\n\n<a id="fn-app-27"></a><sup>27</sup>',1)
+          t=t.replace('<a id="fn-app-33"></a><sup>33</sup>',n31+'\n\n'+n32+'\n\n<a id="fn-app-33"></a><sup>33</sup>',1)
+
+          # Quitar numeración auxiliar duplicada de notas.
+          t=re.sub(r'(<a id="fn-app-(\d+)"></a><sup>\2</sup>)\s+\d+\s+',r'\1 ',t)
+
+          # Comillas españolas fuera de etiquetas HTML.
+          def spanish_quotes(line):
+              parts=re.split(r'(<[^>]+>)',line)
+              for i,part in enumerate(parts):
+                  if part.startswith('<') and part.endswith('>'): continue
+                  parts[i]=re.sub(r'"([^"\n]+)"',r'«\1»',part)
+              return ''.join(parts)
+          t='\n'.join(spanish_quotes(line) for line in t.split('\n'))
+
+          # Incisos cerrados inequívocos.
+          inciso=re.compile(r'\s—\s*([^—\n]{1,750}?)\s*—(?=[,.;:?!)]|\s)')
+          while inciso.search(t):
+              t=inciso.sub(lambda m:' ('+m.group(1).strip()+')',t)
+
+          # Normalización léxica mínima de compuestos artificiales.
+          t=t.replace('no-lineal','no lineal').replace('no-localidad','no localidad').replace('no-local','no local')
+          t=t.replace('no-separabilidad','no separabilidad').replace('no-separable','no separable').replace('post-colapso','posterior al colapso')
+          t=t.replace('No-conmutatividad','No conmutatividad').replace('no-conmutatividad','no conmutatividad')
+
+          # Notas editoriales: dos tensiones reales registradas por el mapa maestro.
+          call1='Dice que hay un *isomorfismo estructural*: que la estructura formal del colapso cuántico y la estructura formal del colapso del ego comparten la misma arquitectura lógica, aunque los dominios en que operan y los sustratos sobre los que actúan sean radicalmente distintos.'
+          t=t.replace(call1,call1+'<sup id="fnref-ed-ap2-iso"><a href="#fn-ed-ap2-iso">†</a></sup>',1)
+          call2='Ambas familias son compatibles con el isomorfismo del libro, aunque por rutas diferentes: la mecánica de Bohm lo preserva manteniendo la determinación siempre presente (al precio de la no localidad), y GRW lo preserva haciendo del colapso un evento físico real (al precio de modificar la ecuación de Schrödinger).'
+          t=t.replace(call2,call2+'<sup id="fnref-ed-ap2-int"><a href="#fn-ed-ap2-int">‡</a></sup>',1)
+          ed=(
+            '<a id="fn-ed-ap2-iso"></a><sup>†</sup> **Nota editorial.** El mapa maestro mantiene pendiente la adjudicación del término *isomorfismo*: *Caos* lo usa en sentido fuerte y niega que sea mera metáfora, pero no especifica aquí dos estructuras formalmente definidas, una biyección entre ellas ni las relaciones cuya preservación demostraría un isomorfismo matemático. Esta edición conserva el término y la tesis histórica de *Caos* sin elevarlos retroactivamente a una demostración formal.\n\n'
+            '<a id="fn-ed-ap2-int"></a><sup>‡</sup> **Nota editorial.** El mapa maestro registra una tensión interna entre las interpretaciones presentadas: el apéndice reconoce que Muchos Mundos y la mecánica de Bohm no requieren un colapso físico de la función de onda, pero en otros pasajes agrupa a Bohm entre las vías compatibles con la estructura de colapso postulada. Esta edición conserva ambas formulaciones y señala la discrepancia sin adjudicarla doctrinalmente.\n\n'
+          )
+          t=t.replace('<a id="fn-app-13"></a><sup>13</sup>',ed+'<a id="fn-app-13"></a><sup>13</sup>',1)
+
+          t=re.sub(r'\s+([,.;:?!])',r'\1',t)
+          t=re.sub(r'[ \t]+\n','\n',t)
+
+          refs=[int(x) for x in re.findall(r'href="#fn-app-(\d+)"',t)]
+          notes=[int(x) for x in re.findall(r'<a id="fn-app-(\d+)"></a>',t)]
+          print('MISSING',sorted(set(refs)-set(notes)),'ORPHAN',sorted(set(notes)-set(refs)))
+          print('MISSING_13_33',[n for n in range(13,34) if n not in notes])
+          print('BOXES',t.count('□'),'EN_DASHES',t.count('–'),'EM_DASHES',t.count('—'))
+          for i,line in enumerate(t.splitlines(),1):
+              if '—' in line:
+                  print(f'DASH {i}: {line[:1800]}')
+          if '□' in t or '�' in t or '–' in t:
+              raise SystemExit('Persisten caracteres corruptos o guion medio.')
+          if set(refs)!=set(notes) or [n for n in range(13,34) if n not in notes]:
+              raise SystemExit('Auditoría de notas falló.')
+          dst.parent.mkdir(parents=True,exist_ok=True)
+          dst.write_text(t.rstrip()+'\n',encoding='utf-8')
+      - name: Guardar primera pasada y retirar flujo temporal
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/tmp-normalizar-caos-ap2.yml
+          git add 'corpus/normalización/caos/apendice-02.md'
+          git commit -m '[MANT][NORMALIZACION] Normalizar primera pasada de Caos apéndice 2'
+          git push
