@@ -1,0 +1,53 @@
+name: Pulir temporalmente Caos capítulo 1
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp-pulir-caos-cap1.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  pulir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Resolver rayas residuales
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('corpus/normalización/caos/capitulo-01.md')
+          t = p.read_text(encoding='utf-8')
+          reps = {
+            'o es no-ser —y entonces no puede ser.': 'o es no-ser (y entonces no puede ser).',
+            'desde el punto de vista del otro. El yo se constituye al incorporar las actitudes de los demás hacia uno mismo —al «tomar el rol del otro», como dice Mead,': 'desde el punto de vista del otro. El yo se constituye al incorporar las actitudes de los demás hacia uno mismo; al «tomar el rol del otro», como dice Mead,',
+            'no sea reducible a su condicionamiento social —algo que pueda, en el contacto con las condiciones adecuadas,': 'no sea reducible a su condicionamiento social: algo que pueda, en el contacto con las condiciones adecuadas,',
+            'el error de tratar al ego como si fuera una entidad —un objeto con propiedades, con un momento de aparición, con una ubicación identificable.': 'el error de tratar al ego como si fuera una entidad, es decir, un objeto con propiedades, con un momento de aparición, con una ubicación identificable.',
+            'no es la sustancia sino el evento —lo que él llamaba «ocasión de experiencia actual».': 'no es la sustancia sino el evento (lo que él llamaba «ocasión de experiencia actual»).',
+            'el oxígeno y el calor no son el fuego —pero su convergencia bajo condiciones adecuadas produce el ego': 'el oxígeno y el calor no son el fuego; pero su convergencia bajo condiciones adecuadas produce el ego',
+            'es el sujeto —el organismo biológico concreto, el cuerpo que respira y siente y actúa, el punto material en el espacio-tiempo desde el cual cualquier colisión con el mundo será posible.': 'es el sujeto: el organismo biológico concreto, el cuerpo que respira y siente y actúa, el punto material en el espacio-tiempo desde el cual cualquier colisión con el mundo será posible.',
+            'y una expresión dinámica —el ego como integral de colapsos.': 'y una expresión dinámica: el ego como integral de colapsos.',
+            'Ha perdido su ego acumulado —la integral de sus colapsos pasados.': 'Ha perdido su ego acumulado (la integral de sus colapsos pasados).',
+            'como referencia —el sujeto biológico concreto al que pertenece esa estructura.': 'como referencia (el sujeto biológico concreto al que pertenece esa estructura).',
+            'Esas preguntas tienen respuestas. La pregunta por el origen, no —porque presupone que el ego es el tipo de cosa que puede tener origen,': 'Esas preguntas tienen respuestas. La pregunta por el origen no tiene respuesta, porque presupone que el ego es el tipo de cosa que puede tener origen,',
+            'Esta distinción no elimina la pregunta por el origen —la disuelve:': 'Esta distinción no elimina la pregunta por el origen; la disuelve:'
+          }
+          for a, b in reps.items():
+              if a not in t:
+                  raise SystemExit(f'No se encontró patrón esperado: {a}')
+              t = t.replace(a, b)
+          if t.count('—') != 1:
+              raise SystemExit(f'Quedaron {t.count("—")} rayas; se esperaba solo la atribución del epígrafe')
+          p.write_text(t, encoding='utf-8')
+      - name: Guardar y retirar flujo temporal
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/tmp-pulir-caos-cap1.yml
+          git add 'corpus/normalización/caos/capitulo-01.md'
+          git commit -m '[MANT][NORMALIZACION] Pulir ortotipografía de Caos capítulo 1'
+          git push
