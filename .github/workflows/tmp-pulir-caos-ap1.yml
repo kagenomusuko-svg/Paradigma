@@ -1,0 +1,79 @@
+name: Pulir temporalmente Caos apéndice 1
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp-pulir-caos-ap1.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  pulir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Resolver rayas y cerrar ortotipografía
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+          p=Path('corpus/normalización/caos/apendice-01.md')
+          t=p.read_text(encoding='utf-8')
+          reps={
+            'y nulos — para que pudieran ignorarse al final del cálculo.':'y nulos (para que pudieran ignorarse al final del cálculo).',
+            'infinitamente muchos valores —uno por cada x distinto de x₀ en ese entorno.':'infinitamente muchos valores, uno por cada x distinto de x₀ en ese entorno.',
+            'una correspondencia biunívoca —una función que asigna a cada elemento de uno exactamente un elemento del otro, sin repeticiones ni omisiones.':'una correspondencia biunívoca, una función que asigna a cada elemento de uno exactamente un elemento del otro, sin repeticiones ni omisiones.',
+            '«tan grandes como» los naturales —pueden indexarse por los naturales.':'«tan grandes como» los naturales, pues pueden indexarse por los naturales.',
+            'Luego d es diferente de cada rₙ —no aparece en ningún lugar de la lista.':'Luego d es diferente de cada rₙ; no aparece en ningún lugar de la lista.',
+            'designa la cardinalidad de los naturales —el más pequeño de los infinitos.':'designa la cardinalidad de los naturales, el más pequeño de los infinitos.',
+            'El infinito no es un número — no hay ningún «número más grande que todos los demás» que sirva de tope.':'El infinito no es un número; no hay ningún «número más grande que todos los demás» que sirva de tope.',
+            'de todas las sucesiones de Cauchy de racionales —como el cierre del proceso de aproximación racional.':'de todas las sucesiones de Cauchy de racionales, como el cierre del proceso de aproximación racional.',
+            'No es un objeto dado de antemano —un recipiente fijo en el que los colapsos ocurren.':'No es un objeto dado de antemano, un recipiente fijo en el que los colapsos ocurren.',
+            'no es ningún elemento de su rango —ningún valor f(x) particular.':'no es ningún elemento de su rango, ningún valor f(x) particular.',
+            'no es ningún colapso particular —ningún valor f(x₀) para ningún x₀ específico.':'no es ningún colapso particular, ningún valor f(x₀) para ningún x₀ específico.',
+            'la relación entre los cambios en y y los cambios en x —en la pendiente.':'la relación entre los cambios en y y los cambios en x, es decir, en la pendiente.',
+            'queda completamente determinada por su valor inicial y su derivada en cada punto —por la tendencia de cambio en cada momento.':'queda completamente determinada por su valor inicial y su derivada en cada punto, por la tendencia de cambio en cada momento.',
+            'la sucesión de colapsos del ego ordenados temporalmente —los actos, decisiones, palabras, compromisos producidos a lo largo de la vida del sujeto.':'la sucesión de colapsos del ego ordenados temporalmente: los actos, decisiones, palabras y compromisos producidos a lo largo de la vida del sujeto.',
+            'tiene la estructura de un conjunto cerrado —un conjunto perfecto, en el sentido de Cantor: C = C\'.':'tiene la estructura de un conjunto cerrado, un conjunto perfecto en el sentido de Cantor: C = C\'.',
+            'La matemática no ilustra el argumento filosófico —lo funda.':'La matemática no ilustra el argumento filosófico; lo funda.',
+            'los números trascendentes deben existir —de hecho, deben ser «la mayoría» en algún sentido preciso.':'los números trascendentes deben existir; de hecho, deben ser «la mayoría» en algún sentido preciso.',
+            'es un «caos» en el sentido de este libro —un espacio de posibilidad cuya determinación los axiomas no alcanzan.':'es un «caos» en el sentido de este libro, un espacio de posibilidad cuya determinación los axiomas no alcanzan.',
+            'cuando se alcanza un conjunto «perfecto» —un conjunto que es igual a su propio derivado.':'cuando se alcanza un conjunto «perfecto», un conjunto que es igual a su propio derivado.',
+          }
+          for a,b in reps.items():
+              t=t.replace(a,b)
+
+          t=t.replace('##### DEFINICIÓN 1 (WEIERSTRASS, DÉCADA DE 1860) Para todo ε > 0 existe δ > 0 tal que para todo x en el dominio de f:', '##### DEFINICIÓN 1 (WEIERSTRASS, DÉCADA DE 1860)\n\nPara todo ε > 0 existe δ > 0 tal que para todo x en el dominio de f:')
+          t=t.replace('##### DEFINICIÓN 3 (CONJUNTO NUMERABLE) Un conjunto A es numerable si existe una biyección f: ℕ → A, es decir, si sus elementos pueden enumerarse en una sucesión a₁, a₂, a₃,...', '##### DEFINICIÓN 3 (CONJUNTO NUMERABLE)\n\nUn conjunto A es numerable si existe una biyección f: ℕ → A, es decir, si sus elementos pueden enumerarse en una sucesión a₁, a₂, a₃, ...')
+          t=t.replace('0, 1, −1, 2, −2, 3, −3,...','0, 1, −1, 2, −2, 3, −3, ...')
+          t=t.replace('#### 3.4 La función punto-pendiente: identidad como tendencia','#### 3.4 La función de punto y pendiente: identidad como tendencia')
+          t=t.replace('la forma punto-pendiente de la ecuación de una recta','la forma de punto y pendiente de la ecuación de una recta')
+          t=re.sub(r'\s+([,.;:?!])',r'\1',t)
+          t=re.sub(r'[ \t]{2,}',' ',t)
+
+          refs=[int(x) for x in re.findall(r'href="#fn-app-(\d+)"',t)]
+          notes=[int(x) for x in re.findall(r'<a id="fn-app-(\d+)"></a>',t)]
+          edrefs=set(re.findall(r'href="#(fn-ed-ap1-[^"]+)"',t))
+          ednotes=set(re.findall(r'<a id="(fn-ed-ap1-[^"]+)"></a>',t))
+          print('EM_DASHES',t.count('—'),'EN_DASHES',t.count('–'),'BOXES',t.count('□'))
+          print('MISSING_APP',sorted(set(refs)-set(notes)),'ORPHAN_APP',sorted(set(notes)-set(refs)))
+          print('MISSING_ED',sorted(edrefs-ednotes),'ORPHAN_ED',sorted(ednotes-edrefs))
+          print('MISSING_1_12',[n for n in range(1,13) if n not in notes])
+          if '—' in t or '–' in t or '□' in t or '�' in t:
+              for i,line in enumerate(t.splitlines(),1):
+                  if '—' in line or '–' in line or '□' in line or '�' in line:
+                      print(f'BAD {i}: {line[:1800]}')
+              raise SystemExit('Persisten rayas o caracteres corruptos.')
+          if set(refs)!=set(notes) or [n for n in range(1,13) if n not in notes] or edrefs!=ednotes:
+              raise SystemExit('Auditoría de notas falló.')
+          p.write_text(t.rstrip()+'\n',encoding='utf-8')
+      - name: Guardar pulido y retirar flujo temporal
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/tmp-pulir-caos-ap1.yml
+          git add 'corpus/normalización/caos/apendice-01.md'
+          git commit -m '[MANT][NORMALIZACION] Pulir ortotipografía de Caos apéndice 1'
+          git push
