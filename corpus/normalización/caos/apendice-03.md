@@ -18,7 +18,7 @@ Las entradas con múltiples acepciones numeradas distinguen usos técnicos disti
 
 **2.**  En la ontología del ego: el punto de partida de la integral acumulativa, previo al primer colapso. El sujeto existe como suelo antes de que ningún colapso lo haya determinado como *este* ego y no otro.
 
-El sujeto no se identifica con ningún tipo de sustancia —no es el alma, ni la conciencia trascendental, ni el cerebro. Es la condición biológica y neurológica mínima que hace posible que haya un polo de la intersección que colapse con intencionalidad. El mismo sujeto orgánico en distintas condiciones puede dar lugar a egos con integrales radicalmente distintas.<sup id="fnref-app-34"><a href="#fn-app-34">34</a></sup>
+El sujeto no se identifica con ningún tipo de sustancia: no es el alma, ni la conciencia trascendental, ni el cerebro. Es la condición biológica y neurológica mínima que hace posible que haya un polo de la intersección que colapse con intencionalidad. El mismo sujeto orgánico en distintas condiciones puede dar lugar a egos con integrales radicalmente distintas.<sup id="fnref-app-34"><a href="#fn-app-34">34</a></sup>
 
 El sujeto existe parmenídicamente: simplemente *es*, sin origen que tenga que justificarse a sí mismo. La pregunta «¿de dónde viene el sujeto?» es legítima como pregunta biológica y evolutiva, pero no como pregunta que el ego deba responder para existir. El ego emerge del sujeto sin ser el sujeto: la relación es de suelo a proceso, no de causa a efecto.
 
@@ -72,7 +72,7 @@ La mediación del ego no elimina la mediación neutral que la rodea sino que la 
 
 La distinción entre mediación neutral y mediación del ego no es una distinción entre tipos de objetos sino entre tipos de estructura: la mediación neutral es aquella en la que el proceso de determinación no incluye intencionalidad; la mediación del ego es aquella en la que el proceso incluye la orientación del sujeto hacia un objeto representado. Un mismo movimiento físico puede ser una mediación neutral (reflejo, accidente) o una mediación del ego (acto deliberado) dependiendo de si hubo o no primera mediación.
 
-La mediación no es el «puente» entre voluntad y mundo —imagen que el libro rechaza explícitamente. La mediación no conecta dos puntos dados: *es* la estructura del colapso, el evento de determinación en sí mismo. Voluntad y mundo no son polos preexistentes que la mediación une: emergen de la mediación como sus correlatos.
+La mediación no es el «puente» entre voluntad y mundo, imagen que el libro rechaza explícitamente. La mediación no conecta dos puntos dados: *es* la estructura del colapso, el evento de determinación en sí mismo. Voluntad y mundo no son polos preexistentes que la mediación une: emergen de la mediación como sus correlatos.
 
 **Véase también:** *colapso, primera mediación, segunda mediación, mediación neutral, acto, intencionalidad*
 
@@ -134,7 +134,7 @@ El campo de acción no es un dato fijo del sujeto sino una configuración variab
 
 **1.**  La integración del resultado del acto a la función acumulativa del ego: el proceso por el cual el colapso producido por la primera mediación retorna al sujeto como modificación de su función, sus disposiciones y la tendencia de su integral.
 
-**2.**  El componente del colapso del ego que produce identidad: la condición mediante la cual el ego que actuó ayer es el mismo ego que actúa hoy —no en el sentido de identidad sustancial sino en el sentido de continuidad funcional acumulativa.
+**2.**  El componente del colapso del ego que produce identidad: la condición mediante la cual el ego que actuó ayer es el mismo ego que actúa hoy, no en el sentido de identidad sustancial sino en el sentido de continuidad funcional acumulativa.
 
 La segunda mediación no es un proceso automático: puede fallar. El fallo más estudiado clínicamente es la compulsión de repetición (Freud): cuando el sujeto no puede integrar una experiencia pasada, esta persiste como herida abierta que el sujeto revive sin que la segunda mediación pueda incorporarla a la integral. El resultado es un ego que actúa pero no crece: sus colapsos lo atraviesan sin constituirlo.
 
@@ -156,9 +156,9 @@ Ego(t)  =  φ₂(φ₁(v_t, c_t),  I(t))  para cada momento t
 
 donde v_t es la orientación de la voluntad en el momento t, c_t es el campo de acción disponible en t, φ₁ es la primera mediación, φ₂ es la segunda mediación, e I(t) es la integral acumulativa de todos los colapsos anteriores a t.
 
-La doble mediación distingue al ego de dos objetos con los que podría confundirse: (a) del *mecanismo* (que produce colapsos neutrales sin primera mediación); (b) del *ego parcial* —que tiene primera mediación pero cuya segunda mediación falla, de modo que actúa sin construirse.
+La doble mediación distingue al ego de dos objetos con los que podría confundirse: (a) del *mecanismo* (que produce colapsos neutrales sin primera mediación); (b) del *ego parcial*, que tiene primera mediación pero cuya segunda mediación falla, de modo que actúa sin construirse.
 
-La doble mediación es la condición necesaria y suficiente del ego en el sentido técnico de esta ontología. «Necesaria»: sin doble mediación no hay ego —hay sujeto que podría ser ego pero que no lo es todavía. «Suficiente»: todo sistema que opera mediante doble mediación es un ego, independientemente de su sustrato, su escala o su composición. La doble mediación es la definición funcional del ego.
+La doble mediación es la condición necesaria y suficiente del ego en el sentido técnico de esta ontología. «Necesaria»: sin doble mediación no hay ego; hay sujeto que podría ser ego pero que no lo es todavía. «Suficiente»: todo sistema que opera mediante doble mediación es un ego, independientemente de su sustrato, su escala o su composición. La doble mediación es la definición funcional del ego.
 
 La asimetría fundamental de la doble mediación: la primera mediación puede ocurrir sin segunda (el fallo de integración), pero la segunda mediación no puede ocurrir sin primera (no hay nada que integrar si no hubo acto producido por la primera mediación). Esta asimetría implica que el ego completo requiere ambas pero que la primera es condición de la segunda y no al revés.
 
@@ -252,7 +252,7 @@ Distinción importante: el accidente que modifica el campo *sin* eliminar la pri
 
 La precisión del «como acto humano» es decisiva. El ego es condición sine qua non del acto *como acto* (como determinación producida por la doble mediación), no como evento físico. Si un movimiento físico habría ocurrido de todas maneras sin la primera mediación del ego (por ejemplo, porque alguna causa física lo habría producido independientemente), el ego sigue siendo condición sine qua non del acto en cuanto acto: sin su primera mediación ese movimiento no habría tenido la estructura de un acto sino la de un evento físico.<sup id="fnref-app-42"><a href="#fn-app-42">42</a></sup>
 
-La condición sine qua non no implica la unicidad de la condición necesaria: el mundo también es condición necesaria del acto (sin campo de acción no hay primera mediación posible), las condiciones biológicas del sujeto son también condiciones necesarias, y así sucesivamente. Lo que distingue la condición sine qua non del ego es que es la condición cuya ausencia elimina específicamente la estructura de la primera mediación del acto —lo que hace que el acto sea un acto y no solo un evento.
+La condición sine qua non no implica la unicidad de la condición necesaria: el mundo también es condición necesaria del acto (sin campo de acción no hay primera mediación posible), las condiciones biológicas del sujeto son también condiciones necesarias, y así sucesivamente. Lo que distingue la condición sine qua non del ego es que es la condición cuya ausencia elimina específicamente la estructura de la primera mediación del acto, lo que hace que el acto sea un acto y no solo un evento.
 
 La prueba contrafáctica aplicada al ego: si este sujeto no hubiera tenido primera mediación en este momento (si hubiera reaccionado reflejamente, o si hubiera estado inconsciente, o si hubiera sido víctima de una fuerza irresistible), el movimiento físico podría haber ocurrido pero el acto no habría ocurrido. Esta ausencia contrafáctica establece que el ego fue la condición sine qua non del acto.
 
@@ -286,9 +286,9 @@ La imputación no requiere identificar una «intención maligna» ni ningún est
 
 **1.**  La sucesión de colapsos del ego experimentada desde la perspectiva de la primera persona. El tiempo del ego no es el tiempo físico (la variable t de la física): es el tiempo vivido, la estructura de pasado, presente y futuro que emerge de la acumulación de la integral.
 
-El tiempo del ego tiene tres dimensiones irreductibles: (a) *pasado* como integral acumulativa —todo lo que el ego fue; (b) *presente* como colapso en curso —el acto que está ocurriendo ahora; (c) *futuro* como campo de posibilidades —el caos que el próximo colapso determinará. Estas tres dimensiones son constitutivas del ego: sin pasado (integral) no hay identidad; sin presente (colapso) no hay acto; sin futuro (campo) no hay primera mediación posible.
+El tiempo del ego tiene tres dimensiones irreductibles: (a) *pasado* como integral acumulativa, todo lo que el ego fue; (b) *presente* como colapso en curso, el acto que está ocurriendo ahora; (c) *futuro* como campo de posibilidades, el caos que el próximo colapso determinará. Estas tres dimensiones son constitutivas del ego: sin pasado (integral) no hay identidad; sin presente (colapso) no hay acto; sin futuro (campo) no hay primera mediación posible.
 
-El ego existe en el *eterno presente* del colapso: cada colapso ocurre siempre ahora, siempre en el único momento en que puede ocurrir —el presente. La integral del pasado es el horizonte desde el que el presente colapsa; el campo del futuro es el horizonte hacia el que el presente colapsa. El presente no es un punto entre dos infinitos: es el evento de la determinación misma.
+El ego existe en el *eterno presente* del colapso: cada colapso ocurre siempre ahora, siempre en el único momento en que puede ocurrir: el presente. La integral del pasado es el horizonte desde el que el presente colapsa; el campo del futuro es el horizonte hacia el que el presente colapsa. El presente no es un punto entre dos infinitos: es el evento de la determinación misma.
 
 **Véase también:** *ego, colapso, integral acumulativa, campo de acción  * *
 
