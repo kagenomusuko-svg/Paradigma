@@ -1,0 +1,32 @@
+name: Localizar cajas de Caos apéndice 1
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp-cajas-caos-ap1.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  localizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Mostrar caracteres corruptos
+        shell: python
+        run: |
+          from pathlib import Path
+          t=Path('corpus/libros/caos/apendice-01.md').read_text(encoding='utf-8')
+          lines=t.splitlines()
+          for i,line in enumerate(lines,1):
+              if '□' in line:
+                  print(f'BOX_LINE {i}: {line}')
+      - name: Retirar flujo temporal
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/tmp-cajas-caos-ap1.yml
+          git commit -m '[MANT][NORMALIZACION] Retirar localización temporal de cajas de Caos apéndice 1'
+          git push
