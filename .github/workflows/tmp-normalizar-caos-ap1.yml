@@ -1,0 +1,115 @@
+name: Normalizar temporalmente Caos apéndice 1
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp-normalizar-caos-ap1.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  normalizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Primera pasada material
+        shell: python
+        run: |
+          from pathlib import Path
+          import re, unicodedata
+          src=Path('corpus/libros/caos/apendice-01.md')
+          dst=Path('corpus/normalización/caos/apendice-01.md')
+          t=unicodedata.normalize('NFC',src.read_text(encoding='utf-8'))
+
+          # Reparaciones de andamiaje y cortes editoriales claros.
+          t=t.replace('**D****EFINICIÓN** **1** **(W****EIERSTRASS****,** **1860****S****)**','##### DEFINICIÓN 1 (WEIERSTRASS, DÉCADA DE 1860)')
+          t=t.replace('**D****EFINICIÓN** **3** **(C****ONJUNTO NUMERABLE****)**','##### DEFINICIÓN 3 (CONJUNTO NUMERABLE)')
+          t=t.replace('Esto ilustra que el límite captura algo sobre la\n\n','')
+          t=t.replace('Para una partición P = {a = x₀ < x₁ < … < xₙ\n\n= b} y puntos de muestra cᵢ ∈ [xᵢ₋₁, xᵢ], la suma\nde Riemann es:', 'Para una partición P = {a = x₀ < x₁ < … < xₙ = b} y puntos de muestra cᵢ ∈ [xᵢ₋₁, xᵢ], la suma de Riemann es:')
+          t=t.replace('Los\n\npuntos de acumulación del conjunto {1/n : n ∈ ℕ} = {1,\n\n1/2, 1/3, 1/4, ...} son simplemente {0}', 'Los puntos de acumulación del conjunto {1/n : n ∈ ℕ} = {1, 1/2, 1/3, 1/4, ...} son simplemente {0}')
+          t=t.replace('Un conjunto es *abierto* si\n\nsu complemento es cerrado', 'Un conjunto es *abierto* si su complemento es cerrado')
+          t=t.replace('*x**₀*','x₀').replace('*x*','x').replace('*L*','L')
+          t=t.replace('**límite de** *f***(***x***) cuando** x **tiende a** x₀ **es** L','límite de f(x) cuando x tiende a x₀ es L')
+          t=t.replace('**límite de** *f***(***x***) cuando** *x* **tiende a** x₀ **es** L','límite de f(x) cuando x tiende a x₀ es L')
+
+          # Reconstrucción de símbolos matemáticos corruptos en notas.
+          t=t.replace('para cualquier punto x□ y cualquier δ > 0, el intervalo (x□ - δ, x□ + δ)', 'para cualquier punto x₀ y cualquier δ > 0, el intervalo (x₀ - δ, x₀ + δ)')
+          t=t.replace('f es continua en x□ si y solo si', 'f es continua en x₀ si y solo si')
+          t=t.replace('|x - x□| < δ entonces |f(x) - f(x□)| < ε', '|x - x₀| < δ entonces |f(x) - f(x₀)| < ε')
+          t=t.replace('el límite en x□ sea igual al valor de la función en x₀ ₀ ₀ : lim_{x→x } f(x) = f(x )', 'el límite en x₀ sea igual al valor de la función en x₀: lim_{x→x₀} f(x) = f(x₀)')
+          t=t.replace('las funciones f□, f□, f□, ..., construye una función g que difiere de f□ en el n-ésimo lugar', 'las funciones f₁, f₂, f₃, ..., construye una función g que difiere de fₙ en el n-ésimo lugar')
+          t=t.replace('no hay cardinalidad entre □□ y |□| = 2^{□□}', 'no hay cardinalidad entre ℵ₀ y |ℝ| = 2^{ℵ₀}')
+          t=t.replace('el espacio entre □□ y 2^{□□}', 'el espacio entre ℵ₀ y 2^{ℵ₀}')
+          t=t.replace('una sucesión {x□} tal que', 'una sucesión {xₙ} tal que')
+          t=t.replace('|x□ -x□| < ε', '|xₘ - xₙ| < ε')
+
+          # Eliminar numeración auxiliar duplicada de notas del apéndice.
+          t=re.sub(r'(<a id="fn-app-(\d+)"></a><sup>\2</sup>)\s+\d+\s+',r'\1 ',t)
+
+          # Comillas españolas fuera de etiquetas HTML.
+          def quotes_line(line):
+              out=[]; in_tag=False; opening=True
+              for ch in line:
+                  if ch=='<': in_tag=True
+                  if ch=='"' and not in_tag:
+                      out.append('«' if opening else '»'); opening=not opening
+                  else:
+                      out.append(ch)
+                  if ch=='>': in_tag=False
+              return ''.join(out)
+          t='\n'.join(quotes_line(line) for line in t.split('\n'))
+
+          # Incisos cerrados inequívocos: rayas -> paréntesis.
+          inciso=re.compile(r'\s—\s*([^—\n]{1,700}?)\s*—(?=[,.;:?!)]|\s)')
+          while inciso.search(t):
+              t=inciso.sub(lambda m:' ('+m.group(1).strip()+')',t)
+
+          # Correcciones puntuales de espaciado y compuestos.
+          t=t.replace('función-ego','función ego').replace('punto-pendiente','punto-pendiente')
+          t=t.replace(' — ', ' — ')
+          t=re.sub(r'\s+([,.;:?!])',r'\1',t)
+          t=re.sub(r'[ \t]+\n','\n',t)
+
+          # Notas editoriales: sólo tensiones formales registradas por el mapa maestro.
+          call1='La función acumulativa del ego tiene la estructura de una integral.'
+          t=t.replace(call1,call1+'<sup id="fnref-ed-ap1-int"><a href="#fn-ed-ap1-int">†</a></sup>',1)
+          call2='Nada menos que eso es suficiente para determinar cómo se desarrollará la función en el futuro inmediato. Y nada más que eso es necesario.'
+          t=t.replace(call2,call2+'<sup id="fnref-ed-ap1-der"><a href="#fn-ed-ap1-der">‡</a></sup>',1)
+          call3='El teorema de Bolzano-Weierstrass garantiza que el colapso siempre tiene destino cuando la sucesión está acotada.'
+          t=t.replace(call3,call3+'<sup id="fnref-ed-ap1-top"><a href="#fn-ed-ap1-top">§</a></sup>',1)
+          notes=(
+            '<a id="fn-ed-ap1-int"></a><sup>†</sup> **Nota editorial.** El mapa maestro mantiene abierta la revisión formal del tipado de la integral del ego: *Caos* usa la integral como acumulación de colapsos y, en otros pasajes, como estado actualizable, sin fijar aquí un único espacio de estados ni una regla formal que haga equivalentes esos usos. Esta edición conserva la formulación del apéndice y no introduce retroactivamente una formalización posterior.\n\n'
+            '<a id="fn-ed-ap1-der"></a><sup>‡</sup> **Nota editorial.** El mapa maestro señala que el par (f(x₀), f′(x₀)) no basta por sí solo para determinar una evolución futura: para esa conclusión harían falta una dinámica o ecuación de evolución y condiciones de existencia y unicidad. Se conserva la afirmación original de *Caos* como parte de su arquitectura argumental.\n\n'
+            '<a id="fn-ed-ap1-top"></a><sup>§</sup> **Nota editorial.** Bolzano-Weierstrass garantiza, bajo hipótesis concretas, la existencia de al menos una subsucesión convergente o punto de acumulación; no garantiza por sí solo un punto único identificable con el ego. Del mismo modo, la clausura o perfección atribuida más adelante al conjunto de colapsos en la muerte requiere una topología y condiciones adicionales que el apéndice no especifica. Esta edición señala la tensión sin corregir doctrinalmente la tesis.\n\n'
+          )
+          marker='<a id="fn-app-1"></a><sup>1</sup>'
+          t=t.replace(marker,notes+marker,1)
+
+          # Validación inicial.
+          refs=[int(x) for x in re.findall(r'href="#fn-app-(\d+)"',t)]
+          fnotes=[int(x) for x in re.findall(r'<a id="fn-app-(\d+)"></a>',t)]
+          print('MISSING_APP_NOTES',sorted(set(refs)-set(fnotes)))
+          print('ORPHAN_APP_NOTES',sorted(set(fnotes)-set(refs)))
+          print('MISSING_1_12',[n for n in range(1,13) if n not in fnotes])
+          print('BOXES',t.count('□'),'EN_DASHES',t.count('–'),'EM_DASHES',t.count('—'))
+          for i,line in enumerate(t.splitlines(),1):
+              if '—' in line:
+                  print(f'DASH {i}: {line[:1600]}')
+          if '□' in t or '–' in t:
+              raise SystemExit('Persisten símbolos corruptos o guion medio.')
+          if sorted(set(refs)-set(fnotes)) or sorted(set(fnotes)-set(refs)) or [n for n in range(1,13) if n not in fnotes]:
+              raise SystemExit('Auditoría de notas del apéndice falló.')
+          dst.parent.mkdir(parents=True,exist_ok=True)
+          dst.write_text(t.rstrip()+'\n',encoding='utf-8')
+      - name: Guardar primera pasada y retirar flujo temporal
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/tmp-normalizar-caos-ap1.yml
+          git add 'corpus/normalización/caos/apendice-01.md'
+          git commit -m '[MANT][NORMALIZACION] Normalizar primera pasada de Caos apéndice 1'
+          git push
