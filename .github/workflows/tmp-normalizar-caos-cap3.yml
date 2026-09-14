@@ -1,0 +1,117 @@
+name: Normalizar temporalmente Caos capítulo 3
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp-normalizar-caos-cap3.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  normalizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Normalizar capítulo y auditar mapa
+        shell: python
+        run: |
+          from pathlib import Path
+          import json, re, unicodedata
+
+          src = Path('corpus/libros/caos/capitulo-03.md')
+          dst = Path('corpus/normalización/caos/capitulo-03.md')
+          original = src.read_text(encoding='utf-8')
+          text = unicodedata.normalize('NFC', original)
+
+          text = text.replace(
+              '*El abismo antes de la forma «Al principio existía el Caos.»* — Hesíodo, Teogonía, v. 116',
+              '*El abismo antes de la forma*\n\n«Al principio existía el Caos.» —Hesíodo, *Teogonía*, v. 116'
+          )
+
+          # Correcciones ortotipográficas y reconstrucciones inequívocas.
+          text = text.replace('contra-intuitivo', 'contraintuitivo')
+          text = text.replace('contra-intuitiva', 'contraintuitiva')
+          text = text.replace('contra-intuitivas', 'contraintuitivas')
+          text = text.replace('auto-organizan', 'autoorganizan')
+          text = text.replace('10 ⁴ ⁻ ³', '10⁻⁴³')
+          text = text.replace('10⁴ ⁻ ³', '10⁻⁴³')
+          text = text.replace('10 ⁴⁻³', '10⁻⁴³')
+
+          # Incisos cerrados con raya a paréntesis.
+          inciso = re.compile(r'\s—\s*([^—\n]{1,320}?)\s*—(?=[,.;:?!)]|\s)')
+          while inciso.search(text):
+              text = inciso.sub(lambda m: ' (' + m.group(1).strip() + ')', text)
+
+          # Limpiar espaciado de rayas restantes.
+          text = re.sub(r'—\s+', '—', text)
+          text = re.sub(r'\s+—', ' —', text)
+
+          # Comillas angulares en prosa, sin tocar atributos HTML.
+          def quotes_line(line: str) -> str:
+              out = []
+              in_tag = False
+              opening = True
+              for ch in line:
+                  if ch == '<':
+                      in_tag = True
+                  if ch == '"' and not in_tag:
+                      out.append('«' if opening else '»')
+                      opening = not opening
+                  else:
+                      out.append(ch)
+                  if ch == '>':
+                      in_tag = False
+              return ''.join(out)
+          text = '\n'.join(quotes_line(line) for line in text.split('\n'))
+
+          # Las notas ya llevan número en <sup>; retirar numeración plana duplicada/desfasada.
+          text = re.sub(r'(<a id="fn-main-(\d+)"></a><sup>\2</sup>)\s+\d+\s+', r'\1 ', text)
+
+          # No se admite guion medio.
+          text = text.replace('–', '-')
+          text = re.sub(r'[ \t]+\n', '\n', text)
+          text = re.sub(r'\n{4,}', '\n\n\n', text).rstrip() + '\n'
+
+          dst.parent.mkdir(parents=True, exist_ok=True)
+          dst.write_text(text, encoding='utf-8')
+
+          refs = [int(x) for x in re.findall(r'href="#fn-main-(\d+)"', text)]
+          notes = [int(x) for x in re.findall(r'<a id="fn-main-(\d+)"></a>', text)]
+          print('SOURCE_CHARS:', len(original))
+          print('NORMALIZED_CHARS:', len(text))
+          print('REFS_UNIQUE:', sorted(set(refs)))
+          print('NOTES:', notes)
+          print('MISSING_REFERENCED_NOTES:', sorted(set(refs) - set(notes)))
+          print('ORPHAN_NOTES:', sorted(set(notes) - set(refs)))
+          print('REMAINING_BOX_GLYPHS:', text.count('□'))
+          print('REMAINING_REPLACEMENT_GLYPHS:', text.count('�'))
+          print('REMAINING_EN_DASHES:', text.count('–'))
+          print('REMAINING_EM_DASHES:', text.count('—'))
+          for i, line in enumerate(text.splitlines(), 1):
+              if '—' in line:
+                  print(f'DASH_LINE {i}: {line[:1600]}')
+
+          mapa = json.loads(Path('mapa/mapa-maestro.json').read_text(encoding='utf-8'))
+          reviews = []
+          for i, item in enumerate(mapa.get('review_queue', [])):
+              dump = json.dumps(item, ensure_ascii=False).lower()
+              if ('ev.caos.' in dump or 'formal.' in dump) and any(k in dump for k in ('caos', 'tiempo', 'atemporal', 'posibilidad', 'infinito', 'cosmolog', 'determin')):
+                  reviews.append((i, item))
+          print('MAP_REVIEW_ITEMS:', len(reviews))
+          for i, item in reviews[:40]:
+              print('MAP_REVIEW', i, json.dumps(item, ensure_ascii=False))
+
+      - name: Guardar edición y retirar flujo temporal
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/tmp-normalizar-caos-cap3.yml
+          git add 'corpus/normalización/caos/capitulo-03.md'
+          git commit -m '[MANT][NORMALIZACION] Normalizar capítulo 3 de Caos'
+          git push
