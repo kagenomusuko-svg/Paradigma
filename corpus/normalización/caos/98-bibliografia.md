@@ -34,7 +34,7 @@
 
 **Bell, John S.** «On the Einstein Podolsky Rosen Paradox.» *Physics* 1, núm. 3 (1964): 195-200.
 
-**Benjamin, Walter.** «Sobre el lenguaje en general y sobre el lenguaje de los humanos.» En *Obras*, vol. II/1. Madrid: Abada, 2007.
+**Benjamin, Walter.** «Sobre el lenguaje en general y sobre el lenguaje de los humanos.» (1916). En *Obras*, vol. II/1. Madrid: Abada, 2007.
 
 **Bergson, Henri.** *L’Évolution créatrice.* París: Félix Alcan, 1907.
 
@@ -72,7 +72,7 @@
 
 **Chalmers, David.** *The Conscious Mind: In Search of a Fundamental Theory.* Oxford: Oxford University Press, 1996. [Trad. esp.: *La mente consciente.* Barcelona: Gedisa, 1999.]
 
-**Chisholm, Roderick.** «Human Freedom and the Self.» En *Freedom and Determinism*, ed. Keith Lehrer. Nueva York: Random House, 1966.
+**Chisholm, Roderick.** «Human Freedom and the Self.» (1964). En *Freedom and Determinism*, ed. Keith Lehrer. Nueva York: Random House, 1966.
 
 **Churchland, Patricia S.** *Neurophilosophy: Toward a Unified Science of the Mind-Brain.* Cambridge, MA: MIT Press, 1986.
 
@@ -132,7 +132,7 @@
 
 **Frankfurt, Harry G.** «Freedom of the Will and the Concept of a Person.» *Journal of Philosophy* 68, núm. 1 (1971): 5-20.
 
-**Frankl, Viktor E.** *Ein Psychologe erlebt das Konzentrationslager.* Viena: Verlag für Jugend und Volk, 1946. [Trad. esp.: *El hombre en busca de sentido.*]
+**Frankl, Viktor E.** *Ein Psychologe erlebt das Konzentrationslager.* Viena: Verlag für Jugend und Volk, 1946.
 
 **Frege, Gottlob.** «Über Sinn und Bedeutung.» *Zeitschrift für Philosophie und philosophische Kritik* 100 (1892): 25-50.
 
@@ -178,13 +178,13 @@
 
 **Hume, David.** *An Enquiry Concerning Human Understanding.* Londres: Millar, 1748. [Trad. esp.: *Investigación sobre el entendimiento humano.* Madrid: Alianza, 1980.]
 
-**Husserl, Edmund.** *Cartesianische Meditationen.* En *Husserliana* I. La Haya: Nijhoff, 1950. [Trad. esp.: *Meditaciones cartesianas.* Madrid: Tecnos, 1986.]
+**Husserl, Edmund.** *Cartesianische Meditationen.* Conferencias de 1929. En *Husserliana* I. La Haya: Nijhoff, 1950. [Trad. esp.: *Meditaciones cartesianas.* Madrid: Tecnos, 1986.]
 
 **Husserl, Edmund.** *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie. Erstes Buch.* Halle: Niemeyer, 1913.
 
 **Husserl, Edmund.** *Logische Untersuchungen.* Halle: Niemeyer, 1900-1901. [Trad. esp.: *Investigaciones lógicas.* Madrid: Alianza, 1999.]
 
-**Husserl, Edmund.** *Vorlesungen zur Phänomenologie des inneren Zeitbewusstseins.* Ed. Martin Heidegger. Halle: Niemeyer, 1928.
+**Husserl, Edmund.** *Vorlesungen zur Phänomenologie des inneren Zeitbewusstseins.* Lecciones de 1904-1905; ed. Martin Heidegger. Halle: Niemeyer, 1928.
 
 ## K
 
@@ -194,7 +194,7 @@
 
 **Kant, Immanuel.** *Kritik der reinen Vernunft.* Riga: Hartknoch, 1781. [Trad. esp.: *Crítica de la razón pura.* Madrid: Alfaguara, 1978.]
 
-**Kierkegaard, Søren.** *Begrebet Angest.* Copenhague: Reitzel, 1844. [Trad. esp.: *El concepto de la angustia.*]
+**Kierkegaard, Søren.** *Begrebet Angest.* Copenhague: Reitzel, 1844.
 
 **Kierkegaard, Søren.** *Enten-Eller.* Copenhague: Reitzel, 1843. [Trad. esp.: *O lo uno o lo otro.* Madrid: Trotta, 2006.]
 
@@ -214,7 +214,7 @@
 
 **Leibniz, Gottfried Wilhelm.** «Discours de métaphysique.» En *Opuscules et fragments inédits*, ed. Louis Couturat. París: Félix Alcan, 1903.
 
-**Levinas, Emmanuel.** *Autrement qu’être ou au-delà de l’essence.* La Haya: Nijhoff, 1974. [Trad. esp.: *De otro modo que ser o más allá de la esencia.*]
+**Levinas, Emmanuel.** *Autrement qu’être ou au-delà de l’essence.* La Haya: Nijhoff, 1974.
 
 **Levinas, Emmanuel.** *Totalité et Infini: Essai sur l'extériorité.* La Haya: Nijhoff, 1961. [Trad. esp.: *Totalidad e infinito.* Salamanca: Sígueme, 1977.]
 
@@ -254,13 +254,13 @@
 
 **Nader, Karim, Glenn E. Schafe y Joseph E. LeDoux.** «Fear Memories Require Protein Synthesis in the Amygdala for Reconsolidation after Retrieval.» *Nature* 406 (2000): 722-726.
 
-**Nagel, Thomas.** «Moral Luck.» En *Mortal Questions.* Cambridge: Cambridge University Press, 1979.
+**Nagel, Thomas.** «Moral Luck.» (1976). Reimpreso en *Mortal Questions.* Cambridge: Cambridge University Press, 1979.
 
 **Nagel, Thomas.** «What Is It Like to Be a Bat?» *Philosophical Review* 83, núm. 4 (1974): 435-450.
 
 **Nietzsche, Friedrich.** *Also sprach Zarathustra.* Chemnitz: Schmeitzner, 1883-1885. [Trad. esp.: *Así habló Zaratustra.* Madrid: Alianza, 1972.]
 
-**Nietzsche, Friedrich.** *Die fröhliche Wissenschaft.* Chemnitz: Schmeitzner, 1882. [Trad. esp.: *La gaya ciencia.*]
+**Nietzsche, Friedrich.** *Die fröhliche Wissenschaft.* Chemnitz: Schmeitzner, 1882.
 
 ## O
 
@@ -274,13 +274,13 @@
 
 **Pascal, Blaise.** *Pensées de M. Pascal sur la religion et sur quelques autres sujets.* París: Guillaume Desprez, 1670.
 
-**Penrose, Roger.** *Cycles of Time: An Extraordinary New View of the Universe.* Londres: Bodley Head, 2010. [Trad. esp.: *Ciclos del tiempo.*]
+**Penrose, Roger.** *Cycles of Time: An Extraordinary New View of the Universe.* Londres: Bodley Head, 2010.
 
 **Penrose, Roger.** *The Emperor's New Mind: Concerning Computers, Minds, and the Laws of Physics.* Oxford: Oxford University Press, 1989.
 
 **Platón.** *Timeo.* En *Diálogos VI.* Trad. María Ángeles Durán y Francisco Lisi. Madrid: Gredos, 1992.
 
-**Poincaré, Henri.** *La Science et l’hypothèse.* París: Flammarion, 1902. [Trad. esp.: *La ciencia y la hipótesis.*]
+**Poincaré, Henri.** *La Science et l’hypothèse.* París: Flammarion, 1902.
 
 **Poincaré, Henri.** *La valeur de la science.* París: Flammarion, 1905. [Trad. esp.: *El valor de la ciencia.* Madrid: Espasa-Calpe, 1964.]
 
@@ -300,9 +300,9 @@
 
 ## S
 
-**Sacks, Oliver.** *Musicophilia: Tales of Music and the Brain.* Nueva York: Knopf, 2007. [Trad. esp.: *Musicofilia.*]
+**Sacks, Oliver.** *Musicophilia: Tales of Music and the Brain.* Nueva York: Knopf, 2007.
 
-**Sacks, Oliver.** *The Man Who Mistook His Wife for a Hat.* Londres: Duckworth, 1985. [Trad. esp.: *El hombre que confundió a su mujer con un sombrero.*]
+**Sacks, Oliver.** *The Man Who Mistook His Wife for a Hat.* Londres: Duckworth, 1985.
 
 **Sartre, Jean-Paul.** *L'Être et le Néant: Essai d'ontologie phénoménologique.* París: Gallimard, 1943. [Trad. esp.: *El ser y la nada.* Madrid: Alianza, 1984.]
 
@@ -336,7 +336,7 @@
 
 **Van der Kolk, Bessel A.** *The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma.* Nueva York: Viking, 2014.
 
-**Varela, Francisco J., Evan Thompson y Eleanor Rosch.** *The Embodied Mind: Cognitive Science and Human Experience.* Cambridge, MA: MIT Press, 1991. [Trad. esp.: *De cuerpo presente.*]
+**Varela, Francisco J., Evan Thompson y Eleanor Rosch.** *The Embodied Mind: Cognitive Science and Human Experience.* Cambridge, MA: MIT Press, 1991.
 
 **Vernant, Jean-Pierre.** *Les Origines de la pensée grecque.* París: Presses Universitaires de France, 1962.
 
@@ -372,7 +372,7 @@
 
 **Wittgenstein, Ludwig.** *Philosophische Untersuchungen / Philosophical Investigations.* Oxford: Blackwell, 1953. [Trad. esp.: *Investigaciones filosóficas.* Barcelona: Crítica, 1988.]
 
-**Wittgenstein, Ludwig.** *Tractatus Logico-Philosophicus.* Londres: Kegan Paul, 1922. [Trad. esp.: *Tractatus Logico-Philosophicus.* Madrid: Alianza, 1973.]
+**Wittgenstein, Ludwig.** *Tractatus Logico-Philosophicus.* Publicado originalmente en 1921; Londres: Kegan Paul, 1922. [Trad. esp.: *Tractatus Logico-Philosophicus.* Madrid: Alianza, 1973.]
 
 ## Z
 
