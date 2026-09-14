@@ -1,0 +1,61 @@
+name: Auditar temporalmente prefacio de Afrodita Areia I
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp-auditar-afrodita1-prefacio.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  auditar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Auditar mapa y prefacio
+        shell: python
+        run: |
+          from pathlib import Path
+          import json, re, unicodedata
+          def fold(s):
+              return ''.join(c for c in unicodedata.normalize('NFD', str(s).lower()) if unicodedata.category(c) != 'Mn')
+          mp=json.loads(Path('mapa/mapa-maestro.json').read_text(encoding='utf-8'))
+          keys=['afrodita areia','sobre la pasion','pasion','tifon','afrodita','ares','caos','voluntad']
+          hits=[]
+          def walk(x,path='root'):
+              if isinstance(x,dict):
+                  blob=fold(json.dumps(x,ensure_ascii=False))
+                  ident=str(x.get('id') or x.get('review_id') or x.get('name') or '')
+                  if any(k in blob for k in keys) and (ident.startswith('review.') or 'review' in path.lower()):
+                      hits.append((path,x))
+                  for k,v in x.items(): walk(v,path+'.'+str(k))
+              elif isinstance(x,list):
+                  for i,v in enumerate(x): walk(v,path+f'[{i}]')
+          walk(mp)
+          print('REVISIONES_RELEVANTES',len(hits))
+          seen=set()
+          for path,obj in hits:
+              ident=obj.get('id') or obj.get('review_id') or obj.get('name') or path
+              if ident in seen: continue
+              seen.add(ident)
+              print('REVIEW',ident)
+              for f in ['status','subject','question','why','blocking','blocking_for','resolution']:
+                  if f in obj: print(' ',f,':',str(obj[f])[:1600])
+          p=Path('corpus/normalización/afrodita-areia/01-sobre-la-pasion/01-prefacio.md')
+          t=p.read_text(encoding='utf-8')
+          print('CHARS',len(t))
+          for c,n in [('EM','—'),('EN','–'),('BOX','□'),('REPL','�'),('STRAIGHT','"')]: print(c,t.count(n))
+          print('FOOTER_RESIDUAL',t.count('Afrodita Areia: sobre la pasión · Vol. I'))
+          print('MAP_SCAFFOLD',len(re.findall(r'mapa maestro|review_queue|pending_|adjudic',t,flags=re.I)))
+          assert t.count('–')==0 and t.count('□')==0 and t.count('�')==0
+          assert t.count('Afrodita Areia: sobre la pasión · Vol. I')==0
+          assert not re.search(r'mapa maestro|review_queue|pending_|adjudic',t,flags=re.I)
+      - name: Retirar flujo temporal
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/tmp-auditar-afrodita1-prefacio.yml
+          git commit -m '[MANT] Retirar auditoría temporal del prefacio de Afrodita Areia I'
+          git push
