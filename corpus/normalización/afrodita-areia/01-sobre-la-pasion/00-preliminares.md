@@ -18,9 +18,7 @@ Primera edición: 2026
 
 © Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026
 
-Todos los derechos reservados. Ninguna parte de esta publicación puede ser reproducida, almacenada o transmitida de manera alguna ni por ningún medio, ya sea eléctrico, químico, mecánico, óptico, de grabación o de fotocopia, sin permiso previo del editor.
-
-*Afrodita Areia: sobre la pasión* © 2026 by Miguel Hilario Olvera Aguilar is licensed under CC BY-NC-ND 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/4.0/
+*Afrodita Areia: sobre la pasión* está licenciada bajo Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0). Para consultar una copia de la licencia: https://creativecommons.org/licenses/by-nc-nd/4.0/
 
 > «Antes del pensamiento, la pasión.
 >
