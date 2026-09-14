@@ -1,0 +1,64 @@
+name: Cerrar Caos apéndice 3
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp-cierre-caos-ap3.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  cierre:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Remate del glosario y validación integral
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+          p=Path('corpus/normalización/caos/apendice-03.md')
+          t=p.read_text(encoding='utf-8')
+          t=t.replace('El accidente aristótelico es una propiedad contingente', 'El accidente aristotélico es una propiedad contingente')
+          old='El término también conecta explícitamente con el colapso de la función de onda en mecánica cuántica, cuya estructura formal es isomorfa a la del colapso del ego (Apéndice II).'
+          new=old+' **Precisión editorial:** el mapa maestro mantiene pendiente si «isomorfismo» debe sostenerse en sentido matemático estricto o entenderse como correspondencia estructural; véase la nota editorial † del Apéndice II. Esta edición no resuelve esa adjudicación.'
+          if old not in t:
+              raise SystemExit('No se encontró el pasaje de isomorfismo en la nota 35.')
+          t=t.replace(old,new,1)
+
+          refs=[int(x) for x in re.findall(r'href="#fn-app-(\d+)"',t)]
+          notes=[int(x) for x in re.findall(r'<a id="fn-app-(\d+)"></a>',t)]
+          edrefs=set(re.findall(r'href="#(fn-ed-ap3-[^"]+)"',t))
+          edanchors=set(re.findall(r'<a id="(fn-ed-ap3-[^"]+)"></a>',t))
+          visible_quotes=[]
+          for i,line in enumerate(t.splitlines(),1):
+              parts=re.split(r'(<[^>]+>)',line)
+              visible=''.join(part for part in parts if not (part.startswith('<') and part.endswith('>')))
+              if '"' in visible: visible_quotes.append((i,visible))
+          headings=[line for line in t.splitlines() if line.startswith('### ')]
+          expected=['SUJETO','CAOS','COLAPSO','MEDIACIÓN','MEDIACIÓN NEUTRAL','PRIMERA MEDIACIÓN','INTENCIONALIDAD PRESUPUESTA','CAMPO DE ACCIÓN','SEGUNDA MEDIACIÓN','DOBLE MEDIACIÓN','ACTO','INTEGRAL ACUMULATIVA','EGO','IDENTIDAD DEL EGO','ESCALA DE COLAPSO','ACCIDENTE','CONDICIÓN SINE QUA NON','RESPONSABILIDAD','IMPUTACIÓN','TIEMPO DEL EGO']
+          missing_headings=[x for x in expected if not any(line.startswith('### '+x) for line in headings)]
+          bad_phrases=['aristótelico','∫□','Σ□','τ□','cuasi-automática','pre-reflexiva','proto-intencionalidad']
+          bad=[x for x in bad_phrases if x in t]
+          print('HEADINGS',len(headings),'MISSING_HEADINGS',missing_headings)
+          print('BAD_PHRASES',bad)
+          print('PROHIBITED_CHARS',{c:t.count(c) for c in ['—','–','□','�']})
+          print('VISIBLE_QUOTES',visible_quotes)
+          print('MISSING_NOTES',sorted(set(refs)-set(notes)),'ORPHAN_NOTES',sorted(set(notes)-set(refs)))
+          print('MISSING_34_43',[n for n in range(34,44) if n not in notes])
+          print('MISSING_ED',sorted(edrefs-edanchors),'ORPHAN_ED',sorted(edanchors-edrefs))
+          if missing_headings or bad or visible_quotes or any(c in t for c in ['—','–','□','�']):
+              raise SystemExit('Persisten defectos de normalización.')
+          if set(refs)!=set(notes) or [n for n in range(34,44) if n not in notes] or edrefs!=edanchors:
+              raise SystemExit('Auditoría de notas falló.')
+          p.write_text(t.rstrip()+'\n',encoding='utf-8')
+      - name: Guardar cierre y retirar flujo temporal
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/tmp-cierre-caos-ap3.yml
+          git add 'corpus/normalización/caos/apendice-03.md'
+          git commit -m '[MANT][NORMALIZACION] Cerrar Caos apéndice 3'
+          git push
