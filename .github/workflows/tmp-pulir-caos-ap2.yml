@@ -1,0 +1,92 @@
+name: Pulir temporalmente Caos apéndice 2
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp-pulir-caos-ap2.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  pulir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Resolver rayas y maquetación residual
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+          p=Path('corpus/normalización/caos/apendice-02.md')
+          t=p.read_text(encoding='utf-8')
+          reps={
+            'sea *como* el colapso cuántico de la función de onda —que haya una semejanza útil entre los dos.':'sea *como* el colapso cuántico de la función de onda (que haya una semejanza útil entre los dos).',
+            'Ĥ es el *operador hamiltoniano* —el operador que representa la energía total del sistema.':'Ĥ es el *operador hamiltoniano*, el operador que representa la energía total del sistema.',
+            'puede ser no separable —no puede escribirse como el producto de estados individuales de cada sistema.':'puede ser no separable: no puede escribirse como el producto de estados individuales de cada sistema.',
+            'colapsa instantáneamente en «hacia arriba» también —sin importar la distancia entre las dos partículas.':'colapsa instantáneamente en «hacia arriba» también, sin importar la distancia entre las dos partículas.',
+            'La mecánica cuántica estándar —en la formulación de von Neumann de 1932—':'La mecánica cuántica estándar (en la formulación de von Neumann de 1932)',
+            '##### REGLA 1 — EVOLUCIÓN UNITARIA (PROCESO 2):':'##### REGLA 1: EVOLUCIÓN UNITARIA (PROCESO 2)',
+            'se pierde —o, más precisamente, se difunde irreversiblemente en el entorno mediante la decoherencia.':'se pierde o, más precisamente, se difunde irreversiblemente en el entorno mediante la decoherencia.',
+            'existe el caos de las posibilidades — la voluntad todavía no orientada, el acto todavía no producido.':'existe el caos de las posibilidades: la voluntad todavía no orientada, el acto todavía no producido.',
+            'del orden de 10⁻²³ segundos —doce órdenes de magnitud más rápido que cualquier proceso físico ordinario.':'del orden de 10⁻²³ segundos, doce órdenes de magnitud más rápido que cualquier proceso físico ordinario.',
+            'siempre se obtiene uno de los dos — nunca los dos simultáneamente, nunca ninguno.':'siempre se obtiene uno de los dos; nunca los dos simultáneamente, nunca ninguno.',
+            'La interpretación de Copenhague —desarrollada principalmente por Bohr, Heisenberg y Born en la segunda mitad de los años 1920—':'La interpretación de Copenhague (desarrollada principalmente por Bohr, Heisenberg y Born en la segunda mitad de los años 1920)',
+            'es un caso particular de la posibilidad organizada —una posibilidad que ya tiene la estructura de las probabilidades asignadas a los distintos resultados.':'es un caso particular de la posibilidad organizada: una posibilidad que ya tiene la estructura de las probabilidades asignadas a los distintos resultados.',
+            'e *irreversible* —la información no puede borrarse sin interactuar con todos los grados de libertad del entorno, lo cual es prácticamente imposible.':'e *irreversible*: la información no puede borrarse sin interactuar con todos los grados de libertad del entorno, lo cual es prácticamente imposible.',
+            'ningún acuerdo previo entre las partículas —ninguna variable oculta local que determinara de antemano las correlaciones.':'ningún acuerdo previo entre las partículas, ninguna variable oculta local que determinara de antemano las correlaciones.',
+            'mientras que el colapso del ego es intencionado —la primera mediación orienta el acto hacia un objeto representado.':'mientras que el colapso del ego es intencionado: la primera mediación orienta el acto hacia un objeto representado.',
+          }
+          for a,b in reps.items(): t=t.replace(a,b)
+
+          # Reparar rótulos y cortes de línea claros.
+          t=t.replace(
+              'La notación |ψ⟩ es el «bra-ket» de Dirac, que\n\nrepresenta el estado cuántico como un vector en un espacio de Hilbert —un espacio vectorial complejo de\n\ndimensión en general infinita.',
+              'La notación |ψ⟩ es el «bra-ket» de Dirac, que representa el estado cuántico como un vector en un espacio de Hilbert, un espacio vectorial complejo de dimensión en general infinita.'
+          )
+          t=t.replace(
+              'Entre mediciones, el estado cuántico |ψ⟩\n\nevoluciona de manera determinista y continua según la ecuación de Schrödinger:',
+              'Entre mediciones, el estado cuántico |ψ⟩ evoluciona de manera determinista y continua según la ecuación de Schrödinger:'
+          )
+          t=re.sub(
+              r'\*\*R\*\*\*\*EGLA\*\* \*\*2 —\*\* \*\*C\*\*\*\*OLAPSO POR MEDICIÓN\*\* \*\*\(P\*\*\*\*ROCESO\*\* \*\*1\):\*\* Cuando se realiza una medición de la observable Â con autovalores aₙ y\s+autovectores \|aₙ⟩, el estado \|ψ⟩ colapsa en uno de los autovectores \|aₙ⟩ con probabilidad \|⟨aₙ\|ψ⟩\|²\. El resultado\s+obtenido es el autovalor aₙ correspondiente\.',
+              '##### REGLA 2: COLAPSO POR MEDICIÓN (PROCESO 1)\n\nCuando se realiza una medición de la observable Â con autovalores aₙ y autovectores |aₙ⟩, el estado |ψ⟩ colapsa en uno de los autovectores |aₙ⟩ con probabilidad |⟨aₙ|ψ⟩|². El resultado obtenido es el autovalor aₙ correspondiente.',
+              t
+          )
+
+          # Si quedó el rótulo por alguna variación, reparación alternativa exacta.
+          t=t.replace('**R****EGLA** **2 —** **C****OLAPSO POR MEDICIÓN** **(P****ROCESO** **1):**', '##### REGLA 2: COLAPSO POR MEDICIÓN (PROCESO 1)\n\n')
+          t=t.replace(' — ', ', ')
+          t=t.replace('—', ';')
+          t=re.sub(r'\s+([,.;:?!])',r'\1',t)
+          t=re.sub(r'[ \t]{2,}',' ',t)
+
+          refs=[int(x) for x in re.findall(r'href="#fn-app-(\d+)"',t)]
+          notes=[int(x) for x in re.findall(r'<a id="fn-app-(\d+)"></a>',t)]
+          edrefs=set(re.findall(r'href="#(fn-ed-ap2-[^"]+)"',t))
+          ednotes=set(re.findall(r'<a id="(fn-ed-ap2-[^"]+)"></a>',t))
+          visible_quotes=[]
+          for i,line in enumerate(t.splitlines(),1):
+              parts=re.split(r'(<[^>]+>)',line)
+              visible=''.join(part for part in parts if not (part.startswith('<') and part.endswith('>')))
+              if '"' in visible: visible_quotes.append((i,visible))
+          bad=[c for c in ['—','–','□','�'] if c in t]
+          print('BAD_CHARS',bad)
+          print('VISIBLE_QUOTES',visible_quotes)
+          print('MISSING',sorted(set(refs)-set(notes)),'ORPHAN',sorted(set(notes)-set(refs)))
+          print('MISSING_13_33',[n for n in range(13,34) if n not in notes])
+          print('MISSING_ED',sorted(edrefs-ednotes),'ORPHAN_ED',sorted(ednotes-edrefs))
+          if bad or visible_quotes:
+              raise SystemExit('Persisten residuos ortotipográficos.')
+          if set(refs)!=set(notes) or [n for n in range(13,34) if n not in notes] or edrefs!=ednotes:
+              raise SystemExit('Auditoría de notas falló.')
+          p.write_text(t.rstrip()+'\n',encoding='utf-8')
+      - name: Guardar pulido y retirar flujo temporal
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/tmp-pulir-caos-ap2.yml
+          git add 'corpus/normalización/caos/apendice-02.md'
+          git commit -m '[MANT][NORMALIZACION] Pulir ortotipografía de Caos apéndice 2'
+          git push
