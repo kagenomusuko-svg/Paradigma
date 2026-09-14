@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Reescribir notas editoriales como texto de edición
+      - name: Reescribir notas editoriales como texto publicable
         shell: python
         run: |
           from pathlib import Path
@@ -23,39 +23,46 @@ jobs:
           base = Path('corpus/normalización/caos')
 
           replacements = {
+            'capitulo-04.md': {
+              ('fn-main-93', '93'): '**Nota editorial.** *Caos* sitúa el origen de la responsabilidad en la primera mediación (φ₁); *Afrodita Areia I* vincula la responsabilidad a la asunción en φ₂, mientras *Afrodita Areia IV* vuelve a fundar la imputación exterior en φ₁. Asimismo, la expresión retrospectiva «primera mediación en sentido material» aparece en obras posteriores y no pertenece al vocabulario técnico de *Caos*. Este capítulo conserva el sentido de «primera mediación» propio de esta obra sin resolver retrospectivamente esa diferencia doctrinal.'
+            },
+            'capitulo-05.md': {
+              ('fn-ed-cap5', '†'): '**Nota editorial.** En *Caos*, «primera mediación» designa la determinación intencional que orienta la voluntad hacia el acto y funciona como fundamento de responsabilidad. Obras posteriores introducen la expresión retrospectiva «primera mediación en sentido material» o redistribuyen el fundamento de responsabilidad entre φ₁ y φ₂. La expresión se conserva aquí con el sentido interno propio de *Caos*, sin imponerle retroactivamente esas reformulaciones.'
+            },
+            'capitulo-06.md': {
+              ('fn-ed-cap6', '†'): '**Nota editorial.** En *Caos*, la arquitectura de este capítulo es voluntad → primera mediación (φ₁) → acto → segunda mediación (φ₂) → ego/integral, y la responsabilidad se origina en φ₁. Obras posteriores desplazan o amplían la función de φ₂ y, en algunos casos, redistribuyen el fundamento de responsabilidad. El capítulo conserva íntegramente la arquitectura conceptual propia de *Caos*.',
+              ('fn-ed-cap6-formal', '‡'): '**Nota editorial.** La notación de este capítulo usa I como valor integral, estado acumulativo y objeto actualizable sin fijar un tipado formal único para esos usos. Formalizaciones posteriores distinguen con mayor precisión el espacio de estados y la operación de actualización. Aquí se conserva la formulación de *Caos* y se señala únicamente la limitación formal, sin regularizarla retroactivamente.'
+            },
+            'capitulo-07.md': {
+              ('fn-ed-cap7', '†'): '**Nota editorial.** La tesis de que la muerte cierra la integral y fija la forma total del ego requiere, para una lectura matemática estricta, condiciones topológicas adicionales que el capítulo no especifica para derivar clausura, límite o perfección del conjunto. La formulación de *Caos* se conserva y la limitación formal queda indicada sin sustituir la tesis por una construcción posterior.'
+            },
             'apendice-01.md': {
-              'fn-ed-ap1-int': '**Nota editorial.** *Caos* usa la integral como acumulación de colapsos y, en otros pasajes, como estado actualizable, sin fijar aquí un único espacio de estados ni una regla formal que haga equivalentes esos usos. Se conserva la formulación del apéndice sin introducir retroactivamente una formalización posterior.',
-              'fn-ed-ap1-der': '**Nota editorial.** El par (f(x₀), f′(x₀)) no basta por sí solo para determinar una evolución futura: para esa conclusión harían falta una dinámica o ecuación de evolución y condiciones de existencia y unicidad. Se conserva la afirmación original de *Caos* como parte de su arquitectura argumental.',
-              'fn-ed-ap1-top': '**Nota editorial.** Bolzano-Weierstrass garantiza, bajo hipótesis concretas, la existencia de al menos una subsucesión convergente o punto de acumulación; no garantiza por sí solo un punto único identificable con el ego. Del mismo modo, la clausura o perfección atribuida más adelante al conjunto de colapsos en la muerte requiere una topología y condiciones adicionales que el apéndice no especifica. La tensión formal queda indicada sin alterar doctrinalmente la tesis.'
+              ('fn-ed-ap1-int', '†'): '**Nota editorial.** *Caos* usa la integral como acumulación de colapsos y, en otros pasajes, como estado actualizable, sin fijar aquí un único espacio de estados ni una regla formal que haga equivalentes esos usos. Se conserva la formulación del apéndice sin introducir retroactivamente una formalización posterior.',
+              ('fn-ed-ap1-der', '‡'): '**Nota editorial.** El par (f(x₀), f′(x₀)) no basta por sí solo para determinar una evolución futura: para esa conclusión harían falta una dinámica o ecuación de evolución y condiciones de existencia y unicidad. Se conserva la afirmación original de *Caos* como parte de su arquitectura argumental.',
+              ('fn-ed-ap1-top', '§'): '**Nota editorial.** Bolzano-Weierstrass garantiza, bajo hipótesis concretas, la existencia de al menos una subsucesión convergente o punto de acumulación; no garantiza por sí solo un punto único identificable con el ego. Del mismo modo, la clausura o perfección atribuida más adelante al conjunto de colapsos en la muerte requiere una topología y condiciones adicionales que el apéndice no especifica. La tensión formal queda indicada sin alterar doctrinalmente la tesis.'
             },
             'apendice-02.md': {
-              'fn-ed-ap2-iso': '**Nota editorial.** *Caos* usa *isomorfismo* en sentido fuerte y niega que sea mera metáfora, pero el apéndice no especifica dos estructuras formalmente definidas, una biyección entre ellas ni las relaciones cuya preservación demostraría un isomorfismo matemático. Se conserva el término y la tesis del libro sin convertirlos retroactivamente en una demostración formal.',
-              'fn-ed-ap2-int': '**Nota editorial.** Existe una tensión interna entre las interpretaciones presentadas: el apéndice reconoce que Muchos Mundos y la mecánica de Bohm no requieren un colapso físico de la función de onda, pero en otros pasajes agrupa a Bohm entre las vías compatibles con la estructura de colapso postulada. Se conservan ambas formulaciones y se señala la discrepancia sin resolverla doctrinalmente.'
+              ('fn-ed-ap2-iso', '†'): '**Nota editorial.** *Caos* usa *isomorfismo* en sentido fuerte y niega que sea mera metáfora, pero el apéndice no especifica dos estructuras formalmente definidas, una biyección entre ellas ni las relaciones cuya preservación demostraría un isomorfismo matemático. Se conserva el término y la tesis del libro sin convertirlos retroactivamente en una demostración formal.',
+              ('fn-ed-ap2-int', '‡'): '**Nota editorial.** Existe una tensión interna entre las interpretaciones presentadas: el apéndice reconoce que Muchos Mundos y la mecánica de Bohm no requieren un colapso físico de la función de onda, pero en otros pasajes agrupa a Bohm entre las vías compatibles con la estructura de colapso postulada. Se conservan ambas formulaciones y se señala la discrepancia sin resolverla doctrinalmente.'
             },
             'apendice-03.md': {
-              'fn-ed-ap3-med': '**Nota editorial.** En *Caos*, «mediación neutral» designa la determinación sin intencionalidad y «primera mediación» la orientación intencional propia del ego. Obras posteriores introducen retrospectivamente expresiones como «mediación prima» o «primera mediación en sentido material» y, en algunos casos, atribuyen ese vocabulario a *Caos*. Esas expresiones no pertenecen al vocabulario técnico de esta obra con ese sentido; esta entrada conserva la terminología histórica propia del libro.',
-              'fn-ed-ap3-phi2': '**Nota editorial.** En *Caos*, φ₂/segunda mediación ocurre después del acto y consiste en integrar el resultado a la función acumulativa. Obras posteriores desplazan parcialmente φ₂ hacia funciones de reconocimiento, selección, modulación o evaluación que pueden operar en otras posiciones de la secuencia. Esos usos no se tratan aquí como equivalentes: esta entrada fija explícitamente el sentido de φ₂ propio de *Caos*.',
-              'fn-ed-ap3-int': '**Nota editorial.** La notación de *Caos* usa I a la vez como integral ponderada, estado acumulativo y objeto actualizable mediante I\' = I ∪ {a}, sin fijar un tipado formal único que haga equivalentes esos usos. Tampoco se especifican la topología ni las condiciones necesarias para que la muerte «cierre» la integral o produzca un conjunto cerrado o perfecto. Ambas formulaciones se conservan como parte del sistema expuesto en *Caos*, sin introducir una regularización matemática posterior.',
-              'fn-ed-ap3-ego': '**Nota editorial.** «Ego» recibe caracterizaciones distintas en obras posteriores: además del ego como proceso e integral histórica de *Caos*, aparecen formulaciones como eje persistente, posición formal o estructura sin inercia propia. En este glosario, «ego» significa exclusivamente el concepto definido por *Caos*: proceso constituido por doble mediación e integral acumulativa.',
-              'fn-ed-ap3-id': '**Nota editorial.** «Identidad» es un término homónimo en el corpus: *Caos* la define como continuidad funcional de la integral; obras posteriores la usan también para sesgo pre-egóico, mascarada o identidad narrativa asumible. Ninguna de esas formulaciones se trata aquí como equivalente general de las demás. Esta entrada explicita únicamente la identidad del ego en el sentido técnico de *Caos*.',
-              'fn-ed-ap3-resp': '**Nota editorial.** *Caos* funda la responsabilidad en la primera mediación y la relación causal del ego con el acto. Obras posteriores la sitúan, según el contexto, en la asunción por φ₂ o vuelven a la imputación exterior fundada en φ₁. Este glosario conserva el uso de *Caos* sin resolver retrospectivamente esas diferencias entre responsabilidad causal, ontológica, moral y jurídica.'
+              ('fn-ed-ap3-med', '†'): '**Nota editorial.** En *Caos*, «mediación neutral» designa la determinación sin intencionalidad y «primera mediación» la orientación intencional propia del ego. Obras posteriores introducen retrospectivamente expresiones como «mediación prima» o «primera mediación en sentido material» y, en algunos casos, atribuyen ese vocabulario a *Caos*. Esas expresiones no pertenecen al vocabulario técnico de esta obra con ese sentido; esta entrada conserva la terminología histórica propia del libro.',
+              ('fn-ed-ap3-phi2', '‡'): '**Nota editorial.** En *Caos*, φ₂/segunda mediación ocurre después del acto y consiste en integrar el resultado a la función acumulativa. Obras posteriores desplazan parcialmente φ₂ hacia funciones de reconocimiento, selección, modulación o evaluación que pueden operar en otras posiciones de la secuencia. Esos usos no se tratan aquí como equivalentes: esta entrada fija explícitamente el sentido de φ₂ propio de *Caos*.',
+              ('fn-ed-ap3-int', '§'): '**Nota editorial.** La notación de *Caos* usa I a la vez como integral ponderada, estado acumulativo y objeto actualizable mediante I\' = I ∪ {a}, sin fijar un tipado formal único que haga equivalentes esos usos. Tampoco se especifican la topología ni las condiciones necesarias para que la muerte «cierre» la integral o produzca un conjunto cerrado o perfecto. Ambas formulaciones se conservan como parte del sistema expuesto en *Caos*, sin introducir una regularización matemática posterior.',
+              ('fn-ed-ap3-ego', '¶'): '**Nota editorial.** «Ego» recibe caracterizaciones distintas en obras posteriores: además del ego como proceso e integral histórica de *Caos*, aparecen formulaciones como eje persistente, posición formal o estructura sin inercia propia. En este glosario, «ego» significa exclusivamente el concepto definido por *Caos*: proceso constituido por doble mediación e integral acumulativa.',
+              ('fn-ed-ap3-id', '‖'): '**Nota editorial.** «Identidad» es un término homónimo en el corpus: *Caos* la define como continuidad funcional de la integral; obras posteriores la usan también para sesgo pre-egóico, mascarada o identidad narrativa asumible. Ninguna de esas formulaciones se trata aquí como equivalente general de las demás. Esta entrada explicita únicamente la identidad del ego en el sentido técnico de *Caos*.',
+              ('fn-ed-ap3-resp', '※'): '**Nota editorial.** *Caos* funda la responsabilidad en la primera mediación y la relación causal del ego con el acto. Obras posteriores la sitúan, según el contexto, en la asunción por φ₂ o vuelven a la imputación exterior fundada en φ₁. Este glosario conserva el uso de *Caos* sin resolver retrospectivamente esas diferencias entre responsabilidad causal, ontológica, moral y jurídica.'
             }
           }
 
-          symbols = {
-            'fn-ed-ap1-int': '†', 'fn-ed-ap1-der': '‡', 'fn-ed-ap1-top': '§',
-            'fn-ed-ap2-iso': '†', 'fn-ed-ap2-int': '‡',
-            'fn-ed-ap3-med': '†', 'fn-ed-ap3-phi2': '‡', 'fn-ed-ap3-int': '§',
-            'fn-ed-ap3-ego': '¶', 'fn-ed-ap3-id': '‖', 'fn-ed-ap3-resp': '※'
-          }
-
+          changed = []
           for filename, notes in replacements.items():
               p = base / filename
               t = p.read_text(encoding='utf-8')
-              for anchor, body in notes.items():
-                  symbol = symbols[anchor]
-                  pattern = rf'<a id="{re.escape(anchor)}"></a><sup>{re.escape(symbol)}</sup>\s+\*\*Nota editorial\.\*\*.*?(?=\n\n<a id="fn-(?:ed|app)-|\Z)'
-                  repl = f'<a id="{anchor}"></a><sup>{symbol}</sup> {body}'
+              original = t
+              for (anchor, marker), body in notes.items():
+                  pattern = rf'<a id="{re.escape(anchor)}"></a><sup>{re.escape(marker)}</sup>\s+\*\*Nota editorial\.\*\*.*?(?=\n\n<a id="fn-(?:ed|app|main)-|\Z)'
+                  repl = f'<a id="{anchor}"></a><sup>{marker}</sup> {body}'
                   t2, n = re.subn(pattern, repl, t, count=1, flags=re.S)
                   if n != 1:
                       raise SystemExit(f'No se pudo reescribir {anchor} en {filename}: coincidencias={n}')
@@ -68,9 +75,10 @@ jobs:
                       raise SystemExit('No se encontró la precisión editorial de la nota 35 del Apéndice III.')
                   t = t.replace(old, new, 1)
 
-              p.write_text(t.rstrip() + '\n', encoding='utf-8')
+              if t != original:
+                  p.write_text(t.rstrip() + '\n', encoding='utf-8')
+                  changed.append(str(p))
 
-          # Auditoría de toda la segunda edición de Caos: el mecanismo editorial interno no debe ser visible.
           forbidden = [
               re.compile(r'mapa maestro', re.I),
               re.compile(r'pending_[a-z_]+', re.I),
@@ -78,6 +86,7 @@ jobs:
               re.compile(r'cola de revisión', re.I),
               re.compile(r'no adjudica todavía', re.I),
               re.compile(r'mantiene pendiente la adjudicación', re.I),
+              re.compile(r'mantiene abierta una revisión', re.I),
               re.compile(r'mantiene abierta la revisión', re.I),
           ]
           findings = []
@@ -86,6 +95,9 @@ jobs:
                   if any(rx.search(line) for rx in forbidden):
                       findings.append(f'{p}:{i}: {line}')
 
+          print('ARCHIVOS_MODIFICADOS', len(changed))
+          for item in changed:
+              print(item)
           print('ANDAMIAJE_INTERNO_RESTANTE', len(findings))
           for item in findings:
               print(item)
@@ -97,6 +109,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git rm .github/workflows/tmp-retirar-andamiaje-mapa-caos.yml
-          git add 'corpus/normalización/caos/apendice-01.md' 'corpus/normalización/caos/apendice-02.md' 'corpus/normalización/caos/apendice-03.md'
+          git add 'corpus/normalización/caos/'
           git commit -m '[MANT][NORMALIZACION] Retirar andamiaje interno del mapa en Caos'
           git push
