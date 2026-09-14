@@ -6,7 +6,7 @@
 
 Este apéndice desarrolla el segundo pilar técnico del libro. El primero, tratado en el Apéndice I, fue matemático: el límite, el infinito cantoniano, la función acumulativa y el punto de acumulación como modelos formales del colapso del ego. Este es físico: la mecánica cuántica como descripción de la estructura de la determinación en el nivel más fundamental que la física ha podido alcanzar.
 
-La tesis de este apéndice es más fuerte que la de una analogía. El libro no dice que el colapso del ego sea *como* el colapso cuántico de la función de onda —que haya una semejanza útil entre los dos. Dice que hay un *isomorfismo estructural*: que la estructura formal del colapso cuántico y la estructura formal del colapso del ego comparten la misma arquitectura lógica, aunque los dominios en que operan y los sustratos sobre los que actúan sean radicalmente distintos.<sup id="fnref-ed-ap2-iso"><a href="#fn-ed-ap2-iso">†</a></sup> El isomorfismo no implica identidad: el ego no es una partícula cuántica, y la función de onda no es una conciencia. Implica que los dos fenómenos están gobernados por la misma estructura de transición de posibilidad a determinación.
+La tesis de este apéndice es más fuerte que la de una analogía. El libro no dice que el colapso del ego sea *como* el colapso cuántico de la función de onda (que haya una semejanza útil entre los dos). Dice que hay un *isomorfismo estructural*: que la estructura formal del colapso cuántico y la estructura formal del colapso del ego comparten la misma arquitectura lógica, aunque los dominios en que operan y los sustratos sobre los que actúan sean radicalmente distintos.<sup id="fnref-ed-ap2-iso"><a href="#fn-ed-ap2-iso">†</a></sup> El isomorfismo no implica identidad: el ego no es una partícula cuántica, y la función de onda no es una conciencia. Implica que los dos fenómenos están gobernados por la misma estructura de transición de posibilidad a determinación.
 
 El apéndice se organiza en cinco secciones. La primera desarrolla la ecuación de Schrödinger y el concepto de superposición de estados. La segunda trabaja el problema de la medición: el colapso de la función de onda como evento que convierte posibilidad en determinación. La tercera examina el principio de incertidumbre de Heisenberg como estructura de la realidad y no como limitación del conocimiento. La cuarta analiza las dos grandes interpretaciones de la mecánica cuántica (Copenhague y muchos mundos) y determina cuál es más relevante para el argumento del libro. La quinta establece el isomorfismo explícito entre la estructura cuántica y la ontología del ego.
 
@@ -20,11 +20,11 @@ El apéndice se organiza en cinco secciones. La primera desarrolla la ecuación 
 
 En 1926, Erwin Schrödinger publicó la ecuación que lleva su nombre y que describe cómo evoluciona en el tiempo el estado cuántico de un sistema físico.<sup id="fnref-app-13"><a href="#fn-app-13">13</a></sup> La ecuación es:
 
-iℏ ∂ψ/∂t  =  Ĥ ψ
+iℏ ∂ψ/∂t = Ĥ ψ
 
-donde ψ = ψ(r, t) es la *función de onda* (una función de la posición r y el tiempo t que toma valores en los números complejos), ℏ es la constante de Planck reducida, y Ĥ es el *operador hamiltoniano* —el operador que representa la energía total del sistema. Para una partícula de masa m en un potencial V(r, t), el hamiltoniano es:
+donde ψ = ψ(r, t) es la *función de onda* (una función de la posición r y el tiempo t que toma valores en los números complejos), ℏ es la constante de Planck reducida, y Ĥ es el *operador hamiltoniano*, el operador que representa la energía total del sistema. Para una partícula de masa m en un potencial V(r, t), el hamiltoniano es:
 
-Ĥ  =  − (ℏ²/2m) ∇²  +  V(r, t)
+Ĥ = − (ℏ²/2m) ∇² + V(r, t)
 
 La ecuación de Schrödinger tiene dos propiedades que son las más importantes para el argumento de este apéndice. La primera es que es *lineal*: si ψ₁ y ψ₂ son soluciones, entonces cualquier combinación lineal αψ₁ + βψ₂ también lo es.<sup id="fnref-app-14"><a href="#fn-app-14">14</a></sup> La segunda es que es *determinista*: dado el estado inicial ψ(r, 0), la ecuación determina de manera única el estado ψ(r, t) para todo tiempo futuro t > 0. La ecuación no tiene nada de probabilístico en sí misma: es tan determinista como las ecuaciones de Newton o Maxwell.
 
@@ -34,7 +34,7 @@ Entonces, ¿de dónde vienen las probabilidades en la mecánica cuántica? De la
 
 La linealidad de la ecuación de Schrödinger tiene una consecuencia que no tiene paralelo en la física clásica: los estados cuánticos se suman. Si un electrón puede estar en el estado |↑⟩ (spin hacia arriba) o en el estado |↓⟩ (spin hacia abajo), la ecuación de Schrödinger permite también el estado:
 
-|ψ⟩  =  α|↑⟩  +  β|↓⟩
+|ψ⟩ = α|↑⟩ + β|↓⟩
 
 donde α y β son números complejos con |α|² + |β|² = 1. Este estado *no* es el estado del spin hacia arriba ni el del spin hacia abajo: es una superposición de ambos.
 
@@ -42,21 +42,17 @@ En este estado, el spin del electrón no tiene ningún valor definido. No es que
 
 La superposición cuántica es lo que el libro llama caos: el estado donde todas las posibilidades coexisten simultáneamente antes de que ninguna determinación haya ocurrido. La diferencia con el caos hesiódico es que la superposición cuántica es matemáticamente precisa (tiene una estructura definida dada por los coeficientes α y β) mientras que el caos filosófico es el infinito atemporal anterior a toda estructura. Pero la arquitectura es la misma: antes de la determinación, las posibilidades coexisten; la determinación produce una y elimina las demás.
 
-La notación |ψ⟩ es el «bra-ket» de Dirac, que
-
-representa el estado cuántico como un vector en un espacio de Hilbert —un espacio vectorial complejo de
-
-dimensión en general infinita.<sup id="fnref-app-16"><a href="#fn-app-16">16</a></sup> El estado |ψ⟩ es simultáneamente todos los estados en la superposición: no ocupa un punto del espacio de fases (como un estado clásico) sino que se extiende sobre todo el espacio de Hilbert como una combinación de todos los vectores base. El espacio de Hilbert cuántico es el análogo matemático del caos: el espacio de todas las posibles determinaciones antes de que ninguna haya ocurrido.
+La notación |ψ⟩ es el «bra-ket» de Dirac, que representa el estado cuántico como un vector en un espacio de Hilbert, un espacio vectorial complejo de dimensión en general infinita.<sup id="fnref-app-16"><a href="#fn-app-16">16</a></sup> El estado |ψ⟩ es simultáneamente todos los estados en la superposición: no ocupa un punto del espacio de fases (como un estado clásico) sino que se extiende sobre todo el espacio de Hilbert como una combinación de todos los vectores base. El espacio de Hilbert cuántico es el análogo matemático del caos: el espacio de todas las posibles determinaciones antes de que ninguna haya ocurrido.
 
 #### 1.3 El entrelazamiento cuántico
 
-La superposición adquiere su forma más radical en el *entrelazamiento cuántico*: cuando dos sistemas cuánticos han interactuado, su estado combinado puede ser no separable —no puede escribirse como el producto de estados individuales de cada sistema.
+La superposición adquiere su forma más radical en el *entrelazamiento cuántico*: cuando dos sistemas cuánticos han interactuado, su estado combinado puede ser no separable: no puede escribirse como el producto de estados individuales de cada sistema.
 
 El estado de Bell más simple para dos partículas es:
 
-|Φ⁺⟩  =  (1/√2)(|↑⟩₁|↑⟩₂  +  |↓⟩₁|↓⟩₂)
+|Φ⁺⟩ = (1/√2)(|↑⟩₁|↑⟩₂ + |↓⟩₁|↓⟩₂)
 
-En este estado, ninguna de las dos partículas tiene spin definido. Pero si se mide el spin de la partícula 1 y se obtiene «hacia arriba», el spin de la partícula 2 colapsa instantáneamente en «hacia arriba» también —sin importar la distancia entre las dos partículas. Las mediciones sobre sistemas entrelazados están correlacionadas de maneras que ninguna teoría clásica de variables ocultas locales puede reproducir: las desigualdades de Bell,<sup id="fnref-app-17"><a href="#fn-app-17">17</a></sup> confirmadas experimentalmente desde los años 1980, establecen que esta correlación es genuina y no puede explicarse por ningún acuerdo previo entre las partículas.
+En este estado, ninguna de las dos partículas tiene spin definido. Pero si se mide el spin de la partícula 1 y se obtiene «hacia arriba», el spin de la partícula 2 colapsa instantáneamente en «hacia arriba» también, sin importar la distancia entre las dos partículas. Las mediciones sobre sistemas entrelazados están correlacionadas de maneras que ninguna teoría clásica de variables ocultas locales puede reproducir: las desigualdades de Bell,<sup id="fnref-app-17"><a href="#fn-app-17">17</a></sup> confirmadas experimentalmente desde los años 1980, establecen que esta correlación es genuina y no puede explicarse por ningún acuerdo previo entre las partículas.
 
 El entrelazamiento es el caso más puro de la estructura que el libro llama «colisión de escalas»: cuando dos sistemas cuánticos se entrelazaron, formaron un sistema único cuyo estado no puede reducirse a los estados de sus partes. El entrelazamiento es la forma en que la mecánica cuántica describe la imposibilidad de reducir el todo a la suma de las partes.
 
@@ -68,21 +64,17 @@ El entrelazamiento es el caso más puro de la estructura que el libro llama «co
 
 #### 2.1 El proceso de medición y la proyección
 
-La mecánica cuántica estándar —en la formulación de von Neumann de 1932—<sup id="fnref-app-18"><a href="#fn-app-18">18</a></sup> describe el proceso de medición mediante dos reglas distintas:
+La mecánica cuántica estándar (en la formulación de von Neumann de 1932)<sup id="fnref-app-18"><a href="#fn-app-18">18</a></sup> describe el proceso de medición mediante dos reglas distintas:
 
-##### REGLA 1 — EVOLUCIÓN UNITARIA (PROCESO 2):
+##### REGLA 1: EVOLUCIÓN UNITARIA (PROCESO 2)
 
-Entre mediciones, el estado cuántico |ψ⟩
-
-evoluciona de manera determinista y continua según la ecuación de Schrödinger:
+Entre mediciones, el estado cuántico |ψ⟩ evoluciona de manera determinista y continua según la ecuación de Schrödinger:
 
 |ψ(t)⟩ = Û(t)|ψ(0)⟩, donde Û(t) = e^{−iĤt/ℏ} es el operador de evolución temporal, que es unitario: Û†Û = 1.
 
-**R****EGLA** **2 —** **C****OLAPSO POR MEDICIÓN** **(P****ROCESO** **1):** Cuando se realiza una medición de la observable Â con autovalores aₙ y
+##### REGLA 2: COLAPSO POR MEDICIÓN (PROCESO 1)
 
-autovectores |aₙ⟩, el estado |ψ⟩ colapsa en uno de los autovectores |aₙ⟩ con probabilidad |⟨aₙ|ψ⟩|². El resultado
-
-obtenido es el autovalor aₙ correspondiente.
+Cuando se realiza una medición de la observable Â con autovalores aₙ y autovectores |aₙ⟩, el estado |ψ⟩ colapsa en uno de los autovectores |aₙ⟩ con probabilidad |⟨aₙ|ψ⟩|². El resultado obtenido es el autovalor aₙ correspondiente.
 
 La coexistencia de estas dos reglas es el núcleo del problema de la medición. La evolución unitaria del Proceso 2 es lineal, continua, determinista y reversible: si se conoce el estado en t = 0, puede recuperarse el estado en cualquier t anterior. El colapso del Proceso 1 es no lineal, discontinuo, probabilístico e *irreversible*: una vez que ocurre, el estado anterior no puede recuperarse.
 
@@ -96,9 +88,9 @@ El colapso cuántico tiene tres propiedades que son el exacto paralelo de las pr
 
 **Primero, la irreversibilidad.** Una vez que el estado |ψ⟩ ha colapsado en el autovector |aₙ⟩, el estado
 
-anterior no puede recuperarse mediante ninguna operación permitida por la mecánica cuántica. La información sobre los otros coeficientes de la superposición original se pierde —o, más precisamente, se difunde irreversiblemente en el entorno mediante la decoherencia.<sup id="fnref-app-20"><a href="#fn-app-20">20</a></sup> En el ego: una vez que el acto ha ocurrido, no puede deshacerse. El colapso del ego es irreversible exactamente en el mismo sentido que el colapso cuántico.
+anterior no puede recuperarse mediante ninguna operación permitida por la mecánica cuántica. La información sobre los otros coeficientes de la superposición original se pierde o, más precisamente, se difunde irreversiblemente en el entorno mediante la decoherencia.<sup id="fnref-app-20"><a href="#fn-app-20">20</a></sup> En el ego: una vez que el acto ha ocurrido, no puede deshacerse. El colapso del ego es irreversible exactamente en el mismo sentido que el colapso cuántico.
 
-**Segundo, la producción de un valor definido donde no lo había.** Antes del colapso, el sistema cuántico no tiene ningún valor definido para la observable medida: la posición, el spin, la energía son genuinamente indefinidos. El colapso produce un valor definido donde antes había solo una distribución de probabilidad. En el ego: antes del colapso existe el caos de las posibilidades — la voluntad todavía no orientada, el acto todavía no producido. El colapso produce determinación donde antes había posibilidad.
+**Segundo, la producción de un valor definido donde no lo había.** Antes del colapso, el sistema cuántico no tiene ningún valor definido para la observable medida: la posición, el spin, la energía son genuinamente indefinidos. El colapso produce un valor definido donde antes había solo una distribución de probabilidad. En el ego: antes del colapso existe el caos de las posibilidades: la voluntad todavía no orientada, el acto todavía no producido. El colapso produce determinación donde antes había posibilidad.
 
 **Tercero, la unicidad del resultado desde la perspectiva del observador.** Cualquiera sea la interpretación de la mecánica cuántica que se adopte, todos los intérpretes coinciden en que el observador que realiza la medición obtiene *un* resultado, no varios simultáneamente. La dispersión de las posibilidades en la función de onda se concentra en un único valor desde la perspectiva del observador que registra el resultado. En el ego: el colapso produce un acto único, no varios actos simultáneos. El ego que actúa actúa de esta manera, no de múltiples maneras a la vez.
 
@@ -106,11 +98,11 @@ anterior no puede recuperarse mediante ninguna operación permitida por la mecá
 
 El mecanismo de decoherencia cuántica ofrece una respuesta parcial al problema de la medición.<sup id="fnref-app-21"><a href="#fn-app-21">21</a></sup> Un sistema cuántico en superposición, al interactuar con su entorno (moléculas de aire, fotones, campos electromagnéticos), entabla entrelazamientos cuánticos con los incontables grados de libertad ambientales. El estado combinado sistema-entorno continúa evolucionando unitariamente, pero si solo se observa el sistema sin el entorno, el estado reducido del sistema parece una mezcla estadística clásica en lugar de una superposición cuántica.
 
-La decoherencia ocurre extremadamente rápido para objetos macroscópicos. Para un grano de polvo de un micrómetro, el tiempo de decoherencia en condiciones normales es del orden de 10⁻²³ segundos —doce órdenes de magnitud más rápido que cualquier proceso físico ordinario. Para objetos más grandes, el tiempo es aún menor. Esto explica por qué no vemos superposiciones cuánticas a escala macroscópica: se destruyen en tiempos tan cortos que son completamente inobservables.
+La decoherencia ocurre extremadamente rápido para objetos macroscópicos. Para un grano de polvo de un micrómetro, el tiempo de decoherencia en condiciones normales es del orden de 10⁻²³ segundos, doce órdenes de magnitud más rápido que cualquier proceso físico ordinario. Para objetos más grandes, el tiempo es aún menor. Esto explica por qué no vemos superposiciones cuánticas a escala macroscópica: se destruyen en tiempos tan cortos que son completamente inobservables.
 
 Sin embargo, la decoherencia no resuelve completamente el problema de la medición. Convierte la superposición en una mezcla estadística, pero no explica *por qué* se obtiene este resultado particular y no otro. La mezcla estadística dice: «con probabilidad |α|² el sistema está en |a₁⟩ y con probabilidad |β|² está en |a₂⟩.» Pero en
 
-el experimento real, siempre se obtiene uno de los dos — nunca los dos simultáneamente, nunca ninguno. El paso de la mezcla estadística al resultado definido sigue sin explicación en términos puramente físicos. El problema de la medición persiste incluso con la decoherencia: el «colapso subjetivo» (por qué esta rama y no aquella) permanece como pregunta sin respuesta física completa.<sup id="fnref-app-22"><a href="#fn-app-22">22</a></sup>
+el experimento real, siempre se obtiene uno de los dos; nunca los dos simultáneamente, nunca ninguno. El paso de la mezcla estadística al resultado definido sigue sin explicación en términos puramente físicos. El problema de la medición persiste incluso con la decoherencia: el «colapso subjetivo» (por qué esta rama y no aquella) permanece como pregunta sin respuesta física completa.<sup id="fnref-app-22"><a href="#fn-app-22">22</a></sup>
 
 * * *
 
@@ -122,15 +114,15 @@ el experimento real, siempre se obtiene uno de los dos — nunca los dos simult�
 
 El principio de incertidumbre de Heisenberg, en su formulación matemática precisa, es una consecuencia de la estructura del espacio de Hilbert y de la no conmutatividad de ciertos pares de operadores.<sup id="fnref-app-23"><a href="#fn-app-23">23</a></sup> Para los operadores de posición x̂ y de momentum p̂, el conmutador es:
 
-[x̂, p̂]  ≡  x̂p̂ − p̂x̂  =  iℏ
+[x̂, p̂] ≡ x̂p̂ − p̂x̂ = iℏ
 
 La versión general de Robertson<sup id="fnref-app-24"><a href="#fn-app-24">24</a></sup> establece que para cualquier par de observables Â y B̂:
 
-ΔA · ΔB  ≥  (1/2) |⟨[Â, B̂ ]⟩| donde ΔA = √(⟨Â²⟩ − ⟨Â⟩²) es la desviación estándar de A en el estado |ψ⟩. Para posición y momentum,
+ΔA · ΔB ≥ (1/2) |⟨[Â, B̂ ]⟩| donde ΔA = √(⟨Â²⟩ − ⟨Â⟩²) es la desviación estándar de A en el estado |ψ⟩. Para posición y momentum,
 
 esto da:
 
-Δx · Δp  ≥  ℏ/2  ≈  5.27 × 10⁻³⁵  J·s
+Δx · Δp ≥ ℏ/2 ≈ 5.27 × 10⁻³⁵ J·s
 
 Este resultado es una desigualdad entre desviaciones estándar de distribuciones de probabilidad: no dice que sea imposible conocer simultáneamente posición y momentum exactos, sino que un estado cuántico en que la posición tiene desviación estándar Δx tiene necesariamente una distribución de momentum con desviación estándar al menos ℏ/(2Δx). La relación entre las dos incertidumbres es inversa: cuanto más estrecha la distribución de posición, más ancha la de momentum, y viceversa.
 
@@ -146,7 +138,7 @@ La implicación filosófica es exactamente la que el libro utiliza: la incertidu
 
 La relación de incertidumbre posición-momentum tiene una interpretación matemática particularmente elegante. La función de onda en el espacio de posiciones, ψ(x), y la función de onda en el espacio de momenta, φ(p), son transformadas de Fourier una de la otra:
 
-φ(p)  =  (1/√(2πℏ)) ∫ ψ(x) e^{−ipx/ℏ} dx
+φ(p) = (1/√(2πℏ)) ∫ ψ(x) e^{−ipx/ℏ} dx
 
 La propiedad matemática de la transformada de Fourier (demostrable con análisis estándar) es que un pulso concentrado en el espacio de posiciones (pequeño Δx) corresponde a un pulso extendido en el espacio de frecuencias (grande Δp), y viceversa. La relación de incertidumbre posición-momentum es simplemente la relación de incertidumbre de Fourier para las funciones de onda cuánticas: no un resultado físico contingente sino una propiedad matemática necesaria de cualquier par de bases que estén relacionadas por la transformada de Fourier.
 
@@ -168,7 +160,7 @@ Para el argumento del libro: el colapso del ego produce determinación en la dim
 
 #### 4.1 La interpretación de Copenhague
 
-La interpretación de Copenhague —desarrollada principalmente por Bohr, Heisenberg y Born en la segunda mitad de los años 1920—<sup id="fnref-app-27"><a href="#fn-app-27">27</a></sup> es la respuesta estándar al problema de la medición y la interpretación que la mayoría de los físicos usa en la práctica, aunque raramente de manera reflexiva.
+La interpretación de Copenhague (desarrollada principalmente por Bohr, Heisenberg y Born en la segunda mitad de los años 1920)<sup id="fnref-app-27"><a href="#fn-app-27">27</a></sup> es la respuesta estándar al problema de la medición y la interpretación que la mayoría de los físicos usa en la práctica, aunque raramente de manera reflexiva.
 
 Los elementos centrales de la interpretación de Copenhague pueden formularse así:
 
@@ -245,13 +237,13 @@ La tabla del isomorfismo es la siguiente:
 
 El primer par del isomorfismo (el estado en superposición y el caos como posibilidad absoluta) requiere una precisión importante. El caos hesiódico que el libro describe en el Capítulo III es anterior a toda estructura: el infinito atemporal en el que todas las posibilidades coexisten sin ninguna organización. El estado cuántico en superposición, en cambio, tiene estructura: los coeficientes αₙ de la superposición tienen valores definidos que determinan las probabilidades de los distintos resultados.
 
-El isomorfismo no es por tanto total en este nivel: el caos filosófico es más radical que la superposición cuántica. La superposición cuántica es un caso particular de la posibilidad organizada —una posibilidad que ya tiene la estructura de las probabilidades asignadas a los distintos resultados. El caos filosófico precede incluso a esa organización: es la posibilidad antes de que ninguna distribución de probabilidad la organice.
+El isomorfismo no es por tanto total en este nivel: el caos filosófico es más radical que la superposición cuántica. La superposición cuántica es un caso particular de la posibilidad organizada: una posibilidad que ya tiene la estructura de las probabilidades asignadas a los distintos resultados. El caos filosófico precede incluso a esa organización: es la posibilidad antes de que ninguna distribución de probabilidad la organice.
 
 Sin embargo, el isomorfismo se mantiene en la dirección que importa para el argumento del libro: en ambos casos, antes del colapso no hay determinación. El sistema cuántico en superposición no tiene posición definida; el ego antes de actuar no tiene determinación definida. La ausencia de determinación antes del colapso (independientemente de si hay o no distribución de probabilidad que la organice) es la estructura compartida.
 
 #### 5.3 El colapso como producción de información irreversible
 
-El mecanismo de decoherencia<sup id="fnref-app-31"><a href="#fn-app-31">31</a></sup> ofrece la descripción más precisa de por qué el colapso cuántico es irreversible desde la perspectiva del observador. Cuando el sistema cuántico interactúa con el entorno y colapsa, el resultado queda inscrito en los incontables grados de libertad del entorno: en los fotones que el sistema emite, en las moléculas de aire que toca, en los campos que lo permean. Esta inscripción es *redundante*: múltiples copias del resultado quedan registradas en el entorno. Es precisamente esta redundancia lo que hace que el resultado sea *objetivo* (accesible independientemente a múltiples observadores) e *irreversible* —la información no puede borrarse sin interactuar con todos los grados de libertad del entorno, lo cual es prácticamente imposible.
+El mecanismo de decoherencia<sup id="fnref-app-31"><a href="#fn-app-31">31</a></sup> ofrece la descripción más precisa de por qué el colapso cuántico es irreversible desde la perspectiva del observador. Cuando el sistema cuántico interactúa con el entorno y colapsa, el resultado queda inscrito en los incontables grados de libertad del entorno: en los fotones que el sistema emite, en las moléculas de aire que toca, en los campos que lo permean. Esta inscripción es *redundante*: múltiples copias del resultado quedan registradas en el entorno. Es precisamente esta redundancia lo que hace que el resultado sea *objetivo* (accesible independientemente a múltiples observadores) e *irreversible*: la información no puede borrarse sin interactuar con todos los grados de libertad del entorno, lo cual es prácticamente imposible.
 
 El paralelo con la segunda mediación del ego es preciso. Cuando el ego actúa, el resultado del acto queda inscrito en el entorno de manera redundante: en el objeto modificado por el acto, en las personas que lo presenciaron, en las instituciones que lo registraron, en el entorno físico que el acto transformó. Esta inscripción redundante es lo que hace que el acto sea objetivo e irreversible. El ego no puede «desactuar» su acto porque el acto ha sido inscrito en demasiados registros simultáneos. La segunda mediación es el proceso por el cual esta inscripción retorna al ego como modificación de su propia función: el ego integra lo que el entorno ha recibido y retorna al ego como imagen de sí mismo.
 
@@ -269,7 +261,7 @@ El entrelazamiento cuántico (la correlación no local entre sistemas que han in
 
 El estado entrelazado |Φ⁺⟩ = (1/√2)(|↑⟩₁|↑⟩₂ + |↓⟩₁|↓⟩₂) no puede escribirse como el producto de estados individuales de cada partícula porque las partículas han perdido su independencia. Análogamente, el ego que ha interactuado con otros egos (que ha amado, disputado, aprendido, comprometido) no puede describirse completamente sin referencia a esas interacciones. La identidad del ego es no separable de la misma manera que un estado entrelazado es no separable: no hay ego «puro» detrás de las interacciones, como no hay partícula «pura» detrás del entrelazamiento.
 
-Las desigualdades de Bell<sup id="fnref-app-32"><a href="#fn-app-32">32</a></sup> demuestran que el entrelazamiento cuántico no puede explicarse mediante ningún acuerdo previo entre las partículas —ninguna variable oculta local que determinara de antemano las correlaciones. Las correlaciones son genuinas: emergen del entrelazamiento, no de ninguna propiedad preexistente. El paralelo filosófico: las correlaciones entre egos entrelazados (las maneras en que los egos se afectan mutuamente, se constituyen mutuamente, comparten su función de colapso) no pueden explicarse mediante ninguna propiedad del ego que existiera antes de la interacción. Las interacciones que constituyen al ego son genuinas: el ego emerge de las interacciones, no preexiste a ellas.
+Las desigualdades de Bell<sup id="fnref-app-32"><a href="#fn-app-32">32</a></sup> demuestran que el entrelazamiento cuántico no puede explicarse mediante ningún acuerdo previo entre las partículas, ninguna variable oculta local que determinara de antemano las correlaciones. Las correlaciones son genuinas: emergen del entrelazamiento, no de ninguna propiedad preexistente. El paralelo filosófico: las correlaciones entre egos entrelazados (las maneras en que los egos se afectan mutuamente, se constituyen mutuamente, comparten su función de colapso) no pueden explicarse mediante ninguna propiedad del ego que existiera antes de la interacción. Las interacciones que constituyen al ego son genuinas: el ego emerge de las interacciones, no preexiste a ellas.
 
 #### 5.6 Los límites del isomorfismo
 
@@ -285,7 +277,7 @@ sistema cuántico que ha colapsado en |a₁⟩ no «aprende»
 
 nada de ese colapso ni modifica sus disposiciones. La segunda mediación es específica del ego: el nivel de organización en que los colapsos retornan al sistema como información que modifica el sistema.
 
-El *ego tiene primera mediación; el sistema cuántico no*. El colapso cuántico no tiene intencionalidad: el sistema cuántico no se orienta hacia ningún resultado representado como fin antes de colapsar. El colapso cuántico es ciego (ocurre según las probabilidades dictadas por los coeficientes de la superposición) mientras que el colapso del ego es intencionado —la primera mediación orienta el acto hacia un objeto representado. Esta diferencia es la que distingue la responsabilidad del ego de la «indiferencia» cuántica: el ego puede ser imputado porque hubo primera mediación; el sistema cuántico no puede ser imputado porque el colapso cuántico ocurre sin ninguna orientación intencional.
+El *ego tiene primera mediación; el sistema cuántico no*. El colapso cuántico no tiene intencionalidad: el sistema cuántico no se orienta hacia ningún resultado representado como fin antes de colapsar. El colapso cuántico es ciego (ocurre según las probabilidades dictadas por los coeficientes de la superposición) mientras que el colapso del ego es intencionado: la primera mediación orienta el acto hacia un objeto representado. Esta diferencia es la que distingue la responsabilidad del ego de la «indiferencia» cuántica: el ego puede ser imputado porque hubo primera mediación; el sistema cuántico no puede ser imputado porque el colapso cuántico ocurre sin ninguna orientación intencional.
 
 * * *
 
