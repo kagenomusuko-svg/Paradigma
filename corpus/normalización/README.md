@@ -14,10 +14,13 @@ La intervención editorial se limita a:
 4. Reponer números, signos o elementos manifiestamente faltantes cuando puedan reconstruirse con seguridad a partir del propio texto y de su estructura.
 5. Eliminar andamiaje editorial interno que no pertenezca al libro como obra terminada.
 6. En los glosarios, explicitar los términos y sus precisiones de forma completa.
+7. Eliminar o neutralizar menciones que generen deuda editorial posterior al presentar el corpus, una serie o una línea de trabajo como cerrados, exhaustivos o predeterminados cuando esa clausura no sea doctrinalmente necesaria. Esto incluye fórmulas contingentes como «esta trilogía», «la pentalogía», «el último volumen» o equivalentes cuando comprometan innecesariamente la arquitectura futura del corpus. Se conservan las identidades bibliográficas válidas (numeración de volúmenes, nombres de colecciones y títulos concretos) y las referencias entre obras que sean conceptualmente necesarias. Cuando una frase contenga contenido doctrinal útil, se reformula sólo lo necesario para desacoplarlo de la deuda editorial, por ejemplo mediante una referencia directa a la obra o al problema conceptual correspondiente.
 
 ## Límite doctrinal
 
 La normalización no convierte una obra en otra distinta, no reescribe su doctrina y no transforma el texto en comentario académico. El mapa maestro funciona como instrumento de contraste semántico y localización de tensiones; no sustituye a la fuente ni autoriza una reescritura doctrinal.
+
+La eliminación de deuda editorial no autoriza a borrar la identidad material de una edición ni a suprimir referencias doctrinales entre obras. Su objeto es retirar compromisos contingentes sobre la extensión o cierre futuro del corpus, no reescribir su historia bibliográfica.
 
 ## Caos
 
