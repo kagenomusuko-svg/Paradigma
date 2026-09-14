@@ -1,0 +1,62 @@
+name: Auditar temporalmente prólogo de Afrodita Areia I
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp-auditar-afrodita1-prologo.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  auditar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Auditar prólogo y revisiones relevantes
+        shell: python
+        run: |
+          from pathlib import Path
+          import json,re
+          p=Path('corpus/normalización/afrodita-areia/01-sobre-la-pasion/02-prologo.md')
+          t=p.read_text(encoding='utf-8')
+          print('CHARS',len(t))
+          for label,ch in [('EM','—'),('EN','–'),('BOX','□'),('REPL','�'),('STRAIGHT','"')]:
+              print(label,t.count(ch))
+          print('FOOTER_RESIDUAL',t.count('Afrodita Areia: sobre la pasión · Vol. I'))
+          print('MAP_SCAFFOLD',len(re.findall(r'mapa maestro|review_queue|pending_|adjudic',t,flags=re.I)))
+          assert t.count('–')==0 and t.count('□')==0 and t.count('�')==0
+          assert t.count('Afrodita Areia: sobre la pasión · Vol. I')==0
+          assert not re.search(r'mapa maestro|review_queue|pending_|adjudic',t,flags=re.I)
+
+          mp=json.loads(Path('mapa/mapa-maestro.json').read_text(encoding='utf-8'))
+          wanted={
+            'review.aa1.caos_crosswalk',
+            'review.aa1.responsibility_grounding',
+            'review.aa1.identity_change',
+            'review.mask.identity_ego_inertia',
+            'review.mask.formula_crosswalk',
+            'review.mask.responsibility_crosswalk',
+          }
+          found={}
+          def walk(x):
+              if isinstance(x,dict):
+                  ident=x.get('id') or x.get('review_id')
+                  if ident in wanted: found[ident]=x
+                  for v in x.values(): walk(v)
+              elif isinstance(x,list):
+                  for v in x: walk(v)
+          walk(mp)
+          for ident in sorted(found):
+              obj=found[ident]
+              print('REVIEW',ident)
+              for f in ['status','subject','question','blocking','blocking_for','resolution']:
+                  if f in obj: print(' ',f,':',str(obj[f])[:1800])
+      - name: Retirar flujo temporal
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/tmp-auditar-afrodita1-prologo.yml
+          git commit -m '[MANT] Retirar auditoría temporal del prólogo de Afrodita Areia I'
+          git push
