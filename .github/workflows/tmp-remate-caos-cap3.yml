@@ -1,0 +1,44 @@
+name: Remate temporal Caos capítulo 3
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp-remate-caos-cap3.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  remate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Corregir compuestos editoriales residuales
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('corpus/normalización/caos/capitulo-03.md')
+          t = p.read_text(encoding='utf-8')
+          replacements = {
+              'ya determinado-e-irreversible': 'ya determinado e irreversible',
+              'todavía-indeterminado-y-posible': 'todavía indeterminado y posible',
+              '«no-todavía»': '«todavía no»',
+              '«punto-fuente»': '«punto fuente»',
+              'inaccessible': 'inaccesible',
+          }
+          for a, b in replacements.items():
+              t = t.replace(a, b)
+          if t.count('—') != 1 or '–' in t:
+              raise SystemExit('La auditoría de rayas dejó residuos.')
+          p.write_text(t, encoding='utf-8')
+      - name: Guardar y retirar flujo temporal
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/tmp-remate-caos-cap3.yml
+          git add 'corpus/normalización/caos/capitulo-03.md'
+          git commit -m '[MANT][NORMALIZACION] Rematar ortotipografía de Caos capítulo 3'
+          git push
