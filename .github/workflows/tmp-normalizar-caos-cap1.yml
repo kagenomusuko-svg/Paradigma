@@ -1,0 +1,128 @@
+name: Normalizar temporalmente Caos capítulo 1
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp-normalizar-caos-cap1.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  normalizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Normalizar capítulo y auditar mapa
+        shell: python
+        run: |
+          from pathlib import Path
+          import json, re, unicodedata
+
+          src = Path('corpus/libros/caos/capitulo-01.md')
+          dst = Path('corpus/normalización/caos/capitulo-01.md')
+          text = unicodedata.normalize('NFC', src.read_text(encoding='utf-8'))
+
+          # Reconstrucción ortotipográfica del subtítulo y epígrafe.
+          text = text.replace(
+              '*Por qué el ego no nace de nada ni de todo «El ser es, y el no-ser no es.»* — Parménides de Elea, Sobre la naturaleza, fragmento DK 28 B 2',
+              '*Por qué el ego no nace de nada ni de todo*\n\n«El ser es, y el no-ser no es.»\n\n—Parménides de Elea, *Sobre la naturaleza*, fragmento DK 28 B 2'
+          )
+
+          # Correcciones léxicas/ortotipográficas inequívocas.
+          text = text.replace('proto-científica', 'protocientífica')
+          text = text.replace('pre-reflexiva', 'prerreflexiva')
+          text = text.replace('pre-reflexivo', 'prerreflexivo')
+          text = text.replace(' —¿deja de existir mientras duerme?', ' (¿deja de existir mientras duerme?)')
+          text = text.replace(' horas —¿cesa de ser?', ' horas (¿cesa de ser?)')
+          text = text.replace('El problema no está en la conclusión —que el sujeto existe. El problema', 'El problema no está en la conclusión (que el sujeto existe). El problema')
+          text = text.replace('no solo es más fiel a la experiencia vivida —es la única', 'no solo es más fiel a la experiencia vivida; es la única')
+          text = text.replace('más explicación que la que el ser en general requiere —que es ninguna, porque', 'más explicación que la que el ser en general requiere: ninguna, porque')
+          text = text.replace('"¿por qué existe el sujeto?" — a eso Parménides ya responde.', '"¿por qué existe el sujeto?"; a eso Parménides ya responde.')
+          text = text.replace('espacio — todos estos fenómenos muestran', 'espacio; todos estos fenómenos muestran')
+          text = text.replace('sistemáticamente ausente —las restricciones que organizan el sistema.', 'sistemáticamente ausente: las restricciones que organizan el sistema.')
+          text = text.replace('al ego como totalidad cerrada —como lo que sería si la integral se cerrara ahora.', 'al ego como totalidad cerrada, como lo que sería si la integral se cerrara ahora.')
+
+          # Reducir rayas incidentales: los incisos cerrados con raya pasan a paréntesis.
+          inciso = re.compile(r'\s—\s*([^—\n]{1,280}?)\s*—(?=[,.;:?!)]|\s)')
+          while inciso.search(text):
+              text = inciso.sub(lambda m: ' (' + m.group(1).strip() + ')', text)
+
+          # Eliminar espacios ortotipográficamente incorrectos alrededor de rayas restantes.
+          text = re.sub(r'—\s+', '—', text)
+          text = re.sub(r'\s+—', ' —', text)
+
+          # Convertir comillas rectas de prosa en comillas angulares sin tocar atributos HTML.
+          def quotes_line(line: str) -> str:
+              out = []
+              in_tag = False
+              opening = True
+              for ch in line:
+                  if ch == '<':
+                      in_tag = True
+                  if ch == '"' and not in_tag:
+                      out.append('«' if opening else '»')
+                      opening = not opening
+                  else:
+                      out.append(ch)
+                  if ch == '>':
+                      in_tag = False
+              return ''.join(out)
+          text = '\n'.join(quotes_line(line) for line in text.split('\n'))
+
+          # Las notas ya llevan número en <sup>; retirar la numeración plana duplicada/desfasada.
+          text = re.sub(r'(<a id="fn-main-(\d+)"></a><sup>\2</sup>)\s+\d+\s+', r'\1 ', text)
+
+          # No se admite guion medio (en dash) en la edición normalizada.
+          text = text.replace('–', '-')
+
+          # Limpieza de blancos sin alterar la estructura de párrafos.
+          text = re.sub(r'[ \t]+\n', '\n', text)
+          text = re.sub(r'\n{4,}', '\n\n\n', text).rstrip() + '\n'
+
+          dst.parent.mkdir(parents=True, exist_ok=True)
+          dst.write_text(text, encoding='utf-8')
+
+          # Auditoría semántica del mapa: imprimir solo fragmentos con señales de revisión/tensión.
+          mapa = json.loads(Path('mapa/mapa-maestro.json').read_text(encoding='utf-8'))
+          needles = ('capitulo-01.md', 'emergencia fuerte', 'primera mediación', 'integral del ego')
+          signal_keys = ('review', 'revision', 'revisión', 'tension', 'tensión', 'conflict', 'status', 'estado', 'resolution', 'resolución')
+          hits = []
+          def walk(x, path='$'):
+              if isinstance(x, dict):
+                  dump = json.dumps(x, ensure_ascii=False).lower()
+                  keys = ' '.join(str(k).lower() for k in x)
+                  if any(n in dump for n in needles) and any(s in keys or s in dump for s in signal_keys):
+                      hits.append((path, json.dumps(x, ensure_ascii=False)))
+                  for k, v in x.items():
+                      walk(v, f'{path}.{k}')
+              elif isinstance(x, list):
+                  for i, v in enumerate(x):
+                      walk(v, f'{path}[{i}]')
+          walk(mapa)
+          print('MAP_ROOT_KEYS:', list(mapa) if isinstance(mapa, dict) else type(mapa).__name__)
+          print('MAP_RELEVANT_HITS:', len(hits))
+          for path, blob in hits[:40]:
+              print('MAP_HIT', path, blob[:3500])
+
+          # Reporte material de cambios para revisión posterior.
+          print('SOURCE_CHARS:', len(src.read_text(encoding='utf-8')))
+          print('NORMALIZED_CHARS:', len(text))
+          print('REMAINING_EM_DASHES:', text.count('—'))
+          for i, line in enumerate(text.splitlines(), 1):
+              if '—' in line:
+                  print(f'DASH_LINE {i}: {line[:1200]}')
+
+      - name: Guardar edición y retirar el flujo temporal
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/tmp-normalizar-caos-cap1.yml
+          git add 'corpus/normalización/caos/capitulo-01.md'
+          git commit -m '[MANT][NORMALIZACION] Normalizar capítulo 1 de Caos'
+          git push
