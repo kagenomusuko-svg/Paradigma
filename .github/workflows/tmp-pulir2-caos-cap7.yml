@@ -1,0 +1,91 @@
+name: Reintentar pulido de Caos capítulo 7
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp-pulir2-caos-cap7.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  pulir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Aplicar pulido final y validar
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+          p=Path('corpus/normalización/caos/capitulo-07.md')
+          t=p.read_text(encoding='utf-8')
+          reps=[
+            ('derive de alguna impresión —alguna experiencia sensorial o introspectiva que la fundamente.','derive de alguna impresión: alguna experiencia sensorial o introspectiva que la fundamente.'),
+            ('un evento precede a otro —que hay conjunción en el tiempo.','un evento precede a otro, es decir, que hay conjunción en el tiempo.'),
+            ('al dominio de la experiencia posible —al mundo fenoménico.','al dominio de la experiencia posible, es decir, al mundo fenoménico.'),
+            ('sino específicamente la primera mediación —la orientación intencional de la voluntad hacia un objeto representado.','sino específicamente la primera mediación: la orientación intencional de la voluntad hacia un objeto representado.'),
+            ('el ego es la condición sine qua non del acto humano —del colapso producido por la doble mediación.','el ego es la condición sine qua non del acto humano: del colapso producido por la doble mediación.'),
+            ('A es la condición sine qua non de *este* daño —el daño que produjo específicamente A, con su primera mediación específica.','A es la condición sine qua non de *este* daño: el daño que produjo específicamente A, con su primera mediación específica.'),
+            ('Las circunstancias que condicionan el campo no tienen intencionalidad —no se orientan hacia objetos representados como fines, no deliberan sobre sus respuestas, no pueden ser interpeladas después del acto como agentes que se comprometieron con él.','Las circunstancias que condicionan el campo no tienen intencionalidad: no se orientan hacia objetos representados como fines, no deliberan sobre sus respuestas, no pueden ser interpeladas después del acto como agentes que se comprometieron con él.'),
+            ('el tipo de condición que el mundo aporta —la modificación del campo.','el tipo de condición que el mundo aporta: la modificación del campo.'),
+            ('La responsabilidad no es solo un concepto descriptivo —la atribución retrospectiva de una causa.','La responsabilidad no es solo un concepto descriptivo: la atribución retrospectiva de una causa.'),
+            ('hacia quienes reconocemos como agentes —como seres que actúan desde motivos y que pueden ser interpelados en respuesta a sus actos.','hacia quienes reconocemos como agentes, como seres que actúan desde motivos y que pueden ser interpelados en respuesta a sus actos.'),
+            ('no puede limitarse a los casos claros —el adulto en pleno ejercicio de sus capacidades que actúa deliberadamente y produce un resultado previsible.','no puede limitarse a los casos claros, como el adulto en pleno ejercicio de sus capacidades que actúa deliberadamente y produce un resultado previsible.'),
+            ('Si la respuesta es no, no hay ego responsable —hay accidente que debe ser tratado, no imputado.','Si la respuesta es no, no hay ego responsable; hay accidente que debe ser tratado, no imputado.'),
+            ('una causalidad de agente ontológicamente especial —que sería difícil de defender frente a la objeción de que introduce entidades causales sin base física.','una causalidad de agente ontológicamente especial, que sería difícil de defender frente a la objeción de que introduce entidades causales sin base física.'),
+            ('esos cuatro niveles no se contradicen, sino que se necesitan —que el ego completo es la integración de los cuatro simultáneamente, operando en el eterno presente del colapso.','esos cuatro niveles no se contradicen, sino que se necesitan: el ego completo es la integración de los cuatro simultáneamente, operando en el eterno presente del colapso.'),
+            ('Aquí se acumula la historia del ego —el patrón de determinaciones que el ego ha producido a lo largo de su vida, las disposiciones incorporadas, la tendencia de la curva, el modo en que la segunda mediación ha integrado cada acto a la función del sujeto.','Aquí se acumula la historia del ego: el patrón de determinaciones que el ego ha producido a lo largo de su vida, las disposiciones incorporadas, la tendencia de la curva, el modo en que la segunda mediación ha integrado cada acto a la función del sujeto.'),
+            ('El ego que vive es siempre una pregunta en curso —una función abierta que tiende al infinito en el número de sus colapsos posibles, siempre incompleta, siempre pendiente del próximo acto.','El ego que vive es siempre una pregunta en curso: una función abierta que tiende al infinito en el número de sus colapsos posibles, siempre incompleta, siempre pendiente del próximo acto.'),
+            ('El sujeto existe parmenídicamente —simplemente es, sin origen que tenga que justificar.','El sujeto existe parmenídicamente: simplemente es, sin origen que tenga que justificar.'),
+            ('El caos es la condición hesiódica de todo colapso —el infinito fértil que precede a toda forma.','El caos es la condición hesiódica de todo colapso: el infinito fértil que precede a toda forma.'),
+            ('el ego no es simplemente el sujeto modificado por sus circunstancias —es algo genuinamente nuevo que emerge del encuentro entre el sujeto y el caos del mundo.','el ego no es simplemente el sujeto modificado por sus circunstancias; es algo genuinamente nuevo que emerge del encuentro entre el sujeto y el caos del mundo.'),
+            ('El ego es el infinito que se atreve a determinarse —el caos que acepta tener forma, temporalmente, en el eterno presente del colapso, sabiendo que la forma es siempre provisional, siempre incompleta mientras el sujeto vive, siempre abierta al próximo colapso que la modificará.','El ego es el infinito que se atreve a determinarse: el caos que acepta tener forma, temporalmente, en el eterno presente del colapso, sabiendo que la forma es siempre provisional, siempre incompleta mientras el sujeto vive, siempre abierta al próximo colapso que la modificará.'),
+            ('Pero el vértigo no es el final de la descripción —es su comienzo.','Pero el vértigo no es el final de la descripción; es su comienzo.'),
+            ('La libertad no es la ausencia de causas — es la actuación desde los propios motivos, deseos y carácter sin coerción externa.','La libertad no es la ausencia de causas: es la actuación desde los propios motivos, deseos y carácter sin coerción externa.'),
+            ('La necesidad no es compulsión externa —es la determinación de los actos por los motivos internos del agente.','La necesidad no es compulsión externa: es la determinación de los actos por los motivos internos del agente.'),
+            ('y la perspectiva objetiva —desde la que tratamos al sujeto como un sistema que debe ser manejado.','y la perspectiva objetiva, desde la que tratamos al sujeto como un sistema que debe ser manejado.'),
+            ('ante quienes no son (o temporalmente no son) agentes plenos —el enfermo mental grave, el niño pequeño, quien actúa bajo coacción extrema.','ante quienes no son (o temporalmente no son) agentes plenos: el enfermo mental grave, el niño pequeño, quien actúa bajo coacción extrema.'),
+            ('el ser simplemente es —no puede no ser, no puede provenir del no ser, no puede retornar al no ser.','el ser simplemente es; no puede no ser, no puede provenir del no ser, no puede retornar al no ser.'),
+            ('el sujeto que existe antes del primer colapso es parte del ser —existe parmenídicamente, sin origen que tenga que justificar.','el sujeto que existe antes del primer colapso es parte del ser: existe parmenídicamente, sin origen que tenga que justificar.'),
+            ('El ego, en cambio, es el ser que se determina —que emerge del contacto del sujeto con el mundo a través de la doble mediación.','El ego, en cambio, es el ser que se determina, que emerge del contacto del sujeto con el mundo a través de la doble mediación.'),
+            ('y parmenídeo en su condición —el sujeto que persiste como punto de partida de cada nuevo colapso.','y parmenídeo en su condición: el sujeto que persiste como punto de partida de cada nuevo colapso.'),
+            ('el infinito que acepta tener forma —temporalmente, en el eterno presente del colapso, hasta que la integral se cierre en la muerte y el ego finalmente sea todo lo que fue.','el infinito que acepta tener forma, temporalmente, en el eterno presente del colapso, hasta que la integral se cierre en la muerte y el ego finalmente sea todo lo que fue.'),
+            ('y desesperación de desafío —el yo que se niega a ser sí mismo tal como es, que quiere ser diferente de lo que es.','y desesperación de desafío: el yo que se niega a ser sí mismo tal como es, que quiere ser diferente de lo que es.'),
+            ('La antítesis de la desesperación es la fe —no en el sentido confesional necesariamente, sino en el sentido de la aceptación de sí mismo como ser que depende de algo que lo trasciende.','La antítesis de la desesperación es la fe, no necesariamente en el sentido confesional, sino en el sentido de la aceptación de sí mismo como ser que depende de algo que lo trasciende.'),
+            ('la negativa a integrar la propia integral —la resistencia a que los colapsos propios sean constitutivos de lo que uno es.','la negativa a integrar la propia integral: la resistencia a que los colapsos propios sean constitutivos de lo que uno es.'),
+            ('y el «infinito» —la trascendencia del otro que no puede ser asimilada a ningún sistema.','y el «infinito»: la trascendencia del otro que no puede ser asimilada a ningún sistema.'),
+          ]
+          for a,b in reps: t=t.replace(a,b)
+          t=re.sub(r'(mecanismo interno del agente)\s*—\s*por la capacidad',r'\1: por la capacidad',t)
+          t=t.replace('deceptivamente simple','engañosamente simple')
+          t=t.replace('test but-for','test *but for*')
+          t=re.sub(r'\s+([,.;:?!])',r'\1',t)
+          t=re.sub(r'[ \t]{2,}',' ',t)
+          dash=[]
+          for i,line in enumerate(t.splitlines(),1):
+              if '—' in line and not line.startswith('«No necesito demostrar que el universo tiene causas. Solo necesito demostrar que tú eres la causa de tus actos.» —Miguel Hilario Olvera Aguilar'):
+                  dash.append((i,line))
+          refs=[int(x) for x in re.findall(r'href="#fn-main-(\d+)"',t)]
+          notes=[int(x) for x in re.findall(r'<a id="fn-main-(\d+)"></a>',t)]
+          print('UNRESOLVED_DASH_LINES',len(dash))
+          for i,line in dash: print(f'DASH {i}: {line[:1600]}')
+          print('MISSING_REFERENCED_NOTES',sorted(set(refs)-set(notes)))
+          print('ORPHAN_NOTES',sorted(set(notes)-set(refs)))
+          print('MISSING_156_176',[n for n in range(156,177) if n not in notes])
+          print('EM_DASHES',t.count('—'),'EN_DASHES',t.count('–'))
+          if dash: raise SystemExit('Quedaron rayas de prosa sin resolver.')
+          if sorted(set(refs)-set(notes)) or sorted(set(notes)-set(refs)) or [n for n in range(156,177) if n not in notes]: raise SystemExit('Auditoría de notas falló.')
+          if '–' in t or '�' in t or '□' in t: raise SystemExit('Persisten caracteres prohibidos o corruptos.')
+          p.write_text(t,encoding='utf-8')
+      - name: Guardar pulido y retirar flujos temporales
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/tmp-pulir-caos-cap7.yml .github/workflows/tmp-pulir2-caos-cap7.yml
+          git add 'corpus/normalización/caos/capitulo-07.md'
+          git commit -m '[MANT][NORMALIZACION] Pulir ortotipografía de Caos capítulo 7'
+          git push
