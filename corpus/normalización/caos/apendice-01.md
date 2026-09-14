@@ -22,7 +22,7 @@ La respuesta definitiva fue dada por Karl Weierstrass en sus cursos en Berlín d
 
 #### 1.2 La definición ε-δ
 
-Sea *f* una función real definida en un subconjunto del eje real que contiene un entorno perforado del punto x₀ (es decir, definida para todos los x suficientemente cercanos a x₀, quizás excepto para x₀ mismo). Decimos que el **límite de** *f***(**x**) cuando** x **tiende a** x₀ **es** L, y escribimos:
+Sea *f* una función real definida en un subconjunto del eje real que contiene un entorno perforado del punto x₀ (es decir, definida para todos los x suficientemente cercanos a x₀, quizás excepto para x₀ mismo). Decimos que el límite de f(x) cuando x tiende a x₀ es L, y escribimos:
 
 lim_{x → x₀} f(x) = L
 
@@ -60,7 +60,7 @@ Consideremos la función más sencilla que ilustra la separación entre el lími
 
 f(x) = x² para x ≠ 0, y f(0) = 17.
 
-¿Cuál es el límite de f cuando x tiende a 0? La respuesta es 0, no 17. Para cualquier ε > 0, basta tomar δ = √ε: si |x| < δ entonces |f(x) − 0| = |x²| = x² < δ² = ε. El límite existe y vale 0, aunque la función en el punto mismo valga 17. La función es "discontinua" en x = 0 en el sentido de que el límite no coincide con el valor.
+¿Cuál es el límite de f cuando x tiende a 0? La respuesta es 0, no 17. Para cualquier ε > 0, basta tomar δ = √ε: si |x| < δ entonces |f(x) − 0| = |x²| = x² < δ² = ε. El límite existe y vale 0, aunque la función en el punto mismo valga 17. La función es «discontinua» en x = 0 en el sentido de que el límite no coincide con el valor.
 
 Un segundo ejemplo ilumina el caso de un límite que no existe. La función de Dirichlet:
 
@@ -88,7 +88,7 @@ La continuidad es la condición donde pasado y presente son coherentes: donde la
 
 #### 2.1 El problema del infinito antes de Cantor
 
-Hasta el siglo XIX, el infinito matemático era una fuente de paradojas que los matemáticos preferían evitar. Zenón había mostrado que si el espacio y el tiempo son infinitamente divisibles, el movimiento parece imposible. Galileo había observado que los cuadrados perfectos (1, 4, 9, 16, 25,...) parecen ser «menos» que los naturales, y sin embargo pueden ponerse en correspondencia biunívoca con ellos (1↔1, 2↔4, 3↔9,...). El infinito parecía violar las reglas de la aritmética ordinaria: el todo y la parte podían ser «del mismo tamaño».
+Hasta el siglo XIX, el infinito matemático era una fuente de paradojas que los matemáticos preferían evitar. Zenón había mostrado que si el espacio y el tiempo son infinitamente divisibles, el movimiento parece imposible. Galileo había observado que los cuadrados perfectos (1, 4, 9, 16, 25, ...) parecen ser «menos» que los naturales, y sin embargo pueden ponerse en correspondencia biunívoca con ellos (1↔1, 2↔4, 3↔9, ...). El infinito parecía violar las reglas de la aritmética ordinaria: el todo y la parte podían ser «del mismo tamaño».
 
 La resolución de estas paradojas requería redefinir qué significa que dos conjuntos tengan «el mismo tamaño». Georg Cantor ofreció esa redefinición.<sup id="fnref-app-5"><a href="#fn-app-5">5</a></sup> Dos conjuntos tienen la misma cardinalidad si y solo si puede establecerse entre ellos una correspondencia biunívoca, una función que asigna a cada elemento de uno exactamente un elemento del otro, sin repeticiones ni omisiones. La «misma cantidad de elementos» no requiere ningún número: solo la existencia de la función de correspondencia. Esta definición hace precisas las observaciones de Galileo: los naturales y los cuadrados perfectos tienen la misma cardinalidad, aunque los cuadrados sean un subconjunto propio de los naturales. En el infinito, la parte puede tener la misma cardinalidad que el todo.
 
@@ -98,7 +98,7 @@ El primer resultado profundo de Cantor es que hay dos tipos fundamentalmente dis
 
 ##### DEFINICIÓN 3 (CONJUNTO NUMERABLE)
 
-Un conjunto A es numerable si existe una biyección f: ℕ → A, es decir, si sus elementos pueden enumerarse en una sucesión a₁, a₂, a₃,... Los conjuntos numerables son «tan grandes como» los naturales, pues pueden indexarse por los naturales. Los naturales ℕ mismos son numerables (trivialmente). Los enteros ℤ son numerables, aunque contengan a los naturales como subconjunto propio: la enumeración 0, 1, −1, 2, −2, 3, −3,... recorre todos los enteros. Los racionales ℚ son numerables, aunque entre cualquier dos racionales haya infinitos racionales: la enumeración diagonal de Cantor los ordena en una sucesión que pasa por todos ellos.
+Un conjunto A es numerable si existe una biyección f: ℕ → A, es decir, si sus elementos pueden enumerarse en una sucesión a₁, a₂, a₃, ... Los conjuntos numerables son «tan grandes como» los naturales, pues pueden indexarse por los naturales. Los naturales ℕ mismos son numerables (trivialmente). Los enteros ℤ son numerables, aunque contengan a los naturales como subconjunto propio: la enumeración 0, 1, −1, 2, −2, 3, −3, ... recorre todos los enteros. Los racionales ℚ son numerables, aunque entre cualquier dos racionales haya infinitos racionales: la enumeración diagonal de Cantor los ordena en una sucesión que pasa por todos ellos.
 
 El resultado crucial es que los números reales no son numerables:
 
@@ -132,7 +132,7 @@ Es decir: el n-ésimo dígito de d difiere del n-ésimo dígito de rₙ, para ca
 
 Pero d es un número real en [0,1], y la lista pretendía contener todos los reales de [0,1]. Contradicción. La suposición de que los reales son numerables es falsa.<sup id="fnref-app-6"><a href="#fn-app-6">6</a></sup>
 
-El argumento diagonal es un colapso en el sentido exacto del libro. La lista r₁, r₂, r₃,... es el intento de enumerar todo el infinito de lo real. El número d es la determinación que emerge de la colisión entre esa enumeración y la estructura diagonal: el colapso que la enumeración produce en sí misma al aplicarse a su propia estructura. Y el resultado del colapso (d) es necesariamente externo a la enumeración: el proceso de determinación produce siempre algo que excede al proceso mismo.
+El argumento diagonal es un colapso en el sentido exacto del libro. La lista r₁, r₂, r₃, ... es el intento de enumerar todo el infinito de lo real. El número d es la determinación que emerge de la colisión entre esa enumeración y la estructura diagonal: el colapso que la enumeración produce en sí misma al aplicarse a su propia estructura. Y el resultado del colapso (d) es necesariamente externo a la enumeración: el proceso de determinación produce siempre algo que excede al proceso mismo.
 
 #### 2.3 La jerarquía del infinito
 
@@ -188,11 +188,7 @@ La integral de Riemann de una función continua f: [a, b] → ℝ se define como
 
 ##### DEFINICIÓN 4 (INTEGRAL DE RIEMANN)
 
-Para una partición P = {a = x₀ < x₁ < … < xₙ
-
-= b} y puntos de muestra cᵢ ∈ [xᵢ₋₁, xᵢ], la suma
-
-de Riemann es:
+Para una partición P = {a = x₀ < x₁ < … < xₙ = b} y puntos de muestra cᵢ ∈ [xᵢ₋₁, xᵢ], la suma de Riemann es:
 
 S(f, P) = Σᵢ f(cᵢ) · (xᵢ − xᵢ₋₁)
 
@@ -232,15 +228,13 @@ La noción de punto de acumulación es uno de los conceptos más importantes y m
 
 ##### DEFINICIÓN 5 (PUNTO DE ACUMULACIÓN)
 
-Sea A un subconjunto de ℝ. Un punto p ∈ ℝ
-
-es un punto de acumulación (o punto límite) de A si y solo si todo entorno abierto de p contiene al menos un punto de A distinto de p:
+Sea A un subconjunto de ℝ. Un punto p ∈ ℝ es un punto de acumulación (o punto límite) de A si y solo si todo entorno abierto de p contiene al menos un punto de A distinto de p:
 
 Para todo ε > 0: (p − ε, p + ε) ∩ (A \ {p}) ≠ ∅
 
 Un punto de acumulación de A no necesita pertenecer a A: es simplemente un punto en cuya vecindad existen siempre puntos de A, por pequeña que sea esa vecindad. Los puntos de acumulación de A forman el conjunto derivado A' de A. Si A = A' (el conjunto es igual a su conjunto derivado), el conjunto se llama *perfecto*.<sup id="fnref-app-10"><a href="#fn-app-10">10</a></sup>
 
-Ejemplos: Los puntos de acumulación de los racionales ℚ son todos los reales ℝ: todo real puede aproximarse por racionales arbitrariamente bien. Los puntos de acumulación del conjunto {1/n: n ∈ ℕ} = {1, 1/2, 1/3, 1/4,...} son simplemente {0}: el único punto en cuya vecindad siempre hay infinitos elementos del conjunto.
+Ejemplos: Los puntos de acumulación de los racionales ℚ son todos los reales ℝ: todo real puede aproximarse por racionales arbitrariamente bien. Los puntos de acumulación del conjunto {1/n: n ∈ ℕ} = {1, 1/2, 1/3, 1/4, ...} son simplemente {0}: el único punto en cuya vecindad siempre hay infinitos elementos del conjunto.
 
 #### 4.2 El teorema de Bolzano-Weierstrass
 
@@ -248,9 +242,7 @@ El teorema más importante sobre los puntos de acumulación es el de Bolzano-Wei
 
 ##### TEOREMA 3 (BOLZANO-WEIERSTRASS)
 
-Toda sucesión acotada de números reales tiene al menos un punto de acumulación. Equivalentemente: toda sucesión acotada tiene al menos una subsucesión convergente. La demostración usa el principio de bisección iterado.<sup id="fnref-app-11"><a href="#fn-app-11">11</a></sup> La idea es simple: si la sucesión {xₙ} está acotada en el intervalo [a, b], dividimos [a, b] en dos mitades iguales. Al menos una de las mitades debe contener infinitos términos de la sucesión (si no, la sucesión tendría solo finitos términos, contradicción). Llamemos I₁ a esa mitad. Repetimos: dividimos I₁ en dos mitades, al menos una contiene infinitos términos de la sucesión, llamémosla I₂. Continuamos produciendo una cadena de intervalos
-
-anidados I₁ ⊇ I₂ ⊇ I₃ ⊇... cuyas longitudes tienden a cero.
+Toda sucesión acotada de números reales tiene al menos un punto de acumulación. Equivalentemente: toda sucesión acotada tiene al menos una subsucesión convergente. La demostración usa el principio de bisección iterado.<sup id="fnref-app-11"><a href="#fn-app-11">11</a></sup> La idea es simple: si la sucesión {xₙ} está acotada en el intervalo [a, b], dividimos [a, b] en dos mitades iguales. Al menos una de las mitades debe contener infinitos términos de la sucesión (si no, la sucesión tendría solo finitos términos, contradicción). Llamemos I₁ a esa mitad. Repetimos: dividimos I₁ en dos mitades, al menos una contiene infinitos términos de la sucesión, llamémosla I₂. Continuamos produciendo una cadena de intervalos anidados I₁ ⊇ I₂ ⊇ I₃ ⊇ ... cuyas longitudes tienden a cero.
 
 Por el principio de completitud de los reales, existe exactamente un punto p en la intersección ∩ₙ Iₙ. Ese punto p es el punto de acumulación: para cualquier ε > 0, el intervalo (p − ε, p + ε) contiene al Iₙ con n suficientemente grande, que a su vez contiene infinitos términos de la sucesión.
 
@@ -260,17 +252,13 @@ El teorema de Bolzano-Weierstrass garantiza que el colapso siempre tiene destino
 
 El conjunto de Cantor es la construcción matemática más elegante para ilustrar la topología del colapso. Se construye mediante el siguiente proceso iterativo:
 
-Comienza con el intervalo [0, 1]. En el primer paso,
-
-retira el tercio central abierto (1/3, 2/3): quedan [0, 1/3] ∪
-
-[2/3, 1]. En el segundo paso, retira el tercio central de cada uno de los dos intervalos restantes: quedan cuatro intervalos. En el n-ésimo paso quedan 2ⁿ intervalos, cada uno de longitud 3⁻ⁿ. El conjunto de Cantor C es lo que queda después de infinitos pasos: la intersección de todas las etapas.
+Comienza con el intervalo [0, 1]. En el primer paso, retira el tercio central abierto (1/3, 2/3): quedan [0, 1/3] ∪ [2/3, 1]. En el segundo paso, retira el tercio central de cada uno de los dos intervalos restantes: quedan cuatro intervalos. En el n-ésimo paso quedan 2ⁿ intervalos, cada uno de longitud 3⁻ⁿ. El conjunto de Cantor C es lo que queda después de infinitos pasos: la intersección de todas las etapas.
 
 C = [0,1] \ ∪_{k} I_k
 
 donde los Iₖ son todos los tercios centrales retirados en todos los pasos. El conjunto de Cantor tiene propiedades que parecen paradójicas pero que son rigurosamente demostrables:
 
-(1) C tiene medida cero: la suma de las longitudes de los intervalos retirados es 1/3 + 2/9 + 4/27 +... = (1/3) · 1/(1 − 2/3) = 1. Se retira «todo» el intervalo.
+(1) C tiene medida cero: la suma de las longitudes de los intervalos retirados es 1/3 + 2/9 + 4/27 + ... = (1/3) · 1/(1 − 2/3) = 1. Se retira «todo» el intervalo.
 
 (2) C es no numerable: tiene la misma cardinalidad que los reales. Cada punto de C puede identificarse con una sucesión binaria que registra si estuvo en la mitad izquierda o derecha en cada paso del proceso de construcción.
 
@@ -330,17 +318,17 @@ El lector matemático encontrará, esperamos, que estas conexiones no fuerzan lo
 
 <a id="fn-app-3"></a><sup>3</sup> La función de Dirichlet, definida por D(x) = 1 si x es racional y D(x) = 0 si x es irracional, es el ejemplo estándar de una función sin límite en ningún punto. Como los racionales y los irracionales son ambos densos en los reales (entre cualquier dos números hay tanto un racional como un irracional), para cualquier punto x₀ y cualquier δ > 0, el intervalo (x₀ - δ, x₀ + δ) contiene tanto valores donde D vale 1 como valores donde D vale 0. Por tanto no puede haber ningún L tal que |D(x) - L| < ε para todo ε > 0 cuando x está en ese intervalo. La función de Dirichlet es el caso de un «sujeto» cuya función no converge: cada punto es una indeterminación perpetua, sin colapso posible.
 
-<a id="fn-app-4"></a><sup>4</sup> La definición de continuidad ε-δ, en paralelo con la definición de límite, dice: f es continua en x₀ si y solo si para todo ε > 0 existe δ > 0 tal que para todo x en el dominio, si |x - x₀| < δ entonces |f(x) - f(x₀)| < ε. La diferencia crucial entre continuidad y existencia del límite es que la continuidad requiere además que el límite en x₀ sea igual al valor de la función en x₀: lim_{x→x₀} f(x) = f(x₀). Una función puede tener límite en un punto sin ser continua allí (si el valor de la función en el punto es distinto del límite), y también puede ser continua en un punto sin que el punto esté en el dominio (en cuyo caso la continuidad en ese punto no tiene sentido). La continuidad es el caso donde el "colapso" y el "valor actual" coinciden: donde el ego que emerge de la integral de sus colapsos pasados es consistente con el colapso que está ocurriendo ahora.
+<a id="fn-app-4"></a><sup>4</sup> La definición de continuidad ε-δ, en paralelo con la definición de límite, dice: f es continua en x₀ si y solo si para todo ε > 0 existe δ > 0 tal que para todo x en el dominio, si |x - x₀| < δ entonces |f(x) - f(x₀)| < ε. La diferencia crucial entre continuidad y existencia del límite es que la continuidad requiere además que el límite en x₀ sea igual al valor de la función en x₀: lim_{x→x₀} f(x) = f(x₀). Una función puede tener límite en un punto sin ser continua allí (si el valor de la función en el punto es distinto del límite), y también puede ser continua en un punto sin que el punto esté en el dominio (en cuyo caso la continuidad en ese punto no tiene sentido). La continuidad es el caso donde el «colapso» y el «valor actual» coinciden: donde el ego que emerge de la integral de sus colapsos pasados es consistente con el colapso que está ocurriendo ahora.
 
 <a id="fn-app-5"></a><sup>5</sup> Cantor, Georg. «Über eine Eigenschaft des Inbegriffes aller reellen algebraischen Zahlen» (1874). Este es el artículo donde Cantor demostró por primera vez que el conjunto de los números algebraicos (raíces de polinomios con coeficientes enteros) es numerable, y que por tanto los números trascendentes deben existir; de hecho, deben ser «la mayoría» en algún sentido preciso. La demostración usa un argumento de enumeración y completitud que anticipa el argumento diagonal, aunque la forma diagonal explícita aparece en el artículo de 1891. El artículo de 1874 es notable porque la existencia de números trascendentes ya era conocida (Liouville había construido uno en 1844; Hermite había demostrado que e era trascendente en 1873), pero Cantor demostró que los trascendentes son «más» que los algebraicos en el sentido preciso de la cardinalidad.
 
-<a id="fn-app-6"></a><sup>6</sup> Cantor, Georg. «Über eine elementare Frage der Mannigfaltigkeitslehre» (1891). Este breve artículo, de apenas tres páginas, contiene el argumento diagonal en su forma más pura y general. Cantor demuestra que para cualquier conjunto M, el conjunto de todas las funciones de M en {0, 1} (equivalentemente, el conjunto de todos los subconjuntos de M) tiene cardinalidad estrictamente mayor que M. La demostración es constructiva: dado cualquier intento de enumerar las funciones f₁, f₂, f₃,..., construye una función g que difiere de fₙ en el n-ésimo lugar de la evaluación. La función g no puede estar en la enumeración, contradicción. El argumento diagonal es uno de los resultados matemáticos más profundos y más influyentes de los últimos dos siglos: ha encontrado aplicaciones en lógica (teorema de incompletitud de Gödel), computación (teorema de indecidibilidad de Turing), teoría de conjuntos, y (como este apéndice argumenta) en la filosofía del sujeto.
+<a id="fn-app-6"></a><sup>6</sup> Cantor, Georg. «Über eine elementare Frage der Mannigfaltigkeitslehre» (1891). Este breve artículo, de apenas tres páginas, contiene el argumento diagonal en su forma más pura y general. Cantor demuestra que para cualquier conjunto M, el conjunto de todas las funciones de M en {0, 1} (equivalentemente, el conjunto de todos los subconjuntos de M) tiene cardinalidad estrictamente mayor que M. La demostración es constructiva: dado cualquier intento de enumerar las funciones f₁, f₂, f₃, ..., construye una función g que difiere de fₙ en el n-ésimo lugar de la evaluación. La función g no puede estar en la enumeración, contradicción. El argumento diagonal es uno de los resultados matemáticos más profundos y más influyentes de los últimos dos siglos: ha encontrado aplicaciones en lógica (teorema de incompletitud de Gödel), computación (teorema de indecidibilidad de Turing), teoría de conjuntos, y (como este apéndice argumenta) en la filosofía del sujeto.
 
 <a id="fn-app-7"></a><sup>7</sup> Cantor publicó sus resultados sobre la cardinalidad de los números reales en «Über eine Eigenschaft des Inbegriffes aller reellen algebraischen Zahlen» (1874) y los desarrolló en «Beiträge zur Begründung der transfiniten Mengenlehre» (1895-1897). La hipótesis del continuo (la conjetura de que no hay cardinalidad entre ℵ₀ y |ℝ| = 2^{ℵ₀}) fue el primer problema de la lista de Hilbert (1900). Gödel demostró en 1940 que la hipótesis del continuo es consistente con los axiomas ZF (no puede refutarse), y Cohen demostró en 1963 que su negación también es consistente (no puede demostrarse). La hipótesis del continuo es por tanto independiente de los axiomas estándar de la teoría de conjuntos: es una cuestión que los axiomas de ZFC no determinan. Desde la perspectiva del argumento de este apéndice: el espacio entre ℵ₀ y 2^{ℵ₀} es un «caos» en el sentido de este libro, un espacio de posibilidad cuya determinación los axiomas no alcanzan.
 
 <a id="fn-app-8"></a><sup>8</sup> Poincaré, Henri. «La valeur de la science» (1905) y «Science et méthode» (1908). Poincaré fue el matemático que más profundamente reflexionó sobre la naturaleza del infinito matemático desde una perspectiva filosófica. Su intuicionismo (la posición de que las entidades matemáticas solo existen si pueden ser construidas en un número finito de pasos) lo llevó a rechazar el infinito actual de Cantor como matemáticamente ilegítimo. Para Poincaré, hablar de «el conjunto de todos los números reales» como un objeto completado era una confusión categorial: el infinito es un proceso, no un objeto. Esta posición (que el apéndice trata de manera crítica aunque con respeto) captura algo genuino sobre la naturaleza del caos como posibilidad: el infinito del ego es infinito en el sentido de proceso (la integral nunca está completada en vida) aunque no en el sentido de objeto (el ego no es un conjunto infinito completo).
 
-<a id="fn-app-9"></a><sup>9</sup> La construcción de Cauchy de los números reales a través de sucesiones de Cauchy es equivalente a la de Dedekind a través de cortaduras, aunque conceptualmente diferente. Una sucesión de Cauchy es una sucesión {xₙ} tal que para todo ε > 0 existe N tal que para todo m, n > N se tiene |xₘ - xₙ| < ε: los términos de la sucesión se aproximan entre sí arbitrariamente al avanzar. Un número real puede definirse como una clase de equivalencia de sucesiones de Cauchy de racionales que "convergen al mismo punto". La completitud de los reales equivale entonces a la afirmación de que toda sucesión de Cauchy de reales converge a un real: el proceso de aproximación siempre tiene un límite. Las sucesiones de Cauchy son análogas a los colapsos del ego: cada término se "aproxima" al límite sin necesariamente alcanzarlo en ningún paso finito, y el límite (el ego que emerge de la integral de todos los colapsos) es el punto al que todos los colapsos pasados tienden.
+<a id="fn-app-9"></a><sup>9</sup> La construcción de Cauchy de los números reales a través de sucesiones de Cauchy es equivalente a la de Dedekind a través de cortaduras, aunque conceptualmente diferente. Una sucesión de Cauchy es una sucesión {xₙ} tal que para todo ε > 0 existe N tal que para todo m, n > N se tiene |xₘ - xₙ| < ε: los términos de la sucesión se aproximan entre sí arbitrariamente al avanzar. Un número real puede definirse como una clase de equivalencia de sucesiones de Cauchy de racionales que «convergen al mismo punto». La completitud de los reales equivale entonces a la afirmación de que toda sucesión de Cauchy de reales converge a un real: el proceso de aproximación siempre tiene un límite. Las sucesiones de Cauchy son análogas a los colapsos del ego: cada término se «aproxima» al límite sin necesariamente alcanzarlo en ningún paso finito, y el límite (el ego que emerge de la integral de todos los colapsos) es el punto al que todos los colapsos pasados tienden.
 
 <a id="fn-app-10"></a><sup>10</sup> El concepto de punto de acumulación (o punto límite) fue desarrollado por Weierstrass y Cantor de manera casi simultánea e independiente. Cantor lo llamó «Häufungspunkt» (punto de aglomeración) y lo utilizó como base de su teoría de conjuntos derivados: el conjunto derivado P' de un conjunto P es el conjunto de todos los puntos de acumulación de P. Iterando esta operación (tomando P'' = (P')', P''' = (P'')', etc.) Cantor desarrolló el concepto de los números ordinales transfinitos: los conjuntos derivados de orden infinito. El proceso de derivación termina cuando se alcanza un conjunto «perfecto», un conjunto que es igual a su propio derivado. Los conjuntos perfectos son los análogos matemáticos del ego que ha integrado completamente su historia: el conjunto que contiene todos sus propios puntos de acumulación, sin ningún punto límite externo.
 
