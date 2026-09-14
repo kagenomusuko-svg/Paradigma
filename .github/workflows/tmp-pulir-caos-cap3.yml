@@ -1,0 +1,116 @@
+name: Pulir temporalmente Caos capítulo 3
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tmp-pulir-caos-cap3.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  pulir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reparar notas 75-76 y resolver rayas residuales
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+
+          p = Path('corpus/normalización/caos/capitulo-03.md')
+          text = p.read_text(encoding='utf-8')
+
+          # El cuerpo cita Husserl como 75 y Heidegger como 76. La fuente perdió la nota
+          # husserliana y dejó la entrada de Heidegger mal numerada como 75.
+          text = text.replace(
+              '<sup>76</sup>',
+              '<sup id="fnref-main-76"><a href="#fn-main-76">76</a></sup>',
+              1
+          )
+
+          husserl_75 = (
+              '<a id="fn-main-75"></a><sup>75</sup> Husserl, Edmund. '
+              'Lecciones de fenomenología de la conciencia interna del tiempo (1904-1905, publicadas en 1928). '
+              'El análisis husserliano del tiempo distingue entre la «retención» (la conciencia del pasado inmediato que aún resuena en el presente), '
+              'el «punto-fuente» (el ahora vivo) y la «protención» (la anticipación del futuro inmediato que ya está presente como horizonte). '
+              'Esta estructura tripartita hace que el presente no sea un punto instantáneo sin extensión sino un «presente vivo» que incluye en sí mismo '
+              'el horizonte inmediato del pasado y el futuro. Para Husserl, la conciencia del tiempo no es la conciencia de tres momentos separados: '
+              'es la unidad de una estructura intencional que sintetiza pasado, presente y futuro en una experiencia única.'
+          )
+          marker = '<a id="fn-main-75"></a><sup>75</sup> Heidegger, Martin.'
+          if marker not in text:
+              raise SystemExit('No se encontró la nota 75 de Heidegger que debe renumerarse.')
+          text = text.replace(
+              marker,
+              husserl_75 + '\n\n<a id="fn-main-76"></a><sup>76</sup> Heidegger, Martin.',
+              1
+          )
+
+          lines = text.splitlines()
+          out = []
+          for line in lines:
+              if line.startswith('«Al principio existía el Caos.» —Hesíodo'):
+                  out.append(line)
+                  continue
+
+              # Sustituciones sintácticas conservadoras para rayas explicativas abiertas.
+              line = line.replace(' —y ', ', y ')
+              line = line.replace(' —aunque ', ', aunque ')
+              line = line.replace(' —pero ', '; pero ')
+              line = line.replace(' —porque ', ', porque ')
+              line = line.replace(' —como ', ', como ')
+              line = line.replace(' —o ', ', o ')
+              line = line.replace(' —solo ', '; solo ')
+              line = line.replace(' —hay ', '; hay ')
+              line = line.replace(' —no ', ': no ')
+              line = line.replace(' —es ', ': es ')
+              line = line.replace(' —se ', ': se ')
+              line = line.replace(' —el ', ': el ')
+              line = line.replace(' —la ', ': la ')
+              line = line.replace(' —los ', ': los ')
+              line = line.replace(' —las ', ': las ')
+              line = line.replace(' —un ', ': un ')
+              line = line.replace(' —una ', ': una ')
+              line = line.replace(' —que ', ', que ')
+              # Toda raya restante funciona en este capítulo como apertura explicativa.
+              line = line.replace(' —', ': ')
+              out.append(line)
+
+          text = '\n'.join(out).rstrip() + '\n'
+
+          # Auditoría final de referencias y signos.
+          refs = [int(x) for x in re.findall(r'href="#fn-main-(\d+)"', text)]
+          notes = [int(x) for x in re.findall(r'<a id="fn-main-(\d+)"></a>', text)]
+          missing = sorted(set(refs) - set(notes))
+          orphan = sorted(set(notes) - set(refs))
+          print('REFS_UNIQUE:', sorted(set(refs)))
+          print('NOTES:', notes)
+          print('MISSING_REFERENCED_NOTES:', missing)
+          print('ORPHAN_NOTES:', orphan)
+          print('REMAINING_EM_DASHES:', text.count('—'))
+          print('REMAINING_EN_DASHES:', text.count('–'))
+          print('REMAINING_BOX_GLYPHS:', text.count('□'))
+          print('REMAINING_REPLACEMENT_GLYPHS:', text.count('�'))
+          if missing or orphan:
+              raise SystemExit('La auditoría de notas no quedó consistente.')
+          if text.count('—') != 1:
+              raise SystemExit(f'Quedaron {text.count("—")} rayas; se esperaba solo la atribución del epígrafe.')
+          if '–' in text or '□' in text or '�' in text:
+              raise SystemExit('Quedaron caracteres prohibidos o corruptos.')
+
+          p.write_text(text, encoding='utf-8')
+
+      - name: Guardar y retirar flujo temporal
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/tmp-pulir-caos-cap3.yml
+          git add 'corpus/normalización/caos/capitulo-03.md'
+          git commit -m '[MANT][NORMALIZACION] Pulir ortotipografía de Caos capítulo 3'
+          git push
