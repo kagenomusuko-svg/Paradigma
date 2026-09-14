@@ -29,7 +29,7 @@ Lo que esquivaron es esto: la voluntad no comienza en el sujeto consciente. Comi
 
 Spinoza vio algo de esto cuando describió el *conatus*: la tendencia de toda cosa a perseverar en su ser. Nietzsche vio algo de esto cuando habló de la voluntad de poder como fuerza expansiva que no es exclusiva del ser humano sino del ser como tal. Pero ninguno de los dos construyó desde ese punto una ontología del sujeto que mostrara con precisión cómo esa fuerza primordial se transforma, a través de un mecanismo específico, en el ego que se autodetermina causalmente. Eso es lo que este libro intenta hacer.
 
-El punto de partida no es el sujeto. El punto de partida es el caos (el infinito de posibilidades anterior a toda determinación), y la pregunta que organiza todo el argumento es una sola: ¿cómo se llega desde el caos hasta el ego? La respuesta exige recorrer un camino que pasa por la determinación, por la pasión como fuerza ontológica, por las mediaciones que transforman al ser en sujeto y por el evento fundacional en que el sujeto se hace responsable de su propia causalidad por primera vez.
+El punto de partida no es el sujeto. El punto de partida es el caos (el infinito de posibilidades anterior a toda determinación), y la pregunta que organiza todo el argumento es una sola: ¿cómo se llega desde el caos hasta el ego? La respuesta exige recorrer un camino que pasa por la determinación, por la pasión como fuerza ontológica, por las mediaciones que transforman al ser en sujeto y por el evento fundacional en que el sujeto se hace responsable de su propia causalidad por primera vez.†
 
 ### III. Los interlocutores
 
@@ -49,7 +49,7 @@ Este libro forma parte de un sistema filosófico más amplio que se ha venido co
 
 *Caos, el abismo del ego y la doble mediación* estableció la arquitectura técnica del sistema: la ontología del caos como posibilidad infinita, el mecanismo del colapso ontológico y la fórmula de la doble mediación que constituye al sujeto como agente responsable. Ese libro es el cimiento formal sobre el cual este volumen construye.
 
-*El juego de las máscaras o la disforia de la identidad* exploró lo que ocurre cuando la identidad (el sesgo interpretativo del ego) deja de ser una herramienta y se convierte en el centro que sustituye al ego verdadero. *El dilema de Aquiles o la disociación del ego* analizó las condiciones bajo las cuales el ego se fragmenta y la dinámica de la egolatría entendida no como exceso de ego sino como su carencia.
+*El juego de las máscaras o la disforia de la identidad* exploró lo que ocurre cuando la identidad (el sesgo interpretativo del ego)‡ deja de ser una herramienta y se convierte en el centro que sustituye al ego verdadero. *El dilema de Aquiles o la disociación del ego* analizó las condiciones bajo las cuales el ego se fragmenta y la dinámica de la egolatría entendida no como exceso de ego sino como su carencia.
 
 Lo que este volumen aporta al sistema es el fundamento ontológico que los libros anteriores necesitaban, pero no construían explícitamente: la naturaleza de la pasión como fuerza que precede al sujeto consciente, la demostración de que la voluntad existe antes de la conciencia reflexiva y la genealogía del ego desde el caos hasta la primera autodeterminación.
 
@@ -72,6 +72,12 @@ Una advertencia final: este libro no termina donde termina la filosofía clásic
 Antes del pensamiento, la pasión. Antes del sujeto que reflexiona, el ser que quiere seguir siendo.
 
 Ese es el comienzo. Todo lo demás es consecuencia.
+
+### Notas editoriales
+
+† **Nota editorial.** Este volumen formula la responsabilidad desde la asunción de la propia causalidad. *Caos* había vinculado su fundamento al primer colapso y a la primera mediación. Esta edición conserva ambas formulaciones en su lugar histórico y no presupone que una sustituya a la otra.
+
+‡ **Nota editorial.** Aquí «identidad» designa el sesgo interpretativo del ego, conforme al uso de este volumen y de *El juego de las máscaras*. En *Caos*, «identidad» aparece también vinculada a la continuidad funcional del ego. Esta edición conserva esos usos diferenciados y no los trata como equivalentes.
 
 # Parte I
 
