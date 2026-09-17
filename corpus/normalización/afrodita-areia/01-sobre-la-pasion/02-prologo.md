@@ -17,7 +17,7 @@ Decir pienso, luego existo es decir que la existencia se deriva del pensamiento,
 
 A eso este libro llama pasión.
 
-La tesis central de este volumen puede formularse de manera simple, aunque sus implicaciones no lo son: existo porque la pasión me determina. No pienso y por eso existo. Existo porque hay en mí (y en todo lo que existe) una fuerza que empuja hacia la determinación, que resiste la disgregación, que quiere seguir siendo lo que es. El pensamiento es el producto tardío de esa fuerza. La razón llega después. La conciencia reflexiva, la estrategia, la deliberación: todo eso es posible porque la pasión ya estaba ahí, sosteniendo al ser antes de que el ser pudiera pensar sobre sí mismo.
+La tesis central de este volumen puede formularse de manera simple, aunque sus implicaciones no lo son: existo porque la pasión me determina. No pienso y por eso existo. Existo porque hay en mí, y en todo lo que existe, una fuerza que empuja hacia la determinación, que resiste la disgregación, que quiere seguir siendo lo que es. El pensamiento es el producto tardío de esa fuerza. La razón llega después. La conciencia reflexiva, la estrategia, la deliberación: todo eso es posible porque la pasión ya estaba ahí, sosteniendo al ser antes de que el ser pudiera pensar sobre sí mismo.
 
 Esta inversión del cogito no es un juego retórico. Es el gesto inaugural desde el cual este libro construye toda su arquitectura conceptual. Y ese gesto tiene consecuencias que se extienden mucho más allá de la crítica a Descartes: toca la manera en que entendemos la voluntad, el origen del sujeto, la naturaleza del ego y la relación entre el ser material y el ser que se autodetermina.
 
@@ -29,33 +29,33 @@ Lo que esquivaron es esto: la voluntad no comienza en el sujeto consciente. Comi
 
 Spinoza vio algo de esto cuando describió el *conatus*: la tendencia de toda cosa a perseverar en su ser. Nietzsche vio algo de esto cuando habló de la voluntad de poder como fuerza expansiva que no es exclusiva del ser humano sino del ser como tal. Pero ninguno de los dos construyó desde ese punto una ontología del sujeto que mostrara con precisión cómo esa fuerza primordial se transforma, a través de un mecanismo específico, en el ego que se autodetermina causalmente. Eso es lo que este libro intenta hacer.
 
-El punto de partida no es el sujeto. El punto de partida es el caos (el infinito de posibilidades anterior a toda determinación), y la pregunta que organiza todo el argumento es una sola: ¿cómo se llega desde el caos hasta el ego? La respuesta exige recorrer un camino que pasa por la determinación, por la pasión como fuerza ontológica, por las mediaciones que transforman al ser en sujeto y por el evento fundacional en que el sujeto se hace responsable de su propia causalidad por primera vez.†
+El punto de partida no es el sujeto. El punto de partida es el caos, el infinito de posibilidades anterior a toda determinación, y la pregunta que organiza todo el argumento es una sola: ¿cómo se llega desde el caos hasta el ego? La respuesta exige recorrer un camino que pasa por la determinación, por la pasión como fuerza ontológica, por las mediaciones que transforman al ser en sujeto y por el evento fundacional en que el sujeto se hace responsable de su propia causalidad por primera vez.
 
 ### III. Los interlocutores
 
 Este libro no trabaja en el vacío. Trabaja en diálogo con una tradición filosófica que ha pensado el sujeto, la voluntad y la determinación desde ángulos distintos, y que en sus mejores momentos ha abierto preguntas que este sistema intenta responder con mayor precisión.
 
-Descartes es el primer interlocutor, no por ser el más antiguo sino por ser el más urgente: su inversión del orden ontológico (pensamiento antes que ser) es el error que este libro tiene que deshacer desde el principio. El debate con Descartes no es una crítica histórica sino una disputa filosófica activa que recorre todo el argumento.
+Descartes es el primer interlocutor, no por ser el más antiguo sino por ser el más urgente: su inversión del orden ontológico, pensamiento antes que ser, es el error que este libro tiene que deshacer desde el principio. El debate con Descartes no es una crítica histórica, sino una disputa filosófica activa que recorre todo el argumento.
 
-Hume es el segundo interlocutor, y el más complejo. Complejo porque es simultáneamente el fundamento y el antagonista de este sistema. La causalidad humeana (no como necesidad metafísica sino como regularidad observada y tendencia material) es la base sobre la cual este libro construye su ontología del sujeto. Pero Hume usó esa misma base para disolver el yo: al inspeccionar sus propias operaciones mentales no encontraba ningún objeto llamado yo, sólo un flujo de percepciones particulares sin sustancia permanente detrás. Este libro acepta ese diagnóstico y lo invierte: precisamente porque el yo no es una sustancia sino una función acumulativa de actos asumidos, puede construirse desde la causalidad humeana sin necesitar ningún fundamento metafísico que la trascienda.
+Hume es el segundo interlocutor, y el más complejo. Complejo porque es simultáneamente el fundamento y el antagonista de este sistema. La causalidad humeana, no como necesidad metafísica sino como regularidad observada y tendencia material, es la base sobre la cual este libro construye su ontología del sujeto. Pero Hume usó esa misma base para disolver el yo: al inspeccionar sus propias operaciones mentales no encontraba ningún objeto llamado yo, sólo un flujo de percepciones particulares sin sustancia permanente detrás. Este libro acepta ese diagnóstico y lo invierte: precisamente porque el yo no es una sustancia sino una función acumulativa de actos asumidos, puede construirse desde la causalidad humeana sin necesitar ningún fundamento metafísico que la trascienda.
 
-Kant es el tercer interlocutor. Su yo trascendental (la condición formal de posibilidad de toda experiencia) es demasiado formal y demasiado presupuesto para servir de fundamento al sujeto concreto que actúa en el mundo. Lo que este libro añade a Kant es precisamente lo que le falta: la base material del sujeto y el mecanismo dinámico por el cual ese sujeto se constituye en el tiempo a través de sus actos.
+Kant es el tercer interlocutor. Su yo trascendental, la condición formal de posibilidad de toda experiencia, es demasiado formal y demasiado presupuesto para servir de fundamento al sujeto concreto que actúa en el mundo. Lo que este libro añade a Kant es precisamente lo que le falta: la base material del sujeto y el mecanismo dinámico por el cual ese sujeto se constituye en el tiempo a través de sus actos.
 
 Junto a estos tres, el argumento convoca a Spinoza y su *conatus*, a Nietzsche y su voluntad de poder, a Aristóteles y su distinción entre acto y potencia, a Hegel y su negativa a aceptar la inmediatez (todo existe a través de su mediación), a Merleau-Ponty y el cuerpo como primer modo de ser-en-el-mundo antes de toda reflexión, a Maturana y Varela sobre la autopoiesis, a Ricoeur y la identidad narrativa, a Sartre y la mala fe. Ninguno es tratado aquí como autoridad que avala el sistema: son interlocutores con los que el argumento debate, de los que toma lo que necesita y con los que discrepa cuando el sistema lo exige.
 
 ### IV. El sistema y sus libros
 
-Este libro forma parte de un sistema filosófico más amplio que se ha venido construyendo en volúmenes anteriores y que continuará en los que siguen. Conviene situar este volumen con precisión dentro de ese sistema para que el lector sepa exactamente qué esperar y qué no esperar de él.
+Este libro forma parte de un sistema filosófico más amplio. Conviene situarlo con precisión dentro de ese sistema para que el lector sepa exactamente qué esperar y qué no esperar de él.
 
 *Caos, el abismo del ego y la doble mediación* estableció la arquitectura técnica del sistema: la ontología del caos como posibilidad infinita, el mecanismo del colapso ontológico y la fórmula de la doble mediación que constituye al sujeto como agente responsable. Ese libro es el cimiento formal sobre el cual este volumen construye.
 
-*El juego de las máscaras o la disforia de la identidad* exploró lo que ocurre cuando la identidad (el sesgo interpretativo del ego)‡ deja de ser una herramienta y se convierte en el centro que sustituye al ego verdadero. *El dilema de Aquiles o la disociación del ego* analizó las condiciones bajo las cuales el ego se fragmenta y la dinámica de la egolatría entendida no como exceso de ego sino como su carencia.
+*El juego de las máscaras o la disforia de la identidad* exploró lo que ocurre cuando la identidad egoica, el sesgo interpretativo desde el que el sujeto se reconoce, deja de ser una herramienta y se convierte en el centro que sustituye al ego verdadero. *El dilema de Aquiles o la disociación del ego* analizó las condiciones bajo las cuales el ego se fragmenta y la dinámica de la egolatría entendida no como exceso de ego sino como su carencia.
 
-Lo que este volumen aporta al sistema es el fundamento ontológico que los libros anteriores necesitaban, pero no construían explícitamente: la naturaleza de la pasión como fuerza que precede al sujeto consciente, la demostración de que la voluntad existe antes de la conciencia reflexiva y la genealogía del ego desde el caos hasta la primera autodeterminación.
+Lo que este volumen aporta al sistema es el fundamento ontológico que esos desarrollos necesitaban, pero no construían explícitamente: la naturaleza de la pasión como fuerza que precede al sujeto consciente, la demostración de que la voluntad existe antes de la conciencia reflexiva y la genealogía del ego desde el caos hasta la primera autodeterminación.
 
 ### V. Una nota sobre el método
 
-Este libro hace ontología. No fenomenología, aunque recurre a fenomenólogos cuando sus observaciones son precisas. No psicología, aunque algunos de sus argumentos tienen implicaciones psicológicas directas. No metafísica en el sentido clásico, porque no postula ninguna sustancia, ninguna esencia, ningún principio que trascienda la realidad material. Lo que hace es preguntar por las condiciones ontológicas del ser y del sujeto desde una postura que podría describirse como naturalismo causal no reduccionista: acepta que todo lo que existe es material en algún sentido relevante, rechaza que eso signifique que todo puede reducirse a sus componentes físicos y usa la causalidad (en el sentido humeano de regularidad y tendencia) como el hilo que conecta todos los niveles del análisis.
+Este libro hace ontología. No fenomenología, aunque recurre a fenomenólogos cuando sus observaciones son precisas. No psicología, aunque algunos de sus argumentos tienen implicaciones psicológicas directas. No metafísica en el sentido clásico, porque no postula ninguna sustancia, ninguna esencia, ningún principio que trascienda la realidad material. Lo que hace es preguntar por las condiciones ontológicas del ser y del sujeto desde una postura que podría describirse como naturalismo causal no reduccionista: acepta que todo lo que existe es material en algún sentido relevante, rechaza que eso signifique que todo puede reducirse a sus componentes físicos y usa la causalidad, en el sentido humeano de regularidad y tendencia, como el hilo que conecta todos los niveles del análisis.
 
 La pasión es, en este sistema, una categoría ontológica antes que psicológica. Nombra la tendencia de todo ser determinado a seguir siendo lo que es, a actuar desde lo que es, a resistir lo que lo amenaza con disolverlo en el caos de lo indeterminado. En los objetos esa tendencia es material y no intencional. En los organismos es vital y orientada sin ser reflexiva. En el sujeto humano se convierte, a través del mecanismo de la doble mediación, en voluntad que puede reconocerse a sí misma como tal y asumir la responsabilidad de sus propios actos.
 
@@ -72,15 +72,3 @@ Una advertencia final: este libro no termina donde termina la filosofía clásic
 Antes del pensamiento, la pasión. Antes del sujeto que reflexiona, el ser que quiere seguir siendo.
 
 Ese es el comienzo. Todo lo demás es consecuencia.
-
-### Notas editoriales
-
-† **Nota editorial.** Este volumen formula la responsabilidad desde la asunción de la propia causalidad. *Caos* había vinculado su fundamento al primer colapso y a la primera mediación. Esta edición conserva ambas formulaciones en su lugar histórico y no presupone que una sustituya a la otra.
-
-‡ **Nota editorial.** Aquí «identidad» designa el sesgo interpretativo del ego, conforme al uso de este volumen y de *El juego de las máscaras*. En *Caos*, «identidad» aparece también vinculada a la continuidad funcional del ego. Esta edición conserva esos usos diferenciados y no los trata como equivalentes.
-
-# Parte I
-
-## El caos y la posibilidad
-
-*Antes de que algo sea, todo puede ser*
