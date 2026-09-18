@@ -1,0 +1,59 @@
+name: Sincronizar fuente — Afrodita Areia I
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'corpus/libros/afrodita-areia/01-sobre-la-pasion/**'
+      - '.github/workflows/sincronizar-fuente-afrodita-areia-i.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sincronizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Unificar fuente vigente
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          source = Path("corpus/libros/afrodita-areia/01-sobre-la-pasion")
+          target = Path("corpus/fuentes/Afrodita Areia sobre la pasión.md")
+
+          files = [
+              p for p in source.iterdir()
+              if p.is_file()
+              and p.suffix.lower() in {".txt", ".md"}
+              and p.stem.isdigit()
+          ]
+          files.sort(key=lambda p: int(p.stem))
+
+          parts = []
+          for path in files:
+              text = path.read_text(encoding="utf-8").replace("\r\n", "\n").strip()
+              parts.append(text)
+
+          combined = "\n\n".join(parts).rstrip() + "\n"
+          target.write_text(combined, encoding="utf-8")
+
+          print(f"Archivos unidos: {len(files)}")
+          print("Orden:", ", ".join(p.name for p in files))
+          print(f"Caracteres: {len(combined)}")
+          PY
+
+      - name: Guardar fuente unificada
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "corpus/fuentes/Afrodita Areia sobre la pasión.md"
+          if ! git diff --cached --quiet; then
+            git commit -m "[skip ci] Sincroniza fuente unificada de Afrodita Areia I"
+            git pull --rebase origin main
+            git push
+          fi
