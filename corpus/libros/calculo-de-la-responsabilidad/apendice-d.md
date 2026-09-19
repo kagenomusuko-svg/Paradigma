@@ -10,11 +10,80 @@ Este apéndice consolida el código Python de todos los capítulos del libro en 
 
 Dependencias:  numpy >= 1.24, scipy >= 1.10, itertools (stdlib). Para los valores de Shapley exactos con n > 15, se recomienda numpy >= 1.26 para la eficiencia de las operaciones de conjunto. No se requieren dependencias adicionales para el núcleo del sistema.
 
-""" calculo_responsabilidad.py Biblioteca Python — El Cálculo de la Responsabilidad (3ª ed.) Miguel Hilario Olvera Aguilar · Centro Multidisciplinario Meriadock · 2026  Módulos:   core          — R*, S, Δ, J, AD, D_vital (núcleo universal)   shapley       — Valores de Shapley exactos y Monte Carlo   predictive    — Predictores causales (quiebra, sesgo, colapso gobernanza)   narrativo     — Análisis de arcos de personajes literarios   hijos         — Diagnóstico de disposición de voluntad por hijos """  import numpy as np from scipy.stats import pearsonr from itertools import combinations, permutations import math from typing import Optional, Dict, List, Tuple  # ════════════════════════════════════════ ════════════════════ # MÓDULO 1: NÚCLEO UNIVERSAL # R*, S, Δ, J, AD, D_vital # ════════════════════════════════════════ ════════════════════  def calcular_R_star(W: np.ndarray, max_iter: int = 500,                     tol: float = 1e-9) -> np.ndarray:     """ Calcula el vector R* mediante iteración de potencia.     Garantizado por Perron-Frobenius para matrices no negativas irreducibles.          W: Matriz de pesos del grafo causal (n×n, no negativa)     max_iter: Máximo
+""" calculo_responsabilidad.py Biblioteca Python — El Cálculo de la Responsabilidad (3ª ed.) Miguel Hilario Olvera Aguilar · Centro Multidisciplinario Meriadock · 2026  Módulos:   core          — R*, S, Δ, J, AD, D_vital (núcleo universal)   shapley       — Valores de Shapley exactos y Monte Carlo   predictive    — Predictores causales (quiebra, sesgo, colapso gobernanza)   narrativo     — Análisis de arcos de personajes literarios   hijos         — Diagnóstico de disposición de voluntad por hijos """  import numpy as np from scipy.stats import pearsonr from itertools import combinations, permutations import math from typing import Optional, Dict, List, Tuple  # ════════════════════════════════════════ ════════════════════ # MÓDULO 1: NÚCLEO UNIVERSAL # R*, S, Δ, J, AD, D_vital # ════════════════════════════════════════ ════════════════════  def calcular_R_star(W: np.ndarray, sumidero: int = -1,
+                    max_iter: int = 500, tol: float = 1e-9) -> np.ndarray:
+    """
+    Calcula el vector R* mediante el operador de responsabilidad M_R(D).
 
-El Cálculo de la Responsabilidad · Apéndices
+    Método vigente (RES-RSTAR-001):
+      1. Separar el nodo sumidero D (resultado) de los ancestros causales A_D.
+      2. Construir Q_D (submatriz de determinaciones entre ancestros) y
+         b_D (vector de determinaciones directas hacia D).
+      3. Resolver r_D = (I − Q_D)⁻¹ b_D. Para grafos DAG, Q_D es nilpotente
+         y la solución es exacta en un número finito de términos.
+      4. Normalizar: R*(D) = r_D / (1ᵀ r_D).
 
-de iteraciones (convergencia típica < 100)     tol:      Tolerancia de convergencia en norma L∞          Returns: vector R* normalizado (suma = 1)     """     n = W.shape[0]     R = np.ones(n) / n  # arranque uniforme (Banach: independiente del inicial)     for _ in range(max_iter): Rn = W @ R         s = np.sum(Rn)         if s < 1e-12:             break  # grafo trivial         Rn /= s         if np.max(np.abs(Rn - R)) < tol: break         R = Rn     return Rn   def calcular_S(W: np.ndarray, R_star: np.ndarray) -> np.ndarray:     """     Calcula el vector S (fungibilidad) para cada nodo.     S_i = 1 − max_j corr(R*_original, R*_sin_i) sobre perturbaciones de W.          S alto → el resultado es estructural (cualquier actor equivalente daría igual)     S bajo → el resultado dependía de características idioscincráticas del nodo     """     n = W.shape[0]     S = np.zeros(n)     for i in range(n):         max_c = 0.0         for j in range(n): if j == i:                 continue             Wm = W.copy()             Wm[i, :] = np.mean(W, axis=0)  # sustituir fila i por promedio             Rm = calcular_R_star(Wm)             if np.std(Rm) > 1e-10:                 c, _ = pearsonr(R_star, Rm)                 max_c = max(max_c, abs(c))         S[i] = 1.0 - max_c     return S   def analisis_causal(W: np.ndarray, alpha: np.ndarray,                     D_total: float = 0.0,                     B_total: float = 0.0,                     alpha_B: float = 0.0,                     w_ref: float = 8.0,                     nombres: Optional[List[str]] = None                    ) -> Dict:     """     Análisis causal completo: R*, S, Δ, J, AD, D_vital, Δ_B. Parámetros:       W:       Matriz de pesos del grafo causal (n×n)       alpha: Vector de coeficientes de asunción por nodo [0,1]       D_total: Daño total del evento (monetario)       B_total: Beneficio total obtenido por actores del grafo       alpha_B: Fracción del B_total que fue asumida/devuelta       w_ref:   Salario de referencia por hora (PPP, default $8 USD)       nombres: Lista de etiquetas para los nodos Returns: dict con todos los indicadores del sistema     """     R_star = calcular_R_star(W)     S      = calcular_S(W, R_star)     Delta  = R_star -alpha     R_neta = R_star * (1 - S)          # responsabilidad idiosincrática AD     = R_star * D_total           # ajuste debitor por nodo     J      = float(1.0 - np.sum(np.abs(Delta)))  # justicia estructural     D_vital = D_total / w_ref           # horas de vida cristalizada     Delta_B = B_total * (1 - alpha_B)  # beneficio no asumido      # Factor de inversión causal (para detección de chivo expiatorio)     inv = {}     if nombres:         for i, nm in enumerate(nombres):             if R_neta[i] > 0.001 and alpha[i] > R_neta[i] + 0.1:                 inv[nm] = float(alpha[i] / R_neta[i]) resultado = {         'R_star': R_star,         'S': S,         'Delta': Delta, 'R_neta': R_neta,         'AD': AD,         'J': J,         'D_vital_horas': D_vital, 'Delta_B': Delta_B,         'nodos_chivo': inv,     }     if nombres:         for i, nm in enumerate(nombres):             resultado[f'R*_{nm}'] = float(R_star[i])             resultado[f'S_{nm}']  = float(S[i]) resultado[f'Δ_{nm}']  = float(Delta[i])     return resultado   # ════════════════════════════════════════ ════════════════════ # MÓDULO 2: VALORES DE SHAPLEY # Para causalidad acumulativa (Cap. 14, postulado I5 falla) # ════════════════════════════════════════ ════════════════════  def shapley_exacto(v_func, n_actores: int) -> np.ndarray:     """     Valores de Shapley exactos. Viable para n ≤ 15.     v_func: función v(frozenset) → daño/beneficio de
+    Para grafos con ciclos reales (ρ(Q_D) < 1), el método sigue siendo válido
+    vía la misma inversión matricial. Si ρ(Q_D) ≥ 1 el sistema está fuera de
+    dominio y se lanza ValueError.
+
+    Parámetros:
+      W:        Matriz de pesos del grafo causal (n×n, W_ij = w(i→j)).
+      sumidero: Índice del nodo resultado D. Por defecto el último nodo (-1).
+      max_iter, tol: reservados para compatibilidad; no se usan en el método
+                     primario (inversión exacta). Se activan sólo si se pasa
+                     use_iteration=True en una llamada futura.
+
+    Returns: vector R* sobre los ancestros causales (longitud n-1 cuando
+             sumidero != -1; se rellena con 0.0 en la posición del sumidero
+             para conservar la longitud n original).
+    """
+    n = W.shape[0]
+    d = sumidero % n  # índice positivo del sumidero
+    A_D = [i for i in range(n) if i != d]
+    m = len(A_D)
+
+    # Submatriz causal entre ancestros
+    Q_D = W[np.ix_(A_D, A_D)]
+    # Vector de determinaciones directas hacia D
+    b_D = W[A_D, d]
+
+    # Verificar dominio
+    rho = np.max(np.abs(np.linalg.eigvals(Q_D)))
+    if rho >= 1:
+        raise ValueError(
+            f"ρ(Q_D) = {rho:.4f} ≥ 1: el grafo tiene ciclos no atenuados. "
+            "Descomponga temporalmente el grafo o use un modelo de feedback "
+            "específico antes de calcular R*."
+        )
+
+    # Atribución total: r_D = (I − Q_D)⁻¹ b_D
+    r_D = np.linalg.solve(np.eye(m) - Q_D, b_D)
+    Z_D = r_D.sum()
+    if Z_D < 1e-12:
+        raise ValueError("b_D es nulo: ningún ancestro tiene conexión directa con D.")
+
+    R_star_ad = r_D / Z_D  # distribución sobre A_D
+
+    # Expandir a longitud n (0.0 en la posición del sumidero)
+    R_star = np.zeros(n)
+    for idx, i in enumerate(A_D):
+        R_star[i] = R_star_ad[idx]
+    return R_star
+
+def calcular_S(W: np.ndarray, R_star: np.ndarray) -> np.ndarray:     """     Calcula el vector S (fungibilidad) para cada nodo.     S_i = 1 − max_j corr(R*_original, R*_sin_i) sobre perturbaciones de W.          S alto → el resultado es estructural (cualquier actor equivalente daría igual)     S bajo → el resultado dependía de características idioscincráticas del nodo     """     n = W.shape[0]     S = np.zeros(n)     for i in range(n):         max_c = 0.0         for j in range(n):
+            if j == i:
+                continue
+            Wm = W.copy()
+            Wm[i, :] = np.mean(W, axis=0)  # sustituir fila i por promedio
+            try:
+                Rm = calcular_R_star(Wm)
+            except (ValueError, np.linalg.LinAlgError):
+                continue
+            if np.std(Rm) > 1e-10:
+                corr, _ = pearsonr(R_star, Rm)
+                max_c = max(max_c, abs(corr))
+        S[i] = 1.0 - max_c     return S   def analisis_causal(W: np.ndarray, alpha: np.ndarray,                     D_total: float = 0.0,                     B_total: float = 0.0,                     alpha_B: float = 0.0,                     w_ref: float = 8.0,                     nombres: Optional[List[str]] = None                    ) -> Dict:     """     Análisis causal completo: R*, S, Δ, J, AD, D_vital, Δ_B. Parámetros:       W:       Matriz de pesos del grafo causal (n×n)       alpha: Vector de coeficientes de asunción por nodo [0,1]       D_total: Daño total del evento (monetario)       B_total: Beneficio total obtenido por actores del grafo       alpha_B: Fracción del B_total que fue asumida/devuelta       w_ref:   Salario de referencia por hora (PPP, default $8 USD)       nombres: Lista de etiquetas para los nodos Returns: dict con todos los indicadores del sistema     """     R_star = calcular_R_star(W)     S      = calcular_S(W, R_star)     Delta  = R_star -alpha     R_neta = R_star * (1 - S)          # responsabilidad idiosincrática AD     = R_star * D_total           # ajuste debitor por nodo     J      = float(1.0 - np.sum(np.abs(Delta)))  # justicia estructural     D_vital = D_total / w_ref           # horas de vida cristalizada     Delta_B = B_total * (1 - alpha_B)  # beneficio no asumido      # Factor de inversión causal (para detección de chivo expiatorio)     inv = {}     if nombres:         for i, nm in enumerate(nombres):             if R_neta[i] > 0.001 and alpha[i] > R_neta[i] + 0.1:                 inv[nm] = float(alpha[i] / R_neta[i]) resultado = {         'R_star': R_star,         'S': S,         'Delta': Delta, 'R_neta': R_neta,         'AD': AD,         'J': J,         'D_vital_horas': D_vital, 'Delta_B': Delta_B,         'nodos_chivo': inv,     }     if nombres:         for i, nm in enumerate(nombres):             resultado[f'R*_{nm}'] = float(R_star[i])             resultado[f'S_{nm}']  = float(S[i]) resultado[f'Δ_{nm}']  = float(Delta[i])     return resultado   # ════════════════════════════════════════ ════════════════════ # MÓDULO 2: VALORES DE SHAPLEY # Para causalidad acumulativa (Cap. 14, postulado I5 falla) # ════════════════════════════════════════ ════════════════════  def shapley_exacto(v_func, n_actores: int) -> np.ndarray:     """     Valores de Shapley exactos. Viable para n ≤ 15.     v_func: función v(frozenset) → daño/beneficio de
 
 El Cálculo de la Responsabilidad · Apéndices
 

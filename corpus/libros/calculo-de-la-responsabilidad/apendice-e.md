@@ -48,11 +48,11 @@ El Cálculo de la Responsabilidad · Apéndices
 
 (cada nodo asumió exactamente su R*). J = 0: distribución completamente desequilibrada. J < 0: distribución inversa a la causal.
 
-R(t+1) = WR(t)/‖WR(t)‖
+r_D = (I − Q_D)⁻¹ b_D
 
-Iteración de potencia
+Operador de responsabilidad
 
-El algoritmo que calcula R* como el eigenvector dominante de la matriz W del grafo causal. Converge al vector de distribución estacionaria que mide la influencia relativa de cada nodo en el resultado.
+El procedimiento de cálculo de R* conforme al método vigente: separar los ancestros causales de D del nodo sumidero, construir la submatriz Q_D y el vector b_D de determinaciones directas, resolver r_D = (I − Q_D)⁻¹ b_D, y normalizar R*(D) = r_D / (1ᵀ r_D). El operador espectral asociado es M_R(D) = Q_D + η_D b_D 1ᵀ, cuyo eigenvector dominante es R*. Para grafos DAG (acíclicos), Q_D es nilpotente y la solución es exacta.
 
 Nodo de diseño — El actor que diseñó las condiciones bajo las cuales el evento dañino era posible. Tiene el mayor INCF o R* en la mayoría de los análisis y la S más baja (sus características específicas eran condición idiosincrática del resultado).
 
@@ -60,9 +60,9 @@ Postulado I5 dD/dNᵢ ≠ 0 El postulado de la condición necesaria: el nodo N�
 
 El Cálculo de la Responsabilidad · Apéndices
 
-R* (R-estrella) R* = eigenvector dom.(W)
+R* (R-estrella) R*(D) = r_D / Z_D
 
-El vector de distribución de la responsabilidad causal entre los nodos del grafo. R*ᵢ es la fracción del resultado causalmente atribuible al nodo i. Suma = 1. Se calcula como el eigenvector dominante de la matriz de pesos W.
+El vector de distribución estable de la responsabilidad causal entre los nodos ancestros de D. R*ᵢ(D) es la proporción del resultado causalmente atribuible al nodo i: el porcentaje estable al que converge la atribución causal del nodo i respecto de D. La suma de todos los componentes es 1. Se obtiene mediante r_D = (I − Q_D)⁻¹ b_D y normalización Z_D = 1ᵀ r_D. R* es el eigenvector dominante del operador de responsabilidad M_R(D), con eigenvalor λ₁ = 1.
 
 S ∈ [0,1] Índice de fungibilidad del nodo en el resultado. S = 0: el nodo es completamente idiosincrático (su contribución es única). S = 1: cualquier nodo equivalente habría producido el mismo resultado. R* × (1−S) = responsabilidad causal neta.
 

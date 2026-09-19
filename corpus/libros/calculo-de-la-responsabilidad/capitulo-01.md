@@ -140,7 +140,7 @@ w del nodo omisivo sobre el resultado
 
 ### 3.2 R* en derecho: la responsabilidad causal sin dolo
 
-Una vez construido el grafo, R* se calcula mediante la iteración de potencia sobre la matriz de pesos W. El resultado es el vector de responsabilidad causal: la fracción del daño total que es causalmente atribuible a cada nodo dado el grafo de influencias del caso.
+Una vez construido el grafo, R* se calcula mediante el operador de responsabilidad sobre el grafo causal. El resultado es el vector de responsabilidad causal: la fracción del daño total que es causalmente atribuible a cada nodo dado el grafo de influencias del caso.
 
 Esta independencia del dolo es la principal novedad del cálculo en el contexto jurídico. Permite identificar y cuantificar la responsabilidad del diseñador institucional en casos donde el dolo del diseñador es difícil de probar, pero su posición causal es inequívoca.
 
@@ -292,7 +292,7 @@ D_monetary_equiv = D_vital_total × w_ref
 
 En el contexto jurídico, el cálculo del beneficio tiene dos aplicaciones. En derecho civil, la acción de enriquecimiento sin causa requiere demostrar que alguien se enriqueció a costa de otro sin fundamento legítimo: B_total y el vector R*_B permiten cuantificar ese enriquecimiento. En derecho penal, la confiscación de bienes producto del delito requiere rastrear causalmente qué nodos se beneficiaron: R*_B identifica al beneficiario real, aunque no haya firmado nada.
 
-El déficit de reconocimiento Δ_B = R*_B − β, donde β es el beneficio efectivamente revertido, mide la brecha entre lo que el sistema obtuvo del daño y lo que ha devuelto.
+El déficit de reconocimiento Δ_B = B_total − α_B, donde α_B ∈ [0,1] es la fracción del beneficio efectivamente revertida, mide la brecha entre lo que el sistema obtuvo del daño y lo que ha devuelto.
 
 Fraude annona en el contexto corporativo:  Cuando una institución recibe capital —trabajo, lealtad de empleados, confianza de clientes— y no genera las condiciones que prometió, hay fraude annona. En derecho esto se mapea sobre abuso de confianza, responsabilidad del administrador y violación al deber fiduciario.
 
@@ -428,7 +428,7 @@ N1 N5 0.60 Los regímenes colaboradores actuaban bajo presión política y milit
 
 El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
-### Tras convergencia de la iteración de potencia, el vector R* estabilizado es:
+### Tras la convergencia del operador de responsabilidad, el vector R* estabilizado es:
 
 Nodo Actor R* final
 
@@ -712,11 +712,11 @@ El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 ### 6.1 La estructura matemática del grafo jurídico
 
-Sea G = (N, A, w) el grafo causal de un caso jurídico con n nodos. La matriz de pesos W ∈ ℝⁿˣⁿ se define como W_ij = w (Nᵢ → Nⱼ) si la arista existe, y 0 en caso contrario. Para que R* exista y sea único, W debe ser no negativa e irreducible.
+Sea G = (N, A, w) el grafo causal de un caso jurídico con n nodos. La matriz de pesos W ∈ ℝⁿˣⁿ se define como W_ij = w(Nᵢ → Nⱼ) si la arista existe, y 0 en caso contrario. Para que R*(D) exista y sea único, se requiere que A_D sea no vacío, que ρ(Q_D) < 1 (satisfecha siempre en grafos DAG, que son los del análisis jurídico ordinario) y que b_D > 0 (al menos un nodo con conexión directa a D).
 
 ### 6.2 Teorema de Perron-Frobenius aplicado a la imputación causal
 
-Sea W una matriz n×n no negativa e irreducible. Entonces: (i) W tiene un único eigenvalor dominante real ρ(W) > 0. (ii) El eigenvector correspondiente R* tiene todas sus componentes estrictamente positivas. (iii) R* es el único vector con R*ᵢ > 0 para todo i y Σᵢ R*ᵢ = 1 tal que W · R* = ρ(W) · R*. Consecuencia jurídica: ningún nodo causalmente conectado puede tener R* = 0.
+Sea M_R(D) = Q_D + η_D b_D 1ᵀ el operador de responsabilidad sobre los ancestros de D. Cuando Q_D ≥ 0, b_D > 0 y ρ(Q_D) < 1, el operador es no negativo e irreducible sobre A_D. Por Perron-Frobenius: (i) M_R(D) tiene eigenvalor dominante λ₁ = 1. (ii) El eigenvector correspondiente R*(D) tiene todas sus componentes estrictamente positivas. (iii) R*(D) es el único vector con R*ᵢ > 0 para todo i ∈ A_D y Σᵢ R*ᵢ = 1 tal que M_R(D) · R*(D) = R*(D). Consecuencia jurídica: ningún nodo con camino hacia D puede tener R* = 0.
 
 ### 6.3 El Teorema de Inversión Causal
 
@@ -724,7 +724,7 @@ Proposición: En un grafo con nodo de diseño N_d y ejecutores N_{eⱼ} con S al
 
 El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
-(1) Por Perron-Frobenius: R*_d > R*_{eⱼ} cuando w (d, eⱼ) es alto.
+(1) Por la estructura del operador M_R(D): R*_d > R*_{eⱼ} cuando w(d, eⱼ) es alto, porque la atribución acumula rutas y el nodo de diseño domina todas las cadenas causales.
 
 (2) S_{eⱼ} alto → la conducta del ejecutor era determinada por el diseño. (3) N_d no firma instrucciones dañosas → alpha_int_d ≈ 0 en documentos.
 
@@ -782,7 +782,7 @@ ninguna unidad de daño se cuenta dos veces. Reclamar T_invertido, T_impedido y 
 
 El siguiente código implementa el análisis completo incluyendo la dualidad ontológica del daño:
 
-import numpy as np from scipy.stats import pearsonr  def calculo_juridico(W, alpha, tau=36, r=0.05,                      X_sin=None, X_con=None, w_ref=8.0):     """     Análisis completo de responsabilidad causal jurídica     con dualidad ontológica del daño.     W: matriz de pesos del grafo (n×n)     alpha: vector de asunción por nodo [0,1]     tau:   período de recuperación en meses     r:     tasa de descuento anual     w_ref: salario de referencia social (USD/hora)     """     n = W.shape[0]     R = np.ones(n) / n     for _ in range(500):         Rn = W @ R; s = np.sum(Rn)         if s < 1e-12: break         Rn /= s         if np.max(np.abs(Rn - R)) < 1e-9: break         R = Rn     R_star = Rn      S = np.zeros(n)     for i in range(n):         max_c = 0         for j in range(n): if j == i: continue             Wm = W.copy(); Wm[i,:] = np.mean(W, axis=0)             Rm = np.ones(n)/n             for _ in range(200): Rm2 = Wm @ Rm; sm = np.sum(Rm2)                 if sm < 1e-12: break Rm2 /= sm                 if np.max(np.abs(Rm2-Rm)) < 1e-6: break Rm = Rm2             if n > 1:                 c, _ = pearsonr(R_star, Rm2) max_c = max(max_c, abs(c))         S[i] = 1 - max_c      Delta = R_star -alpha     R_neta = R_star * (1 - S)      result = {'R_star':R_star,'S':S,'Delta':Delta,'R_neta':R_neta}      if X_sin is not None and X_con is not None:         T_inv = float(X_sin[0] - X_con[0]) diff = X_sin - X_con         T_imp = float(np.trapz(diff[:tau]) / 12) desc = np.exp(-r * np.arange(len(diff)-tau) / 12)         DeltaT = float(np.trapz(diff[tau:] * desc) / 12)         D_total = T_inv + T_imp + DeltaT         result.update({             'T_invertido': T_inv, 'T_impedido': T_imp,             'DeltaT_trayectoria': DeltaT, 'D_total': D_total, 'D_vital': D_total / w_ref,       # horas de vida 'D_monetary_equiv': D_total,       # = D_total por definición 'AD': R_star * D_total         })     return result  def dano_vital_directo(n_victimas, esperanza_vida_h, q=1.0):     """D_vital cuando el bien destruido es la vida misma."""     return n_victimas * esperanza_vida_h * q  def dano_vital_generacional(victimas, generaciones,                              tasa_fertilidad=2.8, esperanza_vida_h=569400):     """Generaciones eliminadas calculadas al presente."""     total = 0     for g in range(1, int(generaciones)+1): n_gen = victimas * (tasa_fertilidad ** g)         total += n_gen * El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
+import numpy as np from scipy.stats import pearsonr  def calculo_juridico(W, alpha, tau=36, r=0.05,                      X_sin=None, X_con=None, w_ref=8.0):     """     Análisis completo de responsabilidad causal jurídica     con dualidad ontológica del daño.     W: matriz de pesos del grafo (n×n)     alpha: vector de asunción por nodo [0,1]     tau:   período de recuperación en meses     r:     tasa de descuento anual     w_ref: salario de referencia social (USD/hora)     """     n = W.shape[0]     # Operador vigente: r_D = (I - Q_D)^-1 b_D (RES-RSTAR-001)     A_D = list(range(n - 1))     Q_D = W[np.ix_(A_D, A_D)]     b_D = W[A_D, n - 1]     r_D = np.linalg.solve(np.eye(n - 1) - Q_D, b_D)     R_full = np.zeros(n)     R_full[A_D] = r_D / r_D.sum()     R_star = R_full      S = np.zeros(n)     for i in range(n):         max_c = 0         for j in range(n): if j == i: continue             Wm = W.copy(); Wm[i,:] = np.mean(W, axis=0)             Rm = np.ones(n)/n             for _ in range(200): Rm2 = Wm @ Rm; sm = np.sum(Rm2)                 if sm < 1e-12: break Rm2 /= sm                 if np.max(np.abs(Rm2-Rm)) < 1e-6: break Rm = Rm2             if n > 1:                 c, _ = pearsonr(R_star, Rm2) max_c = max(max_c, abs(c))         S[i] = 1 - max_c      Delta = R_star -alpha     R_neta = R_star * (1 - S)      result = {'R_star':R_star,'S':S,'Delta':Delta,'R_neta':R_neta}      if X_sin is not None and X_con is not None:         T_inv = float(X_sin[0] - X_con[0]) diff = X_sin - X_con         T_imp = float(np.trapz(diff[:tau]) / 12) desc = np.exp(-r * np.arange(len(diff)-tau) / 12)         DeltaT = float(np.trapz(diff[tau:] * desc) / 12)         D_total = T_inv + T_imp + DeltaT         result.update({             'T_invertido': T_inv, 'T_impedido': T_imp,             'DeltaT_trayectoria': DeltaT, 'D_total': D_total, 'D_vital': D_total / w_ref,       # horas de vida 'D_monetary_equiv': D_total,       # = D_total por definición 'AD': R_star * D_total         })     return result  def dano_vital_directo(n_victimas, esperanza_vida_h, q=1.0):     """D_vital cuando el bien destruido es la vida misma."""     return n_victimas * esperanza_vida_h * q  def dano_vital_generacional(victimas, generaciones,                              tasa_fertilidad=2.8, esperanza_vida_h=569400):     """Generaciones eliminadas calculadas al presente."""     total = 0     for g in range(1, int(generaciones)+1): n_gen = victimas * (tasa_fertilidad ** g)         total += n_gen * El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 esperanza_vida_h     return total  def dano_vital_supervivientes(n_superv, vida_restante_h, q_real=0.55):     """Tiempo de vida vivido en condiciones de daño.""" return n_superv * vida_restante_h * (1 - q_real)  # ── Ejemplo: Holocausto (parámetros 2024) ── w_ref = 8.0  # USD/hora (PPP global) D_dir = dano_vital_directo(6_000_000, 569_400, q=1.0) D_gen = dano_vital_generacional(6_000_000, 2.5) D_sup = dano_vital_supervivientes(250_000, 350_400, 0.45) D_vital_total = D_dir + D_gen + D_sup print(f"D_vital_directo:       {D_dir:.3e} horas") print(f"D_vital_generacional:  {D_gen:.3e} horas") print(f"D_vital_supervivientes:{D_sup:.3e} horas") print(f"D_vital_total:         {D_vital_total:.3e} horas") equiv = D_vital_total * w_ref / 1e12 print(f"D_monetary_equiv:      {equiv:.1f} billones USD") print(f"Reparaciones pagadas:  $0.090 billones USD") print(f"Porcentaje cubierto: {0.090/(D_vital_total*w_ref/1e12)*100:.4f}%")
 

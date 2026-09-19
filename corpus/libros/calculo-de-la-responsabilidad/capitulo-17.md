@@ -44,7 +44,7 @@ R*_B(jugador_i) = fracción del triunfo causalmente
 
 atribuible al jugador i
 
-La matemática es idéntica a la de R*_D: iteración de potencia sobre el grafo de contribución, cálculo de S como fungibilidad de la contribución, Δ_B = R*_B − α_B donde α_B es la fracción del beneficio del triunfo que el jugador recibe (su salario como fracción de lo que el triunfo generó).
+La matemática es idéntica a la de R*_D: operador de responsabilidad sobre el grafo de contribución, cálculo de S como fungibilidad de la contribución, Δ_B = R*_B − α_B donde α_B es la fracción del beneficio del triunfo que el jugador recibe (su salario como fracción de lo que el triunfo generó).
 
 R*_B (contribución causal al resultado deportivo):  La fracción del resultado positivo (triunfo, campeonato, clasificación) causalmente atribuible a cada jugador o factor del sistema. R*_B alto significa que sin ese jugador o factor el resultado habría sido significativamente menos probable. R*_B bajo significa que el resultado habría ocurrido de manera similar sin él.
 
@@ -888,9 +888,9 @@ contribución
 
 ### 6.1 El modelo formal de R*_B en el grafo de contribución
 
-Sea G_dep = (N, A, w) el grafo de contribución deportiva donde los nodos N son los jugadores, el sistema de juego y el cuerpo técnico, las aristas A son las dependencias de la contribución de cada nodo con las de los demás, y los pesos w son los niveles de interdependencia. El R*_B se calcula con la misma iteración de potencia que R*_D:
+Sea G_dep = (N, A, w) el grafo de contribución deportiva donde los nodos N son los jugadores, el sistema de juego y el cuerpo técnico, las aristas A son las dependencias de la contribución de cada nodo con las de los demás, y los pesos w son los niveles de interdependencia. El R*_B se calcula con el mismo operador de responsabilidad que R*_D:
 
-R*_B = eigenvector dominante de W_dep
+R*_B = r_D / Z_D  donde  r_D = (I − Q_D_dep)⁻¹ b_D_dep
 
 (normalizado a suma = 1)
 
@@ -942,7 +942,7 @@ Esa dinámica tiene consecuencias directas para la negociación de contratos a l
 
 ### 6.4 Código Python de referencia
 
-import numpy as np from scipy.stats import pearsonr from itertools import combinations import math  def analisis_contribucion_deportiva(W_dep, vaep_jugadores=None, P_victoria_con=None,                                     P_victoria_sin=None, B_total=None, salario_actual=None):     """     Análisis de contribución causal al resultado deportivo (R*_B).     W_dep:            matriz de contribuciones entre nodos del equipo     vaep_jugadores:   fracción de VAEP por jugador (suma = 1)     P_victoria_con:   P(victoria | con jugador) para cada posición     P_victoria_sin:   P(victoria | sin jugador) para cada posición     B_total:          beneficio total del triunfo en euros/dólares     salario_actual:   salario actual del jugador bajo análisis (nodo 0)     """     n = W_dep.shape[0]      # ── R*_B via iteración de potencia ──     R = np.ones(n) / n     for _ in range(500):         Rn = W_dep @ R; s = np.sum(Rn)         if s < 1e-12: break         Rn /= s if np.max(np.abs(Rn - R)) < 1e-9: break         R = Rn     R_star_B = Rn # ── S_B via historial de ausencias ──     S_B = np.ones(n) * 0.5  # prior moderado     if P_victoria_con is not None and P_victoria_sin is not None:         for i in range(len(P_victoria_con)):             S_B[i] = 1.0 -abs(P_victoria_con[i] - P_victoria_sin[i])      # ── Contribución Idiosincrática (CI) ──     CI = R_star_B * (1 - S_B)      result = { 'R_star_B': R_star_B,         'S_B': S_B,         'CI': CI,  # contribución idiosincrática         'CI_ranking': list(np.argsort(-CI)),     }      # ── VAEP como método alternativo de R*_B ──     if vaep_jugadores is not None:         vaep = np.array(vaep_jugadores)         vaep = vaep / El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
+import numpy as np from scipy.stats import pearsonr from itertools import combinations import math  def analisis_contribucion_deportiva(W_dep, vaep_jugadores=None, P_victoria_con=None,                                     P_victoria_sin=None, B_total=None, salario_actual=None):     """     Análisis de contribución causal al resultado deportivo (R*_B).     W_dep:            matriz de contribuciones entre nodos del equipo     vaep_jugadores:   fracción de VAEP por jugador (suma = 1)     P_victoria_con:   P(victoria | con jugador) para cada posición     P_victoria_sin:   P(victoria | sin jugador) para cada posición     B_total:          beneficio total del triunfo en euros/dólares     salario_actual:   salario actual del jugador bajo análisis (nodo 0)     """     n = W_dep.shape[0]      # ── R*_B via operador de responsabilidad (RES-RSTAR-001) ──     A_D = list(range(n - 1))     Q_D = W_dep[np.ix_(A_D, A_D)]     b_D = W_dep[A_D, n - 1]     r_D = np.linalg.solve(np.eye(n - 1) - Q_D, b_D)     R_full = np.zeros(n)     R_full[A_D] = r_D / r_D.sum()       R = Rn     R_star_B = Rn # ── S_B via historial de ausencias ──     S_B = np.ones(n) * 0.5  # prior moderado     if P_victoria_con is not None and P_victoria_sin is not None:         for i in range(len(P_victoria_con)):             S_B[i] = 1.0 -abs(P_victoria_con[i] - P_victoria_sin[i])      # ── Contribución Idiosincrática (CI) ──     CI = R_star_B * (1 - S_B)      result = { 'R_star_B': R_star_B,         'S_B': S_B,         'CI': CI,  # contribución idiosincrática         'CI_ranking': list(np.argsort(-CI)),     }      # ── VAEP como método alternativo de R*_B ──     if vaep_jugadores is not None:         vaep = np.array(vaep_jugadores)         vaep = vaep / El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
