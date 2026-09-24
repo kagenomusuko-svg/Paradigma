@@ -428,21 +428,13 @@ El daño total observado es la función del conjunto completo.
 
 ### Cálculo del valor de Shapley para el Actor 1 (Texaco/Chevron):
 
-φ₁ = (1/3!) × Σ sobre todos los ordenamientos de la contribución marginal de 1
+φ₁ se obtiene ponderando las contribuciones marginales por el tamaño de la coalición precedente:
 
-= (1/6) × [(v ({1}) − v (∅)) + (v ({1,2}) − v ({2})) + (v ({1,3}) − v ({3})) + (v ({1,2,3}) − v ({2,3})) + (v ({1,2,3}) − v ({2,3})) ← dos órdenes distintos dan el mismo resultado
+φ₁ = (1/3)(0.22−0) + (1/6)(0.70−0.40) + (1/6)(0.42−0.15) + (1/3)(1.00−0.58)
 
-+ (v ({1,3,2}) − v ({3,2}))]
+= 0.07333 + 0.05000 + 0.04500 + 0.14000 = 0.30833.
 
-### φ₁ = (1/6) × [(0.22−0) + (0.70−0.40) + (0.42−0.15) +
-
-### (1.00−0.58) × 3/2]
-
-### ≈ (1/6) × [0.22 + 0.30 + 0.27 + 0.63]
-
-### ≈ (1/6) × 1.42 ≈ 0.237
-
-### El valor de Shapley de Texaco/Chevron es φ₁ ≈ 0.237: aproximadamente el 23.7% del daño total. Este es el resultado que el litigio debería haber establecido como base
+### El valor de Shapley de Texaco/Chevron es φ₁ ≈ 0.308: aproximadamente el 30.8% del daño total. Este es el resultado que el litigio debería haber establecido como base
 
 ### para la responsabilidad de Chevron, independientemente de las controversias procesales.
 
@@ -454,15 +446,17 @@ Fracción del D_total
 
 Contraste con R* convencional
 
-Texaco/Chevron 0.237 23.7% R* convencional daría 0 si Texaco no es condición necesaria. Shapley da 23.7% por su contribución marginal real.
+Texaco/Chevron 0.308 30.8% R* convencional daría 0 si Texaco no es condición necesaria. Shapley da 30.8% por su contribución marginal real.
 
-Petroecuador 0.488 48.8% Mayor porción porque opera más tiempo y más territorio.
-
-### 0.275 27.5% Mayor de lo esperado por los efectos de amplificación con las otras fuentes.
+Petroecuador 0.478 47.8% Mayor porción porque opera más tiempo y más territorio.
 
 Otros operadores
 
-### 1.000 100% Propiedad de eficiencia de Shapley: la suma es exactamente el daño total.
+0.213 21.3% Menor porción, aunque conserva contribución marginal por el solapamiento con las dos fuentes principales.
+
+Otros operadores
+
+1.000 100% Propiedad de eficiencia de Shapley: la suma es exactamente el daño total.
 
 Suma (verificación)
 

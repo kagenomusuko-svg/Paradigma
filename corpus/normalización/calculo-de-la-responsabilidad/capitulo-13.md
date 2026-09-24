@@ -462,7 +462,7 @@ Para el conjunto del estado de Florida (donde COMPAS ha sido usado en decenas de
 
 Distribución del ajuste debitor: El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
-AD_N1 (diseñador métrica) = 0.38 × $16.6M = $6. 3M
+AD_N1 (diseñador métrica) = 0.38 × $16.6M = $6.3M
 
 AD_N2 (sesgo policial hist.) = 0.28 × $16.6M = $4.6M
 
