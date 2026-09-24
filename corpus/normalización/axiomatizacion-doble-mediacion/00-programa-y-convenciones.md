@@ -30,7 +30,7 @@ Construcción del grafo, orientación de las aristas, pesos, matriz de relacione
 
 #### Parte II. Distribución de responsabilidad causal (R^*)
 
-Definición de las entradas del cálculo, procedimiento de obtención, normalización y lectura de los componentes. La derivación se acompaña de ejemplos pequeños que permitan revisar cada operación a mano y reproducirla con el motor.
+Definición de las entradas del cálculo, procedimiento de obtención, normalización y lectura de los componentes. La derivación se acompaña de ejemplos pequeños que permitan revisar cada operación a mano y comprobar el resultado mediante las operaciones desarrolladas.
 
 #### Parte III. Asunción, déficit y justicia
 
@@ -46,7 +46,7 @@ Daño inmediato, impedido y de trayectoria; beneficio; ajustes por nodo; cálcul
 
 #### Parte VI. Posiciones de la voluntad
 
-Representación de las posiciones como componentes formales de un estado volitivo. Se explican la asignación de probabilidades, normalización, posición dominante, entropía, transiciones y agregación colectiva, siguiendo las operaciones efectivamente implementadas en el motor y la notación del glosario de fórmulas de *Caelus*.
+Representación de las posiciones como componentes formales de un estado volitivo. Se explican la asignación de probabilidades, normalización, posición dominante, entropía, transiciones y agregación colectiva, siguiendo las fórmulas y la notación del glosario de *Caelus*.
 
 #### Parte VII. Tiempo y trayectoria
 
@@ -62,7 +62,7 @@ Representación de estados y campos de acción, comparación de escenarios, aná
 
 #### Apéndices de cálculo
 
-Tablas de notación; fórmulas reunidas; ejemplos integrales resueltos; equivalencias entre notación del libro, glosario y motor; y ejercicios con resultados para comprobación.
+Tablas de notación; fórmulas reunidas; ejemplos integrales resueltos; equivalencias entre la notación del libro y el glosario; y ejercicios con resultados para comprobación.
 
 ### Criterio de exposición
 
@@ -74,15 +74,14 @@ Un cálculo completo muestra las entradas, la sustitución en la fórmula, las o
 
 - El manuscrito segmentado de *Axiomatización del sistema de la doble mediación* aporta los objetos, las fórmulas y la secuencia original que se reconstruyen.
 - *El cálculo de la responsabilidad* aporta la formulación didáctica y el vocabulario normalizado disponible para las magnitudes de imputación.
-- El motor matemático determina qué operaciones están implementadas y permite reproducir sus pasos.
 - El glosario de fórmulas de *Caelus* aporta la tabla integrada de fórmulas, correspondencias y notación vinculada con las posiciones de la voluntad.
 - *Metrología causal* podrá incorporarse como fuente conceptual desde sus textos existentes; su normalización editorial queda fuera de este programa.
 
-Las fuentes se usan según la función que cumplen: definición conceptual, formulación matemática, regla implementada o ejemplo de aplicación. La redacción del libro conserva esa distinción sin convertirla en una narración del proceso editorial.
+Las fuentes se usan según la función que cumplen: definición conceptual, formulación matemática, definición matemática o ejemplo de aplicación. La redacción del libro conserva esa distinción sin convertirla en una narración del proceso editorial.
 
 ### Orden de trabajo
 
-La reconstrucción avanza desde el lenguaje y la estructura causal hasta las operaciones compuestas. Antes de redactar cada parte se contrastan sus fórmulas con el manuscrito, las fuentes normalizadas pertinentes, el glosario y el comportamiento del motor. Después se incorporan derivaciones y ejemplos reproducibles. El manuscrito canónico permanece separado de esta versión de trabajo.
+La reconstrucción avanza desde el lenguaje y la estructura causal hasta las operaciones compuestas. Antes de redactar cada parte se contrastan sus fórmulas con el manuscrito, las fuentes normalizadas pertinentes, el glosario y la formulación matemática adoptada. Después se incorporan derivaciones y ejemplos resueltos paso a paso. El manuscrito canónico permanece separado de esta versión de trabajo.
 
 
 ### Ejecución de los ejemplos numéricos
