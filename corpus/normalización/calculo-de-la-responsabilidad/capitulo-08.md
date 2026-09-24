@@ -422,21 +422,21 @@ Parámetros documentados para el cálculo:
 
 Cálculo del T_impedido (patrimonio no acumulado):
 
-T_imp = 3,000,000 familias × $85,000 × (350%
+T_imp = 3,000,000 familias × $85,000 × 3.5
 
-apreciación) = ~$8.9 billones USD (2024)
+= $892,500,000,000 (2024)
 
 ΔT_trayectoria (transmisión intergeneracional):
 
-ΔT = $171,000 × 16,400,000 hogares × 0.325 (fracción
+ΔT = $171,000 × 16,400,000 hogares × 0.325
 
-atribuible) = ~$914,000 M USD
+= $911,430,000,000 (fracción atribuible)
 
 D_vital expresado en tiempo de trabajo cristalizado:
 
-D_vital = ($8.9B + $0.914B) / $8 por hora = 1.227 ×
+D_vital = ($892,500,000,000 + $911,430,000,000) / $8 por hora
 
-10¹² horas de vida
+= 2.255 × 10¹¹ horas de vida
 
 Más de un billón de horas de vida. Ese es el tiempo de trabajo cristalizado en salarios que las comunidades afectadas no pudieron convertir en patrimonio acumulado porque el sistema crediticio les negó el instrumento de conversión por razón de raza. No es una metáfora: es la expresión exacta del principio ontológico del capítulo —el dinero es tiempo de vida cristalizado— aplicado al daño del redlining.
 

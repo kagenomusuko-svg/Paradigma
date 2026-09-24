@@ -648,9 +648,9 @@ IIC_VW_2011 ≈ 0.45 (brecha entre "Das Auto" y las prácticas internas document
 
 logit = −3.2 + 2.8×0.78 + 1.6×0.55 + 2.1×0.32 +
 
-1.4×0.10 = 1.48
+1.4×0.10 = 0.676
 
-P (colapso, 5 años) _VW_2011 = σ (1.48) = 81.4%
+P (colapso, 5 años) _VW_2011 = σ (0.676) ≈ 66.3%
 
 El predictor habría asignado una probabilidad del 81% de colapso de gobernanza en un horizonte de cinco años. El Dieselgate ocurrió en cuatro. La intervención con mayor ROI en ese momento habría sido reducir S_consejo — incorporando consejeros con poder real de supervisión técnica sobre los procesos de certificación de emisiones— antes de que la presión de objetivos imposibles encontrara la solución prohibida.
 

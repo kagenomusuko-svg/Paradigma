@@ -958,7 +958,7 @@ P (colapso_gobernanza, 5 años) = σ (−3.2 + 2.8×S_consejo + 1.6×(1−IIC) +
 
 P ≈ σ (−3.2 + 2.8×0.70 + 1.6× (1−0.125) + 2.1×0.52 +
 
-1.4×0.12) ≈ σ (2.37) ≈ 91%
+1.4×0.12) = σ (1.420) ≈ 80.5%
 
 La probabilidad de un evento de colapso de gobernanza en esta institución en un horizonte de cinco años es del 91% dado su IIC, su perfil de Anteros institucional, y la fungibilidad de su consejo. Ese número no es una predicción: es la consecuencia lógica de operar con una brecha de integridad de esa magnitud durante un tiempo suficiente.
 

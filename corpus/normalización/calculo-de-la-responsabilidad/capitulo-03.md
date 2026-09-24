@@ -472,11 +472,11 @@ D_vital_generacional (4.5 generaciones, tasa 6, incluyendo período colonial com
 
 D_vital_gen ≈ 5,000,000 × (6^4.5) × 350,400 h ≈
 
-5,000,000 × 2,799 × 350,400
+5,000,000 × 3,174.5387 × 350,400
 
-≈ 4.91 × 10¹⁵ horas de vida
+≈ 5.562 × 10¹⁵ horas de vida
 
-D_monetary_gen ≈ $39.3 billones de billones USD
+D_monetary_gen ≈ $4.449 × 10¹⁶ USD (2024)
 
 Esta cifra es tan grande que requiere una nota metodológica: no significa que Bélgica "deba" esa cantidad en efectivo. Significa que el daño al potencial de desarrollo del pueblo congolés, acumulado a través de generaciones, tiene esa magnitud ontológica cuando se expresa en la unidad universal del tiempo de vida. Es el mismo resultado que obtenemos con el Holocausto: la fórmula no promete que el daño sea reparable; hace visible con precisión que no lo es en términos monetarios ordinarios.
 

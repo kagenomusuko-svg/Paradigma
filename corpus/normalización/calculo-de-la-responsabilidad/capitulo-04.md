@@ -138,7 +138,7 @@ J_sistema = 1 − Σᵢ |R*ᵢ − αᵢ|
 
 Propiedades de J:
 
-•  J = 1: asunción perfectamente proporcional a la causalidad en todos los nodos. No hay inversión causal ni chivos expiatorios. •  J = 0: el sistema es completamente injusto: o nadie asume nada (todos α = 0) o todos asumen exactamente lo contrario de lo que causaron. •  J < 0: imposible por definición cuando α ∈ [0,1] y R* ∈ [0,1].
+•  J = 1: asunción perfectamente proporcional a la causalidad en todos los nodos. No hay inversión causal ni chivos expiatorios. •  J = 0: el sistema es completamente injusto: o nadie asume nada (todos α = 0) o todos asumen exactamente lo contrario de lo que causaron. •  J puede ser negativo cuando la suma de las desviaciones absolutas supera 1. Para un sistema de n nodos, su rango teórico es 1 − n ≤ J ≤ 1; por ello, un valor negativo indica una distribución globalmente desproporcionada, no un error de cálculo.
 
 ### Aplicaciones inmediatas del Índice J:
 
