@@ -410,17 +410,17 @@ D_vital_dependientes = 300 × (años_pérdida × 8,760)
 
 × 0.30 ≈ 7.88 × 10⁶ horas
 
-D_vital_total ≈ 8.82 × 10⁷ horas → D_monetary_equiv
+D_vital_total ≈ 8.78 × 10⁷ horas → D_monetary_equiv
 
-≈ $705M USD (2024)
+≈ $702M USD (2024)
 
 La indemnización que los propietarios pagaron (entre los acuerdos civiles y lo que no evadieron por la quiebra) fue aproximadamente $75 por víctima, equivalente a unos $2,300 USD de 2024. La distribución del D_total entre los nodos responsables, aplicando el vector R*:
 
-AD_N1 (propietarios) = 0.45 × $705M = $317M USD
+AD_N1 (propietarios) = 0.45 × $702M = $316M USD
 
-AD_N2 (regulador) = 0.30 × $705M = $212M USD
+AD_N2 (regulador) = 0.30 × $702M = $211M USD
 
-AD_N3 (aseguradora) = 0.12 × $705M = $85M USD
+AD_N3 (aseguradora) = 0.12 × $702M = $84M USD
 
 Los propietarios pagaron efectivamente menos de $20,000 USD en indemnizaciones netas (después de la quiebra). Su α_posterior al siniestro fue prácticamente cero. Δ_N1 = +0.45 en toda su magnitud.
 
