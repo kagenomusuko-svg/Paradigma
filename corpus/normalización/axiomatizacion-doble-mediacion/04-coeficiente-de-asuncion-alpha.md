@@ -165,3 +165,24 @@ Para calcular \(\alpha\):
 10. calcula \(\Delta=R^*-\alpha\) después de obtener ambos vectores.
 
 El motor registra los productos y sumas intermedias, el numerador, el denominador y la división final. Si las entradas se expresan como fracciones o cadenas decimales, el cálculo puede conservar aritmética racional exacta.
+
+
+## 9. Comprobación con el motor Prometeo
+
+El ejemplo de tres observaciones se ejecutó con la fórmula `alpha` de `prometeo-motor-calculo/motor.py`. Los decimales se ingresaron como cadenas para conservar la representación exacta:
+
+```json
+{
+  "intervention": [1, 0, 1],
+  "weight": ["2", "1", "3"],
+  "p": [".8", ".9", ".5"]
+}
+```
+
+El motor devolvió:
+
+```json
+{"numerator": 31, "denominator": 60}
+```
+
+Para el segundo nodo del ejemplo conjunto, la entrada `intervention=[1,1]`, `weight=["1","1"]`, `p=[".5","1"]` devuelve exactamente \(3/4\). Ambos valores se usan sin redondeo en las operaciones posteriores de \(\Delta\) y \(J\).
