@@ -84,6 +84,6 @@ Las fuentes se usan según la función que cumplen: definición conceptual, form
 La reconstrucción avanza desde el lenguaje y la estructura causal hasta las operaciones compuestas. Antes de redactar cada parte se contrastan sus fórmulas con el manuscrito, las fuentes normalizadas pertinentes, el glosario y la formulación matemática adoptada. Después se incorporan derivaciones y ejemplos resueltos paso a paso. El manuscrito canónico permanece separado de esta versión de trabajo.
 
 
-### Ejecución de los ejemplos numéricos
+### Desarrollo de los ejemplos numéricos
 
-Cada ejemplo numérico del libro se ejecuta con la operación correspondiente de `prometeo-motor-calculo`. El texto conserva las entradas suficientes para repetir la ejecución y presenta la salida exacta del motor: fracciones racionales para las operaciones exactas y la precisión decimal devuelta para operaciones que usan logaritmos, exponenciales u otras funciones no racionales. Las expresiones decimales se ingresan como cadenas cuando la interfaz del motor lo requiere.
+Cada ejemplo presenta los datos, la sustitución en la fórmula, las operaciones intermedias, las reducciones de fracciones y el resultado. Cuando intervienen funciones no racionales, se muestra la aproximación decimal junto con la expresión que la produce. El lector puede así reconstruir el cálculo sin depender de una herramienta externa.
