@@ -2,47 +2,61 @@
 
 ## 1. El objeto de \(S\)
 
-La sustituibilidad expresa cuánto del resultado asociado a un nodo podría reproducirse si otro elemento ocupara su posición o si se mantuviera la configuración que hizo posible el resultado. La pregunta aplicada es:
+La sustituibilidad expresa cuánto del resultado asociado a un nodo podría reproducirse si otro elemento ocupara su posición o si se mantuviera la configuración que hizo posible el resultado.
 
-> Si este nodo se reemplaza bajo las condiciones definidas, ¿con qué frecuencia o intensidad se conserva el resultado?
+La pregunta aplicada es:
 
-El motor ofrece varias operaciones para representar este objeto. Cada operación tiene entradas y una interpretación propias. Sus resultados no son intercambiables sin declarar qué estimador se utilizó.
+> Si se reemplaza este nodo bajo las condiciones definidas, ¿con qué frecuencia o intensidad se conserva el resultado?
+
+El cálculo puede operacionalizar esta pregunta de distintas maneras. Cada estimador utiliza datos diferentes y responde una pregunta específica. Un mismo valor numérico obtenido por dos procedimientos distintos no hace que los procedimientos sean equivalentes.
 
 ## 2. Score aplicado de tres componentes
 
-La operación `s_discrete` promedia tres componentes de evidencia, denominados \(A\), \(B\) y \(C\):
+En el score aplicado se consideran tres criterios:
 
-\[
-S_{\mathrm{app}}=\frac{A+B+C}{3}.
-\]
+- \(A\): formalización del procedimiento;
+- \(B\): consecuencias de desobedecer la instrucción;
+- \(C\): proporción de pares que habría actuado igual bajo la misma configuración.
 
-En la escala implementada, cada componente toma uno de estos valores:
+Cada criterio se asigna en la escala discreta:
 
 \[
 A,B,C\in\left\{0,\frac12,1\right\}.
 \]
 
-En la aplicación jurídica, los criterios corresponden a la formalización del procedimiento, las consecuencias de desobedecer y la proporción de pares que habría actuado igual bajo la misma configuración.
+El score es su promedio:
 
-### Ejemplo ejecutado
+\[
+S_{\mathrm{app}}=\frac{A+B+C}{3}.
+\]
 
-Entrada de `s_discrete`:
+### Ejemplo
 
-```json
-{"components": ["1", "1/2", "0"]}
-```
+Sean:
 
-Salida exacta del motor:
+\[
+A=1,\qquad B=\frac12,\qquad C=0.
+\]
 
-```json
-{"numerator": 1, "denominator": 2}
-```
+Se suman los tres componentes:
 
-Por tanto, el score aplicado es \(S_{\mathrm{app}}=1/2\).
+\[
+1+\frac12+0=\frac32.
+\]
+
+Se divide entre tres:
+
+\[
+S_{\mathrm{app}}=\frac{3/2}{3}
+=\frac32\cdot\frac13
+=\frac12.
+\]
+
+El valor obtenido es \(S_{\mathrm{app}}=1/2\).
 
 ## 3. Estimación por sustituciones observadas
 
-Cuando se realizan ensayos o comparaciones de reemplazo, la operación `substitutability_probability` calcula la proporción de ensayos elegibles en los que se conservó el mismo resultado:
+Si se realizan sustituciones en condiciones elegibles y se registra si el resultado se conserva, se calcula:
 
 \[
 S_{\mathrm{prob}}=
@@ -50,27 +64,27 @@ S_{\mathrm{prob}}=
 {n_{\mathrm{ensayos\ elegibles}}}.
 \]
 
-El número de ensayos elegibles debe ser mayor que cero, y el conteo de resultados iguales debe estar entre cero y el total de ensayos.
+El número de ensayos elegibles debe ser positivo y el número de resultados iguales no puede excederlo.
 
-### Ejemplo ejecutado
+### Ejemplo
 
-Entrada:
+En cuatro ensayos elegibles, dos sustituciones conservaron el resultado:
 
-```json
-{"same_result_count": 2, "eligible_trials": 4}
-```
+\[
+S_{\mathrm{prob}}=\frac24=\frac12.
+\]
 
-Salida del motor:
+Si tres de cuatro lo conservaran:
 
-```json
-{"numerator": 1, "denominator": 2}
-```
+\[
+S_{\mathrm{prob}}=\frac34.
+\]
 
-En cuatro sustituciones elegibles, dos conservaron el resultado; el estimador es \(1/2\). Si tres de cuatro lo conservaran, el motor devolvería \(3/4\).
+Este estimador se basa en ensayos observados; no es el promedio de los tres criterios de la sección anterior.
 
 ## 4. Razón entre peso causal y volitivo
 
-La operación `s_ratio` calcula la fracción causal respecto de la suma del peso causal y el peso volitivo:
+Otra operacionalización compara el peso causal con la suma del peso causal y el peso volitivo:
 
 \[
 S_{\mathrm{ratio}}=
@@ -78,166 +92,224 @@ S_{\mathrm{ratio}}=
 {w_{\mathrm{causal}}+w_{\mathrm{volitivo}}}.
 \]
 
-La suma del denominador debe ser distinta de cero. La razón requiere que ambos pesos estén expresados en escalas comparables.
+Los pesos deben estar expresados en escalas comparables y su suma debe ser distinta de cero.
 
-### Ejemplo ejecutado
+### Ejemplo
 
-Entrada:
-
-```json
-{"causal_weight": "3", "volitional_weight": "2"}
-```
-
-Salida exacta:
-
-```json
-{"numerator": 3, "denominator": 5}
-```
-
-El resultado es \(3/5\). Esta operación compara dos pesos; no cuenta reemplazos observados ni promedia los tres criterios del score aplicado.
-
-## 5. Intervalo de sustituibilidad
-
-Cuando cada escenario aporta un intervalo posible de \(S\), la operación `s_interval` calcula los extremos mediante una suma ponderada. Con probabilidades \(p_j\) e intervalos \([S_{j,\min},S_{j,\max}]\):
+Sean \(w_{\mathrm{causal}}=3\) y \(w_{\mathrm{volitivo}}=2\). Primero se calcula el denominador:
 
 \[
-S_{\min}=\sum_j p_jS_{j,\min},
-\qquad
-S_{\max}=\sum_j p_jS_{j,\max}.
+3+2=5.
 \]
 
-Las listas de probabilidades e intervalos deben tener la misma longitud.
-
-### Ejemplo ejecutado
-
-Entrada:
-
-```json
-{
-  "probabilities": ["1/4", "3/4"],
-  "s_intervals": [["1/2", "3/4"], ["0", "1/4"]]
-}
-```
-
-El motor devuelve exactamente:
-
-```json
-[
-  {"numerator": 1, "denominator": 8},
-  {"numerator": 3, "denominator": 8}
-]
-```
-
-Por tanto, el intervalo ponderado es \([1/8,3/8]\).
-
-## 6. Sensibilidad estructural implementada
-
-El motor también implementa `s_structural`, que compara una distribución causal original \(P\) con una distribución obtenida después de sustituir un nodo, \(Q\):
+Luego se divide el peso causal entre el total:
 
 \[
-S_{\mathrm{structural}}
-=1-\frac{D_{\mathrm{KL}}(P\|Q)}{\ln(m)},
+S_{\mathrm{ratio}}=\frac35.
+\]
+
+La razón compara dos magnitudes; no cuenta ensayos ni promedia criterios documentales.
+
+## 5. Intervalo ponderado
+
+Si cada escenario tiene una probabilidad \(p_j\) y un intervalo de sustituibilidad \([S_{j,\min},S_{j,\max}]\), los extremos ponderados son:
+
+\[
+S_{\min}=\sum_jp_jS_{j,\min},
 \qquad
+S_{\max}=\sum_jp_jS_{j,\max}.
+\]
+
+### Ejemplo
+
+Considérense dos escenarios:
+
+\[
+p_1=\frac14,\quad [S_{1,\min},S_{1,\max}]=\left[\frac12,\frac34\right],
+\]
+
+\[
+p_2=\frac34,\quad [S_{2,\min},S_{2,\max}]=\left[0,\frac14\right].
+\]
+
+Límite inferior:
+
+\[
+S_{\min}
+=\frac14\cdot\frac12+\frac34\cdot0
+=\frac18+0
+=\frac18.
+\]
+
+Límite superior:
+
+\[
+S_{\max}
+=\frac14\cdot\frac34+\frac34\cdot\frac14
+=\frac3{16}+\frac3{16}
+=\frac6{16}
+=\frac38.
+\]
+
+Por tanto, el intervalo ponderado es:
+
+\[
+S\in\left[\frac18,\frac38\right].
+\]
+
+## 6. Sensibilidad estructural
+
+La sensibilidad estructural compara una distribución causal original \(P\) con una distribución \(Q\) obtenida después de sustituir un nodo. Se calcula mediante el complemento de la divergencia de Kullback–Leibler normalizada:
+
+\[
+S_{\mathrm{estructural}}
+=1-\frac{D_{\mathrm{KL}}(P\|Q)}{\ln(m)},
+\]
+
+donde \(m\) es el número de componentes y:
+
+\[
 D_{\mathrm{KL}}(P\|Q)
 =\sum_{i=1}^{m}p_i\ln\left(\frac{p_i}{q_i}\right).
 \]
 
-La operación requiere vectores de igual longitud, al menos dos componentes y valores estrictamente positivos. El motor evalúa logaritmos con aritmética decimal de alta precisión. Para la interpretación como comparación de distribuciones, las entradas se proporcionan como distribuciones normalizadas.
+Se emplea esta expresión cuando \(P\) y \(Q\) son distribuciones con componentes positivos. El cálculo de logaritmos produce aproximaciones decimales.
 
-### Ejemplo ejecutado
+### Ejemplo: distribuciones cercanas
 
-Entrada:
-
-```json
-{
-  "r_star": [".6", ".4"],
-  "r_star_substituted": [".5", ".5"]
-}
-```
-
-Salida del motor:
-
-```text
-0.97095059445466863899807606312070027060894274840910
-```
-
-La salida pertenece a esta operación estructural y no debe sustituirse por el score aplicado ni por la frecuencia de ensayos.
-
-La fórmula implementada no impone por sí sola que el resultado esté entre cero y uno. Por ejemplo, para \(P=(0.99,0.01)\) y \(Q=(0.01,0.99)\), el motor devuelve:
+Sean:
 
 \[
--5.4967694876780174267247041159289974566984031342454.
+P=(0.6,0.4),\qquad Q=(0.5,0.5),\qquad m=2.
 \]
 
-Así, el resultado de esta operación se conserva tal como lo calcula el motor y se interpreta con su expresión matemática completa; no se recorta al intervalo \([0,1]\).
+Primero se calcula la divergencia:
 
-## 7. Qué operación elegir
+\[
+D_{\mathrm{KL}}(P\|Q)
+=0.6\ln\left(\frac{0.6}{0.5}\right)
++0.4\ln\left(\frac{0.4}{0.5}\right)
+\]
 
-| Operación del motor | Entradas | Resultado |
+\[
+=0.6\ln(1.2)+0.4\ln(0.8)
+\approx0.0201355.
+\]
+
+Como \(\ln(2)\approx0.6931472\):
+
+\[
+S_{\mathrm{estructural}}
+=1-\frac{0.0201355}{0.6931472}
+\approx1-0.0290494
+\approx0.9709506.
+\]
+
+### Ejemplo: distribuciones muy distintas
+
+Sean:
+
+\[
+P=(0.99,0.01),\qquad Q=(0.01,0.99),\qquad m=2.
+\]
+
+La divergencia es:
+
+\[
+D_{\mathrm{KL}}(P\|Q)
+=0.99\ln(99)+0.01\ln\left(\frac1{99}\right).
+\]
+
+Como \(\ln(1/99)=-\ln(99)\):
+
+\[
+D_{\mathrm{KL}}(P\|Q)
+=(0.99-0.01)\ln(99)
+=0.98\ln(99)
+\approx4.5032175.
+\]
+
+Entonces:
+
+\[
+S_{\mathrm{estructural}}
+=1-\frac{4.5032175}{0.6931472}
+\approx1-6.4967695
+\approx-5.4967695.
+\]
+
+Esta fórmula puede producir valores negativos. La expresión \(1-D_{\mathrm{KL}}/\ln(m)\) no garantiza por sí sola un resultado dentro de \([0,1]\); su salida se conserva con el signo y la magnitud que resulten de la operación.
+
+## 7. Selección e interpretación
+
+| Estimador | Datos que utiliza | Qué calcula |
 | --- | --- | --- |
-| `s_discrete` | Tres criterios en \(\{0,1/2,1\}\) | Promedio aplicado |
-| `substitutability_probability` | Reemplazos con resultado igual / ensayos elegibles | Frecuencia observada |
-| `s_ratio` | Peso causal y peso volitivo comparables | Razón local |
-| `s_interval` | Probabilidades de escenarios e intervalos de \(S\) | Intervalo ponderado |
-| `s_structural` | Distribución original y distribución sustituida | Complemento normalizado de divergencia KL |
+| \(S_{\mathrm{app}}\) | Tres criterios documentales en escala discreta | Promedio de criterios |
+| \(S_{\mathrm{prob}}\) | Reemplazos elegibles y resultados observados | Frecuencia de conservación del resultado |
+| \(S_{\mathrm{ratio}}\) | Peso causal y peso volitivo | Proporción de un peso respecto del total |
+| Intervalo ponderado | Probabilidades e intervalos por escenario | Límites agregados de \(S\) |
+| \(S_{\mathrm{estructural}}\) | Distribución original y distribución sustituida | Complemento normalizado de divergencia |
 
-La elección se declara junto con el resultado. Un valor de \(1/2\) producido por el promedio de tres criterios no representa el mismo procedimiento que un valor de \(1/2\) obtenido en dos reemplazos de cuatro, aunque las salidas numéricas coincidan.
+Se declara qué estimador se utilizó, qué datos lo alimentan y qué significa su salida. Estos procedimientos no se sustituyen entre sí por compartir el símbolo \(S\).
 
 ## 8. Responsabilidad neta
 
-Una vez seleccionado y calculado el valor de \(S_i\), el motor obtiene la responsabilidad neta del nodo:
+Una vez establecido \(S_i\), la responsabilidad neta del nodo se calcula así:
 
 \[
 R^*_{\mathrm{neta},i}=R^*_i(1-S_i).
 \]
 
-En forma vectorial, el producto se calcula componente a componente:
+Para un vector, el producto se realiza componente a componente:
 
 \[
 R^*_{\mathrm{neta}}=R^*\odot(\mathbf{1}-S).
 \]
 
-La entrada de \(R^*\) y la de \(S\) deben tener la misma longitud. \(S_i\) debe corresponder al estimador elegido y al mismo nodo que \(R^*_i\).
+Cada valor de \(S_i\) debe corresponder al mismo nodo que \(R^*_i\) y al estimador elegido para el análisis.
 
-### Ejemplo ejecutado
+### Ejemplo
 
-Para ilustrar el cálculo, se ingresan \(R^*=(2/7,5/7)\) y dos valores de sustituibilidad obtenidos con el estimador por ensayos: \(S=(1/2,3/4)\).
+Sean:
 
-Entrada de `rnet`:
+\[
+R^*=\left(\frac27,\frac57\right),
+\qquad
+S=\left(\frac12,\frac34\right).
+\]
 
-```json
-{
-  "r_star": [
-    {"numerator": 2, "denominator": 7},
-    {"numerator": 5, "denominator": 7}
-  ],
-  "s": [
-    {"numerator": 1, "denominator": 2},
-    {"numerator": 3, "denominator": 4}
-  ]
-}
-```
+Para el primer nodo:
 
-El motor devuelve:
+\[
+R^*_{\mathrm{neta},1}
+=\frac27\left(1-\frac12\right)
+=\frac27\cdot\frac12
+=\frac17.
+\]
 
-```json
-[
-  {"numerator": 1, "denominator": 7},
-  {"numerator": 5, "denominator": 28}
-]
-```
+Para el segundo:
 
-La primera componente es \((2/7)(1-1/2)=1/7\); la segunda es \((5/7)(1-3/4)=5/28\). El vector neto conserva el orden de nodos de \(R^*\).
+\[
+R^*_{\mathrm{neta},2}
+=\frac57\left(1-\frac34\right)
+=\frac57\cdot\frac14
+=\frac5{28}.
+\]
 
-## 9. Registro mínimo del cálculo
+Así:
 
-Todo resultado de sustituibilidad se acompaña de:
+\[
+R^*_{\mathrm{neta}}=\left(\frac17,\frac5{28}\right).
+\]
 
-1. nombre de la operación del motor;
-2. definición de sus entradas;
-3. fuente de los datos o criterios;
-4. vector o escalar de salida exacto;
-5. correspondencia entre cada componente de \(S\) y su nodo;
-6. operación usada para obtener \(R^*_{\mathrm{neta}}\), cuando corresponda.
+El vector conserva el orden de nodos de \(R^*\).
 
-Este registro permite reproducir el score y distinguir una comparación de criterios de un resultado experimental o estructural.
+## 9. Procedimiento de cálculo
+
+1. Elige el estimador de \(S\) adecuado para los datos disponibles.
+2. Calcula y conserva cada entrada y operación intermedia.
+3. Asocia cada valor de \(S_i\) con el nodo correspondiente.
+4. Comprueba que \(R^*\) y \(S\) tengan la misma longitud y orden.
+5. Calcula \(1-S_i\) para cada nodo.
+6. Multiplica cada \(R^*_i\) por el factor correspondiente.
+7. Registra el resultado como \(R^*_{\mathrm{neta}}\) e identifica el estimador de \(S\) utilizado.
