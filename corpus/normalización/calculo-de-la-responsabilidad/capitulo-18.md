@@ -420,8 +420,6 @@ Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y A
 
 Continúa en el Caso Eje — Institución de banca comercial
 
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
-
 banca comercial
 
 ### CASO EJE Institución de banca
@@ -444,8 +442,6 @@ Nota metodológica:  Este análisis no constituye opinión jurídica formal ni p
 
 El expediente activo ante la Fiscalía contiene dos hechos imputados al antiguo gerente de sucursal de una institución bancaria de gran escala. El investigado fue separado de la institución hace más de tres años como resultado de un
 
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
-
 banca comercial
 
 proceso de reorganización interna; no ha tenido ningún vínculo laboral con ella desde entonces y no ha tenido acceso a sus sistemas desde la fecha de separación. La denuncia penal fue presentada por la institución tres años después de esa separación, lo que constituye el primer elemento de análisis relevante: la institución conocía la fecha exacta de los hechos desde el primer día y eligió no actuar en el momento de los hechos ni en el momento de la separación.
@@ -457,8 +453,6 @@ El presente caso ha sido referenciado en el Capítulo 1 del libro como ilustraci
 La institución sostiene que el antiguo gerente instruyó a dos subordinadas para que descargaran información del expediente de un cliente desde el sistema institucional. La evidencia disponible en el expediente es:
 
 • Un acta de hechos firmada por las subordinadas y por el antiguo gerente. Las subordinadas manifiestan en el acta haber recibido la instrucción del gerente, pero declaran expresamente no contar con documentación que avale dicha afirmación. El gerente firmó el acta en calidad de parte presente, sin impugnar en ese momento el contenido de las declaraciones. • Registros de acceso al sistema que confirman que las subordinadas accedieron efectivamente al expediente del cliente y descargaron información. Estos registros no muestran acceso del gerente.
-
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
 
 banca comercial
 
@@ -472,8 +466,6 @@ La institución argumenta que el acceso no correspondía al perfil del gerente. 
 
 ⚠ La institución diseñó un rol que exige el acceso a expedientes de clientes y simultáneamente argumenta que ese acceso era indebido. Esa contradicción es el elemento de diseño institucional con mayor R* en este hecho: la
 
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
-
 banca comercial
 
 ambigüedad del perfil de puesto fue creada por la institución, no por el gerente.
@@ -483,8 +475,6 @@ ambigüedad del perfil de puesto fue creada por la institución, no por el geren
 La institución conocía la fecha exacta de ambos hechos desde el momento en que ocurrieron. No presentó denuncia en ese momento. No la presentó en el momento de la separación laboral del gerente. La presentó tres años después. Esa dilación tiene tres consecuencias para el análisis:
 
 • Para el tipo penal: los plazos de prescripción y la frescura de la evidencia se ven afectados por la dilación. La institución eligió el momento de la denuncia. • Para el análisis causal: la dilación de tres años es un dato del grafo. El α institucional en el período de los hechos (¿qué hizo la institución para prevenir o remediar los hechos cuando ocurrieron?) es prácticamente cero. • Para el análisis del B_total institucional: el momento de la denuncia coincide con un período en el que el gerente es un ex-empleado sin recursos institucionales de defensa, lo que maximiza la asimetría entre las partes.
-
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
 
 banca comercial
 
@@ -507,8 +497,6 @@ N2 Gerentes superiores / área de RRHH
 Diseño operativo
 
 Tomaron las decisiones específicas de separación y de presentación de la denuncia. Su R* es función del poder discrecional dentro del ego colectivo institucional.
-
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
 
 banca comercial
 
@@ -536,8 +524,6 @@ Nodo externo al grafo t₁
 
 El tercero que intentó el fraude en la sucursal del otro estado. No existe arista documentada entre N4 y N6. La imputación descansa en la proximidad temporal de dos días.
 
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
-
 banca comercial
 
 Nf1 Clientes (bien jurídico protegido)
@@ -564,8 +550,6 @@ N1 (institución) — decidió denunciar, eligió el momento,
 
 t₂ — El proceso
 
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
-
 banca comercial
 
 penal se activa. El análisis pregunta: ¿quién tiene mayor peso causal en el daño que el proceso produce sobre el antiguo gerente?
@@ -573,8 +557,6 @@ penal se activa. El análisis pregunta: ¿quién tiene mayor peso causal en el d
 construyó la narrativa. N4 pasa de potencial causante a víctima real del proceso.
 
 La inversión ontológica central:  En t₁, la denuncia del banco ubica a N4 (el gerente) como causante del daño. En t₂, el análisis del sistema lo ubica como receptor del daño. El proceso penal activo produce sobre el antiguo gerente un D_total real y calculable —costos legales, daño reputacional, pérdida de oportunidades laborales, daño psicológico— que el sistema puede cuantificar con la misma metodología que los capítulos anteriores.
-
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
 
 banca comercial
 
@@ -598,8 +580,6 @@ N1 — Institución
 
 ### 45.1 %
 
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
-
 banca comercial
 
 actuaron. Su α en t₁ era prácticamente cero: no actuó al saber de los hechos.
@@ -622,8 +602,6 @@ N4 — Antiguo gerente
 
 ### 10.4 %
 
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
-
 banca comercial
 
 R*_neta_N4 = R*_N4 × (1 − S_N4) = 0.104 × 0.10 =
@@ -643,8 +621,6 @@ El hecho 2 tiene una estructura más simple, pero con una brecha probatoria más
 Visualización del vector R* — Hecho 2:
 
 N1 Institución (diseño███████████████░░░░░░░░░░░░░░░░░ ░░░░░░░░ 38.2% creó la ambigüedad del perfil de puesto N5 Perfil de puesto (a███████████░░░░░░░░░░░░░░░░░░░░░░░░ ░░░░░ 28.5% document. que requiere Y prohíbe acceso N2 Gerentes superiores███████░░░░░░░░░░░░░░░░░░░░░░░ ░░░░░░░░░░ 18.1% diseñaron la denuncia tres años después N4 Antiguo gerente (acceso ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ░░░░ 15.2% acceso documentado; arista fraude: w=0
-
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
 
 banca comercial
 
@@ -668,8 +644,6 @@ N6 tercero desconocido
 
 Con D_total = 0, cualquier R* multiplicado por cero produce cero de ajuste debitor. El tipo penal del artículo 112 quater requiere daño al bien jurídico protegido. La estructura causal del hecho 2 no lo acredita.
 
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
-
 banca comercial
 
 ## §4. B_total de la institución: el beneficio de la imputación
@@ -689,8 +663,6 @@ $3.2M Estimado como fracción del costo de un incidente de seguridad documentado
 B1 — Protección reputacional
 
 Al presentar al antiguo gerente como el responsable de un posible incidente de seguridad, la institución protege su imagen ante reguladores y clientes. El incidente queda "resuelto" con un culpable externo.
-
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
 
 banca comercial
 
@@ -712,8 +684,6 @@ B4 — Evitar responsabilid ad por diseño del rol
 
 Al imputar al antiguo gerente, la institución evita tener que reconocer que el diseño
 
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
-
 banca comercial
 
 del perfil de puesto era ambiguo y que el sistema de acceso no tenía controles suficientes. Ese reconocimie nto habría requerido remediación regulatoria costosa.
@@ -733,8 +703,6 @@ Suma de los cuatro component es
 ### $10.1M − (0.03 × $10.1M) = $9.8M no asumido
 
 La institución obtuvo aproximadamente $9.8 millones de pesos de beneficio neto del proceso de imputación sin reconocer su posición causal en los hechos. Ese Δ_B positivo es la medida del fraude annona corporativo en este caso.
-
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
 
 banca comercial
 
@@ -757,8 +725,6 @@ Honorarios de abogado penalista estimados en $180,000-$350,000 MXN por año de p
 T_impedido Pérdida de ingresos y oportunidades por el proceso activo.
 
 El antiguo gerente no puede acceder a posiciones en el sector bancario mientras el proceso está activo (antecedentes en CNBV y sistemas del sector): pérdida de ingreso
-
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
 
 banca comercial
 
@@ -786,8 +752,6 @@ horas de vida (estimación central)
 
 El D_proceso incluye un componente que los análisis legales convencionales raramente cuantifican: el daño psicológico, familiar y social del proceso activo. El antiguo gerente vive con la incertidumbre del proceso durante años; su familia comparte ese estado; sus relaciones sociales y
 
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
-
 banca comercial
 
 profesionales se ven afectadas por el estigma del proceso. Esos componentes no tienen valor de mercado directo, pero tienen D_vital medible: son tiempo de vida en condiciones de calidad reducida.
@@ -803,8 +767,6 @@ vida en condiciones adversas
 El D_total ajustado por calidad de vida durante el proceso:
 
 D_vital_total ≈ 126,250 + 9,198 ≈ 135,448 horas
-
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
 
 banca comercial
 
@@ -822,8 +784,6 @@ t₂ — En el momento de la denuncia (tres años después):
 
 Anteros     ██████████░░░░░░░░░░ 52% — construcción deliberada de la narrativa de culpabilidad del antiguo gerente Potós       ██████░░░░░░░░░░░░░░ 30% — persistencia en la misma narrativa sin revisión
 
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
-
 banca comercial
 
 Fobos       ██░░░░░░░░░░░░░░░░░░ 12% — miedo a que el proceso revele las deficiencias del diseño Deimos      █░░░░░░░░░░░░░░░░░░░   5% — mínimo Eros        ░░░░░░░░░░░░░░░░░░░░   1% — ausente Harmonía    ░░░░░░░░░░░░░░░░░░░░   0% — completamente ausente en t₂
@@ -840,15 +800,11 @@ Fobos       ████████░░░░░░░░░░░░ 38% —
 
 Fobos       ████████░░░░░░░░░░░░ 40% — miedo constante ante la amenaza penal
 
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
-
 banca comercial
 
 Deimos      ██████░░░░░░░░░░░░░░ 28% — parálisis ante el proceso y sus implicaciones Potós       ████░░░░░░░░░░░░░░░░ 20% — anhelo de la vida laboral anterior al proceso Anteros     ██░░░░░░░░░░░░░░░░░░   8% — defensa de su posición ante la imputación Eros        █░░░░░░░░░░░░░░░░░░░   4% — mínima orientación hacia la resolución del proceso Harmonía    ░░░░░░░░░░░░░░░░░░░░   0% — ausente: el proceso impide la integración
 
 Antiguo gerente:  El perfil Peribea del antiguo gerente en t₁ es el diagnóstico más importante del caso: actuó desde Fobos (miedo a las consecuencias de no seguir el protocolo) y Deimos (vértigo ante la ambigüedad). Ese perfil es incompatible con el dolo requerido por el tipo penal del artículo 112 quater. No hay Anteros deliberado. No hay iniciativa idiosincrática. Es el perfil del empleado que actúa dentro del sistema institucional por obediencia y miedo, no por diseño propio.
-
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
 
 banca comercial
 
@@ -867,8 +823,6 @@ Componente Descripción α institución
 FA1 — Diseño ambiguo del rol
 
 El perfil de puesto documentado públicamente exige acceso a expedientes ("comprobaciones diarias", "investigar pérdidas controlables") y simultáneamente sirve de base para
-
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
 
 banca comercial
 
@@ -891,8 +845,6 @@ La institución conocía los hechos el mismo día en que ocurrieron. Eligió no 
 ### 0.35 = 1.08
 
 Un Δ mayor que 1.0 es matemáticamente posible cuando el actor tiene múltiples componentes de responsabilidad causal distintas que se acumulan. En este caso, la institución tiene tres vectores de fraude annona independientes que suman 1.08 de déficit de asunción. Eso no significa que asumió menos que cero — significa que el sistema mide tres incumplimientos distintos del contrato institucional
-
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
 
 banca comercial
 
@@ -944,8 +896,6 @@ banca comercial
 
 ### produce beneficio positivo incluso después de pagar el α diferido.
 
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
-
 banca comercial
 
 ## §8. El Índice de Integridad Corporativa (IIC): la disforia de identidad institucional
@@ -969,8 +919,6 @@ Integridad Diseñó un rol ambiguo y usó
 0.15
 
 Alta divergencia: el
-
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
 
 banca comercial
 
@@ -1022,8 +970,6 @@ P ≈ σ (−3.2 + 2.8×0.70 + 1.6× (1−0.125) + 2.1×0.52 +
 
 La probabilidad de un evento de colapso de gobernanza en esta institución en un horizonte de cinco años es del 91% dado su IIC, su perfil de Anteros institucional, y la fungibilidad de su consejo. Ese número no es una predicción: es la consecuencia lógica de operar con una brecha de integridad de esa magnitud durante un tiempo suficiente.
 
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
-
 banca comercial
 
 ## §9. El Índice de Justicia Estructural del sistema
@@ -1056,8 +1002,6 @@ N4 — Antiguo gerente
 
 Un J negativo es posible cuando los Δ son tan extremos que su suma supera 1.0. El J = −0.632 es el valor más bajo del libro — por debajo incluso del redlining (J = 0.04) y del juicio de Bhopal (J = 0.08). Un J negativo significa que el sistema no solo no distribuyó justamente la responsabilidad: la distribuyó de manera inversa a la que la causalidad indica.
 
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
-
 banca comercial
 
 ### Visualización del J por casos comparativos del libro:
@@ -1065,8 +1009,6 @@ banca comercial
 Caso Eje (banca comerc░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ░░░░░░░░    0% J = −0.632 ← peor distribución del libro Redlining EE.UU. ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ░░░░    4% J = 0.04 Bhopal 1984 ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ░░░░    8% J = 0.08 Triangle Shirtwaist █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ░░░░   12% J = 0.12 Challenger 1986 ████████████░░░░░░░░░░░░░░░░░░░░░░░░ ░░░░   30% J = 0.30 Crisis 2008 (Lehman) ████████████████████████░░░░░░░░░░░░ ░░░░   60% J = 0.60 Empresa sana (referenc███████████████████████████████ █████░░░░   90% J = 0.90
 
 Conclusión del Caso Eje:  El Caso Eje produce el Índice de Justicia Estructural más bajo de todo el libro. Eso no significa que sea el caso con el daño más grande (Bhopal, el redlining y la Primera Guerra Mundial producen D_vital muy superiores). Significa que la distribución de responsabilidad que el sistema legal produjo es la más alejada de la distribución causal real. El nodo de mayor R* asumió el 3% de su responsabilidad; el nodo de menor R* asumió el equivalente al 96x de la suya.
-
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
 
 banca comercial
 
@@ -1088,8 +1030,6 @@ Conclusión del Caso Eje:  Cuando D = 0, cualquier distribución de R* produce a
 
 La firma del antiguo gerente en el acta de hechos no constituye una admisión de los hechos que las subordinadas
 
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
-
 banca comercial
 
 describen. Constituye evidencia de que estuvo presente cuando esas declaraciones fueron levantadas. Las subordinadas reconocen expresamente en la propia acta que no tienen documentación que respalde su dicho. Esa brecha —entre el dicho sin respaldo documental y el hecho digital documentado— es la brecha probatoria más importante del expediente.
@@ -1109,8 +1049,6 @@ ambos hechos)
 La responsabilidad causal neta del antiguo gerente, incluso aceptando los hechos como los describe la acusación, es el 1.04% de un daño que además no está demostrado.
 
 ### 10.4 Cuarta conclusión: el perfil de hijos descarta el dolo
-
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
 
 banca comercial
 
@@ -1136,15 +1074,11 @@ El AD de la institución sobre el D_total al cliente es cero (porque D_cliente =
 
 En t₂, el antiguo gerente no es el causante del daño. Es el receptor de un D_total de $10.1M MXN estimados, producido por un proceso que la institución diseñó
 
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
-
 banca comercial
 
 deliberadamente, que la institución activó estratégicamente en el momento de mayor asimetría, y que tiene base causal demostrable de cero en el expediente. Esa inversión ontológica —el investigado como víctima real— es la paradoja central del caso y el elemento que hace de él la demostración más completa y más perturbadora del libro.
 
 Conclusión del Caso Eje:  El Caso Eje es el único del libro donde el nodo designado como responsable por el sistema legal (el antiguo gerente, Δ = −0.896) es al mismo tiempo el nodo que sufre el mayor daño per cápita del proceso. En todos los demás casos del libro, el nodo con Δ negativo (que asumió más de lo que causó) sufre injusticia distributiva. En el Caso Eje, esa injusticia distributiva está acompañada de un proceso penal activo que produce el daño mientras pretende aplicar la justicia.
-
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
 
 banca comercial
 
@@ -1170,13 +1104,9 @@ La alternativa: aceptar una resolución que minimice el daño a corto plazo pero
 
 La resolución del dilema de Aquiles en este caso requiere que el antiguo gerente pueda actuar desde Anteros — desde la afirmación de que la distribución causal real es la que el análisis describe — con suficiente apoyo técnico para que
 
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
-
 banca comercial
 
 ese Anteros no se convierta en Fobos ante la complejidad del proceso. El análisis del Caso Eje es parte de ese apoyo técnico: convierte la intuición de la injusticia en un argumento cuantificado.
-
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
 
 banca comercial
 
@@ -1228,8 +1158,6 @@ J (justicia estructural)
 
 −0.632 (más bajo del libro)
 
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
-
 banca comercial
 
 91% N/A
@@ -1244,10 +1172,6 @@ Lo que el sistema produce en este caso no es solo un análisis técnico. Es la d
 
 ### Eso es exactamente para lo que se construyó el sistema.
 
-El Cálculo de la Responsabilidad · Caso Eje — Institución de
-
 banca comercial
 
 Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026
-
-El Cálculo de la Responsabilidad · Apéndices

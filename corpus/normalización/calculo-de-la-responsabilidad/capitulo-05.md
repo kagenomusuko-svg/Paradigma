@@ -428,8 +428,7 @@ $$w(N2→N3) =0.70 w(N3→Nf) =0.65 w(N4→Nf)$$
 
 $$=0.45$$
 
-### Resultado de R* tras convergencia:
-
+**Resultado de \(R^*\) tras convergencia:**
 Factor R* S estimado
 
 Interpretación
