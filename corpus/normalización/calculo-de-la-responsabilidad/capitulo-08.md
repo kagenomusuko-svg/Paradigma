@@ -586,7 +586,7 @@ Un Δ negativo después de la auditoría indica que el directivo asumió más de
 
 La paradoja del redlining algorítmico:  El algoritmo no discrimina con intención. Discrimina con precisión estadística. Esa es la forma más eficiente de discriminación que ha existido en la historia del crédito: produce resultados racialmente sesgados sin que ningún actor individual pueda ser señalado como racista en el sentido tradicional. El sistema de imputación causal es el único instrumento analítico que puede distribuir la responsabilidad en ese escenario porque no necesita intención: necesita posición causal. Y la posición del directivo que aprobó el modelo sin auditar es causalmente determinante.
 
-## §5. Límites del método en score crediticio
+## §5. Alcance y parámetros del método en score crediticio
 
 ### 5.1 El problema de la causalidad reversa en el crédito
 

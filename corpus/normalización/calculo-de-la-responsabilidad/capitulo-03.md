@@ -640,7 +640,7 @@ El sistema como herramienta neutral en un debate político:  El cálculo de la r
 
 deudas históricas
 
-## §5. Límites del método en el dominio histórico
+## §5. Alcance y parámetros del método en el dominio histórico
 
 ### 5.1 El problema del contrafáctico histórico
 

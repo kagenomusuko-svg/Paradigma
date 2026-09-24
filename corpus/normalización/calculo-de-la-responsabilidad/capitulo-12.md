@@ -584,7 +584,7 @@ La condición para que el sistema aprenda genuinamente no es el proceso forense 
 
 confiabilidad
 
-## §5. Límites del método en ingeniería de sistemas
+## §5. Alcance y parámetros del método en ingeniería de sistemas
 
 ### 5.1 El problema de los fallos concurrentes
 
@@ -680,6 +680,7 @@ confiabilidad
 
 S={si:.2f}  Δ={di:+.3f}{flg}")  J_ch = res_ch['J_sistema'] print(f"\nJ_sistema (Challenger):  {J_ch:.3f}")  ias = indice_aprendizaje_sistemico(0.10, J_ch) print(f"IAS post-Rogers: {ias['IAS']:.3f}  ({ias['nivel']})") ias2 = indice_aprendizaje_sistemico(J_ch, 0.60) print(f"IAS necesario para prev. 737MAX: {ias2['IAS']:.3f} adicionales")
 
-Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026 Continúa en el Capítulo 13 — Inteligencia artificial y algoritmos de decisión
+*Miguel Hilario Olvera Aguilar*  
+*Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026*
 
 El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión

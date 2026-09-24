@@ -532,7 +532,7 @@ Anteros     ████░░░░░░░░░░░░░░░░ 22%  �
 
 El pronóstico no predice la resolución del proceso legal (que es independiente del proceso de duelo) sino la capacidad del doliente de llevar consigo la pérdida sin que eso paralice su vector de voluntad hacia la vida.
 
-## §5. Límites del método en tanatología
+## §5. Alcance y parámetros del método en tanatología
 
 ### 5.1 El peligro de la sobre-formalización en el duelo
 

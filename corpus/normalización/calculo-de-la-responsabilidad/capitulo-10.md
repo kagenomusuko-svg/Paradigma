@@ -532,7 +532,7 @@ El análisis causal del Caso B produce un conjunto de principios de diseño de p
 
 Estos principios de diseño no son solo más justos en términos distributivos: son más eficientes en términos actuariales porque reducen la siniestralidad al mantener los incentivos de prevención en los nodos que tienen mayor control causal sobre el riesgo.
 
-## §5. Límites del método en seguros y actuaría
+## §5. Alcance y parámetros del método en seguros y actuaría
 
 ### 5.1 El problema de los siniestros de causación múltiple simultánea
 

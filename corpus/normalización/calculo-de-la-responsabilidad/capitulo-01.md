@@ -560,7 +560,7 @@ El análisis causal del expediente activo produce tres conclusiones estructurale
 
 El caso completo —incluyendo el análisis del B_total institucional, el D_total al antiguo gerente como consecuencia de la imputación, el fraude annona de la institución hacia su ex empleado y la ontología completa de todos los nodos en dos momentos temporales— se desarrolla en el Caso Eje al final del libro.
 
-## §5. Límites del método en derecho
+## §5. Alcance y parámetros del método en derecho
 
 ### 5.1 Causalidad difusa acumulativa
 

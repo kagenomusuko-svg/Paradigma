@@ -520,7 +520,7 @@ La reducción de 0.82 a 0.52 en el ICRS total no es una garantía de continuidad
 
 El valor del análisis preventivo:  La empresa del caso B no está en quiebra. Está en riesgo de quiebra evitable si no actúa. El ICRS como instrumento de diagnóstico preventivo —aplicado antes del colapso, no como análisis forense post-quiebra— es donde el sistema produce su mayor valor en el dominio empresarial. Identificar que N2 (el proveedor único) tiene S = 0.20 con R* = 0.32 antes de que P falle es la diferencia entre una empresa que tiene tiempo de certificar alternativas y una empresa que colapsa por una contingencia que era calculable.
 
-## §5. Límites del método en quiebra y riesgo sistémico
+## §5. Alcance y parámetros del método en quiebra y riesgo sistémico
 
 ### 5.1 El problema de los pesos dinámicos en crisis
 

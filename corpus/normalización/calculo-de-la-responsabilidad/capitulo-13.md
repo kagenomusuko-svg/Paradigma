@@ -606,7 +606,7 @@ Si la respuesta a la pregunta 3 es sí, el diseñador de la métrica tiene R* po
 
 El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
-## §5. Límites del método en IA y algoritmos
+## §5. Alcance y parámetros del método en IA y algoritmos
 
 ### 5.1 El problema de la definición del daño en sistemas de recomendación
 

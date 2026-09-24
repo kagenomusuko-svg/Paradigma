@@ -512,7 +512,7 @@ VW pagó ~$30,000 millones en acuerdos y multas: el 133% del AD de N1 y el 278% 
 
 su posición causal en términos de pago, aunque los ejecutivos clave no sufrieron consecuencias penales proporcionadas. Los ingenieros procesados penalmente asumieron más que su AD proporcional en términos de consecuencias personales. J_Dieselgate ≈ 0.55: moderadamente injusto en la distribución personal, aunque el total pagado por VW fue sustancial.
 
-## §5. Límites del método en gobierno corporativo
+## §5. Alcance y parámetros del método en gobierno corporativo
 
 ### 5.1 La opacidad del proceso interno de decisión
 

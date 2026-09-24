@@ -512,7 +512,7 @@ Ningún miembro de la administración Bush fue procesado penalmente por la invas
 
 geopolítico
 
-## §5. Límites del método en el análisis histórico
+## §5. Alcance y parámetros del método en el análisis histórico
 
 ### 5.1 El problema de la inobservabilidad del contrafáctico
 

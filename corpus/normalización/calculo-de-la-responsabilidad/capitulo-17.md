@@ -516,7 +516,7 @@ El sistema es igualador en ese sentido: no favorece automáticamente a ninguna d
 
 contribución
 
-## §5. Límites del método en el análisis deportivo
+## §5. Alcance y parámetros del método en el análisis deportivo
 
 ### 5.1 El problema de las contribuciones no estadísticas
 

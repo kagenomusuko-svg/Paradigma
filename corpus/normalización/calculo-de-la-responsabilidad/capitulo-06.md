@@ -668,7 +668,7 @@ N5 — Comunicación
 
 comunicación documentado.
 
-## §5. Límites del método en epidemiología
+## §5. Alcance y parámetros del método en epidemiología
 
 ### 5.1 La incertidumbre sobre los pesos en tiempo real
 

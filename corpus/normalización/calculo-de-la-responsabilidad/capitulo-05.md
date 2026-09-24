@@ -601,7 +601,7 @@ Este es el componente más importante para motivar la intervención: ¿cuánto d
 
 B_terapéutico estimado con intervención sobre N2 y N4: la reducción del ΔT_trayectoria es el componente de mayor impacto. No significa que el paciente abandone su carrera actual: significa que la relación con esa carrera cambia de obligación-sin-salida a elección-con-alternativas. Esa transformación tiene un valor biográfico que trasciende cualquier cuantificación.
 
-## §5. Límites del método en psicología clínica y psiquiatría
+## §5. Alcance y parámetros del método en psicología clínica y psiquiatría
 
 ### 5.1 Los pesos son cualitativos, no medibles directamente
 

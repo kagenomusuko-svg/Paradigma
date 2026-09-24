@@ -706,7 +706,7 @@ $D_{vital,fiscal} \\approx $155,000,000,000 / $8 = 19,375,000,000$
 
 Diecinueve mil millones de horas de vida fiscal representan el servicio público que los ciudadanos de los países afectados financiaron con sus impuestos y que no recibieron porque los recursos fueron desviados hacia estructuras offshore. No son horas de vida destruidas directamente como en el Holocausto: son horas de vida de personas que trabajaron, pagaron impuestos y no recibieron a cambio la consulta médica, la carretera, la escuela o la pensión que esos impuestos debían financiar. Es la expresión fiscal del fraude annona a escala global.
 
-## §5. Límites del método en PLD
+## §5. Alcance y parámetros del método en PLD
 
 ### 5.1 Nodos inferidos y evidencia directa
 

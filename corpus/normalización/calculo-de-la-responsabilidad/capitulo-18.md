@@ -352,7 +352,7 @@ La tesis narrativa de Martin vs. la tesis narrativa de Tolkien:  La ficción ép
 
 los ejércitos del Este no se detienen. Martin construyó un universo donde el mayor R* pertenece frecuentemente al nodo invisible: sin Tywin, los Lannister habrían caído décadas antes de la guerra. Esa diferencia no es una diferencia de calidad narrativa sino de proposición moral: Tolkien propone que el acto individual del héroe puede cambiar el curso del mundo; Martin propone que el poder es el diseño invisible de condiciones, no el acto heroico visible.
 
-## §5. Límites del método en literatura y análisis cultural
+## §5. Alcance y parámetros del método en literatura y análisis cultural
 
 ### 5.1 El riesgo de la reducción: cuando el análisis aplana la riqueza literaria
 

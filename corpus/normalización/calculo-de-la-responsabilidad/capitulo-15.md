@@ -436,7 +436,7 @@ El análisis produce cuatro recomendaciones que la impugnación puede formalizar
 
 4.  Aumentar el R* del sistema educativo en esa escuela abordando los factores de mayor peso causal: biblioteca funcional, programa de trabajo con familias, reducción de la tasa de ausentismo mediante intervenciones en el entorno.
 
-## §5. Límites del método en educación
+## §5. Alcance y parámetros del método en educación
 
 ### 5.1 El problema del tiempo: el R* del docente se manifiesta a largo plazo
 
