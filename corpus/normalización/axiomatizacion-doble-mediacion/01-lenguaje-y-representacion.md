@@ -22,7 +22,7 @@ La arista \(N_i\to N_j\) indica que, dentro del modelo, la actividad o condició
 
 ## 2. Pesos y matriz de relaciones
 
-El elemento \(w_{ij}\) registra el peso asignado a la influencia de \(N_i\) sobre \(N_j\). Si no se representa una arista entre ambos nodos, \(w_{ij}=0\). Para las matrices procesadas por el motor, los pesos son no negativos. Cada fila no terminal se normaliza para que la suma de sus pesos sea igual a uno; la fila del nodo terminal es cero.
+El elemento \(w_{ij}\) registra el peso asignado a la influencia de \(N_i\) sobre \(N_j\). Si no se representa una arista entre ambos nodos, \(w_{ij}=0\). En esta representación, los pesos son no negativos. Cada fila no terminal se normaliza para que la suma de sus pesos sea igual a uno; la fila del nodo terminal es cero.
 
 \[
 w_{ij}\geq 0,\qquad
