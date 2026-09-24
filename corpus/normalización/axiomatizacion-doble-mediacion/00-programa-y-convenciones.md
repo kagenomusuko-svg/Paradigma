@@ -83,3 +83,8 @@ Las fuentes se usan según la función que cumplen: definición conceptual, form
 ### Orden de trabajo
 
 La reconstrucción avanza desde el lenguaje y la estructura causal hasta las operaciones compuestas. Antes de redactar cada parte se contrastan sus fórmulas con el manuscrito, las fuentes normalizadas pertinentes, el glosario y el comportamiento del motor. Después se incorporan derivaciones y ejemplos reproducibles. El manuscrito canónico permanece separado de esta versión de trabajo.
+
+
+### Ejecución de los ejemplos numéricos
+
+Cada ejemplo numérico del libro se ejecuta con la operación correspondiente de `prometeo-motor-calculo`. El texto conserva las entradas suficientes para repetir la ejecución y presenta la salida exacta del motor: fracciones racionales para las operaciones exactas y la precisión decimal devuelta para operaciones que usan logaritmos, exponenciales u otras funciones no racionales. Las expresiones decimales se ingresan como cadenas cuando la interfaz del motor lo requiere.
