@@ -264,3 +264,26 @@ Para ejecutar el cálculo:
 9. verifica que las componentes de \(R^*\) sumen uno.
 
 El informe del cálculo conserva \(Q_D\), \(b_D\), las operaciones de resolución, \(r_D\), \(Z_D\) y \(R^*\). Así puede revisarse tanto la representación inicial como cada transformación posterior.
+
+
+## 12. Comprobación con el motor Prometeo
+
+La entrada exacta del ejemplo anterior se ejecutó con la fórmula `rstar` de `prometeo-motor-calculo/motor.py`:
+
+```json
+{
+  "q_d": [["0", "2/5"], ["0", "0"]],
+  "b_d": ["0", "1"]
+}
+```
+
+El motor devolvió:
+
+```json
+[
+  {"numerator": 2, "denominator": 7},
+  {"numerator": 5, "denominator": 7}
+]
+```
+
+El vector es \((2/7,5/7)\). La traza del motor conserva la eliminación gaussiana, el vector previo a la normalización \((2/5,1)\) y la suma de normalización \(7/5\).
