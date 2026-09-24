@@ -22,7 +22,7 @@ La primera dimensión es la opacidad deliberada. En el fraude corporativo, el di
 
 La segunda dimensión es la multiplicación de jurisdicciones. El fraude corporativo ocurre, típicamente, dentro de las fronteras de un sistema jurídico que puede investigar con un solo expediente. El lavado de dinero atraviesa fronteras por diseño: cada jurisdicción ve solo su nodo, no el grafo completo. Ninguna autoridad tiene la visión del sistema
 
-entero a menos que coordine con todas las demás, y esa coordinación es precisamente lo que el diseño del esquema dificulta.
+### entero a menos que coordine con todas las demás, y esa coordinación es precisamente lo que el diseño del esquema dificulta.
 
 Analogía: La luz que llega de una estrella muerta El astrónomo que observa una estrella desde la Tierra ve la luz que salió hace miles de años: la estrella puede ya no existir. El investigador de PLD que analiza una transacción ve el movimiento de dinero tal como llegó a su jurisdicción, no el origen que lo produjo hace meses o años y a miles de kilómetros. El grafo causal es el instrumento que permite reconstruir la fuente a partir de la luz que llegó.
 
@@ -288,11 +288,11 @@ Rechazo y reporte
 
 El déficit de compliance Δ = R* − α mide la brecha entre la necesidad causal del nodo en el esquema y su cumplimiento regulatorio. Un banco que procesó el 15% de los flujos del esquema (R* = 0.15) y tuvo due diligence insuficiente sin reportar (α = 0.10) tiene Δ = +0.05: un déficit moderado que sustenta una sanción regulatoria
 
-proporcional. Un arquitecto con R* = 0.60 y α = 0 tiene Δ = +0.60: es la señal más importante de la investigación.
+### proporcional. Un arquitecto con R* = 0.60 y α = 0 tiene Δ = +0.60: es la señal más importante de la investigación.
 
 ### 3.6 El daño total al sistema financiero
 
-El daño del lavado de dinero no se agota en los recursos ilícitos integrados en la economía. La descomposición en tres componentes revela la magnitud completa:
+### El daño del lavado de dinero no se agota en los recursos ilícitos integrados en la economía. La descomposición en tres componentes revela la magnitud completa:
 
 $D_{total} = T_{invertido} + T_{impedido} + \\Delta T_{trayectoria}$
 
@@ -342,7 +342,7 @@ Esta aplicación rompe uno de los obstáculos más frecuentes en los casos de ex
 
 Los hijos aplican en este dominio exclusivamente a los nodos humanos: el arquitecto, los intermediarios
 
-profesionales (abogados, contadores, asesores), los funcionarios bancarios y los testaferros. No aplican a los nodos instrumentales (empresas, cuentas, fideicomisos).
+### profesionales (abogados, contadores, asesores), los funcionarios bancarios y los testaferros. No aplican a los nodos instrumentales (empresas, cuentas, fideicomisos).
 
 La distinción más importante que los hijos aportan al análisis de PLD es la diferencia entre quien actúa desde Eros+Anteros (codicia deliberada, participación voluntaria en el esquema) y quien actúa desde Fobos o Deimos (miedo a represalias, ignorancia genuina de la naturaleza ilícita de la operación). Esta distinción afecta directamente la culpabilidad penal y el tipo de sanción aplicable, aunque no modifica R* ni Δ.
 
@@ -462,7 +462,7 @@ Nf Depositantes legítimos y sistema financiero
 
 ### A.4 R* y el análisis de sustituibilidad
 
-Aplicando el operador de responsabilidad con los pesos documentados en los informes del Senado norteamericano (Kerry Report, 1992) y de los liquidadores judiciales:
+### Aplicando el operador de responsabilidad con los pesos documentados en los informes del Senado norteamericano (Kerry Report, 1992) y de los liquidadores judiciales:
 
 Nodo R* est.
 
@@ -508,7 +508,7 @@ El resultado es inequívoco: el 48% de la necesidad causal del esquema residía 
 
 ### A.5 El daño total del BCCI
 
-El BCCI es uno de los pocos casos de lavado donde la escala del daño permite calcular los tres componentes con estimaciones documentadas:
+### El BCCI es uno de los pocos casos de lavado donde la escala del daño permite calcular los tres componentes con estimaciones documentadas:
 
 Componente Estimación documentada
 
@@ -532,7 +532,7 @@ D_total ~$45-59 mil millones USD
 
 Rango estimado. La incertidumbre es alta porque ΔT_trayectoria requiere modelar el desarrollo contrafáctico de las economías afectadas.
 
-Expresado en tiempo de vida ciudadana con w_ref = $8 USD/hora (PPP global 2024):
+### Expresado en tiempo de vida ciudadana con w_ref = $8 USD/hora (PPP global 2024):
 
 $D_{vital,BCCI} \\approx $52,000,000,000 / $8 ≈ 6,500,000,000$
 
@@ -602,13 +602,13 @@ Nf El fisco del país de origen / el sistema financiero
 
 Para ilustrar el cálculo con un caso típico de los Panama Papers, tomamos la estructura genérica de un funcionario público que utiliza el esquema para ocultar activos de origen ilícito. Los datos son estructuralmente representativos, aunque no corresponden a ningún caso específico identificado.
 
-Parámetros del grafo:
+### Parámetros del grafo:
 
 •  w (N1 → N2) = 0.90: el funcionario instruyó la creación de la estructura. Mossack Fonseca actuó bajo instrucción del cliente. •  w (N2 → N4) = 0.95: el despacho creó la empresa específica. Sin MF, la empresa no existiría en esa forma. •  w (N2 → N3) = 0.70: el despacho presentó al cliente al banco o facilitó la apertura de cuenta. •  w (N4 → N5) = 0.85: la primera empresa offshore controla las capas adicionales.
 
 •  w (N3 → Nf) = 0.80: el banco procesó los fondos que llegaron al sistema financiero formal. •  w (N6 → N4) = 0.20: el director nominal firmó los documentos, pero sin poder de decisión real.
 
-Resultado de R* tras convergencia:
+### Resultado de R* tras convergencia:
 
 Nodo R* S α Δ y significado
 
@@ -634,9 +634,9 @@ Nodo instrumental: R* apunta al controlador
 
 N6 — Testaferro
 
-* Mossack Fonseca tenía procesos de KYC (Know Your Customer) que en algunos casos documentaban conocimiento del perfil de riesgo del cliente.
+### * Mossack Fonseca tenía procesos de KYC (Know Your Customer) que en algunos casos documentaban conocimiento del perfil de riesgo del cliente.
 
-** El α del banco depende de si aplicó due diligence adecuada. En los casos donde los documentos de MF muestran que el banco conocía el perfil del cliente, α es bajo.
+### ** El α del banco depende de si aplicó due diligence adecuada. En los casos donde los documentos de MF muestran que el banco conocía el perfil del cliente, α es bajo.
 
 *** El testaferro tiene α = 100% forzado porque firmó todos los documentos y es el único identificable sin investigación adicional.
 
@@ -862,7 +862,7 @@ donde:
 
 El rango de Alerta(G) es [0, 4]: 0 si ninguna de las dos condiciones binarias se cumple, y valores crecientes según
 
-la gravedad de la asimetría y el perfil del compliance. Un umbral de Alerta > 2.0 activa due diligence reforzada; Alerta > 3.0 activa un proceso de revisión independiente.
+### la gravedad de la asimetría y el perfil del compliance. Un umbral de Alerta > 2.0 activa due diligence reforzada; Alerta > 3.0 activa un proceso de revisión independiente.
 
 ### El predictor en acción: retroaplicado al BCCI
 
