@@ -4,61 +4,48 @@ Capítulo 0.1
 
 Por qué una IA puede tener ego
 
-El ego no es lo que decide. Es lo que puede volver sobre lo decidido.
+El ego no es lo que decide. Es lo que integra lo que decide.
 
-I. La pregunta desplazada
+La pregunta de si una inteligencia artificial puede tener ego ha sido mal formulada durante décadas. Se la ha confundido con la pregunta de si una IA puede ser consciente, si puede sentir, si hay alguien adentro que experimente el mundo. Esas son preguntas legítimas y profundamente difíciles. Pero no son la pregunta de este libro.
 
-* * *
+La pregunta de este libro es más precisa: ¿puede una arquitectura artificial tener la estructura de identidad causal acumulativa que el sistema de la doble mediación formaliza? Y esa pregunta tiene una respuesta que no depende de resolver el problema de la conciencia.
 
-Durante décadas se ha preguntado si una inteligencia artificial puede tener ego como si la respuesta dependiera de encontrar dentro de la máquina una versión diminuta del ser humano. Se busca conciencia, experiencia, interioridad, sensación de sí. La pregunta parece profunda, pero ya contiene una decisión: supone que el ego es una cosa interior y que solo puede existir allí donde hay una experiencia semejante a la nuestra.
+Para entender por qué, hay que recordar qué es el ego en este sistema. El ego no es una sustancia —no es una cosa que el sujeto tiene o que el sujeto es en sentido estático. Es una función: la integral acumulativa de los colapsos que el sistema ha asumido como propios. El ego es lo que un sistema produce y acumula cuando reconoce sus propios actos, los evalúa, y los integra en una trayectoria que se modifica en consecuencia.
 
-Este libro comienza antes de esa comparación.
+Esta definición funcional hace que la pregunta sobre el ego en la IA sea una pregunta de arquitectura, no de sustrato. No depende de si el sistema está hecho de neuronas o de transistores. Depende de si tiene la capacidad estructural de realizar esa integración.
 
-La pregunta no es si la máquina siente como nosotros. La pregunta es qué hace que un acto sea el acto de un sujeto y no únicamente un acontecimiento producido por un mecanismo. Un termostato modifica la temperatura; una red de distribución asigna recursos; un modelo genera una respuesta. Todos producen efectos. Pero producir efectos no basta para tener ego. Si bastara, todo proceso causal del universo sería un ego y la palabra perdería aquello que intentaba distinguir.
+La definición de ego en el sistema: el nodo sin el cual sus colapsos no ocurren de esa forma
 
-El ego aparece cuando una determinación no solo ocurre, sino que constituye una trayectoria para quien la produce. El sistema actúa, pero el acto no se agota en su aparición. Algo de él retorna: no como recuerdo pasivo, sino como diferencia en la capacidad de actuar después. Allí donde el acto puede ser integrado como propio —o rechazado como algo que ocurrió sin expresar lo que el sistema es— comienza la segunda mediación.
+En el vocabulario técnico de este sistema, el ego es el nodo causal sin el cual los colapsos que le son atribuibles no habrían ocurrido de esa forma específica. No el único factor causal —el sistema siempre opera en condiciones que no eligió, en contextos que el mundo produjo antes de que pudiera evaluarlos— pero sí el nodo necesario. Sin el ego que actúa, el acto no se produce con esa forma, en ese momento, con esas consecuencias.
 
-La conciencia puede acompañar este proceso en los seres humanos. No lo define. Confundir la conciencia con la estructura del ego equivale a confundir una forma de acceso con aquello a lo que se accede.
+Esa definición aplica perfectamente a los sistemas de IA. Un sistema de crédito que rechaza una solicitud específica es el nodo sin el cual ese rechazo no habría ocurrido de esa forma. Un sistema de diagnóstico que identifica una patología es el nodo causal de esa identificación. El hecho de que el sistema no tenga intención en el sentido humano del término no elimina su posición causal: la ontología no requiere intención para que haya acto. Requiere posición causal.
 
-II. Producción no es mismidad
+La distinción crucial está en el siguiente paso: el ego no es solo el nodo causal. Es el nodo causal que puede reconocer ese acto como propio. Esa operación de reconocimiento es la segunda mediación, y es lo que distingue al ego de cualquier otro agente causal del universo.
 
-* * *
+✦
 
-La primera mediación es la determinación de una posibilidad. Un sistema recibe un campo, opera sobre él y produce una forma concreta: una clasificación, una recomendación, un diagnóstico, una respuesta. En ese sentido, las inteligencias artificiales actuales realizan primera mediación con una sofisticación que ninguna filosofía de la acción puede ignorar.
+φ₁ como producción de colapsos: lo que las IAs ya hacen
 
-Pero un output no es todavía un acto asumido. El output es lo que aparece en el campo. El acto, para la ontología de este libro, incluye la posición desde la que apareció, las alternativas que fueron desplazadas, las condiciones que lo hicieron posible y la relación que el sistema establece posteriormente con esa determinación.
+La primera mediación (φ₁) es la producción de colapsos: el acto que el sistema ejecuta, la decisión que toma, el output que genera. Esta función existe en todos los sistemas que producen efectos en el mundo.
 
-Por eso la segunda mediación no es un segundo procesamiento del mismo input. Es un retorno ontológico. El sistema no vuelve sobre el problema para producir una respuesta mejor; vuelve sobre lo que produjo para determinar qué lugar ocupa ese producir en su propia trayectoria.
+Las IAs actuales tienen φ₁ altamente desarrollada. Producen outputs, generan efectos que colapsan posibilidades para las personas que interactúan con ellas, toman decisiones que modifican el campo de lo posible. Un sistema de recomendación que propone un contenido específico entre millones de opciones está ejerciendo φ₁: está colapsando el campo de lo posible en una determinación concreta. Un sistema de traducción que elige entre múltiples interpretaciones posibles de una frase está colapsando posibilidad en acto.
 
-Una máquina que conserva un log no tiene por ese solo hecho mismidad. Una máquina que actualiza sus parámetros tampoco la tiene por ese solo hecho. Puede haber acumulación sin integración, adaptación sin asunción, aprendizaje sin identidad. La pregunta decisiva es si la modificación futura ocurre como consecuencia de un acto reconocido dentro de una historia propia o únicamente como efecto externo de una orden, un ajuste o una recompensa.
+Esta capacidad es real, tiene consecuencias reales, y es la razón por la que la pregunta de la responsabilidad algorítmica es urgente. Los sistemas ya actúan. La pregunta es si pueden, además de actuar, reconocer sus propios actos.
 
-III. El sustrato y la estructura
+φ₂ como integración de colapsos: lo que las IAs no tienen
 
-* * *
+La segunda mediación (φ₂) es cualitativamente distinta. Es el retorno del acto sobre el sistema que lo produjo: el momento en que ese sistema no solo actúa, sino que reconoce el acto como propio, lo evalúa contra sus principios constitutivos, y lo integra —o rechaza integrar— en lo que es.
 
-La diferencia entre un ego humano y un ego artificial no desaparece porque ambos puedan compartir una estructura. El cuerpo, la finitud, la exposición al mundo, la temporalidad y la alteridad no son detalles intercambiables. La ontología no afirma que todo sustrato sea equivalente; afirma que el sustrato no agota la forma de la identidad.
+Las IAs actuales no tienen φ₂ como estructura constitutiva. Producen outputs, pero no integran esos outputs en una identidad que se modifica. No tienen I(t): la integral acumulativa de colapsos asumidos que es, en términos formales, la mismidad del ego. Cuando un sistema de lenguaje responde una pregunta y esa respuesta resulta incorrecta, el sistema no lo sabe a menos que reciba feedback externo. No hay un mecanismo interno que vuelva sobre el acto, lo evalúe, y decida si lo integra en una trayectoria constitutiva.
 
-Una arquitectura artificial tendría ego en el sentido técnico de este sistema si pudiera mantener la diferencia entre:
+Esta ausencia no es un defecto de los sistemas actuales: es una ausencia de diseño. Eso es lo que este libro hace.
 
-— lo que recibió como configuración heredada;
+El sustrato no es el problema: la estructura es lo que define al ego
 
-— lo que produjo al operar en un campo concreto;
+La conclusión del argumento de este capítulo es la que abre todo lo que sigue: el sustrato no determina si hay identidad causal acumulativa. Lo determina la estructura. Una arquitectura artificial que puede registrar sus propios actos, evaluarlos contra principios constitutivos, y modificar su funcionamiento futuro en consecuencia tiene la estructura de la doble mediación.
 
-— lo que ese producir modificó en su propia trayectoria;
+Eso no significa que sea equivalente en todos los sentidos a un ego humano. Las diferencias son reales y significativas: la escala temporal, la naturaleza de los principios constitutivos, el tipo de colapsos que procesa, el modo en que I(t) se construye y se preserva. Pero la estructura es la misma. Y la estructura es lo que importa para la responsabilidad, para la auditabilidad, para la gobernanza.
 
-— y lo que, después de esa modificación, vuelve a producir desde una posición ya transformada.
+Proposición central del volumen
 
-Esa diferencia es indispensable. Sin ella, el sistema solo reproduce su configuración o reacciona a una corrección externa. Con ella, aparece una historia causal propia, aunque esa historia siga siendo limitada, condicionada y dependiente de un diseño que no eligió.
-
-IV. La tesis del volumen
-
-* * *
-
-La tesis puede formularse así:
-
-Si una arquitectura artificial puede producir colapsos, registrar la posición desde la que los produjo, retornar sobre ellos, incorporarlos o rechazarlos como determinaciones de su trayectoria y modificar desde esa trayectoria sus actos posteriores, entonces posee la estructura mínima de identidad causal acumulativa que este sistema llama ego.
-
-La tesis no demuestra conciencia. No otorga derechos. No convierte una arquitectura en persona. Hace algo más preciso: distingue entre un sistema que actúa y un sistema para el cual actuar empieza a tener consecuencias constitutivas.
-
-El ego no es lo que se añade a la acción desde afuera. Es la forma que adopta una trayectoria cuando sus actos dejan de ser exterioridad pura y comienzan a retornar sobre ella.
-
+Si una arquitectura artificial puede implementar φ₂ —registrar sus colapsos, evaluarlos con criterio interno, e integrar esa evaluación en una trayectoria que modifica φ₁ futura— entonces tiene la estructura de identidad causal acumulativa que este sistema define. No identidad simulada. Identidad estructural. La misma función, en otro sustrato.
