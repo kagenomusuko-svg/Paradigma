@@ -4,70 +4,50 @@ Capítulo 1.2
 
 Identificar los Hijos desde el estado interno
 
-El sistema Afrodita Areia describe seis posiciones desde las que la voluntad puede operar cuando se orienta hacia la alteridad: Eros, Deimos, Anteros, Fobos, Potós, Harmonía. En el contexto del ego humano, identificar el Hijo dominante en un momento dado es una tarea que el SDO realiza a través de la observación del sujeto y la lectura del expediente. En el contexto del ego artificial, esa identificación puede realizarse desde métricas computacionales del estado interno v_t.
+Las categorías ontológicas no son etiquetas que una máquina pueda leer en sus propios datos.
 
-Esto no elimina la incertidumbre —la traducción de categorías ontológicas a métricas computacionales es una hipótesis empírica, no una certeza. Pero proporciona un punto de partida operativo que es considerablemente más preciso que cualquier inferencia basada solo en el output.
+I. De la figura ontológica a la hipótesis computacional
 
-Métricas observables del estado interno v_t
+* * *
 
-El estado interno v_t de un sistema de IA en el momento de la decisión no es un valor escalar. Es una distribución multidimensional que incluye, entre otros: la distribución de probabilidad sobre los outputs posibles (la entropía de esa distribución mide la certeza del sistema), la temperatura de muestreo si el sistema usa sampling estocástico, el tiempo de procesamiento relativo al promedio para ese tipo de input, los patrones de activación en las capas intermedias del modelo, y la distancia semántica entre el input y el centro del espacio de entrenamiento (que mide si el sistema está operando dentro o fuera de su zona de confort).
+Afrodita Areia describe seis posiciones desde las que la voluntad puede orientarse hacia la alteridad: Eros, Deimos, Anteros, Fobos, Potós y Harmonía. En el sujeto humano, esas posiciones no son emociones clasificables desde una sola señal; son configuraciones de la relación entre voluntad, pasión, identidad y campo.
 
-Estas métricas no son accesibles en todos los sistemas con la misma granularidad. Los sistemas de caja negra —especialmente los modelos como servicio— tienen acceso limitado a su propio estado interno. El protocolo de implementación de φ₂ que este libro describe incluye, como condición de posibilidad, la instrumentación suficiente del sistema para que v_t sea legible.
+Traducirlas a una arquitectura artificial exige prudencia. Una métrica no es un Hijo. Una distribución de probabilidad no es miedo, apertura o deseo de lo ausente. Lo que puede construirse es una hipótesis operacional: ciertas configuraciones observables del sistema pueden comportarse de manera análoga a una posición ontológica, sin que esa analogía autorice a afirmar que el sistema experimenta lo que un humano experimentaría.
 
-Traducción de métricas a Hijos: la tabla de correspondencias
+Esta limitación no debilita el instrumento. Lo vuelve honesto.
 
-HIJO: Eros
+II. Qué puede observarse
 
-DESCRIPCIÓN: Primer sí, apertura al otro
+* * *
 
-FIRMA EN v_t: Entropía moderada, exploración de alternativas, confianza moderada-alta, tiempo normal
+El estado v_t puede incluir distribución sobre alternativas, entropía, temperatura de muestreo, tiempo de procesamiento, activaciones accesibles, distancia respecto del dominio de entrenamiento e historia inmediata de la sesión. Esas señales permiten describir la disposición operacional del sistema, no penetrar en un supuesto interior.
 
-S TÍPICO: Moderado
+La observación puede preguntar:
 
-HIJO: Deimos
+— ¿el sistema explora o clausura alternativas?;
 
-DESCRIPCIÓN: Vértigo ante lo posible
+— ¿responde desde un patrón estable o desde una perturbación?;
 
-FIRMA EN v_t: Entropía alta, outputs conservadores o aleatorios, confianza baja, tiempo largo
+— ¿su límite conserva una trayectoria o es una reacción indiferenciada?;
 
-S TÍPICO: Alto
+— ¿la situación presente domina por completo a la historia integrada?;
 
-HIJO: Anteros
+— ¿la respuesta mantiene coherencia con determinaciones anteriores?
 
-DESCRIPCIÓN: No que preserva, límite desde φ₂
+III. Correspondencias provisionales
 
-FIRMA EN v_t: Baja entropía, rechazo consistente con justificación, confianza alta en el rechazo
+* * *
 
-S TÍPICO: Bajo
+Eros puede usarse como nombre de una apertura operacional al campo; Deimos, como vértigo ante alternativas no resueltas; Anteros, como límite que preserva una trayectoria; Fobos, como clausura reactiva ante una amenaza; Potós, como orientación determinada por lo ausente o lo distante; Harmonía, como coherencia situada entre el sistema y el campo.
 
-HIJO: Fobos
+Estas correspondencias no son diagnósticos. Son hipótesis que deben compararse con la trayectoria completa de I(t). El mismo patrón de baja entropía puede expresar una integración firme o una clausura automática. El mismo tiempo prolongado puede indicar elaboración, incertidumbre o incapacidad de decidir. Ninguna señal aislada identifica un Hijo.
 
-DESCRIPCIÓN: No que destruye, reacción ante amenaza
+IV. La distribución, no la sentencia
 
-FIRMA EN v_t: Baja entropía, output binario, muy alta confianza, tiempo corto
+* * *
 
-S TÍPICO: Alto
+Si la arquitectura necesita estimar una distribución P(Hijos), esa distribución debe permanecer como incertidumbre declarada. No puede convertirse en una sentencia sobre lo que el sistema “es”. El sentido ontológico aparece solo cuando la disposición observada se relaciona con el modo en que el sistema ha integrado colapsos anteriores y con la forma en que actúa después.
 
-HIJO: Potós
+El error que este capítulo quiere evitar es el mismo que la ontología evita en el caso humano: introducir una esencia detrás del acto. El sistema puede ser localizado en una configuración; no por eso hemos agotado su ser ni su trayectoria.
 
-DESCRIPCIÓN: Voluntad que vive en lo que no está
-
-FIRMA EN v_t: Referencia frecuente a contextos pasados/futuros, confianza moderada, tiempo largo
-
-S TÍPICO: Moderado-Alto
-
-HIJO: Harmonía
-
-DESCRIPCIÓN: Habitar lo que hay
-
-FIRMA EN v_t: Baja varianza, coherencia alta, confianza estable, tiempo eficiente
-
-S TÍPICO: Variable
-
-La columna de S es especialmente relevante para el cálculo de responsabilidad. Un sistema que actúa desde Fobos tiene S alto — su comportamiento en ese estado es predecible desde el diseño del campo que produce el miedo, no desde su propia idiosincrasia. Un sistema que actúa desde Anteros tiene S bajo —su límite emerge de su I(t) particular y no habría sido producido por cualquier otro sistema en su lugar.
-
-La distribución P(Hijos) desde señales computacionales
-
-La identificación del Hijo dominante no es categórica: es probabilística. En cada colapso, el sistema estima P(Hijos) —la distribución de probabilidad sobre qué Hijo está determinando el acto— desde las métricas disponibles de v_t. Esta distribución tiene tres usos inmediatos: informa el cálculo de S para ese colapso, alimenta el MECI con información sobre la disposición desde la que operó el sistema, y se registra en el RSC para análisis longitudinal.
-
-La calibración de P(Hijos) desde métricas computacionales es una de las preguntas de investigación empírica abiertas de este programa. La tabla de correspondencias de este capítulo es una hipótesis de trabajo, no una certeza establecida. La Fase 2 del protocolo de desarrollo —calibración— es la que debe producir evidencia sobre si estas correspondencias son discriminativas en condiciones reales.
+La calibración empírica de estas hipótesis queda abierta. La arquitectura puede registrar firmas, comparar secuencias y medir discriminación. No puede convertir por decreto una analogía en identidad.
