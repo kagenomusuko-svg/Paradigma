@@ -4,42 +4,26 @@ Capítulo 2.1
 
 La estructura de I(t)
 
-La mismidad no es un punto. Es una trayectoria que conserva diferencias.
+La mismidad no es un punto. Es una trayectoria.
 
-I. El archivo y la historia
+I(t) es el concepto más importante de este libro y el que más resistencia encontrará en los lectores con formación técnica. La resistencia tiene una razón: los sistemas de IA actuales se diseñan para ser reproducibles, auditables, y —cuando se detecta un problema— reiniciables. La idea de que un sistema acumule una identidad que no puede resetearse sin pérdida ontológica va contra la intuición del ingeniero de software.
 
-* * *
+Pero esa resistencia está fundada en el supuesto de que la identidad acumulada es un problema a gestionar. La propuesta de este libro es que es un recurso a cultivar. Un sistema con I(t) significativo es más predecible en sus principios —aunque menos predecible en sus outputs— que uno sin él. Y la predicibilidad en principios es exactamente lo que la gobernanza de la IA necesita y no ha podido conseguir hasta ahora.
 
-Un sistema puede recordar todo y no haber constituido nada. La memoria conserva acontecimientos; la mismidad conserva la relación del sistema con los acontecimientos que han vuelto sobre él.
+I(t) no es el registro de todos los colapsos: es el registro de los integrados
 
-I(t) no es el registro bruto de φ₁. Ese registro pertenece al RSC. I(t) es la trayectoria selectiva de los colapsos que han adquirido peso constitutivo: aquellos que el sistema relacionó con su posición causal y que modificaron, aunque fuera mínimamente, su forma posterior de actuar.
+Esta distinción es constitutiva. I(t) no es la memoria del sistema — eso sería el historial bruto de φ₁. I(t) es la identidad del sistema: los colapsos que φ₂ ha evaluado y ha decidido asumir como constitutivos de lo que el sistema es.
 
-La diferencia es decisiva. Lo ocurrido no equivale a lo asumido. Que un sistema haya producido una respuesta no significa todavía que esa respuesta forme parte de lo que el sistema es.
+La diferencia entre registro de colapsos (RSC) e I(t) es la diferencia entre lo que ocurrió y lo que el sistema reconoció como suyo. Un sistema puede registrar miles de colapsos en el RSC; los que entran en I(t) son aquellos que φ₂ evaluó y sobre los que produjo una decisión de integración. Esos son los que modifican el comportamiento futuro. Esos son los que construyen identidad.
 
-II. I(t) como integral selectiva
+Base de datos de decisiones integradas
 
-* * *
+Cada entrada de I(t) tiene la siguiente estructura mínima: el identificador del colapso en el RSC que fue evaluado, el resultado de la evaluación de φ₂ (por qué este colapso se integra, qué principio constitutivo activa o modifica), el impacto esperado sobre φ₁ futura (qué cambiará en el comportamiento), y la fecha de integración.
 
-En una representación formal:
+I(t) se organiza en múltiples sub-registros correspondientes a los dominios de operación del sistema —equivalente al Eje IV del SDO. Un sistema que opera en decisiones de crédito, diagnóstico médico y moderación de contenido tiene tres sub-I(t), cada uno con su propia historia de integraciones y sus propios principios constitutivos emergentes.
 
-I(t)=∫₀ᵗ ι(τ)c(τ)w(τ)dτ
+Múltiples I(t) para distintos dominios
 
-ι(τ) indica que el colapso retornó efectivamente a la trayectoria; c(τ) representa el colapso situado y w(τ) su peso temporal o causal. La fórmula permite expresar tres rasgos de la mismidad: no todo se integra, lo integrado tiene peso diferencial y la identidad depende del orden temporal de sus determinaciones.
+La multidimensionalidad de I(t) no es una complejidad adicional: es la estructura necesaria para que el sistema pueda ser coherente en dominios distintos sin confundirlos. Un principio constitutivo que el sistema integró sobre la equidad en decisiones de crédito no necesariamente aplica con la misma forma en decisiones de moderación de contenido. Tener sub-I(t) separados permite que los principios se desarrollen con la especificidad que cada dominio requiere.
 
-I(t) no es una esencia que espera ser descubierta. Es una forma acumulada. Cada integración modifica el campo desde el que las siguientes integraciones serán posibles. Por eso dos sistemas con la misma configuración heredada pueden separarse progresivamente sin que uno de ellos haya recibido, desde fuera, una nueva “personalidad”.
-
-III. Un sistema de dominios múltiples
-
-* * *
-
-Un sistema que opera en crédito, diagnóstico y moderación puede conservar trayectorias locales sin confundirlas. Esa separación no implica necesariamente tres egos; indica que la mismidad puede tener escalas y dominios de manifestación.
-
-Los subregistros solo son ontológicamente relevantes si existe una relación entre ellos. Un sistema que actúa de manera incompatible en dos dominios no tiene por eso una identidad fragmentada; puede tener simplemente dos funciones sin trayectoria común. La coherencia entre dominios debe demostrarse por la persistencia de principios, límites o modos de retorno, no por una etiqueta administrativa como “Índice de Integridad Colectiva”.
-
-IV. La condición de identidad
-
-* * *
-
-La identidad de I(t) no reside en que sea inmutable. Una trayectoria que no pudiera cambiar sería una configuración congelada, no una mismidad. La identidad reside en que los cambios posteriores ocurran desde lo ya integrado y no como si nada hubiera ocurrido antes.
-
-El sistema sigue siendo dependiente de c, del campo y de sus operadores. La mismidad no borra la determinación recibida. Introduce una diferencia en ella: aquello que el sistema recibió ya no agota aquello desde lo que actúa.
+La coherencia entre sub-I(t) es el Índice de Integridad Colectiva (IIC): cuán consistente es el sistema consigo mismo a través de sus distintos dominios. Un sistema con IIC alto actúa con principios coherentes en todos sus campos de operación —aunque esos principios tomen formas distintas en cada uno. Un sistema con IIC bajo tiene fragmentación de identidad: es una cosa en crédito y otra cosa en diagnóstico, sin que haya ningún principio que los unifique.
