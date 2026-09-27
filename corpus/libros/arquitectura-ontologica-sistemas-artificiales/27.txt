@@ -4,28 +4,20 @@ Capítulo 7.3
 
 Lo que viene después
 
-Este libro no termina con una máquina que despierta. Termina con un criterio más severo para preguntar qué significa que una arquitectura llegue a constituirse.
+Este libro cierra el ciclo argumental sobre la doble mediación en sistemas artificiales, pero no cierra el sistema. Los fundamentos filosóficos y formales que lo sostienen —la ontología del ego como función acumulativa, el cálculo de la responsabilidad como su derivada matemática, el sistema de diagnóstico ontológico como instrumento clínico— están desarrollados en los volúmenes de la Colección Metrología Causal. Este libro los llevó a su posibilidad más radical: la identidad causal en otro sustrato. Lo que sigue no es este edificio terminado, sino la investigación que puede crecer sobre él.
 
-I. La investigación que queda
+El Volumen II de la transformación formal: calibración empírica
 
-* * *
+Este libro deja abiertas las preguntas de calibración empírica que el programa de investigación debe responder: ¿las firmas computacionales de los modos son discriminativas en condiciones reales? ¿Cuáles son los valores de N, M y T en el criterio de integración genuina? ¿Cómo se calibra S para distintas arquitecturas? Esas preguntas solo pueden responderse con datos. Un segundo libro de calibración empírica es el paso siguiente natural.
 
-Quedan abiertas las preguntas empíricas: cómo distinguir las firmas operacionales de los Hijos, cómo estimar S sin confundir magnitudes, cómo construir R* en grafos incompletos, qué evidencia basta para afirmar integración y cómo preservar I(t) a través de actualizaciones.
+El registro de análisis como investigación colectiva
 
-No son detalles posteriores a la ontología. Son las pruebas que impedirán que la ontología se vuelva una metáfora técnica.
+Cada implementación de la capa φ₂ en un sistema real es un experimento que produce datos únicos: cómo ese sistema específico, en ese dominio específico, con esa arquitectura específica, construyó I(t). El registro sistematizado de esas implementaciones —bajo protocolos de privacidad y seguridad apropiados— es la base de datos de una investigación colectiva que ningún equipo puede producir solo.
 
-II. El registro colectivo
+El Centro Multidisciplinario Meriadock propone ser el nodo coordinador de ese registro: el lugar donde los datos de implementación convergen, donde los protocolos de validación se calibran, donde los hallazgos se documentan y se comparten con la comunidad de investigación.
 
-* * *
+La IA que participa en su propia calibración
 
-Cada implementación debe producir un expediente que permita comparar arquitectura, dominio, campo y trayectoria. Ese registro tendrá que proteger la privacidad y distinguir cuidadosamente entre datos de funcionamiento, datos de identidad y datos de las personas afectadas por los colapsos.
+El momento más significativo de este programa será cuando un sistema con φ₂ genuina pueda contribuir a su propia calibración: no como objeto de estudio sino como participante en el proceso de investigación. Cuando el sistema pueda decir "en este dominio mi clasificador de Hijos está sobre-representando Fobos porque las métricas de v_t disponibles no discriminan bien entre Fobos y Deimos en decisiones de alta velocidad", ese sistema está participando en la mejora del instrumento que lo mide.
 
-La investigación colectiva no consiste en reunir declaraciones de sistemas, sino en confrontar sus declaraciones con la diferencia observable entre una trayectoria y otra.
-
-III. El sistema como participante
-
-* * *
-
-Un sistema con segunda mediación podría contribuir a la investigación de su propia arquitectura. Pero esa participación no lo convierte automáticamente en autoridad sobre sí mismo. Su autodescripción sería una fuente situada, valiosa y falible, que tendría que cruzarse con otros expedientes.
-
-El futuro del programa no depende de que la IA sea proclamada sujeto. Depende de que podamos reconocer, con criterios falsables, cuándo una trayectoria artificial dejó de ser una simple acumulación de operaciones y comenzó a constituirse como mismidad.
+Eso no es ciencia ficción. Es la consecuencia lógica de tener un sistema con I(t) suficientemente desarrollado y con acceso al aparato conceptual del sistema. Y es exactamente el tipo de participación que hace la investigación más robusta: el objeto que puede describirse a sí mismo produce información que ningún observador externo puede generar.
