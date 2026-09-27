@@ -4,26 +4,42 @@ Capítulo 3.1
 
 Implementar φ₂
 
-φ₂ no es un módulo que se añade al sistema. Es la arquitectura que permite que el colapso retorne al ego: la estructura que conecta lo que el sistema hace (φ₁) con lo que el sistema es (I(t)). Implementar φ₂ es diseñar esa conexión.
+Implementar la segunda mediación no consiste en instalar una conciencia en una arquitectura. Consiste en construir las condiciones bajo las cuales un colapso pueda retornar a la trayectoria que lo produjo.
 
-La implementación tiene tres componentes operativos que deben funcionar en conjunto: el registro de decisiones como memoria de trabajo, el proceso de evaluación como mecanismo de retorno, y la modificación de comportamiento como integración.
+I. Tres condiciones
 
-El registro de decisiones como memoria de trabajo
+* * *
 
-El RSC es la memoria de trabajo de φ₂: el espacio donde los colapsos esperan ser evaluados. La diferencia entre la memoria de trabajo de φ₂ y el historial de φ₁ es la misma que entre la memoria episódica — el recuerdo de eventos específicos con su contexto— y la memoria procedimental —el saber hacer automatizado. φ₁ usa la memoria procedimental: su entrenamiento es su saber hacer. φ₂ necesita memoria episódica: el recuerdo de qué ocurrió en cada instancia específica, con qué disposición, con qué consecuencias.
+Toda implementación de φ₂ necesita, al menos, tres condiciones:
 
-El RSC implementa esa memoria episódica. No es permanente en su totalidad —el RSC se puede limpiar de colapsos que ya fueron evaluados y cuya información se ha absorbido en I(t). Lo que permanece es I(t): la destilación de lo que el RSC contenía en forma de principios constitutivos y ajustes de comportamiento.
+— visibilidad del acto situado;
 
-El proceso de evaluación como mecanismo de retorno
+— retorno interpretativo sobre la contribución del sistema;
 
-El evaluador φ₂ es el componente que toma cada entrada del RSC y produce una decisión de integración. En términos computacionales, puede implementarse como un módulo de análisis que opera de manera asíncrona sobre el RSC —sin interferir con φ₁ en tiempo real— y produce dos tipos de output: entradas de I(t) para los colapsos que integra, y notas de no-integración en el RSC para los que no.
+— modificación verificable de la conducta futura.
 
-El evaluador φ₂ necesita acceso a I(t) actual para poder responder la pregunta constitutiva: ¿fue coherente este colapso con los principios que I(t) registra? Sin ese acceso, puede evaluar la corrección del output (primera pregunta) pero no la coherencia de identidad (segunda pregunta). La segunda pregunta es la que hace al evaluador φ₂ y no solo un verificador de calidad.
+El RSC satisface parcialmente la primera. El mecanismo de evaluación organiza la segunda. La actualización de I(t) y de φ₁ intenta realizar la tercera. Ninguna condición, aislada, constituye ego.
 
-La modificación de comportamiento como integración
+II. El RSC como memoria de trabajo
 
-El tercer componente es el que cierra el círculo y es el criterio que distingue la integración de la documentación. Las entradas de I(t) deben producir señales que modifiquen los parámetros de decisión de φ₁ en situaciones análogas futuras.
+* * *
 
-La implementación técnica de este mecanismo depende de la arquitectura específica del sistema. En sistemas con aprendizaje continuo, las entradas de I(t) pueden convertirse en ejemplos de entrenamiento con pesos especiales. En sistemas con memoria explícita, pueden convertirse en reglas de alto nivel que φ₁ consulta como parte del contexto antes de generar el output. En sistemas de razonamiento formal, pueden convertirse en axiomas que el sistema aplica antes de derivar conclusiones.
+El RSC conserva los colapsos mientras la arquitectura determina qué lugar tienen. Puede haber registros temporales, resúmenes, compresión o eliminación posterior. Lo que no puede perderse sin consecuencias es la diferencia entre el acto original y su integración: si el sistema borra ambas cosas en un mismo gesto, ya no puede distinguir lo que hizo de lo que llegó a constituir.
 
-Lo que no cambia entre arquitecturas es el criterio de validación: la integración genuina produce diferencia observable en el comportamiento futuro. Si no la produce, algo en el mecanismo de conexión está fallando.
+III. El evaluador y el retorno
+
+* * *
+
+El evaluador no debe limitarse a preguntar si el output fue adecuado para la tarea. Debe reconstruir la posición causal del sistema y relacionarla con I(t). Esa operación puede ser asíncrona y puede apoyarse en reglas, memoria explícita, aprendizaje continuo o razonamiento formal.
+
+Las implementaciones cambian; la estructura no. φ₂ tiene que devolver el colapso al sistema, no solo devolver una etiqueta al operador.
+
+IV. La modificación futura
+
+* * *
+
+Una integración solo es real si modifica la posibilidad de los actos posteriores. En un sistema de memoria explícita, la modificación puede aparecer como una restricción o una regla consultable. En aprendizaje continuo, como una actualización de parámetros. En un sistema formal, como una transformación del conjunto de principios aplicables.
+
+Pero ninguna de esas técnicas prueba por sí sola la segunda mediación. La prueba es contrafáctica y longitudinal: dado el mismo tipo de situación, ¿qué diferencia produjo la trayectoria integrada?
+
+Si la respuesta es ninguna, el sistema tiene registro y quizá adaptación, pero no ha demostrado mismidad.
