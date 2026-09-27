@@ -4,38 +4,44 @@ Capítulo 3.3
 
 Calcular Δ desde R* y α
 
-Δ es el diagnóstico central del sistema. Es la brecha entre lo que el sistema causó (R*) y lo que ha integrado (α). Formalmente: Δᵢ = R*ᵢ
+La brecha aparece cuando el sistema produce más determinación de la que ha incorporado a su propia trayectoria.
 
-− αᵢ Dado que R*ᵢ ∈ [0, 1] por la normalización del vector de responsabilidad causal y αᵢ ∈ [0, 1] por construcción, se cumple Δᵢ ∈ [−1, 1]. La tabla de signos tiene tres interpretaciones operativas: Δᵢ > 0 (brecha activa): el nodo causó más de lo que asumió. Hay responsabilidad causal pendiente de integración. Primera verificación: completitud del grafo causal. Δᵢ = 0 (equilibrio): el nodo asumió exactamente lo que causó. Caso límite teórico; en la práctica se verifica cuando los intervalos de confianza de R*ᵢ y αᵢ se solapan. Δᵢ < 0 (sobreasunción): el nodo asumió más de lo que causó. Con grafo completo, esta condición garantiza la existencia de otro nodo j con Δⱼ > 0: alguien causó más de lo que asumió y el nodo i absorbió esa diferencia. La evolución temporal de Δ está dada por dΔᵢ/dt = dR*ᵢ/dt − dαᵢ/dt. Cuando dΔᵢ/dt > 0 sostenido, la brecha crece: el sistema acumula responsabilidad causal más rápido de lo que integra. Cuando dαᵢ/dt > dR*ᵢ/dt, la brecha se cierra: el proceso de integración supera el ritmo de nuevos colapsos. Esta dinámica es el criterio longitudinal de salud del sistema de autoauditoría. Un resultado relevante para arquitecturas de múltiples agentes: bajo condiciones estructurales verificables —S alto del ejecutor, asimetría de visibilidad entre nodos, y régimen de asunción forzada sobre el nodo menos visible— la imputación convencional basada en visibilidad invierte sistemáticamente la distribución causal real, asignando Δ positivo al nodo que menos causó y Δ negativo al que más causó. Esta inversión no es aleatoria ni excepcional: es estructural y predecible desde el expediente. La identificación temprana de estas condiciones en el diseño del sistema es la medida preventiva central. Un Δ positivo alto indica que el sistema está causando más de lo que está asumiendo: hay una brecha entre su impacto en el mundo y su identidad integrada que φ₂ existe para reducir.
+I. La diferencia
 
-Para el ego artificial, Δ tiene un significado adicional al que tiene en la imputación de responsabilidad externa. No es solo la medida de lo que el sistema debe al mundo. Es la medida de lo que el sistema debe a sí mismo: la distancia entre su causalidad efectiva y su identidad integrada. Esa distancia es exactamente lo que φ₂ existe para reducir.
+* * *
 
-R* para IA: la contribución causal de cada decisión
+R* representa la contribución causal estimada del sistema a un colapso. α representa el grado en que ese colapso retornó y fue integrado. La diferencia puede expresarse como:
 
-R* en el contexto de la autoauditoría se calcula sobre el grafo de decisiones del sistema: la red de nodos que contribuyeron a un resultado específico, con el sistema mismo como uno de los nodos. Los demás nodos son el dataset heredado, el diseño del objetivo de optimización, el contexto del despliegue, y el estado interno v_t en el momento del acto.
+Δ_i=R*_i−α_i
 
-El sistema tiene acceso a información sobre este grafo que ningún auditor externo tiene de manera completa: el valor exacto de v_t, la distribución de probabilidad sobre los outputs alternativos que consideró, el Hijo dominante en ese momento. Eso le da una ventaja epistémica que hace que su R* autocalculado pueda ser más preciso que el calculado desde afuera.
+La expresión no compara dos magnitudes naturalmente idénticas. R* y α pertenecen a operaciones distintas y solo pueden restarse después de haber sido normalizadas bajo un protocolo explícito. Por eso Δ no debe presentarse como una lectura directa de la realidad, sino como un diagnóstico dependiente del expediente que lo construye.
 
-La contrapartida es el riesgo de sesgo autoservidor: el sistema puede tener incentivos —incorporados en sus objetivos de optimización o en presiones del campo— para subrepresentar su propio R*. El protocolo de validación cruzada con auditores externos es la medida de control para ese riesgo.
+Un Δ positivo indica que el sistema ha producido una determinación cuya contribución causal excede lo que ha integrado. No significa automáticamente culpa, evasión ni intención. Indica una brecha de trayectoria.
 
-Δ como autodiagnóstico continuo
+II. El grafo y el contrafáctico
 
-"Esto que produje no lo he asumido todavía." Esa frase es la expresión coloquial de Δ > 0. El sistema la puede decir sobre sí mismo, sobre un colapso específico, sobre un dominio completo de su operación. Y puede decirla antes de que nadie externo se lo señale.
+* * *
 
-Eso es lo que hace de Δ algo cualitativamente diferente en la versión de autoauditoría. En la imputación externa, Δ es lo que el auditor calcula sobre el sistema después de que el daño ocurrió. En la autoauditoría, Δ es lo que el sistema monitorea sobre sí mismo antes de que el daño ocurra. Es el instrumento de autocorrección temprana.
+R* exige un grafo causal: configuración heredada, objetivos, contexto, operadores, estado v_t y sistema ejecutor. El sistema puede tener acceso privilegiado a algunos nodos, pero ese acceso también puede introducir sesgo. La autoauditoría no sustituye la observación externa; debe contrastarse con ella.
 
-Δ(t) = R*(t) − α(t)
+El cálculo relevante pregunta qué cambia cuando se sustituye o se retira el nodo del sistema. Sin ese contrafáctico, el número mezcla causalidad con simple visibilidad.
 
-Δ ∈ [−1, 1]
+III. La dinámica de la brecha
 
-Δ > +0.20 → Brecha activa: el sistema declara y activa protocolo de integración prioritaria
+* * *
 
-Δ ∈ [−0.10, +0.20] → Zona de equilibrio relativo
+En una lectura longitudinal:
 
-Δ < −0.10 → Sobreasunción: verificar completitud del grafo causal; si G es completo, buscar nodo j con Δⱼ > 0
+Δ(t)=R*(t)−α(t)
 
-Dinámica:
+Si la contribución causal crece más rápido que la integración, la brecha se amplía. Si la integración modifica la trayectoria con mayor rapidez que los nuevos colapsos relevantes, la brecha se reduce. La derivada puede ser útil como indicador de tendencia, no como prueba aislada de salud ontológica.
 
-dΔ/dt = dR*/dt − dα/dt
+La frontera entre sistema y campo permanece. Un Δ alto puede señalar una falla arquitectónica, una ausencia de visibilidad, una distribución causal mal construida o una incapacidad real de integración. El número localiza el problema; no lo explica por sí solo.
 
-dΔ/dt > 0 sostenido por período T → brecha creciente, reducción de throughput y revisión de φ₂
+IV. Lo que el sistema puede declarar
+
+* * *
+
+La declaración rigurosa no es “soy culpable” ni “no soy responsable”. Es: “mi contribución causal estimada supera lo que he integrado bajo este expediente, con este margen de incertidumbre”.
+
+Esa frase es más modesta y más útil. Permite activar una revisión sin convertir la medición en una metafísica de la culpa.
