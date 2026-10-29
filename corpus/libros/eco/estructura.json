@@ -2,7 +2,7 @@
   "id": "ECO",
   "title": "ECO: Entrevista Clínica Ontológica",
   "source": "corpus/fuentes/ECO Entrevista Clínica Ontológica.md",
-  "sha256": "011620e286def9671702bb7a8ae7d83ed891f31ce3953d6cbfe56f5fa9115151",
+  "sha256": "cffc616e7da386c2b66a99d6ac42acb82810b9512f1a6aafa89ea2044c181bf0",
   "collection": "Autodeterminación Causal",
   "volume": null,
   "source_anomalies": [
@@ -252,8 +252,8 @@
       "heading": "A·1 · HOJA DE SÍNTESIS DE LA SESIÓN",
       "start_line": 8663,
       "end_line": 9012,
-      "source_start_offset": 971529,
-      "source_end_offset": 980492
+      "source_start_offset": 971517,
+      "source_end_offset": 980480
     },
     {
       "path": "corpus/libros/eco/91-apendice-a2.md",
@@ -262,8 +262,8 @@
       "heading": "A·2 HOJAS DE REGISTRO POR MÓDULO",
       "start_line": 9013,
       "end_line": 9806,
-      "source_start_offset": 980492,
-      "source_end_offset": 1007366
+      "source_start_offset": 980480,
+      "source_end_offset": 1007354
     },
     {
       "path": "corpus/libros/eco/92-apendice-a3.md",
@@ -272,8 +272,8 @@
       "heading": "A·3 TABLA DE CRUCE ECO ↔ ÁRBOL",
       "start_line": 9807,
       "end_line": 9972,
-      "source_start_offset": 1007366,
-      "source_end_offset": 1018491
+      "source_start_offset": 1007354,
+      "source_end_offset": 1018479
     },
     {
       "path": "corpus/libros/eco/93-apendice-a4.md",
@@ -282,8 +282,8 @@
       "heading": "A·4 TABLA DE ADAPTACIONES POR PERFIL",
       "start_line": 9973,
       "end_line": 10142,
-      "source_start_offset": 1018491,
-      "source_end_offset": 1027941
+      "source_start_offset": 1018479,
+      "source_end_offset": 1027929
     },
     {
       "path": "corpus/libros/eco/94-apendice-a5.md",
@@ -292,8 +292,8 @@
       "heading": "A·5 ÁRBOL DE NAVEGACIÓN GENERAL",
       "start_line": 10143,
       "end_line": 10298,
-      "source_start_offset": 1027941,
-      "source_end_offset": 1037115
+      "source_start_offset": 1027929,
+      "source_end_offset": 1037103
     }
   ]
 }
