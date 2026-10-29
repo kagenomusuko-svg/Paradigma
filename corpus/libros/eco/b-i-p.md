@@ -36,11 +36,11 @@ Potós va cuarto —después de Fobos, Deimos y Anteros— por dos razones. La p
 
 Criterios de entrada directa
 
-El Módulo Potós puede iniciarse directamente cuando se cumple alguna de las siguientes condiciones. La primera: la apertura narrativa produjo señal clara de orientación al pasado como referente de valor — el sujeto volvió espontáneamente a un período anterior, a una persona ausente o a un estado que ya no existe, con una calidez de tono que contrasta con la manera en que habla del presente. La segunda: los módulos anteriores produjeron señales de Potós como hipótesis secundaria — el sujeto describió la amenaza o la parálisis en términos de pérdida de algo que fue, no solo de amenaza al presente o de simetría de opciones. La tercera: el árbol documental del Capítulo U·1 produjo señales de Potós desde el expediente — referencias sistemáticas al pasado, archivos de etapas anteriores que
+El Módulo Potós puede iniciarse directamente cuando se cumple alguna de las siguientes condiciones.
 
-Entrevista Clínica Ontológica · ECO
-
-permanecieron abiertos — y el mediador necesita verificar desde presencia.
+1. La apertura narrativa produjo señal clara de orientación al pasado como referente de valor — el sujeto volvió espontáneamente a un período anterior, a una persona ausente o a un estado que ya no existe, con una calidez de tono que contrasta con la manera en que habla del presente.
+2. Los módulos anteriores produjeron señales de Potós como hipótesis secundaria — el sujeto describió la amenaza o la parálisis en términos de pérdida de algo que fue, no solo de amenaza al presente o de simetría de opciones.
+3. El árbol documental del Capítulo U·1 produjo señales de Potós desde el expediente — referencias sistemáticas al pasado, archivos de etapas anteriores que permanecieron abiertos — y el mediador necesita verificar desde presencia.
 
 SKIP completo — condición y justificación Condición: la apertura narrativa no produjo ninguna señal de orientación al pasado — el sujeto narró el período analizado sin referencias espontáneas a tiempos, personas o estados anteriores — Y ante la pregunta ancla el sujeto no puede identificar ningún objeto ausente que la voluntad siga buscando. Acción: registrar EP-0, código H-1 para Potós, y continuar al Módulo Eros. Si el sujeto produce alguna señal mínima ante la pregunta ancla (EP-8), registrar ese peso residual y continuar. Justificación ontológica: Potós requiere que la voluntad tenga un objeto ausente hacia el que se oriente. Si la apertura narrativa completa no produjo ninguna señal de ese objeto, y la pregunta ancla tampoco lo produce, la probabilidad de Potós como Hijo activo en esta configuración de la voluntad es suficientemente baja como para no justificar la administración del módulo completo. La ausencia de objeto ausente no es evidencia de que Potós no puede estar presente en el sujeto en general: es evidencia de que no está activo en la configuración de la voluntad en el período analizado.
 
@@ -394,7 +394,7 @@ Potós puede revelar situaciones que superan el alcance de ECO cuando la orienta
 
 Notas al Módulo B·I·P
 
-1 La descripción de Potós como posición de v_t orientada hacia lo ausente tiene una consecuencia para el análisis causal de Prometeo que los módulos de Fobos, Deimos y Anteros no tienen con la misma intensidad: Potós orienta los actos hacia la recuperación del objeto ausente. El peso de c sobre v_t puede ser significativo; por ello, el acto se lee en relación con la historia del sujeto respecto de aquello que ya no está.
+1. La descripción de Potós como posición de v_t orientada hacia lo ausente tiene una consecuencia para el análisis causal de Prometeo que los módulos de Fobos, Deimos y Anteros no tienen con la misma intensidad: Potós orienta los actos hacia la recuperación del objeto ausente. El peso de c sobre v_t puede ser significativo; por ello, el acto se lee en relación con la historia del sujeto respecto de aquello que ya no está.
 
 2 La restricción EP-1 para Potós que se desarrolla en §8 tiene una excepción que el texto principal menciona brevemente y que merece desarrollo: cuando el mediador puede producir en sesión una evocación directa del objeto ausente —mencionando el nombre de la persona, describiendo el período, mostrando algo que lo representa— y el sujeto produce una reacción conductual observable, esa reacción puede calificarse como EP-1 para Potós. Esta técnica requiere precaución: el mediador debe asegurarse de que la evocación sea honesta (no fabricada para producir señal) y de que la reacción del sujeto no sea simplemente cortesía social ante el gesto del mediador. La evocación directa como técnica de verificación EP-1 para Potós es una operación avanzada que solo debe usarse cuando el mediador tiene experiencia suficiente con el módulo.
 
