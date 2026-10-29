@@ -38,11 +38,11 @@ Lo que Eros localiza — con precisión técnica La posición de v_t desde la cu
 
 Criterios de entrada directa
 
-El Módulo Eros puede iniciarse directamente cuando se cumple alguna de las siguientes condiciones. La primera: la apertura narrativa produjo señal de apertura genuina ante lo nuevo — el sujeto describió iniciativas que no podía justificar con criterios previos,
+El Módulo Eros puede iniciarse directamente cuando se cumple alguna de las siguientes condiciones.
 
-Entrevista Clínica Ontológica · ECO
-
-respondió con curiosidad visible ante preguntas que no anticipaba, o describió encuentros con algo nuevo que lo afectaron en una dirección no prevista. La segunda: los módulos anteriores mostraron que el sujeto tiene un eje propio activo (Anteros con EP-2 o superior) y el mediador necesita verificar si hay también Eros como Hijo coexistente. La tercera: el árbol documental ya produjo señales de Eros desde el expediente — propuestas no solicitadas, apertura documentada a cambios de dirección que el campo no demandaba — y el mediador necesita verificar desde presencia.
+1. La apertura narrativa produjo señal de apertura genuina ante lo nuevo — el sujeto describió iniciativas que no podía justificar con criterios previos, respondió con curiosidad visible ante preguntas que no anticipaba, o describió encuentros con algo nuevo que lo afectaron en una dirección no prevista.
+2. Los módulos anteriores mostraron que el sujeto tiene un eje propio activo (Anteros con EP-2 o superior) y el mediador necesita verificar si hay también Eros como Hijo coexistente.
+3. El árbol documental ya produjo señales de Eros desde el expediente — propuestas no solicitadas, apertura documentada a cambios de dirección que el campo no demandaba — y el mediador necesita verificar desde presencia.
 
 Ausencia de SKIP estructural — justificación y condición de acortamiento Eros no tiene SKIP estructural porque ninguna condición del sujeto hace improbable su presencia de manera suficientemente robusta. Sin embargo, el instrumento permite que el módulo se acorte — sin saltarse la pregunta ancla ni la verificación de exclusión — cuando los módulos anteriores ya produjeron un Hijo dominante con H-3 y EP-1, y Eros no apareció en ningún momento de la apertura narrativa ni en la conducta del sujeto durante los módulos anteriores. En ese caso: administrar la pregunta ancla y los Sondeos E·1 y E·6 solamente. Si no hay señal, registrar H-1 con EP-0. Si hay señal mínima, registrar H-2 con el peso EP correspondiente y continuar al Módulo H. El acortamiento no omite la verificación de exclusión: si hay señal, la discriminación Eros/E-4 es obligatoria antes de codificar.
 
