@@ -394,15 +394,10 @@ Potós puede revelar situaciones que superan el alcance de ECO cuando la orienta
 
 Notas al Módulo B·I·P
 
-Entrevista Clínica Ontológica · ECO
-
-recuperación de ese objeto. La estimación de S para un sujeto en Potós tiende a ser alta porque el peso de c sobre v_t es significativo: el acto no puede separarse de la historia del sujeto con lo que ya no está.
+1. La descripción de Potós como posición de v_t orientada hacia lo ausente tiene una consecuencia para el análisis causal de Prometeo que los módulos de Fobos, Deimos y Anteros no tienen con la misma intensidad: Potós orienta los actos hacia la recuperación del objeto ausente. El peso de c sobre v_t puede ser significativo; por ello, el acto se lee en relación con la historia del sujeto respecto de aquello que ya no está.
 
 2 La restricción EP-1 para Potós que se desarrolla en §8 tiene una excepción que el texto principal menciona brevemente y que merece desarrollo: cuando el mediador puede producir en sesión una evocación directa del objeto ausente —mencionando el nombre de la persona, describiendo el período, mostrando algo que lo representa— y el sujeto produce una reacción conductual observable, esa reacción puede calificarse como EP-1 para Potós. Esta técnica requiere precaución: el mediador debe asegurarse de que la evocación sea honesta (no fabricada para producir señal) y de que la reacción del sujeto no sea simplemente cortesía social ante el gesto del mediador. La evocación directa como técnica de verificación EP-1 para Potós es una operación avanzada que solo debe usarse cuando el mediador tiene experiencia suficiente con el módulo.
 
 3 La coexistencia Potós/Deimos que se desarrolla en §9 es la distribución más frecuente cuando Potós tiene peso significativo en la distribución P(Hijos). La razón es ontológica: la misma configuración que produce Deimos (la imposibilidad de elegir entre opciones equivalentes en el presente) produce con frecuencia la orientación al pasado como referente (Potós), porque el pasado es el único campo donde las opciones ya estaban resueltas. Los dos Hijos se refuerzan mutuamente en muchos casos y deben leerse como parte de la misma configuración de la voluntad, no como estados independientes.
 
 4 La instrucción al Mediador en Memoria Comunitaria sobre el trabajo con Potós colectivo que se desarrolla en §10 tiene una implicación para la práctica del rescate cultural que merece señalarse: la comunidad que está en Potós colectivo profundo no puede participar genuinamente en el rescate de su propia cultura si el proceso de rescate se diseña desde afuera como recuperación del pasado. Ese diseño refuerza Potós sin crear condiciones para que la comunidad pueda imaginar un futuro propio. El trabajo del mediador es crear las condiciones para que la comunidad pueda honrar lo que fue y, desde ese honor, construir algo nuevo. Eso requiere que Potós colectivo pueda dialogar con Eros colectivo —la apertura a lo nuevo— sin que ninguno de los dos anule al otro.
-
-Entrevista Clínica Ontológica · ECO
-
