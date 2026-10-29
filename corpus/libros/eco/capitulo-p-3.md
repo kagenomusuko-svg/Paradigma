@@ -62,10 +62,7 @@ El protocolo de apertura
 
 Entrevista Clínica Ontológica · ECO
 
-Antes de iniciar el primer módulo, el mediador realiza una apertura narrativa libre: una invitación al sujeto a contar, sin estructura, el período que se va a analizar. Esta apertura tiene entre diez y veinte minutos y produce dos cosas simultáneamente.
-
-1. Material narrativo que el mediador lee con las señales preliminares de los módulos sin interrumpir al sujeto.
-2. La calibración del campo relacional de la sesión — el mediador observa cómo el sujeto habita la conversación antes de que las preguntas estructuradas empiecen.
+Antes de iniciar el primer módulo, el mediador realiza una apertura narrativa libre: una invitación al sujeto a contar, sin estructura, el período que se va a analizar. Esta apertura tiene entre diez y veinte minutos y produce dos cosas simultáneamente. La primera: material narrativo que el mediador lee con las señales preliminares de los módulos sin interrumpir al sujeto. La segunda: la calibración del campo relacional de la sesión — el mediador observa cómo el sujeto habita la conversación antes de que las preguntas estructuradas empiecen.
 
 Pregunta de apertura narrativa Me gustaría que empezaras contándome, sin que tengas que ordenarlo ni explicarlo, cómo has vivido el período que vamos a analizar. No lo que pasó: cómo lo viviste tú. Lo que venga primero. El mediador no interrumpe durante la apertura narrativa. No hace preguntas. No asiente de manera que oriente la narrativa. Observa y registra: la dirección de la narrativa (hacia dentro o hacia afuera, hacia el pasado o hacia el presente), el tono emocional, la presencia o ausencia de objeto externo de amenaza, las señales preliminares de cada módulo que el sujeto produce sin que nadie se los haya pedido.
 
