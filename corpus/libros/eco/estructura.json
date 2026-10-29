@@ -5,14 +5,37 @@
   "sha256": "be53a6c5991bd2f6f71ac767f87d8ba6d72e8c33d47a59ada72056ef2accc359",
   "collection": "Autodeterminación Causal",
   "volume": null,
-  "source_anomalies": [],
+  "source_anomalies": [
+    "El aviso de derechos reservados exige permiso previo para reproducir, mientras que el mismo bloque incluye licencia CC BY-NC-ND 4.0; resolver la compatibilidad y la redacción de ambos términos.",
+    "La nota final sobre el umbral de ECO afirma que el fundamento ontológico no se desarrolla en detalle aquí; completar la explicación en la obra o remitir a un desarrollo ya publicado.",
+    "B·IV §5 deja como responsabilidad futura del programa de formación incluir preparación en psicopatología, crisis, protección y marcos legales, pero el libro no define el currículo ni incorpora ese contenido.",
+    "La sección final de notas al pie reinicia y repite identificadores [^1]; normalizar los anclajes para distinguir cada nota y su referencia en el cuerpo."
+  ],
   "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
   "segments": [
     {
-      "path": "corpus/libros/eco/00-preliminares.md",
-      "kind": "preliminares",
+      "path": "corpus/libros/eco/00-portadilla.md",
+      "kind": "portadilla",
       "start_line": 1,
-      "end_line": 38
+      "end_line": 16,
+      "source_start_offset": 0,
+      "source_end_offset": 224
+    },
+    {
+      "path": "corpus/libros/eco/01-pagina-legal.md",
+      "kind": "pagina_legal",
+      "start_line": 17,
+      "end_line": 29,
+      "source_start_offset": 224,
+      "source_end_offset": 809
+    },
+    {
+      "path": "corpus/libros/eco/02-comite-elaborador.md",
+      "kind": "comite_elaborador",
+      "start_line": 29,
+      "end_line": 38,
+      "source_start_offset": 809,
+      "source_end_offset": 974
     },
     {
       "path": "corpus/libros/eco/capitulo-p-1.md",
@@ -223,12 +246,64 @@
       "end_line": 8746
     },
     {
-      "path": "corpus/libros/eco/90-apendices.md",
-      "kind": "apendices",
-      "key": "APENDICES",
-      "heading": "APÉNDICES · Instrumentos de trabajo del mediador",
+      "path": "corpus/libros/eco/90-apendice-a1.md",
+      "kind": "apendice",
+      "key": "A·1",
+      "heading": "A·1 · HOJA DE SÍNTESIS DE LA SESIÓN",
       "start_line": 8747,
-      "end_line": 10415
+      "end_line": 9096,
+      "source_start_offset": 972362,
+      "source_end_offset": 981375
+    },
+    {
+      "path": "corpus/libros/eco/91-apendice-a2.md",
+      "kind": "apendice",
+      "key": "A·2",
+      "heading": "A·2 HOJAS DE REGISTRO POR MÓDULO",
+      "start_line": 9097,
+      "end_line": 9890,
+      "source_start_offset": 981375,
+      "source_end_offset": 1008249
+    },
+    {
+      "path": "corpus/libros/eco/92-apendice-a3.md",
+      "kind": "apendice",
+      "key": "A·3",
+      "heading": "A·3 TABLA DE CRUCE ECO ↔ ÁRBOL",
+      "start_line": 9891,
+      "end_line": 10056,
+      "source_start_offset": 1008249,
+      "source_end_offset": 1019374
+    },
+    {
+      "path": "corpus/libros/eco/93-apendice-a4.md",
+      "kind": "apendice",
+      "key": "A·4",
+      "heading": "A·4 TABLA DE ADAPTACIONES POR PERFIL",
+      "start_line": 10057,
+      "end_line": 10226,
+      "source_start_offset": 1019374,
+      "source_end_offset": 1028824
+    },
+    {
+      "path": "corpus/libros/eco/94-apendice-a5.md",
+      "kind": "apendice",
+      "key": "A·5",
+      "heading": "A·5 ÁRBOL DE NAVEGACIÓN GENERAL",
+      "start_line": 10227,
+      "end_line": 10382,
+      "source_start_offset": 1028824,
+      "source_end_offset": 1037144
+    },
+    {
+      "path": "corpus/libros/eco/95-notas.md",
+      "kind": "notas",
+      "key": "NOTAS",
+      "heading": "Notas al pie",
+      "start_line": 10383,
+      "end_line": 10415,
+      "source_start_offset": 1037144,
+      "source_end_offset": 1039041
     }
   ]
 }
