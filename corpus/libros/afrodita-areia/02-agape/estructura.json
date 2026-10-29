@@ -1,0 +1,226 @@
+{
+  "title": "Afrodita Areia: Ágape",
+  "source": "corpus/fuentes/Afrodita Areia Ágape.md",
+  "sha256": "f88e7d807096e6b8704714cd61ec4b8dc8a15c709282c0e90d74268be89e02f4",
+  "series": "Afrodita Areia",
+  "volume": 2,
+  "segmentation_rule": "Partes numeradas copiadas de publicaciones; la fuente íntegra es su concatenación exacta.",
+  "segments": [
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/01.md",
+      "kind": "cover",
+      "heading": "# Afrodita Areia",
+      "start_line": 1,
+      "end_line": 11,
+      "start_byte": 0,
+      "end_byte": 199
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/02.md",
+      "kind": "legal",
+      "heading": "*Primera edición: 2026*  ",
+      "start_line": 12,
+      "end_line": 18,
+      "start_byte": 199,
+      "end_byte": 569
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/03.md",
+      "kind": "presentation",
+      "heading": "> «Ágape no es el amor que se siente.  ",
+      "start_line": 19,
+      "end_line": 22,
+      "start_byte": 569,
+      "end_byte": 762
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/04.md",
+      "kind": "index",
+      "heading": "# Índice",
+      "start_line": 23,
+      "end_line": 48,
+      "start_byte": 762,
+      "end_byte": 1755
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/05.md",
+      "kind": "author_notes",
+      "heading": "# Notas del autor",
+      "start_line": 49,
+      "end_line": 55,
+      "start_byte": 1755,
+      "end_byte": 3111
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/06.md",
+      "kind": "preface",
+      "heading": "# Prefacio",
+      "start_line": 56,
+      "end_line": 148,
+      "start_byte": 3111,
+      "end_byte": 14276
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/07.md",
+      "kind": "prologue",
+      "heading": "# Prólogo filosófico",
+      "start_line": 149,
+      "end_line": 540,
+      "start_byte": 14276,
+      "end_byte": 32726
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/08.md",
+      "kind": "part",
+      "heading": "# Parte I",
+      "start_line": 541,
+      "end_line": 846,
+      "start_byte": 32726,
+      "end_byte": 48639
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/09.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 2",
+      "start_line": 847,
+      "end_line": 1151,
+      "start_byte": 48639,
+      "end_byte": 66066
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/10.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 3",
+      "start_line": 1152,
+      "end_line": 1454,
+      "start_byte": 66066,
+      "end_byte": 84135
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/11.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 4",
+      "start_line": 1455,
+      "end_line": 1764,
+      "start_byte": 84135,
+      "end_byte": 101258
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/12.md",
+      "kind": "part",
+      "heading": "# Parte II",
+      "start_line": 1765,
+      "end_line": 2022,
+      "start_byte": 101258,
+      "end_byte": 115763
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/13.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 6",
+      "start_line": 2023,
+      "end_line": 2275,
+      "start_byte": 115763,
+      "end_byte": 129835
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/14.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 7",
+      "start_line": 2276,
+      "end_line": 2532,
+      "start_byte": 129835,
+      "end_byte": 143765
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/15.md",
+      "kind": "part",
+      "heading": "# Parte III",
+      "start_line": 2533,
+      "end_line": 2785,
+      "start_byte": 143765,
+      "end_byte": 157521
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/16.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 9",
+      "start_line": 2786,
+      "end_line": 3022,
+      "start_byte": 157521,
+      "end_byte": 170435
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/17.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 10",
+      "start_line": 3023,
+      "end_line": 3283,
+      "start_byte": 170435,
+      "end_byte": 184694
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/18.md",
+      "kind": "part",
+      "heading": "# Parte IV",
+      "start_line": 3284,
+      "end_line": 3522,
+      "start_byte": 184694,
+      "end_byte": 197358
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/19.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 12",
+      "start_line": 3523,
+      "end_line": 3775,
+      "start_byte": 197358,
+      "end_byte": 211705
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/20.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 13",
+      "start_line": 3776,
+      "end_line": 4016,
+      "start_byte": 211705,
+      "end_byte": 225302
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/21.md",
+      "kind": "part",
+      "heading": "# Parte V",
+      "start_line": 4017,
+      "end_line": 4591,
+      "start_byte": 225302,
+      "end_byte": 259026
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/22.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 15",
+      "start_line": 4592,
+      "end_line": 4931,
+      "start_byte": 259026,
+      "end_byte": 278792
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/23.md",
+      "kind": "appendix",
+      "heading": "# Apéndice",
+      "start_line": 4932,
+      "end_line": 5646,
+      "start_byte": 278792,
+      "end_byte": 323676
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/02-agape/24.md",
+      "kind": "glossary",
+      "heading": "# Glosario de términos",
+      "start_line": 5647,
+      "end_line": 5860,
+      "start_byte": 323676,
+      "end_byte": 333237
+    }
+  ]
+}

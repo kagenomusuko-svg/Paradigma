@@ -10,199 +10,199 @@
       "path": "corpus/libros/afrodita-areia/05-caelus/01.md",
       "kind": "cover",
       "heading": "# Afrodita Areia",
-      "start_byte": 0,
-      "end_byte": 198,
       "start_line": 1,
-      "end_line": 11
+      "end_line": 11,
+      "start_byte": 0,
+      "end_byte": 198
     },
     {
       "path": "corpus/libros/afrodita-areia/05-caelus/02.md",
       "kind": "legal",
       "heading": "*Primera edición: 2026*  ",
-      "start_byte": 198,
-      "end_byte": 835,
       "start_line": 12,
-      "end_line": 20
+      "end_line": 20,
+      "start_byte": 198,
+      "end_byte": 835
     },
     {
       "path": "corpus/libros/afrodita-areia/05-caelus/03.md",
       "kind": "presentation",
       "heading": "> «La pasión me determinó. Asumí esa determinación como propia, y en esa asunción soy. La libertad me determinó. La cedí al colectivo. Y en esa cesión, el Estado es.»  ",
-      "start_byte": 835,
-      "end_byte": 1049,
       "start_line": 21,
-      "end_line": 22
+      "end_line": 22,
+      "start_byte": 835,
+      "end_byte": 1049
     },
     {
       "path": "corpus/libros/afrodita-areia/05-caelus/04.md",
       "kind": "index",
       "heading": "# Índice",
-      "start_byte": 1049,
-      "end_byte": 1891,
       "start_line": 23,
-      "end_line": 63
+      "end_line": 63,
+      "start_byte": 1049,
+      "end_byte": 1891
     },
     {
       "path": "corpus/libros/afrodita-areia/05-caelus/05.md",
       "kind": "author_notes",
       "heading": "# Notas del autor",
-      "start_byte": 1891,
-      "end_byte": 6277,
       "start_line": 64,
-      "end_line": 86
+      "end_line": 86,
+      "start_byte": 1891,
+      "end_byte": 6277
     },
     {
       "path": "corpus/libros/afrodita-areia/05-caelus/06.md",
       "kind": "prologue",
       "heading": "# Prólogo",
-      "start_byte": 6277,
-      "end_byte": 18430,
       "start_line": 87,
-      "end_line": 169
+      "end_line": 169,
+      "start_byte": 6277,
+      "end_byte": 18430
     },
     {
       "path": "corpus/libros/afrodita-areia/05-caelus/07.md",
       "kind": "chapter",
       "heading": "# Capítulo 1",
-      "start_byte": 18430,
-      "end_byte": 35960,
       "start_line": 170,
-      "end_line": 290
+      "end_line": 290,
+      "start_byte": 18430,
+      "end_byte": 35960
     },
     {
       "path": "corpus/libros/afrodita-areia/05-caelus/08.md",
       "kind": "chapter",
       "heading": "# Capítulo 2",
-      "start_byte": 35960,
-      "end_byte": 56293,
       "start_line": 291,
-      "end_line": 445
+      "end_line": 445,
+      "start_byte": 35960,
+      "end_byte": 56293
     },
     {
       "path": "corpus/libros/afrodita-areia/05-caelus/09.md",
       "kind": "chapter",
       "heading": "# Capítulo 3",
-      "start_byte": 56293,
-      "end_byte": 77816,
       "start_line": 446,
-      "end_line": 580
+      "end_line": 580,
+      "start_byte": 56293,
+      "end_byte": 77816
     },
     {
       "path": "corpus/libros/afrodita-areia/05-caelus/10.md",
       "kind": "chapter",
       "heading": "# Capítulo 4",
-      "start_byte": 77816,
-      "end_byte": 105747,
       "start_line": 581,
-      "end_line": 742
+      "end_line": 742,
+      "start_byte": 77816,
+      "end_byte": 105747
     },
     {
       "path": "corpus/libros/afrodita-areia/05-caelus/11.md",
       "kind": "chapter",
       "heading": "# Capítulo 5",
-      "start_byte": 105747,
-      "end_byte": 133753,
       "start_line": 743,
-      "end_line": 944
+      "end_line": 944,
+      "start_byte": 105747,
+      "end_byte": 133753
     },
     {
       "path": "corpus/libros/afrodita-areia/05-caelus/12.md",
       "kind": "chapter",
       "heading": "# Capítulo 6",
-      "start_byte": 133753,
-      "end_byte": 159613,
       "start_line": 945,
-      "end_line": 1121
+      "end_line": 1121,
+      "start_byte": 133753,
+      "end_byte": 159613
     },
     {
       "path": "corpus/libros/afrodita-areia/05-caelus/13.md",
       "kind": "chapter",
       "heading": "# Capítulo 7",
-      "start_byte": 159613,
-      "end_byte": 186538,
       "start_line": 1122,
-      "end_line": 1283
+      "end_line": 1283,
+      "start_byte": 159613,
+      "end_byte": 186538
     },
     {
       "path": "corpus/libros/afrodita-areia/05-caelus/14.md",
       "kind": "chapter",
       "heading": "# Capítulo 8",
-      "start_byte": 186538,
-      "end_byte": 216890,
       "start_line": 1284,
-      "end_line": 1450
+      "end_line": 1450,
+      "start_byte": 186538,
+      "end_byte": 216890
     },
     {
       "path": "corpus/libros/afrodita-areia/05-caelus/15.md",
       "kind": "chapter",
       "heading": "# Capítulo 9",
-      "start_byte": 216890,
-      "end_byte": 247075,
       "start_line": 1451,
-      "end_line": 1649
+      "end_line": 1649,
+      "start_byte": 216890,
+      "end_byte": 247075
     },
     {
       "path": "corpus/libros/afrodita-areia/05-caelus/16.md",
       "kind": "chapter",
       "heading": "# Capítulo 10",
-      "start_byte": 247075,
-      "end_byte": 275529,
       "start_line": 1650,
-      "end_line": 1822
+      "end_line": 1822,
+      "start_byte": 247075,
+      "end_byte": 275529
     },
     {
       "path": "corpus/libros/afrodita-areia/05-caelus/17.md",
       "kind": "chapter",
       "heading": "# Capítulo 11",
-      "start_byte": 275529,
-      "end_byte": 303641,
       "start_line": 1823,
-      "end_line": 2009
+      "end_line": 2009,
+      "start_byte": 275529,
+      "end_byte": 303641
     },
     {
       "path": "corpus/libros/afrodita-areia/05-caelus/18.md",
       "kind": "chapter",
       "heading": "# Capítulo 12",
-      "start_byte": 303641,
-      "end_byte": 333358,
       "start_line": 2010,
-      "end_line": 2228
+      "end_line": 2228,
+      "start_byte": 303641,
+      "end_byte": 333358
     },
     {
       "path": "corpus/libros/afrodita-areia/05-caelus/19.md",
       "kind": "chapter",
       "heading": "# Capítulo 13",
-      "start_byte": 333358,
-      "end_byte": 364283,
       "start_line": 2229,
-      "end_line": 2438
+      "end_line": 2438,
+      "start_byte": 333358,
+      "end_byte": 364283
     },
     {
       "path": "corpus/libros/afrodita-areia/05-caelus/20.md",
       "kind": "unit",
       "heading": "# Epílogo",
-      "start_byte": 364283,
-      "end_byte": 377754,
       "start_line": 2439,
-      "end_line": 2537
+      "end_line": 2537,
+      "start_byte": 364283,
+      "end_byte": 377754
     },
     {
       "path": "corpus/libros/afrodita-areia/05-caelus/21.md",
       "kind": "appendix",
       "heading": "# Apéndice",
-      "start_byte": 377754,
-      "end_byte": 394471,
       "start_line": 2538,
-      "end_line": 2812
+      "end_line": 2812,
+      "start_byte": 377754,
+      "end_byte": 394471
     },
     {
       "path": "corpus/libros/afrodita-areia/05-caelus/22.md",
       "kind": "glossary",
       "heading": "# Glosario de términos",
-      "start_byte": 394471,
-      "end_byte": 410030,
       "start_line": 2813,
-      "end_line": 2871
+      "end_line": 2871,
+      "start_byte": 394471,
+      "end_byte": 410030
     }
   ]
 }

@@ -10,199 +10,199 @@
       "path": "corpus/libros/afrodita-areia/04-areopago/01.md",
       "kind": "cover",
       "heading": "# Afrodita Areia",
-      "start_byte": 0,
-      "end_byte": 202,
       "start_line": 1,
-      "end_line": 11
+      "end_line": 11,
+      "start_byte": 0,
+      "end_byte": 202
     },
     {
       "path": "corpus/libros/afrodita-areia/04-areopago/02.md",
       "kind": "legal",
       "heading": "*Primera edición: 2026*  ",
-      "start_byte": 202,
-      "end_byte": 578,
       "start_line": 12,
-      "end_line": 18
+      "end_line": 18,
+      "start_byte": 202,
+      "end_byte": 578
     },
     {
       "path": "corpus/libros/afrodita-areia/04-areopago/03.md",
       "kind": "index",
       "heading": "# Índice",
-      "start_byte": 578,
-      "end_byte": 1726,
       "start_line": 19,
-      "end_line": 43
+      "end_line": 43,
+      "start_byte": 578,
+      "end_byte": 1726
     },
     {
       "path": "corpus/libros/afrodita-areia/04-areopago/04.md",
       "kind": "author_notes",
       "heading": "# Notas del autor",
-      "start_byte": 1726,
-      "end_byte": 3114,
       "start_line": 44,
-      "end_line": 50
+      "end_line": 50,
+      "start_byte": 1726,
+      "end_byte": 3114
     },
     {
       "path": "corpus/libros/afrodita-areia/04-areopago/05.md",
       "kind": "prologue",
       "heading": "# Prólogo",
-      "start_byte": 3114,
-      "end_byte": 18008,
       "start_line": 51,
-      "end_line": 110
+      "end_line": 110,
+      "start_byte": 3114,
+      "end_byte": 18008
     },
     {
       "path": "corpus/libros/afrodita-areia/04-areopago/06.md",
       "kind": "chapter",
       "heading": "# Capítulo 1",
-      "start_byte": 18008,
-      "end_byte": 45158,
       "start_line": 111,
-      "end_line": 240
+      "end_line": 240,
+      "start_byte": 18008,
+      "end_byte": 45158
     },
     {
       "path": "corpus/libros/afrodita-areia/04-areopago/07.md",
       "kind": "chapter",
       "heading": "# Capítulo 2",
-      "start_byte": 45158,
-      "end_byte": 81840,
       "start_line": 241,
-      "end_line": 406
+      "end_line": 406,
+      "start_byte": 45158,
+      "end_byte": 81840
     },
     {
       "path": "corpus/libros/afrodita-areia/04-areopago/08.md",
       "kind": "chapter",
       "heading": "# Capítulo 3",
-      "start_byte": 81840,
-      "end_byte": 119033,
       "start_line": 407,
-      "end_line": 560
+      "end_line": 560,
+      "start_byte": 81840,
+      "end_byte": 119033
     },
     {
       "path": "corpus/libros/afrodita-areia/04-areopago/09.md",
       "kind": "chapter",
       "heading": "# Capítulo 4",
-      "start_byte": 119033,
-      "end_byte": 163440,
       "start_line": 561,
-      "end_line": 742
+      "end_line": 742,
+      "start_byte": 119033,
+      "end_byte": 163440
     },
     {
       "path": "corpus/libros/afrodita-areia/04-areopago/10.md",
       "kind": "chapter",
       "heading": "# Capítulo 5",
-      "start_byte": 163440,
-      "end_byte": 202094,
       "start_line": 743,
-      "end_line": 896
+      "end_line": 896,
+      "start_byte": 163440,
+      "end_byte": 202094
     },
     {
       "path": "corpus/libros/afrodita-areia/04-areopago/11.md",
       "kind": "chapter",
       "heading": "# Capítulo 6",
-      "start_byte": 202094,
-      "end_byte": 240280,
       "start_line": 897,
-      "end_line": 1038
+      "end_line": 1038,
+      "start_byte": 202094,
+      "end_byte": 240280
     },
     {
       "path": "corpus/libros/afrodita-areia/04-areopago/12.md",
       "kind": "chapter",
       "heading": "# Capítulo 7",
-      "start_byte": 240280,
-      "end_byte": 279973,
       "start_line": 1039,
-      "end_line": 1174
+      "end_line": 1174,
+      "start_byte": 240280,
+      "end_byte": 279973
     },
     {
       "path": "corpus/libros/afrodita-areia/04-areopago/13.md",
       "kind": "chapter",
       "heading": "# Capítulo 8",
-      "start_byte": 279973,
-      "end_byte": 315533,
       "start_line": 1175,
-      "end_line": 1320
+      "end_line": 1320,
+      "start_byte": 279973,
+      "end_byte": 315533
     },
     {
       "path": "corpus/libros/afrodita-areia/04-areopago/14.md",
       "kind": "chapter",
       "heading": "# Capítulo 9",
-      "start_byte": 315533,
-      "end_byte": 352499,
       "start_line": 1321,
-      "end_line": 1458
+      "end_line": 1458,
+      "start_byte": 315533,
+      "end_byte": 352499
     },
     {
       "path": "corpus/libros/afrodita-areia/04-areopago/15.md",
       "kind": "chapter",
       "heading": "# Capítulo 10",
-      "start_byte": 352499,
-      "end_byte": 389048,
       "start_line": 1459,
-      "end_line": 1606
+      "end_line": 1606,
+      "start_byte": 352499,
+      "end_byte": 389048
     },
     {
       "path": "corpus/libros/afrodita-areia/04-areopago/16.md",
       "kind": "chapter",
       "heading": "# Capítulo 11",
-      "start_byte": 389048,
-      "end_byte": 423513,
       "start_line": 1607,
-      "end_line": 1740
+      "end_line": 1740,
+      "start_byte": 389048,
+      "end_byte": 423513
     },
     {
       "path": "corpus/libros/afrodita-areia/04-areopago/17.md",
       "kind": "chapter",
       "heading": "# Capítulo 12",
-      "start_byte": 423513,
-      "end_byte": 463511,
       "start_line": 1741,
-      "end_line": 1896
+      "end_line": 1896,
+      "start_byte": 423513,
+      "end_byte": 463511
     },
     {
       "path": "corpus/libros/afrodita-areia/04-areopago/18.md",
       "kind": "chapter",
       "heading": "# Capítulo 13",
-      "start_byte": 463511,
-      "end_byte": 496533,
       "start_line": 1897,
-      "end_line": 2026
+      "end_line": 2026,
+      "start_byte": 463511,
+      "end_byte": 496533
     },
     {
       "path": "corpus/libros/afrodita-areia/04-areopago/19.md",
       "kind": "appendix",
       "heading": "# Apéndice I",
-      "start_byte": 496533,
-      "end_byte": 528932,
       "start_line": 2027,
-      "end_line": 2159
+      "end_line": 2159,
+      "start_byte": 496533,
+      "end_byte": 528932
     },
     {
       "path": "corpus/libros/afrodita-areia/04-areopago/20.md",
       "kind": "appendix",
       "heading": "# Apéndice II",
-      "start_byte": 528932,
-      "end_byte": 559356,
       "start_line": 2160,
-      "end_line": 2339
+      "end_line": 2339,
+      "start_byte": 528932,
+      "end_byte": 559356
     },
     {
       "path": "corpus/libros/afrodita-areia/04-areopago/21.md",
       "kind": "appendix",
       "heading": "# Apéndice III",
-      "start_byte": 559356,
-      "end_byte": 595614,
       "start_line": 2340,
-      "end_line": 2505
+      "end_line": 2505,
+      "start_byte": 559356,
+      "end_byte": 595614
     },
     {
       "path": "corpus/libros/afrodita-areia/04-areopago/22.md",
       "kind": "glossary",
       "heading": "# Glosario",
-      "start_byte": 595614,
-      "end_byte": 604699,
       "start_line": 2506,
-      "end_line": 2560
+      "end_line": 2560,
+      "start_byte": 595614,
+      "end_byte": 604699
     }
   ]
 }

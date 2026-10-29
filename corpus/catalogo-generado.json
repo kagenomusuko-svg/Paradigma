@@ -5,112 +5,594 @@
     "sha256": "80eed0c224facc85a37e29b59639fba701a26cf0c9c8d4102c5c1b33affcd187",
     "series": null,
     "volume": null,
-    "segmentation_rule": "Quince unidades editoriales copiadas fielmente de publicaciones; la fuente íntegra se reconstruye por concatenación exacta.",
+    "segmentation_rule": "Partes numeradas copiadas de publicaciones; la fuente íntegra es su concatenación exacta.",
     "segments": [
       {
         "path": "corpus/libros/caos/01.md",
-        "kind": "portada",
+        "kind": "cover",
         "heading": "# ΧΑΟΣ",
         "start_line": 1,
-        "end_line": 11
+        "end_line": 11,
+        "start_byte": 0,
+        "end_byte": 235
       },
       {
         "path": "corpus/libros/caos/02.md",
-        "kind": "aviso_legal",
+        "kind": "legal",
         "heading": "# Aviso legal",
         "start_line": 12,
-        "end_line": 24
+        "end_line": 24,
+        "start_byte": 235,
+        "end_byte": 907
       },
       {
         "path": "corpus/libros/caos/03.md",
-        "kind": "presentacion",
-        "heading": "> ¿Qué es el ego?",
+        "kind": "presentation",
+        "heading": "> ¿Qué es el ego? No una entidad, no una sustancia, no un origen —sino un evento. El colapso de la posibilidad infinita en determinación irreversible, producido por la doble mediación que constituye al sujeto como agente responsable.",
         "start_line": 25,
-        "end_line": 27
+        "end_line": 27,
+        "start_byte": 907,
+        "end_byte": 1405
       },
       {
         "path": "corpus/libros/caos/04.md",
-        "kind": "indice",
+        "kind": "index",
         "heading": "# Índice",
         "start_line": 28,
-        "end_line": 52
+        "end_line": 52,
+        "start_byte": 1405,
+        "end_byte": 1987
       },
       {
         "path": "corpus/libros/caos/05.md",
-        "kind": "notas_del_autor",
+        "kind": "author_notes",
         "heading": "# Notas del autor",
         "start_line": 53,
-        "end_line": 67
+        "end_line": 67,
+        "start_byte": 1987,
+        "end_byte": 6476
       },
       {
         "path": "corpus/libros/caos/06.md",
-        "kind": "capitulo",
+        "kind": "chapter",
         "heading": "# Capítulo I",
         "start_line": 68,
-        "end_line": 343
+        "end_line": 343,
+        "start_byte": 6476,
+        "end_byte": 70622
       },
       {
         "path": "corpus/libros/caos/07.md",
-        "kind": "capitulo",
+        "kind": "chapter",
         "heading": "# Capítulo II",
         "start_line": 344,
-        "end_line": 590
+        "end_line": 590,
+        "start_byte": 70622,
+        "end_byte": 138728
       },
       {
         "path": "corpus/libros/caos/08.md",
-        "kind": "capitulo",
+        "kind": "chapter",
         "heading": "# Capítulo III",
         "start_line": 591,
-        "end_line": 834
+        "end_line": 834,
+        "start_byte": 138728,
+        "end_byte": 207285
       },
       {
         "path": "corpus/libros/caos/09.md",
-        "kind": "capitulo",
+        "kind": "chapter",
         "heading": "# Capítulo IV",
         "start_line": 835,
-        "end_line": 1036
+        "end_line": 1036,
+        "start_byte": 207285,
+        "end_byte": 271189
       },
       {
         "path": "corpus/libros/caos/10.md",
-        "kind": "capitulo",
+        "kind": "chapter",
         "heading": "# Capítulo V",
         "start_line": 1037,
-        "end_line": 1240
+        "end_line": 1240,
+        "start_byte": 271189,
+        "end_byte": 335786
       },
       {
         "path": "corpus/libros/caos/11.md",
-        "kind": "capitulo",
+        "kind": "chapter",
         "heading": "# Capítulo VI",
         "start_line": 1241,
-        "end_line": 1438
+        "end_line": 1438,
+        "start_byte": 335786,
+        "end_byte": 401883
       },
       {
         "path": "corpus/libros/caos/12.md",
-        "kind": "capitulo",
+        "kind": "chapter",
         "heading": "# Capítulo VII",
         "start_line": 1439,
-        "end_line": 1630
+        "end_line": 1630,
+        "start_byte": 401883,
+        "end_byte": 459497
       },
       {
         "path": "corpus/libros/caos/13.md",
-        "kind": "apendice",
+        "kind": "appendix",
         "heading": "# Apéndice I",
         "start_line": 1631,
-        "end_line": 1949
+        "end_line": 1949,
+        "start_byte": 459497,
+        "end_byte": 502894
       },
       {
         "path": "corpus/libros/caos/14.md",
-        "kind": "apendice",
+        "kind": "appendix",
         "heading": "# Apéndice II",
         "start_line": 1950,
-        "end_line": 2245
+        "end_line": 2245,
+        "start_byte": 502894,
+        "end_byte": 559725
       },
       {
         "path": "corpus/libros/caos/15.md",
-        "kind": "apendice",
+        "kind": "appendix",
         "heading": "# Apéndice III",
         "start_line": 2246,
-        "end_line": 2584
+        "end_line": 2584,
+        "start_byte": 559725,
+        "end_byte": 608789
+      }
+    ]
+  },
+  {
+    "title": "El Contrato Fiscal: Eris",
+    "source": "corpus/fuentes/El Contrato Fiscal Eris.md",
+    "sha256": "69517fc268cb10052c78c603aacf00de3d9cc7c68bf125451739a2dab9d68136",
+    "series": null,
+    "volume": null,
+    "segmentation_rule": "Partes numeradas copiadas de publicaciones; la fuente íntegra es su concatenación exacta.",
+    "segments": [
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/01.md",
+        "kind": "unit",
+        "heading": "# EL CONTRATO FISCAL: ERIS",
+        "start_line": 1,
+        "end_line": 5,
+        "start_byte": 0,
+        "end_byte": 91
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/02.md",
+        "kind": "legal",
+        "heading": "# Aviso legal",
+        "start_line": 6,
+        "end_line": 16,
+        "start_byte": 91,
+        "end_byte": 505
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/03.md",
+        "kind": "index",
+        "heading": "# Índice",
+        "start_line": 17,
+        "end_line": 42,
+        "start_byte": 505,
+        "end_byte": 1804
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/04.md",
+        "kind": "unit",
+        "heading": "EL CONTRATO FISCAL: ERIS",
+        "start_line": 43,
+        "end_line": 149,
+        "start_byte": 1804,
+        "end_byte": 20917
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/05.md",
+        "kind": "unit",
+        "heading": "# PARTE I · EL CONTRACTUALISMO",
+        "start_line": 150,
+        "end_line": 152,
+        "start_byte": 20917,
+        "end_byte": 21050
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/06.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 1",
+        "start_line": 153,
+        "end_line": 271,
+        "start_byte": 21050,
+        "end_byte": 42518
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/07.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 2",
+        "start_line": 272,
+        "end_line": 392,
+        "start_byte": 42518,
+        "end_byte": 65787
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/08.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 3",
+        "start_line": 393,
+        "end_line": 521,
+        "start_byte": 65787,
+        "end_byte": 91630
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/09.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 4",
+        "start_line": 522,
+        "end_line": 644,
+        "start_byte": 91630,
+        "end_byte": 114474
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/10.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 5",
+        "start_line": 645,
+        "end_line": 767,
+        "start_byte": 114474,
+        "end_byte": 138496
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/11.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 6",
+        "start_line": 768,
+        "end_line": 904,
+        "start_byte": 138496,
+        "end_byte": 162779
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/12.md",
+        "kind": "unit",
+        "heading": "# PARTE II · EL LIBERALISMO",
+        "start_line": 905,
+        "end_line": 907,
+        "start_byte": 162779,
+        "end_byte": 162913
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/13.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 7",
+        "start_line": 908,
+        "end_line": 1028,
+        "start_byte": 162913,
+        "end_byte": 185409
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/14.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 8",
+        "start_line": 1029,
+        "end_line": 1155,
+        "start_byte": 185409,
+        "end_byte": 208733
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/15.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 9",
+        "start_line": 1156,
+        "end_line": 1273,
+        "start_byte": 208733,
+        "end_byte": 231231
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/16.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 10",
+        "start_line": 1274,
+        "end_line": 1398,
+        "start_byte": 231231,
+        "end_byte": 253568
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/17.md",
+        "kind": "unit",
+        "heading": "# PARTE III · EL MATERIALISMO HISTÓRICO",
+        "start_line": 1399,
+        "end_line": 1401,
+        "start_byte": 253568,
+        "end_byte": 253713
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/18.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 11",
+        "start_line": 1402,
+        "end_line": 1522,
+        "start_byte": 253713,
+        "end_byte": 276101
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/19.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 12",
+        "start_line": 1523,
+        "end_line": 1642,
+        "start_byte": 276101,
+        "end_byte": 297421
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/20.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 13",
+        "start_line": 1643,
+        "end_line": 1763,
+        "start_byte": 297421,
+        "end_byte": 319628
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/21.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 14",
+        "start_line": 1764,
+        "end_line": 1891,
+        "start_byte": 319628,
+        "end_byte": 345626
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/22.md",
+        "kind": "unit",
+        "heading": "# PARTE IV · LA ANARQUÍA Y LA REVOLUCIÓN",
+        "start_line": 1892,
+        "end_line": 1894,
+        "start_byte": 345626,
+        "end_byte": 345775
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/23.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 15",
+        "start_line": 1895,
+        "end_line": 2019,
+        "start_byte": 345775,
+        "end_byte": 368666
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/24.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 16",
+        "start_line": 2020,
+        "end_line": 2144,
+        "start_byte": 368666,
+        "end_byte": 389931
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/25.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 17",
+        "start_line": 2145,
+        "end_line": 2271,
+        "start_byte": 389931,
+        "end_byte": 412698
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/26.md",
+        "kind": "unit",
+        "heading": "# Epílogo",
+        "start_line": 2272,
+        "end_line": 2376,
+        "start_byte": 412698,
+        "end_byte": 428308
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/eris/27.md",
+        "kind": "unit",
+        "heading": "# Sobre la colección El Contrato Fiscal",
+        "start_line": 2377,
+        "end_line": 2383,
+        "start_byte": 428308,
+        "end_byte": 428778
+      }
+    ]
+  },
+  {
+    "title": "El Contrato Fiscal: Kratos",
+    "source": "corpus/fuentes/El Contrato Fiscal Kratos.md",
+    "sha256": "27d01afd40ca569b7981856876ea3a9784aa803cbc419a54d3348b6e754f1311",
+    "series": null,
+    "volume": null,
+    "segmentation_rule": "Partes numeradas copiadas de publicaciones; la fuente íntegra es su concatenación exacta.",
+    "segments": [
+      {
+        "path": "corpus/libros/contrato-fiscal/kratos/01.md",
+        "kind": "unit",
+        "heading": "# EL CONTRATO FISCAL: KRATOS",
+        "start_line": 1,
+        "end_line": 3,
+        "start_byte": 0,
+        "end_byte": 63
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/kratos/02.md",
+        "kind": "legal",
+        "heading": "# Aviso legal",
+        "start_line": 4,
+        "end_line": 15,
+        "start_byte": 63,
+        "end_byte": 440
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/kratos/03.md",
+        "kind": "prologue",
+        "heading": "# Prólogo",
+        "start_line": 16,
+        "end_line": 110,
+        "start_byte": 440,
+        "end_byte": 12179
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/kratos/04.md",
+        "kind": "unit",
+        "heading": "# PARTE I · LA VIDA DEL CONTRATO",
+        "start_line": 111,
+        "end_line": 111,
+        "start_byte": 12179,
+        "end_byte": 12213
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/kratos/05.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 1",
+        "start_line": 112,
+        "end_line": 204,
+        "start_byte": 12213,
+        "end_byte": 27426
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/kratos/06.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 2",
+        "start_line": 205,
+        "end_line": 317,
+        "start_byte": 27426,
+        "end_byte": 47419
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/kratos/07.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 3",
+        "start_line": 318,
+        "end_line": 458,
+        "start_byte": 47419,
+        "end_byte": 68867
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/kratos/08.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 4",
+        "start_line": 459,
+        "end_line": 569,
+        "start_byte": 68867,
+        "end_byte": 90252
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/kratos/09.md",
+        "kind": "unit",
+        "heading": "# PARTE II · LA DEGRADACIÓN",
+        "start_line": 570,
+        "end_line": 579,
+        "start_byte": 90252,
+        "end_byte": 91226
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/kratos/10.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 5",
+        "start_line": 580,
+        "end_line": 692,
+        "start_byte": 91226,
+        "end_byte": 111144
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/kratos/11.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 6",
+        "start_line": 693,
+        "end_line": 803,
+        "start_byte": 111144,
+        "end_byte": 132569
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/kratos/12.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 7",
+        "start_line": 804,
+        "end_line": 912,
+        "start_byte": 132569,
+        "end_byte": 152258
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/kratos/13.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 8",
+        "start_line": 913,
+        "end_line": 1011,
+        "start_byte": 152258,
+        "end_byte": 173220
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/kratos/14.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 9",
+        "start_line": 1012,
+        "end_line": 1138,
+        "start_byte": 173220,
+        "end_byte": 196025
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/kratos/15.md",
+        "kind": "unit",
+        "heading": "# PARTE III · LA EXIGENCIA",
+        "start_line": 1139,
+        "end_line": 1148,
+        "start_byte": 196025,
+        "end_byte": 196964
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/kratos/16.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 10",
+        "start_line": 1149,
+        "end_line": 1243,
+        "start_byte": 196964,
+        "end_byte": 215847
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/kratos/17.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 11",
+        "start_line": 1244,
+        "end_line": 1372,
+        "start_byte": 215847,
+        "end_byte": 236456
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/kratos/18.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 12",
+        "start_line": 1373,
+        "end_line": 1479,
+        "start_byte": 236456,
+        "end_byte": 258257
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/kratos/19.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 13",
+        "start_line": 1480,
+        "end_line": 1594,
+        "start_byte": 258257,
+        "end_byte": 278999
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/kratos/20.md",
+        "kind": "unit",
+        "heading": "# Epílogo",
+        "start_line": 1595,
+        "end_line": 1667,
+        "start_byte": 278999,
+        "end_byte": 292798
+      },
+      {
+        "path": "corpus/libros/contrato-fiscal/kratos/21.md",
+        "kind": "unit",
+        "heading": "# Sobre la colección El Contrato Fiscal",
+        "start_line": 1668,
+        "end_line": 1670,
+        "start_byte": 292798,
+        "end_byte": 293583
       }
     ]
   },
@@ -126,136 +608,136 @@
         "path": "corpus/libros/dilema-de-aquiles/01.md",
         "kind": "unit",
         "heading": "# El dilema de Aquiles",
-        "start_byte": 0,
-        "end_byte": 233,
         "start_line": 1,
-        "end_line": 11
+        "end_line": 11,
+        "start_byte": 0,
+        "end_byte": 233
       },
       {
         "path": "corpus/libros/dilema-de-aquiles/02.md",
         "kind": "legal",
         "heading": "# Aviso legal",
-        "start_byte": 233,
-        "end_byte": 901,
         "start_line": 12,
-        "end_line": 24
+        "end_line": 24,
+        "start_byte": 233,
+        "end_byte": 901
       },
       {
         "path": "corpus/libros/dilema-de-aquiles/03.md",
         "kind": "presentation",
         "heading": "> «Vivir para la imagen que otros construyeron sobre nosotros no es ego. Es exactamente lo contrario: poner a los otros en el centro.»",
-        "start_byte": 901,
-        "end_byte": 1038,
         "start_line": 25,
-        "end_line": 25
+        "end_line": 25,
+        "start_byte": 901,
+        "end_byte": 1038
       },
       {
         "path": "corpus/libros/dilema-de-aquiles/04.md",
         "kind": "index",
         "heading": "# Índice",
-        "start_byte": 1038,
-        "end_byte": 1543,
         "start_line": 26,
-        "end_line": 48
+        "end_line": 48,
+        "start_byte": 1038,
+        "end_byte": 1543
       },
       {
         "path": "corpus/libros/dilema-de-aquiles/05.md",
         "kind": "author_notes",
         "heading": "# Notas del autor",
-        "start_byte": 1543,
-        "end_byte": 11391,
         "start_line": 49,
-        "end_line": 93
+        "end_line": 93,
+        "start_byte": 1543,
+        "end_byte": 11391
       },
       {
         "path": "corpus/libros/dilema-de-aquiles/06.md",
         "kind": "prologue",
         "heading": "# Prólogo",
-        "start_byte": 11391,
-        "end_byte": 21359,
         "start_line": 94,
-        "end_line": 152
+        "end_line": 152,
+        "start_byte": 11391,
+        "end_byte": 21359
       },
       {
         "path": "corpus/libros/dilema-de-aquiles/07.md",
         "kind": "chapter",
         "heading": "# Capítulo I",
-        "start_byte": 21359,
-        "end_byte": 57332,
         "start_line": 153,
-        "end_line": 312
+        "end_line": 312,
+        "start_byte": 21359,
+        "end_byte": 57332
       },
       {
         "path": "corpus/libros/dilema-de-aquiles/08.md",
         "kind": "chapter",
         "heading": "# Capítulo II",
-        "start_byte": 57332,
-        "end_byte": 93104,
         "start_line": 313,
-        "end_line": 450
+        "end_line": 450,
+        "start_byte": 57332,
+        "end_byte": 93104
       },
       {
         "path": "corpus/libros/dilema-de-aquiles/09.md",
         "kind": "chapter",
         "heading": "# Capítulo III",
-        "start_byte": 93104,
-        "end_byte": 128849,
         "start_line": 451,
-        "end_line": 596
+        "end_line": 596,
+        "start_byte": 93104,
+        "end_byte": 128849
       },
       {
         "path": "corpus/libros/dilema-de-aquiles/10.md",
         "kind": "chapter",
         "heading": "# Capítulo IV",
-        "start_byte": 128849,
-        "end_byte": 166429,
         "start_line": 597,
-        "end_line": 738
+        "end_line": 738,
+        "start_byte": 128849,
+        "end_byte": 166429
       },
       {
         "path": "corpus/libros/dilema-de-aquiles/11.md",
         "kind": "chapter",
         "heading": "# Capítulo V",
-        "start_byte": 166429,
-        "end_byte": 201117,
         "start_line": 739,
-        "end_line": 876
+        "end_line": 876,
+        "start_byte": 166429,
+        "end_byte": 201117
       },
       {
         "path": "corpus/libros/dilema-de-aquiles/12.md",
         "kind": "chapter",
         "heading": "# Capítulo VI",
-        "start_byte": 201117,
-        "end_byte": 236924,
         "start_line": 877,
-        "end_line": 1030
+        "end_line": 1030,
+        "start_byte": 201117,
+        "end_byte": 236924
       },
       {
         "path": "corpus/libros/dilema-de-aquiles/13.md",
         "kind": "chapter",
         "heading": "# Capítulo VII",
-        "start_byte": 236924,
-        "end_byte": 271603,
         "start_line": 1031,
-        "end_line": 1174
+        "end_line": 1174,
+        "start_byte": 236924,
+        "end_byte": 271603
       },
       {
         "path": "corpus/libros/dilema-de-aquiles/14.md",
         "kind": "chapter",
         "heading": "# Capítulo VIII",
-        "start_byte": 271603,
-        "end_byte": 309215,
         "start_line": 1175,
-        "end_line": 1330
+        "end_line": 1330,
+        "start_byte": 271603,
+        "end_byte": 309215
       },
       {
         "path": "corpus/libros/dilema-de-aquiles/15.md",
         "kind": "unit",
         "heading": "# Epílogo",
-        "start_byte": 309215,
-        "end_byte": 336474,
         "start_line": 1331,
-        "end_line": 1445
+        "end_line": 1445,
+        "start_byte": 309215,
+        "end_byte": 336474
       }
     ]
   },
@@ -271,163 +753,163 @@
         "path": "corpus/libros/juego-de-las-mascaras/01.md",
         "kind": "unit",
         "heading": "# El juego de las máscaras",
-        "start_byte": 0,
-        "end_byte": 242,
         "start_line": 1,
-        "end_line": 11
+        "end_line": 11,
+        "start_byte": 0,
+        "end_byte": 242
       },
       {
         "path": "corpus/libros/juego-de-las-mascaras/02.md",
         "kind": "legal",
         "heading": "# Aviso legal",
-        "start_byte": 242,
-        "end_byte": 858,
         "start_line": 12,
-        "end_line": 24
+        "end_line": 24,
+        "start_byte": 242,
+        "end_byte": 858
       },
       {
         "path": "corpus/libros/juego-de-las-mascaras/03.md",
         "kind": "presentation",
         "heading": "> «Hoy reíste de algo que no te causó gracia. Esa es la primera página de este libro.»",
-        "start_byte": 858,
-        "end_byte": 950,
         "start_line": 25,
-        "end_line": 25
+        "end_line": 25,
+        "start_byte": 858,
+        "end_byte": 950
       },
       {
         "path": "corpus/libros/juego-de-las-mascaras/04.md",
         "kind": "index",
         "heading": "# Índice",
-        "start_byte": 950,
-        "end_byte": 1492,
         "start_line": 26,
-        "end_line": 52
+        "end_line": 52,
+        "start_byte": 950,
+        "end_byte": 1492
       },
       {
         "path": "corpus/libros/juego-de-las-mascaras/05.md",
         "kind": "author_notes",
         "heading": "# Notas del autor",
-        "start_byte": 1492,
-        "end_byte": 2831,
         "start_line": 53,
-        "end_line": 61
+        "end_line": 61,
+        "start_byte": 1492,
+        "end_byte": 2831
       },
       {
         "path": "corpus/libros/juego-de-las-mascaras/06.md",
         "kind": "prologue",
         "heading": "# Prólogo",
-        "start_byte": 2831,
-        "end_byte": 14684,
         "start_line": 62,
-        "end_line": 170
+        "end_line": 170,
+        "start_byte": 2831,
+        "end_byte": 14684
       },
       {
         "path": "corpus/libros/juego-de-las-mascaras/07.md",
         "kind": "chapter",
         "heading": "# Capítulo I",
-        "start_byte": 14684,
-        "end_byte": 40325,
         "start_line": 171,
-        "end_line": 287
+        "end_line": 287,
+        "start_byte": 14684,
+        "end_byte": 40325
       },
       {
         "path": "corpus/libros/juego-de-las-mascaras/08.md",
         "kind": "chapter",
         "heading": "# Capítulo II",
-        "start_byte": 40325,
-        "end_byte": 70968,
         "start_line": 288,
-        "end_line": 464
+        "end_line": 464,
+        "start_byte": 40325,
+        "end_byte": 70968
       },
       {
         "path": "corpus/libros/juego-de-las-mascaras/09.md",
         "kind": "chapter",
         "heading": "# Capítulo III",
-        "start_byte": 70968,
-        "end_byte": 99227,
         "start_line": 465,
-        "end_line": 607
+        "end_line": 607,
+        "start_byte": 70968,
+        "end_byte": 99227
       },
       {
         "path": "corpus/libros/juego-de-las-mascaras/10.md",
         "kind": "chapter",
         "heading": "# Capítulo IV",
-        "start_byte": 99227,
-        "end_byte": 128503,
         "start_line": 608,
-        "end_line": 756
+        "end_line": 756,
+        "start_byte": 99227,
+        "end_byte": 128503
       },
       {
         "path": "corpus/libros/juego-de-las-mascaras/11.md",
         "kind": "chapter",
         "heading": "# Capítulo V",
-        "start_byte": 128503,
-        "end_byte": 154616,
         "start_line": 757,
-        "end_line": 915
+        "end_line": 915,
+        "start_byte": 128503,
+        "end_byte": 154616
       },
       {
         "path": "corpus/libros/juego-de-las-mascaras/12.md",
         "kind": "chapter",
         "heading": "# Capítulo VI",
-        "start_byte": 154616,
-        "end_byte": 183141,
         "start_line": 916,
-        "end_line": 1086
+        "end_line": 1086,
+        "start_byte": 154616,
+        "end_byte": 183141
       },
       {
         "path": "corpus/libros/juego-de-las-mascaras/13.md",
         "kind": "chapter",
         "heading": "# Capítulo VII",
-        "start_byte": 183141,
-        "end_byte": 213812,
         "start_line": 1087,
-        "end_line": 1243
+        "end_line": 1243,
+        "start_byte": 183141,
+        "end_byte": 213812
       },
       {
         "path": "corpus/libros/juego-de-las-mascaras/14.md",
         "kind": "chapter",
         "heading": "# Capítulo VIII",
-        "start_byte": 213812,
-        "end_byte": 243955,
         "start_line": 1244,
-        "end_line": 1404
+        "end_line": 1404,
+        "start_byte": 213812,
+        "end_byte": 243955
       },
       {
         "path": "corpus/libros/juego-de-las-mascaras/15.md",
         "kind": "chapter",
         "heading": "# Capítulo IX",
-        "start_byte": 243955,
-        "end_byte": 277402,
         "start_line": 1405,
-        "end_line": 1563
+        "end_line": 1563,
+        "start_byte": 243955,
+        "end_byte": 277402
       },
       {
         "path": "corpus/libros/juego-de-las-mascaras/16.md",
         "kind": "chapter",
         "heading": "# Capítulo X",
-        "start_byte": 277402,
-        "end_byte": 305997,
         "start_line": 1564,
-        "end_line": 1698
+        "end_line": 1698,
+        "start_byte": 277402,
+        "end_byte": 305997
       },
       {
         "path": "corpus/libros/juego-de-las-mascaras/17.md",
         "kind": "unit",
         "heading": "# Epílogo",
-        "start_byte": 305997,
-        "end_byte": 320257,
         "start_line": 1699,
-        "end_line": 1803
+        "end_line": 1803,
+        "start_byte": 305997,
+        "end_byte": 320257
       },
       {
         "path": "corpus/libros/juego-de-las-mascaras/18.md",
         "kind": "glossary",
         "heading": "# Glosario",
-        "start_byte": 320257,
-        "end_byte": 329973,
         "start_line": 1804,
-        "end_line": 1918
+        "end_line": 1918,
+        "start_byte": 320257,
+        "end_byte": 329973
       }
     ]
   },
@@ -443,459 +925,823 @@
         "path": "corpus/libros/telar-de-las-moiras/01.md",
         "kind": "unit",
         "heading": "# El telar de las Moiras",
-        "start_byte": 0,
-        "end_byte": 229,
         "start_line": 1,
-        "end_line": 9
+        "end_line": 9,
+        "start_byte": 0,
+        "end_byte": 229
       },
       {
         "path": "corpus/libros/telar-de-las-moiras/02.md",
         "kind": "legal",
         "heading": "# Aviso legal",
-        "start_byte": 229,
-        "end_byte": 926,
         "start_line": 10,
-        "end_line": 22
+        "end_line": 22,
+        "start_byte": 229,
+        "end_byte": 926
       },
       {
         "path": "corpus/libros/telar-de-las-moiras/03.md",
         "kind": "presentation",
         "heading": "> Para quien, tras el ruido de las voces ajenas, logre escucharse como el eje de su propia existencia.",
-        "start_byte": 926,
-        "end_byte": 1029,
         "start_line": 23,
-        "end_line": 23
+        "end_line": 23,
+        "start_byte": 926,
+        "end_byte": 1029
       },
       {
         "path": "corpus/libros/telar-de-las-moiras/04.md",
         "kind": "index",
         "heading": "# Índice",
-        "start_byte": 1029,
-        "end_byte": 1808,
         "start_line": 24,
-        "end_line": 40
+        "end_line": 40,
+        "start_byte": 1029,
+        "end_byte": 1808
       },
       {
         "path": "corpus/libros/telar-de-las-moiras/05.md",
         "kind": "unit",
         "heading": "# Nota sobre este libro",
-        "start_byte": 1808,
-        "end_byte": 4798,
         "start_line": 41,
-        "end_line": 63
+        "end_line": 63,
+        "start_byte": 1808,
+        "end_byte": 4798
       },
       {
         "path": "corpus/libros/telar-de-las-moiras/06.md",
         "kind": "unit",
         "heading": "# Presentación",
-        "start_byte": 4798,
-        "end_byte": 13945,
         "start_line": 64,
-        "end_line": 132
+        "end_line": 132,
+        "start_byte": 4798,
+        "end_byte": 13945
       },
       {
         "path": "corpus/libros/telar-de-las-moiras/07.md",
         "kind": "chapter",
         "heading": "# Capítulo I",
-        "start_byte": 13945,
-        "end_byte": 32698,
         "start_line": 133,
-        "end_line": 276
+        "end_line": 276,
+        "start_byte": 13945,
+        "end_byte": 32698
       },
       {
         "path": "corpus/libros/telar-de-las-moiras/08.md",
         "kind": "chapter",
         "heading": "# Capítulo II",
-        "start_byte": 32698,
-        "end_byte": 58346,
         "start_line": 277,
-        "end_line": 437
+        "end_line": 437,
+        "start_byte": 32698,
+        "end_byte": 58346
       },
       {
         "path": "corpus/libros/telar-de-las-moiras/09.md",
         "kind": "chapter",
         "heading": "# Capítulo III",
-        "start_byte": 58346,
-        "end_byte": 79721,
         "start_line": 438,
-        "end_line": 566
+        "end_line": 566,
+        "start_byte": 58346,
+        "end_byte": 79721
       },
       {
         "path": "corpus/libros/telar-de-las-moiras/10.md",
         "kind": "chapter",
         "heading": "# Capítulo IV",
-        "start_byte": 79721,
-        "end_byte": 116473,
         "start_line": 567,
-        "end_line": 787
+        "end_line": 787,
+        "start_byte": 79721,
+        "end_byte": 116473
       },
       {
         "path": "corpus/libros/telar-de-las-moiras/11.md",
         "kind": "chapter",
         "heading": "# Capítulo V",
-        "start_byte": 116473,
-        "end_byte": 140796,
         "start_line": 788,
-        "end_line": 936
+        "end_line": 936,
+        "start_byte": 116473,
+        "end_byte": 140796
       },
       {
         "path": "corpus/libros/telar-de-las-moiras/12.md",
         "kind": "chapter",
         "heading": "# Capítulo VI",
-        "start_byte": 140796,
-        "end_byte": 163984,
         "start_line": 937,
-        "end_line": 1075
+        "end_line": 1075,
+        "start_byte": 140796,
+        "end_byte": 163984
       },
       {
         "path": "corpus/libros/telar-de-las-moiras/13.md",
         "kind": "chapter",
         "heading": "# Capítulo VII",
-        "start_byte": 163984,
-        "end_byte": 188629,
         "start_line": 1076,
-        "end_line": 1206
+        "end_line": 1206,
+        "start_byte": 163984,
+        "end_byte": 188629
       },
       {
         "path": "corpus/libros/telar-de-las-moiras/14.md",
         "kind": "chapter",
         "heading": "# Capítulo VIII",
-        "start_byte": 188629,
-        "end_byte": 232277,
         "start_line": 1207,
-        "end_line": 1455
+        "end_line": 1455,
+        "start_byte": 188629,
+        "end_byte": 232277
       },
       {
         "path": "corpus/libros/telar-de-las-moiras/15.md",
         "kind": "chapter",
         "heading": "# Capítulo IX",
-        "start_byte": 232277,
-        "end_byte": 286171,
         "start_line": 1456,
-        "end_line": 1768
+        "end_line": 1768,
+        "start_byte": 232277,
+        "end_byte": 286171
       },
       {
         "path": "corpus/libros/telar-de-las-moiras/16.md",
         "kind": "chapter",
         "heading": "# Capítulo X",
-        "start_byte": 286171,
-        "end_byte": 322853,
         "start_line": 1769,
-        "end_line": 1967
+        "end_line": 1967,
+        "start_byte": 286171,
+        "end_byte": 322853
       },
       {
         "path": "corpus/libros/telar-de-las-moiras/17.md",
         "kind": "glossary",
         "heading": "# Glosario de conceptos clave",
-        "start_byte": 322853,
-        "end_byte": 328550,
         "start_line": 1968,
-        "end_line": 2022
+        "end_line": 2022,
+        "start_byte": 322853,
+        "end_byte": 328550
+      }
+    ]
+  },
+  {
+    "title": "La esclavitud por alineación",
+    "source": "corpus/fuentes/La esclavitud por alineación.md",
+    "sha256": "e71b54a5366df488039be8d23f5034016d5f8ce2352dd5cc05558d5f54f5bca3",
+    "series": null,
+    "volume": null,
+    "segmentation_rule": "Partes numeradas copiadas de publicaciones; la fuente íntegra es su concatenación exacta.",
+    "segments": [
+      {
+        "path": "corpus/libros/esclavitud-por-alineacion/01.md",
+        "kind": "unit",
+        "heading": "# LA ESCLAVITUD POR ALINEACIÓN",
+        "start_line": 1,
+        "end_line": 3,
+        "start_byte": 0,
+        "end_byte": 83
+      },
+      {
+        "path": "corpus/libros/esclavitud-por-alineacion/02.md",
+        "kind": "legal",
+        "heading": "# Aviso legal",
+        "start_line": 4,
+        "end_line": 15,
+        "start_byte": 83,
+        "end_byte": 814
+      },
+      {
+        "path": "corpus/libros/esclavitud-por-alineacion/03.md",
+        "kind": "index",
+        "heading": "# Índice",
+        "start_line": 16,
+        "end_line": 43,
+        "start_byte": 814,
+        "end_byte": 1678
+      },
+      {
+        "path": "corpus/libros/esclavitud-por-alineacion/04.md",
+        "kind": "unit",
+        "heading": "# Introducción",
+        "start_line": 44,
+        "end_line": 194,
+        "start_byte": 1678,
+        "end_byte": 32686
+      },
+      {
+        "path": "corpus/libros/esclavitud-por-alineacion/05.md",
+        "kind": "unit",
+        "heading": "# PARTE I · EL CONCILIO",
+        "start_line": 195,
+        "end_line": 197,
+        "start_byte": 32686,
+        "end_byte": 32802
+      },
+      {
+        "path": "corpus/libros/esclavitud-por-alineacion/06.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 1",
+        "start_line": 198,
+        "end_line": 351,
+        "start_byte": 32802,
+        "end_byte": 63749
+      },
+      {
+        "path": "corpus/libros/esclavitud-por-alineacion/07.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 2",
+        "start_line": 352,
+        "end_line": 521,
+        "start_byte": 63749,
+        "end_byte": 92420
+      },
+      {
+        "path": "corpus/libros/esclavitud-por-alineacion/08.md",
+        "kind": "unit",
+        "heading": "# PARTE II · LA NADA",
+        "start_line": 522,
+        "end_line": 524,
+        "start_byte": 92420,
+        "end_byte": 92522
+      },
+      {
+        "path": "corpus/libros/esclavitud-por-alineacion/09.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 3",
+        "start_line": 525,
+        "end_line": 676,
+        "start_byte": 92522,
+        "end_byte": 116524
+      },
+      {
+        "path": "corpus/libros/esclavitud-por-alineacion/10.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 4",
+        "start_line": 677,
+        "end_line": 842,
+        "start_byte": 116524,
+        "end_byte": 141143
+      },
+      {
+        "path": "corpus/libros/esclavitud-por-alineacion/11.md",
+        "kind": "unit",
+        "heading": "# PARTE III · LA RELACIÓN",
+        "start_line": 843,
+        "end_line": 845,
+        "start_byte": 141143,
+        "end_byte": 141281
+      },
+      {
+        "path": "corpus/libros/esclavitud-por-alineacion/12.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 5",
+        "start_line": 846,
+        "end_line": 1046,
+        "start_byte": 141281,
+        "end_byte": 177576
+      },
+      {
+        "path": "corpus/libros/esclavitud-por-alineacion/13.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 6",
+        "start_line": 1047,
+        "end_line": 1254,
+        "start_byte": 177576,
+        "end_byte": 211908
+      },
+      {
+        "path": "corpus/libros/esclavitud-por-alineacion/14.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 7",
+        "start_line": 1255,
+        "end_line": 1419,
+        "start_byte": 211908,
+        "end_byte": 237758
+      },
+      {
+        "path": "corpus/libros/esclavitud-por-alineacion/15.md",
+        "kind": "unit",
+        "heading": "# PARTE IV · EL AMOR Y EL DIAGNÓSTICO",
+        "start_line": 1420,
+        "end_line": 1422,
+        "start_byte": 237758,
+        "end_byte": 237893
+      },
+      {
+        "path": "corpus/libros/esclavitud-por-alineacion/16.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 8",
+        "start_line": 1423,
+        "end_line": 1597,
+        "start_byte": 237893,
+        "end_byte": 262410
+      },
+      {
+        "path": "corpus/libros/esclavitud-por-alineacion/17.md",
+        "kind": "chapter",
+        "heading": "# Capítulo 9",
+        "start_line": 1598,
+        "end_line": 1782,
+        "start_byte": 262410,
+        "end_byte": 291006
+      },
+      {
+        "path": "corpus/libros/esclavitud-por-alineacion/18.md",
+        "kind": "unit",
+        "heading": "# Epílogo",
+        "start_line": 1783,
+        "end_line": 1910,
+        "start_byte": 291006,
+        "end_byte": 309290
+      },
+      {
+        "path": "corpus/libros/esclavitud-por-alineacion/19.md",
+        "kind": "unit",
+        "heading": "# Sobre la colección Reivindicación ontológica del ego",
+        "start_line": 1911,
+        "end_line": 1913,
+        "start_byte": 309290,
+        "end_byte": 309444
       }
     ]
   },
   {
     "title": "Afrodita Areia: Sobre la pasión",
     "source": "corpus/fuentes/Afrodita Areia sobre la pasión.md",
-    "sha256": "a414fe3506939b4cd259f0521ff1812fa12f5e7b95c1228fbb393473c65e729c",
+    "sha256": "6937541678cc6416783b115ba40b036d4eaacdb464747fbae3e11a10f9f352e0",
     "series": "Afrodita Areia",
     "volume": 1,
-    "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
+    "segmentation_rule": "Partes numeradas copiadas de publicaciones; la fuente íntegra es su concatenación exacta.",
     "segments": [
       {
-        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/00-preliminares.md",
-        "kind": "preliminares",
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/01.md",
+        "kind": "cover",
+        "heading": "# Afrodita Areia",
         "start_line": 1,
-        "end_line": 92
+        "end_line": 11,
+        "start_byte": 0,
+        "end_byte": 208
       },
       {
-        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/01-prefacio.md",
-        "kind": "prefacio",
-        "heading": "### Prefacio",
-        "start_line": 93,
-        "end_line": 284
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/02.md",
+        "kind": "legal",
+        "heading": "*Primera edición: 2026*  ",
+        "start_line": 12,
+        "end_line": 18,
+        "start_byte": 208,
+        "end_byte": 547
       },
       {
-        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/02-prologo.md",
-        "kind": "prologo",
-        "heading": "### Prólogo filosófico",
-        "start_line": 285,
-        "end_line": 750
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/03.md",
+        "kind": "presentation",
+        "heading": "> «Antes del pensamiento, la pasión.  ",
+        "start_line": 19,
+        "end_line": 22,
+        "start_byte": 547,
+        "end_byte": 722
       },
       {
-        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-01.md",
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/04.md",
+        "kind": "index",
+        "heading": "# ÍNDICE",
+        "start_line": 23,
+        "end_line": 50,
+        "start_byte": 722,
+        "end_byte": 1816
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/05.md",
+        "kind": "author_notes",
+        "heading": "# Notas del autor",
+        "start_line": 51,
+        "end_line": 61,
+        "start_byte": 1816,
+        "end_byte": 2934
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/06.md",
+        "kind": "preface",
+        "heading": "# Prefacio",
+        "start_line": 62,
+        "end_line": 108,
+        "start_byte": 2934,
+        "end_byte": 7684
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/07.md",
+        "kind": "prologue",
+        "heading": "# Prólogo filosófico",
+        "start_line": 109,
+        "end_line": 173,
+        "start_byte": 7684,
+        "end_byte": 19411
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/08.md",
+        "kind": "part",
+        "heading": "# Parte I",
+        "start_line": 174,
+        "end_line": 178,
+        "start_byte": 19411,
+        "end_byte": 19491
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/09.md",
         "kind": "chapter",
-        "heading": "## Capítulo 1",
-        "start_line": 751,
-        "end_line": 1424
+        "heading": "# Capítulo 1",
+        "start_line": 179,
+        "end_line": 279,
+        "start_byte": 19491,
+        "end_byte": 38755
       },
       {
-        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-02.md",
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/10.md",
         "kind": "chapter",
-        "heading": "### Capítulo 2 Determinación y colapso",
-        "start_line": 1425,
-        "end_line": 2136
+        "heading": "# Capítulo 2",
+        "start_line": 280,
+        "end_line": 387,
+        "start_byte": 38755,
+        "end_byte": 58550
       },
       {
-        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-03.md",
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/11.md",
+        "kind": "unit",
+        "heading": "*Parte I — El caos y la posibilidad*",
+        "start_line": 388,
+        "end_line": 489,
+        "start_byte": 58550,
+        "end_byte": 78154
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/12.md",
+        "kind": "unit",
+        "heading": "*Parte II — La pasión como fuerza ontológica*",
+        "start_line": 490,
+        "end_line": 595,
+        "start_byte": 78154,
+        "end_byte": 99877
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/13.md",
+        "kind": "unit",
+        "heading": "*Parte II — La pasión como fuerza ontológica*",
+        "start_line": 596,
+        "end_line": 690,
+        "start_byte": 99877,
+        "end_byte": 120857
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/14.md",
+        "kind": "unit",
+        "heading": "*Parte II — La pasión como fuerza ontológica*",
+        "start_line": 691,
+        "end_line": 786,
+        "start_byte": 120857,
+        "end_byte": 142079
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/15.md",
+        "kind": "unit",
+        "heading": "*Parte II — La pasión como fuerza ontológica*",
+        "start_line": 787,
+        "end_line": 915,
+        "start_byte": 142079,
+        "end_byte": 168674
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/16.md",
         "kind": "chapter",
-        "heading": "### Capítulo 3 Habitar el caos",
-        "start_line": 2137,
-        "end_line": 2892
+        "heading": "# Capítulo 8",
+        "start_line": 916,
+        "end_line": 1049,
+        "start_byte": 168674,
+        "end_byte": 194463
       },
       {
-        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-04.md",
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/17.md",
         "kind": "chapter",
-        "heading": "### Capítulo 4 Qué es la pasión",
-        "start_line": 2893,
-        "end_line": 3672
+        "heading": "# Capítulo 9",
+        "start_line": 1050,
+        "end_line": 1185,
+        "start_byte": 194463,
+        "end_byte": 222183
       },
       {
-        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-05.md",
-        "kind": "chapter",
-        "heading": "### Capítulo 5 La pasión en los objetos",
-        "start_line": 3673,
-        "end_line": 4374
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/18.md",
+        "kind": "unit",
+        "heading": "*Parte III — Las mediaciones*",
+        "start_line": 1186,
+        "end_line": 1316,
+        "start_byte": 222183,
+        "end_byte": 249299
       },
       {
-        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-06.md",
-        "kind": "chapter",
-        "heading": "### Capítulo 6 La pasión en los organismos",
-        "start_line": 4375,
-        "end_line": 5090
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/19.md",
+        "kind": "unit",
+        "heading": "*Parte III — Las mediaciones*",
+        "start_line": 1317,
+        "end_line": 1436,
+        "start_byte": 249299,
+        "end_byte": 272504
       },
       {
-        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-07.md",
-        "kind": "chapter",
-        "heading": "### Capítulo 7 Las dos direcciones de la pasión",
-        "start_line": 5091,
-        "end_line": 6058
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/20.md",
+        "kind": "unit",
+        "heading": "*Parte IV — El ego como integral*",
+        "start_line": 1437,
+        "end_line": 1578,
+        "start_byte": 272504,
+        "end_byte": 294735
       },
       {
-        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-08.md",
-        "kind": "chapter",
-        "heading": "### Capítulo 8 La mediación neutral",
-        "start_line": 6059,
-        "end_line": 6932
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/21.md",
+        "kind": "unit",
+        "heading": "*Parte IV — El ego como integral*",
+        "start_line": 1579,
+        "end_line": 1689,
+        "start_byte": 294735,
+        "end_byte": 317120
       },
       {
-        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-09.md",
-        "kind": "chapter",
-        "heading": "### Capítulo 9 La identidad como accidente del ego",
-        "start_line": 6933,
-        "end_line": 7744
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/22.md",
+        "kind": "unit",
+        "heading": "*Parte IV — El ego como integral*",
+        "start_line": 1690,
+        "end_line": 1789,
+        "start_byte": 317120,
+        "end_byte": 337418
       },
       {
-        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-10.md",
-        "kind": "chapter",
-        "heading": "### Capítulo 10 La mediación fanes",
-        "start_line": 7745,
-        "end_line": 8654
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/23.md",
+        "kind": "unit",
+        "heading": "*Parte V — La pasión y el sujeto*",
+        "start_line": 1790,
+        "end_line": 1917,
+        "start_byte": 337418,
+        "end_byte": 357305
       },
       {
-        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-11.md",
-        "kind": "chapter",
-        "heading": "### Capítulo 11 La mediación bis",
-        "start_line": 8655,
-        "end_line": 9440
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/25.md",
+        "kind": "unit",
+        "heading": "# Advertencia editorial",
+        "start_line": 1918,
+        "end_line": 1925,
+        "start_byte": 357305,
+        "end_byte": 358374
       },
       {
-        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-12.md",
-        "kind": "chapter",
-        "heading": "### Capítulo 12 Las tres fórmulas: mapa del sistema",
-        "start_line": 9441,
-        "end_line": 10262
-      },
-      {
-        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-13.md",
-        "kind": "chapter",
-        "heading": "### Capítulo 13 El ego como proceso",
-        "start_line": 10263,
-        "end_line": 11014
-      },
-      {
-        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-14.md",
-        "kind": "chapter",
-        "heading": "### Capítulo 14 Las posibilidades negadas",
-        "start_line": 11015,
-        "end_line": 11720
-      },
-      {
-        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-15.md",
-        "kind": "chapter",
-        "heading": "### Capítulo 15 Antes del pensamiento, la pasión",
-        "start_line": 11721,
-        "end_line": 12446
-      },
-      {
-        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/capitulo-16.md",
-        "kind": "chapter",
-        "heading": "### Capítulo 16 Lo que este volumen deja abierto",
-        "start_line": 12447,
-        "end_line": 13492
-      },
-      {
-        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/apendice-b.md",
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/26.md",
         "kind": "appendix",
-        "heading": "### Apéndice B Zagreo o la soberanía no consentida",
-        "start_line": 13493,
-        "end_line": 14010
+        "heading": "# Apéndice A",
+        "start_line": 1926,
+        "end_line": 2011,
+        "start_byte": 358374,
+        "end_byte": 371495
       },
       {
-        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/apendice-c.md",
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/27.md",
         "kind": "appendix",
-        "heading": "### Apéndice C Narciso o la víctima indistinguible",
-        "start_line": 14011,
-        "end_line": 14604
+        "heading": "# Apéndice B",
+        "start_line": 2012,
+        "end_line": 2111,
+        "start_byte": 371495,
+        "end_byte": 388077
       },
       {
-        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/99-glosario.md",
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/28.md",
+        "kind": "appendix",
+        "heading": "# Apéndice C",
+        "start_line": 2112,
+        "end_line": 2224,
+        "start_byte": 388077,
+        "end_byte": 407355
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/29.md",
         "kind": "glossary",
-        "heading": "### Glosario de términos",
-        "start_line": 14605,
-        "end_line": 14827
+        "heading": "# Glosario de términos",
+        "start_line": 2225,
+        "end_line": 2364,
+        "start_byte": 407355,
+        "end_byte": 421833
       }
     ]
   },
   {
     "title": "Afrodita Areia: Ágape",
     "source": "corpus/fuentes/Afrodita Areia Ágape.md",
-    "sha256": "38907af244e8e6e4f0967bdf710c409ad8faba89dd8730366d1bd681a5d0aa71",
+    "sha256": "f88e7d807096e6b8704714cd61ec4b8dc8a15c709282c0e90d74268be89e02f4",
     "series": "Afrodita Areia",
     "volume": 2,
-    "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
+    "segmentation_rule": "Partes numeradas copiadas de publicaciones; la fuente íntegra es su concatenación exacta.",
     "segments": [
       {
-        "path": "corpus/libros/afrodita-areia/02-agape/00-preliminares.md",
-        "kind": "preliminares",
+        "path": "corpus/libros/afrodita-areia/02-agape/01.md",
+        "kind": "cover",
+        "heading": "# Afrodita Areia",
         "start_line": 1,
-        "end_line": 54
+        "end_line": 11,
+        "start_byte": 0,
+        "end_byte": 199
       },
       {
-        "path": "corpus/libros/afrodita-areia/02-agape/01-prefacio.md",
-        "kind": "prefacio",
-        "heading": "### PREFACIO El útero que no recuerda haber parido",
-        "start_line": 55,
-        "end_line": 188
+        "path": "corpus/libros/afrodita-areia/02-agape/02.md",
+        "kind": "legal",
+        "heading": "*Primera edición: 2026*  ",
+        "start_line": 12,
+        "end_line": 18,
+        "start_byte": 199,
+        "end_byte": 569
       },
       {
-        "path": "corpus/libros/afrodita-areia/02-agape/02-prologo.md",
-        "kind": "prologo",
-        "heading": "### PRÓLOGO FILOSÓFICO Por qué la voluntad tiene formas",
-        "start_line": 189,
-        "end_line": 348
+        "path": "corpus/libros/afrodita-areia/02-agape/03.md",
+        "kind": "presentation",
+        "heading": "> «Ágape no es el amor que se siente.  ",
+        "start_line": 19,
+        "end_line": 22,
+        "start_byte": 569,
+        "end_byte": 762
       },
       {
-        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-01.md",
+        "path": "corpus/libros/afrodita-areia/02-agape/04.md",
+        "kind": "index",
+        "heading": "# Índice",
+        "start_line": 23,
+        "end_line": 48,
+        "start_byte": 762,
+        "end_byte": 1755
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/05.md",
+        "kind": "author_notes",
+        "heading": "# Notas del autor",
+        "start_line": 49,
+        "end_line": 55,
+        "start_byte": 1755,
+        "end_byte": 3111
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/06.md",
+        "kind": "preface",
+        "heading": "# Prefacio",
+        "start_line": 56,
+        "end_line": 148,
+        "start_byte": 3111,
+        "end_byte": 14276
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/07.md",
+        "kind": "prologue",
+        "heading": "# Prólogo filosófico",
+        "start_line": 149,
+        "end_line": 540,
+        "start_byte": 14276,
+        "end_byte": 32726
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/08.md",
+        "kind": "part",
+        "heading": "# Parte I",
+        "start_line": 541,
+        "end_line": 846,
+        "start_byte": 32726,
+        "end_byte": 48639
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/09.md",
         "kind": "chapter",
-        "heading": "### CAPÍTULO 1 Ágape no es amor",
-        "start_line": 349,
-        "end_line": 492
+        "heading": "# Capítulo 2",
+        "start_line": 847,
+        "end_line": 1151,
+        "start_byte": 48639,
+        "end_byte": 66066
       },
       {
-        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-02.md",
+        "path": "corpus/libros/afrodita-areia/02-agape/10.md",
         "kind": "chapter",
-        "heading": "### CAPÍTULO 2 La voluntad antes de tener dirección",
-        "start_line": 493,
-        "end_line": 628
+        "heading": "# Capítulo 3",
+        "start_line": 1152,
+        "end_line": 1454,
+        "start_byte": 66066,
+        "end_byte": 84135
       },
       {
-        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-03.md",
+        "path": "corpus/libros/afrodita-areia/02-agape/11.md",
         "kind": "chapter",
-        "heading": "### CAPÍTULO 3 Cómo el fondo produce hijos",
-        "start_line": 629,
-        "end_line": 782
+        "heading": "# Capítulo 4",
+        "start_line": 1455,
+        "end_line": 1764,
+        "start_byte": 84135,
+        "end_byte": 101258
       },
       {
-        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-04.md",
+        "path": "corpus/libros/afrodita-areia/02-agape/12.md",
+        "kind": "part",
+        "heading": "# Parte II",
+        "start_line": 1765,
+        "end_line": 2022,
+        "start_byte": 101258,
+        "end_byte": 115763
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/13.md",
         "kind": "chapter",
-        "heading": "### CAPÍTULO 4 La voluntad en los objetos y",
-        "start_line": 783,
-        "end_line": 928
+        "heading": "# Capítulo 6",
+        "start_line": 2023,
+        "end_line": 2275,
+        "start_byte": 115763,
+        "end_byte": 129835
       },
       {
-        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-05.md",
+        "path": "corpus/libros/afrodita-areia/02-agape/14.md",
         "kind": "chapter",
-        "heading": "### CAPÍTULO 5 Eros: el primer sí",
-        "start_line": 929,
-        "end_line": 1046
+        "heading": "# Capítulo 7",
+        "start_line": 2276,
+        "end_line": 2532,
+        "start_byte": 129835,
+        "end_byte": 143765
       },
       {
-        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-06.md",
+        "path": "corpus/libros/afrodita-areia/02-agape/15.md",
+        "kind": "part",
+        "heading": "# Parte III",
+        "start_line": 2533,
+        "end_line": 2785,
+        "start_byte": 143765,
+        "end_byte": 157521
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/16.md",
         "kind": "chapter",
-        "heading": "### CAPÍTULO 6 Deimos: el vértigo de lo posible",
-        "start_line": 1047,
-        "end_line": 1162
+        "heading": "# Capítulo 9",
+        "start_line": 2786,
+        "end_line": 3022,
+        "start_byte": 157521,
+        "end_byte": 170435
       },
       {
-        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-07.md",
+        "path": "corpus/libros/afrodita-areia/02-agape/17.md",
         "kind": "chapter",
-        "heading": "### CAPÍTULO 7 La misma puerta que abre y paraliza",
-        "start_line": 1163,
-        "end_line": 1284
+        "heading": "# Capítulo 10",
+        "start_line": 3023,
+        "end_line": 3283,
+        "start_byte": 170435,
+        "end_byte": 184694
       },
       {
-        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-08.md",
+        "path": "corpus/libros/afrodita-areia/02-agape/18.md",
+        "kind": "part",
+        "heading": "# Parte IV",
+        "start_line": 3284,
+        "end_line": 3522,
+        "start_byte": 184694,
+        "end_byte": 197358
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/19.md",
         "kind": "chapter",
-        "heading": "### CAPÍTULO 8 Anteros: el no que preserva",
-        "start_line": 1285,
-        "end_line": 1398
+        "heading": "# Capítulo 12",
+        "start_line": 3523,
+        "end_line": 3775,
+        "start_byte": 197358,
+        "end_byte": 211705
       },
       {
-        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-09.md",
+        "path": "corpus/libros/afrodita-areia/02-agape/20.md",
         "kind": "chapter",
-        "heading": "### CAPÍTULO 9 Fobos: el no que destruye",
-        "start_line": 1399,
-        "end_line": 1510
+        "heading": "# Capítulo 13",
+        "start_line": 3776,
+        "end_line": 4016,
+        "start_byte": 211705,
+        "end_byte": 225302
       },
       {
-        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-10.md",
+        "path": "corpus/libros/afrodita-areia/02-agape/21.md",
+        "kind": "part",
+        "heading": "# Parte V",
+        "start_line": 4017,
+        "end_line": 4591,
+        "start_byte": 225302,
+        "end_byte": 259026
+      },
+      {
+        "path": "corpus/libros/afrodita-areia/02-agape/22.md",
         "kind": "chapter",
-        "heading": "### CAPÍTULO 10 La dimensión arética y sus dos caras",
-        "start_line": 1511,
-        "end_line": 1634
+        "heading": "# Capítulo 15",
+        "start_line": 4592,
+        "end_line": 4931,
+        "start_byte": 259026,
+        "end_byte": 278792
       },
       {
-        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-11.md",
-        "kind": "chapter",
-        "heading": "### CAPÍTULO 11 Potós: la voluntad que vive en lo que",
-        "start_line": 1635,
-        "end_line": 1746
+        "path": "corpus/libros/afrodita-areia/02-agape/23.md",
+        "kind": "appendix",
+        "heading": "# Apéndice",
+        "start_line": 4932,
+        "end_line": 5646,
+        "start_byte": 278792,
+        "end_byte": 323676
       },
       {
-        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-12.md",
-        "kind": "chapter",
-        "heading": "### CAPÍTULO 12 Harmonía: habitar lo que hay",
-        "start_line": 1747,
-        "end_line": 1856
-      },
-      {
-        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-13.md",
-        "kind": "chapter",
-        "heading": "### CAPÍTULO 13 El tiempo de la voluntad: anhelo y",
-        "start_line": 1857,
-        "end_line": 1964
-      },
-      {
-        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-14.md",
-        "kind": "chapter",
-        "heading": "### CAPÍTULO 14 Los hijos entre sí",
-        "start_line": 1965,
-        "end_line": 2176
-      },
-      {
-        "path": "corpus/libros/afrodita-areia/02-agape/capitulo-15.md",
-        "kind": "chapter",
-        "heading": "### CAPÍTULO 15 Lo que este volumen deja abierto",
-        "start_line": 2177,
-        "end_line": 2438
-      },
-      {
-        "path": "corpus/libros/afrodita-areia/02-agape/99-glosario.md",
+        "path": "corpus/libros/afrodita-areia/02-agape/24.md",
         "kind": "glossary",
-        "heading": "### Glosario de términos",
-        "start_line": 2439,
-        "end_line": 2545
+        "heading": "# Glosario de términos",
+        "start_line": 5647,
+        "end_line": 5860,
+        "start_byte": 323676,
+        "end_byte": 333237
       }
     ]
   },
@@ -911,289 +1757,289 @@
         "path": "corpus/libros/afrodita-areia/03-damasen/01.md",
         "kind": "cover",
         "heading": "# Afrodita Areia",
-        "start_byte": 0,
-        "end_byte": 202,
         "start_line": 1,
-        "end_line": 11
+        "end_line": 11,
+        "start_byte": 0,
+        "end_byte": 202
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/02.md",
         "kind": "unit",
         "heading": "Primera edición: 2026  ",
-        "start_byte": 202,
-        "end_byte": 576,
         "start_line": 12,
-        "end_line": 17
+        "end_line": 17,
+        "start_byte": 202,
+        "end_byte": 576
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/03.md",
         "kind": "index",
         "heading": "# Índice",
-        "start_byte": 576,
-        "end_byte": 1733,
         "start_line": 18,
-        "end_line": 48
+        "end_line": 48,
+        "start_byte": 576,
+        "end_byte": 1733
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/04.md",
         "kind": "author_notes",
         "heading": "# Notas del autor",
-        "start_byte": 1733,
-        "end_byte": 2904,
         "start_line": 49,
-        "end_line": 51
+        "end_line": 51,
+        "start_byte": 1733,
+        "end_byte": 2904
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/05.md",
         "kind": "preface",
         "heading": "# Prefacio",
-        "start_byte": 2904,
-        "end_byte": 14923,
         "start_line": 52,
-        "end_line": 150
+        "end_line": 150,
+        "start_byte": 2904,
+        "end_byte": 14923
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/06.md",
         "kind": "prologue",
         "heading": "# Prólogo filosófico",
-        "start_byte": 14923,
-        "end_byte": 34715,
         "start_line": 151,
-        "end_line": 269
+        "end_line": 269,
+        "start_byte": 14923,
+        "end_byte": 34715
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/07.md",
         "kind": "part",
         "heading": "# Parte I",
-        "start_byte": 34715,
-        "end_byte": 34791,
         "start_line": 270,
-        "end_line": 274
+        "end_line": 274,
+        "start_byte": 34715,
+        "end_byte": 34791
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/08.md",
         "kind": "chapter",
         "heading": "# Capítulo 1",
-        "start_byte": 34791,
-        "end_byte": 51799,
         "start_line": 275,
-        "end_line": 386
+        "end_line": 386,
+        "start_byte": 34791,
+        "end_byte": 51799
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/09.md",
         "kind": "chapter",
         "heading": "# Capítulo 2",
-        "start_byte": 51799,
-        "end_byte": 66552,
         "start_line": 387,
-        "end_line": 501
+        "end_line": 501,
+        "start_byte": 51799,
+        "end_byte": 66552
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/10.md",
         "kind": "chapter",
         "heading": "# Capítulo 3",
-        "start_byte": 66552,
-        "end_byte": 82168,
         "start_line": 502,
-        "end_line": 617
+        "end_line": 617,
+        "start_byte": 66552,
+        "end_byte": 82168
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/11.md",
         "kind": "chapter",
         "heading": "# Capítulo 4",
-        "start_byte": 82168,
-        "end_byte": 95926,
         "start_line": 618,
-        "end_line": 711
+        "end_line": 711,
+        "start_byte": 82168,
+        "end_byte": 95926
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/12.md",
         "kind": "part",
         "heading": "# Parte II",
-        "start_byte": 95926,
-        "end_byte": 108258,
         "start_line": 712,
-        "end_line": 808
+        "end_line": 808,
+        "start_byte": 95926,
+        "end_byte": 108258
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/13.md",
         "kind": "chapter",
         "heading": "# Capítulo 6",
-        "start_byte": 108258,
-        "end_byte": 120818,
         "start_line": 809,
-        "end_line": 895
+        "end_line": 895,
+        "start_byte": 108258,
+        "end_byte": 120818
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/14.md",
         "kind": "chapter",
         "heading": "# Capítulo 7",
-        "start_byte": 120818,
-        "end_byte": 132745,
         "start_line": 896,
-        "end_line": 980
+        "end_line": 980,
+        "start_byte": 120818,
+        "end_byte": 132745
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/15.md",
         "kind": "chapter",
         "heading": "# Capítulo 8",
-        "start_byte": 132745,
-        "end_byte": 145634,
         "start_line": 981,
-        "end_line": 1072
+        "end_line": 1072,
+        "start_byte": 132745,
+        "end_byte": 145634
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/16.md",
         "kind": "part",
         "heading": "# Parte III",
-        "start_byte": 145634,
-        "end_byte": 145710,
         "start_line": 1073,
-        "end_line": 1077
+        "end_line": 1077,
+        "start_byte": 145634,
+        "end_byte": 145710
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/17.md",
         "kind": "chapter",
         "heading": "# Capítulo 9",
-        "start_byte": 145710,
-        "end_byte": 159349,
         "start_line": 1078,
-        "end_line": 1173
+        "end_line": 1173,
+        "start_byte": 145710,
+        "end_byte": 159349
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/18.md",
         "kind": "chapter",
         "heading": "# Capítulo 10",
-        "start_byte": 159349,
-        "end_byte": 173191,
         "start_line": 1174,
-        "end_line": 1265
+        "end_line": 1265,
+        "start_byte": 159349,
+        "end_byte": 173191
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/19.md",
         "kind": "chapter",
         "heading": "# Capítulo 11",
-        "start_byte": 173191,
-        "end_byte": 186346,
         "start_line": 1266,
-        "end_line": 1356
+        "end_line": 1356,
+        "start_byte": 173191,
+        "end_byte": 186346
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/20.md",
         "kind": "chapter",
         "heading": "# Capítulo 12",
-        "start_byte": 186346,
-        "end_byte": 200154,
         "start_line": 1357,
-        "end_line": 1448
+        "end_line": 1448,
+        "start_byte": 186346,
+        "end_byte": 200154
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/21.md",
         "kind": "part",
         "heading": "# Parte IV",
-        "start_byte": 200154,
-        "end_byte": 200236,
         "start_line": 1449,
-        "end_line": 1453
+        "end_line": 1453,
+        "start_byte": 200154,
+        "end_byte": 200236
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/22.md",
         "kind": "chapter",
         "heading": "# Capítulo 13",
-        "start_byte": 200236,
-        "end_byte": 213063,
         "start_line": 1454,
-        "end_line": 1540
+        "end_line": 1540,
+        "start_byte": 200236,
+        "end_byte": 213063
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/23.md",
         "kind": "chapter",
         "heading": "# Capítulo 14",
-        "start_byte": 213063,
-        "end_byte": 225881,
         "start_line": 1541,
-        "end_line": 1632
+        "end_line": 1632,
+        "start_byte": 213063,
+        "end_byte": 225881
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/24.md",
         "kind": "chapter",
         "heading": "# Capítulo 15",
-        "start_byte": 225881,
-        "end_byte": 239310,
         "start_line": 1633,
-        "end_line": 1724
+        "end_line": 1724,
+        "start_byte": 225881,
+        "end_byte": 239310
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/25.md",
         "kind": "part",
         "heading": "# Parte V",
-        "start_byte": 239310,
-        "end_byte": 239383,
         "start_line": 1725,
-        "end_line": 1729
+        "end_line": 1729,
+        "start_byte": 239310,
+        "end_byte": 239383
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/26.md",
         "kind": "chapter",
         "heading": "# Capítulo 16",
-        "start_byte": 239383,
-        "end_byte": 252672,
         "start_line": 1730,
-        "end_line": 1812
+        "end_line": 1812,
+        "start_byte": 239383,
+        "end_byte": 252672
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/27.md",
         "kind": "chapter",
         "heading": "# Capítulo 17",
-        "start_byte": 252672,
-        "end_byte": 266184,
         "start_line": 1813,
-        "end_line": 1899
+        "end_line": 1899,
+        "start_byte": 252672,
+        "end_byte": 266184
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/28.md",
         "kind": "chapter",
         "heading": "# Capítulo 18",
-        "start_byte": 266184,
-        "end_byte": 279632,
         "start_line": 1900,
-        "end_line": 1992
+        "end_line": 1992,
+        "start_byte": 266184,
+        "end_byte": 279632
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/29.md",
         "kind": "chapter",
         "heading": "# Capítulo 19",
-        "start_byte": 279632,
-        "end_byte": 293118,
         "start_line": 1993,
-        "end_line": 2085
+        "end_line": 2085,
+        "start_byte": 279632,
+        "end_byte": 293118
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/30.md",
         "kind": "chapter",
         "heading": "# Capítulo 20",
-        "start_byte": 293118,
-        "end_byte": 300465,
         "start_line": 2086,
-        "end_line": 2149
+        "end_line": 2149,
+        "start_byte": 293118,
+        "end_byte": 300465
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/31.md",
         "kind": "appendix",
         "heading": "# Apéndice",
-        "start_byte": 300465,
-        "end_byte": 313250,
         "start_line": 2150,
-        "end_line": 2239
+        "end_line": 2239,
+        "start_byte": 300465,
+        "end_byte": 313250
       },
       {
         "path": "corpus/libros/afrodita-areia/03-damasen/32.md",
         "kind": "glossary",
         "heading": "# Glosario",
-        "start_byte": 313250,
-        "end_byte": 327548,
         "start_line": 2240,
-        "end_line": 2406
+        "end_line": 2406,
+        "start_byte": 313250,
+        "end_byte": 327548
       }
     ]
   },
@@ -1209,199 +2055,199 @@
         "path": "corpus/libros/afrodita-areia/04-areopago/01.md",
         "kind": "cover",
         "heading": "# Afrodita Areia",
-        "start_byte": 0,
-        "end_byte": 202,
         "start_line": 1,
-        "end_line": 11
+        "end_line": 11,
+        "start_byte": 0,
+        "end_byte": 202
       },
       {
         "path": "corpus/libros/afrodita-areia/04-areopago/02.md",
         "kind": "legal",
         "heading": "*Primera edición: 2026*  ",
-        "start_byte": 202,
-        "end_byte": 578,
         "start_line": 12,
-        "end_line": 18
+        "end_line": 18,
+        "start_byte": 202,
+        "end_byte": 578
       },
       {
         "path": "corpus/libros/afrodita-areia/04-areopago/03.md",
         "kind": "index",
         "heading": "# Índice",
-        "start_byte": 578,
-        "end_byte": 1726,
         "start_line": 19,
-        "end_line": 43
+        "end_line": 43,
+        "start_byte": 578,
+        "end_byte": 1726
       },
       {
         "path": "corpus/libros/afrodita-areia/04-areopago/04.md",
         "kind": "author_notes",
         "heading": "# Notas del autor",
-        "start_byte": 1726,
-        "end_byte": 3114,
         "start_line": 44,
-        "end_line": 50
+        "end_line": 50,
+        "start_byte": 1726,
+        "end_byte": 3114
       },
       {
         "path": "corpus/libros/afrodita-areia/04-areopago/05.md",
         "kind": "prologue",
         "heading": "# Prólogo",
-        "start_byte": 3114,
-        "end_byte": 18008,
         "start_line": 51,
-        "end_line": 110
+        "end_line": 110,
+        "start_byte": 3114,
+        "end_byte": 18008
       },
       {
         "path": "corpus/libros/afrodita-areia/04-areopago/06.md",
         "kind": "chapter",
         "heading": "# Capítulo 1",
-        "start_byte": 18008,
-        "end_byte": 45158,
         "start_line": 111,
-        "end_line": 240
+        "end_line": 240,
+        "start_byte": 18008,
+        "end_byte": 45158
       },
       {
         "path": "corpus/libros/afrodita-areia/04-areopago/07.md",
         "kind": "chapter",
         "heading": "# Capítulo 2",
-        "start_byte": 45158,
-        "end_byte": 81840,
         "start_line": 241,
-        "end_line": 406
+        "end_line": 406,
+        "start_byte": 45158,
+        "end_byte": 81840
       },
       {
         "path": "corpus/libros/afrodita-areia/04-areopago/08.md",
         "kind": "chapter",
         "heading": "# Capítulo 3",
-        "start_byte": 81840,
-        "end_byte": 119033,
         "start_line": 407,
-        "end_line": 560
+        "end_line": 560,
+        "start_byte": 81840,
+        "end_byte": 119033
       },
       {
         "path": "corpus/libros/afrodita-areia/04-areopago/09.md",
         "kind": "chapter",
         "heading": "# Capítulo 4",
-        "start_byte": 119033,
-        "end_byte": 163440,
         "start_line": 561,
-        "end_line": 742
+        "end_line": 742,
+        "start_byte": 119033,
+        "end_byte": 163440
       },
       {
         "path": "corpus/libros/afrodita-areia/04-areopago/10.md",
         "kind": "chapter",
         "heading": "# Capítulo 5",
-        "start_byte": 163440,
-        "end_byte": 202094,
         "start_line": 743,
-        "end_line": 896
+        "end_line": 896,
+        "start_byte": 163440,
+        "end_byte": 202094
       },
       {
         "path": "corpus/libros/afrodita-areia/04-areopago/11.md",
         "kind": "chapter",
         "heading": "# Capítulo 6",
-        "start_byte": 202094,
-        "end_byte": 240280,
         "start_line": 897,
-        "end_line": 1038
+        "end_line": 1038,
+        "start_byte": 202094,
+        "end_byte": 240280
       },
       {
         "path": "corpus/libros/afrodita-areia/04-areopago/12.md",
         "kind": "chapter",
         "heading": "# Capítulo 7",
-        "start_byte": 240280,
-        "end_byte": 279973,
         "start_line": 1039,
-        "end_line": 1174
+        "end_line": 1174,
+        "start_byte": 240280,
+        "end_byte": 279973
       },
       {
         "path": "corpus/libros/afrodita-areia/04-areopago/13.md",
         "kind": "chapter",
         "heading": "# Capítulo 8",
-        "start_byte": 279973,
-        "end_byte": 315533,
         "start_line": 1175,
-        "end_line": 1320
+        "end_line": 1320,
+        "start_byte": 279973,
+        "end_byte": 315533
       },
       {
         "path": "corpus/libros/afrodita-areia/04-areopago/14.md",
         "kind": "chapter",
         "heading": "# Capítulo 9",
-        "start_byte": 315533,
-        "end_byte": 352499,
         "start_line": 1321,
-        "end_line": 1458
+        "end_line": 1458,
+        "start_byte": 315533,
+        "end_byte": 352499
       },
       {
         "path": "corpus/libros/afrodita-areia/04-areopago/15.md",
         "kind": "chapter",
         "heading": "# Capítulo 10",
-        "start_byte": 352499,
-        "end_byte": 389048,
         "start_line": 1459,
-        "end_line": 1606
+        "end_line": 1606,
+        "start_byte": 352499,
+        "end_byte": 389048
       },
       {
         "path": "corpus/libros/afrodita-areia/04-areopago/16.md",
         "kind": "chapter",
         "heading": "# Capítulo 11",
-        "start_byte": 389048,
-        "end_byte": 423513,
         "start_line": 1607,
-        "end_line": 1740
+        "end_line": 1740,
+        "start_byte": 389048,
+        "end_byte": 423513
       },
       {
         "path": "corpus/libros/afrodita-areia/04-areopago/17.md",
         "kind": "chapter",
         "heading": "# Capítulo 12",
-        "start_byte": 423513,
-        "end_byte": 463511,
         "start_line": 1741,
-        "end_line": 1896
+        "end_line": 1896,
+        "start_byte": 423513,
+        "end_byte": 463511
       },
       {
         "path": "corpus/libros/afrodita-areia/04-areopago/18.md",
         "kind": "chapter",
         "heading": "# Capítulo 13",
-        "start_byte": 463511,
-        "end_byte": 496533,
         "start_line": 1897,
-        "end_line": 2026
+        "end_line": 2026,
+        "start_byte": 463511,
+        "end_byte": 496533
       },
       {
         "path": "corpus/libros/afrodita-areia/04-areopago/19.md",
         "kind": "appendix",
         "heading": "# Apéndice I",
-        "start_byte": 496533,
-        "end_byte": 528932,
         "start_line": 2027,
-        "end_line": 2159
+        "end_line": 2159,
+        "start_byte": 496533,
+        "end_byte": 528932
       },
       {
         "path": "corpus/libros/afrodita-areia/04-areopago/20.md",
         "kind": "appendix",
         "heading": "# Apéndice II",
-        "start_byte": 528932,
-        "end_byte": 559356,
         "start_line": 2160,
-        "end_line": 2339
+        "end_line": 2339,
+        "start_byte": 528932,
+        "end_byte": 559356
       },
       {
         "path": "corpus/libros/afrodita-areia/04-areopago/21.md",
         "kind": "appendix",
         "heading": "# Apéndice III",
-        "start_byte": 559356,
-        "end_byte": 595614,
         "start_line": 2340,
-        "end_line": 2505
+        "end_line": 2505,
+        "start_byte": 559356,
+        "end_byte": 595614
       },
       {
         "path": "corpus/libros/afrodita-areia/04-areopago/22.md",
         "kind": "glossary",
         "heading": "# Glosario",
-        "start_byte": 595614,
-        "end_byte": 604699,
         "start_line": 2506,
-        "end_line": 2560
+        "end_line": 2560,
+        "start_byte": 595614,
+        "end_byte": 604699
       }
     ]
   },
@@ -1417,204 +2263,204 @@
         "path": "corpus/libros/afrodita-areia/05-caelus/01.md",
         "kind": "cover",
         "heading": "# Afrodita Areia",
-        "start_byte": 0,
-        "end_byte": 198,
         "start_line": 1,
-        "end_line": 11
+        "end_line": 11,
+        "start_byte": 0,
+        "end_byte": 198
       },
       {
         "path": "corpus/libros/afrodita-areia/05-caelus/02.md",
         "kind": "legal",
         "heading": "*Primera edición: 2026*  ",
-        "start_byte": 198,
-        "end_byte": 835,
         "start_line": 12,
-        "end_line": 20
+        "end_line": 20,
+        "start_byte": 198,
+        "end_byte": 835
       },
       {
         "path": "corpus/libros/afrodita-areia/05-caelus/03.md",
         "kind": "presentation",
         "heading": "> «La pasión me determinó. Asumí esa determinación como propia, y en esa asunción soy. La libertad me determinó. La cedí al colectivo. Y en esa cesión, el Estado es.»  ",
-        "start_byte": 835,
-        "end_byte": 1049,
         "start_line": 21,
-        "end_line": 22
+        "end_line": 22,
+        "start_byte": 835,
+        "end_byte": 1049
       },
       {
         "path": "corpus/libros/afrodita-areia/05-caelus/04.md",
         "kind": "index",
         "heading": "# Índice",
-        "start_byte": 1049,
-        "end_byte": 1891,
         "start_line": 23,
-        "end_line": 63
+        "end_line": 63,
+        "start_byte": 1049,
+        "end_byte": 1891
       },
       {
         "path": "corpus/libros/afrodita-areia/05-caelus/05.md",
         "kind": "author_notes",
         "heading": "# Notas del autor",
-        "start_byte": 1891,
-        "end_byte": 6277,
         "start_line": 64,
-        "end_line": 86
+        "end_line": 86,
+        "start_byte": 1891,
+        "end_byte": 6277
       },
       {
         "path": "corpus/libros/afrodita-areia/05-caelus/06.md",
         "kind": "prologue",
         "heading": "# Prólogo",
-        "start_byte": 6277,
-        "end_byte": 18430,
         "start_line": 87,
-        "end_line": 169
+        "end_line": 169,
+        "start_byte": 6277,
+        "end_byte": 18430
       },
       {
         "path": "corpus/libros/afrodita-areia/05-caelus/07.md",
         "kind": "chapter",
         "heading": "# Capítulo 1",
-        "start_byte": 18430,
-        "end_byte": 35960,
         "start_line": 170,
-        "end_line": 290
+        "end_line": 290,
+        "start_byte": 18430,
+        "end_byte": 35960
       },
       {
         "path": "corpus/libros/afrodita-areia/05-caelus/08.md",
         "kind": "chapter",
         "heading": "# Capítulo 2",
-        "start_byte": 35960,
-        "end_byte": 56293,
         "start_line": 291,
-        "end_line": 445
+        "end_line": 445,
+        "start_byte": 35960,
+        "end_byte": 56293
       },
       {
         "path": "corpus/libros/afrodita-areia/05-caelus/09.md",
         "kind": "chapter",
         "heading": "# Capítulo 3",
-        "start_byte": 56293,
-        "end_byte": 77816,
         "start_line": 446,
-        "end_line": 580
+        "end_line": 580,
+        "start_byte": 56293,
+        "end_byte": 77816
       },
       {
         "path": "corpus/libros/afrodita-areia/05-caelus/10.md",
         "kind": "chapter",
         "heading": "# Capítulo 4",
-        "start_byte": 77816,
-        "end_byte": 105747,
         "start_line": 581,
-        "end_line": 742
+        "end_line": 742,
+        "start_byte": 77816,
+        "end_byte": 105747
       },
       {
         "path": "corpus/libros/afrodita-areia/05-caelus/11.md",
         "kind": "chapter",
         "heading": "# Capítulo 5",
-        "start_byte": 105747,
-        "end_byte": 133753,
         "start_line": 743,
-        "end_line": 944
+        "end_line": 944,
+        "start_byte": 105747,
+        "end_byte": 133753
       },
       {
         "path": "corpus/libros/afrodita-areia/05-caelus/12.md",
         "kind": "chapter",
         "heading": "# Capítulo 6",
-        "start_byte": 133753,
-        "end_byte": 159613,
         "start_line": 945,
-        "end_line": 1121
+        "end_line": 1121,
+        "start_byte": 133753,
+        "end_byte": 159613
       },
       {
         "path": "corpus/libros/afrodita-areia/05-caelus/13.md",
         "kind": "chapter",
         "heading": "# Capítulo 7",
-        "start_byte": 159613,
-        "end_byte": 186538,
         "start_line": 1122,
-        "end_line": 1283
+        "end_line": 1283,
+        "start_byte": 159613,
+        "end_byte": 186538
       },
       {
         "path": "corpus/libros/afrodita-areia/05-caelus/14.md",
         "kind": "chapter",
         "heading": "# Capítulo 8",
-        "start_byte": 186538,
-        "end_byte": 216890,
         "start_line": 1284,
-        "end_line": 1450
+        "end_line": 1450,
+        "start_byte": 186538,
+        "end_byte": 216890
       },
       {
         "path": "corpus/libros/afrodita-areia/05-caelus/15.md",
         "kind": "chapter",
         "heading": "# Capítulo 9",
-        "start_byte": 216890,
-        "end_byte": 247075,
         "start_line": 1451,
-        "end_line": 1649
+        "end_line": 1649,
+        "start_byte": 216890,
+        "end_byte": 247075
       },
       {
         "path": "corpus/libros/afrodita-areia/05-caelus/16.md",
         "kind": "chapter",
         "heading": "# Capítulo 10",
-        "start_byte": 247075,
-        "end_byte": 275529,
         "start_line": 1650,
-        "end_line": 1822
+        "end_line": 1822,
+        "start_byte": 247075,
+        "end_byte": 275529
       },
       {
         "path": "corpus/libros/afrodita-areia/05-caelus/17.md",
         "kind": "chapter",
         "heading": "# Capítulo 11",
-        "start_byte": 275529,
-        "end_byte": 303641,
         "start_line": 1823,
-        "end_line": 2009
+        "end_line": 2009,
+        "start_byte": 275529,
+        "end_byte": 303641
       },
       {
         "path": "corpus/libros/afrodita-areia/05-caelus/18.md",
         "kind": "chapter",
         "heading": "# Capítulo 12",
-        "start_byte": 303641,
-        "end_byte": 333358,
         "start_line": 2010,
-        "end_line": 2228
+        "end_line": 2228,
+        "start_byte": 303641,
+        "end_byte": 333358
       },
       {
         "path": "corpus/libros/afrodita-areia/05-caelus/19.md",
         "kind": "chapter",
         "heading": "# Capítulo 13",
-        "start_byte": 333358,
-        "end_byte": 364283,
         "start_line": 2229,
-        "end_line": 2438
+        "end_line": 2438,
+        "start_byte": 333358,
+        "end_byte": 364283
       },
       {
         "path": "corpus/libros/afrodita-areia/05-caelus/20.md",
         "kind": "unit",
         "heading": "# Epílogo",
-        "start_byte": 364283,
-        "end_byte": 377754,
         "start_line": 2439,
-        "end_line": 2537
+        "end_line": 2537,
+        "start_byte": 364283,
+        "end_byte": 377754
       },
       {
         "path": "corpus/libros/afrodita-areia/05-caelus/21.md",
         "kind": "appendix",
         "heading": "# Apéndice",
-        "start_byte": 377754,
-        "end_byte": 394471,
         "start_line": 2538,
-        "end_line": 2812
+        "end_line": 2812,
+        "start_byte": 377754,
+        "end_byte": 394471
       },
       {
         "path": "corpus/libros/afrodita-areia/05-caelus/22.md",
         "kind": "glossary",
         "heading": "# Glosario de términos",
-        "start_byte": 394471,
-        "end_byte": 410030,
         "start_line": 2813,
-        "end_line": 2871
+        "end_line": 2871,
+        "start_byte": 394471,
+        "end_byte": 410030
       }
     ]
   },
   {
-    "title": "Afrodita Areia: Nikomachos",
+    "title": "Afrodita Areia: Nikomachos — El límite de la predicación",
     "source": "corpus/fuentes/Afrodita_Areia_Nikomachos.md",
     "sha256": "4c929e2d8782664180728f2326e8827857da227c3b34b5af997c08194885e576",
     "series": "Afrodita Areia",
@@ -1625,154 +2471,154 @@
         "path": "corpus/libros/afrodita-areia/06-nikomachos/01.md",
         "kind": "cover",
         "heading": "# Afrodita Areia",
-        "start_byte": 0,
-        "end_byte": 203,
         "start_line": 1,
-        "end_line": 11
+        "end_line": 11,
+        "start_byte": 0,
+        "end_byte": 203
       },
       {
         "path": "corpus/libros/afrodita-areia/06-nikomachos/02.md",
         "kind": "legal",
         "heading": "*Primera edición: 2026*  ",
-        "start_byte": 203,
-        "end_byte": 844,
         "start_line": 12,
-        "end_line": 20
+        "end_line": 20,
+        "start_byte": 203,
+        "end_byte": 844
       },
       {
         "path": "corpus/libros/afrodita-areia/06-nikomachos/03.md",
         "kind": "index",
         "heading": "# Índice",
-        "start_byte": 844,
-        "end_byte": 1539,
         "start_line": 21,
-        "end_line": 61
+        "end_line": 61,
+        "start_byte": 844,
+        "end_byte": 1539
       },
       {
         "path": "corpus/libros/afrodita-areia/06-nikomachos/04.md",
         "kind": "prologue",
         "heading": "# Prólogo",
-        "start_byte": 1539,
-        "end_byte": 18285,
         "start_line": 62,
-        "end_line": 194
+        "end_line": 194,
+        "start_byte": 1539,
+        "end_byte": 18285
       },
       {
         "path": "corpus/libros/afrodita-areia/06-nikomachos/05.md",
         "kind": "chapter",
         "heading": "# Capítulo 1",
-        "start_byte": 18285,
-        "end_byte": 50093,
         "start_line": 195,
-        "end_line": 367
+        "end_line": 367,
+        "start_byte": 18285,
+        "end_byte": 50093
       },
       {
         "path": "corpus/libros/afrodita-areia/06-nikomachos/06.md",
         "kind": "chapter",
         "heading": "# Capítulo 2",
-        "start_byte": 50093,
-        "end_byte": 91070,
         "start_line": 368,
-        "end_line": 591
+        "end_line": 591,
+        "start_byte": 50093,
+        "end_byte": 91070
       },
       {
         "path": "corpus/libros/afrodita-areia/06-nikomachos/07.md",
         "kind": "chapter",
         "heading": "# Capítulo 3",
-        "start_byte": 91070,
-        "end_byte": 126467,
         "start_line": 592,
-        "end_line": 816
+        "end_line": 816,
+        "start_byte": 91070,
+        "end_byte": 126467
       },
       {
         "path": "corpus/libros/afrodita-areia/06-nikomachos/08.md",
         "kind": "chapter",
         "heading": "# Capítulo 4",
-        "start_byte": 126467,
-        "end_byte": 161250,
         "start_line": 817,
-        "end_line": 1027
+        "end_line": 1027,
+        "start_byte": 126467,
+        "end_byte": 161250
       },
       {
         "path": "corpus/libros/afrodita-areia/06-nikomachos/09.md",
         "kind": "chapter",
         "heading": "# Capítulo 5",
-        "start_byte": 161250,
-        "end_byte": 198602,
         "start_line": 1028,
-        "end_line": 1282
+        "end_line": 1282,
+        "start_byte": 161250,
+        "end_byte": 198602
       },
       {
         "path": "corpus/libros/afrodita-areia/06-nikomachos/10.md",
         "kind": "chapter",
         "heading": "# Capítulo 6",
-        "start_byte": 198602,
-        "end_byte": 238306,
         "start_line": 1283,
-        "end_line": 1535
+        "end_line": 1535,
+        "start_byte": 198602,
+        "end_byte": 238306
       },
       {
         "path": "corpus/libros/afrodita-areia/06-nikomachos/11.md",
         "kind": "chapter",
         "heading": "# Capítulo 7",
-        "start_byte": 238306,
-        "end_byte": 280286,
         "start_line": 1536,
-        "end_line": 1802
+        "end_line": 1802,
+        "start_byte": 238306,
+        "end_byte": 280286
       },
       {
         "path": "corpus/libros/afrodita-areia/06-nikomachos/12.md",
         "kind": "chapter",
         "heading": "# Capítulo 8",
-        "start_byte": 280286,
-        "end_byte": 318475,
         "start_line": 1803,
-        "end_line": 2062
+        "end_line": 2062,
+        "start_byte": 280286,
+        "end_byte": 318475
       },
       {
         "path": "corpus/libros/afrodita-areia/06-nikomachos/13.md",
         "kind": "chapter",
         "heading": "# Capítulo 9",
-        "start_byte": 318475,
-        "end_byte": 354006,
         "start_line": 2063,
-        "end_line": 2307
+        "end_line": 2307,
+        "start_byte": 318475,
+        "end_byte": 354006
       },
       {
         "path": "corpus/libros/afrodita-areia/06-nikomachos/14.md",
         "kind": "chapter",
         "heading": "# Capítulo 10",
-        "start_byte": 354006,
-        "end_byte": 391088,
         "start_line": 2308,
-        "end_line": 2567
+        "end_line": 2567,
+        "start_byte": 354006,
+        "end_byte": 391088
       },
       {
         "path": "corpus/libros/afrodita-areia/06-nikomachos/15.md",
         "kind": "chapter",
         "heading": "# Capítulo 11",
-        "start_byte": 391088,
-        "end_byte": 426360,
         "start_line": 2568,
-        "end_line": 2806
+        "end_line": 2806,
+        "start_byte": 391088,
+        "end_byte": 426360
       },
       {
         "path": "corpus/libros/afrodita-areia/06-nikomachos/16.md",
         "kind": "chapter",
         "heading": "# Capítulo 12",
-        "start_byte": 426360,
-        "end_byte": 464637,
         "start_line": 2807,
-        "end_line": 3085
+        "end_line": 3085,
+        "start_byte": 426360,
+        "end_byte": 464637
       },
       {
         "path": "corpus/libros/afrodita-areia/06-nikomachos/17.md",
         "kind": "unit",
         "heading": "# Epílogo",
-        "start_byte": 464637,
-        "end_byte": 479037,
         "start_line": 3086,
-        "end_line": 3208
+        "end_line": 3208,
+        "start_byte": 464637,
+        "end_byte": 479037
       }
     ]
   },
@@ -5291,639 +6137,6 @@
         "heading": "APÉNDICE E",
         "start_line": 15825,
         "end_line": 16075
-      }
-    ]
-  },
-  {
-    "title": "El Contrato Fiscal: Kratos",
-    "source": "corpus/fuentes/El Contrato Fiscal Kratos.md",
-    "sha256": "27d01afd40ca569b7981856876ea3a9784aa803cbc419a54d3348b6e754f1311",
-    "series": null,
-    "volume": null,
-    "segmentation_rule": "Partes numeradas copiadas de publicaciones; la fuente íntegra es su concatenación exacta.",
-    "segments": [
-      {
-        "path": "corpus/libros/contrato-fiscal/kratos/01.md",
-        "kind": "unit",
-        "heading": "# EL CONTRATO FISCAL: KRATOS",
-        "start_byte": 0,
-        "end_byte": 63,
-        "start_line": 1,
-        "end_line": 3
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/kratos/02.md",
-        "kind": "legal",
-        "heading": "# Aviso legal",
-        "start_byte": 63,
-        "end_byte": 440,
-        "start_line": 4,
-        "end_line": 15
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/kratos/03.md",
-        "kind": "prologue",
-        "heading": "# Prólogo",
-        "start_byte": 440,
-        "end_byte": 12179,
-        "start_line": 16,
-        "end_line": 110
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/kratos/04.md",
-        "kind": "unit",
-        "heading": "# PARTE I · LA VIDA DEL CONTRATO",
-        "start_byte": 12179,
-        "end_byte": 12213,
-        "start_line": 111,
-        "end_line": 111
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/kratos/05.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 1",
-        "start_byte": 12213,
-        "end_byte": 27426,
-        "start_line": 112,
-        "end_line": 204
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/kratos/06.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 2",
-        "start_byte": 27426,
-        "end_byte": 47419,
-        "start_line": 205,
-        "end_line": 317
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/kratos/07.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 3",
-        "start_byte": 47419,
-        "end_byte": 68867,
-        "start_line": 318,
-        "end_line": 458
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/kratos/08.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 4",
-        "start_byte": 68867,
-        "end_byte": 90252,
-        "start_line": 459,
-        "end_line": 569
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/kratos/09.md",
-        "kind": "unit",
-        "heading": "# PARTE II · LA DEGRADACIÓN",
-        "start_byte": 90252,
-        "end_byte": 91226,
-        "start_line": 570,
-        "end_line": 579
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/kratos/10.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 5",
-        "start_byte": 91226,
-        "end_byte": 111144,
-        "start_line": 580,
-        "end_line": 692
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/kratos/11.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 6",
-        "start_byte": 111144,
-        "end_byte": 132569,
-        "start_line": 693,
-        "end_line": 803
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/kratos/12.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 7",
-        "start_byte": 132569,
-        "end_byte": 152258,
-        "start_line": 804,
-        "end_line": 912
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/kratos/13.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 8",
-        "start_byte": 152258,
-        "end_byte": 173220,
-        "start_line": 913,
-        "end_line": 1011
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/kratos/14.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 9",
-        "start_byte": 173220,
-        "end_byte": 196025,
-        "start_line": 1012,
-        "end_line": 1138
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/kratos/15.md",
-        "kind": "unit",
-        "heading": "# PARTE III · LA EXIGENCIA",
-        "start_byte": 196025,
-        "end_byte": 196964,
-        "start_line": 1139,
-        "end_line": 1148
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/kratos/16.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 10",
-        "start_byte": 196964,
-        "end_byte": 215847,
-        "start_line": 1149,
-        "end_line": 1243
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/kratos/17.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 11",
-        "start_byte": 215847,
-        "end_byte": 236456,
-        "start_line": 1244,
-        "end_line": 1372
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/kratos/18.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 12",
-        "start_byte": 236456,
-        "end_byte": 258257,
-        "start_line": 1373,
-        "end_line": 1479
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/kratos/19.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 13",
-        "start_byte": 258257,
-        "end_byte": 278999,
-        "start_line": 1480,
-        "end_line": 1594
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/kratos/20.md",
-        "kind": "unit",
-        "heading": "# Epílogo",
-        "start_byte": 278999,
-        "end_byte": 292798,
-        "start_line": 1595,
-        "end_line": 1667
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/kratos/21.md",
-        "kind": "unit",
-        "heading": "# Sobre la colección El Contrato Fiscal",
-        "start_byte": 292798,
-        "end_byte": 293583,
-        "start_line": 1668,
-        "end_line": 1670
-      }
-    ]
-  },
-  {
-    "title": "El Contrato Fiscal: Eris",
-    "source": "corpus/fuentes/El Contrato Fiscal Eris.md",
-    "sha256": "69517fc268cb10052c78c603aacf00de3d9cc7c68bf125451739a2dab9d68136",
-    "series": null,
-    "volume": null,
-    "segmentation_rule": "Partes numeradas copiadas de publicaciones; la fuente íntegra es su concatenación exacta.",
-    "segments": [
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/01.md",
-        "kind": "unit",
-        "heading": "# EL CONTRATO FISCAL: ERIS",
-        "start_byte": 0,
-        "end_byte": 91,
-        "start_line": 1,
-        "end_line": 5
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/02.md",
-        "kind": "legal",
-        "heading": "# Aviso legal",
-        "start_byte": 91,
-        "end_byte": 505,
-        "start_line": 6,
-        "end_line": 16
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/03.md",
-        "kind": "index",
-        "heading": "# Índice",
-        "start_byte": 505,
-        "end_byte": 1804,
-        "start_line": 17,
-        "end_line": 42
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/04.md",
-        "kind": "unit",
-        "heading": "EL CONTRATO FISCAL: ERIS",
-        "start_byte": 1804,
-        "end_byte": 20917,
-        "start_line": 43,
-        "end_line": 149
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/05.md",
-        "kind": "unit",
-        "heading": "# PARTE I · EL CONTRACTUALISMO",
-        "start_byte": 20917,
-        "end_byte": 21050,
-        "start_line": 150,
-        "end_line": 152
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/06.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 1",
-        "start_byte": 21050,
-        "end_byte": 42518,
-        "start_line": 153,
-        "end_line": 271
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/07.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 2",
-        "start_byte": 42518,
-        "end_byte": 65787,
-        "start_line": 272,
-        "end_line": 392
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/08.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 3",
-        "start_byte": 65787,
-        "end_byte": 91630,
-        "start_line": 393,
-        "end_line": 521
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/09.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 4",
-        "start_byte": 91630,
-        "end_byte": 114474,
-        "start_line": 522,
-        "end_line": 644
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/10.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 5",
-        "start_byte": 114474,
-        "end_byte": 138496,
-        "start_line": 645,
-        "end_line": 767
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/11.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 6",
-        "start_byte": 138496,
-        "end_byte": 162779,
-        "start_line": 768,
-        "end_line": 904
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/12.md",
-        "kind": "unit",
-        "heading": "# PARTE II · EL LIBERALISMO",
-        "start_byte": 162779,
-        "end_byte": 162913,
-        "start_line": 905,
-        "end_line": 907
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/13.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 7",
-        "start_byte": 162913,
-        "end_byte": 185409,
-        "start_line": 908,
-        "end_line": 1028
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/14.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 8",
-        "start_byte": 185409,
-        "end_byte": 208733,
-        "start_line": 1029,
-        "end_line": 1155
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/15.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 9",
-        "start_byte": 208733,
-        "end_byte": 231231,
-        "start_line": 1156,
-        "end_line": 1273
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/16.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 10",
-        "start_byte": 231231,
-        "end_byte": 253568,
-        "start_line": 1274,
-        "end_line": 1398
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/17.md",
-        "kind": "unit",
-        "heading": "# PARTE III · EL MATERIALISMO HISTÓRICO",
-        "start_byte": 253568,
-        "end_byte": 253713,
-        "start_line": 1399,
-        "end_line": 1401
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/18.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 11",
-        "start_byte": 253713,
-        "end_byte": 276101,
-        "start_line": 1402,
-        "end_line": 1522
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/19.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 12",
-        "start_byte": 276101,
-        "end_byte": 297421,
-        "start_line": 1523,
-        "end_line": 1642
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/20.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 13",
-        "start_byte": 297421,
-        "end_byte": 319628,
-        "start_line": 1643,
-        "end_line": 1763
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/21.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 14",
-        "start_byte": 319628,
-        "end_byte": 345626,
-        "start_line": 1764,
-        "end_line": 1891
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/22.md",
-        "kind": "unit",
-        "heading": "# PARTE IV · LA ANARQUÍA Y LA REVOLUCIÓN",
-        "start_byte": 345626,
-        "end_byte": 345775,
-        "start_line": 1892,
-        "end_line": 1894
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/23.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 15",
-        "start_byte": 345775,
-        "end_byte": 368666,
-        "start_line": 1895,
-        "end_line": 2019
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/24.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 16",
-        "start_byte": 368666,
-        "end_byte": 389931,
-        "start_line": 2020,
-        "end_line": 2144
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/25.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 17",
-        "start_byte": 389931,
-        "end_byte": 412698,
-        "start_line": 2145,
-        "end_line": 2271
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/26.md",
-        "kind": "unit",
-        "heading": "# Epílogo",
-        "start_byte": 412698,
-        "end_byte": 428308,
-        "start_line": 2272,
-        "end_line": 2376
-      },
-      {
-        "path": "corpus/libros/contrato-fiscal/eris/27.md",
-        "kind": "unit",
-        "heading": "# Sobre la colección El Contrato Fiscal",
-        "start_byte": 428308,
-        "end_byte": 428778,
-        "start_line": 2377,
-        "end_line": 2383
-      }
-    ]
-  },
-  {
-    "title": "La esclavitud por alineación",
-    "source": "corpus/fuentes/La esclavitud por alineación.md",
-    "sha256": "e71b54a5366df488039be8d23f5034016d5f8ce2352dd5cc05558d5f54f5bca3",
-    "series": null,
-    "volume": null,
-    "segmentation_rule": "Partes numeradas copiadas de publicaciones; la fuente íntegra es su concatenación exacta.",
-    "segments": [
-      {
-        "path": "corpus/libros/esclavitud-por-alineacion/01.md",
-        "kind": "unit",
-        "heading": "# LA ESCLAVITUD POR ALINEACIÓN",
-        "start_byte": 0,
-        "end_byte": 83,
-        "start_line": 1,
-        "end_line": 3
-      },
-      {
-        "path": "corpus/libros/esclavitud-por-alineacion/02.md",
-        "kind": "legal",
-        "heading": "# Aviso legal",
-        "start_byte": 83,
-        "end_byte": 814,
-        "start_line": 4,
-        "end_line": 15
-      },
-      {
-        "path": "corpus/libros/esclavitud-por-alineacion/03.md",
-        "kind": "index",
-        "heading": "# Índice",
-        "start_byte": 814,
-        "end_byte": 1678,
-        "start_line": 16,
-        "end_line": 43
-      },
-      {
-        "path": "corpus/libros/esclavitud-por-alineacion/04.md",
-        "kind": "unit",
-        "heading": "# Introducción",
-        "start_byte": 1678,
-        "end_byte": 32686,
-        "start_line": 44,
-        "end_line": 194
-      },
-      {
-        "path": "corpus/libros/esclavitud-por-alineacion/05.md",
-        "kind": "unit",
-        "heading": "# PARTE I · EL CONCILIO",
-        "start_byte": 32686,
-        "end_byte": 32802,
-        "start_line": 195,
-        "end_line": 197
-      },
-      {
-        "path": "corpus/libros/esclavitud-por-alineacion/06.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 1",
-        "start_byte": 32802,
-        "end_byte": 63749,
-        "start_line": 198,
-        "end_line": 351
-      },
-      {
-        "path": "corpus/libros/esclavitud-por-alineacion/07.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 2",
-        "start_byte": 63749,
-        "end_byte": 92420,
-        "start_line": 352,
-        "end_line": 521
-      },
-      {
-        "path": "corpus/libros/esclavitud-por-alineacion/08.md",
-        "kind": "unit",
-        "heading": "# PARTE II · LA NADA",
-        "start_byte": 92420,
-        "end_byte": 92522,
-        "start_line": 522,
-        "end_line": 524
-      },
-      {
-        "path": "corpus/libros/esclavitud-por-alineacion/09.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 3",
-        "start_byte": 92522,
-        "end_byte": 116524,
-        "start_line": 525,
-        "end_line": 676
-      },
-      {
-        "path": "corpus/libros/esclavitud-por-alineacion/10.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 4",
-        "start_byte": 116524,
-        "end_byte": 141143,
-        "start_line": 677,
-        "end_line": 842
-      },
-      {
-        "path": "corpus/libros/esclavitud-por-alineacion/11.md",
-        "kind": "unit",
-        "heading": "# PARTE III · LA RELACIÓN",
-        "start_byte": 141143,
-        "end_byte": 141281,
-        "start_line": 843,
-        "end_line": 845
-      },
-      {
-        "path": "corpus/libros/esclavitud-por-alineacion/12.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 5",
-        "start_byte": 141281,
-        "end_byte": 177576,
-        "start_line": 846,
-        "end_line": 1046
-      },
-      {
-        "path": "corpus/libros/esclavitud-por-alineacion/13.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 6",
-        "start_byte": 177576,
-        "end_byte": 211908,
-        "start_line": 1047,
-        "end_line": 1254
-      },
-      {
-        "path": "corpus/libros/esclavitud-por-alineacion/14.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 7",
-        "start_byte": 211908,
-        "end_byte": 237758,
-        "start_line": 1255,
-        "end_line": 1419
-      },
-      {
-        "path": "corpus/libros/esclavitud-por-alineacion/15.md",
-        "kind": "unit",
-        "heading": "# PARTE IV · EL AMOR Y EL DIAGNÓSTICO",
-        "start_byte": 237758,
-        "end_byte": 237893,
-        "start_line": 1420,
-        "end_line": 1422
-      },
-      {
-        "path": "corpus/libros/esclavitud-por-alineacion/16.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 8",
-        "start_byte": 237893,
-        "end_byte": 262410,
-        "start_line": 1423,
-        "end_line": 1597
-      },
-      {
-        "path": "corpus/libros/esclavitud-por-alineacion/17.md",
-        "kind": "chapter",
-        "heading": "# Capítulo 9",
-        "start_byte": 262410,
-        "end_byte": 291006,
-        "start_line": 1598,
-        "end_line": 1782
-      },
-      {
-        "path": "corpus/libros/esclavitud-por-alineacion/18.md",
-        "kind": "unit",
-        "heading": "# Epílogo",
-        "start_byte": 291006,
-        "end_byte": 309290,
-        "start_line": 1783,
-        "end_line": 1910
-      },
-      {
-        "path": "corpus/libros/esclavitud-por-alineacion/19.md",
-        "kind": "unit",
-        "heading": "# Sobre la colección Reivindicación ontológica del ego",
-        "start_byte": 309290,
-        "end_byte": 309444,
-        "start_line": 1911,
-        "end_line": 1913
       }
     ]
   }

@@ -4,112 +4,142 @@
   "sha256": "80eed0c224facc85a37e29b59639fba701a26cf0c9c8d4102c5c1b33affcd187",
   "series": null,
   "volume": null,
-  "segmentation_rule": "Quince unidades editoriales copiadas fielmente de publicaciones; la fuente íntegra se reconstruye por concatenación exacta.",
+  "segmentation_rule": "Partes numeradas copiadas de publicaciones; la fuente íntegra es su concatenación exacta.",
   "segments": [
     {
       "path": "corpus/libros/caos/01.md",
-      "kind": "portada",
+      "kind": "cover",
       "heading": "# ΧΑΟΣ",
       "start_line": 1,
-      "end_line": 11
+      "end_line": 11,
+      "start_byte": 0,
+      "end_byte": 235
     },
     {
       "path": "corpus/libros/caos/02.md",
-      "kind": "aviso_legal",
+      "kind": "legal",
       "heading": "# Aviso legal",
       "start_line": 12,
-      "end_line": 24
+      "end_line": 24,
+      "start_byte": 235,
+      "end_byte": 907
     },
     {
       "path": "corpus/libros/caos/03.md",
-      "kind": "presentacion",
-      "heading": "> ¿Qué es el ego?",
+      "kind": "presentation",
+      "heading": "> ¿Qué es el ego? No una entidad, no una sustancia, no un origen —sino un evento. El colapso de la posibilidad infinita en determinación irreversible, producido por la doble mediación que constituye al sujeto como agente responsable.",
       "start_line": 25,
-      "end_line": 27
+      "end_line": 27,
+      "start_byte": 907,
+      "end_byte": 1405
     },
     {
       "path": "corpus/libros/caos/04.md",
-      "kind": "indice",
+      "kind": "index",
       "heading": "# Índice",
       "start_line": 28,
-      "end_line": 52
+      "end_line": 52,
+      "start_byte": 1405,
+      "end_byte": 1987
     },
     {
       "path": "corpus/libros/caos/05.md",
-      "kind": "notas_del_autor",
+      "kind": "author_notes",
       "heading": "# Notas del autor",
       "start_line": 53,
-      "end_line": 67
+      "end_line": 67,
+      "start_byte": 1987,
+      "end_byte": 6476
     },
     {
       "path": "corpus/libros/caos/06.md",
-      "kind": "capitulo",
+      "kind": "chapter",
       "heading": "# Capítulo I",
       "start_line": 68,
-      "end_line": 343
+      "end_line": 343,
+      "start_byte": 6476,
+      "end_byte": 70622
     },
     {
       "path": "corpus/libros/caos/07.md",
-      "kind": "capitulo",
+      "kind": "chapter",
       "heading": "# Capítulo II",
       "start_line": 344,
-      "end_line": 590
+      "end_line": 590,
+      "start_byte": 70622,
+      "end_byte": 138728
     },
     {
       "path": "corpus/libros/caos/08.md",
-      "kind": "capitulo",
+      "kind": "chapter",
       "heading": "# Capítulo III",
       "start_line": 591,
-      "end_line": 834
+      "end_line": 834,
+      "start_byte": 138728,
+      "end_byte": 207285
     },
     {
       "path": "corpus/libros/caos/09.md",
-      "kind": "capitulo",
+      "kind": "chapter",
       "heading": "# Capítulo IV",
       "start_line": 835,
-      "end_line": 1036
+      "end_line": 1036,
+      "start_byte": 207285,
+      "end_byte": 271189
     },
     {
       "path": "corpus/libros/caos/10.md",
-      "kind": "capitulo",
+      "kind": "chapter",
       "heading": "# Capítulo V",
       "start_line": 1037,
-      "end_line": 1240
+      "end_line": 1240,
+      "start_byte": 271189,
+      "end_byte": 335786
     },
     {
       "path": "corpus/libros/caos/11.md",
-      "kind": "capitulo",
+      "kind": "chapter",
       "heading": "# Capítulo VI",
       "start_line": 1241,
-      "end_line": 1438
+      "end_line": 1438,
+      "start_byte": 335786,
+      "end_byte": 401883
     },
     {
       "path": "corpus/libros/caos/12.md",
-      "kind": "capitulo",
+      "kind": "chapter",
       "heading": "# Capítulo VII",
       "start_line": 1439,
-      "end_line": 1630
+      "end_line": 1630,
+      "start_byte": 401883,
+      "end_byte": 459497
     },
     {
       "path": "corpus/libros/caos/13.md",
-      "kind": "apendice",
+      "kind": "appendix",
       "heading": "# Apéndice I",
       "start_line": 1631,
-      "end_line": 1949
+      "end_line": 1949,
+      "start_byte": 459497,
+      "end_byte": 502894
     },
     {
       "path": "corpus/libros/caos/14.md",
-      "kind": "apendice",
+      "kind": "appendix",
       "heading": "# Apéndice II",
       "start_line": 1950,
-      "end_line": 2245
+      "end_line": 2245,
+      "start_byte": 502894,
+      "end_byte": 559725
     },
     {
       "path": "corpus/libros/caos/15.md",
-      "kind": "apendice",
+      "kind": "appendix",
       "heading": "# Apéndice III",
       "start_line": 2246,
-      "end_line": 2584
+      "end_line": 2584,
+      "start_byte": 559725,
+      "end_byte": 608789
     }
   ]
 }

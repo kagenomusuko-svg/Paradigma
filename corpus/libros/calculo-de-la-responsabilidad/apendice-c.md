@@ -10,51 +10,53 @@ Este apéndice contiene las demostraciones de los resultados matemáticos que su
 
 ### A.1 El Teorema de Banach y la convergencia de R*
 
-El vector R* es la distribución estacionaria del operador de responsabilidad M_R(D) inducido por la reconstrucción causal completa de las cadenas φ₁ que terminan en D. El Teorema del Punto Fijo de Banach garantiza la unicidad de esa distribución cuando el operador es una contracción en el espacio de distribuciones de probabilidad.
+El vector R* se calcula como el eigenvector dominante de la matriz de pesos W mediante iteración de potencia. La convergencia de este algoritmo requiere que el proceso iterativo sea una contracción en el espacio de distribuciones de probabilidad. El Teorema del Punto Fijo de Banach garantiza esa convergencia bajo las condiciones del grafo causal.
 
 El Cálculo de la Responsabilidad · Apéndices
 
 Teorema A.1 (Banach — Punto Fijo):  Sea (X, d) un espacio métrico completo y f: X → X una contracción, es decir, ∃ c ∈ [0,1) tal que d(f(x), f(y)) ≤ c·d (x, y) para todo x, y ∈ X. Entonces f tiene un único punto fijo x* ∈ X tal que f(x*) = x*.
 
-Construcción del operador y aplicación al cálculo de R*:
+Aplicación al cálculo de R*:
 
-Sea A_D = {i : existe un camino i→⋯→D} el conjunto de ancestros causales de D. Se define Q_D como la submatriz de determinaciones causales primitivas entre nodos de A_D, y b_D el vector de determinaciones primitivas directas sobre D (b_i = w(i→D)). Para ρ(Q_D) < 1:
+Sea X = {v ∈ ℝⁿ: vᵢ ≥ 0, Σvᵢ = 1} el símplex de probabilidad (espacio de distribuciones de R* candidatas) con la métrica de variación total d (v, w) = Σᵢ|vᵢ − wᵢ|/2. El operador de iteración T definido por:
 
-r_D = (I − Q_D)⁻¹ b_D = Σ_{k≥0} Q_D^k b_D
+T(v) = Wv / ‖Wv‖₁
 
-Cada potencia Q_D^k b_D agrega la contribución de rutas con k intermediarios. Definiendo Z_D = 1ᵀ r_D y η_D = 1/Z_D, el operador de responsabilidad es:
+es una contracción sobre X cuando W es una matriz primitiva (irreducible y aperiódica). La condición de primitividad se traduce en el grafo causal como:
 
-M_R(D) = Q_D + η_D b_D 1ᵀ
+1. Irreductibilidad: desde cualquier nodo del grafo se puede alcanzar cualquier otro nodo siguiendo las aristas. Equivalente a que el grafo sea fuertemente conexo. 2. Aperiodicidad: el grafo no tiene ciclos de longitud fija que produjera oscilaciones en la iteración. Se garantiza añadiendo un pequeño peso ε de auto-referencia en los nodos hojas.
 
-y el vector de responsabilidad queda R*(D) = r_D / Z_D = η_D r_D, que satisface M_R(D) R*(D) = R*(D).
+Demostración de la contracción:
 
-Sea X = {v ∈ ℝ^|A_D|: vᵢ ≥ 0, Σvᵢ = 1} con la métrica de variación total d(v,w) = Σᵢ|vᵢ − wᵢ|/2. El operador de iteración T(v) = M_R(D) v / ‖M_R(D) v‖₁ es una contracción sobre X cuando M_R(D) es primitiva sobre A_D.
+Sea v, w ∈ X. Entonces:
+
+d(T(v), T(w)) = ‖Wv/‖Wv‖₁ − Ww/‖Ww‖₁‖₁ ≤ c · ‖v −
+
+w‖₁
 
 El Cálculo de la Responsabilidad · Apéndices
 
-Para los grafos causales del libro, que son DAGs (grafos acíclicos dirigidos), Q_D es nilpotente: Q_D^m = 0 para algún m ≤ |A_D|. La serie converge en un número finito de términos, el coeficiente de ergodicidad δ(M_R(D)) > 0, y por el Teorema de Banach la solución R*(D) es única e independiente del vector inicial.
+donde c = 1 − δ(W) < 1, siendo δ(W) el coeficiente de ergodicidad de Dobrushin. Para matrices W no negativas con al menos una columna estrictamente positiva (condición que los grafos causales bien construidos satisfacen), δ(W) > 0 y por tanto c < 1. Por el Teorema de Banach, la iteración T^k(v₀) converge a un único punto fijo R* independientemente del valor inicial v₀. Eso justifica que el algoritmo de iteración de potencia produce siempre el mismo R* independientemente del vector inicial con que se arranque.
 
-Corolario:  Cuando M_R(D) es primitiva sobre A_D, la iteración T^k(v₀) converge al único R* en a lo más log(ε/2)/log(c) pasos para precisión ε, donde c = 1 − δ(M_R(D)) < 1.
+Corolario:  Si el grafo causal es irreducible y aperiódico (condiciones generalmente satisfechas en los grafos de los capítulos del libro), la iteración de potencia converge al único R* en a lo más log(ε/2) /log(c) iteraciones para alcanzar precisión ε.
 
 ### A.2 El Teorema de Perron-Frobenius y las propiedades de R*
 
-El Teorema de Perron-Frobenius garantiza que el operador de responsabilidad M_R(D), cuando es no negativo e irreducible sobre A_D, tiene un eigenvector dominante único con todas las componentes positivas, que es precisamente R*.
+El Teorema de Perron-Frobenius garantiza que la matriz W de un grafo causal bien construido tiene un eigenvector dominante único con todas las componentes positivas, que es precisamente R*.
 
-Teorema A.2 (Perron-Frobenius):  Sea M una matriz cuadrada n×n con todas las entradas no negativas e irreducible. Entonces: (i) M tiene un eigenvalor positivo dominante ρ(M) > 0 (radio espectral). (ii) El eigenvector asociado a ρ(M) tiene todas sus componentes estrictamente
+Teorema A.2 (Perron-Frobenius):  Sea W una matriz cuadrada n×n con todas las entradas no negativas e irreducible. Entonces: (i) W tiene un eigenvalor positivo dominante ρ(W) > 0 (radio espectral). (ii) El eigenvector asociado a ρ(W) tiene todas sus componentes estrictamente
 
 El Cálculo de la Responsabilidad · Apéndices
 
-positivas. (iii) Este eigenvector es único salvo normalización. (iv) Todos los demás eigenvalores λ satisfacen |λ| < ρ(M).
-
-Aplicación a M_R(D):  Bajo las condiciones de la sección A.1 — Q_D ≥ 0, b_D > 0, todo nodo de A_D con camino positivo hacia D, ρ(Q_D) < 1 — el operador M_R(D) = Q_D + η_D b_D 1ᵀ es no negativo, irreducible y aperiódico sobre A_D, con eigenvalor dominante λ₁ = 1. Perron-Frobenius garantiza entonces M_R(D) R*(D) = R*(D) con R*(D) > 0 en todo componente.
+positivas. (iii) Este eigenvector es único salvo normalización. (iv) Todos los demás eigenvalores λ satisfacen |λ| < ρ(W).
 
 Implicaciones para el análisis de R*:
 
-• R*ᵢ > 0 para todo nodo i ∈ A_D: ningún ancestro causal de D tiene peso de responsabilidad exactamente cero. Todo nodo con camino hacia D contribuye en alguna proporción. • R* es único: para un grafo causal dado respecto de D, hay un único vector de distribución de responsabilidad. El análisis no produce ambigüedad en el resultado final. • La velocidad de convergencia al eigenvector dominante depende de |λ₂|, el segundo eigenvalor en módulo de M_R(D). Esta velocidad no debe confundirse con las proporciones R*ᵢ: el porcentaje estable de cada nodo es una propiedad de la distribución, no de la rapidez de aproximación a ella.
+• R*ᵢ > 0 para todo nodo i: ningún nodo del grafo tiene peso causal exactamente cero si el grafo es irreducible. Todo nodo contribuye algo al resultado, aunque sea mínimamente. • R* es único: para un grafo causal dado, hay un único vector de distribución de responsabilidad. El análisis no produce ambigüedad en el resultado final. • La velocidad de convergencia de la iteración de potencia es proporcional a |λ₂/ρ(W)|, la razón entre el segundo eigenvalor más grande y el dominante. Cuando este ratio es pequeño, la convergencia es rápida (típicamente < 100 iteraciones para los grafos del libro).
 
-Caso de grafos con nodos sin camino a D (cuando I5 falla):
+Caso de grafos reducibles (cuando I5 falla):
 
-Cuando el postulado I5 no se cumple para ningún nodo individualmente (causalidad acumulativa, Capítulo 14), existen nodos que no pertenecen a A_D. Esos nodos tienen R*ᵢ = 0 por construcción. La extensión mediante valores de Shapley es la respuesta correcta porque mide contribuciones marginales en coaliciones y no requiere conectividad individual hacia D.
+Cuando el postulado I5 no se cumple para ningún nodo (causalidad acumulativa, Capítulo 14), el grafo puede ser reducible: existen nodos que no tienen aristas hacia el nodo final. En ese caso, R* convencional asigna cero a esos nodos. La extensión mediante valores de Shapley es la respuesta correcta porque no requiere la irreductibilidad del grafo.
 
 ### A.3 El Cálculo de Itô y la evolución dinámica del ego
 

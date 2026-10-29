@@ -10,190 +10,190 @@
       "path": "corpus/libros/contrato-fiscal/kratos/01.md",
       "kind": "unit",
       "heading": "# EL CONTRATO FISCAL: KRATOS",
-      "start_byte": 0,
-      "end_byte": 63,
       "start_line": 1,
-      "end_line": 3
+      "end_line": 3,
+      "start_byte": 0,
+      "end_byte": 63
     },
     {
       "path": "corpus/libros/contrato-fiscal/kratos/02.md",
       "kind": "legal",
       "heading": "# Aviso legal",
-      "start_byte": 63,
-      "end_byte": 440,
       "start_line": 4,
-      "end_line": 15
+      "end_line": 15,
+      "start_byte": 63,
+      "end_byte": 440
     },
     {
       "path": "corpus/libros/contrato-fiscal/kratos/03.md",
       "kind": "prologue",
       "heading": "# Prólogo",
-      "start_byte": 440,
-      "end_byte": 12179,
       "start_line": 16,
-      "end_line": 110
+      "end_line": 110,
+      "start_byte": 440,
+      "end_byte": 12179
     },
     {
       "path": "corpus/libros/contrato-fiscal/kratos/04.md",
       "kind": "unit",
       "heading": "# PARTE I · LA VIDA DEL CONTRATO",
-      "start_byte": 12179,
-      "end_byte": 12213,
       "start_line": 111,
-      "end_line": 111
+      "end_line": 111,
+      "start_byte": 12179,
+      "end_byte": 12213
     },
     {
       "path": "corpus/libros/contrato-fiscal/kratos/05.md",
       "kind": "chapter",
       "heading": "# Capítulo 1",
-      "start_byte": 12213,
-      "end_byte": 27426,
       "start_line": 112,
-      "end_line": 204
+      "end_line": 204,
+      "start_byte": 12213,
+      "end_byte": 27426
     },
     {
       "path": "corpus/libros/contrato-fiscal/kratos/06.md",
       "kind": "chapter",
       "heading": "# Capítulo 2",
-      "start_byte": 27426,
-      "end_byte": 47419,
       "start_line": 205,
-      "end_line": 317
+      "end_line": 317,
+      "start_byte": 27426,
+      "end_byte": 47419
     },
     {
       "path": "corpus/libros/contrato-fiscal/kratos/07.md",
       "kind": "chapter",
       "heading": "# Capítulo 3",
-      "start_byte": 47419,
-      "end_byte": 68867,
       "start_line": 318,
-      "end_line": 458
+      "end_line": 458,
+      "start_byte": 47419,
+      "end_byte": 68867
     },
     {
       "path": "corpus/libros/contrato-fiscal/kratos/08.md",
       "kind": "chapter",
       "heading": "# Capítulo 4",
-      "start_byte": 68867,
-      "end_byte": 90252,
       "start_line": 459,
-      "end_line": 569
+      "end_line": 569,
+      "start_byte": 68867,
+      "end_byte": 90252
     },
     {
       "path": "corpus/libros/contrato-fiscal/kratos/09.md",
       "kind": "unit",
       "heading": "# PARTE II · LA DEGRADACIÓN",
-      "start_byte": 90252,
-      "end_byte": 91226,
       "start_line": 570,
-      "end_line": 579
+      "end_line": 579,
+      "start_byte": 90252,
+      "end_byte": 91226
     },
     {
       "path": "corpus/libros/contrato-fiscal/kratos/10.md",
       "kind": "chapter",
       "heading": "# Capítulo 5",
-      "start_byte": 91226,
-      "end_byte": 111144,
       "start_line": 580,
-      "end_line": 692
+      "end_line": 692,
+      "start_byte": 91226,
+      "end_byte": 111144
     },
     {
       "path": "corpus/libros/contrato-fiscal/kratos/11.md",
       "kind": "chapter",
       "heading": "# Capítulo 6",
-      "start_byte": 111144,
-      "end_byte": 132569,
       "start_line": 693,
-      "end_line": 803
+      "end_line": 803,
+      "start_byte": 111144,
+      "end_byte": 132569
     },
     {
       "path": "corpus/libros/contrato-fiscal/kratos/12.md",
       "kind": "chapter",
       "heading": "# Capítulo 7",
-      "start_byte": 132569,
-      "end_byte": 152258,
       "start_line": 804,
-      "end_line": 912
+      "end_line": 912,
+      "start_byte": 132569,
+      "end_byte": 152258
     },
     {
       "path": "corpus/libros/contrato-fiscal/kratos/13.md",
       "kind": "chapter",
       "heading": "# Capítulo 8",
-      "start_byte": 152258,
-      "end_byte": 173220,
       "start_line": 913,
-      "end_line": 1011
+      "end_line": 1011,
+      "start_byte": 152258,
+      "end_byte": 173220
     },
     {
       "path": "corpus/libros/contrato-fiscal/kratos/14.md",
       "kind": "chapter",
       "heading": "# Capítulo 9",
-      "start_byte": 173220,
-      "end_byte": 196025,
       "start_line": 1012,
-      "end_line": 1138
+      "end_line": 1138,
+      "start_byte": 173220,
+      "end_byte": 196025
     },
     {
       "path": "corpus/libros/contrato-fiscal/kratos/15.md",
       "kind": "unit",
       "heading": "# PARTE III · LA EXIGENCIA",
-      "start_byte": 196025,
-      "end_byte": 196964,
       "start_line": 1139,
-      "end_line": 1148
+      "end_line": 1148,
+      "start_byte": 196025,
+      "end_byte": 196964
     },
     {
       "path": "corpus/libros/contrato-fiscal/kratos/16.md",
       "kind": "chapter",
       "heading": "# Capítulo 10",
-      "start_byte": 196964,
-      "end_byte": 215847,
       "start_line": 1149,
-      "end_line": 1243
+      "end_line": 1243,
+      "start_byte": 196964,
+      "end_byte": 215847
     },
     {
       "path": "corpus/libros/contrato-fiscal/kratos/17.md",
       "kind": "chapter",
       "heading": "# Capítulo 11",
-      "start_byte": 215847,
-      "end_byte": 236456,
       "start_line": 1244,
-      "end_line": 1372
+      "end_line": 1372,
+      "start_byte": 215847,
+      "end_byte": 236456
     },
     {
       "path": "corpus/libros/contrato-fiscal/kratos/18.md",
       "kind": "chapter",
       "heading": "# Capítulo 12",
-      "start_byte": 236456,
-      "end_byte": 258257,
       "start_line": 1373,
-      "end_line": 1479
+      "end_line": 1479,
+      "start_byte": 236456,
+      "end_byte": 258257
     },
     {
       "path": "corpus/libros/contrato-fiscal/kratos/19.md",
       "kind": "chapter",
       "heading": "# Capítulo 13",
-      "start_byte": 258257,
-      "end_byte": 278999,
       "start_line": 1480,
-      "end_line": 1594
+      "end_line": 1594,
+      "start_byte": 258257,
+      "end_byte": 278999
     },
     {
       "path": "corpus/libros/contrato-fiscal/kratos/20.md",
       "kind": "unit",
       "heading": "# Epílogo",
-      "start_byte": 278999,
-      "end_byte": 292798,
       "start_line": 1595,
-      "end_line": 1667
+      "end_line": 1667,
+      "start_byte": 278999,
+      "end_byte": 292798
     },
     {
       "path": "corpus/libros/contrato-fiscal/kratos/21.md",
       "kind": "unit",
       "heading": "# Sobre la colección El Contrato Fiscal",
-      "start_byte": 292798,
-      "end_byte": 293583,
       "start_line": 1668,
-      "end_line": 1670
+      "end_line": 1670,
+      "start_byte": 292798,
+      "end_byte": 293583
     }
   ]
 }

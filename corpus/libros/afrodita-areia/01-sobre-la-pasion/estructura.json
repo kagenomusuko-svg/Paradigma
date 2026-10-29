@@ -1,0 +1,262 @@
+{
+  "title": "Afrodita Areia: Sobre la pasión",
+  "source": "corpus/fuentes/Afrodita Areia sobre la pasión.md",
+  "sha256": "6937541678cc6416783b115ba40b036d4eaacdb464747fbae3e11a10f9f352e0",
+  "series": "Afrodita Areia",
+  "volume": 1,
+  "segmentation_rule": "Partes numeradas copiadas de publicaciones; la fuente íntegra es su concatenación exacta.",
+  "segments": [
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/01.md",
+      "kind": "cover",
+      "heading": "# Afrodita Areia",
+      "start_line": 1,
+      "end_line": 11,
+      "start_byte": 0,
+      "end_byte": 208
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/02.md",
+      "kind": "legal",
+      "heading": "*Primera edición: 2026*  ",
+      "start_line": 12,
+      "end_line": 18,
+      "start_byte": 208,
+      "end_byte": 547
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/03.md",
+      "kind": "presentation",
+      "heading": "> «Antes del pensamiento, la pasión.  ",
+      "start_line": 19,
+      "end_line": 22,
+      "start_byte": 547,
+      "end_byte": 722
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/04.md",
+      "kind": "index",
+      "heading": "# ÍNDICE",
+      "start_line": 23,
+      "end_line": 50,
+      "start_byte": 722,
+      "end_byte": 1816
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/05.md",
+      "kind": "author_notes",
+      "heading": "# Notas del autor",
+      "start_line": 51,
+      "end_line": 61,
+      "start_byte": 1816,
+      "end_byte": 2934
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/06.md",
+      "kind": "preface",
+      "heading": "# Prefacio",
+      "start_line": 62,
+      "end_line": 108,
+      "start_byte": 2934,
+      "end_byte": 7684
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/07.md",
+      "kind": "prologue",
+      "heading": "# Prólogo filosófico",
+      "start_line": 109,
+      "end_line": 173,
+      "start_byte": 7684,
+      "end_byte": 19411
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/08.md",
+      "kind": "part",
+      "heading": "# Parte I",
+      "start_line": 174,
+      "end_line": 178,
+      "start_byte": 19411,
+      "end_byte": 19491
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/09.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 1",
+      "start_line": 179,
+      "end_line": 279,
+      "start_byte": 19491,
+      "end_byte": 38755
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/10.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 2",
+      "start_line": 280,
+      "end_line": 387,
+      "start_byte": 38755,
+      "end_byte": 58550
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/11.md",
+      "kind": "unit",
+      "heading": "*Parte I — El caos y la posibilidad*",
+      "start_line": 388,
+      "end_line": 489,
+      "start_byte": 58550,
+      "end_byte": 78154
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/12.md",
+      "kind": "unit",
+      "heading": "*Parte II — La pasión como fuerza ontológica*",
+      "start_line": 490,
+      "end_line": 595,
+      "start_byte": 78154,
+      "end_byte": 99877
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/13.md",
+      "kind": "unit",
+      "heading": "*Parte II — La pasión como fuerza ontológica*",
+      "start_line": 596,
+      "end_line": 690,
+      "start_byte": 99877,
+      "end_byte": 120857
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/14.md",
+      "kind": "unit",
+      "heading": "*Parte II — La pasión como fuerza ontológica*",
+      "start_line": 691,
+      "end_line": 786,
+      "start_byte": 120857,
+      "end_byte": 142079
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/15.md",
+      "kind": "unit",
+      "heading": "*Parte II — La pasión como fuerza ontológica*",
+      "start_line": 787,
+      "end_line": 915,
+      "start_byte": 142079,
+      "end_byte": 168674
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/16.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 8",
+      "start_line": 916,
+      "end_line": 1049,
+      "start_byte": 168674,
+      "end_byte": 194463
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/17.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 9",
+      "start_line": 1050,
+      "end_line": 1185,
+      "start_byte": 194463,
+      "end_byte": 222183
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/18.md",
+      "kind": "unit",
+      "heading": "*Parte III — Las mediaciones*",
+      "start_line": 1186,
+      "end_line": 1316,
+      "start_byte": 222183,
+      "end_byte": 249299
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/19.md",
+      "kind": "unit",
+      "heading": "*Parte III — Las mediaciones*",
+      "start_line": 1317,
+      "end_line": 1436,
+      "start_byte": 249299,
+      "end_byte": 272504
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/20.md",
+      "kind": "unit",
+      "heading": "*Parte IV — El ego como integral*",
+      "start_line": 1437,
+      "end_line": 1578,
+      "start_byte": 272504,
+      "end_byte": 294735
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/21.md",
+      "kind": "unit",
+      "heading": "*Parte IV — El ego como integral*",
+      "start_line": 1579,
+      "end_line": 1689,
+      "start_byte": 294735,
+      "end_byte": 317120
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/22.md",
+      "kind": "unit",
+      "heading": "*Parte IV — El ego como integral*",
+      "start_line": 1690,
+      "end_line": 1789,
+      "start_byte": 317120,
+      "end_byte": 337418
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/23.md",
+      "kind": "unit",
+      "heading": "*Parte V — La pasión y el sujeto*",
+      "start_line": 1790,
+      "end_line": 1917,
+      "start_byte": 337418,
+      "end_byte": 357305
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/25.md",
+      "kind": "unit",
+      "heading": "# Advertencia editorial",
+      "start_line": 1918,
+      "end_line": 1925,
+      "start_byte": 357305,
+      "end_byte": 358374
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/26.md",
+      "kind": "appendix",
+      "heading": "# Apéndice A",
+      "start_line": 1926,
+      "end_line": 2011,
+      "start_byte": 358374,
+      "end_byte": 371495
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/27.md",
+      "kind": "appendix",
+      "heading": "# Apéndice B",
+      "start_line": 2012,
+      "end_line": 2111,
+      "start_byte": 371495,
+      "end_byte": 388077
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/28.md",
+      "kind": "appendix",
+      "heading": "# Apéndice C",
+      "start_line": 2112,
+      "end_line": 2224,
+      "start_byte": 388077,
+      "end_byte": 407355
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/01-sobre-la-pasion/29.md",
+      "kind": "glossary",
+      "heading": "# Glosario de términos",
+      "start_line": 2225,
+      "end_line": 2364,
+      "start_byte": 407355,
+      "end_byte": 421833
+    }
+  ]
+}
