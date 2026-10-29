@@ -116,7 +116,3 @@ valores deben coincidir con los de la plantilla descargada. Si no coinciden, hay
 
 ### Página | XXIX
 
-## Notas al pie
-
-[^1]: E — 
-Empresa

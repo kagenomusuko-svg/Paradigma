@@ -1,3 +1,5 @@
+ EL MÉTODO PROMETEO · IMPUTACIÓN CAUSAL
+
 ### Prólogo Por qué este método, para
 
 ### quién, y dónde funciona
