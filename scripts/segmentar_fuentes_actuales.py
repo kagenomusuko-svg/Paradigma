@@ -291,70 +291,99 @@ def boundaries_taxonomia_vigente(lines):
 
 
 
+
 _SEGMENTAR_CORPUS_ORIGINAL = segmentar_corpus.segment
 
+PINNED_PUBLICATION_SOURCES = {
+    "Caos_El_abismo_del_ego_y_la_doble_mediacion.md",
+    "Afrodita Areia sobre la pasión.md",
+    "Afrodita Areia Ágape.md",
+}
 
-def segmentar_caos_numerado(spec):
-    """Preserva exactamente las 15 unidades editoriales de publicaciones/caos."""
-    if spec.get("source") != "Caos_El_abismo_del_ego_y_la_doble_mediacion.md":
+
+def segmentar_publicacion_fijada(spec):
+    """Regenera desde las partes numeradas copiadas de publicaciones, sin alterar sus bytes."""
+    if spec.get("source") not in PINNED_PUBLICATION_SOURCES:
         return _SEGMENTAR_CORPUS_ORIGINAL(spec)
 
     source = FUENTES / spec["source"]
     if not source.is_file():
         return None
 
-    raw = source.read_bytes()
-    lines = raw.splitlines(keepends=True)
-    line_text = [line.decode("utf-8").rstrip("\r\n") for line in lines]
-    markers = [
-        ("portada", "# ΧΑΟΣ"),
-        ("aviso_legal", "# Aviso legal"),
-        ("presentacion", "> ¿Qué es el ego?"),
-        ("indice", "# Índice"),
-        ("notas_del_autor", "# Notas del autor"),
-        ("capitulo", "# Capítulo I"),
-        ("capitulo", "# Capítulo II"),
-        ("capitulo", "# Capítulo III"),
-        ("capitulo", "# Capítulo IV"),
-        ("capitulo", "# Capítulo V"),
-        ("capitulo", "# Capítulo VI"),
-        ("capitulo", "# Capítulo VII"),
-        ("apendice", "# Apéndice I"),
-        ("apendice", "# Apéndice II"),
-        ("apendice", "# Apéndice III"),
-    ]
-
-    starts = []
-    cursor = 0
-    for kind, marker in markers:
-        matches = [index for index in range(cursor, len(line_text)) if (line_text[index].startswith(marker) if kind == "presentacion" else line_text[index] == marker)]
-        if len(matches) != 1:
-            raise RuntimeError(f"Caos: se esperaba una sola marca {marker!r}; se detectaron {len(matches)}.")
-        starts.append((matches[0], kind, marker))
-        cursor = matches[0] + 1
-
-    if not starts or starts[0][0] != 0:
-        raise RuntimeError("Caos: la primera unidad debe comenzar en la primera línea de la fuente.")
-    if len(starts) != 15:
-        raise RuntimeError(f"Caos: se esperaban 15 unidades; se detectaron {len(starts)}.")
-
     destination = ROOT / spec["dest"]
-    if destination.exists():
-        shutil.rmtree(destination)
-    destination.mkdir(parents=True)
+    part_files = sorted(
+        (path for path in destination.glob("*.md") if re.fullmatch(r"\d+\.md", path.name)),
+        key=lambda path: int(path.stem),
+    )
+    if not part_files:
+        raise RuntimeError(f"No se encontraron partes Markdown numeradas para {source.name}.")
 
+    parts = [(path.name, path.read_bytes()) for path in part_files]
+    raw = source.read_bytes()
+    reconstructed_input = b"".join(content for _, content in parts)
+    if reconstructed_input != raw:
+        raise RuntimeError(
+            f"{source.name}: la fuente no coincide byte a byte con la concatenación de las partes numeradas."
+        )
+
+    destination_parts = []
+    offset = 0
+    for filename, content in parts:
+        end = offset + len(content)
+        first_line_bytes = content.splitlines()[0] if content.splitlines() else b""
+        first_line = first_line_bytes.decode("utf-8").rstrip("\r")
+        normalized = first_line.lstrip()
+        if normalized.startswith("# Capítulo") or normalized.startswith("# CAPÍTULO"):
+            kind = "chapter"
+        elif normalized.startswith("# Apéndice") or normalized.startswith("# APÉNDICE"):
+            kind = "appendix"
+        elif normalized.startswith("# Glosario"):
+            kind = "glossary"
+        elif normalized.startswith("# Parte"):
+            kind = "part"
+        elif normalized.startswith("# Prefacio"):
+            kind = "preface"
+        elif normalized.startswith("# Prólogo"):
+            kind = "prologue"
+        elif normalized.startswith("# Índice") or normalized.startswith("# ÍNDICE"):
+            kind = "index"
+        elif normalized.startswith("# Notas del autor"):
+            kind = "author_notes"
+        elif normalized.startswith(">"):
+            kind = "presentation"
+        elif normalized.startswith("*Primera edición") or normalized.startswith("# Aviso legal"):
+            kind = "legal"
+        elif normalized.startswith("# Afrodita Areia") or normalized.startswith("# ΧΑΟΣ"):
+            kind = "cover"
+        else:
+            kind = "unit"
+
+        destination_parts.append({
+            "filename": filename,
+            "content": content,
+            "kind": kind,
+            "heading": first_line,
+            "start_byte": offset,
+            "end_byte": end,
+            "start_line": raw[:offset].count(b"\n") + 1,
+            "end_line": raw[:end].count(b"\n"),
+        })
+        offset = end
+
+    shutil.rmtree(destination)
+    destination.mkdir(parents=True)
     segments = []
-    for position, (start, kind, heading) in enumerate(starts):
-        end = starts[position + 1][0] if position + 1 < len(starts) else len(lines)
-        filename = f"{position + 1:02d}.md"
-        target = destination / filename
-        target.write_bytes(b"".join(lines[start:end]))
+    for item in destination_parts:
+        target = destination / item["filename"]
+        target.write_bytes(item["content"])
         segments.append({
             "path": str(target.relative_to(ROOT)).replace("\\", "/"),
-            "kind": kind,
-            "heading": heading,
-            "start_line": start + 1,
-            "end_line": end,
+            "kind": item["kind"],
+            "heading": item["heading"],
+            "start_line": item["start_line"],
+            "end_line": item["end_line"],
+            "start_byte": item["start_byte"],
+            "end_byte": item["end_byte"],
         })
 
     metadata = {
@@ -363,7 +392,7 @@ def segmentar_caos_numerado(spec):
         "sha256": hashlib.sha256(raw).hexdigest(),
         "series": spec.get("series"),
         "volume": spec.get("volume"),
-        "segmentation_rule": "Quince unidades editoriales copiadas fielmente de publicaciones; la fuente íntegra se reconstruye por concatenación exacta.",
+        "segmentation_rule": "Partes numeradas copiadas de publicaciones; la fuente íntegra es su concatenación exacta.",
         "segments": segments,
     }
     (destination / "estructura.json").write_text(
@@ -373,12 +402,12 @@ def segmentar_caos_numerado(spec):
 
     reconstructed = b"".join((ROOT / item["path"]).read_bytes() for item in segments)
     if reconstructed != raw:
-        raise RuntimeError("Caos: las 15 unidades numeradas no reconstruyen exactamente la fuente.")
+        raise RuntimeError(f"{source.name}: las partes regeneradas no reconstruyen exactamente la fuente.")
     return metadata
 
 
 def adapt_specs() -> None:
-    segmentar_corpus.segment = segmentar_caos_numerado
+    segmentar_corpus.segment = segmentar_publicacion_fijada
     for module in SEGMENTERS:
         for spec in module.SPECS:
             spec["source"] = SOURCE_ALIASES.get(spec["source"], spec["source"])
