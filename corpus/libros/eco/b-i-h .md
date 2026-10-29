@@ -48,7 +48,11 @@ Entrevista Clínica Ontológica · ECO
 
 genuina — el módulo H puede iniciarse con esa hipótesis ya activa y las cinco preguntas H·D sirven como verificación. No como confirmación: como verificación. D-2 puede producir señales que parecen presencia en dimensiones aisladas.
 
-Sin SKIP bajo ninguna circunstancia — justificación ontológica El Módulo H no puede saltarse, abreviarse ni reemplazarse por ninguna otra operación del instrumento. Las razones son tres. Primera: es el único módulo que puede producir P(Harmonía) > 0, y sin él esa función del instrumento no existe. Segunda: las cinco preguntas H·D son la única manera de discriminar Harmonía de D-2 desde presencia — ninguna otra sección del instrumento puede hacer esa discriminación. Tercera: el código del Eje IV del Bloque II (D-1, D-2) depende críticamente de lo que este módulo produce — sin el módulo H completo, el Eje IV no tiene su insumo más importante. Si el sujeto no puede ser evaluado en ninguna de las cinco preguntas H·D, el módulo produce código de imposibilidad para evaluar y P(Harmonía) = 0. Pero el módulo siempre se administra.
+Sin SKIP bajo ninguna circunstancia — justificación ontológica El Módulo H no puede saltarse, abreviarse ni reemplazarse por ninguna otra operación del instrumento. Las razones son tres.
+
+1. Es el único módulo que puede producir P(Harmonía) > 0, y sin él esa función del instrumento no existe.
+2. Las cinco preguntas H·D son la única manera de discriminar Harmonía de D-2 desde presencia — ninguna otra sección del instrumento puede hacer esa discriminación.
+3. El código del Eje IV del Bloque II (D-1, D-2) depende críticamente de lo que este módulo produce — sin el módulo H completo, el Eje IV no tiene su insumo más importante. Si el sujeto no puede ser evaluado en ninguna de las cinco preguntas H·D, el módulo produce código de imposibilidad para evaluar y P(Harmonía) = 0. Pero el módulo siempre se administra.
 
 Una nota sobre la duración: el módulo H requiere entre 20 y 35 minutos para ser administrado con la densidad que produce señal diagnóstica confiable. Un módulo H administrado en menos de 20 minutos no puede producir H-3(H) con EP-1 o EP-2. La presión de tiempo es la condición más frecuente que lleva al mediador a abreviar este módulo — y es también la razón más frecuente por la que las localizaciones de Harmonía en el instrumento son incorrectas. Si la sesión no tiene tiempo suficiente para el módulo H, se pospone a una sesión adicional. No se abrevia.
 
