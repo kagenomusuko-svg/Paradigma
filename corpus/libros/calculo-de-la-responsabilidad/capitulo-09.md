@@ -1,3 +1,5 @@
+PARTE III · ECONOMÍA, FINANZAS Y EMPRESA
+
 ### Capítulo 9 Análisis de quiebra y riesgo
 
 ### sistémico
@@ -761,6 +763,4 @@ Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y A
 Continúa en el Capítulo 10 — Seguros y actuaría
 
 El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
-
-PARTE III · ECONOMÍA, FINANZAS Y EMPRESA
 

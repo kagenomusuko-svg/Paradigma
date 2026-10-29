@@ -1,3 +1,5 @@
+PARTE I · CIENCIAS JURÍDICAS Y SOCIALES
+
 ### Capítulo 2 PLD y compliance
 
 El beneficiario invisible: imputar al diseñador de una operación
@@ -1073,6 +1075,4 @@ Continúa en el Capítulo 3 — Derecho internacional y deudas históricas
 El Cálculo de la Responsabilidad · Cap. 3 — Derecho internacional y
 
 deudas históricas
-
-PARTE I · CIENCIAS JURÍDICAS Y SOCIALES
 

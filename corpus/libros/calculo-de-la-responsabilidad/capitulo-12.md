@@ -1,3 +1,5 @@
+PARTE IV · INGENIERÍA Y TECNOLOGÍA
+
 ### Capítulo 12 Ingeniería de sistemas y
 
 ### confiabilidad
@@ -757,6 +759,4 @@ S={si:.2f}  Δ={di:+.3f}{flg}")  J_ch = res_ch['J_sistema'] print(f"\nJ_sistema 
 Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026 Continúa en el Capítulo 13 — Inteligencia artificial y algoritmos de decisión
 
 El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
-
-PARTE IV · INGENIERÍA Y TECNOLOGÍA
 

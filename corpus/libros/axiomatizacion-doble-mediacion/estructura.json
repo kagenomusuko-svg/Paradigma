@@ -5,30 +5,17 @@
   "sha256": "15c1db2392cce0eaad682c13c0c6de3c399a0142381136ff77b26b98fd41403e",
   "collection": "Metrología Causal",
   "volume": null,
-  "source_anomalies": [
-    "El aviso legal prohíbe reproducir o transmitir sin permiso previo del editor, mientras que el mismo bloque declara una licencia CC BY-NC-ND 4.0. Revisar la compatibilidad y la redacción del permiso.",
-    "La fuente agrupa «Centro… · Primera edición: 2026» en una línea del frente editorial, mientras el PDF muestra el año en la portadilla y «Primera edición: 2026» en la página legal. Además, el encabezado corriente «Axiomatización del Sistema de la Doble Mediación · Prólogo» queda concatenado al final de la línea de licencia en la fuente. Registrar y resolver en la normalización editorial; no se alteró la fuente.",
-    "La fuente contiene 1,195 caracteres □ en notación matemática. El PDF también muestra cuadros en expresiones donde se requieren símbolos, visibles por ejemplo en las páginas impresas VI, 46 y 110; la extracción textual del PDF omite esos glifos. Es una incidencia compartida por fuente y PDF, no una alteración introducida al segmentar; la intención matemática debe cotejarse con el manuscrito autoritativo antes de normalizar fórmulas.",
-    "La definición del déficit en esta obra usa Δᵢ = R*ᵢ − αᵢ. Metrología Causal, vol. I, usa Δᵢ = R*ᵢ × (1 − αᵢ). Registrar como discrepancia conceptual entre obras del corpus; no decidir ni unificar la fórmula durante la transcripción.",
-    "El Apéndice D declara que D.3 abre un programa de investigación y que sus aplicaciones concretas son trabajo futuro; el Teorema D.5 deja abierta la caracterización general de grafos con nodos de bifurcación. Es una extensión abierta declarada, diferenciada por el propio libro del núcleo de Partes 0–X.",
-    "El Apéndice B declara que la calibración paramétrica de φ y ψ se basa en tres casos piloto y que sus parámetros son revisables, no constantes del sistema. Distinguir esta calibración limitada de la verificación independiente de la Condición (1) del TIC que el mismo apéndice presenta sobre 18 casos."
-  ],
+  "source_anomalies": [],
   "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
   "segments": [
     {
-      "path": "corpus/libros/axiomatizacion-doble-mediacion/00-portadilla.md",
-      "kind": "portadilla",
+      "path": "corpus/libros/axiomatizacion-doble-mediacion/00-preliminares.md",
+      "kind": "preliminares",
       "start_line": 1,
-      "end_line": 18
-    },
-    {
-      "path": "corpus/libros/axiomatizacion-doble-mediacion/01-pagina-legal.md",
-      "kind": "pagina_legal",
-      "start_line": 19,
       "end_line": 30
     },
     {
-      "path": "corpus/libros/axiomatizacion-doble-mediacion/02-prologo.md",
+      "path": "corpus/libros/axiomatizacion-doble-mediacion/01-prologo.md",
       "kind": "prologo",
       "key": "PROLOGO",
       "heading": "Prólogo",

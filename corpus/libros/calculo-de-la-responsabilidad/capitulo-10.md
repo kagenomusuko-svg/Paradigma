@@ -1,3 +1,5 @@
+PARTE III · ECONOMÍA, FINANZAS Y EMPRESA
+
 ### Capítulo 10 Seguros y actuaría
 
 Contribución causal al siniestro: la póliza que distribuye el riesgo y
@@ -781,6 +783,4 @@ Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y A
 Continúa en el Capítulo 11 — Gobierno corporativo
 
 El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
-
-PARTE III · ECONOMÍA, FINANZAS Y EMPRESA
 

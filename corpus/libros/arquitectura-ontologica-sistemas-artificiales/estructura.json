@@ -7,30 +7,18 @@
   "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
   "segments": [
     {
-      "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/00-portadilla.md",
-      "kind": "portadilla",
+      "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/00-preliminares.md",
+      "kind": "preliminares",
       "start_line": 1,
-      "end_line": 16,
-      "source_start_offset": 0,
-      "source_end_offset": 379
+      "end_line": 28
     },
     {
-      "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/01-pagina-legal.md",
-      "kind": "pagina_legal",
-      "start_line": 17,
-      "end_line": 28,
-      "source_start_offset": 379,
-      "source_end_offset": 974
-    },
-    {
-      "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/02-notas-del-autor.md",
+      "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/01-notas-del-autor.md",
       "kind": "notas",
       "key": "NOTAS",
       "heading": "Notas del autor",
       "start_line": 29,
-      "end_line": 42,
-      "source_start_offset": 974,
-      "source_end_offset": 2941
+      "end_line": 42
     },
     {
       "path": "corpus/libros/arquitectura-ontologica-sistemas-artificiales/capitulo-00-01.md",
@@ -240,15 +228,5 @@
       "start_line": 1065,
       "end_line": 1111
     }
-  ],
-  "source_anomalies": [
-    "El aviso de derechos reservados prohíbe reproducir la obra sin permiso previo del editor, mientras el mismo bloque declara una licencia CC BY-NC-ND 4.0. Revisar compatibilidad y redacción.",
-    "La fuente combina «Primera edición: 2026» con los datos del editor en la portadilla; el PDF separa el año en la portadilla y «Primera edición: 2026» en la página legal. Además, la fuente concatena el encabezado corriente del libro al final de la línea de licencia. Son diferencias de estructura/transcripción del frente editorial; no se corrigieron en la fuente.",
-    "La fuente contiene 54 entidades HTML literales: &gt; (17), &lt; (3) y &quot; (34). El PDF también imprime varias literalmente; por ejemplo, en la p. 36 impresa aparecen «&gt;» y «&lt;» donde corresponden operadores de comparación, y &quot; en lugar de comillas. No es un problema introducido por esta segmentación; normalizar las entidades en una etapa editorial posterior.",
-    "En el Capítulo 2.1 se afirma que ‖I(t₂)−I(t₁)‖_E > 0 para todo t₂>t₁ a partir de w(τ)>0 y c(τ)≠0 en un conjunto de medida positiva. Para una integral vectorial en un espacio de Hilbert, la no nulidad del integrando no excluye cancelación; con las condiciones expresadas, la conclusión no se sigue. Añadir una condición de no cancelación/monotonía adecuada o reformular y demostrar el alcance.",
-    "En el Capítulo 0.2 se presenta I(t) como integral de Bochner de c(τ)w(τ), y poco después como ∫φ₂(colapso_τ)dτ para los colapsos que se integran, sin explicitar allí el peso ni la correspondencia entre los integrandos. Aclarar si son dos formulaciones equivalentes y bajo qué definición.",
-    "El Capítulo 7.3 deja explícitamente abierta la calibración empírica (discriminación de firmas de modos, parámetros N, M y T, calibración de S) y propone un segundo libro sobre ese tema. Está declarado como trabajo futuro y debe quedar delimitado respecto de los resultados formales que el volumen sí sostiene.",
-    "El texto afirma en las Notas del autor que la literatura sobre IA no ha respondido con precisión a la pregunta central, pero el manuscrito no incluye bibliografía ni referencias. Incorporar el respaldo bibliográfico correspondiente o ajustar el alcance de esa afirmación.",
-    "El volumen define Δᵢ = R*ᵢ − αᵢ, mientras Metrología Causal, vol. I, formula Δᵢ = R*ᵢ × (1−αᵢ). Registrar como discrepancia conceptual entre obras para la normalización transversal; no unificar durante la segmentación."
   ]
 }

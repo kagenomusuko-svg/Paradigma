@@ -1,3 +1,5 @@
+PARTE II  ·  CIENCIAS DE LA SALUD
+
 ### Capítulo 7 Tanatología y duelo
 
 El único dominio sin beneficio: α = 0 permanente, B = 0, y los
@@ -691,6 +693,4 @@ Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y A
 Continúa en la Parte III — Economía, finanzas y empresa
 
 El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
-
-PARTE III · ECONOMÍA, FINANZAS Y EMPRESA
 

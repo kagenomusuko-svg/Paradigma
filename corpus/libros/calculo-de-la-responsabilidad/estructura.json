@@ -1,262 +1,210 @@
 {
-  "title": "El cálculo de la responsabilidad: una ontología matemática para sistemas causales complejos",
+  "id": "CALCULO-R",
+  "title": "El cálculo de la responsabilidad: Una ontología matemática para sistemas causales complejos",
   "source": "corpus/fuentes/El cálculo de la responsabilidad una ontología matemática para sistemas causales complejos.md",
-  "sha256": null,
-  "series": "Reivindicación ontológica del ego",
+  "sha256": "c88090d40d052e63c6db6d9765600082f4637e2a428f189b680d879ac443f692",
+  "collection": "Reivindicación ontológica del ego",
   "volume": null,
-  "segmentation_rule": "Descomposición exacta de la fuente en unidades editoriales; su concatenación íntegra reproduce corpus/fuentes sin modificar el contenido.",
+  "source_anomalies": [],
+  "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
   "segments": [
     {
-      "path": "corpus/libros/calculo-de-la-responsabilidad/00-portadilla.md",
-      "kind": "cover",
-      "heading": "### El cálculo de la responsabilidad",
+      "path": "corpus/libros/calculo-de-la-responsabilidad/00-preliminares.md",
+      "kind": "preliminares",
       "start_line": 1,
-      "end_line": 14,
-      "start_byte": 0,
-      "end_byte": 292
+      "end_line": 36
     },
     {
-      "path": "corpus/libros/calculo-de-la-responsabilidad/01-pagina-legal.md",
-      "kind": "legal",
-      "heading": "",
-      "start_line": 15,
-      "end_line": 26,
-      "start_byte": 292,
-      "end_byte": 934
-    },
-    {
-      "path": "corpus/libros/calculo-de-la-responsabilidad/02-epigrafe.md",
-      "kind": "epigraph",
-      "heading": "",
-      "start_line": 27,
-      "end_line": 36,
-      "start_byte": 934,
-      "end_byte": 1235
-    },
-    {
-      "path": "corpus/libros/calculo-de-la-responsabilidad/03-prologo.md",
-      "kind": "prologue",
-      "heading": "## PRÓLOGO",
+      "path": "corpus/libros/calculo-de-la-responsabilidad/01-prologo.md",
+      "kind": "prologo",
+      "key": "PROLOGO",
+      "heading": "PRÓLOGO",
       "start_line": 37,
-      "end_line": 136,
-      "start_byte": 1235,
-      "end_byte": 12087
+      "end_line": 140
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-01.md",
-      "kind": "chapter",
-      "heading": "### Página | VII",
-      "start_line": 137,
-      "end_line": 936,
-      "start_byte": 12087,
-      "end_byte": 64566
+      "kind": "capitulo",
+      "key": "1",
+      "heading": "### Capítulo 1 Derecho penal y civil",
+      "start_line": 141,
+      "end_line": 934
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-02.md",
-      "kind": "chapter",
+      "kind": "capitulo",
+      "key": "2",
       "heading": "### Capítulo 2 PLD y compliance",
-      "start_line": 937,
-      "end_line": 2014,
-      "start_byte": 64566,
-      "end_byte": 137797
+      "start_line": 935,
+      "end_line": 2012
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-03.md",
-      "kind": "chapter",
+      "kind": "capitulo",
+      "key": "3",
       "heading": "### Capítulo 3 Derecho internacional y",
-      "start_line": 2015,
-      "end_line": 2856,
-      "start_byte": 137797,
-      "end_byte": 196684
+      "start_line": 2013,
+      "end_line": 2852
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-04.md",
-      "kind": "chapter",
+      "kind": "capitulo",
+      "key": "4",
       "heading": "### Capítulo 4 El isomorfismo de la",
-      "start_line": 2857,
-      "end_line": 3204,
-      "start_byte": 196684,
-      "end_byte": 222207
+      "start_line": 2853,
+      "end_line": 3202
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-05.md",
-      "kind": "chapter",
+      "kind": "capitulo",
+      "key": "5",
       "heading": "### Capítulo 5 Psicología clínica y",
-      "start_line": 3205,
-      "end_line": 3984,
-      "start_byte": 222207,
-      "end_byte": 283180
+      "start_line": 3203,
+      "end_line": 3982
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-06.md",
-      "kind": "chapter",
+      "kind": "capitulo",
+      "key": "6",
       "heading": "### Capítulo 6 Epidemiología",
-      "start_line": 3985,
-      "end_line": 4838,
-      "start_byte": 283180,
-      "end_byte": 340895
+      "start_line": 3983,
+      "end_line": 4836
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-07.md",
-      "kind": "chapter",
+      "kind": "capitulo",
+      "key": "7",
       "heading": "### Capítulo 7 Tanatología y duelo",
-      "start_line": 4839,
-      "end_line": 5534,
-      "start_byte": 340895,
-      "end_byte": 400261
+      "start_line": 4837,
+      "end_line": 5532
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-08.md",
-      "kind": "chapter",
+      "kind": "capitulo",
+      "key": "8",
       "heading": "### Capítulo 8 Score crediticio",
-      "start_line": 5535,
-      "end_line": 6368,
-      "start_byte": 400261,
-      "end_byte": 459606
+      "start_line": 5533,
+      "end_line": 6366
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-09.md",
-      "kind": "chapter",
+      "kind": "capitulo",
+      "key": "9",
       "heading": "### Capítulo 9 Análisis de quiebra y riesgo",
-      "start_line": 6369,
-      "end_line": 7134,
-      "start_byte": 459606,
-      "end_byte": 516851
+      "start_line": 6367,
+      "end_line": 7132
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-10.md",
-      "kind": "chapter",
+      "kind": "capitulo",
+      "key": "10",
       "heading": "### Capítulo 10 Seguros y actuaría",
-      "start_line": 7135,
-      "end_line": 7920,
-      "start_byte": 516851,
-      "end_byte": 574668
+      "start_line": 7133,
+      "end_line": 7918
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-11.md",
-      "kind": "chapter",
+      "kind": "capitulo",
+      "key": "11",
       "heading": "### Capítulo 11 Gobierno corporativo",
-      "start_line": 7921,
-      "end_line": 8728,
-      "start_byte": 574668,
-      "end_byte": 637051
+      "start_line": 7919,
+      "end_line": 8726
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-12.md",
-      "kind": "chapter",
+      "kind": "capitulo",
+      "key": "12",
       "heading": "### Capítulo 12 Ingeniería de sistemas y",
-      "start_line": 8729,
-      "end_line": 9490,
-      "start_byte": 637051,
-      "end_byte": 688103
+      "start_line": 8727,
+      "end_line": 9488
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-13.md",
-      "kind": "chapter",
+      "kind": "capitulo",
+      "key": "13",
       "heading": "### Capítulo 13 Inteligencia artificial y algoritmos de decisión",
-      "start_line": 9491,
-      "end_line": 10212,
-      "start_byte": 688103,
-      "end_byte": 740107
+      "start_line": 9489,
+      "end_line": 10210
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-14.md",
-      "kind": "chapter",
+      "kind": "capitulo",
+      "key": "14",
       "heading": "### Capítulo 14 Medio ambiente y",
-      "start_line": 10213,
-      "end_line": 10834,
-      "start_byte": 740107,
-      "end_byte": 788832
+      "start_line": 10211,
+      "end_line": 10832
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-15.md",
-      "kind": "chapter",
+      "kind": "capitulo",
+      "key": "15",
       "heading": "### Capítulo 15 Educación",
-      "start_line": 10835,
-      "end_line": 11426,
-      "start_byte": 788832,
-      "end_byte": 837574
+      "start_line": 10833,
+      "end_line": 11424
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-16.md",
-      "kind": "chapter",
+      "kind": "capitulo",
+      "key": "16",
       "heading": "### Capítulo 16 Análisis histórico y",
-      "start_line": 11427,
-      "end_line": 12110,
-      "start_byte": 837574,
-      "end_byte": 886025
+      "start_line": 11425,
+      "end_line": 12108
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-17.md",
-      "kind": "chapter",
+      "kind": "capitulo",
+      "key": "17",
       "heading": "### Capítulo 17 Deportes y valor de",
-      "start_line": 12111,
-      "end_line": 13070,
-      "start_byte": 886025,
-      "end_byte": 948579
+      "start_line": 12109,
+      "end_line": 13068
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-18.md",
-      "kind": "chapter",
+      "kind": "capitulo",
+      "key": "18",
       "heading": "### Capítulo 18 Literatura y análisis cultural",
-      "start_line": 13071,
-      "end_line": 13566,
-      "start_byte": 948579,
-      "end_byte": 1000690
-    },
-    {
-      "path": "corpus/libros/calculo-de-la-responsabilidad/caso-eje.md",
-      "kind": "case",
-      "heading": "### CASO EJE Institución de banca",
-      "start_line": 13567,
-      "end_line": 14396,
-      "start_byte": 1000690,
-      "end_byte": 1045677
+      "start_line": 13069,
+      "end_line": 14396
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/apendice-a.md",
-      "kind": "appendix",
-      "heading": "### APÉNDICE A El sistema como instrumento de gestión",
+      "kind": "apendice",
+      "key": "A",
+      "heading": "APÉNDICE A",
       "start_line": 14397,
-      "end_line": 14778,
-      "start_byte": 1045677,
-      "end_byte": 1069809
+      "end_line": 14778
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/apendice-b.md",
-      "kind": "appendix",
-      "heading": "### APÉNDICE B Calibración de los pesos W",
+      "kind": "apendice",
+      "key": "B",
+      "heading": "APÉNDICE B",
       "start_line": 14779,
-      "end_line": 15644,
-      "start_byte": 1069809,
-      "end_byte": 1109056
+      "end_line": 15644
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/apendice-c.md",
-      "kind": "appendix",
-      "heading": "### APÉNDICE C Fundamentos matemáticos",
+      "kind": "apendice",
+      "key": "C",
+      "heading": "APÉNDICE C",
       "start_line": 15645,
-      "end_line": 15790,
-      "start_byte": 1109056,
-      "end_byte": 1119939
+      "end_line": 15790
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/apendice-d.md",
-      "kind": "appendix",
-      "heading": "### APÉNDICE D Biblioteca Python de",
+      "kind": "apendice",
+      "key": "D",
+      "heading": "APÉNDICE D",
       "start_line": 15791,
-      "end_line": 15824,
-      "start_byte": 1119939,
-      "end_byte": 1137516
+      "end_line": 15824
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/apendice-e.md",
-      "kind": "appendix",
-      "heading": "### APÉNDICE E Glosario unificado por",
+      "kind": "apendice",
+      "key": "E",
+      "heading": "APÉNDICE E",
       "start_line": 15825,
-      "end_line": 16076,
-      "start_byte": 1137516,
-      "end_byte": 1150918
+      "end_line": 16075
     }
   ]
 }

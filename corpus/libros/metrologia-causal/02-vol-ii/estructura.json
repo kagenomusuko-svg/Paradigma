@@ -5,43 +5,22 @@
   "sha256": "c18d014bf38346ea77135af6e6ebe57ff600c192ceb9c6dab60c548de9064543",
   "collection": "Metrología Causal",
   "volume": 2,
-  "source_anomalies": [
-    "El aviso legal exige permiso previo para reproducir, mientras que el mismo bloque incluye una licencia CC BY-NC-ND 4.0; revisar la compatibilidad y la redacción.",
-    "El PDF muestra «2026» como año en la portadilla y «Primera edición: 2026» en la página legal. La fuente agrupa «Centro... · Primera edición: 2026» en una sola línea y no registra el año de portadilla como elemento independiente; cotejar el frente editorial.",
-    "La notación φ□ aparece 58 veces y se refiere a operaciones descritas como φ₂ en los textos canónicos del sistema. La fuente y el PDF muestran el subíndice cuadrado; confirmar si es convención o sustitución de glifo.",
-    "En la fuente y el PDF, el extractor textual omite los 116 glifos □; la revisión visual confirma cuadrados en los lugares inspeccionados. Distinguir los cuadros de formulario de los símbolos del cuerpo antes de una normalización global.",
-    "En las Notas al pie, dos entradas terminan truncadas: una finaliza «El mediador que sabe que hay un nodo relevante pero no» (PDF, p. 28); otra, «Los datos empíricos del» (PDF, p. 39). Completar ambas a partir del manuscrito autoritativo.",
-    "Los identificadores de las notas finales se repiten ([^1] y [^2]) sin volver a indicar a qué capítulo corresponde cada una; revisar anclajes y numeración de las notas trasladadas al final.",
-    "El Capítulo IV·7 presenta la Conjetura del Operador Unificador como conjetura y enumera tres pasos que aún faltan para demostrarla; además llama a su prueba un programa de investigación abierto. El estado queda declarado, pero la obra conserva una tarea matemática pendiente.",
-    "Precisar el alcance empírico: la Introducción afirma que un corpus de programas longitudinales ya demostró la necesidad del protocolo, mientras que el Apéndice A presenta una ruta de calibración por cohortes y una nota dice que los rangos de S no están calibrados con una muestra. Puede referirse a corpus y parámetros distintos; explicitarlo."
-  ],
+  "source_anomalies": [],
   "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
   "segments": [
     {
-      "path": "corpus/libros/metrologia-causal/02-vol-ii/00-portadilla.md",
-      "kind": "portadilla",
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/00-preliminares.md",
+      "kind": "preliminares",
       "start_line": 1,
-      "end_line": 17,
-      "source_start_offset": 0,
-      "source_end_offset": 329
+      "end_line": 32
     },
     {
-      "path": "corpus/libros/metrologia-causal/02-vol-ii/01-pagina-legal.md",
-      "kind": "pagina_legal",
-      "start_line": 17,
-      "end_line": 29,
-      "source_start_offset": 329,
-      "source_end_offset": 879
-    },
-    {
-      "path": "corpus/libros/metrologia-causal/02-vol-ii/02-introduccion.md",
+      "path": "corpus/libros/metrologia-causal/02-vol-ii/01-introduccion.md",
       "kind": "introduccion",
       "key": "INTRO",
       "heading": "### INTRODUCCIÓN",
-      "start_line": 29,
-      "end_line": 452,
-      "source_start_offset": 879,
-      "source_end_offset": 21569
+      "start_line": 33,
+      "end_line": 452
     },
     {
       "path": "corpus/libros/metrologia-causal/02-vol-ii/capitulo-01-01.md",
@@ -225,19 +204,7 @@
       "key": "A",
       "heading": "### Apéndice A",
       "start_line": 3365,
-      "end_line": 3674,
-      "source_start_offset": 202558,
-      "source_end_offset": 216544
-    },
-    {
-      "path": "corpus/libros/metrologia-causal/02-vol-ii/notas-apendice-a.md",
-      "kind": "notas_apendice",
-      "key": "A",
-      "heading": "Notas al Apéndice A",
-      "start_line": 3675,
-      "end_line": 3684,
-      "source_start_offset": 216544,
-      "source_end_offset": 217926
+      "end_line": 3684
     },
     {
       "path": "corpus/libros/metrologia-causal/02-vol-ii/apendice-b.md",
@@ -245,28 +212,7 @@
       "key": "B",
       "heading": "### Apéndice B",
       "start_line": 3685,
-      "end_line": 4098,
-      "source_start_offset": 217926,
-      "source_end_offset": 233130
-    },
-    {
-      "path": "corpus/libros/metrologia-causal/02-vol-ii/notas-apendice-b.md",
-      "kind": "notas_apendice",
-      "key": "B",
-      "heading": "Notas al Apéndice B",
-      "start_line": 4099,
-      "end_line": 4106,
-      "source_start_offset": 233130,
-      "source_end_offset": 234630
-    },
-    {
-      "path": "corpus/libros/metrologia-causal/02-vol-ii/notas.md",
-      "kind": "notas",
-      "heading": "Notas al pie",
-      "start_line": 4107,
-      "end_line": 4163,
-      "source_start_offset": 234630,
-      "source_end_offset": 237979
+      "end_line": 4163
     }
   ]
 }

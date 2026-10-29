@@ -1,7 +1,3 @@
-### Página | VII
-
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
-
 PARTE I · CIENCIAS JURÍDICAS Y SOCIALES
 
 ### Capítulo 1 Derecho penal y civil
@@ -795,6 +791,4 @@ Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y A
 Continúa en el Capítulo 2 — PLD y compliance
 
 El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
-
-PARTE I · CIENCIAS JURÍDICAS Y SOCIALES
 

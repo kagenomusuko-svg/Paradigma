@@ -1,3 +1,5 @@
+PARTE III · ECONOMÍA, FINANZAS Y EMPRESA
+
 ### Capítulo 11 Gobierno corporativo
 
 El consejo decorativo y la cultura del silo: cuando el peso causal en
@@ -803,6 +805,4 @@ Continúa en la Parte IV — Ingeniería y tecnología
 El Cálculo de la Responsabilidad · Cap. 12 — Ingeniería de sistemas y
 
 confiabilidad
-
-PARTE IV · INGENIERÍA Y TECNOLOGÍA
 

@@ -1,3 +1,5 @@
+PARTE IV · INGENIERÍA Y TECNOLOGÍA
+
 ### Capítulo 13 Inteligencia artificial y algoritmos de decisión
 
 El diseñador de la métrica: el nodo más invisible y el de mayor
@@ -717,6 +719,4 @@ Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y A
 Continúa en el Capítulo 14 — Medio ambiente y ecología
 
 El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
-
-PARTE IV · INGENIERÍA Y TECNOLOGÍA
 

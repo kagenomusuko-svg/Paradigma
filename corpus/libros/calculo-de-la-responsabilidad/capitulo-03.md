@@ -1,3 +1,5 @@
+PARTE I · CIENCIAS JURÍDICAS Y SOCIALES
+
 ### Capítulo 3 Derecho internacional y
 
 ### deudas históricas
@@ -835,8 +837,4 @@ Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y A
 Continúa en el Capítulo 4 — El isomorfismo de la imputación
 
 El Cálculo de la Responsabilidad · Cap. 4 — Síntesis de la Parte I
-
-PARTE I · CIENCIAS JURÍDICAS Y SOCIALES ·
-
-CAPÍTULO DE CIERRE
 

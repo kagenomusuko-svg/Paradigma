@@ -6,493 +6,373 @@
   "collection": "Autodeterminación Causal",
   "volume": null,
   "source_anomalies": [],
-  "segmentation_rule": "Descomposición exacta de la fuente: portadilla, página legal, índice temático, tabla de códigos y unidades estructurales. La concatenación íntegra reproduce corpus/fuentes sin modificar el contenido.",
+  "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
   "segments": [
     {
-      "path": "corpus/libros/sdo/00-portadilla.md",
-      "kind": "cover",
-      "heading": "### SDO",
+      "path": "corpus/libros/sdo/00-preliminares.md",
+      "kind": "preliminares",
       "start_line": 1,
-      "end_line": 16,
-      "start_byte": 0,
-      "end_byte": 249
-    },
-    {
-      "path": "corpus/libros/sdo/01-pagina-legal.md",
-      "kind": "legal",
-      "heading": "### Lic. Y Mda. Ana Lucía Olvera Aguilar",
-      "start_line": 17,
-      "end_line": 36,
-      "start_byte": 249,
-      "end_byte": 984
-    },
-    {
-      "path": "corpus/libros/sdo/02-indice-tematico.md",
-      "kind": "index",
-      "heading": "### Índice temático",
-      "start_line": 37,
-      "end_line": 150,
-      "start_byte": 984,
-      "end_byte": 10127
-    },
-    {
-      "path": "corpus/libros/sdo/03-tabla-de-codigos.md",
-      "kind": "code_table",
-      "heading": "### TABLA DE CÓDIGOS DEL SDO",
-      "start_line": 151,
-      "end_line": 360,
-      "start_byte": 10127,
-      "end_byte": 17163
+      "end_line": 360
     },
     {
       "path": "corpus/libros/sdo/pi-1.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "PI·1",
-      "heading": "### El caos y el colapso",
+      "heading": "PARTE INICIAL · PI·1 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 361,
-      "end_line": 620,
-      "start_byte": 17163,
-      "end_byte": 48085
+      "end_line": 620
     },
     {
       "path": "corpus/libros/sdo/pi-2.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "PI·2",
-      "heading": "### La pasión como fuerza de",
+      "heading": "PARTE INICIAL · PI·2 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 621,
-      "end_line": 970,
-      "start_byte": 48085,
-      "end_byte": 75609
+      "end_line": 970
     },
     {
       "path": "corpus/libros/sdo/pi-3.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "PI·3",
-      "heading": "### Las tres mediaciones",
+      "heading": "PARTE INICIAL · PI·3 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 971,
-      "end_line": 1270,
-      "start_byte": 75609,
-      "end_byte": 102429
+      "end_line": 1270
     },
     {
       "path": "corpus/libros/sdo/pi-4.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "PI·4",
-      "heading": "### La doble mediación y la",
+      "heading": "PARTE INICIAL · PI·4 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 1271,
-      "end_line": 1594,
-      "start_byte": 102429,
-      "end_byte": 131921
+      "end_line": 1594
     },
     {
       "path": "corpus/libros/sdo/pi-5.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "PI·5",
-      "heading": "### La triada: ego, egolatría y",
+      "heading": "PARTE INICIAL · PI·5 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 1595,
-      "end_line": 1906,
-      "start_byte": 131921,
-      "end_byte": 159549
+      "end_line": 1906
     },
     {
       "path": "corpus/libros/sdo/pi-6.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "PI·6",
-      "heading": "### La mascarada",
+      "heading": "PARTE INICIAL · PI·6 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 1907,
-      "end_line": 2220,
-      "start_byte": 159549,
-      "end_byte": 187273
+      "end_line": 2220
     },
     {
       "path": "corpus/libros/sdo/pi-7.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "PI·7",
-      "heading": "### Los hijos de Afrodita",
+      "heading": "PARTE INICIAL · PI·7 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 2221,
-      "end_line": 2514,
-      "start_byte": 187273,
-      "end_byte": 216474
+      "end_line": 2514
     },
     {
       "path": "corpus/libros/sdo/pi-8.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "PI·8",
-      "heading": "### El SDO como instrumento",
+      "heading": "PARTE INICIAL · PI·8 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 2515,
-      "end_line": 2862,
-      "start_byte": 216474,
-      "end_byte": 239732
+      "end_line": 2862
     },
     {
       "path": "corpus/libros/sdo/i-0.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "I·0",
-      "heading": "### Introducción al Eje I",
+      "heading": "PARTE I · I·0 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 2863,
-      "end_line": 3232,
-      "start_byte": 239732,
-      "end_byte": 268655
+      "end_line": 3232
     },
     {
       "path": "corpus/libros/sdo/i-e-1.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "I·E-1",
-      "heading": "### E-1 · Ego genuino",
+      "heading": "PARTE I · EJE I · I·E-1 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 3233,
-      "end_line": 3574,
-      "start_byte": 268655,
-      "end_byte": 304863
+      "end_line": 3574
     },
     {
       "path": "corpus/libros/sdo/i-e-2.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "I·E-2",
-      "heading": "### E-2 · Disforia de",
+      "heading": "PARTE I · EJE I · I·E-2 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 3575,
-      "end_line": 3972,
-      "start_byte": 304863,
-      "end_byte": 346862
+      "end_line": 3972
     },
     {
       "path": "corpus/libros/sdo/i-e-3.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "I·E-3",
-      "heading": "### E-3 · Afasia volitiva",
+      "heading": "PARTE I · EJE I · I·E-3 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 3973,
-      "end_line": 4410,
-      "start_byte": 346862,
-      "end_byte": 385487
+      "end_line": 4410
     },
     {
       "path": "corpus/libros/sdo/i-e-4.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "I·E-4",
-      "heading": "### E-4 · Disfasia volitiva",
+      "heading": "PARTE I · EJE I · I·E-4 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 4411,
-      "end_line": 4840,
-      "start_byte": 385487,
-      "end_byte": 427666
+      "end_line": 4840
     },
     {
       "path": "corpus/libros/sdo/i-e-5.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "I·E-5",
-      "heading": "### E-5 · Saturación expresiva",
+      "heading": "PARTE I · EJE I · I·E-5 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 4841,
-      "end_line": 5212,
-      "start_byte": 427666,
-      "end_byte": 466637
+      "end_line": 5212
     },
     {
       "path": "corpus/libros/sdo/i-e-6.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "I·E-6",
-      "heading": "### E-6 · Aego",
+      "heading": "PARTE I · EJE I · I·E-6 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 5213,
-      "end_line": 5544,
-      "start_byte": 466637,
-      "end_byte": 498738
+      "end_line": 5544
     },
     {
       "path": "corpus/libros/sdo/ii-0.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "II·0",
-      "heading": "### Introducción al Eje II",
+      "heading": "PARTE II · II·0 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 5545,
-      "end_line": 5840,
-      "start_byte": 498738,
-      "end_byte": 525450
+      "end_line": 5840
     },
     {
       "path": "corpus/libros/sdo/ii-m-1.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "II·M-1",
-      "heading": "### M-1 · Modulación",
+      "heading": "PARTE II · EJE II · II·M-1 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 5841,
-      "end_line": 6176,
-      "start_byte": 525450,
-      "end_byte": 555519
+      "end_line": 6176
     },
     {
       "path": "corpus/libros/sdo/ii-m-2.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "II·M-2",
-      "heading": "### M-2 · Impostura",
+      "heading": "PARTE II · EJE II · II·M-2 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 6177,
-      "end_line": 6560,
-      "start_byte": 555519,
-      "end_byte": 589553
+      "end_line": 6560
     },
     {
       "path": "corpus/libros/sdo/ii-m-3.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "II·M-3",
-      "heading": "### M-3 · Mascarada",
+      "heading": "PARTE II · EJE II · II·M-3 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 6561,
-      "end_line": 6878,
-      "start_byte": 589553,
-      "end_byte": 620649
+      "end_line": 6878
     },
     {
       "path": "corpus/libros/sdo/iii-0.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "III·0",
-      "heading": "### Introducción al Eje III",
+      "heading": "PARTE III · III·0 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 6879,
-      "end_line": 7174,
-      "start_byte": 620649,
-      "end_byte": 651184
+      "end_line": 7174
     },
     {
       "path": "corpus/libros/sdo/iii-v-1.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "III·V-1",
-      "heading": "### V-1 · Encuentro genuino",
+      "heading": "PARTE III · EJE III · III·V-1 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 7175,
-      "end_line": 7524,
-      "start_byte": 651184,
-      "end_byte": 684162
+      "end_line": 7524
     },
     {
       "path": "corpus/libros/sdo/iii-v-2.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "III·V-2",
-      "heading": "### V-2 · Díada asimétrica",
+      "heading": "PARTE III · EJE III · III·V-2 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 7525,
-      "end_line": 7902,
-      "start_byte": 684162,
-      "end_byte": 717663
+      "end_line": 7902
     },
     {
       "path": "corpus/libros/sdo/iii-v-3.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "III·V-3",
-      "heading": "### V-3 · Vínculo colapsado",
+      "heading": "PARTE III · EJE III · III·V-3 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 7903,
-      "end_line": 8242,
-      "start_byte": 717663,
-      "end_byte": 751810
+      "end_line": 8242
     },
     {
       "path": "corpus/libros/sdo/iv-0.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "IV·0",
-      "heading": "### Introducción al Eje IV",
+      "heading": "PARTE IV · IV·0 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 8243,
-      "end_line": 8490,
-      "start_byte": 751810,
-      "end_byte": 776952
+      "end_line": 8490
     },
     {
       "path": "corpus/libros/sdo/iv-d-1.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "IV·D-1",
-      "heading": "### D-1 · Disforia activa",
+      "heading": "PARTE IV · EJE IV · IV·D-1 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 8491,
-      "end_line": 8852,
-      "start_byte": 776952,
-      "end_byte": 811226
+      "end_line": 8852
     },
     {
       "path": "corpus/libros/sdo/iv-d-2.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "IV·D-2",
-      "heading": "### D-2 · Disociación del ego",
+      "heading": "PARTE IV · EJE IV · IV·D-2 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 8853,
-      "end_line": 9244,
-      "start_byte": 811226,
-      "end_byte": 859879
+      "end_line": 9244
     },
     {
       "path": "corpus/libros/sdo/v-0.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "V·0",
-      "heading": "### Introducción al Eje V",
+      "heading": "PARTE V · V·0 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 9245,
-      "end_line": 9596,
-      "start_byte": 859879,
-      "end_byte": 895363
+      "end_line": 9596
     },
     {
       "path": "corpus/libros/sdo/v-t-0.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "V·T-0",
-      "heading": "### T-0 · Pérdida por muerte",
+      "heading": "PARTE V · EJE V · V·T-0 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 9597,
-      "end_line": 9966,
-      "start_byte": 895363,
-      "end_byte": 935081
+      "end_line": 9966
     },
     {
       "path": "corpus/libros/sdo/v-t-1.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "V·T-1",
-      "heading": "### T-1 · Potós",
+      "heading": "PARTE V · EJE V · V·T-1 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 9967,
-      "end_line": 10354,
-      "start_byte": 935081,
-      "end_byte": 978780
+      "end_line": 10354
     },
     {
       "path": "corpus/libros/sdo/v-t-2.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "V·T-2",
-      "heading": "### T-2 · Fobos",
+      "heading": "PARTE V · EJE V · V·T-2 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 10355,
-      "end_line": 10746,
-      "start_byte": 978780,
-      "end_byte": 1023878
+      "end_line": 10746
     },
     {
       "path": "corpus/libros/sdo/v-t-3.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "V·T-3",
-      "heading": "### T-3 · Deimos",
+      "heading": "PARTE V · EJE V · V·T-3 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 10747,
-      "end_line": 11132,
-      "start_byte": 1023878,
-      "end_byte": 1067912
+      "end_line": 11132
     },
     {
       "path": "corpus/libros/sdo/v-t-4.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "V·T-4",
-      "heading": "### T-4 · Anteros",
+      "heading": "PARTE V · EJE V · V·T-4 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 11133,
-      "end_line": 11526,
-      "start_byte": 1067912,
-      "end_byte": 1111827
+      "end_line": 11526
     },
     {
       "path": "corpus/libros/sdo/v-t-5.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "V·T-5",
-      "heading": "### T-5 · Eros",
+      "heading": "PARTE V · EJE V · V·T-5 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 11527,
-      "end_line": 11882,
-      "start_byte": 1111827,
-      "end_byte": 1150190
+      "end_line": 11882
     },
     {
       "path": "corpus/libros/sdo/v-t-6.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "V·T-6",
-      "heading": "### T-6 · Harmonía",
+      "heading": "PARTE V · EJE V · V·T-6 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 11883,
-      "end_line": 12242,
-      "start_byte": 1150190,
-      "end_byte": 1189827
+      "end_line": 12242
     },
     {
       "path": "corpus/libros/sdo/v-t-ext.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "V·T-ext",
-      "heading": "### T-ext · Extensión del Eje",
+      "heading": "PARTE V · EJE V · V·T-ext Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 12243,
-      "end_line": 12586,
-      "start_byte": 1189827,
-      "end_byte": 1229068
+      "end_line": 12586
     },
     {
       "path": "corpus/libros/sdo/vi-1.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "VI·1",
-      "heading": "### La lógica sistémica",
+      "heading": "PARTE VI · EL SDO COMO SISTEMA · VI·1",
       "start_line": 12587,
-      "end_line": 12902,
-      "start_byte": 1229068,
-      "end_byte": 1266315
+      "end_line": 12902
     },
     {
       "path": "corpus/libros/sdo/vi-2.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "VI·2",
-      "heading": "### Configuraciones",
+      "heading": "PARTE VI · VI·2 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 12903,
-      "end_line": 13230,
-      "start_byte": 1266315,
-      "end_byte": 1300408
+      "end_line": 13230
     },
     {
       "path": "corpus/libros/sdo/vi-3.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "VI·3",
-      "heading": "### Protocolo de lectura",
+      "heading": "PARTE VI · VI·3 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 13231,
-      "end_line": 13536,
-      "start_byte": 1300408,
-      "end_byte": 1330537
+      "end_line": 13536
     },
     {
       "path": "corpus/libros/sdo/vii-1.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "VII·1",
-      "heading": "### La lógica de la interfaz",
+      "heading": "PARTE VII · VII·1 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 13537,
-      "end_line": 13814,
-      "start_byte": 1330537,
-      "end_byte": 1361902
+      "end_line": 13814
     },
     {
       "path": "corpus/libros/sdo/vii-2.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "VII·2",
-      "heading": "### Los hijos de Afrodita como",
+      "heading": "PARTE VII · VII·2 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 13815,
-      "end_line": 14146,
-      "start_byte": 1361902,
-      "end_byte": 1398221
+      "end_line": 14146
     },
     {
       "path": "corpus/libros/sdo/vii-3.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "VII·3",
-      "heading": "### El Eje V como trayectoria",
+      "heading": "PARTE VII · VII·3 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 14147,
-      "end_line": 14458,
-      "start_byte": 1398221,
-      "end_byte": 1436447
+      "end_line": 14458
     },
     {
       "path": "corpus/libros/sdo/vii-4.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "VII·4",
-      "heading": "### El trauma como bloqueo",
+      "heading": "PARTE VII · VII·4 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 14459,
-      "end_line": 14788,
-      "start_byte": 1436447,
-      "end_byte": 1476532
+      "end_line": 14788
     },
     {
       "path": "corpus/libros/sdo/viii-1.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "VIII·1",
-      "heading": "### Ficha de formulación",
+      "heading": "PARTE VIII · VIII·1 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 14789,
-      "end_line": 15172,
-      "start_byte": 1476532,
-      "end_byte": 1501135
+      "end_line": 15172
     },
     {
       "path": "corpus/libros/sdo/viii-2.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "VIII·2",
-      "heading": "### Protocolo de entrevista",
+      "heading": "PARTE VIII · VIII·2 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 15173,
-      "end_line": 15534,
-      "start_byte": 1501135,
-      "end_byte": 1539959
+      "end_line": 15534
     },
     {
       "path": "corpus/libros/sdo/viii-3.md",
-      "kind": "unit",
+      "kind": "unidad",
       "key": "VIII·3",
-      "heading": "### Cuaderno de autolocalización",
+      "heading": "PARTE VIII · VIII·3 Sistema de Diagnóstico Ontológico · SDO",
       "start_line": 15535,
-      "end_line": 15885,
-      "start_byte": 1539959,
-      "end_byte": 1571045
+      "end_line": 15885
     }
   ]
 }

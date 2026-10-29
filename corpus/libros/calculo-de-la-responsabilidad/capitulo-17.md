@@ -1,3 +1,5 @@
+PARTE V · HUMANIDADES Y CIENCIAS SOCIALES
+
 ### Capítulo 17 Deportes y valor de
 
 ### contribución
@@ -955,6 +957,4 @@ Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y A
 Continúa en el Capítulo 18 — Literatura y análisis cultural
 
 El Cálculo de la Responsabilidad · Cap. 18 — Literatura y análisis cultural
-
-PARTE V · HUMANIDADES Y CIENCIAS SOCIALES
 

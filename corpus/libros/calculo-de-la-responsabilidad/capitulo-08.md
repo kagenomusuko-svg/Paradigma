@@ -1,3 +1,5 @@
+PARTE III · ECONOMÍA, FINANZAS Y EMPRESA
+
 ### Capítulo 8 Score crediticio
 
 El impago no es un hecho del deudor: índice de causalidad y el nodo
@@ -829,6 +831,4 @@ Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y A
 Continúa en el Capítulo 9 — Quiebra y riesgo sistémico
 
 El Cálculo de la Responsabilidad · Cap. 9 — Quiebra y riesgo sistémico
-
-PARTE III · ECONOMÍA, FINANZAS Y EMPRESA
 

@@ -1,5 +1,3 @@
-PARTE PRELIMINAR · Fundamentos del instrumento
-
 ### Capítulo P·3
 
 Condiciones de administración Lo que debe estar en su lugar para que la sesión sea válida

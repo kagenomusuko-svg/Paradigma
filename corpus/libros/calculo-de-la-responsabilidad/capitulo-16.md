@@ -1,3 +1,5 @@
+PARTE V · HUMANIDADES Y CIENCIAS SOCIALES
+
 ### Capítulo 16 Análisis histórico y
 
 ### geopolítico
@@ -679,6 +681,4 @@ Continúa en el Capítulo 17 — Deportes y valor de contribución
 El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
-
-PARTE V · HUMANIDADES Y CIENCIAS SOCIALES
 

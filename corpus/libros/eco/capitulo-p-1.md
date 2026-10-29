@@ -30,7 +30,9 @@ produce desde evidencia documental. La diferencia es que ECO puede asignar peso 
 
 Estos tres componentes son la totalidad de lo que ECO produce. El mediador que espera de ECO algo más —una narrativa sobre el sujeto, un plan de trabajo, una predicción de conducta— está buscando en el instrumento lo que el instrumento no contiene. Esa búsqueda es uno de los errores de uso más frecuentes del instrumento y el Bloque IV desarrolla sus consecuencias con precisión.
 
-ECO produce · localización + principios de intervención orientadores La localización es la salida técnica del instrumento: P(Hijos) y códigos de los cinco ejes del SDO. Los principios de intervención son la orientación inmediata para el mediador con lo que encontró. ECO no produce el proceso de acompañamiento: ese es Histos.
+> **ECO produce · localización + principios de intervención orientadores**
+>
+> La localización es la salida técnica del instrumento: P(Hijos) y códigos de los cinco ejes del SDO. Los principios de intervención son la orientación inmediata para el mediador con lo que encontró. ECO no produce el proceso de acompañamiento: ese es Histos.
 
 Hay algo que ECO produce que no aparece en ninguna descripción formal del instrumento pero que el mediador entrenado reconoce: la relación que se establece en la sesión es en sí misma evidencia. La manera en que el sujeto se relaciona con el mediador durante ECO —cómo responde, cómo evita, cómo se abre o se cierra, si puede desacordar o si acepta todo lo que el mediador introduce— es señal diagnóstica de primer orden. El Módulo Eje III desarrolla esto con la precisión que merece. Lo que importa establecer aquí es que ECO no es solo lo que el mediador pregunta: es también lo que el mediador observa en el campo que se crea entre los dos.
 
@@ -42,43 +44,12 @@ ECO es el tercero de tres instrumentos. El SDO es el mapa conceptual del sistema
 
 La relación entre los tres instrumentos no es de jerarquía sino de función complementaria. Ninguno puede reemplazar a los otros dos. El SDO sin ECO es conceptualmente completo, pero operativamente inerte: el mediador sabe qué localizar, pero no cómo hacerlo en presencia del sujeto. ECO sin el SDO es técnicamente correcto, pero conceptualmente vacío: el mediador aplica preguntas sin entender qué localizan. Prometeo sin ECO puede calcular con datos documentales, pero pierde acceso a la localización de S y α que solo la presencia del sujeto puede confirmar con certeza alta.
 
-Qué produce Qué no produce Relación con
-
-Instrument
-
-o
-
-ECO
-
-SDO El mapa conceptual: qué es el ego, qué configuracione s son posibles, cómo se nombran
-
-La operacionalizaci ón en sesión: cómo localizarlas con un sujeto presente
-
-ECO es la aplicación operativa del SDO en presencia del sujeto
-
-Método Prometeo
-
-Análisis causal con rangos de responsabilidad (R*, S, α, Δ)
-
-La localización de la voluntad del actor: eso requiere SDO y ECO
-
-ECO produce la localización que Prometeo usa como insumo para S y α cuando el sujeto está disponible
-
-Entrevista Clínica Ontológica · ECO
-
-Taxonomía (U·1)
-
-Localización desde evidencia documental: P(Hijos) con Fobos, Deimos, Anteros confirmables
-
-Localización de Harmonía; confirmación de Potós y Eros — eso requiere presencia
-
-ECO cierra las tres brechas que el árbol documental no puede resolver por razones estructurales
-
-Histos Proceso completo de acompañamien to sesión a sesión
-
-ECO produce los insumos (localización + principios orientadores) que Histos recibe para iniciar el acompañamien to
-
-La localización inicial: eso es ECO
+| Instrumento | Qué produce | Qué no produce | Relación con ECO |
+| --- | --- | --- | --- |
+| SDO | El mapa conceptual: qué es el ego, qué configuraciones son posibles, cómo se nombran | La operacionalización en sesión: cómo localizarlas con un sujeto presente | ECO es la aplicación operativa del SDO en presencia del sujeto |
+| Método Prometeo | Análisis causal con rangos de responsabilidad (R*, S, α, Δ) | La localización de la voluntad del actor: eso requiere SDO y ECO | ECO produce la localización que Prometeo usa como insumo para S y α cuando el sujeto está disponible |
+| Taxonomía (U·1) | Localización desde evidencia documental: P(Hijos) con Fobos, Deimos, Anteros confirmables | Localización de Harmonía; confirmación de Potós y Eros — eso requiere presencia | ECO cierra las tres brechas que el árbol documental no puede resolver por razones estructurales |
+| Histos | Proceso completo de acompañamiento sesión a sesión | La localización inicial: eso es ECO | ECO produce los insumos (localización + principios orientadores) que Histos recibe para iniciar el acompañamiento |
 
 Hay un cuarto instrumento cuya relación con ECO merece una nota específica: la Taxonomía del Método Prometeo, y en particular su Capítulo U·1. Ese capítulo produce una distribución P(Hijos) desde evidencia documental —expedientes, historiales de decisiones, registros institucionales— usando el árbol de decisión del análisis documental. ECO y el árbol documental producen la misma clase de salida (una distribución P(Hijos)) pero desde fuentes radicalmente distintas. Cuando ambos instrumentos se han aplicado al mismo caso, el Capítulo P·5 de este instrumento establece el protocolo de cruce: cómo integrar P(Hijos) documental y P(Hijos) relacional, qué hacer cuando convergen y qué hacer cuando contradicen.
 
@@ -110,7 +81,9 @@ ECO no produce certeza absoluta
 
 La localización que ECO produce es una distribución de probabilidad, no una asignación binaria. P(Fobos) = 0.65 no significa que el sujeto "es" Fobos: significa que la evidencia observacional de la sesión sostiene que Fobos es el Hijo dominante con ese nivel de certeza. La escala de evidencia personal (EP-0 a EP-8) que la Parte Preliminar establece es el instrumento que calibra esa certeza. Un mediador que sale de la sesión creyendo tener una "respuesta" sobre el sujeto ha confundido la localización con una verdad sobre el sujeto. La localización es lo que el instrumento puede decir sobre la configuración de la voluntad en el momento analizado, desde la evidencia que la sesión produjo. No es más que eso. Tampoco es menos.
 
-Lo que ECO no hace — cuatro límites estructurales No reemplaza al SDO como fundamento conceptual. No diagnostica trastornos clínicos ni prescribe tratamientos. No produce el proceso de acompañamiento (ese es Histos). No produce certeza absoluta: produce distribuciones de probabilidad calibradas por la escala EP.
+> **Lo que ECO no hace — cuatro límites estructurales**
+>
+> No reemplaza al SDO como fundamento conceptual. No diagnostica trastornos clínicos ni prescribe tratamientos. No produce el proceso de acompañamiento (ese es Histos). No produce certeza absoluta: produce distribuciones de probabilidad calibradas por la escala EP.
 
 ### V.  Por qué este capítulo va antes que cualquier módulo
 

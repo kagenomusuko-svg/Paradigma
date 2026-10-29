@@ -6,40 +6,23 @@
   "collection": "Método Prometeo de imputación causal",
   "volume": null,
   "source_anomalies": [
-    "La fuente contiene dos unidades distintas rotuladas «Capítulo 6»; se conservan como 6a y 6b en la capa derivada sin alterar la fuente.",
-    "En la definición de S del Apéndice C aparece «A, B, C □ {0, 0.5, 1}» (fuente línea 6963; impreso en página XXVIII): el PDF y la fuente muestran un cuadrado, donde la operación de pertenencia ∈ sería necesaria. Es una anomalía ya presente en ambos, no una diferencia de transcripción.",
-    "Las cuatro apariciones de φ□ en el prólogo nombran la segunda mediación; Metrología Causal la notación canónica φ₂. El PDF visual también muestra un subíndice cuadrado aunque su capa de texto omite el glifo. Normalizar a φ₂ al revisar la fuente.",
-    "El libro define α como grado de asunción entre 0 y 1 y en el Apéndice C como monto asumido / AD(i), pero calcula Δ_i = R*_i − α_i (líneas 1113 y 6975). Metrología Causal define Δ_i = R*_i × (1 − α_i), donde α_i es la fracción integrada de R*_i. Revisar si Prometeo usa otra unidad para α o si hay que ajustar fórmula, tabla y ejemplos; no es corrupción entre PDF y Markdown.",
-    "El Apéndice C se refiere a una «plantilla descargada» y describe cinco pestañas, pero no hay archivo de hoja de cálculo ni enlace de descarga en el repositorio Paradigma.",
-    "El bloque legal exige permiso previo para reproducir y también incluye licencia CC BY-NC-ND 4.0; aclarar la compatibilidad y la redacción de ambos términos."
+    "La fuente contiene dos unidades distintas rotuladas «Capítulo 6»; se conservan como 6a y 6b en la capa derivada sin alterar la fuente."
   ],
   "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
   "segments": [
     {
-      "path": "corpus/libros/metodo-prometeo-juristas-abogados/00-portadilla.md",
-      "kind": "portadilla",
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/00-preliminares.md",
+      "kind": "preliminares",
       "start_line": 1,
-      "end_line": 14,
-      "source_start_offset": 0,
-      "source_end_offset": 231
+      "end_line": 30
     },
     {
-      "path": "corpus/libros/metodo-prometeo-juristas-abogados/01-pagina-legal.md",
-      "kind": "pagina_legal",
-      "start_line": 15,
-      "end_line": 29,
-      "source_start_offset": 231,
-      "source_end_offset": 850
-    },
-    {
-      "path": "corpus/libros/metodo-prometeo-juristas-abogados/02-prologo.md",
+      "path": "corpus/libros/metodo-prometeo-juristas-abogados/01-prologo.md",
       "kind": "prologo",
       "key": "PROLOGO",
       "heading": "### Prólogo Por qué este método, para",
-      "start_line": 29,
-      "end_line": 206,
-      "source_start_offset": 850,
-      "source_end_offset": 18534
+      "start_line": 31,
+      "end_line": 206
     },
     {
       "path": "corpus/libros/metodo-prometeo-juristas-abogados/capitulo-01.md",
@@ -127,18 +110,7 @@
       "key": "C",
       "heading": "### Apéndice C Guía de la plantilla de",
       "start_line": 6887,
-      "end_line": 7004,
-      "source_start_offset": 384099,
-      "source_end_offset": 391019
-    },
-    {
-      "path": "corpus/libros/metodo-prometeo-juristas-abogados/notas.md",
-      "kind": "notas",
-      "heading": "Notas al pie",
-      "start_line": 7005,
-      "end_line": 7008,
-      "source_start_offset": 391019,
-      "source_end_offset": 391055
+      "end_line": 7008
     }
   ]
 }

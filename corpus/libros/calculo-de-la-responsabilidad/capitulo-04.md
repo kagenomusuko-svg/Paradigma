@@ -1,3 +1,7 @@
+PARTE I · CIENCIAS JURÍDICAS Y SOCIALES ·
+
+CAPÍTULO DE CIERRE
+
 ### Capítulo 4 El isomorfismo de la
 
 ### imputación
@@ -343,6 +347,4 @@ simplificado: HB y RI se incorporan en CI     else:         f = np.ones(n) retur
 Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock, 2026 Continúa en la Parte II — Ciencias de la salud
 
 El Cálculo de la Responsabilidad · Cap. 5 — Psicología clínica y psiquiatría
-
-PARTE II · CIENCIAS DE LA SALUD
 

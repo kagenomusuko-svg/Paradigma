@@ -412,3 +412,68 @@ Metrología Causal · Vol. II
 
 ### rápida cuando prepara la presentación del expediente para un foro o audiencia específica.
 
+Notas al Apéndice B
+
+1  El dominio de psicología forense se agrega a los seis dominios de la Introducción porque es el contexto donde la tensión entre el sistema y el vocabulario establecido es más aguda. La psicología forense tiene conceptos propios muy desarrollados (imputabilidad, capacidad de comprensión, actio libera in causa) que parcialmente se solapan con los del sistema (α, v_t, φ□) pero que fueron construidos con propósitos legales específicos. El mediador que opera en ese dominio necesita conocer con precisión dónde coinciden y dónde divergen los dos vocabularios.
+
+2  El dominio de educación se agrega porque el Programa ECO del Apéndice A genera datos en ese contexto, y los operadores educativos necesitan el vocabulario equivalente para interpretar los resultados del protocolo. R* en educación no es un concepto familiar para docentes y directivos — pero 'contribución al resultado educativo' sí lo es, y esa es la equivalencia que el apéndice provee.
+
+3  La tabla de Fraude annona del Apartado VII es la más compleja porque el concepto no tiene equivalente directo en ningún dominio — es una identidad matemática específica de este sistema. Las equivalencias listadas son aproximaciones funcionales que el mediador puede usar para comunicar la gravedad de la posición del nodo de diseño, no para equiparar el fraude annona con ningún concepto jurídico o disciplinar preexistente. La precisión del concepto solo puede comunicarse refiriendo al Corolario III del Capítulo IV·5.
+
+## Notas al pie
+
+[^1]: La Estación ECO es opcional en el sentido de que no todos los casos 
+tienen un ego humano a localizar. Los casos de auditoría institucional 
+donde todos los nodos son institucionales o normativos —sin ego 
+individual identificable como objeto de localización— no activan ECO. 
+El grafo se construye directamente desde el expediente documental.
+
+[^2]: La condición de completitud del grafo —que incluya todos los nodos con 
+capacidad causal, incluyendo los no documentados— es la condición 
+metrológica más exigente del sistema y la más frecuentemente violada 
+en la práctica. Un nodo estructuralmente necesario que no aparece en el 
+expediente no desaparece del grafo real: desaparece del análisis, 
+concentrando artificialmente R* en los nodos documentados [Vol.I · 
+Cap. III·5]. El mediador que sabe que hay un nodo relevante pero no
+
+[^1]: Los rangos de S por Hijo que este capítulo establece son valores de 
+referencia derivados de la correspondencia formal entre el Hijo 
+dominante y la sustituibilidad [La transformación formal · Cap. 2.1]. No 
+son valores empíricos calibrados sobre una muestra: son consecuencias 
+de la estructura de la doble mediación. Los datos empíricos del
+
+[^1]: α no mide remordimiento, culpa, ni declaración de responsabilidad. Mide 
+asunción verificable mediante conducta. Un ego que declara alta 
+responsabilidad, pero no tomó ninguna acción orientada a modificar el 
+resultado tiene α bajo independientemente de lo que diga. Un ego que 
+no declara responsabilidad, pero tomó acciones completas de mitigación 
+tiene α alto. La confusión entre declaración y asunción es el error más 
+frecuente de calibración de α en la práctica.
+
+[^1]: La traducción de términos técnicos al vocabulario del dominio requiere 
+una precaución importante: la traducción debe ser consistente a lo largo 
+de todo el proceso del caso. Si R* se traduce como 'contribución causal 
+proporcional' en el resumen ejecutivo, debe traducirse igual en el análisis 
+oral ante el tribunal y en cualquier documento adicional que el análisis 
+genere. La inconsistencia terminológica en un proceso adversarial es una 
+vulnerabilidad que el experto contrario puede explotar para cuestionar 
+la coherencia del análisis.
+
+[^2]: La pregunta de los puntos de quiebre — qué tendría que ser verdad para 
+que la conclusión cambiara — es la más poderosa en cualquier foro
+
+[^2]: La versión del Teorema de Perron-Frobenius que este capítulo usa es para 
+matrices no negativas e irreducibles, no necesariamente estrictamente 
+positivas. La irreducibilidad de la matriz (en el sentido de que el grafo 
+subyacente es fuertemente conexo al sumidero) es suficiente para 
+garantizar el eigenvector positivo único sin necesitar que todas las 
+entradas de W sean estrictamente positivas.
+
+[^1]: El Corolario I tiene una consecuencia importante para la comunicación en 
+contextos donde la responsabilidad colectiva está en cuestión. Cuando 
+Σᵢ R*_neta_i es muy menor a 1 — cuando la responsabilidad sistémica 
+del campo es muy alta — el análisis puede y debe comunicar que el 
+problema es estructural: el resultado habría ocurrido en gran medida 
+independientemente de quiénes fueran los actores individuales. Esa 
+comunicación no exime a los individuos de su R*_neta — exige que el 
+análisis correctivo se dirija también a la estructura del campo.

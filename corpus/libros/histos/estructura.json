@@ -1,406 +1,346 @@
 {
+  "id": "HISTOS",
   "title": "HISTOS: Protocolo de Acompañamiento Ontológico",
   "source": "corpus/fuentes/HISTOS Protocolo de Acompañamiento Ontológico.md",
   "sha256": "fd7392db6fc31c2629fe6806fa4201100b89b2642f6366b33fb15b2f5e1146cb",
-  "series": "Autodeterminación Causal",
+  "collection": "Autodeterminación Causal",
   "volume": null,
-  "segmentation_rule": "Descomposición exacta de la fuente en portadilla, página legal, capítulos y notas; la concatenación íntegra reproduce corpus/fuentes sin modificar el contenido. La fuente no contiene un índice independiente ni apéndices.",
+  "source_anomalies": [],
+  "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
   "segments": [
     {
-      "path": "corpus/libros/histos/00-portadilla.md",
-      "kind": "cover",
-      "heading": "### HISTOS",
+      "path": "corpus/libros/histos/00-preliminares.md",
+      "kind": "preliminares",
       "start_line": 1,
-      "end_line": 18,
-      "start_byte": 0,
-      "end_byte": 419
+      "end_line": 40
     },
     {
-      "path": "corpus/libros/histos/01-pagina-legal.md",
-      "kind": "legal",
-      "heading": "### Lic. Y Mda. Ana Lucía Olvera Aguilar",
-      "start_line": 19,
-      "end_line": 38,
-      "start_byte": 419,
-      "end_byte": 1161
+      "path": "corpus/libros/histos/capitulo-p-1.md",
+      "kind": "capitulo",
+      "key": "P·1",
+      "heading": "### Capítulo P·1",
+      "start_line": 41,
+      "end_line": 218
     },
     {
-      "path": "corpus/libros/histos/capitulo-p-01.md",
-      "kind": "chapter",
-      "heading": "### Capítulo P·1\n",
-      "start_line": 39,
-      "end_line": 220,
-      "start_byte": 1161,
-      "end_byte": 29848
+      "path": "corpus/libros/histos/capitulo-p-2.md",
+      "kind": "capitulo",
+      "key": "P·2",
+      "heading": "### Capítulo P·2",
+      "start_line": 219,
+      "end_line": 458
     },
     {
-      "path": "corpus/libros/histos/capitulo-p-02.md",
-      "kind": "chapter",
-      "heading": "### Capítulo P·2\n",
-      "start_line": 221,
-      "end_line": 460,
-      "start_byte": 29848,
-      "end_byte": 62471
+      "path": "corpus/libros/histos/capitulo-p-3.md",
+      "kind": "capitulo",
+      "key": "P·3",
+      "heading": "### Capítulo P·3",
+      "start_line": 459,
+      "end_line": 642
     },
     {
-      "path": "corpus/libros/histos/capitulo-p-03.md",
-      "kind": "chapter",
-      "heading": "### Capítulo P·3\n",
-      "start_line": 461,
-      "end_line": 644,
-      "start_byte": 62471,
-      "end_byte": 85540
+      "path": "corpus/libros/histos/capitulo-p-4.md",
+      "kind": "capitulo",
+      "key": "P·4",
+      "heading": "### Capítulo P·4",
+      "start_line": 643,
+      "end_line": 832
     },
     {
-      "path": "corpus/libros/histos/capitulo-p-04.md",
-      "kind": "chapter",
-      "heading": "### Capítulo P·4\n",
-      "start_line": 645,
-      "end_line": 834,
-      "start_byte": 85540,
-      "end_byte": 110030
+      "path": "corpus/libros/histos/capitulo-p-5.md",
+      "kind": "capitulo",
+      "key": "P·5",
+      "heading": "### Capítulo P·5",
+      "start_line": 833,
+      "end_line": 1034
     },
     {
-      "path": "corpus/libros/histos/capitulo-p-05.md",
-      "kind": "chapter",
-      "heading": "### Capítulo P·5\n",
-      "start_line": 835,
-      "end_line": 1032,
-      "start_byte": 110030,
-      "end_byte": 133320
+      "path": "corpus/libros/histos/capitulo-01-01.md",
+      "kind": "capitulo",
+      "key": "I·1",
+      "heading": "### Capítulo I·1",
+      "start_line": 1035,
+      "end_line": 1284
     },
     {
-      "path": "corpus/libros/histos/capitulo-i-01.md",
-      "kind": "chapter",
-      "heading": "### Capítulo I·1\n",
-      "start_line": 1033,
-      "end_line": 1286,
-      "start_byte": 133320,
-      "end_byte": 165821
+      "path": "corpus/libros/histos/capitulo-01-02.md",
+      "kind": "capitulo",
+      "key": "I·2",
+      "heading": "### Capítulo I·2",
+      "start_line": 1285,
+      "end_line": 1548
     },
     {
-      "path": "corpus/libros/histos/capitulo-i-02.md",
-      "kind": "chapter",
-      "heading": "### Capítulo I·2\n",
-      "start_line": 1287,
-      "end_line": 1550,
-      "start_byte": 165821,
-      "end_byte": 198500
+      "path": "corpus/libros/histos/capitulo-01-03.md",
+      "kind": "capitulo",
+      "key": "I·3",
+      "heading": "### Capítulo I·3",
+      "start_line": 1549,
+      "end_line": 1844
     },
     {
-      "path": "corpus/libros/histos/capitulo-i-03.md",
-      "kind": "chapter",
-      "heading": "### Capítulo I·3\n",
-      "start_line": 1551,
-      "end_line": 1846,
-      "start_byte": 198500,
-      "end_byte": 231288
+      "path": "corpus/libros/histos/capitulo-01-04.md",
+      "kind": "capitulo",
+      "key": "I·4",
+      "heading": "### Capítulo I·4",
+      "start_line": 1845,
+      "end_line": 2068
     },
     {
-      "path": "corpus/libros/histos/capitulo-i-04.md",
-      "kind": "chapter",
-      "heading": "### Capítulo I·4\n",
-      "start_line": 1847,
-      "end_line": 2066,
-      "start_byte": 231288,
-      "end_byte": 256393
+      "path": "corpus/libros/histos/capitulo-02-01.md",
+      "kind": "capitulo",
+      "key": "II·1",
+      "heading": "### Capítulo II·1",
+      "start_line": 2069,
+      "end_line": 2330
     },
     {
-      "path": "corpus/libros/histos/capitulo-ii-01.md",
-      "kind": "chapter",
-      "heading": "### Capítulo II·1\n",
-      "start_line": 2067,
-      "end_line": 2332,
-      "start_byte": 256393,
-      "end_byte": 287187
+      "path": "corpus/libros/histos/capitulo-02-02.md",
+      "kind": "capitulo",
+      "key": "II·2",
+      "heading": "### Capítulo II·2",
+      "start_line": 2331,
+      "end_line": 2622
     },
     {
-      "path": "corpus/libros/histos/capitulo-ii-02.md",
-      "kind": "chapter",
-      "heading": "### Capítulo II·2\n",
-      "start_line": 2333,
-      "end_line": 2624,
-      "start_byte": 287187,
-      "end_byte": 323959
+      "path": "corpus/libros/histos/capitulo-02-03.md",
+      "kind": "capitulo",
+      "key": "II·3",
+      "heading": "### Capítulo II·3",
+      "start_line": 2623,
+      "end_line": 2916
     },
     {
-      "path": "corpus/libros/histos/capitulo-ii-03.md",
-      "kind": "chapter",
-      "heading": "### Capítulo II·3\n",
-      "start_line": 2625,
-      "end_line": 2918,
-      "start_byte": 323959,
-      "end_byte": 358215
+      "path": "corpus/libros/histos/capitulo-02-04.md",
+      "kind": "capitulo",
+      "key": "II·4",
+      "heading": "### Capítulo II·4",
+      "start_line": 2917,
+      "end_line": 3202
     },
     {
-      "path": "corpus/libros/histos/capitulo-ii-04.md",
-      "kind": "chapter",
-      "heading": "### Capítulo II·4\n",
-      "start_line": 2919,
-      "end_line": 3204,
-      "start_byte": 358215,
-      "end_byte": 390503
+      "path": "corpus/libros/histos/capitulo-02-05.md",
+      "kind": "capitulo",
+      "key": "II·5",
+      "heading": "### Capítulo II·5",
+      "start_line": 3203,
+      "end_line": 3438
     },
     {
-      "path": "corpus/libros/histos/capitulo-ii-05.md",
-      "kind": "chapter",
-      "heading": "### Capítulo II·5\n",
-      "start_line": 3205,
-      "end_line": 3440,
-      "start_byte": 390503,
-      "end_byte": 419353
+      "path": "corpus/libros/histos/capitulo-02-06.md",
+      "kind": "capitulo",
+      "key": "II·6",
+      "heading": "### Capítulo II·6",
+      "start_line": 3439,
+      "end_line": 3632
     },
     {
-      "path": "corpus/libros/histos/capitulo-ii-06.md",
-      "kind": "chapter",
-      "heading": "### Capítulo II·6\n",
-      "start_line": 3441,
-      "end_line": 3634,
-      "start_byte": 419353,
-      "end_byte": 443017
+      "path": "corpus/libros/histos/capitulo-02-07.md",
+      "kind": "capitulo",
+      "key": "II·7",
+      "heading": "### Capítulo II·7",
+      "start_line": 3633,
+      "end_line": 3842
     },
     {
-      "path": "corpus/libros/histos/capitulo-ii-07.md",
-      "kind": "chapter",
-      "heading": "### Capítulo II·7\n",
-      "start_line": 3635,
-      "end_line": 3840,
-      "start_byte": 443017,
-      "end_byte": 465996
+      "path": "corpus/libros/histos/capitulo-03-01.md",
+      "kind": "capitulo",
+      "key": "III·1",
+      "heading": "### Capítulo III·1",
+      "start_line": 3843,
+      "end_line": 4094
     },
     {
-      "path": "corpus/libros/histos/capitulo-iii-01.md",
-      "kind": "chapter",
-      "heading": "### Capítulo III·1\n",
-      "start_line": 3841,
-      "end_line": 4096,
-      "start_byte": 465996,
-      "end_byte": 494692
+      "path": "corpus/libros/histos/capitulo-03-02.md",
+      "kind": "capitulo",
+      "key": "III·2",
+      "heading": "### Capítulo III·2",
+      "start_line": 4095,
+      "end_line": 4364
     },
     {
-      "path": "corpus/libros/histos/capitulo-iii-02.md",
-      "kind": "chapter",
-      "heading": "### Capítulo III·2\n",
-      "start_line": 4097,
-      "end_line": 4366,
-      "start_byte": 494692,
-      "end_byte": 524193
+      "path": "corpus/libros/histos/capitulo-03-03.md",
+      "kind": "capitulo",
+      "key": "III·3",
+      "heading": "### Capítulo III·3",
+      "start_line": 4365,
+      "end_line": 4656
     },
     {
-      "path": "corpus/libros/histos/capitulo-iii-03.md",
-      "kind": "chapter",
-      "heading": "### Capítulo III·3\n",
-      "start_line": 4367,
-      "end_line": 4658,
-      "start_byte": 524193,
-      "end_byte": 555080
+      "path": "corpus/libros/histos/capitulo-03-04.md",
+      "kind": "capitulo",
+      "key": "III·4",
+      "heading": "### Capítulo III·4",
+      "start_line": 4657,
+      "end_line": 4912
     },
     {
-      "path": "corpus/libros/histos/capitulo-iii-04.md",
-      "kind": "chapter",
-      "heading": "### Capítulo III·4\n",
-      "start_line": 4659,
-      "end_line": 4914,
-      "start_byte": 555080,
-      "end_byte": 584552
+      "path": "corpus/libros/histos/capitulo-03-05.md",
+      "kind": "capitulo",
+      "key": "III·5",
+      "heading": "### Capítulo III·5",
+      "start_line": 4913,
+      "end_line": 5166
     },
     {
-      "path": "corpus/libros/histos/capitulo-iii-05.md",
-      "kind": "chapter",
-      "heading": "### Capítulo III·5\n",
-      "start_line": 4915,
-      "end_line": 5168,
-      "start_byte": 584552,
-      "end_byte": 613230
+      "path": "corpus/libros/histos/capitulo-03-06.md",
+      "kind": "capitulo",
+      "key": "III·6",
+      "heading": "### Capítulo III·6",
+      "start_line": 5167,
+      "end_line": 5406
     },
     {
-      "path": "corpus/libros/histos/capitulo-iii-06.md",
-      "kind": "chapter",
-      "heading": "### Capítulo III·6\n",
-      "start_line": 5169,
-      "end_line": 5408,
-      "start_byte": 613230,
-      "end_byte": 639826
+      "path": "corpus/libros/histos/capitulo-03-07.md",
+      "kind": "capitulo",
+      "key": "III·7",
+      "heading": "### Capítulo III·7",
+      "start_line": 5407,
+      "end_line": 5654
     },
     {
-      "path": "corpus/libros/histos/capitulo-iii-07.md",
-      "kind": "chapter",
-      "heading": "### Capítulo III·7\n",
-      "start_line": 5409,
-      "end_line": 5652,
-      "start_byte": 639826,
-      "end_byte": 667686
+      "path": "corpus/libros/histos/capitulo-04-01.md",
+      "kind": "capitulo",
+      "key": "IV·1",
+      "heading": "### Capítulo IV·1",
+      "start_line": 5655,
+      "end_line": 5874
     },
     {
-      "path": "corpus/libros/histos/capitulo-iv-01.md",
-      "kind": "chapter",
-      "heading": "### Capítulo IV·1\n",
-      "start_line": 5653,
-      "end_line": 5876,
-      "start_byte": 667686,
-      "end_byte": 693111
+      "path": "corpus/libros/histos/capitulo-04-02.md",
+      "kind": "capitulo",
+      "key": "IV·2",
+      "heading": "### Capítulo IV·2",
+      "start_line": 5875,
+      "end_line": 6142
     },
     {
-      "path": "corpus/libros/histos/capitulo-iv-02.md",
-      "kind": "chapter",
-      "heading": "### Capítulo IV·2\n",
-      "start_line": 5877,
-      "end_line": 6144,
-      "start_byte": 693111,
-      "end_byte": 720986
+      "path": "corpus/libros/histos/capitulo-04-03.md",
+      "kind": "capitulo",
+      "key": "IV·3",
+      "heading": "### Capítulo IV·3",
+      "start_line": 6143,
+      "end_line": 6376
     },
     {
-      "path": "corpus/libros/histos/capitulo-iv-03.md",
-      "kind": "chapter",
-      "heading": "### Capítulo IV·3\n",
-      "start_line": 6145,
-      "end_line": 6378,
-      "start_byte": 720986,
-      "end_byte": 750176
+      "path": "corpus/libros/histos/capitulo-04-04.md",
+      "kind": "capitulo",
+      "key": "IV·4",
+      "heading": "### Capítulo IV·4",
+      "start_line": 6377,
+      "end_line": 6616
     },
     {
-      "path": "corpus/libros/histos/capitulo-iv-04.md",
-      "kind": "chapter",
-      "heading": "### Capítulo IV·4\n",
-      "start_line": 6379,
-      "end_line": 6618,
-      "start_byte": 750176,
-      "end_byte": 778834
+      "path": "corpus/libros/histos/capitulo-04-05.md",
+      "kind": "capitulo",
+      "key": "IV·5",
+      "heading": "### Capítulo IV·5",
+      "start_line": 6617,
+      "end_line": 6856
     },
     {
-      "path": "corpus/libros/histos/capitulo-iv-05.md",
-      "kind": "chapter",
-      "heading": "### Capítulo IV·5\n",
-      "start_line": 6619,
-      "end_line": 6858,
-      "start_byte": 778834,
-      "end_byte": 807277
+      "path": "corpus/libros/histos/capitulo-04-06.md",
+      "kind": "capitulo",
+      "key": "IV·6",
+      "heading": "### Capítulo IV·6",
+      "start_line": 6857,
+      "end_line": 7070
     },
     {
-      "path": "corpus/libros/histos/capitulo-iv-06.md",
-      "kind": "chapter",
-      "heading": "### Capítulo IV·6\n",
-      "start_line": 6859,
-      "end_line": 7068,
-      "start_byte": 807277,
-      "end_byte": 832936
+      "path": "corpus/libros/histos/capitulo-05-01.md",
+      "kind": "capitulo",
+      "key": "V·1",
+      "heading": "### Capítulo V·1",
+      "start_line": 7071,
+      "end_line": 7288
     },
     {
-      "path": "corpus/libros/histos/capitulo-v-01.md",
-      "kind": "chapter",
-      "heading": "### Capítulo V·1\n",
-      "start_line": 7069,
-      "end_line": 7290,
-      "start_byte": 832936,
-      "end_byte": 856389
+      "path": "corpus/libros/histos/capitulo-05-02.md",
+      "kind": "capitulo",
+      "key": "V·2",
+      "heading": "### Capítulo V·2",
+      "start_line": 7289,
+      "end_line": 7526
     },
     {
-      "path": "corpus/libros/histos/capitulo-v-02.md",
-      "kind": "chapter",
-      "heading": "### Capítulo V·2\n",
-      "start_line": 7291,
-      "end_line": 7528,
-      "start_byte": 856389,
-      "end_byte": 881260
+      "path": "corpus/libros/histos/capitulo-05-03.md",
+      "kind": "capitulo",
+      "key": "V·3",
+      "heading": "### Capítulo V·3",
+      "start_line": 7527,
+      "end_line": 7750
     },
     {
-      "path": "corpus/libros/histos/capitulo-v-03.md",
-      "kind": "chapter",
-      "heading": "### Capítulo V·3\n",
-      "start_line": 7529,
-      "end_line": 7752,
-      "start_byte": 881260,
-      "end_byte": 904719
+      "path": "corpus/libros/histos/capitulo-05-04.md",
+      "kind": "capitulo",
+      "key": "V·4",
+      "heading": "### Capítulo V·4",
+      "start_line": 7751,
+      "end_line": 7920
     },
     {
-      "path": "corpus/libros/histos/capitulo-v-04.md",
-      "kind": "chapter",
-      "heading": "### Capítulo V·4\n",
-      "start_line": 7753,
-      "end_line": 7918,
-      "start_byte": 904719,
-      "end_byte": 925325
+      "path": "corpus/libros/histos/capitulo-06-01.md",
+      "kind": "capitulo",
+      "key": "VI·1",
+      "heading": "### Capítulo VI·1",
+      "start_line": 7921,
+      "end_line": 8088
     },
     {
-      "path": "corpus/libros/histos/capitulo-vi-01.md",
-      "kind": "chapter",
-      "heading": "### Capítulo VI·1\n",
-      "start_line": 7919,
-      "end_line": 8090,
-      "start_byte": 925325,
-      "end_byte": 944308
+      "path": "corpus/libros/histos/capitulo-06-02.md",
+      "kind": "capitulo",
+      "key": "VI·2",
+      "heading": "### Capítulo VI·2",
+      "start_line": 8089,
+      "end_line": 8248
     },
     {
-      "path": "corpus/libros/histos/capitulo-vi-02.md",
-      "kind": "chapter",
-      "heading": "### Capítulo VI·2\n",
-      "start_line": 8091,
-      "end_line": 8250,
-      "start_byte": 944308,
-      "end_byte": 964657
+      "path": "corpus/libros/histos/capitulo-06-03.md",
+      "kind": "capitulo",
+      "key": "VI·3",
+      "heading": "### Capítulo VI·3",
+      "start_line": 8249,
+      "end_line": 8448
     },
     {
-      "path": "corpus/libros/histos/capitulo-vi-03.md",
-      "kind": "chapter",
-      "heading": "### Capítulo VI·3\n",
-      "start_line": 8251,
-      "end_line": 8450,
-      "start_byte": 964657,
-      "end_byte": 986370
+      "path": "corpus/libros/histos/capitulo-06-04.md",
+      "kind": "capitulo",
+      "key": "VI·4",
+      "heading": "### Capítulo VI·4",
+      "start_line": 8449,
+      "end_line": 8580
     },
     {
-      "path": "corpus/libros/histos/capitulo-vi-04.md",
-      "kind": "chapter",
-      "heading": "### Capítulo VI·4\n",
-      "start_line": 8451,
-      "end_line": 8578,
-      "start_byte": 986370,
-      "end_byte": 1002624
+      "path": "corpus/libros/histos/capitulo-07-01.md",
+      "kind": "capitulo",
+      "key": "VII·1",
+      "heading": "### Capítulo VII·1",
+      "start_line": 8581,
+      "end_line": 8780
     },
     {
-      "path": "corpus/libros/histos/capitulo-vii-01.md",
-      "kind": "chapter",
-      "heading": "### Capítulo VII·1\n",
-      "start_line": 8579,
-      "end_line": 8782,
-      "start_byte": 1002624,
-      "end_byte": 1024042
+      "path": "corpus/libros/histos/capitulo-07-02.md",
+      "kind": "capitulo",
+      "key": "VII·2",
+      "heading": "### Capítulo VII·2",
+      "start_line": 8781,
+      "end_line": 8992
     },
     {
-      "path": "corpus/libros/histos/capitulo-vii-02.md",
-      "kind": "chapter",
-      "heading": "### Capítulo VII·2\n",
-      "start_line": 8783,
-      "end_line": 8994,
-      "start_byte": 1024042,
-      "end_byte": 1049760
+      "path": "corpus/libros/histos/capitulo-07-03.md",
+      "kind": "capitulo",
+      "key": "VII·3",
+      "heading": "### Capítulo VII·3",
+      "start_line": 8993,
+      "end_line": 9208
     },
     {
-      "path": "corpus/libros/histos/capitulo-vii-03.md",
-      "kind": "chapter",
-      "heading": "### Capítulo VII·3\n",
-      "start_line": 8995,
-      "end_line": 9210,
-      "start_byte": 1049760,
-      "end_byte": 1072894
-    },
-    {
-      "path": "corpus/libros/histos/capitulo-vii-04.md",
-      "kind": "chapter",
-      "heading": "### Capítulo VII·4\n",
-      "start_line": 9211,
-      "end_line": 9432,
-      "start_byte": 1072894,
-      "end_byte": 1098371
-    },
-    {
-      "path": "corpus/libros/histos/notas-al-pie.md",
-      "kind": "author_notes",
-      "heading": "## Notas al pie",
-      "start_line": 9433,
-      "end_line": 9437,
-      "start_byte": 1098371,
-      "end_byte": 1098423
+      "path": "corpus/libros/histos/capitulo-07-04.md",
+      "kind": "capitulo",
+      "key": "VII·4",
+      "heading": "### Capítulo VII·4",
+      "start_line": 9209,
+      "end_line": 9436
     }
   ]
 }

@@ -96,7 +96,7 @@ Declarar módulo no evaluable. Nota obligatoria con la causa específica. No asi
 
 ### La distinción H-1 /… — ausencia de señal vs. imposibilidad de evaluar
 
-La distinción entre H-1 e imposibilidad de evaluar es técnicamente importante. H-1 significa que la administración completa o un SKIP expresamente autorizado no produjo señal: hay información negativa. «?» significa que el módulo no pudo evaluarse: no hay
+La distinción entre H-1 e imposibilidad de evaluar es técnicamente importante y operativamente frecuente. H-1 significa que el módulo se administró completo y no produjo señal: hay información negativa; significa que el módulo no pudo evaluarse: no hay
 
 Entrevista Clínica Ontológica · ECO
 
@@ -104,7 +104,7 @@ información de ningún tipo. Tratar H-1 como una imposibilidad de evaluar produ
 
 Un ejemplo de cada caso: el sujeto que respondió todas las preguntas del módulo Potós con narrativa clara y ninguna de sus respuestas mostró señal de orientación al ausente produce H-1. El sujeto que interrumpió la sesión después de la pregunta ancla del módulo Potós sin que el mediador pudiera continuar produce imposibilidad para evaluar para ese módulo. En el primero hay información: no hay señal de Potós. En el segundo no hay información: el módulo no pudo evaluarse.
 
-H-1 vs. imposibilidad de evaluar — dos ausencias que no son lo mismo. H-1: el módulo se administró completo o se aplicó un SKIP autorizado con las comprobaciones previstas y la señal no estuvo; es información negativa (P(Hijo) = 0 para ese módulo en esta sesión). «?»: el módulo no pudo evaluarse; no es información negativa y no permite asignar peso, ni siquiera cero.
+H-1 vs imposibilidad de evaluar — dos ausencias que no son lo mismo H-1: el módulo se administró completo y la señal no estuvo. Es información negativa — P(Hijo) = 0 para ese módulo desde esta sesión. ?: el módulo no pudo evaluarse. No es información negativa: es ausencia de información. No permite asignar ningún peso, ni cero.
 
 ### IV.  Tabla EP — escala de evidencia personal
 

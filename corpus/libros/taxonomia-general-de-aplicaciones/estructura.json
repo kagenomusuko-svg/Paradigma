@@ -5,867 +5,670 @@
   "sha256": "56b3c91a48385095a10f39782dbe7bf783bb140d1e3ca586667596911897ca04",
   "collection": "Metrología Causal",
   "volume": null,
-  "source_anomalies": [
-    "El texto contiene 41 referencias explícitas a calibración empírica pendiente de rangos y propuestas por dominio; conservarlas y resolver en la revisión editorial si describen calibración ya completada o tareas aún abiertas.",
-    "En los capítulos de derecho penal/civil y ambiental aparece Δ_i = R*_i − α_i (y Δ_i = φ_i − α_i en el tratamiento de Shapley). α se presenta también como un rango de 0 a 1; revisar consistencia con la definición de Metrología Causal II·14, Δ_i = R*_i × (1 − α_i). El PDF coincide con la fuente; no es una corrupción de copia."
-  ],
-  "segmentation_rule": "Descomposición exacta de la fuente en portadilla, página legal, comité elaborador, índice general y 82 capítulos. La concatenación en el orden de segmentos reproduce corpus/fuentes sin modificar el contenido.",
+  "source_anomalies": [],
+  "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
   "segments": [
     {
-      "path": "corpus/libros/taxonomia-general-de-aplicaciones/00-portadilla.md",
-      "kind": "cover",
-      "heading": "### Taxonomía",
+      "path": "corpus/libros/taxonomia-general-de-aplicaciones/00-preliminares.md",
+      "kind": "preliminares",
       "start_line": 1,
-      "end_line": 19,
-      "start_byte": 0,
-      "end_byte": 410
-    },
-    {
-      "path": "corpus/libros/taxonomia-general-de-aplicaciones/01-pagina-legal.md",
-      "kind": "legal",
-      "heading": "Primera edición: 2026",
-      "start_line": 19,
-      "end_line": 31,
-      "start_byte": 410,
-      "end_byte": 1008
-    },
-    {
-      "path": "corpus/libros/taxonomia-general-de-aplicaciones/02-comite-elaborador.md",
-      "kind": "credits",
-      "heading": "Comité elaborador",
-      "start_line": 31,
-      "end_line": 39,
-      "start_byte": 1008,
-      "end_byte": 1137
-    },
-    {
-      "path": "corpus/libros/taxonomia-general-de-aplicaciones/03-indice-general.md",
-      "kind": "index",
-      "heading": "### Índice General",
-      "start_line": 39,
-      "end_line": 115,
-      "start_byte": 1137,
-      "end_byte": 8637
+      "end_line": 114
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-u-01.md",
       "kind": "capitulo",
+      "key": "U·1",
       "heading": "### Capítulo U·1",
       "start_line": 115,
-      "end_line": 529,
-      "start_byte": 8637,
-      "end_byte": 30006,
-      "key": "U·1"
+      "end_line": 528
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-u-02.md",
       "kind": "capitulo",
+      "key": "U·2",
       "heading": "### Capítulo U·2",
       "start_line": 529,
-      "end_line": 745,
-      "start_byte": 30006,
-      "end_byte": 48236,
-      "key": "U·2"
+      "end_line": 744
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-u-03.md",
       "kind": "capitulo",
+      "key": "U·3",
       "heading": "### Capítulo U·3",
       "start_line": 745,
-      "end_line": 1075,
-      "start_byte": 48236,
-      "end_byte": 68078,
-      "key": "U·3"
+      "end_line": 1074
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-u-04.md",
       "kind": "capitulo",
+      "key": "U·4",
       "heading": "### Capítulo U·4",
       "start_line": 1075,
-      "end_line": 1319,
-      "start_byte": 68078,
-      "end_byte": 87992,
-      "key": "U·4"
+      "end_line": 1318
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-01.md",
       "kind": "capitulo",
+      "key": "1",
       "heading": "## Capítulo 1",
       "start_line": 1319,
-      "end_line": 2359,
-      "start_byte": 87992,
-      "end_byte": 131734,
-      "key": "1"
+      "end_line": 2358
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-02.md",
       "kind": "capitulo",
+      "key": "2",
       "heading": "## Capítulo 2",
       "start_line": 2359,
-      "end_line": 3517,
-      "start_byte": 131734,
-      "end_byte": 187497,
-      "key": "2"
+      "end_line": 3516
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-03.md",
       "kind": "capitulo",
+      "key": "3",
       "heading": "## Capítulo 3",
       "start_line": 3517,
-      "end_line": 4721,
-      "start_byte": 187497,
-      "end_byte": 250886,
-      "key": "3"
+      "end_line": 4720
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-04.md",
       "kind": "capitulo",
+      "key": "4",
       "heading": "## Capítulo 4",
       "start_line": 4721,
-      "end_line": 5853,
-      "start_byte": 250886,
-      "end_byte": 307254,
-      "key": "4"
+      "end_line": 5852
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-05.md",
       "kind": "capitulo",
+      "key": "5",
       "heading": "## Capítulo 5",
       "start_line": 5853,
-      "end_line": 6987,
-      "start_byte": 307254,
-      "end_byte": 363270,
-      "key": "5"
+      "end_line": 6986
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-06.md",
       "kind": "capitulo",
+      "key": "6",
       "heading": "## Capítulo 6",
       "start_line": 6987,
-      "end_line": 8069,
-      "start_byte": 363270,
-      "end_byte": 417256,
-      "key": "6"
+      "end_line": 8068
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-07.md",
       "kind": "capitulo",
+      "key": "7",
       "heading": "## Capítulo 7",
       "start_line": 8069,
-      "end_line": 9125,
-      "start_byte": 417256,
-      "end_byte": 468332,
-      "key": "7"
+      "end_line": 9124
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-08.md",
       "kind": "capitulo",
+      "key": "8",
       "heading": "## Capítulo 8",
       "start_line": 9125,
-      "end_line": 10167,
-      "start_byte": 468332,
-      "end_byte": 523311,
-      "key": "8"
+      "end_line": 10166
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-09.md",
       "kind": "capitulo",
+      "key": "9",
       "heading": "## Capítulo 9",
       "start_line": 10167,
-      "end_line": 11221,
-      "start_byte": 523311,
-      "end_byte": 579705,
-      "key": "9"
+      "end_line": 11220
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-10.md",
       "kind": "capitulo",
+      "key": "10",
       "heading": "## Capítulo 10",
       "start_line": 11221,
-      "end_line": 12373,
-      "start_byte": 579705,
-      "end_byte": 637275,
-      "key": "10"
+      "end_line": 12372
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-11.md",
       "kind": "capitulo",
+      "key": "11",
       "heading": "## Capítulo 11",
       "start_line": 12373,
-      "end_line": 13431,
-      "start_byte": 637275,
-      "end_byte": 690717,
-      "key": "11"
+      "end_line": 13430
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-12.md",
       "kind": "capitulo",
+      "key": "12",
       "heading": "## Capítulo 12",
       "start_line": 13431,
-      "end_line": 14601,
-      "start_byte": 690717,
-      "end_byte": 748325,
-      "key": "12"
+      "end_line": 14600
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-13.md",
       "kind": "capitulo",
+      "key": "13",
       "heading": "## Capítulo 13",
       "start_line": 14601,
-      "end_line": 15721,
-      "start_byte": 748325,
-      "end_byte": 805614,
-      "key": "13"
+      "end_line": 15720
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-14.md",
       "kind": "capitulo",
+      "key": "14",
       "heading": "## Capítulo 14",
       "start_line": 15721,
-      "end_line": 16959,
-      "start_byte": 805614,
-      "end_byte": 862222,
-      "key": "14"
+      "end_line": 16958
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-15.md",
       "kind": "capitulo",
+      "key": "15",
       "heading": "## Capítulo 15",
       "start_line": 16959,
-      "end_line": 17901,
-      "start_byte": 862222,
-      "end_byte": 913302,
-      "key": "15"
+      "end_line": 17900
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-16.md",
       "kind": "capitulo",
+      "key": "16",
       "heading": "## Capítulo 16",
       "start_line": 17901,
-      "end_line": 18893,
-      "start_byte": 913302,
-      "end_byte": 964331,
-      "key": "16"
+      "end_line": 18892
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-17.md",
       "kind": "capitulo",
+      "key": "17",
       "heading": "## Capítulo 17",
       "start_line": 18893,
-      "end_line": 19993,
-      "start_byte": 964331,
-      "end_byte": 1021401,
-      "key": "17"
+      "end_line": 19992
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-18.md",
       "kind": "capitulo",
+      "key": "18",
       "heading": "## Capítulo 18",
       "start_line": 19993,
-      "end_line": 21159,
-      "start_byte": 1021401,
-      "end_byte": 1080850,
-      "key": "18"
+      "end_line": 21158
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-19.md",
       "kind": "capitulo",
+      "key": "19",
       "heading": "## Capítulo 19",
       "start_line": 21159,
-      "end_line": 22431,
-      "start_byte": 1080850,
-      "end_byte": 1143450,
-      "key": "19"
+      "end_line": 22430
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-20.md",
       "kind": "capitulo",
+      "key": "20",
       "heading": "## Capítulo 20",
       "start_line": 22431,
-      "end_line": 23685,
-      "start_byte": 1143450,
-      "end_byte": 1205293,
-      "key": "20"
+      "end_line": 23684
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-21.md",
       "kind": "capitulo",
+      "key": "21",
       "heading": "## Capítulo 21",
       "start_line": 23685,
-      "end_line": 24883,
-      "start_byte": 1205293,
-      "end_byte": 1262229,
-      "key": "21"
+      "end_line": 24882
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-22.md",
       "kind": "capitulo",
+      "key": "22",
       "heading": "## Capítulo 22",
       "start_line": 24883,
-      "end_line": 25819,
-      "start_byte": 1262229,
-      "end_byte": 1307881,
-      "key": "22"
+      "end_line": 25818
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-23.md",
       "kind": "capitulo",
+      "key": "23",
       "heading": "## Capítulo 23",
       "start_line": 25819,
-      "end_line": 26843,
-      "start_byte": 1307881,
-      "end_byte": 1360008,
-      "key": "23"
+      "end_line": 26842
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-24.md",
       "kind": "capitulo",
+      "key": "24",
       "heading": "## Capítulo 24",
       "start_line": 26843,
-      "end_line": 27921,
-      "start_byte": 1360008,
-      "end_byte": 1419755,
-      "key": "24"
+      "end_line": 27920
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-25.md",
       "kind": "capitulo",
+      "key": "25",
       "heading": "## Capítulo 25",
       "start_line": 27921,
-      "end_line": 28965,
-      "start_byte": 1419755,
-      "end_byte": 1479645,
-      "key": "25"
+      "end_line": 28964
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-26.md",
       "kind": "capitulo",
+      "key": "26",
       "heading": "## Capítulo 26",
       "start_line": 28965,
-      "end_line": 30081,
-      "start_byte": 1479645,
-      "end_byte": 1540688,
-      "key": "26"
+      "end_line": 30080
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-27.md",
       "kind": "capitulo",
+      "key": "27",
       "heading": "## Capítulo 27",
       "start_line": 30081,
-      "end_line": 31249,
-      "start_byte": 1540688,
-      "end_byte": 1602823,
-      "key": "27"
+      "end_line": 31248
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-28.md",
       "kind": "capitulo",
+      "key": "28",
       "heading": "## Capítulo 28",
       "start_line": 31249,
-      "end_line": 32361,
-      "start_byte": 1602823,
-      "end_byte": 1663606,
-      "key": "28"
+      "end_line": 32360
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-29.md",
       "kind": "capitulo",
+      "key": "29",
       "heading": "## Capítulo 29",
       "start_line": 32361,
-      "end_line": 33481,
-      "start_byte": 1663606,
-      "end_byte": 1728897,
-      "key": "29"
+      "end_line": 33480
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-30.md",
       "kind": "capitulo",
+      "key": "30",
       "heading": "## Capítulo 30",
       "start_line": 33481,
-      "end_line": 34735,
-      "start_byte": 1728897,
-      "end_byte": 1796770,
-      "key": "30"
+      "end_line": 34734
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-31.md",
       "kind": "capitulo",
+      "key": "31",
       "heading": "## Capítulo 31",
       "start_line": 34735,
-      "end_line": 35989,
-      "start_byte": 1796770,
-      "end_byte": 1866938,
-      "key": "31"
+      "end_line": 35988
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-32.md",
       "kind": "capitulo",
+      "key": "32",
       "heading": "## Capítulo 32",
       "start_line": 35989,
-      "end_line": 37295,
-      "start_byte": 1866938,
-      "end_byte": 1937513,
-      "key": "32"
+      "end_line": 37294
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-33.md",
       "kind": "capitulo",
+      "key": "33",
       "heading": "## Capítulo 33",
       "start_line": 37295,
-      "end_line": 38393,
-      "start_byte": 1937513,
-      "end_byte": 1999957,
-      "key": "33"
+      "end_line": 38392
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-34.md",
       "kind": "capitulo",
+      "key": "34",
       "heading": "## Capítulo 34",
       "start_line": 38393,
-      "end_line": 39685,
-      "start_byte": 1999957,
-      "end_byte": 2066319,
-      "key": "34"
+      "end_line": 39684
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-35.md",
       "kind": "capitulo",
+      "key": "35",
       "heading": "## Capítulo 35",
       "start_line": 39685,
-      "end_line": 40719,
-      "start_byte": 2066319,
-      "end_byte": 2124975,
-      "key": "35"
+      "end_line": 40718
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-36.md",
       "kind": "capitulo",
+      "key": "36",
       "heading": "## Capítulo 36",
       "start_line": 40719,
-      "end_line": 41913,
-      "start_byte": 2124975,
-      "end_byte": 2185501,
-      "key": "36"
+      "end_line": 41912
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-37.md",
       "kind": "capitulo",
+      "key": "37",
       "heading": "## Capítulo 37",
       "start_line": 41913,
-      "end_line": 42879,
-      "start_byte": 2185501,
-      "end_byte": 2242449,
-      "key": "37"
+      "end_line": 42878
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-38.md",
       "kind": "capitulo",
+      "key": "38",
       "heading": "## Capítulo 38",
       "start_line": 42879,
-      "end_line": 44085,
-      "start_byte": 2242449,
-      "end_byte": 2307411,
-      "key": "38"
+      "end_line": 44084
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-39.md",
       "kind": "capitulo",
+      "key": "39",
       "heading": "## Capítulo 39",
       "start_line": 44085,
-      "end_line": 45317,
-      "start_byte": 2307411,
-      "end_byte": 2368625,
-      "key": "39"
+      "end_line": 45316
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-40.md",
       "kind": "capitulo",
+      "key": "40",
       "heading": "## Capítulo 40",
       "start_line": 45317,
-      "end_line": 46429,
-      "start_byte": 2368625,
-      "end_byte": 2427101,
-      "key": "40"
+      "end_line": 46428
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-41.md",
       "kind": "capitulo",
+      "key": "41",
       "heading": "## Capítulo 41",
       "start_line": 46429,
-      "end_line": 47533,
-      "start_byte": 2427101,
-      "end_byte": 2483442,
-      "key": "41"
+      "end_line": 47532
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-42.md",
       "kind": "capitulo",
+      "key": "42",
       "heading": "## Capítulo 42",
       "start_line": 47533,
-      "end_line": 48599,
-      "start_byte": 2483442,
-      "end_byte": 2546177,
-      "key": "42"
+      "end_line": 48598
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-43.md",
       "kind": "capitulo",
+      "key": "43",
       "heading": "## Capítulo 43",
       "start_line": 48599,
-      "end_line": 49505,
-      "start_byte": 2546177,
-      "end_byte": 2595746,
-      "key": "43"
+      "end_line": 49504
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-44.md",
       "kind": "capitulo",
+      "key": "44",
       "heading": "## Capítulo 44",
       "start_line": 49505,
-      "end_line": 50417,
-      "start_byte": 2595746,
-      "end_byte": 2647179,
-      "key": "44"
+      "end_line": 50416
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-45.md",
       "kind": "capitulo",
+      "key": "45",
       "heading": "## Capítulo 45",
       "start_line": 50417,
-      "end_line": 51381,
-      "start_byte": 2647179,
-      "end_byte": 2697985,
-      "key": "45"
+      "end_line": 51380
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-46.md",
       "kind": "capitulo",
+      "key": "46",
       "heading": "## Capítulo 46",
       "start_line": 51381,
-      "end_line": 51983,
-      "start_byte": 2697985,
-      "end_byte": 2729748,
-      "key": "46"
+      "end_line": 51982
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-47.md",
       "kind": "capitulo",
+      "key": "47",
       "heading": "## Capítulo 47",
       "start_line": 51983,
-      "end_line": 52773,
-      "start_byte": 2729748,
-      "end_byte": 2776958,
-      "key": "47"
+      "end_line": 52772
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-48.md",
       "kind": "capitulo",
+      "key": "48",
       "heading": "## Capítulo 48",
       "start_line": 52773,
-      "end_line": 53367,
-      "start_byte": 2776958,
-      "end_byte": 2808653,
-      "key": "48"
+      "end_line": 53366
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-49.md",
       "kind": "capitulo",
+      "key": "49",
       "heading": "## Capítulo 49",
       "start_line": 53367,
-      "end_line": 54441,
-      "start_byte": 2808653,
-      "end_byte": 2870598,
-      "key": "49"
+      "end_line": 54440
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-50.md",
       "kind": "capitulo",
+      "key": "50",
       "heading": "## Capítulo 50",
       "start_line": 54441,
-      "end_line": 54633,
-      "start_byte": 2870598,
-      "end_byte": 2881072,
-      "key": "50"
+      "end_line": 54632
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-51.md",
       "kind": "capitulo",
+      "key": "51",
       "heading": "## Capítulo 51",
       "start_line": 54633,
-      "end_line": 54791,
-      "start_byte": 2881072,
-      "end_byte": 2888788,
-      "key": "51"
+      "end_line": 54790
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-52.md",
       "kind": "capitulo",
+      "key": "52",
       "heading": "## Capítulo 52",
       "start_line": 54791,
-      "end_line": 54943,
-      "start_byte": 2888788,
-      "end_byte": 2897047,
-      "key": "52"
+      "end_line": 54942
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-53.md",
       "kind": "capitulo",
+      "key": "53",
       "heading": "## Capítulo 53",
       "start_line": 54943,
-      "end_line": 55051,
-      "start_byte": 2897047,
-      "end_byte": 2904229,
-      "key": "53"
+      "end_line": 55050
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-54.md",
       "kind": "capitulo",
+      "key": "54",
       "heading": "## Capítulo 54",
       "start_line": 55051,
-      "end_line": 55297,
-      "start_byte": 2904229,
-      "end_byte": 2916962,
-      "key": "54"
+      "end_line": 55296
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-55.md",
       "kind": "capitulo",
+      "key": "55",
       "heading": "## Capítulo 55",
       "start_line": 55297,
-      "end_line": 55769,
-      "start_byte": 2916962,
-      "end_byte": 2943844,
-      "key": "55"
+      "end_line": 55768
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-56.md",
       "kind": "capitulo",
+      "key": "56",
       "heading": "## Capítulo 56",
       "start_line": 55769,
-      "end_line": 56077,
-      "start_byte": 2943844,
-      "end_byte": 2961655,
-      "key": "56"
+      "end_line": 56076
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-57.md",
       "kind": "capitulo",
+      "key": "57",
       "heading": "## Capítulo 57",
       "start_line": 56077,
-      "end_line": 56403,
-      "start_byte": 2961655,
-      "end_byte": 2977402,
-      "key": "57"
+      "end_line": 56402
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-58.md",
       "kind": "capitulo",
+      "key": "58",
       "heading": "## Capítulo 58",
       "start_line": 56403,
-      "end_line": 56699,
-      "start_byte": 2977402,
-      "end_byte": 2992973,
-      "key": "58"
+      "end_line": 56698
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-59.md",
       "kind": "capitulo",
+      "key": "59",
       "heading": "## Capítulo 59",
       "start_line": 56699,
-      "end_line": 57501,
-      "start_byte": 2992973,
-      "end_byte": 3037712,
-      "key": "59"
+      "end_line": 57500
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-60.md",
       "kind": "capitulo",
+      "key": "60",
       "heading": "## Capítulo 60",
       "start_line": 57501,
-      "end_line": 58031,
-      "start_byte": 3037712,
-      "end_byte": 3071248,
-      "key": "60"
+      "end_line": 58030
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-61.md",
       "kind": "capitulo",
+      "key": "61",
       "heading": "## Capítulo 61",
       "start_line": 58031,
-      "end_line": 58467,
-      "start_byte": 3071248,
-      "end_byte": 3095081,
-      "key": "61"
+      "end_line": 58466
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-62.md",
       "kind": "capitulo",
+      "key": "62",
       "heading": "## Capítulo 62",
       "start_line": 58467,
-      "end_line": 58841,
-      "start_byte": 3095081,
-      "end_byte": 3113438,
-      "key": "62"
+      "end_line": 58840
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-63.md",
       "kind": "capitulo",
+      "key": "63",
       "heading": "## Capítulo 63",
       "start_line": 58841,
-      "end_line": 59173,
-      "start_byte": 3113438,
-      "end_byte": 3133160,
-      "key": "63"
+      "end_line": 59172
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-64.md",
       "kind": "capitulo",
+      "key": "64",
       "heading": "## Capítulo 64",
       "start_line": 59173,
-      "end_line": 59571,
-      "start_byte": 3133160,
-      "end_byte": 3156383,
-      "key": "64"
+      "end_line": 59570
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-65.md",
       "kind": "capitulo",
+      "key": "65",
       "heading": "## Capítulo 65",
       "start_line": 59571,
-      "end_line": 59803,
-      "start_byte": 3156383,
-      "end_byte": 3170501,
-      "key": "65"
+      "end_line": 59802
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-66.md",
       "kind": "capitulo",
+      "key": "66",
       "heading": "## Capítulo 66",
       "start_line": 59803,
-      "end_line": 60055,
-      "start_byte": 3170501,
-      "end_byte": 3183984,
-      "key": "66"
+      "end_line": 60054
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-67.md",
       "kind": "capitulo",
+      "key": "67",
       "heading": "## Capítulo 67",
       "start_line": 60055,
-      "end_line": 60287,
-      "start_byte": 3183984,
-      "end_byte": 3199481,
-      "key": "67"
+      "end_line": 60286
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-68.md",
       "kind": "capitulo",
+      "key": "68",
       "heading": "## Capítulo 68",
       "start_line": 60287,
-      "end_line": 60553,
-      "start_byte": 3199481,
-      "end_byte": 3216119,
-      "key": "68"
+      "end_line": 60552
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-69.md",
       "kind": "capitulo",
+      "key": "69",
       "heading": "## Capítulo 69",
       "start_line": 60553,
-      "end_line": 60789,
-      "start_byte": 3216119,
-      "end_byte": 3231549,
-      "key": "69"
+      "end_line": 60788
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-70.md",
       "kind": "capitulo",
+      "key": "70",
       "heading": "## Capítulo 70",
       "start_line": 60789,
-      "end_line": 61015,
-      "start_byte": 3231549,
-      "end_byte": 3247167,
-      "key": "70"
+      "end_line": 61014
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-71.md",
       "kind": "capitulo",
+      "key": "71",
       "heading": "## Capítulo 71",
       "start_line": 61015,
-      "end_line": 61275,
-      "start_byte": 3247167,
-      "end_byte": 3262536,
-      "key": "71"
+      "end_line": 61274
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-72.md",
       "kind": "capitulo",
+      "key": "72",
       "heading": "## Capítulo 72",
       "start_line": 61275,
-      "end_line": 61629,
-      "start_byte": 3262536,
-      "end_byte": 3281036,
-      "key": "72"
+      "end_line": 61628
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-73.md",
       "kind": "capitulo",
+      "key": "73",
       "heading": "## Capítulo 73",
       "start_line": 61629,
-      "end_line": 61919,
-      "start_byte": 3281036,
-      "end_byte": 3295987,
-      "key": "73"
+      "end_line": 61918
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-74.md",
       "kind": "capitulo",
+      "key": "74",
       "heading": "## Capítulo 74",
       "start_line": 61919,
-      "end_line": 62135,
-      "start_byte": 3295987,
-      "end_byte": 3307319,
-      "key": "74"
+      "end_line": 62134
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-75.md",
       "kind": "capitulo",
+      "key": "75",
       "heading": "## Capítulo 75",
       "start_line": 62135,
-      "end_line": 62403,
-      "start_byte": 3307319,
-      "end_byte": 3321403,
-      "key": "75"
+      "end_line": 62402
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-76.md",
       "kind": "capitulo",
+      "key": "76",
       "heading": "## Capítulo 76",
       "start_line": 62403,
-      "end_line": 62661,
-      "start_byte": 3321403,
-      "end_byte": 3338797,
-      "key": "76"
+      "end_line": 62660
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-77.md",
       "kind": "capitulo",
+      "key": "77",
       "heading": "## Capítulo 77",
       "start_line": 62661,
-      "end_line": 62841,
-      "start_byte": 3338797,
-      "end_byte": 3352390,
-      "key": "77"
+      "end_line": 62840
     },
     {
       "path": "corpus/libros/taxonomia-general-de-aplicaciones/capitulo-78.md",
       "kind": "capitulo",
+      "key": "78",
       "heading": "## Capítulo 78",
       "start_line": 62841,
-      "end_line": 63086,
-      "start_byte": 3352390,
-      "end_byte": 3369772,
-      "key": "78"
+      "end_line": 63085
     }
   ]
 }

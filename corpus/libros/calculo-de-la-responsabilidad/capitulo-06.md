@@ -1,3 +1,5 @@
+PARTE II · CIENCIAS DE LA SALUD
+
 ### Capítulo 6 Epidemiología
 
 Más allá del R₀: el peso causal de transmisión y el nodo que hace
@@ -849,6 +851,4 @@ Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y A
 Continúa en el Capítulo 7 — Tanatología y duelo
 
 El Cálculo de la Responsabilidad · Cap. 7 — Tanatología y duelo
-
-PARTE II  ·  CIENCIAS DE LA SALUD
 

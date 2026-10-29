@@ -1,3 +1,5 @@
+PARTE V · HUMANIDADES Y CIENCIAS SOCIALES
+
 ### Capítulo 15 Educación
 
 El peso causal en el resultado educativo: cuando la política culpa
@@ -587,6 +589,4 @@ Continúa en el Capítulo 16 — Análisis histórico y geopolítico
 El Cálculo de la Responsabilidad · Cap. 16 — Análisis histórico y
 
 geopolítico
-
-PARTE V · HUMANIDADES Y CIENCIAS SOCIALES
 
