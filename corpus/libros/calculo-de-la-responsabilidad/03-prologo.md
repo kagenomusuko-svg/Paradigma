@@ -98,7 +98,3 @@ El Cálculo de la Responsabilidad · Prólogo
 
 Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026
 
-### Página | VII
-
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
-
