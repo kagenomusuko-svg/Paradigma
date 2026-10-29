@@ -40,11 +40,7 @@ Lo que Anteros localiza — con precisión técnica La posición de v_t en φ₁
 
 Criterios de entrada directa
 
-El Módulo Anteros puede iniciarse directamente cuando se cumple alguna de las siguientes condiciones.
-
-1. La apertura narrativa produjo señal clara de afirmación desde criterio propio — el sujeto describió o mostró un no, un límite o una posición sostenida que no respondía a ninguna amenaza externa identificable.
-2. El Módulo Fobos produjo H-3 y el mediador necesita discriminar si hay Anteros adicional o si toda la energía del sujeto es reactiva.
-3. El árbol documental del Capítulo U·1 ya produjo señal de fricción productiva documentada — discrepancias por escrito que no destruyeron la relación, criterios consistentes a través del tiempo — y el mediador necesita verificar desde presencia.
+El Módulo Anteros puede iniciarse directamente cuando se cumple alguna de las siguientes condiciones. La primera: la apertura narrativa produjo señal clara de afirmación desde criterio propio — el sujeto describió o mostró un no, un límite o una posición sostenida que no respondía a ninguna amenaza externa identificable. La segunda: el Módulo Fobos produjo H-3 y el mediador necesita discriminar si hay Anteros adicional o si toda la energía del sujeto es reactiva. La tercera: el árbol documental del Capítulo U·1 ya produjo señal de fricción productiva documentada — discrepancias por escrito que no destruyeron la relación, criterios consistentes a través del tiempo — y el mediador necesita verificar desde presencia.
 
 Cuando la apertura narrativa ya produjo señales claras de Anteros, el mediador puede entrar directamente a la pregunta ancla sin el preámbulo estándar de administración. El preámbulo existe para crear condiciones de campo que Anteros ya ha creado en la apertura. Si el sujeto ya mostró su eje en los primeros veinte minutos de la sesión, introducir un preámbulo adicional puede producir que el sujeto calibre su respuesta a lo que percibe que el instrumento espera.
 
@@ -356,11 +352,11 @@ Sin EP asignable.
 
 ### La regla de codificación H-3 para Anteros — condición triple
 
-La codificación H-3 en el Módulo Anteros requiere las tres condiciones siguientes de manera simultánea.
+La codificación H-3 en el Módulo Anteros requiere las tres condiciones siguientes de manera simultánea. Primera: el sujeto puede identificar criterios propios que se mantuvieron estables en al menos dos contextos o períodos distintos del período analizado, y puede nombrarlos con especificidad. Segunda: puede describir al menos un episodio de discrepancia con el campo que no destruyó la relación —fricción productiva con historia. Tercera: al menos una señal de observación directa en sesión corrobora la narrativa —el sujeto desacuerda con el mediador, justifica su posición sin que se lo
 
-1. El sujeto puede identificar criterios propios que se mantuvieron estables en al menos dos contextos o períodos distintos del período analizado, y puede nombrarlos con especificidad.
-2. Puede describir al menos un episodio de discrepancia con el campo que no destruyó la relación —fricción productiva con historia.
-3. Al menos una señal de observación directa en sesión corrobora la narrativa —el sujeto desacuerda con el mediador, justifica su posición sin que se lo pidan, o muestra criterio propio en la relación directa con el instrumento.
+Entrevista Clínica Ontológica · ECO
+
+pidan, o muestra criterio propio en la relación directa con el instrumento.
 
 La ausencia de la tercera condición baja el código máximo a H-2. No importa cuán coherente sea la narrativa del sujeto sobre su criterio propio: sin señal observacional en sesión, el módulo no puede producir H-3. La razón es la misma que en los módulos anteriores: la narrativa puede ser construida; la conducta en sesión es más difícil de fabricar. El mediador que codifica H-3 solo desde narrativa está codificando la imagen que el sujeto tiene de sí mismo, no necesariamente la configuración de la voluntad.
 
