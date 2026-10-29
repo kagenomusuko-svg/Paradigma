@@ -132,15 +132,11 @@ La derivación fuera del paradigma no cierra el proceso ontológico en la mayor�
 
 La condición para esa complementariedad: el mediador debe establecer comunicación formal con el profesional clínico al que derivó, con el consentimiento explícito del sujeto, para que los dos procesos puedan coordinarse sin que ninguno comprometa al otro. El mediador que trabaja en paralelo con un psicólogo clínico sin que los dos conozcan lo que el otro está haciendo puede producir intervenciones contradictorias que el sujeto debe gestionar sin apoyo. La coordinación formal no requiere que el mediador ontológico y el clínico hablen con la misma terminología: requiere que puedan describir el foco de sus respectivos trabajos con suficiente claridad para que no se superpongan de manera que dañe al sujeto.
 
-Regla de coordinación con el profesional clínico al que se derivó
+Regla de coordinación con el profesional clínico al que se derivó El mediador que trabaja en paralelo con un profesional clínico establece con el sujeto: (1) consentimiento para coordinar con el profesional clínico sobre el foco y los límites de cada proceso; (2) qué información puede compartirse entre los dos profesionales y qué
 
-El mediador que trabaja en paralelo con un profesional clínico establece con el sujeto:
+Entrevista Clínica Ontológica · ECO
 
-1. Consentimiento para coordinar con el profesional clínico sobre el foco y los límites de cada proceso.
-2. Qué información puede compartirse entre los dos profesionales y qué información permanece en la confidencialidad de cada proceso.
-3. El criterio que determinará si los dos procesos pueden continuar en paralelo o si uno debe esperar al otro.
-
-Sin ese acuerdo explícito con el sujeto, el mediador no puede asumir que la coordinación es posible ni que el proceso en paralelo es apropiado.
+información permanece en la confidencialidad de cada proceso; (3) el criterio que determinará si los dos procesos pueden continuar en paralelo o si uno debe esperar al otro. Sin ese acuerdo explícito con el sujeto, el mediador no puede asumir que la coordinación es posible ni que el proceso en paralelo es apropiado.
 
 La derivación como señal de madurez del paradigma
 
