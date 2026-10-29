@@ -18,13 +18,7 @@ Primera edición: 2026
 
 © Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026
 
-Todos los derechos reservados. Ninguna parte de esta publicación
-
-puede ser reproducida, almacenada o transmitida en manera alguna ni
-
-por ningún medio, ya sea eléctrico, químico, mecánico, óptico, de
-
-grabación o de fotocopia, sin permiso previo del editor.
+© 2026 Centro Multidisciplinario Meriadock Formación y Asesoría A.C. La reproducción y distribución de esta obra se rigen por la licencia indicada abajo, sin perjuicio de los límites y excepciones establecidos por la legislación aplicable.
 
 ECO: Entrevista Clínica Ontológica  © 2026 by Centro Multidisciplinario Meriadock Formación y Asesoría A.C. is licensed under CC BY-NC-ND 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/4.0/ Comité elaborador
 
@@ -404,17 +398,13 @@ El mediador que conoce su especialidad, pero no conoce el instrumento usa ECO co
 
 Notas al capítulo P·2
 
-Entrevista Clínica Ontológica · ECO
+1. Las proporciones de uso (SDO / Prometeo / ECO / Histos) son orientaciones, no prescripciones. Un caso específico puede llevar a un mediador organizacional a hacer un uso más intensivo de ECO del que su proporción habitual indica, si el ego colectivo que analiza requiere entrevista directa a sus miembros. Las proporciones describen el trabajo habitual de cada especialidad, no el límite de uso del instrumento.
 
-el Eje V lo requiere. La dimensión del «lo que pudo ser» es propia de este perfil y está desarrollada en el Bloque III §5.
+2. El Mediador en Memoria Comunitaria es el único perfil cuya pregunta central tiene estructura triádica temporal explícita: lo que fue, lo que es, lo que pudo ser. Los demás perfiles operan fundamentalmente en el presente del ego —la localización del estado actual de la voluntad—, con referencias al pasado cuando el Eje V lo requiere. La dimensión de «lo que pudo ser» es propia de este perfil y está desarrollada en el Bloque III, §5.
 
-3 La distinción entre el uso individual y el uso colectivo de ECO no implica que sean dos instrumentos distintos. Es el mismo instrumento con la misma estructura de módulos, aplicado a unidades de análisis diferentes. Lo que cambia es la formulación de las preguntas (orientadas al colectivo en lugar de al individuo), las señales de observación (artefactos e interacciones grupales en lugar de conducta individual en sesión) y el protocolo de codificación (distribución colectiva de P(Hijos) en lugar de distribución individual). El Bloque III desarrolla estas diferencias con la precisión que el uso colectivo requiere.
+3. La distinción entre el uso individual y el uso colectivo de ECO no implica que sean dos instrumentos distintos. Es el mismo instrumento con la misma estructura de módulos, aplicado a unidades de análisis diferentes. Lo que cambia es la formulación de las preguntas (orientadas al colectivo en lugar de al individuo), las señales de observación (artefactos e interacciones grupales en lugar de conducta individual en sesión) y el protocolo de codificación (distribución colectiva de P(Hijos) en lugar de distribución individual). El Bloque III desarrolla estas diferencias con la precisión que el uso colectivo requiere.
 
-4 El Mediador Estructural es el único perfil cuya administración de ECO está habitualmente precedida por el árbol documental del Capítulo U·1 de la Taxonomía. Eso produce un orden de operaciones que los demás perfiles no tienen: árbol documental primero, ECO como verificación y completamiento. El protocolo de cruce entre ambas fuentes —que el Capítulo P·5 establece— es especialmente relevante para este perfil porque la contradicción entre P(Hijos) documental y P(Hijos) relacional tiene consecuencias directas en la estimación de S.
-
-Entrevista Clínica Ontológica · ECO
-
-PARTE PRELIMINAR · Fundamentos del instrumento
+4. El Mediador Estructural es el único perfil cuya administración de ECO está habitualmente precedida por el árbol documental del Capítulo U·1 de la Taxonomía. Eso produce un orden de operaciones que los demás perfiles no tienen: árbol documental primero, ECO como verificación y completamiento. El protocolo de cruce entre ambas fuentes —que el Capítulo P·5 establece— es especialmente relevante para este perfil porque la contradicción entre P(Hijos) documental y P(Hijos) relacional tiene consecuencias directas en la estimación de S.
 
 ### Capítulo P·3
 
@@ -778,7 +768,7 @@ SKIP Salto No administrar el módulo o la sección indicada. Siempre acompañado
 
 EP-n Evidencia Nivel de evidencia personal (EP-0 a EP-8). Designa el tipo de señal observacional que sustenta una asignación de peso en P(Hijos) o en los ejes del SDO. Ver Tabla EP completa en §3.
 
-H-1 Calificación Código de calificación: Hijo ausente. No hay señal de este Hijo o de este código en la sesión. Peso EP-0 obligatorio para este módulo.
+H-1 Calificación Código de calificación: Hijo ausente. Se asigna cuando la administración completa no produce señal o cuando una regla SKIP específica autoriza H-1 tras cumplir sus comprobaciones. Peso EP-0; documentar la administración completa o la condición de SKIP.
 
 H-2 Calificación Código de calificación: Hijo en umbral. Señales presentes, pero no sostenidas o no confirmables en esta sesión. Peso máximo EP-5.
 
@@ -832,9 +822,9 @@ son confirmables (el mediador no puede determinar si corresponden a este Hijo o 
 
 Considerar si una sesión adicional puede elevar la codificación a H-3 o bajarla a H-1.
 
-H-1 Ausente El sujeto no produjo ninguna señal del Hijo o el código en esta sesión, a pesar de que el mediador administró el módulo completo. La ausencia no es falta de información: es información negativa. No hay señal donde debería haberla si el Hijo estuviera activo.
+H-1 Ausente El sujeto no produjo señal en la administración completa del módulo. En los módulos con una regla SKIP que autoriza H-1, también puede asignarse tras cumplir y documentar las comprobaciones exigidas por esa regla. En ambos casos hay información negativa; no se confunde con la ausencia de información.
 
-Asignar peso EP-0 a este módulo en P(Hijos). Registrar la ausencia como dato. No saltar el módulo sin haberlo administrado: la ausencia de señal después de administración completa es diferente de no haber preguntado.
+Asignar EP-0 solo en esos supuestos y registrar si el resultado procede de administración completa o de SKIP autorizado. Si no se cumplieron las comprobaciones o el módulo no pudo evaluarse, registrar «?» y explicar la causa.
 
 ? Inf. inadecuada
 
@@ -1100,7 +1090,7 @@ La lógica de navegación del instrumento
 
 ### I.  Por qué el instrumento necesita lógica de navegación
 
-Un instrumento sin lógica de navegación es una lista de preguntas. Lo que hace al SCID del DSM un instrumento y no un cuestionario es exactamente esto: la estructura que determina cuándo se entra a cada sección, cuándo se salta, y cuándo el instrumento está completo. ECO tiene la misma exigencia. Los once módulos no se administran siempre en el mismo orden ni con la misma profundidad. La lógica de navegación es lo que permite que el instrumento sea flexible sin dejar de ser riguroso.
+Un instrumento sin lógica de navegación es una lista de preguntas. Una característica del SCID del DSM que muestra su estructura de entrevista es la navegación entre secciones: determina cuándo se entra a cada sección, cuándo se salta y cuándo termina la administración. ECO tiene la misma exigencia. Los once módulos no se administran siempre en el mismo orden ni con la misma profundidad. La lógica de navegación es lo que permite que el instrumento sea flexible sin dejar de ser riguroso.
 
 La lógica de navegación de ECO descansa en tres operaciones distintas que este capítulo establece con precisión. La primera es la entrada: cuándo el mediador puede iniciar un módulo directamente sin seguir el orden estándar, y qué condición lo autoriza. La segunda es el salto (SKIP): cuándo el mediador puede omitir un módulo o una sección de un módulo, y por qué razón ontológica —no solo operativa— ese salto está justificado. La tercera es el cierre: cuándo ECO puede declararse completo y con qué tipo de completitud.
 
@@ -1240,7 +1230,7 @@ Potós requiere que la voluntad esté orientada hacia algo ausente. Si no hay or
 
 Eros (B·I·E) Los cuatro módulos anteriores (F, D, A, P) produjeron un Hijo dominante con H-3 y EP-1, y no hubo ninguna señal de apertura a lo nuevo en la apertura narrativa ni en el campo relacional de la sesión.
 
-SKIP parcial → administrar solo pregunta ancla y una pregunta de sondeo. Si no hay señal, registrar EP-0, código H-1.
+Acortamiento (no SKIP) → administrar la pregunta ancla y los sondeos E·1 y E·6. Si no hay señal, registrar EP-0, código H-1.
 
 Eros es el Hijo de apertura a la alteridad. Cuando la sesión ya produjo un Hijo dominante muy claro con EP-1 y el campo relacional no mostró apertura, la probabilidad de que Eros sea relevante es baja. El SKIP parcial permite verificar sin invertir el tiempo del módulo completo.
 
@@ -1282,7 +1272,7 @@ SKIP completo de §5 → los demás §§ del Bloque III pueden administrarse sin
 
 ### SKIP completo vs. SKIP parcial
 
-La tabla distingue entre dos tipos de SKIP. El SKIP completo omite el módulo por entero y registra directamente el código correspondiente (H-1 para los módulos de Hijos, o la nota de no administración para los módulos de ejes). El SKIP parcial omite solo una sección del módulo —habitualmente la batería de preguntas de sondeo— y mantiene al menos la pregunta ancla y la verificación de
+La tabla distingue entre SKIP completo y parcial. El SKIP completo omite el resto del módulo una vez cumplidas las comprobaciones que su regla exige; solo registra H-1/EP-0 cuando esa regla lo autoriza y esas comprobaciones no producen señal. El SKIP parcial omite parte de la administración, pero mantiene la pregunta ancla y la verificación de
 
 Entrevista Clínica Ontológica · ECO
 
@@ -1464,7 +1454,7 @@ Notas al capítulo P·5
 
 1 El principio de navegación flexible con exclusión obligatoria distingue a ECO de dos tipos de instrumentos con los que podría confundirse. El primero es el cuestionario de respuesta fija: siempre se administra completo, en el mismo orden, sin posibilidad de entrada directa. El segundo es la entrevista abierta: el orden lo determina el sujeto, no el instrumento. ECO es un instrumento estructurado con navegación flexible: el orden estándar existe y tiene justificación ontológica, pero puede alterarse cuando la evidencia lo justifica, siempre con la verificación de exclusión como condición.
 
-2 La distinción entre SKIP completo y SKIP parcial tiene consecuencias en la hoja de síntesis. Un módulo con SKIP completo produce el código correspondiente (H-1 para Potós sin señal, por ejemplo) y ese código se registra en la hoja como si el módulo hubiera sido administrado: porque la condición que activa el SKIP es en sí misma evidencia de la ausencia del Hijo. Un módulo con SKIP parcial produce el código de la administración parcial, que puede ser H-1, H-2 o H-3 según lo que la pregunta ancla produjo.
+2 La distinción entre SKIP completo y SKIP parcial tiene consecuencias en la hoja de síntesis. El registro debe indicar el SKIP aplicado y la condición que lo autorizó. La evidencia obtenida durante las comprobaciones previstas puede justificar H-1/EP-0 cuando así lo establece la regla del módulo; el salto por sí solo no equivale a haber administrado el módulo completo. Si no se obtiene la evidencia requerida o la administración queda incompleta, registrar «?» cuando corresponda. Un SKIP parcial produce el código que la evidencia de la administración parcial permita sostener.
 
 3 El árbol de navegación de la Sección V es una representación esquemática. La complejidad real de la navegación —especialmente en las bifurcaciones de los módulos de Hijos con señal ambigua— se desarrolla en los árboles de decisión internos de cada módulo. El árbol general establece la secuencia de operaciones; los árboles internos establecen las decisiones dentro de cada operación.
 
@@ -3162,19 +3152,13 @@ Potós puede revelar situaciones que superan el alcance de ECO cuando la orienta
 
 Notas al Módulo B·I·P
 
-Entrevista Clínica Ontológica · ECO
-
-recuperación de ese objeto. La estimación de S para un sujeto en Potós tiende a ser alta porque el peso de c sobre v_t es significativo: el acto no puede separarse de la historia del sujeto con lo que ya no está.
+1. La descripción de Potós como posición de v_t orientada hacia lo ausente tiene una consecuencia para el análisis causal de Prometeo que los módulos de Fobos, Deimos y Anteros no tienen con la misma intensidad: Potós orienta los actos hacia la recuperación del objeto ausente. El peso de c sobre v_t puede ser significativo; por ello, el acto se lee en relación con la historia del sujeto respecto de aquello que ya no está.
 
 2 La restricción EP-1 para Potós que se desarrolla en §8 tiene una excepción que el texto principal menciona brevemente y que merece desarrollo: cuando el mediador puede producir en sesión una evocación directa del objeto ausente —mencionando el nombre de la persona, describiendo el período, mostrando algo que lo representa— y el sujeto produce una reacción conductual observable, esa reacción puede calificarse como EP-1 para Potós. Esta técnica requiere precaución: el mediador debe asegurarse de que la evocación sea honesta (no fabricada para producir señal) y de que la reacción del sujeto no sea simplemente cortesía social ante el gesto del mediador. La evocación directa como técnica de verificación EP-1 para Potós es una operación avanzada que solo debe usarse cuando el mediador tiene experiencia suficiente con el módulo.
 
 3 La coexistencia Potós/Deimos que se desarrolla en §9 es la distribución más frecuente cuando Potós tiene peso significativo en la distribución P(Hijos). La razón es ontológica: la misma configuración que produce Deimos (la imposibilidad de elegir entre opciones equivalentes en el presente) produce con frecuencia la orientación al pasado como referente (Potós), porque el pasado es el único campo donde las opciones ya estaban resueltas. Los dos Hijos se refuerzan mutuamente en muchos casos y deben leerse como parte de la misma configuración de la voluntad, no como estados independientes.
 
 4 La instrucción al Mediador en Memoria Comunitaria sobre el trabajo con Potós colectivo que se desarrolla en §10 tiene una implicación para la práctica del rescate cultural que merece señalarse: la comunidad que está en Potós colectivo profundo no puede participar genuinamente en el rescate de su propia cultura si el proceso de rescate se diseña desde afuera como recuperación del pasado. Ese diseño refuerza Potós sin crear condiciones para que la comunidad pueda imaginar un futuro propio. El trabajo del mediador es crear las condiciones para que la comunidad pueda honrar lo que fue y, desde ese honor, construir algo nuevo. Eso requiere que Potós colectivo pueda dialogar con Eros colectivo —la apertura a lo nuevo— sin que ninguno de los dos anule al otro.
-
-Entrevista Clínica Ontológica · ECO
-
-BLOQUE I · Los Hijos de Afrodita
 
 ### B·I·E ·  MÓDULO EROS
 
@@ -6772,9 +6756,9 @@ Del N individual al uno colectivo Protocolo de ponderación por proximidad real 
 
 colectivos en disociación
 
-### I.  Por qué no es promedio ni moda — fundamento ontológico
+### I.  Por qué no basta el promedio simple ni la moda — fundamento ontológico
 
-El paso de N localizaciones individuales a una localización colectiva es el momento técnicamente más exigente del Bloque III y el que con mayor frecuencia produce errores metodológicos en el análisis de ego colectivo. El error más frecuente es tratar la agregación como un problema estadístico: promediar los pesos de P(Hijos) que los distintos miembros produjeron, o tomar el código del Eje I que aparece con mayor frecuencia entre los miembros entrevistados. Esa operación estadística no produce la localización del ego colectivo: produce la distribución promedio de los egos individuales de los miembros entrevistados, que es una información completamente distinta.
+El paso de N localizaciones individuales a una localización colectiva es el momento técnicamente más exigente del Bloque III y el que con mayor frecuencia produce errores metodológicos en el análisis de ego colectivo. El error más frecuente es promediar las localizaciones de los egos individuales de los miembros y tomar ese promedio —o la moda de sus códigos— como si fuera la localización del ego colectivo. Esa operación produce una descripción agregada de los miembros entrevistados, no una lectura del ego que opera a través de la segunda mediación del ego soberano.
 
 La razón por la que el promedio no funciona es la misma razón por la que el ego colectivo no es la suma de los egos individuales: el ego colectivo opera a través de la segunda mediación del ego soberano, no a través de la media de las segundas mediaciones de todos los miembros. La segunda mediación del ego soberano orienta la voluntad del colectivo con una función que ningún promedio de
 
@@ -6788,7 +6772,7 @@ El ego colectivo no es el promedio de los egos individuales de sus miembros. Es 
 
 El principio de ponderación por proximidad real a φ₂
 
-La alternativa ontológicamente correcta al promedio y a la moda es la ponderación por proximidad real a la segunda mediación del colectivo. Cada localización individual tiene un peso en la lectura colectiva que corresponde a la proximidad real del sujeto que la produce al ejercicio efectivo de φ₂ en el colectivo. La localización del ego soberano real —el sujeto que porta φ₂— tiene el peso máximo. Las localizaciones de los miembros en posiciones de proximidad decreciente a φ₂ tienen pesos decrecientes. Y la agregación ponderada de todas las localizaciones produce la lectura del ego colectivo.
+La alternativa ontológicamente correcta al promedio y a la moda es la ponderación por proximidad real a la segunda mediación del colectivo. Cada localización individual tiene un peso en la lectura colectiva que corresponde a la proximidad real del sujeto que la produce al ejercicio efectivo de φ₂ en el colectivo. La localización del ego soberano real —el sujeto que porta φ₂— tiene el peso máximo. Las localizaciones de los miembros en posiciones de proximidad decreciente a φ₂ tienen pesos decrecientes. La ponderación de las lecturas del colectivo producidas desde esas posiciones ofrece una estimación para contrastar con la localización directa del ego soberano y con la evidencia del campo.
 
 Este principio no significa que las localizaciones de los miembros en posiciones periféricas no tengan valor: tienen el valor específico de su nivel de proximidad. Un miembro de Nivel 4 que describe al
 
@@ -6862,75 +6846,19 @@ Factor 0.05–0.10 — peso mínimo. Su lectura puede revelar cómo el ego colec
 
 ### Operación 2 — Cálculo de los pesos ponderados
 
-El cálculo de los pesos ponderados opera sobre cada componente de la localización individual: los seis pesos de P(Hijos), los códigos de cada eje del Bloque II. Para cada componente y cada fuente, el mediador multiplica el valor de la localización individual por el factor de proximidad asignado a esa fuente. La suma de los productos ponderados, dividida por la suma de los factores de proximidad, produce el valor ponderado para ese componente en la lectura colectiva.
+El cálculo opera sobre cada componente de las lecturas que las fuentes entrevistadas producen del ego colectivo: los seis pesos de P(Hijos) y los códigos de cada eje del Bloque II. No se introducen las localizaciones de los egos individuales de los miembros. Para cada componente, el mediador multiplica la lectura del colectivo de cada fuente por su factor de proximidad. La suma de los productos, dividida por la suma de los factores, produce una estimación ponderada de ese componente.
 
-La fórmula es: P(Hijo)_colectivo = Σ(P(Hijo)_i × f_i) / Σ(f_i), donde P(Hijo)_i es el peso del Hijo en la localización del miembro i, y f_i es el factor de proximidad asignado al miembro i. Esta fórmula produce una media ponderada que otorga mayor peso a las fuentes de mayor proximidad a φ₂. El resultado es un vector de seis valores que suma aproximadamente 1.00 (con pequeñas variaciones por redondeo) y que describe la distribución P(Hijos) del ego colectivo.
+La fórmula de trabajo es: P(Hijo)_lectura = Σ(P(Hijo)_{i, colectivo} × f_i) / Σ(f_i), donde P(Hijo)_{i, colectivo} es la lectura que la fuente i produce del ego colectivo, una vez considerado y corregido el sesgo de su posición, y f_i es el factor de proximidad de esa fuente a φ₂. El resultado es una estimación ponderada de las lecturas del colectivo, no un promedio de egos individuales ni una definición autónoma de la localización colectiva. Se contrasta con la localización del ego soberano real y con la evidencia del campo; la convergencia puede confirmarla o matizarla y la divergencia se registra e interpreta conforme a la Operación 3. La cantidad o la frecuencia de las lecturas no basta para sustituir la localización del ego soberano: una corrección requiere que la evidencia del campo muestre que esa lectura no expresa la operación efectiva de φ₂; si no puede resolverse, se conserva la divergencia.
 
-Fuente Nivel de proximida d
+| Fuente | Nivel de proximidad a φ₂ | Factor | Lectura de P(Fobos) del colectivo | Producto ponderado | Nota |
+|---|---:|---:|---:|---:|---|
+| Ego soberano real | 1 | 1.00 | 0.65 | 0.65 | Localización directa del ego colectivo. |
+| Director de operaciones | 2 | 0.70 | 0.70 | 0.49 | La convergencia con el ego soberano fortalece la señal. |
+| Coordinadora de equipos | 3 | 0.45 | 0.40 | 0.18 | Lectura de menor proximidad; puede reflejar sesgo o mostrar que Fobos no llega al nivel operativo. |
+| Técnico de base | 4 | 0.20 | 0.20 | 0.04 | Peso bajo; la lectura de Fobos es más débil en el nivel operativo. |
+| **Suma ponderada** |  | **2.35** |  | **1.36** | **Estimación ponderada de P(Fobos): 0.58.** |
 
-Nota
-
-Facto
-
-P(Fobos
-
-P(Fobos) ponderad
-
-### r
-
-) individu
-
-### o
-
-al
-
-### Entrevista Clínica Ontológica · ECO
-
-Nivel 1 1.00 0.65 0.65 Localización
-
-Ego soberano real
-
-directa del
-
-ego colectivo.
-
-Nivel 2 0.70 0.70 0.49 Convergenc ia con el ego
-
-Director de operaciones
-
-soberano fortalece la
-
-señal.
-
-Nivel 3 0.45 0.40 0.18 Lectura más
-
-Coordinadora de equipos
-
-baja — puede ser
-
-sesgo o
-
-puede revelar que
-
-Fobos no llega al nivel
-
-operativo.
-
-Nivel 4 0.20 0.20 0.04 Peso bajo.
-
-Técnico de base
-
-Confirma ausencia de Fobos en el
-
-nivel operativo.
-
-SUMA PONDERAD A
-
-### 1.36 / 2.35 P(Fobos) colectivo ajustado:
-
-0.58
-
-El ejemplo de la tabla ilustra el cálculo para un solo Hijo (Fobos) con cuatro fuentes. El proceso se repite para los cinco Hijos restantes. La suma de los seis P(Hijos)_colectivo debe ser 1.00. Si hay pequeñas desviaciones por el proceso de redondeo y ponderación, el mediador ajusta los pesos de los Hijos con menor señal para que la suma sea exactamente 1.00. El ajuste siempre se hace hacia los Hijos de menor peso diagnóstico, nunca hacia P(Harmonía) — P(Harmonía) solo puede tener peso positivo si el módulo H del ego soberano lo produjo con H-3(H) y EP-1 o EP-2.
+El ejemplo de la tabla ilustra la ponderación de las lecturas que cuatro fuentes producen del ego colectivo para un solo Hijo (Fobos). El proceso se repite para los cinco Hijos restantes. La suma de los seis valores de la estimación ponderada debe ser 1.00. Si hay pequeñas desviaciones por el proceso de redondeo y ponderación, el mediador ajusta los pesos de los Hijos con menor señal para que la suma sea exactamente 1.00. El ajuste siempre se hace hacia los Hijos de menor peso diagnóstico, nunca hacia P(Harmonía) — P(Harmonía) solo puede tener peso positivo si el módulo H del ego soberano lo produjo con H-3(H) y EP-1 o EP-2.
 
 ### Operación 3 — Ajuste por convergencia y divergencia
 
@@ -7908,19 +7836,15 @@ La condición de uso del instrumento — formulación técnica ECO produce la lo
 
 Notas al B·IV §1
 
-Entrevista Clínica Ontológica · ECO
+1. Los cinco errores descritos en esta sección son los más frecuentes y los que producen daños sistemáticos en la práctica de mediadores en formación. La práctica también puede revelar otros, como cuando el mediador usa su propia historia como marco de lectura del sujeto o conduce Histos desde su propio ego soberano en lugar del ego soberano del sujeto; estos dependen de contextos específicos.
 
-de lectura del sujeto, el mediador que produce el proceso de Histos desde su propio ego soberano en lugar del ego soberano del sujeto— pero esos errores son más infrecuentes y más específicos de contextos de trabajo particular. Los cinco errores de esta sección son los que cualquier mediador puede cometer en cualquier contexto.
+2. El error E·3 —la calificación moral de la localización— tiene una implicación que el texto principal no desarrolla completamente: la jerarquía implícita de las localizaciones del sistema no es solo un problema de la relación del mediador con el sujeto. Es también un problema del sistema mismo si sus obras, su lenguaje y su cultura de formación de mediadores producen esa jerarquía. Las obras del paradigma que describen Harmonía como el estado más deseable, E-1 como el estado más saludable, o T-6 como el estado más integrado producen una jerarquía que los mediadores internalizan y que luego reproducen en sus prácticas. El paradigma tiene responsabilidad de calibrar el lenguaje con que describe sus propios conceptos para no producir jerarquías evaluativas que los mediadores luego transporten a sus prácticas.
 
-2 El error E·3 —la calificación moral de la localización— tiene una implicación que el texto principal no desarrolla completamente: la jerarquía implícita de las localizaciones del sistema no es solo un problema de la relación del mediador con el sujeto. Es también un problema del sistema mismo si sus obras, su lenguaje y su cultura de formación de mediadores producen esa jerarquía. Las obras del paradigma que describen Harmonía como el estado más deseable, E-1 como el estado más saludable, o T-6 como el estado más integrado producen una jerarquía que los mediadores internalizan y que luego reproducen en sus prácticas. El paradigma tiene responsabilidad de calibrar el lenguaje con que describe sus propios conceptos para no producir jerarquías evaluativas que los mediadores luego transporten a sus prácticas.
 
-3 La distinción entre la forma legítima de administrar ECO sin continuidad hacia Histos y el error E·5 que el texto principal introduce es técnicamente importante para contextos de encargo institucional. El Mediador Organizacional, el Mediador en Memoria Comunitaria y el Mediador Estructural frecuentemente reciben encargos que incluyen la localización del ego colectivo como producto entregable —un informe, un diagnóstico institucional, una evaluación de estado. En esos contextos, la hoja de síntesis de ECO puede entregarse al encargado (la institución, el equipo directivo) sin ser entregada al sujeto entrevistado. Esa entrega al encargado no produce el error E·5 si la hoja de síntesis llega a alguien que puede usarla para orientar una intervención sobre el ego colectivo. La produce si la hoja de síntesis llega al sujeto como diagnóstico sin acompañamiento.
+3. La distinción entre la forma legítima de administrar ECO sin continuidad hacia Histos y el error E·5 que el texto principal introduce es técnicamente importante para contextos de encargo institucional. El Mediador Organizacional, el Mediador en Memoria Comunitaria y el Mediador Estructural frecuentemente reciben encargos que incluyen la localización del ego colectivo como producto entregable —un informe, un diagnóstico institucional, una evaluación de estado. En esos contextos, la hoja de síntesis de ECO puede entregarse al encargado (la institución, el equipo directivo) sin ser entregada al sujeto entrevistado. Esa entrega al encargado no produce el error E·5 si la hoja de síntesis llega a alguien que puede usarla para orientar una intervención sobre el ego colectivo. La produce si la hoja de síntesis llega al sujeto como diagnóstico sin acompañamiento.
 
-4 El «buen paciente del sistema» que el error E·4 describe es un fenómeno identificable en cualquier proceso de acompañamiento orientado desde marcos interpretativos explícitos — no solo en el paradigma de Mediación Ontológica. La terapia psicoanalítica produce pacientes que aprenden el lenguaje del inconsciente y de los mecanismos de defensa sin que esos aprendizajes necesariamente correspondan a cambios en la organización psíquica del paciente. La terapia cognitivo-conductual produce pacientes que aprenden a identificar los patrones de pensamiento disfuncional sin que ese aprendizaje produzca cambios en los patrones mismos. El paradigma de Mediación Ontológica no está exento de ese riesgo: el lenguaje del sistema es suficientemente articulado y coherente para producir «buenos pacientes del sistema» si el mediador comete el error E·4 sistemáticamente.
 
-Entrevista Clínica Ontológica · ECO
-
-BLOQUE IV · Principios generales de intervención
+4. El «buen paciente del sistema» que el error E·4 describe es un fenómeno identificable en cualquier proceso de acompañamiento orientado desde marcos interpretativos explícitos — no solo en el paradigma de Mediación Ontológica. La terapia psicoanalítica produce pacientes que aprenden el lenguaje del inconsciente y de los mecanismos de defensa sin que esos aprendizajes necesariamente correspondan a cambios en la organización psíquica del paciente. La terapia cognitivo-conductual produce pacientes que aprenden a identificar los patrones de pensamiento disfuncional sin que ese aprendizaje produzca cambios en los patrones mismos. El paradigma de Mediación Ontológica no está exento de ese riesgo: el lenguaje del sistema es suficientemente articulado y coherente para producir «buenos pacientes del sistema» si el mediador comete el error E·4 sistemáticamente.
 
 ### B·IV · §2 ·  LA LOCALIZACIÓN SIN
 
@@ -8362,21 +8286,15 @@ La opción NC·3 es la más difícil de comunicar al sujeto o al encargado sin p
 
 Notas al B·IV §3
 
-1 La Declaración de Incertidumbre ECO (DI-ECO) es una innovación metodológica del paradigma que distingue el instrumento de otros instrumentos diagnósticos que producen localizaciones sin declaración de certeza. En la mayoría de los instrumentos psicométricos y diagnósticos, la incertidumbre se maneja estadísticamente (intervalos de confianza, márgenes de error) pero no se declara de manera cualitativa y caso por caso. La DI-ECO declara la incertidumbre de manera cualitativa: describe exactamente qué no pudo localizarse, por qué, y qué haría falta para poder localizarlo. Esa declaración cualitativa es más útil para el mediador que inicia Histos que un intervalo de confianza estadístico: orienta específicamente qué aspectos de la localización deben tratarse con mayor cautela.
+1 La Declaración de Incertidumbre ECO (DI-ECO) documenta, para cada caso, qué componentes no pudieron localizarse con suficiente certeza, qué evidencia produjo ese límite y qué condiciones permitirían precisarlos. Así orienta el uso prudente de los componentes localizados y el inicio del trabajo de Histos.
 
 2 La vigencia de seis meses para localizaciones con alta certeza es orientativa y no prescriptiva. El mediador con experiencia puede determinar que una localización sigue siendo válida más allá de seis meses si el proceso de Histos muestra que el ego genuino del sujeto opera desde la misma configuración. La orientación de seis meses no impone una re-administración obligatoria: impone una evaluación de si la re-administración es necesaria. El juicio del mediador — informado por las señales del proceso de Histos — es el criterio final.
 
-3 La distinción entre la localización del campo que actúa en nombre del ego genuino y la localización del ego genuino mismo, que el estado C·4 hace visible, tiene consecuencias que van más allá del cierre del instrumento. En el análisis de responsabilidad del Método Prometeo, por ejemplo, la estimación de α para un sujeto en D-2 profundo requiere esta distinción: la asunción de los actos que un sujeto en D-2 puede hacer no tiene el mismo peso que la asunción de un sujeto en E-1, porque el instrumento de evaluación de los propios actos se
-
-Entrevista Clínica Ontológica · ECO
-
-apagó junto con el instrumento de registro de la brecha. El paradigma tiene obligación de desarrollar las consecuencias de esta distinción en el Método Prometeo con mayor extensión de la que ECO puede proveer.
+3 La distinción entre la localización del campo que actúa en nombre del ego genuino y la localización del ego genuino mismo tiene consecuencias para el análisis de responsabilidad del Método Prometeo. En D-2 profundo, el instrumento de evaluación de los propios actos está apagado junto con el instrumento de registro de la brecha. La estimación de α debe considerar esta condición al atribuir los actos al sujeto o al campo que actúa en su nombre.
 
 4 Las cuatro contradicciones frecuentes del instrumento que la sección §3 describe — Harmonía/D-2, Anteros/E-4, V-1/M-2, Eros/E-4 — son también las que más frecuentemente el mediador en formación produce como errores de administración. La contradicción Anteros H-3 EP-1 con E-4 en el Eje I, por ejemplo, puede producirse cuando el mediador leyó como Anteros las señales de E-4 que en el módulo A producen afirmación del criterio ajeno como si fuera propio. En ese caso, la contradicción no describe un estado complejo del sujeto: describe un error de lectura del Módulo A que el Eje I corrige. El mediador que produce esa contradicción y la trata como contradicción del sujeto en lugar de como señal de revisión de su propia lectura del Módulo A está produciendo una localización incorrecta que la DI-ECO no puede corregir — solo puede declarar.
 
 Entrevista Clínica Ontológica · ECO
-
-BLOQUE IV · Principios generales de intervención
 
 ### B·IV · §4 ·  CRITERIOS DE DERIVACIÓN A
 
@@ -8570,19 +8488,11 @@ Los cuatro componentes de la hoja de síntesis — formato recomendado Component
 
 Notas al B·IV §4
 
-Entrevista Clínica Ontológica · ECO
+1. ECO requiere distancia diagnóstica para localizar la configuración del sujeto; Histos requiere presencia relacional para acompañar el proceso. Son operaciones distintas que puede realizar una misma persona, pero no deben confundirse. Acompañar mientras todavía se localiza, o localizar mientras se acompaña, produce la intervención prematura descrita en el §1 (error E·2).
 
-pueda observar el campo del sujeto con suficiente distancia diagnóstica. El acompañamiento requiere que el mediador pueda estar en el campo del sujeto con suficiente presencia relacional. Las dos condiciones no son contradictorias —un mediador bien formado puede producir las dos— pero son diferentes, y confundirlas produce el estado que el §1 describió como intervención prematura (error E·2): el mediador que acompaña cuando debería localizar, o que localiza cuando debería acompañar.
+2. La nota de recursos disponibles del ego genuino que el §4 identifica como el insumo más estratégico para Histos implica que cada módulo de ECO registre, además de la localización, los recursos del ego genuino que encontró. La señal de Eros en el Módulo E, la de Anteros en el Módulo A y el D-1 activo en el Eje IV son recursos disponibles. Una hoja de síntesis que los reúna —aunque algunos tengan menor peso en P(Hijos)— ofrece a Histos un mapa más rico que la distribución de los Hijos dominantes por sí sola.
 
-2 La nota de recursos disponibles del ego genuino que el §4 identifica como el insumo más estratégico para Histos tiene una implicación para el diseño de la hoja de síntesis que no está suficientemente desarrollada en los módulos individuales: cada módulo de ECO debería producir, además de la localización del estado del sujeto en ese módulo, una nota de qué recursos del ego genuino ese módulo encontró. La señal de Eros en el Módulo E es un recurso disponible. La señal de Anteros en el Módulo A es un recurso disponible. El D-1 activo en el Eje IV es un recurso disponible. Una hoja de síntesis que suma todos esos recursos — aunque algunos estén en posiciones de menor peso en P(Hijos) — provee a Histos un mapa más rico del territorio que solo la distribución de los Hijos dominantes.
-
-3 El protocolo de transferencia entre mediadores que el §4 describe brevemente tiene implicaciones para la formación de equipos de trabajo en el paradigma que exceden el alcance de este instrumento. En contextos de trabajo colectivo — donde un equipo de mediadores trabaja con un mismo sujeto o con un mismo ego colectivo, con distintos mediadores responsables de distintas fases del proceso — la transferencia de la hoja de síntesis entre mediadores es el instrumento central de coordinación del equipo. Los protocolos de supervisión, co-administración y derivación dentro de equipos de mediadores del paradigma son el objeto de un instrumento específico de práctica colectiva que el paradigma está desarrollando.
-
-4 La formulación de transición de ECO a Histos que el §4 propone — «explorar el territorio» para ECO y «caminar en él» para Histos — es una de las traducciones al lenguaje sin etiqueta que el mediador puede usar, pero no la única. El mediador que ha establecido una relación genuina con el sujeto durante ECO puede encontrar formulaciones más específicas que correspondan al lenguaje que el sujeto produce. La clave no es la formulación exacta sino la función: la transición debe orientar al sujeto hacia el tipo de trabajo que sigue sin revelar la localización y sin producir el error E·5 (el cierre de ECO como fin en lugar de umbral).
-
-Entrevista Clínica Ontológica · ECO
-
-BLOQUE IV · Principios generales de intervención
+3. La formulación de transición de ECO a Histos que el §4 propone —«explorar el territorio» para ECO y «caminar en él» para Histos— es una traducción posible al lenguaje sin etiqueta, no la única. El mediador puede adaptarla al lenguaje del sujeto; la transición debe orientarlo hacia el trabajo que sigue sin revelar la localización ni presentar el cierre de ECO como fin (error E·5).
 
 ### B·IV · §5 ·  CRITERIOS DE DERIVACIÓN
 
@@ -10248,15 +10158,15 @@ El mediador observa: ¿qué Hijos aparecen en la apertura? ¿Hay señales de cri
 
 BLOQUE I — Los Hijos de Afrodita
 
-Orden fijo: F → D → A → P → E → H. El módulo H siempre al final y nunca se salta.
+Orden estándar: F → D → A → P → E → H. El módulo H siempre al final y nunca se salta; la entrada directa a otro módulo se rige por el criterio específico de ese módulo.
 
 B·I·F · Módulo FOBOS
 
-SKIP: SKIP COMPLETO: Hijo dominante H-3 EP-1 ya establecido + sin señal de Fobos en apertura. Salida: Peso P(Fobos) tentativo → continuar a Módulo D. ↓
+SKIP: Completo solo si el Eje I de una sesión anterior confirmó E-3 con EP-1 o EP-2 y la apertura de esta sesión no produjo narrativa ni señal conductual de reacción ante amenaza. Si aparece alguna señal, administrar el módulo. Salida: H-1, EP-0 → Módulo Deimos. ↓
 
 B·I·D · Módulo DEIMOS
 
-SKIP: SKIP COMPLETO: Hijo dominante H-3 EP-1 ya establecido + sin señal de parálisis. Salida: Peso P(Deimos) tentativo → continuar a Módulo A.
+SKIP PARCIAL: E-1 confirmado en una sesión anterior con EP-1 o EP-2 y sin señal de parálisis, ausencia de dirección o respuesta mínima en la apertura. Administrar los sondeos D·1 y D·3; si alguno produce señal, administrar el módulo completo; si ninguno, H-1, EP-0 → Módulo Anteros.
 
 ### Entrevista Clínica Ontológica · ECO
 
@@ -10264,15 +10174,15 @@ SKIP: SKIP COMPLETO: Hijo dominante H-3 EP-1 ya establecido + sin señal de par�
 
 B·I·A · Módulo ANTEROS
 
-SKIP: SKIP: si no hay criterio propio identificable + señal fuerte de E-4. Salida: Peso P(Anteros) tentativo → continuar a Módulo P. ↓
+SKIP: No tiene SKIP estructural. Administrar el módulo; puede iniciarse directamente si la apertura, Fobos o el árbol documental cumplen el criterio de entrada. Salida → Módulo Potós. ↓
 
 B·I·P · Módulo POTÓS
 
-SKIP: SKIP: si sin referencia al ausente + Anteros H-3 EP-1 + sin pérdida irrecuperable. Salida: Peso P(Potós) tentativo → continuar a Módulo E. ↓
+SKIP COMPLETO: la apertura no produjo orientación al pasado y, ante la pregunta ancla, el sujeto no identifica un objeto ausente que siga buscando. Registrar H-1, EP-0; si hay señal mínima (EP-8), conservarla como residual → Módulo Eros. ↓
 
 B·I·E · Módulo EROS
 
-SKIP: ACORTAMIENTO (no SKIP): Hijo dominante H-3 EP-1 + sin señal de Eros → pregunta ancla + E·1 + E·6. Salida: Peso P(Eros) tentativo → continuar a Módulo H. ↓
+ACORTAMIENTO (no SKIP): Hijo dominante H-3 con EP-1, y sin señal de Eros en la apertura ni en los módulos anteriores → pregunta ancla + sondeos E·1 y E·6. Si aparece señal, completar módulo y discriminar Eros/E-4 → Módulo H. ↓
 
 B·I·H · Módulo HARMONÍA / D-2
 
@@ -10280,7 +10190,7 @@ SKIP: NUNCA SE SALTA. Mínimo 20 minutos. Sin H·D1-H·D5 no puede producirse H-
 
 ### BLOQUE II — Los cinco ejes del SDO
 
-Orden fijo: Eje I → Eje II → Eje III → Eje IV → Eje V. El Eje I siempre primero.
+Orden estándar: Eje I → Eje II → Eje III → Eje IV → Eje V. El Eje I siempre primero; la entrada directa a otro módulo solo procede bajo su criterio específico.
 
 B·II·I · EJE I — ESTADOS DEL EGO
 
@@ -10296,7 +10206,7 @@ SKIP/ABREVIACIÓN: Sin SKIP. Usar doble observación: campo del sujeto + campo d
 
 B·II·IV · EJE IV — DISFORIA
 
-SKIP/ABREVIACIÓN: ABREVIACIÓN si módulo H ya resolvió: H-3(D2) EP-1/EP-2 → pregunta ancla + DIS·3-5 + D·DIS·1 solo.
+ABREVIACIÓN: si H produjo H-3(D2) con EP-1/EP-2 → pregunta ancla + DIS·3 + DIS·4 + D·DIS·1. Si H produjo H-3(H) con EP-1/EP-2 → pregunta ancla + DIS·1 + D·DIS·2. Con EP-3 o inferior, o H-2/no evaluable, administrar completo.
 
 ### Entrevista Clínica Ontológica · ECO
 
@@ -10304,7 +10214,7 @@ Nota de modulación: D-2 profundo sin D-1 residual: evaluar derivación clínica
 
 B·II·V · EJE V — TANATOLÓGICO
 
-SKIP/ABREVIACIÓN: SKIP PARCIAL: sin señal de pérdida + Potós H-1 + sin señal de duelo → pregunta ancla + TAN·1 solo. Nota de modulación: T-2 activo de alta intensidad: evaluar derivación clínica. Conexión directa con B·III·5 Memoria Comunitaria. Salida: Posición T-n en el vector → CIERRE DE BLOQUE II → Verificar si se administra Bloque III. ↓
+SKIP PARCIAL: solo si Potós es H-1/EP-0, la apertura no señala pérdida irrecuperable y ningún módulo previo del Bloque II mostró señal de duelo. Administrar pregunta ancla + TAN·1; si aparece señal, completar módulo; si no, H-1/EP-0. Nota de modulación: T-2 activo de alta intensidad: evaluar derivación clínica. Conexión directa con B·III·5 Memoria Comunitaria. Salida: Posición T-n en el vector → CIERRE DE BLOQUE II → Verificar si se administra Bloque III. ↓
 
 ### BLOQUE III — Ego colectivo (solo si el encargo lo requiere)
 
@@ -10379,37 +10289,3 @@ Entrevista Clínica Ontológica · ECO
 de actuar. La derivación urgente tiene prioridad absoluta sobre la administración del instrumento.
 
 3 Este árbol de navegación es la versión de referencia para mediadores con conocimiento del instrumento. El mediador que administra ECO por primera vez debería revisar también la tabla de adaptaciones del A·4 para su perfil específico, que orienta el orden recomendado de módulos desde la perspectiva del contexto de práctica.
-
-## Notas al pie
-
-[^1]: Las proporciones de uso (SDO / Prometeo / ECO / Histos) son 
-orientaciones, no prescripciones. Un caso específico puede llevar a un mediador 
-organizacional a hacer un uso más intensivo de ECO del que su proporción 
-habitual indica, si el ego colectivo que analiza requiere entrevista directa a los 
-miembros. Las proporciones describen el trabajo habitual de cada especialidad, 
-no el límite de su uso del instrumento.
-
-[^2]: El Mediador en Memoria Comunitaria es el único perfil cuya pregunta central 
-tiene estructura triádica temporal explícita: lo que fue, lo que es, lo que pudo 
-ser. Los demás perfiles operan fundamentalmente en el presente del ego —la 
-localización del estado actual de la voluntad— con referencias al pasado cuando
-
-[^1]: La descripción de Potós como posición de v_t orientada hacia lo ausente tiene 
-una consecuencia para el análisis causal de Prometeo que los módulos de Fobos, 
-Deimos y Anteros no tienen con la misma intensidad: Potós orienta los actos 
-hacia la recuperación del pasado, lo que produce una S específica donde el sesgo 
-acumulado c es el sesgo de lo que fue —la historia personal del sujeto con el 
-objeto ausente domina φ₁ de manera que el acto sale orientado hacia la
-
-[^1]: Modulación 
-genuina
-
-[^1]: Los cinco errores descritos en esta sección no son exhaustivos: son los cinco 
-más frecuentes en la práctica de mediadores en formación y los que producen 
-los daños más sistemáticos. Hay otros errores de intervención que la práctica 
-avanzada revela —el mediador que usa su propia historia personal como marco
-
-[^1]: La descripción de ECO como umbral que el §4 introduce tiene un 
-fundamento en la ontología del sistema que no se desarrolla en detalle aquí: la 
-localización del ego genuino y el trabajo sobre él son dos operaciones distintas 
-que requieren condiciones distintas. La localización requiere que el mediador
