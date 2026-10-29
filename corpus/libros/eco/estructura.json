@@ -5,12 +5,7 @@
   "sha256": "cffc616e7da386c2b66a99d6ac42acb82810b9512f1a6aafa89ea2044c181bf0",
   "collection": "Autodeterminación Causal",
   "volume": null,
-  "source_anomalies": [
-    "El aviso de derechos reservados exige permiso previo para reproducir, mientras que el mismo bloque incluye licencia CC BY-NC-ND 4.0; resolver la compatibilidad y la redacción de ambos términos.",
-    "La nota final sobre el umbral de ECO afirma que el fundamento ontológico no se desarrolla en detalle aquí; completar la explicación en la obra o remitir a un desarrollo ya publicado.",
-    "B·IV §5 deja como responsabilidad futura del programa de formación incluir preparación en psicopatología, crisis, protección y marcos legales, pero el libro no define el currículo ni incorpora ese contenido.",
-    "La sección final de notas al pie reinicia y repite identificadores [^1]; normalizar los anclajes para distinguir cada nota y su referencia en el cuerpo."
-  ],
+  "source_anomalies": [],
   "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
   "segments": [
     {
