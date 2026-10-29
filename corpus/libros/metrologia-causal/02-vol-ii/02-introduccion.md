@@ -1,3 +1,7 @@
+ Metrología Causal · Vol. II
+
+METROLOGÍA CAUSAL · VOLUMEN II
+
 ### INTRODUCCIÓN
 
 ### El lenguaje universal del análisis causal
