@@ -9,6 +9,7 @@ Miguel Hilario Olvera Aguilar
 *Colección: Reivindicación ontológica del ego*
 
 Centro Multidisciplinario Meriadock Formación y Asesoría A.C. · 2026
+
 *Primera edición: 2026*  
 DOI: 10.5281/zenodo.19601428
 
@@ -16,10 +17,12 @@ DOI: 10.5281/zenodo.19601428
 © Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026
 
 *Afrodita Areia: sobre la pasión* © 2026 by Miguel Hilario Olvera Aguilar is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
 > «Antes del pensamiento, la pasión.  
 > El yo no piensa para existir:  
 > existe porque la pasión lo determinó  
 > y porque él asumió esa determinación como propia.»
+
 # ÍNDICE
 
 Prefacio El día que el caos llegó al Olimpo  
@@ -48,6 +51,7 @@ Apéndice A — El aego. Afasia volitiva y singularidad ontológica
 Apéndice B — Zagreo o la soberanía no consentida  
 Apéndice C — Narciso o la víctima indistinguible  
 Glosario de términos
+
 # Notas del autor
 
 ¿Qué es la pasión antes de que el sujeto exista para sentirla?
@@ -59,6 +63,7 @@ Glosario de términos
 Desde el caos como posibilidad infinita hasta el ego como integral irreversible de colapsos asumidos, este primer volumen construye sistemáticamente los fundamentos de una filosofía del yo que rechaza la sustancia sin rechazar la responsabilidad, que disuelve el *cogito* cartesiano sin disolver al sujeto, y que encuentra en Afrodita y en Ares —el dominio y la conquista— las dos dimensiones de la misma fuerza que todo ser tiene como constitutiva de su existencia.
 
 En diálogo crítico con Descartes, Hume y Kant, y a través de la mediación prima, la mediación fanes y la mediación bis, el volumen culmina en la inversión completa del *cogito*: no pienso, luego existo, sino la pasión me determinó, asumí esa determinación como propia, y en esa asunción soy.
+
 # Prefacio
 
 ## El día que el caos llegó al Olimpo
@@ -106,6 +111,7 @@ Sino la naturaleza de esa fuerza que se planta frente a lo indeterminado y dice,
 A esa fuerza la llamaremos pasión.
 
 Y desde aquí comienza todo lo demás.
+
 # Prólogo filosófico
 
 ## Por qué la voluntad necesita un nuevo comienzo
@@ -171,11 +177,13 @@ El lector encontrará tres registros que se alternan a lo largo del texto: el ar
 Una advertencia final: este libro no termina donde termina la filosofía clásica del sujeto. Termina donde comienza algo distinto. La razón que Hermes representa, la estrategia que Atenea encarna: ambas son posibles porque Ares y Afrodita ya estaban peleando antes de que ellas llegaran. Antes del pensamiento, la pasión. Antes del sujeto que reflexiona, el ser que quiere seguir siendo.
 
 Ese es el comienzo. Todo lo demás es consecuencia.
+
 # Parte I
 
 ## El caos y la posibilidad
 
 *Antes de que algo sea, todo puede ser*
+
 # Capítulo 1
 
 ## El caos no es desorden
@@ -277,6 +285,7 @@ El caos no es el enemigo del ego. Es su condición de posibilidad. Sin posibilid
 ⁶ Deleuze, Gilles, Diferencia y repetición (1968), cap. IV. La distinción entre virtual y actual es central en la ontología deleuziana: lo virtual no es lo posible (que se opone a lo real) sino lo real que todavía no se ha actualizado.
 
 ⁷ Deleuze, Gilles, Lógica del sentido (1969), serie XIV. Las «síntesis pasivas» y los «flujos de intensidad» que recorren el plano de inmanencia tienen en Deleuze una productividad inmanente que no requiere ningún agente exterior. Es precisamente esa productividad inmanente del caos lo que este sistema rechaza: el caos no produce, la pasión produce dentro del caos.
+
 # Capítulo 2
 
 ## Determinación y colapso
@@ -385,6 +394,7 @@ El debate con Hume no termina aquí. Volverá cuando el argumento llegue al ego,
 ¹¹ Hume, David, Investigación sobre el entendimiento humano (1748), sección IV. Allí distingue entre relaciones de ideas y cuestiones de hecho; esta distinción suele llamarse «bifurcación de Hume». En un pasaje distinto, Tratado sobre la naturaleza humana (1739–1740), libro III, parte I, sección I, examina el paso de proposiciones sobre lo que es a conclusiones sobre lo que debe ser; a este problema se lo conoce como «guillotina de Hume».
 
 ¹² Esta lectura de Hume es la que más directamente conecta con el problema del ego: si la causalidad está en la mente y no en el mundo, entonces la mente que proyecta la causalidad es ella misma un objeto de estudio que Hume somete al mismo escepticismo. El resultado es el yo como haz de percepciones sin sustancia permanente, argumento que este sistema tomará como punto de partida en el capítulo sobre la mediación fanes.
+
 *Parte I — El caos y la posibilidad*
 
 # Capítulo 3
@@ -487,7 +497,9 @@ Esta caracterización del sujeto como habitante del caos —no como ser que supe
 
 ¹⁹ Whitehead, Proceso y realidad, Parte II, cap. I. La creatividad es descrita como «el universal de los universales», el principio último que no puede definirse en términos de nada más básico. Esta posición ha sido criticada por introducir un principio cuasi-teológico por la puerta trasera de la inmanencia.
 
-²⁰ El concepto de emergencia tiene una historia compleja que se remonta, entre otros antecedentes, a John Stuart Mill. En A System of Logic, Mill denomina «heteropáticos» los efectos conjuntos que no se obtienen por la simple suma de los efectos de las causas consideradas por separado. Véase John Stuart Mill, A System of Logic, Ratiocinative and Inductive (1843), libro III, cap. VI, § 1.*Parte II — La pasión como fuerza ontológica*
+²⁰ El concepto de emergencia tiene una historia compleja que se remonta, entre otros antecedentes, a John Stuart Mill. En A System of Logic, Mill denomina «heteropáticos» los efectos conjuntos que no se obtienen por la simple suma de los efectos de las causas consideradas por separado. Véase John Stuart Mill, A System of Logic, Ratiocinative and Inductive (1843), libro III, cap. VI, § 1.
+
+*Parte II — La pasión como fuerza ontológica*
 
 # Capítulo 4
 
@@ -593,6 +605,7 @@ Desde aquí, el argumento puede avanzar hacia los capítulos que mostrarán cóm
 ²² Nietzsche, Friedrich, La voluntad de poder (compilación póstuma, 1901/1906), § 689. Véase también Así habló Zaratustra (1883–1885), «De la superación de sí mismo», donde Nietzsche formula más claramente que la voluntad de poder no es voluntad de existir sino voluntad de crecer y superarse. La distinción entre voluntad de conservación y voluntad de poder es uno de los puntos en que Nietzsche más explícitamente se distancia de Schopenhauer.
 
 ²³ Deleuze ofrece en Nietzsche y la filosofía (1962) la lectura más filosóficamente rigurosa de la voluntad de poder como diferencia de fuerzas: activas y reactivas, dominantes y dominadas. Esta lectura acentúa la dimensión relacional del concepto nietzscheano y muestra que la voluntad de poder no es una propiedad de los individuos aislados sino de las relaciones entre fuerzas. Es una lectura que este sistema toma en cuenta pero de la que se distancia en el punto decisivo: la pasión, en este sistema, no es primordialmente relacional sino constitutiva del ser mismo antes de toda relación.
+
 *Parte II — La pasión como fuerza ontológica*
 
 # Capítulo 5
@@ -688,6 +701,7 @@ La bellota de Aristóteles no tiende hacia el roble porque tenga un *telos* pred
 ²⁷ Bergson, Henri, La evolución creadora (1907), cap. II. El élan vital es la categoría central de la filosofía de la biología de Bergson. Ha sido criticado desde la biología por ser una categoría explicativa vacía —nombra lo que necesita ser explicado sin explicarlo— y desde la filosofía por introducir un principio vitalista que la ontología materialista no puede aceptar. La crítica biológica es menos pertinente de lo que parece, porque Bergson no pretende que el élan vital sea una entidad física sino una categoría ontológica de nivel distinto al de la bioquímica.
 
 ²⁸ La noción de resistencia en física tiene varios niveles que conviene distinguir: la resistencia mecánica —la oposición de un cuerpo a la deformación—, la resistencia eléctrica —la oposición de un material al flujo de corriente—, la resistencia química —la tendencia de un compuesto a no reaccionar con otros— y la inercia —la tendencia de los cuerpos a mantener su estado de movimiento o reposo—. Todas ellas son, en términos de este sistema, manifestaciones de la misma categoría ontológica: la orientación de una configuración material a sostenerse como tal dentro del campo de fuerzas que la afectan.
+
 *Parte II — La pasión como fuerza ontológica*
 
 # Capítulo 6
@@ -784,6 +798,7 @@ Antes de llegar a las mediaciones, sin embargo, hay un capítulo pendiente: el q
 ³³ Canguilhem, Lo normal y lo patológico, Primera parte, cap. II. La definición de salud que Canguilhem propone —la capacidad de establecer nuevas normas frente a variaciones del entorno— implica una plasticidad normativa, una capacidad de adaptación que va más allá de la simple homeostasis. Esta definición tiene resonancias directas con la manera en que este sistema entiende la pasión como orientación dinámica y no como estado fijo.
 
 ³⁴ Canguilhem fue explícito en rechazar la extensión de la normatividad vital más allá del dominio de lo vivo. En ese punto, su posición es la opuesta a la de este sistema: para Canguilhem, la normatividad es lo que define a los organismos y los distingue radicalmente de los objetos físicos. Este sistema acepta que la normatividad en los organismos tiene una riqueza que los objetos no tienen, pero rechaza que sea una diferencia ontológica absoluta más que una diferencia de complejidad y autorreferencia.
+
 *Parte II — La pasión como fuerza ontológica*
 
 # Capítulo 7
@@ -913,6 +928,7 @@ La Parte III comienza desde aquí.
 ³⁷ Freud, Sigmund, Más allá del principio del placer (1920). La introducción de Tánatos como pulsión de muerte es uno de los momentos más controvertidos del pensamiento freudiano: muchos de sus colaboradores —incluyendo Adler y Jung— la rechazaron. La versión más desarrollada de la dualidad Eros-Tánatos se encuentra en El malestar en la cultura (1930), donde Freud la aplica al análisis de la civilización como tensión entre el impulso constructor de Eros y el impulso disgregador de Tánatos.
 
 ³⁸ Freud, Más allá del principio del placer, cap. V. La tendencia de Tánatos hacia el estado de mínima excitación —que Freud conecta con el principio de Nirvana de la filosofía budista y con el principio de constancia de Fechner— es la dimensión del concepto que más directamente contradice la ontología de la pasión que este sistema propone. Para Freud, hay una tendencia constitutiva de la vida hacia la no-vida, del ser hacia el no-ser. Para este sistema, esa tendencia no existe como constitutiva del ser: el caos no es el destino de la pasión sino su condición de operación.
+
 # Capítulo 8
 
 ## La mediación prima
@@ -1047,6 +1063,7 @@ Hay también en la mediación prima una dimensión de humildad ontológica que e
 ⁴² Merleau-Ponty, Fenomenología de la percepción, Parte I, cap. III. El «arco intencional» es la manera en que Merleau-Ponty describe la orientación global del cuerpo hacia su mundo: no como intencionalidad de actos particulares sino como la manera en que el cuerpo-vivido tiene siempre ya una relación con el entorno que precede a cualquier acto intencional particular. La crítica que este sistema le hace no invalida esa descripción fenomenológica: la reinterpreta en términos ontológicos que no requieren la categoría de intencionalidad.
 
 ⁴³ Kant, Immanuel, Crítica de la razón pura (1781/1787), «Deducción trascendental de los conceptos puros del entendimiento», §16. La formulación del yo trascendental como apercepción pura establece que el yo pienso tiene que poder acompañar todas mis representaciones. Esa posibilidad formal es lo que Kant llama apercepción trascendental o unidad sintética de la apercepción. La diferencia entre la apercepción trascendental y el yo psicológico es uno de los puntos más delicados de la filosofía kantiana y ha generado un debate interpretativo que va desde Fichte hasta el neokantismo contemporáneo.
+
 # Capítulo 9
 
 ## La identidad como dimensión del ser
@@ -1183,6 +1200,7 @@ El sujeto que puede sostener una relación honesta con su identidad —que puede
 ⁴⁶ Goffman, Erving, La presentación de la persona en la vida cotidiana (1959). El concepto de performance —o actuación— es el central de la sociología goffmaniana: el sujeto actúa en el sentido teatral del término, gestiona su presentación ante audiencias que también actúan, y la vida social es el resultado de esas interacciones de gestión mutua de impresiones.
 
 ⁴⁷ Goffman desarrolló la dimensión relacional e interaccional de la identidad con mayor detalle en Estigma: la identidad deteriorada (1963), donde analiza cómo ciertas identidades —las marcadas por estigmas sociales— son construidas por la interacción social antes de que el sujeto estigmatizado pueda tener ninguna relación reflexiva con ellas. Ese análisis es, en los términos de este sistema, una descripción precisa de cómo la trayectoria puede producir configuraciones concretas de la identidad que el sujeto hereda sin haberlas elegido y que condicionan fuertemente su sesgo de partida.
+
 *Parte III — Las mediaciones*
 
 # Capítulo 10
@@ -1314,7 +1332,9 @@ El yo de Descartes piensa su existencia. El yo de este sistema asume su pasión.
 
 ⁵⁴ Piaget, Jean, La representación del mundo en el niño (1926). El concepto de egocentrismo infantil —que Piaget usa en sentido técnico y no moral— describe la incapacidad del niño en las primeras etapas del desarrollo para distinguir entre su propio punto de vista y el punto de vista de los objetos o de las otras personas. La descentración es el proceso gradual por el cual el niño aprende a coordinar su perspectiva con otras perspectivas.
 
-⁵⁵ La secuencia de estadios de Piaget ha sido revisada y discutida por investigaciones posteriores. Por ejemplo, Baillargeon informó resultados con bebés de tres meses y medio y cuatro meses y medio que interpretó como evidencia de una comprensión temprana de la permanencia de los objetos. Ese resultado cuestiona algunos aspectos de la cronología piagetiana, pero no equivale a atribuir a esa edad todas las capacidades que Piaget describió para estadios posteriores. Véase Renée Baillargeon, «Object Permanence in 3½- and 4½-Month-Old Infants», Developmental Psychology 23, n.º 5 (1987): 655–664, https://doi.org/10.1037/0012-1649.23.5.655.*Parte III — Las mediaciones*
+⁵⁵ La secuencia de estadios de Piaget ha sido revisada y discutida por investigaciones posteriores. Por ejemplo, Baillargeon informó resultados con bebés de tres meses y medio y cuatro meses y medio que interpretó como evidencia de una comprensión temprana de la permanencia de los objetos. Ese resultado cuestiona algunos aspectos de la cronología piagetiana, pero no equivale a atribuir a esa edad todas las capacidades que Piaget describió para estadios posteriores. Véase Renée Baillargeon, «Object Permanence in 3½- and 4½-Month-Old Infants», Developmental Psychology 23, n.º 5 (1987): 655–664, https://doi.org/10.1037/0012-1649.23.5.655.
+
+*Parte III — Las mediaciones*
 
 # Capítulo 11
 
@@ -1434,6 +1454,7 @@ La Parte IV del libro comenzará desde aquí: con el sujeto que ya tiene ego, qu
 ⁶⁰ Sartre, El ser y la nada, Parte Segunda. La relación del para-sí con su facticidad —lo que ya ha sido— y con su trascendencia —lo que todavía no es, el proyecto hacia el que se lanza— es la estructura fundamental de la temporalidad sartreana. El pasado del para-sí es su ser-en-sí: lo que ya fue y que ahora es como cosa. Pero el para-sí no es su pasado: lo tiene sin ser él.
 
 ⁶¹ James, William, Principios de psicología (1890), cap. IX. La metáfora de la corriente —stream— para describir la conciencia fue revolucionaria en su contexto: rompía con la psicología asociacionista que describía la mente como una suma de elementos discretos. James identificó cinco características de la corriente de conciencia: pertenece a un yo personal, es continua, está en cambio permanente, tiene un objeto intencional, y presta atención diferencial a algunas de sus partes más que a otras.
+
 *Parte IV — El ego como integral*
 
 # Capítulo 12
@@ -1576,7 +1597,9 @@ Ese proceso tiene un nombre que este libro le ha dado: la inversión del *cogito
 
 ⁶² Descartes, René, Discurso del método (1637), parte IV, donde aparece en francés «je pense, donc je suis»; Meditaciones metafísicas (1641), Segunda Meditación, donde escribe en latín «Ego sum, ego existo» («yo soy, yo existo»). Son formulaciones distintas en contextos diferentes: cogito ergo sum no es la frase francesa del Discurso ni la cita latina de la Segunda Meditación. En esta última, Descartes afirma que su existencia es cierta mientras piensa y se caracteriza como cosa que piensa (res cogitans). La discusión con Gassendi concierne al alcance de la inferencia desde el pensamiento hasta el yo que piensa; véanse las Quintas objeciones y respuestas, incluidas en las Meditaciones.
 
-⁶³ La objeción que este sistema hace al cogito tiene antecedentes en la tradición filosófica. Lichtenberg formuló en sus Sudelbücher la observación de que sería más prudente decir «es piensa» que «yo pienso»; la referencia es el cuaderno K, apunte K 76. Nietzsche, en Más allá del bien y del mal, § 17, sostuvo que el cogito introduce la gramática del sujeto como si fuera una verdad ontológica. James analizó la corriente de conciencia en Principles of Psychology, cap. IX. Su inclusión aquí se refiere al rechazo de un yo sustancial como soporte de la experiencia, no a la afirmación de que James negara toda pertenencia de la corriente a un yo personal. Hume llegó a un problema relacionado por otra vía. Lo que este sistema añade es la descripción positiva del mecanismo que produce el yo.*Parte IV — El ego como integral*
+⁶³ La objeción que este sistema hace al cogito tiene antecedentes en la tradición filosófica. Lichtenberg formuló en sus Sudelbücher la observación de que sería más prudente decir «es piensa» que «yo pienso»; la referencia es el cuaderno K, apunte K 76. Nietzsche, en Más allá del bien y del mal, § 17, sostuvo que el cogito introduce la gramática del sujeto como si fuera una verdad ontológica. James analizó la corriente de conciencia en Principles of Psychology, cap. IX. Su inclusión aquí se refiere al rechazo de un yo sustancial como soporte de la experiencia, no a la afirmación de que James negara toda pertenencia de la corriente a un yo personal. Hume llegó a un problema relacionado por otra vía. Lo que este sistema añade es la descripción positiva del mecanismo que produce el yo.
+
+*Parte IV — El ego como integral*
 
 # Capítulo 13
 
@@ -1687,6 +1710,7 @@ La muerte cierra esa integral. Y lo que queda —el conjunto de colapsos asumido
 ⁶⁹ Parfit usa el experimento mental de la teletransportación: si una máquina destruye mi cuerpo y crea una réplica exacta en Marte con las mismas memorias, creencias y disposiciones que yo tenía, ¿es esa réplica yo? Parfit argumenta que la pregunta de si es realmente yo es menos importante que la pregunta de si tiene continuidad psicológica conmigo —y la respuesta a esta segunda pregunta es sí.
 
 ⁷⁰ Parfit, Razones y personas, Parte III, cap. 15. La tesis de que la disolución de la identidad personal tiene consecuencias liberadoras —que reduce el egoísmo y hace más razonable el altruismo y la preocupación por generaciones futuras— es una de las partes más discutidas de la obra de Parfit. Sus críticos han señalado que las consecuencias que Parfit extrae de su tesis metafísica presuponen valoraciones que la tesis metafísica no puede por sí sola justificar.
+
 *Parte IV — El ego como integral*
 
 # Capítulo 14
@@ -1787,6 +1811,7 @@ Ese ego —el que puede sostener el peso de sus posibilidades negadas sin distor
 ⁷³ Sartre, Jean-Paul, El ser y la nada (1943), Parte Primera, cap. II. Los dos ejemplos clásicos de la mala fe en Sartre son los del garçon de café —quien actúa con tal precisión su rol que parece identificarse completamente con él, negando la trascendencia que la conciencia tiene respecto a cualquier rol— y el de la mujer en la cita —que permite que la mano del acompañante tome la suya sin reconocer ni rechazar lo que está ocurriendo, manteniéndose en una ambigüedad que le evita tomar posición.
 
 ⁷⁴ La paradoja de la mala fe en Sartre es uno de los problemas más discutidos de su ontología: si la conciencia sabe que está en mala fe —porque la mala fe requiere la conciencia de la libertad que pretende negar— entonces la mala fe es siempre un fracaso parcial, un proyecto que nunca puede completarse. Herbert Spiegelberg y otros intérpretes han señalado que esa paradoja muestra una tensión en el pensamiento sartreano entre la tesis de que la conciencia es transparente a sí misma y la descripción fenomenológica de estados de autoengaño que parecen genuinamente opacos.
+
 *Parte V — La pasión y el sujeto*
 
 # Capítulo 15
@@ -1915,6 +1940,7 @@ Antes del pensamiento, la pasión. Y antes del siguiente volumen, este.
 ⁷⁵ Kant, Immanuel, Crítica de la razón pura (1781/1787), §16–§18 de la Deducción Trascendental (segunda edición). La apercepción pura —el «yo pienso» que debe poder acompañar todas mis representaciones— es la condición formal de la unidad de la conciencia. Kant distingue entre la apercepción pura o trascendental —la condición lógica de la unidad de la experiencia— y la apercepción empírica o psicológica —el yo que se encuentra en la introspección como objeto de la experiencia interna. Solo la primera es condición de posibilidad; la segunda es un fenómeno entre otros. La objeción de Lichtenberg al cogito cartesiano —debería decirse hay pensamiento, no yo pienso— se aplica también al yo trascendental kantiano: Kant asume que la unidad formal de la experiencia requiere un yo que la produzca, cuando podría ser que la unidad emergiera sin que haya ningún yo que la preceda.
 
 ⁷⁶ La relación entre la mitología griega y la ontología que este sistema propone no es decorativa ni meramente ilustrativa: es estructural. Los dioses griegos no son alegorías de fuerzas psicológicas —esa es la lectura romántica que este sistema rechaza— sino nombres que la tradición les dio a tendencias ontológicas que este sistema describe con precisión técnica. Ares no representa la agresividad: es el nombre que la tradición le dio a la dimensión de conquista-por-colisión de la pasión universal. Afrodita no representa el amor romántico: es el nombre que la tradición le dio a la dimensión de dominio-por-apropiación. Y Atenea y Hermes no representan la inteligencia abstracta: son los nombres que la tradición le dio a la capacidad del sujeto de operar sobre sus propias representaciones con estrategia y comunicación —capacidades que presuponen el sujeto que la pasión construyó.
+
 # Advertencia editorial
 ---
 
@@ -1923,6 +1949,7 @@ Estos apéndices no son recomendaciones, no son apología de ningún curso de ac
 Si estás en crisis o necesitas apoyo, puedes contactar a una línea de ayuda en tu país. En México: SAPTEL 55 5259-8121, disponible las 24 horas.
 ---
 Centro Multidisciplinario Meriadock
+
 # Apéndice A
 
 ## El aego
@@ -2009,6 +2036,7 @@ El tercer momento es el suicidio. Si el aego es el estado en que φ₂ ha dejado
 ⁷⁹ La noción de singularidad que este apéndice usa es la de la física matemática: el punto en que una función o un sistema de ecuaciones deja de estar definida. No la singularidad tecnológica ni la singularidad en el sentido de evento único. La singularidad existencial que el aego representa es el punto en que la función de asunción φ₂ se vuelve indeterminada: no igual a cero, sino sin valor definido. Esa diferencia es importante: una función que vale cero aún es una función; una función indeterminada ha salido del dominio de la descripción.
 
 ⁸⁰ La distinción entre accidente ontológico y singularidad interna retoma la distinción aristotélica entre accidente —lo que le ocurre a la sustancia desde fuera de su naturaleza— y la modificación intrínseca. Este sistema rechaza la sustancialidad del yo pero conserva la distinción entre lo que el medio impone al sistema y lo que el sistema alcanza desde su propia dinámica interna. El accidente no requiere que el sistema haya llegado a ningún límite interno: el límite es impuesto desde afuera. La singularidad requiere que el sistema haya alcanzado ese límite desde adentro.
+
 # Apéndice B
 
 ## Zagreo o la soberanía no consentida
@@ -2109,6 +2137,7 @@ Lo que el mito añade que el análisis ontológico solo puede aproximar: Zagreo 
 ⁸³ Kouider y sus colaboradores registraron una respuesta electrofisiológica asociada a la percepción consciente en bebés de cinco, doce y quince meses. El resultado muestra que esa respuesta estaba presente en los grupos estudiados desde los cinco meses; no establece por sí solo cuándo aparece por primera vez ni demuestra que la arquitectura neuronal pertinente solo se complete varios meses después del nacimiento. Tampoco determina cuándo ocurre la mediación fanes, cuyas condiciones, según este sistema, exceden la conciencia de acceso. Véase Sid Kouider et al., «A Neural Marker of Perceptual Consciousness in Infants», Science 340, n.º 6130 (2013): 376–380, https://doi.org/10.1126/science.1232509.
 
 ⁸⁴ La noción de «deuda de existencia» que este apéndice usa no debe confundirse con la deuda en el sentido moral o económico. Es una descripción ontológica: el sujeto existe como resultado de una decisión que no pudo tomar, y esa condición de origen es parte de lo que es. No implica obligación ni gratitud: implica que la existencia del sujeto tiene una anterioridad —un momento fundacional sobre el que el sujeto no tuvo ningún poder— que ninguna mediación fanes ni ninguna acumulación de la integral puede retroactivamente consentir.
+
 # Apéndice C
 
 ## Narciso o la víctima indistinguible
@@ -2222,6 +2251,7 @@ Narciso no eligió morir. Se consumió en la persecución de algo que creía otr
 ⁸⁷ Un estudio cualitativo entrevistó a diez personas poco después de un intento de suicidio. Algunas describieron estados alterados de conciencia, pérdida de control o la sensación de que casi no habían sido ellas quienes realizaron el acto. Estos relatos permiten una comparación estructural limitada con la noción de aego, pero no demuestran una reversibilidad general del estado ni que la mayoría de las personas sobrevivientes deje de reconocer como propio el estado previo al intento. Véase Katarina Skogman Pavulans, Ingrid Bolmsjö, Anna-Karin Edberg y Agneta Öjehagen, «Being in Want of Control: Experiences of Being on the Road to, and Making, a Suicide Attempt», International Journal of Qualitative Studies on Health and Well-Being 7 (2012), https://doi.org/10.3402/qhw.v7i0.16228.
 
 ⁸⁸ La imagen final de este apéndice —alguien que llame a Narciso desde afuera del espejo con la voz que el reflejo no tiene— es una imagen ontológica y no una prescripción clínica. Lo que el sistema puede decir es que la información que el sujeto en estado de aego no puede producirse a sí mismo —que la máquina que percibe como ajena es su propia trayectoria— solo puede venir desde afuera del estado de singularidad. Eso apunta, en la práctica, a la importancia del otro: no como consejero ni como terapeuta en primer término, sino como el sujeto que tiene integral operando y que puede nombrar, desde esa integridad, lo que el sujeto en singularidad no puede nombrarse. Ese nombramiento es la condición de posibilidad de que φ₂ vuelva a operar.
+
 # Glosario de términos
 
 Los términos se definen en el sentido técnico específico que tienen en este sistema. Las remisiones indican el capítulo o apéndice donde cada concepto es introducido o desarrollado con mayor precisión. Cuando dos denominaciones corresponden al mismo fenómeno desde escalas o momentos editoriales distintos, el glosario lo explicita para evitar convertir diferencias de perspectiva en diferencias ontológicas.
