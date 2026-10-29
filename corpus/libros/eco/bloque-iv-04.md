@@ -34,7 +34,11 @@ Entrevista Clínica Ontológica · ECO
 
 sino en el sentido de que hay algo en el sujeto que se orienta hacia el proceso. Esa orientación puede ser tenue, puede tener dudas, puede coexistir con resistencias. Lo que debe estar ausente es la orientación contraria: el sujeto que no quiere el proceso y que solo lo acepta por presión de un campo externo (la institución que lo requiere, la pareja que lo demanda, el encargo que lo formalizó) no tiene las condiciones volitivas para Histos. El proceso puede iniciarse desde la presión externa y el ego genuino del sujeto puede eventualmente orientarse hacia él — pero esa orientación debe producirse antes de que Histos tenga el punto de apoyo que necesita.
 
-La condición general del paso — formulación técnica El paso de ECO a Histos requiere: (1) certeza suficiente en el Eje I y la distribución P(Hijos) del Bloque I; (2) al menos una señal de V-1 en la relación mediador-sujeto durante ECO; (3) orientación del ego genuino del sujeto hacia el proceso, aunque sea tenue y con resistencias. Las tres condiciones deben estar presentes simultáneamente. La ausencia de cualquiera de las tres requiere que el mediador evalúe qué trabajo previo crea las condiciones antes de iniciar Histos.
+La condición general del paso — formulación técnica El paso de ECO a Histos requiere:
+
+1. Certeza suficiente en el Eje I y la distribución P(Hijos) del Bloque I;
+2. Al menos una señal de V-1 en la relación mediador-sujeto durante ECO;
+3. Orientación del ego genuino del sujeto hacia el proceso, aunque sea tenue y con resistencias. Las tres condiciones deben estar presentes simultáneamente. La ausencia de cualquiera de las tres requiere que el mediador evalúe qué trabajo previo crea las condiciones antes de iniciar Histos.
 
 Cómo no forzar el paso — señales de paso prematuro
 
@@ -192,8 +196,8 @@ Los cuatro componentes de la hoja de síntesis — formato recomendado Component
 
 Notas al B·IV §4
 
-1 ECO requiere distancia diagnóstica para localizar la configuración del sujeto; Histos requiere presencia relacional para acompañar el proceso. Son operaciones distintas que puede realizar una misma persona, pero no deben confundirse. Acompañar mientras todavía se localiza, o localizar mientras se acompaña, produce la intervención prematura descrita en el §1 (error E·2).
+1. ECO requiere distancia diagnóstica para localizar la configuración del sujeto; Histos requiere presencia relacional para acompañar el proceso. Son operaciones distintas que puede realizar una misma persona, pero no deben confundirse. Acompañar mientras todavía se localiza, o localizar mientras se acompaña, produce la intervención prematura descrita en el §1 (error E·2).
 
-2 La nota de recursos disponibles del ego genuino que el §4 identifica como el insumo más estratégico para Histos implica que cada módulo de ECO registre, además de la localización, los recursos del ego genuino que encontró. La señal de Eros en el Módulo E, la de Anteros en el Módulo A y el D-1 activo en el Eje IV son recursos disponibles. Una hoja de síntesis que los reúna —aunque algunos tengan menor peso en P(Hijos)— ofrece a Histos un mapa más rico que la distribución de los Hijos dominantes por sí sola.
+2. La nota de recursos disponibles del ego genuino que el §4 identifica como el insumo más estratégico para Histos implica que cada módulo de ECO registre, además de la localización, los recursos del ego genuino que encontró. La señal de Eros en el Módulo E, la de Anteros en el Módulo A y el D-1 activo en el Eje IV son recursos disponibles. Una hoja de síntesis que los reúna —aunque algunos tengan menor peso en P(Hijos)— ofrece a Histos un mapa más rico que la distribución de los Hijos dominantes por sí sola.
 
-3 La formulación de transición de ECO a Histos que el §4 propone —«explorar el territorio» para ECO y «caminar en él» para Histos— es una traducción posible al lenguaje sin etiqueta, no la única. El mediador puede adaptarla al lenguaje del sujeto; la transición debe orientarlo hacia el trabajo que sigue sin revelar la localización ni presentar el cierre de ECO como fin (error E·5).
+3. La formulación de transición de ECO a Histos que el §4 propone —«explorar el territorio» para ECO y «caminar en él» para Histos— es una traducción posible al lenguaje sin etiqueta, no la única. El mediador puede adaptarla al lenguaje del sujeto; la transición debe orientarlo hacia el trabajo que sigue sin revelar la localización ni presentar el cierre de ECO como fin (error E·5).
