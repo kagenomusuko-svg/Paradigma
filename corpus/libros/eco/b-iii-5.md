@@ -66,7 +66,7 @@ El §4 de este capítulo desarrolla «lo que pudo ser» con la extensión que me
 
 ### II.  Lo que fue — entrevista a la memoria
 
-La entrevista a la memoria es la técnica central de «lo que fue» en el trabajo de Memoria Comunitaria. No es la entrevista histórica ordinaria ni la entrevista de historia oral: es la entrevista orientada a localizar la configuración del ego colectivo pasado — la posición de v_t del colectivo en los momentos más formadores de su historia antes de la ruptura que el Eje V colectivo describe. La pregunta no es «¿qué ocurrió?» sino «¿cómo era la voluntad de esta comunidad cuando eso ocurrió?», «¿desde dónde actuaban?», «¿qué Hijo dominaba la configuración del ego colectivo antes de la pérdida?».
+La entrevista a la memoria es la técnica central de «lo que fue» en el trabajo de Memoria Comunitaria. No es la entrevista histórica ordinaria ni la entrevista de historia oral: es la entrevista orientada a localizar la configuración del ego colectivo pasado — la posición de v_t del colectivo en los momentos más formadores de su historia antes de la ruptura que el Eje V colectivo describe. La pregunta no es «¿qué ocurrió?» sino «¿Cómo era la voluntad de esta comunidad cuando eso ocurrió?», «¿desde dónde actuaban?», «¿qué Hijo dominaba la configuración del ego colectivo antes de la pérdida?».
 
 Los portadores de memoria — tipología y EP para «lo que fue»
 
@@ -282,11 +282,11 @@ La diferencia específica del trabajo con el ego colectivo es la escala: el medi
 
 Las tres preguntas del trabajo de Memoria Comunitaria en Histos
 
-El trabajo de ECO en el contexto de Memoria Comunitaria produce las localizaciones de la triada. El trabajo de Histos colectivo —que este instrumento no desarrolla, pero al que debe entregar sus
+El trabajo de ECO en el contexto de Memoria Comunitaria produce las localizaciones de la triada. El trabajo de Histos colectivo —que este instrumento no desarrolla, pero al que debe entregar sus resultados— opera desde tres preguntas que son la traducción de la triada en trabajo de acompañamiento:
 
-Entrevista Clínica Ontológica · ECO
-
-resultados— opera desde tres preguntas que son la traducción de la triada en trabajo de acompañamiento. La primera: «¿cómo puede este ego colectivo honrar lo que fue sin quedar atrapado en ello?» Esa pregunta opera sobre el eje de la triada «lo que fue» y requiere que el colectivo esté en T-3 o superior del Eje V para poder ser abordada. La segunda: «¿cómo puede este ego colectivo estar en lo que es sin que eso sea una traición a lo que fue?» Esa pregunta requiere que el colectivo pueda distinguir el presente del pasado sin que la distinción produzca culpa de traición — lo que corresponde a T-4 o superior. La tercera: «¿qué puede ser este ego colectivo que incorpore lo que fue sin ser idéntico a ello?» Esa pregunta, la más difícil, requiere que el colectivo pueda imaginar un futuro genuinamente nuevo — lo que corresponde a T-5 o T-6.
+1. «¿Cómo puede este ego colectivo honrar lo que fue sin quedar atrapado en ello?» Esa pregunta opera sobre el eje de la triada «lo que fue» y requiere que el colectivo esté en T-3 o superior del Eje V para poder ser abordada.
+2. «¿Cómo puede este ego colectivo estar en lo que es sin que eso sea una traición a lo que fue?» Esa pregunta requiere que el colectivo pueda distinguir el presente del pasado sin que la distinción produzca culpa de traición — lo que corresponde a T-4 o superior.
+3. «¿qué puede ser este ego colectivo que incorpore lo que fue sin ser idéntico a ello?» Esa pregunta, la más difícil, requiere que el colectivo pueda imaginar un futuro genuinamente nuevo — lo que corresponde a T-5 o T-6.
 
 Condición de derivación a Histos colectivo desde el Bloque III §5 Las tres localizaciones de la triada completas (lo que fue, lo que es, lo que pudo ser) + posición en el Eje V colectivo localizada con EP-2 o superior + ego soberano real identificado con tres fuentes convergentes + nota del tipo de duelo comunitario (habitado, no habitado, fijado en T-1, en tiranía utópica). Sin estas condiciones, la derivación a Histos colectivo no tiene el mapa desde el que el trabajo de acompañamiento puede orientarse. Histos colectivo en Memoria Comunitaria es el instrumento de mayor complejidad del paradigma — no puede iniciarse sin la localización que el Bloque III §5 provee.
 
