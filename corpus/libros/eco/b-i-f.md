@@ -34,11 +34,7 @@ Entrevista Clínica Ontológica · ECO
 
 Criterios de entrada directa
 
-El Módulo Fobos puede iniciarse directamente —sin seguir el orden estándar desde la apertura narrativa— cuando se cumple alguna de las siguientes condiciones.
-
-1. La apertura narrativa produjo señal clara de reactividad ante amenaza concreta. El sujeto describió o mostró, en los primeros diez a veinte minutos de la sesión, una respuesta urgente ante un objeto externo identificable.
-2. El Eje I del SDO —cuando viene de una sesión anterior— orienta hacia E-1 o E-2 con patrón reactivo documentado.
-3. El árbol documental del Capítulo U·1 ya produjo P(Fobos) ≥ 0.50 desde evidencia documental y el mediador necesita verificar esa localización desde presencia.
+El Módulo Fobos puede iniciarse directamente —sin seguir el orden estándar desde la apertura narrativa— cuando se cumple alguna de las siguientes condiciones. La primera: la apertura narrativa produjo señal clara de reactividad ante amenaza concreta. El sujeto describió o mostró, en los primeros diez a veinte minutos de la sesión, una respuesta urgente ante un objeto externo identificable. La segunda: el Eje I del SDO —cuando viene de una sesión anterior— orienta hacia E-1 o E-2 con patrón reactivo documentado. La tercera: el árbol documental del Capítulo U·1 ya produjo P(Fobos) ≥ 0.50 desde evidencia documental y el mediador necesita verificar esa localización desde presencia.
 
 El criterio de entrada directa autoriza al mediador a iniciar el módulo con la pregunta ancla sin pasar por los módulos F o D en orden. No autoriza a saltarse la verificación de exclusión: la hipótesis de Fobos que produce la entrada directa debe ser confirmada o descartada dentro del módulo antes de producir cualquier codificación.
 
@@ -316,11 +312,11 @@ Sin EP asignable.
 
 ### Regla de codificación H-3 para Fobos — condición específica
 
-La codificación H-3 en el Módulo Fobos requiere las tres condiciones siguientes de manera simultánea.
+La codificación H-3 en el Módulo Fobos requiere las tres condiciones siguientes de manera simultánea. Primera: narrativa de reacción ante amenaza concreta con objeto externo identificable en al menos dos episodios distintos de la historia del sujeto o del período analizado. Segunda: la certeza de la atribución en la narrativa supera lo que la evidencia que el sujeto ofrece puede sostener —no basta con que haya atribución, debe ser desproporcionada. Tercera: al menos una señal de observación directa en la sesión que corrobore la narrativa (urgencia en el tono, retorno espontáneo al objeto de la amenaza, señal corporal de activación). Las tres condiciones juntas producen H-3. Si falta alguna, el código máximo es H-2.
 
-1. Narrativa de reacción ante amenaza concreta con objeto externo identificable en al menos dos episodios distintos de la historia del sujeto o del período analizado.
-2. La certeza de la atribución en la narrativa supera lo que la evidencia que el sujeto ofrece puede sostener —no basta con que haya atribución, debe ser desproporcionada.
-3. Al menos una señal de observación directa en la sesión que corrobore la narrativa (urgencia en el tono, retorno espontáneo al objeto de la amenaza, señal corporal de activación). Las tres condiciones juntas producen H-3. Si falta alguna, el código máximo es H-2. La segunda condición —la desproporción de la certeza respecto a la evidencia— es la más importante y la más difícil de evaluar. El mediador que evalúa si la atribución del sujeto es proporcional necesita resistir la tentación de decidir si el sujeto tiene razón o no sobre la realidad de la amenaza. Eso no es evaluable desde ECO. Lo que es evaluable es si la certeza con que el sujeto presenta la atribución excede lo que la narrativa que ofrece puede fundamentar. Un sujeto que dice «sé que fue esa persona la que causó el problema» con base en una conversación de pasillo ha producido una certeza mayor a lo que su evidencia sostiene, independientemente de si tiene razón o no.
+Entrevista Clínica Ontológica · ECO
+
+La segunda condición —la desproporción de la certeza respecto a la evidencia— es la más importante y la más difícil de evaluar. El mediador que evalúa si la atribución del sujeto es proporcional necesita resistir la tentación de decidir si el sujeto tiene razón o no sobre la realidad de la amenaza. Eso no es evaluable desde ECO. Lo que es evaluable es si la certeza con que el sujeto presenta la atribución excede lo que la narrativa que ofrece puede fundamentar. Un sujeto que dice «sé que fue esa persona la que causó el problema» con base en una conversación de pasillo ha producido una certeza mayor a lo que su evidencia sostiene, independientemente de si tiene razón o no.
 
 ### IX.  Distribución P(Hijos) desde este módulo
 
@@ -390,7 +386,11 @@ Condición de derivación a Histos desde Fobos Fobos H-3 con EP-1 o EP-2 + Bloqu
 
 Cuándo el caso supera ECO
 
-El Módulo Fobos puede revelar dos tipos de situación que superan el alcance de ECO y que el mediador debe reconocer. La primera es Fobos ante una amenaza real e inminente: cuando lo que el sujeto describe no es una reacción desproporcionada sino una respuesta a una amenaza genuina que existe en el presente —violencia, persecución, situación de peligro real. ECO no es el instrumento para trabajar con sujetos en peligro real: el principio de derivación del paradigma se aplica con toda su fuerza. La segunda es Fobos asociado a síntomas que superan el nivel ontológico: cuando la urgencia reactiva que el sujeto describe viene acompañada de síntomas que orientan hacia una condición clínica que requiere evaluación psicológica o psiquiátrica. ECO puede coexistir con esa evaluación, pero no puede sustituirla.
+El Módulo Fobos puede revelar dos tipos de situación que superan el alcance de ECO y que el mediador debe reconocer. La primera es Fobos ante una amenaza real e inminente: cuando lo que el sujeto describe no es una reacción desproporcionada sino una respuesta a una amenaza genuina que existe en el presente —violencia, persecución, situación de peligro real. ECO no es el instrumento para trabajar con sujetos en peligro real: el principio de derivación
+
+Entrevista Clínica Ontológica · ECO
+
+del paradigma se aplica con toda su fuerza. La segunda es Fobos asociado a síntomas que superan el nivel ontológico: cuando la urgencia reactiva que el sujeto describe viene acompañada de síntomas que orientan hacia una condición clínica que requiere evaluación psicológica o psiquiátrica. ECO puede coexistir con esa evaluación, pero no puede sustituirla.
 
 Notas al Módulo B·I·F
 
