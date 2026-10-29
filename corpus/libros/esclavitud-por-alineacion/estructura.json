@@ -1,0 +1,181 @@
+{
+  "title": "La esclavitud por alineación",
+  "source": "corpus/fuentes/La esclavitud por alineación.md",
+  "sha256": "e71b54a5366df488039be8d23f5034016d5f8ce2352dd5cc05558d5f54f5bca3",
+  "series": null,
+  "volume": null,
+  "segmentation_rule": "Partes numeradas copiadas de publicaciones; la fuente íntegra es su concatenación exacta.",
+  "segments": [
+    {
+      "path": "corpus/libros/esclavitud-por-alineacion/01.md",
+      "kind": "unit",
+      "heading": "# LA ESCLAVITUD POR ALINEACIÓN",
+      "start_byte": 0,
+      "end_byte": 83,
+      "start_line": 1,
+      "end_line": 3
+    },
+    {
+      "path": "corpus/libros/esclavitud-por-alineacion/02.md",
+      "kind": "legal",
+      "heading": "# Aviso legal",
+      "start_byte": 83,
+      "end_byte": 814,
+      "start_line": 4,
+      "end_line": 15
+    },
+    {
+      "path": "corpus/libros/esclavitud-por-alineacion/03.md",
+      "kind": "index",
+      "heading": "# Índice",
+      "start_byte": 814,
+      "end_byte": 1678,
+      "start_line": 16,
+      "end_line": 43
+    },
+    {
+      "path": "corpus/libros/esclavitud-por-alineacion/04.md",
+      "kind": "unit",
+      "heading": "# Introducción",
+      "start_byte": 1678,
+      "end_byte": 32686,
+      "start_line": 44,
+      "end_line": 194
+    },
+    {
+      "path": "corpus/libros/esclavitud-por-alineacion/05.md",
+      "kind": "unit",
+      "heading": "# PARTE I · EL CONCILIO",
+      "start_byte": 32686,
+      "end_byte": 32802,
+      "start_line": 195,
+      "end_line": 197
+    },
+    {
+      "path": "corpus/libros/esclavitud-por-alineacion/06.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 1",
+      "start_byte": 32802,
+      "end_byte": 63749,
+      "start_line": 198,
+      "end_line": 351
+    },
+    {
+      "path": "corpus/libros/esclavitud-por-alineacion/07.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 2",
+      "start_byte": 63749,
+      "end_byte": 92420,
+      "start_line": 352,
+      "end_line": 521
+    },
+    {
+      "path": "corpus/libros/esclavitud-por-alineacion/08.md",
+      "kind": "unit",
+      "heading": "# PARTE II · LA NADA",
+      "start_byte": 92420,
+      "end_byte": 92522,
+      "start_line": 522,
+      "end_line": 524
+    },
+    {
+      "path": "corpus/libros/esclavitud-por-alineacion/09.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 3",
+      "start_byte": 92522,
+      "end_byte": 116524,
+      "start_line": 525,
+      "end_line": 676
+    },
+    {
+      "path": "corpus/libros/esclavitud-por-alineacion/10.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 4",
+      "start_byte": 116524,
+      "end_byte": 141143,
+      "start_line": 677,
+      "end_line": 842
+    },
+    {
+      "path": "corpus/libros/esclavitud-por-alineacion/11.md",
+      "kind": "unit",
+      "heading": "# PARTE III · LA RELACIÓN",
+      "start_byte": 141143,
+      "end_byte": 141281,
+      "start_line": 843,
+      "end_line": 845
+    },
+    {
+      "path": "corpus/libros/esclavitud-por-alineacion/12.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 5",
+      "start_byte": 141281,
+      "end_byte": 177576,
+      "start_line": 846,
+      "end_line": 1046
+    },
+    {
+      "path": "corpus/libros/esclavitud-por-alineacion/13.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 6",
+      "start_byte": 177576,
+      "end_byte": 211908,
+      "start_line": 1047,
+      "end_line": 1254
+    },
+    {
+      "path": "corpus/libros/esclavitud-por-alineacion/14.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 7",
+      "start_byte": 211908,
+      "end_byte": 237758,
+      "start_line": 1255,
+      "end_line": 1419
+    },
+    {
+      "path": "corpus/libros/esclavitud-por-alineacion/15.md",
+      "kind": "unit",
+      "heading": "# PARTE IV · EL AMOR Y EL DIAGNÓSTICO",
+      "start_byte": 237758,
+      "end_byte": 237893,
+      "start_line": 1420,
+      "end_line": 1422
+    },
+    {
+      "path": "corpus/libros/esclavitud-por-alineacion/16.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 8",
+      "start_byte": 237893,
+      "end_byte": 262410,
+      "start_line": 1423,
+      "end_line": 1597
+    },
+    {
+      "path": "corpus/libros/esclavitud-por-alineacion/17.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 9",
+      "start_byte": 262410,
+      "end_byte": 291006,
+      "start_line": 1598,
+      "end_line": 1782
+    },
+    {
+      "path": "corpus/libros/esclavitud-por-alineacion/18.md",
+      "kind": "unit",
+      "heading": "# Epílogo",
+      "start_byte": 291006,
+      "end_byte": 309290,
+      "start_line": 1783,
+      "end_line": 1910
+    },
+    {
+      "path": "corpus/libros/esclavitud-por-alineacion/19.md",
+      "kind": "unit",
+      "heading": "# Sobre la colección Reivindicación ontológica del ego",
+      "start_byte": 309290,
+      "end_byte": 309444,
+      "start_line": 1911,
+      "end_line": 1913
+    }
+  ]
+}

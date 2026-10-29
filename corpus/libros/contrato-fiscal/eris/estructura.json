@@ -1,0 +1,253 @@
+{
+  "title": "El Contrato Fiscal: Eris",
+  "source": "corpus/fuentes/El Contrato Fiscal Eris.md",
+  "sha256": "69517fc268cb10052c78c603aacf00de3d9cc7c68bf125451739a2dab9d68136",
+  "series": null,
+  "volume": null,
+  "segmentation_rule": "Partes numeradas copiadas de publicaciones; la fuente íntegra es su concatenación exacta.",
+  "segments": [
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/01.md",
+      "kind": "unit",
+      "heading": "# EL CONTRATO FISCAL: ERIS",
+      "start_byte": 0,
+      "end_byte": 91,
+      "start_line": 1,
+      "end_line": 5
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/02.md",
+      "kind": "legal",
+      "heading": "# Aviso legal",
+      "start_byte": 91,
+      "end_byte": 505,
+      "start_line": 6,
+      "end_line": 16
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/03.md",
+      "kind": "index",
+      "heading": "# Índice",
+      "start_byte": 505,
+      "end_byte": 1804,
+      "start_line": 17,
+      "end_line": 42
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/04.md",
+      "kind": "unit",
+      "heading": "EL CONTRATO FISCAL: ERIS",
+      "start_byte": 1804,
+      "end_byte": 20917,
+      "start_line": 43,
+      "end_line": 149
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/05.md",
+      "kind": "unit",
+      "heading": "# PARTE I · EL CONTRACTUALISMO",
+      "start_byte": 20917,
+      "end_byte": 21050,
+      "start_line": 150,
+      "end_line": 152
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/06.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 1",
+      "start_byte": 21050,
+      "end_byte": 42518,
+      "start_line": 153,
+      "end_line": 271
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/07.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 2",
+      "start_byte": 42518,
+      "end_byte": 65787,
+      "start_line": 272,
+      "end_line": 392
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/08.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 3",
+      "start_byte": 65787,
+      "end_byte": 91630,
+      "start_line": 393,
+      "end_line": 521
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/09.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 4",
+      "start_byte": 91630,
+      "end_byte": 114474,
+      "start_line": 522,
+      "end_line": 644
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/10.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 5",
+      "start_byte": 114474,
+      "end_byte": 138496,
+      "start_line": 645,
+      "end_line": 767
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/11.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 6",
+      "start_byte": 138496,
+      "end_byte": 162779,
+      "start_line": 768,
+      "end_line": 904
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/12.md",
+      "kind": "unit",
+      "heading": "# PARTE II · EL LIBERALISMO",
+      "start_byte": 162779,
+      "end_byte": 162913,
+      "start_line": 905,
+      "end_line": 907
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/13.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 7",
+      "start_byte": 162913,
+      "end_byte": 185409,
+      "start_line": 908,
+      "end_line": 1028
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/14.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 8",
+      "start_byte": 185409,
+      "end_byte": 208733,
+      "start_line": 1029,
+      "end_line": 1155
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/15.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 9",
+      "start_byte": 208733,
+      "end_byte": 231231,
+      "start_line": 1156,
+      "end_line": 1273
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/16.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 10",
+      "start_byte": 231231,
+      "end_byte": 253568,
+      "start_line": 1274,
+      "end_line": 1398
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/17.md",
+      "kind": "unit",
+      "heading": "# PARTE III · EL MATERIALISMO HISTÓRICO",
+      "start_byte": 253568,
+      "end_byte": 253713,
+      "start_line": 1399,
+      "end_line": 1401
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/18.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 11",
+      "start_byte": 253713,
+      "end_byte": 276101,
+      "start_line": 1402,
+      "end_line": 1522
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/19.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 12",
+      "start_byte": 276101,
+      "end_byte": 297421,
+      "start_line": 1523,
+      "end_line": 1642
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/20.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 13",
+      "start_byte": 297421,
+      "end_byte": 319628,
+      "start_line": 1643,
+      "end_line": 1763
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/21.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 14",
+      "start_byte": 319628,
+      "end_byte": 345626,
+      "start_line": 1764,
+      "end_line": 1891
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/22.md",
+      "kind": "unit",
+      "heading": "# PARTE IV · LA ANARQUÍA Y LA REVOLUCIÓN",
+      "start_byte": 345626,
+      "end_byte": 345775,
+      "start_line": 1892,
+      "end_line": 1894
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/23.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 15",
+      "start_byte": 345775,
+      "end_byte": 368666,
+      "start_line": 1895,
+      "end_line": 2019
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/24.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 16",
+      "start_byte": 368666,
+      "end_byte": 389931,
+      "start_line": 2020,
+      "end_line": 2144
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/25.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 17",
+      "start_byte": 389931,
+      "end_byte": 412698,
+      "start_line": 2145,
+      "end_line": 2271
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/26.md",
+      "kind": "unit",
+      "heading": "# Epílogo",
+      "start_byte": 412698,
+      "end_byte": 428308,
+      "start_line": 2272,
+      "end_line": 2376
+    },
+    {
+      "path": "corpus/libros/contrato-fiscal/eris/27.md",
+      "kind": "unit",
+      "heading": "# Sobre la colección El Contrato Fiscal",
+      "start_byte": 428308,
+      "end_byte": 428778,
+      "start_line": 2377,
+      "end_line": 2383
+    }
+  ]
+}

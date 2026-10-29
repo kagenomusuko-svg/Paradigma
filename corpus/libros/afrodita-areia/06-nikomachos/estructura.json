@@ -1,114 +1,163 @@
 {
-  "title": "Afrodita Areia: Nikomachos — El límite de la predicación",
+  "title": "Afrodita Areia: Nikomachos",
   "source": "corpus/fuentes/Afrodita_Areia_Nikomachos.md",
-  "sha256": "5ad5ca58854ab1664dd41e6027ea30f29cc6e5217ee7210e14a612a684a08a21",
+  "sha256": "4c929e2d8782664180728f2326e8827857da227c3b34b5af997c08194885e576",
   "series": "Afrodita Areia",
   "volume": 6,
-  "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
+  "segmentation_rule": "Partes numeradas copiadas de publicaciones; la fuente íntegra es su concatenación exacta.",
   "segments": [
     {
-      "path": "corpus/libros/afrodita-areia/06-nikomachos/00-preliminares.md",
-      "kind": "preliminares",
+      "path": "corpus/libros/afrodita-areia/06-nikomachos/01.md",
+      "kind": "cover",
+      "heading": "# Afrodita Areia",
+      "start_byte": 0,
+      "end_byte": 203,
       "start_line": 1,
-      "end_line": 6
+      "end_line": 11
     },
     {
-      "path": "corpus/libros/afrodita-areia/06-nikomachos/02-prologo.md",
-      "kind": "prologo",
-      "heading": "## Prólogo",
-      "start_line": 7,
-      "end_line": 144
+      "path": "corpus/libros/afrodita-areia/06-nikomachos/02.md",
+      "kind": "legal",
+      "heading": "*Primera edición: 2026*  ",
+      "start_byte": 203,
+      "end_byte": 844,
+      "start_line": 12,
+      "end_line": 20
     },
     {
-      "path": "corpus/libros/afrodita-areia/06-nikomachos/capitulo-01.md",
+      "path": "corpus/libros/afrodita-areia/06-nikomachos/03.md",
+      "kind": "index",
+      "heading": "# Índice",
+      "start_byte": 844,
+      "end_byte": 1539,
+      "start_line": 21,
+      "end_line": 61
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/06-nikomachos/04.md",
+      "kind": "prologue",
+      "heading": "# Prólogo",
+      "start_byte": 1539,
+      "end_byte": 18285,
+      "start_line": 62,
+      "end_line": 194
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/06-nikomachos/05.md",
       "kind": "chapter",
-      "heading": "## Capítulo I",
-      "start_line": 145,
-      "end_line": 318
+      "heading": "# Capítulo 1",
+      "start_byte": 18285,
+      "end_byte": 50093,
+      "start_line": 195,
+      "end_line": 367
     },
     {
-      "path": "corpus/libros/afrodita-areia/06-nikomachos/capitulo-02.md",
+      "path": "corpus/libros/afrodita-areia/06-nikomachos/06.md",
       "kind": "chapter",
-      "heading": "## Capítulo II",
-      "start_line": 319,
-      "end_line": 543
+      "heading": "# Capítulo 2",
+      "start_byte": 50093,
+      "end_byte": 91070,
+      "start_line": 368,
+      "end_line": 591
     },
     {
-      "path": "corpus/libros/afrodita-areia/06-nikomachos/capitulo-03.md",
+      "path": "corpus/libros/afrodita-areia/06-nikomachos/07.md",
       "kind": "chapter",
-      "heading": "## Capítulo III",
-      "start_line": 544,
-      "end_line": 769
+      "heading": "# Capítulo 3",
+      "start_byte": 91070,
+      "end_byte": 126467,
+      "start_line": 592,
+      "end_line": 816
     },
     {
-      "path": "corpus/libros/afrodita-areia/06-nikomachos/capitulo-04.md",
+      "path": "corpus/libros/afrodita-areia/06-nikomachos/08.md",
       "kind": "chapter",
-      "heading": "## Capítulo IV",
-      "start_line": 770,
-      "end_line": 981
+      "heading": "# Capítulo 4",
+      "start_byte": 126467,
+      "end_byte": 161250,
+      "start_line": 817,
+      "end_line": 1027
     },
     {
-      "path": "corpus/libros/afrodita-areia/06-nikomachos/capitulo-05.md",
+      "path": "corpus/libros/afrodita-areia/06-nikomachos/09.md",
       "kind": "chapter",
-      "heading": "## Capítulo V",
-      "start_line": 982,
-      "end_line": 1237
+      "heading": "# Capítulo 5",
+      "start_byte": 161250,
+      "end_byte": 198602,
+      "start_line": 1028,
+      "end_line": 1282
     },
     {
-      "path": "corpus/libros/afrodita-areia/06-nikomachos/capitulo-06.md",
+      "path": "corpus/libros/afrodita-areia/06-nikomachos/10.md",
       "kind": "chapter",
-      "heading": "## Capítulo VI",
-      "start_line": 1238,
-      "end_line": 1491
+      "heading": "# Capítulo 6",
+      "start_byte": 198602,
+      "end_byte": 238306,
+      "start_line": 1283,
+      "end_line": 1535
     },
     {
-      "path": "corpus/libros/afrodita-areia/06-nikomachos/capitulo-07.md",
+      "path": "corpus/libros/afrodita-areia/06-nikomachos/11.md",
       "kind": "chapter",
-      "heading": "## Capítulo VII",
-      "start_line": 1492,
-      "end_line": 1761
+      "heading": "# Capítulo 7",
+      "start_byte": 238306,
+      "end_byte": 280286,
+      "start_line": 1536,
+      "end_line": 1802
     },
     {
-      "path": "corpus/libros/afrodita-areia/06-nikomachos/capitulo-08.md",
+      "path": "corpus/libros/afrodita-areia/06-nikomachos/12.md",
       "kind": "chapter",
-      "heading": "## Capítulo VIII",
-      "start_line": 1762,
-      "end_line": 2022
+      "heading": "# Capítulo 8",
+      "start_byte": 280286,
+      "end_byte": 318475,
+      "start_line": 1803,
+      "end_line": 2062
     },
     {
-      "path": "corpus/libros/afrodita-areia/06-nikomachos/capitulo-09.md",
+      "path": "corpus/libros/afrodita-areia/06-nikomachos/13.md",
       "kind": "chapter",
-      "heading": "## Capítulo IX",
-      "start_line": 2023,
-      "end_line": 2270
+      "heading": "# Capítulo 9",
+      "start_byte": 318475,
+      "end_byte": 354006,
+      "start_line": 2063,
+      "end_line": 2307
     },
     {
-      "path": "corpus/libros/afrodita-areia/06-nikomachos/capitulo-10.md",
+      "path": "corpus/libros/afrodita-areia/06-nikomachos/14.md",
       "kind": "chapter",
-      "heading": "## Capítulo X",
-      "start_line": 2271,
-      "end_line": 2530
+      "heading": "# Capítulo 10",
+      "start_byte": 354006,
+      "end_byte": 391088,
+      "start_line": 2308,
+      "end_line": 2567
     },
     {
-      "path": "corpus/libros/afrodita-areia/06-nikomachos/capitulo-11.md",
+      "path": "corpus/libros/afrodita-areia/06-nikomachos/15.md",
       "kind": "chapter",
-      "heading": "## Capítulo XI",
-      "start_line": 2531,
-      "end_line": 2770
+      "heading": "# Capítulo 11",
+      "start_byte": 391088,
+      "end_byte": 426360,
+      "start_line": 2568,
+      "end_line": 2806
     },
     {
-      "path": "corpus/libros/afrodita-areia/06-nikomachos/capitulo-12.md",
+      "path": "corpus/libros/afrodita-areia/06-nikomachos/16.md",
       "kind": "chapter",
-      "heading": "## Capítulo XII",
-      "start_line": 2771,
-      "end_line": 3060
+      "heading": "# Capítulo 12",
+      "start_byte": 426360,
+      "end_byte": 464637,
+      "start_line": 2807,
+      "end_line": 3085
     },
     {
-      "path": "corpus/libros/afrodita-areia/06-nikomachos/90-epilogo.md",
-      "kind": "epilogo",
-      "heading": "## Epílogo",
-      "start_line": 3061,
-      "end_line": 3185
+      "path": "corpus/libros/afrodita-areia/06-nikomachos/17.md",
+      "kind": "unit",
+      "heading": "# Epílogo",
+      "start_byte": 464637,
+      "end_byte": 479037,
+      "start_line": 3086,
+      "end_line": 3208
     }
   ]
 }

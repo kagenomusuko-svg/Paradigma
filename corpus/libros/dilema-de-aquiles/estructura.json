@@ -1,86 +1,145 @@
 {
   "title": "El dilema de Aquiles o la disociación del ego",
   "source": "corpus/fuentes/El dilema de Aquiles o la disociación del ego.md",
-  "sha256": "6951226d215ba5b3fbc5c57ec8ec3ce619c356d7eb013337678f55fc38598c17",
+  "sha256": "9d24c4a5a5c4df9e2c06a6a83dc17412958b997541fc3b6d98820a1ad6e23dc4",
   "series": null,
   "volume": null,
-  "segmentation_rule": "Cortes conservadores; la fuente íntegra es canónica.",
+  "segmentation_rule": "Partes numeradas copiadas de publicaciones; la fuente íntegra es su concatenación exacta.",
   "segments": [
     {
-      "path": "corpus/libros/dilema-de-aquiles/00-preliminares.md",
-      "kind": "preliminares",
+      "path": "corpus/libros/dilema-de-aquiles/01.md",
+      "kind": "unit",
+      "heading": "# El dilema de Aquiles",
+      "start_byte": 0,
+      "end_byte": 233,
       "start_line": 1,
-      "end_line": 460
+      "end_line": 11
     },
     {
-      "path": "corpus/libros/dilema-de-aquiles/02-prologo.md",
-      "kind": "prologo",
-      "heading": "## PRÓLOGO",
-      "start_line": 461,
-      "end_line": 784
+      "path": "corpus/libros/dilema-de-aquiles/02.md",
+      "kind": "legal",
+      "heading": "# Aviso legal",
+      "start_byte": 233,
+      "end_byte": 901,
+      "start_line": 12,
+      "end_line": 24
     },
     {
-      "path": "corpus/libros/dilema-de-aquiles/capitulo-01.md",
+      "path": "corpus/libros/dilema-de-aquiles/03.md",
+      "kind": "presentation",
+      "heading": "> «Vivir para la imagen que otros construyeron sobre nosotros no es ego. Es exactamente lo contrario: poner a los otros en el centro.»",
+      "start_byte": 901,
+      "end_byte": 1038,
+      "start_line": 25,
+      "end_line": 25
+    },
+    {
+      "path": "corpus/libros/dilema-de-aquiles/04.md",
+      "kind": "index",
+      "heading": "# Índice",
+      "start_byte": 1038,
+      "end_byte": 1543,
+      "start_line": 26,
+      "end_line": 48
+    },
+    {
+      "path": "corpus/libros/dilema-de-aquiles/05.md",
+      "kind": "author_notes",
+      "heading": "# Notas del autor",
+      "start_byte": 1543,
+      "end_byte": 11391,
+      "start_line": 49,
+      "end_line": 93
+    },
+    {
+      "path": "corpus/libros/dilema-de-aquiles/06.md",
+      "kind": "prologue",
+      "heading": "# Prólogo",
+      "start_byte": 11391,
+      "end_byte": 21359,
+      "start_line": 94,
+      "end_line": 152
+    },
+    {
+      "path": "corpus/libros/dilema-de-aquiles/07.md",
       "kind": "chapter",
-      "heading": "## CAPÍTULO I",
-      "start_line": 785,
-      "end_line": 1930
+      "heading": "# Capítulo I",
+      "start_byte": 21359,
+      "end_byte": 57332,
+      "start_line": 153,
+      "end_line": 312
     },
     {
-      "path": "corpus/libros/dilema-de-aquiles/capitulo-02.md",
+      "path": "corpus/libros/dilema-de-aquiles/08.md",
       "kind": "chapter",
-      "heading": "## CAPÍTULO II",
-      "start_line": 1931,
-      "end_line": 3032
+      "heading": "# Capítulo II",
+      "start_byte": 57332,
+      "end_byte": 93104,
+      "start_line": 313,
+      "end_line": 450
     },
     {
-      "path": "corpus/libros/dilema-de-aquiles/capitulo-03.md",
+      "path": "corpus/libros/dilema-de-aquiles/09.md",
       "kind": "chapter",
-      "heading": "## CAPÍTULO III",
-      "start_line": 3033,
-      "end_line": 4140
+      "heading": "# Capítulo III",
+      "start_byte": 93104,
+      "end_byte": 128849,
+      "start_line": 451,
+      "end_line": 596
     },
     {
-      "path": "corpus/libros/dilema-de-aquiles/capitulo-04.md",
+      "path": "corpus/libros/dilema-de-aquiles/10.md",
       "kind": "chapter",
-      "heading": "## CAPÍTULO IV",
-      "start_line": 4141,
-      "end_line": 5340
+      "heading": "# Capítulo IV",
+      "start_byte": 128849,
+      "end_byte": 166429,
+      "start_line": 597,
+      "end_line": 738
     },
     {
-      "path": "corpus/libros/dilema-de-aquiles/capitulo-05.md",
+      "path": "corpus/libros/dilema-de-aquiles/11.md",
       "kind": "chapter",
-      "heading": "## CAPÍTULO V",
-      "start_line": 5341,
-      "end_line": 6440
+      "heading": "# Capítulo V",
+      "start_byte": 166429,
+      "end_byte": 201117,
+      "start_line": 739,
+      "end_line": 876
     },
     {
-      "path": "corpus/libros/dilema-de-aquiles/capitulo-06.md",
+      "path": "corpus/libros/dilema-de-aquiles/12.md",
       "kind": "chapter",
-      "heading": "## CAPÍTULO VI",
-      "start_line": 6441,
-      "end_line": 7566
+      "heading": "# Capítulo VI",
+      "start_byte": 201117,
+      "end_byte": 236924,
+      "start_line": 877,
+      "end_line": 1030
     },
     {
-      "path": "corpus/libros/dilema-de-aquiles/capitulo-07.md",
+      "path": "corpus/libros/dilema-de-aquiles/13.md",
       "kind": "chapter",
-      "heading": "## CAPÍTULO VII",
-      "start_line": 7567,
-      "end_line": 8684
+      "heading": "# Capítulo VII",
+      "start_byte": 236924,
+      "end_byte": 271603,
+      "start_line": 1031,
+      "end_line": 1174
     },
     {
-      "path": "corpus/libros/dilema-de-aquiles/capitulo-08.md",
+      "path": "corpus/libros/dilema-de-aquiles/14.md",
       "kind": "chapter",
-      "heading": "## CAPÍTULO VIII",
-      "start_line": 8685,
-      "end_line": 9912
+      "heading": "# Capítulo VIII",
+      "start_byte": 271603,
+      "end_byte": 309215,
+      "start_line": 1175,
+      "end_line": 1330
     },
     {
-      "path": "corpus/libros/dilema-de-aquiles/90-epilogo.md",
-      "kind": "epilogo",
-      "heading": "## EPÍLOGO",
-      "start_line": 9913,
-      "end_line": 10809
+      "path": "corpus/libros/dilema-de-aquiles/15.md",
+      "kind": "unit",
+      "heading": "# Epílogo",
+      "start_byte": 309215,
+      "end_byte": 336474,
+      "start_line": 1331,
+      "end_line": 1445
     }
   ]
 }

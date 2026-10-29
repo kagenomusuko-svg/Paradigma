@@ -1,0 +1,298 @@
+{
+  "title": "Afrodita Areia: Damasén",
+  "source": "corpus/fuentes/Afrodita Areia Damasén.md",
+  "sha256": "0327f593214809fd8e28d32949bd6261879c09714d02b1b0e8a203f6340dd3da",
+  "series": "Afrodita Areia",
+  "volume": 3,
+  "segmentation_rule": "Partes numeradas copiadas de publicaciones; la fuente íntegra es su concatenación exacta.",
+  "segments": [
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/01.md",
+      "kind": "cover",
+      "heading": "# Afrodita Areia",
+      "start_byte": 0,
+      "end_byte": 202,
+      "start_line": 1,
+      "end_line": 11
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/02.md",
+      "kind": "unit",
+      "heading": "Primera edición: 2026  ",
+      "start_byte": 202,
+      "end_byte": 576,
+      "start_line": 12,
+      "end_line": 17
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/03.md",
+      "kind": "index",
+      "heading": "# Índice",
+      "start_byte": 576,
+      "end_byte": 1733,
+      "start_line": 18,
+      "end_line": 48
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/04.md",
+      "kind": "author_notes",
+      "heading": "# Notas del autor",
+      "start_byte": 1733,
+      "end_byte": 2904,
+      "start_line": 49,
+      "end_line": 51
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/05.md",
+      "kind": "preface",
+      "heading": "# Prefacio",
+      "start_byte": 2904,
+      "end_byte": 14923,
+      "start_line": 52,
+      "end_line": 150
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/06.md",
+      "kind": "prologue",
+      "heading": "# Prólogo filosófico",
+      "start_byte": 14923,
+      "end_byte": 34715,
+      "start_line": 151,
+      "end_line": 269
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/07.md",
+      "kind": "part",
+      "heading": "# Parte I",
+      "start_byte": 34715,
+      "end_byte": 34791,
+      "start_line": 270,
+      "end_line": 274
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/08.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 1",
+      "start_byte": 34791,
+      "end_byte": 51799,
+      "start_line": 275,
+      "end_line": 386
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/09.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 2",
+      "start_byte": 51799,
+      "end_byte": 66552,
+      "start_line": 387,
+      "end_line": 501
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/10.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 3",
+      "start_byte": 66552,
+      "end_byte": 82168,
+      "start_line": 502,
+      "end_line": 617
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/11.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 4",
+      "start_byte": 82168,
+      "end_byte": 95926,
+      "start_line": 618,
+      "end_line": 711
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/12.md",
+      "kind": "part",
+      "heading": "# Parte II",
+      "start_byte": 95926,
+      "end_byte": 108258,
+      "start_line": 712,
+      "end_line": 808
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/13.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 6",
+      "start_byte": 108258,
+      "end_byte": 120818,
+      "start_line": 809,
+      "end_line": 895
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/14.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 7",
+      "start_byte": 120818,
+      "end_byte": 132745,
+      "start_line": 896,
+      "end_line": 980
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/15.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 8",
+      "start_byte": 132745,
+      "end_byte": 145634,
+      "start_line": 981,
+      "end_line": 1072
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/16.md",
+      "kind": "part",
+      "heading": "# Parte III",
+      "start_byte": 145634,
+      "end_byte": 145710,
+      "start_line": 1073,
+      "end_line": 1077
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/17.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 9",
+      "start_byte": 145710,
+      "end_byte": 159349,
+      "start_line": 1078,
+      "end_line": 1173
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/18.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 10",
+      "start_byte": 159349,
+      "end_byte": 173191,
+      "start_line": 1174,
+      "end_line": 1265
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/19.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 11",
+      "start_byte": 173191,
+      "end_byte": 186346,
+      "start_line": 1266,
+      "end_line": 1356
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/20.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 12",
+      "start_byte": 186346,
+      "end_byte": 200154,
+      "start_line": 1357,
+      "end_line": 1448
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/21.md",
+      "kind": "part",
+      "heading": "# Parte IV",
+      "start_byte": 200154,
+      "end_byte": 200236,
+      "start_line": 1449,
+      "end_line": 1453
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/22.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 13",
+      "start_byte": 200236,
+      "end_byte": 213063,
+      "start_line": 1454,
+      "end_line": 1540
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/23.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 14",
+      "start_byte": 213063,
+      "end_byte": 225881,
+      "start_line": 1541,
+      "end_line": 1632
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/24.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 15",
+      "start_byte": 225881,
+      "end_byte": 239310,
+      "start_line": 1633,
+      "end_line": 1724
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/25.md",
+      "kind": "part",
+      "heading": "# Parte V",
+      "start_byte": 239310,
+      "end_byte": 239383,
+      "start_line": 1725,
+      "end_line": 1729
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/26.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 16",
+      "start_byte": 239383,
+      "end_byte": 252672,
+      "start_line": 1730,
+      "end_line": 1812
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/27.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 17",
+      "start_byte": 252672,
+      "end_byte": 266184,
+      "start_line": 1813,
+      "end_line": 1899
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/28.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 18",
+      "start_byte": 266184,
+      "end_byte": 279632,
+      "start_line": 1900,
+      "end_line": 1992
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/29.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 19",
+      "start_byte": 279632,
+      "end_byte": 293118,
+      "start_line": 1993,
+      "end_line": 2085
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/30.md",
+      "kind": "chapter",
+      "heading": "# Capítulo 20",
+      "start_byte": 293118,
+      "end_byte": 300465,
+      "start_line": 2086,
+      "end_line": 2149
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/31.md",
+      "kind": "appendix",
+      "heading": "# Apéndice",
+      "start_byte": 300465,
+      "end_byte": 313250,
+      "start_line": 2150,
+      "end_line": 2239
+    },
+    {
+      "path": "corpus/libros/afrodita-areia/03-damasen/32.md",
+      "kind": "glossary",
+      "heading": "# Glosario",
+      "start_byte": 313250,
+      "end_byte": 327548,
+      "start_line": 2240,
+      "end_line": 2406
+    }
+  ]
+}

@@ -298,6 +298,16 @@ PINNED_PUBLICATION_SOURCES = {
     "Caos_El_abismo_del_ego_y_la_doble_mediacion.md",
     "Afrodita Areia sobre la pasión.md",
     "Afrodita Areia Ágape.md",
+    "El Contrato Fiscal Kratos.md",
+    "El Contrato Fiscal Eris.md",
+    "La esclavitud por alineación.md",
+    "Afrodita Areia Damasén.md",
+    "Afrodita Areia Areópago.md",
+    "Afrodita Areia Caelus.md",
+    "Afrodita_Areia_Nikomachos.md",
+    "El dilema de Aquiles o la disociación del ego.md",
+    "El juego de las máscaras o la disforia de la identidad.md",
+    "El telar de las Moiras Ontología de la autodeterminación causal.md",
 }
 
 
@@ -407,6 +417,11 @@ def segmentar_publicacion_fijada(spec):
 
 
 def adapt_specs() -> None:
+    segmentar_corpus.SPECS.extend([
+        {"source": "El Contrato Fiscal Kratos.md", "dest": "corpus/libros/contrato-fiscal/kratos", "title": "El Contrato Fiscal: Kratos", "markers": []},
+        {"source": "El Contrato Fiscal Eris.md", "dest": "corpus/libros/contrato-fiscal/eris", "title": "El Contrato Fiscal: Eris", "markers": []},
+        {"source": "La esclavitud por alineación.md", "dest": "corpus/libros/esclavitud-por-alineacion", "title": "La esclavitud por alineación", "markers": []},
+    ])
     segmentar_corpus.segment = segmentar_publicacion_fijada
     for module in SEGMENTERS:
         for spec in module.SPECS:
