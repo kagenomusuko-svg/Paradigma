@@ -6,9 +6,9 @@ Del N individual al uno colectivo Protocolo de ponderación por proximidad real 
 
 colectivos en disociación
 
-### I.  Por qué no es promedio ni moda — fundamento ontológico
+### I.  Por qué no basta el promedio simple ni la moda — fundamento ontológico
 
-El paso de N localizaciones individuales a una localización colectiva es el momento técnicamente más exigente del Bloque III y el que con mayor frecuencia produce errores metodológicos en el análisis de ego colectivo. El error más frecuente es tratar la agregación como un problema estadístico: promediar los pesos de P(Hijos) que los distintos miembros produjeron, o tomar el código del Eje I que aparece con mayor frecuencia entre los miembros entrevistados. Esa operación estadística no produce la localización del ego colectivo: produce la distribución promedio de los egos individuales de los miembros entrevistados, que es una información completamente distinta.
+El paso de N localizaciones individuales a una localización colectiva es el momento técnicamente más exigente del Bloque III y el que con mayor frecuencia produce errores metodológicos en el análisis de ego colectivo. El error más frecuente es promediar las localizaciones de los egos individuales de los miembros y tomar ese promedio —o la moda de sus códigos— como si fuera la localización del ego colectivo. Esa operación produce una descripción agregada de los miembros entrevistados, no una lectura del ego que opera a través de la segunda mediación del ego soberano.
 
 La razón por la que el promedio no funciona es la misma razón por la que el ego colectivo no es la suma de los egos individuales: el ego colectivo opera a través de la segunda mediación del ego soberano, no a través de la media de las segundas mediaciones de todos los miembros. La segunda mediación del ego soberano orienta la voluntad del colectivo con una función que ningún promedio de
 
@@ -22,7 +22,7 @@ El ego colectivo no es el promedio de los egos individuales de sus miembros. Es 
 
 El principio de ponderación por proximidad real a φ₂
 
-La alternativa ontológicamente correcta al promedio y a la moda es la ponderación por proximidad real a la segunda mediación del colectivo. Cada localización individual tiene un peso en la lectura colectiva que corresponde a la proximidad real del sujeto que la produce al ejercicio efectivo de φ₂ en el colectivo. La localización del ego soberano real —el sujeto que porta φ₂— tiene el peso máximo. Las localizaciones de los miembros en posiciones de proximidad decreciente a φ₂ tienen pesos decrecientes. Y la agregación ponderada de todas las localizaciones produce la lectura del ego colectivo.
+La alternativa ontológicamente correcta al promedio y a la moda es la ponderación por proximidad real a la segunda mediación del colectivo. Cada localización individual tiene un peso en la lectura colectiva que corresponde a la proximidad real del sujeto que la produce al ejercicio efectivo de φ₂ en el colectivo. La localización del ego soberano real —el sujeto que porta φ₂— tiene el peso máximo. Las localizaciones de los miembros en posiciones de proximidad decreciente a φ₂ tienen pesos decrecientes. La ponderación de las lecturas del colectivo producidas desde esas posiciones ofrece una estimación para contrastar con la localización directa del ego soberano y con la evidencia del campo.
 
 Este principio no significa que las localizaciones de los miembros en posiciones periféricas no tengan valor: tienen el valor específico de su nivel de proximidad. Un miembro de Nivel 4 que describe al
 
@@ -96,75 +96,19 @@ Factor 0.05–0.10 — peso mínimo. Su lectura puede revelar cómo el ego colec
 
 ### Operación 2 — Cálculo de los pesos ponderados
 
-El cálculo de los pesos ponderados opera sobre cada componente de la localización individual: los seis pesos de P(Hijos), los códigos de cada eje del Bloque II. Para cada componente y cada fuente, el mediador multiplica el valor de la localización individual por el factor de proximidad asignado a esa fuente. La suma de los productos ponderados, dividida por la suma de los factores de proximidad, produce el valor ponderado para ese componente en la lectura colectiva.
+El cálculo opera sobre cada componente de las lecturas que las fuentes entrevistadas producen del ego colectivo: los seis pesos de P(Hijos) y los códigos de cada eje del Bloque II. No se introducen las localizaciones de los egos individuales de los miembros. Para cada componente, el mediador multiplica la lectura del colectivo de cada fuente por su factor de proximidad. La suma de los productos, dividida por la suma de los factores, produce una estimación ponderada de ese componente.
 
-La fórmula es: P(Hijo)_colectivo = Σ(P(Hijo)_i × f_i) / Σ(f_i), donde P(Hijo)_i es el peso del Hijo en la localización del miembro i, y f_i es el factor de proximidad asignado al miembro i. Esta fórmula produce una media ponderada que otorga mayor peso a las fuentes de mayor proximidad a φ₂. El resultado es un vector de seis valores que suma aproximadamente 1.00 (con pequeñas variaciones por redondeo) y que describe la distribución P(Hijos) del ego colectivo.
+La fórmula de trabajo es: P(Hijo)_lectura = Σ(P(Hijo)_{i, colectivo} × f_i) / Σ(f_i), donde P(Hijo)_{i, colectivo} es la lectura que la fuente i produce del ego colectivo, una vez considerado y corregido el sesgo de su posición, y f_i es el factor de proximidad de esa fuente a φ₂. El resultado es una estimación ponderada de las lecturas del colectivo, no un promedio de egos individuales ni una definición autónoma de la localización colectiva. Se contrasta con la localización del ego soberano real y con la evidencia del campo; la convergencia puede confirmarla o matizarla y la divergencia se registra e interpreta conforme a la Operación 3. La cantidad o la frecuencia de las lecturas no basta para sustituir la localización del ego soberano: una corrección requiere que la evidencia del campo muestre que esa lectura no expresa la operación efectiva de φ₂; si no puede resolverse, se conserva la divergencia.
 
-Fuente Nivel de proximida d
+| Fuente | Nivel de proximidad a φ₂ | Factor | Lectura de P(Fobos) del colectivo | Producto ponderado | Nota |
+|---|---:|---:|---:|---:|---|
+| Ego soberano real | 1 | 1.00 | 0.65 | 0.65 | Localización directa del ego colectivo. |
+| Director de operaciones | 2 | 0.70 | 0.70 | 0.49 | La convergencia con el ego soberano fortalece la señal. |
+| Coordinadora de equipos | 3 | 0.45 | 0.40 | 0.18 | Lectura de menor proximidad; puede reflejar sesgo o mostrar que Fobos no llega al nivel operativo. |
+| Técnico de base | 4 | 0.20 | 0.20 | 0.04 | Peso bajo; la lectura de Fobos es más débil en el nivel operativo. |
+| **Suma ponderada** |  | **2.35** |  | **1.36** | **Estimación ponderada de P(Fobos): 0.58.** |
 
-Nota
-
-Facto
-
-P(Fobos
-
-P(Fobos) ponderad
-
-### r
-
-) individu
-
-### o
-
-al
-
-### Entrevista Clínica Ontológica · ECO
-
-Nivel 1 1.00 0.65 0.65 Localización
-
-Ego soberano real
-
-directa del
-
-ego colectivo.
-
-Nivel 2 0.70 0.70 0.49 Convergenc ia con el ego
-
-Director de operaciones
-
-soberano fortalece la
-
-señal.
-
-Nivel 3 0.45 0.40 0.18 Lectura más
-
-Coordinadora de equipos
-
-baja — puede ser
-
-sesgo o
-
-puede revelar que
-
-Fobos no llega al nivel
-
-operativo.
-
-Nivel 4 0.20 0.20 0.04 Peso bajo.
-
-Técnico de base
-
-Confirma ausencia de Fobos en el
-
-nivel operativo.
-
-SUMA PONDERAD A
-
-### 1.36 / 2.35 P(Fobos) colectivo ajustado:
-
-0.58
-
-El ejemplo de la tabla ilustra el cálculo para un solo Hijo (Fobos) con cuatro fuentes. El proceso se repite para los cinco Hijos restantes. La suma de los seis P(Hijos)_colectivo debe ser 1.00. Si hay pequeñas desviaciones por el proceso de redondeo y ponderación, el mediador ajusta los pesos de los Hijos con menor señal para que la suma sea exactamente 1.00. El ajuste siempre se hace hacia los Hijos de menor peso diagnóstico, nunca hacia P(Harmonía) — P(Harmonía) solo puede tener peso positivo si el módulo H del ego soberano lo produjo con H-3(H) y EP-1 o EP-2.
+El ejemplo de la tabla ilustra la ponderación de las lecturas que cuatro fuentes producen del ego colectivo para un solo Hijo (Fobos). El proceso se repite para los cinco Hijos restantes. La suma de los seis valores de la estimación ponderada debe ser 1.00. Si hay pequeñas desviaciones por el proceso de redondeo y ponderación, el mediador ajusta los pesos de los Hijos con menor señal para que la suma sea exactamente 1.00. El ajuste siempre se hace hacia los Hijos de menor peso diagnóstico, nunca hacia P(Harmonía) — P(Harmonía) solo puede tener peso positivo si el módulo H del ego soberano lo produjo con H-3(H) y EP-1 o EP-2.
 
 ### Operación 3 — Ajuste por convergencia y divergencia
 
