@@ -92,10 +92,11 @@ Los bloques que el mediador educativo activa son el Bloque I y el Bloque II para
 
 Lo que ECO debe poder responder para este perfil
 
-El mediador educativo necesita que ECO responda dos preguntas que a veces apuntan en la misma dirección y a veces no.
+El mediador educativo necesita que ECO responda dos preguntas que a veces apuntan en la misma dirección y a veces no. La primera: ¿desde qué configuración de la voluntad está aprendiendo —o no aprendiendo— este estudiante? La segunda: ¿desde qué
 
-1. ¿Desde qué configuración de la voluntad está aprendiendo —o no aprendiendo— este estudiante?
-2. ¿Desde qué configuración de la voluntad colectiva opera la institución que produce ese resultado? La primera requiere el uso individual del Bloque I y el Bloque II. La segunda requiere el Bloque III.
+Entrevista Clínica Ontológica · ECO
+
+configuración de la voluntad colectiva opera la institución que produce ese resultado? La primera requiere el uso individual del Bloque I y el Bloque II. La segunda requiere el Bloque III.
 
 La relación entre las dos preguntas es la que hace al mediador educativo un perfil de complejidad alta: un estudiante en Deimos dentro de una institución en Fobos colectivo produce una lectura completamente diferente de un estudiante en Deimos dentro de una institución en Anteros colectivo. ECO le da al mediador educativo la capacidad de distinguir entre lo que pertenece al ego individual y lo que pertenece al ego colectivo que lo contiene —una distinción que sin el instrumento se confunde con frecuencia.
 
@@ -191,11 +192,7 @@ El Mediador en Memoria Comunitaria tiene perfiles de entrada desde disciplinas q
 
 Lo que ECO debe poder responder para este perfil
 
-La pregunta que el Mediador en Memoria Comunitaria necesita que ECO responda tiene tres tiempos.
-
-1. ¿Desde qué configuración de la voluntad colectiva sostuvo esta comunidad la práctica, la tradición o el vínculo que queremos rescatar?
-2. ¿en qué estado está el ego colectivo de esta comunidad ahora, en relación con esa práctica?
-3. ¿qué perdió esta comunidad que ya no puede recuperarse, y cómo está habitando —o no habitando— esa pérdida? La respuesta a las tres preguntas juntas es lo que orienta el proceso de rescate cultural, de patrimonio inmaterial o de memoria histórica desde una base ontológica que va más allá del registro y la documentación.
+La pregunta que el Mediador en Memoria Comunitaria necesita que ECO responda tiene tres tiempos. El primero: ¿desde qué configuración de la voluntad colectiva sostuvo esta comunidad la práctica, la tradición o el vínculo que queremos rescatar? El segundo: ¿en qué estado está el ego colectivo de esta comunidad ahora, en relación con esa práctica? El tercero: ¿qué perdió esta comunidad que ya no puede recuperarse, y cómo está habitando —o no habitando— esa pérdida? La respuesta a las tres preguntas juntas es lo que orienta el proceso de rescate cultural, de patrimonio inmaterial o de memoria histórica desde una base ontológica que va más allá del registro y la documentación.
 
 El rescate cultural no es recuperar lo que fue: es acompañar a la comunidad para que pueda habitar lo que perdió y construir desde ahí lo que todavía puede ser. Sin la localización de su ego colectivo y de su Eje V, el rescate reproduce la pérdida con otro nombre.
 
