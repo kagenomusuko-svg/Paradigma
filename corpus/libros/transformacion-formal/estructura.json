@@ -5,158 +5,225 @@
   "sha256": "f1fb1f46a0876108abd393aefb01b13ce7ef00ef012cdd429641f1217ce6f666",
   "collection": "Autodeterminación Causal",
   "volume": null,
-  "source_anomalies": [],
-  "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
+  "source_anomalies": [
+    "El cierre remite la calibración de parámetros del Volumen II a un formato de investigación que el Centro desarrollará después; conservar para revisión editorial.",
+    "La sección de notas presenta 4 definiciones y varios identificadores repetidos ([^1]:: 3); preservar y cotejar llamadas con el PDF en la fase editorial."
+  ],
+  "segmentation_rule": "Descomposición exacta de la fuente en portadilla, página legal, índice temático, prólogo, capítulos, epílogo y notas. La concatenación en este orden reproduce corpus/fuentes sin modificar el contenido.",
   "segments": [
     {
-      "path": "corpus/libros/transformacion-formal/00-preliminares.md",
-      "kind": "preliminares",
+      "path": "corpus/libros/transformacion-formal/00-portadilla.md",
+      "kind": "cover",
+      "heading": "### La transformación",
       "start_line": 1,
-      "end_line": 390
+      "end_line": 15,
+      "start_byte": 0,
+      "end_byte": 253
     },
     {
-      "path": "corpus/libros/transformacion-formal/01-prologo.md",
-      "kind": "prologo",
-      "key": "PROLOGO",
+      "path": "corpus/libros/transformacion-formal/01-pagina-legal.md",
+      "kind": "legal",
+      "heading": "Primera edición: 2026",
+      "start_line": 15,
+      "end_line": 31,
+      "start_byte": 253,
+      "end_byte": 910
+    },
+    {
+      "path": "corpus/libros/transformacion-formal/02-indice-tematico.md",
+      "kind": "index",
+      "heading": "### La transformación formal",
+      "start_line": 31,
+      "end_line": 385,
+      "start_byte": 910,
+      "end_byte": 11538
+    },
+    {
+      "path": "corpus/libros/transformacion-formal/03-prologo.md",
+      "kind": "prologue",
       "heading": "## PRÓLOGO",
-      "start_line": 391,
-      "end_line": 682
+      "start_line": 385,
+      "end_line": 683,
+      "start_byte": 11538,
+      "end_byte": 36182
     },
     {
       "path": "corpus/libros/transformacion-formal/capitulo-01-01.md",
-      "kind": "capitulo",
-      "key": "1.1",
+      "kind": "chapter",
       "heading": "### Capítulo 1.1",
       "start_line": 683,
-      "end_line": 942
+      "end_line": 943,
+      "start_byte": 36182,
+      "end_byte": 68663,
+      "key": "1.1"
     },
     {
       "path": "corpus/libros/transformacion-formal/capitulo-01-02.md",
-      "kind": "capitulo",
-      "key": "1.2",
+      "kind": "chapter",
       "heading": "### Capítulo 1.2",
       "start_line": 943,
-      "end_line": 1254
+      "end_line": 1255,
+      "start_byte": 68663,
+      "end_byte": 114982,
+      "key": "1.2"
     },
     {
       "path": "corpus/libros/transformacion-formal/capitulo-01-03.md",
-      "kind": "capitulo",
-      "key": "1.3",
+      "kind": "chapter",
       "heading": "### Capítulo 1.3",
       "start_line": 1255,
-      "end_line": 1500
+      "end_line": 1501,
+      "start_byte": 114982,
+      "end_byte": 148074,
+      "key": "1.3"
     },
     {
       "path": "corpus/libros/transformacion-formal/capitulo-02-01.md",
-      "kind": "capitulo",
-      "key": "2.1",
+      "kind": "chapter",
       "heading": "### Capítulo 2.1",
       "start_line": 1501,
-      "end_line": 1816
+      "end_line": 1817,
+      "start_byte": 148074,
+      "end_byte": 191068,
+      "key": "2.1"
     },
     {
       "path": "corpus/libros/transformacion-formal/capitulo-02-02.md",
-      "kind": "capitulo",
-      "key": "2.2",
+      "kind": "chapter",
       "heading": "### Capítulo 2.2",
       "start_line": 1817,
-      "end_line": 2184
+      "end_line": 2185,
+      "start_byte": 191068,
+      "end_byte": 234121,
+      "key": "2.2"
     },
     {
       "path": "corpus/libros/transformacion-formal/capitulo-02-03.md",
-      "kind": "capitulo",
-      "key": "2.3",
+      "kind": "chapter",
       "heading": "### Capítulo 2.3",
       "start_line": 2185,
-      "end_line": 2670
+      "end_line": 2671,
+      "start_byte": 234121,
+      "end_byte": 283973,
+      "key": "2.3"
     },
     {
       "path": "corpus/libros/transformacion-formal/capitulo-02-04.md",
-      "kind": "capitulo",
-      "key": "2.4",
+      "kind": "chapter",
       "heading": "### Capítulo 2.4",
       "start_line": 2671,
-      "end_line": 3034
+      "end_line": 3035,
+      "start_byte": 283973,
+      "end_byte": 326215,
+      "key": "2.4"
     },
     {
       "path": "corpus/libros/transformacion-formal/capitulo-03-01.md",
-      "kind": "capitulo",
-      "key": "3.1",
+      "kind": "chapter",
       "heading": "### Capítulo 3.1",
       "start_line": 3035,
-      "end_line": 3378
+      "end_line": 3379,
+      "start_byte": 326215,
+      "end_byte": 368178,
+      "key": "3.1"
     },
     {
       "path": "corpus/libros/transformacion-formal/capitulo-03-02.md",
-      "kind": "capitulo",
-      "key": "3.2",
+      "kind": "chapter",
       "heading": "### Capítulo 3.2",
       "start_line": 3379,
-      "end_line": 3726
+      "end_line": 3727,
+      "start_byte": 368178,
+      "end_byte": 406336,
+      "key": "3.2"
     },
     {
       "path": "corpus/libros/transformacion-formal/capitulo-03-03.md",
-      "kind": "capitulo",
-      "key": "3.3",
+      "kind": "chapter",
       "heading": "### Capítulo 3.3",
       "start_line": 3727,
-      "end_line": 3942
+      "end_line": 3943,
+      "start_byte": 406336,
+      "end_byte": 439845,
+      "key": "3.3"
     },
     {
       "path": "corpus/libros/transformacion-formal/capitulo-04-01.md",
-      "kind": "capitulo",
-      "key": "4.1",
+      "kind": "chapter",
       "heading": "### Capítulo 4.1",
       "start_line": 3943,
-      "end_line": 4278
+      "end_line": 4279,
+      "start_byte": 439845,
+      "end_byte": 475269,
+      "key": "4.1"
     },
     {
       "path": "corpus/libros/transformacion-formal/capitulo-04-02.md",
-      "kind": "capitulo",
-      "key": "4.2",
+      "kind": "chapter",
       "heading": "### Capítulo 4.2",
       "start_line": 4279,
-      "end_line": 4582
+      "end_line": 4583,
+      "start_byte": 475269,
+      "end_byte": 508796,
+      "key": "4.2"
     },
     {
       "path": "corpus/libros/transformacion-formal/capitulo-04-03.md",
-      "kind": "capitulo",
-      "key": "4.3",
+      "kind": "chapter",
       "heading": "### Capítulo 4.3",
       "start_line": 4583,
-      "end_line": 4798
+      "end_line": 4799,
+      "start_byte": 508796,
+      "end_byte": 536175,
+      "key": "4.3"
     },
     {
       "path": "corpus/libros/transformacion-formal/capitulo-05-01.md",
-      "kind": "capitulo",
-      "key": "5.1",
+      "kind": "chapter",
       "heading": "### Capítulo 5.1",
       "start_line": 4799,
-      "end_line": 5032
+      "end_line": 5033,
+      "start_byte": 536175,
+      "end_byte": 565445,
+      "key": "5.1"
     },
     {
       "path": "corpus/libros/transformacion-formal/capitulo-05-02.md",
-      "kind": "capitulo",
-      "key": "5.2",
+      "kind": "chapter",
       "heading": "### Capítulo 5.2",
       "start_line": 5033,
-      "end_line": 5220
+      "end_line": 5221,
+      "start_byte": 565445,
+      "end_byte": 593301,
+      "key": "5.2"
     },
     {
       "path": "corpus/libros/transformacion-formal/capitulo-05-03.md",
-      "kind": "capitulo",
-      "key": "5.3",
+      "kind": "chapter",
       "heading": "### Capítulo 5.3",
       "start_line": 5221,
-      "end_line": 5478
+      "end_line": 5479,
+      "start_byte": 593301,
+      "end_byte": 620570,
+      "key": "5.3"
     },
     {
       "path": "corpus/libros/transformacion-formal/90-epilogo.md",
-      "kind": "epilogo",
-      "key": "EPILOGO",
+      "kind": "epilogue",
       "heading": "## Epílogo",
       "start_line": 5479,
-      "end_line": 5631
+      "end_line": 5582,
+      "start_byte": 620570,
+      "end_byte": 636431
+    },
+    {
+      "path": "corpus/libros/transformacion-formal/91-notas-al-pie.md",
+      "kind": "notes",
+      "heading": "## Notas al pie",
+      "start_line": 5582,
+      "end_line": 5632,
+      "start_byte": 636431,
+      "end_byte": 639298
     }
   ]
 }

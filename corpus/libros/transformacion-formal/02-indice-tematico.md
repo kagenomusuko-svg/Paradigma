@@ -1,33 +1,3 @@
-### La transformación
-
-### formal
-
-——————
-
-La ontología del ego como fundamento del cálculo
-
-causal
-
-Miguel Hilario Olvera Aguilar
-
-Colección: Autodeterminación Causal
-
-Centro Multidisciplinario Meriadock Formación y Asesoría A.C. · Primera edición: 2026
-
-© Miguel Hilario Olvera Aguilar, 2026
-
-© Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026
-
-Todos los derechos reservados. Ninguna parte de esta publicación
-
-puede ser reproducida, almacenada o transmitida en manera alguna ni
-
-por ningún medio, ya sea eléctrico, químico, mecánico, óptico, de
-
-grabación o de fotocopia, sin permiso previo del editor.
-
-La transformación formal: la ontología del ego como fundamento del cálculo causal  © 2026 by Miguel Hilario Olvera Aguilar is licensed under CC BY-NC-ND 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/4.0/
-
 ### La transformación formal
 
 ### La ontología del ego como fundamento del cálculo causal ÍNDICE TEMÁTICO
@@ -381,10 +351,4 @@ Sección Página
 ### III. Los tres problemas abiertos: el programa del Volumen II 285
 
 La transformación formal — Índice temático  |  Página VIII
-
-La transformación formal
-
-### La transformación formal
-
-La ontología del ego como fundamento del cálculo causal
 

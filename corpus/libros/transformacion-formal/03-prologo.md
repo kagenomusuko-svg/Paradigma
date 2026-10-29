@@ -1,3 +1,9 @@
+La transformación formal
+
+### La transformación formal
+
+La ontología del ego como fundamento del cálculo causal
+
 ## PRÓLOGO
 
 El mapa del sistema
