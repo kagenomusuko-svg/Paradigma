@@ -20,7 +20,10 @@ Alta en Eje IV y V. Media en módulo H y Bloque I primeros módulos. Baja en Ant
 
 Prioridades de localización
 
-1) Señales de derivación urgente (D·URG·1 a D·URG·3). 2) D-2 profundo sin D-1 residual. 3) T-2 activo de alta intensidad. 4) E-3 con bloqueo severo de φ₂.
+1. Señales de derivación urgente (D·URG·1 a D·URG·3).
+2. D-2 profundo sin D-1 residual.
+3. T-2 activo de alta intensidad.
+4. E-3 con bloqueo severo de φ₂.
 
 SKIP y postergaciones permitidas
 
@@ -46,7 +49,10 @@ Alta en todos los módulos del Bloque I con variantes educativas activas. Alta e
 
 Prioridades de localización
 
-1) Anteros (criterio pedagógico propio vs. E-4 con criterio institucional). 2) Eje II (M-3 institucional en el campo educativo). 3) Eje III (V-2 Damasén con estudiantes vs. V-1). 4) Eje IV (D-1 del docente ante la brecha entre lo que enseña y lo que cree).
+1. Anteros (criterio pedagógico propio vs. E-4 con criterio institucional).
+2. Eje II (M-3 institucional en el campo educativo).
+3. Eje III (V-2 Damasén con estudiantes vs. V-1).
+4. Eje IV (D-1 del docente ante la brecha entre lo que enseña y lo que cree).
 
 SKIP y postergaciones permitidas
 
@@ -70,7 +76,10 @@ Alta en B·III·1 (identificación del ego soberano real). Alta en Eje I (estado
 
 Prioridades de localización
 
-1) φ₂ efectiva o disociada (B·III·1). 2) M-3 colectivo (Eje II). 3) D-2 colectivo (Eje IV). 4) Eje I colectivo (E-2 o E-4 colectivos frecuentes en organizaciones con ego soberano formal débil).
+1. φ₂ efectiva o disociada (B·III·1).
+2. M-3 colectivo (Eje II).
+3. D-2 colectivo (Eje IV).
+4. Eje I colectivo (E-2 o E-4 colectivos frecuentes en organizaciones con ego soberano formal débil).
 
 SKIP y postergaciones permitidas
 
@@ -98,7 +107,10 @@ Alta en Eje I (¿había asunción posible?) y Eje IV (¿había señal del ego ge
 
 Prioridades de localización
 
-1) Eje I: ¿operaba el ego genuino con capacidad de asunción en el momento del acto? 2) Eje IV: ¿había D-1 activo (señal de la brecha) o D-2 (sin señal)? 3) Fobos/Deimos: ¿la urgencia o la parálisis orientaron el acto? 4) Protocolo A·3 para integrar con el árbol documental.
+1. Eje I: ¿operaba el ego genuino con capacidad de asunción en el momento del acto?
+2. Eje IV: ¿había D-1 activo (señal de la brecha) o D-2 (sin señal)?
+3. Fobos/Deimos: ¿la urgencia o la parálisis orientaron el acto?
+4. Protocolo A·3 para integrar con el árbol documental.
 
 SKIP y postergaciones permitidas
 
@@ -124,7 +136,10 @@ Alta en Bloque I y Eje V del ego colectivo. Alta en B·III·1 (identificación d
 
 Prioridades de localización
 
-1) Eje V: el vector tanatológico colectivo frecuentemente es la clave del fenómeno analizado. 2) Bloque I: el Hijo dominante del ego colectivo orienta la lectura del fenómeno. 3) Eje II: M-3 como mecanismo de reproducción del fenómeno. 4) B·III·1: identificación del ego soberano que portó φ₂ en el momento del fenómeno.
+1. Eje V: el vector tanatológico colectivo frecuentemente es la clave del fenómeno analizado.
+2. Bloque I: el Hijo dominante del ego colectivo orienta la lectura del fenómeno.
+3. Eje II: M-3 como mecanismo de reproducción del fenómeno.
+4. B·III·1: identificación del ego soberano que portó φ₂ en el momento del fenómeno.
 
 SKIP y postergaciones permitidas
 
@@ -148,7 +163,11 @@ Alta en Eje V (vector tanatológico) — la sección central del trabajo. Alta e
 
 Prioridades de localización
 
-1) Eje V: ¿en qué posición del vector está el ego colectivo? 2) B·III·5 §4: ¿hay duelo comunitario no habitado, tiranía utópica? 3) Bloque I del ego colectivo pasado (lo que fue). 4) Bloque I del ego colectivo presente (lo que es). 5) B·III·5 §3: lo que pudo ser.
+1. Eje V: ¿en qué posición del vector está el ego colectivo?
+2. B·III·5 §4: ¿hay duelo comunitario no habitado, tiranía utópica?
+3. Bloque I del ego colectivo pasado (lo que fue).
+4. Bloque I del ego colectivo presente (lo que es).
+5. B·III·5 §3: lo que pudo ser.
 
 SKIP y postergaciones permitidas
 
