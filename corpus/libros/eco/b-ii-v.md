@@ -356,7 +356,7 @@ Duelo por muerte: el objeto de la pérdida ya no existe. La irrecuperabilidad ti
 
 de recuperación bajo ninguna forma. Eso hace más fácil el inicio del duelo —aunque no menos doloroso— porque el reconocimiento de la irreversibilidad no está obstaculizado por la existencia continua del objeto.
 
-ambigüedad que el duelo por muerte no tiene: «¿Cómo puedo llorar algo que todavía existe?». El trabajo del duelo de T-ext incluye el reconocimiento de que algo puede existir y ser irrecuperable para el sujeto simultáneamente.
+ambigüedad que el duelo por muerte no tiene: «¿cómo puedo llorar algo que todavía existe?». El trabajo del duelo de T-ext incluye el reconocimiento de que algo puede existir y ser irrecuperable para el sujeto simultáneamente.
 
 ### D·TAN·4 ·  Duelo productivo vs. duelo fijado — movimiento vs. estancamiento
 
@@ -388,11 +388,7 @@ El nivel EP para el Eje V sigue la escala estándar. EP-1 requiere que la posici
 
 ### IX.  Consecuencias del código del Eje V sobre el instrumento
 
-La posición en el vector tanatológico modifica la lectura de los Hijos del Bloque I de tres maneras específicas.
-
-1. T-2 o T-3 con Potós H-3 del Bloque I produce una nota de complementariedad — el duelo activo y la orientación al ausente de Potós pueden estar describiendo el mismo estado desde perspectivas distintas. El peso de Potós en la distribución P(Hijos) puede ser reforzado por el código del Eje V cuando los dos convergen.
-2. T-2 o T-3 con Fobos H-3 del Bloque I produce una nota de modulación — la urgencia reactiva de Fobos puede estar siendo activada por la amenaza al objeto del duelo, lo que da a Fobos una estructura específica que el trabajo de Histos debe tener en cuenta.
-3. T-1 con cualquier Hijo del Bloque I produce una nota de precaución — la negación crónica del duelo puede estar modulando todas las
+La posición en el vector tanatológico modifica la lectura de los Hijos del Bloque I de tres maneras específicas. La primera: T-2 o T-3 con Potós H-3 del Bloque I produce una nota de complementariedad — el duelo activo y la orientación al ausente de Potós pueden estar describiendo el mismo estado desde perspectivas distintas. El peso de Potós en la distribución P(Hijos) puede ser reforzado por el código del Eje V cuando los dos convergen. La segunda: T-2 o T-3 con Fobos H-3 del Bloque I produce una nota de modulación — la urgencia reactiva de Fobos puede estar siendo activada por la amenaza al objeto del duelo, lo que da a Fobos una estructura específica que el trabajo de Histos debe tener en cuenta. La tercera: T-1 con cualquier Hijo del Bloque I produce una nota de precaución — la negación crónica del duelo puede estar modulando todas las
 
 Entrevista Clínica Ontológica · ECO
 
@@ -406,11 +402,11 @@ El duelo institucional — por qué las organizaciones pierden y duelan
 
 Las instituciones pueden perder de manera irrecuperable algo que era constitutivo de su identidad colectiva: un liderazgo fundador, una época de sentido compartido, un mandato que organizaba el campo, una cultura que daba coherencia al colectivo. Esas pérdidas no son simplemente eventos que el colectivo registra y procesa: son rupturas estructurales en la manera en que el ego colectivo orienta la segunda mediación. El ego soberano que porta φ₂ del colectivo puede estar en T-1 (operando como si el principio organizador perdido todavía pudiera recuperarse), en T-2/T-3 (en el trabajo activo del duelo institucional), o en T-6 (habiendo integrado la pérdida como parte de la historia fundante del colectivo).
 
-El duelo institucional tiene características que lo distinguen del duelo individual:
+El duelo institucional tiene características que lo distinguen del duelo individual. La primera: el reconocimiento de la pérdida puede no ser simultáneo en todos los miembros del colectivo — algunos pueden estar en T-2/T-3 mientras otros están en T-1, y esa diferencia de reconocimiento puede producir conflictos internos que el colectivo interpreta como conflictos de visión o de liderazgo cuando son en realidad conflictos de posición en el vector tanatológico. La segunda: el duelo institucional puede no tener un objeto de pérdida que los miembros puedan nombrar con precisión — lo que se perdió puede
 
-1. El reconocimiento de la pérdida puede no ser simultáneo en todos los miembros del colectivo — algunos pueden estar en T-2/T-3 mientras otros están en T-1, y esa diferencia de reconocimiento puede producir conflictos internos que el colectivo interpreta como conflictos de visión o de liderazgo cuando son en realidad conflictos de posición en el vector tanatológico.
-2. El duelo institucional puede no tener un objeto de pérdida que los miembros puedan nombrar con precisión — lo que se perdió puede ser algo difuso como «la cultura que teníamos» o «la época en que sabíamos para qué estábamos aquí».
-3. Los mecanismos institucionales —las estructuras de M-3, la presión del campo externo, la necesidad de eficiencia operativa— pueden suprimir sistemáticamente la señal de T-2/T-3 del duelo colectivo, produciendo un paso directo a la negación crónica o a D-2 colectivo.
+### Entrevista Clínica Ontológica · ECO
+
+ser algo difuso como «la cultura que teníamos» o «la época en que sabíamos para qué estábamos aquí». La tercera: los mecanismos institucionales —las estructuras de M-3, la presión del campo externo, la necesidad de eficiencia operativa— pueden suprimir sistemáticamente la señal de T-2/T-3 del duelo colectivo, produciendo un paso directo a la negación crónica o a D-2 colectivo.
 
 Posición colectiva
 
