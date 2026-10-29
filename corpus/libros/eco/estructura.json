@@ -2,7 +2,7 @@
   "id": "ECO",
   "title": "ECO: Entrevista Clínica Ontológica",
   "source": "corpus/fuentes/ECO Entrevista Clínica Ontológica.md",
-  "sha256": "be53a6c5991bd2f6f71ac767f87d8ba6d72e8c33d47a59ada72056ef2accc359",
+  "sha256": "011620e286def9671702bb7a8ae7d83ed891f31ce3953d6cbfe56f5fa9115151",
   "collection": "Autodeterminación Causal",
   "volume": null,
   "source_anomalies": [
@@ -25,285 +25,275 @@
       "path": "corpus/libros/eco/01-pagina-legal.md",
       "kind": "pagina_legal",
       "start_line": 17,
-      "end_line": 29,
+      "end_line": 23,
       "source_start_offset": 224,
-      "source_end_offset": 809
+      "source_end_offset": 791
     },
     {
       "path": "corpus/libros/eco/02-comite-elaborador.md",
       "kind": "comite_elaborador",
-      "start_line": 29,
-      "end_line": 38,
-      "source_start_offset": 809,
-      "source_end_offset": 974
+      "start_line": 23,
+      "end_line": 32,
+      "source_start_offset": 791,
+      "source_end_offset": 955
     },
     {
       "path": "corpus/libros/eco/capitulo-p-1.md",
       "kind": "capitulo",
       "key": "P·1",
       "heading": "Capítulo P·1",
-      "start_line": 39,
-      "end_line": 192
+      "start_line": 33,
+      "end_line": 186
     },
     {
       "path": "corpus/libros/eco/capitulo-p-2.md",
       "kind": "capitulo",
       "key": "P·2",
       "heading": "Capítulo P·2",
-      "start_line": 193,
-      "end_line": 416
+      "start_line": 187,
+      "end_line": 407
     },
     {
       "path": "corpus/libros/eco/capitulo-p-3.md",
       "kind": "capitulo",
       "key": "P·3",
       "heading": "Capítulo P·3",
-      "start_line": 417,
-      "end_line": 748
+      "start_line": 408,
+      "end_line": 739
     },
     {
       "path": "corpus/libros/eco/capitulo-p-4.md",
       "kind": "capitulo",
       "key": "P·4",
       "heading": "Capítulo P·4",
-      "start_line": 749,
-      "end_line": 1092
+      "start_line": 740,
+      "end_line": 1083
     },
     {
       "path": "corpus/libros/eco/capitulo-p-5.md",
       "kind": "capitulo",
       "key": "P·5",
       "heading": "Capítulo P·5",
-      "start_line": 1093,
-      "end_line": 1478
+      "start_line": 1084,
+      "end_line": 1469
     },
     {
       "path": "corpus/libros/eco/b-i-f.md",
       "kind": "modulo",
       "key": "B·I·F",
       "heading": "B·I·F · MÓDULO FOBOS",
-      "start_line": 1479,
-      "end_line": 1888
+      "start_line": 1470,
+      "end_line": 1879
     },
     {
       "path": "corpus/libros/eco/b-i-d.md",
       "kind": "modulo",
       "key": "B·I·D",
       "heading": "B·I·D · MÓDULO DEIMOS",
-      "start_line": 1889,
-      "end_line": 2320
+      "start_line": 1880,
+      "end_line": 2311
     },
     {
       "path": "corpus/libros/eco/b-i-a.md",
       "kind": "modulo",
       "key": "B·I·A",
       "heading": "B·I·A · MÓDULO ANTEROS",
-      "start_line": 2321,
-      "end_line": 2768
+      "start_line": 2312,
+      "end_line": 2759
     },
     {
       "path": "corpus/libros/eco/b-i-p.md",
       "kind": "modulo",
       "key": "B·I·P",
       "heading": "B·I·P · MÓDULO POTÓS",
-      "start_line": 2769,
-      "end_line": 3176
+      "start_line": 2760,
+      "end_line": 3162
     },
     {
       "path": "corpus/libros/eco/b-i-e.md",
       "kind": "modulo",
       "key": "B·I·E",
       "heading": "B·I·E ·  MÓDULO EROS",
-      "start_line": 3177,
-      "end_line": 3594
+      "start_line": 3163,
+      "end_line": 3580
     },
     {
       "path": "corpus/libros/eco/b-i-h .md",
       "kind": "modulo",
       "key": "B·I·H ",
       "heading": "B·I·H  ·  MÓDULO HARMONÍA · D-2",
-      "start_line": 3595,
-      "end_line": 4082
+      "start_line": 3581,
+      "end_line": 4068
     },
     {
       "path": "corpus/libros/eco/b-ii-i.md",
       "kind": "modulo",
       "key": "B·II·I",
       "heading": "B·II·I ·  MÓDULO EJE I — ESTADOS DEL",
-      "start_line": 4083,
-      "end_line": 4496
+      "start_line": 4069,
+      "end_line": 4482
     },
     {
       "path": "corpus/libros/eco/b-ii-ii.md",
       "kind": "modulo",
       "key": "B·II·II",
       "heading": "B·II·II ·  MÓDULO EJE II — MASCARADA",
-      "start_line": 4497,
-      "end_line": 4782
+      "start_line": 4483,
+      "end_line": 4768
     },
     {
       "path": "corpus/libros/eco/b-ii-iii.md",
       "kind": "modulo",
       "key": "B·II·III",
       "heading": "B·II·III ·  MÓDULO EJE III — VÍNCULO",
-      "start_line": 4783,
-      "end_line": 5238
+      "start_line": 4769,
+      "end_line": 5224
     },
     {
       "path": "corpus/libros/eco/b-ii-iv.md",
       "kind": "modulo",
       "key": "B·II·IV",
       "heading": "B·II·IV ·  MÓDULO EJE IV — DISFORIA",
-      "start_line": 5239,
-      "end_line": 5648
+      "start_line": 5225,
+      "end_line": 5634
     },
     {
       "path": "corpus/libros/eco/b-ii-v.md",
       "kind": "modulo",
       "key": "B·II·V",
       "heading": "B·II·V ·  MÓDULO EJE V —",
-      "start_line": 5649,
-      "end_line": 6186
+      "start_line": 5635,
+      "end_line": 6172
     },
     {
       "path": "corpus/libros/eco/b-iii-1.md",
       "kind": "modulo",
       "key": "B·III·1",
       "heading": "B·III·1 ·  EL EGO SOBERANO COMO PUNTO",
-      "start_line": 6187,
-      "end_line": 6452
+      "start_line": 6173,
+      "end_line": 6438
     },
     {
       "path": "corpus/libros/eco/b-iii-2.md",
       "kind": "modulo",
       "key": "B·III·2",
       "heading": "B·III·2 ·  ENTREVISTA A LOS MIEMBROS",
-      "start_line": 6453,
-      "end_line": 6766
+      "start_line": 6439,
+      "end_line": 6752
     },
     {
       "path": "corpus/libros/eco/b-iii-3.md",
       "kind": "modulo",
       "key": "B·III·3",
       "heading": "B·III·3 ·  AGREGACIÓN DE LOCALIZACIONES INDIVIDUALES",
-      "start_line": 6767,
-      "end_line": 7124
+      "start_line": 6753,
+      "end_line": 7054
     },
     {
       "path": "corpus/libros/eco/b-iii-4.md",
       "kind": "modulo",
       "key": "B·III·4",
       "heading": "B·III·4 ·  ANÁLISIS DE ARTEFACTOS",
-      "start_line": 7125,
-      "end_line": 7424
+      "start_line": 7055,
+      "end_line": 7354
     },
     {
       "path": "corpus/libros/eco/b-iii-5.md",
       "kind": "modulo",
       "key": "B·III·5",
       "heading": "B·III·5 ·  MEMORIA COMUNITARIA — LO QUE FUE, LO QUE ES, LO QUE PUDO SER",
-      "start_line": 7425,
-      "end_line": 7738
+      "start_line": 7355,
+      "end_line": 7668
     },
     {
       "path": "corpus/libros/eco/b-iv.md",
       "kind": "modulo",
       "key": "B·IV",
       "heading": "B·IV ·  PRINCIPIOS GENERALES DE",
-      "start_line": 7739,
-      "end_line": 7922
+      "start_line": 7669,
+      "end_line": 7849
     },
     {
       "path": "corpus/libros/eco/bloque-iv-02.md",
       "kind": "modulo",
       "key": "B·IV·2",
       "heading": "B·IV · §2 ·  LA LOCALIZACIÓN SIN",
-      "start_line": 7923,
-      "end_line": 8174
+      "start_line": 7850,
+      "end_line": 8101
     },
     {
       "path": "corpus/libros/eco/bloque-iv-03.md",
       "kind": "modulo",
       "key": "B·IV·3",
       "heading": "B·IV · §3 ·  CUÁNDO ECO ESTÁ COMPLETO",
-      "start_line": 8175,
-      "end_line": 8378
+      "start_line": 8102,
+      "end_line": 8301
     },
     {
       "path": "corpus/libros/eco/bloque-iv-04.md",
       "kind": "modulo",
       "key": "B·IV·4",
       "heading": "B·IV · §4 ·  CRITERIOS DE DERIVACIÓN A",
-      "start_line": 8379,
-      "end_line": 8584
+      "start_line": 8302,
+      "end_line": 8500
     },
     {
       "path": "corpus/libros/eco/bloque-iv-05.md",
       "kind": "modulo",
       "key": "B·IV·5",
       "heading": "B·IV · §5 ·  CRITERIOS DE DERIVACIÓN",
-      "start_line": 8585,
-      "end_line": 8746
+      "start_line": 8501,
+      "end_line": 8662
     },
     {
       "path": "corpus/libros/eco/90-apendice-a1.md",
       "kind": "apendice",
       "key": "A·1",
       "heading": "A·1 · HOJA DE SÍNTESIS DE LA SESIÓN",
-      "start_line": 8747,
-      "end_line": 9096,
-      "source_start_offset": 972362,
-      "source_end_offset": 981375
+      "start_line": 8663,
+      "end_line": 9012,
+      "source_start_offset": 971529,
+      "source_end_offset": 980492
     },
     {
       "path": "corpus/libros/eco/91-apendice-a2.md",
       "kind": "apendice",
       "key": "A·2",
       "heading": "A·2 HOJAS DE REGISTRO POR MÓDULO",
-      "start_line": 9097,
-      "end_line": 9890,
-      "source_start_offset": 981375,
-      "source_end_offset": 1008249
+      "start_line": 9013,
+      "end_line": 9806,
+      "source_start_offset": 980492,
+      "source_end_offset": 1007366
     },
     {
       "path": "corpus/libros/eco/92-apendice-a3.md",
       "kind": "apendice",
       "key": "A·3",
       "heading": "A·3 TABLA DE CRUCE ECO ↔ ÁRBOL",
-      "start_line": 9891,
-      "end_line": 10056,
-      "source_start_offset": 1008249,
-      "source_end_offset": 1019374
+      "start_line": 9807,
+      "end_line": 9972,
+      "source_start_offset": 1007366,
+      "source_end_offset": 1018491
     },
     {
       "path": "corpus/libros/eco/93-apendice-a4.md",
       "kind": "apendice",
       "key": "A·4",
       "heading": "A·4 TABLA DE ADAPTACIONES POR PERFIL",
-      "start_line": 10057,
-      "end_line": 10226,
-      "source_start_offset": 1019374,
-      "source_end_offset": 1028824
+      "start_line": 9973,
+      "end_line": 10142,
+      "source_start_offset": 1018491,
+      "source_end_offset": 1027941
     },
     {
       "path": "corpus/libros/eco/94-apendice-a5.md",
       "kind": "apendice",
       "key": "A·5",
       "heading": "A·5 ÁRBOL DE NAVEGACIÓN GENERAL",
-      "start_line": 10227,
-      "end_line": 10382,
-      "source_start_offset": 1028824,
-      "source_end_offset": 1037144
-    },
-    {
-      "path": "corpus/libros/eco/95-notas.md",
-      "kind": "notas",
-      "key": "NOTAS",
-      "heading": "Notas al pie",
-      "start_line": 10383,
-      "end_line": 10415,
-      "source_start_offset": 1037144,
-      "source_end_offset": 1039041
+      "start_line": 10143,
+      "end_line": 10298,
+      "source_start_offset": 1027941,
+      "source_end_offset": 1037115
     }
   ]
 }
