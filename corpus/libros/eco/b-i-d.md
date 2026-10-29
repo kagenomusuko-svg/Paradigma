@@ -36,7 +36,11 @@ Deimos va inmediatamente después de Fobos porque su discriminación más import
 
 Criterios de entrada directa
 
-El Módulo Deimos puede iniciarse directamente cuando se cumple alguna de las siguientes condiciones. La primera: la apertura narrativa no produjo narrativa en los primeros ocho a diez minutos —el sujeto respondió con silencios sostenidos, monosílabos o frases sin dirección. La segunda: el Módulo Fobos produjo señal de urgencia reactiva, pero sin objeto externo identificable, y el mediador necesita verificar si la ausencia de objeto corresponde a Deimos. La tercera: el árbol documental del Capítulo U·1 ya produjo P(Deimos) ≥ 0.50 desde el expediente vacío documentado —ausencia de búsqueda causal, reportes planos, acuerdos sin operatividad— y el mediador necesita verificar desde presencia.
+El Módulo Deimos puede iniciarse directamente cuando se cumple alguna de las siguientes condiciones.
+
+1. La apertura narrativa no produjo narrativa en los primeros ocho a diez minutos —el sujeto respondió con silencios sostenidos, monosílabos o frases sin dirección.
+2. El Módulo Fobos produjo señal de urgencia reactiva, pero sin objeto externo identificable, y el mediador necesita verificar si la ausencia de objeto corresponde a Deimos.
+3. El árbol documental del Capítulo U·1 ya produjo P(Deimos) ≥ 0.50 desde el expediente vacío documentado —ausencia de búsqueda causal, reportes planos, acuerdos sin operatividad— y el mediador necesita verificar desde presencia.
 
 Regla SKIP parcial — cuándo reducir el módulo
 
@@ -336,11 +340,10 @@ Sin EP asignable.
 
 ### La regla de codificación H-3 para Deimos — condición específica
 
-La codificación H-3 en el Módulo Deimos requiere dos condiciones simultáneas. La primera: el sujeto no puede identificar criterio propio para decidir en al menos dos situaciones distintas del período
+La codificación H-3 en el Módulo Deimos requiere dos condiciones simultáneas.
 
-Entrevista Clínica Ontológica · ECO
-
-analizado —no porque le falte información sino porque las opciones le resultan equivalentes. La segunda: la parálisis se reproduce directamente en sesión, ya sea porque el sujeto no puede responder a la pregunta «¿qué quieres tú, aquí?» con preferencia genuina (EP-1), o porque la narrativa es coherente en múltiples episodios con señal de observación que la corrobora (EP-2).
+1. El sujeto no puede identificar criterio propio para decidir en al menos dos situaciones distintas del período analizado —no porque le falte información sino porque las opciones le resultan equivalentes.
+2. La parálisis se reproduce directamente en sesión, ya sea porque el sujeto no puede responder a la pregunta «¿qué quieres tú, aquí?» con preferencia genuina (EP-1), o porque la narrativa es coherente en múltiples episodios con señal de observación que la corrobora (EP-2).
 
 Una advertencia específica para la codificación H-3 de Deimos: el mediador que basa su codificación solo en la narrativa del sujeto sin señal de observación directa en sesión tiene el nivel EP-2 como máximo, no EP-1. EP-1 requiere que la parálisis se reproduzca en el campo relacional de la sesión, no solo que sea descrita. Y H-3 con EP-1 requiere que esa reproducción ocurra en más de un momento de la sesión, de manera que no pueda atribuirse a una dificultad puntual ante una pregunta específica.
 
