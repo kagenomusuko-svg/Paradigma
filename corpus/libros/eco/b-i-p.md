@@ -36,11 +36,11 @@ Potós va cuarto —después de Fobos, Deimos y Anteros— por dos razones. La p
 
 Criterios de entrada directa
 
-El Módulo Potós puede iniciarse directamente cuando se cumple alguna de las siguientes condiciones.
+El Módulo Potós puede iniciarse directamente cuando se cumple alguna de las siguientes condiciones. La primera: la apertura narrativa produjo señal clara de orientación al pasado como referente de valor — el sujeto volvió espontáneamente a un período anterior, a una persona ausente o a un estado que ya no existe, con una calidez de tono que contrasta con la manera en que habla del presente. La segunda: los módulos anteriores produjeron señales de Potós como hipótesis secundaria — el sujeto describió la amenaza o la parálisis en términos de pérdida de algo que fue, no solo de amenaza al presente o de simetría de opciones. La tercera: el árbol documental del Capítulo U·1 produjo señales de Potós desde el expediente — referencias sistemáticas al pasado, archivos de etapas anteriores que
 
-1. La apertura narrativa produjo señal clara de orientación al pasado como referente de valor — el sujeto volvió espontáneamente a un período anterior, a una persona ausente o a un estado que ya no existe, con una calidez de tono que contrasta con la manera en que habla del presente.
-2. Los módulos anteriores produjeron señales de Potós como hipótesis secundaria — el sujeto describió la amenaza o la parálisis en términos de pérdida de algo que fue, no solo de amenaza al presente o de simetría de opciones.
-3. El árbol documental del Capítulo U·1 produjo señales de Potós desde el expediente — referencias sistemáticas al pasado, archivos de etapas anteriores que permanecieron abiertos — y el mediador necesita verificar desde presencia.
+Entrevista Clínica Ontológica · ECO
+
+permanecieron abiertos — y el mediador necesita verificar desde presencia.
 
 SKIP completo — condición y justificación Condición: la apertura narrativa no produjo ninguna señal de orientación al pasado — el sujeto narró el período analizado sin referencias espontáneas a tiempos, personas o estados anteriores — Y ante la pregunta ancla el sujeto no puede identificar ningún objeto ausente que la voluntad siga buscando. Acción: registrar EP-0, código H-1 para Potós, y continuar al Módulo Eros. Si el sujeto produce alguna señal mínima ante la pregunta ancla (EP-8), registrar ese peso residual y continuar. Justificación ontológica: Potós requiere que la voluntad tenga un objeto ausente hacia el que se oriente. Si la apertura narrativa completa no produjo ninguna señal de ese objeto, y la pregunta ancla tampoco lo produce, la probabilidad de Potós como Hijo activo en esta configuración de la voluntad es suficientemente baja como para no justificar la administración del módulo completo. La ausencia de objeto ausente no es evidencia de que Potós no puede estar presente en el sujeto en general: es evidencia de que no está activo en la configuración de la voluntad en el período analizado.
 
