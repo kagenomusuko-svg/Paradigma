@@ -66,7 +66,7 @@ Para cada módulo del Bloque I y del Bloque II, existe una versión colectiva de
 
 Las preguntas colectivas no cambian la función del módulo — localizan lo mismo que el módulo individual— sino que cambian el objeto hacia el que se orienta. La instrucción para el mediador es constante: cuando las preguntas del módulo usan «tú» o «te», el mediador las convierte en «esta organización» o «este colectivo». Cuando buscan la experiencia del sujeto, buscan la experiencia que el sujeto observó en el colectivo. Cuando buscan la posición de v_t del sujeto, buscan la posición de v_t colectiva tal como la percibe el sujeto desde su lugar en el colectivo.
 
-Instrucción técnica para la administración de la batería: el mediador no revela que está buscando localizar al ego colectivo en los Hijos del Bloque I ni en los ejes del Bloque II. Formula las preguntas colectivas como preguntas sobre la experiencia del miembro dentro del colectivo — «¿Cómo vivís tú que esta organización reacciona?»
+Instrucción técnica para la administración de la batería: el mediador no revela que está buscando localizar al ego colectivo en los Hijos del Bloque I ni en los ejes del Bloque II. Formula las preguntas colectivas como preguntas sobre la experiencia del miembro dentro del colectivo — «¿cómo vivís tú que esta organización reacciona?»
 
 Entrevista Clínica Ontológica · ECO
 
@@ -296,19 +296,7 @@ La ponderación de las lecturas corregidas — hacia la lectura agregada
 
 Después de identificar y corregir el sesgo de cada miembro entrevistado, el mediador produce la ponderación de las lecturas corregidas. No es un promedio aritmético: es una evaluación ponderada que asigna mayor peso a las perspectivas que tienen menor sesgo identificado, mayor diversidad de posición, y mayor convergencia con perspectivas independientes. La ponderación produce el insumo para el §3 del Bloque III —la agregación de localizaciones— que a su vez produce la lectura del ego colectivo.
 
-Regla de ponderación — jerarquía de las lecturas de los miembros
-
-Las lecturas con mayor peso diagnóstico son:
-
-1. Las que producen miembros con sesgo mínimo identificado (baja proyección del estado individual sobre el colectivo).
-2. Las que convergen con perspectivas de miembros en posiciones de v_t distintas.
-3. Las que el miembro produce desde reflexividad sobre los límites de su propia perspectiva.
-
-Las lecturas con menor peso diagnóstico son:
-
-1. Las que corresponden directamente al sesgo por Hijo del miembro.
-2. Las que no tienen perspectivas alternativas que las corroboren.
-3. Las que el miembro produce sin capacidad de distinguir su perspectiva individual de la colectiva.
+Regla de ponderación — jerarquía de las lecturas de los miembros Las lecturas con mayor peso diagnóstico son: (1) las que producen miembros con sesgo mínimo identificado (baja proyección del estado individual sobre el colectivo), (2) las que convergen con perspectivas de miembros en posiciones de v_t distintas, (3) las que el miembro produce desde reflexividad sobre los límites de su propia perspectiva. Las lecturas con menor peso diagnóstico son: (1) las que corresponden directamente al sesgo por Hijo del miembro, (2) las que no tienen perspectivas alternativas que las corroboren, (3) las que el miembro produce sin capacidad de distinguir su perspectiva individual de la colectiva.
 
 Entrevista Clínica Ontológica · ECO
 
