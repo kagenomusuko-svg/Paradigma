@@ -8,7 +8,7 @@ La lógica de navegación del instrumento
 
 ### I.  Por qué el instrumento necesita lógica de navegación
 
-Un instrumento sin lógica de navegación es una lista de preguntas. Lo que hace al SCID del DSM un instrumento y no un cuestionario es exactamente esto: la estructura que determina cuándo se entra a cada sección, cuándo se salta, y cuándo el instrumento está completo. ECO tiene la misma exigencia. Los once módulos no se administran siempre en el mismo orden ni con la misma profundidad. La lógica de navegación es lo que permite que el instrumento sea flexible sin dejar de ser riguroso.
+Un instrumento sin lógica de navegación es una lista de preguntas. Una característica del SCID del DSM que muestra su estructura de entrevista es la navegación entre secciones: determina cuándo se entra a cada sección, cuándo se salta y cuándo termina la administración. ECO tiene la misma exigencia. Los once módulos no se administran siempre en el mismo orden ni con la misma profundidad. La lógica de navegación es lo que permite que el instrumento sea flexible sin dejar de ser riguroso.
 
 La lógica de navegación de ECO descansa en tres operaciones distintas que este capítulo establece con precisión. La primera es la entrada: cuándo el mediador puede iniciar un módulo directamente sin seguir el orden estándar, y qué condición lo autoriza. La segunda es el salto (SKIP): cuándo el mediador puede omitir un módulo o una sección de un módulo, y por qué razón ontológica —no solo operativa— ese salto está justificado. La tercera es el cierre: cuándo ECO puede declararse completo y con qué tipo de completitud.
 
@@ -148,7 +148,7 @@ Potós requiere que la voluntad esté orientada hacia algo ausente. Si no hay or
 
 Eros (B·I·E) Los cuatro módulos anteriores (F, D, A, P) produjeron un Hijo dominante con H-3 y EP-1, y no hubo ninguna señal de apertura a lo nuevo en la apertura narrativa ni en el campo relacional de la sesión.
 
-SKIP parcial → administrar solo pregunta ancla y una pregunta de sondeo. Si no hay señal, registrar EP-0, código H-1.
+Acortamiento (no SKIP) → administrar la pregunta ancla y los sondeos E·1 y E·6. Si no hay señal, registrar EP-0, código H-1.
 
 Eros es el Hijo de apertura a la alteridad. Cuando la sesión ya produjo un Hijo dominante muy claro con EP-1 y el campo relacional no mostró apertura, la probabilidad de que Eros sea relevante es baja. El SKIP parcial permite verificar sin invertir el tiempo del módulo completo.
 
@@ -190,7 +190,7 @@ SKIP completo de §5 → los demás §§ del Bloque III pueden administrarse sin
 
 ### SKIP completo vs. SKIP parcial
 
-La tabla distingue entre dos tipos de SKIP. El SKIP completo omite el módulo por entero y registra directamente el código correspondiente (H-1 para los módulos de Hijos, o la nota de no administración para los módulos de ejes). El SKIP parcial omite solo una sección del módulo —habitualmente la batería de preguntas de sondeo— y mantiene al menos la pregunta ancla y la verificación de
+La tabla distingue entre SKIP completo y parcial. El SKIP completo omite el resto del módulo una vez cumplidas las comprobaciones que su regla exige; solo registra H-1/EP-0 cuando esa regla lo autoriza y esas comprobaciones no producen señal. El SKIP parcial omite parte de la administración, pero mantiene la pregunta ancla y la verificación de
 
 Entrevista Clínica Ontológica · ECO
 
@@ -372,7 +372,7 @@ Notas al capítulo P·5
 
 1 El principio de navegación flexible con exclusión obligatoria distingue a ECO de dos tipos de instrumentos con los que podría confundirse. El primero es el cuestionario de respuesta fija: siempre se administra completo, en el mismo orden, sin posibilidad de entrada directa. El segundo es la entrevista abierta: el orden lo determina el sujeto, no el instrumento. ECO es un instrumento estructurado con navegación flexible: el orden estándar existe y tiene justificación ontológica, pero puede alterarse cuando la evidencia lo justifica, siempre con la verificación de exclusión como condición.
 
-2 La distinción entre SKIP completo y SKIP parcial tiene consecuencias en la hoja de síntesis. Un módulo con SKIP completo produce el código correspondiente (H-1 para Potós sin señal, por ejemplo) y ese código se registra en la hoja como si el módulo hubiera sido administrado: porque la condición que activa el SKIP es en sí misma evidencia de la ausencia del Hijo. Un módulo con SKIP parcial produce el código de la administración parcial, que puede ser H-1, H-2 o H-3 según lo que la pregunta ancla produjo.
+2 La distinción entre SKIP completo y SKIP parcial tiene consecuencias en la hoja de síntesis. El registro debe indicar el SKIP aplicado y la condición que lo autorizó. La evidencia obtenida durante las comprobaciones previstas puede justificar H-1/EP-0 cuando así lo establece la regla del módulo; el salto por sí solo no equivale a haber administrado el módulo completo. Si no se obtiene la evidencia requerida o la administración queda incompleta, registrar «?» cuando corresponda. Un SKIP parcial produce el código que la evidencia de la administración parcial permita sostener.
 
 3 El árbol de navegación de la Sección V es una representación esquemática. La complejidad real de la navegación —especialmente en las bifurcaciones de los módulos de Hijos con señal ambigua— se desarrolla en los árboles de decisión internos de cada módulo. El árbol general establece la secuencia de operaciones; los árboles internos establecen las decisiones dentro de cada operación.
 
