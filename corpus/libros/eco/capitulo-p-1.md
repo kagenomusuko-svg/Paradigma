@@ -8,12 +8,11 @@ Qué es ECO y qué no es La función del instrumento en el sistema
 
 El mediador que abre este libro por primera vez necesita saber una cosa antes de leer cualquier módulo: qué tipo de instrumento tiene en las manos. No qué preguntas va a hacer, no qué criterios va a aplicar, sino qué clase de operación realiza ECO dentro del sistema de Mediación Ontológica y por qué esa operación no puede realizarla ningún otro instrumento del paradigma.
 
-ECO —Entrevista Clínica Ontológica— es el instrumento de localización de la configuración de la voluntad mediante la presencia del sujeto. Esa definición tiene cuatro elementos que merecen cada uno una lectura precisa.
+ECO —Entrevista Clínica Ontológica— es el instrumento de localización de la configuración de la voluntad mediante la presencia del sujeto. Esa definición tiene cuatro elementos que merecen cada uno una lectura precisa. El primero: ECO es un instrumento, no un método, no una técnica, no una escuela de acompañamiento. Un instrumento tiene estructura interna replicable, criterios de aplicación explícitos, condiciones de validez definidas y salidas que pueden verificarse. El segundo: ECO localiza. No interpreta en el sentido de producir narrativas sobre el sujeto. No prescribe en el sentido de decir al sujeto qué debe hacer. Localiza: determina en qué posición de la voluntad se encuentra el sujeto en el momento analizado. El tercero: lo que localiza es la configuración de la
 
-1. ECO es un instrumento, no un método, no una técnica, no una escuela de acompañamiento. Un instrumento tiene estructura interna replicable, criterios de aplicación explícitos, condiciones de validez definidas y salidas que pueden verificarse.
-2. ECO localiza. No interpreta en el sentido de producir narrativas sobre el sujeto. No prescribe en el sentido de decir al sujeto qué debe hacer. Localiza: determina en qué posición de la voluntad se encuentra el sujeto en el momento analizado.
-3. Lo que localiza es la configuración de la voluntad. No la personalidad, no el diagnóstico psicológico, no el perfil de competencias. La configuración de la voluntad en el sentido ontológico preciso que el SDO establece: los Hijos de Afrodita que dominan la dimensión afrodítica y arética, los códigos de los cinco ejes que describen el estado del ego.
-4. La localización ocurre mediante la presencia del sujeto. Ese es el dato diferencial que define la función de ECO en el sistema y que ningún otro instrumento puede replicar.
+Entrevista Clínica Ontológica · ECO
+
+voluntad. No la personalidad, no el diagnóstico psicológico, no el perfil de competencias. La configuración de la voluntad en el sentido ontológico preciso que el SDO establece: los Hijos de Afrodita que dominan la dimensión afrodítica y arética, los códigos de los cinco ejes que describen el estado del ego. El cuarto: la localización ocurre mediante la presencia del sujeto. Ese es el dato diferencial que define la función de ECO en el sistema y que ningún otro instrumento puede replicar.
 
 La presencia del sujeto no es un detalle de procedimiento. Es el fundamento ontológico del instrumento. Hay localizaciones que el expediente puede producir con certeza suficiente: las firmas documentales de Fobos, Deimos y Anteros son lo suficientemente distintivas para que el árbol de decisión del Capítulo U·1 de la Taxonomía las identifique sin necesidad de que el sujeto esté presente. Pero hay localizaciones que el expediente no puede producir por razones que son estructurales, no contingentes. Harmonía no tiene firma documental que la distinga de la anestesia ontológica. Potós y Eros dejan rastros equívocos que el expediente no puede confirmar. Estos no son límites del analista ni de la calidad del expediente: son límites ontológicos de lo que la evidencia documental puede decir sobre el interior de la segunda mediación. ECO existe para cruzar ese límite.
 
@@ -23,9 +22,11 @@ Todo instrumento tiene un límite que no es un defecto sino su definición. El �
 
 La salida de ECO no es un diagnóstico clínico ni un perfil del sujeto. Es una localización con tres componentes que el mediador produce al final de la sesión o de las sesiones que el caso requiera.
 
-1. La distribución P(Hijos): seis números que suman 1.00, uno por cada Hijo de Afrodita, con el nivel de certeza explícito de cada peso asignado. Esta distribución es el equivalente relacional de la distribución P(Hijos) que el árbol documental produce desde evidencia documental. La diferencia es que ECO puede asignar peso positivo a Harmonía —lo que el árbol documental nunca puede hacer— y puede confirmar Potós y Eros en lugar de dejarlos en hipótesis. 
-2. La localización en los cinco ejes del SDO: los códigos E, M, V, D y T que describen la configuración del ego del sujeto en el momento analizado. 
-3. Los principios de intervención orientadores: no el proceso de acompañamiento completo —ese pertenece a Histos— sino las orientaciones inmediatas que el mediador necesita para no cometer los errores más frecuentes con lo que encontró.
+El primer componente es la distribución P(Hijos): seis números que suman 1.00, uno por cada Hijo de Afrodita, con el nivel de certeza explícito de cada peso asignado. Esta distribución es el equivalente relacional de la distribución P(Hijos) que el árbol documental
+
+Entrevista Clínica Ontológica · ECO
+
+produce desde evidencia documental. La diferencia es que ECO puede asignar peso positivo a Harmonía —lo que el árbol documental nunca puede hacer— y puede confirmar Potós y Eros en lugar de dejarlos en hipótesis. El segundo componente es la localización en los cinco ejes del SDO: los códigos E, M, V, D y T que describen la configuración del ego del sujeto en el momento analizado. El tercer componente son los principios de intervención orientadores: no el proceso de acompañamiento completo —ese pertenece a Histos— sino las orientaciones inmediatas que el mediador necesita para no cometer los errores más frecuentes con lo que encontró.
 
 Estos tres componentes son la totalidad de lo que ECO produce. El mediador que espera de ECO algo más —una narrativa sobre el sujeto, un plan de trabajo, una predicción de conducta— está buscando en el instrumento lo que el instrumento no contiene. Esa búsqueda es uno de los errores de uso más frecuentes del instrumento y el Bloque IV desarrolla sus consecuencias con precisión.
 
@@ -127,11 +128,7 @@ El instrumento más peligroso en las manos equivocadas no es el que produce resu
 
 ### VI.  Lo que los capítulos siguientes construyen sobre este
 
-Este capítulo ha establecido tres cosas.
-
-1. Qué es ECO con precisión técnica —instrumento de localización de la configuración de la voluntad mediante la presencia del sujeto.
-2. Qué produce ECO y qué no produce.
-3. Cómo se articula ECO con los demás instrumentos del paradigma.
+Este capítulo ha establecido tres cosas. La primera: qué es ECO con precisión técnica —instrumento de localización de la configuración de la voluntad mediante la presencia del sujeto. La segunda: qué produce ECO y qué no produce. La tercera: cómo se articula ECO con los demás instrumentos del paradigma.
 
 Lo que este capítulo no ha establecido es cómo se usa ECO. Eso requiere los cuatro capítulos que siguen en la Parte Preliminar. El Capítulo P·2 describe los seis perfiles de mediador que usan ECO y la proporción y el tipo de uso de cada uno —porque el instrumento
 
