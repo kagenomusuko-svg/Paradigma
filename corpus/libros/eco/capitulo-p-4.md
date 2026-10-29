@@ -30,7 +30,7 @@ SKIP Salto No administrar el módulo o la sección indicada. Siempre acompañado
 
 EP-n Evidencia Nivel de evidencia personal (EP-0 a EP-8). Designa el tipo de señal observacional que sustenta una asignación de peso en P(Hijos) o en los ejes del SDO. Ver Tabla EP completa en §3.
 
-H-1 Calificación Código de calificación: Hijo ausente. No hay señal de este Hijo o de este código en la sesión. Peso EP-0 obligatorio para este módulo.
+H-1 Calificación Código de calificación: Hijo ausente. Se asigna cuando la administración completa no produce señal o cuando una regla SKIP específica autoriza H-1 tras cumplir sus comprobaciones. Peso EP-0; documentar la administración completa o la condición de SKIP.
 
 H-2 Calificación Código de calificación: Hijo en umbral. Señales presentes, pero no sostenidas o no confirmables en esta sesión. Peso máximo EP-5.
 
@@ -84,9 +84,9 @@ son confirmables (el mediador no puede determinar si corresponden a este Hijo o 
 
 Considerar si una sesión adicional puede elevar la codificación a H-3 o bajarla a H-1.
 
-H-1 Ausente El sujeto no produjo ninguna señal del Hijo o el código en esta sesión, a pesar de que el mediador administró el módulo completo. La ausencia no es falta de información: es información negativa. No hay señal donde debería haberla si el Hijo estuviera activo.
+H-1 Ausente El sujeto no produjo señal en la administración completa del módulo. En los módulos con una regla SKIP que autoriza H-1, también puede asignarse tras cumplir y documentar las comprobaciones exigidas por esa regla. En ambos casos hay información negativa; no se confunde con la ausencia de información.
 
-Asignar peso EP-0 a este módulo en P(Hijos). Registrar la ausencia como dato. No saltar el módulo sin haberlo administrado: la ausencia de señal después de administración completa es diferente de no haber preguntado.
+Asignar EP-0 solo en esos supuestos y registrar si el resultado procede de administración completa o de SKIP autorizado. Si no se cumplieron las comprobaciones o el módulo no pudo evaluarse, registrar «?» y explicar la causa.
 
 ? Inf. inadecuada
 
@@ -96,7 +96,7 @@ Declarar módulo no evaluable. Nota obligatoria con la causa específica. No asi
 
 ### La distinción H-1 /… — ausencia de señal vs. imposibilidad de evaluar
 
-La distinción entre H-1 e imposibilidad de evaluar es técnicamente importante y operativamente frecuente. H-1 significa que el módulo se administró completo y no produjo señal: hay información negativa; significa que el módulo no pudo evaluarse: no hay
+La distinción entre H-1 e imposibilidad de evaluar es técnicamente importante. H-1 significa que la administración completa o un SKIP expresamente autorizado no produjo señal: hay información negativa. «?» significa que el módulo no pudo evaluarse: no hay
 
 Entrevista Clínica Ontológica · ECO
 
@@ -104,7 +104,7 @@ información de ningún tipo. Tratar H-1 como una imposibilidad de evaluar produ
 
 Un ejemplo de cada caso: el sujeto que respondió todas las preguntas del módulo Potós con narrativa clara y ninguna de sus respuestas mostró señal de orientación al ausente produce H-1. El sujeto que interrumpió la sesión después de la pregunta ancla del módulo Potós sin que el mediador pudiera continuar produce imposibilidad para evaluar para ese módulo. En el primero hay información: no hay señal de Potós. En el segundo no hay información: el módulo no pudo evaluarse.
 
-H-1 vs imposibilidad de evaluar — dos ausencias que no son lo mismo H-1: el módulo se administró completo y la señal no estuvo. Es información negativa — P(Hijo) = 0 para ese módulo desde esta sesión. ?: el módulo no pudo evaluarse. No es información negativa: es ausencia de información. No permite asignar ningún peso, ni cero.
+H-1 vs. imposibilidad de evaluar — dos ausencias que no son lo mismo. H-1: el módulo se administró completo o se aplicó un SKIP autorizado con las comprobaciones previstas y la señal no estuvo; es información negativa (P(Hijo) = 0 para ese módulo en esta sesión). «?»: el módulo no pudo evaluarse; no es información negativa y no permite asignar peso, ni siquiera cero.
 
 ### IV.  Tabla EP — escala de evidencia personal
 
