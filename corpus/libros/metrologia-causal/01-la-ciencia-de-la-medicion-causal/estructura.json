@@ -5,22 +5,33 @@
   "sha256": "1f6003d35a797bab13a90ae81cd3d4d9adb45cd98edeb34af3b98b3a7270c18e",
   "collection": "Metrología Causal",
   "volume": 1,
-  "source_anomalies": [],
-  "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
+  "source_anomalies": [
+    "El índice de referencias marca 2 entradas «(pendiente)» y declara que corresponden a libros en proceso de escritura; cotejar vigencia contra el estado actual del corpus.",
+    "Las notas al pie contienen 6 definiciones, todas con el identificador [^1]; preservar y revisar llamadas y numeración contra el PDF en la fase editorial."
+  ],
+  "segmentation_rule": "Descomposición exacta de la fuente en portadilla, página legal, prólogo, capítulos, apéndices, epílogos, índice de referencias cruzadas y notas al pie; la concatenación en el orden de segmentos reproduce la fuente sin modificarla.",
   "segments": [
     {
-      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/00-preliminares.md",
-      "kind": "preliminares",
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/00-portadilla.md",
+      "kind": "cover",
+      "heading": "### Metrología Causal",
       "start_line": 1,
-      "end_line": 32
+      "end_line": 17
     },
     {
-      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/01-prologo.md",
-      "kind": "prologo",
-      "key": "PROLOGO",
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/01-pagina-legal.md",
+      "kind": "legal",
+      "heading": "Primera edición: 2026",
+      "start_line": 17,
+      "end_line": 29
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/02-prologo.md",
+      "kind": "prologue",
       "heading": "## PRÓLOGO",
-      "start_line": 33,
-      "end_line": 200
+      "start_line": 29,
+      "end_line": 201,
+      "key": "PROLOGO"
     },
     {
       "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/capitulo-01-01.md",
@@ -791,12 +802,18 @@
       "end_line": 6988
     },
     {
-      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/99-glosario.md",
-      "kind": "glosario",
-      "key": "GLOSARIO",
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/98-indice-referencias-cruzadas.md",
+      "kind": "index",
       "heading": "GLOSARIO",
       "start_line": 6989,
-      "end_line": 8003
+      "end_line": 7950
+    },
+    {
+      "path": "corpus/libros/metrologia-causal/01-la-ciencia-de-la-medicion-causal/99-notas-al-pie.md",
+      "kind": "notes",
+      "heading": "## Notas al pie",
+      "start_line": 7950,
+      "end_line": 8004
     }
   ]
 }
