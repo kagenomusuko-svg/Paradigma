@@ -262,11 +262,13 @@ Regla de cruce — qué hacer con cada tipo de relación Convergencia total → 
 
 Protocolo de integración — secuencia de operaciones
 
-El protocolo de integración sigue una secuencia de cinco operaciones. Primera: producir la localización preliminar desde las entrevistas al ego soberano y a los miembros (§3 del B·III·1 y §2 del
+El protocolo de integración sigue una secuencia de cinco operaciones.
 
-Entrevista Clínica Ontológica · ECO
-
-Bloque III), agregada según el protocolo del §3 del Bloque III. Segunda: administrar el grupo focal ontológico o la observación de juntas para producir señal EP-1 directa del ego colectivo en funcionamiento. Tercera: revisar los artefactos documentales y culturales para producir la evidencia de corroboración. Cuarta: aplicar el protocolo de cruce para identificar la relación entre las distintas fuentes de evidencia. Quinta: producir la localización colectiva integrada con el EP ajustado por la convergencia o la divergencia entre fuentes.
+1. Producir la localización preliminar desde las entrevistas al ego soberano y a los miembros (§3 del B·III·1 y §2 del Bloque III), agregada según el protocolo del §3 del Bloque III.
+2. Administrar el grupo focal ontológico o la observación de juntas para producir señal EP-1 directa del ego colectivo en funcionamiento.
+3. Revisar los artefactos documentales y culturales para producir la evidencia de corroboración.
+4. Aplicar el protocolo de cruce para identificar la relación entre las distintas fuentes de evidencia.
+5. Producir la localización colectiva integrada con el EP ajustado por la convergencia o la divergencia entre fuentes.
 
 La secuencia es importante: la localización preliminar desde las entrevistas siempre va primero porque es la fuente de mayor EP diagnóstico. Los grupos focales y las juntas van segundo porque producen señal EP-1 directa que puede confirmar o cuestionar la localización preliminar. Los artefactos documentales van tercero como corroboración. La cultura material va cuarta como contexto histórico. No es posible producir una localización colectiva confiable invirtiendo este orden: comenzar desde los documentos y llegar a las entrevistas produce localizaciones contaminadas por la máscara institucional que los documentos reproducen.
 
