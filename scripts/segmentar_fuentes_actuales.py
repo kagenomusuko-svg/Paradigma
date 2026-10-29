@@ -10,7 +10,10 @@ from __future__ import annotations
 
 from collections import Counter
 from pathlib import Path
+import hashlib
+import json
 import re
+import shutil
 
 import segmentar_corpus
 import segmentar_lote_02
@@ -286,7 +289,96 @@ def boundaries_taxonomia_vigente(lines):
     return result
 
 
+
+
+_SEGMENTAR_CORPUS_ORIGINAL = segmentar_corpus.segment
+
+
+def segmentar_caos_numerado(spec):
+    """Preserva exactamente las 15 unidades editoriales de publicaciones/caos."""
+    if spec.get("source") != "Caos_El_abismo_del_ego_y_la_doble_mediacion.md":
+        return _SEGMENTAR_CORPUS_ORIGINAL(spec)
+
+    source = FUENTES / spec["source"]
+    if not source.is_file():
+        return None
+
+    raw = source.read_bytes()
+    lines = raw.splitlines(keepends=True)
+    line_text = [line.decode("utf-8").rstrip("\r\n") for line in lines]
+    markers = [
+        ("portada", "# ΧΑΟΣ"),
+        ("aviso_legal", "# Aviso legal"),
+        ("presentacion", "> ¿Qué es el ego?"),
+        ("indice", "# Índice"),
+        ("notas_del_autor", "# Notas del autor"),
+        ("capitulo", "# Capítulo I"),
+        ("capitulo", "# Capítulo II"),
+        ("capitulo", "# Capítulo III"),
+        ("capitulo", "# Capítulo IV"),
+        ("capitulo", "# Capítulo V"),
+        ("capitulo", "# Capítulo VI"),
+        ("capitulo", "# Capítulo VII"),
+        ("apendice", "# Apéndice I"),
+        ("apendice", "# Apéndice II"),
+        ("apendice", "# Apéndice III"),
+    ]
+
+    starts = []
+    cursor = 0
+    for kind, marker in markers:
+        matches = [index for index in range(cursor, len(line_text)) if line_text[index] == marker]
+        if len(matches) != 1:
+            raise RuntimeError(f"Caos: se esperaba una sola marca {marker!r}; se detectaron {len(matches)}.")
+        starts.append((matches[0], kind, marker))
+        cursor = matches[0] + 1
+
+    if not starts or starts[0][0] != 0:
+        raise RuntimeError("Caos: la primera unidad debe comenzar en la primera línea de la fuente.")
+    if len(starts) != 15:
+        raise RuntimeError(f"Caos: se esperaban 15 unidades; se detectaron {len(starts)}.")
+
+    destination = ROOT / spec["dest"]
+    if destination.exists():
+        shutil.rmtree(destination)
+    destination.mkdir(parents=True)
+
+    segments = []
+    for position, (start, kind, heading) in enumerate(starts):
+        end = starts[position + 1][0] if position + 1 < len(starts) else len(lines)
+        filename = f"{position + 1:02d}.md"
+        target = destination / filename
+        target.write_bytes(b"".join(lines[start:end]))
+        segments.append({
+            "path": str(target.relative_to(ROOT)).replace("\\", "/"),
+            "kind": kind,
+            "heading": heading,
+            "start_line": start + 1,
+            "end_line": end,
+        })
+
+    metadata = {
+        "title": spec["title"],
+        "source": str(source.relative_to(ROOT)).replace("\\", "/"),
+        "sha256": hashlib.sha256(raw).hexdigest(),
+        "series": spec.get("series"),
+        "volume": spec.get("volume"),
+        "segmentation_rule": "Quince unidades editoriales copiadas fielmente de publicaciones; la fuente íntegra se reconstruye por concatenación exacta.",
+        "segments": segments,
+    }
+    (destination / "estructura.json").write_text(
+        json.dumps(metadata, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    reconstructed = b"".join((ROOT / item["path"]).read_bytes() for item in segments)
+    if reconstructed != raw:
+        raise RuntimeError("Caos: las 15 unidades numeradas no reconstruyen exactamente la fuente.")
+    return metadata
+
+
 def adapt_specs() -> None:
+    segmentar_corpus.segment = segmentar_caos_numerado
     for module in SEGMENTERS:
         for spec in module.SPECS:
             spec["source"] = SOURCE_ALIASES.get(spec["source"], spec["source"])
