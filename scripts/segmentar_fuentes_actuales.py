@@ -327,7 +327,7 @@ def segmentar_caos_numerado(spec):
     starts = []
     cursor = 0
     for kind, marker in markers:
-        matches = [index for index in range(cursor, len(line_text)) if line_text[index] == marker]
+        matches = [index for index in range(cursor, len(line_text)) if (line_text[index].startswith(marker) if kind == "presentacion" else line_text[index] == marker)]
         if len(matches) != 1:
             raise RuntimeError(f"Caos: se esperaba una sola marca {marker!r}; se detectaron {len(matches)}.")
         starts.append((matches[0], kind, marker))
