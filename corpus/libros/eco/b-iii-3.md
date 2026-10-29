@@ -184,7 +184,11 @@ Además del análisis del organigrama, el protocolo para colectivos en disociaci
 
 Producción del diagnóstico del estado colectivo en disociación
 
-El diagnóstico del estado colectivo en disociación que el protocolo produce no es la localización del ego colectivo en los módulos estándar: es la descripción de la condición de φ₂ que hace imposible esa localización con la certeza estándar. El diagnóstico tiene tres componentes. El primero: el tipo de disociación de φ₂ (en disputa, difusa, apagada, cedida al fantasma, cedida temporalmente). El segundo: la evidencia que sustenta ese diagnóstico (qué señales documentales y qué señales de las entrevistas producen esa conclusión). El tercero: las consecuencias para la localización del ego colectivo (qué componentes de la localización pueden producirse con alguna certeza y qué componentes quedan suspendidos o son solo hipótesis de bajo EP).
+El diagnóstico del estado colectivo en disociación que el protocolo produce no es la localización del ego colectivo en los módulos estándar: es la descripción de la condición de φ₂ que hace imposible esa localización con la certeza estándar. El diagnóstico tiene tres componentes.
+
+1. El tipo de disociación de φ₂ (en disputa, difusa, apagada, cedida al fantasma, cedida temporalmente).
+2. La evidencia que sustenta ese diagnóstico (qué señales documentales y qué señales de las entrevistas producen esa conclusión).
+3. Las consecuencias para la localización del ego colectivo (qué componentes de la localización pueden producirse con alguna certeza y qué componentes quedan suspendidos o son solo hipótesis de bajo EP).
 
 ### Entrevista Clínica Ontológica · ECO
 
@@ -278,7 +282,15 @@ Entrevista Clínica Ontológica · ECO
 
 componentes sin convergencia (solo una fuente o sin convergencia de ninguna fuente). Esta nota orienta directamente el diseño del trabajo de Histos colectivo: los componentes de alta convergencia son los más confiables como punto de partida del acompañamiento; los componentes con divergencia requieren mayor exploración antes de que el trabajo de Histos pueda usarlos.
 
-Estructura de la hoja de síntesis del Bloque III La hoja de síntesis del Bloque III contiene: (1) Identificación del ego soberano real (con nota del nivel de certeza y las fuentes que lo identifican); (2) Localización individual del ego soberano (idéntica a una localización estándar de ECO); (3) P(Hijos) colectivo ponderado con factores y EP por componente; (4) Códigos de Eje colectivo (I a V) con EP y fuentes; (5) Nota de convergencia/divergencia por componente; (6) Diagnóstico del estado de φ₂ (efectiva, cedida, difusa, en disputa, o apagada); (7) Declaración del nivel de certeza global de la localización colectiva y de los componentes que requieren verificación adicional.
+Estructura de la hoja de síntesis del Bloque III La hoja de síntesis del Bloque III contiene:
+
+1. Identificación del ego soberano real (con nota del nivel de certeza y las fuentes que lo identifican);
+2. Localización individual del ego soberano (idéntica a una localización estándar de ECO);
+3. P(Hijos) colectivo ponderado con factores y EP por componente;
+4. Códigos de Eje colectivo (I a V) con EP y fuentes;
+5. Nota de convergencia/divergencia por componente;
+6. Diagnóstico del estado de φ₂ (efectiva, cedida, difusa, en disputa, o apagada);
+7. Declaración del nivel de certeza global de la localización colectiva y de los componentes que requieren verificación adicional.
 
 Certeza global de la localización colectiva — declaración obligatoria
 
