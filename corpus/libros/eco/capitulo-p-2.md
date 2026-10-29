@@ -92,11 +92,10 @@ Los bloques que el mediador educativo activa son el Bloque I y el Bloque II para
 
 Lo que ECO debe poder responder para este perfil
 
-El mediador educativo necesita que ECO responda dos preguntas que a veces apuntan en la misma dirección y a veces no. La primera: ¿desde qué configuración de la voluntad está aprendiendo —o no aprendiendo— este estudiante? La segunda: ¿desde qué
+El mediador educativo necesita que ECO responda dos preguntas que a veces apuntan en la misma dirección y a veces no.
 
-Entrevista Clínica Ontológica · ECO
-
-configuración de la voluntad colectiva opera la institución que produce ese resultado? La primera requiere el uso individual del Bloque I y el Bloque II. La segunda requiere el Bloque III.
+1. ¿Desde qué configuración de la voluntad está aprendiendo —o no aprendiendo— este estudiante?
+2. ¿Desde qué configuración de la voluntad colectiva opera la institución que produce ese resultado? La primera requiere el uso individual del Bloque I y el Bloque II. La segunda requiere el Bloque III.
 
 La relación entre las dos preguntas es la que hace al mediador educativo un perfil de complejidad alta: un estudiante en Deimos dentro de una institución en Fobos colectivo produce una lectura completamente diferente de un estudiante en Deimos dentro de una institución en Anteros colectivo. ECO le da al mediador educativo la capacidad de distinguir entre lo que pertenece al ego individual y lo que pertenece al ego colectivo que lo contiene —una distinción que sin el instrumento se confunde con frecuencia.
 
@@ -192,7 +191,11 @@ El Mediador en Memoria Comunitaria tiene perfiles de entrada desde disciplinas q
 
 Lo que ECO debe poder responder para este perfil
 
-La pregunta que el Mediador en Memoria Comunitaria necesita que ECO responda tiene tres tiempos. El primero: ¿desde qué configuración de la voluntad colectiva sostuvo esta comunidad la práctica, la tradición o el vínculo que queremos rescatar? El segundo: ¿en qué estado está el ego colectivo de esta comunidad ahora, en relación con esa práctica? El tercero: ¿qué perdió esta comunidad que ya no puede recuperarse, y cómo está habitando —o no habitando— esa pérdida? La respuesta a las tres preguntas juntas es lo que orienta el proceso de rescate cultural, de patrimonio inmaterial o de memoria histórica desde una base ontológica que va más allá del registro y la documentación.
+La pregunta que el Mediador en Memoria Comunitaria necesita que ECO responda tiene tres tiempos.
+
+1. ¿Desde qué configuración de la voluntad colectiva sostuvo esta comunidad la práctica, la tradición o el vínculo que queremos rescatar?
+2. ¿en qué estado está el ego colectivo de esta comunidad ahora, en relación con esa práctica?
+3. ¿qué perdió esta comunidad que ya no puede recuperarse, y cómo está habitando —o no habitando— esa pérdida? La respuesta a las tres preguntas juntas es lo que orienta el proceso de rescate cultural, de patrimonio inmaterial o de memoria histórica desde una base ontológica que va más allá del registro y la documentación.
 
 El rescate cultural no es recuperar lo que fue: es acompañar a la comunidad para que pueda habitar lo que perdió y construir desde ahí lo que todavía puede ser. Sin la localización de su ego colectivo y de su Eje V, el rescate reproduce la pérdida con otro nombre.
 
@@ -212,10 +215,10 @@ El mediador que conoce su especialidad, pero no conoce el instrumento usa ECO co
 
 Notas al capítulo P·2
 
-1 Las proporciones de uso (SDO / Prometeo / ECO / Histos) son orientaciones, no prescripciones. Un caso específico puede llevar a un mediador organizacional a hacer un uso más intensivo de ECO del que su proporción habitual indica, si el ego colectivo que analiza requiere entrevista directa a sus miembros. Las proporciones describen el trabajo habitual de cada especialidad, no el límite de uso del instrumento.
+1. Las proporciones de uso (SDO / Prometeo / ECO / Histos) son orientaciones, no prescripciones. Un caso específico puede llevar a un mediador organizacional a hacer un uso más intensivo de ECO del que su proporción habitual indica, si el ego colectivo que analiza requiere entrevista directa a sus miembros. Las proporciones describen el trabajo habitual de cada especialidad, no el límite de uso del instrumento.
 
-2 El Mediador en Memoria Comunitaria es el único perfil cuya pregunta central tiene estructura triádica temporal explícita: lo que fue, lo que es, lo que pudo ser. Los demás perfiles operan fundamentalmente en el presente del ego —la localización del estado actual de la voluntad—, con referencias al pasado cuando el Eje V lo requiere. La dimensión de «lo que pudo ser» es propia de este perfil y está desarrollada en el Bloque III, §5.
+2. El Mediador en Memoria Comunitaria es el único perfil cuya pregunta central tiene estructura triádica temporal explícita: lo que fue, lo que es, lo que pudo ser. Los demás perfiles operan fundamentalmente en el presente del ego —la localización del estado actual de la voluntad—, con referencias al pasado cuando el Eje V lo requiere. La dimensión de «lo que pudo ser» es propia de este perfil y está desarrollada en el Bloque III, §5.
 
-3 La distinción entre el uso individual y el uso colectivo de ECO no implica que sean dos instrumentos distintos. Es el mismo instrumento con la misma estructura de módulos, aplicado a unidades de análisis diferentes. Lo que cambia es la formulación de las preguntas (orientadas al colectivo en lugar de al individuo), las señales de observación (artefactos e interacciones grupales en lugar de conducta individual en sesión) y el protocolo de codificación (distribución colectiva de P(Hijos) en lugar de distribución individual). El Bloque III desarrolla estas diferencias con la precisión que el uso colectivo requiere.
+3. La distinción entre el uso individual y el uso colectivo de ECO no implica que sean dos instrumentos distintos. Es el mismo instrumento con la misma estructura de módulos, aplicado a unidades de análisis diferentes. Lo que cambia es la formulación de las preguntas (orientadas al colectivo en lugar de al individuo), las señales de observación (artefactos e interacciones grupales en lugar de conducta individual en sesión) y el protocolo de codificación (distribución colectiva de P(Hijos) en lugar de distribución individual). El Bloque III desarrolla estas diferencias con la precisión que el uso colectivo requiere.
 
-4 El Mediador Estructural es el único perfil cuya administración de ECO está habitualmente precedida por el árbol documental del Capítulo U·1 de la Taxonomía. Eso produce un orden de operaciones que los demás perfiles no tienen: árbol documental primero, ECO como verificación y completamiento. El protocolo de cruce entre ambas fuentes —que el Capítulo P·5 establece— es especialmente relevante para este perfil porque la contradicción entre P(Hijos) documental y P(Hijos) relacional tiene consecuencias directas en la estimación de S.
+4. El Mediador Estructural es el único perfil cuya administración de ECO está habitualmente precedida por el árbol documental del Capítulo U·1 de la Taxonomía. Eso produce un orden de operaciones que los demás perfiles no tienen: árbol documental primero, ECO como verificación y completamiento. El protocolo de cruce entre ambas fuentes —que el Capítulo P·5 establece— es especialmente relevante para este perfil porque la contradicción entre P(Hijos) documental y P(Hijos) relacional tiene consecuencias directas en la estimación de S.
