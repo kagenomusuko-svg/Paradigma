@@ -77,26 +77,61 @@ def boundaries_axiomatizacion(lines):
 
 def boundaries_eco(lines):
     result=[]
+
+    def marker_before(index, marker_pattern):
+        for position, previous in previous_nonblank(lines, index, 3):
+            if re.fullmatch(marker_pattern, previous.strip()):
+                return position, previous.strip()
+        return None, None
+
+    preliminary_pattern = r"<!-- PARTE: PRELIMINAR · Fundamentos del instrumento -->"
+    preliminary_part = {"key":"PRELIMINAR","heading":"Parte preliminar · Fundamentos del instrumento"}
     for number in range(1,6):
-        index=next(i for i,line in enumerate(lines) if line.strip()==f"Capítulo P·{number}")
-        start=prefix_start(lines,index,r"PARTE PRELIMINAR · Fundamentos del instrumento",3)
-        result.append(unit(start,"capitulo",f"capitulo-p-{number}.md",f"P·{number}",f"Capítulo P·{number}"))
-    appendix=next(i for i,line in enumerate(lines) if line.strip().startswith("APÉNDICES ·"))
-    for index,raw in enumerate(lines[:appendix]):
+        index=next(i for i,line in enumerate(lines) if line.strip()=="Capítulo P·%s" % number)
+        start, marker=marker_before(index, preliminary_pattern)
+        if start is None:
+            raise RuntimeError("ECO: falta el marcador de parte preliminar antes del capítulo P·%s." % number)
+        item=unit(start,"capitulo","capitulo-p-%s.md" % number,"P·%s" % number,"Capítulo P·%s" % number)
+        item["part"]=preliminary_part
+        result.append(item)
+
+    part_labels = {
+        "I": {"key":"PARTE-I","heading":"Parte I · Los Hijos de Afrodita"},
+        "II": {"key":"PARTE-II","heading":"Parte II · Los cinco ejes del SDO"},
+        "III": {"key":"PARTE-III","heading":"Parte III · La entrevista al ego colectivo"},
+        "IV": {"key":"PARTE-IV","heading":"Parte IV · Principios generales de intervención"},
+    }
+    appendix_start=None
+    for index,raw in enumerate(lines):
         text=raw.strip()
+        if text == "<!-- PARTE: APÉNDICES · Instrumentos de trabajo del mediador -->":
+            appendix_start=index
+            continue
+        if appendix_start is not None:
+            continue
         if not re.match(r"^B·(?:I·[FDAPEH]|II·(?:I|II|III|IV|V)|III·[1-5]|IV(?: · §[2-5])?)\b",text): continue
-        block=None
-        for position,previous in previous_nonblank(lines,index,3):
-            if re.match(r"^BLOQUE (I|II|III|IV) ·",previous): block=position; break
-        if block is None: continue
         if text.startswith("B·IV · PRINCIPIOS"):
-            key="B·IV·1"; filename="bloque-iv-01.md"
+            code="IV"; key="B·IV·1"; filename="bloque-iv-01.md"
         elif text.startswith("B·IV · §"):
-            number=int(re.match(r"^B·IV · §([2-5])",text).group(1)); key=f"B·IV·{number}"; filename=f"bloque-iv-{number:02d}.md"
+            code="IV"; number=int(re.match(r"^B·IV · §([2-5])",text).group(1)); key="B·IV·%s" % number; filename="bloque-iv-%02d.md" % number
         else:
-            key=text.split(" · ")[0]; filename=key.replace("·","-").lower()+".md"
-        result.append(unit(block,"modulo",filename,key,text))
-    result.append(unit(appendix,"apendices","90-apendices.md","APENDICES",lines[appendix].strip()))
+            code=text.split("·")[1]
+            key=text.split(" · ")[0]
+            filename=key.replace("·","-").lower()+".md"
+        marker_pattern = r"<!-- PARTE: %s -->" % re.escape(part_labels[code]["heading"].replace("Parte ","",1))
+        start, marker=marker_before(index, marker_pattern)
+        if start is None:
+            raise RuntimeError("ECO: falta el marcador de %s antes de %s." % (part_labels[code]["heading"], key))
+        item=unit(start,"modulo",filename,key,text)
+        item["part"]=part_labels[code]
+        result.append(item)
+
+    if appendix_start is None:
+        raise RuntimeError("ECO: falta el marcador de la parte de apéndices.")
+    appendix_part={"key":"APENDICES","heading":"Apéndices · Instrumentos de trabajo del mediador"}
+    item=unit(appendix_start,"apendices","90-apendices.md","APENDICES",appendix_part["heading"])
+    item["part"]=appendix_part
+    result.append(item)
     return result
 
 def boundaries_calculo(lines):
@@ -227,6 +262,22 @@ def boundaries_taxonomia(lines):
 
 PARSERS={"axiomatizacion":boundaries_axiomatizacion,"eco":boundaries_eco,"calculo":boundaries_calculo,"prometeo":boundaries_prometeo,"histos":boundaries_histos,"transformacion":boundaries_transformacion,"metrologia_i":boundaries_metrologia_i,"metrologia_ii":boundaries_metrologia_ii,"sdo":boundaries_sdo,"taxonomia":boundaries_taxonomia}
 
+def _parts_index(segments):
+    parts=[]
+    by_key={}
+    for segment in segments:
+        part=segment.get("part")
+        if not part: continue
+        key=part["key"]
+        if key not in by_key:
+            entry={"key":key,"heading":part["heading"],"members":[]}
+            by_key[key]=entry
+            parts.append(entry)
+        if segment.get("key") and segment["key"] not in by_key[key]["members"]:
+            by_key[key]["members"].append(segment["key"])
+    return parts
+
+
 def segment(spec):
     source=FUENTES/spec["source"]
     if not source.exists(): return None
@@ -245,10 +296,12 @@ def segment(spec):
         if names[filename]>1:
             path=Path(filename); filename=f"{path.stem}-{names[filename]}{path.suffix}"
         target=destination/filename; target.write_text("".join(lines[start:end]),encoding="utf-8",newline="")
-        segments.append({"path":str(target.relative_to(ROOT)).replace("\\","/"),"kind":item["kind"],"key":item["key"],"heading":item["heading"],"start_line":start+1,"end_line":end})
+        segment={"path":str(target.relative_to(ROOT)).replace("\\","/"),"kind":item["kind"],"key":item["key"],"heading":item["heading"],"start_line":start+1,"end_line":end}
+        if "part" in item: segment["part"]=item["part"]
+        segments.append(segment)
     reconstructed=b"".join((ROOT/item["path"]).read_bytes() for item in segments)
     if reconstructed!=source.read_bytes(): raise RuntimeError(f"La segmentación no reconstruye exactamente {source.name}")
-    metadata={"id":spec["id"],"title":spec["title"],"source":str(source.relative_to(ROOT)).replace("\\","/"),"sha256":hashlib.sha256(source.read_bytes()).hexdigest(),"collection":spec.get("collection"),"volume":spec.get("volume"),"source_anomalies":spec.get("source_anomalies",[]),"segmentation_rule":"Cortes estructurales conservadores; la fuente íntegra es canónica.","segments":segments}
+    metadata={"id":spec["id"],"title":spec["title"],"source":str(source.relative_to(ROOT)).replace("\\","/"),"sha256":hashlib.sha256(source.read_bytes()).hexdigest(),"collection":spec.get("collection"),"volume":spec.get("volume"),"source_anomalies":spec.get("source_anomalies",[]),"segmentation_rule":"Cortes estructurales conservadores; la fuente íntegra es canónica.","parts":_parts_index(segments),"segments":segments}
     (destination/"estructura.json").write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+"\n",encoding="utf-8"); return metadata
 
 def main():
