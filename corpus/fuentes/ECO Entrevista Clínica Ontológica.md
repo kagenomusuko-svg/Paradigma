@@ -9500,6 +9500,8 @@ Notas A·3
 
 ### Referencia para primera administración
 
+<!-- TABLA: adaptación por perfil | columnas: perfil, módulos prioritarios, orden, profundidad, preguntas clave -->
+
 El instrumento ECO tiene estructura modular: todos los módulos están disponibles para todos los perfiles de mediador, pero la prioridad de administración, el orden, la profundidad y las preguntas más relevantes varían según el perfil. Esta tabla es una referencia rápida para el mediador que administra ECO por primera vez en un contexto específico — no reemplaza el conocimiento de los módulos completos.
 
 ### Mediador en Crisis — ego individual
