@@ -2,11 +2,11 @@
   "id": "CALCULO-R",
   "title": "El cálculo de la responsabilidad: Una ontología matemática para sistemas causales complejos",
   "source": "corpus/fuentes/El cálculo de la responsabilidad una ontología matemática para sistemas causales complejos.md",
-  "sha256": "a87056e1f1ac71a244dd54ddd3d5b3d609c6178c1afb756552bec0f530b9f5f5",
+  "sha256": "6e1bb781a009a2245ff85e62abfdbfafa238bedabcf06eb289cd1a6518b85e03",
   "collection": "Reivindicación ontológica del ego",
   "volume": null,
   "source_anomalies": [],
-  "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
+  "segmentation_rule": "Cortes estructurales conservadores; listas con viñetas en Markdown y recuadros tipificados con bloques cercados; la fuente íntegra es canónica.",
   "parts": [
     {
       "key": "PARTE-I",
@@ -82,7 +82,7 @@
         "heading": "Parte I · Ciencias jurídicas y sociales"
       },
       "start_line": 166,
-      "end_line": 931
+      "end_line": 937
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-02.md",
@@ -93,8 +93,8 @@
         "key": "PARTE-I",
         "heading": "Parte I · Ciencias jurídicas y sociales"
       },
-      "start_line": 932,
-      "end_line": 1968
+      "start_line": 938,
+      "end_line": 1978
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-03.md",
@@ -105,8 +105,8 @@
         "key": "PARTE-I",
         "heading": "Parte I · Ciencias jurídicas y sociales"
       },
-      "start_line": 1969,
-      "end_line": 2785
+      "start_line": 1979,
+      "end_line": 2797
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-04.md",
@@ -117,8 +117,8 @@
         "key": "PARTE-I",
         "heading": "Parte I · Ciencias jurídicas y sociales"
       },
-      "start_line": 2786,
-      "end_line": 3136
+      "start_line": 2798,
+      "end_line": 3150
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-05.md",
@@ -129,8 +129,8 @@
         "key": "PARTE-II",
         "heading": "Parte II · Ciencias de la salud"
       },
-      "start_line": 3137,
-      "end_line": 3880
+      "start_line": 3151,
+      "end_line": 3900
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-06.md",
@@ -141,8 +141,8 @@
         "key": "PARTE-II",
         "heading": "Parte II · Ciencias de la salud"
       },
-      "start_line": 3881,
-      "end_line": 4700
+      "start_line": 3901,
+      "end_line": 4720
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-07.md",
@@ -153,8 +153,8 @@
         "key": "PARTE-II",
         "heading": "Parte II · Ciencias de la salud"
       },
-      "start_line": 4701,
-      "end_line": 5367
+      "start_line": 4721,
+      "end_line": 5387
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-08.md",
@@ -165,8 +165,8 @@
         "key": "PARTE-III",
         "heading": "Parte III · Economía, finanzas y empresa"
       },
-      "start_line": 5368,
-      "end_line": 6176
+      "start_line": 5388,
+      "end_line": 6196
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-09.md",
@@ -177,8 +177,8 @@
         "key": "PARTE-III",
         "heading": "Parte III · Economía, finanzas y empresa"
       },
-      "start_line": 6177,
-      "end_line": 6915
+      "start_line": 6197,
+      "end_line": 6935
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-10.md",
@@ -189,8 +189,8 @@
         "key": "PARTE-III",
         "heading": "Parte III · Economía, finanzas y empresa"
       },
-      "start_line": 6916,
-      "end_line": 7689
+      "start_line": 6936,
+      "end_line": 7709
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-11.md",
@@ -201,8 +201,8 @@
         "key": "PARTE-III",
         "heading": "Parte III · Economía, finanzas y empresa"
       },
-      "start_line": 7690,
-      "end_line": 8473
+      "start_line": 7710,
+      "end_line": 8493
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-12.md",
@@ -213,8 +213,8 @@
         "key": "PARTE-IV",
         "heading": "Parte IV · Ingeniería y tecnología"
       },
-      "start_line": 8474,
-      "end_line": 9213
+      "start_line": 8494,
+      "end_line": 9233
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-13.md",
@@ -225,8 +225,8 @@
         "key": "PARTE-IV",
         "heading": "Parte IV · Ingeniería y tecnología"
       },
-      "start_line": 9214,
-      "end_line": 9951
+      "start_line": 9234,
+      "end_line": 9971
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-14.md",
@@ -237,8 +237,8 @@
         "key": "PARTE-IV",
         "heading": "Parte IV · Ingeniería y tecnología"
       },
-      "start_line": 9952,
-      "end_line": 10557
+      "start_line": 9972,
+      "end_line": 10577
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-15.md",
@@ -249,8 +249,8 @@
         "key": "PARTE-V",
         "heading": "Parte V · Humanidades y ciencias sociales"
       },
-      "start_line": 10558,
-      "end_line": 11123
+      "start_line": 10578,
+      "end_line": 11143
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-16.md",
@@ -261,8 +261,8 @@
         "key": "PARTE-V",
         "heading": "Parte V · Humanidades y ciencias sociales"
       },
-      "start_line": 11124,
-      "end_line": 11791
+      "start_line": 11144,
+      "end_line": 11811
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-17.md",
@@ -273,8 +273,8 @@
         "key": "PARTE-V",
         "heading": "Parte V · Humanidades y ciencias sociales"
       },
-      "start_line": 11792,
-      "end_line": 12721
+      "start_line": 11812,
+      "end_line": 12741
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/capitulo-18.md",
@@ -285,48 +285,48 @@
         "key": "PARTE-V",
         "heading": "Parte V · Humanidades y ciencias sociales"
       },
-      "start_line": 12722,
-      "end_line": 14000
+      "start_line": 12742,
+      "end_line": 14022
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/apendice-a.md",
       "kind": "apendice",
       "key": "A",
       "heading": "APÉNDICE A",
-      "start_line": 14001,
-      "end_line": 14368
+      "start_line": 14023,
+      "end_line": 14398
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/apendice-b.md",
       "kind": "apendice",
       "key": "B",
       "heading": "APÉNDICE B",
-      "start_line": 14369,
-      "end_line": 15198
+      "start_line": 14399,
+      "end_line": 15228
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/apendice-c.md",
       "kind": "apendice",
       "key": "C",
       "heading": "APÉNDICE C",
-      "start_line": 15199,
-      "end_line": 15344
+      "start_line": 15229,
+      "end_line": 15374
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/apendice-d.md",
       "kind": "apendice",
       "key": "D",
       "heading": "APÉNDICE D",
-      "start_line": 15345,
-      "end_line": 15372
+      "start_line": 15375,
+      "end_line": 15402
     },
     {
       "path": "corpus/libros/calculo-de-la-responsabilidad/apendice-e.md",
       "kind": "apendice",
       "key": "E",
       "heading": "APÉNDICE E",
-      "start_line": 15373,
-      "end_line": 15612
+      "start_line": 15403,
+      "end_line": 15642
     }
   ]
 }
