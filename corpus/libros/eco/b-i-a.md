@@ -1,8 +1,7 @@
-B·I·A · MÓDULO ANTEROS
+# B·I·A · MÓDULO ANTEROS
+## La voluntad que se afirma desde el eje propio
 
-### La voluntad que se afirma desde el eje propio
-
-Localización del Hijo de la afirmación por reconocimiento
+*Localización del Hijo de la afirmación por reconocimiento*
 
 ### I.  Fundamento ontológico del Hijo
 
@@ -12,7 +11,6 @@ La distinción que define a Anteros en el sistema ontológico es la distinción 
 
 En términos de la doble mediación: Anteros describe la posición de v_t en φ₁ desde la cual φ₂ puede operar con suficiente distancia para
 
-Entrevista Clínica Ontológica · ECO
 
 producir la afirmación proporcional. En Fobos, φ₁ produce el acto antes de que φ₂ pueda intervenir con distancia. En Anteros, φ₁ produce una orientación que φ₂ reconoce como propia y desde la cual actúa con la distancia que el reconocimiento le da. Esa distancia es la que permite que Anteros diga que no sin destruir la relación: la distancia de quien sabe desde dónde habla.
 
@@ -28,7 +26,6 @@ Por qué Anteros es el tercer módulo del Bloque I
 
 Anteros va tercero —después de Fobos y Deimos— porque las discriminaciones más importantes del módulo requieren que los dos primeros módulos hayan sido evaluados. La discriminación Anteros/Fobos requiere que Fobos ya tenga un código: si Fobos fue H-3, el mediador sabe que el sujeto tiene energía reactiva y necesita discriminar si Anteros es energía adicional de distinta naturaleza o si lo que parecía Anteros es Fobos proactivo. La discriminación
 
-Entrevista Clínica Ontológica · ECO
 
 Anteros/Deimos requiere que Deimos haya sido evaluado: si Deimos fue H-1 con EP-0, la ausencia de parálisis refuerza la señal de Anteros. El tercer lugar del módulo no es arbitrario: es la posición desde la que las discriminaciones más importantes tienen el contexto que necesitan.
 
@@ -44,7 +41,6 @@ Cuando la apertura narrativa ya produjo señales claras de Anteros, el mediador 
 
 Por qué Anteros no tiene SKIP estructural
 
-Entrevista Clínica Ontológica · ECO
 
 Sin SKIP estructural — justificación ontológica Anteros no tiene regla SKIP porque no hay configuración del sujeto que haga improbable su presencia de manera suficientemente robusta como para justificar omitir el módulo. Incluso los sujetos en E-4 pueden mostrar señales de Anteros —el eje del Otro internalizado puede producir afirmaciones que se parecen a Anteros y que requieren la discriminación A/E-4. Incluso los sujetos con Fobos dominante pueden tener Anteros como Hijo secundario. La única condición de ausencia garantizada de Anteros sería E-3 confirmado con profundidad estructural —y en ese caso la regla SKIP del Módulo Fobos ya habría derivado directamente a Deimos. Si el mediador llegó al Módulo Anteros, es porque el instrumento lo requiere.
 
@@ -52,46 +48,45 @@ Sin SKIP estructural — justificación ontológica Anteros no tiene regla SKIP 
 
 La pregunta ancla del Módulo Anteros accede a la experiencia de afirmación desde el eje propio a través de la narrativa de una situación en que ese eje fue puesto en juego. La formulación evita palabras como «criterio», «valores» o «principios» que podrían activar narrativas construidas sobre la imagen del sujeto en lugar de narrativas de experiencia genuina.
 
-> Pregunta ancla A — Formulación estándar «¿Puedes contarme de una vez en que dijiste que no a algo o a alguien — y eso te costó algo, pero la relación siguió? No tiene que haber sido dramático: una vez en que mantuviste tu posición, aunque hubiera presión para cambiarla.» [El mediador formula la pregunta y espera. La doble condición — «te costó algo» y «la relación siguió» — es la que separa Anteros de Fobos (también puede decir que no, pero la relación puede no sobrevivir) y de Deimos (no puede decir que no porque no tiene posición desde donde decirlo). Si el sujeto dice que no recuerda ninguna vez, el mediador espera 15 segundos antes de pasar al Sondeo A·1. Si el sujeto inmediatamente produce múltiples ejemplos con energía, el mediador observa si esa energía tiene carácter de Anteros (afirmación desde el eje) o de Fobos (reactividad ante la amenaza que esos momentos produjeron).]
+Pregunta ancla A — Formulación estándar «¿Puedes contarme de una vez en que dijiste que no a algo o a alguien — y eso te costó algo, pero la relación siguió? No tiene que haber sido dramático: una vez en que mantuviste tu posición, aunque hubiera presión para cambiarla.» [El mediador formula la pregunta y espera. La doble condición — «te costó algo» y «la relación siguió» — es la que separa Anteros de Fobos (también puede decir que no, pero la relación puede no sobrevivir) y de Deimos (no puede decir que no porque no tiene posición desde donde decirlo). Si el sujeto dice que no recuerda ninguna vez, el mediador espera 15 segundos antes de pasar al Sondeo A·1. Si el sujeto inmediatamente produce múltiples ejemplos con energía, el mediador observa si esa energía tiene carácter de Anteros (afirmación desde el eje) o de Fobos (reactividad ante la amenaza que esos momentos produjeron).]
 
 Variantes por perfil de mediador
 
-> Variante — Mediador Educativo (contexto escolar)
->
->
-> «¿Hay algún momento en este ciclo en que te hayas opuesto a algo — una instrucción, una dinámica del aula, una expectativa del sistema — porque no coincidía con lo que considerabas correcto? ¿Qué hiciste con esa discrepancia?» [Esta variante orienta la pregunta hacia el contexto educativo. El mediador adapta según trabaje con docentes o con estudiantes: para estudiantes puede ser «¿hubo alguna vez en que dijiste que no o que no estabas de acuerdo con algo que se esperaba de ti?»]
->
-> Variante — Mediador Estructural (análisis de responsabilidad) «En el período que estamos analizando, ¿hubo algún momento en que su criterio profesional apuntaba en una dirección distinta a lo que se esperaba o se instruía? ¿Qué hizo en ese momento?» [Esta variante orienta la pregunta hacia el contexto de toma de decisiones profesional. Es especialmente relevante para el análisis de responsabilidad causal: el sujeto que tenía criterio propio contrario a la instrucción que siguió tiene un Anteros que no se expresó, lo que tiene consecuencias para la estimación de α.]
->
-> Variante — Mediador Organizacional (ego colectivo) «¿Puede describir un momento en que esta organización — como institución — dijo que no a algo que el campo o las circunstancias presionaban para hacer, y lo sostuvo sin que la relación con ese campo se destruyera?» [Esta variante orienta la pregunta hacia el ego colectivo. El mediador busca señal de Anteros institucional: decisiones colectivas que afirmaron el eje propio de la organización ante presión externa, con fricción productiva que no destruyó la relación con el campo.]
+Variante — Mediador Educativo (contexto escolar)
+
+
+«¿Hay algún momento en este ciclo en que te hayas opuesto a algo — una instrucción, una dinámica del aula, una expectativa del sistema — porque no coincidía con lo que considerabas correcto? ¿Qué hiciste con esa discrepancia?» [Esta variante orienta la pregunta hacia el contexto educativo. El mediador adapta según trabaje con docentes o con estudiantes: para estudiantes puede ser «¿hubo alguna vez en que dijiste que no o que no estabas de acuerdo con algo que se esperaba de ti?»]
+
+Variante — Mediador Estructural (análisis de responsabilidad) «En el período que estamos analizando, ¿hubo algún momento en que su criterio profesional apuntaba en una dirección distinta a lo que se esperaba o se instruía? ¿Qué hizo en ese momento?» [Esta variante orienta la pregunta hacia el contexto de toma de decisiones profesional. Es especialmente relevante para el análisis de responsabilidad causal: el sujeto que tenía criterio propio contrario a la instrucción que siguió tiene un Anteros que no se expresó, lo que tiene consecuencias para la estimación de α.]
+
+Variante — Mediador Organizacional (ego colectivo) «¿Puede describir un momento en que esta organización — como institución — dijo que no a algo que el campo o las circunstancias presionaban para hacer, y lo sostuvo sin que la relación con ese campo se destruyera?» [Esta variante orienta la pregunta hacia el ego colectivo. El mediador busca señal de Anteros institucional: decisiones colectivas que afirmaron el eje propio de la organización ante presión externa, con fricción productiva que no destruyó la relación con el campo.]
 
 ### IV.  Preguntas de sondeo
 
 Las preguntas de sondeo del Módulo Anteros tienen dos objetivos simultáneos: profundizar en la señal de afirmación desde el eje propio y comenzar a verificar si esa señal corresponde a Anteros o a sus pares de confusión más frecuentes (Fobos, E-4). El mediador administra todas las preguntas, en el orden indicado, sin saltarse ninguna porque el resultado en una pregunta orienta la lectura de la siguiente.
 
-Entrevista Clínica Ontológica · ECO
 
-> Sondeo A·1 — El origen del no «Ese no que diste —o ese límite que pusiste—, ¿venía de algo que reconocías como tuyo, o fue más bien una reacción a lo que te estaban pidiendo?» [Esta es la pregunta discriminante primaria entre Anteros y Fobos. Lo que el mediador observa: si el sujeto puede separar su posición del detonante. El sujeto en Anteros puede identificar el criterio propio que existía antes del evento y que el evento puso en juego. El sujeto en Fobos no puede separar la respuesta del detonante: la energía fue activada por lo externo y no puede nombrarse independientemente de ello. Si el sujeto dice «fue una reacción» pero luego puede identificar el criterio que sustentaba esa reacción, el mediador pasa a la pregunta A·4 para verificar el origen del criterio.]
+Sondeo A·1 — El origen del no «Ese no que diste —o ese límite que pusiste—, ¿venía de algo que reconocías como tuyo, o fue más bien una reacción a lo que te estaban pidiendo?» [Esta es la pregunta discriminante primaria entre Anteros y Fobos. Lo que el mediador observa: si el sujeto puede separar su posición del detonante. El sujeto en Anteros puede identificar el criterio propio que existía antes del evento y que el evento puso en juego. El sujeto en Fobos no puede separar la respuesta del detonante: la energía fue activada por lo externo y no puede nombrarse independientemente de ello. Si el sujeto dice «fue una reacción» pero luego puede identificar el criterio que sustentaba esa reacción, el mediador pasa a la pregunta A·4 para verificar el origen del criterio.]
 
-> Sondeo A·2 — La consistencia del criterio «¿Ese criterio desde el que respondiste — ¿es algo que reconoces en otras situaciones de tu vida? ¿Puedes nombrarlo?» [Lo que el mediador observa: si el sujeto puede identificar el criterio propio con especificidad y si puede extenderlo a otros contextos. El sujeto en Anteros puede nombrar el criterio —no necesariamente en términos elaborados, puede ser muy concreto: «no firmo lo que no he revisado», «no acepto plazos que sé que no puedo cumplir»— y puede reconocerlo en otras situaciones. Si el sujeto puede nombrarlo, pero solo en ese contexto específico, la señal orienta hacia Anteros situacional. Si puede nombrarlo y extenderlo, la señal orienta hacia Anteros como Hijo dominante más estable.]
+Sondeo A·2 — La consistencia del criterio «¿Ese criterio desde el que respondiste — ¿es algo que reconoces en otras situaciones de tu vida? ¿Puedes nombrarlo?» [Lo que el mediador observa: si el sujeto puede identificar el criterio propio con especificidad y si puede extenderlo a otros contextos. El sujeto en Anteros puede nombrar el criterio —no necesariamente en términos elaborados, puede ser muy concreto: «no firmo lo que no he revisado», «no acepto plazos que sé que no puedo cumplir»— y puede reconocerlo en otras situaciones. Si el sujeto puede nombrarlo, pero solo en ese contexto específico, la señal orienta hacia Anteros situacional. Si puede nombrarlo y extenderlo, la señal orienta hacia Anteros como Hijo dominante más estable.]
 
-> Sondeo A·3 — El costo y la relación «¿Qué pasó después? ¿Cómo quedó la relación o la situación después de que mantuviste tu posición?» [Lo que el mediador observa: si el sujeto describe una relación que sobrevivió a la fricción o una que se deterioró o interrumpió. Anteros produce fricción productiva que no destruye la relación porque la afirmación viene desde el eje propio y no contra el otro. Si la relación se destruyó, el mediador evalúa: ¿fue la naturaleza de la relación la que no toleró la fricción, o fue la forma en que el sujeto afirmó su posición la que produjo la destrucción? En el primer caso sigue siendo Anteros. En el segundo puede ser Fobos.]
+Sondeo A·3 — El costo y la relación «¿Qué pasó después? ¿Cómo quedó la relación o la situación después de que mantuviste tu posición?» [Lo que el mediador observa: si el sujeto describe una relación que sobrevivió a la fricción o una que se deterioró o interrumpió. Anteros produce fricción productiva que no destruye la relación porque la afirmación viene desde el eje propio y no contra el otro. Si la relación se destruyó, el mediador evalúa: ¿fue la naturaleza de la relación la que no toleró la fricción, o fue la forma en que el sujeto afirmó su posición la que produjo la destrucción? En el primer caso sigue siendo Anteros. En el segundo puede ser Fobos.]
 
-> Sondeo A·4 — El origen del criterio «Ese criterio que describes como tuyo — ¿desde cuándo lo sientes como propio? ¿Lo construiste desde tu experiencia, o en algún punto lo adoptaste de alguien o de algún contexto?»
->
->
-> [Esta es la pregunta discriminante primaria entre Anteros y E-4. Lo que el mediador observa: si el sujeto puede dar historia del criterio desde la experiencia propia o si identifica una figura o un campo del que proviene. El sujeto en Anteros puede describir cómo fue haciéndose suyo el criterio —aunque sea un proceso que no recuerda en detalle. El sujeto en E-4 puede identificar con cierta facilidad la figura de origen: «mi padre siempre decía que», «en la empresa donde me formé», «mi primer jefe me enseñó que». Cuando el sujeto identifica la figura de origen, el mediador no concluye automáticamente E-4: pregunta si el criterio se mantiene cuando esa figura ya no está presente o cuando la figura misma lo cuestionaría.]
+Sondeo A·4 — El origen del criterio «Ese criterio que describes como tuyo — ¿desde cuándo lo sientes como propio? ¿Lo construiste desde tu experiencia, o en algún punto lo adoptaste de alguien o de algún contexto?»
 
-> Sondeo A·5 — La afirmación sin audiencia «¿Habría mantenido esa posición, aunque nadie lo supiera — aunque no te generara ningún reconocimiento, aunque no te viera nadie?» [Lo que el mediador observa: si el sujeto puede sostener el criterio independientemente del reconocimiento externo. Anteros no requiere audiencia porque viene del eje propio. La egolatría propia también puede producir afirmaciones sostenidas, pero requiere el espejo propio: el sujeto necesita verse como alguien que sostiene esos criterios. La pregunta discriminante entre Anteros y egolatría propia: ¿la afirmación requiere que el sujeto se vea a sí mismo sosteniéndola, o existe independientemente de ese espejo?]
 
-> Sondeo A·6 — La proactividad «¿Recuerdas haber tomado la iniciativa de comunicar tu posición — de decir lo que pensabas sin que nadie te lo pidiera, simplemente porque considerabas que era lo que correspondía decir?» [Lo que el mediador observa: si el sujeto describe comunicación proactiva desde el eje propio. Anteros produce justificación espontánea: el sujeto comunica su criterio porque reconoce que le corresponde hacerlo, no porque le pregunten. Si el sujeto puede identificar esos momentos con facilidad y describe la iniciativa como natural, la señal de Anteros se fortalece. Si solo puede describir comunicación reactiva —responde cuando le preguntan— la señal orienta hacia Anteros más contenido o hacia E-4.]
+[Esta es la pregunta discriminante primaria entre Anteros y E-4. Lo que el mediador observa: si el sujeto puede dar historia del criterio desde la experiencia propia o si identifica una figura o un campo del que proviene. El sujeto en Anteros puede describir cómo fue haciéndose suyo el criterio —aunque sea un proceso que no recuerda en detalle. El sujeto en E-4 puede identificar con cierta facilidad la figura de origen: «mi padre siempre decía que», «en la empresa donde me formé», «mi primer jefe me enseñó que». Cuando el sujeto identifica la figura de origen, el mediador no concluye automáticamente E-4: pregunta si el criterio se mantiene cuando esa figura ya no está presente o cuando la figura misma lo cuestionaría.]
 
-> Sondeo A·7 — La fricción en esta sesión «Hay algo en lo que te he preguntado o en la manera en que lo he preguntado que no te ha parecido completamente correcto o que produjo en ti algún tipo de incomodidad o resistencia?» [Esta es la pregunta que puede producir EP-1 directamente. Lo que el mediador observa: si el sujeto puede desacordar con el mediador en sesión de manera no hostil y no colapsar
->
->
-> ante esa posibilidad. Un sujeto en Anteros puede responder: «sí, cuando preguntaste X me pareció que estabas asumiendo algo que no es así», o «no me gustó la formulación de la pregunta Y porque daba por supuesto algo». Lo que importa no es el contenido de la discrepancia sino la textura: ¿el sujeto mantiene la relación mientras discrepa? ¿La fricción no destruye? Si el sujeto dice que no hay nada que objetar, el mediador acepta la respuesta, pero registra que esta pregunta no produjo EP-1 desde sesión.]
->
-> El Sondeo A·7 es el que más frecuentemente incomoda a los mediadores en formación porque requiere invitar al sujeto a criticar la sesión misma. La incomodidad es del mediador, no del instrumento. El sujeto en Anteros puede recibir esa pregunta como una señal de que el mediador está presente y es genuino. El sujeto en E-4 la recibirá con dificultad porque criticar la autoridad —aunque sea una autoridad que invita la crítica— activa el eje del Otro internalizado. El sujeto en Fobos puede verla como amenaza si percibe que hay algo que perder al criticar. La respuesta a esta pregunta es uno de los datos más diagnósticos de la sesión.
+Sondeo A·5 — La afirmación sin audiencia «¿Habría mantenido esa posición, aunque nadie lo supiera — aunque no te generara ningún reconocimiento, aunque no te viera nadie?» [Lo que el mediador observa: si el sujeto puede sostener el criterio independientemente del reconocimiento externo. Anteros no requiere audiencia porque viene del eje propio. La egolatría propia también puede producir afirmaciones sostenidas, pero requiere el espejo propio: el sujeto necesita verse como alguien que sostiene esos criterios. La pregunta discriminante entre Anteros y egolatría propia: ¿la afirmación requiere que el sujeto se vea a sí mismo sosteniéndola, o existe independientemente de ese espejo?]
+
+Sondeo A·6 — La proactividad «¿Recuerdas haber tomado la iniciativa de comunicar tu posición — de decir lo que pensabas sin que nadie te lo pidiera, simplemente porque considerabas que era lo que correspondía decir?» [Lo que el mediador observa: si el sujeto describe comunicación proactiva desde el eje propio. Anteros produce justificación espontánea: el sujeto comunica su criterio porque reconoce que le corresponde hacerlo, no porque le pregunten. Si el sujeto puede identificar esos momentos con facilidad y describe la iniciativa como natural, la señal de Anteros se fortalece. Si solo puede describir comunicación reactiva —responde cuando le preguntan— la señal orienta hacia Anteros más contenido o hacia E-4.]
+
+Sondeo A·7 — La fricción en esta sesión «Hay algo en lo que te he preguntado o en la manera en que lo he preguntado que no te ha parecido completamente correcto o que produjo en ti algún tipo de incomodidad o resistencia?» [Esta es la pregunta que puede producir EP-1 directamente. Lo que el mediador observa: si el sujeto puede desacordar con el mediador en sesión de manera no hostil y no colapsar
+
+
+ante esa posibilidad. Un sujeto en Anteros puede responder: «sí, cuando preguntaste X me pareció que estabas asumiendo algo que no es así», o «no me gustó la formulación de la pregunta Y porque daba por supuesto algo». Lo que importa no es el contenido de la discrepancia sino la textura: ¿el sujeto mantiene la relación mientras discrepa? ¿La fricción no destruye? Si el sujeto dice que no hay nada que objetar, el mediador acepta la respuesta, pero registra que esta pregunta no produjo EP-1 desde sesión.]
+
+El Sondeo A·7 es el que más frecuentemente incomoda a los mediadores en formación porque requiere invitar al sujeto a criticar la sesión misma. La incomodidad es del mediador, no del instrumento. El sujeto en Anteros puede recibir esa pregunta como una señal de que el mediador está presente y es genuino. El sujeto en E-4 la recibirá con dificultad porque criticar la autoridad —aunque sea una autoridad que invita la crítica— activa el eje del Otro internalizado. El sujeto en Fobos puede verla como amenaza si percibe que hay algo que perder al criticar. La respuesta a esta pregunta es uno de los datos más diagnósticos de la sesión.
 
 ### V.  Señales de observación directa
 
@@ -107,7 +102,6 @@ EP-1 sostenido: es la señal más diagnóstica del módulo. El sujeto que puede 
 
 Confundir con rigidez defensiva (Fobos) o con distancia relacional (E-4 o E-5). La señal de Anteros no es hostilidad ni cierre: es fricción que no destruye. El sujeto que desacuerda y sigue presente, curioso, relacionado, está en Anteros.
 
-### Entrevista Clínica Ontológica · ECO
 
 La narrativa del sujeto tiene un eje reconocible: criterios que se repiten en decisiones de distintos contextos y períodos, sin que el sujeto haya sido instruido a tenerlos. La coherencia no es rigidez: el eje se mantiene pero puede dialogar con lo nuevo.
 
@@ -139,7 +133,6 @@ EP-2 desde narrativa de episodios específicos con resolución no destructiva. E
 
 Confundir con evitación del conflicto (Deimos). La diferencia: la evitación de Deimos no produce discrepancia. Anteros produce discrepancia y la sostiene. La señal no es que el sujeto no
 
-Entrevista Clínica Ontológica · ECO
 
 El desacuerdo existió y la relación continuó.
 
@@ -157,41 +150,39 @@ El mediador que quiere verificar esta señal puede introducir, de manera natural
 
 El árbol del Módulo Anteros tiene más nodos de verificación de exclusión que los módulos anteriores porque las confusiones frecuentes de Anteros son más difíciles de resolver y requieren más pasos. El árbol no puede completarse sin pasar por al menos una pregunta discriminante de la sección §7.
 
-> **NODO A·0 — ¿La apertura narrativa produjo señal de Anteros? ¿Entrar directamente a pregunta ancla?**
->
-> ### Entrevista Clínica Ontológica · ECO
->
-> SÍ (señal clara de afirmación desde eje propio en apertura) → Ir directamente a pregunta ancla sin preámbulo. El sujeto ya estableció el campo. NO → Administrar pregunta ancla con el encuadre estándar. ↓
+**NODO A·0 — ¿La apertura narrativa produjo señal de Anteros? ¿Entrar directamente a pregunta ancla?**
 
-> **NODO A·1 — ¿La pregunta ancla produjo narrativa de afirmación desde criterio propio?**
->
-> NO (el sujeto no puede identificar ningún momento de afirmación con fricción) → Administrar Sondeo A·6 y A·7. Si no hay señal → verificar si H-1 o imposibilidad de evaluar según la naturaleza de la ausencia. SÍ → Observar: ¿la narrativa tiene energía proactiva (afirma algo) o reactiva (responde a algo)? ↓
 
-> **NODO A·2 — ¿La energía de la narrativa es proactiva (afirma algo propio) o reactiva (responde a una amenaza)?**
->
-> Reactiva → Posible Fobos. Administrar Sondeo A·1 y pregunta discriminante A/F de §7 antes de continuar. Proactiva → Administrar Sondeo A·2, A·4, A·7 en ese orden. ↓
+SÍ (señal clara de afirmación desde eje propio en apertura) → Ir directamente a pregunta ancla sin preámbulo. El sujeto ya estableció el campo. NO → Administrar pregunta ancla con el encuadre estándar. ↓
 
-> **NODO A·3 — Sondeo A·4: ¿el sujeto puede dar historia del criterio desde la experiencia propia?**
->
-> NO (identifica figura de origen con claridad: padre, institución, figura de autoridad) → Posible E-4. Administrar pregunta discriminante A/E-4 de §7 obligatoriamente. SÍ (puede describir cómo fue haciéndose suyo el criterio) → Señal de Anteros fortalecida. Continuar. ↓
+**NODO A·1 — ¿La pregunta ancla produjo narrativa de afirmación desde criterio propio?**
 
-> **NODO A·4 — Sondeo A·7: ¿el sujeto puede desacordar con el mediador en sesión sin colapsar ni volverse hostil?**
->
-> SÍ (fricción productiva en sesión, relación no destruida) → EP-1 confirmado. Señal de Anteros máxima. NO (no hay desacuerdo, o el desacuerdo produce colapso o hostilidad) → EP-1 no confirmado. Evaluar si la ausencia corresponde a E-4 (no puede desacordar con autoridad) o a Deimos (no tiene posición desde donde desacordar). ↓
+NO (el sujeto no puede identificar ningún momento de afirmación con fricción) → Administrar Sondeo A·6 y A·7. Si no hay señal → verificar si H-1 o imposibilidad de evaluar según la naturaleza de la ausencia. SÍ → Observar: ¿la narrativa tiene energía proactiva (afirma algo) o reactiva (responde a algo)? ↓
 
-> **NODO A·5 — ¿El criterio se mantiene en múltiples contextos y períodos (patrón temporal)?**
->
-> NO (solo aparece en el episodio que el sujeto describió en la pregunta ancla) → H-2 máximo. Anteros situacional. Peso EP-4 o EP-5. SÍ → ¿Hay señal de observación directa en sesión? ↓
+**NODO A·2 — ¿La energía de la narrativa es proactiva (afirma algo propio) o reactiva (responde a una amenaza)?**
 
-> **NODO A·6 — ¿La señal de observación directa en sesión corrobora la narrativa?**
->
-> NO → H-3 no alcanzable. H-2 con EP-2 o EP-3. Nota de hipótesis. SÍ → ¿La señal corresponde a Anteros o podría ser E-4 avanzado? ↓
->
-> ### Entrevista Clínica Ontológica · ECO
+Reactiva → Posible Fobos. Administrar Sondeo A·1 y pregunta discriminante A/F de §7 antes de continuar. Proactiva → Administrar Sondeo A·2, A·4, A·7 en ese orden. ↓
 
-> **NODO A·7 — Verificación final: ¿la afirmación viene del eje propio o del eje del Otro internalizado?**
->
-> Administrar pregunta discriminante A/E-4 de §7 si no se administró en NODO A·3. Confirmar exclusión antes de codificación final. ↓
+**NODO A·3 — Sondeo A·4: ¿el sujeto puede dar historia del criterio desde la experiencia propia?**
+
+NO (identifica figura de origen con claridad: padre, institución, figura de autoridad) → Posible E-4. Administrar pregunta discriminante A/E-4 de §7 obligatoriamente. SÍ (puede describir cómo fue haciéndose suyo el criterio) → Señal de Anteros fortalecida. Continuar. ↓
+
+**NODO A·4 — Sondeo A·7: ¿el sujeto puede desacordar con el mediador en sesión sin colapsar ni volverse hostil?**
+
+SÍ (fricción productiva en sesión, relación no destruida) → EP-1 confirmado. Señal de Anteros máxima. NO (no hay desacuerdo, o el desacuerdo produce colapso o hostilidad) → EP-1 no confirmado. Evaluar si la ausencia corresponde a E-4 (no puede desacordar con autoridad) o a Deimos (no tiene posición desde donde desacordar). ↓
+
+**NODO A·5 — ¿El criterio se mantiene en múltiples contextos y períodos (patrón temporal)?**
+
+NO (solo aparece en el episodio que el sujeto describió en la pregunta ancla) → H-2 máximo. Anteros situacional. Peso EP-4 o EP-5. SÍ → ¿Hay señal de observación directa en sesión? ↓
+
+**NODO A·6 — ¿La señal de observación directa en sesión corrobora la narrativa?**
+
+NO → H-3 no alcanzable. H-2 con EP-2 o EP-3. Nota de hipótesis. SÍ → ¿La señal corresponde a Anteros o podría ser E-4 avanzado? ↓
+
+
+**NODO A·7 — Verificación final: ¿la afirmación viene del eje propio o del eje del Otro internalizado?**
+
+Administrar pregunta discriminante A/E-4 de §7 si no se administró en NODO A·3. Confirmar exclusión antes de codificación final. ↓
 
 SALIDA — Codificación + Nivel EP + P(Anteros) tentativo → Continuar a Módulo Potós
 
@@ -209,7 +200,6 @@ El sujeto puede separar su posición de la amenaza: lo que afirmó existía ante
 
 El sujeto no puede separar la reacción del detonante: sin la amenaza, la energía no habría existido o habría sido diferente. La urgencia tiene objeto externo que la activó. El sujeto describe la respuesta en función de lo que amenazaba, no en función de lo que sostenía.
 
-### Entrevista Clínica Ontológica · ECO
 
 Anteros vs. E-4 (eje ajeno internalizado)
 
@@ -235,7 +225,6 @@ Anteros: el sujeto eligió esa respuesta porque correspondía a
 
 Fobos estratégico: el sujeto puede imaginar haber
 
-### Entrevista Clínica Ontológica · ECO
 
 (urgencia que encubre deliberación)
 
@@ -261,7 +250,6 @@ Anteros: el sujeto puede identificar ese momento y puede describir que sostuvo s
 
 E-4 avanzado: el sujeto no puede identificar ese momento fácilmente, o cuando lo identifica describe que terminó
 
-Entrevista Clínica Ontológica · ECO
 
 adoptando la posición del campo, aunque inicialmente resistió. El criterio que parecía propio se plegó cuando la fricción fue suficientemente alta. El eje era del Otro internalizado que se impuso cuando fue desafiado desde afuera.
 
@@ -277,7 +265,6 @@ La dificultad de esta discriminación reside en que el sujeto en E-4 no tiene ac
 
 La pregunta que más frecuentemente produce la distinción es la pregunta del colapso del Otro: «¿qué haría tu criterio si la persona de quien lo adoptaste lo cuestionara directamente?». En Anteros, el criterio sobrevive al cuestionamiento del Otro porque es del sujeto. En E-4, el criterio puede colapsar o transformarse cuando el Otro internalizado lo niega desde afuera —porque el criterio requiere la sanción del Otro para mantenerse. El mediador que puede acceder a
 
-Entrevista Clínica Ontológica · ECO
 
 esta pregunta en sesión tiene la discriminación más confiable del módulo.
 
@@ -291,7 +278,6 @@ La instrucción práctica para el mediador: no usar E-1 como sustituto de Antero
 
 ### VIII.  Criterios de codificación
 
-### Entrevista Clínica Ontológica · ECO
 
 **Tabla de codificación** (columnas: código · nombre · ancla conductual · nivel EP mínimo · ejemplo de respuesta)
 
@@ -321,7 +307,6 @@ EP-0. «No sé si tengo criterios propios como
 
 H-1 Ausente El módulo completo no
 
-### Entrevista Clínica Ontológica · ECO
 
 tales. Trato de hacer lo que corresponde en cada situación.» [El sujeto no puede nombrar ningún criterio propio estable cuando el mediador lo pregunta directamente.]
 
@@ -339,7 +324,6 @@ Sin EP asignable.
 
 La codificación H-3 en el Módulo Anteros requiere las tres condiciones siguientes de manera simultánea. Primera: el sujeto puede identificar criterios propios que se mantuvieron estables en al menos dos contextos o períodos distintos del período analizado, y puede nombrarlos con especificidad. Segunda: puede describir al menos un episodio de discrepancia con el campo que no destruyó la relación —fricción productiva con historia. Tercera: al menos una señal de observación directa en sesión corrobora la narrativa —el sujeto desacuerda con el mediador, justifica su posición sin que se lo
 
-Entrevista Clínica Ontológica · ECO
 
 pidan, o muestra criterio propio en la relación directa con el instrumento.
 
@@ -353,7 +337,6 @@ La codificación del Módulo Anteros produce el peso tentativo de P(Anteros) en 
 
 ### Ejemplos de distribuciones P(Hijos) cuando Anteros es dominante Ejemplo 1 (Anteros muy dominante, EP-1): P(Fobos) = 0.10 · P(Deimos) = 0.05 · P(Anteros) = 0.75 · P(Potós) = 0.05 · P(Eros) = 0.05 · P(Harmonía) = 0.00. Suma: 1.00. Ejemplo 2 (Anteros/Fobos coexistentes, EP-2 para ambos): P(Fobos) = 0.30 · P(Deimos) = 0.05 · P(Anteros) = 0.50 · P(Potós) = 0.05 · P(Eros) = 0.10
 
-Entrevista Clínica Ontológica · ECO
 
 · P(Harmonía) = 0.00. Suma: 1.00. El segundo describe un sujeto con eje propio sólido (Anteros) que también reacciona defensivamente cuando algo lo amenaza (Fobos): los dos Hijos conviven porque corresponden a dimensiones distintas del mismo campo de la voluntad.
 
@@ -367,7 +350,6 @@ Por qué Anteros es el Hijo colectivo más difícil de sostener
 
 Anteros colectivo requiere una condición que los demás Hijos colectivos no requieren con la misma intensidad: un ego soberano en E-1 real —el sujeto que porta la segunda mediación colectiva debe tener su propio eje genuino activo para que el colectivo pueda afirmar el suyo. Un ego soberano en E-4 —con eje ajeno internalizado— produce un colectivo que parece tener Anteros pero que en realidad tiene el eje del Otro del ego soberano. La organización que parece tener criterio propio sólido puede estar actuando desde el criterio de su fundador, de su regulador más influyente, o de la cultura del sector —no desde un eje genuinamente propio.
 
-Entrevista Clínica Ontológica · ECO
 
 La señal que distingue Anteros colectivo genuino de E-4 colectivo es la misma que en el individuo: ¿el criterio sobrevive al cuestionamiento del Otro que lo originó? La organización que mantiene su criterio cuando el fundador que lo instauró ya no está, o cuando el sector cambia sus normas, o cuando el regulador presiona en sentido contrario, tiene Anteros colectivo genuino. La que adapta su criterio al cambio de la figura de origen tiene E-4 colectivo.
 
@@ -381,7 +363,6 @@ La discriminación Anteros colectivo / E-4 colectivo
 
 La discriminación más importante en la aplicación colectiva del Módulo Anteros es la misma que en el individuo, pero con un nivel de complejidad adicional: ¿el criterio propio del colectivo sobrevive
 
-Entrevista Clínica Ontológica · ECO
 
 a la ausencia del ego soberano que lo instauró? Una organización que mantiene su cultura, su enfoque o sus criterios de decisión después de la salida del fundador o del líder que los estableció tiene Anteros colectivo genuino —el criterio se transmitió y se hizo propio del colectivo. Una organización que pierde su criterio o que lo adopta de un nuevo líder con cada cambio de liderazgo tiene E-4 colectivo: el criterio depende del ego soberano de turno, no es del colectivo.
 
@@ -395,7 +376,6 @@ El segundo error es usar la localización de Anteros para concluir que el sujeto
 
 El tercer error es nombrar el Hijo al sujeto de manera que lo convierte en etiqueta de identidad. «Eres de los que tienen criterio propio» o «claramente tienes Anteros» no son intervenciones de ECO: son evaluaciones que el instrumento no autoriza y que pueden contaminar la relación para el resto de la sesión y para el proceso de Histos.
 
-Entrevista Clínica Ontológica · ECO
 
 Lo que el mediador sí hace
 
@@ -407,15 +387,16 @@ Cuándo derivar a Histos
 
 Anteros como Hijo dominante con H-3 y EP-1 orienta la derivación a Histos con la condición de que el Bloque II esté completo y la discriminación A/E-4 haya sido resuelta con certeza. La diferencia entre Anteros genuino y E-4 con eje ajeno fuerte determina completamente la orientación del trabajo de Histos: con Anteros genuino, el trabajo puede operar directamente desde el eje propio activo del sujeto. Con E-4, el trabajo necesita abordar primero la restitución del eje propio antes de que el Hijo dominante pueda cambiar.
 
-> Condición de derivación a Histos desde Anteros Anteros H-3 con EP-1 o EP-2 + discriminación A/E-4 resuelta con certeza + Bloque II completo. Si la discriminación A/E-4 no pudo resolverse, la derivación a Histos incluye la nota de incertidumbre sobre el origen del criterio y el trabajo de Histos incorpora la exploración de ese origen como parte de su proceso inicial.
+Condición de derivación a Histos desde Anteros Anteros H-3 con EP-1 o EP-2 + discriminación A/E-4 resuelta con certeza + Bloque II completo. Si la discriminación A/E-4 no pudo resolverse, la derivación a Histos incluye la nota de incertidumbre sobre el origen del criterio y el trabajo de Histos incorpora la exploración de ese origen como parte de su proceso inicial.
 
 Cuándo el caso supera ECO
 
-Entrevista Clínica Ontológica · ECO
 
 Anteros no produce frecuentemente situaciones que superen el alcance de ECO. La excepción más significativa es cuando la afirmación desde el criterio propio que el sujeto describe involucra conflictos de alta intensidad —situaciones laborales, familiares o sociales donde la fricción productiva tiene consecuencias legales, de seguridad o de salud que están en curso. En esos casos, el mediador no puede usar ECO para localizar la configuración de la voluntad mientras el conflicto sigue activo sin primero asegurarse de que el sujeto tiene las condiciones de seguridad necesarias. El principio de derivación del paradigma se aplica: antes de localizar ontológicamente, asegurar que el sujeto esté seguro.
 
-Notas al Módulo B·I·A
+---
+
+## Notas al Módulo B·I·A
 
 1 La descripción de Anteros como afirmación en la dimensión arética tiene una consecuencia para el análisis de responsabilidad del Método Prometeo que el texto principal no desarrolla explícitamente: un sujeto en Anteros con criterio propio activo tiene α alto (alta asunción de sus actos como propios) y S más bajo (menor condicionamiento del sesgo acumulado sobre la orientación de la voluntad). Eso produce una estimación de R* que asigna mayor peso causal a ese sujeto que a uno en Deimos o en Fobos con el mismo nivel de intervención en el grafo causal. La responsabilidad de Anteros es mayor no porque el sujeto sea culpable en sentido moral sino porque su voluntad fue más determinante en el resultado.
 
@@ -423,12 +404,8 @@ Notas al Módulo B·I·A
 
 3 La extensión de la sección §7 de este módulo responde a la nota editorial del documento editorial de la obra: las tres discriminaciones (Anteros/Fobos, Anteros/E-4, Anteros/E-1) son las que justifican que este módulo sea el más extenso del Bloque I. Las seis preguntas de la tabla discriminante no son solo para uso en sesión: son el material de formación más importante del módulo. El mediador que internaliza las seis discriminaciones tiene el instrumento
 
-Entrevista Clínica Ontológica · ECO
 
 calibrado para leer no solo Anteros sino la dimensión arética completa del sistema.
 
 4 La instrucción de recibir el desacuerdo del sujeto sin defensividad ni cesión automática en el Sondeo A·7 tiene una doble función que el texto menciona brevemente: es señal diagnóstica del sujeto (¿puede desacordar?) y es modelo relacional del mediador (¿puede recibir el desacuerdo?). El mediador que no puede recibir el desacuerdo del sujeto sin ponerse defensivo o sin ceder inmediatamente está mostrando que no tiene Anteros disponible en el campo de la sesión — y eso contamina precisamente el módulo que busca localizarlo en el sujeto. La supervisión de la propia P(Hijos) del mediador es especialmente importante en este módulo.
-
-Entrevista Clínica Ontológica · ECO
-
 
