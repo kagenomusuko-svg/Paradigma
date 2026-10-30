@@ -1,10 +1,7 @@
-### B·III·4 ·  ANÁLISIS DE ARTEFACTOS
+# B·III·4 · ANÁLISIS DE ARTEFACTOS COLECTIVOS
+## El expediente del ego colectivo
 
-### COLECTIVOS
-
-El expediente del ego colectivo Tipología de evidencia · Grupos focales ontológicos · Observación de
-
-juntas · Cruce artefacto/entrevista
+*Tipología de evidencia · Grupos focales ontológicos · Observación de juntas · Cruce artefacto/entrevista*
 
 ### I.  Qué cuenta como artefacto colectivo — tipología y EP
 
@@ -12,7 +9,6 @@ El ego colectivo no solo puede localizarse a través de entrevistas al ego sober
 
 El análisis de artefactos tiene dos funciones en el Bloque III. La primera es la función de corroboración: cuando las entrevistas al ego soberano y a los miembros ya produjeron localizaciones, los artefactos verifican si esas localizaciones corresponden al comportamiento observable del colectivo o si hay discordancias que requieren investigación adicional. La segunda función es la de acceso alternativo: cuando la entrevista directa no es posible —porque el ego soberano no está disponible, porque el colectivo es muy
 
-Entrevista Clínica Ontológica · ECO
 
 numeroso para entrevistas exhaustivas, o porque el período analizado es histórico y los actores ya no están accesibles— los artefactos producen la localización del ego colectivo desde la evidencia disponible.
 
@@ -24,7 +20,6 @@ El árbol documental adaptado al ego colectivo
 
 El Capítulo U·1 de la Taxonomía establece la jerarquía de evidencia documental para el análisis individual: E0 (evento directo) a E8 (dicho único sin corroboración). Esa jerarquía aplica al ego colectivo con un ajuste central: la fuente de la evidencia no es el individuo sino el colectivo como sistema. Un documento que el ego soberano produjo en nombre del colectivo tiene mayor peso diagnóstico sobre el ego colectivo que un documento que un miembro periférico produjo sobre el colectivo. Un acuerdo tomado en junta plenaria con registro de deliberación tiene mayor peso diagnóstico que un comunicado externo de prensa. El árbol documental colectivo sigue la misma lógica de la jerarquía de evidencia, pero la proximidad a φ₂ reemplaza a la proximidad al evento en la determinación del nivel EP.
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- TABLA: tipología de artefactos | columnas: tipo de artefacto, información producida, nivel EP colectivo máximo, limitación diagnóstica -->
 
@@ -52,7 +47,6 @@ EP-2 colectivo para patrones que aparecen en múltiples documentos del mismo per
 
 Los documentos pueden expresar la máscara colectiva (M-3) más que el ego colectivo genuino: están diseñados para la comunicación institucional y pueden reflejar lo
 
-### Entrevista Clínica Ontológica · ECO
 
 aplica al ego colectivo con los ajustes del Bloque III.
 
@@ -74,7 +68,6 @@ Señales indirectas del estado del ego colectivo que pueden corroborar o cuestio
 
 EP-4 o inferior para cualquier localización. Las métricas no producen señal diagnóstica directa: requieren interpretación desde el marco conceptual del sistema ontológico.
 
-Entrevista Clínica Ontológica · ECO
 
 La cultura material como artefacto diagnóstico
 
@@ -86,7 +79,6 @@ La señal diagnóstica de la cultura material para el estado actual del ego cole
 
 El grupo focal con técnica ontológica es el instrumento más innovador del Bloque III —y el que más claramente se diferencia de los grupos focales de la investigación cualitativa ordinaria. La diferencia no es de técnica de facilitación ni de preguntas: es de objeto de análisis. En el grupo focal ordinario, el objeto de análisis es lo que los participantes piensan, sienten u opinan sobre un tema. En el grupo focal ontológico, el objeto de análisis es el ego colectivo que se produce en la dinámica del grupo: la manera en que el grupo delibera, se orienta, acuerda, paraliza, evita o afronta los temas que el mediador introduce.
 
-Entrevista Clínica Ontológica · ECO
 
 La premisa del grupo focal ontológico es que la dinámica de un grupo que incluye al ego soberano real y a miembros de distintos niveles de proximidad a φ₂ reproduce en tiempo real la dinámica del ego colectivo. El grupo no es una muestra representativa de opiniones individuales: es una instancia del ego colectivo produciendo su segunda mediación en presencia del mediador. Lo que el mediador observa en el grupo focal ontológico no es lo que los participantes dicen: es cómo el grupo dice lo que dice, y desde qué posición del ego colectivo lo produce.
 
@@ -98,7 +90,6 @@ La selección de los participantes incluye también un criterio de diversidad de
 
 <!-- TABLA: comparación de formatos grupales | columnas: técnica ontológica, entrevista cualitativa ordinaria, diferencias de objetivo y resultado -->
 
-### Entrevista Clínica Ontológica · ECO
 
 Pregunta al grupo: «¿Qué piensan ustedes sobre X?». Busca los contenidos de la opinión grupal sobre el objeto X. El resultado es un mapa de opiniones individuales y de la dinámica de influencia en la formación del consenso o del disenso del grupo.
 
@@ -124,9 +115,8 @@ El análisis del consenso del grupo produce la posición colectiva sobre el tema
 
 Las preguntas del grupo focal ontológico no son preguntas de opinión: son preguntas que activan la voluntad colectiva del grupo de la misma manera que las preguntas de los módulos activan la voluntad individual en la entrevista estándar. El principio de diseño es el mismo que produce las preguntas de los módulos individuales: la pregunta no debe tener respuesta correcta obvia, debe producir
 
-Entrevista Clínica Ontológica · ECO
 
-### deliberación genuina en el grupo, y debe activar la dimensión de la voluntad colectiva que el módulo busca localizar.
+deliberación genuina en el grupo, y debe activar la dimensión de la voluntad colectiva que el módulo busca localizar.
 
 > Pregunta de apertura del grupo focal ontológico «Me gustaría que como grupo me contaran algo que esta organización hizo en el período que estamos analizando — algo que fue importante y que requirió que el grupo tuviera que decidir juntos hacia dónde ir. No lo que resultó bien o mal: cómo se tomó esa decisión, desde dónde se orientó.» [El mediador formula la pregunta y observa: ¿quién habla primero? ¿Quién establece el marco de la narración? ¿Hay miembros que amplían, corrigen o contestan la narrativa del primero? ¿El grupo produce una narración coherente del colectivo o las perspectivas son tan distintas que no pueden integrarse? La dinámica de los primeros diez minutos del grupo focal ontológico produce señal diagnóstica de alta densidad sobre el ego colectivo.]
 >
@@ -177,7 +167,6 @@ La presencia de al menos un actor que puede disentir sin que el campo se destruy
 
 Confundir la ausencia de disenso con consenso genuino. En M-3, el disenso no aparece porque no tiene
 
-### Entrevista Clínica Ontológica · ECO
 
 silencio, o por la ratificación de una posición ya tomada?
 
@@ -211,7 +200,6 @@ El actor que puede interrumpir una
 
 Confundir la capacidad de interrumpir con
 
-Entrevista Clínica Ontológica · ECO
 
 deliberación cuando esta se orienta en una dirección que no es la del ego soberano real? ¿Cómo lo hace?
 
@@ -227,7 +215,6 @@ Los rituales institucionales —la inauguración del año de trabajo, la celebra
 
 Los rituales de incorporación son especialmente diagnósticos sobre el Eje II (mascarada): si la incorporación de nuevos miembros reproduce la máscara M-3 de manera sistemática —induciendo a los nuevos miembros en el código de presentación institucional antes de que puedan conocer el ego colectivo genuino— el ritual de incorporación es un mecanismo de transmisión de M-3. Si la incorporación permite que el nuevo miembro encuentre el ego colectivo genuino antes de la máscara, el ritual orienta hacia M-1. El mediador que puede observar un ritual de incorporación tiene acceso a una señal diagnóstica de alta especificidad sobre el Eje II que los
 
-Entrevista Clínica Ontológica · ECO
 
 documentos institucionales raramente producen con la misma claridad.
 
@@ -243,7 +230,6 @@ Los cuatro tipos de relación entre artefactos y entrevistas
 
 El mediador puede encontrar cuatro tipos de relación entre la evidencia de los artefactos y la de las entrevistas. El primer tipo es la convergencia: los artefactos confirman lo que las entrevistas produjeron. Un colectivo que las entrevistas localizan en Fobos produce juntas urgentes, documentos con lenguaje defensivo ante
 
-Entrevista Clínica Ontológica · ECO
 
 amenazas externas, y rituales orientados a la protección del territorio institucional. La convergencia eleva el EP de la localización en un punto. El segundo tipo es la divergencia parcial: los artefactos confirman algunas localizaciones y cuestionan otras. El colectivo puede estar en Fobos en sus comunicaciones externas (los documentos producen la firma de Fobos) pero en Deimos en sus juntas internas (la deliberación produce parálisis). Esa divergencia es señal diagnóstica de que el ego colectivo opera de manera distinta en distintos campos del colectivo — una forma específica de heterogeneidad del ego colectivo que el instrumento puede localizar con precisión.
 
@@ -267,11 +253,13 @@ Regla de cruce — qué hacer con cada tipo de relación Convergencia total → 
 > La divergencia entre los artefactos (que producen la firma de la máscara) y las entrevistas (que pueden producir señales del ego colectivo genuino cuando el mediador crea las condiciones para que emerja) es precisamente la señal diagnóstica de M-3 profundo. El mediador que puede leer esa divergencia y traducirla en el código M-3 colectivo tiene acceso a la información más crítica para el trabajo de Histos colectivo: el colectivo no es lo que sus artefactos muestran,
 >
 
-### y el trabajo de acompañamiento no puede comenzar desde la máscara sino desde el ego genuino que las entrevistas pudieron localizar.
+y el trabajo de acompañamiento no puede comenzar desde la máscara sino desde el ego genuino que las entrevistas pudieron localizar.
 
 Regla del cruce para M-3 profundo Cuando los artefactos producen consistentemente la firma de E-1 colectivo con Anteros, y las entrevistas producen sistemáticamente la firma de E-4 colectivo con criterio ajeno internalizado, la convergencia aparente es en realidad divergencia: los artefactos muestran la máscara de Anteros (M-3), las entrevistas muestran E-4 colectivo. La localización colectiva correcta es E-4 con M-3, no E-1. El mediador que produce la localización solo desde los artefactos produce la localización de la máscara y no del ego colectivo genuino.
 
-Notas al capítulo B·III·4
+---
+
+## Notas al capítulo B·III·4
 
 1 La tipología de artefactos del §1 sigue la misma lógica jerárquica que el árbol documental del Capítulo U·1 de la Taxonomía, con la adaptación colectiva que el Bloque III requiere. El principio de que la proximidad al objeto de análisis determina el EP de la evidencia aplica de la misma manera: un grupo focal que incluye al ego soberano real y produce dinámica observable en tiempo real tiene mayor EP diagnóstico que un documento que el ego soberano produjo para comunicación externa. La jerarquía del árbol documental original —E0 a E8 — se traduce en el Bloque III como: dinámica observable en tiempo real (E0–E1 colectivo), entrevistas al ego soberano y miembros de Nivel 1–2 (E2–E3 colectivo), documentos internos de alta jerarquía (E4 colectivo), documentos de comunicación externa (E5–E6 colectivo), cultura material histórica (E7–E8 colectivo).
 
@@ -279,12 +267,8 @@ Notas al capítulo B·III·4
 
 3 La observación del efecto del observador en las juntas institucionales que el §3 menciona tiene una consecuencia práctica que el texto no desarrolla: en
 
-Entrevista Clínica Ontológica · ECO
 
 colectivos con M-3 profundo, el efecto del observador puede ser especialmente intenso porque el colectivo puede producir una versión más cuidadosa de su máscara en presencia del mediador. En esos colectivos, la observación de la junta puede producir EP-1 de M-3 (la máscara se intensifica ante el observador externo) sin acceder al ego colectivo genuino. El mediador que puede distinguir la máscara intensificada por la presencia del observador de la dinámica genuina del colectivo necesita comparar la junta observada con la descripción de juntas típicas que los miembros producen en las entrevistas individuales: si la junta observada es descrita por los miembros como «diferente a como normalmente son nuestras reuniones», el mediador tiene EP-1 de M-3 bajo presión del observador, que es información diagnóstica de primer orden.
 
 4 El protocolo de cruce artefacto/entrevista que el §4 establece como herramienta para leer M-3 profundo tiene una aplicación inversa que puede ser igualmente importante: cuando las entrevistas producen la firma de M-3 pero los artefactos producen señales del ego colectivo genuino, puede ser señal de que el ego colectivo genuino tiene acceso a la expresión a través de los artefactos, aunque no pueda expresarse en las entrevistas. Eso puede ocurrir en colectivos con fuerte presión del ego soberano formal sobre la expresión individual: los miembros pueden ajustar sus narrativas en la entrevista a lo que el ego soberano formal espera, mientras que en los artefactos que producen en el día a día (las comunicaciones informales, los espacios que personalizan, los rituales que producen espontáneamente) el ego colectivo genuino tiene más libertad de expresión.
-
-Entrevista Clínica Ontológica · ECO
-
 
