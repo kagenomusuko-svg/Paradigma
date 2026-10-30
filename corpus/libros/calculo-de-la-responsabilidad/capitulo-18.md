@@ -491,7 +491,9 @@ R* · S · Δ · B_total · Hijos (dos momentos) · D_vital · Fraude
 
 annona · IIC
 
-> **Nota metodológica:** Este análisis no constituye opinión jurídica formal ni pretende anticipar el resultado del proceso activo. Es una demostración metodológica de cómo el sistema de imputación causal aporta elementos de análisis a un expediente real. Los datos identificadores han sido anonimizados. El análisis usa exclusivamente hechos documentados en el expediente o inferibles razonablemente de él.
+::: {.recuadro .nota-violeta}
+**Nota metodológica:** Este análisis no constituye opinión jurídica formal ni pretende anticipar el resultado del proceso activo. Es una demostración metodológica de cómo el sistema de imputación causal aporta elementos de análisis a un expediente real. Los datos identificadores han sido anonimizados. El análisis usa exclusivamente hechos documentados en el expediente o inferibles razonablemente de él.
+:::
 
 ### §1.  El contexto y los hechos imputados
 
@@ -1275,4 +1277,5 @@ Lo que el sistema produce en este caso no es solo un análisis técnico. Es la d
 banca comercial
 
 Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026
+
 
