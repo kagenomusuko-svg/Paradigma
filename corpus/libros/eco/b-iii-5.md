@@ -1,10 +1,7 @@
-### B·III·5 ·  MEMORIA COMUNITARIA — LO QUE FUE, LO QUE ES, LO QUE PUDO SER
+# B·III·5 · MEMORIA COMUNITARIA — LO QUE FUE, LO QUE ES, LO QUE PUDO SER
+## La estructura triádica de la Memoria Comunitaria
 
-### La estructura triádica de la Memoria
-
-Comunitaria Sección específica para el Mediador en Memoria Comunitaria · Rescate
-
-cultural · Patrimonio inmaterial · Memoria histórica
+*Sección específica para el Mediador en Memoria Comunitaria · Rescate cultural · Patrimonio inmaterial · Memoria histórica*
 
 ### I.  La estructura triádica de la Memoria Comunitaria
 
@@ -12,7 +9,6 @@ El trabajo del Mediador en Memoria Comunitaria opera en tres dimensiones simult�
 
 La estructura triádica distingue el trabajo del Mediador en Memoria Comunitaria de cualquier otra forma de trabajo con la memoria histórica. La historiografía trabaja con lo que fue: reconstruye el pasado con el mayor rigor factual posible. La antropología cultural trabaja con lo que es: describe el estado actual de las prácticas, los valores y las estructuras de sentido de la comunidad. El trabajo de memoria comunitaria ordinario puede trabajar con lo que pudo ser, pero frecuentemente lo hace desde el marco de la denuncia —lo que
 
-Entrevista Clínica Ontológica · ECO
 
 se le quitó a la comunidad— más que desde el marco de la comprensión ontológica de las posibilidades no colapsadas.
 
@@ -26,7 +22,6 @@ Las tres dimensiones de la estructura triádica no se trabajan en secuencia line
 
 Lo que fue Lo que es Lo que pudo ser
 
-### Entrevista Clínica Ontológica · ECO
 
 El pasado de la comunidad como configuración activa de la voluntad colectiva que existió. No el pasado como recuerdo ni como historia: el pasado como ego colectivo que tenía Hijos, estados del ego, estructura de vínculos, posición en el vector tanatológico — y que esas configuraciones orientaron actos colectivos que dejaron huellas en el presente.
 
@@ -56,7 +51,6 @@ Riesgo principal: hacer del presente un juicio del pasado. El estado actual del 
 
 ### La estructura triádica de la Memoria Comunitaria está directamente fundamentada en el vector tanatológico del Módulo Eje V del
 
-Entrevista Clínica Ontológica · ECO
 
 Bloque II. «Lo que fue» corresponde a la reconstrucción del ego colectivo antes del evento fundante (T-0) del vector tanatológico colectivo — la pérdida irrecuperable que fracturó el vínculo y produjo la ruptura entre lo que la comunidad era y lo que llegó a ser. «Lo que es» corresponde a la localización del ego colectivo en el momento presente del vector — desde T-1 hasta T-6 según la posición en que el duelo colectivo se encuentra. «Lo que pudo ser» es la lectura del evento fundante desde las posibilidades que canceló — la comprensión de qué futuros se volvieron imposibles cuando la pérdida ocurrió.
 
@@ -70,7 +64,6 @@ Los portadores de memoria — tipología y EP para «lo que fue»
 
 El acceso a la configuración del ego colectivo pasado requiere identificar quién porta esa memoria y qué tipo de acceso tiene. La tipología que sigue establece cuatro tipos de portadores de memoria
 
-### Entrevista Clínica Ontológica · ECO
 
 y el EP que cada uno produce para la localización de «lo que fue». La tipología no jerarquiza el valor cultural o humano de cada tipo: jerarquiza la precisión diagnóstica del acceso que cada tipo tiene al ego colectivo pasado.
 
@@ -106,7 +99,6 @@ EP-3 desde la perspectiva crítica cuando corrobora o cuestiona las narrativas d
 
 El sesgo del ex-miembro disidente: quien se fue del colectivo en conflicto puede sobre-
 
-### Entrevista Clínica Ontológica · ECO
 
 puede describir el período pasado con distancia crítica, incluyendo sus disfunciones y sus conflictos.
 
@@ -140,8 +132,6 @@ La entrevista a portadores de memoria vivida es la fuente de mayor EP diagnósti
 > Sondeo MPV·3 — La señal del ego genuino pasado «¿Había algo que la comunidad sabía que debía ser diferente — algo que no terminaba de encajar con cómo vivían, que producía incomodidad, aunque no pudiera resolverse?» [Lo que el mediador busca: el Eje IV colectivo del período pasado. Si el colectivo pasado tenía D-1 activo (la señal del ego genuino registraba la brecha), esa señal puede haber sido parte del tejido que la pérdida destruyó — o puede haber sido la brecha que la pérdida llegó a fracturar de manera definitiva. El portador que puede identificar esa
 
 
-### Entrevista Clínica Ontológica · ECO
-
 incomodidad colectiva pasada con temperatura de recuerdo genuino produce EP-2 para el Eje IV pasado del colectivo.]
 
 ### Distinguir memoria genuina de memoria construida
@@ -164,7 +154,6 @@ Incluye lo negativo: la memoria genuina del ego colectivo pasado incluye los con
 
 Tiende a idealizar: la narrativa construida sobre el pasado del colectivo tiende a eliminar los conflictos y a sobre-
 
-### Entrevista Clínica Ontológica · ECO
 
 disfunciones junto con los momentos de mayor vitalidad. El portador puede nombrar ambos porque los vivió.
 
@@ -196,7 +185,6 @@ Cuando el trabajo de Memoria Comunitaria incluye el rescate de patrimonio inmate
 
 La localización de «lo que es» en el trabajo de Memoria Comunitaria tiene una dificultad específica que los demás contextos de aplicación del Bloque III no tienen en la misma medida: en muchas comunidades con historia de ruptura, el ego colectivo presente está en un estado avanzado de D-2 colectivo (la anestesia ontológica instalada como consecuencia de la ruptura no habitada) o en T-1 crónico del Eje V (la negación de la irreversibilidad de la pérdida que perpetúa la tiranía utópica). Esos estados afectan la administración del instrumento: un ego colectivo en D-2 profundo puede no poder producir señal diagnóstica confiable de su estado actual porque el instrumento de registro del ego genuino se apagó.
 
-Entrevista Clínica Ontológica · ECO
 
 La posición del Eje V colectivo como determinante de la capacidad de «lo que es»
 
@@ -209,7 +197,6 @@ Antes de administrar la localización de «lo que es», el mediador en Memoria C
 
 ### IV.  Lo que pudo ser — el Eje V de la comunidad
 
-Entrevista Clínica Ontológica · ECO
 
 «Lo que pudo ser» es la dimensión más compleja de la triada y la más específica del trabajo de Memoria Comunitaria. Localiza las posibilidades que el evento fundante del vector tanatológico colectivo (T-0) canceló: lo que el colectivo podría haber sido si la pérdida no hubiera ocurrido, o si hubiera ocurrido de manera diferente. No es una idealización contrafáctica del pasado: es la comprensión de las posibilidades que estaban disponibles para el ego colectivo antes del evento de pérdida y que ese evento hizo irrecuperables.
 
@@ -221,7 +208,6 @@ La pérdida irrecuperable constitutiva del colectivo — localización específi
 
 El primer paso de «lo que pudo ser» es la localización precisa del evento fundante del vector tanatológico colectivo (T-0) y de la naturaleza de la pérdida irrecuperable que ese evento produjo. ¿Qué perdió el colectivo cuando ocurrió T-0? No solo los hechos de lo que se perdió —el territorio, la práctica, el principio organizador, el
 
-Entrevista Clínica Ontológica · ECO
 
 liderazgo— sino la configuración del ego colectivo que esa pérdida hizo imposible en su forma original. Un colectivo que perdió un territorio perdió más que el espacio físico: perdió la configuración de la voluntad colectiva que ese territorio hacía posible —las prácticas, los rituales, los saberes que ese espacio producía y que ese espacio requería.
 
@@ -267,7 +253,6 @@ El principio de intervención más importante del trabajo de Memoria Comunitaria
 
 El tercer error, el más sutil, es el de producir la integración del duelo antes de que el colectivo pueda habitarla. El mediador que, ante el
 
-Entrevista Clínica Ontológica · ECO
 
 duelo comunitario activo (T-2), introduce marcos de resignificación o de apertura hacia el futuro está haciendo con el duelo comunitario exactamente lo que el instrumento prohíbe hacer con el duelo individual: calmar la señal antes de que pueda leerse. El duelo comunitario, como el individual, necesita espacio para producirse. El mediador que lo cierra antes de que pueda abrirse produce comunidades que parecen haber elaborado la pérdida —porque el mediador les dio el marco de la integración— sin haber habitado el duelo que la integración genuina requiere.
 
@@ -281,7 +266,6 @@ Las tres preguntas del trabajo de Memoria Comunitaria en Histos
 
 El trabajo de ECO en el contexto de Memoria Comunitaria produce las localizaciones de la triada. El trabajo de Histos colectivo —que este instrumento no desarrolla, pero al que debe entregar sus
 
-Entrevista Clínica Ontológica · ECO
 
 resultados— opera desde tres preguntas que son la traducción de la triada en trabajo de acompañamiento. La primera: «¿cómo puede este ego colectivo honrar lo que fue sin quedar atrapado en ello?» Esa pregunta opera sobre el eje de la triada «lo que fue» y requiere que el colectivo esté en T-3 o superior del Eje V para poder ser abordada. La segunda: «¿cómo puede este ego colectivo estar en lo que es sin que eso sea una traición a lo que fue?» Esa pregunta requiere que el colectivo pueda distinguir el presente del pasado sin que la distinción produzca culpa de traición — lo que corresponde a T-4 o superior. La tercera: «¿qué puede ser este ego colectivo que incorpore lo que fue sin ser idéntico a ello?» Esa pregunta, la más difícil, requiere que el colectivo pueda imaginar un futuro genuinamente nuevo — lo que corresponde a T-5 o T-6.
 
@@ -291,9 +275,10 @@ Una nota sobre el tiempo en el trabajo de Memoria Comunitaria
 
 El trabajo de Memoria Comunitaria tiene una característica que distingue su escala temporal del trabajo individual: el ego colectivo opera en tiempos históricos que pueden extenderse generaciones, y el vector tanatológico colectivo puede tener posiciones que se fijaron antes de que ninguno de los miembros actuales estuviera vivo. El mediador en Memoria Comunitaria trabaja con generaciones que portan el duelo de sus predecesores sin haberlo vivido directamente, y con posibilidades que se perdieron antes de que nadie de los presentes pudiera imaginarlas desde la experiencia. Esa extensión temporal no invalida el instrumento: lo amplía. Las localizaciones del Bloque III §5 son localizaciones de la configuración del ego colectivo a través del tiempo — algo que ningún instrumento diseñado solo para el ego individual puede producir con la misma precisión.
 
-Entrevista Clínica Ontológica · ECO
 
-Notas al capítulo B·III·5
+---
+
+## Notas al capítulo B·III·5
 
 1 La estructura triádica de la Memoria Comunitaria —lo que fue, lo que es, lo que pudo ser— tiene su fundamento en la obra Caelus del paradigma y en el desarrollo del Mediador en Memoria Comunitaria como sexto perfil del sistema. La triada no es una metáfora narrativa: es una estructura de localización ontológica que usa el instrumento completo del Bloque I y el Bloque II en tres momentos temporales distintos del mismo ego colectivo. Su innovación conceptual respecto a otros marcos de trabajo con la memoria histórica es que localiza la voluntad colectiva (no los hechos históricos) en cada uno de los tres momentos, y que el trabajo de Histos colectivo opera sobre esas tres localizaciones para crear las condiciones del movimiento en el vector tanatológico.
 
@@ -303,10 +288,6 @@ Notas al capítulo B·III·5
 
 4 Las tres preguntas de Histos colectivo que el §5 introduce —cómo honrar lo que fue sin quedar atrapado, cómo estar en lo que es sin que sea traición, qué puede ser que incorpore lo que fue sin ser idéntico— son la formulación más condensada de todo el trabajo de Histos colectivo en el contexto de Memoria Comunitaria. Histos colectivo es la obra que desarrollará esas tres preguntas con el mismo nivel de detalle que este instrumento desarrolla las localizaciones de ECO. La referencia a Histos en esta nota es intencional: el mediador que trabaja con el Bloque III §5 debe saber que el instrumento que tiene en las manos es el instrumento de localización, y que el trabajo de acompañamiento
 
-Entrevista Clínica Ontológica · ECO
 
 que esas localizaciones hacen posible requiere el instrumento Histos que el paradigma está desarrollando en paralelo.
-
-Entrevista Clínica Ontológica · ECO
-
 
