@@ -1,12 +1,7 @@
-### B·II·V ·  MÓDULO EJE V —
+# B·II·V · MÓDULO EJE V — TANATOLÓGICO
+## El vector del duelo ante la pérdida irrecuperable
 
-### TANATOLÓGICO
-
-### El vector del duelo ante la pérdida
-
-irrecuperable Localización en T-0 a T-6 y T-ext · Eje central del Mediador en
-
-Memoria Comunitaria
+*Localización en T-0 a T-6 y T-ext · Eje central del Mediador en Memoria Comunitaria*
 
 ### I.  Fundamento ontológico del módulo
 
@@ -14,7 +9,6 @@ El Eje V del SDO localiza la posición del sujeto en el vector del duelo ante un
 
 La razón por la que el sistema ontológico incluye el Eje V —por la que el duelo no es solo un estado emocional sino un eje del SDO con posiciones localizables— es que el proceso del duelo ante la pérdida irrecuperable tiene consecuencias directas sobre la configuración de la voluntad del sujeto. Un sujeto cuyo duelo está en T-2 (la presencia del dolor) no puede orientar la voluntad de la misma manera que un sujeto en T-5 (la apertura hacia lo nuevo): el duelo activo ocupa campo de la voluntad que otros procesos no
 
-Entrevista Clínica Ontológica · ECO
 
 pueden usar mientras el duelo lo ocupa. Y un sujeto cuyo duelo se fijó en T-1 (la negación crónica) orienta la voluntad desde una posición que evita el contacto con la pérdida de manera que afecta todas las demás dimensiones del campo relacional del sujeto.
 
@@ -28,7 +22,6 @@ No toda pérdida activa el vector tanatológico. Una pérdida es irrecuperable c
 
 Una pérdida es constitutiva cuando modifica la estructura de la voluntad del sujeto: cuando la voluntad ya no puede orientarse de la misma manera que se orientaba antes de la pérdida, no solo porque el campo externo cambió sino porque el campo interno del sujeto —la manera en que φ₁ produce orientación— fue modificado por la
 
-Entrevista Clínica Ontológica · ECO
 
 pérdida misma. No toda pérdida significativa es constitutiva en este sentido técnico: puede ser significativa sin modificar la estructura de la voluntad. El módulo localiza pérdidas constitutivas, no pérdidas significativas en general.
 
@@ -42,7 +35,6 @@ El vector como modulador de los Hijos del Bloque I
 
 La posición en el vector tanatológico modifica la lectura de los Hijos del Bloque I de manera análoga a como el código del Eje IV lo hace. Un sujeto en T-2 con Fobos como Hijo dominante puede estar orientando su energía reactiva hacia lo que amenaza lo que queda de lo que perdió: el Fobos no es solo el Hijo de la reacción ante la amenaza, es el Hijo de la reacción ante la amenaza a lo que el duelo todavía no pudo integrar. Un sujeto en T-3 con Potós como Hijo
 
-### Entrevista Clínica Ontológica · ECO
 
 dominante puede estar usando la orientación al ausente de Potós como vehículo del trabajo del duelo — en ese caso Potós y T-3 son complementarios y el trabajo de Histos puede usar esa complementariedad.
 
@@ -76,7 +68,6 @@ El sujeto puede estar en contacto con el dolor de la pérdida de manera que le p
 
 Puede durar días o meses. Es la posición más dolorosa del vector, pero es señal de que el duelo está activo. T-2 sin campo de
 
-### Entrevista Clínica Ontológica · ECO
 
 dolor de la pérdida puede registrarse como tal.
 
@@ -100,7 +91,6 @@ El sujeto puede hablar de lo que quiere para adelante sin sentir que eso traicio
 
 Puede durar meses y puede extenderse de manera intermitente: el sujeto puede estar en T-4 en algunas dimensiones de su vida y en T-2 o T-3 en otras simultáneamente.
 
-### Entrevista Clínica Ontológica · ECO
 
 T-5 La apertura hacia lo nuevo
 
@@ -126,7 +116,6 @@ El sujeto describe la pérdida de algo que organizaba el campo de su voluntad �
 
 T-ext requiere que el mediador identifique la naturaleza específica de la pérdida de estructura antes de localizar la posición en el vector. Las preguntas discriminantes T-ext vs. duelo por muerte son esenciales para orientar el trabajo de Histos correctamente.
 
-Entrevista Clínica Ontológica · ECO
 
 0 a T-6 para pérdidas de estructura, aunque los tiempos y las formas son diferentes.
 
@@ -140,7 +129,6 @@ Si el Bloque I produjo señal de Potós (H-2 o H-3) —la orientación al ausent
 
 SKIP parcial — condición y justificación Condición: el Bloque I no produjo señal de Potós (H-1 con EP-0), Y la apertura narrativa no produjo ninguna referencia a pérdida irrecuperable, Y los módulos del Bloque II no produjeron señal de duelo en ninguna de sus dimensiones. Acción: administrar pregunta ancla + Sondeo TAN·1. Si no hay señal en ninguna de las dos: registrar «ausencia de pérdida constitutiva activa en el período analizado» con EP-0 y continuar al cierre del Bloque II. Si hay señal mínima: administrar el módulo completo. Justificación: la ausencia de pérdida irrecuperable constitutiva activa en la configuración de la voluntad del sujeto es un hallazgo válido. No todos los sujetos tienen un duelo activo en el período analizado. El módulo no busca crear pérdida donde no existe: busca localizarla si existe y localizarla con precisión.
 
-Entrevista Clínica Ontológica · ECO
 
 ### III.  Pregunta ancla
 
@@ -218,7 +206,6 @@ EP-1 si la variación tonal es consistente y observable
 
 Confundir la temperatura del duelo con dramatismo o con
 
-### Entrevista Clínica Ontológica · ECO
 
 específica que no aparece en la narrativa sobre otros temas. Puede ser más suave, más lento, más cargado. La variación tonal es consistente cada vez que el objeto de la pérdida aparece en la sesión.
 
@@ -244,7 +231,6 @@ EP-2 desde narrativa de coexistencia del duelo con la apertura. EP-1 si el sujet
 
 Confundir T-4/T-5 con T-1 tardío: el sujeto que habla del futuro sin tocar el duelo puede estar en T-4/T-5 (integración en proceso) o en T-1 crónico (el paréntesis nunca se cerró). La pregunta discriminante: ¿puede el sujeto hablar de la pérdida con temperatura genuina, o el futuro que describe existe en un campo donde la pérdida no tiene lugar?
 
-### Entrevista Clínica Ontológica · ECO
 
 La narrativa del sujeto sobre la pérdida tiene temperatura de historia viva: puede hablar de lo que se fue con presencia interna sin que esa presencia lo paralice. La pérdida está en su historia y puede reconocerlo sin que ese reconocimiento sea el único marco desde el que opera.
 
@@ -270,7 +256,6 @@ EP-1 cuando el retorno espontáneo a lo perdido es observable y sostenido durant
 
 Confundir Potós con el vector tanatológico: Potós describe una posición de la voluntad (hacia lo ausente como horizonte de valor); el vector tanatológico describe la posición en el proceso de duelo.
 
-Entrevista Clínica Ontológica · ECO
 
 Pueden coexistir, pero no son equivalentes. Un sujeto puede estar en Potós sin estar en duelo activo.
 
@@ -286,7 +271,6 @@ La señal de T-2 en sesión puede confundirse con la urgencia de Fobos: los dos 
 
 El árbol del Módulo Eje V localiza la posición en el vector tanatológico a través de tres preguntas principales que recogen las dimensiones diagnósticas del proceso del duelo: el reconocimiento de la irreversibilidad, la presencia del trabajo activo, y la apertura hacia lo nuevo. La intersección de las tres preguntas produce la localización en el vector.
 
-Entrevista Clínica Ontológica · ECO
 
 > **NODO TAN·0 — ¿Hay señal de pérdida irrecuperable constitutiva activa?**
 >
@@ -357,7 +341,6 @@ Las preguntas discriminantes del Módulo Eje V tienen tres pares principales. El
 >
 > Duelo por muerte: el objeto de la pérdida ya no existe. La irrecuperabilidad tiene la claridad que la muerte produce: no hay posibilidad
 >
-> ### Entrevista Clínica Ontológica · ECO
 >
 > de recuperación bajo ninguna forma. Eso hace más fácil el inicio del duelo —aunque no menos doloroso— porque el reconocimiento de la irreversibilidad no está obstaculizado por la existencia continua del objeto.
 >
@@ -383,7 +366,6 @@ Las preguntas discriminantes del Módulo Eje V tienen tres pares principales. El
 
 El Módulo Eje V produce una localización en el vector tanatológico — una posición T-n o T-ext con la especificación de si es T-ext el tipo de pérdida — con el nivel EP que la sustenta y con nota de movimiento del vector (duelo productivo vs. duelo fijado). La localización no es un diagnóstico clínico del duelo: es la descripción
 
-Entrevista Clínica Ontológica · ECO
 
 de desde qué posición del vector el ego genuino está orientando actualmente la voluntad en relación a la pérdida constitutiva.
 
@@ -395,7 +377,6 @@ El nivel EP para el Eje V sigue la escala estándar. EP-1 requiere que la posici
 
 La posición en el vector tanatológico modifica la lectura de los Hijos del Bloque I de tres maneras específicas. La primera: T-2 o T-3 con Potós H-3 del Bloque I produce una nota de complementariedad — el duelo activo y la orientación al ausente de Potós pueden estar describiendo el mismo estado desde perspectivas distintas. El peso de Potós en la distribución P(Hijos) puede ser reforzado por el código del Eje V cuando los dos convergen. La segunda: T-2 o T-3 con Fobos H-3 del Bloque I produce una nota de modulación — la urgencia reactiva de Fobos puede estar siendo activada por la amenaza al objeto del duelo, lo que da a Fobos una estructura específica que el trabajo de Histos debe tener en cuenta. La tercera: T-1 con cualquier Hijo del Bloque I produce una nota de precaución — la negación crónica del duelo puede estar modulando todas las
 
-Entrevista Clínica Ontológica · ECO
 
 señales del Bloque I de maneras que el instrumento no puede determinar desde ECO.
 
@@ -409,7 +390,6 @@ Las instituciones pueden perder de manera irrecuperable algo que era constitutiv
 
 El duelo institucional tiene características que lo distinguen del duelo individual. La primera: el reconocimiento de la pérdida puede no ser simultáneo en todos los miembros del colectivo — algunos pueden estar en T-2/T-3 mientras otros están en T-1, y esa diferencia de reconocimiento puede producir conflictos internos que el colectivo interpreta como conflictos de visión o de liderazgo cuando son en realidad conflictos de posición en el vector tanatológico. La segunda: el duelo institucional puede no tener un objeto de pérdida que los miembros puedan nombrar con precisión — lo que se perdió puede
 
-### Entrevista Clínica Ontológica · ECO
 
 ser algo difuso como «la cultura que teníamos» o «la época en que sabíamos para qué estábamos aquí». La tercera: los mecanismos institucionales —las estructuras de M-3, la presión del campo externo, la necesidad de eficiencia operativa— pueden suprimir sistemáticamente la señal de T-2/T-3 del duelo colectivo, produciendo un paso directo a la negación crónica o a D-2 colectivo.
 
@@ -445,7 +425,6 @@ La organización puede describir lo que heredó de lo que fue y lo que construye
 
 «¿Puede esta organización describir en qué se ha convertido a partir de lo que perdió — no en qué quiere volver a ser, sino en qué diferente puede ser desde lo que fue?»
 
-### Entrevista Clínica Ontológica · ECO
 
 con distancia reflexiva.
 
@@ -469,7 +448,6 @@ El colectivo puede describir el evento de pérdida con claridad pero puede tener
 
 Uno de los estados más frecuentes y más dañinos del vector tanatológico colectivo es la tiranía utópica: el estado del colectivo cuyo duelo por el principio organizador perdido se fijó en T-1 de manera que el pasado se convirtió en el único horizonte normativo del presente. El colectivo en tiranía utópica opera desde la expectativa de recuperar lo que perdió —el momento fundacional, el líder que hacía posible todo, la época de sentido compartido— y evalúa todo el presente desde esa expectativa. Lo que no se parece al pasado perdido es descalificado. Lo que se parece es sobrevalorado, aunque sea inadecuado para el contexto presente.
 
-Entrevista Clínica Ontológica · ECO
 
 La tiranía utópica produce organizaciones que no pueden cambiar porque cualquier cambio es evaluado desde la pérdida: cambiar significa alejarse de lo que fue, y alejarse de lo que fue es traicionar la pérdida. El colectivo puede operar con gran energía en la dirección de la recuperación del pasado, pero esa energía no produce nada nuevo porque está orientada hacia atrás. El duelo no habitable produce fijación; la fijación produce tiranía; la tiranía produce la parálisis del colectivo ante cualquier futuro que no sea restauración.
 
@@ -481,7 +459,6 @@ El trabajo del Mediador en Memoria Comunitaria con el Eje V tanatológico es el 
 
 La conexión entre el Eje V y el Bloque III §5 es esta: la localización del ego colectivo en el vector tanatológico determina qué tipo de trabajo de Memoria Comunitaria es posible. Un colectivo en T-1 crónico no puede hacer rescate cultural genuino —solo puede hacer conservación museística, porque el contacto con la memoria viva de lo que fue requiere que el colectivo pueda habitar el duelo de lo que ya no puede ser de esa manera. Un colectivo en T-2/T-3 puede hacer el trabajo del duelo colectivo con acompañamiento, y ese trabajo
 
-Entrevista Clínica Ontológica · ECO
 
 puede producir el movimiento hacia T-4 que hace posible el rescate cultural genuino. Un colectivo en T-5/T-6 puede hacer rescate cultural con la distancia integradora que permite honrar lo que fue sin quedar atrapado en ello.
 
@@ -522,18 +499,18 @@ puede producir el movimiento hacia T-4 que hace posible el rescate cultural genu
 > > Condición de derivación a Histos desde el Eje V Posición en el vector T-n o T-ext confirmada con EP-1 o EP-2 + resto del Bloque II completo + evaluación del estado D-1/D-2 del Eje IV. La derivación incluye la posición en el vector con la especificación de duelo productivo o fijado, la naturaleza de la pérdida (por muerte o T-ext), y la nota de relación entre la posición en el vector y el Hijo dominante del Bloque I cuando hay convergencia (Potós con T-2/T-3, por ejemplo). Sin la información del Eje IV, la derivación desde el Eje V no puede orientar correctamente el inicio del trabajo de Histos sobre el duelo.
 > >
 > >
-> > Notas al Módulo B·II·V
-> >
-> > 1 La distinción entre pérdida significativa y pérdida irrecuperable constitutiva que establece el §1 es la que permite que el Eje V no se convierta en un módulo que busca pérdidas en todas las vidas. No toda vida tiene un duelo activo en el período analizado, y el SKIP parcial del módulo existe precisamente para eso: si no hay pérdida irrecuperable constitutiva activa en el período analizado, el módulo se cierra limpiamente con H-1. Lo que no puede ocurrir es que el mediador asuma que toda persona tiene un duelo que localizar — esa asunción produce narrativas de duelo que el sujeto construye para satisfacer la expectativa del instrumento.
-> >
-> > 2 El concepto de vector —en lugar de etapas o fases— tiene implicaciones importantes para la práctica. Las teorías de las fases del duelo (Kübler-Ross y sus derivados) presentan el duelo como una secuencia lineal que culmina en aceptación. El vector tanatológico del sistema ontológico no presupone linealidad ni finalidad: el sujeto puede estar en T-3 durante años, puede oscilar entre T-2 y T-3 indefinidamente, puede alcanzar T-5 y tener retornos a T-2 ante aniversarios importantes. T-6 no es el estado final en el sentido de que no puede perturbarse: es la posición de mayor integración disponible, que puede ser perturbada por nuevas pérdidas o por ecos de la pérdida integrada.
-> >
-> > 3 La tiranía utópica que el §10 describe como estado del ego colectivo en T-1 crónico tiene una manifestación política frecuente en los movimientos de restauración: políticos, religiosos, culturales. El mediador que trabaja con colectivos en contextos de cambio histórico o político puede encontrar que la tiranía utópica colectiva tiene consecuencias que van más allá del campo individual o institucional. El paradigma no hace política en el sentido de tomar posición sobre qué debe restaurarse y qué debe cambiar: localiza la posición del ego colectivo en el vector tanatológico y describe las consecuencias de esa posición para la orientación de la voluntad colectiva. El trabajo de Memoria Comunitaria con T-1 crónico colectivo —crear las condiciones para que el colectivo pueda habitar el duelo y moverse en el vector— es político en el sentido más ontológico de la palabra: afecta la estructura desde la que el colectivo orienta su segunda mediación.
-> >
-> > 4 La conexión entre el Eje V y el Bloque III §5 que el §10 establece es estructural y no solo editorial. El Bloque III §5 —La Memoria Comunitaria: lo que fue, lo que es, lo que pudo ser— no puede administrarse efectivamente sin la localización del ego colectivo en el vector tanatológico que el Eje V produce. Las tres preguntas del Bloque III §5 (lo que fue: el pasado de la comunidad; lo que es: el presente; lo que pudo ser: las posibilidades que la pérdida canceló) corresponden a posiciones distintas del vector: «lo que fue» requiere que el colectivo pueda habitar el duelo sin quedar fijado en él (T-3 mínimo); «lo que es» requiere que el colectivo pueda distinguir el presente del pasado (T-4
-> >
-> >
-> > mínimo); «lo que pudo ser» requiere que el colectivo pueda imaginar posibilidades alternativas sin que eso se sienta como traición de lo que fue (T-5 o T-6). El mediador que administra el Bloque III §5 sin la localización del Eje V no sabe desde qué posición del vector el colectivo puede recibir cada pregunta.
-> >
+---
 
+## Notas al Módulo B·II·V
+
+1 La distinción entre pérdida significativa y pérdida irrecuperable constitutiva que establece el §1 es la que permite que el Eje V no se convierta en un módulo que busca pérdidas en todas las vidas. No toda vida tiene un duelo activo en el período analizado, y el SKIP parcial del módulo existe precisamente para eso: si no hay pérdida irrecuperable constitutiva activa en el período analizado, el módulo se cierra limpiamente con H-1. Lo que no puede ocurrir es que el mediador asuma que toda persona tiene un duelo que localizar — esa asunción produce narrativas de duelo que el sujeto construye para satisfacer la expectativa del instrumento.
+
+2 El concepto de vector —en lugar de etapas o fases— tiene implicaciones importantes para la práctica. Las teorías de las fases del duelo (Kübler-Ross y sus derivados) presentan el duelo como una secuencia lineal que culmina en aceptación. El vector tanatológico del sistema ontológico no presupone linealidad ni finalidad: el sujeto puede estar en T-3 durante años, puede oscilar entre T-2 y T-3 indefinidamente, puede alcanzar T-5 y tener retornos a T-2 ante aniversarios importantes. T-6 no es el estado final en el sentido de que no puede perturbarse: es la posición de mayor integración disponible, que puede ser perturbada por nuevas pérdidas o por ecos de la pérdida integrada.
+
+3 La tiranía utópica que el §10 describe como estado del ego colectivo en T-1 crónico tiene una manifestación política frecuente en los movimientos de restauración: políticos, religiosos, culturales. El mediador que trabaja con colectivos en contextos de cambio histórico o político puede encontrar que la tiranía utópica colectiva tiene consecuencias que van más allá del campo individual o institucional. El paradigma no hace política en el sentido de tomar posición sobre qué debe restaurarse y qué debe cambiar: localiza la posición del ego colectivo en el vector tanatológico y describe las consecuencias de esa posición para la orientación de la voluntad colectiva. El trabajo de Memoria Comunitaria con T-1 crónico colectivo —crear las condiciones para que el colectivo pueda habitar el duelo y moverse en el vector— es político en el sentido más ontológico de la palabra: afecta la estructura desde la que el colectivo orienta su segunda mediación.
+
+4 La conexión entre el Eje V y el Bloque III §5 que el §10 establece es estructural y no solo editorial. El Bloque III §5 —La Memoria Comunitaria: lo que fue, lo que es, lo que pudo ser— no puede administrarse efectivamente sin la localización del ego colectivo en el vector tanatológico que el Eje V produce. Las tres preguntas del Bloque III §5 (lo que fue: el pasado de la comunidad; lo que es: el presente; lo que pudo ser: las posibilidades que la pérdida canceló) corresponden a posiciones distintas del vector: «lo que fue» requiere que el colectivo pueda habitar el duelo sin quedar fijado en él (T-3 mínimo); «lo que es» requiere que el colectivo pueda distinguir el presente del pasado (T-4
+
+
+mínimo); «lo que pudo ser» requiere que el colectivo pueda imaginar posibilidades alternativas sin que eso se sienta como traición de lo que fue (T-5 o T-6). El mediador que administra el Bloque III §5 sin la localización del Eje V no sabe desde qué posición del vector el colectivo puede recibir cada pregunta.
 
