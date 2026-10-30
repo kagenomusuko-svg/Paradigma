@@ -143,3 +143,4 @@ El R* histórico no es un valor puntual sino un intervalo [R*_min, R*_max] calib
 
 Para el sistema de alianzas de 1914: R*_alianzas ∈ [0.35, 0.55]. Para Gavrilo Princip: R*_Princip ∈ [0.00, 0.10]. La presentación correcta del análisis histórico siempre incluye estos rangos.
 
+
