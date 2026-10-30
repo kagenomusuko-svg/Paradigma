@@ -8467,11 +8467,11 @@ El árbol documental del Capítulo U·1 de la Taxonomía y el instrumento ECO pr
 
 Este protocolo de integración opera en tres modos según la relación entre las dos localizaciones: convergencia (los dos instrumentos producen la misma localización), complementación (cada instrumento localiza dimensiones que el otro no accede) y contradicción (los dos instrumentos producen localizaciones incompatibles que requieren investigación adicional).
 
-Modo Descripción Protocolo de
+### Modos de integración
 
-Notas técnicas integración
+#### Convergencia
 
-CONVERGENCIA Los dos instrumentos producen la misma localización para el mismo módulo o componente. La convergencia eleva el EP de la localización: si el árbol documental produce señal de Fobos en los
+Los dos instrumentos producen la misma localización para el mismo módulo o componente. La convergencia eleva el EP de la localización: si el árbol documental produce señal de Fobos en los
 
 EP máximo para el componente en que ambos convergen. Registrar la convergencia en ambas hojas de síntesis. La localización puede usarse por Histos
 
@@ -8482,13 +8482,17 @@ actos del período Y ECO produce señal de Fobos H-3 EP-1 en presencia, la local
 
 con máxima confianza en esa dimensión.
 
-COMPLEMENTACIÓN Cada instrumento localiza dimensiones que el otro no puede acceder. El árbol documental puede localizar el Hijo dominante en los actos del período analizado con EP-4; ECO puede localizar el estado del ego (Eje I) y la estructura del vínculo (Eje III) que ningún expediente puede producir. La complementación es el modo más frecuente y el más valioso: los dos instrumentos juntos producen una localización más completa que cualquiera por separado.
+#### Complementación
+
+Cada instrumento localiza dimensiones que el otro no puede acceder. El árbol documental puede localizar el Hijo dominante en los actos del período analizado con EP-4; ECO puede localizar el estado del ego (Eje I) y la estructura del vínculo (Eje III) que ningún expediente puede producir. La complementación es el modo más frecuente y el más valioso: los dos instrumentos juntos producen una localización más completa que cualquiera por separado.
 
 Producir la localización integrada combinando los componentes de cada instrumento. Los componentes del árbol documental (especialmente P(Hijos) desde actos observables) se integran con los componentes de ECO (especialmente Eje I, II, III y IV desde presencia). La hoja de síntesis integrada indica para cada componente qué fuente lo sustenta.
 
 Árbol documental: fuente principal para P(Hijos) basado en actos documentados. ECO: fuente principal para Eje I (estado del ego), Eje II (mascarada), Eje III (vínculo), Eje IV (señal del ego genuino). Eje V: ambos instrumentos contribuyen — el árbol documental da la cronología de la pérdida; ECO da la posición en el vector.
 
-CONTRADICCIÓN Los dos instrumentos producen localizaciones incompatibles para el mismo componente. El árbol documental localiza Anteros dominante (criterio propio
+#### Contradicción
+
+Los dos instrumentos producen localizaciones incompatibles para el mismo componente. El árbol documental localiza Anteros dominante (criterio propio
 
 No promediar las dos localizaciones. Identificar la causa probable de la contradicción (ver tabla de causas más adelante). Producir DI-
 
@@ -8501,13 +8505,11 @@ ECO con descripción de la contradicción. Determinar cuál de los dos instrumen
 
 muestra E-4 (el eje colapsa ante el cuestionamiento del Otro). En ese caso, ECO tiene mayor EP para el Eje I. El árbol documental tiene mayor EP para la firma de los actos externos.
 
-### Tabla de integración componente por componente
-
 ### Integración componente por componente
 
 Para cada componente se indican la fuente primaria, la fuente de corroboración y la acción ante contradicciones.
 
-P(Hijos) — distribución de los seis Hijos
+#### P(Hijos) — distribución de los seis Hijos
 
 ECO Bloque I (con EP-1 o EP-2 disponible). El ego genuino en presencia es la fuente más confiable para la configuración de la voluntad.
 
@@ -8515,7 +8517,7 @@ ECO Bloque I (con EP-1 o EP-2 disponible). El ego genuino en presencia es la fue
 
 Si el árbol documental produce Hijo dominante que ECO no localiza: verificar si el árbol documental corresponde a la firma del Hijo en los actos externos (que puede ser distinta de la configuración interna que ECO localiza) o si ECO no exploró suficientemente ese Hijo.
 
-P(Harmonía) — solo desde módulo H
+#### P(Harmonía) — solo desde módulo H
 
 ECO módulo H — EXCLUSIVO. Ninguna fuente documental puede
 
@@ -8530,7 +8532,7 @@ o D-2 requiere presencia.
 
 producir P(Harmonía) > 0 sin el módulo H de ECO.
 
-Eje I — estado del ego (E-1 a E-6)
+#### Eje I — estado del ego (E-1 a E-6)
 
 ECO módulo Eje I — fuente principal.
 
@@ -8538,7 +8540,7 @@ ECO módulo Eje I — fuente principal.
 
 Si árbol documental muestra coherencia de criterio Y ECO localiza E-4: el criterio documentado puede ser el criterio ajeno internalizado (coherente externamente, ajeno internamente). Prevalece ECO para el Eje I.
 
-Eje II — mascarada (M-1/M-2/M-3)
+#### Eje II — mascarada (M-1/M-2/M-3)
 
 ECO módulo Eje II — fuente principal para M-1/M-2. El árbol documental puede detectar M-3 desde la homogeneidad del lenguaje institucional.
 
@@ -8546,7 +8548,7 @@ ECO módulo Eje II — fuente principal para M-1/M-2. El árbol documental puede
 
 Si árbol documental produce firma de Anteros (criterio propio documentado) Y ECO produce M-2: probable M-3 — la máscara institucional muestra Anteros en los documentos pero ECO revela M-2 en la persona que porta la máscara.
 
-Eje III — vínculo (V-1/V-2/V-3)
+#### Eje III — vínculo (V-1/V-2/V-3)
 
 ECO módulo Eje III — fuente principal. La relación mediador-sujeto es la señal más diagnóstica.
 
@@ -8554,7 +8556,7 @@ ECO módulo Eje III — fuente principal. La relación mediador-sujeto es la se�
 
 Contradicción frecuente: V-1 documentada (relaciones bilaterales aparentes) con V-2 Peribea en ECO. Probable: los documentos muestran la máscara del vínculo (M-3); ECO muestra la estructura real.
 
-Eje IV — disforia (D-1/D-2)
+#### Eje IV — disforia (D-1/D-2)
 
 ECO módulo Eje IV — fuente principal. Solo la presencia puede localizar la señal del ego genuino.
 
@@ -8562,7 +8564,7 @@ ECO módulo Eje IV — fuente principal. Solo la presencia puede localizar la se
 
 Si árbol documental produce señal de D-1 (menciones de incomodidad, mensajes de conflicto interno) Y ECO produce D-2: el D-2 puede haberse instalado después del período documentado. Investigar temporalidad.
 
-Eje V — vector tanatológico
+#### Eje V — vector tanatológico
 
 Árbol documental puede localizar T-0
 
@@ -8585,19 +8587,19 @@ Temporalidad El árbol documental localiza un período anterior y ECO localiza e
 
 Identificar a qué período corresponde cada instrumento. Si son distintos, las dos localizaciones pueden ser ambas correctas, pero de momentos distintos. El vector tanatológico puede mostrar el movimiento.
 
-Máscara vs. ego genuino
+#### Máscara vs. ego genuino
 
 El árbol documental localiza la firma de la máscara institucional (M-3) y ECO localiza el ego genuino que opera detrás. La contradicción es en realidad complementación: los documentos muestran la máscara, ECO muestra el ego.
 
 No tratar como contradicción: integrar como complementación M-3 + ego genuino. La hoja de síntesis integrada describe las dos capas: lo que el sujeto produce en el campo relacional (ECO) y lo que produce en el campo institucional (árbol documental).
 
-Error de lectura del árbol documental
+#### Error de lectura del árbol documental
 
 El árbol documental fue leído desde los marcos de la Taxonomía sin aplicar la corrección colectiva del Bloque III. La firma que el árbol documental produce corresponde al ego soberano formal, no al ego soberano real.
 
 Verificar si el árbol documental fue aplicado al ego soberano real o al formal. Si fue al formal, re-aplicar al ego soberano real identificado en el B·III·1 antes de producir la integración.
 
-Error de lectura de ECO
+#### Error de lectura de ECO
 
 El sujeto entrevistado en ECO no es el ego soberano real del colectivo (en contextos de ego colectivo) o el
 
@@ -8628,11 +8630,11 @@ El instrumento ECO tiene estructura modular: todos los módulos están disponibl
 
 ### Mediador en Crisis — ego individual
 
-Foco principal El ego genuino del sujeto en situación de urgencia. La localización rápida del estado más crítico y el riesgo de derivación.
+**Foco principal.** El ego genuino del sujeto en situación de urgencia. La localización rápida del estado más crítico y el riesgo de derivación.
 
 **Orden recomendado de módulos.**
 
-Pregunta inicial de observación del Eje IV (no cuenta como módulo formal) → Bloque I en orden estándar (F → D → A → P → E → H) → Bloque II en orden estándar (Ejes I → II → III → IV → V), dando profundidad prioritaria a los ejes IV y V según el caso.
+La pregunta inicial de observación del Eje IV no cuenta como administración formal. Si no aparecen señales urgentes, administrar primero el Bloque I en orden estándar (F → D → A → P → E → H) y luego el Bloque II en orden estándar (Ejes I → II → III → IV → V), dando profundidad prioritaria a los ejes IV y V según el caso.
 
 **Profundidad relativa.**
 
@@ -8644,7 +8646,7 @@ Alta en Eje IV y V. Media en módulo H y Bloque I primeros módulos. Baja en Ant
 
 **SKIP y postergaciones permitidas.**
 
-Eros y Potós pueden posponerse a segunda sesión si el Eje IV y V consumen el tiempo disponible.
+Si el tiempo disponible obliga a posponer Potós o Eros, posponer también el módulo H hasta completar los cinco módulos del Bloque I, para conservar su condición de cierre del bloque. Si aparecen señales urgentes, suspender ECO según D·URG.
 
 Comenzar siempre con la pregunta de observación directa del Eje IV antes de administrar cualquier módulo formal: «¿Hay algo en este momento que produzca incomodidad o urgencia para usted?»
 
@@ -8653,7 +8655,7 @@ Comenzar siempre con la pregunta de observación directa del Eje IV antes de adm
 
 ### Mediador Educativo
 
-Foco principal La configuración de la voluntad del docente/educador en su práctica. El ego genuino en el campo educativo: cómo orienta el proceso formativo, cómo se vincula con los estudiantes, desde qué posición actúa.
+**Foco principal.** La configuración de la voluntad del docente/educador en su práctica. El ego genuino en el campo educativo: cómo orienta el proceso formativo, cómo se vincula con los estudiantes, desde qué posición actúa.
 
 **Orden recomendado de módulos.**
 
@@ -8677,7 +8679,7 @@ Administrar la variante educativa de la pregunta ancla en todos los módulos del
 
 ### Mediador Organizacional
 
-Foco principal El ego colectivo de la organización. La segunda mediación del ego soberano. El estado del campo institucional desde los módulos del Bloque I y II aplicados al colectivo.
+**Foco principal.** El ego colectivo de la organización. La segunda mediación del ego soberano. El estado del campo institucional desde los módulos del Bloque I y II aplicados al colectivo.
 
 **Orden recomendado de módulos.**
 
@@ -8704,7 +8706,7 @@ el resto del instrumento no tiene punto de entrada al ego colectivo.
 
 ### Mediador Estructural
 
-Foco principal El análisis de responsabilidad causal de actores en eventos de alta consecuencia. La localización del ego genuino del actor en el momento del acto analizado — que puede ser histórico.
+**Foco principal.** El análisis de responsabilidad causal de actores en eventos de alta consecuencia. La localización del ego genuino del actor en el momento del acto analizado — que puede ser histórico.
 
 **Orden recomendado de módulos.**
 
@@ -8728,7 +8730,7 @@ Si el actor no está disponible para ECO (caso histórico), usar solo el árbol 
 
 ### Mediador Modelador
 
-Foco principal El análisis de fenómenos culturales, políticos o históricos desde la configuración del ego colectivo de los actores que los producen. Lectura de eventos macro desde los Hijos y ejes de los egos colectivos involucrados.
+**Foco principal.** El análisis de fenómenos culturales, políticos o históricos desde la configuración del ego colectivo de los actores que los producen. Lectura de eventos macro desde los Hijos y ejes de los egos colectivos involucrados.
 
 **Orden recomendado de módulos.**
 
@@ -8753,7 +8755,7 @@ El Mediador Modelador trabaja frecuentemente con egos soberanos históricos inac
 
 ### Mediador en Memoria Comunitaria
 
-Foco principal La localización del ego colectivo en la estructura triádica lo que fue / lo que es / lo que pudo ser. El vector tanatológico colectivo como eje central del trabajo.
+**Foco principal.** La localización del ego colectivo en la estructura triádica lo que fue / lo que es / lo que pudo ser. El vector tanatológico colectivo como eje central del trabajo.
 
 **Orden recomendado de módulos.**
 
@@ -8782,7 +8784,7 @@ Comenzar siempre con la pregunta de localización del Eje V colectivo antes de c
 
 1 Esta tabla es una referencia rápida, no un protocolo sustituto. El mediador que usa esta tabla sin conocer los módulos completos está usando el instrumento sin el fundamento que hace posible la lectura diagnóstica de las señales. La tabla orienta el orden y la profundidad; los módulos completos del Bloque I, II y III establecen el contenido y los criterios de cada localización.
 
-2 Los órdenes recomendados en esta tabla son puntos de entrada, no secuencias rígidas. El mediador que comienza con el Eje IV en el Mediador en Crisis puede encontrar que la apertura narrativa del sujeto orienta hacia el Eje V antes de que el Eje IV esté completamente explorado. El instrumento tiene estructura modular con secuencia recomendada, no con secuencia obligatoria (con las excepciones que los capítulos del Bloque I y II establecen: el módulo H siempre al final del Bloque I, el Eje I siempre al principio del Bloque II).
+2 Los órdenes recomendados en esta tabla son puntos de entrada, no secuencias rígidas. En el perfil de Crisis, la pregunta inicial de observación del Eje IV puede orientar la atención sin cambiar la secuencia de administración formal. El instrumento tiene una secuencia recomendada, con dos invariantes: el módulo H siempre cierra el Bloque I y el Eje I siempre abre el Bloque II.
 
 
 # A·5 ÁRBOL DE NAVEGACIÓN GENERAL DEL INSTRUMENTO
@@ -8919,7 +8921,6 @@ Estado del cierre + DI-ECO si aplica + hoja de síntesis → determinar paso sig
 
 | Código | Señal | Acción inmediata |
 | --- | --- | --- |
-
 | D·URG·1 | Ideación suicida o autolesiva de cualquier intensidad | Suspender ECO, realizar evaluación de seguridad y activar el protocolo de crisis aplicable. No reanudar hasta que el riesgo inmediato haya sido evaluado. |
 | D·URG·2 | Señales de episodio psicótico, maníaco o disociativo activo | Suspender ECO. No interpretar el contenido; activar evaluación clínica urgente según el protocolo local. |
 | D·URG·3 | Revelación de violencia activa hacia el sujeto o terceros | Suspender ECO y activar el protocolo legal y de protección vigente en el contexto. |
