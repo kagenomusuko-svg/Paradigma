@@ -1179,7 +1179,7 @@ La posición en el vector tanatológico modifica la lectura de los Hijos del Blo
 
 dominante puede estar usando la orientación al ausente de Potós como vehículo del trabajo del duelo — en ese caso Potós y T-3 son complementarios y el trabajo de Histos puede usar esa complementariedad.
 
-Código Nombre Definición técnica
+<!-- TABLA: posiciones del vector | columnas: código, nombre, definición técnica, firma observable, nivel EP -->
 
 Firma en presencia y narrativa
 
@@ -1279,55 +1279,65 @@ Entrevista Clínica Ontológica · ECO
 
 La pregunta ancla del Módulo Eje V accede a la pérdida irrecuperable constitutiva sin usar la palabra «duelo» —que puede activar la imagen clínica del duelo que el sujeto tiene y producir narrativa sobre esa imagen en lugar de sobre su experiencia— y sin presuponer que existe una pérdida relevante. La pregunta crea el espacio para que la pérdida emerja si está presente.
 
-Pregunta ancla TAN — Formulación estándar «¿Hay algo en tu vida —o en el período que estamos analizando— que ya no está y que no puede volver, y que todavía afecta la manera en que orientas lo que haces? No algo que extrañas: algo cuya ausencia cambia la estructura de tu vida de una manera que todavía estás procesando.» [El mediador formula la pregunta y espera. La distinción «no algo que extrañas» separa T-ext y el duelo en proceso de Potós puro —en el que el objeto falta y la voluntad lo sigue buscando sin que necesariamente haya proceso de elaboración activo. Lo que el mediador observa: si el sujeto puede identificar la pérdida irrecuperable con especificidad. Si puede, observa la temperatura de la narrativa: ¿hay contacto con el dolor (T-2, T-3) o hay distancia reflexiva (T-3, T-4) o hay integración (T-5, T-6)? Si el sujeto dice que no hay nada así, el mediador espera 15 segundos antes de pasar al Sondeo TAN·1.]
+> Pregunta ancla TAN — Formulación estándar «¿Hay algo en tu vida —o en el período que estamos analizando— que ya no está y que no puede volver, y que todavía afecta la manera en que orientas lo que haces? No algo que extrañas: algo cuya ausencia cambia la estructura de tu vida de una manera que todavía estás procesando.» [El mediador formula la pregunta y espera. La distinción «no algo que extrañas» separa T-ext y el duelo en proceso de Potós puro —en el que el objeto falta y la voluntad lo sigue buscando sin que necesariamente haya proceso de elaboración activo. Lo que el mediador observa: si el sujeto puede identificar la pérdida irrecuperable con especificidad. Si puede, observa la temperatura de la narrativa: ¿hay contacto con el dolor (T-2, T-3) o hay distancia reflexiva (T-3, T-4) o hay integración (T-5, T-6)? Si el sujeto dice que no hay nada así, el mediador espera 15 segundos antes de pasar al Sondeo TAN·1.]
 
 Variantes por perfil
 
-Variante — Mediador en Memoria Comunitaria «¿Puede describir algo que esta comunidad perdió de manera irreversible —una práctica, un lugar, un principio de organización, una época— y que esa pérdida todavía afecta la manera en que la comunidad se orienta en el presente?» [Esta variante orienta la pregunta al ego colectivo. El mediador busca la pérdida irrecuperable constitutiva del colectivo —lo que el §10 de este módulo desarrolla en extenso. La diferencia con el individuo: la pérdida colectiva puede ser ambigua en su reconocimiento — algunos miembros pueden reconocerla mientras otros la niegan, y esa diferencia de reconocimiento dentro del colectivo es también información diagnóstica.]
-
-Variante — Mediador en Crisis (ego individual)
-
-Entrevista Clínica Ontológica · ECO
-
-«En lo que estás viviendo ahora, ¿hay algo que reconozcas como definitivamente perdido —no que puede cambiar o mejorar, sino que ya no va a ser como fue y que tienes que procesar de alguna manera? ¿Puedes decirme qué es?» [Esta variante usa el tiempo presente y es apropiada cuando el duelo puede ser reciente o cuando el sujeto está en crisis activa que puede tener un componente de pérdida irrecuperable. El mediador observa con especial cuidado si la pérdida que el sujeto identifica produce señal de T-0 o T-1 (el duelo es muy reciente o todavía no se reconoció) o de T-2 o T-3 (el duelo está activo).]
-
-Variante — Mediador Estructural «¿Hubo en el período analizado algo que el actor perdió de manera que no podía recuperarse — un recurso, una relación, una posición, una reputación — y que esa pérdida orientó los actos que estamos analizando?» [Esta variante orienta la pregunta hacia la pérdida irrecuperable como variable del análisis de responsabilidad. El sujeto que actuó desde un estado de duelo activo (T-2 o T-3) tiene una configuración de v_t que el vector tanatológico describe, con consecuencias para la estimación de S — el sesgo acumulado que orienta φ₁ incluye la posición en el vector cuando el duelo está activo.]
+> Variante — Mediador en Memoria Comunitaria «¿Puede describir algo que esta comunidad perdió de manera irreversible —una práctica, un lugar, un principio de organización, una época— y que esa pérdida todavía afecta la manera en que la comunidad se orienta en el presente?» [Esta variante orienta la pregunta al ego colectivo. El mediador busca la pérdida irrecuperable constitutiva del colectivo —lo que el §10 de este módulo desarrolla en extenso. La diferencia con el individuo: la pérdida colectiva puede ser ambigua en su reconocimiento — algunos miembros pueden reconocerla mientras otros la niegan, y esa diferencia de reconocimiento dentro del colectivo es también información diagnóstica.]
+>
+> Variante — Mediador en Crisis (ego individual)
+>
+>
+> «En lo que estás viviendo ahora, ¿hay algo que reconozcas como definitivamente perdido —no que puede cambiar o mejorar, sino que ya no va a ser como fue y que tienes que procesar de alguna manera? ¿Puedes decirme qué es?» [Esta variante usa el tiempo presente y es apropiada cuando el duelo puede ser reciente o cuando el sujeto está en crisis activa que puede tener un componente de pérdida irrecuperable. El mediador observa con especial cuidado si la pérdida que el sujeto identifica produce señal de T-0 o T-1 (el duelo es muy reciente o todavía no se reconoció) o de T-2 o T-3 (el duelo está activo).]
+>
+> Variante — Mediador Estructural «¿Hubo en el período analizado algo que el actor perdió de manera que no podía recuperarse — un recurso, una relación, una posición, una reputación — y que esa pérdida orientó los actos que estamos analizando?» [Esta variante orienta la pregunta hacia la pérdida irrecuperable como variable del análisis de responsabilidad. El sujeto que actuó desde un estado de duelo activo (T-2 o T-3) tiene una configuración de v_t que el vector tanatológico describe, con consecuencias para la estimación de S — el sesgo acumulado que orienta φ₁ incluye la posición en el vector cuando el duelo está activo.]
 
 ### IV.  Preguntas de sondeo
 
 Las preguntas de sondeo del Módulo Eje V tienen como objetivo localizar la posición específica en el vector tanatológico después de que la pregunta ancla identificó la pérdida irrecuperable constitutiva. Cada sondeo accede a una dimensión diferente del proceso del duelo —el reconocimiento, el trabajo activo, la reorganización, la apertura hacia lo nuevo— que corresponde a distintas posiciones del vector. El mediador administra los sondeos observando en cada respuesta qué posición del vector la respuesta indica, para producir la localización al final del módulo.
 
-Sondeo TAN·1 — El reconocimiento «Cuando piensas en lo que perdiste —o en lo que describes como perdido—, ¿te parece completamente real que no puede volver? ¿O hay algo en ti que todavía opera como si pudiera recuperarse de alguna manera?»
+> > Sondeo TAN·1 — El reconocimiento «Cuando piensas en lo que perdiste —o en lo que describes como perdido—, ¿te parece completamente real que no puede volver? ¿O hay algo en ti que todavía opera como si pudiera recuperarse de alguna manera?»
+> >
+> >
+> > [Lo que el mediador observa: el nivel de reconocimiento de la irreversibilidad. T-1: el sujeto puede tener reconocimiento intelectual pero no emocional — «sé que no puede volver, pero algo en mí no termina de sentirlo». T-2/T-3: el reconocimiento está presente y el sujeto puede hablar de la irreversibilidad con temperatura de contacto con el dolor. T-4/T-5/T-6: el sujeto describe la irreversibilidad con distancia integradora — lo acepta sin que ese aceptar sea resignación sino reconocimiento maduro. Si el sujeto no puede identificar ninguna pérdida irrecuperable en la pregunta ancla, pero ante este sondeo emerge algo, el mediador continúa el módulo completo con el objeto que emerge.]
+> >
+> >
 
-Entrevista Clínica Ontológica · ECO
+> Sondeo TAN·2 — La presencia del dolor «¿Ese proceso de perder lo que perdiste todavía duele? No si piensas que debería doler: si duele. ¿Cuándo aparece?» [Lo que el mediador observa: si hay dolor activo y cuándo se produce. T-2: el dolor es frecuente y aparece en contextos variados — puede producirse en la sesión misma. T-3: el dolor es más episódico y el sujeto puede identificar los detonantes que lo activan. T-4/T-5: el dolor puede aparecer ante evocaciones específicas, pero ya no es la temperatura dominante de la relación del sujeto con la pérdida. T-6: el sujeto puede hablar de la pérdida con temperatura de historia viva sin que eso sea dolor activo. La pregunta «¿cuándo aparece?» es la más diagnóstica de las dimensiones temporales: en T-2 aparece todo el tiempo; en T-3 aparece en momentos; en T-4/T-5/T-6 aparece ante evocaciones específicas con menor frecuencia.]
+> >
+> >
 
-[Lo que el mediador observa: el nivel de reconocimiento de la irreversibilidad. T-1: el sujeto puede tener reconocimiento intelectual pero no emocional — «sé que no puede volver, pero algo en mí no termina de sentirlo». T-2/T-3: el reconocimiento está presente y el sujeto puede hablar de la irreversibilidad con temperatura de contacto con el dolor. T-4/T-5/T-6: el sujeto describe la irreversibilidad con distancia integradora — lo acepta sin que ese aceptar sea resignación sino reconocimiento maduro. Si el sujeto no puede identificar ninguna pérdida irrecuperable en la pregunta ancla, pero ante este sondeo emerge algo, el mediador continúa el módulo completo con el objeto que emerge.]
+> Sondeo TAN·3 — El trabajo del duelo «¿Has podido hacer algo con esa pérdida — procesarla, nombrarla, darle un lugar — o es algo que prefieres no pensar o que simplemente todavía no tiene lugar en tu vida?» [Lo que el mediador observa: si hay trabajo activo del duelo o si el duelo está evitado, negado o fijado. T-1: el sujeto puede preferir no pensar en la pérdida o puede no haber podido darle lugar. T-2/T-3: el sujeto ha tenido que hacer algo con la pérdida, aunque no siempre de manera consciente o deliberada — puede nombrar momentos en que la pérdida apareció y tuvo que ser procesada de alguna manera. T-4/T-5: puede identificar el trabajo que hizo — conversaciones, rituales de despedida, escritura, el paso del tiempo con campo de contención — aunque no necesariamente con ese lenguaje. T-6: puede describir el proceso de integración con mayor distancia, aunque puede no tener el vocabulario técnico del duelo.]
+> >
+> >
 
-Sondeo TAN·2 — La presencia del dolor «¿Ese proceso de perder lo que perdiste todavía duele? No si piensas que debería doler: si duele. ¿Cuándo aparece?» [Lo que el mediador observa: si hay dolor activo y cuándo se produce. T-2: el dolor es frecuente y aparece en contextos variados — puede producirse en la sesión misma. T-3: el dolor es más episódico y el sujeto puede identificar los detonantes que lo activan. T-4/T-5: el dolor puede aparecer ante evocaciones específicas, pero ya no es la temperatura dominante de la relación del sujeto con la pérdida. T-6: el sujeto puede hablar de la pérdida con temperatura de historia viva sin que eso sea dolor activo. La pregunta «¿cuándo aparece?» es la más diagnóstica de las dimensiones temporales: en T-2 aparece todo el tiempo; en T-3 aparece en momentos; en T-4/T-5/T-6 aparece ante evocaciones específicas con menor frecuencia.]
+> Sondeo TAN·4 — La reorganización «¿Pudiste orientarte hacia algo nuevo desde que esa pérdida ocurrió — algo que no sea una sustitución de lo perdido sino algo diferente? ¿O el campo todavía está demasiado
+> >
+> >
+> > ocupado por lo que se fue para que algo nuevo pueda llegar?» [Lo que el mediador observa: si hay apertura hacia lo nuevo coexistiendo con el duelo. T-1/T-2: el sujeto puede no haber podido orientarse hacia lo nuevo todavía — o si lo hizo puede describir que fue antes de que el duelo se instalara o después de un período de evitación. T-3: el sujeto puede estar comenzando a imaginar orientaciones nuevas, pero todavía con tentatividad. T-4: el sujeto puede identificar orientaciones nuevas que comenzaron a coexistir con el duelo sin traicionarlo. T-5/T-6: puede orientarse hacia lo nuevo con más solidez, aunque con conciencia de la pérdida como parte de su historia.]
+> >
+> >
 
-Sondeo TAN·3 — El trabajo del duelo «¿Has podido hacer algo con esa pérdida — procesarla, nombrarla, darle un lugar — o es algo que prefieres no pensar o que simplemente todavía no tiene lugar en tu vida?» [Lo que el mediador observa: si hay trabajo activo del duelo o si el duelo está evitado, negado o fijado. T-1: el sujeto puede preferir no pensar en la pérdida o puede no haber podido darle lugar. T-2/T-3: el sujeto ha tenido que hacer algo con la pérdida, aunque no siempre de manera consciente o deliberada — puede nombrar momentos en que la pérdida apareció y tuvo que ser procesada de alguna manera. T-4/T-5: puede identificar el trabajo que hizo — conversaciones, rituales de despedida, escritura, el paso del tiempo con campo de contención — aunque no necesariamente con ese lenguaje. T-6: puede describir el proceso de integración con mayor distancia, aunque puede no tener el vocabulario técnico del duelo.]
+> Sondeo TAN·5 — El lugar de la pérdida en la historia «¿Puedes decirme qué te formó esa pérdida — qué hizo de ti lo que eres hoy que no habrías sido sin ella? No lo que te quitó: lo que te dio.» [Lo que el mediador observa: si el sujeto puede identificar el valor formativo de la pérdida. Esta es la pregunta del vector avanzado — T-5 y T-6. En T-2/T-3, el sujeto puede tener dificultad para responder porque el dolor activo dificulta el acceso a la dimensión formativa. En T-4, puede comenzar a vislumbrarlo, pero con tentatividad. En T-5/T-6, puede nombrarlo con cierta especificidad. En T-1, puede no tener acceso a la dimensión formativa porque el paréntesis de la negación impide el contacto con la pérdida que permitiría el reconocimiento formativo. Importante: el mediador administra esta pregunta sin presuponer que la pérdida necesariamente tuvo valor formativo — hay pérdidas que no lo tienen o que todavía están demasiado activas para que el sujeto pueda verlo.]
+> >
+> >
 
-Sondeo TAN·4 — La reorganización «¿Pudiste orientarte hacia algo nuevo desde que esa pérdida ocurrió — algo que no sea una sustitución de lo perdido sino algo diferente? ¿O el campo todavía está demasiado
+> Sondeo TAN·6 — La fijación del vector «¿Hay momentos —aniversarios, lugares, canciones, imágenes— que te devuelven a la pérdida con la misma intensidad con que la viviste? ¿Y cuánto tiempo tardas en volver al estado en que estás habitualmente después de esos momentos?» [Lo que el mediador observa: si hay retornos al duelo y con qué velocidad el sujeto puede recuperar su posición habitual después de ellos. En T-2/T-3, los retornos son frecuentes, los detonantes son muchos, y el tiempo de recuperación es largo. En T-4/T-5, los retornos son ante detonantes específicos y el tiempo de recuperación es más corto. En T-6, los retornos pueden producirse ante detonantes muy específicos (aniversarios importantes, objetos muy asociados) pero el tiempo de recuperación es breve y el sujeto puede habitarlos sin que lo desestabilicen. La fijación del vector se detecta cuando la posición del sujeto ante los retornos es la misma que su posición habitual: si los retornos tienen la misma intensidad que la posición habitual, el duelo puede estar fijado en esa posición.]
+> >
+> >
+> >
 
-Entrevista Clínica Ontológica · ECO
-
-ocupado por lo que se fue para que algo nuevo pueda llegar?» [Lo que el mediador observa: si hay apertura hacia lo nuevo coexistiendo con el duelo. T-1/T-2: el sujeto puede no haber podido orientarse hacia lo nuevo todavía — o si lo hizo puede describir que fue antes de que el duelo se instalara o después de un período de evitación. T-3: el sujeto puede estar comenzando a imaginar orientaciones nuevas, pero todavía con tentatividad. T-4: el sujeto puede identificar orientaciones nuevas que comenzaron a coexistir con el duelo sin traicionarlo. T-5/T-6: puede orientarse hacia lo nuevo con más solidez, aunque con conciencia de la pérdida como parte de su historia.]
-
-Sondeo TAN·5 — El lugar de la pérdida en la historia «¿Puedes decirme qué te formó esa pérdida — qué hizo de ti lo que eres hoy que no habrías sido sin ella? No lo que te quitó: lo que te dio.» [Lo que el mediador observa: si el sujeto puede identificar el valor formativo de la pérdida. Esta es la pregunta del vector avanzado — T-5 y T-6. En T-2/T-3, el sujeto puede tener dificultad para responder porque el dolor activo dificulta el acceso a la dimensión formativa. En T-4, puede comenzar a vislumbrarlo, pero con tentatividad. En T-5/T-6, puede nombrarlo con cierta especificidad. En T-1, puede no tener acceso a la dimensión formativa porque el paréntesis de la negación impide el contacto con la pérdida que permitiría el reconocimiento formativo. Importante: el mediador administra esta pregunta sin presuponer que la pérdida necesariamente tuvo valor formativo — hay pérdidas que no lo tienen o que todavía están demasiado activas para que el sujeto pueda verlo.]
-
-Sondeo TAN·6 — La fijación del vector «¿Hay momentos —aniversarios, lugares, canciones, imágenes— que te devuelven a la pérdida con la misma intensidad con que la viviste? ¿Y cuánto tiempo tardas en volver al estado en que estás habitualmente después de esos momentos?» [Lo que el mediador observa: si hay retornos al duelo y con qué velocidad el sujeto puede recuperar su posición habitual después de ellos. En T-2/T-3, los retornos son frecuentes, los detonantes son muchos, y el tiempo de recuperación es largo. En T-4/T-5, los retornos son ante detonantes específicos y el tiempo de recuperación es más corto. En T-6, los retornos pueden producirse ante detonantes muy específicos (aniversarios importantes, objetos muy asociados) pero el tiempo de recuperación es breve y el sujeto puede habitarlos sin que lo desestabilicen. La fijación del vector se detecta cuando la posición del sujeto ante los retornos es la misma que su posición habitual: si los retornos tienen la misma intensidad que la posición habitual, el duelo puede estar fijado en esa posición.]
-
-Entrevista Clínica Ontológica · ECO
-
-Sondeo TAN·7 — La pérdida de estructura (T-ext) «¿Hay algo que perdiste —no una persona, sino algo que te daba estructura, identidad, pertenencia o dirección— que también fue irrecuperable? ¿Cómo está ese proceso?» [Este sondeo se administra cuando la pregunta ancla o los sondeos anteriores sugieren que puede haber una pérdida de estructura activa además de una pérdida por muerte, o como primer sondeo cuando la pérdida principal del sujeto no es por muerte. Lo que el mediador observa: si el sujeto puede identificar la pérdida de estructura como pérdida constitutiva, y en qué posición del vector la ubica. T-ext con T-1 colectivo es especialmente frecuente en contextos de cambio organizacional: el sujeto puede tener reconocimiento intelectual de que el rol, la institución o el proyecto de vida ya no pueden recuperarse, pero puede operar como si pudieran, con el mismo paréntesis que T-1 produce ante la pérdida por muerte.]
-
-Instrucción para la administración del módulo cuando hay múltiples pérdidas: el mediador identifica, con el sujeto, cuál es la pérdida irrecuperable constitutiva principal del período analizado antes de comenzar los sondeos. Si hay múltiples pérdidas relevantes, el módulo se administra sobre la más constitutiva — la que más afecta la estructura de la voluntad en el período analizado. Las pérdidas adicionales se registran en la hoja de síntesis con nota de que requieren evaluación en una sesión posterior o en el proceso de Histos.
+> Sondeo TAN·7 — La pérdida de estructura (T-ext) «¿Hay algo que perdiste —no una persona, sino algo que te daba estructura, identidad, pertenencia o dirección— que también fue irrecuperable? ¿Cómo está ese proceso?» [Este sondeo se administra cuando la pregunta ancla o los sondeos anteriores sugieren que puede haber una pérdida de estructura activa además de una pérdida por muerte, o como primer sondeo cuando la pérdida principal del sujeto no es por muerte. Lo que el mediador observa: si el sujeto puede identificar la pérdida de estructura como pérdida constitutiva, y en qué posición del vector la ubica. T-ext con T-1 colectivo es especialmente frecuente en contextos de cambio organizacional: el sujeto puede tener reconocimiento intelectual de que el rol, la institución o el proyecto de vida ya no pueden recuperarse, pero puede operar como si pudieran, con el mismo paréntesis que T-1 produce ante la pérdida por muerte.]
+> >
+> > Instrucción para la administración del módulo cuando hay múltiples pérdidas: el mediador identifica, con el sujeto, cuál es la pérdida irrecuperable constitutiva principal del período analizado antes de comenzar los sondeos. Si hay múltiples pérdidas relevantes, el módulo se administra sobre la más constitutiva — la que más afecta la estructura de la voluntad en el período analizado. Las pérdidas adicionales se registran en la hoja de síntesis con nota de que requieren evaluación en una sesión posterior o en el proceso de Histos.
 
 ### V.  Señales de observación directa en sesión
 
 Las señales de observación directa del Módulo Eje V son señales de temperatura en la narrativa y en la conducta del sujeto durante la sesión. La temperatura específica que el duelo produce —distinta de la urgencia de Fobos, de la parálisis de Deimos, de la apertura de Eros— tiene una textura particular: es la temperatura de la presencia de lo ausente. El mediador que puede leer esa textura tiene acceso a EP-1 del Eje V sin que el sujeto tenga que decir nada sobre el duelo.
 
 Nivel EP Error de lectura frecuente
+
+<!-- TABLA: observación directa | columnas: señal observable, posición orientativa -->
 
 Señal observable en sesión
 
@@ -1411,37 +1421,35 @@ El árbol del Módulo Eje V localiza la posición en el vector tanatológico a t
 
 Entrevista Clínica Ontológica · ECO
 
-NODO TAN·0 — ¿Hay señal de pérdida irrecuperable constitutiva activa?
+> **NODO TAN·0 — ¿Hay señal de pérdida irrecuperable constitutiva activa?**
+>
+> NO (pregunta ancla y TAN·1 no producen señal) → Registrar ausencia de pérdida constitutiva activa. H-1 · EP-0. Cerrar módulo. SÍ → Identificar la pérdida constitutiva principal y continuar con los sondeos. ↓
 
-NO (pregunta ancla y TAN·1 no producen señal) → Registrar ausencia de pérdida constitutiva activa. H-1 · EP-0. Cerrar módulo. SÍ → Identificar la pérdida constitutiva principal y continuar con los sondeos. ↓
+> **NODO TAN·1 — DIMENSIÓN A: ¿El sujeto reconoce la irreversibilidad con temperatura interna (no solo intelectualmente)?**
+>
+> NO (reconocimiento intelectual sin temperatura / opera como si pudiera recuperarse) → T-1 probable. Verificar con NODO TAN·2. SÍ (reconocimiento con temperatura de contacto) → T-2 o superior. Verificar NODO TAN·2. ↓
 
-NODO TAN·1 — DIMENSIÓN A: ¿El sujeto reconoce la irreversibilidad con temperatura interna (no solo intelectualmente)?
+> **NODO TAN·2 — DIMENSIÓN B: ¿Hay trabajo activo del duelo — proceso de elaboración identificable, no solo evitación o negación?**
+>
+> NO (evita pensar en la pérdida, no pudo darle lugar, opera como si no hubiera ocurrido) → T-1 o T-1 con oscilación hacia T-2. Registrar. SÍ (puede nombrar el proceso, aunque sea parcialmente) → ¿Qué temperatura tiene el trabajo activo? ↓
 
-NO (reconocimiento intelectual sin temperatura / opera como si pudiera recuperarse) → T-1 probable. Verificar con NODO TAN·2. SÍ (reconocimiento con temperatura de contacto) → T-2 o superior. Verificar NODO TAN·2. ↓
+> **NODO TAN·3 — ¿El trabajo activo tiene temperatura de dolor presente (T-2/T-3) o de elaboración reflexiva (T-3/T-4)?**
+>
+> Dolor presente con interferencia en el funcionamiento → T-2. Verificar si hay oscilación con T-3. Elaboración reflexiva coexistiendo con costo → T-3. Verificar con NODO TAN·4. Elaboración reflexiva sin costo visible → T-3/T-4. Verificar con NODO TAN·4. ↓
 
-NODO TAN·2 — DIMENSIÓN B: ¿Hay trabajo activo del duelo — proceso de elaboración identificable, no solo evitación o negación?
+> **NODO TAN·4 — DIMENSIÓN C: ¿Hay apertura hacia lo nuevo coexistiendo con el duelo sin que eso sienta como traición?**
+>
+> NO (campo ocupado por la pérdida, lo nuevo no puede llegar) → T-2 o T-3 según la temperatura. SÍ, tentativa (la apertura empieza, pero es frágil) → T-4. SÍ, más sostenida (la apertura coexiste con el duelo con mayor solidez) → T-5. SÍ, integrada (la pérdida forma parte de la historia que abre al presente) → T-6. ↓
 
-NO (evita pensar en la pérdida, no pudo darle lugar, opera como si no hubiera ocurrido) → T-1 o T-1 con oscilación hacia T-2. Registrar. SÍ (puede nombrar el proceso, aunque sea parcialmente) → ¿Qué temperatura tiene el trabajo activo? ↓
+> **NODO TAN·5 — ¿La posición en el vector es T-ext (pérdida de estructura no por muerte)?**
+>
+> SÍ → Aplicar las preguntas discriminantes T-ext vs. duelo por muerte de §7. Registrar la naturaleza específica de la pérdida. NO → Confirmar la posición T-n con el nivel EP correspondiente. ↓
 
-NODO TAN·3 — ¿El trabajo activo tiene temperatura de dolor presente (T-2/T-3) o de elaboración reflexiva (T-3/T-4)?
-
-Dolor presente con interferencia en el funcionamiento → T-2. Verificar si hay oscilación con T-3. Elaboración reflexiva coexistiendo con costo → T-3. Verificar con NODO TAN·4. Elaboración reflexiva sin costo visible → T-3/T-4. Verificar con NODO TAN·4. ↓
-
-NODO TAN·4 — DIMENSIÓN C: ¿Hay apertura hacia lo nuevo coexistiendo con el duelo sin que eso sienta como traición?
-
-NO (campo ocupado por la pérdida, lo nuevo no puede llegar) → T-2 o T-3 según la temperatura. SÍ, tentativa (la apertura empieza, pero es frágil) → T-4. SÍ, más sostenida (la apertura coexiste con el duelo con mayor solidez) → T-5. SÍ, integrada (la pérdida forma parte de la historia que abre al presente) → T-6. ↓
-
-NODO TAN·5 — ¿La posición en el vector es T-ext (pérdida de estructura no por muerte)?
-
-SÍ → Aplicar las preguntas discriminantes T-ext vs. duelo por muerte de §7. Registrar la naturaleza específica de la pérdida. NO → Confirmar la posición T-n con el nivel EP correspondiente. ↓
-
-NODO TAN·6 — ¿Hay señal EP-1 directa observable en sesión para la posición localizada?
-
-SÍ → Registrar la señal observacional específica. Código T-n · EP-1.
-
-Entrevista Clínica Ontológica · ECO
-
-NO → Usar EP-2 o EP-3 según la coherencia temporal y contextual de la narrativa. ↓
+> **NODO TAN·6 — ¿Hay señal EP-1 directa observable en sesión para la posición localizada?**
+>
+> SÍ → Registrar la señal observacional específica. Código T-n · EP-1.
+>
+> NO → Usar EP-2 o EP-3 según la coherencia temporal y contextual de la narrativa. ↓
 
 SALIDA — Posición T-n en el vector + Nivel EP + Nota sobre pérdidas adicionales → Cierre del Bloque II
 
@@ -1449,61 +1457,60 @@ SALIDA — Posición T-n en el vector + Nivel EP + Nota sobre pérdidas adiciona
 
 Las preguntas discriminantes del Módulo Eje V tienen tres pares principales. El primero es la discriminación entre posiciones adyacentes del vector: T-1/T-2 (negación vs. ruptura), T-3/T-4 (trabajo activo vs. reorganización), T-5/T-6 (apertura vs. integración). El segundo es la discriminación T-ext vs. duelo por muerte. El tercero es la discriminación entre duelo productivo (en movimiento en el vector) y duelo fijado (estancado en una posición).
 
-### D·TAN·1 ·  T-1 vs. T-2 — el paréntesis de la negación vs. la ruptura real
+> ### D·TAN·1 ·  T-1 vs. T-2 — el paréntesis de la negación vs. la ruptura real
+>
+> «Cuando piensas en lo que perdiste, ¿hay momentos en que tu cuerpo, tu conducta, algo en ti opera como si todavía pudiera recuperarse — como si estuviera temporalmente ausente en lugar de definitivamente ido?» [La pregunta que accede al operador inconsciente de T-1: las conductas que presuponen la continuidad de lo perdido. En T-1, el sujeto puede tener reconocimiento intelectual pero sus conductas siguen organizadas como si la pérdida no fuera definitiva. En T-2, la ruptura es real en el nivel conductual y corporal, no solo intelectual.]
+>
+> T-1 · Negación / paréntesis T-2 · Ruptura / presencia del
+>
+> dolor
+>
+> T-1: el sujeto puede identificar conductas, planes o expectativas que presuponen la continuidad de lo perdido. Puede cocinar para la cantidad de personas que ya no están, puede evitar deliberadamente pasar por lugares asociados a la pérdida como si el objeto todavía estuviera ahí, puede hacer planes que implican la recuperación de lo perdido. El paréntesis opera en la conducta.
+>
+> T-2: la ruptura ya no permite ese paréntesis. El sujeto no puede operar como si la pérdida no hubiera ocurrido porque la pérdida está presente de manera que interfiere con el funcionamiento ordinario. La conducta ya no puede organizarse como si lo perdido fuera a volver porque el dolor del reconocimiento lo impide.
+>
 
-«Cuando piensas en lo que perdiste, ¿hay momentos en que tu cuerpo, tu conducta, algo en ti opera como si todavía pudiera recuperarse — como si estuviera temporalmente ausente en lugar de definitivamente ido?» [La pregunta que accede al operador inconsciente de T-1: las conductas que presuponen la continuidad de lo perdido. En T-1, el sujeto puede tener reconocimiento intelectual pero sus conductas siguen organizadas como si la pérdida no fuera definitiva. En T-2, la ruptura es real en el nivel conductual y corporal, no solo intelectual.]
+> ### D·TAN·2 ·  T-3 vs. T-4 — el trabajo activo vs. la apertura hacia lo nuevo
+>
+> «¿Puedes orientarte hacia algo que todavía no existía antes de la pérdida — algo nuevo — sin que eso produzca en ti la sensación de traicionar o de abandonar lo que perdiste?» [La pregunta central de la transición T-3/T-4. En T-3, la apertura hacia lo nuevo puede sentirse como traición. En T-4, la apertura puede coexistir con el duelo sin esa sensación de traición.]
+>
+> T-3 · Trabajo del duelo T-4 · Reorganización
+>
+> T-3: el sujeto puede describir que orientarse hacia lo nuevo se siente como dejar ir o traicionar a lo que perdió. Puede evitar situaciones que podrían ser fuentes de apertura o de placer porque eso se siente como incompatible con el duelo. O puede orientarse hacia lo nuevo pero con culpa residual que indica que el duelo todavía no puede coexistir con la apertura.
+>
+> T-4: el sujeto puede identificar que comenzó a poder orientarse hacia algo nuevo sin que eso se sintiera como traición. Puede coexistir en el mismo período con el duelo y con orientaciones nuevas. Puede describir que empezó a imaginar un futuro que no es la recuperación del pasado sin que eso se sintiera como abandono.
 
-T-1 · Negación / paréntesis T-2 · Ruptura / presencia del
+> ### D·TAN·3 ·  T-ext vs. duelo por muerte — pérdida de estructura vs. pérdida por muerte
+>
+> «Eso que perdiste —¿existe todavía en alguna forma, aunque ya no puedas recuperarlo como era? ¿O desapareció completamente?» [La pregunta que accede a la ambigüedad de T-ext: el objeto de la pérdida puede todavía existir, aunque la pérdida sea irrecuperable. La institución todavía existe, aunque ya no sea el lugar del sujeto. El rol todavía existe, aunque ya no le pertenezca. Esa existencia continua del objeto hace más difícil el reconocimiento de la irreversibilidad.]
+>
+> Duelo por muerte · T-0 a T-6 T-ext · Pérdida de estructura
+>
+> T-ext: el objeto de la pérdida puede todavía existir en alguna forma — la institución sigue operando, el rol puede ser ocupado por otro. Eso produce una
+>
+> Duelo por muerte: el objeto de la pérdida ya no existe. La irrecuperabilidad tiene la claridad que la muerte produce: no hay posibilidad
+>
+> ### Entrevista Clínica Ontológica · ECO
+>
+> de recuperación bajo ninguna forma. Eso hace más fácil el inicio del duelo —aunque no menos doloroso— porque el reconocimiento de la irreversibilidad no está obstaculizado por la existencia continua del objeto.
+>
+> ambigüedad que el duelo por muerte no tiene: «¿cómo puedo llorar algo que todavía existe?». El trabajo del duelo de T-ext incluye el reconocimiento de que algo puede existir y ser irrecuperable para el sujeto simultáneamente.
 
-dolor
-
-T-1: el sujeto puede identificar conductas, planes o expectativas que presuponen la continuidad de lo perdido. Puede cocinar para la cantidad de personas que ya no están, puede evitar deliberadamente pasar por lugares asociados a la pérdida como si el objeto todavía estuviera ahí, puede hacer planes que implican la recuperación de lo perdido. El paréntesis opera en la conducta.
-
-T-2: la ruptura ya no permite ese paréntesis. El sujeto no puede operar como si la pérdida no hubiera ocurrido porque la pérdida está presente de manera que interfiere con el funcionamiento ordinario. La conducta ya no puede organizarse como si lo perdido fuera a volver porque el dolor del reconocimiento lo impide.
-
-Entrevista Clínica Ontológica · ECO
-
-### D·TAN·2 ·  T-3 vs. T-4 — el trabajo activo vs. la apertura hacia lo nuevo
-
-«¿Puedes orientarte hacia algo que todavía no existía antes de la pérdida — algo nuevo — sin que eso produzca en ti la sensación de traicionar o de abandonar lo que perdiste?» [La pregunta central de la transición T-3/T-4. En T-3, la apertura hacia lo nuevo puede sentirse como traición. En T-4, la apertura puede coexistir con el duelo sin esa sensación de traición.]
-
-T-3 · Trabajo del duelo T-4 · Reorganización
-
-T-3: el sujeto puede describir que orientarse hacia lo nuevo se siente como dejar ir o traicionar a lo que perdió. Puede evitar situaciones que podrían ser fuentes de apertura o de placer porque eso se siente como incompatible con el duelo. O puede orientarse hacia lo nuevo pero con culpa residual que indica que el duelo todavía no puede coexistir con la apertura.
-
-T-4: el sujeto puede identificar que comenzó a poder orientarse hacia algo nuevo sin que eso se sintiera como traición. Puede coexistir en el mismo período con el duelo y con orientaciones nuevas. Puede describir que empezó a imaginar un futuro que no es la recuperación del pasado sin que eso se sintiera como abandono.
-
-### D·TAN·3 ·  T-ext vs. duelo por muerte — pérdida de estructura vs. pérdida por muerte
-
-«Eso que perdiste —¿existe todavía en alguna forma, aunque ya no puedas recuperarlo como era? ¿O desapareció completamente?» [La pregunta que accede a la ambigüedad de T-ext: el objeto de la pérdida puede todavía existir, aunque la pérdida sea irrecuperable. La institución todavía existe, aunque ya no sea el lugar del sujeto. El rol todavía existe, aunque ya no le pertenezca. Esa existencia continua del objeto hace más difícil el reconocimiento de la irreversibilidad.]
-
-Duelo por muerte · T-0 a T-6 T-ext · Pérdida de estructura
-
-T-ext: el objeto de la pérdida puede todavía existir en alguna forma — la institución sigue operando, el rol puede ser ocupado por otro. Eso produce una
-
-Duelo por muerte: el objeto de la pérdida ya no existe. La irrecuperabilidad tiene la claridad que la muerte produce: no hay posibilidad
-
-### Entrevista Clínica Ontológica · ECO
-
-de recuperación bajo ninguna forma. Eso hace más fácil el inicio del duelo —aunque no menos doloroso— porque el reconocimiento de la irreversibilidad no está obstaculizado por la existencia continua del objeto.
-
-ambigüedad que el duelo por muerte no tiene: «¿cómo puedo llorar algo que todavía existe?». El trabajo del duelo de T-ext incluye el reconocimiento de que algo puede existir y ser irrecuperable para el sujeto simultáneamente.
-
-### D·TAN·4 ·  Duelo productivo vs. duelo fijado — movimiento vs. estancamiento
-
-«Cuando comparas cómo vives la pérdida ahora con cómo la vivías hace un año —o hace cinco años—, ¿notas alguna diferencia? ¿El proceso se mueve o sigue siendo el mismo?» [La pregunta temporal que accede al movimiento del vector. Un duelo en proceso debe mostrar movimiento — no necesariamente en la dirección de T-6, puede haber oscilaciones, pero debe haber movimiento. Un duelo fijado produce la misma posición del vector con la misma intensidad independientemente del tiempo transcurrido.]
-
-Duelo productivo · Vector en
-
-Duelo fijado · Estancamiento en el
-
-movimiento
-
-vector
-
-Duelo productivo (en movimiento): el sujeto puede identificar diferencias en cómo vive la pérdida a través del tiempo. Puede ser lento, puede tener retrocesos, pero hay algo que se mueve. El mediador puede observar en la narrativa que las posiciones anteriores del vector tienen menor intensidad que la actual, o que el sujeto puede hablar del período de mayor intensidad con alguna distancia.
-
-Duelo fijado: la posición en el vector no ha cambiado a lo largo del tiempo que el sujeto puede rastrear. La pérdida tiene la misma temperatura que tenía cuando comenzó, independientemente de cuánto tiempo haya pasado. El sujeto puede describir que «sigue igual» o puede describir que «ha mejorado» pero cuando el mediador lo explora la posición del vector resulta ser la misma.
+> ### D·TAN·4 ·  Duelo productivo vs. duelo fijado — movimiento vs. estancamiento
+>
+> «Cuando comparas cómo vives la pérdida ahora con cómo la vivías hace un año —o hace cinco años—, ¿notas alguna diferencia? ¿El proceso se mueve o sigue siendo el mismo?» [La pregunta temporal que accede al movimiento del vector. Un duelo en proceso debe mostrar movimiento — no necesariamente en la dirección de T-6, puede haber oscilaciones, pero debe haber movimiento. Un duelo fijado produce la misma posición del vector con la misma intensidad independientemente del tiempo transcurrido.]
+>
+> Duelo productivo · Vector en
+>
+> Duelo fijado · Estancamiento en el
+>
+> movimiento
+>
+> vector
+>
+> Duelo productivo (en movimiento): el sujeto puede identificar diferencias en cómo vive la pérdida a través del tiempo. Puede ser lento, puede tener retrocesos, pero hay algo que se mueve. El mediador puede observar en la narrativa que las posiciones anteriores del vector tienen menor intensidad que la actual, o que el sujeto puede hablar del período de mayor intensidad con alguna distancia.
+>
+> Duelo fijado: la posición en el vector no ha cambiado a lo largo del tiempo que el sujeto puede rastrear. La pérdida tiene la misma temperatura que tenía cuando comenzó, independientemente de cuánto tiempo haya pasado. El sujeto puede describir que «sigue igual» o puede describir que «ha mejorado» pero cuando el mediador lo explora la posición del vector resulta ser la misma.
 
 ### VIII.  Criterios de codificación
 
@@ -1611,59 +1618,54 @@ Entrevista Clínica Ontológica · ECO
 
 puede producir el movimiento hacia T-4 que hace posible el rescate cultural genuino. Un colectivo en T-5/T-6 puede hacer rescate cultural con la distancia integradora que permite honrar lo que fue sin quedar atrapado en ello.
 
-Pregunta ancla — Ego colectivo (Eje V) «¿Puede describir algo que esta comunidad u organización perdió de manera definitiva — algo que no puede volver exactamente como fue — y que esa pérdida todavía afecta la manera en que el colectivo se orienta en el presente?» [El mediador busca la pérdida irrecuperable constitutiva del colectivo. Si el ego soberano puede nombrarla con temperatura interna visible, la posición del vector puede comenzar a localizarse desde la primera respuesta. Si no puede nombrarla o la niega, el mediador observa si esa incapacidad corresponde a T-1 (el colectivo opera como si la pérdida no fuera definitiva) o a la ausencia genuina de pérdida constitutiva activa.]
-
-La administración del Eje V al ego colectivo requiere que el mediador haya identificado primero quién porta la segunda mediación colectiva y cuál es el ego soberano al que se le formulan las preguntas del módulo. Sin esa identificación previa — que el Bloque III §1 desarrolla en detalle — las preguntas del módulo pueden recibir respuestas de miembros individuales en distintas posiciones del vector que el mediador puede confundir con la posición del ego colectivo.
-
-### XI.  Principios de intervención para este hallazgo
-
-Lo que el duelo requiere del mediador
-
-El principio más importante del módulo —y el que más frecuentemente el mediador viola— es el de la presencia sin solución. El duelo no requiere que el mediador lo resuelva, lo contextualice, lo signifique de antemano ni lo dirija hacia ninguna posición específica del vector. El duelo requiere que el mediador esté presente con lo que produce en el sujeto sin intervenir para reducirlo, acelerarlo o dirigirlo. Un mediador que ante T-2 interviene para calmar el dolor está suprimiendo el trabajo del duelo. Un mediador que ante T-3 orienta hacia la aceptación está acelerando un proceso
-
-Entrevista Clínica Ontológica · ECO
-
-que tiene su propio tiempo. Un mediador que ante T-1 le dice al sujeto que la pérdida es irrecuperable está tratando de cerrar el paréntesis desde afuera, lo que el paréntesis no puede recibir porque el paréntesis existe precisamente para no recibir ese cierre.
-
-La presencia sin solución requiere que el mediador tenga calibrado su propio campo relacional con el duelo antes de administrar el módulo. El mediador que tiene duelos propios sin procesar lleva esos duelos al campo de la sesión y puede responder al duelo del sujeto desde el propio en lugar de desde el instrumento. La instrucción del Capítulo P·3 sobre la calibración del campo del mediador es especialmente relevante para este módulo.
-
-Lo que el mediador no hace
-
-El primer error: redirigir al sujeto hacia la resignificación antes de que el duelo esté en posición de recibirla. T-2 no puede recibir resignificación porque el dolor activo no tiene la distancia que la resignificación requiere. T-3 puede comenzar a recibirla, pero con cuidado — las resignificaciones prematuras pueden suprimir el trabajo del duelo que todavía está en proceso. T-4 y T-5 pueden recibir resignificación porque hay distancia suficiente. El mediador que ofrece resignificaciones en T-2 no está acelerando el proceso: está interponiéndose entre el sujeto y el trabajo del duelo.
-
-El segundo error: decirle al sujeto lo que la pérdida significa o significará. El sentido de la pérdida —si tiene alguno— es el que el ego genuino del sujeto produce desde su propio proceso. El mediador que ofrece sentido («esta pérdida te enseñó», «esto fue lo mejor que te pudo pasar», «algo nuevo va a llegar») no está acompañando el duelo: está sustituyendo el proceso del ego genuino del sujeto con el del mediador. Eso puede producir alivio momentáneo, pero no produce movimiento genuino en el vector.
-
-El tercer error: tratar el duelo como problema que puede resolverse en la sesión de ECO. ECO localiza la posición en el vector; no trabaja el duelo. El trabajo del duelo —la elaboración activa de la pérdida, el proceso de reorganización, la integración— es el trabajo de Histos. El mediador que intenta trabajar el duelo en la sesión de ECO está haciendo Histos sin las condiciones que Histos requiere.
-
-Entrevista Clínica Ontológica · ECO
-
-Lo que el mediador sí hace
-
-El mediador crea el espacio para que el duelo se nombre. Las preguntas del módulo están diseñadas para crear ese espacio — no para producir catarsis ni para dirigir el proceso sino para darle al ego genuino del sujeto la oportunidad de producir la señal del duelo en un campo que puede recibirla sin juzgarla. El mediador que puede sostener esa posición —presente, no interviniente, receptivo sin resolver— está creando las condiciones óptimas para la sesión del Eje V.
-
-Cuando el duelo se produce en sesión con temperatura de T-2 o T-3, el mediador registra la señal y sostiene el espacio. Si el sujeto necesita detenerse, el mediador detiene el instrumento. El módulo puede administrarse en dos sesiones si la primera sesión produce un acceso al duelo que requiere tiempo de elaboración antes de que el sujeto pueda continuar.
-
-Cuándo el duelo supera ECO
-
-El Eje V puede revelar estados del duelo que superan el alcance de ECO y que requieren derivación a acompañamiento clínico especializado antes de iniciar Histos. Las señales de alerta son: duelo fijado en T-2 de alta intensidad durante un período prolongado (más de dos años con la misma intensidad sin ningún movimiento en el vector), duelo que produce interferencia severa en el funcionamiento ordinario del sujeto (incapacidad de trabajar, relacionarse o atender sus necesidades básicas), y duelo que coexiste con ideación suicida — lo que activa el protocolo de derivación de emergencia del paradigma.
-
-Condición de derivación a Histos desde el Eje V Posición en el vector T-n o T-ext confirmada con EP-1 o EP-2 + resto del Bloque II completo + evaluación del estado D-1/D-2 del Eje IV. La derivación incluye la posición en el vector con la especificación de duelo productivo o fijado, la naturaleza de la pérdida (por muerte o T-ext), y la nota de relación entre la posición en el vector y el Hijo dominante del Bloque I cuando hay convergencia (Potós con T-2/T-3, por ejemplo). Sin la información del Eje IV, la derivación desde el Eje V no puede orientar correctamente el inicio del trabajo de Histos sobre el duelo.
-
-Entrevista Clínica Ontológica · ECO
-
-Notas al Módulo B·II·V
-
-1 La distinción entre pérdida significativa y pérdida irrecuperable constitutiva que establece el §1 es la que permite que el Eje V no se convierta en un módulo que busca pérdidas en todas las vidas. No toda vida tiene un duelo activo en el período analizado, y el SKIP parcial del módulo existe precisamente para eso: si no hay pérdida irrecuperable constitutiva activa en el período analizado, el módulo se cierra limpiamente con H-1. Lo que no puede ocurrir es que el mediador asuma que toda persona tiene un duelo que localizar — esa asunción produce narrativas de duelo que el sujeto construye para satisfacer la expectativa del instrumento.
-
-2 El concepto de vector —en lugar de etapas o fases— tiene implicaciones importantes para la práctica. Las teorías de las fases del duelo (Kübler-Ross y sus derivados) presentan el duelo como una secuencia lineal que culmina en aceptación. El vector tanatológico del sistema ontológico no presupone linealidad ni finalidad: el sujeto puede estar en T-3 durante años, puede oscilar entre T-2 y T-3 indefinidamente, puede alcanzar T-5 y tener retornos a T-2 ante aniversarios importantes. T-6 no es el estado final en el sentido de que no puede perturbarse: es la posición de mayor integración disponible, que puede ser perturbada por nuevas pérdidas o por ecos de la pérdida integrada.
-
-3 La tiranía utópica que el §10 describe como estado del ego colectivo en T-1 crónico tiene una manifestación política frecuente en los movimientos de restauración: políticos, religiosos, culturales. El mediador que trabaja con colectivos en contextos de cambio histórico o político puede encontrar que la tiranía utópica colectiva tiene consecuencias que van más allá del campo individual o institucional. El paradigma no hace política en el sentido de tomar posición sobre qué debe restaurarse y qué debe cambiar: localiza la posición del ego colectivo en el vector tanatológico y describe las consecuencias de esa posición para la orientación de la voluntad colectiva. El trabajo de Memoria Comunitaria con T-1 crónico colectivo —crear las condiciones para que el colectivo pueda habitar el duelo y moverse en el vector— es político en el sentido más ontológico de la palabra: afecta la estructura desde la que el colectivo orienta su segunda mediación.
-
-4 La conexión entre el Eje V y el Bloque III §5 que el §10 establece es estructural y no solo editorial. El Bloque III §5 —La Memoria Comunitaria: lo que fue, lo que es, lo que pudo ser— no puede administrarse efectivamente sin la localización del ego colectivo en el vector tanatológico que el Eje V produce. Las tres preguntas del Bloque III §5 (lo que fue: el pasado de la comunidad; lo que es: el presente; lo que pudo ser: las posibilidades que la pérdida canceló) corresponden a posiciones distintas del vector: «lo que fue» requiere que el colectivo pueda habitar el duelo sin quedar fijado en él (T-3 mínimo); «lo que es» requiere que el colectivo pueda distinguir el presente del pasado (T-4
-
-Entrevista Clínica Ontológica · ECO
-
-mínimo); «lo que pudo ser» requiere que el colectivo pueda imaginar posibilidades alternativas sin que eso se sienta como traición de lo que fue (T-5 o T-6). El mediador que administra el Bloque III §5 sin la localización del Eje V no sabe desde qué posición del vector el colectivo puede recibir cada pregunta.
-
-Entrevista Clínica Ontológica · ECO
+> Pregunta ancla — Ego colectivo (Eje V) «¿Puede describir algo que esta comunidad u organización perdió de manera definitiva — algo que no puede volver exactamente como fue — y que esa pérdida todavía afecta la manera en que el colectivo se orienta en el presente?» [El mediador busca la pérdida irrecuperable constitutiva del colectivo. Si el ego soberano puede nombrarla con temperatura interna visible, la posición del vector puede comenzar a localizarse desde la primera respuesta. Si no puede nombrarla o la niega, el mediador observa si esa incapacidad corresponde a T-1 (el colectivo opera como si la pérdida no fuera definitiva) o a la ausencia genuina de pérdida constitutiva activa.]
+>
+> La administración del Eje V al ego colectivo requiere que el mediador haya identificado primero quién porta la segunda mediación colectiva y cuál es el ego soberano al que se le formulan las preguntas del módulo. Sin esa identificación previa — que el Bloque III §1 desarrolla en detalle — las preguntas del módulo pueden recibir respuestas de miembros individuales en distintas posiciones del vector que el mediador puede confundir con la posición del ego colectivo.
+>
+> ### XI.  Principios de intervención para este hallazgo
+>
+> Lo que el duelo requiere del mediador
+>
+> El principio más importante del módulo —y el que más frecuentemente el mediador viola— es el de la presencia sin solución. El duelo no requiere que el mediador lo resuelva, lo contextualice, lo signifique de antemano ni lo dirija hacia ninguna posición específica del vector. El duelo requiere que el mediador esté presente con lo que produce en el sujeto sin intervenir para reducirlo, acelerarlo o dirigirlo. Un mediador que ante T-2 interviene para calmar el dolor está suprimiendo el trabajo del duelo. Un mediador que ante T-3 orienta hacia la aceptación está acelerando un proceso
+>
+>
+> que tiene su propio tiempo. Un mediador que ante T-1 le dice al sujeto que la pérdida es irrecuperable está tratando de cerrar el paréntesis desde afuera, lo que el paréntesis no puede recibir porque el paréntesis existe precisamente para no recibir ese cierre.
+>
+> La presencia sin solución requiere que el mediador tenga calibrado su propio campo relacional con el duelo antes de administrar el módulo. El mediador que tiene duelos propios sin procesar lleva esos duelos al campo de la sesión y puede responder al duelo del sujeto desde el propio en lugar de desde el instrumento. La instrucción del Capítulo P·3 sobre la calibración del campo del mediador es especialmente relevante para este módulo.
+>
+> Lo que el mediador no hace
+>
+> El primer error: redirigir al sujeto hacia la resignificación antes de que el duelo esté en posición de recibirla. T-2 no puede recibir resignificación porque el dolor activo no tiene la distancia que la resignificación requiere. T-3 puede comenzar a recibirla, pero con cuidado — las resignificaciones prematuras pueden suprimir el trabajo del duelo que todavía está en proceso. T-4 y T-5 pueden recibir resignificación porque hay distancia suficiente. El mediador que ofrece resignificaciones en T-2 no está acelerando el proceso: está interponiéndose entre el sujeto y el trabajo del duelo.
+>
+> El segundo error: decirle al sujeto lo que la pérdida significa o significará. El sentido de la pérdida —si tiene alguno— es el que el ego genuino del sujeto produce desde su propio proceso. El mediador que ofrece sentido («esta pérdida te enseñó», «esto fue lo mejor que te pudo pasar», «algo nuevo va a llegar») no está acompañando el duelo: está sustituyendo el proceso del ego genuino del sujeto con el del mediador. Eso puede producir alivio momentáneo, pero no produce movimiento genuino en el vector.
+>
+> El tercer error: tratar el duelo como problema que puede resolverse en la sesión de ECO. ECO localiza la posición en el vector; no trabaja el duelo. El trabajo del duelo —la elaboración activa de la pérdida, el proceso de reorganización, la integración— es el trabajo de Histos. El mediador que intenta trabajar el duelo en la sesión de ECO está haciendo Histos sin las condiciones que Histos requiere.
+>
+>
+> Lo que el mediador sí hace
+>
+> El mediador crea el espacio para que el duelo se nombre. Las preguntas del módulo están diseñadas para crear ese espacio — no para producir catarsis ni para dirigir el proceso sino para darle al ego genuino del sujeto la oportunidad de producir la señal del duelo en un campo que puede recibirla sin juzgarla. El mediador que puede sostener esa posición —presente, no interviniente, receptivo sin resolver— está creando las condiciones óptimas para la sesión del Eje V.
+>
+> Cuando el duelo se produce en sesión con temperatura de T-2 o T-3, el mediador registra la señal y sostiene el espacio. Si el sujeto necesita detenerse, el mediador detiene el instrumento. El módulo puede administrarse en dos sesiones si la primera sesión produce un acceso al duelo que requiere tiempo de elaboración antes de que el sujeto pueda continuar.
+>
+> Cuándo el duelo supera ECO
+>
+> El Eje V puede revelar estados del duelo que superan el alcance de ECO y que requieren derivación a acompañamiento clínico especializado antes de iniciar Histos. Las señales de alerta son: duelo fijado en T-2 de alta intensidad durante un período prolongado (más de dos años con la misma intensidad sin ningún movimiento en el vector), duelo que produce interferencia severa en el funcionamiento ordinario del sujeto (incapacidad de trabajar, relacionarse o atender sus necesidades básicas), y duelo que coexiste con ideación suicida — lo que activa el protocolo de derivación de emergencia del paradigma.
+>
+> > Condición de derivación a Histos desde el Eje V Posición en el vector T-n o T-ext confirmada con EP-1 o EP-2 + resto del Bloque II completo + evaluación del estado D-1/D-2 del Eje IV. La derivación incluye la posición en el vector con la especificación de duelo productivo o fijado, la naturaleza de la pérdida (por muerte o T-ext), y la nota de relación entre la posición en el vector y el Hijo dominante del Bloque I cuando hay convergencia (Potós con T-2/T-3, por ejemplo). Sin la información del Eje IV, la derivación desde el Eje V no puede orientar correctamente el inicio del trabajo de Histos sobre el duelo.
+> >
+> >
+> > Notas al Módulo B·II·V
+> >
+> > 1 La distinción entre pérdida significativa y pérdida irrecuperable constitutiva que establece el §1 es la que permite que el Eje V no se convierta en un módulo que busca pérdidas en todas las vidas. No toda vida tiene un duelo activo en el período analizado, y el SKIP parcial del módulo existe precisamente para eso: si no hay pérdida irrecuperable constitutiva activa en el período analizado, el módulo se cierra limpiamente con H-1. Lo que no puede ocurrir es que el mediador asuma que toda persona tiene un duelo que localizar — esa asunción produce narrativas de duelo que el sujeto construye para satisfacer la expectativa del instrumento.
+> >
+> > 2 El concepto de vector —en lugar de etapas o fases— tiene implicaciones importantes para la práctica. Las teorías de las fases del duelo (Kübler-Ross y sus derivados) presentan el duelo como una secuencia lineal que culmina en aceptación. El vector tanatológico del sistema ontológico no presupone linealidad ni finalidad: el sujeto puede estar en T-3 durante años, puede oscilar entre T-2 y T-3 indefinidamente, puede alcanzar T-5 y tener retornos a T-2 ante aniversarios importantes. T-6 no es el estado final en el sentido de que no puede perturbarse: es la posición de mayor integración disponible, que puede ser perturbada por nuevas pérdidas o por ecos de la pérdida integrada.
+> >
+> > 3 La tiranía utópica que el §10 describe como estado del ego colectivo en T-1 crónico tiene una manifestación política frecuente en los movimientos de restauración: políticos, religiosos, culturales. El mediador que trabaja con colectivos en contextos de cambio histórico o político puede encontrar que la tiranía utópica colectiva tiene consecuencias que van más allá del campo individual o institucional. El paradigma no hace política en el sentido de tomar posición sobre qué debe restaurarse y qué debe cambiar: localiza la posición del ego colectivo en el vector tanatológico y describe las consecuencias de esa posición para la orientación de la voluntad colectiva. El trabajo de Memoria Comunitaria con T-1 crónico colectivo —crear las condiciones para que el colectivo pueda habitar el duelo y moverse en el vector— es político en el sentido más ontológico de la palabra: afecta la estructura desde la que el colectivo orienta su segunda mediación.
+> >
+> > 4 La conexión entre el Eje V y el Bloque III §5 que el §10 establece es estructural y no solo editorial. El Bloque III §5 —La Memoria Comunitaria: lo que fue, lo que es, lo que pudo ser— no puede administrarse efectivamente sin la localización del ego colectivo en el vector tanatológico que el Eje V produce. Las tres preguntas del Bloque III §5 (lo que fue: el pasado de la comunidad; lo que es: el presente; lo que pudo ser: las posibilidades que la pérdida canceló) corresponden a posiciones distintas del vector: «lo que fue» requiere que el colectivo pueda habitar el duelo sin quedar fijado en él (T-3 mínimo); «lo que es» requiere que el colectivo pueda distinguir el presente del pasado (T-4
+> >
+> >
+> > mínimo); «lo que pudo ser» requiere que el colectivo pueda imaginar posibilidades alternativas sin que eso se sienta como traición de lo que fue (T-5 o T-6). El mediador que administra el Bloque III §5 sin la localización del Eje V no sabe desde qué posición del vector el colectivo puede recibir cada pregunta.
+> >
 
