@@ -11,7 +11,9 @@ A lo largo del libro, el sistema de imputación causal produce resultados que so
 
 Precisamente por eso tiene valor para los accionistas: porque cuando una institución imputa la responsabilidad al nodo equivocado, son los accionistas quienes pagan el costo de ese error. No una vez. Dos veces.
 
-> **Tensión real:** La tensión que este apéndice nombra sin resolverla artificialmente: hay casos en el libro donde el análisis causal es genuinamente adverso para la empresa, y ese análisis es correcto. El argumento no es que el sistema protege a las empresas. El argumento es que las empresas que confunden la narrativa de culpabilidad con el análisis causal real actúan contra los intereses de sus propios accionistas, y el sistema permite verlo con precisión antes de que el daño ocurra por segunda vez.
+::: {.recuadro .tension-roja}
+**Tensión real:** La tensión que este apéndice nombra sin resolverla artificialmente: hay casos en el libro donde el análisis causal es genuinamente adverso para la empresa, y ese análisis es correcto. El argumento no es que el sistema protege a las empresas. El argumento es que las empresas que confunden la narrativa de culpabilidad con el análisis causal real actúan contra los intereses de sus propios accionistas, y el sistema permite verlo con precisión antes de que el daño ocurra por segunda vez.
+:::
 
 
 #### Argumento 1 — El costo del chivo expiatorio para el accionista
@@ -189,7 +191,9 @@ empleado. El patrón temporal es observable en el expediente.
 
 Ninguno de esos tres elementos requiere acceso a información confidencial. Todos son observables por cualquier tercero que lea el expediente con la metodología del análisis causal. La narrativa institucional puede suprimir la cobertura inmediata; no puede eliminar el patrón de los archivos.
 
-> **Tensión real:** La tensión aquí es real: reconocer que el nodo de diseño tiene el mayor R* en el evento tiene costos de corto plazo (regulatorios, mediáticos, de gobierno corporativo). Pero el costo de no reconocerlo es la acumulación del patrón en el registro público, que erosiona el IIC de manera observable y creciente. La pregunta no es si la reputación se daña, sino en qué horizonte temporal y con qué profundidad.
+::: {.recuadro .tension-roja}
+**Tensión real:** La tensión aquí es real: reconocer que el nodo de diseño tiene el mayor R* en el evento tiene costos de corto plazo (regulatorios, mediáticos, de gobierno corporativo). Pero el costo de no reconocerlo es la acumulación del patrón en el registro público, que erosiona el IIC de manera observable y creciente. La pregunta no es si la reputación se daña, sino en qué horizonte temporal y con qué profundidad.
+:::
 
 #### 2.3 El reconocimiento honesto como estrategia de protección reputacional
 
@@ -361,7 +365,12 @@ Estas tres preguntas no son nuevas para los directores de riesgo: ya las hacen i
 
 Eso transforma la gestión del evento de un problema de percepción —qué narrativa construir— en un problema de ingeniería: qué nodo reformar, con qué costo, con qué retorno esperado. Los accionistas son los principales beneficiarios de esa transformación.
 
-> **Tensión real:** La tensión que este apéndice no resuelve: en el corto plazo, la gestión de la narrativa produce resultados visibles y la reforma del nodo de diseño produce costos visibles. El horizonte temporal del director de riesgos que quiere conservar su posición y el horizonte temporal del accionista de largo plazo no siempre coinciden. El sistema identifica el problema con precisión; la alineación de incentivos entre gestores y accionistas es un problema de gobierno corporativo separado, aunque relacionado.
+::: {.recuadro .tension-roja}
+**Tensión real:** La tensión que este apéndice no resuelve: en el corto plazo, la gestión de la narrativa produce resultados visibles y la reforma del nodo de diseño produce costos visibles. El horizonte temporal del director de riesgos que quiere conservar su posición y el horizonte temporal del accionista de largo plazo no siempre coinciden. El sistema identifica el problema con precisión; la alineación de incentivos entre gestores y accionistas es un problema de gobierno corporativo separado, aunque relacionado.
+:::
 
-Lo que el libro no promete:  Este apéndice no sugiere que el análisis causal elimina los conflictos de interés dentro de las instituciones ni que la racionalidad económica de largo plazo domina automáticamente sobre los incentivos de corto plazo de los gestores. Sugiere que el sistema produce la información necesaria para que el consejo de administración, los inversores activos y los reguladores puedan hacer las preguntas correctas con los instrumentos correctos. Lo que se haga con esa información depende del diseño de los mecanismos de gobierno — que es, en última instancia, el dominio del Capítulo 11.
+::: {.recuadro .alcance-azul-gris}
+**Lo que el libro no promete:** Este apéndice no sugiere que el análisis causal elimina los conflictos de interés dentro de las instituciones ni que la racionalidad económica de largo plazo domina automáticamente sobre los incentivos de corto plazo de los gestores. Sugiere que el sistema produce la información necesaria para que el consejo de administración, los inversores activos y los reguladores puedan hacer las preguntas correctas con los instrumentos correctos. Lo que se haga con esa información depende del diseño de los mecanismos de gobierno — que es, en última instancia, el dominio del Capítulo 11.
+:::
+
 
