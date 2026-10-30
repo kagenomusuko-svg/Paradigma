@@ -1,10 +1,9 @@
-PARTE IV · INGENIERÍA Y TECNOLOGÍA
+# Capítulo 13
+## Inteligencia artificial y algoritmos de decisión
 
-### Capítulo 13 Inteligencia artificial y algoritmos de decisión
+*El diseñador de la métrica: el nodo más invisible y el de mayor R* en el grafo algorítmico*
 
-El diseñador de la métrica: el nodo más invisible y el de mayor
-
-R* en el grafo algorítmico
+---
 
 ### §1.  El problema
 
@@ -22,11 +21,11 @@ Estos dos casos producen la misma pregunta con respuestas igualmente perturbador
 
 El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
-### R* en el grafo algorítmico, y es sistemáticamente el nodo menos visible.
+#### R* en el grafo algorítmico, y es sistemáticamente el nodo menos visible.
 
-### 1.1 El triángulo del sistema algorítmico
+#### 1.1 El triángulo del sistema algorítmico
 
-### Todo sistema algorítmico de decisión tiene tres componentes que el análisis de responsabilidad debe distinguir con precisión:
+#### Todo sistema algorítmico de decisión tiene tres componentes que el análisis de responsabilidad debe distinguir con precisión:
 
 Componente Descripción Quién lo controla
 
@@ -62,21 +61,25 @@ métrica dada con los datos dados
 
 Principio algorítmico:  La jerarquía de responsabilidad algorítmica invierte la jerarquía de visibilidad: el componente más visible (el modelo, el algoritmo) tiene el R* más bajo. El componente más invisible (quien definió la métrica) tiene el R* más alto. El análisis de responsabilidad algorítmica convencional trabaja al revés: pide cuentas al modelo cuando debería pedir cuentas al diseñador de la métrica.
 
-### 1.2 La métrica como acto de diseño normativo
+#### 1.2 La métrica como acto de diseño normativo
 
 Definir la métrica que un algoritmo optimiza no es un acto técnico neutral. Es un acto normativo que codifica una teoría sobre qué importa, qué se mide y cómo se distribuirán los resultados del sistema. Cuando esa teoría tiene consecuencias distribucionales que afectan desproporcionadamente a grupos específicos, el diseñador de la métrica tiene R* positivo en esas consecuencias.
 
-### La distinción entre la decisión técnica y la decisión normativa es fundamental para el análisis de responsabilidad:
+#### La distinción entre la decisión técnica y la decisión normativa es fundamental para el análisis de responsabilidad:
 
-•  Decisión técnica: qué arquitectura de modelo usar, qué features incluir, cómo regularizar, cuántos parámetros entrenar. Estas decisiones tienen R* bajo porque son sustituibles: cualquier equipo técnico competente
+- Decisión técnica: qué arquitectura de modelo usar, qué features incluir, cómo regularizar, cuántos parámetros entrenar. Estas decisiones tienen R* bajo porque son sustituibles: cualquier equipo técnico competente
+
 
 El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
-tomaría decisiones equivalentes bajo las mismas restricciones. •  Decisión normativa: qué variable optimizar (la métrica target), qué población incluir en el dataset de entrenamiento, qué período histórico usar como referencia, qué umbrales de clasificación usar para la decisión final. Estas decisiones tienen R* alto porque definen el comportamiento del sistema y no hay una única respuesta técnicamente correcta —hay múltiples opciones con consecuencias distribucionales distintas.
+tomaría decisiones equivalentes bajo las mismas restricciones.
+
+- Decisión normativa: qué variable optimizar (la métrica target), qué población incluir en el dataset de entrenamiento, qué período histórico usar como referencia, qué umbrales de clasificación usar para la decisión final. Estas decisiones tienen R* alto porque definen el comportamiento del sistema y no hay una única respuesta técnicamente correcta —hay múltiples opciones con consecuencias distribucionales distintas.
+
 
 Diseñador de la métrica (nodo de mayor R*):  El actor humano o institucional que tomó la decisión normativa de qué variable optimiza el algoritmo. No es necesariamente quien lo programó ni quien lo desplegó: es quien definió el objetivo. En COMPAS, quien decidió que "reincidencia" = "nuevo arresto en 2 años" en lugar de "nueva condena" o "violencia documentada". En Amazon, quien decidió que el "éxito" se mediría con los CVs históricos de contrataciones previas sin ajustar por la composición de género del período.
 
-### 1.3 Por qué los hijos no aplican en este dominio
+#### 1.3 Por qué los hijos no aplican en este dominio
 
 En el dominio de los algoritmos de IA, los hijos de Afrodita no aplican a ningún nodo del sistema algorítmico. La razón es la misma que en los capítulos 8 (score crediticio) y 9 (quiebra): los nodos del grafo son instrumentos técnicos — el modelo, el dataset, la métrica como entidad matemática— que no tienen voluntad propia.
 
@@ -172,7 +175,7 @@ El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
 ### §3.  Las herramientas en el dominio algorítmico
 
-### 3.1 El grafo de responsabilidad algorítmica
+#### 3.1 El grafo de responsabilidad algorítmica
 
 El grafo de un sistema algorítmico tiene una estructura jerárquica que difiere de los grafos de los dominios anteriores en un aspecto crítico: todos los nodos del sistema técnico (métrica, dataset, modelo) son condición necesaria del resultado, pero sus pesos causales son muy distintos. La métrica determina qué se optimiza. El dataset determina con qué patrones se aprende. El modelo optimiza la métrica usando esos patrones. Sin la métrica y el dataset dados, el modelo no puede producir el resultado sesgado.
 
@@ -212,7 +215,7 @@ Regulador Omisión sistémica
 
 ~5– 12% La ausencia de estándares de auditoría obligatoria antes del despliegue. S alto: cualquier regulador bajo el mismo marco habría tenido la misma brecha.
 
-### 3.2 La propiedad de la S = 1.0 del modelo: por qué cambiar el algoritmo no resuelve el sesgo
+#### 3.2 La propiedad de la S = 1.0 del modelo: por qué cambiar el algoritmo no resuelve el sesgo
 
 La propiedad más contraintuitiva del análisis algorítmico es que el modelo tiene sustituibilidad prácticamente perfecta (S ≈ 1.0) respecto al sesgo del sistema. Esto significa que
 
@@ -232,15 +235,15 @@ Analogía: El traductor no inventa el mensaje Si tienes un texto racista y le pi
 
 Esta propiedad tiene una consecuencia regulatoria directa: las regulaciones de IA que se enfocan en la "explicabilidad del modelo" (por qué el algoritmo tomó esa decisión) no resuelven el problema de equidad si no abordan la elección de la métrica. Puedes explicar perfectamente por qué COMPAS clasificó a un acusado negro como de alto riesgo (porque tiene características estadísticamente asociadas con nuevos arrestos en el dataset histórico), y esa explicación completa no resuelve el problema de que el dataset histórico refleja el sesgo del sistema policial.
 
-### 3.3 R* del diseñador de la métrica y la doctrina de la responsabilidad por diseño normativo
+#### 3.3 R* del diseñador de la métrica y la doctrina de la responsabilidad por diseño normativo
 
 El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
 El diseñador de la métrica tiene R* alto porque su decisión normativa es condición necesaria del resultado sesgado en una forma que no es compartida por los demás nodos: sin esa elección específica de métrica, el sistema podría haber producido un resultado diferente incluso con el mismo dataset y el mismo modelo. La responsabilidad por diseño normativo es la doctrina que el cálculo causal formaliza:
 
-### R*_diseñador_métrica = f (impacto_de_la_elección_de_métrica_en_el_resultad
+#### R*_diseñador_métrica = f (impacto_de_la_elección_de_métrica_en_el_resultad
 
-### o, S_métrica)
+#### o, S_métrica)
 
 S de la métrica mide qué tan idiosincrática era esa elección: si cualquier equipo razonable habría elegido la misma métrica en ese contexto (S alto), el R* del diseñador es moderado. Si la elección era una entre múltiples alternativas razonables con consecuencias distribucionales distintas (S bajo), el R* es alto.
 
@@ -252,11 +255,11 @@ R* del diseñador
 
 Alternativas disponibles y su impacto
 
-### 0.35 Alto Alternativa: "nueva condena" o "violencia documentada". Ambas tienen menor sesgo racial porque los datos de condenas son menos sesgados que los de arrestos.
+#### 0.35 Alto Alternativa: "nueva condena" o "violencia documentada". Ambas tienen menor sesgo racial porque los datos de condenas son menos sesgados que los de arrestos.
 
 COMPAS: "reincidencia" = nuevo arresto
 
-### 0.25 Muy alto Alternativa obvia: definir "éxito" con métricas de desempeño futuro (contribuciones documentadas,
+#### 0.25 Muy alto Alternativa obvia: definir "éxito" con métricas de desempeño futuro (contribuciones documentadas,
 
 Amazon: "candidato exitoso" = similar a empleados históricos
 
@@ -264,19 +267,19 @@ El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
 promociones, retención) en lugar de similitud con el perfil histórico.
 
-### 0.70 Moderado S alto: la mayoría de los sistemas crediticios definen riesgo como historial de impagos. Es una elección del sector, no solo del diseñador específico.
+#### 0.70 Moderado S alto: la mayoría de los sistemas crediticios definen riesgo como historial de impagos. Es una elección del sector, no solo del diseñador específico.
 
 Sistema de crédito: "riesgo" = historial de impagos
 
-### 0.55 Moderado-alto
+#### 0.55 Moderado-alto
 
 Alternativas: calidad de vida ajustada, años de vida ajustados por discapacidad (AVAD). La elección afecta la distribución del tratamiento entre grupos de edad.
 
 Sistema médico: "utilidad del tratamiento" = supervivencia a 5 años
 
-### 3.4 α y Δ en el dominio algorítmico
+#### 3.4 α y Δ en el dominio algorítmico
 
-### En el dominio algorítmico, α tiene interpretaciones específicas para cada tipo de nodo humano:
+#### En el dominio algorítmico, α tiene interpretaciones específicas para cada tipo de nodo humano:
 
 Conducta que sube α
 
@@ -308,7 +311,7 @@ Regulador Grado en que estableció estándares obligatorios de auditoría y equi
 
 Publicó estándares de equidad algorítmica antes del despliegue en sectores de alto impacto. Realizó auditorías regulatorias de los sistemas en producción.
 
-### 3.5 El D_total algorítmico: cómo cuantificar el daño de un sistema que opera a escala
+#### 3.5 El D_total algorítmico: cómo cuantificar el daño de un sistema que opera a escala
 
 El daño de un sistema algorítmico sesgado tiene una característica única respecto a los daños individuales de los capítulos anteriores: opera a escala. COMPAS procesó cientos de miles de casos; el sistema de Amazon analizó millones de CVs. El D_total algorítmico debe capturar tanto las consecuencias individuales (cada decisión
 
@@ -348,7 +351,7 @@ El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
 múltiples definiciones de equidad matemáticamente incompatibles cuando las tasas base de la métrica target difieren entre grupos —lo que ocurre precisamente cuando la métrica está sesgada históricamente.
 
-### A.2 El grafo causal del sesgo de COMPAS
+#### A.2 El grafo causal del sesgo de COMPAS
 
 Nodo Actor/Factor Tipo Función causal en el sesgo
 
@@ -398,7 +401,7 @@ El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
 razón de su raza, con consecuencias reales sobre su libertad.
 
-### A.3 R*, S y el análisis de causalidad
+#### A.3 R*, S y el análisis de causalidad
 
 Nodo R* S α Interpretaci ón
 
@@ -410,11 +413,11 @@ N2 — Sesgo policial histórico
 
 ~28 %
 
-### 0.8 0 0.0 5 S alto: el sesgo era sistémico de toda la historia del sistema penal, no específico de estos datos.
+#### 0.8 0 0.0 5 S alto: el sesgo era sistémico de toda la historia del sistema penal, no específico de estos datos.
 
 N3 — Dataset histórico ~18 %
 
-### 0.7 0 0.0 2 S moderado. El sesgo en los datos era conocible y en parte
+#### 0.7 0 0.0 2 S moderado. El sesgo en los datos era conocible y en parte
 
 El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
@@ -424,7 +427,7 @@ N4 — Northpointe/desplegado res
 
 ~12 %
 
-### 0.5 5 0.0 8 Desplegaron sin auditoría ni transparencia. Δ = +0.04.
+#### 0.5 5 0.0 8 Desplegaron sin auditoría ni transparencia. Δ = +0.04.
 
 N5 — Modelo COMPAS ~2% 0.9 7 0.0 0 S prácticamente = 1.0. R*_neta ≈ 0. Cambiar el modelo no habría cambiado el sesgo.
 
@@ -432,7 +435,7 @@ N6 — Reguladores ~2% 0.8 8 0.0 5 Omisión sistémica con S alto.
 
 El resultado central del análisis: el modelo COMPAS (N5), que es el único componente que puede ser "auditado" con las herramientas de explicabilidad de IA, tiene R* = 2% y S = 0.97. Las herramientas de explicabilidad de IA que muestran "por qué el modelo tomó esa decisión" están auditando el nodo de menor responsabilidad causal del sistema. El nodo de mayor R* (N1, el diseñador de la métrica) es el que menos aparece en los debates técnicos sobre la equidad del algoritmo.
 
-### A.4 El argumento de Northpointe y la paradoja de la equidad
+#### A.4 El argumento de Northpointe y la paradoja de la equidad
 
 La respuesta de Northpointe a ProPublica fue técnicamente correcta: el modelo tiene la misma precisión predictiva (mismo porcentaje de verdaderos positivos) para acusados negros y blancos. ¿Cómo puede ser al mismo tiempo sesgado y preciso?
 
@@ -440,7 +443,9 @@ El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
 La respuesta está en que hay dos definiciones de equidad que son matemáticamente incompatibles cuando las tasas base difieren entre grupos:
 
-•  Equidad de calibración (Northpointe): el score de "alto riesgo" tiene el mismo significado para ambos grupos —si el modelo dice 70% de probabilidad de reincidencia, eso se cumple al 70% tanto para acusados negros como blancos. Este criterio está satisfecho. •  Equidad de error diferencial (ProPublica): la tasa de falsos positivos (clasificar como alto riesgo a quien no va a reincidir) y la tasa de falsos negativos (clasificar como bajo riesgo a quien sí va a reincidir) deben ser iguales entre grupos. Este criterio no está satisfecho: los acusados negros que no reinciden son clasificados como "alto riesgo" a una tasa casi el doble que los blancos equivalentes.
+- Equidad de calibración (Northpointe): el score de "alto riesgo" tiene el mismo significado para ambos grupos —si el modelo dice 70% de probabilidad de reincidencia, eso se cumple al 70% tanto para acusados negros como blancos. Este criterio está satisfecho.
+- Equidad de error diferencial (ProPublica): la tasa de falsos positivos (clasificar como alto riesgo a quien no va a reincidir) y la tasa de falsos negativos (clasificar como bajo riesgo a quien sí va a reincidir) deben ser iguales entre grupos. Este criterio no está satisfecho: los acusados negros que no reinciden son clasificados como "alto riesgo" a una tasa casi el doble que los blancos equivalentes.
+
 
 El teorema de Chouldechova (2017) demuestra que los dos criterios son matemáticamente incompatibles cuando las tasas base de la variable predicha difieren entre grupos. No hay modelo que satisfaga ambos simultáneamente. La elección entre los dos criterios de equidad no es técnica: es normativa. Y esa elección normativa — que en COMPAS se hizo implícitamente al elegir la métrica — es exactamente el acto de diseño con mayor R* del sistema.
 
@@ -452,7 +457,13 @@ A.5 El D_total de COMPAS: cuantificando el daño a escala
 
 Parámetros para la estimación:
 
-•  Casos procesados con COMPAS en Broward County entre 2013 y 2014 (muestra del estudio ProPublica): ~7,214. •  Tasa de falsos positivos para acusados negros: 44.9%. Para blancos: 23.5%. Diferencia: 21.4 puntos porcentuales. •  Casos de acusados negros en la muestra: aproximadamente 3,800. •  Falsos positivos adicionales para acusados negros (por el sesgo): 3,800 × 0.214 ≈ 813 casos. •  Impacto promedio de una clasificación de "alto riesgo" incorrecta: mayor probabilidad de detención preventiva, mayor fianza, decisiones de sentencia más severas. Estudios estiman que el impacto promedio es ~3-4 meses adicionales de privación de libertad o condiciones de supervisión más restrictivas. •  D_promedio_individual ≈ 3.5 meses × 730 horas/mes = 2,555 horas de vida en condiciones restrictivas.
+- Casos procesados con COMPAS en Broward County entre 2013 y 2014 (muestra del estudio ProPublica): ~7,214.
+- Tasa de falsos positivos para acusados negros: 44.9%. Para blancos: 23.5%. Diferencia: 21.4 puntos porcentuales.
+- Casos de acusados negros en la muestra: aproximadamente 3,800.
+- Falsos positivos adicionales para acusados negros (por el sesgo): 3,800 × 0.214 ≈ 813 casos.
+- Impacto promedio de una clasificación de "alto riesgo" incorrecta: mayor probabilidad de detención preventiva, mayor fianza, decisiones de sentencia más severas. Estudios estiman que el impacto promedio es ~3-4 meses adicionales de privación de libertad o condiciones de supervisión más restrictivas.
+- D_promedio_individual ≈ 3.5 meses × 730 horas/mes = 2,555 horas de vida en condiciones restrictivas.
+
 
 D_vital_Broward = 813 casos × 2,555 h/caso = 2.077
 
@@ -536,7 +547,7 @@ Nodo final Candidatas técnicamente cualificadas que no llegaron a la revisión 
 
 Nf Candidatas mujeres que no pasaron el primer filtro
 
-### B.3 La distinción crítica: COMPAS vs. Amazon
+#### B.3 La distinción crítica: COMPAS vs. Amazon
 
 Los dos casos tienen estructuras similares pero una diferencia que el análisis causal captura con precisión: la relación entre el diseñador de la métrica y su conocimiento del sesgo.
 
@@ -574,13 +585,18 @@ R* del diseñador de la métrica
 
 La continuación del uso del sistema durante dos años después de detectar el sesgo aumenta el R* efectivo de la dirección de Amazon (N5) porque convierte la negligencia en conocimiento confirmado con acción insuficiente. Eso produce un Δ mayor y una culpabilidad subjetiva más cercana a Anteros que a Deimos.
 
-### B.4 El D_total de Amazon: las candidatas que no llegaron
+#### B.4 El D_total de Amazon: las candidatas que no llegaron
 
 El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
 Parámetros:
 
-•  El sistema procesó candidaturas en Amazon durante aproximadamente 3 años (2014-2017) con el sesgo activo en los últimos 2 años con conocimiento. •  Amazon recibe en el orden de millones de solicitudes al año. Para posiciones de ingeniería, estimado en ~200,000 anuales. •  Fracción de solicitudes de candidatas mujeres: ~30% (consistente con la representación en programas de informática del período). •  Probabilidad de que una candidata cualificada fuera incorrectamente filtrada por el sesgo: estimada en 15-25% del subconjunto que habría pasado sin el sesgo. •  Impacto promedio de no pasar el filtro inicial: pérdida de la oportunidad de entrevista en Amazon, con impacto en trayectoria de carrera estimado en 2-4 años de diferencial salarial.
+- El sistema procesó candidaturas en Amazon durante aproximadamente 3 años (2014-2017) con el sesgo activo en los últimos 2 años con conocimiento.
+- Amazon recibe en el orden de millones de solicitudes al año. Para posiciones de ingeniería, estimado en ~200,000 anuales.
+- Fracción de solicitudes de candidatas mujeres: ~30% (consistente con la representación en programas de informática del período).
+- Probabilidad de que una candidata cualificada fuera incorrectamente filtrada por el sesgo: estimada en 15-25% del subconjunto que habría pasado sin el sesgo.
+- Impacto promedio de no pasar el filtro inicial: pérdida de la oportunidad de entrevista en Amazon, con impacto en trayectoria de carrera estimado en 2-4 años de diferencial salarial.
+
 
 N_afectadas_anuales ≈ 200,000 × 0.30 × 0.20 = 12,000
 
@@ -612,31 +628,31 @@ El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
 ### §5.  Límites del método en IA y algoritmos
 
-### 5.1 El problema de la definición del daño en sistemas de recomendación
+#### 5.1 El problema de la definición del daño en sistemas de recomendación
 
 Los algoritmos de recomendación (de contenido, de productos, de noticias) producen daños difusos y acumulativos que son difíciles de atribuir a decisiones individuales del sistema. El daño de la radicalización algorítmica, por ejemplo, no es producido por una decisión puntual del algoritmo sino por el patrón acumulado de miles de recomendaciones a lo largo de meses. El análisis de R* sobre ese tipo de daño requiere modelos de trayectoria del usuario que van más allá del grafo estático del capítulo.
 
-### 5.2 La dificultad de identificar al "diseñador de la métrica" en sistemas de gran escala
+#### 5.2 La dificultad de identificar al "diseñador de la métrica" en sistemas de gran escala
 
 En los sistemas algorítmicos desarrollados por grandes organizaciones, la decisión de qué métrica optimizar frecuentemente no es tomada por una sola persona en un momento identificable. Es el resultado de múltiples decisiones iterativas de equipos, revisiones de negocio y constrains técnicos. En esos casos, el "diseñador de la métrica" como nodo del grafo puede ser difuso, lo que complica el análisis de R*. La solución metodológica es tratar la organización como el nodo de diseño de la métrica, con R* atribuido al ego colectivo (Capítulo 11).
 
 El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
-### 5.3 El problema del sesgo emergente: cuando el algoritmo aprende más que la métrica
+#### 5.3 El problema del sesgo emergente: cuando el algoritmo aprende más que la métrica
 
 Algunos sistemas de IA desarrollan patrones de comportamiento que no estaban explícitamente codificados en la métrica ni en el dataset, pero emergen de la interacción entre ambos. Estos sesgos emergentes son más difíciles de atribuir causalmente porque no reducen a ninguna decisión de diseño identificable. Son propiedades emergentes del sistema completo, lo que hace que el análisis de R* sobre el sistema estático sea insuficiente.
 
-### 5.4 El límite de la interpretabilidad como solución
+#### 5.4 El límite de la interpretabilidad como solución
 
 Las técnicas de interpretabilidad de IA (SHAP values, LIME, atención) explican qué features influyeron en cada decisión individual del modelo. Esa información es útil pero no resuelve el problema de responsabilidad causal porque explica el nodo de menor R* del sistema (el modelo) en lugar de identificar el nodo de mayor R* (el diseñador de la métrica). El análisis de R* complementa la interpretabilidad: la interpretabilidad dice cómo decide el modelo; el análisis de R* dice quién es responsable de que el modelo decida de esa manera.
 
-### 5.5 La tensión entre la eficiencia predictiva y la equidad distributiva
+#### 5.5 La tensión entre la eficiencia predictiva y la equidad distributiva
 
 En muchos sistemas, la métrica de máxima eficiencia predictiva (la que minimiza el error de predicción en el dataset) y la métrica de máxima equidad distribucional (la que minimiza el disparate impact entre grupos) producen resultados distintos. Cuando son incompatibles, la elección entre ellas no es técnica. El sistema de imputación causal no
 
 El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
-### resuelve esa tensión: identifica con precisión quién la resuelve y qué responsabilidad tiene esa persona por la resolución que adoptó.
+#### resuelve esa tensión: identifica con precisión quién la resuelve y qué responsabilidad tiene esa persona por la resolución que adoptó.
 
 El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
@@ -644,7 +660,7 @@ El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
 ### §6.  Profundización formal
 
-### 6.1 El teorema de Chouldechova y sus implicaciones para R*
+#### 6.1 El teorema de Chouldechova y sus implicaciones para R*
 
 Sea f un clasificador, Y la variable predicha (reincidencia), Â la predicción y A la variable de grupo protegido (raza). Las tres definiciones de equidad relevantes son:
 
@@ -666,7 +682,7 @@ En términos del análisis de R*: cuando las tasas base difieren por razones de 
 
 El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
-### 6.2 La descomposición causal del disparate impact
+#### 6.2 La descomposición causal del disparate impact
 
 El disparate impact observado de un sistema algorítmico puede descomponerse en tres componentes causales:
 
@@ -688,7 +704,7 @@ R*_dataset           ∝ DI_dataset / DI_total
 
 R*_modelo            ∝ DI_modelo / DI_total ≈ 0
 
-### 6.3 El análisis de sensibilidad de la métrica
+#### 6.3 El análisis de sensibilidad de la métrica
 
 La manera más directa de estimar el R* del diseñador de la métrica es el análisis de sensibilidad: calcular el disparate impact del sistema bajo distintas definiciones de la métrica target y comparar.
 
@@ -704,7 +720,7 @@ Para COMPAS con la métrica "nuevo arresto" vs. la alternativa "nueva condena vi
 
 DI_métrica_actual (nuevo arresto):          1.80 (80% mayor tasa de clasificación alto riesgo para negros) DI_métrica_alternativa (nueva condena viol.): ~1.25 (25% mayor — consistente con estudios de recidivism) R*_diseñador_métrica ≈ (1.80 − 1.25) / (1.80 − 1.0) = 0.55 / 0.80 ≈ 0.69 Un R* de 0.69 para el diseñador de la métrica es el resultado más alto del grafo y confirma que la elección de "nuevo arresto" como proxy de reincidencia es el nodo causal dominante en el sesgo racial del sistema.
 
-### 6.4 Código Python de referencia
+#### 6.4 Código Python de referencia
 
 import numpy as np from scipy.stats import pearsonr  def analisis_responsabilidad_algoritmica(W_algo, alpha_nodos, DI_observado=None,                                           DI_alternativa=None, D_total=None, w_ref=8.0,                                           nombres=None): """     Análisis de responsabilidad algorítmica causal.     W_algo: matriz de pesos del grafo algorítmico     alpha_nodos:  α por nodo (auditoría/mitigación implementada)     DI_observado: disparate impact observado del sistema actual     DI_alternativa: DI bajo la métrica alternativa de menor sesgo     D_total:      daño total estimado     """     n = W_algo.shape[0]      # ── R*: responsabilidad algorítmica causal ── R = np.ones(n) / n     for _ in range(500):         Rn = W_algo @ R; s = np.sum(Rn)         if s < 1e-12: break         Rn /= s         if np.max(np.abs(Rn - R)) < 1e-9: break         R = Rn     R_star = Rn      # ── S: fungibilidad algorítmica ──     S = np.zeros(n)     for i in range(n): max_c = 0         for j in range(n):             if j == i: continue             Wm = W_algo.copy()             Wm[i,:] = np.mean(W_algo, axis=0)             Rm
 
@@ -718,5 +734,4 @@ Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y A
 
 Continúa en el Capítulo 14 — Medio ambiente y ecología
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
