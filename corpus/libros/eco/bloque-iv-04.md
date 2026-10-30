@@ -1,12 +1,7 @@
-### B·IV · §4 ·  CRITERIOS DE DERIVACIÓN A
+# B·IV·4 · CRITERIOS DE DERIVACIÓN A HISTOS
+## Cuándo la localización está lista para pasar al acompañamiento
 
-### HISTOS
-
-### Cuándo la localización está lista para pasar al
-
-acompañamiento Condiciones del paso · Insumos que ECO entrega a Histos · Cómo no
-
-forzar el paso antes de tiempo
+*Condiciones del paso · Insumos que ECO entrega a Histos · Cómo no forzar el paso antes de tiempo*
 
 ### IV.  La relación entre ECO e Histos — el instrumento como umbral
 
@@ -14,7 +9,6 @@ ECO es el instrumento que localiza el territorio. Histos es el instrumento que a
 
 La descripción del instrumento ECO como umbral tiene una consecuencia que el §3 de esta sección estableció formalmente: ECO no es un fin. El cierre de ECO no es el producto del proceso de acompañamiento: es la condición para que el proceso de acompañamiento pueda comenzar con orientación. Un mediador que domina ECO, pero no conoce Histos ha completado el
 
-Entrevista Clínica Ontológica · ECO
 
 instrumento de diagnóstico sin tener el instrumento de trabajo — como un médico que puede diagnosticar con precisión, pero no puede prescribir tratamiento. El valor de ECO está enteramente en función del trabajo que Histos puede hacer con lo que ECO proveyó.
 
@@ -28,7 +22,6 @@ El segundo componente es relacional: la relación mediador-sujeto ha producido a
 
 El tercer componente es volitivo: el sujeto quiere el proceso de acompañamiento. No en el sentido de que lo haya pedido formalmente — puede haberlo hecho y puede no haberlo hecho —
 
-Entrevista Clínica Ontológica · ECO
 
 sino en el sentido de que hay algo en el sujeto que se orienta hacia el proceso. Esa orientación puede ser tenue, puede tener dudas, puede coexistir con resistencias. Lo que debe estar ausente es la orientación contraria: el sujeto que no quiere el proceso y que solo lo acepta por presión de un campo externo (la institución que lo requiere, la pareja que lo demanda, el encargo que lo formalizó) no tiene las condiciones volitivas para Histos. El proceso puede iniciarse desde la presión externa y el ego genuino del sujeto puede eventualmente orientarse hacia él — pero esa orientación debe producirse antes de que Histos tenga el punto de apoyo que necesita.
 
@@ -44,7 +37,6 @@ El sujeto dice que quiere el acompañamiento pero no puede describir qué quiere
 
 El sujeto puede identificar al menos una dimensión de su estado que lo incomoda y sobre la que quisiera que el proceso produjera algo. Esa incomodidad es D-1 activo — el punto de apoyo de Histos.
 
-### Entrevista Clínica Ontológica · ECO
 
 La relación mediador-sujeto no ha producido ninguna señal de V-1: el sujeto no puede producir diferencia genuina en el campo del mediador ni el mediador puede producir diferencia genuina en el campo del sujeto.
 
@@ -64,7 +56,6 @@ El mediador usa la localización de ECO como justificación para iniciar Histos 
 
 La señal de paso prematuro más difícil de detectar es la tercera de la tabla: D-2 confirmado con EP-1 sin D-1 residual. El mediador que localizó D-2 profundo puede sentir presión — del sujeto, del encargado, o de sí mismo — de iniciar Histos de todas formas, porque la localización está completa y el sujeto está disponible. El D-2 profundo sin D-1 residual no impide la presencia del sujeto en las sesiones de Histos: impide que las sesiones de Histos produzcan algo en el ego genuino del sujeto, porque el ego genuino no está produciendo señal. El sujeto puede asistir, puede responder, puede incluso describir que el proceso le parece valioso — y ninguna de esas cosas indica que el ego genuino está siendo trabajado. El proceso produciría trabajo sobre el campo que actúa en nombre del ego genuino, que puede tener efectos de superficie sin tocar lo que el proceso necesita tocar.
 
-### Entrevista Clínica Ontológica · ECO
 
 El mediador que se encuentra ante D-2 profundo sin D-1 residual y ante la presión de iniciar Histos puede usar la siguiente formulación sin etiqueta para comunicar la situación al sujeto o al encargado: «Lo que hemos explorado me sugiere que hay un trabajo previo que crearía mejores condiciones para el proceso que sigue. Ese trabajo previo puede tomar distintas formas — puede ser un período de tiempo, puede ser una evaluación adicional, puede ser un tipo específico de apoyo que complementaría lo que el proceso de acompañamiento puede proveer. Me comprometo a definir esa condición con precisión». Esa comunicación es honesta, mantiene el principio de no-etiquetado, y no produce el error E·5.
 
@@ -86,7 +77,6 @@ El estado del ego desde el que opera la voluntad del sujeto: si hay ego genuino 
 
 Histos diseña sus primeras intervenciones según el estado del ego. E-3 requiere trabajo sobre el bloqueo de φ₂ antes de cualquier otro trabajo. E-4 requiere trabajo sobre la distinción del eje propio del eje ajeno. E-6 requiere evaluación antes de iniciar cualquier proceso.
 
-### Entrevista Clínica Ontológica · ECO
 
 Módulo H — Harmonía o D-2
 
@@ -118,7 +108,6 @@ La estructura de la relación del sujeto con el Otro. V-2 Peribea: la asimetría
 
 V-2 Peribea: el mediador de Histos calibra su propio campo para no reproducir la posición de Damasén. V-2 Damasén: el mediador crea diferencia genuina que el sujeto no puede anticipar. V-3: la restauración de la capacidad de encuentro genuino es el primer objetivo de Histos.
 
-Entrevista Clínica Ontológica · ECO
 
 encuentro genuino con la alteridad se produzca.
 
@@ -136,7 +125,6 @@ La razón por la que la nota de recursos disponibles es el insumo más estratég
 
 Insumo prioritario cuando Fobos es el Hijo dominante con EP-1
 
-### Entrevista Clínica Ontológica · ECO
 
 El objeto de la amenaza que Fobos está respondiendo y la naturaleza de la urgencia reactiva. No el hecho de que haya Fobos sino qué amenaza lo activa y qué orientación produce esa activación en los actos del sujeto. Uso en Histos: Histos trabaja con la relación del sujeto con el objeto de la amenaza antes de trabajar con la urgencia como tal. La urgencia es la respuesta; la relación del sujeto con lo que podría perder es lo que Histos puede trabajar para producir movimiento genuino.
 
@@ -148,7 +136,6 @@ Insumo prioritario cuando T-2 o T-3 está activo en el Eje V La posición del su
 
 Insumo prioritario cuando M-2 está confirmado en el Eje II con D-1 activo La brecha entre la máscara y el ego genuino que el sujeto todavía puede registrar — la señal de incomodidad que D-1 produce ante la máscara. No el hecho de que haya máscara sino dónde y cuándo el ego genuino todavía puede producir señal de que algo no encaja. Uso en Histos: Histos amplifica la señal de incomodidad de D-1 ante la máscara como punto de entrada al trabajo. Esa señal — aunque el sujeto no pueda nombrarla como máscara — es el punto donde el ego genuino todavía tiene acceso a la
 
-Entrevista Clínica Ontológica · ECO
 
 superficie. Histos trabaja desde ese punto hacia afuera, sin nombrar la máscara directamente.
 
@@ -162,7 +149,6 @@ La transición de ECO a Histos, cuando se produce en la misma sesión o entre se
 
 El encuadre del paso de ECO a Histos — qué establece el mediador El mediador establece con el sujeto: (a) que el tipo de trabajo que sigue es diferente del que ocurrió en ECO — sin describir los dos como instrumentos formales, puede describirlos como «explorar el territorio» y «caminar en él»; (b) que el proceso de acompañamiento tiene una duración aproximada, un ritmo tentativo, y condiciones de continuidad que el sujeto debe poder sostener; (c) que el proceso puede producir momentos
 
-Entrevista Clínica Ontológica · ECO
 
 de incomodidad — no como advertencia que activa el temor sino como información honesta sobre la naturaleza del proceso; y (d) que el sujeto puede orientar el proceso hacia lo que le importa — que el ego genuino del sujeto, no el mediador, es el actor principal del proceso de Histos.
 
@@ -176,7 +162,6 @@ La condición sobre el sujeto en el protocolo de transferencia: el sujeto debe c
 
 La hoja de síntesis de ECO — formato y función
 
-Entrevista Clínica Ontológica · ECO
 
 La hoja de síntesis de ECO es el documento final del instrumento: el producto formal que el cierre de ECO produce y que orienta el inicio de Histos. El formato de la hoja de síntesis tiene tres partes. La primera es la localización: la distribución P(Hijos) del Bloque I con los niveles EP por componente, los códigos de los cinco ejes del Bloque II con sus niveles EP, y la localización del ego colectivo si el Bloque III fue administrado. La segunda parte es la nota de condiciones de Histos: los recursos disponibles del ego genuino, los componentes de mayor certeza que orientan el inicio del proceso, y las precauciones que los componentes de mayor incertidumbre requieren. La tercera parte es la DI-ECO si aplica, con sus cinco secciones.
 
@@ -184,11 +169,12 @@ El formato de la hoja de síntesis usa el lenguaje técnico del sistema — con 
 
 Los cuatro componentes de la hoja de síntesis — formato recomendado Componente 1 — Localización: P(Hijos) + EP por Hijo + códigos de ejes I a V + EP por eje. / Componente 2 — Nota de Histos: recursos disponibles del ego genuino + orden recomendado de trabajo en Histos + precauciones por incertidumbre. / Componente 3 — DI-ECO (si aplica): las cinco secciones A a E según el estado del cierre. / Componente 4 — Vigencia y protocolo de re-administración: vigencia de la localización + condiciones bajo las cuales se recomienda re-administración antes del período orientativo.
 
-Notas al B·IV §4
+---
+
+## Notas al B·IV §4
 
 1 ECO requiere distancia diagnóstica para localizar la configuración del sujeto; Histos requiere presencia relacional para acompañar el proceso. Son operaciones distintas que puede realizar una misma persona, pero no deben confundirse. Acompañar mientras todavía se localiza, o localizar mientras se acompaña, produce la intervención prematura descrita en el §1 (error E·2).
 
 2 La nota de recursos disponibles del ego genuino que el §4 identifica como el insumo más estratégico para Histos implica que cada módulo de ECO registre, además de la localización, los recursos del ego genuino que encontró. La señal de Eros en el Módulo E, la de Anteros en el Módulo A y el D-1 activo en el Eje IV son recursos disponibles. Una hoja de síntesis que los reúna —aunque algunos tengan menor peso en P(Hijos)— ofrece a Histos un mapa más rico que la distribución de los Hijos dominantes por sí sola.
 
 3 La formulación de transición de ECO a Histos que el §4 propone —«explorar el territorio» para ECO y «caminar en él» para Histos— es una traducción posible al lenguaje sin etiqueta, no la única. El mediador puede adaptarla al lenguaje del sujeto; la transición debe orientarlo hacia el trabajo que sigue sin revelar la localización ni presentar el cierre de ECO como fin (error E·5).
-
