@@ -453,45 +453,48 @@ Pregunta ancla E — Formulación estándar
 
 Entrevista Clínica Ontológica · ECO
 
-«¿Puedes recordar un momento en el período que estamos analizando en que algo completamente inesperado — una persona, una idea, una situación — te abrió a algo que no buscabas? No algo que buscabas y encontraste: algo que no buscabas y que llegó.» [El mediador formula la pregunta y espera. La distinción «no algo que buscabas» es la que separa Eros de la curiosidad instrumental: la apertura de Eros es ante lo que llega sin ser buscado, ante lo que interrumpe la dirección prevista. Si el sujeto dice que no recuerda ningún momento así, el mediador espera 15 segundos y pasa al Sondeo E·1. Si el sujeto produce inmediatamente un episodio de apertura, el mediador observa cómo lo narra: ¿hay textura de descubrimiento? ¿Hay algo en la narrativa que el sujeto parece redescubrir mientras lo cuenta? ¿O la narrativa es fluida y articulada de una manera que sugiere que el sujeto ya sabe lo que va a decir?]
+> «¿Puedes recordar un momento en el período que estamos analizando en que algo completamente inesperado — una persona, una idea, una situación — te abrió a algo que no buscabas? No algo que buscabas y encontraste: algo que no buscabas y que llegó.» [El mediador formula la pregunta y espera. La distinción «no algo que buscabas» es la que separa Eros de la curiosidad instrumental: la apertura de Eros es ante lo que llega sin ser buscado, ante lo que interrumpe la dirección prevista. Si el sujeto dice que no recuerda ningún momento así, el mediador espera 15 segundos y pasa al Sondeo E·1. Si el sujeto produce inmediatamente un episodio de apertura, el mediador observa cómo lo narra: ¿hay textura de descubrimiento? ¿Hay algo en la narrativa que el sujeto parece redescubrir mientras lo cuenta? ¿O la narrativa es fluida y articulada de una manera que sugiere que el sujeto ya sabe lo que va a decir?]
 
 Variantes por perfil de mediador
 
-Variante — Mediador Educativo «¿Hay algún momento en este ciclo en que algo que ocurrió en el aula — una pregunta de un estudiante, una situación que no anticipabas — te llevó en una dirección que no tenías planeada, y que resultó en algo valioso?» [Esta variante orienta la pregunta hacia el contexto educativo. La apertura del Eros educativo puede producirse ante preguntas de estudiantes que el docente no anticipaba, ante dinámicas grupales inesperadas, o ante situaciones que el programa no preveía pero que produjeron aprendizaje genuino.]
-
-Variante — Mediador en Crisis (ego individual) «En medio de lo difícil, ¿hubo algún momento en que algo que no esperabas llegó y te abrió — una conversación, una lectura, una persona — y que dejó algo en ti que antes no estaba?» [Esta variante orienta la pregunta hacia los momentos de apertura en el contexto de la crisis. Es especialmente relevante porque en crisis la apertura de Eros puede ser la señal de que el ego genuino tiene capacidad de recibir lo nuevo, lo que es una señal de D-1 activo más que de D-2.]
-
-### Variante — Mediador Organizacional (ego colectivo) «¿Ha habido algún período en que la organización recibió algo desde afuera — una perspectiva, una colaboración, un
-
-Entrevista Clínica Ontológica · ECO
-
-cambio en el entorno — que no buscaba y que la afectó en una dirección nueva que resultó valiosa?» [Esta variante orienta la pregunta hacia el ego colectivo. El mediador busca la señal de Eros institucional: momentos en que la organización fue genuinamente afectada por algo externo sin que su primera reacción fuera defensiva (Fobos) ni paralizante (Deimos).]
+> Variante — Mediador Educativo «¿Hay algún momento en este ciclo en que algo que ocurrió en el aula — una pregunta de un estudiante, una situación que no anticipabas — te llevó en una dirección que no tenías planeada, y que resultó en algo valioso?» [Esta variante orienta la pregunta hacia el contexto educativo. La apertura del Eros educativo puede producirse ante preguntas de estudiantes que el docente no anticipaba, ante dinámicas grupales inesperadas, o ante situaciones que el programa no preveía pero que produjeron aprendizaje genuino.]
+>
+> Variante — Mediador en Crisis (ego individual) «En medio de lo difícil, ¿hubo algún momento en que algo que no esperabas llegó y te abrió — una conversación, una lectura, una persona — y que dejó algo en ti que antes no estaba?» [Esta variante orienta la pregunta hacia los momentos de apertura en el contexto de la crisis. Es especialmente relevante porque en crisis la apertura de Eros puede ser la señal de que el ego genuino tiene capacidad de recibir lo nuevo, lo que es una señal de D-1 activo más que de D-2.]
+>
+> ### Variante — Mediador Organizacional (ego colectivo) «¿Ha habido algún período en que la organización recibió algo desde afuera — una perspectiva, una colaboración, un
+>
+>
+> cambio en el entorno — que no buscaba y que la afectó en una dirección nueva que resultó valiosa?» [Esta variante orienta la pregunta hacia el ego colectivo. El mediador busca la señal de Eros institucional: momentos en que la organización fue genuinamente afectada por algo externo sin que su primera reacción fuera defensiva (Fobos) ni paralizante (Deimos).]
 
 ### IV.  Preguntas de sondeo
 
 Las preguntas de sondeo del Módulo Eros tienen una característica específica: varias de ellas producen evidencia EP-1 directamente si el sujeto las responde con la textura de apertura y descubrimiento que Eros produce. El mediador que administra las preguntas de sondeo de Eros no solo recoge información sobre el pasado del sujeto: está creando condiciones para que Eros se produzca en la sesión misma.
 
-Sondeo E·1 — La apertura sin búsqueda «¿Hubo algo en ese período que te interesara genuinamente — no porque fuera útil para algo que ya buscabas, sino simplemente porque algo en ello te llamaba?» [Lo que el mediador observa: si el sujeto puede distinguir entre el interés funcional (busco esto porque necesito esto) y el interés de Eros (algo me llama sin que haya razón articulada). La curiosidad instrumental no es Eros. Lo que distingue a Eros es la apertura sin justificación previa — el sujeto puede reconocer que algo lo llamó sin poder decir completamente por qué. Si el sujeto no puede identificar ningún interés así, la señal de Eros se debilita.]
+> Sondeo E·1 — La apertura sin búsqueda «¿Hubo algo en ese período que te interesara genuinamente — no porque fuera útil para algo que ya buscabas, sino simplemente porque algo en ello te llamaba?» [Lo que el mediador observa: si el sujeto puede distinguir entre el interés funcional (busco esto porque necesito esto) y el interés de Eros (algo me llama sin que haya razón articulada). La curiosidad instrumental no es Eros. Lo que distingue a Eros es la apertura sin justificación previa — el sujeto puede reconocer que algo lo llamó sin poder decir completamente por qué. Si el sujeto no puede identificar ningún interés así, la señal de Eros se debilita.]
 
-Sondeo E·2 — La iniciativa sin instrucción «¿Recuerdas haber iniciado algo en ese período — un proyecto, una conversación, una exploración — sin que nadie te lo pidiera, simplemente porque sentiste que debías hacerlo?» [Lo que el mediador observa: si el sujeto puede identificar iniciativas sin mandato externo que corresponden a la apertura de Eros. La iniciativa de Eros no requiere justificación en criterios previos: surge de la orientación de la voluntad hacia algo que llega. Si el sujeto puede nombrar esa iniciativa con la textura de «simplemente sentí que debía hacerlo», la señal de Eros se fortalece. Si solo puede describir iniciativas que tenían justificación instrumental clara, la señal orienta hacia Anteros o hacia la curiosidad instrumental.]
+> Sondeo E·2 — La iniciativa sin instrucción «¿Recuerdas haber iniciado algo en ese período — un proyecto, una conversación, una exploración — sin que nadie te lo pidiera, simplemente porque sentiste que debías hacerlo?» [Lo que el mediador observa: si el sujeto puede identificar iniciativas sin mandato externo que corresponden a la apertura de Eros. La iniciativa de Eros no requiere justificación en criterios previos: surge de la orientación de la voluntad hacia algo que llega. Si el sujeto puede nombrar esa iniciativa con la textura de «simplemente sentí que debía hacerlo», la señal de Eros se fortalece. Si solo puede describir iniciativas que tenían justificación instrumental clara, la señal orienta hacia Anteros o hacia la curiosidad instrumental.]
 
-Entrevista Clínica Ontológica · ECO
+>
 
-Sondeo E·3 — La apertura ante lo contradictorio «Cuando alguien te presentó algo que contradecía lo que ya pensabas, ¿cuál fue tu primera reacción — defenderte, o sentir que había algo ahí que valía la pena explorar?» [Lo que el mediador observa: si el sujeto describe una primera reacción de apertura ante la contradicción. Esta es una de las señales más diagnósticas de Eros en narrativa. La respuesta de Anteros sería: «Escucho con atención y luego evalúo desde mi criterio». La respuesta de Eros sería: «Hay algo en lo que contradice que me llama antes de que yo evalúe si estoy de acuerdo». Si el sujeto puede identificar esa distinción y reconocerse en la segunda, la señal de Eros se fortalece.]
+> Sondeo E·3 — La apertura ante lo contradictorio «Cuando alguien te presentó algo que contradecía lo que ya pensabas, ¿cuál fue tu primera reacción — defenderte, o sentir que había algo ahí que valía la pena explorar?» [Lo que el mediador observa: si el sujeto describe una primera reacción de apertura ante la contradicción. Esta es una de las señales más diagnósticas de Eros en narrativa. La respuesta de Anteros sería: «Escucho con atención y luego evalúo desde mi criterio». La respuesta de Eros sería: «Hay algo en lo que contradice que me llama antes de que yo evalúe si estoy de acuerdo». Si el sujeto puede identificar esa distinción y reconocerse en la segunda, la señal de Eros se fortalece.]
 
-Sondeo E·4 — La retención «Cuando encontraste algo nuevo que te interesó, ¿pudiste quedarte con ello el tiempo suficiente para que te afectara genuinamente — o pasaste de una cosa a otra sin que ninguna te retuvo?» [Esta es la pregunta discriminante primaria entre Eros y la evasión activa. Lo que el mediador observa: si el sujeto puede describir momentos de retención genuina — algo nuevo llegó y el sujeto se quedó con ello. La evasión activa produce movimiento continuo sin retención; Eros puede detenerse en lo que encuentra. Si el sujeto describe que siempre está explorando cosas nuevas, pero no puede nombrar nada que lo haya retenido genuinamente, la señal orienta hacia evasión activa más que hacia Eros.]
+> Sondeo E·4 — La retención «Cuando encontraste algo nuevo que te interesó, ¿pudiste quedarte con ello el tiempo suficiente para que te afectara genuinamente — o pasaste de una cosa a otra sin que ninguna te retuvo?» [Esta es la pregunta discriminante primaria entre Eros y la evasión activa. Lo que el mediador observa: si el sujeto puede describir momentos de retención genuina — algo nuevo llegó y el sujeto se quedó con ello. La evasión activa produce movimiento continuo sin retención; Eros puede detenerse en lo que encuentra. Si el sujeto describe que siempre está explorando cosas nuevas, pero no puede nombrar nada que lo haya retenido genuinamente, la señal orienta hacia evasión activa más que hacia Eros.]
 
-Sondeo E·5 — La sorpresa «¿Hubo algún momento en ese período en que encontraste algo que te sorprendió — no en el sentido de que no lo esperabas, sino en el sentido de que te movió en una dirección que no habías previsto?» [Lo que el mediador observa: si el sujeto puede identificar la sorpresa como experiencia que produjo movimiento no previsto. La sorpresa de Eros no es el shock de lo inesperado: es el descubrimiento de que algo nuevo puede orientar la voluntad en una dirección que el sujeto no había imaginado. Si el sujeto puede describir ese tipo de sorpresa con ejemplos concretos, la señal de Eros se fortalece. Si las «sorpresas» que describe son eventos que no anticipaba pero que no produjeron ninguna dirección nueva, la señal es más débil.]
+> Sondeo E·5 — La sorpresa «¿Hubo algún momento en ese período en que encontraste algo que te sorprendió — no en el sentido de que no lo esperabas, sino en el sentido de que te movió en una dirección que no habías previsto?» [Lo que el mediador observa: si el sujeto puede identificar la sorpresa como experiencia que produjo movimiento no previsto. La sorpresa de Eros no es el shock de lo inesperado: es el descubrimiento de que algo nuevo puede orientar la voluntad en una dirección que el sujeto no había imaginado. Si el sujeto puede describir ese tipo de sorpresa con ejemplos concretos, la señal de Eros se fortalece. Si las «sorpresas» que describe son eventos que no anticipaba pero que no produjeron ninguna dirección nueva, la señal es más débil.]
 
-Sondeo E·6 — La apertura en esta sesión «¿Hay algo en esta conversación — una pregunta, una perspectiva que introduje — que te haya producido algo que no tenías antes de que yo lo introdujera? No tiene que
+> Sondeo E·6 — La apertura en esta sesión «¿Hay algo en esta conversación — una pregunta, una perspectiva que introduje — que te haya producido algo que no tenías antes de que yo lo introdujera? No tiene que
 
-Entrevista Clínica Ontológica · ECO
+>
 
-haber sido importante: cualquier cosa que surgió en ti a partir de algo que llegó desde aquí.» [Esta es la pregunta que puede producir EP-1 directamente desde la sesión. Lo que el mediador observa: si el sujeto puede identificar algo genuinamente nuevo que la sesión produjo en él. No el resumen de lo que ya sabía, no la confirmación de lo que ya pensaba: algo nuevo. Si el sujeto puede nombrar algo así con textura de descubrimiento, la señal de Eros es EP-1 directamente. Si no puede nombrar nada nuevo, la señal no está en sesión y el módulo puede producir H-2 como máximo desde la narrativa.]
+>
 
-Sondeo E·7 — La permanencia «Lo que encontraste de nuevo en ese período — ¿quedó algo de eso en ti? ¿Cambió algo en la dirección de lo que haces o piensas a partir de ese encuentro con lo nuevo?» [Lo que el mediador observa: si la apertura de Eros produjo huella — si algo de lo nuevo que llegó se integró en la voluntad del sujeto y orientó actos posteriores. Eros genuino produce permanencia: algo de lo que llegó desde afuera queda dentro y modifica la dirección. La apertura sin permanencia puede corresponder a curiosidad superficial o a evasión activa. Si el sujeto puede describir cómo algo de lo nuevo que encontró modificó su dirección, la señal de Eros se fortalece.]
+> haber sido importante: cualquier cosa que surgió en ti a partir de algo que llegó desde aquí.» [Esta es la pregunta que puede producir EP-1 directamente desde la sesión. Lo que el mediador observa: si el sujeto puede identificar algo genuinamente nuevo que la sesión produjo en él. No el resumen de lo que ya sabía, no la confirmación de lo que ya pensaba: algo nuevo. Si el sujeto puede nombrar algo así con textura de descubrimiento, la señal de Eros es EP-1 directamente. Si no puede nombrar nada nuevo, la señal no está en sesión y el módulo puede producir H-2 como máximo desde la narrativa.]
 
-La instrucción ante la ausencia de respuesta en el Módulo Eros es diferente a todos los demás módulos: si el sujeto no puede identificar ninguna apertura ante lo nuevo en la pregunta ancla, el mediador formula el Sondeo E·6 inmediatamente, antes de cualquier otro sondeo. La razón: si hay Eros en el sujeto, la sesión misma es el lugar más probable donde puede producirse en este momento. El Sondeo E·6 lo verifica directamente sin depender de la memoria del período analizado.
+> Sondeo E·7 — La permanencia «Lo que encontraste de nuevo en ese período — ¿quedó algo de eso en ti? ¿Cambió algo en la dirección de lo que haces o piensas a partir de ese encuentro con lo nuevo?» [Lo que el mediador observa: si la apertura de Eros produjo huella — si algo de lo nuevo que llegó se integró en la voluntad del sujeto y orientó actos posteriores. Eros genuino produce permanencia: algo de lo que llegó desde afuera queda dentro y modifica la dirección. La apertura sin permanencia puede corresponder a curiosidad superficial o a evasión activa. Si el sujeto puede describir cómo algo de lo nuevo que encontró modificó su dirección, la señal de Eros se fortalece.]
+
+>
+
+> La instrucción ante la ausencia de respuesta en el Módulo Eros es diferente a todos los demás módulos: si el sujeto no puede identificar ninguna apertura ante lo nuevo en la pregunta ancla, el mediador formula el Sondeo E·6 inmediatamente, antes de cualquier otro sondeo. La razón: si hay Eros en el sujeto, la sesión misma es el lugar más probable donde puede producirse en este momento. El Sondeo E·6 lo verifica directamente sin depender de la memoria del período analizado.
 
 ### V.  Señales de observación directa
 
@@ -499,7 +502,7 @@ Las señales de observación directa del Módulo Eros son, de todos los módulos
 
 ### Entrevista Clínica Ontológica · ECO
 
-Señal observable Nivel EP que corresponde
+<!-- TABLA: señales observables | columnas: señal observable, nivel EP, error de lectura -->
 
 Error de lectura frecuente
 
@@ -551,39 +554,39 @@ El árbol del Módulo Eros tiene una particularidad que lo distingue de los mód
 
 Entrevista Clínica Ontológica · ECO
 
-NODO E·0 — ¿Se aplica el acortamiento del módulo?
+> **NODO E·0 — ¿Se aplica el acortamiento del módulo?**
+>
+> SÍ (Hijo dominante H-3 EP-1 ya establecido + sin señal de Eros en apertura) → Administrar solo pregunta ancla + Sondeos E·1 y E·6. Si no hay señal → H-1 · EP-0. NO → Administrar pregunta ancla completa. ↓
 
-SÍ (Hijo dominante H-3 EP-1 ya establecido + sin señal de Eros en apertura) → Administrar solo pregunta ancla + Sondeos E·1 y E·6. Si no hay señal → H-1 · EP-0. NO → Administrar pregunta ancla completa. ↓
+> **NODO E·1 — ¿La pregunta ancla produjo narrativa de apertura ante lo inesperado?**
+>
+> NO (el sujeto no puede identificar ningún momento de apertura sin búsqueda) → Administrar Sondeo E·6 directamente. Si no hay señal → H-1 o H-2 con peso residual EP-8. SÍ → Observar: ¿la narrativa tiene textura de descubrimiento o es fluida y articulada? ↓
 
-NODO E·1 — ¿La pregunta ancla produjo narrativa de apertura ante lo inesperado?
+> **NODO E·2 — ¿La narrativa de apertura tiene textura de descubrimiento (el sujeto parece redescubrir mientras narra)?**
+>
+> NO (narrativa fluida, el sujeto sabe lo que va a decir antes de decirlo) → Señal de Eros se debilita. Puede ser Anteros articulado o E-4. Administrar Sondeo E·3 y pregunta discriminante E/E-4. SÍ → Administrar Sondeos E·1 a E·5 en orden. Observar si la apertura se produce directamente en sesión. ↓
 
-NO (el sujeto no puede identificar ningún momento de apertura sin búsqueda) → Administrar Sondeo E·6 directamente. Si no hay señal → H-1 o H-2 con peso residual EP-8. SÍ → Observar: ¿la narrativa tiene textura de descubrimiento o es fluida y articulada? ↓
+> **NODO E·3 — Sondeo E·6: ¿la sesión misma produjo algo genuinamente nuevo en el sujeto?**
+>
+> SÍ (el sujeto identifica algo que no sabía antes de la sesión, con textura de descubrimiento visible) → EP-1 confirmado. Señal de Eros máxima. NO (el sujeto no puede identificar nada nuevo que la sesión produjo) → EP-1 no disponible. Evaluar la narrativa de los sondeos anteriores para EP-2 o inferior. ↓
 
-NODO E·2 — ¿La narrativa de apertura tiene textura de descubrimiento (el sujeto parece redescubrir mientras narra)?
+> **NODO E·4 — ¿La apertura descrita podría corresponder a E-4 (obediencia al campo)?**
+>
+> Posible → Administrar pregunta discriminante E/E-4 de §7 obligatoriamente. No es probable → ¿Podría corresponder a evasión activa (apertura sin retención)? ↓
 
-NO (narrativa fluida, el sujeto sabe lo que va a decir antes de decirlo) → Señal de Eros se debilita. Puede ser Anteros articulado o E-4. Administrar Sondeo E·3 y pregunta discriminante E/E-4. SÍ → Administrar Sondeos E·1 a E·5 en orden. Observar si la apertura se produce directamente en sesión. ↓
+> **NODO E·5 — ¿La apertura descrita podría corresponder a evasión activa (movimiento continuo sin retención)?**
+>
+> Posible → Administrar Sondeo E·4 y pregunta discriminante E/evasión de §7. No es probable → ¿El patrón de apertura es sostenido en múltiples contextos? ↓
 
-NODO E·3 — Sondeo E·6: ¿la sesión misma produjo algo genuinamente nuevo en el sujeto?
+> **NODO E·6 — ¿El patrón de apertura es sostenido en múltiples contextos o períodos?**
+>
+> NO (episodio único o circunstancial) → H-2 máximo · EP-4 o EP-5 · Nota de hipótesis. SÍ → ¿Hay señal de observación directa en sesión? ↓
+>
+> ### Entrevista Clínica Ontológica · ECO
 
-SÍ (el sujeto identifica algo que no sabía antes de la sesión, con textura de descubrimiento visible) → EP-1 confirmado. Señal de Eros máxima. NO (el sujeto no puede identificar nada nuevo que la sesión produjo) → EP-1 no disponible. Evaluar la narrativa de los sondeos anteriores para EP-2 o inferior. ↓
-
-NODO E·4 — ¿La apertura descrita podría corresponder a E-4 (obediencia al campo)?
-
-Posible → Administrar pregunta discriminante E/E-4 de §7 obligatoriamente. No es probable → ¿Podría corresponder a evasión activa (apertura sin retención)? ↓
-
-NODO E·5 — ¿La apertura descrita podría corresponder a evasión activa (movimiento continuo sin retención)?
-
-Posible → Administrar Sondeo E·4 y pregunta discriminante E/evasión de §7. No es probable → ¿El patrón de apertura es sostenido en múltiples contextos? ↓
-
-NODO E·6 — ¿El patrón de apertura es sostenido en múltiples contextos o períodos?
-
-NO (episodio único o circunstancial) → H-2 máximo · EP-4 o EP-5 · Nota de hipótesis. SÍ → ¿Hay señal de observación directa en sesión? ↓
-
-### Entrevista Clínica Ontológica · ECO
-
-NODO E·7 — ¿La señal EP-1 de apertura se produjo directamente en sesión?
-
-SÍ → H-3 · EP-1. Registrar señal observacional específica (sorpresa en voz alta, respuesta que va más allá de la pregunta, procesamiento visible). NO → H-2 o H-3 según la coherencia temporal de la narrativa. EP-2 o EP-3. ↓
+> **NODO E·7 — ¿La señal EP-1 de apertura se produjo directamente en sesión?**
+>
+> SÍ → H-3 · EP-1. Registrar señal observacional específica (sorpresa en voz alta, respuesta que va más allá de la pregunta, procesamiento visible). NO → H-2 o H-3 según la coherencia temporal de la narrativa. EP-2 o EP-3. ↓
 
 SALIDA — Codificación + Nivel EP + P(Eros) tentativo → Continuar a Módulo Harmonía/D-2
 
@@ -665,7 +668,9 @@ La pregunta de la retención — la más discriminante para Eros vs. evasión «
 
 Nivel EP mín. Ejemplo de respuesta
 
-Cód. Nombre Ancla conductual para Eros
+<!-- TABLA: codificación | columnas: código, nombre, ancla conductual, nivel EP, ejemplo -->
+
+
 
 H-3 Presente El sujeto muestra apertura genuina ante lo que el mediador introduce en sesión — perspectivas distintas, preguntas que no anticipaba— de manera sostenida y replicable en varios momentos. La apertura tiene dos
 
@@ -737,7 +742,7 @@ Entrevista Clínica Ontológica · ECO
 
 configuración más favorable del Bloque I para el acompañamiento. Los dos Hijos no son contradictorios: Eros abre, Anteros afirma. En la misma configuración de la voluntad, el sujeto puede recibir lo nuevo con apertura genuina y, desde lo que ese encuentro produce, afirmar algo propio en la dimensión arética.
 
-Ejemplos de distribuciones P(Hijos) cuando Eros tiene peso significativo Ejemplo 1 (Eros dominante con Anteros secundario, EP-1): P(Fobos)=0.05 · P(Deimos)=0.05 · P(Anteros)=0.25 · P(Potós)=0.05 · P(Eros)=0.60 · P(Harmonía)=0.00. Suma: 1.00. Ejemplo 2 (Eros/Anteros coexistentes, EP-1 para ambos): P(Fobos)=0.05 · P(Deimos)=0.05 · P(Anteros)=0.40 · P(Potós)=0.05 · P(Eros)=0.45 · P(Harmonía)=0.00. Suma: 1.00. Esta segunda distribución describe la configuración de la voluntad que puede recibir lo nuevo con apertura genuina y afirmarlo desde el eje propio — los dos Hijos que producen la fricción productiva más rica.
+### Ejemplos de distribuciones P(Hijos) cuando Eros tiene peso significativo Ejemplo 1 (Eros dominante con Anteros secundario, EP-1): P(Fobos)=0.05 · P(Deimos)=0.05 · P(Anteros)=0.25 · P(Potós)=0.05 · P(Eros)=0.60 · P(Harmonía)=0.00. Suma: 1.00. Ejemplo 2 (Eros/Anteros coexistentes, EP-1 para ambos): P(Fobos)=0.05 · P(Deimos)=0.05 · P(Anteros)=0.40 · P(Potós)=0.05 · P(Eros)=0.45 · P(Harmonía)=0.00. Suma: 1.00. Esta segunda distribución describe la configuración de la voluntad que puede recibir lo nuevo con apertura genuina y afirmarlo desde el eje propio — los dos Hijos que producen la fricción productiva más rica.
 
 Cuando Eros coexiste con Potós en la misma distribución, la nota de hipótesis es importante: si el sujeto tiene tanto orientación al ausente (Potós) como apertura a lo nuevo (Eros), el mediador necesita verificar en qué contextos aparece cada uno. Es posible que Eros sea el Hijo activo en ciertos dominios (el trabajo, los vínculos nuevos) y Potós en otros (las relaciones antiguas, el sentido de identidad). Esa especificidad de dominio debe registrarse en la hoja de síntesis porque orienta el trabajo de Histos de manera diferente.
 
@@ -751,9 +756,9 @@ Entrevista Clínica Ontológica · ECO
 
 Eros colectivo requiere una condición que pocos colectivos sostienen: un ego soberano en E-1 con la capacidad de ceder la segunda mediación sin perder el eje. El ego soberano que cede la segunda mediación colectiva hacia la apertura de Eros necesita tener su propio eje suficientemente sólido para que la apertura del colectivo no lo disuelva. Un ego soberano en E-4 no puede producir Eros colectivo genuino porque no tiene eje propio desde donde orientar la apertura: lo que produce es obediencia colectiva al campo que pide innovación. Y un ego soberano en Anteros sin Eros produce colectivos con criterio propio sólido pero que no pueden ser genuinamente afectados por lo nuevo — pueden escucharlo, evaluarlo, aceptarlo o rechazarlo, pero no pueden ser sorprendidos por ello.
 
-Pregunta ancla — Ego colectivo (Eros) «¿Ha habido en la historia reciente de esta organización algún momento en que algo que llegó desde afuera — una perspectiva, una colaboración, un cambio que no buscaban — la llevó en una dirección nueva que resultó genuinamente valiosa y que no habría tomado sin ese encuentro?» [El mediador busca la señal de Eros institucional: el momento en que el colectivo fue genuinamente afectado por la alteridad. Lo que observa: si distintos miembros pueden describir el mismo momento de apertura colectiva sin haberlo coordinado. La convergencia de narrativas sobre el mismo encuentro con lo nuevo produce EP-2 para el ego colectivo.]
-
-Las señales de observación directa de Eros colectivo pueden observarse en la dinámica de una junta o reunión: la organización en Eros colectivo puede recibir perspectivas externas —de consultores, de clientes, de colaboradores de otros sectores— con curiosidad genuina y sin que la primera reacción sea defensiva o burocrática. El mediador que puede observar una reunión en tiempo real puede leer Eros colectivo directamente en la manera en que los miembros reciben y procesan lo que llega desde afuera.
+> Pregunta ancla — Ego colectivo (Eros) «¿Ha habido en la historia reciente de esta organización algún momento en que algo que llegó desde afuera — una perspectiva, una colaboración, un cambio que no buscaban — la llevó en una dirección nueva que resultó genuinamente valiosa y que no habría tomado sin ese encuentro?» [El mediador busca la señal de Eros institucional: el momento en que el colectivo fue genuinamente afectado por la alteridad. Lo que observa: si distintos miembros pueden describir el mismo momento de apertura colectiva sin haberlo coordinado. La convergencia de narrativas sobre el mismo encuentro con lo nuevo produce EP-2 para el ego colectivo.]
+>
+> Las señales de observación directa de Eros colectivo pueden observarse en la dinámica de una junta o reunión: la organización en Eros colectivo puede recibir perspectivas externas —de consultores, de clientes, de colaboradores de otros sectores— con curiosidad genuina y sin que la primera reacción sea defensiva o burocrática. El mediador que puede observar una reunión en tiempo real puede leer Eros colectivo directamente en la manera en que los miembros reciben y procesan lo que llega desde afuera.
 
 La distinción Eros colectivo / innovación prescripta
 
@@ -787,11 +792,10 @@ Cuándo derivar a Histos
 
 Eros como Hijo con peso significativo en P(Hijos) —H-2 o H-3, con o sin dominancia— orienta la derivación a Histos con una nota específica: el trabajo de Histos con un sujeto en Eros puede usar la apertura genuina de la voluntad como recurso. El sujeto cuya voluntad puede abrirse a lo nuevo tiene una capacidad que el trabajo de acompañamiento puede activar — la apertura hacia lo que el proceso de Histos introduce no requiere ser forzada: ya está presente en la orientación de la voluntad. Esa información debe llegar a Histos como parte de la hoja de síntesis.
 
-Condición de derivación a Histos desde Eros
-
-Entrevista Clínica Ontológica · ECO
-
-Eros H-2 o H-3 con discriminación Eros/E-4 completada + Bloque II completo. La nota de derivación incluye el peso de Eros en la distribución P(Hijos), el nivel EP que lo sustenta, y la descripción de cómo la apertura se produjo en sesión si hubo señal EP-1. Histos recibe esta información como descripción de un recurso disponible en la voluntad del sujeto, no como confirmación de bienestar.
+> Condición de derivación a Histos desde Eros
+>
+>
+> Eros H-2 o H-3 con discriminación Eros/E-4 completada + Bloque II completo. La nota de derivación incluye el peso de Eros en la distribución P(Hijos), el nivel EP que lo sustenta, y la descripción de cómo la apertura se produjo en sesión si hubo señal EP-1. Histos recibe esta información como descripción de un recurso disponible en la voluntad del sujeto, no como confirmación de bienestar.
 
 Cuándo el caso supera ECO
 
