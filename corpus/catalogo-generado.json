@@ -2626,7 +2626,7 @@
     "id": "ECO",
     "title": "ECO: Entrevista Clínica Ontológica",
     "source": "corpus/fuentes/ECO Entrevista Clínica Ontológica.md",
-    "sha256": "5b3ca4567c0c902244a2600c268aa78c3d9fe299b02c918277344db87709b0fa",
+    "sha256": "8f86fc100ac81659c08b8946fb55e52a63450f1a32a8d19406ca8033e37da780",
     "collection": "Autodeterminación Causal",
     "volume": null,
     "source_anomalies": [],
@@ -2660,167 +2660,167 @@
         "key": "P·3",
         "heading": "Capítulo P·3",
         "start_line": 369,
-        "end_line": 698
+        "end_line": 547
       },
       {
         "path": "corpus/libros/eco/capitulo-p-4.md",
         "kind": "capitulo",
         "key": "P·4",
         "heading": "Capítulo P·4",
-        "start_line": 699,
-        "end_line": 1042
+        "start_line": 548,
+        "end_line": 891
       },
       {
         "path": "corpus/libros/eco/capitulo-p-5.md",
         "kind": "capitulo",
         "key": "P·5",
         "heading": "Capítulo P·5",
-        "start_line": 1043,
-        "end_line": 1428
+        "start_line": 892,
+        "end_line": 1277
       },
       {
         "path": "corpus/libros/eco/b-i-f.md",
         "kind": "modulo",
         "key": "B·I·F",
         "heading": "B·I·F · MÓDULO FOBOS",
-        "start_line": 1429,
-        "end_line": 1838
+        "start_line": 1278,
+        "end_line": 1687
       },
       {
         "path": "corpus/libros/eco/b-i-d.md",
         "kind": "modulo",
         "key": "B·I·D",
         "heading": "B·I·D · MÓDULO DEIMOS",
-        "start_line": 1839,
-        "end_line": 2270
+        "start_line": 1688,
+        "end_line": 2119
       },
       {
         "path": "corpus/libros/eco/b-i-a.md",
         "kind": "modulo",
         "key": "B·I·A",
         "heading": "B·I·A · MÓDULO ANTEROS",
-        "start_line": 2271,
-        "end_line": 2718
+        "start_line": 2120,
+        "end_line": 2567
       },
       {
         "path": "corpus/libros/eco/b-i-p.md",
         "kind": "modulo",
         "key": "B·I·P",
         "heading": "B·I·P · MÓDULO POTÓS",
-        "start_line": 2719,
-        "end_line": 3538
+        "start_line": 2568,
+        "end_line": 3387
       },
       {
         "path": "corpus/libros/eco/b-i-h .md",
         "kind": "modulo",
         "key": "B·I·H ",
         "heading": "B·I·H  ·  MÓDULO HARMONÍA · D-2",
-        "start_line": 3539,
-        "end_line": 4026
+        "start_line": 3388,
+        "end_line": 3875
       },
       {
         "path": "corpus/libros/eco/b-ii-i.md",
         "kind": "modulo",
         "key": "B·II·I",
         "heading": "B·II·I ·  MÓDULO EJE I — ESTADOS DEL",
-        "start_line": 4027,
-        "end_line": 4440
+        "start_line": 3876,
+        "end_line": 4289
       },
       {
         "path": "corpus/libros/eco/b-ii-ii.md",
         "kind": "modulo",
         "key": "B·II·II",
         "heading": "B·II·II ·  MÓDULO EJE II — MASCARADA",
-        "start_line": 4441,
-        "end_line": 4726
+        "start_line": 4290,
+        "end_line": 4575
       },
       {
         "path": "corpus/libros/eco/b-ii-iii.md",
         "kind": "modulo",
         "key": "B·II·III",
         "heading": "B·II·III ·  MÓDULO EJE III — VÍNCULO",
-        "start_line": 4727,
-        "end_line": 5182
+        "start_line": 4576,
+        "end_line": 5031
       },
       {
         "path": "corpus/libros/eco/b-ii-iv.md",
         "kind": "modulo",
         "key": "B·II·IV",
         "heading": "B·II·IV ·  MÓDULO EJE IV — DISFORIA",
-        "start_line": 5183,
-        "end_line": 5592
+        "start_line": 5032,
+        "end_line": 5441
       },
       {
         "path": "corpus/libros/eco/b-ii-v.md",
         "kind": "modulo",
         "key": "B·II·V",
         "heading": "B·II·V ·  MÓDULO EJE V —",
-        "start_line": 5593,
-        "end_line": 6130
+        "start_line": 5442,
+        "end_line": 5979
       },
       {
         "path": "corpus/libros/eco/b-iii-1.md",
         "kind": "modulo",
         "key": "B·III·1",
         "heading": "B·III·1 ·  EL EGO SOBERANO COMO PUNTO",
-        "start_line": 6131,
-        "end_line": 6396
+        "start_line": 5980,
+        "end_line": 6245
       },
       {
         "path": "corpus/libros/eco/b-iii-2.md",
         "kind": "modulo",
         "key": "B·III·2",
         "heading": "B·III·2 ·  ENTREVISTA A LOS MIEMBROS",
-        "start_line": 6397,
-        "end_line": 6710
+        "start_line": 6246,
+        "end_line": 6559
       },
       {
         "path": "corpus/libros/eco/b-iii-3.md",
         "kind": "modulo",
         "key": "B·III·3",
         "heading": "B·III·3 ·  AGREGACIÓN DE LOCALIZACIONES INDIVIDUALES",
-        "start_line": 6711,
-        "end_line": 7012
+        "start_line": 6560,
+        "end_line": 6861
       },
       {
         "path": "corpus/libros/eco/b-iii-4.md",
         "kind": "modulo",
         "key": "B·III·4",
         "heading": "B·III·4 ·  ANÁLISIS DE ARTEFACTOS",
-        "start_line": 7013,
-        "end_line": 7312
+        "start_line": 6862,
+        "end_line": 7161
       },
       {
         "path": "corpus/libros/eco/b-iii-5.md",
         "kind": "modulo",
         "key": "B·III·5",
         "heading": "B·III·5 ·  MEMORIA COMUNITARIA — LO QUE FUE, LO QUE ES, LO QUE PUDO SER",
-        "start_line": 7313,
-        "end_line": 7626
+        "start_line": 7162,
+        "end_line": 7475
       },
       {
         "path": "corpus/libros/eco/b-iv.md",
         "kind": "modulo",
         "key": "B·IV",
         "heading": "B·IV ·  PRINCIPIOS GENERALES DE",
-        "start_line": 7627,
-        "end_line": 8058
+        "start_line": 7476,
+        "end_line": 7907
       },
       {
         "path": "corpus/libros/eco/bloque-iv-03.md",
         "kind": "modulo",
         "key": "B·IV·3",
         "heading": "B·IV · §3 ·  CUÁNDO ECO ESTÁ COMPLETO",
-        "start_line": 8059,
-        "end_line": 8616
+        "start_line": 7908,
+        "end_line": 8465
       },
       {
         "path": "corpus/libros/eco/90-apendices.md",
         "kind": "apendices",
         "key": "APENDICES",
         "heading": "APÉNDICES · Instrumentos de trabajo del mediador",
-        "start_line": 8617,
-        "end_line": 10251
+        "start_line": 8466,
+        "end_line": 10100
       }
     ]
   },
