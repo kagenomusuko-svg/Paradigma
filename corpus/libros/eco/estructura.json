@@ -2,7 +2,7 @@
   "id": "ECO",
   "title": "ECO: Entrevista Clínica Ontológica",
   "source": "corpus/fuentes/ECO Entrevista Clínica Ontológica.md",
-  "sha256": "b891157983099d6353c26a541dc3e955c40480f4234b59bcd8d2f07c18c0d802",
+  "sha256": "dc98e89c312624effd5249d4337afa87c663fbbd9dbb39d373264ff0e88e536f",
   "collection": "Autodeterminación Causal",
   "volume": null,
   "source_anomalies": [],
@@ -108,79 +108,71 @@
       "key": "B·II·II",
       "heading": "B·II·II ·  MÓDULO EJE II — MASCARADA",
       "start_line": 3948,
-      "end_line": 5079
-    },
-    {
-      "path": "corpus/libros/eco/b-ii-v.md",
-      "kind": "modulo",
-      "key": "B·II·V",
-      "heading": "B·II·V ·  MÓDULO EJE V —",
-      "start_line": 5080,
-      "end_line": 5617
+      "end_line": 5616
     },
     {
       "path": "corpus/libros/eco/b-iii-1.md",
       "kind": "modulo",
       "key": "B·III·1",
       "heading": "B·III·1 ·  EL EGO SOBERANO COMO PUNTO",
-      "start_line": 5618,
-      "end_line": 5883
+      "start_line": 5617,
+      "end_line": 5882
     },
     {
       "path": "corpus/libros/eco/b-iii-2.md",
       "kind": "modulo",
       "key": "B·III·2",
       "heading": "B·III·2 ·  ENTREVISTA A LOS MIEMBROS",
-      "start_line": 5884,
-      "end_line": 6197
+      "start_line": 5883,
+      "end_line": 6196
     },
     {
       "path": "corpus/libros/eco/b-iii-3.md",
       "kind": "modulo",
       "key": "B·III·3",
       "heading": "B·III·3 ·  AGREGACIÓN DE LOCALIZACIONES INDIVIDUALES",
-      "start_line": 6198,
-      "end_line": 6499
+      "start_line": 6197,
+      "end_line": 6498
     },
     {
       "path": "corpus/libros/eco/b-iii-4.md",
       "kind": "modulo",
       "key": "B·III·4",
       "heading": "B·III·4 ·  ANÁLISIS DE ARTEFACTOS",
-      "start_line": 6500,
-      "end_line": 6799
+      "start_line": 6499,
+      "end_line": 6798
     },
     {
       "path": "corpus/libros/eco/b-iii-5.md",
       "kind": "modulo",
       "key": "B·III·5",
       "heading": "B·III·5 ·  MEMORIA COMUNITARIA — LO QUE FUE, LO QUE ES, LO QUE PUDO SER",
-      "start_line": 6800,
-      "end_line": 7113
+      "start_line": 6799,
+      "end_line": 7112
     },
     {
       "path": "corpus/libros/eco/b-iv.md",
       "kind": "modulo",
       "key": "B·IV",
       "heading": "B·IV ·  PRINCIPIOS GENERALES DE",
-      "start_line": 7114,
-      "end_line": 7545
+      "start_line": 7113,
+      "end_line": 7544
     },
     {
       "path": "corpus/libros/eco/bloque-iv-03.md",
       "kind": "modulo",
       "key": "B·IV·3",
       "heading": "B·IV · §3 ·  CUÁNDO ECO ESTÁ COMPLETO",
-      "start_line": 7546,
-      "end_line": 8103
+      "start_line": 7545,
+      "end_line": 8102
     },
     {
       "path": "corpus/libros/eco/90-apendices.md",
       "kind": "apendices",
       "key": "APENDICES",
       "heading": "APÉNDICES · Instrumentos de trabajo del mediador",
-      "start_line": 8104,
-      "end_line": 9738
+      "start_line": 8103,
+      "end_line": 9737
     }
   ]
 }
