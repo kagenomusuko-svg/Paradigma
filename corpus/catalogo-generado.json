@@ -2626,7 +2626,7 @@
     "id": "ECO",
     "title": "ECO: Entrevista Clínica Ontológica",
     "source": "corpus/fuentes/ECO Entrevista Clínica Ontológica.md",
-    "sha256": "71a777a0f4c79dd6e5acfac9da70351c24720eb6e6ff42eba54a599ccab10cd1",
+    "sha256": "6fdd18a5134a2f6e5c8839a4c01039c703d35366bb327430d64ed374df343daf",
     "collection": "Autodeterminación Causal",
     "volume": null,
     "source_anomalies": [],
@@ -2740,63 +2740,63 @@
         "key": "B·III·1",
         "heading": "B·III·1 ·  EL EGO SOBERANO COMO PUNTO",
         "start_line": 5619,
-        "end_line": 5884
+        "end_line": 5882
       },
       {
         "path": "corpus/libros/eco/b-iii-2.md",
         "kind": "modulo",
         "key": "B·III·2",
         "heading": "B·III·2 ·  ENTREVISTA A LOS MIEMBROS",
-        "start_line": 5885,
-        "end_line": 6198
+        "start_line": 5883,
+        "end_line": 6196
       },
       {
         "path": "corpus/libros/eco/b-iii-3.md",
         "kind": "modulo",
         "key": "B·III·3",
         "heading": "B·III·3 ·  AGREGACIÓN DE LOCALIZACIONES INDIVIDUALES",
-        "start_line": 6199,
-        "end_line": 6500
+        "start_line": 6197,
+        "end_line": 6498
       },
       {
         "path": "corpus/libros/eco/b-iii-4.md",
         "kind": "modulo",
         "key": "B·III·4",
         "heading": "B·III·4 ·  ANÁLISIS DE ARTEFACTOS",
-        "start_line": 6501,
-        "end_line": 6800
+        "start_line": 6499,
+        "end_line": 6798
       },
       {
         "path": "corpus/libros/eco/b-iii-5.md",
         "kind": "modulo",
         "key": "B·III·5",
         "heading": "B·III·5 ·  MEMORIA COMUNITARIA — LO QUE FUE, LO QUE ES, LO QUE PUDO SER",
-        "start_line": 6801,
-        "end_line": 7114
+        "start_line": 6799,
+        "end_line": 7112
       },
       {
         "path": "corpus/libros/eco/b-iv.md",
         "kind": "modulo",
         "key": "B·IV",
         "heading": "B·IV ·  PRINCIPIOS GENERALES DE",
-        "start_line": 7115,
-        "end_line": 7546
+        "start_line": 7113,
+        "end_line": 7544
       },
       {
         "path": "corpus/libros/eco/bloque-iv-03.md",
         "kind": "modulo",
         "key": "B·IV·3",
         "heading": "B·IV · §3 ·  CUÁNDO ECO ESTÁ COMPLETO",
-        "start_line": 7547,
-        "end_line": 8104
+        "start_line": 7545,
+        "end_line": 8102
       },
       {
         "path": "corpus/libros/eco/90-apendices.md",
         "kind": "apendices",
         "key": "APENDICES",
         "heading": "APÉNDICES · Instrumentos de trabajo del mediador",
-        "start_line": 8105,
-        "end_line": 9739
+        "start_line": 8103,
+        "end_line": 9737
       }
     ]
   },
