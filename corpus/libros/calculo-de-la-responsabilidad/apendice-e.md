@@ -1,10 +1,9 @@
-### APÉNDICE E Glosario unificado por
+# APÉNDICE E
+## Glosario unificado por dominio
 
-### dominio
+*Todos los términos del sistema con su traducción en cada dominio de aplicación*
 
-Todos los términos del sistema con su traducción en cada dominio
-
-de aplicación
+---
 
 Este glosario contiene todos los términos del sistema de imputación causal organizados en dos secciones: primero los términos del núcleo universal (que aplican a todos los dominios), y luego los términos específicos de cada dominio. Para cada término se indica el símbolo matemático cuando existe, la definición operativa, y el capítulo donde aparece por primera vez.
 
@@ -18,7 +17,6 @@ Ajuste debitor (AD)
 
 Alpha (α) α ∈ [0,1] Coeficiente de asunción de la
 
-El Cálculo de la Responsabilidad · Apéndices
 
 responsabilidad causal. α = 0: el nodo no asumió nada. α = 1: asumió completamente su posición causal. En el dominio histórico, α_diferido es la asunción por parte de sucesores institucionales.
 
@@ -30,7 +28,6 @@ Daño total causado por el evento. Suma de T_invertido (pérdida directa), T_imp
 
 D_vital D_vital = D/w_ref El daño total expresado en horas de vida de trabajo cristalizado. w_ref es el salario de referencia por hora en PPP. Convierte el daño monetario en tiempo de vida, la unidad ontológica fundamental del sistema.
 
-El Cálculo de la Responsabilidad · Apéndices
 
 Delta (Δ) Δ = R* − α Déficit de responsabilidad causal no asumida. Δ > 0: el actor causó más de lo que asumió (base para el ajuste debitor). Δ < 0: el actor asumió más de lo que causó (chivo expiatorio o acción extraordinaria).
 
@@ -44,7 +41,6 @@ J = 1 − Σ|Δᵢ| Medida de ecuanimidad en la distribución de responsabilidad
 
 Índice de Justicia Estructural (J)
 
-El Cálculo de la Responsabilidad · Apéndices
 
 (cada nodo asumió exactamente su R*). J = 0: distribución completamente desequilibrada. J < 0: distribución inversa a la causal.
 
@@ -58,7 +54,6 @@ Nodo de diseño — El actor que diseñó las condiciones bajo las cuales el eve
 
 Postulado I5 dD/dNᵢ ≠ 0 El postulado de la condición necesaria: el nodo Nᵢ es causalmente necesario para el daño D si eliminar Nᵢ del grafo cambia D. Cuando I5 no se cumple para ningún nodo individual (causalidad acumulativa), se requiere la extensión Shapley.
 
-El Cálculo de la Responsabilidad · Apéndices
 
 R* (R-estrella) R* = eigenvector dom.(W)
 
@@ -74,11 +69,10 @@ Valor de Shapley (φᵢ)
 
 φᵢ = Σ [|S|!(n-|S|-1)!/n!]×[v(S∪{i})−v(S)] La extensión del R* para casos de causalidad acumulativa donde el postulado I5 no se cumple para ningún nodo individual. Mide la contribución marginal
 
-El Cálculo de la Responsabilidad · Apéndices
 
 promedio de cada actor sobre todas las coaliciones posibles. Propiedad de eficiencia: Σφᵢ = v(N).
 
-### ▌ Hijos
+#### ▌ Hijos
 
 Término Símbolo Definición operativa
 
@@ -92,13 +86,12 @@ Fobos — El hijo de Afrodita que describe la acción desde el miedo a las conse
 
 Harmonía — El hijo de Afrodita que describe la deliberación plena. El sujeto que ha integrado la información disponible y actúa desde esa integración. En los análisis: el estándar de la decisión bien tomada.
 
-El Cálculo de la Responsabilidad · Apéndices
 
 Anteros + Harmonía = afirmación deliberada.
 
 Potós — El hijo de Afrodita que describe el anhelo hacia lo ausente o perdido. El vector de voluntad apuntando hacia lo que ya no está disponible. En el duelo: fase normal del proceso. En los directivos: persistencia en el sistema heredado sin revisión crítica.
 
-### ▌ Ingeniería
+#### ▌ Ingeniería
 
 Término Símbolo Definición operativa
 
@@ -108,7 +101,7 @@ El R* aplicado al análisis de fallos de ingeniería. Mide la fracción del fall
 
 INCF (Índice de Necesidad Causal del Fallo)
 
-### ▌ Finanzas
+#### ▌ Finanzas
 
 Término Símbolo Definición operativa
 
@@ -118,7 +111,7 @@ El R* aplicado al análisis de riesgo sistémico y quiebra. Mide cuánto del col
 
 ICRS (Índice de Concentración de Riesgo Sistémico)
 
-### ▌ Ingeniería/Histórico
+#### ▌ Ingeniería/Histórico
 
 Término Símbolo Definición operativa
 
@@ -130,7 +123,7 @@ Mide en qué medida el sistema incorporó las lecciones de un evento previo en s
 
 0: aprendizaje real. IAS ≈ 0: sin aprendizaje. IAS < 0: el sistema se volvió más injusto después del evento.
 
-### ▌ Corporativo
+#### ▌ Corporativo
 
 Término Símbolo Definición operativa
 
@@ -140,13 +133,13 @@ Mide la congruencia entre los valores declarados de una institución y su compor
 
 IIC (Índice de Integridad Corporativa)
 
-### ▌ Histórico/Corporativo
+#### ▌ Histórico/Corporativo
 
 Término Símbolo Definición operativa
 
 α_diferido — La asunción de responsabilidad causal por parte de sucesores institucionales del actor histórico que ya no puede asumir. Aplica en el dominio histórico (el Estado belga respecto al Congo, los EE.UU. respecto al redlining) y en el corporativo (cuando la institución reconoce el diseño defectuoso décadas después).
 
-### ▌ Ontológico
+#### ▌ Ontológico
 
 Término Símbolo Definición operativa
 
@@ -154,7 +147,6 @@ Término Símbolo Definición operativa
 
 Aego-Damasén
 
-El Cálculo de la Responsabilidad · Apéndices
 
 La cultura corporativa como Aego-Damasén produce el Dieselgate: no por dolo individual sino por el campo que hace que la solución prohibida sea la más obvia.
 
@@ -170,7 +162,7 @@ Disforia de identidad
 
 Dilema de Aquiles
 
-### ▌ Ontológico/Jurídico
+#### ▌ Ontológico/Jurídico
 
 Término Símbolo Definición operativa
 
@@ -178,9 +170,8 @@ Término Símbolo Definición operativa
 
 Fraude annona
 
-El Cálculo de la Responsabilidad · Apéndices
 
-### ▌ Deportes/Beneficio
+#### ▌ Deportes/Beneficio
 
 Término Símbolo Definición operativa
 
@@ -188,7 +179,7 @@ R*_B R*_B = eigenvector dom.(W_beneficio)
 
 El R* aplicado al análisis de contribución al beneficio (triunfo deportivo, resultado positivo). Mide la fracción del resultado positivo causalmente atribuible a cada jugador o factor. Es el instrumento de la negociación salarial basada en contribución causal, no en comparación de mercado.
 
-### ▌ Deportes
+#### ▌ Deportes
 
 Término Símbolo Definición operativa
 
@@ -198,7 +189,7 @@ La fracción del resultado deportivo causalmente atribuible al jugador específi
 
 CI (Contribución Idiosincrática)
 
-### ▌ Literatura
+#### ▌ Literatura
 
 Término Símbolo Definición operativa
 
@@ -212,11 +203,10 @@ Arco narrativo
 
 La secuencia de distribuciones de hijos de un personaje a lo largo del tiempo del relato. El arco de Raskolnikov: Anteros → Fobos → Harmonía. La secuencia que el
 
-El Cálculo de la Responsabilidad · Apéndices
 
 sistema ontológico predice para la transformación auténtica del sujeto que actuó sin deliberación y encontró la realidad.
 
-### ▌ Histórico
+#### ▌ Histórico
 
 Término Símbolo Definición operativa
 
@@ -226,7 +216,7 @@ La sustituibilidad histórica del detonador de un evento histórico. S_Princip �
 
 S histórica
 
-### ▌ IA/Crédito
+#### ▌ IA/Crédito
 
 Término Símbolo Definición operativa
 
@@ -236,9 +226,8 @@ El ratio de denegación entre grupos protegidos y no protegidos. DI > 1.25: umbr
 
 DI (Disparate Impact)
 
-### ▌ Seguros
+#### ▌ Seguros
 
-El Cálculo de la Responsabilidad · Apéndices
 
 Término Símbolo Definición operativa
 
