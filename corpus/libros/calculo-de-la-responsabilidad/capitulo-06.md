@@ -1,10 +1,9 @@
-PARTE II · CIENCIAS DE LA SALUD
+# Capítulo 6
+## Epidemiología
 
-### Capítulo 6 Epidemiología
+*Más allá del R₀: el peso causal de transmisión y el nodo que hace posible el brote*
 
-Más allá del R₀: el peso causal de transmisión y el nodo que hace
-
-posible el brote
+---
 
 ### §1.  El problema
 
@@ -12,7 +11,6 @@ En el otoño de 1854, el barrio de Soho en Londres vivió uno de los brotes de c
 
 John Snow, un anestesiólogo que había estudiado brotes anteriores de cólera en Londres, tenía una hipótesis diferente: la enfermedad se transmitía por el agua. Para demostrarla, hizo algo que en términos de este sistema describimos como construir el primer grafo causal empírico de la historia de la epidemiología. Mapeó cada caso de muerte en el barrio sobre un plano, identificó las fuentes de agua de la zona, y observó un patrón inequívoco: la mayoría de las muertes se concentraban alrededor de una bomba de
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 agua específica en Broad Street. Persuadió a las autoridades de retirar la manivela de esa bomba. El brote cesó.
 
@@ -20,11 +18,10 @@ Lo que Snow hizo, sin llamarlo así, fue identificar el nodo con mayor peso caus
 
 Ciento setenta años después, en diciembre de 2019, un brote de neumonía atípica en Wuhan, China, comenzó a escalar. En los meses siguientes se convertiría en la pandemia de COVID-19, que al finalizar 2023 había causado más de veinte millones de muertes en exceso según las estimaciones más conservadoras. El debate sobre la responsabilidad causal del brote —los mercados de animales vivos, los sistemas de alerta temprana que tardaron en activarse, las decisiones de los primeros días que permitieron la diseminación internacional— es uno de los más políticamente cargados de la historia reciente de la salud pública. Y es exactamente el tipo de debate que el cálculo de la responsabilidad causal puede despolitizar: no asignando culpas morales, sino distribuyendo pesos causales sobre la base de evidencia documentada.
 
-### 1.1 La diferencia entre R₀ y R*: correlación versus causalidad
+#### 1.1 La diferencia entre R₀ y R*: correlación versus causalidad
 
 La epidemiología tiene ya una herramienta para medir la capacidad de transmisión de un patógeno: el número básico de reproducción R₀. Es uno de los indicadores más importantes de la salud pública y ha sido central en la respuesta a todas las pandemias modernas. R₀ mide, en promedio, cuántas personas secundarias infecta una
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 persona primaria en una población completamente susceptible.
 
@@ -40,7 +37,6 @@ Qué mide Promedio de infecciones secundarias por caso primario en
 
 Fracción del brote causalmente atribuible a cada nodo específico del
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 población susceptible.
 
@@ -72,11 +68,10 @@ Identificar los nodos de intervención con mayor impacto, distribuir responsabil
 
 Las dos herramientas no compiten: son complementarias. R₀ dice qué tan rápido crece el brote. R* dice dónde intervenir para frenarlo con mayor eficacia. La epidemiología moderna usa R₀; el cálculo de la
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 responsabilidad añade R* como instrumento adicional que responde preguntas que R₀ no puede responder.
 
-### 1.2 Los superpropagadores como nodos con S bajo
+#### 1.2 Los superpropagadores como nodos con S bajo
 
 El fenómeno del superpropagador es uno de los más documentados y menos formalizados de la epidemiología moderna. En muchos brotes, la distribución del número de infecciones secundarias no sigue una curva normal: es altamente asimétrica. El 80% de las infecciones es causado por el 20% de los casos —o incluso por el 10% o el 5%, dependiendo del patógeno y el contexto. Esto es lo que la literatura llama el principio 80/20 o la regla de Lloyd-Smith.
 
@@ -86,11 +81,10 @@ Esta distinción entre R* alto y S bajo es operativamente importante para la sal
 
 Superpropagador (definición ontológica):  Nodo del grafo epidemiológico con R* significativamente mayor al promedio y S bajo. R* alto indica que el brote dependía
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 causalmente de ese nodo en mayor medida que del promedio de casos. S bajo indica que esa dependencia no era genérica (cualquier infectado en esa posición) sino específica de las características de ese nodo en ese momento: su carga viral, su red de contactos, sus condiciones ambientales.
 
-### 1.3 El fraude annona del Estado en salud pública
+#### 1.3 El fraude annona del Estado en salud pública
 
 En el sistema ontológico de la colección, el contrato fiscal establece que el Estado recibe las libertades del soberano (impuestos, obediencia, legitimidad) y debe generar las condiciones materiales de posibilidad para que el ciudadano pueda desplegar su eutaxia utópica. Las condiciones de salud pública —agua potable, sistemas de vigilancia epidemiológica, infraestructura hospitalaria, acceso a medicamentos— son condiciones materiales de posibilidad de primer orden.
 
@@ -98,9 +92,7 @@ Cuando el Estado tiene R* alto en el grafo de un brote epidemiológico —cuando
 
 Este concepto es analíticamente poderoso porque permite distinguir entre brotes que eran inevitables dado el estado del conocimiento y de las tecnologías disponibles (R* del Estado bajo porque no había intervención posible) y brotes que habrían podido ser mucho menores si el Estado hubiera generado las condiciones que estaban a su alcance (R* del Estado alto y Δ positivo porque las condiciones existían, pero no se generaron o se generaron tardíamente).
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 ### §2.  Página puente — Traducción al lenguaje epidemiológico
 
@@ -124,7 +116,6 @@ R* (vector) Peso causal de transmisión
 
 La fracción del brote causalmente atribuible a cada nodo. Distinto de R₀: R₀ mide el promedio de infecciones
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 secundarias; R* distribuye el peso causal total entre los nodos del grafo. R* del superpropagador > R* promedio de casos ordinarios.
 
@@ -142,7 +133,6 @@ Grado de contención: aislamiento, notificación, tratamiento
 
 Lo que el nodo hizo para interrumpir las cadenas que dependían de él: se aisló, notificó sus contactos, buscó atención, cooperó con el rastreo. α = 1: contención completa. α = 0: no hizo nada para interrumpir las cadenas.
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 Δ = R* − α Déficit de contención: transmisión no interrumpida
 
@@ -162,7 +152,6 @@ Incumplimiento del Estado en condiciones de salud pública
 
 El Estado tiene R* alto en el brote (las condiciones que no generó eran causalmente necesarias para la escala del daño) y α bajo (no las generó estando a su alcance hacerlo). Δ del
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 Estado > 0: fraude annona epidemiológico.
 
@@ -174,11 +163,10 @@ Solo aplican a superpropagadores con voluntad
 
 Para el lector que viene del núcleo universal:  Este dominio tiene tres características singulares. Primera: los nodos incluyen tanto personas como estructuras físicas y políticas —la bomba de agua, el sistema de vigilancia epidemiológica, la política de cuarentena son todos nodos con R* real. Segunda: los hijos solo aplican a superpropagadores con voluntad propia, no a nodos estructurales. Tercera: la temporalidad puede ser tanto retrospectiva (para distribuir responsabilidad) como prospectiva (para diseñar intervenciones).
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 ### §3.  Las herramientas en el contexto epidemiológico
 
-### 3.1 Cómo construir el grafo epidemiológico causal
+#### 3.1 Cómo construir el grafo epidemiológico causal
 
 El grafo epidemiológico causal se construye en cuatro niveles que van desde lo más micro (los contactos individuales) hasta lo más macro (las condiciones estructurales del sistema de salud pública). A diferencia de las redes de contacto tradicionales en epidemiología —que solo incluyen personas— el grafo causal incluye también los nodos estructurales que determinan las condiciones bajo las cuales los contactos producen transmisión.
 
@@ -200,7 +188,6 @@ Amplifica o reduce la transmisión individual. Un espacio mal
 
 Estudios de ventilación, análisis de clúster de casos por
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 vivienda. Sistema de agua o aire.
 
@@ -224,11 +211,10 @@ Cronología de decisiones vs. cronología del brote, estudios de impacto de inte
 
 ⚠ El error más frecuente al construir el grafo epidemiológico es reducirlo al nivel individual (solo personas) y omitir los nodos estructurales y normativos. Un grafo incompleto produce un R* que sobreestima la responsabilidad causal de los casos individuales y subestima o no detecta la responsabilidad
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 del sistema de salud pública. Los brotes de mayor escala en la historia moderna tuvieron siempre nodos estructurales con R* alto que no fueron los casos individuales.
 
-### 3.2 R* causal versus R₀: el análisis de nodos críticos
+#### 3.2 R* causal versus R₀: el análisis de nodos críticos
 
 El procedimiento para calcular R* en el dominio epidemiológico sigue la misma iteración de potencia de los dominios anteriores, pero con una particularidad: la matriz W incluye aristas de tipos muy distintos (persona-a-persona, espacio-a-persona, política-a-espacio) que deben ser ponderadas con evidencia epidemiológica.
 
@@ -244,13 +230,16 @@ nodos)
 
 En un brote donde el 80% de la transmisión fue producida por el 20% de los casos (patrón 80/20 documentado en SARS-CoV-1, COVID-19, sarampión y otros), R₀ puede ser moderado (digamos 2.5) mientras que el R* de los superpropagadores es muy alto y el R* del 80% de los casos ordinarios es mínimo. Eso tiene consecuencias para la intervención: una estrategia de control enfocada en los nodos de mayor R* es más eficiente que una estrategia uniforme.
 
-### 3.3 El índice de sustituibilidad S en epidemiología
+#### 3.3 El índice de sustituibilidad S en epidemiología
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 En el dominio epidemiológico, S tiene una interpretación directamente operativa para la política de salud pública:
 
-•  S alto de una persona infectada: cualquier otra persona con la misma carga viral en el mismo entorno habría transmitido igual. El nodo es genérico. La intervención no debe focalizarse en esa persona sino en el entorno que la hace transmisora (la ventilación del espacio, la densidad de contactos, el acceso a equipo de protección). •  S bajo de un superpropagador: las características idiosincráticas de esa persona en ese momento (carga viral excepcional, posición en la red de contactos, trabajo que implica contacto intensivo) fueron causalmente determinantes. La intervención puede focalizarse en esa persona específica. •  S alto de un nodo estructural (sistema de agua contaminado): cualquier sistema de agua equivalente habría producido la misma transmisión. La intervención no es sobre ese sistema específico sino sobre la clase de sistemas similares. •  S bajo de un nodo normativo (política de cuarentena tardía): la decisión específica de no activar la cuarentena en ese momento específico fue causalmente determinante. Otro gobierno con acceso a la misma información y la misma capacidad podría haber actuado diferente.
+- S alto de una persona infectada: cualquier otra persona con la misma carga viral en el mismo entorno habría transmitido igual. El nodo es genérico. La intervención no debe focalizarse en esa persona sino en el entorno que la hace transmisora (la ventilación del espacio, la densidad de contactos, el acceso a equipo de protección).
+- S bajo de un superpropagador: las características idiosincráticas de esa persona en ese momento (carga viral excepcional, posición en la red de contactos, trabajo que implica contacto intensivo) fueron causalmente determinantes. La intervención puede focalizarse en esa persona específica.
+- S alto de un nodo estructural (sistema de agua contaminado): cualquier sistema de agua equivalente habría producido la misma transmisión. La intervención no es sobre ese sistema específico sino sobre la clase de sistemas similares.
+- S bajo de un nodo normativo (política de cuarentena tardía): la decisión específica de no activar la cuarentena en ese momento específico fue causalmente determinante. Otro gobierno con acceso a la misma información y la misma capacidad podría haber actuado diferente.
+
 
 La combinación de R* y S produce la guía de intervención más eficiente:
 
@@ -258,13 +247,12 @@ Impacto_intervención_i  ∝  R*ᵢ × (1 − Sᵢ)
 
 Intervenir en el nodo de mayor R* × (1 − S) produce el mayor impacto en la reducción del brote por unidad de recursos invertida.
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
-### 3.4 α y Δ en epidemiología: la brecha de contención
+#### 3.4 α y Δ en epidemiología: la brecha de contención
 
-### En el dominio epidemiológico, α tiene dos niveles de aplicación:
+#### En el dominio epidemiológico, α tiene dos niveles de aplicación:
 
-### α individual (nodos-persona con voluntad):
+#### α individual (nodos-persona con voluntad):
 
 Rango Conducta observable
 
@@ -286,7 +274,7 @@ Contención sustancial
 
 Contención completa
 
-### α institucional/estatal (nodos de diseño de la respuesta):
+#### α institucional/estatal (nodos de diseño de la respuesta):
 
 Rango Conducta observable del sistema de salud pública
 
@@ -294,7 +282,6 @@ Nivel de α institucional
 
 Sin respuesta 0.00– 0.05 El sistema no detectó el brote en tiempo útil, no activó protocolos de contención, no informó a la población.
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 Respuesta tardía
 
@@ -314,9 +301,9 @@ Respuesta ejemplar
 
 El déficit de contención Δ = R* − α mide la brecha entre el peso causal del nodo y su respuesta. Para los nodos individuales, Δ positivo indica transmisión que podría haberse interrumpido. Para los nodos institucionales, Δ positivo es el indicador del fraude annona epidemiológico.
 
-### 3.5 El daño epidémico y su expresión en tiempo de vida
+#### 3.5 El daño epidémico y su expresión en tiempo de vida
 
-### D_epi = T_invertido + T_impedido + ΔT_trayectoria
+#### D_epi = T_invertido + T_impedido + ΔT_trayectoria
 
 Componente En epidemiología equivale a
 
@@ -326,7 +313,6 @@ T_invertido Muertes directas y morbilidad aguda
 
 Las muertes atribuibles al brote, las hospitalizaciones, las discapacidades producidas en el período agudo. Es el daño medido
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 directamente durante el brote.
 
@@ -340,13 +326,12 @@ Las secuelas crónicas de los sobrevivientes (COVID largo, síndrome post-viral)
 
 Dimensión vital:  La expresión en tiempo de vida del daño epidemiológico usa el estándar de los Años de Vida Ajustados por Discapacidad (AVAD) de la OMS: AVAD = AVPP (Años de Vida Perdidos por Muerte Prematura) + AVD (Años Vividos con Discapacidad). Convertido al sistema: D_vital_epi = AVAD × w_ref. Esta conversión usa el w_ref universal (no el salario del país afectado) para mantener el principio ontológico de igualdad del tiempo de vida.
 
-### 3.6 Los hijos de Afrodita en epidemiología: solo en superpropagadores
+#### 3.6 Los hijos de Afrodita en epidemiología: solo en superpropagadores
 
 En el dominio epidemiológico, los hijos de Afrodita tienen un alcance más restringido que en los dominios jurídicos o clínicos: solo aplican a los nodos superpropagadores identificados con voluntad propia. No se calculan para los nodos estructurales (el sistema de agua, la ventilación del
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
-### espacio, la política de cuarentena), porque esos nodos no tienen disposición de voluntad.
+#### espacio, la política de cuarentena), porque esos nodos no tienen disposición de voluntad.
 
 La distinción más importante que los hijos aportan al análisis epidemiológico es entre el superpropagador que actuó desde Fobos (miedo a reportar, miedo a perder el empleo si se aísla, miedo al estigma) y el que actuó desde Anteros (negación deliberada de las medidas de protección) o Deimos (parálisis ante la incertidumbre sobre si estaba realmente infectado). Esta distinción cambia radicalmente la política de intervención:
 
@@ -370,7 +355,6 @@ Comunicación que no confronte directamente el Anteros (lo refuerza). En su luga
 
 Bajo sin cambio de contexto. Requiere transformació n del sesgo identitario, no
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 equipo de protección.
 
@@ -394,9 +378,7 @@ Alto (0.70– 1.00). Este superpropagad or maximizó su α dado el conocimiento 
 
 El principio de equidad epidemiológica basado en los hijos:  Una política de salud pública justa distingue entre el superpropagador que transmitió desde Fobos (las condiciones le impidieron actuar de otro modo) y el que lo hizo desde Anteros (eligió actuar en contra de las medidas). Ambos tienen el mismo R*, pero sus Δ son diferentes: el primero tiene Δ positivo porque el sistema de salud pública no generó las condiciones para que pudiera aislarse (fraude annona del Estado hacia el trabajador que perdería el empleo si se aislaba). El segundo tiene Δ positivo por elección propia. La política de intervención debe ser diferente en cada caso.
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 ### §4.  Casos resueltos
 
@@ -412,11 +394,10 @@ Snow llegó al barrio de Soho dos días después del inicio del brote, el 3 de s
 
 La historia tiene un detalle que el análisis de R* captura perfectamente: Snow observó que un grupo de trabajadores de una cervecería cercana había tenido muy pocos casos de cólera a pesar de trabajar a metros de la bomba. La investigación reveló que los trabajadores bebían cerveza, no agua. Y una monja del convento adyacente que murió de cólera a pesar de vivir lejos del barrio había pedido que le llevaran agua de la bomba de Broad Street porque la encontraba especialmente fresca. Dos anomalías que
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
-### confirmaban la hipótesis causal con una precisión que ningún modelo correlacional habría podido producir.
+#### confirmaban la hipótesis causal con una precisión que ningún modelo correlacional habría podido producir.
 
-### A.2 Reconstrucción del grafo causal
+#### A.2 Reconstrucción del grafo causal
 
 Actor/Factor Tipo Función causal
 
@@ -432,7 +413,6 @@ N2 Pozo negro de Broad Street 40
 
 Ambiental (sanitario) El foco de contaminació n original. Documentado posteriorment e: el bebé de la familia Eley desarrolló cólera el 28 de agosto, los pañales se lavaban y vaciaban en el pozo, y el pozo estaba a menos de un metro de la bomba con
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 grietas en la mampostería.
 
@@ -450,7 +430,6 @@ N5 Casos individuales de mayor transmisión secundaria
 
 Individual Los casos que generaron más transmisiones secundarias en sus hogares. R* moderado, S alto
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 (cualquier caso con la misma carga viral habría transmitido similarmente).
 
@@ -458,9 +437,9 @@ Nodo final 616 muertes en diez días en el área inmediata. No entra en el cálc
 
 Nf Población del barrio de Soho
 
-### A.3 R*, S y Δ: lo que Snow vio sin los instrumentos formales
+#### A.3 R*, S y Δ: lo que Snow vio sin los instrumentos formales
 
-### El mapa de Snow era, sin saberlo, la primera visualización de un grafo causal epidemiológico. Pero el vector R* hace explícito lo que el mapa solo mostraba visualmente:
+#### El mapa de Snow era, sin saberlo, la primera visualización de un grafo causal epidemiológico. Pero el vector R* hace explícito lo que el mapa solo mostraba visualmente:
 
 Nodo R* S α pre-brote
 
@@ -474,7 +453,6 @@ N1 — Bomba de Broad St.
 
 N2 — Pozo negro Broad 40
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 habría producido la misma contaminación.
 
@@ -492,13 +470,12 @@ N5 — Casos individuales
 
 La implicación central del análisis: el 86% del peso causal del brote estaba en los nodos ambientales e infraestructurales (N1, N2, N3) con nulo o mínimo α antes del brote. El control individual (N5) tenía solo el 4% del peso causal. Una política de salud pública enfocada en el comportamiento individual habría sido casi ineficaz. Snow lo entendió intuitivamente: la intervención correcta era retirar la manivela, no aislar personas.
 
-### El índice de Justicia Estructural del sistema de salud pública de Londres en 1854:
+#### El índice de Justicia Estructural del sistema de salud pública de Londres en 1854:
 
-### J = 1 − Σ|Δᵢ| = 1 − (0.48 + 0.22 + 0.18 + 0.03 + ...) ≈
+#### J = 1 − Σ|Δᵢ| = 1 − (0.48 + 0.22 + 0.18 + 0.03 + ...) ≈
 
-### 0.06
+#### 0.06
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 J = 0.06 indica injusticia estructural casi máxima: los nodos de mayor R* tenían α prácticamente nulo antes del brote. El sistema de salud pública no había generado las condiciones materiales de posibilidad para prevenir el daño. Eso es el fraude annona epidemiológico cuantificado.
 
@@ -512,11 +489,9 @@ Cuando el brote es más complejo —múltiples nodos de transmisión, interaccio
 
 Snow y la paradoja de la evidencia:  Snow presentó su análisis al Comité de Salud Pública de Londres. El comité lo rechazó porque la teoría del miasma seguía siendo dominante y la evidencia de Snow era "solo un mapa". Sin embargo, aceptaron retirar la manivela de la bomba como medida preventiva menor. El brote cedió. La interpretación causal correcta no prevaleció por su lógica sino por su resultado. Esto ilustra un
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 límite importante del cálculo causal: el análisis puede ser correcto y no ser adoptado si el sistema de toma de decisiones opera con criterios distintos a la causalidad.
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 Caso B — COVID-19 (2019–2023)
 
@@ -534,9 +509,8 @@ B.2 El grafo causal de la escala de la pandemia
 
 El grafo distingue entre los nodos relacionados con el origen y los primeros días del brote (donde la incertidumbre
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
-### es mayor) y los nodos relacionados con la escala global que el brote alcanzó (donde la evidencia es más robusta):
+#### es mayor) y los nodos relacionados con la escala global que el brote alcanzó (donde la evidencia es más robusta):
 
 Tipo Función causal en la escala del daño
 
@@ -562,7 +536,6 @@ Estructural/sis témico
 
 La dispersión global en las primeras semanas fue posible por los vuelos internacionale s antes de que se declarara la emergencia. Nodo estructural con
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 R* alto y S moderado: la conectividad era el sistema, pero los controles habrían podido modificar su impacto.
 
@@ -578,7 +551,6 @@ Individual Los eventos de superspreadin g documentados (conferencias, bodas, ser
 
 Alta
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 desproporcion adamente a la transmisión en las primeras semanas.
 
@@ -594,7 +566,6 @@ Estructural Para una fracción significativa de la fuerza laboral (trabajadores 
 
 Alta
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 N7 Origen del virus (zoonótico o laboratorio)
 
@@ -608,9 +579,9 @@ Nodo final Más de 20 millones de muertes en exceso (OMS, 2023). No entra en el 
 
 —
 
-### B.3 R* y la narrativa política: dónde divergen
+#### B.3 R* y la narrativa política: dónde divergen
 
-### El análisis de R* produce una distribución que diverge significativamente de las narrativas políticas dominantes sobre la pandemia. Esa divergencia es informativamente valiosa:
+#### El análisis de R* produce una distribución que diverge significativamente de las narrativas políticas dominantes sobre la pandemia. Esa divergencia es informativamente valiosa:
 
 Nodo R* estimad o
 
@@ -622,7 +593,6 @@ Divergencia con narrativa política
 
 N1 — Sistemas alerta OMS/China
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 El análisis muestra que N1 es el nodo de mayor R* pero el sistema de alerta de la OMS (que tardó en declarar la emergencia) también comparte este nodo. La responsabilidad es institucional compartida, no de un solo Estado.
 
@@ -634,7 +604,6 @@ N2 — Conectividad aérea
 
 N3 — Desigualdad sanitaria
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 pública tuvieron menor R* efectivo.
 
@@ -654,7 +623,6 @@ N6 — Cond. trabajo (Fobos)
 
 N7 — Origen del virus
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 políticamente dominante. El análisis muestra que su R* en la escala de la pandemia es mínimo: con N1-N6 intactos, el brote habría alcanzado escala catastrófica con cualquier origen.
 
@@ -690,7 +658,6 @@ Negacionista activo que rechazó todas las medidas
 
 El perfil dominante entre los superpropagadores no fue Anteros (negación deliberada): fue Fobos, Deimos y Potós. Es decir: la mayoría de los superpropagadores no eligieron transmitir —fueron colocados por el sistema en una posición donde transmitir era la consecuencia inevitable de las condiciones. Eso es el fraude annona del sistema hacia los trabajadores esenciales: el Estado necesitaba que
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 siguieran trabajando (N6 tiene α bajo porque el Estado no generó las condiciones para que pudieran aislarse) y eso amplificó la transmisión.
 
@@ -698,7 +665,11 @@ B.5 El daño del COVID-19 en tiempo de vida
 
 Estimaciones de referencia (OMS, 2023):
 
-•  Muertes en exceso globales: 14.9–19.8 millones (estimación OMS). Se usa 17 millones como valor central. •  Esperanza de vida promedio perdida por muerte prematura: ~15 años (dada la distribución por edad de las muertes). •  Años de vida ajustados por discapacidad (AVAD) incluyendo COVID largo y morbilidad grave: estimados en ~280-320 millones de AVAD totales (2020-2022). •  Salario de referencia global 2024: w_ref = $8 USD/hora PPP.
+- Muertes en exceso globales: 14.9–19.8 millones (estimación OMS). Se usa 17 millones como valor central.
+- Esperanza de vida promedio perdida por muerte prematura: ~15 años (dada la distribución por edad de las muertes).
+- Años de vida ajustados por discapacidad (AVAD) incluyendo COVID largo y morbilidad grave: estimados en ~280-320 millones de AVAD totales (2020-2022).
+- Salario de referencia global 2024: w_ref = $8 USD/hora PPP.
+
 
 D_vital_directo (muertes):
 
@@ -712,17 +683,17 @@ D_vital_total incluyendo AVAD (T_impedido + ΔT_trayectoria):
 
 D_vital_AVAD = 300,000,000 AVAD × 8,760 h/año =
 
-### 2.628 × 10¹² horas adicionales
+#### 2.628 × 10¹² horas adicionales
 
 D_monetary_AVAD ≈ $21.0 billones USD (2024)
 
 D_vital_total: El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
-### D_vital_total ≈ 4.862 × 10¹² horas de vida
+#### D_vital_total ≈ 4.862 × 10¹² horas de vida
 
-### D_monetary_total ≈ $38.9 billones USD (2024)
+#### D_monetary_total ≈ $38.9 billones USD (2024)
 
-### Distribución del daño entre nodos responsables (AD_i = R*ᵢ × D_total):
+#### Distribución del daño entre nodos responsables (AD_i = R*ᵢ × D_total):
 
 Nodo R* AD (billones USD)
 
@@ -744,49 +715,44 @@ N3 — Desigualdad sanitaria
 
 N5 — Comunicación
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 comunicación documentado.
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 ### §5.  Límites del método en epidemiología
 
-### 5.1 La incertidumbre sobre los pesos en tiempo real
+#### 5.1 La incertidumbre sobre los pesos en tiempo real
 
 En un brote activo, los pesos del grafo son inciertos porque la evidencia está siendo generada simultáneamente con la toma de decisiones. Los modelos de R₀ tienen la misma limitación: el R₀ estimado en las primeras semanas de un brote tiene intervalos de confianza muy amplios. El cálculo de R* en tiempo real debe incluir explícitamente esa incertidumbre mediante rangos de pesos y análisis de sensibilidad, no valores puntuales.
 
-### 5.2 La causalidad en múltiples escalas simultáneas
+#### 5.2 La causalidad en múltiples escalas simultáneas
 
 Una pandemia opera en múltiples escalas causales simultáneamente: la escala molecular (la carga viral del patógeno), la escala individual (el comportamiento de las personas infectadas), la escala comunitaria (las condiciones de vida y trabajo), la escala nacional (las políticas de salud pública) y la escala global (los sistemas internacionales de alerta y respuesta). El grafo completo tendría miles de nodos. En la práctica, el análisis debe seleccionar los nodos más relevantes para la pregunta específica que se intenta responder.
 
-### 5.3 El problema de la causalidad contrafáctica en pandemia
+#### 5.3 El problema de la causalidad contrafáctica en pandemia
 
 El cálculo de R* requiere estimar qué habría ocurrido sin cada nodo. En una pandemia, el contrafáctico es
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 especialmente difícil porque las intervenciones cambian el comportamiento de los otros nodos: si N1 hubiera activado la alerta dos semanas antes, N2 y N5 también habrían actuado diferente. El grafo completo con dinámicas de respuesta requiere modelos epidemiológicos más sofisticados que el cálculo estático de R*.
 
-### 5.4 Los hijos y la privacidad de los superpropagadores
+#### 5.4 Los hijos y la privacidad de los superpropagadores
 
 El análisis de hijos de superpropagadores identificados plantea problemas de privacidad y estigmatización que el análisis forense post-brote debe gestionar con cuidado. El objetivo del análisis de hijos no es culpabilizar a los superpropagadores sino orientar la política de intervención hacia las causas estructurales (Fobos: condiciones de trabajo) en lugar de hacia el comportamiento individual (Anteros: negación deliberada). Si el análisis se usa para identificar y sancionar a individuos, pierde su valor y produce efectos contraproducentes.
 
-### 5.5 R* no predice quién será el próximo superpropagador
+#### 5.5 R* no predice quién será el próximo superpropagador
 
 R* identifica retrospectivamente qué nodos tuvieron mayor peso causal en el brote analizado. No predice qué nodo será el superpropagador en el próximo brote, porque esa posición depende de condiciones (carga viral, posición en la red de contactos, entorno) que varían en cada caso. Lo que el análisis de R* permite en sentido prospectivo es identificar los tipos de nodos (trabajadores esenciales en espacios cerrados, personas sin cobertura de aislamiento) que tienden a tener mayor R* bajo condiciones similares, y diseñar intervenciones estructurales para reducir ese peso antes del próximo brote.
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 §6.  Profundización formal — Esta sección puede saltarse sin perder el argumento del capítulo
 
 ### §6.  Profundización formal
 
-### 6.1 La relación entre R₀, Re y R*
+#### 6.1 La relación entre R₀, Re y R*
 
-### Los tres indicadores son relacionados, pero matemáticamente distintos:
+#### Los tres indicadores son relacionados, pero matemáticamente distintos:
 
 Indicador Definición formal Relación con R*
 
@@ -802,11 +768,10 @@ R* causal Eigenvector dominante de la matriz de pesos W del grafo epidemiológic
 
 R* se calcula sobre el grafo de influencias causales, no sobre el modelo de dinámica poblacional. Puede incluir nodos estructurales y normativos que ninguno de los dos anteriores incluye.
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 La relación entre R₀ y R* puede expresarse aproximadamente así: si R₀ = Σᵢ R*ᵢ × transmisibilidad_ᵢ, entonces R₀ es una media ponderada de las contribuciones de transmisión de todos los nodos, mientras R* es la distribución de esas contribuciones. R₀ alto con R* concentrado en pocos nodos sugiere que intervenir en esos nodos reducirá R₀ eficientemente. R₀ alto con R* distribuido sugiere que se necesita intervención en múltiples frentes simultáneamente.
 
-### 6.2 El modelo SIR con nodos heterogéneos
+#### 6.2 El modelo SIR con nodos heterogéneos
 
 El modelo SIR clásico (Susceptible-Infectado-Recuperado) es homogéneo: todos los individuos son igualmente transmisores. Una extensión que incorpora la heterogeneidad de R* es el modelo con distribución k del número de infecciones secundarias:
 
@@ -822,9 +787,8 @@ pocos nodos
 
 Esto formaliza la relación entre superpropagación (p pequeño en el modelo epidemiológico) y R* concentrado (pocos nodos con alto peso causal) en el grafo causal.
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
-### 6.3 El cálculo del fraude annona epidemiológico
+#### 6.3 El cálculo del fraude annona epidemiológico
 
 El fraude annona epidemiológico del Estado se calcula como:
 
@@ -834,21 +798,22 @@ donde R*_Estado es la suma de R* de todos los nodos institucionales/normativos c
 
 Este monto FA_epi es la base para:
 
-•  Calcular la responsabilidad del Estado en demandas colectivas por negligencia en la respuesta pandémica. •  Establecer el presupuesto mínimo de inversión en salud pública que el sistema requiere para que α_Estado sea suficiente para evitar el fraude annona en el próximo brote. •  Comparar la respuesta de distintos países: un país con FA_epi bajo tiene un sistema de salud pública con alta α; uno con FA_epi alto tiene un sistema que no generó las condiciones materiales de posibilidad para contener el brote.
+- Calcular la responsabilidad del Estado en demandas colectivas por negligencia en la respuesta pandémica.
+- Establecer el presupuesto mínimo de inversión en salud pública que el sistema requiere para que α_Estado sea suficiente para evitar el fraude annona en el próximo brote.
+- Comparar la respuesta de distintos países: un país con FA_epi bajo tiene un sistema de salud pública con alta α; uno con FA_epi alto tiene un sistema que no generó las condiciones materiales de posibilidad para contener el brote.
 
-### 6.4 Código Python de referencia para epidemiología
+
+#### 6.4 Código Python de referencia para epidemiología
 
 import numpy as np from scipy.stats import pearsonr  def analisis_epidemiologico(W_epi, alpha_contencion, D_total_AVAD, w_ref=8.0,                              R0_observado=None): """     Análisis de responsabilidad causal en brote epidemiológico. W_epi:           matriz de pesos del grafo epidemiológico alpha_contencion: α por nodo (contención: aislamiento, reporte, etc.) D_total_AVAD:    AVAD totales del brote (estándar OMS)     w_ref: salario de referencia (USD/hora, default global)     R0_observado:    R0 del brote si disponible (para comparación)     """     n = W_epi.shape[0] # ── R* causal ──     R = np.ones(n) / n     for _ in range(500): Rn = W_epi @ R; s = np.sum(Rn)         if s < 1e-12: break         Rn /= s
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 if np.max(np.abs(Rn - R)) < 1e-9: break         R = Rn     R_star = Rn # ── S: fungibilidad del nodo en la cadena ──     S = np.zeros(n)     for i in range(n):         max_c = 0         for j in range(n):             if j == i: continue             Wm = W_epi.copy()             Wm[i,:] = np.mean(W_epi, axis=0)             Rm = np.ones(n)/n             for _ in range(200): Rm2 = Wm @ Rm; sm = np.sum(Rm2)                 if sm < 1e-12: break Rm2 /= sm                 if np.max(np.abs(Rm2-Rm)) < 1e-6: break Rm = Rm2             c, _ = pearsonr(R_star, Rm2)             max_c = max(max_c, abs(c))         S[i] = 1 - max_c      Delta = R_star -alpha_contencion     R_neta = R_star * (1 - S)      # ── Daño en tiempo de vida (AVAD → horas) ──     horas_por_AVAD = 365.25 * 24  # 1 AVAD = 1 año = 8,766 horas     D_vital_horas = D_total_AVAD * horas_por_AVAD     D_monetary = D_vital_horas * w_ref      # ── Distribución del daño ──     AD = R_star * D_monetary  # ajuste debitor por nodo      # ── Fraude annona epidemiológico ──     # nodos_estado: índices de los nodos institucionales/normativos     # Se calcula externamente y se pasa como argumento     R_star_estado = np.sum(R_star[R_star > np.percentile(R_star, 70)])     FA_epi = R_star_estado * D_monetary * np.mean(1 - alpha_contencion)      result = {         'R_star': R_star,         'S': S,         'Delta_contencion': Delta, 'R_neta': R_neta,         'D_vital_horas': D_vital_horas, 'D_monetary': D_monetary,         'AD_por_nodo': AD, 'fraude_annona_epi': FA_epi,         'J_sistema': float(1 -np.sum(np.abs(Delta))),         'nodos_prioritarios': np.argsort(-R_neta)[:3], }      if R0_observado:         # Consistencia aproximada: R* alto correlacionado con R0 alto         result['R0_observado'] = R0_observado result['R_estrella_promedio'] = float(np.mean(R_star[R_star > 0])) return result  # ── Ejemplo: John Snow — Cólera Broad Street 1854 ── W_snow = np.array([     [0,    0,    0,    0,    0,    0],  # N1 (bomba) → Nf     [0.95, 0,    0,    0,    0,    0],  # N2 (pozo) → N1     [0.70, 0.60, 0, 0,    0,    0],  # N3 (infr.) → N1, N2     [0,    0,    0.80, 0,    0,    0],  # N4 (autoridades) → N3     [0,    0,    0,    0,    0,    0],  # N5 (casos indiv.) → Nf     [0,    0,    0,    0,    0,    0],  # Nf (sumidero) ]) # Añadir aristas a Nf W_snow[0,5]=0.90; W_snow[2,5]=0.60; W_snow[4,5]=0.85  alpha_snow = np.array([0.00, 0.00, 0.00, 0.05, 0.10, 0.0]) # AVAD estimados para el brote de Soho: ~800 (616 muertes × factor AVD) resultado_snow = analisis_epidemiologico(     W_snow, alpha_snow, D_total_AVAD=800, w_ref=8.0, R0_observado=2.8 ) nodos_snow = ['N1-Bomba','N2-Pozo','N3-Infraest.','N4-Autoridades','N5-Casos','Nf'] print("=== John Snow — Broad Street 1854 ===") for i, (nm, rs, si, di) in enumerate(zip( nodos_snow[:5], resultado_snow['R_star'][:5],     resultado_snow['S'][:5], resultado_snow['Delta_contencion'][:5])):     flag = ' ← Snow lo identificó' if i == 0 else ''     print(f"  {nm:18s} R*={rs:.3f} S={si:.2f} Δ={di:+.3f}{flag}") D_mon = resultado_snow['D_monetary'] FA = resultado_snow['fraude_annona_epi'] J = resultado_snow['J_sistema'] print(f"\nJ (justicia estructural):   {J:.3f}") d_m = D_mon/1e6 print(f"D_monetary_equiv:           {d_m:.1f} M USD (2024)") fa_m = FA/1e6 print(f"Fraude annona epidem.:       {fa_m:.1f} M USD")
 
-El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
 Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026
 
 Continúa en el Capítulo 7 — Tanatología y duelo
 
-El Cálculo de la Responsabilidad · Cap. 7 — Tanatología y duelo
 
+PARTE II  ·  CIENCIAS DE LA SALUD
