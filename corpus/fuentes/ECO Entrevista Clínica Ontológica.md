@@ -75,8 +75,9 @@ Apéndice A·4 Tabla de adaptaciones por perfil de mediador
 Apéndice A·5 Árbol de navegación general del instrumento
 
 # Capítulo P·1
+## Qué es ECO y qué no es
 
-## Qué es ECO y qué no es La función del instrumento en el sistema
+*La función del instrumento en el sistema*
 
 ### I.  El punto de partida que este capítulo establece
 
@@ -194,8 +195,9 @@ impedir que el mediador asigne certezas fuera del rango que el tipo de señal ob
 
 
 # Capítulo P·2
+## Los perfiles de mediador
 
-## Los perfiles de mediador Quién usa ECO, cómo lo usa y qué debe poder responder con él
+*Quién usa ECO, cómo lo usa y qué debe poder responder con él*
 
 ### I.  Por qué los perfiles importan antes que los módulos
 
@@ -898,7 +900,6 @@ requiere. La validez del cierre de perfil parcial depende de que los módulos no
 
 
 # B·I·F · MÓDULO FOBOS
-
 ## La voluntad que reacciona ante la amenaza
 
 *Localización del Hijo de la reacción defensiva concreta*
@@ -1198,8 +1199,9 @@ significa que los errores en él sean sin consecuencias: una codificación incor
 
 
 # B·I·D · MÓDULO DEIMOS
+## La voluntad que se paraliza ante la simetría
 
-## La voluntad que se paraliza ante la simetría Localización del Hijo de la parálisis ante la multiplicidad equivalente
+*Localización del Hijo de la parálisis ante la multiplicidad equivalente*
 
 ### I.  Fundamento ontológico del Hijo
 
@@ -1594,10 +1596,10 @@ La pregunta que discrimina: ¿los acuerdos de consenso se ejecutan? Un colectivo
 4 La instrucción de esperar 20 segundos ante el silencio de Deimos en sesión es una de las instrucciones más contraintuitivas del instrumento. La mayoría de los mediadores en formación la incumplen no por falta de conocimiento sino porque el silencio sostenido produce incomodidad en el propio campo del mediador. Esa incomodidad es información diagnóstica sobre el campo del mediador, no sobre el sujeto. El mediador que puede habitar 20 segundos de silencio sin intervenirlos tiene el campo calibrado para Deimos. El que no puede hacerlo necesita supervisión antes de administrar este módulo de manera autónoma.
 
 
-# B·I·A · MÓDULO ANTEROS La voluntad que se afirma desde el eje propio
+# B·I·A · MÓDULO ANTEROS
+## La voluntad que se afirma desde el eje propio
 
-
-## Localización del Hijo de la afirmación por reconocimiento
+*Localización del Hijo de la afirmación por reconocimiento*
 
 ### I.  Fundamento ontológico del Hijo
 
@@ -2007,10 +2009,9 @@ calibrado para leer no solo Anteros sino la dimensión arética completa del sis
 
 
 # B·I·P · MÓDULO POTÓS
+## La voluntad que busca lo que ya no está
 
-## La voluntad que busca lo que ya no está Localización del Hijo de la orientación hacia lo ausente · Legibilidad
-
-baja
+*Localización del Hijo de la orientación hacia lo ausente · Legibilidad baja*
 
 ### I.  Fundamento ontológico del Hijo
 
@@ -2390,10 +2391,10 @@ Potós puede revelar situaciones que superan el alcance de ECO cuando la orienta
 
 4 La instrucción al Mediador en Memoria Comunitaria sobre el trabajo con Potós colectivo que se desarrolla en §10 tiene una implicación para la práctica del rescate cultural que merece señalarse: la comunidad que está en Potós colectivo profundo no puede participar genuinamente en el rescate de su propia cultura si el proceso de rescate se diseña desde afuera como recuperación del pasado. Ese diseño refuerza Potós sin crear condiciones para que la comunidad pueda imaginar un futuro propio. El trabajo del mediador es crear las condiciones para que la comunidad pueda honrar lo que fue y, desde ese honor, construir algo nuevo. Eso requiere que Potós colectivo pueda dialogar con Eros colectivo —la apertura a lo nuevo— sin que ninguno de los dos anule al otro.
 
-# B·I·E ·  MÓDULO EROS La voluntad que se abre hacia la alteridad
+# B·I·E · MÓDULO EROS
+## La voluntad que se abre hacia la alteridad
 
-
-## Localización del Hijo de la apertura al umbral · Legibilidad baja
+*Localización del Hijo de la apertura al umbral · Legibilidad baja*
 
 ### I.  Fundamento ontológico del Hijo
 
@@ -2792,10 +2793,10 @@ requisito de Eros: es un requisito de todo el instrumento que Eros hace visible 
 4 La distinción Eros / curiosidad instrumental que aparece en §4 (Sondeo E·1) y en la tabla discriminante de §7 tiene consecuencias para el uso del módulo en el contexto del Mediador Educativo. La curiosidad que los sistemas educativos valoran y fomentan es mayoritariamente curiosidad instrumental: el estudiante curioso es el que busca entender mejor lo que ya está aprendiendo, no el que se abre a direcciones no previstas por el programa. Eros en el contexto educativo es más raro que la curiosidad instrumental y más difícil de valorar institucionalmente — pero es también el estado que produce los aprendizajes más genuinos y menos predecibles. El mediador educativo que puede distinguir los dos tiene una herramienta diagnóstica para identificar qué tipo de apertura está presente en el sujeto y qué tipo de acompañamiento corresponde a cada una.
 
 
-# B·I·H  ·  MÓDULO HARMONÍA · D-2 La integración y la anestesia — dos estados
+# B·I·H · MÓDULO HARMONÍA · D-2
+## La integración y la anestesia — dos estados que el expediente no puede separar
 
-
-## que el expediente no puede separar La función exclusiva e irrenunciable de ECO · Nunca se salta
+*La función exclusiva e irrenunciable de ECO · Nunca se salta*
 
 ### I.  Fundamento ontológico del módulo
 
@@ -3257,14 +3258,10 @@ presente de la sesión porque esa preferencia requiere que el ego genuino esté 
 4 La aplicación del módulo H al ego colectivo tiene una implicación que el texto principal no desarrolla completamente: la discriminación Harmonía colectiva / D-2 colectivo requiere acceso al ego soberano real, no solo a los miembros del colectivo. Los miembros pueden describir el estado del colectivo como estable y sin conflicto — y esa descripción es verdadera desde su perspectiva. Pero si el ego soberano está en D-2, la estabilidad que los miembros describen no es Harmonía colectiva: es la estabilidad que produce la ausencia de señal del ego que porta la segunda mediación colectiva. La discriminación requiere acceder a ese ego soberano y administrar las preguntas H·D con él como sujeto — no con el colectivo como abstracción.
 
 
-# B·II·I ·  MÓDULO EJE I — ESTADOS DEL EGO
-
-
+# B·II·I · MÓDULO EJE I — ESTADOS DEL EGO
 ## La configuración fundamental de la voluntad
 
-Localización del estado del ego en los seis códigos del Eje I · Eje
-
-transversal
+*Localización del estado del ego en los seis códigos del Eje I · Eje transversal*
 
 ### I.  Fundamento del módulo y su lugar en el sistema
 
@@ -3823,10 +3820,10 @@ a la diferencia entre un querer presente y bloqueado (E-3) y la ausencia del ins
 4 La tabla de colectivo del §10 establece preguntas de localización para el ego colectivo en cada estado del Eje I. Estas preguntas son preguntas al ego soberano, no al colectivo como abstracción. La respuesta del ego soberano a cada pregunta es el insumo de localización colectiva — no la respuesta de los miembros en general ni la respuesta de los documentos institucionales, aunque ambas fuentes pueden corroborar o cuestionar lo que el ego soberano produce.
 
 
-# B·II·II ·  MÓDULO EJE II — MASCARADA La forma que el ego toma en el mundo
+# B·II·I · MÓDULO EJE I — ESTADOS DEL EGO
+## La forma que el ego toma en el mundo
 
-
-## Localización de los códigos M-1, M-2 y M-3 del Eje II
+*Localización de los códigos M-1, M-2 y M-3 del Eje II*
 
 ### I.  Fundamento del módulo — la distinción constitutiva
 
@@ -4094,11 +4091,10 @@ culturales, políticos o históricos. Las instituciones que el Mediador Modelado
 
 BLOQUE II · Los cinco ejes del SDO
 
-# B·II·III ·  MÓDULO EJE III — VÍNCULO
+# B·II·I · MÓDULO EJE I — ESTADOS DEL EGO
+## La estructura del encuentro con el Otro
 
-## La estructura del encuentro con el Otro Localización de los códigos V-1, V-2 y V-3 del Eje III · El campo
-
-relacional de la sesión como fuente de EP-1
+*Localización de los códigos V-1, V-2 y V-3 del Eje III · El campo relacional de la sesión como fuente de EP-1*
 
 ### I.  Fundamento ontológico del módulo
 
@@ -4522,12 +4518,10 @@ Las organizaciones en Peribea colectivo tienen estructura de respuesta: son reac
 
 BLOQUE II · Los cinco ejes del SDO
 
-# B·II·IV ·  MÓDULO EJE IV — DISFORIA La presencia o ausencia de la señal del ego
+# B·II·I · MÓDULO EJE I — ESTADOS DEL EGO
+## La presencia o ausencia de la señal del ego genuino
 
-
-## genuino Localización de D-1 (disforia activa) y D-2 (anestesia ontológica) ·
-
-Modulador transversal
+*Localización de D-1 (disforia activa) y D-2 (anestesia ontológica) · Modulador transversal*
 
 ### I.  Fundamento ontológico del módulo
 
@@ -4918,14 +4912,10 @@ instrumento de registro se apaga cuando su señal no puede producir ningún efec
 
 BLOQUE II · Los cinco ejes del SDO
 
-# B·II·V ·  MÓDULO EJE V — TANATOLÓGICO
+# B·II·V · MÓDULO EJE V — TANATOLÓGICO
+## El vector del duelo ante la pérdida irrecuperable
 
-
-## El vector del duelo ante la pérdida
-
-irrecuperable Localización en T-0 a T-6 y T-ext · Eje central del Mediador en
-
-Memoria Comunitaria
+*Localización en T-0 a T-6 y T-ext · Eje central del Mediador en Memoria Comunitaria*
 
 ### I.  Fundamento ontológico del módulo
 
@@ -5439,14 +5429,10 @@ puede producir el movimiento hacia T-4 que hace posible el rescate cultural genu
 mínimo); «lo que pudo ser» requiere que el colectivo pueda imaginar posibilidades alternativas sin que eso se sienta como traición de lo que fue (T-5 o T-6). El mediador que administra el Bloque III §5 sin la localización del Eje V no sabe desde qué posición del vector el colectivo puede recibir cada pregunta.
 
 
-# B·III·1 ·  EL EGO SOBERANO COMO PUNTO DE ENTRADA
+# B·III·1 · EL EGO SOBERANO COMO PUNTO DE ENTRADA
+## Quién porta la segunda mediación del colectivo
 
-
-## Quién porta la segunda mediación del
-
-colectivo Fundamento, protocolo de identificación y entrevista al ego soberano ·
-
-Disociación de φ₂
+*Fundamento, protocolo de identificación y entrevista al ego soberano · Disociación de φ₂*
 
 ### I.  Qué es el ego soberano en el colectivo
 
@@ -5688,12 +5674,10 @@ leer el ego soberano solo como individuo y perder la dimensión colectiva que su
 4 La distinción entre φ₂ cedida voluntariamente y φ₂ cedida involuntariamente que el §4 menciona brevemente merece desarrollo en Histos, no en ECO. Lo que el instrumento puede localizar es el estado actual de φ₂ —si está portada, cedida, difusa, en disputa, o apagada— y las consecuencias de ese estado para la lectura del ego colectivo. La historia de cómo φ₂ llegó a ese estado —cómo se cedió, bajo qué condiciones, qué proceso lo produjo— es el material del trabajo de acompañamiento de Histos con el ego colectivo, que el instrumento ECO prepara, pero no completa.
 
 
-# B·III·2 ·  ENTREVISTA A LOS MIEMBROS Cómo leer el colectivo a través de quien lo
+# B·III·2 · ENTREVISTA A LOS MIEMBROS
+## Cómo leer el colectivo a través de quien lo habita
 
-
-## habita Técnica de entrevista orientada al colectivo · Batería de preguntas · Sesgo
-
-del miembro
+*Técnica de entrevista orientada al colectivo · Batería de preguntas · Sesgo del miembro*
 
 ### I.  Diferencia técnica con la entrevista individual
 
@@ -6053,10 +6037,9 @@ El mediador administra preguntas de corrección de sesgo cuando detecta que la n
 4 Las preguntas de corrección de sesgo del §4 tienen un uso que el texto principal no desarrolla en detalle: son útiles también en la entrevista al ego soberano, no solo en la entrevista a los miembros.
 
 # B·III·3 · AGREGACIÓN DE LOCALIZACIONES INDIVIDUALES
+## Del N individual al uno colectivo
 
-## Del N individual al uno colectivo Protocolo de ponderación por proximidad real a φ₂ · Diagnóstico en
-
-colectivos en disociación
+*Protocolo de ponderación por proximidad real a φ₂ · Diagnóstico en colectivos en disociación*
 
 ### I.  Por qué no basta el promedio simple ni la moda — fundamento ontológico
 
@@ -6339,12 +6322,10 @@ El nivel de certeza global de la localización colectiva nunca puede ser mayor q
 4 El formato de la localización colectiva que el §4 establece puede parecer más complejo que el de la localización individual. Esa complejidad está justificada: la localización colectiva es estructuralmente más incierta que la individual porque depende de múltiples fuentes con distintos niveles de acceso al ego colectivo. La declaración explícita de esa incertidumbre — a través de los niveles EP por componente, la nota de convergencia/divergencia, y la declaración del nivel de certeza global — no debilita la utilidad de la localización colectiva: la hace más honesta y más útil para Histos colectivo, que necesita saber con qué certeza puede contar cada componente de la localización para diseñar el trabajo de acompañamiento.
 
 
-# B·III·4 ·  ANÁLISIS DE ARTEFACTOS COLECTIVOS
+# B·III·4 · ANÁLISIS DE ARTEFACTOS COLECTIVOS
+## El expediente del ego colectivo
 
-
-## El expediente del ego colectivo Tipología de evidencia · Grupos focales ontológicos · Observación de
-
-juntas · Cruce artefacto/entrevista
+*Tipología de evidencia · Grupos focales ontológicos · Observación de juntas · Cruce artefacto/entrevista*
 
 ### I.  Qué cuenta como artefacto colectivo — tipología y EP
 
@@ -6616,12 +6597,10 @@ colectivos con M-3 profundo, el efecto del observador puede ser especialmente in
 4 El protocolo de cruce artefacto/entrevista que el §4 establece como herramienta para leer M-3 profundo tiene una aplicación inversa que puede ser igualmente importante: cuando las entrevistas producen la firma de M-3 pero los artefactos producen señales del ego colectivo genuino, puede ser señal de que el ego colectivo genuino tiene acceso a la expresión a través de los artefactos, aunque no pueda expresarse en las entrevistas. Eso puede ocurrir en colectivos con fuerte presión del ego soberano formal sobre la expresión individual: los miembros pueden ajustar sus narrativas en la entrevista a lo que el ego soberano formal espera, mientras que en los artefactos que producen en el día a día (las comunicaciones informales, los espacios que personalizan, los rituales que producen espontáneamente) el ego colectivo genuino tiene más libertad de expresión.
 
 
-# B·III·5 ·  MEMORIA COMUNITARIA — LO QUE FUE, LO QUE ES, LO QUE PUDO SER La estructura triádica de la Memoria
+# B·III·5 · MEMORIA COMUNITARIA — LO QUE FUE, LO QUE ES, LO QUE PUDO SER
+## La estructura triádica de la Memoria Comunitaria
 
-
-## Comunitaria Sección específica para el Mediador en Memoria Comunitaria · Rescate
-
-cultural · Patrimonio inmaterial · Memoria histórica
+*Sección específica para el Mediador en Memoria Comunitaria · Rescate cultural · Patrimonio inmaterial · Memoria histórica*
 
 ### I.  La estructura triádica de la Memoria Comunitaria
 
@@ -6913,15 +6892,9 @@ que esas localizaciones hacen posible requiere el instrumento Histos que el para
 
 
 # B·IV·1 · PRINCIPIOS GENERALES DE INTERVENCIÓN
+## Lo que el instrumento pide del mediador
 
-
-## Lo que el instrumento pide del mediador Los cinco errores más frecuentes · Uso de la localización sin nombrarla ·
-
-Cuándo ECO se ha agotado · Cómo pasar a Histos
-
-El Bloque IV no es el apéndice del instrumento: es la columna que sostiene su uso. Los Bloques I, II y III establecen cómo localizar. El Bloque IV establece qué hacer con lo que se localizó. Sin él, el instrumento tiene la misma deficiencia de todos los instrumentos diagnósticos sin protocolo de uso: produce información correcta que el operador usa incorrectamente, neutralizando el valor de la localización.
-
-La hipótesis de trabajo del Bloque IV es que la mayoría de los errores que comprometen el proceso de acompañamiento después de ECO no son errores de localización —el mediador localizó bien— sino errores de intervención: el mediador no supo qué hacer con lo que encontró. Esa hipótesis tiene una consecuencia metodológica: el rigor del instrumento se evalúa tanto por la precisión de sus localizaciones como por la calidad del uso que el mediador hace de ellas. Un instrumento que produce localizaciones precisas pero que no provee un protocolo de uso suficientemente desarrollado transfiere al sujeto los riesgos de las intervenciones incorrectas del mediador.
+*Los cinco errores más frecuentes · Uso de la localización sin nombrarla · Cuándo ECO se ha agotado · Cómo pasar a Histos*
 
 ### I.  Lo que el mediador nunca hace con lo que encontró
 
@@ -7082,11 +7055,9 @@ La condición de uso del instrumento — formulación técnica ECO produce la lo
 4 El «buen paciente del sistema» que el error E·4 describe es un fenómeno identificable en cualquier proceso de acompañamiento orientado desde marcos interpretativos explícitos — no solo en el paradigma de Mediación Ontológica. La terapia psicoanalítica produce pacientes que aprenden el lenguaje del inconsciente y de los mecanismos de defensa sin que esos aprendizajes necesariamente correspondan a cambios en la organización psíquica del paciente. La terapia cognitivo-conductual produce pacientes que aprenden a identificar los patrones de pensamiento disfuncional sin que ese aprendizaje produzca cambios en los patrones mismos. El paradigma de Mediación Ontológica no está exento de ese riesgo: el lenguaje del sistema es suficientemente articulado y coherente para producir «buenos pacientes del sistema» si el mediador comete el error E·4 sistemáticamente.
 
 # B·IV·2 · LA LOCALIZACIÓN SIN ETIQUETA
+## Cómo usar lo encontrado sin nombrarlo
 
-
-## Cómo usar lo encontrado sin nombrarlo El principio de no-etiquetado · Traducción de localizaciones a campo
-
-relacional · Tabla de conversión módulo a módulo
+*El principio de no-etiquetado · Traducción de localizaciones a campo relacional · Tabla de conversión módulo a módulo*
 
 ### II.  La localización sin etiqueta — fundamento y principio
 
@@ -7322,13 +7293,9 @@ el mediador necesita amplificar sin nombrar. «Eso que acaba de decir — que ha
 
 
 # B·IV·3 · CUÁNDO ECO ESTÁ COMPLETO Y CUÁNDO NO
+## Criterios de cierre · La Declaración de Incertidumbre ECO · Localizaciones no concluyentes
 
-
-## Criterios de cierre · La Declaración de Incertidumbre ECO · Localizaciones no
-
-concluyentes Qué completa el instrumento, qué declara su incertidumbre, y qué hacer
-
-cuando la localización no puede determinarse
+*Qué completa el instrumento, qué declara su incertidumbre, y qué hacer cuando la localización no puede determinarse*
 
 ### III.  Cuándo ECO está completo — la condición de cierre
 
@@ -7507,13 +7474,9 @@ La opción NC·3 es la más difícil de comunicar al sujeto o al encargado sin p
 
 
 # B·IV·4 · CRITERIOS DE DERIVACIÓN A HISTOS
+## Cuándo la localización está lista para pasar al acompañamiento
 
-
-## Cuándo la localización está lista para pasar al
-
-acompañamiento Condiciones del paso · Insumos que ECO entrega a Histos · Cómo no
-
-forzar el paso antes de tiempo
+*Condiciones del paso · Insumos que ECO entrega a Histos · Cómo no forzar el paso antes de tiempo*
 
 ### IV.  La relación entre ECO e Histos — el instrumento como umbral
 
@@ -7692,13 +7655,9 @@ Los cuatro componentes de la hoja de síntesis — formato recomendado Component
 3 La formulación de transición de ECO a Histos que el §4 propone —«explorar el territorio» para ECO y «caminar en él» para Histos— es una traducción posible al lenguaje sin etiqueta, no la única. El mediador puede adaptarla al lenguaje del sujeto; la transición debe orientarlo hacia el trabajo que sigue sin revelar la localización ni presentar el cierre de ECO como fin (error E·5).
 
 # B·IV·5 · CRITERIOS DE DERIVACIÓN FUERA DEL PARADIGMA
+## Cuándo el caso supera ECO y el acompañamiento ontológico
 
-
-## Cuándo el caso supera ECO y el
-
-acompañamiento ontológico Psicoterapia · Psiquiatría · Intervención jurídica · El principio ético de
-
-la derivación
+*Psicoterapia · Psiquiatría · Intervención jurídica · El principio ético de la derivación*
 
 ### V.  El principio de derivación como criterio ético fundacional
 
@@ -7844,10 +7803,12 @@ La competencia ética del mediador — síntesis del Bloque IV El mediador del p
 
 <!-- FORMULARIO: A·1 | salto de página | campos rellenables, casillas de verificación, tablas de localización y áreas de notas -->
 
-# A·1 ·  HOJA DE SÍNTESIS DE LA SESIÓN Registro de la localización del ego genuino Para completar durante o después de la sesión · Instrumento interno del
+# A·1 · HOJA DE SÍNTESIS DE LA SESIÓN
 
 
-## mediador · No para el sujeto
+## Registro de la localización del ego genuino
+
+*Para completar durante o después de la sesión · Instrumento interno del mediador · No para el sujeto*
 
 INSTRUCCIONES DE USO
 
@@ -8194,7 +8155,7 @@ horas o días después de la sesión tienen menor precisión diagnóstica porque
 
 <!-- FORMULARIO: A·2 | hojas imprimibles por módulo | cada hoja inicia en página nueva -->
 
-### A·2 HOJAS DE REGISTRO POR MÓDULO
+# A·2 HOJAS DE REGISTRO POR MÓDULO
 
 Una hoja por módulo · 11 módulos totales · Bloque I y Bloque II
 
@@ -8986,10 +8947,12 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 4 La hoja del Módulo H (Harmonía/D-2) incluye las cinco preguntas H·D como casillas verificables porque es el único módulo que tiene un protocolo de cinco preguntas obligatorias. El mediador que no administra las cinco H·D no puede producir H-3(H) ni H-3(D2) con la certeza que el instrumento requiere. La casilla de verificación es un recordatorio de que todas las cinco deben estar presentes antes del cierre del módulo.
 
 
-# A·3 TABLA DE CRUCE ECO ↔ ÁRBOL DOCUMENTAL Protocolo de integración cuando U·1 ya fue aplicado · Convergencia ·
+# A·3 TABLA DE CRUCE ECO ↔ ÁRBOL DOCUMENTAL
 
 
-## Complementación · Contradicción
+## Protocolo de integración cuando U·1 ya fue aplicado
+
+*Convergencia · Complementación · Contradicción*
 
 El árbol documental del Capítulo U·1 de la Taxonomía y el instrumento ECO producen localizaciones desde fuentes distintas: el árbol documental desde los actos y las huellas que los actos dejan en el expediente; ECO desde la presencia del ego genuino en el campo relacional de la sesión. Las dos localizaciones pueden referirse al mismo período y al mismo sujeto y producir resultados distintos — no porque uno sea incorrecto sino porque acceden a dimensiones distintas del mismo estado. El árbol documental localiza φ₁ y las huellas de sus actos; ECO localiza el ego genuino que produce φ₂. La integración de los dos instrumentos produce la imagen más completa disponible en el paradigma del estado del sujeto.
 
@@ -9147,10 +9110,12 @@ mediador cometió uno de los errores del Bloque IV durante la administración.
 2 El protocolo de integración no asume que ECO tiene mayor EP que el árbol documental en todos los componentes. Para algunos componentes — especialmente la cronología del vector tanatológico y la firma de los actos en el Bloque I durante períodos históricos que el sujeto ya no recuerda con precisión — el árbol documental puede tener mayor EP que ECO. La integración asigna mayor peso a la fuente de mayor EP componente por componente, no a un instrumento entero sobre el otro.
 
 
-# A·4 TABLA DE ADAPTACIONES POR PERFIL DE MEDIADOR Qué módulos usa cada perfil · En qué orden · Con qué profundidad ·
+# A·4 TABLA DE ADAPTACIONES POR PERFIL DE MEDIADOR
 
 
-## Referencia para primera administración
+## Qué módulos usa cada perfil
+
+*En qué orden · Con qué profundidad · Referencia para primera administración*
 
 <!-- TABLA: adaptación por perfil | columnas: perfil, módulos prioritarios, orden, profundidad, preguntas clave -->
 
@@ -9315,9 +9280,11 @@ Instrucción para primera sesión
 2 Los órdenes recomendados en esta tabla son puntos de entrada, no secuencias rígidas. El mediador que comienza con el Eje IV en el Mediador en Crisis puede encontrar que la apertura narrativa del sujeto orienta hacia el Eje V antes de que el Eje IV esté completamente explorado. El instrumento tiene estructura modular con secuencia recomendada, no con secuencia obligatoria (con las excepciones que los capítulos del Bloque I y II establecen: el módulo H siempre al final del Bloque I, el Eje I siempre al principio del Bloque II).
 
 
-# A·5 ÁRBOL DE NAVEGACIÓN GENERAL
+# A·5 ÁRBOL DE NAVEGACIÓN GENERAL DEL INSTRUMENTO
 
-## DEL INSTRUMENTO Mapa completo del flujo de ECO · Criterios de entrada · Reglas SKIP · Nodos de
+## Mapa completo del flujo de ECO
+
+*Criterios de entrada · Reglas SKIP · Nodos de decisión · Salidas*
 
 decisión · Salidas
 
