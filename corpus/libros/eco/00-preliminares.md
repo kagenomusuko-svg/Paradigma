@@ -28,7 +28,6 @@ Mda. Juana Aguilar
 
 ### Lic. Y Mda. Ana Lucía Olvera Aguilar
 
-Entrevista Clínica Ontológica · ECO
 
 # Índice
 
@@ -57,6 +56,7 @@ B·II·V Módulo Eje V — Tanatológico
 Parte III La entrevista al ego colectivo  
 B·III·1 El ego soberano como punto de entrada  
 B·III·2 Entrevista a los miembros  
+B·III·3 Agregación de localizaciones individuales  
 B·III·4 Análisis de artefactos colectivos  
 B·III·5 Memoria comunitaria — lo que fue, lo que es, lo que pudo ser  
 
@@ -73,4 +73,3 @@ Apéndice A·2 Hojas de registro por módulo
 Apéndice A·3 Tabla de cruce ECO ↔ árbol documental  
 Apéndice A·4 Tabla de adaptaciones por perfil de mediador  
 Apéndice A·5 Árbol de navegación general del instrumento
-
