@@ -1,12 +1,7 @@
-### B·III·1 ·  EL EGO SOBERANO COMO PUNTO
+# B·III·1 · EL EGO SOBERANO COMO PUNTO DE ENTRADA
+## Quién porta la segunda mediación del colectivo
 
-### DE ENTRADA
-
-### Quién porta la segunda mediación del
-
-colectivo Fundamento, protocolo de identificación y entrevista al ego soberano ·
-
-Disociación de φ₂
+*Fundamento, protocolo de identificación y entrevista al ego soberano · Disociación de φ₂*
 
 ### I.  Qué es el ego soberano en el colectivo
 
@@ -14,7 +9,6 @@ El Bloque III de ECO existe porque el paradigma de Mediación Ontológica recono
 
 La figura del ego soberano tiene su fundamento ontológico en Caelus, la obra del paradigma que desarrolla la ontología del ego colectivo. Caelus establece que el ego colectivo no es una metáfora: es una estructura real que opera en el campo de la voluntad de los miembros del colectivo de maneras que el análisis individual no puede capturar. El ego colectivo tiene φ₁ colectivo —el sesgo acumulado de la historia del colectivo, sus condicionamientos estructurales, sus tradiciones, sus M-3— y tiene φ₂ colectivo —la
 
-Entrevista Clínica Ontológica · ECO
 
 segunda mediación que puede operar sobre ese sesgo para producir actos colectivos que no estaban completamente determinados por el condicionamiento histórico. El ego soberano es el sujeto a través del cual φ₂ colectivo se actualiza.
 
@@ -26,7 +20,6 @@ El fundamento en Caelus — cómo emerge el ego colectivo
 
 Caelus describe el proceso por el cual un colectivo puede desarrollar ego genuino: no es el proceso de la suma o el consenso de los egos individuales, sino el proceso por el cual los miembros del colectivo ceden una parte de su segunda mediación individual a un campo compartido que trasciende cualquier miembro. Ese campo compartido —la suma de las segundas mediaciones cedidas— puede producir orientación colectiva que ningún miembro habría podido producir solo. El ego soberano es el sujeto a través del cual ese campo encontró su punto de convergencia: la persona cuya φ₂ sirvió de canal para que la segunda mediación colectiva tomara forma.
 
-Entrevista Clínica Ontológica · ECO
 
 El mecanismo que Caelus describe es el de la proximidad real a la segunda mediación colectiva. No es el mecanismo del organigrama — la estructura de autoridad formal que el colectivo ha construido para ordenar sus actos. El organigrama describe la estructura de responsabilidades formales; el mecanismo de la segunda mediación colectiva describe quién está más cerca de la función de evaluar el campo y orientar la voluntad colectiva con distancia del sesgo acumulado. Esas dos estructuras pueden coincidir o pueden ser completamente distintas. Cuando coinciden, el instrumento puede operar de manera directa. Cuando no coinciden, el instrumento necesita el protocolo de identificación que el §2 de este capítulo establece.
 
@@ -38,7 +31,6 @@ Esta limitación tiene consecuencias directas para la administración del Bloque
 
 El ego soberano — definición técnica El sujeto cuya segunda mediación (φ₂) ha sido cedida al colectivo de manera que orienta efectivamente la voluntad colectiva en el período analizado. No necesariamente el cargo de mayor jerarquía. No necesariamente el fundador. El sujeto cuya presencia en el campo hace que el colectivo tenga orientación y cuya ausencia produce confusión o paralización en las decisiones que requieren criterio nuevo.
 
-Entrevista Clínica Ontológica · ECO
 
 ### II.  Protocolo de identificación del ego soberano
 
@@ -54,7 +46,6 @@ Etapa 2 — Las entrevistas de mapeo
 
 El mediador administra entrevistas de mapeo a un número mínimo de tres miembros del colectivo seleccionados por su posición en diferentes niveles y funciones de la organización. El objetivo no es entrevistar a los miembros sobre el ego colectivo: es observar cómo
 
-### Entrevista Clínica Ontológica · ECO
 
 describen la orientación del colectivo y a quién o qué referencian cuando la describen. La pregunta central de las entrevistas de mapeo no es «¿quién es el líder?»: es «cuando el colectivo tiene que tomar una decisión difícil —una que no tiene respuesta fácil en los procedimientos establecidos—, ¿qué ocurre? ¿Quién orienta esa decisión?».
 
@@ -74,7 +65,6 @@ En las entrevistas a miembros del colectivo administradas de manera independient
 
 Confundir al actor informado con el ego soberano real. El ego soberano real no solo tiene acceso a la información: orienta
 
-### Entrevista Clínica Ontológica · ECO
 
 ningún otro miembro entrevistado. Puede nombrar tensiones no documentadas, criterios no escritos, decisiones en proceso.
 
@@ -106,7 +96,6 @@ En la entrevista directa al ego soberano formal con las preguntas del §3 de est
 
 Confundir la formalidad de las respuestas del ego soberano formal con la ausencia de ego soberano real. Puede haber un
 
-Entrevista Clínica Ontológica · ECO
 
 le pregunta qué quiere el colectivo ahora, produce los documentos institucionales o los objetivos formales. No puede acceder a la preferencia colectiva en el momento presente con textura de evaluación interna.
 
@@ -126,7 +115,6 @@ Regla de tres fuentes — condición de identificación del ego soberano real El
 
 La entrevista al ego soberano es la entrevista central del Bloque III. Es la entrevista desde la cual todos los demás módulos del Bloque III se administran —la entrevista a los demás miembros del colectivo (§2), la agregación de localizaciones (§3) y el análisis de artefactos
 
-Entrevista Clínica Ontológica · ECO
 
 (§4) son complementarios y verificadores de lo que la entrevista al ego soberano produce. Si el ego soberano es el sujeto que porta φ₂ del colectivo, entonces entrevistarlo con los módulos de ECO produce la localización del ego colectivo en los Hijos del Bloque I y en los ejes del Bloque II.
 
@@ -138,7 +126,6 @@ La doble lectura es el principio técnico más importante de la entrevista al eg
 
 El filtro es importante: la señal del colectivo no es idéntica a la señal del ego soberano. El ego soberano puede estar en Fobos como individuo sin que eso produzca Fobos colectivo total, si el colectivo tiene estructuras que modulan la segunda mediación del ego soberano. Y el colectivo puede estar en Fobos, aunque el ego soberano individual no lo esté, si la estructura del colectivo lleva al ego soberano hacia la reactividad independientemente de su propia posición de v_t. El mediador registra la señal del ego soberano y
 
-Entrevista Clínica Ontológica · ECO
 
 luego verifica en las entrevistas a los demás miembros (§2) si la firma colectiva corresponde.
 
@@ -174,7 +161,6 @@ El organigrama como señal diagnóstica
 
 Cuando el ego soberano está en disociación, el organigrama del colectivo se convierte en una de las señales diagnósticas más
 
-### Entrevista Clínica Ontológica · ECO
 
 importantes del instrumento. Un organigrama que ha crecido en capas sin que haya una lógica visible de distribución de la segunda mediación —que tiene muchos niveles intermedios, muchos comités con responsabilidades superpuestas, muchos roles con nombres sofisticados, pero funciones difusas— puede ser la firma documental del estado de disociación de φ₂. El ego soberano en disociación tiende a producir estructuras que sustituyen la segunda mediación con procedimientos: si no hay ego genuino que evalúe el campo y oriente la voluntad colectiva, los procedimientos llenan el espacio que la segunda mediación debería ocupar.
 
@@ -198,7 +184,6 @@ El mediador identifica a quién fue cedida φ₂ temporalmente. Ese actor es el 
 
 φ₂ cedida temporalmente — ego soberano real en transición o ausencia
 
-### Entrevista Clínica Ontológica · ECO
 
 El colectivo produce decisiones contradictorias. Hay facciones con criterios incompatibles. El campo institucional tiene temperatura de conflicto de orientación.
 
@@ -222,7 +207,6 @@ El colectivo funciona con eficiencia operativa, pero sin orientación del ego ge
 
 Cuando el protocolo de identificación del §2 no produce convergencia hacia un actor específico, o cuando la entrevista al ego soberano identificado no produce las señales que el §3 describe, el mediador se encuentra ante un colectivo sin ego soberano identificable con claridad. En ese estado, el Bloque III puede proceder con un protocolo alternativo: en lugar de localizar al ego soberano y entrevistarlo como punto de entrada, el mediador administra las preguntas del Bloque III a múltiples miembros del colectivo en posiciones distintas y produce la lectura del ego colectivo desde la convergencia (o divergencia) de esas lecturas.
 
-Entrevista Clínica Ontológica · ECO
 
 El protocolo alternativo tiene menor certeza diagnóstica que el protocolo estándar: cuando no hay ego soberano que concentre la segunda mediación, la lectura del ego colectivo tiene mayor incertidumbre y requiere más fuentes para producir señales con EP-2. Pero puede producir información útil sobre el estado del colectivo —incluyendo el hecho de que no hay ego soberano identificable, que es en sí mismo una localización diagnóstica del estado del colectivo (E-2 colectivo, Deimos colectivo, o D-2 colectivo según la firma del campo).
 
@@ -234,7 +218,6 @@ Este estado produce una firma institucional específica: T-1 colectivo del Eje V
 
 La distinción crítica — ego soberano en disociación vs. colectivo sin ego soberano Ego soberano en disociación: hay un actor que ocupa el cargo de ego soberano pero que ya no porta φ₂ efectivamente. φ₂ puede estar cedida a otro actor, difusa, o apagada (D-2). El instrumento necesita identificar si hay otro actor que porta φ₂ de facto antes de concluir que el colectivo no tiene ego soberano activo. / Colectivo sin ego soberano: ningún
 
-Entrevista Clínica Ontológica · ECO
 
 actor porta φ₂ de manera efectiva. El colectivo opera desde φ₁ colectivo puro — desde el sesgo acumulado de su historia y su estructura, sin segunda mediación activa. Este estado corresponde a E-2 colectivo en el mejor caso y a D-2 colectivo en los estados más avanzados.
 
@@ -244,11 +227,12 @@ Cuando el diagnóstico del Bloque III §1 concluye que φ₂ está disociada —
 
 El mediador que administra el Bloque III sin haber completado el §1 de este capítulo no sabe quién entrevistar ni cómo leer las señales que produce. El §1 es la condición de posibilidad de todo el Bloque III: es el punto de entrada que hace posible que el instrumento acceda al ego colectivo como tal y no como la suma de los individuos que lo componen.
 
-Notas al capítulo B·III·1
+---
+
+## Notas al capítulo B·III·1
 
 1 La referencia a Caelus como fundamento ontológico del ego soberano establece la conexión entre este módulo y la obra publicada del paradigma. Caelus desarrolla la ontología del ego colectivo con un nivel de detalle que este instrumento no puede reproducir sin convertirse en otra obra. Lo que el Bloque III hace es tomar los conceptos de Caelus que son operativamente necesarios para la localización del ego colectivo y proveer el protocolo para usarlos en sesión. El mediador que administra el Bloque III sin haber leído Caelus trabaja con los procedimientos del instrumento, pero sin el fundamento conceptual que los justifica. Esa limitación produce errores específicos: el más frecuente es
 
-Entrevista Clínica Ontológica · ECO
 
 leer el ego soberano solo como individuo y perder la dimensión colectiva que su entrevista produce.
 
@@ -257,7 +241,4 @@ leer el ego soberano solo como individuo y perder la dimensión colectiva que su
 3 El estado del «fantasma institucional» que el §4 describe tiene una aplicación específica en el contexto del Mediador Organizacional que trabaja con organizaciones en procesos de sucesión de liderazgo. Las crisis de sucesión más difíciles son las que se producen cuando el ego soberano saliente concentraba φ₂ de manera que el colectivo no pudo desarrollar la capacidad de portarla en otro actor. El proceso de sucesión que solo atiende la transmisión del cargo formal —el organigrama— sin atender la transmisión de la segunda mediación colectiva produce con frecuencia el fantasma institucional: el nuevo ego soberano formal no porta φ₂, el anterior sigue siendo la referencia, aunque ya no esté, y el colectivo opera en T-1 del Eje V sin poder reconocer que la pérdida del principio organizador fue irrecuperable en su forma original.
 
 4 La distinción entre φ₂ cedida voluntariamente y φ₂ cedida involuntariamente que el §4 menciona brevemente merece desarrollo en Histos, no en ECO. Lo que el instrumento puede localizar es el estado actual de φ₂ —si está portada, cedida, difusa, en disputa, o apagada— y las consecuencias de ese estado para la lectura del ego colectivo. La historia de cómo φ₂ llegó a ese estado —cómo se cedió, bajo qué condiciones, qué proceso lo produjo— es el material del trabajo de acompañamiento de Histos con el ego colectivo, que el instrumento ECO prepara, pero no completa.
-
-Entrevista Clínica Ontológica · ECO
-
 
