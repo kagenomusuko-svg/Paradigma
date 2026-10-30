@@ -1,16 +1,11 @@
-PARTE V · HUMANIDADES Y CIENCIAS SOCIALES
+# Capítulo 17
+## Deportes y valor de contribución
 
-### Capítulo 17 Deportes y valor de
+*R*_B como medida de la contribución causal al triunfo: cuando la estrella no es condición necesaria del éxito*
 
-### contribución
+*El primer capítulo del libro donde el sistema se aplica al beneficio, no al daño*
 
-R*_B como medida de la contribución causal al triunfo: cuando
-
-la estrella no es condición necesaria del éxito
-
-El primer capítulo del libro donde el sistema se aplica al beneficio,
-
-no al daño
+---
 
 ### §1.  El problema
 
@@ -18,7 +13,6 @@ El 21 de junio de 1970, Brasil derrotó a Italia 4-1 en la final del Campeonato 
 
 Pelé es el nombre que la narrativa popular asocia con ese equipo. Fue su capitán, su goleador en el torneo, el jugador más reconocible del mundo en 1970. Pero ocho años antes, en el Mundial de Chile 1962, Brasil también ganó el campeonato. Y Pelé jugó solo los dos primeros partidos antes de lesionarse y no volver a jugar en todo el torneo. Brasil ganó sin él. Amarildo lo reemplazó y fue figura.
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
@@ -30,11 +24,10 @@ El caso hipotético del capítulo invierte la dirección del análisis: usa el m
 
 Este capítulo tiene una singularidad estructural que lo distingue de todos los anteriores: es el único donde el sistema se aplica principalmente al beneficio (B_total) en lugar del daño (D_total). R*_B mide la contribución causal al resultado positivo, no al resultado negativo. Esa inversión de dirección usa exactamente las mismas herramientas matemáticas, pero produce un vocabulario diferente: no hay "víctima", no hay "ajuste debitor". Hay contribución causal al triunfo y la pregunta de si la compensación que el contribuyente recibe es proporcional a esa contribución.
 
-### 1.1 La diferencia entre R*_B y R*_D
+#### 1.1 La diferencia entre R*_B y R*_D
 
 En todos los capítulos anteriores, R* medía la fracción del daño (D_total) causalmente atribuible a cada nodo. El grafo tenía un evento negativo como nodo final (el accidente, el fraude, el siniestro) y los nodos del grafo eran los actores que contribuyeron causalmente a ese evento negativo.
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
@@ -50,11 +43,12 @@ R*_B (contribución causal al resultado deportivo):  La fracción del resultado 
 
 La estructura del Δ_B en el dominio deportivo tiene dos formas que el análisis puede identificar:
 
-•  Δ_B positivo del club respecto al jugador: el club obtiene del jugador un beneficio mayor que la compensación que le paga. El jugador está subpagado en relación con su contribución causal. Es la base para la negociación de aumento salarial. •  Δ_B positivo del jugador respecto al club: el jugador recibe compensación mayor que su contribución causal al resultado. El jugador está sobrepagado. El club puede argumentarlo en la negociación — o en la decisión de no renovar.
+- Δ_B positivo del club respecto al jugador: el club obtiene del jugador un beneficio mayor que la compensación que le paga. El jugador está subpagado en relación con su contribución causal. Es la base para la negociación de aumento salarial.
+- Δ_B positivo del jugador respecto al club: el jugador recibe compensación mayor que su contribución causal al resultado. El jugador está sobrepagado. El club puede argumentarlo en la negociación — o en la decisión de no renovar.
 
-### 1.2 La S del jugador estrella: lo más contraintuitivo del capítulo
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
+#### 1.2 La S del jugador estrella: lo más contraintuitivo del capítulo
+
 
 contribución
 
@@ -64,11 +58,10 @@ Esto no niega la excelencia de los grandes jugadores. Pelé en 1970 tenía R*_B 
 
 Principio del análisis deportivo:  La paradoja del genio en equipo: cuanto más excepcional es el equipo que rodea al jugador estrella, mayor es la S del jugador estrella. Messi en el Barça 2010-2015 tenía mayor S que Messi en la Argentina de las eliminatorias de 2011: el equipo del Barça habría podido ganar muchos de esos partidos sin él con sus otras estrellas; la Argentina no tenía ese nivel de redundancia. Eso no significa que Messi importara menos en el Barça: significa que el Barça era tan bueno que podía absorber la ausencia de cualquier jugador individual mejor de lo que Argentina podía hacerlo.
 
-### 1.3 Por qué los hijos no aplican en este dominio
+#### 1.3 Por qué los hijos no aplican en este dominio
 
 Los hijos de Afrodita describen la disposición de la voluntad de un actor humano en el momento de un acto con consecuencias para otros. En el dominio deportivo, el análisis es de contribución a un resultado, no de decisiones con consecuencias normativas. La disposición con la que
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
@@ -76,7 +69,6 @@ un jugador entra al campo (Eros, Fobos, Potós) puede ser relevante para el aná
 
 La única excepción potencial sería el análisis de la cultura del equipo —la disposición colectiva que determina si el equipo juega desde el Eros colectivo o desde el Fobos colectivo— pero ese análisis pertenece al Capítulo 11 (gobierno corporativo / liderazgo institucional) aplicado a organizaciones deportivas, no al análisis de R*_B individual de este capítulo.
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
@@ -98,7 +90,6 @@ R*_B (vector) Contribución causal al resultado deportivo
 
 La fracción del resultado positivo causalmente atribuible a cada nodo. Es el instrumento correcto para responder "¿cuánto dependió el triunfo de este jugador?". Difiere de las estadísticas convencionales (goles, asistencias) porque captura las contribuciones que no aparecen en el marcador.
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
@@ -126,7 +117,6 @@ Ingreso total generado por el resultado
 
 Los derechos de televisión, los premios de la competición, los ingresos de taquilla, los contratos de patrocinio incrementales, la valorización de la marca del club producida por el resultado. Este es el B_total
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
@@ -146,13 +136,12 @@ Evidencia histórica de ausencias del jugador
 
 Para el lector que viene del núcleo universal:  Este es el único capítulo del libro donde el sistema se aplica predominantemente al beneficio (B_total) en lugar del daño (D_total). La dirección del análisis es inversa: en lugar de preguntar "¿quién causó el daño?", pregunta "¿quién causó el beneficio?". Las herramientas matemáticas son idénticas; el vocabulario cambia. No hay "víctima" ni "ajuste debitor": hay contribuyente y la pregunta de si su compensación es proporcional a su contribución.
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
 ### §3.  Las herramientas en el contexto deportivo
 
-### 3.1 El grafo de contribución causal al resultado deportivo
+#### 3.1 El grafo de contribución causal al resultado deportivo
 
 El grafo de contribución al resultado deportivo tiene una estructura diferente a los grafos de daño de los capítulos anteriores: el nodo final es el triunfo (un evento positivo) y todos los nodos que contribuyen positivamente a él tienen R*_B > 0. Los nodos que contribuyeron negativamente (errores, lesiones, expulsiones) tienen R*_B < 0 o, en la versión alternativa, se modelan como un grafo separado de D_resultado.
 
@@ -176,7 +165,6 @@ La estructura táctica del equipo que determina cómo se distribuyen las contrib
 
 Análisis comparativo de rendimiento del equipo bajo distintas formaciones.
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
@@ -206,11 +194,10 @@ Los eventos aleatorios que determinan el resultado pero no son causalmente atrib
 
 Análisis estadístico de la varianza del resultado no explicada por los factores modelados.
 
-### 3.2 La estimación de S_B: tres métodos
+#### 3.2 La estimación de S_B: tres métodos
 
-### La sustituibilidad S_B de un jugador en el resultado deportivo puede estimarse con tres métodos complementarios:
+#### La sustituibilidad S_B de un jugador en el resultado deportivo puede estimarse con tres métodos complementarios:
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
@@ -236,7 +223,6 @@ Método 3: Modelos de contribución marginal (el equivalente deportivo de Shaple
 
 Para equipos donde múltiples jugadores son estrella, el valor de contribución marginal promedio sobre todas las posibles combinaciones de jugadores en el once es el equivalente deportivo del valor de Shapley. Esto responde a la pregunta
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
@@ -248,7 +234,7 @@ las posibles \ncomposiciones del equipo que
 
 incluyen a ese jugador
 
-### 3.3 Δ_B como herramienta de negociación: la estructura del argumento
+#### 3.3 Δ_B como herramienta de negociación: la estructura del argumento
 
 El Δ_B del jugador en relación con el club es la diferencia entre la fracción del B_total del triunfo que el jugador causó y la fracción que recibe. El argumento de negociación tiene tres componentes:
 
@@ -260,19 +246,18 @@ Si salario_actual < salario_justo → Δ_B_club > 0 →
 
 base de negociación del jugador
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
-### Si salario_actual > salario_justo → Δ_B_jugador > 0
+#### Si salario_actual > salario_justo → Δ_B_jugador > 0
 
-### → base de negociación del club
+#### → base de negociación del club
 
 Herramienta de negociación:  El argumento de negociación basado en Δ_B es más poderoso que el argumento basado solo en comparación de mercado ("el jugador X del equipo Z gana más") porque conecta el salario específicamente con el beneficio causal que ese jugador produce para ese club, no con el mercado general. Un club puede replicar el argumento de mercado señalando que el jugador podría ser reemplazado; no puede replicar el argumento de Δ_B si el análisis de S_B muestra que el jugador tiene baja sustituibilidad.
 
-### 3.4 B_total en el deporte: cómo cuantificar el beneficio del triunfo
+#### 3.4 B_total en el deporte: cómo cuantificar el beneficio del triunfo
 
-### El B_total generado por un resultado deportivo tiene varios componentes que varían por deporte y por nivel de competición:
+#### El B_total generado por un resultado deportivo tiene varios componentes que varían por deporte y por nivel de competición:
 
 Descripción Fútbol de élite
 
@@ -296,7 +281,6 @@ Clasificación a Champions: +30-80M euros vs. Europa League para clubes top.
 
 NFL: distribución igual entre equipos, pero el Super Bowl amplifica el
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
@@ -328,7 +312,6 @@ El incremento en el valor de mercado del club como consecuencia del resultado.
 
 El Real Madrid se valoriza en 100-200M euros en años de éxito en Champions.
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
@@ -348,7 +331,6 @@ La pregunta de R*_B no niega esos logros. Pregunta qué fracción del campeonato
 
 A.2 La evidencia de S_B: 1962 como caso de ausencia
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
@@ -378,13 +360,12 @@ Brasil ligeramente más sólido defensivamente.
 
 La comparación establece que Brasil era un equipo capaz de ganar el Mundial sin Pelé. Lo ganó sin él en 1962. Lo ganó con él en 1970 (con mayor espectacularidad). La S_B de Pelé en 1970 es moderada —no alta, porque Pelé claramente añadió valor, pero no baja, porque el equipo tenía la capacidad de ganar sin él. Una estimación razonable: S_B_Pelé_1970 ≈ 0.45.
 
-### A.3 El grafo de contribución causal al triunfo de 1970
+#### A.3 El grafo de contribución causal al triunfo de 1970
 
 Nodo Contribuyente R*_B S_B Interpretación
 
 N1 Pelé (n.°10) ~18% 0.45 R*_B alto, pero S_B moderada. La evidencia de 1962 establece el límite superior de su indispensabilidad. Contribución
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
@@ -418,7 +399,6 @@ N8 Contexto favorable (localía relativa en México,
 
 ~10% 0.95 Factor exógeno con S muy alta.
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
@@ -440,7 +420,6 @@ R*_B_Pelé ≈ 0.75 − 0.60 = 0.15 (extremos: 0.10-0.25)
 
 El rango es consistente con el R*_B estimado del grafo (18%). Brasil sin Pelé en 1970 habría sido favorito al campeonato, pero con menor probabilidad de ganar. Ese diferencial de probabilidad es la contribución causal de Pelé al triunfo: no la totalidad del triunfo, sino aproximadamente el 15% de él.
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
@@ -460,13 +439,17 @@ La negociación está bloqueada. El agente del jugador propone usar el análisis
 
 B.2 Cálculo del B_total de los triunfos de las tres temporadas
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
 Fuentes de B_total para el club en las tres temporadas:
 
-•  Premio por ganar la liga: 8M euros. •  Premios de Champions League (tres clasificaciones a grupos + avances): 45M euros totales. •  Incremento en derechos de televisión por las dos semifinales de Copa (coeficiente histórico mejorado): 12M euros. •  Incremento en contratos de patrocinio atribuible al éxito deportivo (estimado con comparación pre/post período): 18M euros. •  Valorización del valor de mercado del club como consecuencia del éxito deportivo (diferencial vs. proyección sin esos resultados): 35M euros.
+- Premio por ganar la liga: 8M euros.
+- Premios de Champions League (tres clasificaciones a grupos + avances): 45M euros totales.
+- Incremento en derechos de televisión por las dos semifinales de Copa (coeficiente histórico mejorado): 12M euros.
+- Incremento en contratos de patrocinio atribuible al éxito deportivo (estimado con comparación pre/post período): 18M euros.
+- Valorización del valor de mercado del club como consecuencia del éxito deportivo (diferencial vs. proyección sin esos resultados): 35M euros.
+
 
 B_total_3_temporadas = 8 + 45 + 12 + 18 + 35 = 118M
 
@@ -476,9 +459,11 @@ B.3 Estimación de R*_B del jugador
 
 Evidencia disponible:
 
-•  En la temporada 2 (la que ganaron la liga), el jugador se lesionó durante 8 semanas. El equipo tuvo una racha de 2 victorias, 4 empates y 2 derrotas en ese período — marcadamente inferior a su rendimiento con el jugador (79% de victorias vs. 25%). •  Estadísticas avanzadas: el jugador tiene la mayor tasa de recuperaciones de balón del equipo, el segundo mayor número de pases progresivos, y su VAEP (acciones de valor de posesión) representa el 14% del total del equipo en los tres años. •  Simulación contrafáctica (usando el modelo del §3.2 con su reemplazante natural): el equipo habría obtenido aproximadamente 8 puntos menos por temporada sin
+- En la temporada 2 (la que ganaron la liga), el jugador se lesionó durante 8 semanas. El equipo tuvo una racha de 2 victorias, 4 empates y 2 derrotas en ese período — marcadamente inferior a su rendimiento con el jugador (79% de victorias vs. 25%).
+- Estadísticas avanzadas: el jugador tiene la mayor tasa de recuperaciones de balón del equipo, el segundo mayor número de pases progresivos, y su VAEP (acciones de valor de posesión) representa el 14% del total del equipo en los tres años.
+- Simulación contrafáctica (usando el modelo del §3.2 con su reemplazante natural): el equipo habría obtenido aproximadamente 8 puntos menos por temporada sin
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
+
 
 contribución
 
@@ -524,11 +509,10 @@ S_B)
 
 euros/año
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
-### Comparación con el salario actual y la oferta del club:
+#### Comparación con el salario actual y la oferta del club:
 
 Escenario Salario (M€/año)
 
@@ -536,25 +520,24 @@ Interpretación
 
 Δ_B del club
 
-### 2.8 +1.45M/año El club extrae 1.45M anuales de valor no compensado. El jugador está significativamente subpagado.
+#### 2.8 +1.45M/año El club extrae 1.45M anuales de valor no compensado. El jugador está significativamente subpagado.
 
 Salario actual (2.8M)
 
-### 3.5 +0.75M/año La oferta reduce el Δ_B, pero no lo elimina. El club sigue extrayendo valor no compensado.
+#### 3.5 +0.75M/año La oferta reduce el Δ_B, pero no lo elimina. El club sigue extrayendo valor no compensado.
 
 Oferta del club (3.5M)
 
-### 4.25 ≈ 0 El salario que igualaría la contribución causal con la compensación. Δ_B_club → 0.
+#### 4.25 ≈ 0 El salario que igualaría la contribución causal con la compensación. Δ_B_club → 0.
 
 Salario justo calculado (4.25M)
 
-### 6.0 −1.75M/año Δ_B negativo del club: el jugador estaría sobrepagado. No tiene base en el análisis causal aunque pueda tener base en el mercado.
+#### 6.0 −1.75M/año Δ_B negativo del club: el jugador estaría sobrepagado. No tiene base en el análisis causal aunque pueda tener base en el mercado.
 
 Reclamo del agente (6M)
 
 El análisis cuantificado de Δ_B produce el argumento más sólido para la negociación: el salario justo según la contribución causal es 4.25M euros anuales, no los 6M que el agente reclama (sin base en el análisis) ni los 3.5M que el club ofrece. La diferencia entre 3.5M y 4.25M (750,000 euros anuales) es el Δ_B que el análisis puede documentar y que el club no puede refutar si acepta el marco analítico.
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
@@ -568,43 +551,40 @@ En el caso hipotético, la evidencia favorece claramente al jugador (S_B = 0.46,
 
 El sistema es igualador en ese sentido: no favorece automáticamente a ninguna de las partes en la negociación. Favorece a quien tiene la evidencia de contribución causal real. Y esa evidencia puede ser producida, auditada, y cuestionada por ambas partes en la negociación.
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
 ### §5.  Límites del método en el análisis deportivo
 
-### 5.1 El problema de las contribuciones no estadísticas
+#### 5.1 El problema de las contribuciones no estadísticas
 
 Las métricas estadísticas avanzadas (xG, VAEP, pases progresivos) capturan muchas, pero no todas las contribuciones de un jugador al resultado. Un defensa que intimida a los delanteros rivales sin necesariamente hacer más recuperaciones, un capitán que cambia la dinámica emocional del vestuario, un jugador que libera a otro compañero para que rinda mejor —estas contribuciones tienen R*_B real, pero son difícilmente cuantificables con estadísticas disponibles. El análisis debe reconocer esa limitación y presentar los R*_B estimados como rangos, no como valores puntuales.
 
-### 5.2 La causalidad vs. la correlación en el rendimiento deportivo
+#### 5.2 La causalidad vs. la correlación en el rendimiento deportivo
 
 Las estadísticas avanzadas son correlacionales: el jugador con más VAEP tiende a estar asociado con más victorias. Pero esa correlación no siempre implica causalidad. Un equipo que domina el juego tiende a acumular VAEP en todos sus jugadores independientemente de la contribución individual. Separar la correlación de la causalidad requiere los métodos del §3.2 (comparación de ausencias y simulación contrafáctica) que son más robustos causalmente, pero tienen menor cobertura de datos.
 
-### 5.3 El azar en el fútbol y la varianza del resultado
+#### 5.3 El azar en el fútbol y la varianza del resultado
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
 El fútbol tiene una varianza de resultado excepcionalmente alta comparada con otros deportes. Un equipo superior puede perder con un equipo inferior en un porcentaje significativo de los partidos. Eso significa que R*_B × (1−S_B) de cualquier jugador individual tiene una componente de azar que es difícil de separar de la contribución genuina. El análisis a largo plazo (tres temporadas, como en el caso hipotético) reduce ese ruido, pero no lo elimina completamente.
 
-### 5.4 El problema del equipo que cambió: cuando el contexto no es estable
+#### 5.4 El problema del equipo que cambió: cuando el contexto no es estable
 
 El análisis de contribución causal asume que el equipo en el que el jugador opera es relativamente estable. Cuando hay rotación significativa de compañeros, el R*_B del jugador en una temporada puede no ser comparables con el de otra. Un jugador puede tener R*_B alto cuando sus compañeros son débiles (porque compensa sus limitaciones) y R*_B más bajo cuando sus compañeros son muy fuertes (porque hay más redundancia). Esa variación debe explicitarse en el análisis.
 
-### 5.5 El uso predictivo de R*_B y CI: cuatro instrumentos para la dirección deportiva
+#### 5.5 El uso predictivo de R*_B y CI: cuatro instrumentos para la dirección deportiva
 
 Los cuatro apartados anteriores aplicaron R*_B y CI al análisis retrospectivo de triunfos ya ocurridos. Pero los mismos instrumentos tienen una dimensión predictiva natural con aplicaciones directas a la gestión deportiva: antes de que la lesión ocurra, antes de que la ventana de transferencias abra, antes de que el contrato venza. En deportes, los datos son abundantes y los contrafácticos ocurren con frecuencia natural (cada lesión es un experimento de ausencia). Eso convierte a R*_B y CI en
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
 predictores con base empírica más sólida que en la mayoría de los dominios del libro.
 
-### Predictor 1: impacto en P(victoria) de la ausencia de cada jugador
+#### Predictor 1: impacto en P(victoria) de la ausencia de cada jugador
 
 Si S_B está estimada para cada jugador del plantel, se puede calcular de manera prospectiva cuánto caería la P(victoria) ante la ausencia de cualquier jugador, en función de quién sería el reemplazante disponible. Eso produce el mapa de fragilidad del equipo antes de que comience la temporada.
 
@@ -624,25 +604,24 @@ Jugador R*_B S_B CI Calidad rep.
 
 ΔP(vic.) esperada
 
-### 0.20 0.46 10.8% 0.35 −7.0 pp
+#### 0.20 0.46 10.8% 0.35 −7.0 pp
 
 Mediocampista estrella
 
-### 0.12 0.55 5.4% 0.60 −2.2 pp
+#### 0.12 0.55 5.4% 0.60 −2.2 pp
 
 Defensa lateral derecho
 
-### 0.15 0.60 6.0% 0.20 −4.8 pp
+#### 0.15 0.60 6.0% 0.20 −4.8 pp
 
 Delantero centro
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
 Portero titular 0.10 0.30 7.0% 0.75 −1.8 pp
 
-### 0.09 0.72 2.5% 0.80 −0.5 pp
+#### 0.09 0.72 2.5% 0.80 −0.5 pp
 
 Mediocampista defensivo
 
@@ -650,19 +629,18 @@ El mapa de fragilidad muestra que el mediocampista estrella produce la mayor ca�
 
 Predictor:  El resultado práctico del mapa de fragilidad: la dirección deportiva identifica que el mediocampista estrella es el nodo de mayor riesgo operativo de la temporada y prioriza la contratación de un reemplazante de mayor calidad (subir el factor_reemplazante de 0.35 a 0.65 bajaría el ΔP de −7.0 pp a −2.7 pp) antes de que la ventana de transferencias cierre.
 
-### Predictor 2: valor de mercado justo vs. precio de mercado — el arbitraje de transferencias
+#### Predictor 2: valor de mercado justo vs. precio de mercado — el arbitraje de transferencias
 
 El precio de mercado de un jugador (Transfermarkt, intermediarios, rumores de prensa) es lo que el mercado cree que vale en abstracto. La CI proyectada del jugador en el equipo comprador —calculada con los datos de contribución idiosincrática del jugador en su equipo actual y calibrada por la calidad del nuevo contexto— es lo que vale causalmente para ese club específico.
 
 Cuando CI_proyectada × B_total_esperado > precio_mercado, existe un diferencial de arbitraje: la transferencia genera valor esperado positivo para el club comprador incluso pagando el precio de mercado.
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
-### Valor_arbitraje = (CI_proyectada × B_total_esperado) − precio_mercado − coste_salarial
+#### Valor_arbitraje = (CI_proyectada × B_total_esperado) − precio_mercado − coste_salarial
 
-### Aplicación — tres escenarios de transferencia:
+#### Aplicación — tres escenarios de transferencia:
 
 Jugador Preci o merc ado
 
@@ -706,9 +684,8 @@ Jugador C — delantero 31 años
 
 El Jugador A con precio de mercado de 28M produce una CI/año de 4.28M sobre un B_total de 45M. Amortizando el coste de transferencia a 5 años (5.6M/año) más el salario estimado (2.5M/año), el coste total es 8.1M/año contra un valor de 4.28M/año. El ratio valor/coste es 0.53 — económicamente desfavorable, aunque la CI sea alta, porque el precio de mercado es excesivo respecto a la CI en ese equipo específico.
 
-### El Jugador C con precio de 15M y coste total ~5.5M/año (amortización + salario) contra CI/año de 1.30M produce el ratio más desfavorable: está en la fase descendente de su
+#### El Jugador C con precio de 15M y coste total ~5.5M/año (amortización + salario) contra CI/año de 1.30M produce el ratio más desfavorable: está en la fase descendente de su
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
@@ -716,7 +693,7 @@ ciclo de vida de R*_B y el precio de mercado aún no lo refleja. Es el error de 
 
 La diferencia con el scouting convencional:  Los sistemas de scouting evalúan la calidad del jugador en abstracto. El análisis de CI la calibra para el equipo específico comprador. Un mediocampista creativo con CI alta en un equipo de contraataque puede tener CI baja en un equipo de posesión, porque sus contribuciones idiosincráticas son menos necesarias cuando el sistema no depende de la creación individual. El análisis de CI es siempre contextual: predice el valor en ese equipo, no el valor en el mercado general.
 
-### Predictor 3: el momento óptimo de venta y no renovación
+#### Predictor 3: el momento óptimo de venta y no renovación
 
 El R*_B de un jugador evoluciona a lo largo de su carrera siguiendo una curva de campana: crece en la fase de desarrollo, alcanza el peak, y declina. El salario contratado es típicamente fijo o con pequeños incrementos anuales. El cruce entre el valor de CI proyectado y el coste salarial define el punto de inversión: el año a partir del cual el club paga más de lo que el jugador aporta causalmente.
 
@@ -772,23 +749,22 @@ El año de inversión ocurre en el año 5 del contrato (a los 30 años del jugad
 
 Predictor:  El club que vende al final del año 4 obtiene: el valor de mercado del jugador en su fase de buena forma (antes del descuento por edad), evita el año 5 de Δ_B negativo, y libera el presupuesto salarial para un reemplazante más joven en el comienzo de su curva de R*_B. Es el equivalente deportivo del análisis de timing de salida en inversiones financieras.
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
-### Predictor 4: composición óptima del plantel dado el presupuesto salarial
+#### Predictor 4: composición óptima del plantel dado el presupuesto salarial
 
 Dados los valores de CI de todos los jugadores disponibles en el mercado de transferencias y el presupuesto salarial total del club, el análisis de R*_B permite formular el problema de optimización de plantel: ¿qué combinación de jugadores maximiza la suma de CI ajustada por coste?
 
-### max Σᵢ CI_i × w_i sujeto a:  Σᵢ (precio_mercado_i +
+#### max Σᵢ CI_i × w_i sujeto a:  Σᵢ (precio_mercado_i +
 
-### salario_i) ≤ presupuesto
+#### salario_i) ≤ presupuesto
 
 donde w_i es el factor de complementariedad entre el jugador i y el resto del plantel (un jugador cuya CI se amplifica con los compañeros del equipo tiene w_i > 1; uno cuya CI no se complementa con ellos tiene w_i < 1).
 
 Este es un problema de programación entera con complementariedades —técnicamente demandante— pero resoluble con aproximaciones de Monte Carlo similares al cálculo de Shapley del §6.
 
-### Ejemplo simplificado — tres posiciones a cubrir con 20M de presupuesto:
+#### Ejemplo simplificado — tres posiciones a cubrir con 20M de presupuesto:
 
 CI w_compl .
 
@@ -802,29 +778,28 @@ CI ajustada / euro
 
 MC 7M EUR
 
-### 1.15 1.51%/ M
+#### 1.15 1.51%/ M
 
 Jugador X1
 
-### 9.2 %
+#### 9.2 %
 
 MC 5M EUR
 
-### 1.05 1.43%/ M
+#### 1.05 1.43%/ M
 
 Jugador X2
 
-### 6.8 %
+#### 6.8 %
 
 EXT 8M EUR
 
-### 1.10 1.03%/ M
+#### 1.10 1.03%/ M
 
 Jugador Y1
 
-### 7.5 %
+#### 7.5 %
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
@@ -836,19 +811,19 @@ Jugador Y2
 
 DC 9M EUR
 
-### 1.20 1.17%/ M
+#### 1.20 1.17%/ M
 
 Jugador Z1
 
-### 8.8 %
+#### 8.8 %
 
-### 1.00 1.03%/ M
+#### 1.00 1.03%/ M
 
 DC 6M EUR
 
 Jugador Z2
 
-### 6.2 %
+#### 6.2 %
 
 La combinación óptima dado el presupuesto de 20M es X1 + Y2 + Z2 (7 + 4 + 6 = 17M, por debajo del presupuesto, con CI ajustada total = 9.2×1.15 + 5.1×0.95 + 6.2×1.00 = 10.58 + 4.85 + 6.20 = 21.63%). La alternativa X1 + Y1 + Z2 (7+8+6 = 21M, fuera del presupuesto) produciría mayor CI total pero no es factible.
 
@@ -856,29 +831,25 @@ La alternativa presupuestaria más frecuente —X2 + Y1 + Z1 (5+8+9 = 22M, tambi
 
 Aplicación práctica:  El análisis de composición óptima invierte la lógica del mercado de transferencias: en lugar de partir del jugador deseado y buscar el presupuesto, parte del presupuesto disponible y busca la combinación de CI ajustada más alta dentro de él. Eso puede llevar a elegir jugadores de menor precio de mercado, pero mayor eficiencia de CI — exactamente el tipo de ineficiencia de mercado que el análisis causal puede explotar antes de que el mercado la corrija.
 
-### Código de referencia: los cuatro predictores
+#### Código de referencia: los cuatro predictores
 
 import numpy as np  # ════════════════════════════════════════ ══════ # PREDICTOR 1: Mapa de fragilidad del plantel # ════════════════════════════════════════ ══════ def mapa_fragilidad(R_star_B, S_B, calidad_reemplazante, P_victoria_base=0.70):     """     Para cada jugador, estima la caída en P(victoria)     si ese jugador está ausente y entra su reemplazante. Retorna dict con ΔP y ranking de riesgo.     """     n = len(R_star_B)
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
 CI = R_star_B * (1 - S_B)     delta_P = -CI * (1 - calidad_reemplazante) ranking = np.argsort(delta_P)  # más negativo = mayor riesgo      return {         'CI': CI,         'delta_P_victoria': delta_P,         'ranking_riesgo': ranking,   # índice 0 = mayor riesgo         'P_victoria_con_ausencia': P_victoria_base + delta_P,     }  # ════════════════════════════════════════ ══════ # PREDICTOR 2: Arbitraje de transferencias # ════════════════════════════════════════ ══════ def arbitraje_transferencia(CI_proyectada, B_total_anual, precio_mercado, salario_anual,                              anios_contrato=4, tasa_descuento=0.08):     """     Compara el valor de CI con el coste total de la transferencia.     CI_proyectada: contribución idiosincrática esperada en el equipo comprador     """     valor_CI_anual = CI_proyectada * B_total_anual     coste_amortizacion = precio_mercado / anios_contrato     coste_total_anual  = coste_amortizacion + salario_anual      # VPN del diferencial de valor a N años     vpn = sum((valor_CI_anual - coste_total_anual) / (1+tasa_descuento)**t for t in range(1, anios_contrato+1))      ratio_valor_coste = valor_CI_anual / coste_total_anual      return {         'valor_CI_anual': valor_CI_anual,         'coste_total_anual': coste_total_anual, 'ratio_valor_coste': ratio_valor_coste,         'VPN_transferencia': vpn, 'veredicto': ('COMPRA EFICIENTE' if ratio_valor_coste > 0.60 else 'NEUTRAL'      if ratio_valor_coste > 0.40                       else 'EVITAR'),     }  # ════════════════════════════════════════ ══════ # PREDICTOR 3: Año óptimo de venta # ════════════════════════════════════════ ══════ def ciclo_vida_R_star_B(R_peak, edad_peak, edad_actual, decaimiento_anual=0.018,                          S_B_base=0.46, incremento_S_anual=0.03):     """     Proyecta R*_B, S_B y CI para cada año futuro del jugador.     Modelo de declive: R*_B(t) = R_peak × exp(-decaimiento × (edad-peak))     S_B crece con la edad (el jugador se vuelve más sustituible).     """     import math     proyecciones = []     for anio in range(1, 8):         edad = edad_actual + anio         delta_edad = edad - edad_peak         R_B_t = R_peak * math.exp(-decaimiento_anual * max(0, delta_edad))         S_B_t = min(0.95, S_B_base + incremento_S_anual * max(0, delta_edad))         CI_t  = R_B_t * (1 -S_B_t)         proyecciones.append({             'anio': anio, 'edad': edad, 'R_star_B': round(R_B_t, 4),             'S_B': round(S_B_t, 4),             'CI': round(CI_t, 4),         })     return proyecciones  def anio_optimo_venta(proyecciones, B_total_anual, salario_anual):     """ Identifica el año en que CI × B_total cae por debajo del salario.     El año óptimo de venta es el anterior a ese cruce.     """     for p in proyecciones: valor_CI = p['CI'] * B_total_anual         p['delta_B_club'] = valor_CI -salario_anual         p['invertido'] = valor_CI < salario_anual anio_inversion = next(         (p['anio'] for p in proyecciones if p['invertido']), None)     anio_venta_optimo = (anio_inversion - 1) if anio_inversion else None     return proyecciones, anio_venta_optimo  # ════════════════════════════════════════ ══════ # PREDICTOR 4: Composición óptima del plantel # ════════════════════════════════════════
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
 ══════ def composicion_optima(candidatos, presupuesto_total, posiciones_requeridas, n_simulaciones=5000):     """     Aproximación greedy con factor de complementariedad.     candidatos: lista de dicts {nombre, posicion, coste, CI, w_compl}     """     import random mejor_CI_total = -1     mejor_combinacion = []      for _ in range(n_simulaciones):         random.shuffle(candidatos) seleccionados = {}         coste_acum = 0         CI_total = 0          for cand in candidatos:             pos = cand['posicion']             if pos in seleccionados: continue             if pos not in posiciones_requeridas: continue             if coste_acum + cand['coste'] > presupuesto_total: continue              seleccionados[pos] = cand             coste_acum += cand['coste']             CI_total   += cand['CI'] * cand['w_compl']          if (set(seleccionados.keys()) == set(posiciones_requeridas)                 and CI_total > mejor_CI_total):             mejor_CI_total = CI_total mejor_combinacion = list(seleccionados.values())      return { 'combinacion_optima': mejor_combinacion,         'CI_total_ajustada': mejor_CI_total,         'coste_total': sum(c['coste'] for c in mejor_combinacion),     }  # ── Ejemplos ── R_star = np.array([0.20, 0.12, 0.15, 0.10, 0.09]) S_B    = np.array([0.46, 0.55, 0.60, 0.30, 0.72]) reemp  = np.array([0.35, 0.60, 0.20, 0.75, 0.80])  print("=== Predictor 1: Mapa de fragilidad ===") frag = mapa_fragilidad(R_star, S_B, reemp) noms = ['MC_estrella','Lateral_der','Delantero','Portero','MC_defensivo'] for nm, ci, dp in zip(noms, frag['CI'], frag['delta_P_victoria']):     print(f" {nm:16s}  CI={ci:.3f}  ΔP(vic)={dp:+.3f}")  print("\n=== Predictor 2: Arbitraje de transferencia ===") casos = [('Jugador A', 0.095, 45e6, 28e6, 2.2e6),          ('Jugador C', 0.031, 42e6, 15e6, 1.8e6)] for nombre, CI, B, precio, salario in casos:     res = arbitraje_transferencia(CI, B, precio, salario)     print(f"  {nombre}: ratio={res['ratio_valor_coste']:.2f} → {res['veredicto']}")  print("\n=== Predictor 3: Ciclo de vida y año óptimo de venta ===") proyec, anio_venta = anio_optimo_venta( ciclo_vida_R_star_B(0.200, 27, 26), B_total_anual=39.3e6, salario_anual=3.5e6) for p in proyec[:5]:     print(f"  Año {p['anio']} (edad {p['edad']}): "           f"CI={p['CI']:.3f} Δ_B={p['delta_B_club']:+,.0f} EUR") print(f"  → Año óptimo de venta: {anio_venta}")  print("\n=== Predictor 4: Composición óptima ===") candidatos = [ {'nombre':'X1','posicion':'MC','coste':7e6,'CI':0.092,'w_compl':1.15}, {'nombre':'X2','posicion':'MC','coste':5e6,'CI':0.068,'w_compl':1.05}, {'nombre':'Y1','posicion':'EXT','coste':8e6,'CI':0.075,'w_compl':1.10}, {'nombre':'Y2','posicion':'EXT','coste':4e6,'CI':0.051,'w_compl':0.95}, {'nombre':'Z1','posicion':'DC','coste':9e6,'CI':0.088,'w_compl':1.20}, {'nombre':'Z2','posicion':'DC','coste':6e6,'CI':0.062,'w_compl':1.00}, ] res_comp = composicion_optima(     candidatos, presupuesto_total=20e6,     posiciones_requeridas=['MC','EXT','DC']) print(f"  Combinación: {[c['nombre'] for c in res_comp['combinacion_optima']]}") print(f"  CI total ajustada: {res_comp['CI_total_ajustada']:.4f}") print(f"  Coste total: EUR {res_comp['coste_total']:,.0f}")
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
 ⚠  Todos los predictores requieren datos históricos de al menos 2-3 temporadas completas para que la estimación de S_B sea robusta. Con menos datos, los intervalos de confianza son amplios y el análisis debe presentarse como escenarios (optimista / base / pesimista) en lugar de valores puntuales. El riesgo de sobrefitting a datos de pocas ausencias es real: un jugador que estuvo ausente solo en partidos contra rivales débiles puede mostrar una S_B artificialmente alta.
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
@@ -886,7 +857,7 @@ contribución
 
 ### §6.  Profundización formal
 
-### 6.1 El modelo formal de R*_B en el grafo de contribución
+#### 6.1 El modelo formal de R*_B en el grafo de contribución
 
 Sea G_dep = (N, A, w) el grafo de contribución deportiva donde los nodos N son los jugadores, el sistema de juego y el cuerpo técnico, las aristas A son las dependencias de la contribución de cada nodo con las de los demás, y los pesos w son los niveles de interdependencia. El R*_B se calcula con la misma iteración de potencia que R*_D:
 
@@ -908,13 +879,12 @@ CI_i = R*_B_i × (1 − S_B_i)
 
 CI_i es la contribución idiosincrática del jugador i: la fracción del triunfo que ese jugador específico y ningún otro habría podido producir. Este es el número correcto para la
 
-El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
 contribución
 
 negociación salarial: no el R*_B total, sino la CI que mide la indispensabilidad real.
 
-### 6.2 El valor de Shapley deportivo: cuando hay múltiples estrellas
+#### 6.2 El valor de Shapley deportivo: cuando hay múltiples estrellas
 
 En equipos con múltiples estrellas (el Barça de 2010-2015 con Messi, Xavi, Iniesta, Villa; el Bayern de 2012-2013 con Ribéry, Robben, Müller, Lahm), el valor de Shapley deportivo distribuye la contribución al triunfo entre las estrellas considerando todas las posibles combinaciones de jugadores:
 
@@ -928,7 +898,7 @@ Este valor es el análogo deportivo exacto del valor de Shapley del Capítulo 14
 
 Para el Brasil de 1970, el cálculo de φ_B para Pelé vs. Gerson produce un resultado interesante: el φ_B de Gerson puede ser mayor que el de Pelé porque Gerson tiene menor sustituibilidad en el sistema táctico de Zagallo (hay menos jugadores en el mundo capaces de hacer lo que Gerson hacía) aunque Pelé sea el más famoso y el que anota más goles.
 
-### 6.3 La evolución de R*_B con el tiempo: el ciclo de vida del jugador
+#### 6.3 La evolución de R*_B con el tiempo: el ciclo de vida del jugador
 
 El R*_B de un jugador no es constante a lo largo de su carrera. Tiene una trayectoria que el análisis puede modelar: El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
@@ -940,7 +910,7 @@ donde f es una función que modela la curva de rendimiento del jugador: aumenta 
 
 Esa dinámica tiene consecuencias directas para la negociación de contratos a largo plazo: un contrato de 5 años firmado en el peak puede estar correctamente valorado en los primeros 2-3 años y sobrevalorado en los últimos 2, cuando R*_B ha caído pero el salario permanece constante.
 
-### 6.4 Código Python de referencia
+#### 6.4 Código Python de referencia
 
 import numpy as np from scipy.stats import pearsonr from itertools import combinations import math  def analisis_contribucion_deportiva(W_dep, vaep_jugadores=None, P_victoria_con=None,                                     P_victoria_sin=None, B_total=None, salario_actual=None):     """     Análisis de contribución causal al resultado deportivo (R*_B).     W_dep:            matriz de contribuciones entre nodos del equipo     vaep_jugadores:   fracción de VAEP por jugador (suma = 1)     P_victoria_con:   P(victoria | con jugador) para cada posición     P_victoria_sin:   P(victoria | sin jugador) para cada posición     B_total:          beneficio total del triunfo en euros/dólares     salario_actual:   salario actual del jugador bajo análisis (nodo 0)     """     n = W_dep.shape[0]      # ── R*_B via iteración de potencia ──     R = np.ones(n) / n     for _ in range(500):         Rn = W_dep @ R; s = np.sum(Rn)         if s < 1e-12: break         Rn /= s if np.max(np.abs(Rn - R)) < 1e-9: break         R = Rn     R_star_B = Rn # ── S_B via historial de ausencias ──     S_B = np.ones(n) * 0.5  # prior moderado     if P_victoria_con is not None and P_victoria_sin is not None:         for i in range(len(P_victoria_con)):             S_B[i] = 1.0 -abs(P_victoria_con[i] - P_victoria_sin[i])      # ── Contribución Idiosincrática (CI) ──     CI = R_star_B * (1 - S_B)      result = { 'R_star_B': R_star_B,         'S_B': S_B,         'CI': CI,  # contribución idiosincrática         'CI_ranking': list(np.argsort(-CI)),     }      # ── VAEP como método alternativo de R*_B ──     if vaep_jugadores is not None:         vaep = np.array(vaep_jugadores)         vaep = vaep / El Cálculo de la Responsabilidad · Cap. 17 — Deportes y valor de
 
@@ -956,5 +926,4 @@ Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y A
 
 Continúa en el Capítulo 18 — Literatura y análisis cultural
 
-El Cálculo de la Responsabilidad · Cap. 18 — Literatura y análisis cultural
 
