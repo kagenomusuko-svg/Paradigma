@@ -2,7 +2,7 @@
   "id": "ECO",
   "title": "ECO: Entrevista Clínica Ontológica",
   "source": "corpus/fuentes/ECO Entrevista Clínica Ontológica.md",
-  "sha256": "5b07dc6e46855a327e18cf410c25b75d25ec0d39f5e90f4969a05b7821220fa1",
+  "sha256": "21ef77682909fb064f79fb82c9bd3139a96d6ba9262e8de6c05539fb29b0a196",
   "collection": "Autodeterminación Causal",
   "volume": null,
   "source_anomalies": [],
@@ -148,23 +148,23 @@
       "key": "B·IV",
       "heading": "B·IV ·  PRINCIPIOS GENERALES DE",
       "start_line": 7167,
-      "end_line": 7598
+      "end_line": 7596
     },
     {
       "path": "corpus/libros/eco/bloque-iv-03.md",
       "kind": "modulo",
       "key": "B·IV·3",
       "heading": "B·IV · §3 ·  CUÁNDO ECO ESTÁ COMPLETO",
-      "start_line": 7599,
-      "end_line": 8156
+      "start_line": 7597,
+      "end_line": 8154
     },
     {
       "path": "corpus/libros/eco/90-apendices.md",
       "kind": "apendices",
       "key": "APENDICES",
       "heading": "APÉNDICES · Instrumentos de trabajo del mediador",
-      "start_line": 8157,
-      "end_line": 9791
+      "start_line": 8155,
+      "end_line": 9789
     }
   ]
 }

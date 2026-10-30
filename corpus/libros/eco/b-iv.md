@@ -18,9 +18,7 @@ La hipótesis de trabajo del Bloque IV es que la mayoría de los errores que com
 
 Esta sección establece los cinco errores de intervención post-localización más frecuentes y más dañinos. Los cinco son conductas que el mediador puede ejecutar con buena intención y con la creencia de que está ayudando —lo que los hace especialmente importantes de nombrar con precisión. No son errores éticos en el sentido de que el mediador quiera dañar: son errores ontológicos en el sentido de que el mediador interviene desde una comprensión incorrecta de cómo funciona el proceso de acompañamiento.
 
-Error Descripción breve Mecanismo de daño
-
-Señal de alerta en sesión
+<!-- TABLA: cinco errores de intervención | columnas: error, descripción breve, mecanismo de daño, señal de alerta en sesión -->
 
 E·1 — El diagnóstico como revelación
 
