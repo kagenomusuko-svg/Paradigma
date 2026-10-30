@@ -1,4 +1,3 @@
-<!-- PARTE: IV · Principios generales de intervención -->
 ### B·IV · §5 ·  CRITERIOS DE DERIVACIÓN
 
 ### FUERA DEL PARADIGMA
@@ -158,4 +157,7 @@ Notas al B·IV §5
 4 La síntesis del Bloque IV que la caja de conclusión al final del §5 produce — las dos competencias del mediador como inseparables — tiene un antecedente en la tradición de las profesiones de cuidado que el paradigma puede reconocer sin adoptarla como propia: la competencia técnica y la competencia ética son inseparables en cualquier práctica que trabaja con el bienestar de personas. El paradigma de Mediación Ontológica no reinventa ese principio: lo implementa en el lenguaje y los instrumentos específicos del sistema ontológico. La innovación del sistema no está en el principio ético — que es compartido — sino en la precisión técnica con la que ese principio puede implementarse desde las localizaciones que ECO produce.
 
 Entrevista Clínica Ontológica · ECO
+
+
+<!-- FORMULARIO: A·1 | salto de página | campos rellenables, casillas de verificación, tablas de localización y áreas de notas -->
 

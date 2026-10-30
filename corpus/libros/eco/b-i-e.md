@@ -1,4 +1,3 @@
-<!-- PARTE: I · Los Hijos de Afrodita -->
 ### B·I·E ·  MÓDULO EROS
 
 ### La voluntad que se abre hacia la alteridad

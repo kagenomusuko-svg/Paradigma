@@ -1,4 +1,3 @@
-<!-- PARTE: II · Los cinco ejes del SDO -->
 ### B·II·I ·  MÓDULO EJE I — ESTADOS DEL
 
 ### EGO

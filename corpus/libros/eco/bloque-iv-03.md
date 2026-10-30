@@ -1,4 +1,3 @@
-<!-- PARTE: IV · Principios generales de intervención -->
 ### B·IV · §3 ·  CUÁNDO ECO ESTÁ COMPLETO
 
 ### Y CUÁNDO NO

@@ -1,4 +1,3 @@
-<!-- PARTE: II · Los cinco ejes del SDO -->
 ### B·II·IV ·  MÓDULO EJE IV — DISFORIA
 
 ### La presencia o ausencia de la señal del ego

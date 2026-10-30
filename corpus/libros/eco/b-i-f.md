@@ -1,4 +1,3 @@
-<!-- PARTE: I · Los Hijos de Afrodita -->
 ### B·I·F · MÓDULO FOBOS
 
 #### La voluntad que reacciona ante la amenaza

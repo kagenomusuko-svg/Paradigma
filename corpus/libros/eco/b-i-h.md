@@ -1,4 +1,3 @@
-<!-- PARTE: I · Los Hijos de Afrodita -->
 ### B·I·H  ·  MÓDULO HARMONÍA · D-2
 
 ### La integración y la anestesia — dos estados

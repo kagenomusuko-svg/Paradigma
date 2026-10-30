@@ -1,4 +1,3 @@
-<!-- PARTE: IV · Principios generales de intervención -->
 ### B·IV · §4 ·  CRITERIOS DE DERIVACIÓN A
 
 ### HISTOS

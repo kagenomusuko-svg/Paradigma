@@ -1,4 +1,3 @@
-<!-- PARTE: I · Los Hijos de Afrodita -->
 B·I·A · MÓDULO ANTEROS
 
 ### La voluntad que se afirma desde el eje propio

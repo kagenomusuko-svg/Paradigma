@@ -1,4 +1,3 @@
-<!-- PARTE: III · La entrevista al ego colectivo -->
 ### B·III·5 ·  MEMORIA COMUNITARIA — LO QUE FUE, LO QUE ES, LO QUE PUDO SER
 
 ### La estructura triádica de la Memoria

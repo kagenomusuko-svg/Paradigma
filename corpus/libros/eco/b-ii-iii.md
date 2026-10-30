@@ -1,4 +1,3 @@
-<!-- PARTE: II · Los cinco ejes del SDO -->
 ### B·II·III ·  MÓDULO EJE III — VÍNCULO
 
 La estructura del encuentro con el Otro Localización de los códigos V-1, V-2 y V-3 del Eje III · El campo

@@ -1,4 +1,3 @@
-<!-- PARTE: III · La entrevista al ego colectivo -->
 ### B·III·4 ·  ANÁLISIS DE ARTEFACTOS
 
 ### COLECTIVOS

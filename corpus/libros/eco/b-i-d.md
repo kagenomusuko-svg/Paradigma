@@ -1,4 +1,3 @@
-<!-- PARTE: I · Los Hijos de Afrodita -->
 B·I·D · MÓDULO DEIMOS
 
 La voluntad que se paraliza ante la simetría Localización del Hijo de la parálisis ante la multiplicidad equivalente

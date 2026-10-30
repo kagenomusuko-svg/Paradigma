@@ -1,4 +1,3 @@
-<!-- PARTE: I · Los Hijos de Afrodita -->
 B·I·P · MÓDULO POTÓS
 
 La voluntad que busca lo que ya no está Localización del Hijo de la orientación hacia lo ausente · Legibilidad

@@ -1,4 +1,3 @@
-<!-- PARTE: PRELIMINAR · Fundamentos del instrumento -->
 ### Capítulo P·4
 
 ## Convenciones del instrumento

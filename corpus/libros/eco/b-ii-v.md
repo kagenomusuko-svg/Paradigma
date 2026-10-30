@@ -1,4 +1,3 @@
-<!-- PARTE: II · Los cinco ejes del SDO -->
 ### B·II·V ·  MÓDULO EJE V —
 
 ### TANATOLÓGICO

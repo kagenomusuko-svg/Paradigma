@@ -1,4 +1,3 @@
-<!-- PARTE: IV · Principios generales de intervención -->
 ### B·IV · §2 ·  LA LOCALIZACIÓN SIN
 
 ### ETIQUETA

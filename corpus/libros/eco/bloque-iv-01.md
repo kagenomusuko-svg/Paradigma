@@ -1,4 +1,3 @@
-<!-- PARTE: IV · Principios generales de intervención -->
 ### B·IV ·  PRINCIPIOS GENERALES DE
 
 ### INTERVENCIÓN

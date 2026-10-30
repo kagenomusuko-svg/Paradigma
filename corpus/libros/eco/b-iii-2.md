@@ -1,4 +1,3 @@
-<!-- PARTE: III · La entrevista al ego colectivo -->
 ### B·III·2 ·  ENTREVISTA A LOS MIEMBROS
 
 ### Cómo leer el colectivo a través de quien lo

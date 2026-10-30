@@ -1,4 +1,3 @@
-<!-- PARTE: II · Los cinco ejes del SDO -->
 ### B·II·II ·  MÓDULO EJE II — MASCARADA
 
 ### La forma que el ego toma en el mundo

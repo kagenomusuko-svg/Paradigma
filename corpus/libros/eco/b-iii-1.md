@@ -1,4 +1,3 @@
-<!-- PARTE: III · La entrevista al ego colectivo -->
 ### B·III·1 ·  EL EGO SOBERANO COMO PUNTO
 
 ### DE ENTRADA

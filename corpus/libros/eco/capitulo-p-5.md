@@ -1,4 +1,3 @@
-<!-- PARTE: PRELIMINAR · Fundamentos del instrumento -->
 ### Capítulo P·5
 
 ### Criterios de entrada, salto y cierre

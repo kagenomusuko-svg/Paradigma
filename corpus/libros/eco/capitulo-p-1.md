@@ -1,4 +1,3 @@
-<!-- PARTE: PRELIMINAR · Fundamentos del instrumento -->
 ### Capítulo P·1
 
 Qué es ECO y qué no es La función del instrumento en el sistema

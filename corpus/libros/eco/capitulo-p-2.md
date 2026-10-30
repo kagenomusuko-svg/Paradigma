@@ -1,4 +1,3 @@
-<!-- PARTE: PRELIMINAR · Fundamentos del instrumento -->
 ### Capítulo P·2
 
 Los perfiles de mediador Quién usa ECO, cómo lo usa y qué debe poder responder con él
