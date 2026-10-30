@@ -1,16 +1,11 @@
-PARTE IV · INGENIERÍA Y TECNOLOGÍA
+# Capítulo 14
+## Medio ambiente y ecología
 
-### Capítulo 14 Medio ambiente y
+*Contribución causal al daño ecológico: el límite del método y su extensión*
 
-### ecología
+*Cuando ningún nodo individual es condición necesaria y suficiente: la extensión mediante valores de Shapley*
 
-Contribución causal al daño ecológico: el límite del método y su
-
-extensión
-
-Cuando ningún nodo individual es condición necesaria y suficiente:
-
-la extensión mediante valores de Shapley
+---
 
 ### §1.  El problema
 
@@ -18,7 +13,6 @@ En la madrugada del 3 de diciembre de 1984, una válvula de seguridad en la plan
 
 La pregunta de responsabilidad causal en Bhopal tiene tres dimensiones que el sistema puede analizar con precisión: la
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 responsabilidad de la filial india (Union Carbide India Limited, UCIL, operadora directa de la planta), la responsabilidad de la casa matriz estadounidense (Union Carbide Corporation, UCC, que diseñó la tecnología y aprobó los estándares de seguridad rebajados), y la responsabilidad del gobierno indio (que en su interés por atraer inversión extranjera había permitido el asentamiento de barrios de trabajadores a metros de la planta y había presionado para que la planta usara tecnología más barata). Los tres nodos contribuyeron causalmente al resultado. El sistema que siguió al accidente —el litigio internacional más complejo de la historia ambiental— nunca distribuyó la responsabilidad con precisión proporcional al peso causal de cada uno.
 
@@ -26,13 +20,12 @@ El segundo caso de este capítulo —Chevron-Ecuador— produce el límite más 
 
 Este capítulo tiene una estructura diferente a los anteriores en su parte final: no solo aplica el método, sino que desarrolla explícitamente su límite y su extensión. El límite es la causalidad difusa acumulativa: el daño ecológico de largo plazo producido por múltiples actores sin que ninguno sea condición necesaria y suficiente. La extensión
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
-### es el valor de Shapley: el instrumento de la teoría de juegos cooperativos que distribuye correctamente la responsabilidad en ese escenario.
+#### es el valor de Shapley: el instrumento de la teoría de juegos cooperativos que distribuye correctamente la responsabilidad en ese escenario.
 
-### 1.1 La singularidad ontológica del daño ecológico
+#### 1.1 La singularidad ontológica del daño ecológico
 
-### El daño ecológico tiene cuatro características que lo distinguen de todos los dominios anteriores del libro y que determinan los instrumentos adecuados para su análisis:
+#### El daño ecológico tiene cuatro características que lo distinguen de todos los dominios anteriores del libro y que determinan los instrumentos adecuados para su análisis:
 
 Característica Descripción Consecuencia para el análisis
 
@@ -54,7 +47,6 @@ El daño es frecuentemente el resultado de la acumulación de contribuciones de 
 
 El postulado de la condición necesaria del sistema no se cumple para ningún actor individual. Aquí es donde R* falla y Shapley es necesario.
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 condición necesaria y suficiente.
 
@@ -64,7 +56,7 @@ Irreversibilidad parcial
 
 Algunos daños ecológicos son permanentes o requieren siglos para recuperarse. La pérdida de biodiversidad y el cambio climático tienen componentes irreversibles.
 
-### 1.2 Cuándo el método funciona y cuándo necesita extensión
+#### 1.2 Cuándo el método funciona y cuándo necesita extensión
 
 El método de imputación causal basado en R* funciona correctamente cuando al menos un actor tiene una posición de "condición necesaria" en el grafo: el daño no habría ocurrido (o habría sido sustancialmente menor) sin ese actor. Bhopal cumple esa condición: sin la filial UCIL y sin la casa matriz UCC, la planta no habría existido en esa forma. El análisis de R* es directamente aplicable.
 
@@ -72,13 +64,11 @@ El método necesita extensión cuando el daño es acumulativo y ningún actor es
 
 ⊘ Límite del método:  El límite del postulado de la condición necesaria: cuando hay n actores y el daño D ocurre si y solo si la suma de sus contribuciones supera un umbral θ,
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 pero ningún actor individual supera θ, entonces dD/dNᵢ = 0 para todo i. El postulado I5 no se cumple para ningún nodo y el vector R* convencional asigna cero a todos los actores, lo que es evidentemente incorrecto. Este es el límite más importante del método y el que justifica la extensión mediante valores de Shapley.
 
 Valor de Shapley φᵢ:  La distribución justa de la responsabilidad en un problema de causalidad acumulativa, calculada como la contribución marginal promedio de cada actor sobre todas las posibles coaliciones de actores. φᵢ mide "cuánto añade el actor i a la contaminación total, en promedio, cuando se une a cada subconjunto posible de los otros actores". Es la extensión de R* para el caso en que ningún actor es condición necesaria individualmente.
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 ### §2.  Página puente — Traducción al lenguaje ambiental y ecológico
 
@@ -104,7 +94,6 @@ Contribución marginal promedio en causalidad acumulativa
 
 La extensión de R* para daños acumulativos donde ningún actor es condición necesaria individualmente. φᵢ distribuye la responsabilidad
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 proporcional a la contribución marginal de cada actor sobre todas las posibles coaliciones. Se usa cuando R* convencional falla.
 
@@ -132,7 +121,6 @@ Daño ecológico integral
 
 T_invertido (daño inmediato: muertes, destrucción de hábitat, contaminación del suelo y agua), T_impedido (pérdida de servicios ecosistémicos durante el período de
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 contaminación activa), ΔT_trayectoria (pérdida permanente de biodiversidad, daño irreversible al sistema ecológico).
 
@@ -150,13 +138,12 @@ Umbral de acumulación de contaminación
 
 Para el lector que viene del núcleo universal:  Este capítulo tiene la estructura más compleja del libro porque incluye dos instrumentos que los anteriores no usaron juntos: R* convencional para Bhopal (donde el postulado de la condición necesaria se cumple) y valores de Shapley para Chevron-Ecuador (donde no se cumple). El §5 desarrolla el límite del método con precisión y el §6 desarrolla la extensión Shapley formalmente.
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 ### §3.  Las herramientas en el dominio ambiental
 
-### 3.1 El grafo causal del daño ambiental: cuatro niveles
+#### 3.1 El grafo causal del daño ambiental: cuatro niveles
 
-### El grafo del daño ambiental tiene una estructura de cuatro niveles que incluye tanto actores humanos como condiciones ecológicas del sistema afectado:
+#### El grafo del daño ambiental tiene una estructura de cuatro niveles que incluye tanto actores humanos como condiciones ecológicas del sistema afectado:
 
 Nivel Tipo de nodo Función causal
 
@@ -178,7 +165,6 @@ R* del nodo de diseño. En la mayoría de los desastres industriales, la casa ma
 
 UCC: diseñó la tecnología, estableció los estándares de seguridad y aprobó las reducciones de costo que resultaron en estándares más bajos.
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 Regulador / gobierno
 
@@ -196,11 +182,10 @@ No tiene R* en el sentido de responsabilidad (no es un actor), pero sus condicio
 
 Dirección del viento, densidad de población circundante, características del suelo para la absorción del gas.
 
-### 3.2 R* en el dominio ambiental: la filial vs. la casa matriz
+#### 3.2 R* en el dominio ambiental: la filial vs. la casa matriz
 
 Uno de los debates más importantes del derecho ambiental internacional es la responsabilidad de las casas matrices de empresas multinacionales por el daño causado por sus filiales en otros países. El cálculo de R* permite resolver ese debate con precisión cuando el grafo causal está bien construido.
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 La condición para que la casa matriz tenga R* positivo es que sus decisiones sean condición causal del daño: si la filial no hubiera podido operar de esa manera sin la tecnología, los estándares o los recursos de la casa matriz, entonces la casa matriz es un nodo del grafo con arista hacia el resultado dañino.
 
@@ -214,17 +199,23 @@ menor
 
 La distinción entre el daño producido por la filial operando dentro de los estándares aprobados por la casa matriz y el daño producido por la filial operando por debajo de esos estándares es crucial para el análisis:
 
-•  Si la filial operaba dentro de los estándares aprobados por la casa matriz y de todas formas ocurrió el daño: R* de la casa matriz es alto por el diseño de los estándares. •  Si la filial operaba por debajo de los estándares aprobados y la casa matriz no supervisó: R* de la casa matriz es moderado por la omisión de supervisión. •  Si la filial operaba por debajo de los estándares aprobados y la casa matriz lo sabía y no actuó: R* de la casa matriz es alto por la omisión deliberada.
+- Si la filial operaba dentro de los estándares aprobados por la casa matriz y de todas formas ocurrió el daño: R* de la casa matriz es alto por el diseño de los estándares.
+- Si la filial operaba por debajo de los estándares aprobados y la casa matriz no supervisó: R* de la casa matriz es moderado por la omisión de supervisión.
+- Si la filial operaba por debajo de los estándares aprobados y la casa matriz lo sabía y no actuó: R* de la casa matriz es alto por la omisión deliberada.
 
-### 3.3 El índice de sustituibilidad S en el daño ambiental
+
+#### 3.3 El índice de sustituibilidad S en el daño ambiental
 
 En el dominio ambiental, S del contaminador tiene implicaciones directas para el tipo de regulación más eficiente:
 
-•  S alto del contaminador: cualquier empresa con la misma tecnología disponible y bajo el mismo marco
+- S alto del contaminador: cualquier empresa con la misma tecnología disponible y bajo el mismo marco
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
-regulatorio habría generado el mismo daño. El problema no es esa empresa en particular: es el marco regulatorio que lo permitía. La reforma debe ser normativa (cambiar los estándares del sector) más que orientada a ese contaminador específico. •  S bajo del contaminador: las prácticas específicas de esa empresa —sus reducciones de costos, sus omisiones de mantenimiento, sus decisiones de localización— eran causalmente determinantes. La regulación puede focalizarse en esa empresa y en su comportamiento idiosincrático.
+
+regulatorio habría generado el mismo daño. El problema no es esa empresa en particular: es el marco regulatorio que lo permitía. La reforma debe ser normativa (cambiar los estándares del sector) más que orientada a ese contaminador específico.
+
+- S bajo del contaminador: las prácticas específicas de esa empresa —sus reducciones de costos, sus omisiones de mantenimiento, sus decisiones de localización— eran causalmente determinantes. La regulación puede focalizarse en esa empresa y en su comportamiento idiosincrático.
+
 
 La combinación R*_contaminador × (1 − S) produce la responsabilidad causal neta del contaminador, que es la base técnica para la cuantificación de la orden de remediación:
 
@@ -232,7 +223,7 @@ Orden_remediación_proporcional_i = R*ᵢ × (1 − Sᵢ) ×
 
 D_total
 
-### 3.4 El daño ambiental integral y los servicios ecosistémicos
+#### 3.4 El daño ambiental integral y los servicios ecosistémicos
 
 El D_total en el dominio ambiental incluye tres componentes que en los dominios anteriores están presentes pero que aquí adquieren su mayor escala:
 
@@ -256,11 +247,10 @@ Estudios epidemiológicos de largo plazo, modelos de recuperación ecológica co
 
 Principio ecológico:  Los servicios ecosistémicos son tiempo de vida cristalizado de las comunidades que dependen de esos ecosistemas para subsistir. Cuando una comunidad agrícola pierde su suelo cultivable durante una década por un derrame tóxico, cada año de pérdida de cosecha es trabajo no recompensado y subsistencia no posible. D_vital = D_total / w_ref captura esa dimensión: el daño ambiental siempre es también un daño a la economía del tiempo de vida de las comunidades afectadas.
 
-### 3.5 La extensión Shapley: cuando R* convencional falla
+#### 3.5 La extensión Shapley: cuando R* convencional falla
 
 El valor de Shapley fue desarrollado por Lloyd Shapley en 1953 en el contexto de la teoría de juegos cooperativos para distribuir justa y eficientemente la ganancia de una coalición
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 entre sus miembros. Su aplicación a la distribución de responsabilidad en daños acumulativos es directa: en lugar de distribuir una ganancia, distribuye un daño.
 
@@ -274,7 +264,6 @@ Interpretación intuitiva: φᵢ es la contribución marginal promedio del actor
 
 Extensión Shapley:  Los valores de Shapley tienen cuatro propiedades que los hacen la distribución más justa para daños acumulativos: (1) Eficiencia: Σᵢ φᵢ = v(N) — la suma de todas las responsabilidades individuales iguala el daño total. (2) Simetría: actores con la misma contribución marginal en todas las coaliciones reciben la misma φ. (3) Nulo: un actor que no añade nada a ninguna coalición tiene φ = 0. (4) Aditividad: si hay dos problemas de daño independientes, la responsabilidad total es la suma de las responsabilidades en cada problema.
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 ### §4.  Casos resueltos
 
@@ -290,11 +279,10 @@ En los meses previos al accidente, por razones de reducción de costos, todos es
 
 El litigio que siguió fue uno de los más complejos de la historia del derecho ambiental. Union Carbide Corporation (la casa matriz estadounidense) argumentó que UCIL (la filial india) era una entidad legalmente separada y que las decisiones operativas de la planta eran responsabilidad de la gestión india. El gobierno indio, por su parte, enfrentaba la acusación de haber permitido el asentamiento de comunidades cercanas a la planta y de haber presionado
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 para que la tecnología fuera localizada con menor costo. La resolución judicial fue un acuerdo de $470 millones en 1989 que muchos consideraron insuficiente. Dos de los directivos de UCIL fueron condenados en 2010 a dos años de prisión —veintiséis años después del accidente.
 
-### A.2 El grafo causal de Bhopal
+#### A.2 El grafo causal de Bhopal
 
 Nodo Actor/Factor Tipo Función causal en el accidente
 
@@ -310,7 +298,6 @@ Operación y mantenimiento
 
 Operó la planta con los sistemas de seguridad comprometidos. Tomó las decisiones de apagar el refrigerante y la antorcha de quemado. Nodo de ejecución con posición causal alta.
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 N3 Gobierno indio: permisos y decisiones de localización
 
@@ -334,9 +321,8 @@ Nodo final No entra en el cálculo de R*.
 
 Nf 500,000 afectados
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
-### A.3 R*, S y la controversia UCC vs. UCIL
+#### A.3 R*, S y la controversia UCC vs. UCIL
 
 Nodo R* S α Interpretación y Δ
 
@@ -360,9 +346,8 @@ N4 — Reducción costos
 
 N5 — Condiciones meteor.
 
-### La conclusión más importante del análisis: UCC (la casa matriz estadounidense) tiene R* = 38% y pagó $470
+#### La conclusión más importante del análisis: UCC (la casa matriz estadounidense) tiene R* = 38% y pagó $470
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 millones en el acuerdo de 1989. Ese acuerdo representó aproximadamente $940 por víctima afectada —una fracción mínima del D_total proporcional a su responsabilidad causal. Su argumento de que UCIL era una entidad legalmente separada fue aceptado por los tribunales estadounidenses, pero en el análisis causal es irrelevante para la distribución del daño: la separación jurídica entre casa matriz y filial no elimina la arista causal entre UCC y el accidente.
 
@@ -378,9 +363,13 @@ A.4 El D_total de Bhopal en tiempo de vida
 
 Parámetros:
 
-•  Muertes directas documentadas: 3,787-7,575 (usamos 5,000 como estimación central). Edad promedio: 30 años. Esperanza de vida residual: ~47 años = 411,720 horas. •  Enfermos crónicos permanentes: ~120,000 personas con secuelas respiratorias, neurológicas y reproductivas permanentes. q_real promedio: 0.60 (pérdida del 40% de calidad de vida). •  Personas expuestas con daño documentado: ~500,000. Período de impacto agudo: promedio 3 años de síntomas persistentes. •  Pérdida de servicios ecosistémicos (suelo contaminado, agua contaminada) por 20+ años en la zona afectada. •  w_ref = $8 USD/hora PPP 2024.
+- Muertes directas documentadas: 3,787-7,575 (usamos 5,000 como estimación central). Edad promedio: 30 años. Esperanza de vida residual: ~47 años = 411,720 horas.
+- Enfermos crónicos permanentes: ~120,000 personas con secuelas respiratorias, neurológicas y reproductivas permanentes. q_real promedio: 0.60 (pérdida del 40% de calidad de vida).
+- Personas expuestas con daño documentado: ~500,000. Período de impacto agudo: promedio 3 años de síntomas persistentes.
+- Pérdida de servicios ecosistémicos (suelo contaminado, agua contaminada) por 20+ años en la zona afectada.
+- w_ref = $8 USD/hora PPP 2024.
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
+
 
 D_vital_muertes = 5,000 × 411,720 h × 1.0 = 2.059 ×
 
@@ -396,7 +385,6 @@ D_monetary_equiv ≈ $174,000M USD (2024)
 
 Los $470 millones pagados por UCC representan el 0.27% del D_monetary_equiv proporcional. Incluso si se incluyen todas las compensaciones posteriores —los acuerdos adicionales del gobierno indio, los programas de salud— el total no supera el 0.5% del daño ontológico en tiempo de vida. J_Bhopal ≈ 0.08: injusticia estructural severa.
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 Caso B — Chevron-Ecuador (1964–2011 y posterior)
 
@@ -410,13 +398,16 @@ En 1993 se inició una demanda colectiva en nombre de aproximadamente 30,000 per
 
 Para el análisis de responsabilidad causal, la controversia sobre el proceso legal es secundaria. Lo que importa metodológicamente es la pregunta sustantiva: dado que había múltiples fuentes de contaminación (Texaco/Chevron, Petroecuador y las operaciones posteriores de terceros), dado que la contaminación se acumuló durante décadas, y dado que ninguna fuente individual es responsable del 100% de la contaminación documentada, ¿cómo se distribuye la responsabilidad?
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 B.2 Por qué R* convencional falla en este caso
 
 El método de R* convencional requiere que al menos un actor sea condición necesaria del daño: que sin ese actor el daño no habría ocurrido. En el caso de Chevron-Ecuador, el escenario es más complejo:
 
-•  Texaco/Chevron operó la región entre 1964 y 1992 y dejó contaminación documentada. •  Petroecuador continuó operando la región después de 1992 y también produjo contaminación. •  Operadores posteriores añadieron capas adicionales de contaminación. •  El daño documentado en comunidades es el resultado de décadas de acumulación de estas fuentes.
+- Texaco/Chevron operó la región entre 1964 y 1992 y dejó contaminación documentada.
+- Petroecuador continuó operando la región después de 1992 y también produjo contaminación.
+- Operadores posteriores añadieron capas adicionales de contaminación.
+- El daño documentado en comunidades es el resultado de décadas de acumulación de estas fuentes.
+
 
 La pregunta causal no es "¿habría habido contaminación sin Texaco?" (sí, por las otras fuentes). Es "¿cuánto del daño total es causalmente atribuible a la contribución específica de Texaco/Chevron?". Esa es exactamente la pregunta que el valor de Shapley responde cuando R* convencional no puede hacerlo.
 
@@ -426,11 +417,14 @@ B.3 La extensión Shapley: aplicación al caso Chevron-Ecuador
 
 Para aplicar los valores de Shapley al caso, se define la función de valor v(S) como el daño producido por la coalición S de actores: El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
-### Actores en el juego (simplificado a los tres principales):
+#### Actores en el juego (simplificado a los tres principales):
 
-•  Actor 1: Texaco/Chevron (1964-1992, ~18% del territorio afectado según estudios periciales). •  Actor 2: Petroecuador (1992-presente, operación continua, ~45% del territorio afectado). •  Actor 3: Operadores posteriores + contaminación difusa (fuentes menores, ~37% del territorio afectado).
+- Actor 1: Texaco/Chevron (1964-1992, ~18% del territorio afectado según estudios periciales).
+- Actor 2: Petroecuador (1992-presente, operación continua, ~45% del territorio afectado).
+- Actor 3: Operadores posteriores + contaminación difusa (fuentes menores, ~37% del territorio afectado).
 
-### Función de valor v(S) basada en estudios periciales de superposición de contaminación:
+
+#### Función de valor v(S) basada en estudios periciales de superposición de contaminación:
 
 Coalición S v(S) = daño producido
 
@@ -462,7 +456,6 @@ S = {1,2} v({1,2}) = 0.70 × D_total
 
 La superposición de las dos fuentes principales produce un daño no aditivo: se amplifican mutuamente.
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 S = {1,3} v({1,3}) = 0.42 × D_total
 
@@ -478,7 +471,7 @@ v({N}) = 1.00 × D_total
 
 El daño total observado es la función del conjunto completo.
 
-### Cálculo del valor de Shapley para el Actor 1 (Texaco/Chevron):
+#### Cálculo del valor de Shapley para el Actor 1 (Texaco/Chevron):
 
 φ₁ = (1/3!) × Σ sobre todos los ordenamientos de la contribución marginal de 1
 
@@ -486,21 +479,20 @@ El daño total observado es la función del conjunto completo.
 
 + (v ({1,3,2}) − v ({3,2}))]
 
-### φ₁ = (1/6) × [(0.22−0) + (0.70−0.40) + (0.42−0.15) +
+#### φ₁ = (1/6) × [(0.22−0) + (0.70−0.40) + (0.42−0.15) +
 
-### (1.00−0.58) × 3/2]
+#### (1.00−0.58) × 3/2]
 
-### ≈ (1/6) × [0.22 + 0.30 + 0.27 + 0.63]
+#### ≈ (1/6) × [0.22 + 0.30 + 0.27 + 0.63]
 
-### ≈ (1/6) × 1.42 ≈ 0.237
+#### ≈ (1/6) × 1.42 ≈ 0.237
 
-### El valor de Shapley de Texaco/Chevron es φ₁ ≈ 0.237: aproximadamente el 23.7% del daño total. Este es el resultado que el litigio debería haber establecido como base
+#### El valor de Shapley de Texaco/Chevron es φ₁ ≈ 0.237: aproximadamente el 23.7% del daño total. Este es el resultado que el litigio debería haber establecido como base
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
-### para la responsabilidad de Chevron, independientemente de las controversias procesales.
+#### para la responsabilidad de Chevron, independientemente de las controversias procesales.
 
-### Valores de Shapley para los tres actores (verificación de eficiencia):
+#### Valores de Shapley para los tres actores (verificación de eficiencia):
 
 Actor φᵢ (Shapley)
 
@@ -512,17 +504,16 @@ Texaco/Chevron 0.237 23.7% R* convencional daría 0 si Texaco no es condición n
 
 Petroecuador 0.488 48.8% Mayor porción porque opera más tiempo y más territorio.
 
-### 0.275 27.5% Mayor de lo esperado por los efectos de amplificación con las otras fuentes.
+#### 0.275 27.5% Mayor de lo esperado por los efectos de amplificación con las otras fuentes.
 
 Otros operadores
 
-### 1.000 100% Propiedad de eficiencia de Shapley: la suma es exactamente el daño total.
+#### 1.000 100% Propiedad de eficiencia de Shapley: la suma es exactamente el daño total.
 
 Suma (verificación)
 
-### La verificación de eficiencia confirma que los valores de Shapley suman exactamente el 100% del D_total —una propiedad que R* convencional comparte pero que aquí
+#### La verificación de eficiencia confirma que los valores de Shapley suman exactamente el 100% del D_total —una propiedad que R* convencional comparte pero que aquí
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 tiene especial importancia porque hay actores cuya condición de necesidad individual no se cumple.
 
@@ -538,13 +529,12 @@ Un Δ ligeramente negativo significaría que Chevron asumió marginalmente más 
 
 Respecto al argumento (b): el análisis de Shapley confirma que Petroecuador tiene el mayor valor φ (0.488) y por tanto la mayor responsabilidad causal en el daño total. El análisis no exculpa a Chevron, pero sí redistribuye correctamente la carga entre los actores, a diferencia de la sentencia ecuatoriana que imputó el 100% a Chevron.
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 ### §5.  Los límites del método y su desarrollo explícito
 
 Este capítulo es el lugar donde el sistema hace más visible lo que puede y lo que no puede hacer. Los límites que se describen aquí no son una crítica al sistema: son el mapa honesto de su alcance. Un sistema que no conoce sus límites no es honesto. Un sistema que los conoce y los nombra con precisión es más útil que uno que promete más de lo que puede dar.
 
-### 5.1 Límite I: el postulado de la condición necesaria en causalidad acumulativa
+#### 5.1 Límite I: el postulado de la condición necesaria en causalidad acumulativa
 
 Este es el límite más importante del libro. El postulado I5 establece que el nodo N_i es causalmente necesario para el daño D si dD/dN_i ≠ 0: si eliminar N_i del grafo cambiaría el daño. Cuando el daño es acumulativo y hay múltiples fuentes que cada una es marginal —el cambio climático es el ejemplo más grande y más claro— el postulado no se cumple para ninguna fuente individual y R* convencional asigna cero a todos los actores.
 
@@ -552,35 +542,32 @@ La extensión Shapley resuelve este límite en los casos donde la función de va
 
 ⚠ El cambio climático es el caso donde el límite de la condición necesaria se manifiesta con mayor urgencia política. Ningún actor individual (ningún país, ninguna empresa emisora) es condición necesaria del cambio climático: incluso si ese actor eliminara completamente sus emisiones, el cambio
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 climático ocurriría de todas formas por la suma de las demás emisiones. R* convencional = 0 para todos. Shapley produce valores positivos para todos, proporcionales a su contribución marginal promedio. Los valores de Shapley son la base técnica para el diseño de compromisos climáticos equitativos.
 
-### 5.2 Límite II: la incertidumbre en los datos de dispersión
+#### 5.2 Límite II: la incertidumbre en los datos de dispersión
 
 El cálculo de R* y de los valores de Shapley en el dominio ambiental requiere estimar cuánto del daño observado es atribuible a cada fuente. En los daños de largo plazo (décadas de contaminación acumulada), esa atribución requiere modelos de dispersión que tienen incertidumbre inherente. El resultado del análisis debe siempre presentarse como un rango, no como un valor puntual. Un análisis de sensibilidad que muestre cómo cambia φᵢ bajo distintos supuestos de dispersión es parte del análisis bien hecho.
 
-### 5.3 Límite III: la función de valor v(S) no siempre es estimable
+#### 5.3 Límite III: la función de valor v(S) no siempre es estimable
 
 El cálculo de los valores de Shapley requiere la función v(S): el daño producido por cada posible coalición de actores. En muchos casos reales, solo el daño del conjunto completo v(N) es observable (el daño total documentado), mientras que los daños de las coaliciones parciales deben estimarse con modelos contrafácticos. Esa estimación tiene incertidumbre que se propaga a los valores de Shapley calculados. Cuanto mayor es la incertidumbre sobre v(S) para las coaliciones parciales, mayor es el intervalo de confianza de φᵢ.
 
-### 5.4 Límite IV: la irreversibilidad y la limitación de la compensación monetaria
+#### 5.4 Límite IV: la irreversibilidad y la limitación de la compensación monetaria
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 Algunos daños ecológicos son irreversibles: la extinción de especies, la destrucción de ecosistemas únicos, el daño permanente a comunidades culturalmente arraigadas en un territorio. Para estos daños, D_monetary_equiv puede ser calculable pero la promesa de reparación monetaria es ontológicamente vacía: no hay cantidad de dinero que devuelva una especie extinta o un ecosistema único destruido. El sistema reconoce honestamente este límite: D_monetary_equiv no es lo que se debe pagar —es la medida de la magnitud del daño. Cuando esa magnitud supera cualquier capacidad de compensación, la fórmula no falla: cumple su función más importante, que es hacer visible la inconmensurabilidad entre el daño y cualquier reparación posible.
 
-### 5.5 El alcance de Shapley: hasta dónde llega la extensión
+#### 5.5 El alcance de Shapley: hasta dónde llega la extensión
 
 Los valores de Shapley distribuyen correctamente la responsabilidad en la causalidad acumulativa bajo una condición implícita: que todos los actores de la coalición son comparables en sus mecanismos de contribución al daño. Cuando hay actores de tipos radicalmente distintos —una empresa que emite CO₂, un gobierno que no regula las emisiones, y un consumidor individual que compra el producto— los valores de Shapley producen una distribución que puede ser técnicamente correcta pero políticamente impráctica. La decisión de qué actores incluir en el juego es en sí misma una decisión normativa con R* real.
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 §6.  Profundización formal — Esta sección puede saltarse sin perder el argumento del capítulo
 
 ### §6.  Profundización formal
 
-### 6.1 La función de valor característica y sus propiedades
+#### 6.1 La función de valor característica y sus propiedades
 
 En teoría de juegos, una función de valor v: 2^N → ℝ es superaditiva si v (S ∪ T) ≥ v(S) + v(T) para coaliciones disjuntas S, T. En el contexto del daño ambiental acumulativo, la función de valor es frecuentemente superaditiva porque los contaminantes de distintas fuentes se amplifican mutuamente en el ecosistema receptor: la toxicidad combinada puede ser mayor que la suma de las toxicidades individuales.
 
@@ -588,15 +575,14 @@ Si v es superaditiva, los valores de Shapley distribuyen más responsabilidad a 
 
 La condición de eficiencia de Shapley (Σᵢ φᵢ = v(N)) garantiza que, independientemente de si v es superaditiva o subaditiva, la suma de las responsabilidades individuales asignadas por Shapley es exactamente igual al daño total observable. Esto es la propiedad más importante para el litigio ambiental: no hay "daño no atribuido" ni "sobreatribución".
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
-### 6.2 La relación entre R* y φ cuando el postulado I5 se cumple
+#### 6.2 La relación entre R* y φ cuando el postulado I5 se cumple
 
 Cuando el postulado de la condición necesaria se cumple para al menos un actor, R* y φ son coherentes, pero no idénticos. En ese caso, φᵢ converge a R*ᵢ cuando la función de valor es aditiva (v(S) = Σᵢ∈S v({i})) y las contribuciones marginales son constantes. Cuando la función de valor tiene interacciones (superaditiva o subaditiva), φᵢ y R*ᵢ pueden diferir porque Shapley captura los efectos de interacción entre actores que R* no captura.
 
 En la práctica, para los casos donde el postulado I5 se cumple claramente (Bhopal, el Challenger, el fraude de Enron), R* es más eficiente computacionalmente y produce resultados igualmente interpretables. Para los casos donde el postulado I5 falla (Chevron-Ecuador, cambio climático), Shapley es el instrumento correcto y R* produce resultados incorrectos (φ = 0 cuando debería ser > 0).
 
-### 6.3 Aproximación de Shapley por Monte Carlo
+#### 6.3 Aproximación de Shapley por Monte Carlo
 
 El cálculo exacto de los valores de Shapley requiere evaluar 2ⁿ − 1 coaliciones, lo que es impracticable para n > 20. La aproximación por Monte Carlo produce estimaciones con incertidumbre controlable:
 
@@ -604,13 +590,11 @@ El cálculo exacto de los valores de Shapley requiere evaluar 2ⁿ − 1 coalici
 
 donde S_k es una muestra aleatoria de las posibles coaliciones sin el actor i. Con m = 10,000 simulaciones, el error estándar del estimador de Monte Carlo es típicamente inferior al 2% del valor verdadero, suficiente para el análisis legal y regulatorio.
 
-### 6.4 Código Python de referencia
+#### 6.4 Código Python de referencia
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 import numpy as np from scipy.stats import pearsonr from itertools import combinations import math  # ════════════════════════════════════════ ══ # MÉTODO 1: R* convencional (para Bhopal) # ════════════════════════════════════════ ══ def analisis_ambiental_R_star(W_eco, alpha_nodos, D_total, w_ref=8.0):     """     R* estándar para daños ambientales con fuentes identificables     y al menos un actor condición necesaria (p.ej. Bhopal).     """     n = W_eco.shape[0]     R = np.ones(n) / n     for _ in range(500):         Rn = W_eco @ R; s = np.sum(Rn)         if s < 1e-12: break         Rn /= s         if np.max(np.abs(Rn - R)) < 1e-9: break         R = Rn     R_star = Rn      S = np.zeros(n)     for i in range(n):         max_c = 0         for j in range(n):             if j == i: continue             Wm = W_eco.copy()             Wm[i,:] = np.mean(W_eco, axis=0)             Rm = np.ones(n)/n             for _ in range(200):                 Rm2 = Wm @ Rm; sm = np.sum(Rm2)                 if sm < 1e-12: break                 Rm2 /= sm                 if np.max(np.abs(Rm2-Rm)) < 1e-6: break                 Rm = Rm2             c, _ = pearsonr(R_star, Rm2)             max_c = max(max_c, abs(c))         S[i] = 1 - max_c      Delta = R_star - alpha_nodos     return {         'R_star': R_star, 'S': S, 'Delta': Delta,         'AD': R_star * D_total, 'D_vital': D_total / w_ref,         'J': float(1 - np.sum(np.abs(Delta))),     } # ════════════════════════════════════════ ══ # MÉTODO 2: Valores de Shapley exactos #           (para n ≤ 15) # ════════════════════════════════════════ ══ def shapley_exacto(v_func, n_actores):     """     Calcula los valores de Shapley exactos.     v_func: función que recibe frozenset de actores → daño     n_actores: número de actores     """     actores = list(range(n_actores))     phi = np.zeros(n_actores)     for i in actores: otros = [j for j in actores if j != i]         for tamaño in range(len(otros)+1): for sub in combinations(otros, tamaño):                 S = frozenset(sub) S_con_i = frozenset(sub | {i})                 peso = (math.factorial(tamaño) * math.factorial(n_actores-tamaño-1)                         / math.factorial(n_actores))                 phi[i] += peso * (v_func(S_con_i) -v_func(S))     return phi  # ════════════════════════════════════════ ══ # MÉTODO 3: Aproximación Monte Carlo #           (para n > 15 o v_func costosa) # ════════════════════════════════════════ ══ def shapley_montecarlo(v_func, n_actores, m=10000, seed=42): """     Aproximación Monte Carlo de los valores de Shapley.     m: número de muestras aleatorias de permutaciones     """     rng = np.random.default_rng(seed)     actores = list(range(n_actores))     phi = np.zeros(n_actores)     for _ in range(m):         perm = rng.permutation(actores)         v_before = v_func(frozenset())         for k, i in enumerate(perm):             v_after = v_func(frozenset(perm[:k+1])) phi[i] += (v_after - v_before) / m             v_before = v_after     return phi  # ════════════════════════════════════════ ══ # EJEMPLO: Chevron-Ecuador (3 actores) # ════════════════════════════════════════
 
-El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
 ══ # Función de valor según estudios periciales D_total_ecuador = 9_500_000_000  # USD (sentencia ecuatoriana)  v_data = { frozenset():      0.00,     frozenset({0}):   0.22,   # Texaco/Chevron solo frozenset({1}):   0.40,   # Petroecuador solo     frozenset({2}):   0.15,   # Otros operadores solo     frozenset({0,1}): 0.70,   # Texaco + Petro frozenset({0,2}): 0.42,   # Texaco + Otros     frozenset({1,2}): 0.58,   # Petro + Otros     frozenset({0,1,2}): 1.00, # Todos }  def v_ecuador(S): return v_data.get(frozenset(S), 0.0) * D_total_ecuador  # Valores de Shapley exactos (n=3, factible) phi = shapley_exacto(v_ecuador, 3) phi_norm = phi / D_total_ecuador  # como fracción del daño print("=== Chevron-Ecuador — Valores de Shapley ===") actores_e = ['Texaco/Chevron','Petroecuador','Otros_operadores'] for nm, p_frac, p_usd in zip(actores_e, phi_norm, phi):     print(f"  φ({nm:20s}) = {p_frac:.3f}  ({p_usd/1e9:.2f}B USD)") print(f"  Verificación suma: {sum(phi_norm):.4f} (debe ser 1.0000)") print(f"  Sentencia ecuatoriana atribuyó todo a Chevron: {1.0:.3f}") print(f"  Shapley asigna a Chevron: {phi_norm[0]:.3f}")  print("\n=== Bhopal — R* convencional ===") W_b = np.zeros((6,6)) W_b[0,1]=0.85; W_b[0,2]=0.70; W_b[0,5]=0.80 W_b[1,3]=0.90; W_b[1,5]=0.75 W_b[2,3]=0.60; W_b[2,5]=0.55 W_b[3,5]=0.70; W_b[4,5]=0.40 alpha_b = np.array([0.10, 0.08, 0.05, 0.00, 0.00, 0.0]) res_b = analisis_ambiental_R_star(     W_b, alpha_b, D_total=174_000_000_000) noms_b = ['N0-UCC','N1-UCIL','N2-GobIndio','N3-RedCosto','N4-Meteor.','Nf'] for nm, rs, si, di in zip(noms_b, res_b['R_star'],                            res_b['S'], res_b['Delta']): print(f"  {nm:18s} R*={rs:.3f} S={si:.2f} Δ={di:+.3f}") J_b = res_b['J'] print(f"  J (justicia):  {J_b:.3f}  (pago real ≈ 0.27% de AD_UCC)")
 
@@ -618,5 +602,4 @@ Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y A
 
 Continúa en la Parte V — Humanidades y ciencias sociales
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
