@@ -5956,81 +5956,151 @@ y no «¿en qué Hijo está esta organización?». El vocabulario técnico del s
 
 Bloque I — versión colectiva por módulo
 
-Módulo Fobos colectivo — la urgencia reactiva del colectivo
+### Módulo Fobos colectivo — la urgencia reactiva del colectivo
 
-Pregunta ancla colectiva — Fobos «¿Puede describirme una situación en que esta organización reaccionó de manera urgente ante algo que percibió como amenaza — una decisión colectiva que fue más rápida de lo habitual, más intensa, que respondía a algo externo que se sentía como peligroso?» Sondeo FC·1: «¿Cuál es el objeto de esa amenaza — qué o quién amenazaba a la organización en ese momento? ¿Había un responsable externo identificado?» Sondeo FC·2: «¿Esa manera de reaccionar urgentemente ante amenazas externas es un patrón que reconoce en esta organización, o fue un episodio puntual?» [Mediador observa: si el miembro describe el comportamiento urgente del colectivo con temperatura propia — ¿el miembro comparte la urgencia o la describe desde afuera? Si la comparte, puede ser sesgo por Fobos del miembro. Si la describe desde afuera con temperatura de observador, tiene mayor valor diagnóstico.]
+> Pregunta ancla colectiva — Fobos «¿Puede describirme una situación en que esta organización reaccionó de manera urgente ante algo que percibió como amenaza — una decisión colectiva que fue más rápida de lo habitual, más intensa, que respondía a algo externo que se sentía como peligroso?»
+>
+> Sondeo FC·1: «¿Cuál es el objeto de esa amenaza — qué o quién amenazaba a la organización en ese momento? ¿Había un responsable externo identificado?»
+> 
+> 
 
-Módulo Deimos colectivo — la parálisis decisional del colectivo
+> Sondeo FC·2: «¿Esa manera de reaccionar urgentemente ante amenazas externas es un patrón que reconoce en esta organización, o fue un episodio puntual?» [Mediador observa: si el miembro describe el comportamiento urgente del colectivo con temperatura propia — ¿el miembro comparte la urgencia o la describe desde afuera? Si la comparte, puede ser sesgo por Fobos del miembro. Si la describe desde afuera con temperatura de observador, tiene mayor valor diagnóstico.]
+> 
+> Módulo Deimos colectivo — la parálisis decisional del colectivo
+>
+> Pregunta ancla colectiva — Deimos «¿Hay decisiones importantes que esta organización lleva tiempo sin poder tomar — no por falta de información sino porque las opciones parecen equivalentes o porque no termina de orientarse hacia ninguna dirección? ¿Puede describir alguna de esas decisiones?»
+> 
+> 
 
-Pregunta ancla colectiva — Deimos «¿Hay decisiones importantes que esta organización lleva tiempo sin poder tomar — no por falta de información sino porque las opciones parecen equivalentes o porque no termina de orientarse hacia ninguna dirección? ¿Puede describir alguna de esas decisiones?» Sondeo DC·1: «¿Hay acuerdos que se toman en esta organización sin fecha de implementación, sin responsable nominado, sin criterio de verificación? ¿Puede describir el patrón?» Sondeo DC·2: «Cuando la organización tiene que decidir algo que no está en los procedimientos establecidos, ¿qué ocurre? ¿Hay alguien que oriente esa decisión o se queda sin resolver?» [Mediador observa: si el miembro puede nombrar decisiones específicas pendientes o si produce una narrativa general de que la organización funciona bien sin cuellos de botella. La incapacidad de identificar decisiones específicas puede ser sesgo de posición: el miembro puede no tener acceso a las decisiones estratégicas pendientes.]
+> Sondeo DC·1: «¿Hay acuerdos que se toman en esta organización sin fecha de implementación, sin responsable nominado, sin criterio de verificación? ¿Puede describir el patrón?»
+> 
+> 
 
-Entrevista Clínica Ontológica · ECO
+> Sondeo DC·2: «Cuando la organización tiene que decidir algo que no está en los procedimientos establecidos, ¿qué ocurre? ¿Hay alguien que oriente esa decisión o se queda sin resolver?» [Mediador observa: si el miembro puede nombrar decisiones específicas pendientes o si produce una narrativa general de que la organización funciona bien sin cuellos de botella. La incapacidad de identificar decisiones específicas puede ser sesgo de posición: el miembro puede no tener acceso a las decisiones estratégicas pendientes.]
+> 
+> Entrevista Clínica Ontológica · ECO
+> 
+> Módulo Anteros colectivo — el eje propio del colectivo
+>
+> Pregunta ancla colectiva — Anteros «¿Hay criterios de esta organización —cosas que la organización sostiene como propias y que no cambiarían, aunque el entorno o los financiadores presionaran para que cambiaran— que usted pueda identificar? ¿Cuáles son?»
+> 
+> 
 
-Módulo Anteros colectivo — el eje propio del colectivo
+> Sondeo AC·1: «¿Hubo alguna vez en que la organización dijo que no a algo — a una instrucción, a una alianza, a una oportunidad — porque no correspondía con lo que la organización es, aunque costara? ¿Puede describir ese momento?»
+> 
+> 
 
-Pregunta ancla colectiva — Anteros «¿Hay criterios de esta organización —cosas que la organización sostiene como propias y que no cambiarían, aunque el entorno o los financiadores presionaran para que cambiaran— que usted pueda identificar? ¿Cuáles son?» Sondeo AC·1: «¿Hubo alguna vez en que la organización dijo que no a algo — a una instrucción, a una alianza, a una oportunidad — porque no correspondía con lo que la organización es, aunque costara? ¿Puede describir ese momento?» Sondeo AC·2: «Esos criterios que describe como propios de la organización — ¿desde cuándo son propios? ¿Los construyó la organización desde su experiencia o los adoptó de algún referente externo?» [Mediador observa: la discriminación Anteros colectivo / E-4 colectivo. Si el miembro puede nombrar los criterios con especificidad histórica —cuándo se construyeron, desde qué experiencia del colectivo— la señal orienta hacia Anteros. Si los criterios tienen claramente origen externo —el fundador los adoptó de su formación, la organización los adoptó de su sector— la señal orienta hacia E-4 colectivo.]
+> Sondeo AC·2: «Esos criterios que describe como propios de la organización — ¿desde cuándo son propios? ¿Los construyó la organización desde su experiencia o los adoptó de algún referente externo?» [Mediador observa: la discriminación Anteros colectivo / E-4 colectivo. Si el miembro puede nombrar los criterios con especificidad histórica —cuándo se construyeron, desde qué experiencia del colectivo— la señal orienta hacia Anteros. Si los criterios tienen claramente origen externo —el fundador los adoptó de su formación, la organización los adoptó de su sector— la señal orienta hacia E-4 colectivo.]
+> 
+> Módulo Potós colectivo — la orientación al pasado del colectivo
+>
+> Pregunta ancla colectiva — Potós «¿Hay un período, un líder o una manera de hacer las cosas que esta organización siente que ya no existe pero que sigue siendo el referente desde el que evalúa el presente? ¿Cómo se habla de ese período o esa figura en la organización?»
+> 
+> 
 
-Módulo Potós colectivo — la orientación al pasado del colectivo
+> Sondeo PC·1: «Cuando la organización toma una decisión difícil, ¿hay referencias frecuentes a «cómo lo haría» alguien que ya no está, o a «cómo era antes»? ¿Esas referencias orientan efectivamente las decisiones o son rituales sin consecuencia?»
+> 
+> 
 
-Pregunta ancla colectiva — Potós «¿Hay un período, un líder o una manera de hacer las cosas que esta organización siente que ya no existe pero que sigue siendo el referente desde el que evalúa el presente? ¿Cómo se habla de ese período o esa figura en la organización?» Sondeo PC·1: «Cuando la organización toma una decisión difícil, ¿hay referencias frecuentes a «cómo lo haría» alguien que ya no está, o a «cómo era antes»? ¿Esas referencias orientan efectivamente las decisiones o son rituales sin consecuencia?» Sondeo PC·2: «¿Puede esta organización imaginar un futuro que no sea la recuperación de lo que fue? ¿O el futuro deseable para la organización es siempre una versión de lo que ya hubo?» [Mediador observa: si el miembro puede hacer la distinción entre «la organización todavía orienta sus decisiones desde el pasado» y «el pasado es parte de la historia que informa el presente». La primera corresponde a Potós colectivo activo; la segunda puede corresponder a T-5 o T-6 colectivo del Eje V.]
+> Sondeo PC·2: «¿Puede esta organización imaginar un futuro que no sea la recuperación de lo que fue? ¿O el futuro deseable para la organización es siempre una versión de lo que ya hubo?» [Mediador observa: si el miembro puede hacer la distinción entre «la organización todavía orienta sus decisiones desde el pasado» y «el pasado es parte de la historia que informa el presente». La primera corresponde a Potós colectivo activo; la segunda puede corresponder a T-5 o T-6 colectivo del Eje V.]
+> 
+> Módulo Eros colectivo — la apertura al nuevo del colectivo
+>
+> Pregunta ancla colectiva — Eros «¿Hay algún momento en que esta organización recibió algo completamente inesperado — una perspectiva, una
+> 
+> Entrevista Clínica Ontológica · ECO
+> 
+> colaboración, un cambio del entorno — que la llevó en una dirección nueva que no habría tomado sola? ¿Cómo ocurrió eso?»
+> 
+> 
 
-Módulo Eros colectivo — la apertura al nuevo del colectivo
+> Sondeo EC·1: «Cuando la organización se abre a algo nuevo — un método, un enfoque, una alianza — ¿puede quedarse con lo que encontró o hay una tendencia a pasar de una innovación a la siguiente sin que ninguna produzca huella?»
+> 
+> 
 
-Pregunta ancla colectiva — Eros «¿Hay algún momento en que esta organización recibió algo completamente inesperado — una perspectiva, una
+> Sondeo EC·2: «¿La apertura de la organización a lo nuevo viene de ella — de un impulso propio hacia lo desconocido — o viene del campo que lo demanda?» [Mediador observa: la discriminación Eros colectivo / obediencia al campo. Si el miembro describe que la organización innova porque el campo lo requiere o lo financia, la señal orienta hacia E-4 colectivo más que hacia Eros. Si describe momentos en que la organización fue genuinamente sorprendida por algo que no buscaba, la señal orienta hacia Eros colectivo.]
+> 
+> Módulo Harmonía/D-2 colectivo — la integración o la anestesia
+>
+> Pregunta ancla colectiva — Harmonía/D-2 «Cuando esta organización está en lo que podría llamarse su mejor momento — cuando opera bien y sin conflictos evidentes —, ¿hay algo que la organización tuvo que procesar para llegar ahí, algo que costó? ¿O simplemente está así?» Sondeo HC·1 (H·D2 colectivo): «¿Puede alguien en esta organización decir qué quiere el colectivo ahora mismo — no qué dice que quiere en sus documentos, sino qué está queriendo realmente desde dónde está?» Sondeo HC·2 (H·D5 colectivo): «¿Hubo algo en este período que debería haber producido tensión o incomodidad colectiva y que no la produjo — algo que la organización procesó de manera más plana de lo que el evento merecería?» [Mediador observa: las preguntas H·D adaptadas al colectivo. HC·1 localiza si hay preferencia genuina del colectivo o respuesta semánticamente correcta. HC·2 localiza si hay señal interna del ego colectivo genuino ante lo que debería producirla. La convergencia de HC·1 y HC·2 sin temperatura interna en múltiples miembros orienta hacia D-2 colectivo.]
+> 
+> Bloque II — versión colectiva por módulo
+> 
+> Eje I colectivo — estado del ego del colectivo
+>
+> Pregunta ancla colectiva — Eje I «Cuando mira las decisiones que tomó esta organización en el período analizado, ¿cuáles diría que fueron genuinamente propias del colectivo — que el colectivo
+> 
+> Entrevista Clínica Ontológica · ECO
+> 
+> reconocería como suyas — y cuáles fueron producidas por el campo o las circunstancias sin que el colectivo las haya realmente decidido?»
+> 
+> 
 
-Entrevista Clínica Ontológica · ECO
+> Sondeo EIC·1: «¿Hay criterios con que esta organización evalúa sus propias decisiones que pueda identificar como propios — no lo que el sector dice que debe evaluar, sino lo que la organización tiene como criterio interno genuino?»
+> 
+> 
 
-colaboración, un cambio del entorno — que la llevó en una dirección nueva que no habría tomado sola? ¿Cómo ocurrió eso?» Sondeo EC·1: «Cuando la organización se abre a algo nuevo — un método, un enfoque, una alianza — ¿puede quedarse con lo que encontró o hay una tendencia a pasar de una innovación a la siguiente sin que ninguna produzca huella?» Sondeo EC·2: «¿La apertura de la organización a lo nuevo viene de ella — de un impulso propio hacia lo desconocido — o viene del campo que lo demanda?» [Mediador observa: la discriminación Eros colectivo / obediencia al campo. Si el miembro describe que la organización innova porque el campo lo requiere o lo financia, la señal orienta hacia E-4 colectivo más que hacia Eros. Si describe momentos en que la organización fue genuinamente sorprendida por algo que no buscaba, la señal orienta hacia Eros colectivo.]
+> Sondeo EIC·2: «Cuando algo sale mal en esta organización, ¿cómo reacciona el colectivo? ¿Puede asumir lo que ocurrió como propio o tiende a externalizar la responsabilidad hacia el campo, los financiadores, las circunstancias?» [Mediador observa: la capacidad de asunción colectiva (análogo al Sondeo EI·1 del Eje I). La respuesta que orienta hacia E-1 colectivo: el miembro puede identificar criterios propios estables y puede describir asunción genuina de decisiones. La respuesta que orienta hacia E-2 colectivo: el colectivo hace lo que hace sin que nadie pueda describir un criterio propio que lo oriente. La respuesta que orienta hacia E-4 colectivo: los criterios existen, pero provienen del campo internalizado.]
+> 
+> Eje II colectivo — la mascarada institucional
+>
+> Pregunta ancla colectiva — Eje II «¿Hay una diferencia entre cómo esta organización se presenta al exterior y cómo opera internamente? ¿Puede describir esa diferencia?»
+> 
+> 
 
-Módulo Harmonía/D-2 colectivo — la integración o la anestesia
+> Sondeo MaC·1: «Esa manera de presentarse que tiene la organización — ¿la eligió la organización, o es simplemente cómo las cosas se hacen en este tipo de organizaciones?»
+> 
+> 
 
-Pregunta ancla colectiva — Harmonía/D-2 «Cuando esta organización está en lo que podría llamarse su mejor momento — cuando opera bien y sin conflictos evidentes —, ¿hay algo que la organización tuvo que procesar para llegar ahí, algo que costó? ¿O simplemente está así?» Sondeo HC·1 (H·D2 colectivo): «¿Puede alguien en esta organización decir qué quiere el colectivo ahora mismo — no qué dice que quiere en sus documentos, sino qué está queriendo realmente desde dónde está?» Sondeo HC·2 (H·D5 colectivo): «¿Hubo algo en este período que debería haber producido tensión o incomodidad colectiva y que no la produjo — algo que la organización procesó de manera más plana de lo que el evento merecería?» [Mediador observa: las preguntas H·D adaptadas al colectivo. HC·1 localiza si hay preferencia genuina del colectivo o respuesta semánticamente correcta. HC·2 localiza si hay señal interna del ego colectivo genuino ante lo que debería producirla. La convergencia de HC·1 y HC·2 sin temperatura interna en múltiples miembros orienta hacia D-2 colectivo.]
+> Sondeo MaC·2: «¿Hay algo que la organización muestra hacia afuera que los miembros internos saben que no corresponde completamente a cómo la organización opera por dentro?» [Mediador observa: las señales de M-1, M-2 o M-3 colectivo. Si el miembro puede describir la presentación colectiva como una elección — hay un criterio identificable detrás de cómo la organización se presenta — orienta hacia M-1 colectivo. Si la presentación es «así son las cosas aquí» sin criterio de elección identificable, orienta hacia M-3. Si el miembro describe discordancia entre la presentación externa y el funcionamiento interno sin que nadie la haya elegido conscientemente, orienta hacia M-2 colectivo.]
+> 
+> Eje III colectivo — el vínculo del colectivo con su entorno
+>
+> Pregunta ancla colectiva — Eje III «¿Cómo describiría la relación de esta organización con otras organizaciones o con el entorno en que opera? ¿Tienden a orientar a los demás o a ser orientados? ¿Hay relaciones genuinas de influencia mutua?»
+> 
+> Entrevista Clínica Ontológica · ECO
+> 
+> 
 
-Bloque II — versión colectiva por módulo
+> Sondeo ViC·1: «¿Puede describir un momento en que esta organización fue genuinamente sorprendida por lo que llegó desde afuera — que lo que llegó la llevó en una dirección que no habría tomado sola?»
+> 
+> 
 
-Eje I colectivo — estado del ego del colectivo
+> Sondeo ViC·2: «¿La organización tiende a establecer los parámetros de sus relaciones con el entorno, o a operar dentro de los parámetros que otros establecen?» [Mediador observa: la estructura V-1, V-2 o V-3 colectiva. Si el miembro puede describir momentos de genuina influencia mutua con el entorno — donde el colectivo fue afectado y afectó — orienta hacia V-1. Si describe consistencia en el rol de orientador o de orientado, orienta hacia Damasén o Peribea colectivo en V-2. Si no puede identificar ningún encuentro genuino bilateral, orienta hacia V-3 colectivo.]
+> 
+> Eje IV colectivo — la señal interna del ego colectivo genuino
+>
+> Pregunta ancla colectiva — Eje IV «¿Hay algo en la manera en que esta organización opera que produce incomodidad en sus miembros — algo que no termina de encajar con lo que la organización dice que es lo que quiere ser? ¿Esa incomodidad tiene espacio de expresión en la organización?»
+> 
+> 
 
-Pregunta ancla colectiva — Eje I «Cuando mira las decisiones que tomó esta organización en el período analizado, ¿cuáles diría que fueron genuinamente propias del colectivo — que el colectivo
+> Sondeo DiC·1: «¿Puede identificar voces dentro de la organización que señalen la brecha entre lo que el colectivo hace y lo que el colectivo podría o debería ser? ¿Qué le ocurre a esas voces?»
+> 
+> 
 
-Entrevista Clínica Ontológica · ECO
+> Sondeo DiC·2: «Si algo cambiara significativamente en la organización — un liderazgo, una financiación, un mandato — ¿esperaría que la organización respondiera de manera diferente a como lo hace ahora, o cree que básicamente sería igual?» [Mediador observa: D-1 vs. D-2 colectivo. Si el miembro puede identificar voces de incomodidad con espacio en el colectivo: D-1 colectivo activo. Si las voces existen, pero son suprimidas: D-1 colectivo con riesgo de transición a D-2. Si no puede identificar ninguna incomodidad sistémica: D-2 colectivo probable. DiC·2 replica el Sondeo DIS·6 del Módulo Eje IV: la expectativa de diferencia ante el cambio.]
+> 
+> Eje V colectivo — el duelo del colectivo
+>
+> Pregunta ancla colectiva — Eje V «¿Hay algo que esta organización perdió de manera irreversible — un período, un líder, una manera de operar, un mandato — y que esa pérdida todavía afecta la manera en que el colectivo se orienta en el presente?»
+> 
+> 
 
-reconocería como suyas — y cuáles fueron producidas por el campo o las circunstancias sin que el colectivo las haya realmente decidido?» Sondeo EIC·1: «¿Hay criterios con que esta organización evalúa sus propias decisiones que pueda identificar como propios — no lo que el sector dice que debe evaluar, sino lo que la organización tiene como criterio interno genuino?» Sondeo EIC·2: «Cuando algo sale mal en esta organización, ¿cómo reacciona el colectivo? ¿Puede asumir lo que ocurrió como propio o tiende a externalizar la responsabilidad hacia el campo, los financiadores, las circunstancias?» [Mediador observa: la capacidad de asunción colectiva (análogo al Sondeo EI·1 del Eje I). La respuesta que orienta hacia E-1 colectivo: el miembro puede identificar criterios propios estables y puede describir asunción genuina de decisiones. La respuesta que orienta hacia E-2 colectivo: el colectivo hace lo que hace sin que nadie pueda describir un criterio propio que lo oriente. La respuesta que orienta hacia E-4 colectivo: los criterios existen, pero provienen del campo internalizado.]
+> Sondeo TaC·1: «¿La organización reconoce esa pérdida como irreversible, o hay algo que sigue operando como si pudiera recuperarse?»
+> 
+> 
 
-Eje II colectivo — la mascarada institucional
-
-Pregunta ancla colectiva — Eje II «¿Hay una diferencia entre cómo esta organización se presenta al exterior y cómo opera internamente? ¿Puede describir esa diferencia?» Sondeo MaC·1: «Esa manera de presentarse que tiene la organización — ¿la eligió la organización, o es simplemente cómo las cosas se hacen en este tipo de organizaciones?» Sondeo MaC·2: «¿Hay algo que la organización muestra hacia afuera que los miembros internos saben que no corresponde completamente a cómo la organización opera por dentro?» [Mediador observa: las señales de M-1, M-2 o M-3 colectivo. Si el miembro puede describir la presentación colectiva como una elección — hay un criterio identificable detrás de cómo la organización se presenta — orienta hacia M-1 colectivo. Si la presentación es «así son las cosas aquí» sin criterio de elección identificable, orienta hacia M-3. Si el miembro describe discordancia entre la presentación externa y el funcionamiento interno sin que nadie la haya elegido conscientemente, orienta hacia M-2 colectivo.]
-
-Eje III colectivo — el vínculo del colectivo con su entorno
-
-Pregunta ancla colectiva — Eje III «¿Cómo describiría la relación de esta organización con otras organizaciones o con el entorno en que opera? ¿Tienden a orientar a los demás o a ser orientados? ¿Hay relaciones genuinas de influencia mutua?»
-
-Entrevista Clínica Ontológica · ECO
-
-Sondeo ViC·1: «¿Puede describir un momento en que esta organización fue genuinamente sorprendida por lo que llegó desde afuera — que lo que llegó la llevó en una dirección que no habría tomado sola?» Sondeo ViC·2: «¿La organización tiende a establecer los parámetros de sus relaciones con el entorno, o a operar dentro de los parámetros que otros establecen?» [Mediador observa: la estructura V-1, V-2 o V-3 colectiva. Si el miembro puede describir momentos de genuina influencia mutua con el entorno — donde el colectivo fue afectado y afectó — orienta hacia V-1. Si describe consistencia en el rol de orientador o de orientado, orienta hacia Damasén o Peribea colectivo en V-2. Si no puede identificar ningún encuentro genuino bilateral, orienta hacia V-3 colectivo.]
-
-Eje IV colectivo — la señal interna del ego colectivo genuino
-
-Pregunta ancla colectiva — Eje IV «¿Hay algo en la manera en que esta organización opera que produce incomodidad en sus miembros — algo que no termina de encajar con lo que la organización dice que es lo que quiere ser? ¿Esa incomodidad tiene espacio de expresión en la organización?» Sondeo DiC·1: «¿Puede identificar voces dentro de la organización que señalen la brecha entre lo que el colectivo hace y lo que el colectivo podría o debería ser? ¿Qué le ocurre a esas voces?» Sondeo DiC·2: «Si algo cambiara significativamente en la organización — un liderazgo, una financiación, un mandato — ¿esperaría que la organización respondiera de manera diferente a como lo hace ahora, o cree que básicamente sería igual?» [Mediador observa: D-1 vs. D-2 colectivo. Si el miembro puede identificar voces de incomodidad con espacio en el colectivo: D-1 colectivo activo. Si las voces existen, pero son suprimidas: D-1 colectivo con riesgo de transición a D-2. Si no puede identificar ninguna incomodidad sistémica: D-2 colectivo probable. DiC·2 replica el Sondeo DIS·6 del Módulo Eje IV: la expectativa de diferencia ante el cambio.]
-
-Eje V colectivo — el duelo del colectivo
-
-Pregunta ancla colectiva — Eje V «¿Hay algo que esta organización perdió de manera irreversible — un período, un líder, una manera de operar, un mandato — y que esa pérdida todavía afecta la manera en que el colectivo se orienta en el presente?» Sondeo TaC·1: «¿La organización reconoce esa pérdida como irreversible, o hay algo que sigue operando como si pudiera recuperarse?» Sondeo TaC·2: «¿Puede esta organización describir lo que aprendió o en qué se convirtió a partir de esa pérdida — no qué quiere recuperar, sino qué diferente es por haberla vivido?» [Mediador observa: la posición del vector colectivo. TaC·1 discrimina T-1 (la irreversibilidad no se reconoce operacionalmente) de T-2 o superior. TaC·2 discrimina T-4/T-5 (el colectivo
-
-### Entrevista Clínica Ontológica · ECO
-
-puede describir lo que la pérdida produjo de nuevo) de T-2/T-3 (todavía no hay acceso a la dimensión formativa porque el trabajo del duelo está en proceso).]
+> Sondeo TaC·2: «¿Puede esta organización describir lo que aprendió o en qué se convirtió a partir de esa pérdida — no qué quiere recuperar, sino qué diferente es por haberla vivido?» [Mediador observa: la posición del vector colectivo. TaC·1 discrimina T-1 (la irreversibilidad no se reconoce operacionalmente) de T-2 o superior. TaC·2 discrimina T-4/T-5 (el colectivo
+> 
+> ### Entrevista Clínica Ontológica · ECO
+> 
+> puede describir lo que la pérdida produjo de nuevo) de T-2/T-3 (todavía no hay acceso a la dimensión formativa porque el trabajo del duelo está en proceso).]
 
 ### III.  Señales de observación en entrevista colectiva
 
 Las señales de observación en la entrevista a miembros son distintas de las señales de observación en la entrevista individual. En la entrevista individual, el mediador observa la conducta del sujeto en la sesión como señal de EP-1 de su estado. En la entrevista a miembros, la conducta del sujeto en la sesión es señal del sujeto como individuo — lo que el mediador debe corregir por sesgo del miembro para convertirlo en señal del colectivo. Las señales de observación que el mediador busca en la entrevista a miembros son señales de la relación del miembro con el colectivo, no del miembro como individuo.
 
-Señal observable en el miembro
-
-Qué revela del colectivo
-
-Nivel EP colectivo
-
-Error de lectura
+<!-- TABLA: señales de observación en miembros | columnas: señal observable, qué revela del colectivo, nivel EP colectivo, error de lectura -->
 
 El miembro describe comportamientos del colectivo con temperatura de participante activo — narra en primera persona del plural («hicimos», «decidimos», «sentíamos») y puede identificar la perspectiva colectiva como diferente de la suya propia.
 
@@ -6164,39 +6234,33 @@ Incluir en el mapa de entrevistas a miembros con diferentes funciones dentro del
 
 El mediador administra preguntas de corrección de sesgo cuando detecta que la narrativa del miembro sobre el colectivo puede estar sesgada. Estas preguntas no cuestionan al miembro ni le señalan el sesgo: producen contexto que permite al miembro elaborar una perspectiva más diferenciada.
 
-Pregunta de corrección de sesgo — perspectiva alternativa «¿Hay miembros de esta organización que verían lo que me está describiendo de una manera diferente a la suya? ¿Cómo lo verían ellos?» [Lo que el mediador observa: si el miembro puede producir perspectivas alternativas de manera genuina. Un miembro con sesgo fuerte puede tener dificultad para imaginar perspectivas alternativas — no porque no existan sino porque su posición de v_t no le da acceso fácil a ellas. Un miembro con perspectiva más diferenciada puede producir perspectivas alternativas con fluidez y puede incluso corregir su propia narrativa anterior a la luz de ellas.]
+> Pregunta de corrección de sesgo — perspectiva alternativa «¿Hay miembros de esta organización que verían lo que me está describiendo de una manera diferente a la suya? ¿Cómo lo verían ellos?» [Lo que el mediador observa: si el miembro puede producir perspectivas alternativas de manera genuina. Un miembro con sesgo fuerte puede tener dificultad para imaginar perspectivas alternativas — no porque no existan sino porque su posición de v_t no le da acceso fácil a ellas. Un miembro con perspectiva más diferenciada puede producir perspectivas alternativas con fluidez y puede incluso corregir su propia narrativa anterior a la luz de ellas.]
 
-Pregunta de corrección de sesgo — la posición propia del miembro «¿Cómo afecta su propio rol o posición en esta organización a la manera en que ve lo que me describe? ¿Hay cosas que
+> Pregunta de corrección de sesgo — la posición propia del miembro «¿Cómo afecta su propio rol o posición en esta organización a la manera en que ve lo que me describe? ¿Hay cosas que
+>
+> Entrevista Clínica Ontológica · ECO
+>
+> ve con más claridad desde donde está, y cosas que ve con menos claridad?» [Lo que el mediador observa: si el miembro puede reflexionar sobre los límites de su propia perspectiva. Esta es la pregunta de corrección de sesgo más directa — pregunta al miembro sobre su propio sesgo sin nombrarlo como sesgo. El miembro que puede identificar los límites de su perspectiva con precisión tiene mayor capacidad reflexiva y su descripción del colectivo tiene mayor valor diagnóstico porque está calibrada.]
 
-Entrevista Clínica Ontológica · ECO
-
-ve con más claridad desde donde está, y cosas que ve con menos claridad?» [Lo que el mediador observa: si el miembro puede reflexionar sobre los límites de su propia perspectiva. Esta es la pregunta de corrección de sesgo más directa — pregunta al miembro sobre su propio sesgo sin nombrarlo como sesgo. El miembro que puede identificar los límites de su perspectiva con precisión tiene mayor capacidad reflexiva y su descripción del colectivo tiene mayor valor diagnóstico porque está calibrada.]
-
-Pregunta de corrección de sesgo — el estado del colectivo en otro período «Si yo le hubiera hecho estas mismas preguntas hace dos años — o hace diez —, ¿habría respondido de la misma manera? ¿Qué habría dicho sobre la organización en ese período?» [Esta pregunta de corrección de sesgo accede a la dimensión temporal: si el miembro puede distinguir el estado actual del ego colectivo del estado en períodos anteriores, su descripción del estado actual tiene mayor precisión porque está diferenciada de la historia. El miembro que no puede hacer esa distinción —que describe al colectivo de la misma manera en todos los períodos— puede estar describiendo su sesgo más que el estado del colectivo.]
-
-La ponderación de las lecturas corregidas — hacia la lectura agregada
-
-Después de identificar y corregir el sesgo de cada miembro entrevistado, el mediador produce la ponderación de las lecturas corregidas. No es un promedio aritmético: es una evaluación ponderada que asigna mayor peso a las perspectivas que tienen menor sesgo identificado, mayor diversidad de posición, y mayor convergencia con perspectivas independientes. La ponderación produce el insumo para el §3 del Bloque III —la agregación de localizaciones— que a su vez produce la lectura del ego colectivo.
-
-Regla de ponderación — jerarquía de las lecturas de los miembros Las lecturas con mayor peso diagnóstico son: (1) las que producen miembros con sesgo mínimo identificado (baja proyección del estado individual sobre el colectivo), (2) las que convergen con perspectivas de miembros en posiciones de v_t distintas, (3) las que el miembro produce desde reflexividad sobre los límites de su propia perspectiva. Las lecturas con menor peso diagnóstico son: (1) las que corresponden directamente al sesgo por Hijo del miembro, (2) las que no tienen perspectivas alternativas que las corroboren, (3) las que el miembro produce sin capacidad de distinguir su perspectiva individual de la colectiva.
-
-Entrevista Clínica Ontológica · ECO
-
-Notas al capítulo B·III·2
-
-1 El principio de convergencia como fundamento del EP colectivo que establece el §1 tiene una consecuencia metodológica importante: el número mínimo de entrevistas a miembros para producir EP-2 del ego colectivo no es arbitrario. Con dos fuentes, la convergencia puede ser coincidencia. Con tres fuentes independientes y diversas en posición de v_t, la convergencia tiene suficiente base para EP-2. El mediador que administra solo dos entrevistas a miembros puede producir hipótesis del estado del ego colectivo, pero no puede producir localizaciones con la certeza que EP-2 requiere. En esos casos, la localización del ego colectivo debe declararse como hipótesis con EP-4 o EP-5 y la hoja de síntesis debe indicar que se requieren fuentes adicionales.
-
-2 La batería de preguntas colectivas del §2 es la coordinación editorial más directa entre el Bloque III y los Bloques I y II. El principio que opera en cada pregunta colectiva es el mismo: cambiar el objeto de «tú» a «esta organización/comunidad/colectivo» sin cambiar la función diagnóstica del módulo. Lo que cada módulo localiza —la posición de v_t del sujeto en el Bloque I, el estado del ego o del vínculo en el Bloque II— se localiza en el ego colectivo a través de las versiones colectivas de las preguntas. El mediador que conoce bien los módulos individuales puede adaptar sus preguntas al colectivo con la misma precisión con que las administra al individuo, si ha internalizado el principio de cambio de objeto.
-
-3 El sesgo del miembro en E-4 que el §4 describe es especialmente relevante en organizaciones con culturas de M-3 profundo. En un colectivo en M-3, la mayoría de los miembros pueden estar en E-4 relacional con el colectivo: han internalizado el criterio del ego soberano o del campo institucional de manera que ya no pueden distinguir su perspectiva individual de la perspectiva institucional internalizada. En esos colectivos, la mayoría de las entrevistas a miembros producen descripciones del colectivo que son el espejo del ego soberano o del campo, no perspectivas diferenciadas. El mediador que no identifica ese estado puede producir una lectura del ego colectivo que es simplemente la perspectiva del ego soberano multiplicada por el número de miembros entrevistados.
-
-4 Las preguntas de corrección de sesgo del §4 tienen un uso que el texto principal no desarrolla en detalle: son útiles también en la entrevista al ego soberano, no solo en la entrevista a los miembros. El ego soberano también tiene sesgo — el sesgo de quien porta φ₂ puede ser particularmente intenso porque su perspectiva del colectivo ha sido formada durante más tiempo por la función de segunda mediación que porta. Las preguntas de corrección de sesgo administradas al ego soberano pueden producir perspectivas del colectivo que el ego soberano no había podido generar desde su posición de portador de φ₂.
-
-Entrevista Clínica Ontológica · ECO
-
-BLOQUE III · La entrevista al ego colectivo
-
-### B·III·3 ·  AGREGACIÓN DE LOCALIZACIONES INDIVIDUALES
+> Pregunta de corrección de sesgo — el estado del colectivo en otro período «Si yo le hubiera hecho estas mismas preguntas hace dos años — o hace diez —, ¿habría respondido de la misma manera? ¿Qué habría dicho sobre la organización en ese período?» [Esta pregunta de corrección de sesgo accede a la dimensión temporal: si el miembro puede distinguir el estado actual del ego colectivo del estado en períodos anteriores, su descripción del estado actual tiene mayor precisión porque está diferenciada de la historia. El miembro que no puede hacer esa distinción —que describe al colectivo de la misma manera en todos los períodos— puede estar describiendo su sesgo más que el estado del colectivo.]
+>
+> La ponderación de las lecturas corregidas — hacia la lectura agregada
+>
+> Después de identificar y corregir el sesgo de cada miembro entrevistado, el mediador produce la ponderación de las lecturas corregidas. No es un promedio aritmético: es una evaluación ponderada que asigna mayor peso a las perspectivas que tienen menor sesgo identificado, mayor diversidad de posición, y mayor convergencia con perspectivas independientes. La ponderación produce el insumo para el §3 del Bloque III —la agregación de localizaciones— que a su vez produce la lectura del ego colectivo.
+>
+> Regla de ponderación — jerarquía de las lecturas de los miembros Las lecturas con mayor peso diagnóstico son: (1) las que producen miembros con sesgo mínimo identificado (baja proyección del estado individual sobre el colectivo), (2) las que convergen con perspectivas de miembros en posiciones de v_t distintas, (3) las que el miembro produce desde reflexividad sobre los límites de su propia perspectiva. Las lecturas con menor peso diagnóstico son: (1) las que corresponden directamente al sesgo por Hijo del miembro, (2) las que no tienen perspectivas alternativas que las corroboren, (3) las que el miembro produce sin capacidad de distinguir su perspectiva individual de la colectiva.
+>
+> Entrevista Clínica Ontológica · ECO
+>
+> Notas al capítulo B·III·2
+>
+> 1 El principio de convergencia como fundamento del EP colectivo que establece el §1 tiene una consecuencia metodológica importante: el número mínimo de entrevistas a miembros para producir EP-2 del ego colectivo no es arbitrario. Con dos fuentes, la convergencia puede ser coincidencia. Con tres fuentes independientes y diversas en posición de v_t, la convergencia tiene suficiente base para EP-2. El mediador que administra solo dos entrevistas a miembros puede producir hipótesis del estado del ego colectivo, pero no puede producir localizaciones con la certeza que EP-2 requiere. En esos casos, la localización del ego colectivo debe declararse como hipótesis con EP-4 o EP-5 y la hoja de síntesis debe indicar que se requieren fuentes adicionales.
+>
+> 2 La batería de preguntas colectivas del §2 es la coordinación editorial más directa entre el Bloque III y los Bloques I y II. El principio que opera en cada pregunta colectiva es el mismo: cambiar el objeto de «tú» a «esta organización/comunidad/colectivo» sin cambiar la función diagnóstica del módulo. Lo que cada módulo localiza —la posición de v_t del sujeto en el Bloque I, el estado del ego o del vínculo en el Bloque II— se localiza en el ego colectivo a través de las versiones colectivas de las preguntas. El mediador que conoce bien los módulos individuales puede adaptar sus preguntas al colectivo con la misma precisión con que las administra al individuo, si ha internalizado el principio de cambio de objeto.
+>
+> 3 El sesgo del miembro en E-4 que el §4 describe es especialmente relevante en organizaciones con culturas de M-3 profundo. En un colectivo en M-3, la mayoría de los miembros pueden estar en E-4 relacional con el colectivo: han internalizado el criterio del ego soberano o del campo institucional de manera que ya no pueden distinguir su perspectiva individual de la perspectiva institucional internalizada. En esos colectivos, la mayoría de las entrevistas a miembros producen descripciones del colectivo que son el espejo del ego soberano o del campo, no perspectivas diferenciadas. El mediador que no identifica ese estado puede producir una lectura del ego colectivo que es simplemente la perspectiva del ego soberano multiplicada por el número de miembros entrevistados.
+>
+> 4 Las preguntas de corrección de sesgo del §4 tienen un uso que el texto principal no desarrolla en detalle: son útiles también en la entrevista al ego soberano, no solo en la entrevista a los miembros. ### B·III·3 ·  AGREGACIÓN DE LOCALIZACIONES INDIVIDUALES
 
 Del N individual al uno colectivo Protocolo de ponderación por proximidad real a φ₂ · Diagnóstico en
 
