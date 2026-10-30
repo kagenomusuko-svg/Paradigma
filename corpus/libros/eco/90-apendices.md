@@ -808,6 +808,8 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 ### Entrevista Clínica Ontológica · ECO
 
+<!-- FORMULARIO A·2: Eje I | una página imprimible con código, casillas, nivel EP, señal y notas -->
+
 ### B·II·I ·  MÓDULO EJE I — ESTADOS DEL EGO
 
 ### E-1 a E-6 · Modulador transversal
@@ -877,6 +879,8 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 ### Entrevista Clínica Ontológica · ECO
+
+<!-- FORMULARIO A·2: Eje II | hoja imprimible con opciones M-1/M-2/M-3 y observación -->
 
 ### B·II·II ·  MÓDULO EJE II — MASCARADA
 
@@ -948,6 +952,8 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 ### Entrevista Clínica Ontológica · ECO
 
+<!-- FORMULARIO A·2: Eje III | hoja imprimible con opciones relacionales y campo del mediador -->
+
 ### B·II·III ·  MÓDULO EJE III — VÍNCULO
 
 ### V-1, V-2 Damasén/Peribea, V-3
@@ -1018,6 +1024,8 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 ### Entrevista Clínica Ontológica · ECO
 
+<!-- FORMULARIO A·2: Eje IV | hoja imprimible para D-1/D-2 y señal observacional -->
+
 ### B·II·IV  ·  MÓDULO EJE IV — DISFORIA
 
 ### D-1 activo, D-2 con D-1 residual, D-2 profundo
@@ -1087,6 +1095,8 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 ### Entrevista Clínica Ontológica · ECO
+
+<!-- FORMULARIO A·2: Eje V | hoja imprimible para posición del vector y tipo de pérdida -->
 
 ### B·II·V  ·  MÓDULO EJE V — TANATOLÓGICO
 
