@@ -7394,15 +7394,17 @@ Hay una excepción que el sistema reconoce: el sujeto que pregunta directamente.
 
 ### Cómo suena — ejemplos de traducción módulo por módulo
 
+<!-- COMPARATIVA: lenguaje de intervención | pares de columnas: sin etiqueta (usar) / con etiqueta del sistema (no decir) -->
+
 Los pares de comparación que siguen ilustran la diferencia entre el lenguaje etiquetado que el mediador no usa en sesión y el lenguaje sin etiqueta que usa. Cada par corresponde a una localización
 
 ### Entrevista Clínica Ontológica · ECO
 
 ### específica del instrumento y muestra cómo la localización orienta el campo de la sesión sin que el nombre del código aparezca en él.
 
-Localización interna: Fobos H-3 con EP-1 — urgencia reactiva ante objeto de amenaza activo
+#### Localización interna: Fobos H-3 con EP-1 — urgencia reactiva ante objeto de amenaza activo
 
-Sin etiqueta — cómo el mediador usa la localización
+**Sin etiqueta — cómo el mediador usa la localización**
 
 Con etiqueta del sistema — lo que el
 
@@ -7412,7 +7414,7 @@ mediador no dice
 
 «Veo que estás en Fobos — hay algo que amenaza algo importante para ti y eso produce urgencia reactiva. Vamos a trabajar con esa urgencia.»
 
-Localización interna: Deimos H-3 — parálisis ante simetría de opciones sin Otro que oriente
+#### Localización interna: Deimos H-3 — parálisis ante simetría de opciones sin Otro que oriente
 
 Con etiqueta del sistema — lo que el
 
@@ -7426,9 +7428,9 @@ mediador no dice
 
 «Estás en Deimos — la parálisis que describes viene de que las opciones te parecen equivalentes y no puedes orientarte. Trabajemos con esa simetría.»
 
-Localización interna: E-4 con eje ajeno identificable — criterio que no sobrevive al cuestionamiento del Otro
+#### Localización interna: E-4 con eje ajeno identificable — criterio que no sobrevive al cuestionamiento del Otro
 
-Sin etiqueta — cómo el mediador usa la localización
+**Sin etiqueta — cómo el mediador usa la localización**
 
 Con etiqueta del sistema — lo que el
 
@@ -7444,9 +7446,9 @@ mediador no dice
 
 internalizado y no te pertenece genuinamente.»
 
-Localización interna: D-2 EP-1 — ausencia consistente de señal del ego genuino en sesión
+#### Localización interna: D-2 EP-1 — ausencia consistente de señal del ego genuino en sesión
 
-Sin etiqueta — cómo el mediador usa la localización
+**Sin etiqueta — cómo el mediador usa la localización**
 
 Con etiqueta del
 
@@ -7458,7 +7460,7 @@ no dice
 
 «Lo que encontré es que estás en D-2 — la señal del ego genuino se apagó. Esto es la anestesia ontológica.»
 
-Localización interna: M-2 con D-1 activo — máscara que el ego genuino todavía registra como brecha
+#### Localización interna: M-2 con D-1 activo — máscara que el ego genuino todavía registra como brecha
 
 Con etiqueta del sistema — lo que el
 
