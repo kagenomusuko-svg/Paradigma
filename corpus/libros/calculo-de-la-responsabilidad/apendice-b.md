@@ -827,3 +827,4 @@ N4 (cliente) → pérdida propia
 
 #### R*_N1 ≈ 38% · R*_N3+N2 ≈ 45% · R*_N4 ≈ 17%
 
+
