@@ -1,8 +1,7 @@
-### B·I·E ·  MÓDULO EROS
+# B·I·E · MÓDULO EROS
+## La voluntad que se abre hacia la alteridad
 
-### La voluntad que se abre hacia la alteridad
-
-Localización del Hijo de la apertura al umbral · Legibilidad baja
+*Localización del Hijo de la apertura al umbral · Legibilidad baja*
 
 ### I.  Fundamento ontológico del Hijo
 
@@ -10,7 +9,6 @@ Eros es la posición de la voluntad que se abre hacia la alteridad: el primer s�
 
 La distinción ontológica que define a Eros es la que lo separa del colapso de la voluntad ante lo nuevo. Eros no es la voluntad que se disuelve en lo que encuentra: es la voluntad que puede ser genuinamente afectada por lo nuevo sin perder la capacidad de seguir siendo. La diferencia entre Eros y la obediencia al campo (E-4) está exactamente aquí: E-4 recibe lo que el campo produce porque no tiene eje desde donde resistirlo. Eros recibe lo que el campo produce porque elige estar abierto a ello —y puede dejar de estar abierto si lo que llega requiere que el eje propio se afirme (en cuyo caso puede activar Anteros). La apertura de Eros tiene autonomía; la obediencia de E-4 no.
 
-Entrevista Clínica Ontológica · ECO
 
 En términos de la doble mediación: Eros describe la posición de v_t en φ₁ desde la cual φ₁ orienta la voluntad hacia lo que llega antes de que haya evaluación. No es que φ₂ esté ausente — en Eros φ₂ está disponible y puede intervenir si lo que llega requiere una respuesta deliberada. Es que φ₁ produce apertura antes de que φ₂ evalúe: el primer movimiento de la voluntad en Eros es receptivo, no evaluativo. La evaluación puede venir después; la apertura viene primero.
 
@@ -22,7 +20,6 @@ El instrumento establece que la señal más genuina de Eros en ECO es la que el 
 
 Esa señal tiene una consecuencia metodológica importante: el mediador puede verificar Eros directamente en sesión sin depender de la narrativa del sujeto sobre períodos anteriores. Donde Potós requiere narrativa sobre lo que ya fue y tiene dificultad para producir EP-1 porque el objeto ausente no está en la sesión, Eros puede producir EP-1 directamente porque el umbral de la apertura está en la sesión misma — el mediador introduce algo nuevo con cada pregunta.
 
-Entrevista Clínica Ontológica · ECO
 
 Por qué Eros es el quinto módulo del Bloque I y tiene legibilidad baja
 
@@ -38,7 +35,6 @@ Criterios de entrada directa
 
 El Módulo Eros puede iniciarse directamente cuando se cumple alguna de las siguientes condiciones. La primera: la apertura narrativa produjo señal de apertura genuina ante lo nuevo — el sujeto describió iniciativas que no podía justificar con criterios previos,
 
-Entrevista Clínica Ontológica · ECO
 
 respondió con curiosidad visible ante preguntas que no anticipaba, o describió encuentros con algo nuevo que lo afectaron en una dirección no prevista. La segunda: los módulos anteriores mostraron que el sujeto tiene un eje propio activo (Anteros con EP-2 o superior) y el mediador necesita verificar si hay también Eros como Hijo coexistente. La tercera: el árbol documental ya produjo señales de Eros desde el expediente — propuestas no solicitadas, apertura documentada a cambios de dirección que el campo no demandaba — y el mediador necesita verificar desde presencia.
 
@@ -52,7 +48,6 @@ La pregunta ancla del Módulo Eros está diseñada para acceder a la apertura ha
 
 Pregunta ancla E — Formulación estándar
 
-Entrevista Clínica Ontológica · ECO
 
 > «¿Puedes recordar un momento en el período que estamos analizando en que algo completamente inesperado — una persona, una idea, una situación — te abrió a algo que no buscabas? No algo que buscabas y encontraste: algo que no buscabas y que llegó.» [El mediador formula la pregunta y espera. La distinción «no algo que buscabas» es la que separa Eros de la curiosidad instrumental: la apertura de Eros es ante lo que llega sin ser buscado, ante lo que interrumpe la dirección prevista. Si el sujeto dice que no recuerda ningún momento así, el mediador espera 15 segundos y pasa al Sondeo E·1. Si el sujeto produce inmediatamente un episodio de apertura, el mediador observa cómo lo narra: ¿hay textura de descubrimiento? ¿Hay algo en la narrativa que el sujeto parece redescubrir mientras lo cuenta? ¿O la narrativa es fluida y articulada de una manera que sugiere que el sujeto ya sabe lo que va a decir?]
 
@@ -101,7 +96,6 @@ Las preguntas de sondeo del Módulo Eros tienen una característica específica:
 
 Las señales de observación directa del Módulo Eros son, de todos los módulos del Bloque I, las que más directamente puede producir el instrumento mismo. ECO, como instrumento de entrevista, introduce algo nuevo con cada pregunta que formula. Si el sujeto está en Eros, esa novedad puede activar señales directamente observables en sesión. El mediador que administra este módulo con conciencia de que es él mismo quien puede activar EP-1 tiene el instrumento completamente disponible.
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- TABLA: señales observables | columnas: señal observable, nivel EP, error de lectura -->
 
@@ -153,7 +147,6 @@ El mediador que quiere verificar esta señal puede, en el momento en que el suje
 
 El árbol del Módulo Eros tiene una particularidad que lo distingue de los módulos anteriores: el nodo más diagnóstico del árbol está en el medio de la sesión, no al principio. El Sondeo E·6 —¿hay algo nuevo que la sesión misma produjo en ti? — puede resolver la codificación del módulo sin que sea necesario completar todos los sondeos anteriores. El árbol incorpora esta posibilidad como un nodo de cortocircuito que no omite la verificación de exclusión.
 
-Entrevista Clínica Ontológica · ECO
 
 > **NODO E·0 — ¿Se aplica el acortamiento del módulo?**
 >
@@ -183,7 +176,6 @@ Entrevista Clínica Ontológica · ECO
 >
 > NO (episodio único o circunstancial) → H-2 máximo · EP-4 o EP-5 · Nota de hipótesis. SÍ → ¿Hay señal de observación directa en sesión? ↓
 >
-> ### Entrevista Clínica Ontológica · ECO
 
 > **NODO E·7 — ¿La señal EP-1 de apertura se produjo directamente en sesión?**
 >
@@ -217,7 +209,6 @@ El sujeto puede describir momentos de detención genuina: algo llegó y el sujet
 
 El sujeto describe apertura continua sin detención: de una cosa a otra, siempre en
 
-### Entrevista Clínica Ontológica · ECO
 
 apertura fue de una cosa a otra sin que ninguna te retuviera?»
 
@@ -241,7 +232,6 @@ Eros: lo primero fue recibirlo — el sujeto se abrió antes de evaluar. La aper
 
 Anteros: lo primero fue evaluar desde el eje propio — el sujeto recibió lo nuevo desde el criterio que ya tenía y lo afirmó, lo rechazó o lo integró desde esa posición. La evaluación precede a la recepción. El eje propio es el primer operador, no la apertura.
 
-Entrevista Clínica Ontológica · ECO
 
 Curiosidad instrumental: el sujeto se interesó en lo nuevo para confirmar, elaborar o profundizar algo que ya buscaba. Lo nuevo fue útil para lo que ya estaba en movimiento, pero no produjo ninguna dirección nueva no anticipada. No hay sorpresa: hay uso eficiente del material nuevo.
 
@@ -257,7 +247,6 @@ La discriminación Eros / E-4 es la que con mayor frecuencia el mediador no pued
 
 La pregunta que más frecuentemente resuelve esta discriminación es la de la iniciativa contrafáctica: «¿esa apertura habría ocurrido si el entorno no hubiera estado presente?». En Eros, puede responder que sí o que algo similar habría ocurrido de otra manera — hay algo en el sujeto que orienta hacia lo nuevo. En E-4, la apertura depende completamente del campo: sin el campo que la producía, no habría ocurrido. El sujeto en E-4 no puede imaginar esa apertura sin el entorno que la activó porque no tiene iniciativa propia en esa dimensión.
 
-### Entrevista Clínica Ontológica · ECO
 
 ### La discriminación Eros vs. evasión activa — segunda en importancia
 
@@ -270,7 +259,6 @@ La pregunta de la retención — la más discriminante para Eros vs. evasión «
 Nivel EP mín. Ejemplo de respuesta
 
 <!-- TABLA: codificación | columnas: código, nombre, ancla conductual, nivel EP, ejemplo -->
-
 
 
 H-3 Presente El sujeto muestra apertura genuina ante lo que el mediador introduce en sesión — perspectivas distintas, preguntas que no anticipaba— de manera sostenida y replicable en varios momentos. La apertura tiene dos
@@ -293,7 +281,6 @@ manera sostenida. EP-
 
 señal de
 
-### Entrevista Clínica Ontológica · ECO
 
 con textura de descubrimiento visible.]
 
@@ -323,7 +310,6 @@ El módulo no pudo evaluarse: el sujeto no produjo material relevante para Eros,
 
 Sin EP asignable.
 
-Entrevista Clínica Ontológica · ECO
 
 determinar si esa actividad correspondía a apertura genuina (Eros), a buscar aprobación del mediador (E-4), o a evadir los temas que los sondeos anteriores produjeron (evasión activa).]
 
@@ -339,7 +325,6 @@ La condición para EP-1 en Eros es estricta: no es suficiente con que el sujeto 
 
 Eros puede coexistir con cualquier Hijo en la misma distribución. La coexistencia más frecuente y más diagnósticamente interesante es Eros con Anteros: el sujeto que tiene tanto apertura hacia la alteridad (Eros) como afirmación desde el eje propio (Anteros) tiene la
 
-Entrevista Clínica Ontológica · ECO
 
 configuración más favorable del Bloque I para el acompañamiento. Los dos Hijos no son contradictorios: Eros abre, Anteros afirma. En la misma configuración de la voluntad, el sujeto puede recibir lo nuevo con apertura genuina y, desde lo que ese encuentro produce, afirmar algo propio en la dimensión arética.
 
@@ -353,7 +338,6 @@ La organización en Eros colectivo es la que puede recibir diferencia genuina de
 
 Por qué Eros colectivo es raro y frágil
 
-Entrevista Clínica Ontológica · ECO
 
 Eros colectivo requiere una condición que pocos colectivos sostienen: un ego soberano en E-1 con la capacidad de ceder la segunda mediación sin perder el eje. El ego soberano que cede la segunda mediación colectiva hacia la apertura de Eros necesita tener su propio eje suficientemente sólido para que la apertura del colectivo no lo disuelva. Un ego soberano en E-4 no puede producir Eros colectivo genuino porque no tiene eje propio desde donde orientar la apertura: lo que produce es obediencia colectiva al campo que pide innovación. Y un ego soberano en Anteros sin Eros produce colectivos con criterio propio sólido pero que no pueden ser genuinamente afectados por lo nuevo — pueden escucharlo, evaluarlo, aceptarlo o rechazarlo, pero no pueden ser sorprendidos por ello.
 
@@ -365,7 +349,6 @@ La distinción Eros colectivo / innovación prescripta
 
 La distinción más importante en la aplicación colectiva del Módulo Eros es la que diferencia la organización que innova porque algo genuinamente nuevo llegó y la afectó (Eros colectivo) de la
 
-Entrevista Clínica Ontológica · ECO
 
 organización que innova porque el campo lo prescribe (E-4 colectivo disfrazado de innovación). La señal que distingue los dos: en Eros colectivo, la innovación produce algo que el colectivo no anticipaba y que lo afecta en una dirección que no habría tomado sin ese encuentro. En E-4 colectivo con innovación prescripta, el resultado de la «innovación» siempre confirma lo que el campo esperaba — el colectivo innova en la dirección que el entorno demanda, no en la dirección que el encuentro con lo nuevo produce desde adentro.
 
@@ -379,7 +362,6 @@ El segundo error es confundir Eros con apertura ilimitada y concluir que el suje
 
 El tercer error es usar la apertura del sujeto en sesión para concluir que Eros es dominante sin verificar si esa apertura corresponde a Eros o a E-4. El sujeto que produce apertura ante el mediador puede estar genuinamente en Eros — o puede estar respondiendo a la autoridad del mediador con la obediencia de E-4. La verificación de
 
-Entrevista Clínica Ontológica · ECO
 
 exclusión es obligatoria antes de codificar cualquier señal de apertura en sesión como EP-1 de Eros.
 
@@ -402,20 +384,18 @@ Cuándo el caso supera ECO
 
 Eros raramente produce situaciones que superen el alcance de ECO. La excepción más significativa es cuando la apertura de Eros está asociada a conductas que el sujeto mismo describe como fuera de su control — apertura compulsiva hacia lo nuevo que no puede moderar, aunque lo intente, que produce consecuencias en sus relaciones o en su funcionamiento ordinario. En ese caso la señal puede estar orientando hacia algo que requiere evaluación clínica antes de continuar con el instrumento. La instrucción: si la apertura que el sujeto describe tiene consecuencias problemáticas que el sujeto no puede regular, derivar a evaluación clínica antes de completar el Bloque I.
 
-Notas al Módulo B·I·E
+---
+
+## Notas al Módulo B·I·E
 
 1 La descripción de Eros como la posición de v_t desde la cual la voluntad puede ser afectada por la alteridad antes de evaluarla tiene una consecuencia directa para el análisis de responsabilidad del Método Prometeo: un sujeto en Eros tiene S relativamente bajo porque la orientación de su voluntad tiene alta idiosincrasia — lo que llega desde la alteridad modifica φ₁ de manera que el acto resultante no es fácilmente predecible desde el campo. El encuentro con algo nuevo que produce Eros genuino es por definición un evento que ningún modelo de campo puede predecir con exactitud. Esa impredictibilidad reduce S.
 
 2 La instrucción de que el mediador necesita estar «genuinamente presente» para que Eros pueda producirse en sesión tiene implicaciones para la formación de mediadores que van más allá del Módulo Eros. El mediador que administra ECO como protocolo —ejecutando preguntas sin estar genuinamente presente como sujeto— no puede producir las condiciones para que Eros se manifieste. Pero tampoco puede producir las condiciones para que Anteros se manifieste genuinamente (porque no hay diferencia que pueda recibirse) ni para que Deimos se lea con precisión (porque no hay campo relacional que pueda producir la señal de parálisis). La presencia genuina del mediador no es solo un
 
-Entrevista Clínica Ontológica · ECO
 
 requisito de Eros: es un requisito de todo el instrumento que Eros hace visible de manera especialmente clara.
 
 3 La coexistencia Eros/Anteros que se desarrolla en §9 como la distribución más diagnósticamente interesante del módulo tiene un antecedente en la ontología del sistema: la dimensión afrodítica (dominio, incorporación de lo externo) y la dimensión arética (conquista, afirmación desde la diferencia) son complementarias y necesarias entre sí. Un ego que solo puede afirmar (Anteros sin Eros) no puede incorporar genuinamente lo que el encuentro con la alteridad produce. Un ego que solo puede recibir (Eros sin Anteros) no puede afirmar lo propio ante lo que llega. La coexistencia de los dos Hijos describe la voluntad que puede tanto incorporar lo nuevo como afirmar lo propio — lo que Harmonía, en el Módulo siguiente, integra cuando esas dos dimensiones operan desde φ₂ con plena distancia.
 
 4 La distinción Eros / curiosidad instrumental que aparece en §4 (Sondeo E·1) y en la tabla discriminante de §7 tiene consecuencias para el uso del módulo en el contexto del Mediador Educativo. La curiosidad que los sistemas educativos valoran y fomentan es mayoritariamente curiosidad instrumental: el estudiante curioso es el que busca entender mejor lo que ya está aprendiendo, no el que se abre a direcciones no previstas por el programa. Eros en el contexto educativo es más raro que la curiosidad instrumental y más difícil de valorar institucionalmente — pero es también el estado que produce los aprendizajes más genuinos y menos predecibles. El mediador educativo que puede distinguir los dos tiene una herramienta diagnóstica para identificar qué tipo de apertura está presente en el sujeto y qué tipo de acompañamiento corresponde a cada una.
-
-Entrevista Clínica Ontológica · ECO
-
 
