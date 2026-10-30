@@ -8148,6 +8148,8 @@ Entrevista Clínica Ontológica · ECO
 
 APÉNDICES · Instrumentos de trabajo del mediador
 
+<!-- FORMULARIO: A·1 | salto de página | campos rellenables, casillas de verificación, tablas de localización y áreas de notas -->
+
 ### A·1 ·  HOJA DE SÍNTESIS DE LA SESIÓN
 
 ### Registro de la localización del ego genuino Para completar durante o después de la sesión · Instrumento interno del
@@ -8162,7 +8164,7 @@ Completar las secciones en el orden de administración del instrumento: identifi
 
 Los campos de nivel EP usan la escala EP-0 a EP-8. Los campos de código usan los códigos exactos del instrumento (H-1/H-2/H-3, E-1 a E-6, etc.). Los campos de notas son narrativos y pueden completarse con abreviaciones propias del mediador.
 
-IDENTIFICACIÓN DE LA SESIÓN
+**IDENTIFICACIÓN DE LA SESIÓN**
 
 Código de caso
 
@@ -8179,6 +8181,8 @@ Estado del instrumento (ECO activo / re-administración / supervisión)
 Tipo de ego analizado Ego soberano (si es colectivo)
 
 □  Ego individual □  Ego colectivo (Bloque III)
+
+<!-- FORMULARIO: A·1 / bloque I | cuadrícula de seis Hijos con casillas, peso y EP -->
 
 ### BLOQUE I · LOS HIJOS DE AFRODITA
 
@@ -8296,6 +8300,8 @@ Notas de discriminación Harmonía/D-2
 
 □ H·D1 — □ H·D2 — □ H·D3 —
 
+<!-- TABLA: distribución P(Hijos) | columnas: Hijo, peso, nivel EP -->
+
 ### Distribución P(Hijos) — síntesis del Bloque I
 
 ### Completar después de cerrar los seis módulos. La suma de los seis pesos debe ser 1.00. P(Harmonía) ≠ 0 solo si el módulo H produjo H-3(H) con EP-1 o EP-2.
@@ -8311,6 +8317,8 @@ Hijo Fobos Deimos Anteros Potós Eros Harmonía
 ### EP
 
 Notas de convergencia/divergencia entre módulos del Bloque I
+
+<!-- FORMULARIO: A·1 / bloque II | cinco registros de eje, códigos, opciones, nivel EP, señal y notas -->
 
 ### BLOQUE II · LOS CINCO EJES DEL SDO
 
@@ -8414,6 +8422,8 @@ Calibración del mediador — estado propio en esta sesión y posible sesgo
 
 ### Entrevista Clínica Ontológica · ECO
 
+<!-- FORMULARIO CONDICIONAL: completar si se administró el Bloque III -->
+
 ### BLOQUE III · EGO COLECTIVO (completar solo si se
 
 ### administró)
@@ -8427,6 +8437,8 @@ Estado de φ₂ (efectiva / cedida / difusa / apagada)
 Distribución P(Hijos) colectivo ponderada (factores de proximidad a φ₂ aplicados)
 
 Códigos de Ejes colectivos (I a V) y nota de convergencia/divergencia
+
+<!-- FORMULARIO: A·1 / cierre | opciones de estado, paso siguiente, vigencia y notas -->
 
 ### CIERRE DEL INSTRUMENTO
 
@@ -8445,6 +8457,8 @@ Paso siguiente Vigencia estimada de la localización
 □  6 meses (alta certeza) □  3 meses (incertidumbre) □  Episodio — re-administrar antes □  Sin vigencia para Histos
 
 Notas de derivación — a quién, por qué, con qué encuadre de coordinación
+
+<!-- FORMULARIO: campo de texto libre para recursos del ego genuino -->
 
 ### NOTA DE RECURSOS DISPONIBLES DEL EGO GENUINO
 
@@ -8496,6 +8510,8 @@ horas o días después de la sesión tienen menor precisión diagnóstica porque
 
 Entrevista Clínica Ontológica · ECO
 
+<!-- FORMULARIO: A·2 | hojas imprimibles por módulo | cada hoja inicia en página nueva -->
+
 ### A·2 HOJAS DE REGISTRO POR MÓDULO
 
 Una hoja por módulo · 11 módulos totales · Bloque I y Bloque II
@@ -8505,6 +8521,8 @@ Este apéndice contiene una hoja de registro específica para cada uno de los on
 Las hojas de registro son documentos internos del mediador. No se entregan al sujeto ni al encargado.
 
 ### Entrevista Clínica Ontológica · ECO
+
+<!-- FORMULARIO: hoja de registro B·I·F | salto de página -->
 
 ### B·I·F  ·  MÓDULO FOBOS
 
@@ -8576,6 +8594,8 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 ### Entrevista Clínica Ontológica · ECO
 
+<!-- FORMULARIO: hoja de registro B·I·D | salto de página -->
+
 ### B·I·D ·  MÓDULO DEIMOS
 
 ### Parálisis ante la simetría de opciones
@@ -8645,6 +8665,8 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 ### Entrevista Clínica Ontológica · ECO
+
+<!-- FORMULARIO: hoja de registro B·I·A | salto de página -->
 
 ### B·I·A ·  MÓDULO ANTEROS
 
@@ -8716,6 +8738,8 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 ### Entrevista Clínica Ontológica · ECO
 
+<!-- FORMULARIO: hoja de registro B·I·P | salto de página -->
+
 ### B·I·P  ·  MÓDULO POTÓS
 
 ### Orientación al ausente
@@ -8786,6 +8810,8 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 ### Entrevista Clínica Ontológica · ECO
 
+<!-- FORMULARIO: hoja de registro B·I·E | salto de página -->
+
 ### B·I·E ·  MÓDULO EROS
 
 ### Apertura genuina ante la alteridad
@@ -8855,6 +8881,8 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 ### Entrevista Clínica Ontológica · ECO
+
+<!-- FORMULARIO: hoja de registro B·I·H | salto de página -->
 
 ### B·I·H ·  MÓDULO HARMONÍA / D-2
 
