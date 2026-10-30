@@ -28,11 +28,7 @@ El Capítulo U·1 de la Taxonomía establece la jerarquía de evidencia document
 
 ### Entrevista Clínica Ontológica · ECO
 
-Tipo de artefacto Qué información produce
-
-Nivel EP colectivo máximo
-
-Limitación diagnóstica
+<!-- TABLA: tipología de artefactos | columnas: tipo de artefacto, información producida, nivel EP colectivo máximo, limitación diagnóstica -->
 
 Grupo focal con técnica ontológica (ver §2)
 
@@ -102,9 +98,7 @@ El grupo focal ontológico requiere una composición específica que lo distingu
 
 La selección de los participantes incluye también un criterio de diversidad de posición de v_t: el grupo debe incluir miembros con distintos Hijos dominantes si eso es posible identificarlo desde las entrevistas individuales previas. La razón es que la dinámica del grupo focal ontológico produce señal EP-1 más confiable cuando la diversidad de perspectivas individuales hace que la segunda mediación del ego colectivo deba operar activamente para orientar el grupo: si todos los miembros tienen el mismo Hijo dominante, la dinámica del grupo puede no activar la segunda mediación colectiva de la misma manera.
 
-Grupo focal con técnica ontológica
-
-Grupo focal de investigación cualitativa ordinaria
+<!-- TABLA: comparación de formatos grupales | columnas: técnica ontológica, entrevista cualitativa ordinaria, diferencias de objetivo y resultado -->
 
 ### Entrevista Clínica Ontológica · ECO
 
@@ -136,35 +130,34 @@ Entrevista Clínica Ontológica · ECO
 
 ### deliberación genuina en el grupo, y debe activar la dimensión de la voluntad colectiva que el módulo busca localizar.
 
-Pregunta de apertura del grupo focal ontológico «Me gustaría que como grupo me contaran algo que esta organización hizo en el período que estamos analizando — algo que fue importante y que requirió que el grupo tuviera que decidir juntos hacia dónde ir. No lo que resultó bien o mal: cómo se tomó esa decisión, desde dónde se orientó.» [El mediador formula la pregunta y observa: ¿quién habla primero? ¿Quién establece el marco de la narración? ¿Hay miembros que amplían, corrigen o contestan la narrativa del primero? ¿El grupo produce una narración coherente del colectivo o las perspectivas son tan distintas que no pueden integrarse? La dinámica de los primeros diez minutos del grupo focal ontológico produce señal diagnóstica de alta densidad sobre el ego colectivo.]
-
-Pregunta de activación de la voluntad colectiva «Ahora me gustaría que el grupo tomara una decisión real. No una hipotética: algo que esta organización necesita decidir y que todavía no ha decidido. Tienen veinte minutos. ¿Pueden hacerlo?» [Esta es la pregunta más diagnóstica del grupo focal ontológico. Lo que el mediador observa: si el grupo puede tomar una decisión real en el tiempo dado, o si produce la misma parálisis que el colectivo produce en su funcionamiento ordinario. Si el grupo puede tomar la decisión con criterio identificable: señal de E-1 colectivo activo. Si produce deliberación prolongada sin orientación: señal de Deimos colectivo. Si produce la decisión que el ego soberano orienta sin deliberación visible: señal de M-3 o de V-2 Damasén dominante. Si no puede identificar ninguna decisión pendiente: posible D-2 colectivo.]
-
-Pregunta discriminante Harmonía colectiva / D-2 colectivo «Como grupo, ¿pueden decirme qué quiere esta organización ahora mismo — no qué dice que quiere, no sus objetivos formales: qué quiere realmente desde donde está en este momento?» [La versión grupal de H·D2 del módulo H. Lo que el mediador observa: si el grupo puede producir una respuesta con textura de evaluación interna genuina del colectivo, o si produce los documentos institucionales. En Harmonía colectiva, el grupo puede producir algo que tiene temperatura de preferencia genuina. En D-2 colectivo, la respuesta es fluida y apropiada, pero sin temperatura de evaluación interna. En Deimos colectivo, el grupo puede no ponerse de acuerdo sobre qué quiere el colectivo o puede producir respuestas que se contradicen sin que nadie oriente hacia la resolución.]
-
-Entrevista Clínica Ontológica · ECO
-
-Observación de la dinámica del grupo focal — protocolo de registro
-
-El mediador que administra el grupo focal ontológico observa dos campos simultáneamente, como en el Eje III del Bloque II: el campo del contenido (qué dice el grupo) y el campo de la dinámica estructural (cómo el grupo produce lo que dice). El campo del contenido produce información sobre los temas que el ego colectivo activa. El campo de la dinámica estructural produce la señal diagnóstica del ego colectivo. Para registrar ambos campos simultáneamente, el mediador puede trabajar con un co-observador que registra la dinámica estructural mientras el mediador se ocupa de la administración de las preguntas y de la observación del contenido.
-
-Los elementos de la dinámica estructural que el co-observador registra en tiempo real: quién habla en cada momento (con referencia a su nivel de proximidad a φ₂), quién puede cambiar la dirección de la conversación sin que el grupo se desestabilice, si hay acuerdos que emergen y cómo emergen (por orientación del ego soberano, por consenso gradual, por agotamiento del disenso, por silencio de Deimos), si hay temas que producen cambios de temperatura observable en el grupo, y si hay momentos de diferencia genuina que el grupo puede habitar sin colapso (V-1 colectivo) o que el grupo resuelve mediante la imposición de una orientación (Damasén) o mediante la evitación (V-3 o M-3).
-
-Instrucción especial para el grupo focal ontológico: el mediador no interviene para orientar la dinámica del grupo hacia ninguna posición específica. Si el grupo produce parálisis, el mediador sostiene el silencio sin ofrecer salida — la parálisis es la señal diagnóstica de Deimos colectivo. Si el grupo produce urgencia reactiva, el mediador no calma — la urgencia es la señal de Fobos colectivo. Si el grupo produce acuerdo plano sin deliberación, el mediador no produce diferencia para activar la deliberación — la planitud es la señal de D-2 colectivo o de M-3. Intervenir en el grupo focal ontológico para producir las condiciones que el ego colectivo genuino debería producir es exactamente el error que el mediador de ECO no comete con el sujeto individual.
-
-### III.  Observación de juntas y rituales institucionales
-
-La observación directa de una junta institucional —una reunión de trabajo, un comité de decisión, una asamblea— es la técnica con mayor potencial de EP-1 para el ego colectivo que el Bloque III
-
-### Entrevista Clínica Ontológica · ECO
-
-ofrece, y también la más difícil de acceder. Requiere que el mediador obtenga autorización para estar presente en una junta real del colectivo, con el protocolo de observación como observador —no como participante. La presencia del mediador puede alterar la dinámica de la junta (el efecto del observador) pero con observación de juntas múltiples ese efecto se reduce: el mediador que puede observar al menos tres juntas del mismo colectivo en el período analizado tiene acceso a señales de alta certeza diagnóstica.
-
-La observación de juntas opera desde el mismo principio que la doble observación del Módulo Eje III del Bloque II: el mediador observa simultáneamente el campo del contenido (qué se discute) y el campo de la estructura relacional (quién orienta, quién sigue, cómo se producen los acuerdos). La tabla que sigue establece los elementos de la dinámica de la junta que el mediador observa con su instrumento de registro y qué código diagnóstico produce cada elemento.
-
-Elemento observable en la junta
-
-Código diagnóstico que orienta
+> Pregunta de apertura del grupo focal ontológico «Me gustaría que como grupo me contaran algo que esta organización hizo en el período que estamos analizando — algo que fue importante y que requirió que el grupo tuviera que decidir juntos hacia dónde ir. No lo que resultó bien o mal: cómo se tomó esa decisión, desde dónde se orientó.» [El mediador formula la pregunta y observa: ¿quién habla primero? ¿Quién establece el marco de la narración? ¿Hay miembros que amplían, corrigen o contestan la narrativa del primero? ¿El grupo produce una narración coherente del colectivo o las perspectivas son tan distintas que no pueden integrarse? La dinámica de los primeros diez minutos del grupo focal ontológico produce señal diagnóstica de alta densidad sobre el ego colectivo.]
+>
+> > Pregunta de activación de la voluntad colectiva «Ahora me gustaría que el grupo tomara una decisión real. No una hipotética: algo que esta organización necesita decidir y que todavía no ha decidido. Tienen veinte minutos. ¿Pueden hacerlo?» [Esta es la pregunta más diagnóstica del grupo focal ontológico. Lo que el mediador observa: si el grupo puede tomar una decisión real en el tiempo dado, o si produce la misma parálisis que el colectivo produce en su funcionamiento ordinario. Si el grupo puede tomar la decisión con criterio identificable: señal de E-1 colectivo activo. Si produce deliberación prolongada sin orientación: señal de Deimos colectivo. Si produce la decisión que el ego soberano orienta sin deliberación visible: señal de M-3 o de V-2 Damasén dominante. Si no puede identificar ninguna decisión pendiente: posible D-2 colectivo.]
+> >
+> > > Pregunta discriminante Harmonía colectiva / D-2 colectivo «Como grupo, ¿pueden decirme qué quiere esta organización ahora mismo — no qué dice que quiere, no sus objetivos formales: qué quiere realmente desde donde está en este momento?» [La versión grupal de H·D2 del módulo H. Lo que el mediador observa: si el grupo puede producir una respuesta con textura de evaluación interna genuina del colectivo, o si produce los documentos institucionales. En Harmonía colectiva, el grupo puede producir algo que tiene temperatura de preferencia genuina. En D-2 colectivo, la respuesta es fluida y apropiada, pero sin temperatura de evaluación interna. En Deimos colectivo, el grupo puede no ponerse de acuerdo sobre qué quiere el colectivo o puede producir respuestas que se contradicen sin que nadie oriente hacia la resolución.]
+> > >
+> > >
+> > > Observación de la dinámica del grupo focal — protocolo de registro
+> > >
+> > > El mediador que administra el grupo focal ontológico observa dos campos simultáneamente, como en el Eje III del Bloque II: el campo del contenido (qué dice el grupo) y el campo de la dinámica estructural (cómo el grupo produce lo que dice). El campo del contenido produce información sobre los temas que el ego colectivo activa. El campo de la dinámica estructural produce la señal diagnóstica del ego colectivo. Para registrar ambos campos simultáneamente, el mediador puede trabajar con un co-observador que registra la dinámica estructural mientras el mediador se ocupa de la administración de las preguntas y de la observación del contenido.
+> > >
+> > > Los elementos de la dinámica estructural que el co-observador registra en tiempo real: quién habla en cada momento (con referencia a su nivel de proximidad a φ₂), quién puede cambiar la dirección de la conversación sin que el grupo se desestabilice, si hay acuerdos que emergen y cómo emergen (por orientación del ego soberano, por consenso gradual, por agotamiento del disenso, por silencio de Deimos), si hay temas que producen cambios de temperatura observable en el grupo, y si hay momentos de diferencia genuina que el grupo puede habitar sin colapso (V-1 colectivo) o que el grupo resuelve mediante la imposición de una orientación (Damasén) o mediante la evitación (V-3 o M-3).
+> > >
+> > > Instrucción especial para el grupo focal ontológico: el mediador no interviene para orientar la dinámica del grupo hacia ninguna posición específica. Si el grupo produce parálisis, el mediador sostiene el silencio sin ofrecer salida — la parálisis es la señal diagnóstica de Deimos colectivo. Si el grupo produce urgencia reactiva, el mediador no calma — la urgencia es la señal de Fobos colectivo. Si el grupo produce acuerdo plano sin deliberación, el mediador no produce diferencia para activar la deliberación — la planitud es la señal de D-2 colectivo o de M-3. Intervenir en el grupo focal ontológico para producir las condiciones que el ego colectivo genuino debería producir es exactamente el error que el mediador de ECO no comete con el sujeto individual.
+> > >
+> > > ### III.  Observación de juntas y rituales institucionales
+> > >
+> > > La observación directa de una junta institucional —una reunión de trabajo, un comité de decisión, una asamblea— es la técnica con mayor potencial de EP-1 para el ego colectivo que el Bloque III
+> > >
+> > > ### Entrevista Clínica Ontológica · ECO
+> > >
+> > > ofrece, y también la más difícil de acceder. Requiere que el mediador obtenga autorización para estar presente en una junta real del colectivo, con el protocolo de observación como observador —no como participante. La presencia del mediador puede alterar la dinámica de la junta (el efecto del observador) pero con observación de juntas múltiples ese efecto se reduce: el mediador que puede observar al menos tres juntas del mismo colectivo en el período analizado tiene acceso a señales de alta certeza diagnóstica.
+> > >
+> > > La observación de juntas opera desde el mismo principio que la doble observación del Módulo Eje III del Bloque II: el mediador observa simultáneamente el campo del contenido (qué se discute) y el campo de la estructura relacional (quién orienta, quién sigue, cómo se producen los acuerdos). La tabla que sigue establece los elementos de la dinámica de la junta que el mediador observa con su instrumento de registro y qué código diagnóstico produce cada elemento.
+> > >
+> > > Elemento observable en la junta
+> > >
+> > > Código diagnóstico que orienta
 
 Señal específica que confirma
 
@@ -260,23 +253,21 @@ El tercer tipo de relación es la divergencia total: los artefactos contradicen 
 
 Regla de cruce — qué hacer con cada tipo de relación Convergencia total → elevar el EP de la localización un punto (máximo EP-1). / Divergencia parcial → registrar la divergencia como señal diagnóstica de heterogeneidad del ego colectivo y mantener el EP de la localización sin elevarlo. / Divergencia total → explorar si la divergencia corresponde a M-2 o M-3 (la máscara en los documentos frente al ego genuino en las entrevistas) o a una inconsistencia de las fuentes que requiere más investigación. / Saturación con matices → elevar el EP medio punto y registrar los matices en la nota de convergencia/divergencia de la hoja de síntesis del Bloque III.
 
-Protocolo de integración — secuencia de operaciones
-
-El protocolo de integración sigue una secuencia de cinco operaciones. Primera: producir la localización preliminar desde las entrevistas al ego soberano y a los miembros (§3 del B·III·1 y §2 del
-
-Entrevista Clínica Ontológica · ECO
-
-Bloque III), agregada según el protocolo del §3 del Bloque III. Segunda: administrar el grupo focal ontológico o la observación de juntas para producir señal EP-1 directa del ego colectivo en funcionamiento. Tercera: revisar los artefactos documentales y culturales para producir la evidencia de corroboración. Cuarta: aplicar el protocolo de cruce para identificar la relación entre las distintas fuentes de evidencia. Quinta: producir la localización colectiva integrada con el EP ajustado por la convergencia o la divergencia entre fuentes.
-
-La secuencia es importante: la localización preliminar desde las entrevistas siempre va primero porque es la fuente de mayor EP diagnóstico. Los grupos focales y las juntas van segundo porque producen señal EP-1 directa que puede confirmar o cuestionar la localización preliminar. Los artefactos documentales van tercero como corroboración. La cultura material va cuarta como contexto histórico. No es posible producir una localización colectiva confiable invirtiendo este orden: comenzar desde los documentos y llegar a las entrevistas produce localizaciones contaminadas por la máscara institucional que los documentos reproducen.
-
-El cruce como instrumento para leer M-3 profundo
-
-La aplicación más específica del protocolo de cruce es la lectura de M-3 profundo: el estado en que la máscara institucional es tan consistente en todos los artefactos que las entrevistas son la única fuente que puede revelar lo que está detrás de ella. En colectivos con M-3 profundo, los documentos institucionales, los rituales, los espacios y las comunicaciones externas producen todos la misma firma — la firma de la máscara — de manera que si el mediador solo usa los artefactos produce la localización de la máscara, no del ego colectivo genuino.
-
-La divergencia entre los artefactos (que producen la firma de la máscara) y las entrevistas (que pueden producir señales del ego colectivo genuino cuando el mediador crea las condiciones para que emerja) es precisamente la señal diagnóstica de M-3 profundo. El mediador que puede leer esa divergencia y traducirla en el código M-3 colectivo tiene acceso a la información más crítica para el trabajo de Histos colectivo: el colectivo no es lo que sus artefactos muestran,
-
-Entrevista Clínica Ontológica · ECO
+> Protocolo de integración — secuencia de operaciones
+>
+> El protocolo de integración sigue una secuencia de cinco operaciones. Primera: producir la localización preliminar desde las entrevistas al ego soberano y a los miembros (§3 del B·III·1 y §2 del
+>
+>
+> Bloque III), agregada según el protocolo del §3 del Bloque III. Segunda: administrar el grupo focal ontológico o la observación de juntas para producir señal EP-1 directa del ego colectivo en funcionamiento. Tercera: revisar los artefactos documentales y culturales para producir la evidencia de corroboración. Cuarta: aplicar el protocolo de cruce para identificar la relación entre las distintas fuentes de evidencia. Quinta: producir la localización colectiva integrada con el EP ajustado por la convergencia o la divergencia entre fuentes.
+>
+> La secuencia es importante: la localización preliminar desde las entrevistas siempre va primero porque es la fuente de mayor EP diagnóstico. Los grupos focales y las juntas van segundo porque producen señal EP-1 directa que puede confirmar o cuestionar la localización preliminar. Los artefactos documentales van tercero como corroboración. La cultura material va cuarta como contexto histórico. No es posible producir una localización colectiva confiable invirtiendo este orden: comenzar desde los documentos y llegar a las entrevistas produce localizaciones contaminadas por la máscara institucional que los documentos reproducen.
+>
+> El cruce como instrumento para leer M-3 profundo
+>
+> La aplicación más específica del protocolo de cruce es la lectura de M-3 profundo: el estado en que la máscara institucional es tan consistente en todos los artefactos que las entrevistas son la única fuente que puede revelar lo que está detrás de ella. En colectivos con M-3 profundo, los documentos institucionales, los rituales, los espacios y las comunicaciones externas producen todos la misma firma — la firma de la máscara — de manera que si el mediador solo usa los artefactos produce la localización de la máscara, no del ego colectivo genuino.
+>
+> La divergencia entre los artefactos (que producen la firma de la máscara) y las entrevistas (que pueden producir señales del ego colectivo genuino cuando el mediador crea las condiciones para que emerja) es precisamente la señal diagnóstica de M-3 profundo. El mediador que puede leer esa divergencia y traducirla en el código M-3 colectivo tiene acceso a la información más crítica para el trabajo de Histos colectivo: el colectivo no es lo que sus artefactos muestran,
+>
 
 ### y el trabajo de acompañamiento no puede comenzar desde la máscara sino desde el ego genuino que las entrevistas pudieron localizar.
 

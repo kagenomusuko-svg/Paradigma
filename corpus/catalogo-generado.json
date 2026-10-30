@@ -2626,7 +2626,7 @@
     "id": "ECO",
     "title": "ECO: Entrevista Clínica Ontológica",
     "source": "corpus/fuentes/ECO Entrevista Clínica Ontológica.md",
-    "sha256": "ee77fe762df8c4068d02653258485ce4bcedfd2d6ec0fb0619da43f0d44537de",
+    "sha256": "33394b169a9e8f35cf6a05b24306314a9a4526777bf242afabe6a481e1760137",
     "collection": "Autodeterminación Causal",
     "volume": null,
     "source_anomalies": [],
@@ -2756,39 +2756,39 @@
         "key": "B·III·4",
         "heading": "B·III·4 ·  ANÁLISIS DE ARTEFACTOS",
         "start_line": 6563,
-        "end_line": 6862
+        "end_line": 6853
       },
       {
         "path": "corpus/libros/eco/b-iii-5.md",
         "kind": "modulo",
         "key": "B·III·5",
         "heading": "B·III·5 ·  MEMORIA COMUNITARIA — LO QUE FUE, LO QUE ES, LO QUE PUDO SER",
-        "start_line": 6863,
-        "end_line": 7176
+        "start_line": 6854,
+        "end_line": 7167
       },
       {
         "path": "corpus/libros/eco/b-iv.md",
         "kind": "modulo",
         "key": "B·IV",
         "heading": "B·IV ·  PRINCIPIOS GENERALES DE",
-        "start_line": 7177,
-        "end_line": 7608
+        "start_line": 7168,
+        "end_line": 7599
       },
       {
         "path": "corpus/libros/eco/bloque-iv-03.md",
         "kind": "modulo",
         "key": "B·IV·3",
         "heading": "B·IV · §3 ·  CUÁNDO ECO ESTÁ COMPLETO",
-        "start_line": 7609,
-        "end_line": 8166
+        "start_line": 7600,
+        "end_line": 8157
       },
       {
         "path": "corpus/libros/eco/90-apendices.md",
         "kind": "apendices",
         "key": "APENDICES",
         "heading": "APÉNDICES · Instrumentos de trabajo del mediador",
-        "start_line": 8167,
-        "end_line": 9801
+        "start_line": 8158,
+        "end_line": 9792
       }
     ]
   },
