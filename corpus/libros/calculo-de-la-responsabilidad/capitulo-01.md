@@ -31,7 +31,9 @@ Este capítulo presenta la aplicación del cálculo de la responsabilidad al der
 
 La secuencia es: primero se construye el grafo causal del caso y se calcula R*, que distribuye la responsabilidad causal objetiva entre todos los actores. Luego se estima S para cada nodo, que determina cuánto de esa responsabilidad era estructural y cuánto era idiosincrática. Luego se estima α, que mide la asunción efectiva. Y de esa combinación emerge Δ: la brecha entre lo que cada nodo causó y lo que ha reconocido.
 
-> **Nota de interpretación ontológica:** El dolo es la primera mediación φ₁ actuando con conocimiento pleno del resultado probable. La culpa es φ₁ actuando con un déficit de información o de deliberación que el sujeto podría haber subsanado. En ambos casos hay acto, hay posición causal y hay responsabilidad (R* > 0). La diferencia está en cómo se produjo la determinación de la voluntad, no en si hubo determinación.
+::: {.recuadro .nota-violeta}
+**Nota de interpretación ontológica:** El dolo es la primera mediación φ₁ actuando con conocimiento pleno del resultado probable. La culpa es φ₁ actuando con un déficit de información o de deliberación que el sujeto podría haber subsanado. En ambos casos hay acto, hay posición causal y hay responsabilidad (R* > 0). La diferencia está en cómo se produjo la determinación de la voluntad, no en si hubo determinación.
+:::
 
 
 ### §2.  Página puente — Traducción al lenguaje jurídico
@@ -337,7 +339,9 @@ responsabilidad , no menor.
 
 Plena deliberación.
 
-> **Nota ontológica sobre el ego colectivo en derecho:** Las instituciones no tienen voluntad propia: tienen ego colectivo prestado. Sus "hijos" son los de quienes ejercen el poder de decisión en su nombre. Cuando se analiza el hijo dominante de una institución, se analiza en realidad el perfil de sus directivos en el momento de las decisiones relevantes.
+::: {.recuadro .nota-violeta}
+**Nota ontológica sobre el ego colectivo en derecho:** Las instituciones no tienen voluntad propia: tienen ego colectivo prestado. Sus "hijos" son los de quienes ejercen el poder de decisión en su nombre. Cuando se analiza el hijo dominante de una institución, se analiza en realidad el perfil de sus directivos en el momento de las decisiones relevantes.
+:::
 
 
 ### §4.  Casos resueltos
@@ -517,7 +521,9 @@ Las reparaciones pagadas por Alemania hasta 2024 ascienden a aproximadamente $90
 
 Cuando D_monetary_equiv supera en cuatro órdenes de magnitud la capacidad económica del responsable, el sistema no colapsa: identifica con precisión el límite donde la justicia reparadora cede a la justicia simbólica, memorial y estructural. El valor del α alemán no está en los 90,000 millones pagados sino en la transformación institucional, educativa y cultural que esos pagos acompañaron. Eso es lo que el cálculo no puede capturar, y es honesto en decirlo.
 
-> **Nota sobre el D_vital_generacional y el infinito calculable:** Técnicamente, D_vital_generacional crece sin límite superior si se extienden las generaciones al infinito. En la práctica se acota al número de generaciones transcurridas desde el daño hasta el momento del análisis. La razón no es matemática sino ontológica: las generaciones futuras que no han nacido aún no tienen tiempo de vida que haya sido destruido; solo las que habrían existido ya y no existen por el daño son calculables con certeza.
+::: {.recuadro .nota-violeta}
+**Nota sobre el D_vital_generacional y el infinito calculable:** Técnicamente, D_vital_generacional crece sin límite superior si se extienden las generaciones al infinito. En la práctica se acota al número de generaciones transcurridas desde el daño hasta el momento del análisis. La razón no es matemática sino ontológica: las generaciones futuras que no han nacido aún no tienen tiempo de vida que haya sido destruido; solo las que habrían existido ya y no existen por el daño son calculables con certeza.
+:::
 
 
 Caso B — Institución de banca comercial
@@ -761,5 +767,6 @@ esperanza_vida_h     return total  def dano_vital_supervivientes(n_superv, vida_
 Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026
 
 Continúa en el Capítulo 2 — PLD y compliance
+
 
 
