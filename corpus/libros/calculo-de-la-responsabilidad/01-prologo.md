@@ -1,6 +1,6 @@
-## PRÓLOGO
+# PRÓLOGO
 
-Lo que este libro hace y por qué era necesario
+## Lo que este libro hace y por qué era necesario
 
 Hay una pregunta que todos los sistemas de justicia del mundo intentan responder, y que ninguno ha podido formalizar con precisión: ¿cuánto le corresponde a cada quién en el resultado de un proceso del que todos son parte, pero nadie controla por completo?
 
@@ -8,9 +8,7 @@ Los sistemas jurídicos modernos responden a esa pregunta con el dolo: quien qui
 
 Este libro propone una respuesta diferente. No reemplaza el criterio de la intención: lo sitúa. Lo que se propone aquí es un sistema de imputación causal que responde a una pregunta distinta y más precisa: sin este nodo, ¿habría ocurrido este resultado? Y si la respuesta es sí para varios
 
-Página | I
 
-El Cálculo de la Responsabilidad · Prólogo
 
 nodos simultáneamente, ¿en qué proporción contribuyó cada uno?
 
@@ -18,15 +16,13 @@ La respuesta no es filosófica en el sentido especulativo del término. Es matem
 
 — — —
 
-### Lo que el sistema puede hacer
+## Lo que el sistema puede hacer
 
 El núcleo del sistema es un grafo causal: una red de nodos —actores, instituciones, factores— conectados por aristas que representan influencias causales ponderadas. Sobre ese grafo se calcula un vector de responsabilidad R* que distribuye el peso causal entre todos los nodos de manera proporcional a su contribución necesaria al resultado. Se mide la sustituibilidad S de cada nodo: si cualquier otro en su lugar habría producido el mismo resultado, la responsabilidad migra al diseño del sistema, no a la persona. Se calcula el déficit de asunción Δ: la brecha entre lo que un nodo causó y lo que ha reconocido, que revela tanto la inversión causal —el responsable que evade— como el chivo expiatorio —quien carga más de lo que causó.
 
 El sistema no solo mide el daño. Por simetría ontológica, mide también el beneficio: quién contribuyó causalmente a un resultado positivo y en qué proporción, y quién recibió más reconocimiento o remuneración del que su contribución justifica. Esta dualidad —el cálculo del daño y el cálculo del beneficio— cierra un sistema que puede
 
-Página | II
 
-El Cálculo de la Responsabilidad · Prólogo
 
 describir tanto la injusticia de la imputación excesiva como la injusticia del mérito no reconocido.
 
@@ -34,7 +30,7 @@ Y cuando los nodos del grafo son personas con voluntad propia, el sistema va un 
 
 — — —
 
-### Lo que el sistema no puede hacer
+## Lo que el sistema no puede hacer
 
 La honestidad intelectual exige nombrar los límites con la misma precisión con que se describen las capacidades.
 
@@ -42,9 +38,7 @@ El sistema no puede decir si una distribución de responsabilidad es justa. Pued
 
 No puede resolver los casos de causalidad acumulativa sin nodo individual identificable como condición suficiente: cuando cien empresas contribuyen marginalmente a un daño ecológico que ninguna causó por sí sola. El capítulo de medio ambiente desarrolla una extensión parcial mediante valores de Shapley, y señala con precisión dónde termina esa extensión.
 
-Página | III
 
-El Cálculo de la Responsabilidad · Prólogo
 
 No puede determinar la tasa de descuento que debe usarse para valorar el futuro, porque esa tasa incorpora una decisión de valor sobre el peso relativo del presente y el porvenir que no tiene solución técnica.
 
@@ -52,7 +46,7 @@ Señalar estos límites no es una debilidad del sistema. Es parte del método. U
 
 — — —
 
-### Los diecisiete dominios
+## Los diecisiete dominios
 
 Este libro aplica el sistema a diecisiete campos del conocimiento humano, organizados en cinco partes. Cada capítulo puede leerse de forma completamente autónoma: el lector que llegue directamente al capítulo de epidemiología o al de análisis literario encontrará al inicio una página puente que traduce las herramientas del sistema al lenguaje y los problemas de esa disciplina específica. No es necesario haber leído ningún otro capítulo para entender cualquiera de ellos.
 
@@ -60,15 +54,13 @@ Lo que sí es de gran utilidad —aunque no estrictamente obligatorio— es leer
 
 Al final del libro, después de todos los dominios, vive un caso que no pertenece a ninguno de ellos en particular porque los atraviesa a todos: un caso real de una institución de banca comercial, anonimizado para proteger la identidad
 
-Página | IV
 
-El Cálculo de la Responsabilidad · Prólogo
 
 de las personas involucradas, en el que convergen simultáneamente todas las herramientas del sistema. Es la primera demostración publicada del cálculo integrado, y funciona como piedra de cierre del arco: solo puede cumplir esa función después de que el lector ha recorrido los dominios, porque la potencia del análisis depende de reconocer qué herramienta del sistema está operando en cada momento del caso.
 
 — — —
 
-### Cómo leer este libro según su disciplina
+## Cómo leer este libro según su disciplina
 
 El libro está diseñado para que cada lector tome su propio camino. A continuación, se proponen seis rutas de lectura según el perfil:
 
@@ -78,9 +70,7 @@ El médico, psicólogo o profesional de la salud. Leer el núcleo universal, lue
 
 El ingeniero, tecnólogo o científico de datos. Leer el núcleo universal, luego la Parte IV (capítulos 11 a 13). El capítulo de IA (Cap. 12) tiene la conexión más directa con los debates actuales sobre
 
-Página | V
 
-El Cálculo de la Responsabilidad · Prólogo
 
 responsabilidad algorítmica. La sección §6 de profundización es especialmente relevante para este perfil.
 
@@ -92,13 +82,9 @@ El lector transversal o investigador del sistema. Leer el libro completo en orde
 
 Una nota sobre las matemáticas. Las fórmulas de este libro no son adornos ni señales de rigor performativo. Son la formalización exacta de los conceptos que el texto describe en prosa. El lector que prefiera no detenerse en ellas encontrará que el argumento está completo en el texto principal; el lector que quiera verificar o extender el sistema encontrará en la sección §6 de cada capítulo y en el Apéndice A las demostraciones completas. Ninguna de las dos rutas es superior a la otra: son lecturas distintas del mismo libro.
 
-Página | VI
 
-El Cálculo de la Responsabilidad · Prólogo
 
 Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026
 
-### Página | VII
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
