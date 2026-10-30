@@ -30,8 +30,8 @@ Mda. Juana Aguilar
 
 Entrevista Clínica Ontológica · ECO
 
-PARTE PRELIMINAR · Fundamentos del instrumento
 
+<!-- PARTE: PRELIMINAR · Fundamentos del instrumento -->
 ### Capítulo P·1
 
 Qué es ECO y qué no es La función del instrumento en el sistema
@@ -157,8 +157,8 @@ impedir que el mediador asigne certezas fuera del rango que el tipo de señal ob
 
 Entrevista Clínica Ontológica · ECO
 
-PARTE PRELIMINAR · Fundamentos del instrumento
 
+<!-- PARTE: PRELIMINAR · Fundamentos del instrumento -->
 ### Capítulo P·2
 
 Los perfiles de mediador Quién usa ECO, cómo lo usa y qué debe poder responder con él
@@ -366,6 +366,7 @@ Notas al capítulo P·2
 
 4 El Mediador Estructural es el único perfil cuya administración de ECO está habitualmente precedida por el árbol documental del Capítulo U·1 de la Taxonomía. Eso produce un orden de operaciones que los demás perfiles no tienen: árbol documental primero, ECO como verificación y completamiento. El protocolo de cruce entre ambas fuentes —que el Capítulo P·5 establece— es especialmente relevante para este perfil porque la contradicción entre P(Hijos) documental y P(Hijos) relacional tiene consecuencias directas en la estimación de S.
 
+<!-- PARTE: PRELIMINAR · Fundamentos del instrumento -->
 ### Capítulo P·3
 
 ## Condiciones de administración
@@ -545,8 +546,8 @@ Entrevista Clínica Ontológica · ECO
 
 Entrevista Clínica Ontológica · ECO
 
-PARTE PRELIMINAR · Fundamentos del instrumento
 
+<!-- PARTE: PRELIMINAR · Fundamentos del instrumento -->
 ### Capítulo P·4
 
 ## Convenciones del instrumento
@@ -693,8 +694,8 @@ completa. Esta distinción produce H-1 (EP-0, ausencia confirmada) vs H-2 o H-1 
 
 Entrevista Clínica Ontológica · ECO
 
-PARTE PRELIMINAR · Fundamentos del instrumento
 
+<!-- PARTE: PRELIMINAR · Fundamentos del instrumento -->
 ### Capítulo P·5
 
 ### Criterios de entrada, salto y cierre
@@ -891,8 +892,8 @@ requiere. La validez del cierre de perfil parcial depende de que los módulos no
 
 Entrevista Clínica Ontológica · ECO
 
-BLOQUE I · Los Hijos de Afrodita
 
+<!-- PARTE: I · Los Hijos de Afrodita -->
 ### B·I·F · MÓDULO FOBOS
 
 #### La voluntad que reacciona ante la amenaza
@@ -1204,7 +1205,6 @@ significa que los errores en él sean sin consecuencias: una codificación incor
 
 Entrevista Clínica Ontológica · ECO
 
-BLOQUE I · Los Hijos de Afrodita
 
 B·I·D · MÓDULO DEIMOS
 
@@ -1624,7 +1624,6 @@ La pregunta que discrimina: ¿los acuerdos de consenso se ejecutan? Un colectivo
 
 Entrevista Clínica Ontológica · ECO
 
-BLOQUE I · Los Hijos de Afrodita
 
 B·I·A · MÓDULO ANTEROS
 
@@ -2059,7 +2058,6 @@ calibrado para leer no solo Anteros sino la dimensión arética completa del sis
 
 Entrevista Clínica Ontológica · ECO
 
-BLOQUE I · Los Hijos de Afrodita
 
 B·I·P · MÓDULO POTÓS
 
@@ -2458,6 +2456,7 @@ Cuándo el caso supera ECO
 >
 > 4 La instrucción al Mediador en Memoria Comunitaria sobre el trabajo con Potós colectivo que se desarrolla en §10 tiene una implicación para la práctica del rescate cultural que merece señalarse: la comunidad que está en Potós colectivo profundo no puede participar genuinamente en el rescate de su propia cultura si el proceso de rescate se diseña desde afuera como recuperación del pasado. Ese diseño refuerza Potós sin crear condiciones para que la comunidad pueda imaginar un futuro propio. El trabajo del mediador es crear las condiciones para que la comunidad pueda honrar lo que fue y, desde ese honor, construir algo nuevo. Eso requiere que Potós colectivo pueda dialogar con Eros colectivo —la apertura a lo nuevo— sin que ninguno de los dos anule al otro.
 
+<!-- PARTE: I · Los Hijos de Afrodita -->
 ### B·I·E ·  MÓDULO EROS
 
 ### La voluntad que se abre hacia la alteridad
@@ -2878,8 +2877,8 @@ requisito de Eros: es un requisito de todo el instrumento que Eros hace visible 
 
 Entrevista Clínica Ontológica · ECO
 
-BLOQUE I · Los Hijos de Afrodita
 
+<!-- PARTE: I · Los Hijos de Afrodita -->
 ### B·I·H  ·  MÓDULO HARMONÍA · D-2
 
 ### La integración y la anestesia — dos estados
@@ -3359,8 +3358,8 @@ Cuándo el caso supera ECO
 > 4 La aplicación del módulo H al ego colectivo tiene una implicación que el texto principal no desarrolla completamente: la discriminación Harmonía colectiva / D-2 colectivo requiere acceso al ego soberano real, no solo a los miembros del colectivo. Los miembros pueden describir el estado del colectivo como estable y sin conflicto — y esa descripción es verdadera desde su perspectiva. Pero si el ego soberano está en D-2, la estabilidad que los miembros describen no es Harmonía colectiva: es la estabilidad que produce la ausencia de señal del ego que porta la segunda mediación colectiva. La discriminación requiere acceder a ese ego soberano y administrar las preguntas H·D con él como sujeto — no con el colectivo como abstracción.
 >
 
-BLOQUE II · Los cinco ejes del SDO
 
+<!-- PARTE: II · Los cinco ejes del SDO -->
 ### B·II·I ·  MÓDULO EJE I — ESTADOS DEL
 
 ### EGO
@@ -3945,8 +3944,8 @@ a la diferencia entre un querer presente y bloqueado (E-3) y la ausencia del ins
 
 Entrevista Clínica Ontológica · ECO
 
-BLOQUE II · Los cinco ejes del SDO
 
+<!-- PARTE: II · Los cinco ejes del SDO -->
 ### B·II·II ·  MÓDULO EJE II — MASCARADA
 
 ### La forma que el ego toma en el mundo
@@ -4227,6 +4226,7 @@ La cultura organizacional genuina produce coherencia de presentación desde un e
 > >
 > > BLOQUE II · Los cinco ejes del SDO
 
+<!-- PARTE: II · Los cinco ejes del SDO -->
 ### B·II·III ·  MÓDULO EJE III — VÍNCULO
 
 La estructura del encuentro con el Otro Localización de los códigos V-1, V-2 y V-3 del Eje III · El campo
@@ -4669,6 +4669,7 @@ Las organizaciones en Peribea colectivo tienen estructura de respuesta: son reac
 > >
 > > BLOQUE II · Los cinco ejes del SDO
 
+<!-- PARTE: II · Los cinco ejes del SDO -->
 ### B·II·IV ·  MÓDULO EJE IV — DISFORIA
 
 ### La presencia o ausencia de la señal del ego
@@ -5078,6 +5079,7 @@ La señal de D-1 colectivo es uno de los recursos más valiosos para el cambio i
 > >
 > > BLOQUE II · Los cinco ejes del SDO
 
+<!-- PARTE: II · Los cinco ejes del SDO -->
 ### B·II·V ·  MÓDULO EJE V —
 
 ### TANATOLÓGICO
@@ -5616,8 +5618,8 @@ puede producir el movimiento hacia T-4 que hace posible el rescate cultural genu
 > > mínimo); «lo que pudo ser» requiere que el colectivo pueda imaginar posibilidades alternativas sin que eso se sienta como traición de lo que fue (T-5 o T-6). El mediador que administra el Bloque III §5 sin la localización del Eje V no sabe desde qué posición del vector el colectivo puede recibir cada pregunta.
 > >
 
-BLOQUE III · La entrevista al ego colectivo
 
+<!-- PARTE: III · La entrevista al ego colectivo -->
 ### B·III·1 ·  EL EGO SOBERANO COMO PUNTO
 
 ### DE ENTRADA
@@ -5880,8 +5882,8 @@ leer el ego soberano solo como individuo y perder la dimensión colectiva que su
 
 Entrevista Clínica Ontológica · ECO
 
-BLOQUE III · La entrevista al ego colectivo
 
+<!-- PARTE: III · La entrevista al ego colectivo -->
 ### B·III·2 ·  ENTREVISTA A LOS MIEMBROS
 
 ### Cómo leer el colectivo a través de quien lo
@@ -6560,8 +6562,8 @@ Notas al capítulo B·III·3
 
 Entrevista Clínica Ontológica · ECO
 
-BLOQUE III · La entrevista al ego colectivo
 
+<!-- PARTE: III · La entrevista al ego colectivo -->
 ### B·III·4 ·  ANÁLISIS DE ARTEFACTOS
 
 ### COLECTIVOS
@@ -6851,8 +6853,8 @@ colectivos con M-3 profundo, el efecto del observador puede ser especialmente in
 
 Entrevista Clínica Ontológica · ECO
 
-BLOQUE III · La entrevista al ego colectivo
 
+<!-- PARTE: III · La entrevista al ego colectivo -->
 ### B·III·5 ·  MEMORIA COMUNITARIA — LO QUE FUE, LO QUE ES, LO QUE PUDO SER
 
 ### La estructura triádica de la Memoria
@@ -7164,8 +7166,8 @@ que esas localizaciones hacen posible requiere el instrumento Histos que el para
 
 Entrevista Clínica Ontológica · ECO
 
-BLOQUE IV · Principios generales de intervención
 
+<!-- PARTE: IV · Principios generales de intervención -->
 ### B·IV ·  PRINCIPIOS GENERALES DE
 
 ### INTERVENCIÓN
@@ -7344,6 +7346,7 @@ Notas al B·IV §1
 
 4 El «buen paciente del sistema» que el error E·4 describe es un fenómeno identificable en cualquier proceso de acompañamiento orientado desde marcos interpretativos explícitos — no solo en el paradigma de Mediación Ontológica. La terapia psicoanalítica produce pacientes que aprenden el lenguaje del inconsciente y de los mecanismos de defensa sin que esos aprendizajes necesariamente correspondan a cambios en la organización psíquica del paciente. La terapia cognitivo-conductual produce pacientes que aprenden a identificar los patrones de pensamiento disfuncional sin que ese aprendizaje produzca cambios en los patrones mismos. El paradigma de Mediación Ontológica no está exento de ese riesgo: el lenguaje del sistema es suficientemente articulado y coherente para producir «buenos pacientes del sistema» si el mediador comete el error E·4 sistemáticamente.
 
+<!-- PARTE: IV · Principios generales de intervención -->
 ### B·IV · §2 ·  LA LOCALIZACIÓN SIN
 
 ### ETIQUETA
@@ -7596,8 +7599,8 @@ el mediador necesita amplificar sin nombrar. «Eso que acaba de decir — que ha
 
 Entrevista Clínica Ontológica · ECO
 
-BLOQUE IV · Principios generales de intervención
 
+<!-- PARTE: IV · Principios generales de intervención -->
 ### B·IV · §3 ·  CUÁNDO ECO ESTÁ COMPLETO
 
 ### Y CUÁNDO NO
@@ -7792,6 +7795,7 @@ Notas al B·IV §3
 
 Entrevista Clínica Ontológica · ECO
 
+<!-- PARTE: IV · Principios generales de intervención -->
 ### B·IV · §4 ·  CRITERIOS DE DERIVACIÓN A
 
 ### HISTOS
@@ -7986,6 +7990,7 @@ Notas al B·IV §4
 
 3 La formulación de transición de ECO a Histos que el §4 propone —«explorar el territorio» para ECO y «caminar en él» para Histos— es una traducción posible al lenguaje sin etiqueta, no la única. El mediador puede adaptarla al lenguaje del sujeto; la transición debe orientarlo hacia el trabajo que sigue sin revelar la localización ni presentar el cierre de ECO como fin (error E·5).
 
+<!-- PARTE: IV · Principios generales de intervención -->
 ### B·IV · §5 ·  CRITERIOS DE DERIVACIÓN
 
 ### FUERA DEL PARADIGMA
@@ -8146,7 +8151,7 @@ Notas al B·IV §5
 
 Entrevista Clínica Ontológica · ECO
 
-APÉNDICES · Instrumentos de trabajo del mediador
+<!-- PARTE: APÉNDICES · Instrumentos de trabajo del mediador -->
 
 <!-- FORMULARIO: A·1 | salto de página | campos rellenables, casillas de verificación, tablas de localización y áreas de notas -->
 
@@ -8524,6 +8529,7 @@ Las hojas de registro son documentos internos del mediador. No se entregan al su
 
 <!-- FORMULARIO: hoja de registro B·I·F | salto de página -->
 
+<!-- PARTE: I · Los Hijos de Afrodita -->
 ### B·I·F  ·  MÓDULO FOBOS
 
 ### Urgencia reactiva ante la amenaza
@@ -8596,6 +8602,7 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 <!-- FORMULARIO: hoja de registro B·I·D | salto de página -->
 
+<!-- PARTE: I · Los Hijos de Afrodita -->
 ### B·I·D ·  MÓDULO DEIMOS
 
 ### Parálisis ante la simetría de opciones
@@ -8668,6 +8675,7 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 <!-- FORMULARIO: hoja de registro B·I·A | salto de página -->
 
+<!-- PARTE: I · Los Hijos de Afrodita -->
 ### B·I·A ·  MÓDULO ANTEROS
 
 ### Afirmación desde el eje propio
@@ -8740,6 +8748,7 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 <!-- FORMULARIO: hoja de registro B·I·P | salto de página -->
 
+<!-- PARTE: I · Los Hijos de Afrodita -->
 ### B·I·P  ·  MÓDULO POTÓS
 
 ### Orientación al ausente
@@ -8812,6 +8821,7 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 <!-- FORMULARIO: hoja de registro B·I·E | salto de página -->
 
+<!-- PARTE: I · Los Hijos de Afrodita -->
 ### B·I·E ·  MÓDULO EROS
 
 ### Apertura genuina ante la alteridad
@@ -8884,6 +8894,7 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 <!-- FORMULARIO: hoja de registro B·I·H | salto de página -->
 
+<!-- PARTE: I · Los Hijos de Afrodita -->
 ### B·I·H ·  MÓDULO HARMONÍA / D-2
 
 ### Integración genuina vs. anestesia ontológica · NUNCA SE SALTA
@@ -8958,6 +8969,7 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 <!-- FORMULARIO A·2: Eje I | una página imprimible con código, casillas, nivel EP, señal y notas -->
 
+<!-- PARTE: II · Los cinco ejes del SDO -->
 ### B·II·I ·  MÓDULO EJE I — ESTADOS DEL EGO
 
 ### E-1 a E-6 · Modulador transversal
@@ -9030,6 +9042,7 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 <!-- FORMULARIO A·2: Eje II | hoja imprimible con opciones M-1/M-2/M-3 y observación -->
 
+<!-- PARTE: II · Los cinco ejes del SDO -->
 ### B·II·II ·  MÓDULO EJE II — MASCARADA
 
 ### M-1, M-2, M-3
@@ -9102,6 +9115,7 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 <!-- FORMULARIO A·2: Eje III | hoja imprimible con opciones relacionales y campo del mediador -->
 
+<!-- PARTE: II · Los cinco ejes del SDO -->
 ### B·II·III ·  MÓDULO EJE III — VÍNCULO
 
 ### V-1, V-2 Damasén/Peribea, V-3
@@ -9174,6 +9188,7 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 <!-- FORMULARIO A·2: Eje IV | hoja imprimible para D-1/D-2 y señal observacional -->
 
+<!-- PARTE: II · Los cinco ejes del SDO -->
 ### B·II·IV  ·  MÓDULO EJE IV — DISFORIA
 
 ### D-1 activo, D-2 con D-1 residual, D-2 profundo
@@ -9246,6 +9261,7 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 <!-- FORMULARIO A·2: Eje V | hoja imprimible para posición del vector y tipo de pérdida -->
 
+<!-- PARTE: II · Los cinco ejes del SDO -->
 ### B·II·V  ·  MÓDULO EJE V — TANATOLÓGICO
 
 ### T-0 a T-6 + T-ext · Vector del duelo
