@@ -1,6 +1,6 @@
-### Capítulo P·5
+# Capítulo P·5
 
-### Criterios de entrada, salto y cierre
+## Criterios de entrada, salto y cierre
 
 *La lógica de navegación del instrumento*
 
@@ -12,7 +12,6 @@ La lógica de navegación de ECO descansa en tres operaciones distintas que este
 
 El orden estándar existe porque la ontología lo exige —los Hijos determinan desde dónde se lee el Eje I, el Eje I determina desde
 
-Entrevista Clínica Ontológica · ECO
 
 dónde se lee el Eje II, y así en cadena. Pero el orden estándar no es el único camino válido. El mediador que tiene una hipótesis sólida sobre el Hijo dominante de un sujeto antes de abrir el primer módulo puede entrar directamente a ese módulo si cumple las condiciones de entrada. Lo que no puede hacer es saltarse la verificación de exclusión: la hipótesis previa autoriza la entrada directa, no la conclusión anticipada.
 
@@ -67,7 +66,6 @@ Esa conclusión requiere justificación. La diferencia entre un instrumento con 
 
 La tabla distingue entre SKIP completo y parcial. El SKIP completo omite el resto del módulo una vez cumplidas las comprobaciones que su regla exige; solo registra H-1/EP-0 cuando esa regla lo autoriza y esas comprobaciones no producen señal. El SKIP parcial omite parte de la administración, pero mantiene la pregunta ancla y la verificación de
 
-Entrevista Clínica Ontológica · ECO
 
 exclusión. El SKIP parcial nunca omite la verificación de exclusión: si la omite, no es un SKIP parcial sino un error de administración.
 
@@ -83,9 +81,8 @@ Independientemente del perfil del mediador, del caso y de cualquier hipótesis p
 
 ECO está completo cuando puede producir una localización. Una localización es un resultado del instrumento, no una sesión terminada. El mediador puede completar todas las sesiones previstas y no tener una localización —si demasiados módulos produjeron código de imposibilidad para evaluar y la distribución P(Hijos) no puede completarse. Y puede tener una localización antes de completar todas las sesiones previstas —si la evidencia fue
 
-### Entrevista Clínica Ontológica · ECO
 
-### suficientemente clara en menos módulos de los esperados. El criterio de cierre no es temporal: es epistémico.
+suficientemente clara en menos módulos de los esperados. El criterio de cierre no es temporal: es epistémico.
 
 | Criterio de cierre | Condición técnica | Acción del mediador |
 | --- | --- | --- |
@@ -109,9 +106,8 @@ La Declaración de incertidumbre ECO tiene tres componentes que el Bloque IV des
 
 El árbol que sigue es el mapa del flujo completo del instrumento. No reemplaza a los árboles de decisión internos de cada módulo —esos viven dentro de cada módulo y tienen la ramificación específica de ese Hijo o ese eje. Este árbol establece la secuencia de operaciones
 
-### Entrevista Clínica Ontológica · ECO
 
-### que el mediador ejecuta desde que abre la sesión hasta que produce la localización final. Está diseñado para consulta rápida, no para lectura lineal.
+que el mediador ejecuta desde que abre la sesión hasta que produce la localización final. Está diseñado para consulta rápida, no para lectura lineal.
 
 1. **INICIO · Apertura de la sesión**
 2. **¿El encuadre está completo?**
@@ -172,13 +168,14 @@ El árbol de navegación es un mapa de referencia rápida, no una sustitución d
 
 Con este capítulo, la Parte Preliminar está completa. Los cinco capítulos juntos son la infraestructura que hace posible el uso correcto de todos los módulos que siguen. El Capítulo P·1 estableció qué es ECO y qué no es. El Capítulo P·2 describió los seis perfiles que lo usan y la pregunta que orienta el uso de cada uno. El Capítulo P·3 estableció las condiciones que hacen válida una administración. El Capítulo P·4 definió el lenguaje técnico que todos los módulos comparten, con la Tabla EP como instrumento central de calibración. Este capítulo estableció la lógica de navegación que convierte once módulos en un instrumento y no en una lista.
 
-Entrevista Clínica Ontológica · ECO
 
 El Bloque I comienza ahora. El primer módulo —Fobos— es el más legible de los seis y el que sirve como calibrador del instrumento. El mediador que puede administrarlo con precisión técnica y leer lo que el sujeto produce tiene el instrumento en las manos. Lo que sigue en los cinco módulos restantes del Bloque I y en los cinco del Bloque II es la aplicación de la misma lógica a configuraciones de la voluntad progresivamente más complejas y menos legibles desde el expediente.
 
 > *El instrumento no comienza con el primer módulo. Comienza con la primera pregunta que el mediador internalizó antes de la sesión: ¿qué estoy buscando y cómo voy a reconocerlo cuando lo encuentre? La Parte Preliminar es la respuesta a esa pregunta.*
 
-Notas al capítulo P·5
+---
+
+## Notas al capítulo P·5
 
 1 El principio de navegación flexible con exclusión obligatoria distingue a ECO de dos tipos de instrumentos con los que podría confundirse. El primero es el cuestionario de respuesta fija: siempre se administra completo, en el mismo orden, sin posibilidad de entrada directa. El segundo es la entrevista abierta: el orden lo determina el sujeto, no el instrumento. ECO es un instrumento estructurado con navegación flexible: el orden estándar existe y tiene justificación ontológica, pero puede alterarse cuando la evidencia lo justifica, siempre con la verificación de exclusión como condición.
 
@@ -188,10 +185,6 @@ Notas al capítulo P·5
 
 4 El cierre de perfil parcial —establecido en la tabla de la Sección IV— no es un subtipo menor del cierre completo. Es un cierre técnicamente válido para el caso del mediador que no usa el instrumento completo porque su perfil no lo
 
-Entrevista Clínica Ontológica · ECO
 
 requiere. La validez del cierre de perfil parcial depende de que los módulos no administrados estén declarados explícitamente como tales en la hoja de síntesis, con referencia al perfil que justifica su omisión.
-
-Entrevista Clínica Ontológica · ECO
-
 
