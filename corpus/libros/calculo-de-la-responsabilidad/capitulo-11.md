@@ -647,7 +647,7 @@ La función f puede estimarse con un modelo logístico calibrado con datos hist�
 
 P (colapso, N) = σ (β₀ + β₁×S_consejo + β₂×(1−IIC)
 
-+ β₃×P_Anteros + β₄×R*_cultura_neta)
+\+ β₃×P_Anteros + β₄×R*_cultura_neta)
 
 Con coeficientes estimados de la literatura de gobernanza (Gompers et al. 2003, Bebchuk et al. 2009, actualizados con datos de 2015-2024):
 
@@ -780,4 +780,5 @@ Continúa en la Parte IV — Ingeniería y tecnología
 
 
 confiabilidad
+
 
