@@ -1206,6 +1206,7 @@ significa que los errores en él sean sin consecuencias: una codificación incor
 Entrevista Clínica Ontológica · ECO
 
 
+<!-- PARTE: I · Los Hijos de Afrodita -->
 B·I·D · MÓDULO DEIMOS
 
 La voluntad que se paraliza ante la simetría Localización del Hijo de la parálisis ante la multiplicidad equivalente
@@ -1625,6 +1626,7 @@ La pregunta que discrimina: ¿los acuerdos de consenso se ejecutan? Un colectivo
 Entrevista Clínica Ontológica · ECO
 
 
+<!-- PARTE: I · Los Hijos de Afrodita -->
 B·I·A · MÓDULO ANTEROS
 
 ### La voluntad que se afirma desde el eje propio
@@ -2059,6 +2061,7 @@ calibrado para leer no solo Anteros sino la dimensión arética completa del sis
 Entrevista Clínica Ontológica · ECO
 
 
+<!-- PARTE: I · Los Hijos de Afrodita -->
 B·I·P · MÓDULO POTÓS
 
 La voluntad que busca lo que ya no está Localización del Hijo de la orientación hacia lo ausente · Legibilidad
@@ -8529,7 +8532,6 @@ Las hojas de registro son documentos internos del mediador. No se entregan al su
 
 <!-- FORMULARIO: hoja de registro B·I·F | salto de página -->
 
-<!-- PARTE: I · Los Hijos de Afrodita -->
 ### B·I·F  ·  MÓDULO FOBOS
 
 ### Urgencia reactiva ante la amenaza
@@ -8602,7 +8604,6 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 <!-- FORMULARIO: hoja de registro B·I·D | salto de página -->
 
-<!-- PARTE: I · Los Hijos de Afrodita -->
 ### B·I·D ·  MÓDULO DEIMOS
 
 ### Parálisis ante la simetría de opciones
@@ -8675,7 +8676,6 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 <!-- FORMULARIO: hoja de registro B·I·A | salto de página -->
 
-<!-- PARTE: I · Los Hijos de Afrodita -->
 ### B·I·A ·  MÓDULO ANTEROS
 
 ### Afirmación desde el eje propio
@@ -8748,7 +8748,6 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 <!-- FORMULARIO: hoja de registro B·I·P | salto de página -->
 
-<!-- PARTE: I · Los Hijos de Afrodita -->
 ### B·I·P  ·  MÓDULO POTÓS
 
 ### Orientación al ausente
@@ -8821,7 +8820,6 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 <!-- FORMULARIO: hoja de registro B·I·E | salto de página -->
 
-<!-- PARTE: I · Los Hijos de Afrodita -->
 ### B·I·E ·  MÓDULO EROS
 
 ### Apertura genuina ante la alteridad
@@ -8894,7 +8892,6 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 <!-- FORMULARIO: hoja de registro B·I·H | salto de página -->
 
-<!-- PARTE: I · Los Hijos de Afrodita -->
 ### B·I·H ·  MÓDULO HARMONÍA / D-2
 
 ### Integración genuina vs. anestesia ontológica · NUNCA SE SALTA
@@ -8969,7 +8966,6 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 <!-- FORMULARIO A·2: Eje I | una página imprimible con código, casillas, nivel EP, señal y notas -->
 
-<!-- PARTE: II · Los cinco ejes del SDO -->
 ### B·II·I ·  MÓDULO EJE I — ESTADOS DEL EGO
 
 ### E-1 a E-6 · Modulador transversal
@@ -9042,7 +9038,6 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 <!-- FORMULARIO A·2: Eje II | hoja imprimible con opciones M-1/M-2/M-3 y observación -->
 
-<!-- PARTE: II · Los cinco ejes del SDO -->
 ### B·II·II ·  MÓDULO EJE II — MASCARADA
 
 ### M-1, M-2, M-3
@@ -9115,7 +9110,6 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 <!-- FORMULARIO A·2: Eje III | hoja imprimible con opciones relacionales y campo del mediador -->
 
-<!-- PARTE: II · Los cinco ejes del SDO -->
 ### B·II·III ·  MÓDULO EJE III — VÍNCULO
 
 ### V-1, V-2 Damasén/Peribea, V-3
@@ -9188,7 +9182,6 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 <!-- FORMULARIO A·2: Eje IV | hoja imprimible para D-1/D-2 y señal observacional -->
 
-<!-- PARTE: II · Los cinco ejes del SDO -->
 ### B·II·IV  ·  MÓDULO EJE IV — DISFORIA
 
 ### D-1 activo, D-2 con D-1 residual, D-2 profundo
@@ -9261,7 +9254,6 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 <!-- FORMULARIO A·2: Eje V | hoja imprimible para posición del vector y tipo de pérdida -->
 
-<!-- PARTE: II · Los cinco ejes del SDO -->
 ### B·II·V  ·  MÓDULO EJE V — TANATOLÓGICO
 
 ### T-0 a T-6 + T-ext · Vector del duelo
