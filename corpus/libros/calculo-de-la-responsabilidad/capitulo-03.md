@@ -88,7 +88,9 @@ Alpha diferido (α_diferido):  El coeficiente de asunción adoptado voluntariame
 
 Esta distinción es importante porque resuelve la objeción más frecuente al debate de reparaciones históricas: "yo no hice nada, por qué tengo que pagar". Nadie está afirmando que el ciudadano belga contemporáneo causó el daño del Congo. Se está afirmando que el Estado belga contemporáneo heredó un patrimonio que fue en parte construido con el capital extraído del Congo, y que esa herencia de beneficio crea una posición diferida en el grafo que justifica la asunción de α_diferido.
 
-> **Nota ontológica sobre el ego colectivo y la continuidad institucional:** Según el libro Afrodita Areia: Caelus, Vol. V (de esta colección), el Estado es un ego colectivo con voluntad prestada. Su identidad no depende de quiénes sean sus funcionarios actuales sino de la continuidad de sus instituciones. El Estado belga de 2026 es el mismo ego colectivo que el Estado belga de 1908, no porque compartan los mismos funcionarios, sino porque comparten las mismas instituciones, el mismo ordenamiento jurídico y —lo más relevante— el mismo patrimonio acumulado. La continuidad del ego colectivo es la base ontológica para la transferencia de α.
+::: {.recuadro .nota-violeta}
+**Nota ontológica sobre el ego colectivo y la continuidad institucional:** Según el libro Afrodita Areia: Caelus, Vol. V (de esta colección), el Estado es un ego colectivo con voluntad prestada. Su identidad no depende de quiénes sean sus funcionarios actuales sino de la continuidad de sus instituciones. El Estado belga de 2026 es el mismo ego colectivo que el Estado belga de 1908, no porque compartan los mismos funcionarios, sino porque comparten las mismas instituciones, el mismo ordenamiento jurídico y —lo más relevante— el mismo patrimonio acumulado. La continuidad del ego colectivo es la base ontológica para la transferencia de α.
+:::
 
 
 deudas históricas
@@ -814,3 +816,4 @@ Continúa en el Capítulo 4 — El isomorfismo de la imputación
 
 
 CAPÍTULO DE CIERRE
+
