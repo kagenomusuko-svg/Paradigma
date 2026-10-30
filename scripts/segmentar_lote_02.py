@@ -108,8 +108,11 @@ def boundaries_eco(lines):
         elif (section:=re.match(r"^B·IV\s*·\s*§([2-5])",text)):
             code="IV"; number=int(section.group(1)); key="B·IV·%s" % number; filename="bloque-iv-%02d.md" % number
         else:
-            code=text.split("·")[1].strip()
-            key=text.split(" · ")[0].strip()
+            module_match=re.match(r"^(B·I·[FDAPEH]|B·II·(?:III|II|IV|V|I)|B·III·[1-5])",text)
+            if module_match is None:
+                raise RuntimeError("ECO: código de módulo inesperado: %s" % text)
+            key=module_match.group(1)
+            code=key.split("·")[1]
             filename=key.replace("·","-").lower()+".md"
         item=unit(index,"modulo",filename,key,text)
         item["part"]=part_labels[code]
