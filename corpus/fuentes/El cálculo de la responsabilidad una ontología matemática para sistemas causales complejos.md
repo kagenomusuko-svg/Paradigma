@@ -154,7 +154,8 @@ El historiador, politólogo, educador o humanista. Leer el núcleo universal, lu
 
 El lector transversal o investigador del sistema. Leer el libro completo en orden. El núcleo primero, luego las cinco partes, luego el caso eje. La experiencia completa revela algo que la lectura por capítulos aislados no puede mostrar: que todos los dominios son traducciones del mismo lenguaje, y que ese lenguaje describe algo sobre la estructura de la causalidad y la justicia que trasciende cualquier disciplina particular.
 
-Una nota sobre las matemáticas. Las fórmulas de este libro no son adornos ni señales de rigor performativo. Son la formalización exacta de los conceptos que el texto describe en prosa. El lector que prefiera no detenerse en ellas encontrará que el argumento está completo en el texto principal; el lector que quiera verificar o extender el sistema encontrará en la sección §6 de cada capítulo y en el Apéndice A las demostraciones completas. Ninguna de las dos rutas es superior a la otra: son lecturas distintas del mismo libro.
+> [!NOTE]
+> Una nota sobre las matemáticas. Las fórmulas de este libro no son adornos ni señales de rigor performativo. Son la formalización exacta de los conceptos que el texto describe en prosa. El lector que prefiera no detenerse en ellas encontrará que el argumento está completo en el texto principal; el lector que quiera verificar o extender el sistema encontrará en la sección §6 de cada capítulo y en el Apéndice A las demostraciones completas. Ninguna de las dos rutas es superior a la otra: son lecturas distintas del mismo libro.
 
 
 
@@ -187,7 +188,8 @@ Pero en sistemas institucionales complejos —bancos, corporaciones, administrac
 
 El resultado estructural de este desfase es la inversión causal: el nodo del sistema que tiene mayor peso causal en el daño es precisamente el que el criterio del dolo no puede alcanzar, y el nodo con menor peso causal —el ejecutor visible, el que firmó, el que atendió al cliente— es el que el dolo puede procesar con más facilidad porque dejó rastros de su acción concreta.
 
-Analogía: El arquitecto y el obrero Un arquitecto diseña un edificio con un defecto estructural grave. El obrero lo construye siguiendo los planos al pie de la letra. El edificio colapsa. El sistema basado en el dolo pregunta: ¿quién puso el ladrillo defectuoso? El obrero. El sistema de imputación causal pregunta: ¿sin el defecto en los planos, habría colapsado el edificio? No. El arquitecto es el nodo de diseño. El obrero es altamente sustituible: cualquier otro habría construido lo mismo siguiendo los mismos planos.
+> [!TIP]
+> Analogía: El arquitecto y el obrero Un arquitecto diseña un edificio con un defecto estructural grave. El obrero lo construye siguiendo los planos al pie de la letra. El edificio colapsa. El sistema basado en el dolo pregunta: ¿quién puso el ladrillo defectuoso? El obrero. El sistema de imputación causal pregunta: ¿sin el defecto en los planos, habría colapsado el edificio? No. El arquitecto es el nodo de diseño. El obrero es altamente sustituible: cualquier otro habría construido lo mismo siguiendo los mismos planos.
 
 
 #### 1.2 Lo que el sistema de imputación causal propone
@@ -196,59 +198,26 @@ Este capítulo presenta la aplicación del cálculo de la responsabilidad al der
 
 La secuencia es: primero se construye el grafo causal del caso y se calcula R*, que distribuye la responsabilidad causal objetiva entre todos los actores. Luego se estima S para cada nodo, que determina cuánto de esa responsabilidad era estructural y cuánto era idiosincrática. Luego se estima α, que mide la asunción efectiva. Y de esa combinación emerge Δ: la brecha entre lo que cada nodo causó y lo que ha reconocido.
 
-::: {.recuadro .nota-violeta}
-**Nota de interpretación ontológica:** El dolo es la primera mediación φ₁ actuando con conocimiento pleno del resultado probable. La culpa es φ₁ actuando con un déficit de información o de deliberación que el sujeto podría haber subsanado. En ambos casos hay acto, hay posición causal y hay responsabilidad (R* > 0). La diferencia está en cómo se produjo la determinación de la voluntad, no en si hubo determinación.
-:::
+> [!NOTE]
+> **Nota de interpretación ontológica:** El dolo es la primera mediación φ₁ actuando con conocimiento pleno del resultado probable. La culpa es φ₁ actuando con un déficit de información o de deliberación que el sujeto podría haber subsanado. En ambos casos hay acto, hay posición causal y hay responsabilidad (R* > 0). La diferencia está en cómo se produjo la determinación de la voluntad, no en si hubo determinación.
+
 
 
 ### §2.  Página puente — Traducción al lenguaje jurídico
 
 Esta página resume cómo se llama cada herramienta del sistema en el contexto del derecho penal y civil. El lector que no ha leído el núcleo universal puede obtener aquí todo lo que necesita para seguir el capítulo.
 
-Herramienta En derecho se llama
-
-Qué significa en la práctica jurídica
-
-Grafo causal G
-
-Cadena de imputación causal
-
-El mapa de actores del caso con sus relaciones de influencia y sus pesos documentados en el expediente.
-
-R* (vector) Responsabilidad causal
-
-La fracción del daño total causalmente atribuible a cada actor. No depende de si el actor quiso el resultado.
-
-S (índice) Sustituibilidad del ejecutor
-
-Si S = 0.90, cualquier otro en ese rol habría actuado igual. La responsabilidad es del diseño, no de la persona.
-
-α (coeficiente) Grado de asunción y reparación
-
-Lo que el actor ha reconocido y reparado: desde la negación (α ≈ 0) hasta la reparación integral (α ≈ 1).
-
-Δ = R* − α Déficit de responsabilidad
-
-Δ > 0: causó más de lo que reconoció. Δ < 0: carga más de lo que causó (chivo expiatorio).
-
-
-D_total Daño total cuantificado
-
-T_invertido (daño emergente) + T_impedido (lucro cesante ampliado) + ΔT_trayectoria (pérdida de futuro).
-
-D_vital Daño expresado en tiempo de vida
-
-La traducción del daño monetario a horas de vida equivalentes, usando un salario de referencia social igual para todos. Revela la dimensión ontológica del daño cuando ninguna compensación económica puede ser suficiente.
-
-B_total Beneficio obtenido del daño
-
-Lo que cada actor obtuvo causalmente gracias al daño de otro. Base para la acción de enriquecimiento sin causa.
-
-La posición de la voluntad desde la que actuó: Fobos (miedo reactivo), Anteros (afirmación deliberada), Potós (patrón del pasado), etc.
-
-Hijos de Afrodita
-
-Disposición interna del actor
+| Herramienta | En derecho se llama | Qué significa en la práctica jurídica |
+| --- | --- | --- |
+| Grafo causal G | Cadena de imputación causal | El mapa de actores del caso con sus relaciones de influencia y sus pesos documentados en el expediente. |
+| R* (vector) | Responsabilidad causal | La fracción del daño total causalmente atribuible a cada actor. No depende de si el actor quiso el resultado. |
+| S (índice) | Sustituibilidad del ejecutor | Si S = 0.90, cualquier otro en ese rol habría actuado igual. La responsabilidad es del diseño, no de la persona. |
+| α (coeficiente) | Grado de asunción y reparación | Lo que el actor ha reconocido y reparado: desde la negación (α ≈ 0) hasta la reparación integral (α ≈ 1). |
+| Δ = R* − α | Déficit de responsabilidad | Δ > 0: causó más de lo que reconoció. Δ < 0: carga más de lo que causó (chivo expiatorio). |
+| D_total | Daño total cuantificado | T_invertido (daño emergente) + T_impedido (lucro cesante ampliado) + ΔT_trayectoria (pérdida de futuro). |
+| D_vital | Daño expresado en tiempo de vida | La traducción del daño monetario a horas de vida equivalentes, usando un salario de referencia social igual para todos. Revela la dimensión ontológica del daño cuando ninguna compensación económica puede ser suficiente. |
+| B_total | Beneficio obtenido del daño | Lo que cada actor obtuvo causalmente gracias al daño de otro. Base para la acción de enriquecimiento sin causa. |
+| Hijos de Afrodita | Disposición interna del actor | La posición de la voluntad desde la que actuó: Fobos (miedo reactivo), Anteros (afirmación deliberada), Potós (patrón del pasado), etc. |
 
 
 ### §3.  Las herramientas en el contexto jurídico
@@ -259,44 +228,14 @@ El grafo causal de un caso jurídico se construye en cuatro pasos. El rigor de t
 
 1.  Identificar los nodos. Un nodo es cualquier actor, institución, política o factor que tuvo capacidad de influir causalmente en el resultado. La pregunta operativa es: si este actor hubiera actuado de manera diferente en ese momento, ¿el resultado habría cambiado? Si la respuesta es sí, es un nodo. 2.  Identificar el tipo de cada nodo. Nodo de diseño: diseñó las reglas, los incentivos, los protocolos. Nodo de ejecución: aplicó las reglas dentro del sistema diseñado. Nodo instrumental: fue el vehículo del acto sin voluntad propia. Nodo final Nf: la víctima o el bien jurídico afectado. Este último no entra en el cálculo de R*. 3.  Trazar las aristas causales. Para cada par de nodos, determinar si uno influyó causalmente en el otro y en qué dirección. 4.  Estimar los pesos. El peso w (Nᵢ → Nⱼ) ∈ [0,1] mide la intensidad de la influencia causal, estimada con evidencia del expediente.
 
-Tipo de evidencia Qué acredita Peso que sustenta
-
-
-w alto (0.75–0.95)
-
-Órdenes escritas o verbales documentadas
-
-Que el nodo de diseño instruyó directamente al ejecutor
-
-Protocolo o manual de procedimientos vigente
-
-Que el ejecutor actuó conforme al diseño institucional
-
-S alto + w del diseñador sobre ejecutor
-
-S alto (0.80–0.95)
-
-Patrón histórico de conducta del grupo
-
-Que la conducta era la norma, no la excepción
-
-Organigrama y jerarquía documentada
-
-Que el nodo de diseño tenía autoridad sobre el ejecutor
-
-w del superior sobre el subordinado
-
-Comunicaciones informales (mensajes, correos)
-
-Que la instrucción existió aunque no conste formalmente
-
-Reconstruye aristas no documentadas
-
-Ausencia de controles que debían existir
-
-Que el nodo de diseño omitió crear la estructura que habría impedido el daño
-
-w del nodo omisivo sobre el resultado
+| Tipo de evidencia | Qué acredita | Peso que sustenta |
+| --- | --- | --- |
+| Órdenes escritas o verbales documentadas | Que el nodo de diseño instruyó directamente al ejecutor | w alto (0.75–0.95) |
+| Protocolo o manual de procedimientos vigente | Que el ejecutor actuó conforme al diseño institucional | S alto + w del diseñador sobre ejecutor |
+| Patrón histórico de conducta del grupo | Que la conducta era la norma, no la excepción | S alto (0.80–0.95) |
+| Organigrama y jerarquía documentada | Que el nodo de diseño tenía autoridad sobre el ejecutor | w del superior sobre el subordinado |
+| Comunicaciones informales (mensajes, correos) | Que la instrucción existió aunque no conste formalmente | Reconstruye aristas no documentadas |
+| Ausencia de controles que debían existir | Que el nodo de diseño omitió crear la estructura que habría impedido el daño | w del nodo omisivo sobre el resultado |
 
 #### 3.2 R* en derecho: la responsabilidad causal sin dolo
 
@@ -305,7 +244,8 @@ Una vez construido el grafo, R* se calcula mediante la iteración de potencia so
 Esta independencia del dolo es la principal novedad del cálculo en el contexto jurídico. Permite identificar y cuantificar la responsabilidad del diseñador institucional en casos donde el dolo del diseñador es difícil de probar, pero su posición causal es inequívoca.
 
 
-¿R* reemplaza al dolo?  No. R* y el dolo responden preguntas distintas. R* responde: ¿qué fracción del daño causó causalmente este nodo? El dolo responde: ¿este nodo quiso producir ese daño? R* viene primero (determina si hay responsabilidad causal). El dolo viene después (determina el grado de culpabilidad subjetiva y el tipo de sanción aplicable).
+> [!NOTE]
+> ¿R* reemplaza al dolo?  No. R* y el dolo responden preguntas distintas. R* responde: ¿qué fracción del daño causó causalmente este nodo? El dolo responde: ¿este nodo quiso producir ese daño? R* viene primero (determina si hay responsabilidad causal). El dolo viene después (determina el grado de culpabilidad subjetiva y el tipo de sanción aplicable).
 
 #### 3.3 El índice de sustituibilidad S como argumento defensivo
 
@@ -326,29 +266,11 @@ Con S = 0.90 y R* = 0.10, la responsabilidad causal neta es 0.10 × 0.10 = 0.01:
 Δᵢ = R*ᵢ − αᵢ
 
 
-Perfil Δ Patrón típico Consecuencia jurídica
-
-Inversión causal
-
-+0.20 a +0.80
-
-Nodo de diseño: R* alto, α próximo a cero.
-
-Base para demanda civil o acción de responsabilidad contra la institución.
-
-Chivo expiatorio
-
-−0.20 a −0.90
-
-Ejecutor con S alto: carga 5-10 veces su responsabilidad causal real.
-
-Base para atenuación de pena, apelación, amparo, o reconvención por daños.
-
-Equilibrio −0.10 a +0.20
-
-El análisis se centra en D_total y distribución de la indemnización.
-
-La asunción es aproximadamente proporcional a la causalidad.
+| Perfil | Δ | Patrón típico | Consecuencia jurídica |
+| --- | --- | --- | --- |
+| Inversión causal | +0.20 a +0.80 | Nodo de diseño: R* alto, α próximo a cero. | Base para demanda civil o acción de responsabilidad contra la institución. |
+| Chivo expiatorio | −0.20 a −0.90 | Ejecutor con S alto: carga 5-10 veces su responsabilidad causal real. | Base para atenuación de pena, apelación, amparo, o reconvención por daños. |
+| Equilibrio | −0.10 a +0.20 | La asunción es aproximadamente proporcional a la causalidad. | El análisis se centra en D_total y distribución de la indemnización. |
 
 #### 3.5 El daño total en derecho
 
@@ -356,34 +278,16 @@ La asunción es aproximadamente proporcional a la causalidad.
 
 #### ΔT_trayectoria
 
-Componente Equivalente en derecho
-
-Contenido Cómo se acredita
-
-T_invertido Daño emergente
-
-La pérdida directa en el momento del daño.
-
-Facturas, estados de cuenta, comprobantes de pago.
-
-T_impedido Lucro cesante ampliado
-
-Lo que el sujeto dejó de generar durante el
-
-Proyecciones de ingresos históricos, peritajes, cotizaciones.
-
-
-período de recuperación.
-
-ΔT_trayectoria Daño a trayectoria futura
-
-La pérdida permanente de potencial que persiste aun después de la recuperación.
-
-Peritaje sobre brecha salarial futura, impacto de antecedentes en el mercado.
+| Componente | Equivalente en derecho | Contenido | Cómo se acredita |
+| --- | --- | --- | --- |
+| T_invertido | Daño emergente | La pérdida directa en el momento del daño. | Facturas, estados de cuenta, comprobantes de pago. |
+| T_impedido | Lucro cesante ampliado | Lo que el sujeto dejó de generar durante el | Proyecciones de ingresos históricos, peritajes, cotizaciones. |
+| ΔT_trayectoria | Daño a trayectoria futura | La pérdida permanente de potencial que persiste aun después de la recuperación. | Peritaje sobre brecha salarial futura, impacto de antecedentes en el mercado. |
 
 #### 3.6 El dinero como tiempo de vida: la dualidad ontológica del daño
 
-Principio ontológico:  El trabajo es un colapso. El sujeto colapsa horas de su vida —posibilidades de existencia— en acto productivo. El dinero que resulta es la huella de ese colapso: tiempo de vida cristalizado en valor de intercambio. Dañar el patrimonio de alguien no es alterar un número abstracto: es apropiarse del tiempo de vida que ese número representa.
+> [!IMPORTANT]
+> Principio ontológico:  El trabajo es un colapso. El sujeto colapsa horas de su vida —posibilidades de existencia— en acto productivo. El dinero que resulta es la huella de ese colapso: tiempo de vida cristalizado en valor de intercambio. Dañar el patrimonio de alguien no es alterar un número abstracto: es apropiarse del tiempo de vida que ese número representa.
 
 Esta premisa ontológica tiene una consecuencia matemática directa: todo daño monetario puede y debe ser expresado simultáneamente en dos unidades. La primera es la unidad monetaria, que mide lo que se puede compensar económicamente. La segunda es la unidad de tiempo de vida, que mide lo que se destruyó como existencia. Ninguna de las dos reduce a la otra: son dos perspectivas irreducibles del mismo daño.
 
@@ -394,7 +298,8 @@ La conversión entre daño monetario y tiempo de vida requiere un salario de ref
 
 vida de un niño judío vale lo mismo que una hora de vida de cualquier otro ser humano, independientemente de su ingreso. Si se usara el salario personal, las vidas de las personas con menor ingreso "costarían menos" en el cálculo, lo cual contradice el fundamento del sistema.
 
-Salario de referencia social (w_ref):  El salario promedio per cápita de la sociedad o período de análisis, expresado en unidades monetarias por hora. Es la unidad de conversión universal entre tiempo de vida y dinero.
+> [!NOTE]
+> Salario de referencia social (w_ref):  El salario promedio per cápita de la sociedad o período de análisis, expresado en unidades monetarias por hora. Es la unidad de conversión universal entre tiempo de vida y dinero.
 
 La conversión fundamental es:
 
@@ -419,28 +324,19 @@ Cuando el daño no es solo patrimonial, sino que destruye directamente tiempo de
 
 #### D_vital_total = D_vital_directo + D_vital_generacional + D_vital_supervivientes
 
-Componente Fórmula Interpretación
-
-D_vital_directo Σᵢ [ L_restante(i) × q(i) ]
-
-L_restante(i) = horas de vida esperadas que le quedaban a la persona i en el momento del daño. q(i) ∈ [0,1] = factor de calidad de vida (1 = vida plena, 0 = muerte).
-
-D_vital_generacional Σⱼ Σₖ [ L_esperada(k) × p(k|j) ]
-
-j = víctimas directas; k = sus descendientes potenciales en generaciones subsiguientes; p(k|j) = probabilidad de existencia de k si j hubiera vivido. Se estima con la tasa de fertilidad histórica del grupo.
-
-D_vital_supervivientes Σₘ [ L_restante(m) × (1 − q_real(m)) ]
-
-q_real(m) = calidad de vida efectiva del superviviente m respecto a la que habría tenido sin el daño. Captura el tiempo de vida vivido en
-
-
-condiciones de daño, no la muerte.
+| Componente | Fórmula | Interpretación |
+| --- | --- | --- |
+| D_vital_directo | Σᵢ [ L_restante(i) × q(i) ] | L_restante(i) = horas de vida esperadas que le quedaban a la persona i en el momento del daño. ∈ q(i) [0,1] = factor de calidad de vida (1 = vida plena, 0 = muerte). |
+| D_vital_generacional | Σⱼ Σₖ [ L_esperada(k) × p(k\|j) ] | j = víctimas directas; k = sus descendientes potenciales en generaciones subsiguientes; p(k\|j) = probabilidad de existencia de k si j hubiera vivido. Se estima con la tasa de fertilidad histórica del grupo. |
+| D_vital_supervivientes | Σₘ [ L_restante(m) × (1 − q_real(m)) ] | q_real(m) = calidad de vida efectiva del superviviente m respecto a la que habría tenido sin el daño. Captura el tiempo de vida vivido en |
+|  |  | condiciones de daño, no la muerte. |
 
 La expresión monetaria equivalente del daño vital total es:
 
 D_monetary_equiv = D_vital_total × w_ref
 
-⚠ Cuando D_monetary_equiv supera la capacidad material de reparación de todos los actores responsables, la fórmula no falla: cumple su función ontológica más importante. Hace visible con precisión matemática que ese daño es inconmensurable con cualquier compensación finita. No es un límite del método; es uno de sus resultados más significativos.
+> [!WARNING]
+> ⚠ Cuando D_monetary_equiv supera la capacidad material de reparación de todos los actores responsables, la fórmula no falla: cumple su función ontológica más importante. Hace visible con precisión matemática que ese daño es inconmensurable con cualquier compensación finita. No es un límite del método; es uno de sus resultados más significativos.
 
 #### 3.7 El beneficio del daño: ¿quién ganó?
 
@@ -448,72 +344,35 @@ En el contexto jurídico, el cálculo del beneficio tiene dos aplicaciones. En d
 
 El déficit de reconocimiento Δ_B = R*_B − β, donde β es el beneficio efectivamente revertido, mide la brecha entre lo que el sistema obtuvo del daño y lo que ha devuelto.
 
-Fraude annona en el contexto corporativo:  Cuando una institución recibe capital —trabajo, lealtad de empleados, confianza de clientes— y no genera las condiciones que prometió, hay fraude annona. En derecho esto se mapea sobre abuso de confianza, responsabilidad del administrador y violación al deber fiduciario.
+> [!NOTE]
+> Fraude annona en el contexto corporativo:  Cuando una institución recibe capital —trabajo, lealtad de empleados, confianza de clientes— y no genera las condiciones que prometió, hay fraude annona. En derecho esto se mapea sobre abuso de confianza, responsabilidad del administrador y violación al deber fiduciario.
 
 #### 3.8 Los hijos de Afrodita en el análisis jurídico
 
 
 El hijo dominante de un nodo en el momento de los hechos responde la pregunta que el dolo hace —¿desde qué disposición actuó este actor? — con mayor precisión que el análisis intencional tradicional. El hijo no modifica R* (la causalidad no depende de la disposición interna) pero sí modifica la interpretación de α y la evaluación del tipo de culpabilidad subjetiva.
 
-Hijo En contexto jurídico
+| Hijo | En contexto jurídico | Implicación para el dolo | Implicación para α futuro |
+| --- | --- | --- | --- |
+| Eros | Apertura activa hacia el objetivo del acto. | Compatible con dolo directo. | α posible si hay transformación genuina. |
+| Anteros | Afirmación deliberada de su posición. | Compatible con dolo directo o eventual. | α difícil: tiende a defender la corrección de su conducta. |
+| Fobos | Respuesta reactiva ante amenaza institucional. | Compatible con culpa o eximente de φ₂ miedo grave. no operó. | α posible con acompañamiento . |
+| Deimos | Parálisis ante ambigüedad sin precedente claro. | Compatible con culpa por falta de deliberación. | α moderado con el marco que faltó. |
+| Potós | Reproducció n de patrón del pasado sin deliberar sobre el contexto nuevo. | Compatible con culpa habitual. | α posible trabajando la desconexión pasado-presente. |
+| Harmoní a | Equilibrio φ₂ con activa. | Si hubo daño: mayor | α más natural. |
+|  | Plena deliberación. | responsabilidad , no menor. |  |
 
-Implicación para el dolo
+> [!NOTE]
+> **Nota ontológica sobre el ego colectivo en derecho:** Las instituciones no tienen voluntad propia: tienen ego colectivo prestado. Sus "hijos" son los de quienes ejercen el poder de decisión en su nombre. Cuando se analiza el hijo dominante de una institución, se analiza en realidad el perfil de sus directivos en el momento de las decisiones relevantes.
 
-Implicación para α futuro
-
-Eros Apertura activa hacia el objetivo del acto.
-
-Compatible con dolo directo.
-
-α posible si hay transformación genuina.
-
-Anteros Afirmación deliberada de su posición.
-
-Compatible con dolo directo o eventual.
-
-α difícil: tiende a defender la corrección de su conducta.
-
-Fobos Respuesta reactiva ante amenaza institucional.
-
-Compatible con culpa o eximente de miedo grave. φ₂ no operó.
-
-α posible con acompañamiento .
-
-Deimos Parálisis ante ambigüedad sin precedente claro.
-
-Compatible con culpa por falta de deliberación.
-
-α moderado con el marco que faltó.
-
-Potós Reproducció n de patrón del pasado sin deliberar sobre el contexto nuevo.
-
-Compatible con culpa habitual.
-
-α posible trabajando la desconexión pasado-presente.
-
-α más natural.
-
-Harmoní a
-
-Equilibrio con φ₂ activa.
-
-Si hubo daño: mayor
-
-
-responsabilidad , no menor.
-
-Plena deliberación.
-
-::: {.recuadro .nota-violeta}
-**Nota ontológica sobre el ego colectivo en derecho:** Las instituciones no tienen voluntad propia: tienen ego colectivo prestado. Sus "hijos" son los de quienes ejercen el poder de decisión en su nombre. Cuando se analiza el hijo dominante de una institución, se analiza en realidad el perfil de sus directivos en el momento de las decisiones relevantes.
-:::
 
 
 ### §4.  Casos resueltos
 
 Caso A — Los juicios de Núremberg (1945–1946)
 
-El primer tribunal que intentó formalizar la responsabilidad en una cadena jerárquica compleja
+> [!NOTE]
+> El primer tribunal que intentó formalizar la responsabilidad en una cadena jerárquica compleja
 
 A.1 El problema que Núremberg no pudo resolver
 
@@ -526,83 +385,36 @@ Hannah Arendt, en su cobertura del juicio a Eichmann en 1961, formuló la pregun
 A.2 Construcción del grafo
 
 
-Actor Tipo Función causal
-
-Nod o
-
-N1 Dirección NSDAP (Hitler/Himmle r)
-
-Diseño Diseñó la política de exterminio, creó la estructura institucional (SS, Einsatzgruppen ), emitió las directivas. Sin este nodo, el sistema no existiría.
-
-N2 Estructura burocrática SS/RSHA
-
-Diseño/ejecució n
-
-Tradujo las directivas en órdenes operativas, administró recursos, coordinó la logística. Eichmann operaba en este nivel.
-
-N3 Comandantes de campo
-
-Ejecución media Implementaron las órdenes en sus jurisdicciones con cierto margen operativo.
-
-N4 Guardias y ejecutores directos
-
-Ejecución directa
-
-Llevaron a cabo los actos físicos. Máxima visibilidad documental, mínima autonomía de diseño.
-
-
-N5 Poblaciones colaboradoras / Estados satélite
-
-Ejecución externa
-
-En algunos países, las autoridades locales facilitaron la deportación y el exterminio con mayor autonomía relativa.
-
-Nf Las víctimas Nodo final No entra en el cálculo de R*.
+| Nod o | Actor | Tipo | Función causal |
+| --- | --- | --- | --- |
+| N1 | Dirección NSDAP (Hitler/Himmle r) | Diseño | Diseñó la política de exterminio, creó la estructura institucional (SS, Einsatzgruppen ), emitió las directivas. Sin este nodo, el sistema no existiría. |
+| N2 | Estructura burocrática SS/RSHA | Diseño/ejecució n | Tradujo las directivas en órdenes operativas, administró recursos, coordinó la logística. Eichmann operaba en este nivel. |
+| N3 | Comandantes de campo | Ejecución media | Implementaron las órdenes en sus jurisdicciones con cierto margen operativo. |
+| N4 | Guardias y ejecutores directos | Ejecución directa | Llevaron a cabo los actos físicos. Máxima visibilidad documental, mínima autonomía de diseño. |
+| N5 | Poblaciones colaboradoras / Estados satélite | Ejecución externa | En algunos países, las autoridades locales facilitaron la deportación y el exterminio con mayor autonomía relativa. |
+| Nf | Las víctimas | Nodo final | No entra en el cálculo de R*. |
 
 #### A.3 Pesos y cálculo de R*
 
-Desde Hacia Peso w
-
-Justificación
-
-N1 N2 0.95 Las directivas de exterminio fueron diseñadas en N1. La estructura del RSHA era una creación directa de Himmler/Hitler.
-
-N1 N3 0.90 Los comandantes de campo recibían órdenes del RSHA que emanan de N1. Su discrecionalidad estaba limitada.
-
-N2 N3 0.85 Las órdenes operativas de N2 determinaban qué hacía N3. Eichmann coordinaba directamente.
-
-N2 N4 0.80 Los guardias actuaban bajo órdenes de la cadena N2/N3. Sus procedimientos estaban reglamentados.
-
-N3 N4 0.75 Los comandantes transmitían órdenes a los ejecutores directos.
-
-N1 N5 0.60 Los regímenes colaboradores actuaban bajo presión política y militar de N1, aunque con mayor autonomía relativa.
+| Desde | Hacia | Peso w | Justificación |
+| --- | --- | --- | --- |
+| N1 | N2 | 0.95 | Las directivas de exterminio fueron diseñadas en N1. La estructura del RSHA era una creación directa de Himmler/Hitler. |
+| N1 | N3 | 0.90 | Los comandantes de campo recibían órdenes del RSHA que emanan de N1. Su discrecionalidad estaba limitada. |
+| N2 | N3 | 0.85 | Las órdenes operativas de N2 determinaban qué hacía N3. Eichmann coordinaba directamente. |
+| N2 | N4 | 0.80 | Los guardias actuaban bajo órdenes de la cadena N2/N3. Sus procedimientos estaban reglamentados. |
+| N3 | N4 | 0.75 | Los comandantes transmitían órdenes a los ejecutores directos. |
+| N1 | N5 | 0.60 | Los regímenes colaboradores actuaban bajo presión política y militar de N1, aunque con mayor autonomía relativa. |
 
 
 #### Tras convergencia de la iteración de potencia, el vector R* estabilizado es:
 
-Nodo Actor R* final
-
-Interpretación
-
-N1 Dirección NSDAP (diseño)
-
-~52% Más de la mitad de la responsabilidad causal reside en quien diseñó el sistema.
-
-N2 Estructura SS/RSHA
-
-~28% La burocracia de transmisión porta casi un tercio del peso. Eichmann, como parte de N2, porta una fracción de este 28%.
-
-N3 Comandantes de campo
-
-~13% Nodo de ejecución media con algún margen de decisión.
-
-N4 Guardias / ejecutores
-
-~5% Los ejecutores directos, con mínima autonomía, portan la fracción más pequeña de responsabilidad causal.
-
-~2% Responsabilidad causal pequeña pero no nula.
-
-N5 Colaboradores externos
+| Nodo | Actor | R* final | Interpretación |
+| --- | --- | --- | --- |
+| N1 | Dirección NSDAP (diseño) | ~52% | Más de la mitad de la responsabilidad causal reside en quien diseñó el sistema. |
+| N2 | Estructura SS/RSHA | ~28% | La burocracia de transmisión porta casi un tercio del peso. Eichmann, como parte de N2, porta una fracción de este 28%. |
+| N3 | Comandantes de campo | ~13% | Nodo de ejecución media con algún margen de decisión. |
+| N4 | Guardias / ejecutores | ~5% | Los ejecutores directos, con mínima autonomía, portan la fracción más pequeña de responsabilidad causal. |
+| N5 | Colaboradores externos | ~2% | Responsabilidad causal pequeña pero no nula. |
 
 #### A.4 La sustituibilidad de Eichmann: formalizando a Arendt
 
@@ -621,7 +433,8 @@ R*_neta_Eichmann ≈ fracción_de_N2 × (1 − 0.88) ≈
 
 El 97-98% restante pertenecía al diseño. Esto no exculpa a Eichmann; lo sitúa. Y sitúa también a Núremberg: el tribunal procesó lo que podía ver y documentar, no necesariamente lo que tenía mayor peso causal.
 
-La paradoja de Núremberg:  El tribunal procesó principalmente a N1 (los líderes) y a algunos nodos de N3-N4. N2 fue procesado de manera parcial. La distribución de las condenas no reflejó la distribución de R*. No es un defecto del tribunal dado su contexto histórico: es la ilustración más dramática de los límites del sistema basado en el dolo para distribuir justicia en sistemas causalmente complejos.
+> [!NOTE]
+> La paradoja de Núremberg:  El tribunal procesó principalmente a N1 (los líderes) y a algunos nodos de N3-N4. N2 fue procesado de manera parcial. La distribución de las condenas no reflejó la distribución de R*. No es un defecto del tribunal dado su contexto histórico: es la ilustración más dramática de los límites del sistema basado en el dolo para distribuir justicia en sistemas causalmente complejos.
 
 A.5 El daño del Holocausto: expresión monetaria y vital
 
@@ -686,9 +499,9 @@ Las reparaciones pagadas por Alemania hasta 2024 ascienden a aproximadamente $90
 
 Cuando D_monetary_equiv supera en cuatro órdenes de magnitud la capacidad económica del responsable, el sistema no colapsa: identifica con precisión el límite donde la justicia reparadora cede a la justicia simbólica, memorial y estructural. El valor del α alemán no está en los 90,000 millones pagados sino en la transformación institucional, educativa y cultural que esos pagos acompañaron. Eso es lo que el cálculo no puede capturar, y es honesto en decirlo.
 
-::: {.recuadro .nota-violeta}
-**Nota sobre el D_vital_generacional y el infinito calculable:** Técnicamente, D_vital_generacional crece sin límite superior si se extienden las generaciones al infinito. En la práctica se acota al número de generaciones transcurridas desde el daño hasta el momento del análisis. La razón no es matemática sino ontológica: las generaciones futuras que no han nacido aún no tienen tiempo de vida que haya sido destruido; solo las que habrían existido ya y no existen por el daño son calculables con certeza.
-:::
+> [!NOTE]
+> **Nota sobre el D_vital_generacional y el infinito calculable:** Técnicamente, D_vital_generacional crece sin límite superior si se extienden las generaciones al infinito. En la práctica se acota al número de generaciones transcurridas desde el daño hasta el momento del análisis. La razón no es matemática sino ontológica: las generaciones futuras que no han nacido aún no tienen tiempo de vida que haya sido destruido; solo las que habrían existido ya y no existen por el daño son calculables con certeza.
+
 
 
 Caso B — Institución de banca comercial
@@ -717,7 +530,8 @@ La institución imputa al antiguo gerente el artículo 112 quater fracción I de
 El antiguo gerente, por su parte, sostiene que como gerente de sucursal sí tenía facultades para revisar expedientes de clientes en el ejercicio de sus funciones de supervisión operativa y cumplimiento, y que dicho acceso era una práctica habitual en el desempeño del cargo. El perfil de puesto del gerente de sucursal, tal como está documentado públicamente por la institución, incluye explícitamente: "llevar a cabo procesos de comprobación diarios" e "investigar y minimizar pérdidas controlables del personal de la sucursal". Ambas funciones requieren acceso a los
 
 
-expedientes de clientes. La institución diseñó un rol que exige ese acceso y simultáneamente argumenta que ese acceso era indebido.
+> [!WARNING]
+> expedientes de clientes. La institución diseñó un rol que exige ese acceso y simultáneamente argumenta que ese acceso era indebido.
 
 B.2 Análisis causal del Hecho 1: el problema probatorio del acta
 
@@ -727,35 +541,23 @@ El acta contiene la declaración de las subordinadas en el sentido de que recibi
 
 Desde el punto de vista del cálculo, el grafo causal del hecho 1 tiene la siguiente estructura:
 
-Nodo Actor Tipo Posición causal documentada
-
-N1 Institución (ego colectivo)
-
-Diseño Diseñó los sistemas de acceso, los roles y jerarquías. El acceso de las subordinadas al sistema es consecuencia del diseño institucional.
-
-
-N2 Subordinadas Ejecución documentada
-
-Accedieron al sistema y descargaron información. Esto está documentado digitalmente. Su R* en el hecho es el más alto entre los nodos con evidencia directa.
-
-N3 Antiguo gerente (investigado)
-
-Posición incierta
-
-La única evidencia de su participación es el dicho de las subordinadas sin respaldo documental. No existe rastro digital de que haya recibido la información.
-
-Nodo final No se ha acreditado daño al cliente. D_total demostrado en el expediente = 0.
-
-Nf Cliente afectado
+| Nodo | Actor | Tipo | Posición causal documentada |
+| --- | --- | --- | --- |
+| N1 | Institución (ego colectivo) | Diseño | Diseñó los sistemas de acceso, los roles y jerarquías. El acceso de las subordinadas al sistema es consecuencia del diseño institucional. |
+| N2 | Subordinadas | Ejecución documentada | Accedieron al sistema y descargaron información. Esto está documentado digitalmente. Su R* en el hecho es el más alto entre los nodos con evidencia directa. |
+| N3 | Antiguo gerente (investigado) | Posición incierta | La única evidencia de su participación es el dicho de las subordinadas sin respaldo documental. No existe rastro digital de que haya recibido la información. |
+| Nf | Cliente afectado | Nodo final | No se ha acreditado daño al cliente. D_total demostrado en el expediente = 0. |
 
 La consecuencia matemática del D_total = 0 es directa: cualquier R* multiplicado por cero produce cero. No existe base calculable para imputar daño al antiguo gerente en el hecho 1 porque el daño al bien jurídico protegido (la privacidad del cliente) no está demostrado en el expediente.
 
 La sustituibilidad de las subordinadas (N2) es alta: actuaron dentro del sistema de jerarquías diseñado por la institución (N1), siguiendo lo que describían como una instrucción de su superior. S_N2 estimado: (0.85 + 0.90 + 0.88) / 3 = 0.88. El diseño institucional tiene R* dominante en este hecho.
 
-⚠ El acta firmada por el antiguo gerente no constituye evidencia de que instruyó a las subordinadas. Constituye evidencia de que estuvo presente cuando ellas manifestaron que lo hicieron. La diferencia es jurídicamente fundamental: una es evidencia directa de conducta, la otra es evidencia de presencia sin controvertir un dicho ajeno. El sistema
+> [!WARNING]
+> ⚠ El acta firmada por el antiguo gerente no constituye evidencia de que instruyó a las subordinadas. Constituye evidencia de que estuvo presente cuando ellas manifestaron que lo hicieron. La diferencia es jurídicamente fundamental: una es evidencia directa de conducta, la otra es evidencia de presencia sin controvertir un dicho ajeno. El sistema
 
 
-probatorio basado en el dolo tiende a colapsar esa diferencia; el análisis causal la distingue con precisión.
+> [!NOTE]
+> probatorio basado en el dolo tiende a colapsar esa diferencia; el análisis causal la distingue con precisión.
 
 B.3 Análisis causal del Hecho 2: el problema de la conexión causal
 
@@ -778,40 +580,19 @@ antiguo gerente. Esta dilación temporal tiene consecuencias para el análisis: 
 
 Desde el punto de vista del cálculo, la dilación de tres años para presentar la denuncia sobre un hecho cuya fecha exacta conocía la institución desde el primer día es un elemento que el análisis del coeficiente α de la institución debe considerar: ¿qué circunstancias institucionales motivaron la decisión de denunciar tres años después y no en el momento de los hechos o en el momento de la separación laboral?
 
-El artículo 112 quater y el requisito del daño:  El tipo penal protege la privacidad del cliente y la confidencialidad de los sistemas financieros. Para que se configure el tipo es necesario que el acceso al sistema haya producido o potencialmente producido un daño al bien jurídico protegido. En el hecho 2, el fraude no se consumó, no hay daño acreditado al cliente, y no existe evidencia de que el antiguo gerente haya sido el mecanismo de transmisión de la información al tercero que intentó el fraude. D_total demostrado = 0.
+> [!NOTE]
+> El artículo 112 quater y el requisito del daño:  El tipo penal protege la privacidad del cliente y la confidencialidad de los sistemas financieros. Para que se configure el tipo es necesario que el acceso al sistema haya producido o potencialmente producido un daño al bien jurídico protegido. En el hecho 2, el fraude no se consumó, no hay daño acreditado al cliente, y no existe evidencia de que el antiguo gerente haya sido el mecanismo de transmisión de la información al tercero que intentó el fraude. D_total demostrado = 0.
 
 B.4 Los hijos de Afrodita: la disposición interna del antiguo gerente
 
 En el momento en que ocurrieron los hechos imputados, el antiguo gerente era un funcionario de carrera operando dentro de las estructuras, jerarquías y presiones de una institución financiera de gran escala. Su disposición interna en esos momentos no era la de quien diseña una acción dañosa, sino la de quien actúa dentro de los límites de un rol institucional con alta presión de cumplimiento.
 
 
-Nodo Hijo en los hechos
-
-Implicación
-
-Hijo en el momento actual
-
-Institución (ego col.)
-
-Anteros: protección del capital reputacional institucional ante el evento.
-
-Potós: tres años después persiste en la misma narrativa sin haber revisado los protocolos internos.
-
-α institucional ≈ 3%. Ego colectivo en fraude annona hacia el ex empleado.
-
-Antiguo gerente
-
-Fobos + Deimos: actuó dentro del sistema institucional por miedo a las consecuencias de no hacerlo y con vértigo ante situaciones ambiguas sin protocolo explícito.
-
-Deimos + Fobos + Potós: parálisis ante el proceso activo, miedo constante, anhelo de la vida laboral anterior.
-
-Perfil Peribea: voluntad prestada al eje institucional. Sin dolo. Sin Anteros. Sin Eros.
-
-Subordinadas Fobos puro: obediencia al superior dentro de la jerarquía diseñada por la institución.
-
-Potós + Deimos: cargan el acta firmada, incertidumbre sobre consecuencias futuras.
-
-S = 0.88. Actuaron desde el sistema, no desde sí mismas.
+| Nodo | Hijo en los hechos | Hijo en el momento actual | Implicación |
+| --- | --- | --- | --- |
+| Institución (ego col.) | Anteros: protección del capital reputacional institucional ante el evento. | Potós: tres años después persiste en la misma narrativa sin haber revisado los protocolos internos. | α institucional ≈ 3%. Ego colectivo en fraude annona hacia el ex empleado. |
+| Antiguo gerente | Fobos + Deimos: actuó dentro del sistema institucional por miedo a las consecuencias de no hacerlo y con vértigo ante situaciones ambiguas sin protocolo explícito. | Deimos + Fobos + Potós: parálisis ante el proceso activo, miedo constante, anhelo de la vida laboral anterior. | Perfil Peribea: voluntad prestada al eje institucional. Sin dolo. Sin Anteros. Sin Eros. |
+| Subordinadas | Fobos puro: obediencia al superior dentro de la jerarquía diseñada por la institución. | Potós + Deimos: cargan el acta firmada, incertidumbre sobre consecuencias futuras. | S = 0.88. Actuaron desde el sistema, no desde sí mismas. |
 
 La paradoja ontológica central de este caso no es difícil de ver una vez que se tienen los hijos: el único actor que actuó con Anteros deliberado —con afirmación activa de su posición— es la institución, cuyo ego colectivo construyó una narrativa que la exonera y que fue presentada ante la
 
@@ -927,7 +708,8 @@ El siguiente código implementa el análisis completo incluyendo la dualidad ont
 
 import numpy as np from scipy.stats import pearsonr  def calculo_juridico(W, alpha, tau=36, r=0.05,                      X_sin=None, X_con=None, w_ref=8.0):     """     Análisis completo de responsabilidad causal jurídica     con dualidad ontológica del daño.     W: matriz de pesos del grafo (n×n)     alpha: vector de asunción por nodo [0,1]     tau:   período de recuperación en meses     r:     tasa de descuento anual     w_ref: salario de referencia social (USD/hora)     """     n = W.shape[0]     R = np.ones(n) / n     for _ in range(500):         Rn = W @ R; s = np.sum(Rn)         if s < 1e-12: break         Rn /= s         if np.max(np.abs(Rn - R)) < 1e-9: break         R = Rn     R_star = Rn      S = np.zeros(n)     for i in range(n):         max_c = 0         for j in range(n): if j == i: continue             Wm = W.copy(); Wm[i,:] = np.mean(W, axis=0)             Rm = np.ones(n)/n             for _ in range(200): Rm2 = Wm @ Rm; sm = np.sum(Rm2)                 if sm < 1e-12: break Rm2 /= sm                 if np.max(np.abs(Rm2-Rm)) < 1e-6: break Rm = Rm2             if n > 1:                 c, _ = pearsonr(R_star, Rm2) max_c = max(max_c, abs(c))         S[i] = 1 - max_c      Delta = R_star -alpha     R_neta = R_star * (1 - S)      result = {'R_star':R_star,'S':S,'Delta':Delta,'R_neta':R_neta}      if X_sin is not None and X_con is not None:         T_inv = float(X_sin[0] - X_con[0]) diff = X_sin - X_con         T_imp = float(np.trapz(diff[:tau]) / 12) desc = np.exp(-r * np.arange(len(diff)-tau) / 12)         DeltaT = float(np.trapz(diff[tau:] * desc) / 12)         D_total = T_inv + T_imp + DeltaT         result.update({             'T_invertido': T_inv, 'T_impedido': T_imp,             'DeltaT_trayectoria': DeltaT, 'D_total': D_total, 'D_vital': D_total / w_ref,       # horas de vida 'D_monetary_equiv': D_total,       # = D_total por definición 'AD': R_star * D_total         })     return result  def dano_vital_directo(n_victimas, esperanza_vida_h, q=1.0):     """D_vital cuando el bien destruido es la vida misma."""     return n_victimas * esperanza_vida_h * q  def dano_vital_generacional(victimas, generaciones,                              tasa_fertilidad=2.8, esperanza_vida_h=569400):     """Generaciones eliminadas calculadas al presente."""     total = 0     for g in range(1, int(generaciones)+1): n_gen = victimas * (tasa_fertilidad ** g)         total += n_gen * El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
-esperanza_vida_h     return total  def dano_vital_supervivientes(n_superv, vida_restante_h, q_real=0.55):     """Tiempo de vida vivido en condiciones de daño.""" return n_superv * vida_restante_h * (1 - q_real)  # ── Ejemplo: Holocausto (parámetros 2024) ── w_ref = 8.0  # USD/hora (PPP global) D_dir = dano_vital_directo(6_000_000, 569_400, q=1.0) D_gen = dano_vital_generacional(6_000_000, 2.5) D_sup = dano_vital_supervivientes(250_000, 350_400, 0.45) D_vital_total = D_dir + D_gen + D_sup print(f"D_vital_directo:       {D_dir:.3e} horas") print(f"D_vital_generacional:  {D_gen:.3e} horas") print(f"D_vital_supervivientes:{D_sup:.3e} horas") print(f"D_vital_total:         {D_vital_total:.3e} horas") equiv = D_vital_total * w_ref / 1e12 print(f"D_monetary_equiv:      {equiv:.1f} billones USD") print(f"Reparaciones pagadas:  $0.090 billones USD") print(f"Porcentaje cubierto: {0.090/(D_vital_total*w_ref/1e12)*100:.4f}%")
+> [!NOTE]
+> esperanza_vida_h     return total  def dano_vital_supervivientes(n_superv, vida_restante_h, q_real=0.55):     """Tiempo de vida vivido en condiciones de daño.""" return n_superv * vida_restante_h * (1 - q_real)  # ── Ejemplo: Holocausto (parámetros 2024) ── w_ref = 8.0  # USD/hora (PPP global) D_dir = dano_vital_directo(6_000_000, 569_400, q=1.0) D_gen = dano_vital_generacional(6_000_000, 2.5) D_sup = dano_vital_supervivientes(250_000, 350_400, 0.45) D_vital_total = D_dir + D_gen + D_sup print(f"D_vital_directo:       {D_dir:.3e} horas") print(f"D_vital_generacional:  {D_gen:.3e} horas") print(f"D_vital_supervivientes:{D_sup:.3e} horas") print(f"D_vital_total:         {D_vital_total:.3e} horas") equiv = D_vital_total * w_ref / 1e12 print(f"D_monetary_equiv:      {equiv:.1f} billones USD") print(f"Reparaciones pagadas:  $0.090 billones USD") print(f"Porcentaje cubierto: {0.090/(D_vital_total*w_ref/1e12)*100:.4f}%")
 
 Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026
 
@@ -964,41 +746,19 @@ La segunda dimensión es la multiplicación de jurisdicciones. El fraude corpora
 
 #### entero a menos que coordine con todas las demás, y esa coordinación es precisamente lo que el diseño del esquema dificulta.
 
-Analogía: La luz que llega de una estrella muerta El astrónomo que observa una estrella desde la Tierra ve la luz que salió hace miles de años: la estrella puede ya no existir. El investigador de PLD que analiza una transacción ve el movimiento de dinero tal como llegó a su jurisdicción, no el origen que lo produjo hace meses o años y a miles de kilómetros. El grafo causal es el instrumento que permite reconstruir la fuente a partir de la luz que llegó.
+> [!TIP]
+> Analogía: La luz que llega de una estrella muerta El astrónomo que observa una estrella desde la Tierra ve la luz que salió hace miles de años: la estrella puede ya no existir. El investigador de PLD que analiza una transacción ve el movimiento de dinero tal como llegó a su jurisdicción, no el origen que lo produjo hace meses o años y a miles de kilómetros. El grafo causal es el instrumento que permite reconstruir la fuente a partir de la luz que llegó.
 
 #### 1.2 El problema de la inversión causal en PLD
 
 En el lavado de dinero, la inversión causal es una característica de diseño, no un efecto colateral. El esquema típico tiene la siguiente estructura de responsabilidad objetiva versus asunción formal:
 
-Nodo R* real
-
-Visibilidad α formal
-
-Δ
-
-0% +55-70% INV. MÁXIMA
-
-Arquitecto del esquema
-
-~55-70% Nula (no aparece)
-
-Baja +15-25%
-
-Intermediarios profesionales
-
-~15-25% Parcial (firma servicios)
-
-Testaferros / prestanombres
-
-~5-10% Total (firma todo)
-
-80-100%* -70 a -90% CHIVO
-
-Variable Nodo instrumental, no humano
-
-Entidades instrumentales
-
-~5-8% Total (es el vehículo)
+| Nodo | R* real | Visibilidad | α formal | Δ |
+| --- | --- | --- | --- | --- |
+| Arquitecto del esquema | ~55- 70% | Nula (no aparece) | 0% | +55-70% INV. MÁXIMA |
+| Intermediarios profesionales | ~15- 25% | Parcial (firma servicios) | Baja | +15-25% |
+| Testaferros / prestanombres | ~5- 10% | Total (firma todo) | 80- 100%* | -70 a -90% CHIVO |
+| Entidades instrumentales | ~5- 8% | Total (es el vehículo) | Variable | Nodo instrumental, no humano |
 
 
 \* El testaferro tiene α = 100% forzado porque firma los documentos y es el único identificable. Pero su R* real es mínimo: era altamente sustituible (S alto) y no diseñó el esquema.
@@ -1011,90 +771,40 @@ El aporte central del sistema al PLD es conceptualmente simple: reemplazar la pr
 
 Esta segunda pregunta es exactamente la que R* responde. El vector de necesidad causal de la operación distribuye el peso de la operación entre todos sus nodos en proporción a cuánto dependía el éxito del esquema de cada uno. El arquitecto tiene R* alto porque sin él el esquema no habría existido. El testaferro tiene R* bajo porque S es alto: cualquier otro prestanombre habría cumplido la misma función.
 
-Principio PLD:  En PLD, el R* no mide culpabilidad penal en sentido estricto: mide necesidad causal de la operación. Un nodo con R* alto sin α es el beneficiario real probable. Un nodo con R* bajo y α = 100% forzado es el chivo expiatorio del esquema. Δ mide la brecha entre ambos, que es
+> [!IMPORTANT]
+> Principio PLD:  En PLD, el R* no mide culpabilidad penal en sentido estricto: mide necesidad causal de la operación. Un nodo con R* alto sin α es el beneficiario real probable. Un nodo con R* bajo y α = 100% forzado es el chivo expiatorio del esquema. Δ mide la brecha entre ambos, que es
 
 
-exactamente la medida de la injusticia estructural del sistema de imputación que se está aplicando.
+> [!NOTE]
+> exactamente la medida de la injusticia estructural del sistema de imputación que se está aplicando.
 
 
 ### §2.  Página puente — Traducción al lenguaje del PLD
 
 Esta página resume cómo se renombra cada herramienta del sistema en el contexto de la prevención de lavado de dinero y compliance. El lector especialista en esta materia puede comenzar aquí sin necesidad de haber leído el núcleo universal ni el Capítulo 1.
 
-Herramienta En PLD se llama Qué significa en la práctica del compliance
+| Herramienta | En PLD se llama | Qué significa en la práctica del compliance |
+| --- | --- | --- |
+| Grafo causal G | Mapa de la operación | La red completa de personas, entidades y jurisdicciones que participaron en el esquema, con sus relaciones causales y sus pesos documentados. |
+| Nodo | Participante de la operación | Cualquier persona física, persona moral, cuenta bancaria, jurisdicción o instrumento financiero que fue necesario para que la operación se completara. |
+| Nodo de diseño | Arquitecto del esquema | Quien diseñó la estructura: eligió las jurisdicciones, definió los vehículos jurídicos, estableció los flujos. Raramente firma nada. Tiene el R* más alto. |
+| Nodo instrumental | Vehículo financiero | La empresa fantasma, la cuenta bancaria, el fideicomiso. No tiene |
+| R* (vector) | Necesidad causal de la operación | R*ᵢ mide cuánto dependía el éxito del esquema de lavado del nodo i. Alto R* con baja visibilidad documental = señal del beneficiario real. |
+| S (índice) | Fungibilidad del rol | S alto = el nodo era un "recurso genérico": cualquier otro prestanombre, abogado o entidad habría cumplido la misma función. El esquema no dependía de esa persona específica. |
+| α (coeficiente) | Cumplimiento de la obligación de reporte | En compliance, α mide si el nodo reportó la operación inusual, rechazó el cliente, aplicó due diligence reforzada o en cambio facilitó activa o pasivamente la operación. |
+| Δ = R* − α | Déficit de compliance | Δ alto positivo: el nodo fue necesario para el esquema y no reportó. Es la medida del incumplimiento de la obligación regulatoria proporcional a la participación causal. |
+| D_total | Daño al sistema financiero | La suma de: recursos ilícitos integrados en la economía formal (T_invertido), costo de las investigaciones y daño a la confianza (T_impedido), y distorsión estructural |
+| D_vital | Daño en tiempo de vida ciudadana | Los recursos públicos desviados son tiempo de vida de los ciudadanos que pagaron impuestos y no recibieron los servicios que esos recursos debían financiar. Se convierte con w_ref social. |
+| B_total | Enriquecimiento ilícito del esquema | Lo que el arquitecto y los intermediarios obtuvieron del esquema. Base para la acción de extinción de dominio y para calcular el monto de la recuperación de activos. |
+| Hijos de Afrodita | Disposición interna del intermediario | Solo para nodos humanos (abogados, contadores, funcionarios bancarios, testaferros). El hijo dominante revela si actuó desde la codicia deliberada (Eros+Anteros), el miedo a represalias (Fobos) o la ignorancia genuina (Deimos). |
+| Fraude annona | Impacto en las condiciones materiales del Estado | Cuando el Estado recauda impuestos y esos recursos son desviados mediante lavado, el contrato fiscal se incumple: los ciudadanos pagaron pero no recibieron las condiciones prometidas. |
 
-Grafo causal G
-
-Mapa de la operación
-
-La red completa de personas, entidades y jurisdicciones que participaron en el esquema, con sus relaciones causales y sus pesos documentados.
-
-Nodo Participante de la operación
-
-Cualquier persona física, persona moral, cuenta bancaria, jurisdicción o instrumento financiero que fue necesario para que la operación se completara.
-
-Nodo de diseño
-
-Arquitecto del esquema
-
-Quien diseñó la estructura: eligió las jurisdicciones, definió los vehículos jurídicos, estableció los flujos. Raramente firma nada. Tiene el R* más alto.
-
-Nodo instrumental
-
-Vehículo financiero
-
-La empresa fantasma, la cuenta bancaria, el fideicomiso. No tiene
+> [!NOTE]
+> Para el lector que viene del núcleo universal:  En este dominio la temporalidad es retrospectiva para los casos en investigación y prospectiva para el diseño de controles. La característica más singular del PLD frente a otros dominios es que el nodo de mayor R* es por diseño el
 
 
-voluntad propia. No se le calcula hijo ni α subjetivo, pero sí R* (necesidad de la operación).
-
-R* (vector) Necesidad causal de la operación
-
-R*ᵢ mide cuánto dependía el éxito del esquema de lavado del nodo i. Alto R* con baja visibilidad documental = señal del beneficiario real.
-
-S (índice) Fungibilidad del rol
-
-S alto = el nodo era un "recurso genérico": cualquier otro prestanombre, abogado o entidad habría cumplido la misma función. El esquema no dependía de esa persona específica.
-
-α (coeficiente) Cumplimiento de la obligación de reporte
-
-En compliance, α mide si el nodo reportó la operación inusual, rechazó el cliente, aplicó due diligence reforzada o en cambio facilitó activa o pasivamente la operación.
-
-Δ = R* − α Déficit de compliance
-
-Δ alto positivo: el nodo fue necesario para el esquema y no reportó. Es la medida del incumplimiento de la obligación regulatoria proporcional a la participación causal.
-
-D_total Daño al sistema financiero
-
-La suma de: recursos ilícitos integrados en la economía formal (T_invertido), costo de las investigaciones y daño a la confianza (T_impedido), y distorsión estructural
-
-
-persistente (ΔT_trayectoria).
-
-D_vital Daño en tiempo de vida ciudadana
-
-Los recursos públicos desviados son tiempo de vida de los ciudadanos que pagaron impuestos y no recibieron los servicios que esos recursos debían financiar. Se convierte con w_ref social.
-
-B_total Enriquecimiento ilícito del esquema
-
-Lo que el arquitecto y los intermediarios obtuvieron del esquema. Base para la acción de extinción de dominio y para calcular el monto de la recuperación de activos.
-
-Hijos de Afrodita
-
-Disposición interna del intermediario
-
-Solo para nodos humanos (abogados, contadores, funcionarios bancarios, testaferros). El hijo dominante revela si actuó desde la codicia deliberada (Eros+Anteros), el miedo a represalias (Fobos) o la ignorancia genuina (Deimos).
-
-Cuando el Estado recauda impuestos y esos recursos son desviados mediante lavado, el contrato fiscal se incumple: los ciudadanos pagaron pero no recibieron las condiciones prometidas.
-
-Fraude annona
-
-Impacto en las condiciones materiales del Estado
-
-Para el lector que viene del núcleo universal:  En este dominio la temporalidad es retrospectiva para los casos en investigación y prospectiva para el diseño de controles. La característica más singular del PLD frente a otros dominios es que el nodo de mayor R* es por diseño el
-
-
-menos visible documentalmente. El grafo debe reconstruirse parcialmente a partir de inferencias causales, no solo de documentos existentes.
+> [!NOTE]
+> menos visible documentalmente. El grafo debe reconstruirse parcialmente a partir de inferencias causales, no solo de documentos existentes.
 
 
 ### §3.  Las herramientas en el contexto del PLD
@@ -1103,34 +813,18 @@ menos visible documentalmente. El grafo debe reconstruirse parcialmente a partir
 
 El lavado de dinero opera en tres fases clásicas que se corresponden directamente con tres tipos de nodos en el grafo causal de la operación. Comprender esta correspondencia es el primer paso para construir el grafo correctamente.
 
-Fase Descripción Tipo de nodo dominante
+| Fase | Descripción | Tipo de nodo dominante | Función en el grafo |
+| --- | --- | --- | --- |
+| Colocación | El dinero ilícito entra al sistema financiero formal por primera vez. | Nodos de entrada: cuentas bancarias, negocios de efectivo, sistemas de pago. | Son los nodos con mayor visibilidad documental y menor R* relativo. Son los que los controles de PLD detectan con más facilidad. |
+| Estratificación | El dinero se mueve a través de múltiples transacciones, jurisdicciones y vehículos para hacer | Nodos instrumentales: empresas offshore, fideicomisos, cuentas en múltiples jurisdicciones. | Son los nodos de mayor densidad en el grafo. Su función es aumentar S del |
+<table>
+<tbody>
+<tr><th scope="row">Integración</th><td>El dinero ya &quot;limpio&quot; regresa a la economía formal como activo legítimo.</td><td>Nodos de salida: propiedades, inversiones, empresas reales, fondos de inversión.</td><td>Son donde el B_total del arquitecto se materializa. Son también el punto donde la extinción de dominio tiene mayor efectividad.</td></tr>
+</tbody>
+</table>
 
-Función en el grafo
-
-Colocación El dinero ilícito entra al sistema financiero formal por primera vez.
-
-Nodos de entrada: cuentas bancarias, negocios de efectivo, sistemas de pago.
-
-Son los nodos con mayor visibilidad documental y menor R* relativo. Son los que los controles de PLD detectan con más facilidad.
-
-Estratificación El dinero se mueve a través de múltiples transacciones, jurisdicciones y vehículos para hacer
-
-Nodos instrumentales: empresas offshore, fideicomisos, cuentas en múltiples jurisdicciones.
-
-Son los nodos de mayor densidad en el grafo. Su función es aumentar S del
-
-
-imposible rastrear el origen.
-
-arquitecto: hacen que el sistema parezca no depender de nadie específico.
-
-Integración El dinero ya "limpio" regresa a la economía formal como activo legítimo.
-
-Son donde el B_total del arquitecto se materializa. Son también el punto donde la extinción de dominio tiene mayor efectividad.
-
-Nodos de salida: propiedades, inversiones, empresas reales, fondos de inversión.
-
-El error más frecuente al construir el grafo de una operación de lavado es incluir solo los nodos de colocación (los más visibles) y omitir los nodos de estratificación y los nodos de diseño. Un grafo incompleto produce un R* que sobreestima la responsabilidad de los nodos de entrada — los testaferros, los empleados de banco— y subestima o no detecta al arquitecto.
+> [!WARNING]
+> El error más frecuente al construir el grafo de una operación de lavado es incluir solo los nodos de colocación (los más visibles) y omitir los nodos de estratificación y los nodos de diseño. Un grafo incompleto produce un R* que sobreestima la responsabilidad de los nodos de entrada — los testaferros, los empleados de banco— y subestima o no detecta al arquitecto.
 
 #### 3.2 Cómo construir el grafo de una operación de lavado
 
@@ -1139,7 +833,8 @@ El grafo de una operación de lavado se construye de afuera hacia adentro: se co
 
 1.  Mapear los flujos financieros documentados. Cada movimiento de dinero es una arista potencial del grafo. El monto y la velocidad de cada movimiento contribuyen a estimar el peso de la arista. 2.  Identificar los vehículos jurídicos (nodos instrumentales). Cada empresa, fideicomiso, fondo o cuenta es un nodo. Los nodos instrumentales tienen aristas de entrada (quien los controla) y aristas de salida (a dónde dirigen el dinero). 3.  Inferir el control real detrás de los vehículos. La pregunta clave es: ¿quién toma las decisiones sobre este nodo instrumental? ¿Quién instruyó su creación? Esto se responde con: coincidencia de instrucciones entre múltiples vehículos, patrones de timing (todos se activan simultáneamente), beneficiario final de los activos integrados, comunicaciones entre intermediarios. 4.  Verificar la coherencia del grafo. Si los pesos propuestos producen un R* que concentra la responsabilidad en un nodo con visibilidad documental alta y no hay ningún nodo de mayor R*, el grafo probablemente está incompleto. Un esquema bien diseñado tiene siempre un nodo de diseño con R* dominante que es difícilmente visible.
 
-Nodo inferido:  Un nodo cuya existencia no está directamente documentada pero que es causalmente necesario para explicar los patrones observados. En PLD, el arquitecto suele ser un nodo inferido: su existencia se deduce del hecho de que la operación requería un nivel de coordinación y conocimiento que ninguno de los nodos visibles podía haber tenido individualmente.
+> [!NOTE]
+> Nodo inferido:  Un nodo cuya existencia no está directamente documentada pero que es causalmente necesario para explicar los patrones observados. En PLD, el arquitecto suele ser un nodo inferido: su existencia se deduce del hecho de que la operación requería un nivel de coordinación y conocimiento que ninguno de los nodos visibles podía haber tenido individualmente.
 
 #### 3.3 R* como necesidad causal de la operación
 
@@ -1154,9 +849,9 @@ controlador real
 
 Si un nodo instrumental tiene R* alto y S bajo (era el vehículo específico que el esquema requería, no cualquier empresa genérica), la inferencia es que fue diseñado para ese esquema específico. Eso aumenta el peso causal del nodo que lo diseñó y controló.
 
-::: {.recuadro .nota-violeta}
-**Nota para el oficial de compliance:** En la práctica, R* se estima con las herramientas de análisis de redes que los departamentos de compliance ya usan: mapas de beneficiario final, análisis de corresponsalía bancaria, reportes de inteligencia financiera. Lo que el cálculo aporta es la formalización de ese análisis: convertirlo de una evaluación cualitativa ("esta estructura parece sospechosa") a una medida cuantitativa ("este nodo tiene R* = 0.62 y ningún α documentado, lo que produce Δ = +0.62, que es una señal de beneficiario real no identificado").
-:::
+> [!NOTE]
+> **Nota para el oficial de compliance:** En la práctica, R* se estima con las herramientas de análisis de redes que los departamentos de compliance ya usan: mapas de beneficiario final, análisis de corresponsalía bancaria, reportes de inteligencia financiera. Lo que el cálculo aporta es la formalización de ese análisis: convertirlo de una evaluación cualitativa ("esta estructura parece sospechosa") a una medida cuantitativa ("este nodo tiene R* = 0.62 y ningún α documentado, lo que produce Δ = +0.62, que es una señal de beneficiario real no identificado").
+
 
 #### 3.4 El índice de sustituibilidad S en operaciones de lavado
 
@@ -1167,77 +862,27 @@ prestanombre habría servido, si cualquier abogado habría creado la misma empre
 
 El análisis de S rompe esa apariencia desde el otro lado: si todos los nodos visibles tienen S alto, la responsabilidad causal migra estructuralmente al nodo de diseño. No es que nadie sea responsable: es que la responsabilidad está completamente concentrada en quien diseñó un sistema en el que todos los ejecutores son fungibles.
 
-Razonamiento Consecuencia para el análisis
-
-Nodo típico en PLD
-
-S estimado
-
-Testaferro / prestanombre
-
-#### 0.85 – 0.95 Cualquier otra persona dispuesta habría firmado los mismos documentos.
-
-R* bajo y S alto → responsabilidad neta mínima. Argumento para reducción de cargos o acuerdo de cooperación.
-
-Abogado que constituye la empresa
-
-#### 0.60 – 0.80 Cualquier abogado en jurisdicción permisiva habría hecho lo mismo, salvo que tuviera conocimiento específico del esquema.
-
-S depende del grado de conocimiento. Si fue el mismo abogado en múltiples esquemas del arquitecto, S baja.
-
-Banco que procesa las transferencias
-
-#### 0.55 – 0.75 El dinero podría haber pasado por otro banco con controles menos rigurosos. Pero si
-
-El Δ del banco mide su incumplimiento de due diligence proporcional a
-
-
-el arquitecto eligió ese banco específicamente, S baja.
-
-su participación necesaria.
-
-Jurisdicción opaca que permite el esquema
-
-0.40 – 0.60 Hay múltiples jurisdicciones opacas, pero no todas ofrecen el mismo nivel de protección. Si el esquema requería las características específicas de esa jurisdicción, S baja.
-
-R* de la jurisdicción informa el análisis geopolítico del PLD, no la imputación individual.
-
-S bajo → responsabilidad causal neta alta. Es el nodo que el análisis debe identificar aunque no aparezca en documentos.
-
-Arquitecto del esquema
-
-#### 0.10 – 0.25 Sin el arquitecto, el esquema no habría existido en esa forma específica. Su conocimiento, sus conexiones y su diseño eran idiosincráticos.
+| Nodo típico en PLD | S estimado | Razonamiento | Consecuencia para el análisis |
+| --- | --- | --- | --- |
+| Testaferro / prestanombre | 0.85 – 0.95 | Cualquier otra persona dispuesta habría firmado los mismos documentos. | R* bajo y S alto → responsabilidad neta mínima. Argumento para reducción de cargos o acuerdo de cooperación. |
+| Abogado que constituye la empresa | 0.60 – 0.80 | Cualquier abogado en jurisdicción permisiva habría hecho lo mismo, salvo que tuviera conocimiento específico del esquema. | S depende del grado de conocimiento. Si fue el mismo abogado en múltiples esquemas del arquitecto, S baja. |
+| Banco que procesa las transferencias | 0.55 – 0.75 | El dinero podría haber pasado por otro banco con controles menos rigurosos. Pero si | El Δ del banco mide su incumplimiento de due diligence proporcional a |
+| Jurisdicción opaca que permite el esquema | 0.40 – 0.60 | Hay múltiples jurisdicciones opacas, pero no todas ofrecen el mismo nivel de protección. Si el esquema requería las características específicas de esa jurisdicción, S baja. | R* de la jurisdicción informa el análisis geopolítico del PLD, no la imputación individual. |
+| Arquitecto del esquema | 0.10 – 0.25 | Sin el arquitecto, el esquema no habría existido en esa forma específica. Su conocimiento, sus conexiones y su diseño eran idiosincráticos. | S bajo → responsabilidad causal neta alta. Es el nodo que el análisis debe identificar aunque no aparezca en documentos. |
 
 #### 3.5 α y Δ en el contexto del compliance bancario
 
 En el dominio del PLD, α tiene una definición operativa más precisa que en el derecho general. El coeficiente de asunción mide el cumplimiento de la obligación de reporte: si el nodo con obligaciones de compliance detectó la operación inusual y actuó conforme a sus obligaciones regulatorias.
 
 
-Conducta observable
-
-Nivel de cumplimiento
-
-α estimado
-
-Facilitación activa 0.00 El nodo no solo no reportó: activamente ayudó a estructurar la operación para evitar los controles. Falló el deber de reporte y cometió conducta ilícita autónoma.
-
-Omisión deliberada
-
-#### 0.02 – 0.05 El nodo identificó señales de alerta y eligió no reportar. No hay evidencia de facilitación activa pero sí de omisión consciente.
-
-Due diligence insuficiente
-
-#### 0.08 – 0.20 El nodo aplicó procedimientos de due diligence, pero de manera insuficiente o superficial. No se puede demostrar omisión deliberada.
-
-Procedimiento correcto sin resultado
-
-#### 0.40 – 0.60 El nodo siguió sus procedimientos correctamente pero el esquema los evadió. La operación era suficientemente sofisticada para superar los controles vigentes.
-
-Reporte oportuno
-
-#### 0.70 – 0.85 El nodo reportó la operación inusual a la autoridad competente en tiempo y forma.
-
-#### 0.90 – 1.00 El nodo rechazó la operación, la reportó y cooperó activamente con la investigación posterior.
+| Nivel de cumplimiento | α estimado | Conducta observable |
+| --- | --- | --- |
+| Facilitación activa | 0.00 | El nodo no solo no reportó: activamente ayudó a estructurar la operación para evitar los controles. Falló el deber de reporte y cometió conducta ilícita autónoma. |
+| Omisión deliberada | 0.02 – 0.05 | El nodo identificó señales de alerta y eligió no reportar. No hay evidencia de facilitación activa pero sí de omisión consciente. |
+| Due diligence insuficiente | 0.08 – 0.20 | El nodo aplicó procedimientos de due diligence, pero de manera insuficiente o superficial. No se puede demostrar omisión deliberada. |
+| Procedimiento correcto sin resultado | 0.40 – 0.60 | El nodo siguió sus procedimientos correctamente pero el esquema los evadió. La operación era suficientemente sofisticada para superar los controles vigentes. |
+| Reporte oportuno | 0.70 – 0.85 | El nodo reportó la operación inusual a la autoridad competente en tiempo y forma. |
+| Rechazo y reporte | 0.90 – 1.00 | El nodo rechazó la operación, la reportó y cooperó activamente con la investigación posterior. |
 
 Rechazo y reporte
 
@@ -1254,28 +899,17 @@ El déficit de compliance Δ = R* − α mide la brecha entre la necesidad causa
 
 #### ΔT_trayectoria
 
-Componente En PLD equivale a
-
-Contenido específico
-
-T_invertido El monto lavado
-
-Los recursos ilícitos que ingresaron al sistema financiero formal. Es la pérdida directa de integridad del sistema: dinero de origen criminal que ahora tiene apariencia legal.
-
-T_impedido Costo de la contaminación activa
-
-El costo de las investigaciones, los procesos judiciales, las sanciones regulatorias a instituciones involucradas, la pérdida de confianza en el sistema financiero durante el período activo del esquema, y la distorsión de precios de activos por la demanda artificial del dinero sucio (especialmente en mercados inmobiliarios).
-
-ΔT_trayectoria Distorsión estructural persistente
-
-El daño que persiste después de descubierto el esquema: la asimetría competitiva permanente entre empresas
-
-
-financiadas con dinero limpio y empresas que compitieron contra precios artificialmente bajos del dinero sucio, la pérdida de reputación de la jurisdicción afectada, y la deformación del tejido institucional de las autoridades corrompidas por el esquema.
+| Componente | En PLD equivale a | Contenido específico |
+| --- | --- | --- |
+| T_invertido | El monto lavado | Los recursos ilícitos que ingresaron al sistema financiero formal. Es la pérdida directa de integridad del sistema: dinero de origen criminal que ahora tiene apariencia legal. |
+| T_impedido | Costo de la contaminación activa | El costo de las investigaciones, los procesos judiciales, las sanciones regulatorias a instituciones involucradas, la pérdida de confianza en el sistema financiero durante el período activo del esquema, y la distorsión de precios de activos por la demanda artificial del dinero sucio (especialmente en mercados inmobiliarios). |
+| ΔT_trayectoria | Distorsión estructural persistente | El daño que persiste después de descubierto el esquema: la asimetría competitiva permanente entre empresas |
+|  |  | financiadas con dinero limpio y empresas que compitieron contra precios artificialmente bajos del dinero sucio, la pérdida de reputación de la jurisdicción afectada, y la deformación del tejido institucional de las autoridades corrompidas por el esquema. |
 
 #### 3.7 El daño en tiempo de vida ciudadana
 
-Dimensión vital:  Cuando el lavado de dinero afecta recursos públicos —impuestos que debían financiar servicios, presupuestos desviados, contratos públicos sobrevaluados— el daño no es solo al sistema financiero abstracto. Es tiempo de vida de los ciudadanos que pagaron esos impuestos y no recibieron los servicios a los que tenían derecho. La misma fórmula del Capítulo 1 aplica aquí: D_vital = D_total_public / w_ref.
+> [!NOTE]
+> Dimensión vital:  Cuando el lavado de dinero afecta recursos públicos —impuestos que debían financiar servicios, presupuestos desviados, contratos públicos sobrevaluados— el daño no es solo al sistema financiero abstracto. Es tiempo de vida de los ciudadanos que pagaron esos impuestos y no recibieron los servicios a los que tenían derecho. La misma fórmula del Capítulo 1 aplica aquí: D_vital = D_total_public / w_ref.
 
 La conversión al tiempo de vida hace visible algo que el análisis financiero ordinario no puede capturar: un esquema que desviara 100 millones de pesos de un presupuesto de salud pública no solo quitó dinero —quitó consultas médicas, medicamentos, cirugías— y esas consultas no realizadas tienen un equivalente en horas de vida de personas específicas que no recibieron el tratamiento que pagaron.
 
@@ -1307,57 +941,25 @@ Los hijos aplican en este dominio exclusivamente a los nodos humanos: el arquite
 
 La distinción más importante que los hijos aportan al análisis de PLD es la diferencia entre quien actúa desde Eros+Anteros (codicia deliberada, participación voluntaria en el esquema) y quien actúa desde Fobos o Deimos (miedo a represalias, ignorancia genuina de la naturaleza ilícita de la operación). Esta distinción afecta directamente la culpabilidad penal y el tipo de sanción aplicable, aunque no modifica R* ni Δ.
 
-Hijo Perfil en PLD Nodo típico Implicación jurídica
+| Hijo | Perfil en PLD | Nodo típico | Implicación jurídica |
+| --- | --- | --- | --- |
+| Eros + Anteros | Participación deliberada y activa. Buscó el esquema o lo diseñó. No hay ambigüedad sobre el conocimiento. | Arquitecto del esquema. Intermediario especializado que busca clientes de este perfil. | Dolo directo. Mayor agravante penal. Menor posibilidad de acuerdo de cooperación. |
+| Potós | Persistencia en un patrón establecido sin revisarlo. "Siempre lo hemos hecho así con este cliente." | Funcionario bancario con cliente de larga data. Abogado corporativo que no revisa el origen del cliente. | Culpa habitual. Compatible con programas de remediación y acuerdo de cooperación si reporta proactivamente . |
+| Fobos | Actuó por miedo a consecuencias: represalias del cliente, presión de superiores, | Testaferro bajo presión. Empleado bancario con supervisor corrupto. | Eximente o atenuante significativa. Alta probabilidad de cooperación |
+| Deimos | Ignorancia genuina: la operación era suficientemente sofisticada para parecer legítima. | Intermediario de buena fe que fue engañado. Banco que aplicó due diligence pero fue superado. | Posiblemente exento de responsabilidad penal. Sanción regulatoria por deficiencia de controles. |
+| Harmoní a | El nodo evaluó deliberadament e la operación con plena información y eligió reportarla o rechazarla. | Oficial de compliance que actuó correctamente . Banco que rechazó al cliente. | α alto (0.85– 1.0). Sin responsabilidad penal. Posible reconocimiento regulatorio positivo. |
 
-Eros + Anteros
+> [!NOTE]
+> **Nota sobre la prueba del hijo en PLD:** Acreditar el hijo dominante de un intermediario requiere evidencia de su estado de conocimiento en el momento de los hechos: comunicaciones internas, historial del cliente, alertas recibidas y no procesadas, patrones de conducta anterior con el mismo tipo de operación. El hijo no se presume: se acredita con las mismas fuentes documentales que el grafo.
 
-Participación deliberada y activa. Buscó el esquema o lo diseñó. No hay ambigüedad sobre el conocimiento.
-
-Arquitecto del esquema. Intermediario especializado que busca clientes de este perfil.
-
-Dolo directo. Mayor agravante penal. Menor posibilidad de acuerdo de cooperación.
-
-Potós Persistencia en un patrón establecido sin revisarlo. "Siempre lo hemos hecho así con este cliente."
-
-Funcionario bancario con cliente de larga data. Abogado corporativo que no revisa el origen del cliente.
-
-Culpa habitual. Compatible con programas de remediación y acuerdo de cooperación si reporta proactivamente .
-
-Fobos Actuó por miedo a consecuencias: represalias del cliente, presión de superiores,
-
-Testaferro bajo presión. Empleado bancario con supervisor corrupto.
-
-Eximente o atenuante significativa. Alta probabilidad de cooperación
-
-
-amenazas directas.
-
-como testigo protegido.
-
-Deimos Ignorancia genuina: la operación era suficientemente sofisticada para parecer legítima.
-
-Intermediario de buena fe que fue engañado. Banco que aplicó due diligence pero fue superado.
-
-Posiblemente exento de responsabilidad penal. Sanción regulatoria por deficiencia de controles.
-
-α alto (0.85– 1.0). Sin responsabilidad penal. Posible reconocimiento regulatorio positivo.
-
-Harmoní a
-
-El nodo evaluó deliberadament e la operación con plena información y eligió reportarla o rechazarla.
-
-Oficial de compliance que actuó correctamente . Banco que rechazó al cliente.
-
-::: {.recuadro .nota-violeta}
-**Nota sobre la prueba del hijo en PLD:** Acreditar el hijo dominante de un intermediario requiere evidencia de su estado de conocimiento en el momento de los hechos: comunicaciones internas, historial del cliente, alertas recibidas y no procesadas, patrones de conducta anterior con el mismo tipo de operación. El hijo no se presume: se acredita con las mismas fuentes documentales que el grafo.
-:::
 
 
 ### §4.  Casos resueltos
 
 Caso A — BCCI — Bank of Credit and Commerce International (1991)
 
-El mayor fraude bancario del siglo XX y el primer caso de red de lavado en 73 países
+> [!NOTE]
+> El mayor fraude bancario del siglo XX y el primer caso de red de lavado en 73 países
 
 A.1 El contexto histórico
 
@@ -1372,107 +974,36 @@ El éxito del BCCI durante casi dos décadas no fue producto de la incompetencia
 
 El BCCI operaba bajo tres estructuras legales distintas registradas en tres jurisdicciones distintas (Luxemburgo, las Islas Caimán y el Reino Unido), de modo que ningún regulador tenía supervisión sobre el banco completo. Cada regulador veía "su" entidad y esa entidad, considerada individualmente, podía parecer razonablemente solvente. La deuda y los activos tóxicos se movían entre las estructuras según qué regulador estuviera auditando en cada momento.
 
-Analogía: El truco de los tres cubiletes El clásico juego de calle donde la bolita está siempre en el cubilete que nadie acaba de mirar. El BCCI movía sus pérdidas entre sus tres estructuras legales de manera que siempre estaban en la jurisdicción que el regulador no estaba inspeccionando en ese momento. La bolita siempre desaparece porque el sistema tiene exactamente el número de jurisdicciones necesario para que la visión parcial de cada regulador sea consistente con la solvencia aparente.
+> [!TIP]
+> Analogía: El truco de los tres cubiletes El clásico juego de calle donde la bolita está siempre en el cubilete que nadie acaba de mirar. El BCCI movía sus pérdidas entre sus tres estructuras legales de manera que siempre estaban en la jurisdicción que el regulador no estaba inspeccionando en ese momento. La bolita siempre desaparece porque el sistema tiene exactamente el número de jurisdicciones necesario para que la visión parcial de cada regulador sea consistente con la solvencia aparente.
 
 El BCCI es también el primer caso documentado donde un banco fue diseñado desde su fundación no como un banco que derivó hacia prácticas ilícitas, sino como un banco cuya función central desde el inicio era proveer servicios financieros a clientes que ningún banco legítimo tocaría: traficantes de armas, carteles de droga, servicios de inteligencia con necesidades de fondos negros, regímenes que necesitaban evadir sanciones internacionales.
 
 A.3 El grafo causal simplificado del BCCI
 
-Actor Tipo Función causal en el esquema
-
-Nod o
-
-
-N1 Agha Hasan Abedi y equipo fundador
-
-Diseño central Diseñó la arquitectura regulatoria fragmentada, estableció las relaciones con clientes ilícitos, supervisó el movimiento de activos entre estructuras. Sin este nodo, el esquema no existiría.
-
-N2 ICIC (subsidiaria en Caimán)
-
-Diseño/vehículo Nodo de opacidad principal: registraba las pérdidas y los activos problemáticos que debían ocultarse a los reguladores europeos.
-
-N3 BCCI SA (Luxemburgo )
-
-Ejecución/vehícul o
-
-Entidad supervisada en Europa. Presentaba estados financieros que eran consistentes internamente pero no reflejaban la posición consolidada real del banco.
-
-N4 BCCI Holdings (UK)
-
-Ejecución/vehícul o
-
-Fachada regulatoria en el
-
-
-mercado anglosajón.
-
-N5 Abedi Price Waterhouse (auditor externo)
-
-Facilitador profesional
-
-Auditó las cuentas del BCCI durante años. La pregunta de hasta qué punto su due diligence era suficiente para detectar el esquema fue objeto de investigación posterior.
-
-N6 Clientes estratégicos ilícitos
-
-Beneficiarios primarios
-
-El cartel de Medellín, Manuel Noriega, Abu Nidal, servicios de inteligencia de varios países. Usaron el banco para mover recursos fuera del alcance de sus respectivos sistemas financieros.
-
-N7 Funcionarios regulatorios capturados
-
-Facilitadores institucionales
-
-En algunos países, reguladores y funcionarios gubernamentale s recibieron sobornos para mirar hacia otro lado o para facilitar licencias bancarias.
-
-
-Nodo final 22,000 millones de dólares en pérdidas para depositantes. Daño sistémico a la confianza en la banca internacional.
-
-Nf Depositantes legítimos y sistema financiero
+| Nod o | Actor | Tipo | Función causal en el esquema |
+| --- | --- | --- | --- |
+| N1 | Agha Hasan Abedi y equipo fundador | Diseño central | Diseñó la arquitectura regulatoria fragmentada, estableció las relaciones con clientes ilícitos, supervisó el movimiento de activos entre estructuras. Sin este nodo, el esquema no existiría. |
+| N2 | ICIC (subsidiaria en Caimán) | Diseño/vehículo | Nodo de opacidad principal: registraba las pérdidas y los activos problemáticos que debían ocultarse a los reguladores europeos. |
+| N3 | BCCI SA (Luxemburgo ) | Ejecución/vehícul o | Entidad supervisada en Europa. Presentaba estados financieros que eran consistentes internamente pero no reflejaban la posición consolidada real del banco. |
+| N4 | BCCI Holdings (UK) | Ejecución/vehícul o | Fachada regulatoria en el |
+| N5 | Abedi Price Waterhouse (auditor externo) | Facilitador profesional | Auditó las cuentas del BCCI durante años. La pregunta de hasta qué punto su due diligence era suficiente para detectar el esquema fue objeto de investigación posterior. |
+| N6 | Clientes estratégicos ilícitos | Beneficiarios primarios | El cartel de Medellín, Manuel Noriega, Abu Nidal, servicios de inteligencia de varios países. Usaron el banco para mover recursos fuera del alcance de sus respectivos sistemas financieros. |
+| N7 | Funcionarios regulatorios capturados | Facilitadores institucionales | En algunos países, reguladores y funcionarios gubernamentale s recibieron sobornos para mirar hacia otro lado o para facilitar licencias bancarias. |
+| Nf | Depositantes legítimos y sistema financiero | Nodo final | 22,000 millones de dólares en pérdidas para depositantes. Daño sistémico a la confianza en la banca internacional. |
 
 #### A.4 R* y el análisis de sustituibilidad
 
 #### Aplicando la iteración de potencia con los pesos documentados en los informes del Senado norteamericano (Kerry Report, 1992) y de los liquidadores judiciales:
 
-Nodo R* est.
-
-Razonamiento de S Δ (α ≈ 0 en todos)
-
-S est.
-
-N1 — Abedi ~48% 0.15 El esquema requería su visión específica, sus conexiones políticas únicas y su capacidad de mantener la narrativa por 20 años. S bajo.
-
-+48%
-
-~22% 0.45 Otras jurisdicciones opacas habrían servido, pero ICIC tenía características específicas relevantes para el esquema.
-
-+22%
-
-N2 — ICIC Caimán
-
-~14% 0.70 Cualquier banco europeo con suficiente opacidad habría podido cumplir esta función. S moderado-alto.
-
-+14%
-
-N3/N4 — BCCI SA/UK
-
-
-~8% 0.60 Otro auditor habría podido detectar o no detectar el mismo esquema. S moderado.
-
-+8%
-
-N5 — Auditor
-
-~5% 0.80 Otros clientes con las mismas necesidades habrían usado el banco. S alto.
-
-+5%
-
-N6 — Clientes ilícitos
-
-~3% 0.85 En varios países hubiera habido otro funcionario igualmente corruptible. S alto.
-
-+3%
-
-N7 — Reguladores capturados
+| Nodo | R* est. | S est. | Razonamiento de S | Δ (α ≈ 0 en todos) |
+| --- | --- | --- | --- | --- |
+| N1 — Abedi | ~48% | 0.15 | El esquema requería su visión específica, sus conexiones políticas únicas y su capacidad de mantener la narrativa por 20 años. S bajo. | +48% |
+| N2 — ICIC Caimán | ~22% | 0.45 | Otras jurisdicciones opacas habrían servido, pero ICIC tenía características específicas relevantes para el esquema. | +22% |
+| N3/N4 — BCCI SA/UK | ~14% | 0.70 | Cualquier banco europeo con suficiente opacidad habría podido cumplir esta función. S moderado-alto. | +14% |
+| N5 — Auditor | ~8% | 0.60 | Otro auditor habría podido detectar o no detectar el mismo esquema. S moderado. | +8% |
+| N6 — Clientes ilícitos | ~5% | 0.80 | Otros clientes con las mismas necesidades habrían usado el banco. S alto. | +5% |
+| N7 — Reguladores capturados | ~3% | 0.85 | En varios países hubiera habido otro funcionario igualmente corruptible. S alto. | +3% |
 
 El resultado es inequívoco: el 48% de la necesidad causal del esquema residía en Abedi, con S = 0.15. Ningún otro actor en el grafo podría haber diseñado, mantenido y coordinado ese sistema durante veinte años. Este es el caso más claro en la literatura financiera de la diferencia entre R* y visibilidad documental: Abedi murió en 1995 en Pakistán sin haber sido condenado en ningún tribunal occidental, mientras cientos de empleados y funcionarios de menor R* fueron procesados.
 
@@ -1480,28 +1011,16 @@ El resultado es inequívoco: el 48% de la necesidad causal del esquema residía 
 
 #### El BCCI es uno de los pocos casos de lavado donde la escala del daño permite calcular los tres componentes con estimaciones documentadas:
 
-Componente Estimación documentada
-
-Fuente y metodología
-
-T_invertido ~$22 mil millones USD (1991)
-
-Déficit documentado en la liquidación judicial. Pérdida
-
-
-directa a 1.4 millones de depositantes en 73 países.
-
-T_impedido ~$8-12 mil millones USD
-
-Costo de los procesos judiciales en múltiples jurisdicciones, pérdida de inversión en países donde el BCCI era el banco principal de financiamiento al desarrollo, costo regulatorio de las reformas post-BCCI.
-
-ΔT_trayectoria ~$15-25 mil millones USD
-
-Distorsión estructural persistente: la destrucción del sistema bancario en varios países en desarrollo donde el BCCI era el principal banco, con efectos de largo plazo sobre el acceso al crédito y el desarrollo económico.
-
-D_total ~$45-59 mil millones USD
-
-Rango estimado. La incertidumbre es alta porque ΔT_trayectoria requiere modelar el desarrollo contrafáctico de las economías afectadas.
+| Componente | Estimación documentada | Fuente y metodología |
+| --- | --- | --- |
+| T_invertido | ~$22 mil millones USD (1991) | Déficit documentado en la liquidación judicial. Pérdida |
+<table>
+<tbody>
+<tr><th scope="row">T_impedido</th><td>~$8-12 mil millones USD</td><td>Costo de los procesos judiciales en múltiples jurisdicciones, pérdida de inversión en países donde el BCCI era el banco principal de financiamiento al desarrollo, costo regulatorio de las reformas post-BCCI.</td></tr>
+<tr><th scope="row">ΔT_trayectoria</th><td>~$15-25 mil millones USD</td><td>Distorsión estructural persistente: la destrucción del sistema bancario en varios países en desarrollo donde el BCCI era el principal banco, con efectos de largo plazo sobre el acceso al crédito y el desarrollo económico.</td></tr>
+<tr><th scope="row">D_total</th><td>~$45-59 mil millones USD</td><td>Rango estimado. La incertidumbre es alta porque ΔT_trayectoria requiere modelar el desarrollo contrafáctico de las economías afectadas.</td></tr>
+</tbody>
+</table>
 
 #### Expresado en tiempo de vida ciudadana con w_ref = $8 USD/hora (PPP global 2024):
 
@@ -1515,7 +1034,8 @@ Seis mil quinientos millones de horas de vida representan el equivalente a aprox
 
 Caso B — Panama Papers (2016)
 
-El beneficiario invisible: 11.5 millones de documentos, 214,000 entidades offshore, y R* del arquitecto
+> [!NOTE]
+> El beneficiario invisible: 11.5 millones de documentos, 214,000 entidades offshore, y R* del arquitecto
 
 B.1 El contexto y la filtración
 
@@ -1527,53 +1047,15 @@ B.2 El grafo genérico de una operación Mossack Fonseca
 
 Aunque cada operación tenía su estructura específica, el patrón del grafo era suficientemente consistente para poder describir una arquitectura típica: El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
-Actor Tipo Función
-
-Nod o
-
-N1 Beneficiario real (político/empresario )
-
-Diseño del beneficio
-
-Quien tiene el interés económico final. En los documentos de MF aparece como UBO (Ultimate Beneficial Owner) pero frecuentement e oculto detrás de intermediarios adicionales. R* alto, visibilidad documental nula o mínima.
-
-N2 Mossack Fonseca (el despacho)
-
-Diseño de la estructura
-
-Diseñó y creó la estructura específica de cada cliente. Eligió la jurisdicción, el tipo de entidad, el mecanismo de opacidad. Su conocimiento del cliente varía: en algunos casos los documentos muestran conocimiento explícito del perfil de riesgo.
-
-
-N3 Intermediario financiero (banco privado)
-
-Canalización de fondos
-
-El banco que abrió las cuentas de las entidades offshore. En varios casos los bancos tenían información sobre el beneficiario real que los colocaba en posición de reportar.
-
-N4 Empresa offshore 1 (primera capa)
-
-Instrumenta l
-
-La primera sociedad que recibe los fondos. Crea la primera barrera de opacidad.
-
-N5 Empresa offshore 2+ (capas adicionales)
-
-Instrumenta l
-
-Cada capa adicional aumenta el S efectivo del esquema: hay más nodos genéricos entre el beneficiario real y los fondos. Algunos esquemas tenían 5-7 capas.
-
-N6 Testaferro / director nominal
-
-Ejecución nominal
-
-Persona física que aparece como director o accionista sin tener control real. Alta visibilidad documental, S
-
-
-muy alto, R* muy bajo.
-
-Nodo final El daño primario es fiscal: impuestos evadidos. El daño secundario es sistémico: distorsión de la competencia legítima.
-
-Nf El fisco del país de origen / el sistema financiero
+| Nod o | Actor | Tipo | Función |
+| --- | --- | --- | --- |
+| N1 | Beneficiario real (político/empresario ) | Diseño del beneficio | Quien tiene el interés económico final. En los documentos de MF aparece como UBO (Ultimate Beneficial Owner) pero frecuentement e oculto detrás de intermediarios adicionales. R* alto, visibilidad documental nula o mínima. |
+| N2 | Mossack Fonseca (el despacho) | Diseño de la estructura | Diseñó y creó la estructura específica de cada cliente. Eligió la jurisdicción, el tipo de entidad, el mecanismo de opacidad. Su conocimiento del cliente varía: en algunos casos los documentos muestran conocimiento explícito del perfil de riesgo. |
+| N3 | Intermediario financiero (banco privado) | Canalización de fondos | El banco que abrió las cuentas de las entidades offshore. En varios casos los bancos tenían información sobre el beneficiario real que los colocaba en posición de reportar. |
+| N4 | Empresa offshore 1 (primera capa) | Instrumenta l | La primera sociedad que recibe los fondos. Crea la primera barrera de opacidad. |
+| N5 | Empresa offshore 2+ (capas adicionales) | Instrumenta l | Cada capa adicional aumenta el S efectivo del esquema: hay más nodos genéricos entre el beneficiario real y los fondos. Algunos esquemas tenían 5-7 capas. |
+| N6 | Testaferro / director nominal | Ejecución nominal | Persona física que aparece como director o accionista sin tener control real. Alta visibilidad documental, S |
+| Nf | El fisco del país de origen / el sistema financiero | Nodo final | El daño primario es fiscal: impuestos evadidos. El daño secundario es sistémico: distorsión de la competencia legítima. |
 
 #### B.3 R* del diseñador invisible: el caso del jefe de Estado
 
@@ -1594,27 +1076,13 @@ Para ilustrar el cálculo con un caso típico de los Panama Papers, tomamos la e
 
 #### Resultado de R* tras convergencia:
 
-Nodo R* S α Δ y significado
-
-~44% 0.18 0% +44% INVERSIÓN MÁXIMA
-
-N1 — Funcionario público
-
-~28% 0.55 5-15%* +13-23%
-
-N2 — Mossack Fonseca
-
-~14% 0.65 0-20%** 0 a +14%
-
-N3 — Banco intermediario
-
-~10% 0.90 N/A (instrumental)
-
-N4+N5 — Empresas offshore
-
-Nodo instrumental: R* apunta al controlador
-
-~4% 0.95 80-100%*** -76 a -91% CHIVO
+| Nodo | R* | S | α | Δ y significado |
+| --- | --- | --- | --- | --- |
+| N1 — Funcionario público | ~44% | 0.18 | 0% | +44% INVERSIÓN MÁXIMA |
+| N2 — Mossack Fonseca | ~28% | 0.55 | 5-15%* | +13-23% |
+| N3 — Banco intermediario | ~14% | 0.65 | 0-20%** | 0 a +14% |
+| N4+N5 — Empresas offshore | ~10% | 0.90 | N/A (instrumental) | Nodo instrumental: R* apunta al controlador |
+| N6 — Testaferro | ~4% | 0.95 | 80-100%*** | -76 a -91% CHIVO |
 
 N6 — Testaferro
 
@@ -1633,7 +1101,8 @@ Desde el punto de vista del cálculo, esos correos internos tienen un valor espe
 
 Los correos también establecen que el hijo dominante de Mossack Fonseca en esos casos no era Deimos (ignorancia genuina) sino algo entre Potós (persistencia en un patrón de negocio establecido sin revisarlo) y Eros+Anteros (búsqueda activa de ese tipo de clientes como parte del modelo de negocio). Esa diferencia tiene consecuencias penales directas sobre el análisis de dolo del despacho.
 
-La lección central de los Panama Papers para el PLD:  Un esquema de lavado bien diseñado tiene por definición todos los testaferros y empresas con S alto (son intercambiables), y el beneficiario real con S bajo (es el único que tenía el interés económico concreto). Cuando todos los nodos visibles tienen S alto, el cálculo produce automáticamente R* concentrado en un nodo con visibilidad baja. Esa concentración de R* en la oscuridad es la señal más importante para orientar la investigación.
+> [!NOTE]
+> La lección central de los Panama Papers para el PLD:  Un esquema de lavado bien diseñado tiene por definición todos los testaferros y empresas con S alto (son intercambiables), y el beneficiario real con S bajo (es el único que tenía el interés económico concreto). Cuando todos los nodos visibles tienen S alto, el cálculo produce automáticamente R* concentrado en un nodo con visibilidad baja. Esa concentración de R* en la oscuridad es la señal más importante para orientar la investigación.
 
 
 #### B.5 Los hijos de Mossack Fonseca: la disposición del despacho
@@ -1642,46 +1111,12 @@ El caso Mossack Fonseca es inusualmente rico para el análisis de hijos porque l
 
 Implicación
 
-Momento / situación
-
-Hijo dominante evidenciad o
-
-Evidencia documental
-
-Aceptación inicial de clientes de perfil de riesgo alto
-
-Eros + Potós
-
-Correos donde se discute el perfil del cliente y se decide aceptarlo. La búsqueda activa de ese segmento de mercado como fuente de ingresos.
-
-Compatible con dolo eventual o directo.
-
-Cambio de jurisdicción cuando una se vuelve transparente
-
-Anteros + Potós
-
-Correos que muestran monitoreo activo de los cambios regulatorios y adaptación de la estructura para mantener la opacidad.
-
-Conducta deliberada de evasión regulatoria.
-
-Respuesta a requerimiento s regulatorios
-
-Fobos + Anteros
-
-Comunicacione s con autoridades que minimizan la información entregada
-
-Compatible con resistencia deliberada a la
-
-
-mientras afirman cumplimiento pleno.
-
-transparencia .
-
-Potós Continuación de la relación con clientes sancionados bajo el argumento de que "el trabajo ya estaba hecho".
-
-Procesamiento de clientes con sanciones internacionale s
-
-Culpa habitual grave.
+| Momento / situación | Hijo dominante evidenciad o | Evidencia documental | Implicación |
+| --- | --- | --- | --- |
+| Aceptación inicial de clientes de perfil de riesgo alto | Eros + Potós | Correos donde se discute el perfil del cliente y se decide aceptarlo. La búsqueda activa de ese segmento de mercado como fuente de ingresos. | Compatible con dolo eventual o directo. |
+| Cambio de jurisdicción cuando una se vuelve transparente | Anteros + Potós | Correos que muestran monitoreo activo de los cambios regulatorios y adaptación de la estructura para mantener la opacidad. | Conducta deliberada de evasión regulatoria. |
+| Respuesta a requerimiento s regulatorios | Fobos + Anteros | Comunicacione s con autoridades que minimizan la información entregada | Compatible con resistencia deliberada a la |
+| Procesamiento de clientes con sanciones internacionale s | Potós | Continuación de la relación con clientes sancionados bajo el argumento de que "el trabajo ya estaba hecho". | Culpa habitual grave. |
 
 El patrón de hijos del despacho describe a una institución que no operaba desde la ignorancia (Deimos) sino desde la persistencia en un modelo de negocio deliberadamente orientado a la opacidad (Potós) con episodios de búsqueda activa de ese perfil de cliente (Eros) y resistencia deliberada a los controles (Anteros). Ese mapa de hijos es coherente con α bajo y con una culpabilidad que trasciende la mera negligencia regulatoria.
 
@@ -1733,34 +1168,11 @@ Esta capacidad predictiva no es una extensión opcional del sistema: ya está co
 
 #### Las tres modalidades del cálculo en PLD
 
-Modalidad Pregunta que responde
-
-Cuándo se aplica
-
-Herramienta central
-
-Retrospectiva "¿Quién causó esto?"
-
-Investigación de operaciones ya ocurridas. BCCI,
-
-R* sobre el grafo documentado. Δ para identificar la
-
-
-Panama Papers.
-
-inversión causal.
-
-Predictiva "¿Esta estructura tiene probabilidad alta de ser ilícita?"
-
-Evaluación de operaciones en tiempo real: apertura de cuentas, solicitudes de servicio, due diligence.
-
-Opacidad(G), R*_oculto estimado, perfil de hijos del compliance.
-
-Prospectiva "¿Dónde poner los controles?"
-
-Cadena de Markov (π estacionario): identifica nodos de paso obligado del dinero.
-
-Diseño de sistemas de detección y regulación preventiva.
+| Modalidad | Pregunta que responde | Cuándo se aplica | Herramienta central |
+| --- | --- | --- | --- |
+| Retrospectiva | "¿Quién causó esto?" | Investigación de operaciones ya ocurridas. BCCI, | R* sobre el grafo documentado. Δ para identificar la |
+| Predictiva | "¿Esta estructura tiene probabilidad alta de ser ilícita?" | Evaluación de operaciones en tiempo real: apertura de cuentas, solicitudes de servicio, due diligence. | Opacidad(G), R*_oculto estimado, perfil de hijos del compliance. |
+| Prospectiva | "¿Dónde poner los controles?" | Diseño de sistemas de detección y regulación preventiva. | Cadena de Markov (π estacionario): identifica nodos de paso obligado del dinero. |
 
 #### El predictor de opacidad estructural
 
@@ -1789,7 +1201,8 @@ R*_oculto ≈ 1 − Σᵢ∈N_visible R*ᵢ × (1 − Sᵢ)
 
 Esta fórmula produce la paradoja más importante del método predictivo en PLD: cuanto mejor diseñado está el esquema de lavado para ser opaco, mayor es R*_oculto. El arquitecto, al aumentar S de todos los nodos visibles para hacerlos más fungibles, automáticamente concentra R* en el nodo invisible. La firma matemática del lavado bien diseñado es precisamente R*_oculto alto.
 
-Predictor:  En operaciones legítimas de alta complejidad (fusiones corporativas, inversiones internacionales), R*_oculto tiende a ser bajo porque los nodos visibles son específicos (S bajo) y concentran la responsabilidad causal de la operación. Un R*_oculto > 0.40 en una operación que debería ser legítima es la señal más importante de que hay un actor no identificado que sostiene causalmente la estructura.
+> [!NOTE]
+> Predictor:  En operaciones legítimas de alta complejidad (fusiones corporativas, inversiones internacionales), R*_oculto tiende a ser bajo porque los nodos visibles son específicos (S bajo) y concentran la responsabilidad causal de la operación. Un R*_oculto > 0.40 en una operación que debería ser legítima es la señal más importante de que hay un actor no identificado que sostiene causalmente la estructura.
 
 Si R*_oculto > θ_R → existe un nodo con alta probabilidad de ser el arquitecto no identificado
 
@@ -1800,40 +1213,13 @@ Esta es la dimensión predictiva que el análisis retrospectivo no puede ver: el
 
 La lógica es directa desde la ontología del sistema: el hijo dominante de un actor en el momento en que enfrenta una decisión determina desde qué disposición de la voluntad va a actuar. Un compliance en Fobos crónico tiene θ_F bajo y T bajo — reacciona a amenazas visibles, pero no delibera sobre amenazas estructurales. Cuando el esquema está diseñado para parecer legítimo (exactamente lo que hace un arquitecto competente), el compliance en Fobos no lo detectará porque no hay amenaza visible que active su respuesta.
 
-α_predicho Riesgo para la detección
-
-Hijo dominante del compliance
-
-Descripción institucional
-
-Harmonía Evalúa con plena deliberación. φ₂ activa. Revisa tanto las señales visibles como la coherencia estructural del esquema.
-
-Alto (0.70– 0.95) Bajo. Este compliance detecta esquemas sofisticados porque no depende solo de señales de alerta predefinidas.
-
-Anteros Afirma sus procedimientos. Resiste presiones del cliente. Pero
-
-Moderado-alto (0.50– 0.75)
-
-Moderado. Detecta lo que sus protocolos cubren.
-
-
-puede rigidizarse en los protocolos sin ver lo que está fuera de ellos.
-
-Vulnerable a esquemas que cumplen formalmente con todos los checklist.
-
-Potós Persiste en los patrones establecidos. "Este tipo de cliente lo hemos atendido siempre." No revisa si el contexto cambió.
-
-Bajo-moderado (0.20–0.45)
-
-Alto. Vulnerable a esquemas que se presentan como operaciones habituales con el mismo cliente de larga data.
-
-Fobos Reacciona a amenazas visibles (listas negras, alertas regulatorias conocidas). No delibera sobre amenazas estructurales nuevas.
-
-Bajo (0.05– 0.30) Muy alto. Solo detecta lo que ya sabe que debe detectar. Vulnerable a esquemas nuevos y sofisticados.
-
-Deimos Parálisis ante la ambigüedad. No sabe cómo actuar con operaciones complejas. Tiende a aprobar por default.
-
-Máximo. La parálisis ante lo incierto produce aprobación de facto de cualquier operación que no tenga señales obvias.
+| Hijo dominante del compliance | Descripción institucional | α_predicho | Riesgo para la detección |
+| --- | --- | --- | --- |
+| Harmonía | Evalúa con plena φ₂ deliberación. activa. Revisa tanto las señales visibles como la coherencia estructural del esquema. | Alto (0.70– 0.95) | Bajo. Este compliance detecta esquemas sofisticados porque no depende solo de señales de alerta predefinidas. |
+| Anteros | Afirma sus procedimientos. Resiste presiones del cliente. Pero | Moderado- alto (0.50– 0.75) | Moderado. Detecta lo que sus protocolos cubren. |
+| Potós | Persiste en los patrones establecidos. "Este tipo de cliente lo hemos atendido siempre." No revisa si el contexto cambió. | Bajo- moderado (0.20–0.45) | Alto. Vulnerable a esquemas que se presentan como operaciones habituales con el mismo cliente de larga data. |
+| Fobos | Reacciona a amenazas visibles (listas negras, alertas regulatorias conocidas). No delibera sobre amenazas estructurales nuevas. | Bajo (0.05– 0.30) | Muy alto. Solo detecta lo que ya sabe que debe detectar. Vulnerable a esquemas nuevos y sofisticados. |
+| Deimos | Parálisis ante la ambigüedad. No sabe cómo actuar con operaciones complejas. Tiende a aprobar por default. | Muy bajo (0.02–0.15) | Máximo. La parálisis ante lo incierto produce aprobación de facto de cualquier operación que no tenga señales obvias. |
 
 Muy bajo (0.02–0.15)
 
@@ -1872,32 +1258,19 @@ El rango de Alerta(G) es [0, 4]: 0 si ninguna de las dos condiciones binarias se
 
 Para validar el predictor, podemos retroaplicarlo al BCCI: ¿qué habría visto un oficial de compliance que hubiera aplicado este análisis a la estructura de Abedi en 1985, antes de que ninguna investigación existiera?
 
-Señal predictiva Valor calculado
-
-Interpretación pre-investigación
-
-Opacidad(G_BCCI) ~0.74 Supera θ_O = 0.65. Primera indicadora: el esquema está diseñado para que los nodos visibles sean fungibles.
-
-R*_oculto estimado ~0.52 Supera θ_R = 0.40. Segunda indicadora: hay un nodo con más del 50% de la necesidad causal no identificado en los documentos.
-
-+0.38 Alta. Los nodos visibles (directivos de entidades registradas) tienen S alto pero α declarado muy bajo.
-
-Asimetría S/α de nodos visibles
-
-Potós Los reguladores de los años 80 operaban con patrones establecidos de supervisión bancaria. Potós crónico: α_predicho ≈ 0.25.
-
-Hijo dominante del compliance regulatorio de época
-
-Alerta(G_BCCI) 1 × 1 × (1+0.38) ×
-
-Alerta > 2.0: due diligence reforzada
-
-
-obligatoria. El sistema habría señalado esta estructura como de muy alto riesgo en 1985, dieciséis años antes del colapso.
+| Señal predictiva | Valor calculado | Interpretación pre- investigación |
+| --- | --- | --- |
+| Opacidad(G_BCCI) | ~0.74 | Supera θ_O = 0.65. Primera indicadora: el esquema está diseñado para que los nodos visibles sean fungibles. |
+| R*_oculto estimado | ~0.52 | Supera θ_R = 0.40. Segunda indicadora: hay un nodo con más del 50% de la necesidad causal no identificado en los documentos. |
+| Asimetría S/α de nodos visibles | +0.38 | Alta. Los nodos visibles (directivos de entidades registradas) tienen S alto pero α declarado muy bajo. |
+| Hijo dominante del compliance regulatorio de época | Potós | Los reguladores de los años 80 operaban con patrones establecidos de supervisión bancaria. Potós crónico: α_predicho ≈ 0.25. |
+| Alerta(G_BCCI) | 1 × 1 × (1+0.38) × | Alerta > 2.0: due diligence reforzada |
+|  | (1+(1-0.25)) = 1 × 1 × 1.38 × 1.75 = 2.42 | obligatoria. El sistema habría señalado esta estructura como de muy alto riesgo en 1985, dieciséis años antes del colapso. |
 
 (1+(1-0.25)) = 1 × 1 × 1.38 × 1.75 = 2.42
 
-La paradoja predictiva del método:  Cuanto mejor diseñado está el esquema para ser opaco, mayor es Alerta(G). El arquitecto, al maximizar S de todos los nodos visibles, maximiza simultáneamente la señal que el predictor detecta. Un esquema perfectamente opaco es, paradójicamente, perfectamente visible para el método. Esta es la propiedad más contraintuitiva del sistema y la más valiosa para el diseño de controles.
+> [!NOTE]
+> La paradoja predictiva del método:  Cuanto mejor diseñado está el esquema para ser opaco, mayor es Alerta(G). El arquitecto, al maximizar S de todos los nodos visibles, maximiza simultáneamente la señal que el predictor detecta. Un esquema perfectamente opaco es, paradójicamente, perfectamente visible para el método. Esta es la propiedad más contraintuitiva del sistema y la más valiosa para el diseño de controles.
 
 #### Calibración de umbrales con datos históricos
 
@@ -1915,7 +1288,8 @@ de operaciones ya analizadas. Es más interpretable que un modelo de caja negra 
 import numpy as np  # Mapeo hijo → α_base (columna α_predicho de la tabla) ALPHA_BASE_HIJO = {     'Harmonia': 0.82,     'Anteros': 0.62,     'Potos':    0.32,     'Fobos':    0.17,     'Deimos':   0.08,     'Eros': 0.55,  # neutro: apertura activa, puede ir en cualquier dirección }  def alpha_predicho_compliance(hijo_dominante, T=0.5, theta_F_ref=0.40, theta_real=0.40):     """     Estima α futuro del nodo de compliance según su hijo dominante.     T:             temperatura (0=determinístico, 1=máxima libertad)     theta_F_ref:   umbral de referencia del grupo     theta_real:    umbral real del nodo (más bajo = más reactivo)     """     alpha_base = ALPHA_BASE_HIJO.get(hijo_dominante, 0.50)     reduccion = max(theta_F_ref - theta_real, 0)     return alpha_base * T * (1 -reduccion)  def alerta_predictiva(W_visible, alpha_visible, hijo_compliance='Potos', T_compliance=0.4, theta_O=0.65, theta_R=0.40):     """     Calcula la alerta predictiva de una operación antes de que ocurra el daño.     W_visible:       matriz de pesos de los nodos visibles     alpha_visible:   α declarado/observado de los nodos visibles     hijo_compliance: hijo dominante del nodo de compliance que evaluará     theta_O:         umbral de opacidad theta_R:         umbral de R*_oculto     """     n = W_visible.shape[0] # R* de los nodos visibles     R = np.ones(n) / n     for _ in range(300): Rn = W_visible @ R; s = np.sum(Rn)         if s < 1e-12: break         Rn /= s         if np.max(np.abs(Rn - R)) < 1e-9: break         R = Rn     R_star = Rn      # S de los nodos visibles (versión simplificada)     from scipy.stats import pearsonr     S = np.zeros(n)     for i in range(n): max_c = 0         for j in range(n):             if j == i: continue             Wm = W_visible.copy()             Wm[i,:] = np.mean(W_visible, axis=0) Rm = np.ones(n)/n             for _ in range(100):                 Rm2 = Wm @ Rm; sm = np.sum(Rm2)                 if sm < 1e-12: break Rm2 /= sm                 if np.max(np.abs(Rm2-Rm)) < 1e-6: break Rm = Rm2             c, _ = pearsonr(R_star, Rm2)             max_c = max(max_c, abs(c))         S[i] = 1 - max_c      # Métricas predictivas opacidad = float(np.sum(R_star * S))     R_oculto = max(0.0, 1 -float(np.sum(R_star * (1 - S))))     asimetria = float(np.mean(S) -np.mean(alpha_visible))     alpha_pred = alpha_predicho_compliance(hijo_compliance, T_compliance)      I_op = 1 if opacidad > theta_O else 0     I_rc = 1 if R_oculto > theta_R else 0 alerta = I_op * I_rc * (1 + asimetria) * (1 + (1 - alpha_pred))      return { 'R_star_visible': R_star,         'S_visible': S,         'opacidad': opacidad,
 
 
-'R_oculto_estimado': R_oculto,         'asimetria_S_alpha': asimetria, 'alpha_pred_compliance': alpha_pred,         'alerta_predictiva': alerta, 'umbral_superado': alerta > 2.0,         'due_diligence_reforzada': alerta > 2.0,         'revision_independiente': alerta > 3.0,     }  # ── Ejemplo: estructura de apertura de cuenta (perfil de riesgo alto) ── W_solicitud = np.array([     [0,    0.90, 0,    0   ],  # N1(cliente desconocido) → N2(MF-tipo)     [0,    0,    0.85, 0.70],  # N2(despacho) → N3(offshore), N4(testaferro)     [0,    0,    0,    0.80],  # N3(offshore) → N4     [0,    0, 0,    0   ],  # N4(testaferro, nodo sumidero en grafo visible) ]) alpha_declarado = np.array([0.0, 0.05, 0.0, 0.80])  resultado = alerta_predictiva(     W_solicitud, alpha_declarado, hijo_compliance='Potos',     T_compliance=0.35,     theta_O=0.65, theta_R=0.40 ) print("=== Alerta predictiva PLD ===") print(f"Opacidad del esquema:    {resultado['opacidad']:.3f}") print(f"R*_oculto estimado:      {resultado['R_oculto_estimado']:.3f}") print(f"Asimetría S/α:           {resultado['asimetria_S_alpha']:+.3f}") print(f"α_predicho compliance: {resultado['alpha_pred_compliance']:.3f}") print(f"ALERTA: {resultado['alerta_predictiva']:.2f}") print(f"Due diligence reforzada: {resultado['due_diligence_reforzada']}") print(f"Revisión independiente: {resultado['revision_independiente']}")
+> [!NOTE]
+> 'R_oculto_estimado': R_oculto,         'asimetria_S_alpha': asimetria, 'alpha_pred_compliance': alpha_pred,         'alerta_predictiva': alerta, 'umbral_superado': alerta > 2.0,         'due_diligence_reforzada': alerta > 2.0,         'revision_independiente': alerta > 3.0,     }  # ── Ejemplo: estructura de apertura de cuenta (perfil de riesgo alto) ── W_solicitud = np.array([     [0,    0.90, 0,    0   ],  # N1(cliente desconocido) → N2(MF-tipo)     [0,    0,    0.85, 0.70],  # N2(despacho) → N3(offshore), N4(testaferro)     [0,    0,    0,    0.80],  # N3(offshore) → N4     [0,    0, 0,    0   ],  # N4(testaferro, nodo sumidero en grafo visible) ]) alpha_declarado = np.array([0.0, 0.05, 0.0, 0.80])  resultado = alerta_predictiva(     W_solicitud, alpha_declarado, hijo_compliance='Potos',     T_compliance=0.35,     theta_O=0.65, theta_R=0.40 ) print("=== Alerta predictiva PLD ===") print(f"Opacidad del esquema:    {resultado['opacidad']:.3f}") print(f"R*_oculto estimado:      {resultado['R_oculto_estimado']:.3f}") print(f"Asimetría S/α:           {resultado['asimetria_S_alpha']:+.3f}") print(f"α_predicho compliance: {resultado['alpha_pred_compliance']:.3f}") print(f"ALERTA: {resultado['alerta_predictiva']:.2f}") print(f"Due diligence reforzada: {resultado['due_diligence_reforzada']}") print(f"Revisión independiente: {resultado['revision_independiente']}")
 
 
 §6.  Profundización formal — Esta sección puede saltarse sin perder el argumento del capítulo
@@ -1966,7 +1340,8 @@ El siguiente código extiende el análisis del Capítulo 1 con las funciones esp
 
 import numpy as np from scipy.stats import pearsonr  def analisis_pld(W, alpha_compliance, montos=None,                  w_ref=8.0, es_fiscal=False):     """     Análisis de necesidad causal en operación de PLD.     W:                 matriz de pesos del grafo de la operación alpha_compliance:  vector α por nodo (cumplimiento de due diligence) montos:            monto de recursos involucrado en cada nodo     w_ref: salario de referencia social (USD/hora)     es_fiscal:         True si el daño afecta el erario público     """     n = W.shape[0]      # ── R*: Necesidad causal de la operación ──     R = np.ones(n) / n     for _ in range(500): Rn = W @ R; s = np.sum(Rn)         if s < 1e-12: break         Rn /= s if np.max(np.abs(Rn - R)) < 1e-9: break         R = Rn     R_star = Rn # ── S: Fungibilidad del rol ──     S = np.zeros(n)     for i in range(n): max_c = 0         for j in range(n):             if j == i: continue             Wm = W.copy(); Wm[i,:] = np.mean(W, axis=0)             Rm = np.ones(n)/n for _ in range(200):                 Rm2 = Wm @ Rm; sm = np.sum(Rm2) if sm < 1e-12: break                 Rm2 /= sm                 if np.max(np.abs(Rm2-Rm)) < 1e-6: break                 Rm = Rm2             c, _ = pearsonr(R_star, Rm2)             max_c = max(max_c, abs(c)) S[i] = 1 - max_c      Delta = R_star - alpha_compliance     R_neta = R_star * (1 - S)      # ── Opacidad del esquema ──     opacidad = np.sum(R_star * S)      # ── R* del nodo oculto inferido ── R_oculto_estimado = 1 - np.sum(R_neta)      result = {         'R_star': R_star,         'S': S,         'Delta_compliance': Delta,         'R_neta': R_neta, 'opacidad_esquema': opacidad,         'R_oculto_estimado': max(0, R_oculto_estimado)     }      # ── Daño en tiempo de vida (si es fiscal) ──     if montos is not None and es_fiscal:         monto_total = np.sum(montos)         D_vital = monto_total / w_ref result['D_total_monetario'] = monto_total         result['D_vital_horas'] = D_vital         result['AD_recuperacion'] = R_star * monto_total      return result  # ── Ejemplo: Panama Papers (estructura típica) ── W_pp = El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
-np.array([     [0,    0.90, 0,    0,    0,    0],  # N1 → N2     [0,    0,    0.70, 0.95, 0,    0],  # N2 → N3, N4     [0,    0,    0,    0,    0,    0.80],  # N3 → Nf     [0,    0,    0,    0,    0.85, 0],  # N4 → N5     [0,    0,    0,    0,    0, 0.70],  # N5 → Nf     [0,    0,    0,    0,    0,    0],  # Nf (sumidero) ]) alpha_pp = np.array([0.0, 0.08, 0.15, 0.0, 0.0, 0.0]) montos_pp = np.array([0, 0, 50e6, 100e6, 80e6, 0])  resultado = analisis_pld(W_pp, alpha_pp, montos_pp,                          w_ref=8.0, es_fiscal=True) nodos = ['Funcionario(N1)','MossackF(N2)','Banco(N3)', 'Offshore1(N4)','Offshore2(N5)','Nf'] print("\n=== Análisis Panama Papers (estructura típica) ===") for i, (nm, rs, si, di) in enumerate(zip( nodos, resultado['R_star'], resultado['S'], resultado['Delta_compliance'])):     print(f"{nm:18s} R*={rs:.3f} S={si:.2f} Δ={di:+.3f}") opc = resultado['opacidad_esquema'] roc = resultado['R_oculto_estimado'] print(f"\nOpacidad del esquema: {opc:.3f}") print(f"R* nodo oculto inferido: {roc:.3f}") if 'D_vital_horas' in resultado:     dvh = resultado['D_vital_horas']     print(f"D_vital (horas vida):    {dvh:,.0f}")
+> [!NOTE]
+> np.array([     [0,    0.90, 0,    0,    0,    0],  # N1 → N2     [0,    0,    0.70, 0.95, 0,    0],  # N2 → N3, N4     [0,    0,    0,    0,    0,    0.80],  # N3 → Nf     [0,    0,    0,    0,    0.85, 0],  # N4 → N5     [0,    0,    0,    0,    0, 0.70],  # N5 → Nf     [0,    0,    0,    0,    0,    0],  # Nf (sumidero) ]) alpha_pp = np.array([0.0, 0.08, 0.15, 0.0, 0.0, 0.0]) montos_pp = np.array([0, 0, 50e6, 100e6, 80e6, 0])  resultado = analisis_pld(W_pp, alpha_pp, montos_pp,                          w_ref=8.0, es_fiscal=True) nodos = ['Funcionario(N1)','MossackF(N2)','Banco(N3)', 'Offshore1(N4)','Offshore2(N5)','Nf'] print("\n=== Análisis Panama Papers (estructura típica) ===") for i, (nm, rs, si, di) in enumerate(zip( nodos, resultado['R_star'], resultado['S'], resultado['Delta_compliance'])):     print(f"{nm:18s} R*={rs:.3f} S={si:.2f} Δ={di:+.3f}") opc = resultado['opacidad_esquema'] roc = resultado['R_oculto_estimado'] print(f"\nOpacidad del esquema: {opc:.3f}") print(f"R* nodo oculto inferido: {roc:.3f}") if 'D_vital_horas' in resultado:     dvh = resultado['D_vital_horas']     print(f"D_vital (horas vida):    {dvh:,.0f}")
 
 Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026
 
@@ -1998,43 +1373,24 @@ Leopoldo II murió en 1909. Su R* en el sistema de imputación causal del daño 
 
 Esta es la singularidad ontológica del derecho internacional y las deudas históricas: el nodo de mayor responsabilidad causal no puede asumir porque ya no existe. Pero las instituciones que lo sucedieron —el Estado belga, las empresas que heredaron las concesiones, las familias que acumularon el capital extraído— sí existen. La pregunta que este capítulo responde con precisión matemática es: ¿puede transferirse α a una institución sucesora? Y si puede, ¿en qué medida y bajo qué condiciones?
 
+
 #### 1.1 La diferencia entre el daño histórico y el daño contemporáneo
+
 
 En los capítulos anteriores, el nodo de mayor R* era identificable, estaba vivo y podía —en principio— activar φ₂ y asumir su posición causal. Δ medía la brecha entre lo que causó y lo que ha asumido, y esa brecha podía en principio cerrarse.
 
+| Dimensión | Daño contemporáneo | Daño histórico |
+| --- | --- | --- |
+
 En el daño histórico, la estructura es fundamentalmente diferente en cuatro dimensiones: El Cálculo de la Responsabilidad · Cap. 3 — Derecho internacional y
 
-deudas históricas
-
-Dimensión Daño contemporáneo
-
-Daño histórico
-
-Nodo de diseño
-
-Vivo, identificable, con capacidad de asumir.
-
-Muerto desde hace décadas o siglos. α = 0 permanente en el nodo original.
-
-Continuidad institucional
-
-La misma institución que causó el daño sigue existiendo y puede asumir.
-
-Las instituciones sucesoras tienen una relación causal indirecta con el daño: no lo causaron, pero se beneficiaron de él y heredaron sus estructuras.
-
-Cadena de beneficio
-
-El beneficio es contemporáneo y rastreable.
-
-El beneficio se acumuló durante generaciones y está entretejido en el capital, las instituciones y las ventajas estructurales del heredero.
-
-La víctima Identificable, con posibilidad de recibir reparación directa.
-
-Las víctimas directas están muertas. Sus descendientes cargan el ΔT_trayectoria, pero la causalidad entre el daño original y su situación actual es indirecta y acumulativa.
-
-Cierre de Δ Posible: el responsable puede asumir.
-
-Parcialmente posible a través de instituciones sucesoras. El Δ original (del nodo muerto) nunca se cierra completamente: eso es lo que lo hace irresuelto intergeneracional.
+| Dimensión | Daño contemporáneo | Daño histórico |
+| --- | --- | --- |
+| Nodo de diseño | Vivo, identificable, con capacidad de asumir. | Muerto desde hace décadas o siglos. α = 0 permanente en el nodo original. |
+| Continuidad institucional | La misma institución que causó el daño sigue existiendo y puede asumir. | Las instituciones sucesoras tienen una relación causal indirecta con el daño: no lo causaron, pero se beneficiaron de él y heredaron sus estructuras. |
+| Cadena de beneficio | El beneficio es contemporáneo y rastreable. | El beneficio se acumuló durante generaciones y está entretejido en el capital, las instituciones y las ventajas estructurales del heredero. |
+| La víctima | Identificable, con posibilidad de recibir reparación directa. | Las víctimas directas están muertas. Sus descendientes cargan el ΔT_trayectoria, pero la causalidad entre el daño original y su situación actual es indirecta y acumulativa. |
+| Cierre de Δ | Posible: el responsable puede asumir. | Parcialmente posible a través de instituciones sucesoras. El Δ original (del nodo muerto) nunca se cierra completamente: eso es lo que lo hace irresuelto intergeneracional. |
 
 #### 1.2 El fraude annona intergeneracional
 
@@ -2049,7 +1405,8 @@ El colonialismo es el fraude annona más extremo posible: el Estado colonial rec
 
 El fraude annona intergeneracional es la versión del fraude annona donde la deuda no solo no fue pagada en su momento: fue transmitida a las generaciones siguientes tanto del lado de los beneficiarios (que heredaron el capital acumulado) como del lado de los perjudicados (que heredaron el ΔT_trayectoria del subdesarrollo estructural). La deuda crece con el tiempo porque el capital no pagado genera rendimientos que se acumulan en el lado del acreedor.
 
-Analogía: La hipoteca que nunca se pagó y generó intereses Imagina una hipoteca que un deudor contrajo con su acreedor y nunca pagó. El deudor murió, pero sus hijos heredaron la casa comprada con ese dinero. Los hijos del acreedor heredaron la deuda y sus intereses acumulados. El sistema jurídico no permite que la deuda desaparezca por la muerte del deudor: se transfiere a sus herederos. El fraude annona colonial funciona igual: los herederos institucionales del Estado colonial heredaron tanto los beneficios del capital extraído como la deuda con las poblaciones colonizadas.
+> [!TIP]
+> Analogía: La hipoteca que nunca se pagó y generó intereses Imagina una hipoteca que un deudor contrajo con su acreedor y nunca pagó. El deudor murió, pero sus hijos heredaron la casa comprada con ese dinero. Los hijos del acreedor heredaron la deuda y sus intereses acumulados. El sistema jurídico no permite que la deuda desaparezca por la muerte del deudor: se transfiere a sus herederos. El fraude annona colonial funciona igual: los herederos institucionales del Estado colonial heredaron tanto los beneficios del capital extraído como la deuda con las poblaciones colonizadas.
 
 #### 1.3 La pregunta central: ¿puede transferirse α?
 
@@ -2062,82 +1419,51 @@ relativa claridad— sino si la asunción de esa responsabilidad puede y debe se
 
 La posición del sistema es la siguiente: α no puede transferirse automáticamente, pero puede adoptarse voluntariamente. Un Estado sucesor no hereda la culpabilidad del Estado antecesor —no cometió el daño— pero sí hereda los beneficios del daño, y en la medida en que esos beneficios persisten en su patrimonio institucional, tiene una posición causal diferida que justifica la asunción voluntaria de un α proporcional a esa herencia de beneficio.
 
-Alpha diferido (α_diferido):  El coeficiente de asunción adoptado voluntariamente por una institución sucesora en reconocimiento de que heredó los beneficios de un daño histórico causado por la institución antecesora. α_diferido no es culpa: es responsabilidad por el beneficio heredado, que es ontológicamente distinto de la responsabilidad por el acto causante.
+> [!NOTE]
+> Alpha diferido (α_diferido):  El coeficiente de asunción adoptado voluntariamente por una institución sucesora en reconocimiento de que heredó los beneficios de un daño histórico causado por la institución antecesora. α_diferido no es culpa: es responsabilidad por el beneficio heredado, que es ontológicamente distinto de la responsabilidad por el acto causante.
 
 Esta distinción es importante porque resuelve la objeción más frecuente al debate de reparaciones históricas: "yo no hice nada, por qué tengo que pagar". Nadie está afirmando que el ciudadano belga contemporáneo causó el daño del Congo. Se está afirmando que el Estado belga contemporáneo heredó un patrimonio que fue en parte construido con el capital extraído del Congo, y que esa herencia de beneficio crea una posición diferida en el grafo que justifica la asunción de α_diferido.
 
-::: {.recuadro .nota-violeta}
-**Nota ontológica sobre el ego colectivo y la continuidad institucional:** Según el libro Afrodita Areia: Caelus, Vol. V (de esta colección), el Estado es un ego colectivo con voluntad prestada. Su identidad no depende de quiénes sean sus funcionarios actuales sino de la continuidad de sus instituciones. El Estado belga de 2026 es el mismo ego colectivo que el Estado belga de 1908, no porque compartan los mismos funcionarios, sino porque comparten las mismas instituciones, el mismo ordenamiento jurídico y —lo más relevante— el mismo patrimonio acumulado. La continuidad del ego colectivo es la base ontológica para la transferencia de α.
-:::
+> [!NOTE]
+> **Nota ontológica sobre el ego colectivo y la continuidad institucional:** Según el libro Afrodita Areia: Caelus, Vol. V (de esta colección), el Estado es un ego colectivo con voluntad prestada. Su identidad no depende de quiénes sean sus funcionarios actuales sino de la continuidad de sus instituciones. El Estado belga de 2026 es el mismo ego colectivo que el Estado belga de 1908, no porque compartan los mismos funcionarios, sino porque comparten las mismas instituciones, el mismo ordenamiento jurídico y —lo más relevante— el mismo patrimonio acumulado. La continuidad del ego colectivo es la base ontológica para la transferencia de α.
+
+
+
+deudas históricas
 
 
 deudas históricas
 
-
-deudas históricas
 
 ### §2.  Página puente — Traducción al lenguaje del derecho internacional
 
+
 Esta página resume cómo se renombran las herramientas del sistema en el contexto del derecho internacional y las deudas históricas. El lector especialista en derecho internacional, historia o ciencias políticas puede comenzar aquí.
 
-Herramienta En este dominio se llama
-
-Qué significa en derecho internacional e historia
-
-Grafo causal G Cadena de responsabilidad histórica
-
-El mapa de actores estatales, institucionales y privados que participaron causalmente en el daño histórico, incluyendo nodos que ya no existen pero cuyas instituciones sucesoras sí.
-
-Nodo de diseño Potencia colonial / actor hegemónico
-
-El Estado o institución que diseñó y sostuvo el sistema de extracción. Con frecuencia es el nodo de mayor R* y también el primer nodo en perder α cuando el actor histórico muere.
-
-
-deudas históricas
-
-Nodo de ejecución Aparato colonial / empresas concesionarias
-
-Las instituciones que ejecutaron el diseño colonial: ejércitos, administraciones, empresas. Sus sucesores institucionales pueden existir actualmente.
-
-Nodo final Nf El pueblo colonizado y sus descendientes
-
-No es solo la población que vivió el daño original: incluye a sus descendientes que heredaron el ΔT_trayectoria del subdesarrollo estructural.
-
-R* (vector) Deuda histórica causal
-
-La fracción del daño histórico total causalmente atribuible a cada actor. Mide la contribución necesaria al sistema que produjo el daño. En el caso colonial, R* del diseñador es dominante.
-
-α (coeficiente) Reconocimiento y reparación efectiva
+| Herramienta | En este dominio se llama | Qué significa en derecho internacional e historia |
+| --- | --- | --- |
+| Grafo causal G | Cadena de responsabilidad histórica | El mapa de actores estatales, institucionales y privados que participaron causalmente en el daño histórico, incluyendo nodos que ya no existen pero cuyas instituciones sucesoras sí. |
+| Nodo de diseño | Potencia colonial / actor hegemónico | El Estado o institución que diseñó y sostuvo el sistema de extracción. Con frecuencia es el nodo de mayor R* y también el primer nodo en perder α cuando el actor histórico muere. |
+<table>
+<tbody>
+<tr><th scope="row">Nodo de ejecución</th><td>Aparato colonial / empresas concesionarias</td><td>Las instituciones que ejecutaron el diseño colonial: ejércitos, administraciones, empresas. Sus sucesores institucionales pueden existir actualmente.</td></tr>
+<tr><th scope="row">Nodo final Nf</th><td>El pueblo colonizado y sus descendientes</td><td>No es solo la población que vivió el daño original: incluye a sus descendientes que heredaron el ΔT_trayectoria del subdesarrollo estructural.</td></tr>
+<tr><th scope="row">R* (vector)</th><td>Deuda histórica causal</td><td>La fracción del daño histórico total causalmente atribuible a cada actor. Mide la contribución necesaria al sistema que produjo el daño. En el caso colonial, R* del diseñador es dominante.</td></tr>
+<tr><th scope="row">α (coeficiente)</th><td>Reconocimiento y reparación efectiva</td><td>Lo que el actor o su sucesor institucional ha reconocido y reparado: desde la negación histórica (α = 0) hasta la reparación integral con reforma institucional (α ≈ 1).</td></tr>
+</tbody>
+</table>
 
 Lo que el actor o su sucesor institucional ha reconocido y reparado: desde la negación histórica (α = 0) hasta la reparación integral con reforma institucional (α ≈ 1).
 
-
-deudas históricas
-
-α_diferido Asunción voluntaria del sucesor
-
-El α adoptado por una institución sucesora en reconocimiento de que heredó los beneficios del daño histórico. No es culpa heredada: es responsabilidad por el beneficio heredado.
-
-Δ = R* − α Déficit histórico no saldado
-
-La brecha entre la responsabilidad causal histórica y la asunción efectiva. En el nodo original muerto, Δ es permanentemente positivo e irreducible. En los sucesores, puede reducirse mediante α_diferido.
-
-D_vital_generacional Pérdida acumulada intergeneracional
-
-El componente más grande del daño histórico: las generaciones que no nacieron, las trayectorias que no se desarrollaron, el capital humano que no se acumuló por el daño sistémico del colonialismo.
-
-B_total Beneficio heredado del sistema colonial
-
-Lo que las metrópolis y sus sucesores obtuvieron del sistema colonial: capital acumulado, ventajas de arranque,
-
-
-deudas históricas
-
-infraestructura industrial financiada con la extracción.
-
-Fraude annona Fraude annona intergeneracional
-
-El incumplimiento del contrato implícito entre el poder colonial y las poblaciones colonizadas: se tomaron los recursos sin generar las condiciones prometidas o posibles. La deuda se transmite a los herederos institucionales.
+<table>
+<tbody>
+<tr><th scope="row">α_diferido</th><td>Asunción voluntaria del sucesor</td><td>El α adoptado por una institución sucesora en reconocimiento de que heredó los beneficios del daño histórico. No es culpa heredada: es responsabilidad por el beneficio heredado.</td></tr>
+<tr><th scope="row">Δ = R* − α</th><td>Déficit histórico no saldado</td><td>La brecha entre la responsabilidad causal histórica y la asunción efectiva. En el nodo original muerto, Δ es permanentemente positivo e irreducible. En los sucesores, puede reducirse mediante α_diferido.</td></tr>
+<tr><th scope="row">D_vital_generacional</th><td>Pérdida acumulada intergeneracional</td><td>El componente más grande del daño histórico: las generaciones que no nacieron, las trayectorias que no se desarrollaron, el capital humano que no se acumuló por el daño sistémico del colonialismo.</td></tr>
+<tr><th scope="row">B_total</th><td>Beneficio heredado del sistema colonial</td><td>Lo que las metrópolis y sus sucesores obtuvieron del sistema colonial: capital acumulado, ventajas de arranque,</td></tr>
+<tr><th scope="row">Fraude annona</th><td>Fraude annona intergeneracional</td><td>El incumplimiento del contrato implícito entre el poder colonial y las poblaciones colonizadas: se tomaron los recursos sin generar las condiciones prometidas o posibles. La deuda se transmite a los herederos institucionales.</td></tr>
+</tbody>
+</table>
 
 Para el lector que viene del núcleo universal:  Este dominio tiene tres diferencias estructurales respecto a los dominios anteriores. Primera: el nodo de mayor R* tiene α = 0 permanente (el actor histórico está muerto). Segunda: Δ nunca se cierra completamente en el nodo original; solo puede reducirse en los sucesores mediante α_diferido. Tercera: D_vital_generacional es el componente dominante del daño, frecuentemente varios órdenes de magnitud mayor que T_invertido.
 
@@ -2157,7 +1483,8 @@ deudas históricas
 
 4.  Calcular R* sobre el grafo histórico completo. R* distribuye la responsabilidad causal entre todos los actores históricos. Ese vector no cambia con el tiempo: describe la estructura causal tal como existió en el período del daño. 5.  Estimar α y α_diferido por separado. α del nodo histórico original: 0 si el actor murió sin asumir, o el nivel de asunción alcanzado antes de su desaparición. α_diferido del sucesor institucional: lo que el sucesor ha reconocido y reparado en nombre de la institución que heredó.
 
-⚠ Un error frecuente en el análisis histórico es construir un grafo solo con los actores que "aparecen en los libros de historia", omitiendo los nodos de ejecución local (administradores, jefes locales cooptados, empresas concesionarias de segundo nivel) y los nodos de facilitación internacional (bancos que financiaron el aparato colonial, potencias que reconocieron el régimen). Esos nodos tienen R* positivo, aunque su visibilidad histórica sea menor.
+> [!WARNING]
+> ⚠ Un error frecuente en el análisis histórico es construir un grafo solo con los actores que "aparecen en los libros de historia", omitiendo los nodos de ejecución local (administradores, jefes locales cooptados, empresas concesionarias de segundo nivel) y los nodos de facilitación internacional (bancos que financiaron el aparato colonial, potencias que reconocieron el régimen). Esos nodos tienen R* positivo, aunque su visibilidad histórica sea menor.
 
 #### 3.2 El problema de la arista sucesoral: ¿cuánto R* se hereda?
 
@@ -2165,32 +1492,11 @@ Cuando el nodo histórico N_hist tiene un sucesor institucional N_suc, la pregun
 
 La respuesta depende de tres factores:
 
-Factor Qué mide Cómo afecta la transferencia
-
-Continuidad institucional (CI)
-
-En qué medida el sucesor comparte las mismas instituciones,
-
-CI alto (mismo Estado, mismas instituciones) → transferencia alta de
-
-
-deudas históricas
-
-ordenamiento jurídico y patrimonio que el antecesor.
-
-posición de beneficio. CI bajo (Estado completamente refundado, ruptura institucional clara) → transferencia baja.
-
-Herencia de beneficio (HB)
-
-Qué fracción del patrimonio actual del sucesor es directamente rastreable al capital extraído durante el daño histórico.
-
-HB alto → mayor posición de beneficio heredado. HB bajo → menor posición. HB se estima con análisis histórico-económico del capital acumulado.
-
-Reforma institucional (RI)
-
-En qué medida el sucesor ha reformado las estructuras que causaron el daño, eliminando las ventajas que esas estructuras le proveían.
-
-RI alta → reduce la posición de beneficio heredado porque el sucesor ya no aprovecha las ventajas del sistema antiguo. RI baja → la posición se mantiene.
+| Factor | Qué mide | Cómo afecta la transferencia |
+| --- | --- | --- |
+| Continuidad institucional (CI) | En qué medida el sucesor comparte las mismas instituciones, | CI alto (mismo Estado, mismas instituciones) → transferencia alta de |
+| Herencia de beneficio (HB) | Qué fracción del patrimonio actual del sucesor es directamente rastreable al capital extraído durante el daño histórico. | HB alto → mayor posición de beneficio heredado. HB bajo → menor posición. HB se estima con análisis histórico-económico del capital acumulado. |
+| Reforma institucional (RI) | En qué medida el sucesor ha reformado las estructuras que causaron el daño, eliminando las ventajas que esas estructuras le proveían. | RI alta → reduce la posición de beneficio heredado porque el sucesor ya no aprovecha las ventajas del sistema antiguo. RI baja → la posición se mantiene. |
 
 #### Posición_heredada_i = R*_hist × CI_i × HB_i × (1 −
 
@@ -2230,38 +1536,30 @@ Lo que sí puede reducirse es el Δ_diferido: el déficit en los sucesores insti
 
 Δ_diferido positivo alto en un sucesor institucional significa que heredó una fracción importante del beneficio del daño histórico y no ha asumido la responsabilidad proporcional a esa herencia. Eso no es culpa: es injusticia estructural persistente.
 
-Principio histórico:  La reducción de Δ_diferido no salda el Δ_hist_original. Ambos coexisten en el sistema. El daño histórico original tiene un Δ permanente que ninguna reparación puede cancelar porque el tiempo de vida destruido no es recuperable. Pero la injusticia estructural persistente en los sucesores sí puede reducirse. El cálculo distingue con precisión estas dos capas de la deuda histórica, que el debate político tiende a confundir.
+> [!IMPORTANT]
+> Principio histórico:  La reducción de Δ_diferido no salda el Δ_hist_original. Ambos coexisten en el sistema. El daño histórico original tiene un Δ permanente que ninguna reparación puede cancelar porque el tiempo de vida destruido no es recuperable. Pero la injusticia estructural persistente en los sucesores sí puede reducirse. El cálculo distingue con precisión estas dos capas de la deuda histórica, que el debate político tiende a confundir.
+
 
 #### 3.5 El daño histórico y el D_vital_generacional como componente dominante
 
-En el daño histórico, D_vital_generacional no es un componente adicional del daño: es el componente dominante. T_invertido (la pérdida directa en el momento del daño) es frecuentemente enorme en términos absolutos, pero D_vital_generacional es varios órdenes de magnitud
-
-
-deudas históricas
+| Componente | En el daño histórico equivale a | Contenido específico |
+| --- | --- | --- |
 
 #### mayor porque el daño al potencial de desarrollo de un pueblo se extiende por generaciones.
 
+
 #### D_hist_total = T_invertido + T_impedido +
 
-#### ΔT_trayectoria
+| Componente | En el daño histórico equivale a | Contenido específico |
+| --- | --- | --- |
+| T_invertido | El capital extraído durante el período del daño | Recursos naturales extraídos sin compensación justa, trabajo forzado sin pago, impuestos coloniales recaudados sin contraprestación, tierra confiscada. Es la pérdida directa en el período activo del daño. |
 
 #### En el contexto histórico, la interpretación de cada componente se desplaza:
 
-Componente En el daño histórico equivale a
-
-Contenido específico
-
-T_invertido El capital extraído durante el período del daño
-
-Recursos naturales extraídos sin compensación justa, trabajo forzado sin pago, impuestos coloniales recaudados sin contraprestación, tierra confiscada. Es la pérdida directa en el período activo del daño.
-
-T_impedido El desarrollo que no ocurrió durante el período colonial
-
-El crecimiento económico, institucional y humano que el pueblo colonizado habría tenido si los recursos extraídos hubieran permanecido en el territorio y si las instituciones coloniales no hubieran destruido las instituciones locales.
-
-ΔT_trayectoria El déficit estructural que persiste hasta hoy y se proyecta al futuro
-
-La brecha de desarrollo persistente entre las excolonias y las ex metrópolis que no se ha cerrado en el tiempo transcurrido desde la independencia. Es el ΔT_trayectoria más difícil de cuantificar y el más políticamente contestado.
+| Componente | En el daño histórico equivale a | Contenido específico |
+| --- | --- | --- |
+| T_impedido | El desarrollo que no ocurrió durante el período colonial | El crecimiento económico, institucional y humano que el pueblo colonizado habría tenido si los recursos extraídos hubieran permanecido en el territorio y si las instituciones coloniales no hubieran destruido las instituciones locales. |
+| ΔT_trayectoria | El déficit estructural que persiste hasta hoy y se proyecta al futuro | La brecha de desarrollo persistente entre las excolonias y las ex metrópolis que no se ha cerrado en el tiempo transcurrido desde la independencia. Es el ΔT_trayectoria más difícil de cuantificar y el más políticamente contestado. |
 
 
 deudas históricas
@@ -2303,7 +1601,8 @@ deudas históricas
 
 Caso A — El Congo Belga (1885–1960)
 
-El primer caso documentado de campaña internacional de derechos humanos y el grafo de un sistema extractivo colonial
+> [!NOTE]
+> El primer caso documentado de campaña internacional de derechos humanos y el grafo de un sistema extractivo colonial
 
 A.1 El contexto histórico
 
@@ -2322,117 +1621,56 @@ La consecuencia de esa negación deliberada del capital humano se proyecta hasta
 
 #### A.2 Construcción del grafo histórico
 
-Nodo Actor Tipo Función causal
-
-N1 Leopoldo II (1885-1908)
-
-Diseño central
-
-Diseñó el sistema de concesiones, estableció la Fuerza Pública, fijó el sistema de cuotas y el régimen de castigos. Sin este nodo en esa forma específica, el Estado Libre del Congo no habría existido. R* más alto, S moderado-bajo.
-
-N2 Potencias europeas signatarias de Berlín
-
-Diseño colectivo
-
-Reconocieron la soberanía de Leopoldo sobre el Congo en 1885. Sin ese reconocimiento internacional, el sistema no habría podido sostenerse. R* colectivo significativo.
-
-N3 Empresas concesionarias
-
-Ejecución del sistema
-
-Implementaron el sistema de cuotas y los mecanismos de
-
-
-deudas históricas
-
-(ABIR, SAB, etc.)
+| Nodo | Actor | Tipo | Función causal |
+| --- | --- | --- | --- |
+| N1 | Leopoldo II (1885-1908) | Diseño central | Diseñó el sistema de concesiones, estableció la Fuerza Pública, fijó el sistema de cuotas y el régimen de castigos. Sin este nodo en esa forma específica, el Estado Libre del Congo no habría existido. R* más alto, S moderado-bajo. |
+| N2 | Potencias europeas signatarias de Berlín | Diseño colectivo | Reconocieron la soberanía de Leopoldo sobre el Congo en 1885. Sin ese reconocimiento internacional, el sistema no habría podido sostenerse. R* colectivo significativo. |
+| N3 | Empresas concesionarias | Ejecución del sistema | Implementaron el sistema de cuotas y los mecanismos de |
 
 coerción en sus territorios. Tenían mandato de Leopoldo pero también autonomía operativa en los métodos.
 
-N4 La Fuerza Pública (ejército colonial)
-
-Ejecución violenta
-
-Ejecutó las mutilaciones, los asesinatos y la toma de rehenes. Alta visibilidad documental, S alto (cualquier contingente armado bajo las mismas órdenes habría actuado igual).
-
-N5 Estado belga colonial (1908-1960)
-
-Sucesor y continuador
-
-Heredó el sistema y lo continuó con modificaciones. Es el eslabón que conecta el período leopoldinense con el post-independencia. Su posición es dual: fue actor histórico y es sucesor de N1.
-
-N6 Bancos y financiadores de Londres y Bruselas
-
-Facilitadores financieros
-
-Financiaron las operaciones de las empresas concesionarias y del aparato colonial. Su capital habilitó la escala de la extracción.
-
-N_suc Estado belga contemporáneo (sucesor)
-
-Sucesor institucional
+| Nodo | Actor | Tipo | Función causal |
+| --- | --- | --- | --- |
+| N4 | La Fuerza Pública (ejército colonial) | Ejecución violenta | Ejecutó las mutilaciones, los asesinatos y la toma de rehenes. Alta visibilidad documental, S alto (cualquier contingente armado bajo las mismas órdenes habría actuado igual). |
+| N5 | Estado belga colonial (1908- 1960) | Sucesor y continuador | Heredó el sistema y lo continuó con modificaciones. Es el eslabón que conecta el período leopoldinense con el post-independencia. Su posición es dual: fue actor histórico y es sucesor de N1. |
+| N6 | Bancos y financiadores de Londres y Bruselas | Facilitadores financieros | Financiaron las operaciones de las empresas concesionarias y del aparato colonial. Su capital habilitó la escala de la extracción. |
+| N_suc | Estado belga contemporáneo (sucesor) | Sucesor institucional | Hereda el ego colectivo del Estado belga que gobernó el Congo. No causó el daño pero heredó |
+| Nf | Pueblo congolés y sus descendientes | Nodo final | Las víctimas del sistema y todas las generaciones posteriores que heredaron el ΔT_trayectoria del subdesarrollo estructural. |
+| Desde | Hacia | Peso w | Justificación documental |
+| --- | --- | --- | --- |
 
 Hereda el ego colectivo del Estado belga que gobernó el Congo. No causó el daño pero heredó
 
-
-deudas históricas
-
-parte del capital que ese daño generó.
+| Desde | Hacia | Peso w | Justificación documental |
+| --- | --- | --- | --- |
+| N1 | N3 | 0.92 | Las concesiones fueron otorgadas directamente por Leopoldo II. Las empresas actuaban bajo mandato real con poderes definidos por él. |
+| N1 | N4 | 0.90 | La Fuerza Pública fue creada y financiada por Leopoldo II. Sus oficiales eran en gran parte europeos reclutados bajo contrato real. |
 
 Nodo final Las víctimas del sistema y todas las generaciones posteriores que heredaron el ΔT_trayectoria del subdesarrollo estructural.
 
-Nf Pueblo congolés y sus descendientes
+| Desde | Hacia | Peso w | Justificación documental |
+| --- | --- | --- | --- |
+| N2 | N1 | 0.70 | El reconocimiento de Berlín fue condición habilitante. Sin él, Leopoldo no podría haber establecido el sistema. Peso significativo pero menor que el de Leopoldo sobre el sistema. |
 
 #### A.3 Pesos del grafo y cálculo de R*
 
-Desde Hacia Peso w
-
-Justificación documental
-
-N1 N3 0.92 Las concesiones fueron otorgadas directamente por Leopoldo II. Las empresas actuaban bajo mandato real con poderes definidos por él.
-
-N1 N4 0.90 La Fuerza Pública fue creada y financiada por Leopoldo II. Sus oficiales eran en gran parte europeos reclutados bajo contrato real.
-
-N2 N1 0.70 El reconocimiento de Berlín fue condición habilitante. Sin él, Leopoldo no podría haber establecido el sistema. Peso significativo pero menor que el de Leopoldo sobre el sistema.
-
-N3 Nf 0.85 Las empresas concesionarias fueron el mecanismo directo de la extracción y la coerción sobre la población.
-
-N4 Nf 0.80 La Fuerza Pública ejecutó la violencia directa.
-
-N5 Nf 0.65 El período colonial belga (1908-1960) continuó la estructura extractiva y negó el desarrollo de capital humano.
-
-
-deudas históricas
-
-N6 N3 0.55 La financiación bancaria habilitó la escala de las operaciones de las empresas concesionarias.
+| Desde | Hacia | Peso w | Justificación documental |
+| --- | --- | --- | --- |
+| N3 | Nf | 0.85 | Las empresas concesionarias fueron el mecanismo directo de la extracción y la coerción sobre la población. |
+| N4 | Nf | 0.80 | La Fuerza Pública ejecutó la violencia directa. |
+| N5 | Nf | 0.65 | El período colonial belga (1908-1960) continuó la estructura extractiva y negó el desarrollo de capital humano. |
+| N6 | N3 | 0.55 | La financiación bancaria habilitó la escala de las operaciones de las empresas concesionarias. |
 
 #### Tras la iteración de potencia, el vector R* estabilizado sobre el grafo histórico (excluyendo N_suc que es el sucesor contemporáneo):
 
-Nodo Actor R* hist.
-
-S Interpretación
-
-N1 Leopoldo II ~42% 0.28 Nodo de diseño dominante. S bajo: su variante del colonialismo tenía características idiosincráticas documentadas.
-
-N2 Potencias europeas de Berlín
-
-~18% 0.50 Diseño colectivo habilitante. S moderado: cualquier coalición de potencias europeas habría legitimado alguna forma de colonialismo.
-
-N3 Empresas concesionarias
-
-~16% 0.75 Ejecutores con cierta autonomía operativa. S alto: otras empresas habrían ejecutado el mismo mandato.
-
-N4 Fuerza Pública ~12% 0.90 Ejecutores directos de la violencia. S muy alto: cualquier contingente armado bajo esas órdenes habría actuado igual.
-
-
-deudas históricas
-
-N5 Estado belga colonial
-
-~8% 0.45 Heredó y continuó el sistema con reformas parciales.
-
-~4% 0.80 Facilitadores financieros con S alto.
-
-N6 Bancos financiadores
+| Nodo | Actor | R* hist. | S | Interpretación |
+| --- | --- | --- | --- | --- |
+| N1 | Leopoldo II | ~42% | 0.28 | Nodo de diseño dominante. S bajo: su variante del colonialismo tenía características idiosincráticas documentadas. |
+| N2 | Potencias europeas de Berlín | ~18% | 0.50 | Diseño colectivo habilitante. S moderado: cualquier coalición de potencias europeas habría legitimado alguna forma de colonialismo. |
+| N3 | Empresas concesionarias | ~16% | 0.75 | Ejecutores con cierta autonomía operativa. S alto: otras empresas habrían ejecutado el mismo mandato. |
+| N4 | Fuerza Pública | ~12% | 0.90 | Ejecutores directos de la violencia. S muy alto: cualquier contingente armado bajo esas órdenes habría actuado igual. |
+| N5 | Estado belga colonial | ~8% | 0.45 | Heredó y continuó el sistema con reformas parciales. |
+| N6 | Bancos financiadores | ~4% | 0.80 | Facilitadores financieros con S alto. |
 
 #### A.4 La posición heredada del Estado belga contemporáneo
 
@@ -2543,120 +1781,49 @@ comunidades en los países de origen africano? ¿Las diásporas en los países a
 
 Para el análisis metodológico, simplificamos el grafo a sus nodos estructurales más representativos. El análisis completo requeriría un grafo de varios cientos de nodos con variaciones por período y por potencia colonial.
 
-Nodo Actor Tipo Función causal
-
-N1 Coronas europeas (España, Portugal, Reino Unido, Francia, Países Bajos)
-
-Diseño institucional
-
-Otorgaron las licencias de comercio de esclavizados (asientos), establecieron el marco legal que permitía la esclavitud en las colonias, y usaron sus aparatos militares para sostener el sistema.
-
-N2 Compañías de comercio de esclavizados
-
-Diseño/ejecución del comercio
-
-Organizaron y ejecutaron el comercio transatlántico. La RAC, la WASC y otras compañías tenían monopolios
-
-
-deudas históricas
-
-estatales sobre el comercio de personas.
-
-N3 Plantadores y propietarios en las colonias
-
-Ejecución local del sistema
-
-Usaron el trabajo esclavizado y sostuvieron la demanda que hacía económicamente viable el sistema.
-
-N4 Élites africanas vendedoras
-
-Participación parcial
-
-Algunas élites locales africanas participaron en la venta de personas. Su R* es positivo pero modesto: sin la demanda y el poder europeo, el comercio no habría existido a esa escala.
-
-N5 Estados herederos (UK, España, EE.UU., etc.)
-
-Sucesores institucionales
-
-Heredan el ego colectivo de los actores históricos. EE.UU. tiene una posición especial: fue construido en parte con trabajo esclavizado y su economía del algodón financió la industrialización.
-
-Nf Personas esclavizadas y sus descendientes
-
-Nodo final Las víctimas directas y todos sus descendientes, que heredaron el ΔT_trayectoria de
-
-
-deudas históricas
-
-la exclusión estructural.
+| Nodo | Actor | Tipo | Función causal |
+| --- | --- | --- | --- |
+| N1 | Coronas europeas (España, Portugal, Reino Unido, Francia, Países Bajos) | Diseño institucional | Otorgaron las licencias de comercio de esclavizados (asientos), establecieron el marco legal que permitía la esclavitud en las colonias, y usaron sus aparatos militares para sostener el sistema. |
+| N2 | Compañías de comercio de esclavizados | Diseño/ejecución del comercio | Organizaron y ejecutaron el comercio transatlántico. La RAC, la WASC y otras compañías tenían monopolios |
+| N3 | Plantadores y propietarios en las colonias | Ejecución local del sistema | Usaron el trabajo esclavizado y sostuvieron la demanda que hacía económicamente viable el sistema. |
+| N4 | Élites africanas vendedoras | Participación parcial | Algunas élites locales africanas participaron en la venta de personas. Su R* es positivo pero modesto: sin la demanda y el poder europeo, el comercio no habría existido a esa escala. |
+| N5 | Estados herederos (UK, España, EE.UU., etc.) | Sucesores institucionales | Heredan el ego colectivo de los actores históricos. EE.UU. tiene una posición especial: fue construido en parte con trabajo esclavizado y su economía del algodón financió la industrialización. |
+| Nf | Personas esclavizadas y sus descendientes | Nodo final | Las víctimas directas y todos sus descendientes, que heredaron el ΔT_trayectoria de |
+|  |  |  | la exclusión estructural. |
 
 #### B.3 R* y la distribución de la responsabilidad histórica
 
 #### El cálculo de R* para la esclavitud transatlántica produce una distribución que el debate político raramente articula con esta claridad:
 
-Nodo R* estimado
+| Nodo | R* estimado | S estimado | Razonamiento |
+| --- | --- | --- | --- |
+| N1 — Coronas europeas | ~45% | 0.35 | El sistema fue diseñado e impuesto desde las metrópolis. S moderado-bajo: las características específicas de cada potencia colonial moldearon el sistema de maneras distintas. |
+| N2 — Compañías de comercio | ~25% | 0.60 | Ejecutores del comercio con monopolio estatal. S moderado: otras empresas habrían operado el mismo monopolio bajo las mismas condiciones. |
+| N3 — Plantadores coloniales | ~20% | 0.70 | Crearon la demanda que hacía viable el sistema. S alto: la demanda era estructural, no dependía de individuos específicos. |
+| N4 — Élites africanas vendedoras | ~10% | 0.80 | Participación necesaria, pero con S alto. Además, operaron en el contexto de la superioridad militar europea, lo que reduce su sustituibilidad real. |
 
-Razonamiento
-
-S estimado
-
-~45% 0.35 El sistema fue diseñado e impuesto desde las metrópolis. S moderado-bajo: las características específicas de cada potencia colonial moldearon el sistema de maneras distintas.
-
-N1 — Coronas europeas
-
-~25% 0.60 Ejecutores del comercio con monopolio estatal. S moderado: otras empresas habrían operado el mismo monopolio bajo las mismas condiciones.
-
-N2 — Compañías de comercio
-
-~20% 0.70 Crearon la demanda que hacía viable el sistema. S alto: la demanda era estructural, no dependía de individuos específicos.
-
-N3 — Plantadores coloniales
-
-
-deudas históricas
-
-~10% 0.80 Participación necesaria, pero con S alto. Además, operaron en el contexto de la superioridad militar europea, lo que reduce su sustituibilidad real.
-
-N4 — Élites africanas vendedoras
-
-Sobre el R* de las élites africanas:  Incluir a las élites africanas que participaron en la venta de esclavizados con R* = 10% no es una equivalencia moral entre víctimas y perpetradores. Es un análisis causal: sin su participación, el comercio transatlántico no habría podido operar a esa escala. Pero S = 0.80 matiza esa responsabilidad: su participación era en parte coercida por la superioridad militar y comercial europea, y habría sido reemplazada por otros mecanismos si hubieran resistido. R* positivo con S alto = responsabilidad causal real, pero con alta determinación estructural.
+> [!NOTE]
+> Sobre el R* de las élites africanas:  Incluir a las élites africanas que participaron en la venta de esclavizados con R* = 10% no es una equivalencia moral entre víctimas y perpetradores. Es un análisis causal: sin su participación, el comercio transatlántico no habría podido operar a esa escala. Pero S = 0.80 matiza esa responsabilidad: su participación era en parte coercida por la superioridad militar y comercial europea, y habría sido reemplazada por otros mecanismos si hubieran resistido. R* positivo con S alto = responsabilidad causal real, pero con alta determinación estructural.
 
 #### B.4 Los sucesores institucionales y el α diferido
 
 La pregunta práctica del debate contemporáneo de reparaciones es: ¿qué α_diferido corresponde a cada Estado sucesor, y cómo se calcula el Δ_diferido que mide la brecha entre ese α y lo que han asumido?
 
-Sucesor Posició n heredad a
-
-Comentario
-
-α_diferid o actual
-
-Δ_diferid o
-
-~0.28 ~0.12 +0.16 Abolió la esclavitud en 1833, pagó compensacione s a los propietarios de esclavizados (no a los esclavizados). El Slavery
-
-Reino Unido
-
-
-deudas históricas
+| Sucesor | Posició n heredad a | α_diferid o actual | Δ_diferid o | Comentario |
+| --- | --- | --- | --- | --- |
+| Reino Unido | ~0.28 | ~0.12 | +0.16 | Abolió la esclavitud en 1833, pagó compensacione s a los propietarios de esclavizados (no a los esclavizados). El Slavery |
+| Estado s Unidos | ~0.32 | ~0.08 | +0.24 | Mayor posición heredada: la economía del algodón esclavizado financió la industrializació n. Las Reconstruction Amendments (1865-70) nunca fueron implementadas plenamente. Ningún programa federal de reparaciones existe. |
 
 Abolition Act indemnizó a los dueños. Reconocimient os recientes pero sin reparaciones económicas sistémicas.
 
-~0.32 ~0.08 +0.24 Mayor posición heredada: la economía del algodón esclavizado financió la industrializació n. Las Reconstruction Amendments (1865-70) nunca fueron implementadas plenamente. Ningún programa federal de reparaciones existe.
-
-Estado s Unidos
-
-España ~0.18 ~0.05 +0.13 Abolió la esclavitud en sus últimas colonias en 1886. Sin programa de reparaciones ni reconocimiento formal del daño específico de la esclavitud.
-
-~0.12 ~0.18 -0.06 En 2023 el gobierno holandés pidió
-
-Países Bajos
-
-
-deudas históricas
+| Sucesor | Posició n heredad a | α_diferid o actual | Δ_diferid o | Comentario |
+| --- | --- | --- | --- | --- |
+| España | ~0.18 | ~0.05 | +0.13 | Abolió la esclavitud en sus últimas colonias en 1886. Sin programa de reparaciones ni reconocimiento formal del daño específico de la esclavitud. |
+| Países Bajos | ~0.12 | ~0.18 | -0.06 | En 2023 el gobierno holandés pidió |
+| Portug al | ~0.15 | ~0.04 | +0.11 | Fue el primer país en iniciar el comercio transatlántico de esclavizados y el último en abolirlo en sus territorios (1869). Sin reconocimiento formal ni reparaciones. |
 
 disculpas formales, realizó un acto de reconocimiento nacional y estableció un fondo de 200 millones de euros. Δ ligeramente negativo: asumió algo más de lo que la posición heredada estricta requería.
 
-~0.15 ~0.04 +0.11 Fue el primer país en iniciar el comercio transatlántico de esclavizados y el último en abolirlo en sus territorios (1869). Sin reconocimiento formal ni reparaciones.
 
 Portug al
 
@@ -2673,7 +1840,8 @@ Si el componente dominante del daño es T_invertido (el trabajo no pagado, la ri
 
 En el caso de la esclavitud transatlántica, los estudios histórico-económicos sugieren que ΔT_trayectoria es el componente dominante: la brecha de riqueza mediana entre familias afroamericanas y familias blancas en los Estados Unidos (que es de aproximadamente 1:8 según los datos del Federal Reserve de 2022) no se explica por T_invertido directo sino por el ΔT_trayectoria acumulado de exclusión sistemática durante las generaciones posteriores a la abolición. Eso sugiere que las reparaciones estructurales — aquellas que cierran la brecha de capital humano e institucional— son más proporcionales al daño que los pagos individuales directos.
 
-El sistema como herramienta neutral en un debate político:  El cálculo de la responsabilidad no dice si las reparaciones deben pagarse. No es su función. Lo que dice es: si hay una deuda histórica (Δ_diferido positivo), cuánto es, a quién corresponde pagarla y qué tipo de reparación es proporcional al tipo de daño. Las decisiones políticas sobre si esa deuda debe pagarse, en qué tiempo y bajo qué mecanismos pertenecen al orden de la voluntad colectiva, no al del cálculo. Lo que el cálculo hace es proveer los números sobre los que esa voluntad puede operar con honestidad.
+> [!NOTE]
+> El sistema como herramienta neutral en un debate político:  El cálculo de la responsabilidad no dice si las reparaciones deben pagarse. No es su función. Lo que dice es: si hay una deuda histórica (Δ_diferido positivo), cuánto es, a quién corresponde pagarla y qué tipo de reparación es proporcional al tipo de daño. Las decisiones políticas sobre si esa deuda debe pagarse, en qué tiempo y bajo qué mecanismos pertenecen al orden de la voluntad colectiva, no al del cálculo. Lo que el cálculo hace es proveer los números sobre los que esa voluntad puede operar con honestidad.
 
 
 deudas históricas
@@ -2817,33 +1985,11 @@ Este capítulo explicita ese isomorfismo. Su propósito no es repetir los capít
 
 #### La siguiente tabla traduce cada herramienta del sistema a los tres dominios jurídicos simultáneamente:
 
-Universal Derecho penal/civi l
-
-PLD Derecho histórico
-
-Herrami enta
-
-R* Responsab ilidad causal
-
-Fracción del daño causalment e atribuible al nodo
-
-Necesida d causal de la operación
-
-Deuda histórica causal
-
-S Sustituibili dad
-
-Sustituibilid ad del ejecutor
-
-Fungibili dad del rol en el esquema
-
-Continuida d institucion al del sucesor (CI)
-
-α Asunción Reparación y reconocimi ento del daño
-
-Cumplimi ento de la obligació n de reporte
-
-Reconocim iento y reparación efectiva
+| Herrami enta | Universal | Derecho penal/civi l | PLD | Derecho histórico |
+| --- | --- | --- | --- | --- |
+| R* | Responsab ilidad causal | Fracción del daño causalment e atribuible al nodo | Necesida d causal de la operación | Deuda histórica causal |
+| S | Sustituibili dad | Sustituibilid ad del ejecutor | Fungibili dad del rol en el esquema | Continuida d institucion al del sucesor (CI) |
+| α | Asunción | Reparación y reconocimi ento del daño | Cumplimi ento de la obligació n de reporte | Reconocim iento y reparación efectiva |
 
 
 Δ = R*−α
@@ -2872,52 +2018,28 @@ Ejecutor visible
 
 El empleado que firmó
 
-El testaferro / el funcionar io bancario
-
-El aparato colonial / las empresas concesiona rias
-
-Nodo instr.
-
-Vehículo sin voluntad
-
-La institución como estructura
-
-La empresa offshore / la cuenta
-
-El Estado sucesor como heredero de beneficio
-
-Nf Receptor del daño
-
-La víctima directa
-
-El erario / el sistema financiero
-
-El pueblo colonizado y sus descendien tes
-
-D_total Daño cuantificad o
-
-T_inv + T_imp + ΔT_trayect oria
-
-Monto lavado + costo sistémico + distorsión estructura l
-
-Capital extraído + desarrollo perdido + déficit estructural persistente
-
-B_total Beneficio obtenido
-
-Enriquecim iento del diseñador
-
-Lo que el arquitecto integró en la economía formal
-
-Capital heredado por las metrópolis y sus sucesores
+<table>
+<tbody>
+<tr><th scope="row">Δ = R*−α</th><td>Déficit de asunción</td><td>Inversión causal / chivo expiatorio</td><td>Déficit de complian ce</td><td>Déficit histórico no saldado</td></tr>
+<tr><th scope="row">Nodo diseño</th><td>Arquitecto del sistema</td><td>El directivo que fijó los incentivos</td><td>El arquitecto del esquema (invisible)</td><td>La potencia colonial / el soberano</td></tr>
+<tr><th scope="row">Nodo ejec.</th><td>Ejecutor visible</td><td>El empleado que firmó</td><td>El testaferro / el funcionar io bancario</td><td>El aparato colonial / las empresas concesiona rias</td></tr>
+<tr><th scope="row">Nodo instr.</th><td>Vehículo sin voluntad</td><td>La institución como estructura</td><td>La empresa offshore / la cuenta</td><td>El Estado sucesor como heredero de beneficio</td></tr>
+<tr><th scope="row">Nf</th><td>Receptor del daño</td><td>La víctima directa</td><td>El erario / el sistema financiero</td><td>El pueblo colonizado y sus descendien tes</td></tr>
+<tr><th scope="row">D_total</th><td>Daño cuantificad o</td><td>T_inv + T_imp + ΔT_trayect oria</td><td>Monto lavado + costo sistémico + distorsión estructura l</td><td>Capital extraído + desarrollo perdido + déficit estructural persistente</td></tr>
+<tr><th scope="row">B_total</th><td>Beneficio obtenido</td><td>Enriquecim iento del diseñador</td><td>Lo que el arquitecto integró en la economía formal</td><td>Capital heredado por las metrópolis y sus sucesores</td></tr>
+</tbody>
+</table>
 
 
-Isomorfismo:  El isomorfismo no es una analogía. Una analogía dice "esto se parece a aquello". El isomorfismo dice "esto ES aquello bajo un cambio de nombres". El mismo operador matemático (el eigenvector dominante de la matriz de pesos) produce el mismo tipo de resultado (un vector que distribuye responsabilidad proporcional a la necesidad causal) en los tres dominios. La diferencia entre R* en derecho penal y R* en PLD no es matemática: es semántica.
+> [!NOTE]
+> Isomorfismo:  El isomorfismo no es una analogía. Una analogía dice "esto se parece a aquello". El isomorfismo dice "esto ES aquello bajo un cambio de nombres". El mismo operador matemático (el eigenvector dominante de la matriz de pesos) produce el mismo tipo de resultado (un vector que distribuye responsabilidad proporcional a la necesidad causal) en los tres dominios. La diferencia entre R* en derecho penal y R* en PLD no es matemática: es semántica.
 
 #### 1.2 El teorema de la imputación causal
 
 Los tres dominios son instancias del mismo teorema. Enunciado formalmente:
 
-Teorema de la imputación causal (informal):  En todo sistema complejo donde múltiples nodos contribuyen causalmente a un resultado, la injusticia estructural (Δ > 0 en los nodos de diseño, Δ < 0 en los nodos de ejecución) emerge como consecuencia necesaria de aplicar criterios de imputación basados en la visibilidad (dolo en derecho, firma en PLD, presencia contemporánea en historia) en lugar de criterios basados en la necesidad causal (R*). La magnitud de esa injusticia es exactamente Δ = R* − α para cada nodo, con independencia del dominio.
+> [!IMPORTANT]
+> Teorema de la imputación causal (informal):  En todo sistema complejo donde múltiples nodos contribuyen causalmente a un resultado, la injusticia estructural (Δ > 0 en los nodos de diseño, Δ < 0 en los nodos de ejecución) emerge como consecuencia necesaria de aplicar criterios de imputación basados en la visibilidad (dolo en derecho, firma en PLD, presencia contemporánea en historia) en lugar de criterios basados en la necesidad causal (R*). La magnitud de esa injusticia es exactamente Δ = R* − α para cada nodo, con independencia del dominio.
 
 La demostración es el Teorema de Inversión Causal del §6.3 del Capítulo 1, que se aplica igualmente en los tres dominios cambiando solo el nombre del criterio de imputación visible:
 
@@ -2954,35 +2076,16 @@ Propiedades de J:
 
 #### Aplicaciones inmediatas del Índice J:
 
-Aplicación Cómo se usa J Ejemplo
+| Aplicación | Cómo se usa J | Ejemplo |
+| --- | --- | --- |
+| Comparación entre sistemas jurídicos | Calcular J para el mismo tipo de caso en dos jurisdicciones distintas. | J del sistema alemán post-Núremberg vs. J del sistema de otras potencias para el mismo período histórico. |
+| Evolución temporal de un caso | Calcular J en distintos momentos del proceso: antes del juicio, después de la condena, después de las reformas institucionales. | J del sistema de imputación del Congo en 1908, 1960, 2000 y 2024: la evolución del Δ_diferido de Bélgica. |
+| Evaluación de programas de compliance | Comparar J antes y después de implementar un programa de PLD reforzado en una institución. | Un banco con J = 0.35 antes de la reforma y J = 0.72 después indica que el programa redujo la inversión causal. |
+| Índice de impunidad nacional | Calcular J promedio para todos los casos de corrupción de un país en un período. | Un J nacional de 0.15 indica que en el 85% de los casos de corrupción, los nodos de mayor R* no asumen. |
 
-Comparación entre sistemas jurídicos
+> [!NOTE]
+> **Nota sobre el cálculo de J cuando α incluye condenas penales:** Una condena penal del ejecutor tiene α_ejecutor = 1.0 (forzado). Si el ejecutor tiene R* bajo y S alto (es un chivo expiatorio), su |Δ| es alto y J baja, aunque el sistema "haya actuado". Esto captura algo importante: un sistema que condena al ejecutor sin tocar al diseñador puede tener J más bajo que un sistema que no condena a nadie, pero al menos no produce la asimetría del chivo expiatorio. La justicia procesal (hubo juicio) no equivale a la justicia estructural (la asunción fue proporcional a la causalidad).
 
-Calcular J para el mismo tipo de caso en dos jurisdicciones distintas.
-
-J del sistema alemán post-Núremberg vs. J del sistema de otras potencias para el mismo período histórico.
-
-Evolución temporal de un caso
-
-Calcular J en distintos momentos del proceso: antes del juicio, después de la condena, después de las reformas institucionales.
-
-J del sistema de imputación del Congo en 1908, 1960, 2000 y 2024: la evolución del Δ_diferido de Bélgica.
-
-Evaluación de programas de compliance
-
-Comparar J antes y después de implementar un programa de PLD reforzado en una institución.
-
-Un banco con J = 0.35 antes de la reforma y J = 0.72 después indica que el programa redujo la inversión causal.
-
-Un J nacional de 0.15 indica que en el 85% de los casos de corrupción, los nodos de mayor R* no asumen.
-
-Índice de impunidad nacional
-
-Calcular J promedio para todos los casos de corrupción de un país en un período.
-
-::: {.recuadro .nota-violeta}
-**Nota sobre el cálculo de J cuando α incluye condenas penales:** Una condena penal del ejecutor tiene α_ejecutor = 1.0 (forzado). Si el ejecutor tiene R* bajo y S alto (es un chivo expiatorio), su |Δ| es alto y J baja, aunque el sistema "haya actuado". Esto captura algo importante: un sistema que condena al ejecutor sin tocar al diseñador puede tener J más bajo que un sistema que no condena a nadie, pero al menos no produce la asimetría del chivo expiatorio. La justicia procesal (hubo juicio) no equivale a la justicia estructural (la asunción fue proporcional a la causalidad).
-:::
 
 
 #### 2.2 Coeficiente de Impunidad del Diseñador (I_d)
@@ -2998,29 +2101,17 @@ Interpretación de I_d:
 - I_d = 0: el diseñador asumió exactamente lo que causó. No hay impunidad.
 - I_d entre 0 y 1: el diseñador evadió parte de su responsabilidad causal, pero los ejecutores también tienen α < 1. Hay inversión causal pero no extrema.
 - I_d > 1: el diseñador evadió más de lo que los ejecutores asumieron en proporción. El sistema es más duro con los ejecutores que con el diseñador: inversión causal estructural grave.
+
 - I_d → ∞ (cuando ᾱ_ejecutores → 1): los ejecutores asumen el 100% mientras el diseñador asume cero. Es el caso límite del chivo expiatorio perfecto.
 
-
-Comparación entre los tres dominios del libro:
-
-Caso R*_d α_d ᾱ_ejec I_d y significado
-
-
-#### 0.52 0.00 0.20* I_d = 0.52 / (1-0.20) = 0.65. Impunidad moderada: el diseñador principal fue procesado parcialmente pero los ejecutores cargaron proporcionalmente más.
-
-Núremberg (N1 como diseñador)
-
-#### 0.48 0.00 0.15 I_d = 0.48 / 0.85 = 0.56. El arquitecto murió impune pero los ejecutores tampoco asumieron mucho.
-
-BCCI (Abedi como diseñador)
-
-0.44 0.00 0.60** I_d = 0.44 / 0.40 = 1.10. Inversión causal grave: el beneficiario real no asumió nada mientras los intermediarios (con α ≈ 0.60 forzado) cargaron la sanción.
-
-Panama Papers (funcionario)
-
-0.32*** 0.075 N/A I_d no aplica en su forma estándar para el dominio histórico. En su lugar se usa Δ_diferido = 0.247.
-
-Congo Belga (Bélgica actual)
+<table>
+<tbody>
+<tr><th scope="row">Núremberg (N1 como diseñador)</th><td>0.52</td><td>0.00</td><td>0.20*</td><td>I_d = 0.52 / (1-0.20) = 0.65. Impunidad moderada: el diseñador principal fue procesado parcialmente pero los ejecutores cargaron proporcionalmente más.</td></tr>
+<tr><th scope="row">BCCI (Abedi como diseñador)</th><td>0.48</td><td>0.00</td><td>0.15</td><td>I_d = 0.48 / 0.85 = 0.56. El arquitecto murió impune pero los ejecutores tampoco asumieron mucho.</td></tr>
+<tr><th scope="row">Panama Papers (funcionario)</th><td>0.44</td><td>0.00</td><td>0.60**</td><td>I_d = 0.44 / 0.40 = 1.10. Inversión causal grave: el beneficiario real no asumió nada mientras los intermediarios (con α ≈ 0.60 forzado) cargaron la sanción.</td></tr>
+<tr><th scope="row">Congo Belga (Bélgica actual)</th><td>0.32***</td><td>0.075</td><td>N/A</td><td>I_d no aplica en su forma estándar para el dominio histórico. En su lugar se usa Δ_diferido = 0.247.</td></tr>
+</tbody>
+</table>
 
 #### * En Núremberg, α_ejecutores = 0.20 porque muchos ejecutores de bajo nivel no fueron procesados.
 
@@ -3061,7 +2152,8 @@ La interpretación de cada dinámica:
 
 La prescripción ontológica no es un límite temporal arbitrario: es el punto donde la posición heredada cae por debajo de ε, el umbral mínimo que el análisis político establece como base suficiente para una reclamación proporcional. Ese umbral es político, no matemático. Lo que la fórmula produce es el tiempo t en que se alcanza ese umbral dado el comportamiento del sucesor.
 
-Analogía: La deuda que se amortiza con reforma Una deuda que un banco cancela al 3% anual tarda unos 23 años en pagarse a la mitad. Pero si el sucesor además reforma las instituciones (aumenta RI), la Posición_heredada decae más rápido. Un Estado que no hace nada mantiene su Posición_heredada casi constante durante siglos. Un Estado que reforma profundamente sus instituciones puede reducir su Posición_heredada a ε en 50-70 años. La prescripción ontológica es el tiempo que tarda esa reducción dado el comportamiento real del sucesor.
+> [!TIP]
+> Analogía: La deuda que se amortiza con reforma Una deuda que un banco cancela al 3% anual tarda unos 23 años en pagarse a la mitad. Pero si el sucesor además reforma las instituciones (aumenta RI), la Posición_heredada decae más rápido. Un Estado que no hace nada mantiene su Posición_heredada casi constante durante siglos. Un Estado que reforma profundamente sus instituciones puede reducir su Posición_heredada a ε en 50-70 años. La prescripción ontológica es el tiempo que tarda esa reducción dado el comportamiento real del sucesor.
 
 #### 2.4 La ecuación unificada de la injusticia estructural
 
@@ -3092,7 +2184,8 @@ Esta ecuación unificada es el resultado central del capítulo: demuestra que lo
 
 ### §3.  Apéndice: sección §3.7 para insertar en el Capítulo 3
 
-Insertar como §3.7 al final de las herramientas del Cap. 3, antes de los casos resueltos
+> [!NOTE]
+> Insertar como §3.7 al final de las herramientas del Cap. 3, antes de los casos resueltos
 
 ### §3.7 La prescripción ontológica: cuándo la posición heredada se agota
 
@@ -3134,7 +2227,8 @@ La conclusión es contraintuitiva, pero ontológicamente correcta: la prescripci
 
 #### histórica y la velocidad de su prescripción son exactamente proporcionales al esfuerzo del sucesor por saldar la deuda.
 
-La prescripción ontológica y la jurídica no se corresponden necesariamente:  Un Estado puede estar legalmente prescrito (el plazo jurídico venció) pero ontológicamente vigente (la posición heredada sigue siendo alta). Inversamente, puede estar ontológicamente prescrito (PH < ε) pero legalmente reclamable. El sistema no resuelve ese conflicto: lo identifica con precisión. La decisión sobre cuál criterio prevalece en un caso concreto es política, no matemática. Lo que el cálculo aporta es la medida exacta de la posición heredada actual y el tiempo estimado hasta la prescripción ontológica bajo distintos escenarios de reforma.
+> [!NOTE]
+> La prescripción ontológica y la jurídica no se corresponden necesariamente:  Un Estado puede estar legalmente prescrito (el plazo jurídico venció) pero ontológicamente vigente (la posición heredada sigue siendo alta). Inversamente, puede estar ontológicamente prescrito (PH < ε) pero legalmente reclamable. El sistema no resuelve ese conflicto: lo identifica con precisión. La decisión sobre cuál criterio prevalece en un caso concreto es política, no matemática. Lo que el cálculo aporta es la medida exacta de la posición heredada actual y el tiempo estimado hasta la prescripción ontológica bajo distintos escenarios de reforma.
 
 
 ### §4.  Código Python: las cuatro herramientas nuevas
@@ -3175,7 +2269,8 @@ Esta limitación no es un defecto de los sistemas: es una decisión metodológic
 El cálculo de la responsabilidad en el dominio clínico hace exactamente eso: construye el grafo causal del síntoma, distribuye el peso causal entre los factores de la historia del sujeto, y produce un mapa de intervención que señala qué nodo trabajar primero, cuánto depende el síntoma de ese nodo, y si el síntoma desaparecería si ese nodo se transforma o si hay otros nodos de peso equivalente que también deben trabajarse.
 
 
-Analogía: El médico y el síntoma de la fiebre La fiebre es un síntoma. Su diagnóstico descriptivo es "hipertermia". Pero el médico no trata la fiebre: trata lo que la causa. Para eso necesita el grafo causal: ¿es una infección bacteriana? ¿viral? ¿un proceso inflamatorio autoinmune? El peso causal de cada factor determina la intervención. Tratar el síntoma sin conocer el grafo causal es dar un antipirético a un paciente con apendicitis: resuelve la descripción sin tocar la causa.
+> [!TIP]
+> Analogía: El médico y el síntoma de la fiebre La fiebre es un síntoma. Su diagnóstico descriptivo es "hipertermia". Pero el médico no trata la fiebre: trata lo que la causa. Para eso necesita el grafo causal: ¿es una infección bacteriana? ¿viral? ¿un proceso inflamatorio autoinmune? El peso causal de cada factor determina la intervención. Tratar el síntoma sin conocer el grafo causal es dar un antipirético a un paciente con apendicitis: resuelve la descripción sin tocar la causa.
 
 #### 1.2 La diferencia ontológica con los dominios jurídicos
 
@@ -3185,86 +2280,41 @@ En el dominio clínico, el grafo es interior. Los nodos son factores de la histo
 
 La consecuencia práctica es fundamental: en el dominio clínico, α no es una acción externa (reportar, reparar, reconocer). Es φ₂: la segunda mediación, el proceso de asumir el acto como propio e integrarlo en la historia. El trabajo terapéutico es exactamente el trabajo de α: construir la capacidad de asumir lo que ocurrió, no para cargarlo como culpa, sino para integrarlo como parte de la propia historia y dejar de ser determinado por ello.
 
-::: {.recuadro .nota-verde}
-**Nota ontológica fundamental:** En clínica, nadie es culpable de su síntoma. El grafo causal no produce un vector de culpa sino un mapa de peso: qué factores de la historia tienen mayor influencia causal en lo que ocurre hoy. El factor con R* más alto no es el culpable: es el que más necesita ser trabajado. Esta distinción es la que permite usar el sistema sin reproducir la dinámica de culpabilización que muchos pacientes ya cargan.
-:::
+> [!NOTE]
+> **Nota ontológica fundamental:** En clínica, nadie es culpable de su síntoma. El grafo causal no produce un vector de culpa sino un mapa de peso: qué factores de la historia tienen mayor influencia causal en lo que ocurre hoy. El factor con R* más alto no es el culpable: es el que más necesita ser trabajado. Esta distinción es la que permite usar el sistema sin reproducir la dinámica de culpabilización que muchos pacientes ya cargan.
+
 
 
 ### §2.  Página puente — Traducción al lenguaje clínico
 
 Esta página resume cómo se renombran las herramientas del sistema en el contexto de la psicología clínica y la psiquiatría. El lector con formación clínica puede comenzar aquí sin haber leído los capítulos anteriores.
 
-Herramienta En clínica se llama
-
-Qué significa en la práctica terapéutica
-
-Grafo causal G
-
-Mapa causal del síntoma
-
-La red de factores (biológicos, vinculares, traumáticos, culturales, relacionales) que contribuyen causalmente al síntoma del paciente, con sus relaciones y sus pesos relativos.
-
-Nodo Factor causal Cualquier elemento de la historia del sujeto con capacidad de influir causalmente en el síntoma: un vínculo, un trauma, un aprendizaje, una condición biológica, un contexto cultural.
-
-R* (vector) Peso causal en el síntoma
-
-La fracción del síntoma causalmente atribuible a cada factor. R*ᵢ = 0.40 significa que ese factor de la historia contribuye al 40% de la intensidad del síntoma. Es el mapa de prioridades de intervención.
-
-S (índice) Sustituibilidad del factor /
-
-S alto: el síntoma habría emergido con cualquier
-
-
-genericidad del síntoma
+| Herramienta | En clínica se llama | Qué significa en la práctica terapéutica |
+| --- | --- | --- |
+| Grafo causal G | Mapa causal del síntoma | La red de factores (biológicos, vinculares, traumáticos, culturales, relacionales) que contribuyen causalmente al síntoma del paciente, con sus relaciones y sus pesos relativos. |
+| Nodo | Factor causal | Cualquier elemento de la historia del sujeto con capacidad de influir causalmente en el síntoma: un vínculo, un trauma, un aprendizaje, una condición biológica, un contexto cultural. |
+| R* (vector) | Peso causal en el síntoma | La fracción del síntoma causalmente atribuible a R*ᵢ cada factor. = 0.40 significa que ese factor de la historia contribuye al 40% de la intensidad del síntoma. Es el mapa de prioridades de intervención. |
+| S (índice) | Sustituibilidad del factor / | S alto: el síntoma habría emergido con cualquier |
+<table>
+<tbody>
+<tr><th scope="row">α (coeficiente)</th><td>Integración terapéutica φ₂ mediante</td><td>El grado en que el sujeto φ₂) ha integrado (mediante el factor como parte de su historia asumida. α = 0: el factor actúa desde afuera, el sujeto no lo ha metabolizado. α = 1: el factor ha sido integrado y ya no determina reactivamente.</td></tr>
+</tbody>
+</table>
 
 historia similar. El problema es estructural/sistémico, no particular a este sujeto. S bajo: este síntoma específico depende de la historia particular de esta persona.
 
-α (coeficiente) Integración terapéutica mediante φ₂
-
-El grado en que el sujeto ha integrado (mediante φ₂) el factor como parte de su historia asumida. α = 0: el factor actúa desde afuera, el sujeto no lo ha metabolizado. α = 1: el factor ha sido integrado y ya no determina reactivamente.
-
-Δ = R* − α Agenda terapéutica oculta
-
-La brecha entre el peso causal de un factor y su integración. Δ positivo alto = factor de gran peso que aún no se ha trabajado. El Δ es la guía de prioridades de la terapia.
-
-D_total Daño biográfico acumulado
-
-T_invertido (pérdida directa en el momento del trauma), T_impedido (desarrollo truncado durante el período de síntoma activo), ΔT_trayectoria (potencial biográfico que el síntoma ha impedido desarrollar).
-
-B_total Ganancia terapéutica
-
-Lo que el proceso de integración (φ₂) genera: G_inmediato (alivio del síntoma), G_acumulado (capacidades recuperadas durante la terapia), ΔG_trayectoria
-
-
-(transformación del potencial biográfico futuro).
-
-Hijos de Afrodita
-
-Diagnóstico de la disposición de la voluntad
-
-El hijo dominante es la descripción más precisa del estado interno del sujeto en el momento de la consulta. Es la herramienta diagnóstica central de este capítulo. No reemplaza el diagnóstico descriptivo: lo complementa con la dimensión de la voluntad.
-
-Aego-Damasén
-
-Rigidez identitaria / ego sobredensificado
-
-El ego se ha vuelto tan fijo que ya no puede moverse. Alta presencia, nula apertura. La voluntad está paralizada dentro de un sistema de certezas que no admite cuestionamiento.
-
-Aego-Peribea Identidad prestada / ego sin eje propio
-
-El sujeto actúa, produce, se mueve, pero desde la pendiente del campo de otro. Su voluntad es la de otro. No tiene eje propio desde el que evaluar sus actos.
-
-Disforia de identidad
-
-Disociación entre el acto y la asunción
-
-El sujeto actúa desde una imagen o un rol que no corresponde a su integral acumulada. Hay una brecha entre lo que hace y lo que es. El síntoma es la tensión de esa brecha.
-
-Dilema de Aquiles
-
-Parálisis ante la disyuntiva entre el deseo y la trayectoria
-
-El sujeto está atrapado entre dos posibilidades igualmente imposibles: avanzar en la dirección que desea (con el costo de perder lo que tiene) o mantener lo que tiene (con
+<table>
+<tbody>
+<tr><th scope="row">Δ = R* − α</th><td>Agenda terapéutica oculta</td><td>La brecha entre el peso causal de un factor y su integración. Δ positivo alto = factor de gran peso que aún no se ha trabajado. El Δ es la guía de prioridades de la terapia.</td></tr>
+<tr><th scope="row">D_total</th><td>Daño biográfico acumulado</td><td>T_invertido (pérdida directa en el momento del trauma), T_impedido (desarrollo truncado durante el período de síntoma activo), ΔT_trayectoria (potencial biográfico que el síntoma ha impedido desarrollar).</td></tr>
+<tr><th scope="row">B_total</th><td>Ganancia terapéutica</td><td>Lo que el proceso de (φ₂) integración genera: G_inmediato (alivio del síntoma), G_acumulado (capacidades recuperadas durante la terapia), ΔG_trayectoria</td></tr>
+<tr><th scope="row">Hijos de Afrodita</th><td>Diagnóstico de la disposición de la voluntad</td><td>El hijo dominante es la descripción más precisa del estado interno del sujeto en el momento de la consulta. Es la herramienta diagnóstica central de este capítulo. No reemplaza el diagnóstico descriptivo: lo complementa con la dimensión de la voluntad.</td></tr>
+<tr><th scope="row">Aego- Damasén</th><td>Rigidez identitaria / ego sobredensificado</td><td>El ego se ha vuelto tan fijo que ya no puede moverse. Alta presencia, nula apertura. La voluntad está paralizada dentro de un sistema de certezas que no admite cuestionamiento.</td></tr>
+<tr><th scope="row">Aego-Peribea</th><td>Identidad prestada / ego sin eje propio</td><td>El sujeto actúa, produce, se mueve, pero desde la pendiente del campo de otro. Su voluntad es la de otro. No tiene eje propio desde el que evaluar sus actos.</td></tr>
+<tr><th scope="row">Disforia de identidad</th><td>Disociación entre el acto y la asunción</td><td>El sujeto actúa desde una imagen o un rol que no corresponde a su integral acumulada. Hay una brecha entre lo que hace y lo que es. El síntoma es la tensión de esa brecha.</td></tr>
+<tr><th scope="row">Dilema de Aquiles</th><td>Parálisis ante la disyuntiva entre el deseo y la trayectoria</td><td>El sujeto está atrapado entre dos posibilidades igualmente imposibles: avanzar en la dirección que desea (con el costo de perder lo que tiene) o mantener lo que tiene (con</td></tr>
+</tbody>
+</table>
 
 
 el costo de negar su deseo). La parálisis es el síntoma de ese atrapamiento.
@@ -3283,34 +2333,13 @@ El grafo causal del síntoma se construye identificando todos los factores que c
 
 posterior, que a su vez activa el síntoma en contextos que de otro modo serían neutros. 4.  Estimar los pesos con evidencia clínica. En el contexto clínico, la evidencia es cualitativa: la frecuencia de aparición del síntoma ligada a cada factor, la intensidad de la respuesta emocional cuando se toca cada nodo en sesión, los patrones de activación que el paciente reporta, los resultados de intervenciones previas (qué trabajar redujo el síntoma, qué dejó de tocarse y el síntoma persistió).
 
-Nivel del nodo Tipo de factor Fuente de evidencia para estimar el peso w
-
-Biológico Condición genética, neurobiológica, metabólica, farmacológica.
-
-Historial médico, estudios neuropsicológicos, respuesta a tratamiento farmacológico previo, historia familiar de cuadros similares.
-
-Vincular temprano
-
-Patrón de apego, relación con figuras parentales, ambiente emocional de la infancia.
-
-Historia vital relatada, patrones de relación actuales que repiten dinámicas tempranas, respuesta emocional al evocar esas figuras en sesión.
-
-Traumático Eventos específicos de alto impacto: abuso, pérdidas, humillaciones, abandonos.
-
-Intensidad de la respuesta emocional al evocar el evento, frecuencia de activación del síntoma en contextos que recuerdan al trauma, presencia de mecanismos disociativos.
-
-Relacional actual Dinámica de relaciones
-
-Correlación entre el estado de estas
-
-
-presentes: pareja, familia, trabajo.
-
-relaciones y la intensidad del síntoma, patrones de activación específicos a contextos relacionales.
-
-Cultural/sistémico Expectativas de género, clase, cultura, mandatos familiares transmitidos.
-
-Identificación del "mandato" que el síntoma satisface o transgrede, tensión entre el deseo del sujeto y lo que su sistema cultural considera aceptable.
+| Nivel del nodo | Tipo de factor | Fuente de evidencia para estimar el peso w |
+| --- | --- | --- |
+| Biológico | Condición genética, neurobiológica, metabólica, farmacológica. | Historial médico, estudios neuropsicológicos, respuesta a tratamiento farmacológico previo, historia familiar de cuadros similares. |
+| Vincular temprano | Patrón de apego, relación con figuras parentales, ambiente emocional de la infancia. | Historia vital relatada, patrones de relación actuales que repiten dinámicas tempranas, respuesta emocional al evocar esas figuras en sesión. |
+| Traumático | Eventos específicos de alto impacto: abuso, pérdidas, humillaciones, abandonos. | Intensidad de la respuesta emocional al evocar el evento, frecuencia de activación del síntoma en contextos que recuerdan al trauma, presencia de mecanismos disociativos. |
+| Relacional actual | Dinámica de relaciones | Correlación entre el estado de estas |
+| Cultural/sistémico | Expectativas de género, clase, cultura, mandatos familiares transmitidos. | Identificación del "mandato" que el síntoma satisface o transgrede, tensión entre el deseo del sujeto y lo que su sistema cultural considera aceptable. |
 
 #### 3.2 R* en clínica: el peso causal en el síntoma y las prioridades de intervención
 
@@ -3327,9 +2356,9 @@ está distribuido entre muchos nodos (distribución plana), el síntoma es sist�
 - Como medida de progreso: calcular R* al inicio de la terapia, a los seis meses y al año permite ver si el tratamiento está actuando sobre los nodos de mayor peso o solo sobre los más accesibles.
 
 
-::: {.recuadro .nota-verde}
-**Nota clínica:** El error clínico que R* ayuda a evitar: intervenir en el nodo más accesible en lugar del nodo de mayor peso. El paciente frecuentemente trae a sesión el nodo que le es más fácil narrar, no el nodo que tiene mayor peso causal en su síntoma. Un grafo causal bien construido permite distinguir entre la narrativa del paciente (qué dice que es el problema) y la estructura causal (qué tiene mayor peso en el síntoma).
-:::
+> [!NOTE]
+> **Nota clínica:** El error clínico que R* ayuda a evitar: intervenir en el nodo más accesible en lugar del nodo de mayor peso. El paciente frecuentemente trae a sesión el nodo que le es más fácil narrar, no el nodo que tiene mayor peso causal en su síntoma. Un grafo causal bien construido permite distinguir entre la narrativa del paciente (qué dice que es el problema) y la estructura causal (qué tiene mayor peso en el síntoma).
+
 
 #### 3.3 S en clínica: sustituibilidad del factor y genericidad del síntoma
 
@@ -3340,35 +2369,11 @@ S alto en un nodo clínico significa: el síntoma habría emergido con cualquier
 
 S bajo en un nodo clínico significa: la forma específica que tomó este factor en la historia de este sujeto fue determinante. El trauma particular, la figura vincular específica, el evento concreto: sin ese evento preciso, el síntoma no habría tomado esta forma. Las intervenciones de mayor eficacia para nodos con S bajo son las que trabajan directamente con el material específico: el recuerdo concreto, la figura específica, el momento preciso.
 
-Qué significa Tipo de intervención más eficaz
-
-S del nodo
-
-Ejemplo clínico
-
-S alto (0.70– 0.95)
-
-El síntoma habría emergido con cualquier historia similar bajo ese contexto. El factor es estructural.
-
-Intervenciones sistémicas: cambio de entorno, cuestionamiento del mandato cultural, trabajo de grupo o familiar.
-
-Mandato de género. Cultura de una familia donde mostrar vulnerabilidad era castigado.
-
-S moderado (0.35– 0.69)
-
-El factor combinó algo estructural con algo particular de esta historia.
-
-Combinación: trabajo individual sobre el material específico y trabajo contextual sobre la estructura.
-
-Patrón de apego evitativo generalizado más un vínculo específico que lo ancló.
-
-S bajo (0.05– 0.34)
-
-La forma específica de este factor en esta historia es determinante. Sin ese evento preciso, el síntoma sería diferente.
-
-Trabajo directo con el material específico: procesamiento del trauma concreto, trabajo con la figura específica.
-
-Abuso específico a los 8 años por una figura de confianza identificada.
+| S del nodo | Qué significa | Tipo de intervención más eficaz | Ejemplo clínico |
+| --- | --- | --- | --- |
+| S alto (0.70– 0.95) | El síntoma habría emergido con cualquier historia similar bajo ese contexto. El factor es estructural. | Intervenciones sistémicas: cambio de entorno, cuestionamiento del mandato cultural, trabajo de grupo o familiar. | Mandato de género. Cultura de una familia donde mostrar vulnerabilidad era castigado. |
+| S moderado (0.35– 0.69) | El factor combinó algo estructural con algo particular de esta historia. | Combinación: trabajo individual sobre el material específico y trabajo contextual sobre la estructura. | Patrón de apego evitativo generalizado más un vínculo específico que lo ancló. |
+| S bajo (0.05– 0.34) | La forma específica de este factor en esta historia es determinante. Sin ese evento preciso, el síntoma sería diferente. | Trabajo directo con el material específico: procesamiento del trauma concreto, trabajo con la figura específica. | Abuso específico a los 8 años por una figura de confianza identificada. |
 
 
 #### 3.4 α y Δ en clínica: la agenda terapéutica como mapa del déficit de integración
@@ -3377,36 +2382,21 @@ En el dominio clínico, α no es una acción que el sujeto ha tomado: es el grad
 
 #### La escala de α clínico tiene gradaciones específicas:
 
-Nivel de integración
-
-α clínico
-
-Descripción observable en sesión
-
-Negación / escisión
-
-0.00– 0.05 El sujeto no reconoce el factor como parte de su historia o lo disocia completamente. "Eso no me afectó." "Ya lo superé." Pero el síntoma sigue activo en presencia de activadores del factor.
-
-Reconocimiento intelectual
-
-0.06– 0.20 El sujeto puede nombrar el factor, pero sin resonancia emocional. "Sé que mi madre era fría, pero eso ya no me importa." El saber no ha llegado al sentir.
-
-Reconocimiento con resonancia
-
-0.21– 0.45 El sujeto reconoce el factor y accede a la resonancia emocional, pero la respuesta es todavía reactiva. El factor activa pero no está integrado.
-
-Elaboración en proceso
-
-0.46– 0.70 El sujeto trabaja activamente con el factor. Puede estar con él sin ser dominado. La intensidad del síntoma ha disminuido pero sigue presente en ciertos activadores.
-
-Integración funcional
-
-0.71– 0.89 El factor ha sido incorporado a la historia asumida. El sujeto puede
-
+| Nivel de integración | α clínico | Descripción observable en sesión |
+| --- | --- | --- |
+| Negación / escisión | 0.00– 0.05 | El sujeto no reconoce el factor como parte de su historia o lo disocia completamente. "Eso no me afectó." "Ya lo superé." Pero el síntoma sigue activo en presencia de activadores del factor. |
+| Reconocimiento intelectual | 0.06– 0.20 | El sujeto puede nombrar el factor, pero sin resonancia emocional. "Sé que mi madre era fría, pero eso ya no me importa." El saber no ha llegado al sentir. |
+| Reconocimiento con resonancia | 0.21– 0.45 | El sujeto reconoce el factor y accede a la resonancia emocional, pero la respuesta es todavía reactiva. El factor activa pero no está integrado. |
+| Elaboración en proceso | 0.46– 0.70 | El sujeto trabaja activamente con el factor. Puede estar con él sin ser dominado. La intensidad del síntoma ha disminuido pero sigue presente en ciertos activadores. |
+| Integración funcional | 0.71– 0.89 | El factor ha sido incorporado a la historia asumida. El sujeto puede |
+<table>
+<tbody>
+<tr><th scope="row">Integración plena</th><td>0.90– 1.00</td><td>El factor forma parte de la narrativa coherente de la propia historia. El sujeto puede estar en presencia de activadores sin respuesta reactiva. Ha dejado de ser un nodo activo en el grafo del síntoma.</td></tr>
+</tbody>
+</table>
 
 nombrarlo como propio, con sus matices, sin que eso active el síntoma en la mayoría de los contextos.
 
-Integración plena 0.90– 1.00 El factor forma parte de la narrativa coherente de la propia historia. El sujeto puede estar en presencia de activadores sin respuesta reactiva. Ha dejado de ser un nodo activo en el grafo del síntoma.
 
 El déficit de integración Δ = R* − α en el contexto clínico produce lo que podría llamarse la agenda terapéutica implícita: el mapa de qué factores tienen mayor peso causal no trabajado. Δ positivo alto es la señal de intervención prioritaria. Δ negativo es un caso inusual pero posible: el sujeto ha sobre-trabajado un factor de bajo peso causal, sobreatribuyéndole responsabilidad en el síntoma (autoculpa excesiva, fijación en un elemento que no es el más importante).
 
@@ -3419,50 +2409,14 @@ El diagnóstico del hijo dominante no reemplaza al diagnóstico descriptivo (el 
 
 dominante es Deimos —parálisis ante la multiplicidad de posibilidades— describe la estructura de su voluntad que produce ese resultado. Y esa descripción es directamente operativa para la intervención.
 
-Hijo Manifestació n clínica
-
-Diagnóstico descriptivo relacionado
-
-Indicación terapéutica
-
-Eros Apertura activa, búsqueda de lo nuevo, capacidad de vincularse. Es la disposición más saludable cuando está equilibrada con Anteros.
-
-No es un cuadro patológico por sí mismo. Eros sin Anteros puede llevar a dependencia.
-
-Trabajar el desarrollo de Anteros como contrapeso. El Eros puro necesita límites propios para no disolverse en la alteridad.
-
-Deimos Parálisis ante las opciones. Incapacidad de decidir. El vértigo de lo posible. "No sé qué quiero."
-
-Trastornos de ansiedad, indecisión crónica, procrastinación, fobia a la elección.
-
-Reducir el espacio de posibilidades mediante estructura. Trabajar la tolerancia a la incertidumbre . Aumentar T gradualmente.
-
-Anteros Afirmación de sí mismo, resistencia a la disolución en el campo del otro. Sano cuando equilibrado; patológico cuando rígido.
-
-Rasgos narcisistas, dificultad para la empatía, resistencia a la influencia, rigidez.
-
-Cuando es sano: reforzar. Cuando es rígido: trabajar la apertura a la alteridad sin perder el eje propio.
-
-
-Fobos Respuesta reactiva ante amenaza concreta o percibida. Hipervigilanci a, anticipación del daño, activación de defensa.
-
-TEPT, trastornos de ansiedad por amenaza, fobia específica, respuestas de ataque-huida desproporcionada s.
-
-Trabajo con el material traumático que bajó θ_F. Regulación del sistema de amenaza. Desarrollo de φ₂ como mediador entre la amenaza y la respuesta.
-
-Potós Anhelo persistente de lo ausente. Vivir en el pasado o en la fantasía de lo que debería haber sido. "No puedo dejar de pensar en X."
-
-Duelo complicado, depresión con componente nostálgico, dependencia emocional de lo perdido, rumiación.
-
-Trabajo de duelo y desapego. El vector de voluntad sigue apuntando a un objeto que ya no está. La terapia necesita re-orientar ese vector al presente.
-
-Reforzar y proteger. Cuando Harmonía emerge en sesión, es evidencia de que φ₂ está operando. La terapia debe nombrarla explícitament e.
-
-Harmoní a
-
-Equilibrio dinámico entre lo propio y la alteridad. φ₂ activa. Puede estar con el otro sin perder el eje propio.
-
-No es un estado patológico: es el indicador de salud. Su presencia en el diagnóstico indica recursos terapéuticos disponibles.
+| Hijo | Manifestació n clínica | Diagnóstico descriptivo relacionado | Indicación terapéutica |
+| --- | --- | --- | --- |
+| Eros | Apertura activa, búsqueda de lo nuevo, capacidad de vincularse. Es la disposición más saludable cuando está equilibrada con Anteros. | No es un cuadro patológico por sí mismo. Eros sin Anteros puede llevar a dependencia. | Trabajar el desarrollo de Anteros como contrapeso. El Eros puro necesita límites propios para no disolverse en la alteridad. |
+| Deimos | Parálisis ante las opciones. Incapacidad de decidir. El vértigo de lo posible. "No sé qué quiero." | Trastornos de ansiedad, indecisión crónica, procrastinación, fobia a la elección. | Reducir el espacio de posibilidades mediante estructura. Trabajar la tolerancia a la incertidumbre . Aumentar T gradualmente. |
+| Anteros | Afirmación de sí mismo, resistencia a la disolución en el campo del otro. Sano cuando equilibrado; patológico cuando rígido. | Rasgos narcisistas, dificultad para la empatía, resistencia a la influencia, rigidez. | Cuando es sano: reforzar. Cuando es rígido: trabajar la apertura a la alteridad sin perder el eje propio. |
+| Fobos | Respuesta reactiva ante amenaza concreta o percibida. Hipervigilanci a, anticipación del daño, activación de defensa. | TEPT, trastornos de ansiedad por amenaza, fobia específica, respuestas de ataque-huida desproporcionada s. | Trabajo con el material traumático que bajó θ_F. Regulación del sistema de amenaza. Desarrollo de φ₂ como mediador entre la amenaza y la respuesta. |
+| Potós | Anhelo persistente de lo ausente. Vivir en el pasado o en la fantasía de lo que debería haber sido. "No puedo dejar de pensar en X." | Duelo complicado, depresión con componente nostálgico, dependencia emocional de lo perdido, rumiación. | Trabajo de duelo y desapego. El vector de voluntad sigue apuntando a un objeto que ya no está. La terapia necesita re- orientar ese vector al presente. |
+| Harmoní a | Equilibrio dinámico entre lo propio y la φ₂ alteridad. activa. Puede estar con el otro sin perder el eje propio. | No es un estado patológico: es el indicador de salud. Su presencia en el diagnóstico indica recursos terapéuticos disponibles. | Reforzar y proteger. Cuando Harmonía emerge en sesión, es evidencia de φ₂ que está operando. La terapia debe nombrarla explícitament e. |
 
 
 #### 3.6 El Aego-Damasén y el Aego-Peribea: las dos formas de la identidad suspendida
@@ -3471,59 +2425,37 @@ En el dominio clínico, las dos formas del Aego describen las dos variantes más
 
 Aego-Damasén Aego-Peribea
 
-Imagen clínica
-
-El sujeto tiene una identidad fuertemente consolidada pero rígida. No puede moverse hacia la alteridad sin amenaza. Alta certeza sobre sí mismo que no admite revisión.
-
-El sujeto actúa, produce, se relaciona, pero desde el eje de otro. No tiene centro propio. Su voluntad es la pendiente del campo externo.
-
-Síntoma central
-
-Dificultad para vincularse emocionalmente. Sensación de superioridad que aísla. Miedo al cambio que se experimenta como amenaza existencial.
-
-No saber quién es cuando está solo. Dependencia del campo externo para orientar la voluntad. Sensación de vaciamiento cuando el campo desaparece.
-
-Hijo dominante
-
-Anteros rígido + Deimos ante la alteridad.
-
-Fobos + Potós. El miedo a afirmar el eje propio y el anhelo de un vínculo que lo oriente.
-
-R* en el grafo
-
-El propio sistema de certezas (el "carácter fijo") tiene R* alto en el síntoma del aislamiento.
-
-La figura de apego o el contexto que generó la dependencia tiene R* alto en el síntoma de vacío.
-
-
-Intervención Trabajar la apertura gradual sin amenazar el eje: crear condiciones donde la alteridad sea segura. No cuestionar el ego directamente sino ampliar el espacio de lo posible.
-
-Construir experiencias de eje propio: decisiones pequeñas que el sujeto toma desde sí mismo. Distinguir entre la voluntad propia y la voluntad del campo. Fortalecer Anteros.
-
-Trastorno de personalidad dependiente. Codependencia. Trastorno de identidad disociativo (en formas graves).
-
-Diagnóstico DSM relacionado
-
-Rasgos narcisistas. Trastorno de personalidad obsesivo-compulsivo. Rigidez caracterológica.
+<table>
+<tbody>
+<tr><th scope="row">Imagen clínica</th><td>El sujeto tiene una identidad fuertemente consolidada pero rígida. No puede moverse hacia la alteridad sin amenaza. Alta certeza sobre sí mismo que no admite revisión.</td><td>El sujeto actúa, produce, se relaciona, pero desde el eje de otro. No tiene centro propio. Su voluntad es la pendiente del campo externo.</td></tr>
+<tr><th scope="row">Síntoma central</th><td>Dificultad para vincularse emocionalmente. Sensación de superioridad que aísla. Miedo al cambio que se experimenta como amenaza existencial.</td><td>No saber quién es cuando está solo. Dependencia del campo externo para orientar la voluntad. Sensación de vaciamiento cuando el campo desaparece.</td></tr>
+<tr><th scope="row">Hijo dominante</th><td>Anteros rígido + Deimos ante la alteridad.</td><td>Fobos + Potós. El miedo a afirmar el eje propio y el anhelo de un vínculo que lo oriente.</td></tr>
+<tr><th scope="row">R* en el grafo</th><td>El propio sistema de certezas (el &quot;carácter fijo&quot;) tiene R* alto en el síntoma del aislamiento.</td><td>La figura de apego o el contexto que generó la dependencia tiene R* alto en el síntoma de vacío.</td></tr>
+<tr><th scope="row">Intervención</th><td>Trabajar la apertura gradual sin amenazar el eje: crear condiciones donde la alteridad sea segura. No cuestionar el ego directamente sino ampliar el espacio de lo posible.</td><td>Construir experiencias de eje propio: decisiones pequeñas que el sujeto toma desde sí mismo. Distinguir entre la voluntad propia y la voluntad del campo. Fortalecer Anteros.</td></tr>
+<tr><th scope="row">Diagnóstico DSM relacionado</th><td>Rasgos narcisistas. Trastorno de personalidad obsesivo- compulsivo. Rigidez caracterológica.</td><td>Trastorno de personalidad dependiente. Codependencia. Trastorno de identidad disociativo (en formas graves).</td></tr>
+</tbody>
+</table>
 
 #### 3.7 La disforia de identidad y el dilema de Aquiles
 
 Dos cuadros clínicos del sistema de la colección tienen una precisión descriptiva que los sistemas convencionales no capturan con la misma nitidez: la disforia de identidad y el dilema de Aquiles.
 
-Disforia de identidad:  La brecha entre el acto y la asunción cuando el sujeto actúa desde una imagen o un rol que no corresponde a su integral acumulada. No es que el sujeto mienta: es que genuinamente actúa desde algo que no ha integrado como propio. El síntoma es la tensión de esa brecha, que se manifiesta como sensación de falsedad, impostorismo, o la incomodidad de no reconocerse en lo que uno hace.
+> [!NOTE]
+> Disforia de identidad:  La brecha entre el acto y la asunción cuando el sujeto actúa desde una imagen o un rol que no corresponde a su integral acumulada. No es que el sujeto mienta: es que genuinamente actúa desde algo que no ha integrado como propio. El síntoma es la tensión de esa brecha, que se manifiesta como sensación de falsedad, impostorismo, o la incomodidad de no reconocerse en lo que uno hace.
 
 #### La disforia de identidad tiene dos variantes clínicas. En la variante de máscara, el sujeto adopta un rol externo (el
 
 
 profesional exitoso, el buen padre/madre, el estudiante aplicado) que no corresponde a su historia asumida. Puede funcionar bien en ese rol durante años, pero el costo es la disociación progresiva: lo que hace y lo que es se alejan hasta que el síntoma emerge como colapso o como sensación crónica de no estar viviendo la propia vida. En la variante de imagen prestada (Aego-Peribea avanzado), el sujeto ha construido su identidad sobre el eje de otro: actúa como esa figura actuaría, desea lo que esa figura desea, valora lo que esa figura valora. Cuando la figura desaparece o cambia, el sujeto queda sin eje.
 
-Dilema de Aquiles:  El atrapamiento entre dos posibilidades igualmente imposibles: avanzar en la dirección que el sujeto genuinamente desea (con el costo de perder lo que tiene: la relación, el estatus, la seguridad) o mantener lo que tiene (con el costo de negar permanentemente el deseo). La parálisis —el síntoma— es la respuesta al dilema irresoluble. No es indecisión por falta de claridad: es parálisis porque ambas opciones implican una pérdida que el sujeto no puede asumir.
+> [!NOTE]
+> Dilema de Aquiles:  El atrapamiento entre dos posibilidades igualmente imposibles: avanzar en la dirección que el sujeto genuinamente desea (con el costo de perder lo que tiene: la relación, el estatus, la seguridad) o mantener lo que tiene (con el costo de negar permanentemente el deseo). La parálisis —el síntoma— es la respuesta al dilema irresoluble. No es indecisión por falta de claridad: es parálisis porque ambas opciones implican una pérdida que el sujeto no puede asumir.
 
 El dilema de Aquiles no se resuelve eligiendo una de las dos opciones: se resuelve cuando el sujeto puede transformar la forma en que vive el coste de cada opción. La terapia no da la respuesta: amplía el espacio desde el que el sujeto puede relacionarse con las dos opciones sin que la parálisis sea la única salida. Formalmente: el dilema existe porque θ_E (umbral de Eros hacia lo nuevo) y θ_F (umbral de Fobos ante la pérdida) están en tensión irresolvible. La intervención trabaja esos umbrales, no la elección.
 
-::: {.recuadro .nota-verde}
-**Nota clínica:** El error clínico más frecuente ante el dilema de Aquiles es intentar resolver el dilema ayudando al sujeto a "tomar una decisión". Eso reproduce el dilema en lugar de transformarlo. La intervención eficaz trabaja la relación del sujeto con la pérdida (qué hace que el costo de cada opción sea insoportable) y con la certeza (por qué el sujeto necesita saber de antemano el resultado antes de poder actuar). Solo cuando esa relación cambia, el dilema deja de ser un atrapamiento.
-:::
+> [!NOTE]
+> **Nota clínica:** El error clínico más frecuente ante el dilema de Aquiles es intentar resolver el dilema ayudando al sujeto a "tomar una decisión". Eso reproduce el dilema en lugar de transformarlo. La intervención eficaz trabaja la relación del sujeto con la pérdida (qué hace que el costo de cada opción sea insoportable) y con la certeza (por qué el sujeto necesita saber de antemano el resultado antes de poder actuar). Solo cuando esa relación cambia, el dilema deja de ser un atrapamiento.
+
 
 #### 3.8 D_total clínico: el daño biográfico y la ganancia terapéutica
 
@@ -3533,21 +2465,11 @@ El dilema de Aquiles no se resuelve eligiendo una de las dos opciones: se resuel
 
 #### ΔT_trayectoria
 
-Componente En clínica equivale a
-
-Descripción
-
-T_invertido El coste directo del síntoma
-
-Lo que el sujeto perdió directamente en los períodos de mayor intensidad del síntoma: relaciones, oportunidades, capacidades. La pérdida medible en el momento de mayor crisis.
-
-T_impedido El desarrollo truncado
-
-Las capacidades que no se desarrollaron mientras el síntoma estuvo activo. El aprendizaje que no ocurrió, los vínculos que no se formaron, las experiencias que no se acumularon porque el síntoma las impedía.
-
-ΔT_trayectoria La alteración del potencial biográfico
-
-La diferencia entre la persona que el sujeto habría podido ser sin el peso del síntoma no trabajado y la persona que es ahora. Es el componente más difícil de cuantificar y el más importante para la priorización de la intervención.
+| Componente | En clínica equivale a | Descripción |
+| --- | --- | --- |
+| T_invertido | El coste directo del síntoma | Lo que el sujeto perdió directamente en los períodos de mayor intensidad del síntoma: relaciones, oportunidades, capacidades. La pérdida medible en el momento de mayor crisis. |
+| T_impedido | El desarrollo truncado | Las capacidades que no se desarrollaron mientras el síntoma estuvo activo. El aprendizaje que no ocurrió, los vínculos que no se formaron, las experiencias que no se acumularon porque el síntoma las impedía. |
+| ΔT_trayectoria | La alteración del potencial biográfico | La diferencia entre la persona que el sujeto habría podido ser sin el peso del síntoma no trabajado y la persona que es ahora. Es el componente más difícil de cuantificar y el más importante para la priorización de la intervención. |
 
 
 La simetría con el beneficio terapéutico (B_total) es directa: la terapia efectiva produce G_inmediato (alivio del síntoma), G_acumulado (capacidades recuperadas durante el proceso) y ΔG_trayectoria (transformación del potencial biográfico futuro). El ΔG_trayectoria es la medida más importante del impacto terapéutico a largo plazo: no cuánto mejor se siente el paciente al final de la terapia sino cuánto ha cambiado la pendiente de su trayectoria vital.
@@ -3574,33 +2496,21 @@ Para la historia clínica, el caso Anna O. es fundacional porque fue la primera 
 
 Desde la perspectiva del cálculo, el grafo de Anna O. tiene la siguiente estructura, reconstruida a partir de la descripción de Breuer (publicada en Estudios sobre la histeria, 1895):
 
-Nodo Factor causal Nivel Función causal documentada
-
-N1 Enfermedad y muerte del padre
-
-Traumático El período de atención al padre fue el detonante del cuadro. Breuer documentó que los síntomas se desarrollaron durante ese período y que los peores episodios ocurrían en los aniversarios de los momentos más críticos de la enfermedad del padre.
-
-N2 Contexto cultural victoriano (mujer, clase, género)
+| Nodo | Factor causal | Nivel | Función causal documentada |
+| --- | --- | --- | --- |
+| N1 | Enfermedad y muerte del padre | Traumático | El período de atención al padre fue el detonante del cuadro. Breuer documentó que los síntomas se desarrollaron durante ese período y que los peores episodios ocurrían en los aniversarios de los momentos más críticos de la enfermedad del padre. |
+| N2 | Contexto cultural victoriano (mujer, clase, género) | Cultural/sistémico | Las expectativas sociales sobre el rol de la mujer en la Viena de 1880 requerían que Anna O. atendiera al padre sin expresar sus propias |
 
 Cultural/sistémico Las expectativas sociales sobre el rol de la mujer en la Viena de 1880 requerían que Anna O. atendiera al padre sin expresar sus propias
 
-
-necesidades, deseos o emociones. El síntoma fue el canal de expresión de lo que no podía expresarse directamente.
-
-N3 Frustración de los propios deseos intelectuales
-
-Vincular/existencial Bertha Pappenheim era una mujer de inteligencia excepcional (según el propio Breuer) en un contexto que no le permitía desarrollarla. El síntoma de "ausencia" y los estados de ensoñación tenían contenido narrativo rico que Breuer interpretó como expresión de una vida imaginaria compensatoria.
-
-N4 Agotamiento físico por el cuidado
-
-Biológico La carga del cuidado durante meses con privación de sueño fue un factor contribuyente documentado.
-
-Nf El síntoma (constelación histérica)
-
-Nodo final La constelación de síntomas es el punto de llegada
-
-
-del grafo, no el origen.
+<table>
+<tbody>
+<tr><th scope="row">N3</th><td>Frustración de los propios deseos intelectuales</td><td>Vincular/existencial</td><td>Bertha Pappenheim era una mujer de inteligencia excepcional (según el propio Breuer) en un contexto que no le permitía desarrollarla. El síntoma de &quot;ausencia&quot; y los estados de ensoñación tenían contenido narrativo rico que Breuer interpretó como expresión de una vida imaginaria compensatoria.</td></tr>
+<tr><th scope="row">N4</th><td>Agotamiento físico por el cuidado</td><td>Biológico</td><td>La carga del cuidado durante meses con privación de sueño fue un factor contribuyente documentado.</td></tr>
+<tr><th scope="row">Nf</th><td>El síntoma (constelación histérica)</td><td>Nodo final</td><td>La constelación de síntomas es el punto de llegada</td></tr>
+<tr><th scope="row"></th><td></td><td></td><td>del grafo, no el origen.</td></tr>
+</tbody>
+</table>
 
 #### A.3 R* y el análisis de los hijos
 
@@ -3614,26 +2524,19 @@ del grafo, no el origen.
 
 #### Resultado de R* tras convergencia:
 
-Factor R* S estimado
-
-Interpretación
-
-~42% 0.35 Factor detonante y de mayor peso. S moderado-bajo: la forma específica de ese duelo en esa relación era idiosincrática. Sin la muerte del padre en ese momento y de esa manera, el cuadro no habría tomado esa forma.
-
-N1 — Muerte del padre
+| Factor | R* | S estimado | Interpretación |
+| --- | --- | --- | --- |
+| N1 — Muerte del padre | ~42% | 0.35 | Factor detonante y de mayor peso. S moderado- bajo: la forma específica de ese duelo en esa relación era idiosincrática. Sin la muerte del padre en ese momento y de esa manera, el cuadro no habría tomado esa forma. |
+| N2 — Contexto cultural victoriano | ~30% | 0.90 | Factor estructural con S muy alto. Cualquier mujer inteligente de su clase y época bajo las mismas expectativas habría desarrollado síntomas similares. No es específico de Bertha: es específico de la estructura cultural. La intervención de Breuer no modificó este nodo. |
 
 ~30% 0.90 Factor estructural con S muy alto. Cualquier mujer inteligente de su clase y época bajo las mismas expectativas habría desarrollado síntomas similares. No es específico de Bertha: es específico de la estructura cultural. La intervención de Breuer no modificó este nodo.
 
-N2 — Contexto cultural victoriano
-
-
-~20% 0.55 Factor intermedio. Cualquier mujer inteligente en ese contexto habría sentido esa frustración (S moderado), pero la forma específica en Bertha dependía de sus cualidades idiosincráticas.
-
-N3 — Frustración intelectual
-
-~8% 0.85 Factor contribuyente genérico con S alto.
-
-N4 — Agotamiento físico
+<table>
+<tbody>
+<tr><th scope="row">N3 — Frustración intelectual</th><td>~20%</td><td>0.55</td><td>Factor intermedio. Cualquier mujer inteligente en ese contexto habría sentido esa frustración (S moderado), pero la forma específica en Bertha dependía de sus cualidades idiosincráticas.</td></tr>
+<tr><th scope="row">N4 — Agotamiento físico</th><td>~8%</td><td>0.85</td><td>Factor contribuyente genérico con S alto.</td></tr>
+</tbody>
+</table>
 
 #### El diagnóstico de los hijos de Anna O. en el momento de la consulta:
 
@@ -3654,12 +2557,14 @@ Breuer intervino principalmente sobre N1 (los recuerdos traumáticos de la enfer
 
 El dato histórico que el caso revela con crudeza: Bertha Pappenheim, una vez "curada" por Breuer, vivió el resto de su vida en instituciones durante años antes de recuperarse completamente. Su recuperación final no vino de la terapia: vino de encontrar un trabajo significativo como directora de un orfanato y como activista por los derechos de las mujeres y los niños. Es decir: vino de que N2 finalmente cambió. El nodo de mayor peso no se trabajó en la consulta; se transformó en la vida.
 
-La lección metodológica del caso Anna O.:  Cuando el nodo de mayor R* es estructural y sistémico (S alto), la terapia individual no puede transformarlo. Lo que puede hacer es reducir el Δ en los otros nodos (N1, N3, N4) para que el sujeto tenga mayor capacidad de relacionarse con N2 sin ser dominado por él. La transformación del nodo estructural requiere un cambio en el sistema externo: cultural, familiar, institucional, relacional. El grafo causal permite ser honesto sobre ese límite desde el inicio de la terapia.
+> [!NOTE]
+> La lección metodológica del caso Anna O.:  Cuando el nodo de mayor R* es estructural y sistémico (S alto), la terapia individual no puede transformarlo. Lo que puede hacer es reducir el Δ en los otros nodos (N1, N3, N4) para que el sujeto tenga mayor capacidad de relacionarse con N2 sin ser dominado por él. La transformación del nodo estructural requiere un cambio en el sistema externo: cultural, familiar, institucional, relacional. El grafo causal permite ser honesto sobre ese límite desde el inicio de la terapia.
 
 
 Caso B — Caso hipotético compuesto
 
-Disforia de identidad + dilema de Aquiles: los hijos como mapa de intervención
+> [!NOTE]
+> Disforia de identidad + dilema de Aquiles: los hijos como mapa de intervención
 
 Este caso es una composición hipotética que integra los elementos clínicos más frecuentes en cuadros de disforia de identidad combinados con el dilema de Aquiles. No corresponde a ninguna persona específica. Los datos concretos son ilustrativos.
 
@@ -3671,35 +2576,18 @@ Ha intentado dos terapias previas breves. En ambas, el trabajo se centró en té
 
 B.2 El grafo causal del síntoma
 
-Nodo Factor Nivel Evidencia clínica del peso
-
-N1 Mandato familiar de
-
-Cultural/vincular Primer hijo de una familia inmigrante
-
-
-éxito profesional
+| Nodo | Factor | Nivel | Evidencia clínica del peso |
+| --- | --- | --- | --- |
+| N1 | Mandato familiar de | Cultural/vincular | Primer hijo de una familia inmigrante |
 
 donde el éxito profesional era la medida del valor. La carrera actual fue "elegida" a los 17 años bajo esa presión. R* alto, S moderado.
 
-N2 Figura paterna dominante (Aego-Damasén)
-
-Vincular temprano
-
-Padre de alta exigencia que nunca cuestionó su propio camino. El paciente aprendió que afirmar un deseo propio que difiriera del criterio paterno tenía un costo alto (desaprobación, ruptura de vínculo).
-
-N3 Vínculo de pareja construido sobre la imagen
-
-Relacional actual La pareja conoció al "profesional exitoso". El paciente reporta miedo de que si "se revela" quien realmente es, el vínculo no sobreviva. Potós hacia la imagen que tenía de sí mismo antes de casarse.
-
-N4 Deseo vocacional no desarrollado
-
-Existencial A los 20 años tuvo una experiencia intensa ligada al diseño arquitectónico que nunca siguió. Sigue teniendo ese vector pero nunca lo ha alimentado.
-
-
-Sistémico El peso de las obligaciones actuales hace que cualquier cambio parezca implicar destruir lo construido. Alta S: cualquier persona en esa situación sentiría el mismo peso.
-
-N5 Estructura de vida actual (hijos, hipoteca, rol)
+| Nodo | Factor | Nivel | Evidencia clínica del peso |
+| --- | --- | --- | --- |
+| N2 | Figura paterna dominante (Aego- Damasén) | Vincular temprano | Padre de alta exigencia que nunca cuestionó su propio camino. El paciente aprendió que afirmar un deseo propio que difiriera del criterio paterno tenía un costo alto (desaprobación, ruptura de vínculo). |
+| N3 | Vínculo de pareja construido sobre la imagen | Relacional actual | La pareja conoció al "profesional exitoso". El paciente reporta miedo de que si "se revela" quien realmente es, el vínculo no sobreviva. Potós hacia la imagen que tenía de sí mismo antes de casarse. |
+| N4 | Deseo vocacional no desarrollado | Existencial | A los 20 años tuvo una experiencia intensa ligada al diseño arquitectónico que nunca siguió. Sigue teniendo ese vector pero nunca lo ha alimentado. |
+| N5 | Estructura de vida actual (hijos, hipoteca, rol) | Sistémico | El peso de las obligaciones actuales hace que cualquier cambio parezca implicar destruir lo construido. Alta S: cualquier persona en esa situación sentiría el mismo peso. |
 
 #### B.3 R*, S y Δ: el mapa de intervención
 
@@ -3709,25 +2597,13 @@ N5 Estructura de vida actual (hijos, hipoteca, rol)
 
 #### =0.60 w(N5→Nf) =0.45
 
-Factor R* S α actual
-
-Δ → agenda
-
-~38% 0.30 0.08 +30% PRIORITARIO
-
-N2 — Figura paterna
-
-~28% 0.55 0.15 +13%
-
-N1 — Mandato familiar
-
-~16% 0.20 0.05 +11%
-
-N4 — Deseo vocacional
-
-~12% 0.45 0.30 +2%
-
-N3 — Vínculo de pareja
+| Factor | R* | S | α actual | Δ → agenda |
+| --- | --- | --- | --- | --- |
+| N2 — Figura paterna | ~38% | 0.30 | 0.08 | +30% PRIORITARIO |
+| N1 — Mandato familiar | ~28% | 0.55 | 0.15 | +13% |
+| N4 — Deseo vocacional | ~16% | 0.20 | 0.05 | +11% |
+| N3 — Vínculo de pareja | ~12% | 0.45 | 0.30 | +2% |
+| N5 — Estructura actual | ~6% | 0.90 | 0.40 | -3% (sobre- trabajado) |
 
 ~6% 0.90 0.40 -3% (sobre-trabajado)
 
@@ -3776,26 +2652,16 @@ B.6 El D_biográfico y el B_terapéutico
 
 Aunque en el dominio clínico el D_total no se cuantifica en términos monetarios (salvo para peritajes en contextos jurídicos de responsabilidad por negligencia), la estructura de los tres componentes es útil para comunicar al paciente la magnitud y la distribución temporal del impacto del síntoma:
 
-Componente En este caso equivale a
-
-Impacto
-
-T_invertido Los 18 años de carrera en el
-
-No es recuperable en términos de tiempo
-
-
-sector equivocado
+| Componente | En este caso equivale a | Impacto |
+| --- | --- | --- |
+| T_invertido | Los 18 años de carrera en el | No es recuperable en términos de tiempo |
 
 invertido. Pero puede integrarse: esos 18 años son parte de la historia asumida, no un error a borrar.
 
-T_impedido Las capacidades no desarrolladas mientras el síntoma fue dominante
-
-El diseño arquitectónico que no se practicó, las relaciones que no se formaron, la identidad que no se construyó. Parcialmente recuperable con trabajo.
-
-ΔT_trayectoria La diferencia entre el potencial biográfico con y sin el síntoma trabajado
-
-Este es el componente más importante para motivar la intervención: ¿cuánto diferente podría ser la trayectoria futura si los nodos de mayor Δ se trabajan ahora? Es la medida del valor de la terapia.
+| Componente | En este caso equivale a | Impacto |
+| --- | --- | --- |
+| T_impedido | Las capacidades no desarrolladas mientras el síntoma fue dominante | El diseño arquitectónico que no se practicó, las relaciones que no se formaron, la identidad que no se construyó. Parcialmente recuperable con trabajo. |
+| ΔT_trayectoria | La diferencia entre el potencial biográfico con y sin el síntoma trabajado | Este es el componente más importante para motivar la intervención: ¿cuánto diferente podría ser la trayectoria futura si los nodos de mayor Δ se trabajan ahora? Es la medida del valor de la terapia. |
 
 B_terapéutico estimado con intervención sobre N2 y N4: la reducción del ΔT_trayectoria es el componente de mayor impacto. No significa que el paciente abandone su carrera actual: significa que la relación con esa carrera cambia de obligación-sin-salida a elección-con-alternativas. Esa transformación tiene un valor biográfico que trasciende cualquier cuantificación.
 
@@ -3834,23 +2700,12 @@ En el dominio clínico, el sujeto que se analiza y el sujeto que puede transform
 
 Sea ψ_S(t) = (I_S, v_S, c_S, s_S) el vector de estado del síntoma, análogo al vector de estado del ego, pero referido específicamente al patrón sintomático. Cada componente tiene interpretación clínica:
 
-Comp. Nombre Interpretación clínica
-
-I_S(t) Historia sintomática
-
-La integral acumulada de los episodios del síntoma, ponderada por su intensidad y por el grado de integración (φ₂) de cada episodio. I_S alta indica larga historia sintomática.
-
-v_S(t) Vector de la voluntad actual
-
-La disposición de la voluntad en el momento presente: el hijo dominante y sus probabilidades. Es lo que el diagnóstico de hijos describe.
-
-c_S(t) Contexto activador
-
-Las condiciones del entorno que activan el síntoma. Los detonantes específicos que el paciente reporta.
-
-s_S(t) Sesgo interpretativo del síntoma
-
-El filtro acumulado con el que el sujeto interpreta los eventos: la "narrativa del síntoma" que el sujeto ha construido para explicarse a sí mismo lo que le ocurre.
+| Comp. | Nombre | Interpretación clínica |
+| --- | --- | --- |
+| I_S(t) | Historia sintomática | La integral acumulada de los episodios del síntoma, ponderada por su intensidad y por el grado de (φ₂) integración de cada episodio. I_S alta indica larga historia sintomática. |
+| v_S(t) | Vector de la voluntad actual | La disposición de la voluntad en el momento presente: el hijo dominante y sus probabilidades. Es lo que el diagnóstico de hijos describe. |
+| c_S(t) | Contexto activador | Las condiciones del entorno que activan el síntoma. Los detonantes específicos que el paciente reporta. |
+| s_S(t) | Sesgo interpretativo del síntoma | El filtro acumulado con el que el sujeto interpreta los eventos: la "narrativa del síntoma" que el sujeto ha construido para explicarse a sí mismo lo que le ocurre. |
 
 
 El síntoma es un proceso en este espacio: ψ_S(t) cambia con el tiempo y con la terapia. El trabajo terapéutico efectivo produce cambios medibles en I_S (se reduce la intensidad ponderada acumulada), en v_S (cambia la distribución de hijos) y en s_S (se transforma la narrativa del síntoma).
@@ -3890,7 +2745,8 @@ import numpy as np from scipy.stats import pearsonr from scipy.special import ex
 
 clínico por factor (nivel de integración φ₂)     theta_hijos:       dict con umbrales θ_h para cada hijo     T:                 temperatura (libertad/modulación por φ₂)     v_voluntad:        vector de voluntad actual (si disponible)     """     n = W_sintoma.shape[0]      # ── R*: peso causal en el síntoma ──     R = np.ones(n) / n     for _ in range(500):         Rn = W_sintoma @ R; s = np.sum(Rn)         if s < 1e-12: break         Rn /= s         if np.max(np.abs(Rn - R)) < 1e-9: break R = Rn     R_star = Rn      # ── S: sustituibilidad del factor (genericidad del síntoma) ──     S = np.zeros(n)     for i in range(n):         max_c = 0 for j in range(n):             if j == i: continue             Wm = W_sintoma.copy()             Wm[i,:] = np.mean(W_sintoma, axis=0) Rm = np.ones(n)/n             for _ in range(200):                 Rm2 = Wm @ Rm; sm = np.sum(Rm2)                 if sm < 1e-12: break Rm2 /= sm                 if np.max(np.abs(Rm2-Rm)) < 1e-6: break Rm = Rm2             if n > 1:                 c, _ = pearsonr(R_star, Rm2) max_c = max(max_c, abs(c))         S[i] = 1 - max_c      # ── Δ: agenda terapéutica (déficit de integración) ──     Delta = R_star -alpha_integracion     R_neta = R_star * (1 - S)  # responsabilidad idiosincrática del factor      result = {         'R_star': R_star,         'S': S, 'Delta_agenda': Delta,         'R_neta': R_neta, 'prioridad_intervencion': np.argsort(-Delta),     }      # ── Diagnóstico de hijos (si se tienen umbrales) ──     if theta_hijos and v_voluntad is not None:         hijos = ['Eros','Deimos','Anteros','Fobos','Potos','Harmonia']         u_hijos = { 'Eros':     np.array([1, 0, 0]),             'Deimos':   np.array([0, 1, 0]), 'Anteros':  np.array([-1, 0, 0]),             'Fobos':    np.array([0, -1, 0]), 'Potos':    np.array([0.7, 0.7, 0]),             'Harmonia': np.array([0, 0, 1]), }         probs = {}         for h in hijos:             u = u_hijos[h]             grad = np.gradient(v_voluntad[:len(u)])             prod = np.dot(grad, u) theta = theta_hijos.get(h, 0.5)             probs[h] = float(expit((prod -theta) / T))         total = sum(probs.values())         probs = {h: p/total for h, p in probs.items()}          # Métricas de salud         import math entropia = -sum(p * math.log(p+1e-9) for p in probs.values()) entropia_max = math.log(len(hijos))         result['diagnostico_hijos'] = probs         result['hijo_dominante'] = max(probs, key=probs.get) result['entropia_hijos'] = entropia         result['salud_ego'] = entropia / entropia_max         result['P_harmonia'] = probs.get('Harmonia', 0) return result  # ── Ejemplo: caso hipotético compuesto ── W_caso = np.array([     [0,    0,    0,    0,    0,    0],  # N1 (mandato fam.)     [0.85, 0, 0,    0,    0,    0],  # N2 (padre) → N1     [0,    0,    0,    0,    0,    0],  # N3 (pareja)     [0,    0,    0,    0,    0,    0],  # N4 (deseo vocal.)     [0,    0,    0, 0,    0,    0],  # N5 (estructura)     [0,    0,    0,    0,    0,    0],  # Nf (síntoma) ]) # Añadir aristas hacia Nf W_caso[0,5]=0.80; W_caso[1,5]=0.75; W_caso[2,5]=0.55 W_caso[3,5]=0.60; W_caso[4,5]=0.45  alpha = np.array([0.15, 0.08, 0.30, 0.05, 0.40, 0.0]) theta_hijos = {'Eros':0.7,'Deimos':0.3,'Anteros':0.8, 'Fobos':0.2,'Potos':0.15,'Harmonia':0.9} v = np.array([-0.3, 0.2, -0.5])  # vector de voluntad (simplificado)  resultado = analisis_clinico(W_caso, alpha, theta_hijos, T=0.4, v_voluntad=v)  nodos = ['N1-Mandato','N2-Padre','N3-Pareja','N4-Vocación','N5-Estructura','Nf'] print("=== El Cálculo de la Responsabilidad · Cap. 5 — Psicología clínica y psiquiatría
 
-Análisis clínico — caso hipotético ===") for i, (nm, rs, si, di) in enumerate(zip(nodos[:5],     resultado['R_star'][:5], resultado['S'][:5], resultado['Delta_agenda'][:5])):     flag = ' ← PRIORITARIO' if di == max(resultado['Delta_agenda'][:5]) else ''     print(f"  {nm:18s} R*={rs:.3f}  S={si:.2f}  Δ={di:+.3f}{flag}")  if 'diagnostico_hijos' in resultado:     print(f"\nHijo dominante: {resultado['hijo_dominante']}")     print(f"Entropía (salud): {resultado['salud_ego']:.3f}  (1=máx salud)")     print(f"P(Harmonía): {resultado['P_harmonia']:.3f}")     print("\nDistribución de hijos:")     for h, p in sorted(resultado['diagnostico_hijos'].items(), key=lambda x: -x[1]):         bar = '█' * int(p*40)         print(f"  {h:10s} {bar} {p:.2%}")
+> [!NOTE]
+> Análisis clínico — caso hipotético ===") for i, (nm, rs, si, di) in enumerate(zip(nodos[:5],     resultado['R_star'][:5], resultado['S'][:5], resultado['Delta_agenda'][:5])):     flag = ' ← PRIORITARIO' if di == max(resultado['Delta_agenda'][:5]) else ''     print(f"  {nm:18s} R*={rs:.3f}  S={si:.2f}  Δ={di:+.3f}{flag}")  if 'diagnostico_hijos' in resultado:     print(f"\nHijo dominante: {resultado['hijo_dominante']}")     print(f"Entropía (salud): {resultado['salud_ego']:.3f}  (1=máx salud)")     print(f"P(Harmonía): {resultado['P_harmonia']:.3f}")     print("\nDistribución de hijos:")     for h, p in sorted(resultado['diagnostico_hijos'].items(), key=lambda x: -x[1]):         bar = '█' * int(p*40)         print(f"  {h:10s} {bar} {p:.2%}")
 
 Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026
 
@@ -3925,46 +2781,25 @@ La epidemiología tiene ya una herramienta para medir la capacidad de transmisi�
 
 persona primaria en una población completamente susceptible.
 
-Concepto epidemiológico:  R₀ = número básico de reproducción. Mide cuántas personas secundarias infecta en promedio una persona primaria. R₀ > 1: el brote crece. R₀ < 1: el brote se extingue. R₀ = 1: el brote es endémico estable. Es un promedio poblacional, no una medida de la contribución causal de nodos específicos.
+> [!NOTE]
+> Concepto epidemiológico:  R₀ = número básico de reproducción. Mide cuántas personas secundarias infecta en promedio una persona primaria. R₀ > 1: el brote crece. R₀ < 1: el brote se extingue. R₀ = 1: el brote es endémico estable. Es un promedio poblacional, no una medida de la contribución causal de nodos específicos.
 
 R₀ es una medida correlacional: describe el comportamiento promedio del patógeno en una población dada. No dice nada sobre qué nodos específicos del sistema de transmisión son causalmente necesarios para que el brote ocurra a esa escala. No distingue entre una persona que infectó a 50 personas en un evento superspreader y 49 personas que no infectaron a nadie. No identifica las condiciones estructurales —sistemas de agua, ventilación de espacios, densidad habitacional, acceso a atención médica— que hacen posible que R₀ sea alto en ese contexto específico.
 
 R* causal en epidemiología hace algo diferente: distribuye el peso causal de transmisión entre todos los nodos del sistema epidemiológico —personas, espacios, condiciones estructurales, políticas de salud pública— en proporción a cuánto dependía el brote de cada nodo específico. Es la pregunta: sin este nodo (esta persona, este mercado, este sistema de agua, esta política de cuarentena), ¿habría alcanzado el brote esta escala?
 
-Dimensión R₀ (correlacional) R* causal (este sistema)
+| Dimensión | R₀ (correlacional) | R* causal (este sistema) |
+| --- | --- | --- |
+| Qué mide | Promedio de infecciones secundarias por caso primario en | Fracción del brote causalmente atribuible a cada nodo específico del |
+| Nivel de análisis | Poblacional. Un solo número para todo el brote. | Nodal. Un vector de pesos para cada actor, espacio o condición estructural. |
+| Información base | Número de casos secundarios por caso primario. Requiere seguimiento de contactos. | Grafo de influencias causales con pesos estimados por evidencia epidemiológica. |
+| ¿Distingue superpropagadores? | Solo indirectamente, como anomalías estadísticas que elevan la varianza del número de reproducción. | Directamente: el superpropagador es el nodo con R* bajo S (su S es bajo: su contribución fue idiosincrática). |
+| ¿Identifica nodos estructurales? | R₀ No. es propiedades del patógeno-huésped, no del sistema de condiciones. | Sí. El sistema de agua, la ventilación del espacio, la política de cuarentena pueden ser nodos con R* alto. |
+| Uso principal | Modelar la dinámica del brote, calcular umbrales de vacunación, estimar velocidad de expansión. | Identificar los nodos de intervención con mayor impacto, distribuir responsabilidad entre actores del sistema de salud pública. |
 
-Qué mide Promedio de infecciones secundarias por caso primario en
+> [!NOTE]
+> Identificar los nodos de intervención con mayor impacto, distribuir responsabilidad entre actores del sistema de salud pública.
 
-Fracción del brote causalmente atribuible a cada nodo específico del
-
-
-población susceptible.
-
-sistema de transmisión.
-
-Nivel de análisis Poblacional. Un solo número para todo el brote.
-
-Nodal. Un vector de pesos para cada actor, espacio o condición estructural.
-
-Información base Número de casos secundarios por caso primario. Requiere seguimiento de contactos.
-
-Grafo de influencias causales con pesos estimados por evidencia epidemiológica.
-
-¿Distingue superpropagadores?
-
-Solo indirectamente, como anomalías estadísticas que elevan la varianza del número de reproducción.
-
-Directamente: el superpropagador es el nodo con R* bajo S (su S es bajo: su contribución fue idiosincrática).
-
-¿Identifica nodos estructurales?
-
-Sí. El sistema de agua, la ventilación del espacio, la política de cuarentena pueden ser nodos con R* alto.
-
-No. R₀ es propiedades del patógeno-huésped, no del sistema de condiciones.
-
-Uso principal Modelar la dinámica del brote, calcular umbrales de vacunación, estimar velocidad de expansión.
-
-Identificar los nodos de intervención con mayor impacto, distribuir responsabilidad entre actores del sistema de salud pública.
 
 Las dos herramientas no compiten: son complementarias. R₀ dice qué tan rápido crece el brote. R* dice dónde intervenir para frenarlo con mayor eficacia. La epidemiología moderna usa R₀; el cálculo de la
 
@@ -3979,85 +2814,52 @@ En términos del sistema de imputación causal, los superpropagadores son nodos 
 
 Esta distinción entre R* alto y S bajo es operativamente importante para la salud pública: los superpropagadores no son "personas culpables" de transmitir más. Son personas cuya posición en el grafo de contactos, cuyas condiciones de trabajo o vivienda, y cuya situación inmunológica en ese momento específico los colocaron en una posición de alta necesidad causal para el brote. La intervención no es castigarlos: es identificarlos para interrumpir las cadenas que dependen de su posición.
 
-Superpropagador (definición ontológica):  Nodo del grafo epidemiológico con R* significativamente mayor al promedio y S bajo. R* alto indica que el brote dependía
+> [!NOTE]
+> Superpropagador (definición ontológica):  Nodo del grafo epidemiológico con R* significativamente mayor al promedio y S bajo. R* alto indica que el brote dependía
 
 
-causalmente de ese nodo en mayor medida que del promedio de casos. S bajo indica que esa dependencia no era genérica (cualquier infectado en esa posición) sino específica de las características de ese nodo en ese momento: su carga viral, su red de contactos, sus condiciones ambientales.
+> [!NOTE]
+> causalmente de ese nodo en mayor medida que del promedio de casos. S bajo indica que esa dependencia no era genérica (cualquier infectado en esa posición) sino específica de las características de ese nodo en ese momento: su carga viral, su red de contactos, sus condiciones ambientales.
+
 
 #### 1.3 El fraude annona del Estado en salud pública
 
+
 En el sistema ontológico de la colección, el contrato fiscal establece que el Estado recibe las libertades del soberano (impuestos, obediencia, legitimidad) y debe generar las condiciones materiales de posibilidad para que el ciudadano pueda desplegar su eutaxia utópica. Las condiciones de salud pública —agua potable, sistemas de vigilancia epidemiológica, infraestructura hospitalaria, acceso a medicamentos— son condiciones materiales de posibilidad de primer orden.
 
+| Herramienta | En epidemiología se llama | Qué significa en la práctica de la salud pública |
+| --- | --- | --- |
+
 Cuando el Estado tiene R* alto en el grafo de un brote epidemiológico —cuando las condiciones que no generó fueron causalmente necesarias para que el brote alcanzara la escala que alcanzó— y su α es bajo (no reconoció su posición causal, no reformó sus sistemas, no compensó a las víctimas), hay fraude annona epidemiológico. El Estado recibió el capital de los ciudadanos y no generó las condiciones que habría podido generar y que habrían reducido la transmisión.
+
 
 Este concepto es analíticamente poderoso porque permite distinguir entre brotes que eran inevitables dado el estado del conocimiento y de las tecnologías disponibles (R* del Estado bajo porque no había intervención posible) y brotes que habrían podido ser mucho menores si el Estado hubiera generado las condiciones que estaban a su alcance (R* del Estado alto y Δ positivo porque las condiciones existían, pero no se generaron o se generaron tardíamente).
 
 
-
 ### §2.  Página puente — Traducción al lenguaje epidemiológico
+
+| Herramienta | En epidemiología se llama | Qué significa en la práctica de la salud pública |
+| --- | --- | --- |
+| Grafo causal G | Red de transmisión causal | El mapa de todos los nodos (personas, espacios, condiciones estructurales, políticas) que contribuyen causalmente a que el brote alcance su escala. Es más amplio que la red de contactos tradicional. |
 
 Esta página resume cómo se renombran las herramientas del sistema en el contexto de la epidemiología y la salud pública. El lector con formación epidemiológica puede comenzar aquí sin haber leído los capítulos anteriores.
 
-Herramienta En epidemiología se llama
-
-Qué significa en la práctica de la salud pública
-
-Grafo causal G
-
-Red de transmisión causal
-
-El mapa de todos los nodos (personas, espacios, condiciones estructurales, políticas) que contribuyen causalmente a que el brote alcance su escala. Es más amplio que la red de contactos tradicional.
-
-Nodo Actor epidemiológico
-
-Puede ser una persona infectada, un espacio de transmisión (mercado, hospital, transporte público), una condición estructural (sistema de agua, ventilación), o una política de salud pública (cuarentena, vigilancia, acceso a atención).
-
-R* (vector) Peso causal de transmisión
-
-La fracción del brote causalmente atribuible a cada nodo. Distinto de R₀: R₀ mide el promedio de infecciones
-
-
-secundarias; R* distribuye el peso causal total entre los nodos del grafo. R* del superpropagador > R* promedio de casos ordinarios.
-
-R₀ (externo) Número básico de reproducción
-
-Herramienta epidemiológica establecida. Mide el promedio de infecciones secundarias. Correlacional. R* y R₀ son complementarios: R₀ describe la dinámica global; R* identifica los nodos causalmente críticos.
-
-S (índice) Fungibilidad del nodo en la cadena
-
-S alto: cualquier persona en esa posición (misma carga viral, mismo ambiente) habría transmitido igual. El nodo es reemplazable en la cadena. S bajo: la contribución de este nodo dependía de características idiosincráticas. Los superpropagadores tienen S bajo.
-
-α (coeficiente)
-
-Grado de contención: aislamiento, notificación, tratamiento
-
-Lo que el nodo hizo para interrumpir las cadenas que dependían de él: se aisló, notificó sus contactos, buscó atención, cooperó con el rastreo. α = 1: contención completa. α = 0: no hizo nada para interrumpir las cadenas.
-
-
-Δ = R* − α Déficit de contención: transmisión no interrumpida
-
-La brecha entre el peso causal del nodo y su contención efectiva. Para nodos institucionales (Estado, sistemas de salud): Δ mide el incumplimiento de las obligaciones de salud pública proporcional a la capacidad causal.
-
-D_total Daño en salud pública
-
-T_invertido (muertes y morbilidad directa), T_impedido (colapso del sistema de salud durante el brote, atención pospuesta), ΔT_trayectoria (daños de largo plazo: secuelas crónicas, pérdidas de potencial de las generaciones afectadas).
-
-D_vital Daño en tiempo de vida biológica y social
-
-Años de vida perdidos (AVPP) + años vividos con discapacidad (AVD) = AVAD (Años de Vida Ajustados por Discapacidad). Estándar OMS. En el sistema: D_vital = AVAD × w_ref (expresado en unidades monetarias con el salario de referencia universal).
-
-Fraude annona
-
-Incumplimiento del Estado en condiciones de salud pública
-
-El Estado tiene R* alto en el brote (las condiciones que no generó eran causalmente necesarias para la escala del daño) y α bajo (no las generó estando a su alcance hacerlo). Δ del
-
-
-Estado > 0: fraude annona epidemiológico.
-
-Los hijos no aplican a nodos estructurales (el sistema de agua, la política de cuarentena). Solo aplican a personas identificadas como superpropagadores con voluntad propia: ¿actuaron desde Fobos (miedo a reportar), desde Anteros (resistencia a las medidas), desde Harmonía (cooperación plena)?
-
-Hijos de Afrodita
+| Herramienta | En epidemiología se llama | Qué significa en la práctica de la salud pública |
+| --- | --- | --- |
+| Nodo | Actor epidemiológico | Puede ser una persona infectada, un espacio de transmisión (mercado, hospital, transporte público), una condición estructural (sistema de agua, ventilación), o una política de salud pública (cuarentena, vigilancia, acceso a atención). |
+| R* (vector) | Peso causal de transmisión | La fracción del brote causalmente atribuible a cada nodo. Distinto de R₀: R₀ mide el promedio de infecciones |
+<table>
+<tbody>
+<tr><th scope="row">R₀ (externo)</th><td>Número básico de reproducción</td><td>Herramienta epidemiológica establecida. Mide el promedio de infecciones secundarias. R₀ Correlacional. R* y R₀ son complementarios: describe la dinámica global; R* identifica los nodos causalmente críticos.</td></tr>
+<tr><th scope="row">S (índice)</th><td>Fungibilidad del nodo en la cadena</td><td>S alto: cualquier persona en esa posición (misma carga viral, mismo ambiente) habría transmitido igual. El nodo es reemplazable en la cadena. S bajo: la contribución de este nodo dependía de características idiosincráticas. Los superpropagadores tienen S bajo.</td></tr>
+<tr><th scope="row">α (coeficiente)</th><td>Grado de contención: aislamiento, notificación, tratamiento</td><td>Lo que el nodo hizo para interrumpir las cadenas que dependían de él: se aisló, notificó sus contactos, buscó atención, cooperó con el rastreo. α = 1: contención completa. α = 0: no hizo nada para interrumpir las cadenas.</td></tr>
+<tr><th scope="row">Δ = R* − α</th><td>Déficit de contención: transmisión no interrumpida</td><td>La brecha entre el peso causal del nodo y su contención efectiva. Para nodos institucionales (Estado, sistemas de salud): Δ mide el incumplimiento de las obligaciones de salud pública proporcional a la capacidad causal.</td></tr>
+<tr><th scope="row">D_total</th><td>Daño en salud pública</td><td>T_invertido (muertes y morbilidad directa), T_impedido (colapso del sistema de salud durante el brote, atención pospuesta), ΔT_trayectoria (daños de largo plazo: secuelas crónicas, pérdidas de potencial de las generaciones afectadas).</td></tr>
+<tr><th scope="row">D_vital</th><td>Daño en tiempo de vida biológica y social</td><td>Años de vida perdidos (AVPP) + años vividos con discapacidad (AVD) = AVAD (Años de Vida Ajustados por Discapacidad). Estándar OMS. En el sistema: D_vital = AVAD × w_ref (expresado en unidades monetarias con el salario de referencia universal).</td></tr>
+<tr><th scope="row">Fraude annona</th><td>Incumplimiento del Estado en condiciones de salud pública</td><td>El Estado tiene R* alto en el brote (las condiciones que no generó eran causalmente necesarias para la escala del daño) y α bajo (no las generó estando a su alcance hacerlo). Δ del</td></tr>
+<tr><th scope="row">Hijos de Afrodita</th><td>Solo aplican a superpropagadores con voluntad</td><td>Los hijos no aplican a nodos estructurales (el sistema de agua, la política de cuarentena). Solo aplican a personas identificadas como superpropagadores con voluntad propia: ¿actuaron desde Fobos (miedo a reportar), desde Anteros (resistencia a las medidas), desde Harmonía (cooperación plena)?</td></tr>
+</tbody>
+</table>
 
 Solo aplican a superpropagadores con voluntad
 
@@ -4068,46 +2870,15 @@ Para el lector que viene del núcleo universal:  Este dominio tiene tres caracte
 
 #### 3.1 Cómo construir el grafo epidemiológico causal
 
-El grafo epidemiológico causal se construye en cuatro niveles que van desde lo más micro (los contactos individuales) hasta lo más macro (las condiciones estructurales del sistema de salud pública). A diferencia de las redes de contacto tradicionales en epidemiología —que solo incluyen personas— el grafo causal incluye también los nodos estructurales que determinan las condiciones bajo las cuales los contactos producen transmisión.
+> [!NOTE]
+> El grafo epidemiológico causal se construye en cuatro niveles que van desde lo más micro (los contactos individuales) hasta lo más macro (las condiciones estructurales del sistema de salud pública). A diferencia de las redes de contacto tradicionales en epidemiología —que solo incluyen personas— el grafo causal incluye también los nodos estructurales que determinan las condiciones bajo las cuales los contactos producen transmisión.
 
-Nivel Tipo de nodo
-
-Función causal
-
-Fuente de evidencia para w
-
-Individual Persona infectada / superpropaga dor.
-
-Transmite el patógeno directamente. R* alto si la transmisión de ese nodo fue causalmente necesaria para la escala del brote.
-
-Rastreo de contactos, secuenciaci ón genómica del patógeno (para vincular cepas), carga viral documenta da.
-
-Ambiental Espacio de transmisión: mercado, hospital, transporte,
-
-Amplifica o reduce la transmisión individual. Un espacio mal
-
-Estudios de ventilación, análisis de clúster de casos por
-
-
-vivienda. Sistema de agua o aire.
-
-ventilado convierte una transmisión ordinaria en un evento superspreader independientem ente de la persona.
-
-ubicación, comparació n de tasas de ataque por espacio.
-
-Institucional Sistema de vigilancia epidemiológic a, hospitales, laboratorios de diagnóstico, autoridades de salud pública.
-
-Detecta, contiene y trata. Su fallo aumenta el R* efectivo de los nodos individuales porque reduce α. Su éxito lo disminuye.
-
-Capacidad de rastreo, tiempo de respuesta desde detección hasta intervenció n, cobertura de diagnóstico.
-
-Normativo/pol ítico
-
-Políticas de cuarentena, cierre de fronteras, mandatos de uso de equipo de protección, campañas de vacunación.
-
-Determina las condiciones bajo las cuales ocurre la transmisión a escala poblacional. El nodo de mayor R* frecuentemente es una política que tardó en activarse o que no se activó.
-
-Cronología de decisiones vs. cronología del brote, estudios de impacto de intervencio nes, modelos contrafáctic os.
+| Nivel | Tipo de nodo | Función causal | Fuente de evidencia para w |
+| --- | --- | --- | --- |
+| Individual | Persona infectada / superpropaga dor. | Transmite el patógeno directamente. R* alto si la transmisión de ese nodo fue causalmente necesaria para la escala del brote. | Rastreo de contactos, secuenciaci ón genómica del patógeno (para vincular cepas), carga viral documenta da. |
+| Ambiental | Espacio de transmisión: mercado, hospital, transporte, | Amplifica o reduce la transmisión individual. Un espacio mal | Estudios de ventilación, análisis de clúster de casos por |
+| Institucional | Sistema de vigilancia epidemiológic a, hospitales, laboratorios de diagnóstico, autoridades de salud pública. | Detecta, contiene y trata. Su fallo aumenta el R* efectivo de los nodos individuales porque reduce α. Su éxito lo disminuye. | Capacidad de rastreo, tiempo de respuesta desde detección hasta intervenció n, cobertura de diagnóstico. |
+| Normativo/pol ítico | Políticas de cuarentena, cierre de fronteras, mandatos de uso de equipo de protección, campañas de vacunación. | Determina las condiciones bajo las cuales ocurre la transmisión a escala poblacional. El nodo de mayor R* frecuentemente es una política que tardó en activarse o que no se activó. | Cronología de decisiones vs. cronología del brote, estudios de impacto de intervencio nes, modelos contrafáctic os. |
 
 ⚠ El error más frecuente al construir el grafo epidemiológico es reducirlo al nivel individual (solo personas) y omitir los nodos estructurales y normativos. Un grafo incompleto produce un R* que sobreestima la responsabilidad causal de los casos individuales y subestima o no detecta la responsabilidad
 
@@ -4154,50 +2925,36 @@ Intervenir en el nodo de mayor R* × (1 − S) produce el mayor impacto en la re
 
 #### α individual (nodos-persona con voluntad):
 
-Rango Conducta observable
+| Nivel de α individual | Rango | Conducta observable |
+| --- | --- | --- |
+| Sin contención | 0.00– 0.05 | La persona no se aisló, no notificó contactos, continuó sus actividades habituales a pesar de saber o sospechar que estaba infectada. |
+| Contención parcial | 0.06– 0.35 | Se aisló tarde, notificó solo algunos contactos, buscó atención con demora. |
+| Contención sustancial | 0.36– 0.70 | Se aisló, notificó sus contactos conocidos, buscó atención. Cooperó con el rastreo. |
+| Contención completa | 0.71– 1.00 | Aislamiento inmediato, notificación exhaustiva de contactos, cooperación activa con la investigación epidemiológica. |
 
-Nivel de α individual
-
-Sin contención
-
-0.00– 0.05 La persona no se aisló, no notificó contactos, continuó sus actividades habituales a pesar de saber o sospechar que estaba infectada.
-
-Contención parcial
-
-0.06– 0.35 Se aisló tarde, notificó solo algunos contactos, buscó atención con demora.
-
-Contención sustancial
-
-0.36– 0.70 Se aisló, notificó sus contactos conocidos, buscó atención. Cooperó con el rastreo.
-
-0.71– 1.00 Aislamiento inmediato, notificación exhaustiva de contactos, cooperación activa con la investigación epidemiológica.
-
-Contención completa
 
 #### α institucional/estatal (nodos de diseño de la respuesta):
 
-Rango Conducta observable del sistema de salud pública
+| Nivel de α institucional | Rango | Conducta observable del sistema de salud pública |
+| --- | --- | --- |
 
-Nivel de α institucional
+> [!NOTE]
+> Rango Conducta observable del sistema de salud pública
+
+| Nivel de α institucional | Rango | Conducta observable del sistema de salud pública |
+| --- | --- | --- |
+| Sin respuesta | 0.00– 0.05 | El sistema no detectó el brote en tiempo útil, no activó protocolos de contención, no informó a la población. |
 
 Sin respuesta 0.00– 0.05 El sistema no detectó el brote en tiempo útil, no activó protocolos de contención, no informó a la población.
 
-
-Respuesta tardía
-
-0.06– 0.30 Detección tardía. Los protocolos se activaron cuando el brote ya había alcanzado escala difícil de contener.
-
-Respuesta parcial
-
-0.31– 0.60 Detección razonablemente oportuna pero con brechas en la ejecución: cobertura de rastreo insuficiente, capacidad hospitalaria sobrepasada.
-
-Respuesta integral
-
-0.61– 0.85 Detección temprana, activación de protocolos de contención, rastreo extenso, comunicación clara, capacidad hospitalaria protegida.
-
-0.86– 1.00 Todo lo anterior más transparencia completa en la comunicación de la incertidumbre, adaptación ágil de los protocolos según la evidencia emergente.
-
-Respuesta ejemplar
+<table>
+<tbody>
+<tr><th scope="row">Respuesta tardía</th><td>0.06– 0.30</td><td>Detección tardía. Los protocolos se activaron cuando el brote ya había alcanzado escala difícil de contener.</td></tr>
+<tr><th scope="row">Respuesta parcial</th><td>0.31– 0.60</td><td>Detección razonablemente oportuna pero con brechas en la ejecución: cobertura de rastreo insuficiente, capacidad hospitalaria sobrepasada.</td></tr>
+<tr><th scope="row">Respuesta integral</th><td>0.61– 0.85</td><td>Detección temprana, activación de protocolos de contención, rastreo extenso, comunicación clara, capacidad hospitalaria protegida.</td></tr>
+<tr><th scope="row">Respuesta ejemplar</th><td>0.86– 1.00</td><td>Todo lo anterior más transparencia completa en la comunicación de la incertidumbre, adaptación ágil de los protocolos según la evidencia emergente.</td></tr>
+</tbody>
+</table>
 
 El déficit de contención Δ = R* − α mide la brecha entre el peso causal del nodo y su respuesta. Para los nodos individuales, Δ positivo indica transmisión que podría haberse interrumpido. Para los nodos institucionales, Δ positivo es el indicador del fraude annona epidemiológico.
 
@@ -4205,26 +2962,14 @@ El déficit de contención Δ = R* − α mide la brecha entre el peso causal de
 
 #### D_epi = T_invertido + T_impedido + ΔT_trayectoria
 
-Componente En epidemiología equivale a
+| Componente | En epidemiología equivale a | Descripción |
+| --- | --- | --- |
+| T_invertido | Muertes directas y morbilidad aguda | Las muertes atribuibles al brote, las hospitalizaciones, las discapacidades producidas en el período agudo. Es el daño medido |
+| T_impedido | Colapso del sistema de salud y atención pospuesta | Durante un brote severo, el sistema de salud no puede atender otras condiciones: cirugías pospuestas, enfermedades crónicas sin atención, detección de cáncer retrasada. Este componente frecuentemente supera a T_invertido en los brotes más graves. |
+| ΔT_trayectoria | Secuelas de largo plazo y pérdida generacional | Las secuelas crónicas de los sobrevivientes (COVID largo, síndrome post-viral), el impacto en el desarrollo infantil por interrupciones educativas, la pérdida de potencial de las cohortes más afectadas. |
 
-Descripción
-
-T_invertido Muertes directas y morbilidad aguda
-
-Las muertes atribuibles al brote, las hospitalizaciones, las discapacidades producidas en el período agudo. Es el daño medido
-
-
-directamente durante el brote.
-
-T_impedido Colapso del sistema de salud y atención pospuesta
-
-Durante un brote severo, el sistema de salud no puede atender otras condiciones: cirugías pospuestas, enfermedades crónicas sin atención, detección de cáncer retrasada. Este componente frecuentemente supera a T_invertido en los brotes más graves.
-
-ΔT_trayectoria Secuelas de largo plazo y pérdida generacional
-
-Las secuelas crónicas de los sobrevivientes (COVID largo, síndrome post-viral), el impacto en el desarrollo infantil por interrupciones educativas, la pérdida de potencial de las cohortes más afectadas.
-
-Dimensión vital:  La expresión en tiempo de vida del daño epidemiológico usa el estándar de los Años de Vida Ajustados por Discapacidad (AVAD) de la OMS: AVAD = AVPP (Años de Vida Perdidos por Muerte Prematura) + AVD (Años Vividos con Discapacidad). Convertido al sistema: D_vital_epi = AVAD × w_ref. Esta conversión usa el w_ref universal (no el salario del país afectado) para mantener el principio ontológico de igualdad del tiempo de vida.
+> [!NOTE]
+> Dimensión vital:  La expresión en tiempo de vida del daño epidemiológico usa el estándar de los Años de Vida Ajustados por Discapacidad (AVAD) de la OMS: AVAD = AVPP (Años de Vida Perdidos por Muerte Prematura) + AVD (Años Vividos con Discapacidad). Convertido al sistema: D_vital_epi = AVAD × w_ref. Esta conversión usa el w_ref universal (no el salario del país afectado) para mantener el principio ontológico de igualdad del tiempo de vida.
 
 #### 3.6 Los hijos de Afrodita en epidemiología: solo en superpropagadores
 
@@ -4237,46 +2982,15 @@ La distinción más importante que los hijos aportan al análisis epidemiológic
 
 α predicho
 
-Hijo dominan te
+| Hijo dominan te | Qué describe en el superpropagad or | Intervención de salud pública | α predicho |
+| --- | --- | --- | --- |
+| Fobos | Transmitió porque tenía miedo de reportar o aislarse: perder el empleo, el estigma, las consecuencias. No quiso transmitir: no pudo dejar de hacerlo dadas las condiciones. | Eliminar las barreras al aislamiento: compensación por días perdidos, protección del empleo, comunicación desestigmatizan te. El Fobos no se resuelve con multas: se resuelve con seguridad. | Moderado-alto si se eliminan las barreras. α sube cuando el Fobos disminuye. |
+| Anteros | Resistencia deliberada a las medidas de protección. Rechazo activo del aislamiento o del uso de | Comunicación que no confronte directamente el Anteros (lo refuerza). En su lugar: norma social de pares, | Bajo sin cambio de contexto. Requiere transformació n del sesgo identitario, no |
+| Deimos | Parálisis ante la incertidumbre: no sabía si estaba infectado, no entendía los síntomas, no tenía acceso a diagnóstico. | Acceso fácil y rápido a diagnóstico. Comunicación clara sobre síntomas y qué hacer. El Deimos se resuelve con información y acceso, no con sanciones. | Alto si se provee el marco que faltó. El Deimos se transforma en Harmonía con estructura. |
+| Harmoní a | Cooperación activa con las medidas. Se aisló, notificó, cooperó con el rastreo. | Reconocer y reforzar. La respuesta de salud pública que trata igualmente a quien cooperó y a quien no desincentiva la cooperación futura. | Alto (0.70– 1.00). Este superpropagad or maximizó su α dado el conocimiento disponible. |
 
-Qué describe en el superpropagad or
-
-Intervención de salud pública
-
-Fobos Transmitió porque tenía miedo de reportar o aislarse: perder el empleo, el estigma, las consecuencias. No quiso transmitir: no pudo dejar de hacerlo dadas las condiciones.
-
-Eliminar las barreras al aislamiento: compensación por días perdidos, protección del empleo, comunicación desestigmatizan te. El Fobos no se resuelve con multas: se resuelve con seguridad.
-
-Moderado-alto si se eliminan las barreras. α sube cuando el Fobos disminuye.
-
-Anteros Resistencia deliberada a las medidas de protección. Rechazo activo del aislamiento o del uso de
-
-Comunicación que no confronte directamente el Anteros (lo refuerza). En su lugar: norma social de pares,
-
-Bajo sin cambio de contexto. Requiere transformació n del sesgo identitario, no
-
-
-equipo de protección.
-
-incentivos positivos, framing de las medidas como afirmación de autonomía.
-
-presión directa.
-
-Deimos Parálisis ante la incertidumbre: no sabía si estaba infectado, no entendía los síntomas, no tenía acceso a diagnóstico.
-
-Acceso fácil y rápido a diagnóstico. Comunicación clara sobre síntomas y qué hacer. El Deimos se resuelve con información y acceso, no con sanciones.
-
-Alto si se provee el marco que faltó. El Deimos se transforma en Harmonía con estructura.
-
-Harmoní a
-
-Cooperación activa con las medidas. Se aisló, notificó, cooperó con el rastreo.
-
-Reconocer y reforzar. La respuesta de salud pública que trata igualmente a quien cooperó y a quien no desincentiva la cooperación futura.
-
-Alto (0.70– 1.00). Este superpropagad or maximizó su α dado el conocimiento disponible.
-
-El principio de equidad epidemiológica basado en los hijos:  Una política de salud pública justa distingue entre el superpropagador que transmitió desde Fobos (las condiciones le impidieron actuar de otro modo) y el que lo hizo desde Anteros (eligió actuar en contra de las medidas). Ambos tienen el mismo R*, pero sus Δ son diferentes: el primero tiene Δ positivo porque el sistema de salud pública no generó las condiciones para que pudiera aislarse (fraude annona del Estado hacia el trabajador que perdería el empleo si se aislaba). El segundo tiene Δ positivo por elección propia. La política de intervención debe ser diferente en cada caso.
+> [!NOTE]
+> El principio de equidad epidemiológica basado en los hijos:  Una política de salud pública justa distingue entre el superpropagador que transmitió desde Fobos (las condiciones le impidieron actuar de otro modo) y el que lo hizo desde Anteros (eligió actuar en contra de las medidas). Ambos tienen el mismo R*, pero sus Δ son diferentes: el primero tiene Δ positivo porque el sistema de salud pública no generó las condiciones para que pudiera aislarse (fraude annona del Estado hacia el trabajador que perdería el empleo si se aislaba). El segundo tiene Δ positivo por elección propia. La política de intervención debe ser diferente en cada caso.
 
 
 
@@ -4299,72 +3013,26 @@ La historia tiene un detalle que el análisis de R* captura perfectamente: Snow 
 
 #### A.2 Reconstrucción del grafo causal
 
-Actor/Factor Tipo Función causal
-
-Nod o
-
-N1 Bomba de agua de Broad Street
-
-Ambiental (infraestructura)
-
-Fuente centralizada de agua contaminada. Sin esta bomba específica, el brote no habría alcanzado esa concentración espacial y temporal. R* alto, S moderado-bajo.
-
-N2 Pozo negro de Broad Street 40
-
-Ambiental (sanitario) El foco de contaminació n original. Documentado posteriorment e: el bebé de la familia Eley desarrolló cólera el 28 de agosto, los pañales se lavaban y vaciaban en el pozo, y el pozo estaba a menos de un metro de la bomba con
-
-
-grietas en la mampostería.
-
-N3 Infraestructu ra sanitaria del barrio de Soho
-
-Estructural La ausencia de sistema de alcantarillado separado del sistema de agua potable en ese sector. Condición estructural de fondo que hacía posible la contaminació n del N1 desde N2.
-
-N4 Autoridades de salud pública de Londres
-
-Normativo/institucio nal
-
-Tenían la capacidad de instalar alcantarillado separado (que se haría después del brote como respuesta) y no lo habían hecho. Posición causal estructural, con α bajo antes del brote.
-
-N5 Casos individuales de mayor transmisión secundaria
-
-Individual Los casos que generaron más transmisiones secundarias en sus hogares. R* moderado, S alto
-
-
-(cualquier caso con la misma carga viral habría transmitido similarmente).
-
-Nodo final 616 muertes en diez días en el área inmediata. No entra en el cálculo de R*.
-
-Nf Población del barrio de Soho
+| Nod o | Actor/Factor | Tipo | Función causal |
+| --- | --- | --- | --- |
+| N1 | Bomba de agua de Broad Street | Ambiental (infraestructura) | Fuente centralizada de agua contaminada. Sin esta bomba específica, el brote no habría alcanzado esa concentración espacial y temporal. R* alto, S moderado- bajo. |
+| N2 | Pozo negro de Broad Street 40 | Ambiental (sanitario) | El foco de contaminació n original. Documentado posteriorment e: el bebé de la familia Eley desarrolló cólera el 28 de agosto, los pañales se lavaban y vaciaban en el pozo, y el pozo estaba a menos de un metro de la bomba con |
+| N3 | Infraestructu ra sanitaria del barrio de Soho | Estructural | La ausencia de sistema de alcantarillado separado del sistema de agua potable en ese sector. Condición estructural de fondo que hacía posible la contaminació n del N1 desde N2. |
+| N4 | Autoridades de salud pública de Londres | Normativo/institucio nal | Tenían la capacidad de instalar alcantarillado separado (que se haría después del brote como respuesta) y no lo habían hecho. Posición causal estructural, con α bajo antes del brote. |
+| N5 | Casos individuales de mayor transmisión secundaria | Individual | Los casos que generaron más transmisiones secundarias en sus hogares. R* moderado, S alto |
+| Nf | Población del barrio de Soho | Nodo final | 616 muertes en diez días en el área inmediata. No entra en el cálculo de R*. |
 
 #### A.3 R*, S y Δ: lo que Snow vio sin los instrumentos formales
 
 #### El mapa de Snow era, sin saberlo, la primera visualización de un grafo causal epidemiológico. Pero el vector R* hace explícito lo que el mapa solo mostraba visualmente:
 
-Nodo R* S α pre-brote
-
-Interpretación
-
-~48% 0.30 0.00 Nodo de transmisión dominante. S moderado-bajo: era esta bomba específica y no cualquier fuente de agua porque era la única que accedía al agua contaminada de ese pozo.
-
-N1 — Bomba de Broad St.
-
-~22% 0.45 0.00 Foco de contaminación original. S moderado: otro pozo en situación similar
-
-N2 — Pozo negro Broad 40
-
-
-habría producido la misma contaminación.
-
-~18% 0.80 0.00 Factor estructural con S alto. Cualquier barrio con la misma falta de alcantarillado habría tenido el mismo riesgo.
-
-N3 — Infraestructura Soho
-
-~8% 0.60 0.05 Posición causal real pero moderada. Su Δ = +0.08 es el indicador del fraude annona: tenían la capacidad de generar las condiciones y no las generaron.
-
-N4 — Autoridades sanitarias
-
-~4% 0.90 0.10 S muy alto. Cualquier caso en esa posición habría transmitido igual. El control individual era mínimamente eficaz.
+| Nodo | R* | S | α pre- brote | Interpretación |
+| --- | --- | --- | --- | --- |
+| N1 — Bomba de Broad St. | ~48% | 0.30 | 0.00 | Nodo de transmisión dominante. S moderado-bajo: era esta bomba específica y no cualquier fuente de agua porque era la única que accedía al agua contaminada de ese pozo. |
+| N2 — Pozo negro Broad 40 | ~22% | 0.45 | 0.00 | Foco de contaminación original. S moderado: otro pozo en situación similar |
+| N3 — Infraestructura Soho | ~18% | 0.80 | 0.00 | Factor estructural con S alto. Cualquier barrio con la misma falta de alcantarillado habría tenido el mismo riesgo. |
+| N4 — Autoridades sanitarias | ~8% | 0.60 | 0.05 | Posición causal real pero moderada. Su Δ = +0.08 es el indicador del fraude annona: tenían la capacidad de generar las condiciones y no las generaron. |
+| N5 — Casos individuales | ~4% | 0.90 | 0.10 | S muy alto. Cualquier caso en esa posición habría transmitido igual. El control individual era mínimamente eficaz. |
 
 N5 — Casos individuales
 
@@ -4387,15 +3055,18 @@ Esa estructura metodológica —construir el grafo, identificar el nodo de mayor
 
 Cuando el brote es más complejo —múltiples nodos de transmisión, interacciones entre factores estructurales y comportamentales, efectos de las políticas a múltiples escalas— la intuición no es suficiente. Ahí es donde el cálculo formal de R* aporta lo que la intuición no puede garantizar: la consistencia y la reproducibilidad del análisis.
 
-Snow y la paradoja de la evidencia:  Snow presentó su análisis al Comité de Salud Pública de Londres. El comité lo rechazó porque la teoría del miasma seguía siendo dominante y la evidencia de Snow era "solo un mapa". Sin embargo, aceptaron retirar la manivela de la bomba como medida preventiva menor. El brote cedió. La interpretación causal correcta no prevaleció por su lógica sino por su resultado. Esto ilustra un
+> [!NOTE]
+> Snow y la paradoja de la evidencia:  Snow presentó su análisis al Comité de Salud Pública de Londres. El comité lo rechazó porque la teoría del miasma seguía siendo dominante y la evidencia de Snow era "solo un mapa". Sin embargo, aceptaron retirar la manivela de la bomba como medida preventiva menor. El brote cedió. La interpretación causal correcta no prevaleció por su lógica sino por su resultado. Esto ilustra un
 
 
-límite importante del cálculo causal: el análisis puede ser correcto y no ser adoptado si el sistema de toma de decisiones opera con criterios distintos a la causalidad.
+> [!NOTE]
+> límite importante del cálculo causal: el análisis puede ser correcto y no ser adoptado si el sistema de toma de decisiones opera con criterios distintos a la causalidad.
 
 
 Caso B — COVID-19 (2019–2023)
 
-R* de los nodos de diseño versus la narrativa política: lo que el análisis causal revela
+> [!NOTE]
+> R* de los nodos de diseño versus la narrativa política: lo que el análisis causal revela
 
 B.1 El contexto y la complejidad del caso
 
@@ -4405,156 +3076,61 @@ Precisamente porque es complejo y políticamente cargado, es donde el análisis 
 
 El análisis que sigue no pretende ser exhaustivo sobre la causa del origen del virus —esa pregunta tiene incertidumbre genuina que el sistema reconoce honestamente. Se centra en los nodos del sistema de respuesta cuya posición causal en la escala del daño está mejor documentada.
 
-B.2 El grafo causal de la escala de la pandemia
-
-El grafo distingue entre los nodos relacionados con el origen y los primeros días del brote (donde la incertidumbre
-
+| No do | Actor/Fact or | Tipo | Función causal en la escala del daño | Certez a |
+| --- | --- | --- | --- | --- |
 
 #### es mayor) y los nodos relacionados con la escala global que el brote alcanzó (donde la evidencia es más robusta):
 
-Tipo Función causal en la escala del daño
-
-No do
-
-Actor/Fact or
-
-Certez a
-
-N1 Sistemas de alerta temprana de la OMS y de China
-
-Alta
-
-Normativo/in stitucional
-
-El retraso en la declaración de emergencia internacional (anunciada el 30 de enero de 2020 cuando el virus ya circulaba globalmente) fue causalmente necesario para que el brote alcanzara escala pandémica antes de que se implementara n controles de viaje.
-
-N2 Conectivid ad aérea global sin controles tempranos
-
-Alta
-
-Estructural/sis témico
-
-La dispersión global en las primeras semanas fue posible por los vuelos internacionale s antes de que se declarara la emergencia. Nodo estructural con
-
-
-R* alto y S moderado: la conectividad era el sistema, pero los controles habrían podido modificar su impacto.
-
-N3 Desigualda d en los sistemas de salud nacionales
-
-Estructural La capacidad de respuesta varió entre países en varios órdenes de magnitud según la inversión histórica en salud pública. En los países con sistemas debilitados, cada caso individual tuvo mayor R* efectivo por la falta de contención.
-
-Alta
-
-N4 Superpropa gadores en eventos de alta densidad
-
-Individual Los eventos de superspreadin g documentados (conferencias, bodas, servicios religiosos, instalaciones de procesamiento de alimentos) contribuyeron
-
-Alta
-
-
-desproporcion adamente a la transmisión en las primeras semanas.
-
-N5 Políticas de comunicaci ón que minimizaro n el riesgo
-
-Normativo Las comunicacion es de varios gobiernos que minimizaron el riesgo en las primeras semanas redujeron el α individual al no activar los comportamien tos preventivos cuando aún eran más eficaces.
-
-Alta
-
-N6 Condicione s de trabajo que impedían el aislamiento
-
-Estructural Para una fracción significativa de la fuerza laboral (trabajadores esenciales sin cobertura social para días perdidos), el Fobos al aislamiento era real: perder el empleo o el ingreso era la consecuencia. Este nodo amplificó la transmisión comunitaria.
-
-Alta
-
-
-N7 Origen del virus (zoonótico o laboratorio)
-
-Origen La pregunta más políticamente sensible del análisis. Su R* en la escala de la pandemia es real pero no es el dominante: el brote habría alcanzado escala catastrófica con cualquier origen dado N1-N6.
-
-Baja/in cierta
-
-Nf Población mundial
-
-Nodo final Más de 20 millones de muertes en exceso (OMS, 2023). No entra en el cálculo de R*.
+| No do | Actor/Fact or | Tipo | Función causal en la escala del daño | Certez a |
+| --- | --- | --- | --- | --- |
+| N1 | Sistemas de alerta temprana de la OMS y de China | Normativo/in stitucional | El retraso en la declaración de emergencia internacional (anunciada el 30 de enero de 2020 cuando el virus ya circulaba globalmente) fue causalmente necesario para que el brote alcanzara escala pandémica antes de que se implementara n controles de viaje. | Alta |
+| N2 | Conectivid ad aérea global sin controles tempranos | Estructural/sis témico | La dispersión global en las primeras semanas fue posible por los vuelos internacionale s antes de que se declarara la emergencia. Nodo estructural con | Alta |
+| N3 | Desigualda d en los sistemas de salud nacionales | Estructural | La capacidad de respuesta varió entre países en varios órdenes de magnitud según la inversión histórica en salud pública. En los países con sistemas debilitados, cada caso individual tuvo mayor R* efectivo por la falta de contención. | Alta |
+| N4 | Superpropa gadores en eventos de alta densidad | Individual | Los eventos de superspreadin g documentados (conferencias, bodas, servicios religiosos, instalaciones de procesamiento de alimentos) contribuyeron | Alta |
+| N5 | Políticas de comunicaci ón que minimizaro n el riesgo | Normativo | Las comunicacion es de varios gobiernos que minimizaron el riesgo en las primeras semanas redujeron el α individual al no activar los comportamien tos preventivos cuando aún eran más eficaces. | Alta |
+| N6 | Condicione s de trabajo que impedían el aislamiento | Estructural | Para una fracción significativa de la fuerza laboral (trabajadores esenciales sin cobertura social para días perdidos), el Fobos al aislamiento era real: perder el empleo o el ingreso era la consecuencia. Este nodo amplificó la transmisión comunitaria. | Alta |
+| N7 | Origen del virus (zoonótico o laboratorio) | Origen | La pregunta más políticamente sensible del análisis. Su R* en la escala de la pandemia es real pero no es el dominante: el brote habría alcanzado escala catastrófica con cualquier origen dado N1-N6. | Baja/in cierta |
+| Nf | Población mundial | Nodo final | Más de 20 millones de muertes en exceso (OMS, 2023). No entra en el cálculo de R*. | — |
 
 —
 
+
 #### B.3 R* y la narrativa política: dónde divergen
+
 
 #### El análisis de R* produce una distribución que diverge significativamente de las narrativas políticas dominantes sobre la pandemia. Esa divergencia es informativamente valiosa:
 
-Nodo R* estimad o
-
-α estimad o
-
-Divergencia con narrativa política
-
-~28% 0.10 Δ = +0.18. Narrativa política: "China fue responsable."
-
-N1 — Sistemas alerta OMS/China
-
-
-El análisis muestra que N1 es el nodo de mayor R* pero el sistema de alerta de la OMS (que tardó en declarar la emergencia) también comparte este nodo. La responsabilidad es institucional compartida, no de un solo Estado.
-
-~22% 0.05 Δ = +0.17. Narrativa: pocas referencias. El cierre de rutas aéreas tempranas habría reducido significativament e la escala. Pero fue un nodo estructural que ningún actor individual controló unilateralmente.
-
-N2 — Conectividad aérea
-
-~18% 0.08 Δ = +0.10. Narrativa: raramente mencionado en la narrativa dominante. Es el nodo que muestra que la pandemia no fue homogénea: los países con mayor inversión histórica en salud
-
-N3 — Desigualdad sanitaria
-
-
-pública tuvieron menor R* efectivo.
-
-~12% 0.30 Δ = -0.18. Narrativa: a veces usado para culpabilizar a individuos. El análisis muestra que su α promedio fue mayor que el esperado en ausencia de las condiciones de N6.
-
-N4 — Superpropagadore s
-
-~12% 0.15 Δ = +0.07. Narrativa: debatido políticamente. El análisis muestra que es un nodo real pero no dominante.
-
-N5 — Comunicación minimizante
-
-~6% 0.20 Δ = -0.14. Narrativa: raramente mencionado. Es el nodo que muestra el fraude annona del Estado: trabajadores esenciales transmitieron más porque el sistema no les dio condiciones para aislarse.
-
-N6 — Cond. trabajo (Fobos)
-
-~2% 0.00 Δ = +0.02. Narrativa:
-
-N7 — Origen del virus
-
-
-políticamente dominante. El análisis muestra que su R* en la escala de la pandemia es mínimo: con N1-N6 intactos, el brote habría alcanzado escala catastrófica con cualquier origen.
+| Nodo | R* estimad o | α estimad o | Divergencia con narrativa política |
+| --- | --- | --- | --- |
+| N1 — Sistemas alerta OMS/China | ~28% | 0.10 | Δ = +0.18. Narrativa política: "China fue responsable." |
+| N2 — Conectividad aérea | ~22% | 0.05 | Δ = +0.17. Narrativa: pocas referencias. El cierre de rutas aéreas tempranas habría reducido significativament e la escala. Pero fue un nodo estructural que ningún actor individual controló unilateralmente. |
+| N3 — Desigualdad sanitaria | ~18% | 0.08 | Δ = +0.10. Narrativa: raramente mencionado en la narrativa dominante. Es el nodo que muestra que la pandemia no fue homogénea: los países con mayor inversión histórica en salud |
+<table>
+<tbody>
+<tr><th scope="row">N4 — Superpropagadore s</th><td>~12%</td><td>0.30</td><td>Δ = -0.18. Narrativa: a veces usado para culpabilizar a individuos. El análisis muestra que su α promedio fue mayor que el esperado en ausencia de las condiciones de N6.</td></tr>
+<tr><th scope="row">N5 — Comunicación minimizante</th><td>~12%</td><td>0.15</td><td>Δ = +0.07. Narrativa: debatido políticamente. El análisis muestra que es un nodo real pero no dominante.</td></tr>
+<tr><th scope="row">N6 — Cond. trabajo (Fobos)</th><td>~6%</td><td>0.20</td><td>Δ = -0.14. Narrativa: raramente mencionado. Es el nodo que muestra el fraude annona del Estado: trabajadores esenciales transmitieron más porque el sistema no les dio condiciones para aislarse.</td></tr>
+<tr><th scope="row">N7 — Origen del virus</th><td>~2%</td><td>0.00</td><td>Δ = +0.02. Narrativa:</td></tr>
+<tr><th scope="row"></th><td></td><td></td><td>políticamente dominante. El análisis muestra que su R* en la escala de la pandemia es mínimo: con N1- N6 intactos, el brote habría alcanzado escala catastrófica con cualquier origen.</td></tr>
+</tbody>
+</table>
 
 La conclusión más contraintuitiva del análisis: el origen del virus (N7), que domina el debate político internacional, tiene el menor R* de todos los nodos en la escala del daño. No porque no importe quién creó el virus sino porque, dado el sistema de respuesta que existía (N1-N6), el daño habría sido comparable con cualquier origen. La pregunta por el origen es legítima para prevenir futuros brotes, pero es casi irrelevante para explicar por qué este brote alcanzó la escala que alcanzó.
 
-B.4 Los superpropagadores del COVID-19 y el análisis de hijos
 
 El COVID-19 mostró el patrón 80/20 de superpropagación con inusual claridad: estudios en varios países documentaron que entre el 10% y el 20% de los casos fueron responsables del 80% de las infecciones secundarias. La gran mayoría de los casos no transmitieron a nadie.
 
+| Perfil del superpropagador COVID-19 | Hijo dominante | Implicación para la intervención |
+| --- | --- | --- |
+
 El análisis de hijos de los superpropagadores identificados en los primeros meses del brote revela un perfil predominante que tiene implicaciones directas para la política de intervención: El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
 
-Perfil del superpropagador COVID-19
-
-Hijo dominante
-
-Implicación para la intervención
-
-Fobos No se aisló porque no podía económicamente. La intervención correcta no es la sanción sino la compensación: subsidio de aislamiento, protección del empleo, equipo de protección adecuado.
-
-Trabajador esencial (atención médica, alimentos, transporte) sin cobertura social
-
-Deimos No se aisló porque no sabía que debía hacerlo. La intervención correcta es diagnóstico accesible y comunicación clara, no culpabilización.
-
-Persona que no reconoció los síntomas como COVID-19 en las primeras semanas
-
-Potós Actuó sobre la base de la información anterior al punto de actualización. El vector de voluntad seguía apuntando hacia las normas sociales previas a la pandemia.
-
-Persona que asistió a un evento social creyendo que el riesgo era bajo (información incorrecta)
-
-Anteros Minoría, pero visible. La intervención directa refuerza el Anteros. Las normas de grupo que hacen que la cooperación sea la norma son más eficaces.
-
-Negacionista activo que rechazó todas las medidas
+| Perfil del superpropagador COVID-19 | Hijo dominante | Implicación para la intervención |
+| --- | --- | --- |
+| Trabajador esencial (atención médica, alimentos, transporte) sin cobertura social | Fobos | No se aisló porque no podía económicamente. La intervención correcta no es la sanción sino la compensación: subsidio de aislamiento, protección del empleo, equipo de protección adecuado. |
+| Persona que no reconoció los síntomas como COVID-19 en las primeras semanas | Deimos | No se aisló porque no sabía que debía hacerlo. La intervención correcta es diagnóstico accesible y comunicación clara, no culpabilización. |
+| Persona que asistió a un evento social creyendo que el riesgo era bajo (información incorrecta) | Potós | Actuó sobre la base de la información anterior al punto de actualización. El vector de voluntad seguía apuntando hacia las normas sociales previas a la pandemia. |
+| Negacionista activo que rechazó todas las medidas | Anteros | Minoría, pero visible. La intervención directa refuerza el Anteros. Las normas de grupo que hacen que la cooperación sea la norma son más eficaces. |
 
 El perfil dominante entre los superpropagadores no fue Anteros (negación deliberada): fue Fobos, Deimos y Potós. Es decir: la mayoría de los superpropagadores no eligieron transmitir —fueron colocados por el sistema en una posición donde transmitir era la consecuencia inevitable de las condiciones. Eso es el fraude annona del sistema hacia los trabajadores esenciales: el Estado necesitaba que
 
@@ -4577,46 +3153,29 @@ D_vital_directo = 17,000,000 × 15 años × 8,760 h/año
 
 = 2.234 × 10¹² horas
 
-D_monetary_directo ≈ $17.9 billones USD (2024)
-
-D_vital_total incluyendo AVAD (T_impedido + ΔT_trayectoria):
-
-D_vital_AVAD = 300,000,000 AVAD × 8,760 h/año =
+| Nodo | R* | AD (billones USD) | Quién debería asumir |
+| --- | --- | --- | --- |
 
 #### 2.628 × 10¹² horas adicionales
 
-D_monetary_AVAD ≈ $21.0 billones USD (2024)
-
-D_vital_total: El Cálculo de la Responsabilidad · Cap. 6 — Epidemiología
+| Nodo | R* | AD (billones USD) | Quién debería asumir |
+| --- | --- | --- | --- |
+| N1 — Sistemas alerta | 28% | $10.9B | Reforma institucional de la OMS y de los sistemas de alerta nacional. La compensación económica directa es menos relevante que la reforma estructural. |
 
 #### D_vital_total ≈ 4.862 × 10¹² horas de vida
 
+
 #### D_monetary_total ≈ $38.9 billones USD (2024)
+
 
 #### Distribución del daño entre nodos responsables (AD_i = R*ᵢ × D_total):
 
-Nodo R* AD (billones USD)
-
-Quién debería asumir
-
-28% $10.9B Reforma institucional de la OMS y de los sistemas de alerta nacional. La compensación económica directa es menos relevante que la reforma estructural.
-
-N1 — Sistemas alerta
-
-22% $8.6B Inversión en sistemas de control de viajes con respuesta rápida. Protocolos de cierre de rutas ante alertas tempranas.
-
-N2 — Conectividad aérea
-
-18% $7.0B Los países con mayor R* por esta causa son también los que menos inversión histórica en salud tienen. La equidad en la distribución de vacunas y recursos fue el primer paso de α institucional.
-
-N3 — Desigualdad sanitaria
-
-12% $4.7B Responsabilidad de los gobiernos que minimizaron el riesgo en los primeros meses. AD específico a cada gobierno según su patrón de
-
-N5 — Comunicación
-
-
-comunicación documentado.
+| Nodo | R* | AD (billones USD) | Quién debería asumir |
+| --- | --- | --- | --- |
+| N2 — Conectividad aérea | 22% | $8.6B | Inversión en sistemas de control de viajes con respuesta rápida. Protocolos de cierre de rutas ante alertas tempranas. |
+| N3 — Desigualdad sanitaria | 18% | $7.0B | Los países con mayor R* por esta causa son también los que menos inversión histórica en salud tienen. La equidad en la distribución de vacunas y recursos fue el primer paso de α institucional. |
+| N5 — Comunicación | 12% | $4.7B | Responsabilidad de los gobiernos que minimizaron el riesgo en los primeros meses. AD específico a cada gobierno según su patrón de |
+|  |  |  | comunicación documentado. |
 
 
 ### §5.  Límites del método en epidemiología
@@ -4654,19 +3213,11 @@ R* identifica retrospectivamente qué nodos tuvieron mayor peso causal en el bro
 
 #### Los tres indicadores son relacionados, pero matemáticamente distintos:
 
-Indicador Definición formal Relación con R*
-
-R₀ E[número de infecciones secundarias en población totalmente susceptible]
-
-R₀ = ρ(K) donde K es la matriz de siguiente generación del modelo epidemiológico. R₀ es un escalar (un número). R* es un vector. R₀ describe la dinámica global; R* distribuye el peso causal entre nodos.
-
-Re (Rt) Número efectivo de reproducción en tiempo t, con inmunidad parcial de la población.
-
-Re(t) = R₀ × S(t)/N donde S(t) es la fracción susceptible. Re es también un escalar. R* captura lo que Re no puede: cuáles nodos específicos están aportando más a ese Re en un momento dado.
-
-R* causal Eigenvector dominante de la matriz de pesos W del grafo epidemiológico causal.
-
-R* se calcula sobre el grafo de influencias causales, no sobre el modelo de dinámica poblacional. Puede incluir nodos estructurales y normativos que ninguno de los dos anteriores incluye.
+| Indicador | Definición formal | Relación con R* |
+| --- | --- | --- |
+| R₀ | E[número de infecciones secundarias en población totalmente susceptible] | R₀ = ρ(K) donde K es la matriz de siguiente generación del modelo R₀ epidemiológico. es un escalar (un número). R* es un R₀ vector. describe la dinámica global; R* distribuye el peso causal entre nodos. |
+| Re (Rt) | Número efectivo de reproducción en tiempo t, con inmunidad parcial de la población. | R₀ Re(t) = × S(t)/N donde S(t) es la fracción susceptible. Re es también un escalar. R* captura lo que Re no puede: cuáles nodos específicos están aportando más a ese Re en un momento dado. |
+| R* causal | Eigenvector dominante de la matriz de pesos W del grafo epidemiológico causal. | R* se calcula sobre el grafo de influencias causales, no sobre el modelo de dinámica poblacional. Puede incluir nodos estructurales y normativos que ninguno de los dos anteriores incluye. |
 
 
 La relación entre R₀ y R* puede expresarse aproximadamente así: si R₀ = Σᵢ R*ᵢ × transmisibilidad_ᵢ, entonces R₀ es una media ponderada de las contribuciones de transmisión de todos los nodos, mientras R* es la distribución de esas contribuciones. R₀ alto con R* concentrado en pocos nodos sugiere que intervenir en esos nodos reducirá R₀ eficientemente. R₀ alto con R* distribuido sugiere que se necesita intervención en múltiples frentes simultáneamente.
@@ -4745,7 +3296,8 @@ En la tanatología esto no ocurre. La muerte de un ser querido no produce benefi
 
 (ganancia que se acumula en el tiempo) ni ΔG_trayectoria (mejora en la pendiente del futuro) como consecuencia causal de esa muerte. Lo que pudiera parecer un beneficio —una herencia, el alivio del sufrimiento de un enfermo terminal— no es B_total en el sentido ontológico: es un efecto secundario que ocurre a pesar de la muerte, no gracias a ella.
 
-Principio tanatológico:  B_total = 0 en tanatología no es un resultado del cálculo: es una premisa ontológica. La muerte de un ser querido no produce beneficio para nadie. Esta es la única afirmación del sistema que no depende de los datos del caso: es verdadera por definición, en todos los casos, sin excepción. Y eso hace de la tanatología el único dominio puramente unidimensional del libro: solo hay daño, sin beneficio que pudiera compensarlo o moderarlo.
+> [!IMPORTANT]
+> Principio tanatológico:  B_total = 0 en tanatología no es un resultado del cálculo: es una premisa ontológica. La muerte de un ser querido no produce beneficio para nadie. Esta es la única afirmación del sistema que no depende de los datos del caso: es verdadera por definición, en todos los casos, sin excepción. Y eso hace de la tanatología el único dominio puramente unidimensional del libro: solo hay daño, sin beneficio que pudiera compensarlo o moderarlo.
 
 #### 1.2 α = 0 permanente: el fallecido como ego cerrado
 
@@ -4775,87 +3327,29 @@ normal, esperable y necesaria del proceso de duelo. Un doliente en Potós no tie
 
 La secuencia típica de los hijos en el duelo es una trayectoria, no un diagnóstico. Cada hijo describe un momento del proceso, y el movimiento entre ellos es el duelo mismo. La intervención tanatológica no trabaja para eliminar ninguno de los hijos: trabaja para que el doliente pueda moverse a través de ellos sin quedarse atrapado en ninguno de manera permanente.
 
-⚠ El error más grave en el acompañamiento del duelo: tratar los hijos como patologías. Decirle al doliente que su Potós es "dependencia emocional", que su Fobos es "ansiedad que hay que tratar", que su Anteros es "resistencia a sanar". Cada uno de esos hijos es una forma legítima de estar en el duelo. La pregunta no es "¿cuándo va a dejar de estar en ese hijo?" sino "¿puede moverse a través de él hacia el siguiente?"
+> [!WARNING]
+> ⚠ El error más grave en el acompañamiento del duelo: tratar los hijos como patologías. Decirle al doliente que su Potós es "dependencia emocional", que su Fobos es "ansiedad que hay que tratar", que su Anteros es "resistencia a sanar". Cada uno de esos hijos es una forma legítima de estar en el duelo. La pregunta no es "¿cuándo va a dejar de estar en ese hijo?" sino "¿puede moverse a través de él hacia el siguiente?"
 
 
 ### §2.  Página puente — Traducción al lenguaje de la tanatología
 
 Esta página resume las herramientas del sistema en el contexto de la tanatología y el acompañamiento del duelo. El lector con formación en tanatología, trabajo social, acompañamiento espiritual o psicología puede comenzar aquí.
 
-Herramienta En tanatología se llama
-
-Qué significa en el acompañamiento del duelo
-
-Grafo causal G
-
-Mapa de la pérdida
-
-La red de factores que contribuyen causalmente a la profundidad y la forma del duelo: el tipo de muerte (repentina vs esperada), la naturaleza del vínculo, la historia previa de pérdidas, el contexto cultural del duelo, los factores de riesgo de duelo complicado.
-
-R* (vector) Peso causal en la pérdida
-
-La fracción de la intensidad del duelo causalmente atribuible a cada factor. R* alto del tipo de muerte (repentina, violenta, evitable) vs. R* alto del vínculo (amor profundo que produce duelo profundo). El mapa de qué hace que este duelo sea así de intenso para este doliente.
-
-
-α_fallecido 0 permanente — el ego cerrado
-
-El fallecido no puede asumir, integrar, reparar ni transformarse. Su ego está completo en su forma final. Esto no es una limitación del sistema: es la descripción ontológica de lo que significa haber muerto.
-
-α_doliente Integración mediante φ₂: el trabajo del duelo
-
-El grado en que el doliente ha integrado la pérdida como parte de su historia asumida. α = 0: negación o escisión. α = 1: integración plena donde el ser querido forma parte de la historia asumida del doliente, no como ausencia sino como presencia transformada.
-
-B_total Siempre cero — dominio unidimensional
-
-No hay beneficio ontológico en la muerte de un ser querido. Este es el único dominio del libro donde B_total = 0 por definición, sin excepción, sin matices. La herencia o el alivio del sufrimiento son efectos secundarios, no beneficios causales de la muerte.
-
-D_total Daño biográfico de la pérdida
-
-T_invertido: la pérdida directa del vínculo y del futuro compartido que ya no ocurrirá. T_impedido: el desarrollo truncado del doliente mientras el duelo está en su fase más aguda. ΔT_trayectoria: la alteración de la trayectoria vital del doliente como consecuencia de la pérdida.
-
-
-Hijos de Afrodita
-
-Fases normales del proceso de duelo en el doliente
-
-Cada hijo dominante en el doliente describe una fase del duelo, no un diagnóstico clínico. El movimiento a través de los hijos es el duelo mismo. Ningún hijo es patológico si es proporcional a la pérdida y si el doliente puede moverse a través de él.
-
-Potós en el doliente
-
-La fase del anhelo: el vector apunta hacia el ausente
-
-Normal y necesario. El vector de voluntad sigue orientado hacia el ser querido. Es la forma que toma el amor cuando la persona amada ya no está. No hay que eliminarlo: hay que acompañarlo hasta que el doliente pueda reorientar parte del vector hacia el presente.
-
-Fobos en el doliente
-
-La fase del pánico y la desorganización
-
-La respuesta ante la amenaza de un mundo reorganizado sin el ser querido. Normal. El Fobos del duelo no es ansiedad clínica que hay que medicar: es el sistema de alarma que indica que algo profundamente amado ha desaparecido.
-
-Deimos en el doliente
-
-La fase del entumecimiento y la disociación
-
-La parálisis ante la multiplicidad de un futuro sin el ser querido. Normal especialmente en las primeras semanas. El entumecimiento es una protección adaptativa ante lo insoportable.
-
-
-Anteros en el doliente
-
-La fase de la rebelión: negarse a aceptar
-
-El rechazo activo de la realidad de la muerte. "Esto no puede ser." "No lo voy a aceptar." Normal y necesario como fase. Patológico solo si se convierte en el único modo permanente de relacionarse con la pérdida.
-
-Eros en el doliente
-
-La apertura hacia la vida: señal de integración
-
-Cuando el doliente puede orientarse hacia algo nuevo sin sentir que traiciona al ser querido. La aparición de Eros no marca el fin del amor por el fallecido: marca que ese amor ya no impide vivir.
-
-El fallecido ya no es solo ausencia sino presencia transformada. El doliente puede hablar de él con plenitud, recordarlo con alegría y dolor, llevarlo consigo sin que eso paralice su vector de voluntad.
-
-Harmonía en el doliente
-
-La integración: el ser querido como parte de la historia asumida
+| Herramienta | En tanatología se llama | Qué significa en el acompañamiento del duelo |
+| --- | --- | --- |
+| Grafo causal G | Mapa de la pérdida | La red de factores que contribuyen causalmente a la profundidad y la forma del duelo: el tipo de muerte (repentina vs esperada), la naturaleza del vínculo, la historia previa de pérdidas, el contexto cultural del duelo, los factores de riesgo de duelo complicado. |
+| R* (vector) | Peso causal en la pérdida | La fracción de la intensidad del duelo causalmente atribuible a cada factor. R* alto del tipo de muerte (repentina, violenta, evitable) vs. R* alto del vínculo (amor profundo que produce duelo profundo). El mapa de qué hace que este duelo sea así de intenso para este doliente. |
+| α_fallecido | 0 permanente — el ego cerrado | El fallecido no puede asumir, integrar, reparar ni transformarse. Su ego está completo en su forma final. Esto no es una limitación del sistema: es la descripción ontológica de lo que significa haber muerto. |
+| α_doliente | Integración φ₂: mediante el trabajo del duelo | El grado en que el doliente ha integrado la pérdida como parte de su historia asumida. α = 0: negación o escisión. α = 1: integración plena donde el ser querido forma parte de la historia asumida del doliente, no como ausencia sino como presencia transformada. |
+| B_total | Siempre cero — dominio unidimensional | No hay beneficio ontológico en la muerte de un ser querido. Este es el único dominio del libro donde B_total = 0 por definición, sin excepción, sin matices. La herencia o el alivio del sufrimiento son efectos secundarios, no beneficios causales de la muerte. |
+| D_total | Daño biográfico de la pérdida | T_invertido: la pérdida directa del vínculo y del futuro compartido que ya no ocurrirá. T_impedido: el desarrollo truncado del doliente mientras el duelo está en su fase más aguda. ΔT_trayectoria: la alteración de la trayectoria vital del doliente como consecuencia de la pérdida. |
+| Hijos de Afrodita | Fases normales del proceso de duelo en el doliente | Cada hijo dominante en el doliente describe una fase del duelo, no un diagnóstico clínico. El movimiento a través de los hijos es el duelo mismo. Ningún hijo es patológico si es proporcional a la pérdida y si el doliente puede moverse a través de él. |
+| Potós en el doliente | La fase del anhelo: el vector apunta hacia el ausente | Normal y necesario. El vector de voluntad sigue orientado hacia el ser querido. Es la forma que toma el amor cuando la persona amada ya no está. No hay que eliminarlo: hay que acompañarlo hasta que el doliente pueda reorientar parte del vector hacia el presente. |
+| Fobos en el doliente | La fase del pánico y la desorganización | La respuesta ante la amenaza de un mundo reorganizado sin el ser querido. Normal. El Fobos del duelo no es ansiedad clínica que hay que medicar: es el sistema de alarma que indica que algo profundamente amado ha desaparecido. |
+| Deimos en el doliente | La fase del entumecimiento y la disociación | La parálisis ante la multiplicidad de un futuro sin el ser querido. Normal especialmente en las primeras semanas. El entumecimiento es una protección adaptativa ante lo insoportable. |
+| Anteros en el doliente | La fase de la rebelión: negarse a aceptar | El rechazo activo de la realidad de la muerte. "Esto no puede ser." "No lo voy a aceptar." Normal y necesario como fase. Patológico solo si se convierte en el único modo permanente de relacionarse con la pérdida. |
+| Eros en el doliente | La apertura hacia la vida: señal de integración | Cuando el doliente puede orientarse hacia algo nuevo sin sentir que traiciona al ser querido. La aparición de Eros no marca el fin del amor por el fallecido: marca que ese amor ya no impide vivir. |
+| Harmonía en el doliente | La integración: el ser querido como parte de la historia asumida | El fallecido ya no es solo ausencia sino presencia transformada. El doliente puede hablar de él con plenitud, recordarlo con alegría y dolor, llevarlo consigo sin que eso paralice su vector de voluntad. |
 
 Para el lector que viene del núcleo universal:  Este es el dominio más singular del sistema. Tres diferencias críticas respecto a todos los anteriores. Primera: B_total = 0 sin excepción. Segunda: α_fallecido = 0 permanente sin posibilidad de α_diferido. Tercera: los hijos en los dolientes son fases normales del proceso de duelo, no diagnósticos clínicos. El análisis no distribuye responsabilidad entre actores: mapea el proceso por el que un ser humano puede integrar lo que no puede recuperar.
 
@@ -4866,23 +3360,13 @@ Para el lector que viene del núcleo universal:  Este es el dominio más singula
 
 El grafo causal de una pérdida tiene una estructura diferente a los grafos de los dominios anteriores: no hay un nodo de diseño con R* dominante que sea responsable del daño (salvo en las muertes evitables). El grafo describe los factores que determinan la profundidad y la forma que toma el duelo para este doliente específico.
 
-Factor Descripción R* típico Interpretación
-
-Tipo de muerte
-
-Repentina / violenta / evitable / esperada / en presencia del doliente / a distancia.
-
-Muy variable. Muerte repentina: R* alto (el duelo no tuvo preparación). Muerte esperada: R* moderado (el duelo comenzó antes).
-
-El tipo de muerte no determina el valor del ser querido: determina las condiciones en que el duelo comienza. Una muerte repentina produce duelo más intenso en los primeros meses; una muerte esperada puede producirlo antes de que ocurra.
-
-Naturaleza del vínculo
-
-Profundidad del amor, la dependencia mutua, los
-
-Generalmente el factor de R* más alto. El duelo es
-
-La profundidad del duelo no es una patología ni un exceso: es la
+<table>
+<tbody>
+<tr><th scope="row">Factor</th><td>Descripción</td><td>R* típico</td><td>Interpretación</td></tr>
+<tr><th scope="row">Tipo de muerte</th><td>Repentina / violenta / evitable / esperada / en presencia del doliente / a distancia.</td><td>Muy variable. Muerte repentina: R* alto (el duelo no tuvo preparación). Muerte esperada: R* moderado (el duelo comenzó antes).</td><td>El tipo de muerte no determina el valor del ser querido: determina las condiciones en que el duelo comienza. Una muerte repentina produce duelo más intenso en los primeros meses; una muerte esperada puede producirlo antes de que ocurra.</td></tr>
+<tr><th scope="row">Naturaleza del vínculo</th><td>Profundidad del amor, la dependencia mutua, los</td><td>Generalmente el factor de R* más alto. El duelo es</td><td>La profundidad del duelo no es una patología ni un exceso: es la</td></tr>
+</tbody>
+</table>
 
 
 roles compartidos, la historia acumulada.
@@ -4895,30 +3379,17 @@ Historia de pérdidas previas
 
 Pérdidas anteriores integradas o no. Duelos anteriores sin cerrar que este activa.
 
-Variable. Si hay duelos previos no integrados, R* de este factor puede ser alto porque la nueva pérdida reactiva las anteriores.
+<table>
+<tbody>
+<tr><th scope="row">Historia de pérdidas previas</th><td>Pérdidas anteriores integradas o no. Duelos anteriores sin cerrar que este activa.</td><td>Variable. Si hay duelos previos no integrados, R* de este factor puede ser alto porque la nueva pérdida reactiva las anteriores.</td><td>El duelo complicado frecuentemente no es solo por la pérdida presente: es la acumulación de varias pérdidas no integradas que esta abre simultáneamente.</td></tr>
+<tr><th scope="row">Contexto cultural del duelo</th><td>Lo que el entorno cultural prescribe: tiempo de duelo, expresión permitida, rituales, expectativas.</td><td>S alto: es un factor estructural que cualquier doliente en esa cultura enfrenta. Pero puede tener R* significativo si el mandato cultural entra en conflicto severo con el proceso del doliente.</td><td>Un entorno que prescribe &quot;ya pasaste el tiempo de duelo&quot; cuando el doliente aún lo necesita, o que impide la expresión emocional plena, aumenta el R* de este factor.</td></tr>
+<tr><th scope="row">Factores de riesgo de duelo complicad o</th><td>Aislamiento social, antecedentes de depresión, dependencia extrema del fallecido, conflicto no resuelto con</td><td>Variable. Cuando están presentes, estos factores amplían el T_impedido y el ΔT_trayectoria .</td><td>La presencia de factores de riesgo no implica duelo complicado: indica que el doliente necesita más acompañamiento .</td></tr>
+<tr><th scope="row"></th><td>el fallecido, circunstancia s traumáticas de la muerte.</td><td></td><td></td></tr>
+</tbody>
+</table>
 
-El duelo complicado frecuentemente no es solo por la pérdida presente: es la acumulación de varias pérdidas no integradas que esta abre simultáneamente.
-
-Contexto cultural del duelo
-
-Lo que el entorno cultural prescribe: tiempo de duelo, expresión permitida, rituales, expectativas.
-
-S alto: es un factor estructural que cualquier doliente en esa cultura enfrenta. Pero puede tener R* significativo si el mandato cultural entra en conflicto severo con el proceso del doliente.
-
-Un entorno que prescribe "ya pasaste el tiempo de duelo" cuando el doliente aún lo necesita, o que impide la expresión emocional plena, aumenta el R* de este factor.
-
-Factores de riesgo de duelo complicad o
-
-Aislamiento social, antecedentes de depresión, dependencia extrema del fallecido, conflicto no resuelto con
-
-Variable. Cuando están presentes, estos factores amplían el T_impedido y el ΔT_trayectoria .
-
-La presencia de factores de riesgo no implica duelo complicado: indica que el doliente necesita más acompañamiento .
-
-
-el fallecido, circunstancia s traumáticas de la muerte.
-
-Sobre el fallecido como nodo:  En el grafo de la pérdida, el fallecido no aparece como un nodo con R* —su ego está cerrado y no puede intervenir causalmente en el duelo del doliente. Lo que aparece es la pérdida del vínculo como el evento que desencadena el proceso. El fallecido no es un actor en el grafo: es la razón de ser del grafo. Esa diferencia ontológica es la más importante para el acompañamiento: el doliente no está procesando al fallecido sino su propia relación con la ausencia de ese vínculo.
+> [!NOTE]
+> Sobre el fallecido como nodo:  En el grafo de la pérdida, el fallecido no aparece como un nodo con R* —su ego está cerrado y no puede intervenir causalmente en el duelo del doliente. Lo que aparece es la pérdida del vínculo como el evento que desencadena el proceso. El fallecido no es un actor en el grafo: es la razón de ser del grafo. Esa diferencia ontológica es la más importante para el acompañamiento: el doliente no está procesando al fallecido sino su propia relación con la ausencia de ese vínculo.
 
 #### 3.2 R* en tanatología: peso causal en la pérdida y mapa de acompañamiento
 
@@ -4934,40 +3405,20 @@ La lectura clínica de R* en tanatología produce tres tipos de información:
 
 #### relación con el entorno que no le permite elaborar el duelo en sus propios tiempos.
 
+
 #### 3.3 α del doliente: el trabajo del duelo como proceso de φ₂
 
-En tanatología, el α del doliente es su coeficiente de integración de la pérdida. No es lo que hace con el fallecido (que ya no puede hacer nada) sino lo que hace consigo mismo: en qué medida ha integrado la pérdida como parte de su historia asumida.
-
-La escala de α en el doliente sigue la misma lógica del Capítulo 5 pero con una particularidad: en clínica, α creciente es la señal de que la terapia funciona. En tanatología, α creciente es la señal de que el duelo está siendo vivido y que el doliente está haciendo el trabajo. No hay un tiempo prescrito para ese crecimiento.
-
-Fase del duelo α doliente
-
-Descripción y señal de que está ocurriendo
-
-Impacto inicial / entumecimiento
-
-0.00– 0.05 Las primeras horas y días después de la pérdida. El doliente puede funcionar de manera automática. El entumecimiento es protector. No es negación: es el tiempo que el sistema necesita para procesar lo que ocurrió.
-
-Anhelo y búsqueda (Potós)
-
-0.05– 0.20 El doliente busca al ser querido, piensa en él constantemente, siente su ausencia como una presencia. El vector de voluntad sigue orientado hacia el ausente. Normal y necesario.
-
-
-Desorganización (Fobos + Deimos)
-
-0.10– 0.30 El mundo interior del doliente se reorganiza en ausencia del ser querido. Hay momentos de pánico (Fobos: "no sé cómo vivir sin él") y entumecimiento (Deimos: "no siento nada").
-
-Rebelión (Anteros)
-
-0.20– 0.45 El rechazo de la realidad de la pérdida. "No es justo." "No lo acepto." Señal de que el doliente está comenzando a enfrentarse a la pérdida desde su propio eje, no solo desde el impacto.
-
-Elaboración (entre hijos)
-
-0.45– 0.70 El doliente puede estar con la pérdida sin ser dominado por ella. Puede hablar del ser querido con mezcla de dolor y alegría. Puede tolerar los altibajos sin sentir que vuelve al principio.
-
-0.70– 1.00 El ser querido forma parte de la historia asumida del doliente. La pérdida no ha desaparecido, pero ya no paraliza. El doliente puede llevar al ser querido consigo y orientarse hacia la vida sin sentir traición.
-
-Integración (Harmonía)
+<table>
+<tbody>
+<tr><th scope="row">Fase del duelo</th><td>α doliente</td><td>Descripción y señal de que está ocurriendo</td></tr>
+<tr><th scope="row">Impacto inicial / entumecimiento</th><td>0.00– 0.05</td><td>Las primeras horas y días después de la pérdida. El doliente puede funcionar de manera automática. El entumecimiento es protector. No es negación: es el tiempo que el sistema necesita para procesar lo que ocurrió.</td></tr>
+<tr><th scope="row">Anhelo y búsqueda (Potós)</th><td>0.05– 0.20</td><td>El doliente busca al ser querido, piensa en él constantemente, siente su ausencia como una presencia. El vector de voluntad sigue orientado hacia el ausente. Normal y necesario.</td></tr>
+<tr><th scope="row">Desorganización (Fobos + Deimos)</th><td>0.10– 0.30</td><td>El mundo interior del doliente se reorganiza en ausencia del ser querido. Hay momentos de pánico (Fobos: &quot;no sé cómo vivir sin él&quot;) y entumecimiento (Deimos: &quot;no siento nada&quot;).</td></tr>
+<tr><th scope="row">Rebelión (Anteros)</th><td>0.20– 0.45</td><td>El rechazo de la realidad de la pérdida. &quot;No es justo.&quot; &quot;No lo acepto.&quot; Señal de que el doliente está comenzando a enfrentarse a la pérdida desde su propio eje, no solo desde el impacto.</td></tr>
+<tr><th scope="row">Elaboración (entre hijos)</th><td>0.45– 0.70</td><td>El doliente puede estar con la pérdida sin ser dominado por ella. Puede hablar del ser querido con mezcla de dolor y alegría. Puede tolerar los altibajos sin sentir que vuelve al principio.</td></tr>
+<tr><th scope="row">Integración (Harmonía)</th><td>0.70– 1.00</td><td>El ser querido forma parte de la historia asumida del doliente. La pérdida no ha desaparecido, pero ya no paraliza. El doliente puede llevar al ser querido consigo y orientarse hacia la vida sin sentir traición.</td></tr>
+</tbody>
+</table>
 
 El movimiento entre estas fases no es lineal. El doliente puede estar en la fase de elaboración y regresar al Potós intenso ante un detonante (una fecha, un olor, una canción). Eso no es regresión: es la naturaleza no lineal del duelo. El α del doliente no sube de manera constante: oscila, cae, vuelve a subir. Lo que sí debe ocurrir con el tiempo es que las oscilaciones sean menos profundas y la recuperación más rápida.
 
@@ -4978,86 +3429,43 @@ Una de las contribuciones más importantes del sistema a la tanatología es la f
 
 Los hijos de Afrodita como trayectoria de duelo ofrecen una imagen más precisa: no hay un orden correcto, no hay un tiempo prescrito para cada hijo, y ningún hijo (salvo en duraciones extremas) es una señal de patología. La trayectoria del duelo es el mapa único de cómo este doliente específico, con esta historia, en este contexto, integra esta pérdida particular.
 
-Hijo En el duelo es...
-
-Señal de alarma si...
-
-Lo que el acompañante hace
-
-Potós La forma del amor hacia el ausente. El vector de voluntad orientado hacia quien ya no está. Esencial en las primeras fases.
-
-Se vuelve el único modo de relacionarse con el fallecido después de meses o años, impidiendo cualquier movimiento hacia la vida.
-
-Validar el Potós sin alimentarlo indefinidament e. "Tiene sentido que lo extrañes así. ¿Puedes contarme algo de él?"
-
-Fobos El pánico ante un mundo reorganizado
-
-Produce síntomas somáticos
-
-No calmar el Fobos prematurament
-
-
-sin el ser querido. El sistema de alarma que señala que algo vital ha desaparecido.
-
-persistentes, ataques de pánico que no decrecen con el tiempo, hipervigilancia generalizada.
-
-e. Acompañarlo: "¿Qué es lo que más miedo te da de este mundo sin él?"
-
-Deimos El entumecimien to y la disociación. Protección adaptativa ante lo insoportable. Especialmente en los primeros días.
-
-Se extiende semanas o meses sin alternancia con otros hijos, impidiendo que el doliente acceda a la experiencia del duelo.
-
-No forzar la emoción. Crear condiciones de seguridad para que el Deimos pueda ceder gradualmente.
-
-Anteros La rebelión ante la pérdida. "No lo acepto." La ira que no se rinde. Señal de vitalidad y de que el doliente se relaciona desde su propio eje.
-
-Se cristaliza en culpa persistente, en rumiación sobre lo que debería haber sido diferente, en imposibilidad de perdonar (a otros o a sí mismo).
-
-Validar la rebelión sin reforzar la culpa. Distinguir entre la ira ante la pérdida (sana) y la culpa por no haberla evitado (que puede trabajarse).
-
-Eros La apertura hacia la vida. Cuando el doliente puede volver a desear, a planear, a relacionarse sin sentir traición.
-
-Aparece tan pronto que sirve como mecanismo de evasión del duelo (hiperestimulació n, relaciones prematuras, huida de la experiencia del dolor).
-
-Acoger el Eros cuando llega auténticamente . Si llega muy pronto, explorar si es evasión o genuino movimiento hacia la vida.
-
-
-Reconocerla cuando aparece: "Noto que puedes hablar de él con una sonrisa además de las lágrimas. ¿Cómo se siente eso?"
-
-Harmoní a
-
-La integración. El ser querido como parte de la historia asumida. El dolor que no paraliza sino que acompaña.
-
-La Harmonía no significa que el dolor desaparezca. Significa que el doliente puede estar con ese dolor sin ser dominado por él.
+<table>
+<tbody>
+<tr><th scope="row">Hijo</th><td>En el duelo es...</td><td>Señal de alarma si...</td><td>Lo que el acompañante hace</td></tr>
+<tr><th scope="row">Potós</th><td>La forma del amor hacia el ausente. El vector de voluntad orientado hacia quien ya no está. Esencial en las primeras fases.</td><td>Se vuelve el único modo de relacionarse con el fallecido después de meses o años, impidiendo cualquier movimiento hacia la vida.</td><td>Validar el Potós sin alimentarlo indefinidament e. &quot;Tiene sentido que lo extrañes así. ¿Puedes contarme algo de él?&quot;</td></tr>
+<tr><th scope="row">Fobos</th><td>El pánico ante un mundo reorganizado</td><td>Produce síntomas somáticos</td><td>No calmar el Fobos prematurament</td></tr>
+<tr><th scope="row">Deimos</th><td>El entumecimien to y la disociación. Protección adaptativa ante lo insoportable. Especialmente en los primeros días.</td><td>Se extiende semanas o meses sin alternancia con otros hijos, impidiendo que el doliente acceda a la experiencia del duelo.</td><td>No forzar la emoción. Crear condiciones de seguridad para que el Deimos pueda ceder gradualmente.</td></tr>
+<tr><th scope="row">Anteros</th><td>La rebelión ante la pérdida. &quot;No lo acepto.&quot; La ira que no se rinde. Señal de vitalidad y de que el doliente se relaciona desde su propio eje.</td><td>Se cristaliza en culpa persistente, en rumiación sobre lo que debería haber sido diferente, en imposibilidad de perdonar (a otros o a sí mismo).</td><td>Validar la rebelión sin reforzar la culpa. Distinguir entre la ira ante la pérdida (sana) y la culpa por no haberla evitado (que puede trabajarse).</td></tr>
+<tr><th scope="row">Eros</th><td>La apertura hacia la vida. Cuando el doliente puede volver a desear, a planear, a relacionarse sin sentir traición.</td><td>Aparece tan pronto que sirve como mecanismo de evasión del duelo (hiperestimulació n, relaciones prematuras, huida de la experiencia del dolor).</td><td>Acoger el Eros cuando llega auténticamente . Si llega muy pronto, explorar si es evasión o genuino movimiento hacia la vida.</td></tr>
+<tr><th scope="row">Harmoní a</th><td>La integración. El ser querido como parte de la historia asumida. El dolor que no paraliza sino que acompaña.</td><td>La Harmonía no significa que el dolor desaparezca. Significa que el doliente puede estar con ese dolor sin ser dominado por él.</td><td>Reconocerla cuando aparece: &quot;Noto que puedes hablar de él con una sonrisa además de las lágrimas. ¿Cómo se siente eso?&quot;</td></tr>
+</tbody>
+</table>
 
 #### 3.5 El D_total en tanatología: el daño sin beneficio
 
 El D_total en tanatología tiene la misma estructura de tres componentes que en los otros dominios, pero con B_total = 0 el balance es siempre negativo —no hay un término que lo modere ni lo compense. Esta es la realidad ontológica de la pérdida.
 
+
 #### D_pérdida = T_invertido + T_impedido +
+
 
 #### ΔT_trayectoria   con   B_total = 0
 
-Componente En tanatología equivale a
-
-Descripción
-
-T_invertido La pérdida directa del vínculo
-
-El vínculo que ya no existe. El futuro compartido que no ocurrirá: las conversaciones, los momentos, los proyectos. Es irrecuperable. No hay forma de calcularlo en términos económicos sin trivializarlo, pero su magnitud es la del amor que existía.
-
-T_impedido El desarrollo del doliente
-
-Lo que el doliente no pudo hacer mientras el duelo estuvo
-
-
-truncado por el duelo
+<table>
+<tbody>
+<tr><th scope="row">Componente</th><td>En tanatología equivale a</td><td>Descripción</td></tr>
+<tr><th scope="row">T_invertido</th><td>La pérdida directa del vínculo</td><td>El vínculo que ya no existe. El futuro compartido que no ocurrirá: las conversaciones, los momentos, los proyectos. Es irrecuperable. No hay forma de calcularlo en términos económicos sin trivializarlo, pero su magnitud es la del amor que existía.</td></tr>
+<tr><th scope="row">T_impedido</th><td>El desarrollo del doliente</td><td>Lo que el doliente no pudo hacer mientras el duelo estuvo</td></tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr><th scope="row">ΔT_trayectoria</th><td>La alteración de la trayectoria vital del doliente</td><td>La diferencia entre la persona que el doliente habría podido ser con ese vínculo vivo y la persona que es y será sin él. Puede ser negativa (la pérdida encoge el potencial) o paradójicamente positiva (algunas personas encuentran en el duelo una profundización que no habrían alcanzado de otro modo). El sistema reconoce esta paradoja.</td></tr>
+</tbody>
+</table>
 
 en su fase más aguda. Oportunidades perdidas, decisiones aplazadas, relaciones no formadas, proyectos no iniciados. Parcialmente recuperable con el tiempo.
 
-ΔT_trayectoria La alteración de la trayectoria vital del doliente
-
-La diferencia entre la persona que el doliente habría podido ser con ese vínculo vivo y la persona que es y será sin él. Puede ser negativa (la pérdida encoge el potencial) o paradójicamente positiva (algunas personas encuentran en el duelo una profundización que no habrían alcanzado de otro modo). El sistema reconoce esta paradoja.
 
 La paradoja del ΔT_trayectoria en algunos duelos: hay dolientes que, tras integrar la pérdida, desarrollan capacidades —empatía, profundidad, presencia— que el vínculo vivo no habría producido de la misma manera. Eso no hace que la muerte "valga la pena". Afirmar eso sería una perversión del análisis. Lo que sí puede decirse es que la integración del duelo puede producir un ΔG_terapéutico que modera (sin cancelar) el ΔT_trayectoria negativa.
 
@@ -5082,14 +3490,16 @@ Esta superposición es una de las fuentes más frecuentes de duelo complicado. E
 El análisis causal puede ayudar a clarificar esa superposición. El grafo tiene dos capas: la capa de la responsabilidad (¿quién produjo causalmente la muerte evitable?) y la capa del duelo (¿qué factores determinan la profundidad y la forma del duelo del doliente?). Distinguirlas es crucial porque la respuesta a la primera capa (la justicia) no resuelve la segunda (el duelo). Muchos dolientes de muertes evitables esperan que ganar el juicio o que se reconozca la responsabilidad cure el duelo. Puede aliviar la rabia —y eso es valioso— pero el trabajo de integración de la pérdida es independiente del resultado legal.
 
 
-Principio tanatológico:  El proceso legal y el proceso de duelo son paralelos, no secuenciales. El doliente no puede ni debe esperar el resultado del proceso legal para comenzar a elaborar la pérdida. Y la elaboración de la pérdida no implica perdonar ni renunciar al proceso legal. Son dos procesos que ocurren simultáneamente con sus propias lógicas y sus propios tiempos.
+> [!IMPORTANT]
+> Principio tanatológico:  El proceso legal y el proceso de duelo son paralelos, no secuenciales. El doliente no puede ni debe esperar el resultado del proceso legal para comenzar a elaborar la pérdida. Y la elaboración de la pérdida no implica perdonar ni renunciar al proceso legal. Son dos procesos que ocurren simultáneamente con sus propias lógicas y sus propios tiempos.
 
 
 ### §4.  Casos resueltos
 
 Caso A — El duelo de Lincoln por Willie (1862)
 
-Potós dominante documentado en cartas: impacto de la pérdida sobre las decisiones históricas
+> [!NOTE]
+> Potós dominante documentado en cartas: impacto de la pérdida sobre las decisiones históricas
 
 A.1 El contexto histórico
 
@@ -5102,71 +3512,32 @@ El duelo de Lincoln es uno de los pocos duelos presidenciales de los que existe 
 
 #### documentados en su retórica pública entre 1862 y 1865 permiten trazar una trayectoria.
 
+
 #### A.2 El grafo causal del duelo de Lincoln
 
-Nodo Factor causal Nivel Evidencia del peso
-
-N1 La muerte repentina de Willie (fiebre tifoidea)
-
-Tipo de muerte
-
-Muerte de un niño de 11 años en pocos días, sin tiempo de preparación. R* alto: el duelo no tuvo anticipo. La brutalidad de la velocidad de la pérdida es el factor de mayor peso.
-
-N2 La profundidad del vínculo padre-hijo
-
-Naturaleza del vínculo
-
-Todos los contemporáneos documentan que la relación de Lincoln con Willie era especialmente cercana. Willie era descrito como el más inteligente y el más parecido a su padre entre los hijos.
-
-N3 La melancolía preexistente de Lincoln
-
-Historia del doliente
-
-Lincoln tenía episodios depresivos documentados desde joven. La pérdida de Willie cayó sobre un terreno ya sensible. Los historiadores han analizado cómo su melancolía se profundizó después de la muerte de Willie.
-
-N4 El contexto de la guerra: muerte masiva como telón
-
-Contexto cultural
-
-Lincoln estaba tomando decisiones que costaban la vida a decenas de miles de hombres. La muerte de Willie lo enfrentó al duelo personal en medio
-
-
-del duelo colectivo de una nación en guerra.
-
-N5 El mandato cultural victoriano masculino
-
-Un presidente no debería llorar en público. Un hombre de su clase no debería mostrar la profundidad de su duelo. Lincoln rompió ese mandato con notable regularidad, lo que los historiadores han interpretado como señal de la intensidad de la pérdida.
-
-Factor cultural
+<table>
+<tbody>
+<tr><th scope="row">Nodo</th><td>Factor causal</td><td>Nivel</td><td>Evidencia del peso</td></tr>
+<tr><th scope="row">N1</th><td>La muerte repentina de Willie (fiebre tifoidea)</td><td>Tipo de muerte</td><td>Muerte de un niño de 11 años en pocos días, sin tiempo de preparación. R* alto: el duelo no tuvo anticipo. La brutalidad de la velocidad de la pérdida es el factor de mayor peso.</td></tr>
+<tr><th scope="row">N2</th><td>La profundidad del vínculo padre-hijo</td><td>Naturaleza del vínculo</td><td>Todos los contemporáneos documentan que la relación de Lincoln con Willie era especialmente cercana. Willie era descrito como el más inteligente y el más parecido a su padre entre los hijos.</td></tr>
+<tr><th scope="row">N3</th><td>La melancolía preexistente de Lincoln</td><td>Historia del doliente</td><td>Lincoln tenía episodios depresivos documentados desde joven. La pérdida de Willie cayó sobre un terreno ya sensible. Los historiadores han analizado cómo su melancolía se profundizó después de la muerte de Willie.</td></tr>
+<tr><th scope="row">N4</th><td>El contexto de la guerra: muerte masiva como telón</td><td>Contexto cultural</td><td>Lincoln estaba tomando decisiones que costaban la vida a decenas de miles de hombres. La muerte de Willie lo enfrentó al duelo personal en medio</td></tr>
+<tr><th scope="row">N5</th><td>El mandato cultural victoriano masculino</td><td>Factor cultural</td><td>Un presidente no debería llorar en público. Un hombre de su clase no debería mostrar la profundidad de su duelo. Lincoln rompió ese mandato con notable regularidad, lo que los historiadores han interpretado como señal de la intensidad de la pérdida.</td></tr>
+</tbody>
+</table>
 
 #### Estimación de R* tras iteración:
 
-Factor R* est.
-
-Interpretación
-
-S est.
-
-~35% 0.40 Muerte de un niño, de manera rápida, sin preparación. S moderado: otras muertes de hijos habrían producido duelos similares, pero la especificidad de Willie (la edad, el vínculo particular) baja S.
-
-N1 — Muerte repentina
-
-~32% 0.25 El amor específico de Lincoln por Willie. S bajo: ese vínculo era idiosincrático. Cualquier otro hijo no habría producido el mismo duelo.
-
-N2 — Vínculo padre-hijo
-
-~18% 0.55 La historia clínica de Lincoln amplificó el impacto de la pérdida. S moderado: otras personas con melancolía similar habrían tenido respuesta parecida.
-
-N3 — Melancolía preexistente
-
-
-~10% 0.80 El entorno de muerte masiva contextualiza el duelo personal. S alto: cualquier presidente en esa posición habría enfrentado la misma tensión.
-
-N4 — Contexto bélico
-
-~5% 0.90 Factor estructural de época con S muy alto.
-
-N5 — Mandato cultural
+<table>
+<tbody>
+<tr><th scope="row">Factor</th><td>R* est.</td><td>S est.</td><td>Interpretación</td></tr>
+<tr><th scope="row">N1 — Muerte repentina</th><td>~35%</td><td>0.40</td><td>Muerte de un niño, de manera rápida, sin preparación. S moderado: otras muertes de hijos habrían producido duelos similares, pero la especificidad de Willie (la edad, el vínculo particular) baja S.</td></tr>
+<tr><th scope="row">N2 — Vínculo padre-hijo</th><td>~32%</td><td>0.25</td><td>El amor específico de Lincoln por Willie. S bajo: ese vínculo era idiosincrático. Cualquier otro hijo no habría producido el mismo duelo.</td></tr>
+<tr><th scope="row">N3 — Melancolía preexistente</th><td>~18%</td><td>0.55</td><td>La historia clínica de Lincoln amplificó el impacto de la pérdida. S moderado: otras personas con melancolía similar habrían tenido respuesta parecida.</td></tr>
+<tr><th scope="row">N4 — Contexto bélico</th><td>~10%</td><td>0.80</td><td>El entorno de muerte masiva contextualiza el duelo personal. S alto: cualquier presidente en esa posición habría enfrentado la misma tensión.</td></tr>
+<tr><th scope="row">N5 — Mandato cultural</th><td>~5%</td><td>0.90</td><td>Factor estructural de época con S muy alto.</td></tr>
+</tbody>
+</table>
 
 #### A.3 La trayectoria de los hijos: Potós dominante documentado
 
@@ -5200,7 +3571,8 @@ El Discurso de Gettysburg (noviembre de 1863) ha sido leído por varios historia
 
 En términos del sistema: el Anteros que creció en Lincoln durante el duelo —la afirmación de la causa, la rabia ante la injusticia, la resistencia a rendirse— se canalizó en la persistencia ante la guerra a pesar de las presiones para negociar. No es que Willie "causó" la victoria de la Unión: es que el duelo no integrado completamente pero sí vivido profundamente contribuyó a que Lincoln tuviera la disposición emocional que la causa requería en ese momento.
 
-Lo que el caso Lincoln ilustra metodológicamente:  El duelo no es solo un proceso interior: tiene consecuencias en el mundo. Lincoln siguió siendo presidente, tomando decisiones históricas, mientras el duelo ocurría. El análisis de los hijos permite ver cómo la trayectoria interna del doliente (el movimiento de Potós hacia Anteros y Harmonía) se correlaciona con los cambios en su retórica y posiblemente en sus decisiones. El sistema no afirma causalidad directa: señala la correlación y la deja disponible para el análisis histórico.
+> [!NOTE]
+> Lo que el caso Lincoln ilustra metodológicamente:  El duelo no es solo un proceso interior: tiene consecuencias en el mundo. Lincoln siguió siendo presidente, tomando decisiones históricas, mientras el duelo ocurría. El análisis de los hijos permite ver cómo la trayectoria interna del doliente (el movimiento de Potós hacia Anteros y Harmonía) se correlaciona con los cambios en su retórica y posiblemente en sus decisiones. El sistema no afirma causalidad directa: señala la correlación y la deja disponible para el análisis histórico.
 
 
 Caso B — Caso hipotético compuesto
@@ -5221,44 +3593,26 @@ El caso tiene dos capas causales que deben analizarse por separado para no confu
 
 #### Capa 1 — Responsabilidad por la muerte evitable (Cap. 1, derecho penal):
 
-Nodo Actor R* Función causal
-
-N1 Conductor ebrio
-
-~62% Causó directamente el accidente. S moderado (cualquier conductor ebrio a esa velocidad habría producido resultados similares). El proceso penal se ocupa de este nodo.
-
-N2 Sistema de control de tránsito / Estado
-
-~25% Las condiciones de la vía, la ausencia de controles de alcoholemia en ese tramo, la falta de barreras de seguridad. Fraude annona epidemiológico de tráfico.
-
-N3 Entorno social que facilitó el exceso de alcohol
-
-~13% Cultura de tolerancia al consumo de alcohol antes de conducir. S alto.
+<table>
+<tbody>
+<tr><th scope="row">Nodo</th><td>Actor</td><td>R*</td><td>Función causal</td></tr>
+<tr><th scope="row">N1</th><td>Conductor ebrio</td><td>~62%</td><td>Causó directamente el accidente. S moderado (cualquier conductor ebrio a esa velocidad habría producido resultados similares). El proceso penal se ocupa de este nodo.</td></tr>
+<tr><th scope="row">N2</th><td>Sistema de control de tránsito / Estado</td><td>~25%</td><td>Las condiciones de la vía, la ausencia de controles de alcoholemia en ese tramo, la falta de barreras de seguridad. Fraude annona epidemiológico de tráfico.</td></tr>
+<tr><th scope="row">N3</th><td>Entorno social que facilitó el exceso de alcohol</td><td>~13%</td><td>Cultura de tolerancia al consumo de alcohol antes de conducir. S alto.</td></tr>
+</tbody>
+</table>
 
 #### Capa 2 — Duelo de la doliente (tanatología):
 
-Nodo Factor R* duelo
-
-Evidencia
-
-N_A Muerte violenta e inesperada
-
-~40% El tipo de muerte amplifica el impacto: fue repentina, violenta, sin despedida. La imagen reconstruida del accidente contamina el duelo con elementos traumáticos.
-
-N_B Vínculo de hermandad profundo
-
-~30% La hermana era su persona de referencia, su red de apoyo primaria. La pérdida del vínculo es también la pérdida de una
-
-
-función central en su vida.
-
-N_C Proceso legal en curso: el duelo interrumpido
-
-~18% El proceso legal mantiene el duelo en estado activo: requiere recordar, testificar, esperar resoluciones. Impide que el doliente pueda tomar distancia temporaria del trauma.
-
-~12% Las dos terapias que le dijeron que ya debería estar "más adelantada" instalaron la creencia de que hay un duelo correcto del que ella está desviándose. Eso añade culpa al duelo.
-
-N_D Narrativa de "duelo incorrecto" instalada por las terapias previas
+<table>
+<tbody>
+<tr><th scope="row">Nodo</th><td>Factor</td><td>R* duelo</td><td>Evidencia</td></tr>
+<tr><th scope="row">N_A</th><td>Muerte violenta e inesperada</td><td>~40%</td><td>El tipo de muerte amplifica el impacto: fue repentina, violenta, sin despedida. La imagen reconstruida del accidente contamina el duelo con elementos traumáticos.</td></tr>
+<tr><th scope="row">N_B</th><td>Vínculo de hermandad profundo</td><td>~30%</td><td>La hermana era su persona de referencia, su red de apoyo primaria. La pérdida del vínculo es también la pérdida de una</td></tr>
+<tr><th scope="row">N_C</th><td>Proceso legal en curso: el duelo interrumpido</td><td>~18%</td><td>El proceso legal mantiene el duelo en estado activo: requiere recordar, testificar, esperar resoluciones. Impide que el doliente pueda tomar distancia temporaria del trauma.</td></tr>
+<tr><th scope="row">N_D</th><td>Narrativa de &quot;duelo incorrecto&quot; instalada por las terapias previas</td><td>~12%</td><td>Las dos terapias que le dijeron que ya debería estar &quot;más adelantada&quot; instalaron la creencia de que hay un duelo correcto del que ella está desviándose. Eso añade culpa al duelo.</td></tr>
+</tbody>
+</table>
 
 La distinción entre las dos capas es la primera intervención terapéutica: la doliente mezcla la rabia por la injusticia (Capa 1) con el trabajo de integración de la pérdida (Capa 2), y cree que no puede avanzar en la segunda hasta que se resuelva la primera. El sistema permite nombrar con precisión que son procesos paralelos con lógicas independientes.
 
@@ -5377,7 +3731,8 @@ import numpy as np from scipy.stats import pearsonr  # ────────�
 break         Rn /= s         if np.max(np.abs(Rn - R)) < 1e-9: break         R = Rn     R_star = Rn      # ── S: sustituibilidad del factor ──     S = np.zeros(n)     for i in range(n):         max_c = 0         for j in range(n): if j == i: continue             Wm = W_duelo.copy()             Wm[i,:] = np.mean(W_duelo, axis=0)             Rm = np.ones(n)/n             for _ in range(200):                 Rm2 = Wm @ Rm; sm = np.sum(Rm2) if sm < 1e-12: break                 Rm2 /= sm                 if np.max(np.abs(Rm2-Rm)) < 1e-6: break                 Rm = Rm2             c, _ = pearsonr(R_star, Rm2)             max_c = max(max_c, abs(c)) S[i] = 1 - max_c      # Δ: déficit de integración por factor     Delta = R_star - alpha_doliente      result = {         'R_star': R_star,         'S': S, 'Delta_integracion': Delta,         'B_total': 0.0,                    # SIEMPRE cero en tanatología         'alpha_fallecido': 0.0,            # SIEMPRE cero, sin alpha_diferido         'factor_prioritario': np.argmax(Delta),     }      # ── Análisis de los hijos (fases del duelo) ──     if hijos_actuales: hijos = ['Potos','Fobos','Deimos','Anteros','Eros','Harmonia']         # Intensidad del Potós como función de R*_vínculo y α_doliente R_vinculo = R_star[np.argmax(R_star)]         alpha_prom = float(np.mean(alpha_doliente))         intensidad_potos = R_vinculo * (1 -alpha_prom)          # λ(t): coeficiente de anhelo actual         lambda_t = hijos_actuales.get('Potos', 0.3)          # Salud del duelo: la Harmonía como indicador principal         harmonia = hijos_actuales.get('Harmonia', 0)         eros = hijos_actuales.get('Eros', 0)          result.update({ 'hijo_dominante': max(hijos_actuales, key=hijos_actuales.get), 'intensidad_potos': intensidad_potos,             'lambda_anhelo': lambda_t, 'indicador_integracion': harmonia + eros * 0.5,             'objetivo_lambda': (0, 0.30),  # rango objetivo al final             'hijos_distribucion': hijos_actuales,         })      return result  # ── Ejemplo: Lincoln 1862 (primeros meses) ── W_lincoln = np.array([     [0,    0,    0,    0,    0],  # N1 (muerte repentina)     [0.60, 0,    0,    0,    0],  # N2 (vínculo) → N1 [0.40, 0.50, 0,    0,    0],  # N3 (melancolía) → N1, N2     [0,    0,    0.30, 0,    0],  # N4 (contexto bélico) → N3     [0,    0,    0,    0.20, 0],  # N5 (mandato cultural) → N4 ]) W_lincoln[0,4]=0.70; W_lincoln[1,4]=0.65 W_lincoln[2,4]=0.50; W_lincoln[3,4]=0.40  alpha_lincoln_02_1862 = np.array([0.05, 0.03, 0.08, 0.12, 0.20])  hijos_lincoln_1862 = {     'Potos': 0.45, 'Fobos': 0.25, 'Deimos': 0.15,     'Anteros': 0.08, 'Eros': 0.04, 'Harmonia': 0.03 } hijos_lincoln_1863 = {     'Anteros': 0.30, 'Harmonia': 0.25, 'Potos': 0.22,     'Eros': 0.14, 'Fobos': 0.06, 'Deimos': 0.03 }  r1 = analisis_tanatologico(W_lincoln, alpha_lincoln_02_1862, hijos_lincoln_1862) r2_alpha = np.array([0.25, 0.20, 0.30, 0.35, 0.45]) r2 = analisis_tanatologico(W_lincoln, r2_alpha, hijos_lincoln_1863)  nodos = ['N1-Muerte repentina','N2-Vínculo','N3-Melancolía','N4-Bélico','N5-Cultural'] print("=== Lincoln — Duelo por Willie ===") print("\nPesos causales (estables a lo largo del duelo):") for nm, rs, si in zip(nodos, r1['R_star'], r1['S']):     print(f"  {nm:22s} R*={rs:.3f} S={si:.2f}")  print(f"\n--- Febrero 1862 (meses iniciales) ---") print(f" Hijo dominante:     {r1['hijo_dominante']}") lam1 = r1['lambda_anhelo'] ind1 = r1['indicador_integracion'] print(f"  λ_anhelo:           {lam1:.2f}") print(f"  Indicador integr.:  {ind1:.2f}")  print(f"\n--- Noviembre 1863 (Gettysburg) ---") print(f"  Hijo dominante:     {r2['hijo_dominante']}") lam2 = r2['lambda_anhelo'] ind2 = r2['indicador_integracion'] print(f"
 
 
-λ_anhelo:           {lam2:.2f}") print(f"  Indicador integr.:  {ind2:.2f}") print(f"  Cambio en λ:        {lam2-lam1:+.2f} (hacia objetivo [0, 0.30])") print(f"  B_total:            {r1['B_total']} (constante ontológica)") print(f" α_fallecido:        {r1['alpha_fallecido']} (constante ontológica)")
+> [!NOTE]
+> λ_anhelo:           {lam2:.2f}") print(f"  Indicador integr.:  {ind2:.2f}") print(f"  Cambio en λ:        {lam2-lam1:+.2f} (hacia objetivo [0, 0.30])") print(f"  B_total:            {r1['B_total']} (constante ontológica)") print(f" α_fallecido:        {r1['alpha_fallecido']} (constante ontológica)")
 
 Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026
 
@@ -5414,7 +3769,8 @@ estadounidenses y que, con variantes, se usa en los sistemas crediticios de todo
 
 El problema de este modelo no es que sea incorrecto —el historial de pagos de una persona tiene correlación real con su comportamiento futuro— sino que es incompleto. Atribuye toda la causalidad del impago a los factores del deudor, ignorando los factores del sistema crediticio, del entorno macroeconómico, y de las condiciones institucionales que determinan si la persona tenía acceso real a las condiciones que habrían permitido el pago.
 
-El cálculo de la responsabilidad introduce una herramienta diferente: el índice de causalidad del impago (R*), que distribuye la responsabilidad causal del impago entre todos los nodos del sistema crediticio —el diseñador de la política, el algoritmo, el contexto macroeconómico, y el deudor— en proporción a cuánto dependía el impago de cada uno de ellos específicamente.
+> [!NOTE]
+> El cálculo de la responsabilidad introduce una herramienta diferente: el índice de causalidad del impago (R*), que distribuye la responsabilidad causal del impago entre todos los nodos del sistema crediticio —el diseñador de la política, el algoritmo, el contexto macroeconómico, y el deudor— en proporción a cuánto dependía el impago de cada uno de ellos específicamente.
 
 Índice de causalidad del impago (R*):  La fracción del impago causalmente atribuible a cada nodo del sistema crediticio. R*_deudor mide la responsabilidad causal del deudor en el impago. R*_diseñador mide la responsabilidad causal del nodo que diseñó las condiciones del crédito —la política, el algoritmo, los términos— en el resultado. Cuando R*_diseñador > R*_deudor, el impago era más probable por el diseño del sistema que por la conducta del deudor.
 
@@ -5425,7 +3781,8 @@ El score FICO predice el impago con correlación estadística real. Una persona 
 
 las condiciones que produjeron un FICO 500 (ingresos inestables, falta de historial crediticio formal, acceso solo a productos de alto costo) son las mismas condiciones que producen el impago. Y esas condiciones pueden tener un nodo de diseño con R* mucho mayor que el del deudor.
 
-Analogía: El termómetro y la fiebre Un FICO bajo es como la temperatura alta: mide el estado del sistema, pero no causa la enfermedad. El sistema FICO mide el resultado acumulado de condiciones que incluyen las del deudor, pero también las del sistema financiero al que tiene acceso, las del entorno macroeconómico, y las de las políticas históricas que determinaron su punto de partida. Usar el FICO como causa del impago es confundir el termómetro con la infección.
+> [!TIP]
+> Analogía: El termómetro y la fiebre Un FICO bajo es como la temperatura alta: mide el estado del sistema, pero no causa la enfermedad. El sistema FICO mide el resultado acumulado de condiciones que incluyen las del deudor, pero también las del sistema financiero al que tiene acceso, las del entorno macroeconómico, y las de las políticas históricas que determinaron su punto de partida. Usar el FICO como causa del impago es confundir el termómetro con la infección.
 
 #### 1.3 El dataset como nodo causal autónomo
 
@@ -5447,79 +3804,54 @@ Esta descomposición es la contribución central del capítulo a la práctica fi
 
 Esta página resume cómo se renombran las herramientas en el contexto del score crediticio y la evaluación del riesgo de impago. El lector con formación en finanzas, banca, o análisis de riesgo puede comenzar aquí.
 
-Herramienta En score crediticio se llama
+| Herramienta | En score crediticio se llama | Qué significa en la práctica financiera |
+| --- | --- | --- |
+| Grafo causal G | Red causal del impago | El mapa de todos los factores (del deudor, del sistema crediticio, del entorno macro, del diseño de la política) que contribuyen causalmente a la probabilidad de impago. Es más amplio que el scorecard tradicional. |
 
-Qué significa en la práctica financiera
+> [!NOTE]
+> R* (vector) Índice de causalidad del impago
 
-Grafo causal G
-
-Red causal del impago
-
-El mapa de todos los factores (del deudor, del sistema crediticio, del entorno macro, del diseño de la política) que contribuyen causalmente a la probabilidad de impago. Es más amplio que el scorecard tradicional.
-
-R* (vector) Índice de causalidad del impago
-
-La fracción del impago causalmente atribuible a cada nodo. R*_deudor es la fracción atribuible al deudor. R*_sistema es la fracción atribuible al diseño del sistema crediticio. Cuando R*_sistema > R*_deudor, el sistema tiene mayor responsabilidad causal en el impago que el deudor.
-
-Nodo de diseño
-
-Diseñador de la política crediticia
+| Herramienta | En score crediticio se llama | Qué significa en la práctica financiera |
+| --- | --- | --- |
+| R* (vector) | Índice de causalidad del impago | La fracción del impago causalmente atribuible a cada nodo. R*_deudor es la fracción atribuible al deudor. R*_sistema es la fracción atribuible al diseño del sistema crediticio. Cuando R*_sistema > R*_deudor, el sistema tiene mayor responsabilidad causal en el impago que el deudor. |
+| Nodo de diseño | Diseñador de la política crediticia | Quien diseñó las condiciones bajo las cuales se otorga o niega el crédito: |
 
 Quien diseñó las condiciones bajo las cuales se otorga o niega el crédito: El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
-/ aprobador del algoritmo
+<table>
+<tbody>
+<tr><th scope="row">Nodo dataset</th><td>Algoritmo de scoring entrenado con datos históricos</td><td>Nodo causal sin voluntad propia pero con posición real en el grafo. Su R* mide cuánto del impago es causalmente atribuible al sesgo incorporado en el dataset histórico. Es el nodo que transmite la discriminación histórica al sistema presente.</td></tr>
+</tbody>
+</table>
 
 el regulador que definió la política, el directivo que aprobó el algoritmo, la empresa que diseñó el producto financiero.
 
-Nodo dataset Algoritmo de scoring entrenado con datos históricos
-
-Nodo causal sin voluntad propia pero con posición real en el grafo. Su R* mide cuánto del impago es causalmente atribuible al sesgo incorporado en el dataset histórico. Es el nodo que transmite la discriminación histórica al sistema presente.
-
-S (índice) Fungibilidad del factor crediticio
-
-S alto del deudor: cualquier persona en sus mismas condiciones estructurales (ingreso, código postal, acceso al sistema financiero formal) habría tenido el mismo resultado. El impago es estructural, no idiosincrático. S bajo: el impago dependió de características específicas del comportamiento de este deudor.
-
-α (coeficiente)
-
-Grado de responsabilidad crediticia asumida
-
-Para el deudor: lo que hizo para reducir el riesgo de impago (renegociación, comunicación con el acreedor, búsqueda de refinanciamiento). Para el diseñador: en qué medida reconoció el sesgo del sistema y lo corrigió.
-
-Δ = R* − α Déficit de responsabilidad causal no asumida
-
-Δ alto del diseñador: diseñó condiciones que causaban el impago y no las corrigió. Δ alto del deudor: el
-
+<table>
+<tbody>
+<tr><th scope="row">S (índice)</th><td>Fungibilidad del factor crediticio</td><td>S alto del deudor: cualquier persona en sus mismas condiciones estructurales (ingreso, código postal, acceso al sistema financiero formal) habría tenido el mismo resultado. El impago es estructural, no idiosincrático. S bajo: el impago dependió de características específicas del comportamiento de este deudor.</td></tr>
+<tr><th scope="row">α (coeficiente)</th><td>Grado de responsabilidad crediticia asumida</td><td>Para el deudor: lo que hizo para reducir el riesgo de impago (renegociación, comunicación con el acreedor, búsqueda de refinanciamiento). Para el diseñador: en qué medida reconoció el sesgo del sistema y lo corrigió.</td></tr>
+<tr><th scope="row">Δ = R* − α</th><td>Déficit de responsabilidad causal no asumida</td><td>Δ alto del diseñador: diseñó condiciones que causaban el impago y no las corrigió. Δ alto del deudor: el</td></tr>
+</tbody>
+</table>
 
 impago era causalmente atribuible a él y no tomó medidas. Δ negativo: la responsabilidad que se le atribuye es mayor que la que causó (deudor como chivo expiatorio del sistema).
 
-D_total Daño crediticio total
-
-T_invertido (la pérdida del acreedor en el impago), T_impedido (el desarrollo financiero truncado del deudor durante el período de exclusión crediticia), ΔT_trayectoria (el diferencial de acumulación de patrimonio entre quien tuvo acceso al crédito justo y quien no lo tuvo).
-
-D_vital Daño en tiempo de vida de trabajo cristalizado
-
-Usando τ(M) = M / w_ref: el daño crediticio expresado en horas de vida que el deudor o la comunidad afectada dedicó a trabajar y que no se tradujeron en patrimonio acumulado por el sesgo del sistema.
-
-B_total Beneficio del diseñador del sesgo
-
-Lo que el nodo de diseño obtuvo del sesgo: menor exposición al riesgo (real o percibida), mayor rentabilidad de la cartera, preservación de la estructura de poder en el mercado inmobiliario. Base para la acción de enriquecimiento sin causa.
-
-Fraude annona
-
-Incumplimiento del Estado en
-
-Cuando el Estado diseñó un sistema que excluía a grupos específicos del
-
-
-condiciones de acceso al crédito
+<table>
+<tbody>
+<tr><th scope="row">D_total</th><td>Daño crediticio total</td><td>T_invertido (la pérdida del acreedor en el impago), T_impedido (el desarrollo financiero truncado del deudor durante el período de exclusión crediticia), ΔT_trayectoria (el diferencial de acumulación de patrimonio entre quien tuvo acceso al crédito justo y quien no lo tuvo).</td></tr>
+<tr><th scope="row">D_vital</th><td>Daño en tiempo de vida de trabajo cristalizado</td><td>Usando τ(M) = M / w_ref: el daño crediticio expresado en horas de vida que el deudor o la comunidad afectada dedicó a trabajar y que no se tradujeron en patrimonio acumulado por el sesgo del sistema.</td></tr>
+<tr><th scope="row">B_total</th><td>Beneficio del diseñador del sesgo</td><td>Lo que el nodo de diseño obtuvo del sesgo: menor exposición al riesgo (real o percibida), mayor rentabilidad de la cartera, preservación de la estructura de poder en el mercado inmobiliario. Base para la acción de enriquecimiento sin causa.</td></tr>
+<tr><th scope="row">Fraude annona</th><td>Incumplimiento del Estado en</td><td>Cuando el Estado diseñó un sistema que excluía a grupos específicos del</td></tr>
+</tbody>
+</table>
 
 acceso al crédito (redlining), recibió el capital fiscal de esas comunidades y no generó las condiciones materiales de posibilidad para su acumulación de patrimonio. Δ del Estado > 0.
 
-No aplican al algoritmo ni al dataset. Aplican al directivo que aprobó el algoritmo sesgado: ¿actuó desde Potós (persistencia en el sistema heredado sin revisarlo), desde Anteros (defensa deliberada de una práctica que sabía sesgada), o desde Deimos (ignorancia genuina del sesgo)?
-
-Hijos de Afrodita
-
-Solo para directivos y reguladores humanos
+<table>
+<tbody>
+<tr><th scope="row">Hijos de Afrodita</th><td>Solo para directivos y reguladores humanos</td><td>No aplican al algoritmo ni al dataset. Aplican al directivo que aprobó el algoritmo sesgado: ¿actuó desde Potós (persistencia en el sistema heredado sin revisarlo), desde Anteros (defensa deliberada de una práctica que sabía sesgada), o desde Deimos (ignorancia genuina del sesgo)?</td></tr>
+</tbody>
+</table>
 
 Para el lector que viene del núcleo universal:  Este dominio introduce un tipo de nodo que no había aparecido en los dominios anteriores: el nodo algorítmico / dataset, que tiene posición causal real en el grafo pero carece de voluntad, dolo e hijos. Su R* no implica culpabilidad del algoritmo sino posición causal que apunta hacia el directivo que lo aprobó y hacia el diseñador de la política que generó los datos con los que fue entrenado.
 
@@ -5530,86 +3862,25 @@ Para el lector que viene del núcleo universal:  Este dominio introduce un tipo 
 
 El grafo causal del impago difiere del scorecard tradicional en su alcance: incluye no solo los factores del deudor sino también los del sistema crediticio que determinó las condiciones del préstamo. La construcción procede en cuatro niveles:
 
-Nivel Tipo de nodo Función causal
-
-Fuente de evidencia
-
-Del deudor
-
-Ingreso, estabilidad laboral, historial de pagos, capacidad de servicio de la deuda, conocimiento financiero.
-
-Determina si el deudor, dado el contexto, podía cumplir el pago. R* del deudor mide la fracción del impago atribuible a sus condiciones y conducta específicas.
-
-Historial crediticio, declaraciones de ingreso, documentación laboral, patrones de pago histórico.
-
-Del producto
-
-Tasa de interés, plazo, estructura de pagos, penalizaciones, términos de renegociación.
-
-Las condiciones del producto determinan si el pago
-
-Términos contractuales, comparación con productos equivalentes del mercado, análisis
-
-
-era factible dado el ingreso del deudor. Un producto de alta tasa sobre un ingreso bajo tiene R* propio en el impago.
-
-de capacidad de pago.
-
-Del sistema
-
-Política crediticia del acreedor, algoritmo de scoring, criterios de aprobación, acceso a refinanciamiento.
-
-Determina las condiciones bajo las cuales se otorgó el crédito. Si el sistema aprobó un crédito que sus propios modelos indicaban como de alto riesgo de impago, ese riesgo tiene R* en el sistema, no solo en el deudor.
-
-Documentación de política interna, modelos de riesgo, auditorías del algoritmo, estudios de disparate impact.
-
-Del entorno
-
-Ciclo económico, tasa de desempleo, inflación, crisis sistémicas, políticas de vivienda.
-
-Los choques exógenos (una crisis financiera, una pandemia) tienen R* real en los impagos que
-
-Series macroeconómicas, estudios de impacto de crisis en carteras de crédito, comparación de tasas de impago antes y durante el choque.
-
-
-producen. El deudor que no pagó durante el COVID puede haber tenido R* bajo.
+| Nivel | Tipo de nodo | Función causal | Fuente de evidencia |
+| --- | --- | --- | --- |
+| Del deudor | Ingreso, estabilidad laboral, historial de pagos, capacidad de servicio de la deuda, conocimiento financiero. | Determina si el deudor, dado el contexto, podía cumplir el pago. R* del deudor mide la fracción del impago atribuible a sus condiciones y conducta específicas. | Historial crediticio, declaraciones de ingreso, documentación laboral, patrones de pago histórico. |
+| Del producto | Tasa de interés, plazo, estructura de pagos, penalizaciones, términos de renegociación. | Las condiciones del producto determinan si el pago | Términos contractuales, comparación con productos equivalentes del mercado, análisis |
+| Del sistema | Política crediticia del acreedor, algoritmo de scoring, criterios de aprobación, acceso a refinanciamiento. | Determina las condiciones bajo las cuales se otorgó el crédito. Si el sistema aprobó un crédito que sus propios modelos indicaban como de alto riesgo de impago, ese riesgo tiene R* en el sistema, no solo en el deudor. | Documentación de política interna, modelos de riesgo, auditorías del algoritmo, estudios de disparate impact. |
+| Del entorno | Ciclo económico, tasa de desempleo, inflación, crisis sistémicas, políticas de vivienda. | Los choques exógenos (una crisis financiera, una pandemia) tienen R* real en los impagos que | Series macroeconómicas, estudios de impacto de crisis en carteras de crédito, comparación de tasas de impago antes y durante el choque. |
+|  |  | producen. El deudor que no pagó durante el COVID puede haber tenido R* bajo. |  |
 
 #### 3.2  R* del deudor versus R* del sistema: cuándo el impago era estructural
 
 La distinción entre R*_deudor y R*_sistema es la aportación operativa más directa del capítulo a la práctica financiera. Tiene consecuencias sobre quién asume el costo del impago, qué reclamaciones son procedentes, y cómo se diseña la regulación del crédito.
 
-Perfil del impago
-
-R* dominante
-
-Consecuencia jurídica y de política pública
-
-Impago idiosincrático
-
-R*_deudor alto (>50%)
-
-El impago fue causado principalmente por condiciones o conductas específicas del deudor. El riesgo estaba correctamente evaluado. La pérdida del acreedor era previsible y proporcional al perfil del deudor. La reclamación del acreedor tiene base.
-
-Impago estructural
-
-R*_sistema > R*_deudor
-
-El impago fue causado principalmente por el diseño del sistema: producto inadecuado para el perfil del deudor, tasa excesiva, condiciones inalcanzables. El acreedor diseñó las condiciones
-
-
-del impago. La reclamación íntegra al deudor es inverosímil jurídicamente.
-
-Impago sesgado
-
-R*_dataset alto, R*_deudor bajo
-
-El algoritmo de scoring negó crédito o lo encareció para un deudor que, dado su perfil real, habría podido pagar. El impago es consecuencia de las condiciones de exclusión, no de la conducta del deudor. Base para acción de disparate impact.
-
-El impago fue causado por un choque externo (crisis, pandemia, desastre) que el deudor no podía prever ni controlar. La imputación íntegra al deudor es injusta. Base para políticas de moratoria y reestructuración.
-
-Impago exógeno
-
-R*_entorno alto
+| Perfil del impago | R* dominante | Consecuencia jurídica y de política pública |
+| --- | --- | --- |
+| Impago idiosincrático | R*_deudor alto (>50%) | El impago fue causado principalmente por condiciones o conductas específicas del deudor. El riesgo estaba correctamente evaluado. La pérdida del acreedor era previsible y proporcional al perfil del deudor. La reclamación del acreedor tiene base. |
+| Impago estructural | R*_sistema > R*_deudor | El impago fue causado principalmente por el diseño del sistema: producto inadecuado para el perfil del deudor, tasa excesiva, condiciones inalcanzables. El acreedor diseñó las condiciones |
+| Impago sesgado | R*_dataset alto, R*_deudor bajo | El algoritmo de scoring negó crédito o lo encareció para un deudor que, dado su perfil real, habría podido pagar. El impago es consecuencia de las condiciones de exclusión, no de la conducta del deudor. Base para acción de disparate impact. |
+| --- | --- | --- |
+| Impago exógeno | R*_entorno alto | El impago fue causado por un choque externo (crisis, pandemia, desastre) que el deudor no podía prever ni controlar. La imputación íntegra al deudor es injusta. Base para políticas de moratoria y reestructuración. |
 
 #### 3.3  El índice de sustituibilidad S en el crédito
 
@@ -5637,32 +3908,12 @@ Si este producto es significativamente menor que el monto total reclamado al deu
 
 En el sistema crediticio, α tiene interpretaciones distintas según el tipo de nodo:
 
-Nodo α en este dominio Conducta que sube α
-
-Deudor Grado de responsabilidad crediticia asumida.
-
-Comunicó con el acreedor ante la primera señal de dificultad. Buscó refinanciamiento activamente. Realizó pagos parciales cuando el pago total no era posible.
-
-
-Cooperó con el proceso de reestructuración.
-
-Acreedor / banco
-
-Grado en que proveyó condiciones que hacían factible el pago.
-
-Ofreció productos adecuados al perfil del deudor. Proveyó educación financiera. Tuvo mecanismos accesibles de renegociación. Ajustó las condiciones ante choques exógenos.
-
-Directivo / aprobador del algoritmo
-
-Grado en que reconoció y corrigió el sesgo del sistema.
-
-Auditó el algoritmo para detectar disparate impact. Corrigió las variables proxy que reproducían el sesgo. Compensó a los deudores excluidos incorrectamente.
-
-Reguló contra el redlining (Fair Housing Act). Exigió auditorías de equidad en los algoritmos de crédito. Diseñó programas de inclusión financiera proporcionales al déficit histórico.
-
-Estado / regulador
-
-Grado en que generó las condiciones materiales de posibilidad para el acceso al crédito justo.
+| Nodo | α en este dominio | Conducta que sube α |
+| --- | --- | --- |
+| Deudor | Grado de responsabilidad crediticia asumida. | Comunicó con el acreedor ante la primera señal de dificultad. Buscó refinanciamiento activamente. Realizó pagos parciales cuando el pago total no era posible. |
+| Acreedor / banco | Grado en que proveyó condiciones que hacían factible el pago. | Ofreció productos adecuados al perfil del deudor. Proveyó educación financiera. Tuvo mecanismos accesibles de renegociación. Ajustó las condiciones ante choques exógenos. |
+| Directivo / aprobador del algoritmo | Grado en que reconoció y corrigió el sesgo del sistema. | Auditó el algoritmo para detectar disparate impact. Corrigió las variables proxy que reproducían el sesgo. Compensó a los deudores excluidos incorrectamente. |
+| Estado / regulador | Grado en que generó las condiciones materiales de posibilidad para el acceso al crédito justo. | Reguló contra el redlining (Fair Housing Act). Exigió auditorías de equidad en los algoritmos de crédito. Diseñó programas de inclusión financiera proporcionales al déficit histórico. |
 
 #### 3.5  El daño crediticio y su expresión en tiempo de vida
 
@@ -5670,24 +3921,16 @@ Grado en que generó las condiciones materiales de posibilidad para el acceso al
 
 #### ΔT_trayectoria
 
-Componente En crédito equivale a
-
-Descripción
-
-T_invertido Pérdida directa en el impago
-
-Para el acreedor: el capital prestado no recuperado. Para el deudor (en crédito
-
+| Componente | En crédito equivale a | Descripción |
+| --- | --- | --- |
+| T_invertido | Pérdida directa en el impago | Para el acreedor: el capital prestado no recuperado. Para el deudor (en crédito |
 
 predatorio): los pagos realizados que excedían el costo real del capital, el capital consumido en intereses abusivos.
 
-T_impedido Patrimonio no acumulado durante el período de exclusión
-
-Lo que el deudor o la comunidad dejó de acumular mientras el sistema crediticio sesgado lo excluyó: la vivienda que no pudo comprar, el negocio que no pudo capitalizar, la educación que no pudo financiar.
-
-ΔT_trayectoria El diferencial persistente de acumulación de patrimonio
-
-La brecha de riqueza que persiste hoy como consecuencia del sistema de exclusión histórica. En el caso del redlining, la diferencia de 1:7 en riqueza mediana entre familias blancas y negras tiene en este componente su principal expresión.
+| Componente | En crédito equivale a | Descripción |
+| --- | --- | --- |
+| T_impedido | Patrimonio no acumulado durante el período de exclusión | Lo que el deudor o la comunidad dejó de acumular mientras el sistema crediticio sesgado lo excluyó: la vivienda que no pudo comprar, el negocio que no pudo capitalizar, la educación que no pudo financiar. |
+| ΔT_trayectoria | El diferencial persistente de acumulación de patrimonio | La brecha de riqueza que persiste hoy como consecuencia del sistema de exclusión histórica. En el caso del redlining, la diferencia de 1:7 en riqueza mediana entre familias blancas y negras tiene en este componente su principal expresión. |
 
 #### Expresado en tiempo de vida con τ(M) = M / w_ref:
 
@@ -5702,43 +3945,20 @@ Esta conversión hace visible la dimensión ontológica del daño crediticio: lo
 
 Los hijos aplican solo a los directivos y reguladores con poder de decisión sobre el sistema crediticio. No aplican al algoritmo, al dataset, ni a los productos financieros como nodos sin voluntad.
 
-Hijo En el directivo / regulador
-
-Evidencia Implicación
-
-Potós Persistencia en el sistema heredado sin cuestionarlo. "Siempre hemos usado este modelo." "Los datos son los datos."
-
-Uso sin auditoría de modelos heredados. Resistencia pasiva a la revisión. "No sabíamos que había sesgo."
-
-Culpa habitual. Compatible con acuerdo de remediación si actúa una vez informado.
-
-Anteros Defensa deliberada de un sistema que sabe sesgado. "El modelo predice correctament e el riesgo." Resistencia activa a la auditoría.
-
-Comunicacione s internas que desestiman advertencias de equidad. Presión sobre el equipo de cumplimiento.
-
-Dolo eventual o directo. Mayor responsabilidad . Menor probabilidad de acuerdo.
-
-Deimos Ignorancia genuina del sesgo. No comprendía las implicaciones de las variables proxy.
-
-Ausencia de documentación de análisis de equidad. No hubo advertencias internas que pudiera haber ignorado.
-
-Negligencia simple. Compatible con remediation sin sanción penal.
-
-
-Harmoní a
-
-Auditó activamente el algoritmo, identificó el sesgo y lo corrigió antes de que produjera daño a escala.
-
-Documentación del proceso de auditoría, de la corrección, y de la comunicación transparente.
-
-α alto. No hay Δ. Modelo de buenas prácticas regulatorias.
+| Hijo | En el directivo / regulador | Evidencia | Implicación |
+| --- | --- | --- | --- |
+| Potós | Persistencia en el sistema heredado sin cuestionarlo. "Siempre hemos usado este modelo." "Los datos son los datos." | Uso sin auditoría de modelos heredados. Resistencia pasiva a la revisión. "No sabíamos que había sesgo." | Culpa habitual. Compatible con acuerdo de remediación si actúa una vez informado. |
+| Anteros | Defensa deliberada de un sistema que sabe sesgado. "El modelo predice correctament e el riesgo." Resistencia activa a la auditoría. | Comunicacione s internas que desestiman advertencias de equidad. Presión sobre el equipo de cumplimiento. | Dolo eventual o directo. Mayor responsabilidad . Menor probabilidad de acuerdo. |
+| Deimos | Ignorancia genuina del sesgo. No comprendía las implicaciones de las variables proxy. | Ausencia de documentación de análisis de equidad. No hubo advertencias internas que pudiera haber ignorado. | Negligencia simple. Compatible con remediation sin sanción penal. |
+| Harmoní a | Auditó activamente el algoritmo, identificó el sesgo y lo corrigió antes de que produjera daño a escala. | Documentación del proceso de auditoría, de la corrección, y de la comunicación transparente. | α alto. No hay Δ. Modelo de buenas prácticas regulatorias. |
 
 
 ### §4.  Casos resueltos
 
 Caso A — Redlining en los Estados Unidos (1930s– 1970s)
 
-El Estado federal como nodo de diseño del impago sistemático de comunidades negras
+> [!NOTE]
+> El Estado federal como nodo de diseño del impago sistemático de comunidades negras
 
 A.1  El contexto histórico
 
@@ -5753,70 +3973,31 @@ La investigación académica sobre los mapas de la HOLC — que fueron desclasif
 
 #### A.2  Construcción del grafo histórico
 
-Nodo Actor/Factor Tipo Función causal
-
-N1 FHA + HOLC: política federal de clasificación
-
-Diseño central
-
-Diseñó e implementó el sistema de clasificación. Sin este diseño, el redlining sistematizado a escala nacional no habría ocurrido. R* más alto del grafo, S bajo (el sistema era idiosincrático en su aplicación racial).
-
-N2 Bancos e instituciones hipotecarias privadas
-
-Ejecución / amplificación
-
-Adoptaron y ampliaron el sistema de clasificación de la HOLC, incluso para préstamos no asegurados federalmente. La clasificación federal se convirtió en norma de facto para toda la industria.
-
-N3 Agentes y corredores inmobiliarios
-
-Ejecución local
-
-Aplicaron el steering (dirigir a compradores negros fuera de vecindarios blancos) y blockbusting (inducir el pánico inmobiliario). Alta visibilidad, S alto.
-
-N4 Legisladores y tribunales que no intervinieron
-
-Omisión sistémica
-
-La ausencia de regulación contra el redlining durante cuatro décadas fue
-
+| Nodo | Actor/Factor | Tipo | Función causal |
+| --- | --- | --- | --- |
+| N1 | FHA + HOLC: política federal de clasificación | Diseño central | Diseñó e implementó el sistema de clasificación. Sin este diseño, el redlining sistematizado a escala nacional no habría ocurrido. R* más alto del grafo, S bajo (el sistema era idiosincrático en su aplicación racial). |
+| N2 | Bancos e instituciones hipotecarias privadas | Ejecución / amplificación | Adoptaron y ampliaron el sistema de clasificación de la HOLC, incluso para préstamos no asegurados federalmente. La clasificación federal se convirtió en norma de facto para toda la industria. |
+| N3 | Agentes y corredores inmobiliarios | Ejecución local | Aplicaron el steering (dirigir a compradores negros fuera de vecindarios blancos) y blockbusting (inducir el pánico inmobiliario). Alta visibilidad, S alto. |
+| N4 | Legisladores y tribunales que no intervinieron | Omisión sistémica | La ausencia de regulación contra el redlining durante cuatro décadas fue |
 
 parte del diseño: el Congreso no legisló contra la práctica hasta 1968 a pesar de documentación extensiva de sus efectos.
 
-N5 Sistema de tasación de propiedades
-
-Técnico / instrumental
-
-Las tasaciones de propiedades en vecindarios marcados en rojo eran sistemáticamente bajas porque el redlining reducía la demanda. El sistema de tasación amplificó el efecto original.
-
-Nodo final Millones de familias que no pudieron acumular patrimonio a través de la vivienda propia durante el período de mayor crecimiento inmobiliario de la historia estadounidense.
-
-Nf Familias negras excluidas del crédito hipotecario
+| Nodo | Actor/Factor | Tipo | Función causal |
+| --- | --- | --- | --- |
+| N5 | Sistema de tasación de propiedades | Técnico / instrumental | Las tasaciones de propiedades en vecindarios marcados en rojo eran sistemáticamente bajas porque el redlining reducía la demanda. El sistema de tasación amplificó el efecto original. |
+| Nf | Familias negras excluidas del crédito hipotecario | Nodo final | Millones de familias que no pudieron acumular patrimonio a través de la vivienda propia durante el período de mayor crecimiento inmobiliario de la historia estadounidense. |
 
 #### A.3  R* y la distribución de la causalidad del impago sistemático
 
 En el redlining, el "impago" que el sistema "predijo" para los vecindarios rojos fue en gran medida una profecía autocumplida: los vecindarios no recibieron inversión porque fueron clasificados como peligrosos; la falta de inversión los depreció; la depreciación confirmó la clasificación inicial. El grafo causal del ciclo tiene la siguiente distribución de R*: El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
-Nodo R* S α 1934-68
-
-Interpretación
-
-~44% 0.28 0.00 Nodo de diseño dominante. S moderado-bajo: la aplicación racial sistemática era idiosincrática. Un sistema diseñado sin el criterio racial habría producido clasificaciones diferentes.
-
-N1 — FHA/HOLC
-
-~28% 0.65 0.02 Alta responsabilidad causal con S moderado. Adoptaron y amplificaron el sistema, pero cualquier banco en el mismo marco regulatorio y de incentivos habría actuado similarmente.
-
-N2 — Bancos privados
-
-~14% 0.85 0.03 Alta sustituibilidad. El steering era una práctica cultural generalizada en la industria.
-
-N3 — Agentes inmobiliarios
-
-~10% 0.70 0.02 La inacción durante cuatro décadas fue parte del diseño del sistema, aunque con S moderado.
-
-N4 — Omisión legislativa
-
-~4% 0.90 0.05 Amplificador estructural con S muy alto.
+| Nodo | R* | S | α 1934- 68 | Interpretación |
+| --- | --- | --- | --- | --- |
+| N1 — FHA/HOLC | ~44% | 0.28 | 0.00 | Nodo de diseño dominante. S moderado-bajo: la aplicación racial sistemática era idiosincrática. Un sistema diseñado sin el criterio racial habría producido clasificaciones diferentes. |
+| N2 — Bancos privados | ~28% | 0.65 | 0.02 | Alta responsabilidad causal con S moderado. Adoptaron y amplificaron el sistema, pero cualquier banco en el mismo marco regulatorio y de incentivos habría actuado similarmente. |
+| N3 — Agentes inmobiliarios | ~14% | 0.85 | 0.03 | Alta sustituibilidad. El steering era una práctica cultural generalizada en la industria. |
+| N4 — Omisión legislativa | ~10% | 0.70 | 0.02 | La inacción durante cuatro décadas fue parte del diseño del sistema, aunque con S moderado. |
+| N5 — Sistema de tasación | ~4% | 0.90 | 0.05 | Amplificador estructural con S muy alto. |
 
 N5 — Sistema de tasación
 
@@ -5875,7 +4056,8 @@ El α_diferido actual del sistema federal estadounidense respecto al redlining s
 
 Caso B — Algoritmos de crédito con sesgo racial (2019–2024)
 
-R* del dataset vs. R* del directivo: el redlining invisible en los modelos de machine learning
+> [!NOTE]
+> R* del dataset vs. R* del directivo: el redlining invisible en los modelos de machine learning
 
 B.1  El contexto: del redlining de papel al redlining algorítmico
 
@@ -5886,42 +4068,17 @@ Los algoritmos no tenían "raza" como variable explícita. Usaban código postal
 El caso plantea la pregunta más técnicamente difícil del capítulo: ¿quién es causalmente responsable del sesgo —el algoritmo, el dataset, el directivo que aprobó el modelo, la empresa que lo diseñó, o el Estado que generó los datos históricos sesgados sobre los que fue entrenado?
 
 
+
 #### B.2  El grafo causal del sesgo algorítmico
 
-Nodo Actor/Factor Tipo Función causal en el sesgo
-
-N1 HOLC / sistema de redlining histórico (1934-1968)
-
-Diseño histórico
-
-Generó los datos con sesgo racial que estructuran la geografía actual de la segregación. Es el nodo de diseño original del sesgo que el algoritmo hereda.
-
-N2 Dataset de entrenamiento (hipotecas históricas 1970-2015)
-
-Nodo algorítmico
-
-Contiene el sesgo histórico codificado como patrón estadístico. No tiene voluntad. Su R* apunta hacia N1 (que generó el sesgo) y hacia N3 (que lo aprobó sin auditar).
-
-N3 Directivo que aprobó el modelo sin auditoría de equidad
-
-Decisión humana
-
-La persona con poder de aprobación que no realizó (o no exigió) una auditoría de disparate impact antes del despliegue. Este es el nodo humano con voluntad y el mayor Δ en el sistema contemporáneo.
-
-N4 Empresa de tecnología financiera / prestamista
-
-Institución Diseñó y comercializó el modelo. Tenía incentivos para maximizar la precisión estadística sin exigir equidad.
-
-
-N5 Regulador financiero (CFPB, OCC)
-
-Omisión regulatoria
-
-La ausencia de estándares vinculantes de auditoría de equidad algorítmica hasta 2023 fue parte del entorno que permitió el sesgo.
-
-Nodo final Personas que no accedieron al crédito o lo recibieron a mayor costo por el sesgo del modelo, no por su perfil crediticio real.
-
-Nf Solicitantes de crédito con perfil de riesgo comparable pero código postal sesgado
+| Nodo | Actor/Factor | Tipo | Función causal en el sesgo |
+| --- | --- | --- | --- |
+| N1 | HOLC / sistema de redlining histórico (1934- 1968) | Diseño histórico | Generó los datos con sesgo racial que estructuran la geografía actual de la segregación. Es el nodo de diseño original del sesgo que el algoritmo hereda. |
+| N2 | Dataset de entrenamiento (hipotecas históricas 1970- 2015) | Nodo algorítmico | Contiene el sesgo histórico codificado como patrón estadístico. No tiene voluntad. Su R* apunta hacia N1 (que generó el sesgo) y hacia N3 (que lo aprobó sin auditar). |
+| N3 | Directivo que aprobó el modelo sin auditoría de equidad | Decisión humana | La persona con poder de aprobación que no realizó (o no exigió) una auditoría de disparate impact antes del despliegue. Este es el nodo humano con voluntad y el mayor Δ en el sistema contemporáneo. |
+| N4 | Empresa de tecnología financiera / prestamista | Institución | Diseñó y comercializó el modelo. Tenía incentivos para maximizar la precisión estadística sin exigir equidad. |
+| N5 | Regulador financiero (CFPB, OCC) | Omisión regulatoria | La ausencia de estándares vinculantes de auditoría de equidad algorítmica hasta 2023 fue parte del entorno que permitió el sesgo. |
+| Nf | Solicitantes de crédito con perfil de riesgo comparable pero código postal sesgado | Nodo final | Personas que no accedieron al crédito o lo recibieron a mayor costo por el sesgo del modelo, no por su perfil crediticio real. |
 
 #### B.3  R* del dataset vs. R* del directivo
 
@@ -5929,32 +4086,13 @@ La pregunta más difícil del caso es: cuando el impago (o la denegación injust
 
 La respuesta del sistema es precisa: el dataset no tiene voluntad, por lo tanto no tiene α, no tiene hijos, y no puede ser sancionado. Pero sí tiene R* como posición causal en el grafo. El R* del dataset apunta estructuralmente hacia el directivo: si el directivo hubiera realizado la auditoría de equidad, el sesgo del dataset habría sido detectado antes del despliegue, y el daño no habría ocurrido o habría sido menor. El R* del directivo incluye su responsabilidad tanto por lo que hizo (aprobar el modelo) como por lo que no hizo (no exigir la auditoría).
 
-Nodo R* est.
-
-Δ y consecuencia
-
-S est.
-
-α est.
-
-
-~32% 0.30 0.08 Δ = +0.24. Nodo histórico con α_diferido bajo. La Posición_heredada del Estado federal se extiende al dominio algorítmico.
-
-N1 — Redlining histórico
-
-~25% 0.55 N/A R* alto pero sin α (no tiene voluntad). Su R* se imputa al directivo que lo aprobó sin auditar. Δ del directivo incorpora el R* del dataset.
-
-N2 — Dataset
-
-~22% 0.35 0.05 Δ = +0.17 (propio) + fracción del R*_dataset = ~+0.30 total. Este es el nodo de mayor urgencia para la imputación contemporánea.
-
-N3 — Directivo aprobador
-
-~14% 0.50 0.10 Δ = +0.04. Responsabilidad moderada. Cualquier empresa con los mismos incentivos habría actuado similarmente (S moderado).
-
-N4 — Empresa fintech
-
-~7% 0.75 0.12 Δ = -0.05. El regulador no fijó estándares (Δ positivo histórico), pero S es alto: cualquier regulador en el mismo marco de incentivos habría actuado igual.
+| Nodo | R* est. | S est. | α est. | Δ y consecuencia |
+| --- | --- | --- | --- | --- |
+| N1 — Redlining histórico | ~32% | 0.30 | 0.08 | Δ = +0.24. Nodo histórico con α_diferido bajo. La Posición_heredada del Estado federal se extiende al dominio algorítmico. |
+| N2 — Dataset | ~25% | 0.55 | N/A | R* alto pero sin α (no tiene voluntad). Su R* se imputa al directivo que lo aprobó sin auditar. Δ del directivo incorpora el R* del dataset. |
+| N3 — Directivo aprobador | ~22% | 0.35 | 0.05 | Δ = +0.17 (propio) + fracción del R*_dataset = ~+0.30 total. Este es el nodo de mayor urgencia para la imputación contemporánea. |
+| N4 — Empresa fintech | ~14% | 0.50 | 0.10 | Δ = +0.04. Responsabilidad moderada. Cualquier empresa con los mismos incentivos habría actuado similarmente (S moderado). |
+| N5 — Regulador | ~7% | 0.75 | 0.12 | Δ = -0.05. El regulador no fijó estándares (Δ positivo histórico), pero S es alto: cualquier regulador en el mismo marco de incentivos habría actuado igual. |
 
 N5 — Regulador
 
@@ -5973,32 +4111,17 @@ N5 — Regulador
 
 Esto significa que el directivo que aprobó el modelo sin auditoría tiene una responsabilidad causal efectiva del ~44% del sesgo del sistema: su propia posición causal más la fracción del dataset que habría podido detectar y corregir. Ese es el número correcto para cualquier acción de responsabilidad.
 
+
 #### B.4  Los hijos del directivo: Potós como diagnóstico dominante
+
 
 La investigación sobre los ejecutivos de las empresas fintech y los prestamistas que usaron modelos sesgados entre 2019 y 2024 produce un perfil de hijos que el sistema puede nombrar con precisión:
 
-Evidencia
-
-Perfil del directivo
-
-Hijo dominante
-
-La gran mayoría: uso del modelo estándar de la industria sin auditoría específica
-
-Potós + Deimos
-
-"Usamos el mejor modelo estadístico disponible." "No sabíamos que había sesgo." El directivo persiste en el paradigma de la eficiencia estadística sin cuestionarse la equidad. Potós hacia el modelo técnico establecido.
-
-Minoría: directivos que recibieron advertencias internas y no actuaron
-
-Potós + Anteros
-
-Correos internos que documentan alertas de equidad ignoradas o minimizadas. "Nuestro modelo predice bien; la equidad no es nuestro problema regulatorio."
-
-
-Harmonía Documentación de auditorías de disparate impact, de iteraciones del modelo hasta alcanzar equidad, de comunicación transparente con el regulador.
-
-Casos aislados: directivos que auditaron y corrigieron proactivamente
+| Perfil del directivo | Hijo dominante | Evidencia |
+| --- | --- | --- |
+| La gran mayoría: uso del modelo estándar de la industria sin auditoría específica | Potós + Deimos | "Usamos el mejor modelo estadístico disponible." "No sabíamos que había sesgo." El directivo persiste en el paradigma de la eficiencia estadística sin cuestionarse la equidad. Potós hacia el modelo técnico establecido. |
+| Minoría: directivos que recibieron advertencias internas y no actuaron | Potós + Anteros | Correos internos que documentan alertas de equidad ignoradas o minimizadas. "Nuestro modelo predice bien; la equidad no es nuestro problema regulatorio." |
+| Casos aislados: directivos que auditaron y corrigieron proactivamente | Harmonía | Documentación de auditorías de disparate impact, de iteraciones del modelo hasta alcanzar equidad, de comunicación transparente con el regulador. |
 
 El Potós dominante tiene una implicación regulatoria directa: la solución no es sancionar penalmente a los directivos (que genuinamente creían que estaban usando el mejor modelo técnico disponible) sino crear la obligación regulatoria de la auditoría de equidad antes del despliegue. El Potós se transforma con la estructura, no con la amenaza de sanción.
 
@@ -6017,7 +4140,8 @@ Un Δ negativo después de la auditoría indica que el directivo asumió más de
 
 #### el sistema requiere para que el Δ_diferido del redlining histórico comience a reducirse.
 
-La paradoja del redlining algorítmico:  El algoritmo no discrimina con intención. Discrimina con precisión estadística. Esa es la forma más eficiente de discriminación que ha existido en la historia del crédito: produce resultados racialmente sesgados sin que ningún actor individual pueda ser señalado como racista en el sentido tradicional. El sistema de imputación causal es el único instrumento analítico que puede distribuir la responsabilidad en ese escenario porque no necesita intención: necesita posición causal. Y la posición del directivo que aprobó el modelo sin auditar es causalmente determinante.
+> [!NOTE]
+> La paradoja del redlining algorítmico:  El algoritmo no discrimina con intención. Discrimina con precisión estadística. Esa es la forma más eficiente de discriminación que ha existido en la historia del crédito: produce resultados racialmente sesgados sin que ningún actor individual pueda ser señalado como racista en el sentido tradicional. El sistema de imputación causal es el único instrumento analítico que puede distribuir la responsabilidad en ese escenario porque no necesita intención: necesita posición causal. Y la posición del directivo que aprobó el modelo sin auditar es causalmente determinante.
 
 
 ### §5.  Límites del método en score crediticio
@@ -6046,42 +4170,28 @@ Los cuatro apartados anteriores aplicaron R* al impago ya ocurrido. Pero el índ
 
 y qué fracción es causalmente atribuible al deudor (R*_deudor). Y puede estimar cuándo el regulador detectará el sesgo de un algoritmo dado el ritmo de acumulación del disparate impact.
 
+
 #### Predictor 1: probabilidad de impago causal pre-evento
+
 
 El modelo FICO predice P(impago) sobre la clase de riesgo. El análisis causal lo descompone antes de que ocurra:
 
-P(impago_causal_sistema) ᵢ = R*_sistema ×
-
-P(impago_total) ᵢ
-
-P(impago_causal_deudor) ᵢ = R*_deudor ×
-
-P(impago_total) ᵢ
+| Perfil de deudor | P(impago) FICO | R*_sistema estimado | Pérdida esperada causal del sistema |
+| --- | --- | --- | --- |
+| Código postal de vecindario históricamente redlineado | 12% | 0.42 | 5.0% — el 42% del 12% |
 
 Esta descomposición, aplicada sobre la cartera antes de que los impagos ocurran, produce el mapa de riesgo sistémico de la cartera: la fracción de la pérdida esperada que es estructural (atribuible al sistema de crédito) y la fracción que es idiosincrática (atribuible al comportamiento del deudor).
 
-Perfil de deudor P(impago) FICO
-
-R*_sistema estimado
-
-Pérdida esperada causal del sistema
-
-12% 0.42 5.0% — el 42% del 12%
-
-Código postal de vecindario históricamente redlineado
-
-10% 0.08 0.8% — solo el 8% del 10%
-
-Código postal sin historia de exclusión
-
-18% 0.12 2.2% — el 12% del 18%
-
-Deudor con historial de impago personal
+| Perfil de deudor | P(impago) FICO | R*_sistema estimado | Pérdida esperada causal del sistema |
+| --- | --- | --- | --- |
+| Código postal sin historia de exclusión | 10% | 0.08 | 0.8% — solo el 8% del 10% |
+| Deudor con historial de impago personal | 18% | 0.12 | 2.2% — el 12% del 18% |
 
 
 La diferencia entre las dos primeras filas —5.0% vs. 0.8% de pérdida esperada atribuible al sistema— es la huella del redlining algorítmico en la cartera antes de que produzca ningún impago real. Un regulador que solo mira la tasa de impago realizada llega tarde; este predictor llega antes.
 
-Predictor:  Si R*_sistema × P(impago) supera un umbral θ_equidad en un segmento de la cartera, el algoritmo es predictivamente sesgado con independencia de si los impagos ya han ocurrido. La auditoría de equidad debe actuar sobre este predictor, no esperar la evidencia post-hoc.
+> [!NOTE]
+> Predictor:  Si R*_sistema × P(impago) supera un umbral θ_equidad en un segmento de la cartera, el algoritmo es predictivamente sesgado con independencia de si los impagos ya han ocurrido. La auditoría de equidad debe actuar sobre este predictor, no esperar la evidencia post-hoc.
 
 #### Predictor 2: tiempo hasta la detección regulatoria del sesgo algorítmico
 
@@ -6130,14 +4240,16 @@ ROI = (0.30 × $47.5M − $0.8M) / $0.8M = ($14.25M
 El ROI de la auditoría de equidad supera el 1,600% cuando se incluye la probabilidad de detección. Este es el argumento cuantitativo que convierte la regulación basada en Δ_B en herramienta de gestión de riesgo para las propias instituciones financieras, no solo para los reguladores.
 
 
-⚠ La predicción del tiempo de detección asume que el regulador aplica el umbral DI ≥ 1.25 de manera consistente. Si la supervisión es irregular, t_detección puede ser muy superior al estimado, lo que aumenta el beneficio predatorio, pero también aumenta el daño acumulado. El argumento para la supervisión algorítmica continua en tiempo real es precisamente reducir la incertidumbre sobre t_detección.
+> [!WARNING]
+> ⚠ La predicción del tiempo de detección asume que el regulador aplica el umbral DI ≥ 1.25 de manera consistente. Si la supervisión es irregular, t_detección puede ser muy superior al estimado, lo que aumenta el beneficio predatorio, pero también aumenta el daño acumulado. El argumento para la supervisión algorítmica continua en tiempo real es precisamente reducir la incertidumbre sobre t_detección.
 
 #### Código de referencia: predictor de impago causal y tiempo de detección
 
 import numpy as np  def predictor_sesgo_crediticio(DI_inicial, r_acumulacion,                                 theta_DI=1.25, n_ciclos_anio=12, delta_B_anual=8e6,                                 P_deteccion=0.30, costo_auditoria=800_000, multa_base=47_500_000):     """     Predicción de tiempo hasta detección regulatoria del sesgo algorítmico     y ROI de la auditoría preventiva.     """     import math     # Tiempo hasta cruzar el umbral DI if DI_inicial >= theta_DI:         t_det = 0.0  # ya cruzó el umbral     else: t_det = math.log(theta_DI / DI_inicial) / math.log(1 + r_acumulacion) B_antes = delta_B_anual * t_det     multa_esperada = multa_base * P_deteccion     ROI_auditoria = (multa_esperada - costo_auditoria) / costo_auditoria      return {         't_deteccion_anios': round(t_det, 2), 't_deteccion_meses': round(t_det * 12, 1), 'B_acumulado_antes_deteccion': B_antes,         'multa_esperada': multa_esperada,         'ROI_auditoria_preventiva': ROI_auditoria, 'conviene_auditar': ROI_auditoria > 0,     }  def descomposicion_causal_cartera(R_star_sistema, P_impago_FICO, monto_credito_promedio, n_deudores):     """     Descompone la pérdida esperada de la cartera entre     componente causal del sistema y del deudor.     """     P_impago_causal_sistema = R_star_sistema * P_impago_FICO     P_impago_causal_deudor  = (1 - R_star_sistema) * P_impago_FICO     perdida_sistema  = P_impago_causal_sistema * monto_credito_promedio * n_deudores     perdida_deudores = P_impago_causal_deudor  * monto_credito_promedio * n_deudores return {         'P_causal_sistema':  P_impago_causal_sistema, 'P_causal_deudor':   P_impago_causal_deudor, 'perdida_esp_sistema': perdida_sistema,         'perdida_esp_deudor': perdida_deudores,         'fraccion_recuperable_via_auditoria': R_star_sistema,     }  # ── Ejemplo: algoritmo con sesgo docum. (DI_0 = 1.18) ── res_t = predictor_sesgo_crediticio(     DI_inicial=1.18, r_acumulacion=0.04,     delta_B_anual=8e6, P_deteccion=0.30, costo_auditoria=800_000, multa_base=47_500_000) print("=== Predictor de detección regulatoria ===") for k, v in res_t.items(): print(f"  {k}: {v}")  # ── Ejemplo: descomposición causal de cartera ── res_c = descomposicion_causal_cartera(     R_star_sistema=0.42, P_impago_FICO=0.12,     monto_credito_promedio=250_000,
 
 
-n_deudores=5_000) print("\n=== Descomposición causal de cartera (seg. redlineado) ===") for k, v in res_c.items():     print(f"  {k}: {v:,.0f}" if isinstance(v, float) and v > 1 else f"  {k}: {v:.4f}")
+> [!NOTE]
+> n_deudores=5_000) print("\n=== Descomposición causal de cartera (seg. redlineado) ===") for k, v in res_c.items():     print(f"  {k}: {v:,.0f}" if isinstance(v, float) and v > 1 else f"  {k}: {v:.4f}")
 
 
 §6.  Profundización formal — Esta sección puede saltarse sin perder el argumento del capítulo
@@ -6219,7 +4331,8 @@ Para la empresa mediana que enfrenta un riesgo de quiebra mucho menos espectacul
 
 El riesgo financiero convencional es un cálculo sobre la probabilidad de que un actor individual incumpla sus obligaciones. El riesgo sistémico es algo diferente y más difícil: la probabilidad de que la interconexión entre actores produzca un colapso en cascada que ninguno de ellos habría producido individualmente. Lehman no era el único banco con posiciones de riesgo excesivas en 2008. Pero era el nodo cuya quiebra —dadas las interdependencias del sistema— tenía suficiente R* sobre el conjunto como para desencadenar el colapso en cascada.
 
-Riesgo sistémico causal (R*):  En el análisis de quiebra, R* mide cuánto del colapso sistémico total dependía causalmente de cada nodo específico. R* alto de un nodo significa que ese nodo era condición necesaria del colapso a esa escala. R* bajo significa que el colapso habría ocurrido de manera similar incluso sin ese nodo. Esta distinción no se captura con ninguna medida de riesgo convencional porque las medidas convencionales son por definición individuales.
+> [!NOTE]
+> Riesgo sistémico causal (R*):  En el análisis de quiebra, R* mide cuánto del colapso sistémico total dependía causalmente de cada nodo específico. R* alto de un nodo significa que ese nodo era condición necesaria del colapso a esa escala. R* bajo significa que el colapso habría ocurrido de manera similar incluso sin ese nodo. Esta distinción no se captura con ninguna medida de riesgo convencional porque las medidas convencionales son por definición individuales.
 
 La distinción entre riesgo sistémico y riesgo individual es también la distinción entre el análisis de quiebra convencional —que pregunta "¿estaba Lehman en quiebra técnica?"— y el análisis causal —que pregunta "¿sin Lehman, habría ocurrido la crisis de 2008 con la misma escala?"—. La primera pregunta tiene respuesta fácil. La segunda es la que importa para el diseño de la regulación futura.
 
@@ -6236,7 +4349,8 @@ financieras
 
 Un ICRS alto del nodo i significa que el colapso del sistema dependía causalmente de ese nodo —ya sea porque era un puente necesario en la red de transmisión del riesgo, porque su quiebra activaba cláusulas que producían quiebras en cascada, o porque su existencia era condición para que otros nodos mantuvieran su solvencia.
 
-Concentración de riesgo:  La propiedad más importante del ICRS para el análisis preventivo es que puede calcularse antes del colapso: se construye el grafo de interdependencias de la empresa o del sistema, se estiman los pesos de las dependencias, y se calcula R*. Un ICRS alto en un nodo específico es la señal de que ese nodo es el eslabón más débil — no necesariamente en términos de su propia solvencia, sino en términos de lo que su fallo provocaría en el sistema.
+> [!NOTE]
+> Concentración de riesgo:  La propiedad más importante del ICRS para el análisis preventivo es que puede calcularse antes del colapso: se construye el grafo de interdependencias de la empresa o del sistema, se estiman los pesos de las dependencias, y se calcula R*. Un ICRS alto en un nodo específico es la señal de que ese nodo es el eslabón más débil — no necesariamente en términos de su propia solvencia, sino en términos de lo que su fallo provocaría en el sistema.
 
 #### 1.3 Por qué los hijos no aplican en este dominio
 
@@ -6252,63 +4366,33 @@ y civil) cuando hay imputación de responsabilidad individual, o al Capítulo 3 
 
 Esta página resume las herramientas del sistema en el contexto del análisis de quiebra y riesgo sistémico. El lector con formación en finanzas corporativas, gestión de riesgo o regulación financiera puede comenzar aquí.
 
-Herramienta En quiebra y riesgo sistémico se llama
-
-Qué significa
-
-Grafo causal G
-
-Red de interdependencias financieras
-
-El mapa de todas las dependencias que conectan la empresa o la institución con su entorno: proveedores, clientes, acreedores, instrumentos financieros, reguladores. Las aristas son las dependencias causales.
-
-R* (vector) ICRS — Índice de Concentración de Riesgo Sistémico
-
-La fracción del colapso sistémico causalmente atribuible a cada nodo de la red. ICRS alto indica que el colapso del sistema depende causalmente de ese nodo. Es la medida de "too big to fail" formalizada.
-
-Nodo de diseño
-
-Arquitecto del sistema de riesgo
-
-El nodo que diseñó las condiciones bajo las cuales el riesgo sistémico era posible: el regulador que diseñó el marco de
-
+| Herramienta | En quiebra y riesgo sistémico se llama | Qué significa |
+| --- | --- | --- |
+| Grafo causal G | Red de interdependencias financieras | El mapa de todas las dependencias que conectan la empresa o la institución con su entorno: proveedores, clientes, acreedores, instrumentos financieros, reguladores. Las aristas son las dependencias causales. |
+| R* (vector) | ICRS — Índice de Concentración de Riesgo Sistémico | La fracción del colapso sistémico causalmente atribuible a cada nodo de la red. ICRS alto indica que el colapso del sistema depende causalmente de ese nodo. Es la medida de "too big to fail" formalizada. |
+| Nodo de diseño | Arquitecto del sistema de riesgo | El nodo que diseñó las condiciones bajo las cuales el riesgo sistémico era posible: el regulador que diseñó el marco de |
+<table>
+<tbody>
+<tr><th scope="row">Nodo instrumental</th><td>Instrumento financiero (CDO, CDS, covenant)</td><td>Un instrumento financiero que no tiene voluntad, pero tiene posición causal real: los CDOs eran condición necesaria de la escala de la crisis de 2008. Su ICRS apunta hacia quien los diseñó y calificó.</td></tr>
+</tbody>
+</table>
 
 desregulación, el banco que estructuró los CDOs, la agencia calificadora que asignó ratings incorrectos.
 
-Nodo instrumental
-
-Instrumento financiero (CDO, CDS, covenant)
-
-Un instrumento financiero que no tiene voluntad, pero tiene posición causal real: los CDOs eran condición necesaria de la escala de la crisis de 2008. Su ICRS apunta hacia quien los diseñó y calificó.
-
-S (índice) Fungibilidad sistémica del nodo
-
-S alto: cualquier institución equivalente en esa posición habría producido el mismo riesgo sistémico. El colapso era una propiedad del sistema, no de Lehman específicamente. S bajo: las características idiosincráticas de Lehman (su exposición específica, su ratio de apalancamiento) eran determinantes.
-
-α (coeficiente) Provisión y mitigación del riesgo
-
-En quiebra corporativa: las reservas de capital, los colchones de liquidez, las estrategias de cobertura, la diversificación de la cartera. α = 0: sin provisión. α = 1: riesgo completamente mitigado con capital o cobertura.
-
-Δ = R* − α Déficit de provisión: riesgo
-
-La brecha entre el riesgo sistémico que el nodo portaba y la provisión
-
-
-sistémico no mitigado
-
-que tenía. Δ alto positivo en un nodo de diseño regulatorio significa que el diseño del sistema cargaba más riesgo del que estaba provisionado.
-
-D_total Daño sistémico del colapso
-
-T_invertido (pérdidas directas en el evento de colapso), T_impedido (crédito no otorgado, inversión no realizada, empleo no generado durante la recesión), ΔT_trayectoria (pérdida persistente de potencial de crecimiento de largo plazo).
-
-B_total Beneficio extraído del sistema de riesgo
-
-Lo que los nodos de diseño obtuvieron del sistema: las comisiones por estructuración de CDOs, los ratings fees de las agencias calificadoras, las bonificaciones pagadas antes del colapso. Base para la acción de enriquecimiento sin causa.
-
-El Estado diseñó un marco de desregulación que permitió el riesgo sistémico, recibió el capital fiscal de los ciudadanos, y luego usó fondos públicos para rescatar las instituciones que generaron el riesgo. El Δ del nodo regulatorio es la medida de ese incumplimiento.
-
-Fraude annona
+<table>
+<tbody>
+<tr><th scope="row">S (índice)</th><td>Fungibilidad sistémica del nodo</td><td>S alto: cualquier institución equivalente en esa posición habría producido el mismo riesgo sistémico. El colapso era una propiedad del sistema, no de Lehman específicamente. S bajo: las características idiosincráticas de Lehman (su exposición específica, su ratio de apalancamiento) eran determinantes.</td></tr>
+<tr><th scope="row">α (coeficiente)</th><td>Provisión y mitigación del riesgo</td><td>En quiebra corporativa: las reservas de capital, los colchones de liquidez, las estrategias de cobertura, la diversificación de la cartera. α = 0: sin provisión. α = 1: riesgo completamente mitigado con capital o cobertura.</td></tr>
+<tr><th scope="row">Δ = R* − α</th><td>Déficit de provisión: riesgo</td><td>La brecha entre el riesgo sistémico que el nodo portaba y la provisión</td></tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr><th scope="row">D_total</th><td>Daño sistémico del colapso</td><td>T_invertido (pérdidas directas en el evento de colapso), T_impedido (crédito no otorgado, inversión no realizada, empleo no generado durante la recesión), ΔT_trayectoria (pérdida persistente de potencial de crecimiento de largo plazo).</td></tr>
+<tr><th scope="row">B_total</th><td>Beneficio extraído del sistema de riesgo</td><td>Lo que los nodos de diseño obtuvieron del sistema: las comisiones por estructuración de CDOs, los ratings fees de las agencias calificadoras, las bonificaciones pagadas antes del colapso. Base para la acción de enriquecimiento sin causa.</td></tr>
+<tr><th scope="row">Fraude annona</th><td>Incumplimiento regulatorio del Estado</td><td>El Estado diseñó un marco de desregulación que permitió el riesgo sistémico, recibió el capital fiscal de los ciudadanos, y luego usó fondos públicos para rescatar las instituciones que generaron el riesgo. El Δ del nodo regulatorio es la medida de ese incumplimiento.</td></tr>
+</tbody>
+</table>
 
 Incumplimiento regulatorio del Estado
 
@@ -6326,36 +4410,15 @@ Capa del grafo
 
 Tipo de nodo
 
-Aristas típicas
-
-Fuente de evidencia para w
-
-Ingresos Clientes, contratos, productos. Concentració n de ingresos por cliente o segmento.
-
-Dependencia de ingresos. Si el cliente A representa el 70% de ventas, w(A→empres a) = 0.70.
-
-Segmentación de ingresos, contratos, análisis de concentración de cartera.
-
-Operacione s
-
-Proveedores críticos, infraestructur a, procesos clave. Single points of failure.
-
-Dependencia operativa. Si el proveedor único P es necesario para producir, w(P→empresa ) próximo a 1.
-
-Mapas de cadena de suministro, contratos de provisión, auditorías de continuidad de negocio.
-
-
-Financiero Acreedores, covenants de deuda, líneas de crédito, instrumentos derivados.
-
-Dependencia de liquidez. Si el covenant C se incumple, se activan vencimientos cruzados. w(C→empres a) depende del porcentaje de deuda acelerada.
-
-Contratos de crédito, calendarios de vencimiento, análisis de covenants.
-
-Sistémico Marco regulatorio, política monetaria, ciclo de crédito, mercados de capital.
-
-Dependencia sistémica. Cuánto depende la solvencia de la empresa del estado del ciclo crediticio en general.
-
-Correlación histórica entre resultados de la empresa y ciclo macroeconómic o, análisis de sensibilidad.
+<table>
+<tbody>
+<tr><th scope="row">Capa del grafo</th><td>Tipo de nodo</td><td>Aristas típicas</td><td>Fuente de evidencia para w</td></tr>
+<tr><th scope="row">Ingresos</th><td>Clientes, contratos, productos. Concentració n de ingresos por cliente o segmento.</td><td>Dependencia de ingresos. Si el cliente A representa el 70% de ventas, w(A→empres a) = 0.70.</td><td>Segmentación de ingresos, contratos, análisis de concentración de cartera.</td></tr>
+<tr><th scope="row">Operacione s</th><td>Proveedores críticos, infraestructur a, procesos clave. Single points of failure.</td><td>Dependencia operativa. Si el proveedor único P es necesario para producir, w(P→empresa ) próximo a 1.</td><td>Mapas de cadena de suministro, contratos de provisión, auditorías de continuidad de negocio.</td></tr>
+<tr><th scope="row">Financiero</th><td>Acreedores, covenants de deuda, líneas de crédito, instrumentos derivados.</td><td>Dependencia de liquidez. Si el covenant C se incumple, se activan vencimientos cruzados. w(C→empres a) depende del porcentaje de deuda acelerada.</td><td>Contratos de crédito, calendarios de vencimiento, análisis de covenants.</td></tr>
+<tr><th scope="row">Sistémico</th><td>Marco regulatorio, política monetaria, ciclo de crédito, mercados de capital.</td><td>Dependencia sistémica. Cuánto depende la solvencia de la empresa del estado del ciclo crediticio en general.</td><td>Correlación histórica entre resultados de la empresa y ciclo macroeconómic o, análisis de sensibilidad.</td></tr>
+</tbody>
+</table>
 
 #### 3.2 ICRS como medida del "too big to fail" formalizada
 
@@ -6386,18 +4449,18 @@ El análisis de sensibilidad de R* bajo variaciones de S es especialmente import
 
 #### 3.4 α y Δ en el análisis de quiebra
 
+
 En el análisis de quiebra corporativa, α mide el grado de provisión del riesgo que el nodo tenía antes del colapso. Para una empresa, α se descompone en tres instrumentos de mitigación:
 
-Instrumento α que contribuye Descripción
-
-Capital buffer α_capital El capital regulatorio y los colchones de liquidez que absorben pérdidas sin producir default. Para bancos: Tier 1 Capital ratio. Para empresas: ratio deuda/EBITDA.
-
-Diversificación α_diversificación La distribución del riesgo entre múltiples contrapartes, productos y mercados. Reduce S_empresa porque el colapso de cualquier nodo individual tiene menor impacto.
-
-Cobertura α_cobertura Los instrumentos de hedging (derivados,
-
-
-seguros) que transfieren el riesgo a terceros. Reduce R* del nodo individual pero puede trasladar el riesgo sistémico si la cobertura está concentrada.
+<table>
+<tbody>
+<tr><th scope="row">Instrumento</th><td>α que contribuye</td><td>Descripción</td></tr>
+<tr><th scope="row">Capital buffer</th><td>α_capital</td><td>El capital regulatorio y los colchones de liquidez que absorben pérdidas sin producir default. Para bancos: Tier 1 Capital ratio. Para empresas: ratio deuda/EBITDA.</td></tr>
+<tr><th scope="row">Diversificación</th><td>α_diversificación</td><td>La distribución del riesgo entre múltiples contrapartes, productos y mercados. Reduce S_empresa porque el colapso de cualquier nodo individual tiene menor impacto.</td></tr>
+<tr><th scope="row">Cobertura</th><td>α_cobertura</td><td>Los instrumentos de hedging (derivados,</td></tr>
+<tr><th scope="row"></th><td></td><td>seguros) que transfieren el riesgo a terceros. Reduce R* del nodo individual pero puede trasladar el riesgo sistémico si la cobertura está concentrada.</td></tr>
+</tbody>
+</table>
 
 α_total = 1 − (1−α_capital) × (1−α_diversificación) ×
 
@@ -6407,30 +4470,14 @@ El Δ de quiebra es la diferencia entre el ICRS del nodo y su α de provisión. 
 
 #### 3.5 El D_total sistémico: de la quiebra al desempleo
 
-D_sistémico = T_invertido + T_impedido +
-
-ΔT_trayectoria
-
-Componente En quiebra sistémica
-
-Descripción
-
-T_invertido Pérdidas directas en el evento de colapso
-
-Para Lehman: los 613,000 millones en activos declarados y las pérdidas de los acreedores. Para la crisis de 2008: la contracción de riqueza financiera inmediata estimada en 11 billones de dólares solo en los EE.UU.
-
-T_impedido La actividad económica
-
-El crédito no otorgado durante la recesión (empresas que no
-
-
-que no ocurrió
-
-pudieron financiarse), las inversiones no realizadas, los empleos no generados. Para 2008: 30 millones de empleos perdidos en el mundo y la caída del PIB de múltiples economías.
-
-ΔT_trayectoria Pérdida persistente de potencial económico
-
-La evidencia indica que las crisis financieras profundas reducen permanentemente el PIB potencial de las economías afectadas. Estudios del FMI estiman que la crisis de 2008 redujo el PIB potencial de los EE.UU. en entre 5% y 10% de manera permanente.
+<table>
+<tbody>
+<tr><th scope="row">Componente</th><td>En quiebra sistémica</td><td>Descripción</td></tr>
+<tr><th scope="row">T_invertido</th><td>Pérdidas directas en el evento de colapso</td><td>Para Lehman: los 613,000 millones en activos declarados y las pérdidas de los acreedores. Para la crisis de 2008: la contracción de riqueza financiera inmediata estimada en 11 billones de dólares solo en los EE.UU.</td></tr>
+<tr><th scope="row">T_impedido</th><td>La actividad económica</td><td>El crédito no otorgado durante la recesión (empresas que no</td></tr>
+<tr><th scope="row">ΔT_trayectoria</th><td>Pérdida persistente de potencial económico</td><td>La evidencia indica que las crisis financieras profundas reducen permanentemente el PIB potencial de las economías afectadas. Estudios del FMI estiman que la crisis de 2008 redujo el PIB potencial de los EE.UU. en entre 5% y 10% de manera permanente.</td></tr>
+</tbody>
+</table>
 
 La expresión en tiempo de vida del D_sistémico de la crisis de 2008 con w_ref = $8 USD/hora:
 
@@ -6479,107 +4526,50 @@ fue una carrera al fondo en los estándares de calificación que duró años, co
 
 Cuando los precios de la vivienda comenzaron a caer en 2007 y las hipotecas subprime empezaron a impagar masivamente, el valor de los CDOs colapsó. Los inversores que los habían comprado creyendo que eran instrumentos AAA descubrieron que eran incobrables. Los bancos que los tenían en su balance —Lehman entre ellos— vieron evaporarse su capital. Lehman, más apalancado que sus competidores supervivientes, fue el primero en llegar al umbral de insolvencia sin posibilidad de refinanciarse.
 
+
 #### A.2 El grafo causal del colapso sistémico
 
-Nodo Actor / Instrumento
+<table>
+<tbody>
+<tr><th scope="row">Nodo</th><td>Actor / Instrumento</td><td>Tipo</td><td>Función causal en el colapso</td></tr>
+<tr><th scope="row">N1</th><td>Marco regulatorio de desregulación (Gramm-Leach- Bliley Act 1999, derogación Glass-Steagall)</td><td>Diseño normativo</td><td>Eliminó la separación entre banca comercial y banca de inversión que habría limitado el riesgo sistémico. Sin este marco, Lehman no habría podido construir el balance que construyó. R* alto, S moderado (el sistema político de los años 1990 habría desregulado de alguna manera; la forma específica fue idiosincrática).</td></tr>
+<tr><th scope="row">N2</th><td>Agencias calificadoras</td><td>Diseño / certificación</td><td>Asignaron calificaciones AAA a instrumentos de</td></tr>
+<tr><th scope="row">N3</th><td>CDOs y derivados hipotecarios (instrumentos)</td><td>Nodo instrumental</td><td>El mecanismo que concentró y ocultó el riesgo. Sin los CDOs como instrumento, el riesgo hipotecario no habría podido distribuirse opacamente. Nodo sin voluntad: su R* apunta hacia N1 (que lo permitió), N2 (que lo certificó) y N4 (que lo diseñó).</td></tr>
+<tr><th scope="row">N4</th><td>Bancos de inversión estructuradores (Goldman, Lehman, Bear Stearns)</td><td>Ejecución / amplificación</td><td>Diseñaron y vendieron los CDOs. Su S es moderado: el sistema los incentivaba a hacerlo; otros bancos habrían hecho lo mismo. Pero Lehman fue el más agresivamente</td></tr>
+<tr><th scope="row">N5</th><td>Reserva Federal y SEC (supervisión)</td><td>Omisión regulatoria</td><td>Tuvieron acceso a información que mostraba la acumulación de riesgo sistémico y no usaron los instrumentos disponibles para intervenir. Posición causal real por omisión.</td></tr>
+<tr><th scope="row">N6</th><td>Originadores de hipotecas subprime (Countrywide, etc.)</td><td>Materia prima del riesgo</td><td>Generaron las hipotecas de baja calidad que alimentaron el sistema. S muy alto: cualquier originador con los mismos incentivos habría producido lo mismo.</td></tr>
+<tr><th scope="row">Nf</th><td>Economía global: desempleados, ahorradores, contribuyentes</td><td>Nodo final</td><td>El daño sistémico alcanzó a personas que no habían participado en ningún nodo del grafo.</td></tr>
+</tbody>
+</table>
 
-Tipo Función causal en el colapso
-
-N1 Marco regulatorio de desregulación (Gramm-Leach-Bliley Act 1999, derogación Glass-Steagall)
-
-Diseño normativo
-
-Eliminó la separación entre banca comercial y banca de inversión que habría limitado el riesgo sistémico. Sin este marco, Lehman no habría podido construir el balance que construyó. R* alto, S moderado (el sistema político de los años 1990 habría desregulado de alguna manera; la forma específica fue idiosincrática).
-
-N2 Agencias calificadoras
-
-Diseño / certificación
-
-Asignaron calificaciones AAA a instrumentos de
-
-
-(Moody's, S&P, Fitch)
-
-alto riesgo. Sin esas calificaciones, los inversores institucionales no habrían comprado los CDOs y el mercado no habría alcanzado esa escala. R* alto, S moderado-bajo (las tres agencias reprodujeron el mismo comportamiento por incentivos estructurales similares).
-
-N3 CDOs y derivados hipotecarios (instrumentos)
-
-Nodo instrumental
-
-El mecanismo que concentró y ocultó el riesgo. Sin los CDOs como instrumento, el riesgo hipotecario no habría podido distribuirse opacamente. Nodo sin voluntad: su R* apunta hacia N1 (que lo permitió), N2 (que lo certificó) y N4 (que lo diseñó).
-
-N4 Bancos de inversión estructuradores (Goldman, Lehman, Bear Stearns)
-
-Ejecución / amplificación
-
-Diseñaron y vendieron los CDOs. Su S es moderado: el sistema los incentivaba a hacerlo; otros bancos habrían hecho lo mismo. Pero Lehman fue el más agresivamente
-
-
-apalancado de los supervivientes.
-
-N5 Reserva Federal y SEC (supervisión)
-
-Omisión regulatoria
-
-Tuvieron acceso a información que mostraba la acumulación de riesgo sistémico y no usaron los instrumentos disponibles para intervenir. Posición causal real por omisión.
-
-N6 Originadores de hipotecas subprime (Countrywide, etc.)
-
-Materia prima del riesgo
-
-Generaron las hipotecas de baja calidad que alimentaron el sistema. S muy alto: cualquier originador con los mismos incentivos habría producido lo mismo.
-
-Nodo final El daño sistémico alcanzó a personas que no habían participado en ningún nodo del grafo.
-
-Nf Economía global: desempleados, ahorradores, contribuyentes
 
 #### A.3 R* y el ICRS: la narrativa política vs. el análisis causal
 
-Nodo R* / ICRS
-
-S α pre-200 8
-
-Δ Narrativa política vs. análisis
-
-#### 0.3 8 0.10 +0.12 Narrativa: no mencionado.
-
-N1 — Marco regulatorio
-
-~22 %
-
+<table>
+<tbody>
+<tr><th scope="row">Nodo</th><td>R* / ICRS</td><td>S</td><td>α pre- 200 8</td><td>Δ</td><td>Narrativa política vs. análisis</td></tr>
+<tr><th scope="row">N1 — Marco regulatorio</th><td>~22 %</td><td>0.3 8</td><td>0.10</td><td>+0.12</td><td>Narrativa: no mencionado.</td></tr>
+</tbody>
+</table>
 
 Análisis: el nodo de diseño con mayor responsabilida d estructural. Ningún banco fue condenado por el marco que el Congreso creó.
 
-0.3 2 0.05 +0.15 Narrativa: criticadas, pero no procesadas. S&P pagó una multa de $1,375M en 2015. Ninguna calificadora fue condenada por los ratings AAA. Análisis: segundo nodo por R*.
-
-N2 — Calificadoras
-
-~20 %
-
-#### 0.5 5 0.00 N/A * Nodo sin voluntad. Su R* apunta a N1, N2 y N4. No procesable directamente.
-
-N3 — CDOs (instrumento)
-
-~18 %
-
-#### 0.4 5 0.15 +0.0 5 Narrativa: foco principal. "Bancos codiciosos." Análisis: alta visibilidad documental, pero R* similar al del
-
-N4 — Bancos estructuradore s
-
-~20 %
-
+<table>
+<tbody>
+<tr><th scope="row">N2 — Calificadoras</th><td>~20 %</td><td>0.3 2</td><td>0.05</td><td>+0.15</td><td>Narrativa: criticadas, pero no procesadas. S&amp;P pagó una multa de $1,375M en 2015. Ninguna calificadora fue condenada por los ratings AAA. Análisis: segundo nodo por R*.</td></tr>
+<tr><th scope="row">N3 — CDOs (instrumento)</th><td>~18 %</td><td>0.5 5</td><td>0.00</td><td>N/A *</td><td>Nodo sin voluntad. Su R* apunta a N1, N2 y N4. No procesable directamente.</td></tr>
+<tr><th scope="row">N4 — Bancos estructuradore s</th><td>~20 %</td><td>0.4 5</td><td>0.15</td><td>+0.0 5</td><td>Narrativa: foco principal. &quot;Bancos codiciosos.&quot; Análisis: alta visibilidad documental, pero R* similar al del</td></tr>
+</tbody>
+</table>
 
 marco regulatorio y las calificadoras. S moderado: cualquier banco con los mismos incentivos habría actuado igual.
 
-#### 0.6 0 0.10 +0.0 4 Narrativa: casi no mencionado. Análisis: R* real por omisión. La Fed tenía la facultad de intervenir y no lo hizo.
-
-N5 — Fed / SEC (omisión)
-
-~14 %
-
-~6% 0.8 8 0.20 -0.14 Alta sustituibilidad. Funcionaron dentro de los incentivos del sistema. Chivos expiatorios parciales de la narrativa.
-
-N6 — Originadores hipotecas
+<table>
+<tbody>
+<tr><th scope="row">N5 — Fed / SEC (omisión)</th><td>~14 %</td><td>0.6 0</td><td>0.10</td><td>+0.0 4</td><td>Narrativa: casi no mencionado. Análisis: R* real por omisión. La Fed tenía la facultad de intervenir y no lo hizo.</td></tr>
+<tr><th scope="row">N6 — Originadores hipotecas</th><td>~6%</td><td>0.8 8</td><td>0.20</td><td>-0.14</td><td>Alta sustituibilidad. Funcionaron dentro de los incentivos del sistema. Chivos expiatorios parciales de la narrativa.</td></tr>
+</tbody>
+</table>
 
 #### * R*_CDOs = 0.18 se imputa mediante la fórmula R*_efectivo de los nodos humanos que los diseñaron y certificaron (N1, N2, N4).
 
@@ -6634,7 +4624,8 @@ evento detonante de septiembre de 2008. El Tesoro al dejar caer a Lehman tomó u
 
 Caso B — Empresa mediana hipotética
 
-Proveedor único + cliente concentrado + deuda covenant: el mapa del riesgo de quiebra antes de que ocurra
+> [!NOTE]
+> Proveedor único + cliente concentrado + deuda covenant: el mapa del riesgo de quiebra antes de que ocurra
 
 Este caso es una composición hipotética que integra los factores de riesgo más frecuentes en quiebras de empresas medianas. No corresponde a ninguna empresa específica.
 
@@ -6652,63 +4643,28 @@ Empresa manufacturera de componentes metálicos. Facturación de 180 millones de
 
 #### B.2 El grafo de riesgo de la empresa
 
-Factor Tipo Función causal en el riesgo de quiebra
-
-Nod o
-
-N1 Pérdida del cliente A
-
-Concentració n de ingresos
-
-Si A no renueva el contrato, la empresa pierde el 72% de los ingresos. Con la estructura de costos fijos construida para esa escala, la empresa entraría en pérdidas en el mes 3 y violaría el covenant en el mes 6.
-
-N2 Fallo del proveedor único P
-
-Single point of failure
-
-Si P no puede entregar (por su propia crisis, por un incidente operativo, por fuerza mayor), la empresa no puede cumplir sus pedidos. El incumplimiento con A activa penalidades contractuales y puede producir la no renovación del contrato.
-
-N3 Incumplimient o del covenant de deuda
-
-Detonante de vencimiento
-
-Si el EBITDA cae más del 20% (por N1 o N2), el banco B acelera el vencimiento de los 85 millones más la línea revolvente. Eso produce
-
+| Nod o | Factor | Tipo | Función causal en el riesgo de quiebra |
+| --- | --- | --- | --- |
+| N1 | Pérdida del cliente A | Concentració n de ingresos | Si A no renueva el contrato, la empresa pierde el 72% de los ingresos. Con la estructura de costos fijos construida para esa escala, la empresa entraría en pérdidas en el mes 3 y violaría el covenant en el mes 6. |
+| N2 | Fallo del proveedor único P | Single point of failure | Si P no puede entregar (por su propia crisis, por un incidente operativo, por fuerza mayor), la empresa no puede cumplir sus pedidos. El incumplimiento con A activa penalidades contractuales y puede producir la no renovación del contrato. |
+| N3 | Incumplimient o del covenant de deuda | Detonante de vencimiento | Si el EBITDA cae más del 20% (por N1 o N2), el banco B acelera el vencimiento de los 85 millones más la línea revolvente. Eso produce |
 
 insolvencia de liquidez inmediata aunque la empresa sea técnicamente solvente en valor de activos.
 
-N4 Ciclo económico sectorial
-
-Una contracción en el sector manufacturero podría reducir los pedidos de A independientement e de la relación comercial. S muy alto: cualquier empresa en ese sector lo experimentaría igual.
-
-Riesgo externo
+| Nod o | Factor | Tipo | Función causal en el riesgo de quiebra |
+| --- | --- | --- | --- |
+| N4 | Ciclo económico sectorial | Riesgo externo | Una contracción en el sector manufacturero podría reducir los pedidos de A independientement e de la relación comercial. S muy alto: cualquier empresa en ese sector lo experimentaría igual. |
 
 #### B.3 ICRS y el mapa del riesgo real
 
 #### Los pesos del grafo se estiman con base en la información financiera y contractual de la empresa:
 
-Factor R* / ICRS
-
-S α actual
-
-Interpretación
-
-~48% 0.30 0.05 Factor dominante. S moderado-bajo: el cliente A tiene características específicas (contrato largo, especificaciones técnicas) que hacen que su pérdida sea peor que perder cualquier cliente equivalente en ingresos.
-
-N1 — Pérdida de A
-
-
-~32% 0.20 0.05 S bajo: el proveedor único con esa calificación técnica no tiene sustituto inmediato. Su fallo es idiosincrático. Es el segundo factor de mayor urgencia.
-
-N2 — Fallo de P
-
-~14% 0.55 0.10 S moderado: cualquier empresa con covenant equivalente y caída de EBITDA similar enfrentaría el mismo vencimiento acelerado. El covenant amplifica N1 y N2 pero no los causa.
-
-N3 — Covenant
-
-~6% 0.92 0.20 S muy alto. Factor exógeno no controlable. La empresa tiene poco poder de mitigación directa.
-
-N4 — Ciclo económico
+| Factor | R* / ICRS | S | α actual | Interpretación |
+| --- | --- | --- | --- | --- |
+| N1 — Pérdida de A | ~48% | 0.30 | 0.05 | Factor dominante. S moderado-bajo: el cliente A tiene características específicas (contrato largo, especificaciones técnicas) que hacen que su pérdida sea peor que perder cualquier cliente equivalente en ingresos. |
+| N2 — Fallo de P | ~32% | 0.20 | 0.05 | S bajo: el proveedor único con esa calificación técnica no tiene sustituto inmediato. Su fallo es idiosincrático. Es el segundo factor de mayor urgencia. |
+| N3 — Covenant | ~14% | 0.55 | 0.10 | S moderado: cualquier empresa con covenant equivalente y caída de EBITDA similar enfrentaría el mismo vencimiento acelerado. El covenant amplifica N1 y N2 pero no los causa. |
+| N4 — Ciclo económico | ~6% | 0.92 | 0.20 | S muy alto. Factor exógeno no controlable. La empresa tiene poco poder de mitigación directa. |
 
 #### La lectura del ICRS produce el mapa de prioridades de riesgo:
 
@@ -6719,30 +4675,13 @@ limitadas por la capacidad productiva que fue diseñada para A. 3.  N3 (el coven
 
 #### El plan de mitigación recomendado ordenado por R* × (1 − S):
 
-Prior. Acción Nodo que resuelve
-
-Impacto en ICRS y en α
-
-1 Certificar proveedor alternativo para P
-
-N2 Eleva α_N2 de 0.05 a ~0.60 (reduce R* efectivo de N2 en más del 50%). Mayor impacto por unidad de inversión dado S bajo de N2.
-
-2 Diversificar ingresos: 3 clientes nuevos al 10% cada uno
-
-N1 Reduce R*_N1 de 0.48 a ~0.35 en 18 meses. Requiere inversión comercial pero también reduce la dependencia de renovación del contrato.
-
-3 Renegociar covenant: ampliar el umbral al 35% de caída EBITDA
-
-N3 Elimina el detonante de vencimiento acelerado. No resuelve N1 ni N2 pero compra tiempo.
-
-4 Construir reserva de liquidez
-
-N3 + N1 Aumenta α_capital de la empresa. Reduce
-
-
-equivalente a 3 meses de EBITDA
-
-Δ_N3 aunque no elimina el riesgo de N1.
+| Prior. | Acción | Nodo que resuelve | Impacto en ICRS y en α |
+| --- | --- | --- | --- |
+| 1 | Certificar proveedor alternativo para P | N2 | Eleva α_N2 de 0.05 a ~0.60 (reduce R* efectivo de N2 en más del 50%). Mayor impacto por unidad de inversión dado S bajo de N2. |
+| 2 | Diversificar ingresos: 3 clientes nuevos al 10% cada uno | N1 | Reduce R*_N1 de 0.48 a ~0.35 en 18 meses. Requiere inversión comercial pero también reduce la dependencia de renovación del contrato. |
+| 3 | Renegociar covenant: ampliar el umbral al 35% de caída EBITDA | N3 | Elimina el detonante de vencimiento acelerado. No resuelve N1 ni N2 pero compra tiempo. |
+| 4 | Construir reserva de liquidez | N3 + N1 | Aumenta α_capital de la empresa. Reduce |
+|  | equivalente a 3 meses de EBITDA |  | Δ_N3 aunque no elimina el riesgo de N1. |
 
 B.4 Proyección del ICRS después de las intervenciones
 
@@ -6760,7 +4699,8 @@ ICRS_total_después ≈ 0.35 + 0.12 + 0.01 + ... ≈ 0.52
 
 La reducción de 0.82 a 0.52 en el ICRS total no es una garantía de continuidad: la empresa sigue siendo vulnerable si N1 y N4 se materializan simultáneamente. Pero la probabilidad de quiebra en los 18 meses siguientes se reduce de manera cuantificable por las intervenciones.
 
-El valor del análisis preventivo:  La empresa del caso B no está en quiebra. Está en riesgo de quiebra evitable si no actúa. El ICRS como instrumento de diagnóstico preventivo —aplicado antes del colapso, no como análisis forense post-quiebra— es donde el sistema produce su mayor valor en el dominio empresarial. Identificar que N2 (el proveedor único) tiene S = 0.20 con R* = 0.32 antes de que P falle es la diferencia entre una empresa que tiene tiempo de certificar alternativas y una empresa que colapsa por una contingencia que era calculable.
+> [!NOTE]
+> El valor del análisis preventivo:  La empresa del caso B no está en quiebra. Está en riesgo de quiebra evitable si no actúa. El ICRS como instrumento de diagnóstico preventivo —aplicado antes del colapso, no como análisis forense post-quiebra— es donde el sistema produce su mayor valor en el dominio empresarial. Identificar que N2 (el proveedor único) tiene S = 0.20 con R* = 0.32 antes de que P falle es la diferencia entre una empresa que tiene tiempo de certificar alternativas y una empresa que colapsa por una contingencia que era calculable.
 
 
 ### §5.  Límites del método en quiebra y riesgo sistémico
@@ -6782,7 +4722,18 @@ En sistemas financieros altamente interconectados, el riesgo es a veces circular
 
 El ICRS produce una medida técnica del riesgo sistémico de cada nodo. La decisión de rescatar o no rescatar una institución con ICRS alto es política, no técnica. El sistema puede decir: "El ICRS de Lehman era 0.12 y su quiebra producirá un colapso sistémico con D_total estimado de X." La decisión de si ese D_total justifica usar fondos públicos para el rescate requiere un juicio sobre la distribución del costo (los contribuyentes versus los accionistas) que el ICRS no puede hacer. El sistema provee los números; la decisión política los usa.
 
+
 #### 5.5 El ICRS como predictor de quiebra y el ROI de las intervenciones
+
+<table>
+<tbody>
+<tr><th scope="row">Horizonte</th><td>ICRS actual (0.82)</td><td>ICRS post- intervenciones (0.52)</td><td>Reducción en P(quiebra)</td></tr>
+<tr><th scope="row">6 meses</th><td>8.7%</td><td>5.4%</td><td>−3.3 pp</td></tr>
+<tr><th scope="row">12 meses</th><td>16.7%</td><td>10.2%</td><td>−6.5 pp</td></tr>
+<tr><th scope="row">18 meses</th><td>24.0%</td><td>14.4%</td><td>−9.6 pp</td></tr>
+<tr><th scope="row">24 meses</th><td>31.0%</td><td>18.3%</td><td>−12.7 pp</td></tr>
+</tbody>
+</table>
 
 El §4.3 del capítulo calculó el ICRS antes y después de las intervenciones en la empresa mediana hipotética y mostró la reducción cuantitativa del riesgo sistémico. Lo que este apartado añade es la dimensión temporal: la probabilidad de quiebra en un horizonte de N meses dado el ICRS actual, y el retorno sobre la inversión esperado de cada intervención de mitigación antes de que el colapso ocurra.
 
@@ -6830,25 +4781,15 @@ Pri .
 
 Intervenció n
 
-Costo est.
-
-ΔP(quiebr a) 18m
-
-D_tota l evitad o (esp.)
-
-1 Certificar proveedor alternativo P
-
-$0.8M −4.8 pp $8.6M 975%
-
-2 Diversificar ingresos (3 clientes nuevos)
-
-$1.5M −3.2 pp $5.8M 283%
-
-3 Renegociar covenant al 35%
-
-$0.3M −1.2 pp $2.2M 627%
-
-4 Reserva de liquidez 3 meses EBITDA
+<table>
+<tbody>
+<tr><th scope="row">Pri .</th><td>Intervenció n</td><td>Costo est.</td><td>ΔP(quiebr a) 18m</td><td>D_tota l evitad o (esp.)</td><td>ROI</td></tr>
+<tr><th scope="row">1</th><td>Certificar proveedor alternativo P</td><td>$0.8M</td><td>−4.8 pp</td><td>$8.6M</td><td>975%</td></tr>
+<tr><th scope="row">2</th><td>Diversificar ingresos (3 clientes nuevos)</td><td>$1.5M</td><td>−3.2 pp</td><td>$5.8M</td><td>283%</td></tr>
+<tr><th scope="row">3</th><td>Renegociar covenant al 35%</td><td>$0.3M</td><td>−1.2 pp</td><td>$2.2M</td><td>627%</td></tr>
+<tr><th scope="row">4</th><td>Reserva de liquidez 3 meses EBITDA</td><td>$5.4M *</td><td>−0.4 pp</td><td>$0.7M</td><td>−87%* *</td></tr>
+</tbody>
+</table>
 
 $5.4M * −0.4 pp $0.7M −87%* *
 
@@ -6857,7 +4798,8 @@ $5.4M * −0.4 pp $0.7M −87%* *
 
 ** ROI negativo porque el impacto en P(quiebra) es menor que el costo del capital inmovilizado. Esto no significa que la reserva sea mala idea — significa que es la intervención de menor prioridad dentro de este conjunto. Tiene valor como red de seguridad, no como reducción primaria del riesgo.
 
-Predictor:  La intervención con mayor ROI en el corto plazo es certificar el proveedor alternativo (ROI 975%), aunque no tiene el R* más alto del grafo. Eso confirma la regla del §3.2: el criterio correcto de priorización es R* × (1−S), no R* solo. El proveedor único tiene S = 0.20 y por eso su mitigación produce el mayor impacto por unidad de inversión.
+> [!NOTE]
+> Predictor:  La intervención con mayor ROI en el corto plazo es certificar el proveedor alternativo (ROI 975%), aunque no tiene el R* más alto del grafo. Eso confirma la regla del §3.2: el criterio correcto de priorización es R* × (1−S), no R* solo. El proveedor único tiene S = 0.20 y por eso su mitigación produce el mayor impacto por unidad de inversión.
 
 #### El análisis contrafáctico: Lehman y la decisión del Tesoro
 
@@ -6875,14 +4817,16 @@ Eso no habría evitado la crisis —el ICRS de 0.71 seguía siendo muy alto por 
 
 combinado del 60%)— pero habría comprado tiempo para que las intervenciones sistémicas (los programas TARP, los recortes de tasas coordinados) pudieran operar antes de que el pánico se volviera irreversible.
 
-El valor de la predicción contrafáctica:  No se trata de saber si la crisis habría ocurrido de todas formas (sí, habría ocurrido). Se trata de saber si el tiempo adicional que el rescate de Lehman habría comprado era suficiente para implementar las intervenciones que finalmente detuvieron el colapso. El análisis del ICRS dinámico sugiere que, con seis semanas adicionales antes del pánico máximo, la Reserva Federal habría tenido margen para actuar antes de que el crédito interbancario se congelara completamente.
+> [!NOTE]
+> El valor de la predicción contrafáctica:  No se trata de saber si la crisis habría ocurrido de todas formas (sí, habría ocurrido). Se trata de saber si el tiempo adicional que el rescate de Lehman habría comprado era suficiente para implementar las intervenciones que finalmente detuvieron el colapso. El análisis del ICRS dinámico sugiere que, con seis semanas adicionales antes del pánico máximo, la Reserva Federal habría tenido margen para actuar antes de que el crédito interbancario se congelara completamente.
 
 #### Código de referencia: predictor de quiebra y ROI de intervenciones
 
 import numpy as np import math  def predictor_quiebra(ICRS_total, lam=0.018,                        horizontes_meses=(6,12,18,24)):     """ P(quiebra, T) = 1 - exp(-lambda * ICRS_total * T)     lam: tasa de materialización por mes (sect. manufacturero ~0.018,          con proveedor único y cliente concentrado ~0.028)     """     return {T: 1 -math.exp(-lam * ICRS_total * T)             for T in horizontes_meses}  def roi_intervencion(D_total, delta_P_quiebra, costo, T_meses=18, r_anual=0.12):     """     ROI de una intervención de mitigación.     D_total:          daño total si ocurre la quiebra delta_P_quiebra:  reducción en P(quiebra) en T_meses     costo: costo de la intervención     """     valor_esperado_daño_evitado = D_total * delta_P_quiebra     # descuento al período T     factor = 1 / (1 + r_anual * T_meses / 12)     vp_daño_evitado = valor_esperado_daño_evitado * factor     roi = (vp_daño_evitado -costo) / costo     return {'VP_daño_evitado': vp_daño_evitado, 'costo': costo,             'ROI': roi,             'conviene': roi > 0}  def contraFactual_rescate(ICRS_sistema, ICRS_nodo_rescatado, corr_nodos=0.45, lam=0.025,                            horizontes=(3,6,12)): """     Efecto de rescatar un nodo sobre el ICRS sistémico     y sobre la probabilidad de colapso.     """     delta_ICRS = -ICRS_nodo_rescatado * (1 - corr_nodos)     ICRS_post  = max(0, ICRS_sistema + delta_ICRS) P_antes = {T: 1 - math.exp(-lam*ICRS_sistema*T) for T in horizontes} P_desp  = {T: 1 - math.exp(-lam*ICRS_post*T)    for T in horizontes} return {'ICRS_antes': ICRS_sistema, 'ICRS_despues': ICRS_post, 'delta_ICRS': delta_ICRS,             'P_colapso_antes': P_antes, 'P_colapso_despues': P_desp}  # ── Empresa mediana ── D_empresa = 180_000_000 P_antes = predictor_quiebra(0.82, lam=0.028) P_desp = predictor_quiebra(0.52, lam=0.028) print("=== Empresa mediana — Probabilidad de quiebra ===") for T in (6,12,18,24):     dif = P_desp[T]
 
 
-\- P_antes[T]     print(f"  {T:2d} meses: ANTES={P_antes[T]:.1%} DESPUÉS={P_desp[T]:.1%}  Δ={dif:+.1%}")  # ── ROI de intervenciones ── print("\n=== ROI de intervenciones ===") intervs = [     ("Certificar proveedor alt.",  D_empresa, 0.048, 800_000), ("Diversificar ingresos",      D_empresa, 0.032, 1_500_000), ("Renegociar covenant",        D_empresa, 0.012, 300_000),     ("Reserva liquidez",           D_empresa, 0.004, 5_400_000), ] for nombre, D, dp, costo in intervs:     r = roi_intervencion(D, dp, costo)     print(f" {nombre:30s}  ROI={r['ROI']:+.0%}  {'✓' if r['conviene'] else '✗'}")  # ── Contrafáctico Lehman ── print("\n=== Contrafáctico: rescate de Lehman ===") cf = contraFactual_rescate(0.78, 0.12, corr_nodos=0.45, lam=0.025) print(f"  ICRS sistema antes:    {cf['ICRS_antes']:.3f}") print(f"  ICRS sistema después:  {cf['ICRS_despues']:.3f}") print(f" ΔP(colapso, 6 meses):  {cf['P_colapso_despues'][6]-cf['P_colapso_antes'][6]:+.1%}")
+> [!NOTE]
+> \- P_antes[T]     print(f"  {T:2d} meses: ANTES={P_antes[T]:.1%} DESPUÉS={P_desp[T]:.1%}  Δ={dif:+.1%}")  # ── ROI de intervenciones ── print("\n=== ROI de intervenciones ===") intervs = [     ("Certificar proveedor alt.",  D_empresa, 0.048, 800_000), ("Diversificar ingresos",      D_empresa, 0.032, 1_500_000), ("Renegociar covenant",        D_empresa, 0.012, 300_000),     ("Reserva liquidez",           D_empresa, 0.004, 5_400_000), ] for nombre, D, dp, costo in intervs:     r = roi_intervencion(D, dp, costo)     print(f" {nombre:30s}  ROI={r['ROI']:+.0%}  {'✓' if r['conviene'] else '✗'}")  # ── Contrafáctico Lehman ── print("\n=== Contrafáctico: rescate de Lehman ===") cf = contraFactual_rescate(0.78, 0.12, corr_nodos=0.45, lam=0.025) print(f"  ICRS sistema antes:    {cf['ICRS_antes']:.3f}") print(f"  ICRS sistema después:  {cf['ICRS_despues']:.3f}") print(f" ΔP(colapso, 6 meses):  {cf['P_colapso_despues'][6]-cf['P_colapso_antes'][6]:+.1%}")
 
 
 §6.  Profundización formal — Esta sección puede saltarse sin perder el argumento del capítulo
@@ -6964,7 +4908,8 @@ La teoría actuarial convencional trata el riesgo moral como un problema de info
 
 El cálculo de la responsabilidad añade una dimensión que la actuaría convencional no captura: cuando el diseño de la póliza incentiva el riesgo y el siniestro ocurre, la aseguradora no es solo la entidad que compensa el daño —es un nodo con posición causal en el evento que compensa. El R* de la aseguradora en el siniestro no es cero cuando su diseño de producto contribuyó causalmente a que el siniestro ocurriera.
 
-Contribución causal al siniestro (R*):  La fracción del siniestro causalmente atribuible a cada nodo del sistema: el asegurado, el diseñador del entorno de riesgo, el regulador, y la aseguradora cuyo diseño de póliza pudo haber incentivado el evento. R*_aseguradora > 0 cuando el diseño de la póliza es condición causal del siniestro, no solo de su compensación.
+> [!NOTE]
+> Contribución causal al siniestro (R*):  La fracción del siniestro causalmente atribuible a cada nodo del sistema: el asegurado, el diseñador del entorno de riesgo, el regulador, y la aseguradora cuyo diseño de póliza pudo haber incentivado el evento. R*_aseguradora > 0 cuando el diseño de la póliza es condición causal del siniestro, no solo de su compensación.
 
 #### 1.2 El Δ_B de la aseguradora predatoria
 
@@ -6990,119 +4935,66 @@ El seguro tiene dos funciones ontológicas posibles que el sistema distingue con
 
 
 
-Analogía: El guardavidas que cobra por rescate Si el guardavidas cobra más por cada rescate que por prevenir el ahogamiento, tiene un incentivo estructural para que haya más ahogamientos. Eso no significa que cause los ahogamientos deliberadamente, sino que el diseño de su sistema de compensación tiene posición causal en la probabilidad del evento que cubre. Una aseguradora que diseña una póliza con sobrecobertura tiene la misma posición: su diseño no causa el incendio, pero crea el incentivo que hace el incendio más probable.
+> [!TIP]
+> Analogía: El guardavidas que cobra por rescate Si el guardavidas cobra más por cada rescate que por prevenir el ahogamiento, tiene un incentivo estructural para que haya más ahogamientos. Eso no significa que cause los ahogamientos deliberadamente, sino que el diseño de su sistema de compensación tiene posición causal en la probabilidad del evento que cubre. Una aseguradora que diseña una póliza con sobrecobertura tiene la misma posición: su diseño no causa el incendio, pero crea el incentivo que hace el incendio más probable.
 
 
 ### §2.  Página puente — Traducción al lenguaje del seguro y la actuaría
 
 Esta página resume las herramientas del sistema en el contexto de los seguros y la actuaría. El lector con formación actuarial, en gestión de riesgos o en regulación de seguros puede comenzar aquí.
 
-Herramienta En seguros y actuaría se llama
-
-Qué significa en la práctica aseguradora
-
-Grafo causal G
-
-Red causal del siniestro
-
-El mapa de todos los factores que contribuyeron causalmente al siniestro: el comportamiento del asegurado, el diseño del entorno de riesgo, las decisiones del regulador, y el diseño de la póliza de la aseguradora.
-
-R* (vector) Contribución causal al siniestro
-
-La fracción del siniestro causalmente atribuible a cada nodo. R*_asegurado mide cuánto dependió el siniestro del comportamiento o las condiciones del asegurado. R*_diseño_póliza mide cuánto dependió del incentivo creado por la aseguradora.
-
-Nodo de diseño
-
-Diseñador del entorno de riesgo
+| Herramienta | En seguros y actuaría se llama | Qué significa en la práctica aseguradora |
+| --- | --- | --- |
+| Grafo causal G | Red causal del siniestro | El mapa de todos los factores que contribuyeron causalmente al siniestro: el comportamiento del asegurado, el diseño del entorno de riesgo, las decisiones del regulador, y el diseño de la póliza de la aseguradora. |
+| R* (vector) | Contribución causal al siniestro | La fracción del siniestro causalmente atribuible a cada nodo. R*_asegurado mide cuánto dependió el siniestro del comportamiento o las condiciones del asegurado. R*_diseño_póliza mide cuánto dependió del incentivo creado por la aseguradora. |
+| Nodo de diseño | Diseñador del entorno de riesgo | Quien diseñó las condiciones que hicieron posible el siniestro a esa escala: el propietario que cerró las puertas de emergencia, la |
 
 Quien diseñó las condiciones que hicieron posible el siniestro a esa escala: el propietario que cerró las puertas de emergencia, la
 
+<table>
+<tbody>
+<tr><th scope="row">S (índice)</th><td>Fungibilidad del factor de riesgo</td><td>S alto del asegurado: cualquier persona en esas condiciones estructurales habría tenido el mismo siniestro. El riesgo es del entorno, no de la persona. Implica que la prima actuarialmente correcta depende del entorno, no del comportamiento individual.</td></tr>
+</tbody>
+</table>
 
 constructora que usó materiales inflamables, el regulador que estableció estándares de seguridad insuficientes.
 
-S (índice) Fungibilidad del factor de riesgo
-
-S alto del asegurado: cualquier persona en esas condiciones estructurales habría tenido el mismo siniestro. El riesgo es del entorno, no de la persona. Implica que la prima actuarialmente correcta depende del entorno, no del comportamiento individual.
-
-α (coeficiente) Mitigación del riesgo implementada
-
-Las medidas preventivas que el nodo implementó: sistemas de supresión de incendios, capacitación, protocolos de seguridad, mantenimiento. α = 1: todas las medidas posibles implementadas. α = 0: ninguna medida preventiva.
-
-Δ = R* − α Déficit de mitigación
-
-La brecha entre la contribución causal al siniestro y las medidas de mitigación implementadas. Δ alto positivo del propietario: causó el siniestro y no implementó medidas. Base para la demanda de responsabilidad civil y para la exclusión de la cobertura.
-
-B_total Beneficio del asegurado del siniestro
-
-Lo que el asegurado obtuvo del siniestro: la indemnización de la aseguradora, el diferencial de sobrecobertura, la eliminación de un activo que
-
-
-ya no quería. Base para detectar el fraude al seguro.
-
-Δ_B Déficit de asunción del beneficio del siniestro
-
-La brecha entre el beneficio que el nodo obtuvo del siniestro (o del diseño que lo incentivó) y lo que asumió de su responsabilidad causal. Δ_B positivo de la aseguradora predatoria: diseñó el incentivo, cobró las primas, pagó la póliza, pero no asumió su posición causal en el evento.
-
-D_total Daño total del siniestro
-
-T_invertido (la pérdida directa en el siniestro: vidas, propiedades, activos), T_impedido (el período de interrupción del negocio o de recuperación de las víctimas), ΔT_trayectoria (la pérdida permanente de potencial: vidas perdidas, discapacidades, pérdida de potencial económico de las víctimas).
-
-La prima que refleja la contribución causal idiosincrática del asegurado al riesgo, no el riesgo total del entorno. La prima actuarialmente justa excluye la fracción del riesgo que es causalmente atribuible a factores que el asegurado no controla (el entorno, la regulación, el diseño del espacio de trabajo).
-
-Prima actuarial justa
-
-Prima proporcional a R*_asegurado × (1−S)
+<table>
+<tbody>
+<tr><th scope="row">α (coeficiente)</th><td>Mitigación del riesgo implementada</td><td>Las medidas preventivas que el nodo implementó: sistemas de supresión de incendios, capacitación, protocolos de seguridad, mantenimiento. α = 1: todas las medidas posibles implementadas. α = 0: ninguna medida preventiva.</td></tr>
+<tr><th scope="row">Δ = R* − α</th><td>Déficit de mitigación</td><td>La brecha entre la contribución causal al siniestro y las medidas de mitigación implementadas. Δ alto positivo del propietario: causó el siniestro y no implementó medidas. Base para la demanda de responsabilidad civil y para la exclusión de la cobertura.</td></tr>
+<tr><th scope="row">B_total</th><td>Beneficio del asegurado del siniestro</td><td>Lo que el asegurado obtuvo del siniestro: la indemnización de la aseguradora, el diferencial de sobrecobertura, la eliminación de un activo que</td></tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr><th scope="row">Δ_B</th><td>Déficit de asunción del beneficio del siniestro</td><td>La brecha entre el beneficio que el nodo obtuvo del siniestro (o del diseño que lo incentivó) y lo que asumió de su responsabilidad causal. Δ_B positivo de la aseguradora predatoria: diseñó el incentivo, cobró las primas, pagó la póliza, pero no asumió su posición causal en el evento.</td></tr>
+<tr><th scope="row">D_total</th><td>Daño total del siniestro</td><td>T_invertido (la pérdida directa en el siniestro: vidas, propiedades, activos), T_impedido (el período de interrupción del negocio o de recuperación de las víctimas), ΔT_trayectoria (la pérdida permanente de potencial: vidas perdidas, discapacidades, pérdida de potencial económico de las víctimas).</td></tr>
+<tr><th scope="row">Prima actuarial justa</th><td>Prima proporcional a R*_asegurado × (1−S)</td><td>La prima que refleja la contribución causal idiosincrática del asegurado al riesgo, no el riesgo total del entorno. La prima actuarialmente justa excluye la fracción del riesgo que es causalmente atribuible a factores que el asegurado no controla (el entorno, la regulación, el diseño del espacio de trabajo).</td></tr>
+</tbody>
+</table>
 
 Para el lector que viene del núcleo universal:  Este dominio tiene dos características singulares. Primera: los hijos no aplican a ningún nodo (el análisis es de sistemas e instrumentos, no de disposiciones de
 
 
-voluntad). Segunda: aparece el concepto Δ_B (déficit de asunción del beneficio), que en este contexto describe la aseguradora cuyo diseño contribuyó causalmente al siniestro, pero solo asumió la obligación contractual de pago, no la responsabilidad causal de diseño.
+> [!NOTE]
+> voluntad). Segunda: aparece el concepto Δ_B (déficit de asunción del beneficio), que en este contexto describe la aseguradora cuyo diseño contribuyó causalmente al siniestro, pero solo asumió la obligación contractual de pago, no la responsabilidad causal de diseño.
 
 
 ### §3.  Las herramientas en el contexto asegurador
 
+
 #### 3.1 El grafo causal del siniestro: más allá del reporte de siniestro
+
 
 El reporte de siniestro convencional documenta el evento desde la perspectiva del asegurado: qué ocurrió, cuándo, cuánto perdió. El grafo causal del siniestro va más lejos: mapea los factores que contribuyeron causalmente a que el siniestro ocurriera, incluyendo factores que pueden estar fuera del control del asegurado pero que la aseguradora puede haber contribuido a crear mediante su diseño de póliza.
 
-Tipo de nodo Función causal Fuente de evidencia para w
-
-Nivel del grafo
-
-Del asegurad o
-
-Comportamien to preventivo, mantenimiento del activo, gestión del riesgo operativo.
-
-La conducta del asegurado como factor causal directo en el siniestro. S mide si ese comportamiento es idiosincrático o estructural.
-
-Inspecciones, mantenimient o preventivo documentado, certificaciones de seguridad, historial de siniestros.
-
-Del entorno
-
-Condiciones físicas del espacio, materiales, infraestructura, condiciones climáticas.
-
-Factores ambientales que determinan la probabilidad y la gravedad del siniestro independienteme nte de la
-
-Informes de inspección técnica, estudios de riesgo ambiental, normas de construcción aplicables.
-
-
-conducta del asegurado.
-
-Del diseño regulatori o
-
-Marco legal de seguridad, estándares industriales, protocolos obligatorios.
-
-Las condiciones que el regulador estableció (o no estableció) como mínimos de seguridad. Su ausencia o insuficiencia tiene posición causal en el siniestro.
-
-Normas oficiales vigentes, inspecciones regulatorias, historial de incumplimient os documentados .
-
-Del diseño de la póliza
-
-Estructura de incentivos de la póliza: franquicia, sobrecobertura , cláusulas de exclusión.
-
-Si el diseño de la póliza modifica los incentivos del asegurado de manera que aumenta la probabilidad del siniestro, la aseguradora tiene R* positivo en ese siniestro.
-
-Términos de la póliza, análisis de sobreseguro, comparación con el valor de mercado del activo asegurado.
+| Nivel del grafo | Tipo de nodo | Función causal | Fuente de evidencia para w |
+| --- | --- | --- | --- |
+| Del asegurad o | Comportamien to preventivo, mantenimiento del activo, gestión del riesgo operativo. | La conducta del asegurado como factor causal directo en el siniestro. S mide si ese comportamiento es idiosincrático o estructural. | Inspecciones, mantenimient o preventivo documentado, certificaciones de seguridad, historial de siniestros. |
+| Del entorno | Condiciones físicas del espacio, materiales, infraestructura, condiciones climáticas. | Factores ambientales que determinan la probabilidad y la gravedad del siniestro independienteme nte de la | Informes de inspección técnica, estudios de riesgo ambiental, normas de construcción aplicables. |
+| Del diseño regulatori o | Marco legal de seguridad, estándares industriales, protocolos obligatorios. | Las condiciones que el regulador estableció (o no estableció) como mínimos de seguridad. Su ausencia o insuficiencia tiene posición causal en el siniestro. | Normas oficiales vigentes, inspecciones regulatorias, historial de incumplimient os documentados . |
+| Del diseño de la póliza | Estructura de incentivos de la póliza: franquicia, sobrecobertura , cláusulas de exclusión. | Si el diseño de la póliza modifica los incentivos del asegurado de manera que aumenta la probabilidad del siniestro, la aseguradora tiene R* positivo en ese siniestro. | Términos de la póliza, análisis de sobreseguro, comparación con el valor de mercado del activo asegurado. |
 
 #### 3.2 R* en actuaría: de la probabilidad a la causalidad
 
@@ -7110,33 +5002,13 @@ La actuaría convencional calcula probabilidades: dada una clase de riesgo y una
 
 El cálculo de la responsabilidad añade una capa diferente: dado que el siniestro ocurrió, ¿cuánto dependía causalmente de cada factor? La diferencia entre ambas preguntas es la diferencia entre predicción y atribución. La predicción opera antes del siniestro. La atribución opera después. Ambas son necesarias, y se complementan: El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
-Dimensión Actuaría convencional (predictiva)
-
-Cálculo causal (R*) (atributiva)
-
-Pregunta ¿Qué probabilidad tiene este riesgo de producir un siniestro?
-
-¿Cuánto dependía causalmente el siniestro de cada factor?
-
-Momento Antes del siniestro (fijación de prima)
-
-Después del siniestro (distribución de responsabilidad y ajuste de indemnización)
-
-Unidad de resultado
-
-Probabilidad P(siniestro | clase de riesgo)
-
-Vector R* de contribuciones causales por nodo
-
-¿Incluye diseño de la póliza?
-
-Solo como factor de incentivo (moral hazard)
-
-Como nodo causal con R* propio cuando modifica los incentivos de manera que contribuye al siniestro
-
-Uso principal Tarificación, reservas técnicas, reaseguro
-
-Ajuste de indemnizaciones, detección de fraude, diseño de pólizas justas, responsabilidad de la aseguradora
+| Dimensión | Actuaría convencional (predictiva) | Cálculo causal (R*) (atributiva) |
+| --- | --- | --- |
+| Pregunta | ¿Qué probabilidad tiene este riesgo de producir un siniestro? | ¿Cuánto dependía causalmente el siniestro de cada factor? |
+| Momento | Antes del siniestro (fijación de prima) | Después del siniestro (distribución de responsabilidad y ajuste de indemnización) |
+| Unidad de resultado | Probabilidad P(siniestro \| clase de riesgo) | Vector R* de contribuciones causales por nodo |
+| ¿Incluye diseño de la póliza? | Solo como factor de incentivo (moral hazard) | Como nodo causal con R* propio cuando modifica los incentivos de manera que contribuye al siniestro |
+| Uso principal | Tarificación, reservas técnicas, reaseguro | Ajuste de indemnizaciones, detección de fraude, diseño de pólizas justas, responsabilidad de la aseguradora |
 
 La relación entre la probabilidad actuarial P(siniestro) y el vector R* es que R* descompone la causa del siniestro que P(siniestro) predijo. Si la prima reflejaba correctamente P (siniestro | clase de riesgo), y el siniestro ocurrió principalmente por factores exógenos al asegurado (R*_asegurado bajo, R*_entorno o R*_regulatorio alto), la indemnización íntegra es justa. Si el siniestro ocurrió principalmente por conducta del asegurado (R*_asegurado alto), hay base para reducir la indemnización o incluso excluir la cobertura si la conducta viola las condiciones de la póliza.
 
@@ -7155,10 +5027,12 @@ La prima de la persona i debería ser proporcional a su contribución causal idi
 
 Este principio tiene una consecuencia importante para la equidad en el diseño de pólizas: cuando el riesgo es principalmente estructural (como en los vecindarios de alto riesgo sísmico o en los sectores industriales con condiciones de trabajo peligrosas por deficiencias regulatorias), cobrar una prima alta al asegurado equivale a imputarle una responsabilidad causal que no tiene. La prima debería reflejar el esfuerzo del asegurado por mitigar la fracción del riesgo que sí controla, no el riesgo total del entorno que no controla.
 
-Principio actuarial:  El riesgo actuarialmente justo es R*_asegurado × (1−S) × D_esperado. La prima que excede ese umbral es una transferencia del costo del riesgo estructural (que causaron el regulador, el diseñador del entorno, o la historia de exclusión de ese grupo) al asegurado individual que no lo causó. Cuando esa transferencia es sistemática, hay
+> [!IMPORTANT]
+> Principio actuarial:  El riesgo actuarialmente justo es R*_asegurado × (1−S) × D_esperado. La prima que excede ese umbral es una transferencia del costo del riesgo estructural (que causaron el regulador, el diseñador del entorno, o la historia de exclusión de ese grupo) al asegurado individual que no lo causó. Cuando esa transferencia es sistemática, hay
 
 
-fraude annona en el sistema de seguros: el asegurado paga por el riesgo que no creó.
+> [!NOTE]
+> fraude annona en el sistema de seguros: el asegurado paga por el riesgo que no creó.
 
 #### 3.4 El índice de sustituibilidad S en el seguro
 
@@ -7173,25 +5047,12 @@ En el dominio asegurador, S tiene una interpretación directamente operativa par
 
 En el dominio asegurador, α tiene interpretaciones diferentes según el nodo: El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
-Nodo α en seguros Conducta que sube α
-
-Asegurado Grado de implementación de medidas preventivas proporcionales a su R*.
-
-Instalar sistemas de supresión de incendios. Mantener el activo en condiciones óptimas. Seguir los protocolos de seguridad establecidos. Reportar honestamente el siniestro.
-
-Diseñador del entorno
-
-Grado de implementación de condiciones de seguridad en el espacio.
-
-Mantener las salidas de emergencia despejadas y accesibles. Realizar el mantenimiento de los sistemas de seguridad. Capacitar al personal. Reportar deficiencias al regulador.
-
-Regulador Grado de implementación y aplicación efectiva de estándares de seguridad.
-
-Establecer estándares mínimos de seguridad proporcionales al riesgo del sector. Realizar inspecciones efectivas. Sancionar incumplimientos.
-
-Aseguradora Grado en que el diseño de la póliza minimiza el incentivo al riesgo moral y es transparente sobre la contribución causal al siniestro.
-
-Diseñar franquicias y límites de cobertura que mantengan el incentivo a la prevención. No sobreasegurar. Auditar las condiciones de seguridad antes de emitir la póliza. Reconocer su R* cuando el diseño contribuyó al siniestro.
+| Nodo | α en seguros | Conducta que sube α |
+| --- | --- | --- |
+| Asegurado | Grado de implementación de medidas preventivas proporcionales a su R*. | Instalar sistemas de supresión de incendios. Mantener el activo en condiciones óptimas. Seguir los protocolos de seguridad establecidos. Reportar honestamente el siniestro. |
+| Diseñador del entorno | Grado de implementación de condiciones de seguridad en el espacio. | Mantener las salidas de emergencia despejadas y accesibles. Realizar el mantenimiento de los sistemas de seguridad. Capacitar al personal. Reportar deficiencias al regulador. |
+| Regulador | Grado de implementación y aplicación efectiva de estándares de seguridad. | Establecer estándares mínimos de seguridad proporcionales al riesgo del sector. Realizar inspecciones efectivas. Sancionar incumplimientos. |
+| Aseguradora | Grado en que el diseño de la póliza minimiza el incentivo al riesgo moral y es transparente sobre la contribución causal al siniestro. | Diseñar franquicias y límites de cobertura que mantengan el incentivo a la prevención. No sobreasegurar. Auditar las condiciones de seguridad antes de emitir la póliza. Reconocer su R* cuando el diseño contribuyó al siniestro. |
 
 #### 3.6 El Δ_B: el beneficio del siniestro no asumido
 
@@ -7210,24 +5071,13 @@ El Δ_B es específico de este dominio porque en el seguro el beneficio del sini
 
 #### 3.7 El D_total del siniestro: cómo distribuir la indemnización correctamente
 
-D_siniestro = T_invertido + T_impedido +
-
-ΔT_trayectoria
-
-Componente En seguros Descripción
-
-
-T_invertido La pérdida directa del siniestro
-
-El valor del activo destruido, las lesiones corporales directas, la pérdida de ingresos inmediata. Es el componente que la póliza típicamente cubre de manera más completa.
-
-T_impedido La interrupción del negocio y la recuperación
-
-Los ingresos perdidos durante el período de reconstrucción, los costos de instalaciones provisionales, los contratos perdidos durante la interrupción. Cubierto en pólizas de interrupción del negocio.
-
-ΔT_trayectoria La pérdida permanente de potencial
-
-Para siniestros con víctimas: la pérdida del potencial de ingresos futuros, la discapacidad permanente, la pérdida de oportunidades de desarrollo. Para siniestros de negocio: la pérdida de contratos, reputación y posición de mercado que no se recuperan aunque el activo sea reconstruido.
+<table>
+<tbody>
+<tr><th scope="row">T_invertido</th><td>La pérdida directa del siniestro</td><td>El valor del activo destruido, las lesiones corporales directas, la pérdida de ingresos inmediata. Es el componente que la póliza típicamente cubre de manera más completa.</td></tr>
+<tr><th scope="row">T_impedido</th><td>La interrupción del negocio y la recuperación</td><td>Los ingresos perdidos durante el período de reconstrucción, los costos de instalaciones provisionales, los contratos perdidos durante la interrupción. Cubierto en pólizas de interrupción del negocio.</td></tr>
+<tr><th scope="row">ΔT_trayectoria</th><td>La pérdida permanente de potencial</td><td>Para siniestros con víctimas: la pérdida del potencial de ingresos futuros, la discapacidad permanente, la pérdida de oportunidades de desarrollo. Para siniestros de negocio: la pérdida de contratos, reputación y posición de mercado que no se recuperan aunque el activo sea reconstruido.</td></tr>
+</tbody>
+</table>
 
 #### La indemnización justa distribuida por R* es:
 
@@ -7240,7 +5090,8 @@ Cuando la aseguradora paga solo el T_invertido y omite T_impedido y ΔT_trayecto
 
 Caso A — Triangle Shirtwaist Factory (Nueva York, 25 de marzo de 1911)
 
-R* de los propietarios, del inspector, de la ley ausente: el primer análisis causal moderno de un siniestro laboral
+> [!NOTE]
+> R* de los propietarios, del inspector, de la ley ausente: el primer análisis causal moderno de un siniestro laboral
 
 A.1 El contexto histórico
 
@@ -7257,70 +5108,30 @@ Harris y Blanck fueron llevados a juicio por homicidio culposo. El jurado los ab
 
 #### A.2 El grafo causal del siniestro
 
-Nodo Actor / Factor Tipo Función causal
-
-N1 Harris y Blanck (propietarios)
-
-Diseño del entorno de riesgo
-
-Diseñaron y mantuvieron las condiciones que hicieron posible la escala del desastre: puertas cerradas, ausencia de sistemas de supresión, negativa a negociar con el sindicato. R* más alto, S bajo (las decisiones específicas de mantener puertas cerradas en ese edificio eran idiosincráticas).
-
-N2 Regulador / Inspector de edificios
-
-Omisión normativa y de inspección
-
-El marco legal vigente en Nueva York en 1911 no exigía salidas de emergencia accesibles en edificios de esa altura construidos antes de cierta fecha. El
-
+| Nodo | Actor / Factor | Tipo | Función causal |
+| --- | --- | --- | --- |
+| N1 | Harris y Blanck (propietarios) | Diseño del entorno de riesgo | Diseñaron y mantuvieron las condiciones que hicieron posible la escala del desastre: puertas cerradas, ausencia de sistemas de supresión, negativa a negociar con el sindicato. R* más alto, S bajo (las decisiones específicas de mantener puertas cerradas en ese edificio eran idiosincráticas). |
+| N2 | Regulador / Inspector de edificios | Omisión normativa y de inspección | El marco legal vigente en Nueva York en 1911 no exigía salidas de emergencia accesibles en edificios de esa altura construidos antes de cierta fecha. El |
 
 inspector no reportó deficiencias porque el código las hacía formalmente conformes.
 
-N3 La aseguradora (póliza de incendio)
-
-Incentivo estructural
-
-La suma asegurada era superior al valor real del edificio e inventario. Ese sobreseguro reduce el costo marginal del siniestro para el asegurado y, en un análisis de incentivos, puede contribuir a la falta de inversión en prevención.
-
-N4 Industria de confección (condiciones normalizadas)
-
-Entorno estructural
-
-Las prácticas de puertas cerradas y alta densidad operativa eran comunes en el sector. S muy alto: cualquier fábrica de ese sector operaba bajo las mismas presiones y muchas usaban las mismas prácticas.
-
-N5 Materiales altamente inflamables (retazos de tela)
-
-Factor ambiental
-
-La acumulación de retazos bajo las mesas era la fuente de combustible. S alto pero w moderado: el fuego se habría extinguido más rápidamente en condiciones de seguridad.
-
-Nf Las ciento cuarenta y seis víctimas
-
-Nodo final No entran en el cálculo de R*.
+| Nodo | Actor / Factor | Tipo | Función causal |
+| --- | --- | --- | --- |
+| N3 | La aseguradora (póliza de incendio) | Incentivo estructural | La suma asegurada era superior al valor real del edificio e inventario. Ese sobreseguro reduce el costo marginal del siniestro para el asegurado y, en un análisis de incentivos, puede contribuir a la falta de inversión en prevención. |
+| N4 | Industria de confección (condiciones normalizadas) | Entorno estructural | Las prácticas de puertas cerradas y alta densidad operativa eran comunes en el sector. S muy alto: cualquier fábrica de ese sector operaba bajo las mismas presiones y muchas usaban las mismas prácticas. |
+| N5 | Materiales altamente inflamables (retazos de tela) | Factor ambiental | La acumulación de retazos bajo las mesas era la fuente de combustible. S alto pero w moderado: el fuego se habría extinguido más rápidamente en condiciones de seguridad. |
+| Nf | Las ciento cuarenta y seis víctimas | Nodo final | No entran en el cálculo de R*. |
 
 
 #### A.3 R*, S y Δ: la distribución causal que el jurado no calculó
 
-Nodo R* S α Interpretación y Δ
-
-~45% 0.22 0.00 Δ = +0.45. Nodo de mayor R* con S bajo: las decisiones específicas de Harris y Blanck (cerrar las puertas con llave, no invertir en sistemas de supresión, resistir la sindicalización) eran idiosincráticas. El jurado absolvió a este nodo.
-
-N1 — Propietarios
-
-~30% 0.65 0.05 Δ = +0.25. Segundo nodo por R*. S moderado: cualquier regulador bajo el mismo código laxo habría actuado igual. Pero el código era reformable y no fue reformado pese a las advertencias del sindicato.
-
-N2 — Regulador
-
-~12% 0.60 0.02 Δ = +0.10. R* moderado. La aseguradora no causó el incendio, pero su diseño de póliza (sobrecobertura) redujo el incentivo de los propietarios a invertir en prevención. Pagó la póliza íntegra sin reconocer su posición.
-
-N3 — Aseguradora
-
-~9% 0.88 0.10 S muy alto. El riesgo era estructural del sector. Cualquier empresa habría operado bajo presiones similares.
-
-N4 — Condiciones del sector
-
-
-~4% 0.85 0.15 S alto. Factor ambiental amplificador.
-
-N5 — Materiales inflamables
+| Nodo | R* | S | α | Interpretación y Δ |
+| --- | --- | --- | --- | --- |
+| N1 — Propietarios | ~45% | 0.22 | 0.00 | Δ = +0.45. Nodo de mayor R* con S bajo: las decisiones específicas de Harris y Blanck (cerrar las puertas con llave, no invertir en sistemas de supresión, resistir la sindicalización) eran idiosincráticas. El jurado absolvió a este nodo. |
+| N2 — Regulador | ~30% | 0.65 | 0.05 | Δ = +0.25. Segundo nodo por R*. S moderado: cualquier regulador bajo el mismo código laxo habría actuado igual. Pero el código era reformable y no fue reformado pese a las advertencias del sindicato. |
+| N3 — Aseguradora | ~12% | 0.60 | 0.02 | Δ = +0.10. R* moderado. La aseguradora no causó el incendio, pero su diseño de póliza (sobrecobertura) redujo el incentivo de los propietarios a invertir en prevención. Pagó la póliza íntegra sin reconocer su posición. |
+| N4 — Condiciones del sector | ~9% | 0.88 | 0.10 | S muy alto. El riesgo era estructural del sector. Cualquier empresa habría operado bajo presiones similares. |
+| N5 — Materiales inflamables | ~4% | 0.85 | 0.15 | S alto. Factor ambiental amplificador. |
 
 El análisis produce el resultado más importante del caso: el jurado que absolvió a Harris y Blanck no pudo probar el dolo (que sabían que las puertas estaban cerradas en ese momento). Pero el análisis causal no necesita el dolo: el R* de los propietarios es ~45% con S = 0.22 independientemente de si sabían o no. Sus decisiones de diseño del entorno de riesgo eran condición necesaria del colapso a esa escala.
 
@@ -7396,7 +5207,8 @@ AD_N3 (aseguradora) = 0.12 × $705M = $85M USD
 
 Los propietarios pagaron efectivamente menos de $20,000 USD en indemnizaciones netas (después de la quiebra). Su α_posterior al siniestro fue prácticamente cero. Δ_N1 = +0.45 en toda su magnitud.
 
-La lección del caso Triangle para el diseño regulatorio: El siniestro de la Triangle Shirtwaist Factory produjo la reforma más importante del derecho laboral en la historia de Nueva York. La comisión investigadora que siguió al incendio estableció 56 nuevas leyes en cuatro años. Ese proceso —el reconocimiento colectivo del Δ del nodo regulatorio y la asunción de α_diferido mediante reforma institucional— es exactamente lo que el sistema predice como respuesta correcta cuando el grafo causal identifica al regulador como nodo de alta responsabilidad causal no asumida.
+> [!NOTE]
+> La lección del caso Triangle para el diseño regulatorio: El siniestro de la Triangle Shirtwaist Factory produjo la reforma más importante del derecho laboral en la historia de Nueva York. La comisión investigadora que siguió al incendio estableció 56 nuevas leyes en cuatro años. Ese proceso —el reconocimiento colectivo del Δ del nodo regulatorio y la asunción de α_diferido mediante reforma institucional— es exactamente lo que el sistema predice como respuesta correcta cuando el grafo causal identifica al regulador como nodo de alta responsabilidad causal no asumida.
 
 
 
@@ -7421,50 +5233,21 @@ El problema no es solo el fraude individual (que los asegurados ocultaron condic
 
 #### B.2 El grafo causal de los siniestros de la cartera
 
-Nodo Actor / Factor
-
-Tipo Función causal en la siniestralidad
-
-N1 Diseño del producto por la aseguradora
-
-Diseño central del incentivo
-
-La combinación de alta suma asegurada, empresa como beneficiaria y suscripción sin revisión médica exhaustiva crea el incentivo estructural. R* alto porque sin ese diseño específico el comportamiento fraudulento no habría alcanzado esa escala.
-
-N2 Empresas contratantes (aseguradas)
-
-Ejecución del incentivo
-
-Aprovecharon el diseño del producto para obtener coberturas infladas o para contratar pólizas sobre ejecutivos con condiciones de salud no reportadas. R* real pero S alto: el diseño del producto invitaba ese comportamiento.
-
-N3 Regulador de seguros
-
-Omisión de supervisión
-
-No exigió due diligence de valoración ni revisión médica en el rango de sumas aseguradas del producto. La omisión regulatoria creó el espacio para el diseño predatorio.
-
-
-Amplificación Distribuyeron el producto con comisiones altas sin realizar su propia due diligence. S alto: cualquier corredor con los mismos incentivos habría actuado igual.
-
-N4 Corredores / brokers que distribuyeron el producto
+| Nodo | Actor / Factor | Tipo | Función causal en la siniestralidad |
+| --- | --- | --- | --- |
+| N1 | Diseño del producto por la aseguradora | Diseño central del incentivo | La combinación de alta suma asegurada, empresa como beneficiaria y suscripción sin revisión médica exhaustiva crea el incentivo estructural. R* alto porque sin ese diseño específico el comportamiento fraudulento no habría alcanzado esa escala. |
+| N2 | Empresas contratantes (aseguradas) | Ejecución del incentivo | Aprovecharon el diseño del producto para obtener coberturas infladas o para contratar pólizas sobre ejecutivos con condiciones de salud no reportadas. R* real pero S alto: el diseño del producto invitaba ese comportamiento. |
+| N3 | Regulador de seguros | Omisión de supervisión | No exigió due diligence de valoración ni revisión médica en el rango de sumas aseguradas del producto. La omisión regulatoria creó el espacio para el diseño predatorio. |
+| N4 | Corredores / brokers que distribuyeron el producto | Amplificación | Distribuyeron el producto con comisiones altas sin realizar su propia due diligence. S alto: cualquier corredor con los mismos incentivos habría actuado igual. |
 
 #### B.3 R* y el Δ_B: la aseguradora que ganó con el diseño
 
-Nodo R* S α Δ y Δ_B
-
-~42% 0.30 0.05 Δ = +0.37. Nodo de diseño dominante con S moderado-bajo. El diseño específico de ese producto tenía características idiosincráticas que otros productos de seguro de vida no tendrían.
-
-N1 — Diseño aseguradora
-
-~30% 0.55 0.10 Δ = +0.20. Las empresas explotaron el diseño. S moderado: otras empresas habrían actuado igual.
-
-N2 — Empresas aseguradas
-
-~18% 0.70 0.08 Δ = +0.10. Omisión regulatoria con S alto.
-
-N3 — Regulador
-
-~10% 0.85 0.12 S muy alto. Amplificadores genéricos.
+| Nodo | R* | S | α | Δ y Δ_B |
+| --- | --- | --- | --- | --- |
+| N1 — Diseño aseguradora | ~42% | 0.30 | 0.05 | Δ = +0.37. Nodo de diseño dominante con S moderado-bajo. El diseño específico de ese producto tenía características idiosincráticas que otros productos de seguro de vida no tendrían. |
+| N2 — Empresas aseguradas | ~30% | 0.55 | 0.10 | Δ = +0.20. Las empresas explotaron el diseño. S moderado: otras empresas habrían actuado igual. |
+| N3 — Regulador | ~18% | 0.70 | 0.08 | Δ = +0.10. Omisión regulatoria con S alto. |
+| N4 — Brokers | ~10% | 0.85 | 0.12 | S muy alto. Amplificadores genéricos. |
 
 N4 — Brokers
 
@@ -7572,7 +5355,8 @@ t_detección ≈ log (1.5/1.75) / log (1.05) ≈ −0.154 /
 
 Este resultado —t_detección negativo— indica que la cartera hipotética del §4 ya ha cruzado el umbral de detección en el momento del análisis. Eso convierte el caso en uno que debe reportarse ahora, no uno que puede esperar. El predictor tiene valor exactamente para esos casos: cuando la acumulación de siniestros anómalos ya supera el umbral, el modelo señala que el tiempo de espera ya venció.
 
-Predictor:  Si t_detección ≤ 0, la cartera ya está en zona de detección regulatoria inevitable. Cada siniestro adicional aumenta P(investigación) de manera no lineal porque la siniestralidad acumulada ya está por encima del umbral. La intervención correcta en ese punto es el reporte proactivo, no esperar al regulador.
+> [!NOTE]
+> Predictor:  Si t_detección ≤ 0, la cartera ya está en zona de detección regulatoria inevitable. Cada siniestro adicional aumenta P(investigación) de manera no lineal porque la siniestralidad acumulada ya está por encima del umbral. La intervención correcta en ese punto es el reporte proactivo, no esperar al regulador.
 
 #### El valor esperado del daño acumulado antes de la detección
 
@@ -7610,20 +5394,12 @@ t_detección)))
 
 donde k es la sensibilidad regulatoria al umbral (k alto = regulador reactivo, k bajo = regulador lento). Con k = 2 y t_detección = 2.5 años:
 
-Año P(detección acumulada)
-
-Estrategia óptima
-
-Daño adicional acumulado
-
-Año 1 12% $450,000 Rediseño del producto elimina Δ_B
-
-Año 2 38% $900,000 Reporte proactivo + rediseño
-
-Año 3 73% $1,350,000 Reporte urgente (umbral superado)
-
-
-Año 4 92% $1,800,000 Investigación regulatoria activa
+| Año | P(detección acumulada) | Daño adicional acumulado | Estrategia óptima |
+| --- | --- | --- | --- |
+| Año 1 | 12% | $450,000 | Rediseño del producto elimina Δ_B |
+| Año 2 | 38% | $900,000 | Reporte proactivo + rediseño |
+| Año 3 | 73% | $1,350,000 | Reporte urgente (umbral superado) |
+| Año 4 | 92% | $1,800,000 | Investigación regulatoria activa |
 
 La columna de estrategia óptima es la aplicación directa del modelo: en el año 1, el rediseño del producto que elimina la sobrecobertura (y con ella el Δ_B) tiene el mayor ROI porque la probabilidad de detección es aún baja y el daño acumulado es mínimo. En el año 3, el umbral ya se superó y la única estrategia que reduce el daño es el reporte proactivo combinado con el rediseño.
 
@@ -7632,7 +5408,8 @@ La columna de estrategia óptima es la aplicación directa del modelo: en el añ
 import numpy as np import math  def predictor_siniestros_adicionales(cartera, P_actuarial, P_diseno, t_deteccion, D_promedio_siniestro):     """     Estima el número de siniestros adicionales y el daño acumulado     producido por un diseño predatorio antes de la detección regulatoria.     """     if t_deteccion <= 0: return {'alerta': 'UMBRAL YA SUPERADO — reportar inmediatamente',                 't_deteccion': 0, 'N_adicionales': 0, 'D_acumulado': 0}     N_adic = cartera * (P_diseno - P_actuarial) * t_deteccion     D_acum = N_adic * D_promedio_siniestro     return {'t_deteccion_anios': t_deteccion,             'N_adicionales_esperados': round(N_adic, 2),             'D_acumulado_esperado': D_acum, 'costo_por_anio_de_espera': D_acum / t_deteccion}  def curva_deteccion(t_deteccion, k=2.0, horizontes=range(1,6)):     """ P(detección regulatoria) en función del tiempo,     modelada como función logística.     """     return {t: 1/(1+math.exp(-k*(t-t_deteccion))) for t in horizontes}  def t_deteccion_regulatoria(ratio_inicial, theta_ratio, crecimiento_anual):     """     Tiempo hasta que la siniestralidad anómala cruza el umbral regulatorio.     t_det < 0 → umbral ya superado.     """ if ratio_inicial >= theta_ratio:         return 0.0  # ya superado     return math.log(theta_ratio / ratio_inicial) / math.log(1 + crecimiento_anual) # ── Ejemplo ── # Caso donde el umbral ya se superó t_caso1 = t_deteccion_regulatoria(1.75, 1.50, 0.05) print(f"Caso pólizas vida colectiva: t_detección = {t_caso1:.2f} años (≤0 = ya superado)")  # Cartera en estadio inicial t_caso2 = t_deteccion_regulatoria(1.10, 1.50, 0.07) print(f"Cartera estadio inicial:     t_detección = {t_caso2:.2f} años") res2 = predictor_siniestros_adicionales(500, 0.008, 0.013, t_caso2, 180_000) print("\n=== Siniestros adicionales (cartera inicial) ===") for k, v in res2.items():     print(f"  {k}: {v}")  curva = curva_deteccion(t_caso2, k=2.0) print("\n=== Curva de detección
 
 
-regulatoria ===") for t, p in curva.items():     print(f"  Año {t}: P(detección) = {p:.1%}")
+> [!NOTE]
+> regulatoria ===") for t, p in curva.items():     print(f"  Año {t}: P(detección) = {p:.1%}")
 
 
 §6.  Profundización formal — Esta sección puede saltarse sin perder el argumento del capítulo
@@ -7736,7 +5513,8 @@ El gobierno corporativo convencional asigna al consejo de administración la fun
 
 Cuando el consejo es decorativo —existe en los documentos, pero no ejerce realmente ninguna de esas funciones— su S como supervisor es prácticamente 1.0: cualquier otro consejo igualmente decorativo habría producido el mismo resultado. Y su R* como supervisor es prácticamente 0 porque su presencia en el grafo no añade ni quita nada al resultado. Sin embargo, su presencia en el grafo como nodo legitimador tiene R* positivo: el esquema dependía de que un consejo formalmente competente aprobara las estructuras que lo hacían posible.
 
-Consejo decorativo:  Consejo de administración cuya función supervisora real es mínima (S ≈ 1.0 como supervisor) pero cuya función legitimadora tiene R* positivo: su aprobación formal era condición necesaria para que el esquema corporativo que causó el daño pudiera operar dentro de las apariencias de legalidad. En el cálculo: R*_supervisión ≈ 0, R*_legitimación > 0, α ≈ 0, Δ positivo.
+> [!NOTE]
+> Consejo decorativo:  Consejo de administración cuya función supervisora real es mínima (S ≈ 1.0 como supervisor) pero cuya función legitimadora tiene R* positivo: su aprobación formal era condición necesaria para que el esquema corporativo que causó el daño pudiera operar dentro de las apariencias de legalidad. En el cálculo: R*_supervisión ≈ 0, R*_legitimación > 0, α ≈ 0, Δ positivo.
 
 #### 1.2 La cultura corporativa como nodo causal
 
@@ -7745,7 +5523,8 @@ El Dieselgate plantea el problema más importante y más difícil del gobierno c
 
 La cultura corporativa no es un actor con voluntad propia —es una propiedad emergente del ego colectivo de la organización, resultado de decisiones acumuladas de liderazgo durante años. Pero tiene posición causal real en el grafo: sin la cultura específica de Volkswagen que priorizaba el objetivo de rendimiento sobre el cumplimiento regulatorio y que castigaba a quienes señalaban problemas, el defeat device no habría sido la solución que los ingenieros eligieron cuando se encontraron ante la presión imposible de cumplir simultáneamente las metas de rendimiento y los estándares de emisiones.
 
-El R* de la cultura corporativa es el R* del ego colectivo en su forma de Aego-Damasén: un campo que determina la trayectoria de los nodos individuales sin que ningún nodo individual haya diseñado explícitamente ese campo. Los ingenieros que programaron el defeat device actuaron desde la pendiente de ese campo —desde el Aego-Peribea— y su S es alto: otro ingeniero en la misma posición, bajo la misma presión cultural, habría encontrado la misma solución.
+> [!NOTE]
+> El R* de la cultura corporativa es el R* del ego colectivo en su forma de Aego-Damasén: un campo que determina la trayectoria de los nodos individuales sin que ningún nodo individual haya diseñado explícitamente ese campo. Los ingenieros que programaron el defeat device actuaron desde la pendiente de ese campo —desde el Aego-Peribea— y su S es alto: otro ingeniero en la misma posición, bajo la misma presión cultural, habría encontrado la misma solución.
 
 #### 1.3 Por qué los hijos aplican solo a los directivos
 
@@ -7757,71 +5536,34 @@ La razón de esta restricción es la misma que en los capítulos anteriores: los
 sus decisiones críticas sí describen desde qué disposición tomaron esas decisiones —y esa descripción tiene consecuencias directas para la evaluación de la culpabilidad subjetiva y para la intervención terapéutica o de desarrollo ejecutivo.
 
 
+
 ### §2.  Página puente — Traducción al lenguaje del gobierno corporativo
+
 
 Esta página resume las herramientas del sistema en el contexto del gobierno corporativo, la responsabilidad del consejo y los fraudes corporativos. El lector con formación en derecho corporativo, finanzas o gestión ejecutiva puede comenzar aquí.
 
-Herramienta En gobierno corporativo se llama
-
-Qué significa
-
-Grafo causal G
-
-Red de autoridad y resultado corporativo
-
-El mapa de todos los actores y condiciones que contribuyeron causalmente al resultado corporativo (el fraude, el producto defectuoso, el colapso): la dirección ejecutiva, el consejo, el auditor externo, la cultura corporativa, el marco regulatorio.
-
-R* (vector) Peso causal en el resultado corporativo
-
-La fracción del resultado corporativo causalmente atribuible a cada actor. R*_CEO mide cuánto dependió el resultado del CEO específico. R*_consejo mide cuánto dependió de que el consejo aprobara las estructuras que lo hicieron posible.
-
-Nodo de diseño
-
-Director ejecutivo / arquitecto del
-
-El directivo que diseñó la estrategia, los incentivos o las estructuras que
-
-
-esquema corporativo
+| Herramienta | En gobierno corporativo se llama | Qué significa |
+| --- | --- | --- |
+| Grafo causal G | Red de autoridad y resultado corporativo | El mapa de todos los actores y condiciones que contribuyeron causalmente al resultado corporativo (el fraude, el producto defectuoso, el colapso): la dirección ejecutiva, el consejo, el auditor externo, la cultura corporativa, el marco regulatorio. |
+| R* (vector) | Peso causal en el resultado corporativo | La fracción del resultado corporativo causalmente atribuible a cada actor. R*_CEO mide cuánto dependió el resultado del CEO específico. R*_consejo mide cuánto dependió de que el consejo aprobara las estructuras que lo hicieron posible. |
+| Nodo de diseño | Director ejecutivo / arquitecto del | El directivo que diseñó la estrategia, los incentivos o las estructuras que |
+| Nodo legitimador | Consejo / auditor externo decorativo | El nodo que aprobó formalmente lo que no supervisó realmente. Su R* no es como supervisor (casi nulo porque S ≈ 1.0) sino como legitimador: sin su aprobación formal, el esquema no podría haber operado dentro de las apariencias. |
 
 produjeron el resultado. En Enron: Lay y Skilling. En VW: los ejecutivos que fijaron los objetivos imposibles que crearon la presión.
 
-Nodo legitimador
-
-Consejo / auditor externo decorativo
-
-El nodo que aprobó formalmente lo que no supervisó realmente. Su R* no es como supervisor (casi nulo porque S ≈ 1.0) sino como legitimador: sin su aprobación formal, el esquema no podría haber operado dentro de las apariencias.
-
-Cultura corporativa
-
-Nodo sistémico de ego colectivo (Aego-Damasén)
-
-El campo que determina la trayectoria de los nodos individuales. Tiene R* real en el resultado, pero no tiene voluntad propia. Su R* apunta hacia los directivos que lo construyeron durante años con sus decisiones acumuladas.
-
-S del ejecutor Fungibilidad del empleado que ejecutó la conducta
-
-S alto: cualquier empleado bajo la misma presión cultural habría tomado la misma decisión. El problema es sistémico, no idiosincrático. S bajo: el ejecutor tenía características idiosincráticas que eran condición necesaria de ese resultado específico.
-
-α del consejo Supervisión efectiva ejercida
-
-Lo que el consejo realmente hizo para supervisar: preguntas incómodas formuladas, auditorías independientes solicitadas, información adicional
-
+| Herramienta | En gobierno corporativo se llama | Qué significa |
+| --- | --- | --- |
+| Cultura corporativa | Nodo sistémico de ego colectivo (Aego- Damasén) | El campo que determina la trayectoria de los nodos individuales. Tiene R* real en el resultado, pero no tiene voluntad propia. Su R* apunta hacia los directivos que lo construyeron durante años con sus decisiones acumuladas. |
+| S del ejecutor | Fungibilidad del empleado que ejecutó la conducta | S alto: cualquier empleado bajo la misma presión cultural habría tomado la misma decisión. El problema es sistémico, no idiosincrático. S bajo: el ejecutor tenía características idiosincráticas que eran condición necesaria de ese resultado específico. |
+| α del consejo | Supervisión efectiva ejercida | Lo que el consejo realmente hizo para supervisar: preguntas incómodas formuladas, auditorías independientes solicitadas, información adicional |
+| Δ del consejo | Déficit de supervisión: la brecha entre el peso causal y la supervisión ejercida | El consejo que aprobó estructuras de alto riesgo sin entenderlas (o eligiendo no entenderlas) tiene Δ positivo: causó (como legitimador) más de lo que asumió como supervisor. |
 
 requerida, compensación vinculada a resultados de largo plazo, ejecutivos cuestionados o sustituidos.
 
-Δ del consejo Déficit de supervisión: la brecha entre el peso causal y la supervisión ejercida
-
-El consejo que aprobó estructuras de alto riesgo sin entenderlas (o eligiendo no entenderlas) tiene Δ positivo: causó (como legitimador) más de lo que asumió como supervisor.
-
-Hijos del directivo
-
-Disposición de la voluntad del ejecutivo en la decisión
-
-El hijo dominante en el momento de la decisión crítica describe desde qué disposición actuó: Anteros (afirmación deliberada del esquema), Potós (persistencia en prácticas heredadas sin cuestionarlas), Fobos (miedo a las consecuencias de señalar el problema).
-
-D_total Daño corporativo total
-
-T_invertido (pérdidas directas de accionistas, empleados y acreedores en el colapso), T_impedido (valor destruido durante el período del fraude), ΔT_trayectoria (pérdida permanente de potencial: reputación sectorial, capital regulatorio destruido).
+| Herramienta | En gobierno corporativo se llama | Qué significa |
+| --- | --- | --- |
+| Hijos del directivo | Disposición de la voluntad del ejecutivo en la decisión | El hijo dominante en el momento de la decisión crítica describe desde qué disposición actuó: Anteros (afirmación deliberada del esquema), Potós (persistencia en prácticas heredadas sin cuestionarlas), Fobos (miedo a las consecuencias de señalar el problema). |
+| D_total | Daño corporativo total | T_invertido (pérdidas directas de accionistas, empleados y acreedores en el colapso), T_impedido (valor destruido durante el período del fraude), ΔT_trayectoria (pérdida permanente de potencial: reputación sectorial, capital regulatorio destruido). |
 
 Para el lector que viene del núcleo universal:  Los hijos aplican en este dominio solo a los directivos con poder de decisión real (CEO, CFO, miembros del consejo con función efectiva). No aplican a la empresa como entidad abstracta, a la cultura corporativa como nodo sistémico, ni a los empleados que ejecutaron sin poder de diseño. La distinción más importante del capítulo es entre el R* del directivo como diseñador y el R* del consejo como legitimador: ambos tienen posición causal, pero sus mecanismos y sus hijos son diferentes.
 
@@ -7833,56 +5575,14 @@ Para el lector que viene del núcleo universal:  Los hijos aplican en este domin
 
 El organigrama corporativo es el grafo de la autoridad formal. El grafo causal corporativo es distinto: mapea la autoridad real sobre los resultados, que puede diferir sustancialmente del organigrama. En Enron, el CFO Andrew Fastow tenía mayor R* sobre el esquema financiero que varios miembros del consejo con títulos más altos en la jerarquía formal.
 
-Tipo de nodo
-
-Función en el grafo
-
-R* típico vs. S típico
-
-Cómo se estima el peso w
-
-CEO / dirección ejecutiva
-
-Nodo de diseño de la estrategia y la cultura. Fija los objetivos, los incentivos y los límites de lo aceptable.
-
-R* alto, S variable según su idiosincrasia. Un CEO con estilo de gestión muy particular tiene S bajo.
-
-Decisiones documentadas, correos, estrategia aprobada, estructura de incentivos diseñada.
-
-CFO / dirección financiera
-
-Nodo de diseño de la arquitectura financiera. Puede tener mayor R* que el CEO en fraudes de
-
-R* muy alto en fraudes financieros. S moderado si las estructuras eran genéricas del sector.
-
-Estructuras aprobadas, SPEs, contratos de financiamiento , presentaciones al consejo.
-
-
-naturaleza contable.
-
-Consejo de administració n
-
-Nodo legitimador. Su R* no es supervisión sino la aprobación formal que el esquema requería para operar.
-
-R*_legitimació n moderado-alto. S muy alto como supervisor (cualquier consejo decorativo habría aprobado igual).
-
-Actas del consejo, preguntas formuladas, resoluciones aprobadas, información solicitada.
-
-Auditor externo
-
-Nodo de certificación. Su certificación de los estados financieros era condición necesaria para que los accionistas y acreedores confiaran en la empresa.
-
-R* moderado, S moderado-alto. Cualquier firma auditora bajo los mismos incentivos habría producido el mismo resultado.
-
-Opiniones de auditoría emitidas, papeles de trabajo, comunicacione s con la dirección.
-
-Empleados ejecutores
-
-Nodo de ejecución. Implementaro n las instrucciones. S alto cuando operaron dentro de la cultura y la estructura de incentivos diseñadas desde arriba.
-
-R* bajo-moderado, S alto. El chivo expiatorio más frecuente del sistema legal.
-
-Correos operativos, registros de decisiones, evidencia de presión de superiores.
+| Tipo de nodo | Función en el grafo | R* típico vs. S típico | Cómo se estima el peso w |
+| --- | --- | --- | --- |
+| CEO / dirección ejecutiva | Nodo de diseño de la estrategia y la cultura. Fija los objetivos, los incentivos y los límites de lo aceptable. | R* alto, S variable según su idiosincrasia. Un CEO con estilo de gestión muy particular tiene S bajo. | Decisiones documentadas, correos, estrategia aprobada, estructura de incentivos diseñada. |
+| CFO / dirección financiera | Nodo de diseño de la arquitectura financiera. Puede tener mayor R* que el CEO en fraudes de | R* muy alto en fraudes financieros. S moderado si las estructuras eran genéricas del sector. | Estructuras aprobadas, SPEs, contratos de financiamiento , presentaciones al consejo. |
+| Consejo de administració n | Nodo legitimador. Su R* no es supervisión sino la aprobación formal que el esquema requería para operar. | R*_legitimació n moderado- alto. S muy alto como supervisor (cualquier consejo decorativo habría aprobado igual). | Actas del consejo, preguntas formuladas, resoluciones aprobadas, información solicitada. |
+| Auditor externo | Nodo de certificación. Su certificación de los estados financieros era condición necesaria para que los accionistas y acreedores confiaran en la empresa. | R* moderado, S moderado- alto. Cualquier firma auditora bajo los mismos incentivos habría producido el mismo resultado. | Opiniones de auditoría emitidas, papeles de trabajo, comunicacione s con la dirección. |
+| Empleados ejecutores | Nodo de ejecución. Implementaro n las instrucciones. S alto cuando operaron dentro de la cultura y la estructura de incentivos diseñadas desde arriba. | R* bajo- moderado, S alto. El chivo expiatorio más frecuente del sistema legal. | Correos operativos, registros de decisiones, evidencia de presión de superiores. |
+| Cultura corporativa | Nodo sistémico. | R* estructural alto pero | Documentació n de valores |
 
 Cultura corporativa
 
@@ -7893,11 +5593,11 @@ R* estructural alto pero
 Documentació n de valores
 
 
-Determina el espacio de lo aceptable para todos los actores. Su R* apunta hacia quienes lo construyeron con sus decisiones acumuladas.
-
-difuso. No tiene S ni α propios.
-
-declarados vs. comportamien to real, historial de sanciones internas, testimonios de empleados.
+<table>
+<tbody>
+<tr><th scope="row"></th><td>Determina el espacio de lo aceptable para todos los actores. Su R* apunta hacia quienes lo construyeron con sus decisiones acumuladas.</td><td>difuso. No tiene S ni α propios.</td><td>declarados vs. comportamien to real, historial de sanciones internas, testimonios de empleados.</td></tr>
+</tbody>
+</table>
 
 #### 3.2 R* del consejo: supervisión vs. legitimación
 
@@ -7920,30 +5620,11 @@ Esta distinción tiene consecuencias legales directas: la responsabilidad civil 
 
 La pregunta de la sustituibilidad del directivo en el fraude corporativo es una de las más difíciles del dominio porque mezcla la evaluación causal con la evaluación de la cultura de la industria. La respuesta del sistema es metodológica: S del directivo se estima comparando el comportamiento de ese directivo con el de líderes similares en el mismo contexto de presiones.
 
-Interpretación Implicación para el análisis
-
-S del directivo
-
-S bajo (0.05–0.30)
-
-El fraude dependía de las características idiosincráticas de ese directivo: su visión específica, sus conexiones, su disposición a violar los límites. Otro CEO no
-
-La responsabilidad causal del directivo es genuinamente alta. El análisis de hijos puede mostrar Anteros dominante: afirmación deliberada de una estrategia que sabía problemática.
-
-
-habría producido lo mismo.
-
-S moderado (0.31–0.65)
-
-El fraude dependía en parte de las características del directivo y en parte del entorno de presiones que cualquier ejecutivo similar habría enfrentado.
-
-Responsabilidad compartida entre el directivo y el sistema. Los hijos pueden mostrar Potós (persistencia en prácticas del sector) o Fobos (presión de los mercados de capitales).
-
-La responsabilidad causal del directivo es moderada. El nodo de mayor R* es la cultura corporativa y los incentivos del sistema. La reforma debe ser sistémica, no solo personal.
-
-S alto (0.66–0.95)
-
-Cualquier directivo en esa posición, bajo la misma presión del mercado de capitales y la misma cultura corporativa, habría tomado decisiones similares.
+| S del directivo | Interpretación | Implicación para el análisis |
+| --- | --- | --- |
+| S bajo (0.05–0.30) | El fraude dependía de las características idiosincráticas de ese directivo: su visión específica, sus conexiones, su disposición a violar los límites. Otro CEO no | La responsabilidad causal del directivo es genuinamente alta. El análisis de hijos puede mostrar Anteros dominante: afirmación deliberada de una estrategia que sabía problemática. |
+| S moderado (0.31–0.65) | El fraude dependía en parte de las características del directivo y en parte del entorno de presiones que cualquier ejecutivo similar habría enfrentado. | Responsabilidad compartida entre el directivo y el sistema. Los hijos pueden mostrar Potós (persistencia en prácticas del sector) o Fobos (presión de los mercados de capitales). |
+| S alto (0.66–0.95) | Cualquier directivo en esa posición, bajo la misma presión del mercado de capitales y la misma cultura corporativa, habría tomado decisiones similares. | La responsabilidad causal del directivo es moderada. El nodo de mayor R* es la cultura corporativa y los incentivos del sistema. La reforma debe ser sistémica, no solo personal. |
 
 #### 3.4 Los hijos de los directivos: el diagnóstico de la voluntad ejecutiva
 
@@ -7959,46 +5640,13 @@ problema era Anteros (directivos deliberadamente corruptos, que requieren sustit
 - Para la selección del tipo de proceso legal: Anteros dominante apunta hacia el proceso penal; Potós o Deimos dominantes apuntan hacia la responsabilidad civil y la reforma regulatoria.
 
 
-Hijo En el directivo
-
-Consecuencia
-
-Patrón corporativo
-
-Anteros Afirmación deliberada del esquema. Sabía que era incorrecto y eligió hacerlo porque convenía a sus objetivos.
-
-Enron (Skilling): "Somos la empresa más innovadora de América" mientras diseñaba el esquema de SPEs.
-
-Mayor culpabilidad penal. S bajo. R* alto. Base para proceso penal y máxima responsabilidad civil.
-
-Potós Persistencia en el patrón establecido. "Siempre lo hemos hecho así." No revisó las prácticas heredadas.
-
-VW (nivel medio): el defeat device como solución "obvia" al problema de cumplir objetivos imposibles, porque era lo que se hacía.
-
-Culpa habitual. S moderado-alto. Requiere reforma de la cultura más que proceso penal del ejecutor.
-
-Fobos Miedo a señalar el problema. Sabía que algo estaba mal pero no tenía
-
-Los directivos de nivel medio en Enron que percibían el riesgo pero no lo reportaban.
-
-Menor culpabilidad. S alto. El problema es la cultura que generó el miedo.
-
-
-seguridad para decirlo.
-
-Puede ser testigo clave.
-
-Deimos No comprendía la magnitud del problema. Parálisis ante la complejidad técnica.
-
-Consejo de Enron: aprobó las estructuras SPE sin comprender sus implicaciones.
-
-Negligencia, no dolo. R*_legitimación real, pero culpabilidad subjetiva baja. Base para reforma del proceso de supervisión.
-
-Harmonía Señaló el problema públicamente a pesar de las consecuencias.
-
-Sherron Watkins (VPs de Enron que señalaron el problema internamente). James Liang de VW que cooperó con la investigación.
-
-α alto. Posible reconocimiento como testigo protegido. Modelo para el diseño de sistemas de denuncia.
+| Hijo | En el directivo | Patrón corporativo | Consecuencia |
+| --- | --- | --- | --- |
+| Anteros | Afirmación deliberada del esquema. Sabía que era incorrecto y eligió hacerlo porque convenía a sus objetivos. | Enron (Skilling): "Somos la empresa más innovadora de América" mientras diseñaba el esquema de SPEs. | Mayor culpabilidad penal. S bajo. R* alto. Base para proceso penal y máxima responsabilidad civil. |
+| Potós | Persistencia en el patrón establecido. "Siempre lo hemos hecho así." No revisó las prácticas heredadas. | VW (nivel medio): el defeat device como solución "obvia" al problema de cumplir objetivos imposibles, porque era lo que se hacía. | Culpa habitual. S moderado- alto. Requiere reforma de la cultura más que proceso penal del ejecutor. |
+| Fobos | Miedo a señalar el problema. Sabía que algo estaba mal pero no tenía | Los directivos de nivel medio en Enron que percibían el riesgo pero no lo reportaban. | Menor culpabilidad. S alto. El problema es la cultura que generó el miedo. |
+| Deimos | No comprendía la magnitud del problema. Parálisis ante la complejidad técnica. | Consejo de Enron: aprobó las estructuras SPE sin comprender sus implicaciones. | Negligencia, no dolo. R*_legitimación real, pero culpabilidad subjetiva baja. Base para reforma del proceso de supervisión. |
+| Harmonía | Señaló el problema públicamente a pesar de las consecuencias. | Sherron Watkins (VPs de Enron que señalaron el problema internamente). James Liang de VW que cooperó con la investigación. | α alto. Posible reconocimiento como testigo protegido. Modelo para el diseño de sistemas de denuncia. |
 
 #### 3.5 La cultura corporativa: Aego-Damasén como nodo causal sin voluntad
 
@@ -8011,14 +5659,16 @@ La cultura corporativa en el sistema ontológico de la colección es el ego cole
 
 La descomposición del R*_cultura en sus contribuyentes históricos permite identificar en qué decisiones de liderazgo pasadas se construyó el campo que ahora determina el comportamiento de los empleados actuales. En Volkswagen, las raíces culturales del Dieselgate son rastreables décadas atrás: la cultura de objetivos de rendimiento imposibles sin mecanismos de escalamiento de problemas, la sanción informal a quienes señalaban problemas, la celebración del "ingenio" para superar obstáculos que en retrospectiva eran obstáculos regulatorios legítimos.
 
-Principio de gobernanza:  La cultura corporativa no es responsable en el sentido penal, pero sí es causalmente necesaria en muchos fraudes corporativos. El análisis de R*_cultura permite identificar qué reformas institucionales — no solo qué personas— deben cambiar para que el sistema produzca resultados distintos. La sustitución de directivos sin reforma de la cultura produce el mismo resultado con nombres diferentes.
+> [!IMPORTANT]
+> Principio de gobernanza:  La cultura corporativa no es responsable en el sentido penal, pero sí es causalmente necesaria en muchos fraudes corporativos. El análisis de R*_cultura permite identificar qué reformas institucionales — no solo qué personas— deben cambiar para que el sistema produzca resultados distintos. La sustitución de directivos sin reforma de la cultura produce el mismo resultado con nombres diferentes.
 
 
 ### §4.  Casos resueltos
 
 Caso A — Enron Corporation (2001)
 
-El consejo decorativo: S altísimo como supervisor, R* positivo como legitimador, α = 0, Anteros + Potós en los directivos ejecutivos
+> [!NOTE]
+> El consejo decorativo: S altísimo como supervisor, R* positivo como legitimador, α = 0, Anteros + Potós en los directivos ejecutivos
 
 A.1 El contexto histórico
 
@@ -8033,72 +5683,31 @@ auditoría del consejo tenía como miembro a Robert Jaedicke, exdecano de la Esc
 
 #### A.2 El grafo causal de Enron
 
-Nodo Actor Tipo Función causal
-
-N1 Kenneth Lay (CEO) y Jeffrey Skilling (CEO desde 2001)
-
-Diseño del esquema
-
-Crearon la cultura corporativa que hacía que el crecimiento a cualquier costo fuera el único criterio de éxito. Lay: Anteros + Potós (afirmaba públicamente la solidez de Enron mientras diseñaba las estructuras). Skilling: Anteros dominante.
-
-N2 Andrew Fastow (CFO)
-
-Arquitecto financiero
-
-Diseñó la arquitectura específica de las SPEs. Sin Fastow específicamente, el esquema no habría tomado esa forma técnica. S bajo. R* alto.
-
-N3 Consejo de administración
-
-Legitimador Aprobó dos veces estructuras que requerían su aprobación explícita. No ejerció supervisión real. R*_legitimación alto, R*_supervisión bajo, S muy alto como supervisor.
-
-
-N4 Arthur Andersen (auditor externo)
-
-Certificador Certificó los estados financieros de Enron. Destruyó documentos después de que comenzó la investigación. Posición causal real: sin su certificación, los mercados no habrían confiado en Enron.
-
-N5 Cultura corporativa de Enron
-
-Nodo sistémico
-
-La cultura de "rank and yank" (clasificar y despedir al 10% inferior anualmente) y de priorización del crecimiento de acciones como único KPI creó el campo en el que el esquema era racional.
-
-N6 Mercados de capital y analistas de Wall Street
-
-Presión externa
-
-Las expectativas de crecimiento que los mercados tenían de Enron creaban la presión para mantener el esquema. S muy alto.
-
-Nodo final Más de 21,000 empleados perdieron su trabajo y sus ahorros de retiro. Los accionistas perdieron $60,000 millones en valor de mercado.
-
-Nf Empleados, accionistas, fondos de pensión
+| Nodo | Actor | Tipo | Función causal |
+| --- | --- | --- | --- |
+| N1 | Kenneth Lay (CEO) y Jeffrey Skilling (CEO desde 2001) | Diseño del esquema | Crearon la cultura corporativa que hacía que el crecimiento a cualquier costo fuera el único criterio de éxito. Lay: Anteros + Potós (afirmaba públicamente la solidez de Enron mientras diseñaba las estructuras). Skilling: Anteros dominante. |
+| N2 | Andrew Fastow (CFO) | Arquitecto financiero | Diseñó la arquitectura específica de las SPEs. Sin Fastow específicamente, el esquema no habría tomado esa forma técnica. S bajo. R* alto. |
+| N3 | Consejo de administración | Legitimador | Aprobó dos veces estructuras que requerían su aprobación explícita. No ejerció supervisión real. R*_legitimación alto, R*_supervisión bajo, S muy alto como supervisor. |
+| N4 | Arthur Andersen (auditor externo) | Certificador | Certificó los estados financieros de Enron. Destruyó documentos después de que comenzó la investigación. Posición causal real: sin su certificación, los mercados no habrían confiado en Enron. |
+| N5 | Cultura corporativa de Enron | Nodo sistémico | La cultura de "rank and yank" (clasificar y despedir al 10% inferior anualmente) y de priorización del crecimiento de acciones como único KPI creó el campo en el que el esquema era racional. |
+| N6 | Mercados de capital y analistas de Wall Street | Presión externa | Las expectativas de crecimiento que los mercados tenían de Enron creaban la presión para mantener el esquema. S muy alto. |
+| Nf | Empleados, accionistas, fondos de pensión | Nodo final | Más de 21,000 empleados perdieron su trabajo y sus ahorros de retiro. Los accionistas perdieron $60,000 millones en valor de mercado. |
 
 #### A.3 R*, S y el análisis de los hijos
 
 Nodo R* S α Interpretación
 
 
-~35% 0.20 0.00 Nodo de diseño con S bajo. Sus visiones específicas del negocio y su estilo de liderazgo eran condición necesaria del esquema en esa forma. Δ = +0.35.
-
-N1 — Lay / Skilling
-
-N2 — Fastow ~22% 0.25 0.05 Arquitecto financiero con S bajo. Ningún otro CFO habría diseñado exactamente las mismas SPEs. Δ = +0.17.
-
-N3 — Consejo ~18% 0.90 0.02 R*_legitimación = 0.18. S como supervisor ≈ 0.90: cualquier consejo igualmente decorativo habría aprobado igual. Δ = +0.16.
-
-~14% 0.55 0.03 S moderado: otras firmas de auditoría con los mismos incentivos habrían actuado similarmente. Δ = +0.11.
-
-N4 — Arthur Andersen
-
-~8% N/A N/A Nodo sistémico. Su R* apunta hacia N1 y N2
-
-N5 — Cultura corporativa
-
-
-como constructores de la cultura. Δ e hijos no aplican directamente.
-
-~3% 0.92 0.15 S muy alto. Factor externo amplificador.
-
-N6 — Mercados/analistas
+<table>
+<tbody>
+<tr><th scope="row">N1 — Lay / Skilling</th><td>~35%</td><td>0.20</td><td>0.00</td><td>Nodo de diseño con S bajo. Sus visiones específicas del negocio y su estilo de liderazgo eran condición necesaria del esquema en esa forma. Δ = +0.35.</td></tr>
+<tr><th scope="row">N2 — Fastow</th><td>~22%</td><td>0.25</td><td>0.05</td><td>Arquitecto financiero con S bajo. Ningún otro CFO habría diseñado exactamente las mismas SPEs. Δ = +0.17.</td></tr>
+<tr><th scope="row">N3 — Consejo</th><td>~18%</td><td>0.90</td><td>0.02</td><td>R*_legitimación = 0.18. S como supervisor ≈ 0.90: cualquier consejo igualmente decorativo habría aprobado igual. Δ = +0.16.</td></tr>
+<tr><th scope="row">N4 — Arthur Andersen</th><td>~14%</td><td>0.55</td><td>0.03</td><td>S moderado: otras firmas de auditoría con los mismos incentivos habrían actuado similarmente. Δ = +0.11.</td></tr>
+<tr><th scope="row">N5 — Cultura corporativa</th><td>~8%</td><td>N/A</td><td>N/A</td><td>Nodo sistémico. Su R* apunta hacia N1 y N2</td></tr>
+<tr><th scope="row">N6 — Mercados/analistas</th><td>~3%</td><td>0.92</td><td>0.15</td><td>S muy alto. Factor externo amplificador.</td></tr>
+</tbody>
+</table>
 
 #### A.4 Los hijos en dos momentos: el diagnóstico y la evolución
 
@@ -8121,7 +5730,8 @@ Deimos      ████████░░░░░░░░░░░░ 42% Pot
 
 El consejo de Enron no era malicioso: era decorativo. Su perfil de hijos —Deimos + Potós dominantes— describe exactamente al consejo que aprueba lo que no comprende, confiando en la trayectoria de la empresa y paralizado ante la complejidad técnica de lo que le presentan. Ese perfil es el de la negligencia grave, no el del dolo: base para responsabilidad civil del consejo, no para proceso penal en la mayoría de los casos.
 
-La paradoja del experto decorativo:  Robert Jaedicke, profesor de contabilidad exdecano de Stanford, estaba en el consejo de auditoría de Enron cuando se aprobaron las estructuras SPE. El hecho de que hubiera un experto contable en el consejo no garantizó una supervisión efectiva. La razón es ontológica: la presencia del experto en la sala no activa φ₂. El Deimos del consejo no desapareció por la presencia de Jaedicke. La supervisión efectiva requiere que el experto quiera ejercer su criterio —que Harmonía esté presente— no solo que tenga las credenciales para hacerlo.
+> [!NOTE]
+> La paradoja del experto decorativo:  Robert Jaedicke, profesor de contabilidad exdecano de Stanford, estaba en el consejo de auditoría de Enron cuando se aprobaron las estructuras SPE. El hecho de que hubiera un experto contable en el consejo no garantizó una supervisión efectiva. La razón es ontológica: la presencia del experto en la sala no activa φ₂. El Deimos del consejo no desapareció por la presencia de Jaedicke. La supervisión efectiva requiere que el experto quiera ejercer su criterio —que Harmonía esté presente— no solo que tenga las credenciales para hacerlo.
 
 A.5 El D_total de Enron y la distribución del ajuste debitor
 
@@ -8164,67 +5774,34 @@ La investigación posterior reveló que el defeat device había sido desarrollad
 
 #### B.2 El grafo causal del Dieselgate
 
-Nodo Actor / Factor Tipo Función causal
-
-N1 Alta dirección VW: objetivos de rendimiento imposibles
-
-Diseño del contexto de presión
-
-Fijaron simultáneamente metas de rendimiento, costo y emisiones que la ingeniería disponible no podía cumplir, con una fecha de lanzamiento inamovible en EE.UU. Sin ese contexto específico, el defeat device no habría sido la solución.
-
-N2 Cultura corporativa VW (Aego-Damasén)
-
-Nodo sistémico
-
-La cultura que castigaba el escalamiento de problemas, premiaba la solución a cualquier costo y normalizaba el "ingenio técnico" para superar obstáculos regulatorios. Alta S entre las culturas corporativas del sector automotriz de esa época.
-
-N3 Ingenieros que programaron el defeat device
-
-Ejecución técnica
-
-Implementaron la solución dentro del contexto de N1 y N2. S alto: cualquier equipo de ingeniería bajo la misma presión y sin mecanismos seguros de escalamiento
-
+| Nodo | Actor / Factor | Tipo | Función causal |
+| --- | --- | --- | --- |
+| N1 | Alta dirección VW: objetivos de rendimiento imposibles | Diseño del contexto de presión | Fijaron simultáneamente metas de rendimiento, costo y emisiones que la ingeniería disponible no podía cumplir, con una fecha de lanzamiento inamovible en EE.UU. Sin ese contexto específico, el defeat device no habría sido la solución. |
+| N2 | Cultura corporativa VW (Aego- Damasén) | Nodo sistémico | La cultura que castigaba el escalamiento de problemas, premiaba la solución a cualquier costo y normalizaba el "ingenio técnico" para superar obstáculos regulatorios. Alta S entre las culturas corporativas del sector automotriz de esa época. |
+| N3 | Ingenieros que programaron el defeat device | Ejecución técnica | Implementaron la solución dentro del contexto de N1 y N2. S alto: cualquier equipo de ingeniería bajo la misma presión y sin mecanismos seguros de escalamiento |
 
 habría evaluado opciones similares. James Liang (quien cooperó) es el nodo más documentado.
 
-N4 Proceso de certificación regulatoria interna
-
-Validación institucional
-
-Los departamentos de certificación y cumplimiento que aprobaron el motor para exportación sabían de la discrepancia entre pruebas y uso real, o no la investigaron.
-
-N5 Reguladores de emisiones (EPA / CARB / Europa)
-
-Brecha de supervisión
-
-Los sistemas de prueba de emisiones no incluían pruebas en condiciones reales de conducción hasta después del escándalo. La brecha regulatoria fue condición necesaria para que el defeat device funcionara durante años.
-
-Nodo final El exceso de NOx en condiciones reales de conducción contribuyó a daños a la salud pública. VW vendió vehículos que no cumplían las especificaciones prometidas.
-
-Nf Consumidores, comunidades, sistema regulatorio
+| Nodo | Actor / Factor | Tipo | Función causal |
+| --- | --- | --- | --- |
+| N4 | Proceso de certificación regulatoria interna | Validación institucional | Los departamentos de certificación y cumplimiento que aprobaron el motor para exportación sabían de la discrepancia entre pruebas y uso real, o no la investigaron. |
+| N5 | Reguladores de emisiones (EPA / CARB / Europa) | Brecha de supervisión | Los sistemas de prueba de emisiones no incluían pruebas en condiciones reales de conducción hasta después del escándalo. La brecha regulatoria fue condición necesaria para que el defeat device funcionara durante años. |
+| Nf | Consumidores, comunidades, sistema regulatorio | Nodo final | El exceso de NOx en condiciones reales de conducción contribuyó a daños a la salud pública. VW vendió vehículos que no cumplían las especificaciones prometidas. |
 
 #### B.3 R* de la cultura vs. R* del ingeniero: la clave del caso
 
 Nodo R* S α Interpretación
 
 
-~38% 0.35 0.10 Diseñó el contexto de presión imposible. S moderado-bajo: esas metas específicas, ese deadline específico, esa negativa a extender el plazo o revisar las metas fueron decisiones idiosincráticas.
-
-N1 — Alta dirección VW
-
-~25% N/A N/A Nodo sistémico. S alto entre las culturas de la industria automotriz global. Su R* apunta hacia los liderazgos históricos que construyeron esa cultura.
-
-N2 — Cultura corporativa
-
-~18% 0.82 0.12 S muy alto. James Liang (quien cooperó) tiene R* individual dentro de N3, pero cualquier equipo de ingeniería bajo N1+N2 habría evaluado opciones equivalentes. Δ = +0.06.
-
-N3 — Ingenieros ejecutores
-
-~12% 0.60 0.08 Sabían o debían saber de la discrepancia. S moderado.
-
-N4 — Certificación interna
-
-~7% 0.85 0.15 Brecha sistémica del proceso de pruebas. S muy alto.
+<table>
+<tbody>
+<tr><th scope="row">N1 — Alta dirección VW</th><td>~38%</td><td>0.35</td><td>0.10</td><td>Diseñó el contexto de presión imposible. S moderado-bajo: esas metas específicas, ese deadline específico, esa negativa a extender el plazo o revisar las metas fueron decisiones idiosincráticas.</td></tr>
+<tr><th scope="row">N2 — Cultura corporativa</th><td>~25%</td><td>N/A</td><td>N/A</td><td>Nodo sistémico. S alto entre las culturas de la industria automotriz global. Su R* apunta hacia los liderazgos históricos que construyeron esa cultura.</td></tr>
+<tr><th scope="row">N3 — Ingenieros ejecutores</th><td>~18%</td><td>0.82</td><td>0.12</td><td>S muy alto. James Liang (quien cooperó) tiene R* individual dentro de N3, pero cualquier equipo de ingeniería bajo N1+N2 habría evaluado opciones equivalentes. Δ = +0.06.</td></tr>
+<tr><th scope="row">N4 — Certificación interna</th><td>~12%</td><td>0.60</td><td>0.08</td><td>Sabían o debían saber de la discrepancia. S moderado.</td></tr>
+<tr><th scope="row">N5 — Reguladores</th><td>~7%</td><td>0.85</td><td>0.15</td><td>Brecha sistémica del proceso de pruebas. S muy alto.</td></tr>
+</tbody>
+</table>
 
 N5 — Reguladores
 
@@ -8308,41 +5885,20 @@ R*_diseñador(α_consejo) = R*_diseñador (0) × exp
 
 donde γ es el coeficiente de sensibilidad entre la supervisión del consejo y la libertad de acción del diseñador. Para fraudes financieros estructurados como el de Enron, γ ≈ 1.8 (estimado de estudios comparativos de fraudes que fueron detenidos por consejos activos vs. los que no lo fueron).
 
-Análisis contrafáctico — Consejo de Enron con α = 0.30:
-
-Parámetro Escenario real (α=0.02)
-
-Interpretación
-
-Escenario CF (α=0.30)
-
-R*_Lay+Skilling 35% 22% El espacio de acción del diseñador se comprime un 37%. El esquema
-
-
-habría necesitado ser más pequeño o más breve.
-
-18% 4% El consejo habría legitimado mucho menos. Las SPEs más grandes habrían requerido aprobaciones que el consejo no habría dado sin análisis independiente.
-
-R*_consejo (legitimación)
-
-$67,000M ~$28,000M Reducción del 58%. No habría evitado el fraude completamente (Lay y Skilling seguirían teniendo R* > 0) pero lo habría contenido en un tercio del daño real.
-
-D_total estimado
-
-Un consejo activo habría detectado las primeras SPEs problemáticas antes de 1998, limitando el esquema a un período mucho más corto.
-
-Tiempo de vida del esquema
-
-~6 años (1995-2001)
-
-~2.5 años estimados
+| Parámetro | Escenario real (α=0.02) | Escenario CF (α=0.30) | Interpretación |
+| --- | --- | --- | --- |
+| R*_Lay+Skilling | 35% | 22% | El espacio de acción del diseñador se comprime un 37%. El esquema |
+| R*_consejo (legitimación) | 18% | 4% | El consejo habría legitimado mucho menos. Las SPEs más grandes habrían requerido aprobaciones que el consejo no habría dado sin análisis independiente. |
+| D_total estimado | $67,000M | ~$28,000M | Reducción del 58%. No habría evitado el fraude completamente (Lay y Skilling seguirían teniendo R* > 0) pero lo habría contenido en un tercio del daño real. |
+| Tiempo de vida del esquema | ~6 años (1995- 2001) | ~2.5 años estimados | Un consejo activo habría detectado las primeras SPEs problemáticas antes de 1998, limitando el esquema a un período mucho más corto. |
 
 La reducción del D_total de $67,000M a $28,000M con una supervisión del consejo moderada (α = 0.30) implica $39,000 millones de daño evitable. El costo de tener un consejo realmente activo en Enron —compensación
 
 
 independiente, análisis externos, tiempo adicional de supervisión— habría sido inferior a $50 millones durante el período. El ROI de la supervisión real habría sido de aproximadamente 780 veces.
 
-Predictor:  La pregunta correcta en el análisis de gobierno corporativo no es "¿tiene el consejo las credenciales adecuadas?" sino "¿tiene la disposición (los hijos) y las condiciones estructurales (S bajo) para ejercer la supervisión que su R* requiere?" Un consejo con credenciales perfectas y Deimos dominante es ontológicamente equivalente a un consejo sin credenciales.
+> [!NOTE]
+> Predictor:  La pregunta correcta en el análisis de gobierno corporativo no es "¿tiene el consejo las credenciales adecuadas?" sino "¿tiene la disposición (los hijos) y las condiciones estructurales (S bajo) para ejercer la supervisión que su R* requiere?" Un consejo con credenciales perfectas y Deimos dominante es ontológicamente equivalente a un consejo sin credenciales.
 
 #### El predictor de colapso por perfil de hijos y S del consejo
 
@@ -8354,15 +5910,24 @@ R*_cultura × (1−S_cultura))
 
 La función f puede estimarse con un modelo logístico calibrado con datos históricos de gobernanza corporativa:
 
-P (colapso, N) = σ (β₀ + β₁×S_consejo + β₂×(1−IIC)
-
-\+ β₃×P_Anteros + β₄×R*_cultura_neta)
+<table>
+<tbody>
+<tr><th scope="row">β₀ (constante)</th><td>−3.2</td><td>—</td><td>Base: empresa con gobernanza óptima tiene P(colapso,5años) ≈ 4%.</td></tr>
+</tbody>
+</table>
 
 Con coeficientes estimados de la literatura de gobernanza (Gompers et al. 2003, Bebchuk et al. 2009, actualizados con datos de 2015-2024):
 
-Escala Interpretación
-
-Variable predictora
+<table>
+<tbody>
+<tr><th scope="row">β₁ × S_consejo</th><td>+2.8</td><td>[0,1]</td><td>S_consejo = 0.90 añade 2.52 al logit. Es la variable de mayor impacto.</td></tr>
+<tr><th scope="row">β₂ × (1 − IIC)</th><td>+1.6</td><td>[0,2]</td><td>IIC = 0 (disforia máxima) añade 3.2 al logit. Alta disforia de identidad corporativa predice colapso.</td></tr>
+<tr><th scope="row">β₃ × P_Anteros_CEO</th><td>+2.1</td><td>[0,1]</td><td>CEO con P_Anteros = 0.55 (como Skilling) añade 1.16 al logit.</td></tr>
+<tr><th scope="row">β₄ × R*_cultura_neta</th><td>+1.4</td><td>[0,1]</td><td>Cultura corporativa con R* neto alto amplifica todos los riesgos anteriores.</td></tr>
+</tbody>
+</table>
+| Variable predictora | Coef. β | Escala | Interpretación |
+| --- | --- | --- | --- |
 
 Coef. β
 
@@ -8400,7 +5965,8 @@ P (colapso, 5 años) _empresa_sana = σ (−1.90) =
 
 Una empresa con consejo activo (S = 0.25), alta congruencia institucional (IIC = 0.82), CEO con Anteros bajo (P_Anteros = 0.12) y cultura de baja rigidez tiene una probabilidad de colapso de gobernanza del 13% en cinco años —estructuralmente saludable pero no invulnerable, porque el 87% de probabilidad de no colapso no garantiza el 100%.
 
-El predictor como herramienta de due diligence:  Un inversor, un regulador o un consejo de administración entrante puede calcular este predictor con información pública (documentos de gobernanza, proxy statements, estudios de cultura organizacional) y con entrevistas semi-estructuradas a directivos (para estimar el perfil de hijos). El resultado no es una profecía: es el indicador más preciso disponible de que el sistema de gobernanza necesita intervención antes de que el colapso sea inevitable.
+> [!NOTE]
+> El predictor como herramienta de due diligence:  Un inversor, un regulador o un consejo de administración entrante puede calcular este predictor con información pública (documentos de gobernanza, proxy statements, estudios de cultura organizacional) y con entrevistas semi-estructuradas a directivos (para estimar el perfil de hijos). El resultado no es una profecía: es el indicador más preciso disponible de que el sistema de gobernanza necesita intervención antes de que el colapso sea inevitable.
 
 #### El predictor aplicado al diseño preventivo: Volkswagen contrafáctico
 
@@ -8424,7 +5990,8 @@ El predictor habría asignado una probabilidad del 81% de colapso de gobernanza 
 import numpy as np import math  def predictor_colapso_gobernanza(S_consejo, IIC, P_Anteros_CEO, R_star_cultura_neta,                                   N_anios=5, betas=(-3.2, 2.8, 1.6, 2.1, 1.4)):     """     P(colapso de gobernanza en N años) dado el perfil de gobernanza actual.     Modelo logístico calibrado con datos de gobernanza 2003-2024.      S_consejo:          fungibilidad del consejo como supervisor [0,1]     IIC:                Índice de Integridad Corporativa [0,1]     P_Anteros_CEO:      probabilidad del hijo Anteros en el CEO [0,1]     R_star_cultura_neta: R* neto de la cultura corporativa [0,1]     """     b0, b1, b2, b3, b4 = betas     logit = b0 + b1*S_consejo + b2*(1-IIC) + b3*P_Anteros_CEO + b4*R_star_cultura_neta     # Ajuste temporal: escalar el logit por el horizonte N     logit_N = logit * (N_anios / 5)     P = 1 / (1 + math.exp(-logit_N))     nivel = ('MUY ALTO' if P > 0.70 else 'ALTO' if P > 0.45              else 'MODERADO' if P > 0.25 else 'BAJO')     return {'logit': round(logit, 3), 'P_colapso': round(P, 4),             'nivel_riesgo': nivel,             'N_anios': N_anios}  def contrafactual_consejo(D_total_real, alpha_consejo_real, alpha_consejo_CF, gamma=1.8, R_star_disenador_base=0.35):     """     Estima el D_total contrafáctico si el consejo hubiera     ejercido una supervisión con alpha_CF en lugar de alpha_real.     """     R_star_d_real = R_star_disenador_base * math.exp(-gamma * alpha_consejo_real)     R_star_d_CF   = R_star_disenador_base * math.exp(-gamma * alpha_consejo_CF)     ratio = R_star_d_CF / R_star_d_real     D_CF = D_total_real * ratio return {'R_star_diseniador_real': round(R_star_d_real, 4), 'R_star_diseniador_CF':   round(R_star_d_CF,   4), 'D_total_real': D_total_real,             'D_total_CF':   round(D_CF, 0), 'ahorro_D': round(D_total_real - D_CF, 0),             'reduccion_pct': round((1 - ratio)*100, 1)}  # ── Aplicaciones ── print("=== Predictor de colapso de gobernanza ===") casos = [     ("Enron 1998",         0.90, 0.25, 0.55, 0.08),     ("VW 2011",            0.78, 0.45, 0.32, 0.10), ("Empresa sana",       0.25, 0.82, 0.12, 0.04),     ("Empresa en riesgo",
 
 
-0.75, 0.40, 0.38, 0.12), ] for nombre, S, IIC, PA, Rc in casos:     res = predictor_colapso_gobernanza(S, IIC, PA, Rc, N_anios=5)     print(f" {nombre:20s}: P(colapso 5a)={res['P_colapso']:.1%} [{res['nivel_riesgo']}]")  print("\n=== Contrafáctico: consejo de Enron ===") cf = contrafactual_consejo(     D_total_real=67_000_000_000, alpha_consejo_real=0.02,     alpha_consejo_CF=0.30,     gamma=1.8 ) for k, v in cf.items():     if isinstance(v, (int, float)) and abs(v) > 1000: print(f"  {k}: USD {v:,.0f}")     else:         print(f"  {k}: {v}")
+> [!NOTE]
+> 0.75, 0.40, 0.38, 0.12), ] for nombre, S, IIC, PA, Rc in casos:     res = predictor_colapso_gobernanza(S, IIC, PA, Rc, N_anios=5)     print(f" {nombre:20s}: P(colapso 5a)={res['P_colapso']:.1%} [{res['nivel_riesgo']}]")  print("\n=== Contrafáctico: consejo de Enron ===") cf = contrafactual_consejo(     D_total_real=67_000_000_000, alpha_consejo_real=0.02,     alpha_consejo_CF=0.30,     gamma=1.8 ) for k, v in cf.items():     if isinstance(v, (int, float)) and abs(v) > 1000: print(f"  {k}: USD {v:,.0f}")     else:         print(f"  {k}: {v}")
 
 
 §6.  Profundización formal — Esta sección puede saltarse sin perder el argumento del capítulo
@@ -8494,7 +6061,8 @@ confiabilidad
 # Capítulo 12
 ## Ingeniería de sistemas y confiabilidad
 
-*El índice de necesidad causal del fallo: cuando la junta teórica no era el problema*
+> [!NOTE]
+> *El índice de necesidad causal del fallo: cuando la junta teórica no era el problema*
 
 ---
 
@@ -8541,143 +6109,52 @@ operadores relevantes son el equipo de dirección de la NASA que tomó la decisi
 
 La comparación entre el Challenger y el 737 MAX no es solo histórica: es la demostración más poderosa del capítulo. Treinta y dos años separan los dos accidentes. En ambos casos, la estructura del grafo causal es casi idéntica:
 
-Challenger 1986 Boeing 737 MAX 2018-19
+| Elemento estructural | Challenger 1986 | Boeing 737 MAX 2018-19 |
+| --- | --- | --- |
+| Componente técnico fallido | Junta teórica O-ring: diseñada para temperaturas > 53°F, lanzada a 36°F. | Sensor AoA defectuoso + MCAS sin redundancia en el sensor input, sin indicador en cabina estándar. |
+| Ingenieros que advirtieron | Boisjoly y Thompson (Morton Thiokol): datos claros, recomendación explícita de no lanzar. | Ingenieros internos de Boeing que señalaron problemas con la clasificación de riesgo del MCAS. Algunos documentos post- accidente los muestran preocupados. |
+| Mecanismo de anulación | Directivos de Morton Thiokol | Reclasificación del MCAS de riesgo |
+| Presión del sistema | Presión política del lanzamiento (Reagan lo mencionaría en el discurso del Estado de la Unión esa noche). | Presión comercial: el 737 MAX debía ser más barato que el A320neo para no requerir entrenamiento diferencial con el 737 NG. |
+| Fallo del sistema de certificación | La NASA aceptó la decisión de lanzar sin documentar formalmente las objeciones de los ingenieros. | La FAA delegó la certificación del MCAS a Boeing con supervisión insuficiente. Aprobó el avión sin entender completamente el sistema. |
+| R* del componente físico | ~18% (la junta teórica fallida era condición técnica pero no suficiente sin las otras condiciones del sistema). | ~15% (el sensor defectuoso era condición técnica pero el MCAS sin redundancia ni transparencia era la condición sistémica). |
+| R* de los nodos organizacionales | ~82% distribuido entre NASA, Morton Thiokol dirección, y el sistema de decisión de lanzamiento. | ~85% distribuido entre Boeing dirección, FAA, y el sistema de certificación delegada. |
 
-Elemento estructural
-
-Componente técnico fallido
-
-Junta teórica O-ring: diseñada para temperaturas > 53°F, lanzada a 36°F.
-
-Sensor AoA defectuoso + MCAS sin redundancia en el sensor input, sin indicador en cabina estándar.
-
-Ingenieros que advirtieron
-
-Boisjoly y Thompson (Morton Thiokol): datos claros, recomendación explícita de no lanzar.
-
-Ingenieros internos de Boeing que señalaron problemas con la clasificación de riesgo del MCAS. Algunos documentos post-accidente los muestran preocupados.
-
-Mecanismo de anulación
-
-Directivos de Morton Thiokol
-
-Reclasificación del MCAS de riesgo
+> [!IMPORTANT]
+> Principio de ingeniería:  El patrón estructural que se repite en ambos casos es el isomorfismo más importante del capítulo: en ambos, el componente físico que "causó" el accidente según el análisis convencional tiene un INCF inferior al 20%. El 80% restante está en los nodos organizacionales que crearon las condiciones bajo las cuales ese componente físico era
 
 
 confiabilidad
 
-"poniéndose el sombrero de gestión" para anular la recomendación de ingeniería.
-
-"catastrófico" a "hazardous" para evitar el requisito de entrenamiento adicional.
-
-Presión del sistema
-
-Presión política del lanzamiento (Reagan lo mencionaría en el discurso del Estado de la Unión esa noche).
-
-Presión comercial: el 737 MAX debía ser más barato que el A320neo para no requerir entrenamiento diferencial con el 737 NG.
-
-Fallo del sistema de certificación
-
-La NASA aceptó la decisión de lanzar sin documentar formalmente las objeciones de los ingenieros.
-
-La FAA delegó la certificación del MCAS a Boeing con supervisión insuficiente. Aprobó el avión sin entender completamente el sistema.
-
-R* del componente físico
-
-~18% (la junta teórica fallida era condición técnica pero no suficiente sin las otras condiciones del sistema).
-
-~15% (el sensor defectuoso era condición técnica pero el MCAS sin redundancia ni transparencia era la condición sistémica).
-
-R* de los nodos organizacionales
-
-~82% distribuido entre NASA, Morton Thiokol dirección, y el sistema de decisión de lanzamiento.
-
-~85% distribuido entre Boeing dirección, FAA, y el sistema de certificación delegada.
-
-Principio de ingeniería:  El patrón estructural que se repite en ambos casos es el isomorfismo más importante del capítulo: en ambos, el componente físico que "causó" el accidente según el análisis convencional tiene un INCF inferior al 20%. El 80% restante está en los nodos organizacionales que crearon las condiciones bajo las cuales ese componente físico era
+> [!NOTE]
+> condición necesaria del fallo a esa escala. El sistema no aprendió porque el análisis forense del Challenger identificó la junta teórica como causa y el sistema de decisión como contexto. El cálculo causal invierte esas etiquetas.
 
 
 confiabilidad
 
-condición necesaria del fallo a esa escala. El sistema no aprendió porque el análisis forense del Challenger identificó la junta teórica como causa y el sistema de decisión como contexto. El cálculo causal invierte esas etiquetas.
-
-
-confiabilidad
 
 ### §2.  Página puente — Traducción al lenguaje de la ingeniería de sistemas
 
+
 Esta página resume las herramientas del sistema en el contexto de la ingeniería de sistemas y la confiabilidad. El lector con formación en ingeniería, gestión de seguridad operacional o análisis de accidentes puede comenzar aquí.
 
-Herramienta En ingeniería de sistemas se llama
+| Herramienta | En ingeniería de sistemas se llama | Qué significa |
+| --- | --- | --- |
+| Grafo causal G | Red causal del fallo sistémico | El mapa de todos los nodos que contribuyeron causalmente al fallo: el componente técnico, el operador, el diseñador, el sistema de certificación, la presión organizacional y política. Es el árbol de fallos expandido para incluir nodos organizacionales. |
 
-Qué significa
+> [!NOTE]
+> R* (vector) INCF — Índice de Necesidad Causal del Fallo
 
-Grafo causal G
-
-Red causal del fallo sistémico
-
-El mapa de todos los nodos que contribuyeron causalmente al fallo: el componente técnico, el operador, el diseñador, el sistema de certificación, la presión organizacional y política. Es el árbol de fallos expandido para incluir nodos organizacionales.
-
-R* (vector) INCF — Índice de Necesidad Causal del Fallo
-
-La fracción del fallo causalmente atribuible a cada nodo. INCF alto del componente físico: el fallo era principalmente técnico. INCF alto de los nodos organizacionales: el fallo era principalmente de diseño del sistema sociotécnico.
-
-Nodo de diseño
-
-Diseñador del sistema / arquitecto de las
-
-El nodo que diseñó las condiciones bajo las cuales el componente físico era condición necesaria del fallo: los directivos que fijaron las
-
-
-confiabilidad
-
-condiciones del fallo
-
-restricciones de certificación, los que aprobaron el diseño con las tolerancias inadecuadas.
-
-Nodo de presión
-
-Fuente de la presión que anuló la señal de advertencia
-
-En accidentes de ingeniería, hay siempre un nodo que generó la presión (temporal, económica, política) que hizo que las advertencias técnicas fueran ignoradas. Ese nodo tiene INCF positivo real aunque no haya diseñado el sistema.
-
-Operador Nodo humano con decisión en el punto crítico
-
-La persona que tomó la decisión de lanzar, de certificar, de no reportar. Sus hijos describen desde qué disposición actuó. S mide si esa decisión era idiosincrática o sistémica.
-
-S del operador
-
-Fungibilidad del operador en la decisión
-
-S alto: cualquier persona en esa posición, bajo la misma presión del sistema, habría tomado la misma decisión. El problema es sistémico, no personal. S bajo: la decisión dependía de las características idiosincráticas de ese operador.
-
-α del operador
-
-Grado de contención del riesgo ejercido
-
-Lo que el operador hizo para reducir el riesgo: protestó formalmente, documentó su disidencia, detuvo el proceso, escaló a niveles superiores. α = 0: no hizo nada para contener. α = 1: ejerció todas las acciones de contención a su alcance.
-
-Δ del operador
-
-Déficit de contención
-
-La brecha entre el peso causal del operador en el fallo y su ejercicio de contención. Δ El Cálculo de la Responsabilidad · Cap. 12 — Ingeniería de sistemas y
-
-confiabilidad
-
-proporcional al INCF
-
-positivo alto: tenía poder de intervención y no lo usó. Δ negativo: ejerció más contención de la que su posición requería (los ingenieros que protestaron tenían Δ negativo).
-
-D_total Daño del fallo sistémico
-
-T_invertido (vidas perdidas, activos destruidos), T_impedido (programas interrumpidos, proyectos cancelados), ΔT_trayectoria (pérdida permanente de confianza en el sistema, desvíos de recursos hacia investigación y litigios).
-
-Fobos: miedo a las consecuencias de detener el proceso (la carrera, la relación con el cliente). Potós: persistencia en el procedimiento establecido sin cuestionar. Anteros: afirmación deliberada de la decisión a pesar del riesgo conocido. Harmonía: el operador que protesta formalmente actúa desde Anteros + Harmonía.
-
-Hijos del operador
-
-Disposición de la voluntad en el momento de la decisión crítica
+| Herramienta | En ingeniería de sistemas se llama | Qué significa |
+| --- | --- | --- |
+| R* (vector) | INCF — Índice de Necesidad Causal del Fallo | La fracción del fallo causalmente atribuible a cada nodo. INCF alto del componente físico: el fallo era principalmente técnico. INCF alto de los nodos organizacionales: el fallo era principalmente de diseño del sistema sociotécnico. |
+| Nodo de diseño | Diseñador del sistema / arquitecto de las | El nodo que diseñó las condiciones bajo las cuales el componente físico era condición necesaria del fallo: los directivos que fijaron las |
+| Nodo de presión | Fuente de la presión que anuló la señal de advertencia | En accidentes de ingeniería, hay siempre un nodo que generó la presión (temporal, económica, política) que hizo que las advertencias técnicas fueran ignoradas. Ese nodo tiene INCF positivo real aunque no haya diseñado el sistema. |
+| Operador | Nodo humano con decisión en el punto crítico | La persona que tomó la decisión de lanzar, de certificar, de no reportar. Sus hijos describen desde qué disposición actuó. S mide si esa decisión era idiosincrática o sistémica. |
+| S del operador | Fungibilidad del operador en la decisión | S alto: cualquier persona en esa posición, bajo la misma presión del sistema, habría tomado la misma decisión. El problema es sistémico, no personal. S bajo: la decisión dependía de las características idiosincráticas de ese operador. |
+| α del operador | Grado de contención del riesgo ejercido | Lo que el operador hizo para reducir el riesgo: protestó formalmente, documentó su disidencia, detuvo el proceso, escaló a niveles superiores. α = 0: no hizo nada para contener. α = 1: ejerció todas las acciones de contención a su alcance. |
+| Δ del operador | Déficit de contención | La brecha entre el peso causal del operador en el fallo y su ejercicio de contención. Δ |
+| D_total | Daño del fallo sistémico | T_invertido (vidas perdidas, activos destruidos), T_impedido (programas interrumpidos, proyectos cancelados), ΔT_trayectoria (pérdida permanente de confianza en el sistema, desvíos de recursos hacia investigación y litigios). |
+| Hijos del operador | Disposición de la voluntad en el momento de la decisión crítica | Fobos: miedo a las consecuencias de detener el proceso (la carrera, la relación con el cliente). Potós: persistencia en el procedimiento establecido sin cuestionar. Anteros: afirmación deliberada de la decisión a pesar del riesgo conocido. Harmonía: el operador que protesta formalmente actúa desde Anteros + Harmonía. |
 
 Para el lector que viene del núcleo universal:  Este dominio tiene dos características singulares. Primera: el componente físico (la junta teórica, el sensor MCAS) es un nodo causal real, pero sin voluntad — su INCF apunta hacia quienes lo diseñaron y certificaron. Segunda: los hijos aplican solo a los operadores humanos en los puntos críticos de decisión, no a la organización como entidad abstracta.
 
@@ -8686,55 +6163,20 @@ confiabilidad
 
 ### §3.  Las herramientas en el contexto de la ingeniería de sistemas
 
+
 #### 3.1 El grafo causal del fallo sistémico: del árbol de fallos al grafo de responsabilidad
+
 
 El árbol de fallos (FTA) convencional mide la probabilidad de fallo como función de las probabilidades de fallo de los componentes. Es un instrumento hacia abajo: parte del evento de nivel superior (el accidente) y desciende hacia los componentes físicos. El grafo causal del fallo sistémico es un instrumento hacia arriba y hacia los lados: parte del mismo evento de nivel superior y expande el análisis para incluir los nodos organizacionales, regulatorios y políticos que determinaron las condiciones bajo las cuales el fallo técnico fue posible.
 
-Tipo Función causal en el fallo
-
-Nivel del nodo
-
-Ejemplo (Challenger)
-
-Físico Componente técnico que falló.
-
-El modo de fallo directo. INCF típicamente bajo-moderado porque sin las condiciones sistémicas no habría fallado en ese momento.
-
-Junta teórica O-ring: falló a 36°F porque N2 fijó ese día de lanzamiento.
-
-
-confiabilidad
-
-Diseño técnico El diseño del componente y sus tolerancias.
-
-Si el componente fue diseñado sin margen suficiente para las condiciones de operación real, el diseño tiene INCF positivo.
-
-Morton Thiokol diseñó la junta con tolerancias que no cubrían temperaturas < 53°F.
-
-Operativo El operador que tomó la decisión crítica.
-
-La persona con poder de detener el proceso y no lo detuvo, o que tomó la decisión bajo la presión del sistema.
-
-Nivel de gestión NASA y dirección MT que aprobó el lanzamiento.
-
-Organizacional La cultura y los procesos de la organización.
-
-Los protocolos de toma de decisión, la estructura de incentivos, los mecanismos de escalamiento de señales de riesgo.
-
-NASA: proceso de decisión de lanzamiento que separaba la voz de los ingenieros de la voz de la gestión.
-
-Sistémico / político
-
-Las presiones externas que actuaron sobre el sistema.
-
-Plazos, presión económica, presión política, compromisos con clientes. Estas presiones modifican el valor de
-
-Presión para lanzar antes del discurso del Estado de la Unión de Reagan.
-
-
-confiabilidad
-
-umbral θ de los operadores.
+| Nivel del nodo | Tipo | Función causal en el fallo | Ejemplo (Challenger) |
+| --- | --- | --- | --- |
+| Físico | Componente técnico que falló. | El modo de fallo directo. INCF típicamente bajo- moderado porque sin las condiciones sistémicas no habría fallado en ese momento. | Junta teórica O-ring: falló a 36°F porque N2 fijó ese día de lanzamiento. |
+| Diseño técnico | El diseño del componente y sus tolerancias. | Si el componente fue diseñado sin margen suficiente para las condiciones de operación real, el diseño tiene INCF positivo. | Morton Thiokol diseñó la junta con tolerancias que no cubrían temperaturas < 53°F. |
+| Operativo | El operador que tomó la decisión crítica. | La persona con poder de detener el proceso y no lo detuvo, o que tomó la decisión bajo la presión del sistema. | Nivel de gestión NASA y dirección MT que aprobó el lanzamiento. |
+| Organizacional | La cultura y los procesos de la organización. | Los protocolos de toma de decisión, la estructura de incentivos, los mecanismos de escalamiento de señales de riesgo. | NASA: proceso de decisión de lanzamiento que separaba la voz de los ingenieros de la voz de la gestión. |
+| Sistémico / político | Las presiones externas que actuaron sobre el sistema. | Plazos, presión económica, presión política, compromisos con clientes. Estas presiones modifican el valor de | Presión para lanzar antes del discurso del Estado de la Unión de Reagan. |
+|  |  | umbral θ de los operadores. |  |
 
 #### 3.2 INCF y la regla de los nodos de decisión críticos
 
@@ -8768,25 +6210,14 @@ confiabilidad
 
 #### En el dominio de la ingeniería de seguridad, α del operador tiene una escala específica que va desde la no intervención hasta la disidencia documentada y el paro del proceso:
 
-Nivel de α Rango Conducta observable del operador
-
-Silencio pasivo 0.00– 0.05 El operador no expresó ninguna objeción, aunque tenía información de riesgo. No intervino en ningún momento del proceso.
-
-Objeción verbal sin documentar
-
-0.06– 0.20 Expresó preocupación verbalmente pero no la documentó formalmente. La objeción no quedó en el registro del proceso de decisión.
-
-Objeción documentada
-
-0.21– 0.45 Documentó su disidencia formalmente. La objeción consta en el registro pero no detuvo el proceso.
-
-Escala formal 0.46– 0.70 Escaló la objeción a niveles superiores del sistema. Usó los canales formales de reporte de riesgo.
-
-Disidencia institucional
-
-0.71– 0.89 Rechazó formalmente participar en la decisión o certificar el proceso. Boisjoly recomendó no lanzar y documentó su recomendación: α ≈ 0.80.
-
-0.90– 1.00 Detuvo unilateralmente el proceso o reportó externamente el riesgo. Solo posible cuando el operador tiene autoridad o cuando las consecuencias de la objeción son aceptables para él.
+| Nivel de α | Rango | Conducta observable del operador |
+| --- | --- | --- |
+| Silencio pasivo | 0.00– 0.05 | El operador no expresó ninguna objeción, aunque tenía información de riesgo. No intervino en ningún momento del proceso. |
+| Objeción verbal sin documentar | 0.06– 0.20 | Expresó preocupación verbalmente pero no la documentó formalmente. La objeción no quedó en el registro del proceso de decisión. |
+| Objeción documentada | 0.21– 0.45 | Documentó su disidencia formalmente. La objeción consta en el registro pero no detuvo el proceso. |
+| Escala formal | 0.46– 0.70 | Escaló la objeción a niveles superiores del sistema. Usó los canales formales de reporte de riesgo. |
+| Disidencia institucional | 0.71– 0.89 | Rechazó formalmente participar en la decisión o certificar el proceso. Boisjoly recomendó no lanzar y documentó su recomendación: α ≈ 0.80. |
+| Paro del proceso | 0.90– 1.00 | Detuvo unilateralmente el proceso o reportó externamente el riesgo. Solo posible cuando el operador tiene autoridad o cuando las consecuencias de la objeción son aceptables para él. |
 
 Paro del proceso
 
@@ -8831,57 +6262,15 @@ confiabilidad
 
 #### A.2 El grafo causal del Challenger
 
-Tipo Función causal en el accidente
-
-Nod o
-
-Actor/Facto r
-
-N1 Presión política / agenda del lanzamiento
-
-Sistémico/político La fecha de lanzamiento estaba vinculada al discurso de Reagan. La presión para lanzar en esa fecha específica fue el factor que comprimió el umbral de θ de todos los nodos de decisión. Sin esa presión, el lanzamiento habría sido pospuesto.
-
-N2 NASA: gestión del programa (nivel L-II y L-III)
-
-Organizacional/decisió n
-
-El proceso de decisión de la NASA no tenía un mecanismo formal para que las objeciones de los ingenieros subcontratista s bloquearan el lanzamiento.
-
-
-confiabilidad
-
-La gestión de la NASA operaba con la expectativa de que Morton Thiokol recomendaría el lanzamiento.
-
-N3 Directivos de Morton Thiokol (Mason, Lund, Kilminster)
-
-Operadores en nodo crítico
-
-Tomaron la decisión de revertir la recomendació n de los ingenieros y firmar la autorización de lanzamiento. Es el nodo de decisión más crítico del grafo.
-
-N4 Sistema de diseño de la junta teórica
-
-Diseño técnico La junta fue diseñada con tolerancias que no cubrían temperaturas < 53°F. Esa brecha de diseño era conocida y había producido erosiones en vuelos anteriores sin consecuencias fatales.
-
-N5 Junta teórica O-
-
-Componente físico El componente
-
-
-confiabilidad
-
-ring del propulsor derecho
-
-que falló técnicamente. Su INCF es real pero no dominante: sin las condiciones de N1-N3, no habría fallado en ese momento específico.
-
-N6 Boisjoly y Thompson (ingenieros)
-
-Operadores de contención
-
-Ejercieron la mayor contención disponible en su posición. α ≈ 0.80. Su Δ es negativo (asumieron más de lo que su INCF requería). No son causalmente responsables del accidente: son el nodo de mayor α del grafo.
-
-Nf Los siete tripulantes del Challenger
-
-Nodo final No entra en el cálculo de INCF.
+| Nod o | Actor/Facto r | Tipo | Función causal en el accidente |
+| --- | --- | --- | --- |
+| N1 | Presión política / agenda del lanzamiento | Sistémico/político | La fecha de lanzamiento estaba vinculada al discurso de Reagan. La presión para lanzar en esa fecha específica fue el factor que comprimió el umbral de θ de todos los nodos de decisión. Sin esa presión, el lanzamiento habría sido pospuesto. |
+| N2 | NASA: gestión del programa (nivel L-II y L-III) | Organizacional/decisió n | El proceso de decisión de la NASA no tenía un mecanismo formal para que las objeciones de los ingenieros subcontratista s bloquearan el lanzamiento. |
+| N3 | Directivos de Morton Thiokol (Mason, Lund, Kilminster) | Operadores en nodo crítico | Tomaron la decisión de revertir la recomendació n de los ingenieros y firmar la autorización de lanzamiento. Es el nodo de decisión más crítico del grafo. |
+| N4 | Sistema de diseño de la junta teórica | Diseño técnico | La junta fue diseñada con tolerancias que no cubrían temperaturas < 53°F. Esa brecha de diseño era conocida y había producido erosiones en vuelos anteriores sin consecuencias fatales. |
+| N5 | Junta teórica O- | Componente físico | El componente |
+| N6 | Boisjoly y Thompson (ingenieros) | Operadores de contención | Ejercieron la mayor contención disponible en su posición. α ≈ 0.80. Su Δ es negativo (asumieron más de lo que su INCF requería). No son causalmente responsables del accidente: son el nodo de mayor α del grafo. |
+| Nf | Los siete tripulantes del Challenger | Nodo final | No entra en el cálculo de INCF. |
 
 #### A.3 INCF, S y el análisis de los hijos
 
@@ -8890,32 +6279,16 @@ Nodo INCF S α Interpretación
 
 confiabilidad
 
-~28% 0.40 0.00 S moderado-bajo: era esta presión específica la que hizo que ese día en particular fuera inamovible. Otro ciclo de presión habría producido una dinámica diferente.
-
-N1 — Presión política
-
-~26% 0.70 0.05 S alto: cualquier gestor de programa bajo la misma estructura de decisión habría operado igual. El problema era el proceso, no las personas.
-
-N2 — NASA gestión
-
-~22% 0.62 0.08 S moderado-alto: bajo la misma presión de contrato y relación con la NASA, otros directivos habrían actuado similarmente. Pero la frase de Mason "ponte el sombrero de gestión" indica Anteros: deliberación que culminó en la decisión de asumir el riesgo.
-
-N3 — Directivos MT
-
-~14% 0.55 0.10 Brecha de diseño conocida pero no corregida. INCF real por la decisión de operar sin corregir el diseño.
-
-N4 — Diseño de la junta
-
-~8% 0.85 0.00 Componente físico con S alto: cualquier junta teórica del mismo diseño habría fallado en esas condiciones. El INCF del componente es bajo porque el diseño (N4) y las condiciones sistémicas (N1-N3) eran la causa dominante.
-
-N5 — Junta teórica física
-
-
-confiabilidad
-
-~2% 0.30 0.80 Δ = 2% − 80% = −78%: asumieron mucho más de lo que su posición causal requería. Son el modelo de lo que el sistema de seguridad necesita y no tenía mecanismos para potenciar.
-
-N6 — Boisjoly / Thompson
+<table>
+<tbody>
+<tr><th scope="row">N1 — Presión política</th><td>~28%</td><td>0.40</td><td>0.00</td><td>S moderado-bajo: era esta presión específica la que hizo que ese día en particular fuera inamovible. Otro ciclo de presión habría producido una dinámica diferente.</td></tr>
+<tr><th scope="row">N2 — NASA gestión</th><td>~26%</td><td>0.70</td><td>0.05</td><td>S alto: cualquier gestor de programa bajo la misma estructura de decisión habría operado igual. El problema era el proceso, no las personas.</td></tr>
+<tr><th scope="row">N3 — Directivos MT</th><td>~22%</td><td>0.62</td><td>0.08</td><td>S moderado-alto: bajo la misma presión de contrato y relación con la NASA, otros directivos habrían actuado similarmente. Pero la frase de Mason &quot;ponte el sombrero de gestión&quot; indica Anteros: deliberación que culminó en la decisión de asumir el riesgo.</td></tr>
+<tr><th scope="row">N4 — Diseño de la junta</th><td>~14%</td><td>0.55</td><td>0.10</td><td>Brecha de diseño conocida pero no corregida. INCF real por la decisión de operar sin corregir el diseño.</td></tr>
+<tr><th scope="row">N5 — Junta teórica física</th><td>~8%</td><td>0.85</td><td>0.00</td><td>Componente físico con S alto: cualquier junta teórica del mismo diseño habría fallado en esas condiciones. El INCF del componente es bajo porque el diseño (N4) y las condiciones sistémicas (N1-N3) eran la causa dominante.</td></tr>
+<tr><th scope="row">N6 — Boisjoly / Thompson</th><td>~2%</td><td>0.30</td><td>0.80</td><td>Δ = 2% − 80% = −78%: asumieron mucho más de lo que su posición causal requería. Son el modelo de lo que el sistema de seguridad necesita y no tenía mecanismos para potenciar.</td></tr>
+</tbody>
+</table>
 
 #### A.4 Los hijos en el momento de la decisión: dos noches, dos disposiciones
 
@@ -8934,7 +6307,8 @@ confiabilidad
 
 consecuencias de contradecir a la NASA, persistencia en la relación habitual, y la afirmación de que su rol como gestión era tomar la decisión, aunque los ingenieros no estuvieran de acuerdo).
 
-La frase que define el caso:  Jerald Mason le dijo a Robert Lund "ponte el sombrero de gestión". Esa instrucción es la descripción más precisa que existe de la transición de Harmonía a Fobos en tiempo real: "deja de deliberar con tus datos de ingeniería y actúa desde tu posición en la jerarquía". Es la instrucción de desactivar φ₂ y actuar desde el campo del sistema en lugar de desde el eje propio. Boisjoly no siguió esa instrucción. Lund sí. Esa diferencia de disposición es la diferencia entre α = 0.80 y α = 0.08 en el momento más crítico del grafo.
+> [!NOTE]
+> La frase que define el caso:  Jerald Mason le dijo a Robert Lund "ponte el sombrero de gestión". Esa instrucción es la descripción más precisa que existe de la transición de Harmonía a Fobos en tiempo real: "deja de deliberar con tus datos de ingeniería y actúa desde tu posición en la jerarquía". Es la instrucción de desactivar φ₂ y actuar desde el campo del sistema en lugar de desde el eje propio. Boisjoly no siguió esa instrucción. Lund sí. Esa diferencia de disposición es la diferencia entre α = 0.80 y α = 0.08 en el momento más crítico del grafo.
 
 A.5 El D_total del Challenger
 
@@ -8982,7 +6356,8 @@ confiabilidad
 
 Caso B — Boeing 737 MAX (octubre 2018 — marzo 2019)
 
-El mismo patrón 32 años después: INCF del sistema de certificación delegada y de la presión comercial
+> [!NOTE]
+> El mismo patrón 32 años después: INCF del sistema de certificación delegada y de la presión comercial
 
 B.1 El contexto histórico
 
@@ -8999,81 +6374,28 @@ confiabilidad
 
 #### B.2 El grafo causal del 737 MAX
 
-Nodo Actor/Factor Tipo Función causal en los accidentes
-
-N1 Boeing dirección: presión comercial y la decisión de reclasificar el MCAS
-
-Diseño del incentivo sistémico
-
-La decisión de reducir la clasificación de riesgo del MCAS de "catastrophic" a "hazardous" para evitar el requerimiento de entrenamiento diferencial. Sin esa decisión, los pilotos habrían tenido la información y el entrenamiento para contrarrestar el MCAS.
-
-N2 Diseño del MCAS: sensor único sin redundancia + sin indicador estándar
-
-Diseño técnico con omisión crítica
-
-El MCAS dependía de un solo sensor AoA (Angle of Attack). Si ese sensor fallaba, el MCAS actuaba de todas formas. Adicionalmente, el indicador de desacuerdo entre sensores AoA no era estándar —era una opción de pago. Dos 737 MAX crasheados no lo tenían activado.
-
-N3 FAA: certificación delegada sin
-
-Omisión regulatoria
-
-La FAA había delegado gran parte de la certificación del
-
-
-confiabilidad
-
-supervisión suficiente
-
-737 MAX a los propios ingenieros de Boeing bajo el ODA (Organization Designation Authorization). Los supervisores de la FAA no entendieron completamente el MCAS antes de certificar el avión.
-
-N4 Sensor AoA defectuoso del JT610 y ET302
-
-Componente físico
-
-El sensor que envió lecturas erróneas al MCAS. INCF bajo: cualquier sensor con una falla equivalente en el mismo sistema habría producido el mismo resultado.
-
-N5 Aerolíneas: falta de información sobre el MCAS
-
-Brecha de información
-
-Las aerolíneas no tenían información suficiente sobre el MCAS para diseñar procedimientos de emergencia o entrenar a sus pilotos.
-
-N6 Pilotos del JT610 y ET302
-
-Operadores terminales sin información
-
-Enfrentaron una situación para la que no tenían información ni entrenamiento. Su S es muy alto: cualquier piloto sin el conocimiento del MCAS habría tenido las mismas dificultades.
-
-Nf 346 víctimas Nodo final No entra en el cálculo de INCF.
-
-
-confiabilidad
+| Nodo | Actor/Factor | Tipo | Función causal en los accidentes |
+| --- | --- | --- | --- |
+| N1 | Boeing dirección: presión comercial y la decisión de reclasificar el MCAS | Diseño del incentivo sistémico | La decisión de reducir la clasificación de riesgo del MCAS de "catastrophic" a "hazardous" para evitar el requerimiento de entrenamiento diferencial. Sin esa decisión, los pilotos habrían tenido la información y el entrenamiento para contrarrestar el MCAS. |
+| N2 | Diseño del MCAS: sensor único sin redundancia + sin indicador estándar | Diseño técnico con omisión crítica | El MCAS dependía de un solo sensor AoA (Angle of Attack). Si ese sensor fallaba, el MCAS actuaba de todas formas. Adicionalmente, el indicador de desacuerdo entre sensores AoA no era estándar —era una opción de pago. Dos 737 MAX crasheados no lo tenían activado. |
+| N3 | FAA: certificación delegada sin | Omisión regulatoria | La FAA había delegado gran parte de la certificación del |
+| N4 | Sensor AoA defectuoso del JT610 y ET302 | Componente físico | El sensor que envió lecturas erróneas al MCAS. INCF bajo: cualquier sensor con una falla equivalente en el mismo sistema habría producido el mismo resultado. |
+| N5 | Aerolíneas: falta de información sobre el MCAS | Brecha de información | Las aerolíneas no tenían información suficiente sobre el MCAS para diseñar procedimientos de emergencia o entrenar a sus pilotos. |
+| N6 | Pilotos del JT610 y ET302 | Operadores terminales sin información | Enfrentaron una situación para la que no tenían información ni entrenamiento. Su S es muy alto: cualquier piloto sin el conocimiento del MCAS habría tenido las mismas dificultades. |
+| Nf | 346 víctimas | Nodo final | No entra en el cálculo de INCF. |
+| Nodo | INCF | S | Analogía con Challenger |
+| --- | --- | --- | --- |
+| N1 — Boeing dirección | ~32% | 0.30 | Análogo a N1 (presión política) + N3 (directivos MT) del Challenger. La presión comercial es el equivalente funcional de la presión política. |
 
 #### B.3 INCF y el isomorfismo con el Challenger
 
-Nodo INCF S Analogía con Challenger
-
-~32% 0.30 Análogo a N1 (presión política) + N3 (directivos MT) del Challenger. La presión comercial es el equivalente funcional de la presión política.
-
-N1 — Boeing dirección
-
-~28% 0.40 Análogo a N4 (diseño de la junta). La brecha de diseño conocida pero no corregida: MCAS sin redundancia de sensor.
-
-N2 — Diseño MCAS
-
-~22% 0.65 Análogo a N2 (NASA gestión). El regulador que aceptó la clasificación de riesgo rebajada sin comprenderla completamente.
-
-N3 — FAA certificación
-
-~8% 0.88 Análogo a N5 (junta teórica). Componente físico con S alto: cualquier sensor equivalente con la misma falla en el mismo sistema.
-
-N4 — Sensor AoA
-
-~6% 0.80 Brecha de información con S alto: cualquier aerolínea en la misma situación informativa habría operado igual.
-
-N5 — Aerolíneas
-
-N6 — Pilotos ~4% 0.95 S muy alto. Su α es prácticamente cero no porque no actuaran sino porque no tenían la información para actuar.
+| Nodo | INCF | S | Analogía con Challenger |
+| --- | --- | --- | --- |
+| N2 — Diseño MCAS | ~28% | 0.40 | Análogo a N4 (diseño de la junta). La brecha de diseño conocida pero no corregida: MCAS sin redundancia de sensor. |
+| N3 — FAA certificación | ~22% | 0.65 | Análogo a N2 (NASA gestión). El regulador que aceptó la clasificación de riesgo rebajada sin comprenderla completamente. |
+| N4 — Sensor AoA | ~8% | 0.88 | Análogo a N5 (junta teórica). Componente físico con S alto: cualquier sensor equivalente con la misma falla en el mismo sistema. |
+| N5 — Aerolíneas | ~6% | 0.80 | Brecha de información con S alto: cualquier aerolínea en la misma situación informativa habría operado igual. |
+| N6 — Pilotos | ~4% | 0.95 | S muy alto. Su α es prácticamente cero no porque no actuaran sino porque no tenían la información para actuar. |
 
 El isomorfismo entre los dos accidentes es casi perfecto: los nodos de diseño organizacional tienen INCF dominante (~82% combinado en ambos casos), el componente físico tiene INCF < 10%, y el sistema de certificación tiene INCF en el rango 22-26%. La diferencia más importante es que en
 
@@ -9260,39 +6582,15 @@ El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
 #### Todo sistema algorítmico de decisión tiene tres componentes que el análisis de responsabilidad debe distinguir con precisión:
 
-Componente Descripción Quién lo controla
+| Componente | Descripción | Quién lo controla | R* típico |
+| --- | --- | --- | --- |
+| La métrica target | La variable que el algoritmo optimiza. "Reincidencia", "candidato exitoso", "riesgo de impago". Define qué significa el éxito del sistema. | El directivo o el equipo que diseñó el sistema. Es una decisión humana, no técnica. | ALTO — es el nodo de diseño del objetivo |
+| El dataset | Los datos históricos con los que el algoritmo aprende a predecir la métrica. Contienen el sesgo de los sistemas que los produjeron. | Hereda el sesgo de quienes generaron los datos históricos. Nodo sin voluntad que transmite ese sesgo al sistema presente. | MODERADO- ALTO — transmite el sesgo histórico |
+| El modelo | El algoritmo de aprendizaje | El equipo técnico | BAJO — optimiza la |
+|  | automático que aprende el patrón entre los features y la métrica. | que lo construyó. Sin voluntad propia: optimiza lo que se le pide sobre los datos que le dan. | métrica dada con los datos dados |
 
-R* típico
-
-La métrica target
-
-La variable que el algoritmo optimiza. "Reincidencia", "candidato exitoso", "riesgo de impago". Define qué significa el éxito del sistema.
-
-El directivo o el equipo que diseñó el sistema. Es una decisión humana, no técnica.
-
-ALTO — es el nodo de diseño del objetivo
-
-El dataset Los datos históricos con los que el algoritmo aprende a predecir la métrica. Contienen el sesgo de los sistemas que los produjeron.
-
-Hereda el sesgo de quienes generaron los datos históricos. Nodo sin voluntad que transmite ese sesgo al sistema presente.
-
-MODERADO-ALTO — transmite el sesgo histórico
-
-El modelo El algoritmo de aprendizaje
-
-El equipo técnico
-
-BAJO — optimiza la
-
-El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
-
-automático que aprende el patrón entre los features y la métrica.
-
-que lo construyó. Sin voluntad propia: optimiza lo que se le pide sobre los datos que le dan.
-
-métrica dada con los datos dados
-
-Principio algorítmico:  La jerarquía de responsabilidad algorítmica invierte la jerarquía de visibilidad: el componente más visible (el modelo, el algoritmo) tiene el R* más bajo. El componente más invisible (quien definió la métrica) tiene el R* más alto. El análisis de responsabilidad algorítmica convencional trabaja al revés: pide cuentas al modelo cuando debería pedir cuentas al diseñador de la métrica.
+> [!IMPORTANT]
+> Principio algorítmico:  La jerarquía de responsabilidad algorítmica invierte la jerarquía de visibilidad: el componente más visible (el modelo, el algoritmo) tiene el R* más bajo. El componente más invisible (quien definió la métrica) tiene el R* más alto. El análisis de responsabilidad algorítmica convencional trabaja al revés: pide cuentas al modelo cuando debería pedir cuentas al diseñador de la métrica.
 
 #### 1.2 La métrica como acto de diseño normativo
 
@@ -9310,7 +6608,8 @@ tomaría decisiones equivalentes bajo las mismas restricciones.
 - Decisión normativa: qué variable optimizar (la métrica target), qué población incluir en el dataset de entrenamiento, qué período histórico usar como referencia, qué umbrales de clasificación usar para la decisión final. Estas decisiones tienen R* alto porque definen el comportamiento del sistema y no hay una única respuesta técnicamente correcta —hay múltiples opciones con consecuencias distribucionales distintas.
 
 
-Diseñador de la métrica (nodo de mayor R*):  El actor humano o institucional que tomó la decisión normativa de qué variable optimiza el algoritmo. No es necesariamente quien lo programó ni quien lo desplegó: es quien definió el objetivo. En COMPAS, quien decidió que "reincidencia" = "nuevo arresto en 2 años" en lugar de "nueva condena" o "violencia documentada". En Amazon, quien decidió que el "éxito" se mediría con los CVs históricos de contrataciones previas sin ajustar por la composición de género del período.
+> [!NOTE]
+> Diseñador de la métrica (nodo de mayor R*):  El actor humano o institucional que tomó la decisión normativa de qué variable optimiza el algoritmo. No es necesariamente quien lo programó ni quien lo desplegó: es quien definió el objetivo. En COMPAS, quien decidió que "reincidencia" = "nuevo arresto en 2 años" en lugar de "nueva condena" o "violencia documentada". En Amazon, quien decidió que el "éxito" se mediría con los CVs históricos de contrataciones previas sin ajustar por la composición de género del período.
 
 #### 1.3 Por qué los hijos no aplican en este dominio
 
@@ -9330,77 +6629,20 @@ El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
 Esta página resume las herramientas del sistema en el contexto de la inteligencia artificial, el aprendizaje automático y los sistemas de decisión algorítmica. El lector con formación en ciencias de datos, ingeniería de software o política tecnológica puede comenzar aquí.
 
-Herramienta En IA y algoritmos se llama
-
-Qué significa
-
-Grafo causal G
-
-Red de responsabilidad algorítmica
-
-El mapa de todos los nodos que contribuyeron causalmente al resultado sesgado o dañino: el diseñador de la métrica, el dataset, el modelo, el desplegador, el regulador, y el contexto histórico que generó los datos sesgados.
-
-R* (vector) Responsabilidad algorítmica causal
-
-La fracción del resultado dañino causalmente atribuible a cada nodo. El modelo tiene R* bajo (optimiza lo que le piden). El diseñador de la métrica tiene R* alto (definió qué optimizar). El dataset tiene R* moderado (transmite el sesgo histórico).
-
-El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
-
-Nodo de la métrica
-
-Diseñador de la variable objetivo (target)
-
-El nodo de mayor R* del grafo algorítmico. Quien decidió qué optimiza el sistema. Es una decisión normativa, no técnica, y su R* es proporcional a cuánto el resultado dañino depende de esa elección específica.
-
-Nodo del dataset
-
-Dataset histórico sesgado
-
-Nodo sin voluntad que transmite el sesgo de los sistemas históricos que lo produjeron. Su R* apunta hacia quienes generaron esos datos históricos bajo sistemas sesgados (la misma cadena del Capítulo 8 sobre redlining).
-
-Nodo del modelo
-
-Algoritmo de aprendizaje
-
-Nodo sin voluntad. R* bajo: optimiza la métrica que le dieron sobre los datos que le dieron. Su R* apunta hacia el diseñador de la métrica y el proveedor del dataset.
-
-Nodo desplegador
-
-Quien desplegó el sistema en producción
-
-Tiene R* positivo si desplegó el sistema sin auditoría de equidad o sin el análisis de disparate impact que sus consecuencias requerían. R* proporcional a cuánto sabía o debía saber sobre el sesgo antes del despliegue.
-
-S del modelo Fungibilidad del modelo técnico
-
-S muy alto: cualquier modelo de aprendizaje competente entrenado con la misma métrica y el mismo dataset habría
-
-El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
-
-producido el mismo sesgo. La solución técnica (cambiar el modelo) no resuelve el problema si la métrica y el dataset permanecen.
-
-S del dataset Fungibilidad del sesgo histórico
-
-S depende de si el sesgo es específico de ese dataset (idiosincrático) o genérico de cualquier dataset de ese período y contexto. Si es genérico (S alto), la corrección debe ser sobre la métrica, no solo sobre el dataset.
-
-α del desplegador
-
-Medidas de mitigación implementadas antes del despliegue
-
-Auditoría de equidad antes del despliegue, análisis de disparate impact, comunicación transparente a los afectados sobre el uso del algoritmo, mecanismos de apelación. α = 0: nada de lo anterior.
-
-Δ del diseñador
-
-Déficit de responsabilidad del diseñador de la métrica
-
-La brecha entre el R* del diseñador de la métrica en el resultado sesgado y su asunción efectiva. Cuando el diseñador afirma "el modelo es técnicamente correcto" sin reconocer que la elección de la métrica era el problema, Δ es positivo.
-
-D_total Daño algorítmico total
-
-T_invertido (decisiones incorrectas ya tomadas por el algoritmo y sus consecuencias directas), T_impedido (oportunidades negadas a los individuos mal
-
-El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
-
-clasificados), ΔT_trayectoria (pérdida permanente de potencial de los afectados).
+| Herramienta | En IA y algoritmos se llama | Qué significa |
+| --- | --- | --- |
+| Grafo causal G | Red de responsabilidad algorítmica | El mapa de todos los nodos que contribuyeron causalmente al resultado sesgado o dañino: el diseñador de la métrica, el dataset, el modelo, el desplegador, el regulador, y el contexto histórico que generó los datos sesgados. |
+| R* (vector) | Responsabilidad algorítmica causal | La fracción del resultado dañino causalmente atribuible a cada nodo. El modelo tiene R* bajo (optimiza lo que le piden). El diseñador de la métrica tiene R* alto (definió qué optimizar). El dataset tiene R* moderado (transmite el sesgo histórico). |
+| Nodo de la métrica | Diseñador de la variable objetivo (target) | El nodo de mayor R* del grafo algorítmico. Quien decidió qué optimiza el sistema. Es una decisión normativa, no técnica, y su R* es proporcional a cuánto el resultado dañino depende de esa elección específica. |
+| Nodo del dataset | Dataset histórico sesgado | Nodo sin voluntad que transmite el sesgo de los sistemas históricos que lo produjeron. Su R* apunta hacia quienes generaron esos datos históricos bajo sistemas sesgados (la misma cadena del Capítulo 8 sobre redlining). |
+| Nodo del modelo | Algoritmo de aprendizaje | Nodo sin voluntad. R* bajo: optimiza la métrica que le dieron sobre los datos que le dieron. Su R* apunta hacia el diseñador de la métrica y el proveedor del dataset. |
+| Nodo desplegador | Quien desplegó el sistema en producción | Tiene R* positivo si desplegó el sistema sin auditoría de equidad o sin el análisis de disparate impact que sus consecuencias requerían. R* proporcional a cuánto sabía o debía saber sobre el sesgo antes del despliegue. |
+| S del modelo | Fungibilidad del modelo técnico | S muy alto: cualquier modelo de aprendizaje competente entrenado con la misma métrica y el mismo dataset habría |
+| S del dataset | Fungibilidad del sesgo histórico | S depende de si el sesgo es específico de ese dataset (idiosincrático) o genérico de cualquier dataset de ese período y contexto. Si es genérico (S alto), la corrección debe ser sobre la métrica, no solo sobre el dataset. |
+| α del desplegador | Medidas de mitigación implementadas antes del despliegue | Auditoría de equidad antes del despliegue, análisis de disparate impact, comunicación transparente a los afectados sobre el uso del algoritmo, mecanismos de apelación. α = 0: nada de lo anterior. |
+| Δ del diseñador | Déficit de responsabilidad del diseñador de la métrica | La brecha entre el R* del diseñador de la métrica en el resultado sesgado y su asunción efectiva. Cuando el diseñador afirma "el modelo es técnicamente correcto" sin reconocer que la elección de la métrica era el problema, Δ es positivo. |
+| D_total | Daño algorítmico total | T_invertido (decisiones incorrectas ya tomadas por el algoritmo y sus consecuencias directas), T_impedido (oportunidades negadas a los individuos mal |
+|  |  | clasificados), ΔT_trayectoria (pérdida permanente de potencial de los afectados). |
 
 Para el lector que viene del núcleo universal:  Este dominio extiende el concepto del nodo algorítmico/dataset del Capítulo 8 con dos precisiones nuevas. Primera: la distinción entre la métrica (decisión normativa de alto R*) y el modelo (decisión técnica de bajo R*). Segunda: la propiedad de que el modelo tiene S = 1.0 porque optimiza mecánicamente lo que se le pide — la única manera de cambiar el resultado del modelo es cambiar la métrica o el dataset.
 
@@ -9412,41 +6654,18 @@ El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
 El grafo de un sistema algorítmico tiene una estructura jerárquica que difiere de los grafos de los dominios anteriores en un aspecto crítico: todos los nodos del sistema técnico (métrica, dataset, modelo) son condición necesaria del resultado, pero sus pesos causales son muy distintos. La métrica determina qué se optimiza. El dataset determina con qué patrones se aprende. El modelo optimiza la métrica usando esos patrones. Sin la métrica y el dataset dados, el modelo no puede producir el resultado sesgado.
 
-Nodo Tipo R* típico
-
-Descripción y dirección del R*
-
-Diseñador de la métrica
-
-Decisión normativa
-
-~35– 50% Definir qué optimiza el sistema es el acto de mayor impacto causal. Su R* no apunta "hacia abajo" a otros nodos: es el origen de la cadena. Humano con responsabilidad.
-
-Contexto histórico generador del sesgo
-
-Estructura causal profunda
-
-~20– 35% Los sistemas históricos sesgados (redlining, discriminación en el empleo) que generaron los datos del dataset. R* apunta hacia el nodo del dataset y retrocede hacia las instituciones históricas. Análogo al redlining del Cap. 8.
-
-El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
-
-Dataset Nodo técnico sin voluntad
-
-~15– 25% Transmite el sesgo histórico al modelo. Su R* apunta hacia quienes lo generaron (contexto histórico) y hacia el desplegador que lo usó sin auditar.
-
-Desplegador Decisión humana de producción
-
-~10– 20% Quien tomó la decisión de usar el sistema en producción sobre poblaciones reales. Su R* es mayor cuando tenía información sobre el sesgo y no actuó.
-
-Modelo (algoritmo)
-
-Nodo técnico sin voluntad
-
-~3– 8% S = 1.0 prácticamente: cualquier modelo competente habría aprendido el mismo patrón sesgado de los mismos datos para la misma métrica. R* residual apunta hacia el diseñador de la métrica.
-
-Regulador Omisión sistémica
-
-~5– 12% La ausencia de estándares de auditoría obligatoria antes del despliegue. S alto: cualquier regulador bajo el mismo marco habría tenido la misma brecha.
+| Nodo | Tipo | R* típico | Descripción y dirección del R* |
+| --- | --- | --- | --- |
+| Diseñador de la métrica | Decisión normativa | ~35– 50% | Definir qué optimiza el sistema es el acto de mayor impacto causal. Su R* no apunta "hacia abajo" a otros nodos: es el origen de la cadena. Humano con responsabilidad. |
+| Contexto histórico generador del sesgo | Estructura causal profunda | ~20– 35% | Los sistemas históricos sesgados (redlining, discriminación en el empleo) que generaron los datos del dataset. R* apunta hacia el nodo del dataset y retrocede hacia las instituciones históricas. Análogo al redlining del Cap. 8. |
+<table>
+<tbody>
+<tr><th scope="row">Dataset</th><td>Nodo técnico sin voluntad</td><td>~15– 25%</td><td>Transmite el sesgo histórico al modelo. Su R* apunta hacia quienes lo generaron (contexto histórico) y hacia el desplegador que lo usó sin auditar.</td></tr>
+<tr><th scope="row">Desplegador</th><td>Decisión humana de producción</td><td>~10– 20%</td><td>Quien tomó la decisión de usar el sistema en producción sobre poblaciones reales. Su R* es mayor cuando tenía información sobre el sesgo y no actuó.</td></tr>
+<tr><th scope="row">Modelo (algoritmo)</th><td>Nodo técnico sin voluntad</td><td>~3– 8%</td><td>S = 1.0 prácticamente: cualquier modelo competente habría aprendido el mismo patrón sesgado de los mismos datos para la misma métrica. R* residual apunta hacia el diseñador de la métrica.</td></tr>
+<tr><th scope="row">Regulador</th><td>Omisión sistémica</td><td>~5– 12%</td><td>La ausencia de estándares de auditoría obligatoria antes del despliegue. S alto: cualquier regulador bajo el mismo marco habría tenido la misma brecha.</td></tr>
+</tbody>
+</table>
 
 #### 3.2 La propiedad de la S = 1.0 del modelo: por qué cambiar el algoritmo no resuelve el sesgo
 
@@ -9464,85 +6683,51 @@ sesgo
 
 Esta propiedad emerge directamente del teorema de la optimalidad estadística de Bayes: si el dataset contiene el sesgo y la métrica target codifica ese sesgo, cualquier modelo suficientemente expresivo aprenderá el mismo patrón sesgado porque ese patrón es el que mejor predice el target en ese dataset. El modelo no "introduce" el sesgo: lo destila del dataset en la dirección de la métrica.
 
-Analogía: El traductor no inventa el mensaje Si tienes un texto racista y le pides a un buen traductor que lo traduzca al inglés, el resultado es un texto racista en inglés. Cambiar el traductor —usar uno diferente, más sofisticado— produce el mismo resultado. El problema no está en el traductor (el modelo): está en el texto original (el dataset) y en la instrucción de traducir en lugar de editar (la métrica).
+> [!TIP]
+> Analogía: El traductor no inventa el mensaje Si tienes un texto racista y le pides a un buen traductor que lo traduzca al inglés, el resultado es un texto racista en inglés. Cambiar el traductor —usar uno diferente, más sofisticado— produce el mismo resultado. El problema no está en el traductor (el modelo): está en el texto original (el dataset) y en la instrucción de traducir en lugar de editar (la métrica).
 
 Esta propiedad tiene una consecuencia regulatoria directa: las regulaciones de IA que se enfocan en la "explicabilidad del modelo" (por qué el algoritmo tomó esa decisión) no resuelven el problema de equidad si no abordan la elección de la métrica. Puedes explicar perfectamente por qué COMPAS clasificó a un acusado negro como de alto riesgo (porque tiene características estadísticamente asociadas con nuevos arrestos en el dataset histórico), y esa explicación completa no resuelve el problema de que el dataset histórico refleja el sesgo del sistema policial.
 
+
 #### 3.3 R* del diseñador de la métrica y la doctrina de la responsabilidad por diseño normativo
 
-El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
 El diseñador de la métrica tiene R* alto porque su decisión normativa es condición necesaria del resultado sesgado en una forma que no es compartida por los demás nodos: sin esa elección específica de métrica, el sistema podría haber producido un resultado diferente incluso con el mismo dataset y el mismo modelo. La responsabilidad por diseño normativo es la doctrina que el cálculo causal formaliza:
 
+| Elección de métrica | S de la métrica | R* del diseñador | Alternativas disponibles y su impacto |
+| --- | --- | --- | --- |
+
 #### R*_diseñador_métrica = f (impacto_de_la_elección_de_métrica_en_el_resultad
+
 
 #### o, S_métrica)
 
+
 S de la métrica mide qué tan idiosincrática era esa elección: si cualquier equipo razonable habría elegido la misma métrica en ese contexto (S alto), el R* del diseñador es moderado. Si la elección era una entre múltiples alternativas razonables con consecuencias distribucionales distintas (S bajo), el R* es alto.
 
-Elección de métrica
-
-S de la métrica
-
-R* del diseñador
-
-Alternativas disponibles y su impacto
-
-#### 0.35 Alto Alternativa: "nueva condena" o "violencia documentada". Ambas tienen menor sesgo racial porque los datos de condenas son menos sesgados que los de arrestos.
-
-COMPAS: "reincidencia" = nuevo arresto
-
-#### 0.25 Muy alto Alternativa obvia: definir "éxito" con métricas de desempeño futuro (contribuciones documentadas,
-
-Amazon: "candidato exitoso" = similar a empleados históricos
-
-El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
-
-promociones, retención) en lugar de similitud con el perfil histórico.
-
-#### 0.70 Moderado S alto: la mayoría de los sistemas crediticios definen riesgo como historial de impagos. Es una elección del sector, no solo del diseñador específico.
-
-Sistema de crédito: "riesgo" = historial de impagos
-
-#### 0.55 Moderado-alto
-
-Alternativas: calidad de vida ajustada, años de vida ajustados por discapacidad (AVAD). La elección afecta la distribución del tratamiento entre grupos de edad.
-
-Sistema médico: "utilidad del tratamiento" = supervivencia a 5 años
+| Elección de métrica | S de la métrica | R* del diseñador | Alternativas disponibles y su impacto |
+| --- | --- | --- | --- |
+| COMPAS: "reincidencia" = nuevo arresto | 0.35 | Alto | Alternativa: "nueva condena" o "violencia documentada". Ambas tienen menor sesgo racial porque los datos de condenas son menos sesgados que los de arrestos. |
+| Amazon: "candidato exitoso" = similar a empleados históricos | 0.25 | Muy alto | Alternativa obvia: definir "éxito" con métricas de desempeño futuro (contribuciones documentadas, |
+| Sistema de crédito: "riesgo" = historial de impagos | 0.70 | Moderado | S alto: la mayoría de los sistemas crediticios definen riesgo como historial de impagos. Es una elección del sector, no solo del diseñador específico. |
+| Sistema médico: "utilidad del tratamiento" = supervivencia a 5 años | 0.55 | Moderado- alto | Alternativas: calidad de vida ajustada, años de vida ajustados por discapacidad (AVAD). La elección afecta la distribución del tratamiento entre grupos de edad. |
 
 #### 3.4 α y Δ en el dominio algorítmico
 
+
 #### En el dominio algorítmico, α tiene interpretaciones específicas para cada tipo de nodo humano:
 
-Conducta que sube α
-
-Nodo humano
-
-α en este dominio
-
-Diseñador de la métrica
-
-Grado en que consideró alternativas de métrica y sus consecuencias distribucionales.
-
-Documentó el análisis de alternativas de métrica. Realizó simulaciones de disparate impact bajo distintas definiciones. Eligió la métrica con menor disparate impact
-
-El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
+| Nodo humano | α en este dominio | Conducta que sube α |
+| --- | --- | --- |
+| Diseñador de la métrica | Grado en que consideró alternativas de métrica y sus consecuencias distribucionales. | Documentó el análisis de alternativas de métrica. Realizó simulaciones de disparate impact bajo distintas definiciones. Eligió la métrica con menor disparate impact |
+| Proveedor / curador del dataset | Grado en que auditó el sesgo del dataset antes de usarlo. | Realizó análisis de sesgo histórico en el dataset. Implementó técnicas de debiasing o re-weighting. Documentó las limitaciones conocidas del dataset. |
 
 entre las técnicamente razonables. Informó transparentemente sobre las limitaciones de la elección.
 
-Proveedor / curador del dataset
-
-Grado en que auditó el sesgo del dataset antes de usarlo.
-
-Realizó análisis de sesgo histórico en el dataset. Implementó técnicas de debiasing o re-weighting. Documentó las limitaciones conocidas del dataset.
-
-Desplegador Grado en que auditó el sistema antes del despliegue y comunicó sus limitaciones.
-
-Realizó auditoría de equidad completa (disparate impact, calibración por grupo). Comunicó las limitaciones a los decisores que usarían el output. Implementó mecanismos de apelación para los afectados.
-
-Regulador Grado en que estableció estándares obligatorios de auditoría y equidad antes del despliegue.
-
-Publicó estándares de equidad algorítmica antes del despliegue en sectores de alto impacto. Realizó auditorías regulatorias de los sistemas en producción.
+| Nodo humano | α en este dominio | Conducta que sube α |
+| --- | --- | --- |
+| Desplegador | Grado en que auditó el sistema antes del despliegue y comunicó sus limitaciones. | Realizó auditoría de equidad completa (disparate impact, calibración por grupo). Comunicó las limitaciones a los decisores que usarían el output. Implementó mecanismos de apelación para los afectados. |
+| Regulador | Grado en que estableció estándares obligatorios de auditoría y equidad antes del despliegue. | Publicó estándares de equidad algorítmica antes del despliegue en sectores de alto impacto. Realizó auditorías regulatorias de los sistemas en producción. |
 
 #### 3.5 El D_total algorítmico: cómo cuantificar el daño de un sistema que opera a escala
 
@@ -9570,7 +6755,8 @@ El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
 Caso A — COMPAS (2016)
 
-R* del dataset histórico de arrestos vs. R* de quien definió "reincidencia" como nuevo arresto
+> [!NOTE]
+> R* del dataset histórico de arrestos vs. R* de quien definió "reincidencia" como nuevo arresto
 
 A.1 El contexto histórico y técnico
 
@@ -9584,87 +6770,30 @@ El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
 múltiples definiciones de equidad matemáticamente incompatibles cuando las tasas base de la métrica target difieren entre grupos —lo que ocurre precisamente cuando la métrica está sesgada históricamente.
 
+
 #### A.2 El grafo causal del sesgo de COMPAS
 
-Nodo Actor/Factor Tipo Función causal en el sesgo
-
-N1 Diseñador de la métrica: "reincidencia" = nuevo arresto en 2 años
-
-Decisión normativa
-
-Esta es la decisión de mayor R* del sistema. Definir "reincidencia" como "nuevo arresto" en lugar de "nueva condena" o "reincidencia violenta documentada" crea la conexión con el sesgo del sistema policial. Sin esta elección específica, el sesgo racial sería menor.
-
-N2 Sesgo histórico del sistema policial y judicial
-
-Contexto histórico generador
-
-Los datos de arrestos en los que fue entrenado COMPAS reflejan décadas de prácticas policiales sesgadas. Las comunidades negras fueron sobrevigiladas históricamente, produciendo más arrestos por los mismos comportamientos.
-
-N3 Dataset histórico de
-
-Nodo técnico sin voluntad
-
-Transmite el sesgo de N2 al sistema. Su
-
-El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
-
-arrestos (1990s-2000s) R* apunta hacia N2 (que lo generó) y hacia N4 (que lo usó sin auditar).
-
-N4 Northpointe / jurisdicciones que desplegaron COMPAS
-
-Desplegadores Desplegaron el sistema sin publicar su metodología (fue protegida como secreto comercial) y sin auditorías de equidad previas al despliegue. El secreto comercial impidió durante años que los acusados contestaran las predicciones en su contra.
-
-N5 Modelo estadístico de COMPAS
-
-Nodo técnico sin voluntad
-
-S ≈ 1.0. Cualquier modelo competente entrenado con N3 para predecir N1 habría aprendido el mismo patrón racial porque ese patrón es real en los datos. R* residual apunta a N1 y N3.
-
-N6 Reguladores y legisladores: ausencia de estándares
-
-Omisión sistémica
-
-No existían estándares de equidad algorítmica ni requisitos de transparencia para sistemas de decisión penal en la mayoría de los estados.
-
-Nf Acusados mal clasificados
-
-Nodo final Personas que recibieron clasificaciones de "alto riesgo" por
-
-El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
-
-razón de su raza, con consecuencias reales sobre su libertad.
+| Nodo | Actor/Factor | Tipo | Función causal en el sesgo |
+| --- | --- | --- | --- |
+| N1 | Diseñador de la métrica: "reincidencia" = nuevo arresto en 2 años | Decisión normativa | Esta es la decisión de mayor R* del sistema. Definir "reincidencia" como "nuevo arresto" en lugar de "nueva condena" o "reincidencia violenta documentada" crea la conexión con el sesgo del sistema policial. Sin esta elección específica, el sesgo racial sería menor. |
+| N2 | Sesgo histórico del sistema policial y judicial | Contexto histórico generador | Los datos de arrestos en los que fue entrenado COMPAS reflejan décadas de prácticas policiales sesgadas. Las comunidades negras fueron sobrevigiladas históricamente, produciendo más arrestos por los mismos comportamientos. |
+| N3 | Dataset histórico de | Nodo técnico sin voluntad | Transmite el sesgo de N2 al sistema. Su |
+| N4 | Northpointe / jurisdicciones que desplegaron COMPAS | Desplegadores | Desplegaron el sistema sin publicar su metodología (fue protegida como secreto comercial) y sin auditorías de equidad previas al despliegue. El secreto comercial impidió durante años que los acusados contestaran las predicciones en su contra. |
+| N5 | Modelo estadístico de COMPAS | Nodo técnico sin voluntad | S ≈ 1.0. Cualquier modelo competente entrenado con N3 para predecir N1 habría aprendido el mismo patrón racial porque ese patrón es real en los datos. R* residual apunta a N1 y N3. |
+| N6 | Reguladores y legisladores: ausencia de estándares | Omisión sistémica | No existían estándares de equidad algorítmica ni requisitos de transparencia para sistemas de decisión penal en la mayoría de los estados. |
+| Nf | Acusados mal clasificados | Nodo final | Personas que recibieron clasificaciones de "alto riesgo" por |
+|  |  |  | razón de su raza, con consecuencias reales sobre su libertad. |
 
 #### A.3 R*, S y el análisis de causalidad
 
-Nodo R* S α Interpretaci ón
-
-N1 — Diseñador métrica ~38 %
-
-0.2 8 0.0 5 S moderado-bajo. La elección de "nuevo arresto" vs. "nueva condena" era una elección entre alternativas razonables. La elegida produjo el mayor sesgo racial. Δ = +0.33.
-
-N2 — Sesgo policial histórico
-
-~28 %
-
-#### 0.8 0 0.0 5 S alto: el sesgo era sistémico de toda la historia del sistema penal, no específico de estos datos.
-
-N3 — Dataset histórico ~18 %
-
-#### 0.7 0 0.0 2 S moderado. El sesgo en los datos era conocible y en parte
-
-El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
-
-conocido. Δ = +0.16.
-
-N4 — Northpointe/desplegado res
-
-~12 %
-
-#### 0.5 5 0.0 8 Desplegaron sin auditoría ni transparencia. Δ = +0.04.
-
-N5 — Modelo COMPAS ~2% 0.9 7 0.0 0 S prácticamente = 1.0. R*_neta ≈ 0. Cambiar el modelo no habría cambiado el sesgo.
-
-N6 — Reguladores ~2% 0.8 8 0.0 5 Omisión sistémica con S alto.
+| Nodo | R* | S | α | Interpretaci ón |
+| --- | --- | --- | --- | --- |
+| N1 — Diseñador métrica | ~38 % | 0.2 8 | 0.0 5 | S moderado- bajo. La elección de "nuevo arresto" vs. "nueva condena" era una elección entre alternativas razonables. La elegida produjo el mayor sesgo racial. Δ = +0.33. |
+| N2 — Sesgo policial histórico | ~28 % | 0.8 0 | 0.0 5 | S alto: el sesgo era sistémico de toda la historia del sistema penal, no específico de estos datos. |
+| N3 — Dataset histórico | ~18 % | 0.7 0 | 0.0 2 | S moderado. El sesgo en los datos era conocible y en parte |
+| N4 — Northpointe/desplegado res | ~12 % | 0.5 5 | 0.0 8 | Desplegaron sin auditoría ni transparencia. Δ = +0.04. |
+| N5 — Modelo COMPAS | ~2% | 0.9 7 | 0.0 0 | S prácticamente = 1.0. R*_neta ≈ 0. Cambiar el modelo no habría cambiado el sesgo. |
+| N6 — Reguladores | ~2% | 0.8 8 | 0.0 5 | Omisión sistémica con S alto. |
 
 El resultado central del análisis: el modelo COMPAS (N5), que es el único componente que puede ser "auditado" con las herramientas de explicabilidad de IA, tiene R* = 2% y S = 0.97. Las herramientas de explicabilidad de IA que muestran "por qué el modelo tomó esa decisión" están auditando el nodo de menor responsabilidad causal del sistema. El nodo de mayor R* (N1, el diseñador de la métrica) es el que menos aparece en los debates técnicos sobre la equidad del algoritmo.
 
@@ -9682,7 +6811,8 @@ La respuesta está en que hay dos definiciones de equidad que son matemáticamen
 
 El teorema de Chouldechova (2017) demuestra que los dos criterios son matemáticamente incompatibles cuando las tasas base de la variable predicha difieren entre grupos. No hay modelo que satisfaga ambos simultáneamente. La elección entre los dos criterios de equidad no es técnica: es normativa. Y esa elección normativa — que en COMPAS se hizo implícitamente al elegir la métrica — es exactamente el acto de diseño con mayor R* del sistema.
 
-Principio algorítmico:  El teorema de Chouldechova formaliza por qué la pregunta "¿es justo el algoritmo?" no tiene respuesta técnica única. Hay múltiples definiciones de "justo" matemáticamente incompatibles bajo ciertas condiciones. La elección entre ellas es siempre política y normativa. El análisis de R* no elige entre las definiciones: identifica con precisión quién tomó la decisión de qué definición usar (implícita o explícitamente), y atribuye a ese actor la responsabilidad proporcional a las consecuencias de esa elección.
+> [!IMPORTANT]
+> Principio algorítmico:  El teorema de Chouldechova formaliza por qué la pregunta "¿es justo el algoritmo?" no tiene respuesta técnica única. Hay múltiples definiciones de "justo" matemáticamente incompatibles bajo ciertas condiciones. La elección entre ellas es siempre política y normativa. El análisis de R* no elige entre las definiciones: identifica con precisión quién tomó la decisión de qué definición usar (implícita o explícitamente), y atribuye a ese actor la responsabilidad proporcional a las consecuencias de esa elección.
 
 El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
@@ -9722,7 +6852,8 @@ El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
 Caso B — Amazon Hiring AI (2018)
 
-R* del directivo que fijó la métrica: "candidato exitoso" = similar a los ingenieros masculinos históricos
+> [!NOTE]
+> R* del directivo que fijó la métrica: "candidato exitoso" = similar a los ingenieros masculinos históricos
 
 B.1 El contexto
 
@@ -9736,85 +6867,29 @@ B.2 El grafo causal del sesgo de Amazon
 
 El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
-Nodo Actor/Factor Tipo Función causal
+| Nodo | Actor/Factor | Tipo | Función causal |
+| --- | --- | --- | --- |
+| N1 | Diseñador de la métrica: "éxito" = similitud con historial de contrataciones | Decisión normativa | La decisión de definir "candidato exitoso" usando el historial de contrataciones pasadas, sin ajustar por la composición de género del período, es la decisión de mayor R* del sistema. S bajo: la alternativa (definir éxito por desempeño futuro documentado) era técnicamente disponible. |
+| N2 | Brecha de género histórica en la industria tecnológica | Contexto histórico generador | La sub- representación histórica de mujeres en posiciones técnicas en la industria tecnológica, producida por décadas de discriminación en la contratación y el desarrollo de carrera. |
+| N3 | Dataset: CVs de empleados exitosos 2005- 2015 | Nodo técnico sin voluntad | Refleja fielmente la composición del período: ~76% masculina. Su R* apunta hacia N2 (que produjo esa brecha) y N1 (que usó ese dataset sin ajustar). |
+| N4 | Equipo técnico de Amazon que desarrolló el modelo | Desarrollo técnico | Construyó el modelo con la métrica y el dataset dados. S prácticamente 1.0: cualquier equipo técnico competente habría producido el mismo sesgo. Su R* apunta hacia N1. |
+| N5 | Dirección de Amazon que aprobó el despliegue y continuó su uso en 2015-2017 | Desplegador con conocimiento del sesgo | Conocía el sesgo desde 2015 (un año después del despliegue), intentó corregirlo, no pudo garantizarlo, pero continuó usando el sistema durante dos años más. Este conocimiento sin corrección efectiva aumenta su R*. |
+| N6 | Modelo de ML (regresión, gradient boosting) | Nodo técnico sin voluntad | S ≈ 1.0. Optimizó la métrica con los datos dados. R*_neta ≈ 0. |
+| Nf | Candidatas mujeres que no pasaron el primer filtro | Nodo final | Candidatas técnicamente cualificadas que no llegaron a la revisión humana por el sesgo del sistema. |
 
-N1 Diseñador de la métrica: "éxito" = similitud con historial de contrataciones
-
-Decisión normativa
-
-La decisión de definir "candidato exitoso" usando el historial de contrataciones pasadas, sin ajustar por la composición de género del período, es la decisión de mayor R* del sistema. S bajo: la alternativa (definir éxito por desempeño futuro documentado) era técnicamente disponible.
-
-N2 Brecha de género histórica en la industria tecnológica
-
-Contexto histórico generador
-
-La sub-representación histórica de mujeres en posiciones técnicas en la industria tecnológica, producida por décadas de discriminación en la contratación y el desarrollo de carrera.
-
-N3 Dataset: CVs de empleados exitosos 2005-2015
-
-Nodo técnico sin voluntad
-
-Refleja fielmente la composición del período: ~76% masculina. Su R* apunta hacia N2 (que produjo esa brecha) y N1 (que usó ese dataset sin ajustar).
-
-El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
-
-N4 Equipo técnico de Amazon que desarrolló el modelo
-
-Desarrollo técnico
-
-Construyó el modelo con la métrica y el dataset dados. S prácticamente 1.0: cualquier equipo técnico competente habría producido el mismo sesgo. Su R* apunta hacia N1.
-
-N5 Dirección de Amazon que aprobó el despliegue y continuó su uso en 2015-2017
-
-Desplegador con conocimiento del sesgo
-
-Conocía el sesgo desde 2015 (un año después del despliegue), intentó corregirlo, no pudo garantizarlo, pero continuó usando el sistema durante dos años más. Este conocimiento sin corrección efectiva aumenta su R*.
-
-N6 Modelo de ML (regresión, gradient boosting)
-
-Nodo técnico sin voluntad
-
-S ≈ 1.0. Optimizó la métrica con los datos dados. R*_neta ≈ 0.
-
-Nodo final Candidatas técnicamente cualificadas que no llegaron a la revisión humana por el sesgo del sistema.
-
-Nf Candidatas mujeres que no pasaron el primer filtro
 
 #### B.3 La distinción crítica: COMPAS vs. Amazon
 
+
 Los dos casos tienen estructuras similares pero una diferencia que el análisis causal captura con precisión: la relación entre el diseñador de la métrica y su conocimiento del sesgo.
 
-El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
-
-Dimensión COMPAS Amazon
-
-Tipo de sesgo en la métrica
-
-"Reincidencia" como nuevo arresto: la métrica tiene sesgo incorporado por el sesgo del sistema policial.
-
-"Éxito" como similitud histórica: la métrica tiene sesgo incorporado por la composición de género del período.
-
-¿Había alternativas de métrica menos sesgadas disponibles?
-
-Sí: "nueva condena" o "violencia documentada" habrían producido menor sesgo racial.
-
-Sí y más claramente: el desempeño futuro documentado era medible y menos sesgado.
-
-¿Sabía el diseñador que el sesgo existía?
-
-El diseño original no incluyó un análisis de equidad racial de la métrica.
-
-El equipo detectó el sesgo en 2015 y continuó usando el sistema. Conocimiento confirmado, acción insuficiente.
-
-R* del diseñador de la métrica
-
-~38% (sin conocimiento previo del sesgo)
-
-~40% + extra por continuación con conocimiento (R* efectivo ~45%)
-
-Δ del diseñador +0.33 (sin asunción del sesgo de la métrica)
-
-+0.37 a +0.40 (mayor por conocimiento confirmado y continuación)
+| Dimensión | COMPAS | Amazon |
+| --- | --- | --- |
+| Tipo de sesgo en la métrica | "Reincidencia" como nuevo arresto: la métrica tiene sesgo incorporado por el sesgo del sistema policial. | "Éxito" como similitud histórica: la métrica tiene sesgo incorporado por la composición de género del período. |
+| ¿Había alternativas de métrica menos sesgadas disponibles? | Sí: "nueva condena" o "violencia documentada" habrían producido menor sesgo racial. | Sí y más claramente: el desempeño futuro documentado era medible y menos sesgado. |
+| ¿Sabía el diseñador que el sesgo existía? | El diseño original no incluyó un análisis de equidad racial de la métrica. | El equipo detectó el sesgo en 2015 y continuó usando el sistema. Conocimiento confirmado, acción insuficiente. |
+| R* del diseñador de la métrica | ~38% (sin conocimiento previo del sesgo) | ~40% + extra por continuación con conocimiento (R* efectivo ~45%) |
+| Δ del diseñador | +0.33 (sin asunción del sesgo de la métrica) | +0.37 a +0.40 (mayor por conocimiento confirmado y continuación) |
 
 La continuación del uso del sistema durante dos años después de detectar el sesgo aumenta el R* efectivo de la dirección de Amazon (N5) porque convierte la negligencia en conocimiento confirmado con acción insuficiente. Eso produce un Δ mayor y una culpabilidad subjetiva más cercana a Anteros que a Deimos.
 
@@ -9987,45 +7062,29 @@ La pregunta de responsabilidad causal en Bhopal tiene tres dimensiones que el si
 
 responsabilidad de la filial india (Union Carbide India Limited, UCIL, operadora directa de la planta), la responsabilidad de la casa matriz estadounidense (Union Carbide Corporation, UCC, que diseñó la tecnología y aprobó los estándares de seguridad rebajados), y la responsabilidad del gobierno indio (que en su interés por atraer inversión extranjera había permitido el asentamiento de barrios de trabajadores a metros de la planta y había presionado para que la planta usara tecnología más barata). Los tres nodos contribuyeron causalmente al resultado. El sistema que siguió al accidente —el litigio internacional más complejo de la historia ambiental— nunca distribuyó la responsabilidad con precisión proporcional al peso causal de cada uno.
 
-El segundo caso de este capítulo —Chevron-Ecuador— produce el límite más importante del método de imputación causal. En la Amazonia ecuatoriana, Texaco (adquirida por Chevron en 2001) operó pozos de petróleo entre 1964 y 1992 y abandonó miles de piscinas de desechos tóxicos que contaminaron el suelo y el agua de una región de la selva con alta densidad de comunidades indígenas. Veinte años de litigios produjeron una sentencia ecuatoriana de $9,500 millones contra Chevron y una sentencia estadounidense que la declaró producto de fraude procesal. Los detalles del caso son complejos. Pero la pregunta metodológica que el caso plantea es más importante: cuando hay múltiples fuentes de contaminación que operaron durante décadas en la misma área, ninguna de las cuales es por sí sola condición necesaria y suficiente del daño total, ¿cómo se distribuye la responsabilidad causal?
+> [!NOTE]
+> El segundo caso de este capítulo —Chevron-Ecuador— produce el límite más importante del método de imputación causal. En la Amazonia ecuatoriana, Texaco (adquirida por Chevron en 2001) operó pozos de petróleo entre 1964 y 1992 y abandonó miles de piscinas de desechos tóxicos que contaminaron el suelo y el agua de una región de la selva con alta densidad de comunidades indígenas. Veinte años de litigios produjeron una sentencia ecuatoriana de $9,500 millones contra Chevron y una sentencia estadounidense que la declaró producto de fraude procesal. Los detalles del caso son complejos. Pero la pregunta metodológica que el caso plantea es más importante: cuando hay múltiples fuentes de contaminación que operaron durante décadas en la misma área, ninguna de las cuales es por sí sola condición necesaria y suficiente del daño total, ¿cómo se distribuye la responsabilidad causal?
 
 Este capítulo tiene una estructura diferente a los anteriores en su parte final: no solo aplica el método, sino que desarrolla explícitamente su límite y su extensión. El límite es la causalidad difusa acumulativa: el daño ecológico de largo plazo producido por múltiples actores sin que ninguno sea condición necesaria y suficiente. La extensión
 
 
 #### es el valor de Shapley: el instrumento de la teoría de juegos cooperativos que distribuye correctamente la responsabilidad en ese escenario.
 
+
 #### 1.1 La singularidad ontológica del daño ecológico
+
 
 #### El daño ecológico tiene cuatro características que lo distinguen de todos los dominios anteriores del libro y que determinan los instrumentos adecuados para su análisis:
 
-Característica Descripción Consecuencia para el análisis
-
-Difusión temporal
-
-El daño ecológico se acumula a lo largo de décadas o siglos. Los efectos pueden manifestarse mucho después de que la causa dejó de operar.
-
-El grafo causal debe incluir nodos históricos que ya no operan. La distancia temporal entre causa y efecto complica la atribución causal directa.
-
-Difusión espacial
-
-Los contaminantes se dispersan por agua, aire y suelo cruzando fronteras jurisdiccionales. El punto de medición del daño puede estar lejos del punto de emisión.
-
-El R* de un nodo emisor puede calcularse aun cuando el daño ocurrió en otra jurisdicción, pero requiere modelado de la dispersión.
-
-Causalidad acumulativa
-
-El daño es frecuentemente el resultado de la acumulación de contribuciones de múltiples actores, sin que ninguno de ellos sea por sí solo
-
-El postulado de la condición necesaria del sistema no se cumple para ningún actor individual. Aquí es donde R* falla y Shapley es necesario.
-
-
-condición necesaria y suficiente.
-
-ΔT_trayectoria es el componente dominante del daño ecológico de largo plazo. La incertidumbre sobre el horizonte temporal de la recuperación introduce rangos amplios en el cálculo.
-
-Irreversibilidad parcial
-
-Algunos daños ecológicos son permanentes o requieren siglos para recuperarse. La pérdida de biodiversidad y el cambio climático tienen componentes irreversibles.
+<table>
+<tbody>
+<tr><th scope="row">Característica</th><td>Descripción</td><td>Consecuencia para el análisis</td></tr>
+<tr><th scope="row">Difusión temporal</th><td>El daño ecológico se acumula a lo largo de décadas o siglos. Los efectos pueden manifestarse mucho después de que la causa dejó de operar.</td><td>El grafo causal debe incluir nodos históricos que ya no operan. La distancia temporal entre causa y efecto complica la atribución causal directa.</td></tr>
+<tr><th scope="row">Difusión espacial</th><td>Los contaminantes se dispersan por agua, aire y suelo cruzando fronteras jurisdiccionales. El punto de medición del daño puede estar lejos del punto de emisión.</td><td>El R* de un nodo emisor puede calcularse aun cuando el daño ocurrió en otra jurisdicción, pero requiere modelado de la dispersión.</td></tr>
+<tr><th scope="row">Causalidad acumulativa</th><td>El daño es frecuentemente el resultado de la acumulación de contribuciones de múltiples actores, sin que ninguno de ellos sea por sí solo</td><td>El postulado de la condición necesaria del sistema no se cumple para ningún actor individual. Aquí es donde R* falla y Shapley es necesario.</td></tr>
+<tr><th scope="row">Irreversibilidad parcial</th><td>Algunos daños ecológicos son permanentes o requieren siglos para recuperarse. La pérdida de biodiversidad y el cambio climático tienen componentes irreversibles.</td><td>ΔT_trayectoria es el componente dominante del daño ecológico de largo plazo. La incertidumbre sobre el horizonte temporal de la recuperación introduce rangos amplios en el cálculo.</td></tr>
+</tbody>
+</table>
 
 #### 1.2 Cuándo el método funciona y cuándo necesita extensión
 
@@ -10033,79 +7092,32 @@ El método de imputación causal basado en R* funciona correctamente cuando al m
 
 El método necesita extensión cuando el daño es acumulativo y ningún actor es condición necesaria individualmente: incluso si ese actor hubiera eliminado completamente sus emisiones, el daño habría ocurrido de todas formas por la suma de las emisiones de los demás. Chevron-Ecuador se aproxima a ese escenario: había múltiples operadores de petróleo en la región, y la contaminación es el resultado de la acumulación de las operaciones de varios de ellos durante décadas.
 
-⊘ Límite del método:  El límite del postulado de la condición necesaria: cuando hay n actores y el daño D ocurre si y solo si la suma de sus contribuciones supera un umbral θ,
+> [!NOTE]
+> ⊘ Límite del método:  El límite del postulado de la condición necesaria: cuando hay n actores y el daño D ocurre si y solo si la suma de sus contribuciones supera un umbral θ,
 
 
-pero ningún actor individual supera θ, entonces dD/dNᵢ = 0 para todo i. El postulado I5 no se cumple para ningún nodo y el vector R* convencional asigna cero a todos los actores, lo que es evidentemente incorrecto. Este es el límite más importante del método y el que justifica la extensión mediante valores de Shapley.
+> [!NOTE]
+> pero ningún actor individual supera θ, entonces dD/dNᵢ = 0 para todo i. El postulado I5 no se cumple para ningún nodo y el vector R* convencional asigna cero a todos los actores, lo que es evidentemente incorrecto. Este es el límite más importante del método y el que justifica la extensión mediante valores de Shapley.
 
-Valor de Shapley φᵢ:  La distribución justa de la responsabilidad en un problema de causalidad acumulativa, calculada como la contribución marginal promedio de cada actor sobre todas las posibles coaliciones de actores. φᵢ mide "cuánto añade el actor i a la contaminación total, en promedio, cuando se une a cada subconjunto posible de los otros actores". Es la extensión de R* para el caso en que ningún actor es condición necesaria individualmente.
+> [!NOTE]
+> Valor de Shapley φᵢ:  La distribución justa de la responsabilidad en un problema de causalidad acumulativa, calculada como la contribución marginal promedio de cada actor sobre todas las posibles coaliciones de actores. φᵢ mide "cuánto añade el actor i a la contaminación total, en promedio, cuando se une a cada subconjunto posible de los otros actores". Es la extensión de R* para el caso en que ningún actor es condición necesaria individualmente.
 
 
 ### §2.  Página puente — Traducción al lenguaje ambiental y ecológico
 
 Esta página resume las herramientas en el contexto del daño ambiental, la ecología y el litigio climático. El lector con formación en derecho ambiental, ecología o economía ambiental puede comenzar aquí.
 
-Herramienta En medio ambiente se llama
-
-Qué significa
-
-Grafo causal G
-
-Red causal del daño ecológico
-
-El mapa de todos los actores, condiciones y factores que contribuyeron causalmente al daño ambiental: la empresa operadora, la casa matriz, el regulador, las condiciones del entorno, el contexto de desarrollo económico.
-
-R* (vector) Contribución causal al daño
-
-La fracción del daño ambiental causalmente atribuible a cada actor. Aplicable cuando al menos un actor es condición necesaria del daño. En daños de contaminación puntual (Bhopal), R* es el instrumento correcto.
-
-Valores de Shapley φᵢ
-
-Contribución marginal promedio en causalidad acumulativa
-
-La extensión de R* para daños acumulativos donde ningún actor es condición necesaria individualmente. φᵢ distribuye la responsabilidad
-
-
-proporcional a la contribución marginal de cada actor sobre todas las posibles coaliciones. Se usa cuando R* convencional falla.
-
-S del operador
-
-Fungibilidad del contaminador
-
-S alto: cualquier empresa con la misma capacidad y bajo el mismo marco regulatorio habría generado el mismo daño. El problema es del marco normativo, no de ese contaminador específico. S bajo: las prácticas específicas de ese contaminador eran condición necesaria del daño.
-
-α del contaminador
-
-Grado de remediación y prevención implementado
-
-Las medidas que el contaminador tomó para prevenir o remediar el daño: tecnologías más limpias, tratamiento de residuos, planes de contingencia, remediación de suelos. α = 0: ninguna medida.
-
-Δ del contaminador
-
-Déficit de remediación
-
-La brecha entre la contribución causal al daño y la remediación implementada. Δ positivo es la base para la acción de responsabilidad ambiental y para las órdenes de remediación proporcionales.
-
-D_total ambiental
-
-Daño ecológico integral
-
-T_invertido (daño inmediato: muertes, destrucción de hábitat, contaminación del suelo y agua), T_impedido (pérdida de servicios ecosistémicos durante el período de
-
-
-contaminación activa), ΔT_trayectoria (pérdida permanente de biodiversidad, daño irreversible al sistema ecológico).
-
-D_vital ecológico
-
-Daño en tiempo de vida de las comunidades afectadas
-
-La misma fórmula del Capítulo 1: D_vital = D_total / w_ref. Cuando el daño ambiental afecta la salud de comunidades, sus costos de salud, su esperanza de vida y sus medios de subsistencia son tiempo de vida cristalizado que el sistema de imputación causal cuantifica.
-
-El nivel de contaminación acumulada por encima del cual el daño se manifiesta. En causalidad acumulativa, el daño ocurre cuando la suma de contribuciones supera θ. Ningún actor individual supera θ pero la suma sí.
-
-Umbral de daño θ
-
-Umbral de acumulación de contaminación
+| Herramienta | En medio ambiente se llama | Qué significa |
+| --- | --- | --- |
+| Grafo causal G | Red causal del daño ecológico | El mapa de todos los actores, condiciones y factores que contribuyeron causalmente al daño ambiental: la empresa operadora, la casa matriz, el regulador, las condiciones del entorno, el contexto de desarrollo económico. |
+| R* (vector) | Contribución causal al daño | La fracción del daño ambiental causalmente atribuible a cada actor. Aplicable cuando al menos un actor es condición necesaria del daño. En daños de contaminación puntual (Bhopal), R* es el instrumento correcto. |
+| Valores de φᵢ Shapley | Contribución marginal promedio en causalidad acumulativa | La extensión de R* para daños acumulativos donde ningún actor es condición necesaria individualmente. φᵢ distribuye la responsabilidad |
+| S del operador | Fungibilidad del contaminador | S alto: cualquier empresa con la misma capacidad y bajo el mismo marco regulatorio habría generado el mismo daño. El problema es del marco normativo, no de ese contaminador específico. S bajo: las prácticas específicas de ese contaminador eran condición necesaria del daño. |
+| α del contaminador | Grado de remediación y prevención implementado | Las medidas que el contaminador tomó para prevenir o remediar el daño: tecnologías más limpias, tratamiento de residuos, planes de contingencia, remediación de suelos. α = 0: ninguna medida. |
+| Δ del contaminador | Déficit de remediación | La brecha entre la contribución causal al daño y la remediación implementada. Δ positivo es la base para la acción de responsabilidad ambiental y para las órdenes de remediación proporcionales. |
+| D_total ambiental | Daño ecológico integral | T_invertido (daño inmediato: muertes, destrucción de hábitat, contaminación del suelo y agua), T_impedido (pérdida de servicios ecosistémicos durante el período de |
+| D_vital ecológico | Daño en tiempo de vida de las comunidades afectadas | La misma fórmula del Capítulo 1: D_vital = D_total / w_ref. Cuando el daño ambiental afecta la salud de comunidades, sus costos de salud, su esperanza de vida y sus medios de subsistencia son tiempo de vida cristalizado que el sistema de imputación causal cuantifica. |
+| Umbral de daño θ | Umbral de acumulación de contaminación | El nivel de contaminación acumulada por encima del cual el daño se manifiesta. En causalidad acumulativa, el daño ocurre cuando la suma de contribuciones supera θ. Ningún actor individual supera θ pero la suma sí. |
 
 Para el lector que viene del núcleo universal:  Este capítulo tiene la estructura más compleja del libro porque incluye dos instrumentos que los anteriores no usaron juntos: R* convencional para Bhopal (donde el postulado de la condición necesaria se cumple) y valores de Shapley para Chevron-Ecuador (donde no se cumple). El §5 desarrolla el límite del método con precisión y el §6 desarrolla la extensión Shapley formalmente.
 
@@ -10118,40 +7130,15 @@ Para el lector que viene del núcleo universal:  Este capítulo tiene la estruct
 
 Nivel Tipo de nodo Función causal
 
-Ejemplo (Bhopal)
-
-Operador directo
-
-La empresa que opera la fuente de contaminación.
-
-Causa inmediata del daño. R* alto cuando es condición necesaria. S mide si cualquier otra empresa en las mismas condiciones habría actuado igual.
-
-UCIL: operó la planta con estándares de seguridad debajo del nivel aprobado originalmente.
-
-Diseñador / casa matriz
-
-La empresa que diseñó la tecnología y aprobó los estándares.
-
-R* del nodo de diseño. En la mayoría de los desastres industriales, la casa matriz tiene R* comparable o mayor que la filial operadora.
-
-UCC: diseñó la tecnología, estableció los estándares de seguridad y aprobó las reducciones de costo que resultaron en estándares más bajos.
-
-
-Regulador / gobierno
-
-El Estado que autorizó la operación y reguló las condiciones de seguridad.
-
-R* positivo cuando el regulador aprobó condiciones de operación que el sistema no debería haber tolerado, o cuando la omisión de inspección fue condición del daño.
-
-Gobierno indio: asentó comunidades cercanas a la planta, presionó para bajar costos de operación, no inspeccionó las condiciones de seguridad.
-
-Ecosistema receptor
-
-Las condiciones del medio ambiente que determinaron la dispersión y el impacto del contaminante.
-
-No tiene R* en el sentido de responsabilidad (no es un actor), pero sus condiciones son parte del grafo causal: determinan la magnitud del daño dado el nivel de emisión.
-
-Dirección del viento, densidad de población circundante, características del suelo para la absorción del gas.
+<table>
+<tbody>
+<tr><th scope="row">Nivel</th><td>Tipo de nodo</td><td>Función causal</td><td>Ejemplo (Bhopal)</td></tr>
+<tr><th scope="row">Operador directo</th><td>La empresa que opera la fuente de contaminación.</td><td>Causa inmediata del daño. R* alto cuando es condición necesaria. S mide si cualquier otra empresa en las mismas condiciones habría actuado igual.</td><td>UCIL: operó la planta con estándares de seguridad debajo del nivel aprobado originalmente.</td></tr>
+<tr><th scope="row">Diseñador / casa matriz</th><td>La empresa que diseñó la tecnología y aprobó los estándares.</td><td>R* del nodo de diseño. En la mayoría de los desastres industriales, la casa matriz tiene R* comparable o mayor que la filial operadora.</td><td>UCC: diseñó la tecnología, estableció los estándares de seguridad y aprobó las reducciones de costo que resultaron en estándares más bajos.</td></tr>
+<tr><th scope="row">Regulador / gobierno</th><td>El Estado que autorizó la operación y reguló las condiciones de seguridad.</td><td>R* positivo cuando el regulador aprobó condiciones de operación que el sistema no debería haber tolerado, o cuando la omisión de inspección fue condición del daño.</td><td>Gobierno indio: asentó comunidades cercanas a la planta, presionó para bajar costos de operación, no inspeccionó las condiciones de seguridad.</td></tr>
+<tr><th scope="row">Ecosistema receptor</th><td>Las condiciones del medio ambiente que determinaron la dispersión y el impacto del contaminante.</td><td>No tiene R* en el sentido de responsabilidad (no es un actor), pero sus condiciones son parte del grafo causal: determinan la magnitud del daño dado el nivel de emisión.</td><td>Dirección del viento, densidad de población circundante, características del suelo para la absorción del gas.</td></tr>
+</tbody>
+</table>
 
 #### 3.2 R* en el dominio ambiental: la filial vs. la casa matriz
 
@@ -10194,29 +7181,33 @@ Orden_remediación_proporcional_i = R*ᵢ × (1 − Sᵢ) ×
 
 D_total
 
+
 #### 3.4 El daño ambiental integral y los servicios ecosistémicos
+
 
 El D_total en el dominio ambiental incluye tres componentes que en los dominios anteriores están presentes pero que aquí adquieren su mayor escala:
 
-Componente En daño ambiental
-
-Cómo se cuantifica
+<table>
+<tbody>
+<tr><th scope="row">Componente</th><td>En daño ambiental</td><td>Cómo se cuantifica</td></tr>
+<tr><th scope="row">T_invertido</th><td>Daño inmediato: muertes, lesiones, destrucción de activos naturales, contaminación de suelo y agua en el momento del evento.</td><td>Inventario de daños documentados, costo de atención médica de urgencia, pérdida inmediata de medios de subsistencia. Para accidentes industriales:</td></tr>
+</tbody>
+</table>
 
 T_invertido Daño inmediato: muertes, lesiones, destrucción de activos naturales, contaminación de suelo y agua en el momento del evento.
 
+
 Inventario de daños documentados, costo de atención médica de urgencia, pérdida inmediata de medios de subsistencia. Para accidentes industriales: El Cálculo de la Responsabilidad · Cap. 14 — Medio ambiente y ecología
 
-sumas calculables con evidencia documental.
+<table>
+<tbody>
+<tr><th scope="row">T_impedido</th><td>Pérdida de servicios ecosistémicos durante el período de contaminación activa: agua potable, suelo cultivable, recursos pesqueros, ecoturismo.</td><td>Valoración económica de los servicios ecosistémicos perdidos por año multiplicada por el período de contaminación activa. Métodos: costo de reemplazo, preferencia revelada, valoración contingente.</td></tr>
+<tr><th scope="row">ΔT_trayectoria</th><td>Pérdida permanente de biodiversidad, daño irreversible a los ecosistemas, reducción permanente de la esperanza de vida de la comunidad afectada.</td><td>Estudios epidemiológicos de largo plazo, modelos de recuperación ecológica con y sin remediación, diferencial de esperanza de vida entre la comunidad afectada y una comparable sin exposición.</td></tr>
+</tbody>
+</table>
 
-T_impedido Pérdida de servicios ecosistémicos durante el período de contaminación activa: agua potable, suelo cultivable, recursos pesqueros, ecoturismo.
-
-Valoración económica de los servicios ecosistémicos perdidos por año multiplicada por el período de contaminación activa. Métodos: costo de reemplazo, preferencia revelada, valoración contingente.
-
-ΔT_trayectoria Pérdida permanente de biodiversidad, daño irreversible a los ecosistemas, reducción permanente de la esperanza de vida de la comunidad afectada.
-
-Estudios epidemiológicos de largo plazo, modelos de recuperación ecológica con y sin remediación, diferencial de esperanza de vida entre la comunidad afectada y una comparable sin exposición.
-
-Principio ecológico:  Los servicios ecosistémicos son tiempo de vida cristalizado de las comunidades que dependen de esos ecosistemas para subsistir. Cuando una comunidad agrícola pierde su suelo cultivable durante una década por un derrame tóxico, cada año de pérdida de cosecha es trabajo no recompensado y subsistencia no posible. D_vital = D_total / w_ref captura esa dimensión: el daño ambiental siempre es también un daño a la economía del tiempo de vida de las comunidades afectadas.
+> [!IMPORTANT]
+> Principio ecológico:  Los servicios ecosistémicos son tiempo de vida cristalizado de las comunidades que dependen de esos ecosistemas para subsistir. Cuando una comunidad agrícola pierde su suelo cultivable durante una década por un derrame tóxico, cada año de pérdida de cosecha es trabajo no recompensado y subsistencia no posible. D_vital = D_total / w_ref captura esa dimensión: el daño ambiental siempre es también un daño a la economía del tiempo de vida de las comunidades afectadas.
 
 #### 3.5 La extensión Shapley: cuando R* convencional falla
 
@@ -10233,14 +7224,16 @@ v(S)]
 
 Interpretación intuitiva: φᵢ es la contribución marginal promedio del actor i, calculada sobre todas las posibles coaliciones que podría unirse. ¡El factor [|S|! (n-|S|-1)! /n!] es el peso asignado a cada coalición de tamaño |S|, que garantiza que todos los órdenes de llegada sean igualmente probables.
 
-Extensión Shapley:  Los valores de Shapley tienen cuatro propiedades que los hacen la distribución más justa para daños acumulativos: (1) Eficiencia: Σᵢ φᵢ = v(N) — la suma de todas las responsabilidades individuales iguala el daño total. (2) Simetría: actores con la misma contribución marginal en todas las coaliciones reciben la misma φ. (3) Nulo: un actor que no añade nada a ninguna coalición tiene φ = 0. (4) Aditividad: si hay dos problemas de daño independientes, la responsabilidad total es la suma de las responsabilidades en cada problema.
+> [!NOTE]
+> Extensión Shapley:  Los valores de Shapley tienen cuatro propiedades que los hacen la distribución más justa para daños acumulativos: (1) Eficiencia: Σᵢ φᵢ = v(N) — la suma de todas las responsabilidades individuales iguala el daño total. (2) Simetría: actores con la misma contribución marginal en todas las coaliciones reciben la misma φ. (3) Nulo: un actor que no añade nada a ninguna coalición tiene φ = 0. (4) Aditividad: si hay dos problemas de daño independientes, la responsabilidad total es la suma de las responsabilidades en cada problema.
 
 
 ### §4.  Casos resueltos
 
 Caso A — Bhopal, India (2-3 diciembre 1984)
 
-R* de la filial UCIL, de la casa matriz UCC, y del gobierno indio. El litigio ambiental más complejo de la historia hasta ese momento
+> [!NOTE]
+> R* de la filial UCIL, de la casa matriz UCC, y del gobierno indio. El litigio ambiental más complejo de la historia hasta ese momento
 
 A.1 El contexto histórico
 
@@ -10255,67 +7248,25 @@ para que la tecnología fuera localizada con menor costo. La resolución judicia
 
 #### A.2 El grafo causal de Bhopal
 
-Nodo Actor/Factor Tipo Función causal en el accidente
-
-N1 Union Carbide Corporation (UCC), casa matriz EE.UU.
-
-Diseño del sistema y estándares
-
-Diseñó la tecnología de producción con MIC. Estableció los estándares de seguridad originales (que incluían los sistemas redundantes). Aprobó o no impidió las reducciones de costo que comprometieron esos sistemas. R* alto con S moderado-bajo.
-
-N2 Union Carbide India Limited (UCIL), filial india
-
-Operación y mantenimiento
-
-Operó la planta con los sistemas de seguridad comprometidos. Tomó las decisiones de apagar el refrigerante y la antorcha de quemado. Nodo de ejecución con posición causal alta.
-
-
-N3 Gobierno indio: permisos y decisiones de localización
-
-Marco regulatorio y decisiones de localización
-
-Permitió el asentamiento de barrios de trabajadores a menos de un kilómetro de la planta. Presionó para que la tecnología fuera de menor costo. No inspeccionó las condiciones de seguridad de la planta.
-
-N4 Decisiones de reducción de costo operativo
-
-Nodo instrumental de decisión
-
-La decisión específica de apagar el refrigerante y no reparar los sistemas de neutralización. Es tanto parte de N2 (quien tomó la decisión) como un nodo funcional separado en el grafo.
-
-N5 Condiciones meteorológicas de esa noche
-
-Factor ambiental
-
-La dirección del viento, la temperatura y la humedad de la madrugada del 2-3 de diciembre determinaron que el gas se dispersara hacia los barrios más densamente poblados. S muy alto.
-
-Nodo final No entra en el cálculo de R*.
-
-Nf 500,000 afectados
+| Nodo | Actor/Factor | Tipo | Función causal en el accidente |
+| --- | --- | --- | --- |
+| N1 | Union Carbide Corporation (UCC), casa matriz EE.UU. | Diseño del sistema y estándares | Diseñó la tecnología de producción con MIC. Estableció los estándares de seguridad originales (que incluían los sistemas redundantes). Aprobó o no impidió las reducciones de costo que comprometieron esos sistemas. R* alto con S moderado-bajo. |
+| N2 | Union Carbide India Limited (UCIL), filial india | Operación y mantenimiento | Operó la planta con los sistemas de seguridad comprometidos. Tomó las decisiones de apagar el refrigerante y la antorcha de quemado. Nodo de ejecución con posición causal alta. |
+| N3 | Gobierno indio: permisos y decisiones de localización | Marco regulatorio y decisiones de localización | Permitió el asentamiento de barrios de trabajadores a menos de un kilómetro de la planta. Presionó para que la tecnología fuera de menor costo. No inspeccionó las condiciones de seguridad de la planta. |
+| N4 | Decisiones de reducción de costo operativo | Nodo instrumental de decisión | La decisión específica de apagar el refrigerante y no reparar los sistemas de neutralización. Es tanto parte de N2 (quien tomó la decisión) como un nodo funcional separado en el grafo. |
+| N5 | Condiciones meteorológicas de esa noche | Factor ambiental | La dirección del viento, la temperatura y la humedad de la madrugada del 2-3 de diciembre determinaron que el gas se dispersara hacia los barrios más densamente poblados. S muy alto. |
+| Nf | 500,000 afectados | Nodo final | No entra en el cálculo de R*. |
 
 
 #### A.3 R*, S y la controversia UCC vs. UCIL
 
-Nodo R* S α Interpretación y Δ
-
-~38% 0.30 0.10 S moderado-bajo. Diseñó la tecnología con MIC y los estándares originales. Sin UCC, la planta no habría existido en esa forma. Δ = +0.28. UCC pagó $470M (subproporcional a su AD).
-
-N1 — UCC (casa matriz)
-
-~30% 0.55 0.08 S moderado. Cualquier operador bajo la misma presión de costos y con la misma supervisión laxa habría tenido incentivos similares, pero las decisiones específicas de UCIL tenían S moderado. Δ = +0.22.
-
-N2 — UCIL (filial)
-
-~18% 0.65 0.05 S moderado-alto. Las decisiones del gobierno indio reflejaban políticas de desarrollo industrial comunes en países en desarrollo en la época. Δ = +0.13.
-
-N3 — Gobierno indio
-
-~10% 0.45 0.00 Condición técnica directa: los sistemas comprometidos eran condición necesaria del accidente dado el fallo del tanque.
-
-N4 — Reducción costos
-
-~4% 0.92 0.00 S muy alto. Factor exógeno amplificador del daño.
-
-N5 — Condiciones meteor.
+| Nodo | R* | S | α | Interpretación y Δ |
+| --- | --- | --- | --- | --- |
+| N1 — UCC (casa matriz) | ~38% | 0.30 | 0.10 | S moderado-bajo. Diseñó la tecnología con MIC y los estándares originales. Sin UCC, la planta no habría existido en esa forma. Δ = +0.28. UCC pagó $470M (subproporcional a su AD). |
+| N2 — UCIL (filial) | ~30% | 0.55 | 0.08 | S moderado. Cualquier operador bajo la misma presión de costos y con la misma supervisión laxa habría tenido incentivos similares, pero las decisiones específicas de UCIL tenían S moderado. Δ = +0.22. |
+| N3 — Gobierno indio | ~18% | 0.65 | 0.05 | S moderado-alto. Las decisiones del gobierno indio reflejaban políticas de desarrollo industrial comunes en países en desarrollo en la época. Δ = +0.13. |
+| N4 — Reducción costos | ~10% | 0.45 | 0.00 | Condición técnica directa: los sistemas comprometidos eran condición necesaria del accidente dado el fallo del tanque. |
+| N5 — Condiciones meteor. | ~4% | 0.92 | 0.00 | S muy alto. Factor exógeno amplificador del daño. |
 
 #### La conclusión más importante del análisis: UCC (la casa matriz estadounidense) tiene R* = 38% y pagó $470
 
@@ -10359,7 +7310,8 @@ Los $470 millones pagados por UCC representan el 0.27% del D_monetary_equiv prop
 
 Caso B — Chevron-Ecuador (1964–2011 y posterior)
 
-El caso límite: causalidad acumulativa y la extensión mediante valores de Shapley
+> [!NOTE]
+> El caso límite: causalidad acumulativa y la extensión mediante valores de Shapley
 
 B.1 El contexto y la complejidad
 
@@ -10382,7 +7334,8 @@ El método de R* convencional requiere que al menos un actor sea condición nece
 
 La pregunta causal no es "¿habría habido contaminación sin Texaco?" (sí, por las otras fuentes). Es "¿cuánto del daño total es causalmente atribuible a la contribución específica de Texaco/Chevron?". Esa es exactamente la pregunta que el valor de Shapley responde cuando R* convencional no puede hacerlo.
 
-⊘ Límite del método:  El postulado I5 (dD/dN_Texaco ≠ 0) podría no cumplirse si sin Texaco el daño habría sido casi el mismo por las otras fuentes. En ese caso, R*_Texaco ≈ 0 aunque Texaco claramente contribuyó al daño. Este es el escenario que requiere la extensión Shapley: el valor de Shapley asigna a Texaco su contribución marginal promedio sobre todas las posibles coaliciones, no su contribución como condición necesaria única.
+> [!NOTE]
+> ⊘ Límite del método:  El postulado I5 (dD/dN_Texaco ≠ 0) podría no cumplirse si sin Texaco el daño habría sido casi el mismo por las otras fuentes. En ese caso, R*_Texaco ≈ 0 aunque Texaco claramente contribuyó al daño. Este es el escenario que requiere la extensión Shapley: el valor de Shapley asigna a Texaco su contribución marginal promedio sobre todas las posibles coaliciones, no su contribución como condición necesaria única.
 
 B.3 La extensión Shapley: aplicación al caso Chevron-Ecuador
 
@@ -10397,89 +7350,63 @@ Para aplicar los valores de Shapley al caso, se define la función de valor v(S)
 
 #### Función de valor v(S) basada en estudios periciales de superposición de contaminación:
 
-Coalición S v(S) = daño producido
-
-Justificación
-
-v(∅) = 0 Sin ningún actor, no hay contaminación.
-
-S = ∅ (ninguno)
-
-S = {1} solo Texaco
-
-v({1}) = 0.22 × D_total
-
-La contaminación de Texaco por sí sola produciría aproximadamente el 22% del daño (solapamiento con otras fuentes eliminado).
-
-S = {2} solo Petroecuador
-
-v({2}) = 0.40 × D_total
-
-Petroecuador opera más tiempo y más extensión, pero sobre parte del territorio ya contaminado por Texaco.
-
-S = {3} otros operadores
-
-v({3}) = 0.15 × D_total
-
-Fuentes menores con menor extensión.
-
-S = {1,2} v({1,2}) = 0.70 × D_total
+| Coalición S | v(S) = daño producido | Justificación |
+| --- | --- | --- |
+| ∅ S = (ninguno) | v(∅) = 0 | Sin ningún actor, no hay contaminación. |
+| S = {1} solo Texaco | v({1}) = 0.22 × D_total | La contaminación de Texaco por sí sola produciría aproximadamente el 22% del daño (solapamiento con otras fuentes eliminado). |
+| S = {2} solo Petroecuador | v({2}) = 0.40 × D_total | Petroecuador opera más tiempo y más extensión, pero sobre parte del territorio ya contaminado por Texaco. |
+| S = {3} otros operadores | v({3}) = 0.15 × D_total | Fuentes menores con menor extensión. |
+| S = {1,2} | v({1,2}) = 0.70 × D_total | La superposición de las dos fuentes principales produce un daño no aditivo: se amplifican mutuamente. |
 
 La superposición de las dos fuentes principales produce un daño no aditivo: se amplifican mutuamente.
 
+<table>
+<tbody>
+<tr><th scope="row">S = {1,3}</th><td>v({1,3}) = 0.42 × D_total</td><td>Menor superposición entre Texaco y las fuentes menores.</td></tr>
+<tr><th scope="row">S = {2,3}</th><td>v({2,3}) = 0.58 × D_total</td><td>Petroecuador y fuentes menores se solapan en parte del territorio.</td></tr>
+<tr><th scope="row">S = {1,2,3} (todos)</th><td>v({N}) = 1.00 × D_total</td><td>El daño total observado es la función del conjunto completo.</td></tr>
+</tbody>
+</table>
 
-S = {1,3} v({1,3}) = 0.42 × D_total
-
-Menor superposición entre Texaco y las fuentes menores.
-
-S = {2,3} v({2,3}) = 0.58 × D_total
-
-Petroecuador y fuentes menores se solapan en parte del territorio.
-
-S = {1,2,3} (todos)
-
-v({N}) = 1.00 × D_total
-
-El daño total observado es la función del conjunto completo.
 
 #### Cálculo del valor de Shapley para el Actor 1 (Texaco/Chevron):
 
-φ₁ = (1/3!) × Σ sobre todos los ordenamientos de la contribución marginal de 1
+| Actor | φᵢ (Shapley) | Fracción del D_total | Contraste con R* convencional |
+| --- | --- | --- | --- |
 
 = (1/6) × [(v ({1}) − v (∅)) + (v ({1,2}) − v ({2})) + (v ({1,3}) − v ({3})) + (v ({1,2,3}) − v ({2,3})) + (v ({1,2,3}) − v ({2,3})) ← dos órdenes distintos dan el mismo resultado
 
-\+ (v ({1,3,2}) − v ({3,2}))]
 
 #### φ₁ = (1/6) × [(0.22−0) + (0.70−0.40) + (0.42−0.15) +
 
+
 #### (1.00−0.58) × 3/2]
+
+| Actor | φᵢ (Shapley) | Fracción del D_total | Contraste con R* convencional |
+| --- | --- | --- | --- |
+| Texaco/Chevron | 0.237 | 23.7% | R* convencional daría 0 si Texaco no es condición necesaria. Shapley da 23.7% por su contribución marginal real. |
 
 #### ≈ (1/6) × [0.22 + 0.30 + 0.27 + 0.63]
 
+
 #### ≈ (1/6) × 1.42 ≈ 0.237
+
 
 #### El valor de Shapley de Texaco/Chevron es φ₁ ≈ 0.237: aproximadamente el 23.7% del daño total. Este es el resultado que el litigio debería haber establecido como base
 
+| Actor | φᵢ (Shapley) | Fracción del D_total | Contraste con R* convencional |
+| --- | --- | --- | --- |
+| Petroecuador | 0.488 | 48.8% | Mayor porción porque opera más tiempo y más territorio. |
 
 #### para la responsabilidad de Chevron, independientemente de las controversias procesales.
 
+
 #### Valores de Shapley para los tres actores (verificación de eficiencia):
 
-Actor φᵢ (Shapley)
-
-Fracción del D_total
-
-Contraste con R* convencional
-
-Texaco/Chevron 0.237 23.7% R* convencional daría 0 si Texaco no es condición necesaria. Shapley da 23.7% por su contribución marginal real.
-
-Petroecuador 0.488 48.8% Mayor porción porque opera más tiempo y más territorio.
-
-#### 0.275 27.5% Mayor de lo esperado por los efectos de amplificación con las otras fuentes.
-
-Otros operadores
-
-#### 1.000 100% Propiedad de eficiencia de Shapley: la suma es exactamente el daño total.
+| Actor | φᵢ (Shapley) | Fracción del D_total | Contraste con R* convencional |
+| --- | --- | --- | --- |
+| Otros operadores | 0.275 | 27.5% | Mayor de lo esperado por los efectos de amplificación con las otras fuentes. |
+| Suma (verificación) | 1.000 | 100% | Propiedad de eficiencia de Shapley: la suma es exactamente el daño total. |
 
 Suma (verificación)
 
@@ -10507,14 +7434,16 @@ Este capítulo es el lugar donde el sistema hace más visible lo que puede y lo 
 
 #### 5.1 Límite I: el postulado de la condición necesaria en causalidad acumulativa
 
-Este es el límite más importante del libro. El postulado I5 establece que el nodo N_i es causalmente necesario para el daño D si dD/dN_i ≠ 0: si eliminar N_i del grafo cambiaría el daño. Cuando el daño es acumulativo y hay múltiples fuentes que cada una es marginal —el cambio climático es el ejemplo más grande y más claro— el postulado no se cumple para ninguna fuente individual y R* convencional asigna cero a todos los actores.
+> [!WARNING]
+> Este es el límite más importante del libro. El postulado I5 establece que el nodo N_i es causalmente necesario para el daño D si dD/dN_i ≠ 0: si eliminar N_i del grafo cambiaría el daño. Cuando el daño es acumulativo y hay múltiples fuentes que cada una es marginal —el cambio climático es el ejemplo más grande y más claro— el postulado no se cumple para ninguna fuente individual y R* convencional asigna cero a todos los actores.
 
 La extensión Shapley resuelve este límite en los casos donde la función de valor v(S) puede estimarse con datos suficientes. Pero tiene su propio límite: calcular φᵢ exactamente requiere evaluar 2ⁿ coaliciones posibles, lo que es computacionalmente prohibitivo para n grande. Los métodos de aproximación de Monte Carlo para φᵢ son la solución práctica (implementada en el código del §6).
 
 ⚠ El cambio climático es el caso donde el límite de la condición necesaria se manifiesta con mayor urgencia política. Ningún actor individual (ningún país, ninguna empresa emisora) es condición necesaria del cambio climático: incluso si ese actor eliminara completamente sus emisiones, el cambio
 
 
-climático ocurriría de todas formas por la suma de las demás emisiones. R* convencional = 0 para todos. Shapley produce valores positivos para todos, proporcionales a su contribución marginal promedio. Los valores de Shapley son la base técnica para el diseño de compromisos climáticos equitativos.
+> [!NOTE]
+> climático ocurriría de todas formas por la suma de las demás emisiones. R* convencional = 0 para todos. Shapley produce valores positivos para todos, proporcionales a su contribución marginal promedio. Los valores de Shapley son la base técnica para el diseño de compromisos climáticos equitativos.
 
 #### 5.2 Límite II: la incertidumbre en los datos de dispersión
 
@@ -10602,7 +7531,8 @@ El caso hipotético de la escuela con fracaso sistemático añade la dimensión 
 
 La evaluación docente basada en los resultados académicos de los estudiantes comete el error que el Capítulo 8 identificó en el score crediticio: atribuir al agente individual (el docente, el deudor) la causalidad de un resultado que depende principalmente de factores estructurales que ese agente no controla. El resultado es la misma inversión causal: el nodo con mayor visibilidad (el docente, que interactúa directamente con el estudiante) recibe la mayor imputación de responsabilidad, aunque el nodo con mayor R* (el entorno familiar y socioeconómico, el diseño del sistema educativo) permanece prácticamente invisible en el debate político.
 
-Error de categoría en la evaluación educativa:  Atribuir al docente la responsabilidad causal de un resultado educativo cuya fracción explicada por el docente es menor que la fracción explicada por el entorno socioeconómico del estudiante. El error consiste en usar el resultado como proxy del desempeño docente cuando ese resultado tiene R*_docente << R*_entorno.
+> [!NOTE]
+> Error de categoría en la evaluación educativa:  Atribuir al docente la responsabilidad causal de un resultado educativo cuya fracción explicada por el docente es menor que la fracción explicada por el entorno socioeconómico del estudiante. El error consiste en usar el resultado como proxy del desempeño docente cuando ese resultado tiene R*_docente << R*_entorno.
 
 Este error no es solo técnico: tiene consecuencias distributivas graves. Los docentes que trabajan con poblaciones en desventaja estructural son evaluados con mayor severidad porque sus estudiantes tienen entornos de menor capital cultural, independientemente de la calidad de su trabajo. Los sistemas de evaluación que no corrigen por el R* del entorno penalizan sistemáticamente a los docentes que trabajan en las condiciones más difíciles.
 
@@ -10622,55 +7552,21 @@ En el docente, los hijos describen desde qué disposición actúa en el aula: el
 
 Esta página resume las herramientas del sistema en el contexto de la educación, la evaluación docente y la política educativa. El lector con formación en pedagogía, política educativa o investigación educativa puede comenzar aquí.
 
-Herramienta En educación se llama
-
-Qué significa
-
-Grafo causal G
-
-Red causal del resultado educativo
-
-El mapa de todos los factores que contribuyen causalmente al resultado académico del estudiante: el entorno familiar, el entorno de pares, la escuela como institución, el docente, el sistema educativo, la política educativa.
-
-R* (vector) Peso causal en el resultado educativo
-
-La fracción del resultado académico causalmente atribuible a cada factor. R*_entorno es el peso del capital cultural y socioeconómico del hogar. R*_docente es la fracción del resultado que depende causalmente de ese docente específico.
-
-S del docente Fungibilidad del docente en el resultado
-
-S alto: cualquier docente con la formación equivalente, en ese contexto específico, habría producido resultados similares. El resultado es una propiedad del sistema, no
-
-
-del docente. S bajo: el docente específico (sus métodos, su relación con los estudiantes, su conocimiento de la materia) es causalmente determinante del resultado.
-
-S del entorno Estructuralidad del resultado educativo
-
-S alto del entorno: el resultado habría sido el mismo con cualquier estudiante de ese entorno socioeconómico, independientemente del esfuerzo individual. Mide cuánto del resultado es una propiedad de la posición estructural del estudiante, no de sus capacidades.
-
-α del docente Desempeño docente efectivo proporcional a su R*
-
-Lo que el docente hace para producir aprendizaje en sus estudiantes: preparación efectiva, retroalimentación oportuna, adaptación a las necesidades individuales, motivación del interés genuino. α = 0: docente que no ejerce ningún efecto positivo sobre el aprendizaje. α = 1: docente que extrae el máximo potencial del R* que controla.
-
-Δ del docente Déficit de desempeño proporcional al R*
-
-La brecha entre el R* del docente en el resultado y su desempeño efectivo. Δ positivo indica que el docente tenía poder causal sobre el aprendizaje y no lo ejerció. Δ negativo: el docente produjo más de lo que su R* requería (docente excepcional en condiciones adversas).
-
-
-Δ del sistema Déficit causal del sistema educativo no asumido
-
-El sistema educativo tiene R* positivo en el resultado a través de los recursos disponibles, el diseño curricular y la formación docente. Cuando el sistema imputa el fracaso al docente para encubrir ese Δ, se produce la inversión causal que el Informe Coleman ya documentaba en 1966.
-
-D_total educativo
-
-Daño del fracaso educativo
-
-El fracaso educativo no compensado produce D_total real: T_invertido (el período sin aprendizaje), T_impedido (las oportunidades que no se abrieron por falta de la base educativa), ΔT_trayectoria (el diferencial de ingresos y movilidad social que se pierde permanentemente).
-
-Eros: el docente que genuinamente se orienta hacia el aprendizaje de sus estudiantes. Fobos: el que actúa desde el miedo a la evaluación. Potós: el que persiste en metodologías heredadas. Harmonía: el que adapta su práctica con información y reflexión.
-
-Hijos del docente
-
-Disposición de la voluntad del docente en el aula
+| Herramienta | En educación se llama | Qué significa |
+| --- | --- | --- |
+| Grafo causal G | Red causal del resultado educativo | El mapa de todos los factores que contribuyen causalmente al resultado académico del estudiante: el entorno familiar, el entorno de pares, la escuela como institución, el docente, el sistema educativo, la política educativa. |
+| R* (vector) | Peso causal en el resultado educativo | La fracción del resultado académico causalmente atribuible a cada factor. R*_entorno es el peso del capital cultural y socioeconómico del hogar. R*_docente es la fracción del resultado que depende causalmente de ese docente específico. |
+| S del docente | Fungibilidad del docente en el resultado | S alto: cualquier docente con la formación equivalente, en ese contexto específico, habría producido resultados similares. El resultado es una propiedad del sistema, no |
+<table>
+<tbody>
+<tr><th scope="row">S del entorno</th><td>Estructuralidad del resultado educativo</td><td>S alto del entorno: el resultado habría sido el mismo con cualquier estudiante de ese entorno socioeconómico, independientemente del esfuerzo individual. Mide cuánto del resultado es una propiedad de la posición estructural del estudiante, no de sus capacidades.</td></tr>
+<tr><th scope="row">α del docente</th><td>Desempeño docente efectivo proporcional a su R*</td><td>Lo que el docente hace para producir aprendizaje en sus estudiantes: preparación efectiva, retroalimentación oportuna, adaptación a las necesidades individuales, motivación del interés genuino. α = 0: docente que no ejerce ningún efecto positivo sobre el aprendizaje. α = 1: docente que extrae el máximo potencial del R* que controla.</td></tr>
+<tr><th scope="row">Δ del docente</th><td>Déficit de desempeño proporcional al R*</td><td>La brecha entre el R* del docente en el resultado y su desempeño efectivo. Δ positivo indica que el docente tenía poder causal sobre el aprendizaje y no lo ejerció. Δ negativo: el docente produjo más de lo que su R* requería (docente excepcional en condiciones adversas).</td></tr>
+<tr><th scope="row">Δ del sistema</th><td>Déficit causal del sistema educativo no asumido</td><td>El sistema educativo tiene R* positivo en el resultado a través de los recursos disponibles, el diseño curricular y la formación docente. Cuando el sistema imputa el fracaso al docente para encubrir ese Δ, se produce la inversión causal que el Informe Coleman ya documentaba en 1966.</td></tr>
+<tr><th scope="row">D_total educativo</th><td>Daño del fracaso educativo</td><td>El fracaso educativo no compensado produce D_total real: T_invertido (el período sin aprendizaje), T_impedido (las oportunidades que no se abrieron por falta de la base educativa), ΔT_trayectoria (el diferencial de ingresos y movilidad social que se pierde permanentemente).</td></tr>
+<tr><th scope="row">Hijos del docente</th><td>Disposición de la voluntad del docente en el aula</td><td>Eros: el docente que genuinamente se orienta hacia el aprendizaje de sus estudiantes. Fobos: el que actúa desde el miedo a la evaluación. Potós: el que persiste en metodologías heredadas. Harmonía: el que adapta su práctica con información y reflexión.</td></tr>
+</tbody>
+</table>
 
 Para el lector que viene del núcleo universal:  Este dominio introduce el uso defensivo de S: S alto del docente no es un insulto a su profesión sino la demostración técnica de que el fracaso que se le imputa era estructural. Cuando S_docente es alto, la evaluación basada en resultados de estudiantes no mide la calidad del docente: mide la posición socioeconómica del entorno. Ese es el argumento que el sistema formaliza.
 
@@ -10681,25 +7577,10 @@ Para el lector que viene del núcleo universal:  Este dominio introduce el uso d
 
 El grafo causal del resultado educativo de un estudiante tiene una estructura de seis niveles que el Informe Coleman fue el primero en medir empíricamente a escala nacional. La distribución de R* entre esos niveles es la información más importante para el diseño de política educativa.
 
-Nivel Factor R* según evidencia
-
-Implicación para política
-
-Entorno familiar
-
-Capital cultural del hogar: libros, conversación, aspiraciones, nivel educativo de los padres.
-
-~40-55% según Coleman y réplicas posteriores. El factor de mayor R* consistentemente.
-
-Las intervencion es de alta prioridad para mejorar resultados son en el hogar (programas de visita domiciliaria, formación de padres) no solo en la escuela.
-
-Entorno de pares
-
-La composición socioeconómica del grupo de estudiantes en la escuela.
-
-~10-15%. Un estudiante en un entorno de pares de mayor capital cultural tiene mayor rendimiento independientemen
-
-La segregación escolar tiene un costo causal documentad o sobre los estudiantes
+| Nivel | Factor | R* según evidencia | Implicación para política |
+| --- | --- | --- | --- |
+| Entorno familiar | Capital cultural del hogar: libros, conversación, aspiraciones, nivel educativo de los padres. | ~40-55% según Coleman y réplicas posteriores. El factor de mayor R* consistentemente. | Las intervencion es de alta prioridad para mejorar resultados son en el hogar (programas de visita domiciliaria, formación de padres) no solo en la escuela. |
+| Entorno de pares | La composición socioeconómica del grupo de estudiantes en la escuela. | ~10-15%. Un estudiante en un entorno de pares de mayor capital cultural tiene mayor rendimiento independientemen | La segregación escolar tiene un costo causal documentad o sobre los estudiantes |
 
 
 te de sus condiciones familiares.
@@ -10710,65 +7591,28 @@ Escuela como institució n
 
 Recursos, infraestructura, liderazgo directivo, cultura escolar.
 
-~8-14%. Menor de lo que se asume políticamente. Los recursos materiales tienen R* bajo; el liderazgo directivo tiene R* mayor.
+<table>
+<tbody>
+<tr><th scope="row">Escuela como institució n</th><td>Recursos, infraestructura, liderazgo directivo, cultura escolar.</td><td>~8-14%. Menor de lo que se asume políticamente. Los recursos materiales tienen R* bajo; el liderazgo directivo tiene R* mayor.</td><td>El financiamien to adicional a escuelas sin abordar los factores de mayor R* produce retornos modestos.</td></tr>
+<tr><th scope="row">Docente</th><td>Calidad del docente: conocimiento de la materia, metodología, relación con estudiantes, retroalimentació n.</td><td>~8-15%. El docente tiene R* real pero no dominante. Varía significativamente : docentes excepcionales tienen R* de 20- 25%, promedio 8- 12%.</td><td>La evaluación docente es legítima pero debe calibrar por S. Imputar resultados sin calibrar por entorno produce inversión causal.</td></tr>
+<tr><th scope="row">Diseño curricular</th><td>La secuenciación y el contenido de lo que se enseña.</td><td>~5-10%. Impacto real pero difícil de separar del docente.</td><td>Las reformas curriculares sin formación docente tienen R* bajo.</td></tr>
+<tr><th scope="row">Política educativa</th><td>Financiamiento, estructura del sistema, evaluación y rendición de cuentas.</td><td>~5-8%. Impacto difuso que opera a través de los otros niveles.</td><td>Las políticas que aumentan el R* de los factores de mayor</td></tr>
+<tr><th scope="row"></th><td></td><td></td><td>impacto (hogar, pares) tienen mayor retorno.</td></tr>
+</tbody>
+</table>
 
-El financiamien to adicional a escuelas sin abordar los factores de mayor R* produce retornos modestos.
-
-Docente Calidad del docente: conocimiento de la materia, metodología, relación con estudiantes, retroalimentació n.
-
-~8-15%. El docente tiene R* real pero no dominante. Varía significativamente : docentes excepcionales tienen R* de 20-25%, promedio 8-12%.
-
-La evaluación docente es legítima pero debe calibrar por S. Imputar resultados sin calibrar por entorno produce inversión causal.
-
-Diseño curricular
-
-La secuenciación y el contenido de lo que se enseña.
-
-~5-10%. Impacto real pero difícil de separar del docente.
-
-Las reformas curriculares sin formación docente tienen R* bajo.
-
-Política educativa
-
-Financiamiento, estructura del sistema, evaluación y rendición de cuentas.
-
-~5-8%. Impacto difuso que opera a través de los otros niveles.
-
-Las políticas que aumentan el R* de los factores de mayor
-
-
-impacto (hogar, pares) tienen mayor retorno.
-
-Principio educativo:  La suma de los R* de la tabla es aproximadamente 1.0, pero la distribución tiene una consecuencia política central: si el entorno familiar tiene R* = 45% y el docente tiene R* = 10%, y el sistema de evaluación imputa el 100% del resultado al docente, está produciendo una inversión causal de 10x. El docente está siendo juzgado como si tuviera cuatro veces más poder del que tiene, mientras el factor de cuatro veces mayor poder permanece invisible en el sistema de rendición de cuentas.
+> [!IMPORTANT]
+> Principio educativo:  La suma de los R* de la tabla es aproximadamente 1.0, pero la distribución tiene una consecuencia política central: si el entorno familiar tiene R* = 45% y el docente tiene R* = 10%, y el sistema de evaluación imputa el 100% del resultado al docente, está produciendo una inversión causal de 10x. El docente está siendo juzgado como si tuviera cuatro veces más poder del que tiene, mientras el factor de cuatro veces mayor poder permanece invisible en el sistema de rendición de cuentas.
 
 #### 3.2 S del docente: la herramienta de defensa y la herramienta de mejora
 
 El índice de sustituibilidad S del docente tiene dos usos que el capítulo desarrolla con igual énfasis: el uso defensivo (demostrar que el resultado que se le imputa era estructural) y el uso constructivo (identificar qué fracción del resultado el docente puede genuinamente mejorar).
 
-Situación Implicación
-
-S del docente
-
-S alto (0.70–0.95)
-
-Cualquier docente con la misma formación y ante el mismo entorno de estudiantes habría producido resultados comparables. El fracaso es una propiedad del sistema, no del docente.
-
-Uso defensivo: la evaluación negativa no es válida como medida del desempeño de ese docente. Uso constructivo: la intervención que mejora el resultado no es "cambiar el docente" sino cambiar las
-
-
-condiciones del entorno o el apoyo institucional al docente.
-
-S moderado (0.35–0.69)
-
-El resultado depende en parte de las características del docente y en parte de las condiciones estructurales. El docente tiene poder de intervención pero el entorno tiene también R* significativo.
-
-La evaluación con calibración por entorno es válida. El docente puede mejorar su α sin que el sistema le impute la totalidad del R* del entorno.
-
-S bajo (0.05–0.34)
-
-Las características idiosincráticas del docente son causalmente determinantes del resultado. Sus métodos específicos, su relación con los estudiantes, su conocimiento de la materia produjeron un resultado que otro docente no habría producido.
-
-La evaluación basada en resultados es más legítima aquí. Un S bajo puede ser señal de un docente excepcional (que produce mucho más de lo esperado) o de uno que produce mucho menos. El análisis del Δ distingue los dos casos.
+| S del docente | Situación | Implicación |
+| --- | --- | --- |
+| S alto (0.70–0.95) | Cualquier docente con la misma formación y ante el mismo entorno de estudiantes habría producido resultados comparables. El fracaso es una propiedad del sistema, no del docente. | Uso defensivo: la evaluación negativa no es válida como medida del desempeño de ese docente. Uso constructivo: la intervención que mejora el resultado no es "cambiar el docente" sino cambiar las |
+| S moderado (0.35–0.69) | El resultado depende en parte de las características del docente y en parte de las condiciones estructurales. El docente tiene poder de intervención pero el entorno tiene también R* significativo. | La evaluación con calibración por entorno es válida. El docente puede mejorar su α sin que el sistema le impute la totalidad del R* del entorno. |
+| S bajo (0.05–0.34) | Las características idiosincráticas del docente son causalmente determinantes del resultado. Sus métodos específicos, su relación con los estudiantes, su conocimiento de la materia produjeron un resultado que otro docente no habría producido. | La evaluación basada en resultados es más legítima aquí. Un S bajo puede ser señal de un docente excepcional (que produce mucho más de lo esperado) o de uno que produce mucho menos. El análisis del Δ distingue los dos casos. |
 
 La calibración de la evaluación docente por S produce el instrumento correcto para la política educativa: en lugar de comparar los resultados absolutos de los estudiantes (que reflejan principalmente el entorno), compara los resultados relativos al R* del entorno. Un docente en una escuela de alta pobreza que produce resultados de nivel medio tiene un desempeño más meritorio que uno en una escuela de alta riqueza que produce los mismos resultados absolutos.
 
@@ -10777,57 +7621,20 @@ La calibración de la evaluación docente por S produce el instrumento correcto 
 
 Esta fórmula produce el equivalente educativo del "valor agregado" docente (VAM, Value-Added Model), pero con una diferencia crucial: está fundamentada en la distribución causal del R*, no solo en la estadística descriptiva de las diferencias de resultado.
 
+
 #### 3.3 α del docente y los hijos: la disposición de la voluntad en el aula
+
 
 El α del docente en el resultado educativo mide el grado en que ejerce efectivamente el R* que tiene. Dos docentes con el mismo R* (el mismo entorno, las mismas condiciones estructurales) pueden tener α muy distintos: uno produce el máximo aprendizaje posible en esas condiciones; el otro produce significativamente menos. La diferencia es el α y su correlato en los hijos.
 
-Hijo En el docente
-
-Qué se observa en el aula
-
-Consecuenci a para el aprendizaje
-
-Eros El docente se orienta genuinament e hacia el aprendizaje de sus estudiantes. Encuentra satisfacción en el acto de enseñar.
-
-Búsqueda activa de metodologías más efectivas. Conocimiento personal de cada estudiante. Adaptación constante al nivel real de la clase.
-
-α más alto posible: el docente extrae el máximo del R* que controla. Es el perfil de mayor impacto sobre el aprendizaje.
-
-Harmoní a
-
-El docente delibera con información sobre su práctica. Revisa sus
-
-Reflexión sobre los resultados de sus propios estudiantes. Participación en comunidades de
-
-α alto y creciente con el tiempo. Es el perfil del docente que mejora a lo
-
-
-métodos, los contrasta con evidencia, los adapta.
-
-aprendizaje docente. Formación continua con propósito.
-
-largo de su carrera.
-
-Potós Persistencia en metodología s heredadas sin revisarlas. "Siempre lo he enseñado así."
-
-Clases homogéneas. Evaluación por reproducción de la exposición del docente. Baja adaptación a las necesidades individuales.
-
-α moderado y estático. El docente produce un resultado razonable con los estudiantes que se adaptan a su metodología, pero deja atrás a quienes la metodología no alcanza.
-
-Fobos El docente actúa desde el miedo a la evaluación negativa, a la crítica de los padres, a la comparación con sus pares.
-
-Enseñanza para la prueba. Presión sobre los estudiantes para que suban el puntaje independientement e del aprendizaje real. Evitación del riesgo metodológico.
-
-α bajo o negativo: el docente optimiza la métrica de evaluación en lugar del aprendizaje. Puede subir el puntaje mientras baja el aprendizaje real.
-
-Deimos Parálisis ante la magnitud del problema. El docente ve las necesidades de sus estudiantes y se siente
-
-Clases de bajo compromiso. El docente completa los contenidos sin energía hacia el impacto.
-
-α muy bajo. El docente no causa daño activo pero tampoco produce el aprendizaje que su R* permitiría.
-
-
-incapaz de responder a ellas.
+| Hijo | En el docente | Qué se observa en el aula | Consecuenci a para el aprendizaje |
+| --- | --- | --- | --- |
+| Eros | El docente se orienta genuinament e hacia el aprendizaje de sus estudiantes. Encuentra satisfacción en el acto de enseñar. | Búsqueda activa de metodologías más efectivas. Conocimiento personal de cada estudiante. Adaptación constante al nivel real de la clase. | α más alto posible: el docente extrae el máximo del R* que controla. Es el perfil de mayor impacto sobre el aprendizaje. |
+| Harmoní a | El docente delibera con información sobre su práctica. Revisa sus | Reflexión sobre los resultados de sus propios estudiantes. Participación en comunidades de | α alto y creciente con el tiempo. Es el perfil del docente que mejora a lo |
+| Potós | Persistencia en metodología s heredadas sin revisarlas. "Siempre lo he enseñado así." | Clases homogéneas. Evaluación por reproducción de la exposición del docente. Baja adaptación a las necesidades individuales. | α moderado y estático. El docente produce un resultado razonable con los estudiantes que se adaptan a su metodología, pero deja atrás a quienes la metodología no alcanza. |
+| Fobos | El docente actúa desde el miedo a la evaluación negativa, a la crítica de los padres, a la comparación con sus pares. | Enseñanza para la prueba. Presión sobre los estudiantes para que suban el puntaje independientement e del aprendizaje real. Evitación del riesgo metodológico. | α bajo o negativo: el docente optimiza la métrica de evaluación en lugar del aprendizaje. Puede subir el puntaje mientras baja el aprendizaje real. |
+| Deimos | Parálisis ante la magnitud del problema. El docente ve las necesidades de sus estudiantes y se siente | Clases de bajo compromiso. El docente completa los contenidos sin energía hacia el impacto. | α muy bajo. El docente no causa daño activo pero tampoco produce el aprendizaje que su R* permitiría. |
+|  | incapaz de responder a ellas. |  |  |
 
 El perfil de hijos con mayor prevalencia en sistemas educativos con evaluación basada en resultados sin calibración por entorno es Fobos dominante: el sistema que evalúa el resultado sin calibrar por R*_entorno crea el incentivo estructural para que los docentes actúen desde el miedo a la evaluación. Ese Fobos sistémico —producido por el diseño del sistema de evaluación— tiene R* positivo en el deterioro del aprendizaje a largo plazo.
 
@@ -10836,7 +7643,8 @@ El perfil de hijos con mayor prevalencia en sistemas educativos con evaluación 
 
 Caso A — Informe Coleman (EE.UU., 1966)
 
-El primer análisis causal masivo del resultado educativo: R* del entorno familiar supera al docente por 4 a 1
+> [!NOTE]
+> El primer análisis causal masivo del resultado educativo: R* del entorno familiar supera al docente por 4 a 1
 
 A.1 El contexto histórico y el encargo
 
@@ -10849,44 +7657,31 @@ El hallazgo central —que el entorno familiar explicaba entre el 50% y el 70% d
 
 #### tiene menos varianza en su impacto porque hace menos diferencia de lo que creíamos.
 
+
 #### A.2 El grafo causal del resultado educativo según Coleman
+
 
 Traducida al lenguaje del sistema de imputación causal, la conclusión de Coleman produce el siguiente grafo de R* para el resultado académico promedio de los estudiantes de educación básica en los EE.UU. en 1966:
 
-Factor causal
-
-R* según Coleman
-
-S estimada
-
-Interpretación y consecuencia de política
-
-~52% 0.75 El capital cultural del hogar es el factor dominante. S alto: cualquier estudiante de ese entorno tendería a ese resultado. La desigualdad del resultado escolar refleja la desigualdad del entorno.
-
-Entorno familiar (N1)
-
-~14% 0.82 La composición del grupo importa significativamente. S muy alto: la presión del grupo es genérica. La segregación escolar tiene un costo causal sobre los estudiantes en grupos de menor capital cultural.
-
-Entorno de pares (N2)
-
-~12% 0.65 El maestro tiene R* real pero no dominante. S moderado: hay varianza idiosincrática
-
-Docente (N3)
-
+| Factor causal | R* según Coleman | S estimada | Interpretación y consecuencia de política |
+| --- | --- | --- | --- |
+| Entorno familiar (N1) | ~52% | 0.75 | El capital cultural del hogar es el factor dominante. S alto: cualquier estudiante de ese entorno tendería a ese resultado. La desigualdad del resultado escolar refleja la desigualdad del entorno. |
+| Entorno de pares (N2) | ~14% | 0.82 | La composición del grupo importa significativamente. S muy alto: la presión del grupo es genérica. La segregación escolar tiene un costo causal sobre los estudiantes en grupos de menor capital cultural. |
+| Docente (N3) | ~12% | 0.65 | El maestro tiene R* real pero no dominante. S moderado: hay varianza idiosincrática |
+<table>
+<tbody>
+<tr><th scope="row">Escuela como institución (N4)</th><td>~10%</td><td>0.85</td><td>Los recursos materiales tienen bajo R* cuando el entorno y los pares controlan más. S alto: cualquier escuela con recursos similares habría tenido resultados similares.</td></tr>
+</tbody>
+</table>
 
 significativa entre maestros, pero la mayoría de los maestros producen resultados similares en el mismo entorno.
 
-~10% 0.85 Los recursos materiales tienen bajo R* cuando el entorno y los pares controlan más. S alto: cualquier escuela con recursos similares habría tenido resultados similares.
-
-Escuela como institución (N4)
-
-~7% 0.88 Impacto difuso. S muy alto.
-
-Diseño curricular / política (N5)
-
-~5% 0.45 Motivación, salud, historia personal. S moderado: hay varianza idiosincrática real pero limitada por las condiciones del entorno.
-
-Factores individuales del estudiante (N6)
+<table>
+<tbody>
+<tr><th scope="row">Diseño curricular / política (N5)</th><td>~7%</td><td>0.88</td><td>Impacto difuso. S muy alto.</td></tr>
+<tr><th scope="row">Factores individuales del estudiante (N6)</th><td>~5%</td><td>0.45</td><td>Motivación, salud, historia personal. S moderado: hay varianza idiosincrática real pero limitada por las condiciones del entorno.</td></tr>
+</tbody>
+</table>
 
 La consecuencia de política más directa de este grafo es que el financiamiento compensatorio a las escuelas negras —lo que el Congreso esperaba que Coleman justificara— tiene R* bajo en el resultado si no va acompañado de intervenciones en los factores de R* alto (el entorno familiar, la composición del grupo de pares). Eso no significa que el financiamiento igualitario sea incorrecto — es una cuestión de justicia redistributiva independiente del R*— sino que sus efectos sobre el aprendizaje son limitados si no se abordan las causas de mayor R*.
 
@@ -10901,37 +7696,28 @@ Los hallazgos del Informe Coleman han sido replicados, refinados y matizados dur
 - El R* de la composición de pares ha sido confirmado múltiples veces: la integración escolar tiene efectos positivos sobre el rendimiento de los estudiantes de menor capital cultural, con efectos neutros sobre los de mayor capital cultural.
 
 
-El argumento del valor agregado vs. el argumento de Coleman:  Los sistemas de evaluación docente por "valor agregado" (VAM) intentan separar el efecto del docente del efecto del entorno mediante modelos estadísticos que controlan por las características del estudiante. Cuando funcionan bien, esos modelos son equivalentes al análisis de R* con calibración por S. El problema es que los VAM requieren datos longitudinales de alta calidad que la mayoría de los sistemas educativos no tienen, y que cuando se aplican sin esa calidad producen evaluaciones ruidosas que los sindicatos docentes legítimamente impugnan. El análisis de R* + S es el marco conceptual que los VAM intentan implementar estadísticamente.
+> [!NOTE]
+> El argumento del valor agregado vs. el argumento de Coleman:  Los sistemas de evaluación docente por "valor agregado" (VAM) intentan separar el efecto del docente del efecto del entorno mediante modelos estadísticos que controlan por las características del estudiante. Cuando funcionan bien, esos modelos son equivalentes al análisis de R* con calibración por S. El problema es que los VAM requieren datos longitudinales de alta calidad que la mayoría de los sistemas educativos no tienen, y que cuando se aplican sin esa calidad producen evaluaciones ruidosas que los sindicatos docentes legítimamente impugnan. El análisis de R* + S es el marco conceptual que los VAM intentan implementar estadísticamente.
+
 
 
 #### A.4 El D_total del fracaso educativo: cómo cuantificar lo que no se aprendió
 
-El fracaso educativo tiene un D_total calculable con la estructura del sistema. Para los estudiantes que no completan la educación básica o que la completan sin los aprendizajes básicos mínimos, el daño en tiempo de vida tiene tres componentes:
+| Componente | En el fracaso educativo | Estimación |
+| --- | --- | --- |
 
 #### D_educativo = T_invertido + T_impedido +
 
-#### ΔT_trayectoria
-
-Componente En el fracaso educativo
-
-Estimación
-
-T_invertido El tiempo que el estudiante invirtió en el sistema escolar sin adquirir los aprendizajes básicos.
-
-Difícil de cuantificar monetariamente porque el tiempo en la escuela no es trabajo cristalizado sino potencial no desarrollado. Se mide como el diferencial de habilidades respecto al estándar esperado al finalizar el nivel.
-
-T_impedido Las oportunidades que no se abrieron por la falta de la base educativa: acceso a educación superior, tipo de empleo, participación cívica.
-
-Diferencial de ingresos entre graduados con y sin las competencias básicas a lo largo de la vida laboral. Estimaciones para México: un estudiante que no adquiere competencias de lectura y matemáticas básicas pierde en promedio 15-20% de su ingreso potencial vitalicio.
-
-ΔT_trayectoria La pérdida permanente de
-
-El INEE (México, 2018) estimaba que un
-
-
-estudiante de educación básica sin competencias mínimas tenía una trayectoria de vida con un 40% menos de potencial de ingreso acumulado. Eso, multiplicado por las horas de vida que representa, produce el D_vital del fracaso educativo sistémico.
-
-movilidad social: el diferencial en el acceso a posiciones de mayor ingreso y autonomía a lo largo de toda la trayectoria de vida.
+| Componente | En el fracaso educativo | Estimación |
+| --- | --- | --- |
+| T_invertido | El tiempo que el estudiante invirtió en el sistema escolar sin adquirir los aprendizajes básicos. | Difícil de cuantificar monetariamente porque el tiempo en la escuela no es trabajo cristalizado sino potencial no desarrollado. Se mide como el diferencial de habilidades respecto al estándar esperado al finalizar el nivel. |
+| T_impedido | Las oportunidades que no se abrieron por la falta de la base educativa: acceso a educación superior, tipo de empleo, participación cívica. | Diferencial de ingresos entre graduados con y sin las competencias básicas a lo largo de la vida laboral. Estimaciones para México: un estudiante que no adquiere competencias de lectura y matemáticas básicas pierde en promedio 15-20% de su ingreso potencial vitalicio. |
+| ΔT_trayectoria | La pérdida permanente de | El INEE (México, 2018) estimaba que un |
+<table>
+<tbody>
+<tr><th scope="row"></th><td>movilidad social: el diferencial en el acceso a posiciones de mayor ingreso y autonomía a lo largo de toda la trayectoria de vida.</td><td>estudiante de educación básica sin competencias mínimas tenía una trayectoria de vida con un 40% menos de potencial de ingreso acumulado. Eso, multiplicado por las horas de vida que representa, produce el D_vital del fracaso educativo sistémico.</td></tr>
+</tbody>
+</table>
 
 Aplicación al contexto latinoamericano (estimación de referencia):
 
@@ -10964,7 +7750,8 @@ La política educativa que imputa el daño principalmente a los docentes (a trav
 
 Caso B — Escuela secundaria con fracaso sistemático (caso hipotético compuesto)
 
-S como herramienta de defensa del docente: el fracaso era del sistema, no del maestro
+> [!NOTE]
+> S como herramienta de defensa del docente: el fracaso era del sistema, no del maestro
 
 Este caso es una composición hipotética que integra los patrones más frecuentes en las evaluaciones docentes impugnadas en sistemas educativos de América Latina. No corresponde a ninguna institución específica.
 
@@ -10978,27 +7765,13 @@ B.2 El análisis de R* y S para la impugnación
 
 El análisis del grafo causal del resultado educativo de esa escuela específica produce la siguiente distribución: El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
-Factor R* S Evidencia para la impugnación
-
-~58% 0.82 78% de estudiantes sin libros en el hogar + 35% con padre/madre ausente. La distribución de estas características es documentable y explica la mayor parte del diferencial de resultados versus el promedio estatal.
-
-N1 — Entorno familiar de los estudiantes
-
-~15% 0.88 El entorno de pares de la escuela tiene bajo capital cultural promedio. Cualquier estudiante en ese entorno tendería a resultados menores que uno en entorno de mayor capital cultural.
-
-N2 — Composición de pares en la escuela
-
-~11% 0.78 S = 0.78: cualquier docente con formación equivalente en esas condiciones habría producido resultados similares. El resultado no mide la calidad del docente; mide las condiciones del entorno.
-
-N3 — Docentes impugnantes
-
-~10% 0.90 Sin biblioteca funcional, alta tasa de ausentismo. Estas condiciones institucionales son documentables.
-
-N4 — Escuela como institución
-
-~6% 0.92 La asignación de recursos insuficientes a esta escuela es una decisión del sistema, no del docente.
-
-N5 — Sistema educativo / política
+| Factor | R* | S | Evidencia para la impugnación |
+| --- | --- | --- | --- |
+| N1 — Entorno familiar de los estudiantes | ~58% | 0.82 | 78% de estudiantes sin libros en el hogar + 35% con padre/madre ausente. La distribución de estas características es documentable y explica la mayor parte del diferencial de resultados versus el promedio estatal. |
+| N2 — Composición de pares en la escuela | ~15% | 0.88 | El entorno de pares de la escuela tiene bajo capital cultural promedio. Cualquier estudiante en ese entorno tendería a resultados menores que uno en entorno de mayor capital cultural. |
+| N3 — Docentes impugnantes | ~11% | 0.78 | S = 0.78: cualquier docente con formación equivalente en esas condiciones habría producido resultados similares. El resultado no mide la calidad del docente; mide las condiciones del entorno. |
+| N4 — Escuela como institución | ~10% | 0.90 | Sin biblioteca funcional, alta tasa de ausentismo. Estas condiciones institucionales son documentables. |
+| N5 — Sistema educativo / política | ~6% | 0.92 | La asignación de recursos insuficientes a esta escuela es una decisión del sistema, no del docente. |
 
 #### El argumento central de la impugnación se formaliza así:
 
@@ -11011,7 +7784,8 @@ La responsabilidad causal neta de los docentes en el resultado es el 2.4% del to
 
 Adicionalmente, el análisis de S_docente = 0.78 significa que el 78% del resultado habría sido el mismo con cualquier otro docente de formación equivalente. La evaluación de "insatisfactorio" no mide la calidad de esos docentes específicos: mide las condiciones de la escuela y del entorno.
 
-⚠ El argumento más frecuente contra este análisis: "si el entorno es tan determinante, ¿para qué mejorar la calidad docente?" La respuesta es precisa: mejorar la calidad docente es valioso porque el R* del docente (11%) representa el mayor factor dentro del control del sistema educativo. El hecho de que el entorno tenga mayor R* no significa que el docente no importe: significa que los esfuerzos de mejora del sistema escolar deben priorizar los factores de mayor R*, y que las evaluaciones que imputan al docente el fracaso del entorno son injustas y producen el Fobos sistémico que deteriora el desempeño docente a largo plazo.
+> [!WARNING]
+> ⚠ El argumento más frecuente contra este análisis: "si el entorno es tan determinante, ¿para qué mejorar la calidad docente?" La respuesta es precisa: mejorar la calidad docente es valioso porque el R* del docente (11%) representa el mayor factor dentro del control del sistema educativo. El hecho de que el entorno tenga mayor R* no significa que el docente no importe: significa que los esfuerzos de mejora del sistema escolar deben priorizar los factores de mayor R*, y que las evaluaciones que imputan al docente el fracaso del entorno son injustas y producen el Fobos sistémico que deteriora el desempeño docente a largo plazo.
 
 B.3 Los hijos de los tres docentes: el diagnóstico diferencial
 
@@ -11176,7 +7950,8 @@ El análisis histórico mediante el sistema de imputación causal tiene dos cara
 - Ausencia de voluntad en los nodos estructurales: las alianzas, los sistemas de inteligencia, las estructuras institucionales no tienen voluntad propia. Tienen posición causal. Por eso los hijos no aplican en este dominio: se aplican a los actores individuales cuando el análisis de responsabilidad individual es relevante (que pertenece al Capítulo 1), pero no al análisis del evento histórico como tal.
 
 
-Principio de análisis histórico:  El análisis histórico con R* no se propone asignar culpa al pasado ni juzgar a los actores históricos por estándares del presente. Se propone identificar qué elementos del sistema que existía eran condición necesaria del evento, con qué peso causal, para entender qué tipo de sistema produce ese tipo de eventos. Esa comprensión tiene valor predictivo: un sistema con la misma estructura de R* producirá eventos similares bajo condiciones similares.
+> [!IMPORTANT]
+> Principio de análisis histórico:  El análisis histórico con R* no se propone asignar culpa al pasado ni juzgar a los actores históricos por estándares del presente. Se propone identificar qué elementos del sistema que existía eran condición necesaria del evento, con qué peso causal, para entender qué tipo de sistema produce ese tipo de eventos. Esa comprensión tiene valor predictivo: un sistema con la misma estructura de R* producirá eventos similares bajo condiciones similares.
 
 #### 1.2 El problema del contrafáctico histórico
 
@@ -11191,7 +7966,8 @@ El sistema responde a este problema con una metodología específica para el an�
 
 1.  Comparación estructural: ¿hubo eventos similares sin este nodo específico? Si el sistema de alianzas ya había producido crisis casi-bélicas en 1905 (Marruecos) y 1911 (Agadir), la ausencia de Princip no habría eliminado el mecanismo que producía esas crisis. 2.  Análisis de los mecanismos causales: ¿cuántos pasos del proceso entre el nodo y el evento dependían únicamente de ese nodo? Si la cascada Austria-Serbia-Rusia-Alemania-Francia-Reino Unido que siguió al asesinato era el resultado del sistema de alianzas y no del asesinato en sí, el asesinato es el detonador, pero no el mecanismo. 3.  Estimación de tasas base: dada la situación del sistema en un momento histórico, ¿qué probabilidad tiene un evento de esa naturaleza en el año siguiente, independientemente de cualquier acción específica? Si la probabilidad de una guerra general europea en 1914 era alta independientemente de Sarajevo, el R* de Princip se reduce al diferencial entre la probabilidad con su acción y sin ella.
 
-R* histórico:  La fracción del evento histórico causalmente atribuible a un nodo, estimada a través de la comparación estructural, el análisis de mecanismos causales y la estimación de tasas base. Es una estimación con incertidumbre más alta que en los dominios forenses, pero no por eso menos rigorosa: es la mejor distribución causal posible dados los datos históricos disponibles.
+> [!NOTE]
+> R* histórico:  La fracción del evento histórico causalmente atribuible a un nodo, estimada a través de la comparación estructural, el análisis de mecanismos causales y la estimación de tasas base. Es una estimación con incertidumbre más alta que en los dominios forenses, pero no por eso menos rigorosa: es la mejor distribución causal posible dados los datos históricos disponibles.
 
 #### 1.3 Por qué los hijos no aplican en este dominio
 
@@ -11209,76 +7985,25 @@ geopolítico
 
 Esta página resume las herramientas del sistema en el contexto del análisis histórico y la geopolítica. El lector con formación en historia, relaciones internacionales o análisis de política puede comenzar aquí.
 
-Herramienta En análisis histórico se llama
-
-Qué significa
-
-Grafo causal G
-
-Red causal del evento histórico
-
-El mapa de todos los actores, estructuras e instituciones que contribuyeron causalmente al evento. Incluye tanto los actores individuales visibles (Princip, Bush) como las estructuras sistémicas que determinaron el espacio de lo posible (las alianzas, la arquitectura de inteligencia).
-
-R* (vector) Peso causal en el evento histórico
-
-La fracción del evento causalmente atribuible a cada nodo. R* del detonador visible vs. R* del sistema que lo hizo posible. En la mayoría de los eventos históricos importantes, el detonador visible tiene R* bajo y S alta; la estructura sistémica tiene R* alto y S más baja.
-
-
-geopolítico
-
-Nodo de diseño histórico
-
-La estructura que hizo inevitable el evento
-
-El nodo que, de no haber existido, habría impedido que cualquier detonador produjera ese resultado a esa escala. Las alianzas en 1914. El proceso de producción de inteligencia en 2003. El diseño de la coalición internacional que permitió la invasión.
-
-Nodo detonador
-
-El actor o evento visible que inició la cascada
-
-El nodo de alta visibilidad histórica pero típicamente S alto: otro actor en esa misma posición habría producido el mismo o similar resultado. Princip. El atentado del 11-S como detonador de la lógica de "guerra contra el terror".
-
-S histórica del detonador
-
-Qué tan reemplazable era el detonador por otro evento
-
-S alta del detonador: el sistema habría encontrado otra chispa. La Primera Guerra Mundial habría comenzado sin Princip, quizás meses o un año más tarde, por otra crisis en los Balcanes. S baja: el detonador específico era condición idiosincrática del evento.
-
-α del nodo estructural
-
-Medidas de contención del riesgo sistémico implementadas
-
-Lo que las potencias hicieron para reducir el riesgo de que el sistema produjera el evento. Acuerdos de limitación de armamentos, mecanismos de desescalada, canales diplomáticos directos. En 1914: prácticamente nada. En 2003: las advertencias
-
-
-geopolítico
-
-de los inspectores de la ONU fueron ignoradas.
-
-Δ del nodo estructural
-
-El déficit de contención del riesgo sistémico
-
-La brecha entre el R* del nodo estructural en el evento y las medidas de contención implementadas. Δ alto en el sistema de alianzas de 1914: el sistema portaba un riesgo enorme con mecanismos de contención mínimos.
-
-D_total histórico
-
-El daño del evento a escala histórica
-
-El D_vital del evento histórico: T_invertido (vidas perdidas), T_impedido (el desarrollo truncado de las generaciones afectadas), ΔT_trayectoria (el cambio permanente en la trayectoria de la historia que el evento produjo). Para las guerras: el D_vital incluye cada vida perdida expresada en horas.
-
-El mecanismo del Capítulo 3 (derecho internacional) aplicado al análisis histórico: los Estados sucesores de los actores que causaron el evento pueden asumir α_diferido mediante reparaciones, reconocimiento formal, o reforma institucional que reduzca el Δ pendiente.
-
-Posición heredada (α_diferido)
-
-Responsabilidad asumida por los sucesores institucionales
+| Herramienta | En análisis histórico se llama | Qué significa |
+| --- | --- | --- |
+| Grafo causal G | Red causal del evento histórico | El mapa de todos los actores, estructuras e instituciones que contribuyeron causalmente al evento. Incluye tanto los actores individuales visibles (Princip, Bush) como las estructuras sistémicas que determinaron el espacio de lo posible (las alianzas, la arquitectura de inteligencia). |
+| R* (vector) | Peso causal en el evento histórico | La fracción del evento causalmente atribuible a cada nodo. R* del detonador visible vs. R* del sistema que lo hizo posible. En la mayoría de los eventos históricos importantes, el detonador visible tiene R* bajo y S alta; la estructura sistémica tiene R* alto y S más baja. |
+| Nodo de diseño histórico | La estructura que hizo inevitable el evento | El nodo que, de no haber existido, habría impedido que cualquier detonador produjera ese resultado a esa escala. Las alianzas en 1914. El proceso de producción de inteligencia en 2003. El diseño de la coalición internacional que permitió la invasión. |
+| Nodo detonador | El actor o evento visible que inició la cascada | El nodo de alta visibilidad histórica pero típicamente S alto: otro actor en esa misma posición habría producido el mismo o similar resultado. Princip. El atentado del 11-S como detonador de la lógica de "guerra contra el terror". |
+| S histórica del detonador | Qué tan reemplazable era el detonador por otro evento | S alta del detonador: el sistema habría encontrado otra chispa. La Primera Guerra Mundial habría comenzado sin Princip, quizás meses o un año más tarde, por otra crisis en los Balcanes. S baja: el detonador específico era condición idiosincrática del evento. |
+| α del nodo estructural | Medidas de contención del riesgo sistémico implementadas | Lo que las potencias hicieron para reducir el riesgo de que el sistema produjera el evento. Acuerdos de limitación de armamentos, mecanismos de desescalada, canales diplomáticos directos. En 1914: prácticamente nada. En 2003: las advertencias |
+| Δ del nodo estructural | El déficit de contención del riesgo sistémico | La brecha entre el R* del nodo estructural en el evento y las medidas de contención implementadas. Δ alto en el sistema de alianzas de 1914: el sistema portaba un riesgo enorme con mecanismos de contención mínimos. |
+| D_total histórico | El daño del evento a escala histórica | El D_vital del evento histórico: T_invertido (vidas perdidas), T_impedido (el desarrollo truncado de las generaciones afectadas), ΔT_trayectoria (el cambio permanente en la trayectoria de la historia que el evento produjo). Para las guerras: el D_vital incluye cada vida perdida expresada en horas. |
+| Posición heredada (α_diferido) | Responsabilidad asumida por los sucesores institucionales | El mecanismo del Capítulo 3 (derecho internacional) aplicado al análisis histórico: los Estados sucesores de los actores que causaron el evento pueden asumir α_diferido mediante reparaciones, reconocimiento formal, o reforma institucional que reduzca el Δ pendiente. |
 
 Para el lector que viene del núcleo universal:  Este dominio es el más cercano al Capítulo 3 (derecho internacional y deudas históricas) pero con una diferencia de enfoque: el Capítulo 3 analiza la
 
 
 geopolítico
 
-responsabilidad diferida de sucesores institucionales. Este capítulo analiza el mecanismo causal del evento en sí — qué estructura lo hizo posible — con vistas a entender qué tipos de sistema producen qué tipos de eventos.
+> [!NOTE]
+> responsabilidad diferida de sucesores institucionales. Este capítulo analiza el mecanismo causal del evento en sí — qué estructura lo hizo posible — con vistas a entender qué tipos de sistema producen qué tipos de eventos.
 
 
 geopolítico
@@ -11289,29 +8014,14 @@ geopolítico
 
 #### El grafo causal de un evento histórico tiene dos capas que deben construirse separadamente antes de integrarse:
 
-Capa Tipo de nodo
-
-R* típico Fuente de evidencia
-
-Estructural larga duración
-
-Las estructuras sistémicas que determinaron el espacio de lo posible: alianzas, instituciones, tecnologías, economías políticas.
-
-Generalmente alto con S moderado-bajo: la estructura específica era la condición que hacía que cualquier detonador produjera ese resultado.
-
-Tratados, correspondencia diplomática, estudios estructurales históricos, análisis de los mecanismos causales en retrospectiva.
-
-Actores de mediano plazo
-
-Las decisiones de liderazgo en los meses y años previos al evento que configuraron las condiciones inmediatas.
-
-Moderado. Depende de cuánto configuraron activamente el sistema vs. cuánto heredaron una estructura ya configurada.
-
-Archivos desclasificados, memorias, correspondencia privada, registros de reuniones.
-
-Detonadores de corto plazo
-
-El evento o actor específico
+<table>
+<tbody>
+<tr><th scope="row">Capa</th><td>Tipo de nodo</td><td>R* típico</td><td>Fuente de evidencia</td></tr>
+<tr><th scope="row">Estructural larga duración</th><td>Las estructuras sistémicas que determinaron el espacio de lo posible: alianzas, instituciones, tecnologías, economías políticas.</td><td>Generalmente alto con S moderado- bajo: la estructura específica era la condición que hacía que cualquier detonador produjera ese resultado.</td><td>Tratados, correspondencia diplomática, estudios estructurales históricos, análisis de los mecanismos causales en retrospectiva.</td></tr>
+<tr><th scope="row">Actores de mediano plazo</th><td>Las decisiones de liderazgo en los meses y años previos al evento que configuraron las condiciones inmediatas.</td><td>Moderado. Depende de cuánto configuraron activamente el sistema vs. cuánto heredaron una estructura ya configurada.</td><td>Archivos desclasificados, memorias, correspondencia privada, registros de reuniones.</td></tr>
+<tr><th scope="row">Detonadores de corto plazo</th><td>El evento o actor específico</td><td>Bajo con S alta. El detonador es</td><td>Registros contemporáneos del evento,</td></tr>
+</tbody>
+</table>
 
 Bajo con S alta. El detonador es
 
@@ -11326,13 +8036,11 @@ intercambiable con otros detonadores posibles del mismo período.
 
 testimonios de testigos directos.
 
-Condiciones de entorno
-
-Las condiciones geográficas, tecnológicas, demográficas que amplificaron o moderaron el impacto del evento.
-
-Variable. Generalmente S alto (cualquier evento en esas condiciones habría tenido impactos similares).
-
-Datos históricos de población, geografía, tecnología del período.
+<table>
+<tbody>
+<tr><th scope="row">Condiciones de entorno</th><td>Las condiciones geográficas, tecnológicas, demográficas que amplificaron o moderaron el impacto del evento.</td><td>Variable. Generalmente S alto (cualquier evento en esas condiciones habría tenido impactos similares).</td><td>Datos históricos de población, geografía, tecnología del período.</td></tr>
+</tbody>
+</table>
 
 #### 3.2 La metodología del contrafáctico histórico calibrado
 
@@ -11409,7 +8117,8 @@ geopolítico
 
 Caso A — Primera Guerra Mundial (1914)
 
-S altísimo del archiduque y de Princip. R* del sistema de alianzas como nodo de diseño de la conflagración
+> [!NOTE]
+> S altísimo del archiduque y de Princip. R* del sistema de alianzas como nodo de diseño de la conflagración
 
 A.1 El contexto histórico: la carga de pólvora
 
@@ -11424,92 +8133,35 @@ geopolítico
 
 #### A.2 El grafo causal de la Primera Guerra Mundial
 
-Nodo Actor/Estructura Tipo Función causal
-
-N1 Sistema de alianzas y planes de movilización (1879-1914)
-
-Estructura sistémica — larga duración
-
-La condición necesaria de que un conflicto bilateral se convirtiera en guerra general. Sin el sistema de alianzas cruzadas y los planes de movilización automáticos, el asesinato de Sarajevo habría producido una crisis austro-serbia, no una guerra mundial. R* dominante, S moderado-bajo.
-
-N2 Liderazgos políticos de las grandes potencias (julio 1914)
-
-Decisiones de mediano plazo
-
-Las decisiones específicas de los líderes en los días de la "crisis de julio" que no encontraron la salida que teóricamente existía. La decisión austro-húngara de emitir el ultimátum a Serbia en términos diseñados para ser rechazados. La decisión rusa de movilizar.
-
-N3 Planificación militar rígida (Plan Schlieffen, planes de
-
-Estructura técnica de mediano plazo
-
-Los planes militares no tenían escalas intermedias entre la movilización
-
-
-geopolítico
-
-movilización rusos)
-
-completa y la no movilización. Esa rigidez técnica reducía el espacio de maniobra de los políticos una vez iniciada la crisis.
-
-N4 La cultura de la gloria militar y el optimismo sobre una guerra corta
-
-Factor cultural estructural
-
-Prácticamente todos los líderes militares europeos en 1914 creían que una guerra sería breve y decisiva. Esa creencia errónea reducía el incentivo de evitarla.
-
-N5 Gavrilo Princip y el movimiento Mano Negra
-
-Detonador de corto plazo
-
-El nodo más visible de la narrativa histórica popular, con S muy alto: había otros seis conspiradores ese día, y el sistema habría encontrado otro detonador en semanas o meses.
-
-N6 Francisco Fernando (el archiduque asesinado)
-
-S altísima. Su muerte fue la chispa, pero cualquier incidente grave en los Balcanes en ese período habría activado el mismo mecanismo.
-
-Objeto del detonador
+| Nodo | Actor/Estructura | Tipo | Función causal |
+| --- | --- | --- | --- |
+| N1 | Sistema de alianzas y planes de movilización (1879-1914) | Estructura sistémica — larga duración | La condición necesaria de que un conflicto bilateral se convirtiera en guerra general. Sin el sistema de alianzas cruzadas y los planes de movilización automáticos, el asesinato de Sarajevo habría producido una crisis austro-serbia, no una guerra mundial. R* dominante, S moderado-bajo. |
+| N2 | Liderazgos políticos de las grandes potencias (julio 1914) | Decisiones de mediano plazo | Las decisiones específicas de los líderes en los días de la "crisis de julio" que no encontraron la salida que teóricamente existía. La decisión austro-húngara de emitir el ultimátum a Serbia en términos diseñados para ser rechazados. La decisión rusa de movilizar. |
+| N3 | Planificación militar rígida (Plan Schlieffen, planes de | Estructura técnica de mediano plazo | Los planes militares no tenían escalas intermedias entre la movilización |
+| N4 | La cultura de la gloria militar y el optimismo sobre una guerra corta | Factor cultural estructural | Prácticamente todos los líderes militares europeos en 1914 creían que una guerra sería breve y decisiva. Esa creencia errónea reducía el incentivo de evitarla. |
+| N5 | Gavrilo Princip y el movimiento Mano Negra | Detonador de corto plazo | El nodo más visible de la narrativa histórica popular, con S muy alto: había otros seis conspiradores ese día, y el sistema habría encontrado otro detonador en semanas o meses. |
+| N6 | Francisco Fernando (el archiduque asesinado) | Objeto del detonador | S altísima. Su muerte fue la chispa, pero cualquier incidente grave en los Balcanes en ese período habría activado el mismo mecanismo. |
 
 #### A.3 R*, S y el contrafáctico calibrado
 
 
 geopolítico
 
-Nodo R* S α 1914 Análisis contrafáctico
-
-~42% 0.22 0.03 S bajo: ese sistema específico (con su combinación de alianzas cruzadas y planes de movilización automáticos) era idiosincrático. Un sistema de alianzas diferente —más flexible, con más tiempo para la deliberación— habría producido un resultado diferente.
-
-N1 — Sistema de alianzas
-
-~25% 0.55 0.05 S moderado. Los líderes de julio 1914 tomaron decisiones específicas, pero cualquier liderazgo bajo la misma presión del sistema habría tenido incentivos similares.
-
-N2 — Liderazgos políticos
-
-~18% 0.35 0.02 S moderado-bajo. El Plan Schlieffen era específicamente el de ese sistema militar alemán. Otros planes habrían dado más tiempo para la deliberación.
-
-N3 — Planificación militar rígida
-
-~10% 0.75 0.05 S alto. Era una creencia compartida por todos los ejércitos europeos de la época.
-
-N4 — Cultura del optimismo bélico
-
-~4% 0.92 0.00 S muy alto. Había seis conspiradores más ese día y el movimiento habría intentado otro ataque. El diferencial máximo de R* de
-
-N5 — Princip / Mano Negra
-
-
-geopolítico
-
-Princip es el tiempo que habría ganado su ausencia: quizás semanas.
-
-~1% 0.97 0.00 S prácticamente máxima. Cualquier incidente grave en los Balcanes habría activado el mismo mecanismo.
-
-N6 — Francisco Fernando
+| Nodo | R* | S | α 1914 | Análisis contrafáctico |
+| --- | --- | --- | --- | --- |
+| N1 — Sistema de alianzas | ~42% | 0.22 | 0.03 | S bajo: ese sistema específico (con su combinación de alianzas cruzadas y planes de movilización automáticos) era idiosincrático. Un sistema de alianzas diferente —más flexible, con más tiempo para la deliberación— habría producido un resultado diferente. |
+| N2 — Liderazgos políticos | ~25% | 0.55 | 0.05 | S moderado. Los líderes de julio 1914 tomaron decisiones específicas, pero cualquier liderazgo bajo la misma presión del sistema habría tenido incentivos similares. |
+| N3 — Planificación militar rígida | ~18% | 0.35 | 0.02 | S moderado-bajo. El Plan Schlieffen era específicamente el de ese sistema militar alemán. Otros planes habrían dado más tiempo para la deliberación. |
+| N4 — Cultura del optimismo bélico | ~10% | 0.75 | 0.05 | S alto. Era una creencia compartida por todos los ejércitos europeos de la época. |
+| N5 — Princip / Mano Negra | ~4% | 0.92 | 0.00 | S muy alto. Había seis conspiradores más ese día y el movimiento habría intentado otro ataque. El diferencial máximo de R* de |
+| N6 — Francisco Fernando | ~1% | 0.97 | 0.00 | S prácticamente máxima. Cualquier incidente grave en los Balcanes habría activado el mismo mecanismo. |
 
 El resultado central del análisis es el más importante del capítulo: el nodo de mayor R* en la Primera Guerra Mundial no es Gavrilo Princip (R* = 4%, S = 0.92) sino el sistema de alianzas y planes de movilización (R* = 42%, S = 0.22). La narrativa que personaliza la causa en el asesino de Sarajevo captura el 4% de la responsabilidad causal y deja invisible el 42%.
 
 Esta distribución tiene una consecuencia directa para la comprensión del período de entreguerras: el Tratado de Versalles (1919) imputó la culpa de la guerra exclusivamente a Alemania (con la llamada cláusula de la culpa de guerra, el artículo 231). Esa imputación, que era políticamente útil pero causalmente incorrecta, tuvo consecuencias que contribuyeron a la siguiente guerra. Un análisis causal proporcional habría distribuido la responsabilidad entre el sistema de alianzas (cuyo diseño compartían todas las potencias) y los liderazgos políticos de todos los involucrados —no solo Alemania.
 
-La cláusula de la culpa de guerra y la inversión causal:  El artículo 231 del Tratado de Versalles estableció que Alemania era responsable de las pérdidas y daños de la guerra. Esa imputación tenía R*_Versalles alto en el surgimiento del resentimiento alemán que produjo el nazismo. El análisis causal de la Segunda Guerra Mundial debe incluir el artículo 231 como un nodo con R* positivo real: la injusticia de la imputación de responsabilidad en 1919 fue condición causal de lo que siguió en 1933-1945.
+> [!NOTE]
+> La cláusula de la culpa de guerra y la inversión causal:  El artículo 231 del Tratado de Versalles estableció que Alemania era responsable de las pérdidas y daños de la guerra. Esa imputación tenía R*_Versalles alto en el surgimiento del resentimiento alemán que produjo el nazismo. El análisis causal de la Segunda Guerra Mundial debe incluir el artículo 231 como un nodo con R* positivo real: la injusticia de la imputación de responsabilidad en 1919 fue condición causal de lo que siguió en 1933-1945.
 
 
 geopolítico
@@ -11550,7 +8202,8 @@ geopolítico
 
 Caso B — Invasión de Irak (marzo 2003)
 
-R* de los servicios de inteligencia, la administración Bush y los aliados. Cómo la arquitectura del proceso de decisión hizo posible una guerra basada en evidencia fabricada
+> [!NOTE]
+> R* de los servicios de inteligencia, la administración Bush y los aliados. Cómo la arquitectura del proceso de decisión hizo posible una guerra basada en evidencia fabricada
 
 B.1 El contexto histórico
 
@@ -11567,89 +8220,25 @@ dólares solo para los EE.UU. (Brown University, Costs of War Project). El caso 
 
 #### B.2 El grafo causal de la invasión
 
-Nodo Actor/Estructura Tipo Función causal
-
-N1 Decisión de política de la administración Bush (Cheney, Rumsfeld, Wolfowitz)
-
-Diseño de la decisión
-
-La decisión preexistente de remover a Saddam Hussein, tomada antes de que la inteligencia estuviera disponible. La decisión buscó la evidencia, no a la inversa. R* alto, S moderado-bajo: ese equipo específico con esas creencias previas era condición necesaria.
-
-N2 Arquitectura del proceso de producción de inteligencia
-
-Diseño estructural
-
-El proceso que permitía que los analistas de inteligencia fueran presionados para producir conclusiones consistentes con la política preexistente. La Oficina de Planes Especiales del Pentágono, creada específicamente para producir
-
-
-geopolítico
-
-inteligencia alternativa que respaldara la invasión.
-
-N3 Servicios de inteligencia que no resistieron la presión
-
-Actores operativos
-
-La CIA, el DIA y los servicios equivalentes del Reino Unido que produjeron evaluaciones sesgadas. Hubo analistas que señalaron los problemas con la inteligencia (Drumheller, Knight) y fueron ignorados.
-
-N4 Aliados que respaldaron la invasión (Reino Unido, España, coalición)
-
-Legitimación internacional
-
-Sin el respaldo del Reino Unido especialmente, la invasión habría tenido menor legitimidad internacional y habría enfrentado mayores obstáculos. Tony Blair comprometió al Reino Unido en condiciones donde la inteligencia ya era cuestionada internamente.
-
-N5 ONU y comunidad internacional que no bloqueó
-
-Omisión de contención
-
-Las inspecciones de la ONU estaban en curso y encontrando evidencia contradictoria, pero fueron interrumpidas
-
-
-geopolítico
-
-antes de completarse. La resolución que habría autorizado la fuerza no fue aprobada.
-
-N6 El 11-S como detonador del contexto político
-
-Condición de entorno
-
-El 11-S creó el contexto político (miedo, presión sobre los servicios de inteligencia para encontrar amenazas) que hizo posible el proceso de producción de inteligencia sesgada. S alta: sin el 11-S, el proceso habrían necesitado otro contexto, pero el diseño de la administración Bush habría buscado otro detonador.
-
-Nf 460,000+ víctimas iraquíes, millones de desplazados
-
-Nodo final No entra en el cálculo de R*.
+| Nodo | Actor/Estructura | Tipo | Función causal |
+| --- | --- | --- | --- |
+| N1 | Decisión de política de la administración Bush (Cheney, Rumsfeld, Wolfowitz) | Diseño de la decisión | La decisión preexistente de remover a Saddam Hussein, tomada antes de que la inteligencia estuviera disponible. La decisión buscó la evidencia, no a la inversa. R* alto, S moderado-bajo: ese equipo específico con esas creencias previas era condición necesaria. |
+| N2 | Arquitectura del proceso de producción de inteligencia | Diseño estructural | El proceso que permitía que los analistas de inteligencia fueran presionados para producir conclusiones consistentes con la política preexistente. La Oficina de Planes Especiales del Pentágono, creada específicamente para producir |
+| N3 | Servicios de inteligencia que no resistieron la presión | Actores operativos | La CIA, el DIA y los servicios equivalentes del Reino Unido que produjeron evaluaciones sesgadas. Hubo analistas que señalaron los problemas con la inteligencia (Drumheller, Knight) y fueron ignorados. |
+| N4 | Aliados que respaldaron la invasión (Reino Unido, España, coalición) | Legitimación internacional | Sin el respaldo del Reino Unido especialmente, la invasión habría tenido menor legitimidad internacional y habría enfrentado mayores obstáculos. Tony Blair comprometió al Reino Unido en condiciones donde la inteligencia ya era cuestionada internamente. |
+| N5 | ONU y comunidad internacional que no bloqueó | Omisión de contención | Las inspecciones de la ONU estaban en curso y encontrando evidencia contradictoria, pero fueron interrumpidas |
+| N6 | El 11-S como detonador del contexto político | Condición de entorno | El 11-S creó el contexto político (miedo, presión sobre los servicios de inteligencia para encontrar amenazas) que hizo posible el proceso de producción de inteligencia sesgada. S alta: sin el 11-S, el proceso habrían necesitado otro contexto, pero el diseño de la administración Bush habría buscado otro detonador. |
+| Nf | 460,000+ víctimas iraquíes, millones de desplazados | Nodo final | No entra en el cálculo de R*. |
 
 #### B.3 R* y la responsabilidad distribuida
 
-Nodo R* S α Interpretación
-
-~35% 0.22 0.02 S bajo: ese equipo específico (Cheney-Rumsfeld-Wolfowitz) con sus convicciones neoconservadoras preexistentes era condición
-
-N1 — Administración Bush
-
-
-geopolítico
-
-idiosincrática de la invasión en esa forma. Otro equipo en la misma posición después del 11-S no habría necesariamente invadido Irak. Δ = +0.33.
-
-~28% 0.30 0.05 El diseño específico del proceso (la Oficina de Planes Especiales, la presión sobre los analistas) fue idiosincrático de esa administración. Sin esa arquitectura, la inteligencia disponible habría llegado con más calificaciones y dudas. Δ = +0.23.
-
-N2 — Arquitectura del proceso de inteligencia
-
-~20% 0.65 0.10 S moderado-alto. Cualquier servicio de inteligencia bajo la misma presión política habría tenido incentivos similares. Pero el grado de distorsión fue idiosincrático. Δ = +0.10.
-
-N3 — Servicios de inteligencia
-
-~12% 0.50 0.05 S moderado. El respaldo de Blair fue específico e idiosincrático (otro primer ministro del Reino Unido habría podido tomar una posición diferente). Δ = +0.07.
-
-N4 — Aliados (UK, España)
-
-
-geopolítico
-
-~5% 0.80 0.15 S alto. Cualquier ONU bajo el mismo bloqueo del Consejo de Seguridad habría tenido capacidad limitada de bloqueo.
-
-N5 — Omisión ONU / comunidad intl.
+| Nodo | R* | S | α | Interpretación |
+| --- | --- | --- | --- | --- |
+| N1 — Administración Bush | ~35% | 0.22 | 0.02 | S bajo: ese equipo específico (Cheney- Rumsfeld-Wolfowitz) con sus convicciones neoconservadoras preexistentes era condición |
+| N2 — Arquitectura del proceso de inteligencia | ~28% | 0.30 | 0.05 | El diseño específico del proceso (la Oficina de Planes Especiales, la presión sobre los analistas) fue idiosincrático de esa administración. Sin esa arquitectura, la inteligencia disponible habría llegado con más calificaciones y dudas. Δ = +0.23. |
+| N3 — Servicios de inteligencia | ~20% | 0.65 | 0.10 | S moderado-alto. Cualquier servicio de inteligencia bajo la misma presión política habría tenido incentivos similares. Pero el grado de distorsión fue idiosincrático. Δ = +0.10. |
+| N4 — Aliados (UK, España) | ~12% | 0.50 | 0.05 | S moderado. El respaldo de Blair fue específico e idiosincrático (otro primer ministro del Reino Unido habría podido tomar una posición diferente). Δ = +0.07. |
+| N5 — Omisión ONU / comunidad intl. | ~5% | 0.80 | 0.15 | S alto. Cualquier ONU bajo el mismo bloqueo del Consejo de Seguridad habría tenido capacidad limitada de bloqueo. |
 
 #### B.4 La distinción clave: la decisión preexistente vs. el proceso de inteligencia
 
@@ -11799,7 +8388,8 @@ sistema completo) — estimación histórica     P_evento_sin_nodo:  dict {nodo:
 
 geopolítico
 
-'WWI → Versalles'),     (0.20, 0.12, 'Versalles → WWII (empeoró)'), (0.12, 0.45, 'WWII → 1945 (ONU, Bretton Woods)'),     (0.45, 0.45, '1945 → 2003 (estable, reforma limitada)'), ] for a, d, nombre in ciclos: ias = IAS_geopolitico(a, d, nombre)     print(f"  {nombre:30s} IAS={ias['IAS']:+.2f} ({ias['nivel']})")
+> [!NOTE]
+> 'WWI → Versalles'),     (0.20, 0.12, 'Versalles → WWII (empeoró)'), (0.12, 0.45, 'WWII → 1945 (ONU, Bretton Woods)'),     (0.45, 0.45, '1945 → 2003 (estable, reforma limitada)'), ] for a, d, nombre in ciclos: ias = IAS_geopolitico(a, d, nombre)     print(f"  {nombre:30s} IAS={ias['IAS']:+.2f} ({ias['nivel']})")
 
 Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026
 
@@ -11850,7 +8440,8 @@ atribuible al jugador i
 
 La matemática es idéntica a la de R*_D: iteración de potencia sobre el grafo de contribución, cálculo de S como fungibilidad de la contribución, Δ_B = R*_B − α_B donde α_B es la fracción del beneficio del triunfo que el jugador recibe (su salario como fracción de lo que el triunfo generó).
 
-R*_B (contribución causal al resultado deportivo):  La fracción del resultado positivo (triunfo, campeonato, clasificación) causalmente atribuible a cada jugador o factor del sistema. R*_B alto significa que sin ese jugador o factor el resultado habría sido significativamente menos probable. R*_B bajo significa que el resultado habría ocurrido de manera similar sin él.
+> [!NOTE]
+> R*_B (contribución causal al resultado deportivo):  La fracción del resultado positivo (triunfo, campeonato, clasificación) causalmente atribuible a cada jugador o factor del sistema. R*_B alto significa que sin ese jugador o factor el resultado habría sido significativamente menos probable. R*_B bajo significa que el resultado habría ocurrido de manera similar sin él.
 
 La estructura del Δ_B en el dominio deportivo tiene dos formas que el análisis puede identificar:
 
@@ -11867,7 +8458,8 @@ La idea más contraintuitiva de este capítulo para el lector deportivo es que l
 
 Esto no niega la excelencia de los grandes jugadores. Pelé en 1970 tenía R*_B real y positivo. Pero el hecho de que Brasil ganó en 1962 sin él establece empíricamente que S_Pelé no es cero: el equipo tenía la capacidad de ganar sin él. Eso produce una S moderada (no alta, no baja) que refleja la realidad: Pelé contribuyó de manera muy significativa al triunfo de 1970, pero no era la condición necesaria única.
 
-Principio del análisis deportivo:  La paradoja del genio en equipo: cuanto más excepcional es el equipo que rodea al jugador estrella, mayor es la S del jugador estrella. Messi en el Barça 2010-2015 tenía mayor S que Messi en la Argentina de las eliminatorias de 2011: el equipo del Barça habría podido ganar muchos de esos partidos sin él con sus otras estrellas; la Argentina no tenía ese nivel de redundancia. Eso no significa que Messi importara menos en el Barça: significa que el Barça era tan bueno que podía absorber la ausencia de cualquier jugador individual mejor de lo que Argentina podía hacerlo.
+> [!IMPORTANT]
+> Principio del análisis deportivo:  La paradoja del genio en equipo: cuanto más excepcional es el equipo que rodea al jugador estrella, mayor es la S del jugador estrella. Messi en el Barça 2010-2015 tenía mayor S que Messi en la Argentina de las eliminatorias de 2011: el equipo del Barça habría podido ganar muchos de esos partidos sin él con sus otras estrellas; la Argentina no tenía ese nivel de redundancia. Eso no significa que Messi importara menos en el Barça: significa que el Barça era tan bueno que podía absorber la ausencia de cualquier jugador individual mejor de lo que Argentina podía hacerlo.
 
 #### 1.3 Por qué los hijos no aplican en este dominio
 
@@ -11887,63 +8479,22 @@ contribución
 
 Esta página resume las herramientas del sistema aplicadas al análisis de contribución en el deporte. El lector con formación en análisis deportivo, economía del deporte o negociación de contratos puede comenzar aquí.
 
-Herramienta En análisis deportivo se llama
+| Herramienta | En análisis deportivo se llama | Qué significa |
+| --- | --- | --- |
+| Grafo causal G | Red de contribución causal al resultado | El mapa de todos los jugadores, sistemas de juego, cuerpo técnico y condiciones que contribuyeron causalmente al resultado (triunfo, campeonato, clasificación). Cada nodo tiene un R*_B proporcional a su contribución idiosincrática. |
+| R*_B (vector) | Contribución causal al resultado deportivo | La fracción del resultado positivo causalmente atribuible a cada nodo. Es el instrumento correcto para responder "¿cuánto dependió el triunfo de este jugador?". Difiere de las estadísticas convencionales (goles, asistencias) porque captura las contribuciones que no aparecen en el marcador. |
+| S_B del jugador | Fungibilidad deportiva del jugador | ¿Habría ganado el equipo sin este jugador? S_B alto: el equipo tenía la capacidad de ganar con un reemplazante de nivel equivalente. S_B bajo: ese jugador específico era condición necesaria del resultado. La evidencia histórica (¿ganó el equipo cuando el jugador estuvo ausente?) es el mejor estimador de S_B. |
+| α_B del jugador | Compensación recibida como fracción del beneficio generado | El salario del jugador como fracción del ingreso total que el triunfo generó para el club (derechos de televisión, patrocinios, primas de clasificación, valorización de la marca). α_B = 1: el jugador recibe compensación igual al beneficio que generó. α_B < 1: está subpagado. α_B > 1: está sobrepagado. |
+| Δ_B = R*_B − α_B | Diferencial de contribución y compensación | La brecha entre la contribución causal del jugador al resultado y la compensación que recibe por esa contribución. Δ_B positivo del club: el jugador genera más de lo que recibe. Δ_B negativo: el jugador recibe más de lo que genera causalmente. |
+| B_total del triunfo | Ingreso total generado por el resultado | Los derechos de televisión, los premios de la competición, los ingresos de taquilla, los contratos de patrocinio incrementales, la valorización de la marca del club producida por el resultado. Este es el B_total |
+| Herramienta de negociación | Δ_B positivo del club como base del reclamo salarial | Si Δ_B_club > 0 (el club obtiene del jugador más de lo que le paga), el jugador tiene un argumento cuantificado para el aumento salarial: su compensación debería crecer hasta que Δ_B_club → 0. La negociación se convierte en un debate sobre los valores de R*_B y de B_total. |
 
-Qué significa
+> [!NOTE]
+> Δ_B positivo del club como base del reclamo salarial
 
-Grafo causal G
-
-Red de contribución causal al resultado
-
-El mapa de todos los jugadores, sistemas de juego, cuerpo técnico y condiciones que contribuyeron causalmente al resultado (triunfo, campeonato, clasificación). Cada nodo tiene un R*_B proporcional a su contribución idiosincrática.
-
-R*_B (vector) Contribución causal al resultado deportivo
-
-La fracción del resultado positivo causalmente atribuible a cada nodo. Es el instrumento correcto para responder "¿cuánto dependió el triunfo de este jugador?". Difiere de las estadísticas convencionales (goles, asistencias) porque captura las contribuciones que no aparecen en el marcador.
-
-
-contribución
-
-S_B del jugador
-
-Fungibilidad deportiva del jugador
-
-¿Habría ganado el equipo sin este jugador? S_B alto: el equipo tenía la capacidad de ganar con un reemplazante de nivel equivalente. S_B bajo: ese jugador específico era condición necesaria del resultado. La evidencia histórica (¿ganó el equipo cuando el jugador estuvo ausente?) es el mejor estimador de S_B.
-
-α_B del jugador
-
-Compensación recibida como fracción del beneficio generado
-
-El salario del jugador como fracción del ingreso total que el triunfo generó para el club (derechos de televisión, patrocinios, primas de clasificación, valorización de la marca). α_B = 1: el jugador recibe compensación igual al beneficio que generó. α_B < 1: está subpagado. α_B > 1: está sobrepagado.
-
-Δ_B = R*_B − α_B
-
-Diferencial de contribución y compensación
-
-La brecha entre la contribución causal del jugador al resultado y la compensación que recibe por esa contribución. Δ_B positivo del club: el jugador genera más de lo que recibe. Δ_B negativo: el jugador recibe más de lo que genera causalmente.
-
-B_total del triunfo
-
-Ingreso total generado por el resultado
-
-Los derechos de televisión, los premios de la competición, los ingresos de taquilla, los contratos de patrocinio incrementales, la valorización de la marca del club producida por el resultado. Este es el B_total
-
-
-contribución
-
-que R*_B distribuye entre los contribuyentes.
-
-Herramienta de negociación
-
-Δ_B positivo del club como base del reclamo salarial
-
-Si Δ_B_club > 0 (el club obtiene del jugador más de lo que le paga), el jugador tiene un argumento cuantificado para el aumento salarial: su compensación debería crecer hasta que Δ_B_club → 0. La negociación se convierte en un debate sobre los valores de R*_B y de B_total.
-
-El estimador más directo de S_B es el historial de resultados del equipo cuando el jugador no estuvo disponible (lesión, suspensión, selección nacional). Si el equipo ganó a ritmo similar, S_B es alta. Si los resultados cayeron significativamente, S_B es baja.
-
-Comparación de casos
-
-Evidencia histórica de ausencias del jugador
+| Herramienta | En análisis deportivo se llama | Qué significa |
+| --- | --- | --- |
+| Comparación de casos | Evidencia histórica de ausencias del jugador | El estimador más directo de S_B es el historial de resultados del equipo cuando el jugador no estuvo disponible (lesión, suspensión, selección nacional). Si el equipo ganó a ritmo similar, S_B es alta. Si los resultados cayeron significativamente, S_B es baja. |
 
 Para el lector que viene del núcleo universal:  Este es el único capítulo del libro donde el sistema se aplica predominantemente al beneficio (B_total) en lugar del daño (D_total). La dirección del análisis es inversa: en lugar de preguntar "¿quién causó el daño?", pregunta "¿quién causó el beneficio?". Las herramientas matemáticas son idénticas; el vocabulario cambia. No hay "víctima" ni "ajuste debitor": hay contribuyente y la pregunta de si su compensación es proporcional a su contribución.
 
@@ -11958,23 +8509,13 @@ El grafo de contribución al resultado deportivo tiene una estructura diferente 
 
 Descripción R*_B típico Cómo se estima
 
-Tipo de nodo
-
-Jugadores individuale s
-
-Cada jugador en el equipo con su contribución específica al resultado.
-
-Variable. Rango típico: 2-20% por jugador. Los jugadores más relevantes del partido pueden alcanzar 15-25% en partidos específicos.
-
-xG (goles esperados), VAEP (acciones de valor), pases clave, recuperacione s, estadísticas avanzadas de impacto.
-
-Sistema de juego / táctica
-
-La estructura táctica del equipo que determina cómo se distribuyen las contribucion
-
-10-20%. Un sistema de juego que maximiza las fortalezas del equipo tiene R*_B positivo independientemen te de los jugadores individuales.
-
-Análisis comparativo de rendimiento del equipo bajo distintas formaciones.
+<table>
+<tbody>
+<tr><th scope="row">Tipo de nodo</th><td>Descripción</td><td>R*_B típico</td><td>Cómo se estima</td></tr>
+<tr><th scope="row">Jugadores individuale s</th><td>Cada jugador en el equipo con su contribución específica al resultado.</td><td>Variable. Rango típico: 2-20% por jugador. Los jugadores más relevantes del partido pueden alcanzar 15-25% en partidos específicos.</td><td>xG (goles esperados), VAEP (acciones de valor), pases clave, recuperacione s, estadísticas avanzadas de impacto.</td></tr>
+<tr><th scope="row">Sistema de juego / táctica</th><td>La estructura táctica del equipo que determina cómo se distribuyen las contribucion</td><td>10-20%. Un sistema de juego que maximiza las fortalezas del equipo tiene R*_B positivo independientemen te de los jugadores individuales.</td><td>Análisis comparativo de rendimiento del equipo bajo distintas formaciones.</td></tr>
+</tbody>
+</table>
 
 
 contribución
@@ -11985,23 +8526,13 @@ Cuerpo técnico
 
 El entrenador y su cuerpo de asistentes.
 
-8-15% en campeonatos de largo plazo. En partidos individuales, el impacto de las decisiones del entrenador (sustituciones, ajustes tácticos) puede ser determinante.
-
-Historial de resultados con y sin el entrenador específico, eficacia de las decisiones documentada s.
-
-Condicion es del contexto
-
-Localía, árbitro, condiciones climáticas, cansancio del rival, lesiones del rival.
-
-Variable. S muy alta: cualquier equipo habría beneficiado de las mismas condiciones.
-
-Comparación con resultados en condiciones equivalentes.
-
-Azar / aleatorieda d
-
-Los eventos aleatorios que determinan el resultado pero no son causalmente atribuibles a ningún actor.
-
-5-20% según el deporte. El fútbol tiene más aleatoriedad que el baloncesto.
+<table>
+<tbody>
+<tr><th scope="row">Cuerpo técnico</th><td>El entrenador y su cuerpo de asistentes.</td><td>8-15% en campeonatos de largo plazo. En partidos individuales, el impacto de las decisiones del entrenador (sustituciones, ajustes tácticos) puede ser determinante.</td><td>Historial de resultados con y sin el entrenador específico, eficacia de las decisiones documentada s.</td></tr>
+<tr><th scope="row">Condicion es del contexto</th><td>Localía, árbitro, condiciones climáticas, cansancio del rival, lesiones del rival.</td><td>Variable. S muy alta: cualquier equipo habría beneficiado de las mismas condiciones.</td><td>Comparación con resultados en condiciones equivalentes.</td></tr>
+<tr><th scope="row">Azar / aleatorieda d</th><td>Los eventos aleatorios que determinan el resultado pero no son causalmente atribuibles a ningún actor.</td><td>5-20% según el deporte. El fútbol tiene más aleatoriedad que el baloncesto.</td><td>Análisis estadístico de la varianza del resultado no explicada por los factores modelados.</td></tr>
+</tbody>
+</table>
 
 Análisis estadístico de la varianza del resultado no explicada por los factores modelados.
 
@@ -12064,7 +8595,8 @@ contribución
 
 #### → base de negociación del club
 
-Herramienta de negociación:  El argumento de negociación basado en Δ_B es más poderoso que el argumento basado solo en comparación de mercado ("el jugador X del equipo Z gana más") porque conecta el salario específicamente con el beneficio causal que ese jugador produce para ese club, no con el mercado general. Un club puede replicar el argumento de mercado señalando que el jugador podría ser reemplazado; no puede replicar el argumento de Δ_B si el análisis de S_B muestra que el jugador tiene baja sustituibilidad.
+> [!NOTE]
+> Herramienta de negociación:  El argumento de negociación basado en Δ_B es más poderoso que el argumento basado solo en comparación de mercado ("el jugador X del equipo Z gana más") porque conecta el salario específicamente con el beneficio causal que ese jugador produce para ese club, no con el mercado general. Un club puede replicar el argumento de mercado señalando que el jugador podría ser reemplazado; no puede replicar el argumento de Δ_B si el análisis de S_B muestra que el jugador tiene baja sustituibilidad.
 
 #### 3.4 B_total en el deporte: cómo cuantificar el beneficio del triunfo
 
@@ -12074,23 +8606,13 @@ Descripción Fútbol de élite
 
 Fuente de B_total
 
-Otros deportes
-
-Premios de la competición
-
-Pagos directos por avanzar en torneos o ganar el campeonato.
-
-Champions League ganador: ~130M euros (2023-24). Liga local campeón: variable.
-
-NBA campeón: ~3.5M USD por jugador en bonos de playoffs. MLB: variable.
-
-Derechos de televisión incrementales
-
-El incremento en los pagos de derechos de TV por el resultado (clasificación a
-
-Clasificación a Champions: +30-80M euros vs. Europa League para clubes top.
-
-NFL: distribución igual entre equipos, pero el Super Bowl amplifica el
+<table>
+<tbody>
+<tr><th scope="row">Fuente de B_total</th><td>Descripción</td><td>Fútbol de élite</td><td>Otros deportes</td></tr>
+<tr><th scope="row">Premios de la competición</th><td>Pagos directos por avanzar en torneos o ganar el campeonato.</td><td>Champions League ganador: ~130M euros (2023-24). Liga local campeón: variable.</td><td>NBA campeón: ~3.5M USD por jugador en bonos de playoffs. MLB: variable.</td></tr>
+<tr><th scope="row">Derechos de televisión incrementales</th><td>El incremento en los pagos de derechos de TV por el resultado (clasificación a</td><td>Clasificación a Champions: +30-80M euros vs. Europa League para clubes top.</td><td>NFL: distribución igual entre equipos, pero el Super Bowl amplifica el</td></tr>
+</tbody>
+</table>
 
 
 contribución
@@ -12101,23 +8623,13 @@ valor de marca.
 
 Ingresos de taquilla
 
-El incremento en asistencia y precio de boletos derivado del resultado.
-
-Un campeón local puede subir precios de abono y generar 10-30M adicionales.
-
-NBA: los playoffs multiplican los ingresos de taquilla.
-
-Contratos de patrocinio
-
-Los contratos de patrocinio que el resultado hace posibles o incrementa.
-
-Un campeón de Champions puede incrementar contratos de patrocinio en 20-50M anuales.
-
-Variable por deporte y mercado.
-
-Las franquicias de la NBA se han multiplicado por 10+ en dos décadas, en parte por resultados.
-
-Valorización de la marca
+<table>
+<tbody>
+<tr><th scope="row">Ingresos de taquilla</th><td>El incremento en asistencia y precio de boletos derivado del resultado.</td><td>Un campeón local puede subir precios de abono y generar 10- 30M adicionales.</td><td>NBA: los playoffs multiplican los ingresos de taquilla.</td></tr>
+<tr><th scope="row">Contratos de patrocinio</th><td>Los contratos de patrocinio que el resultado hace posibles o incrementa.</td><td>Un campeón de Champions puede incrementar contratos de patrocinio en 20-50M anuales.</td><td>Variable por deporte y mercado.</td></tr>
+<tr><th scope="row">Valorización de la marca</th><td>El incremento en el valor de mercado del club como consecuencia del resultado.</td><td>El Real Madrid se valoriza en 100-200M euros en años de éxito en Champions.</td><td>Las franquicias de la NBA se han multiplicado por 10+ en dos décadas, en parte por resultados.</td></tr>
+</tbody>
+</table>
 
 El incremento en el valor de mercado del club como consecuencia del resultado.
 
@@ -12130,7 +8642,8 @@ contribución
 
 Caso A — Brasil en el Mundial de México 1970
 
-R*_B de Pelé vs. R*_B del equipo. La evidencia de S_B moderado: Brasil ganó sin él en 1962
+> [!NOTE]
+> R*_B de Pelé vs. R*_B del equipo. La evidencia de S_B moderado: Brasil ganó sin él en 1962
 
 A.1 El contexto: el mejor equipo de la historia
 
@@ -12140,80 +8653,29 @@ Brasil ganó todos sus partidos del torneo, marcando 19 goles y recibiendo solo 
 
 La pregunta de R*_B no niega esos logros. Pregunta qué fracción del campeonato dependía causalmente de Pelé específicamente. Y la evidencia de 1962 —donde Brasil ganó sin él con una calidad similar de juego colectivo— establece que el equipo tenía capacidad de ganar independientemente de Pelé, lo que implica una S_B moderada.
 
-A.2 La evidencia de S_B: 1962 como caso de ausencia
-
-
-contribución
-
-Comparación 1962 (sin Pelé desde 2° partido) 1970 (con Pelé en todos los partidos)
-
-Resultado Campeón del mundo Campeón del mundo
-
-14 goles 19 goles
-
-Goles marcados (6 partidos)
-
-5 goles 7 goles
-
-Goles recibidos (6 partidos)
-
-Figura del torneo
-
-Garrincha (4 goles, 4 asistencias). Amarildo reemplazó a Pelé con eficacia.
-
-Pelé y Jairzinho (7 goles cada uno). Múltiples figuras destacadas.
-
-Brasil más goleador, más espectacular. Pelé añadió dimensión ofensiva.
-
-Diferencia de desempeño
-
-Brasil ligeramente más sólido defensivamente.
+| Comparación | 1962 (sin Pelé desde 2° partido) | 1970 (con Pelé en todos los partidos) |
+| --- | --- | --- |
+| Resultado | Campeón del mundo | Campeón del mundo |
+| Goles marcados (6 partidos) | 14 goles | 19 goles |
+| Goles recibidos (6 partidos) | 5 goles | 7 goles |
+| Figura del torneo | Garrincha (4 goles, 4 asistencias). Amarildo reemplazó a Pelé con eficacia. | Pelé y Jairzinho (7 goles cada uno). Múltiples figuras destacadas. |
+| Diferencia de desempeño | Brasil ligeramente más sólido defensivamente. | Brasil más goleador, más espectacular. Pelé añadió dimensión ofensiva. |
 
 La comparación establece que Brasil era un equipo capaz de ganar el Mundial sin Pelé. Lo ganó sin él en 1962. Lo ganó con él en 1970 (con mayor espectacularidad). La S_B de Pelé en 1970 es moderada —no alta, porque Pelé claramente añadió valor, pero no baja, porque el equipo tenía la capacidad de ganar sin él. Una estimación razonable: S_B_Pelé_1970 ≈ 0.45.
 
 #### A.3 El grafo de contribución causal al triunfo de 1970
 
-Nodo Contribuyente R*_B S_B Interpretación
-
-N1 Pelé (n.°10) ~18% 0.45 R*_B alto, pero S_B moderada. La evidencia de 1962 establece el límite superior de su indispensabilidad. Contribución
-
-
-contribución
-
-idiosincrática: 18% × 55% ≈ 10%.
-
-N2 Gerson (creación de juego)
-
-~14% 0.35 El creador del juego tiene S más baja que Pelé: su función en el sistema era más difícil de reemplazar porque pocos jugadores del mundo tenían su visión de juego.
-
-N3 Jairzinho (extremo goleador)
-
-~13% 0.40 7 goles en 6 partidos, incluyendo la final. Su contribución estadística es verificable y significativa.
-
-N4 Tostão (falso nueve)
-
-~11% 0.42 Su capacidad de crear espacio para Pelé y Jairzinho era condición del sistema de ataque.
-
-N5 Mario Zagallo (entrenador)
-
-~10% 0.50 El diseño táctico del equipo y las decisiones de convocatoria son atribuibles al entrenador.
-
-N6 Rivelino y Carlos Alberto
-
-~8% 0.55 Contribuciones significativas pero con S moderada-alta.
-
-N7 Resto del colectivo (otros 6 titulares)
-
-~16% 0.80 S alta: sus roles eran más sustituibles dentro del sistema.
-
-N8 Contexto favorable (localía relativa en México,
-
-~10% 0.95 Factor exógeno con S muy alta.
-
-
-contribución
-
-organización de la FIFA)
+| Nodo | Contribuyente | R*_B | S_B | Interpretación |
+| --- | --- | --- | --- | --- |
+| N1 | Pelé (n.°10) | ~18% | 0.45 | R*_B alto, pero S_B moderada. La evidencia de 1962 establece el límite superior de su indispensabilidad. Contribución |
+| N2 | Gerson (creación de juego) | ~14% | 0.35 | El creador del juego tiene S más baja que Pelé: su función en el sistema era más difícil de reemplazar porque pocos jugadores del mundo tenían su visión de juego. |
+| N3 | Jairzinho (extremo goleador) | ~13% | 0.40 | 7 goles en 6 partidos, incluyendo la final. Su contribución estadística es verificable y significativa. |
+| N4 | Tostão (falso nueve) | ~11% | 0.42 | Su capacidad de crear espacio para Pelé y Jairzinho era condición del sistema de ataque. |
+| N5 | Mario Zagallo (entrenador) | ~10% | 0.50 | El diseño táctico del equipo y las decisiones de convocatoria son atribuibles al entrenador. |
+| N6 | Rivelino y Carlos Alberto | ~8% | 0.55 | Contribuciones significativas pero con S moderada-alta. |
+| N7 | Resto del colectivo (otros 6 titulares) | ~16% | 0.80 | S alta: sus roles eran más sustituibles dentro del sistema. |
+| N8 | Contexto favorable (localía relativa en México, | ~10% | 0.95 | Factor exógeno con S muy alta. |
+|  | organización de la FIFA) |  |  |  |
 
 La lectura del grafo produce el resultado más importante del caso: la contribución causal idiosincrática de Pelé (R*_B × (1−S_B) = 0.18 × 0.55 = 0.099) es aproximadamente el 10% del triunfo. No es el nodo dominante del grafo — Gerson y el sistema táctico tienen contribuciones idiosincráticas comparables. Pelé era el más famoso, pero no era el más indispensable en el sentido causal exacto.
 
@@ -12236,7 +8698,8 @@ contribución
 
 Caso B — Jugador estrella subpagado (caso hipotético)
 
-Δ_B positivo del club como herramienta de negociación salarial: el argumento cuantificado
+> [!NOTE]
+> Δ_B positivo del club como herramienta de negociación salarial: el argumento cuantificado
 
 Este caso es hipotético y compuesto a partir de estructuras de negociación documentadas en el fútbol europeo. No corresponde a ningún jugador o club específico.
 
@@ -12323,36 +8786,23 @@ euros/año
 
 contribución
 
+
 #### Comparación con el salario actual y la oferta del club:
 
-Escenario Salario (M€/año)
-
-Interpretación
-
-Δ_B del club
-
-#### 2.8 +1.45M/año El club extrae 1.45M anuales de valor no compensado. El jugador está significativamente subpagado.
-
-Salario actual (2.8M)
-
-#### 3.5 +0.75M/año La oferta reduce el Δ_B, pero no lo elimina. El club sigue extrayendo valor no compensado.
-
-Oferta del club (3.5M)
-
-#### 4.25 ≈ 0 El salario que igualaría la contribución causal con la compensación. Δ_B_club → 0.
-
-Salario justo calculado (4.25M)
-
-#### 6.0 −1.75M/año Δ_B negativo del club: el jugador estaría sobrepagado. No tiene base en el análisis causal aunque pueda tener base en el mercado.
-
-Reclamo del agente (6M)
+| Escenario | Salario (M€/año) | Δ_B del club | Interpretación |
+| --- | --- | --- | --- |
+| Salario actual (2.8M) | 2.8 | +1.45M/año | El club extrae 1.45M anuales de valor no compensado. El jugador está significativamente subpagado. |
+| Oferta del club (3.5M) | 3.5 | +0.75M/año | La oferta reduce el Δ_B, pero no lo elimina. El club sigue extrayendo valor no compensado. |
+| Salario justo calculado (4.25M) | 4.25 | ≈ 0 | El salario que igualaría la contribución causal con la compensación. Δ_B_club → 0. |
+| Reclamo del agente (6M) | 6.0 | −1.75M/año | Δ_B negativo del club: el jugador estaría sobrepagado. No tiene base en el análisis causal aunque pueda tener base en el mercado. |
 
 El análisis cuantificado de Δ_B produce el argumento más sólido para la negociación: el salario justo según la contribución causal es 4.25M euros anuales, no los 6M que el agente reclama (sin base en el análisis) ni los 3.5M que el club ofrece. La diferencia entre 3.5M y 4.25M (750,000 euros anuales) es el Δ_B que el análisis puede documentar y que el club no puede refutar si acepta el marco analítico.
 
 
 contribución
 
-Herramienta de negociación:  La estrategia de negociación del agente usando el análisis: presentar el B_total calculado ($118M en tres temporadas), el R*_B estimado (20%, documentado con las estadísticas de las 8 semanas de ausencia), y el salario justo resultante (4.25M). Si el club no acepta el marco analítico, el agente puede señalar que el propio período de lesión del jugador prueba su contribución con evidencia interna del club. La contrapropuesta del agente en 4.5M — ligeramente por encima del salario justo para compensar la incertidumbre en la estimación — tiene base técnica. Los 6M no la tienen.
+> [!NOTE]
+> Herramienta de negociación:  La estrategia de negociación del agente usando el análisis: presentar el B_total calculado ($118M en tres temporadas), el R*_B estimado (20%, documentado con las estadísticas de las 8 semanas de ausencia), y el salario justo resultante (4.25M). Si el club no acepta el marco analítico, el agente puede señalar que el propio período de lesión del jugador prueba su contribución con evidencia interna del club. La contrapropuesta del agente en 4.5M — ligeramente por encima del salario justo para compensar la incertidumbre en la estimación — tiene base técnica. Los 6M no la tienen.
 
 B.5 La defensa del club: cuando el análisis favorece al empleador
 
@@ -12411,34 +8861,21 @@ El factor_calidad_reemplazante es la fracción de la CI del titular que el reemp
 
 Aplicación numérica — plantel hipotético de 22 jugadores:
 
-Jugador R*_B S_B CI Calidad rep.
-
-ΔP(vic.) esperada
-
-#### 0.20 0.46 10.8% 0.35 −7.0 pp
-
-Mediocampista estrella
-
-#### 0.12 0.55 5.4% 0.60 −2.2 pp
-
-Defensa lateral derecho
-
-#### 0.15 0.60 6.0% 0.20 −4.8 pp
-
-Delantero centro
-
-
-contribución
-
-Portero titular 0.10 0.30 7.0% 0.75 −1.8 pp
-
-#### 0.09 0.72 2.5% 0.80 −0.5 pp
-
-Mediocampista defensivo
+<table>
+<tbody>
+<tr><th scope="row">Jugador</th><td>R*_B</td><td>S_B</td><td>CI</td><td>Calidad rep.</td><td>ΔP(vic.) esperada</td></tr>
+<tr><th scope="row">Mediocampista estrella</th><td>0.20</td><td>0.46</td><td>10.8%</td><td>0.35</td><td>−7.0 pp</td></tr>
+<tr><th scope="row">Defensa lateral derecho</th><td>0.12</td><td>0.55</td><td>5.4%</td><td>0.60</td><td>−2.2 pp</td></tr>
+<tr><th scope="row">Delantero centro</th><td>0.15</td><td>0.60</td><td>6.0%</td><td>0.20</td><td>−4.8 pp</td></tr>
+<tr><th scope="row">Portero titular</th><td>0.10</td><td>0.30</td><td>7.0%</td><td>0.75</td><td>−1.8 pp</td></tr>
+<tr><th scope="row">Mediocampista defensivo</th><td>0.09</td><td>0.72</td><td>2.5%</td><td>0.80</td><td>−0.5 pp</td></tr>
+</tbody>
+</table>
 
 El mapa de fragilidad muestra que el mediocampista estrella produce la mayor caída esperada en P(victoria) a pesar de que el delantero centro tiene mayor R*_B, porque el delantero tiene mayor S_B y mejor calidad de reemplazante. El portero, pese a tener la CI más alta del grupo, tiene un reemplazante de calidad suficiente para absorber casi toda la caída.
 
-Predictor:  El resultado práctico del mapa de fragilidad: la dirección deportiva identifica que el mediocampista estrella es el nodo de mayor riesgo operativo de la temporada y prioriza la contratación de un reemplazante de mayor calidad (subir el factor_reemplazante de 0.35 a 0.65 bajaría el ΔP de −7.0 pp a −2.7 pp) antes de que la ventana de transferencias cierre.
+> [!NOTE]
+> Predictor:  El resultado práctico del mapa de fragilidad: la dirección deportiva identifica que el mediocampista estrella es el nodo de mayor riesgo operativo de la temporada y prioriza la contratación de un reemplazante de mayor calidad (subir el factor_reemplazante de 0.35 a 0.65 bajaría el ΔP de −7.0 pp a −2.7 pp) antes de que la ventana de transferencias cierre.
 
 #### Predictor 2: valor de mercado justo vs. precio de mercado — el arbitraje de transferencias
 
@@ -12453,29 +8890,14 @@ contribución
 
 #### Aplicación — tres escenarios de transferencia:
 
-Jugador Preci o merc ado
-
-CI_proye ctada
-
-B_total /año
-
-Valor CI/añ o
-
-Veredi cto
-
-9.5% 45M EUR
-
-Jugador A — medioca mpista 24 años
-
-28M EUR
-
-4.28M EUR/ año
-
-✓ COMP RA
-
-4.2% 38M EUR
-
-Jugador B — extremo 28 años
+<table>
+<tbody>
+<tr><th scope="row">Jugador</th><td>Preci o merc ado</td><td>CI_proye ctada</td><td>B_total /año</td><td>Valor CI/añ o</td><td>Veredi cto</td></tr>
+<tr><th scope="row">Jugador A — medioca mpista 24 años</th><td>28M EUR</td><td>9.5%</td><td>45M EUR</td><td>4.28M EUR/ año</td><td>✓ COMP RA</td></tr>
+<tr><th scope="row">Jugador B — extremo 28 años</th><td>22M EUR</td><td>4.2%</td><td>38M EUR</td><td>1.60M EUR/ año</td><td>? NEUT RAL</td></tr>
+<tr><th scope="row">Jugador C — delantero 31 años</th><td>15M EUR</td><td>3.1%</td><td>42M EUR</td><td>1.30M EUR/ año</td><td>✗ EVITA R</td></tr>
+</tbody>
+</table>
 
 22M EUR
 
@@ -12502,7 +8924,8 @@ contribución
 
 ciclo de vida de R*_B y el precio de mercado aún no lo refleja. Es el error de transferencia más frecuente en el fútbol: pagar el precio del pasado de un jugador, no el de su futuro.
 
-La diferencia con el scouting convencional:  Los sistemas de scouting evalúan la calidad del jugador en abstracto. El análisis de CI la calibra para el equipo específico comprador. Un mediocampista creativo con CI alta en un equipo de contraataque puede tener CI baja en un equipo de posesión, porque sus contribuciones idiosincráticas son menos necesarias cuando el sistema no depende de la creación individual. El análisis de CI es siempre contextual: predice el valor en ese equipo, no el valor en el mercado general.
+> [!NOTE]
+> La diferencia con el scouting convencional:  Los sistemas de scouting evalúan la calidad del jugador en abstracto. El análisis de CI la calibra para el equipo específico comprador. Un mediocampista creativo con CI alta en un equipo de contraataque puede tener CI baja en un equipo de posesión, porque sus contribuciones idiosincráticas son menos necesarias cuando el sistema no depende de la creación individual. El análisis de CI es siempre contextual: predice el valor en ese equipo, no el valor en el mercado general.
 
 #### Predictor 3: el momento óptimo de venta y no renovación
 
@@ -12524,33 +8947,16 @@ Aplicación — jugador con contrato de 5 años firmado en el peak: El Cálculo 
 
 contribución
 
-Año Eda d
-
-R*_B proyecta do
-
-CI proyecta da
-
-Salari o anual
-
-Δ_B del club
-
-1 26 0.195 10.5% 3.5M EUR
-
-+0.7 M EUR
-
-2 27 0.200 10.8% 3.5M EUR
-
-+0.7 M EUR
-
-3 28 0.185 10.0% 3.5M EUR
-
-+0.5 M EUR
-
-4 29 0.160 8.6% 3.5M EUR
-
-+0.1 M EUR
-
-30 0.130 7.0% 3.5M EUR
+<table>
+<tbody>
+<tr><th scope="row">Año</th><td>Eda d</td><td>R*_B proyecta do</td><td>CI proyecta da</td><td>Salari o anual</td><td>Δ_B del club</td></tr>
+<tr><th scope="row">1</th><td>26</td><td>0.195</td><td>10.5%</td><td>3.5M EUR</td><td>+0.7 M EUR</td></tr>
+<tr><th scope="row">2</th><td>27</td><td>0.200</td><td>10.8%</td><td>3.5M EUR</td><td>+0.7 M EUR</td></tr>
+<tr><th scope="row">3</th><td>28</td><td>0.185</td><td>10.0%</td><td>3.5M EUR</td><td>+0.5 M EUR</td></tr>
+<tr><th scope="row">4</th><td>29</td><td>0.160</td><td>8.6%</td><td>3.5M EUR</td><td>+0.1 M EUR</td></tr>
+<tr><th scope="row">5 ← INVERSIÓ N</th><td>30</td><td>0.130</td><td>7.0%</td><td>3.5M EUR</td><td>−0.3 M EUR</td></tr>
+</tbody>
+</table>
 
 −0.3 M EUR
 
@@ -12558,7 +8964,8 @@ Salari o anual
 
 El año de inversión ocurre en el año 5 del contrato (a los 30 años del jugador): a partir de ese punto, el club paga más de lo que el jugador aporta causalmente. El momento óptimo de venta para maximizar el retorno es al final del año 4, cuando el jugador aún tiene R*_B positivo neto, S_B aún no ha subido demasiado, y el precio de mercado todavía no ha descontado completamente el declive.
 
-Predictor:  El club que vende al final del año 4 obtiene: el valor de mercado del jugador en su fase de buena forma (antes del descuento por edad), evita el año 5 de Δ_B negativo, y libera el presupuesto salarial para un reemplazante más joven en el comienzo de su curva de R*_B. Es el equivalente deportivo del análisis de timing de salida en inversiones financieras.
+> [!NOTE]
+> Predictor:  El club que vende al final del año 4 obtiene: el valor de mercado del jugador en su fase de buena forma (antes del descuento por edad), evita el año 5 de Δ_B negativo, y libera el presupuesto salarial para un reemplazante más joven en el comienzo de su curva de R*_B. Es el equivalente deportivo del análisis de timing de salida en inversiones financieras.
 
 
 contribución
@@ -12583,9 +8990,14 @@ Candidat o
 
 Posició n
 
-Cost e total
-
-CI ajustada / euro
+<table>
+<tbody>
+<tr><th scope="row">Candidat o</th><td>Posició n</td><td>Cost e total</td><td>CI</td><td>w_compl .</td><td>CI ajustada / euro</td></tr>
+<tr><th scope="row">Jugador X1</th><td>MC</td><td>7M EUR</td><td>9.2 %</td><td>1.15</td><td>1.51%/ M</td></tr>
+<tr><th scope="row">Jugador X2</th><td>MC</td><td>5M EUR</td><td>6.8 %</td><td>1.05</td><td>1.43%/ M</td></tr>
+<tr><th scope="row">Jugador Y1</th><td>EXT</td><td>8M EUR</td><td>7.5 %</td><td>1.10</td><td>1.03%/ M</td></tr>
+</tbody>
+</table>
 
 MC 7M EUR
 
@@ -12603,7 +9015,13 @@ Jugador X2
 
 #### 6.8 %
 
-EXT 8M EUR
+<table>
+<tbody>
+<tr><th scope="row">Jugador Y2</th><td>EXT</td><td>4M EUR</td><td>5.1%</td><td>0.95</td><td>1.21%/ M</td></tr>
+<tr><th scope="row">Jugador Z1</th><td>DC</td><td>9M EUR</td><td>8.8 %</td><td>1.20</td><td>1.17%/ M</td></tr>
+<tr><th scope="row">Jugador Z2</th><td>DC</td><td>6M EUR</td><td>6.2 %</td><td>1.00</td><td>1.03%/ M</td></tr>
+</tbody>
+</table>
 
 #### 1.10 1.03%/ M
 
@@ -12640,7 +9058,8 @@ La combinación óptima dado el presupuesto de 20M es X1 + Y2 + Z2 (7 + 4 + 6 = 
 
 La alternativa presupuestaria más frecuente —X2 + Y1 + Z1 (5+8+9 = 22M, también fuera)— es la trampa del scouting convencional: comprar el jugador de nombre más conocido en cada posición sin verificar la CI ajustada por el coste y la complementariedad.
 
-Aplicación práctica:  El análisis de composición óptima invierte la lógica del mercado de transferencias: en lugar de partir del jugador deseado y buscar el presupuesto, parte del presupuesto disponible y busca la combinación de CI ajustada más alta dentro de él. Eso puede llevar a elegir jugadores de menor precio de mercado, pero mayor eficiencia de CI — exactamente el tipo de ineficiencia de mercado que el análisis causal puede explotar antes de que el mercado la corrija.
+> [!NOTE]
+> Aplicación práctica:  El análisis de composición óptima invierte la lógica del mercado de transferencias: en lugar de partir del jugador deseado y buscar el presupuesto, parte del presupuesto disponible y busca la combinación de CI ajustada más alta dentro de él. Eso puede llevar a elegir jugadores de menor precio de mercado, pero mayor eficiencia de CI — exactamente el tipo de ineficiencia de mercado que el análisis causal puede explotar antes de que el mercado la corrija.
 
 #### Código de referencia: los cuatro predictores
 
@@ -12659,7 +9078,8 @@ contribución
 
 contribución
 
-⚠  Todos los predictores requieren datos históricos de al menos 2-3 temporadas completas para que la estimación de S_B sea robusta. Con menos datos, los intervalos de confianza son amplios y el análisis debe presentarse como escenarios (optimista / base / pesimista) en lugar de valores puntuales. El riesgo de sobrefitting a datos de pocas ausencias es real: un jugador que estuvo ausente solo en partidos contra rivales débiles puede mostrar una S_B artificialmente alta.
+> [!WARNING]
+> ⚠  Todos los predictores requieren datos históricos de al menos 2-3 temporadas completas para que la estimación de S_B sea robusta. Con menos datos, los intervalos de confianza son amplios y el análisis debe presentarse como escenarios (optimista / base / pesimista) en lugar de valores puntuales. El riesgo de sobrefitting a datos de pocas ausencias es real: un jugador que estuvo ausente solo en partidos contra rivales débiles puede mostrar una S_B artificialmente alta.
 
 
 contribución
@@ -12731,7 +9151,8 @@ vaep.sum()         result['R_star_B_vaep'] = vaep      # ── Negociación sal
 
 contribución
 
-shapley_B_deportivo(     v_brasil, ['Pele','Gerson','Jairzinho','Tostao','Rivelino'], m=10000) total = sum(phi_b.values()) print("  Valores de Shapley normalizados:") for j, phi in sorted(phi_b.items(), key=lambda x: -x[1]):     print(f"  φ_B({j:10s}) = {phi:.4f}  ({phi/total*100:.1f}% del triunfo colectivo)")
+> [!NOTE]
+> shapley_B_deportivo(     v_brasil, ['Pele','Gerson','Jairzinho','Tostao','Rivelino'], m=10000) total = sum(phi_b.values()) print("  Valores de Shapley normalizados:") for j, phi in sorted(phi_b.items(), key=lambda x: -x[1]):     print(f"  φ_B({j:10s}) = {phi:.4f}  ({phi/total*100:.1f}% del triunfo colectivo)")
 
 Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026
 
@@ -12773,7 +9194,8 @@ En todos los capítulos anteriores, los grafos causales tienen nodos reales: act
 Esa diferencia cambia radicalmente el uso del sistema, pero no su rigor interno. En el análisis real, el sistema produce ajustes debitor, órdenes de remediación, argumentos de negociación. En el análisis literario, produce tres cosas distintas:
 
 - Una lectura más precisa de la arquitectura de la voluntad de los personajes: los hijos nombran con exactitud lo que la crítica literaria convencional describe con términos más vagos ("el dilema moral de Raskolnikov", "la ambición de Cersei").
-- La identificación del nodo narrativo de diseño: el personaje o el autor que construyó las condiciones del evento central del relato, frecuentemente el más invisible de la escena.
+> [!NOTE]
+> - La identificación del nodo narrativo de diseño: el personaje o el autor que construyó las condiciones del evento central del relato, frecuentemente el más invisible de la escena.
 - Una comprensión de por qué ciertos arcos narrativos producen resonancia emocional en el lector: porque reproducen la estructura de los movimientos reales de la voluntad humana que el sistema ontológico describe.
 
 
@@ -12784,12 +9206,15 @@ Nodo narrativo de diseño:  El personaje (o el autor mismo, como meta-nodo) que 
 
 Los hijos de Afrodita describen la posición de la voluntad de un sujeto en el momento de un acto. En la ficción, los personajes son sujetos simulados: tienen voluntad, historia, motivaciones, y toman decisiones dentro de la lógica interna del mundo narrativo. Eso los hace susceptibles al análisis con los hijos de la misma manera que los actores reales del Capítulo 1, con una diferencia importante: en la ficción, los hijos de los personajes son diseñados por el autor.
 
-Eso introduce el nivel meta que este capítulo añade al sistema: hay dos capas de análisis simultáneas. Primera capa — el nivel del personaje: ¿desde qué hijo actúa Raskolnikov en el momento del asesinato? ¿Desde cuál actúa Tywin en el momento en que firma el pacto con Walder Frey? Segunda capa — el nivel del autor: ¿con qué intención narrativa diseñó Dostoievski el arco Anteros → Fobos → Harmonía? ¿Qué está diciendo Martin sobre la eficacia del poder invisible cuando diseña a Tywin como el nodo de mayor R* de una escena en la que no aparece?
+> [!NOTE]
+> Eso introduce el nivel meta que este capítulo añade al sistema: hay dos capas de análisis simultáneas. Primera capa — el nivel del personaje: ¿desde qué hijo actúa Raskolnikov en el momento del asesinato? ¿Desde cuál actúa Tywin en el momento en que firma el pacto con Walder Frey? Segunda capa — el nivel del autor: ¿con qué intención narrativa diseñó Dostoievski el arco Anteros → Fobos → Harmonía? ¿Qué está diciendo Martin sobre la eficacia del poder invisible cuando diseña a Tywin como el nodo de mayor R* de una escena en la que no aparece?
 
-Principio narrativo:  La gran ficción no reproduce la realidad superficialmente: reproduce la estructura profunda de la voluntad humana. Dostoievski no conocía los hijos de Afrodita. Conocía a los seres humanos con una profundidad suficiente para construir un personaje cuyo arco narrativo coincide con precisión con la secuencia que el sistema ontológico describe. Esa coincidencia no es un mérito del
+> [!IMPORTANT]
+> Principio narrativo:  La gran ficción no reproduce la realidad superficialmente: reproduce la estructura profunda de la voluntad humana. Dostoievski no conocía los hijos de Afrodita. Conocía a los seres humanos con una profundidad suficiente para construir un personaje cuyo arco narrativo coincide con precisión con la secuencia que el sistema ontológico describe. Esa coincidencia no es un mérito del
 
 
-sistema: es la evidencia de que la gran ficción y la ontología rigurosa observan la misma realidad.
+> [!NOTE]
+> sistema: es la evidencia de que la gran ficción y la ontología rigurosa observan la misma realidad.
 
 #### 1.3 El nodo narrativo de diseño: la figura más poderosa de la narrativa compleja
 
@@ -12798,23 +9223,17 @@ En la narrativa de complejidad alta —la novela del siglo XIX, la serie de tele
 La identificación del nodo narrativo de diseño es una contribución del sistema al análisis literario porque la crítica convencional tiende a centrarse en los personajes visibles (el protagonista, el antagonista manifiesto) y a subestimar la función arquitectónica de los personajes que operan en el trasfondo. Tywin Lannister es el ejemplo más limpio de la ficción contemporánea: un personaje que aparece en pocas escenas, pero cuya lógica determina el mundo en el que los demás se mueven.
 
 
+
 ### §2.  Página puente — Traducción al lenguaje del análisis literario
+
 
 Esta página resume las herramientas del sistema en el contexto del análisis literario y cultural. El lector con formación en literatura, crítica narrativa, guion o análisis cultural puede comenzar aquí.
 
-Herramienta En análisis literario se llama
-
-Qué significa en la lectura de narrativa ficcional
-
-Grafo causal G
-
-Red narrativa de causalidad
-
-El mapa de todos los personajes, eventos y condiciones que contribuyeron causalmente al evento central del relato. No es el orden cronológico de la trama sino la red de dependencias causales entre los elementos narrativos.
-
-R* (vector) Nodo narrativo de diseño — peso causal en el evento
-
-La fracción del evento central causalmente atribuible a cada personaje o elemento narrativo. El personaje con mayor R* es el "arquitecto invisible" del clímax. No necesariamente el protagonista ni el antagonista más visible.
+| Herramienta | En análisis literario se llama | Qué significa en la lectura de narrativa ficcional |
+| --- | --- | --- |
+| Grafo causal G | Red narrativa de causalidad | El mapa de todos los personajes, eventos y condiciones que contribuyeron causalmente al evento central del relato. No es el orden cronológico de la trama sino la red de dependencias causales entre los elementos narrativos. |
+| R* (vector) | Nodo narrativo de diseño — peso causal en el evento | La fracción del evento central causalmente atribuible a cada personaje o elemento narrativo. El personaje con mayor R* es el "arquitecto invisible" del clímax. No necesariamente el protagonista ni el antagonista más visible. |
+| Nodo de diseño | El arquitecto invisible del evento | El personaje que diseñó las condiciones del |
 
 Nodo de diseño
 
@@ -12827,38 +9246,21 @@ evento sin estar necesariamente presente en él. Tiene el mayor R* y la S más b
 
 S del personaje
 
-Intercambiabilidad del personaje en el evento
-
-¿Habría ocurrido el evento si ese personaje hubiera sido diferente o hubiera actuado de otra manera? S bajo del arquitecto invisible: sin Tywin, La Boda Roja no habría ocurrido de esa forma. S alto del personaje ejecutor: otro señor Frey con las mismas condiciones habría actuado igual.
-
-Hijos del personaje
-
-Arquitectura de la voluntad del personaje
-
-Los hijos describen desde qué disposición actúa el personaje en los momentos críticos del relato. La secuencia de hijos a lo largo de la novela o la serie produce el arco del personaje: su transformación interior. Es la herramienta más rica del capítulo.
-
-Arco narrativo
-
-Secuencia de hijos del personaje a lo largo del relato
-
-El arco de Raskolnikov es Anteros → Fobos → Harmonía. El arco de Cersei es Anteros + Potós (persistencia en la afirmación del poder de los Lannister como única realidad posible). El arco no tiene que terminar en Harmonía: El Cálculo de la Responsabilidad · Cap. 18 — Literatura y análisis cultural
-
-puede terminar en Fobos o en Anteros dominante según el universo moral del autor.
-
-Meta-nodo / autor
-
-El diseñador de segundo nivel: el autor mismo
-
-El autor es el nodo de diseño de segundo nivel: construyó los hijos de los personajes, diseñó sus arcos, determinó el universo moral del relato. El análisis de por qué Dostoievski eligió el arco Anteros → Harmonía para Raskolnikov revela la intención moral del autor, que es una lectura diferente y más profunda que la del evento narrativo.
-
-D_narrativo El daño dentro del mundo del relato
-
-Las consecuencias del evento central para los personajes del mundo narrativo. No tiene consecuencias reales, pero tiene consecuencias dentro de la lógica interna del relato. En La Boda Roja, D_narrativo incluye la destrucción de la familia Stark como potencia política y el cierre del arco de Robb como protagonista.
+<table>
+<tbody>
+<tr><th scope="row">S del personaje</th><td>Intercambiabilidad del personaje en el evento</td><td>¿Habría ocurrido el evento si ese personaje hubiera sido diferente o hubiera actuado de otra manera? S bajo del arquitecto invisible: sin Tywin, La Boda Roja no habría ocurrido de esa forma. S alto del personaje ejecutor: otro señor Frey con las mismas condiciones habría actuado igual.</td></tr>
+<tr><th scope="row">Hijos del personaje</th><td>Arquitectura de la voluntad del personaje</td><td>Los hijos describen desde qué disposición actúa el personaje en los momentos críticos del relato. La secuencia de hijos a lo largo de la novela o la serie produce el arco del personaje: su transformación interior. Es la herramienta más rica del capítulo.</td></tr>
+<tr><th scope="row">Arco narrativo</th><td>Secuencia de hijos del personaje a lo largo del relato</td><td>El arco de Raskolnikov es Anteros → Fobos → Harmonía. El arco de Cersei es Anteros + Potós (persistencia en la afirmación del poder de los Lannister como única realidad posible). El arco no tiene que terminar en Harmonía:</td></tr>
+<tr><th scope="row">Meta-nodo / autor</th><td>El diseñador de segundo nivel: el autor mismo</td><td>El autor es el nodo de diseño de segundo nivel: construyó los hijos de los personajes, diseñó sus arcos, determinó el universo moral del relato. El análisis de por qué Dostoievski eligió el arco Anteros → Harmonía para Raskolnikov revela la intención moral del autor, que es una lectura diferente y más profunda que la del evento narrativo.</td></tr>
+<tr><th scope="row">D_narrativo</th><td>El daño dentro del mundo del relato</td><td>Las consecuencias del evento central para los personajes del mundo narrativo. No tiene consecuencias reales, pero tiene consecuencias dentro de la lógica interna del relato. En La Boda Roja, D_narrativo incluye la destrucción de la familia Stark como potencia política y el cierre del arco de Robb como protagonista.</td></tr>
+</tbody>
+</table>
 
 Para el lector que viene del núcleo universal:  Este capítulo añade dos capas al sistema que no habían aparecido antes. Primera: el análisis tiene dos niveles simultáneos — el nivel del personaje (los hijos de Raskolnikov, el R* de Tywin) y el nivel del autor (la intención narrativa que diseñó esos hijos y ese R*). Segunda: el sistema se vuelve herramienta de crítica literaria: puede comparar relatos, identificar qué tipo de arcos
 
 
-producen resonancia emocional, y señalar con precisión dónde la arquitectura narrativa es débil o fuerte.
+> [!NOTE]
+> producen resonancia emocional, y señalar con precisión dónde la arquitectura narrativa es débil o fuerte.
 
 
 ### §3.  Las herramientas en el análisis literario
@@ -12878,54 +9280,14 @@ El uso más poderoso del sistema en el análisis literario es la lectura del arc
 
 #### crecimiento, su caída, su redención— puede describirse con precisión como el movimiento entre los hijos a lo largo del tiempo del relato.
 
-Hijo dominante
-
-Qué describe en el personaje
-
-Señal textual observable
-
-Función narrativa típica
-
-Anteros Afirmación de sí mismo contra el mundo o contra la norma. El personaje que actúa desde su propia convicción, ignorando o desafiando las consecuencias.
-
-Decisiones tomadas con certeza. Ausencia de duda interna. Afirmación de una teoría o misión propia. "Tengo derecho a hacerlo."
-
-Inicio del arco del protagonista que va a caer. También: el antagonista en todo momento. El héroe que no ha sido puesto a prueba.
-
-Fobos El personaje actúa desde el miedo a las consecuencias. El miedo puede ser al dolor, a la pérdida, al descubrimiento, al juicio de los otros.
-
-Vacilación. Decisiones tomadas para evitar un daño. El personaje que hace lo que no quiere para protegerse. Insomnio, paranoia, evasión.
-
-La crisis del personaje. El punto de inflexión donde la voluntad se debilita. El antagonista que revela su miedo oculto.
-
-Potós El personaje anhela algo ausente o perdido. Su vector de voluntad apunta hacia lo que no tiene o lo que ya no puede tener.
-
-Regresión hacia el pasado, hacia el ser querido perdido, hacia el mundo anterior al trauma.
-
-El personaje de la nostalgia. El que no puede moverse hacia delante. El antagonista que actúa
-
-
-"Antes era diferente."
-
-desde la pérdida de poder.
-
-Deimos El personaje está paralizado. No actúa por la multiplicidad de lo que enfrenta o por la incapacidad de procesar lo que le ha ocurrido.
-
-El personaje que no hace nada durante un tiempo. La escena sin acción. La parálisis ante lo que no puede nombrarse.
-
-El período de transición entre el Anteros inicial y el Fobos de la crisis. También: el personaje secundario que nunca sale de la parálisis.
-
-Eros El personaje se orienta hacia algo nuevo o hacia algo que desea en el mundo presente.
-
-La apertura a nuevas relaciones, proyectos o posibilidades. El deseo genuino que no está contaminado por el miedo ni la nostalgia.
-
-El inicio de la resolución del arco. Aparece cuando el personaje empieza a salir de la crisis.
-
-Harmonía El personaje actúa desde la deliberación plena. Ha integrado la experiencia, puede actuar con certeza sin suprimir la información que el mundo le da.
-
-La resolución del arco protagonista. Puede ser trágica: un personaje puede alcanzar Harmonía y ser destruido de todas formas.
-
-Decisiones tomadas con claridad y sin urgencia. El personaje que ha comprendido algo sobre sí mismo y actúa desde esa comprensión.
+| Hijo dominante | Qué describe en el personaje | Señal textual observable | Función narrativa típica |
+| --- | --- | --- | --- |
+| Anteros | Afirmación de sí mismo contra el mundo o contra la norma. El personaje que actúa desde su propia convicción, ignorando o desafiando las consecuencias. | Decisiones tomadas con certeza. Ausencia de duda interna. Afirmación de una teoría o misión propia. "Tengo derecho a hacerlo." | Inicio del arco del protagonista que va a caer. También: el antagonista en todo momento. El héroe que no ha sido puesto a prueba. |
+| Fobos | El personaje actúa desde el miedo a las consecuencias. El miedo puede ser al dolor, a la pérdida, al descubrimiento, al juicio de los otros. | Vacilación. Decisiones tomadas para evitar un daño. El personaje que hace lo que no quiere para protegerse. Insomnio, paranoia, evasión. | La crisis del personaje. El punto de inflexión donde la voluntad se debilita. El antagonista que revela su miedo oculto. |
+| Potós | El personaje anhela algo ausente o perdido. Su vector de voluntad apunta hacia lo que no tiene o lo que ya no puede tener. | Regresión hacia el pasado, hacia el ser querido perdido, hacia el mundo anterior al trauma. | El personaje de la nostalgia. El que no puede moverse hacia delante. El antagonista que actúa |
+| Deimos | El personaje está paralizado. No actúa por la multiplicidad de lo que enfrenta o por la incapacidad de procesar lo que le ha ocurrido. | El personaje que no hace nada durante un tiempo. La escena sin acción. La parálisis ante lo que no puede nombrarse. | El período de transición entre el Anteros inicial y el Fobos de la crisis. También: el personaje secundario que nunca sale de la parálisis. |
+| Eros | El personaje se orienta hacia algo nuevo o hacia algo que desea en el mundo presente. | La apertura a nuevas relaciones, proyectos o posibilidades. El deseo genuino que no está contaminado por el miedo ni la nostalgia. | El inicio de la resolución del arco. Aparece cuando el personaje empieza a salir de la crisis. |
+| Harmonía | El personaje actúa desde la deliberación plena. Ha integrado la experiencia, puede actuar con certeza sin suprimir la información que el mundo le da. | Decisiones tomadas con claridad y sin urgencia. El personaje que ha comprendido algo sobre sí mismo y actúa desde esa comprensión. | La resolución del arco protagonista. Puede ser trágica: un personaje puede alcanzar Harmonía y ser destruido de todas formas. |
 
 
 #### 3.3 El nodo narrativo de diseño: cómo identificar al arquitecto invisible
@@ -12939,7 +9301,8 @@ Los tres rasgos del nodo narrativo de diseño en la narrativa compleja:
 - Información asimétrica: los personajes en la escena del clímax no comprenden completamente su papel como ejecutores de un plan que no diseñaron. El lector/espectador que ha seguido al arquitecto invisible tampoco lo comprende completamente hasta el momento del evento.
 
 
-Principio narrativo:  La narrativa compleja de alta calidad usa sistemáticamente el nodo de diseño invisible como su mecanismo más poderoso de sorpresa y de profundidad. La Boda Roja sorprende porque el espectador seguía a Robb Stark como protagonista sin haber comprendido que Tywin era el nodo de mayor R* de esa trama. Esa brecha entre el protagonismo visible y la causalidad real es la misma brecha que el sistema identifica en todos los dominios del libro: entre quien tiene mayor visibilidad y quien tiene mayor peso causal.
+> [!IMPORTANT]
+> Principio narrativo:  La narrativa compleja de alta calidad usa sistemáticamente el nodo de diseño invisible como su mecanismo más poderoso de sorpresa y de profundidad. La Boda Roja sorprende porque el espectador seguía a Robb Stark como protagonista sin haber comprendido que Tywin era el nodo de mayor R* de esa trama. Esa brecha entre el protagonismo visible y la causalidad real es la misma brecha que el sistema identifica en todos los dominios del libro: entre quien tiene mayor visibilidad y quien tiene mayor peso causal.
 
 
 #### 3.4 La lectura en dos niveles: el personaje y el autor
@@ -13002,38 +9365,24 @@ El epílogo de la novela, situado en Siberia durante el primer año del cumplimi
 
 Harmonía    ████████░░░░░░░░░░░░ 38% Eros        ██████░░░░░░░░░░░░░░ 30% Fobos       ███░░░░░░░░░░░░░░░░░ 14% Potós       ██░░░░░░░░░░░░░░░░░░ 10% Anteros     ██░░░░░░░░░░░░░░░░░░ 8% Deimos      ░░░░░░░░░░░░░░░░░░░░ 0%
 
-Por qué el arco Anteros → Fobos → Harmonía produce resonancia:  Dostoievski construyó el arco de Raskolnikov siguiendo la estructura que el sistema ontológico describe como el movimiento del ego que ha actuado desde la afirmación de sí mismo sin deliberación real (Anteros sin Harmonía) y descubre en el contacto con la realidad el costo de esa actuación (Fobos). La Harmonía del epílogo no es una recompensa: es el reconocimiento de que la integración del error en la propia historia es la única forma de seguir siendo un sujeto completo. El lector siente esa resonancia porque reconoce la estructura, aunque no pueda nombrarla. El sistema la nombra.
+> [!NOTE]
+> Por qué el arco Anteros → Fobos → Harmonía produce resonancia:  Dostoievski construyó el arco de Raskolnikov siguiendo la estructura que el sistema ontológico describe como el movimiento del ego que ha actuado desde la afirmación de sí mismo sin deliberación real (Anteros sin Harmonía) y descubre en el contacto con la realidad el costo de esa actuación (Fobos). La Harmonía del epílogo no es una recompensa: es el reconocimiento de que la integración del error en la propia historia es la única forma de seguir siendo un sujeto completo. El lector siente esa resonancia porque reconoce la estructura, aunque no pueda nombrarla. El sistema la nombra.
 
 #### A.3 El grafo narrativo de Crimen y Castigo
 
 #### El evento central del análisis es el asesinato de Aliona Ivanovna y Lizaveta. El grafo narrativo distribuye el R* entre los factores que lo hicieron posible:
 
-Nodo Factor narrativo R* Función causal en el asesinato
-
-N1 La teoría del hombre extraordinario
-
-~42% El principal factor causal del asesinato. Sin la teoría, Raskolnikov no habría
-
-
-(Anteros de Raskolnikov)
-
-tenido el marco para justificar el acto. La teoría es el nodo de diseño de la voluntad del protagonista.
-
-N2 La pobreza extrema de Raskolnikov y su entorno
-
-~22% La condición material que hizo que la teoría encontrara un objeto concreto (la usurera) y una justificación práctica (el dinero de la usurera beneficiaría a muchos).
-
-N3 La casualidad del plan (el día, la hora, Lizaveta no debería estar)
-
-~14% La casualidad tiene posición causal real: el asesinato de Lizaveta no estaba planeado. La contingencia como nodo narrativo.
-
-N4 La figura de Sonia Marmeladova (lo que Raskolnikov todavía puede ser)
-
-~12% Paradójicamente, la existencia de Sonia es condición causal del asesinato porque la bondad de Sonia es lo que Raskolnikov desea contradecir con su teoría. Y es condición de la resolución.
-
-~10% El autor que diseñó todo lo anterior: la teoría, la pobreza, la casualidad, Sonia. La intención narrativa de Dostoievski (mostrar el colapso de la razón como fundamento del acto) es el nodo de diseño de segundo nivel.
-
-N5 Dostoievski como meta-nodo: el diseñador del arco
+| Nodo | Factor narrativo | R* | Función causal en el asesinato |
+| --- | --- | --- | --- |
+| N1 | La teoría del hombre extraordinario | ~42% | El principal factor causal del asesinato. Sin la teoría, Raskolnikov no habría |
+<table>
+<tbody>
+<tr><th scope="row">N2</th><td>La pobreza extrema de Raskolnikov y su entorno</td><td>~22%</td><td>La condición material que hizo que la teoría encontrara un objeto concreto (la usurera) y una justificación práctica (el dinero de la usurera beneficiaría a muchos).</td></tr>
+<tr><th scope="row">N3</th><td>La casualidad del plan (el día, la hora, Lizaveta no debería estar)</td><td>~14%</td><td>La casualidad tiene posición causal real: el asesinato de Lizaveta no estaba planeado. La contingencia como nodo narrativo.</td></tr>
+<tr><th scope="row">N4</th><td>La figura de Sonia Marmeladova (lo que Raskolnikov todavía puede ser)</td><td>~12%</td><td>Paradójicamente, la existencia de Sonia es condición causal del asesinato porque la bondad de Sonia es lo que Raskolnikov desea contradecir con su teoría. Y es condición de la resolución.</td></tr>
+<tr><th scope="row">N5</th><td>Dostoievski como meta- nodo: el diseñador del arco</td><td>~10%</td><td>El autor que diseñó todo lo anterior: la teoría, la pobreza, la casualidad, Sonia. La intención narrativa de Dostoievski (mostrar el colapso de la razón como fundamento del acto) es el nodo de diseño de segundo nivel.</td></tr>
+</tbody>
+</table>
 
 La lectura del R* en el nivel del autor revela la intención narrativa de Dostoievski con precisión: el mayor R* del asesinato pertenece a la teoría (Anteros de Raskolnikov, 42%), no a la persona de Raskolnikov en sí. Eso es una
 
@@ -13043,51 +9392,50 @@ declaración sobre qué hace que los seres humanos cometan actos que violan su p
 
 Caso B — Juego de Tronos — La Boda Roja (Temporada 3, Episodio 9, 2013)
 
-R* de Tywin Lannister como nodo narrativo de diseño invisible. Los hijos de Cersei: Anteros + Potós
+
+> [!NOTE]
+> R* de Tywin Lannister como nodo narrativo de diseño invisible. Los hijos de Cersei: Anteros + Potós
+
 
 Este análisis se basa en la serie de televisión Game of Thrones (HBO, 2011-2019) y en las novelas de George R.R. Martin, A Song of Ice and Fire.
 
-B.1 El contexto del evento
+| Nodo | Personaje / Factor | R* narrativo | Función causal en el evento |
+| --- | --- | --- | --- |
 
 En el tercero de los siete libros de Martin y en la tercera temporada de la serie, Robb Stark —el Rey en el Norte— comete dos errores estratégicos en rápida sucesión: rompe su promesa de matrimonio con una hija de Walder Frey (casándose en cambio con Talisa Maegyr) y ejecuta a Rickard Karstark (alienando a un tercio de su ejército). Para reparar el error con los Frey, acuerda que su tío Edmure Tully se casará con una hija de Walder Frey. La boda se celebra en Los Gemelos.
 
-Lo que Robb no sabe —lo que ningún personaje en esa sala sabe excepto Walder Frey y Roose Bolton— es que el plan de la masacre fue negociado con Tywin Lannister. Tywin prometió a los Frey y a los Bolton el reconocimiento y las recompensas que Robb les había negado o retenido. La música de las bodas se convierte en la señal de ataque. Robb, su madre Catelyn, su esposa Talisa, y la mayor parte de su ejército son asesinados.
 
 La reacción del espectador —el shock masivo que La Boda Roja produjo en la audiencia, con videos virales de personas llorando, insultando la pantalla, apagando el televisor— es la evidencia de que la arquitectura narrativa de Martin funcionó exactamente como estaba diseñada. El espectador
 
+| Nodo | Personaje / Factor | R* narrativo | Función causal en el evento |
+| --- | --- | --- | --- |
+| N1 | Tywin Lannister (arquitecto invisible) | ~38% | Diseñó las alianzas con los Frey y los Bolton, prometió recompensas, proveyó el plan. No estuvo en la sala. Es el nodo de mayor R* con la S más baja: sin Tywin específicamente, con su estrategia fría y su disposición a usar el honor de la hospitalidad como arma, el plan no habría tomado esa forma. |
 
 #### había asumido que Robb era el protagonista y que el protagonista sobrevive. Ambas suposiciones eran incorrectas. Y ninguna era incorrecta por accidente.
 
+
 #### B.2 El grafo narrativo de La Boda Roja
 
-Nodo Personaje / Factor
-
-R* narrativo
-
-Función causal en el evento
-
-N1 Tywin Lannister (arquitecto invisible)
-
-~38% Diseñó las alianzas con los Frey y los Bolton, prometió recompensas, proveyó el plan. No estuvo en la sala. Es el nodo de mayor R* con la S más baja: sin Tywin específicamente, con su estrategia fría y su disposición a usar el honor de la hospitalidad como arma, el plan no habría tomado esa forma.
-
-N2 Los errores estratégicos de Robb Stark
-
-~25% Sin los dos errores de Robb (romper el voto a los Frey, ejecutar a Karstark), no habría existido la vulnerabilidad que Tywin explotó. Los errores de Robb son condición necesaria del evento aunque Robb no "causó" la masacre en el sentido del sistema.
-
-N3 Walder Frey (ejecutor directo)
+| Nodo | Personaje / Factor | R* narrativo | Función causal en el evento |
+| --- | --- | --- | --- |
+| N2 | Los errores estratégicos de Robb Stark | ~25% | Sin los dos errores de Robb (romper el voto a los Frey, ejecutar a Karstark), no habría existido la vulnerabilidad que Tywin explotó. Los errores de Robb son condición necesaria del evento aunque Robb no "causó" la masacre en el sentido del sistema. |
+| N3 | Walder Frey (ejecutor directo) | ~18% | Aceptó la propuesta de Tywin y la ejecutó. S moderado: otro señor con los mismos agravios y la misma oportunidad habría podido actuar igual. Pero la especificidad de los Frey |
 
 ~18% Aceptó la propuesta de Tywin y la ejecutó. S moderado: otro señor con los mismos agravios y la misma oportunidad habría podido actuar igual. Pero la especificidad de los Frey
 
+<table>
+<tbody>
+<tr><th scope="row">N4</th><td>Roose Bolton (cómplice interior)</td><td>~12%</td><td>Traicionó a Robb desde adentro. S moderado- alto: otro lord norteño en la misma posición de oportunidad y descontento habría podido llegar a un acuerdo similar.</td></tr>
+</tbody>
+</table>
 
 (su obsesión con el honor incumplido) hizo que la ejecución tomara la forma que tomó.
 
-N4 Roose Bolton (cómplice interior)
-
-~12% Traicionó a Robb desde adentro. S moderado-alto: otro lord norteño en la misma posición de oportunidad y descontento habría podido llegar a un acuerdo similar.
-
-~7% La violación del derecho de huésped es el elemento que da al evento su peso moral dentro del universo narrativo. Sin esa convención, los personajes habrían tenido defensa. Con ella, no.
-
-N5 Las convenciones de la hospitalidad en el mundo de Westeros
+<table>
+<tbody>
+<tr><th scope="row">N5</th><td>Las convenciones de la hospitalidad en el mundo de Westeros</td><td>~7%</td><td>La violación del derecho de huésped es el elemento que da al evento su peso moral dentro del universo narrativo. Sin esa convención, los personajes habrían tenido defensa. Con ella, no.</td></tr>
+</tbody>
+</table>
 
 #### B.3 Tywin Lannister: el análisis del nodo narrativo de diseño
 
@@ -13132,12 +9480,14 @@ B.5 La arquitectura narrativa de Martin: la lección del nodo invisible
 
 El shock de La Boda Roja en la audiencia de la serie tiene una explicación precisa en términos del sistema. El espectador había construido mentalmente un grafo narrativo con Robb Stark como protagonista y consecuentemente como el nodo de mayor R* del relato. La revelación de que Tywin es el nodo de mayor R* del evento más importante de esa temporada es la corrección brutal de esa expectativa.
 
-Esa corrección es la tesis narrativa de Martin. El nodo de mayor poder real no es el nodo de mayor visibilidad narrativa. El protagonismo en la ficción convencional converge con el poder causal: el héroe tiene el mayor R* en los eventos que protagoniza. Martin invirtió deliberadamente esa convergencia: el "protagonista" tiene S alta (podría haber sido sustituido por otro rey del norte con los mismos errores estratégicos) y el arquitecto invisible tiene S baja (solo Tywin habría construido ese plan en esa forma). Eso es una declaración sobre la naturaleza del poder en el mundo que Martin construyó.
+> [!NOTE]
+> Esa corrección es la tesis narrativa de Martin. El nodo de mayor poder real no es el nodo de mayor visibilidad narrativa. El protagonismo en la ficción convencional converge con el poder causal: el héroe tiene el mayor R* en los eventos que protagoniza. Martin invirtió deliberadamente esa convergencia: el "protagonista" tiene S alta (podría haber sido sustituido por otro rey del norte con los mismos errores estratégicos) y el arquitecto invisible tiene S baja (solo Tywin habría construido ese plan en esa forma). Eso es una declaración sobre la naturaleza del poder en el mundo que Martin construyó.
 
 La tesis narrativa de Martin vs. la tesis narrativa de Tolkien:  La ficción épica convencional (Tolkien, el ciclo artúrico) asigna el mayor R* al héroe: sin Frodo, el Anillo no se destruye; sin Aragorn,
 
 
-los ejércitos del Este no se detienen. Martin construyó un universo donde el mayor R* pertenece frecuentemente al nodo invisible: sin Tywin, los Lannister habrían caído décadas antes de la guerra. Esa diferencia no es una diferencia de calidad narrativa sino de proposición moral: Tolkien propone que el acto individual del héroe puede cambiar el curso del mundo; Martin propone que el poder es el diseño invisible de condiciones, no el acto heroico visible.
+> [!NOTE]
+> los ejércitos del Este no se detienen. Martin construyó un universo donde el mayor R* pertenece frecuentemente al nodo invisible: sin Tywin, los Lannister habrían caído décadas antes de la guerra. Esa diferencia no es una diferencia de calidad narrativa sino de proposición moral: Tolkien propone que el acto individual del héroe puede cambiar el curso del mundo; Martin propone que el poder es el diseño invisible de condiciones, no el acto heroico visible.
 
 
 ### §5.  Límites del método en literatura y análisis cultural
@@ -13209,7 +9559,8 @@ import numpy as np from scipy.stats import pearsonr import math  # ════�
 ['Anteros','Fobos','Potós','Deimos','Eros','Harmonía']     resultado = [] for i, dist in enumerate(hijos_por_momento):         total = sum(dist.values())         dist_n = {h: dist.get(h,0)/total for h in hijos_todos}         hijo_dom = max(dist_n, key=dist_n.get)         entropia = -sum(p*math.log(p+1e-9) for p in dist_n.values()) momento_label = momentos[i] if momentos else f'Momento {i+1}' resultado.append({             'momento': momento_label, 'hijo_dominante': hijo_dom,             'pct_dominante': round(dist_n[hijo_dom]*100, 1),             'entropia': round(entropia, 3), 'distribucion': {h: round(v*100,1) for h,v in dist_n.items()},         })      # Diagnóstico del arco     hijos_dom_seq = [r['hijo_dominante'] for r in resultado]     if hijos_dom_seq[0] == 'Anteros' and hijos_dom_seq[-1] == 'Harmonía':         arco_tipo = 'Redención: Anteros → Harmonía (Raskolnikov)'     elif hijos_dom_seq[0] == 'Anteros' and hijos_dom_seq[-1] == 'Fobos':         arco_tipo = 'Tragedia sin resolución: Anteros → Fobos (Macbeth)'     elif hijos_dom_seq[-1] == 'Harmonía':         arco_tipo = 'Resolución positiva → Harmonía'     elif hijos_dom_seq[-1] in ('Fobos','Deimos'):         arco_tipo = 'Caída sin redención'     else:         arco_tipo = 'Arco mixto o en proceso'      return {'secuencia': resultado, 'tipo_arco': arco_tipo,             'hijos_dominantes': hijos_dom_seq}  # ════════════════════════════════════════ ══════ # EJEMPLO 1: La Boda Roja — nodo de diseño # ════════════════════════════════════════ ══════ W_br = np.zeros((6,6)) noms_br = ['Tywin','Errores_Robb','Walder_Frey','Roose_Bolton','Convención_hos pit.','Evento'] # Tywin diseñó las alianzas W_br[0,2]=0.85; W_br[0,3]=0.80; W_br[0,5]=0.78 # Los errores de Robb crearon la vulnerabilidad W_br[1,2]=0.70; W_br[1,3]=0.65; W_br[1,5]=0.75 # Frey y Bolton ejecutaron W_br[2,5]=0.90; W_br[3,5]=0.75; W_br[4,5]=0.60 # Tywin usó la convención de hospitalidad W_br[0,4]=0.70  res_br = analisis_narrativo(W_br, noms_br) print("=== La Boda Roja — Nodo narrativo de diseño ===") for nm, rs, si, ci in zip(noms_br, res_br['R_star_narrativo'],                             res_br['S_narrativo'], res_br['CI_narrativa']):     print(f"  {nm:20s} R*={rs:.3f}  S={si:.2f} CI={ci:.3f}") print(f"  Arquitecto invisible: {res_br['arquitecto_invisible']}") print(f"  Nodo de diseño CI: {res_br['nodo_diseno']}")  # ════════════════════════════════════════ ══════ # EJEMPLO 2: Arco de Raskolnikov # ════════════════════════════════════════ ══════ momentos_rask = [     'Antes del crimen',     'Inmediatamente después',     'El Fobos prolongado',     'La confesión / Epílogo', ] hijos_rask = [ {'Anteros':0.55,'Eros':0.20,'Potós':0.12,'Deimos':0.08,'Fobos':0.04,'Harmo nía':0.01}, {'Fobos':0.52,'Deimos':0.28,'Anteros':0.12,'Potós':0.08,'Eros':0,'Harmonía' :0}, {'Fobos':0.44,'Anteros':0.22,'Potós':0.16,'Deimos':0.08,'Eros':0.06,'Harmo nía':0.04}, {'Harmonía':0.38,'Eros':0.30,'Fobos':0.14,'Potós':0.10,'Anteros':0.08,'Dei
 
 
-mos':0}, ] arco_rask = analisis_arco_narrativo(hijos_rask, momentos_rask) print("\n=== Crimen y Castigo — Arco de Raskolnikov ===") for seg in arco_rask['secuencia']:     print(f" {seg['momento']:30s} → {seg['hijo_dominante']:10s} ({seg['pct_dominante']}%)") print(f"  Tipo de arco: {arco_rask['tipo_arco']}")
+> [!NOTE]
+> mos':0}, ] arco_rask = analisis_arco_narrativo(hijos_rask, momentos_rask) print("\n=== Crimen y Castigo — Arco de Raskolnikov ===") for seg in arco_rask['secuencia']:     print(f" {seg['momento']:30s} → {seg['hijo_dominante']:10s} ({seg['pct_dominante']}%)") print(f"  Tipo de arco: {arco_rask['tipo_arco']}")
 
 Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026
 
@@ -13232,9 +9583,9 @@ R* · S · Δ · B_total · Hijos (dos momentos) · D_vital · Fraude
 
 annona · IIC
 
-::: {.recuadro .nota-violeta}
-**Nota metodológica:** Este análisis no constituye opinión jurídica formal ni pretende anticipar el resultado del proceso activo. Es una demostración metodológica de cómo el sistema de imputación causal aporta elementos de análisis a un expediente real. Los datos identificadores han sido anonimizados. El análisis usa exclusivamente hechos documentados en el expediente o inferibles razonablemente de él.
-:::
+> [!NOTE]
+> **Nota metodológica:** Este análisis no constituye opinión jurídica formal ni pretende anticipar el resultado del proceso activo. Es una demostración metodológica de cómo el sistema de imputación causal aporta elementos de análisis a un expediente real. Los datos identificadores han sido anonimizados. El análisis usa exclusivamente hechos documentados en el expediente o inferibles razonablemente de él.
+
 
 ### §1.  El contexto y los hechos imputados
 
@@ -13273,7 +9624,8 @@ La institución argumenta que el acceso no correspondía al perfil del gerente. 
 
 banca comercial
 
-ambigüedad del perfil de puesto fue creada por la institución, no por el gerente.
+> [!NOTE]
+> ambigüedad del perfil de puesto fue creada por la institución, no por el gerente.
 
 #### 1.3 El dato de la dilación de tres años
 
@@ -13293,82 +9645,27 @@ El análisis del Caso Eje opera en dos capas simultáneas. Primera capa (tempora
 
 #### 2.1 Nodos del grafo
 
-Nodo Actor Tipo Posición en el grafo
-
-N1 Institución bancaria (ego colectivo)
-
-Nodo de diseño central
-
-Diseñó el sistema de acceso, los roles y sus ambigüedades, el proceso de separación y el momento de la denuncia. El nodo de mayor R* en ambas capas temporales.
-
-N2 Gerentes superiores / área de RRHH
-
-Diseño operativo
-
-Tomaron las decisiones específicas de separación y de presentación de la denuncia. Su R* es función del poder discrecional dentro del ego colectivo institucional.
-
-
-banca comercial
-
-N3 Subordinadas (dos empleadas)
-
-Ejecución documentada
-
-Accedieron al sistema y descargaron información. Este hecho está documentado digitalmente. Actuaron dentro de la jerarquía institucional. S_N3 alta.
-
-N4 Antiguo gerente (investigado)
-
-Nodo terminal de la imputación
-
-La única evidencia que lo conecta con el hecho 1 es el dicho de las subordinadas sin respaldo documental. En el hecho 2, la arista causal al fraude no está documentada. D_total como causante = 0.
-
-N5 Perfil de puesto (diseño del rol)
-
-Nodo instrumental
-
-El documento institucional que define las funciones del gerente. Su ambigüedad —que requiere acceso a expedientes y simultáneamente sirve para argumentar acceso indebido— es producto de diseño institucional, no de decisión del gerente.
-
-N6 Tercero desconocido (intento de fraude)
-
-Nodo externo al grafo t₁
-
-El tercero que intentó el fraude en la sucursal del otro estado. No existe arista documentada entre N4 y N6. La imputación descansa en la proximidad temporal de dos días.
-
-
-banca comercial
-
-Nf1 Clientes (bien jurídico protegido)
-
-Nodo final t₁ Los clientes cuyos expedientes fueron consultados. D_total al cliente = 0 en ambos hechos: el fraude no se consumó y no hay daño acreditado.
-
-Nf2 Antiguo gerente como víctima del proceso
-
-Nodo final t₂ En la segunda capa temporal (el proceso de imputación), el antiguo gerente no es el nodo causante del daño: es el nodo que sufre el D_total producido por la imputación. Este inversión de posición es la paradoja central del caso.
+| Nodo | Actor | Tipo | Posición en el grafo |
+| --- | --- | --- | --- |
+| N1 | Institución bancaria (ego colectivo) | Nodo de diseño central | Diseñó el sistema de acceso, los roles y sus ambigüedades, el proceso de separación y el momento de la denuncia. El nodo de mayor R* en ambas capas temporales. |
+| N2 | Gerentes superiores / área de RRHH | Diseño operativo | Tomaron las decisiones específicas de separación y de presentación de la denuncia. Su R* es función del poder discrecional dentro del ego colectivo institucional. |
+| N3 | Subordinadas (dos empleadas) | Ejecución documentada | Accedieron al sistema y descargaron información. Este hecho está documentado digitalmente. Actuaron dentro de la jerarquía institucional. S_N3 alta. |
+| N4 | Antiguo gerente (investigado) | Nodo terminal de la imputación | La única evidencia que lo conecta con el hecho 1 es el dicho de las subordinadas sin respaldo documental. En el hecho 2, la arista causal al fraude no está documentada. D_total como causante = 0. |
+| N5 | Perfil de puesto (diseño del rol) | Nodo instrumental | El documento institucional que define las funciones del gerente. Su ambigüedad —que requiere acceso a expedientes y simultáneamente sirve para argumentar acceso indebido— es producto de diseño institucional, no de decisión del gerente. |
+| N6 | Tercero desconocido (intento de fraude) | Nodo externo al t₁ grafo | El tercero que intentó el fraude en la sucursal del otro estado. No existe arista documentada entre N4 y N6. La imputación descansa en la proximidad temporal de dos días. |
+| Nf1 | Clientes (bien jurídico protegido) | t₁ Nodo final | Los clientes cuyos expedientes fueron consultados. D_total al cliente = 0 en ambos hechos: el fraude no se consumó y no hay daño acreditado. |
+| Nf2 | Antiguo gerente como víctima del proceso | t₂ Nodo final | En la segunda capa temporal (el proceso de imputación), el antiguo gerente no es el nodo causante del daño: es el nodo que sufre el D_total producido por la imputación. Este inversión de posición es la paradoja central del caso. |
 
 #### 2.2 Las dos capas temporales del análisis
 
-Capa Descripción Nodo con mayor R*
+| Capa | Descripción | Nodo con mayor R* |
+| --- | --- | --- |
+| t₁ — Los hechos | El momento en que ocurrieron los hechos imputados. El análisis pregunta: dado el grafo en ese momento, ¿quién tiene mayor peso causal en el resultado (acceso al expediente, posible transmisión de información)? | N1 (institución) — diseñó el rol ambiguo y el sistema de acceso. N3 (subordinadas) — ejecutaron el acceso documentado. |
+| t₂ — El proceso | El momento en que la institución presenta la denuncia y el proceso | N1 (institución) — decidió denunciar, eligió el momento, |
+|  | penal se activa. El análisis pregunta: ¿quién tiene mayor peso causal en el daño que el proceso produce sobre el antiguo gerente? | construyó la narrativa. N4 pasa de potencial causante a víctima real del proceso. |
 
-El momento en que ocurrieron los hechos imputados. El análisis pregunta: dado el grafo en ese momento, ¿quién tiene mayor peso causal en el resultado (acceso al expediente, posible transmisión de información)?
-
-N1 (institución) — diseñó el rol ambiguo y el sistema de acceso. N3 (subordinadas) — ejecutaron el acceso documentado.
-
-t₁ — Los hechos
-
-El momento en que la institución presenta la denuncia y el proceso
-
-N1 (institución) — decidió denunciar, eligió el momento,
-
-t₂ — El proceso
-
-
-banca comercial
-
-penal se activa. El análisis pregunta: ¿quién tiene mayor peso causal en el daño que el proceso produce sobre el antiguo gerente?
-
-construyó la narrativa. N4 pasa de potencial causante a víctima real del proceso.
-
-La inversión ontológica central:  En t₁, la denuncia del banco ubica a N4 (el gerente) como causante del daño. En t₂, el análisis del sistema lo ubica como receptor del daño. El proceso penal activo produce sobre el antiguo gerente un D_total real y calculable —costos legales, daño reputacional, pérdida de oportunidades laborales, daño psicológico— que el sistema puede cuantificar con la misma metodología que los capítulos anteriores.
+> [!NOTE]
+> La inversión ontológica central:  En t₁, la denuncia del banco ubica a N4 (el gerente) como causante del daño. En t₂, el análisis del sistema lo ubica como receptor del daño. El proceso penal activo produce sobre el antiguo gerente un D_total real y calculable —costos legales, daño reputacional, pérdida de oportunidades laborales, daño psicológico— que el sistema puede cuantificar con la misma metodología que los capítulos anteriores.
 
 
 banca comercial
@@ -13383,11 +9680,9 @@ banca comercial
 
 N1 Institución (diseño██████████████████░░░░░░░░░░░░░░ ░░░░░░░░ 45.1% diseñó el sistema, los roles, la jerarquía N3 Subordinadas (acces████████████░░░░░░░░░░░░░░░░░░░░░ ░░░░░░░ 30.8% único hecho digitalmente documentado N2 Gerentes superiores█████░░░░░░░░░░░░░░░░░░░░░░░░░ ░░░░░░░░░░ 13.7% presiones sistémicas sobre el rol N4 Antiguo gerente (investi████░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ░░░░░░░░ 10.4% solo evidencia testimonial sin respaldo
 
-Nodo R* S α (t₁)
-
-Δ Interpretació n
-
-#### 0.2 8 0.03 +0.42 1 Diseñó el rol con acceso a expedientes. Diseñó la jerarquía bajo la que las subordinadas
+| Nodo | R* | S | α (t₁) | Δ | Interpretació n |
+| --- | --- | --- | --- | --- | --- |
+| N1 — Institución | 45.1 % | 0.2 8 | 0.03 | +0.42 1 | Diseñó el rol con acceso a expedientes. Diseñó la jerarquía bajo la que las subordinadas |
 
 N1 — Institución
 
@@ -13398,21 +9693,13 @@ banca comercial
 
 actuaron. Su α en t₁ era prácticamente cero: no actuó al saber de los hechos.
 
-#### 0.8 8 0.05 +0.25 8 S alta: actuaron dentro del sistema diseñado por N1. Cualquier empleado bajo la misma jerarquía habría actuado igual.
-
-N3 — Subordinada s
-
-#### 30.8 %
-
-#### 0.6 5 0.08 +0.05 7 S moderada. La presión del rol sobre el gerente es función del diseño institucional.
-
-N2 — Ger. superiores
-
-#### 13.7 %
-
-0.9 0 1.00 * −0.89 6 * α = 1.0 porque no existe evidencia de acción causalmente atribuible a N4 que produjera daño. Δ = −0.896: se le imputa casi el 90% más de responsabilida d de lo que la evidencia documenta. Es el CHIVO.
-
-N4 — Antiguo gerente
+<table>
+<tbody>
+<tr><th scope="row">N3 — Subordinada s</th><td>30.8 %</td><td>0.8 8</td><td>0.05</td><td>+0.25 8</td><td>S alta: actuaron dentro del sistema diseñado por N1. Cualquier empleado bajo la misma jerarquía habría actuado igual.</td></tr>
+<tr><th scope="row">N2 — Ger. superiores</th><td>13.7 %</td><td>0.6 5</td><td>0.08</td><td>+0.05 7</td><td>S moderada. La presión del rol sobre el gerente es función del diseño institucional.</td></tr>
+<tr><th scope="row">N4 — Antiguo gerente</th><td>10.4 %</td><td>0.9 0</td><td>1.00 *</td><td>−0.89 6</td><td>* α = 1.0 porque no existe evidencia de acción causalmente atribuible a N4 que produjera daño. Δ = −0.896: se le imputa casi el 90% más de responsabilida d de lo que la evidencia documenta. Es el CHIVO.</td></tr>
+</tbody>
+</table>
 
 #### 10.4 %
 
@@ -13440,15 +9727,10 @@ N1 Institución (diseño███████████████░░░�
 
 banca comercial
 
-Nodo R* w(N4→N6) Análisis
-
-15.2% 0.00 El acceso está documentado. Pero la arista entre el acceso y el intento de fraude tiene peso w=0: no existe evidencia de ningún eslabón de esa cadena causal. Sin la arista, el R* de N4 en el resultado (el intento de fraude) es cero independientemente del R* en el acceso.
-
-N4 accedió al expediente
-
-N/A — Nodo externo sin arista documentada con N4. El fraude no se consumó. D_total al cliente en este hecho = 0.
-
-N6 tercero desconocido
+| Nodo | R* | w(N4→N6) | Análisis |
+| --- | --- | --- | --- |
+| N4 accedió al expediente | 15.2% | 0.00 | El acceso está documentado. Pero la arista entre el acceso y el intento de fraude tiene peso w=0: no existe evidencia de ningún eslabón de esa cadena causal. Sin la arista, el R* de N4 en el resultado (el intento de fraude) es cero independientemente del R* en el acceso. |
+| N6 tercero desconocido | N/A | — | Nodo externo sin arista documentada con N4. El fraude no se consumó. D_total al cliente en este hecho = 0. |
 
 #### Arista w (N4 → N6) = 0 → R*_N4_en_fraude =
 
@@ -13469,51 +9751,23 @@ En todos los capítulos del libro donde hay daño, hay también beneficio obteni
 
 #### 4.1 Componentes del B_total institucional
 
-Descripción Estimaci ón (MXN)
-
-Base del cálculo
-
-Componente del beneficio
-
-$3.2M Estimado como fracción del costo de un incidente de seguridad documentado sin resolución para un banco de ese tamaño (10-15M promedio CNBV).
-
-B1 — Protección reputacional
-
-Al presentar al antiguo gerente como el responsable de un posible incidente de seguridad, la institución protege su imagen ante reguladores y clientes. El incidente queda "resuelto" con un culpable externo.
-
-
-banca comercial
-
-$2.8M Estimado como el valor de las reclamaciones laborales que el proceso penal desincentivó o eliminó.
-
-B2 — Control del proceso de separación
-
-La denuncia convierte al antiguo gerente de potencial reclamante (por beneficios no pagados, por proceso de separación cuestionable) en investigado penal. Eso invierte la posición negociadora.
-
-$1.5M Estimado por el historial de reclamaciones laborales de la institución en períodos anteriores y posteriores a acciones similares.
-
-B3 — Señalización interna
-
-La denuncia envía una señal al personal activo sobre las consecuencia s de conflictos post-separación. Valor en reducción de futuras reclamacione s laborales.
-
-$2.6M Estimado por el costo de una auditoría regulatoria de sistemas de acceso en entidades similares
-
-B4 — Evitar responsabilid ad por diseño del rol
-
-Al imputar al antiguo gerente, la institución evita tener que reconocer que el diseño
-
-
-banca comercial
+<table>
+<tbody>
+<tr><th scope="row">Componente del beneficio</th><td>Descripción</td><td>Estimaci ón (MXN)</td><td>Base del cálculo</td></tr>
+<tr><th scope="row">B1 — Protección reputacional</th><td>Al presentar al antiguo gerente como el responsable de un posible incidente de seguridad, la institución protege su imagen ante reguladores y clientes. El incidente queda &quot;resuelto&quot; con un culpable externo.</td><td>$3.2M</td><td>Estimado como fracción del costo de un incidente de seguridad documentado sin resolución para un banco de ese tamaño (10-15M promedio CNBV).</td></tr>
+<tr><th scope="row">B2 — Control del proceso de separación</th><td>La denuncia convierte al antiguo gerente de potencial reclamante (por beneficios no pagados, por proceso de separación cuestionable) en investigado penal. Eso invierte la posición negociadora.</td><td>$2.8M</td><td>Estimado como el valor de las reclamaciones laborales que el proceso penal desincentivó o eliminó.</td></tr>
+<tr><th scope="row">B3 — Señalización interna</th><td>La denuncia envía una señal al personal activo sobre las consecuencia s de conflictos post- separación. Valor en reducción de futuras reclamacione s laborales.</td><td>$1.5M</td><td>Estimado por el historial de reclamaciones laborales de la institución en períodos anteriores y posteriores a acciones similares.</td></tr>
+<tr><th scope="row">B4 — Evitar responsabilid ad por diseño del rol</th><td>Al imputar al antiguo gerente, la institución evita tener que reconocer que el diseño</td><td>$2.6M</td><td>Estimado por el costo de una auditoría regulatoria de sistemas de acceso en entidades similares</td></tr>
+</tbody>
+</table>
 
 del perfil de puesto era ambiguo y que el sistema de acceso no tenía controles suficientes. Ese reconocimie nto habría requerido remediación regulatoria costosa.
 
-(CNBV/CONDU SEF precedentes).
-
-≈$10.1M Estimación conservadora. El rango razonable es $8M-$15M.
-
-B_total institucional
-
-Suma de los cuatro component es
+<table>
+<tbody>
+<tr><th scope="row">B_total institucional</th><td>Suma de los cuatro component es</td><td>≈$10.1M</td><td>Estimación conservadora. El rango razonable es $8M-$15M.</td></tr>
+</tbody>
+</table>
 
 #### El Δ_B de la institución:
 
@@ -13532,30 +9786,27 @@ En t₂, el antiguo gerente no es el causante del daño: es el receptor. El proc
 
 #### 5.1 Estructura del D_total
 
+
 #### D_proceso = T_invertido + T_impedido +
+
 
 #### ΔT_trayectoria
 
-Componente En el proceso de imputación
-
-Estimación y base del cálculo
-
-T_invertido Costos directos del proceso penal activo.
-
-Honorarios de abogado penalista estimados en $180,000-$350,000 MXN por año de proceso (mínimo 3 años proyectados): $0.54M-$1.05M. Costos administrativos (traslados, documentación, tiempo): $120,000-$200,000. Total T_invertido ≈ $0.66M-$1.25M.
-
-T_impedido Pérdida de ingresos y oportunidades por el proceso activo.
+<table>
+<tbody>
+<tr><th scope="row">Componente</th><td>En el proceso de imputación</td><td>Estimación y base del cálculo</td></tr>
+<tr><th scope="row">T_invertido</th><td>Costos directos del proceso penal activo.</td><td>Honorarios de abogado penalista estimados en $180,000-$350,000 MXN por año de proceso (mínimo 3 años proyectados): $0.54M- $1.05M. Costos administrativos (traslados, documentación, tiempo): $120,000-$200,000. Total T_invertido ≈ $0.66M- $1.25M.</td></tr>
+<tr><th scope="row">T_impedido</th><td>Pérdida de ingresos y oportunidades por el proceso activo.</td><td>El antiguo gerente no puede acceder a posiciones en el sector bancario mientras el proceso está activo (antecedentes en CNBV y sistemas del sector): pérdida de ingreso</td></tr>
+</tbody>
+</table>
 
 El antiguo gerente no puede acceder a posiciones en el sector bancario mientras el proceso está activo (antecedentes en CNBV y sistemas del sector): pérdida de ingreso
 
-
-banca comercial
-
-potencial de $80,000-$120,000 MXN/mes × 36 meses proyectados = $2.88M-$4.32M.
-
-ΔT_trayectoria Daño permanente a la trayectoria profesional y al patrimonio emocional.
-
-Incluso con sobreseimiento o absolución, el antecedente del proceso en sistemas de la industria produce un diferencial permanente de acceso a posiciones del sector. Estimado en $3.0M-$6.0M en valor presente de la diferencia de trayectoria laboral durante 10 años post-proceso.
+<table>
+<tbody>
+<tr><th scope="row">ΔT_trayectoria</th><td>Daño permanente a la trayectoria profesional y al patrimonio emocional.</td><td>Incluso con sobreseimiento o absolución, el antecedente del proceso en sistemas de la industria produce un diferencial permanente de acceso a posiciones del sector. Estimado en $3.0M-$6.0M en valor presente de la diferencia de trayectoria laboral durante 10 años post-proceso.</td></tr>
+</tbody>
+</table>
 
 D_total_proceso ≈ $0.66M + $2.88M + $3.0M =
 
@@ -13614,7 +9865,8 @@ banca comercial
 
 Fobos       ██░░░░░░░░░░░░░░░░░░ 12% — miedo a que el proceso revele las deficiencias del diseño Deimos      █░░░░░░░░░░░░░░░░░░░   5% — mínimo Eros        ░░░░░░░░░░░░░░░░░░░░   1% — ausente Harmonía    ░░░░░░░░░░░░░░░░░░░░   0% — completamente ausente en t₂
 
-Institución:  El ego colectivo de la institución actúa desde Anteros dominante en ambos momentos, con un agravante en t₂: el Anteros de t₁ era defensivo (proteger la institución ante el incidente); el Anteros de t₂ es activo (construir la narrativa que ubica al antiguo gerente como culpable). La ausencia total de Harmonía en t₂ es la señal más importante: no hubo deliberación sobre la justicia de la imputación, solo construcción de la narrativa que maximiza el beneficio institucional.
+> [!NOTE]
+> Institución:  El ego colectivo de la institución actúa desde Anteros dominante en ambos momentos, con un agravante en t₂: el Anteros de t₁ era defensivo (proteger la institución ante el incidente); el Anteros de t₂ es activo (construir la narrativa que ubica al antiguo gerente como culpable). La ausencia total de Harmonía en t₂ es la señal más importante: no hubo deliberación sobre la justicia de la imputación, solo construcción de la narrativa que maximiza el beneficio institucional.
 
 #### 6.2 El antiguo gerente (investigado)
 
@@ -13631,7 +9883,8 @@ banca comercial
 
 Deimos      ██████░░░░░░░░░░░░░░ 28% — parálisis ante el proceso y sus implicaciones Potós       ████░░░░░░░░░░░░░░░░ 20% — anhelo de la vida laboral anterior al proceso Anteros     ██░░░░░░░░░░░░░░░░░░   8% — defensa de su posición ante la imputación Eros        █░░░░░░░░░░░░░░░░░░░   4% — mínima orientación hacia la resolución del proceso Harmonía    ░░░░░░░░░░░░░░░░░░░░   0% — ausente: el proceso impide la integración
 
-Antiguo gerente:  El perfil Peribea del antiguo gerente en t₁ es el diagnóstico más importante del caso: actuó desde Fobos (miedo a las consecuencias de no seguir el protocolo) y Deimos (vértigo ante la ambigüedad). Ese perfil es incompatible con el dolo requerido por el tipo penal del artículo 112 quater. No hay Anteros deliberado. No hay iniciativa idiosincrática. Es el perfil del empleado que actúa dentro del sistema institucional por obediencia y miedo, no por diseño propio.
+> [!NOTE]
+> Antiguo gerente:  El perfil Peribea del antiguo gerente en t₁ es el diagnóstico más importante del caso: actuó desde Fobos (miedo a las consecuencias de no seguir el protocolo) y Deimos (vértigo ante la ambigüedad). Ese perfil es incompatible con el dolo requerido por el tipo penal del artículo 112 quater. No hay Anteros deliberado. No hay iniciativa idiosincrática. Es el perfil del empleado que actúa dentro del sistema institucional por obediencia y miedo, no por diseño propio.
 
 
 banca comercial
@@ -13642,32 +9895,14 @@ El fraude annona, en el sistema ontológico de la colección, es el incumplimien
 
 #### 7.1 Los tres componentes del fraude annona en este caso
 
-Componente Descripción α institución
-
-Δ resultante
-
-#### 0.02 +0.43
-
-FA1 — Diseño ambiguo del rol
-
-El perfil de puesto documentado públicamente exige acceso a expedientes ("comprobaciones diarias", "investigar pérdidas controlables") y simultáneamente sirve de base para
-
-
-banca comercial
-
-imputar acceso indebido. La institución diseñó la trampa.
-
-#### 0.01 +0.30
-
-FA2 — Ausencia de protocolo explícito
-
-No existe en el expediente ningún documento de la institución que hubiera definido expresamente los límites del acceso del gerente de sucursal a expedientes de clientes. La ambigüedad era conocida y no fue resuelta.
-
-#### 0.00 +0.35
-
-FA3 — La dilación estratégica de tres años
-
-La institución conocía los hechos el mismo día en que ocurrieron. Eligió no actuar durante tres años y denunciar en el momento que maximizaba su ventaja sobre el ex-empleado. Eso no es negligencia: es Anteros estratégico.
+<table>
+<tbody>
+<tr><th scope="row">Componente</th><td>Descripción</td><td>α institución</td><td>Δ resultante</td></tr>
+<tr><th scope="row">FA1 — Diseño ambiguo del rol</th><td>El perfil de puesto documentado públicamente exige acceso a expedientes (&quot;comprobaciones diarias&quot;, &quot;investigar pérdidas controlables&quot;) y simultáneamente sirve de base para</td><td>0.02</td><td>+0.43</td></tr>
+<tr><th scope="row">FA2 — Ausencia de protocolo explícito</th><td>No existe en el expediente ningún documento de la institución que hubiera definido expresamente los límites del acceso del gerente de sucursal a expedientes de clientes. La ambigüedad era conocida y no fue resuelta.</td><td>0.01</td><td>+0.30</td></tr>
+<tr><th scope="row">FA3 — La dilación estratégica de tres años</th><td>La institución conocía los hechos el mismo día en que ocurrieron. Eligió no actuar durante tres años y denunciar en el momento que maximizaba su ventaja sobre el ex- empleado. Eso no es negligencia: es Anteros estratégico.</td><td>0.00</td><td>+0.35</td></tr>
+</tbody>
+</table>
 
 #### Δ_fraude_annona = FA1 + FA2 + FA3 = 0.43 + 0.30 +
 
@@ -13684,31 +9919,15 @@ banca comercial
 
 #### La institución puede reducir su Δ_fraude_annona mediante acciones concretas que el análisis puede identificar:
 
-Descripción Δ que reduce
-
-Acción de α diferido
-
-Costo estimado
-
-Retirar la denuncia y compensar los costos legales del antiguo gerente
-
-Reconocimiento de que la imputación no tenía base causal suficiente. Cubre T_invertido del antiguo gerente.
-
-−0.35 (FA3)
-
-$0.8M-$1.2M MXN
-
-Clarificar públicamente el perfil de puesto del gerente de sucursal
-
-Corrección del documento que generó la ambigüedad FA1.
-
-−0.25 (FA1)
-
-$0.1M-$0.3M MXN
-
-Establecer protocolos explícitos de acceso a expedientes
-
-Remediación del diseño del sistema que generó FA2.
+<table>
+<tbody>
+<tr><th scope="row">Acción de α diferido</th><td>Descripción</td><td>Δ que reduce</td><td>Costo estimado</td></tr>
+<tr><th scope="row">Retirar la denuncia y compensar los costos legales del antiguo gerente</th><td>Reconocimiento de que la imputación no tenía base causal suficiente. Cubre T_invertido del antiguo gerente.</td><td>−0.35 (FA3)</td><td>$0.8M- $1.2M MXN</td></tr>
+<tr><th scope="row">Clarificar públicamente el perfil de puesto del gerente de sucursal</th><td>Corrección del documento que generó la ambigüedad FA1.</td><td>−0.25 (FA1)</td><td>$0.1M- $0.3M MXN</td></tr>
+<tr><th scope="row">Establecer protocolos explícitos de acceso a expedientes</th><td>Remediación del diseño del sistema que generó FA2.</td><td>−0.20 (FA2)</td><td>$0.5M- $1.0M MXN</td></tr>
+<tr><th scope="row">Total de α diferido posible</th><td>Suma de las tres acciones</td><td>−0.80</td><td>$1.4M- $2.5M MXN</td></tr>
+</tbody>
+</table>
 
 −0.20 (FA2)
 
@@ -13739,48 +9958,16 @@ Toda institución bancaria de gran escala opera bajo una serie de compromisos fo
 
 #### 8.2 El comportamiento observable en el caso
 
-Divergencia IIC parcia l
-
-Valor declarado
-
-Comportamient o observable en el caso
-
-Integridad Diseñó un rol ambiguo y usó
-
-0.15
-
-Alta divergencia: el
-
-
-banca comercial
-
-esa ambigüedad para imputar al ex-empleado.
-
-diseño fue deliberado y la imputación lo usa como arma.
-
-Transparencia Negó inicialmente la existencia de un correo electrónico relevante ante la Fiscalía.
-
-0.05
-
-Muy alta divergencia: la negación de evidencia es la antítesis de la transparencia.
-
-0.12
-
-Respeto a empleados
-
-Esperó tres años para denunciar, maximizando la vulnerabilidad del ex-empleado.
-
-Alta divergencia: la dilación estratégica es lo opuesto al respeto.
-
-0.18
-
-Responsabilida d
-
-No actuó al conocer los hechos; no revisó protocolos; imputa al ex-empleado en lugar de corregir el diseño.
-
-Alta divergencia: la no-acción sobre el diseño es irresponsabilida d activa.
-
-IIC promedio Promedio ponderado de las cuatro dimensiones
+<table>
+<tbody>
+<tr><th scope="row">Valor declarado</th><td>Comportamient o observable en el caso</td><td>Divergencia</td><td>IIC parcia l</td></tr>
+<tr><th scope="row">Integridad</th><td>Diseñó un rol ambiguo y usó</td><td>Alta divergencia: el</td><td>0.15</td></tr>
+<tr><th scope="row">Transparencia</th><td>Negó inicialmente la existencia de un correo electrónico relevante ante la Fiscalía.</td><td>Muy alta divergencia: la negación de evidencia es la antítesis de la transparencia.</td><td>0.05</td></tr>
+<tr><th scope="row">Respeto a empleados</th><td>Esperó tres años para denunciar, maximizando la vulnerabilidad del ex-empleado.</td><td>Alta divergencia: la dilación estratégica es lo opuesto al respeto.</td><td>0.12</td></tr>
+<tr><th scope="row">Responsabilida d</th><td>No actuó al conocer los hechos; no revisó protocolos; imputa al ex- empleado en lugar de corregir el diseño.</td><td>Alta divergencia: la no-acción sobre el diseño es irresponsabilida d activa.</td><td>0.18</td></tr>
+<tr><th scope="row">IIC promedio</th><td>Promedio ponderado de las cuatro dimensiones</td><td>Disforia de identidad corporativa significativa</td><td>0.125</td></tr>
+</tbody>
+</table>
 
 0.125
 
@@ -13809,25 +9996,12 @@ banca comercial
 
 #### J = 1 − Σ|Δᵢ|
 
-Nodo R* α real
-
-Δ Estado de asunción
-
-45.1% 0.03 +0.421 Mayor nodo causal. Asumió el 3% de su R*. Diseñó el rol, la ambigüedad, la denuncia.
-
-N1 — Institución
-
-13.7% 0.08 +0.057 Tomaron las decisiones operativas. Asunción baja.
-
-N2 — Ger. superiores
-
-30.8% 0.05 +0.258 Ejecutaron el acceso. Alta S. Asunción mínima.
-
-N3 — Subordinadas
-
-10.4% 1.00 −0.896 CHIVO: asumió 96x su responsabilidad causal real. Δ profundamente negativo.
-
-N4 — Antiguo gerente
+| Nodo | R* | α real | Δ | Estado de asunción |
+| --- | --- | --- | --- | --- |
+| N1 — Institución | 45.1% | 0.03 | +0.421 | Mayor nodo causal. Asumió el 3% de su R*. Diseñó el rol, la ambigüedad, la denuncia. |
+| N2 — Ger. superiores | 13.7% | 0.08 | +0.057 | Tomaron las decisiones operativas. Asunción baja. |
+| N3 — Subordinadas | 30.8% | 0.05 | +0.258 | Ejecutaron el acceso. Alta S. Asunción mínima. |
+| N4 — Antiguo gerente | 10.4% | 1.00 | −0.896 | CHIVO: asumió 96x su responsabilidad causal real. Δ profundamente negativo. |
 
 #### J = 1 − (|+0.421| + |+0.057| + |+0.258| + |−0.896|)
 
@@ -13842,7 +10016,8 @@ banca comercial
 
 Caso Eje (banca comerc░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ░░░░░░░░    0% J = −0.632 ← peor distribución del libro Redlining EE.UU. ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ░░░░    4% J = 0.04 Bhopal 1984 ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ░░░░    8% J = 0.08 Triangle Shirtwaist █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ░░░░   12% J = 0.12 Challenger 1986 ████████████░░░░░░░░░░░░░░░░░░░░░░░░ ░░░░   30% J = 0.30 Crisis 2008 (Lehman) ████████████████████████░░░░░░░░░░░░ ░░░░   60% J = 0.60 Empresa sana (referenc███████████████████████████████ █████░░░░   90% J = 0.90
 
-Conclusión del Caso Eje:  El Caso Eje produce el Índice de Justicia Estructural más bajo de todo el libro. Eso no significa que sea el caso con el daño más grande (Bhopal, el redlining y la Primera Guerra Mundial producen D_vital muy superiores). Significa que la distribución de responsabilidad que el sistema legal produjo es la más alejada de la distribución causal real. El nodo de mayor R* asumió el 3% de su responsabilidad; el nodo de menor R* asumió el equivalente al 96x de la suya.
+> [!NOTE]
+> Conclusión del Caso Eje:  El Caso Eje produce el Índice de Justicia Estructural más bajo de todo el libro. Eso no significa que sea el caso con el daño más grande (Bhopal, el redlining y la Primera Guerra Mundial producen D_vital muy superiores). Significa que la distribución de responsabilidad que el sistema legal produjo es la más alejada de la distribución causal real. El nodo de mayor R* asumió el 3% de su responsabilidad; el nodo de menor R* asumió el equivalente al 96x de la suya.
 
 
 banca comercial
@@ -13859,7 +10034,8 @@ D_total_hecho1 = 0 → R*_N4 × D = 0
 
 D_total_hecho2 = 0 y w(N4→N6) = 0 → doble cero
 
-Conclusión del Caso Eje:  Cuando D = 0, cualquier distribución de R* produce ajuste debitor cero. El tipo penal sin daño acreditado es una estructura hueca: un árbol sin fruto al que la institución intentó colgar al antiguo gerente.
+> [!NOTE]
+> Conclusión del Caso Eje:  Cuando D = 0, cualquier distribución de R* produce ajuste debitor cero. El tipo penal sin daño acreditado es una estructura hueca: un árbol sin fruto al que la institución intentó colgar al antiguo gerente.
 
 #### 10.2 Segunda conclusión: el acta no es una admisión
 
@@ -13870,7 +10046,8 @@ banca comercial
 
 describen. Constituye evidencia de que estuvo presente cuando esas declaraciones fueron levantadas. Las subordinadas reconocen expresamente en la propia acta que no tienen documentación que respalde su dicho. Esa brecha —entre el dicho sin respaldo documental y el hecho digital documentado— es la brecha probatoria más importante del expediente.
 
-Diferencia probatoria fundamental:  El dicho de las subordinadas de que el gerente les instruyó (sin respaldo documental) es evidencia de la creencia de las subordinadas sobre quién les instruyó. No es evidencia de que el gerente instruyó. El registro digital de que las subordinadas accedieron al sistema sí es evidencia directa del acceso de las subordinadas. El sistema probatorio basado en dolo colapsa esa diferencia; el análisis causal la distingue con precisión.
+> [!NOTE]
+> Diferencia probatoria fundamental:  El dicho de las subordinadas de que el gerente les instruyó (sin respaldo documental) es evidencia de la creencia de las subordinadas sobre quién les instruyó. No es evidencia de que el gerente instruyó. El registro digital de que las subordinadas accedieron al sistema sí es evidencia directa del acceso de las subordinadas. El sistema probatorio basado en dolo colapsa esa diferencia; el análisis causal la distingue con precisión.
 
 #### 10.3 Tercera conclusión: la S alta del antiguo gerente es exculpatoria
 
@@ -13923,23 +10100,27 @@ banca comercial
 
 ### §11.  El dilema de Aquiles del antiguo gerente
 
+
 El Dilema de Aquiles, en el sistema ontológico de la colección, es la paradoja del sujeto que enfrenta dos umbrales θ simultáneamente: el umbral de la acción necesaria para su supervivencia (llevar el caso a sus consecuencias legales completas) y el umbral del costo que esa acción le exigiría (los recursos económicos, emocionales y temporales que el proceso demanda).
+
 
 #### El antiguo gerente vive ese dilema en t₂. Sus umbrales son:
 
-Umbral Descripción Condición actual
+<table>
+<tbody>
+<tr><th scope="row">Umbral</th><td>Descripción</td><td>Condición actual</td></tr>
+</tbody>
+</table>
 
-Llevar el proceso a sus consecuencias completas: impugnar el acta, solicitar la integración del correo omitido, cuestionar la ambigüedad del perfil de puesto, acreditar las funciones del cargo.
+> [!NOTE]
+> Llevar el proceso a sus consecuencias completas: impugnar el acta, solicitar la integración del correo omitido, cuestionar la ambigüedad del perfil de puesto, acreditar las funciones del cargo.
 
-Requiere recursos económicos significativos (abogado de calidad), tiempo, y la disposición emocional de revivir el proceso durante años. El Fobos + Deimos de t₂ conspiran contra θ₁.
-
-θ₁ — Defensa jurídica completa
-
-Menor costo inmediato pero produce Δ_B_institución más alto: la institución conserva su beneficio sin haber asumido su posición causal.
-
-La alternativa: aceptar una resolución que minimice el daño a corto plazo pero que no resuelve la injusticia de la imputación.
-
-θ₂ — Costo del proceso prolongado
+<table>
+<tbody>
+<tr><th scope="row">θ₁ — Defensa jurídica completa</th><td>Llevar el proceso a sus consecuencias completas: impugnar el acta, solicitar la integración del correo omitido, cuestionar la ambigüedad del perfil de puesto, acreditar las funciones del cargo.</td><td>Requiere recursos económicos significativos (abogado de calidad), tiempo, y la disposición emocional de revivir el proceso durante años. El Fobos t₂ + Deimos de θ₁. conspiran contra</td></tr>
+<tr><th scope="row">θ₂ — Costo del proceso prolongado</th><td>La alternativa: aceptar una resolución que minimice el daño a corto plazo pero que no resuelve la injusticia de la imputación.</td><td>Menor costo inmediato pero produce Δ_B_institución más alto: la institución conserva su beneficio sin haber asumido su posición causal.</td></tr>
+</tbody>
+</table>
 
 La resolución del dilema de Aquiles en este caso requiere que el antiguo gerente pueda actuar desde Anteros — desde la afirmación de que la distribución causal real es la que el análisis describe — con suficiente apoyo técnico para que
 
@@ -13955,56 +10136,24 @@ banca comercial
 
 #### 12.1 Panel de resultados del Caso Eje
 
-Indicador Institución Antiguo gerente
-
-R* en hecho 1 45.1% 10.4%
-
-S (fungibilidad) 0.28 (baja — idiosincrática)
-
-#### 0.90 (alta — sistémica)
-
-α real (asunción) 0.03 (3%) 1.00 (100% — CHIVO)
-
-Δ (déficit) +0.421 (no asumido) −0.896 (sobre-imputado)
-
-32.5% 1.04%
-
-R* neta (idiosincrática)
-
-B_total obtenido ~$10.1M MXN $0
-
-$0 (D_cliente = 0) $0 (D_cliente = 0)
-
-D_total causado (acreditado)
-
-$0 ~$10.1M MXN
-
-D_total recibido (proceso)
-
-Anteros (protección) Fobos + Deimos
-
-Hijos t₁ (dominante)
-
-Anteros (construcción narrativa)
-
-Fobos + Deimos + Potós
-
-Hijos t₂ (dominante)
-
-IIC 0.125 (disforia severa)
-
-N/A
-
-J (justicia estructural)
-
-−0.632 (más bajo del libro)
-
-
-banca comercial
-
-91% N/A
-
-P(colapso gobernanza 5a)
+<table>
+<tbody>
+<tr><th scope="row">Indicador</th><td>Institución</td><td>Antiguo gerente</td></tr>
+<tr><th scope="row">R* en hecho 1</th><td>45.1%</td><td>10.4%</td></tr>
+<tr><th scope="row">S (fungibilidad)</th><td>0.28 (baja — idiosincrática)</td><td>0.90 (alta — sistémica)</td></tr>
+<tr><th scope="row">α real (asunción)</th><td>0.03 (3%)</td><td>1.00 (100% — CHIVO)</td></tr>
+<tr><th scope="row">Δ (déficit)</th><td>+0.421 (no asumido)</td><td>−0.896 (sobre- imputado)</td></tr>
+<tr><th scope="row">R* neta (idiosincrática)</th><td>32.5%</td><td>1.04%</td></tr>
+<tr><th scope="row">B_total obtenido</th><td>~$10.1M MXN</td><td>$0</td></tr>
+<tr><th scope="row">D_total causado (acreditado)</th><td>$0 (D_cliente = 0)</td><td>$0 (D_cliente = 0)</td></tr>
+<tr><th scope="row">D_total recibido (proceso)</th><td>$0</td><td>~$10.1M MXN</td></tr>
+<tr><th scope="row">t₁ Hijos (dominante)</th><td>Anteros (protección)</td><td>Fobos + Deimos</td></tr>
+<tr><th scope="row">t₂ Hijos (dominante)</th><td>Anteros (construcción narrativa)</td><td>Fobos + Deimos + Potós</td></tr>
+<tr><th scope="row">IIC</th><td>0.125 (disforia severa)</td><td>N/A</td></tr>
+<tr><th scope="row">J (justicia estructural)</th><td>−0.632 (más bajo del libro)</td><td></td></tr>
+<tr><th scope="row">P(colapso gobernanza 5a)</th><td>91%</td><td>N/A</td></tr>
+</tbody>
+</table>
 
 #### Fin del Caso Eje — El cálculo de la responsabilidad
 
@@ -14033,30 +10182,22 @@ A lo largo del libro, el sistema de imputación causal produce resultados que so
 
 Precisamente por eso tiene valor para los accionistas: porque cuando una institución imputa la responsabilidad al nodo equivocado, son los accionistas quienes pagan el costo de ese error. No una vez. Dos veces.
 
-::: {.recuadro .tension-roja}
-**Tensión real:** La tensión que este apéndice nombra sin resolverla artificialmente: hay casos en el libro donde el análisis causal es genuinamente adverso para la empresa, y ese análisis es correcto. El argumento no es que el sistema protege a las empresas. El argumento es que las empresas que confunden la narrativa de culpabilidad con el análisis causal real actúan contra los intereses de sus propios accionistas, y el sistema permite verlo con precisión antes de que el daño ocurra por segunda vez.
-:::
+> [!NOTE]
+> **Tensión real:** La tensión que este apéndice nombra sin resolverla artificialmente: hay casos en el libro donde el análisis causal es genuinamente adverso para la empresa, y ese análisis es correcto. El argumento no es que el sistema protege a las empresas. El argumento es que las empresas que confunden la narrativa de culpabilidad con el análisis causal real actúan contra los intereses de sus propios accionistas, y el sistema permite verlo con precisión antes de que el daño ocurra por segunda vez.
+
 
 
 #### Argumento 1 — El costo del chivo expiatorio para el accionista
 
-Argumento 1 — Shareholder value Cuando una empresa procesa a un ejecutor de S alto mientras la estructura de R* alto permanece intacta, los accionistas absorben el costo del evento dos veces: una en el evento original, y otra cuando el mismo evento se repite con un ejecutor diferente.
+> [!NOTE]
+> Argumento 1 — Shareholder value Cuando una empresa procesa a un ejecutor de S alto mientras la estructura de R* alto permanece intacta, los accionistas absorben el costo del evento dos veces: una en el evento original, y otra cuando el mismo evento se repite con un ejecutor diferente.
 
 El chivo expiatorio corporativo —el nodo de baja responsabilidad causal que asume la culpa del evento— es una herramienta de gestión de narrativa de corto plazo que produce un costo de largo plazo calculable. Para entenderlo, es necesario separar dos procesos que las instituciones frecuentemente confunden:
 
-Proceso Pregunta que responde A quién protege
-
-Gestión de la narrativa
-
-"¿Quién tiene la culpa visible del evento?" Busca un nombre que satisfaga la demanda de responsabilidad de reguladores, prensa y accionistas.
-
-Protege a la dirección ejecutiva de las consecuencias de corto plazo.
-
-Análisis causal real
-
-"¿Qué nodo del sistema fue condición necesaria del evento, y con qué S?" Busca la intervención que reduce la probabilidad del próximo evento.
-
-Protege el capital de los accionistas a largo plazo.
+| Proceso | Pregunta que responde | A quién protege |
+| --- | --- | --- |
+| Gestión de la narrativa | "¿Quién tiene la culpa visible del evento?" Busca un nombre que satisfaga la demanda de responsabilidad de reguladores, prensa y accionistas. | Protege a la dirección ejecutiva de las consecuencias de corto plazo. |
+| Análisis causal real | "¿Qué nodo del sistema fue condición necesaria del evento, y con qué S?" Busca la intervención que reduce la probabilidad del próximo evento. | Protege el capital de los accionistas a largo plazo. |
 
 
 Cuando la gestión de la narrativa sustituye al análisis causal, el accionista sufre el equivalente financiero de tratar los síntomas sin diagnosticar la enfermedad. El síntoma desaparece temporalmente; la enfermedad progresa.
@@ -14075,42 +10216,15 @@ La probabilidad del próximo evento no disminuyó. La institución solo cambió 
 
 El costo acumulado de la estrategia del chivo expiatorio:
 
-Período Evento Costo pagado
-
-Quién paga
-
-Accionistas
-
-t₀ Evento original. La institución procesa al ejecutor A.
-
-D_evento + costos legales del proceso
-
-Accionistas
-
-No se reforma la estructura de R* alto. Solo se sustituye al ejecutor
-
-Costo de sustitución y onboarding
-
-t₀ + reforma 0
-
-
-A por el ejecutor B en la misma posición.
-
-El mismo evento se repite con el ejecutor B. La institución vuelve a procesar al ejecutor.
-
-D_evento × 2 + costos legales × 2
-
-Accionistas × 2
-
-t₁ (próximo ciclo)
-
-Costo de la reforma + D_evento_t₁
-
-Accionistas — solo una vez más
-
-t₁ + reforma real
-
-Si en t₁ se reforma la estructura (se actúa sobre el nodo de R* alto), la probabilidad del siguiente evento cae sustancialmente.
+<table>
+<tbody>
+<tr><th scope="row">Período</th><td>Evento</td><td>Costo pagado</td><td>Quién paga</td></tr>
+<tr><th scope="row">t₀</th><td>Evento original. La institución procesa al ejecutor A.</td><td>D_evento + costos legales del proceso</td><td>Accionistas</td></tr>
+<tr><th scope="row">t₀ + reforma 0</th><td>No se reforma la estructura de R* alto. Solo se sustituye al ejecutor</td><td>Costo de sustitución y onboarding</td><td>Accionistas</td></tr>
+<tr><th scope="row">t₁ (próximo ciclo)</th><td>El mismo evento se repite con el ejecutor B. La institución vuelve a procesar al ejecutor.</td><td>D_evento × 2 + costos legales × 2</td><td>Accionistas × 2</td></tr>
+<tr><th scope="row">t₁ + reforma real</th><td>t₁ Si en se reforma la estructura (se actúa sobre el nodo de R* alto), la probabilidad del siguiente evento cae sustancialmente.</td><td>Costo de la reforma + D_evento_t₁</td><td>Accionistas — solo una vez más</td></tr>
+</tbody>
+</table>
 
 La estrategia del chivo expiatorio es una apuesta implícita: que el próximo evento ocurrirá suficientemente tarde como para que el costo actualizado del doble evento sea menor que el costo político y reputacional de reconocer que el problema estaba en el diseño, no en el ejecutor. Esa apuesta tiene probabilidades razonables de ganarse en el corto plazo para la dirección ejecutiva, y probabilidades altas de perderse en el largo plazo para los accionistas.
 
@@ -14131,7 +10245,8 @@ S_reformado)
 
 Si la reforma actuó sobre el ejecutor de S = 0.85, ΔICRS ≈ −0.15 × (1−0.85) = −0.0225. Si actuó sobre el nodo de diseño de S = 0.28, ΔICRS ≈ −0.45 × (1−0.28) = −0.324. La diferencia es de 14x en la reducción del riesgo por unidad de reforma.
 
-La regla de los 14x:  Reformar el nodo de diseño de alto R* y baja S produce 14 veces más reducción del riesgo sistémico por unidad de esfuerzo que reformar el ejecutor de bajo R* y alta S. Esa es la aritmética que convierte al sistema de imputación causal en un instrumento de gestión de riesgos, no solo de asignación de responsabilidades.
+> [!NOTE]
+> La regla de los 14x:  Reformar el nodo de diseño de alto R* y baja S produce 14 veces más reducción del riesgo sistémico por unidad de esfuerzo que reformar el ejecutor de bajo R* y alta S. Esa es la aritmética que convierte al sistema de imputación causal en un instrumento de gestión de riesgos, no solo de asignación de responsabilidades.
 
 #### 1.3 La pregunta que el lector debería hacerse después de cada evento significativo
 
@@ -14144,7 +10259,8 @@ Si el lector no puede responder esas tres preguntas con datos, está tomando la 
 
 #### Argumento 2 — La reputación como función del IIC, no de la narrativa
 
-Argumento 2 — Reputación La reputación corporativa se daña más por el patrón visible —empresa que culpa a ex-empleados mientras el sistema que produjo el problema sigue operando— que por el reconocimiento honesto de los nodos de diseño y su corrección. El IIC de 0.125 del Caso Eje no es solo un número interno: es lo que los reguladores, los inversores y los periodistas de investigación verían si construyeran ese índice con información pública.
+> [!NOTE]
+> Argumento 2 — Reputación La reputación corporativa se daña más por el patrón visible —empresa que culpa a ex-empleados mientras el sistema que produjo el problema sigue operando— que por el reconocimiento honesto de los nodos de diseño y su corrección. El IIC de 0.125 del Caso Eje no es solo un número interno: es lo que los reguladores, los inversores y los periodistas de investigación verían si construyeran ese índice con información pública.
 
 El riesgo reputacional convencional se gestiona como un problema de comunicación: qué decir, cuándo decirlo, a quién. Esa gestión asume que la reputación es una función de la narrativa. El sistema de imputación causal sugiere algo diferente: la reputación es una función del IIC — del nivel de congruencia entre lo que la institución dice que hace y lo que efectivamente hace. Y el IIC es, en principio, calculable por terceros con información pública.
 
@@ -14164,36 +10280,15 @@ El Índice de Integridad Corporativa (IIC) mide la correlación entre los valore
 
 #### Lo que el IIC de 0.125 del Caso Eje comunica hacia afuera:
 
-Audiencia Señal que lee Consecuencia potencial
-
-Regulador (CNBV, CONDUSEF)
-
-La institución negoció inicialmente la existencia de un correo electrónico con la Fiscalía. El proceso de denuncia tiene dilación de tres años inexplicada.
-
-Mayor probabilidad de auditoría de conducta. Menor crédito de buena fe en futuros procesos regulatorios.
-
-Inversor institucional de largo plazo
-
-Una empresa que imputa responsabilidad a ex-empleados para evitar la remediación de su diseño tiene una estructura de gobierno
-
-Prima de riesgo adicional sobre el papel de deuda. Menor múltiplo en valoración. Preguntas
-
-
-corporativo que no protege el capital.
-
-en el próximo road show.
-
-Talento de alta calidad
-
-Esta empresa culpa a los empleados cuando algo sale mal y protege el sistema que lo produjo.
-
-Dificultad de retener y atraer exactamente el tipo de talento que señala problemas antes de que escalen. Selección adversa de talento dócil.
-
-El patrón narrativo del caso es la historia que los periodistas buscan: empresa que protege el sistema culpando al empleado.
-
-Periodista de investigación
-
-Dilación de tres años, correo omitido, perfil de puesto que contradice la imputación.
+<table>
+<tbody>
+<tr><th scope="row">Audiencia</th><td>Señal que lee</td><td>Consecuencia potencial</td></tr>
+<tr><th scope="row">Regulador (CNBV, CONDUSEF)</th><td>La institución negoció inicialmente la existencia de un correo electrónico con la Fiscalía. El proceso de denuncia tiene dilación de tres años inexplicada.</td><td>Mayor probabilidad de auditoría de conducta. Menor crédito de buena fe en futuros procesos regulatorios.</td></tr>
+<tr><th scope="row">Inversor institucional de largo plazo</th><td>Una empresa que imputa responsabilidad a ex-empleados para evitar la remediación de su diseño tiene una estructura de gobierno</td><td>Prima de riesgo adicional sobre el papel de deuda. Menor múltiplo en valoración. Preguntas</td></tr>
+<tr><th scope="row">Talento de alta calidad</th><td>Esta empresa culpa a los empleados cuando algo sale mal y protege el sistema que lo produjo.</td><td>Dificultad de retener y atraer exactamente el tipo de talento que señala problemas antes de que escalen. Selección adversa de talento dócil.</td></tr>
+<tr><th scope="row">Periodista de investigación</th><td>Dilación de tres años, correo omitido, perfil de puesto que contradice la imputación.</td><td>El patrón narrativo del caso es la historia que los periodistas buscan: empresa que protege el sistema culpando al empleado.</td></tr>
+</tbody>
+</table>
 
 #### 2.2 El patrón que los terceros ven, aunque la empresa no lo diga
 
@@ -14213,9 +10308,9 @@ empleado. El patrón temporal es observable en el expediente.
 
 Ninguno de esos tres elementos requiere acceso a información confidencial. Todos son observables por cualquier tercero que lea el expediente con la metodología del análisis causal. La narrativa institucional puede suprimir la cobertura inmediata; no puede eliminar el patrón de los archivos.
 
-::: {.recuadro .tension-roja}
-**Tensión real:** La tensión aquí es real: reconocer que el nodo de diseño tiene el mayor R* en el evento tiene costos de corto plazo (regulatorios, mediáticos, de gobierno corporativo). Pero el costo de no reconocerlo es la acumulación del patrón en el registro público, que erosiona el IIC de manera observable y creciente. La pregunta no es si la reputación se daña, sino en qué horizonte temporal y con qué profundidad.
-:::
+> [!NOTE]
+> **Tensión real:** La tensión aquí es real: reconocer que el nodo de diseño tiene el mayor R* en el evento tiene costos de corto plazo (regulatorios, mediáticos, de gobierno corporativo). Pero el costo de no reconocerlo es la acumulación del patrón en el registro público, que erosiona el IIC de manera observable y creciente. La pregunta no es si la reputación se daña, sino en qué horizonte temporal y con qué profundidad.
+
 
 #### 2.3 El reconocimiento honesto como estrategia de protección reputacional
 
@@ -14241,7 +10336,8 @@ ROI ≈ (9.8 / 1.95) − 1 ≈ 402% El reconocimiento temprano habría producido
 
 #### Argumento 3 — El ROI de la prevención: invertir donde R* × (1−S) es más alto
 
-Argumento 3 — ROI de la prevención R* × (1−S) identifica exactamente dónde invertir en prevención para obtener el mayor retorno. Un nodo de diseño con R* = 45% y S = 0.28 es el nodo donde una intervención preventiva de $1M evita eventos de $10M. Procesar al ejecutor de R* = 10% con S = 0.90 no reduce en nada la probabilidad del próximo evento.
+> [!NOTE]
+> Argumento 3 — ROI de la prevención R* × (1−S) identifica exactamente dónde invertir en prevención para obtener el mayor retorno. Un nodo de diseño con R* = 45% y S = 0.28 es el nodo donde una intervención preventiva de $1M evita eventos de $10M. Procesar al ejecutor de R* = 10% con S = 0.90 no reduce en nada la probabilidad del próximo evento.
 
 El análisis de R* × (1−S) produce, para cada nodo del grafo, un indicador de la eficiencia de la prevención: cuánto riesgo se elimina por unidad de inversión. Ese indicador es el instrumento más directamente accionable del sistema para los directores de riesgo, los consejos de administración y los equipos de gobierno corporativo.
 
@@ -14268,50 +10364,18 @@ La interpretación práctica: si un nodo tiene R* = 0.45, S = 0.28 y α actual =
 
 Aplicando la fórmula a los casos del libro, la tabla siguiente muestra el contraste entre el ROI de actuar sobre el nodo de diseño (alto R*, baja S) y el ROI de actuar sobre el ejecutor (bajo R*, alta S):
 
-Caso Nodo interveni do
-
-R* S ΔP prevenci ón
-
-ROI por $1M invertido
-
-26% 0.7 0 −7.8 pp Alto: ~$3B de D_total × 7.8% = $234M estimado
-
-Challeng er — actuar sobre el sistema de alianzas NASA
-
-N2 Proceso NASA
-
-22% 0.6 2 −8.4 pp Moderado : mismo D_total pero S más alta limita el efecto
-
-Challeng er — procesar a directivos MT
-
-N3 Directivo s MT
-
-32% 0.3 0 −22.4 pp Muy alto: ~$33B × 22.4% = $7.4B estimado
-
-Boeing 737MAX — reformar arquitect ura de
-
-N1 Boeing dirección
-
-
-presión comercial
-
-18% 0.8 2 −3.2 pp Muy bajo: mismo D_total pero S casi máxima
-
-Boeing 737MAX — procesar a los ingeniero s
-
-N3 Ingeniero s
-
-#### 0.2 8 −32.5 pp Muy alto: ROI estimado 825%
-
-Caso Eje — reformar diseño del rol
-
-N1 Institució n
-
-#### 45.1 %
-
-#### 0.9 0 −1.0 pp Negativo: D_cliente =0, costo del proceso es real
-
-Caso Eje — procesar al ex-gerente
+<table>
+<tbody>
+<tr><th scope="row">Caso</th><td>Nodo interveni do</td><td>R*</td><td>S</td><td>ΔP prevenci ón</td><td>ROI por $1M invertido</td></tr>
+<tr><th scope="row">Challeng er — actuar sobre el sistema de alianzas NASA</th><td>N2 Proceso NASA</td><td>26%</td><td>0.7 0</td><td>−7.8 pp</td><td>Alto: ~$3B de D_total × 7.8% = $234M estimado</td></tr>
+<tr><th scope="row">Challeng er — procesar a directivos MT</th><td>N3 Directivo s MT</td><td>22%</td><td>0.6 2</td><td>−8.4 pp</td><td>Moderado : mismo D_total pero S más alta limita el efecto</td></tr>
+<tr><th scope="row">Boeing 737MAX — reformar arquitect ura de</th><td>N1 Boeing dirección</td><td>32%</td><td>0.3 0</td><td>−22.4 pp</td><td>Muy alto: ~$33B × 22.4% = $7.4B estimado</td></tr>
+<tr><th scope="row">presión comercial</th><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><th scope="row">Boeing 737MAX — procesar a los ingeniero s</th><td>N3 Ingeniero s</td><td>18%</td><td>0.8 2</td><td>−3.2 pp</td><td>Muy bajo: mismo D_total pero S casi máxima</td></tr>
+<tr><th scope="row">Caso Eje — reformar diseño del rol</th><td>N1 Institució n</td><td>45.1 %</td><td>0.2 8</td><td>−32.5 pp</td><td>Muy alto: ROI estimado 825%</td></tr>
+<tr><th scope="row">Caso Eje — procesar al ex- gerente</th><td>N4 Ex- gerente</td><td>10.4 %</td><td>0.9 0</td><td>−1.0 pp</td><td>Negativo: D_cliente =0, costo del proceso es real</td></tr>
+</tbody>
+</table>
 
 N4 Ex-gerente
 
@@ -14338,30 +10402,23 @@ En la empresa mediana del Capítulo 9, el análisis de R* × (1−S) mostró que
 
 El análisis de ROI de prevención produce un conjunto específico de preguntas que el consejo de administración debería formular al equipo de dirección después de cualquier evento de daño significativo:
 
-Pregunta Por qué importa
-
-¿Cuál es el R* × (1−S) de cada nodo del grafo del evento?
+<table>
+<tbody>
+<tr><th scope="row">Pregunta</th><td>Por qué importa</td></tr>
+<tr><th scope="row">¿Cuál es el R* × (1−S) de cada nodo del grafo del evento?</th><td>Identifica dónde está la concentración idiosincrática del riesgo — el nodo cuya reforma</td></tr>
+</tbody>
+</table>
 
 Identifica dónde está la concentración idiosincrática del riesgo — el nodo cuya reforma
 
-
-produce la mayor reducción del riesgo de repetición.
-
-¿El nodo que estamos procesando tiene el mayor R* neto o el mayor S?
-
-Distingue entre procesar al responsable real (alto R* neto) y procesar al más visible (S alto, bajo R* neto). Solo el primero reduce el riesgo.
-
-¿Cuál es la P(próximo_evento) si procesamos al ejecutor pero no reformamos el nodo de diseño?
-
-Hace explícita la apuesta implícita en la estrategia del chivo expiatorio: cuánto riesgo residual queda después de la gestión de narrativa.
-
-¿Cuál es el ROI de actuar sobre el nodo de diseño vs. el ROI de procesar al ejecutor?
-
-Convierte la decisión en términos financieros que el consejo puede evaluar con los mismos criterios que cualquier inversión de capital.
-
-Conecta la decisión de gestión del evento con el riesgo reputacional de largo plazo que los inversores y reguladores observarán.
-
-¿Cómo cambia el IIC de la institución con cada una de esas opciones?
+<table>
+<tbody>
+<tr><th scope="row">¿El nodo que estamos procesando tiene el mayor R* neto o el mayor S?</th><td>Distingue entre procesar al responsable real (alto R* neto) y procesar al más visible (S alto, bajo R* neto). Solo el primero reduce el riesgo.</td></tr>
+<tr><th scope="row">¿Cuál es la P(próximo_evento) si procesamos al ejecutor pero no reformamos el nodo de diseño?</th><td>Hace explícita la apuesta implícita en la estrategia del chivo expiatorio: cuánto riesgo residual queda después de la gestión de narrativa.</td></tr>
+<tr><th scope="row">¿Cuál es el ROI de actuar sobre el nodo de diseño vs. el ROI de procesar al ejecutor?</th><td>Convierte la decisión en términos financieros que el consejo puede evaluar con los mismos criterios que cualquier inversión de capital.</td></tr>
+<tr><th scope="row">¿Cómo cambia el IIC de la institución con cada una de esas opciones?</th><td>Conecta la decisión de gestión del evento con el riesgo reputacional de largo plazo que los inversores y reguladores observarán.</td></tr>
+</tbody>
+</table>
 
 
 #### Síntesis: las tres preguntas que el sistema responde para la gestión empresarial
@@ -14370,30 +10427,26 @@ Los tres argumentos de este apéndice producen tres preguntas específicas que e
 
 Pregunta Cómo el sistema la responde
 
-1 ¿Dónde está el riesgo de repetición del evento?
-
-R* × (1−S) del nodo de diseño. Cuanto mayor el producto, mayor la probabilidad de repetición si no se actúa sobre ese nodo.
-
-2 ¿Qué daño reputacional de largo plazo estamos asumiendo al actuar sobre el ejecutor en lugar del diseño?
-
-IIC: la divergencia entre valores declarados y comportamiento observable es calculable por terceros. El patrón de la divergencia es el riesgo reputacional real.
-
-3 ¿Cuál es el ROI de las distintas opciones de intervención?
-
-R* × (1−S) × D_total_esperado / Costo_intervención. El ranking de esta fórmula identifica la intervención de mayor eficiencia preventiva por unidad de capital invertido.
+<table>
+<tbody>
+<tr><th scope="row">1</th><td>¿Dónde está el riesgo de repetición del evento?</td><td>R* × (1−S) del nodo de diseño. Cuanto mayor el producto, mayor la probabilidad de repetición si no se actúa sobre ese nodo.</td></tr>
+<tr><th scope="row">2</th><td>¿Qué daño reputacional de largo plazo estamos asumiendo al actuar sobre el ejecutor en lugar del diseño?</td><td>IIC: la divergencia entre valores declarados y comportamiento observable es calculable por terceros. El patrón de la divergencia es el riesgo reputacional real.</td></tr>
+<tr><th scope="row">3</th><td>¿Cuál es el ROI de las distintas opciones de intervención?</td><td>R* × (1−S) × D_total_esperado / Costo_intervención. El ranking de esta fórmula identifica la intervención de mayor eficiencia preventiva por unidad de capital invertido.</td></tr>
+</tbody>
+</table>
 
 Estas tres preguntas no son nuevas para los directores de riesgo: ya las hacen intuitivamente después de cualquier evento significativo. Lo que el sistema añade es la capacidad de responderlas con precisión cuantificada, con evidencia documentada, y con resultados que pueden ser debatidos, cuestionados y actualizados.
 
 
 Eso transforma la gestión del evento de un problema de percepción —qué narrativa construir— en un problema de ingeniería: qué nodo reformar, con qué costo, con qué retorno esperado. Los accionistas son los principales beneficiarios de esa transformación.
 
-::: {.recuadro .tension-roja}
-**Tensión real:** La tensión que este apéndice no resuelve: en el corto plazo, la gestión de la narrativa produce resultados visibles y la reforma del nodo de diseño produce costos visibles. El horizonte temporal del director de riesgos que quiere conservar su posición y el horizonte temporal del accionista de largo plazo no siempre coinciden. El sistema identifica el problema con precisión; la alineación de incentivos entre gestores y accionistas es un problema de gobierno corporativo separado, aunque relacionado.
-:::
+> [!NOTE]
+> **Tensión real:** La tensión que este apéndice no resuelve: en el corto plazo, la gestión de la narrativa produce resultados visibles y la reforma del nodo de diseño produce costos visibles. El horizonte temporal del director de riesgos que quiere conservar su posición y el horizonte temporal del accionista de largo plazo no siempre coinciden. El sistema identifica el problema con precisión; la alineación de incentivos entre gestores y accionistas es un problema de gobierno corporativo separado, aunque relacionado.
 
-::: {.recuadro .alcance-azul-gris}
-**Lo que el libro no promete:** Este apéndice no sugiere que el análisis causal elimina los conflictos de interés dentro de las instituciones ni que la racionalidad económica de largo plazo domina automáticamente sobre los incentivos de corto plazo de los gestores. Sugiere que el sistema produce la información necesaria para que el consejo de administración, los inversores activos y los reguladores puedan hacer las preguntas correctas con los instrumentos correctos. Lo que se haga con esa información depende del diseño de los mecanismos de gobierno — que es, en última instancia, el dominio del Capítulo 11.
-:::
+
+> [!NOTE]
+> **Lo que el libro no promete:** Este apéndice no sugiere que el análisis causal elimina los conflictos de interés dentro de las instituciones ni que la racionalidad económica de largo plazo domina automáticamente sobre los incentivos de corto plazo de los gestores. Sugiere que el sistema produce la información necesaria para que el consejo de administración, los inversores activos y los reguladores puedan hacer las preguntas correctas con los instrumentos correctos. Lo que se haga con esa información depende del diseño de los mecanismos de gobierno — que es, en última instancia, el dominio del Capítulo 11.
+
 
 
 # APÉNDICE B
@@ -14418,46 +10471,18 @@ Antes de asignar ningún número, es necesario determinar el tipo de relación c
 
 Tipo Descripción Ejemplo del libro
 
-Rango w habitual
+<table>
+<tbody>
+<tr><th scope="row">Tipo</th><td>Descripción</td><td>Ejemplo del libro</td><td>Rango w habitual</td></tr>
+<tr><th scope="row">Arista directa</th><td>A realizó la acción que produjo directamente el resultado en B.</td><td>O-ring → fallo del Challenger. Subordinadas → acceso al expediente.</td><td>0.65 – 0.95 según evidencia (E1- E2)</td></tr>
+<tr><th scope="row">Arista estructural</th><td>A creó las condiciones bajo las cuales B pudo causar el resultado. A no causó directamente sino que habilitó la causa.</td><td>UCC diseñó la tecnología → UCIL operó la planta. Institución diseñó el rol → subordinadas accedieron.</td><td>0.45 – 0.85 depende del grado de habilitación</td></tr>
+<tr><th scope="row">Arista de omisión</th><td>A tenía la capacidad de impedir el resultado y no lo hizo. La</td><td>Regulador no inspeccionó la planta de Bhopal. Gobierno indio</td><td>0.15 – 0.55 depende del deber y la capacidad</td></tr>
+<tr><th scope="row">Arista nula (w = 0)</th><td>A no tuvo posición causal en el resultado. La ausencia de arista es una afirmación positiva que requiere evidencia.</td><td>Ex-gerente → fraude en el Caso Eje (w = 0 porque la arista no está documentada).</td><td>0.00 acreditado positivamente</td></tr>
+</tbody>
+</table>
 
-Arista directa
-
-A realizó la acción que produjo directamente el resultado en B.
-
-O-ring → fallo del Challenger. Subordinadas → acceso al expediente.
-
-#### 0.65 – 0.95 según evidencia (E1-E2)
-
-Arista estructural
-
-A creó las condiciones bajo las cuales B pudo causar el resultado. A no causó directamente sino que habilitó la causa.
-
-UCC diseñó la tecnología → UCIL operó la planta. Institución diseñó el rol → subordinadas accedieron.
-
-#### 0.45 – 0.85 depende del grado de habilitación
-
-Arista de omisión
-
-A tenía la capacidad de impedir el resultado y no lo hizo. La
-
-Regulador no inspeccionó la planta de Bhopal. Gobierno indio
-
-#### 0.15 – 0.55 depende del deber y la capacidad
-
-
-inacción es causalmente relevante.
-
-no inspeccionó condiciones de seguridad.
-
-Arista nula (w = 0)
-
-A no tuvo posición causal en el resultado. La ausencia de arista es una afirmación positiva que requiere evidencia.
-
-Ex-gerente → fraude en el Caso Eje (w = 0 porque la arista no está documentada).
-
-#### 0.00 acreditado positivamente
-
-Regla de calibración:  La pregunta de dirección: "Si este nodo no hubiera existido o no hubiera actuado como actuó, ¿habría ocurrido el resultado con la misma probabilidad?" Si la respuesta es sí, la arista es nula. Si es no, la arista existe y su tipo determina el rango de su intensidad.
+> [!NOTE]
+> Regla de calibración:  La pregunta de dirección: "Si este nodo no hubiera existido o no hubiera actuado como actuó, ¿habría ocurrido el resultado con la misma probabilidad?" Si la respuesta es sí, la arista es nula. Si es no, la arista existe y su tipo determina el rango de su intensidad.
 
 #### 1.2 Paso 2: la intensidad de la arista
 
@@ -14465,86 +10490,54 @@ La intensidad w ∈ [0, 1] es una función de la fuerza de la evidencia que docu
 
 #### La escala de colores del apéndice usa el mismo código en todas las tablas:
 
-Nivel Descripción general
-
-Rango w
+<table>
+<tbody>
+<tr><th scope="row">Rango w</th><td>Nivel</td><td>Descripción general</td></tr>
+<tr><th scope="row">0.75 – 0.95</th><td>Muy alto</td><td>Evidencia documental directa o mecanismo técnico peritado. El resultado habría sido muy</td></tr>
+</tbody>
+</table>
 
 #### 0.75 – 0.95 Muy alto Evidencia documental directa o mecanismo técnico peritado. El resultado habría sido muy
 
-
-significativamente diferente sin este nodo.
-
-#### 0.55 – 0.74 Alto Testimonio convergente con corroboración documental, o correlación estadística fuerte controlada.
-
-#### 0.35 – 0.54 Moderado Inferencia razonada por posición estructural, o testimonio parcialmente corroborado.
-
-#### 0.15 – 0.34 Bajo Correlación sin mecanismo documentado, o testimonio único con contexto consistente.
-
-#### 0.05 – 0.14 Muy bajo Dicho único sin corroboración. El resultado puede calcularse pero debe presentarse como rango.
-
-#### 0.00 Nulo documentado
-
-Ausencia de arista acreditada positivamente. No es simplemente la ausencia de evidencia: es evidencia de la ausencia.
+<table>
+<tbody>
+<tr><th scope="row">0.55 – 0.74</th><td>Alto</td><td>Testimonio convergente con corroboración documental, o correlación estadística fuerte controlada.</td></tr>
+<tr><th scope="row">0.35 – 0.54</th><td>Moderado</td><td>Inferencia razonada por posición estructural, o testimonio parcialmente corroborado.</td></tr>
+<tr><th scope="row">0.15 – 0.34</th><td>Bajo</td><td>Correlación sin mecanismo documentado, o testimonio único con contexto consistente.</td></tr>
+<tr><th scope="row">0.05 – 0.14</th><td>Muy bajo</td><td>Dicho único sin corroboración. El resultado puede calcularse pero debe presentarse como rango.</td></tr>
+<tr><th scope="row">0.00</th><td>Nulo documentado</td><td>Ausencia de arista acreditada positivamente. No es simplemente la ausencia de evidencia: es evidencia de la ausencia.</td></tr>
+</tbody>
+</table>
 
 
 ### §2.  La tabla universal de tipos de evidencia con rangos
 
+
 Esta tabla es el instrumento central del apéndice. Define los nueve tipos de evidencia que el sistema reconoce, el rango de w que justifica cada uno, y el criterio concreto de uso. Los ejemplos son todos del libro.
 
-Certeza Criterio de uso y ejemplos del libro
-
-Tipo de evidencia
-
-Rango w
-
-0.75– 0.95 Alta Contrato que diseñó el estándar defectuoso. Correo que instruyó la acción. Registro digital de acceso. Acta de resolución de un consejo. Código de software auditado. Casos: UCC/UCIL (contratos de seguridad), Caso Eje (registro digital de las subordinadas).
-
-E1 — Documento directo que muestra la acción del nodo sobre el resultado
-
-0.70– 0.90 Alta Informe pericial que establece la cadena fallo → daño. Autopsia. Análisis de fallo de ingeniería. Estudio epidemiológico con modelo causal. Casos: O-ring del Challenger (NASA), dispersión del MIC en Bhopal.
-
-E2 — Mecanismo causal físico o técnico documentado pericialmente
-
-0.55– 0.75 Media-alta Varios testigos independientes coinciden y hay al menos un documento corroborante, aunque
-
-E3 — Testimonio múltiple convergente con respaldo
-
-
-documental parcial
-
-no capture la acción directa. Casos: directivos de Morton Thiokol que recuerdan la misma reunión con el mismo contenido.
-
-0.50– 0.70 Media R² > 0.60 en regresión controlada por las covariables principales. Casos: Informe Coleman (R*_entorno_familiar ≈ 52% a partir de regresión múltiple), Redlining (correlación entre mapas HOLC y tasas de denegación).
-
-E4 — Correlación estadística controlada (estudios longitudinales, regresión)
-
-E5 — Testimonio único con respaldo documental parcial
-
-0.35– 0.55 Media-baja
-
-Un solo testigo que describe la acción del nodo, con al menos un documento que es consistente, aunque no la pruebe directamente. Casos: testimonios internos sobre la cultura de VW antes del Dieselgate.
-
-E6 — Inferencia razonada por posición estructural del nodo
-
-0.25– 0.45 Baja-media
-
-El nodo tenía la posición, los recursos y los incentivos para la acción imputada, aunque no haya documentación directa. La acción es la más plausible dado el diseño del sistema. Casos: gobierno indio en Bhopal (incentivos a bajar costos sin documentación de instrucción directa).
+<table>
+<tbody>
+<tr><th scope="row">Tipo de evidencia</th><td>Rango w</td><td>Certeza</td><td>Criterio de uso y ejemplos del libro</td></tr>
+<tr><th scope="row">E1 — Documento directo que muestra la acción del nodo sobre el resultado</th><td>0.75– 0.95</td><td>Alta</td><td>Contrato que diseñó el estándar defectuoso. Correo que instruyó la acción. Registro digital de acceso. Acta de resolución de un consejo. Código de software auditado. Casos: UCC/UCIL (contratos de seguridad), Caso Eje (registro digital de las subordinadas).</td></tr>
+<tr><th scope="row">E2 — Mecanismo causal físico o técnico documentado pericialmente</th><td>0.70– 0.90</td><td>Alta</td><td>Informe pericial que establece la cadena fallo → daño. Autopsia. Análisis de fallo de ingeniería. Estudio epidemiológico con modelo causal. Casos: O-ring del Challenger (NASA), dispersión del MIC en Bhopal.</td></tr>
+<tr><th scope="row">E3 — Testimonio múltiple convergente con respaldo</th><td>0.55– 0.75</td><td>Media-alta</td><td>Varios testigos independientes coinciden y hay al menos un documento corroborante, aunque</td></tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr><th scope="row">documental parcial</th><td></td><td></td><td>no capture la acción directa. Casos: directivos de Morton Thiokol que recuerdan la misma reunión con el mismo contenido.</td></tr>
+<tr><th scope="row">E4 — Correlación estadística controlada (estudios longitudinales, regresión)</th><td>0.50– 0.70</td><td>Media</td><td>R² &gt; 0.60 en regresión controlada por las covariables principales. Casos: Informe Coleman (R*_entorno_familiar ≈ 52% a partir de regresión múltiple), Redlining (correlación entre mapas HOLC y tasas de denegación).</td></tr>
+<tr><th scope="row">E5 — Testimonio único con respaldo documental parcial</th><td>0.35– 0.55</td><td>Media- baja</td><td>Un solo testigo que describe la acción del nodo, con al menos un documento que es consistente, aunque no la pruebe directamente. Casos: testimonios internos sobre la cultura de VW antes del Dieselgate.</td></tr>
+<tr><th scope="row">E6 — Inferencia razonada por posición estructural del nodo</th><td>0.25– 0.45</td><td>Baja- media</td><td>El nodo tenía la posición, los recursos y los incentivos para la acción imputada, aunque no haya documentación directa. La acción es la más plausible dado el diseño del sistema. Casos: gobierno indio en Bhopal (incentivos a bajar costos sin documentación de instrucción directa).</td></tr>
+<tr><th scope="row">E7 — Correlación temporal o espacial sin mecanismo documentado</th><td>0.10– 0.30</td><td>Baja</td><td>Proximidad temporal o espacial entre la acción del nodo y el resultado, sin evidencia del mecanismo de transmisión. Casos: hecho 2 del Caso Eje (acceso al expediente + fraude dos días después, sin arista documentada). USAR CON NOTACIÓN EXPLÍCITA.</td></tr>
+<tr><th scope="row">E8 — Dicho único sin respaldo de ningún tipo</th><td>0.05– 0.15</td><td>Muy baja</td><td>Un solo testimonio sin ningún corroborante documental, físico ni estadístico. Casos: hecho 1 del Caso Eje (dicho de las subordinadas de que el gerente instruyó, sin respaldo). El sistema puede calcular R* con este peso pero el resultado debe presentarse como rango, no como valor puntual.</td></tr>
+<tr><th scope="row">E0 — Arista nula documentada (w = 0 explícito)</th><td>0.00</td><td>Acreditada</td><td>Se acredita positivamente que el nodo NO fue condición del resultado. El tipo de arista que el Caso Eje usa para la arista ex-gerente → fraude. Requiere evidencia de la ausencia: registros que muestren que la información no salió del sistema, que el nodo no tenía acceso, etc.</td></tr>
+</tbody>
+</table>
 
 
-0.10– 0.30 Baja Proximidad temporal o espacial entre la acción del nodo y el resultado, sin evidencia del mecanismo de transmisión. Casos: hecho 2 del Caso Eje (acceso al expediente + fraude dos días después, sin arista documentada). USAR CON NOTACIÓN EXPLÍCITA.
-
-E7 — Correlación temporal o espacial sin mecanismo documentado
-
-0.05– 0.15 Muy baja Un solo testimonio sin ningún corroborante documental, físico ni estadístico. Casos: hecho 1 del Caso Eje (dicho de las subordinadas de que el gerente instruyó, sin respaldo). El sistema puede calcular R* con este peso pero el resultado debe presentarse como rango, no como valor puntual.
-
-E8 — Dicho único sin respaldo de ningún tipo
-
-0.00 Acreditada Se acredita positivamente que el nodo NO fue condición del resultado. El tipo de arista que el Caso Eje usa para la arista ex-gerente → fraude. Requiere evidencia de la ausencia: registros que muestren que la información no salió del sistema, que el nodo no tenía acceso, etc.
-
-E0 — Arista nula documentada (w = 0 explícito)
-
-
-⚠ La asignación de w NO es un proceso subjetivo libre. Es una estimación fundamentada en el tipo de evidencia disponible, con el rango que ese tipo de evidencia justifica. Si el analista no puede identificar el tipo de evidencia que sustenta cada arista de su grafo, esa arista no debería estar en el grafo.
+> [!WARNING]
+> ⚠ La asignación de w NO es un proceso subjetivo libre. Es una estimación fundamentada en el tipo de evidencia disponible, con el rango que ese tipo de evidencia justifica. Si el analista no puede identificar el tipo de evidencia que sustenta cada arista de su grafo, esa arista no debería estar en el grafo.
 
 Cuando hay múltiples fuentes de distintos tipos:  Si para una misma arista hay tanto evidencia de tipo E1 (documento) como E3 (testimonio convergente), el w se asigna al tipo de mayor calidad (E1 en este caso). Si hay evidencia de tipos distintos que apuntan en direcciones opuestas (una fuente dice w alto, otra dice w bajo), se aplica el procedimiento del §4 de contradicción de fuentes.
 
@@ -14557,420 +10550,212 @@ Para cada dominio se presenta: (a) los nodos típicos del grafo, (b) el tipo de 
 
 #### 3.1 Derecho penal y civil (Capítulo 1)
 
-Arista típica Rango w
-
-Nota de calibración
-
-Tipo de evidencia
-
-0.75– 0.92 E1/E2 Requiere nexo causal documentado entre el acto del autor y el daño. La autoría material es el tipo de arista de mayor w del sistema penal.
-
-Autor material → resultado dañino
-
-0.60– 0.85 E1/E3 Comunicación de la instrucción (correo, grabación) → E1. Testimonio convergente de los receptores → E3.
-
-Autor intelectual → autor material
-
-0.50– 0.78 E2/E4 La arista estructural más importante del Cap.1. Ejemplo: el empleador que diseñó condiciones inseguras.
-
-Diseñador del sistema → autor material
-
-
-0.35– 0.65 E3/E5 Grado de participación documentado. La complicidad requiere evidencia del conocimiento previo del resultado probable.
-
-Cómplice → resultado
-
-0.25– 0.55 E5/E6 Más difícil de documentar. Requiere evidencia de la acción de ocultación, no solo de su resultado.
-
-Encubridor → ocultación del daño
-
-0.05– 0.20 E8 CASO EJE hecho 1. Usar siempre con notación explícita: "w asignado con evidencia E8 sujeta a verificación adicional".
-
-Dicho único sin respaldo → conducta
-
-#### 0.00 E0 w = 0 documentado. No existe ninguna evidencia del mecanismo de transmisión. Declaración explícita en el expediente.
-
-Arista ex-gerente → fraude (Caso Eje)
+<table>
+<tbody>
+<tr><th scope="row">Arista típica</th><td>Rango w</td><td>Tipo de evidencia</td><td>Nota de calibración</td></tr>
+<tr><th scope="row">Autor material → resultado dañino</th><td>0.75– 0.92</td><td>E1/E2</td><td>Requiere nexo causal documentado entre el acto del autor y el daño. La autoría material es el tipo de arista de mayor w del sistema penal.</td></tr>
+<tr><th scope="row">Autor intelectual → autor material</th><td>0.60– 0.85</td><td>E1/E3</td><td>Comunicación de la instrucción (correo, grabación) → E1. Testimonio convergente de los receptores → E3.</td></tr>
+<tr><th scope="row">Diseñador del sistema → autor material</th><td>0.50– 0.78</td><td>E2/E4</td><td>La arista estructural más importante del Cap.1. Ejemplo: el empleador que diseñó condiciones inseguras.</td></tr>
+<tr><th scope="row">Cómplice → resultado</th><td>0.35– 0.65</td><td>E3/E5</td><td>Grado de participación documentado. La complicidad requiere evidencia del conocimiento previo del resultado probable.</td></tr>
+<tr><th scope="row">Encubridor → ocultación del daño</th><td>0.25– 0.55</td><td>E5/E6</td><td>Más difícil de documentar. Requiere evidencia de la acción de ocultación, no solo de su resultado.</td></tr>
+<tr><th scope="row">Dicho único sin respaldo → conducta</th><td>0.05– 0.20</td><td>E8</td><td>CASO EJE hecho 1. Usar siempre con notación explícita: &quot;w asignado con evidencia E8 sujeta a verificación adicional&quot;.</td></tr>
+<tr><th scope="row">Arista ex- gerente → fraude (Caso Eje)</th><td>0.00</td><td>E0</td><td>w = 0 documentado. No existe ninguna evidencia del mecanismo de transmisión. Declaración explícita en el expediente.</td></tr>
+</tbody>
+</table>
 
 #### 3.2 PLD y compliance (Capítulo 2)
 
-Arista típica Rango w
+<table>
+<tbody>
+<tr><th scope="row">Arista típica</th><td>Rango w</td><td>Tipo de evidencia</td><td>Nota de calibración</td></tr>
+<tr><th scope="row">Operación inusual → registro REINTE</th><td>0.80– 0.95</td><td>E1</td><td>El registro transaccional es evidencia directa. La arista más sólida del dominio.</td></tr>
+<tr><th scope="row">APNFD → lavado consumado</th><td>0.55– 0.80</td><td>E2/E3</td><td>Requiere acreditar el conocimiento del destino probable de los fondos o activos.</td></tr>
+<tr><th scope="row">Institución sin controles → operación indebida</th><td>0.40– 0.65</td><td>E4/E6</td><td>La ausencia de controles se documenta con la brecha entre el programa de compliance declarado y el implementado.</td></tr>
+<tr><th scope="row">Beneficiario final → estructura</th><td>0.30– 0.60</td><td>E4/E6</td><td>Difícil de documentar cuando el beneficiario está detrás de capas corporativas. Se acredita por inferencia estructural.</td></tr>
+</tbody>
+</table>
 
-Nota de calibración
-
-Tipo de evidencia
-
-0.80– 0.95 E1 El registro transaccional es evidencia directa. La arista más sólida del dominio.
-
-Operación inusual → registro REINTE
-
-0.55– 0.80 E2/E3 Requiere acreditar el conocimiento del destino probable de los fondos o activos.
-
-APNFD → lavado consumado
-
-
-0.40– 0.65 E4/E6 La ausencia de controles se documenta con la brecha entre el programa de compliance declarado y el implementado.
-
-Institución sin controles → operación indebida
-
-0.30– 0.60 E4/E6 Difícil de documentar cuando el beneficiario está detrás de capas corporativas. Se acredita por inferencia estructural.
-
-Beneficiario final → estructura
 
 #### 3.3 Derecho internacional y análisis histórico (Capítulos 3 y 16)
 
-Arista típica Rango w
-
-Nota de calibración
-
-Tipo de evidencia
-
-0.55– 0.80 E1/E4 El documento existe (E1), pero el mecanismo causal entre el acto y la consecuencia histórica requiere evidencia estadística o comparativa (E4).
-
-Tratado/acto legislativo → consecuencia histórica
-
-0.35– 0.65 E4/E6 Análisis comparativo de casos análogos. Sistema de alianzas → WWI: w = 0.42 por comparación con crisis de 1905, 1908, 1911.
-
-Estructura sistémica → evento histórico
-
-0.05– 0.25 E6/E7 S histórica alta. El detonador tiene w bajo precisamente porque la S del sistema es alta. Princip → WWI: w = 0.15.
-
-Detonador individual → cascada
-
-
-0.20– 0.55 E1/E6 La continuidad jurídica del Estado es E1 (documentable). La proporción del daño heredado requiere análisis estructural (E6).
-
-Estado sucesor → deuda histórica
+<table>
+<tbody>
+<tr><th scope="row">Arista típica</th><td>Rango w</td><td>Tipo de evidencia</td><td>Nota de calibración</td></tr>
+<tr><th scope="row">Tratado/acto legislativo → consecuencia histórica</th><td>0.55– 0.80</td><td>E1/E4</td><td>El documento existe (E1), pero el mecanismo causal entre el acto y la consecuencia histórica requiere evidencia estadística o comparativa (E4).</td></tr>
+<tr><th scope="row">Estructura sistémica → evento histórico</th><td>0.35– 0.65</td><td>E4/E6</td><td>Análisis comparativo de casos análogos. Sistema de alianzas → WWI: w = 0.42 por comparación con crisis de 1905, 1908, 1911.</td></tr>
+<tr><th scope="row">Detonador individual → cascada</th><td>0.05– 0.25</td><td>E6/E7</td><td>S histórica alta. El detonador tiene w bajo precisamente porque la S del sistema es alta. Princip → WWI: w = 0.15.</td></tr>
+<tr><th scope="row">Estado sucesor → deuda histórica</th><td>0.20– 0.55</td><td>E1/E6</td><td>La continuidad jurídica del Estado es E1 (documentable). La proporción del daño heredado requiere análisis estructural (E6).</td></tr>
+</tbody>
+</table>
 
 #### 3.4 Epidemiología y salud pública (Capítulo 6)
 
-Arista típica Rango w
+<table>
+<tbody>
+<tr><th scope="row">Arista típica</th><td>Rango w</td><td>Tipo de evidencia</td><td>Nota de calibración</td></tr>
+<tr><th scope="row">Vector → infección en red de contactos</th><td>0.65– 0.90</td><td>E2/E4</td><td>Modelo de transmisión calibrado con datos de contacto. El número R₀ reproductivo informa directamente el w.</td></tr>
+<tr><th scope="row">Superpropagador → brote</th><td>0.55– 0.85</td><td>E2/E4</td><td>Contacto documentado + confirmación de cepa idéntica. El 20% de los individuos produce el 80% de las transmisiones en muchas enfermedades.</td></tr>
+<tr><th scope="row">Política sanitaria deficiente → exceso de mortalidad</th><td>0.40– 0.65</td><td>E4/E6</td><td>Estudio comparativo de mortalidad entre poblaciones con y sin la política. Diferencia normalizada por covariables.</td></tr>
+<tr><th scope="row">Factor ambiental → incidencia</th><td>0.35– 0.60</td><td>E4</td><td>Regresión controlada por factores confusos conocidos. La causalidad ambiental requiere dosimetría cuando es posible.</td></tr>
+</tbody>
+</table>
 
-Tipo de evidencia
-
-Nota de calibración
-
-0.65– 0.90 E2/E4 Modelo de transmisión calibrado con datos de contacto. El número reproductivo R₀ informa directamente el w.
-
-Vector → infección en red de contactos
-
-0.55– 0.85 E2/E4 Contacto documentado + confirmación de cepa idéntica. El 20% de los individuos produce el 80% de las transmisiones en muchas enfermedades.
-
-Superpropagador → brote
-
-0.40– 0.65 E4/E6 Estudio comparativo de mortalidad entre poblaciones con y sin la política. Diferencia normalizada por covariables.
-
-Política sanitaria deficiente → exceso de mortalidad
-
-
-0.35– 0.60 E4 Regresión controlada por factores confusos conocidos. La causalidad ambiental requiere dosimetría cuando es posible.
-
-Factor ambiental → incidencia
 
 #### 3.5 Ingeniería de sistemas y análisis de fallos (Capítulo 12)
 
-Arista típica Rango w
-
-Tipo de evidencia
-
-Nota de calibración
-
-0.80– 0.95 E1/E2 Informe pericial de ingeniería. El fallo del O-ring del Challenger: w = 0.88 (fallo documentado pericialmente con el análisis de Morton Thiokol).
-
-Componente físico → fallo técnico documentado
-
-0.65– 0.88 E1/E3 El memorándum de Boisjoly es E1. La decisión de lanzar contra el consejo técnico está documentada en las actas.
-
-Decisión directiva → ignorar advertencia técnica
-
-0.55– 0.78 E3/E6 Más difícil de documentar. Requiere testimonios sobre el ambiente de la reunión + la
-
-Presión comercial/institucional → decisión de lanzar
-
-
-estructura de incentivos de los directivos.
-
-0.60– 0.85 E1/E2 El diseño es un documento (E1). La causalidad entre diseño y fallo requiere análisis de ingeniería (E2).
-
-Diseño original defectuoso → fallo sistémico
-
-0.35– 0.60 E1/E6 Los documentos de aprobación son E1. Pero la arista entre aprobación y fallo requiere demostrar que el regulador tuvo acceso a la información técnica relevante.
-
-Regulador → aprobación del sistema defectuoso
+<table>
+<tbody>
+<tr><th scope="row">Arista típica</th><td>Rango w</td><td>Tipo de evidencia</td><td>Nota de calibración</td></tr>
+<tr><th scope="row">Componente físico → fallo técnico documentado</th><td>0.80– 0.95</td><td>E1/E2</td><td>Informe pericial de ingeniería. El fallo del O-ring del Challenger: w = 0.88 (fallo documentado pericialmente con el análisis de Morton Thiokol).</td></tr>
+<tr><th scope="row">Decisión directiva → ignorar advertencia técnica</th><td>0.65– 0.88</td><td>E1/E3</td><td>El memorándum de Boisjoly es E1. La decisión de lanzar contra el consejo técnico está documentada en las actas.</td></tr>
+<tr><th scope="row">Presión comercial/institucional → decisión de lanzar</th><td>0.55– 0.78</td><td>E3/E6</td><td>Más difícil de documentar. Requiere testimonios sobre el ambiente de la reunión + la</td></tr>
+<tr><th scope="row">Diseño original defectuoso → fallo sistémico</th><td>0.60– 0.85</td><td>E1/E2</td><td>El diseño es un documento (E1). La causalidad entre diseño y fallo requiere análisis de ingeniería (E2).</td></tr>
+<tr><th scope="row">Regulador → aprobación del sistema defectuoso</th><td>0.35– 0.60</td><td>E1/E6</td><td>Los documentos de aprobación son E1. Pero la arista entre aprobación y fallo requiere demostrar que el regulador tuvo acceso a la información técnica relevante.</td></tr>
+</tbody>
+</table>
 
 #### 3.6 Inteligencia artificial y algoritmos (Capítulo 13)
 
-Arista típica Rango w
-
-Nota de calibración
-
-Tipo de evidencia
-
-0.60– 0.88 E1/E4 El documento de especificación de la métrica es E1. La conexión entre esa métrica y el DI observado se demuestra con el análisis de sensibilidad del §6.2 del Cap. 13.
-
-Diseñador de la métrica → disparate impact
-
-
-0.50– 0.75 E4 Comparación del DI con dataset original vs. dataset debiased. La diferencia de DI es el w de la arista dataset.
-
-Dataset histórico sesgado → resultado del modelo
-
-0.05– 0.15 E4 S del modelo ≈ 1.0. El w de la arista modelo es bajo precisamente porque cualquier modelo competente habría aprendido el mismo patrón. COMPAS: w(modelo→sesgo) = 0.08.
-
-Modelo (algoritmo) → resultado sesgado
-
-0.25– 0.55 E1/E6 La decisión de desplegar es documentable (E1). El grado de conocimiento previo del sesgo (α del desplegador) modifica el w.
-
-Desplegador → daño de las decisiones
+<table>
+<tbody>
+<tr><th scope="row">Arista típica</th><td>Rango w</td><td>Tipo de evidencia</td><td>Nota de calibración</td></tr>
+<tr><th scope="row">Diseñador de la métrica → disparate impact</th><td>0.60– 0.88</td><td>E1/E4</td><td>El documento de especificación de la métrica es E1. La conexión entre esa métrica y el DI observado se demuestra con el análisis de sensibilidad del §6.2 del Cap. 13.</td></tr>
+<tr><th scope="row">Dataset histórico sesgado → resultado del modelo</th><td>0.50– 0.75</td><td>E4</td><td>Comparación del DI con dataset original vs. dataset debiased. La diferencia de DI es el w de la arista dataset.</td></tr>
+<tr><th scope="row">Modelo (algoritmo) → resultado sesgado</th><td>0.05– 0.15</td><td>E4</td><td>S del modelo ≈ 1.0. El w de la arista modelo es bajo precisamente porque cualquier modelo competente habría aprendido el mismo patrón. COMPAS: w(modelo→sesgo) = 0.08.</td></tr>
+<tr><th scope="row">Desplegador → daño de las decisiones</th><td>0.25– 0.55</td><td>E1/E6</td><td>La decisión de desplegar es documentable (E1). El grado de conocimiento previo del sesgo (α del desplegador) modifica el w.</td></tr>
+</tbody>
+</table>
 
 #### 3.7 Medio ambiente y ecología (Capítulo 14)
 
-Arista típica Rango w
-
-Tipo de evidenci a
-
-Nota de calibración
-
-0.70– 0.92 E1/E2 Registros de producción + análisis ambiental pericial. La cantidad de contaminante emitida es en principio medible.
-
-Operador directo → emisión documentada
-
-0.45– 0.78 E1/E6 Los documentos de aprobación
-
-Casa matriz → estándares deficientes → daño
-
-
-de estándares son E1 (arista casa matriz → estándares). La arista estándares → daño es E2 pericial.
-
-E2/E4 USAR SHAPLEY. La función v(S) se estima con datos periciales de superposición de contaminació n. Chevron-Ecuador: φ_Texaco = 0.237 × D_total.
-
-Causalidad acumulativa (múltiples actores)
-
-Shaple
-
-#### y
-
-0.05– 0.25 E2 S muy alta. El factor es exógeno y no controlable. Se incluye en el grafo para completitud pero no produce AD.
-
-Factor meteorológico/geográfic o → amplificación
+<table>
+<tbody>
+<tr><th scope="row">Arista típica</th><td>Rango w</td><td>Tipo de evidenci a</td><td>Nota de calibración</td></tr>
+<tr><th scope="row">Operador directo → emisión documentada</th><td>0.70– 0.92</td><td>E1/E2</td><td>Registros de producción + análisis ambiental pericial. La cantidad de contaminante emitida es en principio medible.</td></tr>
+<tr><th scope="row">Casa matriz → estándares deficientes → daño</th><td>0.45– 0.78</td><td>E1/E6</td><td>Los documentos de aprobación</td></tr>
+<tr><th scope="row">Causalidad acumulativa (múltiples actores)</th><td>Shaple y</td><td>E2/E4</td><td>USAR SHAPLEY. La función v(S) se estima con datos periciales de superposición de contaminació n. Chevron- Ecuador: φ_Texaco = 0.237 × D_total.</td></tr>
+<tr><th scope="row">Factor meteorológico/geográfic o → amplificación</th><td>0.05– 0.25</td><td>E2</td><td>S muy alta. El factor es exógeno y no controlable. Se incluye en el grafo para completitud pero no produce AD.</td></tr>
+</tbody>
+</table>
 
 #### 3.8 Gobierno corporativo y ego colectivo (Capítulo 11)
 
-Arista típica Rango w
+<table>
+<tbody>
+<tr><th scope="row">Arista típica</th><td>Rango w</td><td>Tipo de evidencia</td><td>Nota de calibración</td></tr>
+<tr><th scope="row">CEO/directivo → decisión con</th><td>0.72– 0.92</td><td>E1/E3</td><td>Actas del consejo (E1). Correos internos</td></tr>
+<tr><th scope="row">impacto documentado</th><td></td><td></td><td>(E1). En ausencia: testimonios convergentes de participantes en la reunión (E3).</td></tr>
+<tr><th scope="row">Diseño del sistema de incentivos → cultura → daño</th><td>0.50– 0.78</td><td>E1/E4</td><td>Los documentos de compensación son E1. La arista cultura → daño requiere análisis longitudinal de comportamiento (E4).</td></tr>
+<tr><th scope="row">Consejo de administración → omisión de supervisión</th><td>0.25– 0.55</td><td>E1/E6</td><td>Lo que el consejo NO hizo es más difícil de documentar. Se calibra por el deber fiduciario documentado y la evidencia de que la información estaba disponible.</td></tr>
+<tr><th scope="row">IIC bajo → probabilidad de colapso</th><td>0.40– 0.70</td><td>E4</td><td>El IIC se calcula con datos públicos. La arista IIC → colapso es estadística, calibrada con el predictor logístico del Cap. 11.</td></tr>
+</tbody>
+</table>
 
-Nota de calibración
-
-Tipo de evidencia
-
-0.72– 0.92 E1/E3 Actas del consejo (E1). Correos internos
-
-CEO/directivo → decisión con
-
-
-impacto documentado
-
-(E1). En ausencia: testimonios convergentes de participantes en la reunión (E3).
-
-0.50– 0.78 E1/E4 Los documentos de compensación son E1. La arista cultura → daño requiere análisis longitudinal de comportamiento (E4).
-
-Diseño del sistema de incentivos → cultura → daño
-
-0.25– 0.55 E1/E6 Lo que el consejo NO hizo es más difícil de documentar. Se calibra por el deber fiduciario documentado y la evidencia de que la información estaba disponible.
-
-Consejo de administración → omisión de supervisión
-
-0.40– 0.70 E4 El IIC se calcula con datos públicos. La arista IIC → colapso es estadística, calibrada con el predictor logístico del Cap. 11.
-
-IIC bajo → probabilidad de colapso
 
 #### 3.9 Quiebra y riesgo sistémico (Capítulo 9)
 
-Arista típica Rango w
-
-Nota de calibración
-
-Tipo de evidencia
-
-0.65– 0.88 E1/E4 Estados financieros auditados (E1). La relación ICRS→P(quiebra) es el modelo predictor calibrado del Cap. 9.
-
-Concentración de riesgo (ICRS) → probabilidad de quiebra
-
-0.55– 0.80 E1/E4 Contratos documentados (E1).
-
-Proveedor único/cliente
-
-
-concentrado → fragilidad
-
-El análisis de sensibilidad de los flujos (E4) mide la arista.
-
-0.50– 0.75 E4 El w del contagio sistémico se estima con modelos de correlación de activos y análisis de red del sistema financiero.
-
-Fallo de una institución sistémica → contagio
+<table>
+<tbody>
+<tr><th scope="row">Arista típica</th><td>Rango w</td><td>Tipo de evidencia</td><td>Nota de calibración</td></tr>
+<tr><th scope="row">Concentración de riesgo (ICRS) → probabilidad de quiebra</th><td>0.65– 0.88</td><td>E1/E4</td><td>Estados financieros auditados (E1). La relación ICRS→P(quiebra) es el modelo predictor calibrado del Cap. 9.</td></tr>
+<tr><th scope="row">Proveedor único/cliente</th><td>0.55– 0.80</td><td>E1/E4</td><td>Contratos documentados (E1).</td></tr>
+<tr><th scope="row">concentrado → fragilidad</th><td></td><td></td><td>El análisis de sensibilidad de los flujos (E4) mide la arista.</td></tr>
+<tr><th scope="row">Fallo de una institución sistémica → contagio</th><td>0.50– 0.75</td><td>E4</td><td>El w del contagio sistémico se estima con modelos de correlación de activos y análisis de red del sistema financiero.</td></tr>
+</tbody>
+</table>
 
 #### 3.10 Score crediticio y discriminación sistémica (Capítulo 8)
 
-Arista típica Rango w
-
-Nota de calibración
-
-Tipo de evidencia
-
-0.70– 0.90 E1/E4 Los documentos de política de HOLC/FHA son E1. La correlación entre mapas y datos de denegación es E4. Redlining: w = 0.82.
-
-Política institucional discriminatoria → dataset sesgado
-
-0.60– 0.82 E4 DI antes vs. después del control por el dataset. La arista se mide con la diferencia de DI entre modelo con dataset original y con dataset debiased.
-
-Dataset sesgado → score discriminatorio
-
-0.40– 0.65 E3/E6 La evidencia de que el directivo conocía el sesgo es clave. Con conocimiento confirmado: E3/E1 → rango superior. Sin él: E6 → rango inferior.
-
-Directivo que perpetuó el sesgo → daño continuado
-
+<table>
+<tbody>
+<tr><th scope="row">Arista típica</th><td>Rango w</td><td>Tipo de evidencia</td><td>Nota de calibración</td></tr>
+<tr><th scope="row">Política institucional discriminatoria → dataset sesgado</th><td>0.70– 0.90</td><td>E1/E4</td><td>Los documentos de política de HOLC/FHA son E1. La correlación entre mapas y datos de denegación es E4. Redlining: w = 0.82.</td></tr>
+<tr><th scope="row">Dataset sesgado → score discriminatorio</th><td>0.60– 0.82</td><td>E4</td><td>DI antes vs. después del control por el dataset. La arista se mide con la diferencia de DI entre modelo con dataset original y con dataset debiased.</td></tr>
+<tr><th scope="row">Directivo que perpetuó el sesgo → daño continuado</th><td>0.40– 0.65</td><td>E3/E6</td><td>La evidencia de que el directivo conocía el sesgo es clave. Con conocimiento confirmado: E3/E1 → rango superior. Sin él: E6 → rango inferior.</td></tr>
+</tbody>
+</table>
 
 #### 3.11 Seguros y actuaría (Capítulo 10)
 
-Arista típica Rango w
-
-Nota de calibración
-
-Tipo de evidencia
-
-0.65– 0.88 E1/E2 La arista estructural más importante del dominio. Los estándares documentados del lugar de trabajo son E1. El nexo con el siniestro es E2 pericial.
-
-Empleador → condición de riesgo → siniestro
-
-0.55– 0.78 E1 El contrato es un documento (E1). El análisis actuarial del sesgo entre riesgo real y cobertura provista es E4.
-
-Diseño del contrato → exclusión injustificada del riesgo
-
-0.15– 0.45 E2/E4 La contribución causal del asegurado al siniestro es la PAC (Prima Actuarial Justa). S alta del asegurado → w bajo.
-
-Asegurado → riesgo propio (contribución causal)
+<table>
+<tbody>
+<tr><th scope="row">Arista típica</th><td>Rango w</td><td>Tipo de evidencia</td><td>Nota de calibración</td></tr>
+<tr><th scope="row">Empleador → condición de riesgo → siniestro</th><td>0.65– 0.88</td><td>E1/E2</td><td>La arista estructural más importante del dominio. Los estándares documentados del lugar de trabajo son E1. El nexo con el siniestro es E2 pericial.</td></tr>
+<tr><th scope="row">Diseño del contrato → exclusión injustificada del riesgo</th><td>0.55– 0.78</td><td>E1</td><td>El contrato es un documento (E1). El análisis actuarial del sesgo entre riesgo real y cobertura provista es E4.</td></tr>
+<tr><th scope="row">Asegurado → riesgo propio (contribución causal)</th><td>0.15– 0.45</td><td>E2/E4</td><td>La contribución causal del asegurado al siniestro es la PAC (Prima Actuarial Justa). S alta del asegurado → w bajo.</td></tr>
+</tbody>
+</table>
 
 #### 3.12 Educación y evaluación docente (Capítulo 15)
 
-Arista típica Rango w
-
-Nota de calibración
-
-Tipo de evidencia
-
-0.65– 0.85 E4 Datos longitudinales controlados por covariables. El Informe Coleman produce w =
-
-Entorno familiar → resultado educativo
-
+<table>
+<tbody>
+<tr><th scope="row">Arista típica</th><td>Rango w</td><td>Tipo de evidencia</td><td>Nota de calibración</td></tr>
+<tr><th scope="row">Entorno familiar → resultado educativo</th><td>0.65– 0.85</td><td>E4</td><td>Datos longitudinales controlados por covariables. El Informe Coleman produce w =</td></tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr><th scope="row">Docente → resultado educativo (efecto VAM)</th><td>0.20– 0.40</td><td>E4</td><td>Valor agregado docente calibrado por entorno. El rango es intencionalmente modesto: refleja que R*_docente ≈ 10-15% según la evidencia acumulada desde Coleman.</td></tr>
+</tbody>
+</table>
 
 #### 0.72 con R² > 0.65 en regresión múltiple.
 
-0.20– 0.40 E4 Valor agregado docente calibrado por entorno. El rango es intencionalmente modesto: refleja que R*_docente ≈ 10-15% según la evidencia acumulada desde Coleman.
-
-Docente → resultado educativo (efecto VAM)
-
-0.15– 0.35 E4 El efecto de la escuela como institución (sin el docente individual) es pequeño según la evidencia. La excepción: liderazgo directivo de alta calidad puede alcanzar w = 0.45.
-
-Escuela como institución → resultado
-
-0.10– 0.30 E4/E6 Efecto difuso y de largo plazo. Se estima con estudios de reforma educativa natural (variaciones exógenas en la política).
-
-Política educativa → estructura del sistema → resultado
+<table>
+<tbody>
+<tr><th scope="row">Escuela como institución → resultado</th><td>0.15– 0.35</td><td>E4</td><td>El efecto de la escuela como institución (sin el docente individual) es pequeño según la evidencia. La excepción: liderazgo directivo de alta calidad puede alcanzar w = 0.45.</td></tr>
+<tr><th scope="row">Política educativa → estructura del sistema → resultado</th><td>0.10– 0.30</td><td>E4/E6</td><td>Efecto difuso y de largo plazo. Se estima con estudios de reforma educativa natural (variaciones exógenas en la política).</td></tr>
+</tbody>
+</table>
 
 #### 3.13 Deportes y valor de contribución (Capítulo 17)
 
-Arista típica Rango w
+<table>
+<tbody>
+<tr><th scope="row">Arista típica</th><td>Rango w</td><td>Tipo de evidencia</td><td>Nota de calibración</td></tr>
+<tr><th scope="row">Jugador estrella → resultado (R*_B)</th><td>0.35– 0.65</td><td>E4</td><td>El rango moderado refleja que, en equipos de calidad, la S del jugador estrella es moderada (Brasil ganó sin Pelé en 1962). El w se calibra con la diferencia de P(victoria)</td></tr>
+<tr><th scope="row">Sistema táctico → resultado del equipo</th><td>0.30– 0.55</td><td>E4</td><td>Análisis de rendimiento bajo distintas formaciones. El efecto del sistema es real pero requiere varios partidos para estimarse con precisión.</td></tr>
+<tr><th scope="row">Entrenador → resultado del equipo</th><td>0.25– 0.50</td><td>E4</td><td>Comparación de rendimiento antes/después del cambio de entrenador con calidad del rival controlada.</td></tr>
+<tr><th scope="row">Factor azar (fútbol)</th><td>0.10– 0.25</td><td>Residual</td><td>El residual no explicado por los otros nodos. En fútbol es mayor que en baloncesto o béisbol por la menor densidad de scoring.</td></tr>
+</tbody>
+</table>
 
-Nota de calibración
-
-Tipo de evidencia
-
-0.35– 0.65 E4 El rango moderado refleja que, en equipos de calidad, la S del jugador estrella es moderada (Brasil ganó sin Pelé en 1962). El w se calibra con la diferencia de P(victoria)
-
-Jugador estrella → resultado (R*_B)
-
-
-en períodos de ausencia documentada.
-
-0.30– 0.55 E4 Análisis de rendimiento bajo distintas formaciones. El efecto del sistema es real pero requiere varios partidos para estimarse con precisión.
-
-Sistema táctico → resultado del equipo
-
-0.25– 0.50 E4 Comparación de rendimiento antes/después del cambio de entrenador con calidad del rival controlada.
-
-Entrenador → resultado del equipo
-
-0.10– 0.25 Residual El residual no explicado por los otros nodos. En fútbol es mayor que en baloncesto o béisbol por la menor densidad de scoring.
-
-Factor azar (fútbol)
 
 #### 3.14 Literatura y análisis narrativo (Capítulo 18)
 
-Tipo de evidencia Nota de calibración
-
-Arista típica
-
-Rango w
-
-0.55– 0.85 Textual El análisis textual de la causalidad narrativa es el equivalente literario de la evidencia documental. La pregunta: "¿Sin este personaje/decisión, el evento habría ocurrido en el mundo del relato?"
-
-Nodo narrativo de diseño → evento central
-
-
-Tywin → Boda Roja: w = 0.78.
-
-0.30– 0.55 Textual Walder Frey → Boda Roja: w = 0.55. La ejecución es visible pero la S del ejecutor es moderada: otro señor con los mismos agravios habría podido actuar igual bajo las mismas condiciones.
-
-Personaje ejecutor (visible) → evento
-
-N/A Análisis de hijos Los hijos no son aristas del grafo: son el análisis de la disposición de voluntad del personaje en cada nodo de decisión. Se aplica el módulo 4 del Apéndice B.
-
-Hijos del personaje → decisión en el relato
-
-0.60– 0.90 Textual/intertextual El w del autor como nodo de segundo nivel refleja qué tan idiosincrático era el diseño: Dostoievski diseñó el arco Anteros→Harmonía con S baja (pocos autores habrían construido ese arco específico con esa precisión).
-
-Autor como meta-nodo → diseño del arco
+<table>
+<tbody>
+<tr><th scope="row">Arista típica</th><td>Rango w</td><td>Tipo de evidencia</td><td>Nota de calibración</td></tr>
+<tr><th scope="row">Nodo narrativo de diseño → evento central</th><td>0.55– 0.85</td><td>Textual</td><td>El análisis textual de la causalidad narrativa es el equivalente literario de la evidencia documental. La pregunta: &quot;¿Sin este personaje/decisión, el evento habría ocurrido en el mundo del relato?&quot;</td></tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr><th scope="row">Personaje ejecutor (visible) → evento</th><td>0.30– 0.55</td><td>Textual</td><td>Walder Frey → Boda Roja: w = 0.55. La ejecución es visible pero la S del ejecutor es moderada: otro señor con los mismos agravios habría podido actuar igual bajo las mismas condiciones.</td></tr>
+<tr><th scope="row">Hijos del personaje → decisión en el relato</th><td>N/A</td><td>Análisis de hijos</td><td>Los hijos no son aristas del grafo: son el análisis de la disposición de voluntad del personaje en cada nodo de decisión. Se aplica el módulo 4 del Apéndice B.</td></tr>
+<tr><th scope="row">Autor como meta- nodo → diseño del arco</th><td>0.60– 0.90</td><td>Textual/intertextual</td><td>El w del autor como nodo de segundo nivel refleja qué tan idiosincrático era el diseño: Dostoievski diseñó el arco Anteros→Harmonía con S baja (pocos autores habrían construido ese arco específico con esa precisión).</td></tr>
+</tbody>
+</table>
 
 
 ### §4.  Calibración cuando hay contradicción entre fuentes
 
 La situación más frecuente en los casos reales no es la ausencia de evidencia sino la contradicción entre fuentes: un documento apunta a w alto y un testimonio apunta a w bajo, o dos estudios estadísticos producen estimaciones distintas. El sistema tiene un procedimiento estándar para ese caso.
 
+
 #### 4.1 El principio de la evidencia de mayor calidad
 
-Cuando hay contradicción entre fuentes de distinto tipo, el w se asigna según la fuente de mayor tipo (menor número en la escala E0-E8), no según el promedio. La razón es que las evidencias de menor calidad son fuentes de ruido, no de información adicional que promedia con la de mayor calidad.
-
-Situación Procedimiento Ejemplo del libro
-
-E1 contradice E3 (documento vs. testimonio)
-
-Usar E1. Documentar la contradicción y su resolución.
-
-Caso Eje: el registro digital (E1) muestra que las subordinadas accedieron al expediente. El dicho de que el gerente instruyó (E8) no contradice E1 sino que lo complementa con una afirmación adicional no acreditada.
-
-E4 contradice E4 (dos
-
-Usar el estudio de mayor calidad metodológica. Si
-
-Informe Coleman: varias réplicas producen R*_entorno entre 40% y
-
-
-estudios estadísticos)
-
-son comparables, presentar el rango.
-
-55%. El análisis usa el rango con el valor central de 52% del estudio original.
-
-E3 contradice E3 (testimonios convergentes que se contradicen)
-
-Reducir el w al rango E5-E6 y documentar la inconsistencia.
-
-Testigos de la reunión de Morton Thiokol que recuerdan el contenido de manera distinta. El w de esa arista cae al rango E5 y se presenta como rango, no como valor puntual.
-
-Caso Eje hecho 2: el registro digital muestra que la información no salió del sistema (E1 → w = 0). La proximidad temporal de dos días (E7) no revierte la arista nula.
-
-E1 apunta a w = 0 pero E6 apunta a w positivo
-
-Documentar la arista nula explícitamente y señalar que E6 es insuficiente para revertirla.
+<table>
+<tbody>
+<tr><th scope="row">Situación</th><td>Procedimiento</td><td>Ejemplo del libro</td></tr>
+<tr><th scope="row">E1 contradice E3 (documento vs. testimonio)</th><td>Usar E1. Documentar la contradicción y su resolución.</td><td>Caso Eje: el registro digital (E1) muestra que las subordinadas accedieron al expediente. El dicho de que el gerente instruyó (E8) no contradice E1 sino que lo complementa con una afirmación adicional no acreditada.</td></tr>
+<tr><th scope="row">E4 contradice E4 (dos</th><td>Usar el estudio de mayor calidad metodológica. Si</td><td>Informe Coleman: varias réplicas producen R*_entorno entre 40% y</td></tr>
+<tr><th scope="row">estudios estadísticos)</th><td>son comparables, presentar el rango.</td><td>55%. El análisis usa el rango con el valor central de 52% del estudio original.</td></tr>
+<tr><th scope="row">E3 contradice E3 (testimonios convergentes que se contradicen)</th><td>Reducir el w al rango E5-E6 y documentar la inconsistencia.</td><td>Testigos de la reunión de Morton Thiokol que recuerdan el contenido de manera distinta. El w de esa arista cae al rango E5 y se presenta como rango, no como valor puntual.</td></tr>
+<tr><th scope="row">E1 apunta a w = 0 pero E6 apunta a w positivo</th><td>Documentar la arista nula explícitamente y señalar que E6 es insuficiente para revertirla.</td><td>Caso Eje hecho 2: el registro digital muestra que la información no salió del sistema (E1 → w = 0). La proximidad temporal de dos días (E7) no revierte la arista nula.</td></tr>
+</tbody>
+</table>
 
 #### 4.2 El procedimiento de rango cuando la contradicción no se puede resolver
 
@@ -14981,7 +10766,8 @@ Cuando la contradicción entre fuentes es genuina y no resoluble con el principi
 Si los dos extremos producen el mismo nodo de mayor R*, el resultado es robusto a la contradicción. Si producen nodos distintos, la contradicción es sustantiva y debe documentarse explícitamente: el análisis produce dos distribuciones de responsabilidad que corresponden a las dos interpretaciones de la evidencia.
 
 
-Regla de calibración:  Un análisis que asigna valores puntuales cuando la evidencia es contradictoria es menos honesto que uno que asigna rangos. El rango no es una señal de debilidad metodológica: es la representación correcta de la incertidumbre real del análisis.
+> [!NOTE]
+> Regla de calibración:  Un análisis que asigna valores puntuales cuando la evidencia es contradictoria es menos honesto que uno que asigna rangos. El rango no es una señal de debilidad metodológica: es la representación correcta de la incertidumbre real del análisis.
 
 
 ### §5.  La W = 0 explícita: cuándo se justifica y cómo se documenta
@@ -14990,73 +10776,47 @@ La arista nula w = 0 es la declaración más poderosa del grafo causal: afirma q
 
 #### 5.1 La diferencia entre ausencia de evidencia y evidencia de ausencia
 
-La arista nula no es simplemente la ausencia de evidencia de que el nodo causó el resultado. Es evidencia positiva de que no lo causó. Esa distinción es fundamental para el análisis en expedientes reales:
-
-Situación Interpretación correcta
-
-w correcto
-
-No hay evidencia de que el nodo causó el resultado
-
-Incertidumbre. El w no puede determinarse con la evidencia disponible.
-
-Rango bajo: E6-E7, con w ∈ [0.05–0.25]. NO w = 0.
-
-Hay evidencia de que el nodo actuó pero no de que esa acción causó el resultado
-
-La arista existe pero su intensidad es baja.
+<table>
+<tbody>
+<tr><th scope="row">Situación</th><td>Interpretación correcta</td><td>w correcto</td></tr>
+<tr><th scope="row">No hay evidencia de que el nodo causó el resultado</th><td>Incertidumbre. El w no puede determinarse con la evidencia disponible.</td><td>Rango bajo: E6- ∈ E7, con w [0.05–0.25]. NO w = 0.</td></tr>
+<tr><th scope="row">Hay evidencia de que el nodo actuó pero no de que esa acción causó el resultado</th><td>La arista existe pero su intensidad es baja.</td><td>∈ E7: w [0.10– 0.30]. Solo se usa w = 0 si hay evidencia del mecanismo alternativo.</td></tr>
+</tbody>
+</table>
 
 E7: w ∈ [0.10– 0.30]. Solo se usa w = 0 si hay evidencia del mecanismo alternativo.
 
-
-E0: w = 0. Requiere documentar la evidencia de la ausencia, no solo la ausencia de evidencia.
-
-Hay evidencia de que la acción del nodo no pudo haber causado el resultado (alternativa documentada)
-
-Arista nula documentada. w = 0 explícito.
+<table>
+<tbody>
+<tr><th scope="row">Hay evidencia de que la acción del nodo no pudo haber causado el resultado (alternativa documentada)</th><td>Arista nula documentada. w = 0 explícito.</td><td>E0: w = 0. Requiere documentar la evidencia de la ausencia, no solo la ausencia de evidencia.</td></tr>
+</tbody>
+</table>
 
 #### 5.2 Los cuatro tipos de evidencia que justifican w = 0
 
 1. Evidencia de la imposibilidad técnica: el nodo no tenía acceso técnico al mecanismo de transmisión. En el Caso Eje: si el registro digital muestra que el ex-gerente no accedió al expediente (a diferencia del registro que muestra que las subordinadas sí lo hicieron), esa arista tiene w = 0 por imposibilidad técnica. 2. Evidencia del mecanismo alternativo: existe un mecanismo alternativo que explica completamente el resultado sin necesidad del nodo. En el hecho 2 del Caso Eje: si el tercero que intentó el fraude tenía una fuente alternativa de la información (robo de cartera, darkweb, filtración de otra sucursal), el mecanismo alternativo elimina la necesidad de la arista gerente → fraude. 3. Evidencia de la separación temporal o espacial que excluye el mecanismo: la distancia entre el acto del nodo y el resultado es tan grande que ningún mecanismo causal plausible puede conectarlos. Requiere análisis del mecanismo específico para cada caso. 4. Evidencia directa de la no-acción: un registro que documenta positivamente que el nodo no realizó la acción que se le imputa. El más sólido y el más frecuentemente ausente en los expedientes reales.
 
 
-⚠ La asignación de w = 0 sin documentación explícita es el error más grave de calibración del grafo causal. Si el análisis usa w = 0 para exonerar a un nodo, esa declaración debe estar tan documentada como cualquier otra arista del grafo. Un w = 0 sin fundamento es tan injustificado como un w = 0.90 sin evidencia.
+> [!WARNING]
+> ⚠ La asignación de w = 0 sin documentación explícita es el error más grave de calibración del grafo causal. Si el análisis usa w = 0 para exonerar a un nodo, esa declaración debe estar tan documentada como cualquier otra arista del grafo. Un w = 0 sin fundamento es tan injustificado como un w = 0.90 sin evidencia.
 
 
 ### §6.  Cómo documentar la calibración en un expediente real
 
 Este es el apartado más práctico del apéndice. Responde a la pregunta: "Apliqué el sistema a mi caso, asigné los pesos W, obtuve los R* y Δ. Ahora tengo que presentar ese análisis ante un juez / árbitro / consejo de administración / regulador. ¿Cómo lo documento para que sea verificable y defendible?"
 
+
 #### 6.1 El estándar de documentación por nivel de foro
 
-Foro Estándar de presentación
-
-Qué debe documentar el analista
-
-Proceso penal Estándar probatorio de "más allá de duda razonable" para la arista directa. El análisis causal apoya pero no sustituye la prueba del tipo penal.
-
-(1) Cada arista con su tipo de evidencia E1-E8 identificado. (2) El w asignado y el rango del tipo de evidencia. (3) La fuente documental específica que justifica cada arista. (4) Las aristas nulas con su fundamento explícito.
-
-Litigio civil / arbitraje
-
-Estándar de "balance de probabilidades". El análisis causal puede ser presentado como peritaje experto.
-
-(1) -(4) del proceso penal. Adicionalmente: (5) Análisis de sensibilidad que muestre que el resultado es robusto a variaciones razonables del w. (6) Comparación con valores análogos usados
-
-
-en el libro para casos similares.
-
-Regulatorio / administrativo
-
-El estándar varía por regulador. En general: preponderancia de evidencia + razonabilidad del método.
-
-(1) -(6) anteriores. Adicionalmente: (7) Descripción del método de cálculo de R* suficiente para que el regulador lo replique independientemente.
-
-Versión simplificada: (1) Grafo con los pesos visibles. (2) Tabla de R* y Δ. (3) Fuentes de cada peso en lenguaje ejecutivo (no técnico). El código Python del Apéndice B como respaldo.
-
-Consejo de administración / directorio
-
-Estándar de razonabilidad empresarial. El análisis debe ser comprensible para directores no técnicos.
+<table>
+<tbody>
+<tr><th scope="row">Foro</th><td>Estándar de presentación</td><td>Qué debe documentar el analista</td></tr>
+<tr><th scope="row">Proceso penal</th><td>Estándar probatorio de &quot;más allá de duda razonable&quot; para la arista directa. El análisis causal apoya pero no sustituye la prueba del tipo penal.</td><td>(1) Cada arista con su tipo de evidencia E1-E8 identificado. (2) El w asignado y el rango del tipo de evidencia. (3) La fuente documental específica que justifica cada arista. (4) Las aristas nulas con su fundamento explícito.</td></tr>
+<tr><th scope="row">Litigio civil / arbitraje</th><td>Estándar de &quot;balance de probabilidades&quot;. El análisis causal puede ser presentado como peritaje experto.</td><td>(1) -(4) del proceso penal. Adicionalmente: (5) Análisis de sensibilidad que muestre que el resultado es robusto a variaciones razonables del w. (6) Comparación con valores análogos usados</td></tr>
+<tr><th scope="row">Regulatorio / administrativo</th><td>El estándar varía por regulador. En general: preponderancia de evidencia + razonabilidad del método.</td><td>(1) -(6) anteriores. Adicionalmente: (7) Descripción del método de cálculo de R* suficiente para que el regulador lo replique independientemente.</td></tr>
+<tr><th scope="row">Consejo de administración / directorio</th><td>Estándar de razonabilidad empresarial. El análisis debe ser comprensible para directores no técnicos.</td><td>Versión simplificada: (1) Grafo con los pesos visibles. (2) Tabla de R* y Δ. (3) Fuentes de cada peso en lenguaje ejecutivo (no técnico). El código Python del Apéndice B como respaldo.</td></tr>
+</tbody>
+</table>
 
 #### 6.2 La hoja de calibración: el documento de trabajo que justifica la W
 
@@ -15068,76 +10828,42 @@ w asigna do
 
 Tip o E
 
-Fuente documen tal / evidenci a
-
-Observaci ones y limitacion es
-
-#### 0.80 E1 Diseño del sistema de acceso document ado en el
-
-Ej. Caso Eje
-
-Institució n → Subordin adas
-
-El w refleja la arista estructural: la institución habilitó el
-
+<table>
+<tbody>
+<tr><th scope="row">Arista</th><td>Nodo origen → destino</td><td>w asigna do</td><td>Tip o E</td><td>Fuente documen tal / evidenci a</td><td>Observaci ones y limitacion es</td></tr>
+<tr><th scope="row">Ej. Caso Eje</th><td>Institució n → Subordin adas</td><td>0.80</td><td>E1</td><td>Diseño del sistema de acceso document ado en el</td><td>El w refleja la arista estructural: la institución habilitó el</td></tr>
+</tbody>
+</table>
 
 manual del usuario (ref. Anexo 3). Contrato laboral de las subordina das (ref. Anexo 1).
 
-acceso, no lo ejecutó directament e. Si fuera E1 directo: w = 0.88.
+<table>
+<tbody>
+<tr><th scope="row">Ej. Caso Eje</th><td>Ex- gerente → Fraude (hecho 2)</td><td>0.00</td><td>E0</td><td>Registro de salida de informaci ón: ningún registro muestra transmisi ón al exterior (ref. Pericial informáti ca, Anexo 7). Fraude en estado diferente sin rastro de conexión.</td><td>Arista nula documenta da. La proximidad temporal de 2 días (E7) es insuficiente para revertir la evidencia técnica. Ver §5 de este apéndice.</td></tr>
+<tr><th scope="row">Compl etar por caso</th><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td></tr>
+</tbody>
+</table>
 
-0.00 E0 Registro de salida de informaci ón: ningún registro muestra transmisi ón al exterior (ref. Pericial informáti ca, Anexo 7). Fraude en estado diferente sin rastro de conexión.
-
-Ej. Caso Eje
-
-Ex-gerente → Fraude (hecho 2)
-
-Arista nula documenta da. La proximidad temporal de 2 días (E7) es insuficiente para revertir la evidencia técnica. Ver §5 de este apéndice.
-
-... ... ... ... ...
-
-Compl etar por caso
-
-Para el expediente:  La hoja de calibración debe acompañar como anexo técnico al análisis de R*. Sin ella, el resultado numérico es un número sin fundamento. Con ella, cada w es una afirmación verificable que el adversario puede impugnar con evidencia contraria — que es exactamente el tipo de debate
+> [!NOTE]
+> Para el expediente:  La hoja de calibración debe acompañar como anexo técnico al análisis de R*. Sin ella, el resultado numérico es un número sin fundamento. Con ella, cada w es una afirmación verificable que el adversario puede impugnar con evidencia contraria — que es exactamente el tipo de debate
 
 
-que el sistema busca producir: uno sobre los hechos, no sobre la metodología.
+> [!NOTE]
+> que el sistema busca producir: uno sobre los hechos, no sobre la metodología.
 
 #### 6.3 Cómo responder la impugnación del w
 
 #### En cualquier foro adversarial, la contraparte intentará impugnar los valores w del grafo. Hay tres tipos de impugnación y una respuesta estándar para cada uno:
 
-Respuesta estándar
-
-Tipo de impugnación
-
-Argumento típico de la contraparte
-
-Impugnación del tipo de evidencia
-
-"El peso E3 que usó es especulativo; debería ser E7."
-
-Mostrar el criterio de clasificación del §2 de este apéndice. Señalar que el w asignado es el rango inferior del tipo E3 (0.55), no el superior. Ofrecer hacer el análisis con E7 y mostrar que el resultado cualitativo es el mismo (análisis de sensibilidad).
-
-Impugnación del valor puntual
-
-"El w = 0.80 es arbitrario; debería ser 0.55."
-
-Presentar el análisis de sensibilidad: calcular R* con w = 0.55 y con w = 0.80 y mostrar la diferencia. Si el nodo de mayor R* es el mismo en ambos casos, el argumento de la contraparte no cambia la conclusión. Si produce nodos distintos, documentar el rango.
-
-Impugnación de la arista nula
-
-"La ausencia de evidencia no prueba que la arista sea cero."
-
-La respuesta correcta: una arista nula requiere evidencia de la ausencia, no solo ausencia de evidencia (§5.1). Si la documentación incluye evidencia positiva de la imposibilidad técnica o del
-
-
-mecanismo alternativo, la impugnación no tiene base. Si no la incluye, el w debe subirse a E7 y documentarse la incertidumbre.
-
-El sistema es transparente: el Apéndice A demuestra la convergencia. El Apéndice B contiene el código ejecutable. Ofrecer al foro ejecutar el código con los datos del expediente para replicar el resultado. La replicabilidad es la mejor defensa del método.
-
-Impugnación del método
-
-"El eigenvector dominante no es el único método para calcular R*."
+<table>
+<tbody>
+<tr><th scope="row">Tipo de impugnación</th><td>Argumento típico de la contraparte</td><td>Respuesta estándar</td></tr>
+<tr><th scope="row">Impugnación del tipo de evidencia</th><td>&quot;El peso E3 que usó es especulativo; debería ser E7.&quot;</td><td>Mostrar el criterio de clasificación del §2 de este apéndice. Señalar que el w asignado es el rango inferior del tipo E3 (0.55), no el superior. Ofrecer hacer el análisis con E7 y mostrar que el resultado cualitativo es el mismo (análisis de sensibilidad).</td></tr>
+<tr><th scope="row">Impugnación del valor puntual</th><td>&quot;El w = 0.80 es arbitrario; debería ser 0.55.&quot;</td><td>Presentar el análisis de sensibilidad: calcular R* con w = 0.55 y con w = 0.80 y mostrar la diferencia. Si el nodo de mayor R* es el mismo en ambos casos, el argumento de la contraparte no cambia la conclusión. Si produce nodos distintos, documentar el rango.</td></tr>
+<tr><th scope="row">Impugnación de la arista nula</th><td>&quot;La ausencia de evidencia no prueba que la arista sea cero.&quot;</td><td>La respuesta correcta: una arista nula requiere evidencia de la ausencia, no solo ausencia de evidencia (§5.1). Si la documentación incluye evidencia positiva de la imposibilidad técnica o del</td></tr>
+<tr><th scope="row">Impugnación del método</th><td>&quot;El eigenvector dominante no es el único método para calcular R*.&quot;</td><td>El sistema es transparente: el Apéndice A demuestra la convergencia. El Apéndice B contiene el código ejecutable. Ofrecer al foro ejecutar el código con los datos del expediente para replicar el resultado. La replicabilidad es la mejor defensa del método.</td></tr>
+</tbody>
+</table>
 
 
 ### §7.  Casos de prueba con solución
@@ -15163,21 +10889,14 @@ Nodos del grafo:
 
 #### Solución calibrada (valores del sistema):
 
-Arista w calibrado
-
-Fundamento
-
-Tipo E
-
-0.72 E1/E6 E1: el manual existe y requiere protección. E6: la evidencia de que la capacitación real era insuficiente (módulo digital vs. práctica real) es una inferencia estructural. w = 0.72 = extremo superior de la arista estructural bien documentada.
-
-N1 → Nf (empresa → lesión)
-
-0.65 E1 E1 directo: el registro firmado por el supervisor documenta que no verificó la protección. Esta es la arista más sólida del grafo porque la omisión está documentada en un registro institucional.
-
-N2 → Nf (supervisor → lesión)
-
-0.35 E5/E6 S alta: cualquier trabajador sin capacitación práctica habría actuado igual. La contribución del trabajador existe pero es la de menor R* neto porque la S es alta y la capacitación era responsabilidad de N1.
+<table>
+<tbody>
+<tr><th scope="row">Arista</th><td>w calibrado</td><td>Tipo E</td><td>Fundamento</td></tr>
+<tr><th scope="row">N1 → Nf (empresa → lesión)</th><td>0.72</td><td>E1/E6</td><td>E1: el manual existe y requiere protección. E6: la evidencia de que la capacitación real era insuficiente (módulo digital vs. práctica real) es una inferencia estructural. w = 0.72 = extremo superior de la arista estructural bien documentada.</td></tr>
+<tr><th scope="row">N2 → Nf (supervisor → lesión)</th><td>0.65</td><td>E1</td><td>E1 directo: el registro firmado por el supervisor documenta que no verificó la protección. Esta es la arista más sólida del grafo porque la omisión está documentada en un registro institucional.</td></tr>
+<tr><th scope="row">N3 → Nf (trabajador → lesión)</th><td>0.35</td><td>E5/E6</td><td>S alta: cualquier trabajador sin capacitación práctica habría actuado igual. La contribución del trabajador existe pero es la de menor R* neto porque la S es alta y la capacitación era responsabilidad de N1.</td></tr>
+</tbody>
+</table>
 
 N3 → Nf (trabajador → lesión)
 
@@ -15198,30 +10917,15 @@ Nodos: N1 = banco (diseño del producto), N2 = asesor (venta), N3 = esquema de i
 
 Solución calibrada:
 
-Arista w calibrado
-
-Fundamento
-
-Tipo E
-
-#### 0.68 E1/E6 El diseño del producto con riesgo no divulgado adecuadamente (cláusula en pág. 14 de 18) es E1 parcial. La causalidad entre
-
-N1 → Pérdida del cliente
-
-
-ese diseño y la pérdida requiere E6.
-
-0.75 E1 El esquema de comisiones es un documento E1. La arista es alta porque el incentivo doble es una condición estructural que determina el comportamiento del asesor con alta S.
-
-N3 (incentivos) → N2 (comportamiento asesor)
-
-#### 0.60 E1 El formulario de idoneidad mal completado es E1 directo. El w es alto pero la S también es moderada (otro asesor bajo el mismo esquema habría actuado igual).
-
-N2 → Venta inadecuada
-
-0.18 E6 El cliente no leyó el contrato. Pero la S es altísima: la asimetría de información era tan marcada que cualquier cliente razonable habría tomado la misma decisión.
-
-N4 (cliente) → pérdida propia
+<table>
+<tbody>
+<tr><th scope="row">Arista</th><td>w calibrado</td><td>Tipo E</td><td>Fundamento</td></tr>
+<tr><th scope="row">N1 → Pérdida del cliente</th><td>0.68</td><td>E1/E6</td><td>El diseño del producto con riesgo no divulgado adecuadamente (cláusula en pág. 14 de 18) es E1 parcial. La causalidad entre</td></tr>
+<tr><th scope="row">N3 (incentivos) → N2 (comportamiento asesor)</th><td>0.75</td><td>E1</td><td>El esquema de comisiones es un documento E1. La arista es alta porque el incentivo doble es una condición estructural que determina el comportamiento del asesor con alta S.</td></tr>
+<tr><th scope="row">N2 → Venta inadecuada</th><td>0.60</td><td>E1</td><td>El formulario de idoneidad mal completado es E1 directo. El w es alto pero la S también es moderada (otro asesor bajo el mismo esquema habría actuado igual).</td></tr>
+<tr><th scope="row">N4 (cliente) → pérdida propia</th><td>0.18</td><td>E6</td><td>El cliente no leyó el contrato. Pero la S es altísima: la asimetría de información era tan marcada que cualquier cliente razonable habría tomado la misma decisión.</td></tr>
+</tbody>
+</table>
 
 #### R*_N1 ≈ 38% · R*_N3+N2 ≈ 45% · R*_N4 ≈ 17%
 
@@ -15240,7 +10944,8 @@ Este apéndice contiene las demostraciones de los resultados matemáticos que su
 El vector R* se calcula como el eigenvector dominante de la matriz de pesos W mediante iteración de potencia. La convergencia de este algoritmo requiere que el proceso iterativo sea una contracción en el espacio de distribuciones de probabilidad. El Teorema del Punto Fijo de Banach garantiza esa convergencia bajo las condiciones del grafo causal.
 
 
-Teorema A.1 (Banach — Punto Fijo):  Sea (X, d) un espacio métrico completo y f: X → X una contracción, es decir, ∃ c ∈ [0,1) tal que d(f(x), f(y)) ≤ c·d (x, y) para todo x, y ∈ X. Entonces f tiene un único punto fijo x* ∈ X tal que f(x*) = x*.
+> [!IMPORTANT]
+> Teorema A.1 (Banach — Punto Fijo):  Sea (X, d) un espacio métrico completo y f: X → X una contracción, es decir, ∃ c ∈ [0,1) tal que d(f(x), f(y)) ≤ c·d (x, y) para todo x, y ∈ X. Entonces f tiene un único punto fijo x* ∈ X tal que f(x*) = x*.
 
 Aplicación al cálculo de R*:
 
@@ -15263,16 +10968,19 @@ w‖₁
 
 donde c = 1 − δ(W) < 1, siendo δ(W) el coeficiente de ergodicidad de Dobrushin. Para matrices W no negativas con al menos una columna estrictamente positiva (condición que los grafos causales bien construidos satisfacen), δ(W) > 0 y por tanto c < 1. Por el Teorema de Banach, la iteración T^k(v₀) converge a un único punto fijo R* independientemente del valor inicial v₀. Eso justifica que el algoritmo de iteración de potencia produce siempre el mismo R* independientemente del vector inicial con que se arranque.
 
-Corolario:  Si el grafo causal es irreducible y aperiódico (condiciones generalmente satisfechas en los grafos de los capítulos del libro), la iteración de potencia converge al único R* en a lo más log(ε/2) /log(c) iteraciones para alcanzar precisión ε.
+> [!IMPORTANT]
+> Corolario:  Si el grafo causal es irreducible y aperiódico (condiciones generalmente satisfechas en los grafos de los capítulos del libro), la iteración de potencia converge al único R* en a lo más log(ε/2) /log(c) iteraciones para alcanzar precisión ε.
 
 #### A.2 El Teorema de Perron-Frobenius y las propiedades de R*
 
 El Teorema de Perron-Frobenius garantiza que la matriz W de un grafo causal bien construido tiene un eigenvector dominante único con todas las componentes positivas, que es precisamente R*.
 
-Teorema A.2 (Perron-Frobenius):  Sea W una matriz cuadrada n×n con todas las entradas no negativas e irreducible. Entonces: (i) W tiene un eigenvalor positivo dominante ρ(W) > 0 (radio espectral). (ii) El eigenvector asociado a ρ(W) tiene todas sus componentes estrictamente
+> [!IMPORTANT]
+> Teorema A.2 (Perron-Frobenius):  Sea W una matriz cuadrada n×n con todas las entradas no negativas e irreducible. Entonces: (i) W tiene un eigenvalor positivo dominante ρ(W) > 0 (radio espectral). (ii) El eigenvector asociado a ρ(W) tiene todas sus componentes estrictamente
 
 
-positivas. (iii) Este eigenvector es único salvo normalización. (iv) Todos los demás eigenvalores λ satisfacen |λ| < ρ(W).
+> [!NOTE]
+> positivas. (iii) Este eigenvector es único salvo normalización. (iv) Todos los demás eigenvalores λ satisfacen |λ| < ρ(W).
 
 Implicaciones para el análisis de R*:
 
@@ -15290,7 +10998,8 @@ Cuando el postulado I5 no se cumple para ningún nodo (causalidad acumulativa, C
 
 El ego como proceso estocástico es la base de la formulación matemática de la Responsabilidad como EU(t) = E [dX/dt | F_t] que aparece en las referencias del libro. El Cálculo de Itô provee el marco para la evolución de los egos en tiempo continuo.
 
-Teorema A.3 (Fórmula de Itô):  Sea X_t un proceso de Itô que satisface la ecuación diferencial estocástica dX_t = u (t, X_t) dt + s (t, X_t) dW_t, donde W_t es el movimiento browniano estándar. Sea f (t, x) una función C (1,2). Entonces:
+> [!IMPORTANT]
+> Teorema A.3 (Fórmula de Itô):  Sea X_t un proceso de Itô que satisface la ecuación diferencial estocástica dX_t = u (t, X_t) dt + s (t, X_t) dW_t, donde W_t es el movimiento browniano estándar. Sea f (t, x) una función C (1,2). Entonces:
 
 df (t, X_t) = ∂f/∂t dt + ∂f/∂x dX_t + ½ σ² (t, X_t)
 
@@ -15317,13 +11026,15 @@ Ego_final = Ego (0) + ∫₀^τ φ₂(s)dμ(s) + ∫₀^τ σ(s)dW_s
 
 El término ∫φ₂dμ captura la asunción consciente (determinista); el término ∫σdW captura los eventos aleatorios que el ego también debe integrar. La diferencia entre dos egos no es solo el camino determinista sino también cómo cada sujeto integró los eventos aleatorios que encontró.
 
-Corolario:  El D_total en tiempo de vida D_vital = D/w_ref puede entenderse como la diferencia entre las integrales de dos procesos de ego: el ego que habría podido desarrollarse sin el daño y el ego que se desarrolló con él. Esa diferencia es el tiempo de vida cristalizado en trabajo que el daño impidió acumular.
+> [!IMPORTANT]
+> Corolario:  El D_total en tiempo de vida D_vital = D/w_ref puede entenderse como la diferencia entre las integrales de dos procesos de ego: el ego que habría podido desarrollarse sin el daño y el ego que se desarrolló con él. Esa diferencia es el tiempo de vida cristalizado en trabajo que el daño impidió acumular.
 
 #### A.4 La derivación axiomática del valor de Shapley
 
 Los valores de Shapley son la única solución que satisface simultáneamente cuatro axiomas de equidad en la distribución de responsabilidad acumulativa. Esa caracterización axiomática es lo que los distingue de cualquier otra distribución ad hoc.
 
-Teorema A.4 (Shapley — Axiomático):  Sea v: 2^N → ℝ una función de valor con v (∅) = 0. La solución φ: v → ℝⁿ que satisface simultáneamente (i) Eficiencia: Σᵢφᵢ = v(N); (ii) Simetría: si v(S∪{i}) = v(S∪{j}) para todo S, entonces φᵢ = φⱼ; (iii) Nulo: si v(S∪{i}) = v(S) para todo S, entonces φᵢ = 0; (iv) Aditividad: φᵢ(v+w) = φᵢ(v) + φᵢ(w), está determinada de manera única por la fórmula: El Cálculo de la Responsabilidad · Apéndices
+> [!IMPORTANT]
+> Teorema A.4 (Shapley — Axiomático):  Sea v: 2^N → ℝ una función de valor con v (∅) = 0. La solución φ: v → ℝⁿ que satisface simultáneamente (i) Eficiencia: Σᵢφᵢ = v(N); (ii) Simetría: si v(S∪{i}) = v(S∪{j}) para todo S, entonces φᵢ = φⱼ; (iii) Nulo: si v(S∪{i}) = v(S) para todo S, entonces φᵢ = 0; (iv) Aditividad: φᵢ(v+w) = φᵢ(v) + φᵢ(w), está determinada de manera única por la fórmula: El Cálculo de la Responsabilidad · Apéndices
 
 φᵢ(v) = Σ_{S⊆N\{i}} |S|! (n-|S|-1)! /n! × [v(S∪{i}) −
 
@@ -15381,9 +11092,11 @@ Para el sistema de alianzas de 1914: R*_alianzas ∈ [0.35, 0.55]. Para Gavrilo 
 
 Este apéndice consolida el código Python de todos los capítulos del libro en una biblioteca coherente. Los archivos de cada capítulo contienen implementaciones de funciones individuales; esta biblioteca integrada permite usar el sistema completo sin ensamblar los fragmentos dispersos.
 
-Dependencias:  numpy >= 1.24, scipy >= 1.10, itertools (stdlib). Para los valores de Shapley exactos con n > 15, se recomienda numpy >= 1.26 para la eficiencia de las operaciones de conjunto. No se requieren dependencias adicionales para el núcleo del sistema.
+> [!NOTE]
+> Dependencias:  numpy >= 1.24, scipy >= 1.10, itertools (stdlib). Para los valores de Shapley exactos con n > 15, se recomienda numpy >= 1.26 para la eficiencia de las operaciones de conjunto. No se requieren dependencias adicionales para el núcleo del sistema.
 
-""" calculo_responsabilidad.py Biblioteca Python — El Cálculo de la Responsabilidad (3ª ed.) Miguel Hilario Olvera Aguilar · Centro Multidisciplinario Meriadock · 2026  Módulos:   core          — R*, S, Δ, J, AD, D_vital (núcleo universal)   shapley       — Valores de Shapley exactos y Monte Carlo   predictive    — Predictores causales (quiebra, sesgo, colapso gobernanza)   narrativo     — Análisis de arcos de personajes literarios   hijos         — Diagnóstico de disposición de voluntad por hijos """  import numpy as np from scipy.stats import pearsonr from itertools import combinations, permutations import math from typing import Optional, Dict, List, Tuple  # ════════════════════════════════════════ ════════════════════ # MÓDULO 1: NÚCLEO UNIVERSAL # R*, S, Δ, J, AD, D_vital # ════════════════════════════════════════ ════════════════════  def calcular_R_star(W: np.ndarray, max_iter: int = 500,                     tol: float = 1e-9) -> np.ndarray:     """ Calcula el vector R* mediante iteración de potencia.     Garantizado por Perron-Frobenius para matrices no negativas irreducibles.          W: Matriz de pesos del grafo causal (n×n, no negativa)     max_iter: Máximo
+> [!NOTE]
+> """ calculo_responsabilidad.py Biblioteca Python — El Cálculo de la Responsabilidad (3ª ed.) Miguel Hilario Olvera Aguilar · Centro Multidisciplinario Meriadock · 2026  Módulos:   core          — R*, S, Δ, J, AD, D_vital (núcleo universal)   shapley       — Valores de Shapley exactos y Monte Carlo   predictive    — Predictores causales (quiebra, sesgo, colapso gobernanza)   narrativo     — Análisis de arcos de personajes literarios   hijos         — Diagnóstico de disposición de voluntad por hijos """  import numpy as np from scipy.stats import pearsonr from itertools import combinations, permutations import math from typing import Optional, Dict, List, Tuple  # ════════════════════════════════════════ ════════════════════ # MÓDULO 1: NÚCLEO UNIVERSAL # R*, S, Δ, J, AD, D_vital # ════════════════════════════════════════ ════════════════════  def calcular_R_star(W: np.ndarray, max_iter: int = 500,                     tol: float = 1e-9) -> np.ndarray:     """ Calcula el vector R* mediante iteración de potencia.     Garantizado por Perron-Frobenius para matrices no negativas irreducibles.          W: Matriz de pesos del grafo causal (n×n, no negativa)     max_iter: Máximo
 
 
 de iteraciones (convergencia típica < 100)     tol:      Tolerancia de convergencia en norma L∞          Returns: vector R* normalizado (suma = 1)     """     n = W.shape[0]     R = np.ones(n) / n  # arranque uniforme (Banach: independiente del inicial)     for _ in range(max_iter): Rn = W @ R         s = np.sum(Rn)         if s < 1e-12:             break  # grafo trivial         Rn /= s         if np.max(np.abs(Rn - R)) < tol: break         R = Rn     return Rn   def calcular_S(W: np.ndarray, R_star: np.ndarray) -> np.ndarray:     """     Calcula el vector S (fungibilidad) para cada nodo.     S_i = 1 − max_j corr(R*_original, R*_sin_i) sobre perturbaciones de W.          S alto → el resultado es estructural (cualquier actor equivalente daría igual)     S bajo → el resultado dependía de características idioscincráticas del nodo     """     n = W.shape[0]     S = np.zeros(n)     for i in range(n):         max_c = 0.0         for j in range(n): if j == i:                 continue             Wm = W.copy()             Wm[i, :] = np.mean(W, axis=0)  # sustituir fila i por promedio             Rm = calcular_R_star(Wm)             if np.std(Rm) > 1e-10:                 c, _ = pearsonr(R_star, Rm)                 max_c = max(max_c, abs(c))         S[i] = 1.0 - max_c     return S   def analisis_causal(W: np.ndarray, alpha: np.ndarray,                     D_total: float = 0.0,                     B_total: float = 0.0,                     alpha_B: float = 0.0,                     w_ref: float = 8.0,                     nombres: Optional[List[str]] = None                    ) -> Dict:     """     Análisis causal completo: R*, S, Δ, J, AD, D_vital, Δ_B. Parámetros:       W:       Matriz de pesos del grafo causal (n×n)       alpha: Vector de coeficientes de asunción por nodo [0,1]       D_total: Daño total del evento (monetario)       B_total: Beneficio total obtenido por actores del grafo       alpha_B: Fracción del B_total que fue asumida/devuelta       w_ref:   Salario de referencia por hora (PPP, default $8 USD)       nombres: Lista de etiquetas para los nodos Returns: dict con todos los indicadores del sistema     """     R_star = calcular_R_star(W)     S      = calcular_S(W, R_star)     Delta  = R_star -alpha     R_neta = R_star * (1 - S)          # responsabilidad idiosincrática AD     = R_star * D_total           # ajuste debitor por nodo     J      = float(1.0 - np.sum(np.abs(Delta)))  # justicia estructural     D_vital = D_total / w_ref           # horas de vida cristalizada     Delta_B = B_total * (1 - alpha_B)  # beneficio no asumido      # Factor de inversión causal (para detección de chivo expiatorio)     inv = {}     if nombres:         for i, nm in enumerate(nombres):             if R_neta[i] > 0.001 and alpha[i] > R_neta[i] + 0.1:                 inv[nm] = float(alpha[i] / R_neta[i]) resultado = {         'R_star': R_star,         'S': S,         'Delta': Delta, 'R_neta': R_neta,         'AD': AD,         'J': J,         'D_vital_horas': D_vital, 'Delta_B': Delta_B,         'nodos_chivo': inv,     }     if nombres:         for i, nm in enumerate(nombres):             resultado[f'R*_{nm}'] = float(R_star[i])             resultado[f'S_{nm}']  = float(S[i]) resultado[f'Δ_{nm}']  = float(Delta[i])     return resultado   # ════════════════════════════════════════ ════════════════════ # MÓDULO 2: VALORES DE SHAPLEY # Para causalidad acumulativa (Cap. 14, postulado I5 falla) # ════════════════════════════════════════ ════════════════════  def shapley_exacto(v_func, n_actores: int) -> np.ndarray:     """     Valores de Shapley exactos. Viable para n ≤ 15.     v_func: función v(frozenset) → daño/beneficio de
@@ -15397,7 +11110,8 @@ esa coalición.     """     actores = list(range(n_actores))     phi = np.zeros(
 
 INTEGRADAS # ════════════════════════════════════════ ════════════════════  def IIC(valores_declarados: List[float],         comportamiento_obs: List[float]) -> float:     """ Índice de Integridad Corporativa (Cap. 11).     Correlación entre valores declarados y comportamiento observable.     IIC ∈ [0,1]. IIC < 0.30: disforia de identidad corporativa severa.     """     v, c = np.array(valores_declarados), np.array(comportamiento_obs)     if np.std(v) < 1e-10 or np.std(c) < 1e-10:         return 0.5     corr, _ = pearsonr(v, c)     return round(max(0, (corr + 1) / 2), 4)   def IAS(J_antes: float, J_despues: float) -> Dict:     """Índice de Aprendizaje Sistémico (Cap. 12, 16)."""     ias = J_despues - J_antes     nivel = ('Regresión'       if ias < -0.05 else              'Sin aprendizaje' if abs(ias) <= 0.05 else              'Mínimo'          if ias < 0.15 else              'Parcial'         if ias < 0.30 else              'Sustancial')     return {'IAS': round(ias, 4), 'nivel': nivel}   def reporte_completo(W, alpha, nombres=None, D_total=0, B_total=0, alpha_B=0, w_ref=8.0,                      hijos_dict=None): """Genera el reporte completo del caso."""     res = analisis_causal(W, alpha, D_total, B_total,                           alpha_B, w_ref, nombres) print("═" * 55)     print("  ANÁLISIS CAUSAL — EL CÁLCULO DE LA RESPONSABILIDAD")     print("═" * 55)     n = len(res['R_star']) etiq = nombres or [f'N{i}' for i in range(n)]     print(f"{'Nodo':22s} {'R*':>6}  {'S':>5}  {'R_neta':>7}  {'Δ':>7}  {'AD':>10}")     print("─" * 65)     for i, nm in enumerate(etiq):         chivo = ' ← CHIVO' if res['Delta'][i] < -0.5 else                 ' ← DISEÑO' if res['Delta'][i] > 0.30 else ''         print(f"{nm:22s}  {res['R_star'][i]:6.3f}  " f"{res['S'][i]:5.2f}  {res['R_neta'][i]:7.4f}  " f"{res['Delta'][i]:+7.3f}  "               f"{res['AD'][i]:10,.0f}{chivo}") print("─" * 65)     print(f"  J (justicia estructural):  {res['J']:+.4f}") print(f"  D_vital (horas):           {res['D_vital_horas']:,.0f}")     if B_total: print(f"  Δ_B (no asumido):          {res['Delta_B']:,.0f}")     if hijos_dict: print("\n  Hijos por nodo:")         for nm, dist in hijos_dict.items(): d = diagnostico_hijos(dist)             print(f"  {nm:22s}: {d['hijo_dominante']:10s} "                   f"({d['pct_dominante']}%) — {d['perfil_culpa']}")     return res   # ════════════════════════════════════════ ════════════════════ # EJEMPLO DE USO — CASO EJE # ════════════════════════════════════════ ════════════════════ if __name__ == '__main__': import numpy as np      # Grafo: N0=Institución, N1=Ger.sup, N2=Subordinadas,     #        N3=Ex-gerente, N4=Perfil_puesto, N5=Nf     W = np.zeros((6, 6))     W[0,1]=0.85; W[0,2]=0.80; W[0,4]=0.90; W[0,5]=0.80     W[1,2]=0.75; W[1,5]=0.70     W[2,5]=0.85; W[4,2]=0.70; W[4,3]=0.60; W[3,5]=0.45      alpha = np.array([0.03, 0.08, 0.05, 1.00, 0.10, 0.0])     nombres = ['Institución','Ger.superiores','Subordinadas',                'Ex-gerente','Perfil_puesto','Nf']      hijos = {         'Institución t2': {'Anteros':0.52,'Potós':0.30,'Fobos':0.12, 'Deimos':0.05,'Eros':0.01,'Harmonía':0.00},         'Ex-gerente t1': El Cálculo de la Responsabilidad · Apéndices
 
-{'Fobos':0.38,'Potós':0.28,'Deimos':0.20, 'Eros':0.08,'Anteros':0.05,'Harmonía':0.01},     }      reporte_completo(W, alpha, nombres,                      D_total=0, B_total=10_100_000,                      alpha_B=0.03, w_ref=8.0,                      hijos_dict=hijos)
+> [!NOTE]
+> {'Fobos':0.38,'Potós':0.28,'Deimos':0.20, 'Eros':0.08,'Anteros':0.05,'Harmonía':0.01},     }      reporte_completo(W, alpha, nombres,                      D_total=0, B_total=10_100_000,                      alpha_B=0.03, w_ref=8.0,                      hijos_dict=hijos)
 
 
 # APÉNDICE E
@@ -15411,185 +11125,203 @@ Este glosario contiene todos los términos del sistema de imputación causal org
 
 ▌ Núcleo
 
-Término Símbolo Definición operativa
-
-AD = R*ᵢ × D_total El monto o la acción que el nodo i debería asumir en proporción a su peso causal en el daño total. No es el monto de la multa ni el de la condena: es el cálculo de la responsabilidad proporcional a la posición causal.
-
-Ajuste debitor (AD)
-
-Alpha (α) α ∈ [0,1] Coeficiente de asunción de la
-
-
-responsabilidad causal. α = 0: el nodo no asumió nada. α = 1: asumió completamente su posición causal. En el dominio histórico, α_diferido es la asunción por parte de sucesores institucionales.
-
-B_total — Beneficio total obtenido por un actor como consecuencia causal del evento. En tanatología, B_total = 0 por definición ontológica. En el resto de los dominios, B_total incluye G_inmediato + G_acumulado + ΔG_trayectoria.
-
-D_total D = T_inv + T_imp + ΔT
+| Término | Símbolo | Definición operativa |
+| --- | --- | --- |
+| Ajuste debitor (AD) | R*ᵢ AD = × D_total | El monto o la acción que el nodo i debería asumir en proporción a su peso causal en el daño total. No es el monto de la multa ni el de la condena: es el cálculo de la responsabilidad proporcional a la posición causal. |
+| Alpha (α) | ∈ α [0,1] | Coeficiente de asunción de la |
+| B_total | — | Beneficio total obtenido por un actor como consecuencia causal del evento. En tanatología, B_total = 0 por definición ontológica. En el resto de los dominios, B_total incluye G_inmediato + G_acumulado + ΔG_trayectoria. |
+| D_total | D = T_inv + T_imp + ΔT | Daño total causado por el evento. Suma de T_invertido (pérdida directa), T_impedido (oportunidades negadas) y ΔT_trayectoria (diferencial permanente de potencial). |
+| D_vital | D_vital = D/w_ref | El daño total expresado en horas de vida de trabajo cristalizado. w_ref es el salario de referencia por hora en PPP. Convierte el daño monetario en tiempo de vida, la unidad ontológica fundamental del sistema. |
+<table>
+<tbody>
+<tr><th scope="row">Delta (Δ)</th><td>Δ = R* − α</td><td>Déficit de responsabilidad causal no asumida. Δ &gt; 0: el actor causó más de lo que asumió (base para el ajuste debitor). Δ &lt; 0: el actor asumió más de lo que causó (chivo expiatorio o acción extraordinaria).</td></tr>
+<tr><th scope="row">Delta_B (Δ_B)</th><td>Δ_B = B_total − α_B</td><td>Déficit de asunción del beneficio obtenido. Base para la acción de enriquecimiento sin causa. Cuando Δ_B &gt; 0, el actor obtuvo beneficio del evento sin haber reconocido su posición causal.</td></tr>
+</tbody>
+</table>
 
 Daño total causado por el evento. Suma de T_invertido (pérdida directa), T_impedido (oportunidades negadas) y ΔT_trayectoria (diferencial permanente de potencial).
 
+<table>
+<tbody>
+<tr><th scope="row">Ego(t)</th><td>Ego(t) = ∫φ(s)dμ</td><td>La integral de los colapsos asumidos por el sujeto hasta el tiempo t. En la muerte, la integral se cierra produciendo el ego final inmodificable. En el Aego, la integral se detiene sin que el sujeto haya muerto.</td></tr>
+</tbody>
+</table>
+
 D_vital D_vital = D/w_ref El daño total expresado en horas de vida de trabajo cristalizado. w_ref es el salario de referencia por hora en PPP. Convierte el daño monetario en tiempo de vida, la unidad ontológica fundamental del sistema.
 
-
-Delta (Δ) Δ = R* − α Déficit de responsabilidad causal no asumida. Δ > 0: el actor causó más de lo que asumió (base para el ajuste debitor). Δ < 0: el actor asumió más de lo que causó (chivo expiatorio o acción extraordinaria).
-
-Delta_B (Δ_B) Δ_B = B_total − α_B Déficit de asunción del beneficio obtenido. Base para la acción de enriquecimiento sin causa. Cuando Δ_B > 0, el actor obtuvo beneficio del evento sin haber reconocido su posición causal.
-
-Ego(t) Ego(t) = ∫φ(s)dμ La integral de los colapsos asumidos por el sujeto hasta el tiempo t. En la muerte, la integral se cierra produciendo el ego final inmodificable. En el Aego, la integral se detiene sin que el sujeto haya muerto.
-
-Grafo causal G G = (N, A, w) El mapa de nodos (actores, estructuras, instrumentos) y aristas ponderadas que representan las dependencias causales entre ellos. Base del análisis de R* en todos los dominios.
-
-J = 1 − Σ|Δᵢ| Medida de ecuanimidad en la distribución de responsabilidad y asunción. J = 1: distribución perfecta
-
-Índice de Justicia Estructural (J)
-
-
-(cada nodo asumió exactamente su R*). J = 0: distribución completamente desequilibrada. J < 0: distribución inversa a la causal.
-
-R(t+1) = WR(t)/‖WR(t)‖
-
-Iteración de potencia
-
-El algoritmo que calcula R* como el eigenvector dominante de la matriz W del grafo causal. Converge al vector de distribución estacionaria que mide la influencia relativa de cada nodo en el resultado.
+<table>
+<tbody>
+<tr><th scope="row">Grafo causal G</th><td>G = (N, A, w)</td><td>El mapa de nodos (actores, estructuras, instrumentos) y aristas ponderadas que representan las dependencias causales entre ellos. Base del análisis de R* en todos los dominios.</td></tr>
+<tr><th scope="row">Índice de Justicia Estructural (J)</th><td>Σ|Δᵢ| J = 1 −</td><td>Medida de ecuanimidad en la distribución de responsabilidad y asunción. J = 1: distribución perfecta</td></tr>
+<tr><th scope="row">Iteración de potencia</th><td>R(t+1) = WR(t)/‖WR(t)‖</td><td>El algoritmo que calcula R* como el eigenvector dominante de la matriz W del grafo causal. Converge al vector de distribución estacionaria que mide la influencia relativa de cada nodo en el resultado.</td></tr>
+<tr><th scope="row">Nodo de diseño</th><td>—</td><td>El actor que diseñó las condiciones bajo las cuales el evento dañino era posible. Tiene el mayor INCF o R* en la mayoría de los análisis y la S más baja (sus características específicas eran condición idiosincrática del resultado).</td></tr>
+<tr><th scope="row">Postulado I5</th><td>dD/dNᵢ ≠ 0</td><td>El postulado de la condición necesaria: el Nᵢ nodo es causalmente necesario para el daño D si Nᵢ eliminar del grafo cambia D. Cuando I5 no se cumple para ningún nodo individual (causalidad acumulativa), se requiere la extensión Shapley.</td></tr>
+</tbody>
+</table>
 
 Nodo de diseño — El actor que diseñó las condiciones bajo las cuales el evento dañino era posible. Tiene el mayor INCF o R* en la mayoría de los análisis y la S más baja (sus características específicas eran condición idiosincrática del resultado).
 
-Postulado I5 dD/dNᵢ ≠ 0 El postulado de la condición necesaria: el nodo Nᵢ es causalmente necesario para el daño D si eliminar Nᵢ del grafo cambia D. Cuando I5 no se cumple para ningún nodo individual (causalidad acumulativa), se requiere la extensión Shapley.
-
-
-R* (R-estrella) R* = eigenvector dom.(W)
-
-El vector de distribución de la responsabilidad causal entre los nodos del grafo. R*ᵢ es la fracción del resultado causalmente atribuible al nodo i. Suma = 1. Se calcula como el eigenvector dominante de la matriz de pesos W.
-
-S ∈ [0,1] Índice de fungibilidad del nodo en el resultado. S = 0: el nodo es completamente idiosincrático (su contribución es única). S = 1: cualquier nodo equivalente habría producido el mismo resultado. R* × (1−S) = responsabilidad causal neta.
-
-S (sustituibilidad)
-
-τ(M) = M/w_ref — La fórmula de conversión de dinero a tiempo de vida. M es el monto monetario, w_ref es el salario de referencia por hora. Permite expresar cualquier daño o beneficio económico en horas de vida cristalizada.
-
-Valor de Shapley (φᵢ)
-
-φᵢ = Σ [|S|!(n-|S|-1)!/n!]×[v(S∪{i})−v(S)] La extensión del R* para casos de causalidad acumulativa donde el postulado I5 no se cumple para ningún nodo individual. Mide la contribución marginal
-
-
-promedio de cada actor sobre todas las coaliciones posibles. Propiedad de eficiencia: Σφᵢ = v(N).
+<table>
+<tbody>
+<tr><th scope="row">R* (R-estrella)</th><td>R* = eigenvector dom.(W)</td><td>El vector de distribución de la responsabilidad causal entre los nodos del R*ᵢ grafo. es la fracción del resultado causalmente atribuible al nodo i. Suma = 1. Se calcula como el eigenvector dominante de la matriz de pesos W.</td></tr>
+<tr><th scope="row">S (sustituibilidad)</th><td>∈ S [0,1]</td><td>Índice de fungibilidad del nodo en el resultado. S = 0: el nodo es completamente idiosincrático (su contribución es única). S = 1: cualquier nodo equivalente habría producido el mismo resultado. R* × (1−S) = responsabilidad causal neta.</td></tr>
+<tr><th scope="row">τ(M) = M/w_ref</th><td>—</td><td>La fórmula de conversión de dinero a tiempo de vida. M es el monto monetario, w_ref es el salario de referencia por hora. Permite expresar cualquier daño o beneficio económico en horas de vida cristalizada.</td></tr>
+<tr><th scope="row">Valor de (φᵢ) Shapley</th><td>φᵢ = Σ [|S|!(n-|S|- 1)!/n!]×[v(S∪{i})−v(S)]</td><td>La extensión del R* para casos de causalidad acumulativa donde el postulado I5 no se cumple para ningún nodo individual. Mide la contribución marginal</td></tr>
+<tr><th scope="row"></th><td></td><td>promedio de cada actor sobre todas las coaliciones posibles. Propiedad de Σφᵢ eficiencia: = v(N).</td></tr>
+</tbody>
+</table>
 
 #### ▌ Hijos
 
-Término Símbolo Definición operativa
-
-Anteros — El hijo de Afrodita que describe la afirmación de sí mismo contra el mundo o contra la norma. El personaje que actúa desde su propia convicción. En exceso sin Harmonía: produce transgresión deliberada. En los directivos: dolo probable.
-
-Deimos — El hijo de Afrodita que describe la parálisis ante la multiplicidad de lo que enfrenta el sujeto. La incapacidad de actuar por la amplitud de lo que está en juego. En los directivos: negligencia por vértigo ante la complejidad.
-
-Eros — El hijo de Afrodita que describe la orientación activa hacia algo nuevo o deseado en el presente. En el duelo: la señal de que el doliente comienza a abrirse hacia la vida sin sentir traición. En los directivos: la disposición hacia el crecimiento genuino.
-
-Fobos — El hijo de Afrodita que describe la acción desde el miedo a las consecuencias. El sujeto que hace lo que no quiere para evitar un daño. En los operadores: compatibilidad con presión sistémica sin dolo. En los directivos: culpa habitual con menor responsabilidad subjetiva.
-
-Harmonía — El hijo de Afrodita que describe la deliberación plena. El sujeto que ha integrado la información disponible y actúa desde esa integración. En los análisis: el estándar de la decisión bien tomada.
-
-
-Anteros + Harmonía = afirmación deliberada.
-
-Potós — El hijo de Afrodita que describe el anhelo hacia lo ausente o perdido. El vector de voluntad apuntando hacia lo que ya no está disponible. En el duelo: fase normal del proceso. En los directivos: persistencia en el sistema heredado sin revisión crítica.
+| Término | Símbolo | Definición operativa |
+| --- | --- | --- |
+| Anteros | — | El hijo de Afrodita que describe la afirmación de sí mismo contra el mundo o contra la norma. El personaje que actúa desde su propia convicción. En exceso sin Harmonía: produce transgresión deliberada. En los directivos: dolo probable. |
+| Deimos | — | El hijo de Afrodita que describe la parálisis ante la multiplicidad de lo que enfrenta el sujeto. La incapacidad de actuar por la amplitud de lo que está en juego. En los directivos: negligencia por vértigo ante la complejidad. |
+| Eros | — | El hijo de Afrodita que describe la orientación activa hacia algo nuevo o deseado en el presente. En el duelo: la señal de que el doliente comienza a abrirse hacia la vida sin sentir traición. En los directivos: la disposición hacia el crecimiento genuino. |
+| Fobos | — | El hijo de Afrodita que describe la acción desde el miedo a las consecuencias. El sujeto que hace lo que no quiere para evitar un daño. En los operadores: compatibilidad con presión sistémica sin dolo. En los directivos: culpa habitual con menor responsabilidad subjetiva. |
+| Harmonía | — | El hijo de Afrodita que describe la deliberación plena. El sujeto que ha integrado la información disponible y actúa desde esa integración. En los análisis: el estándar de la decisión bien tomada. |
+| Potós | — | El hijo de Afrodita que describe el anhelo hacia lo ausente o perdido. El vector de voluntad apuntando hacia lo que ya no está disponible. En el duelo: fase normal del proceso. En los directivos: persistencia en el sistema heredado sin revisión crítica. |
 
 #### ▌ Ingeniería
 
-Término Símbolo Definición operativa
+| Término | Símbolo | Definición operativa |
+| --- | --- | --- |
+| INCF (Índice de Necesidad Causal del Fallo) | INCF = R* | El R* aplicado al análisis de fallos de ingeniería. Mide la fracción del fallo sistémico causalmente atribuible a cada nodo. El INCF del componente físico que "causó" el accidente típicamente es menor al 20%; el INCF de los nodos organizacionales domina. |
 
-INCF = R*
+> [!NOTE]
+> INCF (Índice de Necesidad Causal del Fallo)
+
 
 El R* aplicado al análisis de fallos de ingeniería. Mide la fracción del fallo sistémico causalmente atribuible a cada nodo. El INCF del componente físico que "causó" el accidente típicamente es menor al 20%; el INCF de los nodos organizacionales domina.
 
-INCF (Índice de Necesidad Causal del Fallo)
+
+> [!NOTE]
+> INCF (Índice de Necesidad Causal del Fallo)
+
+<table>
+<tbody>
+<tr><th scope="row">Término</th><td>Símbolo</td><td>Definición operativa</td></tr>
+</tbody>
+</table>
 
 #### ▌ Finanzas
 
-Término Símbolo Definición operativa
-
-ICRS = R*
+<table>
+<tbody>
+<tr><th scope="row">ICRS (Índice de Concentración de Riesgo Sistémico)</th><td>ICRS = R*</td><td>El R* aplicado al análisis de riesgo sistémico y quiebra. Mide cuánto del colapso sistémico dependía causalmente de cada nodo. Formaliza el &quot;too big to fail&quot; como ICRS alto, no como tamaño grande.</td></tr>
+</tbody>
+</table>
 
 El R* aplicado al análisis de riesgo sistémico y quiebra. Mide cuánto del colapso sistémico dependía causalmente de cada nodo. Formaliza el "too big to fail" como ICRS alto, no como tamaño grande.
 
-ICRS (Índice de Concentración de Riesgo Sistémico)
+| Término | Símbolo | Definición operativa |
+| --- | --- | --- |
 
 #### ▌ Ingeniería/Histórico
 
-Término Símbolo Definición operativa
-
-IAS = J_post − J_pre
-
-IAS (Índice de Aprendizaje Sistémico)
+| Término | Símbolo | Definición operativa |
+| --- | --- | --- |
+| IAS (Índice de Aprendizaje Sistémico) | IAS = J_post − J_pre | Mide en qué medida el sistema incorporó las lecciones de un evento previo en su diseño posterior. IAS > |
 
 Mide en qué medida el sistema incorporó las lecciones de un evento previo en su diseño posterior. IAS > El Cálculo de la Responsabilidad · Apéndices
 
+| Término | Símbolo | Definición operativa |
+| --- | --- | --- |
+
 0: aprendizaje real. IAS ≈ 0: sin aprendizaje. IAS < 0: el sistema se volvió más injusto después del evento.
 
-#### ▌ Corporativo
-
-Término Símbolo Definición operativa
-
-IIC = corr(valores_decl, comp_obs)
 
 Mide la congruencia entre los valores declarados de una institución y su comportamiento observable. IIC ∈ [0,1]. IIC < 0.30: disforia de identidad corporativa severa. Calculable por terceros con información pública.
 
-IIC (Índice de Integridad Corporativa)
+| Término | Símbolo | Definición operativa |
+| --- | --- | --- |
+| α_diferido | — | La asunción de responsabilidad causal por parte de sucesores institucionales del actor histórico que ya no puede asumir. Aplica en el dominio histórico (el Estado belga respecto al Congo, los EE.UU. respecto al redlining) y en el corporativo (cuando la institución reconoce el diseño defectuoso décadas después). |
 
 #### ▌ Histórico/Corporativo
 
-Término Símbolo Definición operativa
+<table>
+<tbody>
+<tr><th scope="row">Término</th><td>Símbolo</td><td>Definición operativa</td></tr>
+<tr><th scope="row">IIC (Índice de Integridad Corporativa)</th><td>IIC = corr(valores_decl, comp_obs)</td><td>Mide la congruencia entre los valores declarados de una institución y su comportamiento observable. ∈ IIC [0,1]. IIC &lt; 0.30: disforia de identidad corporativa severa. Calculable por terceros con información pública.</td></tr>
+</tbody>
+</table>
+| Término | Símbolo | Definición operativa |
+| --- | --- | --- |
+
+Mide la congruencia entre los valores declarados de una institución y su comportamiento observable. IIC ∈ [0,1]. IIC < 0.30: disforia de identidad corporativa severa. Calculable por terceros con información pública.
+
+
+#### ▌ Histórico/Corporativo
+
+| Término | Símbolo | Definición operativa |
+| --- | --- | --- |
+| Aego- Damasén | — | El campo del ego colectivo que ha acumulado tanta densidad que determina la trayectoria de los individuos sin que ninguno lo haya diseñado explícitamente. |
 
 α_diferido — La asunción de responsabilidad causal por parte de sucesores institucionales del actor histórico que ya no puede asumir. Aplica en el dominio histórico (el Estado belga respecto al Congo, los EE.UU. respecto al redlining) y en el corporativo (cuando la institución reconoce el diseño defectuoso décadas después).
 
+
 #### ▌ Ontológico
 
-Término Símbolo Definición operativa
-
-— El campo del ego colectivo que ha acumulado tanta densidad que determina la trayectoria de los individuos sin que ninguno lo haya diseñado explícitamente.
-
-Aego-Damasén
-
+| Término | Símbolo | Definición operativa |
+| --- | --- | --- |
+| Aego- Peribea | — | El ego colectivo que opera activamente para impedir que los individuos que operan dentro de él ejerzan su propio eje. El Estado que usa la disforia de identidad para que el soberano no reconozca la asimetría del contrato fiscal. |
 
 La cultura corporativa como Aego-Damasén produce el Dieselgate: no por dolo individual sino por el campo que hace que la solución prohibida sea la más obvia.
 
-— El ego colectivo que opera activamente para impedir que los individuos que operan dentro de él ejerzan su propio eje. El Estado que usa la disforia de identidad para que el soberano no reconozca la asimetría del contrato fiscal.
-
-Aego-Peribea
-
-— La condición del ego (individual o colectivo) cuya imagen de sí mismo no corresponde a lo que realmente es. En el ego colectivo corporativo: la institución que declara valores de integridad y actúa consistentemente en su contra. IIC bajo es la medida cuantitativa de la disforia de identidad corporativa.
-
-Disforia de identidad
-
-— La paradoja del sujeto que enfrenta dos umbrales θ simultáneamente incompatibles: el umbral de la acción necesaria para su supervivencia y el umbral del costo que esa acción le exige. En el Caso Eje: defender el proceso requiere más recursos de los que el proceso mismo dejó disponibles.
-
-Dilema de Aquiles
+| Término | Símbolo | Definición operativa |
+| --- | --- | --- |
+| Disforia de identidad | — | La condición del ego (individual o colectivo) cuya imagen de sí mismo no corresponde a lo que realmente es. En el ego colectivo corporativo: la institución que declara valores de integridad y actúa consistentemente en su contra. IIC bajo es la medida cuantitativa de la disforia de identidad corporativa. |
+| Dilema de Aquiles | — | La paradoja del sujeto que enfrenta dos umbrales θ simultáneamente incompatibles: el umbral de la acción necesaria para su supervivencia y el umbral del costo que esa acción le exige. En el Caso Eje: defender el proceso requiere más recursos de los que el proceso mismo dejó disponibles. |
 
 #### ▌ Ontológico/Jurídico
 
-Término Símbolo Definición operativa
+<table>
+<tbody>
+<tr><th scope="row">Término</th><td>Símbolo</td><td>Definición operativa</td></tr>
+<tr><th scope="row">Fraude annona</th><td>—</td><td>El incumplimiento por parte de un ente con poder institucional de las condiciones materiales de posibilidad que prometió o que su posición requería proveer. En el contrato fiscal: el Estado que recibe el capital ciudadano y no genera las condiciones de desarrollo prometidas. En el laboral: la institución que diseña la trampa y culpa al empleado por caer en ella.</td></tr>
+</tbody>
+</table>
 
 — El incumplimiento por parte de un ente con poder institucional de las condiciones materiales de posibilidad que prometió o que su posición requería proveer. En el contrato fiscal: el Estado que recibe el capital ciudadano y no genera las condiciones de desarrollo prometidas. En el laboral: la institución que diseña la trampa y culpa al empleado por caer en ella.
 
-Fraude annona
-
+| Término | Símbolo | Definición operativa |
+| --- | --- | --- |
 
 #### ▌ Deportes/Beneficio
 
-Término Símbolo Definición operativa
-
-R*_B R*_B = eigenvector dom.(W_beneficio)
+| Término | Símbolo | Definición operativa |
+| --- | --- | --- |
+| R*_B | R*_B = eigenvector dom.(W_beneficio) | El R* aplicado al análisis de contribución al beneficio (triunfo deportivo, resultado positivo). Mide la fracción del resultado positivo causalmente atribuible a cada jugador o factor. Es el instrumento de la negociación salarial basada en contribución causal, no en comparación de mercado. |
+| Término | Símbolo | Definición operativa |
+| --- | --- | --- |
 
 El R* aplicado al análisis de contribución al beneficio (triunfo deportivo, resultado positivo). Mide la fracción del resultado positivo causalmente atribuible a cada jugador o factor. Es el instrumento de la negociación salarial basada en contribución causal, no en comparación de mercado.
 
+
 #### ▌ Deportes
 
-Término Símbolo Definición operativa
-
-CI = R*_B × (1−S_B)
+| Término | Símbolo | Definición operativa |
+| --- | --- | --- |
+| Nodo narrativo de diseño | — | El personaje de una obra ficcional que diseñó las condiciones del evento central del relato sin estar necesariamente presente en él. Tiene el mayor R* narrativo con S más baja. Tywin Lannister en La Boda Roja. El autor mismo como meta-nodo de segundo nivel. |
 
 La fracción del resultado deportivo causalmente atribuible al jugador específico y no reproducible por ningún otro. CI = 0: el triunfo habría ocurrido de la misma forma sin ese jugador. El número correcto para la negociación salarial.
 
-CI (Contribución Idiosincrática)
+
+#### ▌ Literatura
+
+| Término | Símbolo | Definición operativa |
+| --- | --- | --- |
+| Arco narrativo | arco(t) = {pⱼ(t)} | La secuencia de distribuciones de hijos de un personaje a lo largo del tiempo del relato. El arco de Raskolnikov: Anteros → Fobos → Harmonía. La secuencia que el |
+|  |  | sistema ontológico predice para la transformación auténtica del sujeto que actuó sin deliberación y encontró la realidad. |
+
+#### ▌ Deportes
+
+<table>
+<tbody>
+<tr><th scope="row">Término</th><td>Símbolo</td><td>Definición operativa</td></tr>
+<tr><th scope="row">CI (Contribución Idiosincrática)</th><td>CI = R*_B × (1−S_B)</td><td>La fracción del resultado deportivo causalmente atribuible al jugador específico y no reproducible por ningún otro. CI = 0: el triunfo habría ocurrido de la misma forma sin ese jugador. El número correcto para la negociación salarial.</td></tr>
+</tbody>
+</table>
 
 #### ▌ Literatura
 
@@ -15610,33 +11342,29 @@ sistema ontológico predice para la transformación auténtica del sujeto que ac
 
 #### ▌ Histórico
 
-Término Símbolo Definición operativa
-
-S_hist = 1 − |P(E|con) − P(E|sin)|
+<table>
+<tbody>
+<tr><th scope="row">Término</th><td>Símbolo</td><td>Definición operativa</td></tr>
+<tr><th scope="row">S histórica</th><td>S_hist = 1 − |P(E|con) − P(E|sin)|</td><td>La sustituibilidad histórica del detonador de un evento histórico. S_Princip ≈ 0.92 en la Primera Guerra Mundial: el sistema habría encontrado otra chispa. S_alto del detonador implica que el nodo de diseño estructural tiene mayor R*.</td></tr>
+</tbody>
+</table>
+| Término | Símbolo | Definición operativa |
+| --- | --- | --- |
 
 La sustituibilidad histórica del detonador de un evento histórico. S_Princip ≈ 0.92 en la Primera Guerra Mundial: el sistema habría encontrado otra chispa. S_alto del detonador implica que el nodo de diseño estructural tiene mayor R*.
 
-S histórica
 
 #### ▌ IA/Crédito
 
-Término Símbolo Definición operativa
-
-DI = P(neg|grupo_A)/P(neg|grupo_B)
-
-El ratio de denegación entre grupos protegidos y no protegidos. DI > 1.25: umbral regulatorio estándar de discriminación estadística. R*_dataset = (DI_observado − 1) / DI_observado mide la fracción del disparate impact causalmente atribuible al dataset histórico.
-
-DI (Disparate Impact)
+| Término | Símbolo | Definición operativa |
+| --- | --- | --- |
+| DI (Disparate Impact) | DI = P(neg\|grupo_A)/P(neg\|grupo_B) | El ratio de denegación entre grupos protegidos y no protegidos. DI > 1.25: umbral regulatorio estándar de discriminación estadística. R*_dataset = (DI_observado − 1) / DI_observado mide la fracción del disparate impact causalmente atribuible al dataset histórico. |
+| Término | Símbolo | Definición operativa |
 
 #### ▌ Seguros
 
-
-Término Símbolo Definición operativa
-
-PAC = P(sin) × E[D] × R*_as × (1−S_as)
-
-La prima de seguro que refleja únicamente la contribución causal idiosincrática del asegurado al riesgo. La prima que excede este umbral transfiere el costo del riesgo estructural (causado por el regulador o el entorno) al asegurado que no lo causó.
-
-Prima Actuarial Justa (PAC)
+| Término | Símbolo | Definición operativa |
+| --- | --- | --- |
+| Prima Actuarial Justa (PAC) | PAC = P(sin) × E[D] × R*_as × (1−S_as) | La prima de seguro que refleja únicamente la contribución causal idiosincrática del asegurado al riesgo. La prima que excede este umbral transfiere el costo del riesgo estructural (causado por el regulador o el entorno) al asegurado que no lo causó. |
 
 Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026
