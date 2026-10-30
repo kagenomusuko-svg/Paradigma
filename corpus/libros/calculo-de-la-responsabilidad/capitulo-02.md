@@ -64,7 +64,7 @@ Entidades instrumentales
 ~5-8% Total (es el vehículo)
 
 
-* El testaferro tiene α = 100% forzado porque firma los documentos y es el único identificable. Pero su R* real es mínimo: era altamente sustituible (S alto) y no diseñó el esquema.
+\* El testaferro tiene α = 100% forzado porque firma los documentos y es el único identificable. Pero su R* real es mínimo: era altamente sustituible (S alto) y no diseñó el esquema.
 
 Esta tabla es la descripción matemática de por qué los sistemas de PLD convencionales capturan a los testaferros y raramente al arquitecto: el criterio basado en la firma visible coincide exactamente con los nodos de menor R* y mayor visibilidad documental. Es la misma inversión causal del Capítulo 1, pero aquí es el objetivo explícito del diseño criminal.
 
@@ -217,7 +217,9 @@ controlador real
 
 Si un nodo instrumental tiene R* alto y S bajo (era el vehículo específico que el esquema requería, no cualquier empresa genérica), la inferencia es que fue diseñado para ese esquema específico. Eso aumenta el peso causal del nodo que lo diseñó y controló.
 
-> **Nota para el oficial de compliance:** En la práctica, R* se estima con las herramientas de análisis de redes que los departamentos de compliance ya usan: mapas de beneficiario final, análisis de corresponsalía bancaria, reportes de inteligencia financiera. Lo que el cálculo aporta es la formalización de ese análisis: convertirlo de una evaluación cualitativa ("esta estructura parece sospechosa") a una medida cuantitativa ("este nodo tiene R* = 0.62 y ningún α documentado, lo que produce Δ = +0.62, que es una señal de beneficiario real no identificado").
+::: {.recuadro .nota-violeta}
+**Nota para el oficial de compliance:** En la práctica, R* se estima con las herramientas de análisis de redes que los departamentos de compliance ya usan: mapas de beneficiario final, análisis de corresponsalía bancaria, reportes de inteligencia financiera. Lo que el cálculo aporta es la formalización de ese análisis: convertirlo de una evaluación cualitativa ("esta estructura parece sospechosa") a una medida cuantitativa ("este nodo tiene R* = 0.62 y ningún α documentado, lo que produce Δ = +0.62, que es una señal de beneficiario real no identificado").
+:::
 
 #### 3.4 El índice de sustituibilidad S en operaciones de lavado
 
@@ -409,7 +411,9 @@ El nodo evaluó deliberadament e la operación con plena información y eligió 
 
 Oficial de compliance que actuó correctamente . Banco que rechazó al cliente.
 
-> **Nota sobre la prueba del hijo en PLD:** Acreditar el hijo dominante de un intermediario requiere evidencia de su estado de conocimiento en el momento de los hechos: comunicaciones internas, historial del cliente, alertas recibidas y no procesadas, patrones de conducta anterior con el mismo tipo de operación. El hijo no se presume: se acredita con las mismas fuentes documentales que el grafo.
+::: {.recuadro .nota-violeta}
+**Nota sobre la prueba del hijo en PLD:** Acreditar el hijo dominante de un intermediario requiere evidencia de su estado de conocimiento en el momento de los hechos: comunicaciones internas, historial del cliente, alertas recibidas y no procesadas, patrones de conducta anterior con el mismo tipo de operación. El hijo no se presume: se acredita con las mismas fuentes documentales que el grafo.
+:::
 
 
 ### §4.  Casos resueltos
@@ -1033,4 +1037,5 @@ Continúa en el Capítulo 3 — Derecho internacional y deudas históricas
 
 
 deudas históricas
+
 
