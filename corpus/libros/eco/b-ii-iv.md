@@ -1,16 +1,12 @@
-### B·II·IV ·  MÓDULO EJE IV — DISFORIA
+# B·II·IV · MÓDULO EJE IV — DISFORIA
+## La presencia o ausencia de la señal del ego genuino
 
-### La presencia o ausencia de la señal del ego
-
-genuino Localización de D-1 (disforia activa) y D-2 (anestesia ontológica) ·
-
-Modulador transversal
+*Localización de D-1 (disforia activa) y D-2 (anestesia ontológica) · Modulador transversal*
 
 ### I.  Fundamento ontológico del módulo
 
 El Eje IV del SDO localiza la presencia o la ausencia de la señal del ego genuino. No qué quiere el ego genuino ni desde dónde opera: si todavía está produciendo señal. Esa pregunta —¿la señal del ego genuino sigue presente? — es la que hace del Eje IV el modulador transversal de mayor impacto clínico en el instrumento. Porque si la señal del ego genuino no está presente, las localizaciones de todos los demás módulos —los Hijos del Bloque I, el estado del ego, la estructura del vínculo— pueden corresponder al campo que reemplazó al ego genuino y no al ego genuino mismo. Un sujeto en D-2 puede producir señales de cualquier Hijo que el mediador sin entrenamiento tomará como genuinas; puede producir discursos elaborados sobre su criterio propio (que el módulo A tomó como Anteros); puede describir apertura ante lo nuevo (que el módulo E tomó como Eros); puede narrar sus relaciones con fluidez y articulación (que el módulo Eje III tomó como V-1). En D-2, el ego genuino está presente pero latente —el instrumento de registro de la brecha se apagó, pero el ego no desapareció. Lo que el campo produce en su nombre no es el ego genuino: es la suma fáctica que actúa como si lo fuera.
 
-Entrevista Clínica Ontológica · ECO
 
 La distinción entre D-1 y D-2 es la distinción entre el ego genuino que todavía puede registrar la brecha y el ego genuino que ya no puede hacerlo. D-1 —disforia activa— es el estado en que el ego genuino produce señal de incomodidad ante la brecha entre lo que el sujeto es y lo que hace, aunque el sujeto no pueda necesariamente articular esa incomodidad con precisión ni resolverla con eficacia. La señal de D-1 es el ego genuino que todavía habla, aunque nadie lo escuche. D-2 —anestesia ontológica— es el estado en que el instrumento de registro de esa brecha se apagó. El ego genuino está latente —puede reactivarse con el trabajo de Histos— pero ya no produce señal en la superficie. El sujeto en D-2 no experimenta ausencia de señal: experimenta la ausencia del instrumento que producía la señal. La diferencia es ontológicamente significativa: en D-1 hay algo que duele, aunque no se sepa de dónde viene; en D-2, ya no hay dolor porque ya no hay instrumento que registre que hay algo que duele.
 
@@ -20,7 +16,6 @@ La disforia activa no es sufrimiento clínico en el sentido psicopatológico. Es
 
 D-2 como resultado de proceso
 
-Entrevista Clínica Ontológica · ECO
 
 D-2 no es un estado que el sujeto eligió ni es un estado estable como lo son los Hijos del Bloque I. Es el resultado de un proceso de erosión de la señal del ego genuino que puede haber ocurrido gradualmente a lo largo de mucho tiempo o de manera más acelerada en respuesta a condiciones de campo específicas. El Manual Clínico del paradigma describe el proceso de instalación de D-2: el sujeto en D-1 sostenido sin campo para la señal — sin nadie que escuche, sin condiciones para que la señal del ego genuino produzca diferencia — puede llegar a apagar el instrumento de registro como respuesta adaptativa. El instrumento que produce señal de incomodidad sin que esa señal pueda producir efecto se convierte en una carga sin utilidad. D-2 es la adaptación que suprime la carga.
 
@@ -30,7 +25,6 @@ D-1 y D-2 como moduladores de la lectura del instrumento completo
 
 El Eje IV es el eje de mayor impacto retroactivo sobre los demás módulos porque modifica la lectura de todos los Hijos del Bloque I. D-1 activo con EP-1 no modifica los pesos del Bloque I: es señal de que el ego genuino está presente y que las localizaciones del Bloque I corresponden a señales reales del ego genuino. D-2 con EP-1 obliga al mediador a revisar retrospectivamente todas las señales del Bloque I y marcarlas con incertidumbre adicional: en D-2, las señales de Anteros, Eros, Potós —y potencialmente de todos los Hijos— pueden corresponder al campo que actúa en nombre del ego genuino y no al ego genuino mismo. El mediador que encuentra D-2 con EP-1 en el Eje IV ha encontrado la información más crítica del instrumento completo.
 
-### Entrevista Clínica Ontológica · ECO
 
 Señal EP y criterio
 
@@ -60,7 +54,6 @@ D-
 
 El Módulo Eje IV siempre se administra como cuarto módulo del Bloque II, después del Eje I, el Eje II y el Eje III. La localización de los tres módulos anteriores — especialmente la del Módulo H del Bloque I — produce orientación preliminar que el Eje IV necesita como contexto.
 
-Entrevista Clínica Ontológica · ECO
 
 Cuando el Módulo H ya resolvió la discriminación Harmonía/D-2
 
@@ -126,7 +119,6 @@ Las preguntas de sondeo del Módulo Eje IV tienen dos objetivos distintos según
 
 Las señales de observación directa del Módulo Eje IV son las más difíciles de leer del Bloque II porque dependen de la capacidad del mediador de registrar temperatura interna en el sujeto — y esa temperatura es sutil por definición. La señal de D-1 no es ruptura emocional: es incomodidad genuina ante la brecha. La señal de D-2 no es frialdad: es planitud que el sujeto no registra como problema. El mediador que espera señales dramáticas en este módulo perderá las señales diagnósticas más importantes.
 
-### Entrevista Clínica Ontológica · ECO
 
 Nivel EP Error de lectura frecuente
 
@@ -156,7 +148,6 @@ EP-1 si la planitud tonal es consistente durante toda la sesión y observable po
 
 Confundir D-2 con madurez emocional o con ecuanimidad. La ecuanimidad de un sujeto integrado (Harmonía) tiene
 
-### Entrevista Clínica Ontológica · ECO
 
 independientemente del contenido. Habla de pérdidas con el mismo tono que habla de logros. Habla de injusticias con el mismo tono que habla de trivialidades.
 
@@ -180,7 +171,6 @@ EP-1 cuando la incapacidad de identificar preferencia genuina se produce directa
 
 Confundir D-2 con Deimos. En Deimos, el sujeto puede mostrar incomodidad o perplejidad ante la incapacidad de identificar preferencia. En D-2, la respuesta es fluida y apropiada sin perplejidad. La señal: ¿la pregunta produce algo en el sujeto, o simplemente
 
-### Entrevista Clínica Ontológica · ECO
 
 produce la respuesta?
 
@@ -198,9 +188,8 @@ La señal más diagnóstica del Módulo Eje IV es el contraste entre la temperat
 
 El mediador que quiere verificar este contraste puede introducir deliberadamente, en un momento de los sondeos, una pregunta sobre algo que el sujeto ya describió como emocionalmente significativo: «Volvamos un momento a lo que me contaste antes sobre [evento que el sujeto describió como importante]. Mientras me lo vuelves a contar, ¿qué pasa en ti?» El mediador observa si regresar a ese evento produce algo diferente en el campo del sujeto o si la temperatura de la narrativa sobre el regreso al evento es la misma
 
-Entrevista Clínica Ontológica · ECO
 
-### que la temperatura de la narrativa original. Si es la misma, la señal de D-2 se fortalece.
+que la temperatura de la narrativa original. Si es la misma, la señal de D-2 se fortalece.
 
 ### VI.  Árbol de decisión interno del módulo
 
@@ -246,7 +235,6 @@ D-1: el sujeto reconoce la diferencia con temperatura interna. Puede decir «sí
 
 D-2: el sujeto puede describir la diferencia con precisión, pero sin temperatura. «Sí, probablemente hay una diferencia, pero no es algo que me
 
-### Entrevista Clínica Ontológica · ECO
 
 «siento que debería ser diferente, aunque no puedo cambiar nada ahora». La señal está presente: el ego genuino habla aunque nadie escuche y aunque el sujeto no pueda actuar desde ella.
 
@@ -266,7 +254,6 @@ D-2: el sujeto no puede identificar ningún proceso. «Siempre fui así», «no 
 
 ### «Cuando dices que hay algo que no encaja entre lo que eres y lo que haces — ¿es que sabes lo que quieres hacer de manera diferente, pero algo te lo impide, o es más que hay
 
-Entrevista Clínica Ontológica · ECO
 
 algo que simplemente no está bien, aunque no puedas decir qué haría que estuviera bien?» [La discriminación más técnica del módulo. En E-3, el sujeto sabe lo que quiere y φ₂ está bloqueada. En D-1, la señal es más difusa: hay incomodidad sin necesariamente tener claro qué la resolvería. Esta pregunta accede a si hay un querer específico detrás de la señal (E-3) o si la señal es la brecha sin querer articulado (D-1).]
 
@@ -282,7 +269,6 @@ El Módulo Eje IV produce un código puntual —D-1, D-2, o D-2 con D-1 residual
 
 Regla de codificación — D-2 con D-1 residual Cuando el mediador encuentra D-2 como estado general, pero puede identificar rastros de D-1 en contextos o canales específicos (sueños, relaciones particulares, contacto con arte o naturaleza, momentos de soledad), el código es «D-2 con D-1 residual» con descripción de los canales donde la señal está disponible. Esa descripción es el insumo más valioso que el Eje IV puede proveer para el trabajo de Histos: es el mapa de los puntos de acceso al ego genuino latente.
 
-### Entrevista Clínica Ontológica · ECO
 
 El nivel EP para el Eje IV sigue la escala estándar. EP-1 requiere que la señal se produzca directamente en la sesión: incomodidad con temperatura observable para D-1, planitud consistente observable durante toda la sesión para D-2. EP-2 requiere narrativa coherente de la señal (o su ausencia) en múltiples contextos con al menos una señal de observación en sesión que la corrobore. EP-3 requiere coherencia narrativa sin señal de observación en sesión suficiente.
 
@@ -304,7 +290,6 @@ Los pesos del Bloque I deben revisarse. En D-2, cualquier señal de cualquier Hi
 
 Revisar retrospectivamente las señales del Bloque I marcando cuáles podrían ser señales del campo y no del ego genuino. Especialmente: las señales de Anteros y Eros pueden estar producidas por el campo en lugar del ego genuino. Consignar en la hoja de
 
-### Entrevista Clínica Ontológica · ECO
 
 ECO qué parte de la distribución P(Hijos) corresponde al ego genuino latente y qué parte al campo que lo sustituyó. Todos los pesos deben marcarse con incertidumbre adicional.
 
@@ -326,7 +311,6 @@ La consecuencia más importante de D-2 sobre el Bloque I es que ningún peso del
 
 ### X.  Aplicación al ego colectivo
 
-### Entrevista Clínica Ontológica · ECO
 
 D-2 colectivo es uno de los estados más frecuentes y menos detectados de los egos colectivos en el paradigma. Las organizaciones pueden operar durante años —décadas— en D-2 colectivo con eficiencia creciente en sus métricas de desempeño, sin que ningún miembro registre que algo fundamental se ha apagado. La razón es la misma que en el individuo: el instrumento de registro de la brecha se apagó. Y cuando ese instrumento no existe, la eficiencia puede crecer mientras el ego genuino colectivo se erosiona, porque la eficiencia no requiere ego genuino —solo requiere procesos.
 
@@ -354,7 +338,6 @@ Los miembros pueden describir el funcionamiento de la organización con detalle 
 
 ### D-2 colectivo como resultado de condiciones sistémicas
 
-Entrevista Clínica Ontológica · ECO
 
 D-2 colectivo se instala con mayor frecuencia en organizaciones que han operado durante tiempo prolongado bajo alguna de las siguientes condiciones: presión externa sostenida que no puede ser procesada por el ego colectivo (condición sistémica análoga a D-1 sostenido sin campo que reciba la señal), fusiones o absorciones en que el ego colectivo de una organización fue absorbido por otro sin proceso de integración genuino, liderazgos que sistemáticamente suprimieron la señal de D-1 de los miembros (señales de incomodidad ante la brecha que fueron interpretadas como problemas de actitud o de lealtad), y M-3 sostenido sin que la norma del campo haya sido cuestionada desde adentro en tiempo suficiente.
 
@@ -391,19 +374,20 @@ La señal de D-1 colectivo es uno de los recursos más valiosos para el cambio i
 > >
 > > Esta es la única condición del instrumento en que la derivación a Histos puede posponerse indefinidamente.
 > >
-> > Notas al Módulo B·II·IV
-> >
-> > 1 La descripción de D-2 como resultado de proceso adaptativo tiene base en la observación clínica sistematizada en el Manual Clínico del paradigma y en las obras de referencia sobre la disforia de identidad. El proceso de instalación de D-2 no es lineal: puede haber períodos de intensificación de D-1 antes de la transición a D-2, y puede haber recuperaciones parciales de D-1 cuando las condiciones del campo cambian temporalmente. El mediador que encuentra D-2 con D-1 residual está observando un estado que todavía tiene movilidad — no un estado final. La historia temporal que el Sondeo DIS·2 produce sobre D-1 es el insumo más relevante para entender el proceso que llevó al estado actual.
-> >
-> > 2 La tabla de modificación de pesos del §9 establece la consecuencia más técnica del Eje IV: D-2 con EP-1 invalida la certeza estándar de la distribución P(Hijos) del Bloque I. Esto no significa que el Bloque I sea inútil en D-2: significa que sus resultados deben interpretarse como descripción del campo que actúa en nombre del ego genuino, no como descripción del ego genuino mismo. Esa interpretación tiene utilidad diagnóstica para el trabajo de Histos —saber qué parte del campo ha reemplazado al ego genuino es información necesaria para el trabajo de restitución— pero no es equivalente a la localización del ego genuino activo.
-> >
-> > 3 La coexistencia D-2/Harmonía que el árbol de decisión declara como caso que requiere revisión tiene un fundamento ontológico claro: Harmonía requiere que el ego genuino esté procesando las tensiones entre las dimensiones de la pasión desde φ₂ con distancia suficiente. Ese procesamiento requiere que el instrumento de registro de la tensión esté activo. Si D-2 ha apagado ese instrumento, el procesamiento que Harmonía requiere no puede ocurrir. La coexistencia de los dos códigos es ontológicamente contradictoria: o el Módulo H sobreestimó la señal de Harmonía (tomando D-2 por Harmonía, el error más frecuente del instrumento) o el Eje IV sobreestimó D-2 (tomando Harmonía por ausencia de señal, porque la integración genuina puede producir planitud que el mediador lee como D-2).
-> >
-> > 4 La nota sobre D-2 colectivo y las organizaciones con M-3 sostenido merece desarrollo adicional. M-3 —la mascarada institucional— es la condición de posibilidad para D-2 colectivo porque suprime sistemáticamente las señales de D-1 de los miembros: en un campo de M-3, la señal de incomodidad ante la brecha entre el ego genuino y los actos institucionales no tiene espacio de expresión. A lo largo del tiempo, esa supresión sistemática puede producir D-2 colectivo por el mismo mecanismo que produce D-2 individual — el
-> >
-> >
-> > instrumento de registro se apaga cuando su señal no puede producir ningún efecto. La consecuencia práctica para el Mediador Organizacional: M-3 sostenido sin mecanismos de procesamiento de la señal de D-1 es un factor de riesgo directo de D-2 colectivo.
-> >
-> >
-> > BLOQUE II · Los cinco ejes del SDO
+---
 
+## Notas al Módulo B·II·IV
+
+1 La descripción de D-2 como resultado de proceso adaptativo tiene base en la observación clínica sistematizada en el Manual Clínico del paradigma y en las obras de referencia sobre la disforia de identidad. El proceso de instalación de D-2 no es lineal: puede haber períodos de intensificación de D-1 antes de la transición a D-2, y puede haber recuperaciones parciales de D-1 cuando las condiciones del campo cambian temporalmente. El mediador que encuentra D-2 con D-1 residual está observando un estado que todavía tiene movilidad — no un estado final. La historia temporal que el Sondeo DIS·2 produce sobre D-1 es el insumo más relevante para entender el proceso que llevó al estado actual.
+
+2 La tabla de modificación de pesos del §9 establece la consecuencia más técnica del Eje IV: D-2 con EP-1 invalida la certeza estándar de la distribución P(Hijos) del Bloque I. Esto no significa que el Bloque I sea inútil en D-2: significa que sus resultados deben interpretarse como descripción del campo que actúa en nombre del ego genuino, no como descripción del ego genuino mismo. Esa interpretación tiene utilidad diagnóstica para el trabajo de Histos —saber qué parte del campo ha reemplazado al ego genuino es información necesaria para el trabajo de restitución— pero no es equivalente a la localización del ego genuino activo.
+
+3 La coexistencia D-2/Harmonía que el árbol de decisión declara como caso que requiere revisión tiene un fundamento ontológico claro: Harmonía requiere que el ego genuino esté procesando las tensiones entre las dimensiones de la pasión desde φ₂ con distancia suficiente. Ese procesamiento requiere que el instrumento de registro de la tensión esté activo. Si D-2 ha apagado ese instrumento, el procesamiento que Harmonía requiere no puede ocurrir. La coexistencia de los dos códigos es ontológicamente contradictoria: o el Módulo H sobreestimó la señal de Harmonía (tomando D-2 por Harmonía, el error más frecuente del instrumento) o el Eje IV sobreestimó D-2 (tomando Harmonía por ausencia de señal, porque la integración genuina puede producir planitud que el mediador lee como D-2).
+
+4 La nota sobre D-2 colectivo y las organizaciones con M-3 sostenido merece desarrollo adicional. M-3 —la mascarada institucional— es la condición de posibilidad para D-2 colectivo porque suprime sistemáticamente las señales de D-1 de los miembros: en un campo de M-3, la señal de incomodidad ante la brecha entre el ego genuino y los actos institucionales no tiene espacio de expresión. A lo largo del tiempo, esa supresión sistemática puede producir D-2 colectivo por el mismo mecanismo que produce D-2 individual — el
+
+
+instrumento de registro se apaga cuando su señal no puede producir ningún efecto. La consecuencia práctica para el Mediador Organizacional: M-3 sostenido sin mecanismos de procesamiento de la señal de D-1 es un factor de riesgo directo de D-2 colectivo.
+
+
+BLOQUE II · Los cinco ejes del SDO
