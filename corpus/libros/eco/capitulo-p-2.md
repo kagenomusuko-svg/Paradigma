@@ -1,6 +1,7 @@
-### Capítulo P·2
+# Capítulo P·2
+## Los perfiles de mediador
 
-Los perfiles de mediador Quién usa ECO, cómo lo usa y qué debe poder responder con él
+*Quién usa ECO, cómo lo usa y qué debe poder responder con él*
 
 ### I.  Por qué los perfiles importan antes que los módulos
 
@@ -8,7 +9,6 @@ ECO no se administra de la misma manera en todos los contextos ni por todos los 
 
 Este capítulo describe los seis perfiles de mediador que usan ECO, con la pregunta central que orienta su uso en cada especialidad y la proporción relativa de los bloques que cada perfil activa. No es una descripción exhaustiva de las especialidades —el Documento Fundacional del paradigma contiene esa descripción. Es una guía de uso del instrumento según el perfil: qué partes leer con más atención, cuáles son opcionales, y qué preguntas propias de cada especialidad ECO debe poder responder.
 
-Entrevista Clínica Ontológica · ECO
 
 | Especialidad | SDO | Prometeo | ECO | Histos | Bloques de ECO en uso |
 | --- | ---: | ---: | ---: | --- | --- |
@@ -23,7 +23,6 @@ Entrevista Clínica Ontológica · ECO
 
 ### II.  Mediador Ontológico en Crisis
 
-Entrevista Clínica Ontológica · ECO
 
 > **§1  ·  MEDIADOR ONTOLÓGICO EN CRISIS**
 >
@@ -39,7 +38,6 @@ La pregunta que el mediador en crisis necesita que ECO responda no es solo cuál
 
 La localización que ECO produce se convierte, para este perfil, en el primer insumo de Histos. El mediador en crisis que termina una sesión de ECO tiene lo que necesita para saber cómo entrar al acompañamiento: no qué decirle al sujeto, sino desde qué
 
-Entrevista Clínica Ontológica · ECO
 
 configuración está el sujeto para escuchar, qué dirección tiene su voluntad, y qué errores de intervención debe evitar con esa configuración específica.
 
@@ -61,7 +59,6 @@ Los bloques que el mediador educativo activa son el Bloque I y el Bloque II para
 
 El mediador educativo necesita que ECO responda dos preguntas que a veces apuntan en la misma dirección y a veces no. La primera: ¿desde qué configuración de la voluntad está aprendiendo —o no aprendiendo— este estudiante? La segunda: ¿desde qué
 
-Entrevista Clínica Ontológica · ECO
 
 configuración de la voluntad colectiva opera la institución que produce ese resultado? La primera requiere el uso individual del Bloque I y el Bloque II. La segunda requiere el Bloque III.
 
@@ -81,7 +78,6 @@ El mediador organizacional trabaja el ego colectivo en entornos organizacionales
 
 El Bloque III es el núcleo del uso de ECO para este perfil. El mediador organizacional no entrevista a individuos para localizarlos individualmente: los entrevista para leer el ego colectivo del que
 
-Entrevista Clínica Ontológica · ECO
 
 forman parte. La distinción es técnica y tiene consecuencias en la administración del instrumento: las preguntas se formulan de manera diferente, las señales de observación apuntan a dimensiones diferentes, y la codificación opera sobre la percepción que el miembro tiene del colectivo, no sobre su posición propia.
 
@@ -99,7 +95,6 @@ La pregunta central del mediador organizacional es sobre el colectivo, no sobre 
 
 ### V.  Mediador Ontológico Estructural
 
-Entrevista Clínica Ontológica · ECO
 
 > **§4  ·  MEDIADOR ONTOLÓGICO ESTRUCTURAL**
 >
@@ -115,7 +110,6 @@ El mediador estructural es el único perfil que usa ECO habitualmente en combina
 
 #### Lo que ECO debe poder responder para este perfil
 
-Entrevista Clínica Ontológica · ECO
 
 Para el mediador estructural, ECO debe poder responder una pregunta con consecuencias técnicas precisas: ¿cuánto de la S estimada documentalmente se confirma o se ajusta cuando se localiza al actor en presencia? La respuesta a esa pregunta puede estrechar el rango de S, puede ampliar la incertidumbre si la localización en presencia contradice la documental, o puede resolver la ambigüedad de casos donde el árbol documental produjo una Declaración D por insuficiencia de evidencia.
 
@@ -135,7 +129,6 @@ Las secciones del Bloque III que el mediador modelador activa con mayor frecuenc
 
 #### El análisis de artefactos como uso central para este perfil
 
-Entrevista Clínica Ontológica · ECO
 
 El mediador modelador usa con frecuencia el protocolo de análisis de artefactos colectivos del Bloque III §4 como sustituto de la entrevista cuando los actores no están disponibles. Documentos institucionales, discursos fundacionales, rituales organizacionales, producciones culturales: todos son artefactos que el instrumento trata como evidencia del estado del ego colectivo. Para este perfil, ECO amplía la lógica del árbol documental al nivel del colectivo: en lugar de localizar a un actor individual desde un expediente, localiza a un ego colectivo desde el conjunto de artefactos que produjo.
 
@@ -155,7 +148,6 @@ El mediador modelador necesita que ECO responda una pregunta que tiene naturalez
 
 El Mediador en Memoria Comunitaria es el perfil más reciente del paradigma y el que opera con la unidad de análisis más singular: la comunidad como ego colectivo en su dimensión temporal. Su pregunta central no es solo cuál es la configuración presente del ego
 
-Entrevista Clínica Ontológica · ECO
 
 colectivo —eso lo responden también el organizacional y el modelador— sino cómo esa configuración presente se relaciona con lo que fue, con lo que es ahora, y con lo que nunca llegó a ser.
 
@@ -169,7 +161,6 @@ El Eje V del Bloque II es el eje más relevante para este perfil porque la pérd
 
 #### Perfiles de entrada al perfil
 
-Entrevista Clínica Ontológica · ECO
 
 El Mediador en Memoria Comunitaria tiene perfiles de entrada desde disciplinas que no son habituales en el paradigma: antropología, historia, artes visuales, gestión cultural. Eso tiene consecuencias para la manera en que este perfil usa ECO. Un antropólogo que administra ECO tiene formación en trabajo de campo, entrevistas etnográficas y lectura de artefactos culturales que un psicólogo no tiene. Un historiador tiene acceso a fuentes primarias y lectura crítica de documentos que un coach no tiene. ECO incorpora esa formación previa en lugar de ignorarla: el protocolo de análisis de artefactos del Bloque III §4 y las preguntas a portadores de memoria del Bloque III §5 están diseñados para ser administrados por alguien con ese perfil disciplinar.
 
@@ -185,7 +176,6 @@ La pregunta que el Mediador en Memoria Comunitaria necesita que ECO responda tie
 
 ### VIII.  Lo que todos los perfiles comparten
 
-Entrevista Clínica Ontológica · ECO
 
 Seis perfiles. Seis preguntas centrales distintas. Seis proporciones de uso distintas. Un solo instrumento. Lo que todos los perfiles comparten cuando usan ECO no es solo el conjunto de preguntas y criterios: es la operación fundamental que el instrumento realiza, que es la misma con independencia de quién lo administre y para qué fin.
 
@@ -195,7 +185,9 @@ Esta es la razón por la que todos los perfiles de mediador, independientemente 
 
 > *El mediador que conoce su especialidad, pero no conoce el instrumento usa ECO como si fuera un cuestionario. El mediador que conoce el instrumento, pero no su especialidad lo usa sin saber qué busca. Solo quien conoce ambas cosas puede producir una localización que sea técnicamente válida y clínicamente útil.*
 
-Notas al capítulo P·2
+---
+
+## Notas al capítulo P·2
 
 1 Las proporciones de uso (SDO / Prometeo / ECO / Histos) son orientaciones, no prescripciones. Un caso específico puede llevar a un mediador organizacional a hacer un uso más intensivo de ECO del que su proporción habitual indica, si el ego colectivo que analiza requiere entrevista directa a sus miembros. Las proporciones describen el trabajo habitual de cada especialidad, no el límite de uso del instrumento.
 
@@ -204,4 +196,3 @@ Notas al capítulo P·2
 3 La distinción entre el uso individual y el uso colectivo de ECO no implica que sean dos instrumentos distintos. Es el mismo instrumento con la misma estructura de módulos, aplicado a unidades de análisis diferentes. Lo que cambia es la formulación de las preguntas (orientadas al colectivo en lugar de al individuo), las señales de observación (artefactos e interacciones grupales en lugar de conducta individual en sesión) y el protocolo de codificación (distribución colectiva de P(Hijos) en lugar de distribución individual). El Bloque III desarrolla estas diferencias con la precisión que el uso colectivo requiere.
 
 4 El Mediador Estructural es el único perfil cuya administración de ECO está habitualmente precedida por el árbol documental del Capítulo U·1 de la Taxonomía. Eso produce un orden de operaciones que los demás perfiles no tienen: árbol documental primero, ECO como verificación y completamiento. El protocolo de cruce entre ambas fuentes —que el Capítulo P·5 establece— es especialmente relevante para este perfil porque la contradicción entre P(Hijos) documental y P(Hijos) relacional tiene consecuencias directas en la estimación de S.
-
