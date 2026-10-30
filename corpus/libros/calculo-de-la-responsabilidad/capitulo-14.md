@@ -477,7 +477,7 @@ El daño total observado es la función del conjunto completo.
 
 = (1/6) × [(v ({1}) − v (∅)) + (v ({1,2}) − v ({2})) + (v ({1,3}) − v ({3})) + (v ({1,2,3}) − v ({2,3})) + (v ({1,2,3}) − v ({2,3})) ← dos órdenes distintos dan el mismo resultado
 
-+ (v ({1,3,2}) − v ({3,2}))]
+\+ (v ({1,3,2}) − v ({3,2}))]
 
 #### φ₁ = (1/6) × [(0.22−0) + (0.70−0.40) + (0.42−0.15) +
 
@@ -601,5 +601,6 @@ import numpy as np from scipy.stats import pearsonr from itertools import combin
 Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026
 
 Continúa en la Parte V — Humanidades y ciencias sociales
+
 
 
