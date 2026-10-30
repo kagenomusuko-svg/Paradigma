@@ -1,6 +1,5 @@
-### B·I·F · MÓDULO FOBOS
-
-#### La voluntad que reacciona ante la amenaza
+# B·I·F · MÓDULO FOBOS
+## La voluntad que reacciona ante la amenaza
 
 *Localización del Hijo de la reacción defensiva concreta*
 
@@ -12,7 +11,6 @@ Esa velocidad no es un defecto del sujeto. Es la estructura de Fobos. La primera
 
 La pregunta que el instrumento busca responder no es si la amenaza era real —eso no es evaluable desde la sesión de ECO. Es si la voluntad del sujeto estaba orientada desde Fobos en el momento del acto analizado. Un sujeto puede reaccionar desde Fobos ante una
 
-Entrevista Clínica Ontológica · ECO
 
 amenaza genuina y ante una percibida: Fobos no requiere que la amenaza sea objetivamente grave. Requiere que sea concreta para el sujeto —que tenga objeto identificable— y que la voluntad haya respondido a ella antes de que pudiera evaluarla.
 
@@ -28,7 +26,6 @@ La legibilidad de Fobos tiene un riesgo específico: porque es el Hijo más visi
 >
 > La posición de v_t desde la cual la voluntad orienta un acto en respuesta a una amenaza externa concreta, antes de que φ₂ pueda intervenir con la distancia suficiente para evaluar la proporción de esa respuesta. Fobos no es un estado permanente del sujeto: es la posición de la voluntad en el momento del acto analizado.
 
-Entrevista Clínica Ontológica · ECO
 
 ### II.  Criterios de entrada y reglas SKIP
 
@@ -112,7 +109,6 @@ Si el sujeto no responde a alguna pregunta de sondeo: el mediador espera 10 segu
 
 ### V.  Señales de observación directa
 
-### Entrevista Clínica Ontológica · ECO
 
 Las señales de observación directa son lo que el mediador observa en la conducta del sujeto durante la sesión —no en lo que el sujeto dice, sino en cómo se comporta mientras lo dice y mientras escucha. Son la fuente de evidencia EP-1 cuando se producen de manera sostenida, y EP-4 cuando se producen en momentos aislados. El mediador que entrena su atención hacia estas señales tiene acceso a información que ninguna pregunta puede producir.
 
@@ -129,7 +125,6 @@ Las señales de observación directa son lo que el mediador observa en la conduc
 
 Tres conductas del sujeto en sesión que el mediador puede confundir con señales de Fobos y que requieren verificación antes de incorporarse como evidencia. La primera es el entusiasmo narrativo: el sujeto que narra con energía y velocidad un evento del que está orgulloso no está en Fobos —está en Anteros o en Eros. La señal de Fobos tiene urgencia reactiva; el entusiasmo narrativo tiene energía proactiva. La pregunta discriminante: ¿el sujeto está respondiendo a algo o afirmando algo? La segunda es la indignación moral: el sujeto que describe injusticia con indignación puede estar en Anteros (afirmación del eje propio contra lo que lo viola) y no en Fobos (reacción ante la amenaza). La indignación de Anteros tiene distancia: el sujeto puede nombrar la injusticia sin que el nombramiento reproduzca la urgencia. La indignación de Fobos no tiene esa distancia: el sujeto se reactiva al nombrarla. La tercera es el estilo de personalidad expresivo: algunos sujetos hablan de manera intensa y gesticulada sobre cualquier tema. El mediador que no ha calibrado el nivel basal del sujeto puede confundir el estilo con la señal. La calibración ocurre en la apertura narrativa: si el sujeto es igualmente expresivo al hablar de un evento neutro, la expresividad no es señal de Fobos.
 
-Entrevista Clínica Ontológica · ECO
 
 ### VI.  Árbol de decisión interno del módulo
 
@@ -188,7 +183,6 @@ Una instrucción técnica importante: la pregunta discriminante no debe formular
 
 La codificación del Módulo Fobos produce uno de los cuatro códigos estándar del instrumento, con el nivel EP que sustenta esa codificación y la señal observacional específica que la fundamenta.
 
-### Entrevista Clínica Ontológica · ECO
 
 ### La tabla que sigue establece los criterios con sus anclas conductuales y ejemplos de respuestas que corresponden a cada código.
 
@@ -203,7 +197,6 @@ La codificación del Módulo Fobos produce uno de los cuatro códigos estándar 
 
 La codificación H-3 en el Módulo Fobos requiere las tres condiciones siguientes de manera simultánea. Primera: narrativa de reacción ante amenaza concreta con objeto externo identificable en al menos dos episodios distintos de la historia del sujeto o del período analizado. Segunda: la certeza de la atribución en la narrativa supera lo que la evidencia que el sujeto ofrece puede sostener —no basta con que haya atribución, debe ser desproporcionada. Tercera: al menos una señal de observación directa en la sesión que corrobore la narrativa (urgencia en el tono, retorno espontáneo al objeto de la amenaza, señal corporal de activación). Las tres condiciones juntas producen H-3. Si falta alguna, el código máximo es H-2.
 
-Entrevista Clínica Ontológica · ECO
 
 > *La segunda condición —la desproporción de la certeza respecto a la evidencia— es la más importante y la más difícil de evaluar. El mediador que evalúa si la atribución del sujeto es proporcional necesita resistir la tentación de decidir si el sujeto tiene razón o no sobre la realidad de la amenaza. Eso no es evaluable desde ECO. Lo que es evaluable es si la certeza con que el sujeto presenta la atribución excede lo que la narrativa que ofrece puede fundamentar. Un sujeto que dice «sé que fue esa persona la que causó el problema» con base en una conversación de pasillo ha producido una certeza mayor a lo que su evidencia sostiene, independientemente de si tiene razón o no.*
 
@@ -223,7 +216,6 @@ La relación entre el código H y el nivel EP determina el rango de peso admisib
 
 Cuando Fobos coexiste con señales de otro Hijo en la misma sesión —lo que es frecuente— la distribución refleja esa coexistencia. La coexistencia más frecuente es Fobos/Deimos: el sujeto que reacciona ante amenazas concretas (Fobos) y que también se paraliza ante la multiplicidad de opciones (Deimos). En ese caso, ninguno de
 
-Entrevista Clínica Ontológica · ECO
 
 los dos es el único Hijo presente: ambos reciben peso y la suma de los dos puede alcanzar 0.80 si los dos tienen señal sólida, dejando 0.20 para los demás Hijos.
 
@@ -239,7 +231,6 @@ El ego soberano en Fobos arrastra la segunda mediación colectiva en la misma di
 
 #### Preguntas orientadas al ego colectivo para este módulo
 
-Entrevista Clínica Ontológica · ECO
 
 > **Pregunta ancla — Ego colectivo (Fobos)**
 >
@@ -255,7 +246,6 @@ La escala EP aplica al ego colectivo con ajustes en la descripción de cada nive
 
 ### XI.  Principios de intervención para este hallazgo
 
-Entrevista Clínica Ontológica · ECO
 
 Los principios que siguen orientan al mediador sobre qué hacer con lo que encontró en este módulo. No son prescripciones de proceso: eso pertenece a Histos. Son orientaciones que evitan los errores más frecuentes de intervención cuando la localización es Fobos, y que señalan cuándo el hallazgo supera el alcance de ECO.
 
@@ -271,7 +261,6 @@ El tercer error es asumir que Fobos es un problema que el sujeto debe resolver. 
 
 El mediador que encuentra Fobos como señal en sesión hace visible la dirección de la energía sin nombrar el Hijo. No «estás en Fobos»: sino preguntas que orientan la atención del sujeto hacia lo que su propio relato ya contiene. «¿A qué estabas respondiendo en ese momento?» «¿Qué te produjo moverse tan rápido?» «¿Qué habrías
 
-Entrevista Clínica Ontológica · ECO
 
 hecho si hubiera habido más tiempo antes de tener que responder?» Estas preguntas no califican la reacción del sujeto: le dan espacio para observarla.
 
@@ -289,11 +278,12 @@ La localización de Fobos como Hijo dominante con H-3 y EP-1 es la condición qu
 
 El Módulo Fobos puede revelar dos tipos de situación que superan el alcance de ECO y que el mediador debe reconocer. La primera es Fobos ante una amenaza real e inminente: cuando lo que el sujeto describe no es una reacción desproporcionada sino una respuesta a una amenaza genuina que existe en el presente —violencia, persecución, situación de peligro real. ECO no es el instrumento para trabajar con sujetos en peligro real: el principio de derivación
 
-Entrevista Clínica Ontológica · ECO
 
 del paradigma se aplica con toda su fuerza. La segunda es Fobos asociado a síntomas que superan el nivel ontológico: cuando la urgencia reactiva que el sujeto describe viene acompañada de síntomas que orientan hacia una condición clínica que requiere evaluación psicológica o psiquiátrica. ECO puede coexistir con esa evaluación, pero no puede sustituirla.
 
-Notas al Módulo B·I·F
+---
+
+## Notas al Módulo B·I·F
 
 1 La propiedad definitoria de Fobos —la velocidad de la respuesta que precede al reconocimiento— tiene su fundamento en la estructura de la doble mediación. Cuando v_t está orientado hacia la amenaza, φ₁ produce la respuesta antes de que φ₂ pueda operar. Esto no significa que φ₂ esté ausente o bloqueada (eso sería E-3): significa que el intervalo de tiempo en que φ₂ puede intervenir antes de que el acto ocurra es demasiado corto dado el estado de v_t. Fobos no es un bloqueo de φ₂: es una aceleración de φ₁ que deja a φ₂ sin tiempo de intervención efectiva.
 
@@ -303,10 +293,6 @@ Notas al Módulo B·I·F
 
 4 El Módulo Fobos es el primer módulo del Bloque I y el que más frecuentemente se administra cuando el mediador tiene señal clara desde la apertura narrativa. Eso lo convierte también en el módulo donde los errores de codificación son más frecuentes porque el mediador todavía está calibrando el instrumento. La instrucción de usar el Módulo Fobos como calibrador no
 
-Entrevista Clínica Ontológica · ECO
 
 significa que los errores en él sean sin consecuencias: una codificación incorrecta de Fobos contamina la distribución P(Hijos) completa porque los pesos de los demás Hijos se ajustan en relación al peso de Fobos. El mediador que sobrecodifica Fobos —asigna H-3 con EP insuficiente— produce una distribución donde los demás Hijos tienen pesos menores a los que la evidencia justifica.
-
-Entrevista Clínica Ontológica · ECO
-
 
