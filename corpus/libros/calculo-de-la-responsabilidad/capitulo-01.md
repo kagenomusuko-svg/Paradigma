@@ -1,10 +1,9 @@
-PARTE I · CIENCIAS JURÍDICAS Y SOCIALES
+# Capítulo 1
+## Derecho penal y civil
 
-### Capítulo 1 Derecho penal y civil
+*Responsabilidad causal, inversión causal y el chivo expiatorio estructural*
 
-Responsabilidad causal, inversión causal y el chivo expiatorio
-
-estructural
+---
 
 ### §1.  El problema
 
@@ -14,9 +13,8 @@ Mientras tanto, a ninguna distancia medible en el organigrama, los ejecutivos qu
 
 Esta no es una situación excepcional. Es el funcionamiento ordinario del sistema de imputación basado en el dolo.
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
-### 1.1 El problema del dolo en sistemas complejos
+#### 1.1 El problema del dolo en sistemas complejos
 
 Los sistemas jurídicos modernos construyen la responsabilidad penal sobre el dolo: para que alguien responda penalmente por un daño, debe haber querido producirlo, o al menos haber actuado con imprudencia suficiente. Esta construcción tiene una historia y una lógica impecables cuando el dañador y el dañado están en contacto directo: quien golpea a quien, quien roba a quien, quien falsifica el documento que firma.
 
@@ -26,17 +24,15 @@ El resultado estructural de este desfase es la inversión causal: el nodo del si
 
 Analogía: El arquitecto y el obrero Un arquitecto diseña un edificio con un defecto estructural grave. El obrero lo construye siguiendo los planos al pie de la letra. El edificio colapsa. El sistema basado en el dolo pregunta: ¿quién puso el ladrillo defectuoso? El obrero. El sistema de imputación causal pregunta: ¿sin el defecto en los planos, habría colapsado el edificio? No. El arquitecto es el nodo de diseño. El obrero es altamente sustituible: cualquier otro habría construido lo mismo siguiendo los mismos planos.
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
-### 1.2 Lo que el sistema de imputación causal propone
+#### 1.2 Lo que el sistema de imputación causal propone
 
 Este capítulo presenta la aplicación del cálculo de la responsabilidad al derecho penal y civil. La propuesta no es reemplazar el criterio del dolo ni ignorar la intención: es situarlos en un análisis más completo donde la pregunta sobre la causalidad viene antes que la pregunta sobre la intención.
 
 La secuencia es: primero se construye el grafo causal del caso y se calcula R*, que distribuye la responsabilidad causal objetiva entre todos los actores. Luego se estima S para cada nodo, que determina cuánto de esa responsabilidad era estructural y cuánto era idiosincrática. Luego se estima α, que mide la asunción efectiva. Y de esa combinación emerge Δ: la brecha entre lo que cada nodo causó y lo que ha reconocido.
 
-Nota de interpretación ontológica:  El dolo es la primera mediación φ₁ actuando con conocimiento pleno del resultado probable. La culpa es φ₁ actuando con un déficit de información o de deliberación que el sujeto podría haber subsanado. En ambos casos hay acto, hay posición causal y hay responsabilidad (R* > 0). La diferencia está en cómo se produjo la determinación de la voluntad, no en si hubo determinación.
+> **Nota de interpretación ontológica:** El dolo es la primera mediación φ₁ actuando con conocimiento pleno del resultado probable. La culpa es φ₁ actuando con un déficit de información o de deliberación que el sujeto podría haber subsanado. En ambos casos hay acto, hay posición causal y hay responsabilidad (R* > 0). La diferencia está en cómo se produjo la determinación de la voluntad, no en si hubo determinación.
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 ### §2.  Página puente — Traducción al lenguaje jurídico
 
@@ -68,7 +64,6 @@ Lo que el actor ha reconocido y reparado: desde la negación (α ≈ 0) hasta la
 
 Δ > 0: causó más de lo que reconoció. Δ < 0: carga más de lo que causó (chivo expiatorio).
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 D_total Daño total cuantificado
 
@@ -88,11 +83,10 @@ Hijos de Afrodita
 
 Disposición interna del actor
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 ### §3.  Las herramientas en el contexto jurídico
 
-### 3.1 Cómo construir el grafo causal en derecho
+#### 3.1 Cómo construir el grafo causal en derecho
 
 El grafo causal de un caso jurídico se construye en cuatro pasos. El rigor de todo el análisis posterior depende de la calidad de este paso: un grafo mal construido produce un R* que distribuye responsabilidades incorrectamente.
 
@@ -100,7 +94,6 @@ El grafo causal de un caso jurídico se construye en cuatro pasos. El rigor de t
 
 Tipo de evidencia Qué acredita Peso que sustenta
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 w alto (0.75–0.95)
 
@@ -138,17 +131,16 @@ Que el nodo de diseño omitió crear la estructura que habría impedido el daño
 
 w del nodo omisivo sobre el resultado
 
-### 3.2 R* en derecho: la responsabilidad causal sin dolo
+#### 3.2 R* en derecho: la responsabilidad causal sin dolo
 
 Una vez construido el grafo, R* se calcula mediante la iteración de potencia sobre la matriz de pesos W. El resultado es el vector de responsabilidad causal: la fracción del daño total que es causalmente atribuible a cada nodo dado el grafo de influencias del caso.
 
 Esta independencia del dolo es la principal novedad del cálculo en el contexto jurídico. Permite identificar y cuantificar la responsabilidad del diseñador institucional en casos donde el dolo del diseñador es difícil de probar, pero su posición causal es inequívoca.
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 ¿R* reemplaza al dolo?  No. R* y el dolo responden preguntas distintas. R* responde: ¿qué fracción del daño causó causalmente este nodo? El dolo responde: ¿este nodo quiso producir ese daño? R* viene primero (determina si hay responsabilidad causal). El dolo viene después (determina el grado de culpabilidad subjetiva y el tipo de sanción aplicable).
 
-### 3.3 El índice de sustituibilidad S como argumento defensivo
+#### 3.3 El índice de sustituibilidad S como argumento defensivo
 
 En derecho penal y civil, S es la formalización del argumento "cualquiera habría hecho lo mismo". Este argumento ha existido siempre en la defensa de ejecutores en sistemas institucionales complejos, pero nunca había tenido una medida numérica reproducible.
 
@@ -162,11 +154,10 @@ R*_neta_i = R*ᵢ · (1 − Sᵢ)
 
 Con S = 0.90 y R* = 0.10, la responsabilidad causal neta es 0.10 × 0.10 = 0.01: el uno por ciento del daño total. El noventa y nueve por ciento restante corresponde al diseño del sistema.
 
-### 3.4 El déficit de asunción Δ y la inversión causal
+#### 3.4 El déficit de asunción Δ y la inversión causal
 
 Δᵢ = R*ᵢ − αᵢ
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 Perfil Δ Patrón típico Consecuencia jurídica
 
@@ -192,11 +183,11 @@ El análisis se centra en D_total y distribución de la indemnización.
 
 La asunción es aproximadamente proporcional a la causalidad.
 
-### 3.5 El daño total en derecho
+#### 3.5 El daño total en derecho
 
-### D_total = T_invertido + T_impedido +
+#### D_total = T_invertido + T_impedido +
 
-### ΔT_trayectoria
+#### ΔT_trayectoria
 
 Componente Equivalente en derecho
 
@@ -214,7 +205,6 @@ Lo que el sujeto dejó de generar durante el
 
 Proyecciones de ingresos históricos, peritajes, cotizaciones.
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 período de recuperación.
 
@@ -224,17 +214,16 @@ La pérdida permanente de potencial que persiste aun después de la recuperació
 
 Peritaje sobre brecha salarial futura, impacto de antecedentes en el mercado.
 
-### 3.6 El dinero como tiempo de vida: la dualidad ontológica del daño
+#### 3.6 El dinero como tiempo de vida: la dualidad ontológica del daño
 
 Principio ontológico:  El trabajo es un colapso. El sujeto colapsa horas de su vida —posibilidades de existencia— en acto productivo. El dinero que resulta es la huella de ese colapso: tiempo de vida cristalizado en valor de intercambio. Dañar el patrimonio de alguien no es alterar un número abstracto: es apropiarse del tiempo de vida que ese número representa.
 
 Esta premisa ontológica tiene una consecuencia matemática directa: todo daño monetario puede y debe ser expresado simultáneamente en dos unidades. La primera es la unidad monetaria, que mide lo que se puede compensar económicamente. La segunda es la unidad de tiempo de vida, que mide lo que se destruyó como existencia. Ninguna de las dos reduce a la otra: son dos perspectivas irreducibles del mismo daño.
 
-### La conversión fundamental
+#### La conversión fundamental
 
 La conversión entre daño monetario y tiempo de vida requiere un salario de referencia social, no el salario personal. Esto es un principio ontológico cardinal del sistema: el tiempo de vida es igual para todos. Una hora de
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 vida de un niño judío vale lo mismo que una hora de vida de cualquier otro ser humano, independientemente de su ingreso. Si se usara el salario personal, las vidas de las personas con menor ingreso "costarían menos" en el cálculo, lo cual contradice el fundamento del sistema.
 
@@ -258,11 +247,10 @@ La primera mide lo que los actores deben reparar económicamente. La segunda mid
 
 El daño vital cuando el bien destruido es la vida misma
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 Cuando el daño no es solo patrimonial, sino que destruye directamente tiempo de vida —muerte, encarcelamiento injusto, enfermedad grave, pérdida de años de desarrollo— la fórmula se expande para capturar tres dimensiones:
 
-### D_vital_total = D_vital_directo + D_vital_generacional + D_vital_supervivientes
+#### D_vital_total = D_vital_directo + D_vital_generacional + D_vital_supervivientes
 
 Componente Fórmula Interpretación
 
@@ -278,7 +266,6 @@ D_vital_supervivientes Σₘ [ L_restante(m) × (1 − q_real(m)) ]
 
 q_real(m) = calidad de vida efectiva del superviviente m respecto a la que habría tenido sin el daño. Captura el tiempo de vida vivido en
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 condiciones de daño, no la muerte.
 
@@ -288,7 +275,7 @@ D_monetary_equiv = D_vital_total × w_ref
 
 ⚠ Cuando D_monetary_equiv supera la capacidad material de reparación de todos los actores responsables, la fórmula no falla: cumple su función ontológica más importante. Hace visible con precisión matemática que ese daño es inconmensurable con cualquier compensación finita. No es un límite del método; es uno de sus resultados más significativos.
 
-### 3.7 El beneficio del daño: ¿quién ganó?
+#### 3.7 El beneficio del daño: ¿quién ganó?
 
 En el contexto jurídico, el cálculo del beneficio tiene dos aplicaciones. En derecho civil, la acción de enriquecimiento sin causa requiere demostrar que alguien se enriqueció a costa de otro sin fundamento legítimo: B_total y el vector R*_B permiten cuantificar ese enriquecimiento. En derecho penal, la confiscación de bienes producto del delito requiere rastrear causalmente qué nodos se beneficiaron: R*_B identifica al beneficiario real, aunque no haya firmado nada.
 
@@ -296,9 +283,8 @@ El déficit de reconocimiento Δ_B = R*_B − β, donde β es el beneficio efect
 
 Fraude annona en el contexto corporativo:  Cuando una institución recibe capital —trabajo, lealtad de empleados, confianza de clientes— y no genera las condiciones que prometió, hay fraude annona. En derecho esto se mapea sobre abuso de confianza, responsabilidad del administrador y violación al deber fiduciario.
 
-### 3.8 Los hijos de Afrodita en el análisis jurídico
+#### 3.8 Los hijos de Afrodita en el análisis jurídico
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 El hijo dominante de un nodo en el momento de los hechos responde la pregunta que el dolo hace —¿desde qué disposición actuó este actor? — con mayor precisión que el análisis intencional tradicional. El hijo no modifica R* (la causalidad no depende de la disposición interna) pero sí modifica la interpretación de α y la evaluación del tipo de culpabilidad subjetiva.
 
@@ -346,15 +332,13 @@ Equilibrio con φ₂ activa.
 
 Si hubo daño: mayor
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 responsabilidad , no menor.
 
 Plena deliberación.
 
-Nota ontológica sobre el ego colectivo en derecho:  Las instituciones no tienen voluntad propia: tienen ego colectivo prestado. Sus "hijos" son los de quienes ejercen el poder de decisión en su nombre. Cuando se analiza el hijo dominante de una institución, se analiza en realidad el perfil de sus directivos en el momento de las decisiones relevantes.
+> **Nota ontológica sobre el ego colectivo en derecho:** Las instituciones no tienen voluntad propia: tienen ego colectivo prestado. Sus "hijos" son los de quienes ejercen el poder de decisión en su nombre. Cuando se analiza el hijo dominante de una institución, se analiza en realidad el perfil de sus directivos en el momento de las decisiones relevantes.
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 ### §4.  Casos resueltos
 
@@ -372,7 +356,6 @@ Hannah Arendt, en su cobertura del juicio a Eichmann en 1961, formuló la pregun
 
 A.2 Construcción del grafo
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 Actor Tipo Función causal
 
@@ -398,7 +381,6 @@ Ejecución directa
 
 Llevaron a cabo los actos físicos. Máxima visibilidad documental, mínima autonomía de diseño.
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 N5 Poblaciones colaboradoras / Estados satélite
 
@@ -408,7 +390,7 @@ En algunos países, las autoridades locales facilitaron la deportación y el ext
 
 Nf Las víctimas Nodo final No entra en el cálculo de R*.
 
-### A.3 Pesos y cálculo de R*
+#### A.3 Pesos y cálculo de R*
 
 Desde Hacia Peso w
 
@@ -426,9 +408,8 @@ N3 N4 0.75 Los comandantes transmitían órdenes a los ejecutores directos.
 
 N1 N5 0.60 Los regímenes colaboradores actuaban bajo presión política y militar de N1, aunque con mayor autonomía relativa.
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
-### Tras convergencia de la iteración de potencia, el vector R* estabilizado es:
+#### Tras convergencia de la iteración de potencia, el vector R* estabilizado es:
 
 Nodo Actor R* final
 
@@ -454,15 +435,14 @@ N4 Guardias / ejecutores
 
 N5 Colaboradores externos
 
-### A.4 La sustituibilidad de Eichmann: formalizando a Arendt
+#### A.4 La sustituibilidad de Eichmann: formalizando a Arendt
 
-### La pregunta de Arendt —¿era Eichmann el mal encarnado o era un burócrata reemplazable? — es exactamente la pregunta que S responde.
+#### La pregunta de Arendt —¿era Eichmann el mal encarnado o era un burócrata reemplazable? — es exactamente la pregunta que S responde.
 
-### S_Eichmann = (0.88 + 0.92 + 0.85) / 3 = 0.88
+#### S_Eichmann = (0.88 + 0.92 + 0.85) / 3 = 0.88
 
 S = 0.88 formaliza lo que Arendt describió como "la banalidad del mal": Eichmann era altamente sustituible. Cualquier otro funcionario competente en su posición, bajo las mismas instrucciones y presiones, habría coordinado las
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 mismas deportaciones. Su responsabilidad causal neta dentro de N2 es:
 
@@ -480,11 +460,17 @@ El Holocausto es el caso donde la fórmula del tiempo de vida cumple su función
 
 Parámetros de referencia para el cálculo:
 
-•  Víctimas directas del Holocausto: ~6,000,000 personas. •  Expectativa de vida promedio al momento del daño (1941-1945): ~65 años = 569,400 horas de vida restante promedio. •  Factor de calidad q = 0 para las víctimas asesinadas (pérdida total). •  Tasa de fertilidad histórica de la comunidad judía europea: ~2.8 hijos por mujer por generación. •  Generaciones eliminadas calculadas al año 2025: 2.5 generaciones completas.
+- Víctimas directas del Holocausto: ~6,000,000 personas.
+- Expectativa de vida promedio al momento del daño (1941-1945): ~65 años = 569,400 horas de vida restante promedio.
+- Factor de calidad q = 0 para las víctimas asesinadas (pérdida total).
+- Tasa de fertilidad histórica de la comunidad judía europea: ~2.8 hijos por mujer por generación.
+- Generaciones eliminadas calculadas al año 2025: 2.5 generaciones completas.
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
-•  Supervivientes (estimados): ~200,000–300,000 con q_real promedio ≈ 0.55 (pérdida del 45% de calidad de vida por trauma, desplazamiento, pérdida de comunidad y familia). •  Salario de referencia social global (en USD PPP 2024): ~$8 por hora.
+
+- Supervivientes (estimados): ~200,000–300,000 con q_real promedio ≈ 0.55 (pérdida del 45% de calidad de vida por trauma, desplazamiento, pérdida de comunidad y familia).
+- Salario de referencia social global (en USD PPP 2024): ~$8 por hora.
+
 
 D_vital_directo:
 
@@ -502,7 +488,7 @@ La primera generación eliminada habría producido en promedio 2.8 hijos. La seg
 
 D_vital_generacional ≈ 6,000,000 × 10 × 569,400 h =
 
-### 3.416 × 10¹³ horas de vida
+#### 3.416 × 10¹³ horas de vida
 
 D_monetary_generacional ≈ $273 billones USD
 
@@ -516,7 +502,6 @@ D_vital_supervivientes = 250,000 × (años_vida_restante × 8,760 h/año) × (1 
 
 vida
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 D_monetary_supervivientes ≈ $315,000 millones USD
 
@@ -532,9 +517,8 @@ Las reparaciones pagadas por Alemania hasta 2024 ascienden a aproximadamente $90
 
 Cuando D_monetary_equiv supera en cuatro órdenes de magnitud la capacidad económica del responsable, el sistema no colapsa: identifica con precisión el límite donde la justicia reparadora cede a la justicia simbólica, memorial y estructural. El valor del α alemán no está en los 90,000 millones pagados sino en la transformación institucional, educativa y cultural que esos pagos acompañaron. Eso es lo que el cálculo no puede capturar, y es honesto en decirlo.
 
-Nota sobre el D_vital_generacional y el infinito calculable:  Técnicamente, D_vital_generacional crece sin límite superior si se extienden las generaciones al infinito. En la práctica se acota al número de generaciones transcurridas desde el daño hasta el momento del análisis. La razón no es matemática sino ontológica: las generaciones futuras que no han nacido aún no tienen tiempo de vida que haya sido destruido; solo las que habrían existido ya y no existen por el daño son calculables con certeza.
+> **Nota sobre el D_vital_generacional y el infinito calculable:** Técnicamente, D_vital_generacional crece sin límite superior si se extienden las generaciones al infinito. En la práctica se acota al número de generaciones transcurridas desde el daño hasta el momento del análisis. La razón no es matemática sino ontológica: las generaciones futuras que no han nacido aún no tienen tiempo de vida que haya sido destruido; solo las que habrían existido ya y no existen por el daño son calculables con certeza.
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 Caso B — Institución de banca comercial
 
@@ -550,7 +534,6 @@ Hecho imputado 1 — Acceso a expediente de cliente e instrucción a subordinada
 
 La institución sostiene que el antiguo gerente instruyó a dos subordinadas para que descargaran información del expediente de un cliente desde el sistema institucional. La evidencia disponible en el expediente consiste en: (a) un acta de hechos firmada tanto por las subordinadas como por el antiguo gerente, en la que las subordinadas manifiestan haber recibido la instrucción del gerente pero declaran expresamente no contar con documentación que
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 avale dicha afirmación; (b) registros de acceso al sistema que muestran que las subordinadas accedieron efectivamente al expediente del cliente y descargaron información; y (c) un correo electrónico cuya existencia fue inicialmente negada por la institución al requerimiento de la Fiscalía y que hasta la fecha no se ha integrado en la carpeta de investigación.
 
@@ -562,7 +545,6 @@ La institución imputa al antiguo gerente el artículo 112 quater fracción I de
 
 El antiguo gerente, por su parte, sostiene que como gerente de sucursal sí tenía facultades para revisar expedientes de clientes en el ejercicio de sus funciones de supervisión operativa y cumplimiento, y que dicho acceso era una práctica habitual en el desempeño del cargo. El perfil de puesto del gerente de sucursal, tal como está documentado públicamente por la institución, incluye explícitamente: "llevar a cabo procesos de comprobación diarios" e "investigar y minimizar pérdidas controlables del personal de la sucursal". Ambas funciones requieren acceso a los
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 expedientes de clientes. La institución diseñó un rol que exige ese acceso y simultáneamente argumenta que ese acceso era indebido.
 
@@ -580,7 +562,6 @@ N1 Institución (ego colectivo)
 
 Diseño Diseñó los sistemas de acceso, los roles y jerarquías. El acceso de las subordinadas al sistema es consecuencia del diseño institucional.
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 N2 Subordinadas Ejecución documentada
 
@@ -602,7 +583,6 @@ La sustituibilidad de las subordinadas (N2) es alta: actuaron dentro del sistema
 
 ⚠ El acta firmada por el antiguo gerente no constituye evidencia de que instruyó a las subordinadas. Constituye evidencia de que estuvo presente cuando ellas manifestaron que lo hicieron. La diferencia es jurídicamente fundamental: una es evidencia directa de conducta, la otra es evidencia de presencia sin controvertir un dicho ajeno. El sistema
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 probatorio basado en el dolo tiende a colapsar esa diferencia; el análisis causal la distingue con precisión.
 
@@ -622,7 +602,6 @@ Arista causal (Gerente → Fraude) no acreditada → w
 
 Adicionalmente, la denuncia fue presentada por la institución tres años después de la separación laboral del
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 antiguo gerente. Esta dilación temporal tiene consecuencias para el análisis: en el momento en que se inicia el proceso, el antiguo gerente lleva tres años sin acceso a los sistemas institucionales, sin posibilidad de cometer los hechos imputados en tiempo presente, y sin ningún nexo activo con la institución que denuncia.
 
@@ -634,7 +613,6 @@ B.4 Los hijos de Afrodita: la disposición interna del antiguo gerente
 
 En el momento en que ocurrieron los hechos imputados, el antiguo gerente era un funcionario de carrera operando dentro de las estructuras, jerarquías y presiones de una institución financiera de gran escala. Su disposición interna en esos momentos no era la de quien diseña una acción dañosa, sino la de quien actúa dentro de los límites de un rol institucional con alta presión de cumplimiento.
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 Nodo Hijo en los hechos
 
@@ -666,7 +644,6 @@ S = 0.88. Actuaron desde el sistema, no desde sí mismas.
 
 La paradoja ontológica central de este caso no es difícil de ver una vez que se tienen los hijos: el único actor que actuó con Anteros deliberado —con afirmación activa de su posición— es la institución, cuyo ego colectivo construyó una narrativa que la exonera y que fue presentada ante la
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 Fiscalía tres años después de los hechos. El antiguo gerente, cuyo perfil de voluntad es el de quien actúa desde el miedo y la obediencia institucional (Fobos + Deimos), es el procesado.
 
@@ -678,51 +655,47 @@ El análisis causal del expediente activo produce tres conclusiones estructurale
 
 El caso completo —incluyendo el análisis del B_total institucional, el D_total al antiguo gerente como consecuencia de la imputación, el fraude annona de la institución hacia su ex empleado y la ontología completa de todos los nodos en dos momentos temporales— se desarrolla en el Caso Eje al final del libro.
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 ### §5.  Límites del método en derecho
 
-### 5.1 El problema de la causalidad difusa acumulativa
+#### 5.1 El problema de la causalidad difusa acumulativa
 
 El método funciona bien cuando es posible identificar nodos individuales cuya exclusión del grafo habría impedido el daño. En casos donde el daño es el resultado de la acumulación de contribuciones marginales de muchos nodos —como el daño ambiental acumulativo— el postulado de la condición necesaria no se cumple para ningún nodo individual. La extensión mediante valores de Shapley (desarrollada en el Capítulo 13) ofrece una solución parcial.
 
-### 5.2 El problema de los pesos inobservables
+#### 5.2 El problema de los pesos inobservables
 
 La calidad de R* depende de la calidad de los pesos w. Cuando los documentos no existen, fueron destruidos o la instrucción fue verbal sin testigos, el análisis de sensibilidad es la herramienta adecuada: calcular R* bajo distintos escenarios de pesos y verificar si el orden de los nodos cambia o solo los porcentajes.
 
-### 5.3 R* y dolo no son equivalentes
+#### 5.3 R* y dolo no son equivalentes
 
 R* determina responsabilidad causal. No determina culpabilidad subjetiva en sentido jurídico-penal. Un nodo puede tener R* alto y dolo bajo (culpa grave) o R* bajo y dolo alto (tentativa fallida). R* viene primero, el dolo después.
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
-### 5.4 La tasa de descuento r y el salario de referencia w_ref
+#### 5.4 La tasa de descuento r y el salario de referencia w_ref
 
 Tanto r (en D_total) como w_ref (en D_vital) incorporan decisiones de valor que no tienen solución técnica. r determina el peso del futuro frente al presente. w_ref determina cuánto "vale" una hora de vida en términos monetarios. Ambas deben ser determinadas por peritaje con referencia a criterios explícitos y justificados. El cálculo provee la estructura; el peritaje, los parámetros.
 
-### 5.5 El D_vital_generacional y la acotación temporal
+#### 5.5 El D_vital_generacional y la acotación temporal
 
 El daño generacional crece sin límite si se extiende al infinito de generaciones. En la práctica se acota a las generaciones que habrían existido desde el daño hasta el momento del análisis. Esta acotación no es arbitraria: las generaciones futuras que aún no han nacido no tienen tiempo de vida destruido; solo las que ya habrían existido y no existen por el daño son calculables con certeza ontológica.
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 §6.  Profundización formal — Esta sección puede saltarse sin perder el argumento del capítulo
 
 ### §6.  Profundización formal
 
-### 6.1 La estructura matemática del grafo jurídico
+#### 6.1 La estructura matemática del grafo jurídico
 
 Sea G = (N, A, w) el grafo causal de un caso jurídico con n nodos. La matriz de pesos W ∈ ℝⁿˣⁿ se define como W_ij = w (Nᵢ → Nⱼ) si la arista existe, y 0 en caso contrario. Para que R* exista y sea único, W debe ser no negativa e irreducible.
 
-### 6.2 Teorema de Perron-Frobenius aplicado a la imputación causal
+#### 6.2 Teorema de Perron-Frobenius aplicado a la imputación causal
 
 Sea W una matriz n×n no negativa e irreducible. Entonces: (i) W tiene un único eigenvalor dominante real ρ(W) > 0. (ii) El eigenvector correspondiente R* tiene todas sus componentes estrictamente positivas. (iii) R* es el único vector con R*ᵢ > 0 para todo i y Σᵢ R*ᵢ = 1 tal que W · R* = ρ(W) · R*. Consecuencia jurídica: ningún nodo causalmente conectado puede tener R* = 0.
 
-### 6.3 El Teorema de Inversión Causal
+#### 6.3 El Teorema de Inversión Causal
 
 Proposición: En un grafo con nodo de diseño N_d y ejecutores N_{eⱼ} con S alto, bajo un sistema jurídico que exige dolo para imputar, el sistema imputa sistemáticamente a los nodos de menor R* y mayor visibilidad documental, protegiendo estructuralmente al nodo de mayor R*.
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 (1) Por Perron-Frobenius: R*_d > R*_{eⱼ} cuando w (d, eⱼ) es alto.
 
@@ -734,7 +707,7 @@ El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 Corolario: la inversión causal no es una conspiración. Es la consecuencia matemáticamente inevitable de aplicar un criterio subjetivo (el dolo) a un universo de responsabilidad objetiva (la causalidad estructural).
 
-### 6.4 Derivación formal de la dualidad ontológica del daño
+#### 6.4 Derivación formal de la dualidad ontológica del daño
 
 Sea X(t) el proceso de bienestar del sujeto y w_ref el salario de referencia social. El tiempo de vida equivalente a un monto monetario M es:
 
@@ -748,7 +721,6 @@ D_total_monetary / w_ref ∈ ℝ⁺
 
 La elección de w_ref = salario de referencia social (no personal) garantiza la igualdad ontológica de las horas de
 
-El Cálculo de la Responsabilidad · Cap. 1 — Derecho penal y civil
 
 vida: τ(M) es la misma función para cualquier sujeto, con independencia de su ingreso. Esta es la formalización de la premisa: el tiempo de vida es igual para todos.
 
@@ -766,7 +738,7 @@ D_vital_total = D_vital_directo + D_vital_generacional + D_vital_supervivientes
 
 La expresión monetaria equivalente D_monetary_equiv = D_vital_total × w_ref no es el monto que debe pagarse como indemnización. Es la medida de la magnitud ontológica del daño expresada en la unidad convencional de valor. Cuando D_monetary_equiv supera la capacidad económica de los responsables, la fórmula cumple su función más importante: hace visible que el daño es inconmensurable con cualquier reparación finita posible.
 
-### 6.5 La descomposición de Itô del daño en tres componentes
+#### 6.5 La descomposición de Itô del daño en tres componentes
 
 Sea X(t) el proceso de bienestar modelado como proceso de Itô con saltos: dX(t) = μ(t)dt + σ(t)dW(t) + Σₖ Δₖ·dNₖ(t). El daño introduce D(t) = E[X(t)|sin daño] − E[X(t)|con daño]. Por la fórmula de Dynkin:
 
@@ -778,7 +750,7 @@ Los tres dominios de integración son disjuntos, lo que garantiza que la descomp
 
 ninguna unidad de daño se cuenta dos veces. Reclamar T_invertido, T_impedido y ΔT_trayectoria simultáneamente no implica doble contabilización. Demostración completa en Apéndice A.3.
 
-### 6.6 Código Python de referencia
+#### 6.6 Código Python de referencia
 
 El siguiente código implementa el análisis completo incluyendo la dualidad ontológica del daño:
 
@@ -790,5 +762,4 @@ Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y A
 
 Continúa en el Capítulo 2 — PLD y compliance
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
