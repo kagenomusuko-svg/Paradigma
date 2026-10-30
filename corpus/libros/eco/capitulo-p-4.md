@@ -1,4 +1,4 @@
-### Capítulo P·4
+# Capítulo P·4
 
 ## Convenciones del instrumento
 
@@ -14,7 +14,6 @@ Las convenciones tienen tres niveles. El primero es la notación y los símbolos
 
 La tabla que sigue recoge todos los símbolos y notaciones que aparecen en los módulos de ECO, con su categoría y su significado
 
-Entrevista Clínica Ontológica · ECO
 
 técnico preciso. Los símbolos del sistema ontológico (φ₁, φ₂, v_t, E-n, M-n, V-n, D-n, T-n) se listan aquí como referencia rápida: su desarrollo conceptual completo está en el SDO.
 
@@ -57,7 +56,6 @@ Los cuatro códigos de calificación son la salida primaria de cada módulo. Cad
 
 La distinción entre H-1 e imposibilidad de evaluar es técnicamente importante y operativamente frecuente. H-1 significa que el módulo se administró completo y no produjo señal: hay información negativa; significa que el módulo no pudo evaluarse: no hay
 
-Entrevista Clínica Ontológica · ECO
 
 información de ningún tipo. Tratar H-1 como una imposibilidad de evaluar produce una sub-declaración de ausencia —el mediador registra incertidumbre donde hay certeza negativa. Tratar la imposibilidad como H-1 produce una sobre-declaración —el mediador registra ausencia donde no tiene base para declarar nada.
 
@@ -73,9 +71,8 @@ La Tabla EP es el instrumento de calibración central de ECO. Define los niveles
 
 La lógica de la escala es la misma que la del Método Prometeo: no todos los tipos de señal tienen el mismo valor epistémico. Una conducta sostenida del sujeto durante la sesión —que el mediador observó directamente y que cualquier otro mediador formado habría podido observar— tiene más peso que un dicho único que el sujeto produjo una vez en respuesta a una pregunta directa. La Tabla EP
 
-### Entrevista Clínica Ontológica · ECO
 
-### formaliza esa jerarquía en rangos de peso que el mediador no puede violar sin comprometer la validez del instrumento.
+formaliza esa jerarquía en rangos de peso que el mediador no puede violar sin comprometer la validez del instrumento.
 
 > *La Tabla EP no es una lista de lo que el mediador puede encontrar en sesión. Es una lista de los tipos de señal que el instrumento reconoce como evidencia y el peso que cada tipo puede sostener. El mediador que encuentra una señal que no encaja en ninguna categoría de la tabla debe evaluarla desde el tipo más cercano y registrar la discrepancia en la hoja de síntesis.*
 
@@ -128,7 +125,9 @@ Las cinco reglas tienen un denominador común: protegen la distribución P(Hijos
 
 > *El mediador que confía en su impresión clínica sin consultar la Tabla EP produce distribuciones que reflejan su propio campo más que el del sujeto. La impresión clínica es el punto de partida de la codificación, no su sustituto.*
 
-Notas al capítulo P·4
+---
+
+## Notas al capítulo P·4
 
 1 La distinción entre EP-1 y EP-2 es la más importante de la escala porque ambos producen H-3 y ambos son «confirmables», pero sus rangos de peso son distintos. EP-1 puede alcanzar 0.90 porque la conducta directa sostenida en sesión es el tipo de señal más confiable del instrumento. EP-2 alcanza 0.75 porque la corroboración en sesión que acompaña la narrativa puede ser más débil que la conducta directa. El mediador debe ser riguroso en distinguirlos: una narrativa coherente sin señal en sesión es EP-2 solo si hay al menos una señal observacional que la acompañe. Si no la hay, es EP-3.
 
@@ -136,12 +135,8 @@ Notas al capítulo P·4
 
 3 La escala EP tiene EP-0 como nivel separado de EP-8 porque la función de cada uno es distinta. EP-8 es la señal mínima: algo se observó, aunque sea poco. EP-0 es la ausencia certificada: nada se observó después de administración
 
-Entrevista Clínica Ontológica · ECO
 
 completa. Esta distinción produce H-1 (EP-0, ausencia confirmada) vs H-2 o H-1 (EP-8, señal mínima que puede o no justificar peso residual). Fusionarlos en un solo nivel produciría ambigüedad en el extremo inferior de la escala.
 
 4 La secuencia de uso de la Tabla EP —antes, durante y después de la sesión— refleja un principio general del instrumento: la sesión es el momento de observación, no de análisis. El análisis ocurre después, con las notas como insumo y la Tabla EP como criterio de calibración. El mediador que intenta codificar durante la sesión divide su atención entre observar al sujeto y procesar lo que observa, y la observación pierde calidad en ambos casos.
-
-Entrevista Clínica Ontológica · ECO
-
 
