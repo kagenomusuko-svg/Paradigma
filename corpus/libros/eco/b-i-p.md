@@ -16,7 +16,7 @@ Entrevista Clínica Ontológica · ECO
 
 La firma de Potós en presencia es diferente de su firma documental. Documentalmente, Potós produce referencias sistemáticas al pasado, dificultad para cerrar archivos de etapas anteriores, proyectos que quedaron abiertos cuando la situación ya había cambiado. En presencia, la firma es más sutil y más fácil de confundir: el contraste entre la calidez del tono cuando el sujeto habla de lo que ya no está y la planitud o la distancia cuando habla del presente. El sujeto en Potós no necesariamente habla con tristeza del ausente: puede hablar con calidez, con detalle, con una riqueza de la narrativa que contrasta visiblemente con la manera en que narra el presente.
 
-Potós no extraña algo que podría recuperarse. Extraña algo que sabe que no puede recuperarse, y sigue extrañándolo de todas formas. Esa es la posición de la voluntad: no es negación de la pérdida, es orientación persistente hacia algo cuya pérdida ya fue reconocida.
+> Potós no extraña algo que podría recuperarse. Extraña algo que sabe que no puede recuperarse, y sigue extrañándolo de todas formas. Esa es la posición de la voluntad: no es negación de la pérdida, es orientación persistente hacia algo cuya pérdida ya fue reconocida.
 
 Por qué Potós tiene legibilidad baja
 
@@ -26,7 +26,7 @@ La consecuencia para la codificación: Potós no puede alcanzar H-3 con EP-1 en 
 
 Entrevista Clínica Ontológica · ECO
 
-Lo que Potós localiza — con precisión técnica La posición de v_t desde la cual la voluntad orienta φ₁ hacia un objeto ausente que sigue siendo el referente normativo del presente y el horizonte del futuro deseado, sin que la voluntad pueda orientarse genuinamente hacia equivalentes o hacia un futuro que no sea restauración del pasado. Potós no es un estado emocional: es una posición de la voluntad que tiene consecuencias en todos los actos que el sujeto produce desde esa posición.
+> Lo que Potós localiza — con precisión técnica La posición de v_t desde la cual la voluntad orienta φ₁ hacia un objeto ausente que sigue siendo el referente normativo del presente y el horizonte del futuro deseado, sin que la voluntad pueda orientarse genuinamente hacia equivalentes o hacia un futuro que no sea restauración del pasado. Potós no es un estado emocional: es una posición de la voluntad que tiene consecuencias en todos los actos que el sujeto produce desde esa posición.
 
 Por qué Potós va cuarto en el Bloque I
 
@@ -42,7 +42,7 @@ Entrevista Clínica Ontológica · ECO
 
 permanecieron abiertos — y el mediador necesita verificar desde presencia.
 
-SKIP completo — condición y justificación Condición: la apertura narrativa no produjo ninguna señal de orientación al pasado — el sujeto narró el período analizado sin referencias espontáneas a tiempos, personas o estados anteriores — Y ante la pregunta ancla el sujeto no puede identificar ningún objeto ausente que la voluntad siga buscando. Acción: registrar EP-0, código H-1 para Potós, y continuar al Módulo Eros. Si el sujeto produce alguna señal mínima ante la pregunta ancla (EP-8), registrar ese peso residual y continuar. Justificación ontológica: Potós requiere que la voluntad tenga un objeto ausente hacia el que se oriente. Si la apertura narrativa completa no produjo ninguna señal de ese objeto, y la pregunta ancla tampoco lo produce, la probabilidad de Potós como Hijo activo en esta configuración de la voluntad es suficientemente baja como para no justificar la administración del módulo completo. La ausencia de objeto ausente no es evidencia de que Potós no puede estar presente en el sujeto en general: es evidencia de que no está activo en la configuración de la voluntad en el período analizado.
+> SKIP completo — condición y justificación Condición: la apertura narrativa no produjo ninguna señal de orientación al pasado — el sujeto narró el período analizado sin referencias espontáneas a tiempos, personas o estados anteriores — Y ante la pregunta ancla el sujeto no puede identificar ningún objeto ausente que la voluntad siga buscando. Acción: registrar EP-0, código H-1 para Potós, y continuar al Módulo Eros. Si el sujeto produce alguna señal mínima ante la pregunta ancla (EP-8), registrar ese peso residual y continuar. Justificación ontológica: Potós requiere que la voluntad tenga un objeto ausente hacia el que se oriente. Si la apertura narrativa completa no produjo ninguna señal de ese objeto, y la pregunta ancla tampoco lo produce, la probabilidad de Potós como Hijo activo en esta configuración de la voluntad es suficientemente baja como para no justificar la administración del módulo completo. La ausencia de objeto ausente no es evidencia de que Potós no puede estar presente en el sujeto en general: es evidencia de que no está activo en la configuración de la voluntad en el período analizado.
 
 El SKIP de Potós tiene una característica especial respecto a los demás SKIP del Bloque I: se activa por ausencia de objeto, no por presencia de una condición alternativa. El SKIP de Fobos se activa cuando E-3 está confirmado. El SKIP de Deimos se activa cuando E-1 está confirmado. El SKIP de Potós se activa cuando no hay señal del objeto ausente en ningún momento de la sesión. El mediador que aplica el SKIP de Potós por la ausencia de objeto debe estar seguro de que administró la pregunta ancla: sin ella, no hay base para concluir la ausencia.
 
@@ -50,57 +50,53 @@ El SKIP de Potós tiene una característica especial respecto a los demás SKIP 
 
 La pregunta ancla del Módulo Potós accede a la experiencia de la voluntad orientada hacia lo ausente sin usar la palabra «extrañar» ni «nostalgia» — que podrían activar narrativas sobre cómo el sujeto cree que debería sentirse más que sobre cómo la voluntad genuinamente se orienta.
 
-Pregunta ancla P — Formulación estándar «¿Hay algo — o alguien — que ya no está en tu vida y que todavía mueve algo en ti cuando lo piensas? No una pérdida reciente: algo que con el tiempo debería haber quedado atrás, pero que sigue siendo un referente para ti.»
-
-Entrevista Clínica Ontológica · ECO
-
-[El mediador formula la pregunta y espera. La distinción «que con el tiempo debería haber quedado atrás» separa Potós del duelo activo reciente. Si el sujeto dice que no hay nada así, el mediador espera 15 segundos y luego pasa al Sondeo P·1. Si el sujeto produce inmediatamente un objeto ausente, el mediador observa con qué tipo de energía lo introduce: ¿hay calidez en el tono? ¿Hay contraste con el tono que usó para hablar del presente? ¿O hay agitación emocional que oriente más hacia el Eje V que hacia Potós?]
+> Pregunta ancla P — Formulación estándar «¿Hay algo — o alguien — que ya no está en tu vida y que todavía mueve algo en ti cuando lo piensas? No una pérdida reciente: algo que con el tiempo debería haber quedado atrás, pero que sigue siendo un referente para ti.»
+>
+>
+> [El mediador formula la pregunta y espera. La distinción «que con el tiempo debería haber quedado atrás» separa Potós del duelo activo reciente. Si el sujeto dice que no hay nada así, el mediador espera 15 segundos y luego pasa al Sondeo P·1. Si el sujeto produce inmediatamente un objeto ausente, el mediador observa con qué tipo de energía lo introduce: ¿hay calidez en el tono? ¿Hay contraste con el tono que usó para hablar del presente? ¿O hay agitación emocional que oriente más hacia el Eje V que hacia Potós?]
 
 Variantes por perfil de mediador
 
-Variante — Mediador Educativo «¿Hay una manera de trabajar, de relacionarse con los estudiantes, o de organizar el aula que en algún momento existió — contigo o en la institución — que ya no está pero que todavía funciona como referencia de cómo deberían ser las cosas?» [Esta variante orienta la pregunta hacia el contexto educativo. Para uso con estudiantes: «¿Hay un momento de tu vida escolar —un profesor, una etapa, una manera de aprender— que ya no existe pero que todavía es el referente desde el que comparas lo que tienes ahora?»]
-
-Variante — Mediador en Memoria Comunitaria «¿Puede describir algo que la comunidad tenía —una práctica, una relación, una forma de organizarse— que ya no está y que todavía funciona como el horizonte desde el que los miembros de la comunidad evalúan el presente?» [Esta variante orienta la pregunta hacia el ego colectivo. El mediador busca el objeto ausente del colectivo: la práctica que se perdió, el momento fundacional que se disolvió, el líder que ya no está. Lo que observa: si distintos miembros del colectivo identifican el mismo objeto ausente sin coordinación — convergencia que produce EP-2 para el ego colectivo.]
-
-Variante — Mediador Estructural «En el período que estamos analizando, ¿había algo — una manera de trabajar, una relación, un estado de las cosas — que el sujeto percibía como perdido o como en proceso de perderse, y desde esa percepción de pérdida orientaba sus decisiones?»
-
-Entrevista Clínica Ontológica · ECO
-
-[Esta variante orienta la pregunta hacia el análisis de responsabilidad: si las decisiones del sujeto en el período analizado estaban orientadas por la recuperación de algo perdido, eso tiene consecuencias directas para la estimación de v_t y de S.]
+> Variante — Mediador Educativo «¿Hay una manera de trabajar, de relacionarse con los estudiantes, o de organizar el aula que en algún momento existió — contigo o en la institución — que ya no está pero que todavía funciona como referencia de cómo deberían ser las cosas?» [Esta variante orienta la pregunta hacia el contexto educativo. Para uso con estudiantes: «¿Hay un momento de tu vida escolar —un profesor, una etapa, una manera de aprender— que ya no existe pero que todavía es el referente desde el que comparas lo que tienes ahora?»]
+>
+> Variante — Mediador en Memoria Comunitaria «¿Puede describir algo que la comunidad tenía —una práctica, una relación, una forma de organizarse— que ya no está y que todavía funciona como el horizonte desde el que los miembros de la comunidad evalúan el presente?» [Esta variante orienta la pregunta hacia el ego colectivo. El mediador busca el objeto ausente del colectivo: la práctica que se perdió, el momento fundacional que se disolvió, el líder que ya no está. Lo que observa: si distintos miembros del colectivo identifican el mismo objeto ausente sin coordinación — convergencia que produce EP-2 para el ego colectivo.]
+>
+> Variante — Mediador Estructural «En el período que estamos analizando, ¿había algo — una manera de trabajar, una relación, un estado de las cosas — que el sujeto percibía como perdido o como en proceso de perderse, y desde esa percepción de pérdida orientaba sus decisiones?»
+>
+>
+> [Esta variante orienta la pregunta hacia el análisis de responsabilidad: si las decisiones del sujeto en el período analizado estaban orientadas por la recuperación de algo perdido, eso tiene consecuencias directas para la estimación de v_t y de S.]
 
 ### IV.  Preguntas de sondeo
 
 Las preguntas de sondeo del Módulo Potós tienen como objetivo adicional comenzar la discriminación entre Potós y sus pares de confusión. A diferencia de los módulos anteriores donde las preguntas discriminantes están separadas en la sección §7, en Potós algunas preguntas de sondeo también sirven como discriminantes porque la legibilidad baja del Hijo requiere que la discriminación empiece desde las primeras preguntas.
 
-Sondeo P·1 — El objeto ausente «¿Puedes describir qué es específicamente lo que ya no está? No cómo lo perdiste: qué era.» [Lo que el mediador observa: si el sujeto puede identificar el objeto ausente con especificidad y con una narrativa que lo dota de valor propio. Potós tiene objeto: la voluntad se orienta hacia algo específico, no hacia una idea abstracta de «cómo eran las cosas antes». Si el sujeto puede nombrar el objeto con precisión y con calidez en el tono, la señal de Potós se fortalece. Si el objeto ausente es difuso o general («era todo diferente», «la vida era más simple»), la señal puede orientar hacia Deimos con el pasado como refugio.]
+> Sondeo P·1 — El objeto ausente «¿Puedes describir qué es específicamente lo que ya no está? No cómo lo perdiste: qué era.» [Lo que el mediador observa: si el sujeto puede identificar el objeto ausente con especificidad y con una narrativa que lo dota de valor propio. Potós tiene objeto: la voluntad se orienta hacia algo específico, no hacia una idea abstracta de «cómo eran las cosas antes». Si el sujeto puede nombrar el objeto con precisión y con calidez en el tono, la señal de Potós se fortalece. Si el objeto ausente es difuso o general («era todo diferente», «la vida era más simple»), la señal puede orientar hacia Deimos con el pasado como refugio.]
 
-Sondeo P·2 — La influencia en el presente «¿Ese algo que ya no está ha influido en las decisiones que tomaste en el período que estamos analizando? ¿De qué manera?» [Lo que el mediador observa: si el sujeto puede rastrear la influencia de lo ausente en las decisiones del período analizado. Potós produce actos orientados hacia la recuperación o hacia la preservación de lo que queda de lo que fue. Si el sujeto puede describir esa influencia con ejemplos concretos, la señal de Potós se fortalece. Si no puede identificar ninguna influencia, el objeto ausente puede ser importante emocionalmente pero no estar orientando la voluntad en el sentido técnico de Potós.]
+> Sondeo P·2 — La influencia en el presente «¿Ese algo que ya no está ha influido en las decisiones que tomaste en el período que estamos analizando? ¿De qué manera?» [Lo que el mediador observa: si el sujeto puede rastrear la influencia de lo ausente en las decisiones del período analizado. Potós produce actos orientados hacia la recuperación o hacia la preservación de lo que queda de lo que fue. Si el sujeto puede describir esa influencia con ejemplos concretos, la señal de Potós se fortalece. Si no puede identificar ninguna influencia, el objeto ausente puede ser importante emocionalmente pero no estar orientando la voluntad en el sentido técnico de Potós.]
 
-Sondeo P·3 — El equivalente
+> Sondeo P·3 — El equivalente
+>
+>
+> «¿Has podido encontrar algo diferente — no igual, sino diferente — que tenga un valor comparable para ti a lo que ya no está?» [Esta es la pregunta discriminante entre Potós y la pérdida integrada. Lo que el mediador observa: si el sujeto puede identificar equivalentes o si la voluntad no puede orientarse hacia nada que no sea el objeto ausente específico. En Potós, el sujeto no puede identificar equivalentes genuinos: puede haber encontrado cosas diferentes que tiene, pero no pueden competir con el valor de lo ausente. Si el sujeto puede nombrar algo diferente que tiene un valor comparable, la señal orienta hacia pérdida en proceso de integración (Eje V) y no hacia Potós. Si no puede, la señal de Potós se fortalece.]
 
-Entrevista Clínica Ontológica · ECO
+> Sondeo P·4 — El futuro deseado «Cuando piensas en cómo te gustaría que fueran las cosas en los próximos años, ¿qué imagen viene primero? ¿Esa imagen se parece a algo del pasado, o es algo que todavía no ha existido?» [Lo que el mediador observa: si la proyección futura del sujeto tiene estructura de restauración (recuperar algo que fue) o de apertura (algo nuevo que todavía no existe). Potós proyecta hacia la restauración: el futuro deseado es una versión recuperada del pasado. Eros proyecta hacia lo nuevo. La pregunta discriminante no es si el sujeto desea que el pasado vuelva: es si la imagen del futuro deseable está estructuralmente orientada hacia el pasado o hacia lo inédito.]
 
-«¿Has podido encontrar algo diferente — no igual, sino diferente — que tenga un valor comparable para ti a lo que ya no está?» [Esta es la pregunta discriminante entre Potós y la pérdida integrada. Lo que el mediador observa: si el sujeto puede identificar equivalentes o si la voluntad no puede orientarse hacia nada que no sea el objeto ausente específico. En Potós, el sujeto no puede identificar equivalentes genuinos: puede haber encontrado cosas diferentes que tiene, pero no pueden competir con el valor de lo ausente. Si el sujeto puede nombrar algo diferente que tiene un valor comparable, la señal orienta hacia pérdida en proceso de integración (Eje V) y no hacia Potós. Si no puede, la señal de Potós se fortalece.]
+> Sondeo P·5 — El ciclo de cierre «¿Hay archivos, proyectos, relaciones o conversaciones de ese período anterior que permanecieron abiertos — no porque hubiera algo pendiente que resolver, sino porque no podías cerrarlos?» [Lo que el mediador observa: si el sujeto describe la incapacidad de cerrar algo que ya debería estar cerrado. Esta es una de las señales documentales más características de Potós, y el sondeo verifica si también se reproduce en la narrativa del sujeto en presencia. Si el sujeto describe proyectos, relaciones o conversaciones que permanecieron abiertas «por las dudas» o «para no perder la conexión» con algo que ya había terminado, la señal de Potós se fortalece.]
 
-Sondeo P·4 — El futuro deseado «Cuando piensas en cómo te gustaría que fueran las cosas en los próximos años, ¿qué imagen viene primero? ¿Esa imagen se parece a algo del pasado, o es algo que todavía no ha existido?» [Lo que el mediador observa: si la proyección futura del sujeto tiene estructura de restauración (recuperar algo que fue) o de apertura (algo nuevo que todavía no existe). Potós proyecta hacia la restauración: el futuro deseado es una versión recuperada del pasado. Eros proyecta hacia lo nuevo. La pregunta discriminante no es si el sujeto desea que el pasado vuelva: es si la imagen del futuro deseable está estructuralmente orientada hacia el pasado o hacia lo inédito.]
+> Sondeo P·6 — La memoria como práctica «¿Hay algo que hagas regularmente para mantener viva la memoria de lo que ya no está — no como ritual de duelo, sino como parte de tu vida cotidiana?»
+>
+>
+> [Lo que el mediador observa: si la orientación al ausente se ha incorporado como práctica cotidiana. Potós puede producir rituales de preservación que no son duelo sino mantenimiento: releer mensajes, visitar lugares, conservar objetos, mantener conversaciones sobre lo que fue. Esas prácticas son señal de que la orientación al ausente está estructuralmente presente en la vida del sujeto, no solo en momentos de nostalgia puntual. EP-2 desde narrativa de prácticas cotidianas de preservación.]
 
-Sondeo P·5 — El ciclo de cierre «¿Hay archivos, proyectos, relaciones o conversaciones de ese período anterior que permanecieron abiertos — no porque hubiera algo pendiente que resolver, sino porque no podías cerrarlos?» [Lo que el mediador observa: si el sujeto describe la incapacidad de cerrar algo que ya debería estar cerrado. Esta es una de las señales documentales más características de Potós, y el sondeo verifica si también se reproduce en la narrativa del sujeto en presencia. Si el sujeto describe proyectos, relaciones o conversaciones que permanecieron abiertas «por las dudas» o «para no perder la conexión» con algo que ya había terminado, la señal de Potós se fortalece.]
-
-Sondeo P·6 — La memoria como práctica «¿Hay algo que hagas regularmente para mantener viva la memoria de lo que ya no está — no como ritual de duelo, sino como parte de tu vida cotidiana?»
-
-Entrevista Clínica Ontológica · ECO
-
-[Lo que el mediador observa: si la orientación al ausente se ha incorporado como práctica cotidiana. Potós puede producir rituales de preservación que no son duelo sino mantenimiento: releer mensajes, visitar lugares, conservar objetos, mantener conversaciones sobre lo que fue. Esas prácticas son señal de que la orientación al ausente está estructuralmente presente en la vida del sujeto, no solo en momentos de nostalgia puntual. EP-2 desde narrativa de prácticas cotidianas de preservación.]
-
-Sondeo P·7 — La relación con el pasado en esta sesión «Mientras me cuentas esto, ¿hay algo de esa orientación hacia lo que ya no está que se activa ahora? ¿Puedes identificar qué se mueve en ti al hablar de ello?» [Lo que el mediador observa: si la narrativa sobre lo ausente activa algo en el campo relacional de la sesión — cambio de tono, cambio de postura, mayor detalle en la narrativa sobre el ausente que en la narrativa sobre el presente. Esta pregunta es la más cercana a EP-1 que el módulo puede producir para Potós: si la orientación al ausente se activa en sesión al narrarla, hay una señal conductual observable, aunque no sea la misma clase de señal que en Fobos o Anteros.]
-
-La ausencia de respuesta en el Módulo Potós tiene una lectura diferente a la del Módulo Deimos. En Deimos, el silencio es señal del Hijo. En Potós, el silencio ante la pregunta ancla puede significar que no hay objeto ausente (señal de H-1) o puede significar que el objeto ausente es demasiado íntimo para nombrarlo en este momento de la sesión (señal de imposibilidad para evaluar). El mediador que espera sin interpretar el silencio y luego formula el Sondeo P·1 directamente tiene más información que el que reformula la pregunta ancla inmediatamente.
+> Sondeo P·7 — La relación con el pasado en esta sesión «Mientras me cuentas esto, ¿hay algo de esa orientación hacia lo que ya no está que se activa ahora? ¿Puedes identificar qué se mueve en ti al hablar de ello?» [Lo que el mediador observa: si la narrativa sobre lo ausente activa algo en el campo relacional de la sesión — cambio de tono, cambio de postura, mayor detalle en la narrativa sobre el ausente que en la narrativa sobre el presente. Esta pregunta es la más cercana a EP-1 que el módulo puede producir para Potós: si la orientación al ausente se activa en sesión al narrarla, hay una señal conductual observable, aunque no sea la misma clase de señal que en Fobos o Anteros.]
+>
+> La ausencia de respuesta en el Módulo Potós tiene una lectura diferente a la del Módulo Deimos. En Deimos, el silencio es señal del Hijo. En Potós, el silencio ante la pregunta ancla puede significar que no hay objeto ausente (señal de H-1) o puede significar que el objeto ausente es demasiado íntimo para nombrarlo en este momento de la sesión (señal de imposibilidad para evaluar). El mediador que espera sin interpretar el silencio y luego formula el Sondeo P·1 directamente tiene más información que el que reformula la pregunta ancla inmediatamente.
 
 ### V.  Señales de observación directa
 
 Las señales de observación directa del Módulo Potós son las más difíciles de leer del Bloque I porque no son señales de presencia sino señales de contraste. Lo que el mediador observa no es algo que el sujeto produce sobre lo ausente: es la diferencia entre cómo el sujeto produce narrativa sobre lo ausente y cómo produce narrativa sobre el presente. Esa diferencia —el contraste— es la señal más diagnóstica del módulo.
 
-Señal observable Nivel EP que corresponde
+<!-- TABLA: señales observables | columnas: señal observable, nivel EP, error de lectura -->
 
 Error de lectura frecuente
 
@@ -152,43 +148,41 @@ Entrevista Clínica Ontológica · ECO
 
 El árbol del Módulo Potós tiene más nodos de verificación de exclusión que los módulos anteriores porque la legibilidad baja del Hijo requiere que cada señal sea discriminada antes de incorporarse a la codificación. El árbol no produce H-3 sin pasar por al menos dos preguntas discriminantes de la sección §7.
 
-NODO P·0 — ¿Se cumple la condición de SKIP completo?
+> **NODO P·0 — ¿Se cumple la condición de SKIP completo?**
+>
+> SÍ (sin señal en apertura + sin objeto ante pregunta ancla) → H-1 · EP-0 · P(Potós) = 0 → Continuar a Módulo Eros. NO → Administrar pregunta ancla. ↓
 
-SÍ (sin señal en apertura + sin objeto ante pregunta ancla) → H-1 · EP-0 · P(Potós) = 0 → Continuar a Módulo Eros. NO → Administrar pregunta ancla. ↓
+> **NODO P·1 — ¿La pregunta ancla produjo objeto ausente identificable?**
+>
+> NO (el sujeto no puede identificar ningún objeto ausente) → Administrar Sondeo P·1. Si tampoco hay señal → H-1 · EP-0 o EP-8 mínimo residual. SÍ → Observar la temperatura narrativa: ¿contrasta con la temperatura de la narrativa del presente? ↓
 
-NODO P·1 — ¿La pregunta ancla produjo objeto ausente identificable?
+> **NODO P·2 — ¿Hay contraste de temperatura entre la narrativa sobre lo ausente y la narrativa sobre el presente?**
+>
+> NO (temperatura homogénea en ambas) → Señal de Potós se debilita. Administrar Sondeo P·3 y P·4 antes de bajar a H-2. SÍ (calidez o detalle mayor sobre lo ausente) → Registrar señal. Administrar sondeos P·2 a P·5. ↓
 
-NO (el sujeto no puede identificar ningún objeto ausente) → Administrar Sondeo P·1. Si tampoco hay señal → H-1 · EP-0 o EP-8 mínimo residual. SÍ → Observar la temperatura narrativa: ¿contrasta con la temperatura de la narrativa del presente? ↓
+> **NODO P·3 — Sondeo P·3: ¿el sujeto puede identificar equivalentes genuinos al objeto ausente?**
+>
+> SÍ (puede nombrar algo diferente con valor comparable) → Señal orienta hacia pérdida en integración (Eje V, T-5 o T-6). Administrar pregunta discriminante P/Harmonía de §7. Bajar peso tentativo de P(Potós). NO (no puede identificar equivalentes genuinos) → Señal de Potós fortalecida. Continuar con Sondeo P·4. ↓
 
-NODO P·2 — ¿Hay contraste de temperatura entre la narrativa sobre lo ausente y la narrativa sobre el presente?
+> **NODO P·4 — Sondeo P·4: ¿la proyección futura del sujeto está estructuralmente orientada hacia la restauración del pasado?**
+>
+> NO (el futuro deseado no requiere restaurar el pasado) → Señal de Potós se debilita. Puede coexistir con Eros. Bajar peso tentativo. SÍ → ¿La orientación al pasado podría ser Deimos con el pasado como refugio? ↓
 
-NO (temperatura homogénea en ambas) → Señal de Potós se debilita. Administrar Sondeo P·3 y P·4 antes de bajar a H-2. SÍ (calidez o detalle mayor sobre lo ausente) → Registrar señal. Administrar sondeos P·2 a P·5. ↓
+> **NODO P·5 — Verificación: ¿la orientación al pasado depende de la dificultad del presente?**
+>
+> SÍ (si el presente mejorara, el pasado perdería su atractivo) → Potós posible, pero Deimos como alternativa. Administrar pregunta discriminante P/Deimos de §7 obligatoriamente. NO (el objeto ausente importa por sí mismo, independientemente del presente) → Señal de Potós más sólida. ↓
 
-NODO P·3 — Sondeo P·3: ¿el sujeto puede identificar equivalentes genuinos al objeto ausente?
+> **NODO P·6 — Verificación: ¿la orientación al pasado podría ser Fobos usando el pasado como escudo?**
+>
+> SÍ (hay señal de amenaza en el presente que activa la referencia al pasado) → Administrar pregunta discriminante P/Fobos de §7. NO → Evaluar si el patrón es sostenido en múltiples contextos. ↓
 
-SÍ (puede nombrar algo diferente con valor comparable) → Señal orienta hacia pérdida en integración (Eje V, T-5 o T-6). Administrar pregunta discriminante P/Harmonía de §7. Bajar peso tentativo de P(Potós). NO (no puede identificar equivalentes genuinos) → Señal de Potós fortalecida. Continuar con Sondeo P·4. ↓
+> **NODO P·7 — ¿El patrón de orientación al ausente es sostenido en múltiples contextos y períodos?**
+>
+> NO (aparece solo en el período analizado o en un contexto específico) → H-2 máximo · EP-4 o EP-5 · Nota de hipótesis. SÍ → ¿Hay señal de observación directa en sesión que corrobore la narrativa? ↓
 
-NODO P·4 — Sondeo P·4: ¿la proyección futura del sujeto está estructuralmente orientada hacia la restauración del pasado?
-
-NO (el futuro deseado no requiere restaurar el pasado) → Señal de Potós se debilita. Puede coexistir con Eros. Bajar peso tentativo. SÍ → ¿La orientación al pasado podría ser Deimos con el pasado como refugio? ↓
-
-NODO P·5 — Verificación: ¿la orientación al pasado depende de la dificultad del presente?
-
-Entrevista Clínica Ontológica · ECO
-
-SÍ (si el presente mejorara, el pasado perdería su atractivo) → Potós posible, pero Deimos como alternativa. Administrar pregunta discriminante P/Deimos de §7 obligatoriamente. NO (el objeto ausente importa por sí mismo, independientemente del presente) → Señal de Potós más sólida. ↓
-
-NODO P·6 — Verificación: ¿la orientación al pasado podría ser Fobos usando el pasado como escudo?
-
-SÍ (hay señal de amenaza en el presente que activa la referencia al pasado) → Administrar pregunta discriminante P/Fobos de §7. NO → Evaluar si el patrón es sostenido en múltiples contextos. ↓
-
-NODO P·7 — ¿El patrón de orientación al ausente es sostenido en múltiples contextos y períodos?
-
-NO (aparece solo en el período analizado o en un contexto específico) → H-2 máximo · EP-4 o EP-5 · Nota de hipótesis. SÍ → ¿Hay señal de observación directa en sesión que corrobore la narrativa? ↓
-
-NODO P·8 — ¿Hay señal de observación directa en sesión (contraste de temperatura, retorno espontáneo al ausente)?
-
-NO → H-2 · EP-3 desde narrativa coherente. Nota de hipótesis. SÍ → H-3 · EP-2 (no puede alcanzar EP-1 en la mayoría de los casos). Registrar señal observacional. ↓
+> **NODO P·8 — ¿Hay señal de observación directa en sesión (contraste de temperatura, retorno espontáneo al ausente)?**
+>
+> NO → H-2 · EP-3 desde narrativa coherente. Nota de hipótesis. SÍ → H-3 · EP-2 (no puede alcanzar EP-1 en la mayoría de los casos). Registrar señal observacional. ↓
 
 SALIDA — Codificación + Nivel EP + P(Potós) tentativo → Continuar a Módulo Eros
 
@@ -260,7 +254,7 @@ La discriminación Potós / Deimos es la que con mayor frecuencia el mediador no
 
 La pregunta que resuelve esta discriminación con mayor frecuencia es la de la condición contrafáctica: «¿si el presente fuera perfecto y no hubiera ninguna dificultad ni incertidumbre, todavía extrañarías lo que describes?». El sujeto en Potós puede responder que sí: lo que falta faltaría independientemente de cómo fuera el presente. El sujeto en Deimos duda o responde que no: si el presente fuera seguro y claro, el pasado no tendría el valor que tiene ahora.
 
-La pregunta contrafáctica — la más discriminante del módulo «Si el presente fuera perfecto — sin dificultades, sin incertidumbre, sin presiones — ¿todavía extrañarías lo que describes? ¿El objeto ausente importaría de la misma manera?» Potós: sí, independientemente de cómo fuera el presente. Deimos: no con la misma intensidad, o duda genuina que revela que el pasado funciona como refugio del presente difícil.
+> La pregunta contrafáctica — la más discriminante del módulo «Si el presente fuera perfecto — sin dificultades, sin incertidumbre, sin presiones — ¿todavía extrañarías lo que describes? ¿El objeto ausente importaría de la misma manera?» Potós: sí, independientemente de cómo fuera el presente. Deimos: no con la misma intensidad, o duda genuina que revela que el pasado funciona como refugio del presente difícil.
 
 La discriminación Potós / Fobos — segunda en importancia
 
@@ -270,7 +264,9 @@ La discriminación Potós / Fobos requiere identificar si la referencia al pasad
 
 ### VIII.  Criterios de codificación
 
-Cód. Nombre Ancla conductual para Potós
+<!-- TABLA: codificación | columnas: código, nombre, ancla conductual, nivel EP, ejemplo -->
+
+
 
 Nivel EP mín.
 
@@ -334,7 +330,7 @@ La excepción: si el mediador puede reproducir en sesión algo que evoca directa
 
 Potós puede coexistir con cualquier otro Hijo en la misma distribución. La coexistencia más frecuente es Potós con Deimos: el sujeto que no puede avanzar porque el presente tiene opciones simétricas (Deimos) y porque el pasado sigue siendo el referente desde el que evalúa el presente (Potós). Esta coexistencia es estructuralmente coherente porque los dos Hijos describen la misma parálisis desde ángulos distintos — uno desde la simetría del presente, el otro desde la irremplazabilidad del ausente.
 
-Ejemplos de distribuciones P(Hijos) cuando Potós tiene peso significativo Ejemplo 1 (Potós dominante, EP-2): P(Fobos)=0.05 · P(Deimos)=0.15 · P(Anteros)=0.10 · P(Potós)=0.60 · P(Eros)=0.10 · P(Harmonía)=0.00. Suma: 1.00. Nota de hipótesis obligatoria sobre el peso de Potós. Ejemplo 2 (Potós/Deimos coexistentes, EP-2 para ambos): P(Fobos)=0.10 · P(Deimos)=0.35 · P(Anteros)=0.10 · P(Potós)=0.35 · P(Eros)=0.10 · P(Harmonía)=0.00. Suma: 1.00. Esta distribución describe la voluntad que no puede avanzar porque el presente paraliza (Deimos) y el pasado sigue siendo el único referente de valor (Potós).
+### Ejemplos de distribuciones P(Hijos) cuando Potós tiene peso significativo Ejemplo 1 (Potós dominante, EP-2): P(Fobos)=0.05 · P(Deimos)=0.15 · P(Anteros)=0.10 · P(Potós)=0.60 · P(Eros)=0.10 · P(Harmonía)=0.00. Suma: 1.00. Nota de hipótesis obligatoria sobre el peso de Potós. Ejemplo 2 (Potós/Deimos coexistentes, EP-2 para ambos): P(Fobos)=0.10 · P(Deimos)=0.35 · P(Anteros)=0.10 · P(Potós)=0.35 · P(Eros)=0.10 · P(Harmonía)=0.00. Suma: 1.00. Esta distribución describe la voluntad que no puede avanzar porque el presente paraliza (Deimos) y el pasado sigue siendo el único referente de valor (Potós).
 
 Una restricción específica para la distribución P(Hijos) cuando Potós es dominante: cuando Potós supera 0.50 con EP-2, la distribución debe incluir la nota de hipótesis que establece la Tabla EP para niveles EP-3 a EP-6. Potós dominante con EP-2 no es H-3 con la misma solidez que Fobos o Anteros con H-3 y EP-1: es H-3 con mayor rango de incertidumbre. El mediador registra esa incertidumbre explícitamente en la hoja de síntesis.
 
@@ -348,59 +344,58 @@ La firma de Potós en el ego colectivo
 
 Las señales de Potós colectivo son: referencias sistemáticas al período fundacional o al líder originario en las narrativas institucionales cotidianas — no como historia sino como norma; evaluación de iniciativas nuevas desde su similitud con lo que se hacía antes; dificultad para cerrar proyectos o relaciones institucionales que corresponden a etapas superadas; narrativa institucional orientada hacia la recuperación de algo perdido más que hacia la construcción de algo nuevo. El contraste de temperatura que el mediador observa en el individuo se observa en el colectivo como contraste entre el entusiasmo al hablar del pasado y la planitud al hablar del futuro.
 
-Pregunta ancla — Ego colectivo (Potós) «¿Hay un período, un líder o una manera de hacer las cosas que la organización siente que ya no existe pero que sigue siendo el referente desde el que se evalúa lo que está bien o mal en el presente?» [El mediador busca la señal del objeto ausente del colectivo. Lo que observa: si distintos miembros, entrevistados independientemente, identifican el mismo objeto ausente como referente — la misma figura, el mismo período, la misma cultura. La convergencia sin coordinación de múltiples narrativas sobre el mismo objeto ausente produce EP-2 para el ego colectivo.]
-
-La distinción Potós colectivo / Deimos colectivo
-
-Entrevista Clínica Ontológica · ECO
-
-La distinción más importante en la aplicación colectiva del Módulo Potós es la que diferencia la organización que no puede avanzar porque el pasado fue mejor (Potós colectivo) de la que no puede avanzar porque el presente tiene opciones equivalentes (Deimos colectivo). La pregunta discriminante para el ego colectivo: ¿puede la organización imaginar un futuro que no sea la restauración del pasado fundacional? Si puede imaginarlo, pero no puede decidir hacia qué futuro ir, el estado colectivo orienta hacia Deimos. Si no puede imaginarlo porque cualquier futuro que no restaure el pasado le parece de menor valor, el estado colectivo orienta hacia Potós.
-
-El Mediador en Memoria Comunitaria y Potós colectivo
-
-Para el Mediador en Memoria Comunitaria, el Módulo Potós es central porque el trabajo de rescate cultural opera precisamente en la tensión entre Potós colectivo y la posibilidad de un futuro que preserve lo que fue sin quedar atrapado en él. La comunidad en Potós colectivo no puede hacer rescate cultural genuino: puede hacer conservación museística, pero no puede producir una transmisión viva de lo que preserva porque la orientación de la voluntad colectiva es hacia la recuperación del pasado, no hacia la creación de algo nuevo que lo incorpore. El trabajo del mediador en Memoria Comunitaria con Potós colectivo consiste en crear las condiciones para que la orientación al ausente pueda dialogar con la posibilidad de un futuro diferente — no negar lo que fue, sino hacer lugar para lo que puede ser.
-
-### XI.  Principios de intervención para este hallazgo
-
-Lo que el mediador no hace
-
-El error de intervención más frecuente con Potós es usar el nombre del Hijo con el sujeto durante la sesión. «Lo que describes suena a nostalgia», «parece que estás viviendo en el pasado», «eso es Potós» — todas esas intervenciones activan en el sujeto la imagen que cree que debe tener de sí mismo frente a ese diagnóstico. El sujeto puede resistirlo («no, yo no vivo en el pasado»), puede sobre-adoptarlo («tienes razón, soy muy nostálgico»), o puede intentar producir lo
-
-Entrevista Clínica Ontológica · ECO
-
-que cree que el instrumento espera. En cualquiera de los tres casos, la señal diagnóstica se contamina.
-
-El segundo error es redirigir prematuramente la atención del sujeto hacia el presente: «¿y qué hay en tu presente que puedas valorar?», «¿qué posibilidades tienes ahora que no tenías antes?». Esta intervención silencia la señal más importante del módulo —la orientación al ausente— antes de que haya sido evaluada con la profundidad que requiere. Potós necesita espacio para expresarse; redirigirlo prematuramente no lo resuelve: lo enmascara.
-
-El tercer error es confundir Potós con un problema que el sujeto debe superar. La orientación al ausente no es necesariamente un estado a corregir: puede ser una posición de la voluntad que requiere acompañamiento, pero la naturaleza de ese acompañamiento no es la redirección hacia el presente. El trabajo de Histos con Potós es específico y no puede anticiparse desde ECO.
-
-Lo que el mediador sí hace
-
-El mediador deja que la orientación al ausente se exprese sin redirección. El espacio que Potós necesita en sesión es el espacio para que el objeto ausente sea narrado con la calidad que tiene para el sujeto — sin que el mediador lo interrumpa, lo relativice o lo redirija hacia el presente. El mediador que puede sostener ese espacio sin incomodidad tiene el campo calibrado para Potós. El que no puede sostenerlo —porque la nostalgia del sujeto activa la propia nostalgia del mediador, o porque la orientación al pasado le produce urgencia de redirigir— compromete la calidad de la señal del módulo.
-
-Cuando la señal discriminante entre Potós y sus pares de confusión no puede resolverse en la sesión, el mediador declara H-2 con nota de hipótesis y no fuerza la codificación H-3. La incertidumbre declarada es información más útil para Histos que una localización aparentemente sólida pero no fundada.
-
-Cuándo derivar a Histos
-
-Entrevista Clínica Ontológica · ECO
-
-Potós como Hijo dominante con H-2 o H-3 y con discriminación completada orienta la derivación a Histos con la condición de que el Bloque II esté completo. La localización del Eje V es especialmente relevante para el trabajo de Histos con Potós: si el objeto ausente de Potós está asociado a una pérdida irrecuperable documentada en el Eje V, el acompañamiento necesita integrar ambas dimensiones. Si el Eje V no produce señal de pérdida estructural, el trabajo de Histos opera desde la posición de v_t de Potós sin el marco de la pérdida irrecuperable formal.
-
-Condición de derivación a Histos desde Potós Potós H-2 o H-3 con discriminación Potós/Deimos y Potós/Fobos completada + Bloque II completo con especial atención al Eje V. La nota de hipótesis de Potós se mantiene en la hoja de síntesis que recibe Histos: el instrumento de acompañamiento no debe iniciar con una localización de Potós más sólida de lo que ECO puede garantizar.
+> Pregunta ancla — Ego colectivo (Potós) «¿Hay un período, un líder o una manera de hacer las cosas que la organización siente que ya no existe pero que sigue siendo el referente desde el que se evalúa lo que está bien o mal en el presente?» [El mediador busca la señal del objeto ausente del colectivo. Lo que observa: si distintos miembros, entrevistados independientemente, identifican el mismo objeto ausente como referente — la misma figura, el mismo período, la misma cultura. La convergencia sin coordinación de múltiples narrativas sobre el mismo objeto ausente produce EP-2 para el ego colectivo.]
+>
+> La distinción Potós colectivo / Deimos colectivo
+>
+>
+> La distinción más importante en la aplicación colectiva del Módulo Potós es la que diferencia la organización que no puede avanzar porque el pasado fue mejor (Potós colectivo) de la que no puede avanzar porque el presente tiene opciones equivalentes (Deimos colectivo). La pregunta discriminante para el ego colectivo: ¿puede la organización imaginar un futuro que no sea la restauración del pasado fundacional? Si puede imaginarlo, pero no puede decidir hacia qué futuro ir, el estado colectivo orienta hacia Deimos. Si no puede imaginarlo porque cualquier futuro que no restaure el pasado le parece de menor valor, el estado colectivo orienta hacia Potós.
+>
+> El Mediador en Memoria Comunitaria y Potós colectivo
+>
+> Para el Mediador en Memoria Comunitaria, el Módulo Potós es central porque el trabajo de rescate cultural opera precisamente en la tensión entre Potós colectivo y la posibilidad de un futuro que preserve lo que fue sin quedar atrapado en él. La comunidad en Potós colectivo no puede hacer rescate cultural genuino: puede hacer conservación museística, pero no puede producir una transmisión viva de lo que preserva porque la orientación de la voluntad colectiva es hacia la recuperación del pasado, no hacia la creación de algo nuevo que lo incorpore. El trabajo del mediador en Memoria Comunitaria con Potós colectivo consiste en crear las condiciones para que la orientación al ausente pueda dialogar con la posibilidad de un futuro diferente — no negar lo que fue, sino hacer lugar para lo que puede ser.
+>
+> ### XI.  Principios de intervención para este hallazgo
+>
+> Lo que el mediador no hace
+>
+> El error de intervención más frecuente con Potós es usar el nombre del Hijo con el sujeto durante la sesión. «Lo que describes suena a nostalgia», «parece que estás viviendo en el pasado», «eso es Potós» — todas esas intervenciones activan en el sujeto la imagen que cree que debe tener de sí mismo frente a ese diagnóstico. El sujeto puede resistirlo («no, yo no vivo en el pasado»), puede sobre-adoptarlo («tienes razón, soy muy nostálgico»), o puede intentar producir lo
+>
+>
+> que cree que el instrumento espera. En cualquiera de los tres casos, la señal diagnóstica se contamina.
+>
+> El segundo error es redirigir prematuramente la atención del sujeto hacia el presente: «¿y qué hay en tu presente que puedas valorar?», «¿qué posibilidades tienes ahora que no tenías antes?». Esta intervención silencia la señal más importante del módulo —la orientación al ausente— antes de que haya sido evaluada con la profundidad que requiere. Potós necesita espacio para expresarse; redirigirlo prematuramente no lo resuelve: lo enmascara.
+>
+> El tercer error es confundir Potós con un problema que el sujeto debe superar. La orientación al ausente no es necesariamente un estado a corregir: puede ser una posición de la voluntad que requiere acompañamiento, pero la naturaleza de ese acompañamiento no es la redirección hacia el presente. El trabajo de Histos con Potós es específico y no puede anticiparse desde ECO.
+>
+> Lo que el mediador sí hace
+>
+> El mediador deja que la orientación al ausente se exprese sin redirección. El espacio que Potós necesita en sesión es el espacio para que el objeto ausente sea narrado con la calidad que tiene para el sujeto — sin que el mediador lo interrumpa, lo relativice o lo redirija hacia el presente. El mediador que puede sostener ese espacio sin incomodidad tiene el campo calibrado para Potós. El que no puede sostenerlo —porque la nostalgia del sujeto activa la propia nostalgia del mediador, o porque la orientación al pasado le produce urgencia de redirigir— compromete la calidad de la señal del módulo.
+>
+> Cuando la señal discriminante entre Potós y sus pares de confusión no puede resolverse en la sesión, el mediador declara H-2 con nota de hipótesis y no fuerza la codificación H-3. La incertidumbre declarada es información más útil para Histos que una localización aparentemente sólida pero no fundada.
+>
+> Cuándo derivar a Histos
+>
+>
+> Potós como Hijo dominante con H-2 o H-3 y con discriminación completada orienta la derivación a Histos con la condición de que el Bloque II esté completo. La localización del Eje V es especialmente relevante para el trabajo de Histos con Potós: si el objeto ausente de Potós está asociado a una pérdida irrecuperable documentada en el Eje V, el acompañamiento necesita integrar ambas dimensiones. Si el Eje V no produce señal de pérdida estructural, el trabajo de Histos opera desde la posición de v_t de Potós sin el marco de la pérdida irrecuperable formal.
+>
+> > Condición de derivación a Histos desde Potós Potós H-2 o H-3 con discriminación Potós/Deimos y Potós/Fobos completada + Bloque II completo con especial atención al Eje V. La nota de hipótesis de Potós se mantiene en la hoja de síntesis que recibe Histos: el instrumento de acompañamiento no debe iniciar con una localización de Potós más sólida de lo que ECO puede garantizar.
+> >
+> >
 
 Cuándo el caso supera ECO
-
-Potós puede revelar situaciones que superan el alcance de ECO cuando la orientación al ausente está asociada a pérdidas que requieren acompañamiento clínico en sentido estricto: duelos no resueltos con intensidad clínica, estados depresivos que se enmascaran como nostalgia, o situaciones de duelo patológico que requieren evaluación psicológica o psiquiátrica. La señal de alerta: el contraste entre la calidez cuando habla del ausente y la planitud cuando habla del presente es tan extremo que la planitud del presente tiene la textura de D-2 (anestesia ontológica), no de Potós. En ese caso el mediador no codifica H-3 para Potós y deriva a evaluación clínica antes de continuar con el instrumento.
-
-Notas al Módulo B·I·P
-
-1 La descripción de Potós como posición de v_t orientada hacia lo ausente tiene una consecuencia para el análisis causal de Prometeo que los módulos de Fobos, Deimos y Anteros no tienen con la misma intensidad: Potós orienta los actos hacia la recuperación del objeto ausente. El peso de c sobre v_t puede ser significativo; por ello, el acto se lee en relación con la historia del sujeto respecto de aquello que ya no está.
-
-2 La restricción EP-1 para Potós que se desarrolla en §8 tiene una excepción que el texto principal menciona brevemente y que merece desarrollo: cuando el mediador puede producir en sesión una evocación directa del objeto ausente —mencionando el nombre de la persona, describiendo el período, mostrando algo que lo representa— y el sujeto produce una reacción conductual observable, esa reacción puede calificarse como EP-1 para Potós. Esta técnica requiere precaución: el mediador debe asegurarse de que la evocación sea honesta (no fabricada para producir señal) y de que la reacción del sujeto no sea simplemente cortesía social ante el gesto del mediador. La evocación directa como técnica de verificación EP-1 para Potós es una operación avanzada que solo debe usarse cuando el mediador tiene experiencia suficiente con el módulo.
-
-3 La coexistencia Potós/Deimos que se desarrolla en §9 es la distribución más frecuente cuando Potós tiene peso significativo en la distribución P(Hijos). La razón es ontológica: la misma configuración que produce Deimos (la imposibilidad de elegir entre opciones equivalentes en el presente) produce con frecuencia la orientación al pasado como referente (Potós), porque el pasado es el único campo donde las opciones ya estaban resueltas. Los dos Hijos se refuerzan mutuamente en muchos casos y deben leerse como parte de la misma configuración de la voluntad, no como estados independientes.
-
-4 La instrucción al Mediador en Memoria Comunitaria sobre el trabajo con Potós colectivo que se desarrolla en §10 tiene una implicación para la práctica del rescate cultural que merece señalarse: la comunidad que está en Potós colectivo profundo no puede participar genuinamente en el rescate de su propia cultura si el proceso de rescate se diseña desde afuera como recuperación del pasado. Ese diseño refuerza Potós sin crear condiciones para que la comunidad pueda imaginar un futuro propio. El trabajo del mediador es crear las condiciones para que la comunidad pueda honrar lo que fue y, desde ese honor, construir algo nuevo. Eso requiere que Potós colectivo pueda dialogar con Eros colectivo —la apertura a lo nuevo— sin que ninguno de los dos anule al otro.
+>
+> Potós puede revelar situaciones que superan el alcance de ECO cuando la orientación al ausente está asociada a pérdidas que requieren acompañamiento clínico en sentido estricto: duelos no resueltos con intensidad clínica, estados depresivos que se enmascaran como nostalgia, o situaciones de duelo patológico que requieren evaluación psicológica o psiquiátrica. La señal de alerta: el contraste entre la calidez cuando habla del ausente y la planitud cuando habla del presente es tan extremo que la planitud del presente tiene la textura de D-2 (anestesia ontológica), no de Potós. En ese caso el mediador no codifica H-3 para Potós y deriva a evaluación clínica antes de continuar con el instrumento.
+>
+> Notas al Módulo B·I·P
+>
+> 1 La descripción de Potós como posición de v_t orientada hacia lo ausente tiene una consecuencia para el análisis causal de Prometeo que los módulos de Fobos, Deimos y Anteros no tienen con la misma intensidad: Potós orienta los actos hacia la recuperación del objeto ausente. El peso de c sobre v_t puede ser significativo; por ello, el acto se lee en relación con la historia del sujeto respecto de aquello que ya no está.
+>
+> 2 La restricción EP-1 para Potós que se desarrolla en §8 tiene una excepción que el texto principal menciona brevemente y que merece desarrollo: cuando el mediador puede producir en sesión una evocación directa del objeto ausente —mencionando el nombre de la persona, describiendo el período, mostrando algo que lo representa— y el sujeto produce una reacción conductual observable, esa reacción puede calificarse como EP-1 para Potós. Esta técnica requiere precaución: el mediador debe asegurarse de que la evocación sea honesta (no fabricada para producir señal) y de que la reacción del sujeto no sea simplemente cortesía social ante el gesto del mediador. La evocación directa como técnica de verificación EP-1 para Potós es una operación avanzada que solo debe usarse cuando el mediador tiene experiencia suficiente con el módulo.
+>
+> 3 La coexistencia Potós/Deimos que se desarrolla en §9 es la distribución más frecuente cuando Potós tiene peso significativo en la distribución P(Hijos). La razón es ontológica: la misma configuración que produce Deimos (la imposibilidad de elegir entre opciones equivalentes en el presente) produce con frecuencia la orientación al pasado como referente (Potós), porque el pasado es el único campo donde las opciones ya estaban resueltas. Los dos Hijos se refuerzan mutuamente en muchos casos y deben leerse como parte de la misma configuración de la voluntad, no como estados independientes.
+>
+> 4 La instrucción al Mediador en Memoria Comunitaria sobre el trabajo con Potós colectivo que se desarrolla en §10 tiene una implicación para la práctica del rescate cultural que merece señalarse: la comunidad que está en Potós colectivo profundo no puede participar genuinamente en el rescate de su propia cultura si el proceso de rescate se diseña desde afuera como recuperación del pasado. Ese diseño refuerza Potós sin crear condiciones para que la comunidad pueda imaginar un futuro propio. El trabajo del mediador es crear las condiciones para que la comunidad pueda honrar lo que fue y, desde ese honor, construir algo nuevo. Eso requiere que Potós colectivo pueda dialogar con Eros colectivo —la apertura a lo nuevo— sin que ninguno de los dos anule al otro.
 
 ### B·I·E ·  MÓDULO EROS
 
