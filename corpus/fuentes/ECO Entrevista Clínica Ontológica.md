@@ -7618,7 +7618,7 @@ Entrevista Clínica Ontológica · ECO
 
 de discriminación relevantes y ha producido la localización más precisa que esa evidencia permite ha completado ECO. Si hay componentes que no alcanzaron la certeza que el instrumento puede alcanzar en condiciones óptimas, esos componentes se declaran con su nivel real de certeza — lo que es un resultado honesto del instrumento, no una falla del proceso.
 
-ECO no produce certeza: produce la localización más precisa posible desde la evidencia disponible, con declaración honesta del nivel de certeza de cada componente. El instrumento que declara incertidumbre donde la incertidumbre existe es más útil para Histos que el instrumento que produce certeza aparente donde no la hay.
+**ECO no produce certeza:** produce la localización más precisa posible desde la evidencia disponible, con declaración honesta del nivel de certeza de cada componente. El instrumento que declara incertidumbre donde la incertidumbre existe es más útil para Histos que el instrumento que produce certeza aparente donde no la hay.
 
 La distinción entre módulos obligatorios y módulos condicionales
 
@@ -7628,9 +7628,7 @@ Para el ego colectivo del Bloque III, el cierre requiere que el protocolo de ide
 
 Definición Condición diagnóstica
 
-Estado de la localización
-
-Protocolo que activa
+<!-- TABLA: estados de cierre | columnas: estado de localización, protocolo que activa, resultado y paso siguiente -->
 
 ### Entrevista Clínica Ontológica · ECO
 
@@ -7684,23 +7682,21 @@ Ego genuino no localizable desde esta administración del instrumento. La locali
 
 ### El árbol de decisión de cierre — protocolo formal
 
-NODO C·1 — ¿Todos los módulos obligatorios fueron administrados o saltados con justificación documentada?
+> **NODO C·1 — ¿Todos los módulos obligatorios fueron administrados o saltados con justificación documentada?**
+>
+> NO → Instrumento incompleto. Determinar si los módulos faltantes pueden administrarse antes del cierre o si el cierre debe declararse como «incompleto» con nota de los módulos pendientes. SÍ → Continuar a NODO C·2. ↓
 
-NO → Instrumento incompleto. Determinar si los módulos faltantes pueden administrarse antes del cierre o si el cierre debe declararse como «incompleto» con nota de los módulos pendientes. SÍ → Continuar a NODO C·2. ↓
+> **NODO C·2 — ¿Los componentes principales de la localización (distribución P(Hijos) + al menos 3 de los 5 códigos de Eje) alcanzaron EP-2 o superior?**
+>
+> NO (uno o más componentes principales tienen EP-3 o inferior) → Localización completa con incertidumbre declarada. Producir DI-ECO. Continuar a NODO C·3. SÍ → Continuar a NODO C·3. ↓
 
-NODO C·2 — ¿Los componentes principales de la localización (distribución P(Hijos) + al menos 3 de los 5 códigos de Eje) alcanzaron EP-2 o superior?
+> **NODO C·3 — ¿Hay contradicciones entre módulos que no pudieron resolverse con el protocolo de discriminación?**
+>
+> SÍ → Localización no concluyente en los componentes contradictorios. Producir DI-ECO con descripción de la contradicción. Ver §3.3 de esta sección. NO → Continuar a NODO C·4. ↓
 
-NO (uno o más componentes principales tienen EP-3 o inferior) → Localización completa con incertidumbre declarada. Producir DI-ECO. Continuar a NODO C·3. SÍ → Continuar a NODO C·3. ↓
-
-NODO C·3 — ¿Hay contradicciones entre módulos que no pudieron resolverse con el protocolo de discriminación?
-
-Entrevista Clínica Ontológica · ECO
-
-SÍ → Localización no concluyente en los componentes contradictorios. Producir DI-ECO con descripción de la contradicción. Ver §3.3 de esta sección. NO → Continuar a NODO C·4. ↓
-
-NODO C·4 — ¿El ego genuino del sujeto produjo señal diagnóstica en al menos un módulo (D-2 no es total)?
-
-NO (D-2 profundo con ausencia de D-1 residual en todos los módulos) → Instrumento no evaluable: ego genuino inaccesible. DI-ECO con nota de D-2. Ver §3.4. SÍ → Instrumento completo. Producir hoja de síntesis con nivel de certeza declarado por componente. ↓
+> **NODO C·4 — ¿El ego genuino del sujeto produjo señal diagnóstica en al menos un módulo (D-2 no es total)?**
+>
+> NO (D-2 profundo con ausencia de D-1 residual en todos los módulos) → Instrumento no evaluable: ego genuino inaccesible. DI-ECO con nota de D-2. Ver §3.4. SÍ → Instrumento completo. Producir hoja de síntesis con nivel de certeza declarado por componente. ↓
 
 SALIDA — Estado del cierre de ECO + DI-ECO si aplica + Hoja de síntesis → Determinar el paso siguiente
 
