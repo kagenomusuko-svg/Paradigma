@@ -32,5 +32,42 @@ su propio cálculo para volverse herramienta.
 
 Este es ese cálculo.»
 
-El Cálculo de la Responsabilidad · Prólogo
 
+# Índice
+
+Prólogo Lo que este libro hace y por qué era necesario  
+
+Parte I Ciencias jurídicas y sociales  
+Capítulo 1 Derecho penal y civil  
+Capítulo 2 PLD y compliance  
+Capítulo 3 Derecho internacional y deudas históricas  
+Capítulo 4 El isomorfismo de la imputación — cierre de la Parte I  
+
+Parte II Ciencias de la salud  
+Capítulo 5 Psicología clínica y psiquiatría  
+Capítulo 6 Epidemiología  
+Capítulo 7 Tanatología y duelo  
+
+Parte III Economía, finanzas y empresa  
+Capítulo 8 Score crediticio  
+Capítulo 9 Análisis de quiebra y riesgo sistémico  
+Capítulo 10 Seguros y actuaría  
+Capítulo 11 Gobierno corporativo  
+
+Parte IV Ingeniería y tecnología  
+Capítulo 12 Ingeniería de sistemas y confiabilidad  
+Capítulo 13 Inteligencia artificial y algoritmos de decisión  
+Capítulo 14 Medio ambiente y ecología  
+
+Parte V Humanidades y ciencias sociales  
+Capítulo 15 Educación  
+Capítulo 16 Análisis histórico y geopolítico  
+Capítulo 17 Deportes y valor de contribución  
+Capítulo 18 Literatura y análisis cultural  
+
+Apéndices  
+Apéndice A El sistema como instrumento de gestión empresarial  
+Apéndice B Calibración de los pesos W del grafo causal  
+Apéndice C Fundamentos matemáticos y demostraciones  
+Apéndice D Biblioteca Python de referencia  
+Apéndice E Glosario unificado por dominio  
