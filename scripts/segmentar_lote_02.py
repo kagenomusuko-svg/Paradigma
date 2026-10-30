@@ -100,7 +100,8 @@ def boundaries_eco(lines):
     if appendix_start is None:
         raise RuntimeError("ECO: no se encontró el inicio del apéndice A·1.")
 
-    for index,raw in enumerate(lines[:appendix_start]):
+    body_start=next(i for i,line in enumerate(lines) if line.strip()=="Capítulo P·1")
+    for index,raw in enumerate(lines[body_start:appendix_start],start=body_start):
         text=raw.strip()
         if not re.match(r"^B·(?:I·[FDAPEH]|II·(?:I|II|III|IV|V)|III·[1-5]|IV(?: · §[2-5])?)\b",text): continue
         if re.match(r"^B·IV\s*·\s*PRINCIPIOS",text):
