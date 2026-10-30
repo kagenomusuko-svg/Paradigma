@@ -25,3 +25,4 @@ INTEGRADAS # ══════════════════════�
 
 {'Fobos':0.38,'Potós':0.28,'Deimos':0.20, 'Eros':0.08,'Anteros':0.05,'Harmonía':0.01},     }      reporte_completo(W, alpha, nombres,                      D_total=0, B_total=10_100_000,                      alpha_B=0.03, w_ref=8.0,                      hijos_dict=hijos)
 
+
