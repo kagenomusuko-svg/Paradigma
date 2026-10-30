@@ -1,10 +1,9 @@
-PARTE I · CIENCIAS JURÍDICAS Y SOCIALES
+# Capítulo 2
+## PLD y compliance
 
-### Capítulo 2 PLD y compliance
+*El beneficiario invisible: imputar al diseñador de una operación que nunca tocó el dinero*
 
-El beneficiario invisible: imputar al diseñador de una operación
-
-que nunca tocó el dinero
+---
 
 ### §1.  El problema
 
@@ -12,13 +11,12 @@ Un abogado en Ciudad de Panamá constituye una sociedad anónima en las Islas V�
 
 Los sistemas de prevención de lavado de dinero convencionales trabajan con señales de alerta: transacciones inusuales, montos superiores a umbrales, patrones de fragmentación. Son eficaces para detectar al ejecutor —el que mueve el dinero, el que firma los formularios, el que abre la cuenta— pero raramente alcanzan al arquitecto del esquema. El arquitecto no mueve dinero: diseña el sistema
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 que lo mueve. Su nombre puede no aparecer en ningún documento de la operación, o puede aparecer al final de una cadena tan larga de intermediarios que la conexión causal parece imposible de demostrar.
 
 El cálculo de la responsabilidad ofrece una herramienta diferente: no busca señales de alerta en transacciones aisladas, sino que construye el grafo completo de la operación y pregunta, para cada nodo, cuánto dependía el éxito del esquema de ese nodo específico. Esa pregunta — la pregunta de la necesidad causal— identifica al arquitecto, aunque no haya firmado nada, porque sin él la operación no habría podido diseñarse ni ejecutarse.
 
-### 1.1 Por qué el lavado de dinero es el problema de imputación más difícil
+#### 1.1 Por qué el lavado de dinero es el problema de imputación más difícil
 
 El lavado de dinero comparte con el fraude corporativo del Capítulo 1 el problema de la invisibilidad del diseñador. Pero lo profundiza en dos dimensiones que lo hacen único.
 
@@ -26,13 +24,12 @@ La primera dimensión es la opacidad deliberada. En el fraude corporativo, el di
 
 La segunda dimensión es la multiplicación de jurisdicciones. El fraude corporativo ocurre, típicamente, dentro de las fronteras de un sistema jurídico que puede investigar con un solo expediente. El lavado de dinero atraviesa fronteras por diseño: cada jurisdicción ve solo su nodo, no el grafo completo. Ninguna autoridad tiene la visión del sistema
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
-### entero a menos que coordine con todas las demás, y esa coordinación es precisamente lo que el diseño del esquema dificulta.
+#### entero a menos que coordine con todas las demás, y esa coordinación es precisamente lo que el diseño del esquema dificulta.
 
 Analogía: La luz que llega de una estrella muerta El astrónomo que observa una estrella desde la Tierra ve la luz que salió hace miles de años: la estrella puede ya no existir. El investigador de PLD que analiza una transacción ve el movimiento de dinero tal como llegó a su jurisdicción, no el origen que lo produjo hace meses o años y a miles de kilómetros. El grafo causal es el instrumento que permite reconstruir la fuente a partir de la luz que llegó.
 
-### 1.2 El problema de la inversión causal en PLD
+#### 1.2 El problema de la inversión causal en PLD
 
 En el lavado de dinero, la inversión causal es una característica de diseño, no un efecto colateral. El esquema típico tiene la siguiente estructura de responsabilidad objetiva versus asunción formal:
 
@@ -66,13 +63,12 @@ Entidades instrumentales
 
 ~5-8% Total (es el vehículo)
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 * El testaferro tiene α = 100% forzado porque firma los documentos y es el único identificable. Pero su R* real es mínimo: era altamente sustituible (S alto) y no diseñó el esquema.
 
 Esta tabla es la descripción matemática de por qué los sistemas de PLD convencionales capturan a los testaferros y raramente al arquitecto: el criterio basado en la firma visible coincide exactamente con los nodos de menor R* y mayor visibilidad documental. Es la misma inversión causal del Capítulo 1, pero aquí es el objetivo explícito del diseño criminal.
 
-### 1.3 Lo que el cálculo de la responsabilidad aporta al PLD
+#### 1.3 Lo que el cálculo de la responsabilidad aporta al PLD
 
 El aporte central del sistema al PLD es conceptualmente simple: reemplazar la pregunta "¿quién firmó?" por la pregunta "¿sin quién el esquema no habría funcionado?". La primera es una pregunta sobre la visibilidad documental. La segunda es una pregunta sobre la necesidad causal. Y las respuestas a ambas preguntas señalan nodos opuestos.
 
@@ -80,11 +76,9 @@ Esta segunda pregunta es exactamente la que R* responde. El vector de necesidad 
 
 Principio PLD:  En PLD, el R* no mide culpabilidad penal en sentido estricto: mide necesidad causal de la operación. Un nodo con R* alto sin α es el beneficiario real probable. Un nodo con R* bajo y α = 100% forzado es el chivo expiatorio del esquema. Δ mide la brecha entre ambos, que es
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 exactamente la medida de la injusticia estructural del sistema de imputación que se está aplicando.
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 ### §2.  Página puente — Traducción al lenguaje del PLD
 
@@ -114,7 +108,6 @@ Vehículo financiero
 
 La empresa fantasma, la cuenta bancaria, el fideicomiso. No tiene
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 voluntad propia. No se le calcula hijo ni α subjetivo, pero sí R* (necesidad de la operación).
 
@@ -138,7 +131,6 @@ D_total Daño al sistema financiero
 
 La suma de: recursos ilícitos integrados en la economía formal (T_invertido), costo de las investigaciones y daño a la confianza (T_impedido), y distorsión estructural
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 persistente (ΔT_trayectoria).
 
@@ -164,15 +156,13 @@ Impacto en las condiciones materiales del Estado
 
 Para el lector que viene del núcleo universal:  En este dominio la temporalidad es retrospectiva para los casos en investigación y prospectiva para el diseño de controles. La característica más singular del PLD frente a otros dominios es que el nodo de mayor R* es por diseño el
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 menos visible documentalmente. El grafo debe reconstruirse parcialmente a partir de inferencias causales, no solo de documentos existentes.
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 ### §3.  Las herramientas en el contexto del PLD
 
-### 3.1 Las tres fases del lavado y su traducción al grafo
+#### 3.1 Las tres fases del lavado y su traducción al grafo
 
 El lavado de dinero opera en tres fases clásicas que se corresponden directamente con tres tipos de nodos en el grafo causal de la operación. Comprender esta correspondencia es el primer paso para construir el grafo correctamente.
 
@@ -192,7 +182,6 @@ Nodos instrumentales: empresas offshore, fideicomisos, cuentas en múltiples jur
 
 Son los nodos de mayor densidad en el grafo. Su función es aumentar S del
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 imposible rastrear el origen.
 
@@ -206,19 +195,17 @@ Nodos de salida: propiedades, inversiones, empresas reales, fondos de inversión
 
 El error más frecuente al construir el grafo de una operación de lavado es incluir solo los nodos de colocación (los más visibles) y omitir los nodos de estratificación y los nodos de diseño. Un grafo incompleto produce un R* que sobreestima la responsabilidad de los nodos de entrada — los testaferros, los empleados de banco— y subestima o no detecta al arquitecto.
 
-### 3.2 Cómo construir el grafo de una operación de lavado
+#### 3.2 Cómo construir el grafo de una operación de lavado
 
 El grafo de una operación de lavado se construye de afuera hacia adentro: se comienzan por los nodos visibles en documentos y se trabaja hacia atrás y hacia arriba hasta identificar los nodos con mayor R* que no aparecen en los documentos directamente pero que son inferibles a partir de patrones.
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 1.  Mapear los flujos financieros documentados. Cada movimiento de dinero es una arista potencial del grafo. El monto y la velocidad de cada movimiento contribuyen a estimar el peso de la arista. 2.  Identificar los vehículos jurídicos (nodos instrumentales). Cada empresa, fideicomiso, fondo o cuenta es un nodo. Los nodos instrumentales tienen aristas de entrada (quien los controla) y aristas de salida (a dónde dirigen el dinero). 3.  Inferir el control real detrás de los vehículos. La pregunta clave es: ¿quién toma las decisiones sobre este nodo instrumental? ¿Quién instruyó su creación? Esto se responde con: coincidencia de instrucciones entre múltiples vehículos, patrones de timing (todos se activan simultáneamente), beneficiario final de los activos integrados, comunicaciones entre intermediarios. 4.  Verificar la coherencia del grafo. Si los pesos propuestos producen un R* que concentra la responsabilidad en un nodo con visibilidad documental alta y no hay ningún nodo de mayor R*, el grafo probablemente está incompleto. Un esquema bien diseñado tiene siempre un nodo de diseño con R* dominante que es difícilmente visible.
 
 Nodo inferido:  Un nodo cuya existencia no está directamente documentada pero que es causalmente necesario para explicar los patrones observados. En PLD, el arquitecto suele ser un nodo inferido: su existencia se deduce del hecho de que la operación requería un nivel de coordinación y conocimiento que ninguno de los nodos visibles podía haber tenido individualmente.
 
-### 3.3 R* como necesidad causal de la operación
+#### 3.3 R* como necesidad causal de la operación
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 En el contexto del PLD, R* no mide "responsabilidad por el crimen" en sentido penal, sino necesidad causal de la operación: cuánto dependía el éxito del esquema de que ese nodo específico existiera y actuara como lo hizo.
 
@@ -230,13 +217,12 @@ controlador real
 
 Si un nodo instrumental tiene R* alto y S bajo (era el vehículo específico que el esquema requería, no cualquier empresa genérica), la inferencia es que fue diseñado para ese esquema específico. Eso aumenta el peso causal del nodo que lo diseñó y controló.
 
-Nota para el oficial de compliance:  En la práctica, R* se estima con las herramientas de análisis de redes que los departamentos de compliance ya usan: mapas de beneficiario final, análisis de corresponsalía bancaria, reportes de inteligencia financiera. Lo que el cálculo aporta es la formalización de ese análisis: convertirlo de una evaluación cualitativa ("esta estructura parece sospechosa") a una medida cuantitativa ("este nodo tiene R* = 0.62 y ningún α documentado, lo que produce Δ = +0.62, que es una señal de beneficiario real no identificado").
+> **Nota para el oficial de compliance:** En la práctica, R* se estima con las herramientas de análisis de redes que los departamentos de compliance ya usan: mapas de beneficiario final, análisis de corresponsalía bancaria, reportes de inteligencia financiera. Lo que el cálculo aporta es la formalización de ese análisis: convertirlo de una evaluación cualitativa ("esta estructura parece sospechosa") a una medida cuantitativa ("este nodo tiene R* = 0.62 y ningún α documentado, lo que produce Δ = +0.62, que es una señal de beneficiario real no identificado").
 
-### 3.4 El índice de sustituibilidad S en operaciones de lavado
+#### 3.4 El índice de sustituibilidad S en operaciones de lavado
 
 En PLD, S tiene una interpretación especialmente importante porque el esquema de lavado deliberadamente busca aumentar S de todos sus nodos visibles: si cualquier
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 prestanombre habría servido, si cualquier abogado habría creado la misma empresa, si cualquier banco corresponsal habría procesado la misma transferencia, entonces el esquema parece no depender de nadie en particular. Esa es exactamente la apariencia que el arquitecto quiere crear.
 
@@ -250,23 +236,22 @@ S estimado
 
 Testaferro / prestanombre
 
-### 0.85 – 0.95 Cualquier otra persona dispuesta habría firmado los mismos documentos.
+#### 0.85 – 0.95 Cualquier otra persona dispuesta habría firmado los mismos documentos.
 
 R* bajo y S alto → responsabilidad neta mínima. Argumento para reducción de cargos o acuerdo de cooperación.
 
 Abogado que constituye la empresa
 
-### 0.60 – 0.80 Cualquier abogado en jurisdicción permisiva habría hecho lo mismo, salvo que tuviera conocimiento específico del esquema.
+#### 0.60 – 0.80 Cualquier abogado en jurisdicción permisiva habría hecho lo mismo, salvo que tuviera conocimiento específico del esquema.
 
 S depende del grado de conocimiento. Si fue el mismo abogado en múltiples esquemas del arquitecto, S baja.
 
 Banco que procesa las transferencias
 
-### 0.55 – 0.75 El dinero podría haber pasado por otro banco con controles menos rigurosos. Pero si
+#### 0.55 – 0.75 El dinero podría haber pasado por otro banco con controles menos rigurosos. Pero si
 
 El Δ del banco mide su incumplimiento de due diligence proporcional a
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 el arquitecto eligió ese banco específicamente, S baja.
 
@@ -282,13 +267,12 @@ S bajo → responsabilidad causal neta alta. Es el nodo que el análisis debe id
 
 Arquitecto del esquema
 
-### 0.10 – 0.25 Sin el arquitecto, el esquema no habría existido en esa forma específica. Su conocimiento, sus conexiones y su diseño eran idiosincráticos.
+#### 0.10 – 0.25 Sin el arquitecto, el esquema no habría existido en esa forma específica. Su conocimiento, sus conexiones y su diseño eran idiosincráticos.
 
-### 3.5 α y Δ en el contexto del compliance bancario
+#### 3.5 α y Δ en el contexto del compliance bancario
 
 En el dominio del PLD, α tiene una definición operativa más precisa que en el derecho general. El coeficiente de asunción mide el cumplimiento de la obligación de reporte: si el nodo con obligaciones de compliance detectó la operación inusual y actuó conforme a sus obligaciones regulatorias.
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 Conducta observable
 
@@ -300,37 +284,36 @@ Facilitación activa 0.00 El nodo no solo no reportó: activamente ayudó a estr
 
 Omisión deliberada
 
-### 0.02 – 0.05 El nodo identificó señales de alerta y eligió no reportar. No hay evidencia de facilitación activa pero sí de omisión consciente.
+#### 0.02 – 0.05 El nodo identificó señales de alerta y eligió no reportar. No hay evidencia de facilitación activa pero sí de omisión consciente.
 
 Due diligence insuficiente
 
-### 0.08 – 0.20 El nodo aplicó procedimientos de due diligence, pero de manera insuficiente o superficial. No se puede demostrar omisión deliberada.
+#### 0.08 – 0.20 El nodo aplicó procedimientos de due diligence, pero de manera insuficiente o superficial. No se puede demostrar omisión deliberada.
 
 Procedimiento correcto sin resultado
 
-### 0.40 – 0.60 El nodo siguió sus procedimientos correctamente pero el esquema los evadió. La operación era suficientemente sofisticada para superar los controles vigentes.
+#### 0.40 – 0.60 El nodo siguió sus procedimientos correctamente pero el esquema los evadió. La operación era suficientemente sofisticada para superar los controles vigentes.
 
 Reporte oportuno
 
-### 0.70 – 0.85 El nodo reportó la operación inusual a la autoridad competente en tiempo y forma.
+#### 0.70 – 0.85 El nodo reportó la operación inusual a la autoridad competente en tiempo y forma.
 
-### 0.90 – 1.00 El nodo rechazó la operación, la reportó y cooperó activamente con la investigación posterior.
+#### 0.90 – 1.00 El nodo rechazó la operación, la reportó y cooperó activamente con la investigación posterior.
 
 Rechazo y reporte
 
 El déficit de compliance Δ = R* − α mide la brecha entre la necesidad causal del nodo en el esquema y su cumplimiento regulatorio. Un banco que procesó el 15% de los flujos del esquema (R* = 0.15) y tuvo due diligence insuficiente sin reportar (α = 0.10) tiene Δ = +0.05: un déficit moderado que sustenta una sanción regulatoria
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
-### proporcional. Un arquitecto con R* = 0.60 y α = 0 tiene Δ = +0.60: es la señal más importante de la investigación.
+#### proporcional. Un arquitecto con R* = 0.60 y α = 0 tiene Δ = +0.60: es la señal más importante de la investigación.
 
-### 3.6 El daño total al sistema financiero
+#### 3.6 El daño total al sistema financiero
 
-### El daño del lavado de dinero no se agota en los recursos ilícitos integrados en la economía. La descomposición en tres componentes revela la magnitud completa:
+#### El daño del lavado de dinero no se agota en los recursos ilícitos integrados en la economía. La descomposición en tres componentes revela la magnitud completa:
 
-### D_total = T_invertido + T_impedido +
+#### D_total = T_invertido + T_impedido +
 
-### ΔT_trayectoria
+#### ΔT_trayectoria
 
 Componente En PLD equivale a
 
@@ -348,11 +331,10 @@ El costo de las investigaciones, los procesos judiciales, las sanciones regulato
 
 El daño que persiste después de descubierto el esquema: la asimetría competitiva permanente entre empresas
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 financiadas con dinero limpio y empresas que compitieron contra precios artificialmente bajos del dinero sucio, la pérdida de reputación de la jurisdicción afectada, y la deformación del tejido institucional de las autoridades corrompidas por el esquema.
 
-### 3.7 El daño en tiempo de vida ciudadana
+#### 3.7 El daño en tiempo de vida ciudadana
 
 Dimensión vital:  Cuando el lavado de dinero afecta recursos públicos —impuestos que debían financiar servicios, presupuestos desviados, contratos públicos sobrevaluados— el daño no es solo al sistema financiero abstracto. Es tiempo de vida de los ciudadanos que pagaron esos impuestos y no recibieron los servicios a los que tenían derecho. La misma fórmula del Capítulo 1 aplica aquí: D_vital = D_total_public / w_ref.
 
@@ -364,11 +346,10 @@ de vida ciudadana]
 
 Este componente del daño es relevante para la cuantificación de la reparación en casos donde el erario es la víctima directa. La acción de extinción de dominio y la recuperación de activos tienen como límite inferior el
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 D_vital_publico: recuperar menos de ese monto es no reparar el daño en términos de tiempo de vida.
 
-### 3.8 El beneficio del esquema y la extinción de dominio
+#### 3.8 El beneficio del esquema y la extinción de dominio
 
 El cálculo del beneficio en PLD tiene una aplicación directa sobre la extinción de dominio. B_total del esquema es la medida de lo que el arquitecto y los intermediarios obtuvieron causalmente del lavado. El vector R*_B distribuye ese beneficio entre los nodos que contribuyeron causalmente a obtenerlo.
 
@@ -378,13 +359,12 @@ donde AD_B_i es la porción del beneficio del esquema causalmente atribuible al 
 
 Esta aplicación rompe uno de los obstáculos más frecuentes en los casos de extinción de dominio: el argumento del testaferro de que los activos a su nombre no son producto del delito "porque él no fue el autor intelectual". El R*_B del testaferro es bajo, pero no es cero: participó causalmente en el esquema, aunque con S alto y contribución marginal pequeña. El argumento correcto es: los activos a nombre del testaferro son producto del delito en proporción a su R*_B, y el resto corresponde al arquitecto identificado o por identificar.
 
-### 3.9 Los hijos de Afrodita en el PLD: la disposición del intermediario
+#### 3.9 Los hijos de Afrodita en el PLD: la disposición del intermediario
 
 Los hijos aplican en este dominio exclusivamente a los nodos humanos: el arquitecto, los intermediarios
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
-### profesionales (abogados, contadores, asesores), los funcionarios bancarios y los testaferros. No aplican a los nodos instrumentales (empresas, cuentas, fideicomisos).
+#### profesionales (abogados, contadores, asesores), los funcionarios bancarios y los testaferros. No aplican a los nodos instrumentales (empresas, cuentas, fideicomisos).
 
 La distinción más importante que los hijos aportan al análisis de PLD es la diferencia entre quien actúa desde Eros+Anteros (codicia deliberada, participación voluntaria en el esquema) y quien actúa desde Fobos o Deimos (miedo a represalias, ignorancia genuina de la naturaleza ilícita de la operación). Esta distinción afecta directamente la culpabilidad penal y el tipo de sanción aplicable, aunque no modifica R* ni Δ.
 
@@ -410,7 +390,6 @@ Testaferro bajo presión. Empleado bancario con supervisor corrupto.
 
 Eximente o atenuante significativa. Alta probabilidad de cooperación
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 amenazas directas.
 
@@ -430,9 +409,8 @@ El nodo evaluó deliberadament e la operación con plena información y eligió 
 
 Oficial de compliance que actuó correctamente . Banco que rechazó al cliente.
 
-Nota sobre la prueba del hijo en PLD:  Acreditar el hijo dominante de un intermediario requiere evidencia de su estado de conocimiento en el momento de los hechos: comunicaciones internas, historial del cliente, alertas recibidas y no procesadas, patrones de conducta anterior con el mismo tipo de operación. El hijo no se presume: se acredita con las mismas fuentes documentales que el grafo.
+> **Nota sobre la prueba del hijo en PLD:** Acreditar el hijo dominante de un intermediario requiere evidencia de su estado de conocimiento en el momento de los hechos: comunicaciones internas, historial del cliente, alertas recibidas y no procesadas, patrones de conducta anterior con el mismo tipo de operación. El hijo no se presume: se acredita con las mismas fuentes documentales que el grafo.
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 ### §4.  Casos resueltos
 
@@ -446,7 +424,6 @@ El Bank of Credit and Commerce International fue fundado en 1972 por Agha Hasan 
 
 El BCCI es el caso fundacional del PLD moderno. Gran parte de la regulación financiera internacional vigente —el FATF/GAFI, los estándares de beneficiario real, la cooperación entre reguladores de distintos países— nació directamente de las lecciones del BCCI. Para el sistema de imputación causal, es también el caso donde la estructura del grafo alcanza una complejidad sin precedentes: 73 nodos jurisdiccionales, cientos de nodos institucionales, y un nodo de diseño que operó durante veinte años sin que ninguna autoridad tuviera la visión completa del grafo.
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 A.2 La arquitectura del grafo: por qué nadie lo vio
 
@@ -464,7 +441,6 @@ Actor Tipo Función causal en el esquema
 
 Nod o
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 N1 Agha Hasan Abedi y equipo fundador
 
@@ -486,7 +462,6 @@ Ejecución/vehícul o
 
 Fachada regulatoria en el
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 mercado anglosajón.
 
@@ -508,15 +483,14 @@ Facilitadores institucionales
 
 En algunos países, reguladores y funcionarios gubernamentale s recibieron sobornos para mirar hacia otro lado o para facilitar licencias bancarias.
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 Nodo final 22,000 millones de dólares en pérdidas para depositantes. Daño sistémico a la confianza en la banca internacional.
 
 Nf Depositantes legítimos y sistema financiero
 
-### A.4 R* y el análisis de sustituibilidad
+#### A.4 R* y el análisis de sustituibilidad
 
-### Aplicando la iteración de potencia con los pesos documentados en los informes del Senado norteamericano (Kerry Report, 1992) y de los liquidadores judiciales:
+#### Aplicando la iteración de potencia con los pesos documentados en los informes del Senado norteamericano (Kerry Report, 1992) y de los liquidadores judiciales:
 
 Nodo R* est.
 
@@ -540,7 +514,6 @@ N2 — ICIC Caimán
 
 N3/N4 — BCCI SA/UK
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 ~8% 0.60 Otro auditor habría podido detectar o no detectar el mismo esquema. S moderado.
 
@@ -562,9 +535,9 @@ N7 — Reguladores capturados
 
 El resultado es inequívoco: el 48% de la necesidad causal del esquema residía en Abedi, con S = 0.15. Ningún otro actor en el grafo podría haber diseñado, mantenido y coordinado ese sistema durante veinte años. Este es el caso más claro en la literatura financiera de la diferencia entre R* y visibilidad documental: Abedi murió en 1995 en Pakistán sin haber sido condenado en ningún tribunal occidental, mientras cientos de empleados y funcionarios de menor R* fueron procesados.
 
-### A.5 El daño total del BCCI
+#### A.5 El daño total del BCCI
 
-### El BCCI es uno de los pocos casos de lavado donde la escala del daño permite calcular los tres componentes con estimaciones documentadas:
+#### El BCCI es uno de los pocos casos de lavado donde la escala del daño permite calcular los tres componentes con estimaciones documentadas:
 
 Componente Estimación documentada
 
@@ -574,7 +547,6 @@ T_invertido ~$22 mil millones USD (1991)
 
 Déficit documentado en la liquidación judicial. Pérdida
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 directa a 1.4 millones de depositantes en 73 países.
 
@@ -590,17 +562,15 @@ D_total ~$45-59 mil millones USD
 
 Rango estimado. La incertidumbre es alta porque ΔT_trayectoria requiere modelar el desarrollo contrafáctico de las economías afectadas.
 
-### Expresado en tiempo de vida ciudadana con w_ref = $8 USD/hora (PPP global 2024):
+#### Expresado en tiempo de vida ciudadana con w_ref = $8 USD/hora (PPP global 2024):
 
-### D_vital_BCCI ≈ $52,000,000,000 / $8 ≈ 6,500,000,000
+#### D_vital_BCCI ≈ $52,000,000,000 / $8 ≈ 6,500,000,000
 
-### horas de vida ciudadana
+#### horas de vida ciudadana
 
 Seis mil quinientos millones de horas de vida representan el equivalente a aproximadamente 742,000 años de vida humana plena, distribuidos entre los depositantes que perdieron sus ahorros, los ciudadanos de los países en desarrollo que no recibieron el financiamiento al desarrollo que el banco prometía, y los contribuyentes de los países que financiaron los procesos de liquidación.
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 Caso B — Panama Papers (2016)
 
@@ -632,7 +602,6 @@ Diseño de la estructura
 
 Diseñó y creó la estructura específica de cada cliente. Eligió la jurisdicción, el tipo de entidad, el mecanismo de opacidad. Su conocimiento del cliente varía: en algunos casos los documentos muestran conocimiento explícito del perfil de riesgo.
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 N3 Intermediario financiero (banco privado)
 
@@ -658,7 +627,6 @@ Ejecución nominal
 
 Persona física que aparece como director o accionista sin tener control real. Alta visibilidad documental, S
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 muy alto, R* muy bajo.
 
@@ -666,19 +634,24 @@ Nodo final El daño primario es fiscal: impuestos evadidos. El daño secundario 
 
 Nf El fisco del país de origen / el sistema financiero
 
-### B.3 R* del diseñador invisible: el caso del jefe de Estado
+#### B.3 R* del diseñador invisible: el caso del jefe de Estado
 
 Para ilustrar el cálculo con un caso típico de los Panama Papers, tomamos la estructura genérica de un funcionario público que utiliza el esquema para ocultar activos de origen ilícito. Los datos son estructuralmente representativos, aunque no corresponden a ningún caso específico identificado.
 
-### Parámetros del grafo:
+#### Parámetros del grafo:
 
-•  w (N1 → N2) = 0.90: el funcionario instruyó la creación de la estructura. Mossack Fonseca actuó bajo instrucción del cliente. •  w (N2 → N4) = 0.95: el despacho creó la empresa específica. Sin MF, la empresa no existiría en esa forma. •  w (N2 → N3) = 0.70: el despacho presentó al cliente al banco o facilitó la apertura de cuenta. •  w (N4 → N5) = 0.85: la primera empresa offshore controla las capas adicionales.
+- w (N1 → N2) = 0.90: el funcionario instruyó la creación de la estructura. Mossack Fonseca actuó bajo instrucción del cliente.
+- w (N2 → N4) = 0.95: el despacho creó la empresa específica. Sin MF, la empresa no existiría en esa forma.
+- w (N2 → N3) = 0.70: el despacho presentó al cliente al banco o facilitó la apertura de cuenta.
+- w (N4 → N5) = 0.85: la primera empresa offshore controla las capas adicionales.
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
-•  w (N3 → Nf) = 0.80: el banco procesó los fondos que llegaron al sistema financiero formal. •  w (N6 → N4) = 0.20: el director nominal firmó los documentos, pero sin poder de decisión real.
 
-### Resultado de R* tras convergencia:
+- w (N3 → Nf) = 0.80: el banco procesó los fondos que llegaron al sistema financiero formal.
+- w (N6 → N4) = 0.20: el director nominal firmó los documentos, pero sin poder de decisión real.
+
+
+#### Resultado de R* tras convergencia:
 
 Nodo R* S α Δ y significado
 
@@ -704,11 +677,10 @@ Nodo instrumental: R* apunta al controlador
 
 N6 — Testaferro
 
-### * Mossack Fonseca tenía procesos de KYC (Know Your Customer) que en algunos casos documentaban conocimiento del perfil de riesgo del cliente.
+#### * Mossack Fonseca tenía procesos de KYC (Know Your Customer) que en algunos casos documentaban conocimiento del perfil de riesgo del cliente.
 
-### ** El α del banco depende de si aplicó due diligence adecuada. En los casos donde los documentos de MF muestran que el banco conocía el perfil del cliente, α es bajo.
+#### ** El α del banco depende de si aplicó due diligence adecuada. En los casos donde los documentos de MF muestran que el banco conocía el perfil del cliente, α es bajo.
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 *** El testaferro tiene α = 100% forzado porque firmó todos los documentos y es el único identificable sin investigación adicional.
 
@@ -722,9 +694,8 @@ Los correos también establecen que el hijo dominante de Mossack Fonseca en esos
 
 La lección central de los Panama Papers para el PLD:  Un esquema de lavado bien diseñado tiene por definición todos los testaferros y empresas con S alto (son intercambiables), y el beneficiario real con S bajo (es el único que tenía el interés económico concreto). Cuando todos los nodos visibles tienen S alto, el cálculo produce automáticamente R* concentrado en un nodo con visibilidad baja. Esa concentración de R* en la oscuridad es la señal más importante para orientar la investigación.
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
-### B.5 Los hijos de Mossack Fonseca: la disposición del despacho
+#### B.5 Los hijos de Mossack Fonseca: la disposición del despacho
 
 El caso Mossack Fonseca es inusualmente rico para el análisis de hijos porque los documentos filtrados incluyen comunicaciones internas que revelan el estado de conocimiento y la disposición de quienes tomaron las decisiones.
 
@@ -760,7 +731,6 @@ Comunicacione s con autoridades que minimizan la información entregada
 
 Compatible con resistencia deliberada a la
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 mientras afirman cumplimiento pleno.
 
@@ -774,57 +744,53 @@ Culpa habitual grave.
 
 El patrón de hijos del despacho describe a una institución que no operaba desde la ignorancia (Deimos) sino desde la persistencia en un modelo de negocio deliberadamente orientado a la opacidad (Potós) con episodios de búsqueda activa de ese perfil de cliente (Eros) y resistencia deliberada a los controles (Anteros). Ese mapa de hijos es coherente con α bajo y con una culpabilidad que trasciende la mera negligencia regulatoria.
 
-### B.6 El daño de los Panama Papers expresado en tiempo de vida fiscal
+#### B.6 El daño de los Panama Papers expresado en tiempo de vida fiscal
 
 El daño de los Panama Papers es principalmente fiscal: impuestos evadidos que debían financiar servicios públicos. La estimación del daño fiscal global derivado de las estructuras Mossack Fonseca varía según la metodología, pero los estudios más citados apuntan a entre 120,000 y 190,000 millones de dólares en impuestos evadidos globalmente a través de esquemas offshore similares al descrito, con Mossack Fonseca representando una fracción significativa.
 
-### D_vital_fiscal ≈ $155,000,000,000 / $8 = 19,375,000,000
+#### D_vital_fiscal ≈ $155,000,000,000 / $8 = 19,375,000,000
 
-### horas de vida fiscal ciudadana
+#### horas de vida fiscal ciudadana
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 Diecinueve mil millones de horas de vida fiscal representan el servicio público que los ciudadanos de los países afectados financiaron con sus impuestos y que no recibieron porque los recursos fueron desviados hacia estructuras offshore. No son horas de vida destruidas directamente como en el Holocausto: son horas de vida de personas que trabajaron, pagaron impuestos y no recibieron a cambio la consulta médica, la carretera, la escuela o la pensión que esos impuestos debían financiar. Es la expresión fiscal del fraude annona a escala global.
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 ### §5.  Límites del método en PLD
 
-### 5.1 El problema de los nodos inferidos sin evidencia directa
+#### 5.1 El problema de los nodos inferidos sin evidencia directa
 
 El principal límite del método en PLD es que el nodo con mayor R* —el arquitecto— es con frecuencia un nodo inferido: no aparece en ningún documento directamente, sino que debe ser reconstruido a partir de patrones en los documentos de los otros nodos. Esa reconstrucción es metodológicamente válida para orientar la investigación, pero no sustituye la evidencia directa para efectos de una condena penal.
 
 El grafo puede producir un R* alto para un nodo inferido N_x con un nivel de certeza razonable (basado en que el esquema requería coordinación que ningún nodo visible podía haber tenido). Pero para procesarlo penalmente, ese R* inferido debe ser corroborado con evidencia independiente. Lo que el cálculo hace es señalar hacia dónde dirigir la investigación para encontrar esa evidencia.
 
-### 5.2 La fungibilidad de las jurisdicciones
+#### 5.2 La fungibilidad de las jurisdicciones
 
 El PLD enfrenta un problema de sustitución: si una jurisdicción se vuelve más transparente, el esquema migra a otra. Eso significa que el R* de una jurisdicción específica puede ser alto para un esquema dado, pero S de esa jurisdicción también es alto: otra habría servido igual. La política regulatoria de PLD debe orientarse hacia los nodos con S bajo (el arquitecto, los intermediarios especializados) y no solo hacia las jurisdicciones (que son altamente fungibles).
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
-### 5.3 El límite de la cooperación internacional
+#### 5.3 El límite de la cooperación internacional
 
 El grafo de una operación de lavado complejo solo puede reconstruirse con visión completa si todas las jurisdicciones involucradas cooperan. En la práctica, la cooperación es parcial e imperfecta. El método puede calcular un R* basado en el grafo parcialmente reconstruido, pero ese R* tendrá intervalos de incertidumbre más amplios que en casos con visibilidad completa del grafo. El análisis de sensibilidad (¿cómo cambia R* si el nodo inferido tiene un peso 20% mayor o menor?) es especialmente importante en estos casos.
 
-### 5.4 α en instituciones: el problema del compliance capturado
+#### 5.4 α en instituciones: el problema del compliance capturado
 
 En algunos casos, el departamento de compliance de una institución financiera es parte del esquema (compliance capturado): los oficiales de compliance son quienes aprueban las operaciones inusuales por instrucción superior. En esos casos, α del departamento de compliance no mide cumplimiento regulatorio sino participación en el esquema. El cálculo debe distinguir entre el compliance como función institucional (con su propio R* y Δ) y el compliance como nodo de ejecución del esquema (donde su función causal es habilitar, no detectar).
 
-### 5.5 La dualidad del daño en PLD internacional
+#### 5.5 La dualidad del daño en PLD internacional
 
 En casos de lavado que afectan múltiples países, el cálculo del D_total enfrenta el problema de qué tasa de descuento r y qué salario de referencia w_ref usar. Una operación que afecta simultáneamente a contribuyentes en Alemania, Nigeria y México implica daños en contextos de valor de vida muy diferentes si se usa el salario de mercado de cada
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 país. El principio ontológico del sistema (el tiempo de vida es igual para todos) establece que debe usarse un w_ref universal (el salario de referencia global en PPP), pero esto puede producir resultados políticamente difíciles de sostener en jurisdicciones con salarios muy distintos.
 
-### 5.6 El uso predictivo del método: detectar antes de que ocurra el daño
+#### 5.6 El uso predictivo del método: detectar antes de que ocurra el daño
 
 Los cinco apartados anteriores de §5 describieron los límites del método cuando se usa de manera retrospectiva: para reconstruir lo que ya ocurrió. Pero el cálculo de la responsabilidad en PLD tiene una tercera modalidad que los apartados anteriores no nombraron explícitamente: el uso predictivo. El método puede identificar, antes de que la operación se complete o sea investigada, qué estructuras tienen alta probabilidad de alojar un arquitecto invisible.
 
 Esta capacidad predictiva no es una extensión opcional del sistema: ya está contenida en las fórmulas del §6.2 (opacidad del esquema) y del §6.3 (cadena de Markov). Lo que este apartado hace es nombrarla formalmente, darle sus propios umbrales y añadir una dimensión que el análisis retrospectivo no puede ver: el perfil de hijos del nodo de compliance como predictor de su α futuro.
 
-### Las tres modalidades del cálculo en PLD
+#### Las tres modalidades del cálculo en PLD
 
 Modalidad Pregunta que responde
 
@@ -838,7 +804,6 @@ Investigación de operaciones ya ocurridas. BCCI,
 
 R* sobre el grafo documentado. Δ para identificar la
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 Panama Papers.
 
@@ -856,17 +821,16 @@ Cadena de Markov (π estacionario): identifica nodos de paso obligado del dinero
 
 Diseño de sistemas de detección y regulación preventiva.
 
-### El predictor de opacidad estructural
+#### El predictor de opacidad estructural
 
-### La primera señal predictiva es la opacidad del esquema antes de que el beneficiario real sea identificado. En el §6.2 definimos:
+#### La primera señal predictiva es la opacidad del esquema antes de que el beneficiario real sea identificado. En el §6.2 definimos:
 
-### Opacidad(G) = Σᵢ∈N_visible R*ᵢ × Sᵢ
+#### Opacidad(G) = Σᵢ∈N_visible R*ᵢ × Sᵢ
 
 Esta fórmula es retrospectiva cuando se calcula sobre un grafo ya reconstruido. Se vuelve predictiva cuando se aplica a la estructura propuesta por el cliente en tiempo real: la opacidad de una estructura de apertura de cuenta, de una solicitud de servicio de estructuración, de una operación en proceso.
 
 En operaciones legítimas, los nodos visibles tienden a tener S bajo: la empresa que solicita el servicio es específica (no cualquier empresa serviría), el directivo que firma tiene responsabilidades idiosincráticas (no es fungible), la fuente de fondos está documentada y es rastreable. En operaciones diseñadas para el lavado, los nodos visibles son
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 deliberadamente genéricos: cualquier prestanombre, cualquier empresa offshore, cualquier jurisdicción opaca. La opacidad estructural es alta porque el diseño la maximizó.
 
@@ -888,9 +852,8 @@ Predictor:  En operaciones legítimas de alta complejidad (fusiones corporativas
 
 Si R*_oculto > θ_R → existe un nodo con alta probabilidad de ser el arquitecto no identificado
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
-### Los hijos de Afrodita como predictor del α institucional
+#### Los hijos de Afrodita como predictor del α institucional
 
 Esta es la dimensión predictiva que el análisis retrospectivo no puede ver: el perfil de hijos del departamento de compliance o de la institución financiera que va a evaluar la operación predice su α futuro antes de que la evaluación ocurra.
 
@@ -912,7 +875,6 @@ Moderado-alto (0.50– 0.75)
 
 Moderado. Detecta lo que sus protocolos cubren.
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 puede rigidizarse en los protocolos sin ver lo que está fuera de ellos.
 
@@ -934,9 +896,8 @@ Máximo. La parálisis ante lo incierto produce aprobación de facto de cualquie
 
 Muy bajo (0.02–0.15)
 
-### La fórmula del α predicho en función del hijo dominante es:
+#### La fórmula del α predicho en función del hijo dominante es:
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 α_predicho(nodo) = α_base(h_dominante) × T × (1 −
 
@@ -954,15 +915,19 @@ Asimetría_S/α) × (1 + (1 − α_pred_compliance))
 
 donde:
 
-•  I (·) son funciones indicadoras que valen 1 si la condición se cumple y 0 en caso contrario. •  Op = Opacidad(G) = Σ R*_visible × S_visible. •  R*_oc = R*_oculto estimado = 1 − Σ R*_visible × (1 − S_visible). •  Asimetría_S/α = (Σ Sᵢ − Σ αᵢ) / n: mide cuánto más sustituibles son los nodos visibles respecto a lo que han asumido. •  α_pred_compliance = α predicho del nodo de compliance que evalúa la operación, según su hijo dominante.
+- I (·) son funciones indicadoras que valen 1 si la condición se cumple y 0 en caso contrario.
+- Op = Opacidad(G) = Σ R*_visible × S_visible.
+- R*_oc = R*_oculto estimado = 1 − Σ R*_visible × (1 − S_visible).
+- Asimetría_S/α = (Σ Sᵢ − Σ αᵢ) / n: mide cuánto más sustituibles son los nodos visibles respecto a lo que han asumido.
+- α_pred_compliance = α predicho del nodo de compliance que evalúa la operación, según su hijo dominante.
+
 
 El rango de Alerta(G) es [0, 4]: 0 si ninguna de las dos condiciones binarias se cumple, y valores crecientes según
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
-### la gravedad de la asimetría y el perfil del compliance. Un umbral de Alerta > 2.0 activa due diligence reforzada; Alerta > 3.0 activa un proceso de revisión independiente.
+#### la gravedad de la asimetría y el perfil del compliance. Un umbral de Alerta > 2.0 activa due diligence reforzada; Alerta > 3.0 activa un proceso de revisión independiente.
 
-### El predictor en acción: retroaplicado al BCCI
+#### El predictor en acción: retroaplicado al BCCI
 
 Para validar el predictor, podemos retroaplicarlo al BCCI: ¿qué habría visto un oficial de compliance que hubiera aplicado este análisis a la estructura de Abedi en 1985, antes de que ninguna investigación existiera?
 
@@ -986,7 +951,6 @@ Alerta(G_BCCI) 1 × 1 × (1+0.38) ×
 
 Alerta > 2.0: due diligence reforzada
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 obligatoria. El sistema habría señalado esta estructura como de muy alto riesgo en 1985, dieciséis años antes del colapso.
 
@@ -994,33 +958,30 @@ obligatoria. El sistema habría señalado esta estructura como de muy alto riesg
 
 La paradoja predictiva del método:  Cuanto mejor diseñado está el esquema para ser opaco, mayor es Alerta(G). El arquitecto, al maximizar S de todos los nodos visibles, maximiza simultáneamente la señal que el predictor detecta. Un esquema perfectamente opaco es, paradójicamente, perfectamente visible para el método. Esta es la propiedad más contraintuitiva del sistema y la más valiosa para el diseño de controles.
 
-### Calibración de umbrales con datos históricos
+#### Calibración de umbrales con datos históricos
 
-### Los umbrales θ_O y θ_R no son universales: se calibran con datos de operaciones ya investigadas en cada jurisdicción y período. El procedimiento de calibración es:
+#### Los umbrales θ_O y θ_R no son universales: se calibran con datos de operaciones ya investigadas en cada jurisdicción y período. El procedimiento de calibración es:
 
 1.  Reunir una base de operaciones clasificadas: un conjunto de operaciones investigadas con resultado conocido (lavado confirmado vs. operación legítima). 2.  Calcular Opacidad y R*_oculto para cada operación del conjunto de entrenamiento. 3.  Encontrar los valores de θ_O y θ_R que maximizan la separación entre las distribuciones de ambas clases (maximizar Área bajo la curva ROC). 4.  Validar con un conjunto de prueba independiente y calcular la tasa de falsos positivos aceptable para el contexto regulatorio. 5.  Actualizar los umbrales periódicamente a medida que los esquemas de lavado evolucionan.
 
-### Este procedimiento convierte el sistema en un modelo de aprendizaje estructural: no aprende de patrones de datos en el sentido del machine learning, sino de la estructura causal
+#### Este procedimiento convierte el sistema en un modelo de aprendizaje estructural: no aprende de patrones de datos en el sentido del machine learning, sino de la estructura causal
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 de operaciones ya analizadas. Es más interpretable que un modelo de caja negra y más robusto ante esquemas nuevos: mientras el lavado requiera opacidad y fungibilidad de nodos visibles, la señal seguirá siendo detectable independientemente de la forma específica que tome el esquema.
 
-### Código Python: el predictor de alerta temprana
+#### Código Python: el predictor de alerta temprana
 
 import numpy as np  # Mapeo hijo → α_base (columna α_predicho de la tabla) ALPHA_BASE_HIJO = {     'Harmonia': 0.82,     'Anteros': 0.62,     'Potos':    0.32,     'Fobos':    0.17,     'Deimos':   0.08,     'Eros': 0.55,  # neutro: apertura activa, puede ir en cualquier dirección }  def alpha_predicho_compliance(hijo_dominante, T=0.5, theta_F_ref=0.40, theta_real=0.40):     """     Estima α futuro del nodo de compliance según su hijo dominante.     T:             temperatura (0=determinístico, 1=máxima libertad)     theta_F_ref:   umbral de referencia del grupo     theta_real:    umbral real del nodo (más bajo = más reactivo)     """     alpha_base = ALPHA_BASE_HIJO.get(hijo_dominante, 0.50)     reduccion = max(theta_F_ref - theta_real, 0)     return alpha_base * T * (1 -reduccion)  def alerta_predictiva(W_visible, alpha_visible, hijo_compliance='Potos', T_compliance=0.4, theta_O=0.65, theta_R=0.40):     """     Calcula la alerta predictiva de una operación antes de que ocurra el daño.     W_visible:       matriz de pesos de los nodos visibles     alpha_visible:   α declarado/observado de los nodos visibles     hijo_compliance: hijo dominante del nodo de compliance que evaluará     theta_O:         umbral de opacidad theta_R:         umbral de R*_oculto     """     n = W_visible.shape[0] # R* de los nodos visibles     R = np.ones(n) / n     for _ in range(300): Rn = W_visible @ R; s = np.sum(Rn)         if s < 1e-12: break         Rn /= s         if np.max(np.abs(Rn - R)) < 1e-9: break         R = Rn     R_star = Rn      # S de los nodos visibles (versión simplificada)     from scipy.stats import pearsonr     S = np.zeros(n)     for i in range(n): max_c = 0         for j in range(n):             if j == i: continue             Wm = W_visible.copy()             Wm[i,:] = np.mean(W_visible, axis=0) Rm = np.ones(n)/n             for _ in range(100):                 Rm2 = Wm @ Rm; sm = np.sum(Rm2)                 if sm < 1e-12: break Rm2 /= sm                 if np.max(np.abs(Rm2-Rm)) < 1e-6: break Rm = Rm2             c, _ = pearsonr(R_star, Rm2)             max_c = max(max_c, abs(c))         S[i] = 1 - max_c      # Métricas predictivas opacidad = float(np.sum(R_star * S))     R_oculto = max(0.0, 1 -float(np.sum(R_star * (1 - S))))     asimetria = float(np.mean(S) -np.mean(alpha_visible))     alpha_pred = alpha_predicho_compliance(hijo_compliance, T_compliance)      I_op = 1 if opacidad > theta_O else 0     I_rc = 1 if R_oculto > theta_R else 0 alerta = I_op * I_rc * (1 + asimetria) * (1 + (1 - alpha_pred))      return { 'R_star_visible': R_star,         'S_visible': S,         'opacidad': opacidad,
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 'R_oculto_estimado': R_oculto,         'asimetria_S_alpha': asimetria, 'alpha_pred_compliance': alpha_pred,         'alerta_predictiva': alerta, 'umbral_superado': alerta > 2.0,         'due_diligence_reforzada': alerta > 2.0,         'revision_independiente': alerta > 3.0,     }  # ── Ejemplo: estructura de apertura de cuenta (perfil de riesgo alto) ── W_solicitud = np.array([     [0,    0.90, 0,    0   ],  # N1(cliente desconocido) → N2(MF-tipo)     [0,    0,    0.85, 0.70],  # N2(despacho) → N3(offshore), N4(testaferro)     [0,    0,    0,    0.80],  # N3(offshore) → N4     [0,    0, 0,    0   ],  # N4(testaferro, nodo sumidero en grafo visible) ]) alpha_declarado = np.array([0.0, 0.05, 0.0, 0.80])  resultado = alerta_predictiva(     W_solicitud, alpha_declarado, hijo_compliance='Potos',     T_compliance=0.35,     theta_O=0.65, theta_R=0.40 ) print("=== Alerta predictiva PLD ===") print(f"Opacidad del esquema:    {resultado['opacidad']:.3f}") print(f"R*_oculto estimado:      {resultado['R_oculto_estimado']:.3f}") print(f"Asimetría S/α:           {resultado['asimetria_S_alpha']:+.3f}") print(f"α_predicho compliance: {resultado['alpha_pred_compliance']:.3f}") print(f"ALERTA: {resultado['alerta_predictiva']:.2f}") print(f"Due diligence reforzada: {resultado['due_diligence_reforzada']}") print(f"Revisión independiente: {resultado['revision_independiente']}")
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 §6.  Profundización formal — Esta sección puede saltarse sin perder el argumento del capítulo
 
 ### §6.  Profundización formal
 
-### 6.1 La detección del nodo inferido: un problema de optimización inversa
+#### 6.1 La detección del nodo inferido: un problema de optimización inversa
 
 Sea G_obs = (N_obs, A_obs, w_obs) el grafo observado (lo que aparece en documentos). Existe un grafo real G_real = (N_real, A_real, w_real) que incluye nodos no documentados. El problema de la detección del beneficiario real es un problema de optimización inversa:
 
@@ -1032,9 +993,8 @@ Es decir: encontrar el nodo N que, si se añade al grafo observado con aristas c
 
 La coherencia del grafo expandido se verifica comprobando que: (a) el nodo añadido tiene capacidad de coordinar los nodos observados (acceso, conocimiento, motivación inferible), (b) los pesos de las aristas añadidas son consistentes con los patrones de timing y monto de los flujos observados, y (c) la distribución de R* del grafo expandido es más coherente con el patrón de beneficios observado que la distribución del grafo solo con nodos observados.
 
-### 6.2 El índice de opacidad del esquema
+#### 6.2 El índice de opacidad del esquema
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 Un esquema de lavado bien diseñado busca maximizar la opacidad, que en términos del cálculo equivale a maximizar la suma de S de todos los nodos visibles:
 
@@ -1046,7 +1006,7 @@ R*_oculto ≈ 1 − Σᵢ∈N_visible R*ᵢ × (1 − Sᵢ)
 
 Esta fórmula permite estimar el R* del arquitecto incluso cuando no ha sido identificado: es aproximadamente igual a 1 menos la suma de las responsabilidades causales netas de todos los nodos visibles. Si esa suma es pequeña, hay un nodo con R* alto que no ha sido identificado. Si esa suma es alta, el esquema estaba menos concentrado en un solo diseñador.
 
-### 6.3 La cadena de Markov del lavado: un modelo alternativo
+#### 6.3 La cadena de Markov del lavado: un modelo alternativo
 
 El grafo causal puede representarse también como una cadena de Markov donde los estados son los nodos y las probabilidades de transición son los pesos normalizados por fila. En ese marco, R* es el vector estacionario de la cadena:
 
@@ -1054,13 +1014,12 @@ El grafo causal puede representarse también como una cadena de Markov donde los
 
 donde πᵢ es la probabilidad de largo plazo de que el dinero "visite" el nodo i antes de llegar al nodo final. Esta interpretación tiene una consecuencia intuitiva: un nodo con π alto en el esquema de lavado es aquel por el que el dinero necesariamente pasa, con independencia de qué
 
-El Cálculo de la Responsabilidad · Cap. 2 — PLD y compliance
 
 camino específico tome. Eso lo convierte en un punto de control natural para la regulación.
 
 En el BCCI, el nodo N2 (ICIC en Caimán) tenía π alto porque todas las pérdidas y activos problemáticos transitaban por él antes de ser redistribuidos a las otras estructuras. Eso explica su R* de 22%: era el nodo de tránsito obligado del dinero sucio en el sistema.
 
-### 6.4 Código Python de referencia para PLD
+#### 6.4 Código Python de referencia para PLD
 
 El siguiente código extiende el análisis del Capítulo 1 con las funciones específicas para PLD:
 
@@ -1072,7 +1031,6 @@ Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y A
 
 Continúa en el Capítulo 3 — Derecho internacional y deudas históricas
 
-El Cálculo de la Responsabilidad · Cap. 3 — Derecho internacional y
 
 deudas históricas
 
