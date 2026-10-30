@@ -115,7 +115,7 @@ def boundaries_eco(lines):
         elif text.startswith("B·IV · §"):
             code="IV"; number=int(re.match(r"^B·IV · §([2-5])",text).group(1)); key="B·IV·%s" % number; filename="bloque-iv-%02d.md" % number
         else:
-            code=text.split("·")[1]
+            code=text.split("·")[1].strip()
             key=text.split(" · ")[0]
             filename=key.replace("·","-").lower()+".md"
         marker_pattern = r"<!-- PARTE: %s -->" % re.escape(part_labels[code]["heading"].replace("Parte ","",1))
