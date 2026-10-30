@@ -1,10 +1,9 @@
-PARTE V · HUMANIDADES Y CIENCIAS SOCIALES
+# Capítulo 15
+## Educación
 
-### Capítulo 15 Educación
+*El peso causal en el resultado educativo: cuando la política culpa al docente del fracaso que el sistema diseñó*
 
-El peso causal en el resultado educativo: cuando la política culpa
-
-al docente del fracaso que el sistema diseñó
+---
 
 ### §1.  El problema
 
@@ -12,7 +11,6 @@ En 1966, el sociólogo James S. Coleman entregó al Congreso de los Estados Unid
 
 El hallazgo central del Informe Coleman fue que las características de la escuela —los recursos materiales, el equipamiento, incluso la calidad de los maestros medida por sus credenciales formales— explicaban sorprendentemente poco de la varianza en el rendimiento académico de los estudiantes. Lo que explicaba la mayor parte era el entorno socioeconómico del estudiante: el nivel educativo de sus padres, los libros en el hogar, la estructura familiar, las aspiraciones del entorno inmediato. En términos del sistema de imputación causal: el R* del entorno familiar en
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 el resultado educativo era notablemente mayor que el R* de la escuela.
 
@@ -22,9 +20,8 @@ Sesenta años después, el debate sobre la evaluación docente sigue siendo uno 
 
 El caso hipotético de la escuela con fracaso sistemático añade la dimensión individual que el Informe Coleman no podía ver a escala nacional: cómo S como herramienta de análisis puede distinguir al docente que enfrenta condiciones estructurales adversas (S alto: cualquier docente habría tenido los mismos resultados) del docente cuyo desempeño es genuinamente idiosincrático (S bajo: las características específicas de ese docente son condición necesaria del resultado).
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
-### 1.1 El error de categoría en la evaluación docente
+#### 1.1 El error de categoría en la evaluación docente
 
 La evaluación docente basada en los resultados académicos de los estudiantes comete el error que el Capítulo 8 identificó en el score crediticio: atribuir al agente individual (el docente, el deudor) la causalidad de un resultado que depende principalmente de factores estructurales que ese agente no controla. El resultado es la misma inversión causal: el nodo con mayor visibilidad (el docente, que interactúa directamente con el estudiante) recibe la mayor imputación de responsabilidad, aunque el nodo con mayor R* (el entorno familiar y socioeconómico, el diseño del sistema educativo) permanece prácticamente invisible en el debate político.
 
@@ -32,11 +29,10 @@ Error de categoría en la evaluación educativa:  Atribuir al docente la respons
 
 Este error no es solo técnico: tiene consecuencias distributivas graves. Los docentes que trabajan con poblaciones en desventaja estructural son evaluados con mayor severidad porque sus estudiantes tienen entornos de menor capital cultural, independientemente de la calidad de su trabajo. Los sistemas de evaluación que no corrigen por el R* del entorno penalizan sistemáticamente a los docentes que trabajan en las condiciones más difíciles.
 
-### 1.2 Por qué los hijos aplican solo a los docentes
+#### 1.2 Por qué los hijos aplican solo a los docentes
 
 En el dominio educativo, los hijos de Afrodita aplican a los docentes como actores con voluntad y decisiones en los
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 momentos críticos del proceso educativo. No aplican al sistema educativo como entidad abstracta, ni al entorno familiar del estudiante como nodo sin voluntad individual identificable.
 
@@ -44,7 +40,6 @@ La restricción a los docentes (y no, por ejemplo, a los directivos escolares o 
 
 En el docente, los hijos describen desde qué disposición actúa en el aula: el Eros del docente que genuinamente se orienta hacia el aprendizaje de sus estudiantes y encuentra satisfacción en ese proceso; el Fobos del docente que actúa desde el miedo a ser evaluado negativamente; el Potós del docente que persiste en metodologías heredadas sin revisarlas críticamente. Esos perfiles tienen consecuencias directas para el desempeño y para el diseño de los programas de formación y desarrollo docente.
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 ### §2.  Página puente — Traducción al lenguaje educativo
 
@@ -68,7 +63,6 @@ S del docente Fungibilidad del docente en el resultado
 
 S alto: cualquier docente con la formación equivalente, en ese contexto específico, habría producido resultados similares. El resultado es una propiedad del sistema, no
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 del docente. S bajo: el docente específico (sus métodos, su relación con los estudiantes, su conocimiento de la materia) es causalmente determinante del resultado.
 
@@ -84,7 +78,6 @@ Lo que el docente hace para producir aprendizaje en sus estudiantes: preparació
 
 La brecha entre el R* del docente en el resultado y su desempeño efectivo. Δ positivo indica que el docente tenía poder causal sobre el aprendizaje y no lo ejerció. Δ negativo: el docente produjo más de lo que su R* requería (docente excepcional en condiciones adversas).
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 Δ del sistema Déficit causal del sistema educativo no asumido
 
@@ -104,11 +97,10 @@ Disposición de la voluntad del docente en el aula
 
 Para el lector que viene del núcleo universal:  Este dominio introduce el uso defensivo de S: S alto del docente no es un insulto a su profesión sino la demostración técnica de que el fracaso que se le imputa era estructural. Cuando S_docente es alto, la evaluación basada en resultados de estudiantes no mide la calidad del docente: mide la posición socioeconómica del entorno. Ese es el argumento que el sistema formaliza.
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 ### §3.  Las herramientas en el contexto educativo
 
-### 3.1 El grafo causal del resultado educativo
+#### 3.1 El grafo causal del resultado educativo
 
 El grafo causal del resultado educativo de un estudiante tiene una estructura de seis niveles que el Informe Coleman fue el primero en medir empíricamente a escala nacional. La distribución de R* entre esos niveles es la información más importante para el diseño de política educativa.
 
@@ -132,7 +124,6 @@ La composición socioeconómica del grupo de estudiantes en la escuela.
 
 La segregación escolar tiene un costo causal documentad o sobre los estudiantes
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 te de sus condiciones familiares.
 
@@ -168,13 +159,12 @@ Financiamiento, estructura del sistema, evaluación y rendición de cuentas.
 
 Las políticas que aumentan el R* de los factores de mayor
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 impacto (hogar, pares) tienen mayor retorno.
 
 Principio educativo:  La suma de los R* de la tabla es aproximadamente 1.0, pero la distribución tiene una consecuencia política central: si el entorno familiar tiene R* = 45% y el docente tiene R* = 10%, y el sistema de evaluación imputa el 100% del resultado al docente, está produciendo una inversión causal de 10x. El docente está siendo juzgado como si tuviera cuatro veces más poder del que tiene, mientras el factor de cuatro veces mayor poder permanece invisible en el sistema de rendición de cuentas.
 
-### 3.2 S del docente: la herramienta de defensa y la herramienta de mejora
+#### 3.2 S del docente: la herramienta de defensa y la herramienta de mejora
 
 El índice de sustituibilidad S del docente tiene dos usos que el capítulo desarrolla con igual énfasis: el uso defensivo (demostrar que el resultado que se le imputa era estructural) y el uso constructivo (identificar qué fracción del resultado el docente puede genuinamente mejorar).
 
@@ -188,7 +178,6 @@ Cualquier docente con la misma formación y ante el mismo entorno de estudiantes
 
 Uso defensivo: la evaluación negativa no es válida como medida del desempeño de ese docente. Uso constructivo: la intervención que mejora el resultado no es "cambiar el docente" sino cambiar las
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 condiciones del entorno o el apoyo institucional al docente.
 
@@ -206,13 +195,12 @@ La evaluación basada en resultados es más legítima aquí. Un S bajo puede ser
 
 La calibración de la evaluación docente por S produce el instrumento correcto para la política educativa: en lugar de comparar los resultados absolutos de los estudiantes (que reflejan principalmente el entorno), compara los resultados relativos al R* del entorno. Un docente en una escuela de alta pobreza que produce resultados de nivel medio tiene un desempeño más meritorio que uno en una escuela de alta riqueza que produce los mismos resultados absolutos.
 
-### Evaluación_docente_justa = (Resultado_real − Resultado_esperado_por_entorno) / R*_docente
+#### Evaluación_docente_justa = (Resultado_real − Resultado_esperado_por_entorno) / R*_docente
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 Esta fórmula produce el equivalente educativo del "valor agregado" docente (VAM, Value-Added Model), pero con una diferencia crucial: está fundamentada en la distribución causal del R*, no solo en la estadística descriptiva de las diferencias de resultado.
 
-### 3.3 α del docente y los hijos: la disposición de la voluntad en el aula
+#### 3.3 α del docente y los hijos: la disposición de la voluntad en el aula
 
 El α del docente en el resultado educativo mide el grado en que ejerce efectivamente el R* que tiene. Dos docentes con el mismo R* (el mismo entorno, las mismas condiciones estructurales) pueden tener α muy distintos: uno produce el máximo aprendizaje posible en esas condiciones; el otro produce significativamente menos. La diferencia es el α y su correlato en los hijos.
 
@@ -236,7 +224,6 @@ Reflexión sobre los resultados de sus propios estudiantes. Participación en co
 
 α alto y creciente con el tiempo. Es el perfil del docente que mejora a lo
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 métodos, los contrasta con evidencia, los adapta.
 
@@ -262,13 +249,11 @@ Clases de bajo compromiso. El docente completa los contenidos sin energía hacia
 
 α muy bajo. El docente no causa daño activo pero tampoco produce el aprendizaje que su R* permitiría.
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 incapaz de responder a ellas.
 
 El perfil de hijos con mayor prevalencia en sistemas educativos con evaluación basada en resultados sin calibración por entorno es Fobos dominante: el sistema que evalúa el resultado sin calibrar por R*_entorno crea el incentivo estructural para que los docentes actúen desde el miedo a la evaluación. Ese Fobos sistémico —producido por el diseño del sistema de evaluación— tiene R* positivo en el deterioro del aprendizaje a largo plazo.
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 ### §4.  Casos resueltos
 
@@ -284,11 +269,10 @@ La escala fue sin precedentes: se encuestaron 570,000 estudiantes en 4,000 escue
 
 El hallazgo central —que el entorno familiar explicaba entre el 50% y el 70% de la varianza en el rendimiento, mientras que la escuela explicaba menos del 10%— fue recibido con incredulidad y resistencia. Los críticos señalaron que la metodología privilegiaba el hogar sobre la escuela porque la varianza del hogar era mayor. Los defensores de Coleman respondieron que eso era exactamente el punto: la escuela
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
-### tiene menos varianza en su impacto porque hace menos diferencia de lo que creíamos.
+#### tiene menos varianza en su impacto porque hace menos diferencia de lo que creíamos.
 
-### A.2 El grafo causal del resultado educativo según Coleman
+#### A.2 El grafo causal del resultado educativo según Coleman
 
 Traducida al lenguaje del sistema de imputación causal, la conclusión de Coleman produce el siguiente grafo de R* para el resultado académico promedio de los estudiantes de educación básica en los EE.UU. en 1966:
 
@@ -312,7 +296,6 @@ Entorno de pares (N2)
 
 Docente (N3)
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 significativa entre maestros, pero la mayoría de los maestros producen resultados similares en el mismo entorno.
 
@@ -330,25 +313,27 @@ Factores individuales del estudiante (N6)
 
 La consecuencia de política más directa de este grafo es que el financiamiento compensatorio a las escuelas negras —lo que el Congreso esperaba que Coleman justificara— tiene R* bajo en el resultado si no va acompañado de intervenciones en los factores de R* alto (el entorno familiar, la composición del grupo de pares). Eso no significa que el financiamiento igualitario sea incorrecto — es una cuestión de justicia redistributiva independiente del R*— sino que sus efectos sobre el aprendizaje son limitados si no se abordan las causas de mayor R*.
 
-### A.3 La controversia Coleman y las réplicas: 60 años de evidencia
+#### A.3 La controversia Coleman y las réplicas: 60 años de evidencia
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 Los hallazgos del Informe Coleman han sido replicados, refinados y matizados durante seis décadas. El panorama consolidado de la evidencia muestra:
 
-•  Las estimaciones del R* del entorno familiar se han mantenido robustas en el rango 40-55% en estudios de múltiples países. Es el hallazgo más replicado de la sociología de la educación. •  El R* del docente ha sido refinado hacia arriba: los estudios de "valor agregado" más recientes (Chetty et al. 2014) sugieren que los mejores maestros tienen efectos sustanciales sobre los ingresos futuros de sus estudiantes, aunque la magnitud del efecto promedio sigue siendo modesta en relación con el entorno. •  El R* de la escuela como institución sigue siendo bajo en recursos materiales pero mayor en liderazgo directivo y cultura escolar. Las "escuelas que producen más de lo esperado" tienen como característica diferencial un liderazgo directivo con Eros dominante —orientado activamente hacia el aprendizaje— no solo más recursos. •  El R* de la composición de pares ha sido confirmado múltiples veces: la integración escolar tiene efectos positivos sobre el rendimiento de los estudiantes de menor capital cultural, con efectos neutros sobre los de mayor capital cultural.
+- Las estimaciones del R* del entorno familiar se han mantenido robustas en el rango 40-55% en estudios de múltiples países. Es el hallazgo más replicado de la sociología de la educación.
+- El R* del docente ha sido refinado hacia arriba: los estudios de "valor agregado" más recientes (Chetty et al. 2014) sugieren que los mejores maestros tienen efectos sustanciales sobre los ingresos futuros de sus estudiantes, aunque la magnitud del efecto promedio sigue siendo modesta en relación con el entorno.
+- El R* de la escuela como institución sigue siendo bajo en recursos materiales pero mayor en liderazgo directivo y cultura escolar. Las "escuelas que producen más de lo esperado" tienen como característica diferencial un liderazgo directivo con Eros dominante —orientado activamente hacia el aprendizaje— no solo más recursos.
+- El R* de la composición de pares ha sido confirmado múltiples veces: la integración escolar tiene efectos positivos sobre el rendimiento de los estudiantes de menor capital cultural, con efectos neutros sobre los de mayor capital cultural.
+
 
 El argumento del valor agregado vs. el argumento de Coleman:  Los sistemas de evaluación docente por "valor agregado" (VAM) intentan separar el efecto del docente del efecto del entorno mediante modelos estadísticos que controlan por las características del estudiante. Cuando funcionan bien, esos modelos son equivalentes al análisis de R* con calibración por S. El problema es que los VAM requieren datos longitudinales de alta calidad que la mayoría de los sistemas educativos no tienen, y que cuando se aplican sin esa calidad producen evaluaciones ruidosas que los sindicatos docentes legítimamente impugnan. El análisis de R* + S es el marco conceptual que los VAM intentan implementar estadísticamente.
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
-### A.4 El D_total del fracaso educativo: cómo cuantificar lo que no se aprendió
+#### A.4 El D_total del fracaso educativo: cómo cuantificar lo que no se aprendió
 
 El fracaso educativo tiene un D_total calculable con la estructura del sistema. Para los estudiantes que no completan la educación básica o que la completan sin los aprendizajes básicos mínimos, el daño en tiempo de vida tiene tres componentes:
 
-### D_educativo = T_invertido + T_impedido +
+#### D_educativo = T_invertido + T_impedido +
 
-### ΔT_trayectoria
+#### ΔT_trayectoria
 
 Componente En el fracaso educativo
 
@@ -366,7 +351,6 @@ Diferencial de ingresos entre graduados con y sin las competencias básicas a lo
 
 El INEE (México, 2018) estimaba que un
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 estudiante de educación básica sin competencias mínimas tenía una trayectoria de vida con un 40% menos de potencial de ingreso acumulado. Eso, multiplicado por las horas de vida que representa, produce el D_vital del fracaso educativo sistémico.
 
@@ -374,7 +358,10 @@ movilidad social: el diferencial en el acceso a posiciones de mayor ingreso y au
 
 Aplicación al contexto latinoamericano (estimación de referencia):
 
-•  En México, según datos de PISA 2022, aproximadamente el 65% de los estudiantes de 15 años no alcanzan el nivel mínimo de competencia en matemáticas y el 47% no lo alcanzan en lectura. •  Población de 15 años en México: ~2.3 millones de estudiantes. •  Impacto estimado en ingreso vitalicio: $120,000 USD promedio por estudiante sin competencias mínimas (diferencial de 40% sobre un ingreso vitalicio promedio de $300,000 USD).
+- En México, según datos de PISA 2022, aproximadamente el 65% de los estudiantes de 15 años no alcanzan el nivel mínimo de competencia en matemáticas y el 47% no lo alcanzan en lectura.
+- Población de 15 años en México: ~2.3 millones de estudiantes.
+- Impacto estimado en ingreso vitalicio: $120,000 USD promedio por estudiante sin competencias mínimas (diferencial de 40% sobre un ingreso vitalicio promedio de $300,000 USD).
+
 
 D_total_generación = 2,300,000 × 0.60 × $120,000 =
 
@@ -390,7 +377,6 @@ AD_N1 (entorno familiar / desigualdad estructural)
 
 = 0.52 × $165,600M = $86,112M
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 AD_N3 (sistema educativo / docentes) = 0.22 ×
 
@@ -398,7 +384,6 @@ $165,600M = $36,432M
 
 La política educativa que imputa el daño principalmente a los docentes (a través de sistemas de evaluación sin calibración por entorno) está atribuyendo responsabilidad sobre el 22% del daño al actor que es causalmente responsable de ese 22%, ignorando el 52% que corresponde a las condiciones estructurales del entorno.
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 Caso B — Escuela secundaria con fracaso sistemático (caso hipotético compuesto)
 
@@ -438,13 +423,12 @@ N4 — Escuela como institución
 
 N5 — Sistema educativo / política
 
-### El argumento central de la impugnación se formaliza así:
+#### El argumento central de la impugnación se formaliza así:
 
-### R*_docente = 11%   con   S_docente = 0.78
+#### R*_docente = 11%   con   S_docente = 0.78
 
-### R*_docente × (1 − S_docente) = 0.11 × 0.22 = 0.024
+#### R*_docente × (1 − S_docente) = 0.11 × 0.22 = 0.024
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 La responsabilidad causal neta de los docentes en el resultado es el 2.4% del total. El 97.6% restante es atribuible a factores que están fuera del control de los docentes. Imputarles el fracaso total equivale a multiplicar su responsabilidad real por un factor de 40.
 
@@ -460,7 +444,6 @@ Docente A — 12 años de experiencia, evaluación de "insatisfactorio" por terc
 
 Fobos       ████████░░░░░░░░░░░░ 42% Potós       ██████░░░░░░░░░░░░░░ 30% Deimos      ███░░░░░░░░░░░░░░░░░ 16% Eros        ██░░░░░░░░░░░░░░░░░░ 8%
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 Anteros     █░░░░░░░░░░░░░░░░░░░ 4% Harmonía    ░░░░░░░░░░░░░░░░░░░░ 0%
 
@@ -476,7 +459,6 @@ Docente C — 18 años de experiencia, evaluación de "insatisfactorio" por segu
 
 Harmonía    ███████░░░░░░░░░░░░░ 35%
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 Eros        ██████░░░░░░░░░░░░░░ 28% Potós       ████░░░░░░░░░░░░░░░░ 18% Fobos       ██░░░░░░░░░░░░░░░░░░ 12% Deimos      █░░░░░░░░░░░░░░░░░░░ 7% Anteros     ░░░░░░░░░░░░░░░░░░░░ 0%
 
@@ -488,39 +470,35 @@ El análisis produce cuatro recomendaciones que la impugnación puede formalizar
 
 1.  Recalibrar la evaluación docente de la escuela utilizando el Resultado_ajustado = (Resultado_real − Resultado_esperado_por_entorno). Esto transforma la evaluación en una medida del valor agregado del docente, no del nivel socioeconómico de sus estudiantes. 2.  Reconocer explícitamente que S_docente = 0.78 en esta escuela significa que el instrumento de evaluación actual no mide la calidad del docente: mide el entorno. Esa medición es inválida para los propósitos declarados de la evaluación. 3.  Implementar un programa de desarrollo profesional diferenciado por perfil de hijos: Docente A necesita recuperar Eros y construir Harmonía; Docente B necesita apoyo institucional para proteger su Eros ante el Fobos sistémico; Docente C necesita intervención de revitalización para frenar el crecimiento del Deimos.
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 4.  Aumentar el R* del sistema educativo en esa escuela abordando los factores de mayor peso causal: biblioteca funcional, programa de trabajo con familias, reducción de la tasa de ausentismo mediante intervenciones en el entorno.
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 ### §5.  Límites del método en educación
 
-### 5.1 El problema del tiempo: el R* del docente se manifiesta a largo plazo
+#### 5.1 El problema del tiempo: el R* del docente se manifiesta a largo plazo
 
 El mayor límite del análisis de R* en educación es temporal: los efectos del docente sobre el resultado de largo plazo (ingresos futuros, movilidad social, ciudadanía activa) son mayores que los efectos medibles en el resultado de corto plazo (la prueba estandarizada). Chetty et al. (2014) documentan que tener un maestro excepcional en un año específico de la educación primaria produce efectos medibles sobre los ingresos a los 28 años. Pero esos efectos no son capturables en la prueba estandarizada del año siguiente. El sistema de evaluación que mide el resultado de corto plazo subestima sistemáticamente el R* del docente en el resultado de largo plazo.
 
-### 5.2 La causalidad entre el entorno y el resultado: ¿determina o influye?
+#### 5.2 La causalidad entre el entorno y el resultado: ¿determina o influye?
 
 El R* alto del entorno familiar no significa que el destino educativo de un estudiante esté determinado por su entorno. Significa que el entorno es el factor con mayor contribución causal estadística al resultado promedio. Hay estudiantes que producen resultados excepcionales a pesar de entornos adversos —y docentes que son condición necesaria de esos resultados excepcionales. El análisis de R* captura los promedios del sistema, pero no puede capturar los casos individuales de transformación, que son precisamente los que justifican la inversión en docentes excepcionales.
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
-### 5.3 S y la trampa del fatalismo
+#### 5.3 S y la trampa del fatalismo
 
 El uso defensivo de S (el fracaso era del entorno, no del docente) puede convertirse en fatalismo si se usa sin el análisis de α. Un S alto no exonera completamente al docente: exonera de la imputación del R* del entorno, pero no exonera del α bajo dentro del R* que sí controla. Un sistema educativo que usa S solo como herramienta defensiva, sin usarlo también como mapa de intervención, reproduce el problema en lugar de resolverlo.
 
-### 5.4 La medición del entorno familiar: lo que el sistema de evaluación no captura
+#### 5.4 La medición del entorno familiar: lo que el sistema de evaluación no captura
 
 La calibración de la evaluación docente por S requiere datos del entorno familiar del estudiante que los sistemas de evaluación convencionales no siempre recopilan. El nivel educativo de los padres, los libros en el hogar, la estabilidad familiar: estas variables tienen alta sensibilidad de privacidad y no siempre pueden recogerse a la escala necesaria. Cuando los datos del entorno no están disponibles, la calibración por S no puede realizarse con la precisión que el método requiere, y la impugnación de la evaluación docente debe hacerse con argumentos más cualitativos.
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 §6.  Profundización formal — Esta sección puede saltarse sin perder el argumento del capítulo
 
 ### §6.  Profundización formal
 
-### 6.1 La fórmula del valor agregado docente calibrado por R*
+#### 6.1 La fórmula del valor agregado docente calibrado por R*
 
 El modelo de valor agregado estándar (VAM) estima el efecto del docente j sobre el resultado del estudiante i como:
 
@@ -542,9 +520,8 @@ dado el entorno que enfrenta
 
 cada uno
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
-### 6.2 La paradoja del docente excepcional: cuando S bajo es señal positiva
+#### 6.2 La paradoja del docente excepcional: cuando S bajo es señal positiva
 
 El docente excepcional que produce resultados muy por encima de lo esperado dado el entorno de sus estudiantes tiene S bajo: sus características idiosincráticas son condición necesaria de ese resultado excepcional. Otro docente en las mismas condiciones habría producido menos.
 
@@ -560,7 +537,7 @@ produce más de lo que su R* requiere
 
 El docente excepcional es precisamente aquel cuyo Δ es negativo: asume más que el sistema le requiere, produce más de lo que las condiciones permitirían esperar. Ese perfil — S bajo, Δ negativo — es el indicador de Eros + Harmonía en su expresión más completa.
 
-### 6.3 El IAS educativo: el índice de aprendizaje sistémico del sistema escolar
+#### 6.3 El IAS educativo: el índice de aprendizaje sistémico del sistema escolar
 
 Adaptando el Índice de Aprendizaje Sistémico del Capítulo 12, el IAS educativo mide en qué medida el sistema educativo incorporó las lecciones del Informe Coleman y estudios posteriores en sus políticas:
 
@@ -568,25 +545,21 @@ IAS_educativo = J_política_actual −
 
 J_política_Coleman
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 Si J_política_actual ≈ J_política_Coleman, el sistema no aprendió del Informe Coleman: sigue distribuyendo la responsabilidad del fracaso educativo entre los docentes en lugar de los factores de mayor R*. En América Latina, donde los sistemas de evaluación docente se implementaron principalmente entre 2012 y 2020 sin calibración por entorno, el IAS_educativo es cercano a cero o negativo (el sistema fue hacia atrás en la distribución justa de la responsabilidad).
 
-### 6.4 Código Python de referencia
+#### 6.4 Código Python de referencia
 
 import numpy as np from scipy.stats import pearsonr  def analisis_educativo(W_edu, alpha_actores, S_entorno_docente=None, resultados_estudiantes=None, resultados_esperados=None,                        hijos_docentes=None): """     Análisis de responsabilidad causal en el resultado educativo. W_edu:              matriz de pesos del grafo educativo     alpha_actores: α (desempeño) por nodo     S_entorno_docente:  sustituibilidad del entorno del docente (para calibración)     resultados_*:       datos de resultado real y esperado por entorno     hijos_docentes:     dict {docente_id: {hijo: proporción}}     """     n = W_edu.shape[0]      # ── R*: peso causal en el resultado educativo ──     R = np.ones(n) / n for _ in range(500):         Rn = W_edu @ R; s = np.sum(Rn)         if s < 1e-12: break         Rn /= s         if np.max(np.abs(Rn - R)) < 1e-9: break R = Rn     R_star = Rn      # ── S: fungibilidad del actor ──     S = np.zeros(n)     for i in range(n):         max_c = 0         for j in range(n): if j == i: continue             Wm = W_edu.copy()             Wm[i,:] = np.mean(W_edu, axis=0)             Rm = np.ones(n)/n             for _ in range(200):                 Rm2 = Wm @ Rm; sm = np.sum(Rm2) if sm < 1e-12: break                 Rm2 /= sm                 if np.max(np.abs(Rm2-Rm)) < 1e-6: break                 Rm = Rm2             c, _ = pearsonr(R_star, Rm2)             max_c = max(max_c, abs(c)) S[i] = 1 - max_c      Delta = R_star - alpha_actores     R_neta = R_star * (1 - S)      result = {         'R_star': R_star, 'S': S,         'Delta': Delta, 'R_neta': R_neta,         'J_sistema': float(1 - np.sum(np.abs(Delta))),     } # ── Evaluación docente calibrada por S ──     if (resultados_estudiantes is not None and         resultados_esperados is not None and         S_entorno_docente is not None):          for docente_id in range(len(resultados_estudiantes)):             res_real = resultados_estudiantes[docente_id]             res_esp  = resultados_esperados[docente_id]             S_ent    = S_entorno_docente[docente_id]             beta_raw = res_real - res_esp # Corrección por sustituibilidad del entorno             beta_cal = beta_raw / max(1 - S_ent, 0.05)             result[f'beta_raw_docente_{docente_id}']
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 = beta_raw             result[f'beta_cal_docente_{docente_id}']  = beta_cal # Diagnóstico             if beta_cal > 0.5:                 diag = 'Docente excepcional (Δ < 0)'             elif beta_cal > -0.2:                 diag = 'Desempeño proporcional a condiciones'             else:                 diag = 'Requiere acompañamiento (bajo α)' result[f'diagnostico_docente_{docente_id}'] = diag      # ── Diagnóstico por hijos ──     import math as m     if hijos_docentes: for doc_id, dist in hijos_docentes.items():             hijo_dom = max(dist, key=dist.get)             total = sum(dist.values())             dist_norm = {h: p/total for h, p in dist.items()}             entropia = -sum(p*m.log(p+1e-9) for p in dist_norm.values())             result[f'hijo_dominante_D{doc_id}'] = hijo_dom             perfil = ('Alto potencial — proteger Eros' if hijo_dom == 'Eros' and dist.get('Harmonía',0) > 0.15 else 'Fobos sistémico — revisar sistema de evaluación'                       if hijo_dom == 'Fobos'                       else 'Desarrollo metodológico requerido'                       if hijo_dom == 'Potós'                       else 'Agotamiento — intervención de revitalización'                       if hijo_dom in ('Deimos',) and entropia < 1.5                       else 'Perfil mixto')             result[f'perfil_D{doc_id}'] = perfil     return result  # ── Escuela hipotética con fracaso sistemático ── W_edu = np.zeros((6,6)) # N0=Entorno_familiar, N1=Pares, N2=Docentes, N3=Institución, N4=Política, N5=Estudiante W_edu[0,5]=0.85; W_edu[1,5]=0.75; W_edu[2,5]=0.70 W_edu[3,5]=0.60; W_edu[4,5]=0.40; W_edu[0,1]=0.65 W_edu[3,2]=0.50  # la institución influye en los docentes  alpha_edu = np.array([0.10, 0.08, 0.55, 0.20, 0.15, 0.0])  hijos = {     'A': {'Fobos':0.42,'Potós':0.30,'Deimos':0.16,'Eros':0.08,'Anteros':0.04,'Harmo nía':0.0},     'B': {'Eros':0.38,'Fobos':0.28,'Harmonía':0.20,'Potós':0.10,'Deimos':0.04,'Ante ros':0.0},     'C': {'Harmonía':0.35,'Eros':0.28,'Potós':0.18,'Fobos':0.12,'Deimos':0.07,'Ante ros':0.0}, }  res = analisis_educativo(     W_edu, alpha_edu, S_entorno_docente=[0.78, 0.78, 0.78],     resultados_estudiantes=[480, 495, 488],  # puntaje PISA-equivalente     resultados_esperados=[478, 470, 476],    # esperado dado entorno     hijos_docentes=hijos ) noms = ['N0-Entorno_fam','N1-Pares','N2-Docentes',         'N3-Institución','N4-Política','N5-Estudiante'] print("=== Escuela hipotética — Análisis causal educativo ===") for nm, rs, si, di in zip(noms, res['R_star'], res['S'], res['Delta']):     print(f"  {nm:18s} R*={rs:.3f} S={si:.2f} Δ={di:+.3f}") print(f"\nJ_sistema: {res['J_sistema']:.3f}") print(f"R*_docente × (1−S): {res['R_neta'][2]:.4f} (responsabilidad causal neta)")  for doc in ('A','B','C'):     b = res.get(f'beta_cal_docente_{list(hijos.keys()).index(doc)}', 0)     h = res.get(f'hijo_dominante_D{doc}', '?')     p = res.get(f'perfil_D{doc}', '?') print(f"\nDocente {doc}: β_calibrado={b:+.1f} | hijo_dom={h} | {p}")
 
-El Cálculo de la Responsabilidad · Cap. 15 — Educación
 
 Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026
 
 Continúa en el Capítulo 16 — Análisis histórico y geopolítico
 
-El Cálculo de la Responsabilidad · Cap. 16 — Análisis histórico y
 
 geopolítico
 
