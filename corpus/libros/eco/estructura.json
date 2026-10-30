@@ -2,7 +2,7 @@
   "id": "ECO",
   "title": "ECO: Entrevista Clínica Ontológica",
   "source": "corpus/fuentes/ECO Entrevista Clínica Ontológica.md",
-  "sha256": "fc1d8e9bfcfefdf7f8067da0227b147266d7db770aa98010d8d0ddfe15837bcb",
+  "sha256": "b8208f1c0a18393d35ae36ab4cde9e4d269440fbed7e4ac3937649873b19de51",
   "collection": "Autodeterminación Causal",
   "volume": null,
   "source_anomalies": [],
@@ -164,7 +164,7 @@
       "key": "APENDICES",
       "heading": "APÉNDICES · Instrumentos de trabajo del mediador",
       "start_line": 8149,
-      "end_line": 9821
+      "end_line": 9823
     }
   ]
 }
