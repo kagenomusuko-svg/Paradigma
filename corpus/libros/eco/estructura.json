@@ -2,7 +2,7 @@
   "id": "ECO",
   "title": "ECO: Entrevista Clínica Ontológica",
   "source": "corpus/fuentes/ECO Entrevista Clínica Ontológica.md",
-  "sha256": "fc8b9895536d6d3702f49f99eb7c5a37b2effb6e6f7af8e655be2cbf81d00fbe",
+  "sha256": "ffce82a2c45e550723c1242f9240aa6de4ab41ff95bb3ca57abd6e0471c54e90",
   "collection": "Autodeterminación Causal",
   "volume": null,
   "source_anomalies": [],
@@ -48,6 +48,7 @@
       "members": [
         "B·III·1",
         "B·III·2",
+        "B·III·3",
         "B·III·4",
         "B·III·5"
       ]
@@ -83,312 +84,324 @@
       "kind": "capitulo",
       "key": "P·1",
       "heading": "Capítulo P·1",
-      "start_line": 77,
-      "end_line": 202,
       "part": {
         "key": "PRELIMINAR",
         "heading": "Parte preliminar · Fundamentos del instrumento"
-      }
+      },
+      "start_line": 77,
+      "end_line": 196
     },
     {
       "path": "corpus/libros/eco/capitulo-p-2.md",
       "kind": "capitulo",
       "key": "P·2",
       "heading": "Capítulo P·2",
-      "start_line": 203,
-      "end_line": 409,
       "part": {
         "key": "PRELIMINAR",
         "heading": "Parte preliminar · Fundamentos del instrumento"
-      }
+      },
+      "start_line": 197,
+      "end_line": 395
     },
     {
       "path": "corpus/libros/eco/capitulo-p-3.md",
       "kind": "capitulo",
       "key": "P·3",
       "heading": "Capítulo P·3",
-      "start_line": 410,
-      "end_line": 589,
       "part": {
         "key": "PRELIMINAR",
         "heading": "Parte preliminar · Fundamentos del instrumento"
-      }
+      },
+      "start_line": 396,
+      "end_line": 567
     },
     {
       "path": "corpus/libros/eco/capitulo-p-4.md",
       "kind": "capitulo",
       "key": "P·4",
       "heading": "Capítulo P·4",
-      "start_line": 590,
-      "end_line": 736,
       "part": {
         "key": "PRELIMINAR",
         "heading": "Parte preliminar · Fundamentos del instrumento"
-      }
+      },
+      "start_line": 568,
+      "end_line": 710
     },
     {
       "path": "corpus/libros/eco/capitulo-p-5.md",
       "kind": "capitulo",
       "key": "P·5",
       "heading": "Capítulo P·5",
-      "start_line": 737,
-      "end_line": 933,
       "part": {
         "key": "PRELIMINAR",
         "heading": "Parte preliminar · Fundamentos del instrumento"
-      }
+      },
+      "start_line": 711,
+      "end_line": 901
     },
     {
       "path": "corpus/libros/eco/b-i-f.md",
       "kind": "modulo",
       "key": "B·I·F",
       "heading": "B·I·F · MÓDULO FOBOS",
-      "start_line": 934,
-      "end_line": 1245,
       "part": {
         "key": "PARTE-I",
         "heading": "Parte I · Los Hijos de Afrodita"
-      }
+      },
+      "start_line": 902,
+      "end_line": 1200
     },
     {
       "path": "corpus/libros/eco/b-i-d.md",
       "kind": "modulo",
       "key": "B·I·D",
       "heading": "B·I·D · MÓDULO DEIMOS",
-      "start_line": 1246,
-      "end_line": 1664,
       "part": {
         "key": "PARTE-I",
         "heading": "Parte I · Los Hijos de Afrodita"
-      }
+      },
+      "start_line": 1201,
+      "end_line": 1598
     },
     {
       "path": "corpus/libros/eco/b-i-a.md",
       "kind": "modulo",
       "key": "B·I·A",
       "heading": "B·I·A · MÓDULO ANTEROS",
-      "start_line": 1665,
-      "end_line": 2098,
       "part": {
         "key": "PARTE-I",
         "heading": "Parte I · Los Hijos de Afrodita"
-      }
+      },
+      "start_line": 1599,
+      "end_line": 2010
     },
     {
       "path": "corpus/libros/eco/b-i-p.md",
       "kind": "modulo",
       "key": "B·I·P",
       "heading": "B·I·P · MÓDULO POTÓS",
-      "start_line": 2099,
-      "end_line": 2495,
       "part": {
         "key": "PARTE-I",
         "heading": "Parte I · Los Hijos de Afrodita"
-      }
+      },
+      "start_line": 2011,
+      "end_line": 2393
     },
     {
       "path": "corpus/libros/eco/b-i-e.md",
       "kind": "modulo",
       "key": "B·I·E",
-      "heading": "B·I·E ·  MÓDULO EROS",
-      "start_line": 2496,
-      "end_line": 2916,
+      "heading": "B·I·E · MÓDULO EROS",
       "part": {
         "key": "PARTE-I",
         "heading": "Parte I · Los Hijos de Afrodita"
-      }
+      },
+      "start_line": 2394,
+      "end_line": 2795
     },
     {
       "path": "corpus/libros/eco/b-i-h.md",
       "kind": "modulo",
       "key": "B·I·H",
-      "heading": "B·I·H  ·  MÓDULO HARMONÍA · D-2",
-      "start_line": 2917,
-      "end_line": 3396,
+      "heading": "B·I·H · MÓDULO HARMONÍA · D-2",
       "part": {
         "key": "PARTE-I",
         "heading": "Parte I · Los Hijos de Afrodita"
-      }
+      },
+      "start_line": 2796,
+      "end_line": 3260
     },
     {
       "path": "corpus/libros/eco/b-ii-i.md",
       "kind": "modulo",
       "key": "B·II·I",
-      "heading": "B·II·I ·  MÓDULO EJE I — ESTADOS DEL",
-      "start_line": 3397,
-      "end_line": 3981,
+      "heading": "B·II·I · MÓDULO EJE I — ESTADOS DEL EGO",
       "part": {
         "key": "PARTE-II",
         "heading": "Parte II · Los cinco ejes del SDO"
-      }
+      },
+      "start_line": 3261,
+      "end_line": 3822
     },
     {
       "path": "corpus/libros/eco/b-ii-ii.md",
       "kind": "modulo",
       "key": "B·II·II",
-      "heading": "B·II·II ·  MÓDULO EJE II — MASCARADA",
-      "start_line": 3982,
-      "end_line": 4261,
+      "heading": "B·II·II · MÓDULO EJE II — MASCARADA",
       "part": {
         "key": "PARTE-II",
         "heading": "Parte II · Los cinco ejes del SDO"
-      }
+      },
+      "start_line": 3823,
+      "end_line": 4093
     },
     {
       "path": "corpus/libros/eco/b-ii-iii.md",
       "kind": "modulo",
       "key": "B·II·III",
-      "heading": "B·II·III ·  MÓDULO EJE III — VÍNCULO",
-      "start_line": 4262,
-      "end_line": 4703,
+      "heading": "B·II·III · MÓDULO EJE III — VÍNCULO",
       "part": {
         "key": "PARTE-II",
         "heading": "Parte II · Los cinco ejes del SDO"
-      }
+      },
+      "start_line": 4094,
+      "end_line": 4520
     },
     {
       "path": "corpus/libros/eco/b-ii-iv.md",
       "kind": "modulo",
       "key": "B·II·IV",
-      "heading": "B·II·IV ·  MÓDULO EJE IV — DISFORIA",
-      "start_line": 4704,
-      "end_line": 5112,
+      "heading": "B·II·IV · MÓDULO EJE IV — DISFORIA",
       "part": {
         "key": "PARTE-II",
         "heading": "Parte II · Los cinco ejes del SDO"
-      }
+      },
+      "start_line": 4521,
+      "end_line": 4914
     },
     {
       "path": "corpus/libros/eco/b-ii-v.md",
       "kind": "modulo",
       "key": "B·II·V",
-      "heading": "B·II·V ·  MÓDULO EJE V —",
-      "start_line": 5113,
-      "end_line": 5651,
+      "heading": "B·II·V · MÓDULO EJE V — TANATOLÓGICO",
       "part": {
         "key": "PARTE-II",
         "heading": "Parte II · Los cinco ejes del SDO"
-      }
+      },
+      "start_line": 4915,
+      "end_line": 5431
     },
     {
       "path": "corpus/libros/eco/b-iii-1.md",
       "kind": "modulo",
       "key": "B·III·1",
-      "heading": "B·III·1 ·  EL EGO SOBERANO COMO PUNTO",
-      "start_line": 5652,
-      "end_line": 5914,
+      "heading": "B·III·1 · EL EGO SOBERANO COMO PUNTO DE ENTRADA",
       "part": {
         "key": "PARTE-III",
         "heading": "Parte III · La entrevista al ego colectivo"
-      }
+      },
+      "start_line": 5432,
+      "end_line": 5676
     },
     {
       "path": "corpus/libros/eco/b-iii-2.md",
       "kind": "modulo",
       "key": "B·III·2",
-      "heading": "B·III·2 ·  ENTREVISTA A LOS MIEMBROS",
-      "start_line": 5915,
-      "end_line": 6593,
+      "heading": "B·III·2 · ENTREVISTA A LOS MIEMBROS",
       "part": {
         "key": "PARTE-III",
         "heading": "Parte III · La entrevista al ego colectivo"
-      }
+      },
+      "start_line": 5677,
+      "end_line": 6038
+    },
+    {
+      "path": "corpus/libros/eco/b-iii-3.md",
+      "kind": "modulo",
+      "key": "B·III·3",
+      "heading": "B·III·3 · AGREGACIÓN DE LOCALIZACIONES INDIVIDUALES",
+      "part": {
+        "key": "PARTE-III",
+        "heading": "Parte III · La entrevista al ego colectivo"
+      },
+      "start_line": 6039,
+      "end_line": 6324
     },
     {
       "path": "corpus/libros/eco/b-iii-4.md",
       "kind": "modulo",
       "key": "B·III·4",
-      "heading": "B·III·4 ·  ANÁLISIS DE ARTEFACTOS",
-      "start_line": 6594,
-      "end_line": 6883,
+      "heading": "B·III·4 · ANÁLISIS DE ARTEFACTOS COLECTIVOS",
       "part": {
         "key": "PARTE-III",
         "heading": "Parte III · La entrevista al ego colectivo"
-      }
+      },
+      "start_line": 6325,
+      "end_line": 6599
     },
     {
       "path": "corpus/libros/eco/b-iii-5.md",
       "kind": "modulo",
       "key": "B·III·5",
-      "heading": "B·III·5 ·  MEMORIA COMUNITARIA — LO QUE FUE, LO QUE ES, LO QUE PUDO SER",
-      "start_line": 6884,
-      "end_line": 7195,
+      "heading": "B·III·5 · MEMORIA COMUNITARIA — LO QUE FUE, LO QUE ES, LO QUE PUDO SER",
       "part": {
         "key": "PARTE-III",
         "heading": "Parte III · La entrevista al ego colectivo"
-      }
+      },
+      "start_line": 6600,
+      "end_line": 6893
     },
     {
       "path": "corpus/libros/eco/bloque-iv-01.md",
       "kind": "modulo",
       "key": "B·IV·1",
-      "heading": "B·IV ·  PRINCIPIOS GENERALES DE",
-      "start_line": 7196,
-      "end_line": 7373,
+      "heading": "B·IV·1 · PRINCIPIOS GENERALES DE INTERVENCIÓN",
       "part": {
         "key": "PARTE-IV",
         "heading": "Parte IV · Principios generales de intervención"
-      }
+      },
+      "start_line": 6894,
+      "end_line": 7056
     },
     {
       "path": "corpus/libros/eco/bloque-iv-02.md",
       "kind": "modulo",
       "key": "B·IV·2",
-      "heading": "B·IV · §2 ·  LA LOCALIZACIÓN SIN",
-      "start_line": 7374,
-      "end_line": 7626,
+      "heading": "B·IV·2 · LA LOCALIZACIÓN SIN ETIQUETA",
       "part": {
         "key": "PARTE-IV",
         "heading": "Parte IV · Principios generales de intervención"
-      }
+      },
+      "start_line": 7057,
+      "end_line": 7294
     },
     {
       "path": "corpus/libros/eco/bloque-iv-03.md",
       "kind": "modulo",
       "key": "B·IV·3",
-      "heading": "B·IV · §3 ·  CUÁNDO ECO ESTÁ COMPLETO",
-      "start_line": 7627,
-      "end_line": 7820,
+      "heading": "B·IV·3 · CUÁNDO ECO ESTÁ COMPLETO Y CUÁNDO NO",
       "part": {
         "key": "PARTE-IV",
         "heading": "Parte IV · Principios generales de intervención"
-      }
+      },
+      "start_line": 7295,
+      "end_line": 7475
     },
     {
       "path": "corpus/libros/eco/bloque-iv-04.md",
       "kind": "modulo",
       "key": "B·IV·4",
-      "heading": "B·IV · §4 ·  CRITERIOS DE DERIVACIÓN A",
-      "start_line": 7821,
-      "end_line": 8014,
+      "heading": "B·IV·4 · CRITERIOS DE DERIVACIÓN A HISTOS",
       "part": {
         "key": "PARTE-IV",
         "heading": "Parte IV · Principios generales de intervención"
-      }
+      },
+      "start_line": 7476,
+      "end_line": 7656
     },
     {
       "path": "corpus/libros/eco/bloque-iv-05.md",
       "kind": "modulo",
       "key": "B·IV·5",
-      "heading": "B·IV · §5 ·  CRITERIOS DE DERIVACIÓN",
-      "start_line": 8015,
-      "end_line": 8177,
+      "heading": "B·IV·5 · CRITERIOS DE DERIVACIÓN FUERA DEL PARADIGMA",
       "part": {
         "key": "PARTE-IV",
         "heading": "Parte IV · Principios generales de intervención"
-      }
+      },
+      "start_line": 7657,
+      "end_line": 7805
     },
     {
       "path": "corpus/libros/eco/90-apendices.md",
       "kind": "apendices",
       "key": "APENDICES",
       "heading": "Apéndices · Instrumentos de trabajo del mediador",
-      "start_line": 8178,
-      "end_line": 9851,
       "part": {
         "key": "APENDICES",
         "heading": "Apéndices · Instrumentos de trabajo del mediador"
-      }
+      },
+      "start_line": 7806,
+      "end_line": 9440
     }
   ]
 }
