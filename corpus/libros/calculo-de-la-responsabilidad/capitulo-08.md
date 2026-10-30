@@ -1,10 +1,9 @@
-PARTE III · ECONOMÍA, FINANZAS Y EMPRESA
+# Capítulo 8
+## Score crediticio
 
-### Capítulo 8 Score crediticio
+*El impago no es un hecho del deudor: índice de causalidad y el nodo de diseño del incumplimiento*
 
-El impago no es un hecho del deudor: índice de causalidad y el nodo
-
-de diseño del incumplimiento
+---
 
 ### §1.  El problema
 
@@ -12,7 +11,6 @@ En la década de 1930, el gobierno federal de los Estados Unidos creó la Admini
 
 Ese proceso se llamó redlining. Durante cuatro décadas, hasta que la Fair Housing Act de 1968 lo prohibió formalmente, la política federal diseñó y ejecutó un sistema que impedía a las familias negras acumular patrimonio a través de la vivienda propia —el principal vehículo de acumulación de riqueza de la clase media estadounidense en
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 el siglo XX. El resultado cuantificable: la brecha de riqueza mediana entre familias blancas y negras en los Estados Unidos en 2023 es de aproximadamente 1:7 según el Federal Reserve. Los economistas que han intentado modelar qué fracción de esa brecha es atribuible al redlining estiman que entre el 25% y el 40% del diferencial actual tiene causalidad directa en esas políticas.
 
@@ -20,11 +18,10 @@ La pregunta que el sistema de imputación causal puede responder con precisión 
 
 Noventa años después, los algoritmos de score crediticio usan variables como el código postal, el historial de compras y los patrones de comportamiento digital. Algunos de esos algoritmos han sido documentados como reproductores del sesgo racial del redlining —no porque tengan "raza" como variable explícita, sino porque sus proxis capturan la misma geografía que los mapas de la HOLC, con la diferencia de que el nodo de diseño ahora no es el Estado federal sino el dataset y el ejecutivo que lo aprobó.
 
-### 1.1 El impago como evento causalmente distribuido
+#### 1.1 El impago como evento causalmente distribuido
 
 El score crediticio tradicional trata el impago como un hecho del deudor: una propiedad de la persona que solicita el crédito, medida mediante su historial de pagos, deudas vigentes, antigüedad crediticia, tipos de crédito y nuevas solicitudes. Este es el modelo FICO, que desde 1989 determina el acceso al crédito de la mayoría de los
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 estadounidenses y que, con variantes, se usa en los sistemas crediticios de todo el mundo.
 
@@ -34,17 +31,16 @@ El cálculo de la responsabilidad introduce una herramienta diferente: el índic
 
 Índice de causalidad del impago (R*):  La fracción del impago causalmente atribuible a cada nodo del sistema crediticio. R*_deudor mide la responsabilidad causal del deudor en el impago. R*_diseñador mide la responsabilidad causal del nodo que diseñó las condiciones del crédito —la política, el algoritmo, los términos— en el resultado. Cuando R*_diseñador > R*_deudor, el impago era más probable por el diseño del sistema que por la conducta del deudor.
 
-### 1.2 La diferencia entre correlación crediticia y causalidad crediticia
+#### 1.2 La diferencia entre correlación crediticia y causalidad crediticia
 
 El score FICO predice el impago con correlación estadística real. Una persona con FICO 500 tiene más probabilidad estadística de impago que una con FICO 800. Pero esa correlación no implica causalidad en el sentido del sistema: no dice que el FICO 500 causó el impago. Puede decir que
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 las condiciones que produjeron un FICO 500 (ingresos inestables, falta de historial crediticio formal, acceso solo a productos de alto costo) son las mismas condiciones que producen el impago. Y esas condiciones pueden tener un nodo de diseño con R* mucho mayor que el del deudor.
 
 Analogía: El termómetro y la fiebre Un FICO bajo es como la temperatura alta: mide el estado del sistema, pero no causa la enfermedad. El sistema FICO mide el resultado acumulado de condiciones que incluyen las del deudor, pero también las del sistema financiero al que tiene acceso, las del entorno macroeconómico, y las de las políticas históricas que determinaron su punto de partida. Usar el FICO como causa del impago es confundir el termómetro con la infección.
 
-### 1.3 El dataset como nodo causal autónomo
+#### 1.3 El dataset como nodo causal autónomo
 
 El caso contemporáneo de los algoritmos de crédito con sesgo racial introduce un concepto nuevo en el sistema que ninguno de los capítulos anteriores había necesitado con esta precisión: el dataset como nodo causal con R* propio, separado del directivo que lo aprobó.
 
@@ -52,7 +48,6 @@ Un algoritmo de machine learning no tiene voluntad, no tiene dolo, no tiene hijo
 
 La pregunta de responsabilidad se desdobla entonces en tres niveles: ¿cuánto del impago es causalmente atribuible al deudor? ¿Cuánto al algoritmo (y por tanto al dataset que lo entrenó)? ¿Y cuánto al directivo que aprobó el uso de ese dataset sabiendo —o debiendo saber— que reproducía el sesgo?
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 R*_impago = R*_deudor + R*_dataset +
 
@@ -60,7 +55,6 @@ R*_directivo + R*_entorno_macro + ...
 
 Esta descomposición es la contribución central del capítulo a la práctica financiera: transforma la evaluación del riesgo crediticio de un ejercicio de predicción estadística sobre el deudor en un análisis causal del sistema completo que produce el impago.
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 ### §2.  Página puente — Traducción al lenguaje del crédito y las finanzas
 
@@ -108,7 +102,6 @@ Para el deudor: lo que hizo para reducir el riesgo de impago (renegociación, co
 
 Δ alto del diseñador: diseñó condiciones que causaban el impago y no las corrigió. Δ alto del deudor: el
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 impago era causalmente atribuible a él y no tomó medidas. Δ negativo: la responsabilidad que se le atribuye es mayor que la que causó (deudor como chivo expiatorio del sistema).
 
@@ -130,7 +123,6 @@ Incumplimiento del Estado en
 
 Cuando el Estado diseñó un sistema que excluía a grupos específicos del
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 condiciones de acceso al crédito
 
@@ -144,11 +136,10 @@ Solo para directivos y reguladores humanos
 
 Para el lector que viene del núcleo universal:  Este dominio introduce un tipo de nodo que no había aparecido en los dominios anteriores: el nodo algorítmico / dataset, que tiene posición causal real en el grafo pero carece de voluntad, dolo e hijos. Su R* no implica culpabilidad del algoritmo sino posición causal que apunta hacia el directivo que lo aprobó y hacia el diseñador de la política que generó los datos con los que fue entrenado.
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 ### §3.  Las herramientas en el contexto crediticio
 
-### 3.1  Cómo construir el grafo causal del impago
+#### 3.1  Cómo construir el grafo causal del impago
 
 El grafo causal del impago difiere del scorecard tradicional en su alcance: incluye no solo los factores del deudor sino también los del sistema crediticio que determinó las condiciones del préstamo. La construcción procede en cuatro niveles:
 
@@ -172,7 +163,6 @@ Las condiciones del producto determinan si el pago
 
 Términos contractuales, comparación con productos equivalentes del mercado, análisis
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 era factible dado el ingreso del deudor. Un producto de alta tasa sobre un ingreso bajo tiene R* propio en el impago.
 
@@ -194,11 +184,10 @@ Los choques exógenos (una crisis financiera, una pandemia) tienen R* real en lo
 
 Series macroeconómicas, estudios de impacto de crisis en carteras de crédito, comparación de tasas de impago antes y durante el choque.
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 producen. El deudor que no pagó durante el COVID puede haber tenido R* bajo.
 
-### 3.2  R* del deudor versus R* del sistema: cuándo el impago era estructural
+#### 3.2  R* del deudor versus R* del sistema: cuándo el impago era estructural
 
 La distinción entre R*_deudor y R*_sistema es la aportación operativa más directa del capítulo a la práctica financiera. Tiene consecuencias sobre quién asume el costo del impago, qué reclamaciones son procedentes, y cómo se diseña la regulación del crédito.
 
@@ -220,7 +209,6 @@ R*_sistema > R*_deudor
 
 El impago fue causado principalmente por el diseño del sistema: producto inadecuado para el perfil del deudor, tasa excesiva, condiciones inalcanzables. El acreedor diseñó las condiciones
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 del impago. La reclamación íntegra al deudor es inverosímil jurídicamente.
 
@@ -236,15 +224,19 @@ Impago exógeno
 
 R*_entorno alto
 
-### 3.3  El índice de sustituibilidad S en el crédito
+#### 3.3  El índice de sustituibilidad S en el crédito
 
-### En el dominio crediticio, S tiene una interpretación especialmente importante para distinguir el impago estructural del idiosincrático:
+#### En el dominio crediticio, S tiene una interpretación especialmente importante para distinguir el impago estructural del idiosincrático:
 
-•  S alto del deudor: cualquier persona con las mismas condiciones estructurales (mismo código postal, mismo nivel de ingreso, mismo acceso al sistema financiero formal) habría tenido el mismo resultado crediticio. El impago es una propiedad del entorno, no de la persona. La política de crédito correcta trabaja sobre el entorno, no sobre el comportamiento individual. •  S bajo del deudor: las condiciones específicas de este deudor —su gestión financiera, sus decisiones, su comportamiento— fueron determinantes para el
+- S alto del deudor: cualquier persona con las mismas condiciones estructurales (mismo código postal, mismo nivel de ingreso, mismo acceso al sistema financiero formal) habría tenido el mismo resultado crediticio. El impago es una propiedad del entorno, no de la persona. La política de crédito correcta trabaja sobre el entorno, no sobre el comportamiento individual.
+- S bajo del deudor: las condiciones específicas de este deudor —su gestión financiera, sus decisiones, su comportamiento— fueron determinantes para el
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
-impago. Otro deudor con condiciones estructurales similares habría podido pagar. En este caso, la responsabilidad causal del deudor es genuinamente alta. •  S del dataset: cuánto del sesgo del algoritmo es genérico (cualquier dataset histórico entrenado con datos del redlining habría producido el mismo sesgo) versus idiosincrático (este dataset específico, con estas variables específicas, amplificó el sesgo más allá de lo que otros datasets habrían hecho).
+
+impago. Otro deudor con condiciones estructurales similares habría podido pagar. En este caso, la responsabilidad causal del deudor es genuinamente alta.
+
+- S del dataset: cuánto del sesgo del algoritmo es genérico (cualquier dataset histórico entrenado con datos del redlining habría producido el mismo sesgo) versus idiosincrático (este dataset específico, con estas variables específicas, amplificó el sesgo más allá de lo que otros datasets habrían hecho).
+
 
 La combinación R*_deudor × (1 − S_deudor) produce la responsabilidad causal neta del deudor en el impago: la fracción del impago que es genuinamente atribuible a sus características idiosincráticas. Esa es la base correcta para cualquier acción de cobro:
 
@@ -254,7 +246,7 @@ D_total
 
 Si este producto es significativamente menor que el monto total reclamado al deudor, hay inversión causal en el sistema de cobro: el deudor está asumiendo más de lo que causó.
 
-### 3.4  α y Δ en el sistema crediticio
+#### 3.4  α y Δ en el sistema crediticio
 
 En el sistema crediticio, α tiene interpretaciones distintas según el tipo de nodo:
 
@@ -264,7 +256,6 @@ Deudor Grado de responsabilidad crediticia asumida.
 
 Comunicó con el acreedor ante la primera señal de dificultad. Buscó refinanciamiento activamente. Realizó pagos parciales cuando el pago total no era posible.
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 Cooperó con el proceso de reestructuración.
 
@@ -286,11 +277,11 @@ Estado / regulador
 
 Grado en que generó las condiciones materiales de posibilidad para el acceso al crédito justo.
 
-### 3.5  El daño crediticio y su expresión en tiempo de vida
+#### 3.5  El daño crediticio y su expresión en tiempo de vida
 
-### D_crédito = T_invertido + T_impedido +
+#### D_crédito = T_invertido + T_impedido +
 
-### ΔT_trayectoria
+#### ΔT_trayectoria
 
 Componente En crédito equivale a
 
@@ -300,7 +291,6 @@ T_invertido Pérdida directa en el impago
 
 Para el acreedor: el capital prestado no recuperado. Para el deudor (en crédito
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 predatorio): los pagos realizados que excedían el costo real del capital, el capital consumido en intereses abusivos.
 
@@ -312,17 +302,16 @@ Lo que el deudor o la comunidad dejó de acumular mientras el sistema crediticio
 
 La brecha de riqueza que persiste hoy como consecuencia del sistema de exclusión histórica. En el caso del redlining, la diferencia de 1:7 en riqueza mediana entre familias blancas y negras tiene en este componente su principal expresión.
 
-### Expresado en tiempo de vida con τ(M) = M / w_ref:
+#### Expresado en tiempo de vida con τ(M) = M / w_ref:
 
-### D_vital_crédito = D_crédito / w_ref   [horas de vida
+#### D_vital_crédito = D_crédito / w_ref   [horas de vida
 
-### cristalizadas en trabajo no recompensado]
+#### cristalizadas en trabajo no recompensado]
 
 Esta conversión hace visible la dimensión ontológica del daño crediticio: los recursos que el sistema sesgado extrajo de las comunidades excluidas representan horas de trabajo de personas que no se tradujeron en patrimonio acumulado porque el acceso al instrumento de acumulación les fue negado por diseño.
 
-### 3.6  Los hijos en el dominio crediticio: solo en nodos humanos con voluntad
+#### 3.6  Los hijos en el dominio crediticio: solo en nodos humanos con voluntad
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 Los hijos aplican solo a los directivos y reguladores con poder de decisión sobre el sistema crediticio. No aplican al algoritmo, al dataset, ni a los productos financieros como nodos sin voluntad.
 
@@ -348,7 +337,6 @@ Ausencia de documentación de análisis de equidad. No hubo advertencias interna
 
 Negligencia simple. Compatible con remediation sin sanción penal.
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 Harmoní a
 
@@ -358,7 +346,6 @@ Documentación del proceso de auditoría, de la corrección, y de la comunicaci�
 
 α alto. No hay Δ. Modelo de buenas prácticas regulatorias.
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 ### §4.  Casos resueltos
 
@@ -374,11 +361,10 @@ Las consecuencias eran directas y documentadas: los vecindarios marcados en rojo
 
 La investigación académica sobre los mapas de la HOLC — que fueron desclasificados y digitalizados en décadas recientes— ha permitido establecer correlaciones notablemente precisas entre los vecindarios marcados en rojo en los años 1930 y los indicadores actuales de segregación residencial, riqueza media, acceso a servicios, y esperanza de vida. Esa correlación no prueba por sí sola la
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
-### causalidad (confounding factors), pero combinada con el análisis del grafo causal del sistema, sí puede sustentar un R* del nodo de diseño estatal significativamente alto.
+#### causalidad (confounding factors), pero combinada con el análisis del grafo causal del sistema, sí puede sustentar un R* del nodo de diseño estatal significativamente alto.
 
-### A.2  Construcción del grafo histórico
+#### A.2  Construcción del grafo histórico
 
 Nodo Actor/Factor Tipo Función causal
 
@@ -406,7 +392,6 @@ Omisión sistémica
 
 La ausencia de regulación contra el redlining durante cuatro décadas fue
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 parte del diseño: el Congreso no legisló contra la práctica hasta 1968 a pesar de documentación extensiva de sus efectos.
 
@@ -420,7 +405,7 @@ Nodo final Millones de familias que no pudieron acumular patrimonio a través de
 
 Nf Familias negras excluidas del crédito hipotecario
 
-### A.3  R* y la distribución de la causalidad del impago sistemático
+#### A.3  R* y la distribución de la causalidad del impago sistemático
 
 En el redlining, el "impago" que el sistema "predijo" para los vecindarios rojos fue en gran medida una profecía autocumplida: los vecindarios no recibieron inversión porque fueron clasificados como peligrosos; la falta de inversión los depreció; la depreciación confirmó la clasificación inicial. El grafo causal del ciclo tiene la siguiente distribución de R*: El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
@@ -448,15 +433,14 @@ N4 — Omisión legislativa
 
 N5 — Sistema de tasación
 
-### El vector de R* confirma la lectura del cálculo: el 72% de la responsabilidad causal del ciclo de exclusión residía en los
+#### El vector de R* confirma la lectura del cálculo: el 72% de la responsabilidad causal del ciclo de exclusión residía en los
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 nodos de diseño institucional (N1 y N2), y el α de todos esos nodos en el período activo del sistema estaba en el rango 0.00-0.05. El Índice de Justicia Estructural del sistema crediticio estadounidense durante este período:
 
 J_redlining = 1 − Σ|Δᵢ| ≈ 1 − (0.44 + 0.28 + 0.12 +
 
-### 0.08 + ...) ≈ 0.04
+#### 0.08 + ...) ≈ 0.04
 
 J = 0.04: injusticia estructural casi máxima. Los nodos de mayor R* asumieron prácticamente cero. El sistema de imputación crediticia atribuía el impago al deudor cuando el 96% del déficit de asunción estaba en los nodos de diseño.
 
@@ -464,9 +448,15 @@ A.4  El daño del redlining: cálculo de la brecha de riqueza acumulada
 
 Parámetros documentados para el cálculo:
 
-•  Familias negras potencialmente excluidas del crédito hipotecario federal: estimadas en 2.5-3.5 millones entre 1934 y 1968. •  Apreciación promedio de viviendas en áreas clasificadas como A y B entre 1940 y 1970: 300-400% en términos reales. •  Valor promedio de una vivienda en 1940 en dólares de 2024: ~$85,000 USD. •  Generaciones afectadas calculadas al 2024: 2.5 generaciones (nietos de quienes no pudieron comprar en 1950). •  Fracción de la brecha de riqueza actual atribuible al redlining según estimaciones económicas: 25-40%. •  Brecha de riqueza mediana actual entre familias blancas y negras (Federal Reserve, 2023): $171,000 USD. •  Número de familias negras actualmente en los EE.UU.: ~16.4 millones de hogares.
+- Familias negras potencialmente excluidas del crédito hipotecario federal: estimadas en 2.5-3.5 millones entre 1934 y 1968.
+- Apreciación promedio de viviendas en áreas clasificadas como A y B entre 1940 y 1970: 300-400% en términos reales.
+- Valor promedio de una vivienda en 1940 en dólares de 2024: ~$85,000 USD.
+- Generaciones afectadas calculadas al 2024: 2.5 generaciones (nietos de quienes no pudieron comprar en 1950).
+- Fracción de la brecha de riqueza actual atribuible al redlining según estimaciones económicas: 25-40%.
+- Brecha de riqueza mediana actual entre familias blancas y negras (Federal Reserve, 2023): $171,000 USD.
+- Número de familias negras actualmente en los EE.UU.: ~16.4 millones de hogares.
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
+
 
 Cálculo del T_impedido (patrimonio no acumulado):
 
@@ -492,11 +482,9 @@ A.5  El estado actual del α diferido: ¿qué ha asumido el Estado?
 
 La Fair Housing Act de 1968 prohibió el redlining formal (α_N1 ≈ 0.12: prohibición sin compensación). La Community Reinvestment Act de 1977 obligó a los bancos a servir a las comunidades donde operan, incluyendo las históricamente excluidas (α_N2 ≈ 0.20). Algunos programas locales de reparación (Evanston, Illinois en 2021) han comenzado a establecer compensaciones directas a familias afectadas por el redlining, aunque su escala es mínima respecto al D_total.
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 El α_diferido actual del sistema federal estadounidense respecto al redlining se estima en el rango 0.08-0.15: mucho menor que la Posición_heredada calculable. El Δ_diferido del Estado es positivo y sustancial. Eso es el fraude annona intergeneracional en el dominio crediticio: el Estado recibió los impuestos de las comunidades afectadas durante las décadas del redlining y no generó las condiciones materiales de posibilidad para su acumulación de patrimonio. La deuda sigue vigente.
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 Caso B — Algoritmos de crédito con sesgo racial (2019–2024)
 
@@ -510,9 +498,8 @@ Los algoritmos no tenían "raza" como variable explícita. Usaban código postal
 
 El caso plantea la pregunta más técnicamente difícil del capítulo: ¿quién es causalmente responsable del sesgo —el algoritmo, el dataset, el directivo que aprobó el modelo, la empresa que lo diseñó, o el Estado que generó los datos históricos sesgados sobre los que fue entrenado?
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
-### B.2  El grafo causal del sesgo algorítmico
+#### B.2  El grafo causal del sesgo algorítmico
 
 Nodo Actor/Factor Tipo Función causal en el sesgo
 
@@ -538,7 +525,6 @@ N4 Empresa de tecnología financiera / prestamista
 
 Institución Diseñó y comercializó el modelo. Tenía incentivos para maximizar la precisión estadística sin exigir equidad.
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 N5 Regulador financiero (CFPB, OCC)
 
@@ -550,7 +536,7 @@ Nodo final Personas que no accedieron al crédito o lo recibieron a mayor costo 
 
 Nf Solicitantes de crédito con perfil de riesgo comparable pero código postal sesgado
 
-### B.3  R* del dataset vs. R* del directivo
+#### B.3  R* del dataset vs. R* del directivo
 
 La pregunta más difícil del caso es: cuando el impago (o la denegación injusta del crédito) es causalmente producido por el sesgo del dataset, ¿quién tiene mayor R*: el dataset o el directivo que lo aprobó?
 
@@ -564,7 +550,6 @@ S est.
 
 α est.
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 ~32% 0.30 0.08 Δ = +0.24. Nodo histórico con α_diferido bajo. La Posición_heredada del Estado federal se extiende al dominio algorítmico.
 
@@ -586,23 +571,22 @@ N4 — Empresa fintech
 
 N5 — Regulador
 
-### La fórmula de imputación del R* del dataset al directivo:
+#### La fórmula de imputación del R* del dataset al directivo:
 
-### R*_efectivo_directivo = R*_directivo + R*_dataset ×
+#### R*_efectivo_directivo = R*_directivo + R*_dataset ×
 
-### P(detección | auditoría)
+#### P(detección | auditoría)
 
-### donde P(detección | auditoría) es la probabilidad de que una auditoría de disparate impact estándar habría detectado
+#### donde P(detección | auditoría) es la probabilidad de que una auditoría de disparate impact estándar habría detectado
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
-### el sesgo. Para sesgos de la magnitud documentada por el Markup (80% mayor tasa de denegación), P(detección | auditoría) ≈ 0.90. Entonces:
+#### el sesgo. Para sesgos de la magnitud documentada por el Markup (80% mayor tasa de denegación), P(detección | auditoría) ≈ 0.90. Entonces:
 
-### R*_efectivo_directivo ≈ 0.22 + 0.25 × 0.90 = 0.445
+#### R*_efectivo_directivo ≈ 0.22 + 0.25 × 0.90 = 0.445
 
 Esto significa que el directivo que aprobó el modelo sin auditoría tiene una responsabilidad causal efectiva del ~44% del sesgo del sistema: su propia posición causal más la fracción del dataset que habría podido detectar y corregir. Ese es el número correcto para cualquier acción de responsabilidad.
 
-### B.4  Los hijos del directivo: Potós como diagnóstico dominante
+#### B.4  Los hijos del directivo: Potós como diagnóstico dominante
 
 La investigación sobre los ejecutivos de las empresas fintech y los prestamistas que usaron modelos sesgados entre 2019 y 2024 produce un perfil de hijos que el sistema puede nombrar con precisión:
 
@@ -624,7 +608,6 @@ Potós + Anteros
 
 Correos internos que documentan alertas de equidad ignoradas o minimizadas. "Nuestro modelo predice bien; la equidad no es nuestro problema regulatorio."
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 Harmonía Documentación de auditorías de disparate impact, de iteraciones del modelo hasta alcanzar equidad, de comunicación transparente con el regulador.
 
@@ -644,43 +627,39 @@ Si la auditoría de equidad es obligatoria y el directivo la realiza, P (detecci
 
 Un Δ negativo después de la auditoría indica que el directivo asumió más de lo que causó: realizó la auditoría, corrigió el modelo, e implementó medidas de reparación para los afectados previos. Ese es exactamente el α institucional que
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
-### el sistema requiere para que el Δ_diferido del redlining histórico comience a reducirse.
+#### el sistema requiere para que el Δ_diferido del redlining histórico comience a reducirse.
 
 La paradoja del redlining algorítmico:  El algoritmo no discrimina con intención. Discrimina con precisión estadística. Esa es la forma más eficiente de discriminación que ha existido en la historia del crédito: produce resultados racialmente sesgados sin que ningún actor individual pueda ser señalado como racista en el sentido tradicional. El sistema de imputación causal es el único instrumento analítico que puede distribuir la responsabilidad en ese escenario porque no necesita intención: necesita posición causal. Y la posición del directivo que aprobó el modelo sin auditar es causalmente determinante.
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 ### §5.  Límites del método en score crediticio
 
-### 5.1 El problema de la causalidad reversa en el crédito
+#### 5.1 El problema de la causalidad reversa en el crédito
 
 En el análisis crediticio, la causalidad puede ir en ambas direcciones: el bajo FICO puede ser causado por condiciones estructurales (que producen el impago), pero el bajo FICO también puede causar condiciones estructurales (acceso a crédito de mayor costo, que produce mayor probabilidad de impago). Esta retroalimentación hace que la construcción del grafo causal sea más compleja que en los dominios anteriores, y que el R* del deudor pueda tanto sobrestimarse como subestimarse dependiendo de qué parte del ciclo se captura.
 
-### 5.2 El problema de las variables proxy y la causalidad mediada
+#### 5.2 El problema de las variables proxy y la causalidad mediada
 
 Cuando el sesgo opera a través de proxis (el código postal como proxy de la raza), la causalidad es mediada: el algoritmo no causa directamente discriminación racial — causa discriminación geográfica que es estadísticamente equivalente a la racial dado el patrón de segregación histórica. La construcción del grafo causal debe explicitar esa mediación: el R* del código postal como variable no es el R* de la raza como causa, pero está causalmente vinculado a ella a través del historial de segregación.
 
-### 5.3 El R* del entorno macroeconómico en impagos masivos
+#### 5.3 El R* del entorno macroeconómico en impagos masivos
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 En crisis sistémicas (la crisis hipotecaria de 2008, la pandemia de 2020), el R*_entorno puede dominar el grafo de impagos. En esos casos, imputar el impago principalmente al deudor produce la inversión causal más visible del sistema financiero: el deudor que no pudo pagar su hipoteca en 2009 porque perdió el empleo en la crisis diseñada por los instrumentos financieros de los que no participó. El sistema permite calcular ese R*_entorno con precisión, pero los datos macroeconómicos necesarios para estimarlo con rigor requieren acceso a series de tiempo que no siempre están disponibles a nivel de caso individual.
 
-### 5.4 El límite de la acción individual cuando el nodo de diseño es estructural
+#### 5.4 El límite de la acción individual cuando el nodo de diseño es estructural
 
 Cuando el nodo con mayor R* es estructural y sistémico (el sistema de redlining, la arquitectura del sistema financiero que produce crisis recurrentes), el análisis causal identifica el problema con precisión, pero la solución no puede ser individual. Un deudor afectado por el redlining algorítmico no puede demandar al dataset. Puede demandar al directivo y a la empresa, pero la reparación proporcional al daño total requiere acción sistémica: cambio regulatorio, auditorías obligatorias, programas de compensación colectiva. El sistema identifica los nodos de mayor R* y Δ, pero la política que actúa sobre ellos trasciende el litigio individual.
 
-### 5.5 El uso predictivo del índice de causalidad del impago
+#### 5.5 El uso predictivo del índice de causalidad del impago
 
 Los cuatro apartados anteriores aplicaron R* al impago ya ocurrido. Pero el índice de causalidad tiene una dimensión predictiva natural que ningún modelo correlacional convencional replica: puede identificar, antes de que el impago ocurra, qué fracción de la probabilidad de impago es causalmente atribuible al sistema crediticio (R*_sistema)
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 y qué fracción es causalmente atribuible al deudor (R*_deudor). Y puede estimar cuándo el regulador detectará el sesgo de un algoritmo dado el ritmo de acumulación del disparate impact.
 
-### Predictor 1: probabilidad de impago causal pre-evento
+#### Predictor 1: probabilidad de impago causal pre-evento
 
 El modelo FICO predice P(impago) sobre la clase de riesgo. El análisis causal lo descompone antes de que ocurra:
 
@@ -712,13 +691,12 @@ Código postal sin historia de exclusión
 
 Deudor con historial de impago personal
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 La diferencia entre las dos primeras filas —5.0% vs. 0.8% de pérdida esperada atribuible al sistema— es la huella del redlining algorítmico en la cartera antes de que produzca ningún impago real. Un regulador que solo mira la tasa de impago realizada llega tarde; este predictor llega antes.
 
 Predictor:  Si R*_sistema × P(impago) supera un umbral θ_equidad en un segmento de la cartera, el algoritmo es predictivamente sesgado con independencia de si los impagos ya han ocurrido. La auditoría de equidad debe actuar sobre este predictor, no esperar la evidencia post-hoc.
 
-### Predictor 2: tiempo hasta la detección regulatoria del sesgo algorítmico
+#### Predictor 2: tiempo hasta la detección regulatoria del sesgo algorítmico
 
 El disparate impact (DI) de un algoritmo sesgado se acumula en la cartera con cada ciclo de crédito. El regulador lo detecta cuando el DI observado supera el umbral de evidencia estadística. El tiempo hasta esa detección es predictible:
 
@@ -730,15 +708,17 @@ donde DI₀ es el disparate impact inicial del algoritmo, θ_DI es el umbral est
 
 Aplicación numérica — Algoritmo con sesgo inicial:
 
-•  DI₀ = 1.18 (18% mayor tasa de denegación al inicio, bajo el umbral de detección de 1.25).
+- DI₀ = 1.18 (18% mayor tasa de denegación al inicio, bajo el umbral de detección de 1.25).
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
-•  r_acumulación = 0.04 por año (la cartera en el segmento sesgado crece al 4% anual). •  θ_DI = 1.25 (umbral regulatorio estándar).
+
+- r_acumulación = 0.04 por año (la cartera en el segmento sesgado crece al 4% anual).
+- θ_DI = 1.25 (umbral regulatorio estándar).
+
 
 t_detección ≈ log (1.25 / 1.18) / log (1.04) ≈ 0.0566 /
 
-### 0.0392 ≈ 1.4 años
+#### 0.0392 ≈ 1.4 años
 
 El algoritmo cruzará el umbral de detección regulatoria en aproximadamente diecisiete meses si la cartera sigue creciendo al ritmo actual. El beneficio predatorio que la aseguradora obtiene antes de la detección es:
 
@@ -748,7 +728,7 @@ B_antes_detección = Δ_B_ciclo × t_detección =
 
 Ese es el incentivo a actuar antes que el regulador: si el diseñador del algoritmo audita y corrige antes de los diecisiete meses, evita la multa regulatoria (estimada en $47.5M en §4.3). El ROI de la auditoría anticipada es positivo por un margen de más de cuatro a uno.
 
-### Predictor 3: ROI de la auditoría de equidad como intervención preventiva
+#### Predictor 3: ROI de la auditoría de equidad como intervención preventiva
 
 ROI_auditoría = (Multa_evitada × P_detección −
 
@@ -762,25 +742,22 @@ ROI = (0.30 × $47.5M − $0.8M) / $0.8M = ($14.25M
 
 El ROI de la auditoría de equidad supera el 1,600% cuando se incluye la probabilidad de detección. Este es el argumento cuantitativo que convierte la regulación basada en Δ_B en herramienta de gestión de riesgo para las propias instituciones financieras, no solo para los reguladores.
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 ⚠ La predicción del tiempo de detección asume que el regulador aplica el umbral DI ≥ 1.25 de manera consistente. Si la supervisión es irregular, t_detección puede ser muy superior al estimado, lo que aumenta el beneficio predatorio, pero también aumenta el daño acumulado. El argumento para la supervisión algorítmica continua en tiempo real es precisamente reducir la incertidumbre sobre t_detección.
 
-### Código de referencia: predictor de impago causal y tiempo de detección
+#### Código de referencia: predictor de impago causal y tiempo de detección
 
 import numpy as np  def predictor_sesgo_crediticio(DI_inicial, r_acumulacion,                                 theta_DI=1.25, n_ciclos_anio=12, delta_B_anual=8e6,                                 P_deteccion=0.30, costo_auditoria=800_000, multa_base=47_500_000):     """     Predicción de tiempo hasta detección regulatoria del sesgo algorítmico     y ROI de la auditoría preventiva.     """     import math     # Tiempo hasta cruzar el umbral DI if DI_inicial >= theta_DI:         t_det = 0.0  # ya cruzó el umbral     else: t_det = math.log(theta_DI / DI_inicial) / math.log(1 + r_acumulacion) B_antes = delta_B_anual * t_det     multa_esperada = multa_base * P_deteccion     ROI_auditoria = (multa_esperada - costo_auditoria) / costo_auditoria      return {         't_deteccion_anios': round(t_det, 2), 't_deteccion_meses': round(t_det * 12, 1), 'B_acumulado_antes_deteccion': B_antes,         'multa_esperada': multa_esperada,         'ROI_auditoria_preventiva': ROI_auditoria, 'conviene_auditar': ROI_auditoria > 0,     }  def descomposicion_causal_cartera(R_star_sistema, P_impago_FICO, monto_credito_promedio, n_deudores):     """     Descompone la pérdida esperada de la cartera entre     componente causal del sistema y del deudor.     """     P_impago_causal_sistema = R_star_sistema * P_impago_FICO     P_impago_causal_deudor  = (1 - R_star_sistema) * P_impago_FICO     perdida_sistema  = P_impago_causal_sistema * monto_credito_promedio * n_deudores     perdida_deudores = P_impago_causal_deudor  * monto_credito_promedio * n_deudores return {         'P_causal_sistema':  P_impago_causal_sistema, 'P_causal_deudor':   P_impago_causal_deudor, 'perdida_esp_sistema': perdida_sistema,         'perdida_esp_deudor': perdida_deudores,         'fraccion_recuperable_via_auditoria': R_star_sistema,     }  # ── Ejemplo: algoritmo con sesgo docum. (DI_0 = 1.18) ── res_t = predictor_sesgo_crediticio(     DI_inicial=1.18, r_acumulacion=0.04,     delta_B_anual=8e6, P_deteccion=0.30, costo_auditoria=800_000, multa_base=47_500_000) print("=== Predictor de detección regulatoria ===") for k, v in res_t.items(): print(f"  {k}: {v}")  # ── Ejemplo: descomposición causal de cartera ── res_c = descomposicion_causal_cartera(     R_star_sistema=0.42, P_impago_FICO=0.12,     monto_credito_promedio=250_000,
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 n_deudores=5_000) print("\n=== Descomposición causal de cartera (seg. redlineado) ===") for k, v in res_c.items():     print(f"  {k}: {v:,.0f}" if isinstance(v, float) and v > 1 else f"  {k}: {v:.4f}")
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 §6.  Profundización formal — Esta sección puede saltarse sin perder el argumento del capítulo
 
 ### §6.  Profundización formal
 
-### 6.1 El grafo del ciclo de exclusión crediticia: la profecía autocumplida
+#### 6.1 El grafo del ciclo de exclusión crediticia: la profecía autocumplida
 
 El redlining y el sesgo algorítmico no son simplemente discriminación en un punto del tiempo: son sistemas de retroalimentación que se auto-perpetúan. La formalización de ese ciclo es:
 
@@ -790,9 +767,8 @@ donde ψ(t) es el vector de estado del sistema crediticio en el período t (que 
 
 La condición de estabilidad del ciclo sin sesgo creciente requiere que el eigenvector dominante de W_crédito no tenga componentes con correlación racial significativa. Si la tiene, el sistema está en un punto fijo sesgado y el R* del dataset crece con cada iteración.
 
-### 6.2 Disparate impact formalizado: la conexión entre R* y el estándar legal
+#### 6.2 Disparate impact formalizado: la conexión entre R* y el estándar legal
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 El estándar legal de disparate impact (Griggs vs. Duke Power, 1971, confirmado para el crédito en el Fair Housing Act) establece que una práctica puede ser ilegal si produce un impacto desproporcionado sobre un grupo protegido, aunque no haya intención discriminatoria. El sistema de imputación causal formaliza ese estándar:
 
@@ -804,7 +780,7 @@ R*_dataset = [DI_observado − DI_esperado_sin_sesgo] / DI_observado
 
 donde DI_esperado_sin_sesgo = 1.0 (igual probabilidad de denegación para perfiles comparables). Con DI_observado = 1.80: R*_dataset ≈ (1.80 − 1.0) / 1.80 = 0.44. El 44% del disparate impact observado es causalmente atribuible al sesgo del dataset —consistente con el R* del nodo N2 estimado en el análisis del §4.
 
-### 6.3 La fórmula de equidad crediticia ajustada por causalidad
+#### 6.3 La fórmula de equidad crediticia ajustada por causalidad
 
 El score crediticio ajustado por causalidad (SCAC) es la herramienta que el sistema propone como alternativa al score FICO tradicional:
 
@@ -814,13 +790,12 @@ Sesgo_dataset_i
 
 donde ΔContext_i es la corrección por condiciones estructurales que el FICO no captura (inversión en el vecindario, acceso al sistema financiero formal, historial de exclusión crediticia sistemática) y Sesgo_dataset_i es la
 
-El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
 corrección por el sesgo geográfico codificado en el dataset histórico. Los parámetros γ y β se calibran para que SCAC produzca el mismo poder predictivo que FICO para el componente genuinamente idiosincrático del riesgo, sin el componente estructural que produce el disparate impact.
 
 El SCAC no "reduce el umbral" para ciertos grupos: recalcula el score sobre la base de los factores causalmente atribuibles al deudor, excluyendo los causalmente atribuibles al sistema. Es la aplicación directa del principio R*_neta = R*_deudor × (1 − S_deudor) al scorecard.
 
-### 6.4  Código Python de referencia
+#### 6.4  Código Python de referencia
 
 import numpy as np from scipy.stats import pearsonr  def analisis_credito(W_impago, alpha_nodos,                      D_total, w_ref=8.0,                      DI_observado=None, R_star_dataset_idx=None):     """     Análisis de causalidad del impago en sistemas crediticios.     W_impago:       matriz de pesos del grafo causal del impago     alpha_nodos:    α por nodo     D_total:        daño total monetario     w_ref:          salario de referencia (USD/hora) DI_observado:   disparate impact observado (ratio, e.g. 1.80) R_star_dataset_idx: índice del nodo-dataset (sin voluntad, sin α)     """ n = W_impago.shape[0]      # ── R*: índice de causalidad del impago ──     R = np.ones(n) / n     for _ in range(500):         Rn = W_impago @ R; s = np.sum(Rn)         if s < 1e-12: break         Rn /= s         if np.max(np.abs(Rn - R)) < 1e-9: break         R = Rn     R_star = Rn      # ── S: fungibilidad del factor ──     S = np.zeros(n)     for i in range(n): max_c = 0         for j in range(n):             if j == i: continue             Wm = W_impago.copy()             Wm[i,:] = np.mean(W_impago, axis=0) Rm = np.ones(n)/n             for _ in range(200):                 Rm2 = Wm @ Rm; sm = np.sum(Rm2)                 if sm < 1e-12: break Rm2 /= sm                 if np.max(np.abs(Rm2-Rm)) < 1e-6: break Rm = Rm2             c, _ = pearsonr(R_star, Rm2)             max_c = max(max_c, abs(c))         S[i] = 1 - max_c      # α del dataset = 0 siempre (no tiene voluntad)     if R_star_dataset_idx is not None: alpha_nodos = alpha_nodos.copy() alpha_nodos[R_star_dataset_idx] = 0.0      Delta = R_star - alpha_nodos R_neta = R_star * (1 - S)      # ── Responsabilidad neta del deudor (si está en el grafo) ──     # Convención: el deudor es el primer nodo (índice 0)     AD_deudor = R_neta[0] * D_total  # ajuste debitor correcto      # ── R* efectivo del directivo (incorpora R* del dataset) ──     R_efectivo_directivo = None     if R_star_dataset_idx is not None:         P_deteccion = 0.90  # prob. de detección con auditoría estándar         # Asumimos que el directivo es el nodo que sigue al dataset         dir_idx = R_star_dataset_idx + 1         if dir_idx < n: El Cálculo de la Responsabilidad · Cap. 8 — Score crediticio
 
@@ -830,5 +805,4 @@ Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y A
 
 Continúa en el Capítulo 9 — Quiebra y riesgo sistémico
 
-El Cálculo de la Responsabilidad · Cap. 9 — Quiebra y riesgo sistémico
 
