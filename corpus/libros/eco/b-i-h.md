@@ -1,8 +1,7 @@
-### B·I·H  ·  MÓDULO HARMONÍA · D-2
+# B·I·H · MÓDULO HARMONÍA · D-2
+## La integración y la anestesia — dos estados que el expediente no puede separar
 
-### La integración y la anestesia — dos estados
-
-que el expediente no puede separar La función exclusiva e irrenunciable de ECO · Nunca se salta
+*La función exclusiva e irrenunciable de ECO · Nunca se salta*
 
 ### I.  Fundamento ontológico del módulo
 
@@ -10,7 +9,6 @@ Este módulo localiza dos estados que en el sistema ontológico son radicalmente
 
 Harmonía no es la ausencia de tensión: es la posición desde la cual la tensión que las dos dimensiones de la pasión producen entre sí ha sido integrada en la segunda mediación. El sujeto en Harmonía puede habitar el conflicto interno — el conflicto entre lo que quiere dominar (dimensión afrodítica) y lo que quiere afirmar (dimensión arética) — con suficiente φ₂ disponible para que ese conflicto produzca integración y no parálisis. Harmonía no es el estado del
 
-Entrevista Clínica Ontológica · ECO
 
 sujeto que no tiene conflicto: es el estado del sujeto que puede habitar el conflicto sin ser destruido por él. Esa distinción es fundamental: el mediador que entiende Harmonía como ausencia de conflicto va a confundirlo con D-2 sistemáticamente.
 
@@ -24,7 +22,6 @@ Ningún instrumento documental puede discriminar Harmonía de D-2. La misma firm
 
 Las cinco preguntas discriminantes H·D1 a H·D5 acceden cada una a una dimensión distinta de esa presencia interna. Ninguna por sí sola es suficiente: D-2 puede producir señales que parecen presencia en cualquier dimensión aislada. La discriminación requiere que las cinco dimensiones sean exploradas y que la pauta de señales sea coherente a través de las cinco. Un sujeto en Harmonía produce
 
-Entrevista Clínica Ontológica · ECO
 
 señal genuina en al menos tres de las cinco dimensiones. Un sujeto en D-2 produce señales semánticamente correctas en las cinco, pero sin la textura de presencia interna que diferencia la respuesta genuina de la respuesta apropiada.
 
@@ -42,7 +39,6 @@ El Módulo H va siempre en último lugar del Bloque I. No puede iniciarse antes 
 
 Si en la apertura narrativa o en los módulos anteriores ya aparecieron señales de D-2 — narrativa desde afuera, planitud tonal coherente con la anestesia ontológica, ausencia sostenida de preferencia
 
-Entrevista Clínica Ontológica · ECO
 
 genuina — el módulo H puede iniciarse con esa hipótesis ya activa y las cinco preguntas H·D sirven como verificación. No como confirmación: como verificación. D-2 puede producir señales que parecen presencia en dimensiones aisladas.
 
@@ -69,9 +65,8 @@ Variante — Mediador Educativo «¿Ha habido períodos en tu trabajo como docen
 
 Las cinco preguntas H·D son el núcleo del módulo. Cada una accede a una dimensión distinta de la presencia interna del sujeto. Cada una tiene su propia formulación, sus instrucciones de administración, sus criterios de lectura, y una tabla de discriminación específica que establece qué respuesta orienta hacia Harmonía y qué respuesta orienta hacia D-2 en esa dimensión particular. El mediador administra las cinco en orden. No puede saltarse ninguna. No puede
 
-### Entrevista Clínica Ontológica · ECO
 
-### reordenarlas. La coherencia entre las cinco es la señal más diagnóstica del módulo.
+reordenarlas. La coherencia entre las cinco es la señal más diagnóstica del módulo.
 
 Instrucción general para las cinco preguntas H·D: el mediador no interpreta entre preguntas. No le dice al sujeto lo que observa. No reformula a partir de lo que el sujeto produjo en la pregunta anterior. Las cinco preguntas H·D son preguntas independientes que acceden a dimensiones distintas del mismo estado. La interpretación ocurre al final, cuando el mediador tiene las cinco respuestas y puede leer la pauta de señales.
 
@@ -95,7 +90,6 @@ Instrucción general para las cinco preguntas H·D: el mediador no interpreta en
 >
 > Criterio EP: H-3(H) si la presencia en la narración es sostenida. EP-1 si es observable directamente. EP-2 si el sujeto la describe como característica de cómo vivió el período.
 >
-> ### Entrevista Clínica Ontológica · ECO
 
 > ### H·D2  ·  Preferencia genuina en el momento presente
 >
@@ -121,7 +115,6 @@ Instrucción general para las cinco preguntas H·D: el mediador no interpreta en
 >
 > «Quiero decirte algo que quizás no coincide con lo que me has dicho.» [Introducir honestamente una perspectiva diferente de la que el sujeto ha sostenido durante la sesión.] «¿Qué pasa en ti cuando escuchas eso?»
 >
-> ### Entrevista Clínica Ontológica · ECO
 >
 > [El mediador introduce genuinamente una perspectiva diferente — no fabricada para provocar, sino una perspectiva propia del mediador que difiere de lo que el sujeto ha dicho. Lo que el mediador observa: si el sujeto puede habitar la tensión que la diferencia produce. No si está de acuerdo o en desacuerdo: si puede estar con la tensión sin resolverla inmediatamente. El mediador también observa si hay algo en el sujeto que trabaja con lo que llegó — si la diferencia produce proceso.]
 >
@@ -153,7 +146,6 @@ Instrucción general para las cinco preguntas H·D: el mediador no interpreta en
 >
 > interna
 >
-> ### Entrevista Clínica Ontológica · ECO
 >
 > Puede identificar algo que costó o que se procesó, aunque sea pequeño y sin elaboración: «hubo un período en que las cosas no eran así y algo cambió», «sí, costó llegar a esto», «tuve que dejar ir algo para poder estar de esta manera». El proceso no tiene que ser completo ni consciente: tiene que ser identificable. El sujeto puede tener acceso a al menos un fragmento de lo que ocurrió para llegar donde está.
 >
@@ -179,7 +171,6 @@ Instrucción general para las cinco preguntas H·D: el mediador no interpreta en
 >
 > Puede describir los eventos difíciles con precisión factual, pero sin temperatura interna. Las dificultades son eventos que ocurrieron, no experiencias que costaron desde adentro. Al preguntar por lo que sintió, el sujeto describe lo que pensó o lo que hizo — no lo que sintió. O
 >
-> ### Entrevista Clínica Ontológica · ECO
 >
 > objetivamente difícil, sino algo que el sujeto sintió como difícil desde adentro. Al narrarlo, hay algo de esa temperatura interna presente.
 >
@@ -207,7 +198,6 @@ Instrucción general para las cinco preguntas H·D: el mediador no interpreta en
 >
 > Harmonía vs D-2 avanzado: D-2 produce respuestas fluidas y articuladas que no tienen textura de construcción — el sujeto sabe lo que va a decir. La perplejidad
 >
-> ### Entrevista Clínica Ontológica · ECO
 >
 > o descubre algo mientras lo narra. La narrativa tiene textura de construcción en tiempo real.
 >
@@ -284,7 +274,6 @@ SALIDA — H-3(H) · H-3(D2) · H-2 · imposibilidad para evaluar + Nivel EP + P
 
 ### VII.  Preguntas discriminantes adicionales
 
-Entrevista Clínica Ontológica · ECO
 
 Las cinco preguntas H·D son las preguntas discriminantes centrales del módulo. Esta sección provee preguntas adicionales para los casos en que la pauta de señales es ambigua — dos o tres H·D con señal positiva y dos o tres sin señal — y el mediador necesita preguntas adicionales para desempatar antes de producir H-2.
 
@@ -296,7 +285,6 @@ Discriminación adicional H·DC — La posibilidad de sentir diferente «¿Puede
 
 ### La pauta de señales H·D — criterio de interpretación global
 
-### Entrevista Clínica Ontológica · ECO
 
 El mediador no interpreta cada H·D de manera aislada. Lee la pauta: si las señales positivas y negativas se distribuyen de manera aleatoria (positiva en D1, negativa en D2, positiva en D3, negativa en D4, positiva en D5), la pauta no permite concluir ni Harmonía ni D-2 — es H-2 aunque haya tres positivas. Si las señales forman un patrón coherente (todas positivas o todas negativas, o las positivas están en las preguntas más difíciles de fabricar), la pauta permite concluir. Armonía genuina produce señales en H·D2 y H·D3 — las más difíciles de producir desde D-2.
 
@@ -305,7 +293,6 @@ El mediador no interpreta cada H·D de manera aislada. Lee la pauta: si las señ
 Nivel EP mín. Ejemplo de respuesta
 
 <!-- TABLA: codificación | columnas: código, nombre, ancla conductual, nivel EP, ejemplo -->
-
 
 
 «Cuando me preguntas qué quiero ahora mismo, me sorprende lo que respondo: quiero seguir en esta conversación, aunque no sé a dónde va. No era lo que esperaba que dijera.» [El sujeto muestra preferencia genuina con textura de descubrimiento.]
@@ -334,7 +321,6 @@ EP-4 a EP-5.
 
 Nota de incertidumbre alta obligatoria.
 
-### Entrevista Clínica Ontológica · ECO
 
 variación pero no puede ubicarse con consistencia en ninguno de los dos estados.]
 
@@ -366,7 +352,6 @@ obligatorio.
 
 ### La condición específica de H-3(H) — la más estricta del Bloque I
 
-Entrevista Clínica Ontológica · ECO
 
 H-3(H) requiere: al menos tres de las cinco preguntas H·D produjeron señal positiva para Harmonía, las señales forman patrón coherente (no distribución aleatoria), al menos una señal es EP-1 o EP-2 (sin EP-1 o EP-2 el código máximo es H-2 aunque haya cinco señales positivas), y la discriminación H·D2 (preferencia en el momento presente) produjo señal positiva — porque es la pregunta más difícil de producir sin presencia interna genuina. La condición de H·D2 es cuasi-obligatoria para H-3(H): si H·D2 no produce señal positiva, el mediador debe administrar la pregunta adicional H·DC antes de producir H-3(H).
 
@@ -398,7 +383,6 @@ Los acuerdos tienen historia de deliberación visible: se puede rastrear cómo s
 
 Los acuerdos no tienen historia de deliberación: simplemente existen. Nadie recuerda cómo se llegó a ellos o describe el proceso como
 
-### Entrevista Clínica Ontológica · ECO
 
 La estabilidad tiene origen en proceso.
 
@@ -463,18 +447,18 @@ Cuándo el caso supera ECO
 >
 > La señal de alerta más importante: el sujeto que ante H·D5 describe que en el período más difícil de su historia no experimentó prácticamente nada — que eventos que deberían haber producido señal intensa simplemente ocurrieron sin que el sujeto los registrara como difíciles — puede estar describiendo D-2 en una profundidad que requiere evaluación clínica antes de continuar. El mediador registra esa señal y evalúa si la derivación clínica es necesaria antes de completar el Bloque II.
 >
-> Notas al Módulo B·I·H
->
-> 1 La distinción entre Harmonía y D-2 que este módulo realiza tiene su fundamento más profundo en la diferencia entre integración (el ego genuino que ha procesado las tensiones entre las dos dimensiones de la pasión desde φ₂ con distancia) y anestesia (el ego que ya no puede registrar las tensiones porque el instrumento de registro se apagó). En términos del sistema: en Harmonía, I(t) —la integral de colapsos asumidos— creció porque φ₂ operó sobre los colapsos que las tensiones produjeron. En D-2, I(t) no creció en esa dimensión porque φ₂ no tuvo acceso a los colapsos que debería haber integrado. La firma exterior es la misma; la historia de I(t) es completamente diferente.
->
-> 2 La condición de H·D2 como cuasi-obligatoria para H-3(H) que se establece en §8 tiene su justificación en la fenomenología de D-2: la preferencia genuina en el momento presente es la más difícil de fabricar desde D-2 porque requiere que el ego genuino esté operando en tiempo real, aquí, en la sesión. D-2 puede producir narrativas históricas coherentes, puede narrar procesos que ocurrieron antes, puede describir emociones que recuerda haber tenido. Lo que D-2 no puede producir con facilidad es una preferencia genuina en el momento
->
->
-> presente de la sesión porque esa preferencia requiere que el ego genuino esté produciendo algo ahora. Eso es lo que H·D2 busca.
->
-> 3 El módulo H tiene la duración mínima más alta de todos los módulos del Bloque I (20 minutos) y es también el módulo que con mayor frecuencia se abrevia inadecuadamente. La causa es una presión institucional del instrumento mismo: los cinco módulos anteriores consumen tiempo, y el módulo H viene al final cuando el tiempo de la sesión está más comprometido. El mediador que planifica la sesión debe reservar el tiempo del módulo H antes de reservar el tiempo de los demás módulos — porque el módulo H es el que no puede abreviarse y los demás sí tienen reglas SKIP que permiten reducir su duración cuando es necesario.
->
-> 4 La aplicación del módulo H al ego colectivo tiene una implicación que el texto principal no desarrolla completamente: la discriminación Harmonía colectiva / D-2 colectivo requiere acceso al ego soberano real, no solo a los miembros del colectivo. Los miembros pueden describir el estado del colectivo como estable y sin conflicto — y esa descripción es verdadera desde su perspectiva. Pero si el ego soberano está en D-2, la estabilidad que los miembros describen no es Harmonía colectiva: es la estabilidad que produce la ausencia de señal del ego que porta la segunda mediación colectiva. La discriminación requiere acceder a ese ego soberano y administrar las preguntas H·D con él como sujeto — no con el colectivo como abstracción.
->
+---
 
+## Notas al Módulo B·I·H
+
+1 La distinción entre Harmonía y D-2 que este módulo realiza tiene su fundamento más profundo en la diferencia entre integración (el ego genuino que ha procesado las tensiones entre las dos dimensiones de la pasión desde φ₂ con distancia) y anestesia (el ego que ya no puede registrar las tensiones porque el instrumento de registro se apagó). En términos del sistema: en Harmonía, I(t) —la integral de colapsos asumidos— creció porque φ₂ operó sobre los colapsos que las tensiones produjeron. En D-2, I(t) no creció en esa dimensión porque φ₂ no tuvo acceso a los colapsos que debería haber integrado. La firma exterior es la misma; la historia de I(t) es completamente diferente.
+
+2 La condición de H·D2 como cuasi-obligatoria para H-3(H) que se establece en §8 tiene su justificación en la fenomenología de D-2: la preferencia genuina en el momento presente es la más difícil de fabricar desde D-2 porque requiere que el ego genuino esté operando en tiempo real, aquí, en la sesión. D-2 puede producir narrativas históricas coherentes, puede narrar procesos que ocurrieron antes, puede describir emociones que recuerda haber tenido. Lo que D-2 no puede producir con facilidad es una preferencia genuina en el momento
+
+
+presente de la sesión porque esa preferencia requiere que el ego genuino esté produciendo algo ahora. Eso es lo que H·D2 busca.
+
+3 El módulo H tiene la duración mínima más alta de todos los módulos del Bloque I (20 minutos) y es también el módulo que con mayor frecuencia se abrevia inadecuadamente. La causa es una presión institucional del instrumento mismo: los cinco módulos anteriores consumen tiempo, y el módulo H viene al final cuando el tiempo de la sesión está más comprometido. El mediador que planifica la sesión debe reservar el tiempo del módulo H antes de reservar el tiempo de los demás módulos — porque el módulo H es el que no puede abreviarse y los demás sí tienen reglas SKIP que permiten reducir su duración cuando es necesario.
+
+4 La aplicación del módulo H al ego colectivo tiene una implicación que el texto principal no desarrolla completamente: la discriminación Harmonía colectiva / D-2 colectivo requiere acceso al ego soberano real, no solo a los miembros del colectivo. Los miembros pueden describir el estado del colectivo como estable y sin conflicto — y esa descripción es verdadera desde su perspectiva. Pero si el ego soberano está en D-2, la estabilidad que los miembros describen no es Harmonía colectiva: es la estabilidad que produce la ausencia de señal del ego que porta la segunda mediación colectiva. La discriminación requiere acceder a ese ego soberano y administrar las preguntas H·D con él como sujeto — no con el colectivo como abstracción.
 
