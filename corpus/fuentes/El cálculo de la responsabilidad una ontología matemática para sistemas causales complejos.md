@@ -196,7 +196,9 @@ Este capítulo presenta la aplicación del cálculo de la responsabilidad al der
 
 La secuencia es: primero se construye el grafo causal del caso y se calcula R*, que distribuye la responsabilidad causal objetiva entre todos los actores. Luego se estima S para cada nodo, que determina cuánto de esa responsabilidad era estructural y cuánto era idiosincrática. Luego se estima α, que mide la asunción efectiva. Y de esa combinación emerge Δ: la brecha entre lo que cada nodo causó y lo que ha reconocido.
 
-> **Nota de interpretación ontológica:** El dolo es la primera mediación φ₁ actuando con conocimiento pleno del resultado probable. La culpa es φ₁ actuando con un déficit de información o de deliberación que el sujeto podría haber subsanado. En ambos casos hay acto, hay posición causal y hay responsabilidad (R* > 0). La diferencia está en cómo se produjo la determinación de la voluntad, no en si hubo determinación.
+::: {.recuadro .nota-violeta}
+**Nota de interpretación ontológica:** El dolo es la primera mediación φ₁ actuando con conocimiento pleno del resultado probable. La culpa es φ₁ actuando con un déficit de información o de deliberación que el sujeto podría haber subsanado. En ambos casos hay acto, hay posición causal y hay responsabilidad (R* > 0). La diferencia está en cómo se produjo la determinación de la voluntad, no en si hubo determinación.
+:::
 
 
 ### §2.  Página puente — Traducción al lenguaje jurídico
@@ -502,7 +504,9 @@ responsabilidad , no menor.
 
 Plena deliberación.
 
-> **Nota ontológica sobre el ego colectivo en derecho:** Las instituciones no tienen voluntad propia: tienen ego colectivo prestado. Sus "hijos" son los de quienes ejercen el poder de decisión en su nombre. Cuando se analiza el hijo dominante de una institución, se analiza en realidad el perfil de sus directivos en el momento de las decisiones relevantes.
+::: {.recuadro .nota-violeta}
+**Nota ontológica sobre el ego colectivo en derecho:** Las instituciones no tienen voluntad propia: tienen ego colectivo prestado. Sus "hijos" son los de quienes ejercen el poder de decisión en su nombre. Cuando se analiza el hijo dominante de una institución, se analiza en realidad el perfil de sus directivos en el momento de las decisiones relevantes.
+:::
 
 
 ### §4.  Casos resueltos
@@ -682,7 +686,9 @@ Las reparaciones pagadas por Alemania hasta 2024 ascienden a aproximadamente $90
 
 Cuando D_monetary_equiv supera en cuatro órdenes de magnitud la capacidad económica del responsable, el sistema no colapsa: identifica con precisión el límite donde la justicia reparadora cede a la justicia simbólica, memorial y estructural. El valor del α alemán no está en los 90,000 millones pagados sino en la transformación institucional, educativa y cultural que esos pagos acompañaron. Eso es lo que el cálculo no puede capturar, y es honesto en decirlo.
 
-> **Nota sobre el D_vital_generacional y el infinito calculable:** Técnicamente, D_vital_generacional crece sin límite superior si se extienden las generaciones al infinito. En la práctica se acota al número de generaciones transcurridas desde el daño hasta el momento del análisis. La razón no es matemática sino ontológica: las generaciones futuras que no han nacido aún no tienen tiempo de vida que haya sido destruido; solo las que habrían existido ya y no existen por el daño son calculables con certeza.
+::: {.recuadro .nota-violeta}
+**Nota sobre el D_vital_generacional y el infinito calculable:** Técnicamente, D_vital_generacional crece sin límite superior si se extienden las generaciones al infinito. En la práctica se acota al número de generaciones transcurridas desde el daño hasta el momento del análisis. La razón no es matemática sino ontológica: las generaciones futuras que no han nacido aún no tienen tiempo de vida que haya sido destruido; solo las que habrían existido ya y no existen por el daño son calculables con certeza.
+:::
 
 
 Caso B — Institución de banca comercial
@@ -995,7 +1001,7 @@ Entidades instrumentales
 ~5-8% Total (es el vehículo)
 
 
-* El testaferro tiene α = 100% forzado porque firma los documentos y es el único identificable. Pero su R* real es mínimo: era altamente sustituible (S alto) y no diseñó el esquema.
+\* El testaferro tiene α = 100% forzado porque firma los documentos y es el único identificable. Pero su R* real es mínimo: era altamente sustituible (S alto) y no diseñó el esquema.
 
 Esta tabla es la descripción matemática de por qué los sistemas de PLD convencionales capturan a los testaferros y raramente al arquitecto: el criterio basado en la firma visible coincide exactamente con los nodos de menor R* y mayor visibilidad documental. Es la misma inversión causal del Capítulo 1, pero aquí es el objetivo explícito del diseño criminal.
 
@@ -1148,7 +1154,9 @@ controlador real
 
 Si un nodo instrumental tiene R* alto y S bajo (era el vehículo específico que el esquema requería, no cualquier empresa genérica), la inferencia es que fue diseñado para ese esquema específico. Eso aumenta el peso causal del nodo que lo diseñó y controló.
 
-> **Nota para el oficial de compliance:** En la práctica, R* se estima con las herramientas de análisis de redes que los departamentos de compliance ya usan: mapas de beneficiario final, análisis de corresponsalía bancaria, reportes de inteligencia financiera. Lo que el cálculo aporta es la formalización de ese análisis: convertirlo de una evaluación cualitativa ("esta estructura parece sospechosa") a una medida cuantitativa ("este nodo tiene R* = 0.62 y ningún α documentado, lo que produce Δ = +0.62, que es una señal de beneficiario real no identificado").
+::: {.recuadro .nota-violeta}
+**Nota para el oficial de compliance:** En la práctica, R* se estima con las herramientas de análisis de redes que los departamentos de compliance ya usan: mapas de beneficiario final, análisis de corresponsalía bancaria, reportes de inteligencia financiera. Lo que el cálculo aporta es la formalización de ese análisis: convertirlo de una evaluación cualitativa ("esta estructura parece sospechosa") a una medida cuantitativa ("este nodo tiene R* = 0.62 y ningún α documentado, lo que produce Δ = +0.62, que es una señal de beneficiario real no identificado").
+:::
 
 #### 3.4 El índice de sustituibilidad S en operaciones de lavado
 
@@ -1340,7 +1348,9 @@ El nodo evaluó deliberadament e la operación con plena información y eligió 
 
 Oficial de compliance que actuó correctamente . Banco que rechazó al cliente.
 
-> **Nota sobre la prueba del hijo en PLD:** Acreditar el hijo dominante de un intermediario requiere evidencia de su estado de conocimiento en el momento de los hechos: comunicaciones internas, historial del cliente, alertas recibidas y no procesadas, patrones de conducta anterior con el mismo tipo de operación. El hijo no se presume: se acredita con las mismas fuentes documentales que el grafo.
+::: {.recuadro .nota-violeta}
+**Nota sobre la prueba del hijo en PLD:** Acreditar el hijo dominante de un intermediario requiere evidencia de su estado de conocimiento en el momento de los hechos: comunicaciones internas, historial del cliente, alertas recibidas y no procesadas, patrones de conducta anterior con el mismo tipo de operación. El hijo no se presume: se acredita con las mismas fuentes documentales que el grafo.
+:::
 
 
 ### §4.  Casos resueltos
@@ -2056,7 +2066,9 @@ Alpha diferido (α_diferido):  El coeficiente de asunción adoptado voluntariame
 
 Esta distinción es importante porque resuelve la objeción más frecuente al debate de reparaciones históricas: "yo no hice nada, por qué tengo que pagar". Nadie está afirmando que el ciudadano belga contemporáneo causó el daño del Congo. Se está afirmando que el Estado belga contemporáneo heredó un patrimonio que fue en parte construido con el capital extraído del Congo, y que esa herencia de beneficio crea una posición diferida en el grafo que justifica la asunción de α_diferido.
 
-> **Nota ontológica sobre el ego colectivo y la continuidad institucional:** Según el libro Afrodita Areia: Caelus, Vol. V (de esta colección), el Estado es un ego colectivo con voluntad prestada. Su identidad no depende de quiénes sean sus funcionarios actuales sino de la continuidad de sus instituciones. El Estado belga de 2026 es el mismo ego colectivo que el Estado belga de 1908, no porque compartan los mismos funcionarios, sino porque comparten las mismas instituciones, el mismo ordenamiento jurídico y —lo más relevante— el mismo patrimonio acumulado. La continuidad del ego colectivo es la base ontológica para la transferencia de α.
+::: {.recuadro .nota-violeta}
+**Nota ontológica sobre el ego colectivo y la continuidad institucional:** Según el libro Afrodita Areia: Caelus, Vol. V (de esta colección), el Estado es un ego colectivo con voluntad prestada. Su identidad no depende de quiénes sean sus funcionarios actuales sino de la continuidad de sus instituciones. El Estado belga de 2026 es el mismo ego colectivo que el Estado belga de 1908, no porque compartan los mismos funcionarios, sino porque comparten las mismas instituciones, el mismo ordenamiento jurídico y —lo más relevante— el mismo patrimonio acumulado. La continuidad del ego colectivo es la base ontológica para la transferencia de α.
+:::
 
 
 deudas históricas
@@ -2968,7 +2980,9 @@ Un J nacional de 0.15 indica que en el 85% de los casos de corrupción, los nodo
 
 Calcular J promedio para todos los casos de corrupción de un país en un período.
 
-> **Nota sobre el cálculo de J cuando α incluye condenas penales:** Una condena penal del ejecutor tiene α_ejecutor = 1.0 (forzado). Si el ejecutor tiene R* bajo y S alto (es un chivo expiatorio), su |Δ| es alto y J baja, aunque el sistema "haya actuado". Esto captura algo importante: un sistema que condena al ejecutor sin tocar al diseñador puede tener J más bajo que un sistema que no condena a nadie, pero al menos no produce la asimetría del chivo expiatorio. La justicia procesal (hubo juicio) no equivale a la justicia estructural (la asunción fue proporcional a la causalidad).
+::: {.recuadro .nota-violeta}
+**Nota sobre el cálculo de J cuando α incluye condenas penales:** Una condena penal del ejecutor tiene α_ejecutor = 1.0 (forzado). Si el ejecutor tiene R* bajo y S alto (es un chivo expiatorio), su |Δ| es alto y J baja, aunque el sistema "haya actuado". Esto captura algo importante: un sistema que condena al ejecutor sin tocar al diseñador puede tener J más bajo que un sistema que no condena a nadie, pero al menos no produce la asimetría del chivo expiatorio. La justicia procesal (hubo juicio) no equivale a la justicia estructural (la asunción fue proporcional a la causalidad).
+:::
 
 
 #### 2.2 Coeficiente de Impunidad del Diseñador (I_d)
@@ -3171,7 +3185,9 @@ En el dominio clínico, el grafo es interior. Los nodos son factores de la histo
 
 La consecuencia práctica es fundamental: en el dominio clínico, α no es una acción externa (reportar, reparar, reconocer). Es φ₂: la segunda mediación, el proceso de asumir el acto como propio e integrarlo en la historia. El trabajo terapéutico es exactamente el trabajo de α: construir la capacidad de asumir lo que ocurrió, no para cargarlo como culpa, sino para integrarlo como parte de la propia historia y dejar de ser determinado por ello.
 
-> **Nota ontológica fundamental:** En clínica, nadie es culpable de su síntoma. El grafo causal no produce un vector de culpa sino un mapa de peso: qué factores de la historia tienen mayor influencia causal en lo que ocurre hoy. El factor con R* más alto no es el culpable: es el que más necesita ser trabajado. Esta distinción es la que permite usar el sistema sin reproducir la dinámica de culpabilización que muchos pacientes ya cargan.
+::: {.recuadro .nota-verde}
+**Nota ontológica fundamental:** En clínica, nadie es culpable de su síntoma. El grafo causal no produce un vector de culpa sino un mapa de peso: qué factores de la historia tienen mayor influencia causal en lo que ocurre hoy. El factor con R* más alto no es el culpable: es el que más necesita ser trabajado. Esta distinción es la que permite usar el sistema sin reproducir la dinámica de culpabilización que muchos pacientes ya cargan.
+:::
 
 
 ### §2.  Página puente — Traducción al lenguaje clínico
@@ -3311,7 +3327,9 @@ está distribuido entre muchos nodos (distribución plana), el síntoma es sist�
 - Como medida de progreso: calcular R* al inicio de la terapia, a los seis meses y al año permite ver si el tratamiento está actuando sobre los nodos de mayor peso o solo sobre los más accesibles.
 
 
-> **Nota clínica:** El error clínico que R* ayuda a evitar: intervenir en el nodo más accesible en lugar del nodo de mayor peso. El paciente frecuentemente trae a sesión el nodo que le es más fácil narrar, no el nodo que tiene mayor peso causal en su síntoma. Un grafo causal bien construido permite distinguir entre la narrativa del paciente (qué dice que es el problema) y la estructura causal (qué tiene mayor peso en el síntoma).
+::: {.recuadro .nota-verde}
+**Nota clínica:** El error clínico que R* ayuda a evitar: intervenir en el nodo más accesible en lugar del nodo de mayor peso. El paciente frecuentemente trae a sesión el nodo que le es más fácil narrar, no el nodo que tiene mayor peso causal en su síntoma. Un grafo causal bien construido permite distinguir entre la narrativa del paciente (qué dice que es el problema) y la estructura causal (qué tiene mayor peso en el síntoma).
+:::
 
 #### 3.3 S en clínica: sustituibilidad del factor y genericidad del síntoma
 
@@ -3503,7 +3521,9 @@ Dilema de Aquiles:  El atrapamiento entre dos posibilidades igualmente imposible
 
 El dilema de Aquiles no se resuelve eligiendo una de las dos opciones: se resuelve cuando el sujeto puede transformar la forma en que vive el coste de cada opción. La terapia no da la respuesta: amplía el espacio desde el que el sujeto puede relacionarse con las dos opciones sin que la parálisis sea la única salida. Formalmente: el dilema existe porque θ_E (umbral de Eros hacia lo nuevo) y θ_F (umbral de Fobos ante la pérdida) están en tensión irresolvible. La intervención trabaja esos umbrales, no la elección.
 
-> **Nota clínica:** El error clínico más frecuente ante el dilema de Aquiles es intentar resolver el dilema ayudando al sujeto a "tomar una decisión". Eso reproduce el dilema en lugar de transformarlo. La intervención eficaz trabaja la relación del sujeto con la pérdida (qué hace que el costo de cada opción sea insoportable) y con la certeza (por qué el sujeto necesita saber de antemano el resultado antes de poder actuar). Solo cuando esa relación cambia, el dilema deja de ser un atrapamiento.
+::: {.recuadro .nota-verde}
+**Nota clínica:** El error clínico más frecuente ante el dilema de Aquiles es intentar resolver el dilema ayudando al sujeto a "tomar una decisión". Eso reproduce el dilema en lugar de transformarlo. La intervención eficaz trabaja la relación del sujeto con la pérdida (qué hace que el costo de cada opción sea insoportable) y con la certeza (por qué el sujeto necesita saber de antemano el resultado antes de poder actuar). Solo cuando esa relación cambia, el dilema deja de ser un atrapamiento.
+:::
 
 #### 3.8 D_total clínico: el daño biográfico y la ganancia terapéutica
 
@@ -6862,7 +6882,7 @@ El valor de la predicción contrafáctica:  No se trata de saber si la crisis ha
 import numpy as np import math  def predictor_quiebra(ICRS_total, lam=0.018,                        horizontes_meses=(6,12,18,24)):     """ P(quiebra, T) = 1 - exp(-lambda * ICRS_total * T)     lam: tasa de materialización por mes (sect. manufacturero ~0.018,          con proveedor único y cliente concentrado ~0.028)     """     return {T: 1 -math.exp(-lam * ICRS_total * T)             for T in horizontes_meses}  def roi_intervencion(D_total, delta_P_quiebra, costo, T_meses=18, r_anual=0.12):     """     ROI de una intervención de mitigación.     D_total:          daño total si ocurre la quiebra delta_P_quiebra:  reducción en P(quiebra) en T_meses     costo: costo de la intervención     """     valor_esperado_daño_evitado = D_total * delta_P_quiebra     # descuento al período T     factor = 1 / (1 + r_anual * T_meses / 12)     vp_daño_evitado = valor_esperado_daño_evitado * factor     roi = (vp_daño_evitado -costo) / costo     return {'VP_daño_evitado': vp_daño_evitado, 'costo': costo,             'ROI': roi,             'conviene': roi > 0}  def contraFactual_rescate(ICRS_sistema, ICRS_nodo_rescatado, corr_nodos=0.45, lam=0.025,                            horizontes=(3,6,12)): """     Efecto de rescatar un nodo sobre el ICRS sistémico     y sobre la probabilidad de colapso.     """     delta_ICRS = -ICRS_nodo_rescatado * (1 - corr_nodos)     ICRS_post  = max(0, ICRS_sistema + delta_ICRS) P_antes = {T: 1 - math.exp(-lam*ICRS_sistema*T) for T in horizontes} P_desp  = {T: 1 - math.exp(-lam*ICRS_post*T)    for T in horizontes} return {'ICRS_antes': ICRS_sistema, 'ICRS_despues': ICRS_post, 'delta_ICRS': delta_ICRS,             'P_colapso_antes': P_antes, 'P_colapso_despues': P_desp}  # ── Empresa mediana ── D_empresa = 180_000_000 P_antes = predictor_quiebra(0.82, lam=0.028) P_desp = predictor_quiebra(0.52, lam=0.028) print("=== Empresa mediana — Probabilidad de quiebra ===") for T in (6,12,18,24):     dif = P_desp[T]
 
 
-- P_antes[T]     print(f"  {T:2d} meses: ANTES={P_antes[T]:.1%} DESPUÉS={P_desp[T]:.1%}  Δ={dif:+.1%}")  # ── ROI de intervenciones ── print("\n=== ROI de intervenciones ===") intervs = [     ("Certificar proveedor alt.",  D_empresa, 0.048, 800_000), ("Diversificar ingresos",      D_empresa, 0.032, 1_500_000), ("Renegociar covenant",        D_empresa, 0.012, 300_000),     ("Reserva liquidez",           D_empresa, 0.004, 5_400_000), ] for nombre, D, dp, costo in intervs:     r = roi_intervencion(D, dp, costo)     print(f" {nombre:30s}  ROI={r['ROI']:+.0%}  {'✓' if r['conviene'] else '✗'}")  # ── Contrafáctico Lehman ── print("\n=== Contrafáctico: rescate de Lehman ===") cf = contraFactual_rescate(0.78, 0.12, corr_nodos=0.45, lam=0.025) print(f"  ICRS sistema antes:    {cf['ICRS_antes']:.3f}") print(f"  ICRS sistema después:  {cf['ICRS_despues']:.3f}") print(f" ΔP(colapso, 6 meses):  {cf['P_colapso_despues'][6]-cf['P_colapso_antes'][6]:+.1%}")
+\- P_antes[T]     print(f"  {T:2d} meses: ANTES={P_antes[T]:.1%} DESPUÉS={P_desp[T]:.1%}  Δ={dif:+.1%}")  # ── ROI de intervenciones ── print("\n=== ROI de intervenciones ===") intervs = [     ("Certificar proveedor alt.",  D_empresa, 0.048, 800_000), ("Diversificar ingresos",      D_empresa, 0.032, 1_500_000), ("Renegociar covenant",        D_empresa, 0.012, 300_000),     ("Reserva liquidez",           D_empresa, 0.004, 5_400_000), ] for nombre, D, dp, costo in intervs:     r = roi_intervencion(D, dp, costo)     print(f" {nombre:30s}  ROI={r['ROI']:+.0%}  {'✓' if r['conviene'] else '✗'}")  # ── Contrafáctico Lehman ── print("\n=== Contrafáctico: rescate de Lehman ===") cf = contraFactual_rescate(0.78, 0.12, corr_nodos=0.45, lam=0.025) print(f"  ICRS sistema antes:    {cf['ICRS_antes']:.3f}") print(f"  ICRS sistema después:  {cf['ICRS_despues']:.3f}") print(f" ΔP(colapso, 6 meses):  {cf['P_colapso_despues'][6]-cf['P_colapso_antes'][6]:+.1%}")
 
 
 §6.  Profundización formal — Esta sección puede saltarse sin perder el argumento del capítulo
@@ -8336,7 +8356,7 @@ La función f puede estimarse con un modelo logístico calibrado con datos hist�
 
 P (colapso, N) = σ (β₀ + β₁×S_consejo + β₂×(1−IIC)
 
-+ β₃×P_Anteros + β₄×R*_cultura_neta)
+\+ β₃×P_Anteros + β₄×R*_cultura_neta)
 
 Con coeficientes estimados de la literatura de gobernanza (Gompers et al. 2003, Bebchuk et al. 2009, actualizados con datos de 2015-2024):
 
@@ -10428,7 +10448,7 @@ El daño total observado es la función del conjunto completo.
 
 = (1/6) × [(v ({1}) − v (∅)) + (v ({1,2}) − v ({2})) + (v ({1,3}) − v ({3})) + (v ({1,2,3}) − v ({2,3})) + (v ({1,2,3}) − v ({2,3})) ← dos órdenes distintos dan el mismo resultado
 
-+ (v ({1,3,2}) − v ({3,2}))]
+\+ (v ({1,3,2}) − v ({3,2}))]
 
 #### φ₁ = (1/6) × [(0.22−0) + (0.70−0.40) + (0.42−0.15) +
 
@@ -13212,7 +13232,9 @@ R* · S · Δ · B_total · Hijos (dos momentos) · D_vital · Fraude
 
 annona · IIC
 
-> **Nota metodológica:** Este análisis no constituye opinión jurídica formal ni pretende anticipar el resultado del proceso activo. Es una demostración metodológica de cómo el sistema de imputación causal aporta elementos de análisis a un expediente real. Los datos identificadores han sido anonimizados. El análisis usa exclusivamente hechos documentados en el expediente o inferibles razonablemente de él.
+::: {.recuadro .nota-violeta}
+**Nota metodológica:** Este análisis no constituye opinión jurídica formal ni pretende anticipar el resultado del proceso activo. Es una demostración metodológica de cómo el sistema de imputación causal aporta elementos de análisis a un expediente real. Los datos identificadores han sido anonimizados. El análisis usa exclusivamente hechos documentados en el expediente o inferibles razonablemente de él.
+:::
 
 ### §1.  El contexto y los hechos imputados
 
@@ -14011,7 +14033,9 @@ A lo largo del libro, el sistema de imputación causal produce resultados que so
 
 Precisamente por eso tiene valor para los accionistas: porque cuando una institución imputa la responsabilidad al nodo equivocado, son los accionistas quienes pagan el costo de ese error. No una vez. Dos veces.
 
-> **Tensión real:** La tensión que este apéndice nombra sin resolverla artificialmente: hay casos en el libro donde el análisis causal es genuinamente adverso para la empresa, y ese análisis es correcto. El argumento no es que el sistema protege a las empresas. El argumento es que las empresas que confunden la narrativa de culpabilidad con el análisis causal real actúan contra los intereses de sus propios accionistas, y el sistema permite verlo con precisión antes de que el daño ocurra por segunda vez.
+::: {.recuadro .tension-roja}
+**Tensión real:** La tensión que este apéndice nombra sin resolverla artificialmente: hay casos en el libro donde el análisis causal es genuinamente adverso para la empresa, y ese análisis es correcto. El argumento no es que el sistema protege a las empresas. El argumento es que las empresas que confunden la narrativa de culpabilidad con el análisis causal real actúan contra los intereses de sus propios accionistas, y el sistema permite verlo con precisión antes de que el daño ocurra por segunda vez.
+:::
 
 
 #### Argumento 1 — El costo del chivo expiatorio para el accionista
@@ -14189,7 +14213,9 @@ empleado. El patrón temporal es observable en el expediente.
 
 Ninguno de esos tres elementos requiere acceso a información confidencial. Todos son observables por cualquier tercero que lea el expediente con la metodología del análisis causal. La narrativa institucional puede suprimir la cobertura inmediata; no puede eliminar el patrón de los archivos.
 
-> **Tensión real:** La tensión aquí es real: reconocer que el nodo de diseño tiene el mayor R* en el evento tiene costos de corto plazo (regulatorios, mediáticos, de gobierno corporativo). Pero el costo de no reconocerlo es la acumulación del patrón en el registro público, que erosiona el IIC de manera observable y creciente. La pregunta no es si la reputación se daña, sino en qué horizonte temporal y con qué profundidad.
+::: {.recuadro .tension-roja}
+**Tensión real:** La tensión aquí es real: reconocer que el nodo de diseño tiene el mayor R* en el evento tiene costos de corto plazo (regulatorios, mediáticos, de gobierno corporativo). Pero el costo de no reconocerlo es la acumulación del patrón en el registro público, que erosiona el IIC de manera observable y creciente. La pregunta no es si la reputación se daña, sino en qué horizonte temporal y con qué profundidad.
+:::
 
 #### 2.3 El reconocimiento honesto como estrategia de protección reputacional
 
@@ -14361,9 +14387,13 @@ Estas tres preguntas no son nuevas para los directores de riesgo: ya las hacen i
 
 Eso transforma la gestión del evento de un problema de percepción —qué narrativa construir— en un problema de ingeniería: qué nodo reformar, con qué costo, con qué retorno esperado. Los accionistas son los principales beneficiarios de esa transformación.
 
-> **Tensión real:** La tensión que este apéndice no resuelve: en el corto plazo, la gestión de la narrativa produce resultados visibles y la reforma del nodo de diseño produce costos visibles. El horizonte temporal del director de riesgos que quiere conservar su posición y el horizonte temporal del accionista de largo plazo no siempre coinciden. El sistema identifica el problema con precisión; la alineación de incentivos entre gestores y accionistas es un problema de gobierno corporativo separado, aunque relacionado.
+::: {.recuadro .tension-roja}
+**Tensión real:** La tensión que este apéndice no resuelve: en el corto plazo, la gestión de la narrativa produce resultados visibles y la reforma del nodo de diseño produce costos visibles. El horizonte temporal del director de riesgos que quiere conservar su posición y el horizonte temporal del accionista de largo plazo no siempre coinciden. El sistema identifica el problema con precisión; la alineación de incentivos entre gestores y accionistas es un problema de gobierno corporativo separado, aunque relacionado.
+:::
 
-Lo que el libro no promete:  Este apéndice no sugiere que el análisis causal elimina los conflictos de interés dentro de las instituciones ni que la racionalidad económica de largo plazo domina automáticamente sobre los incentivos de corto plazo de los gestores. Sugiere que el sistema produce la información necesaria para que el consejo de administración, los inversores activos y los reguladores puedan hacer las preguntas correctas con los instrumentos correctos. Lo que se haga con esa información depende del diseño de los mecanismos de gobierno — que es, en última instancia, el dominio del Capítulo 11.
+::: {.recuadro .alcance-azul-gris}
+**Lo que el libro no promete:** Este apéndice no sugiere que el análisis causal elimina los conflictos de interés dentro de las instituciones ni que la racionalidad económica de largo plazo domina automáticamente sobre los incentivos de corto plazo de los gestores. Sugiere que el sistema produce la información necesaria para que el consejo de administración, los inversores activos y los reguladores puedan hacer las preguntas correctas con los instrumentos correctos. Lo que se haga con esa información depende del diseño de los mecanismos de gobierno — que es, en última instancia, el dominio del Capítulo 11.
+:::
 
 
 # APÉNDICE B
