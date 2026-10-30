@@ -1,10 +1,9 @@
-PARTE III · ECONOMÍA, FINANZAS Y EMPRESA
+# Capítulo 11
+## Gobierno corporativo
 
-### Capítulo 11 Gobierno corporativo
+*El consejo decorativo y la cultura del silo: cuando el peso causal en el resultado es inversamente proporcional a la jerarquía visible*
 
-El consejo decorativo y la cultura del silo: cuando el peso causal en
-
-el resultado es inversamente proporcional a la jerarquía visible
+---
 
 ### §1.  El problema
 
@@ -12,7 +11,6 @@ En la primavera de 2001, Fortune nombró a Enron "la empresa más innovadora de 
 
 El consejo de administración de Enron estaba compuesto por quince miembros, varios de ellos con reputaciones académicas y empresariales de primera línea. Había cuatro comités: auditoría, compensación, cumplimiento y finanzas. Había auditorías externas realizadas por Arthur Andersen, una de las cinco firmas contables más grandes del mundo. Y, sin embargo, el consejo no detectó —o eligió no detectar— un esquema de contabilidad fraudulenta que llevaba años operando y que los directivos ejecutivos (principalmente Kenneth Lay y Jeffrey Skilling)
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 construyeron deliberadamente para ocultar deuda y fabricar ganancias.
 
@@ -22,9 +20,8 @@ En 2015, la Agencia de Protección Ambiental de los Estados Unidos descubrió qu
 
 La pregunta de gobierno corporativo que el Dieselgate plantea es distinta a la de Enron, pero igualmente reveladora: ¿qué R* tiene la cultura corporativa en el fraude? ¿Cuánto dependía el defeat device de las decisiones específicas de los ingenieros que lo programaron, y cuánto del entorno cultural que hacía que esa solución pareciera razonable o incluso inevitable para resolver la presión de cumplir objetivos de rendimiento y emisiones simultáneamente?
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
-### 1.1 El consejo decorativo: cuando la supervisión tiene R* mínimo
+#### 1.1 El consejo decorativo: cuando la supervisión tiene R* mínimo
 
 El gobierno corporativo convencional asigna al consejo de administración la función de supervisar a la dirección ejecutiva en nombre de los accionistas. El consejo debe: revisar y aprobar la estrategia, supervisar el riesgo, controlar la compensación ejecutiva, garantizar la integridad de los reportes financieros y sustituir a los ejecutivos cuando es necesario.
 
@@ -32,27 +29,24 @@ Cuando el consejo es decorativo —existe en los documentos, pero no ejerce real
 
 Consejo decorativo:  Consejo de administración cuya función supervisora real es mínima (S ≈ 1.0 como supervisor) pero cuya función legitimadora tiene R* positivo: su aprobación formal era condición necesaria para que el esquema corporativo que causó el daño pudiera operar dentro de las apariencias de legalidad. En el cálculo: R*_supervisión ≈ 0, R*_legitimación > 0, α ≈ 0, Δ positivo.
 
-### 1.2 La cultura corporativa como nodo causal
+#### 1.2 La cultura corporativa como nodo causal
 
 El Dieselgate plantea el problema más importante y más difícil del gobierno corporativo: cuando el fraude no es diseñado explícitamente por una persona o un grupo identificable, sino que emerge de una cultura corporativa que crea los incentivos, las presiones y las normas tácitas que lo hacen posible, ¿quién tiene R* sobre el resultado?
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 La cultura corporativa no es un actor con voluntad propia —es una propiedad emergente del ego colectivo de la organización, resultado de decisiones acumuladas de liderazgo durante años. Pero tiene posición causal real en el grafo: sin la cultura específica de Volkswagen que priorizaba el objetivo de rendimiento sobre el cumplimiento regulatorio y que castigaba a quienes señalaban problemas, el defeat device no habría sido la solución que los ingenieros eligieron cuando se encontraron ante la presión imposible de cumplir simultáneamente las metas de rendimiento y los estándares de emisiones.
 
 El R* de la cultura corporativa es el R* del ego colectivo en su forma de Aego-Damasén: un campo que determina la trayectoria de los nodos individuales sin que ningún nodo individual haya diseñado explícitamente ese campo. Los ingenieros que programaron el defeat device actuaron desde la pendiente de ese campo —desde el Aego-Peribea— y su S es alto: otro ingeniero en la misma posición, bajo la misma presión cultural, habría encontrado la misma solución.
 
-### 1.3 Por qué los hijos aplican solo a los directivos
+#### 1.3 Por qué los hijos aplican solo a los directivos
 
 En el gobierno corporativo, los hijos de Afrodita aplican a los directivos ejecutivos y a los miembros del consejo con poder de decisión real. No aplican a la empresa como entidad abstracta ni a la "cultura corporativa" como nodo sistémico —ambos son propiedades del ego colectivo, no actores individuales con disposición de voluntad propia.
 
 La razón de esta restricción es la misma que en los capítulos anteriores: los hijos describen la posición de la voluntad de un sujeto en el momento de un acto. Las decisiones de la cultura corporativa no son actos de un sujeto con voluntad: son el resultado emergente de miles de actos individuales acumulados. Los hijos de cada directivo en el momento de
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 sus decisiones críticas sí describen desde qué disposición tomaron esas decisiones —y esa descripción tiene consecuencias directas para la evaluación de la culpabilidad subjetiva y para la intervención terapéutica o de desarrollo ejecutivo.
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 ### §2.  Página puente — Traducción al lenguaje del gobierno corporativo
 
@@ -78,7 +72,6 @@ Director ejecutivo / arquitecto del
 
 El directivo que diseñó la estrategia, los incentivos o las estructuras que
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 esquema corporativo
 
@@ -104,7 +97,6 @@ S alto: cualquier empleado bajo la misma presión cultural habría tomado la mis
 
 Lo que el consejo realmente hizo para supervisar: preguntas incómodas formuladas, auditorías independientes solicitadas, información adicional
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 requerida, compensación vinculada a resultados de largo plazo, ejecutivos cuestionados o sustituidos.
 
@@ -124,13 +116,11 @@ T_invertido (pérdidas directas de accionistas, empleados y acreedores en el col
 
 Para el lector que viene del núcleo universal:  Los hijos aplican en este dominio solo a los directivos con poder de decisión real (CEO, CFO, miembros del consejo con función efectiva). No aplican a la empresa como entidad abstracta, a la cultura corporativa como nodo sistémico, ni a los empleados que ejecutaron sin poder de diseño. La distinción más importante del capítulo es entre el R* del directivo como diseñador y el R* del consejo como legitimador: ambos tienen posición causal, pero sus mecanismos y sus hijos son diferentes.
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 ### §3.  Las herramientas en el contexto del gobierno corporativo
 
-### 3.1 El grafo corporativo: mapear la autoridad real versus la autoridad formal
+#### 3.1 El grafo corporativo: mapear la autoridad real versus la autoridad formal
 
 El organigrama corporativo es el grafo de la autoridad formal. El grafo causal corporativo es distinto: mapea la autoridad real sobre los resultados, que puede diferir sustancialmente del organigrama. En Enron, el CFO Andrew Fastow tenía mayor R* sobre el esquema financiero que varios miembros del consejo con títulos más altos en la jerarquía formal.
 
@@ -158,7 +148,6 @@ R* muy alto en fraudes financieros. S moderado si las estructuras eran genérica
 
 Estructuras aprobadas, SPEs, contratos de financiamiento , presentaciones al consejo.
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 naturaleza contable.
 
@@ -194,7 +183,6 @@ R* estructural alto pero
 
 Documentació n de valores
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 Determina el espacio de lo aceptable para todos los actores. Su R* apunta hacia quienes lo construyeron con sus decisiones acumuladas.
 
@@ -202,13 +190,14 @@ difuso. No tiene S ni α propios.
 
 declarados vs. comportamien to real, historial de sanciones internas, testimonios de empleados.
 
-### 3.2 R* del consejo: supervisión vs. legitimación
+#### 3.2 R* del consejo: supervisión vs. legitimación
 
 La distinción más importante del dominio corporativo es entre el R* del consejo como supervisor y el R* del consejo como legitimador. Ambos son reales, pero tienen mecanismos causales completamente distintos:
 
-•  R*_supervisión: la fracción del resultado que dependía de que el consejo supervisara activamente. En la mayoría de los fraudes corporativos, R*_supervisión del consejo es bajo porque S es alto: cualquier otro consejo bajo la misma estructura de información asimétrica habría tenido las mismas dificultades para detectar el fraude. •  R*_legitimación: la fracción del resultado que dependía de que el consejo aprobara formalmente las estructuras que el fraude requería. Este R* puede ser alto incluso cuando R*_supervisión es bajo, porque el esquema diseñado por la dirección ejecutiva requería específicamente la aprobación del consejo para operar dentro de las apariencias de cumplimiento.
+- R*_supervisión: la fracción del resultado que dependía de que el consejo supervisara activamente. En la mayoría de los fraudes corporativos, R*_supervisión del consejo es bajo porque S es alto: cualquier otro consejo bajo la misma estructura de información asimétrica habría tenido las mismas dificultades para detectar el fraude.
+- R*_legitimación: la fracción del resultado que dependía de que el consejo aprobara formalmente las estructuras que el fraude requería. Este R* puede ser alto incluso cuando R*_supervisión es bajo, porque el esquema diseñado por la dirección ejecutiva requería específicamente la aprobación del consejo para operar dentro de las apariencias de cumplimiento.
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
+
 
 R*_consejo = R*_supervisión + R*_legitimación
 
@@ -218,7 +207,7 @@ decorativo
 
 Esta distinción tiene consecuencias legales directas: la responsabilidad civil del consejo por el daño a los accionistas está basada en su posición causal total (R*_supervisión + R*_legitimación), no solo en su función supervisora fallida. Y tiene consecuencias para el diseño del gobierno corporativo: las reformas que aumentan la supervisión del consejo solo actúan sobre R*_supervisión; las reformas que eliminan la delegación ciega de aprobación también actúan sobre R*_legitimación.
 
-### 3.3 S del directivo: ¿era idiosincrático el fraude?
+#### 3.3 S del directivo: ¿era idiosincrático el fraude?
 
 La pregunta de la sustituibilidad del directivo en el fraude corporativo es una de las más difíciles del dominio porque mezcla la evaluación causal con la evaluación de la cultura de la industria. La respuesta del sistema es metodológica: S del directivo se estima comparando el comportamiento de ese directivo con el de líderes similares en el mismo contexto de presiones.
 
@@ -232,7 +221,6 @@ El fraude dependía de las características idiosincráticas de ese directivo: s
 
 La responsabilidad causal del directivo es genuinamente alta. El análisis de hijos puede mostrar Anteros dominante: afirmación deliberada de una estrategia que sabía problemática.
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 habría producido lo mismo.
 
@@ -248,15 +236,19 @@ S alto (0.66–0.95)
 
 Cualquier directivo en esa posición, bajo la misma presión del mercado de capitales y la misma cultura corporativa, habría tomado decisiones similares.
 
-### 3.4 Los hijos de los directivos: el diagnóstico de la voluntad ejecutiva
+#### 3.4 Los hijos de los directivos: el diagnóstico de la voluntad ejecutiva
 
 En el gobierno corporativo, los hijos describen desde qué disposición tomaron sus decisiones los directivos en los momentos críticos del proceso que produjo el daño. Este diagnóstico tiene tres aplicaciones directas:
 
-•  Para la evaluación de la culpabilidad subjetiva: el directivo con Anteros dominante (afirmación deliberada del esquema sabiendo que era fraudulento) tiene mayor culpabilidad que el directivo con Potós dominante (persistencia en prácticas heredadas sin revisarlas críticamente). •  Para el diseño de la intervención en casos de reorganización corporativa: la empresa que quiere reformar su gobierno corporativo necesita saber si el
+- Para la evaluación de la culpabilidad subjetiva: el directivo con Anteros dominante (afirmación deliberada del esquema sabiendo que era fraudulento) tiene mayor culpabilidad que el directivo con Potós dominante (persistencia en prácticas heredadas sin revisarlas críticamente).
+- Para el diseño de la intervención en casos de reorganización corporativa: la empresa que quiere reformar su gobierno corporativo necesita saber si el
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
-problema era Anteros (directivos deliberadamente corruptos, que requieren sustitución) o Potós + Deimos (directivos atrapados en un patrón cultural que requiere transformación de la cultura, no solo sustitución de personas). •  Para la selección del tipo de proceso legal: Anteros dominante apunta hacia el proceso penal; Potós o Deimos dominantes apuntan hacia la responsabilidad civil y la reforma regulatoria.
+
+problema era Anteros (directivos deliberadamente corruptos, que requieren sustitución) o Potós + Deimos (directivos atrapados en un patrón cultural que requiere transformación de la cultura, no solo sustitución de personas).
+
+- Para la selección del tipo de proceso legal: Anteros dominante apunta hacia el proceso penal; Potós o Deimos dominantes apuntan hacia la responsabilidad civil y la reforma regulatoria.
+
 
 Hijo En el directivo
 
@@ -282,7 +274,6 @@ Los directivos de nivel medio en Enron que percibían el riesgo pero no lo repor
 
 Menor culpabilidad. S alto. El problema es la cultura que generó el miedo.
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 seguridad para decirlo.
 
@@ -300,21 +291,19 @@ Sherron Watkins (VPs de Enron que señalaron el problema internamente). James Li
 
 α alto. Posible reconocimiento como testigo protegido. Modelo para el diseño de sistemas de denuncia.
 
-### 3.5 La cultura corporativa: Aego-Damasén como nodo causal sin voluntad
+#### 3.5 La cultura corporativa: Aego-Damasén como nodo causal sin voluntad
 
 La cultura corporativa en el sistema ontológico de la colección es el ego colectivo en su forma de Aego-Damasén: un campo que ha acumulado tanta densidad que determina la trayectoria de los individuos que operan dentro de él sin que ningún individuo haya diseñado ese campo explícitamente. Su R* en el resultado corporativo es real pero no tiene la estructura de responsabilidad individual — apunta hacia quienes construyeron la cultura con sus decisiones acumuladas.
 
-### R*_cultura = Σᵢ w (decisiones_históricas_directivos_i
+#### R*_cultura = Σᵢ w (decisiones_históricas_directivos_i
 
-### → cultura) × R*_cultura_en_resultado
+#### → cultura) × R*_cultura_en_resultado
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 La descomposición del R*_cultura en sus contribuyentes históricos permite identificar en qué decisiones de liderazgo pasadas se construyó el campo que ahora determina el comportamiento de los empleados actuales. En Volkswagen, las raíces culturales del Dieselgate son rastreables décadas atrás: la cultura de objetivos de rendimiento imposibles sin mecanismos de escalamiento de problemas, la sanción informal a quienes señalaban problemas, la celebración del "ingenio" para superar obstáculos que en retrospectiva eran obstáculos regulatorios legítimos.
 
 Principio de gobernanza:  La cultura corporativa no es responsable en el sentido penal, pero sí es causalmente necesaria en muchos fraudes corporativos. El análisis de R*_cultura permite identificar qué reformas institucionales — no solo qué personas— deben cambiar para que el sistema produzca resultados distintos. La sustitución de directivos sin reforma de la cultura produce el mismo resultado con nombres diferentes.
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 ### §4.  Casos resueltos
 
@@ -330,11 +319,10 @@ Lo que Fortune no podía ver —y el consejo de administración eligió o falló
 
 El consejo de administración de Enron aprobó específicamente las estructuras SPE en dos ocasiones en las que se le informó sobre posibles conflictos de interés. En la primera, aprobó una excepción explícita al código de ética de la empresa para permitir que Fastow administrara las SPEs mientras era CFO de Enron. En la segunda, escuchó una presentación de Fastow sobre las estructuras y las aprobó sin solicitar análisis independiente. El comité de
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 auditoría del consejo tenía como miembro a Robert Jaedicke, exdecano de la Escuela de Negocios de Stanford y profesor de contabilidad. El consejo tenía toda la capacidad técnica para entender lo que se le presentaba. Eligió no ejercerla.
 
-### A.2 El grafo causal de Enron
+#### A.2 El grafo causal de Enron
 
 Nodo Actor Tipo Función causal
 
@@ -354,7 +342,6 @@ N3 Consejo de administración
 
 Legitimador Aprobó dos veces estructuras que requerían su aprobación explícita. No ejerció supervisión real. R*_legitimación alto, R*_supervisión bajo, S muy alto como supervisor.
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 N4 Arthur Andersen (auditor externo)
 
@@ -376,11 +363,10 @@ Nodo final Más de 21,000 empleados perdieron su trabajo y sus ahorros de retiro
 
 Nf Empleados, accionistas, fondos de pensión
 
-### A.3 R*, S y el análisis de los hijos
+#### A.3 R*, S y el análisis de los hijos
 
 Nodo R* S α Interpretación
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 ~35% 0.20 0.00 Nodo de diseño con S bajo. Sus visiones específicas del negocio y su estilo de liderazgo eran condición necesaria del esquema en esa forma. Δ = +0.35.
 
@@ -398,7 +384,6 @@ N4 — Arthur Andersen
 
 N5 — Cultura corporativa
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 como constructores de la cultura. Δ e hijos no aplican directamente.
 
@@ -406,19 +391,18 @@ como constructores de la cultura. Δ e hijos no aplican directamente.
 
 N6 — Mercados/analistas
 
-### A.4 Los hijos en dos momentos: el diagnóstico y la evolución
+#### A.4 Los hijos en dos momentos: el diagnóstico y la evolución
 
-### Kenneth Lay — En el período de construcción del esquema (1996–2000):
+#### Kenneth Lay — En el período de construcción del esquema (1996–2000):
 
 Anteros     ████████░░░░░░░░░░░░ 38% Potós       ██████░░░░░░░░░░░░░░ 28% Eros        ████░░░░░░░░░░░░░░░░ 18% Fobos       ██░░░░░░░░░░░░░░░░░░ 10% Deimos      █░░░░░░░░░░░░░░░░░░░ 4% Harmonía    ░░░░░░░░░░░░░░░░░░░░ 2%
 
-### Jeffrey Skilling — El período crítico:
+#### Jeffrey Skilling — El período crítico:
 
 Anteros     ███████████░░░░░░░░░ 55% Potós       ████░░░░░░░░░░░░░░░░ 18% Eros        ███░░░░░░░░░░░░░░░░░ 15% Fobos       ██░░░░░░░░░░░░░░░░░░ 8% Deimos      █░░░░░░░░░░░░░░░░░░░ 4% Harmonía    ░░░░░░░░░░░░░░░░░░░░ 0%
 
 El perfil de hijos de Skilling —Anteros dominante al 55%— es el más claro del libro para el diagnóstico de dolo directo en el contexto ejecutivo. No hay Deimos que sugiera ignorancia genuina, no hay Fobos que sugiera coerción, no
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 hay Harmonía que sugiera evaluación de alternativas. La dirección es inconfundible: afirmación deliberada.
 
@@ -434,11 +418,14 @@ A.5 El D_total de Enron y la distribución del ajuste debitor
 
 Parámetros:
 
-•  Pérdida de valor de mercado de accionistas: ~$60,000 millones USD.
+- Pérdida de valor de mercado de accionistas: ~$60,000 millones USD.
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
-•  Pérdida de fondos de pensión de empleados (principalmente ESOP de Enron): ~$2,000 millones USD. •  Pérdida directa de acreedores: ~$5,000 millones USD. •  D_total documentado: ~$67,000 millones USD.
+
+- Pérdida de fondos de pensión de empleados (principalmente ESOP de Enron): ~$2,000 millones USD.
+- Pérdida directa de acreedores: ~$5,000 millones USD.
+- D_total documentado: ~$67,000 millones USD.
+
 
 AD_N1 (Lay+Skilling) = 0.35 × $67B = $23.45B USD
 
@@ -452,7 +439,6 @@ Fastow pagó $23.8 millones de restitución y cooperó con la investigación, ob
 
 J_Enron = 1 − Σ|Δᵢ| ≈ 0.35: moderadamente injusto. El mayor déficit de asunción fue del consejo (Δ = +0.16 y α_efectivo ≈ 0.02 en términos del acuerdo de $168M / $12.06B).
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 Caso B — Volkswagen Dieselgate (2015)
 
@@ -466,9 +452,8 @@ El defeat device no era una innovación técnica accidental. Era una solución d
 
 La investigación posterior reveló que el defeat device había sido desarrollado internamente en Volkswagen durante años, con conocimiento de múltiples niveles de la jerarquía técnica. La pregunta que el gobierno corporativo debe responder es: ¿cuánto de ese resultado era idiosincrático de los ingenieros que lo programaron y cuánto era inevitable dado el entorno cultural y de incentivos que VW había construido?
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
-### B.2 El grafo causal del Dieselgate
+#### B.2 El grafo causal del Dieselgate
 
 Nodo Actor / Factor Tipo Función causal
 
@@ -490,7 +475,6 @@ Ejecución técnica
 
 Implementaron la solución dentro del contexto de N1 y N2. S alto: cualquier equipo de ingeniería bajo la misma presión y sin mecanismos seguros de escalamiento
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 habría evaluado opciones similares. James Liang (quien cooperó) es el nodo más documentado.
 
@@ -510,11 +494,10 @@ Nodo final El exceso de NOx en condiciones reales de conducción contribuyó a d
 
 Nf Consumidores, comunidades, sistema regulatorio
 
-### B.3 R* de la cultura vs. R* del ingeniero: la clave del caso
+#### B.3 R* de la cultura vs. R* del ingeniero: la clave del caso
 
 Nodo R* S α Interpretación
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 ~38% 0.35 0.10 Diseñó el contexto de presión imposible. S moderado-bajo: esas metas específicas, ese deadline específico, esa negativa a extender el plazo o revisar las metas fueron decisiones idiosincráticas.
 
@@ -538,7 +521,6 @@ N5 — Reguladores
 
 El resultado más importante del análisis: los ingenieros que programaron el defeat device tienen R* = 18% con S = 0.82. Su responsabilidad causal neta (R* × (1−S)) = 0.18 × 0.18 = 0.032: el 3.2% del daño total. El sistema legal procesó a varios de ellos —James Liang recibió cuarenta
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 meses de prisión— mientras que la alta dirección que diseñó el contexto de presión (N1, R* = 38%, S = 0.35, R* neta = 0.247) asumió principalmente responsabilidad civil a través de los acuerdos de VW con la EPA y los consumidores ($30,000 millones de dólares en total).
 
@@ -552,7 +534,6 @@ Potós       ████████░░░░░░░░░░░░ 40% Fo
 
 El perfil es el de la organización en Aego-Peribea a escala del equipo: los ingenieros actuaban desde la pendiente del campo cultural de VW (Potós dominante) con el Fobos de quien sabe que señalar el problema tiene consecuencias (28%). La Harmonía era casi inexistente porque la cultura no había construido los espacios donde podría operar: no había mecanismos seguros de whistleblowing, no había
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 incentivos a reportar problemas, no había precedentes de que señalar "esto no se puede hacer" sin consecuencias.
 
@@ -562,7 +543,11 @@ B.5 El D_total del Dieselgate y su distribución
 
 Parámetros documentados:
 
-•  Multas y acuerdos totales de VW (EE.UU. + Europa + Corea + otros): ~$33,000 millones USD. •  Daño a la salud pública por exceso de NOx en condiciones reales (estimaciones de salud pública): entre $6,000 y $18,000 millones USD en costos de salud. •  Daño reputacional al sector diésel europeo: pérdida de valor de mercado estimada en $35,000 millones (impacto sobre todo el sector). •  D_total estimado: $60,000 millones USD (excluyendo daño de salud pública por su incertidumbre).
+- Multas y acuerdos totales de VW (EE.UU. + Europa + Corea + otros): ~$33,000 millones USD.
+- Daño a la salud pública por exceso de NOx en condiciones reales (estimaciones de salud pública): entre $6,000 y $18,000 millones USD en costos de salud.
+- Daño reputacional al sector diésel europeo: pérdida de valor de mercado estimada en $35,000 millones (impacto sobre todo el sector).
+- D_total estimado: $60,000 millones USD (excluyendo daño de salud pública por su incertidumbre).
+
 
 AD_N1 (Alta dirección VW) = 0.38 × $60B = $22.8B
 
@@ -572,41 +557,37 @@ AD_N3 (Ingenieros) = 0.18 × $60B = $10.8B USD
 
 VW pagó ~$30,000 millones en acuerdos y multas: el 133% del AD de N1 y el 278% del AD de N3. Eso produce Δ < 0 en términos de pago económico — VW asumió más de
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 su posición causal en términos de pago, aunque los ejecutivos clave no sufrieron consecuencias penales proporcionadas. Los ingenieros procesados penalmente asumieron más que su AD proporcional en términos de consecuencias personales. J_Dieselgate ≈ 0.55: moderadamente injusto en la distribución personal, aunque el total pagado por VW fue sustancial.
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 ### §5.  Límites del método en gobierno corporativo
 
-### 5.1 La opacidad del proceso interno de decisión
+#### 5.1 La opacidad del proceso interno de decisión
 
 En los dominios jurídicos del Capítulo 1, los pesos del grafo se estiman con documentos. En el gobierno corporativo, muchas de las decisiones más importantes —las conversaciones en el pasillo, la presión informal, la señal tácita de que cierto comportamiento es aceptable— no dejan rastro documental. El R* de la cultura corporativa y de los liderazgos que la construyeron tiene inevitablemente una componente de estimación cualitativa que los dominios más documentados no tienen.
 
-### 5.2 El problema del conocimiento compartimentado
+#### 5.2 El problema del conocimiento compartimentado
 
 En organizaciones grandes, el conocimiento está compartimentado: los ingenieros saben la parte técnica pero no la estratégica, los financieros conocen los números, pero no la operación. Construir el grafo causal requiere acceso a múltiples capas de la organización y la capacidad de integrar información que nunca fue compartida horizontalmente dentro de la empresa. Las investigaciones internas post-siniestro y las cooperaciones con la fiscalía son las fuentes de evidencia más valiosas, pero también las más sesgadas.
 
-### 5.3 Los hijos y el tiempo: el diagnóstico cambia durante el proceso
+#### 5.3 Los hijos y el tiempo: el diagnóstico cambia durante el proceso
 
 El perfil de hijos de un directivo en el momento de la decisión crítica puede diferir sustancialmente de su perfil
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 durante la investigación o el proceso legal. Lay decía en 2001 que Enron era sólida (Anteros dominante). En los días anteriores a su muerte, el testimonio de quienes lo conocían describía a alguien en Potós y Deimos: el hombre que había construido algo grande y no podía comprender que ya no existía. El análisis de hijos debe ser siempre temporalmente contextualizado.
 
-### 5.4 El límite de la reforma por sustitución
+#### 5.4 El límite de la reforma por sustitución
 
 El error regulatorio más frecuente en gobierno corporativo es creer que sustituir a los directivos es suficiente para reformar el resultado. Si el R*_cultura es alto y S_ejecutores es alto, sustituir a los directivos sin reformar la cultura produce los mismos resultados con nombres diferentes. La reforma del gobierno corporativo que el sistema recomienda incluye: reducción de R*_cultura mediante reforma de los mecanismos de escalamiento, de la estructura de incentivos y del sistema de reconocimiento de quienes señalan problemas.
 
-### 5.5 El predictor de colapso corporativo y el análisis contrafáctico del consejo
+#### 5.5 El predictor de colapso corporativo y el análisis contrafáctico del consejo
 
 Los §4.3 y §4.5 calcularon el R* y los hijos de Enron y VW de manera retrospectiva. Este apartado añade la dimensión predictiva: dado el perfil actual de hijos del equipo directivo, la S del consejo y el IIC de una empresa, ¿cuál es la probabilidad de un colapso de gobernanza en los próximos N años? Y dado ese análisis, ¿cuánto habría cambiado el resultado en Enron si el consejo hubiera ejercido supervisión real?
 
-### El contrafáctico del consejo de Enron: supervisión real vs. decorativa
+#### El contrafáctico del consejo de Enron: supervisión real vs. decorativa
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 La pregunta contrafáctica más importante del caso Enron: si el consejo hubiera tenido α_consejo = 0.30 (supervisión real: solicitar análisis independiente de las SPEs, preguntar por los conflictos de interés de Fastow, vincular la compensación al largo plazo) en lugar de α_consejo = 0.02, ¿cuánto se habría reducido el R*_consejo en el daño total y cuánto habría cambiado el resultado?
 
@@ -628,7 +609,6 @@ Escenario CF (α=0.30)
 
 R*_Lay+Skilling 35% 22% El espacio de acción del diseñador se comprime un 37%. El esquema
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 habría necesitado ser más pequeño o más breve.
 
@@ -650,13 +630,12 @@ Tiempo de vida del esquema
 
 La reducción del D_total de $67,000M a $28,000M con una supervisión del consejo moderada (α = 0.30) implica $39,000 millones de daño evitable. El costo de tener un consejo realmente activo en Enron —compensación
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 independiente, análisis externos, tiempo adicional de supervisión— habría sido inferior a $50 millones durante el período. El ROI de la supervisión real habría sido de aproximadamente 780 veces.
 
 Predictor:  La pregunta correcta en el análisis de gobierno corporativo no es "¿tiene el consejo las credenciales adecuadas?" sino "¿tiene la disposición (los hijos) y las condiciones estructurales (S bajo) para ejercer la supervisión que su R* requiere?" Un consejo con credenciales perfectas y Deimos dominante es ontológicamente equivalente a un consejo sin credenciales.
 
-### El predictor de colapso por perfil de hijos y S del consejo
+#### El predictor de colapso por perfil de hijos y S del consejo
 
 El perfil de hijos del equipo directivo y la S del consejo producen juntos un predictor de riesgo de colapso de gobernanza. La probabilidad de un evento de colapso significativo (fraude material, escándalo regulatorio, derrumbe reputacional) en un horizonte de N años es función de cuatro variables:
 
@@ -678,7 +657,6 @@ Variable predictora
 
 Coef. β
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 β₀ (constante) −3.2 — Base: empresa con gobernanza óptima tiene P(colapso,5años) ≈ 4%.
 
@@ -694,17 +672,16 @@ El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 β₄ × R*_cultura_neta
 
-### Aplicación a Enron en 1998 (tres años antes del colapso):
+#### Aplicación a Enron en 1998 (tres años antes del colapso):
 
 logit = −3.2 + 2.8×0.90 + 1.6× (1−0.25) + 2.1×0.55 + 1.4×0.08 = −3.2 + 2.52 + 1.20 + 1.16 + 0.11 = 1.79
 
-### P (colapso, 5 años) _Enron_1998 = σ (1.79) = 85.7%
+#### P (colapso, 5 años) _Enron_1998 = σ (1.79) = 85.7%
 
 Un análisis de gobernanza aplicado a Enron en 1998 —con el IIC de 0.25 (alta disforia entre los "valores" declarados y el comportamiento real), la S del consejo de 0.90 y el perfil de Anteros dominante de Skilling— habría producido una probabilidad de colapso de gobernanza del 86% en un horizonte de cinco años. El colapso ocurrió en tres.
 
-### Aplicación a una empresa hipotética con buena gobernanza:
+#### Aplicación a una empresa hipotética con buena gobernanza:
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 logit = −3.2 + 2.8×0.25 + 1.6× (1−0.82) + 2.1×0.12 + 1.4×0.04 = −3.2 + 0.70 + 0.29 + 0.25 + 0.06 = −1.90
 
@@ -716,7 +693,7 @@ Una empresa con consejo activo (S = 0.25), alta congruencia institucional (IIC =
 
 El predictor como herramienta de due diligence:  Un inversor, un regulador o un consejo de administración entrante puede calcular este predictor con información pública (documentos de gobernanza, proxy statements, estudios de cultura organizacional) y con entrevistas semi-estructuradas a directivos (para estimar el perfil de hijos). El resultado no es una profecía: es el indicador más preciso disponible de que el sistema de gobernanza necesita intervención antes de que el colapso sea inevitable.
 
-### El predictor aplicado al diseño preventivo: Volkswagen contrafáctico
+#### El predictor aplicado al diseño preventivo: Volkswagen contrafáctico
 
 En VW, el análisis predictivo habría señalado el riesgo antes del Dieselgate con los siguientes parámetros estimados para 2011 (cuatro años antes del escándalo):
 
@@ -728,27 +705,24 @@ logit = −3.2 + 2.8×0.78 + 1.6×0.55 + 2.1×0.32 +
 
 1.4×0.10 = 1.48
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 P (colapso, 5 años) _VW_2011 = σ (1.48) = 81.4%
 
 El predictor habría asignado una probabilidad del 81% de colapso de gobernanza en un horizonte de cinco años. El Dieselgate ocurrió en cuatro. La intervención con mayor ROI en ese momento habría sido reducir S_consejo — incorporando consejeros con poder real de supervisión técnica sobre los procesos de certificación de emisiones— antes de que la presión de objetivos imposibles encontrara la solución prohibida.
 
-### Código de referencia: predictor de colapso de gobernanza
+#### Código de referencia: predictor de colapso de gobernanza
 
 import numpy as np import math  def predictor_colapso_gobernanza(S_consejo, IIC, P_Anteros_CEO, R_star_cultura_neta,                                   N_anios=5, betas=(-3.2, 2.8, 1.6, 2.1, 1.4)):     """     P(colapso de gobernanza en N años) dado el perfil de gobernanza actual.     Modelo logístico calibrado con datos de gobernanza 2003-2024.      S_consejo:          fungibilidad del consejo como supervisor [0,1]     IIC:                Índice de Integridad Corporativa [0,1]     P_Anteros_CEO:      probabilidad del hijo Anteros en el CEO [0,1]     R_star_cultura_neta: R* neto de la cultura corporativa [0,1]     """     b0, b1, b2, b3, b4 = betas     logit = b0 + b1*S_consejo + b2*(1-IIC) + b3*P_Anteros_CEO + b4*R_star_cultura_neta     # Ajuste temporal: escalar el logit por el horizonte N     logit_N = logit * (N_anios / 5)     P = 1 / (1 + math.exp(-logit_N))     nivel = ('MUY ALTO' if P > 0.70 else 'ALTO' if P > 0.45              else 'MODERADO' if P > 0.25 else 'BAJO')     return {'logit': round(logit, 3), 'P_colapso': round(P, 4),             'nivel_riesgo': nivel,             'N_anios': N_anios}  def contrafactual_consejo(D_total_real, alpha_consejo_real, alpha_consejo_CF, gamma=1.8, R_star_disenador_base=0.35):     """     Estima el D_total contrafáctico si el consejo hubiera     ejercido una supervisión con alpha_CF en lugar de alpha_real.     """     R_star_d_real = R_star_disenador_base * math.exp(-gamma * alpha_consejo_real)     R_star_d_CF   = R_star_disenador_base * math.exp(-gamma * alpha_consejo_CF)     ratio = R_star_d_CF / R_star_d_real     D_CF = D_total_real * ratio return {'R_star_diseniador_real': round(R_star_d_real, 4), 'R_star_diseniador_CF':   round(R_star_d_CF,   4), 'D_total_real': D_total_real,             'D_total_CF':   round(D_CF, 0), 'ahorro_D': round(D_total_real - D_CF, 0),             'reduccion_pct': round((1 - ratio)*100, 1)}  # ── Aplicaciones ── print("=== Predictor de colapso de gobernanza ===") casos = [     ("Enron 1998",         0.90, 0.25, 0.55, 0.08),     ("VW 2011",            0.78, 0.45, 0.32, 0.10), ("Empresa sana",       0.25, 0.82, 0.12, 0.04),     ("Empresa en riesgo",
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 0.75, 0.40, 0.38, 0.12), ] for nombre, S, IIC, PA, Rc in casos:     res = predictor_colapso_gobernanza(S, IIC, PA, Rc, N_anios=5)     print(f" {nombre:20s}: P(colapso 5a)={res['P_colapso']:.1%} [{res['nivel_riesgo']}]")  print("\n=== Contrafáctico: consejo de Enron ===") cf = contrafactual_consejo(     D_total_real=67_000_000_000, alpha_consejo_real=0.02,     alpha_consejo_CF=0.30,     gamma=1.8 ) for k, v in cf.items():     if isinstance(v, (int, float)) and abs(v) > 1000: print(f"  {k}: USD {v:,.0f}")     else:         print(f"  {k}: {v}")
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 §6.  Profundización formal — Esta sección puede saltarse sin perder el argumento del capítulo
 
 ### §6.  Profundización formal
 
-### 6.1 El modelo del ego colectivo corporativo
+#### 6.1 El modelo del ego colectivo corporativo
 
 En el sistema ontológico de la colección, la empresa es un ego colectivo. Su ego integral es la suma ponderada de los colapsos de sus miembros que han sido asumidos como parte de la identidad corporativa:
 
@@ -758,9 +732,8 @@ donde Φ_col es la mediación colectiva: el proceso por el cual las decisiones i
 
 El Enron de 2001 —"la empresa más innovadora de América"— era un ejemplo extremo de disforia de identidad corporativa: el ego colectivo declarado (innovación, integridad, comunicación, respeto —los cuatro valores de Enron estaban grabados en el lobby de la empresa) no correspondía al ego colectivo real (maximización del precio de la acción a cualquier costo, incluyendo el fraude).
 
-### 6.2 El índice de integridad corporativa (IIC)
+#### 6.2 El índice de integridad corporativa (IIC)
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 El Índice de Integridad Corporativa mide la congruencia entre el ego colectivo declarado y el ego colectivo real de una empresa. Es la aplicación del concepto de disforia de identidad al nivel corporativo:
 
@@ -776,7 +749,7 @@ P(fraude) ∝ 1 − IIC   cuando   IIC < 0.50
 
 Un IIC bajo es una señal de riesgo de gobierno corporativo que puede calcularse antes del colapso mediante auditorías de comportamiento organizacional, análisis de las decisiones de escalamiento de problemas y revisión de los incentivos reales versus los declarados.
 
-### 6.3 La fórmula del consejo efectivo: R*_supervisión > umbral mínimo
+#### 6.3 La fórmula del consejo efectivo: R*_supervisión > umbral mínimo
 
 El consejo de administración es efectivo cuando su R*_supervisión supera un umbral mínimo que garantiza que su presencia en el grafo modifica el resultado:
 
@@ -786,13 +759,16 @@ y S_consejo < θ_S
 
 θ_supervisión es el umbral mínimo de impacto causal de la supervisión. S_consejo es la fungibilidad del consejo como supervisor: un consejo con S próximo a 1 es decorativo. Las
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
 condiciones estructurales que garantizan S bajo del consejo son:
 
-•  Independencia real de los consejeros: no tienen relaciones comerciales, familiares o de amistad con la dirección ejecutiva que comprometan su juicio. •  Acceso directo a la información: el consejo puede solicitar información directamente a las áreas de la empresa sin intermediación ejecutiva. •  Incentivos de largo plazo: la compensación del consejo está vinculada al desempeño de la empresa a 5-10 años, no al precio de la acción a corto plazo. •  Capacidad de formular preguntas incómodas: la cultura del consejo permite y valora el desacuerdo fundamentado.
+- Independencia real de los consejeros: no tienen relaciones comerciales, familiares o de amistad con la dirección ejecutiva que comprometan su juicio.
+- Acceso directo a la información: el consejo puede solicitar información directamente a las áreas de la empresa sin intermediación ejecutiva.
+- Incentivos de largo plazo: la compensación del consejo está vinculada al desempeño de la empresa a 5-10 años, no al precio de la acción a corto plazo.
+- Capacidad de formular preguntas incómodas: la cultura del consejo permite y valora el desacuerdo fundamentado.
 
-### 6.4 Código Python de referencia
+
+#### 6.4 Código Python de referencia
 
 import numpy as np from scipy.stats import pearsonr  def analisis_gobierno_corporativo(W_corp, alpha_nodos, D_total, B_directivos=None, hijos_directivos=None):     """     Análisis de responsabilidad en gobierno corporativo.     W_corp:          matriz de pesos del grafo corporativo     alpha_nodos:     α por nodo (supervisión / mitigación) D_total:         daño total corporativo     B_directivos:    dict {nodo: beneficio_obtenido} para directivos clave     hijos_directivos: dict {nodo: {hijo: probabilidad}} para directivos     """     n = W_corp.shape[0]      # ── R*: peso causal en el resultado corporativo ──     R = np.ones(n) / n     for _ in range(500):         Rn = W_corp @ R; s = np.sum(Rn)         if s < 1e-12: break         Rn /= s         if np.max(np.abs(Rn - R)) < 1e-9: break         R = Rn     R_star = Rn      # ── S: fungibilidad del actor ── S = np.zeros(n)     for i in range(n):         max_c = 0         for j in range(n):             if j == i: continue             Wm = W_corp.copy() Wm[i,:] = np.mean(W_corp, axis=0)             Rm = np.ones(n)/n for _ in range(200):                 Rm2 = Wm @ Rm; sm = np.sum(Rm2) if sm < 1e-12: break                 Rm2 /= sm                 if np.max(np.abs(Rm2-Rm)) < 1e-6: break                 Rm = Rm2             c, _ = pearsonr(R_star, Rm2)             max_c = max(max_c, abs(c)) S[i] = 1 - max_c      Delta = R_star - alpha_nodos     R_neta = R_star * (1 - S)     AD = R_star * D_total      result = {         'R_star': R_star, 'S': S,         'Delta': Delta,         'R_neta': R_neta,         'AD': AD, 'J_sistema': float(1 - np.sum(np.abs(Delta))),     }      # ── Análisis de hijos de directivos ──     if hijos_directivos:         import math as m for nodo_idx, dist in hijos_directivos.items():             hijo_dom = El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
@@ -802,7 +778,6 @@ Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y A
 
 Continúa en la Parte IV — Ingeniería y tecnología
 
-El Cálculo de la Responsabilidad · Cap. 12 — Ingeniería de sistemas y
 
 confiabilidad
 
