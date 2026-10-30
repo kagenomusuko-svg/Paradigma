@@ -3385,9 +3385,9 @@ Este módulo es el primero del Bloque II porque el estado del Eje I modula la le
 
 El Eje I no describe qué quiere el sujeto ni cómo lo quiere: describe desde dónde quiere. Esa pregunta — ¿desde dónde opera la voluntad? — es la pregunta más básica que el SDO hace y la que el Bloque I de ECO prepara. Sin ella, la distribución P(Hijos) del Bloque I puede ser diagnósticamente precisa y clínicamente incorrecta.
 
-Código Nombre Definición técnica Firma en presencia
+<!-- TABLA: códigos E-1 a E-6 | columnas: código, nombre, definición técnica, firma en presencia, señal EP y criterio -->
 
-Señal EP y criterio
+
 
 E-1 Ego genuino
 
@@ -3461,7 +3461,7 @@ Anteros genuino sino el eje ajeno que produce afirmaciones similares. El Eje I, 
 
 La pregunta ancla del Módulo Eje I no busca identificar directamente el estado del ego — ninguna pregunta frontal puede hacerlo. Busca crear condiciones para que el estado se manifieste en la relación de la sesión mientras el sujeto reflexiona sobre la pregunta.
 
-Pregunta ancla EI — Formulación estándar «Cuando miras las decisiones que tomaste en el período que estamos analizando — las importantes, las que cambiaron algo — ¿cuáles sientes que fueron genuinamente tuyas? No que fueron correctas: que fueron tuyas. ¿Y cuáles sientes que más bien ocurrieron sin que realmente las hayas decidido?» [El mediador formula la pregunta y espera. La distinción entre «genuinamente tuyas» y «ocurrieron sin que realmente las hayas decidido» accede a la capacidad de asunción del sujeto — la pregunta fundamental del Eje I: ¿puede el sujeto reconocer sus actos como propios? El mediador observa dos cosas simultáneamente: el contenido de lo que el sujeto responde y la textura de cómo lo responde. El sujeto que responde inmediatamente y con fluidez puede estar en E-1 (integración genuina de los actos) o en E-4 (el criterio del Otro le dice que esos actos son «suyos»). El sujeto que produce perplejidad ante la pregunta puede estar en E-2 (nunca lo pensó porque no había operador que lo pensara) o en E-3 (sabe que algo ocurrió sin él, pero no puede articularlo con claridad).]
+> Pregunta ancla EI — Formulación estándar «Cuando miras las decisiones que tomaste en el período que estamos analizando — las importantes, las que cambiaron algo — ¿cuáles sientes que fueron genuinamente tuyas? No que fueron correctas: que fueron tuyas. ¿Y cuáles sientes que más bien ocurrieron sin que realmente las hayas decidido?» [El mediador formula la pregunta y espera. La distinción entre «genuinamente tuyas» y «ocurrieron sin que realmente las hayas decidido» accede a la capacidad de asunción del sujeto — la pregunta fundamental del Eje I: ¿puede el sujeto reconocer sus actos como propios? El mediador observa dos cosas simultáneamente: el contenido de lo que el sujeto responde y la textura de cómo lo responde. El sujeto que responde inmediatamente y con fluidez puede estar en E-1 (integración genuina de los actos) o en E-4 (el criterio del Otro le dice que esos actos son «suyos»). El sujeto que produce perplejidad ante la pregunta puede estar en E-2 (nunca lo pensó porque no había operador que lo pensara) o en E-3 (sabe que algo ocurrió sin él, pero no puede articularlo con claridad).]
 
 ### IV.  Preguntas de sondeo
 
@@ -3469,19 +3469,19 @@ Las preguntas de sondeo del Módulo Eje I tienen como objetivo adicional orienta
 
 Entrevista Clínica Ontológica · ECO
 
-Sondeo EI·1 — La asunción «¿Puedes reconocer esas decisiones como tuyas —en el sentido de que las reclamarías, de que si alguien te preguntara por ellas dirías «sí, yo decidí eso»?» [Pregunta fundamental de asunción. Lo que el mediador observa: si el sujeto puede reclamar sus actos como propios sin que eso requiera elaboración defensiva. E-1: puede hacerlo con naturalidad. E-2: tiene dificultad para distinguir los suyos de los que «simplemente ocurrieron». E-3: puede reclamarlos, pero con la nota de que algo lo impidió actuar como quería. E-4: puede reclamarlos, pero si se profundiza emerge que el criterio de «mío» viene de la expectativa del Otro.]
-
-Sondeo EI·2 — El eje de referencia «Cuando tomabas esas decisiones, ¿lo primero que buscabas era entender qué se esperaba de ti, o entender qué pensabas tú al respecto?» [Pregunta central sobre el eje de referencia. Lo que el mediador observa: si el eje del sujeto es propio (E-1) o ajeno (E-4). La respuesta que orienta hacia E-4: «primero entender qué se esperaba». La que orienta hacia E-1: «primero entender qué pensaba yo». La que puede orientar hacia E-2: «no lo pensé en esos términos, simplemente actué». El mediador observa también si la respuesta que produce el sujeto parece genuina o parece la respuesta «correcta» que se espera de alguien que usa el instrumento.]
-
-Sondeo EI·3 — La disponibilidad de φ₂ «¿Hubo momentos en que sabías lo que querías hacer, pero algo te impedía hacerlo — como si hubiera una distancia entre lo que decidiste y lo que ocurrió después?» [Pregunta discriminante entre E-3 y los demás estados. Lo que el mediador observa: si el sujeto puede identificar la distancia entre querer y poder actuar con las características de E-3 (perplejidad, no resignación). La respuesta que orienta hacia E-3: «sí, había algo que no me dejaba actuar, aunque yo quería hacerlo». La que orienta hacia E-2: «no, simplemente actué o no actué, no había un querer separado del acto». La que orienta hacia E-4: «sabía lo que debía hacer según lo que se esperaba, pero a veces dudaba».]
-
-Sondeo EI·4 — El efecto en el campo «¿Tienes la sensación de que tus decisiones y acciones en ese período produjeron diferencias en el campo — que las cosas cambiaron porque tú actuaste?» [Pregunta discriminante entre E-5 (el campo no puede registrar diferencia adicional porque el ego ya es el campo) y E-6 (el ego opera, pero sin efecto diferencial). Lo que el
-
-### Entrevista Clínica Ontológica · ECO
-
-mediador observa: si el sujeto puede identificar efectos propios en el campo. E-5: puede identificarlos, pero los describe como si el campo hubiera seguido su orientación. E-6: no puede identificar ningún efecto diferencial de sus propios actos. E-1 o E-4: puede describir efectos en el campo con criterio de atribución claro.]
-
-Sondeo EI·5 — El eje ante la presión «¿Hubo situaciones en ese período en que alguien importante para ti o el contexto te presionaba para actuar de cierta manera, y lo que tú pensabas era diferente? ¿Qué ocurrió?» [Pregunta discriminante entre E-1 y E-4 en situaciones de presión. Lo que el mediador observa: si el eje del sujeto sobrevive a la presión del campo o si colapsa. E-1: puede identificar momentos de discrepancia en que mantuvo algo propio, aunque haya tenido que ceder en los actos. E-4: ante la presión del Otro importante, el criterio que parecía propio colapsa — el sujeto adopta la perspectiva del campo porque su criterio era el criterio del campo internalizado. E-3: tenía claro lo propio, pero no podía actuar desde ello ni siquiera cuando el campo no presionaba.]
+> Sondeo EI·1 — La asunción «¿Puedes reconocer esas decisiones como tuyas —en el sentido de que las reclamarías, de que si alguien te preguntara por ellas dirías «sí, yo decidí eso»?» [Pregunta fundamental de asunción. Lo que el mediador observa: si el sujeto puede reclamar sus actos como propios sin que eso requiera elaboración defensiva. E-1: puede hacerlo con naturalidad. E-2: tiene dificultad para distinguir los suyos de los que «simplemente ocurrieron». E-3: puede reclamarlos, pero con la nota de que algo lo impidió actuar como quería. E-4: puede reclamarlos, pero si se profundiza emerge que el criterio de «mío» viene de la expectativa del Otro.]
+>
+> Sondeo EI·2 — El eje de referencia «Cuando tomabas esas decisiones, ¿lo primero que buscabas era entender qué se esperaba de ti, o entender qué pensabas tú al respecto?» [Pregunta central sobre el eje de referencia. Lo que el mediador observa: si el eje del sujeto es propio (E-1) o ajeno (E-4). La respuesta que orienta hacia E-4: «primero entender qué se esperaba». La que orienta hacia E-1: «primero entender qué pensaba yo». La que puede orientar hacia E-2: «no lo pensé en esos términos, simplemente actué». El mediador observa también si la respuesta que produce el sujeto parece genuina o parece la respuesta «correcta» que se espera de alguien que usa el instrumento.]
+>
+> Sondeo EI·3 — La disponibilidad de φ₂ «¿Hubo momentos en que sabías lo que querías hacer, pero algo te impedía hacerlo — como si hubiera una distancia entre lo que decidiste y lo que ocurrió después?» [Pregunta discriminante entre E-3 y los demás estados. Lo que el mediador observa: si el sujeto puede identificar la distancia entre querer y poder actuar con las características de E-3 (perplejidad, no resignación). La respuesta que orienta hacia E-3: «sí, había algo que no me dejaba actuar, aunque yo quería hacerlo». La que orienta hacia E-2: «no, simplemente actué o no actué, no había un querer separado del acto». La que orienta hacia E-4: «sabía lo que debía hacer según lo que se esperaba, pero a veces dudaba».]
+>
+> Sondeo EI·4 — El efecto en el campo «¿Tienes la sensación de que tus decisiones y acciones en ese período produjeron diferencias en el campo — que las cosas cambiaron porque tú actuaste?» [Pregunta discriminante entre E-5 (el campo no puede registrar diferencia adicional porque el ego ya es el campo) y E-6 (el ego opera, pero sin efecto diferencial). Lo que el
+>
+> ### Entrevista Clínica Ontológica · ECO
+>
+> mediador observa: si el sujeto puede identificar efectos propios en el campo. E-5: puede identificarlos, pero los describe como si el campo hubiera seguido su orientación. E-6: no puede identificar ningún efecto diferencial de sus propios actos. E-1 o E-4: puede describir efectos en el campo con criterio de atribución claro.]
+>
+> Sondeo EI·5 — El eje ante la presión «¿Hubo situaciones en ese período en que alguien importante para ti o el contexto te presionaba para actuar de cierta manera, y lo que tú pensabas era diferente? ¿Qué ocurrió?» [Pregunta discriminante entre E-1 y E-4 en situaciones de presión. Lo que el mediador observa: si el eje del sujeto sobrevive a la presión del campo o si colapsa. E-1: puede identificar momentos de discrepancia en que mantuvo algo propio, aunque haya tenido que ceder en los actos. E-4: ante la presión del Otro importante, el criterio que parecía propio colapsa — el sujeto adopta la perspectiva del campo porque su criterio era el criterio del campo internalizado. E-3: tenía claro lo propio, pero no podía actuar desde ello ni siquiera cuando el campo no presionaba.]
 
 ### V.  Señales de observación directa
 
@@ -3490,6 +3490,8 @@ Las señales de observación directa del Módulo Eje I son las que el mediador l
 Estado Señal observable en sesión
 
 Error frecuente
+
+<!-- TABLA: observación directa | columnas: estado, señal en sesión, señal en narrativa -->
 
 Señal observable en narrativa
 
@@ -3547,29 +3549,199 @@ La señal más diagnóstica del Módulo Eje I no viene de las respuestas del suj
 
 El árbol del Módulo Eje I tiene tres preguntas fundamentales que el SDO establece y que el mediador recorre en orden antes de producir ninguna codificación. Las tres preguntas son: ¿hay asunción? ¿desde dónde opera φ₂? ¿qué produce el campo?
 
-PREGUNTA 1 — ¿Hay asunción? ¿El sujeto puede reconocer sus actos como propios?
+> **PREGUNTA 1 — ¿Hay asunción? ¿El sujeto puede reconocer sus actos como propios?**
+>
+> NO (no puede distinguir entre lo propio y lo que simplemente ocurrió) → Orientación hacia E-2 o D-2 pasiva. Ir a PREGUNTA 1b. SÍ → ¿Desde dónde opera φ₂? Ir a PREGUNTA 2. ↓
+>
+> > **PREGUNTA 1b — ¿Hay un querer presente que no puede actualizarse en actos (E-3) o ausencia de querer diferenciado (E-2)?**
+> >
+> > Hay querer con bloqueo de φ₂ (puede nombrar lo que quería y lo que lo impidió) → Orientación hacia E-3. Administrar discriminante E-3/E-2 de §7. No hay querer diferenciado (simplemente no decidió, ocurrió) → Orientación hacia E-2. Verificar si hay D-2 asociado (Eje IV). ↓
+> >
+> > > **PREGUNTA 2 — ¿Desde dónde opera φ₂? ¿Desde el eje propio del sujeto o desde el eje de un Otro internalizado?**
+> > >
+> > > Desde eje propio (el criterio es identificablemente suyo, sobrevive a la ausencia del Otro) → Ir a PREGUNTA 3.
+> > >
+> > > Desde eje ajeno (el criterio tiene origen externo identificable, colapsa con el cuestionamiento del Otro) → Orientación hacia E-4. Administrar discriminante E-1/E-4 y E-4/E-2 de §7. ↓
+> > >
+> > > > **PREGUNTA 3 — ¿Qué produce el campo? ¿Puede producir diferencia genuina que el ego registre?**
+> > > >
+> > > > SÍ (el campo puede producir diferencia que el ego registra y procesa) → Orientación hacia E-1. Confirmar con señal EP-1 o EP-2. NO — por saturación (el ego ya es la geometría del campo, no puede registrar diferencia) → Orientación hacia E-5. NO — por nulidad del efecto (el ego opera, pero sus actos no producen diferencia en el campo) → Orientación hacia E-6. Administrar discriminante E-5/E-6 de §7. ↓
+> > > >
+> > > > > **NODO DE VERIFICACIÓN — Administrar preguntas discriminantes del par orientado**
+> > > > >
+> > > > > Confirmar exclusión antes de producir codificación. Si el par discriminante no puede resolverse → Código de imposibilidad para evaluar o rango de incertidumbre entre dos estados. ↓
+> > > > >
+> > > > > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+> > > >
+> > > > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+> > >
+> > > > **NODO DE VERIFICACIÓN — Administrar preguntas discriminantes del par orientado**
+> > > >
+> > > > Confirmar exclusión antes de producir codificación. Si el par discriminante no puede resolverse → Código de imposibilidad para evaluar o rango de incertidumbre entre dos estados. ↓
+> > > >
+> > > > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+> > >
+> > > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+> >
+> > > **PREGUNTA 3 — ¿Qué produce el campo? ¿Puede producir diferencia genuina que el ego registre?**
+> > >
+> > > SÍ (el campo puede producir diferencia que el ego registra y procesa) → Orientación hacia E-1. Confirmar con señal EP-1 o EP-2. NO — por saturación (el ego ya es la geometría del campo, no puede registrar diferencia) → Orientación hacia E-5. NO — por nulidad del efecto (el ego opera, pero sus actos no producen diferencia en el campo) → Orientación hacia E-6. Administrar discriminante E-5/E-6 de §7. ↓
+> > >
+> > > > **NODO DE VERIFICACIÓN — Administrar preguntas discriminantes del par orientado**
+> > > >
+> > > > Confirmar exclusión antes de producir codificación. Si el par discriminante no puede resolverse → Código de imposibilidad para evaluar o rango de incertidumbre entre dos estados. ↓
+> > > >
+> > > > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+> > >
+> > > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+> >
+> > > **NODO DE VERIFICACIÓN — Administrar preguntas discriminantes del par orientado**
+> > >
+> > > Confirmar exclusión antes de producir codificación. Si el par discriminante no puede resolverse → Código de imposibilidad para evaluar o rango de incertidumbre entre dos estados. ↓
+> > >
+> > > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+> >
+> > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+>
+> > **PREGUNTA 2 — ¿Desde dónde opera φ₂? ¿Desde el eje propio del sujeto o desde el eje de un Otro internalizado?**
+> >
+> > Desde eje propio (el criterio es identificablemente suyo, sobrevive a la ausencia del Otro) → Ir a PREGUNTA 3.
+> >
+> > Desde eje ajeno (el criterio tiene origen externo identificable, colapsa con el cuestionamiento del Otro) → Orientación hacia E-4. Administrar discriminante E-1/E-4 y E-4/E-2 de §7. ↓
+> >
+> > > **PREGUNTA 3 — ¿Qué produce el campo? ¿Puede producir diferencia genuina que el ego registre?**
+> > >
+> > > SÍ (el campo puede producir diferencia que el ego registra y procesa) → Orientación hacia E-1. Confirmar con señal EP-1 o EP-2. NO — por saturación (el ego ya es la geometría del campo, no puede registrar diferencia) → Orientación hacia E-5. NO — por nulidad del efecto (el ego opera, pero sus actos no producen diferencia en el campo) → Orientación hacia E-6. Administrar discriminante E-5/E-6 de §7. ↓
+> > >
+> > > > **NODO DE VERIFICACIÓN — Administrar preguntas discriminantes del par orientado**
+> > > >
+> > > > Confirmar exclusión antes de producir codificación. Si el par discriminante no puede resolverse → Código de imposibilidad para evaluar o rango de incertidumbre entre dos estados. ↓
+> > > >
+> > > > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+> > >
+> > > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+> >
+> > > **NODO DE VERIFICACIÓN — Administrar preguntas discriminantes del par orientado**
+> > >
+> > > Confirmar exclusión antes de producir codificación. Si el par discriminante no puede resolverse → Código de imposibilidad para evaluar o rango de incertidumbre entre dos estados. ↓
+> > >
+> > > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+> >
+> > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+>
+> > **PREGUNTA 3 — ¿Qué produce el campo? ¿Puede producir diferencia genuina que el ego registre?**
+> >
+> > SÍ (el campo puede producir diferencia que el ego registra y procesa) → Orientación hacia E-1. Confirmar con señal EP-1 o EP-2. NO — por saturación (el ego ya es la geometría del campo, no puede registrar diferencia) → Orientación hacia E-5. NO — por nulidad del efecto (el ego opera, pero sus actos no producen diferencia en el campo) → Orientación hacia E-6. Administrar discriminante E-5/E-6 de §7. ↓
+> >
+> > > **NODO DE VERIFICACIÓN — Administrar preguntas discriminantes del par orientado**
+> > >
+> > > Confirmar exclusión antes de producir codificación. Si el par discriminante no puede resolverse → Código de imposibilidad para evaluar o rango de incertidumbre entre dos estados. ↓
+> > >
+> > > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+> >
+> > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+>
+> > **NODO DE VERIFICACIÓN — Administrar preguntas discriminantes del par orientado**
+> >
+> > Confirmar exclusión antes de producir codificación. Si el par discriminante no puede resolverse → Código de imposibilidad para evaluar o rango de incertidumbre entre dos estados. ↓
+> >
+> > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+>
+> SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
 
-NO (no puede distinguir entre lo propio y lo que simplemente ocurrió) → Orientación hacia E-2 o D-2 pasiva. Ir a PREGUNTA 1b. SÍ → ¿Desde dónde opera φ₂? Ir a PREGUNTA 2. ↓
+> **PREGUNTA 1b — ¿Hay un querer presente que no puede actualizarse en actos (E-3) o ausencia de querer diferenciado (E-2)?**
+>
+> Hay querer con bloqueo de φ₂ (puede nombrar lo que quería y lo que lo impidió) → Orientación hacia E-3. Administrar discriminante E-3/E-2 de §7. No hay querer diferenciado (simplemente no decidió, ocurrió) → Orientación hacia E-2. Verificar si hay D-2 asociado (Eje IV). ↓
+>
+> > **PREGUNTA 2 — ¿Desde dónde opera φ₂? ¿Desde el eje propio del sujeto o desde el eje de un Otro internalizado?**
+> >
+> > Desde eje propio (el criterio es identificablemente suyo, sobrevive a la ausencia del Otro) → Ir a PREGUNTA 3.
+> >
+> > Desde eje ajeno (el criterio tiene origen externo identificable, colapsa con el cuestionamiento del Otro) → Orientación hacia E-4. Administrar discriminante E-1/E-4 y E-4/E-2 de §7. ↓
+> >
+> > > **PREGUNTA 3 — ¿Qué produce el campo? ¿Puede producir diferencia genuina que el ego registre?**
+> > >
+> > > SÍ (el campo puede producir diferencia que el ego registra y procesa) → Orientación hacia E-1. Confirmar con señal EP-1 o EP-2. NO — por saturación (el ego ya es la geometría del campo, no puede registrar diferencia) → Orientación hacia E-5. NO — por nulidad del efecto (el ego opera, pero sus actos no producen diferencia en el campo) → Orientación hacia E-6. Administrar discriminante E-5/E-6 de §7. ↓
+> > >
+> > > > **NODO DE VERIFICACIÓN — Administrar preguntas discriminantes del par orientado**
+> > > >
+> > > > Confirmar exclusión antes de producir codificación. Si el par discriminante no puede resolverse → Código de imposibilidad para evaluar o rango de incertidumbre entre dos estados. ↓
+> > > >
+> > > > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+> > >
+> > > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+> >
+> > > **NODO DE VERIFICACIÓN — Administrar preguntas discriminantes del par orientado**
+> > >
+> > > Confirmar exclusión antes de producir codificación. Si el par discriminante no puede resolverse → Código de imposibilidad para evaluar o rango de incertidumbre entre dos estados. ↓
+> > >
+> > > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+> >
+> > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+>
+> > **PREGUNTA 3 — ¿Qué produce el campo? ¿Puede producir diferencia genuina que el ego registre?**
+> >
+> > SÍ (el campo puede producir diferencia que el ego registra y procesa) → Orientación hacia E-1. Confirmar con señal EP-1 o EP-2. NO — por saturación (el ego ya es la geometría del campo, no puede registrar diferencia) → Orientación hacia E-5. NO — por nulidad del efecto (el ego opera, pero sus actos no producen diferencia en el campo) → Orientación hacia E-6. Administrar discriminante E-5/E-6 de §7. ↓
+> >
+> > > **NODO DE VERIFICACIÓN — Administrar preguntas discriminantes del par orientado**
+> > >
+> > > Confirmar exclusión antes de producir codificación. Si el par discriminante no puede resolverse → Código de imposibilidad para evaluar o rango de incertidumbre entre dos estados. ↓
+> > >
+> > > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+> >
+> > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+>
+> > **NODO DE VERIFICACIÓN — Administrar preguntas discriminantes del par orientado**
+> >
+> > Confirmar exclusión antes de producir codificación. Si el par discriminante no puede resolverse → Código de imposibilidad para evaluar o rango de incertidumbre entre dos estados. ↓
+> >
+> > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+>
+> SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
 
-PREGUNTA 1b — ¿Hay un querer presente que no puede actualizarse en actos (E-3) o ausencia de querer diferenciado (E-2)?
+> **PREGUNTA 2 — ¿Desde dónde opera φ₂? ¿Desde el eje propio del sujeto o desde el eje de un Otro internalizado?**
+>
+> Desde eje propio (el criterio es identificablemente suyo, sobrevive a la ausencia del Otro) → Ir a PREGUNTA 3.
+>
+> Desde eje ajeno (el criterio tiene origen externo identificable, colapsa con el cuestionamiento del Otro) → Orientación hacia E-4. Administrar discriminante E-1/E-4 y E-4/E-2 de §7. ↓
+>
+> > **PREGUNTA 3 — ¿Qué produce el campo? ¿Puede producir diferencia genuina que el ego registre?**
+> >
+> > SÍ (el campo puede producir diferencia que el ego registra y procesa) → Orientación hacia E-1. Confirmar con señal EP-1 o EP-2. NO — por saturación (el ego ya es la geometría del campo, no puede registrar diferencia) → Orientación hacia E-5. NO — por nulidad del efecto (el ego opera, pero sus actos no producen diferencia en el campo) → Orientación hacia E-6. Administrar discriminante E-5/E-6 de §7. ↓
+> >
+> > > **NODO DE VERIFICACIÓN — Administrar preguntas discriminantes del par orientado**
+> > >
+> > > Confirmar exclusión antes de producir codificación. Si el par discriminante no puede resolverse → Código de imposibilidad para evaluar o rango de incertidumbre entre dos estados. ↓
+> > >
+> > > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+> >
+> > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+>
+> > **NODO DE VERIFICACIÓN — Administrar preguntas discriminantes del par orientado**
+> >
+> > Confirmar exclusión antes de producir codificación. Si el par discriminante no puede resolverse → Código de imposibilidad para evaluar o rango de incertidumbre entre dos estados. ↓
+> >
+> > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+>
+> SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
 
-Hay querer con bloqueo de φ₂ (puede nombrar lo que quería y lo que lo impidió) → Orientación hacia E-3. Administrar discriminante E-3/E-2 de §7. No hay querer diferenciado (simplemente no decidió, ocurrió) → Orientación hacia E-2. Verificar si hay D-2 asociado (Eje IV). ↓
+> **PREGUNTA 3 — ¿Qué produce el campo? ¿Puede producir diferencia genuina que el ego registre?**
+>
+> SÍ (el campo puede producir diferencia que el ego registra y procesa) → Orientación hacia E-1. Confirmar con señal EP-1 o EP-2. NO — por saturación (el ego ya es la geometría del campo, no puede registrar diferencia) → Orientación hacia E-5. NO — por nulidad del efecto (el ego opera, pero sus actos no producen diferencia en el campo) → Orientación hacia E-6. Administrar discriminante E-5/E-6 de §7. ↓
+>
+> > **NODO DE VERIFICACIÓN — Administrar preguntas discriminantes del par orientado**
+> >
+> > Confirmar exclusión antes de producir codificación. Si el par discriminante no puede resolverse → Código de imposibilidad para evaluar o rango de incertidumbre entre dos estados. ↓
+> >
+> > SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
+>
+> SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
 
-PREGUNTA 2 — ¿Desde dónde opera φ₂? ¿Desde el eje propio del sujeto o desde el eje de un Otro internalizado?
-
-Desde eje propio (el criterio es identificablemente suyo, sobrevive a la ausencia del Otro) → Ir a PREGUNTA 3.
-
-Entrevista Clínica Ontológica · ECO
-
-Desde eje ajeno (el criterio tiene origen externo identificable, colapsa con el cuestionamiento del Otro) → Orientación hacia E-4. Administrar discriminante E-1/E-4 y E-4/E-2 de §7. ↓
-
-PREGUNTA 3 — ¿Qué produce el campo? ¿Puede producir diferencia genuina que el ego registre?
-
-SÍ (el campo puede producir diferencia que el ego registra y procesa) → Orientación hacia E-1. Confirmar con señal EP-1 o EP-2. NO — por saturación (el ego ya es la geometría del campo, no puede registrar diferencia) → Orientación hacia E-5. NO — por nulidad del efecto (el ego opera, pero sus actos no producen diferencia en el campo) → Orientación hacia E-6. Administrar discriminante E-5/E-6 de §7. ↓
-
-NODO DE VERIFICACIÓN — Administrar preguntas discriminantes del par orientado
-
-Confirmar exclusión antes de producir codificación. Si el par discriminante no puede resolverse → Código de imposibilidad para evaluar o rango de incertidumbre entre dos estados. ↓
+> **NODO DE VERIFICACIÓN — Administrar preguntas discriminantes del par orientado**
+>
+> Confirmar exclusión antes de producir codificación. Si el par discriminante no puede resolverse → Código de imposibilidad para evaluar o rango de incertidumbre entre dos estados. ↓
+>
+> SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
 
 SALIDA — Código del Eje I (E-1 a E-6) + Nivel EP + Nota de modulación sobre el Bloque I → Continuar a Módulo Eje II
 
