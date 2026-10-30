@@ -1,12 +1,7 @@
-### B·IV · §3 ·  CUÁNDO ECO ESTÁ COMPLETO
+# B·IV·3 · CUÁNDO ECO ESTÁ COMPLETO Y CUÁNDO NO
+## Criterios de cierre · La Declaración de Incertidumbre ECO · Localizaciones no concluyentes
 
-### Y CUÁNDO NO
-
-### Criterios de cierre · La Declaración de Incertidumbre ECO · Localizaciones no
-
-concluyentes Qué completa el instrumento, qué declara su incertidumbre, y qué hacer
-
-cuando la localización no puede determinarse
+*Qué completa el instrumento, qué declara su incertidumbre, y qué hacer cuando la localización no puede determinarse*
 
 ### III.  Cuándo ECO está completo — la condición de cierre
 
@@ -14,7 +9,6 @@ El instrumento ECO está completo cuando ha producido lo que puede producir desd
 
 La condición de cierre no es la certeza total: es el agotamiento de la evidencia disponible en las condiciones de la administración. El mediador que ha administrado todos los módulos obligatorios, ha usado todas las fuentes disponibles, ha aplicado todos los protocolos
 
-Entrevista Clínica Ontológica · ECO
 
 de discriminación relevantes y ha producido la localización más precisa que esa evidencia permite ha completado ECO. Si hay componentes que no alcanzaron la certeza que el instrumento puede alcanzar en condiciones óptimas, esos componentes se declaran con su nivel real de certeza — lo que es un resultado honesto del instrumento, no una falla del proceso.
 
@@ -30,7 +24,6 @@ Definición Condición diagnóstica
 
 <!-- TABLA: estados de cierre | columnas: estado de localización, protocolo que activa, resultado y paso siguiente -->
 
-### Entrevista Clínica Ontológica · ECO
 
 Completo con alta certeza
 
@@ -64,7 +57,6 @@ La localización no puede determinarse con ninguna certeza razonable en los comp
 
 Producir la DI-ECO con descripción precisa de la contradicción y de lo que sería necesario para resolverla. Determinar si
 
-### Entrevista Clínica Ontológica · ECO
 
 pueden resolverse con la evidencia disponible. Un módulo produce H-3 pero otro módulo produce señales incompatibles con ese H-3.
 
@@ -82,21 +74,21 @@ Ego genuino no localizable desde esta administración del instrumento. La locali
 
 ### El árbol de decisión de cierre — protocolo formal
 
-> **NODO C·1 — ¿Todos los módulos obligatorios fueron administrados o saltados con justificación documentada?**
->
-> NO → Instrumento incompleto. Determinar si los módulos faltantes pueden administrarse antes del cierre o si el cierre debe declararse como «incompleto» con nota de los módulos pendientes. SÍ → Continuar a NODO C·2. ↓
+**NODO C·1 — ¿Todos los módulos obligatorios fueron administrados o saltados con justificación documentada?**
 
-> **NODO C·2 — ¿Los componentes principales de la localización (distribución P(Hijos) + al menos 3 de los 5 códigos de Eje) alcanzaron EP-2 o superior?**
->
-> NO (uno o más componentes principales tienen EP-3 o inferior) → Localización completa con incertidumbre declarada. Producir DI-ECO. Continuar a NODO C·3. SÍ → Continuar a NODO C·3. ↓
+NO → Instrumento incompleto. Determinar si los módulos faltantes pueden administrarse antes del cierre o si el cierre debe declararse como «incompleto» con nota de los módulos pendientes. SÍ → Continuar a NODO C·2. ↓
 
-> **NODO C·3 — ¿Hay contradicciones entre módulos que no pudieron resolverse con el protocolo de discriminación?**
->
-> SÍ → Localización no concluyente en los componentes contradictorios. Producir DI-ECO con descripción de la contradicción. Ver §3.3 de esta sección. NO → Continuar a NODO C·4. ↓
+**NODO C·2 — ¿Los componentes principales de la localización (distribución P(Hijos) + al menos 3 de los 5 códigos de Eje) alcanzaron EP-2 o superior?**
 
-> **NODO C·4 — ¿El ego genuino del sujeto produjo señal diagnóstica en al menos un módulo (D-2 no es total)?**
->
-> NO (D-2 profundo con ausencia de D-1 residual en todos los módulos) → Instrumento no evaluable: ego genuino inaccesible. DI-ECO con nota de D-2. Ver §3.4. SÍ → Instrumento completo. Producir hoja de síntesis con nivel de certeza declarado por componente. ↓
+NO (uno o más componentes principales tienen EP-3 o inferior) → Localización completa con incertidumbre declarada. Producir DI-ECO. Continuar a NODO C·3. SÍ → Continuar a NODO C·3. ↓
+
+**NODO C·3 — ¿Hay contradicciones entre módulos que no pudieron resolverse con el protocolo de discriminación?**
+
+SÍ → Localización no concluyente en los componentes contradictorios. Producir DI-ECO con descripción de la contradicción. Ver §3.3 de esta sección. NO → Continuar a NODO C·4. ↓
+
+**NODO C·4 — ¿El ego genuino del sujeto produjo señal diagnóstica en al menos un módulo (D-2 no es total)?**
+
+NO (D-2 profundo con ausencia de D-1 residual en todos los módulos) → Instrumento no evaluable: ego genuino inaccesible. DI-ECO con nota de D-2. Ver §3.4. SÍ → Instrumento completo. Producir hoja de síntesis con nivel de certeza declarado por componente. ↓
 
 SALIDA — Estado del cierre de ECO + DI-ECO si aplica + Hoja de síntesis → Determinar el paso siguiente
 
@@ -110,7 +102,6 @@ Estructura de la DI-ECO
 
 La DI-ECO tiene cinco secciones que el mediador completa cuando produce el cierre del instrumento en cualquier estado distinto de «completo con alta certeza». Cada sección tiene preguntas específicas que orientan la redacción.
 
-Entrevista Clínica Ontológica · ECO
 
 DI-ECO §A — Motivo de la incertidumbre Descripción precisa del motivo por el que el instrumento no puede producir localización con alta certeza. Los motivos reconocidos son cinco: (a) módulos no administrados, con descripción de cuáles y por qué; (b) EP insuficiente en los componentes principales, con descripción de qué módulos y qué nivel EP alcanzaron; (c) contradicción entre módulos, con descripción precisa de la contradicción; (d) ego genuino inaccesible (D-2 profundo), con descripción de las señales que sustentan esa conclusión; (e) sujeto no participó suficientemente, con descripción de en qué momento y de qué manera la participación fue insuficiente para producir señal diagnóstica.
 
@@ -124,7 +115,6 @@ DI-ECO §E — Vigencia de la localización Declaración del período durante el
 
 ### Cuándo la localización es no concluyente — diagnóstico de la contradicción
 
-Entrevista Clínica Ontológica · ECO
 
 La localización no concluyente —el estado C·3 del árbol de decisión de cierre— ocurre cuando los módulos producen señales que se contradicen de manera que el protocolo de discriminación estándar no puede resolver. Las contradicciones más frecuentes en el instrumento son cuatro: Harmonía en el módulo H coexistiendo con D-2 en el Eje IV (contradicción ontológica que el módulo H ya establece como condición de revisión), Anteros H-3 con EP-1 coexistiendo con E-4 en el Eje I (la señal de afirmación del eje propio coexistiendo con el código de eje ajeno internalizado), señal de V-1 en el Eje III coexistiendo con M-2 en el Eje II (encuentro genuino con la alteridad coexistiendo con máscara que reemplazó al ego), y Eros H-3 con EP-1 coexistiendo con E-4 en el Eje I (apertura genuina ante lo nuevo coexistiendo con orientación desde el Otro internalizado).
 
@@ -134,7 +124,6 @@ Protocolo para contradicciones frecuentes — especificación de contexto Cuando
 
 Si la especificación de contexto no resuelve la contradicción —si el sujeto produce señales contradictorias en el mismo campo relacional y en el mismo momento— la localización es genuinamente no concluyente en ese componente. El mediador produce la DI-ECO
 
-Entrevista Clínica Ontológica · ECO
 
 con descripción de la contradicción, declara las condiciones que podrían resolverla, y determina si el proceso de Histos puede iniciarse desde los componentes que sí fueron localizados con certeza mientras la contradicción se trabaja como parte del proceso de acompañamiento.
 
@@ -146,7 +135,6 @@ La distinción entre la localización del campo y la localización del ego genui
 
 DI-ECO para ego genuino inaccesible — redacción obligatoria Cuando el cierre del instrumento produce el estado C·4 (ego genuino inaccesible), la DI-ECO debe incluir: la descripción precisa de las señales que sustentan el diagnóstico de D-2 profundo (qué módulos, qué señales, qué EP tienen esas señales), la nota sobre si hay algún canal de D-1 residual identificado aunque sea mínimo (si hay: describir el canal y su potencial para el inicio del trabajo de reactivación), y la recomendación sobre el paso siguiente (derivación clínica si D-2 está asociado a condiciones que requieren evaluación, o descripción de las condiciones de campo que deberían crearse antes de la re-
 
-Entrevista Clínica Ontológica · ECO
 
 administración del instrumento). No proceder a Histos desde esta DI-ECO sin evaluación adicional del estado del ego genuino.
 
@@ -160,7 +148,6 @@ La re-administración de ECO no necesita ser la administración completa del ins
 
 Tabla de vigencia orientativa de la localización por estado
 
-Entrevista Clínica Ontológica · ECO
 
 Completo con alta certeza: vigencia orientativa de 6 meses en campo estable. / Completo con incertidumbre declarada: vigencia orientativa de 3 meses. / Incompleto (módulos faltantes): vigencia limitada al episodio de administración — la localización describe el estado en ese momento, pero no puede proyectarse. / No concluyente: vigencia del episodio de administración. Re-administración de los módulos no concluyentes antes de iniciar Histos. / No evaluable (ego genuino inaccesible): sin vigencia para Histos. Re-administración cuando las condiciones de acceso al ego genuino hayan cambiado.
 
@@ -174,13 +161,14 @@ Opción NC·2 —  Iniciar Histos desde los componentes concluyentes con DI-ECO 
 
 Opción NC·3 —  Declarar el instrumento no concluyente y evaluar condiciones antes de continuar Cuando la contradicción es en un componente tan central que iniciar Histos desde una localización no concluyente en ese componente sería más riesgoso que esperar a que la localización pueda precisarse. El caso más frecuente: Harmonía vs. D-2 no resueltos desde ECO.
 
-Entrevista Clínica Ontológica · ECO
 
 Acción: Producir la DI-ECO completa. Declarar que el instrumento no puede orientar el proceso de Histos con la certeza necesaria hasta que la contradicción específica se resuelva. Establecer las condiciones que permitirían resolverla: una sesión adicional, una evaluación clínica, o el paso del tiempo con observación del campo del sujeto.
 
 La opción NC·3 es la más difícil de comunicar al sujeto o al encargado sin producir el error E·1 o el error E·5. El mediador que dice al sujeto «el instrumento no puede concluir» puede estar produciendo el error E·5 (el instrumento como fin) o el error E·1 (revelando información diagnóstica). La comunicación sin etiqueta de la opción NC·3: «Hay algo en lo que hemos explorado que necesita más tiempo o más contexto para poder orientar el trabajo de la manera más precisa posible. No es que algo esté mal — es que la imagen todavía no está completa. Hay opciones para cómo seguir desde aquí». Esa formulación honra la incertidumbre sin producir diagnóstico.
 
-Notas al B·IV §3
+---
+
+## Notas al B·IV §3
 
 1 La Declaración de Incertidumbre ECO (DI-ECO) documenta, para cada caso, qué componentes no pudieron localizarse con suficiente certeza, qué evidencia produjo ese límite y qué condiciones permitirían precisarlos. Así orienta el uso prudente de los componentes localizados y el inicio del trabajo de Histos.
 
@@ -189,6 +177,4 @@ Notas al B·IV §3
 3 La distinción entre la localización del campo que actúa en nombre del ego genuino y la localización del ego genuino mismo tiene consecuencias para el análisis de responsabilidad del Método Prometeo. En D-2 profundo, el instrumento de evaluación de los propios actos está apagado junto con el instrumento de registro de la brecha. La estimación de α debe considerar esta condición al atribuir los actos al sujeto o al campo que actúa en su nombre.
 
 4 Las cuatro contradicciones frecuentes del instrumento que la sección §3 describe — Harmonía/D-2, Anteros/E-4, V-1/M-2, Eros/E-4 — son también las que más frecuentemente el mediador en formación produce como errores de administración. La contradicción Anteros H-3 EP-1 con E-4 en el Eje I, por ejemplo, puede producirse cuando el mediador leyó como Anteros las señales de E-4 que en el módulo A producen afirmación del criterio ajeno como si fuera propio. En ese caso, la contradicción no describe un estado complejo del sujeto: describe un error de lectura del Módulo A que el Eje I corrige. El mediador que produce esa contradicción y la trata como contradicción del sujeto en lugar de como señal de revisión de su propia lectura del Módulo A está produciendo una localización incorrecta que la DI-ECO no puede corregir — solo puede declarar.
-
-Entrevista Clínica Ontológica · ECO
 
