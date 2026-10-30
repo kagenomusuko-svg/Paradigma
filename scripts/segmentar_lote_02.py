@@ -77,61 +77,47 @@ def boundaries_axiomatizacion(lines):
 
 def boundaries_eco(lines):
     result=[]
-
-    def marker_before(index, marker_pattern):
-        for position, previous in previous_nonblank(lines, index, 3):
-            if re.fullmatch(marker_pattern, previous.strip()):
-                return position, previous.strip()
-        return None, None
-
-    preliminary_pattern = r"<!-- PARTE: PRELIMINAR · Fundamentos del instrumento -->"
-    preliminary_part = {"key":"PRELIMINAR","heading":"Parte preliminar · Fundamentos del instrumento"}
-    for number in range(1,6):
-        index=next(i for i,line in enumerate(lines) if line.strip()=="Capítulo P·%s" % number)
-        start, marker=marker_before(index, preliminary_pattern)
-        if start is None:
-            raise RuntimeError("ECO: falta el marcador de parte preliminar antes del capítulo P·%s." % number)
-        item=unit(start,"capitulo","capitulo-p-%s.md" % number,"P·%s" % number,"Capítulo P·%s" % number)
-        item["part"]=preliminary_part
-        result.append(item)
-
     part_labels = {
+        "PRELIMINAR": {"key":"PRELIMINAR","heading":"Parte preliminar · Fundamentos del instrumento"},
         "I": {"key":"PARTE-I","heading":"Parte I · Los Hijos de Afrodita"},
         "II": {"key":"PARTE-II","heading":"Parte II · Los cinco ejes del SDO"},
         "III": {"key":"PARTE-III","heading":"Parte III · La entrevista al ego colectivo"},
         "IV": {"key":"PARTE-IV","heading":"Parte IV · Principios generales de intervención"},
+        "APENDICES": {"key":"APENDICES","heading":"Apéndices · Instrumentos de trabajo del mediador"},
     }
-    appendix_start=None
-    for index,raw in enumerate(lines):
+
+    for number in range(1,6):
+        index=next(i for i,line in enumerate(lines) if line.strip()=="Capítulo P·%s" % number)
+        item=unit(index,"capitulo","capitulo-p-%s.md" % number,"P·%s" % number,"Capítulo P·%s" % number)
+        item["part"]=part_labels["PRELIMINAR"]
+        result.append(item)
+
+    appendix_start=next(
+        (i for i,line in enumerate(lines)
+         if re.match(r"^A·1\b.*HOJA DE SÍNTESIS DE LA SESIÓN",line.strip(),re.IGNORECASE)),
+        None,
+    )
+    if appendix_start is None:
+        raise RuntimeError("ECO: no se encontró el inicio del apéndice A·1.")
+
+    for index,raw in enumerate(lines[:appendix_start]):
         text=raw.strip()
-        if text == "<!-- PARTE: APÉNDICES · Instrumentos de trabajo del mediador -->":
-            appendix_start=index
-            continue
-        if appendix_start is not None:
-            continue
         if not re.match(r"^B·(?:I·[FDAPEH]|II·(?:I|II|III|IV|V)|III·[1-5]|IV(?: · §[2-5])?)\b",text): continue
-        if text.startswith("B·IV · PRINCIPIOS"):
+        if re.match(r"^B·IV\s*·\s*PRINCIPIOS",text):
             code="IV"; key="B·IV·1"; filename="bloque-iv-01.md"
-        elif text.startswith("B·IV · §"):
-            code="IV"; number=int(re.match(r"^B·IV · §([2-5])",text).group(1)); key="B·IV·%s" % number; filename="bloque-iv-%02d.md" % number
+        elif (section:=re.match(r"^B·IV\s*·\s*§([2-5])",text)):
+            code="IV"; number=int(section.group(1)); key="B·IV·%s" % number; filename="bloque-iv-%02d.md" % number
         else:
             code=text.split("·")[1].strip()
-            key=text.split(" · ")[0]
+            key=text.split(" · ")[0].strip()
             filename=key.replace("·","-").lower()+".md"
-        marker_pattern = r"<!-- PARTE: %s -->" % re.escape(part_labels[code]["heading"].replace("Parte ","",1))
-        start, marker=marker_before(index, marker_pattern)
-        if start is None:
-            raise RuntimeError("ECO: falta el marcador de %s antes de %s." % (part_labels[code]["heading"], key))
-        item=unit(start,"modulo",filename,key,text)
+        item=unit(index,"modulo",filename,key,text)
         item["part"]=part_labels[code]
         result.append(item)
 
-    if appendix_start is None:
-        raise RuntimeError("ECO: falta el marcador de la parte de apéndices.")
-    appendix_part={"key":"APENDICES","heading":"Apéndices · Instrumentos de trabajo del mediador"}
-    item=unit(appendix_start,"apendices","90-apendices.md","APENDICES",appendix_part["heading"])
-    item["part"]=appendix_part
-    result.append(item)
+    appendix=unit(appendix_start,"apendices","90-apendices.md","APENDICES","Apéndices · Instrumentos de trabajo del mediador")
+    appendix["part"]=part_labels["APENDICES"]
+    result.append(appendix)
     return result
 
 def boundaries_calculo(lines):
