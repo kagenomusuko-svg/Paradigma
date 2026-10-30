@@ -1,8 +1,7 @@
-### B·II·II ·  MÓDULO EJE II — MASCARADA
+# B·II·II · MÓDULO EJE II — MASCARADA
+## La forma que el ego toma en el mundo
 
-### La forma que el ego toma en el mundo
-
-Localización de los códigos M-1, M-2 y M-3 del Eje II
+*Localización de los códigos M-1, M-2 y M-3 del Eje II*
 
 ### I.  Fundamento del módulo — la distinción constitutiva
 
@@ -10,7 +9,6 @@ El Eje II del SDO describe cómo el ego se presenta en el campo relacional: la f
 
 La distinción central del Eje II es la que separa modulación de impostura. Modulación (M-1) es la operación del ego que elige adaptar su código relacional al contexto: muestra una parte diferente de sí mismo según la situación, pero en cada situación hay alguien que elige qué parte mostrar. Impostura (M-2) es la operación inversa: el código relacional reemplaza al ego. Ya no hay alguien que elige; hay solo la parte que el contexto demanda operando en nombre del sujeto. La diferencia no es de grado —más o menos adaptación— sino de naturaleza: ¿hay operador detrás de la adaptación?
 
-Entrevista Clínica Ontológica · ECO
 
 El tercer código, M-3, no describe el estado de un individuo sino el estado de un campo: la mascarada institucional es la condición en que la impostura opera como norma colectiva invisible. Nadie la impone conscientemente; todos la reproducen porque es el código de pertenencia del campo. M-3 produce individuos en M-2 que no lo saben —porque la máscara es el agua en que nadan— y puede coexistir con individuos en M-1 que la reconocen como norma del campo, aunque no la reproduzcan.
 
@@ -34,7 +32,6 @@ El sujeto puede describir qué elige mostrar y qué no, y puede identificar el c
 
 M-
 
-### Entrevista Clínica Ontológica · ECO
 
 tiene posición sobre su propia adaptación. EP-2: narrativa coherente de la distinción entre adaptación elegida y eje sostenido.
 
@@ -64,7 +61,6 @@ M-
 
 El Módulo Eje II siempre se administra después del Módulo Eje I. La orientación del Eje I es el contexto más importante para el módulo: si el Eje I produjo E-1 confirmado con EP-1 y la apertura narrativa no mostró ninguna señal de adaptación contextual sin operador, el módulo puede acortarse a la pregunta ancla y el Sondeo
 
-Entrevista Clínica Ontológica · ECO
 
 MAS·1 antes de determinar si el módulo completo es necesario. Si hay señal en esa primera verificación, el módulo se completa.
 
@@ -98,7 +94,6 @@ Variantes por perfil
 
 > Sondeo MAS·5 — La norma del campo «¿Sientes que la manera en que te presentas en tu entorno principal — trabajo, familia, comunidad — es algo que elegiste, o es simplemente cómo las cosas se hacen ahí, la norma del campo?» [Pregunta discriminante para M-3. Lo que el mediador observa: si el sujeto puede distinguir entre su elección individual y la norma del campo, o si la norma del campo es el horizonte dentro del cual toda elección ocurre sin que pueda ser cuestionada. M-3: el sujeto no puede imaginar fácilmente presentarse de manera diferente en ese contexto sin perder pertenencia. M-1: el sujeto puede imaginar —aunque sea con incomodidad— una presentación diferente dentro del mismo campo.]
 >
-> ### Entrevista Clínica Ontológica · ECO
 
 > Sondeo MAS·6 — La presentación en esta sesión «En esta conversación conmigo, ¿estás mostrando la versión de ti que elegirías mostrar si pudieras elegir libremente, o hay algo que estás ajustando al contexto de la sesión?» [Esta pregunta puede producir EP-1 directamente. Lo que el mediador observa: si el sujeto puede producir una descripción de la elección que hace en la sesión misma. M-1: puede describir qué está eligiendo mostrar y qué no con alguna especificidad. M-2: no puede distinguir entre lo que muestra y lo que elegiría mostrar, o la distinción produce incomodidad visible. La honestidad de la respuesta también es información: el sujeto que puede decir «sí, estoy mostrando una versión cuidada» está mostrando capacidad de autobservación que orienta hacia M-1.]
 >
@@ -107,7 +102,6 @@ Variantes por perfil
 ### V.  Señales de observación directa
 
 <!-- TABLA: códigos M-1 a M-3 | columnas: código, definición, firma en presencia, señal EP y criterio -->
-
 
 
 Señal en narrativa Error de lectura frecuente
@@ -124,7 +118,6 @@ Describe adaptaciones automáticas a contextos distintos
 
 Confundir con M-1 flexible: tanto M-1 como M-2 producen adaptación contextual.
 
-### Entrevista Clínica Ontológica · ECO
 
 mostrar si pudiera elegir. O produce esa diferencia solo cuando el mediador la pregunta explícitamente, con incomodidad visible.
 
@@ -144,9 +137,8 @@ La señal más diagnóstica del Módulo Eje II es la que el campo relacional de 
 
 La variación sin hilo es la señal de M-2 más sutil: el sujeto que produce versiones muy distintas en momentos distintos de la sesión —sin que haya un hilo identificable que las atraviese— puede estar mostrando que no hay operador que elija qué versión mostrar, sino que cada contexto produce su versión automáticamente. El mediador que puede registrar esta variación sin hilo y distinguirla de
 
-Entrevista Clínica Ontológica · ECO
 
-### la variación con hilo de M-1 tiene la señal diagnóstica del módulo en el campo relacional más inmediato.
+la variación con hilo de M-1 tiene la señal diagnóstica del módulo en el campo relacional más inmediato.
 
 ### VI.  Árbol de decisión interno del módulo
 
@@ -192,7 +184,6 @@ M-1: puede identificar algo detrás de la adaptación con cierta especificidad. 
 
 ### «¿Esa manera de presentarte — la que produce el contexto — es algo que podrías cambiar si decidieras hacerlo,
 
-### Entrevista Clínica Ontológica · ECO
 
 aunque te costara, o es la norma del campo en que operas, la manera en que las cosas se hacen ahí?» [La pregunta sobre la agencia individual. Lo que el mediador observa: si el sujeto puede imaginar una alternativa a su presentación dentro del mismo campo, aunque sea con costo, o si la norma del campo es el horizonte dentro del cual toda presentación posible se define.]
 
@@ -212,7 +203,6 @@ E-1 (sin M-1): el sujeto describe consistencia de presentación más que consist
 
 M-1: el sujeto puede describir que hay alguien que elige — que no siempre muestra lo mismo, sino que elige qué parte mostrar según el contexto. La coherencia de M-1 no es uniformidad: es consistencia del operador que elige. El sujeto puede ser muy diferente en contextos distintos y estar en M-1.
 
-Entrevista Clínica Ontológica · ECO
 
 ### VIII.  Criterios de codificación
 
@@ -228,7 +218,6 @@ El código del Eje II modifica la lectura de los Hijos del Bloque I de una maner
 
 La mascarada institucional (M-3) es el estado más frecuente del ego colectivo en el paradigma. Las organizaciones como sistemas producen códigos de presentación que sus miembros aprenden a
 
-Entrevista Clínica Ontológica · ECO
 
 reproducir sin que nadie los haya diseñado conscientemente: el tono de las comunicaciones, la manera de presentar los problemas, el lenguaje que es posible usar en cada contexto, los temas que pueden nombrarse y los que no. Esa codificación invisible es M-3 cuando se ha vuelto tan totalizante que ningún miembro puede imaginar una presentación colectiva alternativa sin perder la pertenencia.
 
@@ -262,19 +251,20 @@ La cultura organizacional genuina produce coherencia de presentación desde un e
 >
 > > Condición de derivación a Histos desde M-2 M-2 confirmado con EP-1 + Eje IV evaluado (D-1 o D-2 identificado) + resto del Bloque II completo. La derivación incluye nota sobre si M-2 coexiste con D-1 (hay señal activa que trabajar) o con D-2 (la reactivación de la señal es el primer objetivo). Sin el código del Eje IV, la derivación desde M-2 no puede orientar correctamente el inicio del trabajo de Histos.
 > >
-> > Notas al Módulo B·II·II
-> >
-> > 1 La relación entre M-2 y la disforia de identidad que el Manual Clínico describe es directa: la disforia de identidad es el estado del sujeto que opera desde una suma fáctica que actúa como si fuera él. Esa suma fáctica que actúa en nombre del sujeto es exactamente lo que M-2 describe en el nivel de la presentación: el código que reemplazó al ego opera en el campo relacional en nombre del sujeto. La distinción entre disforia activa (D-1) y disforia pasiva (D-2) es la misma distinción que en el Eje II se aplica como M-2 con D-1 vs. M-2 con D-2.
-> >
-> > 2 La regla de no nombrar la impostura directamente al sujeto durante la sesión tiene una excepción importante: cuando el sujeto mismo la nombra. El sujeto que dice «sé que estoy usando una máscara» o «siento que no soy yo en ese contexto» está nombrando M-2 desde adentro — desde la señal de D-1 que todavía opera. En ese caso el mediador puede trabajar directamente con ese nombramiento, sin añadir ningún diagnóstico adicional: el sujeto ya tiene acceso a la señal y el mediador puede acompañar esa señal sin amplificarla ni suprimirla.
-> >
-> > 3 La distinción entre M-3 y cultura organizacional genuina que se desarrolla en §10 tiene implicaciones para el Mediador Modelador que analiza fenómenos
-> >
-> >
-> > culturales, políticos o históricos. Las instituciones que el Mediador Modelador analiza operan frecuentemente en M-3 sin que sus actores lo reconozcan — la norma invisible es precisamente lo que hace invisibles los actos que esa norma produce. El análisis ontológico que el Mediador Modelador realiza puede revelar M-3 donde el análisis convencional veía cultura o tradición. Esa revelación tiene consecuencias para la estimación de S de los actores que operan dentro del campo M-3: sus actos tienen mayor S porque el código del campo condiciona φ₁ de manera más intensa de lo que la narrativa institucional reconoce.
-> >
-> > 4 La coexistencia M-2/M-3 que el módulo establece como codificación posible tiene una implicación práctica para el análisis del ego colectivo: un sujeto puede estar en M-2 individual dentro de un campo en M-3, o puede estar en M-1 dentro de ese mismo campo. La presencia de M-3 en el colectivo no implica que todos los miembros estén en M-2: hay sujetos que pueden ver la norma desde afuera, aunque operen dentro de ella. Esos sujetos — los que están en M-1 dentro de un campo M-3 — son con frecuencia los portadores de la capacidad de cambio del colectivo, porque pueden imaginar alternativas que los sujetos en M-2 dentro de M-3 no pueden imaginar.
-> >
-> >
-> > BLOQUE II · Los cinco ejes del SDO
+---
 
+## Notas al Módulo B·II·II
+
+1 La relación entre M-2 y la disforia de identidad que el Manual Clínico describe es directa: la disforia de identidad es el estado del sujeto que opera desde una suma fáctica que actúa como si fuera él. Esa suma fáctica que actúa en nombre del sujeto es exactamente lo que M-2 describe en el nivel de la presentación: el código que reemplazó al ego opera en el campo relacional en nombre del sujeto. La distinción entre disforia activa (D-1) y disforia pasiva (D-2) es la misma distinción que en el Eje II se aplica como M-2 con D-1 vs. M-2 con D-2.
+
+2 La regla de no nombrar la impostura directamente al sujeto durante la sesión tiene una excepción importante: cuando el sujeto mismo la nombra. El sujeto que dice «sé que estoy usando una máscara» o «siento que no soy yo en ese contexto» está nombrando M-2 desde adentro — desde la señal de D-1 que todavía opera. En ese caso el mediador puede trabajar directamente con ese nombramiento, sin añadir ningún diagnóstico adicional: el sujeto ya tiene acceso a la señal y el mediador puede acompañar esa señal sin amplificarla ni suprimirla.
+
+3 La distinción entre M-3 y cultura organizacional genuina que se desarrolla en §10 tiene implicaciones para el Mediador Modelador que analiza fenómenos
+
+
+culturales, políticos o históricos. Las instituciones que el Mediador Modelador analiza operan frecuentemente en M-3 sin que sus actores lo reconozcan — la norma invisible es precisamente lo que hace invisibles los actos que esa norma produce. El análisis ontológico que el Mediador Modelador realiza puede revelar M-3 donde el análisis convencional veía cultura o tradición. Esa revelación tiene consecuencias para la estimación de S de los actores que operan dentro del campo M-3: sus actos tienen mayor S porque el código del campo condiciona φ₁ de manera más intensa de lo que la narrativa institucional reconoce.
+
+4 La coexistencia M-2/M-3 que el módulo establece como codificación posible tiene una implicación práctica para el análisis del ego colectivo: un sujeto puede estar en M-2 individual dentro de un campo en M-3, o puede estar en M-1 dentro de ese mismo campo. La presencia de M-3 en el colectivo no implica que todos los miembros estén en M-2: hay sujetos que pueden ver la norma desde afuera, aunque operen dentro de ella. Esos sujetos — los que están en M-1 dentro de un campo M-3 — son con frecuencia los portadores de la capacidad de cambio del colectivo, porque pueden imaginar alternativas que los sujetos en M-2 dentro de M-3 no pueden imaginar.
+
+
+BLOQUE II · Los cinco ejes del SDO
