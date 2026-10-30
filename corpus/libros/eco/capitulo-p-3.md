@@ -1,4 +1,4 @@
-### Capítulo P·3
+# Capítulo P·3
 
 ## Condiciones de administración
 
@@ -14,7 +14,6 @@ Las condiciones de administración de ECO tienen cuatro dimensiones: la formaci�
 >
 > En este instrumento, una administración válida no es una que produjo resultados correctos —eso se verifica después. Es una que cumplió las condiciones que hacen posible que los resultados sean verificables. La distinción es la misma que existe entre un experimento bien diseñado y uno cuyos resultados son los esperados: el diseño correcto es condición de validez; los resultados esperados son consecuencia posible, no criterio.
 
-Entrevista Clínica Ontológica · ECO
 
 ### II.  Formación requerida del mediador
 
@@ -32,7 +31,6 @@ El segundo cuerpo de conocimiento es la escala de evidencia personal y el sistem
 
 #### Dominio del perfil propio
 
-Entrevista Clínica Ontológica · ECO
 
 El tercer cuerpo de conocimiento es el conocimiento de la especialidad propia: qué bloques usa su perfil, con qué profundidad, y qué pregunta orienta su uso del instrumento. El Capítulo P·2 establece esto para cada uno de los seis perfiles. El mediador que no ha leído el capítulo correspondiente a su especialidad no sabe qué está buscando con el instrumento, incluso si sabe cómo administrarlo.
 
@@ -48,7 +46,6 @@ Además del dominio conceptual, el instrumento recomienda que el mediador haya a
 
 El encuadre es lo que el mediador hace antes de abrir el primer módulo. No es una formalidad administrativa: es la operación que crea las condiciones relacionales de la sesión. Un encuadre correcto produce un campo en el que el ego genuino del sujeto puede manifestarse. Un encuadre incorrecto produce exactamente lo contrario: un campo donde el sujeto se adapta a lo que percibe que el mediador espera, y lo que ECO localiza es esa adaptación, no la configuración real de la voluntad.
 
-Entrevista Clínica Ontológica · ECO
 
 #### Lo que se le dice al sujeto
 
@@ -68,7 +65,6 @@ El mediador tampoco le dice al sujeto cuántos módulos tiene el instrumento ni 
 
 #### El protocolo de apertura
 
-Entrevista Clínica Ontológica · ECO
 
 Antes de iniciar el primer módulo, el mediador realiza una apertura narrativa libre: una invitación al sujeto a contar, sin estructura, el período que se va a analizar. Esta apertura tiene entre diez y veinte minutos y produce dos cosas simultáneamente. La primera: material narrativo que el mediador lee con las señales preliminares de los módulos sin interrumpir al sujeto. La segunda: la calibración del campo relacional de la sesión — el mediador observa cómo el sujeto habita la conversación antes de que las preguntas estructuradas empiecen.
 
@@ -84,7 +80,6 @@ Antes de iniciar el primer módulo, el mediador realiza una apertura narrativa l
 
 El encuadre incluye una condición que el mediador debe gestionar sobre sí mismo y no solo sobre el sujeto: la identificación de su propia P(Hijos) antes de la sesión. El mediador que entra a ECO en Fobos leerá urgencia donde puede haber Anteros. El mediador en Deimos evitará las preguntas discriminantes más difíciles. El mediador en Eros recibirá con entusiasmo lo que el sujeto produce sin la distancia que la codificación requiere. Conocer el propio Hijo dominante antes de la sesión no elimina su efecto en el campo, pero hace posible que el mediador lo observe en lugar de confundirlo con lo que el sujeto produce.
 
-Entrevista Clínica Ontológica · ECO
 
 ### IV.  Duración y estructura temporal
 
@@ -119,7 +114,6 @@ La distribución recomendada del instrumento en sesiones múltiples depende del 
 
 La distribución en sesiones no es rígida. Un mediador en crisis que trabaja con un sujeto en estado agudo puede necesitar distribuir el Bloque I en tres sesiones más cortas. Un mediador estructural que busca solo los parámetros S y α puede completar los módulos
 
-Entrevista Clínica Ontológica · ECO
 
 relevantes en una sola sesión de 60 minutos. Lo que no es negociable es el tiempo mínimo por módulo: comprimir el Módulo H a menos de 20 minutos invalida la discriminación Harmonía/D-2, que es la función más exigente del instrumento.
 
@@ -155,7 +149,6 @@ La declaración especifica: qué condición de invalidación se presentó, en qu
 
 #### Lo que no invalida una administración
 
-Entrevista Clínica Ontológica · ECO
 
 Para que la lista anterior no produzca parálisis, es importante establecer lo que no invalida una administración. La incomodidad del sujeto durante la sesión no la invalida —es señal, no problema. El silencio sostenido del sujeto ante una pregunta no la invalida — puede ser evidencia de Deimos. Las respuestas inesperadas o contradictorias del sujeto no la invalidan —son información diagnóstica. La fatiga del sujeto al final de la sesión no la invalida, aunque sí puede justificar dividir la administración en una sesión adicional. Los errores menores de formulación del mediador no la invalidan, siempre que no hayan intervenido para calmar la incomodidad del sujeto.
 
@@ -163,18 +156,16 @@ La regla general es esta: invalida lo que contamina el campo relacional de la se
 
 > *Una sesión sin ninguna incomodidad no ha localizado nada. Ha localizado la imagen que el sujeto considera presentable en ese contexto. Eso también es un hallazgo: el código M-2 del Eje II. Pero no es la configuración de la voluntad que los módulos del Bloque I buscan.*
 
-Notas al capítulo P·3
+---
+
+## Notas al capítulo P·3
 
 1 La recomendación de tres administraciones supervisadas antes del uso autónomo no es un requisito formal del instrumento sino una orientación de formación. Los programas de certificación del paradigma establecerán los requisitos específicos de práctica supervisada para cada perfil de mediador. Lo que el instrumento establece es el principio: el campo relacional del mediador necesita calibración que solo la práctica supervisada puede proveer.
 
 2 La formulación de apertura recomendada en la Sección III no es un guion que debe reproducirse palabra por palabra. Es la estructura mínima que el encuadre debe tener: qué es el instrumento, qué va a ocurrir, qué no va a ocurrir. La adaptación al contexto, al sujeto y al perfil del mediador es esperada y necesaria. Lo que no puede adaptarse es la declaración de que no habrá evaluación ni diagnóstico durante la sesión: esa declaración es la que crea las condiciones de campo.
 
-Entrevista Clínica Ontológica · ECO
 
 3 Los tiempos por módulo en la tabla de la Sección IV son orientativos para el perfil estándar. Casos con sujetos en E-3 (afasia volitiva) pueden requerir tiempos significativamente mayores en todos los módulos porque la producción narrativa es más lenta y más fragmentada. Casos con sujetos en E-6 (Aego) pueden requerir módulos más cortos porque la señal disponible es mínima y extender el tiempo no produce señal adicional.
 
 4 La condición de invalidación por «respuestas orientadas a la imagen» merece una aclaración: el hecho de que el sujeto sostenga una imagen en sesión no es en sí mismo una condición de invalidación. Es un hallazgo —el código M-2 del Eje II. La condición de invalidación se cumple cuando esa orientación es tan consistente y sostenida que no hay ninguna señal del ego genuino en ningún momento de la sesión. En ese caso, lo que ECO ha localizado es el estado de la mascarada, no la configuración de la voluntad que está detrás de ella.
-
-Entrevista Clínica Ontológica · ECO
-
 
