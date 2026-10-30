@@ -35,7 +35,9 @@ En el dominio clínico, el grafo es interior. Los nodos son factores de la histo
 
 La consecuencia práctica es fundamental: en el dominio clínico, α no es una acción externa (reportar, reparar, reconocer). Es φ₂: la segunda mediación, el proceso de asumir el acto como propio e integrarlo en la historia. El trabajo terapéutico es exactamente el trabajo de α: construir la capacidad de asumir lo que ocurrió, no para cargarlo como culpa, sino para integrarlo como parte de la propia historia y dejar de ser determinado por ello.
 
-> **Nota ontológica fundamental:** En clínica, nadie es culpable de su síntoma. El grafo causal no produce un vector de culpa sino un mapa de peso: qué factores de la historia tienen mayor influencia causal en lo que ocurre hoy. El factor con R* más alto no es el culpable: es el que más necesita ser trabajado. Esta distinción es la que permite usar el sistema sin reproducir la dinámica de culpabilización que muchos pacientes ya cargan.
+::: {.recuadro .nota-verde}
+**Nota ontológica fundamental:** En clínica, nadie es culpable de su síntoma. El grafo causal no produce un vector de culpa sino un mapa de peso: qué factores de la historia tienen mayor influencia causal en lo que ocurre hoy. El factor con R* más alto no es el culpable: es el que más necesita ser trabajado. Esta distinción es la que permite usar el sistema sin reproducir la dinámica de culpabilización que muchos pacientes ya cargan.
+:::
 
 
 ### §2.  Página puente — Traducción al lenguaje clínico
@@ -175,7 +177,9 @@ está distribuido entre muchos nodos (distribución plana), el síntoma es sist�
 - Como medida de progreso: calcular R* al inicio de la terapia, a los seis meses y al año permite ver si el tratamiento está actuando sobre los nodos de mayor peso o solo sobre los más accesibles.
 
 
-> **Nota clínica:** El error clínico que R* ayuda a evitar: intervenir en el nodo más accesible en lugar del nodo de mayor peso. El paciente frecuentemente trae a sesión el nodo que le es más fácil narrar, no el nodo que tiene mayor peso causal en su síntoma. Un grafo causal bien construido permite distinguir entre la narrativa del paciente (qué dice que es el problema) y la estructura causal (qué tiene mayor peso en el síntoma).
+::: {.recuadro .nota-verde}
+**Nota clínica:** El error clínico que R* ayuda a evitar: intervenir en el nodo más accesible en lugar del nodo de mayor peso. El paciente frecuentemente trae a sesión el nodo que le es más fácil narrar, no el nodo que tiene mayor peso causal en su síntoma. Un grafo causal bien construido permite distinguir entre la narrativa del paciente (qué dice que es el problema) y la estructura causal (qué tiene mayor peso en el síntoma).
+:::
 
 #### 3.3 S en clínica: sustituibilidad del factor y genericidad del síntoma
 
@@ -367,7 +371,9 @@ Dilema de Aquiles:  El atrapamiento entre dos posibilidades igualmente imposible
 
 El dilema de Aquiles no se resuelve eligiendo una de las dos opciones: se resuelve cuando el sujeto puede transformar la forma en que vive el coste de cada opción. La terapia no da la respuesta: amplía el espacio desde el que el sujeto puede relacionarse con las dos opciones sin que la parálisis sea la única salida. Formalmente: el dilema existe porque θ_E (umbral de Eros hacia lo nuevo) y θ_F (umbral de Fobos ante la pérdida) están en tensión irresolvible. La intervención trabaja esos umbrales, no la elección.
 
-> **Nota clínica:** El error clínico más frecuente ante el dilema de Aquiles es intentar resolver el dilema ayudando al sujeto a "tomar una decisión". Eso reproduce el dilema en lugar de transformarlo. La intervención eficaz trabaja la relación del sujeto con la pérdida (qué hace que el costo de cada opción sea insoportable) y con la certeza (por qué el sujeto necesita saber de antemano el resultado antes de poder actuar). Solo cuando esa relación cambia, el dilema deja de ser un atrapamiento.
+::: {.recuadro .nota-verde}
+**Nota clínica:** El error clínico más frecuente ante el dilema de Aquiles es intentar resolver el dilema ayudando al sujeto a "tomar una decisión". Eso reproduce el dilema en lugar de transformarlo. La intervención eficaz trabaja la relación del sujeto con la pérdida (qué hace que el costo de cada opción sea insoportable) y con la certeza (por qué el sujeto necesita saber de antemano el resultado antes de poder actuar). Solo cuando esa relación cambia, el dilema deja de ser un atrapamiento.
+:::
 
 #### 3.8 D_total clínico: el daño biográfico y la ganancia terapéutica
 
@@ -739,5 +745,6 @@ Análisis clínico — caso hipotético ===") for i, (nm, rs, si, di) in enumera
 Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y Asesoría A.C., 2026
 
 Continúa en el Capítulo 6 — Epidemiología
+
 
 
