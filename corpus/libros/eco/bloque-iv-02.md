@@ -1,10 +1,7 @@
-### B·IV · §2 ·  LA LOCALIZACIÓN SIN
+# B·IV·2 · LA LOCALIZACIÓN SIN ETIQUETA
+## Cómo usar lo encontrado sin nombrarlo
 
-### ETIQUETA
-
-Cómo usar lo encontrado sin nombrarlo El principio de no-etiquetado · Traducción de localizaciones a campo
-
-relacional · Tabla de conversión módulo a módulo
+*El principio de no-etiquetado · Traducción de localizaciones a campo relacional · Tabla de conversión módulo a módulo*
 
 ### II.  La localización sin etiqueta — fundamento y principio
 
@@ -12,7 +9,6 @@ El principio de no-etiquetado establece que el mediador usa la localización de 
 
 La razón ontológica de este principio no es la modestia técnica del mediador ni la cautela ante la susceptibilidad del sujeto. Es más fundamental: el trabajo de acompañamiento opera sobre el ego genuino del sujeto, y el ego genuino no puede ser contactado a través de las etiquetas del sistema. Solo puede ser contactado a través de la experiencia que el sujeto tiene de sí mismo —con las palabras que el sujeto usa para describirla, con las imágenes y las sensaciones que el sujeto puede producir desde su propio campo interno. La etiqueta
 
-Entrevista Clínica Ontológica · ECO
 
 del sistema —«estás en Fobos», «tu Hijo dominante es Potós»— no llega al ego genuino del sujeto: llega a la capa de procesamiento conceptual del sujeto, que puede adoptar la etiqueta, cuestionarla o rechazarla, pero no puede usarla para contactar lo que el ego genuino del sujeto produce desde adentro.
 
@@ -24,7 +20,6 @@ La distinción entre el lenguaje interno y el lenguaje de sesión
 
 El lenguaje interno del mediador —los términos técnicos del sistema— tiene tres funciones en el proceso de acompañamiento. La primera es la documentación: el mediador registra en la hoja de síntesis las localizaciones de ECO con toda la precisión técnica del sistema, usando los términos exactos de los módulos del Bloque I y el Bloque II. La segunda es la comunicación con otros mediadores: cuando el caso requiere supervisión, consulta o derivación, el lenguaje técnico del sistema permite comunicar el estado del sujeto con precisión que ningún lenguaje coloquial puede producir con la misma economía. La tercera es la orientación del proceso: el mediador usa la localización para determinar qué condiciones debe
 
-Entrevista Clínica Ontológica · ECO
 
 crear en las sesiones de Histos, en qué orden, con qué profundidad y con qué ritmo.
 
@@ -36,7 +31,6 @@ La destreza técnica más importante del principio de no-etiquetado es la traduc
 
 La traducción tiene dirección única: del lenguaje del sistema hacia el lenguaje del sujeto, nunca al revés. El mediador puede convertir la localización de Fobos H-3 EP-1 en preguntas que trabajan con la urgencia reactiva que el sujeto describe. Lo que el mediador no hace es convertir las palabras del sujeto («hay algo que me produce urgencia ante lo que pueda perder») en las palabras del sistema («ese es su Fobos»). La conversión del lenguaje del sujeto hacia el lenguaje del sistema ocurre en el campo del mediador, en silencio, como
 
-Entrevista Clínica Ontológica · ECO
 
 operación interna de comprensión diagnóstica. Nunca ocurre en el campo de la sesión.
 
@@ -52,9 +46,8 @@ Hay una excepción que el sistema reconoce: el sujeto que pregunta directamente.
 
 Los pares de comparación que siguen ilustran la diferencia entre el lenguaje etiquetado que el mediador no usa en sesión y el lenguaje sin etiqueta que usa. Cada par corresponde a una localización
 
-### Entrevista Clínica Ontológica · ECO
 
-### específica del instrumento y muestra cómo la localización orienta el campo de la sesión sin que el nombre del código aparezca en él.
+específica del instrumento y muestra cómo la localización orienta el campo de la sesión sin que el nombre del código aparezca en él.
 
 #### Localización interna: Fobos H-3 con EP-1 — urgencia reactiva ante objeto de amenaza activo
 
@@ -94,7 +87,6 @@ mediador no dice
 
 «Ese criterio que describes — ¿hay alguien cuya opinión, si dijera que ese criterio está equivocado, te haría dudar de él de una manera que no ocurre con otras opiniones?
 
-### Entrevista Clínica Ontológica · ECO
 
 ¿Quién tendría que decirte que estás equivocado para que genuinamente consideraras que podrías estarlo?» [La pregunta del colapso del Otro, tomada directamente de D·EI·1, sin nombrar E-4 ni el Otro internalizado.]
 
@@ -134,7 +126,6 @@ Localización interna del mediador
 
 Pregunta que orienta el proceso sin etiqueta
 
-### Entrevista Clínica Ontológica · ECO
 
 Fobos H-3 EP-1 activo
 
@@ -166,7 +157,6 @@ D-2 EP-1 profundo con ausencia de D-1 residual
 
 La localización le dice al mediador que el instrumento de registro del ego genuino puede estar apagado. Sin etiqueta, el mediador crea condiciones para que cualquier señal residual del ego genuino pueda producirse — no nombra D-2, no produce la información del estado, crea espacio. La pregunta puede producir temperatura interna
 
-### Entrevista Clínica Ontológica · ECO
 
 si hay D-1 residual, o planitud si D-2 es profundo.
 
@@ -192,7 +182,6 @@ V-2 Peribea con E-1 activo
 
 Una de las funciones más importantes de la localización sin etiqueta es orientar el ritmo del proceso: cuándo el mediador puede profundizar, cuándo debe sostener el espacio sin avanzar, y cuándo necesita ralentizar ante una señal que indica que el ego genuino del sujeto no está en condiciones de recibir lo que la localización sugiere que podría recibir. Esa función de orientación del ritmo es invisible para el sujeto —el sujeto no ve que el mediador está usando la
 
-Entrevista Clínica Ontológica · ECO
 
 localización para determinar el ritmo— pero es una de las consecuencias más prácticas del principio de no-etiquetado.
 
@@ -206,7 +195,6 @@ El principio de no-etiquetado aplica al ego colectivo con las mismas consecuenci
 
 El principio de no-etiquetado en el ego colectivo tiene la misma justificación que en el individuo, pero produce una respuesta ligeramente diferente ante la expectativa del diagnóstico. El mediador puede entregar una hoja de síntesis con los componentes
 
-Entrevista Clínica Ontológica · ECO
 
 de la localización colectiva expresados en lenguaje descriptivo no técnico — sin los nombres de los Hijos ni los códigos de los ejes, pero con las descripciones de los comportamientos que esas localizaciones describen. «El colectivo tiende a reaccionar con urgencia ante lo que percibe como amenaza externa, y esa urgencia con frecuencia anticipa el análisis de la naturaleza real de la amenaza» es la descripción sin etiqueta de Fobos colectivo. «El colectivo tiene dificultad para orientarse ante decisiones que requieren criterio nuevo que los procedimientos establecidos no contemplan» es la descripción sin etiqueta de Deimos colectivo. El encargado recibe información que puede usar; el sistema no recibe la contaminación de que su lenguaje técnico circule en el campo sin el proceso de acompañamiento que ese lenguaje requiere.
 
@@ -216,7 +204,6 @@ La localización como orientador de la derivación
 
 Una función específica de la localización sin etiqueta que las secciones anteriores no desarrollan en detalle: el mediador usa la localización para determinar cuándo y a dónde derivar, sin que esa derivación revele la localización al sujeto. Si la localización de ECO indica D-2 profundo con V-3 y sin D-1 residual, el mediador sabe que el caso necesita evaluación clínica antes de Histos. La derivación que el mediador produce puede formularse sin la localización técnica: «Hay algo en lo que describes que me hace pensar que el proceso de acompañamiento se beneficiaría de que también pudieras hablar con alguien que tiene especialización clínica en lo que estás viviendo. No es que algo esté mal — es que lo que describes tiene más capas de las que ECO puede explorar completamente». La
 
-Entrevista Clínica Ontológica · ECO
 
 derivación se produce; la localización que la orienta permanece en el campo del mediador.
 
@@ -228,13 +215,14 @@ El objetivo último del principio de no-etiquetado no es que el sujeto nunca sep
 
 Cuando el sujeto produce esas emergencias desde adentro, el mediador puede — en ese momento y solo en ese momento — usar el lenguaje del sistema de manera muy cuidadosa y solo si eso añade algo a lo que el sujeto ya produjo. «Lo que describes tiene un nombre en el sistema que usamos: podría llamarse la urgencia reactiva de quien tiene algo en riesgo». Esa introducción es legítima solo porque el sujeto ya produjo la experiencia desde sí mismo y el término técnico puede añadir precisión a algo que el sujeto ya encontró, no puede reemplazar un hallazgo que el sujeto todavía no produjo. La
 
-Entrevista Clínica Ontológica · ECO
 
-### diferencia entre introducir el término cuando el sujeto ya encontró la experiencia y hacerlo antes de que la encuentre es exactamente la diferencia entre orientar y sustituir.
+diferencia entre introducir el término cuando el sujeto ya encontró la experiencia y hacerlo antes de que la encuentre es exactamente la diferencia entre orientar y sustituir.
 
 El principio de no-etiquetado — síntesis operativa El mediador trabaja con dos lenguajes: el lenguaje interno del sistema (técnico, diagnóstico, orientador del proceso) y el lenguaje de sesión del sujeto (experiencial, narrativo, generado desde el ego genuino del sujeto). Los dos lenguajes nunca se mezclan en el campo de la sesión. La traducción del lenguaje del sistema al lenguaje de sesión es la destreza técnica central del Bloque IV. El objetivo del proceso es que el sujeto llegue eventualmente a las descripciones que el sistema produjo desde afuera, desde adentro — lo que ocurre cuando Histos trabaja sobre el ego genuino con el mapa que ECO proveyó.
 
-Notas al B·IV §2
+---
+
+## Notas al B·IV §2
 
 1 La distinción entre el lenguaje interno del mediador y el lenguaje de sesión que el §2 establece tiene un fundamento que va más allá de la técnica de intervención: es una distinción ontológica sobre la naturaleza del conocimiento clínico. El mediador que sabe que el sujeto está en Fobos no sabe «la verdad del sujeto» — sabe la representación de esa experiencia en el lenguaje técnico del sistema. La experiencia del sujeto es más rica, más específica y más genuinamente suya que cualquier representación que el sistema pueda producir. La humildad epistémica del principio de no-etiquetado no es solo táctica — es el reconocimiento de que la localización es una representación útil pero no es la experiencia misma.
 
@@ -242,12 +230,8 @@ Notas al B·IV §2
 
 3 La emergencia de la localización desde el sujeto que el texto principal describe como el objetivo del proceso tiene una forma específica en contextos de D-2. Cuando el instrumento de registro del ego genuino se apagó, la emergencia de la experiencia desde adentro — la señal que Histos busca — puede no producirse con el mismo vocabulario experiencial que el sujeto en D-1 produce. La reactivación de D-2 puede producir señales muy suaves, muy parciales, que
 
-Entrevista Clínica Ontológica · ECO
 
 el mediador necesita amplificar sin nombrar. «Eso que acaba de decir — que hay algo que se mueve cuando piensa en ese período — ¿puede quedarse un momento con eso?» es el tipo de intervención que amplifica la señal de D-2 reactivando sin nombrar ni D-2 ni el ego genuino.
 
 4 La regla de entrega de resultados al encargado que el §2 establece para el ego colectivo tiene implicaciones para la práctica del Mediador Organizacional que merecen un desarrollo que el instrumento ECO no puede producir aquí: la ética de los encargos institucionales en el paradigma de Mediación Ontológica. Cuando el encargado es la institución y el sujeto son los miembros, hay una tensión inherente entre la información que el encargado necesita para tomar decisiones y la información que el mediador produjo en condición de confidencialidad con los sujetos entrevistados. Esa tensión requiere que el mediador establezca el encuadre ético del encargo antes de administrar ECO — determinando qué información puede fluir hacia el encargado y qué información permanece en el campo del mediador — de manera que los sujetos entrevistados puedan consentir informadamente las condiciones de confidencialidad del proceso.
-
-Entrevista Clínica Ontológica · ECO
-
 
