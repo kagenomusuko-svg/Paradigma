@@ -2626,7 +2626,7 @@
     "id": "ECO",
     "title": "ECO: Entrevista Clínica Ontológica",
     "source": "corpus/fuentes/ECO Entrevista Clínica Ontológica.md",
-    "sha256": "6fdd18a5134a2f6e5c8839a4c01039c703d35366bb327430d64ed374df343daf",
+    "sha256": "ee77fe762df8c4068d02653258485ce4bcedfd2d6ec0fb0619da43f0d44537de",
     "collection": "Autodeterminación Causal",
     "volume": null,
     "source_anomalies": [],
@@ -2748,55 +2748,47 @@
         "key": "B·III·2",
         "heading": "B·III·2 ·  ENTREVISTA A LOS MIEMBROS",
         "start_line": 5883,
-        "end_line": 6196
-      },
-      {
-        "path": "corpus/libros/eco/b-iii-3.md",
-        "kind": "modulo",
-        "key": "B·III·3",
-        "heading": "B·III·3 ·  AGREGACIÓN DE LOCALIZACIONES INDIVIDUALES",
-        "start_line": 6197,
-        "end_line": 6498
+        "end_line": 6562
       },
       {
         "path": "corpus/libros/eco/b-iii-4.md",
         "kind": "modulo",
         "key": "B·III·4",
         "heading": "B·III·4 ·  ANÁLISIS DE ARTEFACTOS",
-        "start_line": 6499,
-        "end_line": 6798
+        "start_line": 6563,
+        "end_line": 6862
       },
       {
         "path": "corpus/libros/eco/b-iii-5.md",
         "kind": "modulo",
         "key": "B·III·5",
         "heading": "B·III·5 ·  MEMORIA COMUNITARIA — LO QUE FUE, LO QUE ES, LO QUE PUDO SER",
-        "start_line": 6799,
-        "end_line": 7112
+        "start_line": 6863,
+        "end_line": 7176
       },
       {
         "path": "corpus/libros/eco/b-iv.md",
         "kind": "modulo",
         "key": "B·IV",
         "heading": "B·IV ·  PRINCIPIOS GENERALES DE",
-        "start_line": 7113,
-        "end_line": 7544
+        "start_line": 7177,
+        "end_line": 7608
       },
       {
         "path": "corpus/libros/eco/bloque-iv-03.md",
         "kind": "modulo",
         "key": "B·IV·3",
         "heading": "B·IV · §3 ·  CUÁNDO ECO ESTÁ COMPLETO",
-        "start_line": 7545,
-        "end_line": 8102
+        "start_line": 7609,
+        "end_line": 8166
       },
       {
         "path": "corpus/libros/eco/90-apendices.md",
         "kind": "apendices",
         "key": "APENDICES",
         "heading": "APÉNDICES · Instrumentos de trabajo del mediador",
-        "start_line": 8103,
-        "end_line": 9737
+        "start_line": 8167,
+        "end_line": 9801
       }
     ]
   },
