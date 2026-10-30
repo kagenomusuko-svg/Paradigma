@@ -1,6 +1,7 @@
-### Capítulo P·1
+# Capítulo P·1
+## Qué es ECO y qué no es
 
-Qué es ECO y qué no es La función del instrumento en el sistema
+*La función del instrumento en el sistema*
 
 ### I.  El punto de partida que este capítulo establece
 
@@ -8,7 +9,6 @@ El mediador que abre este libro por primera vez necesita saber una cosa antes de
 
 ECO —Entrevista Clínica Ontológica— es el instrumento de localización de la configuración de la voluntad mediante la presencia del sujeto. Esa definición tiene cuatro elementos que merecen cada uno una lectura precisa. El primero: ECO es un instrumento, no un método, no una técnica, no una escuela de acompañamiento. Un instrumento tiene estructura interna replicable, criterios de aplicación explícitos, condiciones de validez definidas y salidas que pueden verificarse. El segundo: ECO localiza. No interpreta en el sentido de producir narrativas sobre el sujeto. No prescribe en el sentido de decir al sujeto qué debe hacer. Localiza: determina en qué posición de la voluntad se encuentra el sujeto en el momento analizado. El tercero: lo que localiza es la configuración de la
 
-Entrevista Clínica Ontológica · ECO
 
 voluntad. No la personalidad, no el diagnóstico psicológico, no el perfil de competencias. La configuración de la voluntad en el sentido ontológico preciso que el SDO establece: los Hijos de Afrodita que dominan la dimensión afrodítica y arética, los códigos de los cinco ejes que describen el estado del ego. El cuarto: la localización ocurre mediante la presencia del sujeto. Ese es el dato diferencial que define la función de ECO en el sistema y que ningún otro instrumento puede replicar.
 
@@ -22,7 +22,6 @@ La salida de ECO no es un diagnóstico clínico ni un perfil del sujeto. Es una 
 
 El primer componente es la distribución P(Hijos): seis números que suman 1.00, uno por cada Hijo de Afrodita, con el nivel de certeza explícito de cada peso asignado. Esta distribución es el equivalente relacional de la distribución P(Hijos) que el árbol documental
 
-Entrevista Clínica Ontológica · ECO
 
 produce desde evidencia documental. La diferencia es que ECO puede asignar peso positivo a Harmonía —lo que el árbol documental nunca puede hacer— y puede confirmar Potós y Eros en lugar de dejarlos en hipótesis. El segundo componente es la localización en los cinco ejes del SDO: los códigos E, M, V, D y T que describen la configuración del ego del sujeto en el momento analizado. El tercer componente son los principios de intervención orientadores: no el proceso de acompañamiento completo —ese pertenece a Histos— sino las orientaciones inmediatas que el mediador necesita para no cometer los errores más frecuentes con lo que encontró.
 
@@ -34,7 +33,6 @@ Estos tres componentes son la totalidad de lo que ECO produce. El mediador que e
 
 Hay algo que ECO produce que no aparece en ninguna descripción formal del instrumento pero que el mediador entrenado reconoce: la relación que se establece en la sesión es en sí misma evidencia. La manera en que el sujeto se relaciona con el mediador durante ECO —cómo responde, cómo evita, cómo se abre o se cierra, si puede desacordar o si acepta todo lo que el mediador introduce— es señal diagnóstica de primer orden. El Módulo Eje III desarrolla esto con la precisión que merece. Lo que importa establecer aquí es que ECO no es solo lo que el mediador pregunta: es también lo que el mediador observa en el campo que se crea entre los dos.
 
-Entrevista Clínica Ontológica · ECO
 
 ### III.  Relación con los demás instrumentos del paradigma
 
@@ -55,7 +53,6 @@ Hay un cuarto instrumento cuya relación con ECO merece una nota específica: la
 
 La delimitación negativa de un instrumento es tan importante como su definición positiva. El mediador que sabe qué hace ECO, pero no sabe qué no hace cometerá errores que el instrumento no puede corregir porque los produce quien lo administra, no el instrumento mismo.
 
-Entrevista Clínica Ontológica · ECO
 
 ECO no es un sustituto del SDO
 
@@ -71,7 +68,6 @@ ECO no es el proceso de acompañamiento
 
 Este punto merece énfasis especial porque es el error de uso más frecuente del instrumento entre mediadores en formación. ECO produce una localización y orientaciones de intervención inmediatas. No produce el proceso de acompañamiento que esa localización requiere. La diferencia entre localización y acompañamiento es la
 
-Entrevista Clínica Ontológica · ECO
 
 misma que existe entre diagnóstico y tratamiento: el primero es condición necesaria del segundo, pero no lo contiene. El proceso completo de acompañamiento —sesión a sesión, con sus instrumentos específicos, su temporalidad y su lógica de progresión— pertenece a Histos. El mediador que intenta hacer acompañamiento dentro de ECO confunde el instrumento de lectura con el instrumento de intervención y compromete la calidad de ambos.
 
@@ -87,7 +83,6 @@ La localización que ECO produce es una distribución de probabilidad, no una as
 
 La tentación al abrir un instrumento de esta naturaleza es ir directamente al primer módulo y empezar a aplicar. Esa tentación es la razón por la que este capítulo existe. El mediador que no ha leído qué hace ECO antes de administrarlo produce dos clases de error que el instrumento no puede detectar porque ocurren en el nivel de
 
-Entrevista Clínica Ontológica · ECO
 
 la comprensión del mediador, no en el nivel de los criterios del instrumento.
 
@@ -103,13 +98,14 @@ Este capítulo ha establecido tres cosas. La primera: qué es ECO con precisión
 
 Lo que este capítulo no ha establecido es cómo se usa ECO. Eso requiere los cuatro capítulos que siguen en la Parte Preliminar. El Capítulo P·2 describe los seis perfiles de mediador que usan ECO y la proporción y el tipo de uso de cada uno —porque el instrumento
 
-Entrevista Clínica Ontológica · ECO
 
 se administra de manera diferente según el perfil y el contexto. El Capítulo P·3 establece las condiciones de administración: qué debe estar en su lugar para que una sesión de ECO sea válida. El Capítulo P·4 fija las convenciones del instrumento: los símbolos, los códigos y la escala EP que se usan en todos los módulos. El Capítulo P·5 establece la lógica de navegación: los criterios de entrada, las reglas de salto y los criterios de cierre que hacen del instrumento algo más que una lista de preguntas.
 
 Con la Parte Preliminar completa, el Bloque I puede comenzar. El primer módulo —Fobos— es el más legible de los seis y sirve como calibrador del instrumento: el mediador que puede administrarlo con precisión ha internalizado la estructura que los cinco módulos restantes y los cinco módulos de ejes del Bloque II comparten.
 
-Notas al capítulo P·1
+---
+
+## Notas al capítulo P·1
 
 1 La definición de ECO como instrumento de localización de la configuración de la voluntad sigue el principio metrológico establecido en el Documento Fundacional del paradigma: la metrología ontológica no es una especialidad sino el agua en que todos nadan. ECO es la operacionalización de ese principio en el nivel de la sesión individual o colectiva.
 
@@ -120,7 +116,4 @@ Notas al capítulo P·1
 4 La escala de evidencia personal (EP-0 a EP-8) que este capítulo menciona brevemente se desarrolla en su totalidad en el Capítulo P·4. Es el instrumento central de calibración de ECO y debe leerse antes de administrar cualquier módulo. Su función es equivalente a la de la tabla E0–E8 del Método Prometeo: Entrevista Clínica Ontológica · ECO
 
 impedir que el mediador asigne certezas fuera del rango que el tipo de señal observacional justifica.
-
-Entrevista Clínica Ontológica · ECO
-
 
