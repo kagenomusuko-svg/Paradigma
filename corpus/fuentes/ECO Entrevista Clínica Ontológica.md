@@ -4743,49 +4743,55 @@ Abreviación del módulo — condición y estructura Si el Módulo H produjo H-3
 
 La pregunta ancla del Módulo Eje IV accede directamente a la señal del ego genuino a través de una pregunta sobre la relación entre los actos del sujeto y su experiencia interna de esos actos. No pregunta si el sujeto está bien: pregunta si la relación entre lo que hace y lo que es produce alguna señal interna.
 
-Pregunta ancla DIS — Formulación estándar «Cuando miras lo que hiciste en el período que estamos analizando — los actos importantes, las decisiones que tomaste, la manera en que viviste ese tiempo —, ¿hay algo en ti que registra una diferencia entre lo que hiciste y lo que habrías querido hacer o ser? No que lo hiciste mal: que algo no terminó de encajar.»
-
-Entrevista Clínica Ontológica · ECO
-
-[El mediador formula la pregunta y espera. La distinción «no que lo hiciste mal» es fundamental: D-1 no es la evaluación de resultados sino la señal de la brecha entre el ego genuino y los actos. Si el sujeto interpreta la pregunta como pregunta sobre resultados («hice algunas cosas bien y otras no»), el mediador reformula: «No me refiero a si los resultados fueron los esperados. Me refiero a si en ti hubo algo que registraba que algo no terminaba de cuadrar entre cómo actuabas y quién eres». Lo que el mediador observa simultáneamente: el contenido de la respuesta y la temperatura de la respuesta. Una respuesta de D-1 tiene temperatura interna visible — algo en el sujeto se activa al responder. Una respuesta de D-2 es fluida y apropiada sin temperatura interna.]
+> Pregunta ancla DIS — Formulación estándar «Cuando miras lo que hiciste en el período que estamos analizando — los actos importantes, las decisiones que tomaste, la manera en que viviste ese tiempo —, ¿hay algo en ti que registra una diferencia entre lo que hiciste y lo que habrías querido hacer o ser? No que lo hiciste mal: que algo no terminó de encajar.»
+>
+>
+> [El mediador formula la pregunta y espera. La distinción «no que lo hiciste mal» es fundamental: D-1 no es la evaluación de resultados sino la señal de la brecha entre el ego genuino y los actos. Si el sujeto interpreta la pregunta como pregunta sobre resultados («hice algunas cosas bien y otras no»), el mediador reformula: «No me refiero a si los resultados fueron los esperados. Me refiero a si en ti hubo algo que registraba que algo no terminaba de cuadrar entre cómo actuabas y quién eres». Lo que el mediador observa simultáneamente: el contenido de la respuesta y la temperatura de la respuesta. Una respuesta de D-1 tiene temperatura interna visible — algo en el sujeto se activa al responder. Una respuesta de D-2 es fluida y apropiada sin temperatura interna.]
 
 Variantes por perfil
 
-Variante — Mediador en Crisis (ego individual) «¿Hay algo en la manera en que estás viviendo este período que produce en ti una sensación de que hay una distancia entre quien eres y lo que estás haciendo — aunque no puedas nombrar exactamente qué es esa distancia?» [Esta variante usa el tiempo presente y es especialmente apropiada cuando el sujeto está en una crisis activa. La señal de D-1 en este contexto puede ser más intensa y más difícil de articular, pero también más accesible porque la crisis puede haber activado señales del ego genuino que estaban dormidas.]
-
-Variante — Mediador Educativo «En tu trabajo como docente, ¿hay momentos en que algo en ti registra que lo que estás haciendo en el aula no termina de corresponder a lo que sientes que podría o debería ser tu trabajo? No en términos de si lo haces bien: en términos de si hay algo que no encaja entre quién eres y cómo trabajas.» [Esta variante orienta la pregunta hacia la tensión entre la identidad profesional y la práctica docente — uno de los campos en que D-1 con mayor frecuencia produce señal en el contexto educativo.]
-
-Variante — Mediador Estructural «¿Había alguien en la cadena de actos que analizamos que produjera señales de incomodidad — de que lo que estaba haciendo no terminaba de encajar con lo que él mismo era o sostenía — aunque esa incomodidad no cambiara el curso de los actos?»
-
-Entrevista Clínica Ontológica · ECO
-
-[Esta variante orienta la pregunta hacia la localización del D-1 en el actor que el análisis de responsabilidad estudia. La señal de D-1 en el actor tiene consecuencias para la estimación de α: si el actor tenía señal activa de la brecha, pero continuó el acto, hay mayor posibilidad de asunción genuina del acto que si D-2 estaba instalado.]
+> Variante — Mediador en Crisis (ego individual) «¿Hay algo en la manera en que estás viviendo este período que produce en ti una sensación de que hay una distancia entre quien eres y lo que estás haciendo — aunque no puedas nombrar exactamente qué es esa distancia?» [Esta variante usa el tiempo presente y es especialmente apropiada cuando el sujeto está en una crisis activa. La señal de D-1 en este contexto puede ser más intensa y más difícil de articular, pero también más accesible porque la crisis puede haber activado señales del ego genuino que estaban dormidas.]
+>
+> Variante — Mediador Educativo «En tu trabajo como docente, ¿hay momentos en que algo en ti registra que lo que estás haciendo en el aula no termina de corresponder a lo que sientes que podría o debería ser tu trabajo? No en términos de si lo haces bien: en términos de si hay algo que no encaja entre quién eres y cómo trabajas.» [Esta variante orienta la pregunta hacia la tensión entre la identidad profesional y la práctica docente — uno de los campos en que D-1 con mayor frecuencia produce señal en el contexto educativo.]
+>
+> Variante — Mediador Estructural «¿Había alguien en la cadena de actos que analizamos que produjera señales de incomodidad — de que lo que estaba haciendo no terminaba de encajar con lo que él mismo era o sostenía — aunque esa incomodidad no cambiara el curso de los actos?»
+>
+>
+> [Esta variante orienta la pregunta hacia la localización del D-1 en el actor que el análisis de responsabilidad estudia. La señal de D-1 en el actor tiene consecuencias para la estimación de α: si el actor tenía señal activa de la brecha, pero continuó el acto, hay mayor posibilidad de asunción genuina del acto que si D-2 estaba instalado.]
 
 ### IV.  Preguntas de sondeo
 
 Las preguntas de sondeo del Módulo Eje IV tienen dos objetivos distintos según el código orientado. Si la orientación es hacia D-1, los sondeos profundizan en la naturaleza de la señal: de dónde viene, qué produce, si tiene historia de respuesta. Si la orientación es hacia D-2, los sondeos verifican la profundidad del estado y buscan rastros de D-1 latente que el estado de D-2 pueda no haber suprimido completamente.
 
-Sondeo DIS·1 — La señal de la brecha «¿Puedes identificar en qué parte de tu experiencia interna registras esa incomodidad o esa distancia — si es algo que sientes corporalmente, algo que piensas, algo que sueñas, algo que aparece en momentos específicos? ¿Cómo se manifiesta?» [Para sujetos en D-1. Lo que el mediador observa: si el sujeto puede localizar la señal en algún canal de la experiencia interna. La señal de D-1 puede ser corporal (tensión, insomnio, cansancio inexplicable), cognitiva (pensamiento recurrente de «algo no está bien»), onírica (sueños con contenido que el sujeto no puede articular pero que produce incomodidad), o circunstancial (la incomodidad aparece en contextos específicos que el sujeto puede identificar). El grado de localización es información diagnóstica sobre la intensidad de D-1: cuanto más localizada y específica es la señal, más activo está el ego genuino que la produce.]
+> > Sondeo DIS·1 — La señal de la brecha «¿Puedes identificar en qué parte de tu experiencia interna registras esa incomodidad o esa distancia — si es algo que sientes corporalmente, algo que piensas, algo que sueñas, algo que aparece en momentos específicos? ¿Cómo se manifiesta?» [Para sujetos en D-1. Lo que el mediador observa: si el sujeto puede localizar la señal en algún canal de la experiencia interna. La señal de D-1 puede ser corporal (tensión, insomnio, cansancio inexplicable), cognitiva (pensamiento recurrente de «algo no está bien»), onírica (sueños con contenido que el sujeto no puede articular pero que produce incomodidad), o circunstancial (la incomodidad aparece en contextos específicos que el sujeto puede identificar). El grado de localización es información diagnóstica sobre la intensidad de D-1: cuanto más localizada y específica es la señal, más activo está el ego genuino que la produce.]
+> >
+> >
 
-Sondeo DIS·2 — La historia de la señal «¿Esa señal de incomodidad — esa sensación de que algo no encaja — ha estado presente durante mucho tiempo, o es algo que empezó en el período que estamos analizando? ¿Hubo algún momento en que fue más intensa?» [Lo que el mediador observa: si la señal de D-1 tiene historia temporal. Una señal con historia temporal larga orienta hacia D-1 estructural: el ego genuino ha estado produciendo señal durante mucho tiempo sin que esa señal haya podido modificar el campo. Una señal que empezó en el período analizado orienta hacia D-1 situacional: el
+> Sondeo DIS·2 — La historia de la señal «¿Esa señal de incomodidad — esa sensación de que algo no encaja — ha estado presente durante mucho tiempo, o es algo que empezó en el período que estamos analizando? ¿Hubo algún momento en que fue más intensa?» [Lo que el mediador observa: si la señal de D-1 tiene historia temporal. Una señal con historia temporal larga orienta hacia D-1 estructural: el ego genuino ha estado produciendo señal durante mucho tiempo sin que esa señal haya podido modificar el campo. Una señal que empezó en el período analizado orienta hacia D-1 situacional: el
+> >
+> >
+> > período produjo condiciones que activaron la señal de un ego genuino que antes tenía condiciones más favorables. La historia temporal también orienta hacia el riesgo de transición a D-2: cuanto más tiempo ha estado el ego genuino produciendo señal sin que el campo la reciba, mayor es el riesgo de que el instrumento se apague.]
+> >
+> >
 
-Entrevista Clínica Ontológica · ECO
+> Sondeo DIS·3 — La capacidad de imaginar diferencia «¿Puedes imaginar cómo sería para ti estar de una manera diferente a como estás — no un estado ideal sin problemas, sino simplemente diferente? ¿Tienes acceso a la imagen de ti mismo siendo diferente?» [Pregunta clave para discriminar D-1 de D-2. Lo que el mediador observa: si el sujeto puede concebir estados alternativos de sí mismo. En D-1, el ego genuino todavía puede imaginar diferencia: hay un horizonte de posibilidad que el ego genuino puede producir, aunque no pueda alcanzarlo desde la posición actual. En D-2, la capacidad de imaginar estados alternativos de sí mismo está comprometida: el sujeto puede describir estados que serían mejores en términos funcionales, pero no puede imaginar una versión diferente de sí mismo desde adentro — la diferencia solo existe como evaluación externa, no como posibilidad sentida desde adentro.]
+> >
+> >
 
-período produjo condiciones que activaron la señal de un ego genuino que antes tenía condiciones más favorables. La historia temporal también orienta hacia el riesgo de transición a D-2: cuanto más tiempo ha estado el ego genuino produciendo señal sin que el campo la reciba, mayor es el riesgo de que el instrumento se apague.]
+> Sondeo DIS·4 — La respuesta ante lo bello y lo difícil «En el período que estamos analizando, ¿hubo momentos de genuina alegría o de genuino dolor — no de satisfacción funcional ni de problema operativo, sino algo que llegó al nivel de lo que podríamos llamar alegría o dolor genuino?» [Lo que el mediador observa: si el sujeto puede identificar experiencias emocionales con temperatura genuina en el período analizado. En D-1, puede identificarlas, aunque sean difusas: hay algo que llegó, aunque no siempre con la intensidad que el evento debería haber producido. En D-2, el sujeto puede describir que los eventos externos que deberían haber producido alegría o dolor intenso produjeron algo más suave, más distante, más parecido a la descripción del evento que a la experiencia del evento. La pregunta del mediador es sobre la temperatura, no sobre la frecuencia: no si le pasaron muchas cosas sino si las que le pasaron llegaron.]
+> >
+> >
 
-Sondeo DIS·3 — La capacidad de imaginar diferencia «¿Puedes imaginar cómo sería para ti estar de una manera diferente a como estás — no un estado ideal sin problemas, sino simplemente diferente? ¿Tienes acceso a la imagen de ti mismo siendo diferente?» [Pregunta clave para discriminar D-1 de D-2. Lo que el mediador observa: si el sujeto puede concebir estados alternativos de sí mismo. En D-1, el ego genuino todavía puede imaginar diferencia: hay un horizonte de posibilidad que el ego genuino puede producir, aunque no pueda alcanzarlo desde la posición actual. En D-2, la capacidad de imaginar estados alternativos de sí mismo está comprometida: el sujeto puede describir estados que serían mejores en términos funcionales, pero no puede imaginar una versión diferente de sí mismo desde adentro — la diferencia solo existe como evaluación externa, no como posibilidad sentida desde adentro.]
+> Sondeo DIS·5 — El rastro de D-1 en D-2 «¿Hay algún momento —puede ser breve, puede ser poco frecuente— en que algo en ti se activa de una manera que percibes como diferente a tu estado habitual? Algo que produce incomodidad o intensidad, aunque sea por un momento.»
+> >
+> >
+> > [Para sujetos en los que D-2 parece probable. Lo que el mediador observa: si hay rastros de D-1 en un estado de D-2. D-2 raramente es total: suele haber momentos, contextos o dimensiones en que la señal del ego genuino todavía puede producirse, aunque el estado general sea de anestesia. Identificar esos momentos —que pueden ser sueños, reacciones ante eventos específicos, momentos de soledad, contacto con arte o con naturaleza— es diagnósticamente relevante porque indica que el ego genuino está latente y tiene acceso a algunos canales, aunque no a todos.]
+> >
+> >
 
-Sondeo DIS·4 — La respuesta ante lo bello y lo difícil «En el período que estamos analizando, ¿hubo momentos de genuina alegría o de genuino dolor — no de satisfacción funcional ni de problema operativo, sino algo que llegó al nivel de lo que podríamos llamar alegría o dolor genuino?» [Lo que el mediador observa: si el sujeto puede identificar experiencias emocionales con temperatura genuina en el período analizado. En D-1, puede identificarlas, aunque sean difusas: hay algo que llegó, aunque no siempre con la intensidad que el evento debería haber producido. En D-2, el sujeto puede describir que los eventos externos que deberían haber producido alegría o dolor intenso produjeron algo más suave, más distante, más parecido a la descripción del evento que a la experiencia del evento. La pregunta del mediador es sobre la temperatura, no sobre la frecuencia: no si le pasaron muchas cosas sino si las que le pasaron llegaron.]
-
-Sondeo DIS·5 — El rastro de D-1 en D-2 «¿Hay algún momento —puede ser breve, puede ser poco frecuente— en que algo en ti se activa de una manera que percibes como diferente a tu estado habitual? Algo que produce incomodidad o intensidad, aunque sea por un momento.»
-
-Entrevista Clínica Ontológica · ECO
-
-[Para sujetos en los que D-2 parece probable. Lo que el mediador observa: si hay rastros de D-1 en un estado de D-2. D-2 raramente es total: suele haber momentos, contextos o dimensiones en que la señal del ego genuino todavía puede producirse, aunque el estado general sea de anestesia. Identificar esos momentos —que pueden ser sueños, reacciones ante eventos específicos, momentos de soledad, contacto con arte o con naturaleza— es diagnósticamente relevante porque indica que el ego genuino está latente y tiene acceso a algunos canales, aunque no a todos.]
-
-Sondeo DIS·6 — La expectativa de diferencia «Si algo cambiara en tu vida —una condición de trabajo, una relación, un contexto— ¿esperarías sentir las cosas de manera diferente a como las sientes ahora? ¿O crees que básicamente te sentirías igual?» [Lo que el mediador observa: si el sujeto puede concebir que el cambio de condiciones produciría diferencia en su experiencia interna. En D-1, generalmente puede: hay un ego genuino que identifica las condiciones que lo producen y puede imaginar que sin esas condiciones la señal sería diferente. En D-2, el sujeto puede describir que probablemente se sentiría más o menos igual — no porque sea fatalista sino porque el instrumento de registro ya no está disponible para registrar las diferencias que el cambio de condiciones produciría. La respuesta «básicamente igual» dicha sin perplejidad y sin tristeza es una de las señales más diagnósticas de D-2.]
-
-Instrucción especial para este módulo: el mediador administra los sondeos DIS·1 a DIS·4 con el código orientado en mente, pero sin revelarlo al sujeto. Si la orientación es D-1, los sondeos exploran la naturaleza y la historia de la señal. Si la orientación es D-2, el mediador administra DIS·3 a DIS·6 con especial atención a cualquier señal residual de D-1. El mediador no reformula los sondeos para confirmar su hipótesis: los administra como preguntas abiertas y deja que la señal del sujeto oriente la lectura.
+> Sondeo DIS·6 — La expectativa de diferencia «Si algo cambiara en tu vida —una condición de trabajo, una relación, un contexto— ¿esperarías sentir las cosas de manera diferente a como las sientes ahora? ¿O crees que básicamente te sentirías igual?» [Lo que el mediador observa: si el sujeto puede concebir que el cambio de condiciones produciría diferencia en su experiencia interna. En D-1, generalmente puede: hay un ego genuino que identifica las condiciones que lo producen y puede imaginar que sin esas condiciones la señal sería diferente. En D-2, el sujeto puede describir que probablemente se sentiría más o menos igual — no porque sea fatalista sino porque el instrumento de registro ya no está disponible para registrar las diferencias que el cambio de condiciones produciría. La respuesta «básicamente igual» dicha sin perplejidad y sin tristeza es una de las señales más diagnósticas de D-2.]
+> >
+> > Instrucción especial para este módulo: el mediador administra los sondeos DIS·1 a DIS·4 con el código orientado en mente, pero sin revelarlo al sujeto. Si la orientación es D-1, los sondeos exploran la naturaleza y la historia de la señal. Si la orientación es D-2, el mediador administra DIS·3 a DIS·6 con especial atención a cualquier señal residual de D-1. El mediador no reformula los sondeos para confirmar su hipótesis: los administra como preguntas abiertas y deja que la señal del sujeto oriente la lectura.
 
 ### V.  Señales de observación directa
 
@@ -4794,6 +4800,8 @@ Las señales de observación directa del Módulo Eje IV son las más difíciles 
 ### Entrevista Clínica Ontológica · ECO
 
 Nivel EP Error de lectura frecuente
+
+<!-- TABLA: observación directa | columnas: señal observable, código orientativo -->
 
 Señal observable en sesión
 
@@ -4869,33 +4877,31 @@ Entrevista Clínica Ontológica · ECO
 
 El árbol del Módulo Eje IV tiene dos entradas: la entrada estándar (el Módulo H no resolvió la discriminación con EP-1 o EP-2) y la entrada abreviada (el Módulo H ya resolvió la discriminación con EP-1 o EP-2). El mediador elige la entrada según el código del Módulo H antes de comenzar el árbol.
 
-NODO DIS·0 — ¿El Módulo H (Bloque I) resolvió la discriminación con EP-1 o EP-2?
+> **NODO DIS·0 — ¿El Módulo H (Bloque I) resolvió la discriminación con EP-1 o EP-2?**
+>
+> SÍ (H-3(D2) con EP-1/EP-2) → Entrada abreviada: pregunta ancla + DIS·3 + DIS·4 + DIS·5 + D·DIS·1 de §7. Verificar si hay D-1 residual. SÍ (H-3(H) con EP-1/EP-2) → Entrada abreviada: pregunta ancla + DIS·1 + D·DIS·2 de §7. Verificar compatibilidad Harmonía/D-2. NO (H-2, imposibilidad para evaluar, o EP-3 o inferior) → Entrada estándar: módulo completo. ↓
 
-SÍ (H-3(D2) con EP-1/EP-2) → Entrada abreviada: pregunta ancla + DIS·3 + DIS·4 + DIS·5 + D·DIS·1 de §7. Verificar si hay D-1 residual. SÍ (H-3(H) con EP-1/EP-2) → Entrada abreviada: pregunta ancla + DIS·1 + D·DIS·2 de §7. Verificar compatibilidad Harmonía/D-2. NO (H-2, imposibilidad para evaluar, o EP-3 o inferior) → Entrada estándar: módulo completo. ↓
+> **NODO DIS·1 — ¿La pregunta ancla produjo señal de D-1 (temperatura interna ante la brecha)?**
+>
+> SÍ (temperatura interna observable, incomodidad genuina) → D-1 hipótesis. Administrar DIS·1 y DIS·2 para precisar la naturaleza e historia de la señal. NO (respuesta fluida y apropiada sin temperatura) → D-2 hipótesis. Administrar DIS·3, DIS·5 y DIS·6. Ambiguo (hay algo, pero es muy tenue) → Administrar DIS·3 y la prueba del contraste antes de orientar. ↓
 
-NODO DIS·1 — ¿La pregunta ancla produjo señal de D-1 (temperatura interna ante la brecha)?
+> **NODO DIS·2 — Para D-1: ¿la señal de D-1 es sostenida en múltiples contextos del período analizado?**
+>
+> SÍ (sostenida, múltiples contextos) → D-1 estructural. EP-2 mínimo. ¿Hay señal en sesión que produzca EP-1? NO (episódica o circunstancial) → D-1 situacional. EP-4 o EP-5. Nota de circunstancialidad. ↓
 
-SÍ (temperatura interna observable, incomodidad genuina) → D-1 hipótesis. Administrar DIS·1 y DIS·2 para precisar la naturaleza e historia de la señal. NO (respuesta fluida y apropiada sin temperatura) → D-2 hipótesis. Administrar DIS·3, DIS·5 y DIS·6. Ambiguo (hay algo, pero es muy tenue) → Administrar DIS·3 y la prueba del contraste antes de orientar. ↓
+> **NODO DIS·3 — Para D-2: ¿el sujeto puede imaginar estados alternativos de sí mismo con temperatura interna (Sondeo DIS·3)?**
+>
+> SÍ (puede imaginar diferencia desde adentro, no solo como evaluación externa) → D-2 parcial. Buscar rastros de D-1 con DIS·5. NO (no puede imaginar diferencia desde adentro o la imagina solo como evaluación externa) → D-2 más profundo. Administrar DIS·6.
+>
+> ↓
 
-NODO DIS·2 — Para D-1: ¿la señal de D-1 es sostenida en múltiples contextos del período analizado?
+> **NODO DIS·4 — ¿Hay rastros de D-1 en el estado de D-2 (Sondeo DIS·5)?**
+>
+> SÍ (hay momentos, contextos o canales donde la señal del ego genuino todavía aparece) → D-2 con D-1 residual. Registrar los canales donde la señal está disponible. NO (planitud consistente sin ningún rastro de señal del ego genuino) → D-2 profundo. Evaluar derivación clínica antes de Histos. ↓
 
-SÍ (sostenida, múltiples contextos) → D-1 estructural. EP-2 mínimo. ¿Hay señal en sesión que produzca EP-1? NO (episódica o circunstancial) → D-1 situacional. EP-4 o EP-5. Nota de circunstancialidad. ↓
-
-NODO DIS·3 — Para D-2: ¿el sujeto puede imaginar estados alternativos de sí mismo con temperatura interna (Sondeo DIS·3)?
-
-SÍ (puede imaginar diferencia desde adentro, no solo como evaluación externa) → D-2 parcial. Buscar rastros de D-1 con DIS·5. NO (no puede imaginar diferencia desde adentro o la imagina solo como evaluación externa) → D-2 más profundo. Administrar DIS·6.
-
-Entrevista Clínica Ontológica · ECO
-
-↓
-
-NODO DIS·4 — ¿Hay rastros de D-1 en el estado de D-2 (Sondeo DIS·5)?
-
-SÍ (hay momentos, contextos o canales donde la señal del ego genuino todavía aparece) → D-2 con D-1 residual. Registrar los canales donde la señal está disponible. NO (planitud consistente sin ningún rastro de señal del ego genuino) → D-2 profundo. Evaluar derivación clínica antes de Histos. ↓
-
-NODO DIS·5 — ¿Hay señal EP-1 observable directamente en la sesión (incomodidad con temperatura ante las preguntas del módulo)?
-
-SÍ para D-1 → D-1 · EP-1. Descripción precisa de la señal observacional en la hoja de módulo. SÍ para D-2 (planitud consistente observable durante toda la sesión) → D-2 · EP-1. NO (señal solo en narrativa) → EP-2 o EP-3 según coherencia temporal y contextual. ↓
+> **NODO DIS·5 — ¿Hay señal EP-1 observable directamente en la sesión (incomodidad con temperatura ante las preguntas del módulo)?**
+>
+> SÍ para D-1 → D-1 · EP-1. Descripción precisa de la señal observacional en la hoja de módulo. SÍ para D-2 (planitud consistente observable durante toda la sesión) → D-2 · EP-1. NO (señal solo en narrativa) → EP-2 o EP-3 según coherencia temporal y contextual. ↓
 
 SALIDA — Código Eje IV (D-1 / D-2 / D-2 con D-1 residual / imposibilidad para evaluar) + Nivel EP + Tabla de modificación de pesos del Bloque I → Continuar a Módulo Eje V
 
@@ -4955,11 +4961,7 @@ El nivel EP para el Eje IV sigue la escala estándar. EP-1 requiere que la seña
 
 El código del Eje IV tiene las consecuencias retroactivas más importantes de todo el instrumento sobre la distribución P(Hijos) del Bloque I. La tabla que sigue establece las consecuencias de cada código del Eje IV sobre la validez de los pesos producidos en el Bloque I.
 
-Acción del mediador
-
-Código del Eje IV
-
-Consecuencia sobre la distribución P(Hijos)
+<!-- TABLA: efecto del Eje IV en P(Hijos) | columnas: código, consecuencia, acción del mediador -->
 
 D-1 activo confirmado con EP-1 o EP-2
 
@@ -5001,6 +5003,8 @@ D-2 colectivo es uno de los estados más frecuentes y menos detectados de los eg
 
 Definición Firma institucional Pregunta de localización
 
+<!-- TABLA: códigos colectivos del Eje IV -->
+
 Código colectivo
 
 D-1 colectivo
@@ -5027,57 +5031,52 @@ D-2 colectivo se instala con mayor frecuencia en organizaciones que han operado 
 
 La señal de D-1 colectivo es uno de los recursos más valiosos para el cambio institucional: es la señal de que el ego genuino colectivo todavía produce señal de la brecha, lo que significa que todavía tiene capacidad de orientarse hacia algo diferente de lo que es. Una organización en D-1 colectivo puede cambiar genuinamente si se crean las condiciones para que la señal pueda producir efecto. Una organización en D-2 colectivo necesita primero la reactivación de la señal — el equivalente colectivo del trabajo de Histos con D-2 individual — antes de que cualquier proceso de cambio genuino pueda comenzar.
 
-Pregunta ancla — Ego colectivo (Eje IV) «¿Hay alguien en esta organización —o había, en el período analizado— que pudiera decir que algo en la manera en que la organización opera no termina de encajar con lo que la organización dice que es o quiere ser? ¿Esa voz tiene espacio en la organización, o produce consecuencias negativas para quien la levanta?» [El mediador busca la señal de D-1 colectivo: la presencia de voces internas que registran la brecha entre el ego genuino colectivo y los actos del colectivo. Si esas voces existen y tienen espacio, la organización está en D-1 colectivo con ego genuino activo. Si esas voces existen, pero son suprimidas sistemáticamente, la organización está en transición de D-1 a D-2. Si esas voces no existen — si ningún miembro puede identificar ninguna brecha porque la brecha ya no produce señal — la organización puede estar en D-2 colectivo.]
-
-### XI.  Principios de intervención para este hallazgo
-
-Entrevista Clínica Ontológica · ECO
-
-Lo que el mediador no hace
-
-El error de intervención más frecuente con D-1 es calmar la señal. El mediador que ante la incomodidad del sujeto en D-1 interviene para reducir esa incomodidad —ofreciendo contexto, normalizando la situación, sugiriendo que lo que el sujeto siente es comprensible y que no tiene que preocuparse— está suprimiendo la señal más valiosa que el instrumento puede producir. La incomodidad de D-1 es el ego genuino hablando. Calmarla no resuelve la brecha: suprime la señal que la nombra. El mediador que soporta la incomodidad de D-1 sin intervenirla está creando las condiciones para que el ego genuino pueda producir algo desde esa señal.
-
-El error de intervención más frecuente con D-2 es tratarlo como si fuera bienestar. El mediador que interpreta la planitud de D-2 como equilibrio o como estabilidad saludable — y que por tanto no lo localiza ni lo informa a Histos — está dejando al trabajo de acompañamiento sin el dato más crítico sobre el estado del ego genuino. El trabajo de Histos sin la información de D-2 puede producir intervenciones que tienen toda la forma correcta pero que no encuentran al ego genuino activo para resonar.
-
-El tercer error, específico de D-2, es iniciar el proceso de acompañamiento de Histos sin haber creado primero las condiciones para la reactivación de la señal. Histos necesita que el ego genuino esté produciendo señal para operar: si el instrumento de registro se apagó, el proceso de acompañamiento no encuentra donde anclar. El mediador que inicia Histos con D-2 profundo sin haber creado esas condiciones puede producir un proceso que parece avanzar — el sujeto en D-2 puede colaborar, puede producir discursos articulados sobre sí mismo, puede cumplir todas las expectativas del proceso — sin que el ego genuino esté siendo trabajado.
-
-⚠  Señal de alerta — D-2 con V-3 y sin D-1 residual La coexistencia de D-2 profundo con V-3 (vínculo colapsado) y sin ningún rastro de D-1 residual es la configuración más grave del instrumento. No porque el sujeto esté en crisis aguda — D-2 raramente produce crisis agudas — sino porque el trabajo de Histos no tiene punto de apoyo disponible. Esta configuración requiere evaluación clínica antes de cualquier proceso de acompañamiento ontológico y posiblemente un período de trabajo clínico previo que cree las condiciones para la reactivación de la señal del ego genuino.
-
-Entrevista Clínica Ontológica · ECO
-
-Lo que el mediador sí hace
-
-Con D-1 activo: el mediador crea espacio para que la señal se exprese sin intervención. Eso significa preguntas que la activan —las preguntas de los sondeos DIS·1 y DIS·2 administradas con tiempo suficiente— y silencio sostenido después de que la señal aparece. El silencio después de D-1 no es espera pasiva: es el espacio en que la señal del ego genuino puede expandirse antes de que el sujeto o el mediador la cierren. El mediador registra en la hoja de módulo tanto la señal como el espacio que la precedió y la siguió.
-
-Con D-2: el mediador mapea los canales donde la señal todavía puede aparecer. El Sondeo DIS·5 produce ese mapa. Cada canal que el sujeto puede identificar —sueños, momentos de soledad, contacto con arte, ciertos vínculos específicos— es un punto de acceso para el trabajo de reactivación de Histos. El mediador que llega a Histos con ese mapa tiene un recurso que ningún análisis documental puede producir: los puntos donde el ego genuino latente todavía tiene permeabilidad.
-
-Cuándo el caso supera ECO
-
-D-2 profundo —sin rastros de D-1 residual, con V-3 coexistente, con narrativa consistentemente distante en toda la sesión— puede estar indicando condiciones que requieren evaluación clínica antes de continuar con el instrumento ontológico. El paradigma no reemplaza la evaluación clínica: cuando los estados que ECO localiza tienen profundidad suficiente para comprometer el funcionamiento básico del sujeto o para indicar la presencia de procesos que superan el nivel ontológico, el principio de derivación del paradigma se aplica con toda su fuerza. El mediador que localiza D-2 profundo y no evalúa si la situación requiere derivación clínica antes de continuar con Histos está asumiendo una responsabilidad que el instrumento no le asigna.
-
-Condición de derivación a Histos desde D-2 D-2 con D-1 residual identificado (con mapa de canales disponibles) + Eje V evaluado + resto del Bloque II completo. La derivación incluye el mapa de canales de D-1 residual como insumo prioritario para Histos. D-2 profundo sin D-1 residual + evaluación clínica recomendada: la derivación a Histos se pospone hasta que la evaluación clínica determine si el acompañamiento ontológico puede proceder en paralelo o si debe esperar.
-
-Entrevista Clínica Ontológica · ECO
-
-Esta es la única condición del instrumento en que la derivación a Histos puede posponerse indefinidamente.
-
-Notas al Módulo B·II·IV
-
-1 La descripción de D-2 como resultado de proceso adaptativo tiene base en la observación clínica sistematizada en el Manual Clínico del paradigma y en las obras de referencia sobre la disforia de identidad. El proceso de instalación de D-2 no es lineal: puede haber períodos de intensificación de D-1 antes de la transición a D-2, y puede haber recuperaciones parciales de D-1 cuando las condiciones del campo cambian temporalmente. El mediador que encuentra D-2 con D-1 residual está observando un estado que todavía tiene movilidad — no un estado final. La historia temporal que el Sondeo DIS·2 produce sobre D-1 es el insumo más relevante para entender el proceso que llevó al estado actual.
-
-2 La tabla de modificación de pesos del §9 establece la consecuencia más técnica del Eje IV: D-2 con EP-1 invalida la certeza estándar de la distribución P(Hijos) del Bloque I. Esto no significa que el Bloque I sea inútil en D-2: significa que sus resultados deben interpretarse como descripción del campo que actúa en nombre del ego genuino, no como descripción del ego genuino mismo. Esa interpretación tiene utilidad diagnóstica para el trabajo de Histos —saber qué parte del campo ha reemplazado al ego genuino es información necesaria para el trabajo de restitución— pero no es equivalente a la localización del ego genuino activo.
-
-3 La coexistencia D-2/Harmonía que el árbol de decisión declara como caso que requiere revisión tiene un fundamento ontológico claro: Harmonía requiere que el ego genuino esté procesando las tensiones entre las dimensiones de la pasión desde φ₂ con distancia suficiente. Ese procesamiento requiere que el instrumento de registro de la tensión esté activo. Si D-2 ha apagado ese instrumento, el procesamiento que Harmonía requiere no puede ocurrir. La coexistencia de los dos códigos es ontológicamente contradictoria: o el Módulo H sobreestimó la señal de Harmonía (tomando D-2 por Harmonía, el error más frecuente del instrumento) o el Eje IV sobreestimó D-2 (tomando Harmonía por ausencia de señal, porque la integración genuina puede producir planitud que el mediador lee como D-2).
-
-4 La nota sobre D-2 colectivo y las organizaciones con M-3 sostenido merece desarrollo adicional. M-3 —la mascarada institucional— es la condición de posibilidad para D-2 colectivo porque suprime sistemáticamente las señales de D-1 de los miembros: en un campo de M-3, la señal de incomodidad ante la brecha entre el ego genuino y los actos institucionales no tiene espacio de expresión. A lo largo del tiempo, esa supresión sistemática puede producir D-2 colectivo por el mismo mecanismo que produce D-2 individual — el
-
-Entrevista Clínica Ontológica · ECO
-
-instrumento de registro se apaga cuando su señal no puede producir ningún efecto. La consecuencia práctica para el Mediador Organizacional: M-3 sostenido sin mecanismos de procesamiento de la señal de D-1 es un factor de riesgo directo de D-2 colectivo.
-
-Entrevista Clínica Ontológica · ECO
-
-BLOQUE II · Los cinco ejes del SDO
+> Pregunta ancla — Ego colectivo (Eje IV) «¿Hay alguien en esta organización —o había, en el período analizado— que pudiera decir que algo en la manera en que la organización opera no termina de encajar con lo que la organización dice que es o quiere ser? ¿Esa voz tiene espacio en la organización, o produce consecuencias negativas para quien la levanta?» [El mediador busca la señal de D-1 colectivo: la presencia de voces internas que registran la brecha entre el ego genuino colectivo y los actos del colectivo. Si esas voces existen y tienen espacio, la organización está en D-1 colectivo con ego genuino activo. Si esas voces existen, pero son suprimidas sistemáticamente, la organización está en transición de D-1 a D-2. Si esas voces no existen — si ningún miembro puede identificar ninguna brecha porque la brecha ya no produce señal — la organización puede estar en D-2 colectivo.]
+>
+> ### XI.  Principios de intervención para este hallazgo
+>
+>
+> Lo que el mediador no hace
+>
+> El error de intervención más frecuente con D-1 es calmar la señal. El mediador que ante la incomodidad del sujeto en D-1 interviene para reducir esa incomodidad —ofreciendo contexto, normalizando la situación, sugiriendo que lo que el sujeto siente es comprensible y que no tiene que preocuparse— está suprimiendo la señal más valiosa que el instrumento puede producir. La incomodidad de D-1 es el ego genuino hablando. Calmarla no resuelve la brecha: suprime la señal que la nombra. El mediador que soporta la incomodidad de D-1 sin intervenirla está creando las condiciones para que el ego genuino pueda producir algo desde esa señal.
+>
+> El error de intervención más frecuente con D-2 es tratarlo como si fuera bienestar. El mediador que interpreta la planitud de D-2 como equilibrio o como estabilidad saludable — y que por tanto no lo localiza ni lo informa a Histos — está dejando al trabajo de acompañamiento sin el dato más crítico sobre el estado del ego genuino. El trabajo de Histos sin la información de D-2 puede producir intervenciones que tienen toda la forma correcta pero que no encuentran al ego genuino activo para resonar.
+>
+> El tercer error, específico de D-2, es iniciar el proceso de acompañamiento de Histos sin haber creado primero las condiciones para la reactivación de la señal. Histos necesita que el ego genuino esté produciendo señal para operar: si el instrumento de registro se apagó, el proceso de acompañamiento no encuentra donde anclar. El mediador que inicia Histos con D-2 profundo sin haber creado esas condiciones puede producir un proceso que parece avanzar — el sujeto en D-2 puede colaborar, puede producir discursos articulados sobre sí mismo, puede cumplir todas las expectativas del proceso — sin que el ego genuino esté siendo trabajado.
+>
+> ⚠  Señal de alerta — D-2 con V-3 y sin D-1 residual La coexistencia de D-2 profundo con V-3 (vínculo colapsado) y sin ningún rastro de D-1 residual es la configuración más grave del instrumento. No porque el sujeto esté en crisis aguda — D-2 raramente produce crisis agudas — sino porque el trabajo de Histos no tiene punto de apoyo disponible. Esta configuración requiere evaluación clínica antes de cualquier proceso de acompañamiento ontológico y posiblemente un período de trabajo clínico previo que cree las condiciones para la reactivación de la señal del ego genuino.
+>
+>
+> Lo que el mediador sí hace
+>
+> Con D-1 activo: el mediador crea espacio para que la señal se exprese sin intervención. Eso significa preguntas que la activan —las preguntas de los sondeos DIS·1 y DIS·2 administradas con tiempo suficiente— y silencio sostenido después de que la señal aparece. El silencio después de D-1 no es espera pasiva: es el espacio en que la señal del ego genuino puede expandirse antes de que el sujeto o el mediador la cierren. El mediador registra en la hoja de módulo tanto la señal como el espacio que la precedió y la siguió.
+>
+> Con D-2: el mediador mapea los canales donde la señal todavía puede aparecer. El Sondeo DIS·5 produce ese mapa. Cada canal que el sujeto puede identificar —sueños, momentos de soledad, contacto con arte, ciertos vínculos específicos— es un punto de acceso para el trabajo de reactivación de Histos. El mediador que llega a Histos con ese mapa tiene un recurso que ningún análisis documental puede producir: los puntos donde el ego genuino latente todavía tiene permeabilidad.
+>
+> Cuándo el caso supera ECO
+>
+> D-2 profundo —sin rastros de D-1 residual, con V-3 coexistente, con narrativa consistentemente distante en toda la sesión— puede estar indicando condiciones que requieren evaluación clínica antes de continuar con el instrumento ontológico. El paradigma no reemplaza la evaluación clínica: cuando los estados que ECO localiza tienen profundidad suficiente para comprometer el funcionamiento básico del sujeto o para indicar la presencia de procesos que superan el nivel ontológico, el principio de derivación del paradigma se aplica con toda su fuerza. El mediador que localiza D-2 profundo y no evalúa si la situación requiere derivación clínica antes de continuar con Histos está asumiendo una responsabilidad que el instrumento no le asigna.
+>
+> > Condición de derivación a Histos desde D-2 D-2 con D-1 residual identificado (con mapa de canales disponibles) + Eje V evaluado + resto del Bloque II completo. La derivación incluye el mapa de canales de D-1 residual como insumo prioritario para Histos. D-2 profundo sin D-1 residual + evaluación clínica recomendada: la derivación a Histos se pospone hasta que la evaluación clínica determine si el acompañamiento ontológico puede proceder en paralelo o si debe esperar.
+> >
+> >
+> > Esta es la única condición del instrumento en que la derivación a Histos puede posponerse indefinidamente.
+> >
+> > Notas al Módulo B·II·IV
+> >
+> > 1 La descripción de D-2 como resultado de proceso adaptativo tiene base en la observación clínica sistematizada en el Manual Clínico del paradigma y en las obras de referencia sobre la disforia de identidad. El proceso de instalación de D-2 no es lineal: puede haber períodos de intensificación de D-1 antes de la transición a D-2, y puede haber recuperaciones parciales de D-1 cuando las condiciones del campo cambian temporalmente. El mediador que encuentra D-2 con D-1 residual está observando un estado que todavía tiene movilidad — no un estado final. La historia temporal que el Sondeo DIS·2 produce sobre D-1 es el insumo más relevante para entender el proceso que llevó al estado actual.
+> >
+> > 2 La tabla de modificación de pesos del §9 establece la consecuencia más técnica del Eje IV: D-2 con EP-1 invalida la certeza estándar de la distribución P(Hijos) del Bloque I. Esto no significa que el Bloque I sea inútil en D-2: significa que sus resultados deben interpretarse como descripción del campo que actúa en nombre del ego genuino, no como descripción del ego genuino mismo. Esa interpretación tiene utilidad diagnóstica para el trabajo de Histos —saber qué parte del campo ha reemplazado al ego genuino es información necesaria para el trabajo de restitución— pero no es equivalente a la localización del ego genuino activo.
+> >
+> > 3 La coexistencia D-2/Harmonía que el árbol de decisión declara como caso que requiere revisión tiene un fundamento ontológico claro: Harmonía requiere que el ego genuino esté procesando las tensiones entre las dimensiones de la pasión desde φ₂ con distancia suficiente. Ese procesamiento requiere que el instrumento de registro de la tensión esté activo. Si D-2 ha apagado ese instrumento, el procesamiento que Harmonía requiere no puede ocurrir. La coexistencia de los dos códigos es ontológicamente contradictoria: o el Módulo H sobreestimó la señal de Harmonía (tomando D-2 por Harmonía, el error más frecuente del instrumento) o el Eje IV sobreestimó D-2 (tomando Harmonía por ausencia de señal, porque la integración genuina puede producir planitud que el mediador lee como D-2).
+> >
+> > 4 La nota sobre D-2 colectivo y las organizaciones con M-3 sostenido merece desarrollo adicional. M-3 —la mascarada institucional— es la condición de posibilidad para D-2 colectivo porque suprime sistemáticamente las señales de D-1 de los miembros: en un campo de M-3, la señal de incomodidad ante la brecha entre el ego genuino y los actos institucionales no tiene espacio de expresión. A lo largo del tiempo, esa supresión sistemática puede producir D-2 colectivo por el mismo mecanismo que produce D-2 individual — el
+> >
+> >
+> > instrumento de registro se apaga cuando su señal no puede producir ningún efecto. La consecuencia práctica para el Mediador Organizacional: M-3 sostenido sin mecanismos de procesamiento de la señal de D-1 es un factor de riesgo directo de D-2 colectivo.
+> >
+> >
+> > BLOQUE II · Los cinco ejes del SDO
 
 ### B·II·V ·  MÓDULO EJE V —
 
