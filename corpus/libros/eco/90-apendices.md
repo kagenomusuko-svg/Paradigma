@@ -1,8 +1,9 @@
-### A·1 ·  HOJA DE SÍNTESIS DE LA SESIÓN
+# A·1 · HOJA DE SÍNTESIS DE LA SESIÓN
 
-### Registro de la localización del ego genuino Para completar durante o después de la sesión · Instrumento interno del
 
-### mediador · No para el sujeto
+## Registro de la localización del ego genuino
+
+*Para completar durante o después de la sesión · Instrumento interno del mediador · No para el sujeto*
 
 INSTRUCCIONES DE USO
 
@@ -18,7 +19,6 @@ Código de caso
 
 Fecha de sesión
 
-### Entrevista Clínica Ontológica · ECO
 
 Número de sesión en ECO
 
@@ -72,7 +72,6 @@ EP-
 
 2/3
 
-### Entrevista Clínica Ontológica · ECO
 
 ### A  ANTEROS — afirmación desde el eje propio
 
@@ -154,7 +153,6 @@ Notas de discriminación Harmonía/D-2
 
 ### Completar después de cerrar los seis módulos. La suma de los seis pesos debe ser 1.00. P(Harmonía) ≠ 0 solo si el módulo H produjo H-3(H) con EP-1 o EP-2.
 
-### Entrevista Clínica Ontológica · ECO
 
 Σ=1.00 P(F) P(D) P(A) P(P) P(E) P(H)
 
@@ -188,7 +186,6 @@ Discriminantes del Eje I administradas y resultado
 
 EJE II  MASCARADA
 
-### Entrevista Clínica Ontológica · ECO
 
 Código Opciones Nivel
 
@@ -236,7 +233,6 @@ Módulo H coincide / contradice
 
 ### EJE V  TANATOLÓGICO — VECTOR DEL DUELO
 
-### Entrevista Clínica Ontológica · ECO
 
 Código Opciones Nivel
 
@@ -268,13 +264,12 @@ Señal de V-1 en sesión — descripción del momento de encuentro genuino (si e
 
 Calibración del mediador — estado propio en esta sesión y posible sesgo
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO CONDICIONAL: completar si se administró el Bloque III -->
 
 ### BLOQUE III · EGO COLECTIVO (completar solo si se
 
-### administró)
+administró)
 
 Ego soberano real identificado
 
@@ -292,7 +287,6 @@ Códigos de Ejes colectivos (I a V) y nota de convergencia/divergencia
 
 Estado del cierre Nivel de certeza global DI-ECO requerida
 
-### Entrevista Clínica Ontológica · ECO
 
 □  No aplica □  Sí — adjuntar DI-ECO
 
@@ -316,7 +310,6 @@ Describir los recursos activos del ego genuino del sujeto: las dimensiones donde
 
 Recursos activos del ego genuino identificados en esta sesión
 
-Entrevista Clínica Ontológica · ECO
 
 Orden recomendado de trabajo en Histos (desde los recursos disponibles)
 
@@ -332,7 +325,6 @@ DI-ECO §A — Motivo de la incertidumbre
 
 DI-ECO §B — Lo que sí se pudo localizar con certeza suficiente
 
-### Entrevista Clínica Ontológica · ECO
 
 DI-ECO §C — Lo que no se pudo localizar y qué lo resolvería
 
@@ -348,7 +340,6 @@ Instrucciones técnicas del apéndice A·1
 
 2 El campo de observación relacional (campo del mediador / campo del sujeto) se completa durante la sesión o inmediatamente después, cuando la memoria del campo es más precisa. Los registros de campo relacional que se producen
 
-Entrevista Clínica Ontológica · ECO
 
 horas o días después de la sesión tienen menor precisión diagnóstica porque la memoria de las señales del propio campo del mediador se erosiona más rápidamente que la memoria de las narrativas del sujeto.
 
@@ -356,11 +347,10 @@ horas o días después de la sesión tienen menor precisión diagnóstica porque
 
 4 La DI-ECO al final de la hoja de síntesis es un recordatorio estructural de que el instrumento puede cerrarse en distintos estados y que cada estado requiere un protocolo específico. El mediador que completa la hoja de síntesis sin completar la DI-ECO cuando corresponde ha cometido el equivalente del error E·5 a nivel de registro: ha declarado el instrumento completo cuando tiene componentes cuya incertidumbre requería declaración.
 
-Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO: A·2 | hojas imprimibles por módulo | cada hoja inicia en página nueva -->
 
-### A·2 HOJAS DE REGISTRO POR MÓDULO
+# A·2 HOJAS DE REGISTRO POR MÓDULO
 
 Una hoja por módulo · 11 módulos totales · Bloque I y Bloque II
 
@@ -368,11 +358,10 @@ Este apéndice contiene una hoja de registro específica para cada uno de los on
 
 Las hojas de registro son documentos internos del mediador. No se entregan al sujeto ni al encargado.
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO: hoja de registro B·I·F | salto de página -->
 
-### B·I·F  ·  MÓDULO FOBOS
+## B·I·F  ·  MÓDULO FOBOS
 
 ### Urgencia reactiva ante la amenaza
 
@@ -414,7 +403,6 @@ F·3 — ¿Qué hiciste — lo decidiste o simplemente ocurrió?
 
 F·4 — ¿Hay algo en esta conversación que produzca algo similar?
 
-### Entrevista Clínica Ontológica · ECO
 
 PREGUNTAS DISCRIMINANTES
 
@@ -440,11 +428,10 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO: hoja de registro B·I·D | salto de página -->
 
-### B·I·D ·  MÓDULO DEIMOS
+## B·I·D ·  MÓDULO DEIMOS
 
 ### Parálisis ante la simetría de opciones
 
@@ -486,7 +473,6 @@ D·3 — «¿La parálisis tenía un objeto — algo que no querías perder toma
 
 D·4 — «¿Pudiste tomar la decisión eventualmente — y qué lo hizo posible?»
 
-### Entrevista Clínica Ontológica · ECO
 
 PREGUNTAS DISCRIMINANTES
 
@@ -512,11 +498,10 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO: hoja de registro B·I·A | salto de página -->
 
-### B·I·A ·  MÓDULO ANTEROS
+## B·I·A ·  MÓDULO ANTEROS
 
 ### Afirmación desde el eje propio
 
@@ -558,7 +543,6 @@ A·3 — «Ese criterio que describes — ¿desde cuándo es tuyo y desde qué e
 
 A·4 — «Si algo te parece mal en lo que te estoy diciendo ahora, ¿puedes decirlo?»
 
-### Entrevista Clínica Ontológica · ECO
 
 PREGUNTAS DISCRIMINANTES
 
@@ -584,11 +568,10 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO: hoja de registro B·I·P | salto de página -->
 
-### B·I·P  ·  MÓDULO POTÓS
+## B·I·P  ·  MÓDULO POTÓS
 
 ### Orientación al ausente
 
@@ -630,7 +613,6 @@ P·3 — «¿Podría haber algo nuevo que no se parezca a lo que fue y que igual
 
 P·4 — «¿Lo que extrañas es algo específico o es una época, una manera de sentirte?»
 
-### Entrevista Clínica Ontológica · ECO
 
 PREGUNTAS DISCRIMINANTES
 
@@ -656,11 +638,10 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO: hoja de registro B·I·E | salto de página -->
 
-### B·I·E ·  MÓDULO EROS
+## B·I·E ·  MÓDULO EROS
 
 ### Apertura genuina ante la alteridad
 
@@ -702,7 +683,6 @@ E·5 — «¿Hay algo en ese período que te sorprendió y te movió en una dire
 
 E·6 — «¿Hay algo en esta conversación que no tenías antes de que yo lo introdujera?»
 
-### Entrevista Clínica Ontológica · ECO
 
 PREGUNTAS DISCRIMINANTES
 
@@ -728,11 +708,10 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO: hoja de registro B·I·H | salto de página -->
 
-### B·I·H ·  MÓDULO HARMONÍA / D-2
+## B·I·H ·  MÓDULO HARMONÍA / D-2
 
 ### Integración genuina vs. anestesia ontológica · NUNCA SE SALTA
 
@@ -776,7 +755,6 @@ H·D4 — «¿Qué tuviste que procesar para llegar al estado en que estás?»
 
 H·D5 — «¿Hay algo del período que fue realmente difícil internamente?»
 
-### Entrevista Clínica Ontológica · ECO
 
 PREGUNTAS DISCRIMINANTES
 
@@ -802,11 +780,10 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO A·2: Eje I | una página imprimible con código, casillas, nivel EP, señal y notas -->
 
-### B·II·I ·  MÓDULO EJE I — ESTADOS DEL EGO
+## B·II·I ·  MÓDULO EJE I — ESTADOS DEL EGO
 
 ### E-1 a E-6 · Modulador transversal
 
@@ -848,7 +825,6 @@ EI·3 — «¿Hubo momentos en que sabías lo que querías pero algo te impedía
 
 EI·5 — «Cuando alguien importante presionaba en otra dirección, ¿qué ocurrió con tu
 
-### Entrevista Clínica Ontológica · ECO
 
 PREGUNTAS DISCRIMINANTES
 
@@ -874,11 +850,10 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO A·2: Eje II | hoja imprimible con opciones M-1/M-2/M-3 y observación -->
 
-### B·II·II ·  MÓDULO EJE II — MASCARADA
+## B·II·II ·  MÓDULO EJE II — MASCARADA
 
 ### M-1, M-2, M-3
 
@@ -926,7 +901,6 @@ SEÑALES DE OBSERVACIÓN
 
 DIRECTA
 
-### Entrevista Clínica Ontológica · ECO
 
 EP-1 — No puede producir diferencia entre lo que muestra y lo que elegiría mostrar (M-2)
 
@@ -946,11 +920,10 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO A·2: Eje III | hoja imprimible con opciones relacionales y campo del mediador -->
 
-### B·II·III ·  MÓDULO EJE III — VÍNCULO
+## B·II·III ·  MÓDULO EJE III — VÍNCULO
 
 ### V-1, V-2 Damasén/Peribea, V-3
 
@@ -998,7 +971,6 @@ SEÑALES DE OBSERVACIÓN
 
 DIRECTA
 
-### Entrevista Clínica Ontológica · ECO
 
 EP-1 — La estructura relacional del sujeto se reproduce con el mediador: Damasén orienta,
 
@@ -1018,11 +990,10 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO A·2: Eje IV | hoja imprimible para D-1/D-2 y señal observacional -->
 
-### B·II·IV  ·  MÓDULO EJE IV — DISFORIA
+## B·II·IV  ·  MÓDULO EJE IV — DISFORIA
 
 ### D-1 activo, D-2 con D-1 residual, D-2 profundo
 
@@ -1064,7 +1035,6 @@ DIS·5 — «¿Hay algún momento en que algo en ti se activa de manera diferent
 
 DIS·6 — «Si algo cambiara en tu vida, ¿esperarías sentir las cosas de manera diferente?»
 
-### Entrevista Clínica Ontológica · ECO
 
 PREGUNTAS DISCRIMINANTES
 
@@ -1090,11 +1060,10 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO A·2: Eje V | hoja imprimible para posición del vector y tipo de pérdida -->
 
-### B·II·V  ·  MÓDULO EJE V — TANATOLÓGICO
+## B·II·V  ·  MÓDULO EJE V — TANATOLÓGICO
 
 ### T-0 a T-6 + T-ext · Vector del duelo
 
@@ -1136,7 +1105,6 @@ TAN·3 — «¿Pudiste hacer algo con esa pérdida — procesarla, darle un luga
 
 TAN·5 — «¿Qué te formó esa pérdida — qué hizo de ti lo que eres hoy?»
 
-### Entrevista Clínica Ontológica · ECO
 
 PREGUNTAS DISCRIMINANTES
 
@@ -1170,17 +1138,16 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 3 La columna de Observación del mediador durante la respuesta en la tabla de sondeos es el campo más importante de la hoja de registro y el que con mayor frecuencia queda vacío. El mediador que no registra sus observaciones durante la respuesta del sujeto pierde la información de campo más valiosa del módulo. Las observaciones pueden ser muy breves — tres o cuatro palabras que capturan la textura de la respuesta — pero deben estar presentes.
 
-Entrevista Clínica Ontológica · ECO
 
 4 La hoja del Módulo H (Harmonía/D-2) incluye las cinco preguntas H·D como casillas verificables porque es el único módulo que tiene un protocolo de cinco preguntas obligatorias. El mediador que no administra las cinco H·D no puede producir H-3(H) ni H-3(D2) con la certeza que el instrumento requiere. La casilla de verificación es un recordatorio de que todas las cinco deben estar presentes antes del cierre del módulo.
 
-Entrevista Clínica Ontológica · ECO
 
-### A·3 TABLA DE CRUCE ECO ↔ ÁRBOL
+# A·3 TABLA DE CRUCE ECO ↔ ÁRBOL DOCUMENTAL
 
-### DOCUMENTAL Protocolo de integración cuando U·1 ya fue aplicado · Convergencia ·
 
-### Complementación · Contradicción
+## Protocolo de integración cuando U·1 ya fue aplicado
+
+*Convergencia · Complementación · Contradicción*
 
 El árbol documental del Capítulo U·1 de la Taxonomía y el instrumento ECO producen localizaciones desde fuentes distintas: el árbol documental desde los actos y las huellas que los actos dejan en el expediente; ECO desde la presencia del ego genuino en el campo relacional de la sesión. Las dos localizaciones pueden referirse al mismo período y al mismo sujeto y producir resultados distintos — no porque uno sea incorrecto sino porque acceden a dimensiones distintas del mismo estado. El árbol documental localiza φ₁ y las huellas de sus actos; ECO localiza el ego genuino que produce φ₂. La integración de los dos instrumentos produce la imagen más completa disponible en el paradigma del estado del sujeto.
 
@@ -1198,7 +1165,6 @@ EP máximo para el componente en que ambos convergen. Registrar la convergencia 
 
 EP del árbol documental solo (sin ECO): máximo EP-4 para P(Hijos). Con convergencia de ECO EP-1: EP-1 combinado. La convergencia no se promedia: se eleva al nivel más alto que la evidencia de cada instrumento puede sustentar.
 
-### Entrevista Clínica Ontológica · ECO
 
 actos del período Y ECO produce señal de Fobos H-3 EP-1 en presencia, la localización de Fobos tiene el mayor nivel de certeza posible en el sistema.
 
@@ -1216,7 +1182,6 @@ No promediar las dos localizaciones. Identificar la causa probable de la contrad
 
 La contradicción más frecuente es Anteros documental / E-4 en ECO: el sujeto produce criterio propio en sus actos documentados (que puede corresponder a E-4 con criterio ajeno bien internalizado) pero en presencia
 
-### Entrevista Clínica Ontológica · ECO
 
 en los actos documentados) pero ECO localiza E-4 en el Eje I (eje ajeno internalizado). O el árbol documental localiza señal de V-1 en los vínculos documentados, pero ECO localiza V-2 Peribea en la relación con el mediador. Las contradicciones tienen causa y requieren investigación, no promediación.
 
@@ -1248,7 +1213,6 @@ No hay fuente de corroboración documental posible: la señal de Harmonía
 
 Sin contradicción posible: si el árbol documental sugiere Harmonía, esa sugerencia no puede
 
-### Entrevista Clínica Ontológica · ECO
 
 producir P(Harmonía) > 0.
 
@@ -1296,7 +1260,6 @@ Combinación complementaria:
 
 Sin contradicción típica: los dos
 
-### Entrevista Clínica Ontológica · ECO
 
 instrumentos localizan dimensiones distintas del mismo vector. Posible complementación: árbol documental localiza T-0 y ECO localiza la posición actual. Juntos: el trayecto completo del vector.
 
@@ -1330,23 +1293,24 @@ El sujeto entrevistado en ECO no es el ego soberano real del colectivo (en conte
 
 Verificar si el entrevistado en ECO es el ego soberano real. Si no lo es, la localización de ECO corresponde a ese sujeto, no al ego colectivo. Producir DI-ECO y repetir con el ego soberano real.
 
-Entrevista Clínica Ontológica · ECO
 
 mediador cometió uno de los errores del Bloque IV durante la administración.
 
-Notas A·3
+---
+
+## Notas A·3
 
 1 La regla absoluta del sistema — P(Harmonía) ≠ 0 solo desde el módulo H de ECO — no tiene excepción en el protocolo de integración. El árbol documental que sugiere Harmonía en los actos documentados no puede producir P(Harmonía) > 0. La complementación entre los dos instrumentos en este punto es asimétrica: ECO es la única fuente que puede elevar P(Harmonía) por encima de cero.
 
 2 El protocolo de integración no asume que ECO tiene mayor EP que el árbol documental en todos los componentes. Para algunos componentes — especialmente la cronología del vector tanatológico y la firma de los actos en el Bloque I durante períodos históricos que el sujeto ya no recuerda con precisión — el árbol documental puede tener mayor EP que ECO. La integración asigna mayor peso a la fuente de mayor EP componente por componente, no a un instrumento entero sobre el otro.
 
-### Entrevista Clínica Ontológica · ECO
 
-### A·4 TABLA DE ADAPTACIONES POR
+# A·4 TABLA DE ADAPTACIONES POR PERFIL DE MEDIADOR
 
-### PERFIL DE MEDIADOR Qué módulos usa cada perfil · En qué orden · Con qué profundidad ·
 
-### Referencia para primera administración
+## Qué módulos usa cada perfil
+
+*En qué orden · Con qué profundidad · Referencia para primera administración*
 
 <!-- TABLA: adaptación por perfil | columnas: perfil, módulos prioritarios, orden, profundidad, preguntas clave -->
 
@@ -1376,7 +1340,6 @@ Comenzar siempre con la pregunta de observación directa del Eje IV antes de adm
 
 Instrucción para primera sesión
 
-### Entrevista Clínica Ontológica · ECO
 
 ### Mediador Educativo
 
@@ -1426,7 +1389,6 @@ Instrucción para primera sesión
 
 No administrar ningún módulo antes de completar el protocolo de identificación del ego soberano real del B·III·1. Sin ese paso,
 
-### Entrevista Clínica Ontológica · ECO
 
 el resto del instrumento no tiene punto de entrada al ego colectivo.
 
@@ -1466,7 +1428,6 @@ Profundidad relativa
 
 Alta en Bloque I y Eje V del ego colectivo. Alta en B·III·1 (identificación del ego soberano real del colectivo analizado). Media en Eje I-IV. Alta en Eje V cuando el fenómeno analizado involucra pérdida irrecuperable constitutiva del colectivo.
 
-### Entrevista Clínica Ontológica · ECO
 
 Prioridades de localización
 
@@ -1504,19 +1465,21 @@ Comenzar siempre con la pregunta de localización del Eje V colectivo antes de c
 
 Instrucción para primera sesión
 
-Notas A·4
+---
 
-Entrevista Clínica Ontológica · ECO
+## Notas A·4
+
 
 1 Esta tabla es una referencia rápida, no un protocolo sustituto. El mediador que usa esta tabla sin conocer los módulos completos está usando el instrumento sin el fundamento que hace posible la lectura diagnóstica de las señales. La tabla orienta el orden y la profundidad; los módulos completos del Bloque I, II y III establecen el contenido y los criterios de cada localización.
 
 2 Los órdenes recomendados en esta tabla son puntos de entrada, no secuencias rígidas. El mediador que comienza con el Eje IV en el Mediador en Crisis puede encontrar que la apertura narrativa del sujeto orienta hacia el Eje V antes de que el Eje IV esté completamente explorado. El instrumento tiene estructura modular con secuencia recomendada, no con secuencia obligatoria (con las excepciones que los capítulos del Bloque I y II establecen: el módulo H siempre al final del Bloque I, el Eje I siempre al principio del Bloque II).
 
-Entrevista Clínica Ontológica · ECO
 
-### A·5 ÁRBOL DE NAVEGACIÓN GENERAL
+# A·5 ÁRBOL DE NAVEGACIÓN GENERAL DEL INSTRUMENTO
 
-DEL INSTRUMENTO Mapa completo del flujo de ECO · Criterios de entrada · Reglas SKIP · Nodos de
+## Mapa completo del flujo de ECO
+
+*Criterios de entrada · Reglas SKIP · Nodos de decisión · Salidas*
 
 decisión · Salidas
 
@@ -1548,7 +1511,6 @@ Orden estándar: F → D → A → P → E → H. El módulo H siempre al final 
 >
 > SKIP PARCIAL: E-1 confirmado en una sesión anterior con EP-1 o EP-2 y sin señal de parálisis, ausencia de dirección o respuesta mínima en la apertura. Administrar los sondeos D·1 y D·3; si alguno produce señal, administrar el módulo completo; si ninguno, H-1, EP-0 → Módulo Anteros.
 >
-> ### Entrevista Clínica Ontológica · ECO
 >
 > ### ↓
 
@@ -1589,7 +1551,6 @@ Orden estándar: Eje I → Eje II → Eje III → Eje IV → Eje V. El Eje I sie
 >
 > ABREVIACIÓN: si H produjo H-3(D2) con EP-1/EP-2 → pregunta ancla + DIS·3 + DIS·4 + D·DIS·1. Si H produjo H-3(H) con EP-1/EP-2 → pregunta ancla + DIS·1 + D·DIS·2. Con EP-3 o inferior, o H-2/no evaluable, administrar completo.
 >
-> ### Entrevista Clínica Ontológica · ECO
 >
 > Nota de modulación: D-2 profundo sin D-1 residual: evaluar derivación clínica antes de continuar. Modifica todos los pesos del Bloque I. Salida: Código D-n → continuar a Eje V. ↓
 
@@ -1627,7 +1588,6 @@ El Bloque III no es obligatorio para todos los encargos. Se activa cuando el ego
 
 > ¿Todos los módulos obligatorios administrados o saltados con justificación documentada?
 
-### Entrevista Clínica Ontológica · ECO
 
 NO → Instrumento incompleto. Evaluar si módulos faltantes pueden completarse o si el cierre debe declararse como incompleto. SÍ → ¿EP-2 o superior en los componentes principales? ↓
 
@@ -1661,13 +1621,14 @@ D·URG·3 Revelación de violencia activa — hacia el sujeto o hacia terceros
 
 Suspender ECO. Activar protocolo legal y de protección del contexto.
 
-### Notas A·5
+---
+
+## Notas A·5
 
 1 El árbol de navegación sintetiza el flujo del instrumento, pero no reemplaza los árboles de decisión internos de cada módulo. Cada módulo del Bloque I y el Bloque II tiene su propio árbol de decisión detallado (la sección §6 de cada módulo) que el mediador debe consultar cuando la navegación dentro del módulo requiere orientación más granular que la que este árbol general puede proveer.
 
 2 Las señales de derivación urgente en el cuadro final de este apéndice son señales que suspenden el instrumento con prioridad sobre cualquier otra consideración. El mediador que encuentra estas señales no completa el módulo en curso, no formula las preguntas que seguían, no intenta terminar la sesión de manera ordenada antes
 
-Entrevista Clínica Ontológica · ECO
 
 de actuar. La derivación urgente tiene prioridad absoluta sobre la administración del instrumento.
 
