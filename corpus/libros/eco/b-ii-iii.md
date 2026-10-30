@@ -1,8 +1,7 @@
-### B·II·III ·  MÓDULO EJE III — VÍNCULO
+# B·II·III · MÓDULO EJE III — VÍNCULO
+## La estructura del encuentro con el Otro
 
-La estructura del encuentro con el Otro Localización de los códigos V-1, V-2 y V-3 del Eje III · El campo
-
-relacional de la sesión como fuente de EP-1
+*Localización de los códigos V-1, V-2 y V-3 del Eje III · El campo relacional de la sesión como fuente de EP-1*
 
 ### I.  Fundamento ontológico del módulo
 
@@ -10,7 +9,6 @@ El Eje III del SDO describe la estructura de la relación del sujeto con el Otro
 
 Esta pregunta —¿qué estructura produce el campo relacional? — es la que hace del Módulo Eje III el más directamente legible desde la sesión de ECO. Todos los demás módulos buscan señales del sujeto en la sesión: su urgencia, su parálisis, su apertura, el estado de su ego, la forma de su presentación. El Módulo Eje III busca señales en el campo relacional entre el sujeto y el mediador: en la dinámica de la sesión misma, en la textura del encuentro entre los dos, en lo que la presencia del mediador como alteridad produce en el sujeto y en lo que el sujeto produce en el campo del mediador. Por eso el §5 de este módulo —señales de observación directa— es el más extenso
 
-Entrevista Clínica Ontológica · ECO
 
 del Bloque II: no porque haya más conceptos que describir sino porque las señales EP-1 de este módulo son relacionales y requieren descripción detallada de cómo leerlas en la dinámica viva de la sesión.
 
@@ -24,7 +22,6 @@ V-2 describe la asimetría estructural del vínculo que el SDO elabora a través
 
 La asimetría de Damasén-Peribea no es un estado de los sujetos individuales: es la estructura del vínculo. Un sujeto puede estar en E-
 
-Entrevista Clínica Ontológica · ECO
 
 1 (ego genuino activo) y habitar Peribea: el ego genuino opera, pero en esta relación específica lo hace desde el polo del que es formado. Otro sujeto puede estar en E-4 (eje ajeno internalizado) y habitar Damasén: el ego ajeno orienta tanto el propio campo como el del Otro que determina. Estas combinaciones son clínicamente distintas y el módulo desarrolla las preguntas discriminantes que las identifican. Lo que el Eje III localiza no es lo mismo que el Eje I ni que el Eje II: es la estructura del campo relacional, no el estado del ego ni la forma de su presentación.
 
@@ -38,7 +35,6 @@ Señal EP y criterio
 
 V Nombre Definición técnica Firma en presencia
 
-### Entrevista Clínica Ontológica · ECO
 
 EP-1: la relación con el mediador produce diferencia genuina en el sujeto, observable en sesión. El mediador puede producir algo inesperado para el sujeto que el sujeto registra y procesa. EP-2: narrativa coherente de encuentros genuinos en los que ambos lados fueron afectados.
 
@@ -70,7 +66,6 @@ El sujeto no puede identificar ninguna relación en la que haya genuina diferenc
 
 V-
 
-Entrevista Clínica Ontológica · ECO
 
 ### II.  Criterios de entrada y relación con los módulos anteriores
 
@@ -82,7 +77,6 @@ La sesión de ECO como campo diagnóstico del Eje III — regla de uso El mediad
 
 ### III.  Pregunta ancla
 
-Entrevista Clínica Ontológica · ECO
 
 La pregunta ancla del Módulo Eje III accede a la estructura del vínculo desde la narrativa del sujeto sobre sus relaciones más significativas. No busca nombres ni descripción de relaciones específicas: busca la estructura que el sujeto identifica cuando narra el patrón de sus vínculos.
 
@@ -136,12 +130,10 @@ El fundamento de la doble observación
 
 La razón por la que el mediador observa su propio campo no es introspección clínica desplazada: es que el campo relacional es bilateral y las señales del Eje III son estructurales. La estructura de V-2 se reproduce en el campo entre el sujeto y el mediador de la misma manera que se reproduce en todos los campos relacionales del sujeto. Si el mediador está siendo orientado por el sujeto más de lo que el instrumento requiere, eso no es un error del mediador: es EP-1 de Damasén. Si el mediador no puede producir ninguna diferencia que el sujeto no haya ya anticipado, eso no es una limitación del mediador: es EP-1 de V-2 en Damasén o de E-5. La
 
-### Entrevista Clínica Ontológica · ECO
 
-### observación del campo del mediador transforma esas señales en evidencia diagnóstica del Eje III.
+observación del campo del mediador transforma esas señales en evidencia diagnóstica del Eje III.
 
 <!-- TABLA: observación del campo | columnas: señal relacional en sesión, nivel EP, instrucción al mediador, código orientativo -->
-
 
 
 El sujeto recibe una perspectiva del mediador que contradice lo que sostenía y puede habitar la diferencia: no la adopta inmediatamente (eso sería E-4) ni la rechaza defensivamente (eso sería Fobos). Hay algo que procesa. La diferencia produce algo en él antes de resolverse.
@@ -168,7 +160,6 @@ EP-1 cuando la corrección es genuina y produce algo en el mediador.
 
 El mediador registra si la corrección del sujeto altera algo en él (V-1) o si el mediador la recibe sin que produzca diferencia (señal de que el campo del mediador también tiene estructura que examinar).
 
-### Entrevista Clínica Ontológica · ECO
 
 puede ser Damasén.
 
@@ -192,7 +183,6 @@ EP-1 si la ausencia de iniciativa relacional es sostenida y observable durante t
 
 El mediador hace silencio deliberado durante 30 segundos en un momento de la sesión y observa qué produce el sujeto. El sujeto en Peribea espera. El sujeto en V-1 produce algo — una pregunta, una reflexión, un cambio de tema. El sujeto en V-3 no registra el silencio como espacio a llenar.
 
-### Entrevista Clínica Ontológica · ECO
 
 El sujeto no puede registrar que el mediador existe como presencia diferente a él. Todo lo que el mediador produce es absorbido en los términos del sujeto sin que haya fricción, sin que haya diferencia, sin que haya encuentro. La sesión ocurre sin que el mediador haya producido ninguna diferencia en el campo del sujeto.
 
@@ -216,7 +206,6 @@ Las señales que siguen no pueden leerse desde una perspectiva única. Requieren
 
 ⬤  El silencio del mediador como instrumento diagnóstico En algún momento de los sondeos, el mediador deja un espacio de silencio deliberado — entre 20 y 30 segundos — sin formular ninguna pregunta ni hacer ningún gesto de orientación. Lo que el mediador observa: ¿el sujeto produce algo en ese espacio, o espera? ¿El sujeto puede tolerar el silencio sin llenarlo con una pregunta dirigida al mediador («¿estoy respondiendo bien?», «¿quieres que siga?»), o produce incomodidad que busca resolver con la orientación del mediador? El sujeto en V-1 puede estar con el silencio y
 
-Entrevista Clínica Ontológica · ECO
 
 producir algo desde él. El sujeto en Peribea tiende a buscar la orientación del mediador para llenar el espacio. El sujeto en V-3 puede no registrar el silencio como espacio — el silencio no produce nada.
 
@@ -228,7 +217,6 @@ producir algo desde él. El sujeto en Peribea tiende a buscar la orientación de
 
 La instrucción técnica para la doble observación: el mediador registra señales de su propio campo en la hoja de módulo con la misma precisión que registra las señales del sujeto. Las entradas en la hoja de módulo para el Eje III tienen dos columnas: «campo del sujeto» y «campo del mediador». Esa doble columna no existe en ningún otro módulo de ECO — es la particularidad diagnóstica del Eje III.
 
-Entrevista Clínica Ontológica · ECO
 
 Una advertencia técnica sobre la doble observación: el mediador debe distinguir entre lo que el sujeto produce en su campo genuinamente y lo que el mediador proyecta desde su propio Eje III. Un mediador en Peribea puede leer Damasén en cualquier sujeto que tenga iniciativa relacional. Un mediador en Damasén puede leer Peribea en cualquier sujeto que no resista su orientación. La calibración del propio campo antes de la sesión — establecida en el Capítulo P·3 — y la supervisión posterior son las dos condiciones que hacen que la doble observación sea diagnóstica y no proyectiva.
 
@@ -264,7 +252,6 @@ SALIDA — Código Eje III (V-1 / V-2 Damasén / V-2 Peribea / V-3) + Nivel EP �
 >
 > «En la relación que describes como más importante o más formativa, ¿podrías decir que los dos cambiaron a partir del encuentro — no que llegaron a un acuerdo, sino que los dos salieron diferentes? ¿O la dirección del cambio fue principalmente en un solo sentido?» [La pregunta de la bilateralidad del cambio. Lo que el mediador observa: si el sujeto puede identificar cambio bilateral genuino en los vínculos más importantes. V-1 produce cambio bilateral: los dos polos del encuentro salen diferentes. V-2 produce cambio unidireccional: Peribea cambia en la dirección de Damasén, o Damasén cambia a Peribea, pero no desde el encuentro sino desde la determinación.]
 >
-> ### Entrevista Clínica Ontológica · ECO
 >
 > V-1 · Encuentro genuino V-2 · Díada Damasén-Peribea
 >
@@ -296,7 +283,6 @@ SALIDA — Código Eje III (V-1 / V-2 Damasén / V-2 Peribea / V-3) + Nivel EP �
 >
 > Describe la mayoría de sus relaciones desde el polo orientado. Puede describir dificultad para sostener posición propia en el vínculo. Puede describir alivio cuando el Otro toma la orientación.
 >
-> ### Entrevista Clínica Ontológica · ECO
 >
 > vínculo: el Otro nunca puede sorprenderle genuinamente.
 >
@@ -337,7 +323,6 @@ Regla de codificación del Eje III — especificación de posición en V-2 V-2 s
 
 ### EP-1 para el Eje III es la señal observada directamente en el campo relacional de la sesión — no en la narrativa del sujeto sino en la
 
-Entrevista Clínica Ontológica · ECO
 
 dinámica entre el sujeto y el mediador. EP-2 requiere narrativa coherente del patrón relacional en múltiples vínculos o contextos con al menos una señal de observación en sesión que la corrobore. EP-3 requiere coherencia narrativa a través del tiempo sin señal de observación en sesión suficiente para EP-2. El Eje III es el único módulo del Bloque II en que EP-1 puede alcanzarse de manera relativamente fácil — precisamente porque la sesión misma es el campo de la señal.
 
@@ -351,7 +336,6 @@ El código del Eje III también prepara el territorio del Eje IV. V-3 con D-1 ac
 
 El Eje III a escala colectiva describe la estructura de las relaciones del colectivo con sus pares, con el entorno institucional y con la sociedad en que opera. La localización del ego colectivo en V-1, V-
 
-### Entrevista Clínica Ontológica · ECO
 
 2 o V-3 requiere observar no solo las relaciones del ego soberano sino la estructura relacional que el colectivo como sistema produce en sus encuentros con otros colectivos o con el campo.
 
@@ -383,7 +367,6 @@ Las relaciones del colectivo son extractivas o ceremoniales: o el colectivo extr
 
 ### La díada Damasén-Peribea a escala institucional
 
-Entrevista Clínica Ontológica · ECO
 
 La díada Damasén-Peribea produce dos tipos de organizaciones que el análisis institucional frecuentemente confunde. Las organizaciones en Damasén colectivo tienen orientación fuerte: producen marcos, establecen estándares, definen agendas para su campo. Pueden ser líderes sectoriales, centros de innovación o referentes de una comunidad. La señal de Damasén colectivo no es el liderazgo sino la estructura de la relación con los demás: las otras organizaciones operan dentro del marco que esta organización establece, y cuando salen de ese marco la organización Damasén describe incomodidad o resistencia.
 
@@ -426,17 +409,18 @@ Las organizaciones en Peribea colectivo tienen estructura de respuesta: son reac
 > >
 > > V-3 confirmado con D-1 activo y E-1 en el Eje I: la derivación a Histos es urgente porque hay un ego genuino con señal activa que registra el colapso del vínculo y que no puede encontrar encuentro genuino en ningún campo. El trabajo de Histos tiene el doble imperativo de trabajar la restitución del encuentro genuino (V-3 → V-1) y de amplificar la señal de D-1 que el ego genuino está produciendo. Esta es una de las condiciones clínicas más exigentes del paradigma y una de las que más claramente supera el alcance de ECO como instrumento de localización.
 > >
-> > Notas al Módulo B·II·III
-> >
-> > 1 La doble observación que establece el §5 de este módulo tiene precedentes en la tradición psicoanalítica —el concepto de contratransferencia— y en las corrientes sistémicas que observan el campo relacional como unidad de análisis. Lo que el sistema ontológico añade es la formalización de esa doble observación como instrumento diagnóstico con niveles EP explícitos. La señal que el mediador registra en su propio campo no es interpretación proyectiva: es observación de la estructura que el sujeto produce en el campo del mediador, con el mismo rigor metodológico que la observación de la conducta del sujeto. La diferencia es que requiere que el mediador haya calibrado su propio campo antes de usarlo como instrumento.
-> >
-> > 2 La distinción Damasén/Peribea dentro de V-2 tiene consecuencias directas para la estimación de la responsabilidad causal en el Método Prometeo. Un actor en Damasén tiene mayor capacidad de orientación del campo — y por tanto mayor posibilidad de afectar el campo en la dirección de los actos que se analizan. Su S es relativamente menor (mayor idiosincrasia en la orientación de φ₁) y su α puede ser mayor (mayor capacidad de asunción porque la orientación vino de su polo). Un actor en Peribea tiene mayor condicionamiento del campo externo sobre sus actos — su S puede ser mayor (menor idiosincrasia, mayor condicionamiento por el Damasén) y su α puede ser menor. Esta asimetría tiene implicaciones directas para la distribución de R* en el grafo causal del Método Prometeo.
-> >
-> >
-> > 3 La advertencia sobre reproducir la díada en la sesión que aparece en §11 tiene implicaciones para la formación de mediadores que van más allá de la técnica. Un mediador que habitualmente opera desde Damasén en sus relaciones personales llevará esa posición a la sesión de ECO si no la ha calibrado previamente. Ese mediador puede producir EP-1 de V-2 Peribea en cualquier sujeto que no resista activamente su orientación — porque su campo produce la posición de Peribea en el Otro. La supervisión del propio Eje III del mediador es, para este módulo, tan importante como el conocimiento técnico del instrumento.
-> >
-> > 4 El vínculo colapsado V-3 que el módulo describe en relación con el ego colectivo tiene implicaciones específicas para el Mediador en Memoria Comunitaria. Las comunidades que han sido históricamente absorbidas por un campo dominante —colonialismo, asimilación cultural, desplazamiento forzado— presentan con frecuencia V-3 colectivo como resultado estructural de esa absorción. El ego colectivo de esas comunidades puede haber perdido la capacidad de producir diferencia genuina en el encuentro con el exterior porque el exterior lo absorbió de manera suficientemente completa. El trabajo del Mediador en Memoria Comunitaria con V-3 colectivo es la condición previa al rescate cultural: sin restauración de la capacidad de encuentro genuino con la alteridad, la comunidad no puede recibir su propia memoria como diferencia que la afecta — solo puede reproducirla como archivo.
-> >
-> >
-> > BLOQUE II · Los cinco ejes del SDO
+---
 
+## Notas al Módulo B·II·III
+
+1 La doble observación que establece el §5 de este módulo tiene precedentes en la tradición psicoanalítica —el concepto de contratransferencia— y en las corrientes sistémicas que observan el campo relacional como unidad de análisis. Lo que el sistema ontológico añade es la formalización de esa doble observación como instrumento diagnóstico con niveles EP explícitos. La señal que el mediador registra en su propio campo no es interpretación proyectiva: es observación de la estructura que el sujeto produce en el campo del mediador, con el mismo rigor metodológico que la observación de la conducta del sujeto. La diferencia es que requiere que el mediador haya calibrado su propio campo antes de usarlo como instrumento.
+
+2 La distinción Damasén/Peribea dentro de V-2 tiene consecuencias directas para la estimación de la responsabilidad causal en el Método Prometeo. Un actor en Damasén tiene mayor capacidad de orientación del campo — y por tanto mayor posibilidad de afectar el campo en la dirección de los actos que se analizan. Su S es relativamente menor (mayor idiosincrasia en la orientación de φ₁) y su α puede ser mayor (mayor capacidad de asunción porque la orientación vino de su polo). Un actor en Peribea tiene mayor condicionamiento del campo externo sobre sus actos — su S puede ser mayor (menor idiosincrasia, mayor condicionamiento por el Damasén) y su α puede ser menor. Esta asimetría tiene implicaciones directas para la distribución de R* en el grafo causal del Método Prometeo.
+
+
+3 La advertencia sobre reproducir la díada en la sesión que aparece en §11 tiene implicaciones para la formación de mediadores que van más allá de la técnica. Un mediador que habitualmente opera desde Damasén en sus relaciones personales llevará esa posición a la sesión de ECO si no la ha calibrado previamente. Ese mediador puede producir EP-1 de V-2 Peribea en cualquier sujeto que no resista activamente su orientación — porque su campo produce la posición de Peribea en el Otro. La supervisión del propio Eje III del mediador es, para este módulo, tan importante como el conocimiento técnico del instrumento.
+
+4 El vínculo colapsado V-3 que el módulo describe en relación con el ego colectivo tiene implicaciones específicas para el Mediador en Memoria Comunitaria. Las comunidades que han sido históricamente absorbidas por un campo dominante —colonialismo, asimilación cultural, desplazamiento forzado— presentan con frecuencia V-3 colectivo como resultado estructural de esa absorción. El ego colectivo de esas comunidades puede haber perdido la capacidad de producir diferencia genuina en el encuentro con el exterior porque el exterior lo absorbió de manera suficientemente completa. El trabajo del Mediador en Memoria Comunitaria con V-3 colectivo es la condición previa al rescate cultural: sin restauración de la capacidad de encuentro genuino con la alteridad, la comunidad no puede recibir su propia memoria como diferencia que la afecta — solo puede reproducirla como archivo.
+
+
+BLOQUE II · Los cinco ejes del SDO
