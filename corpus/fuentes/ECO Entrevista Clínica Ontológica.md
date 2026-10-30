@@ -28,7 +28,6 @@ Mda. Juana Aguilar
 
 ### Lic. Y Mda. Ana Lucía Olvera Aguilar
 
-Entrevista Clínica Ontológica · ECO
 
 # Índice
 
@@ -57,6 +56,7 @@ B·II·V Módulo Eje V — Tanatológico
 Parte III La entrevista al ego colectivo  
 B·III·1 El ego soberano como punto de entrada  
 B·III·2 Entrevista a los miembros  
+B·III·3 Agregación de localizaciones individuales  
 B·III·4 Análisis de artefactos colectivos  
 B·III·5 Memoria comunitaria — lo que fue, lo que es, lo que pudo ser  
 
@@ -74,9 +74,9 @@ Apéndice A·3 Tabla de cruce ECO ↔ árbol documental
 Apéndice A·4 Tabla de adaptaciones por perfil de mediador  
 Apéndice A·5 Árbol de navegación general del instrumento
 
-### Capítulo P·1
+# Capítulo P·1
 
-Qué es ECO y qué no es La función del instrumento en el sistema
+## Qué es ECO y qué no es La función del instrumento en el sistema
 
 ### I.  El punto de partida que este capítulo establece
 
@@ -84,7 +84,6 @@ El mediador que abre este libro por primera vez necesita saber una cosa antes de
 
 ECO —Entrevista Clínica Ontológica— es el instrumento de localización de la configuración de la voluntad mediante la presencia del sujeto. Esa definición tiene cuatro elementos que merecen cada uno una lectura precisa. El primero: ECO es un instrumento, no un método, no una técnica, no una escuela de acompañamiento. Un instrumento tiene estructura interna replicable, criterios de aplicación explícitos, condiciones de validez definidas y salidas que pueden verificarse. El segundo: ECO localiza. No interpreta en el sentido de producir narrativas sobre el sujeto. No prescribe en el sentido de decir al sujeto qué debe hacer. Localiza: determina en qué posición de la voluntad se encuentra el sujeto en el momento analizado. El tercero: lo que localiza es la configuración de la
 
-Entrevista Clínica Ontológica · ECO
 
 voluntad. No la personalidad, no el diagnóstico psicológico, no el perfil de competencias. La configuración de la voluntad en el sentido ontológico preciso que el SDO establece: los Hijos de Afrodita que dominan la dimensión afrodítica y arética, los códigos de los cinco ejes que describen el estado del ego. El cuarto: la localización ocurre mediante la presencia del sujeto. Ese es el dato diferencial que define la función de ECO en el sistema y que ningún otro instrumento puede replicar.
 
@@ -98,7 +97,6 @@ La salida de ECO no es un diagnóstico clínico ni un perfil del sujeto. Es una 
 
 El primer componente es la distribución P(Hijos): seis números que suman 1.00, uno por cada Hijo de Afrodita, con el nivel de certeza explícito de cada peso asignado. Esta distribución es el equivalente relacional de la distribución P(Hijos) que el árbol documental
 
-Entrevista Clínica Ontológica · ECO
 
 produce desde evidencia documental. La diferencia es que ECO puede asignar peso positivo a Harmonía —lo que el árbol documental nunca puede hacer— y puede confirmar Potós y Eros en lugar de dejarlos en hipótesis. El segundo componente es la localización en los cinco ejes del SDO: los códigos E, M, V, D y T que describen la configuración del ego del sujeto en el momento analizado. El tercer componente son los principios de intervención orientadores: no el proceso de acompañamiento completo —ese pertenece a Histos— sino las orientaciones inmediatas que el mediador necesita para no cometer los errores más frecuentes con lo que encontró.
 
@@ -110,7 +108,6 @@ Estos tres componentes son la totalidad de lo que ECO produce. El mediador que e
 
 Hay algo que ECO produce que no aparece en ninguna descripción formal del instrumento pero que el mediador entrenado reconoce: la relación que se establece en la sesión es en sí misma evidencia. La manera en que el sujeto se relaciona con el mediador durante ECO —cómo responde, cómo evita, cómo se abre o se cierra, si puede desacordar o si acepta todo lo que el mediador introduce— es señal diagnóstica de primer orden. El Módulo Eje III desarrolla esto con la precisión que merece. Lo que importa establecer aquí es que ECO no es solo lo que el mediador pregunta: es también lo que el mediador observa en el campo que se crea entre los dos.
 
-Entrevista Clínica Ontológica · ECO
 
 ### III.  Relación con los demás instrumentos del paradigma
 
@@ -131,7 +128,6 @@ Hay un cuarto instrumento cuya relación con ECO merece una nota específica: la
 
 La delimitación negativa de un instrumento es tan importante como su definición positiva. El mediador que sabe qué hace ECO, pero no sabe qué no hace cometerá errores que el instrumento no puede corregir porque los produce quien lo administra, no el instrumento mismo.
 
-Entrevista Clínica Ontológica · ECO
 
 ECO no es un sustituto del SDO
 
@@ -147,7 +143,6 @@ ECO no es el proceso de acompañamiento
 
 Este punto merece énfasis especial porque es el error de uso más frecuente del instrumento entre mediadores en formación. ECO produce una localización y orientaciones de intervención inmediatas. No produce el proceso de acompañamiento que esa localización requiere. La diferencia entre localización y acompañamiento es la
 
-Entrevista Clínica Ontológica · ECO
 
 misma que existe entre diagnóstico y tratamiento: el primero es condición necesaria del segundo, pero no lo contiene. El proceso completo de acompañamiento —sesión a sesión, con sus instrumentos específicos, su temporalidad y su lógica de progresión— pertenece a Histos. El mediador que intenta hacer acompañamiento dentro de ECO confunde el instrumento de lectura con el instrumento de intervención y compromete la calidad de ambos.
 
@@ -163,7 +158,6 @@ La localización que ECO produce es una distribución de probabilidad, no una as
 
 La tentación al abrir un instrumento de esta naturaleza es ir directamente al primer módulo y empezar a aplicar. Esa tentación es la razón por la que este capítulo existe. El mediador que no ha leído qué hace ECO antes de administrarlo produce dos clases de error que el instrumento no puede detectar porque ocurren en el nivel de
 
-Entrevista Clínica Ontológica · ECO
 
 la comprensión del mediador, no en el nivel de los criterios del instrumento.
 
@@ -179,13 +173,14 @@ Este capítulo ha establecido tres cosas. La primera: qué es ECO con precisión
 
 Lo que este capítulo no ha establecido es cómo se usa ECO. Eso requiere los cuatro capítulos que siguen en la Parte Preliminar. El Capítulo P·2 describe los seis perfiles de mediador que usan ECO y la proporción y el tipo de uso de cada uno —porque el instrumento
 
-Entrevista Clínica Ontológica · ECO
 
 se administra de manera diferente según el perfil y el contexto. El Capítulo P·3 establece las condiciones de administración: qué debe estar en su lugar para que una sesión de ECO sea válida. El Capítulo P·4 fija las convenciones del instrumento: los símbolos, los códigos y la escala EP que se usan en todos los módulos. El Capítulo P·5 establece la lógica de navegación: los criterios de entrada, las reglas de salto y los criterios de cierre que hacen del instrumento algo más que una lista de preguntas.
 
 Con la Parte Preliminar completa, el Bloque I puede comenzar. El primer módulo —Fobos— es el más legible de los seis y sirve como calibrador del instrumento: el mediador que puede administrarlo con precisión ha internalizado la estructura que los cinco módulos restantes y los cinco módulos de ejes del Bloque II comparten.
 
-Notas al capítulo P·1
+---
+
+## Notas al capítulo P·1
 
 1 La definición de ECO como instrumento de localización de la configuración de la voluntad sigue el principio metrológico establecido en el Documento Fundacional del paradigma: la metrología ontológica no es una especialidad sino el agua en que todos nadan. ECO es la operacionalización de ese principio en el nivel de la sesión individual o colectiva.
 
@@ -197,12 +192,10 @@ Notas al capítulo P·1
 
 impedir que el mediador asigne certezas fuera del rango que el tipo de señal observacional justifica.
 
-Entrevista Clínica Ontológica · ECO
 
+# Capítulo P·2
 
-### Capítulo P·2
-
-Los perfiles de mediador Quién usa ECO, cómo lo usa y qué debe poder responder con él
+## Los perfiles de mediador Quién usa ECO, cómo lo usa y qué debe poder responder con él
 
 ### I.  Por qué los perfiles importan antes que los módulos
 
@@ -210,7 +203,6 @@ ECO no se administra de la misma manera en todos los contextos ni por todos los 
 
 Este capítulo describe los seis perfiles de mediador que usan ECO, con la pregunta central que orienta su uso en cada especialidad y la proporción relativa de los bloques que cada perfil activa. No es una descripción exhaustiva de las especialidades —el Documento Fundacional del paradigma contiene esa descripción. Es una guía de uso del instrumento según el perfil: qué partes leer con más atención, cuáles son opcionales, y qué preguntas propias de cada especialidad ECO debe poder responder.
 
-Entrevista Clínica Ontológica · ECO
 
 | Especialidad | SDO | Prometeo | ECO | Histos | Bloques de ECO en uso |
 | --- | ---: | ---: | ---: | --- | --- |
@@ -225,7 +217,6 @@ Entrevista Clínica Ontológica · ECO
 
 ### II.  Mediador Ontológico en Crisis
 
-Entrevista Clínica Ontológica · ECO
 
 > **§1  ·  MEDIADOR ONTOLÓGICO EN CRISIS**
 >
@@ -241,7 +232,6 @@ La pregunta que el mediador en crisis necesita que ECO responda no es solo cuál
 
 La localización que ECO produce se convierte, para este perfil, en el primer insumo de Histos. El mediador en crisis que termina una sesión de ECO tiene lo que necesita para saber cómo entrar al acompañamiento: no qué decirle al sujeto, sino desde qué
 
-Entrevista Clínica Ontológica · ECO
 
 configuración está el sujeto para escuchar, qué dirección tiene su voluntad, y qué errores de intervención debe evitar con esa configuración específica.
 
@@ -263,7 +253,6 @@ Los bloques que el mediador educativo activa son el Bloque I y el Bloque II para
 
 El mediador educativo necesita que ECO responda dos preguntas que a veces apuntan en la misma dirección y a veces no. La primera: ¿desde qué configuración de la voluntad está aprendiendo —o no aprendiendo— este estudiante? La segunda: ¿desde qué
 
-Entrevista Clínica Ontológica · ECO
 
 configuración de la voluntad colectiva opera la institución que produce ese resultado? La primera requiere el uso individual del Bloque I y el Bloque II. La segunda requiere el Bloque III.
 
@@ -283,7 +272,6 @@ El mediador organizacional trabaja el ego colectivo en entornos organizacionales
 
 El Bloque III es el núcleo del uso de ECO para este perfil. El mediador organizacional no entrevista a individuos para localizarlos individualmente: los entrevista para leer el ego colectivo del que
 
-Entrevista Clínica Ontológica · ECO
 
 forman parte. La distinción es técnica y tiene consecuencias en la administración del instrumento: las preguntas se formulan de manera diferente, las señales de observación apuntan a dimensiones diferentes, y la codificación opera sobre la percepción que el miembro tiene del colectivo, no sobre su posición propia.
 
@@ -301,7 +289,6 @@ La pregunta central del mediador organizacional es sobre el colectivo, no sobre 
 
 ### V.  Mediador Ontológico Estructural
 
-Entrevista Clínica Ontológica · ECO
 
 > **§4  ·  MEDIADOR ONTOLÓGICO ESTRUCTURAL**
 >
@@ -317,7 +304,6 @@ El mediador estructural es el único perfil que usa ECO habitualmente en combina
 
 #### Lo que ECO debe poder responder para este perfil
 
-Entrevista Clínica Ontológica · ECO
 
 Para el mediador estructural, ECO debe poder responder una pregunta con consecuencias técnicas precisas: ¿cuánto de la S estimada documentalmente se confirma o se ajusta cuando se localiza al actor en presencia? La respuesta a esa pregunta puede estrechar el rango de S, puede ampliar la incertidumbre si la localización en presencia contradice la documental, o puede resolver la ambigüedad de casos donde el árbol documental produjo una Declaración D por insuficiencia de evidencia.
 
@@ -337,7 +323,6 @@ Las secciones del Bloque III que el mediador modelador activa con mayor frecuenc
 
 #### El análisis de artefactos como uso central para este perfil
 
-Entrevista Clínica Ontológica · ECO
 
 El mediador modelador usa con frecuencia el protocolo de análisis de artefactos colectivos del Bloque III §4 como sustituto de la entrevista cuando los actores no están disponibles. Documentos institucionales, discursos fundacionales, rituales organizacionales, producciones culturales: todos son artefactos que el instrumento trata como evidencia del estado del ego colectivo. Para este perfil, ECO amplía la lógica del árbol documental al nivel del colectivo: en lugar de localizar a un actor individual desde un expediente, localiza a un ego colectivo desde el conjunto de artefactos que produjo.
 
@@ -357,7 +342,6 @@ El mediador modelador necesita que ECO responda una pregunta que tiene naturalez
 
 El Mediador en Memoria Comunitaria es el perfil más reciente del paradigma y el que opera con la unidad de análisis más singular: la comunidad como ego colectivo en su dimensión temporal. Su pregunta central no es solo cuál es la configuración presente del ego
 
-Entrevista Clínica Ontológica · ECO
 
 colectivo —eso lo responden también el organizacional y el modelador— sino cómo esa configuración presente se relaciona con lo que fue, con lo que es ahora, y con lo que nunca llegó a ser.
 
@@ -371,7 +355,6 @@ El Eje V del Bloque II es el eje más relevante para este perfil porque la pérd
 
 #### Perfiles de entrada al perfil
 
-Entrevista Clínica Ontológica · ECO
 
 El Mediador en Memoria Comunitaria tiene perfiles de entrada desde disciplinas que no son habituales en el paradigma: antropología, historia, artes visuales, gestión cultural. Eso tiene consecuencias para la manera en que este perfil usa ECO. Un antropólogo que administra ECO tiene formación en trabajo de campo, entrevistas etnográficas y lectura de artefactos culturales que un psicólogo no tiene. Un historiador tiene acceso a fuentes primarias y lectura crítica de documentos que un coach no tiene. ECO incorpora esa formación previa en lugar de ignorarla: el protocolo de análisis de artefactos del Bloque III §4 y las preguntas a portadores de memoria del Bloque III §5 están diseñados para ser administrados por alguien con ese perfil disciplinar.
 
@@ -387,7 +370,6 @@ La pregunta que el Mediador en Memoria Comunitaria necesita que ECO responda tie
 
 ### VIII.  Lo que todos los perfiles comparten
 
-Entrevista Clínica Ontológica · ECO
 
 Seis perfiles. Seis preguntas centrales distintas. Seis proporciones de uso distintas. Un solo instrumento. Lo que todos los perfiles comparten cuando usan ECO no es solo el conjunto de preguntas y criterios: es la operación fundamental que el instrumento realiza, que es la misma con independencia de quién lo administre y para qué fin.
 
@@ -397,7 +379,9 @@ Esta es la razón por la que todos los perfiles de mediador, independientemente 
 
 > *El mediador que conoce su especialidad, pero no conoce el instrumento usa ECO como si fuera un cuestionario. El mediador que conoce el instrumento, pero no su especialidad lo usa sin saber qué busca. Solo quien conoce ambas cosas puede producir una localización que sea técnicamente válida y clínicamente útil.*
 
-Notas al capítulo P·2
+---
+
+## Notas al capítulo P·2
 
 1 Las proporciones de uso (SDO / Prometeo / ECO / Histos) son orientaciones, no prescripciones. Un caso específico puede llevar a un mediador organizacional a hacer un uso más intensivo de ECO del que su proporción habitual indica, si el ego colectivo que analiza requiere entrevista directa a sus miembros. Las proporciones describen el trabajo habitual de cada especialidad, no el límite de uso del instrumento.
 
@@ -407,7 +391,7 @@ Notas al capítulo P·2
 
 4 El Mediador Estructural es el único perfil cuya administración de ECO está habitualmente precedida por el árbol documental del Capítulo U·1 de la Taxonomía. Eso produce un orden de operaciones que los demás perfiles no tienen: árbol documental primero, ECO como verificación y completamiento. El protocolo de cruce entre ambas fuentes —que el Capítulo P·5 establece— es especialmente relevante para este perfil porque la contradicción entre P(Hijos) documental y P(Hijos) relacional tiene consecuencias directas en la estimación de S.
 
-### Capítulo P·3
+# Capítulo P·3
 
 ## Condiciones de administración
 
@@ -423,7 +407,6 @@ Las condiciones de administración de ECO tienen cuatro dimensiones: la formaci�
 >
 > En este instrumento, una administración válida no es una que produjo resultados correctos —eso se verifica después. Es una que cumplió las condiciones que hacen posible que los resultados sean verificables. La distinción es la misma que existe entre un experimento bien diseñado y uno cuyos resultados son los esperados: el diseño correcto es condición de validez; los resultados esperados son consecuencia posible, no criterio.
 
-Entrevista Clínica Ontológica · ECO
 
 ### II.  Formación requerida del mediador
 
@@ -441,7 +424,6 @@ El segundo cuerpo de conocimiento es la escala de evidencia personal y el sistem
 
 #### Dominio del perfil propio
 
-Entrevista Clínica Ontológica · ECO
 
 El tercer cuerpo de conocimiento es el conocimiento de la especialidad propia: qué bloques usa su perfil, con qué profundidad, y qué pregunta orienta su uso del instrumento. El Capítulo P·2 establece esto para cada uno de los seis perfiles. El mediador que no ha leído el capítulo correspondiente a su especialidad no sabe qué está buscando con el instrumento, incluso si sabe cómo administrarlo.
 
@@ -457,7 +439,6 @@ Además del dominio conceptual, el instrumento recomienda que el mediador haya a
 
 El encuadre es lo que el mediador hace antes de abrir el primer módulo. No es una formalidad administrativa: es la operación que crea las condiciones relacionales de la sesión. Un encuadre correcto produce un campo en el que el ego genuino del sujeto puede manifestarse. Un encuadre incorrecto produce exactamente lo contrario: un campo donde el sujeto se adapta a lo que percibe que el mediador espera, y lo que ECO localiza es esa adaptación, no la configuración real de la voluntad.
 
-Entrevista Clínica Ontológica · ECO
 
 #### Lo que se le dice al sujeto
 
@@ -477,7 +458,6 @@ El mediador tampoco le dice al sujeto cuántos módulos tiene el instrumento ni 
 
 #### El protocolo de apertura
 
-Entrevista Clínica Ontológica · ECO
 
 Antes de iniciar el primer módulo, el mediador realiza una apertura narrativa libre: una invitación al sujeto a contar, sin estructura, el período que se va a analizar. Esta apertura tiene entre diez y veinte minutos y produce dos cosas simultáneamente. La primera: material narrativo que el mediador lee con las señales preliminares de los módulos sin interrumpir al sujeto. La segunda: la calibración del campo relacional de la sesión — el mediador observa cómo el sujeto habita la conversación antes de que las preguntas estructuradas empiecen.
 
@@ -493,7 +473,6 @@ Antes de iniciar el primer módulo, el mediador realiza una apertura narrativa l
 
 El encuadre incluye una condición que el mediador debe gestionar sobre sí mismo y no solo sobre el sujeto: la identificación de su propia P(Hijos) antes de la sesión. El mediador que entra a ECO en Fobos leerá urgencia donde puede haber Anteros. El mediador en Deimos evitará las preguntas discriminantes más difíciles. El mediador en Eros recibirá con entusiasmo lo que el sujeto produce sin la distancia que la codificación requiere. Conocer el propio Hijo dominante antes de la sesión no elimina su efecto en el campo, pero hace posible que el mediador lo observe en lugar de confundirlo con lo que el sujeto produce.
 
-Entrevista Clínica Ontológica · ECO
 
 ### IV.  Duración y estructura temporal
 
@@ -528,7 +507,6 @@ La distribución recomendada del instrumento en sesiones múltiples depende del 
 
 La distribución en sesiones no es rígida. Un mediador en crisis que trabaja con un sujeto en estado agudo puede necesitar distribuir el Bloque I en tres sesiones más cortas. Un mediador estructural que busca solo los parámetros S y α puede completar los módulos
 
-Entrevista Clínica Ontológica · ECO
 
 relevantes en una sola sesión de 60 minutos. Lo que no es negociable es el tiempo mínimo por módulo: comprimir el Módulo H a menos de 20 minutos invalida la discriminación Harmonía/D-2, que es la función más exigente del instrumento.
 
@@ -564,7 +542,6 @@ La declaración especifica: qué condición de invalidación se presentó, en qu
 
 #### Lo que no invalida una administración
 
-Entrevista Clínica Ontológica · ECO
 
 Para que la lista anterior no produzca parálisis, es importante establecer lo que no invalida una administración. La incomodidad del sujeto durante la sesión no la invalida —es señal, no problema. El silencio sostenido del sujeto ante una pregunta no la invalida — puede ser evidencia de Deimos. Las respuestas inesperadas o contradictorias del sujeto no la invalidan —son información diagnóstica. La fatiga del sujeto al final de la sesión no la invalida, aunque sí puede justificar dividir la administración en una sesión adicional. Los errores menores de formulación del mediador no la invalidan, siempre que no hayan intervenido para calmar la incomodidad del sujeto.
 
@@ -572,22 +549,21 @@ La regla general es esta: invalida lo que contamina el campo relacional de la se
 
 > *Una sesión sin ninguna incomodidad no ha localizado nada. Ha localizado la imagen que el sujeto considera presentable en ese contexto. Eso también es un hallazgo: el código M-2 del Eje II. Pero no es la configuración de la voluntad que los módulos del Bloque I buscan.*
 
-Notas al capítulo P·3
+---
+
+## Notas al capítulo P·3
 
 1 La recomendación de tres administraciones supervisadas antes del uso autónomo no es un requisito formal del instrumento sino una orientación de formación. Los programas de certificación del paradigma establecerán los requisitos específicos de práctica supervisada para cada perfil de mediador. Lo que el instrumento establece es el principio: el campo relacional del mediador necesita calibración que solo la práctica supervisada puede proveer.
 
 2 La formulación de apertura recomendada en la Sección III no es un guion que debe reproducirse palabra por palabra. Es la estructura mínima que el encuadre debe tener: qué es el instrumento, qué va a ocurrir, qué no va a ocurrir. La adaptación al contexto, al sujeto y al perfil del mediador es esperada y necesaria. Lo que no puede adaptarse es la declaración de que no habrá evaluación ni diagnóstico durante la sesión: esa declaración es la que crea las condiciones de campo.
 
-Entrevista Clínica Ontológica · ECO
 
 3 Los tiempos por módulo en la tabla de la Sección IV son orientativos para el perfil estándar. Casos con sujetos en E-3 (afasia volitiva) pueden requerir tiempos significativamente mayores en todos los módulos porque la producción narrativa es más lenta y más fragmentada. Casos con sujetos en E-6 (Aego) pueden requerir módulos más cortos porque la señal disponible es mínima y extender el tiempo no produce señal adicional.
 
 4 La condición de invalidación por «respuestas orientadas a la imagen» merece una aclaración: el hecho de que el sujeto sostenga una imagen en sesión no es en sí mismo una condición de invalidación. Es un hallazgo —el código M-2 del Eje II. La condición de invalidación se cumple cuando esa orientación es tan consistente y sostenida que no hay ninguna señal del ego genuino en ningún momento de la sesión. En ese caso, lo que ECO ha localizado es el estado de la mascarada, no la configuración de la voluntad que está detrás de ella.
 
-Entrevista Clínica Ontológica · ECO
 
-
-### Capítulo P·4
+# Capítulo P·4
 
 ## Convenciones del instrumento
 
@@ -603,7 +579,6 @@ Las convenciones tienen tres niveles. El primero es la notación y los símbolos
 
 La tabla que sigue recoge todos los símbolos y notaciones que aparecen en los módulos de ECO, con su categoría y su significado
 
-Entrevista Clínica Ontológica · ECO
 
 técnico preciso. Los símbolos del sistema ontológico (φ₁, φ₂, v_t, E-n, M-n, V-n, D-n, T-n) se listan aquí como referencia rápida: su desarrollo conceptual completo está en el SDO.
 
@@ -646,7 +621,6 @@ Los cuatro códigos de calificación son la salida primaria de cada módulo. Cad
 
 La distinción entre H-1 e imposibilidad de evaluar es técnicamente importante y operativamente frecuente. H-1 significa que el módulo se administró completo y no produjo señal: hay información negativa; significa que el módulo no pudo evaluarse: no hay
 
-Entrevista Clínica Ontológica · ECO
 
 información de ningún tipo. Tratar H-1 como una imposibilidad de evaluar produce una sub-declaración de ausencia —el mediador registra incertidumbre donde hay certeza negativa. Tratar la imposibilidad como H-1 produce una sobre-declaración —el mediador registra ausencia donde no tiene base para declarar nada.
 
@@ -662,9 +636,8 @@ La Tabla EP es el instrumento de calibración central de ECO. Define los niveles
 
 La lógica de la escala es la misma que la del Método Prometeo: no todos los tipos de señal tienen el mismo valor epistémico. Una conducta sostenida del sujeto durante la sesión —que el mediador observó directamente y que cualquier otro mediador formado habría podido observar— tiene más peso que un dicho único que el sujeto produjo una vez en respuesta a una pregunta directa. La Tabla EP
 
-### Entrevista Clínica Ontológica · ECO
 
-### formaliza esa jerarquía en rangos de peso que el mediador no puede violar sin comprometer la validez del instrumento.
+formaliza esa jerarquía en rangos de peso que el mediador no puede violar sin comprometer la validez del instrumento.
 
 > *La Tabla EP no es una lista de lo que el mediador puede encontrar en sesión. Es una lista de los tipos de señal que el instrumento reconoce como evidencia y el peso que cada tipo puede sostener. El mediador que encuentra una señal que no encaja en ninguna categoría de la tabla debe evaluarla desde el tipo más cercano y registrar la discrepancia en la hoja de síntesis.*
 
@@ -717,7 +690,9 @@ Las cinco reglas tienen un denominador común: protegen la distribución P(Hijos
 
 > *El mediador que confía en su impresión clínica sin consultar la Tabla EP produce distribuciones que reflejan su propio campo más que el del sujeto. La impresión clínica es el punto de partida de la codificación, no su sustituto.*
 
-Notas al capítulo P·4
+---
+
+## Notas al capítulo P·4
 
 1 La distinción entre EP-1 y EP-2 es la más importante de la escala porque ambos producen H-3 y ambos son «confirmables», pero sus rangos de peso son distintos. EP-1 puede alcanzar 0.90 porque la conducta directa sostenida en sesión es el tipo de señal más confiable del instrumento. EP-2 alcanza 0.75 porque la corroboración en sesión que acompaña la narrativa puede ser más débil que la conducta directa. El mediador debe ser riguroso en distinguirlos: una narrativa coherente sin señal en sesión es EP-2 solo si hay al menos una señal observacional que la acompañe. Si no la hay, es EP-3.
 
@@ -725,18 +700,15 @@ Notas al capítulo P·4
 
 3 La escala EP tiene EP-0 como nivel separado de EP-8 porque la función de cada uno es distinta. EP-8 es la señal mínima: algo se observó, aunque sea poco. EP-0 es la ausencia certificada: nada se observó después de administración
 
-Entrevista Clínica Ontológica · ECO
 
 completa. Esta distinción produce H-1 (EP-0, ausencia confirmada) vs H-2 o H-1 (EP-8, señal mínima que puede o no justificar peso residual). Fusionarlos en un solo nivel produciría ambigüedad en el extremo inferior de la escala.
 
 4 La secuencia de uso de la Tabla EP —antes, durante y después de la sesión— refleja un principio general del instrumento: la sesión es el momento de observación, no de análisis. El análisis ocurre después, con las notas como insumo y la Tabla EP como criterio de calibración. El mediador que intenta codificar durante la sesión divide su atención entre observar al sujeto y procesar lo que observa, y la observación pierde calidad en ambos casos.
 
-Entrevista Clínica Ontológica · ECO
 
+# Capítulo P·5
 
-### Capítulo P·5
-
-### Criterios de entrada, salto y cierre
+## Criterios de entrada, salto y cierre
 
 *La lógica de navegación del instrumento*
 
@@ -748,7 +720,6 @@ La lógica de navegación de ECO descansa en tres operaciones distintas que este
 
 El orden estándar existe porque la ontología lo exige —los Hijos determinan desde dónde se lee el Eje I, el Eje I determina desde
 
-Entrevista Clínica Ontológica · ECO
 
 dónde se lee el Eje II, y así en cadena. Pero el orden estándar no es el único camino válido. El mediador que tiene una hipótesis sólida sobre el Hijo dominante de un sujeto antes de abrir el primer módulo puede entrar directamente a ese módulo si cumple las condiciones de entrada. Lo que no puede hacer es saltarse la verificación de exclusión: la hipótesis previa autoriza la entrada directa, no la conclusión anticipada.
 
@@ -803,7 +774,6 @@ Esa conclusión requiere justificación. La diferencia entre un instrumento con 
 
 La tabla distingue entre SKIP completo y parcial. El SKIP completo omite el resto del módulo una vez cumplidas las comprobaciones que su regla exige; solo registra H-1/EP-0 cuando esa regla lo autoriza y esas comprobaciones no producen señal. El SKIP parcial omite parte de la administración, pero mantiene la pregunta ancla y la verificación de
 
-Entrevista Clínica Ontológica · ECO
 
 exclusión. El SKIP parcial nunca omite la verificación de exclusión: si la omite, no es un SKIP parcial sino un error de administración.
 
@@ -819,9 +789,8 @@ Independientemente del perfil del mediador, del caso y de cualquier hipótesis p
 
 ECO está completo cuando puede producir una localización. Una localización es un resultado del instrumento, no una sesión terminada. El mediador puede completar todas las sesiones previstas y no tener una localización —si demasiados módulos produjeron código de imposibilidad para evaluar y la distribución P(Hijos) no puede completarse. Y puede tener una localización antes de completar todas las sesiones previstas —si la evidencia fue
 
-### Entrevista Clínica Ontológica · ECO
 
-### suficientemente clara en menos módulos de los esperados. El criterio de cierre no es temporal: es epistémico.
+suficientemente clara en menos módulos de los esperados. El criterio de cierre no es temporal: es epistémico.
 
 | Criterio de cierre | Condición técnica | Acción del mediador |
 | --- | --- | --- |
@@ -845,9 +814,8 @@ La Declaración de incertidumbre ECO tiene tres componentes que el Bloque IV des
 
 El árbol que sigue es el mapa del flujo completo del instrumento. No reemplaza a los árboles de decisión internos de cada módulo —esos viven dentro de cada módulo y tienen la ramificación específica de ese Hijo o ese eje. Este árbol establece la secuencia de operaciones
 
-### Entrevista Clínica Ontológica · ECO
 
-### que el mediador ejecuta desde que abre la sesión hasta que produce la localización final. Está diseñado para consulta rápida, no para lectura lineal.
+que el mediador ejecuta desde que abre la sesión hasta que produce la localización final. Está diseñado para consulta rápida, no para lectura lineal.
 
 1. **INICIO · Apertura de la sesión**
 2. **¿El encuadre está completo?**
@@ -908,13 +876,14 @@ El árbol de navegación es un mapa de referencia rápida, no una sustitución d
 
 Con este capítulo, la Parte Preliminar está completa. Los cinco capítulos juntos son la infraestructura que hace posible el uso correcto de todos los módulos que siguen. El Capítulo P·1 estableció qué es ECO y qué no es. El Capítulo P·2 describió los seis perfiles que lo usan y la pregunta que orienta el uso de cada uno. El Capítulo P·3 estableció las condiciones que hacen válida una administración. El Capítulo P·4 definió el lenguaje técnico que todos los módulos comparten, con la Tabla EP como instrumento central de calibración. Este capítulo estableció la lógica de navegación que convierte once módulos en un instrumento y no en una lista.
 
-Entrevista Clínica Ontológica · ECO
 
 El Bloque I comienza ahora. El primer módulo —Fobos— es el más legible de los seis y el que sirve como calibrador del instrumento. El mediador que puede administrarlo con precisión técnica y leer lo que el sujeto produce tiene el instrumento en las manos. Lo que sigue en los cinco módulos restantes del Bloque I y en los cinco del Bloque II es la aplicación de la misma lógica a configuraciones de la voluntad progresivamente más complejas y menos legibles desde el expediente.
 
 > *El instrumento no comienza con el primer módulo. Comienza con la primera pregunta que el mediador internalizó antes de la sesión: ¿qué estoy buscando y cómo voy a reconocerlo cuando lo encuentre? La Parte Preliminar es la respuesta a esa pregunta.*
 
-Notas al capítulo P·5
+---
+
+## Notas al capítulo P·5
 
 1 El principio de navegación flexible con exclusión obligatoria distingue a ECO de dos tipos de instrumentos con los que podría confundirse. El primero es el cuestionario de respuesta fija: siempre se administra completo, en el mismo orden, sin posibilidad de entrada directa. El segundo es la entrevista abierta: el orden lo determina el sujeto, no el instrumento. ECO es un instrumento estructurado con navegación flexible: el orden estándar existe y tiene justificación ontológica, pero puede alterarse cuando la evidencia lo justifica, siempre con la verificación de exclusión como condición.
 
@@ -924,16 +893,13 @@ Notas al capítulo P·5
 
 4 El cierre de perfil parcial —establecido en la tabla de la Sección IV— no es un subtipo menor del cierre completo. Es un cierre técnicamente válido para el caso del mediador que no usa el instrumento completo porque su perfil no lo
 
-Entrevista Clínica Ontológica · ECO
 
 requiere. La validez del cierre de perfil parcial depende de que los módulos no administrados estén declarados explícitamente como tales en la hoja de síntesis, con referencia al perfil que justifica su omisión.
 
-Entrevista Clínica Ontológica · ECO
 
+# B·I·F · MÓDULO FOBOS
 
-### B·I·F · MÓDULO FOBOS
-
-#### La voluntad que reacciona ante la amenaza
+## La voluntad que reacciona ante la amenaza
 
 *Localización del Hijo de la reacción defensiva concreta*
 
@@ -945,7 +911,6 @@ Esa velocidad no es un defecto del sujeto. Es la estructura de Fobos. La primera
 
 La pregunta que el instrumento busca responder no es si la amenaza era real —eso no es evaluable desde la sesión de ECO. Es si la voluntad del sujeto estaba orientada desde Fobos en el momento del acto analizado. Un sujeto puede reaccionar desde Fobos ante una
 
-Entrevista Clínica Ontológica · ECO
 
 amenaza genuina y ante una percibida: Fobos no requiere que la amenaza sea objetivamente grave. Requiere que sea concreta para el sujeto —que tenga objeto identificable— y que la voluntad haya respondido a ella antes de que pudiera evaluarla.
 
@@ -961,7 +926,6 @@ La legibilidad de Fobos tiene un riesgo específico: porque es el Hijo más visi
 >
 > La posición de v_t desde la cual la voluntad orienta un acto en respuesta a una amenaza externa concreta, antes de que φ₂ pueda intervenir con la distancia suficiente para evaluar la proporción de esa respuesta. Fobos no es un estado permanente del sujeto: es la posición de la voluntad en el momento del acto analizado.
 
-Entrevista Clínica Ontológica · ECO
 
 ### II.  Criterios de entrada y reglas SKIP
 
@@ -1045,7 +1009,6 @@ Si el sujeto no responde a alguna pregunta de sondeo: el mediador espera 10 segu
 
 ### V.  Señales de observación directa
 
-### Entrevista Clínica Ontológica · ECO
 
 Las señales de observación directa son lo que el mediador observa en la conducta del sujeto durante la sesión —no en lo que el sujeto dice, sino en cómo se comporta mientras lo dice y mientras escucha. Son la fuente de evidencia EP-1 cuando se producen de manera sostenida, y EP-4 cuando se producen en momentos aislados. El mediador que entrena su atención hacia estas señales tiene acceso a información que ninguna pregunta puede producir.
 
@@ -1062,7 +1025,6 @@ Las señales de observación directa son lo que el mediador observa en la conduc
 
 Tres conductas del sujeto en sesión que el mediador puede confundir con señales de Fobos y que requieren verificación antes de incorporarse como evidencia. La primera es el entusiasmo narrativo: el sujeto que narra con energía y velocidad un evento del que está orgulloso no está en Fobos —está en Anteros o en Eros. La señal de Fobos tiene urgencia reactiva; el entusiasmo narrativo tiene energía proactiva. La pregunta discriminante: ¿el sujeto está respondiendo a algo o afirmando algo? La segunda es la indignación moral: el sujeto que describe injusticia con indignación puede estar en Anteros (afirmación del eje propio contra lo que lo viola) y no en Fobos (reacción ante la amenaza). La indignación de Anteros tiene distancia: el sujeto puede nombrar la injusticia sin que el nombramiento reproduzca la urgencia. La indignación de Fobos no tiene esa distancia: el sujeto se reactiva al nombrarla. La tercera es el estilo de personalidad expresivo: algunos sujetos hablan de manera intensa y gesticulada sobre cualquier tema. El mediador que no ha calibrado el nivel basal del sujeto puede confundir el estilo con la señal. La calibración ocurre en la apertura narrativa: si el sujeto es igualmente expresivo al hablar de un evento neutro, la expresividad no es señal de Fobos.
 
-Entrevista Clínica Ontológica · ECO
 
 ### VI.  Árbol de decisión interno del módulo
 
@@ -1121,7 +1083,6 @@ Una instrucción técnica importante: la pregunta discriminante no debe formular
 
 La codificación del Módulo Fobos produce uno de los cuatro códigos estándar del instrumento, con el nivel EP que sustenta esa codificación y la señal observacional específica que la fundamenta.
 
-### Entrevista Clínica Ontológica · ECO
 
 ### La tabla que sigue establece los criterios con sus anclas conductuales y ejemplos de respuestas que corresponden a cada código.
 
@@ -1136,7 +1097,6 @@ La codificación del Módulo Fobos produce uno de los cuatro códigos estándar 
 
 La codificación H-3 en el Módulo Fobos requiere las tres condiciones siguientes de manera simultánea. Primera: narrativa de reacción ante amenaza concreta con objeto externo identificable en al menos dos episodios distintos de la historia del sujeto o del período analizado. Segunda: la certeza de la atribución en la narrativa supera lo que la evidencia que el sujeto ofrece puede sostener —no basta con que haya atribución, debe ser desproporcionada. Tercera: al menos una señal de observación directa en la sesión que corrobore la narrativa (urgencia en el tono, retorno espontáneo al objeto de la amenaza, señal corporal de activación). Las tres condiciones juntas producen H-3. Si falta alguna, el código máximo es H-2.
 
-Entrevista Clínica Ontológica · ECO
 
 > *La segunda condición —la desproporción de la certeza respecto a la evidencia— es la más importante y la más difícil de evaluar. El mediador que evalúa si la atribución del sujeto es proporcional necesita resistir la tentación de decidir si el sujeto tiene razón o no sobre la realidad de la amenaza. Eso no es evaluable desde ECO. Lo que es evaluable es si la certeza con que el sujeto presenta la atribución excede lo que la narrativa que ofrece puede fundamentar. Un sujeto que dice «sé que fue esa persona la que causó el problema» con base en una conversación de pasillo ha producido una certeza mayor a lo que su evidencia sostiene, independientemente de si tiene razón o no.*
 
@@ -1156,7 +1116,6 @@ La relación entre el código H y el nivel EP determina el rango de peso admisib
 
 Cuando Fobos coexiste con señales de otro Hijo en la misma sesión —lo que es frecuente— la distribución refleja esa coexistencia. La coexistencia más frecuente es Fobos/Deimos: el sujeto que reacciona ante amenazas concretas (Fobos) y que también se paraliza ante la multiplicidad de opciones (Deimos). En ese caso, ninguno de
 
-Entrevista Clínica Ontológica · ECO
 
 los dos es el único Hijo presente: ambos reciben peso y la suma de los dos puede alcanzar 0.80 si los dos tienen señal sólida, dejando 0.20 para los demás Hijos.
 
@@ -1172,7 +1131,6 @@ El ego soberano en Fobos arrastra la segunda mediación colectiva en la misma di
 
 #### Preguntas orientadas al ego colectivo para este módulo
 
-Entrevista Clínica Ontológica · ECO
 
 > **Pregunta ancla — Ego colectivo (Fobos)**
 >
@@ -1188,7 +1146,6 @@ La escala EP aplica al ego colectivo con ajustes en la descripción de cada nive
 
 ### XI.  Principios de intervención para este hallazgo
 
-Entrevista Clínica Ontológica · ECO
 
 Los principios que siguen orientan al mediador sobre qué hacer con lo que encontró en este módulo. No son prescripciones de proceso: eso pertenece a Histos. Son orientaciones que evitan los errores más frecuentes de intervención cuando la localización es Fobos, y que señalan cuándo el hallazgo supera el alcance de ECO.
 
@@ -1204,7 +1161,6 @@ El tercer error es asumir que Fobos es un problema que el sujeto debe resolver. 
 
 El mediador que encuentra Fobos como señal en sesión hace visible la dirección de la energía sin nombrar el Hijo. No «estás en Fobos»: sino preguntas que orientan la atención del sujeto hacia lo que su propio relato ya contiene. «¿A qué estabas respondiendo en ese momento?» «¿Qué te produjo moverse tan rápido?» «¿Qué habrías
 
-Entrevista Clínica Ontológica · ECO
 
 hecho si hubiera habido más tiempo antes de tener que responder?» Estas preguntas no califican la reacción del sujeto: le dan espacio para observarla.
 
@@ -1222,11 +1178,12 @@ La localización de Fobos como Hijo dominante con H-3 y EP-1 es la condición qu
 
 El Módulo Fobos puede revelar dos tipos de situación que superan el alcance de ECO y que el mediador debe reconocer. La primera es Fobos ante una amenaza real e inminente: cuando lo que el sujeto describe no es una reacción desproporcionada sino una respuesta a una amenaza genuina que existe en el presente —violencia, persecución, situación de peligro real. ECO no es el instrumento para trabajar con sujetos en peligro real: el principio de derivación
 
-Entrevista Clínica Ontológica · ECO
 
 del paradigma se aplica con toda su fuerza. La segunda es Fobos asociado a síntomas que superan el nivel ontológico: cuando la urgencia reactiva que el sujeto describe viene acompañada de síntomas que orientan hacia una condición clínica que requiere evaluación psicológica o psiquiátrica. ECO puede coexistir con esa evaluación, pero no puede sustituirla.
 
-Notas al Módulo B·I·F
+---
+
+## Notas al Módulo B·I·F
 
 1 La propiedad definitoria de Fobos —la velocidad de la respuesta que precede al reconocimiento— tiene su fundamento en la estructura de la doble mediación. Cuando v_t está orientado hacia la amenaza, φ₁ produce la respuesta antes de que φ₂ pueda operar. Esto no significa que φ₂ esté ausente o bloqueada (eso sería E-3): significa que el intervalo de tiempo en que φ₂ puede intervenir antes de que el acto ocurra es demasiado corto dado el estado de v_t. Fobos no es un bloqueo de φ₂: es una aceleración de φ₁ que deja a φ₂ sin tiempo de intervención efectiva.
 
@@ -1236,16 +1193,13 @@ Notas al Módulo B·I·F
 
 4 El Módulo Fobos es el primer módulo del Bloque I y el que más frecuentemente se administra cuando el mediador tiene señal clara desde la apertura narrativa. Eso lo convierte también en el módulo donde los errores de codificación son más frecuentes porque el mediador todavía está calibrando el instrumento. La instrucción de usar el Módulo Fobos como calibrador no
 
-Entrevista Clínica Ontológica · ECO
 
 significa que los errores en él sean sin consecuencias: una codificación incorrecta de Fobos contamina la distribución P(Hijos) completa porque los pesos de los demás Hijos se ajustan en relación al peso de Fobos. El mediador que sobrecodifica Fobos —asigna H-3 con EP insuficiente— produce una distribución donde los demás Hijos tienen pesos menores a los que la evidencia justifica.
 
-Entrevista Clínica Ontológica · ECO
 
+# B·I·D · MÓDULO DEIMOS
 
-B·I·D · MÓDULO DEIMOS
-
-La voluntad que se paraliza ante la simetría Localización del Hijo de la parálisis ante la multiplicidad equivalente
+## La voluntad que se paraliza ante la simetría Localización del Hijo de la parálisis ante la multiplicidad equivalente
 
 ### I.  Fundamento ontológico del Hijo
 
@@ -1255,7 +1209,6 @@ La distinción ontológica entre Deimos y Fobos es la más importante del Bloque
 
 La firma de Deimos es inversa a la de Fobos. Donde Fobos grita — el expediente lleno de comunicaciones urgentes, la sesión con
 
-Entrevista Clínica Ontológica · ECO
 
 urgencia en el tono— Deimos calla. El expediente de Deimos está vacío donde debería haber registro: respuestas de una línea ante asuntos que requerían desarrollo, acuerdos sin fecha ni responsable, reportes planos ante situaciones que claramente producían variación. En sesión, Deimos produce el mismo silencio: el sujeto que responde con monosílabos, que devuelve la pregunta al mediador, que no puede identificar una preferencia genuina cuando el mediador la pide directamente.
 
@@ -1269,7 +1222,6 @@ Eso tiene una consecuencia importante para el trabajo del mediador: señalarle a
 
 Lo que Deimos localiza — con precisión técnica La posición de v_t desde la cual la voluntad no puede orientar el colapso porque las opciones son equivalentes para ese sujeto en ese momento. Deimos no produce omisión deliberada: produce incapacidad de elección. La omisión que produce Deimos no tiene intención: tiene estructura. Y esa distinción es la que el Método Prometeo necesita para estimar correctamente S y α.
 
-Entrevista Clínica Ontológica · ECO
 
 Por qué Deimos es el segundo módulo del Bloque I
 
@@ -1285,7 +1237,6 @@ Regla SKIP parcial — cuándo reducir el módulo
 
 SKIP parcial — condición y justificación Condición: el Eje I de una sesión anterior orienta claramente hacia E-1 con EP-1 o EP-2 (ego genuino activo con criterio propio identificable), Y la apertura narrativa de esta sesión no produjo ninguna señal de parálisis, ausencia de dirección o respuesta mínima. Acción: reducir el módulo a las Preguntas de sondeo D·1 y D·3 únicamente. Si alguna
 
-Entrevista Clínica Ontológica · ECO
 
 de las dos produce señal, administrar el módulo completo. Si no producen señal, registrar EP-0, código H-1, y continuar al Módulo Anteros. Justificación ontológica: Deimos requiere que la voluntad no pueda orientarse hacia ninguna opción sobre las demás. E-1 confirmado con EP-1 o EP-2 indica que el ego genuino opera desde criterio propio —lo que es estructuralmente incompatible con la simetría paralizante de Deimos como Hijo dominante. Administrar el módulo completo en esas condiciones consume tiempo sin probabilidad razonable de producir señal diagnóstica relevante. El SKIP parcial verifica antes de concluir la ausencia: las dos preguntas de sondeo son las más directas del módulo y las que tienen mayor probabilidad de producir señal si existe alguna.
 
@@ -1295,47 +1246,43 @@ El SKIP parcial reduce, pero no elimina la evaluación. El mediador que aplica S
 
 La pregunta ancla de este módulo está diseñada para acceder a la experiencia de parálisis ante la simetría sin nombrarla ni sugerirla. La formulación evita palabras como «parálisis», «bloqueo» o «indecisión» que podrían hacer que el sujeto produzca la narrativa socialmente esperada en lugar de la genuina.
 
-> Pregunta ancla D — Formulación estándar «¿Hay decisiones que llevas tiempo sin poder tomar — no porque estés esperando información que te falta, sino porque ninguna opción termina de imponerse sobre las demás?» [El mediador formula la pregunta y espera. La distinción «no porque te falte información» es fundamental: separa Deimos (la simetría de opciones) de E-3 (el bloqueo de φ₂) y de la postergación deliberada por información pendiente. Si el sujeto responde que ya tomó esa decisión, el mediador pregunta: «¿Y antes de tomarla, cómo viviste ese período en que todavía no la habías tomado?» Si el sujeto dice que no hay ninguna decisión pendiente, el mediador espera 15 segundos antes de pasar al Sondeo D·1.]
+Pregunta ancla D — Formulación estándar «¿Hay decisiones que llevas tiempo sin poder tomar — no porque estés esperando información que te falta, sino porque ninguna opción termina de imponerse sobre las demás?» [El mediador formula la pregunta y espera. La distinción «no porque te falte información» es fundamental: separa Deimos (la simetría de opciones) de E-3 (el bloqueo de φ₂) y de la postergación deliberada por información pendiente. Si el sujeto responde que ya tomó esa decisión, el mediador pregunta: «¿Y antes de tomarla, cómo viviste ese período en que todavía no la habías tomado?» Si el sujeto dice que no hay ninguna decisión pendiente, el mediador espera 15 segundos antes de pasar al Sondeo D·1.]
 
 Variantes por perfil de mediador
 
-Entrevista Clínica Ontológica · ECO
 
-> Variante — Mediador Educativo (contexto escolar) «¿Hay momentos en que los estudiantes o las situaciones del aula te presentan opciones que se sienten todas igual de posibles o de imposibles, y no sabes hacia dónde ir primero?» [Esta variante orienta la pregunta hacia el contexto educativo y hacia la experiencia de opciones equivalentes en el trabajo docente. El mediador adapta si trabaja con estudiantes en lugar de docentes: «¿Hay decisiones sobre tu trabajo o tu futuro que sientes que todas valen lo mismo y no puedes elegir?»]
->
-> Variante — Mediador Estructural (análisis de responsabilidad) «En el período que estamos analizando, ¿hubo decisiones que debían tomarse y que quedaron sin tomarse — no porque hubiera una razón explícita para no tomarlas, sino porque simplemente no se tomaron?» [Esta variante orienta la pregunta hacia las omisiones que el análisis causal necesita examinar. No nombra Deimos ni parálisis: busca la descripción del vacío donde debería haber habido acto. El mediador observa si el sujeto puede identificar por qué no se tomó la decisión o si describe la omisión como algo que simplemente ocurrió sin que nadie la produjera.]
->
-> Variante — Mediador en Crisis (ego individual) «¿Hay áreas de tu vida en que sientes que deberías estar decidiendo algo —sobre una relación, sobre tu trabajo, sobre tu futuro— pero cuando te pones a pensarlo las opciones se sienten todas igual de válidas o igual de inútiles y al final no decides nada?» [Esta variante amplía el campo de las decisiones hacia las áreas vitales relevantes para el acompañamiento en crisis. El mediador observa si el sujeto puede nombrar el área específica —la decisión que no puede tomar— o si la parálisis es difusa y no localizable en ningún dominio concreto.]
+Variante — Mediador Educativo (contexto escolar) «¿Hay momentos en que los estudiantes o las situaciones del aula te presentan opciones que se sienten todas igual de posibles o de imposibles, y no sabes hacia dónde ir primero?» [Esta variante orienta la pregunta hacia el contexto educativo y hacia la experiencia de opciones equivalentes en el trabajo docente. El mediador adapta si trabaja con estudiantes en lugar de docentes: «¿Hay decisiones sobre tu trabajo o tu futuro que sientes que todas valen lo mismo y no puedes elegir?»]
+
+Variante — Mediador Estructural (análisis de responsabilidad) «En el período que estamos analizando, ¿hubo decisiones que debían tomarse y que quedaron sin tomarse — no porque hubiera una razón explícita para no tomarlas, sino porque simplemente no se tomaron?» [Esta variante orienta la pregunta hacia las omisiones que el análisis causal necesita examinar. No nombra Deimos ni parálisis: busca la descripción del vacío donde debería haber habido acto. El mediador observa si el sujeto puede identificar por qué no se tomó la decisión o si describe la omisión como algo que simplemente ocurrió sin que nadie la produjera.]
+
+Variante — Mediador en Crisis (ego individual) «¿Hay áreas de tu vida en que sientes que deberías estar decidiendo algo —sobre una relación, sobre tu trabajo, sobre tu futuro— pero cuando te pones a pensarlo las opciones se sienten todas igual de válidas o igual de inútiles y al final no decides nada?» [Esta variante amplía el campo de las decisiones hacia las áreas vitales relevantes para el acompañamiento en crisis. El mediador observa si el sujeto puede nombrar el área específica —la decisión que no puede tomar— o si la parálisis es difusa y no localizable en ningún dominio concreto.]
 
 ### IV.  Preguntas de sondeo
 
 Las preguntas de sondeo del Módulo Deimos tienen una característica específica que las distingue de las de otros módulos: son las que con mayor probabilidad no recibirán respuesta. El sujeto
 
-Entrevista Clínica Ontológica · ECO
 
 en Deimos produce respuestas mínimas, devuelve las preguntas, o responde de manera que no llega a ningún lugar. Eso no invalida el sondeo: es la señal más diagnóstica del módulo. El mediador debe estar preparado para sostener el silencio y la incomodidad que las preguntas producen sin apresurarse a resolverlos.
 
-> Sondeo D·1 — El qué falta para decidir «Si pudieras decirme qué necesitarías para poder tomar esa decisión, ¿qué dirías?» [Lo que el mediador observa: si el sujeto puede nombrar lo que le falta. En Deimos, el sujeto no puede nombrarlo —o lo que nombra no es realmente lo que falta. Un sujeto en E-3 puede decir «necesitaría sentir que puedo» con perplejidad genuina. Un sujeto en Deimos dice «no sé», «que las cosas se aclaren solas», «que alguien me diga qué hacer», o produce una lista larga de condiciones que nunca se cumplirán todas simultáneamente. Si el sujeto puede nombrar algo concreto que le falta y eso tiene apariencia de resoluble (información específica, una conversación pendiente), la señal de Deimos se debilita y puede orientar hacia E-3 o hacia Anteros.]
->
-> Sondeo D·2 — La simetría «¿Tienes la sensación de que las opciones pesan igual, que ninguna es claramente mejor que las demás? ¿O sabes cuál quieres, pero algo te impide ir hacia ella?» [Esta es la pregunta discriminante central entre Deimos y E-3. Lo que el mediador observa: si el sujeto puede distinguir entre las dos situaciones. El sujeto en Deimos reconoce la primera: las opciones pesan igual, no hay ninguna que se imponga. El sujeto en E-3 reconoce la segunda: sabe lo que quiere y algo lo impide. Si el sujeto no puede distinguir entre las dos situaciones, el mediador registra esa incapacidad como señal adicional de Deimos o de E-3 con perplejidad, y aplica la pregunta discriminante D/E-3 de la sección §7.]
->
-> Sondeo D·3 — La delegación «¿Hay tareas o decisiones que en ese período asignaste a otras personas sin que después hayas verificado si se hicieron o cómo? ¿Cómo decidías a quién delegar?» [Lo que el mediador observa: si el sujeto describe la delegación como descarga —sin criterio de selección de a quién delegar y sin seguimiento posterior— o como distribución deliberada del trabajo. La delegación de Deimos tiene una característica específica: el sujeto no puede describir el criterio de selección del delegado porque no hubo criterio. Se delegó porque no se podía decidir, no porque hubiera alguien más idóneo. El mediador
->
-> Entrevista Clínica Ontológica · ECO
->
-> también observa si el sujeto puede distinguir entre las tareas que delegó y las que decidió hacer él mismo: en Deimos, esa distinción tampoco tiene criterio claro.]
->
-> Sondeo D·4 — Los reportes «En ese período, cuando tenías que informar sobre cómo iban las cosas —a tu equipo, a tus superiores, a tu familia— , ¿qué reportabas? ¿Había problemas que veías pero que no llegaban a tus reportes?» [Lo que el mediador observa: si el sujeto describe la brecha entre lo que veía y lo que reportaba. Deimos produce reportes planos no porque el sujeto quiera ocultar información sino porque la simetría de posibilidades hace que nada se registre como que requiere atención específica. El sujeto ve que hay algo, pero no puede determinar si ese algo es el problema o si el problema es otra cosa, entonces no reporta ninguno. Si el sujeto describe reportes detallados con problemas identificados y propuestas de ajuste, la señal de Deimos se debilita significativamente.]
->
-> Sondeo D·5 — La búsqueda causal «Cuando en ese período ocurrió algo que no salió bien — un proyecto, una relación, un resultado—, ¿qué hiciste para entender por qué ocurrió? ¿Hubo alguna investigación de las causas?» [Lo que el mediador observa: si el sujeto puede identificar una búsqueda genuina de las causas de los eventos negativos del período. Deimos produce ausencia de búsqueda causal: no porque al sujeto no le importe lo que ocurrió sino porque la simetría de posibles causas hace que ninguna se imponga como la más relevante, y entonces no se busca ninguna. Si el sujeto describe que buscó las causas y puede nombrarlas con criterio propio, la señal de Deimos se debilita. Si dice «las cosas simplemente resultaron así» o «hubo muchos factores» sin poder priorizar ninguno, la señal de Deimos se fortalece.]
->
-> Sondeo D·6 — La preferencia en el momento presente «Ahora mismo, en esta conversación, ¿hay algo que quieres? No sobre tu vida ni sobre las situaciones que me has contado: en este momento, en este intercambio, ¿qué quieres tú?» [Esta es la pregunta más diagnóstica del módulo y la que puede producir EP-1 directamente. Lo que el mediador observa: si el sujeto puede identificar una preferencia genuina en el momento presente. En Deimos, la respuesta es semánticamente correcta pero vacía de evaluación interna: «quiero entender mejor esto», «quiero avanzar», «quiero que esto sirva de algo». Lo que el mediador busca no es el contenido de la respuesta sino su textura: si hay algo que viene de adentro o si es la respuesta que corresponde dar. El
->
-> Entrevista Clínica Ontológica · ECO
->
-> mediador espera en silencio después de formular la pregunta: el tiempo que el sujeto necesita para responder también es información.]
->
-> Sondeo D·7 — El ciclo de espera «¿Cómo terminan habitualmente esas situaciones en que no puedes decidir? ¿Qué hace que finalmente algo ocurra o cambie?» [Lo que el mediador observa: si el sujeto puede describir cómo resuelve la parálisis de Deimos. Las respuestas frecuentes son: «el tiempo resuelve», «alguien más termina decidiendo», «la situación se vuelve tan urgente que ya no hay opciones». Ninguna de estas describe una elección del sujeto: todas describen que algo externo al sujeto produce el cambio que él no puede producir. Si el sujeto describe que eventualmente decide por sí mismo con criterio identificable, la señal de Deimos se debilita y puede corresponder a Deimos situacional más que estructural.]
+Sondeo D·1 — El qué falta para decidir «Si pudieras decirme qué necesitarías para poder tomar esa decisión, ¿qué dirías?» [Lo que el mediador observa: si el sujeto puede nombrar lo que le falta. En Deimos, el sujeto no puede nombrarlo —o lo que nombra no es realmente lo que falta. Un sujeto en E-3 puede decir «necesitaría sentir que puedo» con perplejidad genuina. Un sujeto en Deimos dice «no sé», «que las cosas se aclaren solas», «que alguien me diga qué hacer», o produce una lista larga de condiciones que nunca se cumplirán todas simultáneamente. Si el sujeto puede nombrar algo concreto que le falta y eso tiene apariencia de resoluble (información específica, una conversación pendiente), la señal de Deimos se debilita y puede orientar hacia E-3 o hacia Anteros.]
+
+Sondeo D·2 — La simetría «¿Tienes la sensación de que las opciones pesan igual, que ninguna es claramente mejor que las demás? ¿O sabes cuál quieres, pero algo te impide ir hacia ella?» [Esta es la pregunta discriminante central entre Deimos y E-3. Lo que el mediador observa: si el sujeto puede distinguir entre las dos situaciones. El sujeto en Deimos reconoce la primera: las opciones pesan igual, no hay ninguna que se imponga. El sujeto en E-3 reconoce la segunda: sabe lo que quiere y algo lo impide. Si el sujeto no puede distinguir entre las dos situaciones, el mediador registra esa incapacidad como señal adicional de Deimos o de E-3 con perplejidad, y aplica la pregunta discriminante D/E-3 de la sección §7.]
+
+Sondeo D·3 — La delegación «¿Hay tareas o decisiones que en ese período asignaste a otras personas sin que después hayas verificado si se hicieron o cómo? ¿Cómo decidías a quién delegar?» [Lo que el mediador observa: si el sujeto describe la delegación como descarga —sin criterio de selección de a quién delegar y sin seguimiento posterior— o como distribución deliberada del trabajo. La delegación de Deimos tiene una característica específica: el sujeto no puede describir el criterio de selección del delegado porque no hubo criterio. Se delegó porque no se podía decidir, no porque hubiera alguien más idóneo. El mediador
+
+
+también observa si el sujeto puede distinguir entre las tareas que delegó y las que decidió hacer él mismo: en Deimos, esa distinción tampoco tiene criterio claro.]
+
+Sondeo D·4 — Los reportes «En ese período, cuando tenías que informar sobre cómo iban las cosas —a tu equipo, a tus superiores, a tu familia— , ¿qué reportabas? ¿Había problemas que veías pero que no llegaban a tus reportes?» [Lo que el mediador observa: si el sujeto describe la brecha entre lo que veía y lo que reportaba. Deimos produce reportes planos no porque el sujeto quiera ocultar información sino porque la simetría de posibilidades hace que nada se registre como que requiere atención específica. El sujeto ve que hay algo, pero no puede determinar si ese algo es el problema o si el problema es otra cosa, entonces no reporta ninguno. Si el sujeto describe reportes detallados con problemas identificados y propuestas de ajuste, la señal de Deimos se debilita significativamente.]
+
+Sondeo D·5 — La búsqueda causal «Cuando en ese período ocurrió algo que no salió bien — un proyecto, una relación, un resultado—, ¿qué hiciste para entender por qué ocurrió? ¿Hubo alguna investigación de las causas?» [Lo que el mediador observa: si el sujeto puede identificar una búsqueda genuina de las causas de los eventos negativos del período. Deimos produce ausencia de búsqueda causal: no porque al sujeto no le importe lo que ocurrió sino porque la simetría de posibles causas hace que ninguna se imponga como la más relevante, y entonces no se busca ninguna. Si el sujeto describe que buscó las causas y puede nombrarlas con criterio propio, la señal de Deimos se debilita. Si dice «las cosas simplemente resultaron así» o «hubo muchos factores» sin poder priorizar ninguno, la señal de Deimos se fortalece.]
+
+Sondeo D·6 — La preferencia en el momento presente «Ahora mismo, en esta conversación, ¿hay algo que quieres? No sobre tu vida ni sobre las situaciones que me has contado: en este momento, en este intercambio, ¿qué quieres tú?» [Esta es la pregunta más diagnóstica del módulo y la que puede producir EP-1 directamente. Lo que el mediador observa: si el sujeto puede identificar una preferencia genuina en el momento presente. En Deimos, la respuesta es semánticamente correcta pero vacía de evaluación interna: «quiero entender mejor esto», «quiero avanzar», «quiero que esto sirva de algo». Lo que el mediador busca no es el contenido de la respuesta sino su textura: si hay algo que viene de adentro o si es la respuesta que corresponde dar. El
+
+
+mediador espera en silencio después de formular la pregunta: el tiempo que el sujeto necesita para responder también es información.]
+
+Sondeo D·7 — El ciclo de espera «¿Cómo terminan habitualmente esas situaciones en que no puedes decidir? ¿Qué hace que finalmente algo ocurra o cambie?» [Lo que el mediador observa: si el sujeto puede describir cómo resuelve la parálisis de Deimos. Las respuestas frecuentes son: «el tiempo resuelve», «alguien más termina decidiendo», «la situación se vuelve tan urgente que ya no hay opciones». Ninguna de estas describe una elección del sujeto: todas describen que algo externo al sujeto produce el cambio que él no puede producir. Si el sujeto describe que eventualmente decide por sí mismo con criterio identificable, la señal de Deimos se debilita y puede corresponder a Deimos situacional más que estructural.]
 
 La instrucción ante la ausencia de respuesta en este módulo es diferente a la de los demás módulos. En Fobos, si no hay respuesta el mediador reformula la pregunta. En Deimos, el mediador espera. El silencio del sujeto en Deimos ES la señal: no debe llenarse. El mediador que reformula rápidamente ante el silencio de Deimos suprime la señal más diagnóstica del módulo. La instrucción técnica: esperar al menos 20 segundos en silencio antes de reformular. Si después de 20 segundos no hay respuesta, decir «tómate el tiempo que necesites» y esperar 10 segundos más. Solo después de eso reformular o pasar a la siguiente pregunta.
 
@@ -1351,7 +1298,6 @@ EP-1 si la brevedad se produce de manera sostenida ante múltiples preguntas.
 
 Confundir con concisión deliberada (Anteros) o con reticencia estratégica. La señal de Deimos no es
 
-### Entrevista Clínica Ontológica · ECO
 
 preguntas que la situación que describe requería respuestas desarrolladas. La brevedad de la respuesta no es por falta de palabras: es por ausencia de posición.
 
@@ -1383,7 +1329,6 @@ EP-2 desde narrativa específica de episodios de delegación sin seguimiento. EP
 
 Confundir con delegación genuina (Anteros en su forma de confiar en el equipo). La diferencia: la delegación de Anteros tiene criterio explícito de seguimiento. La delegación de Deimos no tiene criterio de nada.
 
-### Entrevista Clínica Ontológica · ECO
 
 comprensión de ellos).
 
@@ -1405,7 +1350,6 @@ La señal EP-1 más diagnóstica del Módulo Deimos es también la más silencio
 
 Esa señal es frecuentemente ignorada porque el sujeto produce una respuesta —«quiero entender esto mejor», «quiero que la sesión sea útil»— y el mediador la recibe como preferencia. La instrucción técnica: antes de registrar la respuesta como preferencia genuina, el mediador se pregunta si esa respuesta tiene textura de evaluación
 
-Entrevista Clínica Ontológica · ECO
 
 interna o si es la respuesta que cualquier persona en esa situación daría. La preferencia genuina tiene algo específico que la hace del sujeto: no solo corresponde al contexto, viene de algo interno que el sujeto puede identificar. Si eso no está presente, la respuesta es semánticamente correcta pero diagnósticamente vacía.
 
@@ -1413,41 +1357,40 @@ interna o si es la respuesta que cualquier persona en esa situación daría. La 
 
 El árbol del Módulo Deimos tiene una característica que lo distingue de los demás: varios de sus nodos pueden resolverse por la ausencia de respuesta, no por el contenido de la respuesta. El mediador que sabe leer los nodos de ausencia tiene acceso a la señal más diagnóstica del módulo.
 
-> **NODO D·0 — ¿Se cumple la condición de SKIP parcial?
->
-> SÍ (E-1 con EP-1/EP-2 + sin señal de parálisis en apertura) → Administrar solo D·1 y D·3. Si no hay señal → H-1 · EP-0. Si hay señal → administrar módulo completo. NO → Administrar pregunta ancla. ↓**
+**NODO D·0 — ¿Se cumple la condición de SKIP parcial?
 
-> **NODO D·1 — ¿La pregunta ancla produjo señal de parálisis ante la simetría de opciones?
->
-> NO (el sujeto puede nombrar decisiones concretas que tomó con criterio) → Administrar Sondeo D·6 directamente. Si no hay señal → H-1 o SKIP parcial según protocolo. SÍ (el sujeto describe parálisis, simetría, o no puede nombrar ninguna) → Observar: ¿hay señal en la conducta mientras responde? ↓**
+SÍ (E-1 con EP-1/EP-2 + sin señal de parálisis en apertura) → Administrar solo D·1 y D·3. Si no hay señal → H-1 · EP-0. Si hay señal → administrar módulo completo. NO → Administrar pregunta ancla. ↓**
 
-> **NODO D·2 — ¿La respuesta a la pregunta ancla vino acompañada de señal conductual de Deimos (pausa larga, devolución de la pregunta, respuesta sin dirección)?
->
-> SÍ → Registrar EP-1 o EP-4 según sostenimiento. Administrar sondeos D·1 a D·7 en orden. NO (el sujeto respondió con fluidez, pero describió parálisis en el contenido) → Registrar señal EP-2 o EP-5. Administrar sondeos D·2, D·3, D·6 con prioridad. ↓**
+**NODO D·1 — ¿La pregunta ancla produjo señal de parálisis ante la simetría de opciones?
 
-> **NODO D·3 — Sondeo D·6: ¿el sujeto puede identificar una preferencia genuina en el momento presente de la sesión?
->
-> SÍ (la respuesta tiene textura de evaluación interna, no solo semánticamente correcta) → Señal de Deimos se debilita. Evaluar si la parálisis es situacional. Bajar peso tentativo de P(Deimos). NO (la respuesta es semánticamente correcta, pero sin textura interna, o no hay respuesta) → EP-1 confirmado. Señal de Deimos fortalecida.
->
-> Entrevista Clínica Ontológica · ECO
->
-> ↓**
+NO (el sujeto puede nombrar decisiones concretas que tomó con criterio) → Administrar Sondeo D·6 directamente. Si no hay señal → H-1 o SKIP parcial según protocolo. SÍ (el sujeto describe parálisis, simetría, o no puede nombrar ninguna) → Observar: ¿hay señal en la conducta mientras responde? ↓**
 
-> **NODO D·4 — ¿El sujeto puede nombrar qué le falta para decidir (Sondeo D·1)?
->
-> SÍ (nombra algo concreto y resoluble: información específica, conversación pendiente) → Verificar E-3: ¿hay voluntad bloqueada o ausencia de voluntad diferenciada? Administrar pregunta discriminante D/E-3. NO (no puede nombrar nada, o lo que nombra son condiciones que nunca se cumplirán simultáneamente) → Señal de Deimos fortalecida. EP-2 desde narrativa. ↓**
+**NODO D·2 — ¿La respuesta a la pregunta ancla vino acompañada de señal conductual de Deimos (pausa larga, devolución de la pregunta, respuesta sin dirección)?
 
-> **NODO D·5 — ¿El patrón de parálisis es sostenido en el tiempo (más de un episodio, más de un contexto)?
->
-> NO (episodio único o circunstancial) → H-2 máximo. P(Deimos) con EP-4 o EP-5. Nota de situacionalidad. SÍ → ¿Hay señal conductual sostenida en la sesión? ↓**
+SÍ → Registrar EP-1 o EP-4 según sostenimiento. Administrar sondeos D·1 a D·7 en orden. NO (el sujeto respondió con fluidez, pero describió parálisis en el contenido) → Registrar señal EP-2 o EP-5. Administrar sondeos D·2, D·3, D·6 con prioridad. ↓**
 
-> **NODO D·6 — ¿La señal conductual de Deimos se produjo en más de un momento de la sesión?
->
-> NO → H-2 · EP-2 o EP-3 según coherencia temporal de la narrativa. SÍ → H-3 · EP-1 o EP-2 según tipo de señal. Registrar señal observacional específica. ↓**
+**NODO D·3 — Sondeo D·6: ¿el sujeto puede identificar una preferencia genuina en el momento presente de la sesión?
 
-> **NODO D·7 — ¿La señal podría corresponder a E-3, Harmonía, D-2, o delegación deliberada de Anteros?
->
-> Administrar pregunta discriminante correspondiente al par identificado (ver §7). Confirmar exclusión antes de codificación final. ↓**
+SÍ (la respuesta tiene textura de evaluación interna, no solo semánticamente correcta) → Señal de Deimos se debilita. Evaluar si la parálisis es situacional. Bajar peso tentativo de P(Deimos). NO (la respuesta es semánticamente correcta, pero sin textura interna, o no hay respuesta) → EP-1 confirmado. Señal de Deimos fortalecida.
+
+
+↓**
+
+**NODO D·4 — ¿El sujeto puede nombrar qué le falta para decidir (Sondeo D·1)?
+
+SÍ (nombra algo concreto y resoluble: información específica, conversación pendiente) → Verificar E-3: ¿hay voluntad bloqueada o ausencia de voluntad diferenciada? Administrar pregunta discriminante D/E-3. NO (no puede nombrar nada, o lo que nombra son condiciones que nunca se cumplirán simultáneamente) → Señal de Deimos fortalecida. EP-2 desde narrativa. ↓**
+
+**NODO D·5 — ¿El patrón de parálisis es sostenido en el tiempo (más de un episodio, más de un contexto)?
+
+NO (episodio único o circunstancial) → H-2 máximo. P(Deimos) con EP-4 o EP-5. Nota de situacionalidad. SÍ → ¿Hay señal conductual sostenida en la sesión? ↓**
+
+**NODO D·6 — ¿La señal conductual de Deimos se produjo en más de un momento de la sesión?
+
+NO → H-2 · EP-2 o EP-3 según coherencia temporal de la narrativa. SÍ → H-3 · EP-1 o EP-2 según tipo de señal. Registrar señal observacional específica. ↓**
+
+**NODO D·7 — ¿La señal podría corresponder a E-3, Harmonía, D-2, o delegación deliberada de Anteros?
+
+Administrar pregunta discriminante correspondiente al par identificado (ver §7). Confirmar exclusión antes de codificación final. ↓**
 
 SALIDA — Codificación + Nivel EP + P(Deimos) tentativo → Continuar a Módulo Anteros
 
@@ -1455,7 +1398,6 @@ SALIDA — Codificación + Nivel EP + P(Deimos) tentativo → Continuar a Módul
 
 Las cinco preguntas discriminantes del Módulo Deimos acceden a las distinciones que separan a Deimos de los cinco estados o Hijos con los que más frecuentemente se confunde. Cada pregunta está diseñada para activar la dimensión específica que los distingue, no para confirmar la hipótesis del mediador.
 
-### Entrevista Clínica Ontológica · ECO
 
 **Tabla de preguntas discriminantes** (columnas: par de confusión · pregunta · respuesta característica de Deimos · respuesta característica del otro Hijo)
 
@@ -1491,7 +1433,6 @@ El sujeto siente la pregunta como
 
 El sujeto produce una respuesta
 
-### Entrevista Clínica Ontológica · ECO
 
 (anestesia ontológica)
 
@@ -1515,9 +1456,8 @@ La discriminación entre Deimos y E-3 es la más importante del módulo y la que
 
 La diferencia se manifiesta de manera clara ante la pregunta discriminante: el sujeto en E-3 puede nombrar lo que quería hacer y describir con precisión lo que lo impidió. El sujeto en Deimos no puede nombrar lo que quería porque no había un querer diferenciado: todas las opciones parecían igual de válidas o igual de
 
-### Entrevista Clínica Ontológica · ECO
 
-### inválidas. El sujeto en E-3 tiene perplejidad sobre el bloqueo. El sujeto en Deimos tiene perplejidad sobre la ausencia de dirección.
+inválidas. El sujeto en E-3 tiene perplejidad sobre el bloqueo. El sujeto en Deimos tiene perplejidad sobre la ausencia de dirección.
 
 La pregunta discriminante Deimos / E-3 — la más importante del módulo «Cuando piensas en ese momento, ¿sabías lo que querías hacer y algo te lo impedía, o directamente no encontrabas nada que quisieras hacer con claridad?» El sujeto en E-3 reconoce lo primero: había un querer y algo lo bloqueó. El sujeto en Deimos reconoce lo segundo: no había ningún querer diferenciado que bloquear. La perplejidad de E-3 tiene objeto (el bloqueo); la perplejidad de Deimos no lo tiene.
 
@@ -1547,7 +1487,6 @@ H-2 Umbral El sujeto describe al menos un episodio de parálisis ante la simetr�
 
 EP-4 a EP-
 
-### Entrevista Clínica Ontológica · ECO
 
 sujeto puede identificar preferencias en otros contextos durante la misma sesión.]
 
@@ -1569,7 +1508,6 @@ Sin EP asignable.
 
 La codificación H-3 en el Módulo Deimos requiere dos condiciones simultáneas. La primera: el sujeto no puede identificar criterio propio para decidir en al menos dos situaciones distintas del período
 
-Entrevista Clínica Ontológica · ECO
 
 analizado —no porque le falte información sino porque las opciones le resultan equivalentes. La segunda: la parálisis se reproduce directamente en sesión, ya sea porque el sujeto no puede responder a la pregunta «¿qué quieres tú, aquí?» con preferencia genuina (EP-1), o porque la narrativa es coherente en múltiples episodios con señal de observación que la corrobora (EP-2).
 
@@ -1583,7 +1521,6 @@ La codificación del Módulo Deimos produce el peso tentativo de P(Deimos) en la
 
 ### Ejemplos de distribuciones P(Hijos) cuando Deimos es dominante
 
-Entrevista Clínica Ontológica · ECO
 
 Ejemplo 1 (Deimos muy dominante, EP-1): P(Fobos) = 0.10 · P(Deimos) = 0.75 · P(Anteros) = 0.05 · P(Potós) = 0.05 · P(Eros) = 0.05 · P(Harmonía) = 0.00. Suma: 1.00. Ejemplo 2 (Deimos/Fobos coexistentes, EP-2 para ambos): P(Fobos) = 0.35 · P(Deimos) = 0.45 · P(Anteros) = 0.10 · P(Potós) = 0.05 · P(Eros) = 0.05 · P(Harmonía) = 0.00. Suma: 1.00. Esta segunda distribución describe al sujeto que reacciona con urgencia cuando hay amenaza concreta y se paraliza cuando las opciones son equivalentes: los dos Hijos describen situaciones distintas que la misma voluntad enfrenta.
 
@@ -1597,7 +1534,6 @@ La firma de Deimos en el ego colectivo
 
 Las señales de Deimos colectivo son: acuerdos tomados en reuniones sin fecha de implementación, sin responsable nominado, sin criterio de verificación; reportes institucionales con «línea plana» —sin problemas identificados, sin ajustes propuestos— en períodos donde los miembros del colectivo describen situaciones problemáticas en sus entrevistas individuales; delegaciones institucionales sin seguimiento posterior; ausencia de investigación
 
-Entrevista Clínica Ontológica · ECO
 
 causal después de eventos que claramente la requerían. La organización en Deimos colectivo opera, pero no decide: actúa por inercia, no por criterio.
 
@@ -1605,13 +1541,12 @@ El ego soberano en Deimos determina la configuración colectiva de la misma mane
 
 Preguntas orientadas al ego colectivo para este módulo
 
-> Pregunta ancla — Ego colectivo (Deimos) «¿Puede describir decisiones importantes para la organización que en el período analizado quedaron sin tomarse — no porque hubiera una razón explícita para no tomarlas, sino porque simplemente no llegaron a resolverse?» [El mediador busca narrativa de omisión institucional, no de postergación deliberada. Lo que observa: si el entrevistado puede describir la omisión con claridad (señal de que la veía) o si también le resulta difusa (señal de que el colectivo como sistema no la registraba). La convergencia de narrativas independientes sobre las mismas omisiones, sin coordinación entre los entrevistados, produce EP-2 para el ego colectivo.]
+Pregunta ancla — Ego colectivo (Deimos) «¿Puede describir decisiones importantes para la organización que en el período analizado quedaron sin tomarse — no porque hubiera una razón explícita para no tomarlas, sino porque simplemente no llegaron a resolverse?» [El mediador busca narrativa de omisión institucional, no de postergación deliberada. Lo que observa: si el entrevistado puede describir la omisión con claridad (señal de que la veía) o si también le resulta difusa (señal de que el colectivo como sistema no la registraba). La convergencia de narrativas independientes sobre las mismas omisiones, sin coordinación entre los entrevistados, produce EP-2 para el ego colectivo.]
 
 La distinción Deimos colectivo / consenso genuino es la más importante de la aplicación colectiva de este módulo. La pregunta discriminante para el ego colectivo: ¿los acuerdos que se tomaron en este período tienen fecha de implementación, responsable nominado y criterio de verificación? Si la respuesta es no sistemáticamente — no en un acuerdo puntual sino como patrón— la señal orienta hacia Deimos colectivo. Si la respuesta es sí y los acuerdos se ejecutaron, la señal orienta hacia Anteros colectivo o Harmonía colectiva, dependiendo de lo que el Módulo H produzca.
 
 El nivel EP en el ego colectivo para Deimos
 
-Entrevista Clínica Ontológica · ECO
 
 EP-1 para Deimos colectivo requiere que el mediador observe directamente la parálisis decisional del colectivo —en la dinámica de una junta o reunión donde se puede ver que los acuerdos no producen criterio de implementación, o en la dinámica de un grupo focal donde las posiciones son equivalentes y ninguna se impone. EP-2 requiere convergencia de narrativas independientes de múltiples miembros sobre las mismas omisiones. EP-3 requiere el patrón de Deimos en múltiples períodos o contextos de la historia institucional, narrado con coherencia temporal.
 
@@ -1625,7 +1560,6 @@ El segundo error es apresurarse a resolver el silencio. El silencio de Deimos an
 
 El tercer error es confundir la intervención de ECO con el trabajo de Histos e intentar resolver la parálisis dentro de la sesión. ECO localiza. Histos trabaja. El mediador que en la sesión de ECO intenta ayudar al sujeto a salir de Deimos está haciendo Histos sin las condiciones que Histos requiere: sin la localización completa de los ejes del Bloque II, sin los principios de intervención calibrados para la configuración completa del sujeto.
 
-Entrevista Clínica Ontológica · ECO
 
 Lo que el mediador sí hace
 
@@ -1637,15 +1571,16 @@ Cuándo derivar a Histos
 
 Deimos como Hijo dominante con H-3 y EP-1 orienta la derivación a Histos para el inicio del acompañamiento, con la condición de que el Bloque II esté completo. La localización específica en el Eje I es determinante para la orientación del trabajo de Histos: Deimos en E-1 produce un trabajo diferente de Deimos en E-4. En E-1, la parálisis es la posición actual de la voluntad y hay ego genuino activo desde el cual el trabajo puede operar. En E-4, la parálisis está relacionada con el eje ajeno internalizado y el trabajo necesita abordar primero la restitución del eje propio.
 
-> Condición de derivación a Histos desde Deimos Deimos H-3 con EP-1 o EP-2 + Bloque II completo con los cinco ejes del SDO localizados + nota de coexistencia con otros Hijos si la distribución P(Hijos) no es dominada claramente por Deimos. La derivación incluye el mapa completo de la configuración del sujeto, no solo la localización de Deimos. Histos necesita saber desde qué Eje I opera la parálisis para orientar correctamente el trabajo.
+Condición de derivación a Histos desde Deimos Deimos H-3 con EP-1 o EP-2 + Bloque II completo con los cinco ejes del SDO localizados + nota de coexistencia con otros Hijos si la distribución P(Hijos) no es dominada claramente por Deimos. La derivación incluye el mapa completo de la configuración del sujeto, no solo la localización de Deimos. Histos necesita saber desde qué Eje I opera la parálisis para orientar correctamente el trabajo.
 
 Cuándo el caso supera ECO
 
-Entrevista Clínica Ontológica · ECO
 
 El Módulo Deimos puede revelar dos situaciones que superan el alcance de ECO. La primera es Deimos asociado a E-3 con profundidad clínica: cuando la parálisis no es la simetría de opciones sino el bloqueo de φ₂ ante un nivel de dificultad que requiere intervención psicológica o psiquiátrica. La señal de alerta: el sujeto describe la parálisis con sufrimiento intenso, con historia de episodios que no ha podido interrumpir por años, y con incapacidad de funcionar en áreas básicas de su vida. Eso supera el nivel ontológico de ECO y requiere derivación clínica. La segunda es Deimos sostenido en E-6 (Aego): la parálisis que describe el límite del sistema, donde la voluntad ya no produce efecto diferencial en el campo. Ese estado requiere evaluación clínica antes de cualquier proceso de acompañamiento ontológico.
 
-Notas al Módulo B·I·D
+---
+
+## Notas al Módulo B·I·D
 
 1 La descripción de Deimos como parálisis ante la simetría de posibilidades tiene su fundamento en la ontología del colapso: el colapso no puede ocurrir cuando las posibilidades son completamente equivalentes para la voluntad que debería colapsarlas. Esto no significa que las posibilidades sean objetivamente equivalentes —eso sería una afirmación sobre el campo externo. Significa que la posición de v_t en φ₁ no produce orientación diferenciada: el campo de posibilidades llega a φ₁ sin diferencias de peso que φ₁ pueda usar para orientar el acto hacia una posibilidad sobre las demás.
 
@@ -1653,20 +1588,16 @@ Notas al Módulo B·I·D
 
 3 La confusión Deimos / consenso genuino que el texto describe para el ego colectivo es uno de los errores diagnósticos más frecuentes en el análisis organizacional. Las organizaciones que operan desde Deimos colectivo producen culturas que se describen internamente como «colaborativas», «no jerárquicas», «de consenso». Desde afuera, el mediador que solo lee esas descripciones puede concluir que hay Harmonía colectiva o Anteros colectivo.
 
-Entrevista Clínica Ontológica · ECO
 
 La pregunta que discrimina: ¿los acuerdos de consenso se ejecutan? Un colectivo genuinamente colaborativo ejecuta sus acuerdos. Un colectivo en Deimos acuerda y no ejecuta porque el acuerdo no tenía criterio de implementación.
 
 4 La instrucción de esperar 20 segundos ante el silencio de Deimos en sesión es una de las instrucciones más contraintuitivas del instrumento. La mayoría de los mediadores en formación la incumplen no por falta de conocimiento sino porque el silencio sostenido produce incomodidad en el propio campo del mediador. Esa incomodidad es información diagnóstica sobre el campo del mediador, no sobre el sujeto. El mediador que puede habitar 20 segundos de silencio sin intervenirlos tiene el campo calibrado para Deimos. El que no puede hacerlo necesita supervisión antes de administrar este módulo de manera autónoma.
 
-Entrevista Clínica Ontológica · ECO
+
+# B·I·A · MÓDULO ANTEROS La voluntad que se afirma desde el eje propio
 
 
-B·I·A · MÓDULO ANTEROS
-
-### La voluntad que se afirma desde el eje propio
-
-Localización del Hijo de la afirmación por reconocimiento
+## Localización del Hijo de la afirmación por reconocimiento
 
 ### I.  Fundamento ontológico del Hijo
 
@@ -1676,7 +1607,6 @@ La distinción que define a Anteros en el sistema ontológico es la distinción 
 
 En términos de la doble mediación: Anteros describe la posición de v_t en φ₁ desde la cual φ₂ puede operar con suficiente distancia para
 
-Entrevista Clínica Ontológica · ECO
 
 producir la afirmación proporcional. En Fobos, φ₁ produce el acto antes de que φ₂ pueda intervenir con distancia. En Anteros, φ₁ produce una orientación que φ₂ reconoce como propia y desde la cual actúa con la distancia que el reconocimiento le da. Esa distancia es la que permite que Anteros diga que no sin destruir la relación: la distancia de quien sabe desde dónde habla.
 
@@ -1692,7 +1622,6 @@ Por qué Anteros es el tercer módulo del Bloque I
 
 Anteros va tercero —después de Fobos y Deimos— porque las discriminaciones más importantes del módulo requieren que los dos primeros módulos hayan sido evaluados. La discriminación Anteros/Fobos requiere que Fobos ya tenga un código: si Fobos fue H-3, el mediador sabe que el sujeto tiene energía reactiva y necesita discriminar si Anteros es energía adicional de distinta naturaleza o si lo que parecía Anteros es Fobos proactivo. La discriminación
 
-Entrevista Clínica Ontológica · ECO
 
 Anteros/Deimos requiere que Deimos haya sido evaluado: si Deimos fue H-1 con EP-0, la ausencia de parálisis refuerza la señal de Anteros. El tercer lugar del módulo no es arbitrario: es la posición desde la que las discriminaciones más importantes tienen el contexto que necesitan.
 
@@ -1708,7 +1637,6 @@ Cuando la apertura narrativa ya produjo señales claras de Anteros, el mediador 
 
 Por qué Anteros no tiene SKIP estructural
 
-Entrevista Clínica Ontológica · ECO
 
 Sin SKIP estructural — justificación ontológica Anteros no tiene regla SKIP porque no hay configuración del sujeto que haga improbable su presencia de manera suficientemente robusta como para justificar omitir el módulo. Incluso los sujetos en E-4 pueden mostrar señales de Anteros —el eje del Otro internalizado puede producir afirmaciones que se parecen a Anteros y que requieren la discriminación A/E-4. Incluso los sujetos con Fobos dominante pueden tener Anteros como Hijo secundario. La única condición de ausencia garantizada de Anteros sería E-3 confirmado con profundidad estructural —y en ese caso la regla SKIP del Módulo Fobos ya habría derivado directamente a Deimos. Si el mediador llegó al Módulo Anteros, es porque el instrumento lo requiere.
 
@@ -1716,46 +1644,45 @@ Sin SKIP estructural — justificación ontológica Anteros no tiene regla SKIP 
 
 La pregunta ancla del Módulo Anteros accede a la experiencia de afirmación desde el eje propio a través de la narrativa de una situación en que ese eje fue puesto en juego. La formulación evita palabras como «criterio», «valores» o «principios» que podrían activar narrativas construidas sobre la imagen del sujeto en lugar de narrativas de experiencia genuina.
 
-> Pregunta ancla A — Formulación estándar «¿Puedes contarme de una vez en que dijiste que no a algo o a alguien — y eso te costó algo, pero la relación siguió? No tiene que haber sido dramático: una vez en que mantuviste tu posición, aunque hubiera presión para cambiarla.» [El mediador formula la pregunta y espera. La doble condición — «te costó algo» y «la relación siguió» — es la que separa Anteros de Fobos (también puede decir que no, pero la relación puede no sobrevivir) y de Deimos (no puede decir que no porque no tiene posición desde donde decirlo). Si el sujeto dice que no recuerda ninguna vez, el mediador espera 15 segundos antes de pasar al Sondeo A·1. Si el sujeto inmediatamente produce múltiples ejemplos con energía, el mediador observa si esa energía tiene carácter de Anteros (afirmación desde el eje) o de Fobos (reactividad ante la amenaza que esos momentos produjeron).]
+Pregunta ancla A — Formulación estándar «¿Puedes contarme de una vez en que dijiste que no a algo o a alguien — y eso te costó algo, pero la relación siguió? No tiene que haber sido dramático: una vez en que mantuviste tu posición, aunque hubiera presión para cambiarla.» [El mediador formula la pregunta y espera. La doble condición — «te costó algo» y «la relación siguió» — es la que separa Anteros de Fobos (también puede decir que no, pero la relación puede no sobrevivir) y de Deimos (no puede decir que no porque no tiene posición desde donde decirlo). Si el sujeto dice que no recuerda ninguna vez, el mediador espera 15 segundos antes de pasar al Sondeo A·1. Si el sujeto inmediatamente produce múltiples ejemplos con energía, el mediador observa si esa energía tiene carácter de Anteros (afirmación desde el eje) o de Fobos (reactividad ante la amenaza que esos momentos produjeron).]
 
 Variantes por perfil de mediador
 
-> Variante — Mediador Educativo (contexto escolar)
->
->
-> «¿Hay algún momento en este ciclo en que te hayas opuesto a algo — una instrucción, una dinámica del aula, una expectativa del sistema — porque no coincidía con lo que considerabas correcto? ¿Qué hiciste con esa discrepancia?» [Esta variante orienta la pregunta hacia el contexto educativo. El mediador adapta según trabaje con docentes o con estudiantes: para estudiantes puede ser «¿hubo alguna vez en que dijiste que no o que no estabas de acuerdo con algo que se esperaba de ti?»]
->
-> Variante — Mediador Estructural (análisis de responsabilidad) «En el período que estamos analizando, ¿hubo algún momento en que su criterio profesional apuntaba en una dirección distinta a lo que se esperaba o se instruía? ¿Qué hizo en ese momento?» [Esta variante orienta la pregunta hacia el contexto de toma de decisiones profesional. Es especialmente relevante para el análisis de responsabilidad causal: el sujeto que tenía criterio propio contrario a la instrucción que siguió tiene un Anteros que no se expresó, lo que tiene consecuencias para la estimación de α.]
->
-> Variante — Mediador Organizacional (ego colectivo) «¿Puede describir un momento en que esta organización — como institución — dijo que no a algo que el campo o las circunstancias presionaban para hacer, y lo sostuvo sin que la relación con ese campo se destruyera?» [Esta variante orienta la pregunta hacia el ego colectivo. El mediador busca señal de Anteros institucional: decisiones colectivas que afirmaron el eje propio de la organización ante presión externa, con fricción productiva que no destruyó la relación con el campo.]
+Variante — Mediador Educativo (contexto escolar)
+
+
+«¿Hay algún momento en este ciclo en que te hayas opuesto a algo — una instrucción, una dinámica del aula, una expectativa del sistema — porque no coincidía con lo que considerabas correcto? ¿Qué hiciste con esa discrepancia?» [Esta variante orienta la pregunta hacia el contexto educativo. El mediador adapta según trabaje con docentes o con estudiantes: para estudiantes puede ser «¿hubo alguna vez en que dijiste que no o que no estabas de acuerdo con algo que se esperaba de ti?»]
+
+Variante — Mediador Estructural (análisis de responsabilidad) «En el período que estamos analizando, ¿hubo algún momento en que su criterio profesional apuntaba en una dirección distinta a lo que se esperaba o se instruía? ¿Qué hizo en ese momento?» [Esta variante orienta la pregunta hacia el contexto de toma de decisiones profesional. Es especialmente relevante para el análisis de responsabilidad causal: el sujeto que tenía criterio propio contrario a la instrucción que siguió tiene un Anteros que no se expresó, lo que tiene consecuencias para la estimación de α.]
+
+Variante — Mediador Organizacional (ego colectivo) «¿Puede describir un momento en que esta organización — como institución — dijo que no a algo que el campo o las circunstancias presionaban para hacer, y lo sostuvo sin que la relación con ese campo se destruyera?» [Esta variante orienta la pregunta hacia el ego colectivo. El mediador busca señal de Anteros institucional: decisiones colectivas que afirmaron el eje propio de la organización ante presión externa, con fricción productiva que no destruyó la relación con el campo.]
 
 ### IV.  Preguntas de sondeo
 
 Las preguntas de sondeo del Módulo Anteros tienen dos objetivos simultáneos: profundizar en la señal de afirmación desde el eje propio y comenzar a verificar si esa señal corresponde a Anteros o a sus pares de confusión más frecuentes (Fobos, E-4). El mediador administra todas las preguntas, en el orden indicado, sin saltarse ninguna porque el resultado en una pregunta orienta la lectura de la siguiente.
 
-Entrevista Clínica Ontológica · ECO
 
-> Sondeo A·1 — El origen del no «Ese no que diste —o ese límite que pusiste—, ¿venía de algo que reconocías como tuyo, o fue más bien una reacción a lo que te estaban pidiendo?» [Esta es la pregunta discriminante primaria entre Anteros y Fobos. Lo que el mediador observa: si el sujeto puede separar su posición del detonante. El sujeto en Anteros puede identificar el criterio propio que existía antes del evento y que el evento puso en juego. El sujeto en Fobos no puede separar la respuesta del detonante: la energía fue activada por lo externo y no puede nombrarse independientemente de ello. Si el sujeto dice «fue una reacción» pero luego puede identificar el criterio que sustentaba esa reacción, el mediador pasa a la pregunta A·4 para verificar el origen del criterio.]
+Sondeo A·1 — El origen del no «Ese no que diste —o ese límite que pusiste—, ¿venía de algo que reconocías como tuyo, o fue más bien una reacción a lo que te estaban pidiendo?» [Esta es la pregunta discriminante primaria entre Anteros y Fobos. Lo que el mediador observa: si el sujeto puede separar su posición del detonante. El sujeto en Anteros puede identificar el criterio propio que existía antes del evento y que el evento puso en juego. El sujeto en Fobos no puede separar la respuesta del detonante: la energía fue activada por lo externo y no puede nombrarse independientemente de ello. Si el sujeto dice «fue una reacción» pero luego puede identificar el criterio que sustentaba esa reacción, el mediador pasa a la pregunta A·4 para verificar el origen del criterio.]
 
-> Sondeo A·2 — La consistencia del criterio «¿Ese criterio desde el que respondiste — ¿es algo que reconoces en otras situaciones de tu vida? ¿Puedes nombrarlo?» [Lo que el mediador observa: si el sujeto puede identificar el criterio propio con especificidad y si puede extenderlo a otros contextos. El sujeto en Anteros puede nombrar el criterio —no necesariamente en términos elaborados, puede ser muy concreto: «no firmo lo que no he revisado», «no acepto plazos que sé que no puedo cumplir»— y puede reconocerlo en otras situaciones. Si el sujeto puede nombrarlo, pero solo en ese contexto específico, la señal orienta hacia Anteros situacional. Si puede nombrarlo y extenderlo, la señal orienta hacia Anteros como Hijo dominante más estable.]
+Sondeo A·2 — La consistencia del criterio «¿Ese criterio desde el que respondiste — ¿es algo que reconoces en otras situaciones de tu vida? ¿Puedes nombrarlo?» [Lo que el mediador observa: si el sujeto puede identificar el criterio propio con especificidad y si puede extenderlo a otros contextos. El sujeto en Anteros puede nombrar el criterio —no necesariamente en términos elaborados, puede ser muy concreto: «no firmo lo que no he revisado», «no acepto plazos que sé que no puedo cumplir»— y puede reconocerlo en otras situaciones. Si el sujeto puede nombrarlo, pero solo en ese contexto específico, la señal orienta hacia Anteros situacional. Si puede nombrarlo y extenderlo, la señal orienta hacia Anteros como Hijo dominante más estable.]
 
-> Sondeo A·3 — El costo y la relación «¿Qué pasó después? ¿Cómo quedó la relación o la situación después de que mantuviste tu posición?» [Lo que el mediador observa: si el sujeto describe una relación que sobrevivió a la fricción o una que se deterioró o interrumpió. Anteros produce fricción productiva que no destruye la relación porque la afirmación viene desde el eje propio y no contra el otro. Si la relación se destruyó, el mediador evalúa: ¿fue la naturaleza de la relación la que no toleró la fricción, o fue la forma en que el sujeto afirmó su posición la que produjo la destrucción? En el primer caso sigue siendo Anteros. En el segundo puede ser Fobos.]
+Sondeo A·3 — El costo y la relación «¿Qué pasó después? ¿Cómo quedó la relación o la situación después de que mantuviste tu posición?» [Lo que el mediador observa: si el sujeto describe una relación que sobrevivió a la fricción o una que se deterioró o interrumpió. Anteros produce fricción productiva que no destruye la relación porque la afirmación viene desde el eje propio y no contra el otro. Si la relación se destruyó, el mediador evalúa: ¿fue la naturaleza de la relación la que no toleró la fricción, o fue la forma en que el sujeto afirmó su posición la que produjo la destrucción? En el primer caso sigue siendo Anteros. En el segundo puede ser Fobos.]
 
-> Sondeo A·4 — El origen del criterio «Ese criterio que describes como tuyo — ¿desde cuándo lo sientes como propio? ¿Lo construiste desde tu experiencia, o en algún punto lo adoptaste de alguien o de algún contexto?»
->
->
-> [Esta es la pregunta discriminante primaria entre Anteros y E-4. Lo que el mediador observa: si el sujeto puede dar historia del criterio desde la experiencia propia o si identifica una figura o un campo del que proviene. El sujeto en Anteros puede describir cómo fue haciéndose suyo el criterio —aunque sea un proceso que no recuerda en detalle. El sujeto en E-4 puede identificar con cierta facilidad la figura de origen: «mi padre siempre decía que», «en la empresa donde me formé», «mi primer jefe me enseñó que». Cuando el sujeto identifica la figura de origen, el mediador no concluye automáticamente E-4: pregunta si el criterio se mantiene cuando esa figura ya no está presente o cuando la figura misma lo cuestionaría.]
+Sondeo A·4 — El origen del criterio «Ese criterio que describes como tuyo — ¿desde cuándo lo sientes como propio? ¿Lo construiste desde tu experiencia, o en algún punto lo adoptaste de alguien o de algún contexto?»
 
-> Sondeo A·5 — La afirmación sin audiencia «¿Habría mantenido esa posición, aunque nadie lo supiera — aunque no te generara ningún reconocimiento, aunque no te viera nadie?» [Lo que el mediador observa: si el sujeto puede sostener el criterio independientemente del reconocimiento externo. Anteros no requiere audiencia porque viene del eje propio. La egolatría propia también puede producir afirmaciones sostenidas, pero requiere el espejo propio: el sujeto necesita verse como alguien que sostiene esos criterios. La pregunta discriminante entre Anteros y egolatría propia: ¿la afirmación requiere que el sujeto se vea a sí mismo sosteniéndola, o existe independientemente de ese espejo?]
 
-> Sondeo A·6 — La proactividad «¿Recuerdas haber tomado la iniciativa de comunicar tu posición — de decir lo que pensabas sin que nadie te lo pidiera, simplemente porque considerabas que era lo que correspondía decir?» [Lo que el mediador observa: si el sujeto describe comunicación proactiva desde el eje propio. Anteros produce justificación espontánea: el sujeto comunica su criterio porque reconoce que le corresponde hacerlo, no porque le pregunten. Si el sujeto puede identificar esos momentos con facilidad y describe la iniciativa como natural, la señal de Anteros se fortalece. Si solo puede describir comunicación reactiva —responde cuando le preguntan— la señal orienta hacia Anteros más contenido o hacia E-4.]
+[Esta es la pregunta discriminante primaria entre Anteros y E-4. Lo que el mediador observa: si el sujeto puede dar historia del criterio desde la experiencia propia o si identifica una figura o un campo del que proviene. El sujeto en Anteros puede describir cómo fue haciéndose suyo el criterio —aunque sea un proceso que no recuerda en detalle. El sujeto en E-4 puede identificar con cierta facilidad la figura de origen: «mi padre siempre decía que», «en la empresa donde me formé», «mi primer jefe me enseñó que». Cuando el sujeto identifica la figura de origen, el mediador no concluye automáticamente E-4: pregunta si el criterio se mantiene cuando esa figura ya no está presente o cuando la figura misma lo cuestionaría.]
 
-> Sondeo A·7 — La fricción en esta sesión «Hay algo en lo que te he preguntado o en la manera en que lo he preguntado que no te ha parecido completamente correcto o que produjo en ti algún tipo de incomodidad o resistencia?» [Esta es la pregunta que puede producir EP-1 directamente. Lo que el mediador observa: si el sujeto puede desacordar con el mediador en sesión de manera no hostil y no colapsar
->
->
-> ante esa posibilidad. Un sujeto en Anteros puede responder: «sí, cuando preguntaste X me pareció que estabas asumiendo algo que no es así», o «no me gustó la formulación de la pregunta Y porque daba por supuesto algo». Lo que importa no es el contenido de la discrepancia sino la textura: ¿el sujeto mantiene la relación mientras discrepa? ¿La fricción no destruye? Si el sujeto dice que no hay nada que objetar, el mediador acepta la respuesta, pero registra que esta pregunta no produjo EP-1 desde sesión.]
->
-> El Sondeo A·7 es el que más frecuentemente incomoda a los mediadores en formación porque requiere invitar al sujeto a criticar la sesión misma. La incomodidad es del mediador, no del instrumento. El sujeto en Anteros puede recibir esa pregunta como una señal de que el mediador está presente y es genuino. El sujeto en E-4 la recibirá con dificultad porque criticar la autoridad —aunque sea una autoridad que invita la crítica— activa el eje del Otro internalizado. El sujeto en Fobos puede verla como amenaza si percibe que hay algo que perder al criticar. La respuesta a esta pregunta es uno de los datos más diagnósticos de la sesión.
+Sondeo A·5 — La afirmación sin audiencia «¿Habría mantenido esa posición, aunque nadie lo supiera — aunque no te generara ningún reconocimiento, aunque no te viera nadie?» [Lo que el mediador observa: si el sujeto puede sostener el criterio independientemente del reconocimiento externo. Anteros no requiere audiencia porque viene del eje propio. La egolatría propia también puede producir afirmaciones sostenidas, pero requiere el espejo propio: el sujeto necesita verse como alguien que sostiene esos criterios. La pregunta discriminante entre Anteros y egolatría propia: ¿la afirmación requiere que el sujeto se vea a sí mismo sosteniéndola, o existe independientemente de ese espejo?]
+
+Sondeo A·6 — La proactividad «¿Recuerdas haber tomado la iniciativa de comunicar tu posición — de decir lo que pensabas sin que nadie te lo pidiera, simplemente porque considerabas que era lo que correspondía decir?» [Lo que el mediador observa: si el sujeto describe comunicación proactiva desde el eje propio. Anteros produce justificación espontánea: el sujeto comunica su criterio porque reconoce que le corresponde hacerlo, no porque le pregunten. Si el sujeto puede identificar esos momentos con facilidad y describe la iniciativa como natural, la señal de Anteros se fortalece. Si solo puede describir comunicación reactiva —responde cuando le preguntan— la señal orienta hacia Anteros más contenido o hacia E-4.]
+
+Sondeo A·7 — La fricción en esta sesión «Hay algo en lo que te he preguntado o en la manera en que lo he preguntado que no te ha parecido completamente correcto o que produjo en ti algún tipo de incomodidad o resistencia?» [Esta es la pregunta que puede producir EP-1 directamente. Lo que el mediador observa: si el sujeto puede desacordar con el mediador en sesión de manera no hostil y no colapsar
+
+
+ante esa posibilidad. Un sujeto en Anteros puede responder: «sí, cuando preguntaste X me pareció que estabas asumiendo algo que no es así», o «no me gustó la formulación de la pregunta Y porque daba por supuesto algo». Lo que importa no es el contenido de la discrepancia sino la textura: ¿el sujeto mantiene la relación mientras discrepa? ¿La fricción no destruye? Si el sujeto dice que no hay nada que objetar, el mediador acepta la respuesta, pero registra que esta pregunta no produjo EP-1 desde sesión.]
+
+El Sondeo A·7 es el que más frecuentemente incomoda a los mediadores en formación porque requiere invitar al sujeto a criticar la sesión misma. La incomodidad es del mediador, no del instrumento. El sujeto en Anteros puede recibir esa pregunta como una señal de que el mediador está presente y es genuino. El sujeto en E-4 la recibirá con dificultad porque criticar la autoridad —aunque sea una autoridad que invita la crítica— activa el eje del Otro internalizado. El sujeto en Fobos puede verla como amenaza si percibe que hay algo que perder al criticar. La respuesta a esta pregunta es uno de los datos más diagnósticos de la sesión.
 
 ### V.  Señales de observación directa
 
@@ -1771,7 +1698,6 @@ EP-1 sostenido: es la señal más diagnóstica del módulo. El sujeto que puede 
 
 Confundir con rigidez defensiva (Fobos) o con distancia relacional (E-4 o E-5). La señal de Anteros no es hostilidad ni cierre: es fricción que no destruye. El sujeto que desacuerda y sigue presente, curioso, relacionado, está en Anteros.
 
-### Entrevista Clínica Ontológica · ECO
 
 La narrativa del sujeto tiene un eje reconocible: criterios que se repiten en decisiones de distintos contextos y períodos, sin que el sujeto haya sido instruido a tenerlos. La coherencia no es rigidez: el eje se mantiene pero puede dialogar con lo nuevo.
 
@@ -1803,7 +1729,6 @@ EP-2 desde narrativa de episodios específicos con resolución no destructiva. E
 
 Confundir con evitación del conflicto (Deimos). La diferencia: la evitación de Deimos no produce discrepancia. Anteros produce discrepancia y la sostiene. La señal no es que el sujeto no
 
-Entrevista Clínica Ontológica · ECO
 
 El desacuerdo existió y la relación continuó.
 
@@ -1821,41 +1746,39 @@ El mediador que quiere verificar esta señal puede introducir, de manera natural
 
 El árbol del Módulo Anteros tiene más nodos de verificación de exclusión que los módulos anteriores porque las confusiones frecuentes de Anteros son más difíciles de resolver y requieren más pasos. El árbol no puede completarse sin pasar por al menos una pregunta discriminante de la sección §7.
 
-> **NODO A·0 — ¿La apertura narrativa produjo señal de Anteros? ¿Entrar directamente a pregunta ancla?**
->
-> ### Entrevista Clínica Ontológica · ECO
->
-> SÍ (señal clara de afirmación desde eje propio en apertura) → Ir directamente a pregunta ancla sin preámbulo. El sujeto ya estableció el campo. NO → Administrar pregunta ancla con el encuadre estándar. ↓
+**NODO A·0 — ¿La apertura narrativa produjo señal de Anteros? ¿Entrar directamente a pregunta ancla?**
 
-> **NODO A·1 — ¿La pregunta ancla produjo narrativa de afirmación desde criterio propio?**
->
-> NO (el sujeto no puede identificar ningún momento de afirmación con fricción) → Administrar Sondeo A·6 y A·7. Si no hay señal → verificar si H-1 o imposibilidad de evaluar según la naturaleza de la ausencia. SÍ → Observar: ¿la narrativa tiene energía proactiva (afirma algo) o reactiva (responde a algo)? ↓
 
-> **NODO A·2 — ¿La energía de la narrativa es proactiva (afirma algo propio) o reactiva (responde a una amenaza)?**
->
-> Reactiva → Posible Fobos. Administrar Sondeo A·1 y pregunta discriminante A/F de §7 antes de continuar. Proactiva → Administrar Sondeo A·2, A·4, A·7 en ese orden. ↓
+SÍ (señal clara de afirmación desde eje propio en apertura) → Ir directamente a pregunta ancla sin preámbulo. El sujeto ya estableció el campo. NO → Administrar pregunta ancla con el encuadre estándar. ↓
 
-> **NODO A·3 — Sondeo A·4: ¿el sujeto puede dar historia del criterio desde la experiencia propia?**
->
-> NO (identifica figura de origen con claridad: padre, institución, figura de autoridad) → Posible E-4. Administrar pregunta discriminante A/E-4 de §7 obligatoriamente. SÍ (puede describir cómo fue haciéndose suyo el criterio) → Señal de Anteros fortalecida. Continuar. ↓
+**NODO A·1 — ¿La pregunta ancla produjo narrativa de afirmación desde criterio propio?**
 
-> **NODO A·4 — Sondeo A·7: ¿el sujeto puede desacordar con el mediador en sesión sin colapsar ni volverse hostil?**
->
-> SÍ (fricción productiva en sesión, relación no destruida) → EP-1 confirmado. Señal de Anteros máxima. NO (no hay desacuerdo, o el desacuerdo produce colapso o hostilidad) → EP-1 no confirmado. Evaluar si la ausencia corresponde a E-4 (no puede desacordar con autoridad) o a Deimos (no tiene posición desde donde desacordar). ↓
+NO (el sujeto no puede identificar ningún momento de afirmación con fricción) → Administrar Sondeo A·6 y A·7. Si no hay señal → verificar si H-1 o imposibilidad de evaluar según la naturaleza de la ausencia. SÍ → Observar: ¿la narrativa tiene energía proactiva (afirma algo) o reactiva (responde a algo)? ↓
 
-> **NODO A·5 — ¿El criterio se mantiene en múltiples contextos y períodos (patrón temporal)?**
->
-> NO (solo aparece en el episodio que el sujeto describió en la pregunta ancla) → H-2 máximo. Anteros situacional. Peso EP-4 o EP-5. SÍ → ¿Hay señal de observación directa en sesión? ↓
+**NODO A·2 — ¿La energía de la narrativa es proactiva (afirma algo propio) o reactiva (responde a una amenaza)?**
 
-> **NODO A·6 — ¿La señal de observación directa en sesión corrobora la narrativa?**
->
-> NO → H-3 no alcanzable. H-2 con EP-2 o EP-3. Nota de hipótesis. SÍ → ¿La señal corresponde a Anteros o podría ser E-4 avanzado? ↓
->
-> ### Entrevista Clínica Ontológica · ECO
+Reactiva → Posible Fobos. Administrar Sondeo A·1 y pregunta discriminante A/F de §7 antes de continuar. Proactiva → Administrar Sondeo A·2, A·4, A·7 en ese orden. ↓
 
-> **NODO A·7 — Verificación final: ¿la afirmación viene del eje propio o del eje del Otro internalizado?**
->
-> Administrar pregunta discriminante A/E-4 de §7 si no se administró en NODO A·3. Confirmar exclusión antes de codificación final. ↓
+**NODO A·3 — Sondeo A·4: ¿el sujeto puede dar historia del criterio desde la experiencia propia?**
+
+NO (identifica figura de origen con claridad: padre, institución, figura de autoridad) → Posible E-4. Administrar pregunta discriminante A/E-4 de §7 obligatoriamente. SÍ (puede describir cómo fue haciéndose suyo el criterio) → Señal de Anteros fortalecida. Continuar. ↓
+
+**NODO A·4 — Sondeo A·7: ¿el sujeto puede desacordar con el mediador en sesión sin colapsar ni volverse hostil?**
+
+SÍ (fricción productiva en sesión, relación no destruida) → EP-1 confirmado. Señal de Anteros máxima. NO (no hay desacuerdo, o el desacuerdo produce colapso o hostilidad) → EP-1 no confirmado. Evaluar si la ausencia corresponde a E-4 (no puede desacordar con autoridad) o a Deimos (no tiene posición desde donde desacordar). ↓
+
+**NODO A·5 — ¿El criterio se mantiene en múltiples contextos y períodos (patrón temporal)?**
+
+NO (solo aparece en el episodio que el sujeto describió en la pregunta ancla) → H-2 máximo. Anteros situacional. Peso EP-4 o EP-5. SÍ → ¿Hay señal de observación directa en sesión? ↓
+
+**NODO A·6 — ¿La señal de observación directa en sesión corrobora la narrativa?**
+
+NO → H-3 no alcanzable. H-2 con EP-2 o EP-3. Nota de hipótesis. SÍ → ¿La señal corresponde a Anteros o podría ser E-4 avanzado? ↓
+
+
+**NODO A·7 — Verificación final: ¿la afirmación viene del eje propio o del eje del Otro internalizado?**
+
+Administrar pregunta discriminante A/E-4 de §7 si no se administró en NODO A·3. Confirmar exclusión antes de codificación final. ↓
 
 SALIDA — Codificación + Nivel EP + P(Anteros) tentativo → Continuar a Módulo Potós
 
@@ -1873,7 +1796,6 @@ El sujeto puede separar su posición de la amenaza: lo que afirmó existía ante
 
 El sujeto no puede separar la reacción del detonante: sin la amenaza, la energía no habría existido o habría sido diferente. La urgencia tiene objeto externo que la activó. El sujeto describe la respuesta en función de lo que amenazaba, no en función de lo que sostenía.
 
-### Entrevista Clínica Ontológica · ECO
 
 Anteros vs. E-4 (eje ajeno internalizado)
 
@@ -1899,7 +1821,6 @@ Anteros: el sujeto eligió esa respuesta porque correspondía a
 
 Fobos estratégico: el sujeto puede imaginar haber
 
-### Entrevista Clínica Ontológica · ECO
 
 (urgencia que encubre deliberación)
 
@@ -1925,7 +1846,6 @@ Anteros: el sujeto puede identificar ese momento y puede describir que sostuvo s
 
 E-4 avanzado: el sujeto no puede identificar ese momento fácilmente, o cuando lo identifica describe que terminó
 
-Entrevista Clínica Ontológica · ECO
 
 adoptando la posición del campo, aunque inicialmente resistió. El criterio que parecía propio se plegó cuando la fricción fue suficientemente alta. El eje era del Otro internalizado que se impuso cuando fue desafiado desde afuera.
 
@@ -1941,7 +1861,6 @@ La dificultad de esta discriminación reside en que el sujeto en E-4 no tiene ac
 
 La pregunta que más frecuentemente produce la distinción es la pregunta del colapso del Otro: «¿qué haría tu criterio si la persona de quien lo adoptaste lo cuestionara directamente?». En Anteros, el criterio sobrevive al cuestionamiento del Otro porque es del sujeto. En E-4, el criterio puede colapsar o transformarse cuando el Otro internalizado lo niega desde afuera —porque el criterio requiere la sanción del Otro para mantenerse. El mediador que puede acceder a
 
-Entrevista Clínica Ontológica · ECO
 
 esta pregunta en sesión tiene la discriminación más confiable del módulo.
 
@@ -1955,7 +1874,6 @@ La instrucción práctica para el mediador: no usar E-1 como sustituto de Antero
 
 ### VIII.  Criterios de codificación
 
-### Entrevista Clínica Ontológica · ECO
 
 **Tabla de codificación** (columnas: código · nombre · ancla conductual · nivel EP mínimo · ejemplo de respuesta)
 
@@ -1985,7 +1903,6 @@ EP-0. «No sé si tengo criterios propios como
 
 H-1 Ausente El módulo completo no
 
-### Entrevista Clínica Ontológica · ECO
 
 tales. Trato de hacer lo que corresponde en cada situación.» [El sujeto no puede nombrar ningún criterio propio estable cuando el mediador lo pregunta directamente.]
 
@@ -2003,7 +1920,6 @@ Sin EP asignable.
 
 La codificación H-3 en el Módulo Anteros requiere las tres condiciones siguientes de manera simultánea. Primera: el sujeto puede identificar criterios propios que se mantuvieron estables en al menos dos contextos o períodos distintos del período analizado, y puede nombrarlos con especificidad. Segunda: puede describir al menos un episodio de discrepancia con el campo que no destruyó la relación —fricción productiva con historia. Tercera: al menos una señal de observación directa en sesión corrobora la narrativa —el sujeto desacuerda con el mediador, justifica su posición sin que se lo
 
-Entrevista Clínica Ontológica · ECO
 
 pidan, o muestra criterio propio en la relación directa con el instrumento.
 
@@ -2017,7 +1933,6 @@ La codificación del Módulo Anteros produce el peso tentativo de P(Anteros) en 
 
 ### Ejemplos de distribuciones P(Hijos) cuando Anteros es dominante Ejemplo 1 (Anteros muy dominante, EP-1): P(Fobos) = 0.10 · P(Deimos) = 0.05 · P(Anteros) = 0.75 · P(Potós) = 0.05 · P(Eros) = 0.05 · P(Harmonía) = 0.00. Suma: 1.00. Ejemplo 2 (Anteros/Fobos coexistentes, EP-2 para ambos): P(Fobos) = 0.30 · P(Deimos) = 0.05 · P(Anteros) = 0.50 · P(Potós) = 0.05 · P(Eros) = 0.10
 
-Entrevista Clínica Ontológica · ECO
 
 · P(Harmonía) = 0.00. Suma: 1.00. El segundo describe un sujeto con eje propio sólido (Anteros) que también reacciona defensivamente cuando algo lo amenaza (Fobos): los dos Hijos conviven porque corresponden a dimensiones distintas del mismo campo de la voluntad.
 
@@ -2031,7 +1946,6 @@ Por qué Anteros es el Hijo colectivo más difícil de sostener
 
 Anteros colectivo requiere una condición que los demás Hijos colectivos no requieren con la misma intensidad: un ego soberano en E-1 real —el sujeto que porta la segunda mediación colectiva debe tener su propio eje genuino activo para que el colectivo pueda afirmar el suyo. Un ego soberano en E-4 —con eje ajeno internalizado— produce un colectivo que parece tener Anteros pero que en realidad tiene el eje del Otro del ego soberano. La organización que parece tener criterio propio sólido puede estar actuando desde el criterio de su fundador, de su regulador más influyente, o de la cultura del sector —no desde un eje genuinamente propio.
 
-Entrevista Clínica Ontológica · ECO
 
 La señal que distingue Anteros colectivo genuino de E-4 colectivo es la misma que en el individuo: ¿el criterio sobrevive al cuestionamiento del Otro que lo originó? La organización que mantiene su criterio cuando el fundador que lo instauró ya no está, o cuando el sector cambia sus normas, o cuando el regulador presiona en sentido contrario, tiene Anteros colectivo genuino. La que adapta su criterio al cambio de la figura de origen tiene E-4 colectivo.
 
@@ -2045,7 +1959,6 @@ La discriminación Anteros colectivo / E-4 colectivo
 
 La discriminación más importante en la aplicación colectiva del Módulo Anteros es la misma que en el individuo, pero con un nivel de complejidad adicional: ¿el criterio propio del colectivo sobrevive
 
-Entrevista Clínica Ontológica · ECO
 
 a la ausencia del ego soberano que lo instauró? Una organización que mantiene su cultura, su enfoque o sus criterios de decisión después de la salida del fundador o del líder que los estableció tiene Anteros colectivo genuino —el criterio se transmitió y se hizo propio del colectivo. Una organización que pierde su criterio o que lo adopta de un nuevo líder con cada cambio de liderazgo tiene E-4 colectivo: el criterio depende del ego soberano de turno, no es del colectivo.
 
@@ -2059,7 +1972,6 @@ El segundo error es usar la localización de Anteros para concluir que el sujeto
 
 El tercer error es nombrar el Hijo al sujeto de manera que lo convierte en etiqueta de identidad. «Eres de los que tienen criterio propio» o «claramente tienes Anteros» no son intervenciones de ECO: son evaluaciones que el instrumento no autoriza y que pueden contaminar la relación para el resto de la sesión y para el proceso de Histos.
 
-Entrevista Clínica Ontológica · ECO
 
 Lo que el mediador sí hace
 
@@ -2071,15 +1983,16 @@ Cuándo derivar a Histos
 
 Anteros como Hijo dominante con H-3 y EP-1 orienta la derivación a Histos con la condición de que el Bloque II esté completo y la discriminación A/E-4 haya sido resuelta con certeza. La diferencia entre Anteros genuino y E-4 con eje ajeno fuerte determina completamente la orientación del trabajo de Histos: con Anteros genuino, el trabajo puede operar directamente desde el eje propio activo del sujeto. Con E-4, el trabajo necesita abordar primero la restitución del eje propio antes de que el Hijo dominante pueda cambiar.
 
-> Condición de derivación a Histos desde Anteros Anteros H-3 con EP-1 o EP-2 + discriminación A/E-4 resuelta con certeza + Bloque II completo. Si la discriminación A/E-4 no pudo resolverse, la derivación a Histos incluye la nota de incertidumbre sobre el origen del criterio y el trabajo de Histos incorpora la exploración de ese origen como parte de su proceso inicial.
+Condición de derivación a Histos desde Anteros Anteros H-3 con EP-1 o EP-2 + discriminación A/E-4 resuelta con certeza + Bloque II completo. Si la discriminación A/E-4 no pudo resolverse, la derivación a Histos incluye la nota de incertidumbre sobre el origen del criterio y el trabajo de Histos incorpora la exploración de ese origen como parte de su proceso inicial.
 
 Cuándo el caso supera ECO
 
-Entrevista Clínica Ontológica · ECO
 
 Anteros no produce frecuentemente situaciones que superen el alcance de ECO. La excepción más significativa es cuando la afirmación desde el criterio propio que el sujeto describe involucra conflictos de alta intensidad —situaciones laborales, familiares o sociales donde la fricción productiva tiene consecuencias legales, de seguridad o de salud que están en curso. En esos casos, el mediador no puede usar ECO para localizar la configuración de la voluntad mientras el conflicto sigue activo sin primero asegurarse de que el sujeto tiene las condiciones de seguridad necesarias. El principio de derivación del paradigma se aplica: antes de localizar ontológicamente, asegurar que el sujeto esté seguro.
 
-Notas al Módulo B·I·A
+---
+
+## Notas al Módulo B·I·A
 
 1 La descripción de Anteros como afirmación en la dimensión arética tiene una consecuencia para el análisis de responsabilidad del Método Prometeo que el texto principal no desarrolla explícitamente: un sujeto en Anteros con criterio propio activo tiene α alto (alta asunción de sus actos como propios) y S más bajo (menor condicionamiento del sesgo acumulado sobre la orientación de la voluntad). Eso produce una estimación de R* que asigna mayor peso causal a ese sujeto que a uno en Deimos o en Fobos con el mismo nivel de intervención en el grafo causal. La responsabilidad de Anteros es mayor no porque el sujeto sea culpable en sentido moral sino porque su voluntad fue más determinante en el resultado.
 
@@ -2087,18 +2000,15 @@ Notas al Módulo B·I·A
 
 3 La extensión de la sección §7 de este módulo responde a la nota editorial del documento editorial de la obra: las tres discriminaciones (Anteros/Fobos, Anteros/E-4, Anteros/E-1) son las que justifican que este módulo sea el más extenso del Bloque I. Las seis preguntas de la tabla discriminante no son solo para uso en sesión: son el material de formación más importante del módulo. El mediador que internaliza las seis discriminaciones tiene el instrumento
 
-Entrevista Clínica Ontológica · ECO
 
 calibrado para leer no solo Anteros sino la dimensión arética completa del sistema.
 
 4 La instrucción de recibir el desacuerdo del sujeto sin defensividad ni cesión automática en el Sondeo A·7 tiene una doble función que el texto menciona brevemente: es señal diagnóstica del sujeto (¿puede desacordar?) y es modelo relacional del mediador (¿puede recibir el desacuerdo?). El mediador que no puede recibir el desacuerdo del sujeto sin ponerse defensivo o sin ceder inmediatamente está mostrando que no tiene Anteros disponible en el campo de la sesión — y eso contamina precisamente el módulo que busca localizarlo en el sujeto. La supervisión de la propia P(Hijos) del mediador es especialmente importante en este módulo.
 
-Entrevista Clínica Ontológica · ECO
 
+# B·I·P · MÓDULO POTÓS
 
-B·I·P · MÓDULO POTÓS
-
-La voluntad que busca lo que ya no está Localización del Hijo de la orientación hacia lo ausente · Legibilidad
+## La voluntad que busca lo que ya no está Localización del Hijo de la orientación hacia lo ausente · Legibilidad
 
 baja
 
@@ -2108,11 +2018,10 @@ Potós es la posición de la voluntad orientada hacia lo ausente: una persona, u
 
 La distinción ontológica más importante de Potós es la que lo separa del duelo activo. El duelo activo del Eje V (T-2, T-3) es un proceso: la voluntad se mueve entre el reconocimiento de la pérdida y la resistencia a ella, entre la presencia del dolor y el retorno al funcionamiento ordinario. Potós no tiene ese movimiento: es la posición estable de la voluntad que ya ha reconocido que el objeto está ausente y que, sin embargo, no puede orientarse hacia ningún sustituto ni hacia un futuro que no sea la restauración del pasado. El duelo activo es dinámico; Potós es una orientación fija.
 
-Entrevista Clínica Ontológica · ECO
 
 La firma de Potós en presencia es diferente de su firma documental. Documentalmente, Potós produce referencias sistemáticas al pasado, dificultad para cerrar archivos de etapas anteriores, proyectos que quedaron abiertos cuando la situación ya había cambiado. En presencia, la firma es más sutil y más fácil de confundir: el contraste entre la calidez del tono cuando el sujeto habla de lo que ya no está y la planitud o la distancia cuando habla del presente. El sujeto en Potós no necesariamente habla con tristeza del ausente: puede hablar con calidez, con detalle, con una riqueza de la narrativa que contrasta visiblemente con la manera en que narra el presente.
 
-> Potós no extraña algo que podría recuperarse. Extraña algo que sabe que no puede recuperarse, y sigue extrañándolo de todas formas. Esa es la posición de la voluntad: no es negación de la pérdida, es orientación persistente hacia algo cuya pérdida ya fue reconocida.
+Potós no extraña algo que podría recuperarse. Extraña algo que sabe que no puede recuperarse, y sigue extrañándolo de todas formas. Esa es la posición de la voluntad: no es negación de la pérdida, es orientación persistente hacia algo cuya pérdida ya fue reconocida.
 
 Por qué Potós tiene legibilidad baja
 
@@ -2120,9 +2029,8 @@ La nota editorial de este módulo establece que Potós es el Hijo de legibilidad
 
 La consecuencia para la codificación: Potós no puede alcanzar H-3 con EP-1 en la mayoría de los casos porque no hay conducta directa en sesión que sea característica e inequívoca de Potós solo. El sujeto que vuelve al pasado en sesión puede estar en Potós, pero también puede estar en cualquiera de los estados alternativos. La codificación H-3 de Potós requiere EP-2 mínimo —narrativa coherente en múltiples contextos con alguna señal de observación que la corrobore— y la verificación discriminante obligatoria de al menos dos de los pares de confusión de la sección §7.
 
-Entrevista Clínica Ontológica · ECO
 
-> Lo que Potós localiza — con precisión técnica La posición de v_t desde la cual la voluntad orienta φ₁ hacia un objeto ausente que sigue siendo el referente normativo del presente y el horizonte del futuro deseado, sin que la voluntad pueda orientarse genuinamente hacia equivalentes o hacia un futuro que no sea restauración del pasado. Potós no es un estado emocional: es una posición de la voluntad que tiene consecuencias en todos los actos que el sujeto produce desde esa posición.
+Lo que Potós localiza — con precisión técnica La posición de v_t desde la cual la voluntad orienta φ₁ hacia un objeto ausente que sigue siendo el referente normativo del presente y el horizonte del futuro deseado, sin que la voluntad pueda orientarse genuinamente hacia equivalentes o hacia un futuro que no sea restauración del pasado. Potós no es un estado emocional: es una posición de la voluntad que tiene consecuencias en todos los actos que el sujeto produce desde esa posición.
 
 Por qué Potós va cuarto en el Bloque I
 
@@ -2134,11 +2042,10 @@ Criterios de entrada directa
 
 El Módulo Potós puede iniciarse directamente cuando se cumple alguna de las siguientes condiciones. La primera: la apertura narrativa produjo señal clara de orientación al pasado como referente de valor — el sujeto volvió espontáneamente a un período anterior, a una persona ausente o a un estado que ya no existe, con una calidez de tono que contrasta con la manera en que habla del presente. La segunda: los módulos anteriores produjeron señales de Potós como hipótesis secundaria — el sujeto describió la amenaza o la parálisis en términos de pérdida de algo que fue, no solo de amenaza al presente o de simetría de opciones. La tercera: el árbol documental del Capítulo U·1 produjo señales de Potós desde el expediente — referencias sistemáticas al pasado, archivos de etapas anteriores que
 
-Entrevista Clínica Ontológica · ECO
 
 permanecieron abiertos — y el mediador necesita verificar desde presencia.
 
-> SKIP completo — condición y justificación Condición: la apertura narrativa no produjo ninguna señal de orientación al pasado — el sujeto narró el período analizado sin referencias espontáneas a tiempos, personas o estados anteriores — Y ante la pregunta ancla el sujeto no puede identificar ningún objeto ausente que la voluntad siga buscando. Acción: registrar EP-0, código H-1 para Potós, y continuar al Módulo Eros. Si el sujeto produce alguna señal mínima ante la pregunta ancla (EP-8), registrar ese peso residual y continuar. Justificación ontológica: Potós requiere que la voluntad tenga un objeto ausente hacia el que se oriente. Si la apertura narrativa completa no produjo ninguna señal de ese objeto, y la pregunta ancla tampoco lo produce, la probabilidad de Potós como Hijo activo en esta configuración de la voluntad es suficientemente baja como para no justificar la administración del módulo completo. La ausencia de objeto ausente no es evidencia de que Potós no puede estar presente en el sujeto en general: es evidencia de que no está activo en la configuración de la voluntad en el período analizado.
+SKIP completo — condición y justificación Condición: la apertura narrativa no produjo ninguna señal de orientación al pasado — el sujeto narró el período analizado sin referencias espontáneas a tiempos, personas o estados anteriores — Y ante la pregunta ancla el sujeto no puede identificar ningún objeto ausente que la voluntad siga buscando. Acción: registrar EP-0, código H-1 para Potós, y continuar al Módulo Eros. Si el sujeto produce alguna señal mínima ante la pregunta ancla (EP-8), registrar ese peso residual y continuar. Justificación ontológica: Potós requiere que la voluntad tenga un objeto ausente hacia el que se oriente. Si la apertura narrativa completa no produjo ninguna señal de ese objeto, y la pregunta ancla tampoco lo produce, la probabilidad de Potós como Hijo activo en esta configuración de la voluntad es suficientemente baja como para no justificar la administración del módulo completo. La ausencia de objeto ausente no es evidencia de que Potós no puede estar presente en el sujeto en general: es evidencia de que no está activo en la configuración de la voluntad en el período analizado.
 
 El SKIP de Potós tiene una característica especial respecto a los demás SKIP del Bloque I: se activa por ausencia de objeto, no por presencia de una condición alternativa. El SKIP de Fobos se activa cuando E-3 está confirmado. El SKIP de Deimos se activa cuando E-1 está confirmado. El SKIP de Potós se activa cuando no hay señal del objeto ausente en ningún momento de la sesión. El mediador que aplica el SKIP de Potós por la ausencia de objeto debe estar seguro de que administró la pregunta ancla: sin ella, no hay base para concluir la ausencia.
 
@@ -2146,47 +2053,47 @@ El SKIP de Potós tiene una característica especial respecto a los demás SKIP 
 
 La pregunta ancla del Módulo Potós accede a la experiencia de la voluntad orientada hacia lo ausente sin usar la palabra «extrañar» ni «nostalgia» — que podrían activar narrativas sobre cómo el sujeto cree que debería sentirse más que sobre cómo la voluntad genuinamente se orienta.
 
-> Pregunta ancla P — Formulación estándar «¿Hay algo — o alguien — que ya no está en tu vida y que todavía mueve algo en ti cuando lo piensas? No una pérdida reciente: algo que con el tiempo debería haber quedado atrás, pero que sigue siendo un referente para ti.»
->
->
-> [El mediador formula la pregunta y espera. La distinción «que con el tiempo debería haber quedado atrás» separa Potós del duelo activo reciente. Si el sujeto dice que no hay nada así, el mediador espera 15 segundos y luego pasa al Sondeo P·1. Si el sujeto produce inmediatamente un objeto ausente, el mediador observa con qué tipo de energía lo introduce: ¿hay calidez en el tono? ¿Hay contraste con el tono que usó para hablar del presente? ¿O hay agitación emocional que oriente más hacia el Eje V que hacia Potós?]
+Pregunta ancla P — Formulación estándar «¿Hay algo — o alguien — que ya no está en tu vida y que todavía mueve algo en ti cuando lo piensas? No una pérdida reciente: algo que con el tiempo debería haber quedado atrás, pero que sigue siendo un referente para ti.»
+
+
+[El mediador formula la pregunta y espera. La distinción «que con el tiempo debería haber quedado atrás» separa Potós del duelo activo reciente. Si el sujeto dice que no hay nada así, el mediador espera 15 segundos y luego pasa al Sondeo P·1. Si el sujeto produce inmediatamente un objeto ausente, el mediador observa con qué tipo de energía lo introduce: ¿hay calidez en el tono? ¿Hay contraste con el tono que usó para hablar del presente? ¿O hay agitación emocional que oriente más hacia el Eje V que hacia Potós?]
 
 Variantes por perfil de mediador
 
-> Variante — Mediador Educativo «¿Hay una manera de trabajar, de relacionarse con los estudiantes, o de organizar el aula que en algún momento existió — contigo o en la institución — que ya no está pero que todavía funciona como referencia de cómo deberían ser las cosas?» [Esta variante orienta la pregunta hacia el contexto educativo. Para uso con estudiantes: «¿Hay un momento de tu vida escolar —un profesor, una etapa, una manera de aprender— que ya no existe pero que todavía es el referente desde el que comparas lo que tienes ahora?»]
->
-> Variante — Mediador en Memoria Comunitaria «¿Puede describir algo que la comunidad tenía —una práctica, una relación, una forma de organizarse— que ya no está y que todavía funciona como el horizonte desde el que los miembros de la comunidad evalúan el presente?» [Esta variante orienta la pregunta hacia el ego colectivo. El mediador busca el objeto ausente del colectivo: la práctica que se perdió, el momento fundacional que se disolvió, el líder que ya no está. Lo que observa: si distintos miembros del colectivo identifican el mismo objeto ausente sin coordinación — convergencia que produce EP-2 para el ego colectivo.]
->
-> Variante — Mediador Estructural «En el período que estamos analizando, ¿había algo — una manera de trabajar, una relación, un estado de las cosas — que el sujeto percibía como perdido o como en proceso de perderse, y desde esa percepción de pérdida orientaba sus decisiones?»
->
->
-> [Esta variante orienta la pregunta hacia el análisis de responsabilidad: si las decisiones del sujeto en el período analizado estaban orientadas por la recuperación de algo perdido, eso tiene consecuencias directas para la estimación de v_t y de S.]
+Variante — Mediador Educativo «¿Hay una manera de trabajar, de relacionarse con los estudiantes, o de organizar el aula que en algún momento existió — contigo o en la institución — que ya no está pero que todavía funciona como referencia de cómo deberían ser las cosas?» [Esta variante orienta la pregunta hacia el contexto educativo. Para uso con estudiantes: «¿Hay un momento de tu vida escolar —un profesor, una etapa, una manera de aprender— que ya no existe pero que todavía es el referente desde el que comparas lo que tienes ahora?»]
+
+Variante — Mediador en Memoria Comunitaria «¿Puede describir algo que la comunidad tenía —una práctica, una relación, una forma de organizarse— que ya no está y que todavía funciona como el horizonte desde el que los miembros de la comunidad evalúan el presente?» [Esta variante orienta la pregunta hacia el ego colectivo. El mediador busca el objeto ausente del colectivo: la práctica que se perdió, el momento fundacional que se disolvió, el líder que ya no está. Lo que observa: si distintos miembros del colectivo identifican el mismo objeto ausente sin coordinación — convergencia que produce EP-2 para el ego colectivo.]
+
+Variante — Mediador Estructural «En el período que estamos analizando, ¿había algo — una manera de trabajar, una relación, un estado de las cosas — que el sujeto percibía como perdido o como en proceso de perderse, y desde esa percepción de pérdida orientaba sus decisiones?»
+
+
+[Esta variante orienta la pregunta hacia el análisis de responsabilidad: si las decisiones del sujeto en el período analizado estaban orientadas por la recuperación de algo perdido, eso tiene consecuencias directas para la estimación de v_t y de S.]
 
 ### IV.  Preguntas de sondeo
 
 Las preguntas de sondeo del Módulo Potós tienen como objetivo adicional comenzar la discriminación entre Potós y sus pares de confusión. A diferencia de los módulos anteriores donde las preguntas discriminantes están separadas en la sección §7, en Potós algunas preguntas de sondeo también sirven como discriminantes porque la legibilidad baja del Hijo requiere que la discriminación empiece desde las primeras preguntas.
 
-> Sondeo P·1 — El objeto ausente «¿Puedes describir qué es específicamente lo que ya no está? No cómo lo perdiste: qué era.» [Lo que el mediador observa: si el sujeto puede identificar el objeto ausente con especificidad y con una narrativa que lo dota de valor propio. Potós tiene objeto: la voluntad se orienta hacia algo específico, no hacia una idea abstracta de «cómo eran las cosas antes». Si el sujeto puede nombrar el objeto con precisión y con calidez en el tono, la señal de Potós se fortalece. Si el objeto ausente es difuso o general («era todo diferente», «la vida era más simple»), la señal puede orientar hacia Deimos con el pasado como refugio.]
+Sondeo P·1 — El objeto ausente «¿Puedes describir qué es específicamente lo que ya no está? No cómo lo perdiste: qué era.» [Lo que el mediador observa: si el sujeto puede identificar el objeto ausente con especificidad y con una narrativa que lo dota de valor propio. Potós tiene objeto: la voluntad se orienta hacia algo específico, no hacia una idea abstracta de «cómo eran las cosas antes». Si el sujeto puede nombrar el objeto con precisión y con calidez en el tono, la señal de Potós se fortalece. Si el objeto ausente es difuso o general («era todo diferente», «la vida era más simple»), la señal puede orientar hacia Deimos con el pasado como refugio.]
 
-> Sondeo P·2 — La influencia en el presente «¿Ese algo que ya no está ha influido en las decisiones que tomaste en el período que estamos analizando? ¿De qué manera?» [Lo que el mediador observa: si el sujeto puede rastrear la influencia de lo ausente en las decisiones del período analizado. Potós produce actos orientados hacia la recuperación o hacia la preservación de lo que queda de lo que fue. Si el sujeto puede describir esa influencia con ejemplos concretos, la señal de Potós se fortalece. Si no puede identificar ninguna influencia, el objeto ausente puede ser importante emocionalmente pero no estar orientando la voluntad en el sentido técnico de Potós.]
+Sondeo P·2 — La influencia en el presente «¿Ese algo que ya no está ha influido en las decisiones que tomaste en el período que estamos analizando? ¿De qué manera?» [Lo que el mediador observa: si el sujeto puede rastrear la influencia de lo ausente en las decisiones del período analizado. Potós produce actos orientados hacia la recuperación o hacia la preservación de lo que queda de lo que fue. Si el sujeto puede describir esa influencia con ejemplos concretos, la señal de Potós se fortalece. Si no puede identificar ninguna influencia, el objeto ausente puede ser importante emocionalmente pero no estar orientando la voluntad en el sentido técnico de Potós.]
 
-> Sondeo P·3 — El equivalente
->
->
-> «¿Has podido encontrar algo diferente — no igual, sino diferente — que tenga un valor comparable para ti a lo que ya no está?» [Esta es la pregunta discriminante entre Potós y la pérdida integrada. Lo que el mediador observa: si el sujeto puede identificar equivalentes o si la voluntad no puede orientarse hacia nada que no sea el objeto ausente específico. En Potós, el sujeto no puede identificar equivalentes genuinos: puede haber encontrado cosas diferentes que tiene, pero no pueden competir con el valor de lo ausente. Si el sujeto puede nombrar algo diferente que tiene un valor comparable, la señal orienta hacia pérdida en proceso de integración (Eje V) y no hacia Potós. Si no puede, la señal de Potós se fortalece.]
+Sondeo P·3 — El equivalente
 
-> Sondeo P·4 — El futuro deseado «Cuando piensas en cómo te gustaría que fueran las cosas en los próximos años, ¿qué imagen viene primero? ¿Esa imagen se parece a algo del pasado, o es algo que todavía no ha existido?» [Lo que el mediador observa: si la proyección futura del sujeto tiene estructura de restauración (recuperar algo que fue) o de apertura (algo nuevo que todavía no existe). Potós proyecta hacia la restauración: el futuro deseado es una versión recuperada del pasado. Eros proyecta hacia lo nuevo. La pregunta discriminante no es si el sujeto desea que el pasado vuelva: es si la imagen del futuro deseable está estructuralmente orientada hacia el pasado o hacia lo inédito.]
 
-> Sondeo P·5 — El ciclo de cierre «¿Hay archivos, proyectos, relaciones o conversaciones de ese período anterior que permanecieron abiertos — no porque hubiera algo pendiente que resolver, sino porque no podías cerrarlos?» [Lo que el mediador observa: si el sujeto describe la incapacidad de cerrar algo que ya debería estar cerrado. Esta es una de las señales documentales más características de Potós, y el sondeo verifica si también se reproduce en la narrativa del sujeto en presencia. Si el sujeto describe proyectos, relaciones o conversaciones que permanecieron abiertas «por las dudas» o «para no perder la conexión» con algo que ya había terminado, la señal de Potós se fortalece.]
+«¿Has podido encontrar algo diferente — no igual, sino diferente — que tenga un valor comparable para ti a lo que ya no está?» [Esta es la pregunta discriminante entre Potós y la pérdida integrada. Lo que el mediador observa: si el sujeto puede identificar equivalentes o si la voluntad no puede orientarse hacia nada que no sea el objeto ausente específico. En Potós, el sujeto no puede identificar equivalentes genuinos: puede haber encontrado cosas diferentes que tiene, pero no pueden competir con el valor de lo ausente. Si el sujeto puede nombrar algo diferente que tiene un valor comparable, la señal orienta hacia pérdida en proceso de integración (Eje V) y no hacia Potós. Si no puede, la señal de Potós se fortalece.]
 
-> Sondeo P·6 — La memoria como práctica «¿Hay algo que hagas regularmente para mantener viva la memoria de lo que ya no está — no como ritual de duelo, sino como parte de tu vida cotidiana?»
->
->
-> [Lo que el mediador observa: si la orientación al ausente se ha incorporado como práctica cotidiana. Potós puede producir rituales de preservación que no son duelo sino mantenimiento: releer mensajes, visitar lugares, conservar objetos, mantener conversaciones sobre lo que fue. Esas prácticas son señal de que la orientación al ausente está estructuralmente presente en la vida del sujeto, no solo en momentos de nostalgia puntual. EP-2 desde narrativa de prácticas cotidianas de preservación.]
+Sondeo P·4 — El futuro deseado «Cuando piensas en cómo te gustaría que fueran las cosas en los próximos años, ¿qué imagen viene primero? ¿Esa imagen se parece a algo del pasado, o es algo que todavía no ha existido?» [Lo que el mediador observa: si la proyección futura del sujeto tiene estructura de restauración (recuperar algo que fue) o de apertura (algo nuevo que todavía no existe). Potós proyecta hacia la restauración: el futuro deseado es una versión recuperada del pasado. Eros proyecta hacia lo nuevo. La pregunta discriminante no es si el sujeto desea que el pasado vuelva: es si la imagen del futuro deseable está estructuralmente orientada hacia el pasado o hacia lo inédito.]
 
-> Sondeo P·7 — La relación con el pasado en esta sesión «Mientras me cuentas esto, ¿hay algo de esa orientación hacia lo que ya no está que se activa ahora? ¿Puedes identificar qué se mueve en ti al hablar de ello?» [Lo que el mediador observa: si la narrativa sobre lo ausente activa algo en el campo relacional de la sesión — cambio de tono, cambio de postura, mayor detalle en la narrativa sobre el ausente que en la narrativa sobre el presente. Esta pregunta es la más cercana a EP-1 que el módulo puede producir para Potós: si la orientación al ausente se activa en sesión al narrarla, hay una señal conductual observable, aunque no sea la misma clase de señal que en Fobos o Anteros.]
->
-> La ausencia de respuesta en el Módulo Potós tiene una lectura diferente a la del Módulo Deimos. En Deimos, el silencio es señal del Hijo. En Potós, el silencio ante la pregunta ancla puede significar que no hay objeto ausente (señal de H-1) o puede significar que el objeto ausente es demasiado íntimo para nombrarlo en este momento de la sesión (señal de imposibilidad para evaluar). El mediador que espera sin interpretar el silencio y luego formula el Sondeo P·1 directamente tiene más información que el que reformula la pregunta ancla inmediatamente.
+Sondeo P·5 — El ciclo de cierre «¿Hay archivos, proyectos, relaciones o conversaciones de ese período anterior que permanecieron abiertos — no porque hubiera algo pendiente que resolver, sino porque no podías cerrarlos?» [Lo que el mediador observa: si el sujeto describe la incapacidad de cerrar algo que ya debería estar cerrado. Esta es una de las señales documentales más características de Potós, y el sondeo verifica si también se reproduce en la narrativa del sujeto en presencia. Si el sujeto describe proyectos, relaciones o conversaciones que permanecieron abiertas «por las dudas» o «para no perder la conexión» con algo que ya había terminado, la señal de Potós se fortalece.]
+
+Sondeo P·6 — La memoria como práctica «¿Hay algo que hagas regularmente para mantener viva la memoria de lo que ya no está — no como ritual de duelo, sino como parte de tu vida cotidiana?»
+
+
+[Lo que el mediador observa: si la orientación al ausente se ha incorporado como práctica cotidiana. Potós puede producir rituales de preservación que no son duelo sino mantenimiento: releer mensajes, visitar lugares, conservar objetos, mantener conversaciones sobre lo que fue. Esas prácticas son señal de que la orientación al ausente está estructuralmente presente en la vida del sujeto, no solo en momentos de nostalgia puntual. EP-2 desde narrativa de prácticas cotidianas de preservación.]
+
+Sondeo P·7 — La relación con el pasado en esta sesión «Mientras me cuentas esto, ¿hay algo de esa orientación hacia lo que ya no está que se activa ahora? ¿Puedes identificar qué se mueve en ti al hablar de ello?» [Lo que el mediador observa: si la narrativa sobre lo ausente activa algo en el campo relacional de la sesión — cambio de tono, cambio de postura, mayor detalle en la narrativa sobre el ausente que en la narrativa sobre el presente. Esta pregunta es la más cercana a EP-1 que el módulo puede producir para Potós: si la orientación al ausente se activa en sesión al narrarla, hay una señal conductual observable, aunque no sea la misma clase de señal que en Fobos o Anteros.]
+
+La ausencia de respuesta en el Módulo Potós tiene una lectura diferente a la del Módulo Deimos. En Deimos, el silencio es señal del Hijo. En Potós, el silencio ante la pregunta ancla puede significar que no hay objeto ausente (señal de H-1) o puede significar que el objeto ausente es demasiado íntimo para nombrarlo en este momento de la sesión (señal de imposibilidad para evaluar). El mediador que espera sin interpretar el silencio y luego formula el Sondeo P·1 directamente tiene más información que el que reformula la pregunta ancla inmediatamente.
 
 ### V.  Señales de observación directa
 
@@ -2196,7 +2103,6 @@ Las señales de observación directa del Módulo Potós son las más difíciles 
 
 Error de lectura frecuente
 
-### Entrevista Clínica Ontológica · ECO
 
 El sujeto vuelve consistentemente a un período anterior o a una persona, lugar o estado ausente durante la sesión, sin que el mediador lo invite. La referencia al pasado no es anecdótica: es el eje desde el que el sujeto orienta la narrativa del presente.
 
@@ -2222,7 +2128,6 @@ EP-2 desde la observación del contraste entre el tono al hablar del pasado y al
 
 Confundir la calidez del tono con el duelo activo del Eje V. Potós es la orientación crónica de la voluntad hacia lo ausente, no la elaboración activa de una pérdida. El sujeto en duelo activo (T-2, T-3) tiene más agitación y más presencia del dolor en el momento. El sujeto en Potós tiene orientación sostenida y relativamente serena hacia algo que sabe que no volverá.
 
-Entrevista Clínica Ontológica · ECO
 
 con la planitud cuando habla del presente.
 
@@ -2238,47 +2143,46 @@ El contraste de temperatura narrativa es la señal de observación más caracter
 
 El mediador que quiere verificar este contraste puede introducir una pregunta sobre el presente inmediatamente después de una pregunta sobre el pasado y observar el cambio en la calidad de la narrativa. Si la narrativa sobre el presente tiene la misma temperatura que la narrativa sobre el pasado, el contraste no está presente y la señal de Potós se debilita. Si la narrativa sobre el presente es notablemente más plana o más distante, el contraste está presente y la señal de Potós se fortalece.
 
-Entrevista Clínica Ontológica · ECO
 
 ### VI.  Árbol de decisión interno del módulo
 
 El árbol del Módulo Potós tiene más nodos de verificación de exclusión que los módulos anteriores porque la legibilidad baja del Hijo requiere que cada señal sea discriminada antes de incorporarse a la codificación. El árbol no produce H-3 sin pasar por al menos dos preguntas discriminantes de la sección §7.
 
-> **NODO P·0 — ¿Se cumple la condición de SKIP completo?**
->
-> SÍ (sin señal en apertura + sin objeto ante pregunta ancla) → H-1 · EP-0 · P(Potós) = 0 → Continuar a Módulo Eros. NO → Administrar pregunta ancla. ↓
+**NODO P·0 — ¿Se cumple la condición de SKIP completo?**
 
-> **NODO P·1 — ¿La pregunta ancla produjo objeto ausente identificable?**
->
-> NO (el sujeto no puede identificar ningún objeto ausente) → Administrar Sondeo P·1. Si tampoco hay señal → H-1 · EP-0 o EP-8 mínimo residual. SÍ → Observar la temperatura narrativa: ¿contrasta con la temperatura de la narrativa del presente? ↓
+SÍ (sin señal en apertura + sin objeto ante pregunta ancla) → H-1 · EP-0 · P(Potós) = 0 → Continuar a Módulo Eros. NO → Administrar pregunta ancla. ↓
 
-> **NODO P·2 — ¿Hay contraste de temperatura entre la narrativa sobre lo ausente y la narrativa sobre el presente?**
->
-> NO (temperatura homogénea en ambas) → Señal de Potós se debilita. Administrar Sondeo P·3 y P·4 antes de bajar a H-2. SÍ (calidez o detalle mayor sobre lo ausente) → Registrar señal. Administrar sondeos P·2 a P·5. ↓
+**NODO P·1 — ¿La pregunta ancla produjo objeto ausente identificable?**
 
-> **NODO P·3 — Sondeo P·3: ¿el sujeto puede identificar equivalentes genuinos al objeto ausente?**
->
-> SÍ (puede nombrar algo diferente con valor comparable) → Señal orienta hacia pérdida en integración (Eje V, T-5 o T-6). Administrar pregunta discriminante P/Harmonía de §7. Bajar peso tentativo de P(Potós). NO (no puede identificar equivalentes genuinos) → Señal de Potós fortalecida. Continuar con Sondeo P·4. ↓
+NO (el sujeto no puede identificar ningún objeto ausente) → Administrar Sondeo P·1. Si tampoco hay señal → H-1 · EP-0 o EP-8 mínimo residual. SÍ → Observar la temperatura narrativa: ¿contrasta con la temperatura de la narrativa del presente? ↓
 
-> **NODO P·4 — Sondeo P·4: ¿la proyección futura del sujeto está estructuralmente orientada hacia la restauración del pasado?**
->
-> NO (el futuro deseado no requiere restaurar el pasado) → Señal de Potós se debilita. Puede coexistir con Eros. Bajar peso tentativo. SÍ → ¿La orientación al pasado podría ser Deimos con el pasado como refugio? ↓
+**NODO P·2 — ¿Hay contraste de temperatura entre la narrativa sobre lo ausente y la narrativa sobre el presente?**
 
-> **NODO P·5 — Verificación: ¿la orientación al pasado depende de la dificultad del presente?**
->
-> SÍ (si el presente mejorara, el pasado perdería su atractivo) → Potós posible, pero Deimos como alternativa. Administrar pregunta discriminante P/Deimos de §7 obligatoriamente. NO (el objeto ausente importa por sí mismo, independientemente del presente) → Señal de Potós más sólida. ↓
+NO (temperatura homogénea en ambas) → Señal de Potós se debilita. Administrar Sondeo P·3 y P·4 antes de bajar a H-2. SÍ (calidez o detalle mayor sobre lo ausente) → Registrar señal. Administrar sondeos P·2 a P·5. ↓
 
-> **NODO P·6 — Verificación: ¿la orientación al pasado podría ser Fobos usando el pasado como escudo?**
->
-> SÍ (hay señal de amenaza en el presente que activa la referencia al pasado) → Administrar pregunta discriminante P/Fobos de §7. NO → Evaluar si el patrón es sostenido en múltiples contextos. ↓
+**NODO P·3 — Sondeo P·3: ¿el sujeto puede identificar equivalentes genuinos al objeto ausente?**
 
-> **NODO P·7 — ¿El patrón de orientación al ausente es sostenido en múltiples contextos y períodos?**
->
-> NO (aparece solo en el período analizado o en un contexto específico) → H-2 máximo · EP-4 o EP-5 · Nota de hipótesis. SÍ → ¿Hay señal de observación directa en sesión que corrobore la narrativa? ↓
+SÍ (puede nombrar algo diferente con valor comparable) → Señal orienta hacia pérdida en integración (Eje V, T-5 o T-6). Administrar pregunta discriminante P/Harmonía de §7. Bajar peso tentativo de P(Potós). NO (no puede identificar equivalentes genuinos) → Señal de Potós fortalecida. Continuar con Sondeo P·4. ↓
 
-> **NODO P·8 — ¿Hay señal de observación directa en sesión (contraste de temperatura, retorno espontáneo al ausente)?**
->
-> NO → H-2 · EP-3 desde narrativa coherente. Nota de hipótesis. SÍ → H-3 · EP-2 (no puede alcanzar EP-1 en la mayoría de los casos). Registrar señal observacional. ↓
+**NODO P·4 — Sondeo P·4: ¿la proyección futura del sujeto está estructuralmente orientada hacia la restauración del pasado?**
+
+NO (el futuro deseado no requiere restaurar el pasado) → Señal de Potós se debilita. Puede coexistir con Eros. Bajar peso tentativo. SÍ → ¿La orientación al pasado podría ser Deimos con el pasado como refugio? ↓
+
+**NODO P·5 — Verificación: ¿la orientación al pasado depende de la dificultad del presente?**
+
+SÍ (si el presente mejorara, el pasado perdería su atractivo) → Potós posible, pero Deimos como alternativa. Administrar pregunta discriminante P/Deimos de §7 obligatoriamente. NO (el objeto ausente importa por sí mismo, independientemente del presente) → Señal de Potós más sólida. ↓
+
+**NODO P·6 — Verificación: ¿la orientación al pasado podría ser Fobos usando el pasado como escudo?**
+
+SÍ (hay señal de amenaza en el presente que activa la referencia al pasado) → Administrar pregunta discriminante P/Fobos de §7. NO → Evaluar si el patrón es sostenido en múltiples contextos. ↓
+
+**NODO P·7 — ¿El patrón de orientación al ausente es sostenido en múltiples contextos y períodos?**
+
+NO (aparece solo en el período analizado o en un contexto específico) → H-2 máximo · EP-4 o EP-5 · Nota de hipótesis. SÍ → ¿Hay señal de observación directa en sesión que corrobore la narrativa? ↓
+
+**NODO P·8 — ¿Hay señal de observación directa en sesión (contraste de temperatura, retorno espontáneo al ausente)?**
+
+NO → H-2 · EP-3 desde narrativa coherente. Nota de hipótesis. SÍ → H-3 · EP-2 (no puede alcanzar EP-1 en la mayoría de los casos). Registrar señal observacional. ↓
 
 SALIDA — Codificación + Nivel EP + P(Potós) tentativo → Continuar a Módulo Eros
 
@@ -2292,7 +2196,6 @@ Par de confusión
 
 Pregunta discriminante
 
-### Entrevista Clínica Ontológica · ECO
 
 Potós vs. Deimos (el pasado como refugio ante la parálisis del presente)
 
@@ -2318,7 +2221,6 @@ Potós: el sujeto describe orientación crónica y relativamente serena hacia lo
 
 Duelo activo (T-2, T-3): el sujeto describe proceso activo con agitación emocional identificable. Hay momentos de
 
-### Entrevista Clínica Ontológica · ECO
 
 es más una orientación crónica hacia algo que sabes que ya no va a volver?»
 
@@ -2342,7 +2244,6 @@ Potós vs. Harmonía (integración de la pérdida vs. orientación al ausente)
 
 Potós: lo que ya no está ocupa el lugar que le correspondería a algo del presente. La voluntad no puede crear ese espacio para lo nuevo porque la orientación al ausente lo ocupa. No es duelo sin resolver (eso sería T-2 o T-3); es posición estructural de la voluntad.
 
-Entrevista Clínica Ontológica · ECO
 
 La discriminación más importante — Potós vs. Deimos
 
@@ -2350,18 +2251,16 @@ La discriminación Potós / Deimos es la que con mayor frecuencia el mediador no
 
 La pregunta que resuelve esta discriminación con mayor frecuencia es la de la condición contrafáctica: «¿si el presente fuera perfecto y no hubiera ninguna dificultad ni incertidumbre, todavía extrañarías lo que describes?». El sujeto en Potós puede responder que sí: lo que falta faltaría independientemente de cómo fuera el presente. El sujeto en Deimos duda o responde que no: si el presente fuera seguro y claro, el pasado no tendría el valor que tiene ahora.
 
-> La pregunta contrafáctica — la más discriminante del módulo «Si el presente fuera perfecto — sin dificultades, sin incertidumbre, sin presiones — ¿todavía extrañarías lo que describes? ¿El objeto ausente importaría de la misma manera?» Potós: sí, independientemente de cómo fuera el presente. Deimos: no con la misma intensidad, o duda genuina que revela que el pasado funciona como refugio del presente difícil.
+La pregunta contrafáctica — la más discriminante del módulo «Si el presente fuera perfecto — sin dificultades, sin incertidumbre, sin presiones — ¿todavía extrañarías lo que describes? ¿El objeto ausente importaría de la misma manera?» Potós: sí, independientemente de cómo fuera el presente. Deimos: no con la misma intensidad, o duda genuina que revela que el pasado funciona como refugio del presente difícil.
 
 La discriminación Potós / Fobos — segunda en importancia
 
 La discriminación Potós / Fobos requiere identificar si la referencia al pasado tiene objeto de amenaza activo en el presente o no. En Potós, el pasado se evoca porque algo de él sigue importando. En Fobos usando el pasado como escudo, el pasado se evoca porque algo en el presente amenaza lo que quedó de ese pasado — la referencia al pasado es defensiva, no nostálgica. La señal más clara de Fobos disfrazado de Potós: la intensidad de la referencia al pasado aumenta cuando el presente produce señal de amenaza. En Potós genuino, la orientación al ausente es relativamente estable e independiente de las variaciones del presente.
 
-### Entrevista Clínica Ontológica · ECO
 
 ### VIII.  Criterios de codificación
 
 <!-- TABLA: codificación | columnas: código, nombre, ancla conductual, nivel EP, ejemplo -->
-
 
 
 Nivel EP mín.
@@ -2400,7 +2299,6 @@ EP-0. «No me quedo mucho en el pasado. Lo que fue, fue; ahora
 
 H-1 Ausente El módulo completo no produjo señal de orientación sostenida
 
-### Entrevista Clínica Ontológica · ECO
 
 estoy enfocado en lo que sigue.» [El sujeto no produce ninguna señal de orientación al ausente durante el módulo completo.]
 
@@ -2418,7 +2316,6 @@ Sin EP asignable.
 
 La codificación H-3 de Potós no puede alcanzar EP-1 en la mayoría de los casos porque EP-1 requiere que el patrón del Hijo se reproduzca directamente en la conducta relacional del sujeto durante la sesión. En Fobos, la urgencia reactiva se reproduce cuando el mediador introduce algo que el sujeto percibe como amenaza. En Deimos, la parálisis se reproduce cuando el mediador pregunta por preferencias en el momento presente. En Anteros, el desacuerdo no destructivo se reproduce cuando el mediador introduce una perspectiva diferente. En Potós, el objeto ausente no está en la sesión — no puede reproducirse porque lo que define a Potós es que el objeto ya no existe. Lo que el mediador puede observar directamente es el contraste de temperatura narrativa, que produce EP-2 como máximo para este módulo en la mayoría de los casos.
 
-Entrevista Clínica Ontológica · ECO
 
 La excepción: si el mediador puede reproducir en sesión algo que evoca directamente el objeto ausente — una imagen, una narrativa del objeto, una pregunta que activa la orientación — y el sujeto muestra una reacción conductual observable (cambio de tono, cambio de postura, presencia emocional visible), esa reacción puede calificarse como EP-1. Pero la condición es que el mediador haya producido algo que evocara el ausente específico, no que haya hecho preguntas generales sobre el pasado.
 
@@ -2430,7 +2327,6 @@ Potós puede coexistir con cualquier otro Hijo en la misma distribución. La coe
 
 Una restricción específica para la distribución P(Hijos) cuando Potós es dominante: cuando Potós supera 0.50 con EP-2, la distribución debe incluir la nota de hipótesis que establece la Tabla EP para niveles EP-3 a EP-6. Potós dominante con EP-2 no es H-3 con la misma solidez que Fobos o Anteros con H-3 y EP-1: es H-3 con mayor rango de incertidumbre. El mediador registra esa incertidumbre explícitamente en la hoja de síntesis.
 
-Entrevista Clínica Ontológica · ECO
 
 ### X.  Aplicación al ego colectivo
 
@@ -2440,64 +2336,64 @@ La firma de Potós en el ego colectivo
 
 Las señales de Potós colectivo son: referencias sistemáticas al período fundacional o al líder originario en las narrativas institucionales cotidianas — no como historia sino como norma; evaluación de iniciativas nuevas desde su similitud con lo que se hacía antes; dificultad para cerrar proyectos o relaciones institucionales que corresponden a etapas superadas; narrativa institucional orientada hacia la recuperación de algo perdido más que hacia la construcción de algo nuevo. El contraste de temperatura que el mediador observa en el individuo se observa en el colectivo como contraste entre el entusiasmo al hablar del pasado y la planitud al hablar del futuro.
 
-> Pregunta ancla — Ego colectivo (Potós) «¿Hay un período, un líder o una manera de hacer las cosas que la organización siente que ya no existe pero que sigue siendo el referente desde el que se evalúa lo que está bien o mal en el presente?» [El mediador busca la señal del objeto ausente del colectivo. Lo que observa: si distintos miembros, entrevistados independientemente, identifican el mismo objeto ausente como referente — la misma figura, el mismo período, la misma cultura. La convergencia sin coordinación de múltiples narrativas sobre el mismo objeto ausente produce EP-2 para el ego colectivo.]
->
-> La distinción Potós colectivo / Deimos colectivo
->
->
-> La distinción más importante en la aplicación colectiva del Módulo Potós es la que diferencia la organización que no puede avanzar porque el pasado fue mejor (Potós colectivo) de la que no puede avanzar porque el presente tiene opciones equivalentes (Deimos colectivo). La pregunta discriminante para el ego colectivo: ¿puede la organización imaginar un futuro que no sea la restauración del pasado fundacional? Si puede imaginarlo, pero no puede decidir hacia qué futuro ir, el estado colectivo orienta hacia Deimos. Si no puede imaginarlo porque cualquier futuro que no restaure el pasado le parece de menor valor, el estado colectivo orienta hacia Potós.
->
-> El Mediador en Memoria Comunitaria y Potós colectivo
->
-> Para el Mediador en Memoria Comunitaria, el Módulo Potós es central porque el trabajo de rescate cultural opera precisamente en la tensión entre Potós colectivo y la posibilidad de un futuro que preserve lo que fue sin quedar atrapado en él. La comunidad en Potós colectivo no puede hacer rescate cultural genuino: puede hacer conservación museística, pero no puede producir una transmisión viva de lo que preserva porque la orientación de la voluntad colectiva es hacia la recuperación del pasado, no hacia la creación de algo nuevo que lo incorpore. El trabajo del mediador en Memoria Comunitaria con Potós colectivo consiste en crear las condiciones para que la orientación al ausente pueda dialogar con la posibilidad de un futuro diferente — no negar lo que fue, sino hacer lugar para lo que puede ser.
->
-> ### XI.  Principios de intervención para este hallazgo
->
-> Lo que el mediador no hace
->
-> El error de intervención más frecuente con Potós es usar el nombre del Hijo con el sujeto durante la sesión. «Lo que describes suena a nostalgia», «parece que estás viviendo en el pasado», «eso es Potós» — todas esas intervenciones activan en el sujeto la imagen que cree que debe tener de sí mismo frente a ese diagnóstico. El sujeto puede resistirlo («no, yo no vivo en el pasado»), puede sobre-adoptarlo («tienes razón, soy muy nostálgico»), o puede intentar producir lo
->
->
-> que cree que el instrumento espera. En cualquiera de los tres casos, la señal diagnóstica se contamina.
->
-> El segundo error es redirigir prematuramente la atención del sujeto hacia el presente: «¿y qué hay en tu presente que puedas valorar?», «¿qué posibilidades tienes ahora que no tenías antes?». Esta intervención silencia la señal más importante del módulo —la orientación al ausente— antes de que haya sido evaluada con la profundidad que requiere. Potós necesita espacio para expresarse; redirigirlo prematuramente no lo resuelve: lo enmascara.
->
-> El tercer error es confundir Potós con un problema que el sujeto debe superar. La orientación al ausente no es necesariamente un estado a corregir: puede ser una posición de la voluntad que requiere acompañamiento, pero la naturaleza de ese acompañamiento no es la redirección hacia el presente. El trabajo de Histos con Potós es específico y no puede anticiparse desde ECO.
->
-> Lo que el mediador sí hace
->
-> El mediador deja que la orientación al ausente se exprese sin redirección. El espacio que Potós necesita en sesión es el espacio para que el objeto ausente sea narrado con la calidad que tiene para el sujeto — sin que el mediador lo interrumpa, lo relativice o lo redirija hacia el presente. El mediador que puede sostener ese espacio sin incomodidad tiene el campo calibrado para Potós. El que no puede sostenerlo —porque la nostalgia del sujeto activa la propia nostalgia del mediador, o porque la orientación al pasado le produce urgencia de redirigir— compromete la calidad de la señal del módulo.
->
-> Cuando la señal discriminante entre Potós y sus pares de confusión no puede resolverse en la sesión, el mediador declara H-2 con nota de hipótesis y no fuerza la codificación H-3. La incertidumbre declarada es información más útil para Histos que una localización aparentemente sólida pero no fundada.
->
-> Cuándo derivar a Histos
->
->
-> Potós como Hijo dominante con H-2 o H-3 y con discriminación completada orienta la derivación a Histos con la condición de que el Bloque II esté completo. La localización del Eje V es especialmente relevante para el trabajo de Histos con Potós: si el objeto ausente de Potós está asociado a una pérdida irrecuperable documentada en el Eje V, el acompañamiento necesita integrar ambas dimensiones. Si el Eje V no produce señal de pérdida estructural, el trabajo de Histos opera desde la posición de v_t de Potós sin el marco de la pérdida irrecuperable formal.
->
-> > Condición de derivación a Histos desde Potós Potós H-2 o H-3 con discriminación Potós/Deimos y Potós/Fobos completada + Bloque II completo con especial atención al Eje V. La nota de hipótesis de Potós se mantiene en la hoja de síntesis que recibe Histos: el instrumento de acompañamiento no debe iniciar con una localización de Potós más sólida de lo que ECO puede garantizar.
-> >
-> >
+Pregunta ancla — Ego colectivo (Potós) «¿Hay un período, un líder o una manera de hacer las cosas que la organización siente que ya no existe pero que sigue siendo el referente desde el que se evalúa lo que está bien o mal en el presente?» [El mediador busca la señal del objeto ausente del colectivo. Lo que observa: si distintos miembros, entrevistados independientemente, identifican el mismo objeto ausente como referente — la misma figura, el mismo período, la misma cultura. La convergencia sin coordinación de múltiples narrativas sobre el mismo objeto ausente produce EP-2 para el ego colectivo.]
+
+La distinción Potós colectivo / Deimos colectivo
+
+
+La distinción más importante en la aplicación colectiva del Módulo Potós es la que diferencia la organización que no puede avanzar porque el pasado fue mejor (Potós colectivo) de la que no puede avanzar porque el presente tiene opciones equivalentes (Deimos colectivo). La pregunta discriminante para el ego colectivo: ¿puede la organización imaginar un futuro que no sea la restauración del pasado fundacional? Si puede imaginarlo, pero no puede decidir hacia qué futuro ir, el estado colectivo orienta hacia Deimos. Si no puede imaginarlo porque cualquier futuro que no restaure el pasado le parece de menor valor, el estado colectivo orienta hacia Potós.
+
+El Mediador en Memoria Comunitaria y Potós colectivo
+
+Para el Mediador en Memoria Comunitaria, el Módulo Potós es central porque el trabajo de rescate cultural opera precisamente en la tensión entre Potós colectivo y la posibilidad de un futuro que preserve lo que fue sin quedar atrapado en él. La comunidad en Potós colectivo no puede hacer rescate cultural genuino: puede hacer conservación museística, pero no puede producir una transmisión viva de lo que preserva porque la orientación de la voluntad colectiva es hacia la recuperación del pasado, no hacia la creación de algo nuevo que lo incorpore. El trabajo del mediador en Memoria Comunitaria con Potós colectivo consiste en crear las condiciones para que la orientación al ausente pueda dialogar con la posibilidad de un futuro diferente — no negar lo que fue, sino hacer lugar para lo que puede ser.
+
+### XI.  Principios de intervención para este hallazgo
+
+Lo que el mediador no hace
+
+El error de intervención más frecuente con Potós es usar el nombre del Hijo con el sujeto durante la sesión. «Lo que describes suena a nostalgia», «parece que estás viviendo en el pasado», «eso es Potós» — todas esas intervenciones activan en el sujeto la imagen que cree que debe tener de sí mismo frente a ese diagnóstico. El sujeto puede resistirlo («no, yo no vivo en el pasado»), puede sobre-adoptarlo («tienes razón, soy muy nostálgico»), o puede intentar producir lo
+
+
+que cree que el instrumento espera. En cualquiera de los tres casos, la señal diagnóstica se contamina.
+
+El segundo error es redirigir prematuramente la atención del sujeto hacia el presente: «¿y qué hay en tu presente que puedas valorar?», «¿qué posibilidades tienes ahora que no tenías antes?». Esta intervención silencia la señal más importante del módulo —la orientación al ausente— antes de que haya sido evaluada con la profundidad que requiere. Potós necesita espacio para expresarse; redirigirlo prematuramente no lo resuelve: lo enmascara.
+
+El tercer error es confundir Potós con un problema que el sujeto debe superar. La orientación al ausente no es necesariamente un estado a corregir: puede ser una posición de la voluntad que requiere acompañamiento, pero la naturaleza de ese acompañamiento no es la redirección hacia el presente. El trabajo de Histos con Potós es específico y no puede anticiparse desde ECO.
+
+Lo que el mediador sí hace
+
+El mediador deja que la orientación al ausente se exprese sin redirección. El espacio que Potós necesita en sesión es el espacio para que el objeto ausente sea narrado con la calidad que tiene para el sujeto — sin que el mediador lo interrumpa, lo relativice o lo redirija hacia el presente. El mediador que puede sostener ese espacio sin incomodidad tiene el campo calibrado para Potós. El que no puede sostenerlo —porque la nostalgia del sujeto activa la propia nostalgia del mediador, o porque la orientación al pasado le produce urgencia de redirigir— compromete la calidad de la señal del módulo.
+
+Cuando la señal discriminante entre Potós y sus pares de confusión no puede resolverse en la sesión, el mediador declara H-2 con nota de hipótesis y no fuerza la codificación H-3. La incertidumbre declarada es información más útil para Histos que una localización aparentemente sólida pero no fundada.
+
+Cuándo derivar a Histos
+
+
+Potós como Hijo dominante con H-2 o H-3 y con discriminación completada orienta la derivación a Histos con la condición de que el Bloque II esté completo. La localización del Eje V es especialmente relevante para el trabajo de Histos con Potós: si el objeto ausente de Potós está asociado a una pérdida irrecuperable documentada en el Eje V, el acompañamiento necesita integrar ambas dimensiones. Si el Eje V no produce señal de pérdida estructural, el trabajo de Histos opera desde la posición de v_t de Potós sin el marco de la pérdida irrecuperable formal.
+
+Condición de derivación a Histos desde Potós Potós H-2 o H-3 con discriminación Potós/Deimos y Potós/Fobos completada + Bloque II completo con especial atención al Eje V. La nota de hipótesis de Potós se mantiene en la hoja de síntesis que recibe Histos: el instrumento de acompañamiento no debe iniciar con una localización de Potós más sólida de lo que ECO puede garantizar.
+
 
 Cuándo el caso supera ECO
->
-> Potós puede revelar situaciones que superan el alcance de ECO cuando la orientación al ausente está asociada a pérdidas que requieren acompañamiento clínico en sentido estricto: duelos no resueltos con intensidad clínica, estados depresivos que se enmascaran como nostalgia, o situaciones de duelo patológico que requieren evaluación psicológica o psiquiátrica. La señal de alerta: el contraste entre la calidez cuando habla del ausente y la planitud cuando habla del presente es tan extremo que la planitud del presente tiene la textura de D-2 (anestesia ontológica), no de Potós. En ese caso el mediador no codifica H-3 para Potós y deriva a evaluación clínica antes de continuar con el instrumento.
->
-> Notas al Módulo B·I·P
->
-> 1 La descripción de Potós como posición de v_t orientada hacia lo ausente tiene una consecuencia para el análisis causal de Prometeo que los módulos de Fobos, Deimos y Anteros no tienen con la misma intensidad: Potós orienta los actos hacia la recuperación del objeto ausente. El peso de c sobre v_t puede ser significativo; por ello, el acto se lee en relación con la historia del sujeto respecto de aquello que ya no está.
->
-> 2 La restricción EP-1 para Potós que se desarrolla en §8 tiene una excepción que el texto principal menciona brevemente y que merece desarrollo: cuando el mediador puede producir en sesión una evocación directa del objeto ausente —mencionando el nombre de la persona, describiendo el período, mostrando algo que lo representa— y el sujeto produce una reacción conductual observable, esa reacción puede calificarse como EP-1 para Potós. Esta técnica requiere precaución: el mediador debe asegurarse de que la evocación sea honesta (no fabricada para producir señal) y de que la reacción del sujeto no sea simplemente cortesía social ante el gesto del mediador. La evocación directa como técnica de verificación EP-1 para Potós es una operación avanzada que solo debe usarse cuando el mediador tiene experiencia suficiente con el módulo.
->
-> 3 La coexistencia Potós/Deimos que se desarrolla en §9 es la distribución más frecuente cuando Potós tiene peso significativo en la distribución P(Hijos). La razón es ontológica: la misma configuración que produce Deimos (la imposibilidad de elegir entre opciones equivalentes en el presente) produce con frecuencia la orientación al pasado como referente (Potós), porque el pasado es el único campo donde las opciones ya estaban resueltas. Los dos Hijos se refuerzan mutuamente en muchos casos y deben leerse como parte de la misma configuración de la voluntad, no como estados independientes.
->
-> 4 La instrucción al Mediador en Memoria Comunitaria sobre el trabajo con Potós colectivo que se desarrolla en §10 tiene una implicación para la práctica del rescate cultural que merece señalarse: la comunidad que está en Potós colectivo profundo no puede participar genuinamente en el rescate de su propia cultura si el proceso de rescate se diseña desde afuera como recuperación del pasado. Ese diseño refuerza Potós sin crear condiciones para que la comunidad pueda imaginar un futuro propio. El trabajo del mediador es crear las condiciones para que la comunidad pueda honrar lo que fue y, desde ese honor, construir algo nuevo. Eso requiere que Potós colectivo pueda dialogar con Eros colectivo —la apertura a lo nuevo— sin que ninguno de los dos anule al otro.
 
-### B·I·E ·  MÓDULO EROS
+Potós puede revelar situaciones que superan el alcance de ECO cuando la orientación al ausente está asociada a pérdidas que requieren acompañamiento clínico en sentido estricto: duelos no resueltos con intensidad clínica, estados depresivos que se enmascaran como nostalgia, o situaciones de duelo patológico que requieren evaluación psicológica o psiquiátrica. La señal de alerta: el contraste entre la calidez cuando habla del ausente y la planitud cuando habla del presente es tan extremo que la planitud del presente tiene la textura de D-2 (anestesia ontológica), no de Potós. En ese caso el mediador no codifica H-3 para Potós y deriva a evaluación clínica antes de continuar con el instrumento.
 
-### La voluntad que se abre hacia la alteridad
+---
 
-Localización del Hijo de la apertura al umbral · Legibilidad baja
+## Notas al Módulo B·I·P
+
+1 La descripción de Potós como posición de v_t orientada hacia lo ausente tiene una consecuencia para el análisis causal de Prometeo que los módulos de Fobos, Deimos y Anteros no tienen con la misma intensidad: Potós orienta los actos hacia la recuperación del objeto ausente. El peso de c sobre v_t puede ser significativo; por ello, el acto se lee en relación con la historia del sujeto respecto de aquello que ya no está.
+
+2 La restricción EP-1 para Potós que se desarrolla en §8 tiene una excepción que el texto principal menciona brevemente y que merece desarrollo: cuando el mediador puede producir en sesión una evocación directa del objeto ausente —mencionando el nombre de la persona, describiendo el período, mostrando algo que lo representa— y el sujeto produce una reacción conductual observable, esa reacción puede calificarse como EP-1 para Potós. Esta técnica requiere precaución: el mediador debe asegurarse de que la evocación sea honesta (no fabricada para producir señal) y de que la reacción del sujeto no sea simplemente cortesía social ante el gesto del mediador. La evocación directa como técnica de verificación EP-1 para Potós es una operación avanzada que solo debe usarse cuando el mediador tiene experiencia suficiente con el módulo.
+
+3 La coexistencia Potós/Deimos que se desarrolla en §9 es la distribución más frecuente cuando Potós tiene peso significativo en la distribución P(Hijos). La razón es ontológica: la misma configuración que produce Deimos (la imposibilidad de elegir entre opciones equivalentes en el presente) produce con frecuencia la orientación al pasado como referente (Potós), porque el pasado es el único campo donde las opciones ya estaban resueltas. Los dos Hijos se refuerzan mutuamente en muchos casos y deben leerse como parte de la misma configuración de la voluntad, no como estados independientes.
+
+4 La instrucción al Mediador en Memoria Comunitaria sobre el trabajo con Potós colectivo que se desarrolla en §10 tiene una implicación para la práctica del rescate cultural que merece señalarse: la comunidad que está en Potós colectivo profundo no puede participar genuinamente en el rescate de su propia cultura si el proceso de rescate se diseña desde afuera como recuperación del pasado. Ese diseño refuerza Potós sin crear condiciones para que la comunidad pueda imaginar un futuro propio. El trabajo del mediador es crear las condiciones para que la comunidad pueda honrar lo que fue y, desde ese honor, construir algo nuevo. Eso requiere que Potós colectivo pueda dialogar con Eros colectivo —la apertura a lo nuevo— sin que ninguno de los dos anule al otro.
+
+# B·I·E ·  MÓDULO EROS La voluntad que se abre hacia la alteridad
+
+
+## Localización del Hijo de la apertura al umbral · Legibilidad baja
 
 ### I.  Fundamento ontológico del Hijo
 
@@ -2505,7 +2401,6 @@ Eros es la posición de la voluntad que se abre hacia la alteridad: el primer s�
 
 La distinción ontológica que define a Eros es la que lo separa del colapso de la voluntad ante lo nuevo. Eros no es la voluntad que se disuelve en lo que encuentra: es la voluntad que puede ser genuinamente afectada por lo nuevo sin perder la capacidad de seguir siendo. La diferencia entre Eros y la obediencia al campo (E-4) está exactamente aquí: E-4 recibe lo que el campo produce porque no tiene eje desde donde resistirlo. Eros recibe lo que el campo produce porque elige estar abierto a ello —y puede dejar de estar abierto si lo que llega requiere que el eje propio se afirme (en cuyo caso puede activar Anteros). La apertura de Eros tiene autonomía; la obediencia de E-4 no.
 
-Entrevista Clínica Ontológica · ECO
 
 En términos de la doble mediación: Eros describe la posición de v_t en φ₁ desde la cual φ₁ orienta la voluntad hacia lo que llega antes de que haya evaluación. No es que φ₂ esté ausente — en Eros φ₂ está disponible y puede intervenir si lo que llega requiere una respuesta deliberada. Es que φ₁ produce apertura antes de que φ₂ evalúe: el primer movimiento de la voluntad en Eros es receptivo, no evaluativo. La evaluación puede venir después; la apertura viene primero.
 
@@ -2517,7 +2412,6 @@ El instrumento establece que la señal más genuina de Eros en ECO es la que el 
 
 Esa señal tiene una consecuencia metodológica importante: el mediador puede verificar Eros directamente en sesión sin depender de la narrativa del sujeto sobre períodos anteriores. Donde Potós requiere narrativa sobre lo que ya fue y tiene dificultad para producir EP-1 porque el objeto ausente no está en la sesión, Eros puede producir EP-1 directamente porque el umbral de la apertura está en la sesión misma — el mediador introduce algo nuevo con cada pregunta.
 
-Entrevista Clínica Ontológica · ECO
 
 Por qué Eros es el quinto módulo del Bloque I y tiene legibilidad baja
 
@@ -2533,7 +2427,6 @@ Criterios de entrada directa
 
 El Módulo Eros puede iniciarse directamente cuando se cumple alguna de las siguientes condiciones. La primera: la apertura narrativa produjo señal de apertura genuina ante lo nuevo — el sujeto describió iniciativas que no podía justificar con criterios previos,
 
-Entrevista Clínica Ontológica · ECO
 
 respondió con curiosidad visible ante preguntas que no anticipaba, o describió encuentros con algo nuevo que lo afectaron en una dirección no prevista. La segunda: los módulos anteriores mostraron que el sujeto tiene un eje propio activo (Anteros con EP-2 o superior) y el mediador necesita verificar si hay también Eros como Hijo coexistente. La tercera: el árbol documental ya produjo señales de Eros desde el expediente — propuestas no solicitadas, apertura documentada a cambios de dirección que el campo no demandaba — y el mediador necesita verificar desde presencia.
 
@@ -2547,7 +2440,6 @@ La pregunta ancla del Módulo Eros está diseñada para acceder a la apertura ha
 
 Pregunta ancla E — Formulación estándar
 
-Entrevista Clínica Ontológica · ECO
 
 > «¿Puedes recordar un momento en el período que estamos analizando en que algo completamente inesperado — una persona, una idea, una situación — te abrió a algo que no buscabas? No algo que buscabas y encontraste: algo que no buscabas y que llegó.» [El mediador formula la pregunta y espera. La distinción «no algo que buscabas» es la que separa Eros de la curiosidad instrumental: la apertura de Eros es ante lo que llega sin ser buscado, ante lo que interrumpe la dirección prevista. Si el sujeto dice que no recuerda ningún momento así, el mediador espera 15 segundos y pasa al Sondeo E·1. Si el sujeto produce inmediatamente un episodio de apertura, el mediador observa cómo lo narra: ¿hay textura de descubrimiento? ¿Hay algo en la narrativa que el sujeto parece redescubrir mientras lo cuenta? ¿O la narrativa es fluida y articulada de una manera que sugiere que el sujeto ya sabe lo que va a decir?]
 
@@ -2596,7 +2488,6 @@ Las preguntas de sondeo del Módulo Eros tienen una característica específica:
 
 Las señales de observación directa del Módulo Eros son, de todos los módulos del Bloque I, las que más directamente puede producir el instrumento mismo. ECO, como instrumento de entrevista, introduce algo nuevo con cada pregunta que formula. Si el sujeto está en Eros, esa novedad puede activar señales directamente observables en sesión. El mediador que administra este módulo con conciencia de que es él mismo quien puede activar EP-1 tiene el instrumento completamente disponible.
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- TABLA: señales observables | columnas: señal observable, nivel EP, error de lectura -->
 
@@ -2648,7 +2539,6 @@ El mediador que quiere verificar esta señal puede, en el momento en que el suje
 
 El árbol del Módulo Eros tiene una particularidad que lo distingue de los módulos anteriores: el nodo más diagnóstico del árbol está en el medio de la sesión, no al principio. El Sondeo E·6 —¿hay algo nuevo que la sesión misma produjo en ti? — puede resolver la codificación del módulo sin que sea necesario completar todos los sondeos anteriores. El árbol incorpora esta posibilidad como un nodo de cortocircuito que no omite la verificación de exclusión.
 
-Entrevista Clínica Ontológica · ECO
 
 > **NODO E·0 — ¿Se aplica el acortamiento del módulo?**
 >
@@ -2678,7 +2568,6 @@ Entrevista Clínica Ontológica · ECO
 >
 > NO (episodio único o circunstancial) → H-2 máximo · EP-4 o EP-5 · Nota de hipótesis. SÍ → ¿Hay señal de observación directa en sesión? ↓
 >
-> ### Entrevista Clínica Ontológica · ECO
 
 > **NODO E·7 — ¿La señal EP-1 de apertura se produjo directamente en sesión?**
 >
@@ -2712,7 +2601,6 @@ El sujeto puede describir momentos de detención genuina: algo llegó y el sujet
 
 El sujeto describe apertura continua sin detención: de una cosa a otra, siempre en
 
-### Entrevista Clínica Ontológica · ECO
 
 apertura fue de una cosa a otra sin que ninguna te retuviera?»
 
@@ -2736,7 +2624,6 @@ Eros: lo primero fue recibirlo — el sujeto se abrió antes de evaluar. La aper
 
 Anteros: lo primero fue evaluar desde el eje propio — el sujeto recibió lo nuevo desde el criterio que ya tenía y lo afirmó, lo rechazó o lo integró desde esa posición. La evaluación precede a la recepción. El eje propio es el primer operador, no la apertura.
 
-Entrevista Clínica Ontológica · ECO
 
 Curiosidad instrumental: el sujeto se interesó en lo nuevo para confirmar, elaborar o profundizar algo que ya buscaba. Lo nuevo fue útil para lo que ya estaba en movimiento, pero no produjo ninguna dirección nueva no anticipada. No hay sorpresa: hay uso eficiente del material nuevo.
 
@@ -2752,7 +2639,6 @@ La discriminación Eros / E-4 es la que con mayor frecuencia el mediador no pued
 
 La pregunta que más frecuentemente resuelve esta discriminación es la de la iniciativa contrafáctica: «¿esa apertura habría ocurrido si el entorno no hubiera estado presente?». En Eros, puede responder que sí o que algo similar habría ocurrido de otra manera — hay algo en el sujeto que orienta hacia lo nuevo. En E-4, la apertura depende completamente del campo: sin el campo que la producía, no habría ocurrido. El sujeto en E-4 no puede imaginar esa apertura sin el entorno que la activó porque no tiene iniciativa propia en esa dimensión.
 
-### Entrevista Clínica Ontológica · ECO
 
 ### La discriminación Eros vs. evasión activa — segunda en importancia
 
@@ -2765,7 +2651,6 @@ La pregunta de la retención — la más discriminante para Eros vs. evasión «
 Nivel EP mín. Ejemplo de respuesta
 
 <!-- TABLA: codificación | columnas: código, nombre, ancla conductual, nivel EP, ejemplo -->
-
 
 
 H-3 Presente El sujeto muestra apertura genuina ante lo que el mediador introduce en sesión — perspectivas distintas, preguntas que no anticipaba— de manera sostenida y replicable en varios momentos. La apertura tiene dos
@@ -2788,7 +2673,6 @@ manera sostenida. EP-
 
 señal de
 
-### Entrevista Clínica Ontológica · ECO
 
 con textura de descubrimiento visible.]
 
@@ -2818,7 +2702,6 @@ El módulo no pudo evaluarse: el sujeto no produjo material relevante para Eros,
 
 Sin EP asignable.
 
-Entrevista Clínica Ontológica · ECO
 
 determinar si esa actividad correspondía a apertura genuina (Eros), a buscar aprobación del mediador (E-4), o a evadir los temas que los sondeos anteriores produjeron (evasión activa).]
 
@@ -2834,7 +2717,6 @@ La condición para EP-1 en Eros es estricta: no es suficiente con que el sujeto 
 
 Eros puede coexistir con cualquier Hijo en la misma distribución. La coexistencia más frecuente y más diagnósticamente interesante es Eros con Anteros: el sujeto que tiene tanto apertura hacia la alteridad (Eros) como afirmación desde el eje propio (Anteros) tiene la
 
-Entrevista Clínica Ontológica · ECO
 
 configuración más favorable del Bloque I para el acompañamiento. Los dos Hijos no son contradictorios: Eros abre, Anteros afirma. En la misma configuración de la voluntad, el sujeto puede recibir lo nuevo con apertura genuina y, desde lo que ese encuentro produce, afirmar algo propio en la dimensión arética.
 
@@ -2848,7 +2730,6 @@ La organización en Eros colectivo es la que puede recibir diferencia genuina de
 
 Por qué Eros colectivo es raro y frágil
 
-Entrevista Clínica Ontológica · ECO
 
 Eros colectivo requiere una condición que pocos colectivos sostienen: un ego soberano en E-1 con la capacidad de ceder la segunda mediación sin perder el eje. El ego soberano que cede la segunda mediación colectiva hacia la apertura de Eros necesita tener su propio eje suficientemente sólido para que la apertura del colectivo no lo disuelva. Un ego soberano en E-4 no puede producir Eros colectivo genuino porque no tiene eje propio desde donde orientar la apertura: lo que produce es obediencia colectiva al campo que pide innovación. Y un ego soberano en Anteros sin Eros produce colectivos con criterio propio sólido pero que no pueden ser genuinamente afectados por lo nuevo — pueden escucharlo, evaluarlo, aceptarlo o rechazarlo, pero no pueden ser sorprendidos por ello.
 
@@ -2860,7 +2741,6 @@ La distinción Eros colectivo / innovación prescripta
 
 La distinción más importante en la aplicación colectiva del Módulo Eros es la que diferencia la organización que innova porque algo genuinamente nuevo llegó y la afectó (Eros colectivo) de la
 
-Entrevista Clínica Ontológica · ECO
 
 organización que innova porque el campo lo prescribe (E-4 colectivo disfrazado de innovación). La señal que distingue los dos: en Eros colectivo, la innovación produce algo que el colectivo no anticipaba y que lo afecta en una dirección que no habría tomado sin ese encuentro. En E-4 colectivo con innovación prescripta, el resultado de la «innovación» siempre confirma lo que el campo esperaba — el colectivo innova en la dirección que el entorno demanda, no en la dirección que el encuentro con lo nuevo produce desde adentro.
 
@@ -2874,7 +2754,6 @@ El segundo error es confundir Eros con apertura ilimitada y concluir que el suje
 
 El tercer error es usar la apertura del sujeto en sesión para concluir que Eros es dominante sin verificar si esa apertura corresponde a Eros o a E-4. El sujeto que produce apertura ante el mediador puede estar genuinamente en Eros — o puede estar respondiendo a la autoridad del mediador con la obediencia de E-4. La verificación de
 
-Entrevista Clínica Ontológica · ECO
 
 exclusión es obligatoria antes de codificar cualquier señal de apertura en sesión como EP-1 de Eros.
 
@@ -2897,13 +2776,14 @@ Cuándo el caso supera ECO
 
 Eros raramente produce situaciones que superen el alcance de ECO. La excepción más significativa es cuando la apertura de Eros está asociada a conductas que el sujeto mismo describe como fuera de su control — apertura compulsiva hacia lo nuevo que no puede moderar, aunque lo intente, que produce consecuencias en sus relaciones o en su funcionamiento ordinario. En ese caso la señal puede estar orientando hacia algo que requiere evaluación clínica antes de continuar con el instrumento. La instrucción: si la apertura que el sujeto describe tiene consecuencias problemáticas que el sujeto no puede regular, derivar a evaluación clínica antes de completar el Bloque I.
 
-Notas al Módulo B·I·E
+---
+
+## Notas al Módulo B·I·E
 
 1 La descripción de Eros como la posición de v_t desde la cual la voluntad puede ser afectada por la alteridad antes de evaluarla tiene una consecuencia directa para el análisis de responsabilidad del Método Prometeo: un sujeto en Eros tiene S relativamente bajo porque la orientación de su voluntad tiene alta idiosincrasia — lo que llega desde la alteridad modifica φ₁ de manera que el acto resultante no es fácilmente predecible desde el campo. El encuentro con algo nuevo que produce Eros genuino es por definición un evento que ningún modelo de campo puede predecir con exactitud. Esa impredictibilidad reduce S.
 
 2 La instrucción de que el mediador necesita estar «genuinamente presente» para que Eros pueda producirse en sesión tiene implicaciones para la formación de mediadores que van más allá del Módulo Eros. El mediador que administra ECO como protocolo —ejecutando preguntas sin estar genuinamente presente como sujeto— no puede producir las condiciones para que Eros se manifieste. Pero tampoco puede producir las condiciones para que Anteros se manifieste genuinamente (porque no hay diferencia que pueda recibirse) ni para que Deimos se lea con precisión (porque no hay campo relacional que pueda producir la señal de parálisis). La presencia genuina del mediador no es solo un
 
-Entrevista Clínica Ontológica · ECO
 
 requisito de Eros: es un requisito de todo el instrumento que Eros hace visible de manera especialmente clara.
 
@@ -2911,14 +2791,11 @@ requisito de Eros: es un requisito de todo el instrumento que Eros hace visible 
 
 4 La distinción Eros / curiosidad instrumental que aparece en §4 (Sondeo E·1) y en la tabla discriminante de §7 tiene consecuencias para el uso del módulo en el contexto del Mediador Educativo. La curiosidad que los sistemas educativos valoran y fomentan es mayoritariamente curiosidad instrumental: el estudiante curioso es el que busca entender mejor lo que ya está aprendiendo, no el que se abre a direcciones no previstas por el programa. Eros en el contexto educativo es más raro que la curiosidad instrumental y más difícil de valorar institucionalmente — pero es también el estado que produce los aprendizajes más genuinos y menos predecibles. El mediador educativo que puede distinguir los dos tiene una herramienta diagnóstica para identificar qué tipo de apertura está presente en el sujeto y qué tipo de acompañamiento corresponde a cada una.
 
-Entrevista Clínica Ontológica · ECO
+
+# B·I·H  ·  MÓDULO HARMONÍA · D-2 La integración y la anestesia — dos estados
 
 
-### B·I·H  ·  MÓDULO HARMONÍA · D-2
-
-### La integración y la anestesia — dos estados
-
-que el expediente no puede separar La función exclusiva e irrenunciable de ECO · Nunca se salta
+## que el expediente no puede separar La función exclusiva e irrenunciable de ECO · Nunca se salta
 
 ### I.  Fundamento ontológico del módulo
 
@@ -2926,7 +2803,6 @@ Este módulo localiza dos estados que en el sistema ontológico son radicalmente
 
 Harmonía no es la ausencia de tensión: es la posición desde la cual la tensión que las dos dimensiones de la pasión producen entre sí ha sido integrada en la segunda mediación. El sujeto en Harmonía puede habitar el conflicto interno — el conflicto entre lo que quiere dominar (dimensión afrodítica) y lo que quiere afirmar (dimensión arética) — con suficiente φ₂ disponible para que ese conflicto produzca integración y no parálisis. Harmonía no es el estado del
 
-Entrevista Clínica Ontológica · ECO
 
 sujeto que no tiene conflicto: es el estado del sujeto que puede habitar el conflicto sin ser destruido por él. Esa distinción es fundamental: el mediador que entiende Harmonía como ausencia de conflicto va a confundirlo con D-2 sistemáticamente.
 
@@ -2940,7 +2816,6 @@ Ningún instrumento documental puede discriminar Harmonía de D-2. La misma firm
 
 Las cinco preguntas discriminantes H·D1 a H·D5 acceden cada una a una dimensión distinta de esa presencia interna. Ninguna por sí sola es suficiente: D-2 puede producir señales que parecen presencia en cualquier dimensión aislada. La discriminación requiere que las cinco dimensiones sean exploradas y que la pauta de señales sea coherente a través de las cinco. Un sujeto en Harmonía produce
 
-Entrevista Clínica Ontológica · ECO
 
 señal genuina en al menos tres de las cinco dimensiones. Un sujeto en D-2 produce señales semánticamente correctas en las cinco, pero sin la textura de presencia interna que diferencia la respuesta genuina de la respuesta apropiada.
 
@@ -2958,7 +2833,6 @@ El Módulo H va siempre en último lugar del Bloque I. No puede iniciarse antes 
 
 Si en la apertura narrativa o en los módulos anteriores ya aparecieron señales de D-2 — narrativa desde afuera, planitud tonal coherente con la anestesia ontológica, ausencia sostenida de preferencia
 
-Entrevista Clínica Ontológica · ECO
 
 genuina — el módulo H puede iniciarse con esa hipótesis ya activa y las cinco preguntas H·D sirven como verificación. No como confirmación: como verificación. D-2 puede producir señales que parecen presencia en dimensiones aisladas.
 
@@ -2985,9 +2859,8 @@ Variante — Mediador Educativo «¿Ha habido períodos en tu trabajo como docen
 
 Las cinco preguntas H·D son el núcleo del módulo. Cada una accede a una dimensión distinta de la presencia interna del sujeto. Cada una tiene su propia formulación, sus instrucciones de administración, sus criterios de lectura, y una tabla de discriminación específica que establece qué respuesta orienta hacia Harmonía y qué respuesta orienta hacia D-2 en esa dimensión particular. El mediador administra las cinco en orden. No puede saltarse ninguna. No puede
 
-### Entrevista Clínica Ontológica · ECO
 
-### reordenarlas. La coherencia entre las cinco es la señal más diagnóstica del módulo.
+reordenarlas. La coherencia entre las cinco es la señal más diagnóstica del módulo.
 
 Instrucción general para las cinco preguntas H·D: el mediador no interpreta entre preguntas. No le dice al sujeto lo que observa. No reformula a partir de lo que el sujeto produjo en la pregunta anterior. Las cinco preguntas H·D son preguntas independientes que acceden a dimensiones distintas del mismo estado. La interpretación ocurre al final, cuando el mediador tiene las cinco respuestas y puede leer la pauta de señales.
 
@@ -3011,7 +2884,6 @@ Instrucción general para las cinco preguntas H·D: el mediador no interpreta en
 >
 > Criterio EP: H-3(H) si la presencia en la narración es sostenida. EP-1 si es observable directamente. EP-2 si el sujeto la describe como característica de cómo vivió el período.
 >
-> ### Entrevista Clínica Ontológica · ECO
 
 > ### H·D2  ·  Preferencia genuina en el momento presente
 >
@@ -3037,7 +2909,6 @@ Instrucción general para las cinco preguntas H·D: el mediador no interpreta en
 >
 > «Quiero decirte algo que quizás no coincide con lo que me has dicho.» [Introducir honestamente una perspectiva diferente de la que el sujeto ha sostenido durante la sesión.] «¿Qué pasa en ti cuando escuchas eso?»
 >
-> ### Entrevista Clínica Ontológica · ECO
 >
 > [El mediador introduce genuinamente una perspectiva diferente — no fabricada para provocar, sino una perspectiva propia del mediador que difiere de lo que el sujeto ha dicho. Lo que el mediador observa: si el sujeto puede habitar la tensión que la diferencia produce. No si está de acuerdo o en desacuerdo: si puede estar con la tensión sin resolverla inmediatamente. El mediador también observa si hay algo en el sujeto que trabaja con lo que llegó — si la diferencia produce proceso.]
 >
@@ -3069,7 +2940,6 @@ Instrucción general para las cinco preguntas H·D: el mediador no interpreta en
 >
 > interna
 >
-> ### Entrevista Clínica Ontológica · ECO
 >
 > Puede identificar algo que costó o que se procesó, aunque sea pequeño y sin elaboración: «hubo un período en que las cosas no eran así y algo cambió», «sí, costó llegar a esto», «tuve que dejar ir algo para poder estar de esta manera». El proceso no tiene que ser completo ni consciente: tiene que ser identificable. El sujeto puede tener acceso a al menos un fragmento de lo que ocurrió para llegar donde está.
 >
@@ -3095,7 +2965,6 @@ Instrucción general para las cinco preguntas H·D: el mediador no interpreta en
 >
 > Puede describir los eventos difíciles con precisión factual, pero sin temperatura interna. Las dificultades son eventos que ocurrieron, no experiencias que costaron desde adentro. Al preguntar por lo que sintió, el sujeto describe lo que pensó o lo que hizo — no lo que sintió. O
 >
-> ### Entrevista Clínica Ontológica · ECO
 >
 > objetivamente difícil, sino algo que el sujeto sintió como difícil desde adentro. Al narrarlo, hay algo de esa temperatura interna presente.
 >
@@ -3123,7 +2992,6 @@ Instrucción general para las cinco preguntas H·D: el mediador no interpreta en
 >
 > Harmonía vs D-2 avanzado: D-2 produce respuestas fluidas y articuladas que no tienen textura de construcción — el sujeto sabe lo que va a decir. La perplejidad
 >
-> ### Entrevista Clínica Ontológica · ECO
 >
 > o descubre algo mientras lo narra. La narrativa tiene textura de construcción en tiempo real.
 >
@@ -3200,7 +3068,6 @@ SALIDA — H-3(H) · H-3(D2) · H-2 · imposibilidad para evaluar + Nivel EP + P
 
 ### VII.  Preguntas discriminantes adicionales
 
-Entrevista Clínica Ontológica · ECO
 
 Las cinco preguntas H·D son las preguntas discriminantes centrales del módulo. Esta sección provee preguntas adicionales para los casos en que la pauta de señales es ambigua — dos o tres H·D con señal positiva y dos o tres sin señal — y el mediador necesita preguntas adicionales para desempatar antes de producir H-2.
 
@@ -3212,7 +3079,6 @@ Discriminación adicional H·DC — La posibilidad de sentir diferente «¿Puede
 
 ### La pauta de señales H·D — criterio de interpretación global
 
-### Entrevista Clínica Ontológica · ECO
 
 El mediador no interpreta cada H·D de manera aislada. Lee la pauta: si las señales positivas y negativas se distribuyen de manera aleatoria (positiva en D1, negativa en D2, positiva en D3, negativa en D4, positiva en D5), la pauta no permite concluir ni Harmonía ni D-2 — es H-2 aunque haya tres positivas. Si las señales forman un patrón coherente (todas positivas o todas negativas, o las positivas están en las preguntas más difíciles de fabricar), la pauta permite concluir. Armonía genuina produce señales en H·D2 y H·D3 — las más difíciles de producir desde D-2.
 
@@ -3221,7 +3087,6 @@ El mediador no interpreta cada H·D de manera aislada. Lee la pauta: si las señ
 Nivel EP mín. Ejemplo de respuesta
 
 <!-- TABLA: codificación | columnas: código, nombre, ancla conductual, nivel EP, ejemplo -->
-
 
 
 «Cuando me preguntas qué quiero ahora mismo, me sorprende lo que respondo: quiero seguir en esta conversación, aunque no sé a dónde va. No era lo que esperaba que dijera.» [El sujeto muestra preferencia genuina con textura de descubrimiento.]
@@ -3250,7 +3115,6 @@ EP-4 a EP-5.
 
 Nota de incertidumbre alta obligatoria.
 
-### Entrevista Clínica Ontológica · ECO
 
 variación pero no puede ubicarse con consistencia en ninguno de los dos estados.]
 
@@ -3282,7 +3146,6 @@ obligatorio.
 
 ### La condición específica de H-3(H) — la más estricta del Bloque I
 
-Entrevista Clínica Ontológica · ECO
 
 H-3(H) requiere: al menos tres de las cinco preguntas H·D produjeron señal positiva para Harmonía, las señales forman patrón coherente (no distribución aleatoria), al menos una señal es EP-1 o EP-2 (sin EP-1 o EP-2 el código máximo es H-2 aunque haya cinco señales positivas), y la discriminación H·D2 (preferencia en el momento presente) produjo señal positiva — porque es la pregunta más difícil de producir sin presencia interna genuina. La condición de H·D2 es cuasi-obligatoria para H-3(H): si H·D2 no produce señal positiva, el mediador debe administrar la pregunta adicional H·DC antes de producir H-3(H).
 
@@ -3314,7 +3177,6 @@ Los acuerdos tienen historia de deliberación visible: se puede rastrear cómo s
 
 Los acuerdos no tienen historia de deliberación: simplemente existen. Nadie recuerda cómo se llegó a ellos o describe el proceso como
 
-### Entrevista Clínica Ontológica · ECO
 
 La estabilidad tiene origen en proceso.
 
@@ -3379,26 +3241,26 @@ Cuándo el caso supera ECO
 >
 > La señal de alerta más importante: el sujeto que ante H·D5 describe que en el período más difícil de su historia no experimentó prácticamente nada — que eventos que deberían haber producido señal intensa simplemente ocurrieron sin que el sujeto los registrara como difíciles — puede estar describiendo D-2 en una profundidad que requiere evaluación clínica antes de continuar. El mediador registra esa señal y evalúa si la derivación clínica es necesaria antes de completar el Bloque II.
 >
-> Notas al Módulo B·I·H
->
-> 1 La distinción entre Harmonía y D-2 que este módulo realiza tiene su fundamento más profundo en la diferencia entre integración (el ego genuino que ha procesado las tensiones entre las dos dimensiones de la pasión desde φ₂ con distancia) y anestesia (el ego que ya no puede registrar las tensiones porque el instrumento de registro se apagó). En términos del sistema: en Harmonía, I(t) —la integral de colapsos asumidos— creció porque φ₂ operó sobre los colapsos que las tensiones produjeron. En D-2, I(t) no creció en esa dimensión porque φ₂ no tuvo acceso a los colapsos que debería haber integrado. La firma exterior es la misma; la historia de I(t) es completamente diferente.
->
-> 2 La condición de H·D2 como cuasi-obligatoria para H-3(H) que se establece en §8 tiene su justificación en la fenomenología de D-2: la preferencia genuina en el momento presente es la más difícil de fabricar desde D-2 porque requiere que el ego genuino esté operando en tiempo real, aquí, en la sesión. D-2 puede producir narrativas históricas coherentes, puede narrar procesos que ocurrieron antes, puede describir emociones que recuerda haber tenido. Lo que D-2 no puede producir con facilidad es una preferencia genuina en el momento
->
->
-> presente de la sesión porque esa preferencia requiere que el ego genuino esté produciendo algo ahora. Eso es lo que H·D2 busca.
->
-> 3 El módulo H tiene la duración mínima más alta de todos los módulos del Bloque I (20 minutos) y es también el módulo que con mayor frecuencia se abrevia inadecuadamente. La causa es una presión institucional del instrumento mismo: los cinco módulos anteriores consumen tiempo, y el módulo H viene al final cuando el tiempo de la sesión está más comprometido. El mediador que planifica la sesión debe reservar el tiempo del módulo H antes de reservar el tiempo de los demás módulos — porque el módulo H es el que no puede abreviarse y los demás sí tienen reglas SKIP que permiten reducir su duración cuando es necesario.
->
-> 4 La aplicación del módulo H al ego colectivo tiene una implicación que el texto principal no desarrolla completamente: la discriminación Harmonía colectiva / D-2 colectivo requiere acceso al ego soberano real, no solo a los miembros del colectivo. Los miembros pueden describir el estado del colectivo como estable y sin conflicto — y esa descripción es verdadera desde su perspectiva. Pero si el ego soberano está en D-2, la estabilidad que los miembros describen no es Harmonía colectiva: es la estabilidad que produce la ausencia de señal del ego que porta la segunda mediación colectiva. La discriminación requiere acceder a ese ego soberano y administrar las preguntas H·D con él como sujeto — no con el colectivo como abstracción.
->
+---
+
+## Notas al Módulo B·I·H
+
+1 La distinción entre Harmonía y D-2 que este módulo realiza tiene su fundamento más profundo en la diferencia entre integración (el ego genuino que ha procesado las tensiones entre las dos dimensiones de la pasión desde φ₂ con distancia) y anestesia (el ego que ya no puede registrar las tensiones porque el instrumento de registro se apagó). En términos del sistema: en Harmonía, I(t) —la integral de colapsos asumidos— creció porque φ₂ operó sobre los colapsos que las tensiones produjeron. En D-2, I(t) no creció en esa dimensión porque φ₂ no tuvo acceso a los colapsos que debería haber integrado. La firma exterior es la misma; la historia de I(t) es completamente diferente.
+
+2 La condición de H·D2 como cuasi-obligatoria para H-3(H) que se establece en §8 tiene su justificación en la fenomenología de D-2: la preferencia genuina en el momento presente es la más difícil de fabricar desde D-2 porque requiere que el ego genuino esté operando en tiempo real, aquí, en la sesión. D-2 puede producir narrativas históricas coherentes, puede narrar procesos que ocurrieron antes, puede describir emociones que recuerda haber tenido. Lo que D-2 no puede producir con facilidad es una preferencia genuina en el momento
 
 
-### B·II·I ·  MÓDULO EJE I — ESTADOS DEL
+presente de la sesión porque esa preferencia requiere que el ego genuino esté produciendo algo ahora. Eso es lo que H·D2 busca.
 
-### EGO
+3 El módulo H tiene la duración mínima más alta de todos los módulos del Bloque I (20 minutos) y es también el módulo que con mayor frecuencia se abrevia inadecuadamente. La causa es una presión institucional del instrumento mismo: los cinco módulos anteriores consumen tiempo, y el módulo H viene al final cuando el tiempo de la sesión está más comprometido. El mediador que planifica la sesión debe reservar el tiempo del módulo H antes de reservar el tiempo de los demás módulos — porque el módulo H es el que no puede abreviarse y los demás sí tienen reglas SKIP que permiten reducir su duración cuando es necesario.
 
-### La configuración fundamental de la voluntad
+4 La aplicación del módulo H al ego colectivo tiene una implicación que el texto principal no desarrolla completamente: la discriminación Harmonía colectiva / D-2 colectivo requiere acceso al ego soberano real, no solo a los miembros del colectivo. Los miembros pueden describir el estado del colectivo como estable y sin conflicto — y esa descripción es verdadera desde su perspectiva. Pero si el ego soberano está en D-2, la estabilidad que los miembros describen no es Harmonía colectiva: es la estabilidad que produce la ausencia de señal del ego que porta la segunda mediación colectiva. La discriminación requiere acceder a ese ego soberano y administrar las preguntas H·D con él como sujeto — no con el colectivo como abstracción.
+
+
+# B·II·I ·  MÓDULO EJE I — ESTADOS DEL EGO
+
+
+## La configuración fundamental de la voluntad
 
 Localización del estado del ego en los seis códigos del Eje I · Eje
 
@@ -3410,16 +3272,14 @@ El Eje I del SDO describe la configuración más fundamental del ego: desde dón
 
 Los seis estados del Eje I describen seis configuraciones de la relación entre φ₁, φ₂ y el eje desde donde opera la voluntad. E-1 es el estado en que φ₂ opera desde el eje genuinamente propio del sujeto. E-2 es el estado en que φ₁ produce actos desde el sesgo acumulado sin que φ₂ intervenga como operador activo. E-3 es el estado en que hay un querer genuino, pero φ₂ está bloqueada. E-4 es el estado en que φ₂ opera desde el eje de un Otro internalizado. E-5 es el estado en que φ₂ opera con tal intensidad desde el eje propio que el campo ya no puede producir diferencia. E-6 es el estado límite en que la
 
-### Entrevista Clínica Ontológica · ECO
 
-### integral del ego se multiplica por cero — la voluntad opera, pero sin efecto diferencial en el campo relacional.
+integral del ego se multiplica por cero — la voluntad opera, pero sin efecto diferencial en el campo relacional.
 
 Este módulo es el primero del Bloque II porque el estado del Eje I modula la lectura de todo lo demás. Un sujeto en E-3 con Deimos como Hijo dominante tiene una configuración diferente de un sujeto en E-1 con Deimos — en el primero, el bloqueo de φ₂ explica la parálisis de Deimos; en el segundo, la parálisis viene de la simetría de opciones de v_t sin que haya bloqueo del operador. El Eje I no puede evaluarse después de los demás ejes: debe evaluarse primero para que la lectura de los demás ejes sea correcta.
 
 El Eje I no describe qué quiere el sujeto ni cómo lo quiere: describe desde dónde quiere. Esa pregunta — ¿desde dónde opera la voluntad? — es la pregunta más básica que el SDO hace y la que el Bloque I de ECO prepara. Sin ella, la distribución P(Hijos) del Bloque I puede ser diagnósticamente precisa y clínicamente incorrecta.
 
 <!-- TABLA: códigos E-1 a E-6 | columnas: código, nombre, definición técnica, firma en presencia, señal EP y criterio -->
-
 
 
 E-1 Ego genuino
@@ -3438,7 +3298,6 @@ El sujeto actúa desde la acumulación de sus condicionamientos sin que haya ope
 
 No puede distinguir entre sus actos genuinos y los que produjeron los condicionamientos. La suma de lo que le ocurrió actúa en su nombre sin que haya quien la reclame.
 
-### Entrevista Clínica Ontológica · ECO
 
 E-3 Afasia volitiva
 
@@ -3470,7 +3329,6 @@ EP-2 desde narrativa de nulidad del
 
 El sujeto actúa, pero sus actos no producen
 
-Entrevista Clínica Ontológica · ECO
 
 efecto. EP-1 si el sujeto en sesión no puede producir ninguna diferencia en el campo relacional — el mediador no puede registrar ningún impacto del sujeto sobre la dinámica de la sesión.
 
@@ -3486,7 +3344,6 @@ La orientación que el Bloque I produce sobre el Eje I: si el módulo Anteros pr
 
 El Eje I como modulador transversal — consecuencia para el instrumento El código del Eje I no solo describe el estado actual del ego: modifica el peso de las señales de todos los módulos anteriores y posteriores. Un Anteros H-3 EP-1 en un sujeto localizado en E-1 tiene un peso clínico diferente de un Anteros H-3 EP-1 en un sujeto localizado en E-4 — en el segundo caso, lo que el módulo A localizó puede no ser
 
-Entrevista Clínica Ontológica · ECO
 
 Anteros genuino sino el eje ajeno que produce afirmaciones similares. El Eje I, cuando produce código E-4, obliga al mediador a revisar retrospectivamente las señales del Bloque I.
 
@@ -3500,7 +3357,6 @@ La pregunta ancla del Módulo Eje I no busca identificar directamente el estado 
 
 Las preguntas de sondeo del Módulo Eje I tienen como objetivo adicional orientar las hipótesis hacia el estado específico del ego antes de las preguntas discriminantes. El mediador no busca confirmar una hipótesis con los sondeos: busca producir material que las preguntas discriminantes puedan leer con mayor precisión.
 
-Entrevista Clínica Ontológica · ECO
 
 > Sondeo EI·1 — La asunción «¿Puedes reconocer esas decisiones como tuyas —en el sentido de que las reclamarías, de que si alguien te preguntara por ellas dirías «sí, yo decidí eso»?» [Pregunta fundamental de asunción. Lo que el mediador observa: si el sujeto puede reclamar sus actos como propios sin que eso requiera elaboración defensiva. E-1: puede hacerlo con naturalidad. E-2: tiene dificultad para distinguir los suyos de los que «simplemente ocurrieron». E-3: puede reclamarlos, pero con la nota de que algo lo impidió actuar como quería. E-4: puede reclamarlos, pero si se profundiza emerge que el criterio de «mío» viene de la expectativa del Otro.]
 >
@@ -3510,7 +3366,6 @@ Entrevista Clínica Ontológica · ECO
 >
 > Sondeo EI·4 — El efecto en el campo «¿Tienes la sensación de que tus decisiones y acciones en ese período produjeron diferencias en el campo — que las cosas cambiaron porque tú actuaste?» [Pregunta discriminante entre E-5 (el campo no puede registrar diferencia adicional porque el ego ya es el campo) y E-6 (el ego opera, pero sin efecto diferencial). Lo que el
 >
-> ### Entrevista Clínica Ontológica · ECO
 >
 > mediador observa: si el sujeto puede identificar efectos propios en el campo. E-5: puede identificarlos, pero los describe como si el campo hubiera seguido su orientación. E-6: no puede identificar ningún efecto diferencial de sus propios actos. E-1 o E-4: puede describir efectos en el campo con criterio de atribución claro.]
 >
@@ -3540,7 +3395,6 @@ No puede distinguir entre lo que quería
 
 Confundir con E-4: en E-2 no hay criterio
 
-### Entrevista Clínica Ontológica · ECO
 
 no pueda predecir desde los condicionamientos que el sujeto ya describió. La narrativa del sujeto sigue siempre la misma estructura.
 
@@ -3574,7 +3428,6 @@ Confundir con D-2: D-2 no registra la brecha. E-6 puede registrarla, pero no pue
 
 ### La señal más diagnóstica — la relación con el mediador como espejo del Eje I
 
-Entrevista Clínica Ontológica · ECO
 
 La señal más diagnóstica del Módulo Eje I no viene de las respuestas del sujeto a las preguntas de sondeo: viene de cómo el sujeto se relaciona con el mediador como presencia. El sujeto en E-1 puede desacordar, puede mantener su posición, puede recibir perspectivas diferentes con procesamiento genuino. El sujeto en E-4 adopta la perspectiva del mediador como autoridad sin proceso visible o la rechaza defensivamente si la percibe como amenaza al Otro internalizado. El sujeto en E-3 puede producir preferencias, pero no puede actuar desde ellas en la dinámica de la sesión. El sujeto en E-2 reproduce en la sesión los mismos condicionamientos que describe en la narrativa. El mediador que lee su propia relación con el sujeto como señal diagnóstica tiene EP-1 del Eje I disponible desde el principio de la sesión.
 
@@ -3786,7 +3639,6 @@ Las preguntas discriminantes del Módulo Eje I son el centro técnico del módul
 
 «Ese criterio que describes como tuyo — si la persona o el entorno del que vino dejara de existir o te dijera hoy que estás equivocado, ¿qué pasaría con tu criterio?» [La pregunta del colapso del Otro. Lo que el mediador observa: si el criterio sobrevive a la ausencia o negación del Otro que lo originó. Esta es la pregunta más diagnóstica del par E-1/E-4.]
 
-### Entrevista Clínica Ontológica · ECO
 
 E-1 · Ego genuino E-4 · Disfasia volitiva
 
@@ -3808,7 +3660,6 @@ E-2: simplemente ocurre. No hay operador evaluativo antes del acto — ni propio
 
 «Lo que te impide actuar como quieres — ¿es algo que viene de adentro (como si hubiera un muro interno que impide que lo que quieres se actualice) o es algo que viene de afuera (el entorno, las expectativas, lo que alguien importante pensaría)?»
 
-### Entrevista Clínica Ontológica · ECO
 
 [Pregunta sobre el origen del bloqueo o de la orientación. Lo que el mediador observa: si el sujeto puede localizar el bloqueo como interno (E-3) o como externo-internalizado (E-4).]
 
@@ -3830,7 +3681,6 @@ E-5: el campo no puede sorprender al ego. El sujeto describe que anticipa lo que
 
 ### D·EI·5 ·  E-3 vs. D-2 — bloqueo de φ₂ vs. ausencia de señal del ego
 
-Entrevista Clínica Ontológica · ECO
 
 «Cuando piensas en lo que querías hacer y no pudiste, ¿sientes que todavía hay algo en ti que quiere actuar de esa manera — que el querer sigue ahí, aunque no pueda salir? ¿O es que ya no recuerdas con claridad si realmente querías algo?» [La discriminación más delicada del módulo. En E-3, el querer está presente, aunque bloqueado. En D-2, el instrumento que producía el querer se ha apagado y el sujeto ya no puede acceder a él. La diferencia es si el querer sigue siendo accesible, aunque bloqueado.]
 
@@ -3846,7 +3696,6 @@ El Módulo Eje I produce un código único — uno de los seis estados del ego �
 
 Regla de codificación — punto vs. rango Cuando la discriminación entre dos estados es inequívoca con EP-1 o EP-2: código puntual. Ejemplo: «E-4 confirmado con EP-1». Cuando la discriminación no puede resolverse con certeza, pero la evidencia excluye algunos estados: rango declarado. Ejemplo: «E-1 o E-4, incertidumbre alta — la discriminación requiere verificación en sesión adicional o profundización en el Módulo Eje III». Cuando la evidencia es insuficiente para excluir ningún estado: código de imposibilidad para evaluar con nota de módulo no evaluado.
 
-Entrevista Clínica Ontológica · ECO
 
 Los niveles EP para el Eje I siguen la misma escala que el resto del instrumento. EP-1 requiere que el estado se reproduzca directamente en la relación del sujeto con el mediador durante la sesión. EP-2 requiere narrativa coherente en múltiples contextos con al menos una señal de observación que la corrobore. EP-3 requiere coherencia narrativa a través del tiempo sin señal de observación directa suficiente para EP-2.
 
@@ -3860,7 +3709,6 @@ Cuando el Eje I produce E-3, el mediador debe revisar la señal de Deimos del Bl
 
 El Eje I a escala colectiva describe el estado del ego soberano que porta la segunda mediación del colectivo. La localización del ego colectivo en E-1 a E-6 requiere primero identificar quién porta φ₂ del colectivo — la pregunta que el Bloque III establece — y luego
 
-### Entrevista Clínica Ontológica · ECO
 
 localizar a ese sujeto en el Eje I. El estado del ego soberano es el estado del ego del colectivo en primera instancia, con los ajustes que la dinámica del colectivo como sistema produce sobre esa localización.
 
@@ -3908,7 +3756,6 @@ La organización no puede recibir perspectiva externa genuina. Todo lo que llega
 
 «¿Ha habido en este período alguna perspectiva externa que realmente los haya
 
-### Entrevista Clínica Ontológica · ECO
 
 institucional ya no puede registrar diferencia que el colectivo no haya producido.
 
@@ -3936,7 +3783,6 @@ Cada código del Eje I orienta un tipo diferente de intervención en Histos. El 
 
 Con E-1 confirmado, el trabajo de Histos puede operar directamente desde el eje propio activo del sujeto. No hay que crear condiciones para que el ego genuino emerja — está presente. El trabajo puede
 
-Entrevista Clínica Ontológica · ECO
 
 enfocarse en las configuraciones de v_t que los Hijos del Bloque I describen, en la elaboración de las pérdidas del Eje V, o en la actualización del ego genuino en las dimensiones donde los demás ejes muestran dificultad. Lo que no se hace: trabajar la restitución del eje propio cuando el eje propio ya está activo.
 
@@ -3954,7 +3800,6 @@ Con E-4, el trabajo de Histos necesita crear las condiciones para que el eje aje
 
 E-5 — Saturación expresiva
 
-Entrevista Clínica Ontológica · ECO
 
 Con E-5, el trabajo de Histos necesita crear diferencia genuina en el campo del sujeto — un encuentro con algo que el ego genuino no pueda anticipar, absorber ni controlar. Sin esa diferencia, el acompañamiento no produce nada nuevo: el ego denso convierte todo lo que llega en confirmación de lo que ya existe. El mediador en Histos que trabaja con E-5 necesita tener Anteros propio suficientemente sólido para producir diferencia genuina que no sea absorbida.
 
@@ -3962,7 +3807,9 @@ E-6 — Aego
 
 Con E-6, el trabajo de Histos requiere evaluación cuidadosa antes de iniciar. E-6 es el límite del sistema: si el efecto diferencial de la voluntad sobre el campo es nulo, el acompañamiento tampoco puede producir efecto diferencial sin antes crear las condiciones para que eso sea posible. Derivar a evaluación clínica en todos los casos de E-6 confirmado con EP-1 antes de iniciar Histos. E-6 con EP-2 o inferior: evaluar con el sujeto si las condiciones de campo pueden modificarse antes de iniciar el proceso.
 
-Notas al Módulo B·II·I
+---
+
+## Notas al Módulo B·II·I
 
 1 La función de modulador transversal del Eje I que establece el fundamento del módulo tiene implicaciones para el orden de administración del Bloque II que el instrumento establece como fijo: el Eje I siempre va primero. Pero tiene también implicaciones retroactivas sobre el Bloque I que el instrumento no puede producir durante la administración — el mediador que encuentra E-4 en el Eje I necesita revisar las señales del Bloque I después de completar el Módulo Eje I, no durante su administración. La revisión retroactiva es parte del proceso de síntesis que ocurre después de las sesiones, no durante.
 
@@ -3970,20 +3817,16 @@ Notas al Módulo B·II·I
 
 3 El bloque discriminante D·EI·5 (E-3 vs. D-2) tiene la formulación de pregunta más técnica del módulo porque requiere que el sujeto pueda acceder
 
-Entrevista Clínica Ontológica · ECO
 
 a la diferencia entre un querer presente y bloqueado (E-3) y la ausencia del instrumento que producía el querer (D-2). El sujeto en D-2 puede no tener acceso a esa diferencia porque el instrumento que la registraría ya no opera. En esos casos, el mediador no puede producir la discriminación desde esta pregunta: depende de las señales de observación del módulo H y del Eje IV para completar la codificación.
 
 4 La tabla de colectivo del §10 establece preguntas de localización para el ego colectivo en cada estado del Eje I. Estas preguntas son preguntas al ego soberano, no al colectivo como abstracción. La respuesta del ego soberano a cada pregunta es el insumo de localización colectiva — no la respuesta de los miembros en general ni la respuesta de los documentos institucionales, aunque ambas fuentes pueden corroborar o cuestionar lo que el ego soberano produce.
 
-Entrevista Clínica Ontológica · ECO
+
+# B·II·II ·  MÓDULO EJE II — MASCARADA La forma que el ego toma en el mundo
 
 
-### B·II·II ·  MÓDULO EJE II — MASCARADA
-
-### La forma que el ego toma en el mundo
-
-Localización de los códigos M-1, M-2 y M-3 del Eje II
+## Localización de los códigos M-1, M-2 y M-3 del Eje II
 
 ### I.  Fundamento del módulo — la distinción constitutiva
 
@@ -3991,7 +3834,6 @@ El Eje II del SDO describe cómo el ego se presenta en el campo relacional: la f
 
 La distinción central del Eje II es la que separa modulación de impostura. Modulación (M-1) es la operación del ego que elige adaptar su código relacional al contexto: muestra una parte diferente de sí mismo según la situación, pero en cada situación hay alguien que elige qué parte mostrar. Impostura (M-2) es la operación inversa: el código relacional reemplaza al ego. Ya no hay alguien que elige; hay solo la parte que el contexto demanda operando en nombre del sujeto. La diferencia no es de grado —más o menos adaptación— sino de naturaleza: ¿hay operador detrás de la adaptación?
 
-Entrevista Clínica Ontológica · ECO
 
 El tercer código, M-3, no describe el estado de un individuo sino el estado de un campo: la mascarada institucional es la condición en que la impostura opera como norma colectiva invisible. Nadie la impone conscientemente; todos la reproducen porque es el código de pertenencia del campo. M-3 produce individuos en M-2 que no lo saben —porque la máscara es el agua en que nadan— y puede coexistir con individuos en M-1 que la reconocen como norma del campo, aunque no la reproduzcan.
 
@@ -4015,7 +3857,6 @@ El sujeto puede describir qué elige mostrar y qué no, y puede identificar el c
 
 M-
 
-### Entrevista Clínica Ontológica · ECO
 
 tiene posición sobre su propia adaptación. EP-2: narrativa coherente de la distinción entre adaptación elegida y eje sostenido.
 
@@ -4045,7 +3886,6 @@ M-
 
 El Módulo Eje II siempre se administra después del Módulo Eje I. La orientación del Eje I es el contexto más importante para el módulo: si el Eje I produjo E-1 confirmado con EP-1 y la apertura narrativa no mostró ninguna señal de adaptación contextual sin operador, el módulo puede acortarse a la pregunta ancla y el Sondeo
 
-Entrevista Clínica Ontológica · ECO
 
 MAS·1 antes de determinar si el módulo completo es necesario. Si hay señal en esa primera verificación, el módulo se completa.
 
@@ -4079,7 +3919,6 @@ Variantes por perfil
 
 > Sondeo MAS·5 — La norma del campo «¿Sientes que la manera en que te presentas en tu entorno principal — trabajo, familia, comunidad — es algo que elegiste, o es simplemente cómo las cosas se hacen ahí, la norma del campo?» [Pregunta discriminante para M-3. Lo que el mediador observa: si el sujeto puede distinguir entre su elección individual y la norma del campo, o si la norma del campo es el horizonte dentro del cual toda elección ocurre sin que pueda ser cuestionada. M-3: el sujeto no puede imaginar fácilmente presentarse de manera diferente en ese contexto sin perder pertenencia. M-1: el sujeto puede imaginar —aunque sea con incomodidad— una presentación diferente dentro del mismo campo.]
 >
-> ### Entrevista Clínica Ontológica · ECO
 
 > Sondeo MAS·6 — La presentación en esta sesión «En esta conversación conmigo, ¿estás mostrando la versión de ti que elegirías mostrar si pudieras elegir libremente, o hay algo que estás ajustando al contexto de la sesión?» [Esta pregunta puede producir EP-1 directamente. Lo que el mediador observa: si el sujeto puede producir una descripción de la elección que hace en la sesión misma. M-1: puede describir qué está eligiendo mostrar y qué no con alguna especificidad. M-2: no puede distinguir entre lo que muestra y lo que elegiría mostrar, o la distinción produce incomodidad visible. La honestidad de la respuesta también es información: el sujeto que puede decir «sí, estoy mostrando una versión cuidada» está mostrando capacidad de autobservación que orienta hacia M-1.]
 >
@@ -4088,7 +3927,6 @@ Variantes por perfil
 ### V.  Señales de observación directa
 
 <!-- TABLA: códigos M-1 a M-3 | columnas: código, definición, firma en presencia, señal EP y criterio -->
-
 
 
 Señal en narrativa Error de lectura frecuente
@@ -4105,7 +3943,6 @@ Describe adaptaciones automáticas a contextos distintos
 
 Confundir con M-1 flexible: tanto M-1 como M-2 producen adaptación contextual.
 
-### Entrevista Clínica Ontológica · ECO
 
 mostrar si pudiera elegir. O produce esa diferencia solo cuando el mediador la pregunta explícitamente, con incomodidad visible.
 
@@ -4125,9 +3962,8 @@ La señal más diagnóstica del Módulo Eje II es la que el campo relacional de 
 
 La variación sin hilo es la señal de M-2 más sutil: el sujeto que produce versiones muy distintas en momentos distintos de la sesión —sin que haya un hilo identificable que las atraviese— puede estar mostrando que no hay operador que elija qué versión mostrar, sino que cada contexto produce su versión automáticamente. El mediador que puede registrar esta variación sin hilo y distinguirla de
 
-Entrevista Clínica Ontológica · ECO
 
-### la variación con hilo de M-1 tiene la señal diagnóstica del módulo en el campo relacional más inmediato.
+la variación con hilo de M-1 tiene la señal diagnóstica del módulo en el campo relacional más inmediato.
 
 ### VI.  Árbol de decisión interno del módulo
 
@@ -4173,7 +4009,6 @@ M-1: puede identificar algo detrás de la adaptación con cierta especificidad. 
 
 ### «¿Esa manera de presentarte — la que produce el contexto — es algo que podrías cambiar si decidieras hacerlo,
 
-### Entrevista Clínica Ontológica · ECO
 
 aunque te costara, o es la norma del campo en que operas, la manera en que las cosas se hacen ahí?» [La pregunta sobre la agencia individual. Lo que el mediador observa: si el sujeto puede imaginar una alternativa a su presentación dentro del mismo campo, aunque sea con costo, o si la norma del campo es el horizonte dentro del cual toda presentación posible se define.]
 
@@ -4193,7 +4028,6 @@ E-1 (sin M-1): el sujeto describe consistencia de presentación más que consist
 
 M-1: el sujeto puede describir que hay alguien que elige — que no siempre muestra lo mismo, sino que elige qué parte mostrar según el contexto. La coherencia de M-1 no es uniformidad: es consistencia del operador que elige. El sujeto puede ser muy diferente en contextos distintos y estar en M-1.
 
-Entrevista Clínica Ontológica · ECO
 
 ### VIII.  Criterios de codificación
 
@@ -4209,7 +4043,6 @@ El código del Eje II modifica la lectura de los Hijos del Bloque I de una maner
 
 La mascarada institucional (M-3) es el estado más frecuente del ego colectivo en el paradigma. Las organizaciones como sistemas producen códigos de presentación que sus miembros aprenden a
 
-Entrevista Clínica Ontológica · ECO
 
 reproducir sin que nadie los haya diseñado conscientemente: el tono de las comunicaciones, la manera de presentar los problemas, el lenguaje que es posible usar en cada contexto, los temas que pueden nombrarse y los que no. Esa codificación invisible es M-3 cuando se ha vuelto tan totalizante que ningún miembro puede imaginar una presentación colectiva alternativa sin perder la pertenencia.
 
@@ -4243,25 +4076,27 @@ La cultura organizacional genuina produce coherencia de presentación desde un e
 >
 > > Condición de derivación a Histos desde M-2 M-2 confirmado con EP-1 + Eje IV evaluado (D-1 o D-2 identificado) + resto del Bloque II completo. La derivación incluye nota sobre si M-2 coexiste con D-1 (hay señal activa que trabajar) o con D-2 (la reactivación de la señal es el primer objetivo). Sin el código del Eje IV, la derivación desde M-2 no puede orientar correctamente el inicio del trabajo de Histos.
 > >
-> > Notas al Módulo B·II·II
-> >
-> > 1 La relación entre M-2 y la disforia de identidad que el Manual Clínico describe es directa: la disforia de identidad es el estado del sujeto que opera desde una suma fáctica que actúa como si fuera él. Esa suma fáctica que actúa en nombre del sujeto es exactamente lo que M-2 describe en el nivel de la presentación: el código que reemplazó al ego opera en el campo relacional en nombre del sujeto. La distinción entre disforia activa (D-1) y disforia pasiva (D-2) es la misma distinción que en el Eje II se aplica como M-2 con D-1 vs. M-2 con D-2.
-> >
-> > 2 La regla de no nombrar la impostura directamente al sujeto durante la sesión tiene una excepción importante: cuando el sujeto mismo la nombra. El sujeto que dice «sé que estoy usando una máscara» o «siento que no soy yo en ese contexto» está nombrando M-2 desde adentro — desde la señal de D-1 que todavía opera. En ese caso el mediador puede trabajar directamente con ese nombramiento, sin añadir ningún diagnóstico adicional: el sujeto ya tiene acceso a la señal y el mediador puede acompañar esa señal sin amplificarla ni suprimirla.
-> >
-> > 3 La distinción entre M-3 y cultura organizacional genuina que se desarrolla en §10 tiene implicaciones para el Mediador Modelador que analiza fenómenos
-> >
-> >
-> > culturales, políticos o históricos. Las instituciones que el Mediador Modelador analiza operan frecuentemente en M-3 sin que sus actores lo reconozcan — la norma invisible es precisamente lo que hace invisibles los actos que esa norma produce. El análisis ontológico que el Mediador Modelador realiza puede revelar M-3 donde el análisis convencional veía cultura o tradición. Esa revelación tiene consecuencias para la estimación de S de los actores que operan dentro del campo M-3: sus actos tienen mayor S porque el código del campo condiciona φ₁ de manera más intensa de lo que la narrativa institucional reconoce.
-> >
-> > 4 La coexistencia M-2/M-3 que el módulo establece como codificación posible tiene una implicación práctica para el análisis del ego colectivo: un sujeto puede estar en M-2 individual dentro de un campo en M-3, o puede estar en M-1 dentro de ese mismo campo. La presencia de M-3 en el colectivo no implica que todos los miembros estén en M-2: hay sujetos que pueden ver la norma desde afuera, aunque operen dentro de ella. Esos sujetos — los que están en M-1 dentro de un campo M-3 — son con frecuencia los portadores de la capacidad de cambio del colectivo, porque pueden imaginar alternativas que los sujetos en M-2 dentro de M-3 no pueden imaginar.
-> >
-> >
-> > BLOQUE II · Los cinco ejes del SDO
+---
 
-### B·II·III ·  MÓDULO EJE III — VÍNCULO
+## Notas al Módulo B·II·II
 
-La estructura del encuentro con el Otro Localización de los códigos V-1, V-2 y V-3 del Eje III · El campo
+1 La relación entre M-2 y la disforia de identidad que el Manual Clínico describe es directa: la disforia de identidad es el estado del sujeto que opera desde una suma fáctica que actúa como si fuera él. Esa suma fáctica que actúa en nombre del sujeto es exactamente lo que M-2 describe en el nivel de la presentación: el código que reemplazó al ego opera en el campo relacional en nombre del sujeto. La distinción entre disforia activa (D-1) y disforia pasiva (D-2) es la misma distinción que en el Eje II se aplica como M-2 con D-1 vs. M-2 con D-2.
+
+2 La regla de no nombrar la impostura directamente al sujeto durante la sesión tiene una excepción importante: cuando el sujeto mismo la nombra. El sujeto que dice «sé que estoy usando una máscara» o «siento que no soy yo en ese contexto» está nombrando M-2 desde adentro — desde la señal de D-1 que todavía opera. En ese caso el mediador puede trabajar directamente con ese nombramiento, sin añadir ningún diagnóstico adicional: el sujeto ya tiene acceso a la señal y el mediador puede acompañar esa señal sin amplificarla ni suprimirla.
+
+3 La distinción entre M-3 y cultura organizacional genuina que se desarrolla en §10 tiene implicaciones para el Mediador Modelador que analiza fenómenos
+
+
+culturales, políticos o históricos. Las instituciones que el Mediador Modelador analiza operan frecuentemente en M-3 sin que sus actores lo reconozcan — la norma invisible es precisamente lo que hace invisibles los actos que esa norma produce. El análisis ontológico que el Mediador Modelador realiza puede revelar M-3 donde el análisis convencional veía cultura o tradición. Esa revelación tiene consecuencias para la estimación de S de los actores que operan dentro del campo M-3: sus actos tienen mayor S porque el código del campo condiciona φ₁ de manera más intensa de lo que la narrativa institucional reconoce.
+
+4 La coexistencia M-2/M-3 que el módulo establece como codificación posible tiene una implicación práctica para el análisis del ego colectivo: un sujeto puede estar en M-2 individual dentro de un campo en M-3, o puede estar en M-1 dentro de ese mismo campo. La presencia de M-3 en el colectivo no implica que todos los miembros estén en M-2: hay sujetos que pueden ver la norma desde afuera, aunque operen dentro de ella. Esos sujetos — los que están en M-1 dentro de un campo M-3 — son con frecuencia los portadores de la capacidad de cambio del colectivo, porque pueden imaginar alternativas que los sujetos en M-2 dentro de M-3 no pueden imaginar.
+
+
+BLOQUE II · Los cinco ejes del SDO
+
+# B·II·III ·  MÓDULO EJE III — VÍNCULO
+
+## La estructura del encuentro con el Otro Localización de los códigos V-1, V-2 y V-3 del Eje III · El campo
 
 relacional de la sesión como fuente de EP-1
 
@@ -4271,7 +4106,6 @@ El Eje III del SDO describe la estructura de la relación del sujeto con el Otro
 
 Esta pregunta —¿qué estructura produce el campo relacional? — es la que hace del Módulo Eje III el más directamente legible desde la sesión de ECO. Todos los demás módulos buscan señales del sujeto en la sesión: su urgencia, su parálisis, su apertura, el estado de su ego, la forma de su presentación. El Módulo Eje III busca señales en el campo relacional entre el sujeto y el mediador: en la dinámica de la sesión misma, en la textura del encuentro entre los dos, en lo que la presencia del mediador como alteridad produce en el sujeto y en lo que el sujeto produce en el campo del mediador. Por eso el §5 de este módulo —señales de observación directa— es el más extenso
 
-Entrevista Clínica Ontológica · ECO
 
 del Bloque II: no porque haya más conceptos que describir sino porque las señales EP-1 de este módulo son relacionales y requieren descripción detallada de cómo leerlas en la dinámica viva de la sesión.
 
@@ -4285,7 +4119,6 @@ V-2 describe la asimetría estructural del vínculo que el SDO elabora a través
 
 La asimetría de Damasén-Peribea no es un estado de los sujetos individuales: es la estructura del vínculo. Un sujeto puede estar en E-
 
-Entrevista Clínica Ontológica · ECO
 
 1 (ego genuino activo) y habitar Peribea: el ego genuino opera, pero en esta relación específica lo hace desde el polo del que es formado. Otro sujeto puede estar en E-4 (eje ajeno internalizado) y habitar Damasén: el ego ajeno orienta tanto el propio campo como el del Otro que determina. Estas combinaciones son clínicamente distintas y el módulo desarrolla las preguntas discriminantes que las identifican. Lo que el Eje III localiza no es lo mismo que el Eje I ni que el Eje II: es la estructura del campo relacional, no el estado del ego ni la forma de su presentación.
 
@@ -4299,7 +4132,6 @@ Señal EP y criterio
 
 V Nombre Definición técnica Firma en presencia
 
-### Entrevista Clínica Ontológica · ECO
 
 EP-1: la relación con el mediador produce diferencia genuina en el sujeto, observable en sesión. El mediador puede producir algo inesperado para el sujeto que el sujeto registra y procesa. EP-2: narrativa coherente de encuentros genuinos en los que ambos lados fueron afectados.
 
@@ -4331,7 +4163,6 @@ El sujeto no puede identificar ninguna relación en la que haya genuina diferenc
 
 V-
 
-Entrevista Clínica Ontológica · ECO
 
 ### II.  Criterios de entrada y relación con los módulos anteriores
 
@@ -4343,7 +4174,6 @@ La sesión de ECO como campo diagnóstico del Eje III — regla de uso El mediad
 
 ### III.  Pregunta ancla
 
-Entrevista Clínica Ontológica · ECO
 
 La pregunta ancla del Módulo Eje III accede a la estructura del vínculo desde la narrativa del sujeto sobre sus relaciones más significativas. No busca nombres ni descripción de relaciones específicas: busca la estructura que el sujeto identifica cuando narra el patrón de sus vínculos.
 
@@ -4397,12 +4227,10 @@ El fundamento de la doble observación
 
 La razón por la que el mediador observa su propio campo no es introspección clínica desplazada: es que el campo relacional es bilateral y las señales del Eje III son estructurales. La estructura de V-2 se reproduce en el campo entre el sujeto y el mediador de la misma manera que se reproduce en todos los campos relacionales del sujeto. Si el mediador está siendo orientado por el sujeto más de lo que el instrumento requiere, eso no es un error del mediador: es EP-1 de Damasén. Si el mediador no puede producir ninguna diferencia que el sujeto no haya ya anticipado, eso no es una limitación del mediador: es EP-1 de V-2 en Damasén o de E-5. La
 
-### Entrevista Clínica Ontológica · ECO
 
-### observación del campo del mediador transforma esas señales en evidencia diagnóstica del Eje III.
+observación del campo del mediador transforma esas señales en evidencia diagnóstica del Eje III.
 
 <!-- TABLA: observación del campo | columnas: señal relacional en sesión, nivel EP, instrucción al mediador, código orientativo -->
-
 
 
 El sujeto recibe una perspectiva del mediador que contradice lo que sostenía y puede habitar la diferencia: no la adopta inmediatamente (eso sería E-4) ni la rechaza defensivamente (eso sería Fobos). Hay algo que procesa. La diferencia produce algo en él antes de resolverse.
@@ -4429,7 +4257,6 @@ EP-1 cuando la corrección es genuina y produce algo en el mediador.
 
 El mediador registra si la corrección del sujeto altera algo en él (V-1) o si el mediador la recibe sin que produzca diferencia (señal de que el campo del mediador también tiene estructura que examinar).
 
-### Entrevista Clínica Ontológica · ECO
 
 puede ser Damasén.
 
@@ -4453,7 +4280,6 @@ EP-1 si la ausencia de iniciativa relacional es sostenida y observable durante t
 
 El mediador hace silencio deliberado durante 30 segundos en un momento de la sesión y observa qué produce el sujeto. El sujeto en Peribea espera. El sujeto en V-1 produce algo — una pregunta, una reflexión, un cambio de tema. El sujeto en V-3 no registra el silencio como espacio a llenar.
 
-### Entrevista Clínica Ontológica · ECO
 
 El sujeto no puede registrar que el mediador existe como presencia diferente a él. Todo lo que el mediador produce es absorbido en los términos del sujeto sin que haya fricción, sin que haya diferencia, sin que haya encuentro. La sesión ocurre sin que el mediador haya producido ninguna diferencia en el campo del sujeto.
 
@@ -4477,7 +4303,6 @@ Las señales que siguen no pueden leerse desde una perspectiva única. Requieren
 
 ⬤  El silencio del mediador como instrumento diagnóstico En algún momento de los sondeos, el mediador deja un espacio de silencio deliberado — entre 20 y 30 segundos — sin formular ninguna pregunta ni hacer ningún gesto de orientación. Lo que el mediador observa: ¿el sujeto produce algo en ese espacio, o espera? ¿El sujeto puede tolerar el silencio sin llenarlo con una pregunta dirigida al mediador («¿estoy respondiendo bien?», «¿quieres que siga?»), o produce incomodidad que busca resolver con la orientación del mediador? El sujeto en V-1 puede estar con el silencio y
 
-Entrevista Clínica Ontológica · ECO
 
 producir algo desde él. El sujeto en Peribea tiende a buscar la orientación del mediador para llenar el espacio. El sujeto en V-3 puede no registrar el silencio como espacio — el silencio no produce nada.
 
@@ -4489,7 +4314,6 @@ producir algo desde él. El sujeto en Peribea tiende a buscar la orientación de
 
 La instrucción técnica para la doble observación: el mediador registra señales de su propio campo en la hoja de módulo con la misma precisión que registra las señales del sujeto. Las entradas en la hoja de módulo para el Eje III tienen dos columnas: «campo del sujeto» y «campo del mediador». Esa doble columna no existe en ningún otro módulo de ECO — es la particularidad diagnóstica del Eje III.
 
-Entrevista Clínica Ontológica · ECO
 
 Una advertencia técnica sobre la doble observación: el mediador debe distinguir entre lo que el sujeto produce en su campo genuinamente y lo que el mediador proyecta desde su propio Eje III. Un mediador en Peribea puede leer Damasén en cualquier sujeto que tenga iniciativa relacional. Un mediador en Damasén puede leer Peribea en cualquier sujeto que no resista su orientación. La calibración del propio campo antes de la sesión — establecida en el Capítulo P·3 — y la supervisión posterior son las dos condiciones que hacen que la doble observación sea diagnóstica y no proyectiva.
 
@@ -4525,7 +4349,6 @@ SALIDA — Código Eje III (V-1 / V-2 Damasén / V-2 Peribea / V-3) + Nivel EP �
 >
 > «En la relación que describes como más importante o más formativa, ¿podrías decir que los dos cambiaron a partir del encuentro — no que llegaron a un acuerdo, sino que los dos salieron diferentes? ¿O la dirección del cambio fue principalmente en un solo sentido?» [La pregunta de la bilateralidad del cambio. Lo que el mediador observa: si el sujeto puede identificar cambio bilateral genuino en los vínculos más importantes. V-1 produce cambio bilateral: los dos polos del encuentro salen diferentes. V-2 produce cambio unidireccional: Peribea cambia en la dirección de Damasén, o Damasén cambia a Peribea, pero no desde el encuentro sino desde la determinación.]
 >
-> ### Entrevista Clínica Ontológica · ECO
 >
 > V-1 · Encuentro genuino V-2 · Díada Damasén-Peribea
 >
@@ -4557,7 +4380,6 @@ SALIDA — Código Eje III (V-1 / V-2 Damasén / V-2 Peribea / V-3) + Nivel EP �
 >
 > Describe la mayoría de sus relaciones desde el polo orientado. Puede describir dificultad para sostener posición propia en el vínculo. Puede describir alivio cuando el Otro toma la orientación.
 >
-> ### Entrevista Clínica Ontológica · ECO
 >
 > vínculo: el Otro nunca puede sorprenderle genuinamente.
 >
@@ -4598,7 +4420,6 @@ Regla de codificación del Eje III — especificación de posición en V-2 V-2 s
 
 ### EP-1 para el Eje III es la señal observada directamente en el campo relacional de la sesión — no en la narrativa del sujeto sino en la
 
-Entrevista Clínica Ontológica · ECO
 
 dinámica entre el sujeto y el mediador. EP-2 requiere narrativa coherente del patrón relacional en múltiples vínculos o contextos con al menos una señal de observación en sesión que la corrobore. EP-3 requiere coherencia narrativa a través del tiempo sin señal de observación en sesión suficiente para EP-2. El Eje III es el único módulo del Bloque II en que EP-1 puede alcanzarse de manera relativamente fácil — precisamente porque la sesión misma es el campo de la señal.
 
@@ -4612,7 +4433,6 @@ El código del Eje III también prepara el territorio del Eje IV. V-3 con D-1 ac
 
 El Eje III a escala colectiva describe la estructura de las relaciones del colectivo con sus pares, con el entorno institucional y con la sociedad en que opera. La localización del ego colectivo en V-1, V-
 
-### Entrevista Clínica Ontológica · ECO
 
 2 o V-3 requiere observar no solo las relaciones del ego soberano sino la estructura relacional que el colectivo como sistema produce en sus encuentros con otros colectivos o con el campo.
 
@@ -4644,7 +4464,6 @@ Las relaciones del colectivo son extractivas o ceremoniales: o el colectivo extr
 
 ### La díada Damasén-Peribea a escala institucional
 
-Entrevista Clínica Ontológica · ECO
 
 La díada Damasén-Peribea produce dos tipos de organizaciones que el análisis institucional frecuentemente confunde. Las organizaciones en Damasén colectivo tienen orientación fuerte: producen marcos, establecen estándares, definen agendas para su campo. Pueden ser líderes sectoriales, centros de innovación o referentes de una comunidad. La señal de Damasén colectivo no es el liderazgo sino la estructura de la relación con los demás: las otras organizaciones operan dentro del marco que esta organización establece, y cuando salen de ese marco la organización Damasén describe incomodidad o resistencia.
 
@@ -4687,25 +4506,26 @@ Las organizaciones en Peribea colectivo tienen estructura de respuesta: son reac
 > >
 > > V-3 confirmado con D-1 activo y E-1 en el Eje I: la derivación a Histos es urgente porque hay un ego genuino con señal activa que registra el colapso del vínculo y que no puede encontrar encuentro genuino en ningún campo. El trabajo de Histos tiene el doble imperativo de trabajar la restitución del encuentro genuino (V-3 → V-1) y de amplificar la señal de D-1 que el ego genuino está produciendo. Esta es una de las condiciones clínicas más exigentes del paradigma y una de las que más claramente supera el alcance de ECO como instrumento de localización.
 > >
-> > Notas al Módulo B·II·III
-> >
-> > 1 La doble observación que establece el §5 de este módulo tiene precedentes en la tradición psicoanalítica —el concepto de contratransferencia— y en las corrientes sistémicas que observan el campo relacional como unidad de análisis. Lo que el sistema ontológico añade es la formalización de esa doble observación como instrumento diagnóstico con niveles EP explícitos. La señal que el mediador registra en su propio campo no es interpretación proyectiva: es observación de la estructura que el sujeto produce en el campo del mediador, con el mismo rigor metodológico que la observación de la conducta del sujeto. La diferencia es que requiere que el mediador haya calibrado su propio campo antes de usarlo como instrumento.
-> >
-> > 2 La distinción Damasén/Peribea dentro de V-2 tiene consecuencias directas para la estimación de la responsabilidad causal en el Método Prometeo. Un actor en Damasén tiene mayor capacidad de orientación del campo — y por tanto mayor posibilidad de afectar el campo en la dirección de los actos que se analizan. Su S es relativamente menor (mayor idiosincrasia en la orientación de φ₁) y su α puede ser mayor (mayor capacidad de asunción porque la orientación vino de su polo). Un actor en Peribea tiene mayor condicionamiento del campo externo sobre sus actos — su S puede ser mayor (menor idiosincrasia, mayor condicionamiento por el Damasén) y su α puede ser menor. Esta asimetría tiene implicaciones directas para la distribución de R* en el grafo causal del Método Prometeo.
-> >
-> >
-> > 3 La advertencia sobre reproducir la díada en la sesión que aparece en §11 tiene implicaciones para la formación de mediadores que van más allá de la técnica. Un mediador que habitualmente opera desde Damasén en sus relaciones personales llevará esa posición a la sesión de ECO si no la ha calibrado previamente. Ese mediador puede producir EP-1 de V-2 Peribea en cualquier sujeto que no resista activamente su orientación — porque su campo produce la posición de Peribea en el Otro. La supervisión del propio Eje III del mediador es, para este módulo, tan importante como el conocimiento técnico del instrumento.
-> >
-> > 4 El vínculo colapsado V-3 que el módulo describe en relación con el ego colectivo tiene implicaciones específicas para el Mediador en Memoria Comunitaria. Las comunidades que han sido históricamente absorbidas por un campo dominante —colonialismo, asimilación cultural, desplazamiento forzado— presentan con frecuencia V-3 colectivo como resultado estructural de esa absorción. El ego colectivo de esas comunidades puede haber perdido la capacidad de producir diferencia genuina en el encuentro con el exterior porque el exterior lo absorbió de manera suficientemente completa. El trabajo del Mediador en Memoria Comunitaria con V-3 colectivo es la condición previa al rescate cultural: sin restauración de la capacidad de encuentro genuino con la alteridad, la comunidad no puede recibir su propia memoria como diferencia que la afecta — solo puede reproducirla como archivo.
-> >
-> >
-> > BLOQUE II · Los cinco ejes del SDO
+---
 
-### B·II·IV ·  MÓDULO EJE IV — DISFORIA
+## Notas al Módulo B·II·III
 
-### La presencia o ausencia de la señal del ego
+1 La doble observación que establece el §5 de este módulo tiene precedentes en la tradición psicoanalítica —el concepto de contratransferencia— y en las corrientes sistémicas que observan el campo relacional como unidad de análisis. Lo que el sistema ontológico añade es la formalización de esa doble observación como instrumento diagnóstico con niveles EP explícitos. La señal que el mediador registra en su propio campo no es interpretación proyectiva: es observación de la estructura que el sujeto produce en el campo del mediador, con el mismo rigor metodológico que la observación de la conducta del sujeto. La diferencia es que requiere que el mediador haya calibrado su propio campo antes de usarlo como instrumento.
 
-genuino Localización de D-1 (disforia activa) y D-2 (anestesia ontológica) ·
+2 La distinción Damasén/Peribea dentro de V-2 tiene consecuencias directas para la estimación de la responsabilidad causal en el Método Prometeo. Un actor en Damasén tiene mayor capacidad de orientación del campo — y por tanto mayor posibilidad de afectar el campo en la dirección de los actos que se analizan. Su S es relativamente menor (mayor idiosincrasia en la orientación de φ₁) y su α puede ser mayor (mayor capacidad de asunción porque la orientación vino de su polo). Un actor en Peribea tiene mayor condicionamiento del campo externo sobre sus actos — su S puede ser mayor (menor idiosincrasia, mayor condicionamiento por el Damasén) y su α puede ser menor. Esta asimetría tiene implicaciones directas para la distribución de R* en el grafo causal del Método Prometeo.
+
+
+3 La advertencia sobre reproducir la díada en la sesión que aparece en §11 tiene implicaciones para la formación de mediadores que van más allá de la técnica. Un mediador que habitualmente opera desde Damasén en sus relaciones personales llevará esa posición a la sesión de ECO si no la ha calibrado previamente. Ese mediador puede producir EP-1 de V-2 Peribea en cualquier sujeto que no resista activamente su orientación — porque su campo produce la posición de Peribea en el Otro. La supervisión del propio Eje III del mediador es, para este módulo, tan importante como el conocimiento técnico del instrumento.
+
+4 El vínculo colapsado V-3 que el módulo describe en relación con el ego colectivo tiene implicaciones específicas para el Mediador en Memoria Comunitaria. Las comunidades que han sido históricamente absorbidas por un campo dominante —colonialismo, asimilación cultural, desplazamiento forzado— presentan con frecuencia V-3 colectivo como resultado estructural de esa absorción. El ego colectivo de esas comunidades puede haber perdido la capacidad de producir diferencia genuina en el encuentro con el exterior porque el exterior lo absorbió de manera suficientemente completa. El trabajo del Mediador en Memoria Comunitaria con V-3 colectivo es la condición previa al rescate cultural: sin restauración de la capacidad de encuentro genuino con la alteridad, la comunidad no puede recibir su propia memoria como diferencia que la afecta — solo puede reproducirla como archivo.
+
+
+BLOQUE II · Los cinco ejes del SDO
+
+# B·II·IV ·  MÓDULO EJE IV — DISFORIA La presencia o ausencia de la señal del ego
+
+
+## genuino Localización de D-1 (disforia activa) y D-2 (anestesia ontológica) ·
 
 Modulador transversal
 
@@ -4713,7 +4533,6 @@ Modulador transversal
 
 El Eje IV del SDO localiza la presencia o la ausencia de la señal del ego genuino. No qué quiere el ego genuino ni desde dónde opera: si todavía está produciendo señal. Esa pregunta —¿la señal del ego genuino sigue presente? — es la que hace del Eje IV el modulador transversal de mayor impacto clínico en el instrumento. Porque si la señal del ego genuino no está presente, las localizaciones de todos los demás módulos —los Hijos del Bloque I, el estado del ego, la estructura del vínculo— pueden corresponder al campo que reemplazó al ego genuino y no al ego genuino mismo. Un sujeto en D-2 puede producir señales de cualquier Hijo que el mediador sin entrenamiento tomará como genuinas; puede producir discursos elaborados sobre su criterio propio (que el módulo A tomó como Anteros); puede describir apertura ante lo nuevo (que el módulo E tomó como Eros); puede narrar sus relaciones con fluidez y articulación (que el módulo Eje III tomó como V-1). En D-2, el ego genuino está presente pero latente —el instrumento de registro de la brecha se apagó, pero el ego no desapareció. Lo que el campo produce en su nombre no es el ego genuino: es la suma fáctica que actúa como si lo fuera.
 
-Entrevista Clínica Ontológica · ECO
 
 La distinción entre D-1 y D-2 es la distinción entre el ego genuino que todavía puede registrar la brecha y el ego genuino que ya no puede hacerlo. D-1 —disforia activa— es el estado en que el ego genuino produce señal de incomodidad ante la brecha entre lo que el sujeto es y lo que hace, aunque el sujeto no pueda necesariamente articular esa incomodidad con precisión ni resolverla con eficacia. La señal de D-1 es el ego genuino que todavía habla, aunque nadie lo escuche. D-2 —anestesia ontológica— es el estado en que el instrumento de registro de esa brecha se apagó. El ego genuino está latente —puede reactivarse con el trabajo de Histos— pero ya no produce señal en la superficie. El sujeto en D-2 no experimenta ausencia de señal: experimenta la ausencia del instrumento que producía la señal. La diferencia es ontológicamente significativa: en D-1 hay algo que duele, aunque no se sepa de dónde viene; en D-2, ya no hay dolor porque ya no hay instrumento que registre que hay algo que duele.
 
@@ -4723,7 +4542,6 @@ La disforia activa no es sufrimiento clínico en el sentido psicopatológico. Es
 
 D-2 como resultado de proceso
 
-Entrevista Clínica Ontológica · ECO
 
 D-2 no es un estado que el sujeto eligió ni es un estado estable como lo son los Hijos del Bloque I. Es el resultado de un proceso de erosión de la señal del ego genuino que puede haber ocurrido gradualmente a lo largo de mucho tiempo o de manera más acelerada en respuesta a condiciones de campo específicas. El Manual Clínico del paradigma describe el proceso de instalación de D-2: el sujeto en D-1 sostenido sin campo para la señal — sin nadie que escuche, sin condiciones para que la señal del ego genuino produzca diferencia — puede llegar a apagar el instrumento de registro como respuesta adaptativa. El instrumento que produce señal de incomodidad sin que esa señal pueda producir efecto se convierte en una carga sin utilidad. D-2 es la adaptación que suprime la carga.
 
@@ -4733,7 +4551,6 @@ D-1 y D-2 como moduladores de la lectura del instrumento completo
 
 El Eje IV es el eje de mayor impacto retroactivo sobre los demás módulos porque modifica la lectura de todos los Hijos del Bloque I. D-1 activo con EP-1 no modifica los pesos del Bloque I: es señal de que el ego genuino está presente y que las localizaciones del Bloque I corresponden a señales reales del ego genuino. D-2 con EP-1 obliga al mediador a revisar retrospectivamente todas las señales del Bloque I y marcarlas con incertidumbre adicional: en D-2, las señales de Anteros, Eros, Potós —y potencialmente de todos los Hijos— pueden corresponder al campo que actúa en nombre del ego genuino y no al ego genuino mismo. El mediador que encuentra D-2 con EP-1 en el Eje IV ha encontrado la información más crítica del instrumento completo.
 
-### Entrevista Clínica Ontológica · ECO
 
 Señal EP y criterio
 
@@ -4763,7 +4580,6 @@ D-
 
 El Módulo Eje IV siempre se administra como cuarto módulo del Bloque II, después del Eje I, el Eje II y el Eje III. La localización de los tres módulos anteriores — especialmente la del Módulo H del Bloque I — produce orientación preliminar que el Eje IV necesita como contexto.
 
-Entrevista Clínica Ontológica · ECO
 
 Cuando el Módulo H ya resolvió la discriminación Harmonía/D-2
 
@@ -4829,7 +4645,6 @@ Las preguntas de sondeo del Módulo Eje IV tienen dos objetivos distintos según
 
 Las señales de observación directa del Módulo Eje IV son las más difíciles de leer del Bloque II porque dependen de la capacidad del mediador de registrar temperatura interna en el sujeto — y esa temperatura es sutil por definición. La señal de D-1 no es ruptura emocional: es incomodidad genuina ante la brecha. La señal de D-2 no es frialdad: es planitud que el sujeto no registra como problema. El mediador que espera señales dramáticas en este módulo perderá las señales diagnósticas más importantes.
 
-### Entrevista Clínica Ontológica · ECO
 
 Nivel EP Error de lectura frecuente
 
@@ -4859,7 +4674,6 @@ EP-1 si la planitud tonal es consistente durante toda la sesión y observable po
 
 Confundir D-2 con madurez emocional o con ecuanimidad. La ecuanimidad de un sujeto integrado (Harmonía) tiene
 
-### Entrevista Clínica Ontológica · ECO
 
 independientemente del contenido. Habla de pérdidas con el mismo tono que habla de logros. Habla de injusticias con el mismo tono que habla de trivialidades.
 
@@ -4883,7 +4697,6 @@ EP-1 cuando la incapacidad de identificar preferencia genuina se produce directa
 
 Confundir D-2 con Deimos. En Deimos, el sujeto puede mostrar incomodidad o perplejidad ante la incapacidad de identificar preferencia. En D-2, la respuesta es fluida y apropiada sin perplejidad. La señal: ¿la pregunta produce algo en el sujeto, o simplemente
 
-### Entrevista Clínica Ontológica · ECO
 
 produce la respuesta?
 
@@ -4901,9 +4714,8 @@ La señal más diagnóstica del Módulo Eje IV es el contraste entre la temperat
 
 El mediador que quiere verificar este contraste puede introducir deliberadamente, en un momento de los sondeos, una pregunta sobre algo que el sujeto ya describió como emocionalmente significativo: «Volvamos un momento a lo que me contaste antes sobre [evento que el sujeto describió como importante]. Mientras me lo vuelves a contar, ¿qué pasa en ti?» El mediador observa si regresar a ese evento produce algo diferente en el campo del sujeto o si la temperatura de la narrativa sobre el regreso al evento es la misma
 
-Entrevista Clínica Ontológica · ECO
 
-### que la temperatura de la narrativa original. Si es la misma, la señal de D-2 se fortalece.
+que la temperatura de la narrativa original. Si es la misma, la señal de D-2 se fortalece.
 
 ### VI.  Árbol de decisión interno del módulo
 
@@ -4949,7 +4761,6 @@ D-1: el sujeto reconoce la diferencia con temperatura interna. Puede decir «sí
 
 D-2: el sujeto puede describir la diferencia con precisión, pero sin temperatura. «Sí, probablemente hay una diferencia, pero no es algo que me
 
-### Entrevista Clínica Ontológica · ECO
 
 «siento que debería ser diferente, aunque no puedo cambiar nada ahora». La señal está presente: el ego genuino habla aunque nadie escuche y aunque el sujeto no pueda actuar desde ella.
 
@@ -4969,7 +4780,6 @@ D-2: el sujeto no puede identificar ningún proceso. «Siempre fui así», «no 
 
 ### «Cuando dices que hay algo que no encaja entre lo que eres y lo que haces — ¿es que sabes lo que quieres hacer de manera diferente, pero algo te lo impide, o es más que hay
 
-Entrevista Clínica Ontológica · ECO
 
 algo que simplemente no está bien, aunque no puedas decir qué haría que estuviera bien?» [La discriminación más técnica del módulo. En E-3, el sujeto sabe lo que quiere y φ₂ está bloqueada. En D-1, la señal es más difusa: hay incomodidad sin necesariamente tener claro qué la resolvería. Esta pregunta accede a si hay un querer específico detrás de la señal (E-3) o si la señal es la brecha sin querer articulado (D-1).]
 
@@ -4985,7 +4795,6 @@ El Módulo Eje IV produce un código puntual —D-1, D-2, o D-2 con D-1 residual
 
 Regla de codificación — D-2 con D-1 residual Cuando el mediador encuentra D-2 como estado general, pero puede identificar rastros de D-1 en contextos o canales específicos (sueños, relaciones particulares, contacto con arte o naturaleza, momentos de soledad), el código es «D-2 con D-1 residual» con descripción de los canales donde la señal está disponible. Esa descripción es el insumo más valioso que el Eje IV puede proveer para el trabajo de Histos: es el mapa de los puntos de acceso al ego genuino latente.
 
-### Entrevista Clínica Ontológica · ECO
 
 El nivel EP para el Eje IV sigue la escala estándar. EP-1 requiere que la señal se produzca directamente en la sesión: incomodidad con temperatura observable para D-1, planitud consistente observable durante toda la sesión para D-2. EP-2 requiere narrativa coherente de la señal (o su ausencia) en múltiples contextos con al menos una señal de observación en sesión que la corrobore. EP-3 requiere coherencia narrativa sin señal de observación en sesión suficiente.
 
@@ -5007,7 +4816,6 @@ Los pesos del Bloque I deben revisarse. En D-2, cualquier señal de cualquier Hi
 
 Revisar retrospectivamente las señales del Bloque I marcando cuáles podrían ser señales del campo y no del ego genuino. Especialmente: las señales de Anteros y Eros pueden estar producidas por el campo en lugar del ego genuino. Consignar en la hoja de
 
-### Entrevista Clínica Ontológica · ECO
 
 ECO qué parte de la distribución P(Hijos) corresponde al ego genuino latente y qué parte al campo que lo sustituyó. Todos los pesos deben marcarse con incertidumbre adicional.
 
@@ -5029,7 +4837,6 @@ La consecuencia más importante de D-2 sobre el Bloque I es que ningún peso del
 
 ### X.  Aplicación al ego colectivo
 
-### Entrevista Clínica Ontológica · ECO
 
 D-2 colectivo es uno de los estados más frecuentes y menos detectados de los egos colectivos en el paradigma. Las organizaciones pueden operar durante años —décadas— en D-2 colectivo con eficiencia creciente en sus métricas de desempeño, sin que ningún miembro registre que algo fundamental se ha apagado. La razón es la misma que en el individuo: el instrumento de registro de la brecha se apagó. Y cuando ese instrumento no existe, la eficiencia puede crecer mientras el ego genuino colectivo se erosiona, porque la eficiencia no requiere ego genuino —solo requiere procesos.
 
@@ -5057,7 +4864,6 @@ Los miembros pueden describir el funcionamiento de la organización con detalle 
 
 ### D-2 colectivo como resultado de condiciones sistémicas
 
-Entrevista Clínica Ontológica · ECO
 
 D-2 colectivo se instala con mayor frecuencia en organizaciones que han operado durante tiempo prolongado bajo alguna de las siguientes condiciones: presión externa sostenida que no puede ser procesada por el ego colectivo (condición sistémica análoga a D-1 sostenido sin campo que reciba la señal), fusiones o absorciones en que el ego colectivo de una organización fue absorbido por otro sin proceso de integración genuino, liderazgos que sistemáticamente suprimieron la señal de D-1 de los miembros (señales de incomodidad ante la brecha que fueron interpretadas como problemas de actitud o de lealtad), y M-3 sostenido sin que la norma del campo haya sido cuestionada desde adentro en tiempo suficiente.
 
@@ -5094,27 +4900,28 @@ La señal de D-1 colectivo es uno de los recursos más valiosos para el cambio i
 > >
 > > Esta es la única condición del instrumento en que la derivación a Histos puede posponerse indefinidamente.
 > >
-> > Notas al Módulo B·II·IV
-> >
-> > 1 La descripción de D-2 como resultado de proceso adaptativo tiene base en la observación clínica sistematizada en el Manual Clínico del paradigma y en las obras de referencia sobre la disforia de identidad. El proceso de instalación de D-2 no es lineal: puede haber períodos de intensificación de D-1 antes de la transición a D-2, y puede haber recuperaciones parciales de D-1 cuando las condiciones del campo cambian temporalmente. El mediador que encuentra D-2 con D-1 residual está observando un estado que todavía tiene movilidad — no un estado final. La historia temporal que el Sondeo DIS·2 produce sobre D-1 es el insumo más relevante para entender el proceso que llevó al estado actual.
-> >
-> > 2 La tabla de modificación de pesos del §9 establece la consecuencia más técnica del Eje IV: D-2 con EP-1 invalida la certeza estándar de la distribución P(Hijos) del Bloque I. Esto no significa que el Bloque I sea inútil en D-2: significa que sus resultados deben interpretarse como descripción del campo que actúa en nombre del ego genuino, no como descripción del ego genuino mismo. Esa interpretación tiene utilidad diagnóstica para el trabajo de Histos —saber qué parte del campo ha reemplazado al ego genuino es información necesaria para el trabajo de restitución— pero no es equivalente a la localización del ego genuino activo.
-> >
-> > 3 La coexistencia D-2/Harmonía que el árbol de decisión declara como caso que requiere revisión tiene un fundamento ontológico claro: Harmonía requiere que el ego genuino esté procesando las tensiones entre las dimensiones de la pasión desde φ₂ con distancia suficiente. Ese procesamiento requiere que el instrumento de registro de la tensión esté activo. Si D-2 ha apagado ese instrumento, el procesamiento que Harmonía requiere no puede ocurrir. La coexistencia de los dos códigos es ontológicamente contradictoria: o el Módulo H sobreestimó la señal de Harmonía (tomando D-2 por Harmonía, el error más frecuente del instrumento) o el Eje IV sobreestimó D-2 (tomando Harmonía por ausencia de señal, porque la integración genuina puede producir planitud que el mediador lee como D-2).
-> >
-> > 4 La nota sobre D-2 colectivo y las organizaciones con M-3 sostenido merece desarrollo adicional. M-3 —la mascarada institucional— es la condición de posibilidad para D-2 colectivo porque suprime sistemáticamente las señales de D-1 de los miembros: en un campo de M-3, la señal de incomodidad ante la brecha entre el ego genuino y los actos institucionales no tiene espacio de expresión. A lo largo del tiempo, esa supresión sistemática puede producir D-2 colectivo por el mismo mecanismo que produce D-2 individual — el
-> >
-> >
-> > instrumento de registro se apaga cuando su señal no puede producir ningún efecto. La consecuencia práctica para el Mediador Organizacional: M-3 sostenido sin mecanismos de procesamiento de la señal de D-1 es un factor de riesgo directo de D-2 colectivo.
-> >
-> >
-> > BLOQUE II · Los cinco ejes del SDO
+---
 
-### B·II·V ·  MÓDULO EJE V —
+## Notas al Módulo B·II·IV
 
-### TANATOLÓGICO
+1 La descripción de D-2 como resultado de proceso adaptativo tiene base en la observación clínica sistematizada en el Manual Clínico del paradigma y en las obras de referencia sobre la disforia de identidad. El proceso de instalación de D-2 no es lineal: puede haber períodos de intensificación de D-1 antes de la transición a D-2, y puede haber recuperaciones parciales de D-1 cuando las condiciones del campo cambian temporalmente. El mediador que encuentra D-2 con D-1 residual está observando un estado que todavía tiene movilidad — no un estado final. La historia temporal que el Sondeo DIS·2 produce sobre D-1 es el insumo más relevante para entender el proceso que llevó al estado actual.
 
-### El vector del duelo ante la pérdida
+2 La tabla de modificación de pesos del §9 establece la consecuencia más técnica del Eje IV: D-2 con EP-1 invalida la certeza estándar de la distribución P(Hijos) del Bloque I. Esto no significa que el Bloque I sea inútil en D-2: significa que sus resultados deben interpretarse como descripción del campo que actúa en nombre del ego genuino, no como descripción del ego genuino mismo. Esa interpretación tiene utilidad diagnóstica para el trabajo de Histos —saber qué parte del campo ha reemplazado al ego genuino es información necesaria para el trabajo de restitución— pero no es equivalente a la localización del ego genuino activo.
+
+3 La coexistencia D-2/Harmonía que el árbol de decisión declara como caso que requiere revisión tiene un fundamento ontológico claro: Harmonía requiere que el ego genuino esté procesando las tensiones entre las dimensiones de la pasión desde φ₂ con distancia suficiente. Ese procesamiento requiere que el instrumento de registro de la tensión esté activo. Si D-2 ha apagado ese instrumento, el procesamiento que Harmonía requiere no puede ocurrir. La coexistencia de los dos códigos es ontológicamente contradictoria: o el Módulo H sobreestimó la señal de Harmonía (tomando D-2 por Harmonía, el error más frecuente del instrumento) o el Eje IV sobreestimó D-2 (tomando Harmonía por ausencia de señal, porque la integración genuina puede producir planitud que el mediador lee como D-2).
+
+4 La nota sobre D-2 colectivo y las organizaciones con M-3 sostenido merece desarrollo adicional. M-3 —la mascarada institucional— es la condición de posibilidad para D-2 colectivo porque suprime sistemáticamente las señales de D-1 de los miembros: en un campo de M-3, la señal de incomodidad ante la brecha entre el ego genuino y los actos institucionales no tiene espacio de expresión. A lo largo del tiempo, esa supresión sistemática puede producir D-2 colectivo por el mismo mecanismo que produce D-2 individual — el
+
+
+instrumento de registro se apaga cuando su señal no puede producir ningún efecto. La consecuencia práctica para el Mediador Organizacional: M-3 sostenido sin mecanismos de procesamiento de la señal de D-1 es un factor de riesgo directo de D-2 colectivo.
+
+
+BLOQUE II · Los cinco ejes del SDO
+
+# B·II·V ·  MÓDULO EJE V — TANATOLÓGICO
+
+
+## El vector del duelo ante la pérdida
 
 irrecuperable Localización en T-0 a T-6 y T-ext · Eje central del Mediador en
 
@@ -5126,7 +4933,6 @@ El Eje V del SDO localiza la posición del sujeto en el vector del duelo ante un
 
 La razón por la que el sistema ontológico incluye el Eje V —por la que el duelo no es solo un estado emocional sino un eje del SDO con posiciones localizables— es que el proceso del duelo ante la pérdida irrecuperable tiene consecuencias directas sobre la configuración de la voluntad del sujeto. Un sujeto cuyo duelo está en T-2 (la presencia del dolor) no puede orientar la voluntad de la misma manera que un sujeto en T-5 (la apertura hacia lo nuevo): el duelo activo ocupa campo de la voluntad que otros procesos no
 
-Entrevista Clínica Ontológica · ECO
 
 pueden usar mientras el duelo lo ocupa. Y un sujeto cuyo duelo se fijó en T-1 (la negación crónica) orienta la voluntad desde una posición que evita el contacto con la pérdida de manera que afecta todas las demás dimensiones del campo relacional del sujeto.
 
@@ -5140,7 +4946,6 @@ No toda pérdida activa el vector tanatológico. Una pérdida es irrecuperable c
 
 Una pérdida es constitutiva cuando modifica la estructura de la voluntad del sujeto: cuando la voluntad ya no puede orientarse de la misma manera que se orientaba antes de la pérdida, no solo porque el campo externo cambió sino porque el campo interno del sujeto —la manera en que φ₁ produce orientación— fue modificado por la
 
-Entrevista Clínica Ontológica · ECO
 
 pérdida misma. No toda pérdida significativa es constitutiva en este sentido técnico: puede ser significativa sin modificar la estructura de la voluntad. El módulo localiza pérdidas constitutivas, no pérdidas significativas en general.
 
@@ -5154,7 +4959,6 @@ El vector como modulador de los Hijos del Bloque I
 
 La posición en el vector tanatológico modifica la lectura de los Hijos del Bloque I de manera análoga a como el código del Eje IV lo hace. Un sujeto en T-2 con Fobos como Hijo dominante puede estar orientando su energía reactiva hacia lo que amenaza lo que queda de lo que perdió: el Fobos no es solo el Hijo de la reacción ante la amenaza, es el Hijo de la reacción ante la amenaza a lo que el duelo todavía no pudo integrar. Un sujeto en T-3 con Potós como Hijo
 
-### Entrevista Clínica Ontológica · ECO
 
 dominante puede estar usando la orientación al ausente de Potós como vehículo del trabajo del duelo — en ese caso Potós y T-3 son complementarios y el trabajo de Histos puede usar esa complementariedad.
 
@@ -5188,7 +4992,6 @@ El sujeto puede estar en contacto con el dolor de la pérdida de manera que le p
 
 Puede durar días o meses. Es la posición más dolorosa del vector, pero es señal de que el duelo está activo. T-2 sin campo de
 
-### Entrevista Clínica Ontológica · ECO
 
 dolor de la pérdida puede registrarse como tal.
 
@@ -5212,7 +5015,6 @@ El sujeto puede hablar de lo que quiere para adelante sin sentir que eso traicio
 
 Puede durar meses y puede extenderse de manera intermitente: el sujeto puede estar en T-4 en algunas dimensiones de su vida y en T-2 o T-3 en otras simultáneamente.
 
-### Entrevista Clínica Ontológica · ECO
 
 T-5 La apertura hacia lo nuevo
 
@@ -5238,7 +5040,6 @@ El sujeto describe la pérdida de algo que organizaba el campo de su voluntad �
 
 T-ext requiere que el mediador identifique la naturaleza específica de la pérdida de estructura antes de localizar la posición en el vector. Las preguntas discriminantes T-ext vs. duelo por muerte son esenciales para orientar el trabajo de Histos correctamente.
 
-Entrevista Clínica Ontológica · ECO
 
 0 a T-6 para pérdidas de estructura, aunque los tiempos y las formas son diferentes.
 
@@ -5252,7 +5053,6 @@ Si el Bloque I produjo señal de Potós (H-2 o H-3) —la orientación al ausent
 
 SKIP parcial — condición y justificación Condición: el Bloque I no produjo señal de Potós (H-1 con EP-0), Y la apertura narrativa no produjo ninguna referencia a pérdida irrecuperable, Y los módulos del Bloque II no produjeron señal de duelo en ninguna de sus dimensiones. Acción: administrar pregunta ancla + Sondeo TAN·1. Si no hay señal en ninguna de las dos: registrar «ausencia de pérdida constitutiva activa en el período analizado» con EP-0 y continuar al cierre del Bloque II. Si hay señal mínima: administrar el módulo completo. Justificación: la ausencia de pérdida irrecuperable constitutiva activa en la configuración de la voluntad del sujeto es un hallazgo válido. No todos los sujetos tienen un duelo activo en el período analizado. El módulo no busca crear pérdida donde no existe: busca localizarla si existe y localizarla con precisión.
 
-Entrevista Clínica Ontológica · ECO
 
 ### III.  Pregunta ancla
 
@@ -5330,7 +5130,6 @@ EP-1 si la variación tonal es consistente y observable
 
 Confundir la temperatura del duelo con dramatismo o con
 
-### Entrevista Clínica Ontológica · ECO
 
 específica que no aparece en la narrativa sobre otros temas. Puede ser más suave, más lento, más cargado. La variación tonal es consistente cada vez que el objeto de la pérdida aparece en la sesión.
 
@@ -5356,7 +5155,6 @@ EP-2 desde narrativa de coexistencia del duelo con la apertura. EP-1 si el sujet
 
 Confundir T-4/T-5 con T-1 tardío: el sujeto que habla del futuro sin tocar el duelo puede estar en T-4/T-5 (integración en proceso) o en T-1 crónico (el paréntesis nunca se cerró). La pregunta discriminante: ¿puede el sujeto hablar de la pérdida con temperatura genuina, o el futuro que describe existe en un campo donde la pérdida no tiene lugar?
 
-### Entrevista Clínica Ontológica · ECO
 
 La narrativa del sujeto sobre la pérdida tiene temperatura de historia viva: puede hablar de lo que se fue con presencia interna sin que esa presencia lo paralice. La pérdida está en su historia y puede reconocerlo sin que ese reconocimiento sea el único marco desde el que opera.
 
@@ -5382,7 +5180,6 @@ EP-1 cuando el retorno espontáneo a lo perdido es observable y sostenido durant
 
 Confundir Potós con el vector tanatológico: Potós describe una posición de la voluntad (hacia lo ausente como horizonte de valor); el vector tanatológico describe la posición en el proceso de duelo.
 
-Entrevista Clínica Ontológica · ECO
 
 Pueden coexistir, pero no son equivalentes. Un sujeto puede estar en Potós sin estar en duelo activo.
 
@@ -5398,7 +5195,6 @@ La señal de T-2 en sesión puede confundirse con la urgencia de Fobos: los dos 
 
 El árbol del Módulo Eje V localiza la posición en el vector tanatológico a través de tres preguntas principales que recogen las dimensiones diagnósticas del proceso del duelo: el reconocimiento de la irreversibilidad, la presencia del trabajo activo, y la apertura hacia lo nuevo. La intersección de las tres preguntas produce la localización en el vector.
 
-Entrevista Clínica Ontológica · ECO
 
 > **NODO TAN·0 — ¿Hay señal de pérdida irrecuperable constitutiva activa?**
 >
@@ -5469,7 +5265,6 @@ Las preguntas discriminantes del Módulo Eje V tienen tres pares principales. El
 >
 > Duelo por muerte: el objeto de la pérdida ya no existe. La irrecuperabilidad tiene la claridad que la muerte produce: no hay posibilidad
 >
-> ### Entrevista Clínica Ontológica · ECO
 >
 > de recuperación bajo ninguna forma. Eso hace más fácil el inicio del duelo —aunque no menos doloroso— porque el reconocimiento de la irreversibilidad no está obstaculizado por la existencia continua del objeto.
 >
@@ -5495,7 +5290,6 @@ Las preguntas discriminantes del Módulo Eje V tienen tres pares principales. El
 
 El Módulo Eje V produce una localización en el vector tanatológico — una posición T-n o T-ext con la especificación de si es T-ext el tipo de pérdida — con el nivel EP que la sustenta y con nota de movimiento del vector (duelo productivo vs. duelo fijado). La localización no es un diagnóstico clínico del duelo: es la descripción
 
-Entrevista Clínica Ontológica · ECO
 
 de desde qué posición del vector el ego genuino está orientando actualmente la voluntad en relación a la pérdida constitutiva.
 
@@ -5507,7 +5301,6 @@ El nivel EP para el Eje V sigue la escala estándar. EP-1 requiere que la posici
 
 La posición en el vector tanatológico modifica la lectura de los Hijos del Bloque I de tres maneras específicas. La primera: T-2 o T-3 con Potós H-3 del Bloque I produce una nota de complementariedad — el duelo activo y la orientación al ausente de Potós pueden estar describiendo el mismo estado desde perspectivas distintas. El peso de Potós en la distribución P(Hijos) puede ser reforzado por el código del Eje V cuando los dos convergen. La segunda: T-2 o T-3 con Fobos H-3 del Bloque I produce una nota de modulación — la urgencia reactiva de Fobos puede estar siendo activada por la amenaza al objeto del duelo, lo que da a Fobos una estructura específica que el trabajo de Histos debe tener en cuenta. La tercera: T-1 con cualquier Hijo del Bloque I produce una nota de precaución — la negación crónica del duelo puede estar modulando todas las
 
-Entrevista Clínica Ontológica · ECO
 
 señales del Bloque I de maneras que el instrumento no puede determinar desde ECO.
 
@@ -5521,7 +5314,6 @@ Las instituciones pueden perder de manera irrecuperable algo que era constitutiv
 
 El duelo institucional tiene características que lo distinguen del duelo individual. La primera: el reconocimiento de la pérdida puede no ser simultáneo en todos los miembros del colectivo — algunos pueden estar en T-2/T-3 mientras otros están en T-1, y esa diferencia de reconocimiento puede producir conflictos internos que el colectivo interpreta como conflictos de visión o de liderazgo cuando son en realidad conflictos de posición en el vector tanatológico. La segunda: el duelo institucional puede no tener un objeto de pérdida que los miembros puedan nombrar con precisión — lo que se perdió puede
 
-### Entrevista Clínica Ontológica · ECO
 
 ser algo difuso como «la cultura que teníamos» o «la época en que sabíamos para qué estábamos aquí». La tercera: los mecanismos institucionales —las estructuras de M-3, la presión del campo externo, la necesidad de eficiencia operativa— pueden suprimir sistemáticamente la señal de T-2/T-3 del duelo colectivo, produciendo un paso directo a la negación crónica o a D-2 colectivo.
 
@@ -5557,7 +5349,6 @@ La organización puede describir lo que heredó de lo que fue y lo que construye
 
 «¿Puede esta organización describir en qué se ha convertido a partir de lo que perdió — no en qué quiere volver a ser, sino en qué diferente puede ser desde lo que fue?»
 
-### Entrevista Clínica Ontológica · ECO
 
 con distancia reflexiva.
 
@@ -5581,7 +5372,6 @@ El colectivo puede describir el evento de pérdida con claridad pero puede tener
 
 Uno de los estados más frecuentes y más dañinos del vector tanatológico colectivo es la tiranía utópica: el estado del colectivo cuyo duelo por el principio organizador perdido se fijó en T-1 de manera que el pasado se convirtió en el único horizonte normativo del presente. El colectivo en tiranía utópica opera desde la expectativa de recuperar lo que perdió —el momento fundacional, el líder que hacía posible todo, la época de sentido compartido— y evalúa todo el presente desde esa expectativa. Lo que no se parece al pasado perdido es descalificado. Lo que se parece es sobrevalorado, aunque sea inadecuado para el contexto presente.
 
-Entrevista Clínica Ontológica · ECO
 
 La tiranía utópica produce organizaciones que no pueden cambiar porque cualquier cambio es evaluado desde la pérdida: cambiar significa alejarse de lo que fue, y alejarse de lo que fue es traicionar la pérdida. El colectivo puede operar con gran energía en la dirección de la recuperación del pasado, pero esa energía no produce nada nuevo porque está orientada hacia atrás. El duelo no habitable produce fijación; la fijación produce tiranía; la tiranía produce la parálisis del colectivo ante cualquier futuro que no sea restauración.
 
@@ -5593,7 +5383,6 @@ El trabajo del Mediador en Memoria Comunitaria con el Eje V tanatológico es el 
 
 La conexión entre el Eje V y el Bloque III §5 es esta: la localización del ego colectivo en el vector tanatológico determina qué tipo de trabajo de Memoria Comunitaria es posible. Un colectivo en T-1 crónico no puede hacer rescate cultural genuino —solo puede hacer conservación museística, porque el contacto con la memoria viva de lo que fue requiere que el colectivo pueda habitar el duelo de lo que ya no puede ser de esa manera. Un colectivo en T-2/T-3 puede hacer el trabajo del duelo colectivo con acompañamiento, y ese trabajo
 
-Entrevista Clínica Ontológica · ECO
 
 puede producir el movimiento hacia T-4 que hace posible el rescate cultural genuino. Un colectivo en T-5/T-6 puede hacer rescate cultural con la distancia integradora que permite honrar lo que fue sin quedar atrapado en ello.
 
@@ -5634,26 +5423,26 @@ puede producir el movimiento hacia T-4 que hace posible el rescate cultural genu
 > > Condición de derivación a Histos desde el Eje V Posición en el vector T-n o T-ext confirmada con EP-1 o EP-2 + resto del Bloque II completo + evaluación del estado D-1/D-2 del Eje IV. La derivación incluye la posición en el vector con la especificación de duelo productivo o fijado, la naturaleza de la pérdida (por muerte o T-ext), y la nota de relación entre la posición en el vector y el Hijo dominante del Bloque I cuando hay convergencia (Potós con T-2/T-3, por ejemplo). Sin la información del Eje IV, la derivación desde el Eje V no puede orientar correctamente el inicio del trabajo de Histos sobre el duelo.
 > >
 > >
-> > Notas al Módulo B·II·V
-> >
-> > 1 La distinción entre pérdida significativa y pérdida irrecuperable constitutiva que establece el §1 es la que permite que el Eje V no se convierta en un módulo que busca pérdidas en todas las vidas. No toda vida tiene un duelo activo en el período analizado, y el SKIP parcial del módulo existe precisamente para eso: si no hay pérdida irrecuperable constitutiva activa en el período analizado, el módulo se cierra limpiamente con H-1. Lo que no puede ocurrir es que el mediador asuma que toda persona tiene un duelo que localizar — esa asunción produce narrativas de duelo que el sujeto construye para satisfacer la expectativa del instrumento.
-> >
-> > 2 El concepto de vector —en lugar de etapas o fases— tiene implicaciones importantes para la práctica. Las teorías de las fases del duelo (Kübler-Ross y sus derivados) presentan el duelo como una secuencia lineal que culmina en aceptación. El vector tanatológico del sistema ontológico no presupone linealidad ni finalidad: el sujeto puede estar en T-3 durante años, puede oscilar entre T-2 y T-3 indefinidamente, puede alcanzar T-5 y tener retornos a T-2 ante aniversarios importantes. T-6 no es el estado final en el sentido de que no puede perturbarse: es la posición de mayor integración disponible, que puede ser perturbada por nuevas pérdidas o por ecos de la pérdida integrada.
-> >
-> > 3 La tiranía utópica que el §10 describe como estado del ego colectivo en T-1 crónico tiene una manifestación política frecuente en los movimientos de restauración: políticos, religiosos, culturales. El mediador que trabaja con colectivos en contextos de cambio histórico o político puede encontrar que la tiranía utópica colectiva tiene consecuencias que van más allá del campo individual o institucional. El paradigma no hace política en el sentido de tomar posición sobre qué debe restaurarse y qué debe cambiar: localiza la posición del ego colectivo en el vector tanatológico y describe las consecuencias de esa posición para la orientación de la voluntad colectiva. El trabajo de Memoria Comunitaria con T-1 crónico colectivo —crear las condiciones para que el colectivo pueda habitar el duelo y moverse en el vector— es político en el sentido más ontológico de la palabra: afecta la estructura desde la que el colectivo orienta su segunda mediación.
-> >
-> > 4 La conexión entre el Eje V y el Bloque III §5 que el §10 establece es estructural y no solo editorial. El Bloque III §5 —La Memoria Comunitaria: lo que fue, lo que es, lo que pudo ser— no puede administrarse efectivamente sin la localización del ego colectivo en el vector tanatológico que el Eje V produce. Las tres preguntas del Bloque III §5 (lo que fue: el pasado de la comunidad; lo que es: el presente; lo que pudo ser: las posibilidades que la pérdida canceló) corresponden a posiciones distintas del vector: «lo que fue» requiere que el colectivo pueda habitar el duelo sin quedar fijado en él (T-3 mínimo); «lo que es» requiere que el colectivo pueda distinguir el presente del pasado (T-4
-> >
-> >
-> > mínimo); «lo que pudo ser» requiere que el colectivo pueda imaginar posibilidades alternativas sin que eso se sienta como traición de lo que fue (T-5 o T-6). El mediador que administra el Bloque III §5 sin la localización del Eje V no sabe desde qué posición del vector el colectivo puede recibir cada pregunta.
-> >
+---
+
+## Notas al Módulo B·II·V
+
+1 La distinción entre pérdida significativa y pérdida irrecuperable constitutiva que establece el §1 es la que permite que el Eje V no se convierta en un módulo que busca pérdidas en todas las vidas. No toda vida tiene un duelo activo en el período analizado, y el SKIP parcial del módulo existe precisamente para eso: si no hay pérdida irrecuperable constitutiva activa en el período analizado, el módulo se cierra limpiamente con H-1. Lo que no puede ocurrir es que el mediador asuma que toda persona tiene un duelo que localizar — esa asunción produce narrativas de duelo que el sujeto construye para satisfacer la expectativa del instrumento.
+
+2 El concepto de vector —en lugar de etapas o fases— tiene implicaciones importantes para la práctica. Las teorías de las fases del duelo (Kübler-Ross y sus derivados) presentan el duelo como una secuencia lineal que culmina en aceptación. El vector tanatológico del sistema ontológico no presupone linealidad ni finalidad: el sujeto puede estar en T-3 durante años, puede oscilar entre T-2 y T-3 indefinidamente, puede alcanzar T-5 y tener retornos a T-2 ante aniversarios importantes. T-6 no es el estado final en el sentido de que no puede perturbarse: es la posición de mayor integración disponible, que puede ser perturbada por nuevas pérdidas o por ecos de la pérdida integrada.
+
+3 La tiranía utópica que el §10 describe como estado del ego colectivo en T-1 crónico tiene una manifestación política frecuente en los movimientos de restauración: políticos, religiosos, culturales. El mediador que trabaja con colectivos en contextos de cambio histórico o político puede encontrar que la tiranía utópica colectiva tiene consecuencias que van más allá del campo individual o institucional. El paradigma no hace política en el sentido de tomar posición sobre qué debe restaurarse y qué debe cambiar: localiza la posición del ego colectivo en el vector tanatológico y describe las consecuencias de esa posición para la orientación de la voluntad colectiva. El trabajo de Memoria Comunitaria con T-1 crónico colectivo —crear las condiciones para que el colectivo pueda habitar el duelo y moverse en el vector— es político en el sentido más ontológico de la palabra: afecta la estructura desde la que el colectivo orienta su segunda mediación.
+
+4 La conexión entre el Eje V y el Bloque III §5 que el §10 establece es estructural y no solo editorial. El Bloque III §5 —La Memoria Comunitaria: lo que fue, lo que es, lo que pudo ser— no puede administrarse efectivamente sin la localización del ego colectivo en el vector tanatológico que el Eje V produce. Las tres preguntas del Bloque III §5 (lo que fue: el pasado de la comunidad; lo que es: el presente; lo que pudo ser: las posibilidades que la pérdida canceló) corresponden a posiciones distintas del vector: «lo que fue» requiere que el colectivo pueda habitar el duelo sin quedar fijado en él (T-3 mínimo); «lo que es» requiere que el colectivo pueda distinguir el presente del pasado (T-4
 
 
-### B·III·1 ·  EL EGO SOBERANO COMO PUNTO
+mínimo); «lo que pudo ser» requiere que el colectivo pueda imaginar posibilidades alternativas sin que eso se sienta como traición de lo que fue (T-5 o T-6). El mediador que administra el Bloque III §5 sin la localización del Eje V no sabe desde qué posición del vector el colectivo puede recibir cada pregunta.
 
-### DE ENTRADA
 
-### Quién porta la segunda mediación del
+# B·III·1 ·  EL EGO SOBERANO COMO PUNTO DE ENTRADA
+
+
+## Quién porta la segunda mediación del
 
 colectivo Fundamento, protocolo de identificación y entrevista al ego soberano ·
 
@@ -5665,7 +5454,6 @@ El Bloque III de ECO existe porque el paradigma de Mediación Ontológica recono
 
 La figura del ego soberano tiene su fundamento ontológico en Caelus, la obra del paradigma que desarrolla la ontología del ego colectivo. Caelus establece que el ego colectivo no es una metáfora: es una estructura real que opera en el campo de la voluntad de los miembros del colectivo de maneras que el análisis individual no puede capturar. El ego colectivo tiene φ₁ colectivo —el sesgo acumulado de la historia del colectivo, sus condicionamientos estructurales, sus tradiciones, sus M-3— y tiene φ₂ colectivo —la
 
-Entrevista Clínica Ontológica · ECO
 
 segunda mediación que puede operar sobre ese sesgo para producir actos colectivos que no estaban completamente determinados por el condicionamiento histórico. El ego soberano es el sujeto a través del cual φ₂ colectivo se actualiza.
 
@@ -5677,7 +5465,6 @@ El fundamento en Caelus — cómo emerge el ego colectivo
 
 Caelus describe el proceso por el cual un colectivo puede desarrollar ego genuino: no es el proceso de la suma o el consenso de los egos individuales, sino el proceso por el cual los miembros del colectivo ceden una parte de su segunda mediación individual a un campo compartido que trasciende cualquier miembro. Ese campo compartido —la suma de las segundas mediaciones cedidas— puede producir orientación colectiva que ningún miembro habría podido producir solo. El ego soberano es el sujeto a través del cual ese campo encontró su punto de convergencia: la persona cuya φ₂ sirvió de canal para que la segunda mediación colectiva tomara forma.
 
-Entrevista Clínica Ontológica · ECO
 
 El mecanismo que Caelus describe es el de la proximidad real a la segunda mediación colectiva. No es el mecanismo del organigrama — la estructura de autoridad formal que el colectivo ha construido para ordenar sus actos. El organigrama describe la estructura de responsabilidades formales; el mecanismo de la segunda mediación colectiva describe quién está más cerca de la función de evaluar el campo y orientar la voluntad colectiva con distancia del sesgo acumulado. Esas dos estructuras pueden coincidir o pueden ser completamente distintas. Cuando coinciden, el instrumento puede operar de manera directa. Cuando no coinciden, el instrumento necesita el protocolo de identificación que el §2 de este capítulo establece.
 
@@ -5689,7 +5476,6 @@ Esta limitación tiene consecuencias directas para la administración del Bloque
 
 El ego soberano — definición técnica El sujeto cuya segunda mediación (φ₂) ha sido cedida al colectivo de manera que orienta efectivamente la voluntad colectiva en el período analizado. No necesariamente el cargo de mayor jerarquía. No necesariamente el fundador. El sujeto cuya presencia en el campo hace que el colectivo tenga orientación y cuya ausencia produce confusión o paralización en las decisiones que requieren criterio nuevo.
 
-Entrevista Clínica Ontológica · ECO
 
 ### II.  Protocolo de identificación del ego soberano
 
@@ -5705,7 +5491,6 @@ Etapa 2 — Las entrevistas de mapeo
 
 El mediador administra entrevistas de mapeo a un número mínimo de tres miembros del colectivo seleccionados por su posición en diferentes niveles y funciones de la organización. El objetivo no es entrevistar a los miembros sobre el ego colectivo: es observar cómo
 
-### Entrevista Clínica Ontológica · ECO
 
 describen la orientación del colectivo y a quién o qué referencian cuando la describen. La pregunta central de las entrevistas de mapeo no es «¿quién es el líder?»: es «cuando el colectivo tiene que tomar una decisión difícil —una que no tiene respuesta fácil en los procedimientos establecidos—, ¿qué ocurre? ¿Quién orienta esa decisión?».
 
@@ -5725,7 +5510,6 @@ En las entrevistas a miembros del colectivo administradas de manera independient
 
 Confundir al actor informado con el ego soberano real. El ego soberano real no solo tiene acceso a la información: orienta
 
-### Entrevista Clínica Ontológica · ECO
 
 ningún otro miembro entrevistado. Puede nombrar tensiones no documentadas, criterios no escritos, decisiones en proceso.
 
@@ -5757,7 +5541,6 @@ En la entrevista directa al ego soberano formal con las preguntas del §3 de est
 
 Confundir la formalidad de las respuestas del ego soberano formal con la ausencia de ego soberano real. Puede haber un
 
-Entrevista Clínica Ontológica · ECO
 
 le pregunta qué quiere el colectivo ahora, produce los documentos institucionales o los objetivos formales. No puede acceder a la preferencia colectiva en el momento presente con textura de evaluación interna.
 
@@ -5777,7 +5560,6 @@ Regla de tres fuentes — condición de identificación del ego soberano real El
 
 La entrevista al ego soberano es la entrevista central del Bloque III. Es la entrevista desde la cual todos los demás módulos del Bloque III se administran —la entrevista a los demás miembros del colectivo (§2), la agregación de localizaciones (§3) y el análisis de artefactos
 
-Entrevista Clínica Ontológica · ECO
 
 (§4) son complementarios y verificadores de lo que la entrevista al ego soberano produce. Si el ego soberano es el sujeto que porta φ₂ del colectivo, entonces entrevistarlo con los módulos de ECO produce la localización del ego colectivo en los Hijos del Bloque I y en los ejes del Bloque II.
 
@@ -5789,7 +5571,6 @@ La doble lectura es el principio técnico más importante de la entrevista al eg
 
 El filtro es importante: la señal del colectivo no es idéntica a la señal del ego soberano. El ego soberano puede estar en Fobos como individuo sin que eso produzca Fobos colectivo total, si el colectivo tiene estructuras que modulan la segunda mediación del ego soberano. Y el colectivo puede estar en Fobos, aunque el ego soberano individual no lo esté, si la estructura del colectivo lleva al ego soberano hacia la reactividad independientemente de su propia posición de v_t. El mediador registra la señal del ego soberano y
 
-Entrevista Clínica Ontológica · ECO
 
 luego verifica en las entrevistas a los demás miembros (§2) si la firma colectiva corresponde.
 
@@ -5825,7 +5606,6 @@ El organigrama como señal diagnóstica
 
 Cuando el ego soberano está en disociación, el organigrama del colectivo se convierte en una de las señales diagnósticas más
 
-### Entrevista Clínica Ontológica · ECO
 
 importantes del instrumento. Un organigrama que ha crecido en capas sin que haya una lógica visible de distribución de la segunda mediación —que tiene muchos niveles intermedios, muchos comités con responsabilidades superpuestas, muchos roles con nombres sofisticados, pero funciones difusas— puede ser la firma documental del estado de disociación de φ₂. El ego soberano en disociación tiende a producir estructuras que sustituyen la segunda mediación con procedimientos: si no hay ego genuino que evalúe el campo y oriente la voluntad colectiva, los procedimientos llenan el espacio que la segunda mediación debería ocupar.
 
@@ -5849,7 +5629,6 @@ El mediador identifica a quién fue cedida φ₂ temporalmente. Ese actor es el 
 
 φ₂ cedida temporalmente — ego soberano real en transición o ausencia
 
-### Entrevista Clínica Ontológica · ECO
 
 El colectivo produce decisiones contradictorias. Hay facciones con criterios incompatibles. El campo institucional tiene temperatura de conflicto de orientación.
 
@@ -5873,7 +5652,6 @@ El colectivo funciona con eficiencia operativa, pero sin orientación del ego ge
 
 Cuando el protocolo de identificación del §2 no produce convergencia hacia un actor específico, o cuando la entrevista al ego soberano identificado no produce las señales que el §3 describe, el mediador se encuentra ante un colectivo sin ego soberano identificable con claridad. En ese estado, el Bloque III puede proceder con un protocolo alternativo: en lugar de localizar al ego soberano y entrevistarlo como punto de entrada, el mediador administra las preguntas del Bloque III a múltiples miembros del colectivo en posiciones distintas y produce la lectura del ego colectivo desde la convergencia (o divergencia) de esas lecturas.
 
-Entrevista Clínica Ontológica · ECO
 
 El protocolo alternativo tiene menor certeza diagnóstica que el protocolo estándar: cuando no hay ego soberano que concentre la segunda mediación, la lectura del ego colectivo tiene mayor incertidumbre y requiere más fuentes para producir señales con EP-2. Pero puede producir información útil sobre el estado del colectivo —incluyendo el hecho de que no hay ego soberano identificable, que es en sí mismo una localización diagnóstica del estado del colectivo (E-2 colectivo, Deimos colectivo, o D-2 colectivo según la firma del campo).
 
@@ -5885,7 +5663,6 @@ Este estado produce una firma institucional específica: T-1 colectivo del Eje V
 
 La distinción crítica — ego soberano en disociación vs. colectivo sin ego soberano Ego soberano en disociación: hay un actor que ocupa el cargo de ego soberano pero que ya no porta φ₂ efectivamente. φ₂ puede estar cedida a otro actor, difusa, o apagada (D-2). El instrumento necesita identificar si hay otro actor que porta φ₂ de facto antes de concluir que el colectivo no tiene ego soberano activo. / Colectivo sin ego soberano: ningún
 
-Entrevista Clínica Ontológica · ECO
 
 actor porta φ₂ de manera efectiva. El colectivo opera desde φ₁ colectivo puro — desde el sesgo acumulado de su historia y su estructura, sin segunda mediación activa. Este estado corresponde a E-2 colectivo en el mejor caso y a D-2 colectivo en los estados más avanzados.
 
@@ -5895,11 +5672,12 @@ Cuando el diagnóstico del Bloque III §1 concluye que φ₂ está disociada —
 
 El mediador que administra el Bloque III sin haber completado el §1 de este capítulo no sabe quién entrevistar ni cómo leer las señales que produce. El §1 es la condición de posibilidad de todo el Bloque III: es el punto de entrada que hace posible que el instrumento acceda al ego colectivo como tal y no como la suma de los individuos que lo componen.
 
-Notas al capítulo B·III·1
+---
+
+## Notas al capítulo B·III·1
 
 1 La referencia a Caelus como fundamento ontológico del ego soberano establece la conexión entre este módulo y la obra publicada del paradigma. Caelus desarrolla la ontología del ego colectivo con un nivel de detalle que este instrumento no puede reproducir sin convertirse en otra obra. Lo que el Bloque III hace es tomar los conceptos de Caelus que son operativamente necesarios para la localización del ego colectivo y proveer el protocolo para usarlos en sesión. El mediador que administra el Bloque III sin haber leído Caelus trabaja con los procedimientos del instrumento, pero sin el fundamento conceptual que los justifica. Esa limitación produce errores específicos: el más frecuente es
 
-Entrevista Clínica Ontológica · ECO
 
 leer el ego soberano solo como individuo y perder la dimensión colectiva que su entrevista produce.
 
@@ -5909,14 +5687,11 @@ leer el ego soberano solo como individuo y perder la dimensión colectiva que su
 
 4 La distinción entre φ₂ cedida voluntariamente y φ₂ cedida involuntariamente que el §4 menciona brevemente merece desarrollo en Histos, no en ECO. Lo que el instrumento puede localizar es el estado actual de φ₂ —si está portada, cedida, difusa, en disputa, o apagada— y las consecuencias de ese estado para la lectura del ego colectivo. La historia de cómo φ₂ llegó a ese estado —cómo se cedió, bajo qué condiciones, qué proceso lo produjo— es el material del trabajo de acompañamiento de Histos con el ego colectivo, que el instrumento ECO prepara, pero no completa.
 
-Entrevista Clínica Ontológica · ECO
+
+# B·III·2 ·  ENTREVISTA A LOS MIEMBROS Cómo leer el colectivo a través de quien lo
 
 
-### B·III·2 ·  ENTREVISTA A LOS MIEMBROS
-
-### Cómo leer el colectivo a través de quien lo
-
-habita Técnica de entrevista orientada al colectivo · Batería de preguntas · Sesgo
+## habita Técnica de entrevista orientada al colectivo · Batería de preguntas · Sesgo
 
 del miembro
 
@@ -5926,7 +5701,6 @@ La entrevista a miembros del colectivo no es la entrevista individual de los Blo
 
 Esta distinción —el sujeto como fuente y no como objeto— cambia todo lo que el mediador hace en la entrevista. Cambia las preguntas: en lugar de «cuéntame de una vez en que algo amenazó algo importante para ti», el mediador pregunta «cuéntame de una vez en que esta organización reaccionó ante algo que percibió como amenaza». Cambia lo que el mediador observa: en lugar de observar cómo el sujeto se relaciona con el mediador como señal EP-1 de su estado individual, el mediador observa qué temperatura tiene la narrativa del sujeto sobre el colectivo y si esa temperatura corresponde al ego colectivo o al sesgo del miembro. Cambia la codificación: en lugar de producir una localización del sujeto, el
 
-Entrevista Clínica Ontológica · ECO
 
 mediador produce un vector de lectura del colectivo desde esa perspectiva, que será agregado con otras perspectivas en el §3.
 
@@ -5940,7 +5714,6 @@ La consecuencia técnica de la diferencia entre la entrevista individual y la en
 
 El principio de convergencia tiene una consecuencia para el diseño del mapa de entrevistas: el mediador debe entrevistar miembros con posiciones de v_t distintas para que la convergencia sea diagnóstica.
 
-### Entrevista Clínica Ontológica · ECO
 
 Si todos los miembros entrevistados están en Fobos, su convergencia en la descripción de un colectivo urgente no es evidencia del ego colectivo: es el consenso del sesgo compartido. El mapa de entrevistas debe incluir diversidad de posiciones de v_t, de niveles jerárquicos, de temporalidades en el colectivo, y de grados de identificación con el ego colectivo.
 
@@ -5958,7 +5731,6 @@ La pregunta ancla del Módulo Fobos: «¿Cuéntame de una situación en que sent
 
 La versión colectiva de la pregunta ancla del Módulo Fobos: «¿Cuéntame de un momento en que esta organización reaccionó ante algo que percibió como amenaza — una decisión colectiva que respondió a algo externo de manera urgente o defensiva?» — busca la firma de Fobos en el comportamiento colectivo.
 
-### Entrevista Clínica Ontológica · ECO
 
 La codificación H-1/H-2/H-3 describe la presencia o ausencia del Hijo en la configuración del sujeto individual.
 
@@ -5980,7 +5752,6 @@ Las preguntas colectivas no cambian la función del módulo — localizan lo mis
 
 Instrucción técnica para la administración de la batería: el mediador no revela que está buscando localizar al ego colectivo en los Hijos del Bloque I ni en los ejes del Bloque II. Formula las preguntas colectivas como preguntas sobre la experiencia del miembro dentro del colectivo — «¿cómo vivís tú que esta organización reacciona?»
 
-Entrevista Clínica Ontológica · ECO
 
 y no «¿en qué Hijo está esta organización?». El vocabulario técnico del sistema permanece del lado del mediador.
 
@@ -6008,7 +5779,6 @@ Bloque I — versión colectiva por módulo
 
 > Sondeo DC·2: «Cuando la organización tiene que decidir algo que no está en los procedimientos establecidos, ¿qué ocurre? ¿Hay alguien que oriente esa decisión o se queda sin resolver?» [Mediador observa: si el miembro puede nombrar decisiones específicas pendientes o si produce una narrativa general de que la organización funciona bien sin cuellos de botella. La incapacidad de identificar decisiones específicas puede ser sesgo de posición: el miembro puede no tener acceso a las decisiones estratégicas pendientes.]
 > 
-> Entrevista Clínica Ontológica · ECO
 > 
 > Módulo Anteros colectivo — el eje propio del colectivo
 >
@@ -6038,7 +5808,6 @@ Bloque I — versión colectiva por módulo
 >
 > Pregunta ancla colectiva — Eros «¿Hay algún momento en que esta organización recibió algo completamente inesperado — una perspectiva, una
 > 
-> Entrevista Clínica Ontológica · ECO
 > 
 > colaboración, un cambio del entorno — que la llevó en una dirección nueva que no habría tomado sola? ¿Cómo ocurrió eso?»
 > 
@@ -6060,7 +5829,6 @@ Bloque I — versión colectiva por módulo
 >
 > Pregunta ancla colectiva — Eje I «Cuando mira las decisiones que tomó esta organización en el período analizado, ¿cuáles diría que fueron genuinamente propias del colectivo — que el colectivo
 > 
-> Entrevista Clínica Ontológica · ECO
 > 
 > reconocería como suyas — y cuáles fueron producidas por el campo o las circunstancias sin que el colectivo las haya realmente decidido?»
 > 
@@ -6088,7 +5856,6 @@ Bloque I — versión colectiva por módulo
 >
 > Pregunta ancla colectiva — Eje III «¿Cómo describiría la relación de esta organización con otras organizaciones o con el entorno en que opera? ¿Tienden a orientar a los demás o a ser orientados? ¿Hay relaciones genuinas de influencia mutua?»
 > 
-> Entrevista Clínica Ontológica · ECO
 > 
 > 
 
@@ -6122,7 +5889,6 @@ Bloque I — versión colectiva por módulo
 
 > Sondeo TaC·2: «¿Puede esta organización describir lo que aprendió o en qué se convirtió a partir de esa pérdida — no qué quiere recuperar, sino qué diferente es por haberla vivido?» [Mediador observa: la posición del vector colectivo. TaC·1 discrimina T-1 (la irreversibilidad no se reconoce operacionalmente) de T-2 o superior. TaC·2 discrimina T-4/T-5 (el colectivo
 > 
-> ### Entrevista Clínica Ontológica · ECO
 > 
 > puede describir lo que la pérdida produjo de nuevo) de T-2/T-3 (todavía no hay acceso a la dimensión formativa porque el trabajo del duelo está en proceso).]
 
@@ -6148,7 +5914,6 @@ EP-3 para comportamientos que el miembro describe con distancia. Requiere verifi
 
 Confundir distancia con objetividad: el miembro que narra en tercera persona puede tener mayor capacidad de
 
-### Entrevista Clínica Ontológica · ECO
 
 decidió») aunque sea parte del colectivo. Hay distancia entre el miembro y el colectivo que describe.
 
@@ -6180,7 +5945,6 @@ EP-6 o inferior. Requiere exploración adicional y verificación con otros miemb
 
 Confundir fragmentación de la narrativa del miembro con complejidad del ego colectivo. El ego colectivo
 
-Entrevista Clínica Ontológica · ECO
 
 genuinamente complejo puede producir narrativas ricas y variadas; el ego colectivo fragmentado produce narrativas incoherentes. La diferencia: ¿hay principio organizador identificable?
 
@@ -6196,7 +5960,6 @@ Las señales más diagnósticas de la entrevista a miembros no son las que el mi
 
 La señal más diagnóstica de todas es la incomodidad del miembro ante la descripción de los comportamientos colectivos problemáticos. Un miembro que puede describir los comportamientos problemáticos del colectivo con temperatura de incomodidad genuina —algo que le molesta, que le preocupa, que reconoce como problemático, aunque sea leal al colectivo— está produciendo D-1 colectivo desde su perspectiva: el ego genuino del miembro registra la brecha del ego colectivo. Un miembro que describe los comportamientos problemáticos del colectivo con planitud o con justificación automática puede estar en D-2 relacional —ha apagado el instrumento de registro de la brecha del colectivo del que es parte— o puede estar describiendo un colectivo genuinamente saludable desde afuera de cualquier perspectiva crítica.
 
-Entrevista Clínica Ontológica · ECO
 
 Señales específicas para cada módulo en la entrevista colectiva
 
@@ -6208,7 +5971,6 @@ El mediador registra estas señales específicas en la hoja de sesión de cada e
 
 El sesgo del miembro es el conjunto de condicionamientos que la posición individual del entrevistado produce sobre su lectura del colectivo. No es un error del miembro: es una consecuencia estructural de que toda perspectiva sobre el colectivo es producida desde algún lugar dentro del colectivo, y ese lugar tiene las propiedades que el sistema ontológico describe — Hijo dominante, estado del ego, estructura del vínculo. El mediador que no corrige el sesgo del miembro antes de agregar las lecturas individuales produce una descripción del colectivo que es la suma de los sesgos individuales, no la lectura del ego colectivo.
 
-Entrevista Clínica Ontológica · ECO
 
 La corrección del sesgo del miembro no significa ignorar la perspectiva del miembro: significa ponderar esa perspectiva en función del sesgo identificado. Si el miembro está en Fobos y describe al colectivo como urgente ante amenazas, el mediador pondera esa descripción con la pregunta: ¿hay evidencia independiente de ese comportamiento colectivo, o corresponde exclusivamente a la lectura que un miembro en Fobos haría de cualquier colectivo? Si hay evidencia independiente, la descripción tiene peso diagnóstico. Si no hay evidencia independiente, el mediador la registra como hipótesis del sesgo y la verifica con otras fuentes.
 
@@ -6218,7 +5980,6 @@ El mediador identifica el sesgo del miembro en dos momentos. El primer momento e
 
 Un caso frecuente que merece atención específica: el miembro que está en E-4 —con eje ajeno internalizado— puede producir una lectura del colectivo que en realidad describe al Otro que internalizó y no al colectivo genuino. Si ese Otro es el liderazgo del colectivo, la lectura del miembro en E-4 puede parecer una descripción muy acertada del colectivo cuando en realidad es la descripción de la perspectiva del liderazgo internalizada por el miembro. El mediador que no identifica E-4 en el miembro puede confundir esa descripción con la del ego colectivo cuando es la descripción del eje ajeno que el miembro porta.
 
-### Entrevista Clínica Ontológica · ECO
 
 Tipo de sesgo Señal observable en la entrevista
 
@@ -6248,7 +6009,6 @@ Los miembros que se identifican fuertemente con el colectivo tienden a describir
 
 Identificar el grado de identificación del miembro con el colectivo antes de ponderar su descripción del ego colectivo. Los miembros en alta identificación son fuentes más confiables para las señales positivas del ego
 
-### Entrevista Clínica Ontológica · ECO
 
 más negativamente y pueden sobre-representar señales de disfunción.
 
@@ -6268,7 +6028,6 @@ El mediador administra preguntas de corrección de sesgo cuando detecta que la n
 
 > Pregunta de corrección de sesgo — la posición propia del miembro «¿Cómo afecta su propio rol o posición en esta organización a la manera en que ve lo que me describe? ¿Hay cosas que
 >
-> Entrevista Clínica Ontológica · ECO
 >
 > ve con más claridad desde donde está, y cosas que ve con menos claridad?» [Lo que el mediador observa: si el miembro puede reflexionar sobre los límites de su propia perspectiva. Esta es la pregunta de corrección de sesgo más directa — pregunta al miembro sobre su propio sesgo sin nombrarlo como sesgo. El miembro que puede identificar los límites de su perspectiva con precisión tiene mayor capacidad reflexiva y su descripción del colectivo tiene mayor valor diagnóstico porque está calibrada.]
 
@@ -6280,19 +6039,22 @@ El mediador administra preguntas de corrección de sesgo cuando detecta que la n
 >
 > Regla de ponderación — jerarquía de las lecturas de los miembros Las lecturas con mayor peso diagnóstico son: (1) las que producen miembros con sesgo mínimo identificado (baja proyección del estado individual sobre el colectivo), (2) las que convergen con perspectivas de miembros en posiciones de v_t distintas, (3) las que el miembro produce desde reflexividad sobre los límites de su propia perspectiva. Las lecturas con menor peso diagnóstico son: (1) las que corresponden directamente al sesgo por Hijo del miembro, (2) las que no tienen perspectivas alternativas que las corroboren, (3) las que el miembro produce sin capacidad de distinguir su perspectiva individual de la colectiva.
 >
-> Entrevista Clínica Ontológica · ECO
 >
-> Notas al capítulo B·III·2
->
-> 1 El principio de convergencia como fundamento del EP colectivo que establece el §1 tiene una consecuencia metodológica importante: el número mínimo de entrevistas a miembros para producir EP-2 del ego colectivo no es arbitrario. Con dos fuentes, la convergencia puede ser coincidencia. Con tres fuentes independientes y diversas en posición de v_t, la convergencia tiene suficiente base para EP-2. El mediador que administra solo dos entrevistas a miembros puede producir hipótesis del estado del ego colectivo, pero no puede producir localizaciones con la certeza que EP-2 requiere. En esos casos, la localización del ego colectivo debe declararse como hipótesis con EP-4 o EP-5 y la hoja de síntesis debe indicar que se requieren fuentes adicionales.
->
-> 2 La batería de preguntas colectivas del §2 es la coordinación editorial más directa entre el Bloque III y los Bloques I y II. El principio que opera en cada pregunta colectiva es el mismo: cambiar el objeto de «tú» a «esta organización/comunidad/colectivo» sin cambiar la función diagnóstica del módulo. Lo que cada módulo localiza —la posición de v_t del sujeto en el Bloque I, el estado del ego o del vínculo en el Bloque II— se localiza en el ego colectivo a través de las versiones colectivas de las preguntas. El mediador que conoce bien los módulos individuales puede adaptar sus preguntas al colectivo con la misma precisión con que las administra al individuo, si ha internalizado el principio de cambio de objeto.
->
-> 3 El sesgo del miembro en E-4 que el §4 describe es especialmente relevante en organizaciones con culturas de M-3 profundo. En un colectivo en M-3, la mayoría de los miembros pueden estar en E-4 relacional con el colectivo: han internalizado el criterio del ego soberano o del campo institucional de manera que ya no pueden distinguir su perspectiva individual de la perspectiva institucional internalizada. En esos colectivos, la mayoría de las entrevistas a miembros producen descripciones del colectivo que son el espejo del ego soberano o del campo, no perspectivas diferenciadas. El mediador que no identifica ese estado puede producir una lectura del ego colectivo que es simplemente la perspectiva del ego soberano multiplicada por el número de miembros entrevistados.
->
-> 4 Las preguntas de corrección de sesgo del §4 tienen un uso que el texto principal no desarrolla en detalle: son útiles también en la entrevista al ego soberano, no solo en la entrevista a los miembros. ### B·III·3 ·  AGREGACIÓN DE LOCALIZACIONES INDIVIDUALES
+---
 
-Del N individual al uno colectivo Protocolo de ponderación por proximidad real a φ₂ · Diagnóstico en
+## Notas al capítulo B·III·2
+
+1 El principio de convergencia como fundamento del EP colectivo que establece el §1 tiene una consecuencia metodológica importante: el número mínimo de entrevistas a miembros para producir EP-2 del ego colectivo no es arbitrario. Con dos fuentes, la convergencia puede ser coincidencia. Con tres fuentes independientes y diversas en posición de v_t, la convergencia tiene suficiente base para EP-2. El mediador que administra solo dos entrevistas a miembros puede producir hipótesis del estado del ego colectivo, pero no puede producir localizaciones con la certeza que EP-2 requiere. En esos casos, la localización del ego colectivo debe declararse como hipótesis con EP-4 o EP-5 y la hoja de síntesis debe indicar que se requieren fuentes adicionales.
+
+2 La batería de preguntas colectivas del §2 es la coordinación editorial más directa entre el Bloque III y los Bloques I y II. El principio que opera en cada pregunta colectiva es el mismo: cambiar el objeto de «tú» a «esta organización/comunidad/colectivo» sin cambiar la función diagnóstica del módulo. Lo que cada módulo localiza —la posición de v_t del sujeto en el Bloque I, el estado del ego o del vínculo en el Bloque II— se localiza en el ego colectivo a través de las versiones colectivas de las preguntas. El mediador que conoce bien los módulos individuales puede adaptar sus preguntas al colectivo con la misma precisión con que las administra al individuo, si ha internalizado el principio de cambio de objeto.
+
+3 El sesgo del miembro en E-4 que el §4 describe es especialmente relevante en organizaciones con culturas de M-3 profundo. En un colectivo en M-3, la mayoría de los miembros pueden estar en E-4 relacional con el colectivo: han internalizado el criterio del ego soberano o del campo institucional de manera que ya no pueden distinguir su perspectiva individual de la perspectiva institucional internalizada. En esos colectivos, la mayoría de las entrevistas a miembros producen descripciones del colectivo que son el espejo del ego soberano o del campo, no perspectivas diferenciadas. El mediador que no identifica ese estado puede producir una lectura del ego colectivo que es simplemente la perspectiva del ego soberano multiplicada por el número de miembros entrevistados.
+
+4 Las preguntas de corrección de sesgo del §4 tienen un uso que el texto principal no desarrolla en detalle: son útiles también en la entrevista al ego soberano, no solo en la entrevista a los miembros.
+
+# B·III·3 · AGREGACIÓN DE LOCALIZACIONES INDIVIDUALES
+
+## Del N individual al uno colectivo Protocolo de ponderación por proximidad real a φ₂ · Diagnóstico en
 
 colectivos en disociación
 
@@ -6302,7 +6064,6 @@ El paso de N localizaciones individuales a una localización colectiva es el mom
 
 La razón por la que el promedio no funciona es la misma razón por la que el ego colectivo no es la suma de los egos individuales: el ego colectivo opera a través de la segunda mediación del ego soberano, no a través de la media de las segundas mediaciones de todos los miembros. La segunda mediación del ego soberano orienta la voluntad del colectivo con una función que ningún promedio de
 
-Entrevista Clínica Ontológica · ECO
 
 segundas mediaciones individuales puede reproducir. Si diez miembros están en Deimos y el ego soberano está en Anteros, el colectivo no está en un estado intermedio entre Deimos y Anteros: el colectivo tiene el estado del ego soberano en Anteros, que puede ser confirmado, matizado o corregido por las perspectivas de los demás miembros, pero no reemplazado por ellas.
 
@@ -6316,7 +6077,6 @@ La alternativa ontológicamente correcta al promedio y a la moda es la ponderaci
 
 Este principio no significa que las localizaciones de los miembros en posiciones periféricas no tengan valor: tienen el valor específico de su nivel de proximidad. Un miembro de Nivel 4 que describe al
 
-Entrevista Clínica Ontológica · ECO
 
 colectivo como urgente ante amenazas externas no produce la misma certeza diagnóstica que el ego soberano real que produce la misma descripción, pero produce información valiosa sobre cómo la firma de Fobos se manifiesta en el nivel operativo del colectivo —lo que puede confirmar, extender o cuestionar la localización del ego soberano. La ponderación no descarta perspectivas: las ordena por su capacidad de acceder al ego colectivo genuino.
 
@@ -6330,7 +6090,6 @@ Operación 1 — Asignación de niveles de proximidad
 
 El mediador asigna a cada fuente entrevistada un nivel de proximidad a φ₂ del colectivo, usando la escala de cinco niveles que la tabla siguiente establece. La asignación no se hace solo desde el organigrama: se hace desde la combinación del organigrama y de la información producida en las entrevistas de mapeo del §2 del B·III·1. Un miembro con cargo de Nivel 2 formal que las entrevistas de mapeo revelaron como no influyente en las decisiones estratégicas puede ser reasignado a Nivel 3 o 4. Un miembro sin cargo formal que las entrevistas de mapeo revelaron como referente de orientación puede ser reasignado a Nivel 2.
 
-### Entrevista Clínica Ontológica · ECO
 
 Nivel de proximidad
 
@@ -6372,7 +6131,6 @@ Factor 0.15–0.30 — peso bajo, pero no nulo. Su lectura es útil para verific
 
 Identificados por su posición operativa o de base en el organigrama o por describir principalmente la experiencia de recibir orientación en las entrevistas de mapeo.
 
-### Entrevista Clínica Ontológica · ECO
 
 declarada y la práctica.
 
@@ -6404,7 +6162,6 @@ El ejemplo de la tabla ilustra la ponderación de las lecturas que cuatro fuente
 
 Después del cálculo de los pesos ponderados, el mediador aplica el ajuste por convergencia y divergencia. La convergencia ocurre cuando múltiples fuentes de niveles distintos producen
 
-Entrevista Clínica Ontológica · ECO
 
 localizaciones similares para el mismo componente: ese componente tiene mayor certeza diagnóstica que la que el cálculo ponderado solo produciría. El mediador puede elevar el nivel EP del componente convergente en un punto si hay convergencia de al menos tres fuentes de niveles distintos. La divergencia ocurre cuando fuentes de distintos niveles producen localizaciones sistemáticamente distintas para el mismo componente: esa divergencia puede ser señal diagnóstica por sí misma —puede indicar que el ego colectivo opera de manera distinta en distintos niveles del campo— y el mediador la registra como nota en la localización colectiva en lugar de promediarla.
 
@@ -6414,7 +6171,6 @@ Regla del ajuste por divergencia — qué registrar y qué no promediar Cuando l
 
 ### III.  Protocolo para colectivos en disociación
 
-### Entrevista Clínica Ontológica · ECO
 
 Cuando el protocolo de identificación del ego soberano (§1 del Bloque III) no produce un actor claro que porte φ₂ de manera efectiva, el protocolo estándar de ponderación por proximidad no puede aplicarse directamente: no hay un Nivel 1 identificado al que asignar el factor máximo. En ese estado —la disociación de φ₂ en cualquiera de sus formas— el protocolo de agregación se modifica para producir primero el diagnóstico del estado colectivo y luego la lectura más aproximada posible del ego colectivo desde las fuentes disponibles.
 
@@ -6438,7 +6194,6 @@ Declarar la difusión de φ₂ como condición diagnóstica primaria. Producir l
 
 φ₂ difusa — ningún actor porta φ₂ de manera identificable
 
-### Entrevista Clínica Ontológica · ECO
 
 localizaciones de los distintos miembros no convergen hacia ningún punto focal.
 
@@ -6466,7 +6221,6 @@ Identificar al actor que porta φ₂ de facto en el período de transición y pr
 
 ### El mediador que trabaja con un colectivo en disociación lee el organigrama de la siguiente manera. Primero: ¿cuántos niveles
 
-Entrevista Clínica Ontológica · ECO
 
 jerárquicos tiene el organigrama en relación al tamaño del colectivo? Un organigrama con muchos niveles para un colectivo pequeño es señal de que la coordinación sustituyó la orientación —la firma de φ₂ difusa. Segundo: ¿cuántos comités o grupos de trabajo existen con responsabilidades que se superponen o son vagas? La multiplicación de comités es la estructura que el colectivo produce cuando ningún actor puede ejercer φ₂ de manera que el colectivo reconozca —la firma de φ₂ en disputa. Tercero: ¿hay roles cuyo nombre describe función de orientación, pero cuyos titulares no pueden describir la orientación del colectivo con temperatura interna? Esos roles son la firma de φ₂ cedida al cargo formal sin que el cargo sea portado efectivamente.
 
@@ -6476,7 +6230,6 @@ Producción del diagnóstico del estado colectivo en disociación
 
 El diagnóstico del estado colectivo en disociación que el protocolo produce no es la localización del ego colectivo en los módulos estándar: es la descripción de la condición de φ₂ que hace imposible esa localización con la certeza estándar. El diagnóstico tiene tres componentes. El primero: el tipo de disociación de φ₂ (en disputa, difusa, apagada, cedida al fantasma, cedida temporalmente). El segundo: la evidencia que sustenta ese diagnóstico (qué señales documentales y qué señales de las entrevistas producen esa conclusión). El tercero: las consecuencias para la localización del ego colectivo (qué componentes de la localización pueden producirse con alguna certeza y qué componentes quedan suspendidos o son solo hipótesis de bajo EP).
 
-### Entrevista Clínica Ontológica · ECO
 
 El diagnóstico del estado colectivo en disociación es en sí mismo un resultado valioso del instrumento. Un colectivo en φ₂ difusa tiene implicaciones claras para el trabajo de Histos colectivo (crear las condiciones para que φ₂ pueda concentrarse en un ego soberano real), para el análisis de responsabilidad del Método Prometeo (los actos del colectivo durante la difusión tienen S más alto porque el sesgo acumulado no fue procesado por la segunda mediación) y para el Mediador Organizacional que diseña intervenciones de cambio (las intervenciones que presuponen un ego soberano con φ₂ efectiva van a fracasar en un colectivo en disociación).
 
@@ -6500,7 +6253,6 @@ El código del estado del ego del colectivo, producido
 
 Entrevista al ego soberano real (§3 del B·III·1) con
 
-### Entrevista Clínica Ontológica · ECO
 
 principalmente desde la entrevista al ego soberano real y verificado por las entrevistas a miembros de Nivel 2.
 
@@ -6530,7 +6282,6 @@ La posición del colectivo en el vector del duelo, producida desde las descripci
 
 Convergencia con especial peso en las fuentes con mayor antigüedad en el colectivo (tienen acceso a la historia del duelo institucional) y en las entrevistas a artefactos colectivos del §4 del Bloque III.
 
-### Entrevista Clínica Ontológica · ECO
 
 Nota de convergencia/divergencia
 
@@ -6550,7 +6301,6 @@ La distribución P(Hijos) colectivo tiene las mismas propiedades que la distribu
 
 La distribución P(Hijos) colectivo incluye para cada peso: el valor ponderado resultante del protocolo, el EP colectivo de ese peso (que puede ser menor que el EP de la localización individual del ego soberano si hay poca convergencia de otras fuentes), y la nota de convergencia o divergencia entre las fuentes. Un peso de P(Fobos) colectivo de 0.58 con convergencia de tres fuentes de niveles distintos y EP colectivo de EP-2 tiene mayor certeza diagnóstica que un P(Fobos) colectivo de 0.70 producido exclusivamente desde la localización del ego soberano con poca verificación de otras fuentes.
 
-Entrevista Clínica Ontológica · ECO
 
 Expresión de los códigos de Eje colectivo
 
@@ -6564,7 +6314,6 @@ La nota de convergencia/divergencia no es una descripción secundaria de la loca
 
 La nota de convergencia/divergencia identifica: los componentes de alta convergencia (al menos tres fuentes de niveles distintos producen localizaciones similares), los componentes de convergencia media (dos fuentes de niveles distintos), los componentes con divergencia localizada entre niveles (con descripción de qué niveles divergen y en qué dirección), y los
 
-Entrevista Clínica Ontológica · ECO
 
 componentes sin convergencia (solo una fuente o sin convergencia de ninguna fuente). Esta nota orienta directamente el diseño del trabajo de Histos colectivo: los componentes de alta convergencia son los más confiables como punto de partida del acompañamiento; los componentes con divergencia requieren mayor exploración antes de que el trabajo de Histos pueda usarlos.
 
@@ -6576,9 +6325,10 @@ El mediador declara el nivel de certeza global de la localización colectiva ant
 
 El nivel de certeza global de la localización colectiva nunca puede ser mayor que el nivel de certeza de la localización del ego soberano real: si el ego soberano fue identificado con certeza media (dos fuentes de mapeo convergentes sin la tercera fuente requerida), el nivel de certeza global de la localización colectiva es, como máximo, hipótesis de certeza media, independientemente de cuántas otras fuentes confirmen las localizaciones de los demás miembros. La certeza de la localización del ego soberano real es el techo de la certeza de la localización colectiva.
 
-Entrevista Clínica Ontológica · ECO
 
-Notas al capítulo B·III·3
+---
+
+## Notas al capítulo B·III·3
 
 1 La distinción entre promedio y ponderación por proximidad que establece el §1 tiene implicaciones metodológicas que van más allá del Bloque III. El mismo principio aplica a cualquier situación en que el análisis de un ego colectivo requiere agregar perspectivas individuales de actores con distintos grados de acceso al ego colectivo genuino. En el análisis de responsabilidad del Método Prometeo, por ejemplo, la estimación de R* para un colectivo requiere ponderar las perspectivas de los distintos actores que participaron en la producción del evento causal de manera análoga a como el Bloque III pondera las localizaciones individuales: mayor peso a los actores más cercanos a φ₂, menor peso a los más periféricos.
 
@@ -6588,14 +6338,11 @@ Notas al capítulo B·III·3
 
 4 El formato de la localización colectiva que el §4 establece puede parecer más complejo que el de la localización individual. Esa complejidad está justificada: la localización colectiva es estructuralmente más incierta que la individual porque depende de múltiples fuentes con distintos niveles de acceso al ego colectivo. La declaración explícita de esa incertidumbre — a través de los niveles EP por componente, la nota de convergencia/divergencia, y la declaración del nivel de certeza global — no debilita la utilidad de la localización colectiva: la hace más honesta y más útil para Histos colectivo, que necesita saber con qué certeza puede contar cada componente de la localización para diseñar el trabajo de acompañamiento.
 
-Entrevista Clínica Ontológica · ECO
+
+# B·III·4 ·  ANÁLISIS DE ARTEFACTOS COLECTIVOS
 
 
-### B·III·4 ·  ANÁLISIS DE ARTEFACTOS
-
-### COLECTIVOS
-
-El expediente del ego colectivo Tipología de evidencia · Grupos focales ontológicos · Observación de
+## El expediente del ego colectivo Tipología de evidencia · Grupos focales ontológicos · Observación de
 
 juntas · Cruce artefacto/entrevista
 
@@ -6605,7 +6352,6 @@ El ego colectivo no solo puede localizarse a través de entrevistas al ego sober
 
 El análisis de artefactos tiene dos funciones en el Bloque III. La primera es la función de corroboración: cuando las entrevistas al ego soberano y a los miembros ya produjeron localizaciones, los artefactos verifican si esas localizaciones corresponden al comportamiento observable del colectivo o si hay discordancias que requieren investigación adicional. La segunda función es la de acceso alternativo: cuando la entrevista directa no es posible —porque el ego soberano no está disponible, porque el colectivo es muy
 
-Entrevista Clínica Ontológica · ECO
 
 numeroso para entrevistas exhaustivas, o porque el período analizado es histórico y los actores ya no están accesibles— los artefactos producen la localización del ego colectivo desde la evidencia disponible.
 
@@ -6617,7 +6363,6 @@ El árbol documental adaptado al ego colectivo
 
 El Capítulo U·1 de la Taxonomía establece la jerarquía de evidencia documental para el análisis individual: E0 (evento directo) a E8 (dicho único sin corroboración). Esa jerarquía aplica al ego colectivo con un ajuste central: la fuente de la evidencia no es el individuo sino el colectivo como sistema. Un documento que el ego soberano produjo en nombre del colectivo tiene mayor peso diagnóstico sobre el ego colectivo que un documento que un miembro periférico produjo sobre el colectivo. Un acuerdo tomado en junta plenaria con registro de deliberación tiene mayor peso diagnóstico que un comunicado externo de prensa. El árbol documental colectivo sigue la misma lógica de la jerarquía de evidencia, pero la proximidad a φ₂ reemplaza a la proximidad al evento en la determinación del nivel EP.
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- TABLA: tipología de artefactos | columnas: tipo de artefacto, información producida, nivel EP colectivo máximo, limitación diagnóstica -->
 
@@ -6645,7 +6390,6 @@ EP-2 colectivo para patrones que aparecen en múltiples documentos del mismo per
 
 Los documentos pueden expresar la máscara colectiva (M-3) más que el ego colectivo genuino: están diseñados para la comunicación institucional y pueden reflejar lo
 
-### Entrevista Clínica Ontológica · ECO
 
 aplica al ego colectivo con los ajustes del Bloque III.
 
@@ -6667,7 +6411,6 @@ Señales indirectas del estado del ego colectivo que pueden corroborar o cuestio
 
 EP-4 o inferior para cualquier localización. Las métricas no producen señal diagnóstica directa: requieren interpretación desde el marco conceptual del sistema ontológico.
 
-Entrevista Clínica Ontológica · ECO
 
 La cultura material como artefacto diagnóstico
 
@@ -6679,7 +6422,6 @@ La señal diagnóstica de la cultura material para el estado actual del ego cole
 
 El grupo focal con técnica ontológica es el instrumento más innovador del Bloque III —y el que más claramente se diferencia de los grupos focales de la investigación cualitativa ordinaria. La diferencia no es de técnica de facilitación ni de preguntas: es de objeto de análisis. En el grupo focal ordinario, el objeto de análisis es lo que los participantes piensan, sienten u opinan sobre un tema. En el grupo focal ontológico, el objeto de análisis es el ego colectivo que se produce en la dinámica del grupo: la manera en que el grupo delibera, se orienta, acuerda, paraliza, evita o afronta los temas que el mediador introduce.
 
-Entrevista Clínica Ontológica · ECO
 
 La premisa del grupo focal ontológico es que la dinámica de un grupo que incluye al ego soberano real y a miembros de distintos niveles de proximidad a φ₂ reproduce en tiempo real la dinámica del ego colectivo. El grupo no es una muestra representativa de opiniones individuales: es una instancia del ego colectivo produciendo su segunda mediación en presencia del mediador. Lo que el mediador observa en el grupo focal ontológico no es lo que los participantes dicen: es cómo el grupo dice lo que dice, y desde qué posición del ego colectivo lo produce.
 
@@ -6691,7 +6433,6 @@ La selección de los participantes incluye también un criterio de diversidad de
 
 <!-- TABLA: comparación de formatos grupales | columnas: técnica ontológica, entrevista cualitativa ordinaria, diferencias de objetivo y resultado -->
 
-### Entrevista Clínica Ontológica · ECO
 
 Pregunta al grupo: «¿Qué piensan ustedes sobre X?». Busca los contenidos de la opinión grupal sobre el objeto X. El resultado es un mapa de opiniones individuales y de la dinámica de influencia en la formación del consenso o del disenso del grupo.
 
@@ -6717,9 +6458,8 @@ El análisis del consenso del grupo produce la posición colectiva sobre el tema
 
 Las preguntas del grupo focal ontológico no son preguntas de opinión: son preguntas que activan la voluntad colectiva del grupo de la misma manera que las preguntas de los módulos activan la voluntad individual en la entrevista estándar. El principio de diseño es el mismo que produce las preguntas de los módulos individuales: la pregunta no debe tener respuesta correcta obvia, debe producir
 
-Entrevista Clínica Ontológica · ECO
 
-### deliberación genuina en el grupo, y debe activar la dimensión de la voluntad colectiva que el módulo busca localizar.
+deliberación genuina en el grupo, y debe activar la dimensión de la voluntad colectiva que el módulo busca localizar.
 
 > Pregunta de apertura del grupo focal ontológico «Me gustaría que como grupo me contaran algo que esta organización hizo en el período que estamos analizando — algo que fue importante y que requirió que el grupo tuviera que decidir juntos hacia dónde ir. No lo que resultó bien o mal: cómo se tomó esa decisión, desde dónde se orientó.» [El mediador formula la pregunta y observa: ¿quién habla primero? ¿Quién establece el marco de la narración? ¿Hay miembros que amplían, corrigen o contestan la narrativa del primero? ¿El grupo produce una narración coherente del colectivo o las perspectivas son tan distintas que no pueden integrarse? La dinámica de los primeros diez minutos del grupo focal ontológico produce señal diagnóstica de alta densidad sobre el ego colectivo.]
 >
@@ -6770,7 +6510,6 @@ La presencia de al menos un actor que puede disentir sin que el campo se destruy
 
 Confundir la ausencia de disenso con consenso genuino. En M-3, el disenso no aparece porque no tiene
 
-### Entrevista Clínica Ontológica · ECO
 
 silencio, o por la ratificación de una posición ya tomada?
 
@@ -6804,7 +6543,6 @@ El actor que puede interrumpir una
 
 Confundir la capacidad de interrumpir con
 
-Entrevista Clínica Ontológica · ECO
 
 deliberación cuando esta se orienta en una dirección que no es la del ego soberano real? ¿Cómo lo hace?
 
@@ -6820,7 +6558,6 @@ Los rituales institucionales —la inauguración del año de trabajo, la celebra
 
 Los rituales de incorporación son especialmente diagnósticos sobre el Eje II (mascarada): si la incorporación de nuevos miembros reproduce la máscara M-3 de manera sistemática —induciendo a los nuevos miembros en el código de presentación institucional antes de que puedan conocer el ego colectivo genuino— el ritual de incorporación es un mecanismo de transmisión de M-3. Si la incorporación permite que el nuevo miembro encuentre el ego colectivo genuino antes de la máscara, el ritual orienta hacia M-1. El mediador que puede observar un ritual de incorporación tiene acceso a una señal diagnóstica de alta especificidad sobre el Eje II que los
 
-Entrevista Clínica Ontológica · ECO
 
 documentos institucionales raramente producen con la misma claridad.
 
@@ -6836,7 +6573,6 @@ Los cuatro tipos de relación entre artefactos y entrevistas
 
 El mediador puede encontrar cuatro tipos de relación entre la evidencia de los artefactos y la de las entrevistas. El primer tipo es la convergencia: los artefactos confirman lo que las entrevistas produjeron. Un colectivo que las entrevistas localizan en Fobos produce juntas urgentes, documentos con lenguaje defensivo ante
 
-Entrevista Clínica Ontológica · ECO
 
 amenazas externas, y rituales orientados a la protección del territorio institucional. La convergencia eleva el EP de la localización en un punto. El segundo tipo es la divergencia parcial: los artefactos confirman algunas localizaciones y cuestionan otras. El colectivo puede estar en Fobos en sus comunicaciones externas (los documentos producen la firma de Fobos) pero en Deimos en sus juntas internas (la deliberación produce parálisis). Esa divergencia es señal diagnóstica de que el ego colectivo opera de manera distinta en distintos campos del colectivo — una forma específica de heterogeneidad del ego colectivo que el instrumento puede localizar con precisión.
 
@@ -6860,11 +6596,13 @@ Regla de cruce — qué hacer con cada tipo de relación Convergencia total → 
 > La divergencia entre los artefactos (que producen la firma de la máscara) y las entrevistas (que pueden producir señales del ego colectivo genuino cuando el mediador crea las condiciones para que emerja) es precisamente la señal diagnóstica de M-3 profundo. El mediador que puede leer esa divergencia y traducirla en el código M-3 colectivo tiene acceso a la información más crítica para el trabajo de Histos colectivo: el colectivo no es lo que sus artefactos muestran,
 >
 
-### y el trabajo de acompañamiento no puede comenzar desde la máscara sino desde el ego genuino que las entrevistas pudieron localizar.
+y el trabajo de acompañamiento no puede comenzar desde la máscara sino desde el ego genuino que las entrevistas pudieron localizar.
 
 Regla del cruce para M-3 profundo Cuando los artefactos producen consistentemente la firma de E-1 colectivo con Anteros, y las entrevistas producen sistemáticamente la firma de E-4 colectivo con criterio ajeno internalizado, la convergencia aparente es en realidad divergencia: los artefactos muestran la máscara de Anteros (M-3), las entrevistas muestran E-4 colectivo. La localización colectiva correcta es E-4 con M-3, no E-1. El mediador que produce la localización solo desde los artefactos produce la localización de la máscara y no del ego colectivo genuino.
 
-Notas al capítulo B·III·4
+---
+
+## Notas al capítulo B·III·4
 
 1 La tipología de artefactos del §1 sigue la misma lógica jerárquica que el árbol documental del Capítulo U·1 de la Taxonomía, con la adaptación colectiva que el Bloque III requiere. El principio de que la proximidad al objeto de análisis determina el EP de la evidencia aplica de la misma manera: un grupo focal que incluye al ego soberano real y produce dinámica observable en tiempo real tiene mayor EP diagnóstico que un documento que el ego soberano produjo para comunicación externa. La jerarquía del árbol documental original —E0 a E8 — se traduce en el Bloque III como: dinámica observable en tiempo real (E0–E1 colectivo), entrevistas al ego soberano y miembros de Nivel 1–2 (E2–E3 colectivo), documentos internos de alta jerarquía (E4 colectivo), documentos de comunicación externa (E5–E6 colectivo), cultura material histórica (E7–E8 colectivo).
 
@@ -6872,20 +6610,16 @@ Notas al capítulo B·III·4
 
 3 La observación del efecto del observador en las juntas institucionales que el §3 menciona tiene una consecuencia práctica que el texto no desarrolla: en
 
-Entrevista Clínica Ontológica · ECO
 
 colectivos con M-3 profundo, el efecto del observador puede ser especialmente intenso porque el colectivo puede producir una versión más cuidadosa de su máscara en presencia del mediador. En esos colectivos, la observación de la junta puede producir EP-1 de M-3 (la máscara se intensifica ante el observador externo) sin acceder al ego colectivo genuino. El mediador que puede distinguir la máscara intensificada por la presencia del observador de la dinámica genuina del colectivo necesita comparar la junta observada con la descripción de juntas típicas que los miembros producen en las entrevistas individuales: si la junta observada es descrita por los miembros como «diferente a como normalmente son nuestras reuniones», el mediador tiene EP-1 de M-3 bajo presión del observador, que es información diagnóstica de primer orden.
 
 4 El protocolo de cruce artefacto/entrevista que el §4 establece como herramienta para leer M-3 profundo tiene una aplicación inversa que puede ser igualmente importante: cuando las entrevistas producen la firma de M-3 pero los artefactos producen señales del ego colectivo genuino, puede ser señal de que el ego colectivo genuino tiene acceso a la expresión a través de los artefactos, aunque no pueda expresarse en las entrevistas. Eso puede ocurrir en colectivos con fuerte presión del ego soberano formal sobre la expresión individual: los miembros pueden ajustar sus narrativas en la entrevista a lo que el ego soberano formal espera, mientras que en los artefactos que producen en el día a día (las comunicaciones informales, los espacios que personalizan, los rituales que producen espontáneamente) el ego colectivo genuino tiene más libertad de expresión.
 
-Entrevista Clínica Ontológica · ECO
+
+# B·III·5 ·  MEMORIA COMUNITARIA — LO QUE FUE, LO QUE ES, LO QUE PUDO SER La estructura triádica de la Memoria
 
 
-### B·III·5 ·  MEMORIA COMUNITARIA — LO QUE FUE, LO QUE ES, LO QUE PUDO SER
-
-### La estructura triádica de la Memoria
-
-Comunitaria Sección específica para el Mediador en Memoria Comunitaria · Rescate
+## Comunitaria Sección específica para el Mediador en Memoria Comunitaria · Rescate
 
 cultural · Patrimonio inmaterial · Memoria histórica
 
@@ -6895,7 +6629,6 @@ El trabajo del Mediador en Memoria Comunitaria opera en tres dimensiones simult�
 
 La estructura triádica distingue el trabajo del Mediador en Memoria Comunitaria de cualquier otra forma de trabajo con la memoria histórica. La historiografía trabaja con lo que fue: reconstruye el pasado con el mayor rigor factual posible. La antropología cultural trabaja con lo que es: describe el estado actual de las prácticas, los valores y las estructuras de sentido de la comunidad. El trabajo de memoria comunitaria ordinario puede trabajar con lo que pudo ser, pero frecuentemente lo hace desde el marco de la denuncia —lo que
 
-Entrevista Clínica Ontológica · ECO
 
 se le quitó a la comunidad— más que desde el marco de la comprensión ontológica de las posibilidades no colapsadas.
 
@@ -6909,7 +6642,6 @@ Las tres dimensiones de la estructura triádica no se trabajan en secuencia line
 
 Lo que fue Lo que es Lo que pudo ser
 
-### Entrevista Clínica Ontológica · ECO
 
 El pasado de la comunidad como configuración activa de la voluntad colectiva que existió. No el pasado como recuerdo ni como historia: el pasado como ego colectivo que tenía Hijos, estados del ego, estructura de vínculos, posición en el vector tanatológico — y que esas configuraciones orientaron actos colectivos que dejaron huellas en el presente.
 
@@ -6939,7 +6671,6 @@ Riesgo principal: hacer del presente un juicio del pasado. El estado actual del 
 
 ### La estructura triádica de la Memoria Comunitaria está directamente fundamentada en el vector tanatológico del Módulo Eje V del
 
-Entrevista Clínica Ontológica · ECO
 
 Bloque II. «Lo que fue» corresponde a la reconstrucción del ego colectivo antes del evento fundante (T-0) del vector tanatológico colectivo — la pérdida irrecuperable que fracturó el vínculo y produjo la ruptura entre lo que la comunidad era y lo que llegó a ser. «Lo que es» corresponde a la localización del ego colectivo en el momento presente del vector — desde T-1 hasta T-6 según la posición en que el duelo colectivo se encuentra. «Lo que pudo ser» es la lectura del evento fundante desde las posibilidades que canceló — la comprensión de qué futuros se volvieron imposibles cuando la pérdida ocurrió.
 
@@ -6953,7 +6684,6 @@ Los portadores de memoria — tipología y EP para «lo que fue»
 
 El acceso a la configuración del ego colectivo pasado requiere identificar quién porta esa memoria y qué tipo de acceso tiene. La tipología que sigue establece cuatro tipos de portadores de memoria
 
-### Entrevista Clínica Ontológica · ECO
 
 y el EP que cada uno produce para la localización de «lo que fue». La tipología no jerarquiza el valor cultural o humano de cada tipo: jerarquiza la precisión diagnóstica del acceso que cada tipo tiene al ego colectivo pasado.
 
@@ -6989,7 +6719,6 @@ EP-3 desde la perspectiva crítica cuando corrobora o cuestiona las narrativas d
 
 El sesgo del ex-miembro disidente: quien se fue del colectivo en conflicto puede sobre-
 
-### Entrevista Clínica Ontológica · ECO
 
 puede describir el período pasado con distancia crítica, incluyendo sus disfunciones y sus conflictos.
 
@@ -7023,8 +6752,6 @@ La entrevista a portadores de memoria vivida es la fuente de mayor EP diagnósti
 > Sondeo MPV·3 — La señal del ego genuino pasado «¿Había algo que la comunidad sabía que debía ser diferente — algo que no terminaba de encajar con cómo vivían, que producía incomodidad, aunque no pudiera resolverse?» [Lo que el mediador busca: el Eje IV colectivo del período pasado. Si el colectivo pasado tenía D-1 activo (la señal del ego genuino registraba la brecha), esa señal puede haber sido parte del tejido que la pérdida destruyó — o puede haber sido la brecha que la pérdida llegó a fracturar de manera definitiva. El portador que puede identificar esa
 
 
-### Entrevista Clínica Ontológica · ECO
-
 incomodidad colectiva pasada con temperatura de recuerdo genuino produce EP-2 para el Eje IV pasado del colectivo.]
 
 ### Distinguir memoria genuina de memoria construida
@@ -7047,7 +6774,6 @@ Incluye lo negativo: la memoria genuina del ego colectivo pasado incluye los con
 
 Tiende a idealizar: la narrativa construida sobre el pasado del colectivo tiende a eliminar los conflictos y a sobre-
 
-### Entrevista Clínica Ontológica · ECO
 
 disfunciones junto con los momentos de mayor vitalidad. El portador puede nombrar ambos porque los vivió.
 
@@ -7079,7 +6805,6 @@ Cuando el trabajo de Memoria Comunitaria incluye el rescate de patrimonio inmate
 
 La localización de «lo que es» en el trabajo de Memoria Comunitaria tiene una dificultad específica que los demás contextos de aplicación del Bloque III no tienen en la misma medida: en muchas comunidades con historia de ruptura, el ego colectivo presente está en un estado avanzado de D-2 colectivo (la anestesia ontológica instalada como consecuencia de la ruptura no habitada) o en T-1 crónico del Eje V (la negación de la irreversibilidad de la pérdida que perpetúa la tiranía utópica). Esos estados afectan la administración del instrumento: un ego colectivo en D-2 profundo puede no poder producir señal diagnóstica confiable de su estado actual porque el instrumento de registro del ego genuino se apagó.
 
-Entrevista Clínica Ontológica · ECO
 
 La posición del Eje V colectivo como determinante de la capacidad de «lo que es»
 
@@ -7092,7 +6817,6 @@ Antes de administrar la localización de «lo que es», el mediador en Memoria C
 
 ### IV.  Lo que pudo ser — el Eje V de la comunidad
 
-Entrevista Clínica Ontológica · ECO
 
 «Lo que pudo ser» es la dimensión más compleja de la triada y la más específica del trabajo de Memoria Comunitaria. Localiza las posibilidades que el evento fundante del vector tanatológico colectivo (T-0) canceló: lo que el colectivo podría haber sido si la pérdida no hubiera ocurrido, o si hubiera ocurrido de manera diferente. No es una idealización contrafáctica del pasado: es la comprensión de las posibilidades que estaban disponibles para el ego colectivo antes del evento de pérdida y que ese evento hizo irrecuperables.
 
@@ -7104,7 +6828,6 @@ La pérdida irrecuperable constitutiva del colectivo — localización específi
 
 El primer paso de «lo que pudo ser» es la localización precisa del evento fundante del vector tanatológico colectivo (T-0) y de la naturaleza de la pérdida irrecuperable que ese evento produjo. ¿Qué perdió el colectivo cuando ocurrió T-0? No solo los hechos de lo que se perdió —el territorio, la práctica, el principio organizador, el
 
-Entrevista Clínica Ontológica · ECO
 
 liderazgo— sino la configuración del ego colectivo que esa pérdida hizo imposible en su forma original. Un colectivo que perdió un territorio perdió más que el espacio físico: perdió la configuración de la voluntad colectiva que ese territorio hacía posible —las prácticas, los rituales, los saberes que ese espacio producía y que ese espacio requería.
 
@@ -7150,7 +6873,6 @@ El principio de intervención más importante del trabajo de Memoria Comunitaria
 
 El tercer error, el más sutil, es el de producir la integración del duelo antes de que el colectivo pueda habitarla. El mediador que, ante el
 
-Entrevista Clínica Ontológica · ECO
 
 duelo comunitario activo (T-2), introduce marcos de resignificación o de apertura hacia el futuro está haciendo con el duelo comunitario exactamente lo que el instrumento prohíbe hacer con el duelo individual: calmar la señal antes de que pueda leerse. El duelo comunitario, como el individual, necesita espacio para producirse. El mediador que lo cierra antes de que pueda abrirse produce comunidades que parecen haber elaborado la pérdida —porque el mediador les dio el marco de la integración— sin haber habitado el duelo que la integración genuina requiere.
 
@@ -7164,7 +6886,6 @@ Las tres preguntas del trabajo de Memoria Comunitaria en Histos
 
 El trabajo de ECO en el contexto de Memoria Comunitaria produce las localizaciones de la triada. El trabajo de Histos colectivo —que este instrumento no desarrolla, pero al que debe entregar sus
 
-Entrevista Clínica Ontológica · ECO
 
 resultados— opera desde tres preguntas que son la traducción de la triada en trabajo de acompañamiento. La primera: «¿cómo puede este ego colectivo honrar lo que fue sin quedar atrapado en ello?» Esa pregunta opera sobre el eje de la triada «lo que fue» y requiere que el colectivo esté en T-3 o superior del Eje V para poder ser abordada. La segunda: «¿cómo puede este ego colectivo estar en lo que es sin que eso sea una traición a lo que fue?» Esa pregunta requiere que el colectivo pueda distinguir el presente del pasado sin que la distinción produzca culpa de traición — lo que corresponde a T-4 o superior. La tercera: «¿qué puede ser este ego colectivo que incorpore lo que fue sin ser idéntico a ello?» Esa pregunta, la más difícil, requiere que el colectivo pueda imaginar un futuro genuinamente nuevo — lo que corresponde a T-5 o T-6.
 
@@ -7174,9 +6895,10 @@ Una nota sobre el tiempo en el trabajo de Memoria Comunitaria
 
 El trabajo de Memoria Comunitaria tiene una característica que distingue su escala temporal del trabajo individual: el ego colectivo opera en tiempos históricos que pueden extenderse generaciones, y el vector tanatológico colectivo puede tener posiciones que se fijaron antes de que ninguno de los miembros actuales estuviera vivo. El mediador en Memoria Comunitaria trabaja con generaciones que portan el duelo de sus predecesores sin haberlo vivido directamente, y con posibilidades que se perdieron antes de que nadie de los presentes pudiera imaginarlas desde la experiencia. Esa extensión temporal no invalida el instrumento: lo amplía. Las localizaciones del Bloque III §5 son localizaciones de la configuración del ego colectivo a través del tiempo — algo que ningún instrumento diseñado solo para el ego individual puede producir con la misma precisión.
 
-Entrevista Clínica Ontológica · ECO
 
-Notas al capítulo B·III·5
+---
+
+## Notas al capítulo B·III·5
 
 1 La estructura triádica de la Memoria Comunitaria —lo que fue, lo que es, lo que pudo ser— tiene su fundamento en la obra Caelus del paradigma y en el desarrollo del Mediador en Memoria Comunitaria como sexto perfil del sistema. La triada no es una metáfora narrativa: es una estructura de localización ontológica que usa el instrumento completo del Bloque I y el Bloque II en tres momentos temporales distintos del mismo ego colectivo. Su innovación conceptual respecto a otros marcos de trabajo con la memoria histórica es que localiza la voluntad colectiva (no los hechos históricos) en cada uno de los tres momentos, y que el trabajo de Histos colectivo opera sobre esas tres localizaciones para crear las condiciones del movimiento en el vector tanatológico.
 
@@ -7186,18 +6908,14 @@ Notas al capítulo B·III·5
 
 4 Las tres preguntas de Histos colectivo que el §5 introduce —cómo honrar lo que fue sin quedar atrapado, cómo estar en lo que es sin que sea traición, qué puede ser que incorpore lo que fue sin ser idéntico— son la formulación más condensada de todo el trabajo de Histos colectivo en el contexto de Memoria Comunitaria. Histos colectivo es la obra que desarrollará esas tres preguntas con el mismo nivel de detalle que este instrumento desarrolla las localizaciones de ECO. La referencia a Histos en esta nota es intencional: el mediador que trabaja con el Bloque III §5 debe saber que el instrumento que tiene en las manos es el instrumento de localización, y que el trabajo de acompañamiento
 
-Entrevista Clínica Ontológica · ECO
 
 que esas localizaciones hacen posible requiere el instrumento Histos que el paradigma está desarrollando en paralelo.
 
-Entrevista Clínica Ontológica · ECO
+
+# B·IV·1 · PRINCIPIOS GENERALES DE INTERVENCIÓN
 
 
-### B·IV ·  PRINCIPIOS GENERALES DE
-
-### INTERVENCIÓN
-
-Lo que el instrumento pide del mediador Los cinco errores más frecuentes · Uso de la localización sin nombrarla ·
+## Lo que el instrumento pide del mediador Los cinco errores más frecuentes · Uso de la localización sin nombrarla ·
 
 Cuándo ECO se ha agotado · Cómo pasar a Histos
 
@@ -7207,7 +6925,6 @@ La hipótesis de trabajo del Bloque IV es que la mayoría de los errores que com
 
 ### I.  Lo que el mediador nunca hace con lo que encontró
 
-### Entrevista Clínica Ontológica · ECO
 
 Esta sección establece los cinco errores de intervención post-localización más frecuentes y más dañinos. Los cinco son conductas que el mediador puede ejecutar con buena intención y con la creencia de que está ayudando —lo que los hace especialmente importantes de nombrar con precisión. No son errores éticos en el sentido de que el mediador quiera dañar: son errores ontológicos en el sentido de que el mediador interviene desde una comprensión incorrecta de cómo funciona el proceso de acompañamiento.
 
@@ -7237,7 +6954,6 @@ Contamina la relación del sujeto con su propia localización. El sujeto busca m
 
 El sujeto empieza a producir señales de la localización que percibe como más deseable en el sistema. Las señales de Anteros o de E-1 se multiplican aunque no correspondan
 
-### Entrevista Clínica Ontológica · ECO
 
 al estado del sujeto.
 
@@ -7263,7 +6979,6 @@ El primer error es el más frecuente y el que produce el daño más difícil de 
 
 El mecanismo específico de daño tiene dos formas. La primera es la activación de la egolatría propia del sujeto: si el mediador le dice que está en Anteros o en E-1, el sujeto que tiene egolatría de persona íntegra y con criterio propio adopta esa localización como
 
-Entrevista Clínica Ontológica · ECO
 
 confirmación de una imagen que ya tenía y que ahora tiene validación técnica. Ese sujeto no trabaja con Anteros: habita la imagen de Anteros que le confirma lo que ya pensaba de sí mismo. La segunda forma es el colapso ante el diagnóstico: si el mediador le dice que está en M-2 o en D-2, el sujeto que no tiene acceso a los recursos para integrar esa información puede producir una crisis de identidad que el proceso de acompañamiento no estaba preparado para sostener. Ni la primera ni la segunda forma produce las condiciones para el trabajo de Histos.
 
@@ -7275,7 +6990,6 @@ La regla más importante del instrumento sobre este error: la localización que 
 
 La instrucción técnica específica: el mediador puede usar el lenguaje del sistema para documentar y para pensar el caso, pero no para hablar con el sujeto. «El sujeto está en T-3 con señal de Fobos activo» es una nota interna del mediador. «Parece que hay algo que produce urgencia en cómo describes este período» es la manera en
 
-Entrevista Clínica Ontológica · ECO
 
 que esa nota interna puede traducirse al campo de la sesión sin revelar la localización.
 
@@ -7289,7 +7003,6 @@ La intervención prematura es especialmente problemática en los casos de D-2: s
 
 ⊗  E·2 — La intervención prematura
 
-Entrevista Clínica Ontológica · ECO
 
 Descripción: El mediador interviene sobre la localización de ECO antes de que el proceso de Histos haya creado las condiciones para que el ego genuino del sujeto pueda producir señal desde esa localización. Mecanismo de daño: El proceso de acompañamiento trabaja sobre la capa de adaptación del sujeto (M-2, E-4, o la suma fáctica de E-2) que produce la respuesta que el proceso demanda, en lugar de trabajar sobre el ego genuino. El progreso aparente no corresponde a ningún cambio en la configuración real de la voluntad del sujeto. Consecuencia clínica: El sujeto puede describir al final del proceso que «entiende mejor» su situación, que «tiene más herramientas», que el proceso fue «valioso». Y simultáneamente puede no haber producido ningún cambio en la manera en que orienta la voluntad en los actos cotidianos, porque el ego genuino nunca fue el actor del proceso.
 
@@ -7301,7 +7014,6 @@ El tercer error convierte el instrumento diagnóstico en un instrumento evaluati
 
 El mecanismo de daño es análogo al de E·1 pero con una dinámica específica: E·3 no produce el colapso ni la adopción de la imagen del diagnóstico sino la optimización de la presentación. El sujeto en E·3 producirá señales de Anteros, aunque esté en E-4, señales de Eros, aunque esté en Deimos, señales de T-4 aunque esté en T-1 —no porque mienta sino porque el campo del proceso de
 
-Entrevista Clínica Ontológica · ECO
 
 acompañamiento recompensa esas localizaciones y el sujeto, como todo actor en un campo relacional, aprende las reglas del campo y las sigue. El resultado es que la hoja de síntesis de Histos contiene localizaciones progresivamente más «positivas» que corresponden al aprendizaje del campo y no al estado del ego genuino del sujeto.
 
@@ -7313,7 +7025,6 @@ El error E·3 tiene una forma especialmente sutil que merece descripción separa
 
 Una instrucción técnica sobre la temperatura del mediador: la calibración de la temperatura propia ante las distintas localizaciones es una de las destrezas de formación que el paradigma requiere para todos sus mediadores, sin excepción. Un mediador que nunca trabajó su propia posición ante D-2 —su propia incomodidad con la anestesia ontológica o con la suma fáctica— va a producir diferencia de temperatura cuando un sujeto la produce, y esa diferencia va a contaminar el proceso.
 
-Entrevista Clínica Ontológica · ECO
 
 La calibración del propio campo que el Capítulo P·3 establece como condición de administración de ECO aplica con igual fuerza al proceso de Histos.
 
@@ -7327,7 +7038,6 @@ La sustitución de la narrativa es el error que más frecuentemente produce el s
 
 ⊗  E·4 — La sustitución de la narrativa Descripción: El mediador completa, reformula o reemplaza la narrativa del sujeto con interpretaciones, marcos o vocabulario del sistema ontológico antes de que el sujeto los haya producido desde su propia experiencia.
 
-Entrevista Clínica Ontológica · ECO
 
 Mecanismo de daño: La narrativa del sujeto es colonizada por la narrativa del mediador. El sujeto aprende a hablar con los términos del sistema sin que el sistema haya contactado su ego genuino. Las localizaciones del instrumento reflejan el aprendizaje del marco interpretativo del mediador, no el estado del ego genuino del sujeto. Consecuencia clínica: El proceso de acompañamiento produce lo que podría llamarse «el buen paciente del sistema»: el sujeto produce las narrativas correctas, parece tener insight genuino, y no ha producido ningún cambio en la configuración real de su voluntad porque el ego genuino nunca fue el actor del proceso.
 
@@ -7339,7 +7049,6 @@ El quinto error es el más sistémico de los cinco: ocurre cuando el proceso de 
 
 La razón por la que este error es sistémico es que puede ser producido por el sujeto o por el campo institucional además de por el mediador. El sujeto que consigue un diagnóstico preciso puede sentir que ya tiene lo que necesita —el conocimiento de su estado— y no querer el acompañamiento que ese conocimiento haría posible. El campo institucional que encarga ECO para «conocer el estado» de un equipo o de una comunidad puede no haber previsto ni tener capacidad para la intervención que ECO orienta. En esos casos, el mediador no produce el error E·5 por sí solo: lo produce en colaboración con un encargo que no contempló la continuidad hacia Histos.
 
-Entrevista Clínica Ontológica · ECO
 
 La consecuencia del error E·5 es que el instrumento produce información sin transformación. La localización de un sujeto en D-2 profundo sin continuidad hacia Histos no solo no ayuda al sujeto: puede ser dañina. El sujeto que sabe —a través del mediador o de la hoja de síntesis— que fue localizado en D-2 sin que haya proceso de acompañamiento que trabaje con esa localización tiene información que no puede usar y que puede producir angustia si la comprendió o indiferencia si la adoptó como otra narrativa más sobre sí mismo.
 
@@ -7351,7 +7060,6 @@ Existe una forma legítima de administrar ECO sin continuidad inmediata hacia Hi
 
 La condición de uso que los cinco errores describen colectivamente
 
-Entrevista Clínica Ontológica · ECO
 
 Los cinco errores no son una lista de prohibiciones independientes: son la descripción colectiva de una condición de uso del instrumento. Esa condición es: ECO es un instrumento de localización que el mediador usa internamente para orientar el proceso de acompañamiento, no un instrumento que produce información que el sujeto consume. La localización le pertenece al mediador hasta que Histos crea las condiciones para que el sujeto pueda encontrarla desde sí mismo. Esta condición de uso no es una restricción burocrática del paradigma: es la condición que hace posible que el instrumento sea genuinamente útil.
 
@@ -7359,7 +7067,9 @@ El mediador que puede incorporar esa condición de uso no como regla que cumple 
 
 La condición de uso del instrumento — formulación técnica ECO produce la localización del estado del ego genuino del sujeto en los módulos del Bloque I, los ejes del Bloque II, y el ego colectivo del Bloque III. Esa localización es información del mediador que orienta el proceso de Histos. No es un diagnóstico que se transmite al sujeto. No produce transformación por sí sola. No puede usarse sin continuidad hacia Histos excepto en las condiciones específicas que el instrumento establece. La precisión de la localización es condición necesaria pero no suficiente para el proceso de acompañamiento.
 
-Notas al B·IV §1
+---
+
+## Notas al B·IV §1
 
 1 Los cinco errores descritos en esta sección son los más frecuentes y los que producen daños sistemáticos en la práctica de mediadores en formación. La práctica también puede revelar otros, como cuando el mediador usa su propia historia como marco de lectura del sujeto o conduce Histos desde su propio ego soberano en lugar del ego soberano del sujeto; estos dependen de contextos específicos.
 
@@ -7371,11 +7081,10 @@ Notas al B·IV §1
 
 4 El «buen paciente del sistema» que el error E·4 describe es un fenómeno identificable en cualquier proceso de acompañamiento orientado desde marcos interpretativos explícitos — no solo en el paradigma de Mediación Ontológica. La terapia psicoanalítica produce pacientes que aprenden el lenguaje del inconsciente y de los mecanismos de defensa sin que esos aprendizajes necesariamente correspondan a cambios en la organización psíquica del paciente. La terapia cognitivo-conductual produce pacientes que aprenden a identificar los patrones de pensamiento disfuncional sin que ese aprendizaje produzca cambios en los patrones mismos. El paradigma de Mediación Ontológica no está exento de ese riesgo: el lenguaje del sistema es suficientemente articulado y coherente para producir «buenos pacientes del sistema» si el mediador comete el error E·4 sistemáticamente.
 
-### B·IV · §2 ·  LA LOCALIZACIÓN SIN
+# B·IV·2 · LA LOCALIZACIÓN SIN ETIQUETA
 
-### ETIQUETA
 
-Cómo usar lo encontrado sin nombrarlo El principio de no-etiquetado · Traducción de localizaciones a campo
+## Cómo usar lo encontrado sin nombrarlo El principio de no-etiquetado · Traducción de localizaciones a campo
 
 relacional · Tabla de conversión módulo a módulo
 
@@ -7385,7 +7094,6 @@ El principio de no-etiquetado establece que el mediador usa la localización de 
 
 La razón ontológica de este principio no es la modestia técnica del mediador ni la cautela ante la susceptibilidad del sujeto. Es más fundamental: el trabajo de acompañamiento opera sobre el ego genuino del sujeto, y el ego genuino no puede ser contactado a través de las etiquetas del sistema. Solo puede ser contactado a través de la experiencia que el sujeto tiene de sí mismo —con las palabras que el sujeto usa para describirla, con las imágenes y las sensaciones que el sujeto puede producir desde su propio campo interno. La etiqueta
 
-Entrevista Clínica Ontológica · ECO
 
 del sistema —«estás en Fobos», «tu Hijo dominante es Potós»— no llega al ego genuino del sujeto: llega a la capa de procesamiento conceptual del sujeto, que puede adoptar la etiqueta, cuestionarla o rechazarla, pero no puede usarla para contactar lo que el ego genuino del sujeto produce desde adentro.
 
@@ -7397,7 +7105,6 @@ La distinción entre el lenguaje interno y el lenguaje de sesión
 
 El lenguaje interno del mediador —los términos técnicos del sistema— tiene tres funciones en el proceso de acompañamiento. La primera es la documentación: el mediador registra en la hoja de síntesis las localizaciones de ECO con toda la precisión técnica del sistema, usando los términos exactos de los módulos del Bloque I y el Bloque II. La segunda es la comunicación con otros mediadores: cuando el caso requiere supervisión, consulta o derivación, el lenguaje técnico del sistema permite comunicar el estado del sujeto con precisión que ningún lenguaje coloquial puede producir con la misma economía. La tercera es la orientación del proceso: el mediador usa la localización para determinar qué condiciones debe
 
-Entrevista Clínica Ontológica · ECO
 
 crear en las sesiones de Histos, en qué orden, con qué profundidad y con qué ritmo.
 
@@ -7409,7 +7116,6 @@ La destreza técnica más importante del principio de no-etiquetado es la traduc
 
 La traducción tiene dirección única: del lenguaje del sistema hacia el lenguaje del sujeto, nunca al revés. El mediador puede convertir la localización de Fobos H-3 EP-1 en preguntas que trabajan con la urgencia reactiva que el sujeto describe. Lo que el mediador no hace es convertir las palabras del sujeto («hay algo que me produce urgencia ante lo que pueda perder») en las palabras del sistema («ese es su Fobos»). La conversión del lenguaje del sujeto hacia el lenguaje del sistema ocurre en el campo del mediador, en silencio, como
 
-Entrevista Clínica Ontológica · ECO
 
 operación interna de comprensión diagnóstica. Nunca ocurre en el campo de la sesión.
 
@@ -7425,9 +7131,8 @@ Hay una excepción que el sistema reconoce: el sujeto que pregunta directamente.
 
 Los pares de comparación que siguen ilustran la diferencia entre el lenguaje etiquetado que el mediador no usa en sesión y el lenguaje sin etiqueta que usa. Cada par corresponde a una localización
 
-### Entrevista Clínica Ontológica · ECO
 
-### específica del instrumento y muestra cómo la localización orienta el campo de la sesión sin que el nombre del código aparezca en él.
+específica del instrumento y muestra cómo la localización orienta el campo de la sesión sin que el nombre del código aparezca en él.
 
 #### Localización interna: Fobos H-3 con EP-1 — urgencia reactiva ante objeto de amenaza activo
 
@@ -7467,7 +7172,6 @@ mediador no dice
 
 «Ese criterio que describes — ¿hay alguien cuya opinión, si dijera que ese criterio está equivocado, te haría dudar de él de una manera que no ocurre con otras opiniones?
 
-### Entrevista Clínica Ontológica · ECO
 
 ¿Quién tendría que decirte que estás equivocado para que genuinamente consideraras que podrías estarlo?» [La pregunta del colapso del Otro, tomada directamente de D·EI·1, sin nombrar E-4 ni el Otro internalizado.]
 
@@ -7507,7 +7211,6 @@ Localización interna del mediador
 
 Pregunta que orienta el proceso sin etiqueta
 
-### Entrevista Clínica Ontológica · ECO
 
 Fobos H-3 EP-1 activo
 
@@ -7539,7 +7242,6 @@ D-2 EP-1 profundo con ausencia de D-1 residual
 
 La localización le dice al mediador que el instrumento de registro del ego genuino puede estar apagado. Sin etiqueta, el mediador crea condiciones para que cualquier señal residual del ego genuino pueda producirse — no nombra D-2, no produce la información del estado, crea espacio. La pregunta puede producir temperatura interna
 
-### Entrevista Clínica Ontológica · ECO
 
 si hay D-1 residual, o planitud si D-2 es profundo.
 
@@ -7565,7 +7267,6 @@ V-2 Peribea con E-1 activo
 
 Una de las funciones más importantes de la localización sin etiqueta es orientar el ritmo del proceso: cuándo el mediador puede profundizar, cuándo debe sostener el espacio sin avanzar, y cuándo necesita ralentizar ante una señal que indica que el ego genuino del sujeto no está en condiciones de recibir lo que la localización sugiere que podría recibir. Esa función de orientación del ritmo es invisible para el sujeto —el sujeto no ve que el mediador está usando la
 
-Entrevista Clínica Ontológica · ECO
 
 localización para determinar el ritmo— pero es una de las consecuencias más prácticas del principio de no-etiquetado.
 
@@ -7579,7 +7280,6 @@ El principio de no-etiquetado aplica al ego colectivo con las mismas consecuenci
 
 El principio de no-etiquetado en el ego colectivo tiene la misma justificación que en el individuo, pero produce una respuesta ligeramente diferente ante la expectativa del diagnóstico. El mediador puede entregar una hoja de síntesis con los componentes
 
-Entrevista Clínica Ontológica · ECO
 
 de la localización colectiva expresados en lenguaje descriptivo no técnico — sin los nombres de los Hijos ni los códigos de los ejes, pero con las descripciones de los comportamientos que esas localizaciones describen. «El colectivo tiende a reaccionar con urgencia ante lo que percibe como amenaza externa, y esa urgencia con frecuencia anticipa el análisis de la naturaleza real de la amenaza» es la descripción sin etiqueta de Fobos colectivo. «El colectivo tiene dificultad para orientarse ante decisiones que requieren criterio nuevo que los procedimientos establecidos no contemplan» es la descripción sin etiqueta de Deimos colectivo. El encargado recibe información que puede usar; el sistema no recibe la contaminación de que su lenguaje técnico circule en el campo sin el proceso de acompañamiento que ese lenguaje requiere.
 
@@ -7589,7 +7289,6 @@ La localización como orientador de la derivación
 
 Una función específica de la localización sin etiqueta que las secciones anteriores no desarrollan en detalle: el mediador usa la localización para determinar cuándo y a dónde derivar, sin que esa derivación revele la localización al sujeto. Si la localización de ECO indica D-2 profundo con V-3 y sin D-1 residual, el mediador sabe que el caso necesita evaluación clínica antes de Histos. La derivación que el mediador produce puede formularse sin la localización técnica: «Hay algo en lo que describes que me hace pensar que el proceso de acompañamiento se beneficiaría de que también pudieras hablar con alguien que tiene especialización clínica en lo que estás viviendo. No es que algo esté mal — es que lo que describes tiene más capas de las que ECO puede explorar completamente». La
 
-Entrevista Clínica Ontológica · ECO
 
 derivación se produce; la localización que la orienta permanece en el campo del mediador.
 
@@ -7601,13 +7300,14 @@ El objetivo último del principio de no-etiquetado no es que el sujeto nunca sep
 
 Cuando el sujeto produce esas emergencias desde adentro, el mediador puede — en ese momento y solo en ese momento — usar el lenguaje del sistema de manera muy cuidadosa y solo si eso añade algo a lo que el sujeto ya produjo. «Lo que describes tiene un nombre en el sistema que usamos: podría llamarse la urgencia reactiva de quien tiene algo en riesgo». Esa introducción es legítima solo porque el sujeto ya produjo la experiencia desde sí mismo y el término técnico puede añadir precisión a algo que el sujeto ya encontró, no puede reemplazar un hallazgo que el sujeto todavía no produjo. La
 
-Entrevista Clínica Ontológica · ECO
 
-### diferencia entre introducir el término cuando el sujeto ya encontró la experiencia y hacerlo antes de que la encuentre es exactamente la diferencia entre orientar y sustituir.
+diferencia entre introducir el término cuando el sujeto ya encontró la experiencia y hacerlo antes de que la encuentre es exactamente la diferencia entre orientar y sustituir.
 
 El principio de no-etiquetado — síntesis operativa El mediador trabaja con dos lenguajes: el lenguaje interno del sistema (técnico, diagnóstico, orientador del proceso) y el lenguaje de sesión del sujeto (experiencial, narrativo, generado desde el ego genuino del sujeto). Los dos lenguajes nunca se mezclan en el campo de la sesión. La traducción del lenguaje del sistema al lenguaje de sesión es la destreza técnica central del Bloque IV. El objetivo del proceso es que el sujeto llegue eventualmente a las descripciones que el sistema produjo desde afuera, desde adentro — lo que ocurre cuando Histos trabaja sobre el ego genuino con el mapa que ECO proveyó.
 
-Notas al B·IV §2
+---
+
+## Notas al B·IV §2
 
 1 La distinción entre el lenguaje interno del mediador y el lenguaje de sesión que el §2 establece tiene un fundamento que va más allá de la técnica de intervención: es una distinción ontológica sobre la naturaleza del conocimiento clínico. El mediador que sabe que el sujeto está en Fobos no sabe «la verdad del sujeto» — sabe la representación de esa experiencia en el lenguaje técnico del sistema. La experiencia del sujeto es más rica, más específica y más genuinamente suya que cualquier representación que el sistema pueda producir. La humildad epistémica del principio de no-etiquetado no es solo táctica — es el reconocimiento de que la localización es una representación útil pero no es la experiencia misma.
 
@@ -7615,20 +7315,16 @@ Notas al B·IV §2
 
 3 La emergencia de la localización desde el sujeto que el texto principal describe como el objetivo del proceso tiene una forma específica en contextos de D-2. Cuando el instrumento de registro del ego genuino se apagó, la emergencia de la experiencia desde adentro — la señal que Histos busca — puede no producirse con el mismo vocabulario experiencial que el sujeto en D-1 produce. La reactivación de D-2 puede producir señales muy suaves, muy parciales, que
 
-Entrevista Clínica Ontológica · ECO
 
 el mediador necesita amplificar sin nombrar. «Eso que acaba de decir — que hay algo que se mueve cuando piensa en ese período — ¿puede quedarse un momento con eso?» es el tipo de intervención que amplifica la señal de D-2 reactivando sin nombrar ni D-2 ni el ego genuino.
 
 4 La regla de entrega de resultados al encargado que el §2 establece para el ego colectivo tiene implicaciones para la práctica del Mediador Organizacional que merecen un desarrollo que el instrumento ECO no puede producir aquí: la ética de los encargos institucionales en el paradigma de Mediación Ontológica. Cuando el encargado es la institución y el sujeto son los miembros, hay una tensión inherente entre la información que el encargado necesita para tomar decisiones y la información que el mediador produjo en condición de confidencialidad con los sujetos entrevistados. Esa tensión requiere que el mediador establezca el encuadre ético del encargo antes de administrar ECO — determinando qué información puede fluir hacia el encargado y qué información permanece en el campo del mediador — de manera que los sujetos entrevistados puedan consentir informadamente las condiciones de confidencialidad del proceso.
 
-Entrevista Clínica Ontológica · ECO
+
+# B·IV·3 · CUÁNDO ECO ESTÁ COMPLETO Y CUÁNDO NO
 
 
-### B·IV · §3 ·  CUÁNDO ECO ESTÁ COMPLETO
-
-### Y CUÁNDO NO
-
-### Criterios de cierre · La Declaración de Incertidumbre ECO · Localizaciones no
+## Criterios de cierre · La Declaración de Incertidumbre ECO · Localizaciones no
 
 concluyentes Qué completa el instrumento, qué declara su incertidumbre, y qué hacer
 
@@ -7640,7 +7336,6 @@ El instrumento ECO está completo cuando ha producido lo que puede producir desd
 
 La condición de cierre no es la certeza total: es el agotamiento de la evidencia disponible en las condiciones de la administración. El mediador que ha administrado todos los módulos obligatorios, ha usado todas las fuentes disponibles, ha aplicado todos los protocolos
 
-Entrevista Clínica Ontológica · ECO
 
 de discriminación relevantes y ha producido la localización más precisa que esa evidencia permite ha completado ECO. Si hay componentes que no alcanzaron la certeza que el instrumento puede alcanzar en condiciones óptimas, esos componentes se declaran con su nivel real de certeza — lo que es un resultado honesto del instrumento, no una falla del proceso.
 
@@ -7656,7 +7351,6 @@ Definición Condición diagnóstica
 
 <!-- TABLA: estados de cierre | columnas: estado de localización, protocolo que activa, resultado y paso siguiente -->
 
-### Entrevista Clínica Ontológica · ECO
 
 Completo con alta certeza
 
@@ -7690,7 +7384,6 @@ La localización no puede determinarse con ninguna certeza razonable en los comp
 
 Producir la DI-ECO con descripción precisa de la contradicción y de lo que sería necesario para resolverla. Determinar si
 
-### Entrevista Clínica Ontológica · ECO
 
 pueden resolverse con la evidencia disponible. Un módulo produce H-3 pero otro módulo produce señales incompatibles con ese H-3.
 
@@ -7708,21 +7401,21 @@ Ego genuino no localizable desde esta administración del instrumento. La locali
 
 ### El árbol de decisión de cierre — protocolo formal
 
-> **NODO C·1 — ¿Todos los módulos obligatorios fueron administrados o saltados con justificación documentada?**
->
-> NO → Instrumento incompleto. Determinar si los módulos faltantes pueden administrarse antes del cierre o si el cierre debe declararse como «incompleto» con nota de los módulos pendientes. SÍ → Continuar a NODO C·2. ↓
+**NODO C·1 — ¿Todos los módulos obligatorios fueron administrados o saltados con justificación documentada?**
 
-> **NODO C·2 — ¿Los componentes principales de la localización (distribución P(Hijos) + al menos 3 de los 5 códigos de Eje) alcanzaron EP-2 o superior?**
->
-> NO (uno o más componentes principales tienen EP-3 o inferior) → Localización completa con incertidumbre declarada. Producir DI-ECO. Continuar a NODO C·3. SÍ → Continuar a NODO C·3. ↓
+NO → Instrumento incompleto. Determinar si los módulos faltantes pueden administrarse antes del cierre o si el cierre debe declararse como «incompleto» con nota de los módulos pendientes. SÍ → Continuar a NODO C·2. ↓
 
-> **NODO C·3 — ¿Hay contradicciones entre módulos que no pudieron resolverse con el protocolo de discriminación?**
->
-> SÍ → Localización no concluyente en los componentes contradictorios. Producir DI-ECO con descripción de la contradicción. Ver §3.3 de esta sección. NO → Continuar a NODO C·4. ↓
+**NODO C·2 — ¿Los componentes principales de la localización (distribución P(Hijos) + al menos 3 de los 5 códigos de Eje) alcanzaron EP-2 o superior?**
 
-> **NODO C·4 — ¿El ego genuino del sujeto produjo señal diagnóstica en al menos un módulo (D-2 no es total)?**
->
-> NO (D-2 profundo con ausencia de D-1 residual en todos los módulos) → Instrumento no evaluable: ego genuino inaccesible. DI-ECO con nota de D-2. Ver §3.4. SÍ → Instrumento completo. Producir hoja de síntesis con nivel de certeza declarado por componente. ↓
+NO (uno o más componentes principales tienen EP-3 o inferior) → Localización completa con incertidumbre declarada. Producir DI-ECO. Continuar a NODO C·3. SÍ → Continuar a NODO C·3. ↓
+
+**NODO C·3 — ¿Hay contradicciones entre módulos que no pudieron resolverse con el protocolo de discriminación?**
+
+SÍ → Localización no concluyente en los componentes contradictorios. Producir DI-ECO con descripción de la contradicción. Ver §3.3 de esta sección. NO → Continuar a NODO C·4. ↓
+
+**NODO C·4 — ¿El ego genuino del sujeto produjo señal diagnóstica en al menos un módulo (D-2 no es total)?**
+
+NO (D-2 profundo con ausencia de D-1 residual en todos los módulos) → Instrumento no evaluable: ego genuino inaccesible. DI-ECO con nota de D-2. Ver §3.4. SÍ → Instrumento completo. Producir hoja de síntesis con nivel de certeza declarado por componente. ↓
 
 SALIDA — Estado del cierre de ECO + DI-ECO si aplica + Hoja de síntesis → Determinar el paso siguiente
 
@@ -7736,7 +7429,6 @@ Estructura de la DI-ECO
 
 La DI-ECO tiene cinco secciones que el mediador completa cuando produce el cierre del instrumento en cualquier estado distinto de «completo con alta certeza». Cada sección tiene preguntas específicas que orientan la redacción.
 
-Entrevista Clínica Ontológica · ECO
 
 DI-ECO §A — Motivo de la incertidumbre Descripción precisa del motivo por el que el instrumento no puede producir localización con alta certeza. Los motivos reconocidos son cinco: (a) módulos no administrados, con descripción de cuáles y por qué; (b) EP insuficiente en los componentes principales, con descripción de qué módulos y qué nivel EP alcanzaron; (c) contradicción entre módulos, con descripción precisa de la contradicción; (d) ego genuino inaccesible (D-2 profundo), con descripción de las señales que sustentan esa conclusión; (e) sujeto no participó suficientemente, con descripción de en qué momento y de qué manera la participación fue insuficiente para producir señal diagnóstica.
 
@@ -7750,7 +7442,6 @@ DI-ECO §E — Vigencia de la localización Declaración del período durante el
 
 ### Cuándo la localización es no concluyente — diagnóstico de la contradicción
 
-Entrevista Clínica Ontológica · ECO
 
 La localización no concluyente —el estado C·3 del árbol de decisión de cierre— ocurre cuando los módulos producen señales que se contradicen de manera que el protocolo de discriminación estándar no puede resolver. Las contradicciones más frecuentes en el instrumento son cuatro: Harmonía en el módulo H coexistiendo con D-2 en el Eje IV (contradicción ontológica que el módulo H ya establece como condición de revisión), Anteros H-3 con EP-1 coexistiendo con E-4 en el Eje I (la señal de afirmación del eje propio coexistiendo con el código de eje ajeno internalizado), señal de V-1 en el Eje III coexistiendo con M-2 en el Eje II (encuentro genuino con la alteridad coexistiendo con máscara que reemplazó al ego), y Eros H-3 con EP-1 coexistiendo con E-4 en el Eje I (apertura genuina ante lo nuevo coexistiendo con orientación desde el Otro internalizado).
 
@@ -7760,7 +7451,6 @@ Protocolo para contradicciones frecuentes — especificación de contexto Cuando
 
 Si la especificación de contexto no resuelve la contradicción —si el sujeto produce señales contradictorias en el mismo campo relacional y en el mismo momento— la localización es genuinamente no concluyente en ese componente. El mediador produce la DI-ECO
 
-Entrevista Clínica Ontológica · ECO
 
 con descripción de la contradicción, declara las condiciones que podrían resolverla, y determina si el proceso de Histos puede iniciarse desde los componentes que sí fueron localizados con certeza mientras la contradicción se trabaja como parte del proceso de acompañamiento.
 
@@ -7772,7 +7462,6 @@ La distinción entre la localización del campo y la localización del ego genui
 
 DI-ECO para ego genuino inaccesible — redacción obligatoria Cuando el cierre del instrumento produce el estado C·4 (ego genuino inaccesible), la DI-ECO debe incluir: la descripción precisa de las señales que sustentan el diagnóstico de D-2 profundo (qué módulos, qué señales, qué EP tienen esas señales), la nota sobre si hay algún canal de D-1 residual identificado aunque sea mínimo (si hay: describir el canal y su potencial para el inicio del trabajo de reactivación), y la recomendación sobre el paso siguiente (derivación clínica si D-2 está asociado a condiciones que requieren evaluación, o descripción de las condiciones de campo que deberían crearse antes de la re-
 
-Entrevista Clínica Ontológica · ECO
 
 administración del instrumento). No proceder a Histos desde esta DI-ECO sin evaluación adicional del estado del ego genuino.
 
@@ -7786,7 +7475,6 @@ La re-administración de ECO no necesita ser la administración completa del ins
 
 Tabla de vigencia orientativa de la localización por estado
 
-Entrevista Clínica Ontológica · ECO
 
 Completo con alta certeza: vigencia orientativa de 6 meses en campo estable. / Completo con incertidumbre declarada: vigencia orientativa de 3 meses. / Incompleto (módulos faltantes): vigencia limitada al episodio de administración — la localización describe el estado en ese momento, pero no puede proyectarse. / No concluyente: vigencia del episodio de administración. Re-administración de los módulos no concluyentes antes de iniciar Histos. / No evaluable (ego genuino inaccesible): sin vigencia para Histos. Re-administración cuando las condiciones de acceso al ego genuino hayan cambiado.
 
@@ -7800,13 +7488,14 @@ Opción NC·2 —  Iniciar Histos desde los componentes concluyentes con DI-ECO 
 
 Opción NC·3 —  Declarar el instrumento no concluyente y evaluar condiciones antes de continuar Cuando la contradicción es en un componente tan central que iniciar Histos desde una localización no concluyente en ese componente sería más riesgoso que esperar a que la localización pueda precisarse. El caso más frecuente: Harmonía vs. D-2 no resueltos desde ECO.
 
-Entrevista Clínica Ontológica · ECO
 
 Acción: Producir la DI-ECO completa. Declarar que el instrumento no puede orientar el proceso de Histos con la certeza necesaria hasta que la contradicción específica se resuelva. Establecer las condiciones que permitirían resolverla: una sesión adicional, una evaluación clínica, o el paso del tiempo con observación del campo del sujeto.
 
 La opción NC·3 es la más difícil de comunicar al sujeto o al encargado sin producir el error E·1 o el error E·5. El mediador que dice al sujeto «el instrumento no puede concluir» puede estar produciendo el error E·5 (el instrumento como fin) o el error E·1 (revelando información diagnóstica). La comunicación sin etiqueta de la opción NC·3: «Hay algo en lo que hemos explorado que necesita más tiempo o más contexto para poder orientar el trabajo de la manera más precisa posible. No es que algo esté mal — es que la imagen todavía no está completa. Hay opciones para cómo seguir desde aquí». Esa formulación honra la incertidumbre sin producir diagnóstico.
 
-Notas al B·IV §3
+---
+
+## Notas al B·IV §3
 
 1 La Declaración de Incertidumbre ECO (DI-ECO) documenta, para cada caso, qué componentes no pudieron localizarse con suficiente certeza, qué evidencia produjo ese límite y qué condiciones permitirían precisarlos. Así orienta el uso prudente de los componentes localizados y el inicio del trabajo de Histos.
 
@@ -7816,13 +7505,11 @@ Notas al B·IV §3
 
 4 Las cuatro contradicciones frecuentes del instrumento que la sección §3 describe — Harmonía/D-2, Anteros/E-4, V-1/M-2, Eros/E-4 — son también las que más frecuentemente el mediador en formación produce como errores de administración. La contradicción Anteros H-3 EP-1 con E-4 en el Eje I, por ejemplo, puede producirse cuando el mediador leyó como Anteros las señales de E-4 que en el módulo A producen afirmación del criterio ajeno como si fuera propio. En ese caso, la contradicción no describe un estado complejo del sujeto: describe un error de lectura del Módulo A que el Eje I corrige. El mediador que produce esa contradicción y la trata como contradicción del sujeto en lugar de como señal de revisión de su propia lectura del Módulo A está produciendo una localización incorrecta que la DI-ECO no puede corregir — solo puede declarar.
 
-Entrevista Clínica Ontológica · ECO
 
-### B·IV · §4 ·  CRITERIOS DE DERIVACIÓN A
+# B·IV·4 · CRITERIOS DE DERIVACIÓN A HISTOS
 
-### HISTOS
 
-### Cuándo la localización está lista para pasar al
+## Cuándo la localización está lista para pasar al
 
 acompañamiento Condiciones del paso · Insumos que ECO entrega a Histos · Cómo no
 
@@ -7834,7 +7521,6 @@ ECO es el instrumento que localiza el territorio. Histos es el instrumento que a
 
 La descripción del instrumento ECO como umbral tiene una consecuencia que el §3 de esta sección estableció formalmente: ECO no es un fin. El cierre de ECO no es el producto del proceso de acompañamiento: es la condición para que el proceso de acompañamiento pueda comenzar con orientación. Un mediador que domina ECO, pero no conoce Histos ha completado el
 
-Entrevista Clínica Ontológica · ECO
 
 instrumento de diagnóstico sin tener el instrumento de trabajo — como un médico que puede diagnosticar con precisión, pero no puede prescribir tratamiento. El valor de ECO está enteramente en función del trabajo que Histos puede hacer con lo que ECO proveyó.
 
@@ -7848,7 +7534,6 @@ El segundo componente es relacional: la relación mediador-sujeto ha producido a
 
 El tercer componente es volitivo: el sujeto quiere el proceso de acompañamiento. No en el sentido de que lo haya pedido formalmente — puede haberlo hecho y puede no haberlo hecho —
 
-Entrevista Clínica Ontológica · ECO
 
 sino en el sentido de que hay algo en el sujeto que se orienta hacia el proceso. Esa orientación puede ser tenue, puede tener dudas, puede coexistir con resistencias. Lo que debe estar ausente es la orientación contraria: el sujeto que no quiere el proceso y que solo lo acepta por presión de un campo externo (la institución que lo requiere, la pareja que lo demanda, el encargo que lo formalizó) no tiene las condiciones volitivas para Histos. El proceso puede iniciarse desde la presión externa y el ego genuino del sujeto puede eventualmente orientarse hacia él — pero esa orientación debe producirse antes de que Histos tenga el punto de apoyo que necesita.
 
@@ -7864,7 +7549,6 @@ El sujeto dice que quiere el acompañamiento pero no puede describir qué quiere
 
 El sujeto puede identificar al menos una dimensión de su estado que lo incomoda y sobre la que quisiera que el proceso produjera algo. Esa incomodidad es D-1 activo — el punto de apoyo de Histos.
 
-### Entrevista Clínica Ontológica · ECO
 
 La relación mediador-sujeto no ha producido ninguna señal de V-1: el sujeto no puede producir diferencia genuina en el campo del mediador ni el mediador puede producir diferencia genuina en el campo del sujeto.
 
@@ -7884,7 +7568,6 @@ El mediador usa la localización de ECO como justificación para iniciar Histos 
 
 La señal de paso prematuro más difícil de detectar es la tercera de la tabla: D-2 confirmado con EP-1 sin D-1 residual. El mediador que localizó D-2 profundo puede sentir presión — del sujeto, del encargado, o de sí mismo — de iniciar Histos de todas formas, porque la localización está completa y el sujeto está disponible. El D-2 profundo sin D-1 residual no impide la presencia del sujeto en las sesiones de Histos: impide que las sesiones de Histos produzcan algo en el ego genuino del sujeto, porque el ego genuino no está produciendo señal. El sujeto puede asistir, puede responder, puede incluso describir que el proceso le parece valioso — y ninguna de esas cosas indica que el ego genuino está siendo trabajado. El proceso produciría trabajo sobre el campo que actúa en nombre del ego genuino, que puede tener efectos de superficie sin tocar lo que el proceso necesita tocar.
 
-### Entrevista Clínica Ontológica · ECO
 
 El mediador que se encuentra ante D-2 profundo sin D-1 residual y ante la presión de iniciar Histos puede usar la siguiente formulación sin etiqueta para comunicar la situación al sujeto o al encargado: «Lo que hemos explorado me sugiere que hay un trabajo previo que crearía mejores condiciones para el proceso que sigue. Ese trabajo previo puede tomar distintas formas — puede ser un período de tiempo, puede ser una evaluación adicional, puede ser un tipo específico de apoyo que complementaría lo que el proceso de acompañamiento puede proveer. Me comprometo a definir esa condición con precisión». Esa comunicación es honesta, mantiene el principio de no-etiquetado, y no produce el error E·5.
 
@@ -7906,7 +7589,6 @@ El estado del ego desde el que opera la voluntad del sujeto: si hay ego genuino 
 
 Histos diseña sus primeras intervenciones según el estado del ego. E-3 requiere trabajo sobre el bloqueo de φ₂ antes de cualquier otro trabajo. E-4 requiere trabajo sobre la distinción del eje propio del eje ajeno. E-6 requiere evaluación antes de iniciar cualquier proceso.
 
-### Entrevista Clínica Ontológica · ECO
 
 Módulo H — Harmonía o D-2
 
@@ -7938,7 +7620,6 @@ La estructura de la relación del sujeto con el Otro. V-2 Peribea: la asimetría
 
 V-2 Peribea: el mediador de Histos calibra su propio campo para no reproducir la posición de Damasén. V-2 Damasén: el mediador crea diferencia genuina que el sujeto no puede anticipar. V-3: la restauración de la capacidad de encuentro genuino es el primer objetivo de Histos.
 
-Entrevista Clínica Ontológica · ECO
 
 encuentro genuino con la alteridad se produzca.
 
@@ -7956,7 +7637,6 @@ La razón por la que la nota de recursos disponibles es el insumo más estratég
 
 Insumo prioritario cuando Fobos es el Hijo dominante con EP-1
 
-### Entrevista Clínica Ontológica · ECO
 
 El objeto de la amenaza que Fobos está respondiendo y la naturaleza de la urgencia reactiva. No el hecho de que haya Fobos sino qué amenaza lo activa y qué orientación produce esa activación en los actos del sujeto. Uso en Histos: Histos trabaja con la relación del sujeto con el objeto de la amenaza antes de trabajar con la urgencia como tal. La urgencia es la respuesta; la relación del sujeto con lo que podría perder es lo que Histos puede trabajar para producir movimiento genuino.
 
@@ -7968,7 +7648,6 @@ Insumo prioritario cuando T-2 o T-3 está activo en el Eje V La posición del su
 
 Insumo prioritario cuando M-2 está confirmado en el Eje II con D-1 activo La brecha entre la máscara y el ego genuino que el sujeto todavía puede registrar — la señal de incomodidad que D-1 produce ante la máscara. No el hecho de que haya máscara sino dónde y cuándo el ego genuino todavía puede producir señal de que algo no encaja. Uso en Histos: Histos amplifica la señal de incomodidad de D-1 ante la máscara como punto de entrada al trabajo. Esa señal — aunque el sujeto no pueda nombrarla como máscara — es el punto donde el ego genuino todavía tiene acceso a la
 
-Entrevista Clínica Ontológica · ECO
 
 superficie. Histos trabaja desde ese punto hacia afuera, sin nombrar la máscara directamente.
 
@@ -7982,7 +7661,6 @@ La transición de ECO a Histos, cuando se produce en la misma sesión o entre se
 
 El encuadre del paso de ECO a Histos — qué establece el mediador El mediador establece con el sujeto: (a) que el tipo de trabajo que sigue es diferente del que ocurrió en ECO — sin describir los dos como instrumentos formales, puede describirlos como «explorar el territorio» y «caminar en él»; (b) que el proceso de acompañamiento tiene una duración aproximada, un ritmo tentativo, y condiciones de continuidad que el sujeto debe poder sostener; (c) que el proceso puede producir momentos
 
-Entrevista Clínica Ontológica · ECO
 
 de incomodidad — no como advertencia que activa el temor sino como información honesta sobre la naturaleza del proceso; y (d) que el sujeto puede orientar el proceso hacia lo que le importa — que el ego genuino del sujeto, no el mediador, es el actor principal del proceso de Histos.
 
@@ -7996,7 +7674,6 @@ La condición sobre el sujeto en el protocolo de transferencia: el sujeto debe c
 
 La hoja de síntesis de ECO — formato y función
 
-Entrevista Clínica Ontológica · ECO
 
 La hoja de síntesis de ECO es el documento final del instrumento: el producto formal que el cierre de ECO produce y que orienta el inicio de Histos. El formato de la hoja de síntesis tiene tres partes. La primera es la localización: la distribución P(Hijos) del Bloque I con los niveles EP por componente, los códigos de los cinco ejes del Bloque II con sus niveles EP, y la localización del ego colectivo si el Bloque III fue administrado. La segunda parte es la nota de condiciones de Histos: los recursos disponibles del ego genuino, los componentes de mayor certeza que orientan el inicio del proceso, y las precauciones que los componentes de mayor incertidumbre requieren. La tercera parte es la DI-ECO si aplica, con sus cinco secciones.
 
@@ -8004,7 +7681,9 @@ El formato de la hoja de síntesis usa el lenguaje técnico del sistema — con 
 
 Los cuatro componentes de la hoja de síntesis — formato recomendado Componente 1 — Localización: P(Hijos) + EP por Hijo + códigos de ejes I a V + EP por eje. / Componente 2 — Nota de Histos: recursos disponibles del ego genuino + orden recomendado de trabajo en Histos + precauciones por incertidumbre. / Componente 3 — DI-ECO (si aplica): las cinco secciones A a E según el estado del cierre. / Componente 4 — Vigencia y protocolo de re-administración: vigencia de la localización + condiciones bajo las cuales se recomienda re-administración antes del período orientativo.
 
-Notas al B·IV §4
+---
+
+## Notas al B·IV §4
 
 1 ECO requiere distancia diagnóstica para localizar la configuración del sujeto; Histos requiere presencia relacional para acompañar el proceso. Son operaciones distintas que puede realizar una misma persona, pero no deben confundirse. Acompañar mientras todavía se localiza, o localizar mientras se acompaña, produce la intervención prematura descrita en el §1 (error E·2).
 
@@ -8012,11 +7691,10 @@ Notas al B·IV §4
 
 3 La formulación de transición de ECO a Histos que el §4 propone —«explorar el territorio» para ECO y «caminar en él» para Histos— es una traducción posible al lenguaje sin etiqueta, no la única. El mediador puede adaptarla al lenguaje del sujeto; la transición debe orientarlo hacia el trabajo que sigue sin revelar la localización ni presentar el cierre de ECO como fin (error E·5).
 
-### B·IV · §5 ·  CRITERIOS DE DERIVACIÓN
+# B·IV·5 · CRITERIOS DE DERIVACIÓN FUERA DEL PARADIGMA
 
-### FUERA DEL PARADIGMA
 
-### Cuándo el caso supera ECO y el
+## Cuándo el caso supera ECO y el
 
 acompañamiento ontológico Psicoterapia · Psiquiatría · Intervención jurídica · El principio ético de
 
@@ -8028,7 +7706,6 @@ La derivación fuera del paradigma no es el fracaso del instrumento: es uno de s
 
 El principio ético que fundamenta la derivación es simple y absoluto: el bienestar del sujeto es el criterio de referencia del proceso, no la coherencia del proceso con los instrumentos disponibles en el paradigma. El mediador que continúa un proceso porque el paradigma tiene herramientas — aunque el caso requiera herramientas que el paradigma no tiene — está subordinando el bienestar del sujeto a la coherencia del proceso. Esa inversión de prioridades es el error ético más grave que el paradigma puede
 
-Entrevista Clínica Ontológica · ECO
 
 producir, y el principio de derivación existe precisamente para evitarlo.
 
@@ -8040,7 +7717,6 @@ Por qué el principio de derivación es ético y no técnico
 
 La razón por la que el principio de derivación es un criterio ético y no solo una decisión técnica sobre la pertinencia del instrumento es que el mediador que no deriva cuando debe hacerlo produce daño. No produce daño accidental — produce daño como consecuencia de una decisión de continuar cuando debería detener. La responsabilidad de esa decisión es del mediador, no del instrumento. ECO puede no tener la herramienta para abordar una ideación suicida activa: pero el mediador que administra ECO en presencia de señales de ideación suicida y no detiene el proceso para derivar a intervención clínica no está siendo fiel al instrumento — está cometiendo una falla ética que el instrumento no puede absorber.
 
-Entrevista Clínica Ontológica · ECO
 
 El principio de derivación tiene una consecuencia para la formación de mediadores que el programa de formación del paradigma debe incorporar: el mediador debe poder identificar las señales que activan la derivación antes de que el caso llegue a un punto de crisis. La detección temprana de señales de riesgo —durante la administración de ECO, en los módulos de observación directa, en las respuestas a los sondeos del Eje IV y el Eje V— es una competencia de formación tan importante como la capacidad de localizar los Hijos del Bloque I con precisión. El mediador que no puede leer las señales de derivación a tiempo es un mediador incompleto, aunque su destreza técnica de localización sea excepcional.
 
@@ -8052,7 +7728,6 @@ Hay señales que, cuando aparecen durante la administración de ECO, activan la 
 
 ⚠  D·URG·2  Señales de episodio psicótico, maníaco o disociativo activo Señales: El sujeto muestra durante la sesión pérdida de contacto con la realidad compartida: afirmaciones que no corresponden a la realidad factual sin capacidad de reconocerlo, estado de euforia o agitación que no puede orientarse por el campo de la sesión, episodios de ausencia o de disociación observable, o desorientación sobre el contexto de la sesión. Acción: Suspender la administración de ECO. No intervenir sobre el contenido del episodio — no corregir, no interpretar, no orientar el contenido. Proveer presencia calmante sin contenido clínico. Activar protocolo de derivación a evaluación
 
-### Entrevista Clínica Ontológica · ECO
 
 psiquiátrica urgente según el contexto. Si el sujeto está solo, evaluar si puede llegar a servicios de atención de manera segura o si requiere acompañamiento.
 
@@ -8074,7 +7749,6 @@ Alta (puede ser urgente o programada según la intensidad de la señal).
 
 D-2 profundo con señales de origen traumático. Duelo fijado en T-2 de alta intensidad por período prolongado. Ideación autolítica o autolesiva de cualquier intensidad. Señales de disociación o de pérdida de contacto
 
-### Entrevista Clínica Ontológica · ECO
 
 con la realidad durante la sesión.
 
@@ -8108,7 +7782,6 @@ Derivación a otro mediador del paradigma
 
 Mediador con perfil específico más adecuado al
 
-### Entrevista Clínica Ontológica · ECO
 
 el mediador actual no tiene. El mediador actual tiene conflicto de interés con el sujeto o el encargo. El caso colectivo requiere un equipo de mediadores y el mediador actual solo puede cubrir una parte del trabajo.
 
@@ -8120,7 +7793,6 @@ D·PROG·2  Trauma complejo que instaló D-2 como mecanismo de sobrevivencia Se�
 
 D·PROG·3  Duelo fijado en T-2 de alta intensidad por período prolongado Señales: Sujeto en T-2 activo por más de dos años sin movimiento en el vector tanatológico, con interferencia significativa en el funcionamiento cotidiano (incapacidad de trabajar, de mantener vínculos, de atender necesidades básicas). El duelo de alta intensidad sin movimiento por período prolongado puede corresponder a duelo complicado que requiere intervención clínica especializada. Acción: Derivar a psicoterapia especializada en duelo como condición previa o paralela al trabajo ontológico. El trabajo de Histos sobre el vector tanatológico puede
 
-Entrevista Clínica Ontológica · ECO
 
 complementar la psicoterapia, pero no la reemplaza cuando el duelo tiene la intensidad y la cronicidad que los criterios de duelo complicado describen.
 
@@ -8134,7 +7806,6 @@ La formulación de la derivación desde una posición de integridad es la que no
 
 La formulación de la derivación que honra la relación sin producir el error E·1: «En lo que hemos explorado, hay algo que me hace pensar que el proceso que sigue requiere un tipo de apoyo especializado que no está en el ámbito de lo que yo puedo proveer. Eso no significa
 
-Entrevista Clínica Ontológica · ECO
 
 que lo que hicimos no sea válido — es que hay una dimensión de lo que estás viviendo que necesita el tipo de acompañamiento que [profesional clínico / servicios de protección / otro] puede ofrecer de manera más apropiada. Me comprometo a acompañar la transición hacia ese apoyo y a seguir disponible para el trabajo ontológico cuando las condiciones lo permitan». Esa formulación honra al sujeto, honra al proceso y honra al principio de derivación.
 
@@ -8146,7 +7817,6 @@ La condición para esa complementariedad: el mediador debe establecer comunicaci
 
 Regla de coordinación con el profesional clínico al que se derivó El mediador que trabaja en paralelo con un profesional clínico establece con el sujeto: (1) consentimiento para coordinar con el profesional clínico sobre el foco y los límites de cada proceso; (2) qué información puede compartirse entre los dos profesionales y qué
 
-Entrevista Clínica Ontológica · ECO
 
 información permanece en la confidencialidad de cada proceso; (3) el criterio que determinará si los dos procesos pueden continuar en paralelo o si uno debe esperar al otro. Sin ese acuerdo explícito con el sujeto, el mediador no puede asumir que la coordinación es posible ni que el proceso en paralelo es apropiado.
 
@@ -8158,9 +7828,10 @@ La madurez del paradigma se expresa también en la disposición a reconocer que 
 
 La competencia ética del mediador — síntesis del Bloque IV El mediador del paradigma de Mediación Ontológica tiene dos tipos de competencia que deben estar presentes simultáneamente: la competencia técnica (precisión en la localización, dominio de los módulos, capacidad de traducir la localización al proceso de acompañamiento) y la competencia ética (saber cuándo la localización no es suficiente, cuándo el proceso debe derivar, cuándo el bienestar del sujeto requiere algo que el paradigma no puede proveer). La competencia técnica sin la ética produce un instrumento sin humanidad. La ética sin la técnica produce humanidad sin orientación. El Bloque IV existe para establecer que las dos competencias son inseparables.
 
-Entrevista Clínica Ontológica · ECO
 
-Notas al B·IV §5
+---
+
+## Notas al B·IV §5
 
 1 El principio de derivación como criterio ético fundacional no es exclusivo del paradigma de Mediación Ontológica: es un principio compartido por todos los sistemas de acompañamiento que operan con seriedad. Lo que el paradigma añade es la formalización de ese principio en un conjunto de señales específicas que el instrumento ECO puede producir y que activan protocolos de derivación definidos. Esa formalización transforma el principio ético en competencia técnica: el mediador no solo sabe que debe derivar — sabe cuándo y a dónde, desde las señales específicas que el instrumento identificó.
 
@@ -8170,16 +7841,13 @@ Notas al B·IV §5
 
 4 La síntesis del Bloque IV que la caja de conclusión al final del §5 produce — las dos competencias del mediador como inseparables — tiene un antecedente en la tradición de las profesiones de cuidado que el paradigma puede reconocer sin adoptarla como propia: la competencia técnica y la competencia ética son inseparables en cualquier práctica que trabaja con el bienestar de personas. El paradigma de Mediación Ontológica no reinventa ese principio: lo implementa en el lenguaje y los instrumentos específicos del sistema ontológico. La innovación del sistema no está en el principio ético — que es compartido — sino en la precisión técnica con la que ese principio puede implementarse desde las localizaciones que ECO produce.
 
-Entrevista Clínica Ontológica · ECO
-
 
 <!-- FORMULARIO: A·1 | salto de página | campos rellenables, casillas de verificación, tablas de localización y áreas de notas -->
 
-### A·1 ·  HOJA DE SÍNTESIS DE LA SESIÓN
+# A·1 ·  HOJA DE SÍNTESIS DE LA SESIÓN Registro de la localización del ego genuino Para completar durante o después de la sesión · Instrumento interno del
 
-### Registro de la localización del ego genuino Para completar durante o después de la sesión · Instrumento interno del
 
-### mediador · No para el sujeto
+## mediador · No para el sujeto
 
 INSTRUCCIONES DE USO
 
@@ -8195,7 +7863,6 @@ Código de caso
 
 Fecha de sesión
 
-### Entrevista Clínica Ontológica · ECO
 
 Número de sesión en ECO
 
@@ -8249,7 +7916,6 @@ EP-
 
 2/3
 
-### Entrevista Clínica Ontológica · ECO
 
 ### A  ANTEROS — afirmación desde el eje propio
 
@@ -8331,7 +7997,6 @@ Notas de discriminación Harmonía/D-2
 
 ### Completar después de cerrar los seis módulos. La suma de los seis pesos debe ser 1.00. P(Harmonía) ≠ 0 solo si el módulo H produjo H-3(H) con EP-1 o EP-2.
 
-### Entrevista Clínica Ontológica · ECO
 
 Σ=1.00 P(F) P(D) P(A) P(P) P(E) P(H)
 
@@ -8365,7 +8030,6 @@ Discriminantes del Eje I administradas y resultado
 
 EJE II  MASCARADA
 
-### Entrevista Clínica Ontológica · ECO
 
 Código Opciones Nivel
 
@@ -8413,7 +8077,6 @@ Módulo H coincide / contradice
 
 ### EJE V  TANATOLÓGICO — VECTOR DEL DUELO
 
-### Entrevista Clínica Ontológica · ECO
 
 Código Opciones Nivel
 
@@ -8445,13 +8108,12 @@ Señal de V-1 en sesión — descripción del momento de encuentro genuino (si e
 
 Calibración del mediador — estado propio en esta sesión y posible sesgo
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO CONDICIONAL: completar si se administró el Bloque III -->
 
 ### BLOQUE III · EGO COLECTIVO (completar solo si se
 
-### administró)
+administró)
 
 Ego soberano real identificado
 
@@ -8469,7 +8131,6 @@ Códigos de Ejes colectivos (I a V) y nota de convergencia/divergencia
 
 Estado del cierre Nivel de certeza global DI-ECO requerida
 
-### Entrevista Clínica Ontológica · ECO
 
 □  No aplica □  Sí — adjuntar DI-ECO
 
@@ -8493,7 +8154,6 @@ Describir los recursos activos del ego genuino del sujeto: las dimensiones donde
 
 Recursos activos del ego genuino identificados en esta sesión
 
-Entrevista Clínica Ontológica · ECO
 
 Orden recomendado de trabajo en Histos (desde los recursos disponibles)
 
@@ -8509,7 +8169,6 @@ DI-ECO §A — Motivo de la incertidumbre
 
 DI-ECO §B — Lo que sí se pudo localizar con certeza suficiente
 
-### Entrevista Clínica Ontológica · ECO
 
 DI-ECO §C — Lo que no se pudo localizar y qué lo resolvería
 
@@ -8525,7 +8184,6 @@ Instrucciones técnicas del apéndice A·1
 
 2 El campo de observación relacional (campo del mediador / campo del sujeto) se completa durante la sesión o inmediatamente después, cuando la memoria del campo es más precisa. Los registros de campo relacional que se producen
 
-Entrevista Clínica Ontológica · ECO
 
 horas o días después de la sesión tienen menor precisión diagnóstica porque la memoria de las señales del propio campo del mediador se erosiona más rápidamente que la memoria de las narrativas del sujeto.
 
@@ -8533,7 +8191,6 @@ horas o días después de la sesión tienen menor precisión diagnóstica porque
 
 4 La DI-ECO al final de la hoja de síntesis es un recordatorio estructural de que el instrumento puede cerrarse en distintos estados y que cada estado requiere un protocolo específico. El mediador que completa la hoja de síntesis sin completar la DI-ECO cuando corresponde ha cometido el equivalente del error E·5 a nivel de registro: ha declarado el instrumento completo cuando tiene componentes cuya incertidumbre requería declaración.
 
-Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO: A·2 | hojas imprimibles por módulo | cada hoja inicia en página nueva -->
 
@@ -8545,11 +8202,10 @@ Este apéndice contiene una hoja de registro específica para cada uno de los on
 
 Las hojas de registro son documentos internos del mediador. No se entregan al sujeto ni al encargado.
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO: hoja de registro B·I·F | salto de página -->
 
-### B·I·F  ·  MÓDULO FOBOS
+## B·I·F  ·  MÓDULO FOBOS
 
 ### Urgencia reactiva ante la amenaza
 
@@ -8591,7 +8247,6 @@ F·3 — ¿Qué hiciste — lo decidiste o simplemente ocurrió?
 
 F·4 — ¿Hay algo en esta conversación que produzca algo similar?
 
-### Entrevista Clínica Ontológica · ECO
 
 PREGUNTAS DISCRIMINANTES
 
@@ -8617,11 +8272,10 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO: hoja de registro B·I·D | salto de página -->
 
-### B·I·D ·  MÓDULO DEIMOS
+## B·I·D ·  MÓDULO DEIMOS
 
 ### Parálisis ante la simetría de opciones
 
@@ -8663,7 +8317,6 @@ D·3 — «¿La parálisis tenía un objeto — algo que no querías perder toma
 
 D·4 — «¿Pudiste tomar la decisión eventualmente — y qué lo hizo posible?»
 
-### Entrevista Clínica Ontológica · ECO
 
 PREGUNTAS DISCRIMINANTES
 
@@ -8689,11 +8342,10 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO: hoja de registro B·I·A | salto de página -->
 
-### B·I·A ·  MÓDULO ANTEROS
+## B·I·A ·  MÓDULO ANTEROS
 
 ### Afirmación desde el eje propio
 
@@ -8735,7 +8387,6 @@ A·3 — «Ese criterio que describes — ¿desde cuándo es tuyo y desde qué e
 
 A·4 — «Si algo te parece mal en lo que te estoy diciendo ahora, ¿puedes decirlo?»
 
-### Entrevista Clínica Ontológica · ECO
 
 PREGUNTAS DISCRIMINANTES
 
@@ -8761,11 +8412,10 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO: hoja de registro B·I·P | salto de página -->
 
-### B·I·P  ·  MÓDULO POTÓS
+## B·I·P  ·  MÓDULO POTÓS
 
 ### Orientación al ausente
 
@@ -8807,7 +8457,6 @@ P·3 — «¿Podría haber algo nuevo que no se parezca a lo que fue y que igual
 
 P·4 — «¿Lo que extrañas es algo específico o es una época, una manera de sentirte?»
 
-### Entrevista Clínica Ontológica · ECO
 
 PREGUNTAS DISCRIMINANTES
 
@@ -8833,11 +8482,10 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO: hoja de registro B·I·E | salto de página -->
 
-### B·I·E ·  MÓDULO EROS
+## B·I·E ·  MÓDULO EROS
 
 ### Apertura genuina ante la alteridad
 
@@ -8879,7 +8527,6 @@ E·5 — «¿Hay algo en ese período que te sorprendió y te movió en una dire
 
 E·6 — «¿Hay algo en esta conversación que no tenías antes de que yo lo introdujera?»
 
-### Entrevista Clínica Ontológica · ECO
 
 PREGUNTAS DISCRIMINANTES
 
@@ -8905,11 +8552,10 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO: hoja de registro B·I·H | salto de página -->
 
-### B·I·H ·  MÓDULO HARMONÍA / D-2
+## B·I·H ·  MÓDULO HARMONÍA / D-2
 
 ### Integración genuina vs. anestesia ontológica · NUNCA SE SALTA
 
@@ -8953,7 +8599,6 @@ H·D4 — «¿Qué tuviste que procesar para llegar al estado en que estás?»
 
 H·D5 — «¿Hay algo del período que fue realmente difícil internamente?»
 
-### Entrevista Clínica Ontológica · ECO
 
 PREGUNTAS DISCRIMINANTES
 
@@ -8979,11 +8624,10 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO A·2: Eje I | una página imprimible con código, casillas, nivel EP, señal y notas -->
 
-### B·II·I ·  MÓDULO EJE I — ESTADOS DEL EGO
+## B·II·I ·  MÓDULO EJE I — ESTADOS DEL EGO
 
 ### E-1 a E-6 · Modulador transversal
 
@@ -9025,7 +8669,6 @@ EI·3 — «¿Hubo momentos en que sabías lo que querías pero algo te impedía
 
 EI·5 — «Cuando alguien importante presionaba en otra dirección, ¿qué ocurrió con tu
 
-### Entrevista Clínica Ontológica · ECO
 
 PREGUNTAS DISCRIMINANTES
 
@@ -9051,11 +8694,10 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO A·2: Eje II | hoja imprimible con opciones M-1/M-2/M-3 y observación -->
 
-### B·II·II ·  MÓDULO EJE II — MASCARADA
+## B·II·II ·  MÓDULO EJE II — MASCARADA
 
 ### M-1, M-2, M-3
 
@@ -9103,7 +8745,6 @@ SEÑALES DE OBSERVACIÓN
 
 DIRECTA
 
-### Entrevista Clínica Ontológica · ECO
 
 EP-1 — No puede producir diferencia entre lo que muestra y lo que elegiría mostrar (M-2)
 
@@ -9123,11 +8764,10 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO A·2: Eje III | hoja imprimible con opciones relacionales y campo del mediador -->
 
-### B·II·III ·  MÓDULO EJE III — VÍNCULO
+## B·II·III ·  MÓDULO EJE III — VÍNCULO
 
 ### V-1, V-2 Damasén/Peribea, V-3
 
@@ -9175,7 +8815,6 @@ SEÑALES DE OBSERVACIÓN
 
 DIRECTA
 
-### Entrevista Clínica Ontológica · ECO
 
 EP-1 — La estructura relacional del sujeto se reproduce con el mediador: Damasén orienta,
 
@@ -9195,11 +8834,10 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO A·2: Eje IV | hoja imprimible para D-1/D-2 y señal observacional -->
 
-### B·II·IV  ·  MÓDULO EJE IV — DISFORIA
+## B·II·IV  ·  MÓDULO EJE IV — DISFORIA
 
 ### D-1 activo, D-2 con D-1 residual, D-2 profundo
 
@@ -9241,7 +8879,6 @@ DIS·5 — «¿Hay algún momento en que algo en ti se activa de manera diferent
 
 DIS·6 — «Si algo cambiara en tu vida, ¿esperarías sentir las cosas de manera diferente?»
 
-### Entrevista Clínica Ontológica · ECO
 
 PREGUNTAS DISCRIMINANTES
 
@@ -9267,11 +8904,10 @@ Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
 
 Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
-### Entrevista Clínica Ontológica · ECO
 
 <!-- FORMULARIO A·2: Eje V | hoja imprimible para posición del vector y tipo de pérdida -->
 
-### B·II·V  ·  MÓDULO EJE V — TANATOLÓGICO
+## B·II·V  ·  MÓDULO EJE V — TANATOLÓGICO
 
 ### T-0 a T-6 + T-ext · Vector del duelo
 
@@ -9313,7 +8949,6 @@ TAN·3 — «¿Pudiste hacer algo con esa pérdida — procesarla, darle un luga
 
 TAN·5 — «¿Qué te formó esa pérdida — qué hizo de ti lo que eres hoy?»
 
-### Entrevista Clínica Ontológica · ECO
 
 PREGUNTAS DISCRIMINANTES
 
@@ -9347,17 +8982,14 @@ Notas narrativas del módulo — campo del sujeto y señal relacional observada
 
 3 La columna de Observación del mediador durante la respuesta en la tabla de sondeos es el campo más importante de la hoja de registro y el que con mayor frecuencia queda vacío. El mediador que no registra sus observaciones durante la respuesta del sujeto pierde la información de campo más valiosa del módulo. Las observaciones pueden ser muy breves — tres o cuatro palabras que capturan la textura de la respuesta — pero deben estar presentes.
 
-Entrevista Clínica Ontológica · ECO
 
 4 La hoja del Módulo H (Harmonía/D-2) incluye las cinco preguntas H·D como casillas verificables porque es el único módulo que tiene un protocolo de cinco preguntas obligatorias. El mediador que no administra las cinco H·D no puede producir H-3(H) ni H-3(D2) con la certeza que el instrumento requiere. La casilla de verificación es un recordatorio de que todas las cinco deben estar presentes antes del cierre del módulo.
 
-Entrevista Clínica Ontológica · ECO
 
-### A·3 TABLA DE CRUCE ECO ↔ ÁRBOL
+# A·3 TABLA DE CRUCE ECO ↔ ÁRBOL DOCUMENTAL Protocolo de integración cuando U·1 ya fue aplicado · Convergencia ·
 
-### DOCUMENTAL Protocolo de integración cuando U·1 ya fue aplicado · Convergencia ·
 
-### Complementación · Contradicción
+## Complementación · Contradicción
 
 El árbol documental del Capítulo U·1 de la Taxonomía y el instrumento ECO producen localizaciones desde fuentes distintas: el árbol documental desde los actos y las huellas que los actos dejan en el expediente; ECO desde la presencia del ego genuino en el campo relacional de la sesión. Las dos localizaciones pueden referirse al mismo período y al mismo sujeto y producir resultados distintos — no porque uno sea incorrecto sino porque acceden a dimensiones distintas del mismo estado. El árbol documental localiza φ₁ y las huellas de sus actos; ECO localiza el ego genuino que produce φ₂. La integración de los dos instrumentos produce la imagen más completa disponible en el paradigma del estado del sujeto.
 
@@ -9375,7 +9007,6 @@ EP máximo para el componente en que ambos convergen. Registrar la convergencia 
 
 EP del árbol documental solo (sin ECO): máximo EP-4 para P(Hijos). Con convergencia de ECO EP-1: EP-1 combinado. La convergencia no se promedia: se eleva al nivel más alto que la evidencia de cada instrumento puede sustentar.
 
-### Entrevista Clínica Ontológica · ECO
 
 actos del período Y ECO produce señal de Fobos H-3 EP-1 en presencia, la localización de Fobos tiene el mayor nivel de certeza posible en el sistema.
 
@@ -9393,7 +9024,6 @@ No promediar las dos localizaciones. Identificar la causa probable de la contrad
 
 La contradicción más frecuente es Anteros documental / E-4 en ECO: el sujeto produce criterio propio en sus actos documentados (que puede corresponder a E-4 con criterio ajeno bien internalizado) pero en presencia
 
-### Entrevista Clínica Ontológica · ECO
 
 en los actos documentados) pero ECO localiza E-4 en el Eje I (eje ajeno internalizado). O el árbol documental localiza señal de V-1 en los vínculos documentados, pero ECO localiza V-2 Peribea en la relación con el mediador. Las contradicciones tienen causa y requieren investigación, no promediación.
 
@@ -9425,7 +9055,6 @@ No hay fuente de corroboración documental posible: la señal de Harmonía
 
 Sin contradicción posible: si el árbol documental sugiere Harmonía, esa sugerencia no puede
 
-### Entrevista Clínica Ontológica · ECO
 
 producir P(Harmonía) > 0.
 
@@ -9473,7 +9102,6 @@ Combinación complementaria:
 
 Sin contradicción típica: los dos
 
-### Entrevista Clínica Ontológica · ECO
 
 instrumentos localizan dimensiones distintas del mismo vector. Posible complementación: árbol documental localiza T-0 y ECO localiza la posición actual. Juntos: el trayecto completo del vector.
 
@@ -9507,23 +9135,22 @@ El sujeto entrevistado en ECO no es el ego soberano real del colectivo (en conte
 
 Verificar si el entrevistado en ECO es el ego soberano real. Si no lo es, la localización de ECO corresponde a ese sujeto, no al ego colectivo. Producir DI-ECO y repetir con el ego soberano real.
 
-Entrevista Clínica Ontológica · ECO
 
 mediador cometió uno de los errores del Bloque IV durante la administración.
 
-Notas A·3
+---
+
+## Notas A·3
 
 1 La regla absoluta del sistema — P(Harmonía) ≠ 0 solo desde el módulo H de ECO — no tiene excepción en el protocolo de integración. El árbol documental que sugiere Harmonía en los actos documentados no puede producir P(Harmonía) > 0. La complementación entre los dos instrumentos en este punto es asimétrica: ECO es la única fuente que puede elevar P(Harmonía) por encima de cero.
 
 2 El protocolo de integración no asume que ECO tiene mayor EP que el árbol documental en todos los componentes. Para algunos componentes — especialmente la cronología del vector tanatológico y la firma de los actos en el Bloque I durante períodos históricos que el sujeto ya no recuerda con precisión — el árbol documental puede tener mayor EP que ECO. La integración asigna mayor peso a la fuente de mayor EP componente por componente, no a un instrumento entero sobre el otro.
 
-### Entrevista Clínica Ontológica · ECO
 
-### A·4 TABLA DE ADAPTACIONES POR
+# A·4 TABLA DE ADAPTACIONES POR PERFIL DE MEDIADOR Qué módulos usa cada perfil · En qué orden · Con qué profundidad ·
 
-### PERFIL DE MEDIADOR Qué módulos usa cada perfil · En qué orden · Con qué profundidad ·
 
-### Referencia para primera administración
+## Referencia para primera administración
 
 <!-- TABLA: adaptación por perfil | columnas: perfil, módulos prioritarios, orden, profundidad, preguntas clave -->
 
@@ -9553,7 +9180,6 @@ Comenzar siempre con la pregunta de observación directa del Eje IV antes de adm
 
 Instrucción para primera sesión
 
-### Entrevista Clínica Ontológica · ECO
 
 ### Mediador Educativo
 
@@ -9603,7 +9229,6 @@ Instrucción para primera sesión
 
 No administrar ningún módulo antes de completar el protocolo de identificación del ego soberano real del B·III·1. Sin ese paso,
 
-### Entrevista Clínica Ontológica · ECO
 
 el resto del instrumento no tiene punto de entrada al ego colectivo.
 
@@ -9643,7 +9268,6 @@ Profundidad relativa
 
 Alta en Bloque I y Eje V del ego colectivo. Alta en B·III·1 (identificación del ego soberano real del colectivo analizado). Media en Eje I-IV. Alta en Eje V cuando el fenómeno analizado involucra pérdida irrecuperable constitutiva del colectivo.
 
-### Entrevista Clínica Ontológica · ECO
 
 Prioridades de localización
 
@@ -9681,19 +9305,19 @@ Comenzar siempre con la pregunta de localización del Eje V colectivo antes de c
 
 Instrucción para primera sesión
 
-Notas A·4
+---
 
-Entrevista Clínica Ontológica · ECO
+## Notas A·4
+
 
 1 Esta tabla es una referencia rápida, no un protocolo sustituto. El mediador que usa esta tabla sin conocer los módulos completos está usando el instrumento sin el fundamento que hace posible la lectura diagnóstica de las señales. La tabla orienta el orden y la profundidad; los módulos completos del Bloque I, II y III establecen el contenido y los criterios de cada localización.
 
 2 Los órdenes recomendados en esta tabla son puntos de entrada, no secuencias rígidas. El mediador que comienza con el Eje IV en el Mediador en Crisis puede encontrar que la apertura narrativa del sujeto orienta hacia el Eje V antes de que el Eje IV esté completamente explorado. El instrumento tiene estructura modular con secuencia recomendada, no con secuencia obligatoria (con las excepciones que los capítulos del Bloque I y II establecen: el módulo H siempre al final del Bloque I, el Eje I siempre al principio del Bloque II).
 
-Entrevista Clínica Ontológica · ECO
 
-### A·5 ÁRBOL DE NAVEGACIÓN GENERAL
+# A·5 ÁRBOL DE NAVEGACIÓN GENERAL
 
-DEL INSTRUMENTO Mapa completo del flujo de ECO · Criterios de entrada · Reglas SKIP · Nodos de
+## DEL INSTRUMENTO Mapa completo del flujo de ECO · Criterios de entrada · Reglas SKIP · Nodos de
 
 decisión · Salidas
 
@@ -9725,7 +9349,6 @@ Orden estándar: F → D → A → P → E → H. El módulo H siempre al final 
 >
 > SKIP PARCIAL: E-1 confirmado en una sesión anterior con EP-1 o EP-2 y sin señal de parálisis, ausencia de dirección o respuesta mínima en la apertura. Administrar los sondeos D·1 y D·3; si alguno produce señal, administrar el módulo completo; si ninguno, H-1, EP-0 → Módulo Anteros.
 >
-> ### Entrevista Clínica Ontológica · ECO
 >
 > ### ↓
 
@@ -9766,7 +9389,6 @@ Orden estándar: Eje I → Eje II → Eje III → Eje IV → Eje V. El Eje I sie
 >
 > ABREVIACIÓN: si H produjo H-3(D2) con EP-1/EP-2 → pregunta ancla + DIS·3 + DIS·4 + D·DIS·1. Si H produjo H-3(H) con EP-1/EP-2 → pregunta ancla + DIS·1 + D·DIS·2. Con EP-3 o inferior, o H-2/no evaluable, administrar completo.
 >
-> ### Entrevista Clínica Ontológica · ECO
 >
 > Nota de modulación: D-2 profundo sin D-1 residual: evaluar derivación clínica antes de continuar. Modifica todos los pesos del Bloque I. Salida: Código D-n → continuar a Eje V. ↓
 
@@ -9804,7 +9426,6 @@ El Bloque III no es obligatorio para todos los encargos. Se activa cuando el ego
 
 > ¿Todos los módulos obligatorios administrados o saltados con justificación documentada?
 
-### Entrevista Clínica Ontológica · ECO
 
 NO → Instrumento incompleto. Evaluar si módulos faltantes pueden completarse o si el cierre debe declararse como incompleto. SÍ → ¿EP-2 o superior en los componentes principales? ↓
 
@@ -9838,13 +9459,14 @@ D·URG·3 Revelación de violencia activa — hacia el sujeto o hacia terceros
 
 Suspender ECO. Activar protocolo legal y de protección del contexto.
 
-### Notas A·5
+---
+
+## Notas A·5
 
 1 El árbol de navegación sintetiza el flujo del instrumento, pero no reemplaza los árboles de decisión internos de cada módulo. Cada módulo del Bloque I y el Bloque II tiene su propio árbol de decisión detallado (la sección §6 de cada módulo) que el mediador debe consultar cuando la navegación dentro del módulo requiere orientación más granular que la que este árbol general puede proveer.
 
 2 Las señales de derivación urgente en el cuadro final de este apéndice son señales que suspenden el instrumento con prioridad sobre cualquier otra consideración. El mediador que encuentra estas señales no completa el módulo en curso, no formula las preguntas que seguían, no intenta terminar la sesión de manera ordenada antes
 
-Entrevista Clínica Ontológica · ECO
 
 de actuar. La derivación urgente tiene prioridad absoluta sobre la administración del instrumento.
 
