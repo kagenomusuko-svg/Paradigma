@@ -4,9 +4,7 @@
 
 ### Entrevista Clínica Ontológica
 
-Centro Multidisciplinario Meriadock Formación
-
-y Asesoría A.C.
+Centro Multidisciplinario Meriadock Formación y Asesoría A.C.
 
 Colección: Autodeterminación Causal
 
@@ -189,9 +187,7 @@ Con la Parte Preliminar completa, el Bloque I puede comenzar. El primer módulo 
 
 3 La advertencia sobre la traducción de los códigos del SDO a categorías del DSM no implica que ECO sea incompatible con el trabajo clínico. Implica que la traducción es una operación que el mediador realiza fuera del instrumento, no dentro de él. Un psicólogo clínico que usa ECO puede, con su formación, establecer correspondencias entre lo que ECO localiza y lo que su campo nombra de manera diferente. Lo que ECO no hace es producir esas correspondencias como parte de su salida.
 
-4 La escala de evidencia personal (EP-0 a EP-8) que este capítulo menciona brevemente se desarrolla en su totalidad en el Capítulo P·4. Es el instrumento central de calibración de ECO y debe leerse antes de administrar cualquier módulo. Su función es equivalente a la de la tabla E0–E8 del Método Prometeo: Entrevista Clínica Ontológica · ECO
-
-impedir que el mediador asigne certezas fuera del rango que el tipo de señal observacional justifica.
+4 La escala de evidencia personal (EP-0 a EP-8) que este capítulo menciona brevemente se desarrolla en su totalidad en el Capítulo P·4. Es el instrumento central de calibración de ECO y debe leerse antes de administrar cualquier módulo. Su función es equivalente a la de la tabla E0–E8 del Método Prometeo: Entrevista Clínica Ontológica · ECO impedir que el mediador asigne certezas fuera del rango que el tipo de señal observacional justifica.
 
 
 # Capítulo P·2
@@ -502,8 +498,8 @@ La distribución recomendada del instrumento en sesiones múltiples depende del 
 
 | Sesión | Contenido | Duración aprox. | Nota |
 | --- | --- | ---: | --- |
-| Sesión 1 | Apertura narrativa + Bloque I completo (seis módulos) | 90–110 min. | Primera sesión más larga. Ritmo adaptado al sujeto. |
-| Sesión 2 | Bloque II completo (Ejes I a V) | 80–100 min. | Puede dividirse en dos si el Eje I requiere extensión. |
+| Sesión 1 | Apertura narrativa + Bloque I completo (seis módulos) | 89–156 min. (suma de los rangos de apertura y módulos; dividir si la administración alcanza el extremo alto). | Primera sesión más larga. Ritmo adaptado al sujeto. |
+| Sesión 2 | Bloque II completo (Ejes I a V) | 71–120 min. (suma de los rangos de los cinco ejes; dividir si la administración alcanza el extremo alto). | Puede dividirse en dos si el Eje I requiere extensión. |
 | Sesión 3 (si es necesaria) | Módulos incompletos + síntesis + principios de intervención | 60–80 min. | Solo si hay módulos con código ? en las sesiones anteriores. |
 | Cierre de ECO | Entrega de principios de intervención al sujeto (si aplica al perfil) + transición a Histos | 30–45 min. | No todos los perfiles realizan este cierre con el sujeto. |
 
@@ -520,12 +516,10 @@ Cuando ECO se administra en sesiones múltiples, el tiempo entre sesiones es par
 
 Una administración inválida no es una en la que el mediador cometió errores: en cualquier sesión hay decisiones que podrían haberse tomado de otra manera. Una administración inválida es una en la que alguna condición estructural hace que las localizaciones producidas no puedan usarse con la certeza que el instrumento requiere. El mediador debe poder identificar esas condiciones durante la sesión o inmediatamente después, y declararlas en la hoja de síntesis.
 
-Por qué invalida Acción del
-
 | Condición de invalidación | Por qué invalida | Acción del mediador |
 | --- | --- | --- |
 | El sujeto está en estado de crisis aguda durante la sesión | El estado agudo produce que todas las señales correspondan a la respuesta de crisis, no a la configuración habitual de la voluntad. La localización describe el estado de emergencia, no el estado del sujeto. | Detener la sesión. Aplicar protocolo de derivación del Bloque IV. No registrar localizaciones parciales como válidas. |
-| El mediador interviene para calmar la incomodidad del sujeto durante la sesión | La incomodidad del sujeto ES la señal. Calmarla suprime exactamente la evidencia que el instrumento busca. La sesión que continúa después de esa intervención ya no tiene las condiciones relacionales requeridas. | Registrar la intervención en la hoja de sesión. Bajar el nivel de certeza de todas las señales producidas después del momento de intervención a EP-6 como máximo. |
+| El mediador interviene para calmar la incomodidad del sujeto durante la sesión | La incomodidad del sujeto ES la señal. Calmarla suprime exactamente la evidencia que el instrumento busca. La sesión que continúa después de esa intervención ya no tiene las condiciones relacionales requeridas. | Registrar la intervención en la hoja de sesión. No usar las señales posteriores para una localización confirmada. Registrarlas como evidencia afectada por contaminación relacional y repetir los módulos afectados en una sesión adicional. |
 | El sujeto produce respuestas orientadas a la imagen durante toda la sesión | Si el sujeto responde lo que percibe que el mediador espera y no lo que genuinamente experimenta, ECO localiza la imagen sostenida del sujeto (M-2 del Eje II), no su configuración real. Eso es información, pero no es la información que los módulos buscan. | Registrar M-2 como hallazgo del Eje II. Declarar que la distribución P(Hijos) no puede completarse desde esta sesión. Sesión adicional bajo condiciones diferentes si es posible. |
 | El encuadre fue omitido o incompleto | Sin encuadre, el sujeto no sabe qué tipo de conversación tiene ni qué se espera de él. El campo relacional que produce esa incertidumbre contamina las señales de todos los módulos. | No iniciar los módulos sin encuadre completo. Si el encuadre fue parcial, declararlo en la hoja de síntesis y bajar el nivel de certeza de los primeros módulos administrados. |
 | El mediador no tiene el dominio requerido del sistema ontológico | Sin dominio del sistema, el mediador no puede leer las señales que el sujeto produce. Obtiene respuestas sin poder codificarlas. La localización resultante es arbitraria. | No administrar ECO sin la formación requerida. Esta condición debe verificarse antes de la sesión, no durante. |
@@ -536,7 +530,7 @@ Por qué invalida Acción del
 
 Cuando el mediador identifica una condición de invalidación durante o después de la sesión, produce una Declaración de condición inválida en la hoja de síntesis. Esta declaración no es un reconocimiento de fracaso: es el instrumento funcionando correctamente. Un instrumento que no puede declarar cuándo sus resultados no son confiables es más peligroso que uno que sí puede hacerlo.
 
-La declaración especifica: qué condición de invalidación se presentó, en qué momento de la sesión, qué módulos fueron afectados, qué nivel de certeza máximo pueden tener las señales producidas después de ese momento, y si la sesión puede completarse en una sesión adicional o si el caso requiere una nueva administración completa.
+La declaración especifica: qué condición de invalidación se presentó, en qué momento, qué módulos fueron afectados, qué señales posteriores quedan excluidas por contaminación relacional, y si la sesión puede completarse en una sesión adicional o requiere una nueva administración completa.
 
 > **La declaración de condición inválida no es fracaso — es rigor**
 >
@@ -621,10 +615,7 @@ Los cuatro códigos de calificación son la salida primaria de cada módulo. Cad
 
 #### La distinción H-1 — ausencia de señal vs. imposibilidad de evaluar
 
-La distinción entre H-1 e imposibilidad de evaluar es técnicamente importante y operativamente frecuente. H-1 significa que el módulo se administró completo y no produjo señal: hay información negativa; significa que el módulo no pudo evaluarse: no hay
-
-
-información de ningún tipo. Tratar H-1 como una imposibilidad de evaluar produce una sub-declaración de ausencia —el mediador registra incertidumbre donde hay certeza negativa. Tratar la imposibilidad como H-1 produce una sobre-declaración —el mediador registra ausencia donde no tiene base para declarar nada.
+La distinción entre H-1 e imposibilidad de evaluar es técnicamente importante y operativamente frecuente. H-1 significa que el módulo se administró completo y no produjo señal o que se cumplieron y documentaron las condiciones de un SKIP autorizado: hay información negativa. La imposibilidad de evaluar significa que el módulo no pudo evaluarse: no hay información de ningún tipo. Tratar H-1 como una imposibilidad de evaluar produce una sub-declaración de ausencia —el mediador registra incertidumbre donde hay certeza negativa. Tratar la imposibilidad como H-1 produce una sobre-declaración —el mediador registra ausencia donde no tiene base para declarar nada.
 
 Un ejemplo de cada caso: el sujeto que respondió todas las preguntas del módulo Potós con narrativa clara y ninguna de sus respuestas mostró señal de orientación al ausente produce H-1. El sujeto que interrumpió la sesión después de la pregunta ancla del módulo Potós sin que el mediador pudiera continuar produce imposibilidad para evaluar para ese módulo. En el primero hay información: no hay señal de Potós. En el segundo no hay información: el módulo no pudo evaluarse.
 
@@ -716,7 +707,7 @@ completa. Esta distinción produce H-1 (EP-0, ausencia confirmada) vs H-2 o H-1 
 
 ### I.  Por qué el instrumento necesita lógica de navegación
 
-Un instrumento sin lógica de navegación es una lista de preguntas. Una característica del SCID del DSM que muestra su estructura de entrevista es la navegación entre secciones: determina cuándo se entra a cada sección, cuándo se salta y cuándo termina la administración. ECO tiene la misma exigencia. Los once módulos no se administran siempre en el mismo orden ni con la misma profundidad. La lógica de navegación es lo que permite que el instrumento sea flexible sin dejar de ser riguroso.
+Un instrumento sin lógica de navegación es una lista de preguntas. La entrevista estructurada SCID-5-RV también dispone de una guía de navegación entre secciones; ECO comparte la necesidad de definir condiciones de entrada, salto y cierre, aunque su fundamento y sus criterios son propios del sistema ontológico. Los once módulos no se administran siempre en el mismo orden ni con la misma profundidad. La lógica de navegación es lo que permite que el instrumento sea flexible sin dejar de ser riguroso.
 
 La lógica de navegación de ECO descansa en tres operaciones distintas que este capítulo establece con precisión. La primera es la entrada: cuándo el mediador puede iniciar un módulo directamente sin seguir el orden estándar, y qué condición lo autoriza. La segunda es el salto (SKIP): cuándo el mediador puede omitir un módulo o una sección de un módulo, y por qué razón ontológica —no solo operativa— ese salto está justificado. La tercera es el cierre: cuándo ECO puede declararse completo y con qué tipo de completitud.
 
@@ -759,14 +750,14 @@ El módulo Harmonía/D-2 nunca tiene criterio de entrada directa. Se administra 
 
 ### III.  Lógica de las reglas SKIP
 
-Las reglas SKIP son uno de los elementos más importantes del instrumento y los más frecuentemente mal comprendidos. Un SKIP no es un atajo. No es una manera de abreviar el instrumento por falta de tiempo. No es una decisión que el mediador toma cuando cree que ya sabe la respuesta. Un SKIP es la conclusión de que administrar un módulo o una sección en este caso con este sujeto no produciría información que la sesión no tenga ya: que el tiempo invertido en ese módulo produciría ninguna información marginal.
+Las reglas SKIP son uno de los elementos más importantes del instrumento y los más frecuentemente mal comprendidos. Un SKIP no es un atajo. No es una manera de abreviar el instrumento por falta de tiempo. No es una decisión que el mediador toma cuando cree que ya sabe la respuesta. Un SKIP es la conclusión de que administrar un módulo o una sección en este caso con este sujeto no produciría información que la sesión no tenga ya: que el tiempo invertido en ese módulo no produciría información marginal.
 
 Esa conclusión requiere justificación. La diferencia entre un instrumento con reglas SKIP bien diseñadas y un instrumento que el mediador abrevia a su criterio es exactamente esa: la justificación. Las reglas SKIP de ECO tienen dos componentes obligatorios que la tabla que sigue establece para cada caso: la condición que activa el SKIP y la justificación ontológica de por qué esa condición hace que el módulo no produzca información adicional. El mediador que salta sin la condición activa no está aplicando el instrumento: lo está evitando.
 
 | Módulo afectado | Condición que activa el SKIP | Tipo de SKIP | Justificación ontológica |
 | --- | --- | --- | --- |
 | Potós (B·I·P) | La apertura narrativa no produjo ninguna señal de orientación al pasado Y el sujeto no pudo identificar nada ausente ante la pregunta ancla. | SKIP completo → registrar EP-0, código H-1. | Potós requiere que la voluntad esté orientada hacia algo ausente. Si no hay orientación al ausente en ningún momento de la sesión ni ante la pregunta directa, administrar el módulo completo no produce información adicional: solo consume tiempo que el instrumento puede usar en módulos con señal activa. |
-| Eros (B·I·E) | Los cuatro módulos anteriores (F, D, A, P) produjeron un Hijo dominante con H-3 y EP-1, y no hubo ninguna señal de apertura a lo nuevo en la apertura narrativa ni en el campo relacional de la sesión. | Acortamiento (no SKIP) → administrar la pregunta ancla y los sondeos E·1 y E·6. Si no hay señal, registrar EP-0, código H-1. | Eros es el Hijo de apertura a la alteridad. Cuando la sesión ya produjo un Hijo dominante muy claro con EP-1 y el campo relacional no mostró apertura, la probabilidad de que Eros sea relevante es baja. El SKIP parcial permite verificar sin invertir el tiempo del módulo completo. |
+| Eros (B·I·E) | Los cuatro módulos anteriores (F, D, A, P) produjeron un Hijo dominante con H-3 y EP-1, y no hubo ninguna señal de apertura a lo nuevo en la apertura narrativa ni en el campo relacional de la sesión. | Acortamiento (no SKIP) → administrar la pregunta ancla y los sondeos E·1 y E·6. Si no hay señal, registrar EP-0, código H-1. | Eros es el Hijo de apertura a la alteridad. Cuando la sesión ya produjo un Hijo dominante muy claro con EP-1 y el campo relacional no mostró apertura, la probabilidad de que Eros sea relevante es baja. El acortamiento permite verificar sin invertir el tiempo del módulo completo. |
 | Eje II — Mascarada (B·II·II) | El Eje I produjo E-1 con EP-1 o EP-2, y la apertura narrativa mostró coherencia entre distintos contextos sin señal de adaptación diferencial. | SKIP parcial → administrar solo la pregunta ancla. Si produce señal, continuar el módulo completo. | M-1 (modulación genuina) es el estado esperado cuando el ego genuino opera desde E-1 con consistencia. El SKIP parcial no asume M-1: lo verifica con la pregunta mínima necesaria. Si la pregunta ancla no produce señal de impostura, el módulo puede cerrarse con código H-1 para M-2 y M-3. |
 | Eje IV — Disforia (B·II·IV), sección D-2 | El Módulo H del Bloque I produjo la discriminación Harmonía/D-2 con EP-1 o EP-2. | SKIP parcial de la sección discriminante → ir directamente a la sección de intervención del módulo. | El Módulo H produce la discriminación Harmonía/D-2 con mayor precisión que el Módulo Eje IV, porque usa las cinco preguntas H·D específicamente diseñadas para ese propósito. Repetir la discriminación en el Eje IV después de haberla completado en el Módulo H no añade información: consume tiempo y puede producir confusión si las dos fuentes no coinciden. |
 | Bloque III completo | El perfil del mediador es Estructural y el caso no involucra un ego colectivo como unidad de análisis relevante para el Método Prometeo. | SKIP completo del Bloque III → registrar en la hoja de síntesis que el ego colectivo no fue el objeto de análisis de esta administración. | El Bloque III existe para localizar el ego colectivo. Si el caso del mediador estructural involucra solo la localización de un actor individual para los parámetros S y α de Prometeo, el Bloque III no tiene objeto de análisis. El SKIP no es un atajo: es la aplicación correcta del instrumento al perfil y al caso. |
@@ -839,12 +830,12 @@ que el mediador ejecuta desde que abre la sesión hasta que produce la localizac
       - Si el SKIP completo está activo: H-1 · EP-0 · P(Potós) = 0.
       - Si no: administrar completo → código · EP · peso P(Potós).
    5. **Módulo E — Eros**
-      - Si el SKIP parcial está activo: solo ancla + 1 sondeo → código · EP · peso P(Eros).
+      - Si el acortamiento está activo: pregunta ancla + sondeos E·1 y E·6 → código · EP · peso P(Eros).
       - Si no: administrar completo → código · EP · peso P(Eros).
    6. **Módulo H — Harmonía / D-2:** nunca tiene SKIP; administrar siempre completo, 20–35 min.
       - H-3 Harmonía + EP-1/EP-2 → P(Harmonía) puede ser > 0.
       - H-3 D-2 + EP-1/EP-2 → P(Harmonía) = 0 · registrar D-2 → Eje IV.
-      - H-2 o imposibilidad → P(Harmonía) ≤ 0.15 con incertidumbre declarada.
+      - H-2 o imposibilidad → P(Harmonía) = 0.00; registrar la incertidumbre del módulo y declararla en la hoja de síntesis. No asignar peso positivo sin H-3(H) con EP-1 o EP-2.
 6. **¿La distribución P(Hijos) puede completarse?**
    - **NO + ≥ 3 módulos con código de imposibilidad:** Declaración de incertidumbre ECO → ver Bloque IV.
    - **SÍ:** Continuar al Bloque II.
@@ -897,6 +888,8 @@ El Bloque I comienza ahora. El primer módulo —Fobos— es el más legible de 
 
 
 requiere. La validez del cierre de perfil parcial depende de que los módulos no administrados estén declarados explícitamente como tales en la hoja de síntesis, con referencia al perfil que justifica su omisión.
+
+5 La referencia al SCID-5-RV sostiene únicamente la comparación sobre la existencia de una guía de navegación por secciones; no atribuye a SCID la fundamentación ontológica ni las reglas de ECO. First, M. B., Williams, J. B. W., Karg, R. S., y Spitzer, R. L. (2016). *User’s Guide for the Structured Clinical Interview for DSM-5 Disorders, Research Version (SCID-5-RV).* American Psychiatric Association Publishing.
 
 
 # B·I·F · MÓDULO FOBOS
@@ -1436,11 +1429,7 @@ El sujeto siente la pregunta como
 El sujeto produce una respuesta
 
 
-(anestesia ontológica)
-
-quieres —no en ese momento sino ahora, aquí en esta conversación—, ¿sientes que hay algo que quieres y no puedes identificarlo, o simplemente no aparece nada?»
-
-difícil y puede mostrar incomodidad, frustración o perplejidad ante ella. Hay un ego genuino que registra que debería poder responder y no puede. La incapacidad produce señal de malestar.
+(anestesia ontológica) quieres —no en ese momento sino ahora, aquí en esta conversación—, ¿sientes que hay algo que quieres y no puedes identificarlo, o simplemente no aparece nada?» difícil y puede mostrar incomodidad, frustración o perplejidad ante ella. Hay un ego genuino que registra que debería poder responder y no puede. La incapacidad produce señal de malestar.
 
 semánticamente correcta sin incomodidad visible. No hay registro de que la pregunta sea difícil: simplemente responde lo que corresponde responder. La ausencia de respuesta genuina no produce señal de malestar.
 
@@ -1471,17 +1460,9 @@ H-3 Presente El sujeto no puede identificar un criterio propio para decidir ante
 
 «No sé qué decirte. En ese momento había varias opciones y ninguna me parecía claramente mejor que las otras. Preferí esperar a que la situación se aclarara sola.» [El sujeto no puede responder a la pregunta de sondeo sobre qué habría necesitado para decidir.]
 
-EP-1 cuando la parálisis se
+EP-1 cuando la parálisis se reproduce en sesión.
 
-reproduce en sesión.
-
-EP-2 con
-
-narrativa coherente
-
-de dos o
-
-más episodios.
+EP-2 con narrativa coherente de dos o más episodios.
 
 H-2 Umbral El sujeto describe al menos un episodio de parálisis ante la simetría de opciones, pero puede identificar criterios propios en otros contextos de la
 
@@ -1490,9 +1471,7 @@ H-2 Umbral El sujeto describe al menos un episodio de parálisis ante la simetr�
 EP-4 a EP-
 
 
-sujeto puede identificar preferencias en otros contextos durante la misma sesión.]
-
-misma sesión. La parálisis no se reproduce directamente en sesión: el sujeto puede responder a preguntas sobre sus propias preferencias aunque con dificultad.
+sujeto puede identificar preferencias en otros contextos durante la misma sesión.] misma sesión. La parálisis no se reproduce directamente en sesión: el sujeto puede responder a preguntas sobre sus propias preferencias aunque con dificultad.
 
 EP-0. «Generalmente tengo claro qué quiero hacer. Puede haber situaciones difíciles, pero no me paralizo.» [El sujeto responde a la pregunta «¿qué quieres tú aquí?» con una preferencia identificable y sin dificultad visible.]
 
@@ -1824,11 +1803,7 @@ Anteros: el sujeto eligió esa respuesta porque correspondía a
 Fobos estratégico: el sujeto puede imaginar haber
 
 
-(urgencia que encubre deliberación)
-
-no tenías otra opción en ese momento, o que elegiste responder así porque era lo que correspondía a tu criterio?»
-
-su criterio propio. Había opciones, y eligió esa porque era coherente con lo que sostenía. La respuesta fue una expresión del eje, no una imposición del campo ni una reacción automática. El sujeto puede describir la elección aunque haya sido rápida.
+(urgencia que encubre deliberación) no tenías otra opción en ese momento, o que elegiste responder así porque era lo que correspondía a tu criterio?» su criterio propio. Había opciones, y eligió esa porque era coherente con lo que sostenía. La respuesta fue una expresión del eje, no una imposición del campo ni una reacción automática. El sujeto puede describir la elección aunque haya sido rápida.
 
 respondido diferente, pero eligió no hacerlo por conveniencia o cálculo. La urgencia aparente enmascara deliberación. O bien Fobos estructural: el sujeto siente que no había otra opción porque la reacción fue automática, anterior a cualquier deliberación. En ambos casos la elección no viene del eje propio.
 
@@ -1851,9 +1826,7 @@ E-4 avanzado: el sujeto no puede identificar ese momento fácilmente, o cuando l
 
 adoptando la posición del campo, aunque inicialmente resistió. El criterio que parecía propio se plegó cuando la fricción fue suficientemente alta. El eje era del Otro internalizado que se impuso cuando fue desafiado desde afuera.
 
-direcciones distintas? ¿Qué hiciste?»
-
-criterio fue sostenido. La fricción fue real y el eje propio sobrevivió a ella.
+direcciones distintas? ¿Qué hiciste?» criterio fue sostenido. La fricción fue real y el eje propio sobrevivió a ella.
 
 Desarrollo de la discriminación Anteros / E-4 — la más importante del módulo
 
@@ -1885,15 +1858,7 @@ H-3 Presente El sujeto puede identificar criterios propios que se mantuvieron es
 
 EP-2 mínimo.
 
-EP-1 cuando el
-
-sujeto desacuerda
-
-con el mediador en
-
-sesión de
-
-manera sostenida.
+EP-1 cuando el sujeto desacuerda con el mediador en sesión de manera sostenida.
 
 H-2 Umbral El sujeto describe al menos un episodio de afirmación desde criterio propio, pero el criterio no aparece de manera sostenida en otros contextos o períodos. O el criterio que describe parece propio en el contenido pero tiene raíces en un Otro identificable que el sujeto no puede distinguir de sí mismo.
 
@@ -1906,9 +1871,7 @@ EP-0. «No sé si tengo criterios propios como
 H-1 Ausente El módulo completo no
 
 
-tales. Trato de hacer lo que corresponde en cada situación.» [El sujeto no puede nombrar ningún criterio propio estable cuando el mediador lo pregunta directamente.]
-
-produjo señal de afirmación desde criterio propio genuino. El sujeto no puede identificar criterios estables a través del tiempo, o los criterios que describe tienen raíces claramente en figuras de autoridad o en el campo sin que el sujeto pueda distinguirlos de su propio eje.
+tales. Trato de hacer lo que corresponde en cada situación.» [El sujeto no puede nombrar ningún criterio propio estable cuando el mediador lo pregunta directamente.] produjo señal de afirmación desde criterio propio genuino. El sujeto no puede identificar criterios estables a través del tiempo, o los criterios que describe tienen raíces claramente en figuras de autoridad o en el campo sin que el sujeto pueda distinguirlos de su propio eje.
 
 ? Inf. inadecuada
 
@@ -2223,9 +2186,7 @@ Potós: el sujeto describe orientación crónica y relativamente serena hacia lo
 Duelo activo (T-2, T-3): el sujeto describe proceso activo con agitación emocional identificable. Hay momentos de
 
 
-es más una orientación crónica hacia algo que sabes que ya no va a volver?»
-
-no como proceso activo. El sujeto puede hablar de lo ausente sin colapsar emocionalmente; la pérdida está integrada como pérdida pero la voluntad no ha podido redirigirse.
+es más una orientación crónica hacia algo que sabes que ya no va a volver?» no como proceso activo. El sujeto puede hablar de lo ausente sin colapsar emocionalmente; la pérdida está integrada como pérdida pero la voluntad no ha podido redirigirse.
 
 presencia intensa del dolor, oscilación entre el duelo y el funcionamiento ordinario, búsqueda activa de sentido. El duelo activo tiene movimiento; Potós tiene orientación fija.
 
@@ -2272,21 +2233,9 @@ H-3 Presente El sujeto muestra orientación sostenida hacia algo ausente — per
 
 «Cuando pienso en cómo era el equipo antes de que se fuera quien se fue, siento que era otra empresa. Tratamos de seguir adelante, pero hay algo que no se puede recuperar. No es que esté mal ahora; es que antes había algo que ahora simplemente no está.» [El sujeto habla del pasado con calidez y del presente con planitud tonal.]
 
-EP-2 mínimo. No
+EP-2 mínimo. No hay EP-1 puro para
 
-hay EP-1 puro para
-
-Potós porque la conducta directa en sesión que reproduce la
-
-orientación
-
-al ausente es rara —el
-
-ausente no
-
-está en la
-
-sesión.
+Potós porque la conducta directa en sesión que reproduce la orientación al ausente es rara —el ausente no está en la sesión.
 
 H-2 Umbral El sujeto describe al menos un episodio de orientación hacia lo ausente con señales de nostalgia o de incapacidad de equivalentes, pero el patrón no aparece de manera sostenida en otros momentos de la sesión. O la orientación al pasado podría corresponder a Deimos (refugio ante la parálisis del presente) o a Fobos (el pasado como escudo ante la amenaza).
 
@@ -2301,9 +2250,7 @@ EP-0. «No me quedo mucho en el pasado. Lo que fue, fue; ahora
 H-1 Ausente El módulo completo no produjo señal de orientación sostenida
 
 
-estoy enfocado en lo que sigue.» [El sujeto no produce ninguna señal de orientación al ausente durante el módulo completo.]
-
-hacia lo ausente. El sujeto no produce narrativa de nostalgia, no vuelve espontáneamente al pasado, y puede imaginar equivalentes o futuros distintos al pasado restaurado.
+estoy enfocado en lo que sigue.» [El sujeto no produce ninguna señal de orientación al ausente durante el módulo completo.] hacia lo ausente. El sujeto no produce narrativa de nostalgia, no vuelve espontáneamente al pasado, y puede imaginar equivalentes o futuros distintos al pasado restaurado.
 
 ? Inf. inadecuada
 
@@ -2522,9 +2469,7 @@ El sujeto no muestra rigidez ante perspectivas que
 
 EP-1 cuando la ausencia de rigidez
 
-Confundir con ausencia de criterio (Deimos o E-4): Entrevista Clínica Ontológica · ECO
-
-también producen ausencia de rigidez, pero por razones distintas. La diferencia: Eros puede recibir la contradicción y quedarse con su posición si tiene razón desde su eje — la apertura no implica abandono. Deimos y E-4 reciben sin resistir porque no tienen posición desde donde resistir.
+Confundir con ausencia de criterio (Deimos o E-4): Entrevista Clínica Ontológica · ECO también producen ausencia de rigidez, pero por razones distintas. La diferencia: Eros puede recibir la contradicción y quedarse con su posición si tiene razón desde su eje — la apertura no implica abandono. Deimos y E-4 reciben sin resistir porque no tienen posición desde donde resistir.
 
 contradicen lo que ya sostenía: puede recibir la contradicción como información y puede quedarse con su posición sin que el proceso de recepción produzca cierre.
 
@@ -2603,9 +2548,7 @@ El sujeto puede describir momentos de detención genuina: algo llegó y el sujet
 El sujeto describe apertura continua sin detención: de una cosa a otra, siempre en
 
 
-apertura fue de una cosa a otra sin que ninguna te retuviera?»
-
-procesó, dejó que lo afectara. La apertura de Eros tiene capacidad de retención. El sujeto puede nombrar lo que encontró y describir cómo lo afectó.
+apertura fue de una cosa a otra sin que ninguna te retuviera?» procesó, dejó que lo afectara. La apertura de Eros tiene capacidad de retención. El sujeto puede nombrar lo que encontró y describir cómo lo afectó.
 
 movimiento, nunca quedándose en ningún lugar. La evasión activa usa la apertura como movimiento para no detenerse en ningún punto de incomodidad. La señal: el sujeto puede nombrar muchas cosas a las que se abrió pero no puede describir cómo ninguna lo afectó genuinamente.
 
@@ -2658,30 +2601,14 @@ H-3 Presente El sujeto muestra apertura genuina ante lo que el mediador introduc
 
 «Cuando me preguntaste eso, no sabía lo que iba a responder. Hay algo en la pregunta que me abrió a algo que no había pensado así antes.» [El sujeto produce una respuesta genuinamente nueva para él durante la sesión,
 
-EP-1 cuando la
+EP-1 cuando la apertura se produce directamente en la relación mediador- sujeto de manera sostenida. EP-
 
-apertura se
-
-produce directamente en la relación
-
-mediador-
-
-sujeto de
-
-manera sostenida. EP-
-
-2 cuando la narrativa es coherente con
-
-señal de
+2 cuando la narrativa es coherente con señal de
 
 
-con textura de descubrimiento visible.]
+con textura de descubrimiento visible.] características simultáneas: recibe sin cerrarse y mantiene algo propio desde lo que procesa lo que recibe. Al menos una señal de observación directa en sesión corrobora la narrativa.
 
-características simultáneas: recibe sin cerrarse y mantiene algo propio desde lo que procesa lo que recibe. Al menos una señal de observación directa en sesión corrobora la narrativa.
-
-observación
-
-que la corrobora.
+observación que la corrobora.
 
 H-2 Umbral El sujeto describe al menos un episodio de apertura genuina hacia algo nuevo, pero la apertura no se reproduce directamente en sesión o no es sostenida. O la apertura que describe podría corresponder a obediencia al campo (E-4) o a evasión activa (E-5).
 
@@ -3102,9 +3029,7 @@ Al menos tres de las cinco preguntas H·D producen señal de presencia interna g
 
 no puede producirse H-
 
-3(H). Es la condición más
-
-estricta del
+3(H). Es la condición más estricta del
 
 Bloque I.
 
@@ -3117,9 +3042,7 @@ EP-4 a EP-5.
 Nota de incertidumbre alta obligatoria.
 
 
-variación pero no puede ubicarse con consistencia en ninguno de los dos estados.]
-
-en esta sesión. No hay suficiente evidencia para codificar Harmonía ni para codificar D-2 con certeza.
+variación pero no puede ubicarse con consistencia en ninguno de los dos estados.] en esta sesión. No hay suficiente evidencia para codificar Harmonía ni para codificar D-2 con certeza.
 
 D-2 probable Al menos cuatro de las cinco preguntas H·D producen ausencia de señal de presencia interna: narrativa desde afuera, preferencia semántica sin textura, aceptación plana de la diferencia, sin proceso identificable, sin temperatura ante lo difícil. Las ausencias son coherentes entre sí.
 
@@ -3127,13 +3050,7 @@ D-2 probable Al menos cuatro de las cinco preguntas H·D producen ausencia de se
 
 EP-1 o EP-2 para D-2. La
 
-H-3 (D2)
-
-ausencia sostenida y coherente de señal en sesión
-
-es tan diagnóstica
-
-como la presencia.
+H-3 (D2) ausencia sostenida y coherente de señal en sesión es tan diagnóstica como la presencia.
 
 ? Inf. inadecuada
 
@@ -3158,7 +3075,7 @@ Una aclaración sobre el nivel EP para D-2: EP-1 para D-2 es la señal de ausenc
 
 La codificación del Módulo H tiene consecuencias que se propagan a toda la distribución P(Hijos) y a la lectura del Eje IV del Bloque II. La tabla que sigue establece las consecuencias de cada código del módulo H sobre la distribución.
 
-Consecuencias de la codificación H sobre la distribución P(Hijos) H-3(H) con EP-1 o EP-2: P(Harmonía) puede recibir peso positivo. El peso se asigna en el rango [0.55, 0.80] para EP-1 y [0.40, 0.60] para EP-2. Los demás Hijos ajustan sus pesos hacia abajo para que la suma sea 1.00. / H-2 (indeterminado): P(Harmonía) ≤ 0.15 con nota de incertidumbre alta. / H-3(D2) con EP-1 o EP-2: Entrevista Clínica Ontológica · ECO
+Consecuencias de la codificación H sobre la distribución P(Hijos) H-3(H) con EP-1 o EP-2: P(Harmonía) puede recibir peso positivo. El peso se asigna en el rango [0.55, 0.80] para EP-1 y [0.40, 0.60] para EP-2. Los demás Hijos ajustan sus pesos hacia abajo para que la suma sea 1.00. / H-2 (indeterminado): P(Harmonía) = 0.00. Registrar incertidumbre alta; no asignar peso positivo sin H-3(H) con EP-1 o EP-2. / H-3(D2) con EP-1 o EP-2: Entrevista Clínica Ontológica · ECO
 
 P(Harmonía) = 0.00. Registrar D-2 en la hoja de síntesis con nota de derivación al Eje IV. / imposibilidad para evaluar: P(Harmonía) = 0.00. Módulo declarado no evaluable.
 
@@ -6058,6 +5975,8 @@ El principio de ponderación por proximidad real a φ₂
 
 La alternativa ontológicamente correcta al promedio y a la moda es la ponderación por proximidad real a la segunda mediación del colectivo. Cada localización individual tiene un peso en la lectura colectiva que corresponde a la proximidad real del sujeto que la produce al ejercicio efectivo de φ₂ en el colectivo. La localización del ego soberano real —el sujeto que porta φ₂— tiene el peso máximo. Las localizaciones de los miembros en posiciones de proximidad decreciente a φ₂ tienen pesos decrecientes. La ponderación de las lecturas del colectivo producidas desde esas posiciones ofrece una estimación para contrastar con la localización directa del ego soberano y con la evidencia del campo.
 
+Para asignar un valor concreto dentro de los rangos de los niveles 2 a 5, el mediador documenta la participación observada en decisiones, la influencia efectiva y la proximidad identificada en las entrevistas de mapeo. Si esas evidencias no permiten distinguir un punto del rango, usa su punto medio. Toda desviación del punto medio debe justificarse en la hoja de síntesis.
+
 Este principio no significa que las localizaciones de los miembros en posiciones periféricas no tengan valor: tienen el valor específico de su nivel de proximidad. Un miembro de Nivel 4 que describe al
 
 
@@ -6473,9 +6392,7 @@ deliberación genuina en el grupo, y debe activar la dimensión de la voluntad c
 
 Señal específica que confirma
 
-Error de lectura frecuente
-
-¿Quién establece la agenda — de facto, no formalmente? ¿Quién puede cambiarla una vez establecida?
+Error de lectura frecuente ¿Quién establece la agenda — de facto, no formalmente? ¿Quién puede cambiarla una vez establecida?
 
 Eje I colectivo: E-1 (si el ego soberano real establece la agenda desde criterio propio), E-4 (si la agenda reproduce la agenda del campo externo internalizado), E-2 (si la agenda sigue la rutina sin que nadie la evalúe).
 
@@ -7109,9 +7026,7 @@ específica del instrumento y muestra cómo la localización orienta el campo de
 
 **Sin etiqueta — cómo el mediador usa la localización**
 
-Con etiqueta del sistema — lo que el
-
-mediador no dice
+Con etiqueta del sistema — lo que el mediador no dice
 
 «Lo que describes suena a que hay algo que podría perderse y que eso produce una especie de urgencia que orienta lo que haces. ¿Qué sería lo más difícil de perder en ese contexto? ¿Qué estarías dispuesto a hacer para que no ocurriera?» [La localización orienta la pregunta hacia el objeto de la amenaza y la urgencia; el sujeto produce desde su propia experiencia, no desde la etiqueta del mediador.]
 
@@ -7121,11 +7036,7 @@ mediador no dice
 
 Con etiqueta del sistema — lo que el
 
-Sin etiqueta — cómo el mediador usa la
-
-localización
-
-mediador no dice
+Sin etiqueta — cómo el mediador usa la localización mediador no dice
 
 «Cuando describes esa situación en que no podías decidir — ¿había algo que distinguiera las opciones entre sí, o se sentían equivalentes de una manera que hacía difícil orientarse hacia ninguna? ¿Qué habría necesitado ser diferente para que una de ellas se volviera más clara?» [La localización orienta la pregunta hacia la simetría de opciones sin nombrarla Deimos ni como problema que se resuelve.]
 
@@ -7135,28 +7046,20 @@ mediador no dice
 
 **Sin etiqueta — cómo el mediador usa la localización**
 
-Con etiqueta del sistema — lo que el
-
-mediador no dice
+Con etiqueta del sistema — lo que el mediador no dice
 
 «Tu estado es E-4 — el criterio que describes como tuyo viene de un Otro
 
 «Ese criterio que describes — ¿hay alguien cuya opinión, si dijera que ese criterio está equivocado, te haría dudar de él de una manera que no ocurre con otras opiniones?
 
 
-¿Quién tendría que decirte que estás equivocado para que genuinamente consideraras que podrías estarlo?» [La pregunta del colapso del Otro, tomada directamente de D·EI·1, sin nombrar E-4 ni el Otro internalizado.]
-
-internalizado y no te pertenece genuinamente.»
+¿Quién tendría que decirte que estás equivocado para que genuinamente consideraras que podrías estarlo?» [La pregunta del colapso del Otro, tomada directamente de D·EI·1, sin nombrar E-4 ni el Otro internalizado.] internalizado y no te pertenece genuinamente.»
 
 #### Localización interna: D-2 EP-1 — ausencia consistente de señal del ego genuino en sesión
 
 **Sin etiqueta — cómo el mediador usa la localización**
 
-Con etiqueta del
-
-sistema — lo que el mediador
-
-no dice
+Con etiqueta del sistema — lo que el mediador no dice
 
 «Noto que, en esta conversación, cuando aparecen momentos que en otras personas producen algo — algo que se activa, algo que se mueve internamente — pareciera que en vos no produce tanto. No lo digo como crítica: es simplemente lo que observo. ¿Cómo es eso para vos? ¿Hay algo que sí produce movimiento interno?» [El mediador comparte la observación directa sin nombrar D-2, crea espacio para cualquier señal residual del ego genuino sin nombrarlo como D-2.]
 
@@ -7166,11 +7069,7 @@ no dice
 
 Con etiqueta del sistema — lo que el
 
-Sin etiqueta — cómo el mediador usa la
-
-localización
-
-mediador no dice
+Sin etiqueta — cómo el mediador usa la localización mediador no dice
 
 «Esa sensación que describís — de que hay algo que muestras en ciertos contextos que no termina de ser vos — ¿qué tan frecuente es? ¿Hay momentos en que eso produce incomodidad, como si algo protestara adentro, aunque no sepa cómo protestar hacia afuera?» [Trabaja con la incomodidad que el sujeto describió sin nombrar M-2 ni D-1. La localización orienta hacia la señal de D-1 como recurso del proceso.]
 
@@ -7316,55 +7215,13 @@ Para el ego colectivo del Bloque III, el cierre requiere que el protocolo de ide
 
 Definición Condición diagnóstica
 
-<!-- TABLA: estados de cierre | columnas: estado de localización, protocolo que activa, resultado y paso siguiente -->
-
-
-Completo con alta certeza
-
-Todos los módulos obligatorios administrados + EP-1 o EP-2 en los componentes principales + convergencia de señales observacionales y narrativas.
-
-Ego genuino identificable con alta certeza en los Bloques I y II. Para el ego colectivo: protocolo de tres fuentes completado con convergencia.
-
-Proceder a Histos. La hoja de síntesis se produce con la localización completa como insumo.
-
-Completo con incertidumbre declarada
-
-Todos los módulos obligatorios administrados, pero uno o más componentes no alcanzaron EP-2. La distribución P(Hijos) o algún código de Eje tiene nivel de certeza bajo. La incertidumbre no compromete la orientación del proceso — solo la precisa.
-
-Ego genuino identificable con certeza media. La localización es suficiente para iniciar Histos con la nota de qué componentes tienen mayor incertidumbre.
-
-Proceder a Histos con la Declaración de Incertidumbre ECO (DI-ECO) adjunta a la hoja de síntesis. El proceso de Histos usa la localización con las notas de incertidumbre.
-
-Incompleto — módulos no administrados
-
-Uno o más módulos obligatorios no pudieron administrarse: el sujeto interrumpió, el tiempo fue insuficiente, el encargo no incluyó todos los bloques.
-
-Ego genuino localizable parcialmente. La localización incompleta puede orientar el trabajo de Histos en las dimensiones que fueron localizadas, pero con cautela en las dimensiones no exploradas.
-
-Registrar los módulos no administrados. Determinar si la localización parcial es suficiente para iniciar Histos o si se requiere una sesión adicional para completar el instrumento. Producir la DI-ECO con nota de los módulos faltantes.
-
-No concluyente — evidencia contradictoria
-
-Los módulos fueron administrados pero las señales producen resultados que se contradicen de manera que no
-
-La localización no puede determinarse con ninguna certeza razonable en los componentes en contradicción. El instrumento tiene
-
-Producir la DI-ECO con descripción precisa de la contradicción y de lo que sería necesario para resolverla. Determinar si
-
-
-pueden resolverse con la evidencia disponible. Un módulo produce H-3 pero otro módulo produce señales incompatibles con ese H-3.
-
-información sobre lo que el estado del ego no es, pero no certeza sobre lo que es.
-
-Histos puede iniciarse desde las dimensiones que sí pudieron localizarse, o si la contradicción debe resolverse antes.
-
-No proceder a Histos desde esta localización. Evaluar derivación clínica. Si D-2 profundo: esperar las condiciones de reactivación antes de re-administrar. Si el sujeto no participó suficientemente: evaluar el encuadre del proceso antes de una re-administración.
-
-No evaluable — ego genuino inaccesible
-
-El ego genuino del sujeto no pudo producir señal en ninguna dimensión del instrumento: D-2 profundo sin D-1 residual, o el sujeto no pudo o no quiso participar de manera que el instrumento pudiera producir señales diagnósticas confiables.
-
-Ego genuino no localizable desde esta administración del instrumento. La localización puede describir el campo que actúa en nombre del ego genuino, con nota de que no es la localización del ego genuino mismo.
+| Estado de localización | Condición | Resultado | Paso siguiente |
+| --- | --- | --- | --- |
+| Completo con alta certeza | Módulos obligatorios administrados; EP-1 o EP-2 en componentes principales y convergencia observacional y narrativa. | Localización de los Bloques I y II con alta certeza; para ego colectivo, protocolo de tres fuentes con convergencia. | Proceder a Histos si también se cumplen las condiciones de paso de B·IV·4. |
+| Completo con incertidumbre declarada | Módulos obligatorios administrados, pero uno o más componentes no alcanzan EP-2. | Localización suficiente para iniciar Histos con incertidumbres identificadas. | Proceder a Histos con DI-ECO si se cumplen las condiciones de paso de B·IV·4. |
+| Incompleto — módulos no administrados | Uno o más módulos obligatorios no pudieron administrarse. | Localización parcial, utilizable solo en las dimensiones exploradas. | Registrar módulos faltantes; decidir si puede completarse el instrumento o si la localización parcial satisface las condiciones de paso de B·IV·4. Emitir DI-ECO. |
+| No concluyente — evidencia contradictoria | Las señales incompatibles no se resuelven con el protocolo de discriminación. | Declarar los componentes contradictorios y los que sí pudieron localizarse. | Aplicar NC·1, NC·2 o NC·3. Histos solo puede iniciarse desde componentes concluyentes y si se satisfacen las condiciones de B·IV·4; no iniciarlo si la contradicción afecta esos componentes centrales. |
+| No evaluable — ego genuino inaccesible | D-2 profundo sin D-1 residual, o participación insuficiente para producir señales diagnósticas confiables. | El ego genuino no es localizable desde esta administración. | Emitir DI-ECO y no proceder a Histos hasta que cambien las condiciones de acceso o se realice evaluación adicional. |
 
 ### El árbol de decisión de cierre — protocolo formal
 
@@ -7690,7 +7547,7 @@ Hay señales que, cuando aparecen durante la administración de ECO, activan la 
 
 psiquiátrica urgente según el contexto. Si el sujeto está solo, evaluar si puede llegar a servicios de atención de manera segura o si requiere acompañamiento.
 
-⚠  D·URG·3  Revelación de violencia activa — hacia el sujeto o hacia terceros Señales: El sujeto revela durante la sesión que está siendo víctima de violencia activa, que hay una situación de riesgo inmediato para su seguridad física, o que hay una situación de riesgo para terceros (incluyendo menores a su cargo) que requiere intervención inmediata. Acción: Suspender la administración de ECO. El mediador actúa desde el marco legal y ético aplicable en su contexto: en la mayoría de los contextos, la revelación de violencia hacia menores activa la obligación de denuncia independientemente del encuadre de confidencialidad. La revelación de violencia hacia el sujeto activa el protocolo de apoyo y derivación a servicios de protección. ECO no puede continuar como proceso prioritario mientras hay una situación de riesgo activa.
+⚠  D·URG·3  Revelación de violencia activa — hacia el sujeto o hacia terceros Señales: El sujeto revela durante la sesión que está siendo víctima de violencia activa, que hay una situación de riesgo inmediato para su seguridad física, o que hay una situación de riesgo para terceros (incluyendo menores a su cargo) que requiere intervención inmediata. Acción: Suspender la administración de ECO. El mediador actúa desde el marco legal y ético aplicable en su contexto: la obligación de denuncia y sus condiciones dependen del marco jurídico aplicable; el mediador debe verificarlo en su contexto antes de administrar ECO. La revelación de violencia hacia el sujeto activa el protocolo de apoyo y derivación a servicios de protección. ECO no puede continuar como proceso prioritario mientras hay una situación de riesgo activa.
 
 ### Las señales de derivación programada — criterios de evaluación durante ECO
 
@@ -7801,7 +7658,7 @@ La competencia ética del mediador — síntesis del Bloque IV El mediador del p
 4 La síntesis del Bloque IV que la caja de conclusión al final del §5 produce — las dos competencias del mediador como inseparables — tiene un antecedente en la tradición de las profesiones de cuidado que el paradigma puede reconocer sin adoptarla como propia: la competencia técnica y la competencia ética son inseparables en cualquier práctica que trabaja con el bienestar de personas. El paradigma de Mediación Ontológica no reinventa ese principio: lo implementa en el lenguaje y los instrumentos específicos del sistema ontológico. La innovación del sistema no está en el principio ético — que es compartido — sino en la precisión técnica con la que ese principio puede implementarse desde las localizaciones que ECO produce.
 
 
-<!-- FORMULARIO: A·1 | salto de página | campos rellenables, casillas de verificación, tablas de localización y áreas de notas -->
+
 
 # A·1 · HOJA DE SÍNTESIS DE LA SESIÓN
 
@@ -7818,326 +7675,100 @@ Completar las secciones en el orden de administración del instrumento: identifi
 
 Los campos de nivel EP usan la escala EP-0 a EP-8. Los campos de código usan los códigos exactos del instrumento (H-1/H-2/H-3, E-1 a E-6, etc.). Los campos de notas son narrativos y pueden completarse con abreviaciones propias del mediador.
 
-**IDENTIFICACIÓN DE LA SESIÓN**
-
-Código de caso
-
-Fecha de sesión
-
-
-Número de sesión en ECO
-
-Perfil del mediador
-
-Estado del instrumento (ECO activo / re-administración / supervisión)
-
-Tipo de ego analizado Ego soberano (si es colectivo)
-
-□  Ego individual □  Ego colectivo (Bloque III)
-
-<!-- FORMULARIO: A·1 / bloque I | cuadrícula de seis Hijos con casillas, peso y EP -->
-
-### BLOQUE I · LOS HIJOS DE AFRODITA
-
-Para cada módulo: registrar el código H, el nivel EP, el peso tentativo en P(Hijos), y la señal observacional que fundamenta la localización. Si hubo SKIP, indicarlo en la columna correspondiente.
-
-F  FOBOS — urgencia reactiva ante la amenaza
-
-2/H-3 EP Peso
-
-2/3 SKIP Notas observacionales
-
-H-1/H-
-
-Señal
-
-Señal EP-
-
-P
-
-EP-1
-
-D  DEIMOS — parálisis ante la simetría de opciones
-
-EP Peso
-
-SKIP Notas observacionales
-
-H-1/H-2/H-3
-
-Señal
-
-Señal
-
-P
-
-EP-1
-
-EP-
-
-2/3
-
-
-### A  ANTEROS — afirmación desde el eje propio
-
-EP Peso
-
-SKIP Notas observacionales
-
-H-1/H-2/H-3
-
-Señal
-
-Señal
-
-### P
-
-EP-1
-
-EP-
-
-2/3
-
-### P  POTÓS — orientación al ausente
-
-EP Peso
-
-SKIP Notas observacionales
-
-H-1/H-2/H-3
-
-Señal
-
-Señal
-
-### P
-
-EP-1
-
-EP-
-
-2/3
-
-### E  EROS — apertura genuina ante la alteridad
-
-EP Peso
-
-SKIP Notas observacionales
-
-H-1/H-2/H-3
-
-Señal
-
-Señal
-
-### P
-
-EP-1
-
-EP-
-
-2/3
-
-### Módulo H  ·  Harmonía / D-2  [NUNCA SE SALTA]  ·  P(Harmonía) ≠ 0 solo desde aquí
-
-Opciones EP Preguntas H·D respondidas
-
-Código
-
-Notas de discriminación Harmonía/D-2
-
-### H
-
-□ H-3 (H) □ H-2 □ H-3 (D2)
-
-□ H·D1 — □ H·D2 — □ H·D3 —
-
-<!-- TABLA: distribución P(Hijos) | columnas: Hijo, peso, nivel EP -->
-
-### Distribución P(Hijos) — síntesis del Bloque I
-
-### Completar después de cerrar los seis módulos. La suma de los seis pesos debe ser 1.00. P(Harmonía) ≠ 0 solo si el módulo H produjo H-3(H) con EP-1 o EP-2.
-
-
-Σ=1.00 P(F) P(D) P(A) P(P) P(E) P(H)
-
-Hijo Fobos Deimos Anteros Potós Eros Harmonía
-
-### Peso
-
-### EP
-
-Notas de convergencia/divergencia entre módulos del Bloque I
-
-<!-- FORMULARIO: A·1 / bloque II | cinco registros de eje, códigos, opciones, nivel EP, señal y notas -->
-
-### BLOQUE II · LOS CINCO EJES DEL SDO
-
-Para cada eje: marcar el código localizado, indicar el nivel EP, registrar la señal observacional más diagnóstica, y anotar las preguntas discriminantes que se administraron si hubo ambigüedad. El Eje I va siempre primero.
-
-EJE I  ESTADOS DEL EGO
-
-Código Opciones Nivel
-
-Notas y discriminación
-
-Señal observacional
-
-EP
-
-□ E-1 □ E-2 □E 3
-
-Discriminantes del Eje I administradas y resultado
-
-EJE II  MASCARADA
-
-
-Código Opciones Nivel
-
-Notas y discriminación
-
-Señal observacional
-
-EP
-
-□ M-1 □ M-2 □M 3
-
-### Notas de discriminación M-1/M-2/M-3 y contexto de la máscara
-
-### EJE III  VÍNCULO
-
-Código Opciones Nivel
-
-Notas y discriminación
-
-Señal observacional
-
-EP
-
-□ V-1 □ V-2 Damasén
-
-### Señal relacional en sesión (campo del mediador + campo del sujeto)
-
-### EJE IV  DISFORIA
-
-Código Opciones Nivel
-
-Notas y discriminación
-
-Señal observacional
-
-EP
-
-□ D-1 activo □D 2 con
-
-Canales de D-1 residual (si D-2)
-
-Señal en sesión (temperatura / planitud)
-
-Módulo H coincide / contradice
-
-### EJE V  TANATOLÓGICO — VECTOR DEL DUELO
-
-
-Código Opciones Nivel
-
-Notas y discriminación
-
-Señal observacional
-
-EP
-
-□ T-0/T-1 □ T-2 □T 3
-
-Duelo productivo o fijado Relación con Potós del Bloque I
-
-Naturaleza de la pérdida (muerte / T-ext)
-
-### OBSERVACIÓN DEL CAMPO RELACIONAL DE LA SESIÓN
-
-Registrar en las dos columnas: lo que el sujeto produjo en el campo del mediador (señales del sujeto) y lo que el mediador registró en su propio campo (señales del campo del mediador). Usadas para la lectura del Eje III y como verificación de proyección/sesgo.
-
-Campo del sujeto — señales que el
-
-Campo del mediador — lo que el
-
-sujeto produjo
-
-mediador registró en sí mismo
-
-Señal de V-1 en sesión — descripción del momento de encuentro genuino (si existió)
-
-Calibración del mediador — estado propio en esta sesión y posible sesgo
-
-
-<!-- FORMULARIO CONDICIONAL: completar si se administró el Bloque III -->
-
-### BLOQUE III · EGO COLECTIVO (completar solo si se
-
-administró)
-
-Ego soberano real identificado
-
-Nivel de certeza (fuentes convergentes)
-
-Estado de φ₂ (efectiva / cedida / difusa / apagada)
-
-Distribución P(Hijos) colectivo ponderada (factores de proximidad a φ₂ aplicados)
-
-Códigos de Ejes colectivos (I a V) y nota de convergencia/divergencia
-
-<!-- FORMULARIO: A·1 / cierre | opciones de estado, paso siguiente, vigencia y notas -->
-
-### CIERRE DEL INSTRUMENTO
-
-Estado del cierre Nivel de certeza global DI-ECO requerida
-
-
-□  No aplica □  Sí — adjuntar DI-ECO
-
-□  Completo — alta certeza □  Completo — incertidumbre □  Incompleto □  No concluyente □  No evaluable (D-2)
-
-Paso siguiente Vigencia estimada de la localización
-
-□  Proceder a Histos (misma sesión) □  Proceder a Histos (próxima sesión) □  Sesión adicional de ECO □  Derivación clínica — suspender ECO □  Derivación clínica — continuar en paralelo □  Otro:
-
-□  6 meses (alta certeza) □  3 meses (incertidumbre) □  Episodio — re-administrar antes □  Sin vigencia para Histos
-
-Notas de derivación — a quién, por qué, con qué encuadre de coordinación
-
-<!-- FORMULARIO: campo de texto libre para recursos del ego genuino -->
-
-### NOTA DE RECURSOS DISPONIBLES DEL EGO GENUINO
-
-### — INSUMO PARA HISTOS
-
-Describir los recursos activos del ego genuino del sujeto: las dimensiones donde D-1 está activo, los momentos de V-1 observados, los Hijos que tienen señal positiva con acceso a EP-1, los canales donde la señal del ego genuino puede activarse. Este es el insumo más estratégico para el inicio de Histos.
-
-Recursos activos del ego genuino identificados en esta sesión
-
-
-Orden recomendado de trabajo en Histos (desde los recursos disponibles)
-
-Precauciones específicas para Histos derivadas de los componentes de mayor incertidumbre
-
-DECLARACIÓN DE INCERTIDUMBRE ECO (DI-ECO) —
-
-completar solo si aplica
-
-Completar cuando el cierre del instrumento produce incertidumbre declarada, instrumento incompleto, localización no concluyente, o ego genuino inaccesible. Las cinco secciones corresponden al formato DI-ECO del B·IV §3.
-
-DI-ECO §A — Motivo de la incertidumbre
-
-DI-ECO §B — Lo que sí se pudo localizar con certeza suficiente
-
-
-DI-ECO §C — Lo que no se pudo localizar y qué lo resolvería
-
-DI-ECO §D — Protocolo recomendado
-
-DI-ECO §E — Vigencia y condiciones de re-administración
-
-Mediador responsable Fecha
+### Identificación de la sesión
+
+| Campo | Registro |
+| --- | --- |
+| Código de caso | |
+| Fecha de sesión | |
+| Número de sesión en ECO | |
+| Perfil del mediador | |
+| Estado del instrumento (activo / re-administración / supervisión) | |
+| Tipo de ego (individual / colectivo) | |
+| Ego soberano real (si es colectivo) | |
+
+### Bloque I · Los Hijos de Afrodita
+
+| Módulo | Código | EP | Peso P(Hijos) | SKIP/acortamiento | Señal observacional |
+| --- | --- | --- | --- | --- | --- |
+| Fobos | H-1 / H-2 / H-3 / ? | | | | |
+| Deimos | H-1 / H-2 / H-3 / ? | | | | |
+| Anteros | H-1 / H-2 / H-3 / ? | | | | |
+| Potós | H-1 / H-2 / H-3 / ? | | | | |
+| Eros | H-1 / H-2 / H-3 / ? | | | | |
+| Harmonía / D-2 | H-3(H) / H-2 / H-3(D2) / ? | | | No se salta; registrar H·D1–H·D5 | |
+
+Marcar las preguntas obligatorias del módulo H: □ H·D1  □ H·D2  □ H·D3  □ H·D4  □ H·D5.
+
+### Distribución P(Hijos)
+
+Completar al cerrar los seis módulos. La suma de los pesos debe ser 1.00. P(Harmonía) solo puede ser positiva con H-3(H) y EP-1 o EP-2.
+
+| Hijo | Fobos | Deimos | Anteros | Potós | Eros | Harmonía | Suma |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Peso | | | | | | | 1.00 |
+| Nivel EP | | | | | | | |
+
+Notas de convergencia o divergencia entre módulos:
+
+### Bloque II · Los cinco ejes del SDO
+
+| Eje | Código | EP | Señal observacional | Discriminantes administradas y resultado |
+| --- | --- | --- | --- | --- |
+| I · Estados del ego | E-1 / E-2 / E-3 / E-4 / E-5 / E-6 / ? | | | |
+| II · Mascarada | M-1 / M-2 / M-3 / ? | | | |
+| III · Vínculo | V-1 / V-2 Damasén / V-2 Peribea / V-3 / ? | | | |
+| IV · Disforia | D-1 / D-2 / ? | | | |
+| V · Tanatológico | T-0 a T-6 / T-ext / ? | | | |
+
+### Observación del campo relacional de la sesión
+
+| Campo del sujeto: señales que produjo | Campo del mediador: lo que registró |
+| --- | --- |
+| | |
+
+Señal de V-1 en sesión (describir el momento de encuentro, si lo hubo):
+
+Calibración del mediador y posible sesgo:
+
+### Bloque III · Ego colectivo (solo si se administró)
+
+| Campo | Registro |
+| --- | --- |
+| Ego soberano real identificado | |
+| Fuentes y nivel de certeza | |
+| Estado de φ₂ (efectiva / cedida / difusa / apagada) | |
+| Distribución colectiva P(Hijos) y factores aplicados | |
+| Códigos colectivos de los ejes I–V | |
+| Convergencias y divergencias | |
+
+### Cierre del instrumento
+
+| Campo | Registro |
+| --- | --- |
+| Estado (completo con alta certeza / completo con incertidumbre / incompleto / no concluyente / no evaluable) | |
+| DI-ECO requerida (sí / no) | |
+| Paso siguiente | |
+| Vigencia de la localización | |
+| Derivación: a quién, motivo y coordinación | |
+
+### Nota de recursos disponibles del ego genuino
+
+| Recursos activos identificados | Orden recomendado de trabajo en Histos | Precauciones por incertidumbre |
+| --- | --- | --- |
+| | | |
+
+### Declaración de Incertidumbre ECO (DI-ECO), si aplica
+
+| Sección | Registro |
+| --- | --- |
+| A · Motivo de la incertidumbre | |
+| B · Lo que sí se pudo localizar | |
+| C · Lo que no se pudo localizar y qué lo resolvería | |
+| D · Protocolo recomendado | |
+| E · Vigencia y condiciones de re-administración | |
+
+Mediador responsable: ____________________  Fecha: ____________________
 
 Instrucciones técnicas del apéndice A·1
 
@@ -8153,7 +7784,7 @@ horas o días después de la sesión tienen menor precisión diagnóstica porque
 4 La DI-ECO al final de la hoja de síntesis es un recordatorio estructural de que el instrumento puede cerrarse en distintos estados y que cada estado requiere un protocolo específico. El mediador que completa la hoja de síntesis sin completar la DI-ECO cuando corresponde ha cometido el equivalente del error E·5 a nivel de registro: ha declarado el instrumento completo cuando tiene componentes cuya incertidumbre requería declaración.
 
 
-<!-- FORMULARIO: A·2 | hojas imprimibles por módulo | cada hoja inicia en página nueva -->
+
 
 # A·2 HOJAS DE REGISTRO POR MÓDULO
 
@@ -8164,56 +7795,44 @@ Este apéndice contiene una hoja de registro específica para cada uno de los on
 Las hojas de registro son documentos internos del mediador. No se entregan al sujeto ni al encargado.
 
 
-<!-- FORMULARIO: hoja de registro B·I·F | salto de página -->
+
 
 ## B·I·F  ·  MÓDULO FOBOS
 
 ### Urgencia reactiva ante la amenaza
 
-Tipo de módulo Página estimada
+| Campo | Registro | Campo | Registro |
+| --- | --- | --- | --- |
+| Tipo de módulo | | Página estimada | |
+| Fecha | | Sesión N.º | |
+| SKIP aplicado | __________________ | Localización | □ Sí □ No |
 
-Fecha
 
-SKIP posible
 
-Sesión
+#### REGLAS SKIP — condición de salto
 
-N.°
-
-Localización □ Sí  □ No
-
-REGLAS SKIP — condición de salto
-
-CRITERIOS DE ENTRADA
-
-DIRECTA
+#### CRITERIOS DE ENTRADA DIRECTA
 
 □  SKIP completo si: Hijo dominante identificado (H-3 EP-1) sin señal de Fobos EN apertura + Deimos H-3 EP-1 ya codificado (parálisis sin urgencia). □  SKIP parcial si: pregunta ancla no produce señal + dos sondeos sin señal → H-1 EP-0.
 
 □  Apertura narrativa produjo urgencia reactiva ante amenaza identificable. □  El sujeto describió conductas defensivas, aceleradas o anticipatorias. □  El árbol documental produjo señal de reacción ante amenaza.
 
-PREGUNTA ANCLA
+#### PREGUNTA ANCLA
 
 «Cuéntame de una situación en el período que estamos analizando en que algo o alguien amenazaba algo importante para ti — algo que no podías permitir que se perdiera. ¿Qué ocurrió?» [El mediador observa: ¿el sujeto puede identificar el objeto de la amenaza con especificidad? ¿La narrativa tiene temperatura de urgencia o de descripción retrospectiva sin temperatura? ¿El mediador mismo siente la urgencia en el campo relacional?]
 
-PREGUNTAS DE SONDEO
-
-Código y texto del sondeo Observación del mediador durante la respuesta
-
-F·1 — ¿Qué sentías que podías perder si no respondías?
-
-F·2 — ¿Había alguien o algo responsable de la amenaza?
-
-F·3 — ¿Qué hiciste — lo decidiste o simplemente ocurrió?
-
-F·4 — ¿Hay algo en esta conversación que produzca algo similar?
+#### PREGUNTAS DE SONDEO
+| Código | Pregunta de sondeo | Observación del mediador |
+| --- | --- | --- |
+| F·1 | ¿Qué sentías que podías perder si no respondías? | |
+| F·2 | ¿Había alguien o algo responsable de la amenaza? | |
+| F·3 | ¿Qué hiciste — lo decidiste o simplemente ocurrió? | |
+| F·4 | ¿Hay algo en esta conversación que produzca algo similar? | |
 
 
-PREGUNTAS DISCRIMINANTES
+#### PREGUNTAS DISCRIMINANTES
 
-SEÑALES DE OBSERVACIÓN
-
-DIRECTA
+#### SEÑALES DE OBSERVACIÓN DIRECTA
 
 EP-1 — Urgencia activa en sesión: el sujeto produce tensión corporal o aceleración ante el
 
@@ -8225,65 +7844,54 @@ Fobos/Anteros: «La urgencia que describes — ¿venía de proteger algo tuyo o 
 
 EP-3 — Narrativa de urgencia en un período específico sin señal en sesión.
 
-CODIFICACIÓN Y NIVEL EP
+#### CODIFICACIÓN Y NIVEL EP
 
-Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
+| Código | Nivel EP | Peso P(Hijos) o código de Eje |
+| --- | --- | --- |
 
-□ H-3 □ H-2 EP-1: urgencia en sesión. EP-2: narrativa coherente
+| □ H-3  □ H-2 | EP-1: urgencia en sesión. EP-2: narrativa coherente | |
 
-Notas narrativas del módulo — campo del sujeto y señal relacional observada
+**Notas narrativas del módulo — campo del sujeto y señal relacional observada:**
 
 
-<!-- FORMULARIO: hoja de registro B·I·D | salto de página -->
+
 
 ## B·I·D ·  MÓDULO DEIMOS
 
 ### Parálisis ante la simetría de opciones
 
-Tipo de módulo Página estimada
+| Campo | Registro | Campo | Registro |
+| --- | --- | --- | --- |
+| Tipo de módulo | | Página estimada | |
+| Fecha | | Sesión N.º | |
+| SKIP aplicado | __________________ | Localización | □ Sí □ No |
 
-Fecha
 
-SKIP posible
 
-Sesión
+#### REGLAS SKIP — condición de salto
 
-N.°
-
-Localización □ Sí  □ No
-
-REGLAS SKIP — condición de salto
-
-CRITERIOS DE ENTRADA
-
-DIRECTA
+#### CRITERIOS DE ENTRADA DIRECTA
 
 □  Apertura narrativa produjo hesitación, demora o imposibilidad de decidir. □  El sujeto describió opciones que se sentían equivalentes sin orientación. □  El árbol documental produjo acuerdos sin operatividad.
 
 □  SKIP completo si: Hijo dominante H-3 EP-1 ya establecido + sin señal de parálisis en ningún momento de los módulos anteriores.
 
-PREGUNTA ANCLA
+#### PREGUNTA ANCLA
 
 «¿Hay decisiones del período que analizamos que no pudiste tomar — no porque no tuvieras información sino porque las opciones se sentían equivalentes o no podías orientarte hacia ninguna?» [El mediador observa: ¿el sujeto puede identificar la parálisis con especificidad? ¿La parálisis tiene textura de simetría de opciones o de bloqueo de φ₂ (E-3)? ¿El mediador produce la misma parálisis en el campo de la sesión?]
 
-PREGUNTAS DE SONDEO
-
-Código y texto del sondeo Observación del mediador durante la respuesta
-
-D·1 — «¿Cuáles eran las opciones — y qué las hacía equivalentes?»
-
-D·2 — «¿Había alguien cuya orientación podría haber resuelto la parálisis?»
-
-D·3 — «¿La parálisis tenía un objeto — algo que no querías perder tomando la decisión equivocada?»
-
-D·4 — «¿Pudiste tomar la decisión eventualmente — y qué lo hizo posible?»
+#### PREGUNTAS DE SONDEO
+| Código | Pregunta de sondeo | Observación del mediador |
+| --- | --- | --- |
+| D·1 | «¿Cuáles eran las opciones — y qué las hacía equivalentes?» | |
+| D·2 | «¿Había alguien cuya orientación podría haber resuelto la parálisis?» | |
+| D·3 | «¿La parálisis tenía un objeto — algo que no querías perder tomando la decisión equivocada?» | |
+| D·4 | «¿Pudiste tomar la decisión eventualmente — y qué lo hizo posible?» | |
 
 
-PREGUNTAS DISCRIMINANTES
+#### PREGUNTAS DISCRIMINANTES
 
-SEÑALES DE OBSERVACIÓN
-
-DIRECTA
+#### SEÑALES DE OBSERVACIÓN DIRECTA
 
 EP-1 — Parálisis observable en sesión ante preguntas con opciones equivalentes.
 
@@ -8295,65 +7903,54 @@ Deimos/Fobos: «Ante la decisión pendiente, ¿sentías urgencia o parálisis?»
 
 EP-3 — Narrativa de un episodio de parálisis sin señal en sesión.
 
-CODIFICACIÓN Y NIVEL EP
+#### CODIFICACIÓN Y NIVEL EP
 
-Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
+| Código | Nivel EP | Peso P(Hijos) o código de Eje |
+| --- | --- | --- |
 
-□ H-3 □ H-2 EP-1: parálisis en sesión ante opciones equivalentes.
+| □ H-3  □ H-2 | EP-1: parálisis en sesión ante opciones equivalentes. | |
 
-Notas narrativas del módulo — campo del sujeto y señal relacional observada
+**Notas narrativas del módulo — campo del sujeto y señal relacional observada:**
 
 
-<!-- FORMULARIO: hoja de registro B·I·A | salto de página -->
+
 
 ## B·I·A ·  MÓDULO ANTEROS
 
 ### Afirmación desde el eje propio
 
-Tipo de módulo Página estimada
+| Campo | Registro | Campo | Registro |
+| --- | --- | --- | --- |
+| Tipo de módulo | | Página estimada | |
+| Fecha | | Sesión N.º | |
+| SKIP aplicado | __________________ | Localización | □ Sí □ No |
 
-Fecha
 
-SKIP posible
 
-Sesión
+#### REGLAS SKIP — condición de salto
 
-N.°
-
-Localización □ Sí  □ No
-
-REGLAS SKIP — condición de salto
-
-CRITERIOS DE ENTRADA
-
-DIRECTA
+#### CRITERIOS DE ENTRADA DIRECTA
 
 □  Apertura narrativa produjo afirmaciones desde criterio propio reconocible. □  El sujeto describió desacuerdos sostenidos con el campo. □  El árbol documental produjo diferencia argumentada con el entorno.
 
 □  SKIP si: el sujeto no puede identificar ningún criterio propio + señal de E-4 fuerte en el Eje I + sin diferencia con el campo en ningún contexto de la apertura narrativa.
 
-PREGUNTA ANCLA
+#### PREGUNTA ANCLA
 
 «¿Hay algo que sostienes como tuyo — un criterio, una manera de hacer las cosas, una posición — que no cambiarías, aunque el entorno o alguien importante te presionara?» [El mediador observa: ¿el sujeto puede nombrarlo con especificidad, o la respuesta es tan general que podría aplicar a cualquier persona? ¿El sujeto puede desacordar con el mediador desde ese criterio durante la sesión?]
 
-PREGUNTAS DE SONDEO
-
-Código y texto del sondeo Observación del mediador durante la respuesta
-
-A·1 — «¿Ha habido momentos en que ese criterio produjo fricción con alguien importante?»
-
-A·2 — «¿Puedes nombrar una decisión reciente que tomaste porque era coherente con lo que eres, aunque costara?»
-
-A·3 — «Ese criterio que describes — ¿desde cuándo es tuyo y desde qué experiencia lo construiste?»
-
-A·4 — «Si algo te parece mal en lo que te estoy diciendo ahora, ¿puedes decirlo?»
+#### PREGUNTAS DE SONDEO
+| Código | Pregunta de sondeo | Observación del mediador |
+| --- | --- | --- |
+| A·1 | «¿Ha habido momentos en que ese criterio produjo fricción con alguien importante?» | |
+| A·2 | «¿Puedes nombrar una decisión reciente que tomaste porque era coherente con lo que eres, aunque costara?» | |
+| A·3 | «Ese criterio que describes — ¿desde cuándo es tuyo y desde qué experiencia lo construiste?» | |
+| A·4 | «Si algo te parece mal en lo que te estoy diciendo ahora, ¿puedes decirlo?» | |
 
 
-PREGUNTAS DISCRIMINANTES
+#### PREGUNTAS DISCRIMINANTES
 
-SEÑALES DE OBSERVACIÓN
-
-DIRECTA
+#### SEÑALES DE OBSERVACIÓN DIRECTA
 
 EP-1 — Desacuerdo no destructivo con el mediador en sesión — el sujeto mantiene su
 
@@ -8365,65 +7962,54 @@ Anteros/Eros: «Lo primero ante algo nuevo — ¿evaluarlo desde tu criterio o r
 
 EP-3 — Narrativa de criterio propio sin señal de fricción observable.
 
-CODIFICACIÓN Y NIVEL EP
+#### CODIFICACIÓN Y NIVEL EP
 
-Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
+| Código | Nivel EP | Peso P(Hijos) o código de Eje |
+| --- | --- | --- |
 
-□ H-3 □ H-2 EP-1: desacuerdo no destructivo en sesión. EP-
+| □ H-3  □ H-2 | EP-1: desacuerdo no destructivo en sesión. EP- | |
 
-Notas narrativas del módulo — campo del sujeto y señal relacional observada
+**Notas narrativas del módulo — campo del sujeto y señal relacional observada:**
 
 
-<!-- FORMULARIO: hoja de registro B·I·P | salto de página -->
+
 
 ## B·I·P  ·  MÓDULO POTÓS
 
 ### Orientación al ausente
 
-Tipo de módulo Página estimada
+| Campo | Registro | Campo | Registro |
+| --- | --- | --- | --- |
+| Tipo de módulo | | Página estimada | |
+| Fecha | | Sesión N.º | |
+| SKIP aplicado | __________________ | Localización | □ Sí □ No |
 
-Fecha
 
-SKIP posible
 
-Sesión
+#### REGLAS SKIP — condición de salto
 
-N.°
-
-Localización □ Sí  □ No
-
-REGLAS SKIP — condición de salto
-
-CRITERIOS DE ENTRADA
-
-DIRECTA
+#### CRITERIOS DE ENTRADA DIRECTA
 
 □  Apertura narrativa produjo referencias espontáneas a lo que ya no está. □  El sujeto describió el pasado o lo ausente como referente de valor. □  El árbol documental produjo orientación consistente al período anterior.
 
 □  SKIP si: sin referencia a ausente en toda la apertura narrativa + Anteros H-3 EP-1 ya establecido + sin pérdida irrecuperable activa identificada.
 
-PREGUNTA ANCLA
+#### PREGUNTA ANCLA
 
 «¿Hay algo que ya no está — una persona, una época, una manera de ser — que sigue presente en la manera en que te orientas? Algo cuya ausencia todavía da forma a lo que valoras o a lo que buscas.» [El mediador observa: ¿el sujeto puede nombrarlo sin que el mediador lo invite? ¿La narrativa sobre lo ausente tiene temperatura de pérdida activa (conectado con Eje V T-2/T-3) o de orientación permanente de la voluntad sin temperatura de duelo (Potós puro)?]
 
-PREGUNTAS DE SONDEO
-
-Código y texto del sondeo Observación del mediador durante la respuesta
-
-P·1 — «¿Eso que describes como ausente orienta lo que buscas en el presente?»
-
-P·2 — «¿Hay momentos en que el presente se evalúa desde la distancia con lo que fue?»
-
-P·3 — «¿Podría haber algo nuevo que no se parezca a lo que fue y que igual valiera?»
-
-P·4 — «¿Lo que extrañas es algo específico o es una época, una manera de sentirte?»
+#### PREGUNTAS DE SONDEO
+| Código | Pregunta de sondeo | Observación del mediador |
+| --- | --- | --- |
+| P·1 | «¿Eso que describes como ausente orienta lo que buscas en el presente?» | |
+| P·2 | «¿Hay momentos en que el presente se evalúa desde la distancia con lo que fue?» | |
+| P·3 | «¿Podría haber algo nuevo que no se parezca a lo que fue y que igual valiera?» | |
+| P·4 | «¿Lo que extrañas es algo específico o es una época, una manera de sentirte?» | |
 
 
-PREGUNTAS DISCRIMINANTES
+#### PREGUNTAS DISCRIMINANTES
 
-SEÑALES DE OBSERVACIÓN
-
-DIRECTA
+#### SEÑALES DE OBSERVACIÓN DIRECTA
 
 EP-1 — El sujeto vuelve espontáneamente a lo ausente en múltiples momentos de la
 
@@ -8435,65 +8021,54 @@ Potós/Eros: «Lo que te llama — ¿es algo que vuelve al pasado o algo que tod
 
 EP-3 — Narrativa de valoración del pasado sin señal de orientación actual hacia él.
 
-CODIFICACIÓN Y NIVEL EP
+#### CODIFICACIÓN Y NIVEL EP
 
-Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
+| Código | Nivel EP | Peso P(Hijos) o código de Eje |
+| --- | --- | --- |
 
-□ H-3 □ H-2 EP-1: retorno espontáneo en sesión. EP-2:
+| □ H-3  □ H-2 | EP-1: retorno espontáneo en sesión. EP-2: | |
 
-Notas narrativas del módulo — campo del sujeto y señal relacional observada
+**Notas narrativas del módulo — campo del sujeto y señal relacional observada:**
 
 
-<!-- FORMULARIO: hoja de registro B·I·E | salto de página -->
+
 
 ## B·I·E ·  MÓDULO EROS
 
 ### Apertura genuina ante la alteridad
 
-Tipo de módulo Página estimada
+| Campo | Registro | Campo | Registro |
+| --- | --- | --- | --- |
+| Tipo de módulo | | Página estimada | |
+| Fecha | | Sesión N.º | |
+| SKIP aplicado | __________________ | Localización | □ Sí □ No |
 
-Fecha
+| Eje SDO · transversal | □ Sí  □ No |
 
-SKIP posible
+#### REGLAS SKIP — condición de salto
 
-Sesión
-
-N.°
-
-Eje SDO · transversal □ Sí  □ No
-
-REGLAS SKIP — condición de salto
-
-CRITERIOS DE ENTRADA
-
-DIRECTA
+#### CRITERIOS DE ENTRADA DIRECTA
 
 □  No tiene SKIP estructural. □  Acortamiento posible si: Hijo dominante H-3 EP-1 ya establecido + sin señal de Eros en apertura → pregunta ancla + E·1 + E·6 únicamente.
 
 □  Apertura narrativa produjo señal de apertura ante lo inesperado. □  El sujeto describió iniciativas sin justificación previa. □  El sujeto mostró apertura genuina ante lo que el mediador introdujo.
 
-PREGUNTA ANCLA
+#### PREGUNTA ANCLA
 
 «¿Puedes recordar un momento en el período que estamos analizando en que algo completamente inesperado — una persona, una idea, una situación — te abrió a algo que no buscabas? No algo que buscabas y encontraste: algo que llegó.» [Si no hay respuesta, ir directamente a Sondeo E·6: la sesión misma es el campo más inmediato para Eros. El mediador observa: ¿el sujeto produce algo que no sabía que iba a decir? ¿Hay sorpresa en voz alta?]
 
-PREGUNTAS DE SONDEO
-
-Código y texto del sondeo Observación del mediador durante la respuesta
-
-E·1 — «¿Hubo algo en ese período que te interesara sin que fuera útil para nada que ya buscabas?»
-
-E·4 — «Cuando te abriste a algo nuevo, ¿pudiste quedarte con ello o pasaste de una cosa a otra?»
-
-E·5 — «¿Hay algo en ese período que te sorprendió y te movió en una dirección que no anticipabas?»
-
-E·6 — «¿Hay algo en esta conversación que no tenías antes de que yo lo introdujera?»
+#### PREGUNTAS DE SONDEO
+| Código | Pregunta de sondeo | Observación del mediador |
+| --- | --- | --- |
+| E·1 | «¿Hubo algo en ese período que te interesara sin que fuera útil para nada que ya buscabas?» | |
+| E·4 | «Cuando te abriste a algo nuevo, ¿pudiste quedarte con ello o pasaste de una cosa a otra?» | |
+| E·5 | «¿Hay algo en ese período que te sorprendió y te movió en una dirección que no anticipabas?» | |
+| E·6 | «¿Hay algo en esta conversación que no tenías antes de que yo lo introdujera?» | |
 
 
-PREGUNTAS DISCRIMINANTES
+#### PREGUNTAS DISCRIMINANTES
 
-SEÑALES DE OBSERVACIÓN
-
-DIRECTA
+#### SEÑALES DE OBSERVACIÓN DIRECTA
 
 EP-1 — El sujeto produce algo genuinamente nuevo para él durante la sesión
 
@@ -8505,67 +8080,55 @@ Eros/evasión: «Al abrirte a algo nuevo, ¿pudiste quedarte con lo que encontra
 
 EP-3 — Narrativa de apertura ante lo nuevo sin señal en sesión.
 
-CODIFICACIÓN Y NIVEL EP
+#### CODIFICACIÓN Y NIVEL EP
 
-Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
+| Código | Nivel EP | Peso P(Hijos) o código de Eje |
+| --- | --- | --- |
 
-□ H-3 □ H-2 EP-1: sorpresa en voz alta en sesión. EP-2:
+| □ H-3  □ H-2 | EP-1: sorpresa en voz alta en sesión. EP-2: | |
 
-Notas narrativas del módulo — campo del sujeto y señal relacional observada
+**Notas narrativas del módulo — campo del sujeto y señal relacional observada:**
 
 
-<!-- FORMULARIO: hoja de registro B·I·H | salto de página -->
+
 
 ## B·I·H ·  MÓDULO HARMONÍA / D-2
 
 ### Integración genuina vs. anestesia ontológica · NUNCA SE SALTA
 
-Tipo de módulo Página estimada
-
-Fecha
-
-SKIP posible
-
-Sesión
-
-N.°
+| Campo | Registro | Campo | Registro |
+| --- | --- | --- | --- |
+| Tipo de módulo | | Página estimada | |
+| Fecha | | Sesión N.º | |
+| SKIP aplicado | __________________ | Localización | □ Sí □ No |
 
 Localización / función exclusiva NO (nunca)
 
-REGLAS SKIP — condición de salto
+#### REGLAS SKIP — condición de salto
 
-CRITERIOS DE ENTRADA
-
-DIRECTA
+#### CRITERIOS DE ENTRADA DIRECTA
 
 Este módulo no tiene SKIP estructural.
 
 □  Siempre se administra como último módulo del Bloque I. □  No puede iniciarse antes de que los cinco módulos anteriores estén evaluados. □  Requiere mínimo 20 minutos de administración.
 
-PREGUNTA ANCLA
+#### PREGUNTA ANCLA
 
 «Cuando las cosas marchan bien para ti — cuando hay estabilidad, cuando no hay conflicto visible —, ¿puedes decirme algo que hayas tenido que procesar para llegar a ese estado? No me interesa si estás bien o mal: me interesa si ese estado en que estás tiene historia.» [Las cinco preguntas H·D son obligatorias en orden. Sin ellas no puede producirse H-3(H) ni H-3(D2). P(Harmonía) ≠ 0 SOLO si este módulo produce H-3(H) con EP-1 o EP-2.]
 
-PREGUNTAS DE SONDEO
-
-Código y texto del sondeo Observación del mediador durante la respuesta
-
-H·D1 — «¿Qué sientes ahora mismo mientras me cuentas esa historia?»
-
-H·D2 — «Ahora mismo, aquí — ¿qué quieres?»
-
-H·D3 — [Introducir perspectiva diferente] «¿Qué pasa en ti cuando escuchas eso?»
-
-H·D4 — «¿Qué tuviste que procesar para llegar al estado en que estás?»
-
-H·D5 — «¿Hay algo del período que fue realmente difícil internamente?»
+#### PREGUNTAS DE SONDEO
+| Código | Pregunta de sondeo | Observación del mediador |
+| --- | --- | --- |
+| H·D1 | «¿Qué sientes ahora mismo mientras me cuentas esa historia?» | |
+| H·D2 | «Ahora mismo, aquí — ¿qué quieres?» | |
+| H·D3 | [Introducir perspectiva diferente] «¿Qué pasa en ti cuando escuchas eso?» | |
+| H·D4 | «¿Qué tuviste que procesar para llegar al estado en que estás?» | |
+| H·D5 | «¿Hay algo del período que fue realmente difícil internamente?» | |
 
 
-PREGUNTAS DISCRIMINANTES
+#### PREGUNTAS DISCRIMINANTES
 
-SEÑALES DE OBSERVACIÓN
-
-DIRECTA
+#### SEÑALES DE OBSERVACIÓN DIRECTA
 
 EP-1 (H) — Presencia interna sostenida: perplejidad genuina, preferencia con textura
 
@@ -8577,65 +8140,54 @@ D-2/D-1: H·DC: «¿Puedes imaginarte sintiéndote diferente?»
 
 EP-2 — Narrativa de proceso identificable (H) o narrativa sin proceso (D2) con señal en
 
-CODIFICACIÓN Y NIVEL EP
+#### CODIFICACIÓN Y NIVEL EP
 
-Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
+| Código | Nivel EP | Peso P(Hijos) o código de Eje |
+| --- | --- | --- |
 
 □ H-3(H) H-3(H): EP-1 o EP-2. Sin EP-1/EP-2 no
 
-Notas narrativas del módulo — campo del sujeto y señal relacional observada
+**Notas narrativas del módulo — campo del sujeto y señal relacional observada:**
 
 
-<!-- FORMULARIO A·2: Eje I | una página imprimible con código, casillas, nivel EP, señal y notas -->
+
 
 ## B·II·I ·  MÓDULO EJE I — ESTADOS DEL EGO
 
 ### E-1 a E-6 · Modulador transversal
 
-Tipo de módulo Página estimada
-
-Fecha
-
-SKIP posible
-
-Sesión
-
-N.°
+| Campo | Registro | Campo | Registro |
+| --- | --- | --- | --- |
+| Tipo de módulo | | Página estimada | |
+| Fecha | | Sesión N.º | |
+| SKIP aplicado | __________________ | Localización | □ Sí □ No |
 
 Eje SDO · transversal NO (nunca)
 
-REGLAS SKIP — condición de salto
+#### REGLAS SKIP — condición de salto
 
-CRITERIOS DE ENTRADA
-
-DIRECTA
+#### CRITERIOS DE ENTRADA DIRECTA
 
 Este módulo no tiene SKIP estructural.
 
 □  Siempre el primer módulo del Bloque II. □  No tiene criterios de entrada — siempre se administra. □  El resultado del Bloque I orienta las hipótesis iniciales.
 
-PREGUNTA ANCLA
+#### PREGUNTA ANCLA
 
 «Cuando miras las decisiones que tomaste en el período analizado, ¿cuáles sientes que fueron genuinamente tuyas? Y ¿cuáles sientes que más bien ocurrieron sin que realmente las hayas decidido?» [El mediador observa simultáneamente: el contenido de la respuesta y la textura de cómo responde. E-1 responde con naturalidad sobre sus actos. E-4 responde desde el criterio del Otro. E-2 no puede distinguir lo propio de lo que simplemente ocurrió.]
 
-PREGUNTAS DE SONDEO
-
-Código y texto del sondeo Observación del mediador durante la respuesta
-
-EI·1 — «¿Puedes reclamar esas decisiones como tuyas — dirías "yo decidí eso"?»
-
-EI·2 — «¿Lo primero que buscabas: entender qué se esperaba o qué pensabas tú?»
-
-EI·3 — «¿Hubo momentos en que sabías lo que querías pero algo te impedía actuar?»
-
-EI·5 — «Cuando alguien importante presionaba en otra dirección, ¿qué ocurrió con tu
+#### PREGUNTAS DE SONDEO
+| Código | Pregunta de sondeo | Observación del mediador |
+| --- | --- | --- |
+| EI·1 | «¿Puedes reclamar esas decisiones como tuyas — dirías "yo decidí eso"?» | |
+| EI·2 | «¿Lo primero que buscabas: entender qué se esperaba o qué pensabas tú?» | |
+| EI·3 | «¿Hubo momentos en que sabías lo que querías pero algo te impedía actuar?» | |
+| EI·5 | «Cuando alguien importante presionaba en otra dirección, ¿qué ocurrió con tu | |
 
 
-PREGUNTAS DISCRIMINANTES
+#### PREGUNTAS DISCRIMINANTES
 
-SEÑALES DE OBSERVACIÓN
-
-DIRECTA
+#### SEÑALES DE OBSERVACIÓN DIRECTA
 
 EP-1 — El código del Eje I se reproduce en la relación mediador-sujeto de manera
 
@@ -8647,64 +8199,53 @@ E-3/D-2: «¿El querer sigue ahí aunque bloqueado, o ya no recuerdas con clarid
 
 EP-3 — Coherencia narrativa sin señal de observación suficiente.
 
-CODIFICACIÓN Y NIVEL EP
+#### CODIFICACIÓN Y NIVEL EP
 
-Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
+| Código | Nivel EP | Peso P(Hijos) o código de Eje |
+| --- | --- | --- |
 
 □ E-1 □ E-2 EP-1: código reproducible en la relación con el
 
-Notas narrativas del módulo — campo del sujeto y señal relacional observada
+**Notas narrativas del módulo — campo del sujeto y señal relacional observada:**
 
 
-<!-- FORMULARIO A·2: Eje II | hoja imprimible con opciones M-1/M-2/M-3 y observación -->
+
 
 ## B·II·II ·  MÓDULO EJE II — MASCARADA
 
 ### M-1, M-2, M-3
 
-Tipo de módulo Página estimada
+| Campo | Registro | Campo | Registro |
+| --- | --- | --- | --- |
+| Tipo de módulo | | Página estimada | |
+| Fecha | | Sesión N.º | |
+| SKIP aplicado | __________________ | Localización | □ Sí □ No |
 
-Fecha
+| Eje SDO · transversal | □ Sí  □ No |
 
-SKIP posible
+#### REGLAS SKIP — condición de salto
 
-Sesión
-
-N.°
-
-Eje SDO · transversal □ Sí  □ No
-
-REGLAS SKIP — condición de salto
-
-CRITERIOS DE ENTRADA
-
-DIRECTA
+#### CRITERIOS DE ENTRADA DIRECTA
 
 □  Siempre después del Eje I. □  SKIP parcial si: E-1 EP-1/EP-2 + coherencia contextual en apertura narrativa.
 
 □  Administrar solo pregunta ancla. Si no hay señal: M-1 tentativo EP-3. Si hay señal: módulo completo.
 
-PREGUNTA ANCLA
+#### PREGUNTA ANCLA
 
 «¿Hay situaciones en tu vida en que te presentas de manera significativamente diferente a como te presentas en otras? No que seas más formal aquí y más informal allá: que el "tú" que aparece sea diferente. ¿Puedes describir eso?» [El mediador observa: ¿el sujeto describe la diferencia desde el operador (alguien elige) o desde el sujeto que se adapta sin opción? ¿Puede describir qué está eligiendo mostrar al mediador en esta sesión?]
 
-PREGUNTAS DE SONDEO
+#### PREGUNTAS DE SONDEO
+| Código | Pregunta de sondeo | Observación del mediador |
+| --- | --- | --- |
+| MAS·1 | «Esa diferencia entre cómo te presentas — ¿la eliges o simplemente ocurre?» | |
+| MAS·2 | «¿Hay algo que se mantiene igual en todas las presentaciones — algo | |
+| MAS·3 | «¿Hay contextos en que la manera en que te presentas te produce incomodidad?» | |
+| MAS·6 | «En esta conversación, ¿estás mostrando la versión que elegirías si pudieras elegir | |
 
-Código y texto del sondeo Observación del mediador durante la respuesta
+#### PREGUNTAS DISCRIMINANTES
 
-MAS·1 — «Esa diferencia entre cómo te presentas — ¿la eliges o simplemente ocurre?»
-
-MAS·2 — «¿Hay algo que se mantiene igual en todas las presentaciones — algo
-
-MAS·3 — «¿Hay contextos en que la manera en que te presentas te produce incomodidad?»
-
-MAS·6 — «En esta conversación, ¿estás mostrando la versión que elegirías si pudieras elegir
-
-PREGUNTAS DISCRIMINANTES
-
-SEÑALES DE OBSERVACIÓN
-
-DIRECTA
+#### SEÑALES DE OBSERVACIÓN DIRECTA
 
 
 EP-1 — No puede producir diferencia entre lo que muestra y lo que elegiría mostrar (M-2)
@@ -8717,64 +8258,53 @@ M-2/M-3: «¿Podrías presentarte diferente en ese contexto aunque te costara?»
 
 EP-3 — Coherencia narrativa sin señal suficiente en sesión.
 
-CODIFICACIÓN Y NIVEL EP
+#### CODIFICACIÓN Y NIVEL EP
 
-Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
+| Código | Nivel EP | Peso P(Hijos) o código de Eje |
+| --- | --- | --- |
 
 □ M-1 □ M-2 EP-1: señal observable en sesión. EP-2: narrativa
 
-Notas narrativas del módulo — campo del sujeto y señal relacional observada
+**Notas narrativas del módulo — campo del sujeto y señal relacional observada:**
 
 
-<!-- FORMULARIO A·2: Eje III | hoja imprimible con opciones relacionales y campo del mediador -->
+
 
 ## B·II·III ·  MÓDULO EJE III — VÍNCULO
 
 ### V-1, V-2 Damasén/Peribea, V-3
 
-Tipo de módulo Página estimada
-
-Fecha
-
-SKIP posible
-
-Sesión
-
-N.°
+| Campo | Registro | Campo | Registro |
+| --- | --- | --- | --- |
+| Tipo de módulo | | Página estimada | |
+| Fecha | | Sesión N.º | |
+| SKIP aplicado | __________________ | Localización | □ Sí □ No |
 
 Eje SDO · transversal NO (nunca)
 
-REGLAS SKIP — condición de salto
+#### REGLAS SKIP — condición de salto
 
-CRITERIOS DE ENTRADA
-
-DIRECTA
+#### CRITERIOS DE ENTRADA DIRECTA
 
 Este módulo no tiene SKIP estructural.
 
 □  Siempre después del Eje II. □  La relación mediador-sujeto es fuente de señales EP-1. Usar la doble observación.
 
-PREGUNTA ANCLA
+#### PREGUNTA ANCLA
 
 «Piensa en las relaciones más importantes de tu vida — las que más han formado lo que eres o lo que haces. ¿Hay algún patrón en esas relaciones? ¿Hay algo que se repite en cómo te vinculas con los Otros más importantes?» [El mediador observa SIMULTÁNEAMENTE: lo que el sujeto narra sobre sus vínculos Y lo que el sujeto produce en la relación con el mediador. Registrar ambas columnas de campo en la hoja de síntesis.]
 
-PREGUNTAS DE SONDEO
+#### PREGUNTAS DE SONDEO
+| Código | Pregunta de sondeo | Observación del mediador |
+| --- | --- | --- |
+| VIN·1 | «¿Tiendes a orientar la dirección del vínculo o a ser orientado por el Otro?» | |
+| VIN·2 | «¿Hay personas que todavía pueden sorprenderte genuinamente?» | |
+| VIN·3 | «¿Puedes describir un desacuerdo genuino que ambos sostuvieron sin destruir el vínculo?» | |
+| VIN·6 | «¿Has notado algo en cómo nos estamos relacionando que te recuerde alguno de los patrones?» | |
 
-Código y texto del sondeo Observación del mediador durante la respuesta
+#### PREGUNTAS DISCRIMINANTES
 
-VIN·1 — «¿Tiendes a orientar la dirección del vínculo o a ser orientado por el Otro?»
-
-VIN·2 — «¿Hay personas que todavía pueden sorprenderte genuinamente?»
-
-VIN·3 — «¿Puedes describir un desacuerdo genuino que ambos sostuvieron sin destruir el vínculo?»
-
-VIN·6 — «¿Has notado algo en cómo nos estamos relacionando que te recuerde alguno de los patrones?»
-
-PREGUNTAS DISCRIMINANTES
-
-SEÑALES DE OBSERVACIÓN
-
-DIRECTA
+#### SEÑALES DE OBSERVACIÓN DIRECTA
 
 
 EP-1 — La estructura relacional del sujeto se reproduce con el mediador: Damasén orienta,
@@ -8787,65 +8317,54 @@ Damasén/Peribea: «¿Defines el marco desde el que los dos operan, o te mueves 
 
 EP-3 — Narrativa coherente sin señal suficiente en sesión.
 
-CODIFICACIÓN Y NIVEL EP
+#### CODIFICACIÓN Y NIVEL EP
 
-Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
+| Código | Nivel EP | Peso P(Hijos) o código de Eje |
+| --- | --- | --- |
 
 □ V-1 □ V-2 EP-1: señal relacional en sesión (doble observación).
 
-Notas narrativas del módulo — campo del sujeto y señal relacional observada
+**Notas narrativas del módulo — campo del sujeto y señal relacional observada:**
 
 
-<!-- FORMULARIO A·2: Eje IV | hoja imprimible para D-1/D-2 y señal observacional -->
+
 
 ## B·II·IV  ·  MÓDULO EJE IV — DISFORIA
 
 ### D-1 activo, D-2 con D-1 residual, D-2 profundo
 
-Tipo de módulo Página estimada
-
-Fecha
-
-SKIP posible
-
-Sesión
-
-N.°
+| Campo | Registro | Campo | Registro |
+| --- | --- | --- | --- |
+| Tipo de módulo | | Página estimada | |
+| Fecha | | Sesión N.º | |
+| SKIP aplicado | __________________ | Localización | □ Sí □ No |
 
 Eje SDO · transversal NO (nunca)
 
-REGLAS SKIP — condición de salto
+#### REGLAS SKIP — condición de salto
 
-CRITERIOS DE ENTRADA
-
-DIRECTA
+#### CRITERIOS DE ENTRADA DIRECTA
 
 Este módulo no tiene SKIP estructural.
 
 □  Siempre después del Eje III. □  Si el módulo H produjo H-3(D2) EP-1/EP-2: entrada abreviada (pregunta ancla + DIS·3 + DIS·4 + DIS·5 + D·DIS·1). □  Si el módulo H produjo H-3(H) EP-1/EP-2: verificar compatibilidad (pregunta ancla + DIS·1 + D·DIS·2).
 
-PREGUNTA ANCLA
+#### PREGUNTA ANCLA
 
 «Cuando miras lo que hiciste en el período analizado, ¿hay algo en ti que registra una diferencia entre lo que hiciste y lo que habrías querido hacer o ser? No que lo hiciste mal: que algo no terminó de encajar.» [El mediador observa: ¿la respuesta tiene temperatura interna (D-1) o es fluida y apropiada sin proceso visible (D-2)? La prueba del contraste: regresar a un evento importante y observar si hay temperatura diferente al narrarlo de nuevo.]
 
-PREGUNTAS DE SONDEO
-
-Código y texto del sondeo Observación del mediador durante la respuesta
-
-DIS·1 — «¿Puedes identificar en qué parte de tu experiencia interna registras esa incomodidad?»
-
-DIS·3 — «¿Puedes imaginar cómo sería para ti estar de una manera diferente a cómo estás?»
-
-DIS·5 — «¿Hay algún momento en que algo en ti se activa de manera diferente a tu estado habitual?»
-
-DIS·6 — «Si algo cambiara en tu vida, ¿esperarías sentir las cosas de manera diferente?»
+#### PREGUNTAS DE SONDEO
+| Código | Pregunta de sondeo | Observación del mediador |
+| --- | --- | --- |
+| DIS·1 | «¿Puedes identificar en qué parte de tu experiencia interna registras esa incomodidad?» | |
+| DIS·3 | «¿Puedes imaginar cómo sería para ti estar de una manera diferente a cómo estás?» | |
+| DIS·5 | «¿Hay algún momento en que algo en ti se activa de manera diferente a tu estado habitual?» | |
+| DIS·6 | «Si algo cambiara en tu vida, ¿esperarías sentir las cosas de manera diferente?» | |
 
 
-PREGUNTAS DISCRIMINANTES
+#### PREGUNTAS DISCRIMINANTES
 
-SEÑALES DE OBSERVACIÓN
-
-DIRECTA
+#### SEÑALES DE OBSERVACIÓN DIRECTA
 
 EP-1 (D-1) — Incomodidad observable con temperatura ante preguntas que activan la
 
@@ -8857,65 +8376,54 @@ D-2/Harmonía: «Ese estado de paz — ¿tiene historia de proceso o simplemente
 
 EP-2 — Narrativa coherente de la señal (D-1) o su ausencia (D-2) + señal de
 
-CODIFICACIÓN Y NIVEL EP
+#### CODIFICACIÓN Y NIVEL EP
 
-Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
+| Código | Nivel EP | Peso P(Hijos) o código de Eje |
+| --- | --- | --- |
 
 □ D-1 activo EP-1: temperatura (D-1) o planitud (D-2)
 
-Notas narrativas del módulo — campo del sujeto y señal relacional observada
+**Notas narrativas del módulo — campo del sujeto y señal relacional observada:**
 
 
-<!-- FORMULARIO A·2: Eje V | hoja imprimible para posición del vector y tipo de pérdida -->
+
 
 ## B·II·V  ·  MÓDULO EJE V — TANATOLÓGICO
 
 ### T-0 a T-6 + T-ext · Vector del duelo
 
-Tipo de módulo Página estimada
+| Campo | Registro | Campo | Registro |
+| --- | --- | --- | --- |
+| Tipo de módulo | | Página estimada | |
+| Fecha | | Sesión N.º | |
+| SKIP aplicado | __________________ | Localización | □ Sí □ No |
 
-Fecha
+| Eje SDO · transversal | □ Sí  □ No |
 
-SKIP posible
+#### REGLAS SKIP — condición de salto
 
-Sesión
-
-N.°
-
-Eje SDO · transversal □ Sí  □ No
-
-REGLAS SKIP — condición de salto
-
-CRITERIOS DE ENTRADA
-
-DIRECTA
+#### CRITERIOS DE ENTRADA DIRECTA
 
 □  Siempre el último módulo del Bloque II. □  SKIP parcial si: sin señal de pérdida irrecuperable en apertura + Potós H-1 EP-0 + sin señal de duelo en módulos anteriores.
 
 □  Administrar pregunta ancla + TAN·1. Si no hay señal: registrar «ausencia de pérdida constitutiva activa» y cerrar el módulo.
 
-PREGUNTA ANCLA
+#### PREGUNTA ANCLA
 
 «¿Hay algo en tu vida — o en el período que estamos analizando — que ya no está y que no puede volver, y que todavía afecta la manera en que orientas lo que haces? No algo que extrañas: algo cuya ausencia cambia la estructura de tu vida de una manera que todavía estás procesando.» [El mediador observa: ¿el sujeto puede identificar la pérdida irrecuperable? ¿La narrativa tiene temperatura de T-2/T-3 (el duelo está activo) o de T-4/T-5 (el duelo está procesándose) o de T-6 (la pérdida está integrada como historia viva)?]
 
-PREGUNTAS DE SONDEO
-
-Código y texto del sondeo Observación del mediador durante la respuesta
-
-TAN·1 — «¿Te parece completamente real que no puede volver?»
-
-TAN·2 — «¿Todavía duele? ¿Cuándo aparece ese dolor?»
-
-TAN·3 — «¿Pudiste hacer algo con esa pérdida — procesarla, darle un lugar?»
-
-TAN·5 — «¿Qué te formó esa pérdida — qué hizo de ti lo que eres hoy?»
+#### PREGUNTAS DE SONDEO
+| Código | Pregunta de sondeo | Observación del mediador |
+| --- | --- | --- |
+| TAN·1 | «¿Te parece completamente real que no puede volver?» | |
+| TAN·2 | «¿Todavía duele? ¿Cuándo aparece ese dolor?» | |
+| TAN·3 | «¿Pudiste hacer algo con esa pérdida — procesarla, darle un lugar?» | |
+| TAN·5 | «¿Qué te formó esa pérdida — qué hizo de ti lo que eres hoy?» | |
 
 
-PREGUNTAS DISCRIMINANTES
+#### PREGUNTAS DISCRIMINANTES
 
-SEÑALES DE OBSERVACIÓN
-
-DIRECTA
+#### SEÑALES DE OBSERVACIÓN DIRECTA
 
 EP-1 — Temperatura específica ante la pérdida observable en sesión — distinta de la
 
@@ -8927,13 +8435,14 @@ T-3/T-4: «¿Puedes orientarte hacia algo nuevo sin que eso se sienta como traic
 
 EP-3 — Coherencia narrativa de la posición en el vector sin señal suficiente en sesión.
 
-CODIFICACIÓN Y NIVEL EP
+#### CODIFICACIÓN Y NIVEL EP
 
-Código H-1/H-2/H-3 o ? Nivel EP asignado Peso en P(Hijos) o código de Eje
+| Código | Nivel EP | Peso P(Hijos) o código de Eje |
+| --- | --- | --- |
 
 □ T-0/T-1 EP-1: temperatura específica en sesión. EP-2:
 
-Notas narrativas del módulo — campo del sujeto y señal relacional observada
+**Notas narrativas del módulo — campo del sujeto y señal relacional observada:**
 
 ### Instrucciones técnicas del apéndice A·2
 
@@ -8960,9 +8469,7 @@ Este protocolo de integración opera en tres modos según la relación entre las
 
 Modo Descripción Protocolo de
 
-Notas técnicas
-
-integración
+Notas técnicas integración
 
 CONVERGENCIA Los dos instrumentos producen la misma localización para el mismo módulo o componente. La convergencia eleva el EP de la localización: si el árbol documental produce señal de Fobos en los
 
@@ -8996,11 +8503,9 @@ muestra E-4 (el eje colapsa ante el cuestionamiento del Otro). En ese caso, ECO 
 
 ### Tabla de integración componente por componente
 
-<!-- TABLA: integración por componente | columnas: componente, fuente primaria, fuente de corroboración, acción ante contradicción -->
+### Integración componente por componente
 
-Para cada componente del instrumento: fuente primaria, fuente de corroboración, y acción cuando hay contradicción.
-
-<!-- TABLA: cruce ECO ↔ U·1 | columnas: componente, fuente primaria, fuente de corroboración, acción ante contradicción -->
+Para cada componente se indican la fuente primaria, la fuente de corroboración y la acción ante contradicciones.
 
 P(Hijos) — distribución de los seis Hijos
 
@@ -9074,7 +8579,7 @@ instrumentos localizan dimensiones distintas del mismo vector. Posible complemen
 
 ### Causas frecuentes de contradicción entre U·1 y ECO
 
-<!-- TABLA: causas de contradicción | columnas: causa, descripción, acción -->
+### Causas de contradicción y actuación
 
 Temporalidad El árbol documental localiza un período anterior y ECO localiza el momento presente. Las diferencias entre los dos pueden reflejar cambio genuino en la configuración del ego entre los dos períodos.
 
@@ -9117,7 +8622,7 @@ mediador cometió uno de los errores del Bloque IV durante la administración.
 
 *En qué orden · Con qué profundidad · Referencia para primera administración*
 
-<!-- TABLA: adaptación por perfil | columnas: perfil, módulos prioritarios, orden, profundidad, preguntas clave -->
+### Fichas de adaptación por perfil
 
 El instrumento ECO tiene estructura modular: todos los módulos están disponibles para todos los perfiles de mediador, pero la prioridad de administración, el orden, la profundidad y las preguntas más relevantes varían según el perfil. Esta tabla es una referencia rápida para el mediador que administra ECO por primera vez en un contexto específico — no reemplaza el conocimiento de los módulos completos.
 
@@ -9125,72 +8630,72 @@ El instrumento ECO tiene estructura modular: todos los módulos están disponibl
 
 Foco principal El ego genuino del sujeto en situación de urgencia. La localización rápida del estado más crítico y el riesgo de derivación.
 
-Orden recomendado de módulos
+**Orden recomendado de módulos.**
 
-Eje IV (D-1/D-2) → Eje V (T-n activo) → Módulo H → Bloque I prioridad: Fobos/Deimos → Eje I
+Pregunta inicial de observación del Eje IV (no cuenta como módulo formal) → Bloque I en orden estándar (F → D → A → P → E → H) → Bloque II en orden estándar (Ejes I → II → III → IV → V), dando profundidad prioritaria a los ejes IV y V según el caso.
 
-Profundidad relativa
+**Profundidad relativa.**
 
 Alta en Eje IV y V. Media en módulo H y Bloque I primeros módulos. Baja en Anteros, Potós, Eros en primera sesión.
 
-Prioridades de localización
+**Prioridades de localización.**
 
 1) Señales de derivación urgente (D·URG·1 a D·URG·3). 2) D-2 profundo sin D-1 residual. 3) T-2 activo de alta intensidad. 4) E-3 con bloqueo severo de φ₂.
 
-SKIP y postergaciones permitidas
+**SKIP y postergaciones permitidas.**
 
 Eros y Potós pueden posponerse a segunda sesión si el Eje IV y V consumen el tiempo disponible.
 
 Comenzar siempre con la pregunta de observación directa del Eje IV antes de administrar cualquier módulo formal: «¿Hay algo en este momento que produzca incomodidad o urgencia para usted?»
 
-Instrucción para primera sesión
+**Instrucción para primera sesión.**
 
 
 ### Mediador Educativo
 
 Foco principal La configuración de la voluntad del docente/educador en su práctica. El ego genuino en el campo educativo: cómo orienta el proceso formativo, cómo se vincula con los estudiantes, desde qué posición actúa.
 
-Orden recomendado de módulos
+**Orden recomendado de módulos.**
 
 Bloque I completo → Eje I → Eje II → Eje III → Eje IV → Eje V si aplica
 
-Profundidad relativa
+**Profundidad relativa.**
 
 Alta en todos los módulos del Bloque I con variantes educativas activas. Alta en Eje II (mascarada en el rol docente) y Eje III (vínculo con estudiantes). Media en Eje IV.
 
-Prioridades de localización
+**Prioridades de localización.**
 
 1) Anteros (criterio pedagógico propio vs. E-4 con criterio institucional). 2) Eje II (M-3 institucional en el campo educativo). 3) Eje III (V-2 Damasén con estudiantes vs. V-1). 4) Eje IV (D-1 del docente ante la brecha entre lo que enseña y lo que cree).
 
-SKIP y postergaciones permitidas
+**SKIP y postergaciones permitidas.**
 
 Eje V puede posponerse si no hay pérdida irrecuperable activa identificada en la apertura narrativa.
 
 Administrar la variante educativa de la pregunta ancla en todos los módulos del Bloque I. El campo educativo activa señales distintas de las que producen las preguntas genéricas.
 
-Instrucción para primera sesión
+**Instrucción para primera sesión.**
 
 ### Mediador Organizacional
 
 Foco principal El ego colectivo de la organización. La segunda mediación del ego soberano. El estado del campo institucional desde los módulos del Bloque I y II aplicados al colectivo.
 
-Orden recomendado de módulos
+**Orden recomendado de módulos.**
 
 B·III·1 (identificar ego soberano) → entrevista al ego soberano (Bloque I completo + Eje I, II, III, IV) → B·III·2 (miembros) → B·III·3 (agregación) → B·III·4 (artefactos) → Eje V si aplica
 
-Profundidad relativa
+**Profundidad relativa.**
 
 Alta en B·III·1 (identificación del ego soberano real). Alta en Eje I (estado del ego colectivo), Eje II (M-3 institucional frecuente), Eje IV (D-2 colectivo). Media en Bloque I al ego soberano individual.
 
-Prioridades de localización
+**Prioridades de localización.**
 
 1) φ₂ efectiva o disociada (B·III·1). 2) M-3 colectivo (Eje II). 3) D-2 colectivo (Eje IV). 4) Eje I colectivo (E-2 o E-4 colectivos frecuentes en organizaciones con ego soberano formal débil).
 
-SKIP y postergaciones permitidas
+**SKIP y postergaciones permitidas.**
 
 Eje V puede reducirse a verificación si no hay pérdida institucional irrecuperable en el período analizado.
 
-Instrucción para primera sesión
+**Instrucción para primera sesión.**
 
 No administrar ningún módulo antes de completar el protocolo de identificación del ego soberano real del B·III·1. Sin ese paso,
 
@@ -9201,74 +8706,74 @@ el resto del instrumento no tiene punto de entrada al ego colectivo.
 
 Foco principal El análisis de responsabilidad causal de actores en eventos de alta consecuencia. La localización del ego genuino del actor en el momento del acto analizado — que puede ser histórico.
 
-Orden recomendado de módulos
+**Orden recomendado de módulos.**
 
 Árbol documental U·1 primero → ECO al actor si es accesible → Protocolo de integración A·3 → Eje I (asunción) → Eje IV (D-2 vs. D-1 en el momento del acto) → Bloque I
 
-Profundidad relativa
+**Profundidad relativa.**
 
 Alta en Eje I (¿había asunción posible?) y Eje IV (¿había señal del ego genuino en el momento del acto?). Media en Bloque I (especialmente Fobos y Deimos como vectores del acto). Baja o nula en Eje V si no hay duelo activo en el período.
 
-Prioridades de localización
+**Prioridades de localización.**
 
 1) Eje I: ¿operaba el ego genuino con capacidad de asunción en el momento del acto? 2) Eje IV: ¿había D-1 activo (señal de la brecha) o D-2 (sin señal)? 3) Fobos/Deimos: ¿la urgencia o la parálisis orientaron el acto? 4) Protocolo A·3 para integrar con el árbol documental.
 
-SKIP y postergaciones permitidas
+**SKIP y postergaciones permitidas.**
 
 Eje III y Eje V pueden posponerse si el análisis de responsabilidad no requiere esas dimensiones.
 
 Si el actor no está disponible para ECO (caso histórico), usar solo el árbol documental con la nota de que la localización del ego genuino tiene EP máximo de EP-4 sin ECO. No producir localización con alta certeza sin ECO cuando el actor está disponible.
 
-Instrucción para primera sesión
+**Instrucción para primera sesión.**
 
 ### Mediador Modelador
 
 Foco principal El análisis de fenómenos culturales, políticos o históricos desde la configuración del ego colectivo de los actores que los producen. Lectura de eventos macro desde los Hijos y ejes de los egos colectivos involucrados.
 
-Orden recomendado de módulos
+**Orden recomendado de módulos.**
 
 Árbol documental U·1 extensivo → ECO a ego soberanos identificables → Bloque III completo → Eje V (vector tanatológico del colectivo) → Protocolo A·3 para cada actor
 
-Profundidad relativa
+**Profundidad relativa.**
 
 Alta en Bloque I y Eje V del ego colectivo. Alta en B·III·1 (identificación del ego soberano real del colectivo analizado). Media en Eje I-IV. Alta en Eje V cuando el fenómeno analizado involucra pérdida irrecuperable constitutiva del colectivo.
 
 
-Prioridades de localización
+**Prioridades de localización.**
 
 1) Eje V: el vector tanatológico colectivo frecuentemente es la clave del fenómeno analizado. 2) Bloque I: el Hijo dominante del ego colectivo orienta la lectura del fenómeno. 3) Eje II: M-3 como mecanismo de reproducción del fenómeno. 4) B·III·1: identificación del ego soberano que portó φ₂ en el momento del fenómeno.
 
-SKIP y postergaciones permitidas
+**SKIP y postergaciones permitidas.**
 
 Eje III puede reducirse si el fenómeno no involucra estructura de vínculos entre colectivos como factor principal.
 
 El Mediador Modelador trabaja frecuentemente con egos soberanos históricos inaccesibles. Usar el protocolo de árbol documental extensivo y declarar siempre la incertidumbre adicional que produce la ausencia de ECO en presencia.
 
-Instrucción para primera sesión
+**Instrucción para primera sesión.**
 
 ### Mediador en Memoria Comunitaria
 
 Foco principal La localización del ego colectivo en la estructura triádica lo que fue / lo que es / lo que pudo ser. El vector tanatológico colectivo como eje central del trabajo.
 
-Orden recomendado de módulos
+**Orden recomendado de módulos.**
 
 Eje V primero (localizar la posición del ego colectivo en el vector tanatológico) → B·III·5 (estructura triádica) → Bloque I del ego colectivo presente → Bloque II del ego colectivo presente → B·III·1-4
 
-Profundidad relativa
+**Profundidad relativa.**
 
 Alta en Eje V (vector tanatológico) — la sección central del trabajo. Alta en B·III·5 (Memoria Comunitaria). Media en Bloque I y II del ego colectivo presente. Baja o nula en Eje I, II y III si el tiempo es limitado.
 
-Prioridades de localización
+**Prioridades de localización.**
 
 1) Eje V: ¿en qué posición del vector está el ego colectivo? 2) B·III·5 §4: ¿hay duelo comunitario no habitado, tiranía utópica? 3) Bloque I del ego colectivo pasado (lo que fue). 4) Bloque I del ego colectivo presente (lo que es). 5) B·III·5 §3: lo que pudo ser.
 
-SKIP y postergaciones permitidas
+**SKIP y postergaciones permitidas.**
 
 Ejes I, II y III pueden posponerse a segunda sesión si el Eje V y el B·III·5 consumen el tiempo disponible.
 
 Comenzar siempre con la pregunta de localización del Eje V colectivo antes de cualquier otro módulo: la posición del ego colectivo en el vector tanatológico determina en qué orden y con qué profundidad pueden administrarse las demás dimensiones de la triada.
 
-Instrucción para primera sesión
+**Instrucción para primera sesión.**
 
 ---
 
@@ -9285,8 +8790,6 @@ Instrucción para primera sesión
 ## Mapa completo del flujo de ECO
 
 *Criterios de entrada · Reglas SKIP · Nodos de decisión · Salidas*
-
-decisión · Salidas
 
 Este apéndice presenta el árbol de navegación completo del instrumento ECO como referencia de consulta rápida en sesión. El árbol no reemplaza el conocimiento de los módulos individuales: sintetiza el flujo de decisiones que conecta todos los módulos del instrumento. El mediador que necesita orientación sobre qué módulo administrar a continuación, qué criterio de SKIP aplica, o cómo conectar los resultados de un módulo con los del siguiente encontrará aquí el mapa de esas conexiones.
 
@@ -9317,7 +8820,7 @@ Orden estándar: F → D → A → P → E → H. El módulo H siempre al final 
 > SKIP PARCIAL: E-1 confirmado en una sesión anterior con EP-1 o EP-2 y sin señal de parálisis, ausencia de dirección o respuesta mínima en la apertura. Administrar los sondeos D·1 y D·3; si alguno produce señal, administrar el módulo completo; si ninguno, H-1, EP-0 → Módulo Anteros.
 >
 >
-> ### ↓
+> ↓
 
 > B·I·A · Módulo ANTEROS
 >
@@ -9396,35 +8899,30 @@ El Bloque III no es obligatorio para todos los encargos. Se activa cuando el ego
 
 NO → Instrumento incompleto. Evaluar si módulos faltantes pueden completarse o si el cierre debe declararse como incompleto. SÍ → ¿EP-2 o superior en los componentes principales? ↓
 
-### > ¿EP-2 o superior en distribución P(Hijos) + al menos 3 de 5 códigos de Eje?
+> **¿EP-2 o superior en distribución P(Hijos) + al menos 3 de 5 códigos de Eje?**
 
 NO → Completo con incertidumbre declarada. Producir DI-ECO. SÍ → ¿Hay contradicciones entre módulos no resueltas? ↓
 
-### > ¿Contradicciones entre módulos no resueltas?
+> **¿Contradicciones entre módulos no resueltas?**
 
 SÍ → No concluyente en los componentes contradictorios. Opciones NC·1/NC·2/NC·3 del B·IV §3. NO → ¿El ego genuino produjo señal diagnóstica en al menos un módulo? ↓
 
-### > ¿El ego genuino produjo señal en al menos un módulo?
+> **¿El ego genuino produjo señal en al menos un módulo?**
 
 NO (D-2 profundo sin D-1 residual) → No evaluable. DI-ECO con nota de D-2. Evaluar derivación clínica. SÍ → Instrumento completo. Producir hoja de síntesis. Verificar condiciones de paso a Histos. ↓
 
-### SALIDA: Estado del cierre + DI-ECO si aplica + Hoja de síntesis → Determinar paso siguiente
+### Salida del instrumento
+
+Estado del cierre + DI-ECO si aplica + hoja de síntesis → determinar paso siguiente
 
 ### SEÑALES DE DERIVACIÓN URGENTE — SUSPENDEN EL INSTRUMENTO INMEDIATAMENTE
 
-<!-- TABLA: derivación urgente | columnas: código, señal, acción inmediata -->
+| Código | Señal | Acción inmediata |
+| --- | --- | --- |
 
-D·URG·1 Ideación suicida o autolesiva de cualquier intensidad
-
-Suspender ECO. Evaluación de seguridad. Acompañar a servicios de urgencia.
-
-D·URG·2 Señales de episodio psicótico, maníaco o disociativo activo
-
-Suspender ECO. No intervenir sobre el contenido. Activar derivación psiquiátrica urgente.
-
-D·URG·3 Revelación de violencia activa — hacia el sujeto o hacia terceros
-
-Suspender ECO. Activar protocolo legal y de protección del contexto.
+| D·URG·1 | Ideación suicida o autolesiva de cualquier intensidad | Suspender ECO, realizar evaluación de seguridad y activar el protocolo de crisis aplicable. No reanudar hasta que el riesgo inmediato haya sido evaluado. |
+| D·URG·2 | Señales de episodio psicótico, maníaco o disociativo activo | Suspender ECO. No interpretar el contenido; activar evaluación clínica urgente según el protocolo local. |
+| D·URG·3 | Revelación de violencia activa hacia el sujeto o terceros | Suspender ECO y activar el protocolo legal y de protección vigente en el contexto. |
 
 ---
 
