@@ -737,3 +737,4 @@ Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y A
 
 El Cálculo de la Responsabilidad  ·  Cap. 13 — IA y algoritmos de decisión
 
+
