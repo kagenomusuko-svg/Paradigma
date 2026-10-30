@@ -3820,7 +3820,7 @@ a la diferencia entre un querer presente y bloqueado (E-3) y la ausencia del ins
 4 La tabla de colectivo del §10 establece preguntas de localización para el ego colectivo en cada estado del Eje I. Estas preguntas son preguntas al ego soberano, no al colectivo como abstracción. La respuesta del ego soberano a cada pregunta es el insumo de localización colectiva — no la respuesta de los miembros en general ni la respuesta de los documentos institucionales, aunque ambas fuentes pueden corroborar o cuestionar lo que el ego soberano produce.
 
 
-# B·II·I · MÓDULO EJE I — ESTADOS DEL EGO
+# B·II·II · MÓDULO EJE II — MASCARADA
 ## La forma que el ego toma en el mundo
 
 *Localización de los códigos M-1, M-2 y M-3 del Eje II*
@@ -4091,7 +4091,7 @@ culturales, políticos o históricos. Las instituciones que el Mediador Modelado
 
 BLOQUE II · Los cinco ejes del SDO
 
-# B·II·I · MÓDULO EJE I — ESTADOS DEL EGO
+# B·II·III · MÓDULO EJE III — VÍNCULO
 ## La estructura del encuentro con el Otro
 
 *Localización de los códigos V-1, V-2 y V-3 del Eje III · El campo relacional de la sesión como fuente de EP-1*
@@ -4518,7 +4518,7 @@ Las organizaciones en Peribea colectivo tienen estructura de respuesta: son reac
 
 BLOQUE II · Los cinco ejes del SDO
 
-# B·II·I · MÓDULO EJE I — ESTADOS DEL EGO
+# B·II·IV · MÓDULO EJE IV — DISFORIA
 ## La presencia o ausencia de la señal del ego genuino
 
 *Localización de D-1 (disforia activa) y D-2 (anestesia ontológica) · Modulador transversal*
