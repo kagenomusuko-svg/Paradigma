@@ -1,5 +1,4 @@
-PARTE PRELIMINAR · Fundamentos del instrumento
-
+<!-- PARTE: PRELIMINAR · Fundamentos del instrumento -->
 ### Capítulo P·5
 
 ### Criterios de entrada, salto y cierre
@@ -195,4 +194,5 @@ Entrevista Clínica Ontológica · ECO
 requiere. La validez del cierre de perfil parcial depende de que los módulos no administrados estén declarados explícitamente como tales en la hoja de síntesis, con referencia al perfil que justifica su omisión.
 
 Entrevista Clínica Ontológica · ECO
+
 

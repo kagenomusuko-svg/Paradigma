@@ -1,5 +1,4 @@
-BLOQUE I · Los Hijos de Afrodita
-
+<!-- PARTE: I · Los Hijos de Afrodita -->
 ### B·I·H  ·  MÓDULO HARMONÍA · D-2
 
 ### La integración y la anestesia — dos estados
@@ -478,4 +477,5 @@ Cuándo el caso supera ECO
 >
 > 4 La aplicación del módulo H al ego colectivo tiene una implicación que el texto principal no desarrolla completamente: la discriminación Harmonía colectiva / D-2 colectivo requiere acceso al ego soberano real, no solo a los miembros del colectivo. Los miembros pueden describir el estado del colectivo como estable y sin conflicto — y esa descripción es verdadera desde su perspectiva. Pero si el ego soberano está en D-2, la estabilidad que los miembros describen no es Harmonía colectiva: es la estabilidad que produce la ausencia de señal del ego que porta la segunda mediación colectiva. La discriminación requiere acceder a ese ego soberano y administrar las preguntas H·D con él como sujeto — no con el colectivo como abstracción.
 >
+
 

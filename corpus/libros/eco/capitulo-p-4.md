@@ -1,5 +1,4 @@
-PARTE PRELIMINAR · Fundamentos del instrumento
-
+<!-- PARTE: PRELIMINAR · Fundamentos del instrumento -->
 ### Capítulo P·4
 
 ## Convenciones del instrumento
@@ -145,4 +144,5 @@ completa. Esta distinción produce H-1 (EP-0, ausencia confirmada) vs H-2 o H-1 
 4 La secuencia de uso de la Tabla EP —antes, durante y después de la sesión— refleja un principio general del instrumento: la sesión es el momento de observación, no de análisis. El análisis ocurre después, con las notas como insumo y la Tabla EP como criterio de calibración. El mediador que intenta codificar durante la sesión divide su atención entre observar al sujeto y procesar lo que observa, y la observación pierde calidad en ambos casos.
 
 Entrevista Clínica Ontológica · ECO
+
 

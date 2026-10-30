@@ -7,6 +7,7 @@
   "volume": null,
   "source_anomalies": [],
   "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
+  "parts": [],
   "segments": [
     {
       "path": "corpus/libros/axiomatizacion-doble-mediacion/00-preliminares.md",

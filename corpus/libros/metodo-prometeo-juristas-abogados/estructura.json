@@ -9,6 +9,7 @@
     "La fuente contiene dos unidades distintas rotuladas «Capítulo 6»; se conservan como 6a y 6b en la capa derivada sin alterar la fuente."
   ],
   "segmentation_rule": "Cortes estructurales conservadores; la fuente íntegra es canónica.",
+  "parts": [],
   "segments": [
     {
       "path": "corpus/libros/metodo-prometeo-juristas-abogados/00-preliminares.md",

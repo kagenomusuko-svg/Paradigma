@@ -1,5 +1,4 @@
-BLOQUE III · La entrevista al ego colectivo
-
+<!-- PARTE: III · La entrevista al ego colectivo -->
 ### B·III·2 ·  ENTREVISTA A LOS MIEMBROS
 
 ### Cómo leer el colectivo a través de quien lo
@@ -677,4 +676,5 @@ Notas al capítulo B·III·3
 4 El formato de la localización colectiva que el §4 establece puede parecer más complejo que el de la localización individual. Esa complejidad está justificada: la localización colectiva es estructuralmente más incierta que la individual porque depende de múltiples fuentes con distintos niveles de acceso al ego colectivo. La declaración explícita de esa incertidumbre — a través de los niveles EP por componente, la nota de convergencia/divergencia, y la declaración del nivel de certeza global — no debilita la utilidad de la localización colectiva: la hace más honesta y más útil para Histos colectivo, que necesita saber con qué certeza puede contar cada componente de la localización para diseñar el trabajo de acompañamiento.
 
 Entrevista Clínica Ontológica · ECO
+
 

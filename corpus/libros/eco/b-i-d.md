@@ -1,5 +1,4 @@
-BLOQUE I · Los Hijos de Afrodita
-
+<!-- PARTE: I · Los Hijos de Afrodita -->
 B·I·D · MÓDULO DEIMOS
 
 La voluntad que se paraliza ante la simetría Localización del Hijo de la parálisis ante la multiplicidad equivalente
@@ -417,4 +416,5 @@ La pregunta que discrimina: ¿los acuerdos de consenso se ejecutan? Un colectivo
 4 La instrucción de esperar 20 segundos ante el silencio de Deimos en sesión es una de las instrucciones más contraintuitivas del instrumento. La mayoría de los mediadores en formación la incumplen no por falta de conocimiento sino porque el silencio sostenido produce incomodidad en el propio campo del mediador. Esa incomodidad es información diagnóstica sobre el campo del mediador, no sobre el sujeto. El mediador que puede habitar 20 segundos de silencio sin intervenirlos tiene el campo calibrado para Deimos. El que no puede hacerlo necesita supervisión antes de administrar este módulo de manera autónoma.
 
 Entrevista Clínica Ontológica · ECO
+
 

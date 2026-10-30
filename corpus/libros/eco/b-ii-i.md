@@ -1,5 +1,4 @@
-BLOQUE II · Los cinco ejes del SDO
-
+<!-- PARTE: II · Los cinco ejes del SDO -->
 ### B·II·I ·  MÓDULO EJE I — ESTADOS DEL
 
 ### EGO
@@ -583,4 +582,5 @@ a la diferencia entre un querer presente y bloqueado (E-3) y la ausencia del ins
 4 La tabla de colectivo del §10 establece preguntas de localización para el ego colectivo en cada estado del Eje I. Estas preguntas son preguntas al ego soberano, no al colectivo como abstracción. La respuesta del ego soberano a cada pregunta es el insumo de localización colectiva — no la respuesta de los miembros en general ni la respuesta de los documentos institucionales, aunque ambas fuentes pueden corroborar o cuestionar lo que el ego soberano produce.
 
 Entrevista Clínica Ontológica · ECO
+
 

@@ -1,5 +1,4 @@
-BLOQUE I · Los Hijos de Afrodita
-
+<!-- PARTE: I · Los Hijos de Afrodita -->
 ### B·I·F · MÓDULO FOBOS
 
 #### La voluntad que reacciona ante la amenaza
@@ -310,4 +309,5 @@ Entrevista Clínica Ontológica · ECO
 significa que los errores en él sean sin consecuencias: una codificación incorrecta de Fobos contamina la distribución P(Hijos) completa porque los pesos de los demás Hijos se ajustan en relación al peso de Fobos. El mediador que sobrecodifica Fobos —asigna H-3 con EP insuficiente— produce una distribución donde los demás Hijos tienen pesos menores a los que la evidencia justifica.
 
 Entrevista Clínica Ontológica · ECO
+
 

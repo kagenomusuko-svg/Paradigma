@@ -1,5 +1,4 @@
-PARTE PRELIMINAR · Fundamentos del instrumento
-
+<!-- PARTE: PRELIMINAR · Fundamentos del instrumento -->
 ### Capítulo P·1
 
 Qué es ECO y qué no es La función del instrumento en el sistema
@@ -124,4 +123,5 @@ Notas al capítulo P·1
 impedir que el mediador asigne certezas fuera del rango que el tipo de señal observacional justifica.
 
 Entrevista Clínica Ontológica · ECO
+
 

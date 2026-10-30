@@ -1,5 +1,4 @@
-BLOQUE I · Los Hijos de Afrodita
-
+<!-- PARTE: I · Los Hijos de Afrodita -->
 B·I·A · MÓDULO ANTEROS
 
 ### La voluntad que se afirma desde el eje propio
@@ -432,4 +431,5 @@ calibrado para leer no solo Anteros sino la dimensión arética completa del sis
 4 La instrucción de recibir el desacuerdo del sujeto sin defensividad ni cesión automática en el Sondeo A·7 tiene una doble función que el texto menciona brevemente: es señal diagnóstica del sujeto (¿puede desacordar?) y es modelo relacional del mediador (¿puede recibir el desacuerdo?). El mediador que no puede recibir el desacuerdo del sujeto sin ponerse defensivo o sin ceder inmediatamente está mostrando que no tiene Anteros disponible en el campo de la sesión — y eso contamina precisamente el módulo que busca localizarlo en el sujeto. La supervisión de la propia P(Hijos) del mediador es especialmente importante en este módulo.
 
 Entrevista Clínica Ontológica · ECO
+
 

@@ -1,5 +1,4 @@
-BLOQUE III · La entrevista al ego colectivo
-
+<!-- PARTE: III · La entrevista al ego colectivo -->
 ### B·III·4 ·  ANÁLISIS DE ARTEFACTOS
 
 ### COLECTIVOS
@@ -288,4 +287,5 @@ colectivos con M-3 profundo, el efecto del observador puede ser especialmente in
 4 El protocolo de cruce artefacto/entrevista que el §4 establece como herramienta para leer M-3 profundo tiene una aplicación inversa que puede ser igualmente importante: cuando las entrevistas producen la firma de M-3 pero los artefactos producen señales del ego colectivo genuino, puede ser señal de que el ego colectivo genuino tiene acceso a la expresión a través de los artefactos, aunque no pueda expresarse en las entrevistas. Eso puede ocurrir en colectivos con fuerte presión del ego soberano formal sobre la expresión individual: los miembros pueden ajustar sus narrativas en la entrevista a lo que el ego soberano formal espera, mientras que en los artefactos que producen en el día a día (las comunicaciones informales, los espacios que personalizan, los rituales que producen espontáneamente) el ego colectivo genuino tiene más libertad de expresión.
 
 Entrevista Clínica Ontológica · ECO
+
 

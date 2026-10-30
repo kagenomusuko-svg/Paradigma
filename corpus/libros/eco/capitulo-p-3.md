@@ -1,3 +1,4 @@
+<!-- PARTE: PRELIMINAR · Fundamentos del instrumento -->
 ### Capítulo P·3
 
 ## Condiciones de administración
@@ -176,4 +177,5 @@ Entrevista Clínica Ontológica · ECO
 4 La condición de invalidación por «respuestas orientadas a la imagen» merece una aclaración: el hecho de que el sujeto sostenga una imagen en sesión no es en sí mismo una condición de invalidación. Es un hallazgo —el código M-2 del Eje II. La condición de invalidación se cumple cuando esa orientación es tan consistente y sostenida que no hay ninguna señal del ego genuino en ningún momento de la sesión. En ese caso, lo que ECO ha localizado es el estado de la mascarada, no la configuración de la voluntad que está detrás de ella.
 
 Entrevista Clínica Ontológica · ECO
+
 

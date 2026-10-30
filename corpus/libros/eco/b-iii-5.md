@@ -1,5 +1,4 @@
-BLOQUE III · La entrevista al ego colectivo
-
+<!-- PARTE: III · La entrevista al ego colectivo -->
 ### B·III·5 ·  MEMORIA COMUNITARIA — LO QUE FUE, LO QUE ES, LO QUE PUDO SER
 
 ### La estructura triádica de la Memoria
@@ -310,4 +309,5 @@ Entrevista Clínica Ontológica · ECO
 que esas localizaciones hacen posible requiere el instrumento Histos que el paradigma está desarrollando en paralelo.
 
 Entrevista Clínica Ontológica · ECO
+
 

@@ -1,4 +1,4 @@
-APÉNDICES · Instrumentos de trabajo del mediador
+<!-- PARTE: APÉNDICES · Instrumentos de trabajo del mediador -->
 
 <!-- FORMULARIO: A·1 | salto de página | campos rellenables, casillas de verificación, tablas de localización y áreas de notas -->
 

@@ -1,5 +1,4 @@
-BLOQUE III · La entrevista al ego colectivo
-
+<!-- PARTE: III · La entrevista al ego colectivo -->
 ### B·III·1 ·  EL EGO SOBERANO COMO PUNTO
 
 ### DE ENTRADA
@@ -261,4 +260,5 @@ leer el ego soberano solo como individuo y perder la dimensión colectiva que su
 4 La distinción entre φ₂ cedida voluntariamente y φ₂ cedida involuntariamente que el §4 menciona brevemente merece desarrollo en Histos, no en ECO. Lo que el instrumento puede localizar es el estado actual de φ₂ —si está portada, cedida, difusa, en disputa, o apagada— y las consecuencias de ese estado para la lectura del ego colectivo. La historia de cómo φ₂ llegó a ese estado —cómo se cedió, bajo qué condiciones, qué proceso lo produjo— es el material del trabajo de acompañamiento de Histos con el ego colectivo, que el instrumento ECO prepara, pero no completa.
 
 Entrevista Clínica Ontológica · ECO
+
 
