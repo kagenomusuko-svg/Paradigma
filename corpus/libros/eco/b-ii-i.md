@@ -1,12 +1,7 @@
-### B·II·I ·  MÓDULO EJE I — ESTADOS DEL
+# B·II·I · MÓDULO EJE I — ESTADOS DEL EGO
+## La configuración fundamental de la voluntad
 
-### EGO
-
-### La configuración fundamental de la voluntad
-
-Localización del estado del ego en los seis códigos del Eje I · Eje
-
-transversal
+*Localización del estado del ego en los seis códigos del Eje I · Eje transversal*
 
 ### I.  Fundamento del módulo y su lugar en el sistema
 
@@ -14,16 +9,14 @@ El Eje I del SDO describe la configuración más fundamental del ego: desde dón
 
 Los seis estados del Eje I describen seis configuraciones de la relación entre φ₁, φ₂ y el eje desde donde opera la voluntad. E-1 es el estado en que φ₂ opera desde el eje genuinamente propio del sujeto. E-2 es el estado en que φ₁ produce actos desde el sesgo acumulado sin que φ₂ intervenga como operador activo. E-3 es el estado en que hay un querer genuino, pero φ₂ está bloqueada. E-4 es el estado en que φ₂ opera desde el eje de un Otro internalizado. E-5 es el estado en que φ₂ opera con tal intensidad desde el eje propio que el campo ya no puede producir diferencia. E-6 es el estado límite en que la
 
-### Entrevista Clínica Ontológica · ECO
 
-### integral del ego se multiplica por cero — la voluntad opera, pero sin efecto diferencial en el campo relacional.
+integral del ego se multiplica por cero — la voluntad opera, pero sin efecto diferencial en el campo relacional.
 
 Este módulo es el primero del Bloque II porque el estado del Eje I modula la lectura de todo lo demás. Un sujeto en E-3 con Deimos como Hijo dominante tiene una configuración diferente de un sujeto en E-1 con Deimos — en el primero, el bloqueo de φ₂ explica la parálisis de Deimos; en el segundo, la parálisis viene de la simetría de opciones de v_t sin que haya bloqueo del operador. El Eje I no puede evaluarse después de los demás ejes: debe evaluarse primero para que la lectura de los demás ejes sea correcta.
 
 El Eje I no describe qué quiere el sujeto ni cómo lo quiere: describe desde dónde quiere. Esa pregunta — ¿desde dónde opera la voluntad? — es la pregunta más básica que el SDO hace y la que el Bloque I de ECO prepara. Sin ella, la distribución P(Hijos) del Bloque I puede ser diagnósticamente precisa y clínicamente incorrecta.
 
 <!-- TABLA: códigos E-1 a E-6 | columnas: código, nombre, definición técnica, firma en presencia, señal EP y criterio -->
-
 
 
 E-1 Ego genuino
@@ -42,7 +35,6 @@ El sujeto actúa desde la acumulación de sus condicionamientos sin que haya ope
 
 No puede distinguir entre sus actos genuinos y los que produjeron los condicionamientos. La suma de lo que le ocurrió actúa en su nombre sin que haya quien la reclame.
 
-### Entrevista Clínica Ontológica · ECO
 
 E-3 Afasia volitiva
 
@@ -74,7 +66,6 @@ EP-2 desde narrativa de nulidad del
 
 El sujeto actúa, pero sus actos no producen
 
-Entrevista Clínica Ontológica · ECO
 
 efecto. EP-1 si el sujeto en sesión no puede producir ninguna diferencia en el campo relacional — el mediador no puede registrar ningún impacto del sujeto sobre la dinámica de la sesión.
 
@@ -90,7 +81,6 @@ La orientación que el Bloque I produce sobre el Eje I: si el módulo Anteros pr
 
 El Eje I como modulador transversal — consecuencia para el instrumento El código del Eje I no solo describe el estado actual del ego: modifica el peso de las señales de todos los módulos anteriores y posteriores. Un Anteros H-3 EP-1 en un sujeto localizado en E-1 tiene un peso clínico diferente de un Anteros H-3 EP-1 en un sujeto localizado en E-4 — en el segundo caso, lo que el módulo A localizó puede no ser
 
-Entrevista Clínica Ontológica · ECO
 
 Anteros genuino sino el eje ajeno que produce afirmaciones similares. El Eje I, cuando produce código E-4, obliga al mediador a revisar retrospectivamente las señales del Bloque I.
 
@@ -104,7 +94,6 @@ La pregunta ancla del Módulo Eje I no busca identificar directamente el estado 
 
 Las preguntas de sondeo del Módulo Eje I tienen como objetivo adicional orientar las hipótesis hacia el estado específico del ego antes de las preguntas discriminantes. El mediador no busca confirmar una hipótesis con los sondeos: busca producir material que las preguntas discriminantes puedan leer con mayor precisión.
 
-Entrevista Clínica Ontológica · ECO
 
 > Sondeo EI·1 — La asunción «¿Puedes reconocer esas decisiones como tuyas —en el sentido de que las reclamarías, de que si alguien te preguntara por ellas dirías «sí, yo decidí eso»?» [Pregunta fundamental de asunción. Lo que el mediador observa: si el sujeto puede reclamar sus actos como propios sin que eso requiera elaboración defensiva. E-1: puede hacerlo con naturalidad. E-2: tiene dificultad para distinguir los suyos de los que «simplemente ocurrieron». E-3: puede reclamarlos, pero con la nota de que algo lo impidió actuar como quería. E-4: puede reclamarlos, pero si se profundiza emerge que el criterio de «mío» viene de la expectativa del Otro.]
 >
@@ -114,7 +103,6 @@ Entrevista Clínica Ontológica · ECO
 >
 > Sondeo EI·4 — El efecto en el campo «¿Tienes la sensación de que tus decisiones y acciones en ese período produjeron diferencias en el campo — que las cosas cambiaron porque tú actuaste?» [Pregunta discriminante entre E-5 (el campo no puede registrar diferencia adicional porque el ego ya es el campo) y E-6 (el ego opera, pero sin efecto diferencial). Lo que el
 >
-> ### Entrevista Clínica Ontológica · ECO
 >
 > mediador observa: si el sujeto puede identificar efectos propios en el campo. E-5: puede identificarlos, pero los describe como si el campo hubiera seguido su orientación. E-6: no puede identificar ningún efecto diferencial de sus propios actos. E-1 o E-4: puede describir efectos en el campo con criterio de atribución claro.]
 >
@@ -144,7 +132,6 @@ No puede distinguir entre lo que quería
 
 Confundir con E-4: en E-2 no hay criterio
 
-### Entrevista Clínica Ontológica · ECO
 
 no pueda predecir desde los condicionamientos que el sujeto ya describió. La narrativa del sujeto sigue siempre la misma estructura.
 
@@ -178,7 +165,6 @@ Confundir con D-2: D-2 no registra la brecha. E-6 puede registrarla, pero no pue
 
 ### La señal más diagnóstica — la relación con el mediador como espejo del Eje I
 
-Entrevista Clínica Ontológica · ECO
 
 La señal más diagnóstica del Módulo Eje I no viene de las respuestas del sujeto a las preguntas de sondeo: viene de cómo el sujeto se relaciona con el mediador como presencia. El sujeto en E-1 puede desacordar, puede mantener su posición, puede recibir perspectivas diferentes con procesamiento genuino. El sujeto en E-4 adopta la perspectiva del mediador como autoridad sin proceso visible o la rechaza defensivamente si la percibe como amenaza al Otro internalizado. El sujeto en E-3 puede producir preferencias, pero no puede actuar desde ellas en la dinámica de la sesión. El sujeto en E-2 reproduce en la sesión los mismos condicionamientos que describe en la narrativa. El mediador que lee su propia relación con el sujeto como señal diagnóstica tiene EP-1 del Eje I disponible desde el principio de la sesión.
 
@@ -390,7 +376,6 @@ Las preguntas discriminantes del Módulo Eje I son el centro técnico del módul
 
 «Ese criterio que describes como tuyo — si la persona o el entorno del que vino dejara de existir o te dijera hoy que estás equivocado, ¿qué pasaría con tu criterio?» [La pregunta del colapso del Otro. Lo que el mediador observa: si el criterio sobrevive a la ausencia o negación del Otro que lo originó. Esta es la pregunta más diagnóstica del par E-1/E-4.]
 
-### Entrevista Clínica Ontológica · ECO
 
 E-1 · Ego genuino E-4 · Disfasia volitiva
 
@@ -412,7 +397,6 @@ E-2: simplemente ocurre. No hay operador evaluativo antes del acto — ni propio
 
 «Lo que te impide actuar como quieres — ¿es algo que viene de adentro (como si hubiera un muro interno que impide que lo que quieres se actualice) o es algo que viene de afuera (el entorno, las expectativas, lo que alguien importante pensaría)?»
 
-### Entrevista Clínica Ontológica · ECO
 
 [Pregunta sobre el origen del bloqueo o de la orientación. Lo que el mediador observa: si el sujeto puede localizar el bloqueo como interno (E-3) o como externo-internalizado (E-4).]
 
@@ -434,7 +418,6 @@ E-5: el campo no puede sorprender al ego. El sujeto describe que anticipa lo que
 
 ### D·EI·5 ·  E-3 vs. D-2 — bloqueo de φ₂ vs. ausencia de señal del ego
 
-Entrevista Clínica Ontológica · ECO
 
 «Cuando piensas en lo que querías hacer y no pudiste, ¿sientes que todavía hay algo en ti que quiere actuar de esa manera — que el querer sigue ahí, aunque no pueda salir? ¿O es que ya no recuerdas con claridad si realmente querías algo?» [La discriminación más delicada del módulo. En E-3, el querer está presente, aunque bloqueado. En D-2, el instrumento que producía el querer se ha apagado y el sujeto ya no puede acceder a él. La diferencia es si el querer sigue siendo accesible, aunque bloqueado.]
 
@@ -450,7 +433,6 @@ El Módulo Eje I produce un código único — uno de los seis estados del ego �
 
 Regla de codificación — punto vs. rango Cuando la discriminación entre dos estados es inequívoca con EP-1 o EP-2: código puntual. Ejemplo: «E-4 confirmado con EP-1». Cuando la discriminación no puede resolverse con certeza, pero la evidencia excluye algunos estados: rango declarado. Ejemplo: «E-1 o E-4, incertidumbre alta — la discriminación requiere verificación en sesión adicional o profundización en el Módulo Eje III». Cuando la evidencia es insuficiente para excluir ningún estado: código de imposibilidad para evaluar con nota de módulo no evaluado.
 
-Entrevista Clínica Ontológica · ECO
 
 Los niveles EP para el Eje I siguen la misma escala que el resto del instrumento. EP-1 requiere que el estado se reproduzca directamente en la relación del sujeto con el mediador durante la sesión. EP-2 requiere narrativa coherente en múltiples contextos con al menos una señal de observación que la corrobore. EP-3 requiere coherencia narrativa a través del tiempo sin señal de observación directa suficiente para EP-2.
 
@@ -464,7 +446,6 @@ Cuando el Eje I produce E-3, el mediador debe revisar la señal de Deimos del Bl
 
 El Eje I a escala colectiva describe el estado del ego soberano que porta la segunda mediación del colectivo. La localización del ego colectivo en E-1 a E-6 requiere primero identificar quién porta φ₂ del colectivo — la pregunta que el Bloque III establece — y luego
 
-### Entrevista Clínica Ontológica · ECO
 
 localizar a ese sujeto en el Eje I. El estado del ego soberano es el estado del ego del colectivo en primera instancia, con los ajustes que la dinámica del colectivo como sistema produce sobre esa localización.
 
@@ -512,7 +493,6 @@ La organización no puede recibir perspectiva externa genuina. Todo lo que llega
 
 «¿Ha habido en este período alguna perspectiva externa que realmente los haya
 
-### Entrevista Clínica Ontológica · ECO
 
 institucional ya no puede registrar diferencia que el colectivo no haya producido.
 
@@ -540,7 +520,6 @@ Cada código del Eje I orienta un tipo diferente de intervención en Histos. El 
 
 Con E-1 confirmado, el trabajo de Histos puede operar directamente desde el eje propio activo del sujeto. No hay que crear condiciones para que el ego genuino emerja — está presente. El trabajo puede
 
-Entrevista Clínica Ontológica · ECO
 
 enfocarse en las configuraciones de v_t que los Hijos del Bloque I describen, en la elaboración de las pérdidas del Eje V, o en la actualización del ego genuino en las dimensiones donde los demás ejes muestran dificultad. Lo que no se hace: trabajar la restitución del eje propio cuando el eje propio ya está activo.
 
@@ -558,7 +537,6 @@ Con E-4, el trabajo de Histos necesita crear las condiciones para que el eje aje
 
 E-5 — Saturación expresiva
 
-Entrevista Clínica Ontológica · ECO
 
 Con E-5, el trabajo de Histos necesita crear diferencia genuina en el campo del sujeto — un encuentro con algo que el ego genuino no pueda anticipar, absorber ni controlar. Sin esa diferencia, el acompañamiento no produce nada nuevo: el ego denso convierte todo lo que llega en confirmación de lo que ya existe. El mediador en Histos que trabaja con E-5 necesita tener Anteros propio suficientemente sólido para producir diferencia genuina que no sea absorbida.
 
@@ -566,7 +544,9 @@ E-6 — Aego
 
 Con E-6, el trabajo de Histos requiere evaluación cuidadosa antes de iniciar. E-6 es el límite del sistema: si el efecto diferencial de la voluntad sobre el campo es nulo, el acompañamiento tampoco puede producir efecto diferencial sin antes crear las condiciones para que eso sea posible. Derivar a evaluación clínica en todos los casos de E-6 confirmado con EP-1 antes de iniciar Histos. E-6 con EP-2 o inferior: evaluar con el sujeto si las condiciones de campo pueden modificarse antes de iniciar el proceso.
 
-Notas al Módulo B·II·I
+---
+
+## Notas al Módulo B·II·I
 
 1 La función de modulador transversal del Eje I que establece el fundamento del módulo tiene implicaciones para el orden de administración del Bloque II que el instrumento establece como fijo: el Eje I siempre va primero. Pero tiene también implicaciones retroactivas sobre el Bloque I que el instrumento no puede producir durante la administración — el mediador que encuentra E-4 en el Eje I necesita revisar las señales del Bloque I después de completar el Módulo Eje I, no durante su administración. La revisión retroactiva es parte del proceso de síntesis que ocurre después de las sesiones, no durante.
 
@@ -574,12 +554,8 @@ Notas al Módulo B·II·I
 
 3 El bloque discriminante D·EI·5 (E-3 vs. D-2) tiene la formulación de pregunta más técnica del módulo porque requiere que el sujeto pueda acceder
 
-Entrevista Clínica Ontológica · ECO
 
 a la diferencia entre un querer presente y bloqueado (E-3) y la ausencia del instrumento que producía el querer (D-2). El sujeto en D-2 puede no tener acceso a esa diferencia porque el instrumento que la registraría ya no opera. En esos casos, el mediador no puede producir la discriminación desde esta pregunta: depende de las señales de observación del módulo H y del Eje IV para completar la codificación.
 
 4 La tabla de colectivo del §10 establece preguntas de localización para el ego colectivo en cada estado del Eje I. Estas preguntas son preguntas al ego soberano, no al colectivo como abstracción. La respuesta del ego soberano a cada pregunta es el insumo de localización colectiva — no la respuesta de los miembros en general ni la respuesta de los documentos institucionales, aunque ambas fuentes pueden corroborar o cuestionar lo que el ego soberano produce.
-
-Entrevista Clínica Ontológica · ECO
-
 
