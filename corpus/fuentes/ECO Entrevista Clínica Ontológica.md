@@ -4021,43 +4021,43 @@ SKIP parcial — condición y justificación Condición: el Eje I produjo E-1 co
 
 ### III.  Pregunta ancla
 
-Pregunta ancla MAS — Formulación estándar «¿Hay situaciones en tu vida — contextos, personas, roles — en que te presentas de manera significativamente diferente a como te presentas en otros? No que seas educado aquí y más informal allá: que el "tú" que aparece sea diferente. ¿Puedes describir eso?» [El mediador formula la pregunta y espera. La distinción «no que seas educado aquí y más informal allá» separa la variación tonal normal de M-1 de la adaptación más profunda que puede corresponder a M-2. Lo que el mediador observa: si el sujeto puede describir la diferencia desde la perspectiva del operador (alguien elige qué parte mostrar) o si la describe desde la perspectiva del sujeto que se adapta sin opción (el contexto produce la versión, no el sujeto la elige).]
+> Pregunta ancla MAS — Formulación estándar «¿Hay situaciones en tu vida — contextos, personas, roles — en que te presentas de manera significativamente diferente a como te presentas en otros? No que seas educado aquí y más informal allá: que el "tú" que aparece sea diferente. ¿Puedes describir eso?» [El mediador formula la pregunta y espera. La distinción «no que seas educado aquí y más informal allá» separa la variación tonal normal de M-1 de la adaptación más profunda que puede corresponder a M-2. Lo que el mediador observa: si el sujeto puede describir la diferencia desde la perspectiva del operador (alguien elige qué parte mostrar) o si la describe desde la perspectiva del sujeto que se adapta sin opción (el contexto produce la versión, no el sujeto la elige).]
 
 Variantes por perfil
 
-Variante — Mediador Educativo «¿El "tú" que aparece en el aula con los estudiantes es el mismo que aparece con los colegas en una reunión de equipo? ¿Y el mismo que aparece cuando estás solo? ¿Cómo describes esas diferencias?» [Para el contexto educativo, la triada aula/colegas/soledad produce información diagnóstica sobre tres niveles de adaptación distintos. El mediador observa si hay un hilo
-
-Entrevista Clínica Ontológica · ECO
-
-consistente que atraviesa los tres contextos (M-1) o si las versiones son lo suficientemente distintas como para que no haya hilo identificable (M-2).]
-
-Variante — Mediador Estructural «En el período que estamos analizando, ¿la manera en que se presentaba este actor ante los distintos interlocutores — superiores, pares, subordinados, reguladores — era coherente o había diferencias significativas entre versiones? ¿Quién elegía qué versión mostrar?» [Esta variante orienta la pregunta hacia el análisis de responsabilidad. La ausencia de operador en la presentación (M-2) tiene consecuencias para la estimación de α: si el actor presentaba versiones producidas por el campo sin operador, la asunción de los actos en cada contexto puede ser menor de lo que la evidencia documental sugiere.]
+> Variante — Mediador Educativo «¿El "tú" que aparece en el aula con los estudiantes es el mismo que aparece con los colegas en una reunión de equipo? ¿Y el mismo que aparece cuando estás solo? ¿Cómo describes esas diferencias?» [Para el contexto educativo, la triada aula/colegas/soledad produce información diagnóstica sobre tres niveles de adaptación distintos. El mediador observa si hay un hilo
+>
+>
+> consistente que atraviesa los tres contextos (M-1) o si las versiones son lo suficientemente distintas como para que no haya hilo identificable (M-2).]
+>
+> Variante — Mediador Estructural «En el período que estamos analizando, ¿la manera en que se presentaba este actor ante los distintos interlocutores — superiores, pares, subordinados, reguladores — era coherente o había diferencias significativas entre versiones? ¿Quién elegía qué versión mostrar?» [Esta variante orienta la pregunta hacia el análisis de responsabilidad. La ausencia de operador en la presentación (M-2) tiene consecuencias para la estimación de α: si el actor presentaba versiones producidas por el campo sin operador, la asunción de los actos en cada contexto puede ser menor de lo que la evidencia documental sugiere.]
 
 ### IV.  Preguntas de sondeo
 
-Sondeo MAS·1 — El operador «Esa diferencia que describes entre cómo te presentas en distintos contextos — ¿la eliges, o simplemente ocurre?» [La pregunta más directa del módulo. Lo que el mediador observa: si el sujeto puede identificar el operador de la adaptación. M-1: «la elijo, aunque a veces no conscientemente». M-2: «simplemente ocurre, el contexto produce la versión». La respuesta de M-2 con frecuencia viene con resignación o con la descripción de algo automático. El mediador también observa si el sujeto produce incomodidad ante la pregunta — esa incomodidad puede ser D-1 activo frente a M-2.]
+> Sondeo MAS·1 — El operador «Esa diferencia que describes entre cómo te presentas en distintos contextos — ¿la eliges, o simplemente ocurre?» [La pregunta más directa del módulo. Lo que el mediador observa: si el sujeto puede identificar el operador de la adaptación. M-1: «la elijo, aunque a veces no conscientemente». M-2: «simplemente ocurre, el contexto produce la versión». La respuesta de M-2 con frecuencia viene con resignación o con la descripción de algo automático. El mediador también observa si el sujeto produce incomodidad ante la pregunta — esa incomodidad puede ser D-1 activo frente a M-2.]
 
-Sondeo MAS·2 — La consistencia del eje «¿Hay algo que se mantiene igual en todas esas presentaciones — algo que puedas identificar como tuyo independientemente del contexto? Algo que estaría ahí, aunque el contexto cambiara.» [Lo que el mediador observa: si el sujeto puede identificar el eje que atraviesa todos los contextos. M-1: puede identificarlo con cierta especificidad — algo que es suyo independientemente de la presentación. M-2: no puede identificarlo, o lo que identifica es tan general («soy honesto», «me importan las personas») que no permite distinguir nada específico del sujeto. Si el sujeto puede nombrarlo, pero con dificultad y con la impresión
+> Sondeo MAS·2 — La consistencia del eje «¿Hay algo que se mantiene igual en todas esas presentaciones — algo que puedas identificar como tuyo independientemente del contexto? Algo que estaría ahí, aunque el contexto cambiara.» [Lo que el mediador observa: si el sujeto puede identificar el eje que atraviesa todos los contextos. M-1: puede identificarlo con cierta especificidad — algo que es suyo independientemente de la presentación. M-2: no puede identificarlo, o lo que identifica es tan general («soy honesto», «me importan las personas») que no permite distinguir nada específico del sujeto. Si el sujeto puede nombrarlo, pero con dificultad y con la impresión
+>
+>
+> de que lo está construyendo en ese momento, puede estar en D-1 activo con M-2: el ego genuino todavía tiene acceso parcial, pero está oculto bajo la máscara.]
 
-Entrevista Clínica Ontológica · ECO
+> Sondeo MAS·3 — La incomodidad de la máscara «¿Hay contextos en que la manera en que te presentas te resulta incómoda — como si lo que muestras no fuera exactamente lo que eres? No que estés mintiendo: que haya algo que no encaja.» [Pregunta diagnóstica para D-1 con M-2. Lo que el mediador observa: si el sujeto puede identificar la incomodidad que produce la máscara. Si hay incomodidad, es señal de que el ego genuino sigue produciendo señal (D-1) aunque no pueda modificar la presentación (M-2). Si no hay incomodidad y el sujeto describe todas sus presentaciones como naturales, puede ser M-1 (la adaptación genuina no produce incomodidad porque viene del eje propio) o D-2 con M-2 (la incomodidad ya no puede registrarse porque el instrumento se apagó). El mediador debe haber evaluado el Eje IV para distinguir los dos.]
 
-de que lo está construyendo en ese momento, puede estar en D-1 activo con M-2: el ego genuino todavía tiene acceso parcial, pero está oculto bajo la máscara.]
+> Sondeo MAS·4 — La inversión «¿Ha habido algún momento en que sentiste que la versión que muestras en un contexto empezó a actuar como si fuera la principal — como si el rol o la imagen terminara siendo más real que tú?» [Pregunta sobre la inversión que define la impostura: el momento en que la máscara empieza a usar al sujeto en lugar de que el sujeto use la máscara. Lo que el mediador observa: si el sujeto puede identificar ese momento de inversión con reconocimiento genuino. Si lo identifica con sorpresa o incomodidad, es señal de D-1 con M-2 — el ego genuino todavía registra la brecha. Si lo describe como normal o sin ninguna temperatura interna, puede ser D-2 con M-2.]
 
-Sondeo MAS·3 — La incomodidad de la máscara «¿Hay contextos en que la manera en que te presentas te resulta incómoda — como si lo que muestras no fuera exactamente lo que eres? No que estés mintiendo: que haya algo que no encaja.» [Pregunta diagnóstica para D-1 con M-2. Lo que el mediador observa: si el sujeto puede identificar la incomodidad que produce la máscara. Si hay incomodidad, es señal de que el ego genuino sigue produciendo señal (D-1) aunque no pueda modificar la presentación (M-2). Si no hay incomodidad y el sujeto describe todas sus presentaciones como naturales, puede ser M-1 (la adaptación genuina no produce incomodidad porque viene del eje propio) o D-2 con M-2 (la incomodidad ya no puede registrarse porque el instrumento se apagó). El mediador debe haber evaluado el Eje IV para distinguir los dos.]
+> Sondeo MAS·5 — La norma del campo «¿Sientes que la manera en que te presentas en tu entorno principal — trabajo, familia, comunidad — es algo que elegiste, o es simplemente cómo las cosas se hacen ahí, la norma del campo?» [Pregunta discriminante para M-3. Lo que el mediador observa: si el sujeto puede distinguir entre su elección individual y la norma del campo, o si la norma del campo es el horizonte dentro del cual toda elección ocurre sin que pueda ser cuestionada. M-3: el sujeto no puede imaginar fácilmente presentarse de manera diferente en ese contexto sin perder pertenencia. M-1: el sujeto puede imaginar —aunque sea con incomodidad— una presentación diferente dentro del mismo campo.]
+>
+> ### Entrevista Clínica Ontológica · ECO
 
-Sondeo MAS·4 — La inversión «¿Ha habido algún momento en que sentiste que la versión que muestras en un contexto empezó a actuar como si fuera la principal — como si el rol o la imagen terminara siendo más real que tú?» [Pregunta sobre la inversión que define la impostura: el momento en que la máscara empieza a usar al sujeto en lugar de que el sujeto use la máscara. Lo que el mediador observa: si el sujeto puede identificar ese momento de inversión con reconocimiento genuino. Si lo identifica con sorpresa o incomodidad, es señal de D-1 con M-2 — el ego genuino todavía registra la brecha. Si lo describe como normal o sin ninguna temperatura interna, puede ser D-2 con M-2.]
-
-Sondeo MAS·5 — La norma del campo «¿Sientes que la manera en que te presentas en tu entorno principal — trabajo, familia, comunidad — es algo que elegiste, o es simplemente cómo las cosas se hacen ahí, la norma del campo?» [Pregunta discriminante para M-3. Lo que el mediador observa: si el sujeto puede distinguir entre su elección individual y la norma del campo, o si la norma del campo es el horizonte dentro del cual toda elección ocurre sin que pueda ser cuestionada. M-3: el sujeto no puede imaginar fácilmente presentarse de manera diferente en ese contexto sin perder pertenencia. M-1: el sujeto puede imaginar —aunque sea con incomodidad— una presentación diferente dentro del mismo campo.]
-
-### Entrevista Clínica Ontológica · ECO
-
-Sondeo MAS·6 — La presentación en esta sesión «En esta conversación conmigo, ¿estás mostrando la versión de ti que elegirías mostrar si pudieras elegir libremente, o hay algo que estás ajustando al contexto de la sesión?» [Esta pregunta puede producir EP-1 directamente. Lo que el mediador observa: si el sujeto puede producir una descripción de la elección que hace en la sesión misma. M-1: puede describir qué está eligiendo mostrar y qué no con alguna especificidad. M-2: no puede distinguir entre lo que muestra y lo que elegiría mostrar, o la distinción produce incomodidad visible. La honestidad de la respuesta también es información: el sujeto que puede decir «sí, estoy mostrando una versión cuidada» está mostrando capacidad de autobservación que orienta hacia M-1.]
-
-La instrucción para los sondeos del Módulo Eje II es diferente a la de los módulos del Bloque I: el mediador puede compartir observaciones propias sobre lo que percibe de la presentación del sujeto en la sesión, con cuidado y sin interpretación. «Noto que cuando hablas de X tu tono cambia» o «parece que hay algo que no estás nombrando, aunque está presente» son observaciones que el mediador puede compartir —no como interpretaciones sino como observaciones— y que pueden activar señales de M-1 (el sujeto confirma o corrige con criterio propio) o de M-2 (el sujeto acepta la observación sin proceso visible o la rechaza con cierre inmediato).
+> Sondeo MAS·6 — La presentación en esta sesión «En esta conversación conmigo, ¿estás mostrando la versión de ti que elegirías mostrar si pudieras elegir libremente, o hay algo que estás ajustando al contexto de la sesión?» [Esta pregunta puede producir EP-1 directamente. Lo que el mediador observa: si el sujeto puede producir una descripción de la elección que hace en la sesión misma. M-1: puede describir qué está eligiendo mostrar y qué no con alguna especificidad. M-2: no puede distinguir entre lo que muestra y lo que elegiría mostrar, o la distinción produce incomodidad visible. La honestidad de la respuesta también es información: el sujeto que puede decir «sí, estoy mostrando una versión cuidada» está mostrando capacidad de autobservación que orienta hacia M-1.]
+>
+> La instrucción para los sondeos del Módulo Eje II es diferente a la de los módulos del Bloque I: el mediador puede compartir observaciones propias sobre lo que percibe de la presentación del sujeto en la sesión, con cuidado y sin interpretación. «Noto que cuando hablas de X tu tono cambia» o «parece que hay algo que no estás nombrando, aunque está presente» son observaciones que el mediador puede compartir —no como interpretaciones sino como observaciones— y que pueden activar señales de M-1 (el sujeto confirma o corrige con criterio propio) o de M-2 (el sujeto acepta la observación sin proceso visible o la rechaza con cierre inmediato).
 
 ### V.  Señales de observación directa
 
-Código Señal observable en sesión
+<!-- TABLA: códigos M-1 a M-3 | columnas: código, definición, firma en presencia, señal EP y criterio -->
+
+
 
 Señal en narrativa Error de lectura frecuente
 
@@ -4099,31 +4099,29 @@ Entrevista Clínica Ontológica · ECO
 
 ### VI.  Árbol de decisión interno del módulo
 
-NODO MAS·0 — ¿Se aplica el SKIP parcial?
+> **NODO MAS·0 — ¿Se aplica el SKIP parcial?**
+>
+> SÍ (E-1 con EP-1 + coherencia contextual en apertura) → Administrar solo pregunta ancla. Si no hay señal → M-1 tentativo EP-3. NO → Administrar pregunta ancla completa. ↓
 
-SÍ (E-1 con EP-1 + coherencia contextual en apertura) → Administrar solo pregunta ancla. Si no hay señal → M-1 tentativo EP-3. NO → Administrar pregunta ancla completa. ↓
+> **NODO MAS·1 — ¿La pregunta ancla produjo señal de adaptación contextual significativa?**
+>
+> NO (el sujeto describe coherencia entre contextos, puede identificar hilo) → M-1 probable. Administrar MAS·1 para confirmar. Si confirma → M-1 · EP-2 o EP-3. SÍ → ¿El sujeto puede identificar el operador de la adaptación? ↓
 
-NODO MAS·1 — ¿La pregunta ancla produjo señal de adaptación contextual significativa?
+> **NODO MAS·2 — Sondeo MAS·1: ¿el sujeto puede identificar el operador — alguien que elige qué parte mostrar?**
+>
+> SÍ (puede describir la elección, aunque no siempre sea consciente) → M-1 orientación. Administrar MAS·2 y MAS·6 para confirmar con señal en sesión. NO (la adaptación ocurre, no se elige) → M-2 orientación. ¿La adaptación es individual o es norma del campo? ↓
 
-NO (el sujeto describe coherencia entre contextos, puede identificar hilo) → M-1 probable. Administrar MAS·1 para confirmar. Si confirma → M-1 · EP-2 o EP-3. SÍ → ¿El sujeto puede identificar el operador de la adaptación? ↓
+> **NODO MAS·3 — Sondeo MAS·5: ¿la adaptación es elección individual o norma del campo (M-3)?**
+>
+> Norma del campo (no puede imaginar alternativa sin perder pertenencia) → M-3 orientación. Administrar pregunta discriminante M-2/M-3 de §7. Adaptación individual sin operador → M-2 orientación. ¿Hay incomodidad residual (D-1)? ↓
 
-NODO MAS·2 — Sondeo MAS·1: ¿el sujeto puede identificar el operador — alguien que elige qué parte mostrar?
+> **NODO MAS·4 — Sondeo MAS·3: ¿hay incomodidad residual ante la presentación — señal de que el ego genuino sigue produciendo señal?**
+>
+> SÍ (incomodidad identificable ante la máscara) → M-2 con D-1 activo. Registrar nota de coexistencia Eje II/Eje IV. NO (ninguna incomodidad identificable) → M-2 con posible D-2. Verificar con Eje IV. Administrar pregunta discriminante M-1/M-2 de §7. ↓
 
-SÍ (puede describir la elección, aunque no siempre sea consciente) → M-1 orientación. Administrar MAS·2 y MAS·6 para confirmar con señal en sesión. NO (la adaptación ocurre, no se elige) → M-2 orientación. ¿La adaptación es individual o es norma del campo? ↓
-
-NODO MAS·3 — Sondeo MAS·5: ¿la adaptación es elección individual o norma del campo (M-3)?
-
-Norma del campo (no puede imaginar alternativa sin perder pertenencia) → M-3 orientación. Administrar pregunta discriminante M-2/M-3 de §7. Adaptación individual sin operador → M-2 orientación. ¿Hay incomodidad residual (D-1)? ↓
-
-NODO MAS·4 — Sondeo MAS·3: ¿hay incomodidad residual ante la presentación — señal de que el ego genuino sigue produciendo señal?
-
-SÍ (incomodidad identificable ante la máscara) → M-2 con D-1 activo. Registrar nota de coexistencia Eje II/Eje IV. NO (ninguna incomodidad identificable) → M-2 con posible D-2. Verificar con Eje IV. Administrar pregunta discriminante M-1/M-2 de §7. ↓
-
-NODO MAS·5 — ¿Hay señal EP-1 de M-1 o M-2 en la relación directa con el mediador en sesión (Sondeo MAS·6)?
-
-Entrevista Clínica Ontológica · ECO
-
-SÍ EP-1 M-1 (puede describir la elección en sesión, tiene posición sobre su propia adaptación) → Confirmar M-1 · EP-1. SÍ EP-1 M-2 (no puede producir diferencia entre lo que muestra y lo que elegiría mostrar, observable en sesión) → Confirmar M-2 · EP-1. NO (ninguna señal directa en sesión) → Usar EP-2 o EP-3 según coherencia narrativa. ↓
+> **NODO MAS·5 — ¿Hay señal EP-1 de M-1 o M-2 en la relación directa con el mediador en sesión (Sondeo MAS·6)?**
+>
+> SÍ EP-1 M-1 (puede describir la elección en sesión, tiene posición sobre su propia adaptación) → Confirmar M-1 · EP-1. SÍ EP-1 M-2 (no puede producir diferencia entre lo que muestra y lo que elegiría mostrar, observable en sesión) → Confirmar M-2 · EP-1. NO (ninguna señal directa en sesión) → Usar EP-2 o EP-3 según coherencia narrativa. ↓
 
 SALIDA — Código Eje II (M-1 / M-2 / M-3) + Nivel EP + Nota D-1/D-2 si M-2 → Continuar a Módulo Eje III
 
@@ -4187,51 +4185,47 @@ La confusión más frecuente — M-3 vs. cultura organizacional genuina
 
 La cultura organizacional genuina produce coherencia de presentación desde un eje colectivo que tiene historia y proceso: el colectivo puede describir por qué se presenta como se presenta, con referencia a criterios que puede identificar como suyos. La mascarada institucional produce coherencia de presentación desde la norma invisible: el colectivo no puede describir por qué se presenta como se presenta más allá de «así son las cosas aquí». La pregunta discriminante para el ego colectivo: ¿puede el colectivo — a través de su ego soberano o de sus miembros más articulados — describir el criterio desde el que elige su presentación institucional? Si puede: M-1 colectivo. Si no puede: M-3.
 
-Pregunta ancla — Ego colectivo (Eje II) «¿Hay diferencia entre cómo esta organización se presenta al exterior y cómo opera internamente? ¿Y hay alguien que pueda describir el criterio que orienta ambas presentaciones?» [El mediador busca la señal del operador colectivo: quién o qué orienta la presentación del colectivo en distintos contextos. En M-1 colectivo, hay criterio identificable detrás de la presentación diferenciada. En M-3, la presentación se produce sola desde la norma invisible y nadie puede describir el criterio porque el criterio es la norma misma.]
-
-Para el Mediador Organizacional, la localización de M-3 en el ego colectivo tiene consecuencias directas para el análisis preventivo del Método Prometeo: un colectivo en M-3 tiene IIC bajo (la congruencia institucional está comprometida porque lo que el colectivo presenta hacia afuera no corresponde a lo que opera internamente) y eso afecta la estimación de R* para los actores dentro del colectivo — los actos producidos desde M-3 tienen S más
-
-Entrevista Clínica Ontológica · ECO
-
-alto porque el código de presentación que reemplazó al ego condiciona el φ₁ de manera significativa.
-
-### XI.  Principios de intervención para este hallazgo
-
-Lo que el mediador no hace
-
-El error de intervención más frecuente con M-2 es nombrar la impostura directamente al sujeto durante la sesión. «Estás usando una máscara», «eso que describes es impostura», «no estás siendo tú mismo» — todas esas formulaciones son intervenciones que activan la egolatría propia del sujeto (la imagen de sí mismo como alguien que no usa máscaras) o producen colapso ante el diagnóstico. Ni la activación de la egolatría ni el colapso producen condiciones para que el ego genuino emerja: ambos producen nuevas capas de adaptación.
-
-El segundo error es tratar M-3 como si fuera M-2 individual: intervenirla como si el sujeto individual hubiera elegido la máscara y pudiera soltarla con la intervención correcta. M-3 es una condición del campo, no del individuo. La intervención sobre M-3 requiere intervención sobre el campo, no sobre el individuo que opera dentro de él. El mediador que interviene sobre el individuo dentro de M-3 como si fuera M-2 produce mejoras temporales que el campo absorbe y reestablece.
-
-Lo que el mediador sí hace
-
-El mediador crea las condiciones para que el ego genuino tenga espacio de expresión dentro de la sesión — sin nombrar lo que está creando. La pregunta «¿hay algo que no has dicho en esta sesión que querrías decir?» no es una técnica de extracción de información: es una apertura para que el ego genuino que opera bajo M-2 pueda producir algo sin que la máscara lo anticipe. El mediador que puede crear ese espacio y sostenerlo el tiempo suficiente puede ver, a veces, el ego genuino asomarse brevemente. Esos momentos son la señal diagnóstica más valiosa del módulo.
-
-Entrevista Clínica Ontológica · ECO
-
-Cuándo M-2 requiere Histos urgente
-
-M-2 con D-1 activo —el sujeto en impostura que todavía registra la incomodidad de la brecha— orienta la derivación a Histos con la nota de que el ego genuino está produciendo señal, aunque no pueda manifestarse en el campo. El trabajo de Histos tiene material con el que trabajar: hay señal que puede amplificarse. M-2 con D-2 —la impostura sin señal de incomodidad— es la configuración que requiere mayor atención antes de iniciar Histos: sin señal activa del ego genuino, el trabajo de Histos no tiene punto de apoyo. El mediador debe crear condiciones para la reactivación de la señal (lo que el Eje IV orientará) antes de iniciar el proceso de acompañamiento en profundidad.
-
-Condición de derivación a Histos desde M-2 M-2 confirmado con EP-1 + Eje IV evaluado (D-1 o D-2 identificado) + resto del Bloque II completo. La derivación incluye nota sobre si M-2 coexiste con D-1 (hay señal activa que trabajar) o con D-2 (la reactivación de la señal es el primer objetivo). Sin el código del Eje IV, la derivación desde M-2 no puede orientar correctamente el inicio del trabajo de Histos.
-
-Notas al Módulo B·II·II
-
-1 La relación entre M-2 y la disforia de identidad que el Manual Clínico describe es directa: la disforia de identidad es el estado del sujeto que opera desde una suma fáctica que actúa como si fuera él. Esa suma fáctica que actúa en nombre del sujeto es exactamente lo que M-2 describe en el nivel de la presentación: el código que reemplazó al ego opera en el campo relacional en nombre del sujeto. La distinción entre disforia activa (D-1) y disforia pasiva (D-2) es la misma distinción que en el Eje II se aplica como M-2 con D-1 vs. M-2 con D-2.
-
-2 La regla de no nombrar la impostura directamente al sujeto durante la sesión tiene una excepción importante: cuando el sujeto mismo la nombra. El sujeto que dice «sé que estoy usando una máscara» o «siento que no soy yo en ese contexto» está nombrando M-2 desde adentro — desde la señal de D-1 que todavía opera. En ese caso el mediador puede trabajar directamente con ese nombramiento, sin añadir ningún diagnóstico adicional: el sujeto ya tiene acceso a la señal y el mediador puede acompañar esa señal sin amplificarla ni suprimirla.
-
-3 La distinción entre M-3 y cultura organizacional genuina que se desarrolla en §10 tiene implicaciones para el Mediador Modelador que analiza fenómenos
-
-Entrevista Clínica Ontológica · ECO
-
-culturales, políticos o históricos. Las instituciones que el Mediador Modelador analiza operan frecuentemente en M-3 sin que sus actores lo reconozcan — la norma invisible es precisamente lo que hace invisibles los actos que esa norma produce. El análisis ontológico que el Mediador Modelador realiza puede revelar M-3 donde el análisis convencional veía cultura o tradición. Esa revelación tiene consecuencias para la estimación de S de los actores que operan dentro del campo M-3: sus actos tienen mayor S porque el código del campo condiciona φ₁ de manera más intensa de lo que la narrativa institucional reconoce.
-
-4 La coexistencia M-2/M-3 que el módulo establece como codificación posible tiene una implicación práctica para el análisis del ego colectivo: un sujeto puede estar en M-2 individual dentro de un campo en M-3, o puede estar en M-1 dentro de ese mismo campo. La presencia de M-3 en el colectivo no implica que todos los miembros estén en M-2: hay sujetos que pueden ver la norma desde afuera, aunque operen dentro de ella. Esos sujetos — los que están en M-1 dentro de un campo M-3 — son con frecuencia los portadores de la capacidad de cambio del colectivo, porque pueden imaginar alternativas que los sujetos en M-2 dentro de M-3 no pueden imaginar.
-
-Entrevista Clínica Ontológica · ECO
-
-BLOQUE II · Los cinco ejes del SDO
+> Pregunta ancla — Ego colectivo (Eje II) «¿Hay diferencia entre cómo esta organización se presenta al exterior y cómo opera internamente? ¿Y hay alguien que pueda describir el criterio que orienta ambas presentaciones?» [El mediador busca la señal del operador colectivo: quién o qué orienta la presentación del colectivo en distintos contextos. En M-1 colectivo, hay criterio identificable detrás de la presentación diferenciada. En M-3, la presentación se produce sola desde la norma invisible y nadie puede describir el criterio porque el criterio es la norma misma.]
+>
+> Para el Mediador Organizacional, la localización de M-3 en el ego colectivo tiene consecuencias directas para el análisis preventivo del Método Prometeo: un colectivo en M-3 tiene IIC bajo (la congruencia institucional está comprometida porque lo que el colectivo presenta hacia afuera no corresponde a lo que opera internamente) y eso afecta la estimación de R* para los actores dentro del colectivo — los actos producidos desde M-3 tienen S más
+>
+>
+> alto porque el código de presentación que reemplazó al ego condiciona el φ₁ de manera significativa.
+>
+> ### XI.  Principios de intervención para este hallazgo
+>
+> Lo que el mediador no hace
+>
+> El error de intervención más frecuente con M-2 es nombrar la impostura directamente al sujeto durante la sesión. «Estás usando una máscara», «eso que describes es impostura», «no estás siendo tú mismo» — todas esas formulaciones son intervenciones que activan la egolatría propia del sujeto (la imagen de sí mismo como alguien que no usa máscaras) o producen colapso ante el diagnóstico. Ni la activación de la egolatría ni el colapso producen condiciones para que el ego genuino emerja: ambos producen nuevas capas de adaptación.
+>
+> El segundo error es tratar M-3 como si fuera M-2 individual: intervenirla como si el sujeto individual hubiera elegido la máscara y pudiera soltarla con la intervención correcta. M-3 es una condición del campo, no del individuo. La intervención sobre M-3 requiere intervención sobre el campo, no sobre el individuo que opera dentro de él. El mediador que interviene sobre el individuo dentro de M-3 como si fuera M-2 produce mejoras temporales que el campo absorbe y reestablece.
+>
+> Lo que el mediador sí hace
+>
+> El mediador crea las condiciones para que el ego genuino tenga espacio de expresión dentro de la sesión — sin nombrar lo que está creando. La pregunta «¿hay algo que no has dicho en esta sesión que querrías decir?» no es una técnica de extracción de información: es una apertura para que el ego genuino que opera bajo M-2 pueda producir algo sin que la máscara lo anticipe. El mediador que puede crear ese espacio y sostenerlo el tiempo suficiente puede ver, a veces, el ego genuino asomarse brevemente. Esos momentos son la señal diagnóstica más valiosa del módulo.
+>
+>
+> Cuándo M-2 requiere Histos urgente
+>
+> M-2 con D-1 activo —el sujeto en impostura que todavía registra la incomodidad de la brecha— orienta la derivación a Histos con la nota de que el ego genuino está produciendo señal, aunque no pueda manifestarse en el campo. El trabajo de Histos tiene material con el que trabajar: hay señal que puede amplificarse. M-2 con D-2 —la impostura sin señal de incomodidad— es la configuración que requiere mayor atención antes de iniciar Histos: sin señal activa del ego genuino, el trabajo de Histos no tiene punto de apoyo. El mediador debe crear condiciones para la reactivación de la señal (lo que el Eje IV orientará) antes de iniciar el proceso de acompañamiento en profundidad.
+>
+> > Condición de derivación a Histos desde M-2 M-2 confirmado con EP-1 + Eje IV evaluado (D-1 o D-2 identificado) + resto del Bloque II completo. La derivación incluye nota sobre si M-2 coexiste con D-1 (hay señal activa que trabajar) o con D-2 (la reactivación de la señal es el primer objetivo). Sin el código del Eje IV, la derivación desde M-2 no puede orientar correctamente el inicio del trabajo de Histos.
+> >
+> > Notas al Módulo B·II·II
+> >
+> > 1 La relación entre M-2 y la disforia de identidad que el Manual Clínico describe es directa: la disforia de identidad es el estado del sujeto que opera desde una suma fáctica que actúa como si fuera él. Esa suma fáctica que actúa en nombre del sujeto es exactamente lo que M-2 describe en el nivel de la presentación: el código que reemplazó al ego opera en el campo relacional en nombre del sujeto. La distinción entre disforia activa (D-1) y disforia pasiva (D-2) es la misma distinción que en el Eje II se aplica como M-2 con D-1 vs. M-2 con D-2.
+> >
+> > 2 La regla de no nombrar la impostura directamente al sujeto durante la sesión tiene una excepción importante: cuando el sujeto mismo la nombra. El sujeto que dice «sé que estoy usando una máscara» o «siento que no soy yo en ese contexto» está nombrando M-2 desde adentro — desde la señal de D-1 que todavía opera. En ese caso el mediador puede trabajar directamente con ese nombramiento, sin añadir ningún diagnóstico adicional: el sujeto ya tiene acceso a la señal y el mediador puede acompañar esa señal sin amplificarla ni suprimirla.
+> >
+> > 3 La distinción entre M-3 y cultura organizacional genuina que se desarrolla en §10 tiene implicaciones para el Mediador Modelador que analiza fenómenos
+> >
+> >
+> > culturales, políticos o históricos. Las instituciones que el Mediador Modelador analiza operan frecuentemente en M-3 sin que sus actores lo reconozcan — la norma invisible es precisamente lo que hace invisibles los actos que esa norma produce. El análisis ontológico que el Mediador Modelador realiza puede revelar M-3 donde el análisis convencional veía cultura o tradición. Esa revelación tiene consecuencias para la estimación de S de los actores que operan dentro del campo M-3: sus actos tienen mayor S porque el código del campo condiciona φ₁ de manera más intensa de lo que la narrativa institucional reconoce.
+> >
+> > 4 La coexistencia M-2/M-3 que el módulo establece como codificación posible tiene una implicación práctica para el análisis del ego colectivo: un sujeto puede estar en M-2 individual dentro de un campo en M-3, o puede estar en M-1 dentro de ese mismo campo. La presencia de M-3 en el colectivo no implica que todos los miembros estén en M-2: hay sujetos que pueden ver la norma desde afuera, aunque operen dentro de ella. Esos sujetos — los que están en M-1 dentro de un campo M-3 — son con frecuencia los portadores de la capacidad de cambio del colectivo, porque pueden imaginar alternativas que los sujetos en M-2 dentro de M-3 no pueden imaginar.
+> >
+> >
+> > BLOQUE II · Los cinco ejes del SDO
 
 ### B·II·III ·  MÓDULO EJE III — VÍNCULO
 
