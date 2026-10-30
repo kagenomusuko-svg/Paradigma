@@ -1230,11 +1230,11 @@ muestra E-4 (el eje colapsa ante el cuestionamiento del Otro). En ese caso, ECO 
 
 ### Tabla de integración componente por componente
 
+<!-- TABLA: integración por componente | columnas: componente, fuente primaria, fuente de corroboración, acción ante contradicción -->
+
 Para cada componente del instrumento: fuente primaria, fuente de corroboración, y acción cuando hay contradicción.
 
-Componente Fuente primaria Fuente de corroboración
-
-En caso de contradicción
+<!-- TABLA: cruce ECO ↔ U·1 | columnas: componente, fuente primaria, fuente de corroboración, acción ante contradicción -->
 
 P(Hijos) — distribución de los seis Hijos
 
@@ -1310,7 +1310,7 @@ instrumentos localizan dimensiones distintas del mismo vector. Posible complemen
 
 ### Causas frecuentes de contradicción entre U·1 y ECO
 
-Causa Descripción Acción
+<!-- TABLA: causas de contradicción | columnas: causa, descripción, acción -->
 
 Temporalidad El árbol documental localiza un período anterior y ECO localiza el momento presente. Las diferencias entre los dos pueden reflejar cambio genuino en la configuración del ego entre los dos períodos.
 
