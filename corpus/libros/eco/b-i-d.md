@@ -1,6 +1,7 @@
-B·I·D · MÓDULO DEIMOS
+# B·I·D · MÓDULO DEIMOS
+## La voluntad que se paraliza ante la simetría
 
-La voluntad que se paraliza ante la simetría Localización del Hijo de la parálisis ante la multiplicidad equivalente
+*Localización del Hijo de la parálisis ante la multiplicidad equivalente*
 
 ### I.  Fundamento ontológico del Hijo
 
@@ -10,7 +11,6 @@ La distinción ontológica entre Deimos y Fobos es la más importante del Bloque
 
 La firma de Deimos es inversa a la de Fobos. Donde Fobos grita — el expediente lleno de comunicaciones urgentes, la sesión con
 
-Entrevista Clínica Ontológica · ECO
 
 urgencia en el tono— Deimos calla. El expediente de Deimos está vacío donde debería haber registro: respuestas de una línea ante asuntos que requerían desarrollo, acuerdos sin fecha ni responsable, reportes planos ante situaciones que claramente producían variación. En sesión, Deimos produce el mismo silencio: el sujeto que responde con monosílabos, que devuelve la pregunta al mediador, que no puede identificar una preferencia genuina cuando el mediador la pide directamente.
 
@@ -24,7 +24,6 @@ Eso tiene una consecuencia importante para el trabajo del mediador: señalarle a
 
 Lo que Deimos localiza — con precisión técnica La posición de v_t desde la cual la voluntad no puede orientar el colapso porque las opciones son equivalentes para ese sujeto en ese momento. Deimos no produce omisión deliberada: produce incapacidad de elección. La omisión que produce Deimos no tiene intención: tiene estructura. Y esa distinción es la que el Método Prometeo necesita para estimar correctamente S y α.
 
-Entrevista Clínica Ontológica · ECO
 
 Por qué Deimos es el segundo módulo del Bloque I
 
@@ -40,7 +39,6 @@ Regla SKIP parcial — cuándo reducir el módulo
 
 SKIP parcial — condición y justificación Condición: el Eje I de una sesión anterior orienta claramente hacia E-1 con EP-1 o EP-2 (ego genuino activo con criterio propio identificable), Y la apertura narrativa de esta sesión no produjo ninguna señal de parálisis, ausencia de dirección o respuesta mínima. Acción: reducir el módulo a las Preguntas de sondeo D·1 y D·3 únicamente. Si alguna
 
-Entrevista Clínica Ontológica · ECO
 
 de las dos produce señal, administrar el módulo completo. Si no producen señal, registrar EP-0, código H-1, y continuar al Módulo Anteros. Justificación ontológica: Deimos requiere que la voluntad no pueda orientarse hacia ninguna opción sobre las demás. E-1 confirmado con EP-1 o EP-2 indica que el ego genuino opera desde criterio propio —lo que es estructuralmente incompatible con la simetría paralizante de Deimos como Hijo dominante. Administrar el módulo completo en esas condiciones consume tiempo sin probabilidad razonable de producir señal diagnóstica relevante. El SKIP parcial verifica antes de concluir la ausencia: las dos preguntas de sondeo son las más directas del módulo y las que tienen mayor probabilidad de producir señal si existe alguna.
 
@@ -50,47 +48,43 @@ El SKIP parcial reduce, pero no elimina la evaluación. El mediador que aplica S
 
 La pregunta ancla de este módulo está diseñada para acceder a la experiencia de parálisis ante la simetría sin nombrarla ni sugerirla. La formulación evita palabras como «parálisis», «bloqueo» o «indecisión» que podrían hacer que el sujeto produzca la narrativa socialmente esperada en lugar de la genuina.
 
-> Pregunta ancla D — Formulación estándar «¿Hay decisiones que llevas tiempo sin poder tomar — no porque estés esperando información que te falta, sino porque ninguna opción termina de imponerse sobre las demás?» [El mediador formula la pregunta y espera. La distinción «no porque te falte información» es fundamental: separa Deimos (la simetría de opciones) de E-3 (el bloqueo de φ₂) y de la postergación deliberada por información pendiente. Si el sujeto responde que ya tomó esa decisión, el mediador pregunta: «¿Y antes de tomarla, cómo viviste ese período en que todavía no la habías tomado?» Si el sujeto dice que no hay ninguna decisión pendiente, el mediador espera 15 segundos antes de pasar al Sondeo D·1.]
+Pregunta ancla D — Formulación estándar «¿Hay decisiones que llevas tiempo sin poder tomar — no porque estés esperando información que te falta, sino porque ninguna opción termina de imponerse sobre las demás?» [El mediador formula la pregunta y espera. La distinción «no porque te falte información» es fundamental: separa Deimos (la simetría de opciones) de E-3 (el bloqueo de φ₂) y de la postergación deliberada por información pendiente. Si el sujeto responde que ya tomó esa decisión, el mediador pregunta: «¿Y antes de tomarla, cómo viviste ese período en que todavía no la habías tomado?» Si el sujeto dice que no hay ninguna decisión pendiente, el mediador espera 15 segundos antes de pasar al Sondeo D·1.]
 
 Variantes por perfil de mediador
 
-Entrevista Clínica Ontológica · ECO
 
-> Variante — Mediador Educativo (contexto escolar) «¿Hay momentos en que los estudiantes o las situaciones del aula te presentan opciones que se sienten todas igual de posibles o de imposibles, y no sabes hacia dónde ir primero?» [Esta variante orienta la pregunta hacia el contexto educativo y hacia la experiencia de opciones equivalentes en el trabajo docente. El mediador adapta si trabaja con estudiantes en lugar de docentes: «¿Hay decisiones sobre tu trabajo o tu futuro que sientes que todas valen lo mismo y no puedes elegir?»]
->
-> Variante — Mediador Estructural (análisis de responsabilidad) «En el período que estamos analizando, ¿hubo decisiones que debían tomarse y que quedaron sin tomarse — no porque hubiera una razón explícita para no tomarlas, sino porque simplemente no se tomaron?» [Esta variante orienta la pregunta hacia las omisiones que el análisis causal necesita examinar. No nombra Deimos ni parálisis: busca la descripción del vacío donde debería haber habido acto. El mediador observa si el sujeto puede identificar por qué no se tomó la decisión o si describe la omisión como algo que simplemente ocurrió sin que nadie la produjera.]
->
-> Variante — Mediador en Crisis (ego individual) «¿Hay áreas de tu vida en que sientes que deberías estar decidiendo algo —sobre una relación, sobre tu trabajo, sobre tu futuro— pero cuando te pones a pensarlo las opciones se sienten todas igual de válidas o igual de inútiles y al final no decides nada?» [Esta variante amplía el campo de las decisiones hacia las áreas vitales relevantes para el acompañamiento en crisis. El mediador observa si el sujeto puede nombrar el área específica —la decisión que no puede tomar— o si la parálisis es difusa y no localizable en ningún dominio concreto.]
+Variante — Mediador Educativo (contexto escolar) «¿Hay momentos en que los estudiantes o las situaciones del aula te presentan opciones que se sienten todas igual de posibles o de imposibles, y no sabes hacia dónde ir primero?» [Esta variante orienta la pregunta hacia el contexto educativo y hacia la experiencia de opciones equivalentes en el trabajo docente. El mediador adapta si trabaja con estudiantes en lugar de docentes: «¿Hay decisiones sobre tu trabajo o tu futuro que sientes que todas valen lo mismo y no puedes elegir?»]
+
+Variante — Mediador Estructural (análisis de responsabilidad) «En el período que estamos analizando, ¿hubo decisiones que debían tomarse y que quedaron sin tomarse — no porque hubiera una razón explícita para no tomarlas, sino porque simplemente no se tomaron?» [Esta variante orienta la pregunta hacia las omisiones que el análisis causal necesita examinar. No nombra Deimos ni parálisis: busca la descripción del vacío donde debería haber habido acto. El mediador observa si el sujeto puede identificar por qué no se tomó la decisión o si describe la omisión como algo que simplemente ocurrió sin que nadie la produjera.]
+
+Variante — Mediador en Crisis (ego individual) «¿Hay áreas de tu vida en que sientes que deberías estar decidiendo algo —sobre una relación, sobre tu trabajo, sobre tu futuro— pero cuando te pones a pensarlo las opciones se sienten todas igual de válidas o igual de inútiles y al final no decides nada?» [Esta variante amplía el campo de las decisiones hacia las áreas vitales relevantes para el acompañamiento en crisis. El mediador observa si el sujeto puede nombrar el área específica —la decisión que no puede tomar— o si la parálisis es difusa y no localizable en ningún dominio concreto.]
 
 ### IV.  Preguntas de sondeo
 
 Las preguntas de sondeo del Módulo Deimos tienen una característica específica que las distingue de las de otros módulos: son las que con mayor probabilidad no recibirán respuesta. El sujeto
 
-Entrevista Clínica Ontológica · ECO
 
 en Deimos produce respuestas mínimas, devuelve las preguntas, o responde de manera que no llega a ningún lugar. Eso no invalida el sondeo: es la señal más diagnóstica del módulo. El mediador debe estar preparado para sostener el silencio y la incomodidad que las preguntas producen sin apresurarse a resolverlos.
 
-> Sondeo D·1 — El qué falta para decidir «Si pudieras decirme qué necesitarías para poder tomar esa decisión, ¿qué dirías?» [Lo que el mediador observa: si el sujeto puede nombrar lo que le falta. En Deimos, el sujeto no puede nombrarlo —o lo que nombra no es realmente lo que falta. Un sujeto en E-3 puede decir «necesitaría sentir que puedo» con perplejidad genuina. Un sujeto en Deimos dice «no sé», «que las cosas se aclaren solas», «que alguien me diga qué hacer», o produce una lista larga de condiciones que nunca se cumplirán todas simultáneamente. Si el sujeto puede nombrar algo concreto que le falta y eso tiene apariencia de resoluble (información específica, una conversación pendiente), la señal de Deimos se debilita y puede orientar hacia E-3 o hacia Anteros.]
->
-> Sondeo D·2 — La simetría «¿Tienes la sensación de que las opciones pesan igual, que ninguna es claramente mejor que las demás? ¿O sabes cuál quieres, pero algo te impide ir hacia ella?» [Esta es la pregunta discriminante central entre Deimos y E-3. Lo que el mediador observa: si el sujeto puede distinguir entre las dos situaciones. El sujeto en Deimos reconoce la primera: las opciones pesan igual, no hay ninguna que se imponga. El sujeto en E-3 reconoce la segunda: sabe lo que quiere y algo lo impide. Si el sujeto no puede distinguir entre las dos situaciones, el mediador registra esa incapacidad como señal adicional de Deimos o de E-3 con perplejidad, y aplica la pregunta discriminante D/E-3 de la sección §7.]
->
-> Sondeo D·3 — La delegación «¿Hay tareas o decisiones que en ese período asignaste a otras personas sin que después hayas verificado si se hicieron o cómo? ¿Cómo decidías a quién delegar?» [Lo que el mediador observa: si el sujeto describe la delegación como descarga —sin criterio de selección de a quién delegar y sin seguimiento posterior— o como distribución deliberada del trabajo. La delegación de Deimos tiene una característica específica: el sujeto no puede describir el criterio de selección del delegado porque no hubo criterio. Se delegó porque no se podía decidir, no porque hubiera alguien más idóneo. El mediador
->
-> Entrevista Clínica Ontológica · ECO
->
-> también observa si el sujeto puede distinguir entre las tareas que delegó y las que decidió hacer él mismo: en Deimos, esa distinción tampoco tiene criterio claro.]
->
-> Sondeo D·4 — Los reportes «En ese período, cuando tenías que informar sobre cómo iban las cosas —a tu equipo, a tus superiores, a tu familia— , ¿qué reportabas? ¿Había problemas que veías pero que no llegaban a tus reportes?» [Lo que el mediador observa: si el sujeto describe la brecha entre lo que veía y lo que reportaba. Deimos produce reportes planos no porque el sujeto quiera ocultar información sino porque la simetría de posibilidades hace que nada se registre como que requiere atención específica. El sujeto ve que hay algo, pero no puede determinar si ese algo es el problema o si el problema es otra cosa, entonces no reporta ninguno. Si el sujeto describe reportes detallados con problemas identificados y propuestas de ajuste, la señal de Deimos se debilita significativamente.]
->
-> Sondeo D·5 — La búsqueda causal «Cuando en ese período ocurrió algo que no salió bien — un proyecto, una relación, un resultado—, ¿qué hiciste para entender por qué ocurrió? ¿Hubo alguna investigación de las causas?» [Lo que el mediador observa: si el sujeto puede identificar una búsqueda genuina de las causas de los eventos negativos del período. Deimos produce ausencia de búsqueda causal: no porque al sujeto no le importe lo que ocurrió sino porque la simetría de posibles causas hace que ninguna se imponga como la más relevante, y entonces no se busca ninguna. Si el sujeto describe que buscó las causas y puede nombrarlas con criterio propio, la señal de Deimos se debilita. Si dice «las cosas simplemente resultaron así» o «hubo muchos factores» sin poder priorizar ninguno, la señal de Deimos se fortalece.]
->
-> Sondeo D·6 — La preferencia en el momento presente «Ahora mismo, en esta conversación, ¿hay algo que quieres? No sobre tu vida ni sobre las situaciones que me has contado: en este momento, en este intercambio, ¿qué quieres tú?» [Esta es la pregunta más diagnóstica del módulo y la que puede producir EP-1 directamente. Lo que el mediador observa: si el sujeto puede identificar una preferencia genuina en el momento presente. En Deimos, la respuesta es semánticamente correcta pero vacía de evaluación interna: «quiero entender mejor esto», «quiero avanzar», «quiero que esto sirva de algo». Lo que el mediador busca no es el contenido de la respuesta sino su textura: si hay algo que viene de adentro o si es la respuesta que corresponde dar. El
->
-> Entrevista Clínica Ontológica · ECO
->
-> mediador espera en silencio después de formular la pregunta: el tiempo que el sujeto necesita para responder también es información.]
->
-> Sondeo D·7 — El ciclo de espera «¿Cómo terminan habitualmente esas situaciones en que no puedes decidir? ¿Qué hace que finalmente algo ocurra o cambie?» [Lo que el mediador observa: si el sujeto puede describir cómo resuelve la parálisis de Deimos. Las respuestas frecuentes son: «el tiempo resuelve», «alguien más termina decidiendo», «la situación se vuelve tan urgente que ya no hay opciones». Ninguna de estas describe una elección del sujeto: todas describen que algo externo al sujeto produce el cambio que él no puede producir. Si el sujeto describe que eventualmente decide por sí mismo con criterio identificable, la señal de Deimos se debilita y puede corresponder a Deimos situacional más que estructural.]
+Sondeo D·1 — El qué falta para decidir «Si pudieras decirme qué necesitarías para poder tomar esa decisión, ¿qué dirías?» [Lo que el mediador observa: si el sujeto puede nombrar lo que le falta. En Deimos, el sujeto no puede nombrarlo —o lo que nombra no es realmente lo que falta. Un sujeto en E-3 puede decir «necesitaría sentir que puedo» con perplejidad genuina. Un sujeto en Deimos dice «no sé», «que las cosas se aclaren solas», «que alguien me diga qué hacer», o produce una lista larga de condiciones que nunca se cumplirán todas simultáneamente. Si el sujeto puede nombrar algo concreto que le falta y eso tiene apariencia de resoluble (información específica, una conversación pendiente), la señal de Deimos se debilita y puede orientar hacia E-3 o hacia Anteros.]
+
+Sondeo D·2 — La simetría «¿Tienes la sensación de que las opciones pesan igual, que ninguna es claramente mejor que las demás? ¿O sabes cuál quieres, pero algo te impide ir hacia ella?» [Esta es la pregunta discriminante central entre Deimos y E-3. Lo que el mediador observa: si el sujeto puede distinguir entre las dos situaciones. El sujeto en Deimos reconoce la primera: las opciones pesan igual, no hay ninguna que se imponga. El sujeto en E-3 reconoce la segunda: sabe lo que quiere y algo lo impide. Si el sujeto no puede distinguir entre las dos situaciones, el mediador registra esa incapacidad como señal adicional de Deimos o de E-3 con perplejidad, y aplica la pregunta discriminante D/E-3 de la sección §7.]
+
+Sondeo D·3 — La delegación «¿Hay tareas o decisiones que en ese período asignaste a otras personas sin que después hayas verificado si se hicieron o cómo? ¿Cómo decidías a quién delegar?» [Lo que el mediador observa: si el sujeto describe la delegación como descarga —sin criterio de selección de a quién delegar y sin seguimiento posterior— o como distribución deliberada del trabajo. La delegación de Deimos tiene una característica específica: el sujeto no puede describir el criterio de selección del delegado porque no hubo criterio. Se delegó porque no se podía decidir, no porque hubiera alguien más idóneo. El mediador
+
+
+también observa si el sujeto puede distinguir entre las tareas que delegó y las que decidió hacer él mismo: en Deimos, esa distinción tampoco tiene criterio claro.]
+
+Sondeo D·4 — Los reportes «En ese período, cuando tenías que informar sobre cómo iban las cosas —a tu equipo, a tus superiores, a tu familia— , ¿qué reportabas? ¿Había problemas que veías pero que no llegaban a tus reportes?» [Lo que el mediador observa: si el sujeto describe la brecha entre lo que veía y lo que reportaba. Deimos produce reportes planos no porque el sujeto quiera ocultar información sino porque la simetría de posibilidades hace que nada se registre como que requiere atención específica. El sujeto ve que hay algo, pero no puede determinar si ese algo es el problema o si el problema es otra cosa, entonces no reporta ninguno. Si el sujeto describe reportes detallados con problemas identificados y propuestas de ajuste, la señal de Deimos se debilita significativamente.]
+
+Sondeo D·5 — La búsqueda causal «Cuando en ese período ocurrió algo que no salió bien — un proyecto, una relación, un resultado—, ¿qué hiciste para entender por qué ocurrió? ¿Hubo alguna investigación de las causas?» [Lo que el mediador observa: si el sujeto puede identificar una búsqueda genuina de las causas de los eventos negativos del período. Deimos produce ausencia de búsqueda causal: no porque al sujeto no le importe lo que ocurrió sino porque la simetría de posibles causas hace que ninguna se imponga como la más relevante, y entonces no se busca ninguna. Si el sujeto describe que buscó las causas y puede nombrarlas con criterio propio, la señal de Deimos se debilita. Si dice «las cosas simplemente resultaron así» o «hubo muchos factores» sin poder priorizar ninguno, la señal de Deimos se fortalece.]
+
+Sondeo D·6 — La preferencia en el momento presente «Ahora mismo, en esta conversación, ¿hay algo que quieres? No sobre tu vida ni sobre las situaciones que me has contado: en este momento, en este intercambio, ¿qué quieres tú?» [Esta es la pregunta más diagnóstica del módulo y la que puede producir EP-1 directamente. Lo que el mediador observa: si el sujeto puede identificar una preferencia genuina en el momento presente. En Deimos, la respuesta es semánticamente correcta pero vacía de evaluación interna: «quiero entender mejor esto», «quiero avanzar», «quiero que esto sirva de algo». Lo que el mediador busca no es el contenido de la respuesta sino su textura: si hay algo que viene de adentro o si es la respuesta que corresponde dar. El
+
+
+mediador espera en silencio después de formular la pregunta: el tiempo que el sujeto necesita para responder también es información.]
+
+Sondeo D·7 — El ciclo de espera «¿Cómo terminan habitualmente esas situaciones en que no puedes decidir? ¿Qué hace que finalmente algo ocurra o cambie?» [Lo que el mediador observa: si el sujeto puede describir cómo resuelve la parálisis de Deimos. Las respuestas frecuentes son: «el tiempo resuelve», «alguien más termina decidiendo», «la situación se vuelve tan urgente que ya no hay opciones». Ninguna de estas describe una elección del sujeto: todas describen que algo externo al sujeto produce el cambio que él no puede producir. Si el sujeto describe que eventualmente decide por sí mismo con criterio identificable, la señal de Deimos se debilita y puede corresponder a Deimos situacional más que estructural.]
 
 La instrucción ante la ausencia de respuesta en este módulo es diferente a la de los demás módulos. En Fobos, si no hay respuesta el mediador reformula la pregunta. En Deimos, el mediador espera. El silencio del sujeto en Deimos ES la señal: no debe llenarse. El mediador que reformula rápidamente ante el silencio de Deimos suprime la señal más diagnóstica del módulo. La instrucción técnica: esperar al menos 20 segundos en silencio antes de reformular. Si después de 20 segundos no hay respuesta, decir «tómate el tiempo que necesites» y esperar 10 segundos más. Solo después de eso reformular o pasar a la siguiente pregunta.
 
@@ -106,7 +100,6 @@ EP-1 si la brevedad se produce de manera sostenida ante múltiples preguntas.
 
 Confundir con concisión deliberada (Anteros) o con reticencia estratégica. La señal de Deimos no es
 
-### Entrevista Clínica Ontológica · ECO
 
 preguntas que la situación que describe requería respuestas desarrolladas. La brevedad de la respuesta no es por falta de palabras: es por ausencia de posición.
 
@@ -138,7 +131,6 @@ EP-2 desde narrativa específica de episodios de delegación sin seguimiento. EP
 
 Confundir con delegación genuina (Anteros en su forma de confiar en el equipo). La diferencia: la delegación de Anteros tiene criterio explícito de seguimiento. La delegación de Deimos no tiene criterio de nada.
 
-### Entrevista Clínica Ontológica · ECO
 
 comprensión de ellos).
 
@@ -160,7 +152,6 @@ La señal EP-1 más diagnóstica del Módulo Deimos es también la más silencio
 
 Esa señal es frecuentemente ignorada porque el sujeto produce una respuesta —«quiero entender esto mejor», «quiero que la sesión sea útil»— y el mediador la recibe como preferencia. La instrucción técnica: antes de registrar la respuesta como preferencia genuina, el mediador se pregunta si esa respuesta tiene textura de evaluación
 
-Entrevista Clínica Ontológica · ECO
 
 interna o si es la respuesta que cualquier persona en esa situación daría. La preferencia genuina tiene algo específico que la hace del sujeto: no solo corresponde al contexto, viene de algo interno que el sujeto puede identificar. Si eso no está presente, la respuesta es semánticamente correcta pero diagnósticamente vacía.
 
@@ -168,41 +159,40 @@ interna o si es la respuesta que cualquier persona en esa situación daría. La 
 
 El árbol del Módulo Deimos tiene una característica que lo distingue de los demás: varios de sus nodos pueden resolverse por la ausencia de respuesta, no por el contenido de la respuesta. El mediador que sabe leer los nodos de ausencia tiene acceso a la señal más diagnóstica del módulo.
 
-> **NODO D·0 — ¿Se cumple la condición de SKIP parcial?
->
-> SÍ (E-1 con EP-1/EP-2 + sin señal de parálisis en apertura) → Administrar solo D·1 y D·3. Si no hay señal → H-1 · EP-0. Si hay señal → administrar módulo completo. NO → Administrar pregunta ancla. ↓**
+**NODO D·0 — ¿Se cumple la condición de SKIP parcial?
 
-> **NODO D·1 — ¿La pregunta ancla produjo señal de parálisis ante la simetría de opciones?
->
-> NO (el sujeto puede nombrar decisiones concretas que tomó con criterio) → Administrar Sondeo D·6 directamente. Si no hay señal → H-1 o SKIP parcial según protocolo. SÍ (el sujeto describe parálisis, simetría, o no puede nombrar ninguna) → Observar: ¿hay señal en la conducta mientras responde? ↓**
+SÍ (E-1 con EP-1/EP-2 + sin señal de parálisis en apertura) → Administrar solo D·1 y D·3. Si no hay señal → H-1 · EP-0. Si hay señal → administrar módulo completo. NO → Administrar pregunta ancla. ↓**
 
-> **NODO D·2 — ¿La respuesta a la pregunta ancla vino acompañada de señal conductual de Deimos (pausa larga, devolución de la pregunta, respuesta sin dirección)?
->
-> SÍ → Registrar EP-1 o EP-4 según sostenimiento. Administrar sondeos D·1 a D·7 en orden. NO (el sujeto respondió con fluidez, pero describió parálisis en el contenido) → Registrar señal EP-2 o EP-5. Administrar sondeos D·2, D·3, D·6 con prioridad. ↓**
+**NODO D·1 — ¿La pregunta ancla produjo señal de parálisis ante la simetría de opciones?
 
-> **NODO D·3 — Sondeo D·6: ¿el sujeto puede identificar una preferencia genuina en el momento presente de la sesión?
->
-> SÍ (la respuesta tiene textura de evaluación interna, no solo semánticamente correcta) → Señal de Deimos se debilita. Evaluar si la parálisis es situacional. Bajar peso tentativo de P(Deimos). NO (la respuesta es semánticamente correcta, pero sin textura interna, o no hay respuesta) → EP-1 confirmado. Señal de Deimos fortalecida.
->
-> Entrevista Clínica Ontológica · ECO
->
-> ↓**
+NO (el sujeto puede nombrar decisiones concretas que tomó con criterio) → Administrar Sondeo D·6 directamente. Si no hay señal → H-1 o SKIP parcial según protocolo. SÍ (el sujeto describe parálisis, simetría, o no puede nombrar ninguna) → Observar: ¿hay señal en la conducta mientras responde? ↓**
 
-> **NODO D·4 — ¿El sujeto puede nombrar qué le falta para decidir (Sondeo D·1)?
->
-> SÍ (nombra algo concreto y resoluble: información específica, conversación pendiente) → Verificar E-3: ¿hay voluntad bloqueada o ausencia de voluntad diferenciada? Administrar pregunta discriminante D/E-3. NO (no puede nombrar nada, o lo que nombra son condiciones que nunca se cumplirán simultáneamente) → Señal de Deimos fortalecida. EP-2 desde narrativa. ↓**
+**NODO D·2 — ¿La respuesta a la pregunta ancla vino acompañada de señal conductual de Deimos (pausa larga, devolución de la pregunta, respuesta sin dirección)?
 
-> **NODO D·5 — ¿El patrón de parálisis es sostenido en el tiempo (más de un episodio, más de un contexto)?
->
-> NO (episodio único o circunstancial) → H-2 máximo. P(Deimos) con EP-4 o EP-5. Nota de situacionalidad. SÍ → ¿Hay señal conductual sostenida en la sesión? ↓**
+SÍ → Registrar EP-1 o EP-4 según sostenimiento. Administrar sondeos D·1 a D·7 en orden. NO (el sujeto respondió con fluidez, pero describió parálisis en el contenido) → Registrar señal EP-2 o EP-5. Administrar sondeos D·2, D·3, D·6 con prioridad. ↓**
 
-> **NODO D·6 — ¿La señal conductual de Deimos se produjo en más de un momento de la sesión?
->
-> NO → H-2 · EP-2 o EP-3 según coherencia temporal de la narrativa. SÍ → H-3 · EP-1 o EP-2 según tipo de señal. Registrar señal observacional específica. ↓**
+**NODO D·3 — Sondeo D·6: ¿el sujeto puede identificar una preferencia genuina en el momento presente de la sesión?
 
-> **NODO D·7 — ¿La señal podría corresponder a E-3, Harmonía, D-2, o delegación deliberada de Anteros?
->
-> Administrar pregunta discriminante correspondiente al par identificado (ver §7). Confirmar exclusión antes de codificación final. ↓**
+SÍ (la respuesta tiene textura de evaluación interna, no solo semánticamente correcta) → Señal de Deimos se debilita. Evaluar si la parálisis es situacional. Bajar peso tentativo de P(Deimos). NO (la respuesta es semánticamente correcta, pero sin textura interna, o no hay respuesta) → EP-1 confirmado. Señal de Deimos fortalecida.
+
+
+↓**
+
+**NODO D·4 — ¿El sujeto puede nombrar qué le falta para decidir (Sondeo D·1)?
+
+SÍ (nombra algo concreto y resoluble: información específica, conversación pendiente) → Verificar E-3: ¿hay voluntad bloqueada o ausencia de voluntad diferenciada? Administrar pregunta discriminante D/E-3. NO (no puede nombrar nada, o lo que nombra son condiciones que nunca se cumplirán simultáneamente) → Señal de Deimos fortalecida. EP-2 desde narrativa. ↓**
+
+**NODO D·5 — ¿El patrón de parálisis es sostenido en el tiempo (más de un episodio, más de un contexto)?
+
+NO (episodio único o circunstancial) → H-2 máximo. P(Deimos) con EP-4 o EP-5. Nota de situacionalidad. SÍ → ¿Hay señal conductual sostenida en la sesión? ↓**
+
+**NODO D·6 — ¿La señal conductual de Deimos se produjo en más de un momento de la sesión?
+
+NO → H-2 · EP-2 o EP-3 según coherencia temporal de la narrativa. SÍ → H-3 · EP-1 o EP-2 según tipo de señal. Registrar señal observacional específica. ↓**
+
+**NODO D·7 — ¿La señal podría corresponder a E-3, Harmonía, D-2, o delegación deliberada de Anteros?
+
+Administrar pregunta discriminante correspondiente al par identificado (ver §7). Confirmar exclusión antes de codificación final. ↓**
 
 SALIDA — Codificación + Nivel EP + P(Deimos) tentativo → Continuar a Módulo Anteros
 
@@ -210,7 +200,6 @@ SALIDA — Codificación + Nivel EP + P(Deimos) tentativo → Continuar a Módul
 
 Las cinco preguntas discriminantes del Módulo Deimos acceden a las distinciones que separan a Deimos de los cinco estados o Hijos con los que más frecuentemente se confunde. Cada pregunta está diseñada para activar la dimensión específica que los distingue, no para confirmar la hipótesis del mediador.
 
-### Entrevista Clínica Ontológica · ECO
 
 **Tabla de preguntas discriminantes** (columnas: par de confusión · pregunta · respuesta característica de Deimos · respuesta característica del otro Hijo)
 
@@ -246,7 +235,6 @@ El sujeto siente la pregunta como
 
 El sujeto produce una respuesta
 
-### Entrevista Clínica Ontológica · ECO
 
 (anestesia ontológica)
 
@@ -270,9 +258,8 @@ La discriminación entre Deimos y E-3 es la más importante del módulo y la que
 
 La diferencia se manifiesta de manera clara ante la pregunta discriminante: el sujeto en E-3 puede nombrar lo que quería hacer y describir con precisión lo que lo impidió. El sujeto en Deimos no puede nombrar lo que quería porque no había un querer diferenciado: todas las opciones parecían igual de válidas o igual de
 
-### Entrevista Clínica Ontológica · ECO
 
-### inválidas. El sujeto en E-3 tiene perplejidad sobre el bloqueo. El sujeto en Deimos tiene perplejidad sobre la ausencia de dirección.
+inválidas. El sujeto en E-3 tiene perplejidad sobre el bloqueo. El sujeto en Deimos tiene perplejidad sobre la ausencia de dirección.
 
 La pregunta discriminante Deimos / E-3 — la más importante del módulo «Cuando piensas en ese momento, ¿sabías lo que querías hacer y algo te lo impedía, o directamente no encontrabas nada que quisieras hacer con claridad?» El sujeto en E-3 reconoce lo primero: había un querer y algo lo bloqueó. El sujeto en Deimos reconoce lo segundo: no había ningún querer diferenciado que bloquear. La perplejidad de E-3 tiene objeto (el bloqueo); la perplejidad de Deimos no lo tiene.
 
@@ -302,7 +289,6 @@ H-2 Umbral El sujeto describe al menos un episodio de parálisis ante la simetr�
 
 EP-4 a EP-
 
-### Entrevista Clínica Ontológica · ECO
 
 sujeto puede identificar preferencias en otros contextos durante la misma sesión.]
 
@@ -324,7 +310,6 @@ Sin EP asignable.
 
 La codificación H-3 en el Módulo Deimos requiere dos condiciones simultáneas. La primera: el sujeto no puede identificar criterio propio para decidir en al menos dos situaciones distintas del período
 
-Entrevista Clínica Ontológica · ECO
 
 analizado —no porque le falte información sino porque las opciones le resultan equivalentes. La segunda: la parálisis se reproduce directamente en sesión, ya sea porque el sujeto no puede responder a la pregunta «¿qué quieres tú, aquí?» con preferencia genuina (EP-1), o porque la narrativa es coherente en múltiples episodios con señal de observación que la corrobora (EP-2).
 
@@ -338,7 +323,6 @@ La codificación del Módulo Deimos produce el peso tentativo de P(Deimos) en la
 
 ### Ejemplos de distribuciones P(Hijos) cuando Deimos es dominante
 
-Entrevista Clínica Ontológica · ECO
 
 Ejemplo 1 (Deimos muy dominante, EP-1): P(Fobos) = 0.10 · P(Deimos) = 0.75 · P(Anteros) = 0.05 · P(Potós) = 0.05 · P(Eros) = 0.05 · P(Harmonía) = 0.00. Suma: 1.00. Ejemplo 2 (Deimos/Fobos coexistentes, EP-2 para ambos): P(Fobos) = 0.35 · P(Deimos) = 0.45 · P(Anteros) = 0.10 · P(Potós) = 0.05 · P(Eros) = 0.05 · P(Harmonía) = 0.00. Suma: 1.00. Esta segunda distribución describe al sujeto que reacciona con urgencia cuando hay amenaza concreta y se paraliza cuando las opciones son equivalentes: los dos Hijos describen situaciones distintas que la misma voluntad enfrenta.
 
@@ -352,7 +336,6 @@ La firma de Deimos en el ego colectivo
 
 Las señales de Deimos colectivo son: acuerdos tomados en reuniones sin fecha de implementación, sin responsable nominado, sin criterio de verificación; reportes institucionales con «línea plana» —sin problemas identificados, sin ajustes propuestos— en períodos donde los miembros del colectivo describen situaciones problemáticas en sus entrevistas individuales; delegaciones institucionales sin seguimiento posterior; ausencia de investigación
 
-Entrevista Clínica Ontológica · ECO
 
 causal después de eventos que claramente la requerían. La organización en Deimos colectivo opera, pero no decide: actúa por inercia, no por criterio.
 
@@ -360,13 +343,12 @@ El ego soberano en Deimos determina la configuración colectiva de la misma mane
 
 Preguntas orientadas al ego colectivo para este módulo
 
-> Pregunta ancla — Ego colectivo (Deimos) «¿Puede describir decisiones importantes para la organización que en el período analizado quedaron sin tomarse — no porque hubiera una razón explícita para no tomarlas, sino porque simplemente no llegaron a resolverse?» [El mediador busca narrativa de omisión institucional, no de postergación deliberada. Lo que observa: si el entrevistado puede describir la omisión con claridad (señal de que la veía) o si también le resulta difusa (señal de que el colectivo como sistema no la registraba). La convergencia de narrativas independientes sobre las mismas omisiones, sin coordinación entre los entrevistados, produce EP-2 para el ego colectivo.]
+Pregunta ancla — Ego colectivo (Deimos) «¿Puede describir decisiones importantes para la organización que en el período analizado quedaron sin tomarse — no porque hubiera una razón explícita para no tomarlas, sino porque simplemente no llegaron a resolverse?» [El mediador busca narrativa de omisión institucional, no de postergación deliberada. Lo que observa: si el entrevistado puede describir la omisión con claridad (señal de que la veía) o si también le resulta difusa (señal de que el colectivo como sistema no la registraba). La convergencia de narrativas independientes sobre las mismas omisiones, sin coordinación entre los entrevistados, produce EP-2 para el ego colectivo.]
 
 La distinción Deimos colectivo / consenso genuino es la más importante de la aplicación colectiva de este módulo. La pregunta discriminante para el ego colectivo: ¿los acuerdos que se tomaron en este período tienen fecha de implementación, responsable nominado y criterio de verificación? Si la respuesta es no sistemáticamente — no en un acuerdo puntual sino como patrón— la señal orienta hacia Deimos colectivo. Si la respuesta es sí y los acuerdos se ejecutaron, la señal orienta hacia Anteros colectivo o Harmonía colectiva, dependiendo de lo que el Módulo H produzca.
 
 El nivel EP en el ego colectivo para Deimos
 
-Entrevista Clínica Ontológica · ECO
 
 EP-1 para Deimos colectivo requiere que el mediador observe directamente la parálisis decisional del colectivo —en la dinámica de una junta o reunión donde se puede ver que los acuerdos no producen criterio de implementación, o en la dinámica de un grupo focal donde las posiciones son equivalentes y ninguna se impone. EP-2 requiere convergencia de narrativas independientes de múltiples miembros sobre las mismas omisiones. EP-3 requiere el patrón de Deimos en múltiples períodos o contextos de la historia institucional, narrado con coherencia temporal.
 
@@ -380,7 +362,6 @@ El segundo error es apresurarse a resolver el silencio. El silencio de Deimos an
 
 El tercer error es confundir la intervención de ECO con el trabajo de Histos e intentar resolver la parálisis dentro de la sesión. ECO localiza. Histos trabaja. El mediador que en la sesión de ECO intenta ayudar al sujeto a salir de Deimos está haciendo Histos sin las condiciones que Histos requiere: sin la localización completa de los ejes del Bloque II, sin los principios de intervención calibrados para la configuración completa del sujeto.
 
-Entrevista Clínica Ontológica · ECO
 
 Lo que el mediador sí hace
 
@@ -392,15 +373,16 @@ Cuándo derivar a Histos
 
 Deimos como Hijo dominante con H-3 y EP-1 orienta la derivación a Histos para el inicio del acompañamiento, con la condición de que el Bloque II esté completo. La localización específica en el Eje I es determinante para la orientación del trabajo de Histos: Deimos en E-1 produce un trabajo diferente de Deimos en E-4. En E-1, la parálisis es la posición actual de la voluntad y hay ego genuino activo desde el cual el trabajo puede operar. En E-4, la parálisis está relacionada con el eje ajeno internalizado y el trabajo necesita abordar primero la restitución del eje propio.
 
-> Condición de derivación a Histos desde Deimos Deimos H-3 con EP-1 o EP-2 + Bloque II completo con los cinco ejes del SDO localizados + nota de coexistencia con otros Hijos si la distribución P(Hijos) no es dominada claramente por Deimos. La derivación incluye el mapa completo de la configuración del sujeto, no solo la localización de Deimos. Histos necesita saber desde qué Eje I opera la parálisis para orientar correctamente el trabajo.
+Condición de derivación a Histos desde Deimos Deimos H-3 con EP-1 o EP-2 + Bloque II completo con los cinco ejes del SDO localizados + nota de coexistencia con otros Hijos si la distribución P(Hijos) no es dominada claramente por Deimos. La derivación incluye el mapa completo de la configuración del sujeto, no solo la localización de Deimos. Histos necesita saber desde qué Eje I opera la parálisis para orientar correctamente el trabajo.
 
 Cuándo el caso supera ECO
 
-Entrevista Clínica Ontológica · ECO
 
 El Módulo Deimos puede revelar dos situaciones que superan el alcance de ECO. La primera es Deimos asociado a E-3 con profundidad clínica: cuando la parálisis no es la simetría de opciones sino el bloqueo de φ₂ ante un nivel de dificultad que requiere intervención psicológica o psiquiátrica. La señal de alerta: el sujeto describe la parálisis con sufrimiento intenso, con historia de episodios que no ha podido interrumpir por años, y con incapacidad de funcionar en áreas básicas de su vida. Eso supera el nivel ontológico de ECO y requiere derivación clínica. La segunda es Deimos sostenido en E-6 (Aego): la parálisis que describe el límite del sistema, donde la voluntad ya no produce efecto diferencial en el campo. Ese estado requiere evaluación clínica antes de cualquier proceso de acompañamiento ontológico.
 
-Notas al Módulo B·I·D
+---
+
+## Notas al Módulo B·I·D
 
 1 La descripción de Deimos como parálisis ante la simetría de posibilidades tiene su fundamento en la ontología del colapso: el colapso no puede ocurrir cuando las posibilidades son completamente equivalentes para la voluntad que debería colapsarlas. Esto no significa que las posibilidades sean objetivamente equivalentes —eso sería una afirmación sobre el campo externo. Significa que la posición de v_t en φ₁ no produce orientación diferenciada: el campo de posibilidades llega a φ₁ sin diferencias de peso que φ₁ pueda usar para orientar el acto hacia una posibilidad sobre las demás.
 
@@ -408,12 +390,8 @@ Notas al Módulo B·I·D
 
 3 La confusión Deimos / consenso genuino que el texto describe para el ego colectivo es uno de los errores diagnósticos más frecuentes en el análisis organizacional. Las organizaciones que operan desde Deimos colectivo producen culturas que se describen internamente como «colaborativas», «no jerárquicas», «de consenso». Desde afuera, el mediador que solo lee esas descripciones puede concluir que hay Harmonía colectiva o Anteros colectivo.
 
-Entrevista Clínica Ontológica · ECO
 
 La pregunta que discrimina: ¿los acuerdos de consenso se ejecutan? Un colectivo genuinamente colaborativo ejecuta sus acuerdos. Un colectivo en Deimos acuerda y no ejecuta porque el acuerdo no tenía criterio de implementación.
 
 4 La instrucción de esperar 20 segundos ante el silencio de Deimos en sesión es una de las instrucciones más contraintuitivas del instrumento. La mayoría de los mediadores en formación la incumplen no por falta de conocimiento sino porque el silencio sostenido produce incomodidad en el propio campo del mediador. Esa incomodidad es información diagnóstica sobre el campo del mediador, no sobre el sujeto. El mediador que puede habitar 20 segundos de silencio sin intervenirlos tiene el campo calibrado para Deimos. El que no puede hacerlo necesita supervisión antes de administrar este módulo de manera autónoma.
-
-Entrevista Clínica Ontológica · ECO
-
 
