@@ -71,3 +71,4 @@ Apéndice B Calibración de los pesos W del grafo causal
 Apéndice C Fundamentos matemáticos y demostraciones  
 Apéndice D Biblioteca Python de referencia  
 Apéndice E Glosario unificado por dominio  
+
