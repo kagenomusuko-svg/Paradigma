@@ -1,10 +1,9 @@
-PARTE III · ECONOMÍA, FINANZAS Y EMPRESA
+# Capítulo 10
+## Seguros y actuaría
 
-### Capítulo 10 Seguros y actuaría
+*Contribución causal al siniestro: la póliza que distribuye el riesgo y la que lo crea*
 
-Contribución causal al siniestro: la póliza que distribuye el riesgo y
-
-la que lo crea
+---
 
 ### §1.  El problema
 
@@ -12,7 +11,6 @@ El 25 de marzo de 1911, un incendio comenzó en el piso ocho del edificio Asch e
 
 La investigación posterior documentó las causas con precisión brutal: las puertas de las salidas de emergencia estaban cerradas con llave durante el turno de trabajo —los propietarios Isaac Harris y Max Blanck las cerraban para impedir que las trabajadoras salieran sin ser registradas y para evitar las pausas no autorizadas. Los cubos de arena que debían usarse para apagar incendios estaban vacíos. La escalera de incendios externa colapsó. El inspector de
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 seguridad que había visitado el edificio en los meses anteriores no había reportado las deficiencias porque el marco legal vigente era tan laxo que casi no había deficiencias que reportar.
 
@@ -20,11 +18,10 @@ Harris y Blanck tenían una póliza de seguro contra incendio. En el proceso jud
 
 Este caso plantea la pregunta central del capítulo en su forma más desnuda: cuando ocurre un siniestro, ¿cuál es la contribución causal de cada actor —el asegurado, la aseguradora, el regulador, el diseñador del entorno de riesgo— al evento que la póliza debe cubrir? El seguro convencional asume que el siniestro es exógeno: ocurre, y la aseguradora cubre el daño. El cálculo de la responsabilidad pregunta si el diseño de la póliza y las condiciones del asegurado son en sí mismas factores causales del siniestro.
 
-### 1.1 El problema del riesgo moral en el seguro
+#### 1.1 El problema del riesgo moral en el seguro
 
 El riesgo moral (moral hazard) es uno de los problemas más fundamentales de la teoría del seguro: cuando un actor está asegurado contra un daño, tiene menor incentivo para prevenir ese daño. La aseguración reduce el costo marginal del comportamiento riesgoso y puede, en casos extremos, invertirlo: si el valor de la póliza supera el valor del activo
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 asegurado, el asegurado puede tener incentivo positivo para que el siniestro ocurra.
 
@@ -34,13 +31,12 @@ El cálculo de la responsabilidad añade una dimensión que la actuaría convenc
 
 Contribución causal al siniestro (R*):  La fracción del siniestro causalmente atribuible a cada nodo del sistema: el asegurado, el diseñador del entorno de riesgo, el regulador, y la aseguradora cuyo diseño de póliza pudo haber incentivado el evento. R*_aseguradora > 0 cuando el diseño de la póliza es condición causal del siniestro, no solo de su compensación.
 
-### 1.2 El Δ_B de la aseguradora predatoria
+#### 1.2 El Δ_B de la aseguradora predatoria
 
 El caso Triangle Shirtwaist introduce un concepto que los capítulos anteriores no habían necesitado con esta precisión: el Δ_B, el déficit entre el beneficio que el nodo obtuvo del siniestro y lo que asumió de ese beneficio.
 
 En la aseguradora predatoria —aquella cuyo diseño de póliza incentiva el siniestro que cubre— el B_total tiene dos componentes: las primas recaudadas durante el período de la póliza (beneficio legítimo del contrato de seguro) y el
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 diferencial entre el valor de la póliza y el valor real del activo asegurado (el sobreseguro que produce el incentivo al siniestro). El primero es legítimo; el segundo es la medida del beneficio causal que la aseguradora obtuvo del diseño que incentivó el siniestro.
 
@@ -50,17 +46,17 @@ B_aseguradora_predatoria = Primas_recaudadas +
 
 El Δ_B es la brecha entre ese beneficio y lo que la aseguradora asumió de su posición causal. Cuando la aseguradora pagó la póliza íntegra sin reconocer que su diseño contribuyó al siniestro, asumió la obligación contractual pero no la responsabilidad causal. Eso produce Δ_B positivo: obtuvo más —en términos de beneficio de la relación— de lo que asumió en términos de responsabilidad causal.
 
-### 1.3 La diferencia entre el seguro como distribución del riesgo y como creación de riesgo
+#### 1.3 La diferencia entre el seguro como distribución del riesgo y como creación de riesgo
 
 El seguro tiene dos funciones ontológicas posibles que el sistema distingue con precisión:
 
-•  Seguro como distribución del riesgo: el siniestro es causalmente independiente del contrato. El riesgo existía antes de la póliza; la aseguradora lo redistribuye entre los asegurados. En este caso, R*_aseguradora ≈ 0 en el siniestro: la aseguradora no causó el daño, solo lo cubrió. •  Seguro como creación (o amplificación) de riesgo: el diseño de la póliza modifica los incentivos del asegurado de manera que aumenta la probabilidad del siniestro. En este caso, R*_aseguradora > 0: el diseño de la póliza es condición causal parcial del evento. La aseguradora es tanto el compensador del daño como un nodo contribuyente a su producción.
+- Seguro como distribución del riesgo: el siniestro es causalmente independiente del contrato. El riesgo existía antes de la póliza; la aseguradora lo redistribuye entre los asegurados. En este caso, R*_aseguradora ≈ 0 en el siniestro: la aseguradora no causó el daño, solo lo cubrió.
+- Seguro como creación (o amplificación) de riesgo: el diseño de la póliza modifica los incentivos del asegurado de manera que aumenta la probabilidad del siniestro. En este caso, R*_aseguradora > 0: el diseño de la póliza es condición causal parcial del evento. La aseguradora es tanto el compensador del daño como un nodo contribuyente a su producción.
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
+
 
 Analogía: El guardavidas que cobra por rescate Si el guardavidas cobra más por cada rescate que por prevenir el ahogamiento, tiene un incentivo estructural para que haya más ahogamientos. Eso no significa que cause los ahogamientos deliberadamente, sino que el diseño de su sistema de compensación tiene posición causal en la probabilidad del evento que cubre. Una aseguradora que diseña una póliza con sobrecobertura tiene la misma posición: su diseño no causa el incendio, pero crea el incentivo que hace el incendio más probable.
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 ### §2.  Página puente — Traducción al lenguaje del seguro y la actuaría
 
@@ -86,7 +82,6 @@ Diseñador del entorno de riesgo
 
 Quien diseñó las condiciones que hicieron posible el siniestro a esa escala: el propietario que cerró las puertas de emergencia, la
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 constructora que usó materiales inflamables, el regulador que estableció estándares de seguridad insuficientes.
 
@@ -106,7 +101,6 @@ B_total Beneficio del asegurado del siniestro
 
 Lo que el asegurado obtuvo del siniestro: la indemnización de la aseguradora, el diferencial de sobrecobertura, la eliminación de un activo que
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 ya no quería. Base para detectar el fraude al seguro.
 
@@ -126,15 +120,13 @@ Prima proporcional a R*_asegurado × (1−S)
 
 Para el lector que viene del núcleo universal:  Este dominio tiene dos características singulares. Primera: los hijos no aplican a ningún nodo (el análisis es de sistemas e instrumentos, no de disposiciones de
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 voluntad). Segunda: aparece el concepto Δ_B (déficit de asunción del beneficio), que en este contexto describe la aseguradora cuyo diseño contribuyó causalmente al siniestro, pero solo asumió la obligación contractual de pago, no la responsabilidad causal de diseño.
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 ### §3.  Las herramientas en el contexto asegurador
 
-### 3.1 El grafo causal del siniestro: más allá del reporte de siniestro
+#### 3.1 El grafo causal del siniestro: más allá del reporte de siniestro
 
 El reporte de siniestro convencional documenta el evento desde la perspectiva del asegurado: qué ocurrió, cuándo, cuánto perdió. El grafo causal del siniestro va más lejos: mapea los factores que contribuyeron causalmente a que el siniestro ocurriera, incluyendo factores que pueden estar fuera del control del asegurado pero que la aseguradora puede haber contribuido a crear mediante su diseño de póliza.
 
@@ -158,7 +150,6 @@ Factores ambientales que determinan la probabilidad y la gravedad del siniestro 
 
 Informes de inspección técnica, estudios de riesgo ambiental, normas de construcción aplicables.
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 conducta del asegurado.
 
@@ -178,7 +169,7 @@ Si el diseño de la póliza modifica los incentivos del asegurado de manera que 
 
 Términos de la póliza, análisis de sobreseguro, comparación con el valor de mercado del activo asegurado.
 
-### 3.2 R* en actuaría: de la probabilidad a la causalidad
+#### 3.2 R* en actuaría: de la probabilidad a la causalidad
 
 La actuaría convencional calcula probabilidades: dada una clase de riesgo y una historia de siniestros, ¿cuál es la probabilidad de que el siniestro ocurra en el período cubierto? Esa probabilidad determina la prima.
 
@@ -214,9 +205,8 @@ Ajuste de indemnizaciones, detección de fraude, diseño de pólizas justas, res
 
 La relación entre la probabilidad actuarial P(siniestro) y el vector R* es que R* descompone la causa del siniestro que P(siniestro) predijo. Si la prima reflejaba correctamente P (siniestro | clase de riesgo), y el siniestro ocurrió principalmente por factores exógenos al asegurado (R*_asegurado bajo, R*_entorno o R*_regulatorio alto), la indemnización íntegra es justa. Si el siniestro ocurrió principalmente por conducta del asegurado (R*_asegurado alto), hay base para reducir la indemnización o incluso excluir la cobertura si la conducta viola las condiciones de la póliza.
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
-### 3.3 El principio de prima justa ajustada por causalidad
+#### 3.3 El principio de prima justa ajustada por causalidad
 
 La prima actuarialmente justa convencional se calcula sobre la clase de riesgo del asegurado: todos los activos de la misma categoría (edificios de esa zona sísmica, conductores de ese perfil de edad, empresas de ese sector) pagan la misma prima ajustada por variables observables.
 
@@ -232,17 +222,19 @@ Este principio tiene una consecuencia importante para la equidad en el diseño d
 
 Principio actuarial:  El riesgo actuarialmente justo es R*_asegurado × (1−S) × D_esperado. La prima que excede ese umbral es una transferencia del costo del riesgo estructural (que causaron el regulador, el diseñador del entorno, o la historia de exclusión de ese grupo) al asegurado individual que no lo causó. Cuando esa transferencia es sistemática, hay
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 fraude annona en el sistema de seguros: el asegurado paga por el riesgo que no creó.
 
-### 3.4 El índice de sustituibilidad S en el seguro
+#### 3.4 El índice de sustituibilidad S en el seguro
 
 En el dominio asegurador, S tiene una interpretación directamente operativa para el diseño de primas y para la detección del fraude:
 
-•  S alto del asegurado: cualquier persona en las mismas condiciones estructurales habría tenido el mismo siniestro. El riesgo es de la clase, no de la persona. Una prima diferenciada basada en el comportamiento individual tiene poco poder predictivo y ningún fundamento causal. •  S bajo del asegurado: las condiciones idiosincráticas del asegurado (su comportamiento, sus decisiones de mantenimiento, su gestión del riesgo operativo) fueron causalmente determinantes para el siniestro. La diferenciación de primas basada en comportamiento observable tiene fundamento causal. •  S del diseño de la póliza: cuánto del incentivo al riesgo moral es genérico a cualquier póliza de ese tipo versus específico del diseño de esta póliza. Si S es alto (cualquier póliza de esas características habría creado el mismo incentivo), el problema es de la clase de producto, no del diseñador específico. Si S es bajo, el diseñador específico tiene R* mayor.
+- S alto del asegurado: cualquier persona en las mismas condiciones estructurales habría tenido el mismo siniestro. El riesgo es de la clase, no de la persona. Una prima diferenciada basada en el comportamiento individual tiene poco poder predictivo y ningún fundamento causal.
+- S bajo del asegurado: las condiciones idiosincráticas del asegurado (su comportamiento, sus decisiones de mantenimiento, su gestión del riesgo operativo) fueron causalmente determinantes para el siniestro. La diferenciación de primas basada en comportamiento observable tiene fundamento causal.
+- S del diseño de la póliza: cuánto del incentivo al riesgo moral es genérico a cualquier póliza de ese tipo versus específico del diseño de esta póliza. Si S es alto (cualquier póliza de esas características habría creado el mismo incentivo), el problema es de la clase de producto, no del diseñador específico. Si S es bajo, el diseñador específico tiene R* mayor.
 
-### 3.5 α y Δ en el sistema asegurador
+
+#### 3.5 α y Δ en el sistema asegurador
 
 En el dominio asegurador, α tiene interpretaciones diferentes según el nodo: El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
@@ -266,9 +258,8 @@ Aseguradora Grado en que el diseño de la póliza minimiza el incentivo al riesg
 
 Diseñar franquicias y límites de cobertura que mantengan el incentivo a la prevención. No sobreasegurar. Auditar las condiciones de seguridad antes de emitir la póliza. Reconocer su R* cuando el diseño contribuyó al siniestro.
 
-### 3.6 El Δ_B: el beneficio del siniestro no asumido
+#### 3.6 El Δ_B: el beneficio del siniestro no asumido
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 El Δ_B es específico de este dominio porque en el seguro el beneficio del siniestro puede ser positivo para el asegurado (cuando hay sobrecobertura) o para la aseguradora predatoria (cuando el diseño de la póliza incentivó el siniestro y las primas recaudadas superan las indemnizaciones pagadas a largo plazo gracias a ese incentivo).
 
@@ -282,7 +273,7 @@ El Δ_B es específico de este dominio porque en el seguro el beneficio del sini
 
 Δ_B_aseguradora positivo alto: la aseguradora obtuvo beneficio neto del diseño que incentivó el siniestro. No lo asumió. Es la medida de la "aseguradora predatoria" en términos del sistema: no es necesariamente fraude en el sentido penal, pero sí es la descripción matemática de cómo el diseño del producto extrajo valor a costa de las víctimas del siniestro.
 
-### 3.7 El D_total del siniestro: cómo distribuir la indemnización correctamente
+#### 3.7 El D_total del siniestro: cómo distribuir la indemnización correctamente
 
 D_siniestro = T_invertido + T_impedido +
 
@@ -290,7 +281,6 @@ D_siniestro = T_invertido + T_impedido +
 
 Componente En seguros Descripción
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 T_invertido La pérdida directa del siniestro
 
@@ -304,13 +294,12 @@ Los ingresos perdidos durante el período de reconstrucción, los costos de inst
 
 Para siniestros con víctimas: la pérdida del potencial de ingresos futuros, la discapacidad permanente, la pérdida de oportunidades de desarrollo. Para siniestros de negocio: la pérdida de contratos, reputación y posición de mercado que no se recuperan aunque el activo sea reconstruido.
 
-### La indemnización justa distribuida por R* es:
+#### La indemnización justa distribuida por R* es:
 
-### Indemnización_justa_nodo_i = R*ᵢ × D_total
+#### Indemnización_justa_nodo_i = R*ᵢ × D_total
 
 Cuando la aseguradora paga solo el T_invertido y omite T_impedido y ΔT_trayectoria, está pagando una fracción del D_total real. Cuando la suma asegurada excede el valor real del activo (sobrecobertura), el asegurado puede obtener más que D_total, produciendo B_siniestro_asegurado positivo.
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 ### §4.  Casos resueltos
 
@@ -326,13 +315,12 @@ Las mujeres trabajadoras de Nueva York habían protagonizado la gran huelga de c
 
 El incendio duró menos de media hora. Ciento cuarenta y seis personas murieron. La investigación del Departamento de Bomberos encontró que: las salidas de emergencia estaban bloqueadas o cerradas, las mangueras contra
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 incendios estaban podridas, la escalera de incendios exterior tenía capacidad insuficiente y colapsó, y los ascensores —el principal método de evacuación de los pisos superiores— se sobrecargaron y dejaron de funcionar.
 
 Harris y Blanck fueron llevados a juicio por homicidio culposo. El jurado los absolvió después de veintitrés minutos de deliberación, bajo el argumento de que no podía probarse que sabían que las puertas estaban cerradas en el momento del incendio. Años después, ambos propietarios reclamaron y cobraron su póliza de seguro contra incendio, declarándose en quiebra antes de pagar la mayor parte de las indemnizaciones civiles ordenadas por un juez posterior.
 
-### A.2 El grafo causal del siniestro
+#### A.2 El grafo causal del siniestro
 
 Nodo Actor / Factor Tipo Función causal
 
@@ -348,7 +336,6 @@ Omisión normativa y de inspección
 
 El marco legal vigente en Nueva York en 1911 no exigía salidas de emergencia accesibles en edificios de esa altura construidos antes de cierta fecha. El
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 inspector no reportó deficiencias porque el código las hacía formalmente conformes.
 
@@ -374,9 +361,8 @@ Nf Las ciento cuarenta y seis víctimas
 
 Nodo final No entran en el cálculo de R*.
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
-### A.3 R*, S y Δ: la distribución causal que el jurado no calculó
+#### A.3 R*, S y Δ: la distribución causal que el jurado no calculó
 
 Nodo R* S α Interpretación y Δ
 
@@ -396,7 +382,6 @@ N3 — Aseguradora
 
 N4 — Condiciones del sector
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 ~4% 0.85 0.15 S alto. Factor ambiental amplificador.
 
@@ -416,9 +401,12 @@ A.4 El Δ_B de la aseguradora en el caso Triangle
 
 Reconstrucción del B_total de la aseguradora:
 
-•  Primas recaudadas en los años anteriores al siniestro: estimadas en $15,000-20,000 USD anuales (en dólares de 1911, equivalente a ~$450,000 USD de 2024). •  Suma asegurada pagada al siniestro: $445,000 USD de 1911 (~$13.8M USD de 2024). •  Valor real estimado del edificio e inventario: $350,000-380,000 USD de 1911. •  Sobrecobertura estimada: entre $65,000 y $95,000 USD de 1911 (~$2.1M de 2024).
+- Primas recaudadas en los años anteriores al siniestro: estimadas en $15,000-20,000 USD anuales (en dólares de 1911, equivalente a ~$450,000 USD de 2024).
+- Suma asegurada pagada al siniestro: $445,000 USD de 1911 (~$13.8M USD de 2024).
+- Valor real estimado del edificio e inventario: $350,000-380,000 USD de 1911.
+- Sobrecobertura estimada: entre $65,000 y $95,000 USD de 1911 (~$2.1M de 2024).
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
+
 
 B_aseguradora = Primas × años +
 
@@ -440,9 +428,12 @@ A.5 El D_total y su expresión en tiempo de vida
 
 Parámetros para el cálculo:
 
-•  Víctimas directas: 146 muertes. Edad promedio estimada: 22 años. Esperanza de vida residual promedio: ~52 años = 455,520 horas. •  Lesionados con secuelas: estimados en 70-100 personas. q_real promedio: 0.55 (pérdida del 45% de calidad de vida por lesiones). •  Dependientes directos de las víctimas: ~300 personas afectadas por pérdida del principal sostén económico. •  w_ref = $8 USD/hora (PPP 2024).
+- Víctimas directas: 146 muertes. Edad promedio estimada: 22 años. Esperanza de vida residual promedio: ~52 años = 455,520 horas.
+- Lesionados con secuelas: estimados en 70-100 personas. q_real promedio: 0.55 (pérdida del 45% de calidad de vida por lesiones).
+- Dependientes directos de las víctimas: ~300 personas afectadas por pérdida del principal sostén económico.
+- w_ref = $8 USD/hora (PPP 2024).
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
+
 
 D_vital_directo = 146 × 455,520 h × 1.0 = 6.65 × 10⁷
 
@@ -472,9 +463,7 @@ Los propietarios pagaron efectivamente menos de $20,000 USD en indemnizaciones n
 
 La lección del caso Triangle para el diseño regulatorio: El siniestro de la Triangle Shirtwaist Factory produjo la reforma más importante del derecho laboral en la historia de Nueva York. La comisión investigadora que siguió al incendio estableció 56 nuevas leyes en cuatro años. Ese proceso —el reconocimiento colectivo del Δ del nodo regulatorio y la asunción de α_diferido mediante reforma institucional— es exactamente lo que el sistema predice como respuesta correcta cuando el grafo causal identifica al regulador como nodo de alta responsabilidad causal no asumida.
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 Caso B — Póliza de seguros predatoria hipotética
 
@@ -492,11 +481,10 @@ En un período de cinco años, la cartera de este producto tiene una tasa de sin
 
 El problema no es solo el fraude individual (que los asegurados ocultaron condiciones preexistentes). Es que el diseño del producto —alta suma asegurada sin verificación
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
-### de la valoración, empresa como beneficiaria, facilidad de suscripción sin revisión médica en cierto rango de suma— creó las condiciones para ese comportamiento.
+#### de la valoración, empresa como beneficiaria, facilidad de suscripción sin revisión médica en cierto rango de suma— creó las condiciones para ese comportamiento.
 
-### B.2 El grafo causal de los siniestros de la cartera
+#### B.2 El grafo causal de los siniestros de la cartera
 
 Nodo Actor / Factor
 
@@ -520,13 +508,12 @@ Omisión de supervisión
 
 No exigió due diligence de valoración ni revisión médica en el rango de sumas aseguradas del producto. La omisión regulatoria creó el espacio para el diseño predatorio.
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 Amplificación Distribuyeron el producto con comisiones altas sin realizar su propia due diligence. S alto: cualquier corredor con los mismos incentivos habría actuado igual.
 
 N4 Corredores / brokers que distribuyeron el producto
 
-### B.3 R* y el Δ_B: la aseguradora que ganó con el diseño
+#### B.3 R* y el Δ_B: la aseguradora que ganó con el diseño
 
 Nodo R* S α Δ y Δ_B
 
@@ -546,13 +533,19 @@ N3 — Regulador
 
 N4 — Brokers
 
-### Cálculo del Δ_B de la aseguradora:
+#### Cálculo del Δ_B de la aseguradora:
 
-### •  Primas recaudadas en la cartera durante 5 años: $45M USD.
+####
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
+- Primas recaudadas en la cartera durante 5 años: $45M USD.
 
-•  Siniestros pagados: $38M USD. •  Margen técnico bruto: $7M USD (positivo, típico para el producto). •  Siniestros pagados que habrían sido evitados con due diligence adecuada (estimado): 40% de los $38M = $15.2M. •  Primas adicionales obtenidas por sumas aseguradas infladas (estimado): $8M sobre el valor actuarialmente correcto.
+
+
+- Siniestros pagados: $38M USD.
+- Margen técnico bruto: $7M USD (positivo, típico para el producto).
+- Siniestros pagados que habrían sido evitados con due diligence adecuada (estimado): 40% de los $38M = $15.2M.
+- Primas adicionales obtenidas por sumas aseguradas infladas (estimado): $8M sobre el valor actuarialmente correcto.
+
 
 B_aseguradora_predatoria = Primas_infladas +
 
@@ -578,7 +571,6 @@ Multa_mínima_disuasoria ≥ Δ_B_aseguradora =
 
 P(detección)
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 donde P(detección) es la probabilidad de que el diseño predatorio sea detectado por el regulador. Si P(detección) = 0.30, la multa mínima disuasoria es $14.25M / 0.30 = $47.5M, suficientemente alta para que el valor esperado del comportamiento predatorio sea negativo.
 
@@ -590,35 +582,32 @@ El análisis causal del Caso B produce un conjunto de principios de diseño de p
 
 Estos principios de diseño no son solo más justos en términos distributivos: son más eficientes en términos actuariales porque reducen la siniestralidad al mantener los incentivos de prevención en los nodos que tienen mayor control causal sobre el riesgo.
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 ### §5.  Límites del método en seguros y actuaría
 
-### 5.1 El problema de los siniestros de causación múltiple simultánea
+#### 5.1 El problema de los siniestros de causación múltiple simultánea
 
 Muchos siniestros tienen causas múltiples que contribuyen simultáneamente sin que ninguna sea condición necesaria y suficiente por sí sola. Un incendio puede haber sido posible por la combinación de materiales inflamables, ausencia de sistemas de supresión y una chispa eléctrica defectuosa, sin que ninguno de esos factores por sí solo habría producido el incendio de esa magnitud. La condición de la iteración de potencia (que la matriz W sea irreducible) puede no cumplirse en esos casos. El análisis de valores de Shapley —desarrollado en la Parte IV del libro— ofrece una solución para los siniestros de causación múltiple acumulativa.
 
-### 5.2 El problema de la causalidad contrafáctica en el seguro de vida
+#### 5.2 El problema de la causalidad contrafáctica en el seguro de vida
 
 En el seguro de vida, la pregunta "¿habría muerto sin ese factor causal?" es frecuentemente incontestable con certeza. La actuaría maneja esta incertidumbre estadísticamente, pero el análisis causal individual requiere un contrafáctico que a veces no existe. En esos casos, el sistema recomienda trabajar con rangos de R* y análisis de sensibilidad en lugar de valores puntuales.
 
-### 5.3 El límite de la detección del fraude al seguro
+#### 5.3 El límite de la detección del fraude al seguro
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 El Δ_B positivo del asegurado es la señal formal del fraude al seguro: el asegurado obtuvo más de la póliza de lo que el siniestro le costó. Pero detectar ese Δ_B requiere estimar el valor real del activo asegurado y la contribución causal real del asegurado al siniestro, ambas con incertidumbre. El análisis de R* apunta hacia dónde investigar, no hacia una conclusión definitiva.
 
-### 5.4 El riesgo de usar R* para discriminar primas injustamente
+#### 5.4 El riesgo de usar R* para discriminar primas injustamente
 
 El principio de prima ajustada por causalidad puede producir discriminación injusta si se aplica sin considerar la S del factor de riesgo. Una persona que vive en una zona de alta siniestralidad por razones históricas (segregación residencial, subinversión en infraestructura) tiene un riesgo estructural (S alto) que no es de su responsabilidad causal. Usar ese riesgo para subir la prima es imputarle la responsabilidad del entorno, que pertenece al regulador y al diseñador de la política urbana. El análisis de R* × (1 − S) protege contra ese error.
 
-### 5.5 El uso predictivo del Δ_B: cuántos siniestros producirá el diseño predatorio
+#### 5.5 El uso predictivo del Δ_B: cuántos siniestros producirá el diseño predatorio
 
 El §4.4 del capítulo calculó el Δ_B de la aseguradora predatoria hipotética y la multa mínima disuasoria. Lo que este apartado añade es la dimensión temporal: cuántos siniestros adicionales producirá el diseño antes de que sea detectado, cuándo cruzará el umbral de detección regulatoria, y cuál es el valor esperado del daño acumulado en ese período.
 
-### El número esperado de siniestros adicionales producidos por el diseño
+#### El número esperado de siniestros adicionales producidos por el diseño
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 Si el diseño de la póliza tiene Δ_B > 0, aumenta la probabilidad de siniestro en la cartera respecto a la probabilidad actuarialmente correcta. El número de siniestros adicionales esperados en el período antes de la detección es:
 
@@ -630,7 +619,11 @@ donde P_siniestro_diseño es la probabilidad de siniestro con el diseño predato
 
 Aplicación al caso de la póliza de vida colectiva predatoria del §4:
 
-•  Cartera: 200 pólizas activas. •  P_siniestro_actuarial (sin sobrecobertura): 0.8% anual para el grupo de edad. •  P_siniestro_diseño (con sobrecobertura + selección adversa habilitada): 1.4% anual (75% mayor, consistente con la siniestralidad anómala documentada). •  t_detección estimado con P_detección = 0.30: ver fórmula a continuación.
+- Cartera: 200 pólizas activas.
+- P_siniestro_actuarial (sin sobrecobertura): 0.8% anual para el grupo de edad.
+- P_siniestro_diseño (con sobrecobertura + selección adversa habilitada): 1.4% anual (75% mayor, consistente con la siniestralidad anómala documentada).
+- t_detección estimado con P_detección = 0.30: ver fórmula a continuación.
+
 
 t_detección = log (θ_siniestralidad / ratio_inicial) /
 
@@ -640,13 +633,13 @@ Con θ_siniestralidad = 1.5 (la siniestralidad que activa la investigación regu
 
 t_detección ≈ log (1.5/1.75) / log (1.05) ≈ −0.154 /
 
-### 0.0488 ≈ −3.15 → 0 años (ya superó)
+#### 0.0488 ≈ −3.15 → 0 años (ya superó)
 
 Este resultado —t_detección negativo— indica que la cartera hipotética del §4 ya ha cruzado el umbral de detección en el momento del análisis. Eso convierte el caso en uno que debe reportarse ahora, no uno que puede esperar. El predictor tiene valor exactamente para esos casos: cuando la acumulación de siniestros anómalos ya supera el umbral, el modelo señala que el tiempo de espera ya venció.
 
 Predictor:  Si t_detección ≤ 0, la cartera ya está en zona de detección regulatoria inevitable. Cada siniestro adicional aumenta P(investigación) de manera no lineal porque la siniestralidad acumulada ya está por encima del umbral. La intervención correcta en ese punto es el reporte proactivo, no esperar al regulador.
 
-### El valor esperado del daño acumulado antes de la detección
+#### El valor esperado del daño acumulado antes de la detección
 
 En carteras donde t_detección > 0 (el umbral aún no se ha cruzado), el daño acumulado esperado antes de la detección es:
 
@@ -660,9 +653,9 @@ t_detección × D_prom
 
 Escenario alternativo — una cartera en estadio inicial (t_detección = 2.5 años):
 
-•  Cartera: 500 pólizas. P_actuarial = 0.8%. P_diseño = 1.3%. D_prom por siniestro = $180,000.
+- Cartera: 500 pólizas. P_actuarial = 0.8%. P_diseño = 1.3%. D_prom por siniestro = $180,000.
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
+
 
 N_adicionales = 500 × (0.013 − 0.008) × 2.5 = 6.25
 
@@ -672,7 +665,7 @@ D_acumulado = 6.25 × $180,000 = $1,125,000 USD
 
 El diseño predatorio producirá 6.25 siniestros adicionales por encima de la base actuarial, con un daño de $1.125 millones, antes de que el regulador intervenga. Eso no es el Δ_B de la aseguradora (que incluye las primas adicionales y el margen del diseño): es el daño directo adicional a los asegurados producido por el incentivo que el diseño creó.
 
-### La curva de detección y el valor de la denuncia proactiva
+#### La curva de detección y el valor de la denuncia proactiva
 
 La probabilidad de detección regulatoria no es constante: crece con el tiempo a medida que la siniestralidad anómala se acumula. Modelada como función logística:
 
@@ -694,27 +687,24 @@ Año 2 38% $900,000 Reporte proactivo + rediseño
 
 Año 3 73% $1,350,000 Reporte urgente (umbral superado)
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 Año 4 92% $1,800,000 Investigación regulatoria activa
 
 La columna de estrategia óptima es la aplicación directa del modelo: en el año 1, el rediseño del producto que elimina la sobrecobertura (y con ella el Δ_B) tiene el mayor ROI porque la probabilidad de detección es aún baja y el daño acumulado es mínimo. En el año 3, el umbral ya se superó y la única estrategia que reduce el daño es el reporte proactivo combinado con el rediseño.
 
-### Código de referencia: predictor de siniestros adicionales y curva de detección
+#### Código de referencia: predictor de siniestros adicionales y curva de detección
 
 import numpy as np import math  def predictor_siniestros_adicionales(cartera, P_actuarial, P_diseno, t_deteccion, D_promedio_siniestro):     """     Estima el número de siniestros adicionales y el daño acumulado     producido por un diseño predatorio antes de la detección regulatoria.     """     if t_deteccion <= 0: return {'alerta': 'UMBRAL YA SUPERADO — reportar inmediatamente',                 't_deteccion': 0, 'N_adicionales': 0, 'D_acumulado': 0}     N_adic = cartera * (P_diseno - P_actuarial) * t_deteccion     D_acum = N_adic * D_promedio_siniestro     return {'t_deteccion_anios': t_deteccion,             'N_adicionales_esperados': round(N_adic, 2),             'D_acumulado_esperado': D_acum, 'costo_por_anio_de_espera': D_acum / t_deteccion}  def curva_deteccion(t_deteccion, k=2.0, horizontes=range(1,6)):     """ P(detección regulatoria) en función del tiempo,     modelada como función logística.     """     return {t: 1/(1+math.exp(-k*(t-t_deteccion))) for t in horizontes}  def t_deteccion_regulatoria(ratio_inicial, theta_ratio, crecimiento_anual):     """     Tiempo hasta que la siniestralidad anómala cruza el umbral regulatorio.     t_det < 0 → umbral ya superado.     """ if ratio_inicial >= theta_ratio:         return 0.0  # ya superado     return math.log(theta_ratio / ratio_inicial) / math.log(1 + crecimiento_anual) # ── Ejemplo ── # Caso donde el umbral ya se superó t_caso1 = t_deteccion_regulatoria(1.75, 1.50, 0.05) print(f"Caso pólizas vida colectiva: t_detección = {t_caso1:.2f} años (≤0 = ya superado)")  # Cartera en estadio inicial t_caso2 = t_deteccion_regulatoria(1.10, 1.50, 0.07) print(f"Cartera estadio inicial:     t_detección = {t_caso2:.2f} años") res2 = predictor_siniestros_adicionales(500, 0.008, 0.013, t_caso2, 180_000) print("\n=== Siniestros adicionales (cartera inicial) ===") for k, v in res2.items():     print(f"  {k}: {v}")  curva = curva_deteccion(t_caso2, k=2.0) print("\n=== Curva de detección
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 regulatoria ===") for t, p in curva.items():     print(f"  Año {t}: P(detección) = {p:.1%}")
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 §6.  Profundización formal — Esta sección puede saltarse sin perder el argumento del capítulo
 
 ### §6.  Profundización formal
 
-### 6.1 La ecuación de la prima actuarialmente justa ajustada por R*
+#### 6.1 La ecuación de la prima actuarialmente justa ajustada por R*
 
 La prima actuarial convencional es:
 
@@ -736,9 +726,8 @@ donde R*_i × (1 − S_i) es la contribución causal idiosincrática del asegura
 
 Si Σᵢ [R*_i × (1−S_i)] < 1 (porque parte del riesgo es estructural y no idiosincrático de ningún asegurado), la diferencia debe ser cubierta por el regulador o el diseñador del entorno de riesgo mediante fondos de compensación — no por el asegurado que no la causó.
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
-### 6.2 El modelo de riesgo moral con R*: más allá de la moral hazard clásico
+#### 6.2 El modelo de riesgo moral con R*: más allá de la moral hazard clásico
 
 El modelo clásico de riesgo moral establece que el asegurado reduce el nivel de precaución e cuando está cubierto:
 
@@ -756,7 +745,7 @@ R*_aseguradora ≈ f (Suma_asegurada / Valor_real_activo, 1/P(detección_moral_h
 
 La función f es creciente en ambos argumentos: mayor sobrecobertura y menor detección del riesgo moral producen mayor R*_aseguradora en el siniestro.
 
-### 6.3 El Δ_B como criterio regulatorio de multas disuasorias
+#### 6.3 El Δ_B como criterio regulatorio de multas disuasorias
 
 La fórmula de la multa mínima disuasoria desarrollada en §4.3 puede generalizarse:
 
@@ -770,11 +759,10 @@ P(det.) × ε < 0
 
 La regulación convencional fija multas basadas en criterios de disuasión arbitrarios o en proporciones del volumen de negocios. La fórmula del Δ_B produce multas calibradas exactamente al beneficio predatorio no asumido, lo que las hace proporcionales al daño causado y suficientemente disuasorias.
 
-### 6.4 Código Python de referencia
+#### 6.4 Código Python de referencia
 
 import numpy as np from scipy.stats import pearsonr  def analisis_seguro(W_siniestro, alpha_nodos,                     D_total, B_asegurado, B_aseguradora,                     alpha_B_asegurado, alpha_B_aseguradora,                     P_deteccion=0.30, w_ref=8.0):     """ Análisis causal de siniestro asegurador.     W_siniestro:         matriz de pesos del grafo del siniestro     alpha_nodos:         α por nodo (mitigación implementada)     D_total:             daño total del siniestro B_asegurado:         beneficio que el asegurado obtiene del siniestro B_aseguradora:       beneficio que la aseguradora obtuvo del diseño alpha_B_asegurado:   fracción que el asegurado devolvió/asumió alpha_B_aseguradora: fracción que la aseguradora reconoció P_deteccion:         probabilidad de que el regulador detecte el fraude """     n = W_siniestro.shape[0]      # ── R*: contribución causal al siniestro ──     R = np.ones(n) / n     for _ in range(500):         Rn = W_siniestro @ R; s = np.sum(Rn)         if s < 1e-12: break         Rn /= s if np.max(np.abs(Rn - R)) < 1e-9: break         R = Rn     R_star = Rn # ── S: fungibilidad del factor de riesgo ──     S = np.zeros(n)     for i in range(n):         max_c = 0         for j in range(n):             if j == i: continue             Wm = W_siniestro.copy()             Wm[i,:] = np.mean(W_siniestro, axis=0)             Rm = np.ones(n)/n             for _ in range(200):                 Rm2 = Wm @ Rm; sm = np.sum(Rm2) if sm < 1e-12: break                 Rm2 /= sm                 if np.max(np.abs(Rm2-Rm)) < 1e-6: break                 Rm = Rm2             c, _ = pearsonr(R_star, Rm2)             max_c = max(max_c, abs(c)) S[i] = 1 - max_c      Delta = R_star - alpha_nodos     R_neta = R_star * (1 - S)      # ── Ajuste de indemnización ──     # Fracción del D_total causalmente atribuible al asegurado (nodo 0)     R_asegurado_neto = float(R_neta[0])     indemnizacion_justa = (1 - R_asegurado_neto) * D_total      # ── Δ_B: déficit de asunción del beneficio ── Delta_B_asegurado = B_asegurado * (1 - alpha_B_asegurado) Delta_B_aseguradora = B_aseguradora * (1 - alpha_B_aseguradora) # ── Multa mínima disuasoria ──     multa_minima = Delta_B_aseguradora / P_deteccion      # ── Prima actuarialmente justa
 
-El Cálculo de la Responsabilidad · Cap. 10 — Seguros y actuaría
 
 ──     prima_justa_asegurado = R_star[0] * (1 - S[0]) * D_total      # ── Daño en tiempo de vida ──     D_vital = D_total / w_ref      return { 'R_star': R_star,         'S': S,         'Delta_mitigacion': Delta,         'R_neta': R_neta,         'indemnizacion_justa': indemnizacion_justa, 'Delta_B_asegurado': Delta_B_asegurado,         'Delta_B_aseguradora': Delta_B_aseguradora,         'multa_minima_disuasoria': multa_minima, 'prima_justa_asegurado': prima_justa_asegurado,         'D_vital_horas': D_vital,         'J_sistema': float(1 - np.sum(np.abs(Delta))),     }  # ── Ejemplo: Triangle Shirtwaist (simplificado, valores 2024 USD) ── W_tri = np.zeros((6, 6)) # N0=propietarios, N1=regulador, N2=aseguradora, N3=sector, N4=materiales, N5=Nf W_tri[0,5]=0.85; W_tri[1,5]=0.75; W_tri[2,5]=0.45 W_tri[3,5]=0.35; W_tri[4,5]=0.25 W_tri[1,0]=0.60  # regulador habilitó a propietarios W_tri[3,0]=0.40  # sector normalizó prácticas de propietarios  alpha_t = np.array([0.00, 0.05, 0.02, 0.10, 0.15, 0.0]) D_total_t = 705_000_000      # USD 2024 B_asegurado_t = 13_000_000   # póliza cobrada (USD 2024) B_asegurado_real_t = 12_600_000  # valor real activo B_aseguradora_t = 5_000_000  # primas + diferencial sobrecobertura (2024)  resultado_t = analisis_seguro(     W_tri, alpha_t, D_total_t, B_asegurado=B_asegurado_t,     B_aseguradora=B_aseguradora_t, alpha_B_asegurado=0.00,     alpha_B_aseguradora=0.00, P_deteccion=0.40, w_ref=8.0 ) nodos_t = ['N0-Propiet.','N1-Regulador','N2-Aseguradora','N3-Sector','N4-Material','Nf'] print("=== Triangle Shirtwaist — Análisis causal del siniestro ===") for nm, rs, si, di in zip(nodos_t, resultado_t['R_star'],                            resultado_t['S'], resultado_t['Delta_mitigacion']):     print(f"  {nm:18s} R*={rs:.3f} S={si:.2f} Δ={di:+.3f}")  ind = resultado_t['indemnizacion_justa'] dba = resultado_t['Delta_B_aseguradora'] multa = resultado_t['multa_minima_disuasoria'] J = resultado_t['J_sistema'] dvh = resultado_t['D_vital_horas'] print(f"\nIndemnización justa a víctimas: USD {ind/1e6:.1f}M") print(f"Δ_B aseguradora:                USD {dba/1e6:.2f}M") print(f"Multa mínima disuasoria:        USD {multa/1e6:.1f}M") print(f"J (justicia estructural):       {J:.3f}") print(f"D_vital (horas):                {dvh:,.0f}")
 
@@ -782,5 +770,4 @@ Miguel Hilario Olvera Aguilar Centro Multidisciplinario Meriadock Formación y A
 
 Continúa en el Capítulo 11 — Gobierno corporativo
 
-El Cálculo de la Responsabilidad · Cap. 11 — Gobierno corporativo
 
