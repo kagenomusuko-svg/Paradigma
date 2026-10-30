@@ -1,12 +1,7 @@
-### B·IV · §5 ·  CRITERIOS DE DERIVACIÓN
+# B·IV·5 · CRITERIOS DE DERIVACIÓN FUERA DEL PARADIGMA
+## Cuándo el caso supera ECO y el acompañamiento ontológico
 
-### FUERA DEL PARADIGMA
-
-### Cuándo el caso supera ECO y el
-
-acompañamiento ontológico Psicoterapia · Psiquiatría · Intervención jurídica · El principio ético de
-
-la derivación
+*Psicoterapia · Psiquiatría · Intervención jurídica · El principio ético de la derivación*
 
 ### V.  El principio de derivación como criterio ético fundacional
 
@@ -14,7 +9,6 @@ La derivación fuera del paradigma no es el fracaso del instrumento: es uno de s
 
 El principio ético que fundamenta la derivación es simple y absoluto: el bienestar del sujeto es el criterio de referencia del proceso, no la coherencia del proceso con los instrumentos disponibles en el paradigma. El mediador que continúa un proceso porque el paradigma tiene herramientas — aunque el caso requiera herramientas que el paradigma no tiene — está subordinando el bienestar del sujeto a la coherencia del proceso. Esa inversión de prioridades es el error ético más grave que el paradigma puede
 
-Entrevista Clínica Ontológica · ECO
 
 producir, y el principio de derivación existe precisamente para evitarlo.
 
@@ -26,7 +20,6 @@ Por qué el principio de derivación es ético y no técnico
 
 La razón por la que el principio de derivación es un criterio ético y no solo una decisión técnica sobre la pertinencia del instrumento es que el mediador que no deriva cuando debe hacerlo produce daño. No produce daño accidental — produce daño como consecuencia de una decisión de continuar cuando debería detener. La responsabilidad de esa decisión es del mediador, no del instrumento. ECO puede no tener la herramienta para abordar una ideación suicida activa: pero el mediador que administra ECO en presencia de señales de ideación suicida y no detiene el proceso para derivar a intervención clínica no está siendo fiel al instrumento — está cometiendo una falla ética que el instrumento no puede absorber.
 
-Entrevista Clínica Ontológica · ECO
 
 El principio de derivación tiene una consecuencia para la formación de mediadores que el programa de formación del paradigma debe incorporar: el mediador debe poder identificar las señales que activan la derivación antes de que el caso llegue a un punto de crisis. La detección temprana de señales de riesgo —durante la administración de ECO, en los módulos de observación directa, en las respuestas a los sondeos del Eje IV y el Eje V— es una competencia de formación tan importante como la capacidad de localizar los Hijos del Bloque I con precisión. El mediador que no puede leer las señales de derivación a tiempo es un mediador incompleto, aunque su destreza técnica de localización sea excepcional.
 
@@ -38,7 +31,6 @@ Hay señales que, cuando aparecen durante la administración de ECO, activan la 
 
 ⚠  D·URG·2  Señales de episodio psicótico, maníaco o disociativo activo Señales: El sujeto muestra durante la sesión pérdida de contacto con la realidad compartida: afirmaciones que no corresponden a la realidad factual sin capacidad de reconocerlo, estado de euforia o agitación que no puede orientarse por el campo de la sesión, episodios de ausencia o de disociación observable, o desorientación sobre el contexto de la sesión. Acción: Suspender la administración de ECO. No intervenir sobre el contenido del episodio — no corregir, no interpretar, no orientar el contenido. Proveer presencia calmante sin contenido clínico. Activar protocolo de derivación a evaluación
 
-### Entrevista Clínica Ontológica · ECO
 
 psiquiátrica urgente según el contexto. Si el sujeto está solo, evaluar si puede llegar a servicios de atención de manera segura o si requiere acompañamiento.
 
@@ -60,7 +52,6 @@ Alta (puede ser urgente o programada según la intensidad de la señal).
 
 D-2 profundo con señales de origen traumático. Duelo fijado en T-2 de alta intensidad por período prolongado. Ideación autolítica o autolesiva de cualquier intensidad. Señales de disociación o de pérdida de contacto
 
-### Entrevista Clínica Ontológica · ECO
 
 con la realidad durante la sesión.
 
@@ -94,7 +85,6 @@ Derivación a otro mediador del paradigma
 
 Mediador con perfil específico más adecuado al
 
-### Entrevista Clínica Ontológica · ECO
 
 el mediador actual no tiene. El mediador actual tiene conflicto de interés con el sujeto o el encargo. El caso colectivo requiere un equipo de mediadores y el mediador actual solo puede cubrir una parte del trabajo.
 
@@ -106,7 +96,6 @@ D·PROG·2  Trauma complejo que instaló D-2 como mecanismo de sobrevivencia Se�
 
 D·PROG·3  Duelo fijado en T-2 de alta intensidad por período prolongado Señales: Sujeto en T-2 activo por más de dos años sin movimiento en el vector tanatológico, con interferencia significativa en el funcionamiento cotidiano (incapacidad de trabajar, de mantener vínculos, de atender necesidades básicas). El duelo de alta intensidad sin movimiento por período prolongado puede corresponder a duelo complicado que requiere intervención clínica especializada. Acción: Derivar a psicoterapia especializada en duelo como condición previa o paralela al trabajo ontológico. El trabajo de Histos sobre el vector tanatológico puede
 
-Entrevista Clínica Ontológica · ECO
 
 complementar la psicoterapia, pero no la reemplaza cuando el duelo tiene la intensidad y la cronicidad que los criterios de duelo complicado describen.
 
@@ -120,7 +109,6 @@ La formulación de la derivación desde una posición de integridad es la que no
 
 La formulación de la derivación que honra la relación sin producir el error E·1: «En lo que hemos explorado, hay algo que me hace pensar que el proceso que sigue requiere un tipo de apoyo especializado que no está en el ámbito de lo que yo puedo proveer. Eso no significa
 
-Entrevista Clínica Ontológica · ECO
 
 que lo que hicimos no sea válido — es que hay una dimensión de lo que estás viviendo que necesita el tipo de acompañamiento que [profesional clínico / servicios de protección / otro] puede ofrecer de manera más apropiada. Me comprometo a acompañar la transición hacia ese apoyo y a seguir disponible para el trabajo ontológico cuando las condiciones lo permitan». Esa formulación honra al sujeto, honra al proceso y honra al principio de derivación.
 
@@ -132,7 +120,6 @@ La condición para esa complementariedad: el mediador debe establecer comunicaci
 
 Regla de coordinación con el profesional clínico al que se derivó El mediador que trabaja en paralelo con un profesional clínico establece con el sujeto: (1) consentimiento para coordinar con el profesional clínico sobre el foco y los límites de cada proceso; (2) qué información puede compartirse entre los dos profesionales y qué
 
-Entrevista Clínica Ontológica · ECO
 
 información permanece en la confidencialidad de cada proceso; (3) el criterio que determinará si los dos procesos pueden continuar en paralelo o si uno debe esperar al otro. Sin ese acuerdo explícito con el sujeto, el mediador no puede asumir que la coordinación es posible ni que el proceso en paralelo es apropiado.
 
@@ -144,9 +131,10 @@ La madurez del paradigma se expresa también en la disposición a reconocer que 
 
 La competencia ética del mediador — síntesis del Bloque IV El mediador del paradigma de Mediación Ontológica tiene dos tipos de competencia que deben estar presentes simultáneamente: la competencia técnica (precisión en la localización, dominio de los módulos, capacidad de traducir la localización al proceso de acompañamiento) y la competencia ética (saber cuándo la localización no es suficiente, cuándo el proceso debe derivar, cuándo el bienestar del sujeto requiere algo que el paradigma no puede proveer). La competencia técnica sin la ética produce un instrumento sin humanidad. La ética sin la técnica produce humanidad sin orientación. El Bloque IV existe para establecer que las dos competencias son inseparables.
 
-Entrevista Clínica Ontológica · ECO
 
-Notas al B·IV §5
+---
+
+## Notas al B·IV §5
 
 1 El principio de derivación como criterio ético fundacional no es exclusivo del paradigma de Mediación Ontológica: es un principio compartido por todos los sistemas de acompañamiento que operan con seriedad. Lo que el paradigma añade es la formalización de ese principio en un conjunto de señales específicas que el instrumento ECO puede producir y que activan protocolos de derivación definidos. Esa formalización transforma el principio ético en competencia técnica: el mediador no solo sabe que debe derivar — sabe cuándo y a dónde, desde las señales específicas que el instrumento identificó.
 
@@ -156,8 +144,5 @@ Notas al B·IV §5
 
 4 La síntesis del Bloque IV que la caja de conclusión al final del §5 produce — las dos competencias del mediador como inseparables — tiene un antecedente en la tradición de las profesiones de cuidado que el paradigma puede reconocer sin adoptarla como propia: la competencia técnica y la competencia ética son inseparables en cualquier práctica que trabaja con el bienestar de personas. El paradigma de Mediación Ontológica no reinventa ese principio: lo implementa en el lenguaje y los instrumentos específicos del sistema ontológico. La innovación del sistema no está en el principio ético — que es compartido — sino en la precisión técnica con la que ese principio puede implementarse desde las localizaciones que ECO produce.
 
-Entrevista Clínica Ontológica · ECO
-
 
 <!-- FORMULARIO: A·1 | salto de página | campos rellenables, casillas de verificación, tablas de localización y áreas de notas -->
-
