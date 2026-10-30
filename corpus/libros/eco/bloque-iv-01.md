@@ -1,18 +1,10 @@
-### B·IV ·  PRINCIPIOS GENERALES DE
+# B·IV·1 · PRINCIPIOS GENERALES DE INTERVENCIÓN
+## Lo que el instrumento pide del mediador
 
-### INTERVENCIÓN
-
-Lo que el instrumento pide del mediador Los cinco errores más frecuentes · Uso de la localización sin nombrarla ·
-
-Cuándo ECO se ha agotado · Cómo pasar a Histos
-
-El Bloque IV no es el apéndice del instrumento: es la columna que sostiene su uso. Los Bloques I, II y III establecen cómo localizar. El Bloque IV establece qué hacer con lo que se localizó. Sin él, el instrumento tiene la misma deficiencia de todos los instrumentos diagnósticos sin protocolo de uso: produce información correcta que el operador usa incorrectamente, neutralizando el valor de la localización.
-
-La hipótesis de trabajo del Bloque IV es que la mayoría de los errores que comprometen el proceso de acompañamiento después de ECO no son errores de localización —el mediador localizó bien— sino errores de intervención: el mediador no supo qué hacer con lo que encontró. Esa hipótesis tiene una consecuencia metodológica: el rigor del instrumento se evalúa tanto por la precisión de sus localizaciones como por la calidad del uso que el mediador hace de ellas. Un instrumento que produce localizaciones precisas pero que no provee un protocolo de uso suficientemente desarrollado transfiere al sujeto los riesgos de las intervenciones incorrectas del mediador.
+*Los cinco errores más frecuentes · Uso de la localización sin nombrarla · Cuándo ECO se ha agotado · Cómo pasar a Histos*
 
 ### I.  Lo que el mediador nunca hace con lo que encontró
 
-### Entrevista Clínica Ontológica · ECO
 
 Esta sección establece los cinco errores de intervención post-localización más frecuentes y más dañinos. Los cinco son conductas que el mediador puede ejecutar con buena intención y con la creencia de que está ayudando —lo que los hace especialmente importantes de nombrar con precisión. No son errores éticos en el sentido de que el mediador quiera dañar: son errores ontológicos en el sentido de que el mediador interviene desde una comprensión incorrecta de cómo funciona el proceso de acompañamiento.
 
@@ -42,7 +34,6 @@ Contamina la relación del sujeto con su propia localización. El sujeto busca m
 
 El sujeto empieza a producir señales de la localización que percibe como más deseable en el sistema. Las señales de Anteros o de E-1 se multiplican aunque no correspondan
 
-### Entrevista Clínica Ontológica · ECO
 
 al estado del sujeto.
 
@@ -68,7 +59,6 @@ El primer error es el más frecuente y el que produce el daño más difícil de 
 
 El mecanismo específico de daño tiene dos formas. La primera es la activación de la egolatría propia del sujeto: si el mediador le dice que está en Anteros o en E-1, el sujeto que tiene egolatría de persona íntegra y con criterio propio adopta esa localización como
 
-Entrevista Clínica Ontológica · ECO
 
 confirmación de una imagen que ya tenía y que ahora tiene validación técnica. Ese sujeto no trabaja con Anteros: habita la imagen de Anteros que le confirma lo que ya pensaba de sí mismo. La segunda forma es el colapso ante el diagnóstico: si el mediador le dice que está en M-2 o en D-2, el sujeto que no tiene acceso a los recursos para integrar esa información puede producir una crisis de identidad que el proceso de acompañamiento no estaba preparado para sostener. Ni la primera ni la segunda forma produce las condiciones para el trabajo de Histos.
 
@@ -80,7 +70,6 @@ La regla más importante del instrumento sobre este error: la localización que 
 
 La instrucción técnica específica: el mediador puede usar el lenguaje del sistema para documentar y para pensar el caso, pero no para hablar con el sujeto. «El sujeto está en T-3 con señal de Fobos activo» es una nota interna del mediador. «Parece que hay algo que produce urgencia en cómo describes este período» es la manera en
 
-Entrevista Clínica Ontológica · ECO
 
 que esa nota interna puede traducirse al campo de la sesión sin revelar la localización.
 
@@ -94,7 +83,6 @@ La intervención prematura es especialmente problemática en los casos de D-2: s
 
 ⊗  E·2 — La intervención prematura
 
-Entrevista Clínica Ontológica · ECO
 
 Descripción: El mediador interviene sobre la localización de ECO antes de que el proceso de Histos haya creado las condiciones para que el ego genuino del sujeto pueda producir señal desde esa localización. Mecanismo de daño: El proceso de acompañamiento trabaja sobre la capa de adaptación del sujeto (M-2, E-4, o la suma fáctica de E-2) que produce la respuesta que el proceso demanda, en lugar de trabajar sobre el ego genuino. El progreso aparente no corresponde a ningún cambio en la configuración real de la voluntad del sujeto. Consecuencia clínica: El sujeto puede describir al final del proceso que «entiende mejor» su situación, que «tiene más herramientas», que el proceso fue «valioso». Y simultáneamente puede no haber producido ningún cambio en la manera en que orienta la voluntad en los actos cotidianos, porque el ego genuino nunca fue el actor del proceso.
 
@@ -106,7 +94,6 @@ El tercer error convierte el instrumento diagnóstico en un instrumento evaluati
 
 El mecanismo de daño es análogo al de E·1 pero con una dinámica específica: E·3 no produce el colapso ni la adopción de la imagen del diagnóstico sino la optimización de la presentación. El sujeto en E·3 producirá señales de Anteros, aunque esté en E-4, señales de Eros, aunque esté en Deimos, señales de T-4 aunque esté en T-1 —no porque mienta sino porque el campo del proceso de
 
-Entrevista Clínica Ontológica · ECO
 
 acompañamiento recompensa esas localizaciones y el sujeto, como todo actor en un campo relacional, aprende las reglas del campo y las sigue. El resultado es que la hoja de síntesis de Histos contiene localizaciones progresivamente más «positivas» que corresponden al aprendizaje del campo y no al estado del ego genuino del sujeto.
 
@@ -118,7 +105,6 @@ El error E·3 tiene una forma especialmente sutil que merece descripción separa
 
 Una instrucción técnica sobre la temperatura del mediador: la calibración de la temperatura propia ante las distintas localizaciones es una de las destrezas de formación que el paradigma requiere para todos sus mediadores, sin excepción. Un mediador que nunca trabajó su propia posición ante D-2 —su propia incomodidad con la anestesia ontológica o con la suma fáctica— va a producir diferencia de temperatura cuando un sujeto la produce, y esa diferencia va a contaminar el proceso.
 
-Entrevista Clínica Ontológica · ECO
 
 La calibración del propio campo que el Capítulo P·3 establece como condición de administración de ECO aplica con igual fuerza al proceso de Histos.
 
@@ -132,7 +118,6 @@ La sustitución de la narrativa es el error que más frecuentemente produce el s
 
 ⊗  E·4 — La sustitución de la narrativa Descripción: El mediador completa, reformula o reemplaza la narrativa del sujeto con interpretaciones, marcos o vocabulario del sistema ontológico antes de que el sujeto los haya producido desde su propia experiencia.
 
-Entrevista Clínica Ontológica · ECO
 
 Mecanismo de daño: La narrativa del sujeto es colonizada por la narrativa del mediador. El sujeto aprende a hablar con los términos del sistema sin que el sistema haya contactado su ego genuino. Las localizaciones del instrumento reflejan el aprendizaje del marco interpretativo del mediador, no el estado del ego genuino del sujeto. Consecuencia clínica: El proceso de acompañamiento produce lo que podría llamarse «el buen paciente del sistema»: el sujeto produce las narrativas correctas, parece tener insight genuino, y no ha producido ningún cambio en la configuración real de su voluntad porque el ego genuino nunca fue el actor del proceso.
 
@@ -144,7 +129,6 @@ El quinto error es el más sistémico de los cinco: ocurre cuando el proceso de 
 
 La razón por la que este error es sistémico es que puede ser producido por el sujeto o por el campo institucional además de por el mediador. El sujeto que consigue un diagnóstico preciso puede sentir que ya tiene lo que necesita —el conocimiento de su estado— y no querer el acompañamiento que ese conocimiento haría posible. El campo institucional que encarga ECO para «conocer el estado» de un equipo o de una comunidad puede no haber previsto ni tener capacidad para la intervención que ECO orienta. En esos casos, el mediador no produce el error E·5 por sí solo: lo produce en colaboración con un encargo que no contempló la continuidad hacia Histos.
 
-Entrevista Clínica Ontológica · ECO
 
 La consecuencia del error E·5 es que el instrumento produce información sin transformación. La localización de un sujeto en D-2 profundo sin continuidad hacia Histos no solo no ayuda al sujeto: puede ser dañina. El sujeto que sabe —a través del mediador o de la hoja de síntesis— que fue localizado en D-2 sin que haya proceso de acompañamiento que trabaje con esa localización tiene información que no puede usar y que puede producir angustia si la comprendió o indiferencia si la adoptó como otra narrativa más sobre sí mismo.
 
@@ -156,7 +140,6 @@ Existe una forma legítima de administrar ECO sin continuidad inmediata hacia Hi
 
 La condición de uso que los cinco errores describen colectivamente
 
-Entrevista Clínica Ontológica · ECO
 
 Los cinco errores no son una lista de prohibiciones independientes: son la descripción colectiva de una condición de uso del instrumento. Esa condición es: ECO es un instrumento de localización que el mediador usa internamente para orientar el proceso de acompañamiento, no un instrumento que produce información que el sujeto consume. La localización le pertenece al mediador hasta que Histos crea las condiciones para que el sujeto pueda encontrarla desde sí mismo. Esta condición de uso no es una restricción burocrática del paradigma: es la condición que hace posible que el instrumento sea genuinamente útil.
 
@@ -164,7 +147,9 @@ El mediador que puede incorporar esa condición de uso no como regla que cumple 
 
 La condición de uso del instrumento — formulación técnica ECO produce la localización del estado del ego genuino del sujeto en los módulos del Bloque I, los ejes del Bloque II, y el ego colectivo del Bloque III. Esa localización es información del mediador que orienta el proceso de Histos. No es un diagnóstico que se transmite al sujeto. No produce transformación por sí sola. No puede usarse sin continuidad hacia Histos excepto en las condiciones específicas que el instrumento establece. La precisión de la localización es condición necesaria pero no suficiente para el proceso de acompañamiento.
 
-Notas al B·IV §1
+---
+
+## Notas al B·IV §1
 
 1 Los cinco errores descritos en esta sección son los más frecuentes y los que producen daños sistemáticos en la práctica de mediadores en formación. La práctica también puede revelar otros, como cuando el mediador usa su propia historia como marco de lectura del sujeto o conduce Histos desde su propio ego soberano en lugar del ego soberano del sujeto; estos dependen de contextos específicos.
 
@@ -175,4 +160,3 @@ Notas al B·IV §1
 
 
 4 El «buen paciente del sistema» que el error E·4 describe es un fenómeno identificable en cualquier proceso de acompañamiento orientado desde marcos interpretativos explícitos — no solo en el paradigma de Mediación Ontológica. La terapia psicoanalítica produce pacientes que aprenden el lenguaje del inconsciente y de los mecanismos de defensa sin que esos aprendizajes necesariamente correspondan a cambios en la organización psíquica del paciente. La terapia cognitivo-conductual produce pacientes que aprenden a identificar los patrones de pensamiento disfuncional sin que ese aprendizaje produzca cambios en los patrones mismos. El paradigma de Mediación Ontológica no está exento de ese riesgo: el lenguaje del sistema es suficientemente articulado y coherente para producir «buenos pacientes del sistema» si el mediador comete el error E·4 sistemáticamente.
-
