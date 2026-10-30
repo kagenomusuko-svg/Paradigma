@@ -268,11 +268,7 @@ El mediador que se encuentra ante D-2 profundo sin D-1 residual y ante la presi�
 
 La hoja de síntesis de ECO es el documento de transferencia formal entre el instrumento de localización y el instrumento de acompañamiento. Contiene los insumos que Histos necesita para iniciar el proceso de acompañamiento con orientación: la distribución P(Hijos) con sus niveles EP, los códigos de los cinco ejes del SDO, la nota de recursos disponibles del ego genuino, y las notas de incertidumbre cuando aplican. Cada componente de la hoja de síntesis tiene una función específica en el diseño del inicio de Histos.
 
-Componente de ECO
-
-Qué insumo entrega a Histos
-
-Qué hace Histos con ese insumo
+<!-- TABLA: hoja de síntesis ECO → Histos | columnas: componente ECO, insumo entregado, uso en Histos -->
 
 Distribución P(Hijos) del Bloque I
 
